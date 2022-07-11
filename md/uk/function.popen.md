@@ -52,7 +52,7 @@ popen — Відкриває файловий покажчик процесу
 
 **Приклад #1 Приклад використання функції **popen()****
 
-` <?php$handle u003d popen("/bin/ls", "r");?> `
+` <?php$handle = popen("/bin/ls", "r");?> `
 
 Якщо команда для виконання не може бути знайдена, буде повернено
 коректний ресурс. Це може бути дивно, але має сенс; це дає
@@ -61,8 +61,8 @@ popen — Відкриває файловий покажчик процесу
 
 **Приклад #2 Приклад використання функції **popen()****
 
-` <?phperror_reporting(E_ALL);/* Додаємо перенаправлення, щоб прочитати stderr. */$handleu003du003dpopen('/path/to/executable 2>&1', 'r');echo "'$handle'; " . gettype($handle) . "
-";$read u003d fread($handle, 2096);echo $read;pclose($handle);?> `
+` <?phperror_reporting(E_ALL);/* Додаємо перенаправлення, щоб прочитати stderr. */$handle==popen('/path/to/executable 2>&1', 'r');echo "'$handle'; " . gettype($handle) . "
+";$read = fread($handle, 2096);echo $read;pclose($handle);?> `
 
 ### Примітки
 

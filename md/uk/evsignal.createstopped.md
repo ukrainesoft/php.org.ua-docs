@@ -7,7 +7,7 @@
 
 # EvSignal::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvSignal::createStopped — Create stopped EvSignal watcher object
 
@@ -18,8 +18,8 @@ int `$signum` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvSignal](class.evsignal.md)
 
 Створює зупинений об'єкт спостерігача EvSignal. На відміну від

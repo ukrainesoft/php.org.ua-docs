@@ -8,7 +8,7 @@
 
 # socket_select
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_select — Запуск системного виклику select() для заданих масивів
 сокетів із зазначеним часом очікування
@@ -20,7 +20,7 @@ socket_select — Запуск системного виклику select() дл
 ?array `&$write`,
 ?array `&$except`,
 ?int `$seconds`,
-int `$microseconds` u003d 0
+int `$microseconds` = 0
 ): int\|false
 
 **socket_select()** приймає масиви сокетів і чекає їх зміни
@@ -75,7 +75,7 @@ int `$microseconds` u003d 0
 >
 > **Приклад #1 Використання **`null`** у **socket_select()****
 >
-> ` <?php$e u003d NULL;socket_select($r, $w, $e, 0);?> `
+> ` <?php$e = NULL;socket_select($r, $w, $e, 0);?> `
 
 ### Значення, що повертаються
 
@@ -88,20 +88,20 @@ int `$microseconds` u003d 0
 
 > **Примітка**:
 >
-> Обов'язково використовуйте оператор `u003du003du003d` під час перевірки помилки.
-> Оскільки **socket_select()** може повертати 0, порівняння з `u003du003d`
+> Обов'язково використовуйте оператор `===` під час перевірки помилки.
+> Оскільки **socket_select()** може повертати 0, порівняння з `==`
 > оцінюватиметься як **`true`**:
 >
 > **Приклад #2 Аналіз результату **socket_select()****
 >
-> ` <?php$e u003d NULL;if (false u003du003du003d socket_select($r, $w, $e, 0)) {    echo "Невдалий виклик socket_select(), причина: " . socket_strerror(socket_last_error()) . "
+> ` <?php$e = NULL;if (false === socket_select($r, $w, $e, 0)) {    echo "Невдалий виклик socket_select(), причина: " . socket_strerror(socket_last_error()) . "
 ";}?> `
 
 ### Приклади
 
 **Приклад #3 Приклад використання **socket_select()****
 
-`<?php/* Підготувати масив сокетів для читання */$read    u003d array($socket1, $socket2);$write  u003d NULL;$except u003d NULL;$num_changed_$ );if ($num_changed_sockets u003du003du003d false) {    /* Обработка ошибок */} else if ($num_changed_sockets > 0) {    /* По крайней мере, в одном из сокетов произошло что-то интересное */}?> `
+`<?php/* Підготувати масив сокетів для читання */$read    = array($socket1, $socket2);$write  = NULL;$except = NULL;$num_changed_$ );if ($num_changed_sockets === false) {    /* Обработка ошибок */} else if ($num_changed_sockets > 0) {    /* По крайней мере, в одном из сокетов произошло что-то интересное */}?> `
 
 ### Примітки
 

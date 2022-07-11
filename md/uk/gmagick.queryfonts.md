@@ -7,13 +7,13 @@
 
 # Gmagick::queryfonts
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::queryfonts — Повертає налаштовані шрифти
 
 ### Опис
 
-public **Gmagick::queryfonts**(string `$pattern` u003d "\*"): array
+public **Gmagick::queryfonts**(string `$pattern` = "\*"): array
 
 Повертає шрифти, що підтримуються [Gmagick](class.gmagick.md).
 

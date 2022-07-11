@@ -21,7 +21,7 @@ class **ReflectionAttribute** implements
 
 /\* Константи \*/
 
-const int `IS_INSTANCEOF` u003d 2;
+const int `IS_INSTANCEOF` = 2;
 
 /\* Методи \*/
 

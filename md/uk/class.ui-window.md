@@ -24,7 +24,7 @@ protected `$controls`;
 /\* Конструктор \*/
 
 public [\_\_construct](ui-window.construct.md)(string `$title`, Size
-`$size`, bool `$menu` u003d **`false`**)
+`$size`, bool `$menu` = **`false`**)
 
 /\* Методи \*/
 

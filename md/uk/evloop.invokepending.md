@@ -8,7 +8,7 @@
 
 # EvLoop::invokePending
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::invokePending — Викликає всіх спостерігачів, що очікують, при скиданні
 їх відкладеного стану

@@ -7,14 +7,14 @@
 
 #pg_get_notify
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_get_notify — Отримання SQL NOTIFY повідомлення
 
 ### Опис
 
 **pg_get_notify**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`, int `$mode` u003d **`PGSQL_ASSOC`**): array\|false
+`$connection`, int `$mode` = **`PGSQL_ASSOC`**): array\|false
 
 **pg_get_notify()** отримує повідомлення, згенеровані командою SQL
 `NOTIFY`. Для отримання повідомлень використовуйте команду SQL `LISTEN`.
@@ -42,16 +42,16 @@ pg_get_notify — Отримання SQL NOTIFY повідомлення
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                             |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `connection` тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Повідомлення PostgreSQL NOTIFY**
 
-` <?php$conn u003d pg_pconnect("dbnameu003dpublisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}// Слухаємо повідомлення 'author_updated' з іншого процесуpg_query($conn, 'LISTEN author_updated;');$notify u003d pg_get_notify($conn);     
+` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
+";  exit;}// Слухаємо повідомлення 'author_updated' з іншого процесуpg_query($conn, 'LISTEN author_updated;');$notify = pg_get_notify($conn);     
 ";} else {  print_r($notify);}?> `
 
 ### Дивіться також

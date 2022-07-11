@@ -7,7 +7,7 @@
 
 # GearmanClient::do
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::do — Виконує одне завдання та повертає результат
 [Застарілий метод]
@@ -15,7 +15,7 @@ GearmanClient::do — Виконує одне завдання та поверт
 ### Опис
 
 public **GearmanClient::do**(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 Метод **GearmanClient::do()** застарів, починаючи з pecl/gearman 1.0.0.
 Використовуйте [GearmanClient::doNormal()](gearmanclient.donormal.md).
@@ -40,13 +40,13 @@ public **GearmanClient::do**(string `$function_name`, string
 **Приклад #1 Просте представлення завдання з безпосереднім поверненням**
 
 `<?php# Код клієнтаecho "Початок
-";# Створення клієнта$gmclientu003d new GearmanClient();# Вказівка сервера за мовчанням (localhost).$gmclient->addServer();echo "Відправлення завдання
-";$result u003d $gmclient->doNormal("reverse", "Hello!");echo "Успішно: $result
+";# Створення клієнта$gmclient= new GearmanClient();# Вказівка сервера за мовчанням (localhost).$gmclient->addServer();echo "Відправлення завдання
+";$result = $gmclient->doNormal("reverse", "Hello!");echo "Успішно: $result
 ";?> `
 
 `<?phpecho "Початок
-";# Создание экземпляра обработчика$gmworkeru003d new GearmanWorker();# Указание сервера по умолчанию (localhost).$gmworker->addServer();# Регистрация функции "reverse" на сервере. Изменение функции обработчика на# "reverse_fn_fast" для более швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Чекання завдання...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|
+";# Создание экземпляра обработчика$gmworker= new GearmanWorker();# Указание сервера по умолчанию (localhost).$gmworker->addServer();# Регистрация функции "reverse" на сервере. Изменение функции обработчика на# "reverse_fn_fast" для более швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Чекання завдання...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|
 ";   break; }}function reverse_fn($job){ return strrev($job->workload());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -64,22 +64,22 @@ public **GearmanClient::do**(string `$function_name`, string
 **GearmanClient::do()** виводить інформацію про статус виконання поточного
 завдання.
 
-`<?php# Код клієнта# Створення примірника клієнта Gearman$gmclientu003d new GearmanClient();# Вказівка сервера за замовчуванням (localhost).$gmclient->addServer();ech
-";# Отправка задания reversedo{  $result u003d $gmclient->doNormal("reverse", "Hello!");  # Проверка на различные возвращаемые форматы и ошибки  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA:      echo " Дані: $result
-";      break;   case GEARMAN_WORK_STATUS:     list($numerator, $denominator)u003d $gmclient->doStatus(); Та:
+`<?php# Код клієнта# Створення примірника клієнта Gearman$gmclient= new GearmanClient();# Вказівка сервера за замовчуванням (localhost).$gmclient->addServer();ech
+";# Отправка задания reversedo{  $result = $gmclient->doNormal("reverse", "Hello!");  # Проверка на различные возвращаемые форматы и ошибки  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA:      echo " Дані: $result
+";      break;   case GEARMAN_WORK_STATUS:     list($numerator, $denominator)= $gmclient->doStatus(); Та:
 ";      break;    case GEARMAN_WORK_FAIL:      echo "Помилка
 ";    exit;   case GEARMAN_SUCCESS:      break;    default:     echo "RET: " . $gmclient|
 ";      echo "Error: " . $gmclient->error() . "
 ";      echo "Errno: " . $gmclient->getErrno() . "
-";      exit;  }}while($gmclient->returnCode() !u003d GEARMAN_SUCCESS);echo "Успішно: $result
+";      exit;  }}while($gmclient->returnCode() != GEARMAN_SUCCESS);echo "Успішно: $result
 ";?> `
 
 `<?php# Код обробникаecho "Початок
-";# Створення примірника обробника.$gmworkeru003d new GearmanWorker();# Вказівка сервера за мовчанням  (localhost). , "reverse_fn");print "Чекання завдання...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
+";# Створення примірника обробника.$gmworker= new GearmanWorker();# Вказівка сервера за мовчанням  (localhost). , "reverse_fn");print "Чекання завдання...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
 ";    break;  }}function reverse_fn($job){  echo "Отримане завдання: " . $job->handle() . "
-";  $workload u003d $job->workload();  $workload_size u003d $job->workloadSize(); echo "Робоче навантаження: $workload ($workload_size)
-"; | # Даний цикл не є необхідним, тільки ілюструє процесс  for ($xu003d 0; $x < $workload_size; $x++)  { + виправа"| ||||||||
+";  $workload = $job->workload();  $workload_size = $job->workloadSize(); echo "Робоче навантаження: $workload ($workload_size)
+"; | # Даний цикл не є необхідним, тільки ілюструє процесс  for ($x= 0; $x < $workload_size; $x++)  { + виправа"| ||||||||
 ";   $job->sendStatus($x+1, $workload_size);   $job->sendData(substr($workload, $x, 1));    sleep(1);  }  $$ echo "Результат: $result
 ";  # Повернення результату, надсилається клієнту return $result;}?> `
 

@@ -14,7 +14,7 @@
 значення, наприклад, в оголошеннях констант або значення аргументів
 функцій за промовчанням.
 
-`<?phpconst ONE u003d 1;const TWO u003d ONE * 2;class C {   const THREE u003d TWO + 1; const ONE_THIRD u003d ONE / self::THREE; const SENTENCE u003d 'Значення константи THREE - '.self::THREE; public function f($a u003d ONE + self::THREE) {        return $a; }}echo (new C)->f()."
+`<?phpconst ONE = 1;const TWO = ONE * 2;class C {   const THREE = TWO + 1; const ONE_THIRD = ONE / self::THREE; const SENTENCE = 'Значення константи THREE - '.self::THREE; public function f($a = ONE + self::THREE) {        return $a; }}echo (new C)->f()."
 ";echo C::SENTENCE;?> `
 
 Результат виконання цього прикладу:
@@ -25,7 +25,7 @@
 Також можна визначити масив (array) із використанням ключового слова
 `const`:
 
-` <?phpconst ARR u003d ['a', 'b'];echo ARR[0];?> `
+` <?phpconst ARR = ['a', 'b'];echo ARR[0];?> `
 
 Результат виконання цього прикладу:
 
@@ -37,7 +37,7 @@ a
 можна реалізовувати з використанням оператора `...` замість того, щоб
 покладатися на [func_get_args()](function.func-get-args.md).
 
-`<?phpfunction f($req, $opt u003d null, ...$params) {     // $params - масив, містить всі решти аргументи. printf('$req: %d; $opt: %d; кількість параметрів: %d'."
+`<?phpfunction f($req, $opt = null, ...$params) {     // $params - масив, містить всі решти аргументи. printf('$req: %d; $opt: %d; кількість параметрів: %d'."
 ",           $req, $opt, count($params));}f(1);f(1, 2);f(1, 2, 3);f(1, 2, 3, 4);f( 1, 2, 3, 4, 5);?> `
 
 Результат виконання цього прикладу:
@@ -54,7 +54,7 @@ $req: 1; $opt: 2; кількість параметрів: 3
 [Traversable](class.traversable.md), можуть бути розпаковані до списку
 аргументів під час передачі у функцію з допомогою оператора `...`.
 
-` <?phpfunction add($a, $b, $c) {   return $a + $b + $c;}$operators u003d [2, 3];echo add(1, ...$operators);?> `
+` <?phpfunction add($a, $b, $c) {   return $a + $b + $c;}$operators = [2, 3];echo add(1, ...$operators);?> `
 
 Результат виконання цього прикладу:
 
@@ -63,18 +63,18 @@ $req: 1; $opt: 2; кількість параметрів: 3
 ### Зведення в ступінь за допомогою `**`
 
 Доданий право-асоціативний оператор `**`, що позначає зведення в
-ступінь. Також доступний короткий синтаксис `**u003d`.
+ступінь. Також доступний короткий синтаксис `**=`.
 
-` <?phpprintf("2 ** 3 u003du003d      %d
-", 2 ** 3);printf("2 ** 3 ** 2 u003du003d %d
-", 2 ** 3 ** 2);$a u003d 2;$a **u003d 3;printf("a u003du003d            %d
+` <?phpprintf("2 ** 3 ==      %d
+", 2 ** 3);printf("2 ** 3 ** 2 == %d
+", 2 ** 3 ** 2);$a = 2;$a **= 3;printf("a ==            %d
 ", $a);?> `
 
 Результат виконання цього прикладу:
 
-2 ** 3 u003du003d 8
-2 ** 3 ** 2 u003du003d 512
-a u003du003d 8
+2 ** 3 == 8
+2 ** 3 ** 2 == 512
+a == 8
 
 ### `use function` та `use const`
 
@@ -83,7 +83,7 @@ a u003du003d 8
 досягається за допомогою конструкцій `use function` та `use const`,
 відповідно.
 
-`<?phpnamespace Name\Space {    const FOO u003d 42; function f() { echo __FUNCTION__."
+`<?phpnamespace Name\Space {    const FOO = 42; function f() { echo __FUNCTION__."
 "; }}namespace {    use const Name\Space\FOO;    useuse function Name\Space ;    echo FOO."
 ";   f();}?> `
 
@@ -128,7 +128,7 @@ Name\Space
 приведення до скалярних типів. Це дозволяє використовувати GMP у вашому
 коді більш виразно:
 
-` <?php$a u003d gmp_init(42);$b u003d gmp_init(17);if (version_compare(PHP_VERSION, '5.6', '<')) {    echo gmp_intval(gmp_add$ ; echo gmp_intval(gmp_add($a, 17)), PHP_EOL; echo gmp_intval(gmp_add(42, $b)), PHP_EOL;} else {    echo $a + $b, PHP_EOL; echo $a + 17, PHP_EOL; echo 42 + $b, PHP_EOL;}?> `
+` <?php$a = gmp_init(42);$b = gmp_init(17);if (version_compare(PHP_VERSION, '5.6', '<')) {    echo gmp_intval(gmp_add$ ; echo gmp_intval(gmp_add($a, 17)), PHP_EOL; echo gmp_intval(gmp_add(42, $b)), PHP_EOL;} else {    echo $a + $b, PHP_EOL; echo $a + 17, PHP_EOL; echo 42 + $b, PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 
@@ -146,7 +146,7 @@ Name\Space
 [password_verify()](function.password-verify.md), які не
 схильні до атак).
 
-` <?php$expected  u003d crypt('12345', '$2a$07$usesomesillystringforsalt$');$correct   u003d crypt('12345', '$2a$07$usesomesillystringforsalt$'' , '$2a$07$usesomesillystringforsalt$');var_dump(hash_equals($expected, $correct));var_dump(hash_equals($expected, $incorrect));?> `
+` <?php$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$'' , '$2a$07$usesomesillystringforsalt$');var_dump(hash_equals($expected, $correct));var_dump(hash_equals($expected, $incorrect));?> `
 
 Результат виконання цього прикладу:
 
@@ -160,12 +160,12 @@ bool(false)
 для того, щоб дозволити об'єкту змінювати значення властивостей, що виводяться
 під час використання [var_dump()](function.var-dump.md).
 
-` <?phpclass C {    private $prop; public function __construct($val) {         $this->prop u003d $val; }   publicfunction __debugInfo() {        return [            'propSquared' u003d> $this->prop **   }}var_dump(new C(42));?> `
+` <?phpclass C {    private $prop; public function __construct($val) {         $this->prop = $val; }   publicfunction __debugInfo() {        return [            'propSquared' => $this->prop **   }}var_dump(new C(42));?> `
 
 Результат виконання цього прикладу:
 
 object(C)#1 (1) {
-["propSquared"]u003d>
+["propSquared"]=>
 int(1764)
 }
 

@@ -124,7 +124,7 @@ $ php -S localhost:8000 router.php
 Для спільного використання скрипта маршрутизації при розробці з
 веб-сервером CLI та надалі з робочим (production) веб-сервером:
 
-` <?php// router.phpif (php_sapi_name() u003du003d 'cli-server') {    /* Маршрутизація з заданими правилами і повернення false */}/*        
+` <?php// router.phpif (php_sapi_name() == 'cli-server') {    /* Маршрутизація з заданими правилами і повернення false */}/*        
 
 `` shellcode
 $ php -S localhost:8000 router.php
@@ -135,7 +135,7 @@ $ php -S localhost:8000 router.php
 Якщо вам потрібно обслуговувати статичні ресурси із MIME-типами,
 непідтримуваним веб-сервером CLI, використовуйте це:
 
-` <?php// router.php$path u003d pathinfo($_SERVER["SCRIPT_FILENAME"]);if ($path["extension"] u003du003d "el") {    header("Content-Type:text/x- script.elisp"); readfile($_SERVER["SCRIPT_FILENAME"]);}else {   return FALSE;}?> `
+` <?php// router.php$path = pathinfo($_SERVER["SCRIPT_FILENAME"]);if ($path["extension"] == "el") {    header("Content-Type:text/x- script.elisp"); readfile($_SERVER["SCRIPT_FILENAME"]);}else {   return FALSE;}?> `
 
 `` shellcode
 $ php -S localhost:8000 router.php

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\TopologyDescription::hasReadableServer
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\TopologyDescription::hasReadableServer - Повертає, є
 чи в топології сервер, доступний для читання
@@ -16,7 +16,7 @@ MongoDB\Driver\TopologyDescription::hasReadableServer - Повертає, є
 
 final public
 **MongoDB\Driver\TopologyDescription::hasReadableServer**(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` u003d **`null`**): bool
+`$readPreference` = **`null`**): bool
 
 Повертає, чи є в топології сервер, доступний для читання, або якщо
 вказано параметр `readPreference`, сервер, що відповідає вказаному

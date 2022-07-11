@@ -8,7 +8,7 @@
 
 # Ds\Map::intersect
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::intersect — Створює нову колекцію пар, створену перетином
 з іншою колекцією пар
@@ -24,7 +24,7 @@ public **Ds\Map::intersect**([Ds\Map](class.ds-map.md) `$map`):
 якої видалені всі елементи, ключі яких відсутні в колекції
 `map`.
 
-`A ∩ B u003d {x : x ∈ A ∧ x ∈ B}`
+`A ∩ B = {x : x ∈ A ∧ x ∈ B}`
 
 > **Примітка**:
 >
@@ -48,23 +48,23 @@ public **Ds\Map::intersect**([Ds\Map](class.ds-map.md) `$map`):
 
 **Приклад #1 Приклад використання **Ds\Map::intersect()****
 
-` <?php$a u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);$b u003d new \Ds\Map(["b" u003d> 4, "c" u003d> 5, "d" u003d> 6]);var_dump($a->intersect($b));?> `
+` <?php$a = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);var_dump($a->intersect($b));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#3 (2) {
-[0]u003d>
+[0]=>
 object(Ds\Pair)#4 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "b"
-["value"]u003d>
+["value"]=>
 int(2)
 }
-[1]u003d>
+[1]=>
 object(Ds\Pair)#5 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "c"
-["value"]u003d>
+["value"]=>
 int(3)
 }
 }

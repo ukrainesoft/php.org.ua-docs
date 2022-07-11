@@ -7,7 +7,7 @@
 
 # svn_fs_file_length
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_file_length — Повертає довжину файлу з файлової системи
 

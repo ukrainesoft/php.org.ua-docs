@@ -7,7 +7,7 @@
 
 # fann_cascadetrain_on_file
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_cascadetrain_on_file — Навчання на даних прочитаних з файлу з
 за допомогою алгоритму Cascade2

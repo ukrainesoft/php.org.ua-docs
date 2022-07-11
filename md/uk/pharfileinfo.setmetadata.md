@@ -7,7 +7,7 @@
 
 # PharFileInfo::setMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::setMetadata — Встановлення метаданих для файлу
 
@@ -48,14 +48,14 @@ MIME-типу, що він повертає. Загалом - будь-яка к
 
 **Приклад #1 Приклад використання **PharFileInfo::setMetadata()****
 
-`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.txt'] u003d 'hello'; $p['file.txt']->setMetadata(array('user' u003d> 'bill', 'mime-type' u003d> 'text/plain'))); var_dump($p['file.txt']->getMetaData());} catch (Exception $e) {   echo 'Не удалося створити/змінити phar: ', $e;}?> `
+`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.txt'] = 'hello'; $p['file.txt']->setMetadata(array('user' => 'bill', 'mime-type' => 'text/plain'))); var_dump($p['file.txt']->getMetaData());} catch (Exception $e) {   echo 'Не удалося створити/змінити phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["user"]u003d>
+["user"]=>
 string(4) "bill"
-["mime-type"]u003d>
+["mime-type"]=>
 string(10) "text/plain"
 }
 

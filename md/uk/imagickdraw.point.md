@@ -39,4 +39,4 @@ public **ImagickDraw::point**(float `$x`, float `$y`): bool
 
 **Приклад #1 Приклад використання **ImagickDraw::point()****
 
-`<?phpfunction point($fillColor, $backgroundColor) {    $draw u003d new \ImagickDraw(); $draw->setFillColor($fillColor); for ($x u003d 0; $x < 10000; $x++) {        $draw->point(rand(0, 500), rand(0, 500)); }   $imagick u003d new \Imagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction point($fillColor, $backgroundColor) {    $draw = new \ImagickDraw(); $draw->setFillColor($fillColor); for ($x = 0; $x < 10000; $x++) {        $draw->point(rand(0, 500), rand(0, 500)); }   $imagick = new \Imagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `

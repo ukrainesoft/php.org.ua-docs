@@ -7,7 +7,7 @@
 
 # Gmagick::previousimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::previousimage — Здійснює перехід до попереднього зображення
 в об'єкті

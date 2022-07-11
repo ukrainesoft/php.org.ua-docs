@@ -7,7 +7,7 @@
 
 # GearmanTask::sendData
 
-(PECL gearman \<u003d 0.5.0)
+(PECL gearman \<= 0.5.0)
 
 GearmanTask::sendData — Надсилання даних завдання (застарілий метод)
 

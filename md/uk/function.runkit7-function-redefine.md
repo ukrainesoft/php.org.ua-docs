@@ -7,7 +7,7 @@
 
 # runkit7_function_redefine
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_function_redefine — Замінює визначення функції нової
 реалізацією
@@ -18,18 +18,18 @@ runkit7_function_redefine — Замінює визначення функції
 string `$function_name`,
 string `$argument_list`,
 string `$code`,
-bool `$return_by_reference` u003d **`null`**,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+bool `$return_by_reference` = **`null`**,
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 **runkit7_function_redefine**(
 string `$function_name`,
 [Closure](class.closure.md) `$closure`,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 > **Примітка**: За замовчуванням, лише функції користувача можуть
@@ -62,7 +62,7 @@ bool `$is_strict` u003d ?
 
 `is_strict`
 Визначає, чи повинна функція поводитися так, якби вона була
-оголошено у файлі з `strict_typesu003d1`.
+оголошено у файлі з `strict_types=1`.
 
 ### Значення, що повертаються
 

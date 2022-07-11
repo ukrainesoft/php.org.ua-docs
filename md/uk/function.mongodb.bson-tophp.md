@@ -7,13 +7,13 @@
 
 # MongoDB\BSON oPHP
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON oPHP — Повертає PHP уявлення значення BSON
 
 ### Опис
 
-**MongoDB\BSON oPHP**(string `$bson`, array `$typeMap` u003d array()):
+**MongoDB\BSON oPHP**(string `$bson`, array `$typeMap` = array()):
 array\|object
 
 Десеріалізує документ BSON (тобто двійковий рядок) у його подання
@@ -68,12 +68,12 @@ PHP. Параметр `typeMap` може використовуватись дл
 
 **Приклад #1 Приклад використання **MongoDB\BSON oPHP()****
 
-` <?php$bsonu003du003dhex2bin('0e00000010666f6f000100000000');$valueu003du003dMongoDB\BSON oPHP($bson);var_dump($value);?> `
+` <?php$bson==hex2bin('0e00000010666f6f000100000000');$value==MongoDB\BSON oPHP($bson);var_dump($value);?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#1 (1) {
-["foo"]u003d>
+["foo"]=>
 int(1)
 }
 

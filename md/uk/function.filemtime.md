@@ -39,7 +39,7 @@ filemtime — Повертає час останньої зміни файлу
 
 **Приклад #1 Приклад використання функції **filemtime()****
 
-`<?php// Приклад висновку: В останній раз файл somefile.txt був змінений: December 29 2002 22:16:23.$filename u003d 'somefile.txt';  раз файл $filename був змінений: " . date("F|d|Y|H:i:s.",|filemtime($filename));}?> `
+`<?php// Приклад висновку: В останній раз файл somefile.txt був змінений: December 29 2002 22:16:23.$filename = 'somefile.txt';  раз файл $filename був змінений: " . date("F|d|Y|H:i:s.",|filemtime($filename));}?> `
 
 ### Примітки
 

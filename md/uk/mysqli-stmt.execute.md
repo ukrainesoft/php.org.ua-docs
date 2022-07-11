@@ -18,12 +18,12 @@ mysqli_stmt::execute -- mysqli_stmt_execute — Виконує підготов�
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_stmt::execute**(?array `$params` u003d **`null`**): bool
+public **mysqli_stmt::execute**(?array `$params` = **`null`**): bool
 
 Процедурний стиль
 
 **mysqli_stmt_execute**([mysqli_stmt](class.mysqli-stmt.md)
-`$statement`, ?array `$params` u003d **`null`**): bool
+`$statement`, ?array `$params` = **`null`**): bool
 
 Виконує заздалегідь підготовлене затвердження. Твердження має бути
 успішно підготовлено перед виконанням з використанням функції
@@ -59,9 +59,9 @@ public **mysqli_stmt::execute**(?array `$params` u003d **`null`**): bool
 
 ### Список змін
 
-| Версія | Опис                                     |
-| ------ | ---------------------------------------- |
-| 8.1.0  | Додано необов'язковий параметр `params`. |
+| Версія | Опис                                   |
+| ------ | -------------------------------------- |
+| 8.1.0  | Додано необов'язковий параметр params. |
 
 ### Приклади
 
@@ -70,12 +70,12 @@ public **mysqli_stmt::execute**(?array `$params` u003d **`null`**): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$mysqli->query("C> * Підготовляємо затвердження на вставку рядків */$stmt u003d $mysqli->prepare("INSERT INTO myCity (Name, CountryCode, District) VALIES з|?| >bind_param("sss", $val1, $val2, $val3);$val1 u003d 'Stuttgart';$val2 u003d 'DEU';$val3 u003d 'Baden-Wuerttemberg';/* Виконуємо Твердження| execute();$val1 u003d 'Bordeaux';$val2 u003d 'FRA';$val3 u003d 'Aquitaine';/* Виконуємо затвердження */$stmt->execute();/* Отримуємо всі рядки u003d "SELECT Name, CountryCode,District FROM myCity";$result u003d $mysqli->query($query);while ($row u003d $result->fetch_row()) {    printf("%s )
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$mysqli->query("C> * Підготовляємо затвердження на вставку рядків */$stmt = $mysqli->prepare("INSERT INTO myCity (Name, CountryCode, District) VALIES з|?| >bind_param("sss", $val1, $val2, $val3);$val1 = 'Stuttgart';$val2 = 'DEU';$val3 = 'Baden-Wuerttemberg';/* Виконуємо Твердження| execute();$val1 = 'Bordeaux';$val2 = 'FRA';$val3 = 'Aquitaine';/* Виконуємо затвердження */$stmt->execute();/* Отримуємо всі рядки = "SELECT Name, CountryCode,District FROM myCity";$result = $mysqli->query($query);while ($row = $result->fetch_row()) {    printf("%s )
 ", $row[0], $row[1], $row[2]);} `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");mysqli_query( ТОР'яC  CRY затвердження на вставку рядків */$stmt u003d mysqli_prepare($link, "INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");/* З'єднаються sss", $val1, $val2, $val3);$val1 u003d 'Stuttgart';$val2 u003d 'DEU';$val3 u003d 'Baden-Wuerttemberg';/* Виконуємо затвердження */mysqli_stm$ u003d 'Bordeaux';$val2 u003d 'FRA';$val3 u003d 'Aquitaine';/* Виконуємо затвердження */mysqli_stmt_execute($stmt);/* Отримуємо всі рядки з myC  FROM myCity";$result u003d mysqli_query($link, $query);while ($row u003d mysqli_fetch_row($result)) {    printf("%s (%s,%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");mysqli_query( ТОР'яC  CRY затвердження на вставку рядків */$stmt = mysqli_prepare($link, "INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)");/* З'єднаються sss", $val1, $val2, $val3);$val1 = 'Stuttgart';$val2 = 'DEU';$val3 = 'Baden-Wuerttemberg';/* Виконуємо затвердження */mysqli_stm$ = 'Bordeaux';$val2 = 'FRA';$val3 = 'Aquitaine';/* Виконуємо затвердження */mysqli_stmt_execute($stmt);/* Отримуємо всі рядки з myC  FROM myCity";$result = mysqli_query($link, $query);while ($row = mysqli_fetch_row($result)) {    printf("%s (%s,%s)
 ", $row[0], $row[1], $row[2]);} `
 
 Результат виконання даних прикладів:
@@ -87,12 +87,12 @@ Bordeaux (FRA, Aquitaine)
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli('localhost', 'my_user', 'my_password', 'world');$mysqli->query('C * Підготовляємо затвердження на вставку рядків */$stmt u003d $mysqli->prepare('INSERT INTO myCity (Name, CountryCode, District) values іж| (['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);/* Отримуємо всі рядки з myCity */$query u003d 'SELECT Name, CountryCode, District FROM myCity'; $query);while ($row u003d $result->fetch_row()) {    printf("%s (%s,%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');$mysqli->query('C * Підготовляємо затвердження на вставку рядків */$stmt = $mysqli->prepare('INSERT INTO myCity (Name, CountryCode, District) values іж| (['Stuttgart', 'DEU', 'Baden-Wuerttemberg']);/* Отримуємо всі рядки з myCity */$query = 'SELECT Name, CountryCode, District FROM myCity'; $query);while ($row = $result->fetch_row()) {    printf("%s (%s,%s)
 ", $row[0], $row[1], $row[2]);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MySQLI_REPORT_STRICT); затвердження на вставку рядок */$stmt u003d mysqli_prepare($link, 'INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');/* St_t|t ', 'DEU', 'Baden-Wuerttemberg']);/* Отримуємо всі рядки з myCity */$query u003d 'SELECT Name, CountryCode, District FROM myCity';$result u003d$| ($row u003d mysqli_fetch_row($result)) {    printf("%s (%s,%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MySQLI_REPORT_STRICT); затвердження на вставку рядок */$stmt = mysqli_prepare($link, 'INSERT INTO myCity (Name, CountryCode, District) VALUES (?,?,?)');/* St_t|t ', 'DEU', 'Baden-Wuerttemberg']);/* Отримуємо всі рядки з myCity */$query = 'SELECT Name, CountryCode, District FROM myCity';$result =$| ($row = mysqli_fetch_row($result)) {    printf("%s (%s,%s)
 ", $row[0], $row[1], $row[2]);} `
 
 Результат виконання даних прикладів:

@@ -7,7 +7,7 @@
 
 # CallbackFilterIterator::\_\_construct
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 CallbackFilterIterator::\_\_construct — Створює фільтруючий ітератор на
 основі іншого ітератора

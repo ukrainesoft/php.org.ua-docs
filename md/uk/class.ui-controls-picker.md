@@ -29,7 +29,7 @@ const int `DateTime`;
 
 /\* Конструктор \*/
 
-public [\_\_construct](ui-controls-picker.construct.md)(int `$type` u003d
+public [\_\_construct](ui-controls-picker.construct.md)(int `$type` =
 UI\Controls\Picker::Date)
 
 /\* Наслідувані методи \*/

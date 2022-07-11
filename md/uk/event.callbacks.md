@@ -19,9 +19,9 @@
 
 **callback**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` u003d **`null`** , int `$what` u003d ?,
+`$fd` = **`null`** , int `$what` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `fd`
 Дескриптор файлу, потокового ресурсу чи сокету, пов'язаний із подією.
@@ -38,7 +38,7 @@
 
 **callback**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `arg`
 Дані користувача.
@@ -46,9 +46,9 @@
 Для [Event::signal()](event.signal.md) callback-функція повинна
 відповідати наступному прототипу:
 
-**callback**( int `$signum` u003d ?,
+**callback**( int `$signum` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `signum`
 Номер сигналу (наприклад, **SIGTERM**).

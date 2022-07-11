@@ -7,7 +7,7 @@
 
 #iterator_count
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 iterator_count — Підраховує кількість елементів в ітераторі
 
@@ -32,7 +32,7 @@ int
 
 **Приклад #1 Приклад використання **iterator_count()****
 
-` <?php$iterator u003d new ArrayIterator(array('recipe'u003d>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_count($iterator));?> `
+` <?php$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_count($iterator));?> `
 
 Результат виконання цього прикладу:
 
@@ -40,7 +40,7 @@ int(4)
 
 **Приклад #2 **iterator_count()** модифікує позицію**
 
-` <?php$iterator u003d new ArrayIterator(['one', 'two', 'three']);var_dump($iterator->current());var_dump(iterator_count($iterator));var_dump($iterator- >current());?> `
+` <?php$iterator = new ArrayIterator(['one', 'two', 'three']);var_dump($iterator->current());var_dump(iterator_count($iterator));var_dump($iterator- >current());?> `
 
 Результат виконання цього прикладу:
 
@@ -51,7 +51,7 @@ NULL
 **Приклад #3 **iterator_count()** у циклі
 [foreach](control-structures.foreach.md)**
 
-` <?php$iterator u003d new ArrayIterator(['one', 'two', 'three']);foreach ($iterator as $key u003d> $value) {    echo "$key: $u $iterator), ")
+` <?php$iterator = new ArrayIterator(['one', 'two', 'three']);foreach ($iterator as $key => $value) {    echo "$key: $u $iterator), ")
 ";}?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Gmagick::getimageindex
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageindex — Повертає індекс поточного активного
 зображення

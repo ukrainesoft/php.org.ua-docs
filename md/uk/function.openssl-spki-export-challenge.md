@@ -7,7 +7,7 @@
 
 #openssl_spki_export_challenge
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 openssl_spki_export_challenge — Експорт виклику, пов'язаного з підписаним
 ключем та викликом
@@ -38,14 +38,14 @@ openssl_spki_export_challenge — Експорт виклику, пов'язан
 
 Повертає рядок дзвінка або **`null`** у разі виникнення помилки.
 
-` <?php$pkey u003d openssl_pkey_new('secret password');$spkac u003d openssl_spki_new($pkey, 'challenge string');$challenge u003d openssl_spki_export_challenge(' $| ;?> `
+` <?php$pkey = openssl_pkey_new('secret password');$spkac = openssl_spki_new($pkey, 'challenge string');$challenge = openssl_spki_export_challenge(' $| ;?> `
 
 **Приклад #2 Приклад використання **openssl_spki_export_challenge()** з
 \<keygen\>**
 
 Вилучення рядка виклику, отриманого з елемента \<keygen\>
 
-` <?php$challenge u003d openssl_spki_export_challenge(preg_replace('/SPKACu003d/', '', $_POST['spkac']));?><keygen nameu003d"spkac" challengeu003d"challenge string" keytypeu003d" ">`
+` <?php$challenge = openssl_spki_export_challenge(preg_replace('/SPKAC=/', '', $_POST['spkac']));?><keygen name="spkac" challenge="challenge string" keytype=" ">`
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # ArrayObject::getFlags
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::getFlags — Отримує прапори поведінки
 
@@ -31,7 +31,7 @@ public **ArrayObject::getFlags**(): int
 
 
 
-`<?php// Масив з кількістю фруктів$fruits u003d array("lemons" u003d> 1, "oranges" u003d> 4, "bananas" u003d> 5, "apples" u003d> 10);$fr Ar $fruits);// Одержання поточних прапорів$flags u003d $fruitsArrayObject->getFlags();var_dump($flags);// Установка нових прапорів$fruitsArrayObject->setFlags(ArrayObject u003d $fruitsArrayObject->getFlags();var_dump($flags);?> `
+`<?php// Масив з кількістю фруктів$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);$fr Ar $fruits);// Одержання поточних прапорів$flags = $fruitsArrayObject->getFlags();var_dump($flags);// Установка нових прапорів$fruitsArrayObject->setFlags(ArrayObject = $fruitsArrayObject->getFlags();var_dump($flags);?> `
 
 Результат виконання цього прикладу:
 

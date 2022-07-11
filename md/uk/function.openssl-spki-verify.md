@@ -7,7 +7,7 @@
 
 #openssl_spki_verify
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 openssl_spki_verify — Перевіряє підписаний відкритий ключ та виклик
 
@@ -38,7 +38,7 @@ openssl_spki_verify — Перевіряє підписаний відкрити
 
 Перевірка наявного підписаного відкритого ключа із викликом
 
-` <?php$pkey u003d openssl_pkey_new('secret password');$spkac u003d openssl_spki_new($pkey, 'challenge string');if (openssl_spki_verify(')'' {   echo$spkac;}else {   echo "Перевірка SPKAC не удалася";}?> `
+` <?php$pkey = openssl_pkey_new('secret password');$spkac = openssl_spki_new($pkey, 'challenge string');if (openssl_spki_verify(')'' {   echo$spkac;}else {   echo "Перевірка SPKAC не удалася";}?> `
 
 **Приклад #2 Приклад використання **openssl_spki_verify()** з
 \<keygen\>**
@@ -46,7 +46,7 @@ openssl_spki_verify — Перевіряє підписаний відкрити
 Перевірка наявного підписаного відкритого ключа та виклику,
 отриманого з елемента \<keygen\>
 
-`<?phpif (openssl_spki_verify(preg_replace('/SPKACu003d/', '', $_POST['spkac']))) {    echo $spkac;} else {  ка| nameu003d"spkac" challengeu003d"challenge string" keytypeu003d"RSA">`
+`<?phpif (openssl_spki_verify(preg_replace('/SPKAC=/', '', $_POST['spkac']))) {    echo $spkac;} else {  ка| name="spkac" challenge="challenge string" keytype="RSA">`
 
 ### Дивіться також
 

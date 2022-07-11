@@ -7,7 +7,7 @@
 
 #ldap_sort
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7)
 
 ldap_sort — Сортування записів LDAP
 
@@ -58,4 +58,4 @@ ldap_sort — Сортування записів LDAP
 
 **Приклад #1 Сортування LDAP**
 
-`<?php      // $ds - активний дескриптор з'єднання (дивіться ldap_connect)     $dn        u003d 'ouu003dexample,dcu003dorg'; $filter   u003d '(|(snu003dDoe*)(givennameu003dJohn*))'; $justthese u003d array('ou', 'sn', 'givenname', 'mail'); $sr u003d ldap_search($ds, $dn, $filter, $justthese); // Сортування     ldap_sort($ds, $sr, 'sn'); // Отримання даних     $info u003d ldap_get_entries($ds, $sr); `
+`<?php      // $ds - активний дескриптор з'єднання (дивіться ldap_connect)     $dn        = 'ou=example,dc=org'; $filter   = '(|(sn=Doe*)(givenname=John*))'; $justthese = array('ou', 'sn', 'givenname', 'mail'); $sr = ldap_search($ds, $dn, $filter, $justthese); // Сортування     ldap_sort($ds, $sr, 'sn'); // Отримання даних     $info = ldap_get_entries($ds, $sr); `

@@ -7,7 +7,7 @@
 
 # fann_set_cascade_min_out_epochs
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_min_out_epochs - Встановлює мінімальні епохи
 вихідних даних
@@ -37,7 +37,7 @@ fann_set_cascade_min_out_epochs - Встановлює мінімальні еп
 > **Примітка**:
 >
 > Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann u003d 2.2.
+> libfann = 2.2.
 
 ### Дивіться також
 

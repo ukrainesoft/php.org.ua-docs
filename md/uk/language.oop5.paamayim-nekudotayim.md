@@ -27,16 +27,16 @@ Nekudotayim") або просто "подвійна двокрапка" - це �
 
 **Приклад #1 Використання :: поза оголошенням класу**
 
-` <?phpclass MyClass {   const CONST_VALUE u003d 'Значення константи';}$classname u003d 'MyClass';echo $classname::CONST_VALUE;echo MyClass::CONST_VALUE;?> `
+` <?phpclass MyClass {   const CONST_VALUE = 'Значення константи';}$classname = 'MyClass';echo $classname::CONST_VALUE;echo MyClass::CONST_VALUE;?> `
 
 Для звернення до властивостей та методів усередині самого класу використовуються
 ключові слова `self`, `parent` та `static`.
 
 **Приклад #2 Використання :: всередині оголошення класу**
 
-`<?phpclass OtherClass extends MyClass{    public static $my_static u003d 'статична змінна'; public static function doubleColon() {       echo parent::CONST_VALUE . "
+`<?phpclass OtherClass extends MyClass{    public static $my_static = 'статична змінна'; public static function doubleColon() {       echo parent::CONST_VALUE . "
 ";        echo self::$my_static . "
-";    }}$classname u003d 'OtherClass';$classname::doubleColon();OtherClass::doubleColon();?> `
+";    }}$classname = 'OtherClass';$classname::doubleColon();OtherClass::doubleColon();?> `
 
 Коли дочірній клас перевизначає методи, оголошені в батьківському
 класі, PHP не буде здійснювати автоматичний виклик методів,
@@ -50,6 +50,6 @@ Nekudotayim") або просто "подвійна двокрапка" - це �
 
 ` <?phpclass MyClass{   protected function myFunc() {       echo "MyClass::myFunc()
 ";    }}class OtherClass extends MyClass{    // Переопределить родительское определение    public function myFunc()    {        // Но всё ещё вызываем родительскую функцию        parent::myFunc();        echo "OtherClass::myFunc()
-";    }}$class u003d new OtherClass();$class->myFunc();?> `
+";    }}$class = new OtherClass();$class->myFunc();?> `
 
 Дивіться також [деякі приклади статичних викликів](language.oop5.basic.md#language.oop5.basic.class.this).

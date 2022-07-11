@@ -7,7 +7,7 @@
 
 # ZMQ::\_\_construct
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQ::\_\_construct - Конструктор ZMQ
 

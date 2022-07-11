@@ -7,7 +7,7 @@
 
 # date_create_immutable_from_format
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 date_create_immutable_from_format - Псевдонім
 [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md)

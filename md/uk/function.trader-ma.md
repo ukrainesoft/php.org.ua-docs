@@ -7,13 +7,13 @@
 
 # trader_ma
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_ma — Середня ковзна.
 
 ### Опис
 
-**trader_ma**(array `$real`, int `$timePeriod` u003d ?, int `$mAType` u003d ?):
+**trader_ma**(array `$real`, int `$timePeriod` = ?, int `$mAType` = ?):
 array
 
 ### Список параметрів

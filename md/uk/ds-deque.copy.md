@@ -7,7 +7,7 @@
 
 # Ds\Deque::copy
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::copy — Повертає поверхневу копію колекції
 
@@ -29,20 +29,20 @@ public **Ds\Deque::copy**(): [Ds\Deque](class.ds-deque.md)
 
 **Приклад #1 Приклад використання **Ds\Deque::copy()****
 
-` <?php$a u003d new \Ds\Deque([1, 2, 3]);$b u003d $a->copy();$b->push(4);print_r($a);print_r( $b);?> `
+` <?php$a = new \Ds\Deque([1, 2, 3]);$b = $a->copy();$b->push(4);print_r($a);print_r( $b);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Deque Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
-[3] u003d> 4
+[0] => 1
+[1] => 2
+[2] => 3
+[3] => 4
 )

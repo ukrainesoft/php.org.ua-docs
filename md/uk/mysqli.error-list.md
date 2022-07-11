@@ -9,7 +9,7 @@
 
 # mysqli_error_list
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 mysqli::$error_list -- mysqli_error_list -- Повертає список помилок
 виконання останньої занедбаної команди
@@ -46,23 +46,23 @@ sqlstate.
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "nobody", "");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {    printf("Не удалося підключитися
+` <?php$mysqli = new mysqli("localhost", "nobody", "");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {    printf("Не удалося підключитися
 ", mysqli_connect_error()); close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {     printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {     printf("Не 
 ", mysqli_connect_error()); ;?> `
 
 Результат виконання даних прикладів:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[errno] u003d> 1193
-[sqlstate] u003d> HY000
-[error] u003d> Unknown system variable 'a'
+[errno] => 1193
+[sqlstate] => HY000
+[error] => Unknown system variable 'a'
 )
 
 )

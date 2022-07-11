@@ -7,7 +7,7 @@
 
 #get_resource_type
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 get_resource_type — Повертає тип ресурсу
 
@@ -35,7 +35,7 @@ get_resource_type — Повертає тип ресурсу
 
 **Приклад #1 Приклад використання **get_resource_type()****
 
-`<?php// Починаючи з версії PHP 8.0.0, наступний код більше не працює. Функція curl_init тепер повертає об'єкт CurlHandle.$c u003dcurl_init();echo get_resource_type($c) . "
+`<?php// Починаючи з версії PHP 8.0.0, наступний код більше не працює. Функція curl_init тепер повертає об'єкт CurlHandle.$c =curl_init();echo get_resource_type($c) . "
 ";?> `
 
 Результат виконання цього прикладу в PHP 7:

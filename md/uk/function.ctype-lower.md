@@ -7,7 +7,7 @@
 
 #ctype_lower
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_lower — Перевіряє наявність символів у нижньому регістрі
 
@@ -51,7 +51,7 @@ ctype_lower — Перевіряє наявність символів у ниж
 **Приклад #1 Приклад використання **ctype_lower()** (з використанням
 локалі за замовчуванням)**
 
- < php$strings u003d array('aac123', 'qiutoas', 'QASsdks');foreach ($strings as $testcase) {    if (ctype_lower($testcase))                      нижньому реєстрі.
+ < php$strings = array('aac123', 'qiutoas', 'QASsdks');foreach ($strings as $testcase) {    if (ctype_lower($testcase))                      нижньому реєстрі.
 ";    } else {         echo "Рядок$testcase не складається тільки із букв в нижньому реєстрі.
 ";    }}?> `
 

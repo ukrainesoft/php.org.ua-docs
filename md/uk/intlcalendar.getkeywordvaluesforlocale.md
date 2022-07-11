@@ -7,7 +7,7 @@
 
 # IntlCalendar::getKeywordValuesForLocale
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getKeywordValuesForLocale — Отримує набір значень
 ключових слів мовного стандарту
@@ -62,24 +62,24 @@ public static **IntlCalendar::getKeywordValuesForLocale**(string
 
 Array
 (
-[0] u003d> persian
-[1] u003d> gregorian
-[2] u003d> islamic
-[3] u003d> islamic-civil
+[0] => persian
+[1] => gregorian
+[2] => islamic
+[3] => islamic-civil
 )
 Array
 (
-[0] u003d> persian
-[1] u003d> gregorian
-[2] u003d> islamic
-[3] u003d> islamic-civil
-[4] u003d> japanese
-[5] u003d> buddhist
-[6] u003d> roc
-[7] u003d> hebrew
-[8] u003d> chinese
-[9] u003d> indian
-[10] u003d> coptic
-[11] u003d> ethiopic
-[12] u003d> ethiopic-amete-alem
+[0] => persian
+[1] => gregorian
+[2] => islamic
+[3] => islamic-civil
+[4] => japanese
+[5] => buddhist
+[6] => roc
+[7] => hebrew
+[8] => chinese
+[9] => indian
+[10] => coptic
+[11] => ethiopic
+[12] => ethiopic-amete-alem
 )

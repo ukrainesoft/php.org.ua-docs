@@ -7,13 +7,13 @@
 
 # trader_mom
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_mom — Моментум
 
 ### Опис
 
-**trader_mom**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_mom**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

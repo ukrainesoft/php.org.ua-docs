@@ -36,7 +36,7 @@ is_readable — Визначає існування файлу і чи він д
 
 **Приклад #1 **is_readable()** example**
 
-` <?php$filename u003d 'test.txt';if (is_readable($filename)) {   echo 'Файл доступний для читання';} else {    echo 'файл' недоступний
+` <?php$filename = 'test.txt';if (is_readable($filename)) {   echo 'Файл доступний для читання';} else {    echo 'файл' недоступний
 
 ### Примітки
 

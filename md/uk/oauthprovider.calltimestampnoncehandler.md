@@ -7,7 +7,7 @@
 
 # OAuthProvider::callTimestampNonceHandler
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::callTimestampNonceHandler — Викликати callback-функцію
 timestampNonceHandler

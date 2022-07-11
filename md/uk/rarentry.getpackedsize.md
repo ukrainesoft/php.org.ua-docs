@@ -7,7 +7,7 @@
 
 # RarEntry::getPackedSize
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 RarEntry::getPackedSize — Повертає розмір стисненого елемента
 
@@ -42,4 +42,4 @@ public **RarEntry::getPackedSize**(): int
 
 **Приклад #1 Приклад використання **RarEntry::getPackedSize()****
 
-` <?php$rar_file u003d rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry u003d rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");echo "Розмір стисненого елемента " . $entry->getName() . " u003d " . $entry->getPackedSize() . " байтів";?> `
+` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");echo "Розмір стисненого елемента " . $entry->getName() . " = " . $entry->getPackedSize() . " байтів";?> `

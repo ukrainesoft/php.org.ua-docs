@@ -7,13 +7,13 @@
 
 # com_load_typelib
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 com_load_typelib — Завантаження Typelib
 
 ### Опис
 
-**com_load_typelib**(string `$typelib`, bool `$case_insensitive` u003d
+**com_load_typelib**(string `$typelib`, bool `$case_insensitive` =
 **`true`**): bool
 
 Завантажує бібліотеку типів та реєструє її константи таким чином,

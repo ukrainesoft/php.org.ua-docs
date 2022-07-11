@@ -7,7 +7,7 @@
 
 # GmagickDraw::arc
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::arc — Малює дугу
 

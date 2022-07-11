@@ -7,7 +7,7 @@
 
 # Swoole\Client::connect
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::connect — Підключається до віддаленого порту TCP або UDP
 
@@ -15,9 +15,9 @@ Swoole\Client::connect — Підключається до віддаленог�
 
 public **Swoole\Client::connect**(
 string `$host`,
-int `$port` u003d ?,
-int `$timeout` u003d ?,
-int `$flag` u003d ?
+int `$port` = ?,
+int `$timeout` = ?,
+int `$flag` = ?
 ): bool
 
 ### Список параметрів

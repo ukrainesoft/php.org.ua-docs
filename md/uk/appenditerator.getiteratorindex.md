@@ -7,7 +7,7 @@
 
 # AppendIterator::getIteratorIndex
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 AppendIterator::getIteratorIndex — Повертає індекс ітератора
 
@@ -31,7 +31,7 @@ public **AppendIterator::getIteratorIndex**(): ?int
 
 **Приклад #1 Приклад використання **AppendIterator.getIteratorIndex()****
 
-` <?php$array_a u003d new ArrayIterator(array('a' u003d> 'aardwolf', 'b' u003d> 'bear', 'c' u003d> 'capybara'));$array_b u003d new Array' apple', 'orange', 'lemon'));$iterator u003d new AppendIterator;$iterator->append($array_a);$iterator->append($array_b);foreach ($iterator as $key u003d>  current ) {    echo $iterator->getIteratorIndex() . '  ' . $key . ' ' . $ current . PHP_EOL;}?> `
+` <?php$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));$array_b = new Array' apple', 'orange', 'lemon'));$iterator = new AppendIterator;$iterator->append($array_a);$iterator->append($array_b);foreach ($iterator as $key =>  current ) {    echo $iterator->getIteratorIndex() . '  ' . $key . ' ' . $ current . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 #mb_output_handler
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_output_handler - Callback-функція, що перетворює кодування символів в
 вихідному буфері

@@ -7,7 +7,7 @@
 
 # Ds\Deque::remove
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::remove — Видаляє та повертає значення за індексом
 
@@ -37,7 +37,7 @@ public **Ds\Deque::remove**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Deque::remove()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);var_dump($deque->remove(1));var_dump($deque->remove(0) );var_dump($deque->remove(0));?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->remove(1));var_dump($deque->remove(0) );var_dump($deque->remove(0));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Клас Swoole\Timer
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -25,7 +25,7 @@ public static [clear](swoole-timer.clear.md)(int `$timer_id`): void
 public static [exists](swoole-timer.exists.md)(int `$timer_id`): bool
 
 public static [tick](swoole-timer.tick.md)(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` u003d
+[callable](language.types.callable.md) `$callback`, string `$param` =
 ?): void
 
 }

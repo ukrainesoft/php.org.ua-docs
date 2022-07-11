@@ -7,14 +7,14 @@
 
 # Imagick::brightnessContrastImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::brightnessContrastImage — Опис
 
 ### Опис
 
 public **Imagick::brightnessContrastImage**(float `$brightness`, float
-`$contrast`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$contrast`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Змінює яскравість та/або контраст зображення. Перетворює параметри
 яскравості та контрастності в нахил та перетин і викликає поліномічну
@@ -37,4 +37,4 @@ public **Imagick::brightnessContrastImage**(float `$brightness`, float
 **Приклад #1 Приклад використання
 **Imagick::brightnessContrastImage()****
 
-` <?phpfunction brightnessContrastImage($imagePath, $brightness, $contrast, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->brightnessContrastImage($brightness, $contrast, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction brightnessContrastImage($imagePath, $brightness, $contrast, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->brightnessContrastImage($brightness, $contrast, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

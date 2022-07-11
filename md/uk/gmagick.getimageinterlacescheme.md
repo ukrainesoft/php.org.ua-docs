@@ -7,7 +7,7 @@
 
 # Gmagick::getimageinterlacescheme
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageinterlacescheme — Отримує схему чергування
 зображень

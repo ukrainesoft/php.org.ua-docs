@@ -109,7 +109,7 @@ IPv4, IPv6 або сокет Unix за допомогою опції -b socket_a
 
 Перед запуском LSPHP можна виставити змінні оточення:
 
-PHP_LSAPI_MAX_REQUESTSu003d500 PHP_LSAPI_CHILDRENu003d35 /path/to/lsphp -b IP_address:port
+PHP_LSAPI_MAX_REQUESTS=500 PHP_LSAPI_CHILDREN=35 /path/to/lsphp -b IP_address:port
 
 На даний момент LiteSpeed PHP можна використовувати з веб-серверами
 LiteSpeed, OpenLiteSpeed та Apache mod_lsapi. Подробиці про конфігурацію

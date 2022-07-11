@@ -7,14 +7,14 @@
 
 # wkhtmltox\PDF\Object::\_\_construct
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 wkhtmltox\PDF\Object::\_\_construct — Створити новий об'єкт PDF
 
 ### Опис
 
 public **wkhtmltox\PDF\Object::\_\_construct**(string `$buffer`, array
-`$settings` u003d ?)
+`$settings` = ?)
 
 Створює новий об'єкт PDF із зазначеного буфера та додаткові
 конфігураційні налаштування

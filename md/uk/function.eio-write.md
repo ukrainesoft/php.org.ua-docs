@@ -7,7 +7,7 @@
 
 #eio_write
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_write — Запис до файлу
 
@@ -17,12 +17,12 @@ eio_write — Запис до файлу
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd`,
 string `$str`,
-int `$length` u003d 0,
-int `$offset` u003d 0,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$length` = 0,
+int `$offset` = 0,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_write()** записує до `length` байт із `str` у файл, починаючи з

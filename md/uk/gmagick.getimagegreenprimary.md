@@ -7,7 +7,7 @@
 
 # Gmagick::getimagegreenprimary
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagegreenprimary — Повертає первинну зелену точку
 

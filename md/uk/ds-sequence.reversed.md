@@ -7,7 +7,7 @@
 
 # Ds\Sequence::reversed
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::reversed — Повертає перегорнуту копію колекції
 
@@ -34,19 +34,19 @@ abstract public **Ds\Sequence::reversed**():
 
 **Приклад #1 Приклад використання **Ds\Sequence::reversed()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c"]);print_r($sequence->reversed());print_r($sequence);?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);print_r($sequence->reversed());print_r($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> c
-[1] u003d> b
-[2] u003d> a
+[0] => c
+[1] => b
+[2] => a
 )
 Ds\Vector Object
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
+[0] => a
+[1] => b
+[2] => c
 )

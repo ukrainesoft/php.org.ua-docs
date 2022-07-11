@@ -30,7 +30,7 @@ ini_restore — Відновлює значення конфігураційно
 
 **Приклад #1 Приклад використання **ini_restore()****
 
-` <?php$setting u003d 'html_errors';echo 'Поточне значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;ini_set($setting, ini_get($setting) ? 0 : 1);echo 'Нове значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;ini_restore($setting);echo 'Вихідне значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;?> `
+` <?php$setting = 'html_errors';echo 'Поточне значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;ini_set($setting, ini_get($setting) ? 0 : 1);echo 'Нове значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;ini_restore($setting);echo 'Вихідне значення настройки \'' . $setting . '\': ' . ini_get($setting), PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 

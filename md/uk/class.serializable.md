@@ -7,7 +7,7 @@
 
 # Інтерфейс Serializable
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -46,7 +46,7 @@ void
 
 **Приклад #1 Основи використання**
 
-`<?phpclass obj implements Serializable {    private $data; public function __construct() {         $this->data u003d "Мої закриті дані"; }    public function serialize() {        return serialize($this->data); }    public function unserialize($data) {        $this->datau003du003dunserialize($data); }    public function getData() {        return $this->data; }}$obj u003d new obj;$ser u003d serialize($obj);var_dump($ser);$newobj u003d unserialize($ser);var_dump($newobj->getData());?> `
+`<?phpclass obj implements Serializable {    private $data; public function __construct() {         $this->data = "Мої закриті дані"; }    public function serialize() {        return serialize($this->data); }    public function unserialize($data) {        $this->data==unserialize($data); }    public function getData() {        return $this->data; }}$obj = new obj;$ser = serialize($obj);var_dump($ser);$newobj = unserialize($ser);var_dump($newobj->getData());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -22,7 +22,7 @@ mysql_query — Надсилає запит MySQL
 
 ### Опис
 
-**mysql_query**(string `$query`, resource `$link_identifier` u003d NULL):
+**mysql_query**(string `$query`, resource `$link_identifier` = NULL):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **mysql_query()** посилає один запит (надсилка кількох запитів не
@@ -78,14 +78,14 @@ UPDATE.
 Наступний запит складено неправильно і **mysql_query()** поверне
 **`false`**.
 
-` <?php$result u003d mysql_query('SELECT * WHERE 1 u003d 1');if (!$result) {    die('Невірний запит: ' . mysql_error());}?> `
+` <?php$result = mysql_query('SELECT * WHERE 1 = 1');if (!$result) {    die('Невірний запит: ' . mysql_error());}?> `
 
 **Приклад #2 Вірний запит**
 
 Наступний запит є вірним, тому **mysql_query()** поверне resource.
 
-` <?php//Ці дані, к прикладу, могли бути отримані від користувача$firstname u003d 'fred';$lastname  u003d 'fox';// Формуємо запрос// Ценай          ¦¦ в документации mysql_real_escape_string()$query u003d sprintf("SELECT firstname, lastname, address, age FROM friends    WHERE firstnameu003d'%s' AND lastnameu003d'%s'",    mysql_real_escape_string($firstname),    mysql_real_escape_string($lastname)); // Виконуємо запит$result u003d mysql_query($query);// Перевіряємо результат// Це показує реальний запит, посланий к MySQL, а також помилки. Зручно при налагодженні.if (!$result) {   $message  u003d 'Невірний запит: ' . mysql_error() . "
-";    $message .u003d 'Запит цілком: ' . $query;   die($message);}// Використовуємо результат// Спроба інформацію , працюючу з результатом запиту// Дивіться також mysql_result(), mysql_fetch_array(), mysql_fetch_row() і т.п.while ($row u003d mysql_fetch_   'lastname'];    echo $row['address'];   echo $row['age'];}// Звільняємо ресурси, асоційовані з результатом// Це робиться автоматично 
+` <?php//Ці дані, к прикладу, могли бути отримані від користувача$firstname = 'fred';$lastname  = 'fox';// Формуємо запрос// Ценай          ¦¦ в документации mysql_real_escape_string()$query = sprintf("SELECT firstname, lastname, address, age FROM friends    WHERE firstname='%s' AND lastname='%s'",    mysql_real_escape_string($firstname),    mysql_real_escape_string($lastname)); // Виконуємо запит$result = mysql_query($query);// Перевіряємо результат// Це показує реальний запит, посланий к MySQL, а також помилки. Зручно при налагодженні.if (!$result) {   $message  = 'Невірний запит: ' . mysql_error() . "
+";    $message .= 'Запит цілком: ' . $query;   die($message);}// Використовуємо результат// Спроба інформацію , працюючу з результатом запиту// Дивіться також mysql_result(), mysql_fetch_array(), mysql_fetch_row() і т.п.while ($row = mysql_fetch_   'lastname'];    echo $row['address'];   echo $row['age'];}// Звільняємо ресурси, асоційовані з результатом// Це робиться автоматично 
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # mysql_stat
 
-(PHP 4 u003d 4.3.0, PHP 5)
+(PHP 4 = 4.3.0, PHP 5)
 
 mysql_stat — Повертає поточний статус сервера
 
@@ -22,7 +22,7 @@ mysql_stat — Повертає поточний статус сервера
 
 ### Опис
 
-**mysql_stat**(resource `$link_identifier` u003d NULL): string
+**mysql_stat**(resource `$link_identifier` = NULL): string
 
 **mysql_stat()** повертає поточний статус сервера.
 
@@ -50,38 +50,38 @@ SQL-запит `SHOW STATUS`. Якщо передано некоректний `
 
 **Приклад #1 Приклад використання **mysql_stat()****
 
-` <?php$link   u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$status u003d explode('  ', mysql_stat($link));print_r($status);?> `
+` <?php$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');$status = explode('  ', mysql_stat($link));print_r($status);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Uptime: 5380
-[1] u003d> Threads: 2
-[2] u003d> Questions: 1321299
-[3] u003d> Slow queries: 0
-[4] u003d> Opens: 26
-[5] u003d> Flush tables: 1
-[6] u003d> Open tables: 17
-[7] u003d> Queries per second avg: 245.595
+[0] => Uptime: 5380
+[1] => Threads: 2
+[2] => Questions: 1321299
+[3] => Slow queries: 0
+[4] => Opens: 26
+[5] => Flush tables: 1
+[6] => Open tables: 17
+[7] => Queries per second avg: 245.595
 )
 
 **Приклад #2 Альтернативний приклад використання **mysql_stat()****
 
-` <?php$link   u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$result u003d mysql_query('SHOW STATUS', $link);while ($row u003d mysql_fetch_    row['Variable_name'] . ' u003d ' . $row['Value'] . "
+` <?php$link   = mysql_connect('localhost', 'mysql_user', 'mysql_password');$result = mysql_query('SHOW STATUS', $link);while ($row = mysql_fetch_    row['Variable_name'] . ' = ' . $row['Value'] . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-back_log u003d 50
-basedir u003d /usr/local/
-bdb_cache_size u003d 8388600
-bdb_log_buffer_size u003d 32768
-bdb_home u003d /var/db/mysql/
-bdb_max_lock u003d 10000
-bdb_logdir u003d
-bdb_shared_data u003d OFF
-bdb_tmpdir u003d /var/tmp/
+back_log = 50
+basedir = /usr/local/
+bdb_cache_size = 8388600
+bdb_log_buffer_size = 32768
+bdb_home = /var/db/mysql/
+bdb_max_lock = 10000
+bdb_logdir =
+bdb_shared_data = OFF
+bdb_tmpdir = /var/tmp/
 ...
 
 ### Дивіться також

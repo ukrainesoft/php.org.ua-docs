@@ -33,7 +33,7 @@ fclose — Закриває відкритий дескриптор файлу
 
 **Приклад #1 Простий приклад використання функції **fclose()****
 
-` <?php$handle u003dfopen('somefile.txt', 'r');fclose($handle);?> `
+` <?php$handle =fopen('somefile.txt', 'r');fclose($handle);?> `
 
 ### Дивіться також
 

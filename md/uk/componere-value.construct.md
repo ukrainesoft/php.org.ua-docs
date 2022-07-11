@@ -7,13 +7,13 @@
 
 # Componere\Value::\_\_construct
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Value::\_\_construct - Конструктор класу Value
 
 ### Опис
 
-public **Componere\Value::\_\_construct**( `$default` u003d ?)
+public **Componere\Value::\_\_construct**( `$default` = ?)
 
 ### Список параметрів
 

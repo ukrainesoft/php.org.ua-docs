@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerApi::bsonSerialize
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\ServerApi::bsonSerialize — Повертає об'єкт для
 серіалізації BSON

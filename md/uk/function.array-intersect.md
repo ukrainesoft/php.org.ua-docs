@@ -7,7 +7,7 @@
 
 #array_intersect
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 array_intersect — обчислює сходження масивів
 
@@ -36,20 +36,20 @@ array_intersect — обчислює сходження масивів
 
 **Приклад #1 Приклад використання **array_intersect()****
 
-` <?php$array1 u003d array("a" u003d> "green", "red", "blue");$array2 u003d array("b" u003d> "green", "yellow", "red"); $result u003d array_intersect($array1, $array2);print_r($result);?> `
+` <?php$array1 = array("a" => "green", "red", "blue");$array2 = array("b" => "green", "yellow", "red"); $result = array_intersect($array1, $array2);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[a] u003d> green
-[0] u003d> red
+[a] => green
+[0] => red
 )
 
 ### Примітки
 
 > **Примітка**: Два елементи вважаються однаковими тоді і лише
-> тоді, коли `(string) $ elem1 u003du003du003d (string) $ elem2 `. Іншими словами,
+> тоді, коли `(string) $ elem1 === (string) $ elem2 `. Іншими словами,
 > коли їх рядкові уявлення ідентичні.
 
 ### Дивіться також

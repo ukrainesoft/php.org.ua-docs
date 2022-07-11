@@ -7,7 +7,7 @@
 
 #eio_rmdir
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_rmdir - Видаляє директорію
 
@@ -15,10 +15,10 @@ eio_rmdir - Видаляє директорію
 
 **eio_rmdir**(
 string `$path`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_rmdir()** видаляє директорію.
@@ -63,7 +63,7 @@ $data u003d NULL
 
 **Приклад #1 Приклад використання **eio_rmdir()****
 
-`<?php$temp_dirname u003d "eio-temp-dir";mkdir($temp_dirname);function my_rmdir_callback($data, $result) {   if ($result u003du003d 0 &&          "; }else if (file_exists($data)) {      rmdir($data); }}eio_rmdir($temp_dirname, EIO_PRI_DEFAULT, "my_rmdir_callback", $temp_dirname);eio_event_loop();?> `
+`<?php$temp_dirname = "eio-temp-dir";mkdir($temp_dirname);function my_rmdir_callback($data, $result) {   if ($result == 0 &&          "; }else if (file_exists($data)) {      rmdir($data); }}eio_rmdir($temp_dirname, EIO_PRI_DEFAULT, "my_rmdir_callback", $temp_dirname);eio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

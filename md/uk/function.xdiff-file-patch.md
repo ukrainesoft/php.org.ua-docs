@@ -7,7 +7,7 @@
 
 #xdiff_file_patch
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_file_patch — Застосування уніфікованого патчу до файлу
 
@@ -17,7 +17,7 @@ xdiff_file_patch — Застосування уніфікованого пат�
 string `$file`,
 string `$patch`,
 string `$dest`,
-int `$flags` u003d DIFF_PATCH_NORMAL
+int `$flags` = DIFF_PATCH_NORMAL
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -59,14 +59,14 @@ int `$flags` u003d DIFF_PATCH_NORMAL
 
 Наступний код використовує уніфікований патч до файлу.
 
-` <?php$old_version u003d 'my_script-1.0.php';$patch u003d 'my_script.patch';$errors u003d xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');if (is_string($error) )) {   echo "Відхилені:
+` <?php$old_version = 'my_script-1.0.php';$patch = 'my_script.patch';$errors = xdiff_file_patch($old_version, $patch, 'my_script-1.1.php');if (is_string($error) )) {   echo "Відхилені:
 ";   echo $errors;}?> `
 
 **Приклад #2 Patch reversing example**
 
 Наступний код застосовує відкат патча до файлу.
 
-` <?php$new_version u003d 'my_script-1.1.php';$patch u003d 'my_script.patch';$errors u003d xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PAT $errors)) {  echo "Відхилено:
+` <?php$new_version = 'my_script-1.1.php';$patch = 'my_script.patch';$errors = xdiff_file_patch($new_version, $patch, 'my_script-1.0.php', XDIFF_PAT $errors)) {  echo "Відхилено:
 ";   echo $errors;}?> `
 
 ### Дивіться також

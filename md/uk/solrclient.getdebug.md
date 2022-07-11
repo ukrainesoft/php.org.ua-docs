@@ -7,7 +7,7 @@
 
 # SolrClient::getDebug
 
-(PECL solr \> u003d 0.9.7)
+(PECL solr \> = 0.9.7)
 
 SolrClient::getDebug — Повертає дані налагодження для останньої спроби
 підключення

@@ -56,14 +56,14 @@ public **mysqli::ping**(): bool
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if ($mysqli->connect_errno) {   підключитися| s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if ($mysqli->connect_errno) {   підключитися| s
 ", $mysqli->connect_error);   exit();}/* перевіримо, жив ли сервер */if ($mysqli->ping()) {    printf ("Сполука впорядку!"
 ");} else {    printf ("Помилка: %s
 ", $mysqli->error);}/* закриваємо з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
 ", mysqli_connect_error());
 ");} else {    printf ("Помилка: %s
 ", mysqli_error($link));}/* закриваємо з'єднання*/mysqli_close($link);?> `

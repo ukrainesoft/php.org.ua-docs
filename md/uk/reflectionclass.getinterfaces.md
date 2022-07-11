@@ -31,20 +31,20 @@ public **ReflectionClass::getInterfaces**(): array
 
 **Приклад #1 Приклад використання **ReflectionClass::getInterfaces()****
 
-`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 u003d new ReflectionClass("Baz");print_r($rc1->getInterfaces());?>
+`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 = new ReflectionClass("Baz");print_r($rc1->getInterfaces());?>
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[Foo] u003d> ReflectionClass Object
+[Foo] => ReflectionClass Object
 (
-[name] u003d> Foo
+[name] => Foo
 )
 
-[Bar] u003d> ReflectionClass Object
+[Bar] => ReflectionClass Object
 (
-[name] u003d> Bar
+[name] => Bar
 )
 
 )

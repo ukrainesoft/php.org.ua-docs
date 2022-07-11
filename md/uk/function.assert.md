@@ -16,12 +16,12 @@ assert — Перевіряє, чи є затвердження **`false`**
 PHP 5 та 7
 
 **assert**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$assertion`, string `$description` u003d ?): bool
+`$assertion`, string `$description` = ?): bool
 
 PHP 7
 
 **assert**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$assertion`, [Throwable](class.throwable.md) `$exception` u003d ?): bool
+`$assertion`, [Throwable](class.throwable.md) `$exception` = ?): bool
 
 **assert()** перевірить задане твердження `assertion` та здійснить
 відповідна дія, якщо результатом перевірки виявиться
@@ -119,13 +119,13 @@ PHP 7 **assert()** - це мовна конструкція, що дозволя
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Функція **assert()** більше не оцінюватиме рядкові аргументи, натомість вони будуть розглядатися як будь-який інший аргумент. Замість `assert($a u003du003d $b)` слід використовувати `assert('$a u003du003d $b')`. Директива `assert.quiet_eval` `php.ini` та константа **`ASSERT_QUIET_EVAL`** також були видалені, оскільки вони більше не мають сенсу. |
-| 8.0.0  | Оголошення функції з ім'ям `assert()` всередині простору імен тепер заборонено та викликає **`E_COMPILE_ERROR`**.                                                                                                                                                                                                                                          |
-| 7.3.0  | Оголошення функції з ім'ям `assert()` усередині простору імен оголошено застарілим. Таке оголошення видає помилку рівня **`E_DEPRECATED`**.                                                                                                                                                                                                                |
-| 7.2.0  | Використання рядків у параметрі `assertion` оголошено застарілим і призводитиме до помилок рівня **`E_DEPRECATED`** у випадку, коли і [assert.active](info.configuration.md#ini.assert.active) та [zend.assertions ](ini.core.md#ini.zend.assertions) встановлені на значення `1`.                                                                         |
-| 7.0.0  | **assert()** тепер мовна конструкція, а чи не функція. `assertion` тепер може бути виразом. Другий параметр тепер інтерпретується як виняток `exception` (якщо передано об'єкт [Throwable](class.throwable.md)), або як опис `description`, що підтримується з версії PHP 5.4.8 і далі.                                                                    |
+| Версія | Опис                                                                                                                                                                                                                                                                                                                             |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Функція **assert()** більше не оцінюватиме рядкові аргументи, натомість вони будуть розглядатися як будь-який інший аргумент. Замість assert($a == $b) слід використовувати assert('$a == $b'). Директива assert.quiet_eval php.ini та константа **ASSERT_QUIET_EVAL** також були видалені, оскільки вони більше не мають сенсу. |
+| 8.0.0  | Оголошення функції з ім'ям assert() всередині простору імен тепер заборонено та викликає **E_COMPILE_ERROR**.                                                                                                                                                                                                                    |
+| 7.3.0  | Оголошення функції з ім'ям assert() усередині простору імен оголошено застарілим. Таке оголошення видає помилку рівня **E_DEPRECATED**.                                                                                                                                                                                          |
+| 7.2.0  | Використання рядків у параметрі assertion оголошено застарілим і призводитиме до помилок рівня **E_DEPRECATED** у випадку, коли і [assert.active](info.configuration.md#ini.assert.active) та [zend.assertions ](ini.core.md#ini.zend.assertions) встановлені на значення 1.                                                     |
+| 7.0.0  | **assert()** тепер мовна конструкція, а чи не функція. assertion тепер може бути виразом. Другий параметр тепер інтерпретується як виняток exception (якщо передано об'єкт [Throwable](class.throwable.md)), або як опис description, що підтримується з версії PHP 5.4.8 і далі.                                                |
 
 ### Приклади
 
@@ -150,7 +150,7 @@ PHP 7 **assert()** - це мовна конструкція, що дозволя
 
 **Приклад #3 Очікування без власного виключення**
 
-` <?phpassert(true u003du003du003dfalse);echo 'Привіт!';?> `
+` <?phpassert(true ===false);echo 'Привіт!';?> `
 
 У разі директиви [zend.assertions](ini.core.md#ini.zend.assertions),
 встановленою в 0, цей код виведе:
@@ -162,7 +162,7 @@ PHP 7 **assert()** - це мовна конструкція, що дозволя
 [assert.exception](info.configuration.md#ini.assert.exception),
 встановленою в 0, цей приклад виведе:
 
-Warning: assert(): assert(true u003du003d false) failed in - on line 2
+Warning: assert(): assert(true == false) failed in - on line 2
 Вітання!
 
 У разі директив [zend.assertions](ini.core.md#ini.zend.assertions),
@@ -170,15 +170,15 @@ Warning: assert(): assert(true u003du003d false) failed in - on line 2
 [assert.exception](info.configuration.md#ini.assert.exception),
 встановленою в 1, цей код виведе:
 
-Fatal error: Uncaught AssertionError: assert(true u003du003d false) in -:2
+Fatal error: Uncaught AssertionError: assert(true == false) in -:2
 Stack trace:
-#0 -(2): assert(false, 'assert(true u003du003d...')
+#0 -(2): assert(false, 'assert(true ==...')
 #1 {main}
 thrown in - on line 2
 
 **Приклад #4 Очікування з власним винятком**
 
-`<?phpclass CustomError extends AssertionError {}assert(true u003du003d false, new CustomError('True не є false!'));echo 'Привіт!';?> `
+`<?phpclass CustomError extends AssertionError {}assert(true == false, new CustomError('True не є false!'));echo 'Привіт!';?> `
 
 У разі директиви [zend.assertions](ini.core.md#ini.zend.assertions),
 встановленою в 0, цей код виведе:

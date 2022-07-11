@@ -8,7 +8,7 @@
 
 # date_default_timezone_set
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 date_default_timezone_set — Встановлює часовий пояс за замовчуванням для
 всіх функцій дати/часу у скрипті
@@ -41,7 +41,7 @@ INI-настроюванням
 
 **Приклад #1 Отримання часового поясу за замовчуванням**
 
-`<?phpdate_default_timezone_set('America/Los_Angeles');$script_tz u003d date_default_timezone_get();if (strcmp($script_tz, ini_get('date.timezone')))Додатковий| ';} else {    echo 'Годинний пояс скрипта і настройки INI-файла збігаються.';}?> `
+`<?phpdate_default_timezone_set('America/Los_Angeles');$script_tz = date_default_timezone_get();if (strcmp($script_tz, ini_get('date.timezone')))Додатковий| ';} else {    echo 'Годинний пояс скрипта і настройки INI-файла збігаються.';}?> `
 
 ### Дивіться також
 

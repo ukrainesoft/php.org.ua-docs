@@ -7,7 +7,7 @@
 
 # mysqli_sql_exception::getSqlState
 
-(PHP 8 \>u003d 8.1.2)
+(PHP 8 \>= 8.1.2)
 
 mysqli_sql_exception::getSqlState — Повертає код помилки SQLSTATE
 

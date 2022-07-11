@@ -7,7 +7,7 @@
 
 # yaml_parse
 
-(PECL yaml \>u003d 0.4.0)
+(PECL yaml \>= 0.4.0)
 
 yaml_parse - Розбирає потік YAML
 
@@ -15,9 +15,9 @@ yaml_parse - Розбирає потік YAML
 
 **yaml_parse**(
 string `$input`,
-int `$pos` u003d 0,
-int `&$ndocs` u003d ?,
-array `$callbacks` u003d **`null`**
+int `$pos` = 0,
+int `&$ndocs` = ?,
+array `$callbacks` = **`null`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -54,83 +54,83 @@ PHP або **`false`** у разі виникнення помилки. Якщо
 
 **Приклад #1 Приклад використання **yaml_parse()****
 
-`<?php$yaml u003d <<<<EOD---invoice: 34843date: "2001-01-23"bill-to: &id001 given: Chris  family: Dumars address:                Suite #292    city: Royal Oak    state: MI    postal: 48046    site: zxibit.esy.esship-to: *id001product:- sku: BL394D  quantity: 4  description: Basketball  price: 450- sku: BL4438H  quantity: 1  description: Super Hoop price: 2392tax: 251.420000total: 4443.520000comments: Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338....EOD;$parsed u003d yaml_parse($yaml);var_dump($parsed);?> `
+`<?php$yaml = <<<<EOD---invoice: 34843date: "2001-01-23"bill-to: &id001 given: Chris  family: Dumars address:                Suite #292    city: Royal Oak    state: MI    postal: 48046    site: zxibit.esy.esship-to: *id001product:- sku: BL394D  quantity: 4  description: Basketball  price: 450- sku: BL4438H  quantity: 1  description: Super Hoop price: 2392tax: 251.420000total: 4443.520000comments: Late afternoon is best. Backup contact is Nancy Billsmer @ 338-4338....EOD;$parsed = yaml_parse($yaml);var_dump($parsed);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(8) {
-["invoice"]u003d>
+["invoice"]=>
 int(34843)
-["date"]u003d>
+["date"]=>
 string(10) "2001-01-23"
-["bill-to"]u003d>
+["bill-to"]=>
 &array(3) {
-["given"]u003d>
+["given"]=>
 string(5) "Chris"
-["family"]u003d>
+["family"]=>
 string(6) "Dumars"
-["address"]u003d>
+["address"]=>
 array(4) {
-["lines"]u003d>
+["lines"]=>
 string(34) "458 Walkman Dr.
 Suite #292"
-["city"]u003d>
+["city"]=>
 string(9) "Royal Oak"
-["state"]u003d>
+["state"]=>
 string(2) "MI"
-["postal"]u003d>
+["postal"]=>
 int(48046)
 }
 }
-["ship-to"]u003d>
+["ship-to"]=>
 &array(3) {
-["given"]u003d>
+["given"]=>
 string(5) "Chris"
-["family"]u003d>
+["family"]=>
 string(6) "Dumars"
-["address"]u003d>
+["address"]=>
 array(4) {
-["lines"]u003d>
+["lines"]=>
 string(34) "458 Walkman Dr.
 Suite #292"
-["city"]u003d>
+["city"]=>
 string(9) "Royal Oak"
-["state"]u003d>
+["state"]=>
 string(2) "MI"
-["postal"]u003d>
+["postal"]=>
 int(48046)
 }
 }
-["product"]u003d>
+["product"]=>
 array(2) {
-[0]u003d>
+[0]=>
 array(4) {
-["sku"]u003d>
+["sku"]=>
 string(6) "BL394D"
-["quantity"]u003d>
+["quantity"]=>
 int(4)
-["description"]u003d>
+["description"]=>
 string(10) "Basketball"
-["price"]u003d>
+["price"]=>
 int(450)
 }
-[1]u003d>
+[1]=>
 array(4) {
-["sku"]u003d>
+["sku"]=>
 string(7) "BL4438H"
-["quantity"]u003d>
+["quantity"]=>
 int(1)
-["description"]u003d>
+["description"]=>
 string(10) "Super Hoop"
-["price"]u003d>
+["price"]=>
 int(2392)
 }
 }
-["tax"]u003d>
+["tax"]=>
 float(251.42)
-["total"]u003d>
+["total"]=>
 float(4443.52)
-["comments"]u003d>
+["comments"]=>
 string(68) "Попередній час є великий. Backup contact is Nancy Billsmer @ 338-4338."
 }
 

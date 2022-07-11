@@ -7,7 +7,7 @@
 
 # Ds\Map::keys
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::keys — Повертає набір ключів колекції
 
@@ -29,15 +29,15 @@ public **Ds\Map::keys**(): [Ds\Set](class.ds-set.md)
 
 **Приклад #1 Приклад використання **Ds\Map::keys()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->keys());?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->keys());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#2 (3) {
-[0]u003d>
+[0]=>
 string(1) "a"
-[1]u003d>
+[1]=>
 string(1) "b"
-[2]u003d>
+[2]=>
 string(1) "c"
 }

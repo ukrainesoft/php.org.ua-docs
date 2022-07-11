@@ -41,7 +41,7 @@ symlink — Створює символічне посилання
 
 **Приклад #1 Створення символічного посилання**
 
-` <?php$target u003d 'uploads.php';$link u003d 'uploads';symlink($target, $link);echo readlink($link);?> `
+` <?php$target = 'uploads.php';$link = 'uploads';symlink($target, $link);echo readlink($link);?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # EvChild::set
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvChild::set — Конфігурування спостерігача
 

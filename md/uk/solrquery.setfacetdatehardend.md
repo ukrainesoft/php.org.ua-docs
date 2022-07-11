@@ -7,14 +7,14 @@
 
 # SolrQuery::setFacetDateHardEnd
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetDateHardEnd — Відповідає facet.date.hardend
 
 ### Опис
 
 public **SolrQuery::setFacetDateHardEnd**(bool `$value`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Відповідає facet.date.hardend
 

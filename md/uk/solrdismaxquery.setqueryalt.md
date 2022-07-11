@@ -35,8 +35,8 @@ public **SolrDisMaxQuery::setQueryAlt**(string `$q`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setQueryAlt()****
 
-` <?php$dismaxQuery u003d new DisMaxQuery();$dismaxQuery->setQueryAlt('*:*');?> `
+` <?php$dismaxQuery = new DisMaxQuery();$dismaxQuery->setQueryAlt('*:*');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-defTypeu003dedismax&q.altu003d*:*&qu003d
+defType=edismax&q.alt=*:*&q=

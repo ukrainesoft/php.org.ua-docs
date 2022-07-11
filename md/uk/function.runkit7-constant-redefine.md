@@ -7,7 +7,7 @@
 
 # runkit7_constant_redefine
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_constant_redefine — Перевизначає вже певну константу
 
@@ -15,7 +15,7 @@ runkit7_constant_redefine — Перевизначає вже певну кон�
 
 **runkit7_constant_redefine**(string `$constant_name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$new_visibility` u003d ?): bool
+`$value`, int `$new_visibility` = ?): bool
 
 ### Список параметрів
 

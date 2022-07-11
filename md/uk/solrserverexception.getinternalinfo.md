@@ -8,7 +8,7 @@
 
 # SolrServerException::getInternalInfo
 
-(PECL solr \>u003d 1.1.0, \>u003d2.0.0)
+(PECL solr \>= 1.1.0, \>=2.0.0)
 
 SolrServerException::getInternalInfo — Повертає внутрішню інформацію
 про те, де було викинуто виняток

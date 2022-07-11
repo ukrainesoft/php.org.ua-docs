@@ -7,7 +7,7 @@
 
 #lchown
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 lchown — Змінює власника символічного посилання
 
@@ -37,7 +37,7 @@ lchown — Змінює власника символічного посилан
 
 **Приклад #1 Зміна власника символічного посилання**
 
-` <?php$target u003d 'output.php';$link u003d 'output.md';symlink($target, $link);lchown($link, 8);?> `
+` <?php$target = 'output.php';$link = 'output.md';symlink($target, $link);lchown($link, 8);?> `
 
 ### Примітки
 

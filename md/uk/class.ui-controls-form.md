@@ -25,7 +25,7 @@ protected `$controls`;
 /\* Методи \*/
 
 public [append](ui-controls-form.append.md)(string `$label`,
-[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` u003d
+[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` =
 **`false`**): int
 
 public [delete](ui-controls-form.delete.md)(int `$index`): bool

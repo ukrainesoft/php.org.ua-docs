@@ -7,7 +7,7 @@
 
 # IntlDatePatternGenerator::getBestPattern
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 IntlDatePatternGenerator::getBestPattern — Визначає найбільш
 відповідний формат дати/часу
@@ -36,8 +36,8 @@ string\|false
 **Приклад #1 Приклад використання
 **IntlDatePatternGenerator::getBestPattern()****
 
-` <?php$skeleton u003d 'YYYYMMdd';$today u003d \DateTimeImmutable::createFromFormat('Y-m-d', '2021-04-24');$patternGenerator u003d new \IntlDatePat $patternGenerator->getBestPattern($skeleton);echo 'Німецька: ', \IntlDateFormatter::formatObject($today, $pattern, 'de_DE'), "
-";$patternGenerator u003d new \IntlDatePatternGenerator('en_US');$pattern u003d $patternGenerator->getBestPattern($skeleton);echo 'Англійська: ', \IntlDateFormatter::formatObject'$ ?> `
+` <?php$skeleton = 'YYYYMMdd';$today = \DateTimeImmutable::createFromFormat('Y-m-d', '2021-04-24');$patternGenerator = new \IntlDatePat $patternGenerator->getBestPattern($skeleton);echo 'Німецька: ', \IntlDateFormatter::formatObject($today, $pattern, 'de_DE'), "
+";$patternGenerator = new \IntlDatePatternGenerator('en_US');$pattern = $patternGenerator->getBestPattern($skeleton);echo 'Англійська: ', \IntlDateFormatter::formatObject'$ ?> `
 
 Результат виконання цього прикладу:
 

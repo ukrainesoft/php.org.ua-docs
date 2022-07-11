@@ -23,11 +23,11 @@ mysql_connect — Відкриває з'єднання із сервером MyS
 ### Опис
 
 **mysql_connect**(
-string `$server` u003d ini_get("mysql.default_host"),
-string `$username` u003d ini_get("mysql.default_user"),
-string `$password` u003d ini_get("mysql.default_password"),
-bool `$new_link` u003d **`false`**,
-int `$client_flags` u003d 0
+string `$server` = ini_get("mysql.default_host"),
+string `$username` = ini_get("mysql.default_user"),
+string `$password` = ini_get("mysql.default_password"),
+bool `$new_link` = **`false`**,
+int `$client_flags` = 0
 ): resource \ | false
 
 Відкриває нове з'єднання з сервером MySQL або використовує вже
@@ -84,17 +84,17 @@ int `$client_flags` u003d 0
 
 **Приклад #1 Приклад використання **mysql_connect()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}echo ' ($link);?> `
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}echo ' ($link);?> `
 
 **Приклад #2 Приклад використання **mysql_connect()** із синтаксисом
 `hostname:port`**
 
-` <?php// з'єднуємося з example.com на порту 3307$link u003d mysql_connect('example.com:3307', 'mysql_user', 'mysql_password');if (!$link) { '   . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);// з'єднуємось з localhost на порту 3307$link u003d mysql_connect('127.0.0.1:3307',''pass (!$link) {   die('Помилка з'єднання: ' . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);?> `
+` <?php// з'єднуємося з example.com на порту 3307$link = mysql_connect('example.com:3307', 'mysql_user', 'mysql_password');if (!$link) { '   . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);// з'єднуємось з localhost на порту 3307$link = mysql_connect('127.0.0.1:3307',''pass (!$link) {   die('Помилка з'єднання: ' . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);?> `
 
 **Приклад #3 Приклад використання **mysql_connect()** із синтаксисом
 ":/path/to/socket"**
 
-`<?php// з'єднуємося до localhost по сокету, т.е. /tmp/mysql.sock// варіант 1: не вказуємо localhost$link u003d mysql_connect(':/tmp/mysql', 'mysql_user', 'mysql_password');if (!$link) { 'є|'' . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);// варіант 2: вказуємо localhost$link u003d mysql_connect('localhost:/tmp/mysql.sock', 'mysql_user', 'mysql_user', ;if (!$link) {   die('Помилка з'єднання: ' . mysql_error());}echo ''Успішно з'єдналися';mysql_close($link);?> `
+`<?php// з'єднуємося до localhost по сокету, т.е. /tmp/mysql.sock// варіант 1: не вказуємо localhost$link = mysql_connect(':/tmp/mysql', 'mysql_user', 'mysql_password');if (!$link) { 'є|'' . mysql_error());}echo 'Успішно з'єдналися';mysql_close($link);// варіант 2: вказуємо localhost$link = mysql_connect('localhost:/tmp/mysql.sock', 'mysql_user', 'mysql_user', ;if (!$link) {   die('Помилка з'єднання: ' . mysql_error());}echo ''Успішно з'єдналися';mysql_close($link);?> `
 
 ### Примітки
 

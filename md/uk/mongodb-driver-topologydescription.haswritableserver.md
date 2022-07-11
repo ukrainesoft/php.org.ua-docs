@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\TopologyDescription::hasWritableServer
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\TopologyDescription::hasWritableServer - Повертає, є
 чи в топології сервер, доступний для запису

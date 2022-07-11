@@ -36,7 +36,7 @@ public
 **Приклад #1 Приклад використання **ReflectionFunction::invoke()****
 
 ` <?phpfunction title($title, $name){    return sprintf("%s. %s
-", $title, $name);}$function u003d new ReflectionFunction('title');echo $function->invoke('Dr', 'Phil');?> `
+", $title, $name);}$function = new ReflectionFunction('title');echo $function->invoke('Dr', 'Phil');?> `
 
 Результат виконання цього прикладу:
 

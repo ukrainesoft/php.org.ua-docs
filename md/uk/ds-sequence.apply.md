@@ -8,7 +8,7 @@ callback-функції
 
 # Ds\Sequence::apply
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::apply — Оновлення всіх значень їх застосуванням
 переданої callback-функції
@@ -42,13 +42,13 @@ Callback-функція має повертати нове значення, я�
 
 **Приклад #1 Приклад використання **Ds\Sequence::apply()****
 
-` <?php$sequence u003d new \Ds\Sequence([1, 2, 3]);$sequence->apply(function($value) { return $value * 2; });print_r($sequence);? > `
+` <?php$sequence = new \Ds\Sequence([1, 2, 3]);$sequence->apply(function($value) { return $value * 2; });print_r($sequence);? > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 2
-[1] u003d> 4
-[2] u003d> 6
+[0] => 2
+[1] => 4
+[2] => 6
 )

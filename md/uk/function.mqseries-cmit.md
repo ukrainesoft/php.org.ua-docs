@@ -7,7 +7,7 @@
 
 # mqseries_cmit
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_cmit — MQSeries MQCMIT
 
@@ -42,7 +42,7 @@ mqseries_cmit — MQSeries MQCMIT
 
 **Приклад #1 Приклад використання **mqseries_cmit()****
 
-`<?php   mqseries_cmit($conn, $comp_code, $reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("cmit CompCode:%d Reason:%d Text:%s<br>
+`<?php   mqseries_cmit($conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("cmit CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));    }?> `
 
 ### Примітки

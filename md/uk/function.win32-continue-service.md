@@ -7,13 +7,13 @@
 
 #win32_continue_service
 
-(PECL win32service \>u003d0.1.0)
+(PECL win32service \>=0.1.0)
 
 win32_continue_service — Відновлює роботу зупиненої служби
 
 ### Опис
 
-**win32_continue_service**(string `$servicename`, string `$machine` u003d
+**win32_continue_service**(string `$servicename`, string `$machine` =
 ?): void
 
 Відновлює роботу зазначеної зупиненої служби. Вимагає
@@ -50,7 +50,7 @@ win32_continue_service — Відновлює роботу зупиненої с
 
 | Версія                                                                                                                                                                                      | Опис                                                                                                                      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**.                                                    |                                                                                                                           |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **false**.                                                      |                                                                                                                           |                                                                                                                           
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                                                                                                           |
 | PECL win32service 1.0.0 Тип повертається значення void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                               |                                                                                                                           |
 | PECL win32service 0.3.0                                                                                                                                                                     | Ця функція більше не потребує привілею адміністратора, якщо для користувача, що використовується, коректно настроєно ACL. |

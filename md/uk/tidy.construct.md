@@ -7,17 +7,17 @@
 
 # tidy::\_\_construct
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::\_\_construct — створює новий [tidy](class.tidy.md)-об'єкт
 
 ### Опис
 
 public **tidy::\_\_construct**(
-?string `$filename` u003d **`null`**,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+?string `$filename` = **`null`**,
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 )
 
 Створює нову [tidy](class.tidy.md)-об'єкт.
@@ -48,15 +48,15 @@ bool `$useIncludePath` u003d **`false`**
 
 ### Список змін
 
-| Версія | Опис                                                                                 |
-| ------ | ------------------------------------------------------------------------------------ |
-| 8.0.0  | `filename`, `config`, `encoding` та `useIncludePath` тепер допускають значення null. |
+| Версія | Опис                                                                         |
+| ------ | ---------------------------------------------------------------------------- |
+| 8.0.0  | filename, config, encoding та useIncludePath тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **tidy::\_\_construct()****
 
-` <?php$html u003d <<<<HTML<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1- strict.dtd"><html xmlnsu003d"http://www.w3.org/1999/xhtml" xml:langu003d"en" langu003d"en"><head><title>title</title></ head><body><p>параграф <bt />текст</p></body></html>HTML;$tidy u003d new tidy();$tidy->ParseString($html);$tidy-> cleanRepair();if($tidy->errorBuffer) {   echo "Були виявлені наступні помилки:
+` <?php$html = <<<<HTML<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1- strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><title>title</title></ head><body><p>параграф <bt />текст</p></body></html>HTML;$tidy = new tidy();$tidy->ParseString($html);$tidy-> cleanRepair();if($tidy->errorBuffer) {   echo "Були виявлені наступні помилки:
 ";   echo $tidy->errorBuffer;}?> `
 
 Результат виконання цього прикладу:

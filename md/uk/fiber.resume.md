@@ -7,7 +7,7 @@
 
 # Fiber::resume
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 Fiber::resume — Відновлює виконання файбера зі значенням
 
@@ -15,7 +15,7 @@ Fiber::resume — Відновлює виконання файбера зі зн
 
 public
 **Fiber::resume**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d **`null`**):
+`$value` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Відновлює файбер, використовуючи задане значення в результаті поточного

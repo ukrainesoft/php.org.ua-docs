@@ -35,7 +35,7 @@ strtolower — Перетворює рядок на нижній регістр
 
 **Приклад #1 Приклад використання **strtolower()****
 
-` <?php$str u003d "Mary Had A Little Lamb and She LOVED It So";$str u003d strtolower($str);echo $str; // виводить: mary had a little lamb and she loved it so?> `
+` <?php$str = "Mary Had A Little Lamb and She LOVED It So";$str = strtolower($str);echo $str; // виводить: mary had a little lamb and she loved it so?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 #eio_fdatasync
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_fdatasync — Синхронізує поточний стан фізичного файлу
 пристроєм
@@ -17,10 +17,10 @@ eio_fdatasync — Синхронізує поточний стан фізичн�
 **eio_fdatasync**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_fdatasync()** синхронізує поточний стан файлу з фізичним

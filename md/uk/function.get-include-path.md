@@ -7,7 +7,7 @@
 
 #get_include_path
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 get_include_path — Отримання поточного значення конфігураційної установки
 include_path

@@ -7,7 +7,7 @@
 
 # phpdbg_exec
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 phpdbg_exec — Спробувати встановити контекст виконання
 

@@ -7,7 +7,7 @@
 
 # EventHttp::bind
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttp::bind — Прив'язує HTTP-сервер до вказаної адреси та порту
 
@@ -37,7 +37,7 @@ HTTP-сервера до кількох різних портів.
 
 **Приклад #1 Приклад використання **EventHttp::bind()****
 
-` <?php$base u003d new EventBase();$http u003d neu EventHttp($base);$socket u003d socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if (!$http->bind("128.8)" )) {   exit("зв'язати(1) не вдалося"
+` <?php$base = new EventBase();$http = neu EventHttp($base);$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if (!$http->bind("128.8)" )) {   exit("зв'язати(1) не вдалося"
 ");};if (!$http->bind("127.0.0.1", 8089)) {    exit("зв'язати(2) не удалося
 ");};$http->setCallback("/about", function($req) {    echo "URI: ", $req->getUri(), PHP_EOL;    $req->sendReply(200, ;   echo "OK
 ";});$base->dispatch();?> `
@@ -51,7 +51,7 @@ GET /about HTTP/1.0
 Connection: close
 
 HTTP/1.0 200 OK
-Content-Type: text/html; charsetu003dISO-8859-1
+Content-Type: text/html; charset=ISO-8859-1
 Connection: close
 
 $ nc 127.0.0.1 8089

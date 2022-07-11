@@ -7,7 +7,7 @@
 
 # Ds\Queue::count
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::count — Повертає кількість елементів черги
 

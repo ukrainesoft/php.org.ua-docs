@@ -9,7 +9,7 @@
 
 #stomp_ack
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::ack -- stomp_ack — Підтверджує отримання повідомлення
 
@@ -19,13 +19,13 @@ Stomp::ack -- stomp_ack — Підтверджує отримання повід
 
 public
 **Stomp::ack**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 Процедурний стиль:
 
 **stomp_ack**(resource `$link`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 Підтверджує факт отримання повідомлення із черги, використовуючи
 підтвердження клієнта.
@@ -53,11 +53,11 @@ receipt).
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$queue  u003d '/queue/foo';$msg   u003d 'bar';/* підключення */try {    $stomp u003d new Stomp('tcp://localhost:61613' $ e) {    die('Помилка з'єднання: ' . $e->getMessage());}/* відправка повідомлення в черга 'foo' */$stomp->send($queue, $msg); із черги 'foo' */$stomp->subscribe($queue);/* читання фрейму */$frame u003d $stomp->readFrame();if ($frame->body u003du003du003d $msg) {     підтвердження отримання фрейму */    $stomp->ack($frame);}/* скасування підписки до черги */$stomp->unsubscribe($queue);/* закриття підключення */unset($sto
+` <?php$queue  = '/queue/foo';$msg   = 'bar';/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613' $ e) {    die('Помилка з'єднання: ' . $e->getMessage());}/* відправка повідомлення в черга 'foo' */$stomp->send($queue, $msg); із черги 'foo' */$stomp->subscribe($queue);/* читання фрейму */$frame = $stomp->readFrame();if ($frame->body === $msg) {     підтвердження отримання фрейму */    $stomp->ack($frame);}/* скасування підписки до черги */$stomp->unsubscribe($queue);/* закриття підключення */unset($sto
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$queue  u003d '/queue/foo';$msg   u003d 'bar';/* підключення */$link u003d stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */ !$link) {    die('Помилка з'єднання: ' . stomp_connect_error());}/* початок транзакції */stomp_begin($link, 't1');/* відправка sto$'' | , $queue, $msg, array('transaction' u003d> 't1'));/* підтвердження транзакції */stomp_commit($link, 't1');/* підписка на повідомлення з чері $link, $queue);/* читання фрейму */$frame u003d stomp_read_frame($link);if ($frame['body'] u003du003du003du003d$msg) {    /* підтвердження одержання $frame['headers']['message-id']);}/* відміна підписи до черги */stomp_unsubscribe($link, $queue);/* закриття підключення */stomp_close($link);?> `
+` <?php$queue  = '/queue/foo';$msg   = 'bar';/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */ !$link) {    die('Помилка з'єднання: ' . stomp_connect_error());}/* початок транзакції */stomp_begin($link, 't1');/* відправка sto$'' | , $queue, $msg, array('transaction' => 't1'));/* підтвердження транзакції */stomp_commit($link, 't1');/* підписка на повідомлення з чері $link, $queue);/* читання фрейму */$frame = stomp_read_frame($link);if ($frame['body'] ====$msg) {    /* підтвердження одержання $frame['headers']['message-id']);}/* відміна підписи до черги */stomp_unsubscribe($link, $queue);/* закриття підключення */stomp_close($link);?> `
 
 ### Примітки
 

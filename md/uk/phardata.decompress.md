@@ -7,13 +7,13 @@
 
 # PharData::decompress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::decompress — Розпакувати весь Phar-архів
 
 ### Опис
 
-public **PharData::decompress**(?string `$extension` u003d **`null`**):
+public **PharData::decompress**(?string `$extension` = **`null`**):
 ?[PharData](class.phardata.md)
 
 Для архівів типу tar цей метод розпаковує весь архів.
@@ -47,15 +47,15 @@ bzip2, відповідно, модуль [bzip2](ref.bzip2.md).
 
 ### Список змін
 
-| Версія | Опис                                        |
-| ------ | ------------------------------------------- |
-| 8.0.0  | ` extension ` тепер допускає значення null. |
+| Версія | Опис                                     |
+| ------ | ---------------------------------------- |
+| 8.0.0  | extension  тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::decompress()****
 
-` <?php$p u003d new PharData('/path/to/my.tar.gz');$p->decompress(); // creates /path/to/my.tar?> `
+` <?php$p = new PharData('/path/to/my.tar.gz');$p->decompress(); // creates /path/to/my.tar?> `
 
 ### Дивіться також
 

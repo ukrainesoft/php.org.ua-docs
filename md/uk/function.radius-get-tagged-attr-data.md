@@ -7,7 +7,7 @@
 
 #radius_get_tagged_attr_data
 
-(PECL radius \>u003d 1.3.0)
+(PECL radius \>= 1.3.0)
 
 radius_get_tagged_attr_data — Витягує дані з позначеного атрибута
 
@@ -33,8 +33,8 @@ radius_get_tagged_attr_data — Витягує дані з позначеног�
 
 **Приклад #1 Приклад використання **radius_get_tagged_attr_data()****
 
-` <?phpwhile ($resa u003d radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));        exit;    }    $attr u003d $resa['attr'];    $data u003d $resa['data'];    $tag u003d radius_get_tagged_attr_tag($data);    $value u003d radius_get_tagged_attr_data($data );    printf("Отриманий тегований атрибут з тегом %d і значенням %s
+` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
+",  radius_strerror($res));        exit;    }    $attr = $resa['attr'];    $data = $resa['data'];    $tag = radius_get_tagged_attr_tag($data);    $value = radius_get_tagged_attr_data($data );    printf("Отриманий тегований атрибут з тегом %d і значенням %s
 ", $tag, $value);}?> `
 
 ### Дивіться також

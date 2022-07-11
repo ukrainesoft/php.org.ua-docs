@@ -7,7 +7,7 @@
 
 # SplFileInfo::getPath
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPath — Отримує шлях без імені файлу
 
@@ -29,7 +29,7 @@ public **SplFileInfo::getPath**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getPath()****
 
-` <?php$info u003d new SplFileInfo('/usr/bin/php');var_dump($info->getPath());$info u003d new SplFileInfo('/usr/');var_dump($info-> getPath());?> `
+` <?php$info = new SplFileInfo('/usr/bin/php');var_dump($info->getPath());$info = new SplFileInfo('/usr/');var_dump($info-> getPath());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # openssl_seal
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 openssl_seal — Запечатати (зашифрувати) дані
 
@@ -19,7 +19,7 @@ string `&$sealed_data`,
 array `&$encrypted_keys`,
 array `$public_key`,
 string `$cipher_algo`,
-string `&$iv` u003d **`null`**
+string `&$iv` = **`null`**
 ): int\|false
 
 **openssl_seal()** запечатує (шифрує) `data`, використовуючи метод
@@ -64,17 +64,17 @@ string `&$iv` u003d **`null`**
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `public_key` тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу OpenSSL key. |
-| 8.0.0  | `cipher_algo` більше не є необов'язковим параметром.                                                                                                                                                           |
-| 8.0.0  | `iv` тепер припускає значення null.                                                                                                                                                                            |
+| Версія | Опис                                                                                                                                                                                                         |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | public_key тепер приймає масив (array) екземплярів [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався масив (array) ресурсів ([resource](language.types.resource.md)) типу OpenSSL key. |
+| 8.0.0  | cipher_algo більше не є необов'язковим параметром.                                                                                                                                                           |
+| 8.0.0  | iv тепер припускає значення null.                                                                                                                                                                            |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **openssl_seal()****
 
-` <?php// $data містить дані для запечатування// витягуємо відкриті ключи одержувачів і підготовлюємо их$fp u003d fopen("/src/openssl-0.9.6/demos/ ma; $cert u003d fread($fp, 8192);fclose($fp);$pk1 u003d openssl_get_publickey($cert);// повторюємо для другого одержувача$fp u003d fopen("/src/openssl-0/9. /cert.pem", "r");$cert u003d fread($fp, 8192);fclose($fp);$pk2 u003d openssl_get_publickey($cert);// задаємо метод$method u003d 'AES256';// генерируем IV$ivLength u003d openssl_cipher_iv_length( $method );$iv u003d openssl_random_pseudo_bytes( $ivLength, $strong );if (! $strong) { error_log('Инициализирующий вектор может быть не крипографически сильным!');}// запечатываем сообщение, тільки власники $pk1 і $pk2 зможуть його роздрукувати,// використовуючи ключи $ekeys[0] і $ekeys[1] відповідно.openssl_seal($data, $sealed, $$ , $iv);// звільняємо ресурси ключівopenssl_free_key($pk1);openssl_free_key($pk2);?> `
+` <?php// $data містить дані для запечатування// витягуємо відкриті ключи одержувачів і підготовлюємо их$fp = fopen("/src/openssl-0.9.6/demos/ ma; $cert = fread($fp, 8192);fclose($fp);$pk1 = openssl_get_publickey($cert);// повторюємо для другого одержувача$fp = fopen("/src/openssl-0/9. /cert.pem", "r");$cert = fread($fp, 8192);fclose($fp);$pk2 = openssl_get_publickey($cert);// задаємо метод$method = 'AES256';// генерируем IV$ivLength = openssl_cipher_iv_length( $method );$iv = openssl_random_pseudo_bytes( $ivLength, $strong );if (! $strong) { error_log('Инициализирующий вектор может быть не крипографически сильным!');}// запечатываем сообщение, тільки власники $pk1 і $pk2 зможуть його роздрукувати,// використовуючи ключи $ekeys[0] і $ekeys[1] відповідно.openssl_seal($data, $sealed, $$ , $iv);// звільняємо ресурси ключівopenssl_free_key($pk1);openssl_free_key($pk2);?> `
 
 ### Дивіться також
 

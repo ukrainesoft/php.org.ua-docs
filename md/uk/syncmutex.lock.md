@@ -7,13 +7,13 @@
 
 # SyncMutex::lock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncMutex::lock — Чекає на ексклюзивне блокування
 
 ### Опис
 
-public **SyncMutex::lock**(int `$wait` u003d -1): bool
+public **SyncMutex::lock**(int `$wait` = -1): bool
 
 Отримує ексклюзивне блокування об'єкту
 [SyncMutex](class.syncmutex.md). Якщо блокування вже встановлено,
@@ -34,7 +34,7 @@ public **SyncMutex::lock**(int `$wait` u003d -1): bool
 
 **Приклад #1 Приклад використання **SyncMutex::lock()****
 
-` <?php$mutex u003d new SyncMutex("UniqueName");if (!$mutex->lock(3000)){    echo "Неможливо заблокувати м'ютекс."; exit();}/* ... */$mutex->unlock();?> `
+` <?php$mutex = new SyncMutex("UniqueName");if (!$mutex->lock(3000)){    echo "Неможливо заблокувати м'ютекс."; exit();}/* ... */$mutex->unlock();?> `
 
 ### Дивіться також
 

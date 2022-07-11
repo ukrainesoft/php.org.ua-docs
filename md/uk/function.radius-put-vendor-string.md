@@ -7,7 +7,7 @@
 
 #radius_put_vendor_string
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_put_vendor_string — Приєднує рядковий атрибут, що залежить від
 постачальника
@@ -19,8 +19,8 @@ resource `$radius_handle`,
 int `$vendor`,
 int `$type`,
 string `$value`,
-int `$options` u003d 0,
-int `$tag` u003d ?
+int `$options` = 0,
+int `$tag` = ?
 ): bool
 
 Приєднує до поточного запиту рядковий атрибут RADIUS, що залежить від
@@ -68,9 +68,9 @@ ID виробника (Vendor).
 
 ### Список змін
 
-| Версія                                                 | Опис |
-| ------------------------------------------------------ | ---- |
-| PECL radius 1.3.0 Додані параметри `options` та `tag`. |      |
+| Версія                                             | Опис |
+| -------------------------------------------------- | ---- |
+| PECL radius 1.3.0 Додані параметри options та tag. |      |      
 
 ### Дивіться також
 

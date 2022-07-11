@@ -7,7 +7,7 @@
 
 # Phar::offsetSet
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::offsetSet — Зміна вмісту файлу
 
@@ -55,7 +55,7 @@ public **Phar::offsetSet**(string `$localName`, resource\|string
 
 offsetSet не потрібно викликати безпосередньо. Використовуйте синтаксис `[]`.
 
-` <?php$p u003d new Phar('/path/to/my.phar', 0, 'my.phar');try| ;} catch (Exception $e) {    echo 'Не можу змінити file.txt:', $e;}?> `
+` <?php$p = new Phar('/path/to/my.phar', 0, 'my.phar');try| ;} catch (Exception $e) {    echo 'Не можу змінити file.txt:', $e;}?> `
 
 ### Примітки
 

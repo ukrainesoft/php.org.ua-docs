@@ -7,7 +7,7 @@
 
 # Yar_Concurrent_Client::loop
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Concurrent_Client::loop — Запуск усіх зареєстрованих викликів
 
@@ -15,8 +15,8 @@ Yar_Concurrent_Client::loop — Запуск усіх зареєстровани
 
 public static
 **Yar_Concurrent_Client::loop**([callable](language.types.callable.md)
-`$callback` u003d ?, [callable](language.types.callable.md)
-`$error_callback` u003d ?): bool
+`$callback` = ?, [callable](language.types.callable.md)
+`$error_callback` = ?): bool
 
 Запускає всі зареєстровані дзвінки.
 
@@ -40,7 +40,7 @@ $callinfo дорівнює NULL.
 
 **Приклад #1 Приклад використання **Yar_Concurrent_Client::loop()****
 
-` <?phpfunction callback($retval, $callinfo) {     if ($callinfo u003du003d NULL) {       echo "Так, всі запити запущені, |
+` <?phpfunction callback($retval, $callinfo) {     if ($callinfo == NULL) {       echo "Так, всі запити запущені, |
 ";     }}else {        echo "Це відповідь від віддаленого запиту. Ім'я методу",$callinfo["method"],             ". Був зареєстрований " , $callinfo["sequence"] , "
 ";     var_dump($retval);     }}function error_callback($type, $error, $callinfo) {    error_log($error);}Yar_Concurrent_Client::call(" array("parameters"), "callback");//якщо функція зворотного дзвінка не задана, буде використовується певна в циклі дзвінківYar_Concurrent_Client::call("http://host/api parameters"));//цей сервер приймає упаковку JSONYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OP json"));//окремо заданий час очікуванняYar_Concurrent_Client::call("http://host/api/", "some_method", array("parameters"), "callback", NULL, array(YAR_OPT_TIOUT );Yar_Concurrent_Client::loop("callback", "error_callback"); //запускаем запросы,                                                           //параметр error_callback не обязателен?> `
 

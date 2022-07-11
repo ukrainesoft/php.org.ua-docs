@@ -7,14 +7,14 @@
 
 # ZookeeperConfig::add
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 ZookeeperConfig::add — Додає сервери до ансамблю
 
 ### Опис
 
-public **ZookeeperConfig::add**(string `$members`, int `$version` u003d -1,
-array `&$stat` u003d **`null`**): void
+public **ZookeeperConfig::add**(string `$members`, int `$version` = -1,
+array `&$stat` = **`null`**): void
 
 ### Список параметрів
 
@@ -47,13 +47,13 @@ array `&$stat` u003d **`null`**): void
 
 Додавання серверів.
 
-` <?php$client u003d new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig u003d $client->getConfig ();$zkConfig->set("server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181");$zkConfig->add("server.2u003dlocalhost:2889:3889:participant;0.0 .0.0:2182");$r u003d $zkConfig->get();if ($r)  echo $r;else  echo 'Помилка';?> `
+` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig = $client->getConfig ();$zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181");$zkConfig->add("server.2=localhost:2889:3889:participant;0.0 .0.0:2182");$r = $zkConfig->get();if ($r)  echo $r;else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
-server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181
-server.2u003dlocalhost:2889:3889:participant;0.0.0.0:2182
-versionu003d0xca01e881a2
+server.1=localhost:2888:3888:participant;0.0.0.0:2181
+server.2=localhost:2889:3889:participant;0.0.0.0:2182
+version=0xca01e881a2
 
 ### Дивіться також
 

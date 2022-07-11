@@ -7,7 +7,7 @@
 
 # EventHttpRequest::\_\_construct
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::\_\_construct — Конструктор об'єкта EventHttpRequest
 
@@ -16,7 +16,7 @@ EventHttpRequest::\_\_construct — Конструктор об'єкта EventHt
 public **EventHttpRequest::\_\_construct**(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** )
+`$data` = **`null`** )
 
 Конструктор об'єкта EventHttpRequest.
 
@@ -26,10 +26,10 @@ public **EventHttpRequest::\_\_construct**(
 Викликається за запитом шляху. Повинен відповідати наступному
 прототипу:
 
-**callback**( [EventHttpRequest](class.eventhttprequest.md) `$req` u003d
+**callback**( [EventHttpRequest](class.eventhttprequest.md) `$req` =
 **`null`** ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `data`
 Користувальницькі дані, що передаються в callback-функцію.
@@ -44,10 +44,10 @@ public **EventHttpRequest::\_\_construct**(
 
 ` <?phpfunction _request_handler($req, $base) {   echo __FUNCTION__, PHP_EOL; if (is_null($req)) {        echo "Час вийшло
 ";  |                                             
-";         } elseif ($response_code !u003d 200) {             echo "Несподівана відповідь: $response_code
+";         } elseif ($response_code != 200) {             echo "Несподівана відповідь: $response_code
 ";        } else {            echo "Успішно: $response_code
-";             $buf u003d $req->getInputBuffer();            echo "Тіло відповіді:
-";            while ($s u003d $buf->readLine(EventBuffer::EOL_ANY)) {                echo $s, PHP_EOL;            }        }    }    $base->exit(NULL);}$address u003d "127.0.0.1";$port u003d 80;$base u003d new EventBase();$conn u003d new EventHttpConnection($base, NULL, $address, $port);$conn->setTimeout(5);$req u003d new EventHttpRequest("_ );$req->addHeader("Host", $address, EventHttpRequest::OUTPUT_HEADER);$req->addHeader("Content-Length", "0", EventHttpRequest::OUTPUT_HEADER);$conn->ma req, EventHttpRequest::CMD_GET, "/index.cphp");$base->loop();?> `
+";             $buf = $req->getInputBuffer();            echo "Тіло відповіді:
+";            while ($s = $buf->readLine(EventBuffer::EOL_ANY)) {                echo $s, PHP_EOL;            }        }    }    $base->exit(NULL);}$address = "127.0.0.1";$port = 80;$base = new EventBase();$conn = new EventHttpConnection($base, NULL, $address, $port);$conn->setTimeout(5);$req = new EventHttpRequest("_ );$req->addHeader("Host", $address, EventHttpRequest::OUTPUT_HEADER);$req->addHeader("Content-Length", "0", EventHttpRequest::OUTPUT_HEADER);$conn->ma req, EventHttpRequest::CMD_GET, "/index.cphp");$base->loop();?> `
 
 ### Дивіться також
 

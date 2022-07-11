@@ -8,7 +8,7 @@
 
 # fann_create_from_file
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_create_from_file — Створює нейронну мережу зі зворотним
 поширенням помилки з конфігураційного файлу

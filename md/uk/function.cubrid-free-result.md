@@ -7,7 +7,7 @@
 
 #cubrid_free_result
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_free_result — Звільняє пам'ять, зайняту даними результату
 
@@ -36,19 +36,19 @@ cubrid_free_result — Звільняє пам'ять, зайняту даним
 
 **Приклад #1 Приклад використання **cubrid_free_result()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT * FROM history WHERE host_yearu003d2004  );var_dump($row);cubrid_free_result($req);cubrid_close_request($req);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT * FROM history WHERE host_year=2004  );var_dump($row);cubrid_free_result($req);cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(5) {
-["event_code"]u003d>
+["event_code"]=>
 string(5) "20005"
-["athlete"]u003d>
+["athlete"]=>
 string(12) "Hayes Joanna"
-["host_year"]u003d>
+["host_year"]=>
 string(4) "2004"
-["score"]u003d>
+["score"]=>
 string(5) "12.37"
-["unit"]u003d>
+["unit"]=>
 string(4) "time"
 }

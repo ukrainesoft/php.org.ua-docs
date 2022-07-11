@@ -32,24 +32,24 @@ get_object_vars — Повертає властивості вказаного �
 
 **Приклад #1 Приклад використання **get_object_vars()****
 
-`<?phpclass foo {    private $a; public $b u003d 1; public $c; private$d; static $e; public function test() {         var_dump(get_object_vars($this)); }}$test u003d new foo;var_dump(get_object_vars($test));$test->test();?> `
+`<?phpclass foo {    private $a; public $b = 1; public $c; private$d; static $e; public function test() {         var_dump(get_object_vars($this)); }}$test = new foo;var_dump(get_object_vars($test));$test->test();?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["b"]u003d>
+["b"]=>
 int(1)
-["c"]u003d>
+["c"]=>
 NULL
 }
 array(4) {
-["a"]u003d>
+["a"]=>
 NULL
-["b"]u003d>
+["b"]=>
 int(1)
-["c"]u003d>
+["c"]=>
 NULL
-["d"]u003d>
+["d"]=>
 NULL
 }
 

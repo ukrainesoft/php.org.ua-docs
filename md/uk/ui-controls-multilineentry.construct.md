@@ -14,7 +14,7 @@ UI\Controls\MultilineEntry::\_\_construct — Створити новий об'�
 
 ### Опис
 
-public **UI\Controls\MultilineEntry::\_\_construct**(int `$type` u003d ?)
+public **UI\Controls\MultilineEntry::\_\_construct**(int `$type` = ?)
 
 Створює новий об'єкт керуючого елемента "Багаторядне введення"
 заданого типу

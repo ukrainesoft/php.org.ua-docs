@@ -7,7 +7,7 @@
 
 # Ds\Deque::first
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::first — Повертає перший елемент двосторонньої черги
 
@@ -36,7 +36,7 @@ public **Ds\Deque::first**():
 
 **Приклад #1 Приклад використання **Ds\Deque::first()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque->first());?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->first());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -11,13 +11,13 @@
 змінної, яка може бути визначена та змінена динамічно.
 Звичайна змінна визначається приблизно таким виразом:
 
-` <?php$a u003d 'hello';?> `
+` <?php$a = 'hello';?> `
 
 Змінна змінна бере значення змінної і розглядає його як
 ім'я змінної. У наведеному вище прикладі *hello* може бути
 використано як ім'я змінної за допомогою двох знаків долара. Тобто:
 
-` <?php$$a u003d 'world';?> `
+` <?php$$a = 'world';?> `
 
 Тепер у дереві символів PHP визначено та містяться дві змінні:
 `$a`, що містить "hello" і `$hello`, що містить "world". Таким чином,
@@ -56,10 +56,10 @@
 
 **Приклад #1 Приклад змінного імені властивості**
 
-`<?phpclass foo {   var$$bar u003d 'I am bar.'; var $arr u003d array('I am A.', 'I am B.', 'I am C.'); var $r   u003d 'I am r.';}$foo u003d new foo();$bar u003d 'bar';$baz u003d array('foo', 'bar', 'baz', 'quux');echo $foo->$bar . "
+`<?phpclass foo {   var$$bar = 'I am bar.'; var $arr = array('I am A.', 'I am B.', 'I am C.'); var $r   = 'I am r.';}$foo = new foo();$bar = 'bar';$baz = array('foo', 'bar', 'baz', 'quux');echo $foo->$bar . "
 ";echo $foo->{$baz[1]} . "
-";$start u003d 'b';$end  u003d 'ar';echo $foo->{$start . $end} . "
-";$arr u003d 'arr';echo $foo->{$arr[1]} . "
+";$start = 'b';$end  = 'ar';echo $foo->{$start . $end} . "
+";$arr = 'arr';echo $foo->{$arr[1]} . "
 ";?> `
 
 Результат виконання цього прикладу:

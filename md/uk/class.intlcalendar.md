@@ -7,7 +7,7 @@
 
 # Клас IntlCalendar
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 ## Вступ
 
@@ -17,83 +17,83 @@ class **IntlCalendar** {
 
 /\* Константи \*/
 
-const int `FIELD_ERA` u003d 0;
+const int `FIELD_ERA` = 0;
 
-const int `FIELD_YEAR` u003d 1;
+const int `FIELD_YEAR` = 1;
 
-const int `FIELD_MONTH` u003d 2;
+const int `FIELD_MONTH` = 2;
 
-const int `FIELD_WEEK_OF_YEAR` u003d 3;
+const int `FIELD_WEEK_OF_YEAR` = 3;
 
-const int `FIELD_WEEK_OF_MONTH` u003d 4;
+const int `FIELD_WEEK_OF_MONTH` = 4;
 
-const int `FIELD_DATE` u003d 5;
+const int `FIELD_DATE` = 5;
 
-const int `FIELD_DAY_OF_YEAR` u003d 6;
+const int `FIELD_DAY_OF_YEAR` = 6;
 
-const int `FIELD_DAY_OF_WEEK` u003d 7;
+const int `FIELD_DAY_OF_WEEK` = 7;
 
-const int `FIELD_DAY_OF_WEEK_IN_MONTH` u003d 8;
+const int `FIELD_DAY_OF_WEEK_IN_MONTH` = 8;
 
-const int `FIELD_AM_PM` u003d 9;
+const int `FIELD_AM_PM` = 9;
 
-const int `FIELD_HOUR` u003d 10;
+const int `FIELD_HOUR` = 10;
 
-const int `FIELD_HOUR_OF_DAY` u003d 11;
+const int `FIELD_HOUR_OF_DAY` = 11;
 
-const int `FIELD_MINUTE` u003d 12;
+const int `FIELD_MINUTE` = 12;
 
-const int `FIELD_SECOND` u003d 13;
+const int `FIELD_SECOND` = 13;
 
-const int `FIELD_MILLISECOND` u003d 14;
+const int `FIELD_MILLISECOND` = 14;
 
-const int `FIELD_ZONE_OFFSET` u003d 15;
+const int `FIELD_ZONE_OFFSET` = 15;
 
-const int `FIELD_DST_OFFSET` u003d 16;
+const int `FIELD_DST_OFFSET` = 16;
 
-const int `FIELD_YEAR_WOY` u003d 17;
+const int `FIELD_YEAR_WOY` = 17;
 
-const int `FIELD_DOW_LOCAL` u003d 18;
+const int `FIELD_DOW_LOCAL` = 18;
 
-const int `FIELD_EXTENDED_YEAR` u003d 19;
+const int `FIELD_EXTENDED_YEAR` = 19;
 
-const int `FIELD_JULIAN_DAY` u003d 20;
+const int `FIELD_JULIAN_DAY` = 20;
 
-const int `FIELD_MILLISECONDS_IN_DAY` u003d 21;
+const int `FIELD_MILLISECONDS_IN_DAY` = 21;
 
-const int `FIELD_IS_LEAP_MONTH` u003d 22;
+const int `FIELD_IS_LEAP_MONTH` = 22;
 
-const int `FIELD_FIELD_COUNT` u003d 23;
+const int `FIELD_FIELD_COUNT` = 23;
 
-const int `FIELD_DAY_OF_MONTH` u003d 5;
+const int `FIELD_DAY_OF_MONTH` = 5;
 
-const int `DOW_SUNDAY` u003d 1;
+const int `DOW_SUNDAY` = 1;
 
-const int `DOW_MONDAY` u003d 2;
+const int `DOW_MONDAY` = 2;
 
-const int `DOW_TUESDAY` u003d 3;
+const int `DOW_TUESDAY` = 3;
 
-const int `DOW_WEDNESDAY` u003d 4;
+const int `DOW_WEDNESDAY` = 4;
 
-const int `DOW_THURSDAY` u003d 5;
+const int `DOW_THURSDAY` = 5;
 
-const int `DOW_FRIDAY` u003d 6;
+const int `DOW_FRIDAY` = 6;
 
-const int `DOW_SATURDAY` u003d 7;
+const int `DOW_SATURDAY` = 7;
 
-const int `DOW_TYPE_WEEKDAY` u003d 0;
+const int `DOW_TYPE_WEEKDAY` = 0;
 
-const int `DOW_TYPE_WEEKEND` u003d 1;
+const int `DOW_TYPE_WEEKEND` = 1;
 
-const int `DOW_TYPE_WEEKEND_OFFSET` u003d 2;
+const int `DOW_TYPE_WEEKEND_OFFSET` = 2;
 
-const int `DOW_TYPE_WEEKEND_CEASE` u003d 3;
+const int `DOW_TYPE_WEEKEND_CEASE` = 3;
 
-const int `WALLTIME_FIRST` u003d 1;
+const int `WALLTIME_FIRST` = 1;
 
-const int `WALLTIME_LAST` u003d 0;
+const int `WALLTIME_LAST` = 0;
 
-const int `WALLTIME_NEXT_VALID` u003d 2;
+const int `WALLTIME_NEXT_VALID` = 2;
 
 /\* Методи \*/
 
@@ -109,12 +109,12 @@ public
 [before](intlcalendar.before.md)([IntlCalendar](class.intlcalendar.md)
 `$other`): bool
 
-public [clear](intlcalendar.clear.md)(?int `$field` u003d **`null`**):
+public [clear](intlcalendar.clear.md)(?int `$field` = **`null`**):
 bool
 
 public static
 [createInstance](intlcalendar.createinstance.md)([IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**, ?string `$locale` u003d **`null`**):
+`$timezone` = **`null`**, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 public
@@ -126,7 +126,7 @@ public [fieldDifference](intlcalendar.fielddifference.md)(float
 
 public static
 [fromDateTime](intlcalendar.fromdatetime.md)([DateTime](class.datetime.md)\|string
-`$datetime`, ?string `$locale` u003d **`null`**):
+`$datetime`, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 public [get](intlcalendar.get.md)(int `$field`): int\|false
@@ -206,7 +206,7 @@ public [isLenient](intlcalendar.islenient.md)(): bool
 
 public [isSet](intlcalendar.isset.md)(int `$field`): bool
 
-public [isWeekend](intlcalendar.isweekend.md)(?float `$timestamp` u003d
+public [isWeekend](intlcalendar.isweekend.md)(?float `$timestamp` =
 **`null`**): bool
 
 public [roll](intlcalendar.roll.md)(int `$field`, int\|bool `$value`):
@@ -217,10 +217,10 @@ public [set](intlcalendar.set.md)(int `$field`, int `$value`): bool
 public [set](intlcalendar.set.md)(
 int `$year`,
 int `$month`,
-int `$dayOfMonth` u003d NULL,
-int `$hour` u003d NULL,
-int `$minute` u003d NULL,
-int `$second` u003d NULL
+int `$dayOfMonth` = NULL,
+int `$hour` = NULL,
+int `$minute` = NULL,
+int `$second` = NULL
 ): bool
 
 public [setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md)(int

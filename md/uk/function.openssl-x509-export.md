@@ -7,14 +7,14 @@
 
 # openssl_x509_export
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_x509_export — Експортує сертифікат у рядок
 
 ### Опис
 
 **openssl_x509_export**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`, string `&$output`, bool `$no_text` u003d **`true`**): bool
+`$certificate`, string `&$output`, bool `$no_text` = **`true`**): bool
 
 **openssl_x509_export()** зберігає сертифікат `certificate` у вигляді PEM
 рядки в `output`.
@@ -41,6 +41,6 @@ openssl_x509_export — Експортує сертифікат у рядок
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                          |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
+| Версія | Опис                                                                                                                                                                        |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |

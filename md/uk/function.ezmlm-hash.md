@@ -7,7 +7,7 @@
 
 #ezmlm_hash
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7)
 
 ezmlm_hash — Обчислює хеш-суму, необхідну для EZMLM
 
@@ -36,4 +36,4 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 **Приклад #1 Обчислює хеш-суму та підписка користувача на щось**
 
-` <?php$user u003d "joecool@example.com";$hash u003d ezmlm_hash($user);$query u003d sprintf("INSERT INTO sample VALUES (%s, '%s')", $hash, $user ); $ db-> query ($ query); // використовуючи інтерфейс PHPLIB db?> `
+` <?php$user = "joecool@example.com";$hash = ezmlm_hash($user);$query = sprintf("INSERT INTO sample VALUES (%s, '%s')", $hash, $user ); $ db-> query ($ query); // використовуючи інтерфейс PHPLIB db?> `

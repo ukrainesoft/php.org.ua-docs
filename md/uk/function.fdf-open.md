@@ -37,7 +37,7 @@ fdf_open — Відкриває документ FDF
 
 **Приклад #1 Доступ до даних форми**
 
-` <?php// Збереження даних FDF во часовий файл$fdffp u003dfopen("test.fdf", "w");fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_df) / Відкриття тимчасового файлу і отримання даних$fdf u003d fdf_open("test.fdf");/* ... */fdf_close($fdf);?> `
+` <?php// Збереження даних FDF во часовий файл$fdffp =fopen("test.fdf", "w");fwrite($fdffp, $HTTP_FDF_DATA, strlen($HTTP_FDF_df) / Відкриття тимчасового файлу і отримання даних$fdf = fdf_open("test.fdf");/* ... */fdf_close($fdf);?> `
 
 ### Дивіться також
 

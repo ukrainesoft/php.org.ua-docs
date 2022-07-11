@@ -7,7 +7,7 @@
 
 # Yaf_Loader::registerLocalNamespace
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Loader::registerLocalNamespace — Реєструє префікс локального
 класу
@@ -58,4 +58,4 @@ public
 **Приклад #1 Приклад використання
 **Yaf_Loader::registerLocalNamespace()****
 
-` <?php$loader u003d Yaf_Loader::getInstance('/local/library/', '/global/library');$loader->registerLocalNamespace("Baidu");$loader->registerLocalNamespace(array("Sina") , "Weibo"));$loader->autoload("Baidu_Name"); // буде шукати в '/local/library/'$loader->autoload("Sina"); // буде шукати в '/local/library/'$loader->autoload("Global_Name");// буде шукати в '/global/library/'$loader->autoload("Foo_Bar"); // буде шукати в '/global/library/'?> `
+` <?php$loader = Yaf_Loader::getInstance('/local/library/', '/global/library');$loader->registerLocalNamespace("Baidu");$loader->registerLocalNamespace(array("Sina") , "Weibo"));$loader->autoload("Baidu_Name"); // буде шукати в '/local/library/'$loader->autoload("Sina"); // буде шукати в '/local/library/'$loader->autoload("Global_Name");// буде шукати в '/global/library/'$loader->autoload("Foo_Bar"); // буде шукати в '/global/library/'?> `

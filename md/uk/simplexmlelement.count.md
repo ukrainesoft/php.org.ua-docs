@@ -7,7 +7,7 @@
 
 # SimpleXMLElement::count
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SimpleXMLElement::count — Підраховує кількість дочірніх елементів у
 поточного елемента
@@ -31,7 +31,7 @@ public **SimpleXMLElement::count**(): int
 
 **Приклад #1 Підрахунок кількості дочірніх елементів**
 
-` <?php$xml u003d <<<EOF<people> <person nameu003d"Людина 1">  <child/>  <child/>  <child/> </person> <person nameu003d"Людина 2">  />  <child/>  <child/>  <child/>  <child/> </person></people>EOF;$elem u003d new SimpleXMLElement($xml);foreach ($elem as $person)   | %s має %d дітей.
+` <?php$xml = <<<EOF<people> <person name="Людина 1">  <child/>  <child/>  <child/> </person> <person name="Людина 2">  />  <child/>  <child/>  <child/>  <child/> </person></people>EOF;$elem = new SimpleXMLElement($xml);foreach ($elem as $person)   | %s має %d дітей.
 ", $person['name'], $person->count());}?> `
 
 Результат виконання цього прикладу:

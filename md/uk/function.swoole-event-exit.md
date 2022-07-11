@@ -7,7 +7,7 @@
 
 # swoole_event_exit
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_event_exit — Закрити цикл подій, доступний лише на стороні
 клієнта

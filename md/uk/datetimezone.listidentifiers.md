@@ -10,7 +10,7 @@
 
 #timezone_identifiers_list
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTimeZone::listIdentifiers -- timezone_identifiers_list — Повертає
 чисельно індексований масив з усіма ідентифікаторами часових поясів
@@ -19,13 +19,13 @@ DateTimeZone::listIdentifiers -- timezone_identifiers_list — Повертає
 
 Об'єктно-орієнтований стиль
 
-public static **DateTimeZone::listIdentifiers**(int `$timezoneGroup` u003d
-DateTimeZone::ALL, ?string `$countryCode` u003d **`null`**): array
+public static **DateTimeZone::listIdentifiers**(int `$timezoneGroup` =
+DateTimeZone::ALL, ?string `$countryCode` = **`null`**): array
 
 Процедурний стиль
 
 [timezone_identifiers_list](function.timezone-identifiers-list.md)(int
-`$timezoneGroup` u003d DateTimeZone::ALL, ?string `$countryCode` u003d
+`$timezoneGroup` = DateTimeZone::ALL, ?string `$countryCode` =
 **`null`**): array
 
 ### Список параметрів
@@ -46,17 +46,17 @@ DateTimeZone::ALL, ?string `$countryCode` u003d **`null`**): array
 
 ### Список змін
 
-| Версія | Опис                                                               |
-| ------ | ------------------------------------------------------------------ |
-| 8.0.0  | До цієї версії, у разі виникнення помилки поверталося **`false`**. |
-| 7.1.0  | `countryCode` тепер допускає значення null.                        |
+| Версія | Опис                                                             |
+| ------ | ---------------------------------------------------------------- |
+| 8.0.0  | До цієї версії, у разі виникнення помилки поверталося **false**. |
+| 7.1.0  | countryCode тепер допускає значення null.                        |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 [timezone_identifiers_list()](function.timezone-identifiers-list.md)**
 
-` <?php$timezone_identifiers u003d DateTimeZone::listIdentifiers();for ($iu003d0; $i < 5; $i++) {    echo "$timezone_identifiers[$i]
+` <?php$timezone_identifiers = DateTimeZone::listIdentifiers();for ($i=0; $i < 5; $i++) {    echo "$timezone_identifiers[$i]
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -7,7 +7,7 @@
 
 # Ds\Deque::contains
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::contains — Перевіряє, чи міститься у двосторонній черзі
 задані значення
@@ -34,7 +34,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Deque::contains()****
 
-` <?php$deque u003d new \Ds\Deque(['a', 'b', 'c', 1, 2, 3]);var_dump($deque->contains('a')); //truevar_dump($deque->contains('a', 'b')); // truevar_dump($deque->contains('c', 'd')); //falsevar_dump($deque->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($deque->contains(1)); // Truevar_dump($deque->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
+` <?php$deque = new \Ds\Deque(['a', 'b', 'c', 1, 2, 3]);var_dump($deque->contains('a')); //truevar_dump($deque->contains('a', 'b')); // truevar_dump($deque->contains('c', 'd')); //falsevar_dump($deque->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($deque->contains(1)); // Truevar_dump($deque->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # fann_set_cascade_num_candidate_groups
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_num_candidate_groups — Встановлює кількість груп
 кандидатів

@@ -8,7 +8,7 @@
 
 # openssl_dh_compute_key
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 openssl_dh_compute_key — обчислює загальний секретний ключ для значення
 віддаленого відкритого ключа DH та локального ключа DH
@@ -43,9 +43,9 @@ string\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                  |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
+| Версія | Опис                                                                                                                                                                                |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
 
 ### Приклади
 
@@ -99,7 +99,7 @@ a3:e3:20:b9:21:47:8c:f8:7f:a8:60:80:9e:61:77:
 Використовуйте відкритий ключ як параметр для
 **openssl_dh_compute_key()** для обчислення загального секретного ключа.
 
-` <?php$remote_public_key u003d '67e5e5fae07b0f962cdc96445f50029e8dc26c0468b0d11d7566fc63f5e34230b896c145cc0860b4213bddee6688db77d91e1189d45cf27af2f1fe1c779d6f13b8b25600efcb3b6079740298f5f98e3eb56208deca8cc3404a8079d5430617a81956afcc955ee2322dd2147b765a9af13c767635cc7bc1a5f439e5b6ca713f7c3f97e5ab86c1cd0ee6ee04c9e62d807e59c049ebb6644fa8f9bba387b33d76019e2b1694a43730fb35e263be2390b9ef3f464604948f60797a5155d61a1df5d97f4a3eaaacb0d082ccc2e094e054c117830b74084d5a79aeff7f1c04ab23394aae87835543ab7a7c049d2080bbaf5f16a3e320b921478cf87fa860809e617736';$local_priv_key u003d openssl_pkey_get_private('file://privatekey.pem');$shared_secret u003d openssl_dh_compute_key(hex2bin($remote_public_key), $local_priv_key);echo bin2hex($shared_secret)."
+` <?php$remote_public_key = '67e5e5fae07b0f962cdc96445f50029e8dc26c0468b0d11d7566fc63f5e34230b896c145cc0860b4213bddee6688db77d91e1189d45cf27af2f1fe1c779d6f13b8b25600efcb3b6079740298f5f98e3eb56208deca8cc3404a8079d5430617a81956afcc955ee2322dd2147b765a9af13c767635cc7bc1a5f439e5b6ca713f7c3f97e5ab86c1cd0ee6ee04c9e62d807e59c049ebb6644fa8f9bba387b33d76019e2b1694a43730fb35e263be2390b9ef3f464604948f60797a5155d61a1df5d97f4a3eaaacb0d082ccc2e094e054c117830b74084d5a79aeff7f1c04ab23394aae87835543ab7a7c049d2080bbaf5f16a3e320b921478cf87fa860809e617736';$local_priv_key = openssl_pkey_get_private('file://privatekey.pem');$shared_secret = openssl_dh_compute_key(hex2bin($remote_public_key), $local_priv_key);echo bin2hex($shared_secret)."
 ";?> `
 
 **Приклад #2 Створення пари ключів DH (відкритий/закритий)**
@@ -138,8 +138,8 @@ generator: 2 (0x2)
 Значення prime і generator передаються як параметрів p і g в
 [openssl_pkey_new()](function.openssl-pkey-new.md)
 
-` <?php$configargs u003d array();$configargs['p'] u003d hex2bin('00a3251e733f44b92beef49d9f376a4bfd1dbdf4afdac810775941c65f73d2882939cd1c5fc39f0f22d29c20c1e4c01803b8b6d8daad3b39a6da8efe1230e9035d22baef18d27b69f95bcb78c60c8c6bf24992c249e0457772b3553630f2401789185003fa2d547a7f344c7332b688145114be805795e6a3f651ff17474f15d60e6c4753722c2a4c21cb7df34997c9475e40337b99527e7af3522780de1b266b40bb14110bfbe6d82fcfa0062f96b91c0bb4cbd3a6629c4867f681f2c6ff45030a9d679dce27d96b485dcafbc25d849b8bcb40c7a40c8a6ef4abbab610c3b8254dcf6096f4dbe8001c58477afb5186d122d74e94317ad5da3d53dedabb648d626b');$configargs['g'] u003d hex2bin('02');$private_key u003d openssl_pkey_new(array('dh ' u003d> $configargs));openssl_pkey_export_to_file($private_key,'privatekey.pem',$passphraseu003d'y0urp@s5phr@se');$details u003d openssl_pkey_get_details($$va' ['pub_key'];echo bin2hex($local_pub_key)."
-";// ви можете надіслати свій відкритий ключ віддаленій стороні$details u003d openssl_pkey_get_details(openssl_pkey_get_public("file://remotepublickey.pem"));$remote_public_key_| openssl_dh_compute_key($remote_public_key, $private_key);echo bin2hex($shared_secret)."
+` <?php$configargs = array();$configargs['p'] = hex2bin('00a3251e733f44b92beef49d9f376a4bfd1dbdf4afdac810775941c65f73d2882939cd1c5fc39f0f22d29c20c1e4c01803b8b6d8daad3b39a6da8efe1230e9035d22baef18d27b69f95bcb78c60c8c6bf24992c249e0457772b3553630f2401789185003fa2d547a7f344c7332b688145114be805795e6a3f651ff17474f15d60e6c4753722c2a4c21cb7df34997c9475e40337b99527e7af3522780de1b266b40bb14110bfbe6d82fcfa0062f96b91c0bb4cbd3a6629c4867f681f2c6ff45030a9d679dce27d96b485dcafbc25d849b8bcb40c7a40c8a6ef4abbab610c3b8254dcf6096f4dbe8001c58477afb5186d122d74e94317ad5da3d53dedabb648d626b');$configargs['g'] = hex2bin('02');$private_key = openssl_pkey_new(array('dh ' => $configargs));openssl_pkey_export_to_file($private_key,'privatekey.pem',$passphrase='y0urp@s5phr@se');$details = openssl_pkey_get_details($$va' ['pub_key'];echo bin2hex($local_pub_key)."
+";// ви можете надіслати свій відкритий ключ віддаленій стороні$details = openssl_pkey_get_details(openssl_pkey_get_public("file://remotepublickey.pem"));$remote_public_key_| openssl_dh_compute_key($remote_public_key, $private_key);echo bin2hex($shared_secret)."
 ";?> `
 
 ### Дивіться також

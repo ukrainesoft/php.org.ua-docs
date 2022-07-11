@@ -7,14 +7,14 @@
 
 # PharData::setStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::setStub — Функція заглушка (Phar::setStub не можна використовувати
 для PharData)
 
 ### Опис
 
-public **PharData::setStub**(string `$stub`, int `$len` u003d -1): bool
+public **PharData::setStub**(string `$stub`, int `$len` = -1): bool
 
 Незапускані tar/zip-архіви не можуть мати завантажувача (stub), тому
 цей метод просто кидає виняток.

@@ -35,26 +35,26 @@ INI-директива [from](filesystem.configuration.md#ini.from) буде
 ### Використання
 
 - `http://example.com`
-- `http://example.com/file.php?var1u003dval1&var2u003dval2`
+- `http://example.com/file.php?var1=val1&var2=val2`
 - `http://user:password@example.com`
 - `https://example.com`
-- `https://example.com/file.php?var1u003dval1&var2u003dval2`
+- `https://example.com/file.php?var1=val1&var2=val2`
 - `https://user:password@example.com`
 
 ### Опції
 
-| Атрибут Підтримка                                                               |
-| ------------------------------------------------------------------------------- |
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так 
-| Читання                                                                         | Так 
-| Запис                                                                           | Ні 
-| Додавання                                                                       | Ні 
-| Одночасне читання та запис                                                      | Недоступний 
-| Підтримка [stat()](function.stat.md)                                            | Ні 
-| Підтримка [unlink()](function.unlink.md)                                        | Ні 
-| Підтримка [rename()](function.rename.md)                                        | Ні 
-| Підтримка [mkdir()](function.mkdir.md)                                          | Ні 
-| Підтримка [rmdir()](function.rmdir.md)                                          | Ні 
+| Атрибут Підтримка                                                               |             |
+| ------------------------------------------------------------------------------- | ----------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так         |
+| Читання                                                                         | Так         |
+| Запис                                                                           | Ні          |
+| Додавання                                                                       | Ні          |
+| Одночасне читання та запис                                                      | Недоступний |
+| Підтримка [stat()](function.stat.md)                                            | Ні          |
+| Підтримка [unlink()](function.unlink.md)                                        | Ні          |
+| Підтримка [rename()](function.rename.md)                                        | Ні          |
+| Підтримка [mkdir()](function.mkdir.md)                                          | Ні          |
+| Підтримка [rmdir()](function.rmdir.md)                                          | Ні          |
 
 **Основна інформація**
 
@@ -63,7 +63,7 @@ INI-директива [from](filesystem.configuration.md#ini.from) буде
 **Приклад #1 Визначення URL, з якого було забрано документ після
 переадресацій**
 
-` <?php$url u003d 'http://www.example.com/redirecting_page.php';$fp u003d fopen($url, 'r');$meta_data u003d stream_get_meta_data($fp);foreach ($meta_data[ 'wrapper_data'] as $response) {    /* Були або ми переадресовані? */   if (strtolower(substr($response, 0, 10)) u003du003d 'location: ') {        /* Зберегти в $url адрес,            ¦ }}?> `
+` <?php$url = 'http://www.example.com/redirecting_page.php';$fp = fopen($url, 'r');$meta_data = stream_get_meta_data($fp);foreach ($meta_data[ 'wrapper_data'] as $response) {    /* Були або ми переадресовані? */   if (strtolower(substr($response, 0, 10)) == 'location: ') {        /* Зберегти в $url адрес,            ¦ }}?> `
 
 ### Примітки
 

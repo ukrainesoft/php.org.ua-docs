@@ -7,7 +7,7 @@
 
 # ssh2_auth_hostbased_file
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_auth_hostbased_file — Аутентифікація з використанням відкритого
 ключа хоста
@@ -20,8 +20,8 @@ string `$username`,
 string `$hostname`,
 string `$pubkeyfile`,
 string `$privkeyfile`,
-string `$passphrase` u003d ?,
-string `$local_username` u003d ?
+string `$passphrase` = ?,
+string `$local_username` = ?
 ): bool
 
 Аутентифікація з використанням відкритого ключа хоста, збереженого в
@@ -58,12 +58,12 @@ string `$local_username` u003d ?
 
 **Приклад #1 Аутентифікація за відкритим ключем**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22, array('hostkey'u003d>'ssh-rsa'));if (ssh2_auth_hostbased_file($connection, 'remoteusername', 'myhost.example. com',                             '/usr/local/etc/hostkey_rsa.pub',                             '/usr/local/etc/hostkey_rsa', 'secret',                             'localusername')) {  echo "Успешная Hostbased-аутентификация по открытому ключу
+` <?php$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));if (ssh2_auth_hostbased_file($connection, 'remoteusername', 'myhost.example. com',                             '/usr/local/etc/hostkey_rsa.pub',                             '/usr/local/etc/hostkey_rsa', 'secret',                             'localusername')) {  echo "Успешная Hostbased-аутентификация по открытому ключу
 ";} else {  die('Невдала Hostbased-аутентифікація по відкритому ключу');}?> `
 
 ### Примітки
 
 > **Примітка**:
 >
-> **ssh2_auth_hostbased_file()** вимагає libssh2 \>u003d 0.7 та PHP/SSH2 \>u003d
+> **ssh2_auth_hostbased_file()** вимагає libssh2 \>= 0.7 та PHP/SSH2 \>=
 > 0.7

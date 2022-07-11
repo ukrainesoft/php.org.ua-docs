@@ -7,7 +7,7 @@
 
 #odbc_data_source
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 odbc_data_source — Повертає інформацію про доступні DSN
 
@@ -39,17 +39,17 @@ odbc_data_source — Повертає інформацію про доступн
 
 **Приклад #1 Перелік доступних DSN**
 
-` <?php$connu003du003dodbc_connect('dsn', 'user', 'pass');$dsn_info u003d odbc_data_source($conn, SQL_FETCH_FIRST);while ($dsn_info) {     $dsn_infou003du003dodbc_data_source($conn, SQL_FETCH_NEXT);}?> `
+` <?php$conn==odbc_connect('dsn', 'user', 'pass');$dsn_info = odbc_data_source($conn, SQL_FETCH_FIRST);while ($dsn_info) {     $dsn_info==odbc_data_source($conn, SQL_FETCH_NEXT);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[server] u003d> dsn
-[description] u003d> ODBC Driver 17 for SQL Server
+[server] => dsn
+[description] => ODBC Driver 17 for SQL Server
 )
 Array
 (
-[server] u003d> other_dsn
-[description] u003d> Microsoft Access Driver (*.mdb, *.accdb)
+[server] => other_dsn
+[description] => Microsoft Access Driver (*.mdb, *.accdb)
 )

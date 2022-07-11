@@ -7,7 +7,7 @@
 
 #pg_free_result
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_free_result — Очищення результату запиту та звільнення пам'яті
 
@@ -42,15 +42,15 @@ bool
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_free_result()****
 
-` <?php$db u003d pg_connect("dbnameu003dusers useru003dme") || die();$res u003d pg_query($db, "SELECT 1 UNION ALL SELECT 2");$val u003d pg_fetch_result($res, 1, 0);echo "Перше поле во $$  
+` <?php$db = pg_connect("dbname=users user=me") || die();$res = pg_query($db, "SELECT 1 UNION ALL SELECT 2");$val = pg_fetch_result($res, 1, 0);echo "Перше поле во $$  
 ";pg_free_result($res);?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Imagick::setPointSize
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::setPointSize — Встановлює розмір точки
 
@@ -35,7 +35,7 @@ public **Imagick::setPointSize**(float `$point_size`): bool
 
 Приклад використання Imagick::setPointSize
 
-` <?php/* Створення нового об'єкта Imagick */$im u003d new Imagick();/* Установка шрифту для об'єкту */$im->setFont("example.ttf");/* Установка >setPointSize(12);/* Створення заголовка */$im->newPseudoImage(100, 100, "caption:Hello");/* Робота з зображенням */?> `
+` <?php/* Створення нового об'єкта Imagick */$im = new Imagick();/* Установка шрифту для об'єкту */$im->setFont("example.ttf");/* Установка >setPointSize(12);/* Створення заголовка */$im->newPseudoImage(100, 100, "caption:Hello");/* Робота з зображенням */?> `
 
 ### Дивіться також
 

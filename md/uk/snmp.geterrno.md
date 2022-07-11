@@ -7,7 +7,7 @@
 
 # SNMP::getErrno
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::getErrno — Отримує код останньої помилки
 
@@ -30,7 +30,7 @@ public **SNMP::getErrno**(): int
 
 **Приклад #1 Приклад використання **SNMP::getErrno()****
 
-` <?php$session u003d new SNMP(SNMP::VERSION_2c, '127.0.0.1', 'boguscommunity');var_dump(@$session->get('.1.3.6.1.2.1.1.1.0')); var_dump($session->getErrno() u003du003d SNMP::ERRNO_TIMEOUT);?> `
+` <?php$session = new SNMP(SNMP::VERSION_2c, '127.0.0.1', 'boguscommunity');var_dump(@$session->get('.1.3.6.1.2.1.1.1.0')); var_dump($session->getErrno() == SNMP::ERRNO_TIMEOUT);?> `
 
 Результат виконання цього прикладу:
 

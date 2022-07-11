@@ -7,14 +7,14 @@
 
 # svn_update
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_update — Оновлює робочу копію
 
 ### Опис
 
-**svn_update**(string `$path`, int `$revno` u003d SVN_REVISION_HEAD, bool
-`$recurse` u003d **`true`**): int
+**svn_update**(string `$path`, int `$revno` = SVN_REVISION_HEAD, bool
+`$recurse` = **`true`**): int
 
 Оновлює робочу копію, розташовану в `path` до ревізії `revno`. Якщо
 параметр `recurse` встановлено в **`true`**, директорії будуть оновлені

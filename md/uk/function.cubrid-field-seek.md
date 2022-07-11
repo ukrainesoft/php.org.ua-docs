@@ -8,14 +8,14 @@
 
 #cubrid_field_seek
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_field_seek — Перемістити внутрішній покажчик результуючого
 набору на вказаний стовпець
 
 ### Опис
 
-**cubrid_field_seek**(resource `$result`, int `$field_offset` u003d 0): bool
+**cubrid_field_seek**(resource `$result`, int `$field_offset` = 0): bool
 
 Функція переміщує внутрішній покажчик результуючого набору
 вказаний стовпець. Це зміщення використовується функцією
@@ -43,7 +43,7 @@ cubrid_field_seek — Перемістити внутрішній покажчи
 
 **Приклад #1 Приклад використання **cubrid_field_seek()****
 
-`<?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date| ;var_dump(cubrid_fetch_row($req));cubrid_field_seek($req, 1);$field u003d cubrid_fetch_field($req);printf("
+`<?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date| ;var_dump(cubrid_fetch_row($req));cubrid_field_seek($req, 1);$field = cubrid_fetch_field($req);printf("
 --- Властивості поля ---
 ");printf("%-30s %s
 ", "ім'я стовпця:", $field->name);printf("%-30s %s
@@ -59,13 +59,13 @@ cubrid_field_seek — Перемістити внутрішній покажчи
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 string(5) "20001"
-[1]u003d>
+[1]=>
 string(5) "16132"
-[2]u003d>
+[2]=>
 string(3) "KOR"
-[3]u003d>
+[3]=>
 string(9) "1988-09-30"
 }
 

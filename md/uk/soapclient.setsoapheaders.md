@@ -7,7 +7,7 @@
 
 # SoapClient::\_\_setSoapHeaders
 
-(PHP 5 \>u003d 5.0.5, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.5, PHP 7, PHP 8)
 
 SoapClient::\_\_setSoapHeaders — Встановлює SOAP-заголовки для
 наступних викликів
@@ -16,7 +16,7 @@ SoapClient::\_\_setSoapHeaders — Встановлює SOAP-заголовки 
 
 public
 **SoapClient::\_\_setSoapHeaders**([SoapHeader](class.soapheader.md)\|array\|null
-`$headers` u003d **`null`**): bool
+`$headers` = **`null`**): bool
 
 Визначає заголовки для надсилання разом із SOAP-запитами.
 
@@ -41,8 +41,8 @@ public
 
 **Приклад #1 Приклад використання **SoapClient::\_\_setSoapHeaders()****
 
-` <?php$client u003d new SoapClient(null, array('location' u003d> "http://localhost/soap.php",                                     'uri'      u003d> "http://test-uri/"));$ header u003d new SoapHeader('http://soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world');$client->__setSoapHeaders($header);$client->__soapCall("echoVoid", null) ;?> `
+` <?php$client = new SoapClient(null, array('location' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/"));$ header = new SoapHeader('http://soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world');$client->__setSoapHeaders($header);$client->__soapCall("echoVoid", null) ;?> `
 
 **Приклад #2 Встановлення кількох заголовків**
 
-` <?php$client u003d new SoapClient(null, array('location' u003d> "http://localhost/soap.php",                                     'uri'      u003d> "http://test-uri/"));$ headers u003d array();$headers[] u003d new SoapHeader('http://soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world');$headers[] u003d new SoapHeader('http:// soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world again');$client->__setSoapHeaders($headers);$client->__soapCall("echoVoid", null);?> `
+` <?php$client = new SoapClient(null, array('location' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/"));$ headers = array();$headers[] = new SoapHeader('http://soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world');$headers[] = new SoapHeader('http:// soapinterop.org/echoheader/',                            'echoMeStringRequest',                            'hello world again');$client->__setSoapHeaders($headers);$client->__soapCall("echoVoid", null);?> `

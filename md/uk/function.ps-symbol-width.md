@@ -7,7 +7,7 @@
 
 #ps_symbol_width
 
-(PECL ps \>u003d 1.2.0)
+(PECL ps \>= 1.2.0)
 
 ps_symbol_width — Отримує ширину гліфа.
 
@@ -16,8 +16,8 @@ ps_symbol_width — Отримує ширину гліфа.
 **ps_symbol_width**(
 resource `$psdoc`,
 int `$ord`,
-int `$fontid` u003d 0,
-float `$size` u003d 0.0
+int `$fontid` = 0,
+float `$size` = 0.0
 ): float
 
 Обчислює ширину гліфа в точках, якщо він був виведений із заданим шрифтом

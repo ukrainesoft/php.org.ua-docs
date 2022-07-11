@@ -7,7 +7,7 @@
 
 # Swoole\Coroutine\MySQL::\_\_destruct
 
-(PECL swoole \>u003d 2.0.0)
+(PECL swoole \>= 2.0.0)
 
 Swoole\Coroutine\MySQL::\_\_destruct — Опис
 

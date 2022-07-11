@@ -7,7 +7,7 @@
 
 # PharFileInfo::chmod
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::chmod — Встановлення прав доступу
 
@@ -39,7 +39,7 @@ public **PharFileInfo::chmod**(int `$perms`): void
 
 **Приклад #1 Приклад використання **PharFileInfo::chmod()****
 
-`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p u003d new Phar('brandnewphar.phar', 0, 'brandnewphar.phar'); $p['file.sh'] u003d '#!/usr/local/lib/php    <?php echo "привіт"; ?>'; // встановимо біт виконання   $p['file.sh']->chmod(0555); var_dump($p['file.sh']->isExecutable());} catch (Exception $e) {   echo 'Не удалося створити/змінити phar: ', $e;}?> `
+`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar('brandnewphar.phar', 0, 'brandnewphar.phar'); $p['file.sh'] = '#!/usr/local/lib/php    <?php echo "привіт"; ?>'; // встановимо біт виконання   $p['file.sh']->chmod(0555); var_dump($p['file.sh']->isExecutable());} catch (Exception $e) {   echo 'Не удалося створити/змінити phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

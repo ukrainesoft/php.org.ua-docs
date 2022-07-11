@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightMergeContiguous
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightMergeContiguous — Чи згортати суміжні фрагменти
 в один фрагмент
@@ -15,7 +15,7 @@ SolrQuery::setHighlightMergeContiguous — Чи згортати суміжні 
 ### Опис
 
 public **SolrQuery::setHighlightMergeContiguous**(bool `$flag`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Чи згортати суміжні фрагменти в один фрагмент
 

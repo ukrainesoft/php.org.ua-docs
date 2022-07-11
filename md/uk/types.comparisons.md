@@ -37,64 +37,64 @@ bool, а ``false'` - string.
 > представлене константою **`NAN`** (Not A Number, не число). Будь-яке
 > суворе чи не суворе порівняння цього значення з будь-яким іншим,
 > включаючи його, але виключаючи **`true`**, поверне **`false`** (тобто.
-> `NAN! u003d NAN` і `NAN! u003du003d NAN`). Прикладами операцій, що повертають
+> `NAN != NAN` і `NAN !== NAN`). Прикладами операцій, що повертають
 > **`NAN`**, є `sqrt(-1)`, `asin(2)` та `acosh(0)`.
 
-| Вираз | [gettype()](function.gettype.md) | [empty()](function.empty.md) | [is_null()](function.is-null.md) | [isset()](function.isset.md) | bool : `if($x)` |
-|--------------------|---------------------------- --------|--------------------------------|-------- ----------------------------|--------------------- -----------|-----------------|
-| $x u003d ""; string | **`true`** | **`false`** | **`true`** | **`false`** |
-| $x u003d null; NULL | **`true`** | **`true`** | **`false`** | **`false`** |
-| `var $x;` | NULL | **`true`** | **`true`** | **`false`** | **`false`** |
-| $x не визначено | NULL | **`true`** | **`true`** | **`false`** | **`false`** |
-| $x u003d []; array | **`true`** | **`false`** | **`true`** | **`false`** |
-| $x u003d ['a', 'b']; array | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d false; bool | **`true`** | **`false`** | **`true`** | **`false`** |
-| $x u003d true; bool | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d 1; int | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d 42; int | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d 0; int | **`true`** | **`false`** | **`true`** | **`false`** |
-| $x u003d -1; int | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d "1"; string | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d "0"; string | **`true`** | **`false`** | **`true`** | **`false`** |
-| $x u003d "-1"; string | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d "php"; string | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d "true"; string | **`false`** | **`false`** | **`true`** | **`true`** |
-| $x u003d "false"; string | **`false`** | **`false`** | **`true`** | **`true`** |
+| Вираз                  | [gettype()](function.gettype.md) | [empty()](function.empty.md) | [is_null()](function.is-null.md) | [isset()](function.isset.md) | bool : if($x) |
+|------------------------|----------------------------------|------------------------------|----------------------------------|------------------------------|---------------|
+| $x = ""; string        | **true**                         | **false**                    | **true**                         | **false**                    |               |
+| $x = null; NULL        | **true**                         | **true**                     | **false**                        | **false**                    |               |
+| var $x;                | NULL                             | **true**                     | **true**                         | **false**                    | **false**     |
+| $x не визначено        | NULL                             | **true**                     | **true**                         | **false**                    | **false**     |
+| $x = []; array         | **true**                         | **false**                    | **true**                         | **false**                    |               |
+| $x = ['a', 'b']; array | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = false; bool       | **true**                         | **false**                    | **true**                         | **false**                    |               |
+| $x = true; bool        | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = 1; int            | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = 42; int           | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = 0; int            | **true**                         | **false**                    | **true**                         | **false**                    |               |
+| $x = -1; int           | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = "1"; string       | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = "0"; string       | **true**                         | **false**                    | **true**                         | **false**                    |               |
+| $x = "-1"; string      | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = "php"; string     | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = "true"; string    | **false**                        | **false**                    | **true**                         | **true**                     |               |
+| $x = "false"; string   | **false**                        | **false**                    | **true**                         | **true**                     |               |
 
 **Порівняння типів $x і результатів функцій PHP, пов'язаних з типами**
 
-| | **`true`** | **`false`** | `1` | `0` | `-1` | ''1'' | ``0'` | ``-1'`` | **`null`** | `[]` | "php" | ````` |
-|-------------|-------------|-------------|------- ------|---------------|-------------|------------- |-------------|-------------|-------------|------- ------|---------------|---------------|
-| **`true`** | **`true`** | **`false`** | **`true`** | **`false`** | **`true`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** |
-| **`false`** | **`false`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`true`** | **`true`** | **`false`** | **`true`** |
-| `1` | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** |
-| `0` | **`false`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`**\* | **`false`**\* |
-| `-1` | **`true`** | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** |
-| ''1'' | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** |
-| ``0'` | **`false`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** |
-| ``-1'`` | **`true`** | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** |
-| **`null`** | **`false`** | **`true`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** | **`true`** | **`false`** | **`true`** |
-| `[]` | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** | **`true`** | **`false`** | **`false`** |
-| "php" | **`true`** | **`false`** | **`false`** | **`false`**\* | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** |
-| ````` | **`false`** | **`true`** | **`false`** | **`false`**\* | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`true`** |
+|           | **true**  | **false** | 1         | 0         | -1        | ''1''     | 0'        | -1'       | **null**  | []        | "php"       |             |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-------------|-------------|
+| **true**  | **true**  | **false** | **true**  | **false** | **true**  | **true**  | **false** | **true**  | **false** | **false** | **true**    | **false**   |
+| **false** | **false** | **true**  | **false** | **true**  | **false** | **false** | **true**  | **false** | **true**  | **true**  | **false**   | **true**    |
+| 1         | **true**  | **false** | **true**  | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false**   | **false**   |
+| 0         | **false** | **true**  | **false** | **true**  | **false** | **false** | **true**  | **false** | **true**  | **false** | **false**\* | **false**\* |
+| -1        | **true**  | **false** | **false** | **false** | **true**  | **false** | **false** | **true**  | **false** | **false** | **false**   | **false**   |
+| ''1''     | **true**  | **false** | **true**  | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false**   | **false**   |
+| 0'        | **false** | **true**  | **false** | **true**    | **false** | **false** | **true**  | **false** | **false** | **false** | **false**   | **false**   |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |                                                                                            |             |             |               |             
+| -1'       | **true**  | **false** | **false** | **false**   | **true**  | **false** | **false** | **true**  | **false** | **false** | **false**   | **false**   |
+| **null**  | **false** | **true**  | **false** | **true**    | **false** | **false** | **false** | **false** | **true**  | **true**  | **false**   | **true**    |
+| []        | **false** | **true**  | **false** | **false**   | **false** | **false** | **false** | **false** | **true**  | **true**  | **false**   | **false**   |
+| "php"     | **true**  | **false** | **false** | **false**\* | **false** | **false** | **false** | **false** | **false** | **false** | **true**    | **false**   |
+|           | **false** | **true**  | **false** | **false**\* | **false** | **false** | **false** | **false** | **true**  | **false** | **false**   | **true**    |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |             |             |             |               |             |             | |                                                                                            |             |             |               |             
 
-**Гнучке порівняння за допомогою `u003du003d`**
+**Гнучке порівняння за допомогою `==`**
 
 \* **`true`** до PHP 8.0.0.
 
-|                                                                                                                                                                              | **`true`**  | **`false`** | `1`         | `0`         | `-1`        | ''1''       | ``0'` | ``-1'`` | **`null`** | `[]` | "php" | ````` |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | --------------------------------------------------- |
-| **`true`**                                                                                                                                                                   | **`true`**  | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| **`false`**                                                                                                                                                                  | **`false`** | **`true`**  | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| `1`                                                                                                                                                                          | **`false`** | **`false`** | **`true`**  | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| `0`                                                                                                                                                                          | **`false`** | **`false`** | **`false`** | **`true`**  | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| `-1`                                                                                                                                                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`true`**  | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| ''1''                                                                                                                                                                        | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`**  | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| ``0'` | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** |             |             |             |             |             |             |                                                     |
-| ``-1'``                                                                                                                                                                      | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`true`** | **`false`** | **`false`** | **`false`** | **`false`** 
-| **`null`**                                                                                                                                                                   | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`true`** | **`false`** | **`false`** | **`false`** 
-| `[]`                                                                                                                                                                         | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`true`** | **`false`** | **`false`** 
-| "php"                                                                                                                                                                        | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`**                                         | **`false`** | **`false`** | **`false`** | **`true`** | **`false`** 
-| ````` | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`false`** | **`true`** |             |             |             |             |             |             |                                                     |
+|           | **true**  | **false** | 1         | 0         | -1        | ''1''     | 0'        | -1'       | **null**  | []        | "php"     |           |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| **true**  | **true**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** |
+| **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** |
+| 1         | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** |
+| 0         | **false** | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** |
+| -1        | **false** | **false** | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** |
+| ''1''     | **false** | **false** | **false** | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** | **false** |
+| 0'        | **false** | **false** | **false** | **false** | **false** | **false** | **true**  | **false** | **false** | **false** | **false** | **false** |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |                                                                                          |             |             |             |             
+| -1'       | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **true**  | **false** | **false** | **false** | **false** |
+| **null**  | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **true**  | **false** | **false** | **false** |
+| []        | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **true**  | **false** | **false** |
+| "php"     | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **true**  | **false** |
+|           | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **false** | **true**  |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |             |             |             |             |             |             | |                                                                                          |             |             |             |             
 
-**Жорстке порівняння за допомогою `u003du003du003d`**
+**Жорстке порівняння за допомогою `===`**

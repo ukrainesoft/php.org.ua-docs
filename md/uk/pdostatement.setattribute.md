@@ -7,7 +7,7 @@
 
 # PDOStatement::setAttribute
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDOStatement::setAttribute — Встановлює атрибут об'єкту PDOStatement
 

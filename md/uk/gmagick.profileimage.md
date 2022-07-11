@@ -7,7 +7,7 @@
 
 # Gmagick::profileimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::profileimage — Додає або видаляє профіль із зображення.
 

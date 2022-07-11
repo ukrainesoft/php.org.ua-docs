@@ -7,7 +7,7 @@
 
 #gmp_sqrt
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_sqrt — Обчислення квадратного кореня
 
@@ -32,7 +32,7 @@ gmp_sqrt — Обчислення квадратного кореня
 
 **Приклад #1 Приклад використання **gmp_sqrt()****
 
-` <?php$sqrt1 u003d gmp_sqrt("9");$sqrt2 u003d gmp_sqrt("7");$sqrt3 u003d gmp_sqrt("1524157875019052100");echo gmp_str "
+` <?php$sqrt1 = gmp_sqrt("9");$sqrt2 = gmp_sqrt("7");$sqrt3 = gmp_sqrt("1524157875019052100");echo gmp_str "
 ";echo gmp_strval($sqrt2) . "
 ";echo gmp_strval($sqrt3) . "
 ";?> `

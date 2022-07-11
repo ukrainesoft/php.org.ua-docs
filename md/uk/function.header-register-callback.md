@@ -7,7 +7,7 @@
 
 # header_register_callback
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 header_register_callback — Викликає функцію заголовка
 
@@ -39,7 +39,7 @@ header_register_callback — Викликає функцію заголовка
 
 **Приклад #1 Приклад використання **header_register_callback()****
 
-` <?phpheader('Content-Type:text/plain');header('X-Test:foo');function foo() { foreach (headers_list() as $header) {   if (strpos($header, ) X-Powered-By:') !u003du003d false) {    header_remove('X-Powered-By'); }   header_remove('X-Test'); }}$result u003d header_register_callback('foo');echo "a";?> `
+` <?phpheader('Content-Type:text/plain');header('X-Test:foo');function foo() { foreach (headers_list() as $header) {   if (strpos($header, ) X-Powered-By:') !== false) {    header_remove('X-Powered-By'); }   header_remove('X-Test'); }}$result = header_register_callback('foo');echo "a";?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

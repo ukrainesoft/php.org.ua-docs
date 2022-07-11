@@ -7,7 +7,7 @@
 
 # SplFileObject::fgets
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgets — Отримує рядок із файлу
 
@@ -37,7 +37,7 @@ public **SplFileObject::fgets**(): string
 
 Цей приклад рядково виводить вміст `file.txt`.
 
-` <?php$file u003d new SplFileObject("file.txt");while (!$file->eof()) {    echo $file->fgets();}?> `
+` <?php$file = new SplFileObject("file.txt");while (!$file->eof()) {    echo $file->fgets();}?> `
 
 ### Дивіться також
 

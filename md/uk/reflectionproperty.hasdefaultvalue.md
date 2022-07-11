@@ -36,7 +36,7 @@ public **ReflectionProperty::hasDefaultValue**(): bool
 **Приклад #1 Приклад використання
 **ReflectionProperty::hasDefaultValue()****
 
-`<?phpclass Foo {    public $bar; public ?int $baz; public ?int $foo u003d null; public int $boing; public function __construct()    {        $this->ping u003d ''; }}$ro u003d new ReflectionObject(new Foo());var_dump($ro->getProperty('bar')->hasDefaultValue());var_dump($ro->getProperty('baz')->hasDefaultValue() );var_dump($ro->getProperty('foo')->hasDefaultValue());var_dump($ro->getProperty('boing')->hasDefaultValue());var_dump($ro->getProperty('ping ')->hasDefaultValue()); // Динамічне властивістьvar_dump($ro->getProperty('pong')->hasDefaultValue()); // Невизначена властивість?> `
+`<?phpclass Foo {    public $bar; public ?int $baz; public ?int $foo = null; public int $boing; public function __construct()    {        $this->ping = ''; }}$ro = new ReflectionObject(new Foo());var_dump($ro->getProperty('bar')->hasDefaultValue());var_dump($ro->getProperty('baz')->hasDefaultValue() );var_dump($ro->getProperty('foo')->hasDefaultValue());var_dump($ro->getProperty('boing')->hasDefaultValue());var_dump($ro->getProperty('ping ')->hasDefaultValue()); // Динамічне властивістьvar_dump($ro->getProperty('pong')->hasDefaultValue()); // Невизначена властивість?> `
 
 Результат виконання цього прикладу:
 

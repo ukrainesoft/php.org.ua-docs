@@ -7,7 +7,7 @@
 
 # IntlCalendar::after
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::after — Визначає час цього об'єкта пізніше часу
 переданого об'єкту
@@ -50,4 +50,4 @@ public **IntlCalendar::after**([IntlCalendar](class.intlcalendar.md)
 
 **Приклад #1 Приклад використання **IntlCalendar::after()****
 
-` <?php$cal1 u003d IntlCalendar::createInstance();$cal2 u003d clone $cal1;var_dump($cal1->after($cal2), //false        $cal2->after($cal1)); //false$cal1->roll(IntlCalendar::FIELD_MILLISECOND, true);var_dump($cal1->after($cal2), //true        $cal2->after($cal1)); // False `
+` <?php$cal1 = IntlCalendar::createInstance();$cal2 = clone $cal1;var_dump($cal1->after($cal2), //false        $cal2->after($cal1)); //false$cal1->roll(IntlCalendar::FIELD_MILLISECOND, true);var_dump($cal1->after($cal2), //true        $cal2->after($cal1)); // False `

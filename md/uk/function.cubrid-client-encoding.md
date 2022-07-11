@@ -7,13 +7,13 @@
 
 #cubrid_client_encoding
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_client_encoding — Повертає кодування поточного з'єднання CUBRID
 
 ### Опис
 
-**cubrid_client_encoding**(resource `$conn_identifier` u003d ?): string
+**cubrid_client_encoding**(resource `$conn_identifier` = ?): string
 
 Функція повертає кодування поточного з'єднання CUBRID та аналогічна
 функції **cubrid_get_encoding()**.
@@ -36,7 +36,7 @@ cubrid_client_encoding — Повертає кодування поточног�
 
 **Приклад #1 Приклад використання **cubrid_client_encoding()****
 
-` <?php$con u003d cubrid_connect("localhost", 33000, "demodb");if (!$con){    die('Не вийшло підключитися.');}printf("Поточне кодування CUBRID: 
+` <?php$con = cubrid_connect("localhost", 33000, "demodb");if (!$con){    die('Не вийшло підключитися.');}printf("Поточне кодування CUBRID: 
 ", cubrid_client_encoding($con));?> `
 
 Результат виконання цього прикладу:

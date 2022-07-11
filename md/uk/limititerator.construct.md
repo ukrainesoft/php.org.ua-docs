@@ -7,14 +7,14 @@
 
 # LimitIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::\_\_construct - Конструктор класу LimitIterator
 
 ### Опис
 
 public **LimitIterator::\_\_construct**([Iterator](class.iterator.md)
-`$iterator`, int `$offset` u003d 0, int `$limit` u003d -1)
+`$iterator`, int `$offset` = 0, int `$limit` = -1)
 
 Створює новий об'єкт класу [LimitIterator](class.limititerator.md)
 основі заданого об'єкта `iterator`, початкового зміщення `offset` та
@@ -40,16 +40,16 @@ public **LimitIterator::\_\_construct**([Iterator](class.iterator.md)
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення `offset` виявиться меншим за `0`; раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
-| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зсув `limit` виявиться меншим за `-1`; раніше викидався виняток [RuntimeException](class.runtimeexception.md).     |
+| Версія | Опис                                                                                                                                                                         |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зміщення offset виявиться меншим за 0; раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
+| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо зсув limit виявиться меншим за -1; раніше викидався виняток [RuntimeException](class.runtimeexception.md).     |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **LimitIterator::\_\_construct()****
 
-` <?php$ait u003d new ArrayIterator(array('a', 'b', 'c', 'd', 'e'));$lit u003d new LimitIterator($ait, 1, 3);foreach ( $lit as $value) {    echo $value . "
+` <?php$ait = new ArrayIterator(array('a', 'b', 'c', 'd', 'e'));$lit = new LimitIterator($ait, 1, 3);foreach ( $lit as $value) {    echo $value . "
 ";}?> `
 
 Результат виконання цього прикладу:

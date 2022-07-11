@@ -7,13 +7,13 @@
 
 # ZipArchive::getArchiveComment
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::getArchiveComment — Повертає коментар ZIP-архіву
 
 ### Опис
 
-public **ZipArchive::getArchiveComment**(int `$flags` u003d 0):
+public **ZipArchive::getArchiveComment**(int `$flags` = 0):
 string\|false
 
 Повертає коментар ZIP-архіву.
@@ -33,4 +33,4 @@ string\|false
 
 **Приклад #1 Вивести коментар архіву**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test_with_comment.zip');if ($res u003du003du003d TRUE) {    var_dump($zip->getArchiveComment()); /* Або використовуючи властивість */    var_dump($zip->comment);} else {    echo 'Помилка з кодом:' . $res;}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test_with_comment.zip');if ($res === TRUE) {    var_dump($zip->getArchiveComment()); /* Або використовуючи властивість */    var_dump($zip->comment);} else {    echo 'Помилка з кодом:' . $res;}?> `

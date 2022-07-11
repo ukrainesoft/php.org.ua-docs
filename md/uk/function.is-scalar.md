@@ -7,7 +7,7 @@
 
 #is_scalar
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 is_scalar — Перевіряє, чи є змінна скалярним значенням
 
@@ -46,17 +46,17 @@ bool. Типи array, object, resource і null є скалярними.
 
 **Приклад #1 Приклад використання **is_scalar()****
 
-` <?phpfunction show_var($var){    if (is_scalar($var)) {       echo $var; } else {       var_dump($var); }}$pi u003d 3.1416;$proteins u003d array("hemoglobin", "cytochrome c oxidase", "ferredoxin");show_var($pi);show_var($proteins)?> `
+` <?phpfunction show_var($var){    if (is_scalar($var)) {       echo $var; } else {       var_dump($var); }}$pi = 3.1416;$proteins = array("hemoglobin", "cytochrome c oxidase", "ferredoxin");show_var($pi);show_var($proteins)?> `
 
 Результат виконання цього прикладу:
 
 3.1416
 array(3) {
-[0]u003d>
+[0]=>
 string(10) "hemoglobin"
-[1]u003d>
+[1]=>
 string(20) "cytochrome c oxidase"
-[2]u003d>
+[2]=>
 string(10) "ferredoxin"
 }
 

@@ -7,7 +7,7 @@
 
 # GearmanClient::addTaskBackground
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addTaskBackground — Додати фонове завдання для роботи в
 паралельному режимі
@@ -18,8 +18,8 @@ public **GearmanClient::addTaskBackground**(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 Додає фонове завдання для паралельної роботи з іншими завданнями.
@@ -60,18 +60,18 @@ Callback-функція встановлена так, щоб виконання
 callback-функції. Два обробники запущені для цього прикладу. Зверніть
 увагу, що фонове завдання не відображається в клієнтському висновку.
 
-` <?php# Клієнтський скрипт# Створення нашого клієнта$gmcu003d new GearmanClient();# Додавання сервера задач за мовчанням$gmc->addServer();# Установка нескольк Таким чином, ми зможемо відслідковувати виконання $ gmc-> setCompleteCallback ("reverse_complete"); $ gmc-> setStatusCallback ("reverse_status"); World!", null, "1");# Додавання іншої задачі, но вона призначена для запуску у фоновому режимі$tasku003d $gmc->addTaskBackground("reverse", "! if (! $gmc->runTasks()){   echo "Помилка " . $gmc->error() . "
+` <?php# Клієнтський скрипт# Створення нашого клієнта$gmc= new GearmanClient();# Додавання сервера задач за мовчанням$gmc->addServer();# Установка нескольк Таким чином, ми зможемо відслідковувати виконання $ gmc-> setCompleteCallback ("reverse_complete"); $ gmc-> setStatusCallback ("reverse_status"); World!", null, "1");# Додавання іншої задачі, но вона призначена для запуску у фоновому режимі$task= $gmc->addTaskBackground("reverse", "! if (! $gmc->runTasks()){   echo "Помилка " . $gmc->error() . "
 ";   exit;}echo "Виконано
 ";function reverse_status($task){    echo "Статус: " . $task->unique() . ", " . $task->jobHandle() . " - "  . $task->taskDenominator() . "
 ";}function reverse_complete($task){    echo "Завершено: " . $task->unique() . ", " . $task->data() . "
 ";}?> `
 
 `<?php# Скрипт обробникаecho "Початок
-";# Створюємо наш об'єкт обробника$gmworkeru003d new GearmanWorker();# Додавання сервера задач за замовчуванням (localhost).$gmworker->addServer(); reverse_fn");print "Чекання завдання...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {   echo "код повернення: " . $gmworker->returnCode|
+";# Створюємо наш об'єкт обробника$gmworker= new GearmanWorker();# Додавання сервера задач за замовчуванням (localhost).$gmworker->addServer(); reverse_fn");print "Чекання завдання...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {   echo "код повернення: " . $gmworker->returnCode|
 ";    break;  }}function reverse_fn($job){  echo "Отримана завдання: " . $job->handle() . "
-";  $workload u003d $job->workload();  $workload_size u003d $job->workloadSize(); echo "Робоче навантаження: $workload ($workload_size)
-";| # В цьому циклі для відображення статуса немає необхідності. Просто для демонстрації, як це працює  for ($xu003d 0; $x < $workload_size;    | "/$workload_size виконано
+";  $workload = $job->workload();  $workload_size = $job->workloadSize(); echo "Робоче навантаження: $workload ($workload_size)
+";| # В цьому циклі для відображення статуса немає необхідності. Просто для демонстрації, як це працює  for ($x= 0; $x < $workload_size;    | "/$workload_size виконано
 ";   $job->sendStatus($x+1, $workload_size);   $job->sendData(substr($workload, $x, 1));    sleep(1);  }  $$ echo "Результат: $result
 ";  # Повертаємо то, що ми хочемо повернути клієнту  return $result;}?> `
 

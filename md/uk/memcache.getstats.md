@@ -7,14 +7,14 @@
 
 # Memcache::getStats
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::getStats — Отримати статистику сервера
 
 ### Опис
 
-**Memcache::getStats**(string `$type` u003d ?, int `$slabid` u003d ?, int
-`$limit` u003d 100): array\|false
+**Memcache::getStats**(string `$type` = ?, int `$slabid` = ?, int
+`$limit` = 100): array\|false
 
 **Memcache::getStats()** повертає асоціативний масив, що містить
 статистика сервера. Ключі масиву відповідають параметрам статистики, а

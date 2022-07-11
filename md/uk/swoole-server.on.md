@@ -7,7 +7,7 @@
 
 # Swoole\Server::on
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::on — Реєструє callback-функцію на ім'я події
 

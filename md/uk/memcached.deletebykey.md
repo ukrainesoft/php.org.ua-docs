@@ -7,14 +7,14 @@
 
 # Memcached::deleteByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::deleteByKey — Видалення запису з вказаного сервера
 
 ### Опис
 
 public **Memcached::deleteByKey**(string `$server_key`, string `$key`,
-int `$time` u003d 0): bool
+int `$time` = 0): bool
 
 **Memcached::deleteByKey()** працює аналогічно
 [Memcached::delete()](memcached.delete.md), за винятком того, що

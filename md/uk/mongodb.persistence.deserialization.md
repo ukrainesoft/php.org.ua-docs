@@ -45,9 +45,9 @@ array
 
 ``` textcode
 [
-'fieldPaths' u003d> [
-'addresses.$' u003d> 'MyProject\Address',
-'addresses.$.city' u003d> 'MyProject\City',
+'fieldPaths' => [
+'addresses.$' => 'MyProject\Address',
+'addresses.$.city' => 'MyProject\City',
 ],
 ]
 ````
@@ -158,98 +158,98 @@ TheirClass
 встановлює властивості без змін. Він *також* встановлює для
 властивості `$unserialized` значення `true`:
 
-` <?phpfunction bsonUnserialize( array $map ){   foreach ( $map as $k u003d> $value )    {        $this-$$$; }   $this->unserialized u003d true;} `
+` <?phpfunction bsonUnserialize( array $map ){   foreach ( $map as $k => $value )    {        $this-$$$; }   $this->unserialized = true;} `
 
 ``` textcode
 /* typemap: [](усі значення за замовчуванням) */
 {"foo": "yes", "bar": false}
--> stdClass { $foo u003d> 'yes', $bar u003d> false }
+-> stdClass { $foo => 'yes', $bar => false }
 
 { "foo": "no", "array": [5, 6]}
--> stdClass { $foo u003d> 'no', $array u003d> [ 5, 6 ] }
+-> stdClass { $foo => 'no', $array => [ 5, 6 ] }
 
 { "foo": "no", "obj" : { "embedded" : 3.14 } }
--> stdClass { $foo u003d> 'no', $obj u003d> stdClass { $embedded u003d> 3.14 } }
+-> stdClass { $foo => 'no', $obj => stdClass { $embedded => 3.14 } }
 
 { "foo": "yes", "__pclass": "MyClass"}
--> stdClass { $foo u003d> 'yes', $__pclass u003d> 'MyClass' }
+-> stdClass { $foo => 'yes', $__pclass => 'MyClass' }
 
 { "foo": "yes", "__pclass": { "$type" : "80", "$binary" : "MyClass" } }
--> stdClass { $foo u003d> 'yes', $__pclass u003d> Binary(0x80, 'MyClass') }
+-> stdClass { $foo => 'yes', $__pclass => Binary(0x80, 'MyClass') }
 
 { "foo": "yes", "__pclass": { "$type" : "80", "$binary" : "YourClass") }
--> stdClass { $foo u003d> 'yes', $__pclass u003d> Binary(0x80, 'YourClass') }
+-> stdClass { $foo => 'yes', $__pclass => Binary(0x80, 'YourClass') }
 
 { "foo": "yes", "__pclass": { "$type" : "80", "$binary" : "OurClass") }
--> OurClass { $foo u003d> 'yes', $__pclass u003d> Binary(0x80, 'OurClass'), $unserialized u003d> true }
+-> OurClass { $foo => 'yes', $__pclass => Binary(0x80, 'OurClass'), $unserialized => true }
 
 { "foo": "yes", "__pclass": { "$type" : "44", "$binary" : "YourClass") }
--> stdClass { $foo u003d> 'yes', $__pclass u003d> Binary(0x44, 'YourClass') }
+-> stdClass { $foo => 'yes', $__pclass => Binary(0x44, 'YourClass') }
 ````
 
 ``` textcode
-/* typemap: [ "root" u003d> "MissingClass" ] */
+/* typemap: [ "root" => "MissingClass" ] */
 { "foo": "yes" }
 -> MongoDB\Driver\Exception\InvalidArgumentException("MissingClass does not exist")
 
-/* typemap: [ "root" u003d> "MyClass" ] */
+/* typemap: [ "root" => "MyClass" ] */
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "MyClass" } }
 -> MongoDB\Driver\Exception\InvalidArgumentException("MyClass не implementує Unserializable interface")
 
-/* typemap: [ "root" u003d> "MongoDB\BSON\Unserializable" ] */
+/* typemap: [ "root" => "MongoDB\BSON\Unserializable" ] */
 { "foo": "yes" }
 -> MongoDB\Driver\Exception\InvalidArgumentException("Unserializable is not a concrete class")
 
-/* typemap: [ "root" u003d> "YourClass" ] */
+/* typemap: [ "root" => "YourClass" ] */
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "MongoDB\BSON\Unserializable" } }
--> YourClass { $foo u003d> "yes", $__pclass u003d> Binary(0x80, "MongoDB\BSON\Unserializable"), $unserialized u003d> true }
+-> YourClass { $foo => "yes", $__pclass => Binary(0x80, "MongoDB\BSON\Unserializable"), $unserialized => true }
 
-/* typemap: [ "root" u003d> "YourClass" ] */
+/* typemap: [ "root" => "YourClass" ] */
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "MyClass" } }
--> YourClass { $foo u003d> "yes", $__pclass u003d> Binary(0x80, "MyClass"), $unserialized u003d> true }
+-> YourClass { $foo => "yes", $__pclass => Binary(0x80, "MyClass"), $unserialized => true }
 
-/* typemap: [ "root" u003d> "YourClass" ] */
+/* typemap: [ "root" => "YourClass" ] */
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "OurClass" } }
--> OurClass { $foo u003d> "yes", $__pclass u003d> Binary(0x80, "OurClass"), $unserialized u003d> true }
+-> OurClass { $foo => "yes", $__pclass => Binary(0x80, "OurClass"), $unserialized => true }
 
-/* typemap: [ "root" u003d> "YourClass" ] */
+/* typemap: [ "root" => "YourClass" ] */
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "TheirClass" } }
--> TheirClass { $foo u003d> "yes", $__pclass u003d> Binary(0x80, "TheirClass"), $unserialized u003d> true }
+-> TheirClass { $foo => "yes", $__pclass => Binary(0x80, "TheirClass"), $unserialized => true }
 
-/* typemap: [ "root" u003d> "OurClass" ] */
+/* typemap: [ "root" => "OurClass" ] */
 { foo: "yes", "__pclass" : { "$type": "80", "$binary": "TheirClass" } }
--> TheirClass { $foo u003d> "yes", $__pclass u003d> Binary(0x80, "TheirClass"), $unserialized u003d> true }
+-> TheirClass { $foo => "yes", $__pclass => Binary(0x80, "TheirClass"), $unserialized => true }
 ````
 
 ``` textcode
-/* typemap: [ 'root' u003d> 'YourClass' ] */
+/* typemap: [ 'root' => 'YourClass' ] */
 { foo: "yes", "__pclass" : { "$type": "80", "$binary": "YourClass" } }
--> YourClass { $foo u003d> 'yes', $__pclass u003d> Binary(0x80, 'YourClass'), $unserialized u003d> true }
+-> YourClass { $foo => 'yes', $__pclass => Binary(0x80, 'YourClass'), $unserialized => true }
 ````
 
 ``` textcode
-/* typemap: [ 'root' u003d> 'array', 'document' u003d> 'array' ] */
+/* typemap: [ 'root' => 'array', 'document' => 'array' ] */
 {"foo": "yes", "bar": false}
--> [ "foo" u003d> "yes", "bar" u003d> false ]
+-> [ "foo" => "yes", "bar" => false ]
 
 { "foo": "no", "array": [5, 6]}
--> [ "foo" u003d> "no", "array" u003d> [ 5, 6 ] ]
+-> [ "foo" => "no", "array" => [ 5, 6 ] ]
 
 { "foo": "no", "obj" : { "embedded" : 3.14 } }
--> [ "foo" u003d> "no", "obj" u003d> [ "embedded u003d> 3.14 ] ]
+-> [ "foo" => "no", "obj" => [ "embedded => 3.14 ] ]
 
 { "foo": "yes", "__pclass": "MyClass"}
--> [ "foo" u003d> "yes", "__pclass" u003d> "MyClass" ]
+-> [ "foo" => "yes", "__pclass" => "MyClass" ]
 
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "MyClass" } }
--> [ "foo" u003d> "yes", "__pclass" u003d> Binary(0x80, "MyClass") ]
+-> [ "foo" => "yes", "__pclass" => Binary(0x80, "MyClass") ]
 
 { "foo": "yes", "__pclass" : { "$type": "80", "$binary": "OurClass" } }
--> [ "foo" u003d> "yes", "__pclass" u003d> Binary(0x80, "OurClass") ]
+-> [ "foo" => "yes", "__pclass" => Binary(0x80, "OurClass") ]
 ````
 
 ``` textcode
-/* typemap: [ 'root' u003d> 'object', 'document' u003d> 'object' ] */
+/* typemap: [ 'root' => 'object', 'document' => 'object' ] */
 { "foo": "yes", "__pclass": { "$type": "80", "$binary": "MyClass" } }
--> stdClass { $foo u003d> "yes", "__pclass" u003d> Binary(0x80, "MyClass") }
+-> stdClass { $foo => "yes", "__pclass" => Binary(0x80, "MyClass") }
 ````

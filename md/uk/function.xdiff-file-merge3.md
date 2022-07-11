@@ -7,7 +7,7 @@
 
 #xdiff_file_merge3
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_file_merge3 — Об'єднання трьох файлів в один
 
@@ -52,7 +52,7 @@ string `$dest`
 
 Наступний код поєднує три файли.
 
-` <?php$old_version u003d 'original_script.php';$fix1 u003d 'script_with_fix1.php';$fix2 u003d 'script_with_fix2.php';$errors u003d xdiff_file_merge3($old_version, $fix1, );if(is_string($errors)) {    echo "Відхилені:
+` <?php$old_version = 'original_script.php';$fix1 = 'script_with_fix1.php';$fix2 = 'script_with_fix2.php';$errors = xdiff_file_merge3($old_version, $fix1, );if(is_string($errors)) {    echo "Відхилені:
 ";   echo $errors;}?> `
 
 ### Дивіться також

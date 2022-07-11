@@ -7,7 +7,7 @@
 
 #stream_filter_remove
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 stream_filter_remove — Видалити фільтр із потоку
 
@@ -35,7 +35,7 @@ stream_filter_remove — Видалити фільтр із потоку
 
 **Приклад #1 Динамічна зміна фільтрів потоку**
 
-` <?php/* Відкриття тестового файлу для читання і записи */$fp u003dfopen("test.txt", "rw");$rot13_filter u003d stream_filter_append($fp,_3 $fp, "This is ");stream_filter_remove($rot13_filter);fwrite($fp, "a test
+` <?php/* Відкриття тестового файлу для читання і записи */$fp =fopen("test.txt", "rw");$rot13_filter = stream_filter_append($fp,_3 $fp, "This is ");stream_filter_remove($rot13_filter);fwrite($fp, "a test
 ");rewind($fp);fpassthru($fp);fclose($fp);?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Imagick::setImageClipMask
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::setImageClipMask — Встановлює маску кліпу
 
@@ -42,4 +42,4 @@ public **Imagick::setImageClipMask**([Imagick](class.imagick.md)
 
 **Приклад #1 Приклад використання **Imagick::setImageClipMask()****
 
-` <?phpfunction setImageClipMask($imagePath) {   $imagick u003d new \Imagick(); $imagick->readImage(realpath($imagePath)); $width u003d $imagick->getImageWidth(); $height u003d $imagick->getImageHeight(); $clipMask u003d new \Imagick(); $clipMask->newPseudoImage(        $width,       $height,       "canvas:transparent"    ); $draw u003d new \ImagickDraw(); $draw->setFillColor('white'); $draw->circle($                                              | $clipMask->drawImage($draw); $imagick->setImageClipMask($clipMask); $imagick->negateImage(false); $imagick->setFormat("png"); header("Content-Type: image/png"); echo $imagick->getImagesBlob();}?> `
+` <?phpfunction setImageClipMask($imagePath) {   $imagick = new \Imagick(); $imagick->readImage(realpath($imagePath)); $width = $imagick->getImageWidth(); $height = $imagick->getImageHeight(); $clipMask = new \Imagick(); $clipMask->newPseudoImage(        $width,       $height,       "canvas:transparent"    ); $draw = new \ImagickDraw(); $draw->setFillColor('white'); $draw->circle($                                              | $clipMask->drawImage($draw); $imagick->setImageClipMask($clipMask); $imagick->negateImage(false); $imagick->setFormat("png"); header("Content-Type: image/png"); echo $imagick->getImagesBlob();}?> `

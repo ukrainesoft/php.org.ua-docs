@@ -40,4 +40,4 @@ float `$blur`
 
 **Приклад #1 Приклад використання **Imagick::resampleImage()****
 
-` <?phpfunction resampleImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->resampleImage(200, 200, \Imagick::FILTER_LANCZOS, 1); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction resampleImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->resampleImage(200, 200, \Imagick::FILTER_LANCZOS, 1); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -14,7 +14,7 @@ imap_undelete — Знімає з повідомлення позначку ви
 ### Опис
 
 **imap_undelete**([IMAP\Connection](class.imap-connection.md) `$imap`,
-string `$message_nums`, int `$flags` u003d 0): bool
+string `$message_nums`, int `$flags` = 0): bool
 
 Видаляє із заданого повідомлення мітку видалення, яка була встановлена з
 за допомогою [imap_delete()](function.imap-delete.md) або
@@ -39,9 +39,9 @@ string `$message_nums`, int `$flags` u003d 0): bool
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `imap` тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Дивіться також
 

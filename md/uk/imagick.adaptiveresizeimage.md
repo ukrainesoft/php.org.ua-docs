@@ -17,8 +17,8 @@ Imagick::adaptiveResizeImage — Адаптивна зміна розміру з
 public **Imagick::adaptiveResizeImage**(
 int `$columns`,
 int `$rows`,
-bool `$bestfit` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 Адаптивна зміна розміру зображення з даними тріангуляції.
@@ -69,7 +69,7 @@ bool `$legacy` u003d **`false`**
 Зміна розмірів зображення, що зазвичай використовуються в web. Цей метод
 найкраще працює при невеликій зміні розміру.
 
-` <?phpheader('Content-type: image/jpeg');$image u003d new Imagick('image.jpg');$image->adaptiveResizeImage(1024,768);echo $image;?> `
+` <?phpheader('Content-type: image/jpeg');$image = new Imagick('image.jpg');$image->adaptiveResizeImage(1024,768);echo $image;?> `
 
 ### Дивіться також
 

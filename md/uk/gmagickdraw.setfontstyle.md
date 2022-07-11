@@ -7,7 +7,7 @@
 
 # GmagickDraw::setfontstyle
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setfontstyle — Встановлює стиль шрифту для використання
 при анотації тексту

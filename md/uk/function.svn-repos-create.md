@@ -7,14 +7,14 @@
 
 # svn_repos_create
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_repos_create — Створення нового репозиторію Subversion
 
 ### Опис
 
-**svn_repos_create**(string `$path`, array `$config` u003d ?, array
-`$fsconfig` u003d ?): resource
+**svn_repos_create**(string `$path`, array `$config` = ?, array
+`$fsconfig` = ?): resource
 
 **Увага**
 

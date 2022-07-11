@@ -7,7 +7,7 @@
 
 # EventHttpRequest::findHeader
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::findHeader — Отримує значення заголовка
 

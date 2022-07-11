@@ -7,7 +7,7 @@
 
 # GearmanJob::setReturn
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanJob::setReturn — Встановлення значення, що повертається.
 

@@ -7,7 +7,7 @@
 
 # svn_checkout
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_checkout — Отримує робочу копію з репозиторію
 
@@ -16,8 +16,8 @@ svn_checkout — Отримує робочу копію з репозиторі�
 **svn_checkout**(
 string `$repos`,
 string `$targetpath`,
-int `$revision` u003d ?,
-int `$flags` u003d 0
+int `$revision` = ?,
+int `$flags` = 0
 ): bool
 
 Отримує робочу копію з ревізією `revision` з репозиторію `repos` та

@@ -7,7 +7,7 @@
 
 #gmp_divexact
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_divexact — Поділ чисел без залишку
 
@@ -42,8 +42,8 @@ gmp_divexact — Поділ чисел без залишку
 
 **Приклад #1 Приклад використання **gmp_divexact()****
 
-` <?php$div1 u003d gmp_divexact("10", "2");echo gmp_strval($div1) . "
-";$div2 u003d gmp_divexact("10", "3"); // некоректний результатecho gmp_strval($div2) . "
+` <?php$div1 = gmp_divexact("10", "2");echo gmp_strval($div1) . "
+";$div2 = gmp_divexact("10", "3"); // некоректний результатecho gmp_strval($div2) . "
 ";?> `
 
 Результат виконання цього прикладу:

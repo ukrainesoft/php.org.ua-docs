@@ -10,7 +10,7 @@ mysqli_result
 
 # mysqli_stmt_get_result
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 mysqli_stmt::get_result -- mysqli_stmt_get_result — Отримує результат
 із підготовленого запиту у вигляді об'єкту
@@ -66,12 +66,12 @@ public **mysqli_stmt::get_result**():
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d " BY Name LIMIT 1";$stmt u003d $mysqli->prepare($query);$stmt->bind_param("s", $continent);$continentList u003d array('Europe', 'Africa', 'Asia', 'North America');foreach ($continentList as $continent) {   $stmt->execute(); $resultu003du003d$stmt->get_result(); while($row u003d $result->fetch_array(MYSQLI_NUM)) {        foreach ($row as $r) {             print| }         print "
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = " BY Name LIMIT 1";$stmt = $mysqli->prepare($query);$stmt->bind_param("s", $continent);$continentList = array('Europe', 'Africa', 'Asia', 'North America');foreach ($continentList as $continent) {   $stmt->execute(); $result==$stmt->get_result(); while($row = $result->fetch_array(MYSQLI_NUM)) {        foreach ($row as $r) {             print| }         print "
 ";    }} `
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT Name Name LIMIT 1";$stmtu003du003dmysqli_prepare($link, $query);mysqli_stmt_bind_param($stmt, "s", $continent);$continentListu003d array('Europe', 'Africa', ');foreach ($continentList as $continent) {    mysqli_stmt_execute($stmt); $result u003d mysqli_stmt_get_result($stmt); while($row u003d mysqli_fetch_array($result, MYSQLI_NUM)) {       foreach ($row as $r) {            | }         print "
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT Name Name LIMIT 1";$stmt==mysqli_prepare($link, $query);mysqli_stmt_bind_param($stmt, "s", $continent);$continentList= array('Europe', 'Africa', ');foreach ($continentList as $continent) {    mysqli_stmt_execute($stmt); $result = mysqli_stmt_get_result($stmt); while($row = mysqli_fetch_array($result, MYSQLI_NUM)) {       foreach ($row as $r) {            | }         print "
 ";    }} `
 
 Результатом виконання даних прикладів буде щось подібне:

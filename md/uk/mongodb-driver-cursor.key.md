@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::key
 
-(mongodb \>u003d1.9.0)
+(mongodb \>=1.9.0)
 
 MongoDB\Driver\Cursor::key — Повертає індекс поточного результату до
 курсорі

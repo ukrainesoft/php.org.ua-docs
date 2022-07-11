@@ -7,7 +7,7 @@
 
 # sodium_crypto_pwhash_str
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_pwhash_str — Отримати ASCII-кодований хеш
 
@@ -60,11 +60,11 @@ string; Пароль, для якого генеруватиметься хеш.
 
 **Приклад #1 Приклад використання **sodium_crypto_pwhash_str()****
 
-` <?php$password u003d 'password';echo sodium_crypto_pwhash_str(    $password,   SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,    SODIUM_CRYPTO_PIT_ML `
+` <?php$password = 'password';echo sodium_crypto_pwhash_str(    $password,   SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,    SODIUM_CRYPTO_PIT_ML `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-$argon2id$vu003d19$mu003d65536,tu003d2,pu003d1$oWIfdaXwWwhVmovOBc2NAQ$EbsZ+JnZyyavkafS0hoc4HdaOB0ILWZESAZ7kVGa+Iw
+$argon2id$v=19$m=65536,t=2,p=1$oWIfdaXwWwhVmovOBc2NAQ$EbsZ+JnZyyavkafS0hoc4HdaOB0ILWZESAZ7kVGa+Iw
 
 ### Примітки
 

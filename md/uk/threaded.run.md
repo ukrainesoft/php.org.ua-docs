@@ -7,7 +7,7 @@
 
 # Threaded::run
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::run — Виконання
 

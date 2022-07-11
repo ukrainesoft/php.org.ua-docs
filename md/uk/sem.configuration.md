@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                         | Місце зміни | Список змін    |
 | ------------------------------------------------------------- | ----------- | -------------- |
-| [sysvshm.init_mem](sem.configuration.md#ini.sysvshm.init-mem) | 10000       | PHP_INI_SYSTEM | 
+| [sysvshm.init_mem](sem.configuration.md#ini.sysvshm.init-mem) | 10000       | PHP_INI_SYSTEM |
 
 **Налаштування конфігурації семафорів**
 

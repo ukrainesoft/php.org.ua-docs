@@ -54,7 +54,7 @@
 захищає від атак, які змушують користувача використовувати заздалегідь
 відомий ID. Атакуючий може розміщувати посилання або надсилати листи,
 які містять сесійний ID. Наприклад
-http://example.com/page.php?PHPSESSIDu003d123456789 . Якщо опція
+http://example.com/page.php?PHPSESSID=123456789 . Якщо опція
 [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid)
 включена, то жертва відкриє сесію із цим ідентифікатором. Опція
 [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)
@@ -76,7 +76,7 @@ domain, path, httponly, secure та, починаючи з PHP 7.3, атрибу
 не вирішує цієї проблеми.
 [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)
 зменшує ризик.
-[session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)u003dOn,
+[session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)=On,
 не допускає використання неініціалізованих сесійних ID.
 
 > **Примітка**: Навіть при зменшенні ризику за допомогою
@@ -209,7 +209,7 @@ cookie та попередити його про можливі проблеми
 
 **Увага**
 
-Не недооцінюйте ризику DoS. `use_strict_modeu003dOn` обов'язковий для спільної
+Не недооцінюйте ризику DoS. `use_strict_mode=On` обов'язковий для спільної
 безпеки ідентифікаторів сесій! Усі сайти повинні використовувати
 `use_strict_mode`.
 
@@ -266,7 +266,7 @@ DoS-атаки. Для зменшення ризику DoS з використа
 мінімізуйте їх. Використовуйте блокування "read only", коли сесію не
 потрібно оновлювати. Використовуйте опцію 'read_and_close' з
 [session_start()](function.session-start.md).
-`session_start(['read_and_close'u003d>1]);` Закривайте сесію за допомогою
+`session_start(['read_and_close'=>1]);` Закривайте сесію за допомогою
 [session_commit()](function.session-commit.md) відразу, як тільки ви
 перестали оновлювати $\_SESSION.
 

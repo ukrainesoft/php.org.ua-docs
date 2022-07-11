@@ -7,7 +7,7 @@
 
 #pg_fetch_all
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_fetch_all — Вибирає всі дані з результату запиту та поміщає їх у
 масив
@@ -15,7 +15,7 @@ pg_fetch_all — Вибирає всі дані з результату запи
 ### Опис
 
 **pg_fetch_all**([PgSql\Result](class.pgsql-result.md) `$result`, int
-`$mode` u003d **`PGSQL_ASSOC`**): array
+`$mode` = **`PGSQL_ASSOC`**): array
 
 **pg_fetch_all()** повертає масив, що містить всі записи екземпляра
 [PgSql\Result](class.pgsql-result.md).
@@ -48,33 +48,33 @@ pg_fetch_all — Вибирає всі дані з результату запи
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.1.0  | Доданий параметр `mode`.                                                                                                                             |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 7.1.0  | Доданий параметр mode.                                                                                                                             |
 
 ### Приклади
 
 **Приклад #1 Приклад використання**
 
-` <?php$connu003du003dpg_pconnect("dbnameu003dpublisher");if(!$conn) {   echo "Відбулася помилка.
-";   exit;}$result u003d pg_query($conn, "SELECT * FROM authors");if (!$result) {   echo "Відбулася помилка.
-";   exit;}$arr u003d pg_fetch_all($result);print_r($arr);?> `
+` <?php$conn==pg_pconnect("dbname=publisher");if(!$conn) {   echo "Відбулася помилка.
+";   exit;}$result = pg_query($conn, "SELECT * FROM authors");if (!$result) {   echo "Відбулася помилка.
+";   exit;}$arr = pg_fetch_all($result);print_r($arr);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[id] u003d> 1
-[name] u003d> Fred
+[id] => 1
+[name] => Fred
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[id] u003d> 2
-[name] u003d> Bob
+[id] => 2
+[name] => Bob
 )
 
 )

@@ -9,7 +9,7 @@
 
 # IntlDatePatternGenerator::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 IntlDatePatternGenerator::create --
 IntlDatePatternGenerator::\_\_construct — Створює новий екземпляр
@@ -17,11 +17,11 @@ IntlDatePatternGenerator
 
 ### Опис
 
-public static **IntlDatePatternGenerator::create**(string `$locale` u003d
+public static **IntlDatePatternGenerator::create**(string `$locale` =
 **`null`**):
 ?[IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
-public **IntlDatePatternGenerator::\_\_construct**(string `$locale` u003d
+public **IntlDatePatternGenerator::\_\_construct**(string `$locale` =
 **`null`**)
 
 Створює новий екземпляр

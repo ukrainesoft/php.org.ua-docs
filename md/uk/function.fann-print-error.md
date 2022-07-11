@@ -7,7 +7,7 @@
 
 # fann_print_error
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_print_error — Виводить рядок помилки
 

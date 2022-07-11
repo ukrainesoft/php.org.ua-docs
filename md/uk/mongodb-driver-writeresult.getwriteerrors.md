@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteResult::getWriteErrors
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteResult::getWriteErrors — Повертає будь-які помилки
 записи, що відбулися
@@ -37,20 +37,20 @@ final public **MongoDB\Driver\WriteResult::getWriteErrors**(): array
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteResult::getWriteErrors()** з однією помилкою**
 
-` <?php$manager u003d new MongoDB\Driver\Manager;/* За мовчанням масові операції записи виконуються послідовно по порядку * і виконання припиняється після першої . */$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' u003d> 1]);$bulk->insert(['_id' u003d> 2]);$bulk->insert( ['_id' u003d> 2]);$bulk->insert(['_id' u003d> 3]);$bulk->insert(['_id' u003d> 4]);$bulk->insert([' _id' u003d> 4]);try { {   $result u003d $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\BulkWriteException $e)   | ()->getWriteErrors());}?> `
+` <?php$manager = new MongoDB\Driver\Manager;/* За мовчанням масові операції записи виконуються послідовно по порядку * і виконання припиняється після першої . */$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1]);$bulk->insert(['_id' => 2]);$bulk->insert( ['_id' => 2]);$bulk->insert(['_id' => 3]);$bulk->insert(['_id' => 4]);$bulk->insert([' _id' => 4]);try { {   $result = $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\BulkWriteException $e)   | ()->getWriteErrors());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 object(MongoDB\Driver\WriteError)#5 (4) {
-["message"]u003d>
+["message"]=>
 string(81) "E11000 duplicate key error collection: db.collection index: _id_ dup key: { : 2 }"
-["code"]u003d>
+["code"]=>
 int(11000)
-["index"]u003d>
+["index"]=>
 int(2)
-["info"]u003d>
+["info"]=>
 NULL
 }
 }
@@ -59,31 +59,31 @@ NULL
 **MongoDB\Driver\WriteResult::getWriteErrors()** з кількома
 помилками**
 
-` <?php$manager u003d new MongoDB\Driver\Manager;/* Параметр "ordered" може використовуватися для продовження * виконання масових операцій запису після першої помилки. */$bulk u003d new MongoDB\Driver\BulkWrite(['ordered' u003d>false]);$bulk->insert(['_id' u003d> 1]);$bulk->insert(['_id' u003d> 2]);$bulk->insert(['_id' u003d> 2]);$bulk->insert(['_id' u003d> 3]);$bulk->insert(['_id' u003d> 4] );$bulk->insert(['_id' u003d> 4]);try {    $result u003d $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\BulkW$ e) {   var_dump($e->getWriteResult()->getWriteErrors());}?> `
+` <?php$manager = new MongoDB\Driver\Manager;/* Параметр "ordered" може використовуватися для продовження * виконання масових операцій запису після першої помилки. */$bulk = new MongoDB\Driver\BulkWrite(['ordered' =>false]);$bulk->insert(['_id' => 1]);$bulk->insert(['_id' => 2]);$bulk->insert(['_id' => 2]);$bulk->insert(['_id' => 3]);$bulk->insert(['_id' => 4] );$bulk->insert(['_id' => 4]);try {    $result = $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\BulkW$ e) {   var_dump($e->getWriteResult()->getWriteErrors());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-[0]u003d>
+[0]=>
 object(MongoDB\Driver\WriteError)#5 (4) {
-["message"]u003d>
+["message"]=>
 string(81) "E11000 duplicate key error collection: db.collection index: _id_ dup key: { : 2 }"
-["code"]u003d>
+["code"]=>
 int(11000)
-["index"]u003d>
+["index"]=>
 int(2)
-["info"]u003d>
+["info"]=>
 NULL
 }
-[1]u003d>
+[1]=>
 object(MongoDB\Driver\WriteError)#6 (4) {
-["message"]u003d>
+["message"]=>
 string(81) "E11000 duplicate key error collection: db.collection index: _id_ dup key: { : 4 }"
-["code"]u003d>
+["code"]=>
 int(11000)
-["index"]u003d>
+["index"]=>
 int(5)
-["info"]u003d>
+["info"]=>
 NULL
 }
 }

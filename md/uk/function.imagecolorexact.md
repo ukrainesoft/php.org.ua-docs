@@ -49,24 +49,24 @@ int `$blue`
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Отримання кольорів GD логотипу**
 
-` <?php// створення зображення$im u003d imagecreatefrompng('./gdlogo.png');$colors  u003d Array();$colors[] u003d imagecolorexact($im, 255, 0, 0);$colors[] u003d imagecolorexact($im, 0, 0, 0);$colors[] u003dimagecolorexact($im, 255, 255, 255);$colors[] u003dimagecolorexact($im, 100, 255, 5 colors);// звільнення пам'ятіimagedestroy($im);?> `
+` <?php// створення зображення$im = imagecreatefrompng('./gdlogo.png');$colors  = Array();$colors[] = imagecolorexact($im, 255, 0, 0);$colors[] = imagecolorexact($im, 0, 0, 0);$colors[] =imagecolorexact($im, 255, 255, 255);$colors[] =imagecolorexact($im, 100, 255, 5 colors);// звільнення пам'ятіimagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 16711680
-[1] u003d> 0
-[2] u003d> 16777215
-[3] u003d> 6618932
+[0] => 16711680
+[1] => 0
+[2] => 16777215
+[3] => 6618932
 )
 
 ### Дивіться також

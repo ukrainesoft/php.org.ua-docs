@@ -7,7 +7,7 @@
 
 # VarnishAdmin::setParam
 
-(PECL varnish \>u003d 0.4)
+(PECL varnish \>= 0.4)
 
 VarnishAdmin::setParam — Встановити параметр конфігурації на поточному
 екземплярі varnish

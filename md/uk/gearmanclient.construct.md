@@ -7,7 +7,7 @@
 
 # GearmanClient::\_\_construct
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::\_\_construct — Створити екземпляр GearmanClient
 

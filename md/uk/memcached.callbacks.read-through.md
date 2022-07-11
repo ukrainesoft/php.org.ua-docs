@@ -20,4 +20,4 @@ Memcached і запитаний ключ, а також передається �
 
 **Приклад #1 Приклад використання**
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$profile_info u003d $m->get('user:'.$user_id, 'user_info_cb');function user_info_cb( $memc, $key, &$value){    $user_id u003d substr($key, 5); /* шукаємо необхідні дані в БД */    /* ... */    $value u003d $profile_info; return true;}?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$profile_info = $m->get('user:'.$user_id, 'user_info_cb');function user_info_cb( $memc, $key, &$value){    $user_id = substr($key, 5); /* шукаємо необхідні дані в БД */    /* ... */    $value = $profile_info; return true;}?> `

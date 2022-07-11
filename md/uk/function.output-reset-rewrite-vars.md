@@ -7,7 +7,7 @@
 
 #output_reset_rewrite_vars
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 output_reset_rewrite_vars — Скинути значення обробника URL
 
@@ -39,12 +39,12 @@ output_reset_rewrite_vars — Скинути значення обробника
 **Приклад #1 Приклад використання функції
 **output_reset_rewrite_vars()****
 
-` <?phpsession_start();output_add_rewrite_var('var', 'value');echo '<a hrefu003d"file.php">посилання</a>';ob_flush();output_reset_rewrite_vars();echo '<a hr u003d"file.php">посилання</a>';?> `
+` <?phpsession_start();output_add_rewrite_var('var', 'value');echo '<a href="file.php">посилання</a>';ob_flush();output_reset_rewrite_vars();echo '<a hr ="file.php">посилання</a>';?> `
 
 Результат виконання цього прикладу:
 
-<a hrefu003d"file.php?PHPSESSIDu003dxxx&varu003dvalue">посилання</a>
-<a hrefu003d"file.php">посилання</a>
+<a href="file.php?PHPSESSID=xxx&var=value">посилання</a>
+<a href="file.php">посилання</a>
 
 ### Дивіться також
 

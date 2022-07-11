@@ -33,14 +33,14 @@ public **ReflectionClass::getProperty**(string `$name`):
 
 **Приклад #1 Приклад використання **ReflectionClass::getProperty()****
 
-` <?php$class u003d new ReflectionClass('ReflectionClass');$property u003d $class->getProperty('name');var_dump($property);?> `
+` <?php$class = new ReflectionClass('ReflectionClass');$property = $class->getProperty('name');var_dump($property);?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionProperty)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(4) "name"
-["class"]u003d>
+["class"]=>
 string(15) "ReflectionClass"
 }
 

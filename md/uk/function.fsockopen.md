@@ -16,10 +16,10 @@ Unix
 
 **fsockopen**(
 string `$hostname`,
-int `$port` u003d -1,
-int `&$error_code` u003d **`null`**,
-string `&$error_message` u003d **`null`**,
-?float `$timeout` u003d **`null`**
+int `$port` = -1,
+int `&$error_code` = **`null`**,
+string `&$error_message` = **`null`**,
+?float `$timeout` = **`null`**
 ): resource \ | false
 
 Встановлює з'єднання із сокетом ресурсу `hostname`.
@@ -92,18 +92,18 @@ PHP підтримує цільові ресурси в інтернеті та 
 
 ### Список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 8.0.0  | `timeout` тепер допускає значення null. |
+| Версія | Опис                                  |
+| ------ | ------------------------------------- |
+| 8.0.0  | timeout тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **fsockopen()****
 
-` <?php$fp u003d fsockopen("www.example.com", 80, $errno, $errstr, 30);if (!$fp) {   echo "$errstr ($errno)<br />
-";} else {   $out u003d "GET//HTTP/1.1
-";   $out .u003d "Host: www.example.com
-";   $out .u003d "Connection: Close
+` <?php$fp = fsockopen("www.example.com", 80, $errno, $errstr, 30);if (!$fp) {   echo "$errstr ($errno)<br />
+";} else {   $out = "GET//HTTP/1.1
+";   $out .= "Host: www.example.com
+";   $out .= "Connection: Close
 
 ";   fwrite($fp, $out);   while (!feof($fp)) {        echo fgets($fp, 128);    } |
 
@@ -112,7 +112,7 @@ PHP підтримує цільові ресурси в інтернеті та 
 Приклад нижче демонструє, як отримати день і час від служби UDP
 "daytime" (порт 13) на вашій машині.
 
-` <?php$fp u003d fsockopen("udp://127.0.0.1", 13, $errno, $errstr);if (!$fp) {   echo "ERROR: $errno - $rr>
+` <?php$fp = fsockopen("udp://127.0.0.1", 13, $errno, $errstr);if (!$fp) {   echo "ERROR: $errno - $rr>
 ";} else {   fwrite($fp, "
 ");   echofread($fp, 26);   fclose($fp);}?> `
 

@@ -30,7 +30,7 @@
 
 **Приклад #1 Приклад використання пам'яті**
 
-` <?phpclass Foo{    public $var u003d '3.14159265359';}$baseMemory u003d memory_get_usage();for ( $i u003d 0; $i <u003d 10   $a->self u003d $a; if ( $i % 500 u003du003du003d 0 )   {        echo sprintf( '%8d: ', $i ), memory_get_usage() - $
+` <?phpclass Foo{    public $var = '3.14159265359';}$baseMemory = memory_get_usage();for ( $i = 0; $i <= 10   $a->self = $a; if ( $i % 500 === 0 )   {        echo sprintf( '%8d: ', $i ), memory_get_usage() - $
 ";    }}?> `
 
 ![Порівняння використання пам'яті в PHP 5.2 та PHP 5.3](images/12f37b1c6963c1c5c18f30495416a197-gc-benchmark.png)
@@ -60,7 +60,7 @@
 
 **Приклад #2 Вплив на продуктивність**
 
-` <?phpclass Foo{    public $var u003d '3.1415962654';}for ( $i u003d 0; $i <u003d 1000000; $i++ ){    |$a $a->self u003d $a;}echo memory_get_peak_usage(), "
+` <?phpclass Foo{    public $var = '3.1415962654';}for ( $i = 0; $i <= 1000000; $i++ ){    |$a $a->self = $a;}echo memory_get_peak_usage(), "
 ";?> `
 
 Ми запустимо скрипт двічі: із включеною опцією
@@ -69,9 +69,9 @@
 **Приклад #3 Запуск скрипту**
 
 `` shellcode
-time php -dzend.enable_gcu003d0 -dmemory_limitu003d-1 -n example2.php
+time php -dzend.enable_gc=0 -dmemory_limit=-1 -n example2.php
 # і
-time php -dzend.enable_gcu003d1 -dmemory_limitu003d-1 -n example2.php
+time php -dzend.enable_gc=1 -dmemory_limit=-1 -n example2.php
 ````
 
 На тестовій машині перша команда виконується приблизно 10.7 секунд, а
@@ -89,13 +89,13 @@ time php -dzend.enable_gcu003d1 -dmemory_limitu003d-1 -n example2.php
 сміття виконується у PHP. Але для цього вам необхідно перезабрати PHP
 для включення тесту продуктивності та коду для додаткового збору
 даних. Необхідно встановити змінну оточення `CFLAGS` у значення
-`-DGC_BENCHu003d1` до виконання команди `./configure` з вашими параметрами.
+`-DGC_BENCH=1` до виконання команди `./configure` з вашими параметрами.
 Наступні команди повинні спрацювати:
 
 **Приклад #4 Складання PHP для включення тесту продуктивності GC**
 
 `` shellcode
-export CFLAGSu003d-DGC_BENCHu003d1
+export CFLAGS=-DGC_BENCH=1
 ./config.nice
 make clean
 make

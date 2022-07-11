@@ -7,7 +7,7 @@
 
 # NoRewindIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::\_\_construct — Створює новий об'єкт NoRewindIterator
 
@@ -31,7 +31,7 @@ public
 Другий цикл нічого не виведе, оскільки ітератор використовується лише
 один раз і не може бути повернутий на початок.
 
-` <?php$fruit u003d array('яблуко', 'банан', 'журавлина');$arr u003d new ArrayObject($fruit);$it  u003d new NoRewindIterator($arr->getIterator());echo А:
+` <?php$fruit = array('яблуко', 'банан', 'журавлина');$arr = new ArrayObject($fruit);$it  = new NoRewindIterator($arr->getIterator());echo А:
 ";foreach( $it as $item ) {    echo $item . "
 ";}echo "Фрукт Б:
 ";foreach( $it as $item ) {    echo $item . "

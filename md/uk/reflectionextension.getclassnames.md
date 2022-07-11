@@ -31,12 +31,12 @@ public **ReflectionExtension::getClassNames**(): array
 **Приклад #1 Приклад використання
 **ReflectionExtension::getClassNames()****
 
-` <?php$ext u003d new ReflectionExtension('XMLWriter');var_dump($ext->getClassNames());?> `
+` <?php$ext = new ReflectionExtension('XMLWriter');var_dump($ext->getClassNames());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 string(9) "XMLWriter"
 }
 

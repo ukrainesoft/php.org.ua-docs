@@ -7,14 +7,14 @@
 
 #stream_set_timeout
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_set_timeout — Встановити час очікування для потоку.
 
 ### Опис
 
 **stream_set_timeout**(resource `$stream`, int `$seconds`, int
-`$microseconds` u003d 0): bool
+`$microseconds` = 0): bool
 
 Встановлює значення часу очікування в потоці `stream`, що дорівнює сумі
 параметрів `seconds` та `microseconds`.
@@ -45,10 +45,10 @@ stream_set_timeout — Встановити час очікування для �
 
 **Приклад #1 Приклад використання **stream_set_timeout()****
 
-` <?php$fp u003d fsockopen("www.example.com", 80);if (!$fp) {    echo "Неможливо відкрити сокет
+` <?php$fp = fsockopen("www.example.com", 80);if (!$fp) {    echo "Неможливо відкрити сокет
 ";} else {   fwrite($fp, "GET / HTTP/1.0
 
-");    stream_set_timeout($fp, 2);    $res u003d fread($fp, 2000);    $info u003d stream_get_meta_data($fp);    fclose($fp);    if ($info['timed_out']) {        echo ' Закінчився час з'єднання!';
+");    stream_set_timeout($fp, 2);    $res = fread($fp, 2000);    $info = stream_get_meta_data($fp);    fclose($fp);    if ($info['timed_out']) {        echo ' Закінчився час з'єднання!';
 
 ### Примітки
 

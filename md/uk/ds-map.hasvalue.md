@@ -7,7 +7,7 @@
 
 # Ds\Map::hasValue
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::hasValue — Перевіряє, чи колекція містить задане значення
 
@@ -32,7 +32,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::hasValue()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->hasValue(1)); // Truevar_dump ($ map-> has Value (4)); // false?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->hasValue(1)); // Truevar_dump ($ map-> has Value (4)); // false?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

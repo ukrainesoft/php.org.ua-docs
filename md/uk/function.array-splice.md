@@ -16,9 +16,9 @@ array_splice — Видаляє частину масиву і замінює ї
 **array_splice**(
 array `&$array`,
 int `$offset`,
-?int `$length` u003d **`null`**,
+?int `$length` = **`null`**,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$replacement` u003d []
+`$replacement` = []
 ): array
 
 Видаляє `length` елементів, розташованих на відстані `offset` з
@@ -87,46 +87,46 @@ int `$offset`,
 
 ### Список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 8.0.0  | `length` тепер припускає значення null. |
+| Версія | Опис                                  |
+| ------ | ------------------------------------- |
+| 8.0.0  | length тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклади використання **array_splice()****
 
-` <?php$input u003d array("red", "green", "blue", "yellow");array_splice($input, 2);var_dump($input);$input u003d array("red", " green", "blue", "yellow");array_splice($input, 1, -1);var_dump($input);$input u003d array("red", "green", "blue", "yellow") ;array_splice($input, 1, count($input), "orange");var_dump($input);$input u003d array("red", "green", "blue", "yellow");array_splice($ input, -1, 1, array("black", "maroon"));var_dump($input);?> `
+` <?php$input = array("red", "green", "blue", "yellow");array_splice($input, 2);var_dump($input);$input = array("red", " green", "blue", "yellow");array_splice($input, 1, -1);var_dump($input);$input = array("red", "green", "blue", "yellow") ;array_splice($input, 1, count($input), "orange");var_dump($input);$input = array("red", "green", "blue", "yellow");array_splice($ input, -1, 1, array("black", "maroon"));var_dump($input);?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "red"
-[1]u003d>
+[1]=>
 string(5) "green"
 }
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "red"
-[1]u003d>
+[1]=>
 string(6) "yellow"
 }
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "red"
-[1]u003d>
+[1]=>
 string(6) "orange"
 }
 array(5) {
-[0]u003d>
+[0]=>
 string(3) "red"
-[1]u003d>
+[1]=>
 string(5) "green"
-[2]u003d>
+[2]=>
 string(4) "blue"
-[3]u003d>
+[3]=>
 string(5) "black"
-[4]u003d>
+[4]=>
 string(6) "maroon"
 }
 
@@ -134,7 +134,7 @@ string(6) "maroon"
 
 Наступні вирази еквівалентні:
 
-` <?php// додати два елемента в $inputarray_push($input, $x, $y);array_splice($input, count($input), 0, array($x, $y));//  видалити елемент із $inputarray_pop($input);array_splice($input, -1);// видалити перший елемент із $inputarray_shift($input);array_splice($input, 0, 1) $input, $x, $y);array_splice($input, 0, 0, array($x, $y));// замінити в $input елемент з індексом $x на значення $y$input[$x] u003d$y; // для масивів, де ключ рівний зміщенняarray_splice($input, $x, 1, $y);?> `
+` <?php// додати два елемента в $inputarray_push($input, $x, $y);array_splice($input, count($input), 0, array($x, $y));//  видалити елемент із $inputarray_pop($input);array_splice($input, -1);// видалити перший елемент із $inputarray_shift($input);array_splice($input, 0, 1) $input, $x, $y);array_splice($input, 0, 0, array($x, $y));// замінити в $input елемент з індексом $x на значення $y$input[$x] =$y; // для масивів, де ключ рівний зміщенняarray_splice($input, $x, 1, $y);?> `
 
 ### Дивіться також
 

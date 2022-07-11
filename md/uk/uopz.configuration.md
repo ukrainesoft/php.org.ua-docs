@@ -9,11 +9,11 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                      | Місце зміни | Список змін    |
-| ---------------------------------------------------------- | ----------- | -------------- |
-| [uopz.disable](uopz.configuration.md#ini.uopz.disable)     | "0"         | PHP_INI_SYSTEM | Доступно з uopz 5.0.2 
-| [uopz.exit](uopz.configuration.md#ini.uopz.exit)           | "0"         | PHP_INI_SYSTEM | Доступно з uopz 6.0.1 
-| [uopz.overloads](uopz.configuration.md#ini.uopz.overloads) | "1"         | PHP_INI_SYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. 
+| Ім'я За замовчуванням                                      | Місце зміни | Список змін    |                                               |
+| ---------------------------------------------------------- | ----------- | -------------- | --------------------------------------------- |
+| [uopz.disable](uopz.configuration.md#ini.uopz.disable)     | "0"         | PHP_INI_SYSTEM | Доступно з uopz 5.0.2                         |
+| [uopz.exit](uopz.configuration.md#ini.uopz.exit)           | "0"         | PHP_INI_SYSTEM | Доступно з uopz 6.0.1                         |
+| [uopz.overloads](uopz.configuration.md#ini.uopz.overloads) | "1"         | PHP_INI_SYSTEM | Доступно з uopz 2.0.2. Видалено з uopz 5.0.0. |
 
 **uopz Опції налаштування**
 
@@ -36,4 +36,4 @@
 
 > **Примітка**: Під час роботи з увімкненим OPcache може знадобитися
 > вимкнути все [оптимізація > OPcache](opcache.configuration.md#ini.opcache.optimization-level)
-> (`opcache.optimization_levelu003d0`).
+> (`opcache.optimization_level=0`).

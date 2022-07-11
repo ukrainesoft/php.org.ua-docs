@@ -7,7 +7,7 @@
 
 # OAuth::disableDebug
 
-(PECL OAuth u003d 0.99.3)
+(PECL OAuth = 0.99.3)
 
 OAuth::disableDebug — Вимкнути детальну налагоджувальну інформацію
 

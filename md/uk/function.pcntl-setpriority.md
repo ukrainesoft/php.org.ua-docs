@@ -13,8 +13,8 @@ pcntl_setpriority — Змінити пріоритет процесу
 
 ### Опис
 
-**pcntl_setpriority**(int `$priority`, ?int `$process_id` u003d **`null`**,
-int `$mode` u003d **`PRIO_PROCESS`**): bool
+**pcntl_setpriority**(int `$priority`, ?int `$process_id` = **`null`**,
+int `$mode` = **`PRIO_PROCESS`**): bool
 
 **pcntl_setpriority()** визначає пріоритет процесу, зазначеному в
 аргумент "process_id".
@@ -44,9 +44,9 @@ int `$mode` u003d **`PRIO_PROCESS`**): bool
 
 ### Список змін
 
-| Версія | Опис                                       |
-| ------ | ------------------------------------------ |
-| 8.0.0  | `process_id` тепер допускає значення null. |
+| Версія | Опис                                     |
+| ------ | ---------------------------------------- |
+| 8.0.0  | process_id тепер допускає значення null. |
 
 ### Дивіться також
 

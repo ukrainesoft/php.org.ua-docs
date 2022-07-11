@@ -17,7 +17,7 @@ odbc_pconnect — Відкриває постійне з'єднання з ба�
 string `$dsn`,
 string `$user`,
 string `$password`,
-int `$cursor_option` u003d **`SQL_CUR_USE_DRIVER`**
+int `$cursor_option` = **`SQL_CUR_USE_DRIVER`**
 ): resource \ | false
 
 Відкриває постійне підключення до бази даних.

@@ -7,13 +7,13 @@
 
 # SoapClient::\_\_setCookie
 
-(PHP 5 \>u003d 5.0.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.4, PHP 7, PHP 8)
 
 SoapClient::\_\_setCookie — Встановлює cookie для запитів SOAP
 
 ### Опис
 
-public **SoapClient::\_\_setCookie**(string `$name`, ?string `$value` u003d
+public **SoapClient::\_\_setCookie**(string `$name`, ?string `$value` =
 **`null`**): void
 
 Визначає cookie, які будуть надіслані із SOAP-запитами.
@@ -37,6 +37,6 @@ public **SoapClient::\_\_setCookie**(string `$name`, ?string `$value` u003d
 
 ### Список змін
 
-| Версія | Опис                                  |
-| ------ | ------------------------------------- |
-| 8.0.0  | `value` тепер допускає значення null. |
+| Версія | Опис                                |
+| ------ | ----------------------------------- |
+| 8.0.0  | value тепер допускає значення null. |

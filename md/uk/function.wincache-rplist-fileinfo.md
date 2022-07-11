@@ -7,14 +7,14 @@
 
 #wincache_rplist_fileinfo
 
-(PECL wincache \>u003d 1.0.0)
+(PECL wincache \>= 1.0.0)
 
 wincache_rplist_fileinfo — Отримує інформацію про дозвіл кеша шляху до
 файлу дозволу
 
 ### Опис
 
-**wincache_rplist_fileinfo**(bool `$summaryonly` u003d **`false`**):
+**wincache_rplist_fileinfo**(bool `$summaryonly` = **`false`**):
 array\|false
 
 Отримує інформацію про закешовані зіставлення між відносними
@@ -50,16 +50,16 @@ array\|false
 
 Array
 (
-[total_file_count] u003d> 5
-[rplist_entries] u003d> Array
+[total_file_count] => 5
+[rplist_entries] => Array
 (
-[1] u003d> Array
+[1] => Array
 (
-[resolve_path] u003d> checkcache.php
-[subkey_data] u003d> c:\inetpub\wwwroot|c:\inetpub\wwwroo
+[resolve_path] => checkcache.php
+[subkey_data] => c:\inetpub\wwwroot|c:\inetpub\wwwroo
 )
 
-[2] u003d> Array (...iterates for each cached file)
+[2] => Array (...iterates for each cached file)
 )
 )
 

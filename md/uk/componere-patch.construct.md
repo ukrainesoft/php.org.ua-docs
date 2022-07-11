@@ -7,7 +7,7 @@
 
 # Componere\Patch::\_\_construct
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Patch::\_\_construct - Конструктор класу Patch
 

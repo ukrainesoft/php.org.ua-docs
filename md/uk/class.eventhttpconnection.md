@@ -7,7 +7,7 @@
 
 # Клас EventHttpConnection
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 ## Вступ
 
@@ -24,7 +24,7 @@ public [\_\_construct](eventhttpconnection.construct.md)(
 [EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
 string `$address` ,
 int `$port` ,
-[EventSslContext](class.eventsslcontext.md) `$ctx` u003d **`null`**
+[EventSslContext](class.eventsslcontext.md) `$ctx` = **`null`**
 
 )
 
@@ -41,7 +41,7 @@ string `$uri`): bool
 public [setCloseCallback](eventhttpconnection.setclosecallback.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?): void
+`$data` = ?): void
 
 public [setLocalAddress](eventhttpconnection.setlocaladdress.md)(
 string `$address` ): void

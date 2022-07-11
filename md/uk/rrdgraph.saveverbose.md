@@ -8,7 +8,7 @@
 
 # RRDGraph::saveVerbose
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDGraph::saveVerbose — Зберігає запит до бази даних RRD у зображення
 та повертає докладну інформацію про згенерований графік

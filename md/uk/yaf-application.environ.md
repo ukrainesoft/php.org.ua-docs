@@ -7,7 +7,7 @@
 
 # Yaf_Application::environ
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::environ — Отримати значення оточення
 
@@ -28,7 +28,7 @@ public **Yaf_Application::environ**(): void
 
 **Приклад #1 Приклад використання **Yaf_Application::environ()****
 
-`<?php$config u003d array(   ""application" u003d> array(       "directory" u003d>>realpath(dirname(__FILE__)) . "/application", Y $config);print_r($application->environ());?> `
+`<?php$config = array(   ""application" => array(       "directory" =>>realpath(dirname(__FILE__)) . "/application", Y $config);print_r($application->environ());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

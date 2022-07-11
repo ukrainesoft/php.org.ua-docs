@@ -7,7 +7,7 @@
 
 # GmagickDraw::rotate
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::rotate — Застосовує вказаний поворот до поточного
 координатному простору

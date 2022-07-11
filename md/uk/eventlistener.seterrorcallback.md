@@ -7,7 +7,7 @@
 
 # EventListener::setErrorCallback
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventListener::setErrorCallback — Встановлює callback-функцію помилки
 слухача подій
@@ -23,10 +23,10 @@ public **EventListener::setErrorCallback**( string `$cb` ): void
 `cb`
 Callback-функція помилки. Повинна відповідати наступному прототипу:
 
-**callback**( [EventListener](class.eventlistener.md) `$listener` u003d
+**callback**( [EventListener](class.eventlistener.md) `$listener` =
 **`null`** ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ): void
+`$data` = **`null`** ): void
 
 `listener`
 Об'єкт [EventListener](class.eventlistener.md).

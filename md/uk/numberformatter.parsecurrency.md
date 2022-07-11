@@ -9,7 +9,7 @@
 
 #numfmt_parse_currency
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::parseCurrency -- numfmt_parse_currency -- Розбирає
 номер валюти
@@ -19,7 +19,7 @@ NumberFormatter::parseCurrency -- numfmt_parse_currency -- Розбирає
 Об'єктно-орієнтований стиль
 
 public **NumberFormatter::parseCurrency**(string `$string`, string
-`&$currency`, int `&$offset` u003d **`null`**): float\|false
+`&$currency`, int `&$offset` = **`null`**): float\|false
 
 Процедурний стиль
 
@@ -27,7 +27,7 @@ public **NumberFormatter::parseCurrency**(string `$string`, string
 [NumberFormatter](class.numberformatter.md) `$formatter`,
 string `$string`,
 string `&$currency`,
-int `&$offset` u003d **`null`**
+int `&$offset` = **`null`**
 ): float\|false
 
 Розбирає рядок на число з плаваючою точкою та валюту за допомогою засобу
@@ -56,12 +56,12 @@ int `&$offset` u003d **`null`**
 
 **Приклад #1 Приклад використання **numfmt_parse_currency()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::CURRENCY );$num u003d "1.234.567,89\xc2\xa0$";echo "У нас ".$$ curr)." в $curr
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );$num = "1.234.567,89\xc2\xa0$";echo "У нас ".$$ curr)." в $curr
 ";?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );$num u003d "1.234.567,89\xc2\xa0$";echo "У нас >$. , $curr)." в $curr
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );$num = "1.234.567,89\xc2\xa0$";echo "У нас >$. , $curr)." в $curr
 ";?> `
 
 Результат виконання цього прикладу:

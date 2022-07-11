@@ -7,7 +7,7 @@
 
 #imagecreatefromgd
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromgd — Створення нового зображення на основі файлу GD або
 URL
@@ -48,7 +48,7 @@ URL
 
 **Приклад #1 Приклад використання **imagecreatefromgd()****
 
-` <?php// завантаження зображення$im u003d @imagecreatefromgd('./test.gd');// перевірка, завантажилося або зображенняif(!$im){     die('Не удалося завантажити } Операції з зображенням можна здійснити тут// Збереження зображенняimagegd($im, './test_updated.gd');imagedestroy($im);?> `
+` <?php// завантаження зображення$im = @imagecreatefromgd('./test.gd');// перевірка, завантажилося або зображенняif(!$im){     die('Не удалося завантажити } Операції з зображенням можна здійснити тут// Збереження зображенняimagegd($im, './test_updated.gd');imagedestroy($im);?> `
 
 ### Примітки
 

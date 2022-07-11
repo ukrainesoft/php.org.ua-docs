@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням | Місце зміни | Список змін    |
 | --------------------- | ----------- | -------------- |
-| openssl.cafile        | ""          | PHP_INI_PERDIR | 
-| openssl.capath        | ""          | PHP_INI_PERDIR | 
+| openssl.cafile        | ""          | PHP_INI_PERDIR |
+| openssl.capath        | ""          | PHP_INI_PERDIR |
 
 **Опції налаштування openssl**
 

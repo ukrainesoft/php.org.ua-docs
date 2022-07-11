@@ -7,7 +7,7 @@
 
 #gmp_sqrtrem
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_sqrtrem — Квадратний корінь із залишком
 
@@ -35,7 +35,7 @@ gmp_sqrtrem — Квадратний корінь із залишком
 
 **Приклад #1 Приклад використання **gmp_sqrtrem()****
 
-` <?phplist($sqrt1, $sqrt1rem) u003d gmp_sqrtrem("9");list($sqrt2, $sqrt2rem) u003d gmp_sqrtrem("7");list($sqrt3, $sqrt3rem)'8 ;echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "
+` <?phplist($sqrt1, $sqrt1rem) = gmp_sqrtrem("9");list($sqrt2, $sqrt2rem) = gmp_sqrtrem("7");list($sqrt3, $sqrt3rem)'8 ;echo gmp_strval($sqrt1) . ", " . gmp_strval($sqrt1rem) . "
 ";echo gmp_strval($sqrt2) . ", " . gmp_strval($sqrt2rem) . "
 ";echo gmp_strval($sqrt3) . ", " . gmp_strval($sqrt3rem) . "
 ";?> `

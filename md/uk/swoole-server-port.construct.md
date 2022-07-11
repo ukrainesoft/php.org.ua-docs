@@ -7,7 +7,7 @@
 
 # Swoole\Server\Port::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server\Port::\_\_construct — Створює порт сервера
 

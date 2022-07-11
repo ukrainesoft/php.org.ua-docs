@@ -38,13 +38,13 @@ public static **IntlChar::getUnicodeVersion**(): array
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 int(7)
-[1]u003d>
+[1]=>
 int(0)
-[2]u003d>
+[2]=>
 int(0)
-[3]u003d>
+[3]=>
 int(0)
 }
 

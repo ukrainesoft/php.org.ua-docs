@@ -7,7 +7,7 @@
 
 # Yar_Client::setOpt
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Client::setOpt — Задати контекст дзвінка
 
@@ -35,7 +35,7 @@ YAR_OPT_CONNECT_TIMEOUT, YAR_OPT_HEADER (Доступно з версії 2.0.4)
 
 **Приклад #1 Приклад використання **Yar_Client::setOpt()****
 
-` <?php$cient u003d new Yar_Client("http://host/api/");//Встановимо час очікування на 1 секунду$client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000);//Установимо > SetOpt(YAR_OPT_PACKAGER, "json");//Встановимо власний заголовок$client->SetOpt(YAR_OPT_HEADER, array("hr1: val1", hd2: val2");/* викликаємо$ ->some_method("parameter");?> `
+` <?php$cient = new Yar_Client("http://host/api/");//Встановимо час очікування на 1 секунду$client->SetOpt(YAR_OPT_CONNECT_TIMEOUT, 1000);//Установимо > SetOpt(YAR_OPT_PACKAGER, "json");//Встановимо власний заголовок$client->SetOpt(YAR_OPT_HEADER, array("hr1: val1", hd2: val2");/* викликаємо$ ->some_method("parameter");?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

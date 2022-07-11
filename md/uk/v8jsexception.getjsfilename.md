@@ -7,7 +7,7 @@
 
 # V8JsException::getJsFileName
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 V8JsException::getJsFileName — Отримати ім'я файлу JavaScript
 

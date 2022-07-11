@@ -7,7 +7,7 @@
 
 #mailparse_determine_best_xfer_encoding
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_determine_best_xfer_encoding — Визначити найкращий шлях
 декодування
@@ -34,7 +34,7 @@ mailparse_determine_best_xfer_encoding — Визначити найкращий
 **Приклад #1 Приклад використання
 **mailparse_determine_best_xfer_encoding()****
 
-` <?php$fp u003d fopen('somemail.eml', 'r');echo 'Best encoding: ' . mailparse_determine_best_xfer_encoding($fp);?> `
+` <?php$fp = fopen('somemail.eml', 'r');echo 'Best encoding: ' . mailparse_determine_best_xfer_encoding($fp);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

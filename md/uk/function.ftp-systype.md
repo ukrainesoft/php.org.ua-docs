@@ -30,15 +30,15 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_systype()****
 
-` <?php// установка з'єднання$ftp u003d ftp_connect('ftp.example.com');ftp_login($ftp, 'user', 'password');// отримання типу системиif ($type u003d ftp_systype($ft ) {    echo "example.com використовує $type
+` <?php// установка з'єднання$ftp = ftp_connect('ftp.example.com');ftp_login($ftp, 'user', 'password');// отримання типу системиif ($type = ftp_systype($ft ) {    echo "example.com використовує $type
 ";} else {    echo "Не удалося визначити тип системи";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

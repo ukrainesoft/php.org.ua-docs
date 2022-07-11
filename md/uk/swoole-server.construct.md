@@ -7,7 +7,7 @@
 
 # Swoole\Server::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::\_\_construct — Створює сервер Swoole
 
@@ -15,9 +15,9 @@ Swoole\Server::\_\_construct — Створює сервер Swoole
 
 public **Swoole\Server::\_\_construct**(
 string `$host`,
-int `$port` u003d ?,
-int `$mode` u003d ?,
-int `$sock_type` u003d ?
+int `$port` = ?,
+int `$mode` = ?,
+int `$sock_type` = ?
 )
 
 ### Список параметрів

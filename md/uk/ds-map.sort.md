@@ -7,14 +7,14 @@
 
 # Ds\Map::sort
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::sort — Сортує колекцію за значеннями
 
 ### Опис
 
 public **Ds\Map::sort**([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 Сортує колекцію за значеннями, необов'язково використовуючи
 callback-функцію `comparator`.
@@ -45,28 +45,28 @@ float, буде приведено до цілої кількості (int). О�
 
 **Приклад #1 Приклад використання **Ds\Map::sort()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 2, "b" u003d> 3, c" u003d> 1]);$map->sort();print_r($map) ;?> `
+` <?php$map = new \Ds\Map(["a" => 2, "b" => 3, c" => 1]);$map->sort();print_r($map) ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 1
+[key] => c
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 2
+[key] => a
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 3
+[key] => b
+[value] => 3
 )
 
 )
@@ -74,28 +74,28 @@ Ds\Map Object
 **Приклад #2 Приклад використання **Ds\Map::sort()** з callback-функцією
 порівняння**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 2, "b" u003d> 3, "c" u003d> 1]);$map->sort(function($a, $b ) {    return $b <u003d>$a;});print_r($map);?> `
+` <?php$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);$map->sort(function($a, $b ) {    return $b <=>$a;});print_r($map);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 3
+[key] => b
+[value] => 3
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 2
+[key] => a
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 1
+[key] => c
+[value] => 1
 )
 
 )

@@ -10,7 +10,7 @@
 
 # intltz_create_time_zone_id_enumeration
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlTimeZone::createTimeZoneIDEnumeration --
 intltz_create_time_zone_id_enumeration — Отримати перелік з
@@ -21,13 +21,13 @@ intltz_create_time_zone_id_enumeration — Отримати перелік з
 Об'єктно-орієнтований стиль (метод):
 
 public static **IntlTimeZone::createTimeZoneIDEnumeration**(int `$type`,
-?string `$region` u003d **`null`**, ?int `$rawOffset` u003d **`null`**):
+?string `$region` = **`null`**, ?int `$rawOffset` = **`null`**):
 [IntlIterator](class.intliterator.md)\|false
 
 Процедурний стиль:
 
 **intltz_create_time_zone_id_enumeration**(int `$type`, ?string
-`$region` u003d **`null`**, ?int `$rawOffset` u003d **`null`**):
+`$region` = **`null`**, ?int `$rawOffset` = **`null`**):
 [IntlIterator](class.intliterator.md)\|false
 
 **Увага**

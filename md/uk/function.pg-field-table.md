@@ -8,7 +8,7 @@
 
 #pg_field_table
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 pg_field_table — Повертає назву або ідентифікатор таблиці,
 містить задане поле
@@ -16,7 +16,7 @@ pg_field_table — Повертає назву або ідентифікатор
 ### Опис
 
 **pg_field_table**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$field`, bool `$oid_only` u003d **`false`**): string\|int\|false
+int `$field`, bool `$oid_only` = **`false`**): string\|int\|false
 
 **pg_field_table()** повертає ім'я таблиці, якій належить
 задане поле. Якщо як аргумент `oid_only` передається
@@ -45,15 +45,15 @@ int `$field`, bool `$oid_only` u003d **`false`**): string\|int\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поле вибірки**
 
-` <?php$dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося з'єднатися з базою");$res u003d pg_query($dbconn, "SELECT bar FROM foo"); );echo pg_field_table($res, 0, true);$res u003d pg_query($dbconn, "SELECT version()");var_dump(pg_field_table($res, 0));?> `
+` <?php$dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою");$res = pg_query($dbconn, "SELECT bar FROM foo"); );echo pg_field_table($res, 0, true);$res = pg_query($dbconn, "SELECT version()");var_dump(pg_field_table($res, 0));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

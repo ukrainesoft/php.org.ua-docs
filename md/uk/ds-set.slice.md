@@ -7,13 +7,13 @@
 
 # Ds\Set::slice
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::slice — Повертає набір із заданого діапазону
 
 ### Опис
 
-public **Ds\Set::slice**(int `$index`, int `$length` u003d ?):
+public **Ds\Set::slice**(int `$index`, int `$length` = ?):
 [Ds\Set](class.ds-set.md)
 
 Повертає піднабір з діапазону, заданого початковим індексом `index` та
@@ -43,37 +43,37 @@ public **Ds\Set::slice**(int `$index`, int `$length` u003d ?):
 
 **Приклад #1 Приклад використання **Ds\Set::slice()****
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c", "d", "e"]);// Поднабір з індексу 2print_r($set->slice(2 ) ); ($set->slice(-2));// Поднабір від індексу 1 з початку до індексу 1 з кінцяprint_r($set->slice(1, -1));?> `
+` <?php$set = new \Ds\Set(["a", "b", "c", "d", "e"]);// Поднабір з індексу 2print_r($set->slice(2 ) ); ($set->slice(-2));// Поднабір від індексу 1 з початку до індексу 1 з кінцяprint_r($set->slice(1, -1));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Set Object
 (
-[0] u003d> c
-[1] u003d> d
-[2] u003d> e
+[0] => c
+[1] => d
+[2] => e
 )
 Ds\Set Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )
 Ds\Set Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> e
+[0] => b
+[1] => c
+[2] => d
+[3] => e
 )
 Ds\Set Object
 (
-[0] u003d> d
-[1] u003d> e
+[0] => d
+[1] => e
 )
 Ds\Set Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )

@@ -8,7 +8,7 @@
 
 #readline_callback_handler_remove
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 readline_callback_handler_remove — Видаляє зареєстровану раніше
 callback-функцію та відновлює термінал

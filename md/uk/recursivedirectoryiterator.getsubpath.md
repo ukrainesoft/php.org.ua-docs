@@ -7,7 +7,7 @@
 
 # RecursiveDirectoryIterator::getSubPath
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveDirectoryIterator::getSubPath — Повертає шлях до піддиректорії
 
@@ -30,7 +30,7 @@ public **RecursiveDirectoryIterator::getSubPath**(): string
 
 **Приклад #1 Приклад використання **getSubPath()****
 
-` $directory u003d '/tmp'; $it u003d new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory)); foreach ($it as $file) {          echo 'Ім'я файлу: ' . $it->getSubPathName() . "
+` $directory = '/tmp'; $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory)); foreach ($it as $file) {          echo 'Ім'я файлу: ' . $it->getSubPathName() . "
 ";          echo 'Піддиректорія: ' . $it->getSubPath() . "
 
 ";      }`

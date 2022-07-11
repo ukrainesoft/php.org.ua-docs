@@ -14,14 +14,14 @@
 подібний порядок параметрів оголошений застарілим і можливо
 виправлено шляхом видалення значення за замовчуванням:
 
-` <?phpfunction test($a u003d [], $b) {} // Доfunction test($a, $b) {}      // Після?> `
+` <?phpfunction test($a = [], $b) {} // Доfunction test($a, $b) {}      // Після?> `
 
 Одним із винятків із цього правила є параметри виду
-`Type $param u003d null`, де значення за замовчуванням null робить тип
+`Type $param = null`, де значення за замовчуванням null робить тип
 неявно обнулюваним. Це поки що дозволено, але натомість краще
 рекомендується використовувати явний тип nullable:
 
-` <?phpfunction test(A$$a u003d null, $b) {} // Як раніше дозволеноfunction test(?A $a, $b) {}        // Рекомендується?>
+` <?phpfunction test(A$$a = null, $b) {} // Як раніше дозволеноfunction test(?A $a, $b) {}        // Рекомендується?>
 
 - Виклик [get_defined_functions()](function.get-defined-functions.md)
 з явно заданим значенням **`false`** у `exclude_disabled` застарів і
@@ -116,7 +116,7 @@
 можливості, тому їх слід переписати, щоб вони повертали
 ціле число менше, рівне або більше нуля.
 
-` <?php// Замінити подібний код:usort($array, fn($a, $b) u003d> $a > $b);// На цей:usort($array, fn($a, $b) u003d> $a <u003d> $b);?> `
+` <?php// Замінити подібний код:usort($array, fn($a, $b) => $a > $b);// На цей:usort($array, fn($a, $b) => $a <=> $b);?> `
 
 ### Zip
 
@@ -130,7 +130,7 @@ Libzip 1.6.0 більше не працює із порожніми zip-архі
 [ZipArchive::statIndex()](ziparchive.statindex.md) та циклу
 [for](control-structures.for.md):
 
-` <?php// ітерація з використанням процедурного APIassert(is_resource($zip));while ($entry u003d zip_read($zip)) {   echo zip_entry_name($entry);}//   zip instanceof ZipArchive);for ($i u003d 0; $entry u003d $zip->statIndex($i); $i++) {    echo $entry['name'];}?> `
+` <?php// ітерація з використанням процедурного APIassert(is_resource($zip));while ($entry = zip_read($zip)) {   echo zip_entry_name($entry);}//   zip instanceof ZipArchive);for ($i = 0; $entry = $zip->statIndex($i); $i++) {    echo $entry['name'];}?> `
 
 ### Reflection
 

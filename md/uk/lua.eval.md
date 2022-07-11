@@ -7,7 +7,7 @@
 
 # Lua::eval
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::eval — Розбирає рядок як код Lua
 
@@ -34,7 +34,7 @@ public **Lua::eval**(string `$statements`):
 
 **Приклад #1 Приклад використання **Lua::eval()****
 
-` <?php$lua u003d new Lua();$lua->eval(<<<CODE    print(2);CODE);?> `
+` <?php$lua = new Lua();$lua->eval(<<<CODE    print(2);CODE);?> `
 
 Результат виконання цього прикладу:
 

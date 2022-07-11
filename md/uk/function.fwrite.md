@@ -13,7 +13,7 @@ fwrite — Бінарно-безпечний запис у файл
 
 ### Опис
 
-**fwrite**(resource `$stream`, string `$data`, ?int `$length` u003d
+**fwrite**(resource `$stream`, string `$data`, ?int `$length` =
 **`null`**): int\|false
 
 **fwrite()** записує вміст `data` у файловий потік `stream`.
@@ -39,16 +39,16 @@ fwrite — Бінарно-безпечний запис у файл
 
 ### Список змін
 
-| Версія | Опис                                                  |
-| ------ | ----------------------------------------------------- |
-| 8.0.0  | Параметр `length` тепер допускає значення **`null`**. |
+| Версія | Опис                                              |
+| ------ | ------------------------------------------------- |
+| 8.0.0  | Параметр length тепер допускає значення **null**. |
 
 ### Приклади
 
 **Приклад #1 Простий приклад використання **fwrite()****
 
-` <?php$filename u003d 'test.txt';$somecontent u003d "Додати це до файлу
-";// Вначале давайте убедимся, что файл существует и доступен для записи.if (is_writable($filename)) {    // В нашем примере мы открываем $filename в режиме "записи в конец".    // Таким образом, смещение установлено в конец файла и    // наш $somecontent допишется в конец при использовании fwrite().    if (!$fp u003d fopen($filename, 'a')) {         echo "Не могу открыть файл ($filename)";         exit;    }    / / Записываем $somecontent в наш открытый файл.    if (fwrite($fp, $somecontent) u003du003du003d FALSE) {        echo "Не могу произвести запись в файл ($filename)";        exit;    }    echo "Ура! Записали ($somecontent) в файл ($filename)";   fclose($fp);} else {    echo "Файл $filename недоступний для запису";}?> ``
+` <?php$filename = 'test.txt';$somecontent = "Додати це до файлу
+";// Вначале давайте убедимся, что файл существует и доступен для записи.if (is_writable($filename)) {    // В нашем примере мы открываем $filename в режиме "записи в конец".    // Таким образом, смещение установлено в конец файла и    // наш $somecontent допишется в конец при использовании fwrite().    if (!$fp = fopen($filename, 'a')) {         echo "Не могу открыть файл ($filename)";         exit;    }    / / Записываем $somecontent в наш открытый файл.    if (fwrite($fp, $somecontent) === FALSE) {        echo "Не могу произвести запись в файл ($filename)";        exit;    }    echo "Ура! Записали ($somecontent) в файл ($filename)";   fclose($fp);} else {    echo "Файл $filename недоступний для запису";}?> ``
 
 ### Примітки
 
@@ -58,7 +58,7 @@ fwrite — Бінарно-безпечний запис у файл
 > усі дані. Це можна контролювати за допомогою перевірки повертається
 > значення функції **fwrite()**:
 >
-> ` <?phpfunction fwrite_stream($fp, $string) {    for ($written u003d 0; $written < strlen($string); $written +u003d $fwrite) { $$ , $written)); if ($fwrite u003du003du003du003dfalse) {            return $written; }    }   return $written;}?> `
+> ` <?phpfunction fwrite_stream($fp, $string) {    for ($written = 0; $written < strlen($string); $written += $fwrite) { $$ , $written)); if ($fwrite ====false) {            return $written; }    }   return $written;}?> `
 
 > **Примітка**:
 >
@@ -82,7 +82,7 @@ fwrite — Бінарно-безпечний запис у файл
 > При повторному запису файлового покажчика, дані будуть додані в
 > кінець вмісту файлу:
 >
-> ` <?php$fp u003d fopen('data.txt', 'w');fwrite($fp, '1');fwrite($fp, '23');fclose($fp);// вміст 'data.txt' тепер 123, а не 23!?> `
+> ` <?php$fp = fopen('data.txt', 'w');fwrite($fp, '1');fwrite($fp, '23');fclose($fp);// вміст 'data.txt' тепер 123, а не 23!?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # imagescale
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 imagescale — Масштабувати зображення за заданою шириною та висотою
 
@@ -16,8 +16,8 @@ imagescale — Масштабувати зображення за заданою
 **imagescale**(
 [GdImage](class.gdimage.md) `$image`,
 int `$width`,
-int `$height` u003d -1,
-int `$mode` u003d **`IMG_BILINEAR_FIXED`**
+int `$height` = -1,
+int `$mode` = **`IMG_BILINEAR_FIXED`**
 ): [GdImage](class.gdimage.md)\|false
 
 **imagescale()** масштабує зображення, використовуючи заданий алгоритм
@@ -60,7 +60,7 @@ int `$mode` u003d **`IMG_BILINEAR_FIXED`**
 | Версія | Опис                                                                                                                           |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                 |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                   |
 
 ### Дивіться також
 

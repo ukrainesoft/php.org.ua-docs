@@ -7,13 +7,13 @@
 
 # SplFileInfo::getBasename
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 SplFileInfo::getBasename — Отримує базове ім'я файлу
 
 ### Опис
 
-public **SplFileInfo::getBasename**(string `$suffix` u003d ""): string
+public **SplFileInfo::getBasename**(string `$suffix` = ""): string
 
 Цей метод повертає базове ім'я файлу, каталогу чи посилання без
 інформації про шлях.
@@ -37,7 +37,7 @@ public **SplFileInfo::getBasename**(string `$suffix` u003d ""): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getBasename()****
 
-` <?php$info u003d new SplFileInfo('file.txt');var_dump($info->getBasename());$info u003d new SplFileInfo('/path/to/file.txt');var_dump($info ->getBasename());$info u003d new SplFileInfo('/path/to/file.txt');var_dump($info->getBasename('.txt'));?> `
+` <?php$info = new SplFileInfo('file.txt');var_dump($info->getBasename());$info = new SplFileInfo('/path/to/file.txt');var_dump($info ->getBasename());$info = new SplFileInfo('/path/to/file.txt');var_dump($info->getBasename('.txt'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

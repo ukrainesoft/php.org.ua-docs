@@ -7,14 +7,14 @@
 
 # SimpleXMLElement::getNamespaces
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SimpleXMLElement::getNamespaces — Повертає простір імен,
 використовуються в документі
 
 ### Опис
 
-public **SimpleXMLElement::getNamespaces**(bool `$recursive` u003d
+public **SimpleXMLElement::getNamespaces**(bool `$recursive` =
 **`false`**): array
 
 Повертає простір імен, що використовуються в документі
@@ -35,12 +35,12 @@ public **SimpleXMLElement::getNamespaces**(bool `$recursive` u003d
 
 **Приклад #1 Отримання просторів імен, які використовуються в документі**
 
-` <?php$xml u003d <<<XML<?xml versionu003d"1.0" standaloneu003d"yes"?><people xmlns:pu003d"http://example.org/ns" xmlns:tu003d"http: //example.org/test">    <p:person idu003d"1">John Doe</p:person>    <p:person idu003d"2">Susie Q. Public</p:person></people >XML;$sxe u003d new SimpleXMLElement($xml);$namespaces u003d $sxe->getNamespaces(true);var_dump($namespaces);?> `
+` <?php$xml = <<<XML<?xml version="1.0" standalone="yes"?><people xmlns:p="http://example.org/ns" xmlns:t="http: //example.org/test">    <p:person id="1">John Doe</p:person>    <p:person id="2">Susie Q. Public</p:person></people >XML;$sxe = new SimpleXMLElement($xml);$namespaces = $sxe->getNamespaces(true);var_dump($namespaces);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["p"]u003d>
+["p"]=>
 string(21) "http://example.org/ns"
 }
 

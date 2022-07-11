@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::\_\_construct
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::\_\_construct - Конструктор
 
@@ -27,4 +27,4 @@ public **Vtiful\Kernel\Excel::\_\_construct**(array `$config`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [  'path' u003d> '/home/viest'];$excelObject u003d new \Vtiful\Kernel\Excel($config);?> `
+` <?php$config = [  'path' => '/home/viest'];$excelObject = new \Vtiful\Kernel\Excel($config);?> `

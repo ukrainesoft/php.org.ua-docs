@@ -7,13 +7,13 @@
 
 # msg_get_queue
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 msg_get_queue — Створення або підключення до черги повідомлень
 
 ### Опис
 
-**msg_get_queue**(int `$key`, int `$permissions` u003d 0666):
+**msg_get_queue**(int `$key`, int `$permissions` = 0666):
 [SysvMessageQueue](class.sysvmessagequeue.md)\|false
 
 **msg_get_queue()** повертає ідентифікатор, який використовується для

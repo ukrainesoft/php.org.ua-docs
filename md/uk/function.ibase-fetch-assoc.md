@@ -14,7 +14,7 @@ ibase_fetch_assoc — Витягує рядок результату із зап
 
 ### Опис
 
-**ibase_fetch_assoc**(resource `$result`, int `$fetch_flag` u003d 0): array
+**ibase_fetch_assoc**(resource `$result`, int `$fetch_flag` = 0): array
 
 Витягує рядок результату із запиту у вигляді асоціативного масиву
 

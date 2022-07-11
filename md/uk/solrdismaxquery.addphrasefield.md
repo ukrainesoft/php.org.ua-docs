@@ -14,7 +14,7 @@ SolrDisMaxQuery::addPhraseField — Додає поле фрази (параме
 ### Опис
 
 public **SolrDisMaxQuery::addPhraseField**(string `$field`, string
-`$boost`, string `$slop` u003d ?):
+`$boost`, string `$slop` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 Додає поле фрази (параметр pf)
@@ -36,11 +36,11 @@ field name
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::addPhraseField()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery   ->addPhraseField('cat', 3, 1)    ->addPhraseField('third', >| );echo $dismaxQuery;?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addPhraseField('cat', 3, 1)    ->addPhraseField('third', >| );echo $dismaxQuery;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&pfu003dcat~1^3 third~2^4 source^55
+q=lucene&defType=edismax&pf=cat~1^3 third~2^4 source^55
 
 ### Дивіться також
 

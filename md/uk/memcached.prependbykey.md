@@ -7,7 +7,7 @@
 
 # Memcached::prependByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::prependByKey — Додає дані на початок існуючого запису
 на вказаному сервері

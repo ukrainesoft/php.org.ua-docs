@@ -7,7 +7,7 @@
 
 # Yaf_Application::\_\_destruct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::\_\_destruct - Деструктор Yaf_Application
 

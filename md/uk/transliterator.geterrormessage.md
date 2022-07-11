@@ -9,7 +9,7 @@
 
 # transliterator_get_error_message
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::getErrorMessage -- transliterator_get_error_message --
 Отримати останнє повідомлення про помилку

@@ -29,10 +29,10 @@
 
 **Приклад #1 Оголошення та використання константи**
 
-`<?phpclass MyClass{    const CONSTANT u003d 'значення константи'; function showConstant() {        echo self::CONSTANT . "
+`<?phpclass MyClass{    const CONSTANT = 'значення константи'; function showConstant() {        echo self::CONSTANT . "
 ";    }}echo MyClass::CONSTANT . "
-";$classname u003d "MyClass";echo $classname::CONSTANT . "
-";$class u003d new MyClass();$class->showConstant();echo $class::CONSTANT."
+";$classname = "MyClass";echo $classname::CONSTANT . "
+";$class = new MyClass();$class->showConstant();echo $class::CONSTANT."
 ";?> `
 
 Спеціальна константа **`::class`**, якою на етапі компіляції
@@ -45,12 +45,12 @@
 
 **Приклад #3 Приклад констант, заданих виразом**
 
-`<?phpconst ONE u003d 1;class foo {    const TWO u003d ONE * 2; const THREEu003du003dONE++self::TWO; const SENTENCE u003d 'Значення константи THREE - ' . self::THREE;}?> `
+`<?phpconst ONE = 1;class foo {    const TWO = ONE * 2; const THREE==ONE++self::TWO; const SENTENCE = 'Значення константи THREE - ' . self::THREE;}?> `
 
 **Приклад #4 Модифікатори видимості констант класу, починаючи з PHP
 7.1.0**
 
-`<?phpclass Foo {    public const BAR u003d 'bar'; private const BAZ u003d 'baz';}echo Foo::BAR, PHP_EOL;echo Foo::BAZ, PHP_EOL;?> `
+`<?phpclass Foo {    public const BAR = 'bar'; private const BAZ = 'baz';}echo Foo::BAR, PHP_EOL;echo Foo::BAZ, PHP_EOL;?> `
 
 Результат виконання цього прикладу в PHP 7.1:
 

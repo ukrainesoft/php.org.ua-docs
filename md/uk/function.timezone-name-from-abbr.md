@@ -7,15 +7,15 @@
 
 #timezone_name_from_abbr
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 timezone_name_from_abbr — Повертає часовий пояс відповідно до
 абревіатурою
 
 ### Опис
 
-**timezone_name_from_abbr**(string `$abbr`, int `$utcOffset` u003d -1, int
-`$isDST` u003d -1): string\|false
+**timezone_name_from_abbr**(string `$abbr`, int `$utcOffset` = -1, int
+`$isDST` = -1): string\|false
 
 ### Список параметрів
 

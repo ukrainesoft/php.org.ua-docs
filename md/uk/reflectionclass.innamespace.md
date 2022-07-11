@@ -7,7 +7,7 @@
 
 # ReflectionClass::inNamespace
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ReflectionClass::inNamespace — Перевіряє, чи клас у
 просторі імен
@@ -31,7 +31,7 @@ public **ReflectionClass::inNamespace**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::inNamespace()****
 
-` <?phpnamespace A\B;class Foo { }$function u003d new \ReflectionClass('stdClass');var_dump($function->inNamespace());var_dump($function->getName());var_dump($function ->getNamespaceName());var_dump($function->getShortName());$function u003d new \ReflectionClass('A\B\Foo');var_dump($function->inNamespace());var_dump($function- >getName());var_dump($function->getNamespaceName());var_dump($function->getShortName());?> `
+` <?phpnamespace A\B;class Foo { }$function = new \ReflectionClass('stdClass');var_dump($function->inNamespace());var_dump($function->getName());var_dump($function ->getNamespaceName());var_dump($function->getShortName());$function = new \ReflectionClass('A\B\Foo');var_dump($function->inNamespace());var_dump($function- >getName());var_dump($function->getNamespaceName());var_dump($function->getShortName());?> `
 
 Результат виконання цього прикладу:
 

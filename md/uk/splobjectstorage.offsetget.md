@@ -7,7 +7,7 @@
 
 # SplObjectStorage::offsetGet
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetGet — Повертає дані, асоційовані з
 об'єктом object
@@ -38,7 +38,7 @@ public **SplObjectStorage::offsetGet**(object `$object`):
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetGet()****
 
-` <?php$s u003d new SplObjectStorage;$o1 u003d new StdClass;$o2 u003d new StdClass;$s[$o1] u003d "hello";$s->attach($o2);var_dump($s->offG ($ o1)); //  $s[$o1]var_dump($s->offsetGet($o2)); //  $s[$o2]?> `
+` <?php$s = new SplObjectStorage;$o1 = new StdClass;$o2 = new StdClass;$s[$o1] = "hello";$s->attach($o2);var_dump($s->offG ($ o1)); //  $s[$o1]var_dump($s->offsetGet($o2)); //  $s[$o2]?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

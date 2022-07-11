@@ -7,13 +7,13 @@
 
 #token_get_all
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 token_get_all — Розбиває переданий вихідний код на PHP-лексеми
 
 ### Опис
 
-**token_get_all**(string `$code`, int `$flags` u003d 0): array
+**token_get_all**(string `$code`, int `$flags` = 0): array
 
 Функція **token_get_all()** розбирає переданий рядок `code` у
 мовні лексеми PHP, використовуючи лексичний сканер Zend Engine.
@@ -45,7 +45,7 @@ token_get_all — Розбиває переданий вихідний код н
 
 **Приклад #1 **token_get_all()** example**
 
-`<?php$tokens u003dtoken_get_all('<?php echo; ?>');foreach ($tokens as $token) {    if (is_array($token)) {         , token_name($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
+`<?php$tokens =token_get_all('<?php echo; ?>');foreach ($tokens as $token) {    if (is_array($token)) {         , token_name($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -56,7 +56,7 @@ token_get_all — Розбиває переданий вихідний код н
 
 **Приклад #2 Приклад неправильного використання **token_get_all()****
 
-` <?php$tokens u003d token_get_all('/* коментар */');foreach ($tokens as $token) {    if (is_array($token)) {             ($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
+` <?php$tokens = token_get_all('/* коментар */');foreach ($tokens as $token) {    if (is_array($token)) {             ($token[0]), " ('{$token[1]}')", PHP_EOL; }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -70,7 +70,7 @@ token_get_all — Розбиває переданий вихідний код н
 **Приклад #3 Приклад використання **token_get_all()** з класом,
 які використовують зарезервовані слова**
 
-` <?php$source u003d <<<'Code'<?phpclass A{   const PUBLIC u003d 1;}code;$tokens u003d token_get_all($source, TOKEN_PARSE);foreach ($tokens as       $token)) {        echo token_name($token[0]) , PHP_EOL; }}?> `
+` <?php$source = <<<'Code'<?phpclass A{   const PUBLIC = 1;}code;$tokens = token_get_all($source, TOKEN_PARSE);foreach ($tokens as       $token)) {        echo token_name($token[0]) , PHP_EOL; }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

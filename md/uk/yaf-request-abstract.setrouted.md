@@ -7,13 +7,13 @@
 
 # Yaf_Request_Abstract::setRouted
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::setRouted — Призначення setRouted
 
 ### Опис
 
-public **Yaf_Request_Abstract::setRouted**(string `$flag` u003d ?): void
+public **Yaf_Request_Abstract::setRouted**(string `$flag` = ?): void
 
 **Увага**
 

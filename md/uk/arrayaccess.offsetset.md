@@ -40,14 +40,14 @@ public
 > Параметр `offset` буде встановлено в **`null`**, якщо інше значення
 > недоступно, як показано в наведеному нижче прикладі.
 >
-> ` <?php$arrayaccess[] u003d "перше значення";$arrayaccess[] u003d "друге значення";print_r($arrayaccess);?> `
+> ` <?php$arrayaccess[] = "перше значення";$arrayaccess[] = "друге значення";print_r($arrayaccess);?> `
 >
 > Результат виконання цього прикладу:
 >
 > Array
 > (
-> [0] u003d> first value
-> [1] u003d> second value
+> [0] => first value
+> [1] => second value
 > )
 
 > **Примітка**:

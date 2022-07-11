@@ -7,7 +7,7 @@
 
 # runkit7_method_rename
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_method_rename - Динамічно змінює ім'я заданого методу
 

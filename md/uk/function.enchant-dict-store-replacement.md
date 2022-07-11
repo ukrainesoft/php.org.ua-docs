@@ -7,7 +7,7 @@
 
 #enchant_dict_store_replacement
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0 )
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
 
 enchant_dict_store_replacement — Додати виправлення для слова
 
@@ -42,6 +42,6 @@ enchant_dict_store_replacement — Додати виправлення для с
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | `dictionary` чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                           |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |

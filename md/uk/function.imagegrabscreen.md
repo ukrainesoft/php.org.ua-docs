@@ -7,7 +7,7 @@
 
 #imagegrabscreen
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 imagegrabscreen — Захоплює зображення з екрану
 
@@ -43,7 +43,7 @@ imagegrabscreen — Захоплює зображення з екрану
 У цьому прикладі показано, як зробити знімок екрана та зберегти його як
 png зображення.
 
-` <?php$im u003d imagegrabscreen();imagepng($im, "myscreenshot.png");imagedestroy($im);?> `
+` <?php$im = imagegrabscreen();imagepng($im, "myscreenshot.png");imagedestroy($im);?> `
 
 ### Дивіться також
 

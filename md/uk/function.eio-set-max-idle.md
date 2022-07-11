@@ -7,7 +7,7 @@
 
 #eio_set_max_idle
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_set_max_idle — Встановлює максимальну кількість тих, хто очікує
 потоків

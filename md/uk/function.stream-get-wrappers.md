@@ -37,12 +37,12 @@ stream_get_wrappers — Отримати список зареєстровани
 
 Array
 (
-[0] u003d> php
-[1] u003d> file
-[2] u003d> http
-[3] u003d> ftp
-[4] u003d> compress.bzip2
-[5] u003d> compress.zlib
+[0] => php
+[1] => file
+[2] => http
+[3] => ftp
+[4] => compress.bzip2
+[5] => compress.zlib
 )
 
 **Приклад #2 Перевірка існування обгортки потоку**

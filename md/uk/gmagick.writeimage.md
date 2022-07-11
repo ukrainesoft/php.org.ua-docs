@@ -7,13 +7,13 @@
 
 # Gmagick::writeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::writeimage — Записує зображення у вказаний файл
 
 ### Опис
 
-public **Gmagick::writeimage**(string `$filename`, bool `$all_frames` u003d
+public **Gmagick::writeimage**(string `$filename`, bool `$all_frames` =
 **`false`**): [Gmagick](class.gmagick.md)
 
 Записує зображення у вказаний файл. Якщо як ім'я файлу

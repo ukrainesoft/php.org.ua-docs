@@ -7,7 +7,7 @@
 
 # Parle\Lexer::getToken
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\Lexer::getToken — Отримує поточний токен
 

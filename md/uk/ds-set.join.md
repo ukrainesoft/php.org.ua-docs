@@ -7,13 +7,13 @@
 
 # Ds\Set::join
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Set::join**(string `$glue` u003d ?): string
+public **Ds\Set::join**(string `$glue` = ?): string
 
 Склеює всі значення в рядок, опціонально використовуючи заданий
 роздільник.
@@ -31,7 +31,7 @@ public **Ds\Set::join**(string `$glue` u003d ?): string
 
 **Приклад #1 Приклад використання **Ds\Set::join()** з роздільником**
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join("|"));?> `
+` <?php$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join("|"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -39,7 +39,7 @@ string(11) "a|b|c|1|2|3"
 
 **Приклад #2 Приклад використання **Ds\Set::join()** без роздільника**
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join());?> `
+` <?php$set = new \Ds\Set(["a", "b", "c", 1, 2, 3]);var_dump($set->join());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

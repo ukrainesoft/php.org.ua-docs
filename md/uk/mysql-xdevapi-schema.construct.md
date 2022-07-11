@@ -26,21 +26,21 @@ private **mysql_xdevapi\Schema::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::\_\_construct()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema u003d $session->getSchema("food ");$schema->createCollection("trees");print_r($schema->gettables());print_r($schema->getcollections()); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema = $session->getSchema("food ");$schema->createCollection("trees");print_r($schema->gettables());print_r($schema->getcollections()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[fruit] u003d> mysql_xdevapi\Table Object
+[fruit] => mysql_xdevapi\Table Object
 (
-[name] u003d> fruit
+[name] => fruit
 )
 )
 Array
 (
-[trees] u003d> mysql_xdevapi\Collection Object
+[trees] => mysql_xdevapi\Collection Object
 (
-[name] u003d> trees
+[name] => trees
 )
 )

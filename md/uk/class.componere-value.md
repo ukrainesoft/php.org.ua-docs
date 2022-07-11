@@ -7,7 +7,7 @@
 
 # Клас Componere\Value
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ final class **Componere\Value** {
 
 /\* Конструктор класу \*/
 
-public [\_\_construct](componere-value.construct.md)(`$default` u003d ?)
+public [\_\_construct](componere-value.construct.md)(`$default` = ?)
 
 /\* Методи \*/
 

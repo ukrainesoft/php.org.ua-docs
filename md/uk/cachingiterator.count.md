@@ -7,7 +7,7 @@
 
 # CachingIterator::count
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 CachingIterator::count — Повертає кількість елементів в ітераторі
 

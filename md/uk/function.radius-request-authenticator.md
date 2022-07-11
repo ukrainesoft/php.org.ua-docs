@@ -7,7 +7,7 @@
 
 #radius_request_authenticator
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_request_authenticator — Повертає автентифікатор запиту
 

@@ -7,7 +7,7 @@
 
 # SplFileObject::valid
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::valid — Перевіряє, чи кінець файлу досягнуто (EOF)
 
@@ -30,7 +30,7 @@ public **SplFileObject::valid**(): bool
 
 **Приклад #1 Приклад використання **SplFileObject::valid()****
 
-` <?php// Цикл по файлу$file u003d new SplFileObject("file.txt");while ($file->valid()) {    echo $file->fgets();}?> `
+` <?php// Цикл по файлу$file = new SplFileObject("file.txt");while ($file->valid()) {    echo $file->fgets();}?> `
 
 ### Дивіться також
 

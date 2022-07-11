@@ -7,7 +7,7 @@
 
 # Ds\Map::pairs
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::pairs — Повертає послідовність, яка містить усі пари
 колекції
@@ -30,30 +30,30 @@ public **Ds\Map::pairs**(): [Ds\Sequence](class.ds-sequence.md)
 
 **Приклад #1 Приклад використання **Ds\Map::pairs()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->pairs());?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->pairs());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#8 (3) {
-[0]u003d>
+[0]=>
 object(Ds\Pair)#5 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "a"
-["value"]u003d>
+["value"]=>
 int(1)
 }
-[1]u003d>
+[1]=>
 object(Ds\Pair)#6 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "b"
-["value"]u003d>
+["value"]=>
 int(2)
 }
-[2]u003d>
+[2]=>
 object(Ds\Pair)#7 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "c"
-["value"]u003d>
+["value"]=>
 int(3)
 }
 }

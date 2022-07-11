@@ -7,7 +7,7 @@
 
 #array_diff_assoc
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 array_diff_assoc — Обчислює розбіжність масивів із додатковою
 перевіркою індексу
@@ -37,37 +37,37 @@ array_diff_assoc — Обчислює розбіжність масивів із
 
 **Приклад #1 Приклад використання **array_diff_assoc()****
 
-У наведеному нижче прикладі ви бачите, що пара `"a" u003d> "green"` міститься
-в обох масивах і тому її немає у висновку функції. Але пара `0 u003d> "red"`
+У наведеному нижче прикладі ви бачите, що пара `"a" => "green"` міститься
+в обох масивах і тому її немає у висновку функції. Але пара `0 => "red"`
 міститься у висновку функції, тому що в другому аргументі значення
 ``red'' відповідає ключ `1`.
 
-` <?php$array1 u003d array("a" u003d> "green", "b" u003d> "brown", "c" u003d> "blue", "red");$array2 u003d array("a" u003d > "green", "yellow", "red");$result u003d array_diff_assoc($array1, $array2);print_r($result);?> `
+` <?php$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");$array2 = array("a" = > "green", "yellow", "red");$result = array_diff_assoc($array1, $array2);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[b] u003d> brown
-[c] u003d> blue
-[0] u003d> red
+[b] => brown
+[c] => blue
+[0] => red
 )
 
 **Приклад #2 Приклад використання **array_diff_assoc()****
 
-Два значення пар *key u003d\> value* вважаються рівними лише тоді, коли
-`(string) $elem1 u003du003du003d (string) $elem2`. Іншими словами,
+Два значення пар *key =\> value* вважаються рівними лише тоді, коли
+`(string) $elem1 === (string) $elem2`. Іншими словами,
 застосовується сувора перевірка, що означає, що строкові уявлення
 мають бути однаковими.
 
-` <?php$array1 u003d array(0, 1, 2);$array2 u003d array("00", "01", "2");$result u003d array_diff_assoc($array1, $array2);print_r($result );?> `
+` <?php$array1 = array(0, 1, 2);$array2 = array("00", "01", "2");$result = array_diff_assoc($array1, $array2);print_r($result );?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> 0
-[1] u003d> 1
+[0] => 0
+[1] => 1
 )
 
 ### Примітки

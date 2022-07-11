@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::setTimestamp
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTimestamp — Встановлює дату та час на основі
 мітки часу Unix
@@ -45,14 +45,14 @@ public **DateTimeImmutable::setTimestamp**(int `$timestamp`):
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable();echo $date->format('U u003d Y-m-d H:i:s') . "
-";$newDate u003d $date->setTimestamp(1171502725);echo $newDate->format('U u003d Y-m-d H:i:s') . "
+` <?php$date = new DateTimeImmutable();echo $date->format('U = Y-m-d H:i:s') . "
+";$newDate = $date->setTimestamp(1171502725);echo $newDate->format('U = Y-m-d H:i:s') . "
 ";?> `
 
 Результатом виконання даних прикладів буде щось подібне:
 
-1272508903 u003d 2010-04-28 22:41:43
-1171502725 u003d 2007-02-14 20:25:25
+1272508903 = 2010-04-28 22:41:43
+1171502725 = 2007-02-14 20:25:25
 
 ### Дивіться також
 

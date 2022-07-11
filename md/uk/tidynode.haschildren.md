@@ -30,7 +30,7 @@ public **tidyNode::hasChildren**(): bool
 
 **Приклад #1 Приклад використання функції **tidyNode::hasChildren()****
 
-` <?php$html u003d <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE-код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт мир!';?><%  /* ASP код */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy u003d tidy_parse_string($html);$num 0;// тег headvar_dump($tidy->html()->child[0]->hasChildren());// php всередині тега headvar_dump($tidy->html()->child[0]->child [0]->hasChildren());?> `
+` <?php$html = <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE-код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт мир!';?><%  /* ASP код */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy = tidy_parse_string($html);$num 0;// тег headvar_dump($tidy->html()->child[0]->hasChildren());// php всередині тега headvar_dump($tidy->html()->child[0]->child [0]->hasChildren());?> `
 
 Результат виконання цього прикладу:
 

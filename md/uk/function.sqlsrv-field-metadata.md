@@ -42,8 +42,8 @@ sqlsrv_field_metadata — Отримує метадані для полів оп
 | Name      | Назва поля.                                                                                                           |
 | Тип       | Числове значення типу SQL.                                                                                            |
 | Size      | Кількість символів для полів символьного типу, кількість байтів для полів двійкового типу або **null для інших типів. |
-| Precision | Точність для типів змінної точності, ** `null`** для інших типів.                                                     |
-| Scale     | Масштаб для типів масштабованих типів даних, ** `null`** для інших типів.                                             |
+| Precision | Точність для типів змінної точності, ** null** для інших типів.                                                       |
+| Scale     | Масштаб для типів масштабованих типів даних, ** null** для інших типів.                                               |
 | Nullable  | Перелік, що вказує, чи стовпець допускає значення NULL, неприпустиме значення NULL або невідоме.                      |
 
 **Масив, що повертається sqlsrv_field_metadata**
@@ -56,7 +56,7 @@ sqlsrv_field_metadata — Отримує метадані для полів оп
 
 **Приклад #1 Приклад використання **sqlsrv_field_metadata()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"AdventureWorks", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {   die( print_r( sqlsrv_errors(), true));}$sql u003d "SELECT * FROM Table_1"; sql );foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {    foreach( $fieldMetadata as $name u003d> $value) { |$| }      echo "<br />";}?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"AdventureWorks", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {   die( print_r( sqlsrv_errors(), true));}$sql = "SELECT * FROM Table_1"; sql );foreach( sqlsrv_field_metadata( $stmt ) as $fieldMetadata ) {    foreach( $fieldMetadata as $name => $value) { |$| }      echo "<br />";}?> `
 
 ### Дивіться також
 

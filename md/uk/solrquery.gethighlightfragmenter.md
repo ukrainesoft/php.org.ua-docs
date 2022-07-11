@@ -7,14 +7,14 @@
 
 # SolrQuery::getHighlightFragmenter
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightFragmenter — Повертає генератор фрагментів
 тексту для виділеного тексту
 
 ### Опис
 
-public **SolrQuery::getHighlightFragmenter**(string `$field_override` u003d
+public **SolrQuery::getHighlightFragmenter**(string `$field_override` =
 ?): string
 
 Повертає генератор фрагментів тексту виділеного тексту. Приймає

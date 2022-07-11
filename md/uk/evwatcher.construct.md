@@ -7,7 +7,7 @@
 
 # EvWatcher::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvWatcher::\_\_construct - Абстрактний конструктор об'єкта спостерігача
 

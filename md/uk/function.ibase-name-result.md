@@ -35,7 +35,7 @@ ibase_name_result — Надає ім'я набору результатів.
 
 **Приклад #1 Приклад використання **ibase_name_result()****
 
-` <?php$result u003d ibase_query("SELECT field1,field2 FROM table FOR UPDATE");ibase_name_result($result, "my_cursor");$updateqry u003d ibase_prepare("URDATE_ CU| for ($i u003d 0; ibase_fetch_row($result); ++$i) {    ibase_execute($updateqry, $i);}?> `
+` <?php$result = ibase_query("SELECT field1,field2 FROM table FOR UPDATE");ibase_name_result($result, "my_cursor");$updateqry = ibase_prepare("URDATE_ CU| for ($i = 0; ibase_fetch_row($result); ++$i) {    ibase_execute($updateqry, $i);}?> `
 
 ### Дивіться також
 

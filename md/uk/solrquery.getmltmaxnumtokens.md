@@ -8,7 +8,7 @@
 
 # SolrQuery::getMltMaxNumTokens
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getMltMaxNumTokens — Повертає максимальну кількість
 токенів для аналізу в кожному полі документа, яке не зберігається з

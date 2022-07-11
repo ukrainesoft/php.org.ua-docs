@@ -28,7 +28,7 @@ PHP надає ключове слово `final`, розмістивши яке 
 **Приклад #3 Приклад остаточної (final) константи класу, починаючи з PHP
 8.1.0**
 
-`<?phpclass Foo{   final public const X u003d "foo";}class Bar extends Foo{    public const X u003d "bar";}//Помилка:Про:
+`<?phpclass Foo{   final public const X = "foo";}class Bar extends Foo{    public const X = "bar";}//Помилка:Про:
 
 > **Примітка**: Властивості не можуть бути оголошені остаточними: тільки
 > класи, методи та константи (починаючи з PHP 8.1.0) можуть бути оголошені

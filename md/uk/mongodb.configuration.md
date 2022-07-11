@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                       | Місце зміни | Список змін |
 | ----------------------------------------------------------- | ----------- | ----------- |
-| [mongodb.debug](mongodb.configuration.md#ini.mongodb.debug) | ""          | PHP_INI_ALL | 
+| [mongodb.debug](mongodb.configuration.md#ini.mongodb.debug) | ""          | PHP_INI_ALL |
 
 **Опції налаштування mongodb**
 

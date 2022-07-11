@@ -13,10 +13,10 @@ ibase_trans - Починає транзакцію
 
 ### Опис
 
-**ibase_trans**(int `$trans_args` u003d ?, resource `$link_identifier` u003d ?):
+**ibase_trans**(int `$trans_args` = ?, resource `$link_identifier` = ?):
 resource
 
-**ibase_trans**(resource `$link_identifier` u003d ?, int `$trans_args` u003d ?):
+**ibase_trans**(resource `$link_identifier` = ?, int `$trans_args` = ?):
 resource
 
 Починає транзакцію.

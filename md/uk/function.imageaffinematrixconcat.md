@@ -7,7 +7,7 @@
 
 #imageaffinematrixconcat
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 imageaffinematrixconcat — Конкатенує дві афінні матриці
 перетворення
@@ -41,18 +41,18 @@ array\|false
 
 **Приклад #1 Приклад використання **imageaffinematrixconcat()****
 
-` <?php$m1 u003d imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' u003d> 2, 'y' u003d> 3));$m2 u003d imageaffinematrixget(IMG_AFFINE_SCALE,  >>   5));$matrix u003d imageaffinematrixconcat($m1, $m2);print_r($matrix);?> `
+` <?php$m1 = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));$m2 = imageaffinematrixget(IMG_AFFINE_SCALE,  >>   5));$matrix = imageaffinematrixconcat($m1, $m2);print_r($matrix);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> 4
-[1] u003d> 0
-[2] u003d> 0
-[3] u003d> 5
-[4] u003d> 8
-[5] u003d> 15
+[0] => 4
+[1] => 0
+[2] => 0
+[3] => 5
+[4] => 8
+[5] => 15
 )
 
 ### Дивіться також

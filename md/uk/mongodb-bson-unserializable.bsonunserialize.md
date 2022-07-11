@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Unserializable::bsonUnserialize
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Unserializable::bsonUnserialize — Створює об'єкт із масиву
 BSON або документ
@@ -43,14 +43,14 @@ BSON.
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Unserializable::bsonUnserialize()****
 
-`<?phpclass MyDocument implements MongoDB\BSON\Unserializable{    private $data u003d []; function bsonUnserialize(array $data)    {        $this->data u003d $data; }}$bson u003dMongoDB\BSON romJSON('{ "foo": "bar" }');$value u003d MongoDB\BSON oPHP($bson, ['root' u003d> 'MyDocument']);var_dump($u );?> `
+`<?phpclass MyDocument implements MongoDB\BSON\Unserializable{    private $data = []; function bsonUnserialize(array $data)    {        $this->data = $data; }}$bson =MongoDB\BSON romJSON('{ "foo": "bar" }');$value = MongoDB\BSON oPHP($bson, ['root' => 'MyDocument']);var_dump($u );?> `
 
 Результат виконання цього прикладу:
 
 object(MyDocument)#1 (1) {
-["data":"MyDocument":private]u003d>
+["data":"MyDocument":private]=>
 array(1) {
-["foo"]u003d>
+["foo"]=>
 string(3) "bar"
 }
 }

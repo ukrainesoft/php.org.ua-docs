@@ -11,7 +11,7 @@
 
 # IntlDateFormatter::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::create -- datefmt_create --
 IntlDateFormatter::\_\_construct — Створює засіб форматування дати
@@ -25,10 +25,10 @@ public static **IntlDateFormatter::create**(
 int `$dateType`,
 int `$timeType`,
 [IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**,
-[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` u003d
+`$timezone` = **`null`**,
+[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` =
 **`null`**,
-string `$pattern` u003d ""
+string `$pattern` = ""
 ): ?[IntlDateFormatter](class.intldateformatter.md)
 
 Об'єктно-орієнтований стиль (конструктор)
@@ -38,10 +38,10 @@ public **IntlDateFormatter::\_\_construct**(
 int `$dateType`,
 int `$timeType`,
 [IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**,
-[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` u003d
+`$timezone` = **`null`**,
+[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` =
 **`null`**,
-string `$pattern` u003d ""
+string `$pattern` = ""
 )
 
 Процедурний стиль
@@ -51,10 +51,10 @@ string `$pattern` u003d ""
 int `$dateType`,
 int `$timeType`,
 [IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**,
-[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` u003d
+`$timezone` = **`null`**,
+[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` =
 **`null`**,
-string `$pattern` u003d ""
+string `$pattern` = ""
 ): ?[IntlDateFormatter](class.intldateformatter.md)
 
 Створює засіб форматування дати.
@@ -116,11 +116,11 @@ ini-налаштування
 
 **Приклад #1 Приклад використання **datefmt_create()****
 
-`<?php$fmt u003d datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles', IntlDateFormatter::GREGORIAN t| ;$fmt u003d datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,   'America/Los_Angeles',IntlDateFormatter::GregORIAN  );| $fmtu003du003ddatefmt_create("en_US"|,IntlDateFormatter::FULL,| ( $fmt , 0);$fmt u003d datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles'," Second Formatted output with pattern is ".datefmt_format( $fmt , 0);?> `
+`<?php$fmt = datefmt_create( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles', IntlDateFormatter::GREGORIAN t| ;$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,   'America/Los_Angeles',IntlDateFormatter::GregORIAN  );| $fmt==datefmt_create("en_US"|,IntlDateFormatter::FULL,| ( $fmt , 0);$fmt = datefmt_create( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles'," Second Formatted output with pattern is ".datefmt_format( $fmt , 0);?> `
 
 **Приклад #2 OO example**
 
-`<?php$fmt u003d new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,   'America/Los_Angeles',IntlDateFormatter::GREGORIAN || 0); (0);$fmtu003du003dnew IntlDateFormatter("en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles',IntlDateFormatter::GREGORI y шаблоном: ".$fmt->format(0);$fmt u003d new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,      'America/Los_Ange /yyyy");echo "Другий форматований висновок з шаблоном: ".$fmt->format(0);?> `
+`<?php$fmt = new IntlDateFormatter( "en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,   'America/Los_Angeles',IntlDateFormatter::GREGORIAN || 0); (0);$fmt==new IntlDateFormatter("en_US" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,    'America/Los_Angeles',IntlDateFormatter::GREGORI y шаблоном: ".$fmt->format(0);$fmt = new IntlDateFormatter( "de-DE" ,IntlDateFormatter::FULL, IntlDateFormatter::FULL,      'America/Los_Ange /yyyy");echo "Другий форматований висновок з шаблоном: ".$fmt->format(0);?> `
 
 Результат виконання цього прикладу:
 

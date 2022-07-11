@@ -7,7 +7,7 @@
 
 # PDO_OCI DSN
 
-(PECL PDO_OCI \>u003d 0.1.0)
+(PECL PDO_OCI \>= 0.1.0)
 
 PDO_OCI DSN — З'єднання з базою даних Oracle
 
@@ -21,9 +21,9 @@ PDO_OCI DSN — З'єднання з базою даних Oracle
 
 `dbname` (Oracle Instant Client)
 URI для Oracle Instant Client має вигляд
-`dbnameu003d//hostname:port-number/database`. Якщо ви з'єднуєтеся з базою
+`dbname=//hostname:port-number/database`. Якщо ви з'єднуєтеся з базою
 даних, вказаних у `tnsnames.ora`, то ви можете використовувати тільки її
-Ім'я: `dbnameu003ddatabase`.
+Ім'я: `dbname=database`.
 
 `charset`
 Кодування за клієнта для заданого оточення.
@@ -35,7 +35,7 @@ URI для Oracle Instant Client має вигляд
 Наступні приклади показують з'єднання з базою даних Oracle:
 
 // З'єднання з базою даних, зазначеною в tnsnames.ora
-oci:dbnameu003dmydb
+oci:dbname=mydb
 
 // З'єднання з використанням Oracle Instant Client
-oci:dbnameu003d//localhost:1521/mydb
+oci:dbname=//localhost:1521/mydb

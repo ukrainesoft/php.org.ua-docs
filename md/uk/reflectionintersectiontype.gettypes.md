@@ -7,7 +7,7 @@
 
 # ReflectionIntersectionType::getTypes
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionIntersectionType::getTypes — Повертає типи, включені до типу
 intersection
@@ -31,15 +31,15 @@ public **ReflectionIntersectionType::getTypes**(): array
 **Приклад #1 Приклад використання
 **ReflectionIntersectionType::getTypes()****
 
-` <?phpfunction someFunction(Iterator&Countable $value) {}$reflectionFunc u003d new ReflectionFunction('someFunction');$reflectionParam u003d$reflectionFunc->getParameters()[get]>_Type ));?> `
+` <?phpfunction someFunction(Iterator&Countable $value) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParam =$reflectionFunc->getParameters()[get]>_Type ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-[0] u003d>
+[0] =>
 class ReflectionNamedType#4(0) {
 }
-[1] u003d>
+[1] =>
 class ReflectionNamedType#5(0) {
 }
 }

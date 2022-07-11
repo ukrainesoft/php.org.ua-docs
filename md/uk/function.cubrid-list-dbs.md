@@ -7,13 +7,13 @@
 
 #cubrid_list_dbs
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_list_dbs — Отримати масив зі списком усіх баз даних CUBRID
 
 ### Опис
 
-**cubrid_list_dbs**(resource `$conn_identifier` u003d ?): array
+**cubrid_list_dbs**(resource `$conn_identifier` = ?): array
 
 Функція повертає масив зі списком усіх баз даних CUBRID
 
@@ -32,11 +32,11 @@ The CUBRID connection.
 
 **Приклад #1 Приклад використання **cubrid_list_dbs()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$db_list u003d cubrid_list_dbs($conn);var_dump($db_list);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$db_list = cubrid_list_dbs($conn);var_dump($db_list);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 string(6) "demodb"
 }

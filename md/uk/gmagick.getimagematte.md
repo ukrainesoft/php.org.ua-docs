@@ -7,7 +7,7 @@
 
 # Gmagick::getimagematte
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagematte — Перевіряє, чи є на зображенні матовий канал
 

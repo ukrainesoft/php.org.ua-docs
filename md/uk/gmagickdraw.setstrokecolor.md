@@ -7,7 +7,7 @@
 
 # GmagickDraw::setstrokecolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setstrokecolor — Встановлює колір, що використовується для
 обведення контурів об'єкта

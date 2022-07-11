@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                                           | Місце зміни | Список змін |
 | ------------------------------------------------------------------------------- | ----------- | ----------- |
-| [unserialize_callback_func](var.configuration.md#ini.unserialize-callback-func) | **`null`**  | PHP_INI_ALL | 
+| [unserialize_callback_func](var.configuration.md#ini.unserialize-callback-func) | **null**    | PHP_INI_ALL |             
 
 **Параметри конфігурації змінних**
 

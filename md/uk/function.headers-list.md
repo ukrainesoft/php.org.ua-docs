@@ -33,17 +33,17 @@ headers_list — Повертає список переданих заголов
 
 **Приклад #1 Приклад використання **headers_list()****
 
-` <?php/* Функція setcookie() додасть заголовок сама по собі */setcookie('foo', 'bar');/* Визначення користувацького заголовка    Це буде про про про ;/* Передача простого текстового контенту */header('Content-Type:text/plain; charsetu003dUTF-8');/* Які заголовки будуть відправлені? */var_dump(headers_list());?> `
+` <?php/* Функція setcookie() додасть заголовок сама по собі */setcookie('foo', 'bar');/* Визначення користувацького заголовка    Це буде про про про ;/* Передача простого текстового контенту */header('Content-Type:text/plain; charset=UTF-8');/* Які заголовки будуть відправлені? */var_dump(headers_list());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
-string(19) "Set-Cookie: foou003dbar"
-[1]u003d>
+[0]=>
+string(19) "Set-Cookie: foo=bar"
+[1]=>
 string(17) "Example-Test: foo"
-[2]u003d>
-string(39) "Content-Type: text/plain; charsetu003dUTF-8"
+[2]=>
+string(39) "Content-Type: text/plain; charset=UTF-8"
 }
 
 ### Примітки

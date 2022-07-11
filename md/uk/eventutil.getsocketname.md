@@ -7,7 +7,7 @@
 
 # EventUtil::getSocketName
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 EventUtil::getSocketName — Отримати поточну адресу, до якої прив'язаний
 сокет
@@ -18,7 +18,7 @@ public static **EventUtil::getSocketName**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$socket` , string `&$address` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` u003d ?): bool
+`&$port` = ?): bool
 
 Повертає поточну адресу, яку прив'язаний сокет `socket`.
 

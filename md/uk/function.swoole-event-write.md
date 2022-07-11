@@ -7,7 +7,7 @@
 
 # swoole_event_write
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_event_write — Записати дані в сокет
 

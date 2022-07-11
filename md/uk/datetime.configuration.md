@@ -11,11 +11,11 @@
 
 | Ім'я За замовчуванням                                                          | Місце зміни | Список змін |
 | ------------------------------------------------------------------------------ | ----------- | ----------- |
-| [date.default_latitude](datetime.configuration.md#ini.date.default-latitude)   | "31.7667"   | PHP_INI_ALL | 
-| [date.default_longitude](datetime.configuration.md#ini.date.default-longitude) | "35.2333"   | PHP_INI_ALL | 
-| [date.sunrise_zenith](datetime.configuration.md#ini.date.sunrise-zenith)       | "90.583333" | PHP_INI_ALL | 
-| [date.sunset_zenith](datetime.configuration.md#ini.date.sunset-zenith)         | "90.583333" | PHP_INI_ALL | 
-| [date.timezone](datetime.configuration.md#ini.date.timezone)                   | "UTC"       | PHP_INI_ALL | 
+| [date.default_latitude](datetime.configuration.md#ini.date.default-latitude)   | "31.7667"   | PHP_INI_ALL |
+| [date.default_longitude](datetime.configuration.md#ini.date.default-longitude) | "35.2333"   | PHP_INI_ALL |
+| [date.sunrise_zenith](datetime.configuration.md#ini.date.sunrise-zenith)       | "90.583333" | PHP_INI_ALL |
+| [date.sunset_zenith](datetime.configuration.md#ini.date.sunset-zenith)         | "90.583333" | PHP_INI_ALL |
+| [date.timezone](datetime.configuration.md#ini.date.timezone)                   | "UTC"       | PHP_INI_ALL |
 
 **Налаштування конфігурації дати/часу**
 

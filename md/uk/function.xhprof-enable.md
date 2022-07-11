@@ -7,13 +7,13 @@
 
 #xhprof_enable
 
-(PECL xhprof \>u003d 0.9.0)
+(PECL xhprof \>= 0.9.0)
 
 xhprof_enable — Запуск профілювання xhprof
 
 ### Опис
 
-**xhprof_enable**(int `$flags` u003d 0, array `$options` u003d ?): void
+**xhprof_enable**(int `$flags` = 0, array `$options` = ?): void
 
 Запускає профіль.
 
@@ -34,15 +34,15 @@ xhprof_enable — Запуск профілювання xhprof
 
 ### Список змін
 
-| Версія            | Опис                                      |
-| ----------------- | ----------------------------------------- |
-| PECL xhprof 0.9.2 | Додано необов'язковий параметр `options`. |
+| Версія            | Опис                                    |
+| ----------------- | --------------------------------------- |
+| PECL xhprof 0.9.2 | Додано необов'язковий параметр options. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **xhprof_enable()****
 
-`<?php// 1. час виконання + пам'ять + CPU; також ігноруємо функціїстандартної бібліотекиxhprof_enable(XHPROF_FLAGS_NO_BUILTINS | XHPROF_FLAGS_CPU | XHPROF_FLAGS_MEMORY);// 2. час виконання; игнорируем функции ignore call_user_func*xhprof_enable(    0,    array('ignored_functions' u003d>  array('call_user_func',                                        'call_user_func_array')));// 3. время исполнения + память; игнорируем функции call_user_func*xhprof_enable(    XHPROF_FLAGS_MEMORY,    array('ignored_functions' u003d>  array('call_user_func',                                        'call_user_func_array')));?> `
+`<?php// 1. час виконання + пам'ять + CPU; також ігноруємо функціїстандартної бібліотекиxhprof_enable(XHPROF_FLAGS_NO_BUILTINS | XHPROF_FLAGS_CPU | XHPROF_FLAGS_MEMORY);// 2. час виконання; игнорируем функции ignore call_user_func*xhprof_enable(    0,    array('ignored_functions' =>  array('call_user_func',                                        'call_user_func_array')));// 3. время исполнения + память; игнорируем функции call_user_func*xhprof_enable(    XHPROF_FLAGS_MEMORY,    array('ignored_functions' =>  array('call_user_func',                                        'call_user_func_array')));?> `
 
 ### Дивіться також
 

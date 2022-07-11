@@ -7,7 +7,7 @@
 
 # VarnishAdmin::clearPanic
 
-(PECL varnish \>u003d 0.4)
+(PECL varnish \>= 0.4)
 
 VarnishAdmin::clearPanic — Очистити критичні повідомлення екземпляра
 varnish

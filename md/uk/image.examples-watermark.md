@@ -10,7 +10,7 @@
 **Приклад #1 Додавання водяних знаків на зображення за допомогою
 альфа-каналів**
 
-`<?php// Завантаження штампа і фото, для которого застосовується водяний знак (називається штамп або друк)$stamp u003d imagecreatefrompng('stamp.png');$im u003d image'cre'photo' для штампу і отримання висоти/ширини штампа$marge_right u003d 10;$marge_bottom u003d 10;$sx u003d imagesx($stamp);$sy u003d imagesy($stamp);// копіювання і| ширини фотографії для розрахунку позиціонування штампа.imagecopy($im, $stamp, imagesx($im) - $sx - $marge_right, imagesy($im) - $sy - $marge_image  ($stamp));// Висновок і звільнення пам'яті header ('Content-type: image/png'); imagepng ($im); imagedestroy ($im);?> `
+`<?php// Завантаження штампа і фото, для которого застосовується водяний знак (називається штамп або друк)$stamp = imagecreatefrompng('stamp.png');$im = image'cre'photo' для штампу і отримання висоти/ширини штампа$marge_right = 10;$marge_bottom = 10;$sx = imagesx($stamp);$sy = imagesy($stamp);// копіювання і| ширини фотографії для розрахунку позиціонування штампа.imagecopy($im, $stamp, imagesx($im) - $sx - $marge_right, imagesy($im) - $sy - $marge_image  ($stamp));// Висновок і звільнення пам'яті header ('Content-type: image/png'); imagepng ($im); imagedestroy ($im);?> `
 
 ![Додавання водяних знаків на зображення за допомогою альфа-каналів](images/21009b70229598c6a80eef8b45bf282b-watermarks.png)
 

@@ -8,7 +8,7 @@
 
 # fann_train_on_file
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_train_on_file — Навчання на повному наборі даних, прочитаному з
 файлу, на тимчасовому інтервалі

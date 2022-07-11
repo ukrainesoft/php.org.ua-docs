@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescription
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\TopologyChangedEvent::getPreviousDescription -
 Повертає попередній опис топології

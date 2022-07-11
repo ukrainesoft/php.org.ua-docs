@@ -7,7 +7,7 @@
 
 # SplObjectStorage::contains
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::contains — Перевіряє, чи міститься контейнер заданий
 об'єкт
@@ -32,7 +32,7 @@ public **SplObjectStorage::contains**(object `$object`): bool
 
 **Приклад #1 Приклад використання **SplObjectStorage::contains()****
 
-` <?php$o1 u003d new StdClass;$o2 u003d new StdClass;$s u003d new SplObjectStorage();$s[$o1] u003d "hello";var_dump($s->contains($o1));var_d $s->contains($o2));?> `
+` <?php$o1 = new StdClass;$o2 = new StdClass;$s = new SplObjectStorage();$s[$o1] = "hello";var_dump($s->contains($o1));var_d $s->contains($o2));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

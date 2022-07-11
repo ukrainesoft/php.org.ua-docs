@@ -37,7 +37,7 @@ ImagickPixel створені за допомогою Imagick::getImageHistogram
 
 **Приклад #1 ImagickPixel **getColorCount()****
 
-` <?php   $imagick u003d new \Imagick(); $imagick->newPseudoImage(640, 480, "magick:logo"); $histogramElementsu003du003d$imagick->getImageHistogram(); $lastColoru003d array_pop($histogramElements); echo "Last pixel color count is: ".$lastColor->getColorCount();?> `
+` <?php   $imagick = new \Imagick(); $imagick->newPseudoImage(640, 480, "magick:logo"); $histogramElements==$imagick->getImageHistogram(); $lastColor= array_pop($histogramElements); echo "Last pixel color count is: ".$lastColor->getColorCount();?> `
 
 Висновок буде приблизно такий:
 

@@ -32,7 +32,7 @@ public **ReflectionParameter::\_\_construct**(string\|array\|object
 **Приклад #1 Використання класу
 [ReflectionParameter](class.reflectionparameter.md)**
 
-` <?phpfunction foo($a, $b, $c) { }function bar(Exception $a, &$b, $c) { }function baz(ReflectionFunction $a, $b u003d 1, $c u003d { }function abc() { }$reflect u003d new ReflectionFunction('foo');echo $reflect;foreach ($reflect->getParameters() as $i u003d> $param) {               : %s {
+` <?phpfunction foo($a, $b, $c) { }function bar(Exception $a, &$b, $c) { }function baz(ReflectionFunction $a, $b = 1, $c = { }function abc() { }$reflect = new ReflectionFunction('foo');echo $reflect;foreach ($reflect->getParameters() as $i => $param) {               : %s {
 ".         "   Клас: %s
 ".         "   Допускає значення NULL:%s
 ".         "   Передається по посилання:%s

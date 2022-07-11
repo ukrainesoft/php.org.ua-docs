@@ -7,7 +7,7 @@
 
 #xdiff_file_diff
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_file_diff — Створити уніфікований патч із порівняння двох файлів
 
@@ -17,8 +17,8 @@ xdiff_file_diff — Створити уніфікований патч із по
 string `$old_file`,
 string `$new_file`,
 string `$dest`,
-int `$context` u003d 3,
-bool `$minimal` u003d **`false`**
+int `$context` = 3,
+bool `$minimal` = **`false`**
 ): bool
 
 Створює уніфікований патч, що містить різницю двох файлів `old_file`
@@ -58,7 +58,7 @@ bool `$minimal` u003d **`false`**
 У наступному прикладі створюється уніфікований патч двох скриптів php
 величиною контексту 2.
 
-` <?php$old_version u003d 'my_script.php';$new_version u003d 'my_new_script.php';xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);?> `
+` <?php$old_version = 'my_script.php';$new_version = 'my_new_script.php';xdiff_file_diff($old_version, $new_version, 'my_script.diff', 2);?> `
 
 ### Примітки
 

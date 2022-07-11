@@ -7,7 +7,7 @@
 
 # Threaded::isTerminated
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::isTerminated — Визначення стану
 
@@ -31,7 +31,7 @@ public **Threaded::isTerminated**(): bool
 
 **Приклад #1 Визначення стану вказаного об'єкта**
 
-` <?phpclass My extends Thread {    public function run() {       i_do_not_exist(); }}$my u003d new My();$my->start();$my->join();var_dump($my->isTerminated());?> `
+` <?phpclass My extends Thread {    public function run() {       i_do_not_exist(); }}$my = new My();$my->start();$my->join();var_dump($my->isTerminated());?> `
 
 Результат виконання цього прикладу:
 

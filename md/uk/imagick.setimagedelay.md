@@ -43,4 +43,4 @@ public **Imagick::setImageDelay**(int `$delay`): bool
 **Приклад #1 Змінити анімований GIF за допомогою
 **Imagick::setImageDelay()****
 
-` <?php// Измените анимированный GIF, чтобы его кадры воспроизводились с переменной скоростью,// варьируясь от показа в течение 50 мс до 0 мс,// что приведёт к пропуску фрейма в большинстве браузеров.$imagick u003d new Imagick(realpath( "Test.gif"));$imagick u003d $imagick->coalesceImages();$frameCount u003d 0;foreach ($imagick as $frame) {   $imagick->setImageDelay(($$frameCount % 1) ; $frameCount++;}$imagick u003d $imagick->deconstructImages();$imagick->writeImages("/path/to/save/output.gif", true);?> `
+` <?php// Измените анимированный GIF, чтобы его кадры воспроизводились с переменной скоростью,// варьируясь от показа в течение 50 мс до 0 мс,// что приведёт к пропуску фрейма в большинстве браузеров.$imagick = new Imagick(realpath( "Test.gif"));$imagick = $imagick->coalesceImages();$frameCount = 0;foreach ($imagick as $frame) {   $imagick->setImageDelay(($$frameCount % 1) ; $frameCount++;}$imagick = $imagick->deconstructImages();$imagick->writeImages("/path/to/save/output.gif", true);?> `

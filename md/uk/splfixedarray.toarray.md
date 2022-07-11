@@ -7,7 +7,7 @@
 
 # SplFixedArray::toArray
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::toArray — Повертає звичайний PHP-масив зі значеннями
 фіксованого масиву
@@ -31,15 +31,15 @@ public **SplFixedArray::toArray**(): array
 
 **Приклад #1 Приклад використання **SplFixedArray::toArray()****
 
-` <?php$fa u003d new SplFixedArray(3);$fa[0] u003d 0;$fa[2] u003d 2;var_dump($fa->toArray());?> `
+` <?php$fa = new SplFixedArray(3);$fa[0] = 0;$fa[2] = 2;var_dump($fa->toArray());?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(0)
-[1]u003d>
+[1]=>
 NULL
-[2]u003d>
+[2]=>
 int(2)
 }

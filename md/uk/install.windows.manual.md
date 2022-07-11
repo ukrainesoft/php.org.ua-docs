@@ -15,7 +15,7 @@ IIS є вбудованим у Windows. На сервері Windows викори
 Manager додавання ролі IIS. Переконайтеся, що функція ролі CGI
 увімкнено. На робочому столі Windows використовуйте панель "Встановлення та
 видалення програм" для додавання IIS. У документації Microsoft є
-[» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(vu003dvs.80)).
+[» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(v=vs.80)).
 Для настільних веб-додатків та веб-розробки також можна використовувати
 IIS/Express або робочий стіл PHP.
 
@@ -27,23 +27,23 @@ IIS/Express або робочий стіл PHP.
 REM download .ZIP file of PHP build from http://windows.php.net/downloads/
 
 REM path to directory you decompressed PHP .ZIP file into (no trailing \)
-set phppathu003dc:\php
+set phppath=c:\php
 
 
 REM Clear current PHP handlers
 %windir%\system32\inetsrv ppcmd clear config /section:system.webServer/fastCGI
 REM Наступне повідомлення буде викликано error message if PHP is not installed. Це може бути ignored.
-%windir%\system32\inetsrv ppcmd set config /section:system.webServer/handlers /-[nameu003d'PHP_via_FastCGI']
+%windir%\system32\inetsrv ppcmd set config /section:system.webServer/handlers /-[name='PHP_via_FastCGI']
 
 REM Set up the PHP handler
-%windir%\system32\inetsrv ppcmd set config /section:system.webServer/fastCGI /+[fullPathu003d'%phppath%\php-cgi.exe']
-%windir%\system32\inetsrv ppcmd set config /section:system.webServer/handlers /+[nameu003d'PHP_via_FastCGI',pathu003d'*.php',verbu003d'*',modulesu003d'FastCgiModule',scriptProcessoru003d '%phppath%\php-cgi.exe',resourceTypeu003d'Unspecified']
+%windir%\system32\inetsrv ppcmd set config /section:system.webServer/fastCGI /+[fullPath='%phppath%\php-cgi.exe']
+%windir%\system32\inetsrv ppcmd set config /section:system.webServer/handlers /+[name='PHP_via_FastCGI',path='*.php',verb='*',modules='FastCgiModule',scriptProcessor= '%phppath%\php-cgi.exe',resourceType='Unspecified']
 %windir%\system32\inetsrv ppcmd set config /section:system.webServer/handlers /accessPolicy:Read,Script
 
 REM Configure FastCGI Variables
-%windir%\system32\inetsrv ppcmd set config -section:system.webServer/fastCgi /[fullPathu003d'%phppath%\php-cgi.exe'].instanceMaxRequests:10000
-%windir%\system32\inetsrv ppcmd.exe set config -section:system.webServer/fastCgi /+"[fullPathu003d'%phppath%\php-cgi.exe'].environmentVariables.[nameu003d'PHP_FCGI_MAX_REQUESTS',value u003d '10000']"
-%windir%\system32\inetsrv ppcmd.exe set config -section:system.webServer/fastCgi /+"[fullPathu003d'%phppath%\php-cgi.exe'].environmentVariables.[nameu003d'PHPRC',value u003d'%phppath%\php.ini']"
+%windir%\system32\inetsrv ppcmd set config -section:system.webServer/fastCgi /[fullPath='%phppath%\php-cgi.exe'].instanceMaxRequests:10000
+%windir%\system32\inetsrv ppcmd.exe set config -section:system.webServer/fastCgi /+"[fullPath='%phppath%\php-cgi.exe'].environmentVariables.[name='PHP_FCGI_MAX_REQUESTS',value = '10000']"
+%windir%\system32\inetsrv ppcmd.exe set config -section:system.webServer/fastCgi /+"[fullPath='%phppath%\php-cgi.exe'].environmentVariables.[name='PHPRC',value ='%phppath%\php.ini']"
 
 #### Apache
 

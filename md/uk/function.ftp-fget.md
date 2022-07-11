@@ -19,8 +19,8 @@ ftp_fget — Завантажує файл з FTP-сервера і зберіг
 [FTP\Connection](class.ftp-connection.md) `$ftp`,
 resource `$stream`,
 string `$remote_filename`,
-int `$mode` u003d **`FTP_BINARY`**,
-int `$offset` u003d 0
+int `$mode` = **`FTP_BINARY`**,
+int `$offset` = 0
 ): bool
 
 **ftp_fget()** завантажує файл `remote_filename` з FTP-сервера та
@@ -50,16 +50,16 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_fget()****
 
-`<?php//шлях до віддаленого файлу$remote_file u003d 'somefile.txt';$local_file u003d 'localfile.txt';// відкриваємо файл для запису$handle u003d fopen( ' з'єднання$ftp u003d ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result u003d ftp_login($ftp, $ftp_user_name, $ftp_user_pass); $handle, $remote_file, FTP_ASCII, 0)) { echo "Зроблено запис в $local_file
+`<?php//шлях до віддаленого файлу$remote_file = 'somefile.txt';$local_file = 'localfile.txt';// відкриваємо файл для запису$handle = fopen( ' з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і паролем$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass); $handle, $remote_file, FTP_ASCII, 0)) { echo "Зроблено запис в $local_file
 ";} else { echo "При завантаженні $remote_file в $local_file відбулася проблема
 ";}// закриття з'єднання і локального файлаftp_close($ftp);fclose($handle);?> `
 

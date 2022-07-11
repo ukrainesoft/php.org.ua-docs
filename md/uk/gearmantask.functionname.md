@@ -7,7 +7,7 @@
 
 # GearmanTask::functionName
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanTask::functionName — Отримати назву функції
 

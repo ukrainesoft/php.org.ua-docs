@@ -7,7 +7,7 @@
 
 #cubrid_lock_write
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_lock_write — Встановлює блокування запису для цього OID
 
@@ -35,24 +35,24 @@ OID екземпляра, на який необхідно встановити 
 
 **Приклад #1 Приклад використання **cubrid_lock_write()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44, 55,66,666}, 'b')"); ($conn, $oid);$attr u003d cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_put($conn, $oid, "b", array(2, 4, 8) );$attr u003d cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(2, {4,5,7}, {44, 55,66,666}, 'b')"); ($conn, $oid);$attr = cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_put($conn, $oid, "b", array(2, 4, 8) );$attr = cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(1) "1"
-[1]u003d>
+[1]=>
 string(1) "2"
-[2]u003d>
+[2]=>
 string(1) "3"
 }
 array(3) {
-[0]u003d>
+[0]=>
 string(1) "2"
-[1]u003d>
+[1]=>
 string(1) "4"
-[2]u003d>
+[2]=>
 string(1) "8"
 }
 

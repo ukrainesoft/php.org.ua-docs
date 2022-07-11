@@ -32,14 +32,14 @@
 абстрактний батьківський клас `Animal`. `Animal` буде розширено за рахунок
 дочірніх класів `Cat` та `Dog`.
 
-`<?phpabstract class Animal{    protected string $name; public function __construct(string $name)    {        $this->name u003d $name; }    abstract public function speak();}class Dog extends Animal{   public function speak()   {         echo $this-> name| "Рає"; }}class Cat extends Animal{    public function speak()    {        echo $this->name . "мяукає"; }} `
+`<?phpabstract class Animal{    protected string $name; public function __construct(string $name)    {        $this->name = $name; }    abstract public function speak();}class Dog extends Animal{   public function speak()   {         echo $this-> name| "Рає"; }}class Cat extends Animal{    public function speak()    {        echo $this->name . "мяукає"; }} `
 
 Зверніть увагу, що у прикладі немає методів, які повертають
 значення. Буде додано кілька фабрик, які повертають новий
 об'єкт типу класу `Animal`, `Cat` або `Dog`.
 
-` <?phpinterface AnimalShelter{    public function adopt(string $name): Animal;}class CatShelter implements AnimalShelter{    public function adopt(string $name): Cat // Возвращаем класс Cat вместо Animal    {        return new Cat($name); }}class DogShelter implements AnimalShelter{    public function adopt(string $name): Dog // Повертаємо класс Dog замість Animal    {               }}$kitty u003d (new CatShelter)->adopt("Рижик");$kitty->speak();echo "
-";$doggy u003d (new DogShelter)->adopt("Бобік");$doggy->speak();
+` <?phpinterface AnimalShelter{    public function adopt(string $name): Animal;}class CatShelter implements AnimalShelter{    public function adopt(string $name): Cat // Возвращаем класс Cat вместо Animal    {        return new Cat($name); }}class DogShelter implements AnimalShelter{    public function adopt(string $name): Dog // Повертаємо класс Dog замість Animal    {               }}$kitty = (new CatShelter)->adopt("Рижик");$kitty->speak();echo "
+";$doggy = (new DogShelter)->adopt("Бобік");$doggy->speak();
 
 Результат виконання цього прикладу:
 
@@ -52,7 +52,7 @@
 `Cat` і `Dog`, ми введемо нові класи `Food` та `AnimalFood` і додамо в
 абстрактний клас `Animal` - новий метод `eat(AnimalFood $food)`.
 
-` <?phpclass Food {}class AnimalFood extends Food {}abstract class Animal{   protected string $name; public function __construct(string $name)    {        $this->name u003d $name; }    public function eat(AnimalFood $food)    {       echo $this->name . "Їсть". get_class($food); }} `
+` <?phpclass Food {}class AnimalFood extends Food {}abstract class Animal{   protected string $name; public function __construct(string $name)    {        $this->name = $name; }    public function eat(AnimalFood $food)    {       echo $this->name . "Їсть". get_class($food); }} `
 
 Щоб побачити суть контраваріантності, ми перевизначимо метод 'eat'
 класу `Dog` таким чином, щоб він міг приймати будь-який об'єкт класу
@@ -62,8 +62,8 @@
 
 Наступний приклад покаже поведінку контраваріантності.
 
-` <?php$kitty u003d (new CatShelter)->adopt("Рижик");$catFood u003d new AnimalFood();$kitty->eat($catFood);echo "
-";$doggy u003d (new DogShelter)->adopt("Бобік");$banana u003d new Food();$doggy->eat($banana); ``
+` <?php$kitty = (new CatShelter)->adopt("Рижик");$catFood = new AnimalFood();$kitty->eat($catFood);echo "
+";$doggy = (new DogShelter)->adopt("Бобік");$banana = new Food();$doggy->eat($banana); ``
 
 Результат виконання цього прикладу:
 

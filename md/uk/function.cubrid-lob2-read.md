@@ -7,7 +7,7 @@
 
 # cubrid_lob2_read
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_read — Читання даних BLOB/CLOB
 
@@ -37,21 +37,21 @@ cubrid_lob2_read — Читання даних BLOB/CLOB
 
 **Приклад #1 Приклад використання **cubrid_lob2_read()** 1**
 
-`<?php// test_lob (id INT, contents CLOB)$conn u003d cubrid_connect("localhost", 33000, "demodb", "public", "");$req u003d cubrid_execute($ ");$row u003d cubrid_fetch_row($req, CUBRID_LOB);print "поточна позиція - " . cubrid_lob2_tell($row[1]) . "
+`<?php// test_lob (id INT, contents CLOB)$conn = cubrid_connect("localhost", 33000, "demodb", "public", "");$req = cubrid_execute($ ");$row = cubrid_fetch_row($req, CUBRID_LOB);print "поточна позиція - " . cubrid_lob2_tell($row[1]) . "
 ";cubrid_lob2_seek($row[1], 10, CUBRID_CURSOR_FIRST);print "
 позиція після руху вперед - " . cubrid_lob2_tell($row[1]) . "
-";$data u003d cubrid_lob2_read($row[1], 12);print "
+";$data = cubrid_lob2_read($row[1], 12);print "
 позиція після читання - " . cubrid_lob2_tell($row[1]) . "
 ";print $data . "
 ";cubrid_lob2_seek($row[1], 5, CUBRID_CURSOR_CURRENT);print "
 позиція після повторного руху вперед - " . cubrid_lob2_tell($row[1]) . "
-";$data u003d cubrid_lob2_read($row[1], 20);print $data . "
+";$data = cubrid_lob2_read($row[1], 20);print $data . "
 ";cubrid_disconnect($conn);?> `
 
 **Приклад #2 Приклад використання **cubrid_lob2_read()** 2**
 
-`<?php// test_lob (id INT, contents CLOB)$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");$req u003d cubrid_execute($ ");$row u003d cubrid_fetch_row($req, CUBRID_LOB);while (true) {   if ($data u003d cubrid_lob2_read($row[1], 1024)    | "
-";    }    elseif ($data u003du003du003d false) {        print "Даних більше ні
+`<?php// test_lob (id INT, contents CLOB)$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");$req = cubrid_execute($ ");$row = cubrid_fetch_row($req, CUBRID_LOB);while (true) {   if ($data = cubrid_lob2_read($row[1], 1024)    | "
+";    }    elseif ($data === false) {        print "Даних більше ні
 ";        break;    }   else {        print "Відбулася помилка
 ";        break;    }}cubrid_disconnect($conn);?> `
 

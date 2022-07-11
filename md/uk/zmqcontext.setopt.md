@@ -7,7 +7,7 @@
 
 # ZMQContext::setOpt
 
-(PECL zmq \>u003d 1.0.4)
+(PECL zmq \>= 1.0.4)
 
 ZMQContext::setOpt — Встановити опцію сокету
 

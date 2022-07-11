@@ -58,18 +58,18 @@ public readonly int `$warning_count`;
 /\* Методи \*/
 
 public [\_\_construct](mysqli.construct.md)(
-string `$hostname` u003d ini_get("mysqli.default_host"),
-string `$username` u003d ini_get("mysqli.default_user"),
-string `$password` u003d ini_get("mysqli.default_pw"),
-string `$database` u003d "",
-int `$port` u003d ini_get("mysqli.default_port"),
-string `$socket` u003d ini_get("mysqli.default_socket")
+string `$hostname` = ini_get("mysqli.default_host"),
+string `$username` = ini_get("mysqli.default_user"),
+string `$password` = ini_get("mysqli.default_pw"),
+string `$database` = "",
+int `$port` = ini_get("mysqli.default_port"),
+string `$socket` = ini_get("mysqli.default_socket")
 )
 
 public [autocommit](mysqli.autocommit.md)(bool `$enable`): bool
 
-public [begin_transaction](mysqli.begin-transaction.md)(int `$flags` u003d
-0, ?string `$name` u003d **`null`**): bool
+public [begin_transaction](mysqli.begin-transaction.md)(int `$flags` =
+0, ?string `$name` = **`null`**): bool
 
 public [change_user](mysqli.change-user.md)(string `$username`, string
 `$password`, ?string `$database`): bool
@@ -78,16 +78,16 @@ public [character_set_name](mysqli.character-set-name.md)(): string
 
 public [close](mysqli.close.md)(): bool
 
-public [commit](mysqli.commit.md)(int `$flags` u003d 0, ?string `$name` u003d
+public [commit](mysqli.commit.md)(int `$flags` = 0, ?string `$name` =
 **`null`**): bool
 
 public [connect](function.mysqli-connect.md)(
-string `$hostname` u003d ini_get("mysqli.default_host"),
-string `$username` u003d ini_get("mysqli.default_user"),
-string `$password` u003d ini_get("mysqli.default_pw"),
-string `$database` u003d "",
-int `$port` u003d ini_get("mysqli.default_port"),
-string `$socket` u003d ini_get("mysqli.default_socket")
+string `$hostname` = ini_get("mysqli.default_host"),
+string `$username` = ini_get("mysqli.default_user"),
+string `$password` = ini_get("mysqli.default_pw"),
+string `$database` = "",
+int `$port` = ini_get("mysqli.default_port"),
+string `$socket` = ini_get("mysqli.default_socket")
 ): void
 
 public [debug](mysqli.debug.md)(string `$options`): bool
@@ -123,24 +123,24 @@ public static [poll](mysqli.poll.md)(
 ?array `&$error`,
 array `&$reject`,
 int `$seconds`,
-int `$microseconds` u003d 0
+int `$microseconds` = 0
 ): int\|false
 
 public [prepare](mysqli.prepare.md)(string `$query`):
 [mysqli_stmt](class.mysqli-stmt.md)\|false
 
-public [query](mysqli.query.md)(string `$query`, int `$result_mode` u003d
+public [query](mysqli.query.md)(string `$query`, int `$result_mode` =
 **`MYSQLI_STORE_RESULT`**):
 [mysqli_result](class.mysqli-result.md)\|bool
 
 public [real_connect](mysqli.real-connect.md)(
-string `$host` u003d ?,
-string `$username` u003d ?,
-string `$passwd` u003d ?,
-string `$dbname` u003d ?,
-int `$port` u003d ?,
-string `$socket` u003d ?,
-int `$flags` u003d ?
+string `$host` = ?,
+string `$username` = ?,
+string `$passwd` = ?,
+string `$dbname` = ?,
+int `$port` = ?,
+string `$socket` = ?,
+int `$flags` = ?
 ): bool
 
 public [real_escape_string](mysqli.real-escape-string.md)(string
@@ -156,8 +156,8 @@ public [refresh](mysqli.refresh.md)(int `$flags`): bool
 public [release_savepoint](mysqli.release-savepoint.md)(string
 `$name`): bool
 
-public [rollback](mysqli.rollback.md)(int `$flags` u003d 0, ?string
-`$name` u003d **`null`**): bool
+public [rollback](mysqli.rollback.md)(int `$flags` = 0, ?string
+`$name` = **`null`**): bool
 
 public [savepoint](mysqli.savepoint.md)(string `$name`): bool
 
@@ -178,7 +178,7 @@ public [stat](mysqli.stat.md)(): string\|false
 public [stmt_init](mysqli.stmt-init.md)():
 [mysqli_stmt](class.mysqli-stmt.md)\|false
 
-public [store_result](mysqli.store-result.md)(int `$mode` u003d 0):
+public [store_result](mysqli.store-result.md)(int `$mode` = 0):
 [mysqli_result](class.mysqli-result.md)\|false
 
 public [thread_safe](mysqli.thread-safe.md)(): bool

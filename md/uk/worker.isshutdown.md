@@ -7,7 +7,7 @@
 
 # Worker::isShutdown
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Worker::isShutdown — Визначення стану
 
@@ -29,7 +29,7 @@ public **Worker::isShutdown**(): bool
 
 **Приклад #1 Визначення стану**
 
-` <?php$worker u003d new Worker();$worker->start();var_dump($worker->isShutdown());$worker->shutdown();var_dump($worker->isShutdown()); `
+` <?php$worker = new Worker();$worker->start();var_dump($worker->isShutdown());$worker->shutdown();var_dump($worker->isShutdown()); `
 
 Результат виконання цього прикладу:
 

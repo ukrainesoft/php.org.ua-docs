@@ -7,7 +7,7 @@
 
 # Yaf_Dispatcher::getRouter
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::getRouter — Отримує екземпляр маршрутизатора
 

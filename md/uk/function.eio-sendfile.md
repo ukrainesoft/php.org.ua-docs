@@ -7,7 +7,7 @@
 
 #eio_sendfile
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_sendfile — Переміщує дані між файлами
 
@@ -20,9 +20,9 @@ $out_fd,
 `$in_fd`,
 int `$offset`,
 int `$length`,
-int `$pri` u003d ?,
-[callable](language.types.callable.md) `$callback` u003d ?,
-string `$data` u003d ?
+int `$pri` = ?,
+[callable](language.types.callable.md) `$callback` = ?,
+string `$data` = ?
 ): resource
 
 **eio_sendfile()** копіює дані з одного файлу до іншого. Дивіться

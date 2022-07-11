@@ -7,7 +7,7 @@
 
 # Memcache::add
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::add — Додати елемент із зазначеним ключем
 
@@ -17,8 +17,8 @@ Memcache::add — Додати елемент із зазначеним ключ
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 **Memcache::add()** записує елемент `var` із зазначеним ключем `key`
@@ -55,7 +55,7 @@ int `$expire` u003d ?
 
 **Приклад #1 Приклад використання **Memcache::add()****
 
-`<?php$memcache_obj u003d memcache_connect("localhost", 11211);/* процедурне API */memcache_add($memcache_obj, 'var_key', 'test'varіable', fal  memcache_obj->add('var_key', 'test variable', false, 30);?> `
+`<?php$memcache_obj = memcache_connect("localhost", 11211);/* процедурне API */memcache_add($memcache_obj, 'var_key', 'test'varіable', fal  memcache_obj->add('var_key', 'test variable', false, 30);?> `
 
 ### Дивіться також
 

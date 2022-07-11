@@ -7,13 +7,13 @@
 
 # ZMQSocket::bind
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::bind — Прив'язка сокету
 
 ### Опис
 
-public **ZMQSocket::bind**(string `$dsn`, bool `$force` u003d **`false`**):
+public **ZMQSocket::bind**(string `$dsn`, bool `$force` = **`false`**):
 [ZMQSocket](class.zmqsocket.md)
 
 Прив'язка сокета до кінцевої точки. Кінцева точка визначається у форматі

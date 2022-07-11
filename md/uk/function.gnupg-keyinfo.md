@@ -8,7 +8,7 @@
 
 #gnupg_keyinfo
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_keyinfo — Повертає масив з інформацією про всі ключі, які
 відповідають заданому шаблону
@@ -36,9 +36,9 @@ gnupg_keyinfo — Повертає масив з інформацією про �
 **Приклад #1 Приклад використання **gnupg_keyinfo()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();$info u003d gnupg_keyinfo($res, 'test');print_r($info);?> `
+` <?php$res = gnupg_init();$info = gnupg_keyinfo($res, 'test');print_r($info);?> `
 
 **Приклад #2 Приклад використання **gnupg_keyinfo()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$info u003d $gpg->keyinfo("test");print_r($info);?> `
+` <?php$gpg = new gnupg();$info = $gpg->keyinfo("test");print_r($info);?> `

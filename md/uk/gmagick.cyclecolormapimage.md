@@ -7,7 +7,7 @@
 
 # Gmagick::cyclecolormapimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::cyclecolormapimage — Зміщує колірну карту зображення
 

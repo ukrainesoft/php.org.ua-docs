@@ -7,7 +7,7 @@
 
 #date_modify
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 date_modify - Псевдонім [DateTime::modify()](datetime.modify.md)
 

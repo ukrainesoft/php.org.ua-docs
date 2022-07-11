@@ -10,7 +10,7 @@ tidy
 
 # tidy_getopt
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::getOpt -- tidy_getopt — Повертає значення вказаного параметра
 конфігурації для документа tidy
@@ -47,7 +47,7 @@ tidy `tidy`.
 
 **Приклад #1 Приклад використання **tidy_getopt()****
 
-` <?php$html u003d'<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head><title>Заголовок</title></head><body>< p><img srcu003d"img.png"></p></body></html>';$config u003d array('accessibility-check' u003d> 3,               'alt-text' u003d> то текст');$tidy u003d new tidy();$tidy->parseString($html, $config);var_dump($tidy->getOpt('accessibility-check')); //integervar_dump($tidy->getOpt('lower-literals')); //booleanvar_dump($tidy->getOpt('alt-text')); //string?> `
+` <?php$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head><title>Заголовок</title></head><body>< p><img src="img.png"></p></body></html>';$config = array('accessibility-check' => 3,               'alt-text' => то текст');$tidy = new tidy();$tidy->parseString($html, $config);var_dump($tidy->getOpt('accessibility-check')); //integervar_dump($tidy->getOpt('lower-literals')); //booleanvar_dump($tidy->getOpt('alt-text')); //string?> `
 
 Результат виконання цього прикладу:
 

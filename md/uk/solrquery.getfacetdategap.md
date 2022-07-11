@@ -7,14 +7,14 @@
 
 # SolrQuery::getFacetDateGap
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetDateGap — Повертає значення параметра
 facet.date.gap
 
 ### Опис
 
-public **SolrQuery::getFacetDateGap**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetDateGap**(string `$field_override` = ?):
 string
 
 Повертає значення facet.date.gap. Він приймає

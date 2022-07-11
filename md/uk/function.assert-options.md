@@ -16,7 +16,7 @@ assert_options — Встановлення та отримання настро
 
 **assert_options**(int `$what`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value u003d ?):
+$value = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Встановлення значень параметрів механізму перевірки тверджень
@@ -38,7 +38,7 @@ $value u003d ?):
 | ASSERT_WARNING    | assert.warning    | 1                         | виведення попередження PHP для кожної невдалої перевірки                 |
 | ASSERT_BAIL       | assert.bail       | 0                         | завершити виконання у разі невдалої перевірки                            |
 | ASSERT_QUIET_EVAL | assert.quiet_eval | 0                         | відключити error_reporting під час перевірки затвердження                |
-| ASSERT_CALLBACK   | assert.callback   | (**`null`**)              | Callback-функція, яку необхідно викликати для затвердження, що провалило |
+| ASSERT_CALLBACK   | assert.callback   | (**null**)                | Callback-функція, яку необхідно викликати для затвердження, що провалило |                                                           
 
 **Налаштування механізму перевірки тверджень**
 
@@ -52,7 +52,7 @@ assert.callback, повинен мати наступний підпис:
 string `$file`,
 int `$line`,
 string `$assertion`,
-string `$description` u003d ?
+string `$description` = ?
 ): void
 
 `file`

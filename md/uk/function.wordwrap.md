@@ -7,7 +7,7 @@
 
 #wordwrap
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 wordwrap — Перенесення рядка за вказаною кількістю символів
 
@@ -15,10 +15,10 @@ wordwrap — Перенесення рядка за вказаною кільк�
 
 **wordwrap**(
 string `$string`,
-int `$width` u003d 75,
-string `$break` u003d "
+int `$width` = 75,
+string `$break` = "
 ",
-bool `$cut_long_words` u003d **`false`**
+bool `$cut_long_words` = **`false`**
 ): string
 
 Переносить рядок за вказаною кількістю символів.
@@ -51,7 +51,7 @@ bool `$cut_long_words` u003d **`false`**
 
 **Приклад #1 Приклад використання **wordwrap()****
 
-` <?php$text u003d "The quick brown fox jumped over the lazy dog.";$newtext u003d wordwrap($text, 20, "<br />
+` <?php$text = "The quick brown fox jumped over the lazy dog.";$newtext = wordwrap($text, 20, "<br />
 ");echo $newtext;?> `
 
 Результат виконання цього прикладу:
@@ -62,7 +62,7 @@ dog.
 
 **Приклад #2 Приклад використання **wordwrap()****
 
-` <?php$text u003d "A very long woooooooooooord.";$newtext u003d wordwrap($text, 8, "
+` <?php$text = "A very long woooooooooooord.";$newtext = wordwrap($text, 8, "
 ", true);echo "$newtext
 ";?> `
 
@@ -75,7 +75,7 @@ ooooord.
 
 **Приклад #3 Приклад використання **wordwrap()****
 
-` <?php$text u003d "A very long woooooooooooooooooord. and something";$newtext u003d wordwrap($text, 8, "
+` <?php$text = "A very long woooooooooooooooooord. and something";$newtext = wordwrap($text, 8, "
 ", false);echo "$newtext
 ";?> `
 

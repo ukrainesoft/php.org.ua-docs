@@ -14,7 +14,7 @@ Imagick::clutImage — Замінює кольори зображення
 ### Опис
 
 public **Imagick::clutImage**([Imagick](class.imagick.md)
-`$lookup_table`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$lookup_table`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Замінює кольори зображення, використовуючи таблицю відповідності.
 Необов'язковий другий параметр замінює кольори у вказаному каналі. Цей
@@ -41,7 +41,7 @@ public **Imagick::clutImage**([Imagick](class.imagick.md)
 
 Заміна кольору зображення, використовуючи таблицю відповідності.
 
-` <?php$image u003d new Imagick('test.jpg');$clut u003d new Imagick();$clut->newImage(1, 1, new ImagickPixel('black'));$image->clutImage( $clut);$image->writeImage('test_out.jpg');?> `
+` <?php$image = new Imagick('test.jpg');$clut = new Imagick();$clut->newImage(1, 1, new ImagickPixel('black'));$image->clutImage( $clut);$image->writeImage('test_out.jpg');?> `
 
 ### Дивіться також
 

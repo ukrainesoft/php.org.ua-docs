@@ -36,7 +36,7 @@ public
 
 **Приклад #1 Приклад використання **ArrayObject::offsetGet()****
 
-` <?php$arrayobj u003d new ArrayObject(array('zero', 7, 'example'u003d>'e.g.'));var_dump($arrayobj->offsetGet(1));var_dump($arrayobj->offsetGet(' example'));var_dump($arrayobj->offsetExists('notfound'));?> `
+` <?php$arrayobj = new ArrayObject(array('zero', 7, 'example'=>'e.g.'));var_dump($arrayobj->offsetGet(1));var_dump($arrayobj->offsetGet(' example'));var_dump($arrayobj->offsetExists('notfound'));?> `
 
 Результат виконання цього прикладу:
 

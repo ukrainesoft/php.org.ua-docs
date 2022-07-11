@@ -7,7 +7,7 @@
 
 # Клас ZMQPoll
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ## Вступ
 
@@ -28,7 +28,7 @@ public [count](zmqpoll.count.md)(): int
 public [getLastErrors](zmqpoll.getlasterrors.md)(): array
 
 public [poll](zmqpoll.poll.md)(array `&$readable`, array `&$writable`,
-int `$timeout` u003d -1): int
+int `$timeout` = -1): int
 
 public
 [remove](zmqpoll.remove.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)

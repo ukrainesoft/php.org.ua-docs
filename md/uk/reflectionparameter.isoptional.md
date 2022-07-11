@@ -7,7 +7,7 @@
 
 # ReflectionParameter::isOptional
 
-(PHP 5 \>u003d 5.0.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.3, PHP 7, PHP 8)
 
 ReflectionParameter::isOptional — Перевіряє, чи є аргумент
 необов'язковим

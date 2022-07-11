@@ -7,7 +7,7 @@
 
 # Клас ZMQContext
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ## Вступ
 
@@ -17,15 +17,15 @@ class **ZMQContext** {
 
 /\* Методи \*/
 
-public [\_\_construct](zmqcontext.construct.md)(int `$io_threads` u003d 1,
-bool `$is_persistent` u003d **`true`**)
+public [\_\_construct](zmqcontext.construct.md)(int `$io_threads` = 1,
+bool `$is_persistent` = **`true`**)
 
 public [getOpt](zmqcontext.getopt.md)(string `$key`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getSocket](zmqcontext.getsocket.md)(int `$type`, string
-`$persistent_id` u003d **`null`**, [callable](language.types.callable.md)
-`$on_new_socket` u003d **`null`**): [ZMQSocket](class.zmqsocket.md)
+`$persistent_id` = **`null`**, [callable](language.types.callable.md)
+`$on_new_socket` = **`null`**): [ZMQSocket](class.zmqsocket.md)
 
 public [isPersistent](zmqcontext.ispersistent.md)(): bool
 

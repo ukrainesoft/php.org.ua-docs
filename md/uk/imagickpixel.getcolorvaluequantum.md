@@ -7,7 +7,7 @@
 
 # ImagickPixel::getColorValueQuantum
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 ImagickPixel::getColorValueQuantum — Опис
 
@@ -33,4 +33,4 @@ ImageMagick був скомпільований з HDRI, інакше ціле �
 **Приклад #1 Приклад використання
 **ImagickPixel::getColorValueQuantum()****
 
-`<?php        $color u003d new \ImagickPixel('rgb(128, 5, 255)'); $colorRedu003du003d$color->getColorValueQuantum(\Imagick::COLOR_RED); $colorGreenu003du003d$color->getColorValueQuantum(\Imagick::COLOR_GREEN); $colorBlueu003du003d$color->getColorValueQuantum(\Imagick::COLOR_BLUE); $colorAlphau003du003d$color->getColorValueQuantum(\Imagick::COLOR_ALPHA); printf(            "Красный: %s Зелёный: %s  Синий %s Альфа: %s",            $colorRed,            $colorGreen,            $colorBlue,            $colorAlpha        );?> `
+`<?php        $color = new \ImagickPixel('rgb(128, 5, 255)'); $colorRed==$color->getColorValueQuantum(\Imagick::COLOR_RED); $colorGreen==$color->getColorValueQuantum(\Imagick::COLOR_GREEN); $colorBlue==$color->getColorValueQuantum(\Imagick::COLOR_BLUE); $colorAlpha==$color->getColorValueQuantum(\Imagick::COLOR_ALPHA); printf(            "Красный: %s Зелёный: %s  Синий %s Альфа: %s",            $colorRed,            $colorGreen,            $colorBlue,            $colorAlpha        );?> `

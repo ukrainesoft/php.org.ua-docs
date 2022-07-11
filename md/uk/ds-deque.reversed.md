@@ -7,7 +7,7 @@
 
 # Ds\Deque::reversed
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::reversed — Повертає перегорнуту копію двосторонньої черги
 
@@ -33,19 +33,19 @@ public **Ds\Deque::reversed**(): [Ds\Deque](class.ds-deque.md)
 
 **Приклад #1 Приклад використання **Ds\Deque::reversed()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);print_r($deque->reversed());print_r($deque);?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);print_r($deque->reversed());print_r($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> c
-[1] u003d> b
-[2] u003d> a
+[0] => c
+[1] => b
+[2] => a
 )
 Ds\Deque Object
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
+[0] => a
+[1] => b
+[2] => c
 )

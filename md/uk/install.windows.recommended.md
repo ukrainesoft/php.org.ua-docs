@@ -18,8 +18,8 @@
 
 **Приклад #1 Рекомендована конфігурація OpCache**
 
-opcache.enableu003dOn
-opcache.enable_cliu003dOn
+opcache.enable=On
+opcache.enable_cli=On
 
 І перезавантажте ваш веб-сервер. Докладніше читайте: [Конфігурація OpCache](opcache.configuration.md)
 
@@ -43,9 +43,9 @@ PHP (extensions_dir у вашому php.ini). Встановіть у вашом
 
 **Приклад #2 Рекомендована конфігурація WinCache**
 
-extensionu003dphp_wincache.dll
-wincache.fcenabledu003d1
-wincache.ocenabledu003d1; видалено у wincache 2.0.0.0
+extension=php_wincache.dll
+wincache.fcenabled=1
+wincache.ocenabled=1; видалено у wincache 2.0.0.0
 
 Докладніше читайте: [Конфігурація WinCache](wincache.configuration.md)
 

@@ -7,7 +7,7 @@
 
 # SplFileObject::key
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::key — Отримати номер рядка
 
@@ -36,7 +36,7 @@ public **SplFileObject::key**(): int
 
 **Приклад #1 Приклад використання **SplFileObject::key()****
 
-` <?php$file u003d new SplFileObject("lipsum.txt");foreach ($file as $line) {    echo $file->key() . ". " . $line;}?> `
+` <?php$file = new SplFileObject("lipsum.txt");foreach ($file as $line) {    echo $file->key() . ". " . $line;}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -48,7 +48,7 @@ public **SplFileObject::key**(): int
 довжини рядка методом
 [SplFileObject::setMaxLineLen()](splfileobject.setmaxlinelen.md)**
 
-` <?php$file u003d new SplFileObject("lipsum.txt");$file->setMaxLineLen(20);foreach ($file as $line) {   echo $file->key() . ". " . $line. "
+` <?php$file = new SplFileObject("lipsum.txt");$file->setMaxLineLen(20);foreach ($file as $line) {   echo $file->key() . ". " . $line. "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

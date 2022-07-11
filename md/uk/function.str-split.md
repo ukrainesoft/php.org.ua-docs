@@ -13,7 +13,7 @@ str_split — Перетворює рядок на масив
 
 ### Опис
 
-**str_split**(string `$string`, int `$length` u003d 1): array
+**str_split**(string `$string`, int `$length` = 1): array
 
 Перетворює рядок на масив.
 
@@ -39,32 +39,32 @@ str_split — Перетворює рядок на масив
 
 **Приклад #1 Приклад використання **str_split()****
 
-` <?php$str u003d "Hello Friend";$arr1 u003d str_split($str);$arr2 u003d str_split($str, 3);print_r($arr1);print_r($arr2);?> `
+` <?php$str = "Hello Friend";$arr1 = str_split($str);$arr2 = str_split($str, 3);print_r($arr1);print_r($arr2);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> H
-[1] u003d> e
-[2] u003d> l
-[3] u003d> l
-[4] u003d> o
-[5] u003d>
-[6] u003d> F
-[7] u003d> r
-[8] u003d> i
-[9] u003d> e
-[10] u003d> n
-[11] u003d> d
+[0] => H
+[1] => e
+[2] => l
+[3] => l
+[4] => o
+[5] =>
+[6] => F
+[7] => r
+[8] => i
+[9] => e
+[10] => n
+[11] => d
 )
 
 Array
 (
-[0] u003d> Hel
-[1] u003d> lo
-[2] u003d> Fri
-[3] u003d> end
+[0] => Hel
+[1] => lo
+[2] => Fri
+[3] => end
 )
 
 ### Примітки

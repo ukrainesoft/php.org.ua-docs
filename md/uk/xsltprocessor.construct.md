@@ -27,4 +27,4 @@ XSLTProcessor
 
 **Приклад #1 Створює [XSLTProcessor](class.xsltprocessor.md)**
 
-` <?php$xsldoc u003d new DOMDocument();$xsldoc->load($xsl_filename);$xmldoc u003d new DOMDocument();$xmldoc->load($xml_filename);$xsl u003d new XS$ ->importStyleSheet($xsldoc);echo $xsl->transformToXML($xmldoc);?> `
+` <?php$xsldoc = new DOMDocument();$xsldoc->load($xsl_filename);$xmldoc = new DOMDocument();$xmldoc->load($xml_filename);$xsl = new XS$ ->importStyleSheet($xsldoc);echo $xsl->transformToXML($xmldoc);?> `

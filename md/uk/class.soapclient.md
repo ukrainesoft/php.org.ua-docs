@@ -20,81 +20,81 @@ class **SoapClient** {
 
 /\* Властивості \*/
 
-private ?string `$uri` u003d null;
+private ?string `$uri` = null;
 
-private ?int `$style` u003d null;
+private ?int `$style` = null;
 
-private ?int `$use` u003d null;
+private ?int `$use` = null;
 
-private ?string `$location` u003d null;
+private ?string `$location` = null;
 
-private bool `$trace` u003d false;
+private bool `$trace` = false;
 
-private ?int `$compression` u003d null;
+private ?int `$compression` = null;
 
-private ?resource `$sdl` u003d null;
+private ?resource `$sdl` = null;
 
-private ?resource `$typemap` u003d null;
+private ?resource `$typemap` = null;
 
-private ?resource `$httpsocket` u003d null;
+private ?resource `$httpsocket` = null;
 
-private ?resource `$httpurl` u003d null;
+private ?resource `$httpurl` = null;
 
-private ?string `$_login` u003d null;
+private ?string `$_login` = null;
 
-private ?string `$_password` u003d null;
+private ?string `$_password` = null;
 
-private bool `$_use_digest` u003d false;
+private bool `$_use_digest` = false;
 
-private ?string `$_digest` u003d null;
+private ?string `$_digest` = null;
 
-private ?string `$_proxy_host` u003d null;
+private ?string `$_proxy_host` = null;
 
-private ?int `$_proxy_port` u003d null;
+private ?int `$_proxy_port` = null;
 
-private ?string `$_proxy_login` u003d null;
+private ?string `$_proxy_login` = null;
 
-private ?string `$_proxy_password` u003d null;
+private ?string `$_proxy_password` = null;
 
-private bool `$_exceptions` u003d true;
+private bool `$_exceptions` = true;
 
-private ?string `$_encoding` u003d null;
+private ?string `$_encoding` = null;
 
-private ?array `$_classmap` u003d null;
+private ?array `$_classmap` = null;
 
-private ?int `$_features` u003d null;
+private ?int `$_features` = null;
 
 private int `$_connection_timeout`;
 
-private ?resource `$_stream_context` u003d null;
+private ?resource `$_stream_context` = null;
 
-private ?string `$_user_agent` u003d null;
+private ?string `$_user_agent` = null;
 
-private bool `$_keep_alive` u003d true;
+private bool `$_keep_alive` = true;
 
-private ?int `$_ssl_method` u003d null;
+private ?int `$_ssl_method` = null;
 
 private int `$_soap_version`;
 
-private ?int `$_use_proxy` u003d null;
+private ?int `$_use_proxy` = null;
 
-private array `$_cookies` u003d [];
+private array `$_cookies` = [];
 
-private ?array `$__default_headers` u003d null;
- private ?[SoapFault](class.soapfault.md) `$__soap_fault` u003d null;
+private ?array `$__default_headers` = null;
+ private ?[SoapFault](class.soapfault.md) `$__soap_fault` = null;
 
-private ?string `$__last_request` u003d null;
+private ?string `$__last_request` = null;
 
-private ?string `$__last_response` u003d null;
+private ?string `$__last_response` = null;
 
-private ?string `$__last_request_headers` u003d null;
+private ?string `$__last_request_headers` = null;
 
-private ?string `$__last_response_headers` u003d null;
+private ?string `$__last_response_headers` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](soapclient.construct.md)(?string `$wsdl`, array
-`$options` u003d [])
+`$options` = [])
  public [\_\_call](soapclient.call.md)(string `$name`, array `$args`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -103,7 +103,7 @@ string `$request`,
 string `$location`,
 string `$action`,
 int `$version`,
-bool `$oneWay` u003d **`false`**
+bool `$oneWay` = **`false`**
 ): ?string
 
 public [\_\_getCookies](soapclient.getcookies.md)(): array
@@ -125,22 +125,22 @@ public
 public [\_\_getTypes](soapclient.gettypes.md)(): ?array
 
 public [\_\_setCookie](soapclient.setcookie.md)(string `$name`,
-?string `$value` u003d **`null`**): void
+?string `$value` = **`null`**): void
 
 public [\_\_setLocation](soapclient.setlocation.md)(?string
-`$location` u003d **`null`**): ?string
+`$location` = **`null`**): ?string
 
 public
 [\_\_setSoapHeaders](soapclient.setsoapheaders.md)([SoapHeader](class.soapheader.md)\|array\|null
-`$headers` u003d **`null`**): bool
+`$headers` = **`null`**): bool
 
 public [\_\_soapCall](soapclient.soapcall.md)(
 string `$name`,
 array `$args`,
-?array `$options` u003d **`null`**,
-[SoapHeader](class.soapheader.md)\|array\|null `$inputHeaders` u003d
+?array `$options` = **`null`**,
+[SoapHeader](class.soapheader.md)\|array\|null `$inputHeaders` =
 **`null`**,
-array `&$outputHeaders` u003d **`null`**
+array `&$outputHeaders` = **`null`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

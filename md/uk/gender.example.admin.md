@@ -11,7 +11,7 @@
 
 **Приклад #1 Приклад використання.**
 
-` <?phpnamespace Gender;$gender u003d new Gender;$name u003d "Milene";$country u003d Gender::FRANCE;$result u003d $gender->get($name, $country);$data u003d $gender-> country ($country);
+` <?phpnamespace Gender;$gender = new Gender;$name = "Milene";$country = Gender::FRANCE;$result = $gender->get($name, $country);$data = $gender-> country ($country);
 ", $name, $data['country']);    break;    case Gender::IS_MOSTLY_FEMALE:        printf("%s  - це швидше                         —яКІЯ
 ", $name, $data['country']);    break;    case Gender::IS_MALE:         printf("%s - це чоловіче ім'я в 
 ", $name, $data['country']);    break;    case Gender::IS_MOSTLY_MALE:        printf("%s  - це скоріше всього  

@@ -7,7 +7,7 @@
 
 # EvLoop::backend
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::backend — Повертає ціле число, що описує бекенд,
 використовуваний libev

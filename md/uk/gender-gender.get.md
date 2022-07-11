@@ -7,13 +7,13 @@
 
 # Gender\Gender::get
 
-(PECL gender \>u003d 0.6.0)
+(PECL gender \>= 0.6.0)
 
 Gender\Gender::get — Отримати підлогу на ім'я
 
 ### Опис
 
-public **Gender\Gender::get**(string `$name`, int `$country` u003d ?): int
+public **Gender\Gender::get**(string `$name`, int `$country` = ?): int
 
 Отримати підлогу на ім'я в заданій країні.
 

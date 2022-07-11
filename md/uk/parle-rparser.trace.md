@@ -7,7 +7,7 @@
 
 # Parle\RParser::trace
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::trace — Слідкує за роботою парсера
 

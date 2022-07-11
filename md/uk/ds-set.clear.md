@@ -7,7 +7,7 @@
 
 # Ds\Set::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::clear — Видаляє всі значення колекції.
 
@@ -29,15 +29,15 @@ public **Ds\Set::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\Set::clear()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);print_r($set);$set->clear();print_r($set);?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);print_r($set);$set->clear();print_r($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Set Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Set Object
 (

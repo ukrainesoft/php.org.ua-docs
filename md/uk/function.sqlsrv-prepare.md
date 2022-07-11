@@ -16,8 +16,8 @@ sqlsrv_prepare — Підготовка запиту до виконання
 **sqlsrv_prepare**(
 resource `$conn`,
 string `$sql`,
-array `$params` u003d ?,
-array `$options` u003d ?
+array `$params` = ?,
+array `$options` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -45,12 +45,12 @@ array `$options` u003d ?
 
 У наступній таблиці описані елементи у структурі масиву вище:
 
-| Елемент Опис |
-|-----------------------------|------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------|
-| $value | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням. |
-| $direction (необов'язковий) Одна з наступних констант SQLSRV, які використовуються для вказівки напряму параметра: SQLSRV_PARAM_IN, SQLSRV_PARAM_OUT, SQLSRV_PARAM_INOUT. Значення за промовчанням - SQLSRV_PARAM_IN. |
-| $phpType (необов'язковий) | Константа SQLSRV_PHPTYPE\_\*, що вказує тип даних PHP значення, що повертається. |
-| $sqlType (необов'язковий) | Константа SQLSRV_SQLTYPE\_\*, яка вказує тип даних SQL Server вхідного значення. |
+| Елемент Опис                                                                                                                                                                                                          |                                                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| $value                                                                                                                                                                                                                | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням.             |
+| $direction (необов'язковий) Одна з наступних констант SQLSRV, які використовуються для вказівки напряму параметра: SQLSRV_PARAM_IN, SQLSRV_PARAM_OUT, SQLSRV_PARAM_INOUT. Значення за промовчанням - SQLSRV_PARAM_IN. |                                                                                  |
+| $phpType (необов'язковий)                                                                                                                                                                                             | Константа SQLSRV_PHPTYPE\_\*, що вказує тип даних PHP значення, що повертається. |
+| $sqlType (необов'язковий)                                                                                                                                                                                             | Константа SQLSRV_SQLTYPE\_\*, яка вказує тип даних SQL Server вхідного значення. |
 
 **Структура масиву**
 
@@ -58,11 +58,11 @@ array `$options` u003d ?
 Масив, визначальний параметри властивостей запиту. Підтримувані ключі
 описані в наступній таблиці:
 
-| Ключ                   | Значення                                                                                     | Опис                                                                                                                                                                                                                                                                                                       |
-| ---------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| QueryTimeout           | Позитивне ціле значення.                                                                     | Встановлює час очікування на запит у секундах. За замовчуванням драйвер очікуватиме результатів нескінченно.                                                                                                                                                                                               |
-| SendStreamParamsAtExec | **`true`** або **`false`** (за замовчуванням **`true`**)                                     | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**`true`**) або для надсилання даних потоку частинами (**`false`**). За замовчуванням встановлено значення **true**. Для отримання додаткової інформації дивіться [sqlsrv_send_stream_data()](function.sqlsrv-send-stream-data.md). |
-| Scrollable             | SQLSRV_CURSOR_FORWARD, SQLSRV_CURSOR_STATIC, SQLSRV_CURSOR_DYNAMIC, або SQLSRV_CURSOR_KEYSET | Дивіться [»Вказівка типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                                  |
+| Ключ                   | Значення                                                                                     | Опис                                                                                                                                                                                                                                                                                                   |
+| ---------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| QueryTimeout           | Позитивне ціле значення.                                                                     | Встановлює час очікування на запит у секундах. За замовчуванням драйвер очікуватиме результатів нескінченно.                                                                                                                                                                                           |
+| SendStreamParamsAtExec | **true** або **false** (за замовчуванням **true**)                                           | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**true**) або для надсилання даних потоку частинами (**false**). За замовчуванням встановлено значення **true**. Для отримання додаткової інформації дивіться [sqlsrv_send_stream_data()](function.sqlsrv-send-stream-data.md). |                                                                                                                                           
+| Scrollable             | SQLSRV_CURSOR_FORWARD, SQLSRV_CURSOR_STATIC, SQLSRV_CURSOR_DYNAMIC, або SQLSRV_CURSOR_KEYSET | Дивіться [»Вказівка типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                              |
 
 **Опції запиту**
 
@@ -80,7 +80,7 @@ array `$options` u003d ?
 значеннями параметрів) за допомогою
 [sqlsrv_execute()](function.sqlsrv-execute.md).
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false) {    die( print_r( sqlsrv_errors(), true));}$sql u003d "UPDATE Table_1        SET OrderQty u003d ?        WHERE SalesOrderID u003d ?";// Инициализация параметрів і підготовка запиту.// Змінні $qty і $id пов'язані з оператором $stmt.$qty u003d 0; $id u003d 0;$stmt u003d sqlsrv_prepare( $conn, $sql, array( &$qty, &$id));if( !$stmt ) {    die( print_r( sqlsrv_error) Налаштування інформації SalesOrderDetailID і OrderQty.// Цей масив порівняє ідентифікатор замовлення з кількістю замовлення в парах ключ|u003d1u003d3               заказа.foreach( $orders as $id u003d> $qty) {     // Оскільки $id і $qty прив'язані к $stmt1,    // их оновлені | if( sqlsrv_execute( $stmt ) u003du003du003du003dfalse ) {         die( print_r( sqlsrv_errors(), true)); }}?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false) {    die( print_r( sqlsrv_errors(), true));}$sql = "UPDATE Table_1        SET OrderQty = ?        WHERE SalesOrderID = ?";// Инициализация параметрів і підготовка запиту.// Змінні $qty і $id пов'язані з оператором $stmt.$qty = 0; $id = 0;$stmt = sqlsrv_prepare( $conn, $sql, array( &$qty, &$id));if( !$stmt ) {    die( print_r( sqlsrv_error) Налаштування інформації SalesOrderDetailID і OrderQty.// Цей масив порівняє ідентифікатор замовлення з кількістю замовлення в парах ключ|=1=3               заказа.foreach( $orders as $id => $qty) {     // Оскільки $id і $qty прив'язані к $stmt1,    // их оновлені | if( sqlsrv_execute( $stmt ) ====false ) {         die( print_r( sqlsrv_errors(), true)); }}?> `
 
 ### Примітки
 

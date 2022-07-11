@@ -32,4 +32,4 @@ public **Imagick::oilPaintImage**(float `$radius`): bool
 
 **Приклад #1 Приклад використання **Imagick::oilPaintImage()****
 
-`<?phpfunction oilPaintImage($imagePath, $radius) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->oilPaintImage($radius); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction oilPaintImage($imagePath, $radius) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->oilPaintImage($radius); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

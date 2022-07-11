@@ -7,7 +7,7 @@
 
 # sodium_crypto_generichash_update
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_generichash_update — Додати повідомлення до хешу
 
@@ -37,7 +37,7 @@ sodium_crypto_generichash_update — Додати повідомлення до 
 **Приклад #1 Приклад використання
 **sodium_crypto_generichash_update()****
 
-`<?php$messages u003d [random_bytes(32), random_bytes(32), random_bytes(16)];$state u003d sodium_crypto_generichash_init();foreach ($messages as $message$ $finalu003du003dsodium_crypto_generichash_final($state);var_dump(sodium_bin2hex($final));$allAtOnceu003du003dsodium_crypto_generichash(implode('', $messages));var_dump(sodium_bin2h>
+`<?php$messages = [random_bytes(32), random_bytes(32), random_bytes(16)];$state = sodium_crypto_generichash_init();foreach ($messages as $message$ $final==sodium_crypto_generichash_final($state);var_dump(sodium_bin2hex($final));$allAtOnce==sodium_crypto_generichash(implode('', $messages));var_dump(sodium_bin2h>
 
 Результатом виконання цього прикладу буде щось подібне:
 

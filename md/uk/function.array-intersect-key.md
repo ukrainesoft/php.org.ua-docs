@@ -7,7 +7,7 @@
 
 #array_intersect_key
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 array_intersect_key — Обчислити перетин масивів, порівнюючи ключі
 
@@ -35,14 +35,14 @@ array_intersect_key — Обчислити перетин масивів, пор
 
 **Приклад #1 Приклад використання **array_intersect_key()****
 
-` <?php$array1 u003d array('blue'  u003d> 1, 'red'  u003d> 2, 'green'  u003d> 3, 'purple' u003d> 4);$array2 u003d array('green' u003d> 'blue' u003d> 6, 'yellow' u003d> 7,''yan'   u003d> 8);var_dump(array_intersect_key($array1, $array2));?> `
+` <?php$array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3, 'purple' => 4);$array2 = array('green' => 'blue' => 6, 'yellow' => 7,''yan'   => 8);var_dump(array_intersect_key($array1, $array2));?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["blue"]u003d>
+["blue"]=>
 int(1)
-["green"]u003d>
+["green"]=>
 int(3)
 }
 
@@ -52,8 +52,8 @@ int(3)
 масивах. Збіг все одно відбувається, тому що порівнюються тільки
 ключі. Значення, що повертаються, беруться з `array`.
 
-Два ключі пар `key u003d> value` вважаються рівними тільки якщо
-`(string) $key1 u003du003du003d (string) $key2`. Іншими словами, застосовується
+Два ключі пар `key => value` вважаються рівними тільки якщо
+`(string) $key1 === (string) $key2`. Іншими словами, застосовується
 сувора перевірка, що означає, що строкові уявлення мають бути
 однаковими.
 

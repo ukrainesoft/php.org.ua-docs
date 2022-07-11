@@ -7,7 +7,7 @@
 
 # Gmagick::addimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::addimage — Додавання нового зображення до списку зображень
 об'єкту Gmagick

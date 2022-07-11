@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::\_\_destruct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::\_\_destruct — Знищує HTTP-клієнт
 

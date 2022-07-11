@@ -7,13 +7,13 @@
 
 # Yaf_Request_Http::get
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Http::get — Отримує змінну від клієнта
 
 ### Опис
 
-public **Yaf_Request_Http::get**(string `$name`, string `$default` u003d ?):
+public **Yaf_Request_Http::get**(string `$name`, string `$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримуючи змінну від клієнта, метод шукатиме `name` у параметрах

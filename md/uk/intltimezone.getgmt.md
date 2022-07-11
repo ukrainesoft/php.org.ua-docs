@@ -9,7 +9,7 @@
 
 # intltz_get_gmt
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::getGMT -- intltz_get_gmt — Створити часовий пояс по GMT
 (UTC)

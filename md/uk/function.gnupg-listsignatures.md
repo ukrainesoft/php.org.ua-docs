@@ -7,7 +7,7 @@
 
 #gnupg_listsignatures
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_listsignatures — Перерахунок підпису ключа
 
@@ -34,9 +34,9 @@ gnupg_listsignatures — Перерахунок підпису ключа
 **Приклад #1 Приклад використання **gnupg_listsignatures()** в
 процедурному стилі**
 
-` <?php$res u003d gnupg_init();$signatures u003d gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);
+` <?php$res = gnupg_init();$signatures = gnupg_listsignatures($res, "8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);
 
 **Приклад #2 Приклад використання **gnupg_listsignatures()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$signatures u003d $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);
+` <?php$gpg = new gnupg();$signatures = $gpg->listsignatures("8660281B6051D071D94B5B230549F9DC851566DC");print_r($signatures);

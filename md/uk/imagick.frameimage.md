@@ -62,4 +62,4 @@ int `$outer_bevel`
 
 **Приклад #1 Приклад використання **Imagick::frameImage()****
 
-`<?phpfunction frameImage($imagePath, $color, $width, $height, $innerBevel, $outerBevel) {    $imagick u003d new \Imagick(realpath($imagePath)); $width u003d $width + $innerBevel + $outerBevel; $height u003d $height + $innerBevel + $outerBevel; $imagick->frameimage(    $height,                                  | header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction frameImage($imagePath, $color, $width, $height, $innerBevel, $outerBevel) {    $imagick = new \Imagick(realpath($imagePath)); $width = $width + $innerBevel + $outerBevel; $height = $height + $innerBevel + $outerBevel; $imagick->frameimage(    $height,                                  | header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

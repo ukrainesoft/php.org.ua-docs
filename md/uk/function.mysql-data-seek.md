@@ -33,7 +33,7 @@ mysql_data_seek — Переміщує внутрішній покажчик у 
 Нумерація `row_number` починається з 0. `row_number` має бути
 значенням у діапазоні від 0 до
 [mysql_num_rows()](function.mysql-num-rows.md) - 1. Однак, якщо
-результат порожній ([mysql_num_rows()](function.mysql-num-rows.md) u003du003d 0),
+результат порожній ([mysql_num_rows()](function.mysql-num-rows.md) == 0),
 то спроба зсуву покажчика до нульового ряду завершиться невдачею – буде
 викликана помилка рівня **`E_WARNING`** та **mysql_data_seek()** поверне
 **`false`**.
@@ -57,8 +57,8 @@ mysql_data_seek — Переміщує внутрішній покажчик у 
 
 **Приклад #1 Приклад використання **mysql_data_seek()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}$db_selected ');if(!$db_selected) {   die('Не вдалося вибрати базу даних: mysql_error());}$queryu003du003d'SELECT last_name, !$result) {    die('Помилка запиту: ' . mysql_error());}/* отримання рядів в зворотному порядку */for ($i u003d mysql_num_rows($result)> $$ $$  -) {    if (!mysql_data_seek($result, $i)) {       echo "Не удалося переміститися до ряду $i: " . mysql_error() . "
-";        continue;    }    if (!($row u003d mysql_fetch_assoc($result))) {        continue;    }    echo $row['last_name'] . ' ' . $row['first_name'] . "<br />
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}$db_selected ');if(!$db_selected) {   die('Не вдалося вибрати базу даних: mysql_error());}$query=='SELECT last_name, !$result) {    die('Помилка запиту: ' . mysql_error());}/* отримання рядів в зворотному порядку */for ($i = mysql_num_rows($result)> $$ $$  -) {    if (!mysql_data_seek($result, $i)) {       echo "Не удалося переміститися до ряду $i: " . mysql_error() . "
+";        continue;    }    if (!($row = mysql_fetch_assoc($result))) {        continue;    }    echo $row['last_name'] . ' ' . $row['first_name'] . "<br />
 ";} mysql_free_result($result);?> `
 
 ### Примітки

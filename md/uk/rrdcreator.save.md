@@ -7,7 +7,7 @@
 
 # RRDCreator::save
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDCreator::save — Зберігає базу даних RRD у файл
 

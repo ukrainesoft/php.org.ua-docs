@@ -7,7 +7,7 @@
 
 # Інтерфейс MongoDB\Driver\Exception\Exception
 
-(mongodb \>u003d 1.0.0)
+(mongodb \>= 1.0.0)
 
 ## Вступ
 

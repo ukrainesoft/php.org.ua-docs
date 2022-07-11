@@ -7,7 +7,7 @@
 
 #ps_delete
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_delete — Видалення всіх ресурсів документа PostScript
 

@@ -15,7 +15,7 @@ asort — Сортує масив у порядку зростання та пі
 
 ### Опис
 
-**asort**(array `&$array`, int `$flags` u003d **`SORT_REGULAR`**): bool
+**asort**(array `&$array`, int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує `array` у порядку зростання, щоб його ключі зберігали свою
 кореляцію зі значеннями, із якими вони пов'язані.
@@ -66,15 +66,15 @@ asort — Сортує масив у порядку зростання та пі
 
 **Приклад #1 Приклад використання **asort()****
 
-` <?php$fruits u003d array("d" u003d> "lemon", "a" u003d> "orange", "b" u003d> "banana", "c" u003d> "apple");asort($fruits );foreach ($fruits as $key u003d> $val) {    echo "$key u003d $val
+` <?php$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");asort($fruits );foreach ($fruits as $key => $val) {    echo "$key = $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-c u003d apple
-b u003d banana
-d u003d lemon
-a u003d orange
+c = apple
+b = banana
+d = lemon
+a = orange
 
 Назви фруктів були відсортовані в алфавітному порядку та ключі,
 пов'язані з елементами були збережені.

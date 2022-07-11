@@ -15,7 +15,7 @@ SimpleXMLElement::asXML — Повертає сформований XML-доку
 
 ### Опис
 
-public **SimpleXMLElement::asXML**(?string `$filename` u003d **`null`**):
+public **SimpleXMLElement::asXML**(?string `$filename` = **`null`**):
 string\|bool
 
 Метод `asXML` задає формат даних батьківських об'єктів у версії XML
@@ -36,19 +36,19 @@ string\|bool
 
 ### Список змін
 
-| Версія | Опис                                      |
-| ------ | ----------------------------------------- |
-| 8.0.0  | `filename` тепер припускає значення null. |
+| Версія | Опис                                    |
+| ------ | --------------------------------------- |
+| 8.0.0  | filename тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Отримання XML**
 
-` <?php$string u003d <<<XML<a> <b> <c>текст</c>  <c>штучка</c> </b> <d>  <c>код</c> </ d></a>XML;$xml u003d new SimpleXMLElement($string);echo $xml->asXML();?> `
+` <?php$string = <<<XML<a> <b> <c>текст</c>  <c>штучка</c> </b> <d>  <c>код</c> </ d></a>XML;$xml = new SimpleXMLElement($string);echo $xml->asXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <a>
 <b>
 <c>текст</c>
@@ -64,7 +64,7 @@ string\|bool
 **Приклад #2 Використання asXML() з результатами
 [SimpleXMLElement::xpath()](simplexmlelement.xpath.md)**
 
-` <?php// Продовження прикладу XML вище./* Пошук <a><b><c> */$result u003d $xml->xpath('/a/b/c');foreach ($result as $ node) {    echo $node->asXML();}?> `
+` <?php// Продовження прикладу XML вище./* Пошук <a><b><c> */$result = $xml->xpath('/a/b/c');foreach ($result as $ node) {    echo $node->asXML();}?> `
 
 Результат виконання цього прикладу:
 

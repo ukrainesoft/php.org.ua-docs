@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::current
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::current — Повертає індекс поточної позиції
 

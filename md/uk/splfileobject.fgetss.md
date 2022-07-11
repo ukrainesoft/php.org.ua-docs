@@ -7,7 +7,7 @@
 
 # SplFileObject::fgetss
 
-(PHP 5 \>u003d 5.1.0, PHP 7)
+(PHP 5 \>= 5.1.0, PHP 7)
 
 SplFileObject::fgetss — Отримати рядок із файлу та видалити теги HTML
 
@@ -18,7 +18,7 @@ SplFileObject::fgetss — Отримати рядок із файлу та ви�
 
 ### Опис
 
-public **SplFileObject::fgetss**(string `$allowable_tags` u003d ?): string
+public **SplFileObject::fgetss**(string `$allowable_tags` = ?): string
 
 Робота функції ідентична
 [SplFileObject::fgets()](splfileobject.fgets.md) за винятком того,
@@ -46,7 +46,7 @@ and as such is not equivalent to calling
 
 **Приклад #1 Приклад використання **SplFileObject::fgetss()****
 
-` <?php$str u003d <<<EOD<html><body> <p>Ласкаво просимо! Сьогодні <?php echo(date('jS')); ?> <?u003d date('F'); ?>.</p></body></html>Текст поза блоком HTML.EOD;file_put_contents("sample.php", $str);$file u003d new SplFileObject("sample.php");while (! $file->eof()) {   echo $file->fgetss();}?> `
+` <?php$str = <<<EOD<html><body> <p>Ласкаво просимо! Сьогодні <?php echo(date('jS')); ?> <?= date('F'); ?>.</p></body></html>Текст поза блоком HTML.EOD;file_put_contents("sample.php", $str);$file = new SplFileObject("sample.php");while (! $file->eof()) {   echo $file->fgetss();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

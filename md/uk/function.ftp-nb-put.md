@@ -7,7 +7,7 @@
 
 #ftp_nb_put
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 ftp_nb_put — Завантажує файл на FTP-сервер в асинхронному режимі
 
@@ -17,8 +17,8 @@ ftp_nb_put — Завантажує файл на FTP-сервер в асинх
 [FTP\Connection](class.ftp-connection.md) `$ftp`,
 string `$remote_filename`,
 string `$local_filename`,
-int `$mode` u003d **`FTP_BINARY`**,
-int `$offset` u003d 0
+int `$mode` = **`FTP_BINARY`**,
+int `$offset` = 0
 ): int\|false
 
 **ftp_nb_put()** завантажує локальний файл на сервер FTP.
@@ -52,20 +52,20 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_nb_put()****
 
-` <?php// Початок завантаження$ret u003d ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);while ($ret u003du003d FTP_MOREDATA) {     echo "."; // Продовження завантаження ...   $ret u003d ftp_nb_continue($ftp);}if ($ret !u003d FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
+` <?php// Початок завантаження$ret = ftp_nb_put($ftp, "test.remote", "test.local", FTP_BINARY);while ($ret == FTP_MOREDATA) {     echo "."; // Продовження завантаження ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
 
 **Приклад #2 Відновлення завантаження файлу за допомогою **ftp_nb_put()****
 
-` <?php// Начало загрузки$ret u003d ftp_nb_put($ftp, "test.remote", "test.local",                      FTP_BINARY, ftp_size("test.remote"));// ИЛИ: $ret u003d ftp_nb_put($ ftp, "test.remote", "test.local",//                           FTP_BINARY, FTP_AUTORESUME);while ($ret u003du003d FTP_MOREDATA) {   // Производим какие-то действия ...   echo "."; // Продовження завантаження ...   $ret u003d ftp_nb_continue($ftp);}if ($ret !u003d FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
+` <?php// Начало загрузки$ret = ftp_nb_put($ftp, "test.remote", "test.local",                      FTP_BINARY, ftp_size("test.remote"));// ИЛИ: $ret = ftp_nb_put($ ftp, "test.remote", "test.local",//                           FTP_BINARY, FTP_AUTORESUME);while ($ret == FTP_MOREDATA) {   // Производим какие-то действия ...   echo "."; // Продовження завантаження ...   $ret = ftp_nb_continue($ftp);}if ($ret != FTP_FINISHED) {   echo "При завантаженні файлу відбулася..." exit(1);}?> `
 
 ### Дивіться також
 

@@ -41,22 +41,22 @@ public **mysql_xdevapi\CollectionModify::bind**(array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionModify::bind()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$result u003d  {"name":   "Bernie",    "traits": ["Friend", "Brother", "Human"]}') ->execute();$collection  ->modify("name u003d :name")  bind(['name' u003d> 'Bernie']) ->arrayAppend('traits', 'Happy') ->execute();$result u003d $collection  ->find() --execute();print_r($ result->fetchAll());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result =  {"name":   "Bernie",    "traits": ["Friend", "Brother", "Human"]}') ->execute();$collection  ->modify("name = :name")  bind(['name' => 'Bernie']) ->arrayAppend('traits', 'Happy') ->execute();$result = $collection  ->find() --execute();print_r($ result->fetchAll());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[_id] u003d> 00005b6b5361000000000000110
-[name] u003d> Bernie
-[traits] u003d> Array
+[_id] => 00005b6b5361000000000000110
+[name] => Bernie
+[traits] => Array
 (
-[0] u003d> Friend
-[1] u003d> Brother
-[2] u003d> Human
-[3] u003d> Happy
+[0] => Friend
+[1] => Brother
+[2] => Human
+[3] => Happy
 )
 )
 )

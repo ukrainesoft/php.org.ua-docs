@@ -15,7 +15,7 @@ SolrDisMaxQuery::addTrigramPhraseField — Додає поле триграми
 ### Опис
 
 public **SolrDisMaxQuery::addTrigramPhraseField**(string `$field`,
-string `$boost`, string `$slop` u003d ?):
+string `$boost`, string `$slop` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 Додає поле триграми (параметр pf3)
@@ -40,11 +40,11 @@ string `$boost`, string `$slop` u003d ?):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::addTrigramPhraseField()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->addTrigramPhraseField('cat', 2, 5.1)->addTrigramPhraseField('feature', 4.5);'o|
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addTrigramPhraseField('cat', 2, 5.1)->addTrigramPhraseField('feature', 4.5);'o|
 
 Результат виконання цього прикладу:
 
-qu003dlucene&defTypeu003d%s&pf3u003dcat~5.1^2 feature^4.5
+q=lucene&defType=%s&pf3=cat~5.1^2 feature^4.5
 
 ### Дивіться також
 

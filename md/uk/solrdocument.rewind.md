@@ -7,7 +7,7 @@
 
 # SolrDocument::rewind
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::rewind — Скидає внутрішній покажчик на початок
 

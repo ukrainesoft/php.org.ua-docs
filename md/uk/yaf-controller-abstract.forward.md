@@ -7,23 +7,23 @@
 
 # Yaf_Controller_Abstract::forward
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Controller_Abstract::forward — Переходить до іншої дії
 
 ### Опис
 
 public **Yaf_Controller_Abstract::forward**(string `$action`, array
-`$paramters` u003d ?): bool
+`$paramters` = ?): bool
 
 public **Yaf_Controller_Abstract::forward**(string `$controller`, string
-`$action`, array `$paramters` u003d ?): bool
+`$action`, array `$paramters` = ?): bool
 
 public **Yaf_Controller_Abstract::forward**(
 string `$module`,
 string `$controller`,
 string `$action`,
-array `$paramters` u003d ?
+array `$paramters` = ?
 ): bool
 
 Перенаправляє поточний процес виконання на іншу дію.
@@ -58,7 +58,7 @@ array `$paramters` u003d ?
 **Приклад #1 Приклад використання
 **Yaf_Controller_Abstract::forward()****
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract{    public function indexAction(){         $logined u003d $_SESSION["login"]; if (!$logined) {              $this->forward("login", array("from" u003d> "Index")); // вперед до дії login              return FALSE; // это важно, это закончить текущий рабочий поток                            // и сказать Yaf не делать авторендеринг         }         // other processes    }    public function loginAction() {         echo "Вход, перенаправлено с действия ", $this->_request->getParam("from "); }}?> `
+` <?phpclass IndexController extends Yaf_Controller_Abstract{    public function indexAction(){         $logined = $_SESSION["login"]; if (!$logined) {              $this->forward("login", array("from" => "Index")); // вперед до дії login              return FALSE; // это важно, это закончить текущий рабочий поток                            // и сказать Yaf не делать авторендеринг         }         // other processes    }    public function loginAction() {         echo "Вход, перенаправлено с действия ", $this->_request->getParam("from "); }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

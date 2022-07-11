@@ -7,7 +7,7 @@
 
 # Клас DateTimeImmutable
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -25,37 +25,37 @@ class **DateTimeImmutable** implements
 
 /\* Успадковані константи \*/
 
-const string `DateTimeInterface::ATOM` u003d "Y-m-d\TH:i:sP";
+const string `DateTimeInterface::ATOM` = "Y-m-d\TH:i:sP";
 
-const string `DateTimeInterface::COOKIE` u003d "l, d-M-Y H:i:s T";
+const string `DateTimeInterface::COOKIE` = "l, d-M-Y H:i:s T";
 
-const string `DateTimeInterface::ISO8601` u003d "Y-m-d\TH:i:sO";
+const string `DateTimeInterface::ISO8601` = "Y-m-d\TH:i:sO";
 
-const string `DateTimeInterface::RFC822` u003d "D, d M y H: i: s O";
+const string `DateTimeInterface::RFC822` = "D, d M y H: i: s O";
 
-const string `DateTimeInterface::RFC850` u003d "l, d-M-y H:i:s T";
+const string `DateTimeInterface::RFC850` = "l, d-M-y H:i:s T";
 
-const string `DateTimeInterface::RFC1036` u003d "D, d M y H: i: s O";
+const string `DateTimeInterface::RFC1036` = "D, d M y H: i: s O";
 
-const string `DateTimeInterface::RFC1123` u003d "D, d MY H:i:s O";
+const string `DateTimeInterface::RFC1123` = "D, d MY H:i:s O";
 
-const string `DateTimeInterface::RFC7231` u003d "D, d MY H:i:s \G\M\T";
+const string `DateTimeInterface::RFC7231` = "D, d MY H:i:s \G\M\T";
 
-const string `DateTimeInterface::RFC2822` u003d "D, d MY H:i:s O";
+const string `DateTimeInterface::RFC2822` = "D, d MY H:i:s O";
 
-const string `DateTimeInterface::RFC3339` u003d "Y-m-d\TH:i:sP";
+const string `DateTimeInterface::RFC3339` = "Y-m-d\TH:i:sP";
 
-const string `DateTimeInterface::RFC3339_EXTENDED` u003d "Y-m-d\TH:i:s.vP";
+const string `DateTimeInterface::RFC3339_EXTENDED` = "Y-m-d\TH:i:s.vP";
 
-const string `DateTimeInterface::RSS` u003d "D, d MY H:i:s O";
+const string `DateTimeInterface::RSS` = "D, d MY H:i:s O";
 
-const string `DateTimeInterface::W3C` u003d "Y-m-d\TH:i:sP";
+const string `DateTimeInterface::W3C` = "Y-m-d\TH:i:sP";
 
 /\* Методи \*/
 
 public [\_\_construct](datetimeimmutable.construct.md)(string
-`$datetime` u003d "now", ?[DateTimeZone](class.datetimezone.md)
-`$timezone` u003d **`null`**)
+`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md)
+`$timezone` = **`null`**)
 
 public
 [add](datetimeimmutable.add.md)([DateInterval](class.dateinterval.md)
@@ -64,7 +64,7 @@ public
 public static
 [createFromFormat](datetimeimmutable.createfromformat.md)(string
 `$format`, string `$datetime`, ?[DateTimeZone](class.datetimezone.md)
-`$timezone` u003d **`null`**):
+`$timezone` = **`null`**):
 [DateTimeImmutable](class.datetimeimmutable.md)\|false
 
 public static
@@ -88,14 +88,14 @@ public [setDate](datetimeimmutable.setdate.md)(int `$year`, int
 `$month`, int `$day`): [DateTimeImmutable](class.datetimeimmutable.md)
 
 public [setISODate](datetimeimmutable.setisodate.md)(int `$year`, int
-`$week`, int `$dayOfWeek` u003d 1):
+`$week`, int `$dayOfWeek` = 1):
 [DateTimeImmutable](class.datetimeimmutable.md)
 
 public [setTime](datetimeimmutable.settime.md)(
 int `$hour`,
 int `$minute`,
-int `$second` u003d 0,
-int `$microsecond` u003d 0
+int `$second` = 0,
+int `$microsecond` = 0
 ): [DateTimeImmutable](class.datetimeimmutable.md)
 
 public [setTimestamp](datetimeimmutable.settimestamp.md)(int
@@ -111,7 +111,7 @@ public
 
 public
 [diff](datetime.diff.md)([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 public [format](datetime.format.md)(string `$format`): string

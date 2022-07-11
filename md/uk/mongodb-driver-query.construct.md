@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\Query::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Query::\_\_construct — Створює новий запит
 
 ### Опис
 
 final public **MongoDB\Driver\Query::\_\_construct**(array\|object
-`$filter`, array `$queryOptions` u003d ?)
+`$filter`, array `$queryOptions` = ?)
 
 Створює новий [MongoDB\Driver\Query](class.mongodb-driver-query.md),
 який є об'єктом незмінного значення, що представляє запит
@@ -54,7 +54,7 @@ final public **MongoDB\Driver\Query::\_\_construct**(array\|object
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Query::\_\_construct()****
 
-` <?php/* Выберите только документы, автором которых является "bjori" с не менее 100 просмотров */$filter u003d [    'author' u003d> 'bjori',    'views' u003d> [        '$gte' u003d> 100, ],];$options u003d [    /* Вернуть только следующие поля в соответствующих документах */    'projection' u003d> [        'title' u003d> 1,        'article' u003d> 1,    ],    /* Вернуть документы в порядке убывания просмотров * /   'sort' u003d> [       'views' u003d> -1    ],];$query u003d new MongoDB\Driver\Query($filter, $options);$mana localhost:27017');$readPreference u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$cursor u003d $manager->executeQuery('databaseName.collectionName', $query, $ $cursor as $document) {    var_dump($document);}?> `
+` <?php/* Выберите только документы, автором которых является "bjori" с не менее 100 просмотров */$filter = [    'author' => 'bjori',    'views' => [        '$gte' => 100, ],];$options = [    /* Вернуть только следующие поля в соответствующих документах */    'projection' => [        'title' => 1,        'article' => 1,    ],    /* Вернуть документы в порядке убывания просмотров * /   'sort' => [       'views' => -1    ],];$query = new MongoDB\Driver\Query($filter, $options);$mana localhost:27017');$readPreference = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$cursor = $manager->executeQuery('databaseName.collectionName', $query, $ $cursor as $document) {    var_dump($document);}?> `
 
 ### Дивіться також
 

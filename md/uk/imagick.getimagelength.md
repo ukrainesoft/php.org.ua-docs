@@ -31,4 +31,4 @@ public **Imagick::getImageLength**(): int
 
 Отримання довжини зображення в байтах
 
-` <?php$image u003d new Imagick('test.jpg');echo $image->getImageLength() . ' байт';?> `
+` <?php$image = new Imagick('test.jpg');echo $image->getImageLength() . ' байт';?> `

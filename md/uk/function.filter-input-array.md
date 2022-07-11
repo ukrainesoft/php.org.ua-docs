@@ -8,15 +8,15 @@
 
 #filter_input_array
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 filter_input_array - Отримує кілька змінних ззовні PHP і, при
 необхідності, фільтрує їх
 
 ### Опис
 
-**filter_input_array**(int `$type`, array\|int `$options` u003d
-**`FILTER_DEFAULT`**, bool `$add_empty` u003d **`true`**):
+**filter_input_array**(int `$type`, array\|int `$options` =
+**`FILTER_DEFAULT`**, bool `$add_empty` = **`true`**):
 array\|false\|null
 
 Ця функція корисна для отримання множини змінних без багаторазового
@@ -64,34 +64,34 @@ array\|false\|null
 
 **Приклад #1 Приклад використання **filter_input_array()****
 
-` <?php/* дані, отримані методом POST$_POST u003d array(   'product_id' u003d> 'libgd<script>',   'component'  u003d> array('10'),               ,  'testarray' u003d> array('2', '23', '10', '12'),    'testscalar' u003d> '2',);*/$args u003d array( | 'component'    u003d> array('filter'    u003d> FILTER_VALIDATE_INT,                            'flags'     u003d> FILTER_REQUIRE_ARRAY,                            'options'   u003d> array('min_range' u003d> 1, 'max_range' u003d> 10)                           ),    'version'      u003d> FILTER_SANITIZE_ENCODED ,    'doesnotexist' u003d> FILTER_VALIDATE_INT,    'testscalar'   u003d> array(                            'filter' u003d> FILTER_VALIDATE_INT,                            'flags'  u003d> FILTER_REQUIRE_SCALAR,                           ),    'testarray'    u003d> array(                            'filter' u003d> FILTER_VALIDATE_INT,                            'flags'  u003d> FILTER_REQUIRE_ARRAY,                             ));$myinputs u003d filter_inpu t_array(INPUT_POST, $args);var_dump($myinputs);echo "
+` <?php/* дані, отримані методом POST$_POST = array(   'product_id' => 'libgd<script>',   'component'  => array('10'),               ,  'testarray' => array('2', '23', '10', '12'),    'testscalar' => '2',);*/$args = array( | 'component'    => array('filter'    => FILTER_VALIDATE_INT,                            'flags'     => FILTER_REQUIRE_ARRAY,                            'options'   => array('min_range' => 1, 'max_range' => 10)                           ),    'version'      => FILTER_SANITIZE_ENCODED ,    'doesnotexist' => FILTER_VALIDATE_INT,    'testscalar'   => array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_REQUIRE_SCALAR,                           ),    'testarray'    => array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_REQUIRE_ARRAY,                             ));$myinputs = filter_inpu t_array(INPUT_POST, $args);var_dump($myinputs);echo "
 ";?> `
 
 Результат виконання цього прикладу:
 
 array(6) {
-["product_id"]u003d>
+["product_id"]=>
 string(17) "libgd%3Cscript%3E"
-["component"]u003d>
+["component"]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(10)
 }
-["version"]u003d>
+["version"]=>
 string(6) "2.0.33"
-["doesnotexist"]u003d>
+["doesnotexist"]=>
 NULL
-["testscalar"]u003d>
+["testscalar"]=>
 int(2)
-["testarray"]u003d>
+["testarray"]=>
 array(4) {
-[0]u003d>
+[0]=>
 int(2)
-[1]u003d>
+[1]=>
 int(23)
-[2]u003d>
+[2]=>
 int(10)
-[3]u003d>
+[3]=>
 int(12)
 }
 }

@@ -7,7 +7,7 @@
 
 # Memcached::getVersion
 
-(PECL memcached \>u003d 0.1.5)
+(PECL memcached \>= 0.1.5)
 
 Memcached::getVersion — Отримує інформацію про версію серверів у пулі
 
@@ -31,11 +31,11 @@ public **Memcached::getVersion**(): array
 
 **Приклад #1 Приклад використання **Memcached::getVersion()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);print_r($m->getVersion());?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);print_r($m->getVersion());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[localhost:11211] u003d> 1.2.6
+[localhost:11211] => 1.2.6
 )

@@ -7,7 +7,7 @@
 
 # Yaf_Config_Ini::toArray
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Ini::toArray — Повертає конфігурацію як масив PHP
 

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Regex::\_\_toString
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Regex::\_\_toString — Повертає рядкову виставу
 Regex
@@ -29,7 +29,7 @@ final public **MongoDB\BSON\Regex::\_\_toString**(): string
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Regex::\_\_toString()****
 
-` <?php$regex u003d new MongoDB\BSON\Regex('regex', 'i');var_dump((string) $regex);?> `
+` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump((string) $regex);?> `
 
 Результат виконання цього прикладу:
 

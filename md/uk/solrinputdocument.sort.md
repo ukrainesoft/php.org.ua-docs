@@ -7,14 +7,14 @@
 
 # SolrInputDocument::sort
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::sort — Сортує поля в документі
 
 ### Опис
 
 public **SolrInputDocument::sort**(int `$sortOrderBy`, int
-`$sortDirection` u003d SolrInputDocument::SORT_ASC): bool
+`$sortDirection` = SolrInputDocument::SORT_ASC): bool
 
 `` descriptioncode
 Поля впорядковані відповідно до зазначених критеріїв та напряму сортування.

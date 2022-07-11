@@ -33,4 +33,4 @@ public **Imagick::shaveImage**(int `$columns`, int `$rows`): bool
 
 **Приклад #1 Приклад використання **Imagick::shaveImage()****
 
-`<?phpfunction shaveImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->shaveImage(100, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction shaveImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->shaveImage(100, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

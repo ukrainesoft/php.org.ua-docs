@@ -8,7 +8,7 @@
 
 # fann_set_activation_function_layer
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_activation_function_layer — Встановлює функцію активації для
 всіх нейронів у наданому шарі

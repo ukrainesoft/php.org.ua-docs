@@ -7,13 +7,13 @@
 
 # Yaf_Config_Ini::\_\_get
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Ini::\_\_get — Отримує елемент
 
 ### Опис
 
-public **Yaf_Config_Ini::\_\_get**(string `$name` u003d ?): void
+public **Yaf_Config_Ini::\_\_get**(string `$name` = ?): void
 
 **Увага**
 

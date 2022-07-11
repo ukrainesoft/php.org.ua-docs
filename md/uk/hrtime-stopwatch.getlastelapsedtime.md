@@ -7,14 +7,14 @@
 
 # HRTime\StopWatch::getLastElapsedTime
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 HRTime\StopWatch::getLastElapsedTime — Отримати минулий час для
 останнього інтервалу
 
 ### Опис
 
-public **HRTime\StopWatch::getLastElapsedTime**(int `$unit` u003d ?): float
+public **HRTime\StopWatch::getLastElapsedTime**(int `$unit` = ?): float
 
 Повертає час для раніше закритого інтервалу.
 

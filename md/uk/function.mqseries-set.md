@@ -7,7 +7,7 @@
 
 # mqseries_set
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_set — MQSeries MQSET
 

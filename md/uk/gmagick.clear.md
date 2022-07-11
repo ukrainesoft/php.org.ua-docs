@@ -7,7 +7,7 @@
 
 # Gmagick::clear
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::clear — Зачищає всі ресурси, пов'язані з об'єктом Gmagick
 

@@ -7,13 +7,13 @@
 
 # gzencode
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gzencode — Створити стислий рядок gzip
 
 ### Опис
 
-**gzencode**(string `$data`, int `$level` u003d -1, int `$encoding` u003d
+**gzencode**(string `$data`, int `$level` = -1, int `$encoding` =
 **`ZLIB_ENCODING_GZIP`**): string\|false
 
 Ця функція повертає стислу версію вхідних даних `data`, аналогічно
@@ -50,7 +50,7 @@ zlib.
 
 **Приклад #1 Створення файлу gzip**
 
-` <?php$data u003d file_get_contents("bigfile.txt");$gzdata u003d gzencode($data, 9);file_put_contents("bigfile.txt.gz", $gzdata);?> `
+` <?php$data = file_get_contents("bigfile.txt");$gzdata = gzencode($data, 9);file_put_contents("bigfile.txt.gz", $gzdata);?> `
 
 ### Дивіться також
 

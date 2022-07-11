@@ -7,7 +7,7 @@
 
 # ssh2_auth_password
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_auth_password — Аутентифікація через SSH за допомогою звичайного
 пароля
@@ -41,5 +41,5 @@ ssh2_auth_password — Аутентифікація через SSH за допо
 
 **Приклад #1 Аутентифікація з паролем**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);if (ssh2_auth_password($connection, 'username', 'secret')) { echo "Успішна аутентифікація!
+` <?php$connection = ssh2_connect('shell.example.com', 22);if (ssh2_auth_password($connection, 'username', 'secret')) { echo "Успішна аутентифікація!
 ";} else {  die('Невдала аутентифікація...');}?> `

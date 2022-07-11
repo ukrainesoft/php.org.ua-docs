@@ -7,7 +7,7 @@
 
 # Ds\Map::values
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::values — Повертає послідовність значень колекції
 
@@ -29,15 +29,15 @@ public **Ds\Map::values**(): [Ds\Sequence](class.ds-sequence.md)
 
 **Приклад #1 Приклад використання **Ds\Map::values()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->values());?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->values());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Vector)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

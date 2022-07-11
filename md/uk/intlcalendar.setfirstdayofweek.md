@@ -7,7 +7,7 @@
 
 # IntlCalendar::setFirstDayOfWeek
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::setFirstDayOfWeek — Встановлює день, який є
 початком тижня
@@ -45,7 +45,7 @@ public **IntlCalendar::setFirstDayOfWeek**(int `$dayOfWeek`): bool
 
 **Приклад #1 Приклад використання **IntlCalendar::setFirstDayOfWeek()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'es_ES');$cal u003d IntlCalendar::createInstance();$cal->set(2013, 5 /* Червень */, 30); // Неділяvar_dump($cal->getFirstDayOfWeek()); // 2 (Понеділок)echo IntlDateFormatter::formatObject($cal, <<<EOD'місний день тижня: 'cc'тиждень місяця    : 'W'тиждень року      :
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'es_ES');$cal = IntlCalendar::createInstance();$cal->set(2013, 5 /* Червень */, 30); // Неділяvar_dump($cal->getFirstDayOfWeek()); // 2 (Понеділок)echo IntlDateFormatter::formatObject($cal, <<<EOD'місний день тижня: 'cc'тиждень місяця    : 'W'тиждень року      :
 ";$cal->setFirstDayOfWeek(IntlCalendar::DOW_SUNDAY);echo IntlDateFormatter::formatObject($cal, <<<EOD'місний день тижня: 'cc'тиждень місяця               
 ";
 

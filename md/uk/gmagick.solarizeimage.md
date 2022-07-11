@@ -7,7 +7,7 @@
 
 # Gmagick::solarizeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::solarizeimage — Застосовує ефект соляризації до зображення
 

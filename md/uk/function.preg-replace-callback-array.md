@@ -18,9 +18,9 @@ preg_replace_callback_array — Пошук та заміна за регуляр
 **preg_replace_callback_array**(
 array `$pattern`,
 string\|array `$subject`,
-int `$limit` u003d -1,
-int `&$count` u003d **`null`**,
-int `$flags` u003d 0
+int `$limit` = -1,
+int `&$count` = **`null`**,
+int `$flags` = 0
 ): string\|array\|null
 
 Поведінка цієї функції схожа на
@@ -67,15 +67,15 @@ int `$flags` u003d 0
 
 ### Список змін
 
-| Версія | Опис                      |
-| ------ | ------------------------- |
-| 7.4.0  | Доданий параметр `flags`. |
+| Версія | Опис                    |
+| ------ | ----------------------- |
+| 7.4.0  | Доданий параметр flags. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **preg_replace_callback_array()****
 
-` <?php$subject u003d 'Aaaaaa Bbb';preg_replace_callback_array(    [        '~[a]+~i' u003d> function ($match) {            echo 'Найдено ', strlen($match[0]), ' совпадений "a "', PHP_EOL;        },        '~[b]+~i' u003d> function ($match) {            echo 'Найдено ', strlen($match[0]), ' совпадений "b"', PHP_EOL;        }    ], $subject);?> `
+` <?php$subject = 'Aaaaaa Bbb';preg_replace_callback_array(    [        '~[a]+~i' => function ($match) {            echo 'Найдено ', strlen($match[0]), ' совпадений "a "', PHP_EOL;        },        '~[b]+~i' => function ($match) {            echo 'Найдено ', strlen($match[0]), ' совпадений "b"', PHP_EOL;        }    ], $subject);?> `
 
 Результат виконання цього прикладу:
 

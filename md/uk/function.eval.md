@@ -65,8 +65,8 @@ eval — Виконує код PHP, що міститься в рядку
 
 **Приклад #1 Приклад функції **eval()** - просте злиття тексту**
 
-` <?php$string u003d 'чашка';$name u003d 'кави';$str u003d 'Це$string з моїм $name.';echo $str. "
-";eval("\$str u003d \"$str\";");echo $str. "
+` <?php$string = 'чашка';$name = 'кави';$str = 'Це$string з моїм $name.';echo $str. "
+";eval("\$str = \"$str\";");echo $str. "
 ";?> `
 
 Результат виконання цього прикладу:

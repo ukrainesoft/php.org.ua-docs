@@ -7,7 +7,7 @@
 
 # Клас SplFileObject
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,21 +22,21 @@ implements [RecursiveIterator](class.recursiveiterator.md),
 
 /\* Константи \*/
 
-const int `DROP_NEW_LINE` u003d 1;
+const int `DROP_NEW_LINE` = 1;
 
-const int `READ_AHEAD` u003d 2;
+const int `READ_AHEAD` = 2;
 
-const int `SKIP_EMPTY` u003d 4;
+const int `SKIP_EMPTY` = 4;
 
-const int `READ_CSV` u003d 8;
+const int `READ_CSV` = 8;
 
 /\* Методи \*/
 
 public [\_\_construct](splfileobject.construct.md)(
 string `$filename`,
-string `$mode` u003d "r",
-bool `$useIncludePath` u003d **`false`**,
-?resource `$context` u003d **`null`**
+string `$mode` = "r",
+bool `$useIncludePath` = **`false`**,
+?resource `$context` = **`null`**
 )
 
 public [current](splfileobject.current.md)(): string\|array\|false
@@ -47,25 +47,25 @@ public [fflush](splfileobject.fflush.md)(): bool
 
 public [fgetc](splfileobject.fgetc.md)(): string\|false
 
-public [fgetcsv](splfileobject.fgetcsv.md)(string `$separator` u003d ",",
-string `$enclosure` u003d "\"", string `$escape` u003d "\"): array\|false
+public [fgetcsv](splfileobject.fgetcsv.md)(string `$separator` = ",",
+string `$enclosure` = "\"", string `$escape` = "\"): array\|false
 
 public [fgets](splfileobject.fgets.md)(): string
 
-public [fgetss](splfileobject.fgetss.md)(string `$allowable_tags` u003d
+public [fgetss](splfileobject.fgetss.md)(string `$allowable_tags` =
 ?): string
 
 public [flock](splfileobject.flock.md)(int `$operation`, int
-`&$wouldBlock` u003d **`null`**): bool
+`&$wouldBlock` = **`null`**): bool
 
 public [fpassthru](splfileobject.fpassthru.md)(): int
 
 public [fputcsv](splfileobject.fputcsv.md)(
 array `$fields`,
-string `$separator` u003d ",",
-string `$enclosure` u003d "\"",
-string `$escape` u003d "\\",
-string `$eol` u003d "
+string `$separator` = ",",
+string `$enclosure` = "\"",
+string `$escape` = "\\",
+string `$eol` = "
 "
 ): int\|false
 
@@ -75,7 +75,7 @@ public [fscanf](splfileobject.fscanf.md)(string `$format`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&...$vars`): array\|int\|null
 
-public [fseek](splfileobject.fseek.md)(int `$offset`, int `$whence` u003d
+public [fseek](splfileobject.fseek.md)(int `$offset`, int `$whence` =
 **`SEEK_SET`**): int
 
 public [fstat](splfileobject.fstat.md)(): array
@@ -85,7 +85,7 @@ public [ftell](splfileobject.ftell.md)(): int\|false
 public [ftruncate](splfileobject.ftruncate.md)(int `$size`): bool
 
 public [fwrite](splfileobject.fwrite.md)(string `$data`, int `$length`
-u003d 0): int \ | false
+= 0): int \ | false
 
 public [getChildren](splfileobject.getchildren.md)():
 ?[RecursiveIterator](class.recursiveiterator.md)
@@ -107,7 +107,7 @@ public [rewind](splfileobject.rewind.md)(): void
 public [seek](splfileobject.seek.md)(int `$line`): void
 
 public [setCsvControl](splfileobject.setcsvcontrol.md)(string
-`$separator` u003d ",", string `$enclosure` u003d "\"", string `$escape` u003d
+`$separator` = ",", string `$enclosure` = "\"", string `$escape` =
 "\"): void
 
 public [setFlags](splfileobject.setflags.md)(int `$flags`): void
@@ -122,7 +122,7 @@ public [valid](splfileobject.valid.md)(): bool
 public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
 
 public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
 
@@ -130,7 +130,7 @@ public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
 string
 
 public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` u003d **`null`**): [SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
 string
@@ -149,7 +149,7 @@ public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
 public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
 
 public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` u003d **`null`**): ?[SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
 string
@@ -177,14 +177,14 @@ public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
 public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
 
 public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-u003d "r", bool `$useIncludePath` u003d **`false`**, ?resource `$context` u003d
+= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
 **`null`**): [SplFileObject](class.splfileobject.md)
 
 public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` u003d SplFileObject::class): void
+`$class` = SplFileObject::class): void
 
 public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` u003d SplFileInfo::class): void
+`$class` = SplFileInfo::class): void
 
 public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
 

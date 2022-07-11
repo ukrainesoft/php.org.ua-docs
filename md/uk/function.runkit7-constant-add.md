@@ -7,7 +7,7 @@
 
 # runkit7_constant_add
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_constant_add - Аналогічний define(), але також дозволяє
 визначити константу класу
@@ -16,7 +16,7 @@ runkit7_constant_add - Аналогічний define(), але також доз
 
 **runkit7_constant_add**(string `$constant_name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$newVisibility` u003d ?): bool
+`$value`, int `$newVisibility` = ?): bool
 
 ### Список параметрів
 

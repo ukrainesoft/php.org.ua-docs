@@ -7,7 +7,7 @@
 
 # Memcached::fetch
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::fetch — Отримує наступний результат
 
@@ -32,29 +32,29 @@ public **Memcached::fetch**(): array
 
 **Приклад #1 Приклад використання **Memcached::fetch()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string');$m->set('array', array(11, 12));$m->getDelayed(array('int', 'array'), true);while($result u003d $m ->fetch()) {    var_dump($result);}?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string');$m->set('array', array(11, 12));$m->getDelayed(array('int', 'array'), true);while($result = $m ->fetch()) {    var_dump($result);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["key"]u003d>
+["key"]=>
 string(3) "int"
-"value"]u003d>
+"value"]=>
 int(99)
-["cas"]u003d>
+["cas"]=>
 float(2363)
 }
 array(3) {
-["key"]u003d>
+["key"]=>
 string(5) "array"
-["value"]u003d>
+["value"]=>
 array(2) {
-[0]u003d>
+[0]=>
 int(11)
-[1]u003d>
+[1]=>
 int(12)
 }
-["cas"]u003d>
+["cas"]=>
 float(2365)
 }
 

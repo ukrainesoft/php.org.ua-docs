@@ -7,14 +7,14 @@
 
 #pg_last_notice
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 pg_last_notice — Повертає останнє повідомлення від сервера PostgreSQL
 
 ### Опис
 
 **pg_last_notice**([PgSql\Connection](class.pgsql-connection.md)
-`$connection`, int `$mode` u003d **`PGSQL_NOTICE_LAST`**):
+`$connection`, int `$mode` = **`PGSQL_NOTICE_LAST`**):
 array\|string\|bool
 
 **pg_last_notice()** повертає останнє повідомлення, згенероване
@@ -52,16 +52,16 @@ array\|string\|bool
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                             |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `connection` тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.1.0  | Доданий параметр `mode`.                                                                                                                                         |
+| Версія | Опис                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 7.1.0  | Доданий параметр mode.                                                                                                                                         |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_last_notice()****
 
-`<?php $pgsql_connu003du003dpg_connect("dbnameu003dmark hostu003dlocalhost"); $resu003du003dpg_query("CREATE TABLE test|id(SERIAL)"); $noticeu003du003dpg_last_notice($pgsql_conn); echo $notice;?> `
+`<?php $pgsql_conn==pg_connect("dbname=mark host=localhost"); $res==pg_query("CREATE TABLE test|id(SERIAL)"); $notice==pg_last_notice($pgsql_conn); echo $notice;?> `
 
 Результат виконання цього прикладу:
 

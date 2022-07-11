@@ -7,7 +7,7 @@
 
 # Fiber::suspend
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 Fiber::suspend — Зупиняє виконання поточного файбера
 
@@ -15,7 +15,7 @@ Fiber::suspend — Зупиняє виконання поточного файб
 
 public static
 **Fiber::suspend**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d **`null`**):
+`$value` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Зупиняє виконання поточного файбера. Значення, надане

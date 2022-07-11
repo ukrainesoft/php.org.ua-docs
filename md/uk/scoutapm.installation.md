@@ -13,4 +13,4 @@ $ sudo pecl install scoutapm
 
 Можливо, вам доведеться додати Scout в *php.ini*, наприклад:
 
-extensionu003dscoutapm.so
+extension=scoutapm.so

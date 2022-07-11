@@ -7,7 +7,7 @@
 
 # ZipArchive::replaceFile
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.18.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.18.0)
 
 ZipArchive::replaceFile — Замінює файл у ZIP-архіві вказаним шляхом
 
@@ -16,9 +16,9 @@ ZipArchive::replaceFile — Замінює файл у ZIP-архіві вказ
 public **ZipArchive::replaceFile**(
 string `$filepath`,
 int `$index`,
-int `$start` u003d 0,
-int `$length` u003d 0,
-int `$flags` u003d 0
+int `$start` = 0,
+int `$length` = 0,
+int `$flags` = 0
 ): bool
 
 Замінює файл у ZIP-архіві вказаним шляхом.
@@ -59,7 +59,7 @@ int `$flags` u003d 0
 
 **Приклад #1 Відкриття та заміна**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {   $zip->replaceFile('/path/to/index.txt', 1); $zip->close(); echo 'Ок';} else {    echo 'Помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {   $zip->replaceFile('/path/to/index.txt', 1); $zip->close(); echo 'Ок';} else {    echo 'Помилка';}?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # OAuth::enableSSLChecks
 
-(PECL OAuth u003d 0.99.5)
+(PECL OAuth = 0.99.5)
 
 OAuth::enableSSLChecks — Увімкнути перевірки SSL
 
@@ -29,9 +29,9 @@ public **OAuth::enableSSLChecks**(): bool
 
 ### Список змін
 
-| Версія            | Опис                           |
-| ----------------- | ------------------------------ |
-| PECL oauth 0.99.8 | Додано властивість `sslChecks` |
+| Версія            | Опис                         |
+| ----------------- | ---------------------------- |
+| PECL oauth 0.99.8 | Додано властивість sslChecks |
 
 ### Дивіться також
 

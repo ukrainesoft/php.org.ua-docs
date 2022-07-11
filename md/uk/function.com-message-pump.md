@@ -8,14 +8,14 @@
 
 # com_message_pump
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 com_message_pump — Обробка повідомлень COM, які прийшли пізніше
 timeoutms мілісекунд після її запуску
 
 ### Опис
 
-**com_message_pump**(int `$timeout_milliseconds` u003d 0): bool
+**com_message_pump**(int `$timeout_milliseconds` = 0): bool
 
 Функція "засинає" на `timeout_milliseconds` мілісекунд, або поки що
 черга не прийде на нове повідомлення.

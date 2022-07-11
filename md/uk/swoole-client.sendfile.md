@@ -7,13 +7,13 @@
 
 # Swoole\Client::sendfile
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::sendfile — Відправляє файл у віддалений TCP-сокет
 
 ### Опис
 
-public **Swoole\Client::sendfile**(string `$filename`, int `$offset` u003d
+public **Swoole\Client::sendfile**(string `$filename`, int `$offset` =
 ?): bool
 
 Є оболонкою системного виклику sendfile в Linux.

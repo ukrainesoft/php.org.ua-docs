@@ -17,4 +17,4 @@ Server 2012 Express LocalDB](http://msdn.microsoft.com/en-us/library/hh510202(SQ
 Модуль SQLSRV підтримується компанією Microsoft і доступний за посиланням
 [»http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx).
 SQL Server 2012 LocalDB можна завантажити звідси -
-[»http://go.microsoft.com/fwlink/?LinkIDu003d237665](http://go.microsoft.com/fwlink/?LinkIDu003d237665).
+[»http://go.microsoft.com/fwlink/?LinkID=237665](http://go.microsoft.com/fwlink/?LinkID=237665).

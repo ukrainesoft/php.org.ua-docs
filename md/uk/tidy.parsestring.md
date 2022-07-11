@@ -9,7 +9,7 @@
 
 # tidy_parse_string
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::parseString -- tidy_parse_string — Розбір документа, що зберігається в
 рядку
@@ -19,12 +19,12 @@ tidy::parseString -- tidy_parse_string — Розбір документа, що
 Об'єктно-орієнтований стиль
 
 public **tidy::parseString**(string `$string`, array\|string\|null
-`$config` u003d **`null`**, ?string `$encoding` u003d **`null`**): bool
+`$config` = **`null`**, ?string `$encoding` = **`null`**): bool
 
 Процедурний стиль
 
-**tidy_parse_string**(string `$string`, array\|string\|null `$config` u003d
-**`null`**, ?string `$encoding` u003d **`null`**):
+**tidy_parse_string**(string `$string`, array\|string\|null `$config` =
+**`null`**, ?string `$encoding` = **`null`**):
 [tidy](class.tidy.md)\|false
 
 Розбирає документ, що зберігається в рядку.
@@ -57,21 +57,21 @@ public **tidy::parseString**(string `$string`, array\|string\|null
 
 ### Список змін
 
-| Версія | Опис                                                   |
-| ------ | ------------------------------------------------------ |
-| 8.0.0  | `config` та `encoding` тепер допускають значення null. |
+| Версія | Опис                                               |
+| ------ | -------------------------------------------------- |
+| 8.0.0  | config та encoding тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **tidy::parseString()****
 
-` <?phpob_start();?><html>  <head>   <title>тест</title>  </head>  <body>   <p>помилка<br>інша лінія</i>  </body></html ><?php$buffer u003d ob_get_clean();$config u003d array('indent' u003d> TRUE,                'output-xhtml' u003d> TRUE,                'wrap' u003d> 200);$tidy u003d tidy_parse_string($buffer, $config , 'UTF8');$tidy->cleanRepair();echo $tidy;?> `
+` <?phpob_start();?><html>  <head>   <title>тест</title>  </head>  <body>   <p>помилка<br>інша лінія</i>  </body></html ><?php$buffer = ob_get_clean();$config = array('indent' => TRUE,                'output-xhtml' => TRUE,                'wrap' => 200);$tidy = tidy_parse_string($buffer, $config , 'UTF8');$tidy->cleanRepair();echo $tidy;?> `
 
 Результат виконання цього прикладу:
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlnsu003d"http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>
 тест

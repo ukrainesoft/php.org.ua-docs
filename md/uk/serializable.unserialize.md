@@ -7,7 +7,7 @@
 
 # Serializable::unserialize
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 Serializable::unserialize — Створює об'єкт
 

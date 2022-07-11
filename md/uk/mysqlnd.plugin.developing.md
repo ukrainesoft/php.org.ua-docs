@@ -18,14 +18,14 @@ static PHP_MINIT_FUNCTION(mysqlnd_plugin) {
 /* глобальні змінні, ini-налаштування, ресурси, класи */
 
 /* реєструємо плагін mysqlnd */
-mysqlnd_plugin_id u003d mysqlnd_plugin_register();
+mysqlnd_plugin_id = mysqlnd_plugin_register();
 
-conn_m u003d mysqlnd_get_conn_methods();
+conn_m = mysqlnd_get_conn_methods();
 memcpy(org_conn_m, conn_m,
 sizeof(struct st_mysqlnd_conn_methods));
 
-conn_m->query u003d MYSQLND_METHOD(mysqlnd_plugin_conn, query);
-conn_m->connect u003d MYSQLND_METHOD(mysqlnd_plugin_conn, connect);
+conn_m->query = MYSQLND_METHOD(mysqlnd_plugin_conn, query);
+conn_m->connect = MYSQLND_METHOD(mysqlnd_plugin_conn, connect);
 }
 
 /* my_mysqlnd_plugin.c */
@@ -110,14 +110,14 @@ const char * socket, unsigned int mysql_flags TSRMLS_DC
 
 MYSQLND_METHOD(my_conn_class,connect)(
 MYSQLND *conn, const char *host /* ... */ TSRMLS_DC) {
-enum_func_status retu003dFAIL;
-zval * global_user_conn_proxy u003d fetch_userspace_proxy();
+enum_func_status ret=FAIL;
+zval * global_user_conn_proxy = fetch_userspace_proxy();
 if (global_user_conn_proxy) {
 /* виклик проксі простору користувача */
-ret u003d MY_ZEND_CALL_METHOD_WRAPPER(global_user_conn_proxy, host, /*...*/);
+ret = MY_ZEND_CALL_METHOD_WRAPPER(global_user_conn_proxy, host, /*...*/);
 } else {
-/* або оригінальний метод mysqlnd u003d нічого не робити, бути прозорим */
-ret u003d org_methods.connect(conn, host, user, passwd,
+/* або оригінальний метод mysqlnd = нічого не робити, бути прозорим */
+ret = org_methods.connect(conn, host, user, passwd,
 passwd_len, db, db_len, port,
 socket, mysql_flags (TSRMLS_CC);
 }
@@ -175,7 +175,7 @@ zval_ptr_dtor(&zv_conn);
 class proxy extends mysqlnd_plugin_connection {
 public function connect($conn, $host, ...) {
 /* до впровадження */
-printf("Підключення до u003d '%s'
+printf("Підключення до = '%s'
 ", $ host);
 debug_print_backtrace();
 return parent::connect($conn);
@@ -183,8 +183,8 @@ return parent::connect($conn);
 
 public function query($conn, $query) {
 /* після впровадження */
-$ret u003d parent::query($conn, $query);
-printf("Запит u003d '%s'
+$ret = parent::query($conn, $query);
+printf("Запит = '%s'
 ", $ Query);
 return $ret;
 }
@@ -207,12 +207,12 @@ zval* mysqlnd_rsrc;
 MYSQLND * conn;
 char* host; int host_len;
 if (zend_parse_parameters(ZEND_NUM_ARGS() TSRMLS_CC, "rs",
-&mysqlnd_rsrc, &host, &host_len) u003du003d FAILURE) {
+&mysqlnd_rsrc, &host, &host_len) == FAILURE) {
 RETURN_NULL();
 }
 ZEND_FETCH_RESOURCE(conn, MYSQLND* conn, &mysqlnd_rsrc, -1,
 "Mysqlnd Connection", le_mysqlnd_plugin_conn);
-if (PASS u003du003d org_methods.connect(conn, host, /* simplified! */ TSRMLS_CC))
+if (PASS == org_methods.connect(conn, host, /* simplified! */ TSRMLS_CC))
 RETVAL_TRUE;
 else
 RETVAL_FALSE;

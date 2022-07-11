@@ -7,14 +7,14 @@
 
 # Yaf_Request_Http::getCookie
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Http::getCookie — Отримує змінну Cookie
 
 ### Опис
 
 public **Yaf_Request_Http::getCookie**(string `$name`, string `$default`
-u003d?):
+=?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує змінну Cookie

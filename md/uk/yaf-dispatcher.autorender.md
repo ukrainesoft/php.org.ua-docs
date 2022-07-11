@@ -7,13 +7,13 @@
 
 # Yaf_Dispatcher::autoRender
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::autoRender — Включає/вимикає авторендеринг
 
 ### Опис
 
-public **Yaf_Dispatcher::autoRender**(bool `$flag` u003d ?):
+public **Yaf_Dispatcher::autoRender**(bool `$flag` = ?):
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 [Yaf_Dispatcher](class.yaf-dispatcher.md) відображатиметься

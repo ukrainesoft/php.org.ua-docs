@@ -48,7 +48,7 @@ DOM.
 
 **Приклад #1 Тестування вашої реалізації DOM**
 
-` <?php$features u003d array(  'Core'           u003d> 'Core module',  'XML'            u003d> 'XML module',  'HTML'           u003d> 'HTML module',  'Views'          u003d> 'Views module',  ' Stylesheets'    u003d> 'Style Sheets module',  'CSS'            u003d> 'CSS module',  'CSS2'           u003d> 'CSS2 module',  'Events'         u003d> 'Events module',  'UIEvents'       u003d> 'User interface Events module ',  'MouseEvents'    u003d> 'Mouse Events module',  'MutationEvents' u003d> 'Mutation Events module',  'HTMLEvents'     u003d> 'HTML Events module',  'Range'          u003d> 'Range module',  'Traversal'      u003d> 'Traversal module');foreach ($features as $key u003d> $name) {  if (DOMImplementation::hasFeature($key, '2.0')) {    echo "Реалізує$
+` <?php$features = array(  'Core'           => 'Core module',  'XML'            => 'XML module',  'HTML'           => 'HTML module',  'Views'          => 'Views module',  ' Stylesheets'    => 'Style Sheets module',  'CSS'            => 'CSS module',  'CSS2'           => 'CSS2 module',  'Events'         => 'Events module',  'UIEvents'       => 'User interface Events module ',  'MouseEvents'    => 'Mouse Events module',  'MutationEvents' => 'Mutation Events module',  'HTMLEvents'     => 'HTML Events module',  'Range'          => 'Range module',  'Traversal'      => 'Traversal module');foreach ($features as $key => $name) {  if (DOMImplementation::hasFeature($key, '2.0')) {    echo "Реалізує$
 ";  } else {    echo "Можливість $name відсутня
 ";  }}?> `
 

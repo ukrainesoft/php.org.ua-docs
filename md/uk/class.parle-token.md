@@ -7,7 +7,7 @@
 
 # Клас Parle\Token
 
-(PECL parle \>u003d 0.5.2)
+(PECL parle \>= 0.5.2)
 
 ## Вступ
 
@@ -19,11 +19,11 @@ class **Parle\Token** {
 
 /\* Constants \*/
 
-const int `EOI` u003d 0;
+const int `EOI` = 0;
 
-const int `UNKNOWN` u003d -1;
+const int `UNKNOWN` = -1;
 
-const int `SKIP` u003d -2;
+const int `SKIP` = -2;
 
 /\* Властивості \*/
 

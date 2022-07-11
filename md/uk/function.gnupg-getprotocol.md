@@ -7,7 +7,7 @@
 
 #gnupg_getprotocol
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_getprotocol — Повертає поточний активний протокол для всіх
 операцій
@@ -32,9 +32,9 @@ gnupg_getprotocol — Повертає поточний активний про�
 **Приклад #1 Приклад використання **gnupg_getprotocol()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();echo gnupg_getprotocol($res);?> `
+` <?php$res = gnupg_init();echo gnupg_getprotocol($res);?> `
 
 **Приклад #2 Приклад використання **gnupg_getprotocol()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();echo $gpg->getprotocol();?> `
+` <?php$gpg = new gnupg();echo $gpg->getprotocol();?> `

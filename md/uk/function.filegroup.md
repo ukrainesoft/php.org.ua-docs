@@ -41,7 +41,7 @@ filegroup — Отримує ідентифікатор групи файлу
 
 **Приклад #1 Пошук групи файлу**
 
-` <?php$filename u003d 'index.php';print_r(posix_getgrgid(filegroup($filename))));?> `
+` <?php$filename = 'index.php';print_r(posix_getgrgid(filegroup($filename))));?> `
 
 ### Примітки
 

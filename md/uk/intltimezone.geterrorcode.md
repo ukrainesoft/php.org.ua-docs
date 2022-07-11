@@ -9,7 +9,7 @@
 
 # intltz_get_error_code
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::getErrorCode -- intltz_get_error_code — Отримати останній
 код про помилку в об'єкті

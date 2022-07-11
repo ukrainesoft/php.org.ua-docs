@@ -7,7 +7,7 @@
 
 # wkhtmltox\PDF\Converter::getVersion
 
-(wkhtmltox \>u003d 0.3.2)
+(wkhtmltox \>= 0.3.2)
 
 wkhtmltox\PDF\Converter::getVersion — Визначити версію конвертера
 

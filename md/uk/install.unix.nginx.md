@@ -61,9 +61,9 @@ PHP-FPM, якщо файл не існує, що допомагає уникну
 
 vim /usr/local/php/php.ini
 
-Знайдіть опцію `cgi.fix_pathinfou003d` та змініть її наступним чином:
+Знайдіть опцію `cgi.fix_pathinfo=` та змініть її наступним чином:
 
-cgi.fix_pathinfou003d0
+cgi.fix_pathinfo=0
 
 6. php-fpm.conf має бути модифікований, щоб точно визначити, що
 php-fpm повинен працювати під користувачем www-data та групою
@@ -76,8 +76,8 @@ vim /usr/local/etc/php-fpm.d/www.conf
 ; Unix user/group of processes
 ; Примітка: Користувач є обов'язковим. Якщо групу не встановлено,
 ; то буде використано стандартну групу користувача.
-user u003d www-data
-group u003d www-data
+user = www-data
+group = www-data
 
 Тепер можна запускати сервіс php-fpm:
 

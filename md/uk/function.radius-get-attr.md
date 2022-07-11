@@ -7,7 +7,7 @@
 
 #radius_get_attr
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_get_attr — Витягує атрибут
 
@@ -31,14 +31,14 @@ radius_get_attr — Витягує атрибут
 ### Значення, що повертаються
 
 Повертає асоціативний масив, що містить тип атрибуту та дані або
-номер помилки \<u003d0.
+номер помилки \<=0.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **radius_get_attr()****
 
-` <?phpwhile ($resa u003d radius_get_attr($res)) {    if (!is_array($resa)) {        printf("Помилка при отриманні атрибуту: |
-",  radius_strerror($res));         exit;    }   $attr u003d $resa['attr'];    $data u003d $resa['data']   |
+` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {        printf("Помилка при отриманні атрибуту: |
+",  radius_strerror($res));         exit;    }   $attr = $resa['attr'];    $data = $resa['data']   |
 ", $attr, strlen($data), bin2hex($data));}?> `
 
 ### Дивіться також

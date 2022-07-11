@@ -38,7 +38,7 @@ public **Imagick::transformImageColorspace**(int `$colorspace`): bool
 окремий канал, щоб можна було переглянути значення окремих
 каналів.
 
-`<?phpfunction transformImageColorspace($imagePath, $colorSpace, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->transformimagecolorspace($colorSpace); //канал повинен бути одною з констант каналу, наприклад \Imagick::CHANNEL_BLUE   $imagick->separateImageChannel($channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction transformImageColorspace($imagePath, $colorSpace, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->transformimagecolorspace($colorSpace); //канал повинен бути одною з констант каналу, наприклад \Imagick::CHANNEL_BLUE   $imagick->separateImageChannel($channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

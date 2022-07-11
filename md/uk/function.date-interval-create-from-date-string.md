@@ -7,7 +7,7 @@
 
 # date_interval_create_from_date_string
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 date_interval_create_from_date_string - Псевдонім
 [DateInterval::createFromDateString()](dateinterval.createfromdatestring.md)

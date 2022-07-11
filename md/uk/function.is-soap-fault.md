@@ -42,12 +42,12 @@ is_soap_fault — Перевіряє, чи сталася помилка під 
 
 **Приклад #1 Приклад використання функції **is_soap_fault()****
 
-` <?php$client u003d new SoapClient("some.wsdl", array('exceptions' u003d> 0));$result u003d $client->SomeFunction();if (is_soap_fault($result)) {   Помилка SOAP: (faultcode: {$result->faultcode}, faultstring: {$result->faultstring})", E_USER_ERROR);}?> `
+` <?php$client = new SoapClient("some.wsdl", array('exceptions' => 0));$result = $client->SomeFunction();if (is_soap_fault($result)) {   Помилка SOAP: (faultcode: {$result->faultcode}, faultstring: {$result->faultstring})", E_USER_ERROR);}?> `
 
 **Приклад #2 Стандартний метод SOAP для повідомлень про помилки - це
 винятки**
 
-`<?phptry {   $client u003d new SoapClient("some.wsdl"); $result u003d $client->SomeFunction(/* ... */);} catch (SoapFault $fault) {    trigger_error("Помилка SOAP: (faultcode: {$fault->faultcode}: {$fault->faultcode} faultstring})", E_USER_ERROR);}?> `
+`<?phptry {   $client = new SoapClient("some.wsdl"); $result = $client->SomeFunction(/* ... */);} catch (SoapFault $fault) {    trigger_error("Помилка SOAP: (faultcode: {$fault->faultcode}: {$fault->faultcode} faultstring})", E_USER_ERROR);}?> `
 
 ### Дивіться також
 

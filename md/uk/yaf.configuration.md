@@ -11,16 +11,16 @@
 
 | Ім'я За замовчуванням                                                 | Місце зміни | Список змін    |
 | --------------------------------------------------------------------- | ----------- | -------------- |
-| [yaf.library](yaf.configuration.md#ini.yaf.library)                   |             | PHP_INI_ALL    | 
-| [yaf.action_prefer](yaf.configuration.md#ini.yaf.action-prefer)       | 0           | PHP_INI_ALL    | 
-| [yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path)         | 0           | PHP_INI_ALL    | 
-| [yaf.use_spl_autoload](yaf.configuration.md#ini.yaf.use-spl-autoload) | 0           | PHP_INI_ALL    | 
-| [yaf.forward_limit](yaf.configuration.md#ini.yaf.forward-limit)       | 5           | PHP_INI_ALL    | 
-| [yaf.name_suffix](yaf.configuration.md#ini.yaf.name-suffix)           | 1           | PHP_INI_ALL    | 
-| [yaf.name_separator](yaf.configuration.md#ini.yaf.name-separator)     |             | PHP_INI_ALL    | 
-| [yaf.cache_config](yaf.configuration.md#ini.yaf.cache-config)         | 0           | PHP_INI_SYSTEM | 
-| [yaf.environ](yaf.configuration.md#ini.yaf.environ)                   | product     | PHP_INI_SYSTEM | 
-| [yaf.use_namespace](yaf.configuration.md#ini.yaf.use-namespace)       | 0           | PHP_INI_SYSTEM | 
+| [yaf.library](yaf.configuration.md#ini.yaf.library)                   |             | PHP_INI_ALL    |
+| [yaf.action_prefer](yaf.configuration.md#ini.yaf.action-prefer)       | 0           | PHP_INI_ALL    |
+| [yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path)         | 0           | PHP_INI_ALL    |
+| [yaf.use_spl_autoload](yaf.configuration.md#ini.yaf.use-spl-autoload) | 0           | PHP_INI_ALL    |
+| [yaf.forward_limit](yaf.configuration.md#ini.yaf.forward-limit)       | 5           | PHP_INI_ALL    |
+| [yaf.name_suffix](yaf.configuration.md#ini.yaf.name-suffix)           | 1           | PHP_INI_ALL    |
+| [yaf.name_separator](yaf.configuration.md#ini.yaf.name-separator)     |             | PHP_INI_ALL    |
+| [yaf.cache_config](yaf.configuration.md#ini.yaf.cache-config)         | 0           | PHP_INI_SYSTEM |
+| [yaf.environ](yaf.configuration.md#ini.yaf.environ)                   | product     | PHP_INI_SYSTEM |
+| [yaf.use_namespace](yaf.configuration.md#ini.yaf.use-namespace)       | 0           | PHP_INI_SYSTEM |
 
 **Опції налаштування Yaf**
 

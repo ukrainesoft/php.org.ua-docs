@@ -7,7 +7,7 @@
 
 # Клас LimitIterator
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -23,7 +23,7 @@ class **LimitIterator** extends
 
 public
 [\_\_construct](limititerator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$offset` u003d 0, int `$limit` u003d -1)
+`$iterator`, int `$offset` = 0, int `$limit` = -1)
 
 public [current](limititerator.current.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -68,7 +68,7 @@ public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
 
 **Приклад #1 Приклад використання **LimitIterator****
 
-` <?php// Создать итератор для ограничения$fruits u003d new ArrayIterator(array(    'apple',    'banana',    'cherry',    'damson',    'elderberry'));// Цикл только по первым трём фруктамforeach (new LimitIterator($fruits, 0, 3) as $fruit) {   var_dump($fruit);}echo "
+` <?php// Создать итератор для ограничения$fruits = new ArrayIterator(array(    'apple',    'banana',    'cherry',    'damson',    'elderberry'));// Цикл только по первым трём фруктамforeach (new LimitIterator($fruits, 0, 3) as $fruit) {   var_dump($fruit);}echo "
 ";// Цикл, починаючи з третього фрукта і до кінця// Примітка: зміщення починається з нуля для яблукаforeach (new LimitIterator($fruits, 2)                 ¦¦¦
 
 Результат виконання цього прикладу:

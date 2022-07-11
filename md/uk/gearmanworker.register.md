@@ -7,14 +7,14 @@
 
 # GearmanWorker::register
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::register — Реєстрація функції на сервері завдань
 
 ### Опис
 
 public **GearmanWorker::register**(string `$function_name`, int
-`$timeout` u003d ?): bool
+`$timeout` = ?): bool
 
 Реєструє ім'я функції на сервері завдань та додатково задає час
 очікування. Час очікування визначає, скільки секунд сервер чекатиме,

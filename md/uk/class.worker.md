@@ -7,7 +7,7 @@
 
 # Клас Worker
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 ## Вступ
 
@@ -39,7 +39,7 @@ class **Worker** extends [Thread](class.thread.md) implements
 
 public
 [collect](worker.collect.md)([Callable](language.types.callable.md)
-`$collector` u003d ?): int
+`$collector` = ?): int
 
 public [getStacked](worker.getstacked.md)(): int
 
@@ -71,7 +71,7 @@ public [Thread::isStarted](thread.isstarted.md)(): bool
 
 public [Thread::join](thread.join.md)(): bool
 
-public [Thread::start](thread.start.md)(int `$options` u003d ?): bool
+public [Thread::start](thread.start.md)(int `$options` = ?): bool
 
 }
 

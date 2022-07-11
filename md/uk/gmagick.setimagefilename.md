@@ -7,7 +7,7 @@
 
 # Gmagick::setimagefilename
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagefilename — Встановлює ім'я конкретного файлу
 зображення у послідовності

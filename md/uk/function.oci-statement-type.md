@@ -7,7 +7,7 @@
 
 #oci_statement_type
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_statement_type — Повертає тип виразу
 
@@ -31,17 +31,17 @@ oci_statement_type — Повертає тип виразу
 
 | Значення, що повертається | Примітка                             |
 | ------------------------- | ------------------------------------ |
-| `ALTER`                   |                                      |
-| `BEGIN`                   |                                      |
-| `CALL`                    | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
-| `CREATE`                  |                                      |
-| `DECLARE`                 |                                      |
-| `DELETE`                  |                                      |
-| `DROP`                    |                                      |
-| `INSERT`                  |                                      |
-| `SELECT`                  |                                      |
-| `UPDATE`                  |                                      |
-| `UNKNOWN`                 |                                      |
+| ALTER                     |                                      |                                      
+| BEGIN                     |                                      |
+| CALL                      | Подано в PHP 5.2.1 (PECL OCI8 1.2.3) |
+| CREATE                    |                                      |
+| DECLARE                   |                                      |
+| DELETE                    |                                      |
+| DROP                      |                                      |
+| INSERT                    |                                      |
+| SELECT                    |                                      |
+| UPDATE                    |                                      |
+| UNKNOWN                   |                                      |
 
 **Тип оператора**
 
@@ -51,4 +51,4 @@ oci_statement_type — Повертає тип виразу
 
 **Приклад #1 Приклад використання **oci_statement_type()****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d oci_parse($conn, 'DELETE FROM departments WHERE department_id u003d 130;';$; ) u003du003d "DELETE") {   trigger_error('Ви не маєте прав для удалення записів з таблиці', E_USER_ERROR);}else {    oci_execu; // видалити запис oci_free_statement($stid);oci_close($conn);?> `
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = oci_parse($conn, 'DELETE FROM departments WHERE department_id = 130;';$; ) == "DELETE") {   trigger_error('Ви не маєте прав для удалення записів з таблиці', E_USER_ERROR);}else {    oci_execu; // видалити запис oci_free_statement($stid);oci_close($conn);?> `

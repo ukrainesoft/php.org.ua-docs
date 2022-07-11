@@ -7,7 +7,7 @@
 
 # intl_get_error_code
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 intl_get_error_code — Отримати код останньої помилки
 
@@ -30,7 +30,7 @@ intl_get_error_code — Отримати код останньої помилк�
 
 **Приклад #1 Приклад використання **intl_get_error_code()****
 
-` <?php$coll u003d collator_create( '<bad_param>' );if( !$coll ) {   handle_error( intl_get_error_code() );}?> `
+` <?php$coll = collator_create( '<bad_param>' );if( !$coll ) {   handle_error( intl_get_error_code() );}?> `
 
 ### Дивіться також
 

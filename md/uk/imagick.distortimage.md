@@ -7,7 +7,7 @@
 
 # Imagick::distortImage
 
-(PECL imagick 2 \>u003d 2.0.1, PECL imagick 3)
+(PECL imagick 2 \>= 2.0.1, PECL imagick 3)
 
 Imagick::distortImage — Спотворює зображення за допомогою різних методів.
 спотворення
@@ -58,7 +58,7 @@ ImageMagick 6.3.6 або старше.
 
 Спотворення зображення та відображення у браузері.
 
-` <?php/* Створення нового об'єкта */$im u003d u003d new Imagick (); формату зображення на png */$im->setImageFormat('png');/* Заповнення нових видимих областей прозорим кольором */$im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT$at (true);/* Контрольные точки для искажения */$controlPoints u003d array( 10, 10,                        10, 5,                        10, $im->getImageHeight() - 20,                        10, $im->getImageHeight() - 5,                        $ im->getImageWidth() - 10, 10,                        $im->getImageWidth() - 10, 20,                        $im->getImageWidth() - 10, $im->getImageHeight() - 10,                        $im->getImageWidth() - 10, $im->getImageHeight() - 30);/* Виконання спотворення */$im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);/* Виведення зображення */header("Content-Type: image/png");echo $im;?> `
+` <?php/* Створення нового об'єкта */$im = = new Imagick (); формату зображення на png */$im->setImageFormat('png');/* Заповнення нових видимих областей прозорим кольором */$im->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT$at (true);/* Контрольные точки для искажения */$controlPoints = array( 10, 10,                        10, 5,                        10, $im->getImageHeight() - 20,                        10, $im->getImageHeight() - 5,                        $ im->getImageWidth() - 10, 10,                        $im->getImageWidth() - 10, 20,                        $im->getImageWidth() - 10, $im->getImageHeight() - 10,                        $im->getImageWidth() - 10, $im->getImageHeight() - 30);/* Виконання спотворення */$im->distortImage(Imagick::DISTORTION_PERSPECTIVE, $controlPoints, true);/* Виведення зображення */header("Content-Type: image/png");echo $im;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Ds\Vector::pop
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::pop — Видаляє та повертає останнє значення
 
@@ -35,7 +35,7 @@ public **Ds\Vector::pop**():
 
 **Приклад #1 Приклад використання **Ds\Vector::pop()****
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);var_dump($vector->pop());var_dump($vector->pop());var_dump($vector-> pop());?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->pop());var_dump($vector->pop());var_dump($vector-> pop());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

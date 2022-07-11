@@ -7,7 +7,7 @@
 
 # cubrid_get_class_name
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_get_class_name — Отримує ім'я класу за допомогою OID
 
@@ -37,7 +37,7 @@ OID екземпляра, існування якого необхідно пе�
 
 **Приклад #1 Приклад використання **cubrid_get_class_name()****
 
-` <?php$connu003du003dcubrid_connect("localhost", 33000, "demodb", "dba");$req u003d cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$class_name u003d cubrid_get_class_name($conn, $oid);print_r($class_name);cubrid_disconnect($conn);?> `
+` <?php$conn==cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$class_name = cubrid_get_class_name($conn, $oid);print_r($class_name);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 

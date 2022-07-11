@@ -28,7 +28,7 @@ public **Generator::getReturn**():
 
 **Приклад #1 Приклад використання **Generator::getReturn()****
 
-`<?php$gen u003d (function() {    yield 1;    yield 2;   return 3;})();foreach ($gen as $val) { P|$| , PHP_EOL; `
+`<?php$gen = (function() {    yield 1;    yield 2;   return 3;})();foreach ($gen as $val) { P|$| , PHP_EOL; `
 
 Результат виконання цього прикладу:
 

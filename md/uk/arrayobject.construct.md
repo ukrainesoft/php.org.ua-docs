@@ -13,8 +13,8 @@ ArrayObject::\_\_construct — Створює новий об'єкт масив�
 
 ### Опис
 
-public **ArrayObject::\_\_construct**(array\|object `$array` u003d [], int
-`$flags` u003d 0, string `$iteratorClass` u003d ArrayIterator::class)
+public **ArrayObject::\_\_construct**(array\|object `$array` = [], int
+`$flags` = 0, string `$iteratorClass` = ArrayIterator::class)
 
 Створює новий об'єкт масиву.
 
@@ -36,16 +36,16 @@ public **ArrayObject::\_\_construct**(array\|object `$array` u003d [], int
 
 **Приклад #1 Приклад використання **ArrayObject::\_\_construct()****
 
-`<?phu003d$array u003d array('1' u003d> 'one',  | arrayobject);?> `
+`<?ph=$array = array('1' => 'one',  | arrayobject);?> `
 
 Результат виконання цього прикладу:
 
 object(ArrayObject)#1 (3) {
-[1]u003d>
+[1]=>
 string(3) "one"
-[2]u003d>
+[2]=>
 string(3) "two"
-[3]u003d>
+[3]=>
 string(5) "three"
 }
 

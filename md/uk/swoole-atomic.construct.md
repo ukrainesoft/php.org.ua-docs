@@ -7,13 +7,13 @@
 
 # Swoole\Atomic::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Atomic::\_\_construct - Створює атомарний об'єкт swoole
 
 ### Опис
 
-public **Swoole\Atomic::\_\_construct**(int `$value` u003d ?)
+public **Swoole\Atomic::\_\_construct**(int `$value` = ?)
 
 Атомарний об'єкт Swoole - це ціла змінна, яка
 дозволяє будь-якому процесору атомарно тестувати та модифікувати. Він

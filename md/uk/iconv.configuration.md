@@ -11,9 +11,9 @@
 
 | Ім'я За замовчуванням                                                         | Місце зміни | Список змін |
 | ----------------------------------------------------------------------------- | ----------- | ----------- |
-| [iconv.input_encoding](iconv.configuration.md#ini.iconv.input-encoding)       | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0. 
-| [iconv.output_encoding](iconv.configuration.md#ini.iconv.output-encoding)     | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0. 
-| [iconv.internal_encoding](iconv.configuration.md#ini.iconv.internal-encoding) | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0. 
+| [iconv.input_encoding](iconv.configuration.md#ini.iconv.input-encoding)       | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0.
+| [iconv.output_encoding](iconv.configuration.md#ini.iconv.output-encoding)     | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0.
+| [iconv.internal_encoding](iconv.configuration.md#ini.iconv.internal-encoding) | ""          | PHP_INI_ALL | Застаріло з PHP 5.6.0.
 
 **Опції налаштування Iconv**
 

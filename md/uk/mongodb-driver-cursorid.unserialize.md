@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\CursorId::unserialize
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\CursorId::unserialize - Десеріалізація CursorId
 

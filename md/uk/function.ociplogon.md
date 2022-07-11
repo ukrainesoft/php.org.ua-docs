@@ -7,7 +7,7 @@
 
 # ociplogon
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ociplogon - Псевдонім [oci_pconnect()](function.oci-pconnect.md)
 

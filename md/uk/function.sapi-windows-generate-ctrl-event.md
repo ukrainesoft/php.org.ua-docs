@@ -7,13 +7,13 @@
 
 # sapi_windows_generate_ctrl_event
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 sapi_windows_generate_ctrl_event — Надіслати подію CTRL іншому процесу
 
 ### Опис
 
-**sapi_windows_generate_ctrl_event**(int `$event`, int `$pid` u003d 0): bool
+**sapi_windows_generate_ctrl_event**(int `$event`, int `$pid` = 0): bool
 
 Надіслати подію CTRL іншому процесу у тій же групі процесів.
 
@@ -42,7 +42,7 @@ sapi_windows_generate_ctrl_event — Надіслати подію CTRL іншо
 `CTRL+BREAK`. Після цього дочірній процес завершиться.
 
 `<?php// Пересилка подій CTRL+BREAK дочірньому процесуsapi_windows_set_ctrl_handler('sapi_windows_generate_ctrl_event');// Створюємо дочірній процес$cmd    
-"; sleep(1); }'];$descspec u003d array(['pipe', 'r'], ['pipe', 'w'], ['pipe', 'w']);$options u003d ['create_process_group' u003d> true];$proc u003d proc_open($cmd, $descspec, $pipes, null, null, $options);while (true) {    echo fgets($)
+"; sleep(1); }'];$descspec = array(['pipe', 'r'], ['pipe', 'w'], ['pipe', 'w']);$options = ['create_process_group' => true];$proc = proc_open($cmd, $descspec, $pipes, null, null, $options);while (true) {    echo fgets($)
 
 ### Дивіться також
 

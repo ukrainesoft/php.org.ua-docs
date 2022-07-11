@@ -11,13 +11,13 @@
 
 | Ім'я За замовчуванням                                                                     | Місце зміни | Список змін    |
 | ----------------------------------------------------------------------------------------- | ----------- | -------------- |
-| [com.allow_dcom](com.configuration.md#ini.com.allow-dcom)                                 | "0"         | PHP_INI_SYSTEM | 
-| [com.autoregister_typelib](com.configuration.md#ini.com.autoregister-typelib)             | "0"         | PHP_INI_ALL    | 
-| [com.autoregister_verbose](com.configuration.md#ini.com.autoregister-verbose)             | "0"         | PHP_INI_ALL    | 
-| [com.autoregister_casesensitive](com.configuration.md#ini.com.autoregister-casesensitive) | "1"         | PHP_INI_ALL    | 
-| [com.code_page](com.configuration.md#ini.com.code-page)                                   | ""          | PHP_INI_ALL    | 
+| [com.allow_dcom](com.configuration.md#ini.com.allow-dcom)                                 | "0"         | PHP_INI_SYSTEM |
+| [com.autoregister_typelib](com.configuration.md#ini.com.autoregister-typelib)             | "0"         | PHP_INI_ALL    |
+| [com.autoregister_verbose](com.configuration.md#ini.com.autoregister-verbose)             | "0"         | PHP_INI_ALL    |
+| [com.autoregister_casesensitive](com.configuration.md#ini.com.autoregister-casesensitive) | "1"         | PHP_INI_ALL    |
+| [com.code_page](com.configuration.md#ini.com.code-page)                                   | ""          | PHP_INI_ALL    |
 | [com.dotnet_version](com.configuration.md#ini.com.dotnet-version)                         | ""          | PHP_INI_SYSTEM | Починаючи з PHP 8.0.0
-| [com.typelib_file](com.configuration.md#ini.com.typelib-file)                             | ""          | PHP_INI_SYSTEM | 
+| [com.typelib_file](com.configuration.md#ini.com.typelib-file)                             | ""          | PHP_INI_SYSTEM |
 
 **Опції конфігурації Com**
 

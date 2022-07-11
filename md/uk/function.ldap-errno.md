@@ -32,9 +32,9 @@ int
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
@@ -45,10 +45,10 @@ HTML висновку.
 
 **Приклад #1 Генерування та фіксація помилки**
 
-` <?php// Цей приклад містить помилку, ми спіймаємо$ld u003d ldap_connect("localhost");$bind u003d ldap_bind($ld);// синтаксічна помилка в | objectclassu003d*" для того, щоб це працювало.$res u003d  @ldap_search($ld, "ou003dMyorg, cu003dDE", "objectclass");if (!$res) {    echo ". ldap_errno($ld) . "<br />
+` <?php// Цей приклад містить помилку, ми спіймаємо$ld = ldap_connect("localhost");$bind = ldap_bind($ld);// синтаксічна помилка в | objectclass=*" для того, щоб це працювало.$res =  @ldap_search($ld, "o=Myorg, c=DE", "objectclass");if (!$res) {    echo ". ldap_errno($ld) . "<br />
 ";   echo "LDAP-Error: " . ldap_error($ld) . "<br />
 ";   die("Argh!<br />
-");}$info u003d ldap_get_entries($ld, $res);echo $info["count"] . " підходящих записів.<br />
+");}$info = ldap_get_entries($ld, $res);echo $info["count"] . " підходящих записів.<br />
 ";?> `
 
 ### Дивіться також

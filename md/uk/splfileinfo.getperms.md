@@ -7,7 +7,7 @@
 
 # SplFileInfo::getPerms
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPerms — Отримує список дозволів
 
@@ -30,7 +30,7 @@ public **SplFileInfo::getPerms**(): int\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getPerms()****
 
-` <?php$info u003d new SplFileInfo('/tmp');echo substr(sprintf('%o', $info->getPerms()), -4);$info u003d new SplFileInfo(__FILE__);echo substr (sprintf('%o',$info->getPerms()), -4);?> `
+` <?php$info = new SplFileInfo('/tmp');echo substr(sprintf('%o', $info->getPerms()), -4);$info = new SplFileInfo(__FILE__);echo substr (sprintf('%o',$info->getPerms()), -4);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

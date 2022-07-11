@@ -7,7 +7,7 @@
 
 # Swoole\Buffer::read
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::read — Читає дані з буфера пам'яті на основі зміщення
 та довжини

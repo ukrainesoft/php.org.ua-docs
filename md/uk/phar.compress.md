@@ -7,14 +7,14 @@
 
 # Phar::compress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::compress — Стискає весь Phar-архів за допомогою Gzip- або
 Bzip2-стискання
 
 ### Опис
 
-public **Phar::compress**(int `$compression`, ?string `$extension` u003d
+public **Phar::compress**(int `$compression`, ?string `$extension` =
 **`null`**): ?[Phar](class.phar.md)
 
 > **Примітка**:
@@ -74,15 +74,15 @@ INI-змінна
 
 ### Список змін
 
-| Версія | Опис                                        |
-| ------ | ------------------------------------------- |
-| 8.0.0  | ` extension ` тепер допускає значення null. |
+| Версія | Опис                                     |
+| ------ | ---------------------------------------- |
+| 8.0.0  | extension  тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::compress()****
 
-` <?php$p u003d new Phar('/шлях/к/my.phar', 0, 'my.phar');$p['myfile.txt'] u003d 'привіт';$p['myfile2. txt'] u003d 'привіт';$p1 u003d $p->compress(Phar::GZ); //копіюєв/шлях/к/my.phar.gz$p2u003du003d$p->compress(Phar::BZ2); // копіює в /шлях/к/my.phar.bz2$p3 u003d $p2->compress(Phar::NONE); // виняток: /шлях/к/my.phar вже існує?> `
+` <?php$p = new Phar('/шлях/к/my.phar', 0, 'my.phar');$p['myfile.txt'] = 'привіт';$p['myfile2. txt'] = 'привіт';$p1 = $p->compress(Phar::GZ); //копіюєв/шлях/к/my.phar.gz$p2==$p->compress(Phar::BZ2); // копіює в /шлях/к/my.phar.bz2$p3 = $p2->compress(Phar::NONE); // виняток: /шлях/к/my.phar вже існує?> `
 
 ### Дивіться також
 

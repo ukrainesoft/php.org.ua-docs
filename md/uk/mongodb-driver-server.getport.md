@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getPort
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::getPort — Повертає порт, який слухає сервер
 
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\Server::getPort**(): int
 
 **Приклад #1 Приклад використання **MongoDB\Driver\Server::getPort()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server u003d manager->selectServer($rp);var_dump($server->getPort());?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server = manager->selectServer($rp);var_dump($server->getPort());?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerDescription::getLastUpdateTime
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\ServerDescription::getLastUpdateTime — Повертає час
 останнього оновлення сервера в мікросекундах

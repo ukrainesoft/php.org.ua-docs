@@ -7,7 +7,7 @@
 
 # SplObjectStorage::offsetUnset
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetUnset — Видаляє об'єкт із контейнера
 
@@ -35,7 +35,7 @@ public **SplObjectStorage::offsetUnset**(object `$object`): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetUnset()****
 
-` <?php$o u003d new StdClass;$s u003d new SplObjectStorage();$s->attach($o);var_dump(count($s));$s->offsetUnset($o); // аналогічно unset($s[$o])var_dump(count($s));?> `
+` <?php$o = new StdClass;$s = new SplObjectStorage();$s->attach($o);var_dump(count($s));$s->offsetUnset($o); // аналогічно unset($s[$o])var_dump(count($s));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # GmagickDraw::gettextdecoration
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::gettextdecoration — Повертає оформлення тексту
 

@@ -34,7 +34,7 @@ public **DOMDocument::saveHTMLFile**(string `$filename`): int\|false
 
 **Приклад #1 Збереження HTML-дерева у файл**
 
-` <?php$doc u003d new DOMDocument('1.0');// ми хочемо красивий висновок$doc->formatOutput u003d true;$root u003d $doc->createElement('html');$root u003d $doc> appendChild($root);$head u003d $doc->createElement('head');$head u003d $root->appendChild($head);$title u003d $doc->createElement('title');$title u003d $head->appendChild($title);$text u003d $doc->createTextNode('Це заголовок');$text u003d $title->appendChild($text);echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.md") . ' байт'; // Записано: 129 байт?> `
+` <?php$doc = new DOMDocument('1.0');// ми хочемо красивий висновок$doc->formatOutput = true;$root = $doc->createElement('html');$root = $doc> appendChild($root);$head = $doc->createElement('head');$head = $root->appendChild($head);$title = $doc->createElement('title');$title = $head->appendChild($title);$text = $doc->createTextNode('Це заголовок');$text = $title->appendChild($text);echo 'Записано: ' . $doc->saveHTMLFile("/tmp/test.md") . ' байт'; // Записано: 129 байт?> `
 
 ### Дивіться також
 

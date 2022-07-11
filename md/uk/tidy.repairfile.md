@@ -9,7 +9,7 @@
 
 # tidy_repair_file
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.7.0)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.7.0)
 
 tidy::repairFile -- tidy_repair_file — Відновлює розмітку файлу та
 повертає його у вигляді рядка
@@ -20,18 +20,18 @@ tidy::repairFile -- tidy_repair_file — Відновлює розмітку ф�
 
 public static **tidy::repairFile**(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): string\|false
 
 Процедурний стиль
 
 **tidy_repair_file**(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): string\|false
 
 Відновлює отриманий файл та повертає його у вигляді рядка.
@@ -65,16 +65,16 @@ http://tidy.sourceforge.net/docs/quickref.md.
 
 ### Список змін
 
-| Версія | Опис                                                   |
-| ------ | ------------------------------------------------------ |
-| 8.0.0  | **tidy::repairFile()** тепер статичний метод.          |
-| 8.0.0  | `config` та `encoding` тепер допускають значення null. |
+| Версія | Опис                                               |
+| ------ | -------------------------------------------------- |
+| 8.0.0  | **tidy::repairFile()** тепер статичний метод.      |
+| 8.0.0  | config та encoding тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **tidy::repairFile()****
 
-` <?php$file u003d 'file.md';$tidy u003d new tidy();$repaired u003d $tidy->repairfile($file);rename($file, $file . '.bak');file_put_contents( $file, $repaired);?> `
+` <?php$file = 'file.md';$tidy = new tidy();$repaired = $tidy->repairfile($file);rename($file, $file . '.bak');file_put_contents( $file, $repaired);?> `
 
 ### Дивіться також
 

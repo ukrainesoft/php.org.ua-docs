@@ -7,7 +7,7 @@
 
 # oci_connect
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_connect — Встановлює з'єднання з базою даних Oracle
 
@@ -16,9 +16,9 @@ oci_connect — Встановлює з'єднання з базою даних 
 **oci_connect**(
 string `$username`,
 string `$password`,
-?string `$connection_string` u003d **`null`**,
-string `$encoding` u003d "",
-int `$session_mode` u003d **`OCI_DEFAULT`**
+?string `$connection_string` = **`null`**,
+string `$encoding` = "",
+int `$session_mode` = **`OCI_DEFAULT`**
 ): resource \ | false
 
 Повертає ідентифікатор з'єднання, який використовується більшістю
@@ -51,7 +51,7 @@ int `$session_mode` u003d **`OCI_DEFAULT`**
 
 `connection_string`
 Містить `примірник Oracle` для підключення. Це може бути [» Easy
-Connect string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
+Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
 або Connect Name з файлу `tnsnames.ora`, або ім'я локального екземпляра
 Oracle.
 
@@ -124,18 +124,18 @@ Oracle. Назви служб можуть бути визначені за до
 
 ### Список змін
 
-| Версія                 | Опис                                               |
-| ---------------------- | -------------------------------------------------- |
-| 8.0.0, PECL OCI8 3.0.0 | `connection_string` тепер припускає значення null. |
+| Версія                 | Опис                                             |
+| ---------------------- | ------------------------------------------------ |
+| 8.0.0, PECL OCI8 3.0.0 | connection_string тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **oci_connect()** із синтаксисом Easy
 Connect**
 
-`<?php// Підключається к XE сервісу (тобто к базі даних) на "localhost"$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$n $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+`<?php// Підключається к XE сервісу (тобто к базі даних) на "localhost"$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$n $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `
@@ -143,9 +143,9 @@ Connect**
 **Приклад #2 Приклад використання **oci_connect()** використовуючи ім'я Network
 Connect**
 
-` <?php// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,// Пример записи в tnsnames.ora для MYDB://   MYDB u003d//     (DESCRIPTION u003d//       (ADDRESS u003d (PROTOCOL u003d TCP)(HOST u003d mymachine.oracle.com)(PORT u003d 1521))//       (CONNECT_DATA u003d//         (SERVER u003d DEDICATED)//         (SERVICE_NAME u003d XE)//       )//     )$conn u003d oci_connect('hr', 'welcome' , 'MYDB');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+` <?php// Соединяется с базой данных MYDB описанной в файле tnsnames.ora,// Пример записи в tnsnames.ora для MYDB://   MYDB =//     (DESCRIPTION =//       (ADDRESS = (PROTOCOL = TCP)(HOST = mymachine.oracle.com)(PORT = 1521))//       (CONNECT_DATA =//         (SERVER = DEDICATED)//         (SERVICE_NAME = XE)//       )//     )$conn = oci_connect('hr', 'welcome' , 'MYDB');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `
@@ -153,9 +153,9 @@ Connect**
 **Приклад #3 Приклад використання **oci_connect()** з використанням
 певного набору символів**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE', 'AL32UTF8');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `
@@ -163,13 +163,13 @@ Connect**
 **Приклад #4 Приклад використання багаторазових дзвінків
 **oci_connect()****
 
-` <?php$c1 u003d oci_connect("hr", "welcome", 'localhost/XE');$c2 u003d oci_connect("hr", "welcome", 'localhost/XE');// $c1 і $ c2 містять однаковий PHP id ресурсу, означає, що// вони використовують однакове базове з'єднанняecho "c1 is $c1<br>
+` <?php$c1 = oci_connect("hr", "welcome", 'localhost/XE');$c2 = oci_connect("hr", "welcome", 'localhost/XE');// $c1 і $ c2 містять однаковий PHP id ресурсу, означає, що// вони використовують однакове базове з'єднанняecho "c1 is $c1<br>
 ";echo "c2 is $c2<br>
-";function create_table($conn){    $stmt u003d oci_parse($conn, "create table hallo (test varchar2(64))");    oci_execute($stmt);    
-";}function drop_table($conn){    $stmt u003d oci_parse($conn, "drop table hallo");    oci_execute($stmt);    echo "Dropped table
-";}function insert_data($connname, $conn){    $stmt u003d oci_parse($conn, "insert into hallo                                                                                                          ■ $stmt, OCI_DEFAULT);   echo "$connname inserted row without committing<br>
+";function create_table($conn){    $stmt = oci_parse($conn, "create table hallo (test varchar2(64))");    oci_execute($stmt);    
+";}function drop_table($conn){    $stmt = oci_parse($conn, "drop table hallo");    oci_execute($stmt);    echo "Dropped table
+";}function insert_data($connname, $conn){    $stmt = oci_parse($conn, "insert into hallo                                                                                                          ■ $stmt, OCI_DEFAULT);   echo "$connname inserted row without committing<br>
 ";}function rollback($connname, $conn){    oci_rollback($conn);   echo "$connname rollback<br>
-";}function select_data($connname, $conn){    $stmt u003d oci_parse($conn, "select * from hallo");   oci_execute($stmt, oCI_DEFAULT)
+";}function select_data($connname, $conn){    $stmt = oci_parse($conn, "select * from hallo");   oci_execute($stmt, oCI_DEFAULT)
 ";    while (oci_fetch($stmt)) {        echo "    " . oci_result($stmt, "TEST") . "<br>
 ";    }    echo "$connname ----done<br>
 ";}create_table($c1);insert_data('c1', $c1);   // Вставить строку используя c1sleep(2);                 // остановиться для записи другой временной метки для следующей строкиinsert_data('c2', $c2);   / / Вставить строку используя c2select_data('c1', $c1);   // Возврат результата обоих вставокselect_data('c2', $c2);   // Возврат результата обоих вставокrollback('c1', $c1);      // Откат используя c1select_data( 'c1', $c1); $c1);echo "c1 is $c1<br>

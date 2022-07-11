@@ -7,7 +7,7 @@
 
 #oci_field_size
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_field_size — Повертає розмір поля
 
@@ -35,9 +35,9 @@ int\|false
 
 **Приклад #1 Приклад використання **oci_field_size()****
 
-` <?php// Создайте таблицу://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1),//                       clob_col CLOB, date_col DATE);$conn u003d oci_connect("hr", "hrpwd", "localhost/XE ");if (!$conn) {    $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stidu003du003doci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте данихecho "<table borderu003d\"1\">
+` <?php// Создайте таблицу://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1),//                       clob_col CLOB, date_col DATE);$conn = oci_connect("hr", "hrpwd", "localhost/XE ");if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте данихecho "<table border=\"1\">
 ";echo "<tr>";echo "<th>Name</th>";echo "<th>Type</th>";echo "<th>Length</th>";echo "</tr >
-";$ncols u003d oci_num_fields($stid);for ($i u003d 1; $i <u003d $ncols; $i++) {    $column_name  u003d oci_field_name($stid, $i)| $| i);   $column_size  u003d oci_field_size($stid, $i);   echo "<tr>";   echo "<td>$column_name</td>";   echo>  <td>$column_size</td>";    echo "</tr>
+";$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {    $column_name  = oci_field_name($stid, $i)| $| i);   $column_size  = oci_field_size($stid, $i);   echo "<tr>";   echo "<td>$column_name</td>";   echo>  <td>$column_size</td>";    echo "</tr>
 ";}echo "</table>
 ";// Выведет://    Name           Type       Length//    NUMBER_COL    NUMBER        22//    VARCHAR2_COL  VARCHAR2       1//    CLOB_COL      CLOB        4000//    DATE_COL      DATE           7oci_free_statement($stid);oci_close($conn);?> `
 

@@ -9,7 +9,7 @@
 
 #xmlwriter_start_dtd_element
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::startDtdElement -- xmlwriter_start_dtd_element -- Створити
 стартовий елемент DTD
@@ -45,9 +45,9 @@ public **XMLWriter::startDtdElement**(string `$qualifiedName`): bool
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

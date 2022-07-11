@@ -8,7 +8,7 @@
 
 #expect_popen
 
-(PECL expect u003d> 0.1.0)
+(PECL expect => 0.1.0)
 
 expect_popen — Запускає команду через командну оболонку Bourne та
 відкриває для процесу потік PTY
@@ -35,7 +35,7 @@ expect_popen — Запускає команду через командну о�
 
 **Приклад #1 Приклад використання **expect_popen()****
 
-` <?php// Сполука з CVS репозиторієм PHP.net:$stream u003d expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");sleep$ (3) "phpfi
+` <?php// Сполука з CVS репозиторієм PHP.net:$stream = expect_popen ("cvs -d :pserver:anonymous@cvs.php.net:/repository login");sleep$ (3) "phpfi
 "); fclose ($stream);?> `
 
 ### Дивіться також

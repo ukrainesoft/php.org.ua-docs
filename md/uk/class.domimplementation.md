@@ -22,13 +22,13 @@ class **DOMImplementation** {
 /\* Методи \*/
 
 public [createDocument](domimplementation.createdocument.md)(?string
-`$namespace` u003d **`null`**, string `$qualifiedName` u003d "",
-?[DOMDocumentType](class.domdocumenttype.md) `$doctype` u003d **`null`**):
+`$namespace` = **`null`**, string `$qualifiedName` = "",
+?[DOMDocumentType](class.domdocumenttype.md) `$doctype` = **`null`**):
 [DOMDocument](class.domdocument.md)\|false
 
 public
 [createDocumentType](domimplementation.createdocumenttype.md)(string
-`$qualifiedName`, string `$publicId` u003d "", string `$systemId` u003d ""):
+`$qualifiedName`, string `$publicId` = "", string `$systemId` = ""):
 [DOMDocumentType](class.domdocumenttype.md)\|false
 
 public [hasFeature](domimplementation.hasfeature.md)(string

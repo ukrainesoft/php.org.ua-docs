@@ -7,7 +7,7 @@
 
 # Ds\Queue::peek
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::peek — Повертає значення з початку черги
 
@@ -36,7 +36,7 @@ public **Ds\Queue::peek**():
 
 **Приклад #1 Приклад використання **Ds\Queue::peek()****
 
-` <?php$queue u003d new \Ds\Queue();$queue->push("a");$queue->push("b");$queue->push("c");var_dump( $queue->peek());?> `
+` <?php$queue = new \Ds\Queue();$queue->push("a");$queue->push("b");$queue->push("c");var_dump( $queue->peek());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

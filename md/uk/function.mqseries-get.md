@@ -7,7 +7,7 @@
 
 # mqseries_get
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_get — MQSeries MQGET
 
@@ -70,7 +70,7 @@ queue that has been opened using the
 
 **Приклад #1 Приклад використання **mqseries_get()****
 
-` <?php// Открываем соединение с MQ    mqseries_conn('WMQ1', $conn, $comp_code, $reason);// Теперь $conn содержит ссылку на соединение// Открываем соединение с очередью testq    mqseries_open(                $conn,                array(' ObjectName' u003d> 'TESTQ'),                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason);// Теперь $obj содержит ссылку на объект (TESTQ)// Устанавливаем пустой дескриптор сообщения. $mdg u003d array();// Устанавливаем опции извлечения сообщения    $gmo u003d array('Options' u003d> MQSERIES_MQGMO_FAIL_IF_QUIESCING | MQSERIES_MQGMO_WAIT, 'WaitInterval' u003d> 3000);// Получаем сообщение    mqseries_get($conn, $obj, $mdg, $gmo, 255, $msg, $data_length, $comp_code, $reason); if($comp_code !u003du003d MQSERIES_MQCC_OK) {        printf("GET CompCode:%d Reason:%d Text:%s<br>", $comp_code, $reason, $; }// закриваємо $obj   mqseries_close($conn, $obj, MQSERIES_MQCO_NONE,$comp_code,$reason);// закриваємо з'єднання|
+` <?php// Открываем соединение с MQ    mqseries_conn('WMQ1', $conn, $comp_code, $reason);// Теперь $conn содержит ссылку на соединение// Открываем соединение с очередью testq    mqseries_open(                $conn,                array(' ObjectName' => 'TESTQ'),                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason);// Теперь $obj содержит ссылку на объект (TESTQ)// Устанавливаем пустой дескриптор сообщения. $mdg = array();// Устанавливаем опции извлечения сообщения    $gmo = array('Options' => MQSERIES_MQGMO_FAIL_IF_QUIESCING | MQSERIES_MQGMO_WAIT, 'WaitInterval' => 3000);// Получаем сообщение    mqseries_get($conn, $obj, $mdg, $gmo, 255, $msg, $data_length, $comp_code, $reason); if($comp_code !== MQSERIES_MQCC_OK) {        printf("GET CompCode:%d Reason:%d Text:%s<br>", $comp_code, $reason, $; }// закриваємо $obj   mqseries_close($conn, $obj, MQSERIES_MQCO_NONE,$comp_code,$reason);// закриваємо з'єднання|
 
 ### Дивіться також
 

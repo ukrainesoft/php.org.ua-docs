@@ -7,7 +7,7 @@
 
 # tidyNode::getParent
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 tidyNode::getParent — Повертає батьківський вузол поточного вузла
 
@@ -30,7 +30,7 @@ public **tidyNode::getParent**(): ?[tidyNode](class.tidynode.md)
 
 **Приклад #1 Приклад використання функції **tidyNode::getParent()****
 
-` <?php$html u003d <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE-код */ alert('Hello World');#> </head> <body> Hello World </body></html>HTML;$tidy u003d tidy_parse_string($html);$ num u003d 0;$node u003d $tidy->html()->child[0]->child[0];var_dump($node->getparent()->name);?> `
+` <?php$html = <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE-код */ alert('Hello World');#> </head> <body> Hello World </body></html>HTML;$tidy = tidy_parse_string($html);$ num = 0;$node = $tidy->html()->child[0]->child[0];var_dump($node->getparent()->name);?> `
 
 Результат виконання цього прикладу:
 

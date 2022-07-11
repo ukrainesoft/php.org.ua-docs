@@ -7,7 +7,7 @@
 
 #cubrid_load_from_glo
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_load_from_glo — Читає дані з екземпляра GLO і записує їх у
 файл
@@ -41,7 +41,7 @@ Oid екземпляра glo з якого ви хочете прочитати 
 
 **Приклад #1 Приклад використання **cubrid_load_from_glo()****
 
-` <?php$req u003d cubrid_execute ($con, "select image from person where idu003d1");if ($req) {   list ($oid) u003d cubrid_fetch($req); cubrid_close_request($req); $res u003d cubrid_load_from_glo ($con, $oid, "output.jpg"); if ($res) {      echo "Картинка була змінена"; }}?> `
+` <?php$req = cubrid_execute ($con, "select image from person where id=1");if ($req) {   list ($oid) = cubrid_fetch($req); cubrid_close_request($req); $res = cubrid_load_from_glo ($con, $oid, "output.jpg"); if ($res) {      echo "Картинка була змінена"; }}?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # GearmanClient::doBackground
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doBackground — Запускає виконання завдання у фоновому режимі
 режимі
@@ -15,7 +15,7 @@ GearmanClient::doBackground — Запускає виконання завдан
 ### Опис
 
 public **GearmanClient::doBackground**(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 Запуск виконання завдання у фоновому режимі, повертаючи дескриптор
 завдання, яке може бути використане для запиту стану
@@ -44,8 +44,8 @@ public **GearmanClient::doBackground**(string `$function_name`, string
 змоделювати тривале виконання завдання. Клієнт періодично
 перевіряє стан завдання, що виконується.
 
-` <?php/* створення об'єкта */$gmclientu003d new GearmanClient();/* вказівка сервера за мовчанням */$gmclient->addServer();/* запуск виконання клієнта $/$ "reverse", "this is a test");if($gmclient->returnCode() !u003d GEARMAN_SUCCESS){ echo "неуспішний код повернення
-";  exit;}$done u003d false;do{   sleep(3);   $stat u003d $gmclient->jobStatus($job_handle);  if (!$stat[0])   не    true;  echo "Виконується: " . ($stat[1] ? "true" : "false") . ", числитель: " . $stat[2] . ", знаменник: " . .
+` <?php/* створення об'єкта */$gmclient= new GearmanClient();/* вказівка сервера за мовчанням */$gmclient->addServer();/* запуск виконання клієнта $/$ "reverse", "this is a test");if($gmclient->returnCode() != GEARMAN_SUCCESS){ echo "неуспішний код повернення
+";  exit;}$done = false;do{   sleep(3);   $stat = $gmclient->jobStatus($job_handle);  if (!$stat[0])   не    true;  echo "Виконується: " . ($stat[1] ? "true" : "false") . ", числитель: " . $stat[2] . ", знаменник: " . .
 ";}while(!$done);echo "завершено!
 ";?> `
 

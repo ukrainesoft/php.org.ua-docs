@@ -7,7 +7,7 @@
 
 # Gmagick::getpackagename
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getpackagename — Повертає ім'я пакета GraphicsMagick
 

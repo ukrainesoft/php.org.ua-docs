@@ -7,7 +7,7 @@
 
 # RegexIterator::setPregFlags
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::setPregFlags — Завдання прапорів регулярного виразу
 
@@ -35,25 +35,25 @@ public **RegexIterator::setPregFlags**(int `$pregFlags`): void
 Створює новий об'єкт RegexIterator, що відбирає елементи масиву, ключі
 яких починаються зі слова 'test'.
 
-` <?php$test u003d array ('test 1', 'another test', 'test 123');$arrayIterator u003d new ArrayIterator($test);$regexIterator u003d new RegexItera^ ^ , RegexIterator::GET_MATCH);$regexIterator->setPregFlags(PREG_OFFSET_CAPTURE);foreach ($regexIterator as $key u003d> $value) {    var_dump($value);
+` <?php$test = array ('test 1', 'another test', 'test 123');$arrayIterator = new ArrayIterator($test);$regexIterator = new RegexItera^ ^ , RegexIterator::GET_MATCH);$regexIterator->setPregFlags(PREG_OFFSET_CAPTURE);foreach ($regexIterator as $key => $value) {    var_dump($value);
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(4) "test"
-[1]u003d>
+[1]=>
 int(0)
 }
 }
 array(1) {
-[0]u003d>
+[0]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(4) "test"
-[1]u003d>
+[1]=>
 int(0)
 }
 }

@@ -13,7 +13,7 @@ UI\Menu::appendQuit — Додати пункт меню "Вихід" (Quit)
 
 ### Опис
 
-public **UI\Menu::appendQuit**(string `$type` u003d UI\MenuItem::class):
+public **UI\Menu::appendQuit**(string `$type` = UI\MenuItem::class):
 [UI\MenuItem](class.ui-menuitem.md)
 
 Додасть пункт меню "Вихід"

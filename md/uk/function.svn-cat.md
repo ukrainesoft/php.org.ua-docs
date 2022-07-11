@@ -7,13 +7,13 @@
 
 # svn_cat
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_cat — Повертає вміст файлу у репозиторії
 
 ### Опис
 
-**svn_cat**(string `$repos_url`, int `$revision_no` u003d ?): string
+**svn_cat**(string `$repos_url`, int `$revision_no` = ?): string
 
 Повертає вміст по URL `repos_url` файлу в репозиторії за
 станом на ревізію із номером `revision_no` (необов'язковий параметр).
@@ -38,7 +38,7 @@ HEAD (Остання ревізія).
 
 Цей приклад показує, як отримати вміст файлу ревізії 28:
 
-` <?php$contents u003d svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)?> `
+` <?php$contents = svn_cat('http://www.example.com/svnroot/calc/gui.c', 28)?> `
 
 ### Примітки
 

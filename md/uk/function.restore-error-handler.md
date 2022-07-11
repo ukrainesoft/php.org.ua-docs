@@ -7,7 +7,7 @@
 
 # restore_error_handler
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 restore_error_handler — Відновлює попередній обробник помилок
 
@@ -37,7 +37,7 @@ restore_error_handler — Відновлює попередній обробни
 вихідного обробника помилок.
 
 `<?phpfunction unserialize_handler($errno, $errstr){    echo "Серіалізується значення неприпустимо.
-";}$serialized u003d 'foo';set_error_handler('unserialize_handler');$original u003d unserialize($serialized);restore_error_handler();?> `
+";}$serialized = 'foo';set_error_handler('unserialize_handler');$original = unserialize($serialized);restore_error_handler();?> `
 
 Результат виконання цього прикладу:
 

@@ -25,7 +25,7 @@ public **Imagick::paintOpaqueImage**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fill`,
 float `$fuzz`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Змінює будь-який піксель, який відповідає кольору, на колір, визначений

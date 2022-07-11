@@ -7,7 +7,7 @@
 
 #oci_new_cursor
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_new_cursor - Повертає ідентифікатор створеного курсору
 
@@ -34,7 +34,7 @@ oci_new_cursor - Повертає ідентифікатор створеног�
 
 **Приклад #1 Прив'язка REF CURSOR у виклику процедур Oracle, що зберігаються**
 
-` <?php// Предварительная подготовка://   создайте или замените процедуру myproc(myrc out sys_refcursor) как//   begin//     open myrc for select first_name from employees;//   end;$conn u003d oci_connect("hr", "hrpwd ", "localhost/XE");if (!$conn) {    $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$curs u003d oci_new_cursor($conn); stid, ":cursbv", $curs, -1, OCI_B_CURSOR);oci_execute($stid);oci_execute($curs); // Виконує REF CURSOR як звичайний ідентифікатор вираженняwhile (($row u003d oci_fetch_array($curs, OCI_ASSOC+OCI_RETURN_NULLS)) !u003d false) {    "<br />
+` <?php// Предварительная подготовка://   создайте или замените процедуру myproc(myrc out sys_refcursor) как//   begin//     open myrc for select first_name from employees;//   end;$conn = oci_connect("hr", "hrpwd ", "localhost/XE");if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$curs = oci_new_cursor($conn); stid, ":cursbv", $curs, -1, OCI_B_CURSOR);oci_execute($stid);oci_execute($curs); // Виконує REF CURSOR як звичайний ідентифікатор вираженняwhile (($row = oci_fetch_array($curs, OCI_ASSOC+OCI_RETURN_NULLS)) != false) {    "<br />
 ";}oci_free_statement($stid);oci_free_statement($curs);oci_close($conn);?> `
 
 ### Примітки

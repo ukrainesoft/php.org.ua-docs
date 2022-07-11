@@ -8,7 +8,7 @@ include_path
 
 # restore_include_path
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7)
 
 restore_include_path — Відновлює початкове значення налаштування
 конфігурації include_path

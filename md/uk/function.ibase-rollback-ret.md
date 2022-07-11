@@ -13,7 +13,7 @@ ibase_rollback_ret - Відкочує транзакцію, не закрива�
 
 ### Опис
 
-**ibase_rollback_ret**(resource `$link_or_trans_identifier` u003d
+**ibase_rollback_ret**(resource `$link_or_trans_identifier` =
 **`null`**): bool
 
 Відкочує транзакцію, не закриваючи її.

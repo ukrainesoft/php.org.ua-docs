@@ -14,7 +14,7 @@ fdf_set_file — Встановлює PDF-документ для відобра
 ### Опис
 
 **fdf_set_file**(resource `$fdf_document`, string `$url`, string
-`$target_frame` u003d ?): bool
+`$target_frame` = ?): bool
 
 Вибирає інший PDF-файл для відображення результатів форми в тій
 формі, з якої він був створений.
@@ -45,7 +45,7 @@ fdf_set_file — Встановлює PDF-документ для відобра
 
 **Приклад #1 Передача даних FDF у другу форму**
 
-` <?php  /* Установка типу вмісту для Adobe FDF */ fdf_header(); /* Створення нового fdf */  $fdf u003d fdf_create(); /* Установка значення "bar" в поле "foo" */ fdf_set_value($fdf, "foo", "bar"); /* повідомлення клієнту, потрібно відображати дані FDF, використовуючи "fdf_form.pdf" */ fdf_set_file($fdf, "http://www.example.com/fdf_form.pdf"); /* виведення fdf */ fdf_save($fdf); /* закриття */ fdf_close($fdf);?> `
+` <?php  /* Установка типу вмісту для Adobe FDF */ fdf_header(); /* Створення нового fdf */  $fdf = fdf_create(); /* Установка значення "bar" в поле "foo" */ fdf_set_value($fdf, "foo", "bar"); /* повідомлення клієнту, потрібно відображати дані FDF, використовуючи "fdf_form.pdf" */ fdf_set_file($fdf, "http://www.example.com/fdf_form.pdf"); /* виведення fdf */ fdf_save($fdf); /* закриття */ fdf_close($fdf);?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 #pspell_new
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_new — Завантажує новий словник
 
@@ -15,10 +15,10 @@ pspell_new — Завантажує новий словник
 
 **pspell_new**(
 string `$language`,
-string `$spelling` u003d "",
-string `$jargon` u003d "",
-string `$encoding` u003d "",
-int `$mode` u003d 0
+string `$spelling` = "",
+string `$jargon` = "",
+string `$encoding` = "",
+int `$mode` = 0
 ): [PSpell\Dictionary](class.pspell-dictionary.md)\|false
 
 **pspell_new()** відкриває новий словник та повертає екземпляр
@@ -91,4 +91,4 @@ Mode - це бітова маска, сконструйована з різни�
 
 **Приклад #1 Приклад використання **pspell_new()****
 
-`<?php$pspell u003d pspell_new("en", "", "", "",                              |PELL
+`<?php$pspell = pspell_new("en", "", "", "",                              |PELL

@@ -7,7 +7,7 @@
 
 # RRDGraph::save
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDGraph::save — Зберігає результат запиту на зображення
 

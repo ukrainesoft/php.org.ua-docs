@@ -20,20 +20,20 @@ class **RecursiveIteratorIterator** implements
 
 /\* Константи \*/
 
-const int `LEAVES_ONLY` u003d 0;
+const int `LEAVES_ONLY` = 0;
 
-const int `SELF_FIRST` u003d 1;
+const int `SELF_FIRST` = 1;
 
-const int `CHILD_FIRST` u003d 2;
+const int `CHILD_FIRST` = 2;
 
-const int `CATCH_GET_CHILD` u003d 16;
+const int `CATCH_GET_CHILD` = 16;
 
 /\* Методи \*/
 
 public
 [\_\_construct](recursiveiteratoriterator.construct.md)([Traversable](class.traversable.md)
-`$iterator`, int `$mode` u003d RecursiveIteratorIterator::LEAVES_ONLY, int
-`$flags` u003d 0)
+`$iterator`, int `$mode` = RecursiveIteratorIterator::LEAVES_ONLY, int
+`$flags` = 0)
 
 public [beginChildren](recursiveiteratoriterator.beginchildren.md)():
 void
@@ -68,7 +68,7 @@ int\|false
 
 public
 [getSubIterator](recursiveiteratoriterator.getsubiterator.md)(?int
-`$level` u003d **`null`**):
+`$level` = **`null`**):
 ?[RecursiveIterator](class.recursiveiterator.md)
 
 public [key](recursiveiteratoriterator.key.md)():
@@ -81,7 +81,7 @@ public [nextElement](recursiveiteratoriterator.nextelement.md)(): void
 public [rewind](recursiveiteratoriterator.rewind.md)(): void
 
 public [setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)(int
-`$maxDepth` u003d -1): void
+`$maxDepth` = -1): void
 
 public [valid](recursiveiteratoriterator.valid.md)(): bool
 

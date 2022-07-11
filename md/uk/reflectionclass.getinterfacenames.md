@@ -7,7 +7,7 @@
 
 # ReflectionClass::getInterfaceNames
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ReflectionClass::getInterfaceNames — Повертає імена інтерфейсів
 
@@ -30,14 +30,14 @@ public **ReflectionClass::getInterfaceNames**(): array
 **Приклад #1 Приклад використання
 **ReflectionClass::getInterfaceNames()****
 
-`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 u003d new ReflectionClass("Baz");print_r($rc1->getInterfaceNames());?>
+`<?phpinterface Foo { }interface Bar { }class Baz implements Foo, Bar { }$rc1 = new ReflectionClass("Baz");print_r($rc1->getInterfaceNames());?>
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Foo
-[1] u003d> Bar
+[0] => Foo
+[1] => Bar
 )
 
 ### Дивіться також

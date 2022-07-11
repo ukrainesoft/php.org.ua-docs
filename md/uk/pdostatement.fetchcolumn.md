@@ -8,14 +8,14 @@
 
 # PDOStatement::fetchColumn
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.9.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.9.0)
 
 PDOStatement::fetchColumn — Повертає дані одного стовпця наступного
 рядки результуючого набору
 
 ### Опис
 
-public **PDOStatement::fetchColumn**(int `$column` u003d 0):
+public **PDOStatement::fetchColumn**(int `$column` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає дані одного стовпця наступного рядка результуючого
@@ -52,18 +52,18 @@ public **PDOStatement::fetchColumn**(int `$column` u003d 0):
 
 **Приклад #1 Отримання значення першого стовпця наступного рядка**
 
-` <?php$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();print("Отримання значення першого стовпця першого рядки:
-");$result u003d $sth->fetchColumn();print("name u003d $result
+` <?php$sth = $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();print("Отримання значення першого стовпця першого рядки:
+");$result = $sth->fetchColumn();print("name = $result
 ");print("Отримання значення другого стовпця другого рядки:
-");$result u003d $sth->fetchColumn(1);print("colour u003d $result
+");$result = $sth->fetchColumn(1);print("colour = $result
 ");?> `
 
 Результат виконання цього прикладу:
 
 Отримання значення першого стовпця першого рядка:
-name u003d lemon
+name = lemon
 Отримання значення другого стовпця другого рядка:
-colour u003d red
+colour = red
 
 ### Дивіться також
 

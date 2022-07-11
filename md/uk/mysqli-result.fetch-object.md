@@ -18,13 +18,13 @@ mysqli_result::fetch_object -- mysqli_fetch_object -- Вибирає насту�
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_object**(string `$class` u003d "stdClass",
-array `$constructor_args` u003d []): object\|null\|false
+public **mysqli_result::fetch_object**(string `$class` = "stdClass",
+array `$constructor_args` = []): object\|null\|false
 
 Процедурний стиль
 
 **mysqli_fetch_object**([mysqli_result](class.mysqli-result.md)
-`$result`, string `$class` u003d "stdClass", array `$constructor_args` u003d
+`$result`, string `$class` = "stdClass", array `$constructor_args` =
 []): object\|null\|false
 
 Вибирає один рядок даних із набору результатів та повертає його як
@@ -76,9 +76,9 @@ array `$constructor_args` u003d []): object\|null\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                              |
-| ------ | ------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `constructor_args` тепер приймає `[]` для конструкторів без параметрів; раніше викидався виняток. |
+| Версія | Опис                                                                                          |
+| ------ | --------------------------------------------------------------------------------------------- |
+| 8.0.0  | constructor_args тепер приймає [] для конструкторів без параметрів; раніше викидався виняток. |
 
 ### Приклади
 
@@ -86,12 +86,12 @@ array `$constructor_args` u003d []): object\|null\|false
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d C| result u003d $mysqli->query($query);/* отримання масиву об'єктів */while ($obj u003d $result->fetch_object()) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = C| result = $mysqli->query($query);/* отримання масиву об'єктів */while ($obj = $result->fetch_object()) {    printf("%s (%s)
 ", $obj->Name, $obj->CountryCode);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT Name| u003d mysqli_query($link, $query);/* отримання асоціативного масиву */while ($obj u003d mysqli_fetch_object($result)) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT Name| = mysqli_query($link, $query);/* отримання асоціативного масиву */while ($obj = mysqli_fetch_object($result)) {    printf("%s (%s)
 ", $obj->Name, $obj->CountryCode);} `
 
 Результат виконання даних прикладів:

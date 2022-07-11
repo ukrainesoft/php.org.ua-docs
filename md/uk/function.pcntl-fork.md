@@ -7,7 +7,7 @@
 
 #pcntl_fork
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 pcntl_fork — Розгалужити (fork) поточний запущений процес
 

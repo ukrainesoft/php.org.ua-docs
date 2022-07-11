@@ -33,4 +33,4 @@ public **Imagick::rollImage**(int `$x`, int `$y`): bool
 
 **Приклад #1 Приклад використання **Imagick::rollImage()****
 
-` <?phpfunction rollImage($imagePath, $rollX, $rollY) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->rollimage($rollX, $rollY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction rollImage($imagePath, $rollX, $rollY) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->rollimage($rollX, $rollY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

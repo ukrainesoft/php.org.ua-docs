@@ -7,7 +7,7 @@
 
 #proc_open
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 proc_open — Виконати команду та відкрити покажчик на файл для
 введення/виводу
@@ -18,9 +18,9 @@ proc_open — Виконати команду та відкрити покажч
 array\|string `$command`,
 array `$descriptor_spec`,
 array `&$pipes`,
-?string `$cwd` u003d **`null`**,
-?array `$env_vars` u003d **`null`**,
-?array `$options` u003d **`null`**
+?string `$cwd` = **`null`**,
+?array `$env_vars` = **`null`**,
+?array `$options` = **`null`**
 ): resource \ | false
 
 **proc_open()** аналогічна [popen()](function.popen.md), але
@@ -119,27 +119,27 @@ PHP-процес.
 
 ### Список змін
 
-| Версія | Опис                                                           |
-| ------ | -------------------------------------------------------------- |
-| 7.4.4  | Додана опція `create_new_console` у параметр `options`.        |
-| 7.4.0  | **proc_open()** тепер також приймає масив (array) у `command`. |
-| 7.4.0  | Додана опція `create_process_group` у параметр `options`.      |
+| Версія | Опис                                                         |
+| ------ | ------------------------------------------------------------ |
+| 7.4.4  | Додана опція create_new_console у параметр options.          |
+| 7.4.0  | **proc_open()** тепер також приймає масив (array) у command. |
+| 7.4.0  | Додана опція create_process_group у параметр options.        |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **proc_open()****
 
-` <?php$descriptorspec u003d array(  0 u003d> array("pipe", "r"), // stdin - канал, з якого дочірній процесс буде читати   1 > > / stdout - канал, в який дочірній процес буде записувати   2 u003d> array("file", "/tmp/error-output.txt", "a") // записи|||| ';$env u003d array('some_option' u003d> 'aeiou');$process u003d proc_open('php', $descriptorspec, $pipes, $cwd, $env);if (is_resource($process))   | $pipes теперь выглядит так:    // 0 u003d> записывающий обработчик, подключённый к дочернему stdin    // 1 u003d> читающий обработчик, подключённый к дочернему stdout    // Вывод сообщений об ошибках будет добавляться в /tmp/error-output.txt    fwrite($ pipes[0], '<?php print_r($_ENV); ?>'); fclose($pipes[0]); echo stream_get_contents($pipes[1]); fclose($pipes[1]); // Важливо закривати всі канали перед| echo "команда вернула $return_value
+` <?php$descriptorspec = array(  0 => array("pipe", "r"), // stdin - канал, з якого дочірній процесс буде читати   1 > > / stdout - канал, в який дочірній процес буде записувати   2 => array("file", "/tmp/error-output.txt", "a") // записи|||| ';$env = array('some_option' => 'aeiou');$process = proc_open('php', $descriptorspec, $pipes, $cwd, $env);if (is_resource($process))   | $pipes теперь выглядит так:    // 0 => записывающий обработчик, подключённый к дочернему stdin    // 1 => читающий обработчик, подключённый к дочернему stdout    // Вывод сообщений об ошибках будет добавляться в /tmp/error-output.txt    fwrite($ pipes[0], '<?php print_r($_ENV); ?>'); fclose($pipes[0]); echo stream_get_contents($pipes[1]); fclose($pipes[1]); // Важливо закривати всі канали перед| echo "команда вернула $return_value
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[some_option] u003d> aeiou
-[PWD] u003d> /tmp
-[SHLVL] u003d> 1
-[_] u003d> /usr/local/bin/php
+[some_option] => aeiou
+[PWD] => /tmp
+[SHLVL] => 1
+[_] => /usr/local/bin/php
 )
 команда повернула 0
 
@@ -149,7 +149,7 @@ Array
 `filename.txt` текст `search` і виводити результати, вона веде себе
 трохи інакше.
 
-` <?php$descriptorspec u003d [STDIN, STDOUT, STDOUT];$cmd u003d '"findstr" "search" "filename.txt"';$proc u003d proc_open($cmd, $descriptorspec, $pipes); proc);?> `
+` <?php$descriptorspec = [STDIN, STDOUT, STDOUT];$cmd = '"findstr" "search" "filename.txt"';$proc = proc_open($cmd, $descriptorspec, $pipes); proc);?> `
 
 Результат виконання цього прикладу:
 
@@ -159,7 +159,7 @@ Array
 Щоб обійти цю поведінку, зазвичай достатньо передати `command` у
 додаткових лапках:
 
-` $cmd u003d''""findstr" "search" "filename.txt""';`
+` $cmd =''""findstr" "search" "filename.txt""';`
 
 ### Примітки
 

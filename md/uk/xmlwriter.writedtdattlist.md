@@ -9,7 +9,7 @@
 
 #xmlwriter_write_dtd_attlist
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::writeDtdAttlist -- xmlwriter_write_dtd_attlist — Записати
 повний тег DTD AttList
@@ -49,9 +49,9 @@ public **XMLWriter::writeDtdAttlist**(string `$name`, string
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::addFile
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::addFile — Додає файл до форми повідомлення
 
@@ -16,9 +16,9 @@ Swoole\Http\Client::addFile — Додає файл до форми повідо
 public **Swoole\Http\Client::addFile**(
 string `$path`,
 string `$name`,
-string `$type` u003d ?,
-string `$filename` u003d ?,
-string `$offset` u003d ?
+string `$type` = ?,
+string `$filename` = ?,
+string `$offset` = ?
 ): void
 
 ### Список параметрів

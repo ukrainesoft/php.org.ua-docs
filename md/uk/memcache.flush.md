@@ -7,7 +7,7 @@
 
 # Memcache::flush
 
-(PECL memcache \>u003d 1.0.0)
+(PECL memcache \>= 1.0.0)
 
 Memcache::flush — Скинути всі наявні елементи на сервері
 
@@ -34,4 +34,4 @@ Memcache::flush — Скинути всі наявні елементи на с�
 
 **Приклад #1 Приклад використання **Memcache::flush()****
 
-`<?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);memcache_flush($memcache_obj);/* об'єктно-орієнтоване API > ', 11211);$memcache_obj->flush();?> `
+`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);memcache_flush($memcache_obj);/* об'єктно-орієнтоване API > ', 11211);$memcache_obj->flush();?> `

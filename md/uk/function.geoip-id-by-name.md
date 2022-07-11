@@ -7,7 +7,7 @@
 
 # geoip_id_by_name
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_id_by_name — Повертає тип інтернет-з'єднання
 
@@ -40,7 +40,7 @@ geoip_id_by_name — Повертає тип інтернет-з'єднання
 
 Відображає тип з'єднання для хоста example.com.
 
-` <?php$netspeed u003d geoip_id_by_name('www.example.com');echo 'Тип Інтернет-з'єднання: ';switch ($netspeed) {    case GEOIP_DIALUP_SPEED:              break; case GEOIP_CABLEDSL_SPEED:        echo 'cable or DSL'; break; case GEOIP_CORPORATE_SPEED:        echo 'corporate'; break; case GEOIP_UNKNOWN_SPEED:    default:        echo 'unknown';}?> `
+` <?php$netspeed = geoip_id_by_name('www.example.com');echo 'Тип Інтернет-з'єднання: ';switch ($netspeed) {    case GEOIP_DIALUP_SPEED:              break; case GEOIP_CABLEDSL_SPEED:        echo 'cable or DSL'; break; case GEOIP_CORPORATE_SPEED:        echo 'corporate'; break; case GEOIP_UNKNOWN_SPEED:    default:        echo 'unknown';}?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # Ds\Sequence::reduce
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::reduce — Сплескує колекцію до одного значення використовуючи
 callback-функцію
@@ -18,7 +18,7 @@ abstract public
 **Ds\Sequence::reduce**([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Сплескує колекцію до одного значення використовуючи callback-функцію.
@@ -51,7 +51,7 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **Приклад #1 Приклад використання **Ds\Sequence::reduce()** з початковим
 значенням**
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);$callback u003d function($carry, $value) {    return $carry * $value;};var_dump($ ($callback, 5));// Ітерації://// $carry u003d $initial u003d 5//// $carry u003d $carry * 1 u003d  5// $carry u003d $carry * 2 u003d carry u003d $carry * 3 u003d 30?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);$callback = function($carry, $value) {    return $carry * $value;};var_dump($ ($callback, 5));// Ітерації://// $carry = $initial = 5//// $carry = $carry * 1 =  5// $carry = $carry * 2 = carry = $carry * 3 = 30?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -60,7 +60,7 @@ int(30)
 **Приклад #2 Приклад використання **Ds\Sequence::reduce()** без
 початкового значення**
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->reduce(function($carry, $value) {    return $carry + $value ) );// Ітерації://// $carry u003d $initial u003d null//// $carry u003d $carry + 1 + 5 u003d  6// $carry u003d $carry + 2 + $ $carry + 3 + 5 u003d 21?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->reduce(function($carry, $value) {    return $carry + $value ) );// Ітерації://// $carry = $initial = null//// $carry = $carry + 1 + 5 =  6// $carry = $carry + 2 + $ $carry + 3 + 5 = 21?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

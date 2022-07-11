@@ -7,13 +7,13 @@
 
 # SolrQuery::getFacetMethod
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetMethod — Повертає значення параметра facet.method
 
 ### Опис
 
-public **SolrQuery::getFacetMethod**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetMethod**(string `$field_override` = ?):
 string
 
 Повертає параметр facet.method. Приймає необов'язкове

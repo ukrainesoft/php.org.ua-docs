@@ -7,7 +7,7 @@
 
 # SolrResponse::getRawResponse
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrResponse::getRawResponse — Повертає необроблену відповідь із сервера
 

@@ -7,7 +7,7 @@
 
 #rar_wrapper_cache_stats
 
-(PECL rar \>u003d 3.0.0)
+(PECL rar \>= 3.0.0)
 
 rar_wrapper_cache_stats — Кеш доступів та відмов обгортки URL
 

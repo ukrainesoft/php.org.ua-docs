@@ -7,7 +7,7 @@
 
 # scoutapm_list_instrumented_functions
 
-(PECL scoutapm \>u003d 1.0.2)
+(PECL scoutapm \>= 1.0.2)
 
 scoutapm_list_instrumented_functions — Список функцій, які scoutapm
 буде використовувати
@@ -39,13 +39,13 @@ scoutapm_list_instrumented_functions — Список функцій, які sco
 
 Array
 (
-[0] u003d> file_get_contents
-[1] u003d> file_put_contents
-[2] u003d> fopen
-[3] u003d> fread
-[4] u003d> fwrite
-[5] u003d> pdo->exec
-[6] u003d> pdo->query
-[7] u003d> pdo->prepare
-[8] u003d> pdostatement->execute
+[0] => file_get_contents
+[1] => file_put_contents
+[2] => fopen
+[3] => fread
+[4] => fwrite
+[5] => pdo->exec
+[6] => pdo->query
+[7] => pdo->prepare
+[8] => pdostatement->execute
 )

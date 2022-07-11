@@ -7,7 +7,7 @@
 
 #cubrid_num_fields
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_num_fields — Отримати кількість стовпців у результуючому наборі
 
@@ -38,7 +38,7 @@ cubrid_num_fields — Отримати кількість стовпців у р
 
 **Приклад #1 Приклад використання **cubrid_num_fields()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT *FROM code");$row_num u003d cubrid_nu $req);printf("Кількість рядків: %d
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT *FROM code");$row_num = cubrid_nu $req);printf("Кількість рядків: %d
 Кількість стовпців: % d
 ", $row_num, $col_num);cubrid_disconnect($conn);?> `
 

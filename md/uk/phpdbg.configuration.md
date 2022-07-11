@@ -9,10 +9,10 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------|--------------|-----------------|------- -----------------------|
-| [phpdbg.eol](phpdbg.configuration.md#ini.phpdbg.eol) | 2 | PHP_INI_ALL | Видалено з PHP 8.1.0 |
-| [phpdbg.path](phpdbg.configuration.md#ini.phpdbg.path) | | 6 | Видалено з PHP 8.1.0 |
+| Ім'я За замовчуванням                                  | Місце зміни | Список змін |
+| ------------------------------------------------------ | ----------- | ----------- |
+| [phpdbg.eol](phpdbg.configuration.md#ini.phpdbg.eol)   | 2           | PHP_INI_ALL | Видалено з PHP 8.1.0
+| [phpdbg.path](phpdbg.configuration.md#ini.phpdbg.path) |             | 6           | Видалено з PHP 8.1.0
 
 **phpdbg Опції налаштування**
 
@@ -24,8 +24,8 @@
 
 | int Значення | string Псевдонім             |
 | ------------ | ---------------------------- |
-| `0`          | 'CRLF', 'crlf', 'DOS', 'dos' |
-| `1`          | `LF`, `lf`, `UNIX`, `unix`   |
-| `2`          | 'CR', 'cr', 'MAC', 'mac'     |
+| 0            | 'CRLF', 'crlf', 'DOS', 'dos' |                            
+| 1            | LF, lf, UNIX, unix           |
+| 2            | 'CR', 'cr', 'MAC', 'mac'     |
 
 `phpdbg.path` string

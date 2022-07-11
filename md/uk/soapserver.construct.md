@@ -13,7 +13,7 @@ SoapServer::\_\_construct - Конструктор SoapServer
 
 ### Опис
 
-public **SoapServer::\_\_construct**(?string `$wsdl`, array `$options` u003d
+public **SoapServer::\_\_construct**(?string `$wsdl`, array `$options` =
 [])
 
 Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL або не-WSDL режимах.
@@ -54,7 +54,7 @@ WSDL із класами PHP. Ця опція повинна бути масив
 
 **Приклад #1 Приклад використання **SoapServer::SoapServer()****
 
-` <?php$server u003d new SoapServer("some.wsdl");$server u003d new SoapServer("some.wsdl", array('soap_version' u003d> SOAP_1_2));$server u003d new ", array('actor' u003d> "http://example.org/ts-tests/C"));$server u003d new SoapServer("some.wsdl", array('encoding'u003d>'ISO-8859 -1'));$server u003d new SoapServer(null, array('uri' u003d> "http://test-uri/"));class MyBook {    public $title; public $author;}$server u003d new SoapServer("books.wsdl", array('classmap' u003d> array('book' u003d> "MyBook")));?> `
+` <?php$server = new SoapServer("some.wsdl");$server = new SoapServer("some.wsdl", array('soap_version' => SOAP_1_2));$server = new ", array('actor' => "http://example.org/ts-tests/C"));$server = new SoapServer("some.wsdl", array('encoding'=>'ISO-8859 -1'));$server = new SoapServer(null, array('uri' => "http://test-uri/"));class MyBook {    public $title; public $author;}$server = new SoapServer("books.wsdl", array('classmap' => array('book' => "MyBook")));?> `
 
 ### Дивіться також
 

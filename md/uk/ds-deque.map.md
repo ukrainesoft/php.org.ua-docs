@@ -8,7 +8,7 @@
 
 # Ds\Deque::map
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::map — Повертає результат застосування callback-функції до всіх
 значенням двосторонньої черги
@@ -46,19 +46,19 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **Ds\Deque::map()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);print_r($deque->map(function($value) { return $value * 2; }));print_r($deque );?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);print_r($deque->map(function($value) { return $value * 2; }));print_r($deque );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> 2
-[1] u003d> 4
-[2] u003d> 6
+[0] => 2
+[1] => 4
+[2] => 6
 )
 Ds\Deque Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )

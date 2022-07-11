@@ -7,7 +7,7 @@
 
 # Ds\Map::copy
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::copy — Повертає поверхневу копію колекції
 
@@ -29,28 +29,28 @@ public **Ds\Map::copy**(): [Ds\Map](class.ds-map.md)
 
 **Приклад #1 Приклад використання **Ds\Map::copy()****
 
-` <?php$map u003d new \Ds\Map([   "a" u003d> 1,   "b" u003d> 2,   "c" u003d> 3,]);print_r($map->copy()); > `
+` <?php$map = new \Ds\Map([   "a" => 1,   "b" => 2,   "c" => 3,]);print_r($map->copy()); > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 2
+[key] => b
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 3
+[key] => c
+[value] => 3
 )
 
 )

@@ -7,7 +7,7 @@
 
 #curl_unescape
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 curl_unescape — Декодує закодований URL-рядок
 
@@ -33,16 +33,16 @@ curl_unescape — Декодує закодований URL-рядок
 
 ### Список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версія | Опис                                                                                                  |
+| ------ | ----------------------------------------------------------------------------------------------------- |
+| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 [curl_escape()](function.curl-escape.md)**
 
-`<?php// Створюємо обробник curl$ch u003d curl_init('http://example.com/redirect.php');//Посилаємо HTTP-запитcurl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);cur // Отримуємо останній використаний URL$effective_url u003d curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);// наприклад "http://example.com/show_location.php?locu003dM%C3%BCnchen"| ch, $effective_url);// "http://example.com/show_location.php?locu003dMünchen"// Закриваємо обробникcurl_close($ch);?> `
+`<?php// Створюємо обробник curl$ch = curl_init('http://example.com/redirect.php');//Посилаємо HTTP-запитcurl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);cur // Отримуємо останній використаний URL$effective_url = curl_getinfo($ch, CURLINFO_EFFECTIVE_URL);// наприклад "http://example.com/show_location.php?loc=M%C3%BCnchen"| ch, $effective_url);// "http://example.com/show_location.php?loc=München"// Закриваємо обробникcurl_close($ch);?> `
 
 ### Примітки
 

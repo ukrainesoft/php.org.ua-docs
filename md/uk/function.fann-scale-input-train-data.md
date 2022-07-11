@@ -8,7 +8,7 @@
 
 # fann_scale_input_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_scale_input_train_data — Масштабує вхідні дані в учнів
 даних до вказаного діапазону

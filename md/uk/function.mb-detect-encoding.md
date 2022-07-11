@@ -7,14 +7,14 @@
 
 #mb_detect_encoding
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_detect_encoding — Визначення кодування символів
 
 ### Опис
 
 **mb_detect_encoding**(string `$string`, array\|string\|null
-`$encodings` u003d **`null`**, bool `$strict` u003d **`false`**): string\|false
+`$encodings` = **`null`**, bool `$strict` = **`false`**): string\|false
 
 Визначає найімовірніше кодування символів для рядка (string)
 `string` із впорядкованого списку кандидатів.
@@ -63,11 +63,11 @@ mb_detect_encoding — Визначення кодування символів
 
 **Приклад #1 Приклад використання **mb_detect_encoding()****
 
-` <?php// Определение кодировки с текущим detect_orderecho mb_detect_encoding($str);// "auto" раскрывается в соответствии с mbstring.languageecho mb_detect_encoding($str, "auto");// Зададим список кодировок "encodings" в виде строкиecho mb_detect_encoding($str, "JIS, eucjp-win, sjis-win");// Використання масиву для завдання можливих кодувань "encodings"$encodings u003d [  "ASCII",| ($str, $encodings);?> `
+` <?php// Определение кодировки с текущим detect_orderecho mb_detect_encoding($str);// "auto" раскрывается в соответствии с mbstring.languageecho mb_detect_encoding($str, "auto");// Зададим список кодировок "encodings" в виде строкиecho mb_detect_encoding($str, "JIS, eucjp-win, sjis-win");// Використання масиву для завдання можливих кодувань "encodings"$encodings = [  "ASCII",| ($str, $encodings);?> `
 
 **Приклад #2 Дія параметра `strict`**
 
-` <?php//''áéóú' закодована в ISO-8859-1$str u003d "\xE1\xE9\xF3\xFA";// Рядок недійсна в ASCII або УТF-8, з| mb_detect_encoding($str, ['ASCII', 'UTF-8'], false));var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], true));// Якщо допустима , параметр strict не змінює результатvar_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], false));var_dump(mb_detect_encoding('str, -8', 'ISO-8859-1'], true));?> `
+` <?php//''áéóú' закодована в ISO-8859-1$str = "\xE1\xE9\xF3\xFA";// Рядок недійсна в ASCII або УТF-8, з| mb_detect_encoding($str, ['ASCII', 'UTF-8'], false));var_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8'], true));// Якщо допустима , параметр strict не змінює результатvar_dump(mb_detect_encoding($str, ['ASCII', 'UTF-8', 'ISO-8859-1'], false));var_dump(mb_detect_encoding('str, -8', 'ISO-8859-1'], true));?> `
 
 Результат виконання цього прикладу:
 
@@ -91,7 +91,7 @@ UTF-8
 
 **Приклад #3 Використання порядку при збігу кількох кодувань**
 
-` <?php$str u003d "\xC4\xA2";// Рядок дійсний у всіх трьох кодуваннях, тому буде повернена перше з перелічених кодувань.var_dump(mb_dete_8' 1', 'ISO-8859-5']));var_dump(mb_detect_encoding($str, ['ISO-8859-1', 'ISO-8859-5', 'UTF-8']));var_dump(mb_detect_encoding ($str, ['ISO-8859-5', 'UTF-8', 'ISO-8859-1']));?> `
+` <?php$str = "\xC4\xA2";// Рядок дійсний у всіх трьох кодуваннях, тому буде повернена перше з перелічених кодувань.var_dump(mb_dete_8' 1', 'ISO-8859-5']));var_dump(mb_detect_encoding($str, ['ISO-8859-1', 'ISO-8859-5', 'UTF-8']));var_dump(mb_detect_encoding ($str, ['ISO-8859-5', 'UTF-8', 'ISO-8859-1']));?> `
 
 Результат виконання цього прикладу:
 

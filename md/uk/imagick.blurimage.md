@@ -14,7 +14,7 @@ Imagick::blurImage — Додає фільтр розмиття до зобра�
 ### Опис
 
 public **Imagick::blurImage**(float `$radius`, float `$sigma`, int
-`$channel` u003d ?): bool
+`$channel` = ?): bool
 
 Додає фільтр розмиття до зображення. Необов'язковий третій параметр
 служить для розмиття певного каналу.
@@ -46,7 +46,7 @@ public **Imagick::blurImage**(float `$radius`, float `$sigma`, int
 
 Розмиття зображення та надсилання його до браузера.
 
-` <?phpheader('Content-type: image/jpeg');$image u003d new Imagick('test.jpg');$image->blurImage(5,3);echo $image;?> `
+` <?phpheader('Content-type: image/jpeg');$image = new Imagick('test.jpg');$image->blurImage(5,3);echo $image;?> `
 
 ### Дивіться також
 

@@ -45,4 +45,4 @@ public **Imagick::setImageOpacity**(float `$opacity`): bool
 
 Приклад використання Imagick::setImageOpacity().
 
-` <?php/* Створення об'єкта */$image u003d new Imagick('source.png');/* Установка непрозорості */$image->setImageOpacity(0.7);/* Висновок зображення */header('Conte : image/png');echo $image;?> `
+` <?php/* Створення об'єкта */$image = new Imagick('source.png');/* Установка непрозорості */$image->setImageOpacity(0.7);/* Висновок зображення */header('Conte : image/png');echo $image;?> `

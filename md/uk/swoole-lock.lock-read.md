@@ -7,7 +7,7 @@
 
 # Swoole\Lock::lock_read
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Lock::lock_read — Блокує читання-запис блокування для читання
 

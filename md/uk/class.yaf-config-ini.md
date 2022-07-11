@@ -7,7 +7,7 @@
 
 # Клас Yaf_Config_Ini
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -40,13 +40,13 @@ class **Yaf_Config_Ini** extends
 /\* Методи \*/
 
 public [\_\_construct](yaf-config-ini.construct.md)(string
-`$config_file`, string `$section` u003d ?)
+`$config_file`, string `$section` = ?)
 
 public [count](yaf-config-ini.count.md)(): void
 
 public [current](yaf-config-ini.current.md)(): void
 
-public [\_\_get](yaf-config-ini.get.md)(string `$name` u003d ?): void
+public [\_\_get](yaf-config-ini.get.md)(string `$name` = ?): void
 
 public [\_\_isset](yaf-config-ini.isset.md)(string `$name`): void
 
@@ -119,21 +119,21 @@ array
 `` inicode
 ; Промислове середовище
 [production]
-webhost u003d www.example.com
-database.adapter u003d pdo_mysql
-database.params.host u003d db.example.com
-database.params.usernameu003ddbuser
-database.params.password u003d secret
-database.params.dbname u003d dbname
+webhost = www.example.com
+database.adapter = pdo_mysql
+database.params.host = db.example.com
+database.params.username=dbuser
+database.params.password = secret
+database.params.dbname = dbname
 
 ; Демо-середовище. Наслідує конфігурацію промислової з деякими поправками
 [staging: production]
-database.params.host u003d dev.example.com
-database.params.usernameu003ddevuser
-database.params.password u003d devsecret
+database.params.host = dev.example.com
+database.params.username=devuser
+database.params.password = devsecret
 ````
 
-` <?php$config u003d new Yaf_Config_Ini('/path/to/config.ini', 'staging');var_dump($config->database->params->host);var_dump($config->database-> params->dbname);var_dump($config->get("database.params.username"));?> `
+` <?php$config = new Yaf_Config_Ini('/path/to/config.ini', 'staging');var_dump($config->database->params->host);var_dump($config->database-> params->dbname);var_dump($config->get("database.params.username"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

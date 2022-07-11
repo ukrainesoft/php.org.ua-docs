@@ -7,7 +7,7 @@
 
 # GmagickPixel::setcolorvalue
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::setcolorvalue — Встановити нормалізоване значення
 колірного каналу

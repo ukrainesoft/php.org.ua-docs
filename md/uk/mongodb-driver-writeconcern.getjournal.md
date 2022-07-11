@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcern::getJournal
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteConcern::getJournal - Повертає опцію "journal"
 WriteConcern
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\WriteConcern::getJournal**(): ?bool
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcern::getJournal()****
 
-` <?php$wc u003d new MongoDB\Driver\WriteConcern(1);var_dump($wc->getJournal());$wc u003d new MongoDB\Driver\WriteConcern(1, 0, true);var_dump$ >getJournal());$wc u003d new MongoDB\Driver\WriteConcern(1, 0, false);var_dump($wc->getJournal());?> `
+` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->getJournal());$wc = new MongoDB\Driver\WriteConcern(1, 0, true);var_dump$ >getJournal());$wc = new MongoDB\Driver\WriteConcern(1, 0, false);var_dump($wc->getJournal());?> `
 
 Результат виконання цього прикладу:
 

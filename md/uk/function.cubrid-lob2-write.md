@@ -7,7 +7,7 @@
 
 #cubrid_lob2_write
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_write - Записує в LOB-об'єкт
 
@@ -38,12 +38,12 @@ cubrid_lob2_write - Записує в LOB-об'єкт
 
 **Приклад #1 Приклад використання **cubrid_lob2_write()****
 
-`<?php// test_lob (id INT, contents CLOB)$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TA ;cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req u003d cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)| CLOB');$len u003d cubrid_lob2_write($lob, "Hello world");cubrid_lob2_bind($req, 1, $lob);cubrid_execute($req);cubrid_disconnect($conn);?> `
+`<?php// test_lob (id INT, contents CLOB)$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TA ;cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(2, ?)| CLOB');$len = cubrid_lob2_write($lob, "Hello world");cubrid_lob2_bind($req, 1, $lob);cubrid_execute($req);cubrid_disconnect($conn);?> `
 
 **Приклад #2 Приклад використання **cubrid_lob2_write()****
 
-`<?php// test_lob (id INT, contents CLOB)$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TA ;cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req u003d cubrid_prepare($conn, "INSERT INTO test_lob VALUES(1, ?)? CLOB');$len u003d cubrid_lob2_write($lob1, "cubrid php driver");cubrid_lob2_bind($req, 1, $lob1);cubrid_execute($req);$req u003d cubr );$row u003d cubrid_fetch_row($req, CUBRID_LOB);$lob2 u003d $row[1];cubrid_lob2_seek($lob2, 0, CUBRID_CURSOR_LAST);$pos u003d cubrid_lob2_ |
-";cubrid_lob2_write($lob2, "Hello world");$pos u003d cubrid_lob2_tell($lob2);print "позиція після запису: $pos
+`<?php// test_lob (id INT, contents CLOB)$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TA ;cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES(1, ?)? CLOB');$len = cubrid_lob2_write($lob1, "cubrid php driver");cubrid_lob2_bind($req, 1, $lob1);cubrid_execute($req);$req = cubr );$row = cubrid_fetch_row($req, CUBRID_LOB);$lob2 = $row[1];cubrid_lob2_seek($lob2, 0, CUBRID_CURSOR_LAST);$pos = cubrid_lob2_ |
+";cubrid_lob2_write($lob2, "Hello world");$pos = cubrid_lob2_tell($lob2);print "позиція після запису: $pos
 ";cubrid_disconnect($conn);?> `
 
 ### Дивіться також

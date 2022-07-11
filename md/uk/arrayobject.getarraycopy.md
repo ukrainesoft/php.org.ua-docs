@@ -30,15 +30,15 @@ public **ArrayObject::getArrayCopy**(): array
 
 **Приклад #1 Приклад використання **ArrayObject::getArrayCopy()****
 
-`<?php// Масив з кількістю фруктів$fruits u003d array("lemons" u003d> 1, "oranges" u003d> 4, "bananas" u003d> 5, "apples" u003d> 10);$fr Ar $fruits);$fruitsArrayObject['pears'] u003d 4;// Створити копію масиву$copy u003d $fruitsArrayObject->getArrayCopy();print_r($copy);?> `
+`<?php// Масив з кількістю фруктів$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10);$fr Ar $fruits);$fruitsArrayObject['pears'] = 4;// Створити копію масиву$copy = $fruitsArrayObject->getArrayCopy();print_r($copy);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[lemons] u003d> 1
-[oranges] u003d> 4
-[bananas] u003d> 5
-[apples] u003d> 10
-[pears] u003d> 4
+[lemons] => 1
+[oranges] => 4
+[bananas] => 5
+[apples] => 10
+[pears] => 4
 )

@@ -7,7 +7,7 @@
 
 # PharData::offsetUnset
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::offsetUnset — Видалити файл із tar/zip-архіву
 
@@ -39,7 +39,7 @@ public **PharData::offsetUnset**(string `$localName`): void
 
 **Приклад #1 Приклад використання **PharData::offsetUnset()****
 
-` <?php$p u003d new PharData('/path/to/my.zip');try {    // удалення file.txt з my.zip шляхом|виклику offsetUnset    unset($p['file. } catch (Exception $e) {    echo 'Не удалося видалити file.txt: ', $e;}?> `
+` <?php$p = new PharData('/path/to/my.zip');try {    // удалення file.txt з my.zip шляхом|виклику offsetUnset    unset($p['file. } catch (Exception $e) {    echo 'Не удалося видалити file.txt: ', $e;}?> `
 
 ### Дивіться також
 

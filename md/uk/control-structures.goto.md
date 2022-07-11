@@ -7,7 +7,7 @@
 
 ## goto
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ![Що найгірше може статися, якщо використовується goto?](images/0baa1b9fae6aec55bbb73037f3016001-xkcd-goto.png)
 
@@ -34,7 +34,7 @@ Bar
 
 **Приклад #2 Приклад використання `goto` у циклі**
 
-` <?phpfor($iu003d0,$ju003d50;$i<100;$i++) { while($j--) {   if($ju003du003d17) goto end; }}echo "i u003d $i";end:echo 'j hit 17';?> `
+` <?phpfor($i=0,$j=50;$i<100;$i++) { while($j--) {   if($j==17) goto end; }}echo "i = $i";end:echo 'j hit 17';?> `
 
 Результат виконання цього прикладу:
 
@@ -42,7 +42,7 @@ j hit 17
 
 **Приклад #3 Це не спрацює**
 
-`<?phpgoto loop;for($iu003d0,$ju003d50; $i<100; $i++) {  while($j--) {    loop:  }}echo "$i u003d $i";?> `
+`<?phpgoto loop;for($i=0,$j=50; $i<100; $i++) {  while($j--) {    loop:  }}echo "$i = $i";?> `
 
 Результат виконання цього прикладу:
 

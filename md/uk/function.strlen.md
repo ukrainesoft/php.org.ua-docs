@@ -31,7 +31,7 @@ strlen — Повертає довжину рядка
 
 **Приклад #1 Приклад використання **strlen()****
 
-` <?php$stru003du003d'abcdef';echo strlen($str); // 6$str u003d ' ab cd ';echo strlen($str); // 7?> `
+` <?php$str=='abcdef';echo strlen($str); // 6$str = ' ab cd ';echo strlen($str); // 7?> `
 
 ### Примітки
 

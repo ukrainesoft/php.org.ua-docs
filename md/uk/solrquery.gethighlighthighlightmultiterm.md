@@ -8,7 +8,7 @@
 
 # SolrQuery::getHighlightHighlightMultiTerm
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightHighlightMultiTerm — Повертає, чи варто
 включати виділення для запитів діапазону/підстановних

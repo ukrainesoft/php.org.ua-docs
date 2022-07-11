@@ -7,7 +7,7 @@
 
 # Gmagick::embossimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::embossimage — Повертає зображення в градаціях сірого с
 тривимірним ефектом

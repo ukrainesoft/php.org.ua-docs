@@ -7,7 +7,7 @@
 
 # Клас [tidy](class.tidy.md)
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 ## Вступ
 
@@ -19,17 +19,17 @@ class **tidy** {
 
 /\* Властивості \*/
 
-public ?string `$errorBuffer` u003d null;
+public ?string `$errorBuffer` = null;
 
-public ?string `$value` u003d null;
+public ?string `$value` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](tidy.construct.md)(
-?string `$filename` u003d **`null`**,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+?string `$filename` = **`null`**,
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 )
 
 public [body](tidy.body.md)(): ?[tidyNode](class.tidynode.md)
@@ -63,35 +63,35 @@ public [isXml](tidy.isxml.md)(): bool
 
 public [parseFile](tidy.parsefile.md)(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): bool
 
 **tidy_parse_file**(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): [tidy](class.tidy.md)\|false
 
 public [parseString](tidy.parsestring.md)(string `$string`,
-array\|string\|null `$config` u003d **`null`**, ?string `$encoding` u003d
+array\|string\|null `$config` = **`null`**, ?string `$encoding` =
 **`null`**): bool
 
-**tidy_parse_string**(string `$string`, array\|string\|null `$config` u003d
-**`null`**, ?string `$encoding` u003d **`null`**):
+**tidy_parse_string**(string `$string`, array\|string\|null `$config` =
+**`null`**, ?string `$encoding` = **`null`**):
 [tidy](class.tidy.md)\|false
 
 public static [repairFile](tidy.repairfile.md)(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): string\|false
 
 public static [repairString](tidy.repairstring.md)(string `$string`,
-array\|string\|null `$config` u003d **`null`**, ?string `$encoding` u003d
+array\|string\|null `$config` = **`null`**, ?string `$encoding` =
 **`null`**): string\|false
 
 public [root](tidy.root.md)(): ?[tidyNode](class.tidynode.md)

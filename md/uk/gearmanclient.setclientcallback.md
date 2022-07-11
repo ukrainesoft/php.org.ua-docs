@@ -8,7 +8,7 @@
 
 # GearmanClient::setClientCallback
 
-(PECL gearman \<u003d 0.5.0)
+(PECL gearman \<= 0.5.0)
 
 GearmanClient::setClientCallback — Встановити функцію зворотного дзвінка,
 коли є пакет даних для завдання (застарілий метод)

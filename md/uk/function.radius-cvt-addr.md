@@ -7,7 +7,7 @@
 
 #radius_cvt_addr
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_cvt_addr — Перетворює необроблені дані на IP-адресу
 
@@ -30,8 +30,8 @@ radius_cvt_addr — Перетворює необроблені дані на IP
 
 **Приклад #1 Приклад використання **radius_cvt_addr()****
 
-` <?phpwhile ($resa u003d radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));        exit;    }    $attr u003d $resa['attr'];    $data u003d $resa['data'];    switch ($attr) {    case RADIUS_FRAMED_IP_ADDRESS:        $ip u003d radius_cvt_addr($data );        echo "IP: $ip<br>
+` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
+",  radius_strerror($res));        exit;    }    $attr = $resa['attr'];    $data = $resa['data'];    switch ($attr) {    case RADIUS_FRAMED_IP_ADDRESS:        $ip = radius_cvt_addr($data );        echo "IP: $ip<br>
 ";                                                          
 ";        break;    }}?> `
 

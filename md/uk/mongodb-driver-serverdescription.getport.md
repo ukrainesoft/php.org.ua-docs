@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerDescription::getPort
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\ServerDescription::getPort — Повертає порт, на якому
 прослуховується цей сервер

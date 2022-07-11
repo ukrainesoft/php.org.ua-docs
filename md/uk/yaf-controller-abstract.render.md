@@ -7,14 +7,14 @@
 
 # Yaf_Controller_Abstract::render
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Controller_Abstract::render — Відображає шаблон представлення
 
 ### Опис
 
 protected **Yaf_Controller_Abstract::render**(string `$tpl`, array
-`$parameters` u003d ?): string
+`$parameters` = ?): string
 
 ### Список параметрів
 

@@ -62,9 +62,9 @@ final public **MongoDB\Driver\Session::startTransaction**(array
 
 ### Список змін
 
-| Версія             | Опис                               |
-| ------------------ | ---------------------------------- |
-| PECL mongodb 1.6.0 | Додано параметр `maxCommitTimeMS`. |
+| Версія             | Опис                             |
+| ------------------ | -------------------------------- |
+| PECL mongodb 1.6.0 | Додано параметр maxCommitTimeMS. |
 
 ### Дивіться також
 

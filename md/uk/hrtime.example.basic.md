@@ -11,4 +11,4 @@
 
 **Приклад #1 Заміряємо час виконання кількох блоків коду**
 
-` <?php$c u003d new HRTime\StopWatch;$c->start();/* Заміряємо час виконання цього блоку кода */for ($i u003d 0; $i < 1024*102;; ->stop();$elapsed0 u003d $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);/* Тут не вимірюємо*/for ($i u003d 0; $i < 1024*1024; $i++) ->start();/* А тут знову вимірюємо час виконання цього блоку кода */for ($i u003d 0; $i < 1024*1024; $i++);$c->stop(); ->getLastElapsedTime(HRTime\Unit::NANOSECOND);$elapsed_total u003d $c->getElapsedTime(HRTime\Unit::NANOSECOND);?> `
+` <?php$c = new HRTime\StopWatch;$c->start();/* Заміряємо час виконання цього блоку кода */for ($i = 0; $i < 1024*102;; ->stop();$elapsed0 = $c->getLastElapsedTime(HRTime\Unit::NANOSECOND);/* Тут не вимірюємо*/for ($i = 0; $i < 1024*1024; $i++) ->start();/* А тут знову вимірюємо час виконання цього блоку кода */for ($i = 0; $i < 1024*1024; $i++);$c->stop(); ->getLastElapsedTime(HRTime\Unit::NANOSECOND);$elapsed_total = $c->getElapsedTime(HRTime\Unit::NANOSECOND);?> `

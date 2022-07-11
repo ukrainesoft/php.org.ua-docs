@@ -7,7 +7,7 @@
 
 # Клас Expression
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 

@@ -40,7 +40,7 @@ key — Вибір ключа з масиву
 
 **Приклад #1 Приклад використання **key()****
 
-` <?php$array u003d array(   'fruit1' u003d> 'apple',   'fruit2' u003d> 'orange',   'fruit3' u003d u003d    'apple');// цей цикл виведе все ключі асоціативного масиву,// значення рівні "apple"while ($fruit_name u003d current($array)) {               array), "
+` <?php$array = array(   'fruit1' => 'apple',   'fruit2' => 'orange',   'fruit3' = =    'apple');// цей цикл виведе все ключі асоціативного масиву,// значення рівні "apple"while ($fruit_name = current($array)) {               array), "
 ";    }    next($array);}?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # exif_read_data
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 exif_read_data — Читає заголовки EXIF із файлів зображень
 
@@ -15,9 +15,9 @@ exif_read_data — Читає заголовки EXIF із файлів зобр
 
 **exif_read_data**(
 resource\|string `$file`,
-?string `$required_sections` u003d **`null`**,
-bool `$as_arrays` u003d **`false`**,
-bool `$read_thumbnail` u003d **`false`**
+?string `$required_sections` = **`null`**,
+bool `$as_arrays` = **`false`**,
+bool `$read_thumbnail` = **`false`**
 ): array\|false
 
 **exif_read_data()** читає заголовки EXIF із файлів зображень. Таким
@@ -68,15 +68,15 @@ Exif-заголовком є ще щось.
 результуючий масив (array). Якщо жоден із розділів знайти не
 вдасться, функція поверне **`false`**.
 
-|           |                                                                                                                                                                                                                                                                    |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| FILE      | FileName, FileSize, FileDateTime, SectionsFound                                                                                                                                                                                                                    |
-| COMPUTED  | html, Width, Height, IsColor, та інші. Height і Width обчислюються аналогічно [getimagesize()](function.getimagesize.md), тому їх обов'язково включати в заголовок. `html` - текстовий рядок, що задає висоту/ширину, яку можна використовувати у звичайному HTML. |
-| ANY_TAG   | Будь-яка інформація міститься в тег, наприклад, `IFD0`, `EXIF`, ...                                                                                                                                                                                                |
-| IFD0      | Всі дані тега IFD0. У звичайних зображеннях зберігається розмір зображення.                                                                                                                                                                                        |
-| THUMBNAIL | Якщо файл містить другий розділ `IFD`, то вважається, що зображення є ескіз. Вся інформація про ескіз зберігається у цьому розділі.                                                                                                                                |
-| COMMENT   | Заголовки коментарів JPEG-зображень.                                                                                                                                                                                                                               |
-| EXIF      | Розділ EXIF є підрозділом `IFD0`. Він містить більш детальну інформацію про зображення. Більшість його записів залежить від фотоапарата.                                                                                                                           |
+|           |                                                                                                                                                                                                                                                                  |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FILE      | FileName, FileSize, FileDateTime, SectionsFound                                                                                                                                                                                                                  |
+| COMPUTED  | html, Width, Height, IsColor, та інші. Height і Width обчислюються аналогічно [getimagesize()](function.getimagesize.md), тому їх обов'язково включати в заголовок. html - текстовий рядок, що задає висоту/ширину, яку можна використовувати у звичайному HTML. |
+| ANY_TAG   | Будь-яка інформація міститься в тег, наприклад, IFD0, EXIF, ...                                                                                                                                                                                                  |
+| IFD0      | Всі дані тега IFD0. У звичайних зображеннях зберігається розмір зображення.                                                                                                                                                                                      |
+| THUMBNAIL | Якщо файл містить другий розділ IFD, то вважається, що зображення є ескіз. Вся інформація про ескіз зберігається у цьому розділі.                                                                                                                                |
+| COMMENT   | Заголовки коментарів JPEG-зображень.                                                                                                                                                                                                                             |
+| EXIF      | Розділ EXIF є підрозділом IFD0. Він містить більш детальну інформацію про зображення. Більшість його записів залежить від фотоапарата.                                                                                                                           |
 
 `as_arrays`
 Визначає, чи формувати розділи як масивів. Розділи
@@ -110,10 +110,10 @@ Exif-заголовком є ще щось.
 **Приклад #1 Приклад використання **exif_read_data()****
 
 `<?phpecho "test1.jpg:<br />
-";$exif u003d exif_read_data('tests/test1.jpg', 'IFD0');echo $exifu003du003du003dfalse ? "Не найдено даних заголовка.<br />
+";$exif = exif_read_data('tests/test1.jpg', 'IFD0');echo $exif===false ? "Не найдено даних заголовка.<br />
 " : "Зображення містить заголовки<br />
-";$exif u003d exif_read_data('tests/test2.jpg', 0, true);echo "test2.jpg:<br />
-";foreach ($exif as $key u003d> $section) {    foreach ($section as $name u003d> $val) {        echo "$key.$name: >
+";$exif = exif_read_data('tests/test2.jpg', 0, true);echo "test2.jpg:<br />
+";foreach ($exif as $key => $section) {    foreach ($section as $name => $val) {        echo "$key.$name: >
 ";    }}?> `
 
 Перший виклик завершується невдачею, тому що в заголовках зображення немає
@@ -129,7 +129,7 @@ FILE.FileDateTime: 1017666176
 FILE.FileSize: 1240
 FILE.FileType: 2
 FILE.SectionsFound: ANY_TAG, IFD0, THUMBNAIL, COMMENT
-COMPUTED.md: widthu003d"1" heightu003d"1"
+COMPUTED.md: width="1" height="1"
 COMPUTED.Height: 1
 COMPUTED.Width: 1
 COMPUTED.IsColor: 1
@@ -153,21 +153,21 @@ THUMBNAIL.Thumbnail.Height: 1
 **Приклад #2 Використання **exif_read_data()** з потоковим ресурсом
 (доступно з PHP 7.2.0)**
 
-` <?php//Відкриваємо файл в бінарному режимі$fp u003d fopen('/path/to/image.jpg', 'rb');if (!$fp) {    echo 'Помилка: Неможливий  Неможливий| exit;}// Спроба прочитати заголовки exif$headers u003d exif_read_data($fp);if (!$headers) {   echo 'Помилка: неможливо прочитати заголовки exif'; exit;}// Надрукувати заголовки 'COMPUTED'echo 'Заголовки EXIF:' . PHP_EOL;foreach ($headers['COMPUTED'] as $header u003d> $value) {    printf(' %s u003d> %s%s', $header, $value, PHP_EOL);}>?
+` <?php//Відкриваємо файл в бінарному режимі$fp = fopen('/path/to/image.jpg', 'rb');if (!$fp) {    echo 'Помилка: Неможливий  Неможливий| exit;}// Спроба прочитати заголовки exif$headers = exif_read_data($fp);if (!$headers) {   echo 'Помилка: неможливо прочитати заголовки exif'; exit;}// Надрукувати заголовки 'COMPUTED'echo 'Заголовки EXIF:' . PHP_EOL;foreach ($headers['COMPUTED'] as $header => $value) {    printf(' %s => %s%s', $header, $value, PHP_EOL);}>?
 
 Результатом виконання цього прикладу буде щось подібне:
 
 EXIF Headers:
-Height u003d> 576
-Width u003d> 1024
-IsColor u003d> 1
-ByteOrderMotorola u003d> 0
-ApertureFNumber u003d> f/5.6
-UserComment u003d>
-UserCommentEncoding u003d> UNDEFINED
-Copyright u003d> Denis
-Thumbnail.FileType u003d> 2
-Thumbnail.MimeType u003d> image/jpeg
+Height => 576
+Width => 1024
+IsColor => 1
+ByteOrderMotorola => 0
+ApertureFNumber => f/5.6
+UserComment =>
+UserCommentEncoding => UNDEFINED
+Copyright => Denis
+Thumbnail.FileType => 2
+Thumbnail.MimeType => image/jpeg
 
 ### Примітки
 

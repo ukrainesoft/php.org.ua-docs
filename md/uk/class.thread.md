@@ -7,7 +7,7 @@
 
 # Клас Thread
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 ## Вступ
 
@@ -48,7 +48,7 @@ public [isStarted](thread.isstarted.md)(): bool
 
 public [join](thread.join.md)(): bool
 
-public [start](thread.start.md)(int `$options` u003d ?): bool
+public [start](thread.start.md)(int `$options` = ?): bool
 
 /\* Наслідувані методи \*/
 
@@ -65,7 +65,7 @@ public [Threaded::isTerminated](threaded.isterminated.md)(): bool
 
 public
 [Threaded::merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` u003d ?): bool
+`$from`, bool `$overwrite` = ?): bool
 
 public [Threaded::notify](threaded.notify.md)(): bool
 
@@ -85,7 +85,7 @@ public
 `...$args`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [Threaded::wait](threaded.wait.md)(int `$timeout` u003d ?): bool
+public [Threaded::wait](threaded.wait.md)(int `$timeout` = ?): bool
 
 }
 

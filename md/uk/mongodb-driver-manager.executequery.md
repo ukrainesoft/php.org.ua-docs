@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::executeQuery
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::executeQuery — Виконує запит до бази даних
 
@@ -15,7 +15,7 @@ MongoDB\Driver\Manager::executeQuery — Виконує запит до бази
 
 final public **MongoDB\Driver\Manager::executeQuery**(string
 `$namespace`, [MongoDB\Driver\Query](class.mongodb-driver-query.md)
-`$query`, array `$options` u003d array()):
+`$query`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує
@@ -31,10 +31,10 @@ final public **MongoDB\Driver\Manager::executeQuery**(string
 Запит на виконання.
 
 `options`
-| Опція | Тип | Опис |
-|----------------|-------------------------------- -------------------------------------------|------ -------------------------------------------------- -----------------------|
+| Опція          | Тип                                                                     | Опис                                                                             |
+| -------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | readPreference | [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md) | Перевага читання, що використовується для вибору сервера для виконання операції. |
-| session | [MongoDB\Driver\Session](class.mongodb-driver-session.md) | Сесія зв'язування з операцією. |
+| session        | [MongoDB\Driver\Session](class.mongodb-driver-session.md)               | Сесія зв'язування з операцією.                                                   |
 
 **options**
 
@@ -58,25 +58,25 @@ final public **MongoDB\Driver\Manager::executeQuery**(string
 
 ### Список змін
 
-| Версія             | Опис                                                                                                                                                                             |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md). |
+| Версія             | Опис                                                                                                                                                                           |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом options. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Manager::executeQuery()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]) ;$bulk->insert(['x' u003d> 2]);$bulk->insert(['x' u003d> 3]);$manager->executeBulkWrite('db.collection', $bulk);$ filter u003d'['x' u003d> ['$gt' u003d> 1]];$options u003d [    'projection' u003d> ['_id' u003d> 0],    'sort' u003d> ['x' ],];$query u003d new MongoDB\Driver\Query($filter, $options);$cursor u003d $manager->executeQuery('db.collection', $query);foreach ($cursor as $document) { ($document);}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]) ;$bulk->insert(['x' => 2]);$bulk->insert(['x' => 3]);$manager->executeBulkWrite('db.collection', $bulk);$ filter ='['x' => ['$gt' => 1]];$options = [    'projection' => ['_id' => 0],    'sort' => ['x' ],];$query = new MongoDB\Driver\Query($filter, $options);$cursor = $manager->executeQuery('db.collection', $query);foreach ($cursor as $document) { ($document);}?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#6 (1) {
-["x"]u003d>
+["x"]=>
 int(3)
 }
 object(stdClass)#7 (1) {
-["x"]u003d>
+["x"]=>
 int(2)
 }
 
@@ -89,7 +89,7 @@ int(2)
 затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 у посібнику MongoDB для отримання додаткової інформації.
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$filter u003d ['x' u003d> ['$gt' u003d> 1]];$options u003d [    '' maxTimeMS' u003d> 1000,];$query u003d new MongoDB\Driver\Query($filter, $options);$cursor u003d $manager->executeQuery('db.collection', $query);foreach ($cursor document) {   var_dump($document);}?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$filter = ['x' => ['$gt' => 1]];$options = [    '' maxTimeMS' => 1000,];$query = new MongoDB\Driver\Query($filter, $options);$cursor = $manager->executeQuery('db.collection', $query);foreach ($cursor document) {   var_dump($document);}?> `
 
 Якщо запит не завершиться через секунду після початку виконання на
 сервері, буде викинуто виняток

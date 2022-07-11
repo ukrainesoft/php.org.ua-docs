@@ -16,9 +16,9 @@ odbc_procedures — Отримує список процедур, що збер�
 
 **odbc_procedures**(
 resource `$odbc`,
-?string `$catalog` u003d **`null`**,
-?string `$schema` u003d **`null`**,
-?string `$procedure` u003d **`null`**
+?string `$catalog` = **`null`**,
+?string `$schema` = **`null`**,
+?string `$procedure` = **`null`**
 ): resource \ | false
 
 Перелічує всі процедури в діапазоні.
@@ -73,20 +73,20 @@ resource `$odbc`,
 
 **Приклад #1 Перелік процедур бази даних**
 
-` <?php$connu003du003dodbc_connect($dsn, $user, $pass);$procedures u003d odbc_procedures($conn, $catalog, $schema, '%');while(($row u003d odbc_fetch_arra ) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn==odbc_connect($dsn, $user, $pass);$procedures = odbc_procedures($conn, $catalog, $schema, '%');while(($row = odbc_fetch_arra ) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[PROCEDURE_CAT] u003d> TutorialDB
-[PROCEDURE_SCHEM] u003d> dbo
-[PROCEDURE_NAME] u003d> GetEmployeeSalesYTD;1
-[NUM_INPUT_PARAMS] u003d> -1
-[NUM_OUTPUT_PARAMS] u003d> -1
-[NUM_RESULT_SETS] u003d> -1
-[REMARKS] u003d>
-[PROCEDURE_TYPE] u003d> 2
+[PROCEDURE_CAT] => TutorialDB
+[PROCEDURE_SCHEM] => dbo
+[PROCEDURE_NAME] => GetEmployeeSalesYTD;1
+[NUM_INPUT_PARAMS] => -1
+[NUM_OUTPUT_PARAMS] => -1
+[NUM_RESULT_SETS] => -1
+[REMARKS] =>
+[PROCEDURE_TYPE] => 2
 )
 
 ### Дивіться також

@@ -8,7 +8,7 @@
 
 # Gmagick::getquantumdepth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getquantumdepth — Повертає глибину кольору (біт на канал)
 об'єкта Gmagick у вигляді рядка

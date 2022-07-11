@@ -8,7 +8,7 @@ callback-функції
 
 # Ds\Set::filter
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::filter — Створення нового списку елементів, вибраних за допомогою
 заданої callback-функції
@@ -16,7 +16,7 @@ Ds\Set::filter — Створення нового списку елементі
 ### Опис
 
 public **Ds\Set::filter**([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Set](class.ds-set.md)
+`$callback` = ?): [Ds\Set](class.ds-set.md)
 
 Створює новий набір елементів, вибраних за допомогою заданої
 callback-функції.
@@ -46,28 +46,28 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **Приклад #1 Приклад **Ds\Set::filter()** з використанням
 callback-функції**
 
-` <?php$set u003d new \Ds\Set([1, 2, 3, 4, 5]);var_dump($set->filter(function($value) {   return $value % 2 u003du003d 0); ));?> `
+` <?php$set = new \Ds\Set([1, 2, 3, 4, 5]);var_dump($set->filter(function($value) {   return $value % 2 == 0); ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#3 (2) {
-[0]u003d>
+[0]=>
 int(2)
-[1]u003d>
+[1]=>
 int(4)
 }
 
 **Приклад #2 Приклад **Ds\Set::filter()** без callback-функції**
 
-` <?php$set u003d new \Ds\Set([0, 1, 'a', true, false]);var_dump($set->filter());?> `
+` <?php$set = new \Ds\Set([0, 1, 'a', true, false]);var_dump($set->filter());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 string(1) "a"
-[2]u003d>
+[2]=>
 bool(true)
 }

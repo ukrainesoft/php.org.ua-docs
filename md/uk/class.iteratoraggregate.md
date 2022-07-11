@@ -27,7 +27,7 @@ public [getIterator](iteratoraggregate.getiterator.md)():
 
 **Приклад #1 Основи використання**
 
-`<?phpclass myData implements IteratorAggregate {    public $property1 u003d "Перша загальнодоступна властивість"; public $property2 u003d "Друга загальнодоступна властивість"; public $property3 u003d "Третя загальнодоступна властивість"; public function __construct() {         $this->property4 u003d "останнє властивість"; }    public function getIterator() {        return new ArrayIterator($this); }}$obj u003d new myData;foreach($obj as $key u003d> $value) {    var_dump($key, $value); echo "
+`<?phpclass myData implements IteratorAggregate {    public $property1 = "Перша загальнодоступна властивість"; public $property2 = "Друга загальнодоступна властивість"; public $property3 = "Третя загальнодоступна властивість"; public function __construct() {         $this->property4 = "останнє властивість"; }    public function getIterator() {        return new ArrayIterator($this); }}$obj = new myData;foreach($obj as $key => $value) {    var_dump($key, $value); echo "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

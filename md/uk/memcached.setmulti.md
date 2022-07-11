@@ -7,13 +7,13 @@
 
 # Memcached::setMulti
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::setMulti — Зберігає кілька записів
 
 ### Опис
 
-public **Memcached::setMulti**(array `$items`, int `$expiration` u003d ?):
+public **Memcached::setMulti**(array `$items`, int `$expiration` = ?):
 bool
 
 **Memcached::setMulti()** схожий на метод
@@ -41,7 +41,7 @@ bool
 
 **Приклад #1 Приклад використання **Memcached::setMulti()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$items u003d array(    'key1' u003d> 'value1',    'key'  ' u003d> 'value3');$m->setMulti($items, time() + 300);?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$items = array(    'key1' => 'value1',    'key'  ' => 'value3');$m->setMulti($items, time() + 300);?> `
 
 ### Дивіться також
 

@@ -49,13 +49,13 @@ int `$mysqli->server_version`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("З'єднання|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("З'єднання|
 ", mysqli_connect_error());  exit();}/* виводимо версію сервера */printf("Версія сервера: %d
 ", $mysqli->server_version);/* закриваємо з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d Mysqli_connect("localhost", "my_user", "my_password");
+` <?php$link = Mysqli_connect("localhost", "my_user", "my_password");
 ", mysqli_connect_error());  exit();}/* виводимо версію сервера */printf("Версія сервера: %d
 ", mysqli_get_server_version($link));/* закриваємо з'єднання*/mysqli_close($link);?> `
 

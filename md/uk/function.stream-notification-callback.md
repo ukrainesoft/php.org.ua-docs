@@ -7,7 +7,7 @@
 
 #stream_notification_callback
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 stream_notification_callback - Callback-функція для параметра контексту
 `notification`
@@ -63,20 +63,20 @@ Callback-функція типу [callable](language.types.callable.md),
 **Приклад #1 Приклад використання **stream_notification_callback()****
 
 ` <?phpfunction stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {    switch($notification_code) {        case STREAM_NOTIFY_RESOLVE:        case STREAM_NOTIFY_AUTH_REQUIRED:        case STREAM_NOTIFY_COMPLETED:        case STREAM_NOTIFY_FAILURE:        case STREAM_NOTIFY_AUTH_RESULT:            var_dump($notification_code , $severity, $message, $message_code, $bytes_transferred, $bytes_max); /* Ігноруємо */             break; case STREAM_NOTIFY_REDIRECTED:            echo "Переспрямовані на: ", $message; break; case STREAM_NOTIFY_CONNECT:            echo "Приєдналися..."; break; case STREAM_NOTIFY_FILE_SIZE_IS:            echo "Отримали розмір файлу: ", $bytes_max; break; case STREAM_NOTIFY_MIME_TYPE_IS:            echo "Отримали mime-тип файлу: ", $message; break; case STREAM_NOTIFY_PROGRESS:             echo "Пішов прогрес, поки завантажено ", $bytes_transferred, " байт"; break; }    echo "
-";}$ctx u003dstream_context_create();stream_context_set_params($ctx, array("notification" u003d> "stream_notification_callback"));file_get_contents("http://php.net/contact", false, $ct `
+";}$ctx =stream_context_create();stream_context_set_params($ctx, array("notification" => "stream_notification_callback"));file_get_contents("http://php.net/contact", false, $ct `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Приєдналися...
-Отримали mime-тип файлу: text/html; charsetu003dutf-8
+Отримали mime-тип файлу: text/html; charset=utf-8
 Перенаправлені на: http://no.php.net/contact
 Приєдналися...
 Отримали розмір файлу: 0
-Отримали mime-тип файлу: text/html; charsetu003dutf-8
+Отримали mime-тип файлу: text/html; charset=utf-8
 Перенаправлені на: http://no.php.net/contact.php
 Приєдналися...
 Розмір файлу: 4589
-Отримали mime-тип файлу: text/html;charsetu003dutf-8
+Отримали mime-тип файлу: text/html;charset=utf-8
 Пройшов прогрес, поки завантажено 0 байт
 Пройшов прогрес, поки завантажено 0 байт
 Пройшов прогрес, поки завантажено 0 байт
@@ -92,15 +92,15 @@ Callback-функція типу [callable](language.types.callable.md),
 
 ` <?phpfunction usage($argv) {    echo "Використання:
 ";   printf(" php %s <http://example.com/file> <localfile>
-", $argv[0]);    exit(1);}function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {    static $filesize u003d null;    switch($notification_code) {    case STREAM_NOTIFY_RESOLVE:    case STREAM_NOTIFY_AUTH_REQUIRED:    case STREAM_NOTIFY_COMPLETED:    case STREAM_NOTIFY_FAILURE:    case STREAM_NOTIFY_AUTH_RESULT:        /* Игнорируем */        break;    case STREAM_NOTIFY_REDIRECTED:        echo "Перенаправлены на: ", $message, "
+", $argv[0]);    exit(1);}function stream_notification_callback($notification_code, $severity, $message, $message_code, $bytes_transferred, $bytes_max) {    static $filesize = null;    switch($notification_code) {    case STREAM_NOTIFY_RESOLVE:    case STREAM_NOTIFY_AUTH_REQUIRED:    case STREAM_NOTIFY_COMPLETED:    case STREAM_NOTIFY_FAILURE:    case STREAM_NOTIFY_AUTH_RESULT:        /* Игнорируем */        break;    case STREAM_NOTIFY_REDIRECTED:        echo "Перенаправлены на: ", $message, "
 ";        break;    case STREAM_NOTIFY_CONNECT:        echo "Приєдналися...
 ";  ¦                                                                                               ¦
 ";        break;    case STREAM_NOTIFY_MIME_TYPE_IS:        echo "Mime-тип файлу: ", $message, "
 ";        break;    case STREAM_NOTIFY_PROGRESS:        if ($bytes_transferred > 0) {            if (!isset($filesize)) {                printf("
-Неизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);            } else {                $length u003d (int)(($bytes_transferred/$filesize)*100);                printf("
-[%-100s] %d%% (%2d/%2d kb)", str_repeat("u003d", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024)              }      break;   }}isset($argv[1], $argv[2]) or usage($argv);$ctx u003dstream_context_create();stream_context_set_params("t" ;$fp u003d fopen($argv[1], "r", false, $ctx);if (is_resource($fp) && file_put_contents($argv[2], $fp)) {    echo "
+Неизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);            } else {                $length = (int)(($bytes_transferred/$filesize)*100);                printf("
+[%-100s] %d%% (%2d/%2d kb)", str_repeat("=", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024)              }      break;   }}isset($argv[1], $argv[2]) or usage($argv);$ctx =stream_context_create();stream_context_set_params("t" ;$fp = fopen($argv[1], "r", false, $ctx);if (is_resource($fp) && file_put_contents($argv[2], $fp)) {    echo "
 Готово!
-";   exit(0);}$err u003d error_get_last();echo "
+";   exit(0);}$err = error_get_last();echo "
 Ошшшшибкка.
 ", $err["message"], "
 ";exit(1);?> `
@@ -110,12 +110,12 @@ Callback-функція типу [callable](language.types.callable.md),
 виведе щось схоже на це:
 
 Приєдналися...
-Mime-тип файлу: text/html; charsetu003dutf-8
+Mime-тип файлу: text/html; charset=utf-8
 Перенаправлені на: http://no2.php.net/distributions/php-5.2.5.tar.bz2
 Приєдналися...
 Розмір файлу: 7773024
 Mime-тип файлу: application/octet-stream
-[u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d] 40% (3076/7590 kb )
+[========================================] 40% (3076/7590 kb )
 
 ### Дивіться також
 

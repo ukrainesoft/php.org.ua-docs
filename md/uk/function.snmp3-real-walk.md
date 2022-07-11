@@ -23,8 +23,8 @@ string `$auth_passphrase`,
 string `$privacy_protocol`,
 string `$privacy_passphrase`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ): array\|false
 
 Функція **snmp3_real_walk()** використовується для обходу об'єктів SNMP,
@@ -78,11 +78,11 @@ int `$retries` u003d -1
 Приклад вище виведе щось на зразок:
 
 array (
-'IF-MIB::ifName.1' u003d> 'STRING: lo',
-'IF-MIB::ifName.2' u003d> 'STRING: eth0',
-'IF-MIB::ifName.3' u003d> 'STRING: eth2',
-'IF-MIB::ifName.4' u003d> 'STRING: sit0',
-'IF-MIB::ifName.5' u003d> 'STRING: sixxs',
+'IF-MIB::ifName.1' => 'STRING: lo',
+'IF-MIB::ifName.2' => 'STRING: eth0',
+'IF-MIB::ifName.3' => 'STRING: eth2',
+'IF-MIB::ifName.4' => 'STRING: sit0',
+'IF-MIB::ifName.5' => 'STRING: sixxs',
 )
 
 ### Дивіться також

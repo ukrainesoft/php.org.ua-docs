@@ -8,7 +8,7 @@
 
 #imagecolorresolvealpha
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecolorresolvealpha — Отримує ідентифікатор конкретного кольору та
 альфа компонента або його найближчий аналог
@@ -55,23 +55,23 @@ int `$alpha`
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecoloresolvealpha()** для
 отримання кольорів із зображення**
 
-` <?php// Завантаження зображення$im u003d imagecreatefromgif('phplogo.gif');// Отримання найближчих квітів$colors u003d array();$colors[] u003d imagecolorresolvealpha($im, 55 5 ;$colors[] u003d imagecolorresolvealpha($im, 0, 0, 200, 127);// Виведенняprint_r($colors);imagedestroy($im);?> `
+` <?php// Завантаження зображення$im = imagecreatefromgif('phplogo.gif');// Отримання найближчих квітів$colors = array();$colors[] = imagecolorresolvealpha($im, 55 5 ;$colors[] = imagecolorresolvealpha($im, 0, 0, 200, 127);// Виведенняprint_r($colors);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 89
-[1] u003d> 85
+[0] => 89
+[1] => 85
 )
 
 ### Дивіться також

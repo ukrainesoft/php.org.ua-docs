@@ -7,7 +7,7 @@
 
 # ZMQSocket::getPersistentId
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::getPersistentId — Отримати ідентифікатор постійного сокету
 

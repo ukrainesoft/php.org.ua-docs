@@ -7,7 +7,7 @@
 
 # OCILob::tell
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 OCILob::tell — Повертає поточну позицію внутрішнього покажчика об'єкта
 LOB

@@ -7,7 +7,7 @@
 
 # ZMQSocket::getSocketType
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::getSocketType — Отримати тип сокету
 

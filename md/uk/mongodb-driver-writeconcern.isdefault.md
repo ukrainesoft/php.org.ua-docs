@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcern::isDefault
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\WriteConcern::isDefault — Перевіряє, чи є гарантія
 записи за замовчуванням
@@ -53,7 +53,7 @@ final public **MongoDB\Driver\WriteConcern::isDefault**(): bool
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcern::isDefault()****
 
-` <?php$wc u003d new MongoDB\Driver\WriteConcern(1);var_dump($wc->isDefault());$manager u003d new MongoDB\Driver\Manager('mongodb://127.0.0.1/?wu003d majority');$wc u003d $manager->getWriteConcern();var_dump($wc->isDefault());$manager u003d new MongoDB\Driver\Manager('mongodb://127.0.0.1/');$wc u003d $manager->getWriteConcern();var_dump($wc->isDefault());?> `
+` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->isDefault());$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/?w= majority');$wc = $manager->getWriteConcern();var_dump($wc->isDefault());$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/');$wc = $manager->getWriteConcern();var_dump($wc->isDefault());?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\MinKey::unserialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\MinKey::unserialize — Десеріалізує MinKey
 

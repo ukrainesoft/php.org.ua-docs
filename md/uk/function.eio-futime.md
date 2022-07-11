@@ -7,7 +7,7 @@
 
 #eio_futime
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_futime — Змінює дату та час останньої модифікації та доступу до
 файлу
@@ -19,10 +19,10 @@ eio_futime — Змінює дату та час останньої модифі
 `$fd`,
 float `$atime`,
 float `$mtime`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_futime()** змінює дату та час останньої модифікації та доступу до

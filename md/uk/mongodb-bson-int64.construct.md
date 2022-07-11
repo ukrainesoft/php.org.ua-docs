@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Int64::\_\_construct
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\BSON\Int64::\_\_construct - Створює новий Int64 (не
 використовується)

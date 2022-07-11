@@ -35,13 +35,13 @@ get_declared_interfaces — Повертає масив усіх оголоше�
 
 Array
 (
-[0] u003d> Traversable
-[1] u003d> IteratorAggregate
-[2] u003d> Iterator
-[3] u003d> ArrayAccess
-[4] u003d> reflector
-[5] u003d> RecursiveIterator
-[6] u003d> SeekableIterator
+[0] => Traversable
+[1] => IteratorAggregate
+[2] => Iterator
+[3] => ArrayAccess
+[4] => reflector
+[5] => RecursiveIterator
+[6] => SeekableIterator
 )
 
 ### Дивіться також

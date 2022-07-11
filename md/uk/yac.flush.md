@@ -7,7 +7,7 @@
 
 # Yac::flush
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 Yac::flush — Очищає кеш
 

@@ -7,7 +7,7 @@
 
 # Gmagick::resampleimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::resampleimage — Змінює роздільну здатність зображення до бажаного.
 

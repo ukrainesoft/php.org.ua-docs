@@ -7,7 +7,7 @@
 
 # Collectable::isGarbage
 
-(PECL pthreads \>u003d 2.0.8)
+(PECL pthreads \>= 2.0.8)
 
 Collectable::isGarbage — Визначає, чи позначений об'єкт як сміття
 

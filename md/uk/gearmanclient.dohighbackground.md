@@ -8,7 +8,7 @@
 
 # GearmanClient::doHighBackground
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doHighBackground — Запускає виконання з високим
 пріоритетом завдання у фоновому режимі
@@ -16,7 +16,7 @@ GearmanClient::doHighBackground — Запускає виконання з ви�
 ### Опис
 
 public **GearmanClient::doHighBackground**(string `$function_name`,
-string `$workload`, string `$unique` u003d ?): string
+string `$workload`, string `$unique` = ?): string
 
 Запускає виконання з високим пріоритетом завдання у фоновому режимі,
 повертаючи дескриптор завдання, який може бути надалі

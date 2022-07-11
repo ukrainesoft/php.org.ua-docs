@@ -7,7 +7,7 @@
 
 # Yar_Server::handle
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Server::handle — Запустити сервер RPC
 
@@ -35,7 +35,7 @@ boolean
 
 **Приклад #1 Приклад використання **Yar_Server::handle()****
 
-` <?phpclass API {    /**    * the doc info will be generated automatically into service info page. * @params     * @return     */    public function some_method($parameter, $option u003d "foo") {    }    protected function client_can_not_see() {    }}$service u003d new Yar_Server(new API());$service->handle( );?> `
+` <?phpclass API {    /**    * the doc info will be generated automatically into service info page. * @params     * @return     */    public function some_method($parameter, $option = "foo") {    }    protected function client_can_not_see() {    }}$service = new Yar_Server(new API());$service->handle( );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

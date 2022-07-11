@@ -15,12 +15,12 @@
 Для вказівки bool, використовуйте константи **`true`** або **`false`**. Вони
 обидві реєстронезалежні.
 
-`<?php$foo u003d True; // присвоїти $foo значення TRUE?> `
+`<?php$foo = True; // присвоїти $foo значення TRUE?> `
 
 Як правило, деякий [оператор](language.operators.md) повертає
 значення типу bool, яке потім передається [керуючою конструкції](language.control-structures.md).
 
-` <?php// u003du003d це оператор, перевіряє// еквівалентність і повертає booleanif ($action u003du003d "show_version") {    echo "Версія s? ) {    echo "<hr>
+` <?php// == це оператор, перевіряє// еквівалентність і повертає booleanif ($action == "show_version") {    echo "Версія s? ) {    echo "<hr>
 ";}//...... тому що наступне має то ж самий смисл:if ($show_separators) {    echo ""<hr>
 ";}?> `
 

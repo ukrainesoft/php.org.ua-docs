@@ -7,7 +7,7 @@
 
 # Swoole\Process::freeQueue
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::freeQueue — Знищує чергу повідомлень, створену
 swoole_process::useQueue

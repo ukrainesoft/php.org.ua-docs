@@ -8,7 +8,7 @@
 
 # MongoDB\Driver\Cursor::isDead
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Cursor::isDead — Перевіряє, чи вичерпано курсор чи може
 містити додаткові результати
@@ -66,7 +66,7 @@ final public **MongoDB\Driver\Cursor::isDead**(): bool
 
 **Приклад #1 Приклад використання **MongoDB\Driver\Cursor::isDead()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$query u003d new MongoDB\Driver\Query([]);$bulk u003d new MongoDB\Driver\BulkWrite; bulk->insert(['x' u003d> 1]);$bulk->insert(['x' u003d> 2]);$bulk->insert(['x' u003d> 3]);$manager- >executeBulkWrite('db.collection', $bulk);$cursoru003du003d$manager->executeQuery('db.collection', $query);$iterator u003d new IteratorIterator($cursor);$iterator->rewind(); var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$ iterator->next();var_dump($cursor->isDead());?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$query = new MongoDB\Driver\Query([]);$bulk = new MongoDB\Driver\BulkWrite; bulk->insert(['x' => 1]);$bulk->insert(['x' => 2]);$bulk->insert(['x' => 3]);$manager- >executeBulkWrite('db.collection', $bulk);$cursor==$manager->executeQuery('db.collection', $query);$iterator = new IteratorIterator($cursor);$iterator->rewind(); var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$iterator->next();var_dump($cursor->isDead());$ iterator->next();var_dump($cursor->isDead());?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # intl_get_error_message
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 intl_get_error_message — Отримати опис помилки
 
@@ -29,7 +29,7 @@ intl_get_error_message — Отримати опис помилки
 
 **Приклад #1 Приклад використання **intl_get_error_message()****
 
-` <?phpif( Collator::getAvailableLocales() u003du003du003du003dfalse ) {    show_error( intl_get_error_message() );}?> `
+` <?phpif( Collator::getAvailableLocales() ====false ) {    show_error( intl_get_error_message() );}?> `
 
 ### Дивіться також
 

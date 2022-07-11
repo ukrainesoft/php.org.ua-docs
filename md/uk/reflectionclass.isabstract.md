@@ -30,7 +30,7 @@ public **ReflectionClass::isAbstract**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isAbstract()****
 
-` <?phpclass          TestClass { }abstract class TestAbstractClass { }$testClass     u003d new ReflectionClass('TestClass');$abstractClass u003d new ReflectionClass('TestAbstractClass');var_dump($testClass->isAbstract());var_dump($abstractClass- >isAbstract());?> `
+` <?phpclass          TestClass { }abstract class TestAbstractClass { }$testClass     = new ReflectionClass('TestClass');$abstractClass = new ReflectionClass('TestAbstractClass');var_dump($testClass->isAbstract());var_dump($abstractClass- >isAbstract());?> `
 
 Результат виконання цього прикладу:
 

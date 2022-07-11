@@ -8,7 +8,7 @@
 
 # fann_create_standard
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_create_standard — Створює стандартну підключену повністю
 нейронну мережу зворотного розповсюдження

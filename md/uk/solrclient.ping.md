@@ -7,7 +7,7 @@
 
 # SolrClient::ping
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::ping — Перевіряє, чи сервер Solr працює
 
@@ -41,6 +41,6 @@ Apache Solr.
 
 **Приклад #1 Приклад використання **SolrClient::ping()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ pingresponseu003du003d$client->ping();?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ pingresponse==$client->ping();?> `
 
 Результатом виконання цього прикладу буде щось подібне:

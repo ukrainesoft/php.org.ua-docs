@@ -7,7 +7,7 @@
 
 # Phar::stopBuffering
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::stopBuffering — Зупиняє буферизацію та записує все
 зміни на диск
@@ -50,7 +50,7 @@ phar-архів з великою кількістю файлів. Зазвич�
 
 **Приклад #1 Приклад використання **Phar::stopBuffering()****
 
-` <?php$p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');$p['file1.txt'] u003d 'hi';$p->startBuffering ();var_dump($p->getStub());$p->setStub("<?phpfunction __autoload(\$class){   include 'phar://brandnewphar.phar/' . str_replace('_', ') /', \$class) . '.php';}Phar::mapPhar('brandnewphar.phar');include 'phar://brandnewphar.phar/startup.php';__HALT_COMPILER();");$p ->stopBuffering();var_dump($p->getStub());?> `
+` <?php$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');$p['file1.txt'] = 'hi';$p->startBuffering ();var_dump($p->getStub());$p->setStub("<?phpfunction __autoload(\$class){   include 'phar://brandnewphar.phar/' . str_replace('_', ') /', \$class) . '.php';}Phar::mapPhar('brandnewphar.phar');include 'phar://brandnewphar.phar/startup.php';__HALT_COMPILER();");$p ->stopBuffering();var_dump($p->getStub());?> `
 
 Результат виконання цього прикладу:
 

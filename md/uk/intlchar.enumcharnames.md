@@ -18,7 +18,7 @@ public static **IntlChar::enumCharNames**(
 int\|string `$start`,
 int\|string `$end`,
 [callable](language.types.callable.md) `$callback`,
-int `$type` u003d IntlChar::UNICODE_CHAR_NAME
+int `$type` = IntlChar::UNICODE_CHAR_NAME
 ): ?bool
 
 Перелічує всі присвоєні символи Unicode у заданому діапазоні

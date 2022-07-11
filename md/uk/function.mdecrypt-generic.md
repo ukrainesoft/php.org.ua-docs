@@ -7,7 +7,7 @@
 
 #mdecrypt_generic
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mdecrypt_generic — Дешифрування даних
 
@@ -41,7 +41,7 @@ mdecrypt_generic — Дешифрування даних
 
 **Приклад #1 Приклад використання **mdecrypt_generic()****
 
-` <?php    /* Дані */    $key u003d 'Це дуже довгий ключ. Сильно більше, чем потрібний шифру.'; $plain_text u003d 'дуже важливі дані'; /* Відкриваємо модуль і створюємо ініціалізуючий вектор */    $td u003d mcrypt_module_open('des', '', 'ecb', ''); $keyu003du003dsubstr($key, 0,mcrypt_enc_get_key_size($td)); $iv_sizeu003dmcrypt_enc_get_iv_size($td); $iv u003d mcrypt_create_iv($iv_size, MCRYPT_RAND); /* Инициализируем обработчик шифрования */    if (mcrypt_generic_init($td, $key, $iv) !u003d -1) {        /* Шифруем данные */        $c_t u003d mcrypt_generic($td, $plain_text); mcrypt_generic_deinit($td); /* Переініціалізуємо буфери для дешифрування */        mcrypt_generic_init($td, $key, $iv); $p_t u003d mdecrypt_generic($td, $c_t); /* Прибираємо сміття */        mcrypt_generic_deinit($td); mcrypt_module_close($td); }    if (strncmp($p_t, $plain_text, strlen($plain_text)) u003du003d 0) {        echo "ок
+` <?php    /* Дані */    $key = 'Це дуже довгий ключ. Сильно більше, чем потрібний шифру.'; $plain_text = 'дуже важливі дані'; /* Відкриваємо модуль і створюємо ініціалізуючий вектор */    $td = mcrypt_module_open('des', '', 'ecb', ''); $key==substr($key, 0,mcrypt_enc_get_key_size($td)); $iv_size=mcrypt_enc_get_iv_size($td); $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND); /* Инициализируем обработчик шифрования */    if (mcrypt_generic_init($td, $key, $iv) != -1) {        /* Шифруем данные */        $c_t = mcrypt_generic($td, $plain_text); mcrypt_generic_deinit($td); /* Переініціалізуємо буфери для дешифрування */        mcrypt_generic_init($td, $key, $iv); $p_t = mdecrypt_generic($td, $c_t); /* Прибираємо сміття */        mcrypt_generic_deinit($td); mcrypt_module_close($td); }    if (strncmp($p_t, $plain_text, strlen($plain_text)) == 0) {        echo "ок
 ";    } else {        echo "помилка
 ";    }?> `
 

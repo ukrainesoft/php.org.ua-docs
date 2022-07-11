@@ -20,7 +20,7 @@ mysqli-функції приймають дескриптор з'єднання 
 
 **Приклад #1 Простота переходу зі старого модуля mysql**
 
-` <?php$mysqli u003d mysqli_connect("example.com", "user", "password", "database");$result u003d mysqli_query($mysqli, "SELECT 'Будь ласка, не використовуйте встаріший    ' AS _msg FROM DUAL");$row u003d mysqli_fetch_assoc($result);echo $row['_msg'];$mysql u003d mysql_connect("example.com", "user", "password");mysql_select_db ");$result u003d mysql_query("SELECT 'Використовуйте замого модуль mysqli.' AS _msg FROM DUAL", $mysql);$row u003d mysql_fetch_assoc($result);'ech>''
+` <?php$mysqli = mysqli_connect("example.com", "user", "password", "database");$result = mysqli_query($mysqli, "SELECT 'Будь ласка, не використовуйте встаріший    ' AS _msg FROM DUAL");$row = mysqli_fetch_assoc($result);echo $row['_msg'];$mysql = mysql_connect("example.com", "user", "password");mysql_select_db ");$result = mysql_query("SELECT 'Використовуйте замого модуль mysqli.' AS _msg FROM DUAL", $mysql);$row = mysql_fetch_assoc($result);'ech>''
 
 Результат виконання цього прикладу:
 
@@ -41,7 +41,7 @@ mysqli-функції приймають дескриптор з'єднання 
 
 **Приклад #2 Об'єктно-орієнтований та процедурний інтерфейси**
 
-` <?php$mysqli u003d mysqli_connect("example.com", "user", "password", "database");$result u003d mysqli_query($mysqli, "SELECT 'Світ, повний ' AS _msg $row u003d mysqli_fetch_assoc($result);echo $row['_msg'];$mysqli u003d new mysqli("example.com", "user", "password", "database");$result u003d $mysqli-> query("SELECT 'вибору, щоб угодити усім.' AS _msg FROM DUAL");$row u003d $result->fetch_assoc();echo $row['_msg']; `
+` <?php$mysqli = mysqli_connect("example.com", "user", "password", "database");$result = mysqli_query($mysqli, "SELECT 'Світ, повний ' AS _msg $row = mysqli_fetch_assoc($result);echo $row['_msg'];$mysqli = new mysqli("example.com", "user", "password", "database");$result = $mysqli-> query("SELECT 'вибору, щоб угодити усім.' AS _msg FROM DUAL");$row = $result->fetch_assoc();echo $row['_msg']; `
 
 Результат виконання цього прикладу:
 
@@ -59,7 +59,7 @@ mysqli-функції приймають дескриптор з'єднання 
 
 **Приклад #3 Поганий стиль програмування**
 
-` <?php$mysqli u003d new mysqli("example.com", "user", "password", "database");$result u003d mysqli_query($mysqli, "SELECT 'Цей код працює, не   ' AS _msg FROM DUAL");if ($row u003d $result->fetch_assoc()) {    echo $row['_msg'];} `
+` <?php$mysqli = new mysqli("example.com", "user", "password", "database");$result = mysqli_query($mysqli, "SELECT 'Цей код працює, не   ' AS _msg FROM DUAL");if ($row = $result->fetch_assoc()) {    echo $row['_msg'];} `
 
 Результат виконання цього прикладу:
 

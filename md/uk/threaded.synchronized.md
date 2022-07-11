@@ -7,7 +7,7 @@
 
 # Threaded::synchronized
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::synchronized — Синхронізація
 
@@ -39,7 +39,7 @@ public **Threaded::synchronized**([Closure](class.closure.md)
 
 **Приклад #1 Синхронізація**
 
-` <?phpclass My extends Thread {    public function run() {        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait();        }, $this); }}$my u003d new My();$my->start();$my->synchronized(function($thread){   $thread->done u003d true;    $thread->notify();}, $my );var_dump($my->join());?> `
+` <?phpclass My extends Thread {    public function run() {        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait();        }, $this); }}$my = new My();$my->start();$my->synchronized(function($thread){   $thread->done = true;    $thread->notify();}, $my );var_dump($my->join());?> `
 
 Результат виконання цього прикладу:
 

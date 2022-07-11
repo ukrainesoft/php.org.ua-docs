@@ -7,7 +7,7 @@
 
 # openssl_pkey_export_to_file
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_pkey_export_to_file — Записує у файл ключ у форматі PEM
 
@@ -17,8 +17,8 @@ openssl_pkey_export_to_file — Записує у файл ключ у форм�
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$key`,
 string `$output_filename`,
-?string `$passphrase` u003d **`null`**,
-?array `$options` u003d **`null`**
+?string `$passphrase` = **`null`**,
+?array `$options` = **`null`**
 ): bool
 
 **openssl_pkey_export_to_file()** записує `key` у форматі PEM у файл
@@ -51,6 +51,6 @@ openssl. Дивіться [openssl_csr_new()](function.openssl-csr-new.md) дл�
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509`. |
+| Версія | Опис                                                                                                                                                                                                                                          |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |

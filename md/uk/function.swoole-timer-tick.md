@@ -8,7 +8,7 @@
 
 # swoole_timer_tick
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_timer_tick — Викликати callback-функцію таймера тактів через
 певний проміжок часу
@@ -18,7 +18,7 @@ swoole_timer_tick — Викликати callback-функцію таймера 
 **swoole_timer_tick**(int `$ms`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param` u003d ?): int
+`$param` = ?): int
 
 ### Список параметрів
 

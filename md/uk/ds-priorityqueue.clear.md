@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::clear — Видаляє всі значення
 
@@ -29,7 +29,7 @@ public **Ds\PriorityQueue::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::clear()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);$queue->clear();print_r($queue);?> `
+` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);$queue->clear();print_r($queue);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

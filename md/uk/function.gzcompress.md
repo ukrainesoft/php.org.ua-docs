@@ -7,13 +7,13 @@
 
 # gzcompress
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 gzcompress — Стиснути рядок
 
 ### Опис
 
-**gzcompress**(string `$data`, int `$level` u003d -1, int `$encoding` u003d
+**gzcompress**(string `$data`, int `$level` = -1, int `$encoding` =
 **`ZLIB_ENCODING_DEFLATE`**): string\|false
 
 Ця функція стискає рядок, використовуючи формат даних `ZLIB`.
@@ -50,7 +50,7 @@ zlib за замовчуванням рівень стиснення дорів�
 
 **Приклад #1 Приклад використання **gzcompress()****
 
-` <?php$compressedu003du003dgzcompress('Сожми меня', 9);echo $compressed;?> `
+` <?php$compressed==gzcompress('Сожми меня', 9);echo $compressed;?> `
 
 ### Дивіться також
 

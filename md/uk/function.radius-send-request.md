@@ -7,7 +7,7 @@
 
 # radius_send_request
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_send_request — Надсилає запит і чекає відповіді
 

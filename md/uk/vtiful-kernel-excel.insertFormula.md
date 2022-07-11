@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::insertFormula
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::insertFormula — Вставити формулу розрахунку
 
@@ -37,4 +37,4 @@ string `$formula`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel u003d new \Vtiful\Kernel\Excel($config);$file u003d $excel->fileName("free.xlsx") ->header(['name', 'money']);for($index u003d 1; $index < 10; $index++) {    $file->insertText($index, 0, 'viest'); $file->insertText($index, 1, 10);}$file->insertText(12, 0, "Total");$file->insertFormula(12, 1, 'u003dSUM(B2:B11)') ; // вставити формулу$file->output(); `
+` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$file = $excel->fileName("free.xlsx") ->header(['name', 'money']);for($index = 1; $index < 10; $index++) {    $file->insertText($index, 0, 'viest'); $file->insertText($index, 1, 10);}$file->insertText(12, 0, "Total");$file->insertFormula(12, 1, '=SUM(B2:B11)') ; // вставити формулу$file->output(); `

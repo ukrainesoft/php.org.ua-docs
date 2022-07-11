@@ -54,7 +54,7 @@ mysql_free_result — Звільняє пам'ять від результату
 
 **Приклад #1 Приклад використання **mysql_free_result()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}/* Используем результат, подразумевая, что после этого он нам больше не нужен */$row u003d mysql_fetch_assoc($result);/* Теперь освобождаем результат и продолжаем дальнейшую работу над нашим скриптом */mysql_free_result($result);echo $row['id'];echo $row['email'];?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}/* Используем результат, подразумевая, что после этого он нам больше не нужен */$row = mysql_fetch_assoc($result);/* Теперь освобождаем результат и продолжаем дальнейшую работу над нашим скриптом */mysql_free_result($result);echo $row['id'];echo $row['email'];?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # PharFileInfo::getPharFlags
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::getPharFlags — Отримати прапори файлу в phar-архіві
 
@@ -30,7 +30,7 @@ public **PharFileInfo::getPharFlags**(): int
 
 **Приклад #1 Приклад використання **PharFileInfo::getPharFlags()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $fileu003du003d$p['myfile.txt']; var_dump($file->getPharFlags());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $file==$p['myfile.txt']; var_dump($file->getPharFlags());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

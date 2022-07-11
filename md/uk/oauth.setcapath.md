@@ -7,13 +7,13 @@
 
 # OAuth::setCAPath
 
-(PECL OAuth u003d 0.99.8)
+(PECL OAuth = 0.99.8)
 
 OAuth::setCAPath — Встановити CA для шляху та інформації
 
 ### Опис
 
-public **OAuth::setCAPath**(string `$ca_path` u003d ?, string `$ca_info` u003d
+public **OAuth::setCAPath**(string `$ca_path` = ?, string `$ca_info` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -39,9 +39,9 @@ CA інформації.
 
 ### Список змін
 
-| Версія           | Опис                                                                        |
-| ---------------- | --------------------------------------------------------------------------- |
-| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **`null`** замість **`false`**. |
+| Версія           | Опис                                                                    |
+| ---------------- | ----------------------------------------------------------------------- |
+| PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **null** замість **false**. |
 
 ### Дивіться також
 

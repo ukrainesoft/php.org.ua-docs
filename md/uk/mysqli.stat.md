@@ -47,13 +47,13 @@ public **mysqli::stat**(): string\|false
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
 "mysqli_connect_error());  exit();}printf ("Стан системи: %s
 ", $mysqli->stat());$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
 "mysqli_connect_error());  exit();}printf("Стан системи: %s
 ", mysqli_stat($link)); mysqli_close($link);?> `
 

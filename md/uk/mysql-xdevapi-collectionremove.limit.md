@@ -39,4 +39,4 @@ public **mysql_xdevapi\CollectionRemove::limit**(int `$rows`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionRemove::limit()****
 
-` <?php$res u003d $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)- >sort(['age desc', 'name asc'])->execute();?> `
+` <?php$res = $coll->remove('job in (\'Barista\', \'Programmatore\', \'Ballerino\', \'Programmatrice\')')->limit(5)- >sort(['age desc', 'name asc'])->execute();?> `

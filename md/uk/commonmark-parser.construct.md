@@ -7,13 +7,13 @@
 
 # CommonMark\Parser::\_\_construct
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Parser::\_\_construct — Розбір
 
 ### Опис
 
-public **CommonMark\Parser::\_\_construct**(int `$options` u003d ?)
+public **CommonMark\Parser::\_\_construct**(int `$options` = ?)
 
 **Увага**
 

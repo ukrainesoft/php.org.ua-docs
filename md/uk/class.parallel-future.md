@@ -16,7 +16,7 @@ Future представляє повертається або неперехоп
 
 **Приклад #1 Приклад, що показує Future як значення, що повертається**
 
-` <?php$runtime u003d new \parallel\Runtime;$future u003d $runtime->run(function(){    return "Світ";});printf("Привіт,%s
+` <?php$runtime = new \parallel\Runtime;$future = $runtime->run(function(){    return "Світ";});printf("Привіт,%s
 ", $future->value());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -28,7 +28,7 @@ Future представляє повертається або неперехоп
 
 **Приклад #2 Приклад, що показує Future як точку синхронізації**
 
-`<?php$runtime u003d new \parallel\Runtime;$future u003d $runtime->run(function(){    echo "в дочірньому потіку ";    for ($i u003d           ($i % 10 u003du003d 0) {            echo ".";        }    }     echo "до||||
+`<?php$runtime = new \parallel\Runtime;$future = $runtime->run(function(){    echo "в дочірньому потіку ";    for ($i =           ($i % 10 == 0) {            echo ".";        }    }     echo "до||||
 батьківський потік продовжує працювати
 ";?> `
 

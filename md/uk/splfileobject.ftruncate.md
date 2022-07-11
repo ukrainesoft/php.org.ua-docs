@@ -7,7 +7,7 @@
 
 # SplFileObject::ftruncate
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::ftruncate — Обрізає файл до заданої довжини
 
@@ -38,7 +38,7 @@ public **SplFileObject::ftruncate**(int `$size`): bool
 
 **Приклад #1 Приклад використання **SplFileObject::ftruncate()****
 
-`<?php// Створити файл, містить "Hello World!"$file u003d new SplFileObject("/tmp/ftruncate", "w+");$file->fwrite("Hello World!");// Обрізати до 5 байт$file->ftruncate(5);// Перемотання до початку файла і читання дані$file->rewind();echo $file->fgets();?> `
+`<?php// Створити файл, містить "Hello World!"$file = new SplFileObject("/tmp/ftruncate", "w+");$file->fwrite("Hello World!");// Обрізати до 5 байт$file->ftruncate(5);// Перемотання до початку файла і читання дані$file->rewind();echo $file->fgets();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

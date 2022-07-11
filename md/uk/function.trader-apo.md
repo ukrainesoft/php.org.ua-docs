@@ -7,7 +7,7 @@
 
 # trader_apo
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_apo — Абсолютний ціновий осцилятор
 
@@ -15,9 +15,9 @@ trader_apo — Абсолютний ціновий осцилятор
 
 **trader_apo**(
 array `$real`,
-int `$fastPeriod` u003d ?,
-int `$slowPeriod` u003d ?,
-int `$mAType` u003d ?
+int `$fastPeriod` = ?,
+int `$slowPeriod` = ?,
+int `$mAType` = ?
 ): array
 
 ### Список параметрів

@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\Manager::startSession
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Manager::startSession — Запуск нового клієнтського сеансу
 для використання з цим клієнтом
 
 ### Опис
 
-final public **MongoDB\Driver\Manager::startSession**(array `$options` u003d
+final public **MongoDB\Driver\Manager::startSession**(array `$options` =
 ?): [MongoDB\Driver\Session](class.mongodb-driver-session.md)
 
 Створює [MongoDB\Driver\Session](class.mongodb-driver-session.md) для
@@ -51,11 +51,11 @@ final public **MongoDB\Driver\Manager::startSession**(array `$options` u003d
 
 ### Список змін
 
-| Версія                                                                                    | Опис                        |
-| ----------------------------------------------------------------------------------------- | --------------------------- |
-| PECL mongodb 1.11.0                                                                       | Додано параметр `snapshot`. |
-| PECL mongodb 1.6.0 Параметр ``maxCommitTimeMS'` доданий до ``defaultTransactionOptions''. |                             |
-| PECL mongodb 1.5.0 Додана опція ``defaultTransactionOptions'`.                            |                             |
+| Версія                                                                               | Опис                      |
+| ------------------------------------------------------------------------------------ | ------------------------- |
+| PECL mongodb 1.11.0                                                                  | Додано параметр snapshot. |
+| PECL mongodb 1.6.0 Параметр maxCommitTimeMS' доданий до defaultTransactionOptions''. |                           | | | | |                            
+| PECL mongodb 1.5.0 Додана опція defaultTransactionOptions'.                          |                           | | | | |                            
 
 ### Дивіться також
 

@@ -23,7 +23,7 @@ mysql_fetch_field — Повертає інформацію про колонк�
 
 ### Опис
 
-**mysql_fetch_field**(resource `$result`, int `$field_offset` u003d 0):
+**mysql_fetch_field**(resource `$result`, int `$field_offset` = 0):
 object
 
 Повертає об'єкт, що містить інформацію про стовпчик. Цю функцію можна
@@ -65,8 +65,8 @@ object
 
 **Приклад #1 Приклад використання **mysql_fetch_field()****
 
-` <?php$conn u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$conn) {    die('Помилка при з'єднанні: ' . Mysql_error())'' ;$result u003d mysql_query('select * from table');if (!$result) {    die('Помилка в запиті: ' . mysql_error());}/* отримуємо дані о | ($i < mysql_num_fields($result)) {   echo "Інформація про колонку $i:<br />
-";   $meta u003d mysql_fetch_field($result, $i);    if (!$meta) {        echo "Інформація недоступна<br />
+` <?php$conn = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$conn) {    die('Помилка при з'єднанні: ' . Mysql_error())'' ;$result = mysql_query('select * from table');if (!$result) {    die('Помилка в запиті: ' . mysql_error());}/* отримуємо дані о | ($i < mysql_num_fields($result)) {   echo "Інформація про колонку $i:<br />
+";   $meta = mysql_fetch_field($result, $i);    if (!$meta) {        echo "Інформація недоступна<br />
 ";    }    echo "<pre>blob:         $meta->blobmax_length:   $meta->max_lengthmultiple_key: $meta->multiple_keyname:         $meta->namenot_null:     $meta->not_nullnumeric:      $meta->numericprimary_key:  $meta-> primary_keytable:        $meta->tabletype:         $meta->typeunique_key:   $meta->unique_keyunsigned:     $meta->unsignedzerofill:     $meta->zerofill</pre>";    $i++;}mysql_free_result($result);?> `
 
 ### Примітки

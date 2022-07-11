@@ -13,7 +13,7 @@ ReflectionClass::getProperties — Повертає властивості
 
 ### Опис
 
-public **ReflectionClass::getProperties**(?int `$filter` u003d **`null`**):
+public **ReflectionClass::getProperties**(?int `$filter` = **`null`**):
 array
 
 Повертає reflected (відбиті) властивості.
@@ -32,9 +32,9 @@ array
 
 ### Список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 7.2.0  | `filter` тепер припускає значення null. |
+| Версія | Опис                                  |
+| ------ | ------------------------------------- |
+| 7.2.0  | filter тепер припускає значення null. |
 
 ### Приклади
 
@@ -44,7 +44,7 @@ array
 У цьому прикладі демонструється використання параметра `filter`, який
 у разі не пропускає private (закриті) властивості.
 
-` <?phpclass Foo {    public    $foo  u003d 1; protected $ $ bar u003d u003d 2; private   $baz  u003d 3;}$foo u003d new Foo();$reflect u003d new ReflectionClass($foo);$props  u003d $reflect->getProperties(ReflectionProperty::IS_PU:| $prop) {    print $prop->getName() . "
+` <?phpclass Foo {    public    $foo  = 1; protected $ $ bar = = 2; private   $baz  = 3;}$foo = new Foo();$reflect = new ReflectionClass($foo);$props  = $reflect->getProperties(ReflectionProperty::IS_PU:| $prop) {    print $prop->getName() . "
 ";}var_dump($props);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -52,18 +52,18 @@ array
 foo
 bar
 array(2) {
-[0]u003d>
+[0]=>
 object(ReflectionProperty)#3 (2) {
-["name"]u003d>
+["name"]=>
 string(3) "foo"
-["class"]u003d>
+["class"]=>
 string(3) "Foo"
 }
-[1]u003d>
+[1]=>
 object(ReflectionProperty)#4 (2) {
-["name"]u003d>
+["name"]=>
 string(3) "bar"
-["class"]u003d>
+["class"]=>
 string(3) "Foo"
 }
 }

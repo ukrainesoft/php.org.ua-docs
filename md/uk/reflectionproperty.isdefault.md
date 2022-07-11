@@ -32,7 +32,7 @@ public **ReflectionProperty::isDefault**(): bool
 
 **Приклад #1 Приклад використання **ReflectionProperty::isDefault()****
 
-` <?phpclass Foo {    public $bar;}$o u003d new Foo();$o->bar u003d 42;$o->baz u003d 42;$ro u003d new ReflectionObject($o);var_dump >getProperty('bar')->isDefault());var_dump($ro->getProperty('baz')->isDefault());?> `
+` <?phpclass Foo {    public $bar;}$o = new Foo();$o->bar = 42;$o->baz = 42;$ro = new ReflectionObject($o);var_dump >getProperty('bar')->isDefault());var_dump($ro->getProperty('baz')->isDefault());?> `
 
 Результат виконання цього прикладу:
 

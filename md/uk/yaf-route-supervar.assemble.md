@@ -7,13 +7,13 @@
 
 # Yaf_Route_Supervar::assemble
 
-(Yaf \> u003d 2.3.0)
+(Yaf \> = 2.3.0)
 
 Yaf_Route_Supervar::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Supervar::assemble**(array `$info`, array `$query` u003d
+public **Yaf_Route_Supervar::assemble**(array `$info`, array `$query` =
 ?): string
 
 Збирає URL-адресу.
@@ -38,9 +38,9 @@ public **Yaf_Route_Supervar::assemble**(array `$info`, array `$query` u003d
 
 **Приклад #1 Приклад використання **Yaf_Route_Supervar::assemble()****
 
-` <?php$routeru003du003d new Yaf_Router();$route u003d new Yaf_Route_Supervar('r');$router->addRoute("supervar", $route);var_dump($router->getRoute(' >assemble(        array(              ':a' u003d> 'yafaction',              'tkey' u003d> 'tval',              ':c' u003d> 'yafcontroller',              ':m' u003d> 'yafmodule'        ),        array(              'tkey1' u003d> 'tval1',              'tkey2' u003d> 'tval2'        )));try {var_dump($router->getRoute('supervar')->assemble(        array(              ':a' u003d> 'yafaction',              'tkey ' u003d> 'tval',              ':m' u003d> 'yafmodule'        ),        array(              'tkey1' u003d> 'tval1',              'tkey2' u003d> 'tval2',              1 u003d> array(),        )));} catch (Exception $e) {    var_dump($e->getMessage());} `
+` <?php$router== new Yaf_Router();$route = new Yaf_Route_Supervar('r');$router->addRoute("supervar", $route);var_dump($router->getRoute(' >assemble(        array(              ':a' => 'yafaction',              'tkey' => 'tval',              ':c' => 'yafcontroller',              ':m' => 'yafmodule'        ),        array(              'tkey1' => 'tval1',              'tkey2' => 'tval2'        )));try {var_dump($router->getRoute('supervar')->assemble(        array(              ':a' => 'yafaction',              'tkey ' => 'tval',              ':m' => 'yafmodule'        ),        array(              'tkey1' => 'tval1',              'tkey2' => 'tval2',              1 => array(),        )));} catch (Exception $e) {    var_dump($e->getMessage());} `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(%d) "?ru003d/yafmodule/yafcontroller/yafaction&tkey1u003dtval1&tkey2u003dtval2"
+string(%d) "?r=/yafmodule/yafcontroller/yafaction&tkey1=tval1&tkey2=tval2"
 string(%d) "Ви потребуєте відповідь на контролері ':c'"

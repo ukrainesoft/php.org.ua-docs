@@ -7,7 +7,7 @@
 
 # mqseries_strerror
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_strerror — Отримати повідомлення про помилку, яке відповідає її
 коду (MQRC)
@@ -32,7 +32,7 @@ mqseries_strerror — Отримати повідомлення про поми�
 
 **Приклад #1 Приклад використання **mqseries_strerror()****
 
-` <?php   if ($comp_code !u003du003d MQSERIES_MQCC_OK) {        printf("open CompCode:%d Reason:%d Text:%s<br>
+` <?php   if ($comp_code !== MQSERIES_MQCC_OK) {        printf("open CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
 
 Результат виконання цього прикладу:

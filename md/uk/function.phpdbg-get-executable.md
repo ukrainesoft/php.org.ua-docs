@@ -13,7 +13,7 @@ phpdbg_get_executable
 
 ### Опис
 
-**phpdbg_get_executable**(array `$options` u003d []): array
+**phpdbg_get_executable**(array `$options` = []): array
 
 **Увага**
 

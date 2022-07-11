@@ -8,7 +8,7 @@ PCRE
 
 # preg_last_error
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 preg_last_error — Повертає код помилки виконання останнього
 регулярного вираження PCRE
@@ -21,7 +21,7 @@ preg_last_error — Повертає код помилки виконання о
 
 **Приклад #1 Приклад використання **preg_last_error()****
 
-`<?phppreg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');if (preg_last_error() u003du003d PREG_BACKTRACK_LIMIT_ERROR)тих і      !';}?> `
+`<?phppreg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');if (preg_last_error() == PREG_BACKTRACK_LIMIT_ERROR)тих і      !';}?> `
 
 Результат виконання цього прикладу:
 

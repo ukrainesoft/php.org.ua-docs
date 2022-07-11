@@ -7,14 +7,14 @@
 
 # Swoole\Serialize::pack
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Serialize::pack — Серіалізувати дані
 
 ### Опис
 
 public static **Swoole\Serialize::pack**(string `$data`, int `$is_fast`
-u003d?): ReturnType
+=?): ReturnType
 
 Swoolle забезпечує швидкий та високопродуктивний модуль
 серіалізації.

@@ -72,7 +72,7 @@ Composer створить кілька файлів: `composer.json`, `composer.
 
 Приклад, як вставити документ до колекції *beers* бази даних *demo*:
 
-`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client u003d new MongoDB\Client("mongodb://localhost:27017");$collection u003d $client->demo->beers;$result u003d $collection->insertOne'' u003d> 'Hinterland', 'brewery' u003d> 'BrewDog' ] );echo "Ідентифікатор вставленого документу '{$result->getInsertedId()}'";?> `
+`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client = new MongoDB\Client("mongodb://localhost:27017");$collection = $client->demo->beers;$result = $collection->insertOne'' => 'Hinterland', 'brewery' => 'BrewDog' ] );echo "Ідентифікатор вставленого документу '{$result->getInsertedId()}'";?> `
 
 Замість ін'єкції згенерованого поля `_id` у вхідний документ (як
 це робилося в старих версіях драйвера), тепер можна це робити з
@@ -82,7 +82,7 @@ Composer створить кілька файлів: `composer.json`, `composer.
 дані. Для цього використовуйте метод find, який повертає
 курсор, що ітерується:
 
-`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client u003d new MongoDB\Client("mongodb://localhost:27017");$collection u003d $client->demo->beers;$result u003d $collection->find(' ' u003d> 'Hinterland', 'brewery' u003d> 'BrewDog' ] );foreach ($result as $entry) {    echo $entry['_id'], ': ', $entry['name'], '
+`<?phprequire 'vendor/autoload.php'; // підключаємо автопідвантажувач класів Composer$client = new MongoDB\Client("mongodb://localhost:27017");$collection = $client->demo->beers;$result = $collection->find(' ' => 'Hinterland', 'brewery' => 'BrewDog' ] );foreach ($result as $entry) {    echo $entry['_id'], ': ', $entry['name'], '
 ";}?> `
 
 Хоч із прикладу це і не очевидно, але документи BSON та масиви

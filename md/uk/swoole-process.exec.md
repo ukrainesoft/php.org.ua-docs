@@ -7,7 +7,7 @@
 
 # Swoole\Process::exec
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::exec — Виконує системні команди
 

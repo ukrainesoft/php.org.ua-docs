@@ -7,7 +7,7 @@
 
 # RecursiveTreeIterator::getEntry
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::getEntry — Отримання піддерева, корінням якого
 є поточний елемент

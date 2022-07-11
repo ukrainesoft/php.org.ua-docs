@@ -8,7 +8,7 @@
 
 # mysql_real_escape_string
 
-(PHP 4 u003d 4.3.0, PHP 5)
+(PHP 4 = 4.3.0, PHP 5)
 
 mysql_real_escape_string — Екранує спеціальні символи у рядках для
 використання у виразах SQL
@@ -25,7 +25,7 @@ mysql_real_escape_string — Екранує спеціальні символи 
 ### Опис
 
 **mysql_real_escape_string**(string `$unescaped_string`, resource
-`$link_identifier` u003d NULL): string
+`$link_identifier` = NULL): string
 
 Екранує спеціальні символи на `unescaped_string`, приймаючи в
 увагу кодування з'єднання, таким чином, що результат можна
@@ -82,7 +82,7 @@ mysql_real_escape_string, яка додає зворотну косу межу �
 **Приклад #1 Простий приклад використання
 **mysql_real_escape_string()****
 
-` <?php// З'єднання$link u003d mysql_connect('mysql_host', 'mysql_user', 'mysql_password')    OR die(mysql_error());// Запит$query u003d sprintf("SELECT *  s' AND passwordu003d'%s'",             mysql_real_escape_string($user),            mysql_real_escape_string($password));?> `
+` <?php// З'єднання$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')    OR die(mysql_error());// Запит$query = sprintf("SELECT *  s' AND password='%s'",             mysql_real_escape_string($user),            mysql_real_escape_string($password));?> `
 
 **Приклад #2 Приклад використання **mysql_real_escape_string()** без
 наявності з'єднання**
@@ -90,7 +90,7 @@ mysql_real_escape_string, яка додає зворотну косу межу �
 Цей приклад показує, що станеться, якщо викликати цю функцію без
 наявності з'єднання з MySQL.
 
-` <?php// Коннекту к MySQL немає$lastname u003du003d "O'Reilly";$_lastname u003d mysql_real_escape_string($lastname);$query u003d "SELECT **FROM actors WHE$| ;var_dump($query);?> `
+` <?php// Коннекту к MySQL немає$lastname == "O'Reilly";$_lastname = mysql_real_escape_string($lastname);$query = "SELECT **FROM actors WHE$| ;var_dump($query);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -98,15 +98,15 @@ Warning: mysql_real_escape_string(): Немає такого файлу або d
 Warning: mysql_real_escape_string(): На link to the server could not established in /this/test/script.php on line 5
 
 bool(false)
-string(41) "SELECT * FROM actors WHERE last_name u003d ''"
+string(41) "SELECT * FROM actors WHERE last_name = ''"
 
 **Приклад #3 Приклад злому з використанням SQL-ін'єкції**
 
-` <?php// Ми ні не перевірили змінну $_POST['password'],// а вона може містити зовсім не то, що ми очікали. Наприклад:$_POST['username'] u003d 'aidan';$_POST['password'] u003d "' OR ''u003d'";// посилаємо запит, щоб перевірити ім'я і пароль користувача$query u003d " WHERE useru003d'{$_POST['username']}' AND passwordu003d'{$_POST['password']}'";mysql_query($query); ;?> `
+` <?php// Ми ні не перевірили змінну $_POST['password'],// а вона може містити зовсім не то, що ми очікали. Наприклад:$_POST['username'] = 'aidan';$_POST['password'] = "' OR ''='";// посилаємо запит, щоб перевірити ім'я і пароль користувача$query = " WHERE user='{$_POST['username']}' AND password='{$_POST['password']}'";mysql_query($query); ;?> `
 
 Запит, який буде надіслано MySQL:
 
-SELECT * FROM users WHERE useru003d'aidan' AND passwordu003d'' OR ''u003d''
+SELECT * FROM users WHERE user='aidan' AND password='' OR ''=''
 
 Це дозволить будь-кому увійти в систему без пароля.
 

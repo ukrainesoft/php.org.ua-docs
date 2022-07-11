@@ -7,7 +7,7 @@
 
 # disk_total_space
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 disk_total_space — Повертає загальний розмір файлової системи або розділу
 диска
@@ -33,7 +33,7 @@ disk_total_space — Повертає загальний розмір файло
 
 **Приклад #1 Приклад використання **disk_total_space()****
 
-` <?php// $df містить загальний розмір диска "/" в байтах$ds u003d disk_total_space("/");// В Windows:$ds u003d disk_total_space("C:");$ds u003d :");?> `
+` <?php// $df містить загальний розмір диска "/" в байтах$ds = disk_total_space("/");// В Windows:$ds = disk_total_space("C:");$ds = :");?> `
 
 ### Примітки
 

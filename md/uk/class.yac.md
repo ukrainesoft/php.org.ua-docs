@@ -7,7 +7,7 @@
 
 # Клас Yac
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 ## Вступ
 
@@ -21,15 +21,15 @@ protected `$_prefix`;
 
 /\* Методи \*/
 
-public [\_\_construct](yac.construct.md)(string `$prefix` u003d "")
+public [\_\_construct](yac.construct.md)(string `$prefix` = "")
 
 public [add](yac.add.md)(string `$keys`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` u003d 0): bool
+`$value`, int `$ttl` = 0): bool
 
 public [add](yac.add.md)(array `$key_vals`): bool
 
-public [delete](yac.delete.md)(string\|array `$keys`, int `$ttl` u003d ?):
+public [delete](yac.delete.md)(string\|array `$keys`, int `$ttl` = ?):
 bool
 
 public [dump](yac.dump.md)(int `$$num`):
@@ -37,7 +37,7 @@ public [dump](yac.dump.md)(int `$$num`):
 
 public [flush](yac.flush.md)(): bool
 
-public [get](yac.get.md)(string\|array `$key`, int `&$cas` u003d
+public [get](yac.get.md)(string\|array `$key`, int `&$cas` =
 **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -48,7 +48,7 @@ public [info](yac.info.md)(): array
 
 public [set](yac.set.md)(string `$keys`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` u003d 0): bool
+`$value`, int `$ttl` = 0): bool
 
 public [add](yac.add.md)(array `$key_vals`): bool
 

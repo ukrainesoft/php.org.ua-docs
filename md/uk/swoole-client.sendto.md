@@ -7,7 +7,7 @@
 
 # Swoole\Client::sendto
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::sendto — Надсилає дані на віддалену UDP-адресу
 

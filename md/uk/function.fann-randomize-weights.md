@@ -8,7 +8,7 @@ max_weight
 
 # fann_randomize_weights
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_randomize_weights — надає кожному з'єднанню випадкову вагу
 між min_weight та max_weight

@@ -7,7 +7,7 @@
 
 # trader_stoch
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_stoch - Стохастичний осцилятор
 
@@ -17,11 +17,11 @@ trader_stoch - Стохастичний осцилятор
 array `$high`,
 array `$low`,
 array `$close`,
-int `$fastK_Period` u003d ?,
-int `$slowK_Period` u003d ?,
-int `$slowK_MAType` u003d ?,
-int `$slowD_Period` u003d ?,
-int `$slowD_MAType` u003d ?
+int `$fastK_Period` = ?,
+int `$slowK_Period` = ?,
+int `$slowK_MAType` = ?,
+int `$slowD_Period` = ?,
+int `$slowD_MAType` = ?
 ): array
 
 ### Список параметрів

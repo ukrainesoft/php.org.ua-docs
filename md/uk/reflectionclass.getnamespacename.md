@@ -7,7 +7,7 @@
 
 # ReflectionClass::getNamespaceName
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ReflectionClass::getNamespaceName — Повертає назву простору
 імен
@@ -31,7 +31,7 @@ public **ReflectionClass::getNamespaceName**(): string
 **Приклад #1 Приклад використання
 **ReflectionClass::getNamespaceName()****
 
-` <?phpnamespace A\B;class Foo { }$class u003d new \ReflectionClass('stdClass');var_dump($class->inNamespace());var_dump($class->getName());var_dump($class ->getNamespaceName());var_dump($class->getShortName());$class u003d new \ReflectionClass('A\B\Foo');var_dump($class->inNamespace());var_dump($class- >getName());var_dump($class->getNamespaceName());var_dump($class->getShortName());?> `
+` <?phpnamespace A\B;class Foo { }$class = new \ReflectionClass('stdClass');var_dump($class->inNamespace());var_dump($class->getName());var_dump($class ->getNamespaceName());var_dump($class->getShortName());$class = new \ReflectionClass('A\B\Foo');var_dump($class->inNamespace());var_dump($class- >getName());var_dump($class->getNamespaceName());var_dump($class->getShortName());?> `
 
 Результат виконання цього прикладу:
 

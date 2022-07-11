@@ -7,7 +7,7 @@
 
 # EvStat::stat
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvStat::stat — Ініціює виклик статистики
 

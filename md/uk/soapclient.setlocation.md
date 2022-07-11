@@ -7,14 +7,14 @@
 
 # SoapClient::\_\_setLocation
 
-(PHP 5 \>u003d 5.0.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.4, PHP 7, PHP 8)
 
 SoapClient::\_\_setLocation — Встановлює адресу використовуваної
 веб-служби
 
 ### Опис
 
-public **SoapClient::\_\_setLocation**(?string `$location` u003d
+public **SoapClient::\_\_setLocation**(?string `$location` =
 **`null`**): ?string
 
 Встановлює URL кінцевої точки, що зачіпає наступні
@@ -37,15 +37,15 @@ SOAP-запити. Еквівалентна настройці `location`, що 
 
 ### Список змін
 
-| Версія | Опис                                     |
-| ------ | ---------------------------------------- |
-| 8.0.3  | `location` тепер допускає значення null. |
+| Версія | Опис                                   |
+| ------ | -------------------------------------- |
+| 8.0.3  | location тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SoapClient::\_\_setLocation()****
 
-` <?php$client u003d new SoapClient('http://example.com/webservice.php?wsdl');$client->__setLocation('http://www.somethirdparty.com');$old_location u003d $ client->__setLocation(); // скидає налаштування адресаecho $old_location;?> `
+` <?php$client = new SoapClient('http://example.com/webservice.php?wsdl');$client->__setLocation('http://www.somethirdparty.com');$old_location = $ client->__setLocation(); // скидає налаштування адресаecho $old_location;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

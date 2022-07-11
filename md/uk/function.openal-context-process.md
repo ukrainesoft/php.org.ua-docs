@@ -7,7 +7,7 @@
 
 #openal_context_process
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_context_process — Обробити вказаний контекст
 

@@ -41,7 +41,7 @@ Imagick був скомпілюваний з версією ImageMagick 6.5.7 а
 
 **Приклад #1 Приклад використання **Imagick::setImageArtifact()****
 
-` <?phpfunction setImageArtifact() {    $src1 u003d new \Imagick(realpath("./images/artifact/source1.png")); $src2 u003d new \Imagick(realpath("./images/artifact/source2.png")); $src2->setImageVirtualPixelMethod(\Imagick::VIRTUALPIXELMETHOD_TRANSPARENT); $src2->setImageArtifact('compose:args', "1,0,-0.5,0.5"); $src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0); $src1->setImageFormat('png'); header("Content-Type: image/png"); echo $src1->getImagesBlob();}?> `
+` <?phpfunction setImageArtifact() {    $src1 = new \Imagick(realpath("./images/artifact/source1.png")); $src2 = new \Imagick(realpath("./images/artifact/source2.png")); $src2->setImageVirtualPixelMethod(\Imagick::VIRTUALPIXELMETHOD_TRANSPARENT); $src2->setImageArtifact('compose:args', "1,0,-0.5,0.5"); $src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0); $src1->setImageFormat('png'); header("Content-Type: image/png"); echo $src1->getImagesBlob();}?> `
 
 ### Дивіться також
 

@@ -39,15 +39,15 @@ array_shift — Витягує перший елемент масиву
 
 **Приклад #1 Приклад використання **array_shift()****
 
-` <?php$stack u003d array("orange", "banana", "apple", "raspberry");$fruit u003d array_shift($stack);print_r($stack);?> `
+` <?php$stack = array("orange", "banana", "apple", "raspberry");$fruit = array_shift($stack);print_r($stack);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> banana
-[1] u003d> apple
-[2] u003d> raspberry
+[0] => banana
+[1] => apple
+[2] => raspberry
 )
 
 і значення `orange` буде присвоєно змінній `$fruit`.

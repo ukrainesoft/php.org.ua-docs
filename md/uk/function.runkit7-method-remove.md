@@ -7,7 +7,7 @@
 
 # runkit7_method_remove
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_method_remove - Динамічно видаляє заданий метод
 

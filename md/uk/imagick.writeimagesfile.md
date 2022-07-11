@@ -7,14 +7,14 @@
 
 # Imagick::writeImagesFile
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::writeImagesFile — Записує кадри у файловий дескриптор
 
 ### Опис
 
 public **Imagick::writeImagesFile**(resource `$filehandle`, string
-`$format` u003d ?): bool
+`$format` = ?): bool
 
 Записує всі кадри зображення у відкритий дескриптор файлу. Метод
 можна використовувати для запису анімованих GIF-файлів або інших

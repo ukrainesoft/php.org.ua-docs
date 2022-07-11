@@ -7,7 +7,7 @@
 
 # yaml_parse_url
 
-(PECL yaml \>u003d 0.4.0)
+(PECL yaml \>= 0.4.0)
 
 yaml_parse_url - Розбирає YAML-потік з URL
 
@@ -15,9 +15,9 @@ yaml_parse_url - Розбирає YAML-потік з URL
 
 **yaml_parse_url**(
 string `$url`,
-int `$pos` u003d 0,
-int `&$ndocs` u003d ?,
-array `$callbacks` u003d **`null`**
+int `$pos` = 0,
+int `&$ndocs` = ?,
+array `$callbacks` = **`null`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

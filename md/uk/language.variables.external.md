@@ -16,10 +16,10 @@
 **Приклад #1 Проста HTML-форма**
 
 ```htmlcode
-<form actionu003d"foo.php" methodu003d"post">
-Ім'я: <input typeu003d"text" nameu003d"username" /><br />
-Email: <input typeu003d"text" nameu003d"email" /><br />
-<input typeu003d"submit" nameu003d"submit" valueu003d"Відправь мене!" />
+<form action="foo.php" method="post">
+Ім'я: <input type="text" name="username" /><br />
+Email: <input type="text" name="email" /><br />
+<input type="submit" name="submit" value="Відправь мене!" />
 </form>
 ````
 
@@ -34,13 +34,13 @@ POST**
 GET-форма використовується аналогічно, за винятком того, що замість POST,
 вам потрібно буде використати відповідну певну змінну
 GET. GET відноситься також до `QUERY_STRING` (інформація в URL після '?').
-Так, наприклад, `http://www.example.com/test.php?idu003d3` містить
+Так, наприклад, `http://www.example.com/test.php?id=3` містить
 GET-дані, доступні як `$_GET['id']`. Дивіться також $_REQUEST.
 
 > **Примітка**:
 >
 > Точки та прогалини в іменах змінних перетворюється на знаки
-> підкреслення. Наприклад, `<input nameu003d"a.b" />` стане
+> підкреслення. Наприклад, `<input name="a.b" />` стане
 > `$_REQUEST["a_b"]`.
 
 PHP також розуміє масиви у контексті змінних форми (дивіться
@@ -52,11 +52,11 @@ PHP також розуміє масиви у контексті змінних 
 
 **Приклад #3 Більш складні змінні форми**
 
-` <?phpif ($_POST) {    echo '<pre>'; echo htmlspecialchars(print_r($_POST, true)); echo '</pre>';}?><form actionu003d"" methodu003d"post">    Ім'я:  <input typeu003d"text" nameu003d"personal[name]" /><br />    Email: <input typeu003d"text" nameu003d"personal[email]" /><br />    Пиво: <br />    <select multiple nameu003d"beer[]">         <option  option valueu003d"guinness">Guinness</option>        <option valueu003d"stuttgarter">Stuttgarter Schwabenbräu</option>    </select><br />     | /></form>`
+` <?phpif ($_POST) {    echo '<pre>'; echo htmlspecialchars(print_r($_POST, true)); echo '</pre>';}?><form action="" method="post">    Ім'я:  <input type="text" name="personal[name]" /><br />    Email: <input type="text" name="personal[email]" /><br />    Пиво: <br />    <select multiple name="beer[]">         <option  option value="guinness">Guinness</option>        <option value="stuttgarter">Stuttgarter Schwabenbräu</option>    </select><br />     | /></form>`
 
 > **Примітка**: Якщо зовнішнє ім'я змінної починається з коректного
 > синтаксису масиву, що завершують символи мовчки ігноруються. Наприклад,
-> `<input nameu003d"foo[bar]baz">` стане `$_REQUEST['foo']['bar']`.
+> `<input name="foo[bar]baz">` стане `$_REQUEST['foo']['bar']`.
 
 #### Імена змінних кнопки-зображення
 
@@ -64,7 +64,7 @@ PHP також розуміє масиви у контексті змінних 
 зображення за допомогою тега такого вигляду:
 
 ```htmlcode
-<input typeu003d"image" srcu003d"image.gif" nameu003d"sub" />
+<input type="image" src="image.gif" name="sub" />
 ````
 
 Коли користувач клацне десь на зображенні, відповідна
@@ -111,7 +111,7 @@ PHP прозоро підтримує HTTP cookies як визначено в [�
 **Приклад #4 Приклад використання
 [setcookie()](function.setcookie.md)**
 
-` <?phpif (isset($_COOKIE['count'])) {   $count u003d $_COOKIE['count'] + 1;} else {   $count u003d 1;}setcookie('count' )+3600);setcookie("Cart[$count]", $item, time()+3600);?> `
+` <?phpif (isset($_COOKIE['count'])) {   $count = $_COOKIE['count'] + 1;} else {   $count = 1;}setcookie('count' )+3600);setcookie("Cart[$count]", $item, time()+3600);?> `
 
 ### Точки в іменах змінних, що приходять
 
@@ -149,7 +149,7 @@ HTTP є текстовим протоколом, і більшість, якщо
 певний тип. У наведеному нижче прикладі `$_GET["var1"]` буде
 містити рядок "null", а `$_GET["var2"]` - рядок "123".
 
-/index.php?var1u003dnull&var2u003d123
+/index.php?var1=null&var2=123
 
 ### Список змін
 

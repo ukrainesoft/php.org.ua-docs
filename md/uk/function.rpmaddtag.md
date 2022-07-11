@@ -7,7 +7,7 @@
 
 #rpmaddtag
 
-(PECL rpminfo \>u003d 0.5.0)
+(PECL rpminfo \>= 0.5.0)
 
 rpmaddtag — Додає тег, отриманий у запиті
 

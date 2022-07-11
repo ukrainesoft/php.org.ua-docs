@@ -7,7 +7,7 @@
 
 # Ds\Stack::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::toArray — Перетворює колекцію на масив (array)
 
@@ -34,15 +34,15 @@ public **Ds\Stack::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Stack::toArray()****
 
-` <?php$stack u003d new \Ds\Stack([1, 2, 3]);var_dump($stack->toArray());?> `
+` <?php$stack = new \Ds\Stack([1, 2, 3]);var_dump($stack->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(3)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(1)
 }

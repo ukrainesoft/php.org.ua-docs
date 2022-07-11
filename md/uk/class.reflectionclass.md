@@ -19,11 +19,11 @@ class **ReflectionClass** implements [Reflector](class.reflector.md) {
 
 /\* Константи \*/
 
-const int `IS_IMPLICIT_ABSTRACT` u003d 16;
+const int `IS_IMPLICIT_ABSTRACT` = 16;
 
-const int `IS_EXPLICIT_ABSTRACT` u003d 32;
+const int `IS_EXPLICIT_ABSTRACT` = 32;
 
-const int `IS_FINAL` u003d 64;
+const int `IS_FINAL` = 64;
 
 /\* Властивості \*/
 
@@ -36,16 +36,16 @@ public [\_\_construct](reflectionclass.construct.md)(object\|string
 
 public static
 [export](reflectionclass.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$argument`, bool `$return` u003d **`false`**): string
+`$argument`, bool `$return` = **`false`**): string
 
 public [getAttributes](reflectionclass.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public [getConstant](reflectionclass.getconstant.md)(string `$name`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getConstants](reflectionclass.getconstants.md)(?int `$filter`
-u003d **`null`**): array
+= **`null`**): array
 
 public [getConstructor](reflectionclass.getconstructor.md)():
 ?[ReflectionMethod](class.reflectionmethod.md)
@@ -75,7 +75,7 @@ public [getInterfaces](reflectionclass.getinterfaces.md)(): array
 public [getMethod](reflectionclass.getmethod.md)(string `$name`):
 [ReflectionMethod](class.reflectionmethod.md)
 
-public [getMethods](reflectionclass.getmethods.md)(?int `$filter` u003d
+public [getMethods](reflectionclass.getmethods.md)(?int `$filter` =
 **`null`**): array
 
 public [getModifiers](reflectionclass.getmodifiers.md)(): int
@@ -89,7 +89,7 @@ public [getParentClass](reflectionclass.getparentclass.md)():
 [ReflectionClass](class.reflectionclass.md)\|false
 
 public [getProperties](reflectionclass.getproperties.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public [getProperty](reflectionclass.getproperty.md)(string `$name`):
 [ReflectionProperty](class.reflectionproperty.md)
@@ -101,7 +101,7 @@ public
 
 public
 [getReflectionConstants](reflectionclass.getreflectionconstants.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public [getShortName](reflectionclass.getshortname.md)(): string
 
@@ -115,7 +115,7 @@ public
 [getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)(string
 `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$def_value` u003d ?):
+`&$def_value` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getTraitAliases](reflectionclass.gettraitaliases.md)(): array
@@ -172,7 +172,7 @@ public
 `...$args`): object
 
 public [newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` u003d []): ?object
+`$args` = []): ?object
 
 public [newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
 object

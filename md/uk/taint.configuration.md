@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                             | Місце зміни | Список змін    |
 | ----------------------------------------------------------------- | ----------- | -------------- |
-| [taint.enable](taint.configuration.md#ini.taint.enable)           | 0           | PHP_INI_SYSTEM | 
-| [taint.error_level](taint.configuration.md#ini.taint.error-level) | E_WARNING   | PHP_INI_ALL    | 
+| [taint.enable](taint.configuration.md#ini.taint.enable)           | 0           | PHP_INI_SYSTEM |
+| [taint.error_level](taint.configuration.md#ini.taint.error-level) | E_WARNING   | PHP_INI_ALL    |
 
 **Опції налаштування Taint**
 

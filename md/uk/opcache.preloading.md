@@ -37,7 +37,7 @@ opcache. Для початку, налаштуйте
 `php.ini`:
 
 `` inicode
-opcache.preloadu003dpreload.php
+opcache.preload=preload.php
 ````
 
 `preload.php` - це обов'язковий файл, який буде запущено один раз
@@ -57,7 +57,7 @@ opcache.preloadu003dpreload.php
 завантажений у постійну пам'ять. У наступному прикладі, будуть завантажені всі
 файли `.php` у директорії `src`, якщо вони не містять `Test` в імені.
 
-` <?php$directory u003d new RecursiveDirectoryIterator(__DIR__ . '/src');$fullTreeu003d new RecursiveIteratorIterator($directory);$phpFiles u003d new RegexIterator($f<' .php$)/i', RecursiveRegexIterator::GET_MATCH);foreach ($phpFiles as $key u003d> $file) {   require_once($file[0]);}?> `
+` <?php$directory = new RecursiveDirectoryIterator(__DIR__ . '/src');$fullTree= new RecursiveIteratorIterator($directory);$phpFiles = new RegexIterator($f<' .php$)/i', RecursiveRegexIterator::GET_MATCH);foreach ($phpFiles as $key => $file) {   require_once($file[0]);}?> `
  І [include](function.include.md) та
 [opcache_compile_file()](function.opcache-compile-file.md) будуть
 працювати, але при цьому будуть трохи по-різному оброблені.

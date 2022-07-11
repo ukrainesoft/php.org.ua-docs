@@ -35,7 +35,7 @@ stripslashes — Видалення екранування символів
 
 **Приклад #1 Приклад використання **stripslashes()****
 
-` <?php$str u003d"Ваc звуть O\'reilly?";// виводить: Вас звуть O'reilly?echo stripslashes($str);?> `
+` <?php$str ="Ваc звуть O\'reilly?";// виводить: Вас звуть O'reilly?echo stripslashes($str);?> `
 
 > **Примітка**:
 >
@@ -45,18 +45,18 @@ stripslashes — Видалення екранування символів
 
 **Приклад #2 Використання **stripslashes()** з масивом**
 
-` <?phpfunction stripslashes_deep($value){   $value u003d is_array($value) ? array_map('stripslashes_deep', $value) :                stripslashes($value); return $value;}// Приклад$array u003d array("f\'oo", "b\'ar", array("fo\'o", "b\'ar"));$array u003d stripslashes_deep( $array);// Висновокprint_r($array);?> `
+` <?phpfunction stripslashes_deep($value){   $value = is_array($value) ? array_map('stripslashes_deep', $value) :                stripslashes($value); return $value;}// Приклад$array = array("f\'oo", "b\'ar", array("fo\'o", "b\'ar"));$array = stripslashes_deep( $array);// Висновокprint_r($array);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> f'oo
-[1] u003d> b'ar
-[2] u003d> Array
+[0] => f'oo
+[1] => b'ar
+[2] => Array
 (
-[0] u003d> fo'o
-[1] u003d> b'ar
+[0] => fo'o
+[1] => b'ar
 )
 
 )

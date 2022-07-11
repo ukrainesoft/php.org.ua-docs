@@ -43,7 +43,7 @@ end - Встановлює внутрішній покажчик масиву н
 
 **Приклад #1 Приклад використання **end()****
 
-` <?php$fruits u003d array('apple', 'banana', 'cranberry');echo end($fruits); // cranberry?> `
+` <?php$fruits = array('apple', 'banana', 'cranberry');echo end($fruits); // cranberry?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # ReflectionReference::getId
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 ReflectionReference::getId — Отримати унікальний ідентифікатор посилання
 
@@ -31,7 +31,7 @@ public **ReflectionReference::getId**(): string
 
 **Приклад #1 Просте використання **ReflectionReference::getId()****
 
-` <?php$val1 u003d 'foo';$val2 u003d 'bar';$arr u003d [&$val1, &$val2, &$val1];$rr1 u003d ReflectionReference::fromArrayElement($arr, 0);$ rr2 u003dReflectionReference::fromArrayElement($arr, 1);$rr3 u003dReflectionReference::fromArrayElement($arr, 2);var_dump($rr1->getId() u003du003du003d $rr2->getId() $rr1->getId() u003du003du003d $rr3->getId());?> `
+` <?php$val1 = 'foo';$val2 = 'bar';$arr = [&$val1, &$val2, &$val1];$rr1 = ReflectionReference::fromArrayElement($arr, 0);$ rr2 =ReflectionReference::fromArrayElement($arr, 1);$rr3 =ReflectionReference::fromArrayElement($arr, 2);var_dump($rr1->getId() === $rr2->getId() $rr1->getId() === $rr3->getId());?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 #ps_include_file
 
-(PECL ps \>u003d 1.3.4)
+(PECL ps \>= 1.3.4)
 
 ps_include_file — Читає зовнішній файл із необробленим кодом PostScript
 

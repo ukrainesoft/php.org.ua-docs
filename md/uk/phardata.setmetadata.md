@@ -50,12 +50,12 @@ phar-архіву.
 **Приклад #1 Приклад використання
 [Phar::setMetadata()](phar.setmetadata.md)**
 
-`<?php// удаляємо, на всякий випадок@unlink('brandnewphar.phar');try {   $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.php'] u003d '<?php echo "hello"'; $p->setMetadata(array('bootstrap' u003d> 'file.php')); var_dump($p->getMetadata());} catch (Exception $e) {    echo 'Не удалося створити і/або змінити phar:', $e;}?> `
+`<?php// удаляємо, на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.php'] = '<?php echo "hello"'; $p->setMetadata(array('bootstrap' => 'file.php')); var_dump($p->getMetadata());} catch (Exception $e) {    echo 'Не удалося створити і/або змінити phar:', $e;}?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["bootstrap"]u003d>
+["bootstrap"]=>
 string(8) "file.php"
 }
 

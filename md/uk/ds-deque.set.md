@@ -7,7 +7,7 @@
 
 # Ds\Deque::set
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::set — Замінює значення за вказаним індексом
 
@@ -41,27 +41,27 @@ public **Ds\Deque::set**(int `$index`,
 
 **Приклад #1 Приклад використання **Ds\Deque::set()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);$deque->set(1, "_");print_r($deque);?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);$deque->set(1, "_");print_r($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )
 
 **Приклад #2 Приклад використання **Ds\Deque::set()** із синтаксисом
 масиву**
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);$deque[1] u003d "_";print_r($deque);?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);$deque[1] = "_";print_r($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )

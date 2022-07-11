@@ -9,7 +9,7 @@
 
 #numfmt_format_currency
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::formatCurrency - numfmt_format_currency - Форматує
 значення валюти
@@ -48,17 +48,17 @@ public **NumberFormatter::formatCurrency**(float `$amount`, string
 
 **Приклад #1 Приклад використання **numfmt_format_currency()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::CURRENCY );echo numfmt_format_currency($fmt, 1234567.89123456789000,
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::CURRENCY );echo numfmt_format_currency($fmt, 1234567.89123456789000,
 ";echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."
-";$fmt u003dnumfmt_create( 'ru_RU', NumberFormatter::CURRENCY );echo numfmt_format_currency($fmt, 1234567.891234567890000, ""
+";$fmt =numfmt_create( 'ru_RU', NumberFormatter::CURRENCY );echo numfmt_format_currency($fmt, 1234567.891234567890000, ""
 ";echo numfmt_format_currency($fmt, 1234567.891234567890000, "RUR")."
 ";?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );echo $fmt->formatCurrency(1234567.891234567890000, ""EUR
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::CURRENCY );echo $fmt->formatCurrency(1234567.891234567890000, ""EUR
 ";echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."
-";$fmt u003d new NumberFormatter( 'ru_RU', NumberFormatter::CURRENCY );echo $fmt->formatCurrency(1234567.891234567890000, "EUR").
+";$fmt = new NumberFormatter( 'ru_RU', NumberFormatter::CURRENCY );echo $fmt->formatCurrency(1234567.891234567890000, "EUR").
 ";echo $fmt->formatCurrency(1234567.891234567890000, "RUR")."
 ";?> `
 

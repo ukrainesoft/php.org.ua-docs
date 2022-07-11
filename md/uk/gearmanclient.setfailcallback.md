@@ -8,7 +8,7 @@
 
 # GearmanClient::setFailCallback
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setFailCallback — Установка callback-функції для
 обробки ситуації, коли завдання не вдалося виконати

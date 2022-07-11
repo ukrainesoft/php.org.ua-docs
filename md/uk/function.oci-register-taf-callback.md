@@ -8,7 +8,7 @@ Database TAF
 
 #oci_register_taf_callback
 
-(PHP 7.0 \>u003d 7.0.21, PHP 8, PHP 7 \>u003d 7.1.7, PHP 8, PECL OCI8 \>u003d 2.1.7)
+(PHP 7.0 \>= 7.0.21, PHP 8, PHP 7 \>= 7.1.7, PHP 8, PECL OCI8 \>= 2.1.7)
 
 oci_register_taf_callback — Реєструє функцію користувача
 зворотного дзвінка для Oracle Database TAF

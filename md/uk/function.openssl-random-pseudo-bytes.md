@@ -7,14 +7,14 @@
 
 # openssl_random_pseudo_bytes
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 openssl_random_pseudo_bytes - Генерує псевдовипадкову
 послідовність байт
 
 ### Опис
 
-**openssl_random_pseudo_bytes**(int `$length`, bool `&$strong_result` u003d
+**openssl_random_pseudo_bytes**(int `$length`, bool `&$strong_result` =
 **`null`**): string
 
 Генерує рядок псевдовипадкових байт довжиною length.
@@ -41,15 +41,15 @@ openssl_random_pseudo_bytes - Генерує псевдовипадкову
 
 ### Список змін
 
-| Версія | Опис                                          |
-| ------ | --------------------------------------------- |
-| 8.0.0  | `strong_result` тепер допускає значення null. |
+| Версія | Опис                                        |
+| ------ | ------------------------------------------- |
+| 8.0.0  | strong_result тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **openssl_random_pseudo_bytes()****
 
-` <?phpfor ($i u003d 1; $i <u003d 4; $i++) {    $bytes u003d openssl_random_pseudo_bytes($i, $cstrong); $hex  u003d bin2hex($bytes); echo "Lengths: Bytes: $i and Hex: " . strlen($hex) . PHP_EOL; var_dump($hex); var_dump($cstrong); echo PHP_EOL;}?> `
+` <?phpfor ($i = 1; $i <= 4; $i++) {    $bytes = openssl_random_pseudo_bytes($i, $cstrong); $hex  = bin2hex($bytes); echo "Lengths: Bytes: $i and Hex: " . strlen($hex) . PHP_EOL; var_dump($hex); var_dump($cstrong); echo PHP_EOL;}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

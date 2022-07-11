@@ -7,7 +7,7 @@
 
 #ldap_parse_exop
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 ldap_parse_exop — Розбір результуючого об'єкта виконання розширеної
 операції LDAP
@@ -17,8 +17,8 @@ ldap_parse_exop — Розбір результуючого об'єкта вик
 **ldap_parse_exop**(
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
 [LDAP\Result](class.ldap-result.md) `$result`,
-string `&$response_data` u003d **`null`**,
-string `&$response_oid` u003d **`null`**
+string `&$response_data` = **`null`**,
+string `&$response_oid` = **`null`**
 ): bool
 
 Розбирає `result`, отриманий після виконання розширеної операції
@@ -48,10 +48,10 @@ LDAP
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
 
 ### Дивіться також
 

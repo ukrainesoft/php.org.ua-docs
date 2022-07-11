@@ -7,7 +7,7 @@
 
 # Ds\Set::merge
 
-(PECL ds \>u003d 1.0.3)
+(PECL ds \>= 1.0.3)
 
 Ds\Set::merge — Повертає результат додавання всіх заданих значень
 набір
@@ -38,27 +38,27 @@ public
 
 **Приклад #1 Приклад використання **Ds\Set::merge()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);var_dump($set->merge([3, 4, 5]));var_dump($set);?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->merge([3, 4, 5]));var_dump($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#2 (6) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
-[3]u003d>
+[3]=>
 int(4)
-[4]u003d>
+[4]=>
 int(5)
 }
 object(Ds\Set)#1 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

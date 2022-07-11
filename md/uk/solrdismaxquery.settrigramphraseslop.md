@@ -33,11 +33,11 @@ public **SolrDisMaxQuery::setTrigramPhraseSlop**(string `$slop`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setTrigramPhraseSlop()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->setTrigramPhraseSlop(2);echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setTrigramPhraseSlop(2);echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&ps3u003d2
+q=lucene&defType=edismax&ps3=2
 
 ### Дивіться також
 

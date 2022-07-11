@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadConcern::isDefault
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\ReadConcern::isDefault — Перевіряє, чи є гарантією
 читання за замовчуванням
@@ -51,7 +51,7 @@ final public **MongoDB\Driver\ReadConcern::isDefault**(): bool
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadConcern::isDefault()****
 
-` <?php$rc u003d new MongoDB\Driver\ReadConcern(null);var_dump($rc->isDefault());$rc u003d new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY); $rc->isDefault());$manager u003d new MongoDB\Driver\Manager('mongodb://127.0.0.1/?readConcernLevelu003dmajority');$rc u003d $manager->getReadConcern();var_dump($rc ->isDefault());$manager u003d new MongoDB\Driver\Manager('mongodb://127.0.0.1/');$rc u003d $manager->getReadConcern();var_dump($rc->isDefault()) ;?> `
+` <?php$rc = new MongoDB\Driver\ReadConcern(null);var_dump($rc->isDefault());$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY); $rc->isDefault());$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/?readConcernLevel=majority');$rc = $manager->getReadConcern();var_dump($rc ->isDefault());$manager = new MongoDB\Driver\Manager('mongodb://127.0.0.1/');$rc = $manager->getReadConcern();var_dump($rc->isDefault()) ;?> `
 
 Результат виконання цього прикладу:
 

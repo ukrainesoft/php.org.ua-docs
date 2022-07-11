@@ -8,15 +8,15 @@ CSV
 
 # SplFileObject::setCsvControl
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 SplFileObject::setCsvControl — Встановлює символи роздільника,
 обгортання та екранування для CSV
 
 ### Опис
 
-public **SplFileObject::setCsvControl**(string `$separator` u003d ",",
-string `$enclosure` u003d "\"", string `$escape` u003d "\"): void
+public **SplFileObject::setCsvControl**(string `$separator` = ",",
+string `$enclosure` = "\"", string `$escape` = "\"): void
 
 Встановлює символи роздільника, обмежувача та екранування для CSV.
 Символ обмежувача використовується для розміщення значень полів.
@@ -48,7 +48,7 @@ string `$enclosure` u003d "\"", string `$escape` u003d "\"): void
 
 **Приклад #1 Приклад використання **SplFileObject::setCsvControl()****
 
-` <?php$file u003d new SplFileObject("data.csv");$file->setFlags(SplFileObject::READ_CSV);$file->setCsvControl('|');foreach ($file as $row) {    List ($fruit, $quantity) u003d $row; // Щось робимо зі значеннями}?> `
+` <?php$file = new SplFileObject("data.csv");$file->setFlags(SplFileObject::READ_CSV);$file->setCsvControl('|');foreach ($file as $row) {    List ($fruit, $quantity) = $row; // Щось робимо зі значеннями}?> `
 
 Вміст data.csv
 

@@ -7,7 +7,7 @@
 
 # Ev::feedSignal
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 Ev::feedSignal — Передаємо подію сигналу в Ev
 

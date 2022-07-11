@@ -39,14 +39,14 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_pasv()****
 
-` <?php$file u003d 'somefile.txt';$remote_file u003d 'readme.txt';// установка з'єднання$conn_id u003d ftp_connect($ftp_server);// перевірка імені користувача і $| $ftp_user_name, $ftp_user_pass);// включення пасивного режимаftp_pasv($conn_id, true);
+` <?php$file = 'somefile.txt';$remote_file = 'readme.txt';// установка з'єднання$conn_id = ftp_connect($ftp_server);// перевірка імені користувача і $| $ftp_user_name, $ftp_user_pass);// включення пасивного режимаftp_pasv($conn_id, true);
 ";} else { echo "Не удалося завантажити $file на сервер
 ";}// закриття з'єднанняftp_close($conn_id);?> `

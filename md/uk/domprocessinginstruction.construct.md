@@ -15,7 +15,7 @@ DOMProcessingInstruction::\_\_construct — Створює новий об'єк�
 ### Опис
 
 public **DOMProcessingInstruction::\_\_construct**(string `$name`,
-string `$value` u003d "")
+string `$value` = "")
 
 Створює новий об'єкт класу
 [DOMProcessingInstruction](class.domprocessinginstruction.md). Цей
@@ -38,11 +38,11 @@ string `$value` u003d "")
 **Приклад #1 Створення об'єкта класу
 [DOMProcessingInstruction](class.domprocessinginstruction.md)**
 
-` <?php$dom u003d new DOMDocument('1.0', 'UTF-8');$html u003d $dom->appendChild(new DOMElement('html'));$body u003d $html->appendChild(new DOMElement ('body'));$pinode u003d new DOMProcessingInstruction('php', 'echo "Hello World"; ');$body->appendChild($pinode);echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'UTF-8');$html = $dom->appendChild(new DOMElement('html'));$body = $html->appendChild(new DOMElement ('body'));$pinode = new DOMProcessingInstruction('php', 'echo "Hello World"; ');$body->appendChild($pinode);echo $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <html><body><?php echo "Hello World"; ?></body></html>
 
 ### Дивіться також

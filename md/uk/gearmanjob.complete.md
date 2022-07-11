@@ -7,7 +7,7 @@
 
 # GearmanJob::complete
 
-(PECL gearman \<u003d 0.5.0)
+(PECL gearman \<= 0.5.0)
 
 GearmanJob::complete — Надсилання результату та статусу завершення
 (застарілий метод)

@@ -7,7 +7,7 @@
 
 #openssl_private_encrypt
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_private_encrypt — Шифрує дані секретним ключем
 
@@ -18,7 +18,7 @@ string `$data`,
 string `&$encrypted_data`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
-int `$padding` u003d **`OPENSSL_PKCS1_PADDING`**
+int `$padding` = **`OPENSSL_PKCS1_PADDING`**
 ): bool
 
 **openssl_private_encrypt()** шифрує `data` за допомогою секретного ключа
@@ -48,9 +48,9 @@ int `$padding` u003d **`OPENSSL_PKCS1_PADDING`**
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                        |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509`. |
+| Версія | Опис                                                                                                                                                                                                                                                  |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
 
 ### Дивіться також
 

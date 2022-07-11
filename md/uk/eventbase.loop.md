@@ -7,13 +7,13 @@
 
 # EventBase::loop
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::loop — Надсилання очікуваних подій
 
 ### Опис
 
-public **EventBase::loop**( int `$flags` u003d ?): bool
+public **EventBase::loop**( int `$flags` = ?): bool
 
 Очікує, доки події стануть активними, і запускає їх callback-функції.
 

@@ -78,25 +78,25 @@ int `$accuracy`
 
 **Приклад #1 Висновок статистики про таблицю**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$statistics u003d odbc_statistics($conn, 'TutorialDB', 'dbo', 'TEST', SQL_INDEX_UNIQUE, SQL_QUICK); odbc_fetch_array($statistics))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$statistics = odbc_statistics($conn, 'TutorialDB', 'dbo', 'TEST', SQL_INDEX_UNIQUE, SQL_QUICK); odbc_fetch_array($statistics))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[TABLE_CAT] u003d> TutorialDB
-[TABLE_SCHEM] u003d> dbo
-[TABLE_NAME] u003d> TEST
-[NON_UNIQUE] u003d>
-[INDEX_QUALIFIER] u003d>
-[INDEX_NAME] u003d>
-[TYPE] u003d> 0
-[ORDINAL_POSITION] u003d>
-[COLUMN_NAME] u003d>
-[ASC_OR_DESC] u003d>
-[CARDINALITY] u003d> 15
-[PAGES] u003d> 3
-[FILTER_CONDITION] u003d>
+[TABLE_CAT] => TutorialDB
+[TABLE_SCHEM] => dbo
+[TABLE_NAME] => TEST
+[NON_UNIQUE] =>
+[INDEX_QUALIFIER] =>
+[INDEX_NAME] =>
+[TYPE] => 0
+[ORDINAL_POSITION] =>
+[COLUMN_NAME] =>
+[ASC_OR_DESC] =>
+[CARDINALITY] => 15
+[PAGES] => 3
+[FILTER_CONDITION] =>
 )
 
 ### Дивіться також

@@ -7,14 +7,14 @@
 
 # EventBuffer::searchEol
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 EventBuffer::searchEol — Сканує буфер на наявність кінця рядка
 
 ### Опис
 
-public **EventBuffer::searchEol**( int `$start` u003d -1 , int `$eol_style`
-u003d **`EventBuffer::EOL_ANY`** ):
+public **EventBuffer::searchEol**( int `$start` = -1 , int `$eol_style`
+= **`EventBuffer::EOL_ANY`** ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Сканує буфер на наявність кінця рядка, вказаного параметром
@@ -43,7 +43,7 @@ Start search position.
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Дивіться також

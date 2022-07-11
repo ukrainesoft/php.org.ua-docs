@@ -7,7 +7,7 @@
 
 # Gmagick::deconstructimages
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::deconstructimages — Повертає певні піксельні відмінності
 між зображеннями

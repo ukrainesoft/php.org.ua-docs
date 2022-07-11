@@ -7,7 +7,7 @@
 
 # Gmagick::frameimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::frameimage — Додає змодельований тривимірний кордон
 

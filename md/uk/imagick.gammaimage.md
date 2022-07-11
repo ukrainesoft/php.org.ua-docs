@@ -13,7 +13,7 @@ Imagick::gammaImage — Гамма-корекція зображення
 
 ### Опис
 
-public **Imagick::gammaImage**(float `$gamma`, int `$channel` u003d
+public **Imagick::gammaImage**(float `$gamma`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Гамма-корекція зображення. Одне й те саме зображення, яке переглядається
@@ -46,4 +46,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::gammaImage()****
 
-` <?phpfunction gammaImage($imagePath, $gamma, $channel) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->gammaImage($gamma, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction gammaImage($imagePath, $gamma, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->gammaImage($gamma, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

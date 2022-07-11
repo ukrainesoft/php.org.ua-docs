@@ -7,7 +7,7 @@
 
 #imagecreatefromxbm
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromxbm — Створення нового зображення з файлу або URL
 
@@ -49,4 +49,4 @@ imagecreatefromxbm — Створення нового зображення з �
 **Приклад #1 Перетворення XBM зображення на png, використовуючи
 **imagecreatefromxbm()****
 
-` <?php// завантаження xbm файла$xbm u003d imagecreatefromxbm('./example.xbm');// Перетворення в png файлimagepng($xbm, './example.png');imagedestroy($> `
+` <?php// завантаження xbm файла$xbm = imagecreatefromxbm('./example.xbm');// Перетворення в png файлimagepng($xbm, './example.png');imagedestroy($> `

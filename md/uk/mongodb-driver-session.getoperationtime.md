@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::getOperationTime
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::getOperationTime — Повертає час операції для
 цього сеансу

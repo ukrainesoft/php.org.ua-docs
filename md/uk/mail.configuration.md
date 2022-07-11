@@ -11,13 +11,13 @@
 
 | Ім'я За замовчуванням                                                                | Місце зміни              | Список змін                    |
 | ------------------------------------------------------------------------------------ | ------------------------ | ------------------------------ |
-| [mail.add_x\_header](mail.configuration.md#ini.mail.add-x-header)                    | "0"                      | PHP_INI_PERDIR                 | 
-| [mail.log](mail.configuration.md#ini.mail.log)                                       | NULL                     | PHP_INI_SYSTEM\|PHP_INI_PERDIR | 
-| [mail.force_extra_parameters](mail.configuration.md#ini.mail.force_extra_parameters) | NULL                     | PHP_INI_SYSTEM\|PHP_INI_PERDIR | 
-| [SMTP](mail.configuration.md#ini.smtp)                                               | "localhost"              | PHP_INI_ALL                    | 
-| [smtp_port](mail.configuration.md#ini.smtp-port)                                     | "25"                     | PHP_INI_ALL                    | 
-| [sendmail_from](mail.configuration.md#ini.sendmail-from)                             | NULL                     | PHP_INI_ALL                    | 
-| [sendmail_path](mail.configuration.md#ini.sendmail-path)                             | "/usr/sbin/sendmail-t-i" | PHP_INI_SYSTEM                 | 
+| [mail.add_x\_header](mail.configuration.md#ini.mail.add-x-header)                    | "0"                      | PHP_INI_PERDIR                 |
+| [mail.log](mail.configuration.md#ini.mail.log)                                       | NULL                     | PHP_INI_SYSTEM\|PHP_INI_PERDIR |
+| [mail.force_extra_parameters](mail.configuration.md#ini.mail.force_extra_parameters) | NULL                     | PHP_INI_SYSTEM\|PHP_INI_PERDIR |
+| [SMTP](mail.configuration.md#ini.smtp)                                               | "localhost"              | PHP_INI_ALL                    |
+| [smtp_port](mail.configuration.md#ini.smtp-port)                                     | "25"                     | PHP_INI_ALL                    |
+| [sendmail_from](mail.configuration.md#ini.sendmail-from)                             | NULL                     | PHP_INI_ALL                    |
+| [sendmail_path](mail.configuration.md#ini.sendmail-path)                             | "/usr/sbin/sendmail-t-i" | PHP_INI_SYSTEM                 |
 
 **Конфігураційні опції надсилання листів**
 

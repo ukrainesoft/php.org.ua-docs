@@ -7,7 +7,7 @@
 
 # Event::signal
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::signal — Створити об'єкт події сигналу
 
@@ -19,7 +19,7 @@ int `$signum` ,
 [callable](language.types.callable.md) `$cb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): [Event](class.event.md)
 
 Створює об'єкт сигналу. Це полегшений метод для створення

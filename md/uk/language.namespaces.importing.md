@@ -7,7 +7,7 @@
 
 ## Використання просторів імен: імпорт/створення псевдоніма імені
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 Можливість посилатися на зовнішнє абсолютне ім'я за псевдонімом або
 імпортування – це важлива особливість просторів імен. Це схоже на
@@ -22,7 +22,7 @@ PHP може створювати псевдоніми імені/імпорту
 
 **Приклад #1 імпорт/створення псевдоніма імені за допомогою оператора use**
 
-`<?phpnamespace Foo; \Full unctionName;// псевдонім функціїuse function My\Full unctionName as func;// імпортування константиuse const My\Full\CONSTANT;$obj u003d new namespace\Another; // створює примірник класу foo\Another$obj u003d new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc$a u003d new ArrayObject(array(1)); // створює об'єкт класу ArrayObject// без вираження "use ArrayObject" ми створимо об'єкт класу foo\ArrayObjectfunc(); // викликає функцію My\Full unctionNameecho CONSTANT; // виводить вміст константи My\Full\CONSTANT?> `
+`<?phpnamespace Foo; \Full unctionName;// псевдонім функціїuse function My\Full unctionName as func;// імпортування константиuse const My\Full\CONSTANT;$obj = new namespace\Another; // створює примірник класу foo\Another$obj = new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc$a = new ArrayObject(array(1)); // створює об'єкт класу ArrayObject// без вираження "use ArrayObject" ми створимо об'єкт класу foo\ArrayObjectfunc(); // викликає функцію My\Full unctionNameecho CONSTANT; // виводить вміст константи My\Full\CONSTANT?> `
 
 Зверніть увагу, що для імен у просторі імен (абсолютні імена,
 що містять роздільник просторів імен, такі як `Foo\Bar`, на відміну
@@ -37,21 +37,21 @@ PHP додатково підтримує зручне скорочення дл
 **Приклад #2 імпорт/створення псевдоніма імені за допомогою оператора use,
 комбінування кількох операторів use**
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj u003d new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc?> `
+` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\ClassnameNSname\subns unc(); // викликає функцію My\Full\NSname\subns unc?> `
 
 Імпорт виконується під час компіляції і тому не впливає на імена
 динамічних класів, функцій чи констант.
 
 **Приклад #3 Імпорт та динамічні імена**
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj u003d new Another; // створює об'єкт класу My\Full\Classname$a u003d 'Another';$obj u003d new $a; // створює об'єкт класу Another?> `
+` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\Classname$a = 'Another';$obj = new $a; // створює об'єкт класу Another?> `
 
 На додаток, імпорт поширюється лише на неповні та повні імена.
 Абсолютні імена не торкаються операції імпорту.
 
 **Приклад #4 Імпортування та абсолютні імена**
 
-` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj u003d new Another; // створює об'єкт класу My\Full\Classname$obj u003d new \Another; // створює об'єкт класу Another$obj u003d new Another hing; // створює об'єкт класу My\Full\Classname hing$obj u003d new \Another hing; // створює об'єкт класу Another hing?> `
+` <?phpuse My\Full\Classname as Another, My\Full\NSname;$obj = new Another; // створює об'єкт класу My\Full\Classname$obj = new \Another; // створює об'єкт класу Another$obj = new Another hing; // створює об'єкт класу My\Full\Classname hing$obj = new \Another hing; // створює об'єкт класу Another hing?> `
 
 ### Огляд правил для імпорту
 

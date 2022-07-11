@@ -7,7 +7,7 @@
 
 #xdiff_string_bdiff
 
-(PECL xdiff \>u003d 1.5.0)
+(PECL xdiff \>= 1.5.0)
 
 xdiff_string_bdiff — Створити бінарний патч для двох рядків
 

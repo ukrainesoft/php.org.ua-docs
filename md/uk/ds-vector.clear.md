@@ -7,7 +7,7 @@
 
 # Ds\Vector::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::clear — Видаляє всі значення
 
@@ -29,15 +29,15 @@ public **Ds\Vector::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\Vector::clear()****
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);print_r($vector);$vector->clear();print_r($vector);?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);print_r($vector);$vector->clear();print_r($vector);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Vector Object
 (

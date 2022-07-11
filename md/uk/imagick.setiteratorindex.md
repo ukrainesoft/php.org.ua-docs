@@ -34,7 +34,7 @@ public **Imagick::setIteratorIndex**(int `$index`): bool
 
 Створення зображення, встановлення та отримання індексу ітератора
 
-` <?php$im u003d new Imagick();$im->newImage(100, 100, new ImagickPixel("red"));$im->newImage(100, 100, new ImagickPixel("green")); $im->newImage(100, 100, new ImagickPixel("blue"));$im->setIteratorIndex(1);echo $im->getIteratorIndex();?> `
+` <?php$im = new Imagick();$im->newImage(100, 100, new ImagickPixel("red"));$im->newImage(100, 100, new ImagickPixel("green")); $im->newImage(100, 100, new ImagickPixel("blue"));$im->setIteratorIndex(1);echo $im->getIteratorIndex();?> `
 
 ### Дивіться також
 

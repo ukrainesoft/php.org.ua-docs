@@ -7,7 +7,7 @@
 
 # Gmagick::cropthumbnailimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::cropthumbnailimage — Створення обрізаного зменшеного
 зображення

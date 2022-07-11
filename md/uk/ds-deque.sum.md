@@ -7,7 +7,7 @@
 
 # Ds\Deque::sum
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::sum — Повертає суму всіх значень двосторонньої черги
 
@@ -35,7 +35,7 @@ public **Ds\Deque::sum**(): int\|float
 **Приклад #1 Приклад використання **Ds\Deque::sum()** з цілими
 значеннями**
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque->sum());?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -44,7 +44,7 @@ int(6)
 **Приклад #2 Приклад використання **Ds\Deque::sum()** зі значеннями типу
 float**
 
-` <?php$deque u003d new \Ds\Deque([1, 2.5, 3]);var_dump($deque->sum());?> `
+` <?php$deque = new \Ds\Deque([1, 2.5, 3]);var_dump($deque->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

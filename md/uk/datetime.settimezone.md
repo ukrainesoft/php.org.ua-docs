@@ -9,7 +9,7 @@
 
 # date_timezone_set
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::setTimezone -- date_timezone_set — Встановлює часовий пояс
 для об'єкту класу DateTime
@@ -59,13 +59,13 @@ object.
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTime('2000-01-01', new DateTimeZone('Pacific/Nauru'));echo $date->format('Y-m-d H:i:sP') . "
+` <?php$date = new DateTime('2000-01-01', new DateTimeZone('Pacific/Nauru'));echo $date->format('Y-m-d H:i:sP') . "
 ";$date->setTimezone(new DateTimeZone('Pacific/Chatham'));echo $date->format('Y-m-d H:i:sP') . "
 ";?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create('2000-01-01', timezone_open('Pacific/Nauru'));echo date_format($date, 'Y-m-d H:i:sP') . "
+` <?php$date = date_create('2000-01-01', timezone_open('Pacific/Nauru'));echo date_format($date, 'Y-m-d H:i:sP') . "
 ";date_timezone_set($date, timezone_open('Pacific/Chatham'));echo date_format($date, 'Y-m-d H:i:sP') . "
 ";?> `
 

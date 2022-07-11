@@ -36,7 +36,7 @@ strcasecmp — Бінарно-безпечне порівняння рядків
 
 **Приклад #1 Приклад використання **strcasecmp()****
 
-` <?php$var1 u003d "Hello";$var2 u003d "hello";if (strcasecmp($var1, $var2) u003du003d 0) {    echo '$var1 рівно $var2 при порівнянні'; `
+` <?php$var1 = "Hello";$var2 = "hello";if (strcasecmp($var1, $var2) == 0) {    echo '$var1 рівно $var2 при порівнянні'; `
 
 ### Дивіться також
 

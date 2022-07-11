@@ -48,8 +48,8 @@ int `$mysqli_result->current_field`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) {                    я
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d $mysqli-       поле для всех столбцов */    while ($finfo u003d $result->fetch_field()) {        /* Получить смещение указателя поля */        $currentfield u003d $result->current_field;        printf("Столбец %d:
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) {                    я
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = $mysqli-       поле для всех столбцов */    while ($finfo = $result->fetch_field()) {        /* Получить смещение указателя поля */        $currentfield = $result->current_field;        printf("Столбец %d:
 ", $currentfield);        printf("Ім'я:    %%s
 ", $finfo->name);         printf("Таблиця:    %s
 ", $finfo->table);         printf("Макс. довжина: %d
@@ -60,8 +60,8 @@ int `$mysqli_result->current_field`;
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Помилка|
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d mysqli_    для всех столбцов */    while ($finfo u003d mysqli_fetch_field($result)) {        /* Получить смещение указателя поля */        $currentfield u003d mysqli_field_tell($result);        printf("Столбец %d:
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Помилка|
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = mysqli_    для всех столбцов */    while ($finfo = mysqli_fetch_field($result)) {        /* Получить смещение указателя поля */        $currentfield = mysqli_field_tell($result);        printf("Столбец %d:
 ", $currentfield);        printf("Ім'я:    %%s
 ", $finfo->name);         printf("Таблиця:    %s
 ", $finfo->table);         printf("Макс. довжина: %d

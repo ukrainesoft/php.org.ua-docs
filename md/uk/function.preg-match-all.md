@@ -16,9 +16,9 @@ preg_match_all — Виконує глобальний пошук шаблону
 **preg_match_all**(
 string `$pattern`,
 string `$subject`,
-array `&$matches` u003d **`null`**,
-int `$flags` u003d 0,
-int `$offset` u003d 0
+array `&$matches` = **`null`**,
+int `$flags` = 0,
+int `$offset` = 0
 ): int\|false
 
 Шукає в рядку `subject` всі збіги із шаблоном `pattern` і поміщає
@@ -51,13 +51,13 @@ int `$offset` u003d 0
 повних входжень шаблону, елемент `$matches[1]` містить масив
 входжень першої підмаски і т.д.
 
-` <?phppreg_match_all("|<[^>]+>(.*)</[^>]+>|U",    "<b>приклад: </b><div alignu003dleft>це тест</ div>",   $out, PREG_PATTERN_ORDER);echo $out[0][0] . ", " . $out[0][1] . "
+` <?phppreg_match_all("|<[^>]+>(.*)</[^>]+>|U",    "<b>приклад: </b><div align=left>це тест</ div>",   $out, PREG_PATTERN_ORDER);echo $out[0][0] . ", " . $out[0][1] . "
 ";echo $out[1][0] . ", " . $out[1][1] . "
 ";?> `
 
 Результат виконання цього прикладу:
 
-<b>приклад: </b>, <div alignu003dleft>це тест</div>
+<b>приклад: </b>, <div align=left>це тест</div>
 приклад: , це тест
 
 Таким чином, $out[0] містить масив повних входжень шаблону, а
@@ -75,8 +75,8 @@ $out[1] містить масив підрядків, що містяться в
 
 Array
 (
-[0] u003d>
-[1] u003d> bar
+[0] =>
+[1] => bar
 )
 
 **`PREG_SET_ORDER`**
@@ -84,14 +84,14 @@ Array
 набір входжень, елемент `$matches[1]` містить другий набір входжень,
 і т.д.
 
-` <?phppreg_match_all("|<[^>]+>(.*)</[^>]+>|U",    "<b>приклад: </b><div alignu003d\"left\"> це тест</div>",   $out, PREG_SET_ORDER);echo $out[0][0] . ", " . $out[0][1] . "
+` <?phppreg_match_all("|<[^>]+>(.*)</[^>]+>|U",    "<b>приклад: </b><div align=\"left\"> це тест</div>",   $out, PREG_SET_ORDER);echo $out[0][0] . ", " . $out[0][1] . "
 ";echo $out[1][0] . ", " . $out[1][1] . "
 ";?> `
 
 Результат виконання цього прикладу:
 
 <b>приклад: </b>, приклад:
-<div alignu003d"left">це тест</div>, це тест
+<div align="left">це тест</div>, це тест
 
 **`PREG_OFFSET_CAPTURE`**
 У випадку, якщо цей прапор вказаний, для кожного знайденого підрядку буде
@@ -107,42 +107,42 @@ Array
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> foobarbaz
-[1] u003d> 0
+[0] => foobarbaz
+[1] => 0
 )
 
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> foo
-[1] u003d> 0
+[0] => foo
+[1] => 0
 )
 
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> bar
-[1] u003d> 3
+[0] => bar
+[1] => 3
 )
 
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> baz
-[1] u003d> 6
+[0] => baz
+[1] => 6
 )
 
 )
@@ -167,7 +167,7 @@ Array
 > Використання параметра `offset` не еквівалентне заміні порівнянної
 > рядки виразом `substr($subject, $offset)` під час виклику функції
 > **preg_match_all()**, оскільки шаблон `pattern` може містити такі
-> умови як *^*, *$* чи *(?\<u003dx)*. Ви можете знайти відповідні
+> умови як *^*, *$* чи *(?\<=x)*. Ви можете знайти відповідні
 > приклади у описі функції [preg_match()](function.preg-match.md).
 
 ### Значення, що повертаються
@@ -182,9 +182,9 @@ Array
 
 ### Список змін
 
-| Версія | Опис                                                                               |
-| ------ | ---------------------------------------------------------------------------------- |
-| 7.2.0  | Тепер константа **`PREG_UNMATCHED_AS_NULL`** підтримується для параметра `$flags`. |
+| Версія | Опис                                                                           |
+| ------ | ------------------------------------------------------------------------------ |
+| 7.2.0  | Тепер константа **PREG_UNMATCHED_AS_NULL** підтримується для параметра $flags. |
 
 ### Приклади
 
@@ -194,7 +194,7 @@ Array
 
 **Приклад #2 Жадібний пошук збігів з HTML-тегами**
 
-`<?php// Запис \2 є прикладом використання посилань на підмаски. так як використовуються подвійні лапки.$html u003d "<b>напівжирний текст</b><a hrefu003dhowdy.md>натисні</a>";preg_match_all("/(<([\w]+)[^> ]*>)(.*?)(<\/\2>)/", $html, $matches, PREG_SET_ORDER);foreach ($matches as $val) {   echo "збіг: " . $val[0] . "
+`<?php// Запис \2 є прикладом використання посилань на підмаски. так як використовуються подвійні лапки.$html = "<b>напівжирний текст</b><a href=howdy.md>натисні</a>";preg_match_all("/(<([\w]+)[^> ]*>)(.*?)(<\/\2>)/", $html, $matches, PREG_SET_ORDER);foreach ($matches as $val) {   echo "збіг: " . $val[0] . "
 ";    echo "частина 1: " . $val[1] . "
 ";    echo "частина 2: " . $val[2] . "
 ";    echo "частина 3: " . $val[3] . "
@@ -210,53 +210,53 @@ Array
 частина 3: напівжирний текст
 частина 4: </b>
 
-matched: <a hrefu003dhody.md>натисніть</a>
-частина 1: <a hrefu003dhowdy.md>
+matched: <a href=hody.md>натисніть</a>
+частина 1: <a href=howdy.md>
 частина 2: a
 частина 3: натисні
 частина 4: </a>
 
 **Приклад #3 Використання іменованих підмасок**
 
-` <?php$str u003d <<<<FOOa: 1b: 2c: 3FOO;preg_match_all('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches) ;/* Альтернативний варіант */// preg_match_all('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);print_r($matches);?> `
+` <?php$str = <<<<FOOa: 1b: 2c: 3FOO;preg_match_all('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches) ;/* Альтернативний варіант */// preg_match_all('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);print_r($matches);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> a: 1
-[1] u003d> b: 2
-[2] u003d> c: 3
+[0] => a: 1
+[1] => b: 2
+[2] => c: 3
 )
 
-[name] u003d> Array
+[name] => Array
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
+[0] => a
+[1] => b
+[2] => c
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
+[0] => a
+[1] => b
+[2] => c
 )
 
-[digit] u003d> Array
+[digit] => Array
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 
 )

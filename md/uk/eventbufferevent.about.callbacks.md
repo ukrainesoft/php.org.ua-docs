@@ -17,10 +17,10 @@ callback-функції коли ресурс готовий до читання
 Callback-функції читання та запису повинні відповідати наступному
 прототипу:
 
-**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` u003d
+**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` =
 **`null`** ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `bev`
 Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md).
@@ -32,10 +32,10 @@ Callback-функції читання та запису повинні відп
 
 Callback-функції подій повинні відповідати наступному прототипу:
 
-**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` u003d
-**`null`** , int `$events` u003d 0 ,
+**callback**( [EventBufferEvent](class.eventbufferevent.md) `$bev` =
+**`null`** , int `$events` = 0 ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 `bev`
 Пов'язаний об'єкт [EventBufferEvent](class.eventbufferevent.md).

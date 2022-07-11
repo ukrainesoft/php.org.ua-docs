@@ -7,15 +7,15 @@
 
 # PharData::convertToData
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::convertToData — Конвертація phar-архіву в незапускається
 tar/zip-архів
 
 ### Опис
 
-public **PharData::convertToData**(?int `$format` u003d **`null`**, ?int
-`$compression` u003d **`null`**, ?string `$extension` u003d **`null`**):
+public **PharData::convertToData**(?int `$format` = **`null`**, ?int
+`$compression` = **`null`**, ?string `$extension` = **`null`**):
 ?[PharData](class.phardata.md)
 
 Цей метод використовується для перетворення tar/zip-архіву.
@@ -68,9 +68,9 @@ public **PharData::convertToData**(?int `$format` u003d **`null`**, ?int
 
 ### Список змін
 
-| Версія | Опис                                                                   |
-| ------ | ---------------------------------------------------------------------- |
-| 8.0.0  | `format`, `compression` та `extension` тепер допускають значення null. |
+| Версія | Опис                                                             |
+| ------ | ---------------------------------------------------------------- |
+| 8.0.0  | format, compression та extension тепер допускають значення null. |
 
 ### Приклади
 
@@ -78,7 +78,7 @@ public **PharData::convertToData**(?int `$format` u003d **`null`**, ?int
 
 Використання PharData::convertToData():
 
-`<?phptry {   $tarphar u003d new PharData('myphar.tar'); // зверніть увагу, що myphar.tar *не* удаляється     // створюємо myphar.zip    $zip u003d $tarphar->convertToData(Phar::ZIP); // створюємо myphar.tbz    $tgz u003d $zip->convertToData(Phar::TAR, Phar::BZ2, '.tbz'); // створюємо myphar.phar.tgz    $phar u003d $tarphar->convertToData(Phar::PHAR); // викидає виняток} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $tarphar = new PharData('myphar.tar'); // зверніть увагу, що myphar.tar *не* удаляється     // створюємо myphar.zip    $zip = $tarphar->convertToData(Phar::ZIP); // створюємо myphar.tbz    $tgz = $zip->convertToData(Phar::TAR, Phar::BZ2, '.tbz'); // створюємо myphar.phar.tgz    $phar = $tarphar->convertToData(Phar::PHAR); // викидає виняток} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Дивіться також
 

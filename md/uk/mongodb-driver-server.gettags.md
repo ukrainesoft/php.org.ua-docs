@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getTags
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::getTags - Повертає масив тегів, що описують
 сервер у наборі реплік

@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::modify
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::modify — Створює новий об'єкт із зміненою тимчасовою
 влучною
@@ -42,7 +42,7 @@ public **DateTimeImmutable::modify**(string `$modifier`):
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable('2006-12-12');$newDate u003d $date->modify('+1 day');echo $newDate->format('Y-m-d');? > `
+` <?php$date = new DateTimeImmutable('2006-12-12');$newDate = $date->modify('+1 day');echo $newDate->format('Y-m-d');? > `
 
 Результат виконання даних прикладів:
 
@@ -50,8 +50,8 @@ public **DateTimeImmutable::modify**(string `$modifier`):
 
 **Приклад #2 Будьте обережні при складанні або відніманні місяців**
 
-` <?php$date u003d new DateTimeImmutable('2000-12-31');$newDate1 u003d $date->modify('+1 month');echo $newDate1->format('Y-m-d') . "
-";$newDate2 u003d $newDate1->modify('+1 month');echo $newDate2->format('Y-m-d') . ""
+` <?php$date = new DateTimeImmutable('2000-12-31');$newDate1 = $date->modify('+1 month');echo $newDate1->format('Y-m-d') . "
+";$newDate2 = $newDate1->modify('+1 month');echo $newDate2->format('Y-m-d') . ""
 ";?> `
 
 Результат виконання цього прикладу:

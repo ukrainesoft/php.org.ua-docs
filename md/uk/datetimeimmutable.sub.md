@@ -8,7 +8,7 @@
 
 # DateTimeImmutable::sub
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::sub — Віднімає передану кількість днів, місяців,
 років, годин, хвилин та секунд
@@ -45,7 +45,7 @@ DateTimeImmutable.
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable('2000-01-20');$newDate u003d $date->sub(new DateInterval('P10D'));echo $newDate->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('P10D'));echo $newDate->format('Y-m-d') . "
 ";?> `
 
 Результат виконання даних прикладів:
@@ -54,8 +54,8 @@ DateTimeImmutable.
 
 **Приклад #2 Додатковий приклад **DateTimeImmutable::sub()****
 
-` <?php$date u003d new DateTimeImmutable('2000-01-20');$newDate u003d $date->sub(new DateInterval('PT10H30S'));echo $newDate->format('Y-m-:: s') . "
-";$date u003d new DateTimeImmutable('2000-01-20');$newDate u003d $date->sub(new DateInterval('P7Y5M4DT4H3M2S'));echo $newDate->format('Y:': ) . "
+` <?php$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('PT10H30S'));echo $newDate->format('Y-m-:: s') . "
+";$date = new DateTimeImmutable('2000-01-20');$newDate = $date->sub(new DateInterval('P7Y5M4DT4H3M2S'));echo $newDate->format('Y:': ) . "
 ";?> `
 
 Результат виконання цього прикладу:
@@ -65,8 +65,8 @@ DateTimeImmutable.
 
 **Приклад #3 Будьте обережні при відніманні місяців**
 
-` <?php$date u003d new DateTimeImmutable('2001-04-30');$interval u003d new DateInterval('P1M');$newDate1 u003d $date->sub($interval);echo $newDate1 'Y-m-d') . "
-";$newDate2 u003d $newDate1->sub($interval);echo $newDate2->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable('2001-04-30');$interval = new DateInterval('P1M');$newDate1 = $date->sub($interval);echo $newDate1 'Y-m-d') . "
+";$newDate2 = $newDate1->sub($interval);echo $newDate2->format('Y-m-d') . "
 ";?> `
 
 Результат виконання цього прикладу:

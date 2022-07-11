@@ -7,7 +7,7 @@
 
 # SplFileInfo::isDir
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isDir — Вказує, чи є файл каталогом
 
@@ -30,7 +30,7 @@ public **SplFileInfo::isDir**(): bool
 
 **Приклад #1 Приклад використання **SplFileInfo::isDir()****
 
-` <?php$d u003d new SplFileInfo(dirname(__FILE__));var_dump($d->isDir());$d u003d new SplFileInfo(__FILE__);var_dump($d->isDir());?> `
+` <?php$d = new SplFileInfo(dirname(__FILE__));var_dump($d->isDir());$d = new SplFileInfo(__FILE__);var_dump($d->isDir());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

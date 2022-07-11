@@ -38,15 +38,15 @@ file:// — Доступ до локальної файлової системи
 
 | Атрибут Підтримка                                                               |
 | ------------------------------------------------------------------------------- |
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні 
-| Читання                                                                         | Так 
-| Запис                                                                           | Так 
-| Додавання                                                                       | Так 
-| Одночасне читання та запис                                                      | Так 
-| Підтримка [stat()](function.stat.md)                                            | Так 
-| Підтримка [unlink()](function.unlink.md)                                        | Так 
-| Підтримка [rename()](function.rename.md)                                        | Так 
-| Підтримка [mkdir()](function.mkdir.md)                                          | Так 
-| Підтримка [rmdir()](function.rmdir.md)                                          | Так 
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні
+| Читання                                                                         | Так
+| Запис                                                                           | Так
+| Додавання                                                                       | Так
+| Одночасне читання та запис                                                      | Так
+| Підтримка [stat()](function.stat.md)                                            | Так
+| Підтримка [unlink()](function.unlink.md)                                        | Так
+| Підтримка [rename()](function.rename.md)                                        | Так
+| Підтримка [mkdir()](function.mkdir.md)                                          | Так
+| Підтримка [rmdir()](function.rmdir.md)                                          | Так
 
 **Основна інформація**

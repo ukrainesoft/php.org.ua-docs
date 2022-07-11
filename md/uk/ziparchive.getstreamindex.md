@@ -8,14 +8,14 @@
 
 # ZipArchive::getStreamIndex
 
-(PHP 8 \>u003d 8.2.0, PECL zip \>u003d 1.20.0)
+(PHP 8 \>= 8.2.0, PECL zip \>= 1.20.0)
 
 ZipArchive::getStreamIndex — Отримує обробник файлу для запису,
 визначеною її індексом (тільки для читання)
 
 ### Опис
 
-public **ZipArchive::getStreamIndex**(int `$index`, int `$flags` u003d 0):
+public **ZipArchive::getStreamIndex**(int `$index`, int `$flags` = 0):
 resource\|false
 
 Отримує обробник файлу для запису, визначеного його індексом. На
@@ -40,7 +40,7 @@ resource\|false
 **Приклад #1 Отримання та збереження вмісту запису за допомогою
 [fread()](function.fread.md)**
 
-` <?php$contents u003d '';$z u003d new ZipArchive();if ($z->open('test.zip')) {   $fp u003d $z->getStreamIndex(1, ZipArchive::FL_UNCHA ; if(!$fp) die($z->getStatusString()); echo stream_get_contents($fp); fclose($fp);}?> `
+` <?php$contents = '';$z = new ZipArchive();if ($z->open('test.zip')) {   $fp = $z->getStreamIndex(1, ZipArchive::FL_UNCHA ; if(!$fp) die($z->getStatusString()); echo stream_get_contents($fp); fclose($fp);}?> `
 
 ### Дивіться також
 

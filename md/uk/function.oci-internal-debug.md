@@ -7,7 +7,7 @@
 
 #oci_internal_debug
 
-(PHP 5, PHP 7, PECL OCI8 \>u003d 1.1.0, PECL OCI8 \<u003d 2.2.0)
+(PHP 5, PHP 7, PECL OCI8 \>= 1.1.0, PECL OCI8 \<= 2.2.0)
 
 oci_internal_debug — Вмикає або вимикає внутрішній висновок налагодження
 

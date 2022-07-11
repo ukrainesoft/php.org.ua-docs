@@ -7,7 +7,7 @@
 
 # Ds\Stack::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::clear — Видаляє всі значення колекції.
 
@@ -29,15 +29,15 @@ public **Ds\Stack::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\Stack::clear()****
 
-` <?php$stack u003d new \Ds\Stack([1, 2, 3]);print_r($stack);$stack->clear();print_r($stack);?> `
+` <?php$stack = new \Ds\Stack([1, 2, 3]);print_r($stack);$stack->clear();print_r($stack);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Stack Object
 (
-[0] u003d> 3
-[1] u003d> 2
-[2] u003d> 1
+[0] => 3
+[1] => 2
+[2] => 1
 )
 Ds\Stack Object
 (

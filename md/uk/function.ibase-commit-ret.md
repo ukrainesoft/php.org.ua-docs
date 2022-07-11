@@ -13,7 +13,7 @@ ibase_commit_ret - Фіксує транзакцію, не закриваючи 
 
 ### Опис
 
-**ibase_commit_ret**(resource `$link_or_trans_identifier` u003d **`null`**):
+**ibase_commit_ret**(resource `$link_or_trans_identifier` = **`null`**):
 bool
 
 Фіксує транзакцію, не закриваючи її.

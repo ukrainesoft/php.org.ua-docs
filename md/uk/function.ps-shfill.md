@@ -7,7 +7,7 @@
 
 #ps_shfill
 
-(PECL ps \>u003d 1.3.0)
+(PECL ps \>= 1.3.0)
 
 ps_shfill — Заповнює область затіненням
 

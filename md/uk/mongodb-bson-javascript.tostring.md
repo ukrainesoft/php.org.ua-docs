@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Javascript::\_\_toString
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Javascript::\_\_toString — Повертає код JavaScript
 

@@ -7,7 +7,7 @@
 
 #trader_cdlinneck
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlinneck - Свічкова модель "На лінії шиї"
 

@@ -7,7 +7,7 @@
 
 # OAuth::getCAPath
 
-(PECL OAuth u003d 0.99.8)
+(PECL OAuth = 0.99.8)
 
 OAuth::getCAPath — Отримати інформацію CA
 

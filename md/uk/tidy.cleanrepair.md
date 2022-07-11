@@ -9,7 +9,7 @@
 
 # tidy_clean_repair
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::cleanRepair -- tidy_clean_repair — Виконати налаштоване очищення та
 відновлення розібраної розмітки
@@ -40,7 +40,7 @@ public **tidy::cleanRepair**(): bool
 
 **Приклад #1 Приклад використання **tidy::cleanrepair()****
 
-` <?php$html u003d '<p>тест</I>';$tidy u003d tidy_parse_string($html);$tidy->cleanRepair();echo $tidy;?> `
+` <?php$html = '<p>тест</I>';$tidy = tidy_parse_string($html);$tidy->cleanRepair();echo $tidy;?> `
 
 Результат виконання цього прикладу:
 

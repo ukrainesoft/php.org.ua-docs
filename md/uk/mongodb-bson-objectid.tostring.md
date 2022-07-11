@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\ObjectId::\_\_toString
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\ObjectId::\_\_toString — Повертає шістнадцяткове
 уявлення ObjectId

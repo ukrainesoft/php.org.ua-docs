@@ -18,11 +18,11 @@ select та checkbox:
 **Приклад #1 Завантаження декількох файлів**
 
 ```htmlcode
-<form actionu003d"file-upload.php" methodu003d"post" enctypeu003d"multipart/form-data">
+<form action="file-upload.php" method="post" enctype="multipart/form-data">
 Файли:<br />
-<input nameu003d"userfile[]" typeu003d"file" /><br />
-<input nameu003d"userfile[]" typeu003d"file" /><br />
-<input typeu003d"submit" valueu003d"Надіслати" />
+<input name="userfile[]" type="file" /><br />
+<input name="userfile[]" type="file" /><br />
+<input type="submit" value="Надіслати" />
 </form>
 ````
 
@@ -58,10 +58,10 @@ select та checkbox:
 відновити той самий каталог на сервері.
 
 ```htmlcode
-<form actionu003d"file-upload.php" methodu003d"post" enctypeu003d"multipart/form-data">
+<form action="file-upload.php" method="post" enctype="multipart/form-data">
 Завантаження каталогу:<br />
-<input nameu003d"userfile[]" typeu003d"file" webkitdirectory multiple />
-<input typeu003d"submit" valueu003d"Завантажити файли" />
+<input name="userfile[]" type="file" webkitdirectory multiple />
+<input type="submit" value="Завантажити файли" />
 </form>
 ````
 

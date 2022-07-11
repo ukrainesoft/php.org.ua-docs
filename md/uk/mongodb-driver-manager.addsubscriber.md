@@ -8,7 +8,7 @@ Manager
 
 # MongoDB\Driver\Manager::addSubscriber
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\Manager::addSubscriber — Зареєструє передплатника на
 подія моніторингу в даному об'єкті Manager

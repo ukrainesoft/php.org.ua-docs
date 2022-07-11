@@ -11,30 +11,30 @@
 
 | Ім'я За замовчуванням                                                                           | Місце зміни                      | Список змін    |
 | ----------------------------------------------------------------------------------------------- | -------------------------------- | -------------- |
-| [seaslog.appender](seaslog.configuration.md#ini.seaslog.appender)                               | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.appender_retry](seaslog.configuration.md#ini.seaslog.appender-retry)                   | 0                                | PHP_INI_ALL    | 
-| [seaslog.level](seaslog.configuration.md#ini.seaslog.level)                                     | 8                                | PHP_INI_ALL    | 
-| [seaslog.remote_host](seaslog.configuration.md#ini.seaslog.remote-host)                         | 127.0.0.1                        | PHP_INI_ALL    | 
-| [seaslog.remote_port](seaslog.configuration.md#ini.seaslog.remote-port)                         | 514                              | PHP_INI_ALL    | 
-| [seaslog.remote_timeout](seaslog.configuration.md#ini.seaslog.remote-timeout)                   | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.default_basepath](seaslog.configuration.md#ini.seaslog.default-basepath)               | /var/log/www                     | PHP_INI_SYSTEM | 
-| [seaslog.default_logger](seaslog.configuration.md#ini.seaslog.default-logger)                   | default                          | PHP_INI_SYSTEM | 
-| [seaslog.default_template](seaslog.configuration.md#ini.seaslog.default-template)               | %T \| %L \| %P \| %Q \| %t \| %M | PHP_INI_SYSTEM | 
-| [seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format) | Y-m-d H: i: s                    | PHP_INI_SYSTEM | 
-| [seaslog.trace_error](seaslog.configuration.md#ini.seaslog.trace-error)                         | 1                                | PHP_INI_ALL    | 
-| [seaslog.trace_exception](seaslog.configuration.md#ini.seaslog.trace-exception)                 | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.trace_notice](seaslog.configuration.md#ini.seaslog.trace-notice)                       | 0                                | PHP_INI_ALL    | 
-| [seaslog.trace_warning](seaslog.configuration.md#ini.seaslog.trace-warning)                     | 0                                | PHP_INI_ALL    | 
-| [seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)                           | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.buffer_size](seaslog.configuration.md#ini.seaslog.buffer-size)                         | 0                                | PHP_INI_ALL    | 
-| [seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)   | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_type](seaslog.configuration.md#ini.seaslog.disting-type)                       | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_folder](seaslog.configuration.md#ini.seaslog.disting-folder)                   | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_by_hour](seaslog.configuration.md#ini.seaslog.disting-by-hour)                 | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.recall_depth](seaslog.configuration.md#ini.seaslog.recall-depth)                       | 0                                | PHP_INI_ALL    | 
-| [seaslog.trim_wrap](seaslog.configuration.md#ini.seaslog.trim-wrap)                             | 0                                | PHP_INI_ALL    | 
-| [seaslog.ignore_warning](seaslog.configuration.md#ini.seaslog.ignore-warning)                   | 1                                | PHP_INI_ALL    | 
-| [seaslog.throw_exception](seaslog.configuration.md#ini.seaslog.throw-exception)                 | 1                                | PHP_INI_ALL    | 
+| [seaslog.appender](seaslog.configuration.md#ini.seaslog.appender)                               | 1                                | PHP_INI_SYSTEM |
+| [seaslog.appender_retry](seaslog.configuration.md#ini.seaslog.appender-retry)                   | 0                                | PHP_INI_ALL    |
+| [seaslog.level](seaslog.configuration.md#ini.seaslog.level)                                     | 8                                | PHP_INI_ALL    |
+| [seaslog.remote_host](seaslog.configuration.md#ini.seaslog.remote-host)                         | 127.0.0.1                        | PHP_INI_ALL    |
+| [seaslog.remote_port](seaslog.configuration.md#ini.seaslog.remote-port)                         | 514                              | PHP_INI_ALL    |
+| [seaslog.remote_timeout](seaslog.configuration.md#ini.seaslog.remote-timeout)                   | 1                                | PHP_INI_SYSTEM |
+| [seaslog.default_basepath](seaslog.configuration.md#ini.seaslog.default-basepath)               | /var/log/www                     | PHP_INI_SYSTEM |
+| [seaslog.default_logger](seaslog.configuration.md#ini.seaslog.default-logger)                   | default                          | PHP_INI_SYSTEM |
+| [seaslog.default_template](seaslog.configuration.md#ini.seaslog.default-template)               | %T \| %L \| %P \| %Q \| %t \| %M | PHP_INI_SYSTEM |
+| [seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format) | Y-m-d H: i: s                    | PHP_INI_SYSTEM |
+| [seaslog.trace_error](seaslog.configuration.md#ini.seaslog.trace-error)                         | 1                                | PHP_INI_ALL    |
+| [seaslog.trace_exception](seaslog.configuration.md#ini.seaslog.trace-exception)                 | 0                                | PHP_INI_SYSTEM |
+| [seaslog.trace_notice](seaslog.configuration.md#ini.seaslog.trace-notice)                       | 0                                | PHP_INI_ALL    |
+| [seaslog.trace_warning](seaslog.configuration.md#ini.seaslog.trace-warning)                     | 0                                | PHP_INI_ALL    |
+| [seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)                           | 0                                | PHP_INI_SYSTEM |
+| [seaslog.buffer_size](seaslog.configuration.md#ini.seaslog.buffer-size)                         | 0                                | PHP_INI_ALL    |
+| [seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)   | 0                                | PHP_INI_SYSTEM |
+| [seaslog.disting_type](seaslog.configuration.md#ini.seaslog.disting-type)                       | 0                                | PHP_INI_SYSTEM |
+| [seaslog.disting_folder](seaslog.configuration.md#ini.seaslog.disting-folder)                   | 1                                | PHP_INI_SYSTEM |
+| [seaslog.disting_by_hour](seaslog.configuration.md#ini.seaslog.disting-by-hour)                 | 0                                | PHP_INI_SYSTEM |
+| [seaslog.recall_depth](seaslog.configuration.md#ini.seaslog.recall-depth)                       | 0                                | PHP_INI_ALL    |
+| [seaslog.trim_wrap](seaslog.configuration.md#ini.seaslog.trim-wrap)                             | 0                                | PHP_INI_ALL    |
+| [seaslog.ignore_warning](seaslog.configuration.md#ini.seaslog.ignore-warning)                   | 1                                | PHP_INI_ALL    |
+| [seaslog.throw_exception](seaslog.configuration.md#ini.seaslog.throw-exception)                 | 1                                | PHP_INI_ALL    |
 
 **Опції налаштування Seaslog**
 
@@ -72,7 +72,7 @@ CLI, параметр seaslog.use_buffer буде скинутий, Seaslog НЕ
 Задайте для параметра buffer_size значення 100.
 0, це означає, що буфер не використовується. Якщо buffer_size
 \> 0, SeasLog перезапише дані у сховищі, якщо розмір попередньо
-записаного в пам'ять журналу \>u003d buffer_size, а потім оновіть опитування
+записаного в пам'ять журналу \>= buffer_size, а потім оновіть опитування
 пам'яті.
 
 `seaslog.default_basepath` string
@@ -89,7 +89,7 @@ CLI, параметр seaslog.use_buffer буде скинутий, Seaslog НЕ
 
 > **Примітка**:
 >
-> *seaslog.disting_by_hour u003d 1* перемикає режим використання Logger
+> *seaslog.disting_by_hour = 1* перемикає режим використання Logger
 > DisTing щогодини. Це означає, що SeasLog буде створювати файл
 > кожну годину.
 
@@ -99,7 +99,7 @@ CLI, параметр seaslog.use_buffer буде скинутий, Seaslog НЕ
 
 > **Примітка**:
 >
-> *seaslog.disting_folder u003d 1* перемикає режим використання Logger
+> *seaslog.disting_folder = 1* перемикає режим використання Logger
 > DisTing за папками, це означає, що SeasLog буде створювати файли в
 > папки та при цьому налаштування закриття SeasLog створить файл з
 > підкресленням, використовуючи тип реєстратора та час, наприклад,
@@ -111,7 +111,7 @@ CLI, параметр seaslog.use_buffer буде скинутий, Seaslog НЕ
 
 > **Примітка**:
 >
-> *seaslog.disting_type u003d 1* перемикає режим використання Logger
+> *seaslog.disting_type = 1* перемикає режим використання Logger
 > DisTing за типом, це означає, що SeasLog створить файл
 > info\warn rror або іншого типу.
 
@@ -121,7 +121,7 @@ CLI, параметр seaslog.use_buffer буде скинутий, Seaslog НЕ
 
 > **Примітка**:
 >
-> *seaslog.ignore_warning u003d 1* Відкриває попередження про ігнорування
+> *seaslog.ignore_warning = 1* Відкриває попередження про ігнорування
 > самого SeasLog. Коли права доступу до каталогу або порти сервера
 > прийому заблоковано, вони ігноруються; при закритті видається
 > попередження.
@@ -161,7 +161,7 @@ DEBUG, 8-ALL
 
 > **Примітка**:
 >
-> *seaslog.throw_exception u003d 1* Відкриває виняток, який
+> *seaslog.throw_exception = 1* Відкриває виняток, який
 > викидає сам SeasLog. Якщо адміністрація каталогу або порт
 > приймаючого сервера заблоковані, викидається виняток; не
 > викидається виняток під час закриття.
@@ -193,7 +193,7 @@ DEBUG, 8-ALL
 
 > **Примітка**:
 >
-> *seaslog.use_buffer u003d 1* Увімкніть configure use_buffer. За замовчуванням
+> *seaslog.use_buffer = 1* Увімкніть configure use_buffer. За замовчуванням
 > use_buffer вимкнено. Якщо увімкнути use_buffer, SeasLog буде
 > попередньо записувати журнал у пам'ять і він буде перезаписано в
 > сховище даних шляхом завершення запиту або виходу з PHP
@@ -210,12 +210,12 @@ DEBUG, 8-ALL
 > відповідним значенням під час створення журналу.
 >
 > Шаблон журналу за промовчанням:
-> `seaslog.default_template u003d "%T | %L | %P | %Q | %t | %M"`, це
+> `seaslog.default_template = "%T | %L | %P | %Q | %t | %M"`, це
 > означає, що стиль журналу за замовчуванням:
 > `{dateTime} | {Level} | {pid} | {uniqid} | {timeStamp} | {logInfo}`
 >
 > Якщо ви використовуєте власний шаблон журналу, наприклад:
-> `seaslog.default_template u003d "[%T]:%L %P %Q %t %M"`, це буде
+> `seaslog.default_template = "[%T]:%L %P %Q %t %M"`, це буде
 > означати, що стиль журналу був налаштований як:
 > `[{dateTime}]:{level} {pid} {uniqid} {timeStamp} {logInfo}`
 >

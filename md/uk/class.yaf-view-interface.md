@@ -7,7 +7,7 @@
 
 # Клас Yaf_View_Interface
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -24,16 +24,16 @@ class **Yaf_View_Interface** {
 /\* Методи \*/
 
 abstract public [assign](yaf-view-interface.assign.md)(string `$name`,
-string `$value` u003d ?): bool
+string `$value` = ?): bool
 
 abstract public [display](yaf-view-interface.display.md)(string
-`$tpl`, array `$tpl_vars` u003d ?): bool
+`$tpl`, array `$tpl_vars` = ?): bool
 
 abstract public
 [getScriptPath](yaf-view-interface.getscriptpath.md)(): void
 
 abstract public [render](yaf-view-interface.render.md)(string `$tpl`,
-array `$tpl_vars` u003d ?): string
+array `$tpl_vars` = ?): string
 
 abstract public
 [setScriptPath](yaf-view-interface.setscriptpath.md)(string

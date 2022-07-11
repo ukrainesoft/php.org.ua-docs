@@ -7,14 +7,14 @@
 
 # gmp_prob_prime
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_prob_prime — Перевіряє, чи є число "ймовірно простим"
 
 ### Опис
 
 **gmp_prob_prime**([GMP](class.gmp.md)\|int\|string `$num`, int
-`$repetitions` u003d 10): int
+`$repetitions` = 10): int
 
 Функція використовує тест Міллера-Рабіна для визначення, чи є
 число простим.

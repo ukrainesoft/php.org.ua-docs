@@ -7,7 +7,7 @@
 
 #localeconv
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 localeconv — Повертає інформацію про форматування чисел
 
@@ -45,38 +45,38 @@ nl_NL (у режимі UTF-8 зі знаком євро) містить маси
 
 **Приклад #1 Приклад використання **localeconv()****
 
-` <?phpif (false !u003du003d setlocale(LC_ALL, 'ru_RU.UTF-8')) {   $locale_info u003d localeconv(); print_r($locale_info);}?> `
+` <?phpif (false !== setlocale(LC_ALL, 'ru_RU.UTF-8')) {   $locale_info = localeconv(); print_r($locale_info);}?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[decimal_point] u003d> ,
-[thousands_sep] u003d>
-[int_curr_symbol] u003d> RUB
-[currency_symbol] u003d> руб
-[mon_decimal_point] u003d>.
-[mon_thousands_sep] u003d>
-[positive_sign] u003d>
-[negative_sign] u003d> -
-[int_frac_digits] u003d> 2
-[frac_digits] u003d> 2
-[p_cs_precedes] u003d> 0
-[p_sep_by_space] u003d> 1
-[n_cs_precedes] u003d> 0
-[n_sep_by_space] u003d> 1
-[p_sign_posn] u003d> 1
-[n_sign_posn] u003d> 1
-[grouping] u003d> Array
+[decimal_point] => ,
+[thousands_sep] =>
+[int_curr_symbol] => RUB
+[currency_symbol] => руб
+[mon_decimal_point] =>.
+[mon_thousands_sep] =>
+[positive_sign] =>
+[negative_sign] => -
+[int_frac_digits] => 2
+[frac_digits] => 2
+[p_cs_precedes] => 0
+[p_sep_by_space] => 1
+[n_cs_precedes] => 0
+[n_sep_by_space] => 1
+[p_sign_posn] => 1
+[n_sign_posn] => 1
+[grouping] => Array
 (
-[0] u003d> 3
-[1] u003d> 3
+[0] => 3
+[1] => 3
 )
 
-[mon_grouping] u003d> Array
+[mon_grouping] => Array
 (
-[0] u003d> 3
-[1] u003d> 3
+[0] => 3
+[1] => 3
 )
 
 )

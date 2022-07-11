@@ -21,48 +21,48 @@ class **SoapFault** extends [Exception](class.exception.md) {
 
 public string `$faultstring`;
 
-public ?string `$faultcode` u003d null;
+public ?string `$faultcode` = null;
 
-public ?string `$faultcodens` u003d null;
+public ?string `$faultcodens` = null;
 
-public ?string `$faultactor` u003d null;
-
-public
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
-$detail u003d null;
-
-public ?string `$_name` u003d null;
+public ?string `$faultactor` = null;
 
 public
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$headerfault` u003d null;
+$detail = null;
+
+public ?string `$_name` = null;
+
+public
+[mixed](language.types.declarations.md#language.types.declarations.mixed)
+`$headerfault` = null;
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](soapfault.construct.md)(
 array\|string\|null `$code`,
 string `$string`,
-?string `$actor` u003d **`null`**,
+?string `$actor` = **`null`**,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` u003d **`null`**,
-?string `$name` u003d **`null`**,
+`$details` = **`null`**,
+?string `$name` = **`null`**,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$headerFault` u003d **`null`**
+`$headerFault` = **`null`**
 )
 
 public [\_\_toString](soapfault.tostring.md)(): string

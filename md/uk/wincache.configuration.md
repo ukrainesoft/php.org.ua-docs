@@ -17,24 +17,24 @@ WinCache:
 | [wincache.fcenabled](wincache.configuration.md#ini.wincache.fcenabled)             | "1"     | "0"                  | "1"            | PHP_INI_ALL | Доступно з WinCache 1.0.0
 | [wincache.fcenabledfilter](wincache.configuration.md#ini.wincache.fcenabledfilter) | "NULL"  | "NULL"               | "NULL"         | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
 | [wincache.fcachesize](wincache.configuration.md#ini.wincache.fcachesize)           | "24"    | "5"                  | "255"          | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
-| [wincache.fcndetect](wincache.configuration.md#ini.wincache.fcndetect)             | "1"     | "0"                  | "1"            | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0 
+| [wincache.fcndetect](wincache.configuration.md#ini.wincache.fcndetect)             | "1"     | "0"                  | "1"            | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0
 | [wincache.maxfilesize](wincache.configuration.md#ini.wincache.maxfilesize)         | "256"   | "10"                 | "2048"         | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
-| [wincache.ocenabled](wincache.configuration.md#ini.wincache.ocenabled)             | "1"     | "0"                  | "1"            | PHP_INI_ALL | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0 
-| [wincache.ocenabledfilter](wincache.configuration.md#ini.wincache.ocenabledfilter) | "NULL"  | "NULL"               | "NULL"         | PHP_INI_SYSTEM | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0 
-| [wincache.ocachesize](wincache.configuration.md#ini.wincache.ocachesize)           | "96"    | "15"                 | "255"          | PHP_INI_SYSTEM | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0 
+| [wincache.ocenabled](wincache.configuration.md#ini.wincache.ocenabled)             | "1"     | "0"                  | "1"            | PHP_INI_ALL | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0
+| [wincache.ocenabledfilter](wincache.configuration.md#ini.wincache.ocenabledfilter) | "NULL"  | "NULL"               | "NULL"         | PHP_INI_SYSTEM | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0
+| [wincache.ocachesize](wincache.configuration.md#ini.wincache.ocachesize)           | "96"    | "15"                 | "255"          | PHP_INI_SYSTEM | Доступно із WinCache 1.0.0. Вилучено у 2.0.0.0
 | [wincache.filecount](wincache.configuration.md#ini.wincache.filecount)             | "4096"  | "1024"               | "16384"        | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
 | [wincache.chkinterval](wincache.configuration.md#ini.wincache.chkinterval)         | "30"    | "0"                  | "300"          | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
 | [wincache.ttlmax](wincache.configuration.md#ini.wincache.ttlmax)                   | "1200"  | "0"                  | "7200"         | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
 | [wincache.enablecli](wincache.configuration.md#ini.wincache.enablecli)             | 0       | 0                    | 1              | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
 | [wincache.ignorelist](wincache.configuration.md#ini.wincache.ignorelist)           | NULL    | NULL                 | NULL           | PHP_INI_ALL | Доступно з WinCache 1.0.0
 | [wincache.namesalt](wincache.configuration.md#ini.wincache.namesalt)               | NULL    | NULL                 | NULL           | PHP_INI_SYSTEM | Доступно з WinCache 1.0.0
-| [wincache.ucenabled](wincache.configuration.md#ini.wincache.ucenabled)             | 1       | 0                    | 1              | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0 
-| [wincache.ucachesize](wincache.configuration.md#ini.wincache.ucachesize)           | 8       | 5                    | 85             | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0 
-| [wincache.scachesize](wincache.configuration.md#ini.wincache.scachesize)           | 8       | 5                    | 85             | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0 
-| [wincache.rerouteini](wincache.configuration.md#ini.wincache.rerouteini)           | NULL    | NULL                 | NULL           | PHP_INI_SYSTEM | Доступно із WinCache 1.2.0. Видалено в 1.3.7 
-| [wincache.reroute_enabled](wincache.configuration.md#ini.wincache.reroute_enabled) | 1       | 0                    | 1              | PHP_INI_SYSTEM \| PHP_INI_PERDIR | Доступно із WinCache 1.3.7 
-| [wincache.srwlocks](wincache.configuration.md#ini.wincache.srwlocks)               | 1       | 0                    | 1              | PHP_INI_SYSTEM | Доступно із WinCache 1.3.6.3. Вилучено у 2.0.0.0 
-| [wincache.filemapdir](wincache.configuration.md#ini.wincache.filemapdir) NULL      | NULL    | NULL                 | PHP_INI_SYSTEM | Доступно із WinCache 1.3.7.4 
+| [wincache.ucenabled](wincache.configuration.md#ini.wincache.ucenabled)             | 1       | 0                    | 1              | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0
+| [wincache.ucachesize](wincache.configuration.md#ini.wincache.ucachesize)           | 8       | 5                    | 85             | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0
+| [wincache.scachesize](wincache.configuration.md#ini.wincache.scachesize)           | 8       | 5                    | 85             | PHP_INI_SYSTEM | Доступно із WinCache 1.1.0
+| [wincache.rerouteini](wincache.configuration.md#ini.wincache.rerouteini)           | NULL    | NULL                 | NULL           | PHP_INI_SYSTEM | Доступно із WinCache 1.2.0. Видалено в 1.3.7
+| [wincache.reroute_enabled](wincache.configuration.md#ini.wincache.reroute_enabled) | 1       | 0                    | 1              | PHP_INI_SYSTEM \| PHP_INI_PERDIR | Доступно із WinCache 1.3.7
+| [wincache.srwlocks](wincache.configuration.md#ini.wincache.srwlocks)               | 1       | 0                    | 1              | PHP_INI_SYSTEM | Доступно із WinCache 1.3.6.3. Вилучено у 2.0.0.0
+| [wincache.filemapdir](wincache.configuration.md#ini.wincache.filemapdir) NULL      | NULL    | NULL                 | PHP_INI_SYSTEM | Доступно із WinCache 1.3.7.4
 
 **Конфігураційні параметри WinCache**
 

@@ -7,7 +7,7 @@
 
 # LuaSandbox::registerLibrary
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::registerLibrary — Реєструє набір PHP-функцій як
 бібліотеку Lua
@@ -44,8 +44,8 @@ public **LuaSandbox::registerLibrary**(string `$libname`, array
 
 **Приклад #1 Реєстрація PHP-функцій для виклику з Lua**
 
-`<?php// створення нового LuaSandbox$sandbox u003d new LuaSandbox();// реєстрація деяких функцій в середі Luafunction frobnosticate( $v ) v|$| [   'frobnosticate' u003d> 'frobnosticate',   'output' u003d> function ( $string ) {       echo "$string
-";    },    'error' u003d> function () {       throw new LuaSandboxRuntimeError( "Щось пішло не так" ); |
+`<?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// реєстрація деяких функцій в середі Luafunction frobnosticate( $v ) v|$| [   'frobnosticate' => 'frobnosticate',   'output' => function ( $string ) {       echo "$string
+";    },    'error' => function () {       throw new LuaSandboxRuntimeError( "Щось пішло не так" ); |
 
 ### Дивіться також
 

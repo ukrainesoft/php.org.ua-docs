@@ -7,7 +7,7 @@
 
 # HRTime\PerformanceCounter::getTicksSince
 
-(PECL hrtime \>u003d 0.6.0)
+(PECL hrtime \>= 0.6.0)
 
 HRTime\PerformanceCounter::getTicksSince — Кількість тиків, що пройшли з
 заданого значення

@@ -7,13 +7,13 @@
 
 # PDOStatement::execute
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDOStatement::execute — Запускає підготовлений запит на виконання
 
 ### Опис
 
-public **PDOStatement::execute**(?array `$params` u003d **`null`**): bool
+public **PDOStatement::execute**(?array `$params` = **`null`**): bool
 
 Запускає [підготовлений запит](pdo.prepared-statements.md). Якщо
 запит містить маркери параметрів (псевдозмінні), ви повинні або:
@@ -51,27 +51,27 @@ public **PDOStatement::execute**(?array `$params` u003d **`null`**): bool
 **Приклад #1 Виконання підготовленого запиту з прив'язкою змінних та
 значень**
 
-`<?php/* Виконання підготовленого запиту з прив'язкою змінних і значень */$calories u003d 150;$colour u003d 'gre';$sth u003d $dbh->prepare('SELECT name,  ca| calories AND colour LIKE :colour');$sth->bindParam('calories', $calories, PDO::PARAM_INT);/* Імена також можуть починатися з двокрапки ":" (необов'язково) ':colour', "%$colour%");$sth->execute();?> `
+`<?php/* Виконання підготовленого запиту з прив'язкою змінних і значень */$calories = 150;$colour = 'gre';$sth = $dbh->prepare('SELECT name,  ca| calories AND colour LIKE :colour');$sth->bindParam('calories', $calories, PDO::PARAM_INT);/* Імена також можуть починатися з двокрапки ":" (необов'язково) ':colour', "%$colour%");$sth->execute();?> `
 
 **Приклад #2 Виконання підготовленого запиту з масивом іменованих
 значень**
 
-`<?php/* Виконання підготовленого запиту з передачею масиву вхідних значень */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('S   calories AND colour u003d :colour');$sth->execute(array('calories' u003d> $calories, 'colour' u003d> $colour));/* Ключі масива також можуть починатися з | */$sth->execute(array(':calories' u003d> $calories, ':colour' u003d> $colour));?> `
+`<?php/* Виконання підготовленого запиту з передачею масиву вхідних значень */$calories = 150;$colour = 'red';$sth = $dbh->prepare('S   calories AND colour = :colour');$sth->execute(array('calories' => $calories, 'colour' => $colour));/* Ключі масива також можуть починатися з | */$sth->execute(array(':calories' => $calories, ':colour' => $colour));?> `
 
 **Приклад #3 Виконання підготовленого запиту з масивом позиційних
 значень**
 
-¦<?php/* Виконання підготовленого запиту з передачею масиву вхідних значень */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('SELECT name   AND colour u003d ?');$sth->execute(array($calories, $colour));?> `
+¦<?php/* Виконання підготовленого запиту з передачею масиву вхідних значень */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name   AND colour = ?');$sth->execute(array($calories, $colour));?> `
 
 **Приклад #4 Виконання підготовленого запиту зі змінними,
 прив'язаними до позиційних заповнювачів**
 
-`<?php/* Виконання підготовленого запиту з прив'язкою PHP змінних */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('SELECT name,                 colour u003d ?');$sth->bindParam(1, $calories, PDO::PARAM_INT);$sth->bindParam(2, $colour, PDO::PARAM_STR, 12);$sth->execute(); ?> `
+`<?php/* Виконання підготовленого запиту з прив'язкою PHP змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name,                 colour = ?');$sth->bindParam(1, $calories, PDO::PARAM_INT);$sth->bindParam(2, $colour, PDO::PARAM_STR, 12);$sth->execute(); ?> `
 
 **Приклад #5 Виконання підготовленого запиту з використанням масиву
 для вираження IN**
 
-`<?php/* Виконання підготовленого запиту з використанням масиву для вираження IN */$params u003d array(1, 21, 63, 171);/* Створюємо ряд| place_holdersu003du003d implode(',', array_fill(0,count($params), '?'));/*     У цьому прикладі підготовляється запрос з достатньою досить           Коли запит буде     виконуватися, ці знаки запитання будуть замінені на елементи масиву. Це не то ж     саме, що використовувати PDOStatement::bindParam(), де прив'язка здійснюється за    посилання на змінну. PDOStatement::execute() зв'язує параметри за значенням.*/$sth u003d $dbh->prepare("SELECT id, name FROM contacts WHERE id IN ($place_holders)");$sth->exe > `
+`<?php/* Виконання підготовленого запиту з використанням масиву для вираження IN */$params = array(1, 21, 63, 171);/* Створюємо ряд| place_holders== implode(',', array_fill(0,count($params), '?'));/*     У цьому прикладі підготовляється запрос з достатньою досить           Коли запит буде     виконуватися, ці знаки запитання будуть замінені на елементи масиву. Це не то ж     саме, що використовувати PDOStatement::bindParam(), де прив'язка здійснюється за    посилання на змінну. PDOStatement::execute() зв'язує параметри за значенням.*/$sth = $dbh->prepare("SELECT id, name FROM contacts WHERE id IN ($place_holders)");$sth->exe > `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 #stream_context_get_options
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_context_get_options — Отримує опції для потоку/обгортки/контексту
 
@@ -31,14 +31,14 @@ stream_context_get_options — Отримує опції для потоку/о�
 
 **Приклад #1 Приклад використання **stream_context_get_options()****
 
-` <?php$params u003d array("method" u003d> "POST");stream_context_set_default(array("http" u003d> $params));var_dump(stream_context_get_options(stream_context_get_default()));?> `
+` <?php$params = array("method" => "POST");stream_context_set_default(array("http" => $params));var_dump(stream_context_get_options(stream_context_get_default()));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-["http"]u003d>
+["http"]=>
 array(1) {
-["method"]u003d>
+["method"]=>
 string(4) "POST"
 }
 }

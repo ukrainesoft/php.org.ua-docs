@@ -7,7 +7,7 @@
 
 # Gmagick::getimagecolors
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagecolors — Повертає колір вказаного індексу картки
 квітів

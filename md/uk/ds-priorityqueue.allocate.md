@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::allocate — Виділяє пам'ять під зазначену місткість
 
@@ -41,7 +41,7 @@ public **Ds\PriorityQueue::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::allocate()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();var_dump($queue->capacity());$queue->allocate(100);var_dump($queue->capacity());?> `
+` <?php$queue = new \Ds\PriorityQueue();var_dump($queue->capacity());$queue->allocate(100);var_dump($queue->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

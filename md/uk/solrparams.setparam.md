@@ -7,7 +7,7 @@
 
 # SolrParams::setParam
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::setParam — Встановлює параметр на вказане значення
 
@@ -37,7 +37,7 @@ public **SolrParams::setParam**(string `$name`, string `$value`):
 
 **Приклад #1 Приклад використання **SolrParams::setParam()****
 
-` <?php$param u003d new SolrParams();$param->setParam('q', 'solr')->setParam('rows', 2);?> `
+` <?php$param = new SolrParams();$param->setParam('q', 'solr')->setParam('rows', 2);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

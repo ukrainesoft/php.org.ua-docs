@@ -13,7 +13,7 @@ get_resources — Повертає активні ресурси
 
 ### Опис
 
-**get_resources**(?string `$type` u003d **`null`**): array
+**get_resources**(?string `$type` = **`null`**): array
 
 Повертає масив усіх поточних активних ресурсів (resource), опціонально
 відфільтрований за типом ресурсу.
@@ -42,31 +42,31 @@ get_resources — Повертає активні ресурси
 
 ### Список змін
 
-| Версія | Опис                                  |
-| ------ | ------------------------------------- |
-| 8.0.0  | `type` тепер припускає значення null. |
+| Версія | Опис                                |
+| ------ | ----------------------------------- |
+| 8.0.0  | type тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **get_resources()****
 
-` <?php$fp u003d tmpfile();var_dump(get_resources());?> `
+` <?php$fp = tmpfile();var_dump(get_resources());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[1]u003d>
+[1]=>
 resource(1) of type (stream)
 }
 
 **Приклад #2 Приклад використання **get_resources()** з фільтрацією**
 
-` <?php$fp u003d tmpfile();var_dump(get_resources('stream'));var_dump(get_resources('curl'));?> `
+` <?php$fp = tmpfile();var_dump(get_resources('stream'));var_dump(get_resources('curl'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[1]u003d>
+[1]=>
 resource(1) of type (stream)
 }
 array(0) {

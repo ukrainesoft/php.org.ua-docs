@@ -7,7 +7,7 @@
 
 # geoip_region_by_name
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_region_by_name — Повертає коди країни та регіону
 
@@ -45,12 +45,12 @@ GeoIP регіон. Якщо такої бази немає, виводитьс�
 Виведе масив, що складається з коду країни та коду регіону для хоста
 example.com
 
-` <?php$region u003d geoip_region_by_name('www.example.com');if ($region) {   print_r($region);}?> `
+` <?php$region = geoip_region_by_name('www.example.com');if ($region) {   print_r($region);}?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[country_code] u003d> US
-[region] u003d> CA
+[country_code] => US
+[region] => CA
 )

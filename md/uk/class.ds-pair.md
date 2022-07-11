@@ -22,9 +22,9 @@ class **Ds\Pair** implements
 
 public
 [\_\_construct](ds-pair.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key` u003d ?,
+`$key` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d ?)
+`$value` = ?)
 
 public [clear](ds-pair.clear.md)(): void
 

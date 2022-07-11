@@ -7,13 +7,13 @@
 
 # SplFileInfo::getFileInfo
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getFileInfo — Отримує об'єкт SplFileInfo для файлу
 
 ### Опис
 
-public **SplFileInfo::getFileInfo**(?string `$class` u003d **`null`**):
+public **SplFileInfo::getFileInfo**(?string `$class` = **`null`**):
 [SplFileInfo](class.splfileinfo.md)
 
 Цей метод отримує об'єкт [SplFileInfo](class.splfileinfo.md) для
@@ -31,9 +31,9 @@ public **SplFileInfo::getFileInfo**(?string `$class` u003d **`null`**):
 
 ### Список змін
 
-| Версія | Опис                                   |
-| ------ | -------------------------------------- |
-| 8.0.0  | `class` тепер припускає значення null. |
+| Версія | Опис                                 |
+| ------ | ------------------------------------ |
+| 8.0.0  | class тепер припускає значення null. |
 
 ### Дивіться також
 

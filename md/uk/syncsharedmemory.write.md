@@ -7,14 +7,14 @@
 
 # SyncSharedMemory::write
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 SyncSharedMemory::write — Копіює дані в іменовану розділювану
 пам'ять
 
 ### Опис
 
-public **SyncSharedMemory::write**(string `$string` u003d ?, int `$start` u003d
+public **SyncSharedMemory::write**(string `$string` = ?, int `$start` =
 0)
 
 Копіює дані в іменовану пам'ять, що розділяється.
@@ -46,7 +46,7 @@ public **SyncSharedMemory::write**(string `$string` u003d ?, int `$start` u003d
 
 **Приклад #1 Приклад використання **SyncSharedMemory::write()****
 
-` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem u003d new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Тутможно виконати первинну ініціалізацію.}$result u003d $mem->write("report.txt");var_dump($result);$result u003d $mem->write(" , -3);var_dump($result);?> `
+` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem = new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Тутможно виконати первинну ініціалізацію.}$result = $mem->write("report.txt");var_dump($result);$result = $mem->write(" , -3);var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

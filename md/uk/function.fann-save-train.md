@@ -7,7 +7,7 @@
 
 # fann_save_train
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_save_train — Зберігає структуру навчання у файл
 

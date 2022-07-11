@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                                          | Місце зміни | Список змін    |
 | ------------------------------------------------------------------------------ | ----------- | -------------- |
-| [imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh) | "0"         | PHP_INI_SYSTEM | Доступно з PHP 7.1.25, 7.2.13 та 7.3.0. Раніше був неявно увімкнений. 
+| [imap.enable_insecure_rsh](imap.configuration.md#ini.imap.enable-insecure-rsh) | "0"         | PHP_INI_SYSTEM | Доступно з PHP 7.1.25, 7.2.13 та 7.3.0. Раніше був неявно увімкнений.
 
 **Опції налаштування IMAP**
 

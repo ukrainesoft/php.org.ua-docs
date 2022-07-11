@@ -7,7 +7,7 @@
 
 #gmp_and
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_and - Побітове І
 
@@ -36,7 +36,7 @@ gmp_and - Побітове І
 
 **Приклад #1 Приклад використання **gmp_and()****
 
-` <?php$and1 u003d gmp_and("0xfffffffff4", "0x4");$and2 u003d gmp_and("0xfffffffff4", "0x8");echo gmp_strval($and1) . "
+` <?php$and1 = gmp_and("0xfffffffff4", "0x4");$and2 = gmp_and("0xfffffffff4", "0x8");echo gmp_strval($and1) . "
 ";echo gmp_strval($and2) . "
 ";?> `
 

@@ -52,7 +52,7 @@ imagecreate — Створення нового графічного зобра�
 
 **Приклад #1 Створення нового GD потоку зображення та виведення зображення.**
 
-` <?phpheader("Content-Type: image/png");$im u003d @imagecreate(110, 20)   or die("Неможливо створити потік зображення"); );$text_coloru003du003dimagecolorallocate($im, 233, 14, 91);imagestring($im, 1, 5, 5, "A Simple Text String", $text_color);imagepng($im);imagedestroy ;?> `
+` <?phpheader("Content-Type: image/png");$im = @imagecreate(110, 20)   or die("Неможливо створити потік зображення"); );$text_color==imagecolorallocate($im, 233, 14, 91);imagestring($im, 1, 5, 5, "A Simple Text String", $text_color);imagepng($im);imagedestroy ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Imagick::clipImagePath
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::clipImagePath — Опис
 

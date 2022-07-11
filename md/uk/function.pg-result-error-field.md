@@ -7,7 +7,7 @@
 
 #pg_result_error_field
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_result_error_field — Повертає конкретне поле зі звіту про помилки
 
@@ -60,15 +60,15 @@ PostgreSQL версій 7.4 та вище. Потрібне поле задає�
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_result_error_field()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  $res1 u003d pg_get_result($dbconn); echo pg_result_error_field($res1, PGSQL_DIAG_SQLSTATE);?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  $res1 = pg_get_result($dbconn); echo pg_result_error_field($res1, PGSQL_DIAG_SQLSTATE);?> `
 
 ### Дивіться також
 

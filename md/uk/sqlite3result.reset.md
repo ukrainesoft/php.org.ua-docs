@@ -7,7 +7,7 @@
 
 # SQLite3Result::reset
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Result::reset — Скидає вказівник результуючого набору на
 перший рядок

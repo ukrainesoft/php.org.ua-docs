@@ -7,7 +7,7 @@
 
 # Yaf_Response_Abstract::setAllHeaders
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::setAllHeaders — Призначення setAllHeaders
 

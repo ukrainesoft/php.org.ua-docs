@@ -7,7 +7,7 @@
 
 # ReflectionEnum::getBackingType
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnum::getBackingType — Отримує тип перерахунку, якщо є
 
@@ -33,7 +33,7 @@ public **ReflectionEnum::getBackingType**():
 
 **Приклад #1 Приклад використання **ReflectionEnum::getBackingType()****
 
-`<?phpenum Suit: string{   case Hearts u003d 'H'; case Diamonds u003d 'D'; case Clubs u003d 'C'; case Spades u003d 'S';}$rEnum u003d new ReflectionEnum(Suit::class);$rBackingType u003d $rEnum->getBackingType();var_dump((string)$rBackingType);?> `
+`<?phpenum Suit: string{   case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}$rEnum = new ReflectionEnum(Suit::class);$rBackingType = $rEnum->getBackingType();var_dump((string)$rBackingType);?> `
 
 Результат виконання цього прикладу:
 

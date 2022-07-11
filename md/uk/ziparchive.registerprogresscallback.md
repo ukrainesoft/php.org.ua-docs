@@ -8,7 +8,7 @@
 
 # ZipArchive::registerProgressCallback
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.17.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.17.0)
 
 ZipArchive::registerProgressCallback — Реєструє callback-функцію для
 надання оновлень під час закриття архіву
@@ -41,7 +41,7 @@ public **ZipArchive::registerProgressCallback**(float `$rate`,
 
 **Приклад #1 Архівація файлу**
 
-` $zip u003d new ZipArchive();if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {    $zip->addFile(PHP_BINARY, ' $zip->registerProgressCallback(0.05, function ($r) {         printf("%d%%
+` $zip = new ZipArchive();if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {    $zip->addFile(PHP_BINARY, ' $zip->registerProgressCallback(0.05, function ($r) {         printf("%d%%
 ", $r * 100);    });    $zip->close();}`
 
 ### Примітки

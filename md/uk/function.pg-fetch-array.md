@@ -14,7 +14,7 @@ pg_fetch_array — Повертає рядок результату у вигл�
 ### Опис
 
 **pg_fetch_array**([PgSql\Result](class.pgsql-result.md) `$result`,
-?int `$row` u003d **`null`**, int `$mode` u003d **`PGSQL_BOTH`**): array\|false
+?int `$row` = **`null`**, int `$mode` = **`PGSQL_BOTH`**): array\|false
 
 **pg_fetch_array()** повертає масив, що відповідає обраному рядку
 (Записи).
@@ -67,21 +67,21 @@ pg_fetch_array — Повертає рядок результату у вигл�
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_fetch_array()****
 
-` <?php$conn u003d pg_pconnect("dbnameu003dpublisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}$result u003dpg_query($conn, "SELECT author, email FROM authors");if (!$result) { echo "Відбулася помилка.
-";  exit;}$arru003d pg_fetch_array($result, 0, PGSQL_NUM);echo $arr[0] . " <- Row 1 Author
+` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
+";  exit;}$result =pg_query($conn, "SELECT author, email FROM authors");if (!$result) { echo "Відбулася помилка.
+";  exit;}$arr= pg_fetch_array($result, 0, PGSQL_NUM);echo $arr[0] . " <- Row 1 Author
 ";echo $arr[1] . " <- Row 1 E-mail
 ";// Параметр row необов'язковий,// для передачі result_type замість row можна передати NULL.// Успішні дзвінки pg_fetch_array повернення| " <- Row 2 Author
 ";echo $arr["email"] . " <- Row 2 E-mail
-";$arr u003d pg_fetch_array($result);echo $arr["author"] . " <- Row 3 Author
+";$arr = pg_fetch_array($result);echo $arr["author"] . " <- Row 3 Author
 ";echo $arr[1] . " <- Row 3 E-mail
 ";?> `
 

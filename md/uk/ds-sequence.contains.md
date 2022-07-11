@@ -7,7 +7,7 @@
 
 # Ds\Sequence::contains
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::contains — Перевіряє, чи містяться в колекції задані
 значення
@@ -34,7 +34,7 @@ abstract public
 
 **Приклад #1 Приклад використання **Ds\Sequence::contains()****
 
-` <?php$sequence u003d new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);var_dump($sequence->contains('a')); // truevar_dump($sequence->contains('a', 'b')); // truevar_dump($sequence->contains('c', 'd')); //falsevar_dump($sequence->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($sequence->contains(1)); // Truevar_dump($sequence->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
+` <?php$sequence = new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);var_dump($sequence->contains('a')); // truevar_dump($sequence->contains('a', 'b')); // truevar_dump($sequence->contains('c', 'd')); //falsevar_dump($sequence->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($sequence->contains(1)); // Truevar_dump($sequence->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

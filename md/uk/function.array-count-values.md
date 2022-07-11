@@ -38,15 +38,15 @@ array_count_values — Підраховує кількість усіх знач
 
 **Приклад #1 Приклад використання **array_count_values()****
 
-` <?php$array u003d array(1, "hello", 1, "world", "hello");print_r(array_count_values($array));?> `
+` <?php$array = array(1, "hello", 1, "world", "hello");print_r(array_count_values($array));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[1] u003d> 2
-[hello] u003d> 2
-[Світ] u003d> 1
+[1] => 2
+[hello] => 2
+[Світ] => 1
 )
 
 ### Дивіться також

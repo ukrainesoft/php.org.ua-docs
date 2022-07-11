@@ -34,8 +34,8 @@ public **SolrDisMaxQuery::setBigramPhraseSlop**(string `$slop`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setBigramPhraseSlop()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->setBigramPhraseSlop(5);echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setBigramPhraseSlop(5);echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&ps2u003d5
+q=lucene&defType=edismax&ps2=5

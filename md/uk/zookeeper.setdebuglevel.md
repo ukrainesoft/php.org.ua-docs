@@ -7,7 +7,7 @@
 
 # Zookeeper::setDebugLevel
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::setDebugLevel — Встановлює рівень логування для
 бібліотеки
@@ -43,7 +43,7 @@ public static **Zookeeper::setDebugLevel**(int `$logLevel`): bool
 
 Установка рівня логування
 
-` <?php$r u003d Zookeeper::setDebugLevel(Zookeeper::LOG_LEVEL_WARN);if ($r) echo 'Успішно';else echo 'Помилка';?>?>`
+` <?php$r = Zookeeper::setDebugLevel(Zookeeper::LOG_LEVEL_WARN);if ($r) echo 'Успішно';else echo 'Помилка';?>?>`
 
 Результат виконання цього прикладу:
 

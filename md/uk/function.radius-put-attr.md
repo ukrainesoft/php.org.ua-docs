@@ -7,7 +7,7 @@
 
 #radius_put_attr
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_put_attr — Приєднує бінарний атрибут
 
@@ -17,8 +17,8 @@ radius_put_attr — Приєднує бінарний атрибут
 resource `$radius_handle`,
 int `$type`,
 string `$value`,
-int `$options` u003d 0,
-int `$tag` u003d ?
+int `$options` = 0,
+int `$tag` = ?
 ): bool
 
 Приєднує бінарний атрибут до запиту RADIUS.
@@ -58,15 +58,15 @@ int `$tag` u003d ?
 
 ### Список змін
 
-| Версія                                                 | Опис |
-| ------------------------------------------------------ | ---- |
-| PECL radius 1.3.0 Додані параметри `options` та `tag`. |      |
+| Версія                                             | Опис |
+| -------------------------------------------------- | ---- |
+| PECL radius 1.3.0 Додані параметри options та tag. |      |      
 
 ### Приклади
 
 **Приклад #1 Приклад використання **radius_put_attr()****
 
-` <?phpmt_srand(time());$chall u003d mt_rand();$chapval u003d md5(pack('Ca*',1 , 'sepp' . $chall));$pass u003d pack('CH*', 1, $chapval);if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {    echo 'Помилка Radius:' . radius_strerror($res). "
+` <?phpmt_srand(time());$chall = mt_rand();$chapval = md5(pack('Ca*',1 , 'sepp' . $chall));$pass = pack('CH*', 1, $chapval);if (!radius_put_attr($res, RADIUS_CHAP_PASSWORD, $pass)) {    echo 'Помилка Radius:' . radius_strerror($res). "
 <br />";   exit;}?> `
 
 ### Дивіться також

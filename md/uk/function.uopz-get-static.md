@@ -40,12 +40,12 @@ uopz_get_static — Повертає статичні змінні в облас
 
 **Приклад #1 Просте використання **uopz_get_static()****
 
-` <?phpfunction foo() {    static $bar u003d 'baz';}var_dump(uopz_get_static('foo'));?> `
+` <?phpfunction foo() {    static $bar = 'baz';}var_dump(uopz_get_static('foo'));?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["bar"]u003d>
+["bar"]=>
 string(3) "baz"
 }
 

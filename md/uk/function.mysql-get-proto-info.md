@@ -7,7 +7,7 @@
 
 # mysql_get_proto_info
 
-(PHP 4 u003d 4.0.5, PHP 5)
+(PHP 4 = 4.0.5, PHP 5)
 
 mysql_get_proto_info — Повертає інформацію про протокол MySQL
 
@@ -21,7 +21,7 @@ mysql_get_proto_info — Повертає інформацію про прото
 
 ### Опис
 
-**mysql_get_proto_info**(resource `$link_identifier` u003d NULL): int\|false
+**mysql_get_proto_info**(resource `$link_identifier` = NULL): int\|false
 
 Повертає інформацію про протокол MySQL.
 
@@ -45,7 +45,7 @@ mysql_get_proto_info — Повертає інформацію про прото
 
 **Приклад #1 Приклад використання **mysql_get_proto_info()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}printf("В| %s
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}printf("В| %s
 ", mysql_get_proto_info());?> `
 
 Результатом виконання цього прикладу буде щось подібне:

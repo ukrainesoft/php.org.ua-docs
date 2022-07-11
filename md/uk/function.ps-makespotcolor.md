@@ -7,14 +7,14 @@
 
 #ps_makespotcolor
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_makespotcolor — Створює плашковий колір
 
 ### Опис
 
 **ps_makespotcolor**(resource `$psdoc`, string `$name`, int `$reserved`
-u003d 0): int
+= 0): int
 
 Створює плашковий колір із поточного кольору заливки. Колір заливки повинен
 бути визначений у колірному просторі rgb, cmyk чи gray. Назва
@@ -42,8 +42,8 @@ u003d 0): int
 
 **Приклад #1 Створення та використання плашкового кольору**
 
-` <?php$ps u003d ps_new();if (!ps_open_file($ps, "spotcolor.ps")) {  print "Не вдається відкрити файл PostScript
-";  exit;}ps_set_info($ps, "Creator", "spotcolor.php");ps_set_info($ps, "Author", "Уве Штайнманн");ps_set_info($ps, "Title", "Приклад пла );ps_begin_page($ps, 596, 842);ps_setcolor($ps, "fill", "cmyk", 0.37, 0.0, 0.34, 0.34);$spotcolor u003d ps_makespotcolor$5 ;ps_setcolor($ps, "fill", "spot", $spotcolor, 0.5, 0.0, 0.0);ps_moveto($ps, 100, 100);ps_lineto($ps, 100, 200);ps_line , 200);ps_lineto($ps, 200, 100);ps_lineto($ps, 100, 100);ps_fill($ps);ps_end_page($ps);ps_delete($ps);?> `
+` <?php$ps = ps_new();if (!ps_open_file($ps, "spotcolor.ps")) {  print "Не вдається відкрити файл PostScript
+";  exit;}ps_set_info($ps, "Creator", "spotcolor.php");ps_set_info($ps, "Author", "Уве Штайнманн");ps_set_info($ps, "Title", "Приклад пла );ps_begin_page($ps, 596, 842);ps_setcolor($ps, "fill", "cmyk", 0.37, 0.0, 0.34, 0.34);$spotcolor = ps_makespotcolor$5 ;ps_setcolor($ps, "fill", "spot", $spotcolor, 0.5, 0.0, 0.0);ps_moveto($ps, 100, 100);ps_lineto($ps, 100, 200);ps_line , 200);ps_lineto($ps, 200, 100);ps_lineto($ps, 100, 100);ps_fill($ps);ps_end_page($ps);ps_delete($ps);?> `
 
 У цьому прикладі створюється плашковий колір "PANTONE 5565 C", який
 є більш темно-зеленим (оливковим) і заповнює прямокутник з

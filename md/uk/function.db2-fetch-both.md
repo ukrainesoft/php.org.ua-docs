@@ -8,14 +8,14 @@
 
 #db2_fetch_both
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_fetch_both — Повертає масив, індексований як на ім'я
 стовпця, так і за позицією, що представляє рядок у наборі результатів
 
 ### Опис
 
-**db2_fetch_both**(resource `$stmt`, int `$row_number` u003d -1): array
+**db2_fetch_both**(resource `$stmt`, int `$row_number` = -1): array
 
 Повертає масив, індексований як на ім'я стовпця, так і на
 позиції, що представляє рядок у наборі результатів. Зверніть увагу,
@@ -52,7 +52,7 @@ db2_fetch_both — Повертає масив, індексований як н
 наступному прикладі доступ до стовпців у повертається масиві
 здійснюється як на ім'я стовпця, і по числовому індексу.
 
-` <?php$sql u003d "SELECT id, name, breed, weight FROM animals ORDER BY breed";$stmt u003d db2_prepare($conn, $sql);$result u003d db2_execute($stm ($stmt)) {    printf ("%-5d %-16s %-32s %10s
+` <?php$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";$stmt = db2_prepare($conn, $sql);$result = db2_execute($stm ($stmt)) {    printf ("%-5d %-16s %-32s %10s
 ",        $row['ID'], $row[0], $row['BREED'], $row[3]);}?> `
 
 Результат виконання цього прикладу:
@@ -69,8 +69,8 @@ db2_fetch_both — Повертає масив, індексований як н
 наступний приклад витягується кожен другий рядок у наборі результатів,
 починаючи з другого рядка.
 
-` <?php$sql u003d "SELECT id, name, breed, weight FROM animals ORDER BY breed";$result u003d db2_exec($stmt, $sql, array('cursor' u003d> DB2_SCR while($row u003d db2_fetch_both($result, $i)) {    printf ("%-5d %-16s %-32s %10s
-",        $row[0], $row['NAME'], $row[2], $row['WEIGHT']);    $i u003d $i + 2;}?> `
+` <?php$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";$result = db2_exec($stmt, $sql, array('cursor' => DB2_SCR while($row = db2_fetch_both($result, $i)) {    printf ("%-5d %-16s %-32s %10s
+",        $row[0], $row['NAME'], $row[2], $row['WEIGHT']);    $i = $i + 2;}?> `
 
 Результат виконання цього прикладу:
 

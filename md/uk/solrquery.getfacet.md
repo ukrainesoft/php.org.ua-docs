@@ -7,7 +7,7 @@
 
 # SolrQuery::getFacet
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacet — Повертає значення параметра фасета
 

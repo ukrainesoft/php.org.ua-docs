@@ -7,14 +7,14 @@
 
 # Swoole\Server::connection_info
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::connection_info — Отримує інформацію про з'єднання
 опис файлу
 
 ### Опис
 
-public **Swoole\Server::connection_info**(int `$fd`, int `$reactor_id` u003d
+public **Swoole\Server::connection_info**(int `$fd`, int `$reactor_id` =
 ?): array
 
 ### Список параметрів

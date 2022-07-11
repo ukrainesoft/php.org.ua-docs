@@ -7,7 +7,7 @@
 
 # Countable::count
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 Countable::count — Кількість елементів об'єкта
 
@@ -34,7 +34,7 @@ public **Countable::count**(): int
 
 **Приклад #1 Приклад використання **Countable::count()****
 
-`<?phpclass myCounter implements Countable {    private $count u003d 0; public function count() {         return ++$this->count; }}$counter u003d new myCounter;for($iu003d0; $i<10; ++$i) {   echo "Я порахований " . count($counter) . "Раз
+`<?phpclass myCounter implements Countable {    private $count = 0; public function count() {         return ++$this->count; }}$counter = new myCounter;for($i=0; $i<10; ++$i) {   echo "Я порахований " . count($counter) . "Раз
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -38,4 +38,4 @@ abstract public **mysql_xdevapi\CrudOperationBindable::bind**(array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CrudOperationBindable::bind()****
 
-` <?php$res u003d $coll->modify('name like :name')->arrayInsert('job[0]', 'Calciatore')->bind(['name' u003d> 'ENTITY']) ->execute();$res u003d $table->delete()->orderby('age desc')->where('age < 20 and age >>12 and name !u003d :name')->bind([ 'name' u003d> 'Tierney'])->limit(2)->execute();?> `
+` <?php$res = $coll->modify('name like :name')->arrayInsert('job[0]', 'Calciatore')->bind(['name' => 'ENTITY']) ->execute();$res = $table->delete()->orderby('age desc')->where('age < 20 and age >>12 and name != :name')->bind([ 'name' => 'Tierney'])->limit(2)->execute();?> `

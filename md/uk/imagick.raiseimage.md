@@ -45,4 +45,4 @@ bool `$raise`
 
 **Приклад #1 Приклад використання **Imagick::raiseImage()****
 
-`<?phpfunction raiseImage($imagePath, $width, $height, $x, $y, $raise) {    $imagick u003d new \Imagick(realpath($imagePath)); //x і y нічого не роблять? $imagick->raiseImage($width, $height, $x, $y, $raise); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction raiseImage($imagePath, $width, $height, $x, $y, $raise) {    $imagick = new \Imagick(realpath($imagePath)); //x і y нічого не роблять? $imagick->raiseImage($width, $height, $x, $y, $raise); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

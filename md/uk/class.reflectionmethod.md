@@ -20,17 +20,17 @@ class **ReflectionMethod** extends
 
 /\* Константи \*/
 
-const int `IS_STATIC` u003d 16;
+const int `IS_STATIC` = 16;
 
-const int `IS_PUBLIC` u003d 1;
+const int `IS_PUBLIC` = 1;
 
-const int `IS_PROTECTED` u003d 2;
+const int `IS_PROTECTED` = 2;
 
-const int `IS_PRIVATE` u003d 4;
+const int `IS_PRIVATE` = 4;
 
-const int `IS_ABSTRACT` u003d 64;
+const int `IS_ABSTRACT` = 64;
 
-const int `IS_FINAL` u003d 32;
+const int `IS_FINAL` = 32;
 
 /\* Властивості \*/
 
@@ -49,10 +49,10 @@ public [\_\_construct](reflectionmethod.construct.md)(string
 `$classMethod`)
 
 public static [export](reflectionmethod.export.md)(string `$class`,
-string `$name`, bool `$return` u003d **`false`**): string
+string `$name`, bool `$return` = **`false`**): string
 
 public [getClosure](reflectionmethod.getclosure.md)(?object `$object`
-u003d **`null`**): [Closure](class.closure.md)
+= **`null`**): [Closure](class.closure.md)
 
 public [getDeclaringClass](reflectionmethod.getdeclaringclass.md)():
 [ReflectionClass](class.reflectionclass.md)
@@ -100,7 +100,7 @@ void
 
 public
 [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)():

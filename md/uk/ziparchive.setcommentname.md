@@ -7,7 +7,7 @@
 
 # ZipArchive::setCommentName
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.4.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.4.0)
 
 ZipArchive::setCommentName — Встановлює коментар до елемента,
 заданому на ім'я
@@ -36,4 +36,4 @@ public **ZipArchive::setCommentName**(string `$name`, string
 
 **Приклад #1 Відкриття архіву та встановлення коментаря до елемента**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test.zip');if ($res u003du003du003d TRUE) {    $zip->setCommentName('entry1.txt', 'нова запис коментар'; $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test.zip');if ($res === TRUE) {    $zip->setCommentName('entry1.txt', 'нова запис коментар'; $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `

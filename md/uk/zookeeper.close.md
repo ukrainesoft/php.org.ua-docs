@@ -7,7 +7,7 @@
 
 # Zookeeper::close
 
-(PECL zookeeper \>u003d 0.5.0)
+(PECL zookeeper \>= 0.5.0)
 
 Zookeeper::close — Закриває обробник zookeeper та звільняє будь-які
 ресурси

@@ -14,7 +14,7 @@
 рядки не змінено, за винятком додавання даних, що надсилаються назад
 під час обробки.
 
-` <?php# створення клієнта gearman$gmcu003d new GearmanClient();# вказівка сервера за мовчанням (localhost)$gmc->addServer();# реєстрація функцій зворотного cc>$ ->setDataCallback("reverse_data");$gmc->setStatusCallback("reverse_status");$gmc->setCompleteCallback("reverse_complete");$gmc->setFailCallback("reverse_fail");# вказ 'foo'] u003d 'bar';# додавання двох задань$tasku003d $gmc->addTask("reverse", "foo", $data);$task2u003d $gmc->addTaskLow("reverse", , NULL);# виконання задань паралельно (використання двох обробників)if (! $gmc->runTasks()){   echo "ERROR " . $gmc->error() . "
+` <?php# створення клієнта gearman$gmc= new GearmanClient();# вказівка сервера за мовчанням (localhost)$gmc->addServer();# реєстрація функцій зворотного cc>$ ->setDataCallback("reverse_data");$gmc->setStatusCallback("reverse_status");$gmc->setCompleteCallback("reverse_complete");$gmc->setFailCallback("reverse_fail");# вказ 'foo'] = 'bar';# додавання двох задань$task= $gmc->addTask("reverse", "foo", $data);$task2= $gmc->addTaskLow("reverse", , NULL);# виконання задань паралельно (використання двох обробників)if (! $gmc->runTasks()){   echo "ERROR " . $gmc->error() . "
 ";   exit;}echo "DONE
 ";function reverse_created($task){    echo "CREATED: " . $task->jobHandle() . "
 ";}function reverse_status($task){    echo "STATUS: " . $task->jobHandle() . " - " . $task->taskNumerator() > > 
@@ -24,11 +24,11 @@
 ";}?> `
 
 `<?phpecho "Starting
-";# Створення обробника.$gmworkeru003d new GearmanWorker();# Вказівка сервера за мовчанням   (localhost).$gmworker->addServer();# Реєстрація функція "reverse" швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Waiting for job...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
+";# Створення обробника.$gmworker= new GearmanWorker();# Вказівка сервера за мовчанням   (localhost).$gmworker->addServer();# Реєстрація функція "reverse" швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Waiting for job...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
 ";    break;  }}function reverse_fn($job){ echo "Received job: " . $job->handle() . "
-";  $workload u003d $job->workload();  $workload_size u003d $job->workloadSize(); echo "Workload: $workload ($workload_size)
-";| # Цей цикл не є необхідним, але|показує як виконується робота  for ($xu003d 0; $x < $workload_size; $x++) |
+";  $workload = $job->workload();  $workload_size = $job->workloadSize(); echo "Workload: $workload ($workload_size)
+";| # Цей цикл не є необхідним, але|показує як виконується робота  for ($x= 0; $x < $workload_size; $x++) |
 ";   $job->sendStatus($x+1, $workload_size);   $job->sendData(substr($workload, $x, 1));    sleep(1);  }  $$ echo "Result: $result
 ";  # Возвращаем, когда необходимо отправить результат обратно клиенту.  return $result;}# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:function reverse_fn_fast($job){  return strrev($job->workload());} ?> `
 

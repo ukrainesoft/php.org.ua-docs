@@ -8,7 +8,7 @@
 
 # SQLite3::changes
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::changes — Отримати кількість рядків, які були
 змінено/віддалено/вставлено останнім запитом
@@ -33,4 +33,4 @@ public **SQLite3::changes**(): int
 
 **Приклад #1 Приклад використання **SQLite3::changes()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$query u003d $db->exec('UPDATE counter SET viewsu003d0 WHERE pageu003d"test"');if ($query) {     Кількість змінених рядків: ', $db->changes();}?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$query = $db->exec('UPDATE counter SET views=0 WHERE page="test"');if ($query) {     Кількість змінених рядків: ', $db->changes();}?> `

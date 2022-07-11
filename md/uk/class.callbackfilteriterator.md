@@ -7,7 +7,7 @@
 
 # Клас CallbackFilterIterator
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -77,7 +77,7 @@ Callback-функція може приймати до трьох аргумен
 
 **Приклад #2 Основні приклади зворотного виклику**
 
-` <?php$dir u003d new FilesystemIterator(__DIR__);// Фільтр великих файлів ( > 100MB)function is_large_file($current) {    return $current->isFile() >8 large_files u003d new CallbackFilterIterator($dir, 'is_large_file');// Фільтр каталогів$files u003d new CallbackFilterIterator($dir, function ($current, $key, $  &$         ¦     ¦         ¦   | ->isDot();});?> `
+` <?php$dir = new FilesystemIterator(__DIR__);// Фільтр великих файлів ( > 100MB)function is_large_file($current) {    return $current->isFile() >8 large_files = new CallbackFilterIterator($dir, 'is_large_file');// Фільтр каталогів$files = new CallbackFilterIterator($dir, function ($current, $key, $  &$         ¦     ¦         ¦   | ->isDot();});?> `
 
 ## Зміст
 

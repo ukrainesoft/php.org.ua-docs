@@ -7,7 +7,7 @@
 
 # runkit7_object_id
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_object_id — Повертає дескриптор цілого об'єкта для
 даного об'єкта

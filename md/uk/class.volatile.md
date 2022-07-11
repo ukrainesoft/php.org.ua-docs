@@ -7,7 +7,7 @@
 
 # Клас Volatile
 
-(PECL pthreads \>u003d 3.0.0)
+(PECL pthreads \>= 3.0.0)
 
 ## Вступ
 
@@ -40,7 +40,7 @@ public [Threaded::isTerminated](threaded.isterminated.md)(): bool
 
 public
 [Threaded::merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` u003d ?): bool
+`$from`, bool `$overwrite` = ?): bool
 
 public [Threaded::notify](threaded.notify.md)(): bool
 
@@ -60,7 +60,7 @@ public
 `...$args`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [Threaded::wait](threaded.wait.md)(int `$timeout` u003d ?): bool
+public [Threaded::wait](threaded.wait.md)(int `$timeout` = ?): bool
 
 }
 
@@ -68,7 +68,7 @@ public [Threaded::wait](threaded.wait.md)(int `$timeout` u003d ?): bool
 
 **Приклад #1 Нова семантика іммутабельності Threaded**
 
-` <?phpclass Task extends Threaded{    public function __construct()   {        $this->data u003d new Threaded(); // спроба перевизначити Threaded-властивість Threaded-класу (помилка)        $this->data u003d new StdClass(); }}var_dump((new Task())->data); `
+` <?phpclass Task extends Threaded{    public function __construct()   {        $this->data = new Threaded(); // спроба перевизначити Threaded-властивість Threaded-класу (помилка)        $this->data = new StdClass(); }}var_dump((new Task())->data); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -76,7 +76,7 @@ RuntimeException: Threaded members previously set to Threaded objects are immuta
 
 **Приклад #2 Приклад використання Volatile**
 
-` <?phpclass Task extends Volatile{    public function __construct()   {        $this->data u003d new Threaded(); // спроба перевизначити Threaded-властивість Volatile-класу (коректно)        $this->data u003d new StdClass(); }}var_dump((new Task())->data); `
+` <?phpclass Task extends Volatile{    public function __construct()   {        $this->data = new Threaded(); // спроба перевизначити Threaded-властивість Volatile-класу (коректно)        $this->data = new StdClass(); }}var_dump((new Task())->data); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

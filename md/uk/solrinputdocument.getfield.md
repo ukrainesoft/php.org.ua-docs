@@ -7,7 +7,7 @@
 
 # SolrInputDocument::getField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::getField — Отримує поле на ім'я
 

@@ -7,7 +7,7 @@
 
 # PharFileInfo::compress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharFileInfo::compress — Стиснути поточний файл за допомогою zlib або bzip2
 
@@ -48,7 +48,7 @@ public **PharFileInfo::compress**(int `$compression`): bool
 
 **Приклад #1 Приклад використання **PharFileInfo::compress()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $fileu003du003d$p['myfile.txt']; var_dump($file->isCompressed(Phar::BZ2)); $p['myfile.txt']->compress(Phar::BZ2); var_dump($file->isCompressed(Phar::BZ2));} catch (Exception $e) {   echo 'Операції створення/зміни на my.phar завершилися помилкою: ',>$
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $file==$p['myfile.txt']; var_dump($file->isCompressed(Phar::BZ2)); $p['myfile.txt']->compress(Phar::BZ2); var_dump($file->isCompressed(Phar::BZ2));} catch (Exception $e) {   echo 'Операції створення/зміни на my.phar завершилися помилкою: ',>$
 
 Результат виконання цього прикладу:
 

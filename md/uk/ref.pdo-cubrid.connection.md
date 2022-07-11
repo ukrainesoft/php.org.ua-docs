@@ -7,7 +7,7 @@
 
 #PDO_CUBRID DSN
 
-(PECL PDO_CUBRID \>u003d 8.3.0.0001)
+(PECL PDO_CUBRID \>= 8.3.0.0001)
 
 PDO_CUBRID DSN — З'єднання з базою даних CUBRID
 
@@ -41,4 +41,4 @@ PDO_CUBRID DSN — З'єднання з базою даних CUBRID
 Наступний приклад демонструє PDO_CUBRID DSN для з'єднання з базою
 CUBRID:
 
-cubrid:hostu003dlocalhost;portu003d33000;dbnameu003ddemodb
+cubrid:host=localhost;port=33000;dbname=demodb

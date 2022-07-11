@@ -7,7 +7,7 @@
 
 # OAuth::setVersion
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::setVersion — Встановити версію OAuth
 

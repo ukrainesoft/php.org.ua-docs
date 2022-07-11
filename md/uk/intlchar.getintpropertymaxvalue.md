@@ -29,7 +29,7 @@ public static **IntlChar::getIntPropertyMaxValue**(int `$property`): int
 
 Максимальне значення, що повертається
 [IntlChar::getIntPropertyValue()](intlchar.getintpropertyvalue.md) для
-властивості Unicode `<u003d0`, якщо властивість не входить у допустимий діапазон.
+властивості Unicode `<=0`, якщо властивість не входить у допустимий діапазон.
 
 ### Приклади
 

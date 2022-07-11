@@ -8,7 +8,7 @@
 
 # SQLite3::createFunction
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::createFunction — Реєструє функцію PHP для використання в
 як скалярна функція SQL
@@ -18,8 +18,8 @@ SQLite3::createFunction — Реєструє функцію PHP для вико�
 public **SQLite3::createFunction**(
 string `$name`,
 [callable](language.types.callable.md) `$callback`,
-int `$argCount` u003d -1,
-int `$flags` u003d 0
+int `$argCount` = -1,
+int `$flags` = 0
 ): bool
 
 Реєструє функцію PHP або функцію користувача для використання
@@ -65,15 +65,15 @@ $value,
 
 ### Список змін
 
-| Версія | Опис                      |
-| ------ | ------------------------- |
-| 7.1.4  | Доданий параметр `flags`. |
+| Версія | Опис                    |
+| ------ | ----------------------- |
+| 7.1.4  | Доданий параметр flags. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SQLite3::createFunction()****
 
-` <?phpfunction my_udf_md5($string) {    return md5($string);}$db u003d new SQLite3('mysqlitedb.db');$db->createFunction('my_udf_md5', 'my_ud ->querySingle('SELECT my_udf_md5("test")'));?> `
+` <?phpfunction my_udf_md5($string) {    return md5($string);}$db = new SQLite3('mysqlitedb.db');$db->createFunction('my_udf_md5', 'my_ud ->querySingle('SELECT my_udf_md5("test")'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

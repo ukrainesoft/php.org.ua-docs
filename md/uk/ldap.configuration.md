@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                      | Місце зміни | Список змін    |
 | ---------------------------------------------------------- | ----------- | -------------- |
-| [ldap.max_links](ldap.configuration.md#ini.ldap.max_links) | "-1"        | PHP_INI_SYSTEM | 
+| [ldap.max_links](ldap.configuration.md#ini.ldap.max_links) | "-1"        | PHP_INI_SYSTEM |
 
 **Опції конфігурації LDAP**
 

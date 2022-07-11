@@ -7,7 +7,7 @@
 
 # Swoole\Event::add
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Event::add - Додає нові callback-функції сокету в EventLoop
 
@@ -16,8 +16,8 @@ Swoole\Event::add - Додає нові callback-функції сокету в 
 public static **Swoole\Event::add**(
 int `$fd`,
 [callable](language.types.callable.md) `$read_callback`,
-[callable](language.types.callable.md) `$write_callback` u003d ?,
-string `$events` u003d ?
+[callable](language.types.callable.md) `$write_callback` = ?,
+string `$events` = ?
 ): bool
 
 ### Список параметрів

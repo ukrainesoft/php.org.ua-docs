@@ -8,7 +8,7 @@
 
 # EventConfig::setFlags
 
-(PECL event \>u003d 2.0.2-alpha)
+(PECL event \>= 2.0.2-alpha)
 
 EventConfig::setFlags — Встановлює один або кілька прапорів для
 налаштування можливої ініціалізації EventBase

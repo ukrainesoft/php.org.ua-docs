@@ -7,7 +7,7 @@
 
 # Клас EvIdle
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -52,12 +52,12 @@ public `$priority`;
 public [\_\_construct](evidle.construct.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?, int `$priority` u003d ?)
+`$data` = ?, int `$priority` = ?)
 
 final public static [createStopped](evidle.createstopped.md)( string
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?, int `$priority` u003d ?): object
+`$data` = ?, int `$priority` = ?): object
 
 /\* Наслідувані методи \*/
 
@@ -71,7 +71,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

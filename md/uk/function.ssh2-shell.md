@@ -7,7 +7,7 @@
 
 # ssh2_shell
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_shell — Запитує інтерактивний термінал
 
@@ -15,11 +15,11 @@ ssh2_shell — Запитує інтерактивний термінал
 
 **ssh2_shell**(
 resource `$session`,
-string `$term_type` u003d "vanilla",
-?array `$env` u003d **`null`**,
-int `$width` u003d 80,
-int `$height` u003d 25,
-int `$width_height_type` u003d SSH2_TERM_UNIT_CHARS
+string `$term_type` = "vanilla",
+?array `$env` = **`null`**,
+int `$width` = 80,
+int `$height` = 25,
+int `$width_height_type` = SSH2_TERM_UNIT_CHARS
 ): resource \ | false
 
 Відкриває термінал до віддаленого сервера та виділяє йому потік.
@@ -58,7 +58,7 @@ int `$width_height_type` u003d SSH2_TERM_UNIT_CHARS
 
 **Приклад #1 Запит інтерактивного терміналу**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stream u003d ssh2_shell($connection, 'vt102', null, null, 24, SSH2_TERM_UNIT_CHARS);?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stream = ssh2_shell($connection, 'vt102', null, null, 24, SSH2_TERM_UNIT_CHARS);?> `
 
 ### Дивіться також
 

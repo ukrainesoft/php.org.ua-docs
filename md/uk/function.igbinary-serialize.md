@@ -7,7 +7,7 @@
 
 #igbinary_serialize
 
-(PECL igbinary \>u003d 1.1.1)
+(PECL igbinary \>= 1.1.1)
 
 igbinary_serialize — Створює компактне двійкове, що зберігається.
 подання значення
@@ -67,15 +67,15 @@ igbinary_serialize — Створює компактне двійкове, що 
 
 **Приклад #1 Приклад використання **igbinary_serialize()****
 
-` <?php$ser u003d igbinary_serialize(['test', 'test']);echo urlencode($ser), "
+` <?php$ser = igbinary_serialize(['test', 'test']);echo urlencode($ser), "
 ";var_export(igbinary_unserialize($ser));?> `
 
 Результат виконання цього прикладу:
 
 %00%00%00%02%14%02%06%00%11%04test%06%01%0E%00
 array (
-0 u003d> 'test',
-1 u003d> 'test',
+0 => 'test',
+1 => 'test',
 )
 
 ### Примітки

@@ -7,7 +7,7 @@
 
 # fann_length_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_length_train_data — Повертає кількість шаблонів у навчальних закладах
 даних

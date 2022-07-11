@@ -7,13 +7,13 @@
 
 # Swoole\Client::recv
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::recv — Отримує дані з віддаленого сокету
 
 ### Опис
 
-public **Swoole\Client::recv**(string `$size` u003d ?, string `$flag` u003d ?):
+public **Swoole\Client::recv**(string `$size` = ?, string `$flag` = ?):
 void
 
 **Увага**

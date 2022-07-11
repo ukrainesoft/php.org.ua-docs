@@ -7,7 +7,7 @@
 
 # Клас Phar
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 ## Вступ
 
@@ -23,38 +23,38 @@ implements [Countable](class.countable.md),
 
 /\* Успадковані константи \*/
 
-const int `FilesystemIterator::CURRENT_AS_PATHNAME` u003d 32;
+const int `FilesystemIterator::CURRENT_AS_PATHNAME` = 32;
 
-const int `FilesystemIterator::CURRENT_AS_FILEINFO` u003d 0;
+const int `FilesystemIterator::CURRENT_AS_FILEINFO` = 0;
 
-const int `FilesystemIterator::CURRENT_AS_SELF` u003d 16;
+const int `FilesystemIterator::CURRENT_AS_SELF` = 16;
 
-const int `FilesystemIterator::CURRENT_MODE_MASK` u003d 240;
+const int `FilesystemIterator::CURRENT_MODE_MASK` = 240;
 
-const int `FilesystemIterator::KEY_AS_PATHNAME` u003d 0;
+const int `FilesystemIterator::KEY_AS_PATHNAME` = 0;
 
-const int `FilesystemIterator::KEY_AS_FILENAME` u003d 256;
+const int `FilesystemIterator::KEY_AS_FILENAME` = 256;
 
-const int `FilesystemIterator::FOLLOW_SYMLINKS` u003d 512;
+const int `FilesystemIterator::FOLLOW_SYMLINKS` = 512;
 
-const int `FilesystemIterator::KEY_MODE_MASK` u003d 3840;
+const int `FilesystemIterator::KEY_MODE_MASK` = 3840;
 
-const int `FilesystemIterator::NEW_CURRENT_AND_KEY` u003d 256;
+const int `FilesystemIterator::NEW_CURRENT_AND_KEY` = 256;
 
-const int `FilesystemIterator::SKIP_DOTS` u003d 4096;
+const int `FilesystemIterator::SKIP_DOTS` = 4096;
 
-const int `FilesystemIterator::UNIX_PATHS` u003d 8192;
+const int `FilesystemIterator::UNIX_PATHS` = 8192;
 
 /\* Методи \*/
 
 public [\_\_construct](phar.construct.md)(string `$filename`, int
-`$flags` u003d FilesystemIterator::SKIP_DOTS \|
-FilesystemIterator::UNIX_PATHS, ?string `$alias` u003d **`null`**)
+`$flags` = FilesystemIterator::SKIP_DOTS \|
+FilesystemIterator::UNIX_PATHS, ?string `$alias` = **`null`**)
 
 public [addEmptyDir](phar.addemptydir.md)(string `$directory`): void
 
 public [addFile](phar.addfile.md)(string `$filename`, ?string
-`$localName` u003d **`null`**): void
+`$localName` = **`null`**): void
 
 public [addFromString](phar.addfromstring.md)(string `$localName`,
 string `$contents`): void
@@ -62,40 +62,40 @@ string `$contents`): void
 final public static [apiVersion](phar.apiversion.md)(): string
 
 public [buildFromDirectory](phar.buildfromdirectory.md)(string
-`$directory`, string `$pattern` u003d ""): array
+`$directory`, string `$pattern` = ""): array
 
 public
 [buildFromIterator](phar.buildfromiterator.md)([Traversable](class.traversable.md)
-`$iterator`, ?string `$baseDirectory` u003d **`null`**): array
+`$iterator`, ?string `$baseDirectory` = **`null`**): array
 
 final public static [canCompress](phar.cancompress.md)(int
-`$compression` u003d 0): bool
+`$compression` = 0): bool
 
 final public static [canWrite](phar.canwrite.md)(): bool
 
 public [compress](phar.compress.md)(int `$compression`, ?string
-`$extension` u003d **`null`**): ?[Phar](class.phar.md)
+`$extension` = **`null`**): ?[Phar](class.phar.md)
 
 public [compressFiles](phar.compressfiles.md)(int `$compression`):
 void
 
-public [convertToData](phar.converttodata.md)(?int `$format` u003d
-**`null`**, ?int `$compression` u003d **`null`**, ?string `$extension` u003d
+public [convertToData](phar.converttodata.md)(?int `$format` =
+**`null`**, ?int `$compression` = **`null`**, ?string `$extension` =
 **`null`**): ?[PharData](class.phardata.md)
 
 public [convertToExecutable](phar.converttoexecutable.md)(?int
-`$format` u003d **`null`**, ?int `$compression` u003d **`null`**, ?string
-`$extension` u003d **`null`**): ?[Phar](class.phar.md)
+`$format` = **`null`**, ?int `$compression` = **`null`**, ?string
+`$extension` = **`null`**): ?[Phar](class.phar.md)
 
 public [copy](phar.copy.md)(string `$from`, string `$to`): bool
 
-public [count](phar.count.md)(int `$mode` u003d **`COUNT_NORMAL`**): int
+public [count](phar.count.md)(int `$mode` = **`COUNT_NORMAL`**): int
 
 final public static
-[createDefaultStub](phar.createdefaultstub.md)(?string `$index` u003d
-**`null`**, ?string `$webIndex` u003d **`null`**): string
+[createDefaultStub](phar.createdefaultstub.md)(?string `$index` =
+**`null`**, ?string `$webIndex` = **`null`**): string
 
-public [decompress](phar.decompress.md)(?string `$extension` u003d
+public [decompress](phar.decompress.md)(?string `$extension` =
 **`null`**): ?[Phar](class.phar.md)
 
 public [decompressFiles](phar.decompressfiles.md)(): bool
@@ -105,13 +105,13 @@ public [delMetadata](phar.delmetadata.md)(): bool
 public [delete](phar.delete.md)(string `$localName`): bool
 
 public [extractTo](phar.extractto.md)(string `$directory`,
-array\|string\|null `$files` u003d **`null`**, bool `$overwrite` u003d
+array\|string\|null `$files` = **`null`**, bool `$overwrite` =
 **`false`**): bool
 
 public [getAlias](phar.getalias.md)(): ?string
 
 public [getMetadata](phar.getmetadata.md)(array `$unserializeOptions`
-u003d []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
+= []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getModified](phar.getmodified.md)(): bool
 
@@ -142,15 +142,15 @@ public [isFileFormat](phar.isfileformat.md)(int `$format`): bool
 
 final public static
 [isValidPharFilename](phar.isvalidpharfilename.md)(string `$filename`,
-bool `$executable` u003d **`true`**): bool
+bool `$executable` = **`true`**): bool
 
 public [isWritable](phar.iswritable.md)(): bool
 
 final public static [loadPhar](phar.loadphar.md)(string `$filename`,
-?string `$alias` u003d **`null`**): bool
+?string `$alias` = **`null`**): bool
 
-final public static [mapPhar](phar.mapphar.md)(?string `$alias` u003d
-**`null`**, int `$offset` u003d 0): bool
+final public static [mapPhar](phar.mapphar.md)(?string `$alias` =
+**`null`**, int `$offset` = 0): bool
 
 final public static [mount](phar.mount.md)(string `$pharPath`, string
 `$externalPath`): void
@@ -168,22 +168,22 @@ resource\|string `$value`): void
 
 public [offsetUnset](phar.offsetunset.md)(string `$localName`): void
 
-final public static [running](phar.running.md)(bool `$returnPhar` u003d
+final public static [running](phar.running.md)(bool `$returnPhar` =
 **`true`**): string
 
 public [setAlias](phar.setalias.md)(string `$alias`): bool
 
-public [setDefaultStub](phar.setdefaultstub.md)(?string `$index` u003d
-**`null`**, ?string `$webIndex` u003d **`null`**): bool
+public [setDefaultStub](phar.setdefaultstub.md)(?string `$index` =
+**`null`**, ?string `$webIndex` = **`null`**): bool
 
 public
 [setMetadata](phar.setmetadata.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$metadata`): void
 
 public [setSignatureAlgorithm](phar.setsignaturealgorithm.md)(int
-`$algo`, ?string `$privateKey` u003d **`null`**): void
+`$algo`, ?string `$privateKey` = **`null`**): void
 
-public [setStub](phar.setstub.md)(string `$stub`, int `$len` u003d -1):
+public [setStub](phar.setstub.md)(string `$stub`, int `$len` = -1):
 bool
 
 public [startBuffering](phar.startbuffering.md)(): void
@@ -194,10 +194,10 @@ final public static [unlinkArchive](phar.unlinkarchive.md)(string
 `$filename`): bool
 
 final public static [webPhar](phar.webphar.md)(
-?string `$alias` u003d **`null`**,
-?string `$index` u003d **`null`**,
-?string `$fileNotFoundScript` u003d **`null`**,
-array `$mimeTypes` u003d [], ?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
+?string `$alias` = **`null`**,
+?string `$index` = **`null`**,
+?string `$fileNotFoundScript` = **`null`**,
+array `$mimeTypes` = [], ?[callable](language.types.callable.md) `$rewrite` = **`null`**
 ): void
 
 public [\_\_destruct](phar.destruct.md)()
@@ -218,7 +218,7 @@ string
 
 public
 [RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)(bool
-`$allowLinks` u003d **`false`**): bool
+`$allowLinks` = **`false`**): bool
 
 public
 [RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)():
@@ -257,7 +257,7 @@ int
 
 public
 [DirectoryIterator::getBasename](directoryiterator.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [DirectoryIterator::getCTime](directoryiterator.getctime.md)():
 int
@@ -340,7 +340,7 @@ public [DirectoryIterator::valid](directoryiterator.valid.md)(): bool
 public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
 
 public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
 
@@ -348,7 +348,7 @@ public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
 string
 
 public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` u003d **`null`**): [SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
 string
@@ -367,7 +367,7 @@ public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
 public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
 
 public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` u003d **`null`**): ?[SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
 string
@@ -395,14 +395,14 @@ public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
 public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
 
 public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-u003d "r", bool `$useIncludePath` u003d **`false`**, ?resource `$context` u003d
+= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
 **`null`**): [SplFileObject](class.splfileobject.md)
 
 public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` u003d SplFileObject::class): void
+`$class` = SplFileObject::class): void
 
 public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` u003d SplFileInfo::class): void
+`$class` = SplFileInfo::class): void
 
 public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
 

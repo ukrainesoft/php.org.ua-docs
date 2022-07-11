@@ -8,7 +8,7 @@
 
 # Swoole\Client::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::\_\_construct — Створює синхронний або асинхронний
 TCP/UDP клієнт Swoole за допомогою SSL або без нього
@@ -16,7 +16,7 @@ TCP/UDP клієнт Swoole за допомогою SSL або без нього
 ### Опис
 
 public **Swoole\Client::\_\_construct**(int `$sock_type`, int
-`$is_async` u003d ?)
+`$is_async` = ?)
 
 ### Список параметрів
 

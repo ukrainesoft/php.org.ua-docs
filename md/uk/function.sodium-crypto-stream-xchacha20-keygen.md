@@ -7,7 +7,7 @@
 
 # sodium_crypto_stream_xchacha20_keygen
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_stream_xchacha20_keygen — Повертає безпечний випадковий
 ключ

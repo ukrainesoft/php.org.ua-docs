@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Int64::jsonSerialize
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\BSON\Int64::jsonSerialize — Повертає уявлення, яке
 можна перетворити на JSON

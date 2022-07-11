@@ -140,7 +140,7 @@ fnmatch(3).
 **`RPMTAG_ENHANCEFLAGS`** (int)
 
 **`RPMTAG_ENHANCENAME`** (int)
-Слабкі залежності з індексом бази даних, потрібні librpm u003d 4.13.
+Слабкі залежності з індексом бази даних, потрібні librpm = 4.13.
 
 **`RPMTAG_ENHANCENEVRS`** (int)
 
@@ -221,7 +221,7 @@ fnmatch(3).
 **`RPMTAG_FILETRIGGERINDEX`** (int)
 
 **`RPMTAG_FILETRIGGERNAME`** (int)
-File trigger name, with index database, requires librpm \>u003d 4.13.
+File trigger name, with index database, requires librpm \>= 4.13.
 
 **`RPMTAG_FILETRIGGERPRIORITIES`** (int)
 
@@ -369,7 +369,7 @@ Package name, with database index.
 **`RPMTAG_PAYLOADDIGEST`** (int)
 
 **`RPMTAG_PAYLOADDIGESTALT`** (int)
-З librpm u003d 4.16.
+З librpm = 4.16.
 
 **`RPMTAG_PAYLOADDIGESTALGO`** (int)
 
@@ -448,7 +448,7 @@ Package name, with database index.
 
 **`RPMTAG_RECOMMENDNAME`** (int)
 Рекомендовані слабкі залежності з індексом бази даних, потрібні
-librpm u003d 4.13.
+librpm = 4.13.
 
 **`RPMTAG_RECOMMENDNEVRS`** (int)
 
@@ -505,7 +505,7 @@ librpm u003d 4.13.
 
 **`RPMTAG_SUGGESTNAME`** (int)
 Пропоновані слабкі залежності з індексом бази даних, потрібні librpm
-\>u003d 4.13.
+\>= 4.13.
 
 **`RPMTAG_SUGGESTNEVRS`** (int)
 
@@ -518,7 +518,7 @@ librpm u003d 4.13.
 **`RPMTAG_SUPPLEMENTFLAGS`** (int)
 
 **`RPMTAG_SUPPLEMENTNAME`** (int)
-Слабкі залежності, з індексом бази даних, потрібний librpm u003d 4.13.
+Слабкі залежності, з індексом бази даних, потрібний librpm = 4.13.
 
 **`RPMTAG_SUPPLEMENTNEVRS`** (int)
 
@@ -534,7 +534,7 @@ librpm u003d 4.13.
 
 **`RPMTAG_TRANSFILETRIGGERNAME`** (int)
 Ім'я тригера файлу транзакції, з індексом бази даних, потрібне librpm
-\>u003d 4.13.
+\>= 4.13.
 
 **`RPMTAG_TRANSFILETRIGGERPRIORITIES`** (int)
 
@@ -584,10 +584,10 @@ Trigger name, with database index.
 **`RPMTAG_VERIFYSCRIPTPROG`** (int)
 
 **`RPMTAG_VERITYSIGNATUREALGO`** (int)
-З librpm u003d 4.17.
+З librpm = 4.17.
 
 **`RPMTAG_VERITYSIGNATURES`** (int)
-З librpm u003d 4.17.
+З librpm = 4.17.
 
 **`RPMTAG_VERSION`** (int)
 

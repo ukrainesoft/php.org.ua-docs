@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Binary::getData
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Binary::getData — Повертає дані Binary
 
@@ -32,7 +32,7 @@ final public **MongoDB\BSON\Binary::getData**(): string
 
 **Приклад #1 Приклад використання **MongoDB\BSON\Binary::getData()****
 
-` <?php$binary u003d new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getData());?> `
+` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getData());?> `
 
 Результат виконання цього прикладу:
 

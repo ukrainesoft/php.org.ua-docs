@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer — Повертає
 сервер, на якому було виконано команду

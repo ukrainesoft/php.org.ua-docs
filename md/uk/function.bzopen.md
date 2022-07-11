@@ -7,7 +7,7 @@
 
 #bzopen
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzopen — Відкриває файл, стислий за допомогою bzip2
 
@@ -35,7 +35,7 @@ bzopen — Відкриває файл, стислий за допомогою b
 
 **Приклад #1 Приклад використання **bzopen()****
 
-` <?php$file u003d "/tmp/foo.bz2";$bz u003d bzopen($file, "r") or die("Неможу відкрити $file для читання");bzclose($bz);?> `
+` <?php$file = "/tmp/foo.bz2";$bz = bzopen($file, "r") or die("Неможу відкрити $file для читання");bzclose($bz);?> `
 
 ### Дивіться також
 

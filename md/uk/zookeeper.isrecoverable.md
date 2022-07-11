@@ -8,7 +8,7 @@ ZooKeeper
 
 # Zookeeper::isRecoverable
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::isRecoverable — Перевіряє, чи можна відновити поточне
 стан підключення ZooKeeper

@@ -26,4 +26,4 @@
 локалі, десятковий роздільник у вигляді коми (тоді як BCMath працює
 тільки з десятковою точкою).
 
-`<?php$num1 u003d 0; // (string) 0 u003d> '0'$num2 u003d -0.000005; // (string) -0.000005 u003d> '-5.05E-6'echo bcadd($num1, $num2, 6); // u003d> '0.000000'setlocale(LC_NUMERIC, 'de_DE'); // десяткова кома замість|точки$num2 u003d 1.2; // (string) 1.2 u003d> '1,2'echo bcsub($num1, $num2, 1); // u003d> '0.0'?> `
+`<?php$num1 = 0; // (string) 0 => '0'$num2 = -0.000005; // (string) -0.000005 => '-5.05E-6'echo bcadd($num1, $num2, 6); // => '0.000000'setlocale(LC_NUMERIC, 'de_DE'); // десяткова кома замість|точки$num2 = 1.2; // (string) 1.2 => '1,2'echo bcsub($num1, $num2, 1); // => '0.0'?> `

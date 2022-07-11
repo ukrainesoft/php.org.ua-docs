@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Format::underline
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Format::underline — Підкреслений
 
@@ -35,4 +35,4 @@ public **Vtiful\Kernel\Format::underline**(resource `$handle`, int
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel  u003d new \Vtiful\Kernel\Excel($config);$fileObject u003d $excel->fileName('tutorial01.xlsx') ;$fileHandleu003du003d$fileObject->getHandle();$underlineStyleu003du003d\Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);$fileObject->header(['name', 'age'])   ->data([['viest', 21]]))   ->setColumn('A:A', 200,$$underlineStyle)   ->output();?> `
+` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$underlineStyle==\Vtiful\Kernel\Format::underline($fileHandle, \Vtiful\Kernel\Format::UNDERLINE_SINGLE);$fileObject->header(['name', 'age'])   ->data([['viest', 21]]))   ->setColumn('A:A', 200,$$underlineStyle)   ->output();?> `

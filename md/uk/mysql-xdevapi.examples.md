@@ -13,7 +13,7 @@
 
 **Приклад #1 Підключення до сервера MySQL**
 
-` <?phptry { {   $session u003d mysql_xdevapi\getSession("mysqlx://user:password@host");} catch(Exception $e) {    die("Не удалося встановити з'єднання: $| );}// ... використовуйте $session?> `
+` <?phptry { {   $session = mysql_xdevapi\getSession("mysqlx://user:password@host");} catch(Exception $e) {    die("Не удалося встановити з'єднання: $| );}// ... використовуйте $session?> `
 
 Сесія забезпечує повний доступ до API. Для нової установки сервера
 MySQL першим кроком є створення схеми бази даних із колекцією для
@@ -21,7 +21,7 @@ MySQL першим кроком є створення схеми бази дан
 
 **Приклад #2 Створення схеми та колекції на сервері MySQL**
 
-` <?php$schema u003d $session->createSchema("test");$collection u003d $schema->createCollection("example");?> `
+` <?php$schema = $session->createSchema("test");$collection = $schema->createCollection("example");?> `
 
 При зберіганні даних, як правило,
 [json_encode()](function.json-encode.md) використовується для кодування
@@ -32,18 +32,18 @@ MySQL першим кроком є створення схеми бази дан
 
 **Приклад #3 Зберігання та отримання даних**
 
-` <?php$marco u003d [ "name" u003d> "Marco",  "age"  u003d> 19,  "job"  u003d> "Programmer"];$mike u003d [  "name" u003d> "| u003d> 39, "job"  u003d> "Manager"];$schema u003d $session->getSchema("test");$collection u003d $schema->getCollection("example");$collection->add($marco , $mike)->execute();var_dump($collection->find("name u003d 'Mike'")->execute()->fetchOne());?> `
+` <?php$marco = [ "name" => "Marco",  "age"  => 19,  "job"  => "Programmer"];$mike = [  "name" => "| => 39, "job"  => "Manager"];$schema = $session->getSchema("test");$collection = $schema->getCollection("example");$collection->add($marco , $mike)->execute();var_dump($collection->find("name = 'Mike'")->execute()->fetchOne());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(4) {
-["_id"]u003d>
+["_id"]=>
 string(28) "00005ad66aaf000000000000003"
-["age"]u003d>
+["age"]=>
 int(39)
-["job"]u003d>
+["job"]=>
 string(7) "Manager"
-["name"]u003d>
+["name"]=>
 string(4) "Mike"
 }
 
@@ -61,7 +61,7 @@ MySQL JSON.
 
 **Приклад #4 Вилучення та ітерація декількох документів**
 
-` <?php$result u003d $collection->find()->execute();foreach ($result as $doc) { echo "${doc["name"]} is a ${doc["job"] }.
+` <?php$result = $collection->find()->execute();foreach ($result as $doc) { echo "${doc["name"]} is a ${doc["job"] }.
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

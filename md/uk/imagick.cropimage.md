@@ -48,4 +48,4 @@ int `$y`
 
 **Приклад #1 Приклад використання **Imagick::cropImage()****
 
-` <?phpfunction cropImage($imagePath, $startX, $startY, $width, $height) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->cropImage($width, $height, $startX, $startY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction cropImage($imagePath, $startX, $startY, $width, $height) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->cropImage($width, $height, $startX, $startY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

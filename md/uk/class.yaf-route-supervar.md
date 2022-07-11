@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Supervar
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -26,7 +26,7 @@ public [\_\_construct](yaf-route-supervar.construct.md)(string
 `$supervar_name`)
 
 public [assemble](yaf-route-supervar.assemble.md)(array `$info`, array
-`$query` u003d ?): string
+`$query` = ?): string
 
 public
 [route](yaf-route-supervar.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)

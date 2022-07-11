@@ -7,13 +7,13 @@
 
 #win32_delete_service
 
-(PECL win32service \>u003d0.1.0)
+(PECL win32service \>=0.1.0)
 
 win32_delete_service — Видалення запису служби з бази даних SCM
 
 ### Опис
 
-**win32_delete_service**(string `$servicename`, string `$machine` u003d ?):
+**win32_delete_service**(string `$servicename`, string `$machine` = ?):
 void
 
 Намагається видалити службу бази даних SCM. Для цього потрібні права
@@ -55,7 +55,7 @@ void
 
 | Версія                                                                                                                                                                                      | Опис |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**.                                                       |      |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |      |      
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 | PECL win32service 1.0.0 Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                  |      |
 

@@ -7,7 +7,7 @@
 
 # Swoole\Client::wakeup
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::wakeup — Додає TCP-клієнт назад у цикл системних
 подій

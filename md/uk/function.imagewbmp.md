@@ -7,14 +7,14 @@
 
 #imagewbmp
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagewbmp — Виводить зображення до браузера або пише файл
 
 ### Опис
 
 **imagewbmp**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**, ?int `$foreground_color` u003d
+resource\|string\|null `$file` = **`null`**, ?int `$foreground_color` =
 **`null`**): bool
 
 **imagewbmp()** виводить або зберігає у форматі WBMP задане
@@ -51,24 +51,24 @@ resource\|string\|null `$file` u003d **`null`**, ?int `$foreground_color` u003d
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-| 8.0.0  | `foreground_color` тепер припускає значення null.                                              |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0  | foreground_color тепер припускає значення null.                                              |
 
 ### Приклади
 
 **Приклад #1 Висновок WBMP зображення**
 
-`<?php// створення пустого зображення і додавання тексту$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться Висновок зображенняimagewbmp($im);// Звільнення пам'ятіimagedestroy($im);?> `
+`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться Висновок зображенняimagewbmp($im);// Звільнення пам'ятіimagedestroy($im);?> `
 
 **Приклад #2 Збереження WBMP зображення**
 
-`<?php// створення пустого зображення і додавання тексту$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91); $$  текстова рядок', $text_color);// Збереження зображенняimagewbmp($im, 'simpletext.wbmp');// Звільнення пам'ятіimagedestroy($im);?> `
+`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстова рядок', $text_color);// Збереження зображенняimagewbmp($im, 'simpletext.wbmp');// Звільнення пам'ятіimagedestroy($im);?> `
 
 **Приклад #3 Виведення зображення зі зміненим верхнім шаром**
 
-`<?php// створення пустого зображення і додавання тексту$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться заміна кольору$foreground_color u003d imagecolorallocate($im, 255, 0, 0);imagewbmp($im, NULL, $foreground_color);// Звільнення пам'ятіimagedestroy($im);?> `
+`<?php// створення пустого зображення і додавання тексту$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); $$  текстовий рядок, $text_color);// Тип типу, в даному випадку image/vnd.wap.wbmp // Підказка: дивіться заміна кольору$foreground_color = imagecolorallocate($im, 255, 0, 0);imagewbmp($im, NULL, $foreground_color);// Звільнення пам'ятіimagedestroy($im);?> `
 
 ### Дивіться також
 

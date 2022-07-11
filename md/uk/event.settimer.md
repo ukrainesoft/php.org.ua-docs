@@ -7,7 +7,7 @@
 
 # Event::setTimer
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::setTimer — Переконфігурація події таймера
 
@@ -16,7 +16,7 @@ Event::setTimer — Переконфігурація події таймера
 public **Event::setTimer**( [EventBase](class.eventbase.md) `$base` ,
 [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?): bool
+`$arg` = ?): bool
 
 Переконфігурує подію таймера. Зверніть увагу, що ця функція не
 викликає застарілу функцію `event_set` бібліотеки libevent. Замість

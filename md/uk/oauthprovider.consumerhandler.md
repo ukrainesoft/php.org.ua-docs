@@ -7,7 +7,7 @@
 
 # OAuthProvider::consumerHandler
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::consumerHandler — Встановити обробник consumerHandler
 
@@ -39,7 +39,7 @@ public
 
 **Приклад #1 Приклад використання **OAuthProvider::consumerHandler()****
 
-` <?phpfunction lookupConsumer($provider) {    if ($provider->consumer_key u003du003du003d 'unknown') {        return OAUTH_CONSUMER_KEY_UN } else if($provider->consumer_key u003du003d 'blacklisted' || $provider->consumer_key u003du003du003d 'throttled') {        return OAUTH_CONSUMER_KEY; }   $provider->consumer_secret u003d "the_consumers_secret"; return OAUTH_OK;}?> `
+` <?phpfunction lookupConsumer($provider) {    if ($provider->consumer_key === 'unknown') {        return OAUTH_CONSUMER_KEY_UN } else if($provider->consumer_key == 'blacklisted' || $provider->consumer_key === 'throttled') {        return OAUTH_CONSUMER_KEY; }   $provider->consumer_secret = "the_consumers_secret"; return OAUTH_OK;}?> `
 
 ### Дивіться також
 

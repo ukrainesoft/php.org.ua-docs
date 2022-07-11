@@ -13,7 +13,7 @@ dir — Повертає екземпляр класу Directory
 
 ### Опис
 
-**dir**(string `$directory`, ?resource `$context` u003d **`null`**):
+**dir**(string `$directory`, ?resource `$context` = **`null`**):
 [Directory](class.directory.md)\|false
 
 Псевдо-об'єктно-орієнтований механізм читання каталогу.
@@ -50,9 +50,9 @@ dir — Повертає екземпляр класу Directory
 оскільки в іншому випадку, будь-який елемент каталогу, чиє ім'я може бути
 виражено як **`false`**, зупинить цикл.
 
-` <?php$d u003d dir("/etc/php5");echo "Дескриптор: " . $d->handle . "
+` <?php$d = dir("/etc/php5");echo "Дескриптор: " . $d->handle . "
 ";echo "Шлях: " . $d->path . "
-";while (false !u003du003d ($entry u003d $d->read())) {   echo $entry."
+";while (false !== ($entry = $d->read())) {   echo $entry."
 ";}$d->close();?> `
 
 Результатом виконання цього прикладу буде щось подібне:

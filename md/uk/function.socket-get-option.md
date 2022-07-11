@@ -7,7 +7,7 @@
 
 # socket_get_option
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 socket_get_option — Отримує опції потоку для сокету
 
@@ -53,7 +53,7 @@ socket_get_option — Отримує опції потоку для сокету
 
 **Приклад #1 Приклад використання **socket_get_option()****
 
-` <?php$socket u003d socket_create_listen(1223);$linger u003d array('l_linger' u003d> 1, 'l_onoff' u003d> 1);socket_set_option($socket, SOL_SOCKET, SO_LING socket, SOL_SOCKET, SO_REUSEADDR));?> `
+` <?php$socket = socket_create_listen(1223);$linger = array('l_linger' => 1, 'l_onoff' => 1);socket_set_option($socket, SOL_SOCKET, SO_LING socket, SOL_SOCKET, SO_REUSEADDR));?> `
 
 ### Дивіться також
 

@@ -8,7 +8,7 @@
 
 #ldap_control_paged_result
 
-(PHP 5 \>u003d 5.4.0, PHP 7)
+(PHP 5 \>= 5.4.0, PHP 7)
 
 ldap_control_paged_result — Надіслати серверу LDAP дані для
 використання посторінкового отримання результату
@@ -25,8 +25,8 @@ ldap_control_paged_result — Надіслати серверу LDAP дані д
 **ldap_control_paged_result**(
 resource `$link`,
 int `$pagesize`,
-bool `$iscritical` u003d **`false`**,
-string `$cookie` u003d ""
+bool `$iscritical` = **`false`**,
+string `$cookie` = ""
 ): bool
 
 Дозволяє роботу з LDAP у посторінковому режимі, шляхом надсилання бажаних
@@ -69,14 +69,14 @@ string `$cookie` u003d ""
 
 **Приклад #1 Посторінкова робота з LDAP**
 
-`<?php     // $ds - ідентифікатор з'єднання (дивітьсяldap_connect)    ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3); $dn         u003d 'ouu003dexample,dcu003dorg'; $filter   u003d '(|(snu003dDoe*)(givennameu003dJohn*))'; $justthese u003d array('ou', 'sn', 'givenname', 'mail'); // дозволяємо посторінкову роботу з розміром сторінки рівного одного запису. ldap_control_paged_result($ds, 1); $sr u003d ldap_search($ds, $dn, $filter, $justthese); $info u003d ldap_get_entries($ds, $sr); echo $info['count'] . ' записів повернено' . PHP_EOL; `
+`<?php     // $ds - ідентифікатор з'єднання (дивітьсяldap_connect)    ldap_set_option($ds, LDAP_OPT_PROTOCOL_VERSION, 3); $dn         = 'ou=example,dc=org'; $filter   = '(|(sn=Doe*)(givenname=John*))'; $justthese = array('ou', 'sn', 'givenname', 'mail'); // дозволяємо посторінкову роботу з розміром сторінки рівного одного запису. ldap_control_paged_result($ds, 1); $sr = ldap_search($ds, $dn, $filter, $justthese); $info = ldap_get_entries($ds, $sr); echo $info['count'] . ' записів повернено' . PHP_EOL; `
 
 Приклад нижче демонструє вилучення першої сторінки результату пошуку з
 використанням розміру сторінки дорівнює ста записам.
 
 **Приклад #2 Посторінкова робота з LDAP**
 
-`<?php     // $ds - ідентифікатор з'єднання(дивітьсяldap_connect)ldap_set_option($ds,LDAP_OPT_PROTOCOL_VERSION,3); $dn         u003d 'ouu003dexample,dcu003dorg'; $filter   u003d '(|(snu003dDoe*)(givennameu003dJohn*))'; $justthese u003d array('ou', 'sn', 'givenname', 'mail'); // дозволяємо посторінкову роботу з розміром сторінки рівного ста записам. $pageSize u003d 100; $cookieu003du003d''; do {         ldap_control_paged_result($ds, $pageSize, true, $cookie); $result u003d ldap_search($ds, $dn, $filter, $justthese); $entriesu003dldap_get_entries($ds,$result); foreach ($entries as $e) {             echo $e['dn'] . PHP_EOL; }         ldap_control_paged_result_response($ds, $result, $cookie); } while($cookie !u003du003d null && $cookie !u003d ''); `
+`<?php     // $ds - ідентифікатор з'єднання(дивітьсяldap_connect)ldap_set_option($ds,LDAP_OPT_PROTOCOL_VERSION,3); $dn         = 'ou=example,dc=org'; $filter   = '(|(sn=Doe*)(givenname=John*))'; $justthese = array('ou', 'sn', 'givenname', 'mail'); // дозволяємо посторінкову роботу з розміром сторінки рівного ста записам. $pageSize = 100; $cookie==''; do {         ldap_control_paged_result($ds, $pageSize, true, $cookie); $result = ldap_search($ds, $dn, $filter, $justthese); $entries=ldap_get_entries($ds,$result); foreach ($entries as $e) {             echo $e['dn'] . PHP_EOL; }         ldap_control_paged_result_response($ds, $result, $cookie); } while($cookie !== null && $cookie != ''); `
 
 ### Примітки
 

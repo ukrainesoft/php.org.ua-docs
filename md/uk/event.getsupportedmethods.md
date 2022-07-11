@@ -8,7 +8,7 @@ Libevent
 
 # Event::getSupportedMethods
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::getSupportedMethods — Отримати масив з іменами методів,
 підтримуваних у поточній версії Libevent

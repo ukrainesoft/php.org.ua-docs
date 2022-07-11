@@ -7,7 +7,7 @@
 
 #mb_ereg_search_getregs
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 mb_ereg_search_getregs — Виводить результат останнього порівняння з
 регулярним виразом

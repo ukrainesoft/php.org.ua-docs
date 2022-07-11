@@ -15,7 +15,7 @@ imap_fetch_overview — Огляд інформації, що міститься
 ### Опис
 
 **imap_fetch_overview**([IMAP\Connection](class.imap-connection.md)
-`$imap`, string `$sequence`, int `$flags` u003d 0): array\|false
+`$imap`, string `$sequence`, int `$flags` = 0): array\|false
 
 Ця функція читає заголовки повідомлень, заданих у `sequence` та
 повертає оглядову інформацію про їхній контент.
@@ -64,15 +64,15 @@ imap_fetch_overview — Огляд інформації, що міститься
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `imap` тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_fetch_overview()****
 
-` <?php$mbox u003d imap_open("{imap.example.org:143}INBOX", "username", "password")      or die("не вдалося підключитися: " . imap_last_error()); $mbox);// Отримаємо огляд всіх листів в INBOX$result u003d imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);foreach ($result as $overview) {    ->msgno} ({$overview->date}) - From: {$overview->from}    {$overview->subject}
+` <?php$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password")      or die("не вдалося підключитися: " . imap_last_error()); $mbox);// Отримаємо огляд всіх листів в INBOX$result = imap_fetch_overview($mbox,"1:{$MC->Nmsgs}",0);foreach ($result as $overview) {    ->msgno} ({$overview->date}) - From: {$overview->from}    {$overview->subject}
 ";}imap_close($mbox);?> `
 
 ### Дивіться також

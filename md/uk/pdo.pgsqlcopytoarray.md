@@ -7,7 +7,7 @@
 
 # PDO::pgsqlCopyToArray
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 PDO::pgsqlCopyToArray — Вивантажити дані з таблиці в масив PHP
 
@@ -15,9 +15,9 @@ PDO::pgsqlCopyToArray — Вивантажити дані з таблиці в �
 
 public **PDO::pgsqlCopyToArray**(
 string `$table_name`,
-string `$delimiter` u003d " ",
-string `$null_as` u003d "\\\N",
-string `$fields` u003d ?
+string `$delimiter` = " ",
+string `$null_as` = "\\\N",
+string `$fields` = ?
 ): array\|false
 
 Вивантажує дані з таблиці `table` до масиву, використовуючи роздільник

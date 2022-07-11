@@ -7,7 +7,7 @@
 
 # Клас Transliterator
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 ## Вступ
 
@@ -19,9 +19,9 @@ class **Transliterator** {
 
 /\* Константи \*/
 
-const int `FORWARD` u003d 0;
+const int `FORWARD` = 0;
 
-const int `REVERSE` u003d 1;
+const int `REVERSE` = 1;
 
 /\* Властивості \*/
 
@@ -32,12 +32,12 @@ public string `$id`;
 final private [\_\_construct](transliterator.construct.md)()
 
 public static [create](transliterator.create.md)(string `$id`, int
-`$direction` u003d Transliterator::FORWARD):
+`$direction` = Transliterator::FORWARD):
 ?[Transliterator](class.transliterator.md)
 
 public static
 [createFromRules](transliterator.createfromrules.md)(string `$rules`,
-int `$direction` u003d Transliterator::FORWARD):
+int `$direction` = Transliterator::FORWARD):
 ?[Transliterator](class.transliterator.md)
 
 public [createInverse](transliterator.createinverse.md)():
@@ -51,7 +51,7 @@ string\|false
 public static [listIDs](transliterator.listids.md)(): array\|false
 
 public [transliterate](transliterator.transliterate.md)(string
-`$string`, int `$start` u003d 0, int `$end` u003d -1): string\|false
+`$string`, int `$start` = 0, int `$end` = -1): string\|false
 
 }
 

@@ -7,7 +7,7 @@
 
 # Yaf_Application::clearLastError
 
-(Yaf \> u003d 2.1.2)
+(Yaf \> = 2.1.2)
 
 Yaf_Application::clearLastError — Очищення інформації з останньої помилки
 
@@ -26,7 +26,7 @@ public **Yaf_Application::clearLastError**():
 
 **Приклад #1 Приклад використання **Yaf_Application::clearLastError()****
 
-` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {  Yaf_Application::app()->clearLastError(); var_dump(Yaf_Application::app()->getLastErrorNo());}$config u003d array( "application" u003d> array(   "directory" u003d> "/tmp/notexists", th| " " u003d>|0,| );?> `
+` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {  Yaf_Application::app()->clearLastError(); var_dump(Yaf_Application::app()->getLastErrorNo());}$config = array( "application" => array(   "directory" => "/tmp/notexists", th| " " =>|0,| );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

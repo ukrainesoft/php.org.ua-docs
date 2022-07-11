@@ -7,7 +7,7 @@
 
 # ssh2_sftp_readlink
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_readlink — Повертає об'єкт за символічним посиланням
 
@@ -34,7 +34,7 @@ ssh2_sftp_readlink — Повертає об'єкт за символічним 
 
 **Приклад #1 Читання символічного посилання**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);$target u003d ssh2 , '/tmp/mysql.sock');/* $target тепер такий (наприклад): '/var/run/mysql.sock' */?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);$target = ssh2 , '/tmp/mysql.sock');/* $target тепер такий (наприклад): '/var/run/mysql.sock' */?> `
 
 ### Дивіться також
 

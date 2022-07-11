@@ -29,10 +29,10 @@ public **ArrayIterator::next**(): void
 
 **Приклад #1 Приклад використання **ArrayIterator::next()****
 
-` <?php$arrayobject u003d new ArrayObject();$arrayobject[] u003d 'zero';$arrayobject[] u003d 'one';$iterator u003d $arrayobject->getIterator();while($iterator->valid() ) {    echo $iterator->key() . ' u003d> ' . $iterator->current() . "
+` <?php$arrayobject = new ArrayObject();$arrayobject[] = 'zero';$arrayobject[] = 'one';$iterator = $arrayobject->getIterator();while($iterator->valid() ) {    echo $iterator->key() . ' => ' . $iterator->current() . "
 ";   $iterator->next();}?> `
 
 Результат виконання цього прикладу:
 
-0 u003d> zero
-1 u003d> один
+0 => zero
+1 => один

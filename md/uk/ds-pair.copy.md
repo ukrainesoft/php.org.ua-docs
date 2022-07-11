@@ -29,17 +29,17 @@ public **Ds\Pair::copy**(): [Ds\Pair](class.ds-pair.md)
 
 **Приклад #1 Приклад використання **Ds\Pair::copy()****
 
-` <?php$a u003d new \Ds\Pair("a", 1);$b u003d $a->copy();$a->key u003d "x";print_r($a);print_r($ b);?> `
+` <?php$a = new \Ds\Pair("a", 1);$b = $a->copy();$a->key = "x";print_r($a);print_r($ b);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Pair Object
 (
-[key] u003d> x
-[value] u003d> 1
+[key] => x
+[value] => 1
 )
 Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )

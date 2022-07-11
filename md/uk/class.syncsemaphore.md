@@ -7,7 +7,7 @@
 
 # Клас SyncSemaphore
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 ## Вступ
 
@@ -25,12 +25,12 @@ class **SyncSemaphore** {
 
 /\* Методи \*/
 
-public [\_\_construct](syncsemaphore.construct.md)(string `$name` u003d ?,
-int `$initialval` u003d 1, bool `$autounlock` u003d **`true`**)
+public [\_\_construct](syncsemaphore.construct.md)(string `$name` = ?,
+int `$initialval` = 1, bool `$autounlock` = **`true`**)
 
-public [lock](syncsemaphore.lock.md)(int `$wait` u003d -1): bool
+public [lock](syncsemaphore.lock.md)(int `$wait` = -1): bool
 
-public [unlock](syncsemaphore.unlock.md)(int `&$prevcount` u003d ?): bool
+public [unlock](syncsemaphore.unlock.md)(int `&$prevcount` = ?): bool
 
 }
 

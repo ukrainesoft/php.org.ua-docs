@@ -9,7 +9,7 @@
 
 #collator_get_attribute
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::getAttribute -- collator_get_attribute — Отримує значення
 атрибуту зіставлення
@@ -43,7 +43,7 @@ int `$attribute`): int\|false
 
 **Приклад #1 Приклад використання **collator_get_attribute()****
 
-`<?php$coll u003d collator_create( 'en_CA' );$val u003d collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );if( $val u003du003du003du003dfalse ){     |
+`<?php$coll = collator_create( 'en_CA' );$val = collator_get_attribute( $coll, Collator::NUMERIC_COLLATION );if( $val ====false ){     |
 
 ### Дивіться також
 

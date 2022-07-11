@@ -13,8 +13,8 @@ header — Надсилання HTTP-заголовка
 
 ### Опис
 
-**header**(string `$header`, bool `$replace` u003d **`true`**, int
-`$response_code` u003d 0): void
+**header**(string `$header`, bool `$replace` = **`true`**, int
+`$response_code` = 0): void
 
 **header()** використовується для надсилання заголовка HTTP. У [» специфікації HTTP/1.1](http://www.faqs.org/rfcs/rfc2616) є докладний опис
 HTTP-заголовки.
@@ -83,7 +83,7 @@ HTTP-заголовки.
 підставляє рекомендоване ім'я файлу та змушує браузер показати діалог
 завантаження.
 
-` <?php// Передаватимемо PDFheader('Content-Type: application/pdf');// Він називатися downloaded.pdfheader('Content-Disposition: attachment; filenameu003d"downloaded.pdf"');// PDF-файл original.pdfreadfile('original.pdf');?> `
+` <?php// Передаватимемо PDFheader('Content-Type: application/pdf');// Він називатися downloaded.pdfheader('Content-Disposition: attachment; filename="downloaded.pdf"');// PDF-файл original.pdfreadfile('original.pdf');?> `
 
 **Приклад #2 Директиви для роботи з кешем**
 
@@ -144,7 +144,7 @@ PHP-скрипти часто генерують динамічний конте
 > самостійно за допомогою `$_SERVER['HTTP_HOST']`,
 > `$_SERVER['PHP_SELF']` та [dirname()](function.dirname.md):
 >
-> ` <?php/* Перенаправлення браузера на іншу сторінку в тією ж директорії, ізначально запитана */$host  u003d $_SERVER['HTTP_HOST'];$uri     | /\');$extra u003d 'mypage.php';header("Location: http://$host$uri/$extra");exit;?> `
+> ` <?php/* Перенаправлення браузера на іншу сторінку в тією ж директорії, ізначально запитана */$host  = $_SERVER['HTTP_HOST'];$uri     | /\');$extra = 'mypage.php';header("Location: http://$host$uri/$extra");exit;?> `
 
 > **Примітка**:
 >

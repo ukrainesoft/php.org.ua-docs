@@ -33,7 +33,7 @@ public **DirectoryIterator::next**(): void
 
 Виведення списку вмісту директорії за допомогою циклу while
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));while($iterator->valid()) {    echo $iterator->getFilename() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));while($iterator->valid()) {    echo $iterator->getFilename() . "
 ";   $iterator->next();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -9,14 +9,14 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                             | Місце зміни | Лог змін       |
-| --------------------------------------------------------------------------------- | ----------- | -------------- |
-| [ibm_db2.binmode](ibm-db2.configuration.md#ini.ibm-db2.binmode)                   | "1"         | PHP_INI_ALL    | 
-| [ibm_db2.i5_all_pconnect](ibm-db2.configuration.md#ini.ibm-db2.i5-all-pconnect)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.6.5. 
-| [ibm_db2.i5_allow_commit](ibm-db2.configuration.md#ini.ibm-db2.i5-allow-commit)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.4.9. 
-| [ibm_db2.i5_dbcs_alloc](ibm-db2.configuration.md#ini.ibm-db2.i5-dbcs-alloc)       | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.5.0. 
-| [ibm_db2.instance_name](ibm-db2.configuration.md#ini.ibm-db2.instance-name)       | NULL        | PHP_INI_SYSTEM | Доступно з ibm_db2 1.0.2. 
-| [ibm_db2.i5_ignore_userid](ibm-db2.configuration.md#ini.ibm-db2.i5-ignore-userid) | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.8.0. 
+| Ім'я За замовчуванням                                                             | Місце зміни | Лог змін       |                           |
+| --------------------------------------------------------------------------------- | ----------- | -------------- | ------------------------- |
+| [ibm_db2.binmode](ibm-db2.configuration.md#ini.ibm-db2.binmode)                   | "1"         | PHP_INI_ALL    |                           |
+| [ibm_db2.i5_all_pconnect](ibm-db2.configuration.md#ini.ibm-db2.i5-all-pconnect)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.6.5. |
+| [ibm_db2.i5_allow_commit](ibm-db2.configuration.md#ini.ibm-db2.i5-allow-commit)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.4.9. |
+| [ibm_db2.i5_dbcs_alloc](ibm-db2.configuration.md#ini.ibm-db2.i5-dbcs-alloc)       | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.5.0. |
+| [ibm_db2.instance_name](ibm-db2.configuration.md#ini.ibm-db2.instance-name)       | NULL        | PHP_INI_SYSTEM | Доступно з ibm_db2 1.0.2. |
+| [ibm_db2.i5_ignore_userid](ibm-db2.configuration.md#ini.ibm-db2.i5-ignore-userid) | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.8.0. |
 
 **ibm_db2 Опції настроювання**
 
@@ -35,7 +35,7 @@
 `ibm_db2.i5_all_pconnect` int
 Ця опція повністю перевизначає поведінку i5
 [db2_connect()](function.db2-connect.md). Якщо
-`ibm_db2.i5_all_pconnect` u003d 1, всі з'єднання з DB2 будуть постійними
+`ibm_db2.i5_all_pconnect` = 1, всі з'єднання з DB2 будуть постійними
 ([db2_pconnect()](function.db2-pconnect.md)). На i5/OS використовувати
 [db2_pconnect()](function.db2-pconnect.md) набагато, категорично,
 краще, ніж [db2_connect()](function.db2-connect.md). Ця установка
@@ -83,15 +83,15 @@
 
 `ibm_db2.i5_ignore_userid` int
 Ця опція перевизначає userid та password для i5 db2\_(p)connect
-програмі PHP. Якщо `ibm_db2.i5_ignore_userid` u003d 1, всі з'єднання
-будуть відбуватися з useridu003d**`null`** та passwordu003d**`null`**.
+програмі PHP. Якщо `ibm_db2.i5_ignore_userid` = 1, всі з'єднання
+будуть відбуватися з userid=**`null`** та password=**`null`**.
 Отже завдання Apache будуть з'єднуватися з поточним профайлом
 (NOBODY). Використовуйте це перевизначення тільки для простих сайтів, не
 що вимагають перемикання профайлів і, отже, зможете уникнути всіх
 накладних витрат, пов'язаних з додатковими завданнями QSQSRVR. Це
 просте рішення для обнулення userid та password без внесення змін до
 код PHP. Це перевизначення можна використовувати разом з
-`ibm_db2.i5_all_pconnect` u003d 1.
+`ibm_db2.i5_all_pconnect` = 1.
 
 - 0 - db2\_(p)connect використовує передані userid та password
 

@@ -7,7 +7,7 @@
 
 # Threaded::chunk
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::chunk — Обробка
 
@@ -34,19 +34,19 @@ public **Threaded::chunk**(int `$size`, bool `$preserve`): array
 
 **Приклад #1 Отримання фрагмента таблиці властивостей**
 
-` <?php$safe u003d new Threaded();while (count($safe) < 10) {    $safe[] u003d count($safe);}var_dump($safe->chunk(5));?> `
+` <?php$safe = new Threaded();while (count($safe) < 10) {    $safe[] = count($safe);}var_dump($safe->chunk(5));?> `
 
 Результат виконання цього прикладу:
 
 array(5) {
-[0]u003d>
+[0]=>
 int(0)
-[1]u003d>
+[1]=>
 int(1)
-[2]u003d>
+[2]=>
 int(2)
-[3]u003d>
+[3]=>
 int(3)
-[4]u003d>
+[4]=>
 int(4)
 }

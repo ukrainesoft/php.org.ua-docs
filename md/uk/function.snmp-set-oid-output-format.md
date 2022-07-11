@@ -7,7 +7,7 @@
 
 # snmp_set_oid_output_format
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 snmp_set_oid_output_format — Встановлює вихідний формат OID
 
@@ -21,14 +21,14 @@ snmp_set_oid_output_format — Встановлює вихідний форма�
 ### Список параметрів
 
 `format`
-|                               |                                                                     |
-| ----------------------------- | ------------------------------------------------------------------- |
-| **`SNMP_OID_OUTPUT_FULL`**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_NUMERIC`** | .1.3.6.1.2.1.1.3.0                                                  |
-| **`SNMP_OID_OUTPUT_MODULE`**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
-| **`SNMP_OID_OUTPUT_SUFFIX`**  | sysUpTimeInstance                                                   |
-| **`SNMP_OID_OUTPUT_UCD`**     | system.sysUpTime.sysUpTimeInstance                                  |
-| **`SNMP_OID_OUTPUT_NONE`**    | Undefined                                                           |
+|                             |                                                                     |
+| --------------------------- | ------------------------------------------------------------------- |
+| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |                                     
+| **SNMP_OID_OUTPUT_NUMERIC** | .1.3.6.1.2.1.1.3.0                                                  |
+| **SNMP_OID_OUTPUT_MODULE**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
+| **SNMP_OID_OUTPUT_SUFFIX**  | sysUpTimeInstance                                                   |
+| **SNMP_OID_OUTPUT_UCD**     | system.sysUpTime.sysUpTimeInstance                                  |
+| **SNMP_OID_OUTPUT_NONE**    | Undefined                                                           |
 
 **OID .1.3.6.1.2.1.1.3.0 представлення для різних значень `format`**
 
@@ -47,13 +47,13 @@ snmp_set_oid_output_format — Встановлює вихідний форма�
 
 Array
 (
-[RFC1213-MIB::sysObjectID.0] u003d> OID: NET-SNMP-TC::linux
+[RFC1213-MIB::sysObjectID.0] => OID: NET-SNMP-TC::linux
 )
 Array
 (
-[.1.3.6.1.2.1.1.2.0] u003d> OID: .1.3.6.1.4.1.8072.3.2.10
+[.1.3.6.1.2.1.1.2.0] => OID: .1.3.6.1.4.1.8072.3.2.10
 )
 Array
 (
-[.iso.org.dod.internet.mgmt.mib-2.system.sysObjectID.0] u003d> OID: .iso.org.dod.internet.private.enterprises.netSnmp.netSnmpEnumerations.netSnmpAgentOIDs.linux
+[.iso.org.dod.internet.mgmt.mib-2.system.sysObjectID.0] => OID: .iso.org.dod.internet.private.enterprises.netSnmp.netSnmpEnumerations.netSnmpAgentOIDs.linux
 )

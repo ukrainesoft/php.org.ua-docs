@@ -7,7 +7,7 @@
 
 #lzf_optimized_for
 
-(PECL lzf \>u003d 1.0.0)
+(PECL lzf \>= 1.0.0)
 
 lzf_optimized_for — Визначає режим оптимізації модуля LZF
 

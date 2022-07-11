@@ -7,7 +7,7 @@
 
 # Event::set
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::set — Переконфігурувати подію
 
@@ -18,11 +18,11 @@ public **Event::set**(
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd` ,
-int `$what` u003d ?,
-[callable](language.types.callable.md) `$cb` u003d ?,
+int `$what` = ?,
+[callable](language.types.callable.md) `$cb` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): bool
 
 Переконфігурує подію. Зверніть увагу, що ця функція не

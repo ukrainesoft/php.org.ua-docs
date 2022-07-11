@@ -14,7 +14,7 @@ DOMDocument::loadHTMLFile — Завантаження HTML із файлу
 ### Опис
 
 public **DOMDocument::loadHTMLFile**(string `$filename`, int `$options`
-u003d 0): [DOMDocument](class.domdocument.md)\|bool
+= 0): [DOMDocument](class.domdocument.md)\|bool
 
 Функція розбирає HTML-документ із файлу `filename`. На відміну від
 завантаження XML, HTML має бути правильно побудованим (well-formed).
@@ -54,7 +54,7 @@ u003d 0): [DOMDocument](class.domdocument.md)\|bool
 
 **Приклад #1 Створення документа**
 
-` <?php$doc u003d new DOMDocument();$doc->loadHTMLFile("filename.md");echo $doc->saveHTML();?> `
+` <?php$doc = new DOMDocument();$doc->loadHTMLFile("filename.md");echo $doc->saveHTML();?> `
 
 ### Дивіться також
 

@@ -17,7 +17,7 @@ public
 **ZMQDevice::setTimerCallback**([callable](language.types.callable.md)
 `$cb_func`, int `$timeout`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data` u003d ?): [ZMQDevice](class.zmqdevice.md)
+`$user_data` = ?): [ZMQDevice](class.zmqdevice.md)
 
 Встановлює callback-функцію за таймером. Періодично запускає
 callback-функцію. Від callback-функції простою відрізняється тим, що

@@ -17,14 +17,14 @@ mysqli::query -- mysqli_query — Виконує запит до бази дан
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::query**(string `$query`, int `$result_mode` u003d
+public **mysqli::query**(string `$query`, int `$result_mode` =
 **`MYSQLI_STORE_RESULT`**):
 [mysqli_result](class.mysqli-result.md)\|bool
 
 Процедурний стиль
 
 **mysqli_query**([mysqli](class.mysqli.md) `$mysql`, string `$query`,
-int `$result_mode` u003d **`MYSQLI_STORE_RESULT`**):
+int `$result_mode` = **`MYSQLI_STORE_RESULT`**):
 [mysqli_result](class.mysqli-result.md)\|bool
 
 Виконує запит `query` до бази даних.
@@ -109,15 +109,15 @@ int `$result_mode` u003d **`MYSQLI_STORE_RESULT`**):
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Створення Ти "CREATE TEMPORARY TABLE myCity LIKE City");printf("Таблиця myCity створена.
-");/* Запроси SELECT, повертають набір результатів */$result u003d $mysqli->query("SELECT Name FROM City LIMIT 10");printf("Запит SELECT вернув %d 
-", $result->num_rows);/* Якщо потрібно витягти великий обсяг даних, використовуємо MYSQLI_USE_RESULT */$result u003d $mysqli->query("SELECT * FROM C  викликати функції, взаємодіючі   з сервером, поки не закриємо набір результатів.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Створення Ти "CREATE TEMPORARY TABLE myCity LIKE City");printf("Таблиця myCity створена.
+");/* Запроси SELECT, повертають набір результатів */$result = $mysqli->query("SELECT Name FROM City LIMIT 10");printf("Запит SELECT вернув %d 
+", $result->num_rows);/* Якщо потрібно витягти великий обсяг даних, використовуємо MYSQLI_USE_RESULT */$result = $mysqli->query("SELECT * FROM C  викликати функції, взаємодіючі   з сервером, поки не закриємо набір результатів.
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Створення таблиці, не TEMPORARY TABLE myCity LIKE City»);printf(«Таблиця myCity створена.
-");/* Запроси SELECT, повертають набір результатів */$result u003d mysqli_query($link, "SELECT Name FROM City LIMIT 10");printf("Запрос SELECT вернув .
-", mysqli_num_rows($result));/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */$result u003d mysqli_query($link, "SELECT * FROM City", MYSQLI_USE_RESULT);/* Важно заметить, что мы не можем вызывать функції, взаємодіючі   з сервером, поки не закриємо набір результатів.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Створення таблиці, не TEMPORARY TABLE myCity LIKE City»);printf(«Таблиця myCity створена.
+");/* Запроси SELECT, повертають набір результатів */$result = mysqli_query($link, "SELECT Name FROM City LIMIT 10");printf("Запрос SELECT вернув .
+", mysqli_num_rows($result));/* Если нужно извлечь большой объем данных, используем MYSQLI_USE_RESULT */$result = mysqli_query($link, "SELECT * FROM City", MYSQLI_USE_RESULT);/* Важно заметить, что мы не можем вызывать функції, взаємодіючі   з сервером, поки не закриємо набір результатів.
 
 Результат виконання даних прикладів:
 

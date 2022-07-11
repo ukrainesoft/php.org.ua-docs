@@ -7,7 +7,7 @@
 
 #gd_info
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 gd_info — Виведення інформації про поточну встановлену GD бібліотеку
 
@@ -25,19 +25,19 @@ gd_info — Виведення інформації про поточну вст
 
 Повертає асоціативний масив.
 
-| Атрибут Змістове значення |
-| ------------------------- |
-| GD Version                | Рядок (string), що містить версію `libgd`. 
-| FreeType Support          | bool значення. **`true`**, якщо компонент FreeType Support встановлено. 
-| FreeType Linkage          | Рядок (string), що містить опис, яким чином підключений компонент FreeType. Очікувані значення: 'with freetype', 'with TTF library', 'with unknown library'. Цей елемент буде визначений тільки якщо `FreeType Support` має значення **`true`**. 
-| GIF Read Support          | bool значення. **`true`**, якщо включена підтримка читання (*reading*) `GIF` зображень. 
-| GIF Create Support        | bool значення. **`true`**, якщо включена підтримка запису (*creating*) `GIF` зображень. 
-| JPEG Support              | bool значення. **`true`**, якщо включена підтримка `JPEG`. 
-| PNG Support               | bool значення. **`true`**, якщо включена підтримка `PNG`. 
-| WBMP Support              | bool значення. **`true`**, якщо включена підтримка `WBMP`. 
-| XBM Support               | bool значення. **`true`**, якщо включена підтримка `XBM`. 
-| WebP Support              | bool значення. **`true`**, якщо включена підтримка `WebP`. 
-| AVIF Support              | bool значення. **`true`**, якщо включена підтримка `AVIF`. Доступно з PHP 8.1.0. 
+| Атрибут Змістове значення |                                                                                                                                                                                                                                              |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| GD Version                | Рядок (string), що містить версію libgd.                                                                                                                                                                                                     |
+| FreeType Support          | bool значення. **true**, якщо компонент FreeType Support встановлено.                                                                                                                                                                        |
+| FreeType Linkage          | Рядок (string), що містить опис, яким чином підключений компонент FreeType. Очікувані значення: 'with freetype', 'with TTF library', 'with unknown library'. Цей елемент буде визначений тільки якщо FreeType Support має значення **true**. |
+| GIF Read Support          | bool значення. **true**, якщо включена підтримка читання (*reading*) GIF зображень.                                                                                                                                                          |
+| GIF Create Support        | bool значення. **true**, якщо включена підтримка запису (*creating*) GIF зображень.                                                                                                                                                          |
+| JPEG Support              | bool значення. **true**, якщо включена підтримка JPEG.                                                                                                                                                                                       |
+| PNG Support               | bool значення. **true**, якщо включена підтримка PNG.                                                                                                                                                                                        |
+| WBMP Support              | bool значення. **true**, якщо включена підтримка WBMP.                                                                                                                                                                                       |
+| XBM Support               | bool значення. **true**, якщо включена підтримка XBM.                                                                                                                                                                                        |
+| WebP Support              | bool значення. **true**, якщо включена підтримка WebP.                                                                                                                                                                                       |
+| AVIF Support              | bool значення. **true**, якщо включена підтримка AVIF. Доступно з PHP 8.1.0.                                                                                                                                                                 |
 
 **Елементи масиву, що повертається з **gd_info()****
 
@@ -50,25 +50,25 @@ gd_info — Виведення інформації про поточну вст
 Результатом виконання цього прикладу буде щось подібне:
 
 array(10) {
-["GD Version"]u003d>
+["GD Version"]=>
 string(24) "bundled (2.1.0 compatible)"
-["FreeType Support"]u003d>
+["FreeType Support"]=>
 bool(false)
-["GIF Read Support"]u003d>
+["GIF Read Support"]=>
 bool(true)
-["GIF Create Support"]u003d>
+["GIF Create Support"]=>
 bool(false)
-["JPEG Support"]u003d>
+["JPEG Support"]=>
 bool(false)
-["PNG Support"]u003d>
+["PNG Support"]=>
 bool(true)
-["WBMP Support"]u003d>
+["WBMP Support"]=>
 bool(true)
-["XBM Support"]u003d>
+["XBM Support"]=>
 bool(false)
-["WebP Support"]u003d>
+["WebP Support"]=>
 bool(false)
-["AVIF Support"]u003d>
+["AVIF Support"]=>
 bool(false)
 }
 

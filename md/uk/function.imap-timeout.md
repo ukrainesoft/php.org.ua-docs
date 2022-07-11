@@ -7,13 +7,13 @@
 
 #imap_timeout
 
-(PHP 4 \>u003d 4.3.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.3, PHP 5, PHP 7, PHP 8)
 
 imap_timeout — Встановити або отримати час очікування imap
 
 ### Опис
 
-**imap_timeout**(int `$timeout_type`, int `$timeout` u003d -1): int\|bool
+**imap_timeout**(int `$timeout_type`, int `$timeout` = -1): int\|bool
 
 Встановлює або отримує час очікування imap.
 

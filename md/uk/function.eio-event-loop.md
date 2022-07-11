@@ -8,7 +8,7 @@
 
 #eio_event_loop
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_event_loop — Взаємодіє з libeio, поки всі запити
 не будуть виконані
@@ -33,7 +33,7 @@ eio_event_loop — Взаємодіє з libeio, поки всі запити
 
 **Приклад #1 Приклад використання **eio_event_loop()****
 
-`<?php$temp_filename u003d "eio-temp-file.tmp";touch($temp_filename);/* Викликається після виконання eio_chmod() */function my_chmod_callback($data, $result) if ($result u003du003d 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {        echo "eio_chmod_ok"; }   @unlink($temp_filename);}eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");eio_event_loop();?> `
+`<?php$temp_filename = "eio-temp-file.tmp";touch($temp_filename);/* Викликається після виконання eio_chmod() */function my_chmod_callback($data, $result) if ($result == 0 && !is_readable($temp_filename) && is_writable($temp_filename)) {        echo "eio_chmod_ok"; }   @unlink($temp_filename);}eio_chmod($temp_filename, 0200, EIO_PRI_DEFAULT, "my_chmod_callback");eio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

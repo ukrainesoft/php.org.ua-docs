@@ -7,7 +7,7 @@
 
 # openssl_pkcs12_read
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 openssl_pkcs12_read — Розбирає сховище сертифікатів PKCS#12 в масив
 
@@ -40,7 +40,7 @@ openssl_pkcs12_read — Розбирає сховище сертифікатів
 
 **Приклад #1 Приклад використання **openssl_pkcs12_read()****
 
-` <?phpif (!$cert_store u003d file_get_contents("/certs/file.p12")) {   echo "Помилка: неможливо прочитати файл сертифіката
+` <?phpif (!$cert_store = file_get_contents("/certs/file.p12")) {   echo "Помилка: неможливо прочитати файл сертифіката
 ";   exit;}if (openssl_pkcs12_read($cert_store, $cert_info, "my_secret_pass")) {    echo "Інформація про сертифікат
 ";    print_r($cert_info);} else {    echo "Помилка: неможливо прочитати сховище сертифікату.
 ";   exit;}?> `

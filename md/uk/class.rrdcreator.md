@@ -7,7 +7,7 @@
 
 # Клас RRDCreator
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **RRDCreator** {
 /\* Методи \*/
 
 public [\_\_construct](rrdcreator.construct.md)(string `$path`, string
-`$startTime` u003d ?, int `$step` u003d 0)
+`$startTime` = ?, int `$step` = 0)
 
 public [addArchive](rrdcreator.addarchive.md)(string `$description`):
 void

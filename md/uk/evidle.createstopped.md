@@ -7,7 +7,7 @@
 
 # EvIdle::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvIdle::createStopped — Створити об'єкт класу EvIdle, але не стартувати
 його
@@ -16,7 +16,7 @@ EvIdle::createStopped — Створити об'єкт класу EvIdle, але
 
 final public static **EvIdle::createStopped**( string `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?, int `$priority` u003d ?): object
+`$data` = ?, int `$priority` = ?): object
 
 Те саме, що і [EvIdle::\_\_construct()](evidle.construct.md) , але
 не здійснює автоматичного старту спостерігача.

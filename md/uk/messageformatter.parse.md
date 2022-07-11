@@ -9,7 +9,7 @@
 
 #msgfmt_parse
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 MessageFormatter::parse -- msgfmt_parse — Розбирає рядок згідно
 шаблоном
@@ -45,23 +45,23 @@ public **MessageFormatter::parse**(string `$string`): array\|false
 
 **Приклад #1 Приклад використання **msgfmt_parse()****
 
-` <?php$fmt u003d msgfmt_create('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");$res , "4,560 monkeys on 123 trees make 37.073 monkeys per tree");var_export($res);$fmt u003d msgfmt_create('de', "{0,number,inte { 2,number} Affen pro Baum");$res u003d msgfmt_parse($fmt, "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
+` <?php$fmt = msgfmt_create('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");$res , "4,560 monkeys on 123 trees make 37.073 monkeys per tree");var_export($res);$fmt = msgfmt_create('de', "{0,number,inte { 2,number} Affen pro Baum");$res = msgfmt_parse($fmt, "4.560 Affen auf 123 Bäumen sind 37,073 Affen pro Baum");
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new MessageFormatter('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree")$; >parse("4,560 monkeys on 123 trees make 37.073 monkeys per tree");var_export($res);$fmt u003d new MessageFormatter('de', "{0,num| Bäumen sind {2,number} Affen pro Baum");$res u003d $fmt->parse("4.560 Affen auf 123 Bäumen sind 37,073 Affen pro ;
+` <?php$fmt = new MessageFormatter('en_US', "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree")$; >parse("4,560 monkeys on 123 trees make 37.073 monkeys per tree");var_export($res);$fmt = new MessageFormatter('de', "{0,num| Bäumen sind {2,number} Affen pro Baum");$res = $fmt->parse("4.560 Affen auf 123 Bäumen sind 37,073 Affen pro ;
 
 Результат виконання цього прикладу:
 
 array (
-0 u003d> 4560,
-1 u003d> 123,
-2 u003d> 37.073,
+0 => 4560,
+1 => 123,
+2 => 37.073,
 )
 array (
-0 u003d> 4560,
-1 u003d> 123,
-2 u003d> 37.073,
+0 => 4560,
+1 => 123,
+2 => 37.073,
 )
 
 ### Дивіться також

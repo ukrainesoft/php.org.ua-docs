@@ -7,13 +7,13 @@
 
 # ArrayObject::asort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::asort — Сортування записів за значенням
 
 ### Опис
 
-public **ArrayObject::asort**(int `$flags` u003d **`SORT_REGULAR`**): bool
+public **ArrayObject::asort**(int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує елементи масиву в порядку зростання, тому його ключі
 зберігають свою кореляцію зі значеннями, із якими пов'язані.
@@ -57,15 +57,15 @@ public **ArrayObject::asort**(int `$flags` u003d **`SORT_REGULAR`**): bool
 
 **Приклад #1 Приклад використання **ArrayObject::asort()****
 
-` <?php$fruits u003d array("d" u003d> "lemon", "a" u003d> "orange", "b" u003d> "banana", "c" u003d> "apple");$fruitArrayObject u003d new ArrayObject($fruits);$fruitArrayObject->asort();foreach ($fruitArrayObject as $key u003d> $val) {    echo "$key u003d $val
+` <?php$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");$fruitArrayObject = new ArrayObject($fruits);$fruitArrayObject->asort();foreach ($fruitArrayObject as $key => $val) {    echo "$key = $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-c u003d apple
-b u003d banana
-d u003d lemon
-a u003d orange
+c = apple
+b = banana
+d = lemon
+a = orange
 
 Назви фруктів були відсортовані в алфавітному порядку, та ключ,
 пов'язаний із кожним записом, був збережений.

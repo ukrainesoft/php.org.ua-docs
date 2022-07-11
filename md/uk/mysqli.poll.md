@@ -9,7 +9,7 @@
 
 # mysqli_poll
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 mysqli::poll -- mysqli_poll — Опитування підключень
 
@@ -22,7 +22,7 @@ public static **mysqli::poll**(
 ?array `&$error`,
 array `&$reject`,
 int `$seconds`,
-int `$microseconds` u003d 0
+int `$microseconds` = 0
 ): int\|false
 
 Процедурний стиль
@@ -32,7 +32,7 @@ int `$microseconds` u003d 0
 ?array `&$error`,
 array `&$reject`,
 int `$seconds`,
-int `$microseconds` u003d 0
+int `$microseconds` = 0
 ): int\|false
 
 Опитування підключень. Метод може використовуватись як
@@ -73,13 +73,13 @@ int `$microseconds` u003d 0
 
 **Приклад #1 Приклад використання **mysqli_poll()****
 
-` <?php$link1 u003d mysqli_connect();$link1->query("SELECT 'test'", MYSQLI_ASYNC);$all_links u003d array($link1);$processed u003d 0;do {    $$s rejectu003du003darray(); foreach ($all_links as $link) {        $links[] u003d $errors[] u003d $reject[] u003d $link; }    if (!mysqli_poll($links, $errors, $reject, 1)) {        continue; }   foreach ($links as $link) {        if ($result u003d $link->reap_async_query()) {          > | if (is_object($result))                 mysqli_free_result($result); } else die(sprintf("Помилка MySQLi: %s", mysqli_error($link))); $processed++; }} while ($processed < count($all_links));?> `
+` <?php$link1 = mysqli_connect();$link1->query("SELECT 'test'", MYSQLI_ASYNC);$all_links = array($link1);$processed = 0;do {    $$s reject==array(); foreach ($all_links as $link) {        $links[] = $errors[] = $reject[] = $link; }    if (!mysqli_poll($links, $errors, $reject, 1)) {        continue; }   foreach ($links as $link) {        if ($result = $link->reap_async_query()) {          > | if (is_object($result))                 mysqli_free_result($result); } else die(sprintf("Помилка MySQLi: %s", mysqli_error($link))); $processed++; }} while ($processed < count($all_links));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> test
+[0] => test
 )
 
 ### Дивіться також

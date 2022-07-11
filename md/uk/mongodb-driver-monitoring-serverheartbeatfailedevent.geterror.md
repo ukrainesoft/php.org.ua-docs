@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError —
 Повертає виняток, пов'язаний із невдалим виконанням heartbeat

@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionExtension::export**(string `$name`, string
-`$return` u003d **`false`**): string
+`$return` = **`false`**): string
 
 Експортує відбитий модуль. Формат виведення цієї функції такий самий як
 і при CLI-параметрі `--re [extension]`.

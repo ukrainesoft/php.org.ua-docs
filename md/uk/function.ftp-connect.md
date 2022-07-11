@@ -13,7 +13,7 @@ ftp_connect — Встановлює з'єднання з сервером FTP
 
 ### Опис
 
-**ftp_connect**(string `$hostname`, int `$port` u003d 21, int `$timeout` u003d
+**ftp_connect**(string `$hostname`, int `$port` = 21, int `$timeout` =
 90): [FTP\Connection](class.ftp-connection.md)\|false
 
 **ftp_connect()** встановлює FTP-з'єднання із вказаним сервером
@@ -52,7 +52,7 @@ ftp_connect — Встановлює з'єднання з сервером FTP
 
 **Приклад #1 Приклад використання **ftp_connect()****
 
-`<?php$ftp_server u003d "ftp.example.com";// встановлює з'єднання або виходить$ftp u003d ftp_connect($ftp_server) or die("Не удалося встановити з'єднання$ftp_server")
+`<?php$ftp_server = "ftp.example.com";// встановлює з'єднання або виходить$ftp = ftp_connect($ftp_server) or die("Не удалося встановити з'єднання$ftp_server")
 
 ### Дивіться також
 

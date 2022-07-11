@@ -51,7 +51,7 @@ string\|false
 
 **Приклад #1 Приклад використання **mysql_field_name()****
 
-`<?php/* Таблиця користувачів складається з трьох колонок: *   user_id *   username *   password. */$link u003d Mysql_connect('localhost', Mysql_user', Mysql_password'); $db_selectedu003du003d mysql_select_db($dbname, $link);if (!$db_selected) {    die("Не удалося вибрати базу $dbname: " . mysql_error());}$res u003d mysql| link);echo mysql_field_name($res, 0) . "
+`<?php/* Таблиця користувачів складається з трьох колонок: *   user_id *   username *   password. */$link = Mysql_connect('localhost', Mysql_user', Mysql_password'); $db_selected== mysql_select_db($dbname, $link);if (!$db_selected) {    die("Не удалося вибрати базу $dbname: " . mysql_error());}$res = mysql| link);echo mysql_field_name($res, 0) . "
 ";echo mysql_field_name($res, 2);?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Клас CollectionFind
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -40,10 +40,10 @@ public **having**(string `$sort_expr`):
 public **limit**(int `$rows`):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
-public **lockExclusive**(int `$lock_waiting_option` u003d ?):
+public **lockExclusive**(int `$lock_waiting_option` = ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
-public **lockShared**(int `$lock_waiting_option` u003d ?):
+public **lockShared**(int `$lock_waiting_option` = ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
 public **offset**(int `$position`):

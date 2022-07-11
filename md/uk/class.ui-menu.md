@@ -24,19 +24,19 @@ public [\_\_construct](ui-menu.construct.md)(string `$name`)
 
 /\* Методи \*/
 
-public [append](ui-menu.append.md)(string `$name`, string `$type` u003d
+public [append](ui-menu.append.md)(string `$name`, string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
-public [appendAbout](ui-menu.appendabout.md)(string `$type` u003d
+public [appendAbout](ui-menu.appendabout.md)(string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 public [appendCheck](ui-menu.appendcheck.md)(string `$name`, string
-`$type` u003d UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
+`$type` = UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 public [appendPreferences](ui-menu.appendpreferences.md)(string
-`$type` u003d UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
+`$type` = UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
-public [appendQuit](ui-menu.appendquit.md)(string `$type` u003d
+public [appendQuit](ui-menu.appendquit.md)(string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 public [appendSeparator](ui-menu.appendseparator.md)()

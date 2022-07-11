@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::peek
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::peek — Повертає значення з початку черги
 
@@ -35,7 +35,7 @@ public **Ds\PriorityQueue::peek**():
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::peek()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);var_dump($queue->peek());?> `
+` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);var_dump($queue->peek());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

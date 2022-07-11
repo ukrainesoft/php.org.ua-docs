@@ -8,7 +8,7 @@
 
 # SolrIllegalArgumentException::getInternalInfo
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrIllegalArgumentException::getInternalInfo — Повертає внутрішню
 інформацію про те, де було викинуто виняток

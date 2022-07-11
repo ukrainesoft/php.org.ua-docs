@@ -7,7 +7,7 @@
 
 # Клас ReflectionNamedType
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 ## Вступ
 

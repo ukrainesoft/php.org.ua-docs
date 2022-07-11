@@ -7,7 +7,7 @@
 
 # Memcached::touchByKey
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::touchByKey — Встановлює новий термін зберігання для запису на
 вказаному сервері

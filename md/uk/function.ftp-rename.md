@@ -38,14 +38,14 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_rename()****
 
-` <?php$old_file u003d 'somefile.txt.bak';$new_file u003d 'somefile.txt';// установка з'єднання$ftp u003d ftp_connect($ftp_server);// перевірка імені користувача ftp, $ftp_user_name, $ftp_user_pass);// спроба перейменувати $olf_file в $new_fileif (ftp_rename($ftp, $old_file, $new_file)) { переменити 
+` <?php$old_file = 'somefile.txt.bak';$new_file = 'somefile.txt';// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені користувача ftp, $ftp_user_name, $ftp_user_pass);// спроба перейменувати $olf_file в $new_fileif (ftp_rename($ftp, $old_file, $new_file)) { переменити 
 ";} else { echo "Не удалося перейменувати $old_file в $new_file
 ";}// закриття з'єднанняftp_close($ftp);?> `

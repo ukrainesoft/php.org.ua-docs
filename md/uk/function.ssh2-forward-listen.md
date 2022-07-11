@@ -7,7 +7,7 @@
 
 # ssh2_forward_listen
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_forward_listen — Зв'язує порт на віддаленому сервері та прослуховує
 з'єднання
@@ -17,8 +17,8 @@ ssh2_forward_listen — Зв'язує порт на віддаленому се�
 **ssh2_forward_listen**(
 resource `$session`,
 int `$port`,
-string `$host` u003d ?,
-int `$max_connections` u003d 16
+string `$host` = ?,
+int `$max_connections` = 16
 ): resource \ | false
 
 Зв'язує порт на віддаленому сервері та прослуховує з'єднання.

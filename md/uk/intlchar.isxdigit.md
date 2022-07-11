@@ -22,7 +22,7 @@ public static **IntlChar::isxdigit**(int\|string `$codepoint`): ?bool
 літер a-f та A-F у уявленнях ASCII та Fullwidth ASCII ( 0041..0046,
 0061..0066, FF21..FF26, FF41..FF46.)
 
-Еквівалентно `IntlChar::digit($codepoint, 16)>u003d0`.
+Еквівалентно `IntlChar::digit($codepoint, 16)>=0`.
 
 ### Список параметрів
 
@@ -56,7 +56,7 @@ bool(false)
 > Для того щоб звузити визначення шістнадцяткових цифр тільки
 > приймаються лише символи ASCII:
 >
-> ` <?php$isASCIIHexadecimal u003d IntlChar::ord($codepoint) <u003d 0x7F && IntlChar::isxdigit($codepoint);?> `
+> ` <?php$isASCIIHexadecimal = IntlChar::ord($codepoint) <= 0x7F && IntlChar::isxdigit($codepoint);?> `
 
 ### Дивіться також
 

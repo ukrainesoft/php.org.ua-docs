@@ -7,7 +7,7 @@
 
 #xhprof_disable
 
-(PECL xhprof \>u003d 0.9.0)
+(PECL xhprof \>= 0.9.0)
 
 xhprof_disable — Зупиняє профіль xhprof
 
@@ -29,28 +29,28 @@ xhprof_disable — Зупиняє профіль xhprof
 
 **Приклад #1 Приклад використання **xhprof_disable()****
 
-` <?phpxhprof_enable();$foo u003d strlen("foo bar");$xhprof_data u003d xhprof_disable();print_r($xhprof_data);?> `
+` <?phpxhprof_enable();$foo = strlen("foo bar");$xhprof_data = xhprof_disable();print_r($xhprof_data);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[main()u003du003d>strlen] u003d> Array
+[main()==>strlen] => Array
 (
-[ct] u003d> 1
-[wt] u003d> 279
+[ct] => 1
+[wt] => 279
 )
 
-[main()u003du003d>xhprof_disable] u003d> Array
+[main()==>xhprof_disable] => Array
 (
-[ct] u003d> 1
-[wt] u003d> 9
+[ct] => 1
+[wt] => 9
 )
 
-[main()] u003d> Array
+[main()] => Array
 (
-[ct] u003d> 1
-[wt] u003d> 610
+[ct] => 1
+[wt] => 610
 )
 
 )

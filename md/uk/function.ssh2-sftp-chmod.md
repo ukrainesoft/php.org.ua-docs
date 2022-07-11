@@ -7,7 +7,7 @@
 
 # ssh2_sftp_chmod
 
-(PECL ssh2 \>u003d 0.12)
+(PECL ssh2 \>= 0.12)
 
 ssh2_sftp_chmod — Зміна прав доступу
 
@@ -40,7 +40,7 @@ bool
 
 **Приклад #1 Зміна прав доступу до файлу**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);ssh2_sftp_chmod' somedir/somefile', 0755);?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_chmod' somedir/somefile', 0755);?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 #dba_handlers
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 dba_handlers — Список доступних обробників
 
 ### Опис
 
-**dba_handlers**(bool `$full_info` u003d **`false`**): array
+**dba_handlers**(bool `$full_info` = **`false`**): array
 
 **dba_handlers()** повертає список усіх доступних у цьому модулі
 обробників.
@@ -41,7 +41,7 @@ dba_handlers — Список доступних обробників
 **Приклад #1 Приклад використання **dba_handlers()****
 
 `<?phpecho "Доступні обробники DBA:
-";foreach (dba_handlers(true) as $handler_name u003d> $handler_version) {  // Очищаємо рядки з версіями $handler_version u003d str_replace('$', '' 
+";foreach (dba_handlers(true) as $handler_name => $handler_version) {  // Очищаємо рядки з версіями $handler_version = str_replace('$', '' 
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

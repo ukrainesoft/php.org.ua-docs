@@ -20,7 +20,7 @@ php [options] -a
 -a Run interactively
 -c <path>|<file> Look for php.ini file in this directory
 -n No php.ini file will be used
--d foo[u003dbar] Define INI entry foo with value 'bar'
+-d foo[=bar] Define INI entry foo with value 'bar'
 -e Generate extended information for debugger/profiler
 -f <file> Parse and execute <file>.
 -h Цей Help

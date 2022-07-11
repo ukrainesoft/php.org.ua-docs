@@ -7,7 +7,7 @@
 
 # SolrQuery::addFacetQuery
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addFacetQuery — Додає фасетний запит
 
@@ -33,13 +33,13 @@ public **SolrQuery::addFacetQuery**(string `$facetQuery`):
 **Приклад #1 Приклад використання
 [SolrQuery::addFacetField()](solrquery.addfacetfield.md)**
 
-` <?php$options u003d array(        'hostname' u003d> SOLR_SERVER_HOSTNAME,        'login'    u003d> SOLR_SERVER_USERNAME,        'password' u003d> SOLR_SERVER_PASSWORD,        'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ query u003d new SolrQuery('*:*');$query->setFacet(true);$query->addFacetQuery('price:[* TO 500]')->addFacetQuery('price:[500 TO *]') );$query_response u003d $client->query($query);$response u003d $query_response->getResponse();print_r($response->facet_counts->facet_queries);?> `
+` <?php$options = array(        'hostname' => SOLR_SERVER_HOSTNAME,        'login'    => SOLR_SERVER_USERNAME,        'password' => SOLR_SERVER_PASSWORD,        'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ query = new SolrQuery('*:*');$query->setFacet(true);$query->addFacetQuery('price:[* TO 500]')->addFacetQuery('price:[500 TO *]') );$query_response = $client->query($query);$response = $query_response->getResponse();print_r($response->facet_counts->facet_queries);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
 SolrObject Object
 (
-[price:[* TO 500]] u003d> 14
-[price:[500 TO *]] u003d> 2
+[price:[* TO 500]] => 14
+[price:[500 TO *]] => 2
 )

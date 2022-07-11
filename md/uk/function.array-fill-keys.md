@@ -7,7 +7,7 @@
 
 #array_fill_keys
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 array_fill_keys — Створює масив та заповнює його значеннями з
 певними ключами
@@ -38,16 +38,16 @@ array_fill_keys — Створює масив та заповнює його з�
 
 **Приклад #1 Приклад використання **array_fill_keys()****
 
-` <?php$keys u003d array('foo', 5, 10, 'bar');$a u003d array_fill_keys($keys, 'banana');print_r($a);?> `
+` <?php$keys = array('foo', 5, 10, 'bar');$a = array_fill_keys($keys, 'banana');print_r($a);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[foo] u003d> banana
-[5] u003d> banana
-[10] u003d> banana
-[bar] u003d> banana
+[foo] => banana
+[5] => banana
+[10] => banana
+[bar] => banana
 )
 
 ### Дивіться також

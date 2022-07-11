@@ -7,7 +7,7 @@
 
 #cubrid_column_types
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_column_types — Отримати типи стовпців у результуючому наборі
 
@@ -32,8 +32,8 @@ Request identifier.
 
 **Приклад #1 **cubrid_column_types()** example**
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");$result u003d cubrid_execute($conn, "SELECT * FROM game WHERE host_yearu003d '2u003d 'G'");$column_names u003d cubrid_column_names($result);$column_types u003d cubrid_column_types($result);printf("%-30s %-30s %-15s
-", "Column Names", "Column Types", "Column Maxlen");for($i u003d 0, $size u003d count($column_names); $i < $size; $i++) {   result, $i);    printf("%-30s %-30s %-15s
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year= '2= 'G'");$column_names = cubrid_column_names($result);$column_types = cubrid_column_types($result);printf("%-30s %-30s %-15s
+", "Column Names", "Column Types", "Column Maxlen");for($i = 0, $size = count($column_names); $i < $size; $i++) {   result, $i);    printf("%-30s %-30s %-15s
 ", $column_names[$i], $column_types[$i], $column_len);}cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

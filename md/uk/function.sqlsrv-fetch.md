@@ -14,7 +14,7 @@ sqlsrv_fetch — Робить наступний рядок у наборі ре
 
 ### Опис
 
-**sqlsrv_fetch**(resource `$stmt`, int `$row` u003d ?, int `$offset` u003d ?):
+**sqlsrv_fetch**(resource `$stmt`, int `$row` = ?, int `$offset` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Робить наступний рядок у наборі результатів, доступних для читання.
@@ -61,7 +61,7 @@ sqlsrv_fetch — Робить наступний рядок у наборі ре
 **sqlsrv_fetch()** і отримати поля рядки за допомогою
 [sqlsrv_get_field()](function.sqlsrv-get-field.md).
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$sql u003d "SELECT Name, Comment        FROM Table_1        WHERE ReviewIDu003d1";$stmt u003d sqlsrv_query( $conn, $sql);if( $stmt u003du003du003d false ) {    die( print_r( sqlsrv_errors(), true));}// Зробіть на на а  if( sqlsrv_fetch( $stmt ) u003du003du003du003dfalse) {     die( print_r( sqlsrv_errors(), true));}// Отримайте поля. Индексы полей начинаются с 0 и должны извлекаться по порядку.// Получение полей строки по имени не поддерживается sqlsrv_get_field.$name u003d sqlsrv_get_field( $stmt, 0);echo "$name: ";$comment u003d sqlsrv_get_field( $stmt, 1) ;echo $comment;?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "SELECT Name, Comment        FROM Table_1        WHERE ReviewID=1";$stmt = sqlsrv_query( $conn, $sql);if( $stmt === false ) {    die( print_r( sqlsrv_errors(), true));}// Зробіть на на а  if( sqlsrv_fetch( $stmt ) ====false) {     die( print_r( sqlsrv_errors(), true));}// Отримайте поля. Индексы полей начинаются с 0 и должны извлекаться по порядку.// Получение полей строки по имени не поддерживается sqlsrv_get_field.$name = sqlsrv_get_field( $stmt, 0);echo "$name: ";$comment = sqlsrv_get_field( $stmt, 1) ;echo $comment;?> `
 
 ### Дивіться також
 

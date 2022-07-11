@@ -7,7 +7,7 @@
 
 # wkhtmltox\Image\Converter::convert
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 wkhtmltox\Image\Converter::convert — Виконати перетворення
 зображень

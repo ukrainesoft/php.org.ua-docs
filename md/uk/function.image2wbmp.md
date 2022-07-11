@@ -7,7 +7,7 @@
 
 #image2wbmp
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7)
 
 image2wbmp — Виводить зображення у браузер або пише файл
 
@@ -18,8 +18,8 @@ image2wbmp — Виводить зображення у браузер або п
 
 ### Опис
 
-**image2wbmp**(resource `$image`, string `$filename` u003d ?, int
-`$foreground` u003d ?): bool
+**image2wbmp**(resource `$image`, string `$filename` = ?, int
+`$foreground` = ?): bool
 
 **image2wbmp()** виводить або зберігає WBMP версію заданого
 зображення `image`.
@@ -54,7 +54,7 @@ image2wbmp — Виводить зображення у браузер або п
 
 **Приклад #1 Приклад використання **image2wbmp()****
 
-` <?php$file u003d 'php.png';$image u003d imagecreatefrompng($file);header('Content-Type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));image2wbmp($image); // виведення потокуimagedestroy($image);?> `
+` <?php$file = 'php.png';$image = imagecreatefrompng($file);header('Content-Type: ' . image_type_to_mime_type(IMAGETYPE_WBMP));image2wbmp($image); // виведення потокуimagedestroy($image);?> `
 
 ### Дивіться також
 

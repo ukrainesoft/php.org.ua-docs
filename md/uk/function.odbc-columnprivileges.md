@@ -74,18 +74,18 @@ string `$column`
 
 **Приклад #1 Перелік привілеїв для стовпця**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$privileges u003d odbc_columnprivileges($conn, 'TutorialDB', 'dbo', 'test', 'id');while (($row odbc_fetch_array($privileges))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$privileges = odbc_columnprivileges($conn, 'TutorialDB', 'dbo', 'test', 'id');while (($row odbc_fetch_array($privileges))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[TABLE_CAT] u003d> TutorialDB
-[TABLE_SCHEM] u003d> dbo
-[TABLE_NAME] u003d> test
-[COLUMN_NAME] u003d> id
-[GRANTOR] u003d> dbo
-[GRANTEE] u003d> dbo
-[PRIVILEGE] u003d> INSERT
-[IS_GRANTABLE] u003d> YES
+[TABLE_CAT] => TutorialDB
+[TABLE_SCHEM] => dbo
+[TABLE_NAME] => test
+[COLUMN_NAME] => id
+[GRANTOR] => dbo
+[GRANTEE] => dbo
+[PRIVILEGE] => INSERT
+[IS_GRANTABLE] => YES
 )

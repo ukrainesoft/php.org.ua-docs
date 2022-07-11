@@ -43,4 +43,4 @@ sort_expr. Допустимий порядок сортування: ASC (за �
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CrudOperationSortable::sort()****
 
-` <?php$res u003d $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();?> `
+` <?php$res = $coll->find('job like \'Cavia\'')->sort('age desc', '_id desc')->execute();?> `

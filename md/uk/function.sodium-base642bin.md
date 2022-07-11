@@ -7,14 +7,14 @@
 
 # sodium_base642bin
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_base642bin — Перетворює рядок у кодуванні base64 в
 необроблений двійковий файл
 
 ### Опис
 
-**sodium_base642bin**(string `$string`, int `$id`, string `$ignore` u003d
+**sodium_base642bin**(string `$string`, int `$id`, string `$ignore` =
 ""): string
 
 Перетворює рядок у кодуванні base64 у необроблений двійковий файл. В
@@ -33,11 +33,11 @@ sodium_base642bin — Перетворює рядок у кодуванні base
 - **`SODIUM_BASE64_VARIANT_ORIGINAL`** для стандартного
 (`A-Za-z0-9/\+`). Кодування Base64.
 - **`SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING`** для стандартного
-(`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів `u003d`.
+(`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів `=`.
 - **`SODIUM_BASE64_VARIANT_URLSAFE`** для URL-безпечного
 (`A-Za-z0-9\-_`). Кодування Base64.
 - **`SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING`** for URL-safe
-(`A-Za-z0-9\-_`). Кодування Base64 без додаткових символів `u003d`.
+(`A-Za-z0-9\-_`). Кодування Base64 без додаткових символів `=`.
 
 `ignore`
 Символи, які слід ігнорувати під час перетворення (наприклад,

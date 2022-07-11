@@ -13,7 +13,7 @@
 
 # date_timezone_get
 
-(PHP 5 \>u003d 5.2.1, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.1, PHP 7, PHP 8)
 
 DateTime::getTimezone -- DateTimeImmutable::getTimezone --
 DateTimeInterface::getTimezone -- date_timezone_get — Повертає вартовий
@@ -56,11 +56,11 @@ public **DateTimeInterface::getTimezone**():
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTime(null, new DateTimeZone('Europe/London'));$tz u003d $date->getTimezone();echo $tz->getName();?> `
+` <?php$date = new DateTime(null, new DateTimeZone('Europe/London'));$tz = $date->getTimezone();echo $tz->getName();?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create(null, timezone_open('Europe/London'));$tz u003d date_timezone_get($date);echo timezone_name_get($tz);?> `
+` <?php$date = date_create(null, timezone_open('Europe/London'));$tz = date_timezone_get($date);echo timezone_name_get($tz);?> `
 
 Результат виконання даних прикладів:
 

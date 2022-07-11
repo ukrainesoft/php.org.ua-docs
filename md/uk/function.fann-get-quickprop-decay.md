@@ -8,7 +8,7 @@
 
 # fann_get_quickprop_decay
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_quickprop_decay — Повертає зниження, яке є
 фактором, при якому ваги повинні зменшуватися на кожній ітерації в

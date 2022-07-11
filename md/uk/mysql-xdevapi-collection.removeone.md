@@ -18,7 +18,7 @@ public **mysql_xdevapi\Collection::removeOne**(string `$id`):
 
 Видаляє один документ із колекції з відповідним ідентифікатором.
 Скорочений запис для
-`Collection.remove("_id u003d :id").bind("id", id).execute()`.
+`Collection.remove("_id = :id").bind("id", id).execute()`.
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public **mysql_xdevapi\Collection::removeOne**(string `$id`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::removeOne()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$result u003d $ {"name": "Alfred", "age": 18, "job": "Butler"}')->execute(); використовуємо його$ids       u003d $result->getGeneratedIds();$alfred_id u003d $ids[0];$result u003d $collection->removeOne($alfred_id);if(!$result->getAffectedItem { з ідентифікатором $ alfred_id не був віддалений.
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result = $ {"name": "Alfred", "age": 18, "job": "Butler"}')->execute(); використовуємо його$ids       = $result->getGeneratedIds();$alfred_id = $ids[0];$result = $collection->removeOne($alfred_id);if(!$result->getAffectedItem { з ідентифікатором $ alfred_id не був віддалений.
 
 Результатом виконання цього прикладу буде щось подібне:
 

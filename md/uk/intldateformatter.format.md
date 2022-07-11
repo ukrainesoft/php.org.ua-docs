@@ -9,7 +9,7 @@
 
 # datefmt_format
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::format -- datefmt_format — Форматує значення
 дати/часу у вигляді рядка
@@ -60,20 +60,20 @@ public
 
 ### Список змін
 
-| Версія   | Опис                                                                                                                                                                           |
-| -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 7.1.5    | Додано підтримку спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра `datetime`. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md). |
-| PECL 3.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра `datetime`.                                                                              |
+| Версія   | Опис                                                                                                                                                                         |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 7.1.5    | Додано підтримку спільних об'єктів [DateTimeInterface](class.datetimeinterface.md) для параметра datetime. Раніше підтримувалися лише об'єкти [DateTime](class.datetime.md). |
+| PECL 3.0 | Додано підтримку надання об'єктів [IntlCalendar](class.intlcalendar.md) для параметра datetime.                                                                              |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **datefmt_format()****
 
-`<?php$fmt u003d datefmt_create(   'en_US',   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles'| datefmt_format($fmt, 0);$fmt u003d datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Второй форматированный вывод: ' . datefmt_format($fmt, 0);$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Первый форматований висновок з шаблоном: ' . datefmt_format($fmt, 0);$fmt u003d datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo "Другий форматований висновок з шаблоном: " . datefmt_format($fmt, 0);?> `
+`<?php$fmt = datefmt_create(   'en_US',   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles'| datefmt_format($fmt, 0);$fmt = datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Второй форматированный вывод: ' . datefmt_format($fmt, 0);$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Первый форматований висновок з шаблоном: ' . datefmt_format($fmt, 0);$fmt = datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo "Другий форматований висновок з шаблоном: " . datefmt_format($fmt, 0);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Первый форматированный вывод: ' . $fmt->format(0);$fmt u003d new IntlDateFormatter(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Второй форматированный вывод: ' . $fmt->format(0);$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Перший форматований висновок з шаблоном: ' . $fmt->format(0);$fmt u003d new IntlDateFormatter(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy') ;echo 'Другий форматований висновок з шаблоном: ' . $fmt->format(0);?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Первый форматированный вывод: ' . $fmt->format(0);$fmt = new IntlDateFormatter(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Второй форматированный вывод: ' . $fmt->format(0);$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Перший форматований висновок з шаблоном: ' . $fmt->format(0);$fmt = new IntlDateFormatter(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy') ;echo 'Другий форматований висновок з шаблоном: ' . $fmt->format(0);?> `
 
 Результат виконання цього прикладу:
 
@@ -85,7 +85,7 @@ public
 **Приклад #3 Приклад використання з об'єктом
 [IntlCalendar](class.intlcalendar.md)**
 
-`<?php$tz u003d reset(iterator_to_array(IntlTimeZone::createEnumeration('FR')));$formatter u003d IntlDateFormatter::create(   'fr_FR',                   | :GREGORIAN);$cal u003d IntlCalendar::createInstance($tz, '@calendaru003dislamic-civil');$cal->set(IntlCalendar::FIELD_MONTH, 8); //9-й місяць, Рамадан$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 1); //Перший день$cal->clear(IntlCalendar::FIELD_HOUR_OF_DAY);$cal->clear(IntlCalendar::FIELD_MINUTE);$cal->clear(IntlCalendar::FIELD_SECOND);$cal->clear(IntlCalendar::FIEL );echo "В цьому ісламському року Рамадан почався/почнеться:
+`<?php$tz = reset(iterator_to_array(IntlTimeZone::createEnumeration('FR')));$formatter = IntlDateFormatter::create(   'fr_FR',                   | :GREGORIAN);$cal = IntlCalendar::createInstance($tz, '@calendar=islamic-civil');$cal->set(IntlCalendar::FIELD_MONTH, 8); //9-й місяць, Рамадан$cal->set(IntlCalendar::FIELD_DAY_OF_MONTH, 1); //Перший день$cal->clear(IntlCalendar::FIELD_HOUR_OF_DAY);$cal->clear(IntlCalendar::FIELD_MINUTE);$cal->clear(IntlCalendar::FIELD_SECOND);$cal->clear(IntlCalendar::FIEL );echo "В цьому ісламському року Рамадан почався/почнеться:
 ",         $formatter->format($cal), "
 ";//Це годинний пояс використовуваного засоби форматування:$formatter->setTimeZone('Asia/Tokyo');echo "Після зміни годинного поясу:
 ",         $formatter->format($cal), "

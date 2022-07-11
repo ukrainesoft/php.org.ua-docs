@@ -7,7 +7,7 @@
 
 # Memcached::addServers
 
-(PECL memcached \>u003d 0.1.1)
+(PECL memcached \>= 0.1.1)
 
 Memcached::addServers — Додає кілька серверів у пул
 
@@ -39,7 +39,7 @@ public **Memcached::addServers**(array `$servers`): bool
 
 **Приклад #1 Приклад використання **Memcached::addServers()****
 
-` <?php$m u003d new Memcached();$serversu003du003darray(    array('mem1.domain.com', 11211, 33),    array('mem2.domain.com', 117) ->addServers($servers);?> `
+` <?php$m = new Memcached();$servers==array(    array('mem1.domain.com', 11211, 33),    array('mem2.domain.com', 117) ->addServers($servers);?> `
 
 ### Дивіться також
 

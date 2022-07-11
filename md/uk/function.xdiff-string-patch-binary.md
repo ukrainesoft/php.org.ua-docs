@@ -7,7 +7,7 @@
 
 #xdiff_string_patch_binary
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_string_patch_binary — Псевдонім для xdiff_string_bpatch
 

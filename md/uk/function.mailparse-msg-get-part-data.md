@@ -7,7 +7,7 @@
 
 #mailparse_msg_get_part_data
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_get_part_data - Повернути асоціативний масив з інформацією
 про повідомлення

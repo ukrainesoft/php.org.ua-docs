@@ -12,20 +12,20 @@
 
 **Приклад #1 Приклад використання Zlib**
 
-` <?php$filename u003d tempnam('/tmp', 'zlibtest') . '.gz';echo "<html>
+` <?php$filename = tempnam('/tmp', 'zlibtest') . '.gz';echo "<html>
 <head></head>
 <body>
 <pre>
-";$s u003d "Тільки тест, тест, тест, тест, тест, тест, тест, тест!
-";// Відкриття файлу для запису з максимальним стисненням$zp u003d gzopen($filename, "w9");// Запис рядки в файлgzwrite($zp, $s);// | файлу для читання $ zp u003d u003d gzopen ($ filename, "")"; ;echo "
-";// Відкриття файлу і виведення вмісту (у другий раз)if (readgzfile($filename) !u003d strlen($s)) {     echo "Виникла помилка з| /pre>
+";$s = "Тільки тест, тест, тест, тест, тест, тест, тест, тест!
+";// Відкриття файлу для запису з максимальним стисненням$zp = gzopen($filename, "w9");// Запис рядки в файлgzwrite($zp, $s);// | файлу для читання $ zp = = gzopen ($ filename, "")"; ;echo "
+";// Відкриття файлу і виведення вмісту (у другий раз)if (readgzfile($filename) != strlen($s)) {     echo "Виникла помилка з| /pre>
 </body>
 </html>
 ";?> `
 
 **Приклад #2 Робота з API інкрементальної компресії та декомпресії**
 
-`<?php// Виконання компресії GZIP:$deflateContext u003d deflate_init(ZLIB_ENCODING_GZIP); ZLIB_NO_FLUSH);$compressed .u003d deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);// Выполнение декомпрессии GZIP:$inflateContext u003d inflate_init(ZLIB_ENCODING_GZIP);$uncompressed u003d inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH) ;$uncompressed .u003d inflate_add($inflateContext, NULL, ZLIB_FINISH);echo $uncompressed;?> `
+`<?php// Виконання компресії GZIP:$deflateContext = deflate_init(ZLIB_ENCODING_GZIP); ZLIB_NO_FLUSH);$compressed .= deflate_add($deflateContext, "и ещё больше данных!", ZLIB_FINISH);// Выполнение декомпрессии GZIP:$inflateContext = inflate_init(ZLIB_ENCODING_GZIP);$uncompressed = inflate_add($inflateContext, $compressed, ZLIB_NO_FLUSH) ;$uncompressed .= inflate_add($inflateContext, NULL, ZLIB_FINISH);echo $uncompressed;?> `
 
 Результат виконання цього прикладу:
 

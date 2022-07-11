@@ -7,7 +7,7 @@
 
 # Клас HRTime\Unit
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 ## Вступ
 
@@ -17,13 +17,13 @@ class **HRTime\Unit** {
 
 /\* Константи \*/
 
-const int `SECOND` u003d 0;
+const int `SECOND` = 0;
 
-const int `MILLISECOND` u003d 1;
+const int `MILLISECOND` = 1;
 
-const int `MICROSECOND` u003d 2;
+const int `MICROSECOND` = 2;
 
-const int `NANOSECOND` u003d 3;
+const int `NANOSECOND` = 3;
 
 /\* Методи \*/
 

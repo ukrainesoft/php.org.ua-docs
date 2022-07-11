@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::setTimezone
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTimezone — Встановлює часовий пояс
 
@@ -42,8 +42,8 @@ public
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));echo$date->format('Y-m-d H:i:sP') . "
-";$newDate u003d $date->setTimezone(new DateTimeZone('Pacific/Chatham'));echo $newDate->format('Y-m-d H:i:sP') . ""
+` <?php$date = new DateTimeImmutable('2000-01-01', new DateTimeZone('Pacific/Nauru'));echo$date->format('Y-m-d H:i:sP') . "
+";$newDate = $date->setTimezone(new DateTimeZone('Pacific/Chatham'));echo $newDate->format('Y-m-d H:i:sP') . ""
 ";?> `
 
 Результат виконання даних прикладів:

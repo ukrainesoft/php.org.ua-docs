@@ -7,14 +7,14 @@
 
 #trigger_error
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 trigger_error — Викликає користувача
 помилку/попередження/сповіщення
 
 ### Опис
 
-**trigger_error**(string `$message`, int `$error_level` u003d
+**trigger_error**(string `$message`, int `$error_level` =
 **`E_USER_NOTICE`**): bool
 
 Використовується для виклику помилок користувача. Можна використовувати в
@@ -47,7 +47,7 @@ trigger_error — Викликає користувача
 Докладніший приклад наведено в описі функції
 [set_error_handler()](function.set-error-handler.md).
 
-` <?phpif ($divisor u003du003du003d0) {    trigger_error("Не можу поділити на нуль", E_USER_ERROR);}?> `
+` <?phpif ($divisor ===0) {    trigger_error("Не можу поділити на нуль", E_USER_ERROR);}?> `
 
 ### Примітки
 

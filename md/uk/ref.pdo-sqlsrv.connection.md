@@ -7,7 +7,7 @@
 
 #PDO_SQLSRV DSN
 
-(PECL pdo_sqlsrv \>u003d 2.0.1)
+(PECL pdo_sqlsrv \>= 2.0.1)
 
 PDO_SQLSRV DSN — Підключення до баз даних MS SQL Server та SQL Azure
 
@@ -79,16 +79,16 @@ PDO::SQLSRV_TXN_SNAPSHOT та PDO::SQLSRV_TXN_SERIALIZABLE.
 Наступний приклад показує, як підключатися до певної бази даних
 MS SQL Server:
 
-$c u003d new PDO("sqlsrv:Serveru003dlocalhost;Databaseu003dtestdb", "UserName", "Password");
+$c = new PDO("sqlsrv:Server=localhost;Database=testdb", "UserName", "Password");
 
 Наступний приклад показує, як підключатися до бази даних MS SQL
 Server по певному порту:
 
-$c u003d новий PDO("sqlsrv:Serveru003dlocalhost,1521;Databaseu003dtestdb", "UserName", "Password");
+$c = новий PDO("sqlsrv:Server=localhost,1521;Database=testdb", "UserName", "Password");
 
 Наступний приклад показує, як підключатися до бази даних SQL Azure з
 ідентифікатор сервера 12345abcde. Примітка: при підключенні до SQL
 Azure за допомогою PDO, ім'я користувача дорівнює UserName@12345abcde
 (UserName@ServerId).
 
-$c u003d new PDO("sqlsrv:Serveru003d12345abcde.database.windows.net;Databaseu003dtestdb", "UserName@12345abcde", "Password");
+$c = new PDO("sqlsrv:Server=12345abcde.database.windows.net;Database=testdb", "UserName@12345abcde", "Password");

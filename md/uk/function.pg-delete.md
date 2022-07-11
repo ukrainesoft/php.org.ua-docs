@@ -7,7 +7,7 @@
 
 #pg_delete
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_delete — Видалення записів
 
@@ -17,7 +17,7 @@ pg_delete — Видалення записів
 [PgSql\Connection](class.pgsql-connection.md) `$connection`,
 string `$table_name`,
 array `$conditions`,
-int `$flags` u003d **`PGSQL_DML_EXEC`**
+int `$flags` = **`PGSQL_DML_EXEC`**
 ): string\|bool
 
 **pg_delete()** видаляє з таблиці записи, що відповідають ключам та
@@ -67,15 +67,15 @@ int `$flags` u003d **`PGSQL_DML_EXEC`**
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                             |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `connection` тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_delete()****
 
-`<?php $db u003d pg_connect('dbnameu003dfoo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $res u003d pg_delete($db, 'post_log', $_POST, PG_DML_ESCAPE); if ($res) {      echo "Дані із POST віддалені: $res
+`<?php $db = pg_connect('dbname=foo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $res = pg_delete($db, 'post_log', $_POST, PG_DML_ESCAPE); if ($res) {      echo "Дані із POST віддалені: $res
 ";  } else {      echo "Користувач направив невірні вхідні дані
 ";  }?> `
 

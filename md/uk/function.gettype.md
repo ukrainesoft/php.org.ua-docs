@@ -50,7 +50,7 @@ gettype — Повертає тип змінної
 
 **Приклад #1 Приклад використання **gettype()****
 
-` <?php$data u003d array(1, 1., NULL, new stdClass, 'foo');foreach ($data as $value) {   echo gettype($value), "
+` <?php$data = array(1, 1., NULL, new stdClass, 'foo');foreach ($data as $value) {   echo gettype($value), "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

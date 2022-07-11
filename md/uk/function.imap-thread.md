@@ -7,14 +7,14 @@
 
 #imap_thread
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imap_thread — Отримати дерево пов'язаних повідомлень
 
 ### Опис
 
 **imap_thread**([IMAP\Connection](class.imap-connection.md) `$imap`,
-int `$flags` u003d **`SE_FREE`**): array\|false
+int `$flags` = **`SE_FREE`**): array\|false
 
 Повертає дерево пов'язаних повідомлень.
 
@@ -49,8 +49,8 @@ int `$flags` u003d **`SE_FREE`**): array\|false
 
 **Приклад #1 Приклад використання **imap_thread()****
 
-` <?php// Тут ми виводимо зв'язані повідомлення групи новостей в HTML$nntp u003d imap_open('{news.example.com:119/nntp}some.newsgroup', '', '');$ read nntp);foreach ($threads as $key u003d> $val) {  $tree u003d explode('.', $key); if ($tree[1] u003du003d 'num') {   $header u003d imap_headerinfo($nntp, $val); echo "<ul>
+` <?php// Тут ми виводимо зв'язані повідомлення групи новостей в HTML$nntp = imap_open('{news.example.com:119/nntp}some.newsgroup', '', '');$ read nntp);foreach ($threads as $key => $val) {  $tree = explode('.', $key); if ($tree[1] == 'num') {   $header = imap_headerinfo($nntp, $val); echo "<ul>
 <li>" . $header->fromaddress . "
-";  } elseif ($tree[1] u003du003d 'branch') {    echo " </li>
+";  } elseif ($tree[1] == 'branch') {    echo " </li>
 </ul>
 ";  }}imap_close($nntp);?> `

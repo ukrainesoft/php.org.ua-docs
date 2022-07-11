@@ -30,7 +30,7 @@ public **mysql_xdevapi\Collection::getSession**(): Session
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::getSession()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");// ...$news ->getSession();var_dump($session);var_dump($newsession);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");// ...$news ->getSession();var_dump($session);var_dump($newsession);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # SplObjectStorage::setInfo
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::setInfo — Асоціює дані з поточним об'єктом
 контейнера
@@ -34,7 +34,7 @@ public
 
 **Приклад #1 Приклад використання **SplObjectStorage::setInfo()****
 
-` <?php$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {    $s->setInfo("new"); $s->next();}var_dump($s[$o1]);var_dump($s[$o2]);?> `
+` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {    $s->setInfo("new"); $s->next();}var_dump($s[$o1]);var_dump($s[$o2]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

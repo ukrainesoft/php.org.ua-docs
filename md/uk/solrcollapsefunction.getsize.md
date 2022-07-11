@@ -7,7 +7,7 @@
 
 # SolrCollapseFunction::getSize
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrCollapseFunction::getSize — Повертає параметр розміру
 

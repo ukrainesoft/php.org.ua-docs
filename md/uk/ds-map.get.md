@@ -7,7 +7,7 @@
 
 # Ds\Map::get
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::get — Повертає значення за ключем
 
@@ -17,7 +17,7 @@ public
 **Ds\Map::get**([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default` u003d ?):
+`$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає значення за заданим ключем, або необов'язкове значення
@@ -67,7 +67,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::get()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->get("a")) ; // 1var_dump($map->get("d", 10)); // 10 (використовується за замовчанням)?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->get("a")) ; // 1var_dump($map->get("d", 10)); // 10 (використовується за замовчанням)?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -77,7 +77,7 @@ int(10)
 **Приклад #2 Приклад використання **Ds\Map::get()** із синтаксисом
 масиву**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map["a"]); // 1?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map["a"]); // 1?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

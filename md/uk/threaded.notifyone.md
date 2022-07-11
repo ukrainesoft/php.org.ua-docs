@@ -7,7 +7,7 @@
 
 # Threaded::notifyOne
 
-(PECL pthreads \>u003d 3.0.0)
+(PECL pthreads \>= 3.0.0)
 
 Threaded::notifyOne — Синхронізація
 
@@ -33,7 +33,7 @@ public **Threaded::notifyOne**(): bool
 
 **Приклад #1 Сповіщення та очікування**
 
-` <?phpclass My extends Thread {    public function run() {        /** заставить этот поток ждать **/        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait ();        }, $this); }}$my u003d new My();$my->start();/** надіслати повідомлення очікуючого потоку **/$my->synchronized(function($thread){    $thread->done u003d                  <br> ->notifyOne();}, $my);var_dump($my->join());?> `
+` <?phpclass My extends Thread {    public function run() {        /** заставить этот поток ждать **/        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait ();        }, $this); }}$my = new My();$my->start();/** надіслати повідомлення очікуючого потоку **/$my->synchronized(function($thread){    $thread->done =                  <br> ->notifyOne();}, $my);var_dump($my->join());?> `
 
 Результат виконання цього прикладу:
 

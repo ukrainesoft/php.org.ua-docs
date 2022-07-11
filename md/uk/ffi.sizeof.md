@@ -7,7 +7,7 @@
 
 # FFI::sizeof
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::sizeof — Повертає розмір даних або типу C
 

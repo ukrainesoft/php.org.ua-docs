@@ -7,7 +7,7 @@
 
 # Ds\Map::hasKey
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::hasKey — Перевіряє, чи колекція містить заданий ключ
 
@@ -32,7 +32,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::hasKey()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->hasKey("a")) ; // Truevar_dump($map->hasKey("e")); // false?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->hasKey("a")) ; // Truevar_dump($map->hasKey("e")); // false?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

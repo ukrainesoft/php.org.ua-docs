@@ -7,13 +7,13 @@
 
 # Ds\Map::slice
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::slice — Повертає підмножину колекції із заданого діапазону
 
 ### Опис
 
-public **Ds\Map::slice**(int `$index`, int `$length` u003d ?):
+public **Ds\Map::slice**(int `$index`, int `$length` = ?):
 [Ds\Map](class.ds-map.md)
 
 Повертає підмножину колекції з діапазону, заданого початковим
@@ -43,37 +43,37 @@ public **Ds\Map::slice**(int `$index`, int `$length` u003d ?):
 
 **Приклад #1 Приклад використання **Ds\Map::slice()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3, "d" u003d> 4, "e" u003d> 5]) ;// Підмножина після індексу 2print_r($map->slice(2)->toArray());// Підмножина, починаючи з індексу 1 з довжиною 3print_r($map->slice(1, Ar) );// Підмножина після індексу 1print_r($map->slice(1)->toArray());// Підмножина після індексу 2 з кінцяprint_r($map->slice(-2)->toArray() / Підмножина після індексу 1, відраховуючи з кінцяprint_r($map->slice(1, -1)->toArray());?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3, "d" => 4, "e" => 5]) ;// Підмножина після індексу 2print_r($map->slice(2)->toArray());// Підмножина, починаючи з індексу 1 з довжиною 3print_r($map->slice(1, Ar) );// Підмножина після індексу 1print_r($map->slice(1)->toArray());// Підмножина після індексу 2 з кінцяprint_r($map->slice(-2)->toArray() / Підмножина після індексу 1, відраховуючи з кінцяprint_r($map->slice(1, -1)->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[c] u003d> 3
-[d] u003d> 4
-[e] u003d> 5
+[c] => 3
+[d] => 4
+[e] => 5
 )
 Array
 (
-[b] u003d> 2
-[c] u003d> 3
-[d] u003d> 4
+[b] => 2
+[c] => 3
+[d] => 4
 )
 Array
 (
-[b] u003d> 2
-[c] u003d> 3
-[d] u003d> 4
-[e] u003d> 5
+[b] => 2
+[c] => 3
+[d] => 4
+[e] => 5
 )
 Array
 (
-[d] u003d> 4
-[e] u003d> 5
+[d] => 4
+[e] => 5
 )
 Array
 (
-[b] u003d> 2
-[c] u003d> 3
-[d] u003d> 4
+[b] => 2
+[c] => 3
+[d] => 4
 )

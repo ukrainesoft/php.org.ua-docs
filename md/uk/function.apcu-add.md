@@ -7,7 +7,7 @@
 
 #apcu_add
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_add — Додати змінну до кешу
 
@@ -15,11 +15,11 @@ apcu_add — Додати змінну до кешу
 
 **apcu_add**(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$var`, int `$ttl` u003d 0): bool
+`$var`, int `$ttl` = 0): bool
 
 **apcu_add**(array `$values`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$unused` u003d NULL, int `$ttl` u003d 0): array
+`$unused` = NULL, int `$ttl` = 0): array
 
 Додає змінну в кеш, якщо її ще немає.
 
@@ -59,8 +59,8 @@ apcu_add — Додати змінну до кешу
 
 **Приклад #1 Приклад використання **apcu_add()****
 
-` <?php$bar u003d 'BAR';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
-";$bar u003d 'NEVER GETS SET';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
+` <?php$bar = 'BAR';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
+";$bar = 'NEVER GETS SET';apcu_add('foo', $bar);var_dump(apcu_fetch('foo'));echo "
 ";?> `
 
 Результат виконання цього прикладу:

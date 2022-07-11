@@ -7,13 +7,13 @@
 
 # SyncReaderWriter::readlock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncReaderWriter::readlock — Очікує блокування читання
 
 ### Опис
 
-public **SyncReaderWriter::readlock**(int `$wait` u003d -1): bool
+public **SyncReaderWriter::readlock**(int `$wait` = -1): bool
 
 Отримує блокування читання об'єкта
 [SyncReaderWriter](class.syncreaderwriter.md).
@@ -32,7 +32,7 @@ public **SyncReaderWriter::readlock**(int `$wait` u003d -1): bool
 
 **Приклад #1 Приклад використання **SyncReaderWriter::readlock()****
 
-` <?php$readwrite u003d new SyncReaderWriter("FileCacheLock");$readwrite->readlock();/* ... */$readwrite->readunlock();?> `
+` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->readlock();/* ... */$readwrite->readunlock();?> `
 
 ### Дивіться також
 

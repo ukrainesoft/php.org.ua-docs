@@ -7,7 +7,7 @@
 
 #array_fill
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 array_fill - Заповнює масив значеннями
 
@@ -49,25 +49,25 @@ array_fill - Заповнює масив значеннями
 
 **Приклад #1 Приклад використання **array_fill()****
 
-` <?php$a u003d array_fill(5, 6, 'banana');$b u003d array_fill(-2, 4, 'pear');print_r($a);print_r($b);?> `
+` <?php$a = array_fill(5, 6, 'banana');$b = array_fill(-2, 4, 'pear');print_r($a);print_r($b);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[5] u003d> banana
-[6] u003d> banana
-[7] u003d> banana
-[8] u003d> banana
-[9] u003d> banana
-[10] u003d> banana
+[5] => banana
+[6] => banana
+[7] => banana
+[8] => banana
+[9] => banana
+[10] => banana
 )
 Array
 (
-[-2] u003d> pear
-[0] u003d> pear
-[1] u003d> pear
-[2] u003d> pear
+[-2] => pear
+[0] => pear
+[1] => pear
+[2] => pear
 )
 
 ### Примітки

@@ -15,7 +15,7 @@
 Модуль CommonMark надає простий API синтаксичного аналізу:
 
 [CommonMark\Parse](function.commonmark-parse.md)(string `$content`,
-int `$options` u003d ?): [CommonMark\Node](class.commonmark-node.md)
+int `$options` = ?): [CommonMark\Node](class.commonmark-node.md)
 
 ##### Відображення:
 
@@ -23,19 +23,19 @@ int `$options` u003d ?): [CommonMark\Node](class.commonmark-node.md)
 підтримує кілька форматів:
 
 [CommonMark\Render](function.commonmark-render.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?, int `$width` u003d ?): string
+`$node`, int `$options` = ?, int `$width` = ?): string
 
 [CommonMark\Render\HTML](function.commonmark-render-html.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?): string
+`$node`, int `$options` = ?): string
 
 [CommonMark\Render\XML](function.commonmark-render-xml.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?): string
+`$node`, int `$options` = ?): string
 
 [CommonMark\Render\Man](function.commonmark-render-man.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?, int `$width` u003d ?): string
+`$node`, int `$options` = ?, int `$width` = ?): string
 
 [CommonMark\Render\Latex](function.commonmark-render-latex.md)([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?, int `$width` u003d ?): string
+`$node`, int `$options` = ?, int `$width` = ?): string
 
 ##### AST:
 

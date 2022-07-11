@@ -7,13 +7,13 @@
 
 #win32_set_service_status
 
-(PECL win32service \>u003d0.1.0)
+(PECL win32service \>=0.1.0)
 
 win32_set_service_status — Оновлює статус служби
 
 ### Опис
 
-**win32_set_service_status**(int `$status`, int `$checkpoint` u003d 0): void
+**win32_set_service_status**(int `$status`, int `$checkpoint` = 0): void
 
 Повідомляє SCM про поточний стан працюючої служби. Цей виклик
 дійсний лише для запущеного сервісного процесу.
@@ -63,12 +63,12 @@ SAPI цю функцію вимкнено.
 
 ### Список змін
 
-| Версія                                                                                                                                                                                      | Опис                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**.                                                       |                                       |
-| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                       |
-| PECL win32service 1.0.0 Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                  |                                       |
-| PECL win32service 0.2.0                                                                                                                                                                     | Функція працює тільки з ``cli'` SAPI. |
+| Версія                                                                                                                                                                                      | Опис                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |                                    |                                       
+| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                    |
+| PECL win32service 1.0.0 Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                  |                                    |
+| PECL win32service 0.2.0                                                                                                                                                                     | Функція працює тільки з cli' SAPI. |
 
 ### Дивіться також
 

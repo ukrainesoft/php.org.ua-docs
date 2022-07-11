@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\TopologyDescription::getServers
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\TopologyDescription::getServers — Повертає сервери до
 топології

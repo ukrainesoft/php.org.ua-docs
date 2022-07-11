@@ -21,7 +21,7 @@ mysql_list_tables — Повертає список таблиць бази да
 
 ### Опис
 
-**mysql_list_tables**(string `$database`, resource `$link_identifier` u003d
+**mysql_list_tables**(string `$database`, resource `$link_identifier` =
 NULL): resource \ | false
 
 Повертає перелік імен таблиць бази даних MySQL.
@@ -64,8 +64,8 @@ NULL): resource \ | false
 
 **Приклад #1 Приклад використання **mysql_list_tables()****
 
-` <?php$dbname u003d 'mysql_dbname';if (!mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {    echo 'Помилка підключення к mysql'; exit;}$sql u003d "SHOW TABLES FROM $dbname";$result u003d mysql_query($sql);if (!$result) {    echo "Помилка бази, не удалося отримати список табл
-";   echo 'Помилка MySQL: ' . mysql_error();    exit;}while ($row u003d mysql_fetch_row($result)) {    echo ""Таблиця[ |
+` <?php$dbname = 'mysql_dbname';if (!mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {    echo 'Помилка підключення к mysql'; exit;}$sql = "SHOW TABLES FROM $dbname";$result = mysql_query($sql);if (!$result) {    echo "Помилка бази, не удалося отримати список табл
+";   echo 'Помилка MySQL: ' . mysql_error();    exit;}while ($row = mysql_fetch_row($result)) {    echo ""Таблиця[ |
 ";} mysql_free_result($result);?> `
 
 ### Примітки

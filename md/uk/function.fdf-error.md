@@ -7,13 +7,13 @@
 
 #fdf_error
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_error — Повертає опис помилки для коду помилки FDF
 
 ### Опис
 
-**fdf_error**(int `$error_code` u003d -1): string
+**fdf_error**(int `$error_code` = -1): string
 
 Отримує текстовий опис коду помилки FDF, вказаного в error_code.
 

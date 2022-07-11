@@ -56,13 +56,13 @@ int `$mysqli->thread_id`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
 ", mysqli_connect_error()); помилка */if (!$mysqli->query("CREATE TABLE myCity LIKE City")) {    printf("Помилка: %s
 ", $mysqli->error);   exit;}/* закриваємо з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
 ", mysqli_connect_error()); */if(!mysqli_query($link, "CREATE TABLE myCity LIKE City")) {    printf("Помилка: %s
 ", mysqli_error($link));   exit;}/* закриваємо з'єднання*/mysqli_close($link);?> `
 

@@ -7,7 +7,7 @@
 
 #pcntl_get_last_error
 
-(PHP 5 \>u003d 5.3.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.4, PHP 7, PHP 8)
 
 pcntl_get_last_error — Отримати код останньої помилки, що виникла в
 pcntl-функції

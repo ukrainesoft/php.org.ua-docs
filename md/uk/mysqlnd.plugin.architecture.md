@@ -15,14 +15,14 @@
 сам собою організований `mysqlnd`. `Mysqlnd` складається з наступних
 модулів:
 
-| Модулі статистики mysqlnd_statistics.c |
-|-----------------------------------|------------- -----------|
-| Поєднання | mysqlnd.c |
-| Результуючий набір mysqlnd_result.c |
-| Методи результуючого набору | mysqlnd_result_meta.c |
-| Оператор | mysqlnd_ps.c |
-| Мережа | mysqlnd_net.c |
-| Протокол обміну mysqlnd_wireprotocol.c |
+| Модулі статистики mysqlnd_statistics.c |                       |
+| -------------------------------------- | --------------------- |
+| Поєднання                              | mysqlnd.c             |
+| Результуючий набір mysqlnd_result.c    |                       |
+| Методи результуючого набору            | mysqlnd_result_meta.c |
+| Оператор                               | mysqlnd_ps.c          |
+| Мережа                                 | mysqlnd_net.c         |
+| Протокол обміну mysqlnd_wireprotocol.c |                       |
 
 **Організаційна схема mysqlnd, помодульно**
 
@@ -76,14 +76,14 @@ struct st_mysqlnd_conn_methods org_methods;
 void minit_register_hooks(TSRMLS_D) {
 /* активна таблиця функцій */
 struct st_mysqlnd_conn_methods * current_methods
-u003d mysqlnd_conn_get_methods();
+= mysqlnd_conn_get_methods();
 
 /* Бекап оригінальної таблиці */
 memcpy(&org_methods, current_methods,
 sizeof(struct st_mysqlnd_conn_methods);
 
 /* встановлення нових методів */
-current_methods->query u003d MYSQLND_METHOD(my_conn_class, query);
+current_methods->query = MYSQLND_METHOD(my_conn_class, query);
 }
 
 Маніпуляцією з таблицею функцій з'єднання необхідно займатися
@@ -111,11 +111,11 @@ current_methods->query u003d MYSQLND_METHOD(my_conn_class, query);
 MYSQLND_METHOD(my_conn_class, query)(MYSQLND *conn,
 const char *query, unsigned int query_len TSRMLS_DC) {
 
-php_printf("my_conn_class::query(query u003d %s)
+php_printf("my_conn_class::query(query = %s)
 ", Query);
 
-query u003d "SELECT 'query rewritten' FROM DUAL";
-query_len u003d strlen (query);
+query = "SELECT 'query rewritten' FROM DUAL";
+query_len = strlen (query);
 
 return org_methods.query(conn, query, query_len); /* Повернення з викликом батька */
 }
@@ -136,10 +136,10 @@ C struct під час виконання. Користувачі об'єкті�
 У наступній таблиці показано, як обчислити положення вказівника для
 конкретного плагіна:
 
-| Адреса пам'яті Вміст |
-|--------------------------|---------------------- ---------------------|
-| 0 | Початок об'єкту mysqlnd(C struct) |
-| n | Кінець об'єкту mysqlnd (C struct) |
+| Адреса пам'яті Вміст     |                                          |
+| ------------------------ | ---------------------------------------- |
+| 0                        | Початок об'єкту mysqlnd(C struct)        |
+| n                        | Кінець об'єкту mysqlnd (C struct)        |
 | n + (m x sizeof(void\*)) | void\* для даних об'єкта плагіна номер m |
 
 **Розрахунок покажчика для mysqlnd**
@@ -159,17 +159,17 @@ unsigned int my_plugin_id;
 
 void minit_register_hooks(TSRMLS_D) {
 /* отримуємо унікальний ідентифікатор плагіна */
-my_plugin_id u003d mysqlnd_plugin_register();
+my_plugin_id = mysqlnd_plugin_register();
 /* snip - see Extending Connection: methods */
 }
 
 static MY_CONN_PROPERTIES** get_conn_properties(const MYSQLND *conn TSRMLS_DC) {
 MY_CONN_PROPERTIES** props;
-props u003d (MY_CONN_PROPERTIES**) mysqlnd_plugin_get_plugin_connection_data(
+props = (MY_CONN_PROPERTIES**) mysqlnd_plugin_get_plugin_connection_data(
 conn, my_plugin_id);
 if (!props || !(*props)) {
-*props u003d mnd_pecalloc(1, sizeof(MY_CONN_PROPERTIES), conn->persistent);
-(*props)->query_counter u003d 0;
+*props = mnd_pecalloc(1, sizeof(MY_CONN_PROPERTIES), conn->persistent);
+(*props)->query_counter = 0;
 }
 return props;
 }
@@ -182,14 +182,14 @@ return props;
 використання налагоджувального модуля управління пам'яттю в неналагоджувальних
 складання.
 
-| | Коли робити підклас? | Кожен екземпляр має власну таблицю функцій? | Як створювати підклас? |
-|---------------------------------------------|--- ------------------------|------------------------- ---------------------------------|---------------- -------------------------------------------------- -------------------|
-| Сполука (MYSQLND) | MINIT | Ні | mysqlnd_conn_get_methods() |
-| Результативний набір (MYSQLND_RES) | MINIT or later | Так | mysqlnd_result_get_methods() або методом об'єкта, що маніпулює таблицею функцій |
-| Результативний набір (MYSQLND_RES_METADATA) | MINIT | Ні | mysqlnd_result_metadata_get_methods() |
-| Оператор (MySQLND_STMT) | MINIT | Ні | mysqlnd_stmt_get_methods() |
-| Мережа (MYSQLND_NET) MINIT чи пізніше | Так | mysqlnd_net_get_methods() або методом об'єкта, що маніпулює таблицею функцій
-| Протокол обміну (MYSQLND_PROTOCOL) MINIT чи пізніше | Так | mysqlnd_protocol_get_methods() або методом об'єкта, що маніпулює таблицею функцій |
+|                                                     | Коли робити підклас? | Кожен екземпляр має власну таблицю функцій?                                       | Як створювати підклас?                                                          |
+| --------------------------------------------------- | -------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Сполука (MYSQLND)                                   | MINIT                | Ні                                                                                | mysqlnd_conn_get_methods()                                                      |
+| Результативний набір (MYSQLND_RES)                  | MINIT or later       | Так                                                                               | mysqlnd_result_get_methods() або методом об'єкта, що маніпулює таблицею функцій |
+| Результативний набір (MYSQLND_RES_METADATA)         | MINIT                | Ні                                                                                | mysqlnd_result_metadata_get_methods()                                           |
+| Оператор (MySQLND_STMT)                             | MINIT                | Ні                                                                                | mysqlnd_stmt_get_methods()                                                      |
+| Мережа (MYSQLND_NET) MINIT чи пізніше               | Так                  | mysqlnd_net_get_methods() або методом об'єкта, що маніпулює таблицею функцій      |                                                                                 |
+| Протокол обміну (MYSQLND_PROTOCOL) MINIT чи пізніше | Так                  | mysqlnd_protocol_get_methods() або методом об'єкта, що маніпулює таблицею функцій |                                                                                 |
 
 **Коли та як створювати підклас**
 

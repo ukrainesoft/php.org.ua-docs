@@ -7,13 +7,13 @@
 
 #oci_execute
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_execute — Виконує підготовлений вираз
 
 ### Опис
 
-**oci_execute**(resource `$statement`, int `$mode` u003d
+**oci_execute**(resource `$statement`, int `$mode` =
 **`OCI_COMMIT_ON_SUCCESS`**): bool
 
 Виконує підготовлений вираз `statement`, створений за допомогою
@@ -38,11 +38,11 @@ oci_execute — Виконує підготовлений вираз
 `mode`
 Необов'язковий другий параметр з одним із наступних значень:
 
-| Константа Опис              |
-| --------------------------- |
-| **`OCI_COMMIT_ON_SUCCESS`** | Автоматично зберігати всі незбережені зміни, проведені за поточну сесію у разі успішного виконання виразу. Цей режим встановлено за замовчуванням. 
-| **`OCI_DESCRIBE_ONLY`**     | Робить доступними метадані запиту для функцій подібних до [oci_field_name()](function.oci-field-name.md), але не створює результат виконання виразу. Будь-яке подальше отримання даних, наприклад, за допомогою [oci_fetch_array()](function.oci-fetch-array.md) не буде зроблено. 
-| **`OCI_NO_AUTO_COMMIT`**    | Не зберігати автоматично зміни. Для PHP 5.3.2 (PECL OCI8 1.4) використовуйте **`OCI_DEFAULT`**, яка є еквівалентом для **`OCI_NO_AUTO_COMMIT`**. 
+| Константа Опис            |
+| ------------------------- |
+| **OCI_COMMIT_ON_SUCCESS** | Автоматично зберігати всі незбережені зміни, проведені за поточну сесію у разі успішного виконання виразу. Цей режим встановлено за замовчуванням. 
+| **OCI_DESCRIBE_ONLY**     | Робить доступними метадані запиту для функцій подібних до [oci_field_name()](function.oci-field-name.md), але не створює результат виконання виразу. Будь-яке подальше отримання даних, наприклад, за допомогою [oci_fetch_array()](function.oci-fetch-array.md) не буде зроблено.
+| **OCI_NO_AUTO_COMMIT**    | Не зберігати автоматично зміни. Для PHP 5.3.2 (PECL OCI8 1.4) використовуйте **OCI_DEFAULT**, яка є еквівалентом для **OCI_NO_AUTO_COMMIT**.
 
 **Режим виконання**
 
@@ -74,28 +74,28 @@ oci_execute — Виконує підготовлений вираз
 
 **Приклад #1 **oci_execute()** під час виконання запитів**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid);echo "" borderu003d'1'>
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid);echo "" border='1'>
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `
 
 **Приклад #2 **oci_execute()** без вказівки певного режиму**
 
-`<?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (123)');oci_execute($stid); // Рядок збережена і становиться видимою для інших користувачів?> `
+`<?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn = oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (123)');oci_execute($stid); // Рядок збережена і становиться видимою для інших користувачів?> `
 
 **Приклад #3 **oci_execute()** з **`OCI_NO_AUTO_COMMIT`****
 
-` <?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (:bv)');oci_bind_by_name($stid, ':bv', $i, 10);for ($i u003d 1; $i <u003d 5; ++$i)  ($stid, OCI_NO_AUTO_COMMIT); // use OCI_DEFAULT for PHP <u003d 5.3.1}oci_commit($conn); // збереження все нових значень: 1, 2, 3, 4, 5?> `
+` <?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn = oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (:bv)');oci_bind_by_name($stid, ':bv', $i, 10);for ($i = 1; $i <= 5; ++$i)  ($stid, OCI_NO_AUTO_COMMIT); // use OCI_DEFAULT for PHP <= 5.3.1}oci_commit($conn); // збереження все нових значень: 1, 2, 3, 4, 5?> `
 
 **Приклад #4 **oci_execute()** з різними режимами**
 
-`<?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (123)');oci_execute($stid, OCI_NO_AUTO_COMMIT); // data not committed$stid u003d oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (456)');oci_execute($stid); // commits both 123 and 456 values?> `
+`<?php// Перед виконанням створіть таблицю://   CREATE TABLE MYTABLE (col1 NUMBER);$conn = oci_connect('hr', 'welcome', 'localhost/XE');$sti INSERT INTO mytab (col1) VALUES (123)');oci_execute($stid, OCI_NO_AUTO_COMMIT); // data not committed$stid = oci_parse($conn, 'INSERT INTO mytab (col1) VALUES (456)');oci_execute($stid); // commits both 123 and 456 values?> `
 
 **Приклад #5 **oci_execute()** з **`OCI_DESCRIBE_ONLY`****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d oci_parse($conn, 'SELECT * FROM locations');oci_execute($s, OCI_DESCRIBE| $i u003d 1; $i <u003d oci_num_fields($stid); ++$i) {    echo oci_field_name($stid, $i) . "<br>
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = oci_parse($conn, 'SELECT * FROM locations');oci_execute($s, OCI_DESCRIBE| $i = 1; $i <= oci_num_fields($stid); ++$i) {    echo oci_field_name($stid, $i) . "<br>
 ";}?> `
 
 ### Примітки

@@ -11,9 +11,9 @@
 
 | Ім'я За замовчуванням                                                  | Місце зміни | Список змін |
 | ---------------------------------------------------------------------- | ----------- | ----------- |
-| [pcre.backtrack_limit](pcre.configuration.md#ini.pcre.backtrack-limit) | "1000000"   | PHP_INI_ALL | 
-| [pcre.recursion_limit](pcre.configuration.md#ini.pcre.recursion-limit) | "100000"    | PHP_INI_ALL | 
-| [pcre.jit](pcre.configuration.md#ini.pcre.jit)                         | "1"         | PHP_INI_ALL | 
+| [pcre.backtrack_limit](pcre.configuration.md#ini.pcre.backtrack-limit) | "1000000"   | PHP_INI_ALL |
+| [pcre.recursion_limit](pcre.configuration.md#ini.pcre.recursion-limit) | "100000"    | PHP_INI_ALL |
+| [pcre.jit](pcre.configuration.md#ini.pcre.jit)                         | "1"         | PHP_INI_ALL |
 
 **Опції конфігурації PCRE**
 

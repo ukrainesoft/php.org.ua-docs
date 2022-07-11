@@ -7,7 +7,7 @@
 
 # fann_set_cascade_candidate_stagnation_epochs
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_candidate_stagnation_epochs — Встановлює кількість
 каскадних періодів застою кандидатів

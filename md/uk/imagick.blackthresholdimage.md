@@ -41,4 +41,4 @@ public
 
 **Приклад #1 Приклад використання **Imagick::blackThresholdImage()****
 
-`<?phpfunction blackThresholdImage($imagePath, $thresholdColor) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->blackthresholdimage($thresholdColor); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction blackThresholdImage($imagePath, $thresholdColor) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->blackthresholdimage($thresholdColor); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

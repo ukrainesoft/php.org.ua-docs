@@ -8,7 +8,7 @@
 
 # SolrClient::getById
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrClient::getById — Отримує документ для ідентифікатора. Використовує
 Solr Realtime Get (RTG)
@@ -33,40 +33,40 @@ ID документа
 
 **Приклад #1 Приклад використання **SolrClient::getById()****
 
-` <?phpinclude "bootstrap.php";$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,    'path'     u003d> SOLR_SERVER_PATH) ;$client u003d new SolrClient($options);$response u003d $client->getById('GB18030TEST');print_r($response->getResponse());?> `
+` <?phpinclude "bootstrap.php";$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,    'path'     => SOLR_SERVER_PATH) ;$client = new SolrClient($options);$response = $client->getById('GB18030TEST');print_r($response->getResponse());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 SolrObject Object
 (
-[doc] u003d> SolrObject Object
+[doc] => SolrObject Object
 (
-[id] u003d> GB18030TEST
-[name] u003d> Array
+[id] => GB18030TEST
+[name] => Array
 (
-[0] u003d> Test with some GB18030 encoded characters
+[0] => Test with some GB18030 encoded characters
 )
 
-[features] u003d> Array
+[features] => Array
 (
-[0] u003d> No accents here
-[1] u003d> 这是一个功能
-[2] u003d> This is a feature (перекладається)
-[3] u003d> 这份文件是很有光泽
-[4] u003d> Цей документ є дуже shiny (translated)
+[0] => No accents here
+[1] => 这是一个功能
+[2] => This is a feature (перекладається)
+[3] => 这份文件是很有光泽
+[4] => Цей документ є дуже shiny (translated)
 )
 
-[price] u003d> Array
+[price] => Array
 (
-[0] u003d> 0
+[0] => 0
 )
 
-[inStock] u003d> Array
+[inStock] => Array
 (
-[0] u003d> 1
+[0] => 1
 )
 
-[_version_] u003d> 1510294336239042560
+[_version_] => 1510294336239042560
 )
 
 )

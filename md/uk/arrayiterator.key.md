@@ -29,4 +29,4 @@ public **ArrayIterator::key**(): string\|int\|null
 
 **Приклад #1 Приклад використання **ArrayIterator::key()****
 
-` <?php$array u003d array('key' u003d> 'value');$arrayobject u003d new ArrayObject($array);$iterator u003d $arrayobject->getIterator();echo $iterator->key(); //key?> `
+` <?php$array = array('key' => 'value');$arrayobject = new ArrayObject($array);$iterator = $arrayobject->getIterator();echo $iterator->key(); //key?> `

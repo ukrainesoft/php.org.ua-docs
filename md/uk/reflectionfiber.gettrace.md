@@ -7,14 +7,14 @@
 
 # ReflectionFiber::getTrace
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFiber::getTrace — Отримує зворотне трасування поточної точки
 виконання
 
 ### Опис
 
-public **ReflectionFiber::getTrace**(int `$options` u003d
+public **ReflectionFiber::getTrace**(int `$options` =
 **`DEBUG_BACKTRACE_PROVIDE_OBJECT`**): array
 
 Отримує зворотне трасування поточної точки виконання відображеного
@@ -26,10 +26,10 @@ public **ReflectionFiber::getTrace**(int `$options` u003d
 Значення `options` може бути будь-яким із наступних прапорів: the following
 flags.
 
-| Параметр                             | Опис                                                              |
-| ------------------------------------ | ----------------------------------------------------------------- |
-| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням.                                                 |
-| **`DEBUG_BACKTRACE_IGNORE_ARGS`**    | Не включати інформацію про аргумент для функцій трасування стека. |
+| Параметр                           | Опис                                                              |
+| ---------------------------------- | ----------------------------------------------------------------- |
+| **DEBUG_BACKTRACE_PROVIDE_OBJECT** | За замовчуванням.                                                 |                                                                   
+| **DEBUG_BACKTRACE_IGNORE_ARGS**    | Не включати інформацію про аргумент для функцій трасування стека. |
 
 **Доступні параметри**
 

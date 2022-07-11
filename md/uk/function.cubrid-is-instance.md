@@ -7,7 +7,7 @@
 
 #cubrid_is_instance
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_is_instance — Перевіряє, чи існує екземпляр, на який
 вказує OID
@@ -39,8 +39,8 @@ OID екземпляра, існування якого потрібно пер�
 
 **Приклад #1 Приклад використання **cubrid_is_instance()****
 
-`<?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$sql u003d <<<EODSELECT host_year, medal, game_dateFROM gameWHERE athlete_code IN     ;$req u003d cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);$oid u003d cubrid_current_oid($req);$res u003d cubrid_is_instance ($conn, $oid);if | який вказує $oid, існує.
-";} else if ($res u003du003d 0){    echo "Примірник, на котрий вказує $oid, не існує.
+`<?php$conn = cubrid_connect("localhost", 33000, "demodb");$sql = <<<EODSELECT host_year, medal, game_dateFROM gameWHERE athlete_code IN     ;$req = cubrid_execute($conn, $sql, CUBRID_INCLUDE_OID);$oid = cubrid_current_oid($req);$res = cubrid_is_instance ($conn, $oid);if | який вказує $oid, існує.
+";} else if ($res == 0){    echo "Примірник, на котрий вказує $oid, не існує.
 ";} else {    echo "Помилка
 ";}cubrid_disconnect($conn);?> `
 

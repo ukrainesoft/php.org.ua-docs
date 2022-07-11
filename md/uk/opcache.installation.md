@@ -15,8 +15,8 @@ OPcache.
 Один раз скомпілювавши, ви можете використовувати директиву конфігурації
 [zend_extension](ini.core.md#ini.zend-extension) для завантаження OPcache
 у PHP. Це можна зробити за допомогою
-`zend_extensionu003d/full/path/to/opcache.so` для платформ, відмінних від
-Windows, і `zend_extensionu003dC:\path o\php_opcache.dll` у Windows.
+`zend_extension=/full/path/to/opcache.so` для платформ, відмінних від
+Windows, і `zend_extension=C:\path o\php_opcache.dll` у Windows.
 
 > **Примітка**:
 >
@@ -27,12 +27,12 @@ Windows, і `zend_extensionu003dC:\path o\php_opcache.dll` у Windows.
 
 Дані опції рекомендовані для забезпечення хорошої продуктивності:
 
-opcache.memory_consumptionu003d128
-opcache.interned_strings_bufferu003d8
-opcache.max_accelerated_filesu003d4000
-opcache.revalidate_frequ003d60
-opcache.fast_shutdownu003d1
-opcache.enable_cliu003d1
+opcache.memory_consumption=128
+opcache.interned_strings_buffer=8
+opcache.max_accelerated_files=4000
+opcache.revalidate_freq=60
+opcache.fast_shutdown=1
+opcache.enable_cli=1
 
 Ви також можете розглянути можливість відключення
 [opcache.save_comments](opcache.configuration.md#ini.opcache.save-comments)

@@ -7,7 +7,7 @@
 
 #xmlrpc_encode_request
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_encode_request — генерує XML для методу запиту
 
@@ -15,7 +15,7 @@ xmlrpc_encode_request — генерує XML для методу запиту
 
 **xmlrpc_encode_request**(string `$method`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$params`, array `$output_options` u003d ?): string
+`$params`, array `$output_options` = ?): string
 
 **Увага**
 
@@ -54,7 +54,7 @@ PHP без попередження. Використовуйте цю функ�
 
 **Приклад #1 Приклад клієнтської функції XMLRPC**
 
-` <?php$request u003d xmlrpc_encode_request("method", array(1, 2, 3));$context u003d stream_context_create(array('http' u003d> array(    'method' u003d>         > "Content-Type: text/xml",    'content' u003d> $request)));$file u003d file_get_contents("http://www.example.com/xmlrpc", false, $context);$response u003du003d xmlrpc_decode($file);if($response && xmlrpc_is_fault($response)) {   trigger_error("xmlrpc: $response[faultString] ($response[faultCode])");}  | `
+` <?php$request = xmlrpc_encode_request("method", array(1, 2, 3));$context = stream_context_create(array('http' => array(    'method' =>         > "Content-Type: text/xml",    'content' => $request)));$file = file_get_contents("http://www.example.com/xmlrpc", false, $context);$response == xmlrpc_decode($file);if($response && xmlrpc_is_fault($response)) {   trigger_error("xmlrpc: $response[faultString] ($response[faultCode])");}  | `
 
 ### Дивіться також
 

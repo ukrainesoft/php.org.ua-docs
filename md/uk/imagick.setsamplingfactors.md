@@ -30,4 +30,4 @@ public **Imagick::setSamplingFactors**(array `$factors`): bool
 
 **Приклад #1 Приклад використання **Imagick::setSamplingFactors()****
 
-` <?phpfunction setSamplingFactors($imagePath) {    $imagePath u003d "../imagick/images/FineDetail.png"; $imagick u003d new \Imagick(realpath($imagePath)); $imagick->setImageFormat('jpg'); $imagick->setSamplingFactors(array('2x2', '1x1', '1x1')); $compressedu003du003d$imagick->getImageBlob(); $reopenu003du003dnewImagick(); $reopen->readImageBlob($compressed); $reopen->resizeImage(                                     | header("Content-Type: image/jpg"); echo $reopen->getImageBlob();}?> `
+` <?phpfunction setSamplingFactors($imagePath) {    $imagePath = "../imagick/images/FineDetail.png"; $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageFormat('jpg'); $imagick->setSamplingFactors(array('2x2', '1x1', '1x1')); $compressed==$imagick->getImageBlob(); $reopen==newImagick(); $reopen->readImageBlob($compressed); $reopen->resizeImage(                                     | header("Content-Type: image/jpg"); echo $reopen->getImageBlob();}?> `

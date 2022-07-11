@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                                              | Місце зміни | Список змін |
 | ---------------------------------------------------------------------------------- | ----------- | ----------- |
-| [v8js.max_disposed_contexts](v8js.configuration.md#ini.v8js.max-disposed-contexts) | 25          | PHP_INI_ALL | 
-| [v8js.flags](v8js.configuration.md#ini.v8js.flags)                                 |             | PHP_INI_ALL | 
+| [v8js.max_disposed_contexts](v8js.configuration.md#ini.v8js.max-disposed-contexts) | 25          | PHP_INI_ALL |
+| [v8js.flags](v8js.configuration.md#ini.v8js.flags)                                 |             | PHP_INI_ALL |
 
 **Опції налаштування V8js**
 

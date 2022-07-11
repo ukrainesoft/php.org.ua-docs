@@ -7,14 +7,14 @@
 
 # SyncEvent::\_\_construct
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncEvent::\_\_construct — Створює новий об'єкт SyncEvent
 
 ### Опис
 
-public **SyncEvent::\_\_construct**(string `$name` u003d ?, bool `$manual` u003d
-**`false`**, bool `$prefire` u003d **`false`**)
+public **SyncEvent::\_\_construct**(string `$name` = ?, bool `$manual` =
+**`false`**, bool `$prefire` = **`false`**)
 
 Створює іменований чи безіменний об'єкт події.
 
@@ -59,13 +59,13 @@ public **SyncEvent::\_\_construct**(string `$name` u003d ?, bool `$manual` u003d
 
 **Приклад #1 Приклад використання **SyncEvent::\_\_construct()****
 
-` <?php// У веб-додатку:$event u003d new SyncEvent("GetAppReport");$event->fire();// В завдання cron:$event u003d new SyncEvent("GetAppReport");$event- >wait();?> `
+` <?php// У веб-додатку:$event = new SyncEvent("GetAppReport");$event->fire();// В завдання cron:$event = new SyncEvent("GetAppReport");$event- >wait();?> `
 
 ### Список змін
 
-| Версія                                      | Опис |
-| ------------------------------------------- | ---- |
-| PECL sync 1.1.0 Доданий параметр `prefire`. |      |
+| Версія                                    | Опис |
+| ----------------------------------------- | ---- |
+| PECL sync 1.1.0 Доданий параметр prefire. |      |      
 
 ### Дивіться також
 

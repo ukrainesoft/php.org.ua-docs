@@ -7,7 +7,7 @@
 
 # SplObjectStorage::getHash
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SplObjectStorage::getHash — Обчислює унікальний ідентифікатор для
 об'єктів контейнера
@@ -48,7 +48,7 @@ public **SplObjectStorage::getHash**(object `$object`): string
 
 **Приклад #1 Приклад використання **SplObjectStorage::getHash()****
 
-`<?phpclass OneSpecimenPerClassStorage extends SplObjectStorage {    public function getHash($o) {       return get_class($o); }}class A {}$s u003d new OneSpecimenPerClassStorage;$o1 u003d new stdClass;$o2 u003d new stdClass;$o3 u003d new A;$s[$o1] u003d 1;//$  заміщується$s[$o2] u003d 2;$s[$o3] u003d 3;//передбачаємо, наступні об'єкти еквівалентні наведеним вище//таким образом, их можна використовувати для $      u003d new A;echo $s[$p1], "
+`<?phpclass OneSpecimenPerClassStorage extends SplObjectStorage {    public function getHash($o) {       return get_class($o); }}class A {}$s = new OneSpecimenPerClassStorage;$o1 = new stdClass;$o2 = new stdClass;$o3 = new A;$s[$o1] = 1;//$  заміщується$s[$o2] = 2;$s[$o3] = 3;//передбачаємо, наступні об'єкти еквівалентні наведеним вище//таким образом, их можна використовувати для $      = new A;echo $s[$p1], "
 ";echo $s[$p2], "
 ";?> `
 

@@ -7,7 +7,7 @@
 
 # Yaf_Router::getRoute
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Router::getRoute — Отримує маршрут на ім'я
 

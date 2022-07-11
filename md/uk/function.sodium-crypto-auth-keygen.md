@@ -7,7 +7,7 @@
 
 # sodium_crypto_auth_keygen
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_auth_keygen — Створює випадковий ключ для
 sodium_crypto_auth

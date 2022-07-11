@@ -7,7 +7,7 @@
 
 # zookeeper_dispatch
 
-(PECL zookeeper \>u003d 0.4.0)
+(PECL zookeeper \>= 0.4.0)
 
 zookeeper_dispatch — Викликати callback-функції для операцій, що очікують
 
@@ -48,13 +48,13 @@ declare.
 
 Виклик callback-функцій вручну.
 
-` <?php$client u003d new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була викликана"CALF-HP ;});while(true) {    sleep(1); zookeeper_dispatch();}?> `
+` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була викликана"CALF-HP ;});while(true) {    sleep(1); zookeeper_dispatch();}?> `
 
 **Приклад #2 Приклад використання **zookeeper_dispatch()** #2**
 
 Оголошення тиків.
 
-` <?phpdeclare(ticksu003d1);$client u003d new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була| callback-функція".PHP_EOL;});while(true) {    sleep(1);}?> `
+` <?phpdeclare(ticks=1);$client = new Zookeeper();$client->connect('localhost:2181');$client->get('/zookeeper', function() {    echo "Була| callback-функція".PHP_EOL;});while(true) {    sleep(1);}?> `
 
 ### Дивіться також
 

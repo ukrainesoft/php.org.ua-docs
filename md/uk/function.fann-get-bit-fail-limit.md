@@ -7,7 +7,7 @@
 
 # fann_get_bit_fail_limit
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_bit_fail_limit — Повертає межу збою бітів, використану
 під час навчання

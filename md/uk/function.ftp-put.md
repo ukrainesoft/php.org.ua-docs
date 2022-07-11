@@ -17,8 +17,8 @@ ftp_put — Завантажує файл на сервер FTP
 [FTP\Connection](class.ftp-connection.md) `$ftp`,
 string `$remote_filename`,
 string `$local_filename`,
-int `$mode` u003d **`FTP_BINARY`**,
-int `$offset` u003d 0
+int `$mode` = **`FTP_BINARY`**,
+int `$offset` = 0
 ): bool
 
 **ftp_put()** завантажує локальний файл на сервер FTP.
@@ -48,16 +48,16 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 7.3.0  | Тепер параметр `mode` опціональний. Раніше він був обов'язковим.                                                                                      |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_put()****
 
-` <?php$file u003d 'somefile.txt';$remote_file u003d 'readme.txt';// установка з'єднання$ftp u003d ftp_connect($ftp_server);// перевірка імені користувача і $$ $ftp_user_name, $ftp_user_pass);// завантаження файлаif (ftp_put($ftp, $remote_file, $file, FTP_ASCII)) { echo "$file успішно завантажений на сер
+` <?php$file = 'somefile.txt';$remote_file = 'readme.txt';// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені користувача і $$ $ftp_user_name, $ftp_user_pass);// завантаження файлаif (ftp_put($ftp, $remote_file, $file, FTP_ASCII)) { echo "$file успішно завантажений на сер
 ";} else { echo "Не удалося завантажити $file на сервер
 ";}// закриття з'єднанняftp_close($ftp);?> `
 

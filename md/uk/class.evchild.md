@@ -7,7 +7,7 @@
 
 # Клас EvChild
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -55,8 +55,8 @@ bool `$trace`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 final public static [createStopped](evchild.createstopped.md)(
@@ -65,8 +65,8 @@ bool `$trace`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 ): object
 
 public [set](evchild.set.md)( int `$pid` , bool `$trace` ): void
@@ -83,7 +83,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

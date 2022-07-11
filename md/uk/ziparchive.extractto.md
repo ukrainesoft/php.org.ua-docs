@@ -7,14 +7,14 @@
 
 # ZipArchive::extractTo
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::extractTo — Витягує вміст архіву
 
 ### Опис
 
 public **ZipArchive::extractTo**(string `$pathto`, array\|string\|null
-`$files` u003d **`null`**): bool
+`$files` = **`null`**): bool
 
 Вилучення всього архіву або його частини у вказане місце призначення.
 
@@ -42,11 +42,11 @@ umask, який змінюється за допомогою [umask()](function.
 
 **Приклад #1 Вийняти весь вміст**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {   $zip->extractTo('/my/destination/dir/'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {   $zip->extractTo('/my/destination/dir/'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
 
 **Приклад #2 Вийняти два елементи**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test_im.zip');if ($res u003du003du003d TRUE) {    $zip->extractTo('/my/destination/dir/ ', array('pear_item.gif', 'testfromfile.php')); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test_im.zip');if ($res === TRUE) {    $zip->extractTo('/my/destination/dir/ ', array('pear_item.gif', 'testfromfile.php')); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
 
 ### Примітки
 

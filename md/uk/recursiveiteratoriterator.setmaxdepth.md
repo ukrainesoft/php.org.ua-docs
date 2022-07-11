@@ -7,14 +7,14 @@
 
 # RecursiveIteratorIterator::setMaxDepth
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveIteratorIterator::setMaxDepth — Встановлення максимальної глибини
 вкладеності
 
 ### Опис
 
-public **RecursiveIteratorIterator::setMaxDepth**(int `$maxDepth` u003d -1):
+public **RecursiveIteratorIterator::setMaxDepth**(int `$maxDepth` = -1):
 void
 
 Задає максимальну глибину вкладеності елементів.

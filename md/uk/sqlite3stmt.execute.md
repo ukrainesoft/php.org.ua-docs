@@ -8,7 +8,7 @@
 
 # SQLite3Stmt::execute
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::execute — Виконує підготовлений запит та повертає
 об'єкт із результуючим набором

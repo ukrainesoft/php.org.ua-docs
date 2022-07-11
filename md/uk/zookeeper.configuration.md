@@ -11,9 +11,9 @@
 
 | Ім'я За замовчуванням                                                               | Місце зміни | Історія змін   |
 | ----------------------------------------------------------------------------------- | ----------- | -------------- |
-| [zookeeper.recv_timeout](zookeeper.configuration.md#ini.zookeeper.recv_timeout)     | 10000       | PHP_INI_ALL    | 
-| [zookeeper.session_lock](zookeeper.configuration.md#ini.zookeeper.session_lock)     | 1           | PHP_INI_SYSTEM | 
-| [zookeeper.sess_lock_wait](zookeeper.configuration.md#ini.zookeeper.sess_lock_wait) | 150000      | PHP_INI_ALL    | 
+| [zookeeper.recv_timeout](zookeeper.configuration.md#ini.zookeeper.recv_timeout)     | 10000       | PHP_INI_ALL    |
+| [zookeeper.session_lock](zookeeper.configuration.md#ini.zookeeper.session_lock)     | 1           | PHP_INI_SYSTEM |
+| [zookeeper.sess_lock_wait](zookeeper.configuration.md#ini.zookeeper.sess_lock_wait) | 150000      | PHP_INI_ALL    |
 
 **Опції налаштування Zookeeper**
 

@@ -7,7 +7,7 @@
 
 # Клас Parle\ParserException
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 ## Вступ
 
@@ -19,18 +19,18 @@ class **Parle\ParserException** extends
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Методи \*/
 

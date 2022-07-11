@@ -8,7 +8,7 @@
 
 # CallbackFilterIterator::accept
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 CallbackFilterIterator::accept — Викликає callback-функцію та передає їй
 як аргументи поточне значення, поточний ключ і внутрішній

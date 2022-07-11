@@ -9,7 +9,7 @@
 
 # tidy_get_opt_doc
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 tidy::getOptDoc -- tidy_get_opt_doc -- Повертає опис для опції з
 зазначеною назвою
@@ -51,7 +51,7 @@ string\|false
 **Приклад #1 Друк усіх опцій разом з описом та значенням по
 замовчуванням**
 
-` <?php$tidy u003d new tidy;$config u003d $tidy->getConfig();ksort($config);foreach ($config as $opt u003d> $val) {    if (!$doc u003d $ti getOptDoc($opt))        $doc u003d 'документація неіснує!'; $val u003d ($tidy->getOpt($opt) u003du003du003d true) ? 'true':: $val; $val u003d ($tidy->getOpt($opt) u003du003du003d false) ? 'false' : $val; echo "<p><b>$opt</b> (default: '$val')<br />". "$doc</p><hr />
+` <?php$tidy = new tidy;$config = $tidy->getConfig();ksort($config);foreach ($config as $opt => $val) {    if (!$doc = $ti getOptDoc($opt))        $doc = 'документація неіснує!'; $val = ($tidy->getOpt($opt) === true) ? 'true':: $val; $val = ($tidy->getOpt($opt) === false) ? 'false' : $val; echo "<p><b>$opt</b> (default: '$val')<br />". "$doc</p><hr />
 ";}?> `
 
 ### Дивіться також

@@ -8,7 +8,7 @@
 
 # sodium_crypto_pwhash_scryptsalsa208sha256_str_verify
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_pwhash_scryptsalsa208sha256_str_verify — Перевірити, що
 пароль є дійсним рядком перевірки пароля

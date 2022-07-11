@@ -7,7 +7,7 @@
 
 # SessionIdInterface::create_sid
 
-(PHP 5 \>u003d 5.5.1, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
 
 SessionIdInterface::create_sid — Створити ідентифікатор сесії
 

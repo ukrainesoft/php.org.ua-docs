@@ -36,7 +36,7 @@ Unix.
 Приклад виведе список файлів директорії, що містить скрипт і
 час їхньої останньої зміни.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " змінювався в " . $fileinfo->getCTime() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " змінювався в " . $fileinfo->getCTime() . "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

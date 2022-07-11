@@ -7,7 +7,7 @@
 
 # OAuth::setToken
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::setToken — Задати токен та його пароль
 
@@ -34,4 +34,4 @@ bool
 
 **Приклад #1 Приклад використання **OAuth::setToken()****
 
-` <?php$oauth u003d new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);$oauth->setToken("token","token-secret");?> `
+` <?php$oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET);$oauth->setToken("token","token-secret");?> `

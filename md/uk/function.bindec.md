@@ -62,9 +62,9 @@ bindec — Двійкове до десяткового
 
 **Приклад #2 **bindec()** інтерпретує введення як беззнакове число**
 
-`<?php/* * Сенс цього прикладу можна найти у виводі скрипта, * а не в коді PHP. */$magnitude_loweru003du003dpow(2, (PHP_INT_SIZE * 8) - 2);p($magnitude_lower - 1);p($magnitude_lower, 'Бачите різку|зміну|значення? ||| , 'PHP_INT_MAX');p(~PHP_INT_MAX, 'интерпретируется как увеличенное на единицу значение PHP_INT_MAX');if (PHP_INT_SIZE u003du003d 4) {    $note u003d 'интерпретируется как самое большое целое без знака (unsigned integer)';} else { $note u003d 'интерпретируется как самое большое целое без знака (unsigned integer)              (18446744073709551615), но искажается из-за недостаточной точности float';}p(-1, $note);function p($input, $note u003d '' ) {    echo "input:        $input
-";    $format u003d '%0' . (PHP_INT_SIZE * 8) . 'b';    $bin u003d sprintf($format, $input);    echo "bin|y
-";   ini_set('precision', 20); // Для надійності на 64-бітних системах.   $dec u003d bindec($bin);    echo '                   
+`<?php/* * Сенс цього прикладу можна найти у виводі скрипта, * а не в коді PHP. */$magnitude_lower==pow(2, (PHP_INT_SIZE * 8) - 2);p($magnitude_lower - 1);p($magnitude_lower, 'Бачите різку|зміну|значення? ||| , 'PHP_INT_MAX');p(~PHP_INT_MAX, 'интерпретируется как увеличенное на единицу значение PHP_INT_MAX');if (PHP_INT_SIZE == 4) {    $note = 'интерпретируется как самое большое целое без знака (unsigned integer)';} else { $note = 'интерпретируется как самое большое целое без знака (unsigned integer)              (18446744073709551615), но искажается из-за недостаточной точности float';}p(-1, $note);function p($input, $note = '' ) {    echo "input:        $input
+";    $format = '%0' . (PHP_INT_SIZE * 8) . 'b';    $bin = sprintf($format, $input);    echo "bin|y
+";   ini_set('precision', 20); // Для надійності на 64-бітних системах.   $dec = bindec($bin);    echo '                   
 ";    if ($note) {        echo "NOTE:        |$note
 ";    }    echo "
 ";}?> `

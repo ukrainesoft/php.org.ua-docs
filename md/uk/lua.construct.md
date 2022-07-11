@@ -7,13 +7,13 @@
 
 # Lua::\_\_construct
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::\_\_construct - Конструктор Lua
 
 ### Опис
 
-public **Lua::\_\_construct**(string `$lua_script_file` u003d NULL)
+public **Lua::\_\_construct**(string `$lua_script_file` = NULL)
 
 **Увага**
 

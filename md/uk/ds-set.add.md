@@ -7,7 +7,7 @@
 
 # Ds\Set::add
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::add — Додає значення до набору
 
@@ -45,50 +45,50 @@ public
 **Приклад #1 Приклад використання **Ds\Set::add()** зі скалярними
 значеннями**
 
-` <?php$set u003d new \Ds\Set();$set->add(1);$set->add(1);$set->add(2);$set->add(3) ;// Виробляється суворе порівняння, тому "1" не приведеться к int(1)$set->add("1");$set->add(true);var_dump($set);?> `
+` <?php$set = new \Ds\Set();$set->add(1);$set->add(1);$set->add(2);$set->add(3) ;// Виробляється суворе порівняння, тому "1" не приведеться к int(1)$set->add("1");$set->add(true);var_dump($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#1 (5) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
-[3]u003d>
+[3]=>
 string(1) "1"
-[4]u003d>
+[4]=>
 bool(true)
 }
 
 **Приклад #2 Приклад використання **Ds\Set::add()** з об'єктами**
 
-` <?phpclass HashableObject implements \Ds\Hashable{    /**     * Довільне значення для використання як значення хешу. * Не визначає рівність. */    private $value; public function __construct($value)    {        $this->value u003d $value; }    public function hash()    {        return $this->value; }    public function equals($obj): bool    {       return$$is->value u003du003du003d$obj->value; }}$set u003d new \Ds\Set();$obj u003d new \ArrayIterator([]);// При додаванні одного і того ж примірника декілька раз, додаеться тільки$ob> $set->add($obj);// При додаванні кількох примірників одного і того об'єкта, вони все додадуться. );// При додаванні об'єктів з однаковим хешем кілька раз, додасться тільки перший.$set->add(new \HashableObject(1));$set->add(new \HashableObject(1)); (new \HashableObject(2));$set->add(new \HashableObject(2));var_dump($set);?> `
+` <?phpclass HashableObject implements \Ds\Hashable{    /**     * Довільне значення для використання як значення хешу. * Не визначає рівність. */    private $value; public function __construct($value)    {        $this->value = $value; }    public function hash()    {        return $this->value; }    public function equals($obj): bool    {       return$$is->value ===$obj->value; }}$set = new \Ds\Set();$obj = new \ArrayIterator([]);// При додаванні одного і того ж примірника декілька раз, додаеться тільки$ob> $set->add($obj);// При додаванні кількох примірників одного і того об'єкта, вони все додадуться. );// При додаванні об'єктів з однаковим хешем кілька раз, додасться тільки перший.$set->add(new \HashableObject(1));$set->add(new \HashableObject(1)); (new \HashableObject(2));$set->add(new \HashableObject(2));var_dump($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#1 (5) {
-[0]u003d>
+[0]=>
 object(ArrayIterator)#2 (1) {
-["storage":"ArrayIterator":private]u003d>
+["storage":"ArrayIterator":private]=>
 array(0) {
 }
 }
-[1]u003d>
+[1]=>
 object(stdClass)#3 (0) {
 }
-[2]u003d>
+[2]=>
 object(stdClass)#4 (0) {
 }
-[3]u003d>
+[3]=>
 object(HashableObject)#5 (1) {
-["value":"HashableObject":private]u003d>
+["value":"HashableObject":private]=>
 int(1)
 }
-[4]u003d>
+[4]=>
 object(HashableObject)#6 (1) {
-["value":"HashableObject":private]u003d>
+["value":"HashableObject":private]=>
 int(2)
 }
 }

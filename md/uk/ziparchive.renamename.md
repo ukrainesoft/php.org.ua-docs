@@ -7,7 +7,7 @@
 
 # ZipArchive::renameName
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::renameName — Перейменує елемент на ім'я
 
@@ -35,4 +35,4 @@ bool
 
 **Приклад #1 Перейменування одного елемента**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test.zip');if ($res u003du003du003d TRUE) {    $zip->renameName('currentname.txt','newname .txt'); $zip->close();} else {    echo 'помилка з кодом:' . $res;}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test.zip');if ($res === TRUE) {    $zip->renameName('currentname.txt','newname .txt'); $zip->close();} else {    echo 'помилка з кодом:' . $res;}?> `

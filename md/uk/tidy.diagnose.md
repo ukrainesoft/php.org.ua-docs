@@ -10,7 +10,7 @@
 
 # tidy_diagnose
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::diagnose -- tidy_diagnose — Запуск настроєної діагностики для
 розібраної та відновленої розмітки
@@ -42,7 +42,7 @@ public **tidy::diagnose**(): bool
 
 **Приклад #1 Приклад використання **tidy::diagnose()****
 
-` <?php$html u003d <<<<HTML<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1- strict.dtd"><p>параграф</p>HTML;$tidy u003d tidy_parse_string($html);$tidy->cleanRepair(); "
+` <?php$html = <<<<HTML<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1- strict.dtd"><p>параграф</p>HTML;$tidy = tidy_parse_string($html);$tidy->cleanRepair(); "
 ";$tidy->diagnose();echo $tidy->errorBuffer;?> `
 
 Результат виконання цього прикладу:

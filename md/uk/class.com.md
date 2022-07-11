@@ -7,7 +7,7 @@
 
 # Клас com
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,9 +22,9 @@ class **com** extends [variant](class.variant.md) {
 
 public [\_\_construct](com.construct.md)(
 string `$module_name`,
-array\|string\|null `$server_name` u003d **`null`**,
-int `$codepage` u003d **`CP_ACP`**,
-string `$typelib` u003d ""
+array\|string\|null `$server_name` = **`null`**,
+int `$codepage` = **`CP_ACP`**,
+string `$typelib` = ""
 )
 
 }
@@ -44,13 +44,13 @@ PHP автоматично визначає методи, які звертаю�
 
 **Приклад #1 Перший приклад**
 
-` <?php// запускаємо word$word u003d new com("word.application") or die("Неможливо створити примірник Word");echo "Завантажений Word, версія {$word->Version}
-";//робимо його активним окном$word->Visible u003d 1;//відкриваємо порожній документ$word->Documents->Add();//Що то з ним робимо$word->Selection->TypeText("Це перевірка...");$word->Documents[1]->SaveAs("Берисний тест.doc");//закриваємо word$word->Quit();//вивільняємо ресурси об'єкта$word u003d null;? > `
+` <?php// запускаємо word$word = new com("word.application") or die("Неможливо створити примірник Word");echo "Завантажений Word, версія {$word->Version}
+";//робимо його активним окном$word->Visible = 1;//відкриваємо порожній документ$word->Documents->Add();//Що то з ним робимо$word->Selection->TypeText("Це перевірка...");$word->Documents[1]->SaveAs("Берисний тест.doc");//закриваємо word$word->Quit();//вивільняємо ресурси об'єкта$word = null;? > `
 
 **Приклад #2 Другий приклад**
 
-` <?php$conn u003d new com("ADODB.Connection") ordie("Cannot start ADO");$conn->Open("Provideru003dSQLOLEDB; Data Sourceu003dlocalhost;Initial Catalogu003ddatabase; User IDu003d user; Passwordu003dpassword");$rs u003d $conn->Execute("SELECT * FROM sometable"); // Набір записів$num_columns u003d $rs->Fields->Count();echo $num_columns . "
-";for ($iu003d0; $i < $num_columns; $i++) {    $fld[$i] u003d $rs->Fields($i);}$rowcount u003d 0;while (!$rs->EOF ) {    for ($iu003d0; $i < $num_columns; $i++) {        echo $fld[$i]->value . " ";  o  } 
+` <?php$conn = new com("ADODB.Connection") ordie("Cannot start ADO");$conn->Open("Provider=SQLOLEDB; Data Source=localhost;Initial Catalog=database; User ID= user; Password=password");$rs = $conn->Execute("SELECT * FROM sometable"); // Набір записів$num_columns = $rs->Fields->Count();echo $num_columns . "
+";for ($i=0; $i < $num_columns; $i++) {    $fld[$i] = $rs->Fields($i);}$rowcount = 0;while (!$rs->EOF ) {    for ($i=0; $i < $num_columns; $i++) {        echo $fld[$i]->value . " ";  o  } 
 ";   $rowcount++;              // збільшуємо лічильник рядків    $rs->MoveNext();}$rs->Close();$conn->n||
 
 ## Зміст

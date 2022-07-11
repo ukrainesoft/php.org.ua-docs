@@ -7,7 +7,7 @@
 
 # ZMQContext::getOpt
 
-(PECL zmq \>u003d 1.0.4)
+(PECL zmq \>= 1.0.4)
 
 ZMQContext::getOpt — Отримати опцію контексту
 

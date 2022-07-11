@@ -7,14 +7,14 @@
 
 #set_error_handler
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 set_error_handler — Задає користувальницький обробник помилок
 
 ### Опис
 
 **set_error_handler**(?[callable](language.types.callable.md)
-`$callback`, int `$error_levels` u003d **`E_ALL`**):
+`$callback`, int `$error_levels` = **`E_ALL`**):
 ?[callable](language.types.callable.md)
 
 Задає функцію користувача (`callback`), як обробник помилок в
@@ -58,9 +58,9 @@ callback-функцію з наступною сигнатурою:
 handler(
 int `$errno`,
 string `$errstr`,
-string `$errfile` u003d ?,
-int `$errline` u003d ?,
-array `$errcontext` u003d ?
+string `$errfile` = ?,
+int `$errline` = ?,
+array `$errcontext` = ?
 ): bool
 
 `errno`
@@ -116,10 +116,10 @@ PHP 8.0.0 Якщо у вашій функції цей параметр вико
 
 ### Список змін
 
-| Версія | Опис                                                                                                                      |
-| ------ | ------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр `errcontext` був видалений і більше не передається в функцію обробки помилок.                                    |
-| 7.2.0  | Параметр errcontext оголошений застарілим. Тепер при його використанні буде викликатись помилка рівня **`E_DEPRECATED`**. |
+| Версія | Опис                                                                                                                    |
+| ------ | ----------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Параметр errcontext був видалений і більше не передається в функцію обробки помилок.                                    |
+| 7.2.0  | Параметр errcontext оголошений застарілим. Тепер при його використанні буде викликатись помилка рівня **E_DEPRECATED**. |
 
 ### Приклади
 
@@ -129,44 +129,44 @@ PHP 8.0.0 Якщо у вашій функції цей параметр вико
 Приклад нижче демонструє обробку внутрішніх виключень шляхом виклику
 помилок різних типів та їх обробки користувальницькою функцією:
 
-` <?php// функция обработки ошибокfunction myErrorHandler($errno, $errstr, $errfile, $errline){    if (!(error_reporting() & $errno)) {        // Этот код ошибки не включён в error_reporting,        // так що нехай обробляються стандартним обробником помилок PHP        return false; }    // може потрібно екранування $errstr:    $errstr u003d htmlspecialchars($errstr); switch ($errno) {   case E_USER_ERROR:        echo "<b>Користувацька ПОМИЛКА</b> [$errno] $errstr<br />
+` <?php// функция обработки ошибокfunction myErrorHandler($errno, $errstr, $errfile, $errline){    if (!(error_reporting() & $errno)) {        // Этот код ошибки не включён в error_reporting,        // так що нехай обробляються стандартним обробником помилок PHP        return false; }    // може потрібно екранування $errstr:    $errstr = htmlspecialchars($errstr); switch ($errno) {   case E_USER_ERROR:        echo "<b>Користувацька ПОМИЛКА</b> [$errno] $errstr<br />
 ";||   ||||||||||||||||||||
 ";        echo "Завершення роботи...<br />
 ";         exit(1);   case E_USER_WARNING:        echo "<b>Користувальне ПОПЕРЕДЖЕННЯ</b> [$errno] $
 ";        break;    case E_USER_NOTICE:        echo "<b>Користувачське ПОВІДОМЛЕННЯ</b> [$errno] $errstr<br
 ";        break;    default:        echo "Невідома помилка: [$errno] $errstr<br />
-";        break;    }    /* Не запускаем внутренний обработчик ошибок PHP */    return true;}// функция для тестирования обработчика ошибокfunction scale_by_log($vect, $scale){    if (!is_numeric($scale) || $scale <u003d 0 ) {        trigger_error("log(x) для x <u003d 0 не определён, вы используете: scale u003d $scale", E_USER_ERROR);    }    if (!is_array($vect)) {        trigger_error("Некорректный входной вектор, пропущен массив значений ", E_USER_WARNING);        return null;    }    $temp u003d array();    foreach($vect as $pos u003d> $value) {        if (!is_numeric($value)) {            trigger_error("Значение на позиции $pos не является числом , будет использован 0 (ноль)", E_USER_NOTICE);            $value u003d 0;        }        $temp[$pos] u003d log($scale) * $value;    }    return $temp;}// переключаемся на пользовательский обработчик$old_error_handler u003d set_error_handler ("myErrorHandler");// викликаємо кілька помилок, по-перше, визначимо масив з нечисловим елементомecho "vector a
-";$a u003d array(2, 3, "foo", 5.5, 43.3, 21.11);print_r($a);// тепер створимо ще один масивecho "----
-vector b - a notice (b u003d log(PI) * a)
-";/* Значення на позиції $pos не є числом, буде використаний 0 (нуль)*/$b u003d scale_by_log($a, M_PI);print_r($b);// проблема, ми| -
+";        break;    }    /* Не запускаем внутренний обработчик ошибок PHP */    return true;}// функция для тестирования обработчика ошибокfunction scale_by_log($vect, $scale){    if (!is_numeric($scale) || $scale <= 0 ) {        trigger_error("log(x) для x <= 0 не определён, вы используете: scale = $scale", E_USER_ERROR);    }    if (!is_array($vect)) {        trigger_error("Некорректный входной вектор, пропущен массив значений ", E_USER_WARNING);        return null;    }    $temp = array();    foreach($vect as $pos => $value) {        if (!is_numeric($value)) {            trigger_error("Значение на позиции $pos не является числом , будет использован 0 (ноль)", E_USER_NOTICE);            $value = 0;        }        $temp[$pos] = log($scale) * $value;    }    return $temp;}// переключаемся на пользовательский обработчик$old_error_handler = set_error_handler ("myErrorHandler");// викликаємо кілька помилок, по-перше, визначимо масив з нечисловим елементомecho "vector a
+";$a = array(2, 3, "foo", 5.5, 43.3, 21.11);print_r($a);// тепер створимо ще один масивecho "----
+vector b - a notice (b = log(PI) * a)
+";/* Значення на позиції $pos не є числом, буде використаний 0 (нуль)*/$b = scale_by_log($a, M_PI);print_r($b);// проблема, ми| -
 vector c - a warning
-";/* Некоректний вхідний вектор, пропущений масив значень */$c u003d scale_by_log("not array", 2.3);var_dump($c); // NULL// критична помилка  -
+";/* Некоректний вхідний вектор, пропущений масив значень */$c = scale_by_log("not array", 2.3);var_dump($c); // NULL// критична помилка  -
 vector d - fatal error
-";/* log(x) для x <u003d 0 не визначений, ви використовується: scale u003d $scale */$d u003d scale_by_log($a, -2.5); ?> `
+";/* log(x) для x <= 0 не визначений, ви використовується: scale = $scale */$d = scale_by_log($a, -2.5); ?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 vector a
 Array
 (
-[0] u003d> 2
-[1] u003d> 3
-[2] u003d> foo
-[3] u003d> 5.5
-[4] u003d> 43.3
-[5] u003d> 21.11
+[0] => 2
+[1] => 3
+[2] => foo
+[3] => 5.5
+[4] => 43.3
+[5] => 21.11
 )
 ----
-vector b - a notice (b u003d log(PI) * a)
+vector b - a notice (b = log(PI) * a)
 <b>УВАГА користувача</b> [1024] Значення на позиції 2 не є числом, буде використано 0 (нуль)<br />
 Array
 (
-[0] u003d> 2.2894597716988
-[1] u003d> 3.4341896575482
-[2] u003d> 0
-[3] u003d> 6.2960143721717
-[4] u003d> 49.566804057279
-[5] u003d> 24.165247890281
+[0] => 2.2894597716988
+[1] => 3.4341896575482
+[2] => 0
+[3] => 6.2960143721717
+[4] => 49.566804057279
+[5] => 24.165247890281
 )
 ----
 vector c - a warning
@@ -174,7 +174,7 @@ vector c - a warning
 NULL
 ----
 vector d - fatal error
-<b>Помилка користувача</b> [256] log(x) for x <u003d 0 не визначено, ви використовуєте: scale u003d -2.5<br />
+<b>Помилка користувача</b> [256] log(x) for x <= 0 не визначено, ви використовуєте: scale = -2.5<br />
 Фатальна помилка у рядку 35 файлу trigger_error.php, PHP 5.2.1 (FreeBSD)<br />
 Завершення роботи...<br />
 

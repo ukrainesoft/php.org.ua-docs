@@ -7,7 +7,7 @@
 
 # Ds\Vector::reverse
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::reverse — Перевертає поточний вектор
 
@@ -29,13 +29,13 @@ public **Ds\Vector::reverse**(): void
 
 **Приклад #1 Приклад використання **Ds\Vector::reverse()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);$vector->reverse();print_r($vector);?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);$vector->reverse();print_r($vector);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> c
-[1] u003d> b
-[2] u003d> a
+[0] => c
+[1] => b
+[2] => a
 )

@@ -87,7 +87,7 @@
 
 **Приклад #1 Приклад інтерфейсу**
 
-`<?php// Оголосимо інтерфейс 'Template'interface Template{    public function setVariable($name, $var); public function getHtml($template);}// Реалізація інтерфейсу// Це працюватиclass WorkingTemplate implements Template{   private $vars u003d []; public function setVariable($name,$var)    {        $this->vars[$name] u003d $var; }    public function getHtml($template)    {        foreach($this->vars as $name u003d> $value) {            $template u003d str_replace('{' . $name . '}', $value, $template); }    return $template; }}// Это не будет работать// Fatal error: Class BadTemplate contains 1 abstract methods// and must therefore be declared abstract (Template::getHtml)// (Фатальная ошибка: Класс BadTemplate содержит 1 абстрактный метод// и поэтому должен бути оголошений абстрактним (Template::getHtml))class BadTemplate implements Template{   private $vars u003d []; public function setVariable($name,$var)    {        $this->vars[$name] u003d $var; }}?> `
+`<?php// Оголосимо інтерфейс 'Template'interface Template{    public function setVariable($name, $var); public function getHtml($template);}// Реалізація інтерфейсу// Це працюватиclass WorkingTemplate implements Template{   private $vars = []; public function setVariable($name,$var)    {        $this->vars[$name] = $var; }    public function getHtml($template)    {        foreach($this->vars as $name => $value) {            $template = str_replace('{' . $name . '}', $value, $template); }    return $template; }}// Это не будет работать// Fatal error: Class BadTemplate contains 1 abstract methods// and must therefore be declared abstract (Template::getHtml)// (Фатальная ошибка: Класс BadTemplate содержит 1 абстрактный метод// и поэтому должен бути оголошений абстрактним (Template::getHtml))class BadTemplate implements Template{   private $vars = []; public function setVariable($name,$var)    {        $this->vars[$name] = $var; }}?> `
 
 **Приклад #2 Спадкування інтерфейсів**
 
@@ -99,7 +99,7 @@
 
 **Приклад #4 Інтерфейси з константами**
 
-`<?phpinterface A{   const B u003d 'Константа інтерфейсу';}// Виведе: Константа інтерфейсуecho A::B;class B implements A{   стання| 8.1.0 цей код не працює,// потому що не можна не можна перевизначати константи.echo B::B;?> `
+`<?phpinterface A{   const B = 'Константа інтерфейсу';}// Виведе: Константа інтерфейсуecho A::B;class B implements A{   стання| 8.1.0 цей код не працює,// потому що не можна не можна перевизначати константи.echo B::B;?> `
 
 **Приклад #5 Інтерфейси з абстрактними класами**
 

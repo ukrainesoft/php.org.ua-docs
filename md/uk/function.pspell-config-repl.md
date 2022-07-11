@@ -7,7 +7,7 @@
 
 #pspell_config_repl
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_config_repl — Встановлює файл, який містить заміщувальні пари
 
@@ -44,15 +44,15 @@ pspell_config_repl — Встановлює файл, який містить з
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр `config` тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                 |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pspell_config_repl()****
 
-` <?php$pspell_config u003d pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. u003d pspell_new_config($pspell_config);pspell_check($pspell, "thecat");?> `
+` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. = pspell_new_config($pspell_config);pspell_check($pspell, "thecat");?> `
 
 ### Примітки
 

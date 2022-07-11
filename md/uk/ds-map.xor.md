@@ -8,7 +8,7 @@
 
 # Ds\Map::xor
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::xor — Створює нову колекцію пар з елементів, які є в
 однієї з колекцій, але не в обох одночасно
@@ -21,7 +21,7 @@ public **Ds\Map::xor**([Ds\Map](class.ds-map.md) `$map`):
 Створює нову колекцію пар з елементів, ключі яких є в поточній
 колекції, або в переданій `map`, але не в обох одночасно.
 
-`A ⊖ B u003d {x: x ∈(A\B) ∪(B\A)}`
+`A ⊖ B = {x: x ∈(A\B) ∪(B\A)}`
 
 ### Список параметрів
 
@@ -42,22 +42,22 @@ public **Ds\Map::xor**([Ds\Map](class.ds-map.md) `$map`):
 
 **Приклад #1 Приклад використання **Ds\Map::xor()****
 
-` <?php$a u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);$b u003d new \Ds\Map(["b" u003d> 4, "c" u003d> 5, "d" u003d> 6]);print_r($a->xor($b));?> `
+` <?php$a = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$b = new \Ds\Map(["b" => 4, "c" => 5, "d" => 6]);print_r($a->xor($b));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> d
-[value] u003d> 6
+[key] => d
+[value] => 6
 )
 
 )

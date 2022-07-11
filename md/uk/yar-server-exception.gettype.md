@@ -7,7 +7,7 @@
 
 # Yar_Server_Exception::getType
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Server_Exception::getType — Отримати тип виключення
 
@@ -29,7 +29,7 @@ public **Yar_Server_Exception::getType**(): string
 
 **Приклад #1 Приклад використання **Yar_Server_Exception::getType()****
 
-` //Server.php<?phpclass Custom_Exception extends Exception {};class API {    public function throw_exception($name) {         throw new Custom_Exion; }}$service u003d new Yar_Server(new API());$service->handle();?>//Client.php<?php$client u003d new Yar_Client("http://host/api.php") ;try {   $client->throw_exception("client");} catch (Yar_Server_Exception $e) {   var_dump($e->getType()); var_dump($e->getMessage());} `
+` //Server.php<?phpclass Custom_Exception extends Exception {};class API {    public function throw_exception($name) {         throw new Custom_Exion; }}$service = new Yar_Server(new API());$service->handle();?>//Client.php<?php$client = new Yar_Client("http://host/api.php") ;try {   $client->throw_exception("client");} catch (Yar_Server_Exception $e) {   var_dump($e->getType()); var_dump($e->getMessage());} `
 
 Результатом виконання цього прикладу буде щось подібне:
 

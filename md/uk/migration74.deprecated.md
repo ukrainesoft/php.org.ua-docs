@@ -156,7 +156,7 @@ ASCII. У PHP 8 шаблон оброблятиметься як рядок.
 [Reflection](class.reflection.md) і перетворіть його на рядок:
 
 ` <?php// Замість ReflectionClass::export(Foo::class, false) використовуйте:echo new ReflectionClass(Foo::class), "
-";// Замість $str u003dReflectionClass::export(Foo::class, true) використовуйте:$str u003d (string) new ReflectionClass(Foo::class);?> `
+";// Замість $str =ReflectionClass::export(Foo::class, true) використовуйте:$str = (string) new ReflectionClass(Foo::class);?> `
 
 ### Сокети
 

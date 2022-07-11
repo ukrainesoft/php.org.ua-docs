@@ -7,7 +7,7 @@
 
 # Fiber::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 Fiber::\_\_construct — Створює новий екземпляр Fiber
 

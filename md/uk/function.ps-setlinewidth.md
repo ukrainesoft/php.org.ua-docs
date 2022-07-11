@@ -7,7 +7,7 @@
 
 #ps_setlinewidth
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_setlinewidth — Встановлює ширину лінії
 

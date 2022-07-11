@@ -8,7 +8,7 @@ oci_fetch_assoc та oci_fetch_row
 
 # ocifetchinto
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ocifetchinto - Застарілий варіант функцій
 [oci_fetch_array()](function.oci-fetch-array.md),

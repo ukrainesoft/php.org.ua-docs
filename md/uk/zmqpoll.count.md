@@ -7,7 +7,7 @@
 
 # ZMQPoll::count
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQPoll::count — Кількість елементів у пулі опитування
 

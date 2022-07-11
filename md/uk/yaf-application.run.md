@@ -7,7 +7,7 @@
 
 # Yaf_Application::run
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::run — Запустити Yaf_Application
 

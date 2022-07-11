@@ -7,7 +7,7 @@
 
 # Gmagick::getimagewhitepoint
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagewhitepoint — Повертає хроматичну білу точку
 

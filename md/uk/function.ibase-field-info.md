@@ -34,7 +34,7 @@ ibase_field_info — Отримує інформацію про поле
 
 **Приклад #1 Приклад використання **ibase_field_info()****
 
-` <?php$rs u003d ibase_query("SELECT * FROM tablename");$coln u003d ibase_num_fields($rs);for ($i u003d 0; $i < $coln; $i++) $ , $i); echo "Ім'я: ". $col_info['name']. "
+` <?php$rs = ibase_query("SELECT * FROM tablename");$coln = ibase_num_fields($rs);for ($i = 0; $i < $coln; $i++) $ , $i); echo "Ім'я: ". $col_info['name']. "
 ";    echo "Псевдонім: ". $col_info['alias']. "
 ";    echo "Зв'язок: ". $col_info['relation']. "
 ";    echo "Довжина: ". $col_info['length']. "

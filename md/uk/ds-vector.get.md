@@ -7,7 +7,7 @@
 
 # Ds\Vector::get
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::get — Повертає значення за індексом
 
@@ -37,7 +37,7 @@ public **Ds\Vector::get**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Vector::get()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);var_dump($vector->get(0));var_dump($vector->get(1) );var_dump($vector->get(2));?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector->get(0));var_dump($vector->get(1) );var_dump($vector->get(2));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -48,7 +48,7 @@ string(1) "c"
 **Приклад #2 Приклад використання **Ds\Vector::get()** із синтаксисом
 масиву**
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);var_dump($vector[0]);var_dump($vector[1]);var_dump($vector [2]);?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector[0]);var_dump($vector[1]);var_dump($vector [2]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

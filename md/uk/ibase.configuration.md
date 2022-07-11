@@ -11,16 +11,16 @@
 
 | Ім'я За замовчуванням                                                       | Місце зміни         | Список змін    |
 | --------------------------------------------------------------------------- | ------------------- | -------------- |
-| [ibase.allow_persistent](ibase.configuration.md#ini.ibase.allow-persistent) | "1"                 | PHP_INI_SYSTEM | 
-| [ibase.max_persistent](ibase.configuration.md#ini.ibase.max-persistent)     | "-1"                | PHP_INI_SYSTEM | 
-| [ibase.max_links](ibase.configuration.md#ini.ibase.max-links)               | "-1"                | PHP_INI_SYSTEM | 
-| [ibase.default_db](ibase.configuration.md#ini.ibase.default-db)             | NULL                | PHP_INI_SYSTEM | 
-| [ibase.default_user](ibase.configuration.md#ini.ibase.default-user)         | NULL                | PHP_INI_ALL    | 
-| [ibase.default_password](ibase.configuration.md#ini.ibase.default-password) | NULL                | PHP_INI_ALL    | 
-| [ibase.default_charset](ibase.configuration.md#ini.ibase.default-charset)   | NULL                | PHP_INI_ALL    | 
-| [ibase.timestampformat](ibase.configuration.md#ini.ibase.timestampformat)   | "%Y-%m-%d %H:%M:%S" | PHP_INI_ALL    | 
-| [ibase.dateformat](ibase.configuration.md#ini.ibase.dateformat)             | "%Y-%m-%d"          | PHP_INI_ALL    | 
-| [ibase.timeformat](ibase.configuration.md#ini.ibase.timeformat)             | "%H:%M:%S"          | PHP_INI_ALL    | 
+| [ibase.allow_persistent](ibase.configuration.md#ini.ibase.allow-persistent) | "1"                 | PHP_INI_SYSTEM |
+| [ibase.max_persistent](ibase.configuration.md#ini.ibase.max-persistent)     | "-1"                | PHP_INI_SYSTEM |
+| [ibase.max_links](ibase.configuration.md#ini.ibase.max-links)               | "-1"                | PHP_INI_SYSTEM |
+| [ibase.default_db](ibase.configuration.md#ini.ibase.default-db)             | NULL                | PHP_INI_SYSTEM |
+| [ibase.default_user](ibase.configuration.md#ini.ibase.default-user)         | NULL                | PHP_INI_ALL    |
+| [ibase.default_password](ibase.configuration.md#ini.ibase.default-password) | NULL                | PHP_INI_ALL    |
+| [ibase.default_charset](ibase.configuration.md#ini.ibase.default-charset)   | NULL                | PHP_INI_ALL    |
+| [ibase.timestampformat](ibase.configuration.md#ini.ibase.timestampformat)   | "%Y-%m-%d %H:%M:%S" | PHP_INI_ALL    |
+| [ibase.dateformat](ibase.configuration.md#ini.ibase.dateformat)             | "%Y-%m-%d"          | PHP_INI_ALL    |
+| [ibase.timeformat](ibase.configuration.md#ini.ibase.timeformat)             | "%H:%M:%S"          | PHP_INI_ALL    |
 
 **Конфігураційні опції InterBase**
 

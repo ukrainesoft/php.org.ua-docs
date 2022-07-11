@@ -7,7 +7,7 @@
 
 # EvSignal::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvSignal::\_\_construct — Конструктор об'єкта спостерігача EvSignal
 
@@ -18,8 +18,8 @@ int `$signum` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 Створює об'єкт спостерігач EvSignal та автоматично його запускає. Для
@@ -45,7 +45,7 @@ int `$priority` u003d 0
 
 **Приклад #1 Обробка сигналу SIGTERM**
 
-` <?php$w u003d new EvSignal(SIGTERM, function ($watcher) {   echo "SIGTERM received
+` <?php$w = new EvSignal(SIGTERM, function ($watcher) {   echo "SIGTERM received
 ";   $watcher->stop();});Ev::run();?> `
 
 ### Дивіться також

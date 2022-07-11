@@ -15,7 +15,7 @@ IntlChar::getPropertyValueName — Отримати ім'я Unicode для зн�
 ### Опис
 
 public static **IntlChar::getPropertyValueName**(int `$property`, int
-`$value`, int `$type` u003d IntlChar::LONG_PROPERTY_NAME): string\|false
+`$value`, int `$type` = IntlChar::LONG_PROPERTY_NAME): string\|false
 
 Повертає ім'я властивості Unicode за його значенням, як визначено у файлі
 PropertyValueAliases.txt.

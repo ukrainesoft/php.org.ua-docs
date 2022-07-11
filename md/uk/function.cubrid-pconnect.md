@@ -7,7 +7,7 @@
 
 #cubrid_pconnect
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_pconnect — Відкриває постійне з'єднання із сервером CUBRID
 
@@ -17,8 +17,8 @@ cubrid_pconnect — Відкриває постійне з'єднання із �
 string `$host`,
 int `$port`,
 string `$dbname`,
-string `$userid` u003d ?,
-string `$passwd` u003d ?
+string `$userid` = ?,
+string `$passwd` = ?
 ): resource
 
 Встановлює постійне з'єднання із сервером CUBRID.
@@ -70,12 +70,12 @@ $CUBRID/conf/cubrid_broker.conf).
 
 ` <?phpprintf("%-30s %s
 ", "Версія PHP CUBRID:", cubrid_version());printf("
-");$connu003du003dcubrid_pconnect("localhost", 33000, "demodb", "dba");if (!$conn) {    die('Помилка з'єднання ('. cubrid_error_code()      ) ;}$db_params u003d cubrid_get_db_parameter($conn);while (list($param_name, $param_value) u003d each($db_params)) {    printf("%-30s %s
+");$conn==cubrid_pconnect("localhost", 33000, "demodb", "dba");if (!$conn) {    die('Помилка з'єднання ('. cubrid_error_code()      ) ;}$db_params = cubrid_get_db_parameter($conn);while (list($param_name, $param_value) = each($db_params)) {    printf("%-30s %s
 ", $param_name, $param_value);}printf("
-");$server_info u003d cubrid_get_server_info($conn);$client_info u003d cubrid_get_client_info();printf("%-30s %s
+");$server_info = cubrid_get_server_info($conn);$client_info = cubrid_get_client_info();printf("%-30s %s
 ", "Інформація про сервері:", $server_info);printf("%-30s %s
 ", "Інформація про клієнт:", $client_info);printf("
-");$charset u003d cubrid_get_charset($conn);printf("%-30s %s
+");$charset = cubrid_get_charset($conn);printf("%-30s %s
 ", "Кодування CUBRID:", $charset);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

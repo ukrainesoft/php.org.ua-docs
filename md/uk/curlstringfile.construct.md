@@ -7,14 +7,14 @@
 
 # CURLStringFile::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 CURLStringFile::\_\_construct — Створює об'єкт CURLStringFile
 
 ### Опис
 
 public **CURLStringFile::\_\_construct**(string `$data`, string
-`$postname`, string `$mime` u003d "application/octet-stream")
+`$postname`, string `$mime` = "application/octet-stream")
 
 Створює об'єкт [CURLStringFile](class.curlstringfile.md), який
 використовується для завантаження файлу за допомогою **CURLOPT_POSTFIELDS**.
@@ -34,22 +34,22 @@ MIME-тип файлу (за замовчуванням `application/octet-strea
 
 **Приклад #1 Приклад використання **CURLStringFile::\_\_construct()****
 
-` <?php/* http://example.com/upload.php:<?phpvar_dump($_FILES);var_dump(file_get_contents($_FILES['test_string']['tmp_name']));?>*// / Створення дескриптора cURL$ch u003d curl_init('http://example.com/upload.php');// Створення об'єкта CURLStringFile$cstringfile u003d new CURLStringFile('тестовий вміст' t''t''t'' /plain');//Призначення даних для POST-запиту$data u003d array('test_string' u003d> $cstringfile);curl_setopt($ch, CURLOPT_POST, 1);curl_setopt($ch, CURLOPT_$ Виконання дескриптораcurl_exec($ch);?> `
+` <?php/* http://example.com/upload.php:<?phpvar_dump($_FILES);var_dump(file_get_contents($_FILES['test_string']['tmp_name']));?>*// / Створення дескриптора cURL$ch = curl_init('http://example.com/upload.php');// Створення об'єкта CURLStringFile$cstringfile = new CURLStringFile('тестовий вміст' t''t''t'' /plain');//Призначення даних для POST-запиту$data = array('test_string' => $cstringfile);curl_setopt($ch, CURLOPT_POST, 1);curl_setopt($ch, CURLOPT_$ Виконання дескриптораcurl_exec($ch);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["test_string"]u003d>
+["test_string"]=>
 array(5) {
-["name"]u003d>
+["name"]=>
 string(8) "test.txt"
-["type"]u003d>
+["type"]=>
 string(10) "text/plain"
-["tmp_name"]u003d>
+["tmp_name"]=>
 string(14) "/tmp/phpTtaoCz"
-["error"]u003d>
+["error"]=>
 int(0)
-["size"]u003d>
+["size"]=>
 int(20)
 }
 }

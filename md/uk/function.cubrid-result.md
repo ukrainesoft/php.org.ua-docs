@@ -7,7 +7,7 @@
 
 #cubrid_result
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_result — Отримати значення із заданого стовпця заданого рядка
 
@@ -15,7 +15,7 @@ cubrid_result — Отримати значення із заданого сто
 
 **cubrid_result**(resource `$result`, int `$row`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field` u003d 0): string
+`$field` = 0): string
 
 Функція повертає значення із заданого стовпця заданого рядка
 результуючого набору.
@@ -46,7 +46,7 @@ cubrid_result — Отримати значення із заданого сто
 
 **Приклад #1 Приклад використання **cubrid_result()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT * FROM code");$result u003d cubrid_result($q; result);$result u003d cubrid_result($req, 0, 1);var_dump($result);$result u003d cubrid_result($req, 5, "f_name");var_dump($result);cubrid_close_request($req);cubrid_disc ($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT * FROM code");$result = cubrid_result($q; result);$result = cubrid_result($req, 0, 1);var_dump($result);$result = cubrid_result($req, 5, "f_name");var_dump($result);cubrid_close_request($req);cubrid_disc ($conn);?> `
 
 Результат виконання цього прикладу:
 

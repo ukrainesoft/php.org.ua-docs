@@ -7,7 +7,7 @@
 
 # Yaf_Registry::del
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Registry::del — Видаляє елемент із реєстру
 

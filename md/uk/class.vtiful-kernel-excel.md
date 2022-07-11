@@ -7,7 +7,7 @@
 
 # Клас Vtiful\Kernel\Excel
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 ## Вступ
 
@@ -29,12 +29,12 @@ public [autoFilter](vtiful-kernel-excel.autoFilter.md)(string
 `$scope`)
 
 public [constMemory](vtiful-kernel-excel.constMemory.md)(string
-`$fileName`, string `$sheetName` u003d ?)
+`$fileName`, string `$sheetName` = ?)
 
 public [data](vtiful-kernel-excel.data.md)(array `$data`)
 
 public [fileName](vtiful-kernel-excel.filename.md)(string `$fileName`,
-string `$sheetName` u003d ?)
+string `$sheetName` = ?)
 
 public [getHandle](vtiful-kernel-excel.getHandle.md)()
 
@@ -50,7 +50,7 @@ public [insertText](vtiful-kernel-excel.insertText.md)(
 int `$row`,
 int `$column`,
 stringintdouble `$data`,
-string `$format` u003d ?
+string `$format` = ?
 )
 
 public [mergeCells](vtiful-kernel-excel.mergeCells.md)(string
@@ -59,10 +59,10 @@ public [mergeCells](vtiful-kernel-excel.mergeCells.md)(string
 public [output](vtiful-kernel-excel.output.md)()
 
 public [setColumn](vtiful-kernel-excel.setColumn.md)(string `$range`,
-float `$width`, resource `$format` u003d ?)
+float `$width`, resource `$format` = ?)
 
 public [setRow](vtiful-kernel-excel.setRow.md)(string `$range`, float
-`$height`, resource `$format` u003d ?)
+`$height`, resource `$format` = ?)
 
 }
 

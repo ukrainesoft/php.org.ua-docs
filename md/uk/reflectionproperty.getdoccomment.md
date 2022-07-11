@@ -7,7 +7,7 @@
 
 # ReflectionProperty::getDocComment
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ReflectionProperty::getDocComment — Отримання doc-коментаря для
 властивості
@@ -30,7 +30,7 @@ Doc-коментар, якщо він існує, інакше **`false`**.
 
 **Приклад #1 Приклад **ReflectionProperty::getDocComment()****
 
-`<?phpclass Str{    /**    * @var int  Довжина рядки     */    public $length u003d 5;}$prop u003d new '$'' ?> `
+`<?phpclass Str{    /**    * @var int  Довжина рядки     */    public $length = 5;}$prop = new '$'' ?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -43,7 +43,7 @@ string(52) "/**
 Якщо doc-коментар задано перед множинною декларацією, то він буде
 вважатися що належить лише до першого їх.
 
-` <?phpclass Foo{    /** @var string */    public $a, $b;}$class u003d new \ReflectionClass('Foo');foreach ($class->getProperties()         property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;}?> `
+` <?phpclass Foo{    /** @var string */    public $a, $b;}$class = new \ReflectionClass('Foo');foreach ($class->getProperties()         property->getName() . ': ' . var_export($property->getDocComment(), true) . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

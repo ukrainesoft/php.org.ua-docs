@@ -44,7 +44,7 @@ fpassthru — Виводить всі дані, що залишилися, з ф
 
 **Приклад #1 Використання **fpassthru()** з бінарними файлами**
 
-` <?php// відкриваємо файл в бінарному режимі$name u003d './img/ok.png';$fp u003d fopen($name, 'rb');// відправляємо потрібні заголовкиheader("Content-Type: png");header("Content-Length:|"". filesize($name));
+` <?php// відкриваємо файл в бінарному режимі$name = './img/ok.png';$fp = fopen($name, 'rb');// відправляємо потрібні заголовкиheader("Content-Type: png");header("Content-Length:|"". filesize($name));
 
 ### Примітки
 

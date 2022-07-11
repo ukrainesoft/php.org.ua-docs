@@ -7,7 +7,7 @@
 
 # Gmagick::removeimageprofile
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::removeimageprofile — Видаляє іменований профайл зображення та
 повертає його

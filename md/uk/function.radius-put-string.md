@@ -7,7 +7,7 @@
 
 # radius_put_string
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_put_string — Приєднує рядковий атрибут
 
@@ -17,8 +17,8 @@ radius_put_string — Приєднує рядковий атрибут
 resource `$radius_handle`,
 int `$type`,
 string `$value`,
-int `$options` u003d 0,
-int `$tag` u003d ?
+int `$options` = 0,
+int `$tag` = ?
 ): bool
 
 Приєднує рядковий атрибут до запиту RADIUS. В загальному,
@@ -62,9 +62,9 @@ int `$tag` u003d ?
 
 ### Список змін
 
-| Версія                                                 | Опис |
-| ------------------------------------------------------ | ---- |
-| PECL radius 1.3.0 Додані параметри `options` та `tag`. |      |
+| Версія                                             | Опис |
+| -------------------------------------------------- | ---- |
+| PECL radius 1.3.0 Додані параметри options та tag. |      |      
 
 ### Приклади
 

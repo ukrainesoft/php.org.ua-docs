@@ -8,7 +8,7 @@
 
 # Memcached::getResultMessage
 
-(PECL memcached \>u003d 1.0.0)
+(PECL memcached \>= 1.0.0)
 
 Memcached::getResultMessage — Повертає повідомлення, що описує
 результат виконання останньої операції
@@ -33,7 +33,7 @@ public **Memcached::getResultMessage**(): string
 
 **Приклад #1 Приклад використання **Memcached::getResultMessage()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->add('foo', 'bar'); // перше додавання успішно виконається$m->add('foo', 'bar');echo $m->getResultMessage(),"
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->add('foo', 'bar'); // перше додавання успішно виконається$m->add('foo', 'bar');echo $m->getResultMessage(),"
 ";?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Gmagick::getimagetype
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagetype — Повертає потенційний тип зображення
 

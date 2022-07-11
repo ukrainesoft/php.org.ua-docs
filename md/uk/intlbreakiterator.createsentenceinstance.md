@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::createSentenceInstance
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::createSentenceInstance — Створює ітератор переривання
 для розривів пропозицій
@@ -15,7 +15,7 @@ IntlBreakIterator::createSentenceInstance — Створює ітератор п
 ### Опис
 
 public static **IntlBreakIterator::createSentenceInstance**(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 **Увага**

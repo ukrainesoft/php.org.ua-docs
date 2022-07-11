@@ -8,7 +8,7 @@ PDOStatement
 
 # PDOStatement::errorCode
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDOStatement::errorCode — Отримує код SQLSTATE, пов'язаний з останньою
 операцією в об'єкті PDOStatement
@@ -31,7 +31,7 @@ public **PDOStatement::errorCode**(): ?string
 
 **Приклад #1 Отримання коду SQLSTATE**
 
-` <?php/* Спровокуємо помилки -- таблиці BONES не існує */$err u003d $dbh->prepare('SELECT skull FROM bones');$err->execute();echo "
+` <?php/* Спровокуємо помилки -- таблиці BONES не існує */$err = $dbh->prepare('SELECT skull FROM bones');$err->execute();echo "
 PDOStatement::errorCode(): ";print $err->errorCode();?> `
 
 Результат виконання цього прикладу:

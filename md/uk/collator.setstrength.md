@@ -9,7 +9,7 @@
 
 #collator_set_strength
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::setStrength -- collator_set_strength -- Встановлює силу
 зіставлення
@@ -123,19 +123,19 @@ Strength to set.
 
 **Приклад #1 Приклад використання **collator_set_strength()****
 
-`<?php$arr  u003d array( 'aò', 'Ao', 'ao' );$coll u003d collator_create( 'en_US' );// Сортування масиву з використанням сили по $ ;var_export( $arr );// Сортування масиву з використанням первинної сили.collator_set_strength( $coll, Collator::PRIMARY );collator_sort( $coll, $arr );
+`<?php$arr  = array( 'aò', 'Ao', 'ao' );$coll = collator_create( 'en_US' );// Сортування масиву з використанням сили по $ ;var_export( $arr );// Сортування масиву з використанням первинної сили.collator_set_strength( $coll, Collator::PRIMARY );collator_sort( $coll, $arr );
 
 Результат виконання цього прикладу:
 
 array (
-0 u003d> 'ao',
-1 u003d> 'Ao',
-2 u003d> 'aò',
+0 => 'ao',
+1 => 'Ao',
+2 => 'aò',
 )
 array (
-0 u003d> 'aò',
-1 u003d> 'Ao',
-2 u003d> 'ao',
+0 => 'aò',
+1 => 'Ao',
+2 => 'ao',
 )
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 #openssl_pkcs7_decrypt
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_pkcs7_decrypt — Розшифрувати повідомлення, зашифроване S/MIME
 
@@ -19,7 +19,7 @@ string `$output_filename`,
 [OpenSSLCertificate](class.opensslcertificate.md)\|string
 `$certificate`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string\|null
-`$private_key` u003d **`null`**
+`$private_key` = **`null`**
 ): bool
 
 Розшифровує повідомлення, зашифроване S/MIME, що міститься у файлі
@@ -44,12 +44,12 @@ string `$output_filename`,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                            |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу `OpenSSL key` або `OpenSSL X.509 CSR`. |
+| Версія | Опис                                                                                                                                                                                                                                                      |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509 CSR. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **openssl_pkcs7_decrypt()****
 
-`<?php//$$cert і $key містять пару з особистим сертифікатом і закритим ключом$infilename u003d "encrypted.msg"; // в цьому файлі зашифроване повідомлення$outfilename u003d "decrypted.msg"; // переконайтеся, що у вас є права на записif (openssl_pkcs7_decrypt($infilename, $outfilename, $cert, $key)) {    echo "розшифровано!"
+`<?php//$$cert і $key містять пару з особистим сертифікатом і закритим ключом$infilename = "encrypted.msg"; // в цьому файлі зашифроване повідомлення$outfilename = "decrypted.msg"; // переконайтеся, що у вас є права на записif (openssl_pkcs7_decrypt($infilename, $outfilename, $cert, $key)) {    echo "розшифровано!"

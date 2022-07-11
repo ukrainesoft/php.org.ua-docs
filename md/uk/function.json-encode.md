@@ -57,9 +57,9 @@ json_encode — Повертає JSON-подання даних
 
 | Версія | Опис                                                                                                                                                               |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 7.3.0  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags`.                                                                                                  |
-| 7.2.0  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** та **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags`.                                                       |
-| 7.1.0  | Додано константу **`JSON_UNESCAPED_LINE_TERMINATORS`** для параметра `flags`.                                                                                      |
+| 7.3.0  | Додано константу **JSON_THROW_ON_ERROR** для параметра flags.                                                                                                      |
+| 7.2.0  | Додані константи **JSON_INVALID_UTF8_IGNORE** та **JSON_INVALID_UTF8_SUBSTITUTE** для параметра flags.                                                             |
+| 7.1.0  | Додано константу **JSON_UNESCAPED_LINE_TERMINATORS** для параметра flags.                                                                                          |
 | 7.1.0  | При кодуванні чисел з плаваючою точкою використовується [serialize_precision](ini.core.md#ini.serialize-precision) замість [precision](ini.core.md#ini.precision). |
 
 ### Приклади

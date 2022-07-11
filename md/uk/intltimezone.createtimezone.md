@@ -9,7 +9,7 @@
 
 # intltz_create_time_zone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::createTimeZone -- intltz_create_time_zone — Створити об'єкт
 часового поясу по заданому ідентифікатору

@@ -7,13 +7,13 @@
 
 #trader_minindex
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_minindex — Індекс найменшого значення за певний період
 
 ### Опис
 
-**trader_minindex**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_minindex**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

@@ -13,7 +13,7 @@ date — Форматує тимчасову мітку Unix
 
 ### Опис
 
-**date**(string `$format`, ?int `$timestamp` u003d **`null`**): string
+**date**(string `$format`, ?int `$timestamp` = **`null`**): string
 
 Повертає рядок, відформатований відповідно до зазначеного в
 параметрі `format` шаблоном. Використовується позначка часу, задана
@@ -53,9 +53,9 @@ date — Форматує тимчасову мітку Unix
 
 ### Список змін
 
-| Версія | Опис                                      |
-| ------ | ----------------------------------------- |
-| 8.0.0  | `timestamp` тепер допускає значення null. |
+| Версія | Опис                                    |
+| ------ | --------------------------------------- |
+| 8.0.0  | timestamp тепер допускає значення null. |
 
 ### Приклади
 
@@ -78,7 +78,7 @@ date — Форматує тимчасову мітку Unix
 **Приклад #3 Приклад спільного використання функцій **date()** та
 [mktime()](function.mktime.md)**
 
-` <?php$tomorrow u003du003dmktime(0, 0, 0, date("m")  , date("d")+1, date("Y"));$lastmonth u003d mktime(0, 0, 0, date("m")-1, date("d"),   date("Y"));$nextyear u003du003dmktime(0, 0, 0, date("m"),  date("d"),  date ("Y")+1);?> `
+` <?php$tomorrow ==mktime(0, 0, 0, date("m")  , date("d")+1, date("Y"));$lastmonth = mktime(0, 0, 0, date("m")-1, date("d"),   date("Y"));$nextyear ==mktime(0, 0, 0, date("m"),  date("d"),  date ("Y")+1);?> `
 
 > **Примітка**:
 >
@@ -96,8 +96,8 @@ PHP не розпізнаються як форматуючі, оскільки 
 
 **Приклад #4 Форматування з використанням **date()****
 
-`<?php// Припустимо, що поточною датою є 10 березня 2001, 5:16:18 вечора,// і ми перебуваємо в годинному поясі Mountain Standard  i a"); // March 10, 2001, 5:16 pm$today u003d date("m.d.y"); // 03.10.01$today u003d date("j, n, Y"); // 10, 3, 2001$today u003d date("Ymd"); // 20010310$today u003d date('h-i-s,j-m-y, it is w Day'); // 05-16-18, 10-03-01, 1631 1618 6 Satpm01$today u003d date('\i  \i\s  \h jS \d \y.'); // it is the 10th day.$today u003d date("D M j G:i:s T Y"); // Sat Mar 10 17:16:18 MST 2001$today u003d date('H:m:s \m \i\s\ \m\o
-\h'); // 17:03:18 m is month$today u003d date("H:i:s"); // 17:16:18$today u003d date("Y-m-d H:i:s"); // 2001-03-10 17:16:18 (формат MySQL DATETIME)?> `
+`<?php// Припустимо, що поточною датою є 10 березня 2001, 5:16:18 вечора,// і ми перебуваємо в годинному поясі Mountain Standard  i a"); // March 10, 2001, 5:16 pm$today = date("m.d.y"); // 03.10.01$today = date("j, n, Y"); // 10, 3, 2001$today = date("Ymd"); // 20010310$today = date('h-i-s,j-m-y, it is w Day'); // 05-16-18, 10-03-01, 1631 1618 6 Satpm01$today = date('\i  \i\s  \h jS \d \y.'); // it is the 10th day.$today = date("D M j G:i:s T Y"); // Sat Mar 10 17:16:18 MST 2001$today = date('H:m:s \m \i\s\ \m\o
+\h'); // 17:03:18 m is month$today = date("H:i:s"); // 17:16:18$today = date("Y-m-d H:i:s"); // 2001-03-10 17:16:18 (формат MySQL DATETIME)?> `
 
 Для форматування дат іншими мовами замість функції **date()** можна
 використовувати метод

@@ -7,7 +7,7 @@
 
 # ssh2_forward_accept
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_forward_accept — Приймає з'єднання, створене слухачем
 

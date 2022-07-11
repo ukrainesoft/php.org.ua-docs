@@ -8,7 +8,7 @@
 
 #array_diff_ukey
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 array_diff_ukey — Обчислює розбіжність масивів за допомогою
 callback-функцію для порівняння ключів
@@ -53,14 +53,14 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **array_diff_ukey()****
 
-` <?phpfunction key_compare_func($key1, $key2){   if ($key1 u003du003d $key2)         return 0; else if ($key1 > $key2)        return 1; else        return -1;}$array1 u003d array('blue'  u003d> 1, 'red'  u003d> 2, 'green'  u003d> 3> u003du003d' u003d' ') 5, 'blue' u003d> 6, 'yellow' u003d> 7, 'cyan'   u003d> 8);var_dump(array_diff_ukey($array1, $array2, 'key_compare_func'));?> `
+` <?phpfunction key_compare_func($key1, $key2){   if ($key1 == $key2)         return 0; else if ($key1 > $key2)        return 1; else        return -1;}$array1 = array('blue'  => 1, 'red'  => 2, 'green'  => 3> ==' =' ') 5, 'blue' => 6, 'yellow' => 7, 'cyan'   => 8);var_dump(array_diff_ukey($array1, $array2, 'key_compare_func'));?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["red"]u003d>
+["red"]=>
 int(2)
-["purple"]u003d>
+["purple"]=>
 int(4)
 }
 

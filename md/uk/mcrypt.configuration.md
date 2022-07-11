@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                                      | Місце зміни | Список змін |
 | -------------------------------------------------------------------------- | ----------- | ----------- |
-| [mcrypt.algorithms_dir](mcrypt.configuration.md#ini.mcrypt.algorithms-dir) | **`null`**  | PHP_INI_ALL | 
-| [mcrypt.modes_dir](mcrypt.configuration.md#ini.mcrypt.modes-dir)           | **`null`**  | PHP_INI_ALL | 
+| [mcrypt.algorithms_dir](mcrypt.configuration.md#ini.mcrypt.algorithms-dir) | **null**    | PHP_INI_ALL |             
+| [mcrypt.modes_dir](mcrypt.configuration.md#ini.mcrypt.modes-dir)           | **null**    | PHP_INI_ALL |
 
 **Опції налаштування Mcrypt**
 

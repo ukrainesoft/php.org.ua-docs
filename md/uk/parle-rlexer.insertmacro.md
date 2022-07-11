@@ -7,7 +7,7 @@
 
 # Parle\RLexer::insertMacro
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\RLexer::insertMacro — Вставляє макрос регулярного виразу
 

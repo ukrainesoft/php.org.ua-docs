@@ -7,7 +7,7 @@
 
 # SNMP::set
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::set — Встановлює значення об'єкта SNMP
 
@@ -37,19 +37,19 @@ max_oids.
 MIB визначає тип ідентифікатора кожного об'єкта. Він має бути вказаний
 як один символ з наступного списку.
 
-|       |                         |
-|-------|-------------------------|
-| u003d | Тип, що приймається MIB |
-| i     | INTEGER                 |
-| u     | INTEGER                 |
-| s     | STRING                  |
-| x     | HEX STRING              |
-| d     | DECIMAL STRING          |
-| n     | NULLOBJ                 |
-| o     | OBJID                   |
-| t     | TIMETICKS               |
-| a     | IPADDRESS               |
-| b     | BITS                    |
+|     |                         |
+| --- | ----------------------- |
+| =   | Тип, що приймається MIB |
+| i   | INTEGER                 |
+| u   | INTEGER                 |
+| s   | STRING                  |
+| x   | HEX STRING              |
+| d   | DECIMAL STRING          |
+| n   | NULLOBJ                 |
+| o   | OBJID                   |
+| t   | TIMETICKS               |
+| a   | IPADDRESS               |
+| b   | BITS                    |
 
 **types**
 
@@ -72,7 +72,7 @@ MIB визначає тип ідентифікатора кожного об'є�
 
 Якщо MIB-файли були завантажені в MIB-дерево за допомогою "snmp_read_mib" або
 були вказані у конфігураційному файлі libsnmp, то для вказівки параметра
-`type` можна використовувати нотацію 'u003d', т.к. тип усіх ідентифікаторів
+`type` можна використовувати нотацію '=', т.к. тип усіх ідентифікаторів
 об'єктів буде автоматично рахований з MIB.
 
 Зверніть увагу, що є два способи встановлення змінної типу BITS,
@@ -107,17 +107,17 @@ ssh(5), https(6)}":
 
 **Приклад #1 Встановити одиночний ідентифікатор об'єкта SNMP**
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set('SNMPv2-MIB::sysContact.0', 's', "Nobody");?> `
+`<?php $session==new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set('SNMPv2-MIB::sysContact.0', 's', "Nobody");?> `
 
 **Приклад #2 Встановити кілька значень за допомогою одного дзвінка
 **SNMP::set()****
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), array('s', 's'), array("Nobody", "Nowhere "));// або $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), 's', array("Nobody", "Nowhere "));?> `
+`<?php $session==new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), array('s', 's'), array("Nobody", "Nowhere "));// або $session->set(array('SNMPv2-MIB::sysContact.0', 'SNMPv2-MIB::sysLocation.0'), 's', array("Nobody", "Nowhere "));?> `
 
 **Приклад #3 Використання **SNMP::set()** для встановлення ідентифікатора
 об'єкта BITS SNMP**
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set('FOO-MIB::bar.42', 'b', '0 1 2 3 4');// або  $session->set('FOO-MIB::bar.42', 'x', 'F0');?> `
+`<?php $session==new SNMP(SNMP::VERSION_2C, "127.0.0.1", "private"); $session->set('FOO-MIB::bar.42', 'b', '0 1 2 3 4');// або  $session->set('FOO-MIB::bar.42', 'x', 'F0');?> `
 
 ### Дивіться також
 

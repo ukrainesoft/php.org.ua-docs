@@ -7,14 +7,14 @@
 
 # SolrQuery::getFacetDateHardEnd
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetDateHardEnd — Повертає значення параметра
 facet.date.hardend
 
 ### Опис
 
-public **SolrQuery::getFacetDateHardEnd**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetDateHardEnd**(string `$field_override` = ?):
 string
 
 Повертає значення facet.date.hardend. Приймає

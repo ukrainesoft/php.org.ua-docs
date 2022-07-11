@@ -7,13 +7,13 @@
 
 # Imagick::blueShiftImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::blueShiftImage — Опис
 
 ### Опис
 
-public **Imagick::blueShiftImage**(float `$factor` u003d 1.5): bool
+public **Imagick::blueShiftImage**(float `$factor` = 1.5): bool
 
 Приглушує кольори зображення для імітації сцени вночі при
 місячному світлі.
@@ -30,4 +30,4 @@ public **Imagick::blueShiftImage**(float `$factor` u003d 1.5): bool
 
 **Приклад #1 Приклад використання **Imagick::blueShiftImage()****
 
-`<?phpfunction blueShiftImage($imagePath, $blueShift) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->blueShiftImage($blueShift); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction blueShiftImage($imagePath, $blueShift) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->blueShiftImage($blueShift); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

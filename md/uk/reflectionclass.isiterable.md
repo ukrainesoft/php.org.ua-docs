@@ -7,7 +7,7 @@
 
 # ReflectionClass::isIterable
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 ReflectionClass::isIterable — Перевірити, чи клас ітерується.
 
@@ -31,7 +31,7 @@ public **ReflectionClass::isIterable**(): bool
 
 **Приклад #1 Використання **ReflectionClass::isIterable()****
 
-` <?phpclass IteratorClass implements Iterator {    public function __construct() { }    public function key() { }    public function current() { }    function next() { }    function valid() { }    function rewind() { }}class DerivedClass extends IteratorClass { }class NonIterator { }function dump_iterable($class) {    $reflection u003d new ReflectionClass($class); var_dump($reflection->isIterable());}$classes u003d array("ArrayObject", "IteratorClass", "DerivedClass", "NonIterator");foreach ($classes as $class) { Класи| "; dump_iterable($class);}?> `
+` <?phpclass IteratorClass implements Iterator {    public function __construct() { }    public function key() { }    public function current() { }    function next() { }    function valid() { }    function rewind() { }}class DerivedClass extends IteratorClass { }class NonIterator { }function dump_iterable($class) {    $reflection = new ReflectionClass($class); var_dump($reflection->isIterable());}$classes = array("ArrayObject", "IteratorClass", "DerivedClass", "NonIterator");foreach ($classes as $class) { Класи| "; dump_iterable($class);}?> `
 
 Результат виконання цього прикладу:
 

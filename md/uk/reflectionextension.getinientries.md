@@ -31,24 +31,24 @@ public **ReflectionExtension::getINIEntries**(): array
 **Приклад #1 Приклад використання
 **ReflectionExtension::getINIEntries()****
 
-` <?php$ext u003d new ReflectionExtension('mysql');print_r($ext->getINIEntries());?> `
+` <?php$ext = new ReflectionExtension('mysql');print_r($ext->getINIEntries());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[mysql.allow_persistent] u003d> 1
-[mysql.max_persistent] u003d> -1
-[mysql.max_links] u003d> -1
-[mysql.default_host] u003d>
-[mysql.default_user] u003d>
-[mysql.default_password] u003d>
-[mysql.default_port] u003d>
-[mysql.default_socket] u003d>
-[mysql.connect_timeout] u003d> 60
-[mysql.trace_mode] u003d>
-[mysql.allow_local_infile] u003d> 1
-[mysql.cache_size] u003d> 2000
+[mysql.allow_persistent] => 1
+[mysql.max_persistent] => -1
+[mysql.max_links] => -1
+[mysql.default_host] =>
+[mysql.default_user] =>
+[mysql.default_password] =>
+[mysql.default_port] =>
+[mysql.default_socket] =>
+[mysql.connect_timeout] => 60
+[mysql.trace_mode] =>
+[mysql.allow_local_infile] => 1
+[mysql.cache_size] => 2000
 )
 
 ### Дивіться також

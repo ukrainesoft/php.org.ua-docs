@@ -9,7 +9,7 @@
 
 #stomp_abort
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::abort -- stomp_abort — Скасує виконання поточної транзакції
 
@@ -17,13 +17,13 @@ Stomp::abort -- stomp_abort — Скасує виконання поточної
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::abort**(string `$transaction_id`, array `$headers` u003d ?):
+public **Stomp::abort**(string `$transaction_id`, array `$headers` = ?):
 bool
 
 Процедурний стиль:
 
 **stomp_abort**(resource `$link`, string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 Скасує виконання поточної транзакції.
 
@@ -49,11 +49,11 @@ receipt).
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?php/* підключення */try {    $stomp u003d new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}/* початок транзакції */$stomp->begin('t1');/* відправлення повідомлення в черга */$stomp->send('/queue/foo', 'bar', array('transaction ' u003d> 't1'));/* відкат транзакції */$stomp->abort('t1');/* розрив підключення */unset($stomp);?> `
+`<?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}/* початок транзакції */$stomp->begin('t1');/* відправлення повідомлення в черга */$stomp->send('/queue/foo', 'bar', array('transaction ' => 't1'));/* відкат транзакції */$stomp->abort('t1');/* розрив підключення */unset($stomp);?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link u003d stomp_connect('tcp://localhost:61613');/* перевірка підключення */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}/* початок транзакції */stomp_begin($link, 't1');/* відправлення повідомлення в черга 'foo' */stomp_send($link, '/queue/foo', 'bar', array u003d> 't1'));/* відкат транзакції */stomp_abort($link, 't1');/* розрив підключення */stomp_close($link);?> `
+` <?php/* підключення */$link = stomp_connect('tcp://localhost:61613');/* перевірка підключення */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}/* початок транзакції */stomp_begin($link, 't1');/* відправлення повідомлення в черга 'foo' */stomp_send($link, '/queue/foo', 'bar', array => 't1'));/* відкат транзакції */stomp_abort($link, 't1');/* розрив підключення */stomp_close($link);?> `
 
 ### Примітки
 

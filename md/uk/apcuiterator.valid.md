@@ -7,7 +7,7 @@
 
 # APCUIterator::valid
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 APCUIterator::valid — Перевіряє, чи поточна позиція ітератора коректна.
 

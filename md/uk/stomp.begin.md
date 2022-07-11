@@ -9,7 +9,7 @@
 
 #stomp_begin
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::begin - stomp_begin - Створює транзакцію
 
@@ -17,13 +17,13 @@ Stomp::begin - stomp_begin - Створює транзакцію
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::begin**(string `$transaction_id`, array `$headers` u003d ?):
+public **Stomp::begin**(string `$transaction_id`, array `$headers` = ?):
 bool
 
 Процедурний стиль:
 
 **stomp_begin**(resource `$link`, string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 Створює транзакцію.
 

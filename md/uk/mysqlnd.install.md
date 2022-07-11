@@ -19,9 +19,9 @@
 вбудований драйвер MySQL, має бути виконана наступна команда:
 
 `` shellcode
-./configure --with-mysqlu003dmysqlnd \
---with-mysqliu003dmysqlnd \
---with-pdo-mysqlu003dmysqlnd \
+./configure --with-mysql=mysqlnd \
+--with-mysqli=mysqlnd \
+--with-pdo-mysql=mysqlnd \
 [other options]
 ````
 
@@ -40,9 +40,9 @@ PHP, щоб підключатися до MySQL через облікові за
 чином:
 
 `` shellcode
-./configure --with-mysqlu003dmysqlnd \
---with-mysqliu003dmysqlnd \
---with-pdo-mysqlu003dmysqlnd \
+./configure --with-mysql=mysqlnd \
+--with-mysqli=mysqlnd \
+--with-pdo-mysql=mysqlnd \
 --with-openssl
 [other options]
 ````

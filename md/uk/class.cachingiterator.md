@@ -22,23 +22,23 @@ class **CachingIterator** extends
 
 /\* Константи \*/
 
-const int `CALL_TOSTRING` u003d 1;
+const int `CALL_TOSTRING` = 1;
 
-const int `CATCH_GET_CHILD` u003d 16;
+const int `CATCH_GET_CHILD` = 16;
 
-const int `TOSTRING_USE_KEY` u003d 2;
+const int `TOSTRING_USE_KEY` = 2;
 
-const int `TOSTRING_USE_CURRENT` u003d 4;
+const int `TOSTRING_USE_CURRENT` = 4;
 
-const int `TOSTRING_USE_INNER` u003d 8;
+const int `TOSTRING_USE_INNER` = 8;
 
-const int `FULL_CACHE` u003d 256;
+const int `FULL_CACHE` = 256;
 
 /\* Методи \*/
 
 public
 [\_\_construct](cachingiterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$flags` u003d CachingIterator::CALL_TOSTRING)
+`$iterator`, int `$flags` = CachingIterator::CALL_TOSTRING)
 
 public [count](cachingiterator.count.md)(): int
 

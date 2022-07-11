@@ -7,7 +7,7 @@
 
 # Transliterator::\_\_construct
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::\_\_construct - Приватний конструктор
 

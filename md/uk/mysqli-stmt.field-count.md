@@ -42,11 +42,11 @@ int `$mysqli_stmt->field_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$code u003d 'FR'; SELECT Name FROM Country WHERE Codeu003d?");$stmt->bind_param('s', $code);$stmt->execute();$row u003d $stmt->get_result()->fetch_row();for ($i u003d 0; $i < $stmt->field_count; $i++) {    printf("Значення номери стовпця %d - %s", $i, $row[$i]);} `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$code = 'FR'; SELECT Name FROM Country WHERE Code=?");$stmt->bind_param('s', $code);$stmt->execute();$row = $stmt->get_result()->fetch_row();for ($i = 0; $i < $stmt->field_count; $i++) {    printf("Значення номери стовпця %d - %s", $i, $row[$i]);} `
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$code u003d 'FR'$$ FROM Country WHERE Codeu003d?"); mysqli_stmt_bind_param($stmt, 's', $code); mysqli_stmt_execute($stmt); u003d 0; $i < mysqli_stmt_field_count($stmt); $i++) {    printf("Значення номеру стовпця %d - %s", $i, $row[$i]);} `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$code = 'FR'$$ FROM Country WHERE Code=?"); mysqli_stmt_bind_param($stmt, 's', $code); mysqli_stmt_execute($stmt); = 0; $i < mysqli_stmt_field_count($stmt); $i++) {    printf("Значення номеру стовпця %d - %s", $i, $row[$i]);} `
 
 Результатом виконання даних прикладів буде щось подібне:
 

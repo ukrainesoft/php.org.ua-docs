@@ -45,7 +45,7 @@ string\|bool\|null
 
 **Приклад #1 Приклади використання **odbc_result()****
 
-` <?php$item_3   u003d odbc_result($Query_ID, 3);$item_val u003d odbc_result($Query_ID, "val");?> `
+` <?php$item_3   = odbc_result($Query_ID, 3);$item_val = odbc_result($Query_ID, "val");?> `
 
 ### Примітки
 

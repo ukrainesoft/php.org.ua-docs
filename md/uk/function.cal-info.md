@@ -7,13 +7,13 @@
 
 #cal_info
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 cal_info — Повертає інформацію про заданий календар
 
 ### Опис
 
-**cal_info**(int `$calendar` u003d -1): array
+**cal_info**(int `$calendar` = -1): array
 
 **cal_info()** повертає інформацію про заданий календар `calendar`.
 
@@ -42,45 +42,45 @@ cal_info — Повертає інформацію про заданий кал�
 
 **Приклад #1 Приклад **cal_info()****
 
-` <?php$info u003d cal_info(0);print_r($info);?> `
+` <?php$info = cal_info(0);print_r($info);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[months] u003d> Array
+[months] => Array
 (
-[1] u003d> January
-[2] u003d> February
-[3] u003d> March
-[4] u003d> April
-[5] u003d> May
-[6] u003d> June
-[7] u003d> July
-[8] u003d> August
-[9] u003d> September
-[10] u003d> жовтень
-[11] u003d> Листопад
-[12] u003d> December
+[1] => January
+[2] => February
+[3] => March
+[4] => April
+[5] => May
+[6] => June
+[7] => July
+[8] => August
+[9] => September
+[10] => жовтень
+[11] => Листопад
+[12] => December
 )
 
-[abbrevmonths] u003d> Array
+[abbrevmonths] => Array
 (
-[1] u003d> Jan
-[2] u003d> Feb
-[3] u003d> Mar
-[4] u003d> Apr
-[5] u003d> May
-[6] u003d> Jun
-[7] u003d> Jul
-[8] u003d> Aug
-[9] u003d> Sep
-[10] u003d> Oct
-[11] u003d> Nov
-[12] u003d> Dec
+[1] => Jan
+[2] => Feb
+[3] => Mar
+[4] => Apr
+[5] => May
+[6] => Jun
+[7] => Jul
+[8] => Aug
+[9] => Sep
+[10] => Oct
+[11] => Nov
+[12] => Dec
 )
 
-[maxdaysinmonth] u003d> 31
-[calname] u003d> Gregorian
-[calsymbol] u003d> CAL_GREGORIAN
+[maxdaysinmonth] => 31
+[calname] => Gregorian
+[calsymbol] => CAL_GREGORIAN
 )

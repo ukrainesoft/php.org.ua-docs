@@ -7,7 +7,7 @@
 
 # Parle\Lexer::advance
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\Lexer::advance — Обробляє таке правило лексера
 

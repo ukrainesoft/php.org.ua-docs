@@ -16,7 +16,7 @@ Imagick::queryFontMetrics - Повертає масив, що представл
 
 public
 **Imagick::queryFontMetrics**([ImagickDraw](class.imagickdraw.md)
-`$properties`, string `$text`, bool `$multiline` u003d ?): array
+`$properties`, string `$text`, bool `$multiline` = ?): array
 
 Повертає багатовимірний масив, що становить метрики шрифту.
 
@@ -46,4 +46,4 @@ public
 
 Запитує метрики для тексту та виводить результати на екран.
 
-` <?php/* Створення нового об'єкта Imagick */$im u003d new Imagick();/* Створення нового об'єкта Imagick */$draw u003d new ImagickDraw()| path/to/font.ttf');/* Висновок метрики шрифту, автоматичне визначення многорядкового параметра */var_dump($im->queryFontMetrics($draw, "Hello World!"));?> `
+` <?php/* Створення нового об'єкта Imagick */$im = new Imagick();/* Створення нового об'єкта Imagick */$draw = new ImagickDraw()| path/to/font.ttf');/* Висновок метрики шрифту, автоматичне визначення многорядкового параметра */var_dump($im->queryFontMetrics($draw, "Hello World!"));?> `

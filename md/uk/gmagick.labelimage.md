@@ -7,7 +7,7 @@
 
 # Gmagick::labelimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::labelimage — Додає позначку до зображення
 

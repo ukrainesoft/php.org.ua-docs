@@ -7,7 +7,7 @@
 
 #pg_field_size
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_field_size — Повертає розмір поля
 
@@ -41,16 +41,16 @@ pg_field_size — Повертає розмір поля
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поля вибірки**
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Неможливо з'єднатися з базою"); $res u003d pg_query($dbconn, "select * from authors where author u003d 'Orwell'"); $i u003d pg_num_fields($res); for ($j u003d 0; $j < $i; $j++) {      echo "column $j
-";      $fieldname u003d pg_field_name($res, $j);     echo "fieldname: $fieldname
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Неможливо з'єднатися з базою"); $res = pg_query($dbconn, "select * from authors where author = 'Orwell'"); $i = pg_num_fields($res); for ($j = 0; $j < $i; $j++) {      echo "column $j
+";      $fieldname = pg_field_name($res, $j);     echo "fieldname: $fieldname
 ";      echo "printed length: " . pg_field_prtlen($res, $fieldname) . "characters
 ";      echo "storage length: " . pg_field_size($res, $j) . " bytes
 ";      echo "field type: " . pg_field_type($res, $j) . "

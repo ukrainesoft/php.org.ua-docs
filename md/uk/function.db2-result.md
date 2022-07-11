@@ -7,7 +7,7 @@
 
 # db2_result
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_result — Повертає один стовпець із рядка у наборі результатів
 
@@ -47,7 +47,7 @@ db2_result — Повертає один стовпець із рядка у н�
 результатів за допомогою [db2_fetch_row()](function.db2-fetch-row.md) та
 отримати стовпці з набору результатів за допомогою **db2_result()**.
 
-` <?php$sql u003d 'SELECT name, breed FROM animals WHERE weight < ?';$stmt u003d db2_prepare($conn, $sql);db2_execute($stmt, array(10)_t$2 ) {   $name u003d db2_result($stmt, 0); $breedu003du003ddb2_result($stmt, 'BREED'); print "$name $breed";}?> `
+` <?php$sql = 'SELECT name, breed FROM animals WHERE weight < ?';$stmt = db2_prepare($conn, $sql);db2_execute($stmt, array(10)_t$2 ) {   $name = db2_result($stmt, 0); $breed==db2_result($stmt, 'BREED'); print "$name $breed";}?> `
 
 Результат виконання цього прикладу:
 

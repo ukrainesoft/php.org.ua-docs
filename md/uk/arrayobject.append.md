@@ -39,24 +39,24 @@ public
 
 **Приклад #1 Приклад використання **ArrayObject::append()****
 
-` <?php$arrayobj u003d new ArrayObject(array('first','second','third'));$arrayobj->append('fourth');$arrayobj->append(array('five', ') six'));var_dump($arrayobj);?> `
+` <?php$arrayobj = new ArrayObject(array('first','second','third'));$arrayobj->append('fourth');$arrayobj->append(array('five', ') six'));var_dump($arrayobj);?> `
 
 Результат виконання цього прикладу:
 
 object(ArrayObject)#1 (5) {
-[0]u003d>
+[0]=>
 string(5) "first"
-[1]u003d>
+[1]=>
 string(6) "second"
-[2]u003d>
+[2]=>
 string(5) "third"
-[3]u003d>
+[3]=>
 string(6) "fourth"
-[4]u003d>
+[4]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(4) "five"
-[1]u003d>
+[1]=>
 string(3) "six"
 }
 }

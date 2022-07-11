@@ -7,14 +7,14 @@
 
 #apcu_entry
 
-(PECL apcu u003d> 5.1.0)
+(PECL apcu => 5.1.0)
 
 apcu_entry — Автоматичне вилучення або створення запису в кеші
 
 ### Опис
 
 **apcu_entry**(string `$key`, [callable](language.types.callable.md)
-`$generator`, int `$ttl` u003d 0):
+`$generator`, int `$ttl` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Автоматично намагається знайти запис із заданим ключем `key`. Якщо не
@@ -59,25 +59,25 @@ Callback-функція, що приймає один параметр `key` і 
 
 **Приклад #1 Приклад використання **apcu_entry()****
 
-`<?php$config u003d apcu_entry("config", function($key) { return [  "fruit" u003d> apcu_entry("config.fruit", function($key){                 ;   }),   "people" u003d> apcu_entry("config.people", function($key){     return [      "bob",      "joe",      "niki"     ];   }) ];});var_dump($config) ;?> `
+`<?php$config = apcu_entry("config", function($key) { return [  "fruit" => apcu_entry("config.fruit", function($key){                 ;   }),   "people" => apcu_entry("config.people", function($key){     return [      "bob",      "joe",      "niki"     ];   }) ];});var_dump($config) ;?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["fruit"]u003d>
+["fruit"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(6) "apples"
-[1]u003d>
+[1]=>
 string(5) "pears"
 }
-["people"]u003d>
+["people"]=>
 array(3) {
-[0]u003d>
+[0]=>
 string(3) "bob"
-[1]u003d>
+[1]=>
 string(3) "joe"
-[2]u003d>
+[2]=>
 string(4) "niki"
 }
 }

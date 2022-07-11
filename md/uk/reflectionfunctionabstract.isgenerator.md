@@ -7,7 +7,7 @@
 
 # ReflectionFunctionAbstract::isGenerator
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isGenerator — Перевіряє, чи є функція
 генератором

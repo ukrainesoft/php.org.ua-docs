@@ -10,7 +10,7 @@
 
 #timezone_abbreviations_list
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTimeZone::listAbbreviations -- timezone_abbreviations_list
 Повертає асоціативний масив, який містить прапор переходу на літнє
@@ -54,38 +54,38 @@ array
 **Приклад #1 Приклад використання
 [timezone_abbreviations_list()](function.timezone-abbreviations-list.md)**
 
-` <?php$timezone_abbreviations u003d DateTimeZone::listAbbreviations();print_r($timezone_abbreviations["acst"]);?> `
+` <?php$timezone_abbreviations = DateTimeZone::listAbbreviations();print_r($timezone_abbreviations["acst"]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[dst] u003d> 1
-[offset] u003d> -14400
-[timezone_id] u003d> America/Porto_Acre
+[dst] => 1
+[offset] => -14400
+[timezone_id] => America/Porto_Acre
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[dst] u003d> 1
-[offset] u003d> -14400
-[timezone_id] u003d> America/Eirunepe
+[dst] => 1
+[offset] => -14400
+[timezone_id] => America/Eirunepe
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[dst] u003d> 1
-[offset] u003d> -14400
-[timezone_id] u003d> America/Rio_Branco
+[dst] => 1
+[offset] => -14400
+[timezone_id] => America/Rio_Branco
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[dst] u003d> 1
-[offset] u003d> -14400
-[timezone_id] u003d> Brazil/Acre
+[dst] => 1
+[offset] => -14400
+[timezone_id] => Brazil/Acre
 )
 
 )

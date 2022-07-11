@@ -7,7 +7,7 @@
 
 # Gmagick::compositeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::compositeimage — Накладає одне зображення на інше
 

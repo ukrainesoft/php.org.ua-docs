@@ -8,14 +8,14 @@
 
 #cubrid_fetch_assoc
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_fetch_assoc — Витягти рядок з результуючого набору у вигляді
 асоціативного масиву
 
 ### Опис
 
-**cubrid_fetch_assoc**(resource `$result`, int `$type` u003d ?): array
+**cubrid_fetch_assoc**(resource `$result`, int `$type` = ?): array
 
 Функція повертає асоціативний масив, що відповідає рядку в
 результуючому наборі, на яку вказує внутрішній покажчик. Після
@@ -42,8 +42,8 @@ cubrid_fetch_assoc — Витягти рядок з результуючого �
 
 **Приклад #1 Приклад використання **cubrid_fetch_assoc()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE    );printf("%-40s %-10s %-6s %-20s
-", "name", "area", "seats", "address");while($row u003d cubrid_fetch_assoc($req)) {    printf("%-40s %-10s %-6s %-2
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE    );printf("%-40s %-10s %-6s %-20s
+", "name", "area", "seats", "address");while($row = cubrid_fetch_assoc($req)) {    printf("%-40s %-10s %-6s %-2
 ",        $row["name"], $row["area"], $row["seats"], $row["address"]);}//Якщо вам потрібно оперувати об'єктами LOB - | $req, CUBRID_LOB)cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

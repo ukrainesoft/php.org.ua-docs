@@ -7,13 +7,13 @@
 
 # SVM::train
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 SVM::train — Створити SVMModel на основі навчальних даних
 
 ### Опис
 
-public **svm::train**(array `$problem`, array `$weights` u003d ?):
+public **svm::train**(array `$problem`, array `$weights` = ?):
 [SVMModel](class.svmmodel.md)
 
 Створює SVMModel на основі навчальних даних.
@@ -31,7 +31,7 @@ public **svm::train**(array `$problem`, array `$weights` u003d ?):
 у разі використання масиву, дані повинні бути подані у вигляді
 масиву масивів, в якому кожен вкладений масив повинен першим
 елементом містити клас, а всі наступні елементи містити пари
-"ознака" u003d "значення".
+"ознака" = "значення".
 
 `weights`
 Необов'язковий набір вагових коефіцієнтів для різних класів,

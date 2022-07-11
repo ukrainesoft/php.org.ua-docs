@@ -7,7 +7,7 @@
 
 # Ds\Pair::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Pair::toArray — Перетворює пару на масив (array)
 
@@ -33,13 +33,13 @@ public **Ds\Pair::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Pair::toArray()****
 
-` <?php$pair u003d new \Ds\Pair("a", 1);var_dump($pair->toArray());?> `
+` <?php$pair = new \Ds\Pair("a", 1);var_dump($pair->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["key"]u003d>
+["key"]=>
 string(1) "a"
-["value"]u003d>
+["value"]=>
 int(1)
 }

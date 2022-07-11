@@ -7,7 +7,7 @@
 
 # wkhtmltox\Image\Converter::getVersion
 
-(wkhtmltox \>u003d 0.3.2)
+(wkhtmltox \>= 0.3.2)
 
 wkhtmltox\Image\Converter::getVersion — Визначити версію конвертера
 

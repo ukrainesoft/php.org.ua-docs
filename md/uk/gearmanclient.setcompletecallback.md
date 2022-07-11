@@ -7,7 +7,7 @@
 
 # GearmanClient::setCompleteCallback
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setCompleteCallback — Встановіть функцію, яка буде
 викликана після завершення завдання

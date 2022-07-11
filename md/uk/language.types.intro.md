@@ -46,7 +46,7 @@ PHP підтримує десять найпростіших типів.
 > [gettype()](function.gettype.md), використовуйте для цього функції
 > `is_type`. Ось кілька прикладів:
 >
-> `<?php$a_bool u003d TRUE; // логічний$a_str u003d "foo"; // рядковий$a_str2 u003d 'foo'; // рядковий$an_int u003d 12; // цілочисленнийecho gettype($a_bool); // виводить: booleanecho gettype ($ a_str); // виводить: string// Якщо це ціле, збільшити на чотириif| ($a_bool)) {   echo "Рядок: $a_bool";}?> `
+> `<?php$a_bool = TRUE; // логічний$a_str = "foo"; // рядковий$a_str2 = 'foo'; // рядковий$an_int = 12; // цілочисленнийecho gettype($a_bool); // виводить: booleanecho gettype ($ a_str); // виводить: string// Якщо це ціле, збільшити на чотириif| ($a_bool)) {   echo "Рядок: $a_bool";}?> `
 
 Якщо ви хочете примусово змінити тип змінної, ви можете або
 [привести](language.types.type-juggling.md#language.types.typecasting)

@@ -7,7 +7,7 @@
 
 #cubrid_field_table
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_field_table — Отримати ім'я таблиці, до якої належить зазначений
 стовпець
@@ -41,8 +41,8 @@ cubrid_field_table — Отримати ім'я таблиці, до якої н
 
 **Приклад #1 Приклад використання **cubrid_field_table()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$result u003d cubrid_execute($conn, "SELECT * FROM code");$col_num u003d cubrid_num 15s%-15s%s
-", "Таблиця поля", "Найменування поля", "Тип поля");for($i u003d 0; $i < $col_num; $i++) {    printf("%-15s %-%s
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT * FROM code");$col_num = cubrid_num 15s%-15s%s
+", "Таблиця поля", "Найменування поля", "Тип поля");for($i = 0; $i < $col_num; $i++) {    printf("%-15s %-%s
 ",       cubrid_field_table($result, $i), cubrid_field_name($result, $i), cubrid_field_type($result, $i));}cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

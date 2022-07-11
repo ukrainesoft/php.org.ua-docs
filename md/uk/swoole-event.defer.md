@@ -7,7 +7,7 @@
 
 # Swoole\Event::defer
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Event::defer — Додає callback-функцію до наступного циклу
 подій

@@ -7,7 +7,7 @@
 
 # Gmagick::drawimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::drawimage — Відображає об'єкт GmagickDraw на поточному
 зображенні

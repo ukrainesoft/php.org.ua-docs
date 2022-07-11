@@ -22,7 +22,7 @@ mysql_error — Повертає текст помилки останньої о
 
 ### Опис
 
-**mysql_error**(resource `$link_identifier` u003d NULL): string
+**mysql_error**(resource `$link_identifier` = NULL): string
 
 Повертає текст помилки виконання останньої функції MySQL. Помилки
 роботи з MySQL більше не викликають повідомлень у PHP. Замість цього
@@ -52,7 +52,7 @@ mysql_error — Повертає текст помилки останньої о
 
 **Приклад #1 Приклад використання **mysql_error()****
 
-` <?php$link u003d mysql_connect("localhost", "mysql_user", "mysql_password"); mysql_select_db("nonexistentdb", $link);echo mysql_errno($link) . ": " . mysql_error($link). "
+` <?php$link = mysql_connect("localhost", "mysql_user", "mysql_password"); mysql_select_db("nonexistentdb", $link);echo mysql_errno($link) . ": " . mysql_error($link). "
 ";mysql_select_db("kossu", $link);mysql_query("SELECT * FROM nonexistenttable", $link);echo mysql_errno($link) . ": " . mysql_error($link) . "
 ";?> `
 

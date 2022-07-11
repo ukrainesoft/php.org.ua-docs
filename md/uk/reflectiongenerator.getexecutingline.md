@@ -31,7 +31,7 @@ public **ReflectionGenerator::getExecutingLine**(): int
 **Приклад #1 Приклад використання
 **ReflectionGenerator::getExecutingLine()****
 
-` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen u003d (new GenExample)->gen();$reflectionGenu003du003dnew ReflectionGenerator($gen);echo "Рядок: {$reflectionGen->getExecutingLine()}"; `
+` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen = (new GenExample)->gen();$reflectionGen==new ReflectionGenerator($gen);echo "Рядок: {$reflectionGen->getExecutingLine()}"; `
 
 Результатом виконання цього прикладу буде щось подібне:
 

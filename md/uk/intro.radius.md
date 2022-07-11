@@ -19,6 +19,6 @@ User Service) із FreeBSD. Він дозволяє проводити облі�
 > **Примітка**:
 >
 > Детальний опис бібліотеки libradius можна знайти
-> [»тут](http://www.freebsd.org/cgi/man.cgi?queryu003dlibradius). Детальна
+> [»тут](http://www.freebsd.org/cgi/man.cgi?query=libradius). Детальна
 > інформація про файл конфігурації лежить
-> [»тут](http://www.freebsd.org/cgi/man.cgi?queryu003dradius.conf).
+> [»тут](http://www.freebsd.org/cgi/man.cgi?query=radius.conf).

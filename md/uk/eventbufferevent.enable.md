@@ -7,7 +7,7 @@
 
 # EventBufferEvent::enable
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::enable — Включає читання, запис або і те, й інше
 події буфера

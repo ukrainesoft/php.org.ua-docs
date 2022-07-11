@@ -7,13 +7,13 @@
 
 # GearmanWorker::addServers
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::addServers — Додавання серверів завдань
 
 ### Опис
 
-public **GearmanWorker::addServers**(string `$servers` u003d
+public **GearmanWorker::addServers**(string `$servers` =
 127.0.0.1:4730): bool
 
 Додає один або кілька серверів завдань у цей обробник.
@@ -37,7 +37,7 @@ public **GearmanWorker::addServers**(string `$servers` u003d
 
 **Приклад #1 Додавання двох серверів завдань**
 
-` <?php$workeru003d new GearmanWorker();$worker->addServers("10.0.0.1,10.0.0.2:7003");?> `
+` <?php$worker= new GearmanWorker();$worker->addServers("10.0.0.1,10.0.0.2:7003");?> `
 
 ### Дивіться також
 

@@ -7,17 +7,17 @@
 
 # V8Js::\_\_construct
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 V8Js::\_\_construct — Створює новий об'єкт [V8Js](class.v8js.md)
 
 ### Опис
 
 public **V8Js::\_\_construct**(
-string `$object_name` u003d "PHP",
-array `$variables` u003d array(),
-array `$extensions` u003d array(),
-bool `$report_uncaught_exceptions` u003d **`true`**
+string `$object_name` = "PHP",
+array `$variables` = array(),
+array `$extensions` = array(),
+bool `$report_uncaught_exceptions` = **`true`**
 )
 
 Створює новий об'єкт [V8Js](class.v8js.md).
@@ -30,7 +30,7 @@ bool `$report_uncaught_exceptions` u003d **`true`**
 `variables`
 Список змінних PHP, які мають бути доступні у Javascript.
 Асоціативний масив формату
-`array("name-for-js" u003d> "name-of-php-variable")`. За замовчуванням порожній
+`array("name-for-js" => "name-of-php-variable")`. За замовчуванням порожній
 масив.
 
 `extensions`

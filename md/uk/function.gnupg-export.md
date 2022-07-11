@@ -7,7 +7,7 @@
 
 #gnupg_export
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_export — Експортує ключ
 
@@ -36,9 +36,9 @@ gnupg_export — Експортує ключ
 **Приклад #1 Приклад використання **gnupg_export()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();$export u003d gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");echo $export;?> `
+` <?php$res = gnupg_init();$export = gnupg_export($res, "8660281B6051D071D94B5B230549F9DC851566DC");echo $export;?> `
 
 **Приклад #2 Приклад використання **gnupg_export()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$export u003d $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");?> `
+` <?php$gpg = new gnupg();$export = $gpg->export("8660281B6051D071D94B5B230549F9DC851566DC");?> `

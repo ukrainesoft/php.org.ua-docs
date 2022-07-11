@@ -34,7 +34,7 @@ sqlsrv_close — Закриває відкрите з'єднання та зві
 
 **Приклад #1 Приклад використання **sqlsrv_close()****
 
-` <?php$serverName u003d "serverName\sqlexpres";$connOptions u003d array("UID"u003d>"username", "PWD"u003d>"password", "Database"u003d>"dbname");$conn u003d sqlsrv_connect ( $serverName, $connOptions );if( $conn u003du003du003d false ) {    die( print_r( sqlsrv_errors(), true));}//----------------- --------------------// Виконання операцій з базою даних.//-------------------- -----------------// Закриття з'єднання.sqlsrv_close( $conn );?> `
+` <?php$serverName = "serverName\sqlexpres";$connOptions = array("UID"=>"username", "PWD"=>"password", "Database"=>"dbname");$conn = sqlsrv_connect ( $serverName, $connOptions );if( $conn === false ) {    die( print_r( sqlsrv_errors(), true));}//----------------- --------------------// Виконання операцій з базою даних.//-------------------- -----------------// Закриття з'єднання.sqlsrv_close( $conn );?> `
 
 ### Дивіться також
 

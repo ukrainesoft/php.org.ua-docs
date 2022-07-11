@@ -7,7 +7,7 @@
 
 # Memcached::resetServerList
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::resetServerList — Очищає список серверів
 

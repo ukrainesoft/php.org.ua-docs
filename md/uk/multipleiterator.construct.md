@@ -7,13 +7,13 @@
 
 # MultipleIterator::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::\_\_construct — Створює новий MultipleIterator
 
 ### Опис
 
-public **MultipleIterator::\_\_construct**(int `$flags` u003d
+public **MultipleIterator::\_\_construct**(int `$flags` =
 MultipleIterator::MIT_NEED_ALL \| MultipleIterator::MIT_KEYS_NUMERIC)
 
 Створює новий MultipleIterator.
@@ -35,88 +35,88 @@ MultipleIterator::MIT_NEED_ALL \| MultipleIterator::MIT_KEYS_NUMERIC)
 
 **Приклад #1 Ітерування MultipleIterator**
 
-` <?php$people u003d new ArrayIterator(array('John', 'Jane', 'Jack', 'Judy'));$roles u003d new ArrayIterator(array('Developer', Scrum '));$team u003d new MultipleIterator($flags);$team->attachIterator($people, 'person');$team->attachIterator($roles, 'role');foreach ($team as $member) {   print_r($member);}?> `
+` <?php$people = new ArrayIterator(array('John', 'Jane', 'Jack', 'Judy'));$roles = new ArrayIterator(array('Developer', Scrum '));$team = new MultipleIterator($flags);$team->attachIterator($people, 'person');$team->attachIterator($roles, 'role');foreach ($team as $member) {   print_r($member);}?> `
 
-Висновок з $flags u003d MIT_NEED_ALL|MIT_KEYS_NUMERIC`
-
-Array
-(
-[0] u003d> John
-[1] u003d> Developer
-)
-Array
-(
-[0] u003d> Jane
-[1] u003d> Scrum Master
-)
-Array
-(
-[0] u003d> Jack
-[1] u003d> Project Owner
-)
-
-Висновок з $flags u003d MIT_NEED_ANY|MIT_KEYS_NUMERIC`
+Висновок з $flags = MIT_NEED_ALL|MIT_KEYS_NUMERIC`
 
 Array
 (
-[0] u003d> John
-[1] u003d> Developer
+[0] => John
+[1] => Developer
 )
 Array
 (
-[0] u003d> Jane
-[1] u003d> Scrum Master
+[0] => Jane
+[1] => Scrum Master
 )
 Array
 (
-[0] u003d> Jack
-[1] u003d> Project Owner
-)
-Array
-(
-[0] u003d> Judy
-[1] u003d>
+[0] => Jack
+[1] => Project Owner
 )
 
-Висновок з $flags u003d MIT_NEED_ALL | MIT_KEYS_ASSOC
+Висновок з $flags = MIT_NEED_ANY|MIT_KEYS_NUMERIC`
 
 Array
 (
-[person] u003d> John
-[Role] u003d> Developer
+[0] => John
+[1] => Developer
 )
 Array
 (
-[person] u003d> Jane
-[Role] u003d> Scrum Master
+[0] => Jane
+[1] => Scrum Master
 )
 Array
 (
-[person] u003d> Jack
-[Role] u003d> Project Owner
+[0] => Jack
+[1] => Project Owner
+)
+Array
+(
+[0] => Judy
+[1] =>
 )
 
-Висновок з $flags u003d MIT_NEED_ANY | MIT_KEYS_ASSOC
+Висновок з $flags = MIT_NEED_ALL | MIT_KEYS_ASSOC
 
 Array
 (
-[person] u003d> John
-[Role] u003d> Developer
+[person] => John
+[Role] => Developer
 )
 Array
 (
-[person] u003d> Jane
-[Role] u003d> Scrum Master
+[person] => Jane
+[Role] => Scrum Master
 )
 Array
 (
-[person] u003d> Jack
-[Role] u003d> Project Owner
+[person] => Jack
+[Role] => Project Owner
+)
+
+Висновок з $flags = MIT_NEED_ANY | MIT_KEYS_ASSOC
+
+Array
+(
+[person] => John
+[Role] => Developer
 )
 Array
 (
-[person] u003d> Judy
-[role] u003d>
+[person] => Jane
+[Role] => Scrum Master
+)
+Array
+(
+[person] => Jack
+[Role] => Project Owner
+)
+Array
+(
+[person] => Judy
+[role] =>
 )
 
 ### Дивіться також

@@ -7,13 +7,13 @@
 
 #win32_create_service
 
-(PECL win32service \>u003d0.1.0)
+(PECL win32service \>=0.1.0)
 
 win32_create_service — Створює новий запис служби у базі даних SCM
 
 ### Опис
 
-**win32_create_service**(array `$details`, string `$machine` u003d ?): void
+**win32_create_service**(array `$details`, string `$machine` = ?): void
 
 Спробує додати службу до бази даних SCM. Для цього потрібні права
 адміністратора.
@@ -196,12 +196,12 @@ PHP.
 
 ### Список змін
 
-| Версія                                                                                                                                                                                      | Опис                                                                                                                                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **`false`**.                                                    |                                                                                                                                                                                                             |
-| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                                                                                                                                                                                             |
-| PECL win32service 1.0.0 Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                    |                                                                                                                                                                                                             |
-| PECL win32service 0.4.0                                                                                                                                                                     | Додані параметри `dependencies`, `recovery_delay`, `recovery_action_1`, `recovery_action_2`, `recovery_action_3`, `recovery_reset_period`, `recovery_enabled`, `recovery_reboot_msg` та `recovery_command`. |
+| Версія                                                                                                                                                                                      | Опис                                                                                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **false**.                                                      |                                                                                                                                                                                           |                                                                                                                                                                                                             
+| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                                                                                                                                                                           |
+| PECL win32service 1.0.0 Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                    |                                                                                                                                                                                           |
+| PECL win32service 0.4.0                                                                                                                                                                     | Додані параметри dependencies, recovery_delay, recovery_action_1, recovery_action_2, recovery_action_3, recovery_reset_period, recovery_enabled, recovery_reboot_msg та recovery_command. |
 
 ### Приклади
 
@@ -209,14 +209,14 @@ PHP.
 
 Створення сервісу з короткою назвою dummyphp.
 
-` <?php$x u003d win32_create_service(array(    'service'     u003d> 'dummyphp',                                           // название сервиса    'display'     u003d> 'sample dummy PHP service',                           // краткое описание    'description' u003d> 'This is a dummy Windows service created using PHP.', // полное описание    'params'      u003d> '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров));debug_zval_dump($x);?> `
+` <?php$x = win32_create_service(array(    'service'     => 'dummyphp',                                           // название сервиса    'display'     => 'sample dummy PHP service',                           // краткое описание    'description' => 'This is a dummy Windows service created using PHP.', // полное описание    'params'      => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров));debug_zval_dump($x);?> `
 
 **Приклад #2 Приклад використання **win32_create_service()** з
 залежностями**
 
 Створення сервісу з короткою назвою 'dummyphp' та залежностями.
 
-` <?php$x u003d win32_create_service(array(    'service'      u003d> 'dummyphp',                                           // название сервиса    'display'      u003d> 'sample dummy PHP service',                           // краткое описание    'description'  u003d> 'This is a dummy Windows service created using PHP.', // полное описание    'params'       u003d> '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров    'dependencies' u003d> array("Netman"),                                      // список залежностей)); debug_zval_dump($x);?> `
+` <?php$x = win32_create_service(array(    'service'      => 'dummyphp',                                           // название сервиса    'display'      => 'sample dummy PHP service',                           // краткое описание    'description'  => 'This is a dummy Windows service created using PHP.', // полное описание    'params'       => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров    'dependencies' => array("Netman"),                                      // список залежностей)); debug_zval_dump($x);?> `
 
 **Приклад #3 Приклад використання **win32_create_service()** з
 відновленням**
@@ -224,7 +224,7 @@ PHP.
 Створення сервісу з короткою назвою 'dummyphp' та налаштуваннями
 відновлення.
 
-` <?php$x u003d win32_create_service(array(    'service'               u003d> 'dummyphp',                                           // название сервиса    'display'               u003d> 'sample dummy PHP service',                           // краткое описание    'description'           u003d> 'This is a dummy Windows service created using PHP.', // полное описание    'params'                u003d> '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров    'recovery_delay'        u003d> 120000,                                               // Действие восстановления выполняется через 2 минуты .    'recovery_action_1'     u003d> WIN32_SC_ACTION_RESTART,                              // При первом сбое перезапускается служба.    'recovery_action_2'     u003d> WIN32_SC_ACTION_RUN_COMMAND,                          // При втором сбое выполняется команда    'recovery_action_3'     u003d> WIN32_SC_ACTION_NONE,                                 // При последующих сбоях ничего не делать    'recovery_reset _period' u003d> 86400,                                                // Сбросить счётчик ошибок через 1 день    'recovery_enabled'      u003d> true,                                                 // Включить параметр восстановления    'recovery_reboot_msg'   u003d> null,                                                 // Не определяйте сообщение о перезагрузке, здесь оно не нужно    'recovery_command'      u003d> "c
+` <?php$x = win32_create_service(array(    'service'               => 'dummyphp',                                           // название сервиса    'display'               => 'sample dummy PHP service',                           // краткое описание    'description'           => 'This is a dummy Windows service created using PHP.', // полное описание    'params'                => '"' . __FILE__ . '"  run',                            // путь до скрипта и параметров    'recovery_delay'        => 120000,                                               // Действие восстановления выполняется через 2 минуты .    'recovery_action_1'     => WIN32_SC_ACTION_RESTART,                              // При первом сбое перезапускается служба.    'recovery_action_2'     => WIN32_SC_ACTION_RUN_COMMAND,                          // При втором сбое выполняется команда    'recovery_action_3'     => WIN32_SC_ACTION_NONE,                                 // При последующих сбоях ничего не делать    'recovery_reset _period' => 86400,                                                // Сбросить счётчик ошибок через 1 день    'recovery_enabled'      => true,                                                 // Включить параметр восстановления    'recovery_reboot_msg'   => null,                                                 // Не определяйте сообщение о перезагрузке, здесь оно не нужно    'recovery_command'      => "c
 
 ### Дивіться також
 

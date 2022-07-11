@@ -7,7 +7,7 @@
 
 # APCUIterator::\_\_construct
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 APCUIterator::\_\_construct — Створює об'єкт ітератора класу
 APCUIterator
@@ -15,10 +15,10 @@ APCUIterator
 ### Опис
 
 public **APCUIterator::\_\_construct**(
-array\|string\|null `$search` u003d **`null`**,
-int `$format` u003d APC_ITER_ALL,
-int `$chunk_size` u003d 100,
-int `$list` u003d APC_LIST_ACTIVE
+array\|string\|null `$search` = **`null`**,
+int `$format` = APC_ITER_ALL,
+int `$chunk_size` = 100,
+int `$list` = APC_LIST_ACTIVE
 )
 
 Створює об'єкт [APCUIterator](class.apcuiterator.md).

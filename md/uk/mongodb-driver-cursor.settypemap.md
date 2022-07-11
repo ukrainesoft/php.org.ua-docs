@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::setTypeMap
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Cursor::setTypeMap — Встановлює карту типу для
 десеріалізації BSON
@@ -48,17 +48,17 @@ void
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Cursor::setTypeMap()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk u003d new MongoDB\Driver\BulkWrite;$id u003d $bulk->insert(['x' u003d> 1]);$manager->executeBulkWrite('db.collection', $bulk);$query u003d new MongoDB\Driver\Query(['_id' u003d> $id]);$cursor u003d $manager->executeQuery( 'db.collection', $query);$cursor->setTypeMap(['root' u003d> 'array']);foreach ($cursor as $document) {   var_dump($document);}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk = new MongoDB\Driver\BulkWrite;$id = $bulk->insert(['x' => 1]);$manager->executeBulkWrite('db.collection', $bulk);$query = new MongoDB\Driver\Query(['_id' => $id]);$cursor = $manager->executeQuery( 'db.collection', $query);$cursor->setTypeMap(['root' => 'array']);foreach ($cursor as $document) {   var_dump($document);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["_id"]u003d>
+["_id"]=>
 object(MongoDB\BSON\ObjectId)#6 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "56424fb76118fd3267180741"
 }
-["x"]u003d>
+["x"]=>
 int(1)
 }
 

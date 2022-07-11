@@ -7,7 +7,7 @@
 
 #scoutapm_get_calls
 
-(PECL scoutapm \>u003d 1.0.0)
+(PECL scoutapm \>= 1.0.0)
 
 scoutapm_get_calls — Повертає список дзвінків, що відбулися
 
@@ -38,28 +38,28 @@ scoutapm_get_calls — Повертає список дзвінків, що ві
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[function] u003d> file_get_contents
-[entered] u003d> 1576839727.7934
-[exited] u003d> 1576839727.7935
-[time_taken] u003d> 2.7894973754883E-5
-[argv] u003d> Array
+[function] => file_get_contents
+[entered] => 1576839727.7934
+[exited] => 1576839727.7935
+[time_taken] => 2.7894973754883E-5
+[argv] => Array
 (
-[0] u003d> a.txt
+[0] => a.txt
 )
 
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[function] u003d> file_get_contents
-[entered] u003d> 1576839727.7935
-[exited] u003d> 1576839727.7935
-[time_taken] u003d> 7.8678131103516E-6
-[argv] u003d> Array
+[function] => file_get_contents
+[entered] => 1576839727.7935
+[exited] => 1576839727.7935
+[time_taken] => 7.8678131103516E-6
+[argv] => Array
 (
-[0] u003d> b.txt
+[0] => b.txt
 )
 
 )

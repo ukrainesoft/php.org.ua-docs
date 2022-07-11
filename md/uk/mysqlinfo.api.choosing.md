@@ -15,7 +15,7 @@ PHP надає різні API для доступу до MySQL. Нижче по�
 
 **Приклад #1 Порівняння MySQL API**
 
-` <?php// mysqli$mysqli u003d new mysqli("example.com", "user", "password", "database"); ' AS _message FROM DUAL");$row u003d $result->fetch_assoc();echo htmlentities($row['_message']);// PDO$pdo u003d new PDO('mysql:hostu003dexample.com;db u003ddatabase', 'user', 'password');$statement u003d $pdo->query("SELECT 'Привіт, дорогий користувач MySQL!' AS _message FROM DUAL");$row u003d $statement-> :FETCH_ASSOC);echo htmlentities($row['_message']);?> `
+` <?php// mysqli$mysqli = new mysqli("example.com", "user", "password", "database"); ' AS _message FROM DUAL");$row = $result->fetch_assoc();echo htmlentities($row['_message']);// PDO$pdo = new PDO('mysql:host=example.com;db =database', 'user', 'password');$statement = $pdo->query("SELECT 'Привіт, дорогий користувач MySQL!' AS _message FROM DUAL");$row = $statement-> :FETCH_ASSOC);echo htmlentities($row['_message']);?> `
 
 *Порівняння можливостей*
 

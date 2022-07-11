@@ -32,7 +32,7 @@ public **ReflectionClass::isInternal**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isInternal()****
 
-` <?php$internalclass u003d new ReflectionClass('ReflectionClass');class Apple {}$userclass u003d new ReflectionClass('Apple');var_dump($internalclass->isInternal());var_dump($userclass->isInternal() );?> `
+` <?php$internalclass = new ReflectionClass('ReflectionClass');class Apple {}$userclass = new ReflectionClass('Apple');var_dump($internalclass->isInternal());var_dump($userclass->isInternal() );?> `
 
 Результат виконання цього прикладу:
 

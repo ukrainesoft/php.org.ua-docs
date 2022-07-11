@@ -8,7 +8,7 @@
 
 # GmagickDraw::getstrokewidth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getstrokewidth — Повертає ширину обведення, що використовується
 для відображення контурів об'єкта

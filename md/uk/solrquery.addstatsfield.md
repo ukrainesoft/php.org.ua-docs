@@ -7,7 +7,7 @@
 
 # SolrQuery::addStatsField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addStatsField — Відповідає параметру stats.field
 

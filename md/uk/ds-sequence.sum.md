@@ -7,7 +7,7 @@
 
 # Ds\Sequence::sum
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::sum — Повертає суму всіх значень колекції
 
@@ -35,7 +35,7 @@ abstract public **Ds\Sequence::sum**(): int\|float
 **Приклад #1 Приклад використання **Ds\Sequence::sum()** з цілими
 значеннями**
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->sum());?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -44,7 +44,7 @@ int(6)
 **Приклад #2 Приклад використання **Ds\Sequence::sum()** зі значеннями
 типу float**
 
-` <?php$sequence u003d new \Ds\Vector([1, 2.5, 3]);var_dump($sequence->sum());?> `
+` <?php$sequence = new \Ds\Vector([1, 2.5, 3]);var_dump($sequence->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

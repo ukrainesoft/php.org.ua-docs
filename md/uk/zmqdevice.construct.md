@@ -7,7 +7,7 @@
 
 # ZMQDevice::\_\_construct
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQDevice::\_\_construct — Створює новий пристрій
 
@@ -15,7 +15,7 @@ ZMQDevice::\_\_construct — Створює новий пристрій
 
 public **ZMQDevice::\_\_construct**([ZMQSocket](class.zmqsocket.md)
 `$frontend`, [ZMQSocket](class.zmqsocket.md) `$backend`,
-[ZMQSocket](class.zmqsocket.md) `$listener` u003d ?)
+[ZMQSocket](class.zmqsocket.md) `$listener` = ?)
 
 Пристрої ØMQ можуть представляти адреси, служби, черги або будь-яку
 іншу абстракцію, яку ви хочете визначити над шарами повідомлень та

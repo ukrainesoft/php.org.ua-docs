@@ -7,13 +7,13 @@
 
 # Imagick::colorMatrixImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::colorMatrixImage — Застосовує перетворення кольору до зображення
 
 ### Опис
 
-public **Imagick::colorMatrixImage**(array `$color_matrix` u003d
+public **Imagick::colorMatrixImage**(array `$color_matrix` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Застосовує перетворення кольору до зображення. Цей метод дозволяє
@@ -37,4 +37,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::colorMatrixImage()****
 
-`<?phpfunction colorMatrixImage($imagePath, $colorMatrix) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->setImageOpacity(1); //Цветовая матрица должна выглядеть так:    //    $colorMatrix u003d [    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0 //    ]; $backgroundu003dNewImagick(); $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(), "pattern:checkerboard"); $background->setImageFormat('png'); $imagick->setImageFormat('png'); $imagick->colorMatrixImage($colorMatrix); $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/png"); echo $background->getImageBlob();}?> `
+`<?phpfunction colorMatrixImage($imagePath, $colorMatrix) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageOpacity(1); //Цветовая матрица должна выглядеть так:    //    $colorMatrix = [    //        1.5, 0.0, 0.0, 0.0, 0.0, -0.157,    //        0.0, 1.0, 0.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 1.5, 0.0, 0.0, -0.157,    //        0.0, 0.0, 0.0, 1.0, 0.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 1.0,  0.0,    //        0.0, 0.0, 0.0, 0.0, 0.0,  1.0 //    ]; $background=NewImagick(); $background->newPseudoImage($imagick->getImageWidth(), $imagick->getImageHeight(), "pattern:checkerboard"); $background->setImageFormat('png'); $imagick->setImageFormat('png'); $imagick->colorMatrixImage($colorMatrix); $background->compositeImage($imagick, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/png"); echo $background->getImageBlob();}?> `

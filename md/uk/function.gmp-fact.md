@@ -7,7 +7,7 @@
 
 #gmp_fact
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_fact - Факторіал
 
@@ -34,8 +34,8 @@ gmp_fact - Факторіал
 
 **Приклад #1 Приклад використання **gmp_fact()****
 
-`<?php$fact1 u003d gmp_fact(5); // 5 * 4 * 3 * 2 * 1echo gmp_strval($fact1) . "
-";$fact2 u003d gmp_fact(50); // 50 * 49 * 48, ... і т.д.echo gmp_strval($fact2) . "
+`<?php$fact1 = gmp_fact(5); // 5 * 4 * 3 * 2 * 1echo gmp_strval($fact1) . "
+";$fact2 = gmp_fact(50); // 50 * 49 * 48, ... і т.д.echo gmp_strval($fact2) . "
 ";?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # XMLDiff\Memory::merge
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 XMLDiff\Memory::merge — Застосувати зміни до документа XML
 

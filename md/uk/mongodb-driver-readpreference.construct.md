@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\ReadPreference::\_\_construct - Створити новий
 ReadPreference
@@ -16,7 +16,7 @@ ReadPreference
 
 final public
 **MongoDB\Driver\ReadPreference::\_\_construct**(string\|int `$mode`,
-array `$tagSets` u003d **`null`**, array `$options` u003d array())
+array `$tagSets` = **`null`**, array `$options` = array())
 
 Створює новий
 [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md),
@@ -25,13 +25,13 @@ array `$tagSets` u003d **`null`**, array `$options` u003d array())
 ### Список параметрів
 
 `mode`
-| Значення | Опис |
-|------------------------------------------------- ---------------------------------------|---------- -------------------------------------------------- -------------------------------------------------- ---------------------------------|
-| **`MongoDB\Driver\ReadPreference::RP_PRIMARY`** or `"primary"` | Усі операції зчитується з первинного вузла набору реплік. Це перевага для читання за промовчанням для MongoDB. |
-| **`MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED`** or `"primaryPreferred"` | У більшості ситуацій операції зчитуються з первинного вузла, але якщо він недоступний, операції зчитуються з вторинних вузлів. |
-| **`MongoDB\Driver\ReadPreference::RP_SECONDARY`** або `"secondary"` | Усі операції зчитуються із вторинних вузлів набору реплік. |
-| **`MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED`** або `"secondaryPreferred"` | Більшість ситуацій операції зчитуються з вторинних членів, але якщо вторинні члени недоступні, операції зчитуються з первинного вузла. |
-| **`MongoDB\Driver\ReadPreference::RP_NEAREST`** or `"nearest"` | Операції зчитуються з члена набору реплік із найменшою затримкою мережі незалежно від типу члена. |
+| Значення                                                                           | Опис                                                                                                                                   |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| **MongoDB\Driver\ReadPreference::RP_PRIMARY** or "primary"                         | Усі операції зчитується з первинного вузла набору реплік. Це перевага для читання за промовчанням для MongoDB.                         |                                                                                                                                        
+| **MongoDB\Driver\ReadPreference::RP_PRIMARY_PREFERRED** or "primaryPreferred"      | У більшості ситуацій операції зчитуються з первинного вузла, але якщо він недоступний, операції зчитуються з вторинних вузлів.         |
+| **MongoDB\Driver\ReadPreference::RP_SECONDARY** або "secondary"                    | Усі операції зчитуються із вторинних вузлів набору реплік.                                                                             |
+| **MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED** або "secondaryPreferred" | Більшість ситуацій операції зчитуються з вторинних членів, але якщо вторинні члени недоступні, операції зчитуються з первинного вузла. |
+| **MongoDB\Driver\ReadPreference::RP_NEAREST** or "nearest"                         | Операції зчитуються з члена набору реплік із найменшою затримкою мережі незалежно від типу члена.                                      |
 
 **Режим переваги читання**
 
@@ -72,49 +72,49 @@ sets. Порожній набір тегів (`array()`) буде відпові
 
 ### Список змін
 
-| Версія             | Опис                                                                                                                                                                            |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.8.0 | Доданий параметр ``hedge'`.                                                                                                                                                     |
-| PECL mongodb 1.3.0 | Аргумент `mode` тепер приймає рядкове значення, яке відповідає URI-опції ``readPreference'` для [MongoDB\Driver\Manager::\_\_construct()](mongodb-driver-manager.construct.md). |
-| PECL mongodb 1.2.0 | Доданий третій аргумент `options`, який підтримує параметр `maxStalenessSeconds`.                                                                                               |
+| Версія             | Опис                                                                                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.8.0 | Доданий параметр hedge'.                                                                                                                                                   |
+| PECL mongodb 1.3.0 | Аргумент mode тепер приймає рядкове значення, яке відповідає URI-опції readPreference' для [MongoDB\Driver\Manager::\_\_construct()](mongodb-driver-manager.construct.md). |
+| PECL mongodb 1.2.0 | Доданий третій аргумент options, який підтримує параметр maxStalenessSeconds.                                                                                              |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadPreference::\_\_construct()****
 
-`<?php/* Вважати перевагу вторинний вузол, але у випадку відмови відступити до первинному. */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED));/* Переважати вузол в Нью-Йоркському центрі обробки даних з мінімальною затримкою. */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_NEAREST, [['dc' u003d> 'ny']]));); основного */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['maxStalenessSeconds' u003d> 120]));/* Явно включити \ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['hedge' u003d> ['enabled' u003d> true]])));?> `
+`<?php/* Вважати перевагу вторинний вузол, але у випадку відмови відступити до первинному. */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED));/* Переважати вузол в Нью-Йоркському центрі обробки даних з мінімальною затримкою. */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_NEAREST, [['dc' => 'ny']]));); основного */var_dump(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['maxStalenessSeconds' => 120]));/* Явно включити \ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY, null, ['hedge' => ['enabled' => true]])));?> `
 
 Результат виконання цього прикладу:
 
 object(MongoDB\Driver\ReadPreference)#1 (1) {
-["mode"]u003d>
+["mode"]=>
 string(18) "secondaryPreferred"
 }
 object(MongoDB\Driver\ReadPreference)#1 (2) {
-["mode"]u003d>
+["mode"]=>
 string(7) "nearest"
-["tags"]u003d>
+["tags"]=>
 array(1) {
-[0]u003d>
+[0]=>
 object(stdClass)#2 (1) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
 }
 }
 }
 object(MongoDB\Driver\ReadPreference)#1 (2) {
-["mode"]u003d>
+["mode"]=>
 string(9) "secondary"
-["maxStalenessSeconds"]u003d>
+["maxStalenessSeconds"]=>
 int(120)
 }
 object(MongoDB\Driver\ReadPreference)#1 (2) {
-["mode"]u003d>
+["mode"]=>
 string(9) "secondary"
-["hedge"]u003d>
+["hedge"]=>
 object(stdClass)#1 (1) {
-["enabled"]u003d>
+["enabled"]=>
 bool(true)
 }
 }

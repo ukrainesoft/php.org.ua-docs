@@ -32,11 +32,11 @@ public **mysql_xdevapi\Schema::getCollection**(string `$name`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::getCollection()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$schema u003d $session->getSchema("food");$schema->createCollection("trees");// ...$trees u003d $schema->getCollection ("trees"); var_dump($trees); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$schema = $session->getSchema("food");$schema->createCollection("trees");// ...$trees = $schema->getCollection ("trees"); var_dump($trees); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(mysql_xdevapi\Collection)#3 (1) {
-["name"]u003d>
+["name"]=>
 string(5) "trees"
 }

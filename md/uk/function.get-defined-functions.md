@@ -7,13 +7,13 @@
 
 #get_defined_functions
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 get_defined_functions — Повертає масив усіх функцій
 
 ### Опис
 
-**get_defined_functions**(bool `$exclude_disabled` u003d **`true`**): array
+**get_defined_functions**(bool `$exclude_disabled` = **`true`**): array
 
 Отримує масив усіх функцій.
 
@@ -32,39 +32,39 @@ get_defined_functions — Повертає масив усіх функцій
 
 ### Список змін
 
-| Версія        | Опис                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------ |
-| 8.0.0         | Значення параметра `exclude_disabled` за замовчуванням було змінено з **`false`** на **`true`**. |
-| 7.0.15, 7.1.1 | Доданий параметр `exclude_disabled`.                                                             |
+| Версія        | Опис                                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------ |
+| 8.0.0         | Значення параметра exclude_disabled за замовчуванням було змінено з **false** на **true**. |
+| 7.0.15, 7.1.1 | Доданий параметр exclude_disabled.                                                         |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **get_defined_functions()****
 
 ` <?phpfunction myrow($id, $data){    return "<tr><th>$id</th><td>$data</td></tr>
-";}$arr u003d get_defined_functions();print_r($arr);?> `
+";}$arr = get_defined_functions();print_r($arr);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[internal] u003d> Array
+[internal] => Array
 (
-[0] u003d> zend_version
-[1] u003d> func_num_args
-[2] u003d> func_get_arg
-[3] u003d> func_get_args
-[4] u003d> strlen
-[5] u003d> strcmp
-[6] u003d> strncmp
+[0] => zend_version
+[1] => func_num_args
+[2] => func_get_arg
+[3] => func_get_args
+[4] => strlen
+[5] => strcmp
+[6] => strncmp
 ...
-[750] u003d> bcscale
-[751] u003d> bccomp
+[750] => bcscale
+[751] => bccomp
 )
 
-[user] u003d> Array
+[user] => Array
 (
-[0] u003d> myrow
+[0] => myrow
 )
 
 )

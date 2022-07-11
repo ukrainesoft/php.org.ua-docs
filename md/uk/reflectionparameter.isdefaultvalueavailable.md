@@ -7,7 +7,7 @@
 
 # ReflectionParameter::isDefaultValueAvailable
 
-(PHP 5 \>u003d 5.0.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.3, PHP 7, PHP 8)
 
 ReflectionParameter::isDefaultValueAvailable — Перевіряє, чи є в наявності
 значення за замовчуванням

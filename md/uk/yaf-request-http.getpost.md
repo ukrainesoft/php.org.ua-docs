@@ -7,13 +7,13 @@
 
 # Yaf_Request_Http::getPost
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Http::getPost — Отримує змінну POST
 
 ### Опис
 
-public **Yaf_Request_Http::getPost**(string `$name`, string `$default` u003d
+public **Yaf_Request_Http::getPost**(string `$name`, string `$default` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

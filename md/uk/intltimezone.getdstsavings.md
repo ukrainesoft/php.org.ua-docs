@@ -10,7 +10,7 @@
 
 # intltz_get_dst_savings
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::getDSTSavings -- intltz_get_dst_savings — Отримати
 кількість мілісекунд, яку потрібно додати до місцевого поясного

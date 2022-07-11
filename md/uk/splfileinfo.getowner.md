@@ -7,7 +7,7 @@
 
 # SplFileInfo::getOwner
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getOwner — Отримує власника файлу
 
@@ -36,7 +36,7 @@ public **SplFileInfo::getOwner**(): int\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getOwner()****
 
-` <?php$info u003d new SplFileInfo('file.txt');print_r(posix_getpwuid($info->getOwner()));?> `
+` <?php$info = new SplFileInfo('file.txt');print_r(posix_getpwuid($info->getOwner()));?> `
 
 ### Дивіться також
 

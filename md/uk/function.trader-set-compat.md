@@ -7,7 +7,7 @@
 
 # trader_set_compat
 
-(PECL trader \>u003d 0.2.2)
+(PECL trader \>= 0.2.2)
 
 trader_set_compat — Встановлює режим сумісності
 

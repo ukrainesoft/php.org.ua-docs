@@ -13,7 +13,7 @@ Imagick::negateImage — Інвертує кольори до еталонног
 
 ### Опис
 
-public **Imagick::negateImage**(bool `$gray`, int `$channel` u003d
+public **Imagick::negateImage**(bool `$gray`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Інвертує кольори у еталонному зображенні. Параметр Grayscale означає,
@@ -43,4 +43,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::negateImage()****
 
-`<?phpfunction negateImage($imagePath, $grayOnly, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->negateImage($grayOnly, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction negateImage($imagePath, $grayOnly, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->negateImage($grayOnly, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

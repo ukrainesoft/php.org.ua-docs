@@ -38,7 +38,7 @@ public
 
 **Приклад #1 Перетворення на HTML файл**
 
-` <?php// Завантаження джерела XML$xml u003d new DOMDocument;$xml->load('collection.xml');$xsl u003d new DOMDocument;$xsl->load('collection.xsl');// На перетворення $procu003du003dnewXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xsl$proc->transformToURI($xml, 'file:///tmp/out.md');?> `
+` <?php// Завантаження джерела XML$xml = new DOMDocument;$xml->load('collection.xml');$xsl = new DOMDocument;$xsl->load('collection.xsl');// На перетворення $proc==newXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xsl$proc->transformToURI($xml, 'file:///tmp/out.md');?> `
 
 ### Дивіться також
 

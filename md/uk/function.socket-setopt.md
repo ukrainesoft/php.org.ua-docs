@@ -7,7 +7,7 @@
 
 # socket_setopt
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_setopt - Псевдонім
 [socket_set_option()](function.socket-set-option.md)

@@ -7,19 +7,19 @@
 
 # ErrorException::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ErrorException::\_\_construct — Створює виняток
 
 ### Опис
 
 public **ErrorException::\_\_construct**(
-string `$message` u003d "",
-int `$code` u003d 0,
-int `$severity` u003d **`E_ERROR`**,
-?string `$filename` u003d **`null`**,
-?int `$line` u003d **`null`**,
-?[Throwable](class.throwable.md) `$previous` u003d **`null`**
+string `$message` = "",
+int `$code` = 0,
+int `$severity` = **`E_ERROR`**,
+?string `$filename` = **`null`**,
+?int `$line` = **`null`**,
+?[Throwable](class.throwable.md) `$previous` = **`null`**
 )
 
 Створює виняток.
@@ -52,6 +52,6 @@ int `$severity` u003d **`E_ERROR`**,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `filename` та `line` тепер допускають значення null. Раніше їх значеннями за умовчанням були **`__FILE__`** та **`__LINE__`** відповідно. |
+| Версія | Опис                                                                                                                              |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | filename та line тепер допускають значення null. Раніше їх значеннями за умовчанням були **__FILE__** та **__LINE__** відповідно. |

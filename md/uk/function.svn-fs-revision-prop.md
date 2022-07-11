@@ -7,7 +7,7 @@
 
 # svn_fs_revision_prop
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_revision_prop — Повертає значення цієї властивості
 

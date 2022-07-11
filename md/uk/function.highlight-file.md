@@ -13,7 +13,7 @@ highlight_file — Підсвічування синтаксису файлу
 
 ### Опис
 
-**highlight_file**(string `$filename`, bool `$return` u003d **`false`**):
+**highlight_file**(string `$filename`, bool `$return` = **`false`**):
 string\|bool
 
 Виводить або повертає версію з підсвічуванням синтаксису коду,

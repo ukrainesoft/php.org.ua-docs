@@ -7,7 +7,7 @@
 
 # SolrDocument::offsetExists
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::offsetExists — Перевіряє, чи конкретне поле існує
 

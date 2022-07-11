@@ -7,13 +7,13 @@
 
 # SNMP::get
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::get — Отримує об'єкт SNMP
 
 ### Опис
 
-public **SNMP::get**(array\|string `$objectId`, bool `$preserveKeys` u003d
+public **SNMP::get**(array\|string `$objectId`, bool `$preserveKeys` =
 **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -57,27 +57,27 @@ public **SNMP::get**(array\|string `$objectId`, bool `$preserveKeys` u003d
 повертається рядкове значення або як одноелементний масив з
 асоціативним масивом як висновок.
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $sysdescru003du003d$session->get("sysDescr.0"); echo "$sysdescr
-";  $sysdescr u003d $session->get(array("sysDescr.0")); print_r($sysdescr);?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $sysdescr==$session->get("sysDescr.0"); echo "$sysdescr
+";  $sysdescr = $session->get(array("sysDescr.0")); print_r($sysdescr);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 STRING: Test server
 Array
 (
-[SNMPv2-MIB::sysDescr.0] u003d> STRING: Test server
+[SNMPv2-MIB::sysDescr.0] => STRING: Test server
 )
 
 **Приклад #2 Множинні об'єкти SNMP**
 
-` $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $resultsu003du003d$session->get(array("sysDescr.0", "sysName.0")); print_r($results); $session->close();`
+` $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $results==$session->get(array("sysDescr.0", "sysName.0")); print_r($results); $session->close();`
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[SNMPv2-MIB::sysDescr.0] u003d> STRING: Test server
-[SNMPv2-MIB::sysName.0] u003d> STRING: myhost.nodomain
+[SNMPv2-MIB::sysDescr.0] => STRING: Test server
+[SNMPv2-MIB::sysName.0] => STRING: myhost.nodomain
 )
 
 ### Дивіться також

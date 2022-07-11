@@ -23,7 +23,7 @@ mysql_create_db — Створює базу даних MySQL
 ### Опис
 
 **mysql_create_db**(string `$database_name`, resource `$link_identifier`
-u003d NULL): bool
+= NULL): bool
 
 **mysql_create_db()** намагається створити базу даних на сервері, з яким
 асоційований переданий дескриптор з'єднання.
@@ -55,7 +55,7 @@ u003d NULL): bool
 Переважно використовувати [mysql_query()](function.mysql-query.md)
 із SQL-запитом створення бази даних `CREATE DATABASE`.
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}$sql u003d    ';if (mysql_query($sql, $link)) {   echo "База my_db успішно створена
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}$sql =    ';if (mysql_query($sql, $link)) {   echo "База my_db успішно створена
 ";} else {    echo 'Помилка при створенні бази даних: ' . mysql_error() . ""
 ";}?> `
 

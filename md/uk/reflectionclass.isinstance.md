@@ -32,7 +32,7 @@ public **ReflectionClass::isInstance**(object `$object`): bool
 **Приклад #1 Приклад використання **ReflectionClass::isInstance()** та його
 аналогів**
 
-` <?php// Приклад використання$class u003d new ReflectionClass('Foo');if ($class->isInstance($arg)) {    echo "Yes";}// Аналогічно цьогоif ($ar   "Yes";}// Аналогічно цьомуif (is_a($arg, 'Foo')) {   echo "Yes";}?> `
+` <?php// Приклад використання$class = new ReflectionClass('Foo');if ($class->isInstance($arg)) {    echo "Yes";}// Аналогічно цьогоif ($ar   "Yes";}// Аналогічно цьомуif (is_a($arg, 'Foo')) {   echo "Yes";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

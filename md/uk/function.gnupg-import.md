@@ -7,7 +7,7 @@
 
 #gnupg_import
 
-(PECL gnupg \>u003d 0.3)
+(PECL gnupg \>= 0.3)
 
 gnupg_import — Імпортує ключ
 
@@ -37,9 +37,9 @@ gnupg_import — Імпортує ключ
 **Приклад #1 Приклад використання **gnupg_import()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();$info u003d gnupg_import($res,$keydata);print_r($info);?> `
+` <?php$res = gnupg_init();$info = gnupg_import($res,$keydata);print_r($info);?> `
 
 **Приклад #2 Приклад використання **gnupg_import()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$info u003d $gpg->import($keydata);print_r($info);?> `
+` <?php$gpg = new gnupg();$info = $gpg->import($keydata);print_r($info);?> `

@@ -7,7 +7,7 @@
 
 # opcache_is_script_cached
 
-(PHP 5 u003d 5.5.11, PHP 7, PHP 8, PECL ZendOpcache u003d 7.0.4)
+(PHP 5 = 5.5.11, PHP 7, PHP 8, PECL ZendOpcache = 7.0.4)
 
 opcache_is_script_cached — Перевіряє, чи закешовано скрипт в OPCache
 

@@ -7,7 +7,7 @@
 
 # GmagickPixel::setcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::setcolor — Задати колір
 

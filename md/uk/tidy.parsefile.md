@@ -9,7 +9,7 @@
 
 # tidy_parse_file
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::parseFile -- tidy_parse_file — Розбір розмітки у файлі або URI
 
@@ -19,18 +19,18 @@ tidy::parseFile -- tidy_parse_file — Розбір розмітки у файл
 
 public **tidy::parseFile**(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): bool
 
 Процедурний стиль
 
 **tidy_parse_file**(
 string `$filename`,
-array\|string\|null `$config` u003d **`null`**,
-?string `$encoding` u003d **`null`**,
-bool `$useIncludePath` u003d **`false`**
+array\|string\|null `$config` = **`null`**,
+?string `$encoding` = **`null`**,
+bool `$useIncludePath` = **`false`**
 ): [tidy](class.tidy.md)\|false
 
 Розбір одержаного файлу.
@@ -68,15 +68,15 @@ bool `$useIncludePath` u003d **`false`**
 
 ### Список змін
 
-| Версія | Опис                                                   |
-| ------ | ------------------------------------------------------ |
-| 8.0.0  | `config` та `encoding` тепер допускають значення null. |
+| Версія | Опис                                               |
+| ------ | -------------------------------------------------- |
+| 8.0.0  | config та encoding тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **tidy::parseFile()****
 
-` <?php$tidy u003d new tidy();$tidy->parseFile('file.md');$tidy->cleanRepair();if(!empty($tidy->errorBuffer)) {    echo "Виникли наступні помилки або попередження:
+` <?php$tidy = new tidy();$tidy->parseFile('file.md');$tidy->cleanRepair();if(!empty($tidy->errorBuffer)) {    echo "Виникли наступні помилки або попередження:
 ";   echo $tidy->errorBuffer;}?> `
 
 ### Дивіться також

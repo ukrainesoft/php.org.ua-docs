@@ -7,7 +7,7 @@
 
 # ZipArchive::isCompressionMethodSupported
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.19.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.19.0)
 
 ZipArchive::isCompressionMethodSupported — Перевіряє, чи підтримується
 метод стиснення libzip
@@ -15,7 +15,7 @@ ZipArchive::isCompressionMethodSupported — Перевіряє, чи підтр
 ### Опис
 
 public static **ZipArchive::isCompressionMethodSupported**(int
-`$method`, bool `$enc` u003d **`true`**): bool
+`$method`, bool `$enc` = **`true`**): bool
 
 Перевіряє, чи підтримується метод стиснення libzip.
 

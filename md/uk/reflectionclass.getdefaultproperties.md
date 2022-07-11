@@ -42,20 +42,20 @@ public **ReflectionClass::getDefaultProperties**(): array
 **Приклад #1 Приклад використання
 **ReflectionClass::getDefaultProperties()****
 
-` <?phpclass Bar {   protected $inheritedProperty u003d 'успадковане властивість за мовчанням';}class Foo extends Bar {     public $property | private $privateProperty u003d 'закрите властивість за мовчанням'; public static $staticProperty u003d'статичне властивість'; public $defaultlessProperty;}$reflectionClass u003d new ReflectionClass('Foo');var_dump($reflectionClass->getDefaultProperties());?> `
+` <?phpclass Bar {   protected $inheritedProperty = 'успадковане властивість за мовчанням';}class Foo extends Bar {     public $property | private $privateProperty = 'закрите властивість за мовчанням'; public static $staticProperty ='статичне властивість'; public $defaultlessProperty;}$reflectionClass = new ReflectionClass('Foo');var_dump($reflectionClass->getDefaultProperties());?> `
 
 Результат виконання цього прикладу:
 
 array(5) {
-["staticProperty"]u003d>
+["staticProperty"]=>
 string(39) "статична властивість"
-["property"]u003d>
+["property"]=>
 string(40) "властивість за замовчуванням"
-["privateProperty"]u003d>
+["privateProperty"]=>
 string(57) "закрита властивість за замовчуванням"
-["defaultlessProperty"]u003d>
+["defaultlessProperty"]=>
 NULL
-["inheritedProperty"]u003d>
+["inheritedProperty"]=>
 string(69) "успадкована властивість за умовчанням"
 }
 

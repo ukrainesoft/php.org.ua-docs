@@ -7,7 +7,7 @@
 
 # Swoole\Coroutine::call_user_func
 
-(PECL swoole \>u003d 2.0.0)
+(PECL swoole \>= 2.0.0)
 
 Swoole\Coroutine::call_user_func — Викликає callback-функцію, задану
 першим параметром

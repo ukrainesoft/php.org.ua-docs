@@ -50,7 +50,7 @@ Unicode.
 
 **Приклад #1 Тестування різних властивостей**
 
-` <?phpvar_dump(IntlChar::getIntPropertyValue("A", IntlChar::PROPERTY_ALPHABETIC) u003du003du003d 1);var_dump(IntlChar::getIntPropertyValue("[", IntlChar::PROPERTY_  ::getIntPropertyValue("Φ", IntlChar::PROPERTY_BLOCK) u003du003du003d IntlChar::BLOCK_CODE_GREEK);?> `
+` <?phpvar_dump(IntlChar::getIntPropertyValue("A", IntlChar::PROPERTY_ALPHABETIC) === 1);var_dump(IntlChar::getIntPropertyValue("[", IntlChar::PROPERTY_  ::getIntPropertyValue("Φ", IntlChar::PROPERTY_BLOCK) === IntlChar::BLOCK_CODE_GREEK);?> `
 
 Результат виконання цього прикладу:
 

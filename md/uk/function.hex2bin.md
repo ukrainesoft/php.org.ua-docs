@@ -7,7 +7,7 @@
 
 # hex2bin
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 hex2bin — Перетворює шістнадцяткові дані на двійкові
 
@@ -43,7 +43,7 @@ hex2bin — Перетворює шістнадцяткові дані на дв
 
 **Приклад #1 Приклад використання **hex2bin()****
 
-` <?php$hex u003d hex2bin("d0bfd180d0b8d0bcd0b5d18020d188d0b5d181d182d0bdd0b0d0b4d186d0b0d182d0b5d180d0b8d187d0bdd18bd18520d0b4d0b0d0bdd0bdd18bd185");var_dump($hex);?> `
+` <?php$hex = hex2bin("d0bfd180d0b8d0bcd0b5d18020d188d0b5d181d182d0bdd0b0d0b4d186d0b0d182d0b5d180d0b8d187d0bdd18bd18520d0b4d0b0d0bdd0bdd18bd185");var_dump($hex);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,13 +7,13 @@
 
 # Yac::get
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 Yac::get — Витягує значення з кешу
 
 ### Опис
 
-public **Yac::get**(string\|array `$key`, int `&$cas` u003d **`null`**):
+public **Yac::get**(string\|array `$key`, int `&$cas` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Витягує значення з кешу

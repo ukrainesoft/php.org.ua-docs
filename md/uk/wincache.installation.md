@@ -32,7 +32,7 @@ PHP.
 лежить там, де встановлено PHP. Наприклад:
 `C:\Program Files\PHP\php.ini`.
 
-4. Додайте до кінця файлу рядок: `extension u003d php_wincache.dll`.
+4. Додайте до кінця файлу рядок: `extension = php_wincache.dll`.
 
 5. Збережіть та закрийте файл `php.ini`.
 

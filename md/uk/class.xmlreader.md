@@ -7,7 +7,7 @@
 
 # Клас XMLReader
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -21,49 +21,49 @@ class **XMLReader** {
 
 /\* Константи \*/
 
-const int `NONE` u003d 0;
+const int `NONE` = 0;
 
-const int `ELEMENT` u003d 1;
+const int `ELEMENT` = 1;
 
-const int `ATTRIBUTE` u003d 2;
+const int `ATTRIBUTE` = 2;
 
-const int `TEXT` u003d 3;
+const int `TEXT` = 3;
 
-const int `CDATA` u003d 4;
+const int `CDATA` = 4;
 
-const int `ENTITY_REF` u003d 5;
+const int `ENTITY_REF` = 5;
 
-const int `ENTITY` u003d 6;
+const int `ENTITY` = 6;
 
-const int `PI` u003d 7;
+const int `PI` = 7;
 
-const int `COMMENT` u003d 8;
+const int `COMMENT` = 8;
 
-const int `DOC` u003d 9;
+const int `DOC` = 9;
 
-const int `DOC_TYPE` u003d 10;
+const int `DOC_TYPE` = 10;
 
-const int `DOC_FRAGMENT` u003d 11;
+const int `DOC_FRAGMENT` = 11;
 
-const int `NOTATION` u003d 12;
+const int `NOTATION` = 12;
 
-const int `WHITESPACE` u003d 13;
+const int `WHITESPACE` = 13;
 
-const int `SIGNIFICANT_WHITESPACE` u003d 14;
+const int `SIGNIFICANT_WHITESPACE` = 14;
 
-const int `END_ELEMENT` u003d 15;
+const int `END_ELEMENT` = 15;
 
-const int `END_ENTITY` u003d 16;
+const int `END_ENTITY` = 16;
 
-const int `XML_DECLARATION` u003d 17;
+const int `XML_DECLARATION` = 17;
 
-const int `LOADDTD` u003d 1;
+const int `LOADDTD` = 1;
 
-const int `DEFAULTATTRS` u003d 2;
+const int `DEFAULTATTRS` = 2;
 
-const int `VALIDATE` u003d 3;
+const int `VALIDATE` = 3;
 
-const int `SUBST_ENTITIES` u003d 4;
+const int `SUBST_ENTITIES` = 4;
 
 /\* Властивості \*/
 
@@ -100,7 +100,7 @@ public string `$xmlLang`;
 public [close](xmlreader.close.md)(): bool
 
 public [expand](xmlreader.expand.md)(?[DOMNode](class.domnode.md)
-`$baseNode` u003d **`null`**): [DOMNode](class.domnode.md)\|false
+`$baseNode` = **`null`**): [DOMNode](class.domnode.md)\|false
 
 public [getAttribute](xmlreader.getattribute.md)(string `$name`):
 ?string
@@ -135,10 +135,10 @@ bool
 
 public [moveToNextAttribute](xmlreader.movetonextattribute.md)(): bool
 
-public [next](xmlreader.next.md)(?string `$name` u003d **`null`**): bool
+public [next](xmlreader.next.md)(?string `$name` = **`null`**): bool
 
 public static [open](xmlreader.open.md)(string `$uri`, ?string
-`$encoding` u003d **`null`**, int `$flags` u003d 0):
+`$encoding` = **`null`**, int `$flags` = 0):
 bool\|[XMLReader](class.xmlreader.md)
 
 public [read](xmlreader.read.md)(): bool
@@ -162,7 +162,7 @@ public
 public [setSchema](xmlreader.setschema.md)(?string `$filename`): bool
 
 public static [XML](xmlreader.xml.md)(string `$source`, ?string
-`$encoding` u003d **`null`**, int `$flags` u003d 0):
+`$encoding` = **`null`**, int `$flags` = 0):
 bool\|[XMLReader](class.xmlreader.md)
 
 }

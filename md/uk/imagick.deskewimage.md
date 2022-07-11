@@ -7,7 +7,7 @@
 
 # Imagick::deskewImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3 \>= 3.3.0)
 
 Imagick::deskewImage — Видаляє перекіс із зображення
 
@@ -31,4 +31,4 @@ public **Imagick::deskewImage**(float `$threshold`): bool
 
 **Приклад #1 Приклад використання **Imagick::deskewImage()****
 
-` <?phpfunction deskewImage($threshold) {   $imagick u003d new \Imagick(realpath("images/NYTimes-Page1-11-11-1918.jpg")); $deskewImagicku003du003dclone$imagick; //Це єдине, що потрібно для видалення перекосу. $deskewImagick->deskewImage($threshold); //Інша частина цього прикладу - зробити результат очевидним,    //потому що в протилежному випадку результат не очевидний. $trim u003d 9; $deskewImagick->cropImage($deskewImagick->getImageWidth() - $trim, $deskewImagick->getImageHeight(), $trim, 0); $imagick->cropImage($imagick->getImageWidth() - $trim, $imagick->getImageHeight(), $trim, 0); $deskewImagick->resizeimage($deskewImagick->getImageWidth() / 2, $deskewImagick->getImageHeight() / 2, \Imagick::FILTER_LANCZOS, 1); $imagick->resizeimage($imagick->getImageWidth() / 2, $imagick->getImageHeight() / 2, \Imagick::FILTER_LANCZOS, 1); $newCanvasu003dNewImagick(); $newCanvas->newimage($imagick->getImageWidth() + $deskewImagick->getImageWidth() + 20, $imagick->getImageHeight(), 'red', 'jpg'); $newCanvas->compositeimage($imagick, \Imagick::COMPOSITE_COPY, 5, 0); $newCanvas->compositeimage($deskewImagick, \Imagick::COMPOSITE_COPY, $imagick->getImageWidth() + 10, 0); header("Content-Type: image/jpg"); echo $newCanvas->getImageBlob();}?> `
+` <?phpfunction deskewImage($threshold) {   $imagick = new \Imagick(realpath("images/NYTimes-Page1-11-11-1918.jpg")); $deskewImagick==clone$imagick; //Це єдине, що потрібно для видалення перекосу. $deskewImagick->deskewImage($threshold); //Інша частина цього прикладу - зробити результат очевидним,    //потому що в протилежному випадку результат не очевидний. $trim = 9; $deskewImagick->cropImage($deskewImagick->getImageWidth() - $trim, $deskewImagick->getImageHeight(), $trim, 0); $imagick->cropImage($imagick->getImageWidth() - $trim, $imagick->getImageHeight(), $trim, 0); $deskewImagick->resizeimage($deskewImagick->getImageWidth() / 2, $deskewImagick->getImageHeight() / 2, \Imagick::FILTER_LANCZOS, 1); $imagick->resizeimage($imagick->getImageWidth() / 2, $imagick->getImageHeight() / 2, \Imagick::FILTER_LANCZOS, 1); $newCanvas=NewImagick(); $newCanvas->newimage($imagick->getImageWidth() + $deskewImagick->getImageWidth() + 20, $imagick->getImageHeight(), 'red', 'jpg'); $newCanvas->compositeimage($imagick, \Imagick::COMPOSITE_COPY, 5, 0); $newCanvas->compositeimage($deskewImagick, \Imagick::COMPOSITE_COPY, $imagick->getImageWidth() + 10, 0); header("Content-Type: image/jpg"); echo $newCanvas->getImageBlob();}?> `

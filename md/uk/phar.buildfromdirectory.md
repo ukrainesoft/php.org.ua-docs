@@ -7,7 +7,7 @@
 
 # Phar::buildFromDirectory
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::buildFromDirectory — Створює phar-архів із файлів, розташованих
 всередині директорії
@@ -15,7 +15,7 @@ Phar::buildFromDirectory — Створює phar-архів із файлів, �
 ### Опис
 
 public **Phar::buildFromDirectory**(string `$directory`, string
-`$pattern` u003d ""): array
+`$pattern` = ""): array
 
 > **Примітка**:
 >
@@ -58,15 +58,15 @@ public **Phar::buildFromDirectory**(string `$directory`, string
 
 ### Список змін
 
-| Версія | Опис                                                                    |
-| ------ | ----------------------------------------------------------------------- |
-| 8.1.0  | **Phar::buildFromDirectory()** більше не повертає значення **`false`**. |
+| Версія | Опис                                                                  |
+| ------ | --------------------------------------------------------------------- |
+| 8.1.0  | **Phar::buildFromDirectory()** більше не повертає значення **false**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::buildFromDirectory()****
 
-`<?php// створити з псевдонімом "project.phar"$phar u003d new Phar('project.phar', 0, 'project.phar');// додати все файли директорії project в файл$ >buildFromDirectory(dirname(__FILE__) . '/project');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));$phar2 u003d new Phar( 'project2.phar', 0, 'project2.phar');// додати всі файли директорії project в файл project2.phar, включаючи тільки php-файли$phar2->buildFromDirectory(' (' |' /\.php$/');$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+`<?php// створити з псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');// додати все файли директорії project в файл$ >buildFromDirectory(dirname(__FILE__) . '/project');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));$phar2 = new Phar( 'project2.phar', 0, 'project2.phar');// додати всі файли директорії project в файл project2.phar, включаючи тільки php-файли$phar2->buildFromDirectory(' (' |' /\.php$/');$phar2->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
 
 ### Дивіться також
 

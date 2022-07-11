@@ -7,7 +7,7 @@
 
 # Клас Yaf_Dispatcher
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -53,11 +53,11 @@ protected `$_default_action`;
 
 public [\_\_construct](yaf-dispatcher.construct.md)()
 
-public [autoRender](yaf-dispatcher.autorender.md)(bool `$flag` u003d ?):
+public [autoRender](yaf-dispatcher.autorender.md)(bool `$flag` = ?):
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 public [catchException](yaf-dispatcher.catchexception.md)(bool `$flag`
-u003d?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
+=?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 public [disableView](yaf-dispatcher.disableview.md)(): bool
 
@@ -69,7 +69,7 @@ public [enableView](yaf-dispatcher.enableview.md)():
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 public [flushInstantly](yaf-dispatcher.flushinstantly.md)(bool `$flag`
-u003d?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
+=?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 public [getApplication](yaf-dispatcher.getapplication.md)():
 [Yaf_Application](class.yaf-application.md)
@@ -94,7 +94,7 @@ public [getRouter](yaf-dispatcher.getrouter.md)():
 [Yaf_Router](class.yaf-router.md)
 
 public [initView](yaf-dispatcher.initview.md)(string `$templates_dir`,
-array `$options` u003d ?):
+array `$options` = ?):
 [Yaf_View_Interface](class.yaf-view-interface.md)
 
 public
@@ -127,7 +127,7 @@ public
 `$view`): [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 public [throwException](yaf-dispatcher.throwexception.md)(bool `$flag`
-u003d?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
+=?): [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 }
 

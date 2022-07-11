@@ -7,7 +7,7 @@
 
 # SolrModifiableParams::\_\_construct
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrModifiableParams::\_\_construct — Конструктор
 

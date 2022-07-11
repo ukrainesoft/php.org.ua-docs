@@ -7,7 +7,7 @@
 
 # lchgrp
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 lchgrp — Змінює групу, якій належить символічне посилання
 
@@ -39,7 +39,7 @@ lchgrp — Змінює групу, якій належить символічн
 
 **Приклад #1 Приклад зміни групи символічного посилання**
 
-` <?php$target u003d 'output.php';$link u003d 'output.md';symlink($target, $link);lchgrp($link, 8);?> `
+` <?php$target = 'output.php';$link = 'output.md';symlink($target, $link);lchgrp($link, 8);?> `
 
 ### Примітки
 

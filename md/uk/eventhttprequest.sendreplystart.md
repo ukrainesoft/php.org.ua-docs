@@ -7,7 +7,7 @@
 
 # EventHttpRequest::sendReplyStart
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::sendReplyStart — Ініціює фрагментарну відповідь
 

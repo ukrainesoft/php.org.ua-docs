@@ -7,7 +7,7 @@
 
 # SplFileInfo::\_\_toString
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::\_\_toString — Повертає шлях до файлу у вигляді рядка
 
@@ -29,7 +29,7 @@ public **SplFileInfo::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::\_\_toString()****
 
-` <?php$info u003d new SplFileInfo('foo');var_dump($info->__toString());echo $info.PHP_EOL;$info u003d new SplFileInfo('/usr/bin/php');var_dump( $info->__toString());echo $info.PHP_EOL;?> `
+` <?php$info = new SplFileInfo('foo');var_dump($info->__toString());echo $info.PHP_EOL;$info = new SplFileInfo('/usr/bin/php');var_dump( $info->__toString());echo $info.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -9,7 +9,7 @@
 
 # normalizer_get_raw_decomposition
 
-(PHP 7 \>u003d 7.3, PHP 8)
+(PHP 7 \>= 7.3, PHP 8)
 
 Normalizer::getRawDecomposition -- normalizer_get_raw_decomposition
 Витягує властивість Decomposition_Mapping для заданого символу UTF-8
@@ -19,11 +19,11 @@ Normalizer::getRawDecomposition -- normalizer_get_raw_decomposition
 Об'єктно-орієнтований стиль
 
 public static **Normalizer::getRawDecomposition**(string `$string`, int
-`$form` u003d Normalizer::FORM_C): ?string
+`$form` = Normalizer::FORM_C): ?string
 
 Процедурний стиль
 
-**normalizer_get_raw_decomposition**(string `$string`, int `$form` u003d
+**normalizer_get_raw_decomposition**(string `$string`, int `$form` =
 Normalizer::FORM_C): ?string
 
 Отримує властивість Decomposition_Mapping, як визначено в Unicode
@@ -47,10 +47,10 @@ Decomposition_Mapping.
 
 **Приклад #1 Приклад використання **Normalizer::getRawDecomposition()****
 
-` <?php$result u003d "";$strings u003d [    "a",   "\u{FFDA}",    "\u{FDFA}",    "",    "aa", ; $strings as $string) {    $decomposition u003d Normalizer::getRawDecomposition($string); // $decomposition u003d normalizer_get_raw_decomposition($string); Процедурний стиль стиль $ error_code u003d inl_get_error_code (); $error_messageu003du003d intl_get_error_message(); $string_hexu003du003dbin2hex($string); $result .u003d "---------------------
-";    if ($decomposition u003du003du003d null) {        $result .u003d "'$string_hex' не має відповідності декомпозиції
-" ;    }}else {        $result .u003d "'$string_hex' має відповідність декомпозиції ''' . bin2hex($decomposition) . ''''
-" ;    }}    $result .u003d "error info: '$error_message' ($error_code)
+` <?php$result = "";$strings = [    "a",   "\u{FFDA}",    "\u{FDFA}",    "",    "aa", ; $strings as $string) {    $decomposition = Normalizer::getRawDecomposition($string); // $decomposition = normalizer_get_raw_decomposition($string); Процедурний стиль стиль $ error_code = inl_get_error_code (); $error_message== intl_get_error_message(); $string_hex==bin2hex($string); $result .= "---------------------
+";    if ($decomposition === null) {        $result .= "'$string_hex' не має відповідності декомпозиції
+" ;    }}else {        $result .= "'$string_hex' має відповідність декомпозиції ''' . bin2hex($decomposition) . ''''
+" ;    }}    $result .= "error info: '$error_message' ($error_code)
 ";}echo $result;?> `
 
 Результат виконання цього прикладу:

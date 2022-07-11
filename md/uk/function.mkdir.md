@@ -15,9 +15,9 @@ mkdir — Створює директорію
 
 **mkdir**(
 string `$directory`,
-int `$permissions` u003d 0777,
-bool `$recursive` u003d **`false`**,
-?resource `$context` u003d **`null`**
+int `$permissions` = 0777,
+bool `$recursive` = **`false`**,
+?resource `$context` = **`null`**
 ): bool
 
 Намагається створити директорію, задану в `directory`.
@@ -67,7 +67,7 @@ bool `$recursive` u003d **`false`**,
 
 **Приклад #2 Використання **mkdir()** з параметром `recursive`**
 
-` <?php// Бажана структура папок$structure u003d './depth1/depth2/depth3/';// Для створення вкладеної структури необхідно вказати параметр// $recursive в|m , true)) {   die('Не удалося створити директорії...');}// ...?> `
+` <?php// Бажана структура папок$structure = './depth1/depth2/depth3/';// Для створення вкладеної структури необхідно вказати параметр// $recursive в|m , true)) {   die('Не удалося створити директорії...');}// ...?> `
 
 ### Дивіться також
 

@@ -8,14 +8,14 @@
 
 # SolrQuery::getHighlightSnippets
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightSnippets — Повертає максимальну кількість
 виділених фрагментів для створення для кожного поля
 
 ### Опис
 
-public **SolrQuery::getHighlightSnippets**(string `$field_override` u003d
+public **SolrQuery::getHighlightSnippets**(string `$field_override` =
 ?): int
 
 Повертає максимальну кількість виділених фрагментів для створення

@@ -7,7 +7,7 @@
 
 # Yaf_Loader::getInstance
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Loader::getInstance — Призначення getInstance
 

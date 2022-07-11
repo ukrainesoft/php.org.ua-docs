@@ -36,4 +36,4 @@ public **Imagick::setImageResolution**(float `$x_resolution`, float
 
 **Приклад #1 Приклад використання **Imagick::setImageResolution()****
 
-` <?phpfunction setImageResolution($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->setImageResolution(50, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction setImageResolution($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageResolution(50, 50); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\ReadPreference
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -19,29 +19,29 @@ final class **MongoDB\Driver\ReadPreference** implements
 
 /\* Константи \*/
 
-const int `RP_PRIMARY` u003d 1;
+const int `RP_PRIMARY` = 1;
 
-const int `RP_PRIMARY_PREFERRED` u003d 5;
+const int `RP_PRIMARY_PREFERRED` = 5;
 
-const int `RP_SECONDARY` u003d 2;
+const int `RP_SECONDARY` = 2;
 
-const int `RP_SECONDARY_PREFERRED` u003d 6;
+const int `RP_SECONDARY_PREFERRED` = 6;
 
-const int `RP_NEAREST` u003d 10;
+const int `RP_NEAREST` = 10;
 
-const string `PRIMARY` u003d primary;
+const string `PRIMARY` = primary;
 
-const string `PRIMARY_PREFERRED` u003d primaryPreferred;
+const string `PRIMARY_PREFERRED` = primaryPreferred;
 
-const string `SECONDARY` u003d secondary;
+const string `SECONDARY` = secondary;
 
-const string `SECONDARY_PREFERRED` u003d secondaryPreferred;
+const string `SECONDARY_PREFERRED` = secondaryPreferred;
 
-const string `NEAREST` u003d nearest;
+const string `NEAREST` = nearest;
 
-const int `NO_MAX_STALENESS` u003d -1;
+const int `NO_MAX_STALENESS` = -1;
 
-const int `SMALLEST_MAX_STALENESS_SECONDS` u003d 90;
+const int `SMALLEST_MAX_STALENESS_SECONDS` = 90;
 
 /\* Методи \*/
 
@@ -51,7 +51,7 @@ object
 
 final public
 [\_\_construct](mongodb-driver-readpreference.construct.md)(string\|int
-`$mode`, array `$tagSets` u003d **`null`**, array `$options` u003d array())
+`$mode`, array `$tagSets` = **`null`**, array `$options` = array())
 
 final public [getHedge](mongodb-driver-readpreference.gethedge.md)():
 ?object

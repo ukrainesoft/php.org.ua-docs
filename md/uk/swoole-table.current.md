@@ -7,7 +7,7 @@
 
 # Swoole\Table::current
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::current — Отримує поточний рядок
 

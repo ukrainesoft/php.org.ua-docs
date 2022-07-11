@@ -7,14 +7,14 @@
 
 # Swoole\Http\Response::sendfile
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::sendfile — Відправляє файл через HTTP-відповідь
 
 ### Опис
 
 public **Swoole\Http\Response::sendfile**(string `$filename`, int
-`$offset` u003d ?): ReturnType
+`$offset` = ?): ReturnType
 
 Відправляє файл через HTTP-відповідь.
 

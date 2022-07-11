@@ -7,7 +7,7 @@
 
 # EventUtil::getLastSocketError
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventUtil::getLastSocketError — Отримати останню помилку, що виникла
 сокету
@@ -16,7 +16,7 @@ EventUtil::getLastSocketError — Отримати останню помилку
 
 public static **EventUtil::getLastSocketError**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d ?): string
+`$socket` = ?): string
 
 Повертає останню помилку сокету, що виникла.
 

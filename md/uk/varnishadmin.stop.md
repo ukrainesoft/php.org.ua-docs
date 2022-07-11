@@ -7,7 +7,7 @@
 
 # VarnishAdmin::stop
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::stop — Зупинити робочий процес varnish
 

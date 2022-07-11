@@ -7,7 +7,7 @@
 
 # EventSslContext::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventSslContext::\_\_construct — Конструктор контексту OpenSSL для
 використання у класах Event
@@ -40,4 +40,4 @@ public **EventSslContext::\_\_construct**( string `$method` , string
 
 **Приклад #1 Приклад використання **EventSslContext::\_\_construct()****
 
-` <?php$ctx u003d new EventSslContext(EventSslContext::SSLv3_SERVER_METHOD, array(     EventSslContext::OPT_LOCAL_CERT        u003d> $local_cert,     EventSslContext::OPT_LOCAL_PK          u003d> $local_pk,     EventSslContext::OPT_PASSPHRASE        u003d> "echo server",     EventSslContext::OPT_VERIFY_PEER u003d> true,     EventSslContext::OPT_ALLOW_SELF_SIGNED u003d> false,));?> `
+` <?php$ctx = new EventSslContext(EventSslContext::SSLv3_SERVER_METHOD, array(     EventSslContext::OPT_LOCAL_CERT        => $local_cert,     EventSslContext::OPT_LOCAL_PK          => $local_pk,     EventSslContext::OPT_PASSPHRASE        => "echo server",     EventSslContext::OPT_VERIFY_PEER => true,     EventSslContext::OPT_ALLOW_SELF_SIGNED => false,));?> `

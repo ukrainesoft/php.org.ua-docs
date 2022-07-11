@@ -7,7 +7,7 @@
 
 # SolrQuery::setTermsIncludeUpperBound
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setTermsIncludeUpperBound — Включає верхню межу
 вирази в набір результатів

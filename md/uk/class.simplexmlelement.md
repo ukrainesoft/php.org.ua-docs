@@ -23,40 +23,40 @@ class **SimpleXMLElement** implements
 
 public [\_\_construct](simplexmlelement.construct.md)(
 string `$data`,
-int `$options` u003d 0,
-bool `$dataIsURL` u003d **`false`**,
-string `$namespaceOrPrefix` u003d "",
-bool `$isPrefix` u003d **`false`**
+int `$options` = 0,
+bool `$dataIsURL` = **`false`**,
+string `$namespaceOrPrefix` = "",
+bool `$isPrefix` = **`false`**
 )
 
 public [addAttribute](simplexmlelement.addattribute.md)(string
-`$qualifiedName`, string `$value`, ?string `$namespace` u003d **`null`**):
+`$qualifiedName`, string `$value`, ?string `$namespace` = **`null`**):
 void
 
 public [addChild](simplexmlelement.addchild.md)(string
-`$qualifiedName`, ?string `$value` u003d **`null`**, ?string `$namespace` u003d
+`$qualifiedName`, ?string `$value` = **`null`**, ?string `$namespace` =
 **`null`**): ?[SimpleXMLElement](class.simplexmlelement.md)
 
-public [asXML](simplexmlelement.asxml.md)(?string `$filename` u003d
+public [asXML](simplexmlelement.asxml.md)(?string `$filename` =
 **`null`**): string\|bool
 
 public [attributes](simplexmlelement.attributes.md)(?string
-`$namespaceOrPrefix` u003d **`null`**, bool `$isPrefix` u003d **`false`**):
+`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 public [children](simplexmlelement.children.md)(?string
-`$namespaceOrPrefix` u003d **`null`**, bool `$isPrefix` u003d **`false`**):
+`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 public [count](simplexmlelement.count.md)(): int
 
 public [getDocNamespaces](simplexmlelement.getdocnamespaces.md)(bool
-`$recursive` u003d **`false`**, bool `$fromRoot` u003d **`true`**): array\|false
+`$recursive` = **`false`**, bool `$fromRoot` = **`true`**): array\|false
 
 public [getName](simplexmlelement.getname.md)(): string
 
 public [getNamespaces](simplexmlelement.getnamespaces.md)(bool
-`$recursive` u003d **`false`**): array
+`$recursive` = **`false`**): array
 
 public
 [registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)(string

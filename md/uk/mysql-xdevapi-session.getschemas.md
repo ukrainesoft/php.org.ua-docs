@@ -31,18 +31,18 @@ public **mysql_xdevapi\Session::getSchemas**(): array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::getSchemas()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schemas u003d $session->getSchemas();print_r($schemas); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schemas = $session->getSchemas();print_r($schemas); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> mysql_xdevapi\Schema Object
+[0] => mysql_xdevapi\Schema Object
 (
-[name] u003d> addressbook
+[name] => addressbook
 )
-[1] u003d> mysql_xdevapi\Schema Object
+[1] => mysql_xdevapi\Schema Object
 (
-[name] u003d> information_schema
+[name] => information_schema
 )
 ...

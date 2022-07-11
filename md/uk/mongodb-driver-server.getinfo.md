@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getInfo
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::getInfo - Повертає масив інформації,
 описуючий сервер
@@ -48,141 +48,141 @@ final public **MongoDB\Driver\Server::getInfo**(): array
 
 **Приклад #1 Приклад використання **MongoDB\Driver\Server::getInfo()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017/');$rp u003d new MongoDB\Driver\ReadPreference('primary');$server u003d $manager->selectServer( $rp);var_dump($server->getInfo());?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017/');$rp = new MongoDB\Driver\ReadPreference('primary');$server = $manager->selectServer( $rp);var_dump($server->getInfo());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(23) {
-["helloOk"]u003d>
+["helloOk"]=>
 bool(true)
-["topologyVersion"]u003d>
+["topologyVersion"]=>
 array(2) {
-["processId"]u003d>
+["processId"]=>
 object(MongoDB\BSON\ObjectId)#4 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "617b6d696a3a89d2f77e6df0"
 }
-["counter"]u003d>
+["counter"]=>
 int(6)
 }
-["hosts"]u003d>
+["hosts"]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(15) "localhost:27017"
 }
-["setName"]u003d>
+["setName"]=>
 string(3) "rs0"
-["setVersion"]u003d>
+["setVersion"]=>
 int(1)
-["ismaster"]u003d>
+["ismaster"]=>
 bool(true)
-["secondary"]u003d>
+["secondary"]=>
 bool(false)
-["primary"]u003d>
+["primary"]=>
 string(15) "localhost:27017"
-["me"]u003d>
+["me"]=>
 string(15) "localhost:27017"
-["electionId"]u003d>
+["electionId"]=>
 object(MongoDB\BSON\ObjectId)#5 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "7fffffff000000000000001"
 }
-["lastWrite"]u003d>
+["lastWrite"]=>
 array(4) {
-["opTime"]u003d>
+["opTime"]=>
 array(2) {
-["ts"]u003d>
+["ts"]=>
 object(MongoDB\BSON\Timestamp)#6 (2) {
-["increment"]u003d>
+["increment"]=>
 string(1) "1"
-["timestamp"]u003d>
+["timestamp"]=>
 string(10) "1635478989"
 }
-["t"]u003d>
+["t"]=>
 int(1)
 }
-["lastWriteDate"]u003d>
+["lastWriteDate"]=>
 object(MongoDB\BSON\UTCDateTime)#7 (1) {
-["milliseconds"]u003d>
+["milliseconds"]=>
 string(13) "1635478989000"
 }
-["majorityOpTime"]u003d>
+["majorityOpTime"]=>
 array(2) {
-["ts"]u003d>
+["ts"]=>
 object(MongoDB\BSON\Timestamp)#8 (2) {
-["increment"]u003d>
+["increment"]=>
 string(1) "1"
-["timestamp"]u003d>
+["timestamp"]=>
 string(10) "1635478989"
 }
-["t"]u003d>
+["t"]=>
 int(1)
 }
-["majorityWriteDate"]u003d>
+["majorityWriteDate"]=>
 object(MongoDB\BSON\UTCDateTime)#9 (1) {
-["milliseconds"]u003d>
+["milliseconds"]=>
 string(13) "1635478989000"
 }
 }
-["maxBsonObjectSize"]u003d>
+["maxBsonObjectSize"]=>
 int(16777216)
-["maxMessageSizeBytes"]u003d>
+["maxMessageSizeBytes"]=>
 int(48000000)
-["maxWriteBatchSize"]u003d>
+["maxWriteBatchSize"]=>
 int(100000)
-["localTime"]u003d>
+["localTime"]=>
 object(MongoDB\BSON\UTCDateTime)#10 (1) {
-["milliseconds"]u003d>
+["milliseconds"]=>
 string(13) "1635478992136"
 }
-["logicalSessionTimeoutMinutes"]u003d>
+["logicalSessionTimeoutMinutes"]=>
 int(30)
-["connectionId"]u003d>
+["connectionId"]=>
 int(3)
-["minWireVersion"]u003d>
+["minWireVersion"]=>
 int(0)
-["maxWireVersion"]u003d>
+["maxWireVersion"]=>
 int(13)
-["readOnly"]u003d>
+["readOnly"]=>
 bool(false)
-["ok"]u003d>
+["ok"]=>
 float(1)
-["$clusterTime"]u003d>
+["$clusterTime"]=>
 array(2) {
-["clusterTime"]u003d>
+["clusterTime"]=>
 object(MongoDB\BSON\Timestamp)#11 (2) {
-["increment"]u003d>
+["increment"]=>
 string(1) "1"
-["timestamp"]u003d>
+["timestamp"]=>
 string(10) "1635478989"
 }
-["signature"]u003d>
+["signature"]=>
 array(2) {
-["hash"]u003d>
+["hash"]=>
 object(MongoDB\BSON\Binary)#12 (2) {
-["data"]u003d>
+["data"]=>
 string(20) ""
-["type"]u003d>
+["type"]=>
 int(0)
 }
-["keyId"]u003d>
+["keyId"]=>
 int(0)
 }
 }
-["operationTime"]u003d>
+["operationTime"]=>
 object(MongoDB\BSON\Timestamp)#13 (2) {
-["increment"]u003d>
+["increment"]=>
 string(1) "1"
-["timestamp"]u003d>
+["timestamp"]=>
 string(10) "1635478989"
 }
 }
 
 ### Список змін
 
-| Версія              | Опис                                                                                                                                                                      |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.11.0 | Коли драйвер підключений до підсистеми балансування навантаження, метод повертає у відповідь команду `hello` допоміжного сервера при початковому підтвердження з'єднання. |
+| Версія              | Опис                                                                                                                                                                    |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.11.0 | Коли драйвер підключений до підсистеми балансування навантаження, метод повертає у відповідь команду hello допоміжного сервера при початковому підтвердження з'єднання. |
 
 ### Дивіться також
 

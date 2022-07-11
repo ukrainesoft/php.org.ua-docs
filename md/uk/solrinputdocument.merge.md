@@ -7,7 +7,7 @@
 
 # SolrInputDocument::merge
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::merge — Об'єднує один вхідний документ до іншого
 
@@ -15,7 +15,7 @@ SolrInputDocument::merge — Об'єднує один вхідний докум�
 
 public
 **SolrInputDocument::merge**([SolrInputDocument](class.solrinputdocument.md)
-`$sourceDoc`, bool `$overwrite` u003d **`true`**): bool
+`$sourceDoc`, bool `$overwrite` = **`true`**): bool
 
 Об'єднує один вхідний документ до іншого.
 

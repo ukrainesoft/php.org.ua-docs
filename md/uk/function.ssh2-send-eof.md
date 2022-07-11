@@ -7,7 +7,7 @@
 
 # ssh2_send_eof
 
-(PECL ssh2 \>u003d 1.3)
+(PECL ssh2 \>= 1.3)
 
 ssh2_send_eof — Відправляє EOF до потоку
 

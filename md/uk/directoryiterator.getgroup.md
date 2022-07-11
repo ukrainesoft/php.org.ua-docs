@@ -31,7 +31,7 @@ public **DirectoryIterator::getGroup**(): int
 
 **Приклад #1 Приклад використання **DirectoryIterator::getGroup()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));$groupid  u003d $iterator->getGroup();echo 'Директорія належить групі ' . $groupid . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));$groupid  = $iterator->getGroup();echo 'Директорія належить групі ' . $groupid . "
 ";print_r(posix_getgrgid($groupid));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -39,14 +39,14 @@ public **DirectoryIterator::getGroup**(): int
 Директорія належить до групи 42
 Array
 (
-[name] u003d> toons
-[passwd] u003d> x
-[members] u003d> Array
+[name] => toons
+[passwd] => x
+[members] => Array
 (
-[0] u003d> tom
-[1] u003d> jerry
+[0] => tom
+[1] => jerry
 )
-[gid] u003d> 42
+[gid] => 42
 )
 
 ### Дивіться також

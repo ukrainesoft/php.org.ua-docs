@@ -15,7 +15,7 @@ PHP, на масив об'єктів PhpToken
 
 ### Опис
 
-public static **PhpToken::tokenize**(string `$code`, int `$flags` u003d 0):
+public static **PhpToken::tokenize**(string `$code`, int `$flags` = 0):
 array
 
 Повертає масив об'єктів PhpToken, що представляють код code.
@@ -41,7 +41,7 @@ array
 
 **Приклад #1 Приклад використання **PhpToken::tokenize()****
 
-` <?php$tokens u003d PhpToken::tokenize('<?php echo; ?>');foreach ($tokens as $token) {    echo "Line {$token->line}: {$token->To )} ('{$token->text}')", PHP_EOL;} `
+` <?php$tokens = PhpToken::tokenize('<?php echo; ?>');foreach ($tokens as $token) {    echo "Line {$token->line}: {$token->To )} ('{$token->text}')", PHP_EOL;} `
 
 Результат виконання даних прикладів:
 
@@ -53,7 +53,7 @@ Line 1: T_CLOSE_TAG ('?>')
 
 **Приклад #2 Розширення PhpToken**
 
-`<?phpclass MyPhpToken extends PhpToken {    public function getUpperText() {        return strtoupper($this->text); }}$tokens u003d MyPhpToken::tokenize('<?php echo; ?>');echo "'{$tokens[0]->getUpperText()}'"; `
+`<?phpclass MyPhpToken extends PhpToken {    public function getUpperText() {        return strtoupper($this->text); }}$tokens = MyPhpToken::tokenize('<?php echo; ?>');echo "'{$tokens[0]->getUpperText()}'"; `
 
 Результат виконання даних прикладів:
 

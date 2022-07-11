@@ -7,7 +7,7 @@
 
 # Componere\Patch::isApplied
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Patch::isApplied — Визначення стану
 

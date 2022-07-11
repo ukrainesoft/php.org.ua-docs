@@ -7,7 +7,7 @@
 
 #imagepalettetotruecolor
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 imagepalettetotruecolor — Перетворює зображення на основі палітри на
 справжній колір
@@ -37,20 +37,20 @@ bool
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Конвертує будь-який об'єкт зображення у цей колір**
 
-` <?php// Для обратной совместимостиif(!function_exists('imagepalettetotruecolor')){    function imagepalettetotruecolor(&$src)    {        if(imageistruecolor($src))        {            return(true); }         $dst u003d imagecreatetruecolor(imagesx($src), imagesy($src)); imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src)); imagedestroy($src); $srcu003du003d$dst; return (true); }}// Анонімна функція-помічник$typeof u003d function() use($im){   echo 'typeof($im) u003d ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;};// Створення зображення на основі палітри$im u003d imagecreate(100, 100);$typeof( $im);$typeof();// Звільнити пам'ятьimagedestroy($im);?> `
+` <?php// Для обратной совместимостиif(!function_exists('imagepalettetotruecolor')){    function imagepalettetotruecolor(&$src)    {        if(imageistruecolor($src))        {            return(true); }         $dst = imagecreatetruecolor(imagesx($src), imagesy($src)); imagecopy($dst, $src, 0, 0, 0, 0, imagesx($src), imagesy($src)); imagedestroy($src); $src==$dst; return (true); }}// Анонімна функція-помічник$typeof = function() use($im){   echo 'typeof($im) = ' . (imageistruecolor($im) ? 'true color' : 'palette'), PHP_EOL;};// Створення зображення на основі палітри$im = imagecreate(100, 100);$typeof( $im);$typeof();// Звільнити пам'ятьimagedestroy($im);?> `
 
 Результат виконання цього прикладу:
 
-typeof($im) u003d palette
-typeof($im) u003d true color
+typeof($im) = palette
+typeof($im) = true color
 
 ### Дивіться також
 

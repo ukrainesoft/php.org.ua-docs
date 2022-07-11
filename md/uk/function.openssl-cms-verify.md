@@ -15,14 +15,14 @@ openssl_cms_verify — Перевіряє підпис CMS
 
 **openssl_cms_verify**(
 string `$input_filename`,
-int `$flags` u003d 0,
-?string `$certificates` u003d **`null`**,
-array `$ca_info` u003d [],
-?string `$untrusted_certificates_filename` u003d **`null`**,
-?string `$content` u003d **`null`**,
-?string `$pk7` u003d **`null`**,
-?string `$sigfile` u003d **`null`**,
-int `$encoding` u003d **`OPENSSL_ENCODING_SMIME`**
+int `$flags` = 0,
+?string `$certificates` = **`null`**,
+array `$ca_info` = [],
+?string `$untrusted_certificates_filename` = **`null`**,
+?string `$content` = **`null`**,
+?string `$pk7` = **`null`**,
+?string `$sigfile` = **`null`**,
+int `$encoding` = **`OPENSSL_ENCODING_SMIME`**
 ): bool
 
 Перевіряє підпис CMS, прикріплений або від'єднаний, із зазначеним

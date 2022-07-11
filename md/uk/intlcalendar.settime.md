@@ -7,7 +7,7 @@
 
 # IntlCalendar::setTime
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::setTime — Встановлює календарний час у мілісекундах
 з початку епохи Unix
@@ -47,7 +47,7 @@ UTC), без урахування додаткових секунд. Усі зн
 
 **Приклад #1 Приклад використання **IntlCalendar::setTime()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'fr_FR');$cal u003d new IntlGregorianCalendar(2013, 5 /* May */, 0, 0);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'fr_FR');$cal = new IntlGregorianCalendar(2013, 5 /* May */, 0, 0);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
 ";/* В Europe/Lisbon 27 жовтня 2013 року в 02:00 години перекладаються на одну годину назад,  а а годинний пояс - с UTC+0 C| 27 00:30:00 UTC') * 1000.);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
 ";$cal->setTime(strtotime('2013-10-27 01:30:00 UTC') * 1000.);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
 ";

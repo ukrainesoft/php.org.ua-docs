@@ -36,12 +36,12 @@ PUT, який використовується у клієнтах Netscape Comp
 
 ```htmlcode
 <!-- Тип кодування даних, enctype, ПОВИНЕН БУТИ вказаний САМЕ так -->
-<form enctypeu003d"multipart/form-data" actionu003d"__URL__" methodu003d"POST">
+<form enctype="multipart/form-data" action="__URL__" method="POST">
 <!-- Поле MAX_FILE_SIZE має бути вказано до поля завантаження файлу -->
-<input typeu003d"hidden" nameu003d"MAX_FILE_SIZE" valueu003d"30000" />
+<input type="hidden" name="MAX_FILE_SIZE" value="30000" />
 <!-- Назва елемента input визначає ім'я в масиві $_FILES -->
-Надіслати цей файл: <input nameu003d"userfile" typeu003d"file" />
-<input typeu003d"submit" valueu003d"Надіслати файл" />
+Надіслати цей файл: <input name="userfile" type="file" />
+<input type="submit" value="Надіслати файл" />
 </form>
 ````
 
@@ -64,7 +64,7 @@ PHP-скрипт.
 > **Примітка**:
 >
 > Також слід переконатися, що форма завантаження має атрибут
-> `enctypeu003d"multipart/form-data"`, інакше завантаження файлів на
+> `enctype="multipart/form-data"`, інакше завантаження файлів на
 > сервер не станеться.
 
 Глобальний масив `$_FILES` містить всю інформацію про завантажені
@@ -112,7 +112,7 @@ PHP 8.1.0.
 [move_uploaded_file()](function.move-uploaded-file.md). Наступний
 приклад приймає та обробляє завантажений за допомогою форми файл.
 
-` <?php$uploaddir u003d '/var/www/uploads/';$uploadfile u003d $uploaddir . basename($_FILES['userfile']['name']);echo '<pre>';if (move_uploaded_file($_FILES['userfile']['tmp_name'],$uploadfile)) {    echo "Файл коректний і був успішно завантажений.
+` <?php$uploaddir = '/var/www/uploads/';$uploadfile = $uploaddir . basename($_FILES['userfile']['name']);echo '<pre>';if (move_uploaded_file($_FILES['userfile']['tmp_name'],$uploadfile)) {    echo "Файл коректний і був успішно завантажений.
 ";} else {    echo "Можлива атака з допомогою файлового завантаження!
 ";}echo 'Деяка налагоджувальна інформація:';print_r($_FILES);print "</pre>";?> `
 
@@ -141,17 +141,17 @@ PHP-скрипт, який приймає завантажений файл, п�
 PHP підтримує [можливість передачі масиву з HTML](faq.md.md#faq.md.arrays) у тому числі і з файлами.
 
 ```htmlcode
-<form actionu003d"" methodu003d"post" enctypeu003d"multipart/form-data">
+<form action="" method="post" enctype="multipart/form-data">
 <p>Зображення:
-<input typeu003d"file" nameu003d"pictures[]" />
-<input typeu003d"file" nameu003d"pictures[]" />
-<input typeu003d"file" nameu003d"pictures[]" />
-<input typeu003d"submit" valueu003d"Надіслати" />
+<input type="file" name="pictures[]" />
+<input type="file" name="pictures[]" />
+<input type="file" name="pictures[]" />
+<input type="submit" value="Надіслати" />
 </p>
 </form>
 ````
 
-` <?phpforeach ($_FILES["pictures"]["error"] as $key u003d> $error) {   if ($error u003du003du003dUPLOAD_ERR_OK) {         $$tmp [$ key]; // basename() може врятувати від атак на файлову систему; // може потрібно додаткова перевірка/очищення імені файла        $name u003d basename($_FILES["pictures"]["name"][$key]); move_uploaded_file($tmp_name, "data/$name"); }}?> `
+` <?phpforeach ($_FILES["pictures"]["error"] as $key => $error) {   if ($error ===UPLOAD_ERR_OK) {         $$tmp [$ key]; // basename() може врятувати від атак на файлову систему; // може потрібно додаткова перевірка/очищення імені файла        $name = basename($_FILES["pictures"]["name"][$key]); move_uploaded_file($tmp_name, "data/$name"); }}?> `
 
 Смуга прогресу завантаження файлів може бути реалізована за допомогою
 "[відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)".

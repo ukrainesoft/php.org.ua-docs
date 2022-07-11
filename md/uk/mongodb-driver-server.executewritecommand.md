@@ -45,9 +45,9 @@ final public **MongoDB\Driver\Server::executeWriteCommand**(string
 Команда для виконання.
 
 `options`
-| Опція | Тип | Опис |
-|--------------|---------------------------------- -------------------------------------|------------ --------------------------------|
-| session | [MongoDB\Driver\Session](class.mongodb-driver-session.md) | Сесія зв'язування з операцією. |
+| Опція        | Тип                                                                 | Опис                                          |
+| ------------ | ------------------------------------------------------------------- | --------------------------------------------- |
+| session      | [MongoDB\Driver\Session](class.mongodb-driver-session.md)           | Сесія зв'язування з операцією.                |
 | writeConcern | [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md) | Гарантія запису для застосування до операції. |
 
 **options**
@@ -89,9 +89,9 @@ final public **MongoDB\Driver\Server::executeWriteCommand**(string
 
 ### Список змін
 
-| Версія             | Опис                                                                                                                                                                                                        |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.4.4 | Буде викинуто [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо опція `session` використовується в поєднанні з непідтвердженим записом. |
+| Версія             | Опис                                                                                                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.4.4 | Буде викинуто [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо опція session використовується в поєднанні з непідтвердженим записом. |
 
 ### Примітки
 

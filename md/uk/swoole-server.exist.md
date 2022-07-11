@@ -7,7 +7,7 @@
 
 # Swoole\Server::exist
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::exist — Перевіряє, чи існує з'єднання.
 

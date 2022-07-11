@@ -7,7 +7,7 @@
 
 # VarnishAdmin::setCompat
 
-(PECL varnish u003d 0.9.2)
+(PECL varnish = 0.9.2)
 
 VarnishAdmin::setCompat — Встановити параметр конфігурації класу compat
 

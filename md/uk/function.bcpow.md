@@ -13,7 +13,7 @@ bcpow — Зведення в ступінь чисел із довільною 
 
 ### Опис
 
-**bcpow**(string `$num`, string `$exponent`, ?int `$scale` u003d
+**bcpow**(string `$num`, string `$exponent`, ?int `$scale` =
 **`null`**): string
 
 Зводить `num` у ступінь `exponent`.

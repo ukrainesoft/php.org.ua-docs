@@ -8,14 +8,14 @@ Phar-архіву
 
 # Phar::running
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::running — Отримати повний шлях на диску або повний URL
 запущеного Phar-архіву
 
 ### Опис
 
-final public static **Phar::running**(bool `$returnPhar` u003d **`true`**):
+final public static **Phar::running**(bool `$returnPhar` = **`true`**):
 string
 
 Повертає повний шлях запущеного архіву. Використовується для того
@@ -42,4 +42,4 @@ string
 Для наступного прикладу припустимо, що архів знаходиться на шляху
 `/path/to/phar/my.phar`.
 
-` <?php$a u003d Phar::running(); // $a рівно "phar:///path/to/my.phar"$b u003d Phar::running(false); // $b рівно "/path/to/my.phar"?> `
+` <?php$a = Phar::running(); // $a рівно "phar:///path/to/my.phar"$b = Phar::running(false); // $b рівно "/path/to/my.phar"?> `

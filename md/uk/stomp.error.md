@@ -9,7 +9,7 @@
 
 #stomp_error
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::error -- stomp_error — Повертає останню помилку Stomp
 
@@ -39,7 +39,7 @@ public **Stomp::error**(): string
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* підключення */try {    $stomp u003d new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->error());if (!$stomp->abort('unknown-transaction', array('receipt' u003d> 'foo'))) {    var_dump($stomp-> error());}/* Закриття з'єднання*/unset($stomp);?> `
+` <?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->error());if (!$stomp->abort('unknown-transaction', array('receipt' => 'foo'))) {    var_dump($stomp-> error());}/* Закриття з'єднання*/unset($stomp);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -48,7 +48,7 @@ string(43) "Invalid transaction id: unknown-transaction"
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link u003d stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_error($link));if (!stomp_abort($link, 'unknown-transaction', array('receipt' u003d> 'foo'))) {   var_dump(stomp_error($link));}/ * закриття з'єднання*/stomp_close($link);?> `
+` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_error($link));if (!stomp_abort($link, 'unknown-transaction', array('receipt' => 'foo'))) {   var_dump(stomp_error($link));}/ * закриття з'єднання*/stomp_close($link);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

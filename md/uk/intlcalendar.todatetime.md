@@ -7,7 +7,7 @@
 
 # IntlCalendar::toDateTime
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a2)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a2)
 
 IntlCalendar::toDateTime — Перетворює IntlCalendar на об'єкт DateTime
 
@@ -46,15 +46,15 @@ public **IntlCalendar::toDateTime**():
 
 **Приклад #1 Приклад використання **IntlCalendar::toDateTime()****
 
-` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'pt_PT');$cal u003d IntlCalendar::createInstance('Europe/Lisbon'); //current time$dt u003d $cal->toDateTime();print_r($dt); `
+` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'pt_PT');$cal = IntlCalendar::createInstance('Europe/Lisbon'); //current time$dt = $cal->toDateTime();print_r($dt); `
 
 Результат виконання цього прикладу:
 
 DateTime Object
 (
-[date] u003d> 2013-07-02 00:29:13
-[timezone_type] u003d> 3
-[timezone] u003d> Europe/Lisbon
+[date] => 2013-07-02 00:29:13
+[timezone_type] => 3
+[timezone] => Europe/Lisbon
 )
 
 ### Дивіться також

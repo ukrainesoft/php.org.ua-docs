@@ -7,7 +7,7 @@
 
 # Ds\Set::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::\_\_construct — Створює новий екземпляр класу
 
@@ -15,7 +15,7 @@ Ds\Set::\_\_construct — Створює новий екземпляр клас�
 
 public
 **Ds\Set::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$values` u003d [])
+`$values` = [])
 
 Створює новий екземпляр класу, використовуючи або об'єкт, що реалізує [traversable](class.traversable.md), або масив, передані в
 як параметр `values`.
@@ -29,17 +29,17 @@ public
 
 **Приклад #1 Приклад використання **Ds\Set::\_\_construct()****
 
-` <?php$set u003d new \Ds\Set();var_dump($set);$set u003d new \Ds\Set([1, 2, 3]);var_dump($set);?> `
+` <?php$set = new \Ds\Set();var_dump($set);$set = new \Ds\Set([1, 2, 3]);var_dump($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Set)#1 (0) {
 }
 object(Ds\Set)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

@@ -20,7 +20,7 @@
 
 **Приклад #1 Виконання запитів**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)"); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)"); `
 
 *Буферизація результатів запиту*
 
@@ -40,22 +40,22 @@ PHP-програми можуть вільно оперувати даними �
 
 **Приклад #2 Навігація по рядках буферизованої результуючої таблиці**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$result u003d $mysqli ->query("SELECT id FROM test ORDER BY id ASC");echo "Зворотний порядок...
-";for ($row_no u003d $result->num_rows - 1; $row_no >u003d 0; $row_no--) {    $result->data_seek($row_no);    $row u003d             id u003d " . $row['id'] . "
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$result = $mysqli ->query("SELECT id FROM test ORDER BY id ASC");echo "Зворотний порядок...
+";for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {    $result->data_seek($row_no);    $row =             id = " . $row['id'] . "
 ";}echo "Вихідний порядок рядків...
-";foreach ($result as $row) {    echo " id u003d " . $row['id'] . "
+";foreach ($result as $row) {    echo " id = " . $row['id'] . "
 ";} `
 
 Результат виконання цього прикладу:
 
 Зворотній порядок...
-id u003d 3
-id u003d 2
-id u003d 1
+id = 3
+id = 2
+id = 1
 Вихідний порядок рядків...
-id u003d 1
-id u003d 2
-id u003d 3
+id = 1
+id = 2
+id = 3
 
 *Небуферизовані результуючі набори*
 
@@ -68,8 +68,8 @@ id u003d 3
 **Приклад #3 Навігація по рядках небуферизованої результуючої
 таблиці**
 
-` <?php$mysqli->real_query("SELECT id FROM test ORDER BY id ASC");$result u003d $mysqli->use_result();echo "Порядок рядок в результуючому наборі...
-";foreach ($result as $row) {    echo " id u003d " . $row['id'] . "
+` <?php$mysqli->real_query("SELECT id FROM test ORDER BY id ASC");$result = $mysqli->use_result();echo "Порядок рядок в результуючому наборі...
+";foreach ($result as $row) {    echo " id = " . $row['id'] . "
 ";} `
 
 *Типи даних значень у результуючій таблиці*
@@ -90,14 +90,14 @@ id u003d 3
 
 **Приклад #4 Текстовий протокол за промовчанням повертає рядки**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT, label CHAR(1))");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'a')");$ resultu003du003d$mysqli->query("SELECT id, label FROM test WHERE id u003d 1");$row u003d $result->fetch_assoc();printf("id u003d %s (%s)
-", $row['id'], gettype($row['id']));printf("label u003d %s (%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT, label CHAR(1))");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'a')");$ result==$mysqli->query("SELECT id, label FROM test WHERE id = 1");$row = $result->fetch_assoc();printf("id = %s (%s)
+", $row['id'], gettype($row['id']));printf("label = %s (%s)
 ", $row['label'], gettype($row['label'])); `
 
 Результат виконання цього прикладу:
 
-id u003d 1 (string)
-label u003d a (string)
+id = 1 (string)
+label = a (string)
 
 Якщо використовується бібліотека mysqlnd, можна увімкнути перетворення
 цілісних значень і чисел з плаваючою точкою зі стовпців таблиці
@@ -110,14 +110,14 @@ PHP числа, якщо ці значення не виходять за рам
 
 **Приклад #5 Отримання вихідних типів даних у додатку**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli();$mysqli->options(MYSQLI_OPT_INT_AND_FLOAT_NATIVE,"",", database");$mysqli->query("DROP TABLE IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label CHAR(1))");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'a')");$result u003d $mysqli->query("SELECT id, label FROM test WHERE id u003d 1");$row u003d $result-> );printf("idu003du003d%s|(%s)
-", $row['id'], gettype($row['id']));printf("label u003d %s (%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli();$mysqli->options(MYSQLI_OPT_INT_AND_FLOAT_NATIVE,"",", database");$mysqli->query("DROP TABLE IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label CHAR(1))");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'a')");$result = $mysqli->query("SELECT id, label FROM test WHERE id = 1");$row = $result-> );printf("id==%s|(%s)
+", $row['id'], gettype($row['id']));printf("label = %s (%s)
 ", $row['label'], gettype($row['label'])); `
 
 Результат виконання цього прикладу:
 
-id u003d 1 (integer)
-label u003d a (string)
+id = 1 (integer)
+label = a (string)
 
 *Дивіться також*
 

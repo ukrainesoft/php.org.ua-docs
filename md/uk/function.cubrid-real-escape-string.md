@@ -7,7 +7,7 @@
 
 #cubrid_real_escape_string
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_real_escape_string — Екранування спеціальних символів у
 SQL-запит
@@ -15,7 +15,7 @@ SQL-запит
 ### Опис
 
 **cubrid_real_escape_string**(string `$unescaped_string`, resource
-`$conn_identifier` u003d ?): string
+`$conn_identifier` = ?): string
 
 Функція повертає екрановану версію переданого рядка. Вона
 екранує символи: **```**. В цілому, одинарна лапка використовується для
@@ -46,11 +46,11 @@ SQL-запит
 
 **Приклад #1 Приклад використання **cubrid_real_escape_string()****
 
-`` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$unescaped_str u003d ' !"#$%&\'()*+,-./0123456789:;<u003d>?@ABCDEFGHIJKLM []^_`abcdefghijklmnopqrstuvwxyz{|}~';$escaped_str u003dcubrid_real_escape_string($unescaped_str);$len u003d strlen($unescaped_str);@cubrid_execute($conn, "DROP CREATE TABLE cubrid_test (t char($len))");cubrid_execute($conn, "INSERT INTO cubrid_test (t) VALUES('$escaped_str')");$req u003d cubrid_execute  );$row u003d cubrid_fetch_assoc($req);var_dump($row);cubrid_close_request($req);cubrid_disconnect($conn);?> ``
+`` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$unescaped_str = ' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLM []^_`abcdefghijklmnopqrstuvwxyz{|}~';$escaped_str =cubrid_real_escape_string($unescaped_str);$len = strlen($unescaped_str);@cubrid_execute($conn, "DROP CREATE TABLE cubrid_test (t char($len))");cubrid_execute($conn, "INSERT INTO cubrid_test (t) VALUES('$escaped_str')");$req = cubrid_execute  );$row = cubrid_fetch_assoc($req);var_dump($row);cubrid_close_request($req);cubrid_disconnect($conn);?> ``
 
 Результат виконання цього прикладу:
 
 array(1) {
-["t"]u003d>
-string(95) " !"#$%&'()*+,-./0123456789:;<u003d>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
+["t"]=>
+string(95) " !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 }

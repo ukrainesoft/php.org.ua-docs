@@ -7,7 +7,7 @@
 
 # GearmanClient::setOptions
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setOptions — Встановлення налаштувань клієнта
 

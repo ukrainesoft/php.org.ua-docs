@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::endSession
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\Driver\Session::endSession - Завершує сеанс
 

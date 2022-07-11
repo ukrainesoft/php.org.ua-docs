@@ -8,7 +8,7 @@
 
 ## Часті питання (FAQ): речі, які вам необхідно знати про простори імен
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 Цей перелік питань поділено на дві частини: загальні питання та деякі
 особливості реалізації, які корисні більш повного розуміння.
@@ -51,26 +51,26 @@ TRUE, FALSE, ZEND_THREAD_SAFE або ZEND_DEBUG_BUILD](language.namespaces.faq.m
 
 **Приклад #1 Доступ до глобальних класів поза простором імен**
 
-` <?php$a u003d new \stdClass;?> `
+` <?php$a = new \stdClass;?> `
 
 Це функціонально еквівалентно наступному:
 
 **Приклад #2 Доступ до глобальних класів поза простором імен**
 
-` <?php$a u003d new stdClass;?> `
+` <?php$a = new stdClass;?> `
 
 ### Як мені використовувати внутрішні чи глобальні класи у просторі імен?
 
 **Приклад #3 Доступ до внутрішніх класів у просторах імен**
 
-`<?phpnamespace foo;$a u003d new \stdClass;function test(\ArrayObject $parameter_type_example u003d null) {}$a u003d \DirectoryIterator::CURRENT_AS_FILEINFO;// розширення        ¦
+`<?phpnamespace foo;$a = new \stdClass;function test(\ArrayObject $parameter_type_example = null) {}$a = \DirectoryIterator::CURRENT_AS_FILEINFO;// розширення        ¦
 
 ### Як мені використовувати функції класів у просторах імен або константи у їхньому власному просторі імен?
 
 **Приклад #4 Доступ до внутрішніх класів, функцій або константів у
 просторах імен**
 
-` <?phpnamespace foo;class MyClass {}// использование класса из текущего пространства имен в качестве типа параметраfunction test(MyClass $parameter_type_example u003d null) {}// другой способ использовать класс из текущего пространства имен в качестве типа параметраfunction test(oo\ MyClass $parameter_type_example u003d null) {}// розширення класу з поточного простору іменclass Extended extends MyClass {}// доступ к глобальної функції$a u003d \   
+` <?phpnamespace foo;class MyClass {}// использование класса из текущего пространства имен в качестве типа параметраfunction test(MyClass $parameter_type_example = null) {}// другой способ использовать класс из текущего пространства имен в качестве типа параметраfunction test(oo\ MyClass $parameter_type_example = null) {}// розширення класу з поточного простору іменclass Extended extends MyClass {}// доступ к глобальної функції$a = \   
 
 ### Як таке ім'я як `\my
 ame` або `
@@ -84,9 +84,9 @@ ame`, та
 
 **Приклад #5 Абсолютні імена**
 
-` <?phpnamespace foo;$a u003d new \my
+` <?phpnamespace foo;$a = new \my
 ame(); // створює примірник класу "my
-ame"echo \strlen('hi'); // викликає функцію "strlen"$a u003d \INI_ALL; // змінної $a присвоюється значення константи "INI_ALL"?> `
+ame"echo \strlen('hi'); // викликає функцію "strlen"$a = \INI_ALL; // змінної $a присвоюється значення константи "INI_ALL"?> `
 
 ### Як таке ім'я, як `my
 ame` перетворюється?
@@ -105,9 +105,9 @@ ame`.
 
 **Приклад #6 Повні імена**
 
-`<?phpnamespace foo;use blah lah as foo;$a u003d new my
+`<?phpnamespace foo;use blah lah as foo;$a = new my
 ame(); // створює примірник класу "foo\my
-ame"foo ar::name(); // викликає статичний метод "name" в класі "blah lah ar"my ar(); // викликає функцію "foo\my ar"$a u003d my\ BAR; // присвоює змінної $a значення константи "foo\my\BAR"?> `
+ame"foo ar::name(); // викликає статичний метод "name" в класі "blah lah ar"my ar(); // викликає функцію "foo\my ar"$a = my\ BAR; // присвоює змінної $a значення константи "foo\my\BAR"?> `
 
 ### Як неповне ім'я класу таке як `name` перетворюється?
 
@@ -122,7 +122,7 @@ ame"foo ar::name(); // викликає статичний метод "name
 
 **Приклад #7 Неповні імена класів**
 
-`<?phpnamespace foo;use blah lah as foo;$a u003d new name(); // створює примірник класу "foo
+`<?phpnamespace foo;use blah lah as foo;$a = new name(); // створює примірник класу "foo
 ame"foo::name(); // викликає статичний метод "name" в класі "blah lah"?> `
 
 ### Як неповне ім'я функції або неповне ім'я константи таке як 'name' перетворюється?
@@ -138,7 +138,7 @@ ame"foo::name(); // викликає статичний метод "name" 
 
 **Приклад #8 Неповні імена функцій або констант**
 
-`<?phpnamespace foo;use blah lah as foo;const FOO u003d 1;function my() {}function foo() {}function sort(&$a){    \sort($a); // викликає глобальну функцію "sort"   $a u003d array_flip($a); return $a;} my (); // викликає "foo\my"$a u003d strlen('hi'); // викликає глобальну функцію "strlen", потому "foo\strlen" не існує$arr u003d array(1,3,2);$b u003d sort($arr); // викликає функцію "foo\sort"$c u003d foo(); // викликає функцію "foo oo" - імпорт не застосовується$a u003d FOO; // привласнює змінною $a значення константи "foo\FOO" - імпорт не застосовується$b u003d INI_ALL; // привласнює змінною $b значення глобальної константи "INI_ALL"?> `
+`<?phpnamespace foo;use blah lah as foo;const FOO = 1;function my() {}function foo() {}function sort(&$a){    \sort($a); // викликає глобальну функцію "sort"   $a = array_flip($a); return $a;} my (); // викликає "foo\my"$a = strlen('hi'); // викликає глобальну функцію "strlen", потому "foo\strlen" не існує$arr = array(1,3,2);$b = sort($arr); // викликає функцію "foo\sort"$c = foo(); // викликає функцію "foo oo" - імпорт не застосовується$a = FOO; // привласнює змінною $a значення константи "foo\FOO" - імпорт не застосовується$b = INI_ALL; // привласнює змінною $b значення глобальної константи "INI_ALL"?> `
 
 ### Імпортовані імена не повинні конфліктувати з класами, визначеними в тому ж файлі.
 
@@ -154,7 +154,7 @@ another.php
 
 file2.php
 
-`<?phpnamespace my\stuff;include 'file1.php';include 'another.php';use another hing as MyClass;$a u003d new MyClass; // створює примірник класу "thing" з простору імен "another"?> `
+`<?phpnamespace my\stuff;include 'file1.php';include 'another.php';use another hing as MyClass;$a = new MyClass; // створює примірник класу "thing" з простору імен "another"?> `
 
 Конфлікт імен відсутній навіть незважаючи на те, що клас `MyClass`
 існує всередині простору імен `my\stuff`, тому що визначення
@@ -162,7 +162,7 @@ MyClass знаходиться в окремому файлі. Однак нас
 фатальної помилки з конфліктом імен, тому що клас MyClass визначений у
 тому ж файлі, де знаходиться оператор use.
 
-`<?phpnamespace my\stuff;use another hing as MyClass;class MyClass {} // фатальна помилка: MyClass конфліктує з вираженням імпорту$a u003d new MyClass;
+`<?phpnamespace my\stuff;use another hing as MyClass;class MyClass {} // фатальна помилка: MyClass конфліктує з вираженням імпорту$a = new MyClass;
 
 ### Вкладені простори імен неприпустимі.
 
@@ -185,9 +185,9 @@ ested {    class foo {}}?> `
 **Приклад #9 Підводне каміння при використанні імені простору імен
 усередині рядка з подвійними лапками**
 
-` <?php$a u003d "dangerous
+` <?php$a = "dangerous
 ame"; //
-- це перехід на новий рядок внутрі рядки з подвійними лапками!$obj u003d new $a;$a u003d 'not t ll\dangerous'; // а тут немає проблем.$obj u003d new $a;?> `
+- це перехід на новий рядок внутрі рядки з подвійними лапками!$obj = new $a;$a = 'not t ll\dangerous'; // а тут немає проблем.$obj = new $a;?> `
 
 Усередині рядків, укладених в одинарні лапки, зворотний сліш як
 роздільника більш безпечний, але, як і раніше, рекомендована практика
@@ -204,7 +204,7 @@ ame"; //
 
 **Приклад #10 Невизначені константи**
 
-`<?phpnamespace bar;$a u003d FOO; // виводить попередження: undefined constants "FOO" assumed "FOO";$a u003d \FOO; // фатальна помилка: undefined namespace constant FOO$a u003d Bar\FOO; // фатальна помилка: undefined namespace constant bar\Bar\FOO$a u003d \Bar\FOO; // фатальна помилка: undefined namespace constant Bar\FOO?> `
+`<?phpnamespace bar;$a = FOO; // виводить попередження: undefined constants "FOO" assumed "FOO";$a = \FOO; // фатальна помилка: undefined namespace constant FOO$a = Bar\FOO; // фатальна помилка: undefined namespace constant bar\Bar\FOO$a = \Bar\FOO; // фатальна помилка: undefined namespace constant Bar\FOO?> `
 
 ### Неможливо перевизначити спеціальні константи, такі як NULL, TRUE, FALSE, ZEND_THREAD_SAFE або ZEND_DEBUG_BUILD
 
@@ -214,4 +214,4 @@ ame"; //
 
 **Приклад #11 Невизначені константи**
 
-`<?phpnamespace bar;const NULL u003d 0; // Фатальна помилка;const true u003d 'stupid'; // також фатальна помилка;// і т.д.?> `
+`<?phpnamespace bar;const NULL = 0; // Фатальна помилка;const true = 'stupid'; // також фатальна помилка;// і т.д.?> `

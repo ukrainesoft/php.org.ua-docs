@@ -15,7 +15,7 @@
 2. Виконайте команду:
 
 `` cmdcode
-php.exe -n -d extensionu003dphp_wincache.dll -re wincache
+php.exe -n -d extension=php_wincache.dll -re wincache
 ````
 
 Якщо модуль зібраний правильно, у виведенні цієї команди буде показано

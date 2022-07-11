@@ -7,13 +7,13 @@
 
 # Parle\RParser::sigil
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::sigil — Витягує збіговуся частину за правилом
 
 ### Опис
 
-public **Parle\RParser::sigil**(int `$idx` u003d ?): string
+public **Parle\RParser::sigil**(int `$idx` = ?): string
 
 Повертає частину збігу за правилом. Метод еквівалентний
 функціональність псевдозмінних в Bison.

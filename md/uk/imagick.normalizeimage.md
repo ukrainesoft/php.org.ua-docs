@@ -13,7 +13,7 @@ Imagick::normalizeImage — Підвищує контраст кольорово
 
 ### Опис
 
-public **Imagick::normalizeImage**(int `$channel` u003d
+public **Imagick::normalizeImage**(int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Підвищує контрастність кольорового зображення, регулюючи колір пікселів
@@ -35,4 +35,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::normalizeImage()****
 
-` <?phpfunction normalizeImage($imagePath, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $originalu003du003dclone$imagick; $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0); $imagick->normalizeImage($channel); $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction normalizeImage($imagePath, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $original==clone$imagick; $original->cropimage($original->getImageWidth() / 2, $original->getImageHeight(), 0, 0); $imagick->normalizeImage($channel); $imagick->compositeimage($original, \Imagick::COMPOSITE_ATOP, 0, 0); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

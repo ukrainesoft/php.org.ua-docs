@@ -8,7 +8,7 @@
 
 #grapheme_stristr
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 grapheme_stristr — Повертає частину рядка haystack від першої появи
 needle без урахування регістру до кінця haystack
@@ -18,7 +18,7 @@ needle без урахування регістру до кінця haystack
 Процедурний стиль
 
 **grapheme_stristr**(string `$haystack`, string `$needle`, bool
-`$beforeNeedle` u003d **`false`**): string\|false
+`$beforeNeedle` = **`false`**): string\|false
 
 Повертає частину рядка haystack від першої появи needle без урахування
 регістру до кінця haystack.
@@ -44,7 +44,7 @@ needle без урахування регістру до кінця haystack
 
 **Приклад #1 Приклад використання **grapheme_stristr()****
 
-` <?php$char_a_ring_nfdu003du003d"a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd u003d"o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"$char_O_diaeresis_nfd u003d"O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"print urlencode(grapheme_stristr( $char_a_ring_nfd . $char_o_diaeresis_n_$_;
+` <?php$char_a_ring_nfd=="a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd ="o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"$char_O_diaeresis_nfd ="O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"print urlencode(grapheme_stristr( $char_a_ring_nfd . $char_o_diaeresis_n_$_;
 
 Результат виконання цього прикладу:
 

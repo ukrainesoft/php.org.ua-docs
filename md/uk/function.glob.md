@@ -7,13 +7,13 @@
 
 # glob
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 glob — Знаходить файлові шляхи, що збігаються із шаблоном
 
 ### Опис
 
-**glob**(string `$pattern`, int `$flags` u003d 0): array\|false
+**glob**(string `$pattern`, int `$flags` = 0): array\|false
 
 Функція **glob()** шукає всі шляхи, що збігаються із шаблоном `pattern`
 згідно з правилами, що використовуються у функції glob() бібліотеки libc,

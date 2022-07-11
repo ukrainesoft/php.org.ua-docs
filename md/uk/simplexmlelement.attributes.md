@@ -13,8 +13,8 @@ SimpleXMLElement::attributes — Повертає атрибути елемен�
 
 ### Опис
 
-public **SimpleXMLElement::attributes**(?string `$namespaceOrPrefix` u003d
-**`null`**, bool `$isPrefix` u003d **`false`**):
+public **SimpleXMLElement::attributes**(?string `$namespaceOrPrefix` =
+**`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 Ця функція повертає назви та значення атрибутів, визначені в
@@ -47,13 +47,13 @@ public **SimpleXMLElement::attributes**(?string `$namespaceOrPrefix` u003d
 
 **Приклад #1 Інтерпретація XML-рядка**
 
-` <?php$string u003d <<<XML<a> <foo nameu003d"one" gameu003d"lonely">1</foo></a>XML;$xml u003d simplexml_load_string($string);foreach($ xml->foo[0]->attributes() as $a u003d> $b) {    echo $a,'u003d"',$b,"\"
+` <?php$string = <<<XML<a> <foo name="one" game="lonely">1</foo></a>XML;$xml = simplexml_load_string($string);foreach($ xml->foo[0]->attributes() as $a => $b) {    echo $a,'="',$b,"\"
 ";}?> `
 
 Результат виконання цього прикладу:
 
-nameu003d"one"
-gameu003d"lonely"
+name="one"
+game="lonely"
 
 ### Дивіться також
 

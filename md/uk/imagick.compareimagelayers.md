@@ -41,7 +41,7 @@ public **Imagick::compareImageLayers**(int `$method`):
 
 Порівняння шарів зображення
 
-`<?php/* створення новий об'єкт imagick */$im u003d new Imagick("test.gif");/* оптимізування шари зображення */$result u003d $im->compareImageLayers(imagick:_MA:: з $result */?> `
+`<?php/* створення новий об'єкт imagick */$im = new Imagick("test.gif");/* оптимізування шари зображення */$result = $im->compareImageLayers(imagick:_MA:: з $result */?> `
 
 ### Дивіться також
 

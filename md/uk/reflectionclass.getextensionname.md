@@ -32,7 +32,7 @@ public **ReflectionClass::getExtensionName**(): string\|false
 **Приклад #1 Приклад використання
 **ReflectionClass::getExtensionName()****
 
-` <?php$class u003d new ReflectionClass('ReflectionClass');$extension u003d $class->getExtensionName();var_dump($extension);?> `
+` <?php$class = new ReflectionClass('ReflectionClass');$extension = $class->getExtensionName();var_dump($extension);?> `
 
 Результат виконання цього прикладу:
 

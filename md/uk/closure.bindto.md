@@ -8,7 +8,7 @@
 
 # Closure::bindTo
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 Closure::bindTo — Дублює замикання із зазначенням пов'язаного об'єкта та
 області видимості класу
@@ -16,7 +16,7 @@ Closure::bindTo — Дублює замикання із зазначенням 
 ### Опис
 
 public **Closure::bindTo**(?object `$newThis`, object\|string\|null
-$newScope u003d "static"): ?[Closure](class.closure.md)
+$newScope = "static"): ?[Closure](class.closure.md)
 
 Створює та повертає нову [анонімну функцію](functions.anonymous.md)
 з тим же тілом функції та пов'язаними змінними, але з іншим пов'язаним
@@ -70,8 +70,8 @@ protected (захищених) та private (закритих) методів п
 
 **Приклад #1 Приклад **Closure::bindTo()****
 
-` <?phpclass A {    function __construct($val) {        $this->val u003d $val; }    function getClosure() {        //повертає замикання, пов'язане з поточними об'єктом і областю видимості tur|re| }; }}$ob1 u003d new A(1);$ob2 u003d new A(2);$cl u003d $ob1->getClosure();echo $cl(), "
-";$cl u003d $cl->bindTo($ob2);echo $cl(), "
+` <?phpclass A {    function __construct($val) {        $this->val = $val; }    function getClosure() {        //повертає замикання, пов'язане з поточними об'єктом і областю видимості tur|re| }; }}$ob1 = new A(1);$ob2 = new A(2);$cl = $ob1->getClosure();echo $cl(), "
+";$cl = $cl->bindTo($ob2);echo $cl(), "
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

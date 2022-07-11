@@ -7,7 +7,7 @@
 
 # EventBase::getMethod
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::getMethod — Повертає використовуваний метод події
 
@@ -27,8 +27,8 @@ public **EventBase::getMethod**(): string
 
 **Приклад #1 Приклад використання **EventBase::getMethod()****
 
-` <?php$cfg u003d new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
-";}// Створюємо базу подій, з конфігурацією$baseu003du003dnew EventBase($cfg);echo "Використовуваний метод події: ", $base->getMethod(), PHP_E;
+` <?php$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
+";}// Створюємо базу подій, з конфігурацією$base==new EventBase($cfg);echo "Використовуваний метод події: ", $base->getMethod(), PHP_E;
 
 Результатом виконання цього прикладу буде щось подібне:
 

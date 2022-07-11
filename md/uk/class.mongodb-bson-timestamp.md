@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Timestamp
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 

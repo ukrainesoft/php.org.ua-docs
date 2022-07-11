@@ -7,7 +7,7 @@
 
 # Gmagick::shearimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::shearimage — Створює паралелограм
 

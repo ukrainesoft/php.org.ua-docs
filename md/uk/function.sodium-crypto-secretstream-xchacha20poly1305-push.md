@@ -8,7 +8,7 @@
 
 # sodium_crypto_secretstream_xchacha20poly1305_push
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_secretstream_xchacha20poly1305_push — Шифрує фрагмент
 даних, щоб його можна було безпечно розшифрувати в потоковому API
@@ -18,8 +18,8 @@ sodium_crypto_secretstream_xchacha20poly1305_push — Шифрує фрагме�
 **sodium_crypto_secretstream_xchacha20poly1305_push**(
 string `&$state`,
 string `$message`,
-string `$additional_data` u003d "",
-int `$tag` u003d
+string `$additional_data` = "",
+int `$tag` =
 **`SODIUM_CRYPTO_SECRETSTREAM_XCHACHA20POLY1305_TAG_MESSAGE`**
 ): string
 

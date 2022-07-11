@@ -13,7 +13,7 @@ odbc_autocommit — Перемикає поведінку автоматично
 
 ### Опис
 
-**odbc_autocommit**(resource `$odbc`, bool `$enable` u003d **`false`**):
+**odbc_autocommit**(resource `$odbc`, bool `$enable` = **`false`**):
 int\|bool
 
 Перемикає поведінку автоматичної фіксації.

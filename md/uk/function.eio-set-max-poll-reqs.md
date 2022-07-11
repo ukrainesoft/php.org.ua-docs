@@ -7,7 +7,7 @@
 
 #eio_set_max_poll_reqs
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_set_max_poll_reqs — Встановлює максимальну кількість
 оброблюваних запитів

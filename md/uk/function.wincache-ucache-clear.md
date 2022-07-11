@@ -7,7 +7,7 @@
 
 #wincache_ucache_clear
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_clear — Видаляє весь вміст кешу користувача.
 
@@ -30,15 +30,15 @@ wincache_ucache_clear — Видаляє весь вміст кешу корис
 
 **Приклад #1 Приклад використання **wincache_ucache_clear()****
 
-` <?phpwincache_ucache_set('green', 1);wincache_ucache_set('red', 2);wincache_ucache_set('orange', 4);wincache_ucache_set('blue', 8);wincache_ucache_set('1') u003d array('green', 'red', 'orange', 'blue', 'cyan');var_dump(wincache_ucache_get($array1));var_dump(wincache_ucache_clear());var_dump(wincache_ucache_get($arra) > `
+` <?phpwincache_ucache_set('green', 1);wincache_ucache_set('red', 2);wincache_ucache_set('orange', 4);wincache_ucache_set('blue', 8);wincache_ucache_set('1') = array('green', 'red', 'orange', 'blue', 'cyan');var_dump(wincache_ucache_get($array1));var_dump(wincache_ucache_clear());var_dump(wincache_ucache_get($arra) > `
 
 Результат виконання цього прикладу:
 
-array(5) { ["green"]u003d> int(1)
-["red"]u003d> int(2)
-["orange"]u003d> int(4)
-["blue"]u003d> int(8)
-["cyan"]u003d> int(16) }
+array(5) { ["green"]=> int(1)
+["red"]=> int(2)
+["orange"]=> int(4)
+["blue"]=> int(8)
+["cyan"]=> int(16) }
 bool(true)
 bool(false)
 

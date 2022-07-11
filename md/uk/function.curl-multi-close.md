@@ -35,9 +35,9 @@ curl_multi_close — Закриває набір cURL-дескрипторів
 
 ### Список змін
 
-| Версія | Опис                                                                        |
-| ------ | --------------------------------------------------------------------------- |
-| 8.0.0  | `multi_handle` тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
+| Версія | Опис                                                                      |
+| ------ | ------------------------------------------------------------------------- |
+| 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
@@ -46,7 +46,7 @@ curl_multi_close — Закриває набір cURL-дескрипторів
 Цей приклад створить два дескриптори cURL, додасть їх до набору
 дескрипторів, а потім запустить їх асинхронно.
 
-`<?php// створюємо обидва ресурсу cURL$ch1 u003d curl_init();$ch2 u003d curl_init();// встановлюємо URL і інші відповідні опціїcurl_setopt($ch1, );curl_setopt($ch1, CURLOPT_HEADER, 0);curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");curl_setopt($ch2, CURLOPT_HEADER, 0);// створ mh u003d curl_multi_init();//додаємо два дескриптораcurl_multi_add_handle($mh,$ch1);curl_multi_add_handle($mh,$ch2);//запускаємо множинний обробникdo $ if ($active) {        curl_multi_select($mh); }} while ($active && $status u003du003du003dCURLM_OK);//закриваємо вседескрипториcurl_multi_remove_handle($mh, $ch1);curl_close($ch1);curl_multi_remove_handle$$ $mh);?> `
+`<?php// створюємо обидва ресурсу cURL$ch1 = curl_init();$ch2 = curl_init();// встановлюємо URL і інші відповідні опціїcurl_setopt($ch1, );curl_setopt($ch1, CURLOPT_HEADER, 0);curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");curl_setopt($ch2, CURLOPT_HEADER, 0);// створ mh = curl_multi_init();//додаємо два дескриптораcurl_multi_add_handle($mh,$ch1);curl_multi_add_handle($mh,$ch2);//запускаємо множинний обробникdo $ if ($active) {        curl_multi_select($mh); }} while ($active && $status ===CURLM_OK);//закриваємо вседескрипториcurl_multi_remove_handle($mh, $ch1);curl_close($ch1);curl_multi_remove_handle$$ $mh);?> `
 
 ### Дивіться також
 

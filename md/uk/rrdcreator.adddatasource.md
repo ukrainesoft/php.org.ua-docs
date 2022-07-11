@@ -7,7 +7,7 @@
 
 # RRDCreator::addDataSource
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDCreator::addDataSource — Додає визначення джерела даних для
 бази даних RRD

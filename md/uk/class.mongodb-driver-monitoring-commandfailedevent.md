@@ -9,7 +9,7 @@ em[MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName »](MongoDB\Driv
 
 # Клас MongoDB\Driver\Monitoring\CommandFailedEvent
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 ## Вступ
 

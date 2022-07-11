@@ -16,10 +16,10 @@ SoapServer::fault — Вимушує SoapServer повернути помилк�
 public **SoapServer::fault**(
 string `$code`,
 string `$string`,
-string `$actor` u003d "",
+string `$actor` = "",
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` u003d **`null`**,
-string `$name` u003d ""
+`$details` = **`null`**,
+string `$name` = ""
 ): void
 
 Надсилає клієнту відповідь на поточний запит із повідомленням про помилку.

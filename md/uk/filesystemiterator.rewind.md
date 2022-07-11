@@ -7,7 +7,7 @@
 
 # FilesystemIterator::rewind
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::rewind — Переміщення вказівника на початок
 
@@ -29,7 +29,7 @@ public **FilesystemIterator::rewind**(): void
 
 **Приклад #1 Приклад використання **FilesystemIterator::rewind()****
 
-` <?php$iterator u003d new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);echo $iterator->key() . "
+` <?php$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);echo $iterator->key() . "
 ";$iterator->next();echo $iterator->key() . "
 ";$iterator->rewind();echo $iterator->key() . "
 ";?> `

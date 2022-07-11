@@ -49,7 +49,7 @@ mysql_field_table — Повертає назву таблиці, якій на�
 
 **Приклад #1 Приклад використання **mysql_field_table()****
 
-`<?php$query u003d "SELECT account.*, country.*FROM account, country WHERE country.name u003d 'Portugal' AND account.country_id u003d накопичувачів.id" $query);// виводить ім'я таблиці і ім'я поляfor ($i u003d 0; $i < mysql_num_fields($result); ++$i) {    $table u003d mysql_field_table $field u003d mysql_field_name($result, $i); echo  "$table: $field
+`<?php$query = "SELECT account.*, country.*FROM account, country WHERE country.name = 'Portugal' AND account.country_id = накопичувачів.id" $query);// виводить ім'я таблиці і ім'я поляfor ($i = 0; $i < mysql_num_fields($result); ++$i) {    $table = mysql_field_table $field = mysql_field_name($result, $i); echo  "$table: $field
 ";}?> `
 
 ### Примітки

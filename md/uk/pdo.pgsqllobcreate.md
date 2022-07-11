@@ -7,7 +7,7 @@
 
 # PDO::pgsqlLOBCreate
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql u003d 1.0.2)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql = 1.0.2)
 
 PDO::pgsqlLOBCreate — Створити новий великий об'єкт (LOB)
 
@@ -49,7 +49,7 @@ OID можна зберегти в стовпці типу OID і викорис
 У цьому прикладі створюється LOB і заповнюється даними з файлу. Після цього
 його OID зберігається у таблиці.
 
-` <?php$db u003d new PDO('pgsql:dbnameu003dtest hostu003dlocalhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$oidu003du003d$db->pgsqlLOBCreate();$streamu003du003d$db->pgsqlLOBOpen($oid, 'w');$local u003d fopen($filename, rb');stream_copy_to_stream($local, $ stream);$localu003du003dnull;$streamu003du003dnull;$stmtu003du003d$db->prepare("INSERT INTO BLOBS (ident, oid) VALUES (?, ?)");$stmt->execute(array($so , $oid));$db->commit();?> `
+` <?php$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$oid==$db->pgsqlLOBCreate();$stream==$db->pgsqlLOBOpen($oid, 'w');$local = fopen($filename, rb');stream_copy_to_stream($local, $ stream);$local==null;$stream==null;$stmt==$db->prepare("INSERT INTO BLOBS (ident, oid) VALUES (?, ?)");$stmt->execute(array($so , $oid));$db->commit();?> `
 
 ### Дивіться також
 

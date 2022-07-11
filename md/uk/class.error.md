@@ -19,23 +19,23 @@ class **Error** implements [Throwable](class.throwable.md) {
 
 /\* Властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Методи \*/
 
-public [\_\_construct](error.construct.md)(string `$message` u003d "", int
-`$code` u003d 0, ?[Throwable](class.throwable.md) `$previous` u003d
+public [\_\_construct](error.construct.md)(string `$message` = "", int
+`$code` = 0, ?[Throwable](class.throwable.md) `$previous` =
 **`null`**)
 
 final public [getMessage](error.getmessage.md)(): string

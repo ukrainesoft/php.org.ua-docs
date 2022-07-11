@@ -7,7 +7,7 @@
 
 # EventBase::getFeatures
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::getFeatures — Повертає бітову маску підтримуваних функцій
 
@@ -32,8 +32,8 @@ public **EventBase::getFeatures**(): int
 **Приклад #1 Приклад використання **EventBase::getFeatures()****
 
 ` <?php// Avoiding "select"
-";}$base u003d new EventBase($cfg);echo "Характеристики:
-";$features u003d $base->getFeatures();($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO
+";}$base = new EventBase($cfg);echo "Характеристики:
+";$features = $base->getFeatures();($features & EventConfig::FEATURE_ET) and print("ET - edge-triggered IO
 ");($features & EventConfig::FEATURE_O1) and print("O1 - O(1) operation for adding/deletting events
 ");($features & EventConfig::FEATURE_FDS) and print("FDS - arbitrary file descriptor types, and not just sockets
 ");?> `

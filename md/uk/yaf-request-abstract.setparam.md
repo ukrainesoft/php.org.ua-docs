@@ -7,7 +7,7 @@
 
 # Yaf_Request_Abstract::setParam
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::setParam — Встановлює параметр дзвінка для
 запиту
@@ -15,7 +15,7 @@ Yaf_Request_Abstract::setParam — Встановлює параметр дзв�
 ### Опис
 
 public **Yaf_Request_Abstract::setParam**(string `$name`, string
-$value u003d ?): bool
+$value = ?): bool
 
 Встановлює параметр для запиту, який можна отримати за допомогою
 [Yaf_Request_Abstract::getParam()](yaf-request-abstract.getparam.md)

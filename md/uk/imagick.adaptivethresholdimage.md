@@ -42,4 +42,4 @@ int `$offset`): bool
 
 **Приклад #1 Приклад використання **Imagick::adaptiveThresholdImage()****
 
-` <?phpfunction adaptiveThresholdImage($imagePath, $width, $height, $adaptiveOffset) {    $imagick u003d new \Imagick(realpath($imagePath)); $adaptiveOffsetQuantumu003du003dintval($adaptiveOffset**Imagick::getQuantum()); $imagick->adaptiveThresholdImage($width, $height, $adaptiveOffsetQuantum); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction adaptiveThresholdImage($imagePath, $width, $height, $adaptiveOffset) {    $imagick = new \Imagick(realpath($imagePath)); $adaptiveOffsetQuantum==intval($adaptiveOffset**Imagick::getQuantum()); $imagick->adaptiveThresholdImage($width, $height, $adaptiveOffsetQuantum); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

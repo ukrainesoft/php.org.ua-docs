@@ -7,7 +7,7 @@
 
 # SolrClient::system
 
-(PECL solr \>u003d 2.0.0)
+(PECL solr \>= 2.0.0)
 
 SolrClient::system — Отримує інформацію про сервер Solr
 

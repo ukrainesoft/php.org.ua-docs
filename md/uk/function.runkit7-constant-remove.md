@@ -7,7 +7,7 @@
 
 # runkit7_constant_remove
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_constant_remove — Видаляє вже певну константу
 

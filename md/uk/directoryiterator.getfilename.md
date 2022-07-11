@@ -35,7 +35,7 @@ public **DirectoryIterator::getFilename**(): string
 Приклад виведе список вмісту директорії, що містить виконуваний
 скрипт.
 
-` <?php$dir u003d new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    echo $fileinfo->getFilename() . "
+` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    echo $fileinfo->getFilename() . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

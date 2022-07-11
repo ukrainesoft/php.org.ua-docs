@@ -7,7 +7,7 @@
 
 # CommonMark\Parser::parse
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Parser::parse — Розбір
 

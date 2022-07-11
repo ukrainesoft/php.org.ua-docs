@@ -17,7 +17,7 @@ public
 **ZMQDevice::setIdleCallback**([callable](language.types.callable.md)
 `$cb_func`, int `$timeout`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data` u003d ?): [ZMQDevice](class.zmqdevice.md)
+`$user_data` = ?): [ZMQDevice](class.zmqdevice.md)
 
 Встановлює callback-функцію бездіяльності. Якщо встановлено час очікування
 простою, то ця функція буде запущена, якщо цикл опитування не отримає жодного

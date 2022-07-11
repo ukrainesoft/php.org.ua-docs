@@ -9,7 +9,7 @@
 
 #stomp_set_read_timeout
 
-(PECL stomp \>u003d 0.3.0)
+(PECL stomp \>= 0.3.0)
 
 Stomp::setReadTimeout -- stomp_set_read_timeout -- Встановлює
 граничний час очікування операції читання
@@ -18,13 +18,13 @@ Stomp::setReadTimeout -- stomp_set_read_timeout -- Встановлює
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::setReadTimeout**(int `$seconds`, int `$microseconds` u003d
+public **Stomp::setReadTimeout**(int `$seconds`, int `$microseconds` =
 ?): void
 
 Процедурний стиль:
 
 **stomp_set_read_timeout**(resource `$link`, int `$seconds`, int
-`$microseconds` u003d ?): void
+`$microseconds` = ?): void
 
 Встановлює граничний час очікування операції читання.
 
@@ -48,8 +48,8 @@ public **Stomp::setReadTimeout**(int `$seconds`, int `$microseconds` u003d
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?php/* підключення */try {    $stomp u003d new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}$stomp->setReadTimeout(10);/* закриття підключення */unset($stomp);?> `
+`<?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}$stomp->setReadTimeout(10);/* закриття підключення */unset($stomp);?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link u003d stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка підключення: ' . . . . ;}stomp_set_read_timeout($link, 10);/* закриття підключення */stomp_close($link);?> `
+` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка підключення: ' . . . . ;}stomp_set_read_timeout($link, 10);/* закриття підключення */stomp_close($link);?> `

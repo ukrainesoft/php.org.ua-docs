@@ -7,7 +7,7 @@
 
 # ssh2_publickey_remove
 
-(PECL ssh2 \>u003d 0.10)
+(PECL ssh2 \>= 0.10)
 
 ssh2_publickey_remove — Видаляє авторизований відкритий ключ
 

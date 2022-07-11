@@ -7,7 +7,7 @@
 
 # Parle\RParser::nonassoc
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::nonassoc — Оголошує токен без асоціативності
 

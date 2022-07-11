@@ -7,7 +7,7 @@
 
 #gnupg_clearencryptkeys
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_clearencryptkeys — Видаляє всі ключі, встановлені для
 шифрування раніше
@@ -32,9 +32,9 @@ gnupg_clearencryptkeys — Видаляє всі ключі, встановле�
 **Приклад #1 Процедурний приклад використання
 **gnupg_clearencryptkeys()****
 
-` <?php$res u003d gnupg_init();gnupg_clearencryptkeys($res);?> `
+` <?php$res = gnupg_init();gnupg_clearencryptkeys($res);?> `
 
 **Приклад #2 Об'єктно-орієнтований приклад використання
 **gnupg_clearencryptkeys()****
 
-` <?php$gpg u003d new gnupg();$gpg->clearencryptkeys();?> `
+` <?php$gpg = new gnupg();$gpg->clearencryptkeys();?> `

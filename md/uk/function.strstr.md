@@ -13,7 +13,7 @@ strstr — Знаходить перше входження підрядка
 
 ### Опис
 
-**strstr**(string `$haystack`, string `$needle`, bool `$before_needle` u003d
+**strstr**(string `$haystack`, string `$needle`, bool `$before_needle` =
 **`false`**): string\|false
 
 Повертає рядок рядка `haystack`, починаючи з першого входження
@@ -53,16 +53,16 @@ strstr — Знаходить перше входження підрядка
 
 ### Список змін
 
-| Версія | Опис                                                            |
-| ------ | --------------------------------------------------------------- |
-| 8.0.0  | Передача цілого числа (int) у `needle` більше не підтримується. |
-| 7.3.0  | Передача цілого числа (int) у `needle` оголошена застарілою.    |
+| Версія | Опис                                                          |
+| ------ | ------------------------------------------------------------- |
+| 8.0.0  | Передача цілого числа (int) у needle більше не підтримується. |
+| 7.3.0  | Передача цілого числа (int) у needle оголошена застарілою.    |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **strstr()****
 
-` <?php$email u003du003d'name@example.com';$domainu003du003dstrstr($email, '@');echo $domain; // виводить @example.com$user u003d strstr($email, '@', true);echo $user; // виводить name?> `
+` <?php$email =='name@example.com';$domain==strstr($email, '@');echo $domain; // виводить @example.com$user = strstr($email, '@', true);echo $user; // виводить name?> `
 
 ### Дивіться також
 

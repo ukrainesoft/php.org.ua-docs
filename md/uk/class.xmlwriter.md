@@ -7,7 +7,7 @@
 
 # Клас XMLWriter
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 ## Вступ
 
@@ -37,7 +37,7 @@ public [endElement](xmlwriter.endelement.md)(): bool
 
 public [endPi](xmlwriter.endpi.md)(): bool
 
-public [flush](xmlwriter.flush.md)(bool `$empty` u003d **`true`**):
+public [flush](xmlwriter.flush.md)(bool `$empty` = **`true`**):
 string\|int
 
 public [fullEndElement](xmlwriter.fullendelement.md)(): bool
@@ -46,7 +46,7 @@ public [openMemory](xmlwriter.openmemory.md)(): bool
 
 public [openUri](xmlwriter.openuri.md)(string `$uri`): bool
 
-public [outputMemory](xmlwriter.outputmemory.md)(bool `$flush` u003d
+public [outputMemory](xmlwriter.outputmemory.md)(bool `$flush` =
 **`true`**): string
 
 public [setIndent](xmlwriter.setindent.md)(bool `$enable`): bool
@@ -65,11 +65,11 @@ public [startCdata](xmlwriter.startcdata.md)(): bool
 public [startComment](xmlwriter.startcomment.md)(): bool
 
 public [startDocument](xmlwriter.startdocument.md)(?string `$version`
-u003d "1.0", ?string `$encoding` u003d **`null`**, ?string `$standalone` u003d
+= "1.0", ?string `$encoding` = **`null`**, ?string `$standalone` =
 **`null`**): bool
 
 public [startDtd](xmlwriter.startdtd.md)(string `$qualifiedName`,
-?string `$publicId` u003d **`null`**, ?string `$systemId` u003d **`null`**):
+?string `$publicId` = **`null`**, ?string `$systemId` = **`null`**):
 bool
 
 public [startDtdAttlist](xmlwriter.startdtdattlist.md)(string
@@ -107,9 +107,9 @@ bool
 
 public [writeDtd](xmlwriter.writedtd.md)(
 string `$name`,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$content` u003d **`null`**
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$content` = **`null`**
 ): bool
 
 public [writeDtdAttlist](xmlwriter.writedtdattlist.md)(string `$name`,
@@ -121,20 +121,20 @@ string `$content`): bool
 public [writeDtdEntity](xmlwriter.writedtdentity.md)(
 string `$name`,
 string `$content`,
-bool `$isParam` u003d **`false`**,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$notationData` u003d **`null`**
+bool `$isParam` = **`false`**,
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$notationData` = **`null`**
 ): bool
 
 public [writeElement](xmlwriter.writeelement.md)(string `$name`,
-?string `$content` u003d **`null`**): bool
+?string `$content` = **`null`**): bool
 
 public [writeElementNs](xmlwriter.writeelementns.md)(
 ?string `$prefix`,
 string `$name`,
 ?string `$namespace`,
-?string `$content` u003d **`null`**
+?string `$content` = **`null`**
 ): bool
 
 public [writePi](xmlwriter.writepi.md)(string `$target`, string

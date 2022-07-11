@@ -7,13 +7,13 @@
 
 # ZMQSocket::recv
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::recv — Отримати повідомлення
 
 ### Опис
 
-public **ZMQSocket::recv**(int `$mode` u003d 0): string
+public **ZMQSocket::recv**(int `$mode` = 0): string
 
 Отримує повідомлення із сокету. За замовчуванням отримання блокуватиметься
 до того часу, поки повідомлення не буде доступне, тільки якщо не встановлено
@@ -44,9 +44,9 @@ public **ZMQSocket::recv**(int `$mode` u003d 0): string
 
 Не блокуюча відправка/отримання
 
-`<?php/* Створюємо новий об'єкт черги. Необхідний сервер на іншій стороні. */$queue u003d new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ);$queue->connect("tcp://127.0.0.1:5555");/* Прив'язуємо сокет 1 к /$retries u003d 5;$sending u003d true;/* Запускаем цикл */do {    try {        /* Пытаемся отправить/получить */        if ($sending) {            echo "Отправляем сообщение
-";            $queue->send("Я сообщение!", ZMQ::MODE_DONTWAIT);            $sending u003d false;        } else {            echo "Получен ответ: " . $queue->recv(ZMQ::MODE_DONTWAIT) . "
-";            break;        }    } catch (ZMQSocketException $e) {        /* EAGAIN означает, что операция заблокирована, повторяем */        if ($e->getCode() u003du003du003d ZMQ::ERR_EAGAIN) {            echo " - Получили EAGAIN, повторяем ($retries)
+`<?php/* Створюємо новий об'єкт черги. Необхідний сервер на іншій стороні. */$queue = new ZMQSocket(new ZMQContext(), ZMQ::SOCKET_REQ);$queue->connect("tcp://127.0.0.1:5555");/* Прив'язуємо сокет 1 к /$retries = 5;$sending = true;/* Запускаем цикл */do {    try {        /* Пытаемся отправить/получить */        if ($sending) {            echo "Отправляем сообщение
+";            $queue->send("Я сообщение!", ZMQ::MODE_DONTWAIT);            $sending = false;        } else {            echo "Получен ответ: " . $queue->recv(ZMQ::MODE_DONTWAIT) . "
+";            break;        }    } catch (ZMQSocketException $e) {        /* EAGAIN означает, что операция заблокирована, повторяем */        if ($e->getCode() === ZMQ::ERR_EAGAIN) {            echo " - Получили EAGAIN, повторяем ($retries)
 ";        } else {            die(" - Ошибка: " . $e->getMessage());        }    }    /* Немножко ждём */    usleep(5);} while (--$retries);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

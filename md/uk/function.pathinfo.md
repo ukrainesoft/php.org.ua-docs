@@ -7,13 +7,13 @@
 
 # pathinfo
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 pathinfo — Повертає інформацію про шлях до файлу
 
 ### Опис
 
-**pathinfo**(string `$path`, int `$flags` u003d **`PATHINFO_ALL`**):
+**pathinfo**(string `$path`, int `$flags` = **`PATHINFO_ALL`**):
 array\|string
 
 **pathinfo()** повертає інформацію про `path` у вигляді асоціативного
@@ -80,7 +80,7 @@ array\|string
 
 **Приклад #1 Приклад використання функції **pathinfo()****
 
-` <?php$path_parts u003d pathinfo('/www/htdocs/inc/lib.inc.php');echo $path_parts['dirname'], "
+` <?php$path_parts = pathinfo('/www/htdocs/inc/lib.inc.php');echo $path_parts['dirname'], "
 ";echo $path_parts['basename'], "
 ";echo $path_parts['extension'], "
 ";echo $path_parts['filename'], "
@@ -96,7 +96,7 @@ lib.inc
 **Приклад #2 Приклад з **pathinfo()**, що показує різницю між null та
 відсутністю розширення**
 
-` <?php$path_parts u003d pathinfo('/path/emptyextension.');var_dump($path_parts['extension']);$path_parts u003d pathinfo('/path/noextension');var_dump($path_parts['extension' ]);?> `
+` <?php$path_parts = pathinfo('/path/emptyextension.');var_dump($path_parts['extension']);$path_parts = pathinfo('/path/noextension');var_dump($path_parts['extension' ]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -113,10 +113,10 @@ NULL
 
 Array
 (
-[dirname] u003d> /some/path
-[basename] u003d> .test
-[extension] u003d> test
-[filename] u003d>
+[dirname] => /some/path
+[basename] => .test
+[extension] => test
+[filename] =>
 )
 
 ### Дивіться також

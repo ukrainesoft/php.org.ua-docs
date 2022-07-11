@@ -7,7 +7,7 @@
 
 # APCUIterator::getTotalCount
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 APCUIterator::getTotalCount — Отримати загальну кількість записів
 

@@ -7,7 +7,7 @@
 
 # Ds\Stack::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::allocate — Виділяє пам'ять під зазначену місткість
 

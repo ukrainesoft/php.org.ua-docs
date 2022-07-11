@@ -7,7 +7,7 @@
 
 # Spoofchecker::isSuspicious
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Spoofchecker::isSuspicious — Перевіряє, чи текст містить підозрілі
 символи
@@ -15,7 +15,7 @@ Spoofchecker::isSuspicious — Перевіряє, чи текст містит�
 ### Опис
 
 public **Spoofchecker::isSuspicious**(string `$string`, int
-`&$errorCode` u003d **`null`**): bool
+`&$errorCode` = **`null`**): bool
 
 Перевіряє, чи текст містить підозрілі символи, які візуально
 ідентичні, але є символами Unicode з іншого мовного
@@ -39,4 +39,4 @@ public **Spoofchecker::isSuspicious**(string `$string`, int
 
 **Приклад #1 Приклад використання **Spoofchecker::isSuspicious()****
 
-` <?php$checker u003d new Spoofchecker();$checker->isSuspicious('google.com'); // false: тільки символи ASCII$checker->isSuspicious('Рaypal.com'); // true// Перша буква з кириличного набору, а не звичайна латинська "P" `
+` <?php$checker = new Spoofchecker();$checker->isSuspicious('google.com'); // false: тільки символи ASCII$checker->isSuspicious('Рaypal.com'); // true// Перша буква з кириличного набору, а не звичайна латинська "P" `

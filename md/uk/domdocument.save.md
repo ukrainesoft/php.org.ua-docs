@@ -14,7 +14,7 @@ DOMDocument::save — Зберігає XML-дерево з внутрішньо�
 
 ### Опис
 
-public **DOMDocument::save**(string `$filename`, int `$options` u003d 0):
+public **DOMDocument::save**(string `$filename`, int `$options` = 0):
 int\|false
 
 Створює XML-документ із подання DOM. Цю функцію зазвичай викликають
@@ -38,7 +38,7 @@ int\|false
 
 **Приклад #1 Збереження DOM-дерева у файл**
 
-` <?php$doc u003d new DOMDocument('1.0');// ми хочемо красивий висновок$doc->formatOutput u003d true;$root u003d $doc->createElement('book');$root u003d $doc> appendChild($root);$title u003d $doc->createElement('title');$title u003d $root->appendChild($title);$text u003d $doc->createTextNode('This is the title'); $text u003d $title->appendChild($text);echo 'Записано: ' . $doc->save("/tmp/test.xml") . ' байт'; // Записано: 72 байт?> `
+` <?php$doc = new DOMDocument('1.0');// ми хочемо красивий висновок$doc->formatOutput = true;$root = $doc->createElement('book');$root = $doc> appendChild($root);$title = $doc->createElement('title');$title = $root->appendChild($title);$text = $doc->createTextNode('This is the title'); $text = $title->appendChild($text);echo 'Записано: ' . $doc->save("/tmp/test.xml") . ' байт'; // Записано: 72 байт?> `
 
 ### Дивіться також
 

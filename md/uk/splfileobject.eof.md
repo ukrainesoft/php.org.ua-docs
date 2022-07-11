@@ -7,7 +7,7 @@
 
 # SplFileObject::eof
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::eof — Перевіряє, чи кінець файлу досягнуто.
 
@@ -30,7 +30,7 @@ public **SplFileObject::eof**(): bool
 
 **Приклад #1 Приклад використання **SplFileObject::eof()****
 
-` <?php$file u003d new SplFileObject("fruits.txt");while ( ! $file->eof()) {    echo $file->fgets();}?> `
+` <?php$file = new SplFileObject("fruits.txt");while ( ! $file->eof()) {    echo $file->fgets();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

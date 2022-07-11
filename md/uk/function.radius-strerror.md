@@ -7,7 +7,7 @@
 
 #radius_strerror
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_strerror — Повертає повідомлення про помилку
 

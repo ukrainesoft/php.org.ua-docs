@@ -25,10 +25,10 @@ Resident Connection Pooling) необхідно встановити змінн�
 Як альтернативу редагування файлу `details.inc` можна задати
 значення змінним оточення, наприклад:
 
-$ export PHP_OCI8_TEST_USERu003dsystem
-$ export PHP_OCI8_TEST_PASSu003doracle
-$ export PHP_OCI8_TEST_DBu003dlocalhost/XE
-$ export PHP_OCI8_TEST_DRCPu003dFALSE
+$ export PHP_OCI8_TEST_USER=system
+$ export PHP_OCI8_TEST_PASS=oracle
+$ export PHP_OCI8_TEST_DB=localhost/XE
+$ export PHP_OCI8_TEST_DRCP=FALSE
 
 Зверніть увагу, що у деяких оболонках ці змінні можуть
 неправильно транслюватися в PHP процес, і у тестах виникатимуть
@@ -48,7 +48,7 @@ $. /u01/app/oracle/product/11.2.0/xe/bin/oracle_env.sh
 Деякі оболонки вимагають, щоб у `php.ini` параметр variables_order
 містив літеру `E`, наприклад:
 
-variables_order u003d "EGPCS"
+variables_order = "EGPCS"
 
 Запуск всіх тестів PHP можна здійснити командою:
 
@@ -58,7 +58,7 @@ $ make test
 або можна запустити тільки OCI8 тести:
 
 $ cd your_php_src_directory
-$ make test TESTSu003dext/oci8
+$ make test TESTS=ext/oci8
 
 Після завершення тестування перегляньте журнали на наявність помилок. На
 слабких машинах час виконання деяких тестів може перевищити
@@ -83,7 +83,7 @@ $ su - oracle
 `PROCESSES`
 
 $sqlplus/as sysdba
-SQL> alter system set processesu003d100 scopeu003dspfile
+SQL> alter system set processes=100 scope=spfile
 
 Перезапустити базу даних:
 

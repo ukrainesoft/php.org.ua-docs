@@ -7,7 +7,7 @@
 
 # Клас Event
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -36,17 +36,17 @@ final class **Event** {
 
 /\* Константи \*/
 
-const int `ET` u003d 32;
+const int `ET` = 32;
 
-const int `PERSIST` u003d 16;
+const int `PERSIST` = 16;
 
-const int `READ` u003d 2;
+const int `READ` = 2;
 
-const int `WRITE` u003d 4;
+const int `WRITE` = 4;
 
-const int `SIGNAL` u003d 8;
+const int `SIGNAL` = 8;
 
-const int `TIMEOUT` u003d 1;
+const int `TIMEOUT` = 1;
 
 /\* Властивості \*/
 
@@ -54,7 +54,7 @@ public readonly bool `$pending`;
 
 /\* Методи \*/
 
-public [add](event.add.md)( float `$timeout` u003d ?): bool
+public [add](event.add.md)( float `$timeout` = ?): bool
 
 public [\_\_construct](event.construct.md)(
 [EventBase](class.eventbase.md) `$base` ,
@@ -65,7 +65,7 @@ int `$what` ,
 [callable](language.types.callable.md) `$cb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$arg u003d NULL
+$arg = NULL
 )
 
 public [del](event.del.md)(): bool
@@ -82,11 +82,11 @@ public [set](event.set.md)(
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd` ,
-int `$what` u003d ?,
-[callable](language.types.callable.md) `$cb` u003d ?,
+int `$what` = ?,
+[callable](language.types.callable.md) `$cb` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): bool
 
 public [setPriority](event.setpriority.md)( int `$priority` ): bool
@@ -95,7 +95,7 @@ public [setTimer](event.settimer.md)(
 [EventBase](class.eventbase.md) `$base` ,
 [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?): bool
+`$arg` = ?): bool
 
 public static [signal](event.signal.md)(
 [EventBase](class.eventbase.md) `$base` ,
@@ -103,14 +103,14 @@ int `$signum` ,
 [callable](language.types.callable.md) `$cb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): [Event](class.event.md)
 
 public static [timer](event.timer.md)(
 [EventBase](class.eventbase.md) `$base` ,
 [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?): [Event](class.event.md)
+`$arg` = ?): [Event](class.event.md)
 
 }
 

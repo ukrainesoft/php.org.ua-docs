@@ -7,14 +7,14 @@
 
 #image_type_to_extension
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 image_type_to_extension — отримання розширення файлу для типу
 зображення
 
 ### Опис
 
-**image_type_to_extension**(int `$image_type`, bool `$include_dot` u003d
+**image_type_to_extension**(int `$image_type`, bool `$include_dot` =
 **`true`**): string\|false
 
 Повертає розширення файлу для заданої `IMAGETYPE_XXX` константи.
@@ -36,7 +36,7 @@ image_type_to_extension — отримання розширення файлу �
 
 **Приклад #1 Приклад використання **image_type_to_extension()****
 
-`<?php// Створення зображення$im u003d imagecreatetruecolor(100, 100);// Збереження зображенняimagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));imagedesy
+`<?php// Створення зображення$im = imagecreatetruecolor(100, 100);// Збереження зображенняimagepng($im, './test' . image_type_to_extension(IMAGETYPE_PNG));imagedesy
 
 ### Примітки
 

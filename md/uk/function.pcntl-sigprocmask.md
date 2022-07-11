@@ -7,14 +7,14 @@
 
 #pcntl_sigprocmask
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 pcntl_sigprocmask — Задає та витягує список сигналів, що блокуються.
 
 ### Опис
 
 **pcntl_sigprocmask**(int `$mode`, array `$signals`, array
-`&$old_signals` u003d **`null`**): bool
+`&$old_signals` = **`null`**): bool
 
 Функція **pcntl_sigprocmask()** додає, видаляє або задає список
 блокованих процесів в залежності від значення переданого в
@@ -46,7 +46,7 @@ pcntl_sigprocmask — Задає та витягує список сигналі
 
 **Приклад #1 Приклад використання **pcntl_sigprocmask()****
 
-` <?phppcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));$oldset u003d array();pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);?> `
+` <?phppcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));$oldset = array();pcntl_sigprocmask(SIG_UNBLOCK, array(SIGHUP), $oldset);?> `
 
 ### Дивіться також
 

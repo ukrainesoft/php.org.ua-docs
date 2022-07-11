@@ -7,7 +7,7 @@
 
 # sodium_crypto_secretbox
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_secretbox — Шифрування із загальним ключем із перевіркою
 справжності
@@ -53,7 +53,7 @@ sodium_crypto_secretbox — Шифрування із загальним клю�
 
 **Приклад #1 Приклад використання **sodium_crypto_secretbox()****
 
-` <?php// $key должен храниться в секрете.$key u003d sodium_crypto_secretbox_keygen();// Не используйте $nonce повторно с тем же ключом$nonce u003d random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);$plaintext u003d "message to be encrypted";$ ciphertextu003d sodium_crypto_secretbox($plaintext, $nonce, $key);var_dump(bin2hex($ciphertext)); ;?> `
+` <?php// $key должен храниться в секрете.$key = sodium_crypto_secretbox_keygen();// Не используйте $nonce повторно с тем же ключом$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);$plaintext = "message to be encrypted";$ ciphertext= sodium_crypto_secretbox($plaintext, $nonce, $key);var_dump(bin2hex($ciphertext)); ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Основний інтерфейс до коду та даних C
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -57,8 +57,8 @@ public [cast](ffi.cast.md)([FFI\CType](class.ffi-ctype.md)\|string
 `$type`, [FFI\CData](class.ffi-cdata.md)\|int\|float\|bool\|null
 `&$ptr`): ?[FFI\CData](class.ffi-cdata.md)
 
-public static [cdef](ffi.cdef.md)(string `$code` u003d "", ?string `$lib`
-u003d **`null`**): [FFI](class.ffi.md)
+public static [cdef](ffi.cdef.md)(string `$code` = "", ?string `$lib`
+= **`null`**): [FFI](class.ffi.md)
 
 public static [free](ffi.free.md)([FFI\CData](class.ffi-cdata.md)
 `&$ptr`): void
@@ -85,11 +85,11 @@ public static
 
 public static
 [new](ffi.new.md)([FFI\CType](class.ffi-ctype.md)\|string `$type`,
-bool `$owned` u003d **`true`**, bool `$persistent` u003d **`false`**):
+bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
 ?[FFI\CData](class.ffi-cdata.md)
 
 public [new](ffi.new.md)([FFI\CType](class.ffi-ctype.md)\|string
-`$type`, bool `$owned` u003d **`true`**, bool `$persistent` u003d **`false`**):
+`$type`, bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
 ?[FFI\CData](class.ffi-cdata.md)
 
 public static [scope](ffi.scope.md)(string `$name`):
@@ -101,7 +101,7 @@ public static
 
 public static
 [string](ffi.string.md)([FFI\CData](class.ffi-cdata.md) `&$ptr`,
-?int `$size` u003d **`null`**): string
+?int `$size` = **`null`**): string
 
 public static [type](ffi.type.md)(string `$type`):
 ?[FFI\CType](class.ffi-ctype.md)

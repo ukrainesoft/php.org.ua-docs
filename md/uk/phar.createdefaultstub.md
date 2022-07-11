@@ -7,14 +7,14 @@
 
 # Phar::createDefaultStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::createDefaultStub — Створити заглушку у форматі phar-архіву
 
 ### Опис
 
-final public static **Phar::createDefaultStub**(?string `$index` u003d
-**`null`**, ?string `$webIndex` u003d **`null`**): string
+final public static **Phar::createDefaultStub**(?string `$index` =
+**`null`**, ?string `$webIndex` = **`null`**): string
 
 Цей метод створює код заглушку (stub) у специфічному для phar-архіву
 форматі та не призначений для використання з файловими архівами на
@@ -61,15 +61,15 @@ php myphar.phar
 
 ### Список змін
 
-| Версія | Опис                                                  |
-| ------ | ----------------------------------------------------- |
-| 8.0.0  | `index` та `webIndex` тепер допускають значення null. |
+| Версія | Опис                                              |
+| ------ | ------------------------------------------------- |
+| 8.0.0  | index та webIndex тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::createDefaultStub()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Дивіться також
 

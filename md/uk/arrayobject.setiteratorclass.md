@@ -7,7 +7,7 @@
 
 # ArrayObject::setIteratorClass
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::setIteratorClass — Встановлює ім'я класу ітератора для
 ArrayObject
@@ -33,14 +33,14 @@ public **ArrayObject::setIteratorClass**(string `$iteratorClass`): void
 
 **Приклад #1 Приклад використання **ArrayObject::setIteratorClass()****
 
-`<?php// Користувальницький ArrayIterator (включає в себе ArrayIterator)class MyArrayIterator extends ArrayIterator {    // користувацька мість|     bananas" u003d> 5, "apples" u003d> 10);$fruitsArrayObject u003d new ArrayObject($fruits);// Встановлює нове ім'я класу ітератора$fruitsArrayObject->setIteratorClass('$ ));?> `
+`<?php// Користувальницький ArrayIterator (включає в себе ArrayIterator)class MyArrayIterator extends ArrayIterator {    // користувацька мість|     bananas" => 5, "apples" => 10);$fruitsArrayObject = new ArrayObject($fruits);// Встановлює нове ім'я класу ітератора$fruitsArrayObject->setIteratorClass('$ ));?> `
 
 Результат виконання цього прикладу:
 
 MyArrayIterator Object
 (
-[lemons] u003d> 1
-[oranges] u003d> 4
-[bananas] u003d> 5
-[apples] u003d> 10
+[lemons] => 1
+[oranges] => 4
+[bananas] => 5
+[apples] => 10
 )

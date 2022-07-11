@@ -8,7 +8,7 @@
 
 # SQLite3::version
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::version — Повертає версію бібліотеки SQLite3, містить як
 рядкову константу, так і числову
@@ -39,6 +39,6 @@ public static **SQLite3::version**(): array
 
 Array
 (
-[versionString] u003d> 3.5.9
-[versionNumber] u003d> 3005009
+[versionString] => 3.5.9
+[versionNumber] => 3005009
 )

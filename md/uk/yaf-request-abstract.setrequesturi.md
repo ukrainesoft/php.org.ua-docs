@@ -7,7 +7,7 @@
 
 # Yaf_Request_Abstract::setRequestUri
 
-(Yaf \> u003d 2.1.0)
+(Yaf \> = 2.1.0)
 
 Yaf_Request_Abstract::setRequestUri — Призначення setRequestUri
 

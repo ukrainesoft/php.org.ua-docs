@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                                        | Місце зміни | Список змін |
 | ---------------------------------------------------------------------------- | ----------- | ----------- |
-| [trader.real_precision](trader.configuration.md#ini.trader.real-precision)   | 3           | PHP_INI_ALL | З версії trader 0.2 
-| [trader.real_round_mode](trader.configuration.md#ini.trader.real-round-mode) | HALF_DOWN   | PHP_INI_ALL | З версії trader 0.3 
+| [trader.real_precision](trader.configuration.md#ini.trader.real-precision)   | 3           | PHP_INI_ALL | З версії trader 0.2
+| [trader.real_round_mode](trader.configuration.md#ini.trader.real-round-mode) | HALF_DOWN   | PHP_INI_ALL | З версії trader 0.3
 
 **Опції налаштування Trader**
 

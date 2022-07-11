@@ -8,7 +8,7 @@
 
 # PDOStatement::closeCursor
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.9.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.9.0)
 
 PDOStatement::closeCursor — Закриває курсор, переводячи запит у
 стан готовності до повторного запуску
@@ -56,7 +56,7 @@ PDOStatement може, коли є ще невибрані рядки. Щоб б
 об'єкта `$stmt` перед тим як запустити інший запит PDOStatement
 `$otherStmt`.
 
-`<?php/* Створення об'єкта PDOStatement */$stmt u003d $dbh->prepare('SELECT foo FROM bar');/* Створення іншогооб'єкту PDOStatement */$otherStm ');/* Виконання першого запиту */$stmt->execute();/* Вибірка тільки першого рядки результуючого набору першого запиту */$stmt->треть для| драйверів */$stmt->closeCursor();/* тепер можна запускати другий запит */$otherStmt->execute();?> `
+`<?php/* Створення об'єкта PDOStatement */$stmt = $dbh->prepare('SELECT foo FROM bar');/* Створення іншогооб'єкту PDOStatement */$otherStm ');/* Виконання першого запиту */$stmt->execute();/* Вибірка тільки першого рядки результуючого набору першого запиту */$stmt->треть для| драйверів */$stmt->closeCursor();/* тепер можна запускати другий запит */$otherStmt->execute();?> `
 
 ### Дивіться також
 

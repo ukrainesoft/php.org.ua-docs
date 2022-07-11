@@ -33,4 +33,4 @@ public **mysql_xdevapi\Session::sql**(string `$query`):
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Session::sql()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("CREATE DATABASE addressbook")->execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("CREATE DATABASE addressbook")->execute();?> `

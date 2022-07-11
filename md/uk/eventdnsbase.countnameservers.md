@@ -7,7 +7,7 @@
 
 # EventDnsBase::countNameservers
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventDnsBase::countNameservers — Отримує кількість налаштованих
 серверів імен

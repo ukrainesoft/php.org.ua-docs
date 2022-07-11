@@ -7,7 +7,7 @@
 
 # cubrid_lob2_export
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_export — Експортує LOB-об'єкт у файл
 
@@ -43,7 +43,7 @@ bool
 
 **Приклад #1 Приклад використання **cubrid_lob2_export()****
 
-`<?php// Таблиця: test_lob (id INT, contents CLOB)$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($ con ");cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$req$u003d conn, "select * from doc");cubrid_execute($req);cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);$row u003d cubrid_fetch($req, CUBRID_NUM |||| txt");cubrid_lob2_close($row[1]);cubrid_disconnect($conn);?> `
+`<?php// Таблиця: test_lob (id INT, contents CLOB)$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($ con ");cubrid_execute($conn,"CREATE TABLE doc (id INT, doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$req$= conn, "select * from doc");cubrid_execute($req);cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);$row = cubrid_fetch($req, CUBRID_NUM |||| txt");cubrid_lob2_close($row[1]);cubrid_disconnect($conn);?> `
 
 ### Дивіться також
 

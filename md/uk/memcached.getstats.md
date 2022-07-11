@@ -7,7 +7,7 @@
 
 # Memcached::getStats
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getStats — Отримує статистику про сервери в пулі
 
@@ -33,38 +33,38 @@ public **Memcached::getStats**(): array\|false
 
 **Приклад #1 Приклад використання **Memcached::getStats()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);print_r($m->getStats());?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);print_r($m->getStats());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[localhost:11211] u003d> Array
+[localhost:11211] => Array
 (
-[pid] u003d> 4933
-[uptime] u003d> 786123
-[threads] u003d> 1
-[time] u003d> 1233868010
-[pointer_size] u003d> 32
-[rusage_user_seconds] u003d> 0
-[rusage_user_microseconds] u003d> 140000
-[rusage_system_seconds] u003d> 23
-[rusage_system_microseconds] u003d> 210000
-[curr_items] u003d> 145
-[total_items] u003d> 2374
-[limit_maxbytes] u003d> 67108864
-[curr_connections] u003d> 2
-[total_connections] u003d> 151
-[connection_structures] u003d> 3
-[bytes] u003d> 20345
-[cmd_get] u003d> 213343
-[cmd_set] u003d> 2381
-[get_hits] u003d> 204223
-[get_misses] u003d> 9120
-[evictions] u003d> 0
-[bytes_read] u003d> 9092476
-[bytes_written] u003d> 15420512
-[version] u003d> 1.2.6
+[pid] => 4933
+[uptime] => 786123
+[threads] => 1
+[time] => 1233868010
+[pointer_size] => 32
+[rusage_user_seconds] => 0
+[rusage_user_microseconds] => 140000
+[rusage_system_seconds] => 23
+[rusage_system_microseconds] => 210000
+[curr_items] => 145
+[total_items] => 2374
+[limit_maxbytes] => 67108864
+[curr_connections] => 2
+[total_connections] => 151
+[connection_structures] => 3
+[bytes] => 20345
+[cmd_get] => 213343
+[cmd_set] => 2381
+[get_hits] => 204223
+[get_misses] => 9120
+[evictions] => 0
+[bytes_read] => 9092476
+[bytes_written] => 15420512
+[version] => 1.2.6
 )
 
 )

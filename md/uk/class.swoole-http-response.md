@@ -7,7 +7,7 @@
 
 # Клас Swoole\Http\Response
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -19,38 +19,38 @@ class **Swoole\Http\Response** {
 
 public [cookie](swoole-http-response.cookie.md)(
 string `$name`,
-string `$value` u003d ?,
-string `$expires` u003d ?,
-string `$path` u003d ?,
-string `$domain` u003d ?,
-string `$secure` u003d ?,
-string `$httponly` u003d ?
+string `$value` = ?,
+string `$expires` = ?,
+string `$path` = ?,
+string `$domain` = ?,
+string `$secure` = ?,
+string `$httponly` = ?
 ): string
 
 public [\_\_destruct](swoole-http-response.destruct.md)(): void
 
-public [end](swoole-http-response.end.md)(string `$content` u003d ?): void
+public [end](swoole-http-response.end.md)(string `$content` = ?): void
 
-public [gzip](swoole-http-response.gzip.md)(string `$compress_level` u003d
+public [gzip](swoole-http-response.gzip.md)(string `$compress_level` =
 ?): ReturnType
 
 public [header](swoole-http-response.header.md)(string `$key`, string
-`$value`, string `$ucwords` u003d ?): void
+`$value`, string `$ucwords` = ?): void
 
 public [initHeader](swoole-http-response.initheader.md)(): ReturnType
 
 public [rawcookie](swoole-http-response.rawcookie.md)(
 string `$name`,
-string `$value` u003d ?,
-string `$expires` u003d ?,
-string `$path` u003d ?,
-string `$domain` u003d ?,
-string `$secure` u003d ?,
-string `$httponly` u003d ?
+string `$value` = ?,
+string `$expires` = ?,
+string `$path` = ?,
+string `$domain` = ?,
+string `$secure` = ?,
+string `$httponly` = ?
 ): ReturnType
 
 public [sendfile](swoole-http-response.sendfile.md)(string
-`$filename`, int `$offset` u003d ?): ReturnType
+`$filename`, int `$offset` = ?): ReturnType
 
 public [status](swoole-http-response.status.md)(string `$http_code`):
 ReturnType

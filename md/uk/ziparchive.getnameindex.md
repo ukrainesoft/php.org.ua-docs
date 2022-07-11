@@ -7,13 +7,13 @@
 
 # ZipArchive::getNameIndex
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::getNameIndex — Повертає ім'я елемента за його індексом
 
 ### Опис
 
-public **ZipArchive::getNameIndex**(int `$index`, int `$flags` u003d 0):
+public **ZipArchive::getNameIndex**(int `$index`, int `$flags` = 0):
 string\|false
 
 Повертає ім'я елемента за його індексом.
@@ -35,4 +35,4 @@ string\|false
 
 **Приклад #1 Приклад використання **ZipArchive::getnameindex()****
 
-` <?phpif ($zip->open('test.zip') u003du003d TRUE) { for ($i u003d 0; $i < $zip->numFiles; $i++) {     $filename u003d $zip ($i); // ... }}?> `
+` <?phpif ($zip->open('test.zip') == TRUE) { for ($i = 0; $i < $zip->numFiles; $i++) {     $filename = $zip ($i); // ... }}?> `

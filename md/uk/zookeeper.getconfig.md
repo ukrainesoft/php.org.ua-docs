@@ -7,7 +7,7 @@
 
 # Zookeeper::getConfig
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 Zookeeper::getConfig — Отримує примірник ZookeeperConfig
 

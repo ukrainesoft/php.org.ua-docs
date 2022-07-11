@@ -27,28 +27,28 @@ Yaconf вимагає PHP 7.0 або вище.
 
 `` inicode
 ;проста пара ключ-значення
-keyu003dval
+key=val
 ;хеш
-hash.au003dval
+hash.a=val
 ;масив
-arr.0u003dval
+arr.0=val
 ;або так
-arr[]u003dval
+arr[]=val
 ;використання констант PHP
-versionu003dPHP_VERION
+version=PHP_VERION
 ;використання змінних середовища
-envu003d${PATH}
+env=${PATH}
 ````
 
 **Приклад #2 Приклад INI з розділами**
 
 `` inicode
 [SectionA]
-keyu003dval
-hash.au003dval
+key=val
+hash.a=val
 
 ;SectionB успадковується від SectionA
 [SectionB:SectionA]
 ;перевизначення key з розділу SectionA
-keyu003dnew_val
+key=new_val
 ````

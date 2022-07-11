@@ -37,12 +37,12 @@ qf: При створенні DisjunctionMaxQueries з запиту корист
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removeQueryField()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery    ->ad|Qued| PHP_EOL;//  видаліть поле 'second'echo $dismaxQuery->removeQueryField('second');?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery    ->ad|Qued| PHP_EOL;//  видаліть поле 'second'echo $dismaxQuery->removeQueryField('second');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&qfu003dfirst^3 second^0.2 cat
-qu003dlucene&defTypeu003dedismax&qfu003dfirst^3 cat
+q=lucene&defType=edismax&qf=first^3 second^0.2 cat
+q=lucene&defType=edismax&qf=first^3 cat
 
 ### Дивіться також
 

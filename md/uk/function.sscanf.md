@@ -7,7 +7,7 @@
 
 #sscanf
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 sscanf — Розбирає рядок відповідно до заданого формату
 
@@ -63,7 +63,7 @@ sscanf — Розбирає рядок відповідно до заданог�
 
 **Приклад #1 Приклад використання **sscanf()****
 
-` <?php// отримуємо серійний номерlist($serial) u003d sscanf("SN/2350001", "SN/%d");// і дату виготовлення$mandate u003d "January 01 2000"; day, $year) u003d sscanf($mandate, "%s %d %d");echo "Вузол $serial був виготовлений: $year-" . substr($month, 0, 3) . "-$day
+` <?php// отримуємо серійний номерlist($serial) = sscanf("SN/2350001", "SN/%d");// і дату виготовлення$mandate = "January 01 2000"; day, $year) = sscanf($mandate, "%s %d %d");echo "Вузол $serial був виготовлений: $year-" . substr($month, 0, 3) . "-$day
 ";?> `
 
 Якщо передані необов'язкові аргументи, значення буде присвоєно їм, а
@@ -71,7 +71,7 @@ sscanf — Розбирає рядок відповідно до заданог�
 
 **Приклад #2 **sscanf()** - використання необов'язкових аргументів**
 
-` <?php// отримати ім'я автора і сформувати запис в форматі DocBook$auth u003d "24 Lewis Carroll";$n u003d sscanf($auth, "%d %s %s", $ ;echo "<author idu003d'$id'>    <firstname>$first</firstname>    <surname>$last</surname></author>
+` <?php// отримати ім'я автора і сформувати запис в форматі DocBook$auth = "24 Lewis Carroll";$n = sscanf($auth, "%d %s %s", $ ;echo "<author id='$id'>    <firstname>$first</firstname>    <surname>$last</surname></author>
 ";?> `
 
 ### Дивіться також

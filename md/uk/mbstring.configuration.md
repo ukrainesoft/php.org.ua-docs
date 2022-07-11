@@ -9,18 +9,18 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                                                    | Місце зміни                        | Список змін    |
-| -------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------------- |
-| [mbstring.language](mbstring.configuration.md#ini.mbstring.language)                                     | "neutral"                          | PHP_INI_ALL    | 
-| [mbstring.detect_order](mbstring.configuration.md#ini.mbstring.detect-order)                             | NULL                               | PHP_INI_ALL    | 
-| [mbstring.http_input](mbstring.configuration.md#ini.mbstring.http-input)                                 | "pass"                             | PHP_INI_ALL    | Застаріла 
-| [mbstring.http_output](mbstring.configuration.md#ini.mbstring.http-output)                               | "pass"                             | PHP_INI_ALL    | Застаріла 
-| [mbstring.internal_encoding](mbstring.configuration.md#ini.mbstring.internal-encoding)                   | NULL                               | PHP_INI_ALL    | Застаріла 
-| [mbstring.substitute_character](mbstring.configuration.md#ini.mbstring.substitute-character)             | NULL                               | PHP_INI_ALL    | 
-| [mbstring.func_overload](mbstring.configuration.md#ini.mbstring.func-overload)                           | "0"                                | PHP_INI_SYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. 
-| [mbstring.encoding_translation](mbstring.configuration.md#ini.mbstring.encoding-translation)             | "0"                                | PHP_INI_PERDIR | 
-| [mbstring.http_output_conv_mimetypes](mbstring.configuration.md#ini.mbstring.http-output-conv-mimetypes) | "^(text/\|application/xhtml\+xml)" | PHP_INI_ALL    | 
-| [mbstring.strict_detection](mbstring.configuration.md#ini.mbstring.strict-detection)                     | "0"                                | PHP_INI_ALL    | 
+| Ім'я За замовчуванням                                                                                    | Місце зміни                        | Список змін    |                                                         |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------------- | ------------------------------------------------------- |
+| [mbstring.language](mbstring.configuration.md#ini.mbstring.language)                                     | "neutral"                          | PHP_INI_ALL    |                                                         |
+| [mbstring.detect_order](mbstring.configuration.md#ini.mbstring.detect-order)                             | NULL                               | PHP_INI_ALL    |                                                         |
+| [mbstring.http_input](mbstring.configuration.md#ini.mbstring.http-input)                                 | "pass"                             | PHP_INI_ALL    | Застаріла                                               |
+| [mbstring.http_output](mbstring.configuration.md#ini.mbstring.http-output)                               | "pass"                             | PHP_INI_ALL    | Застаріла                                               |
+| [mbstring.internal_encoding](mbstring.configuration.md#ini.mbstring.internal-encoding)                   | NULL                               | PHP_INI_ALL    | Застаріла                                               |
+| [mbstring.substitute_character](mbstring.configuration.md#ini.mbstring.substitute-character)             | NULL                               | PHP_INI_ALL    |                                                         |
+| [mbstring.func_overload](mbstring.configuration.md#ini.mbstring.func-overload)                           | "0"                                | PHP_INI_SYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. |
+| [mbstring.encoding_translation](mbstring.configuration.md#ini.mbstring.encoding-translation)             | "0"                                | PHP_INI_PERDIR |                                                         |
+| [mbstring.http_output_conv_mimetypes](mbstring.configuration.md#ini.mbstring.http-output-conv-mimetypes) | "^(text/\|application/xhtml\+xml)" | PHP_INI_ALL    |                                                         |
+| [mbstring.strict_detection](mbstring.configuration.md#ini.mbstring.strict-detection)                     | "0"                                | PHP_INI_ALL    |                                                         |
 
 **Опції конфігурації mbstring**
 
@@ -112,86 +112,86 @@ ini-налаштуваннях.
 **Приклад #1 Приклади налаштувань `php.ini`**
 
 ; Встановити мову за замовчуванням
-mbstring.language u003d Neutral; Установити Neutral(UTF-8) за замовчуванням (за замовчуванням)
-mbstring.language u003d English; Встановити англійською за замовчуванням
-mbstring.language u003d Japanese; Встановити японську мову за замовчуванням
+mbstring.language = Neutral; Установити Neutral(UTF-8) за замовчуванням (за замовчуванням)
+mbstring.language = English; Встановити англійською за замовчуванням
+mbstring.language = Japanese; Встановити японську мову за замовчуванням
 
 ;;; Встановити внутрішнє кодування за замовчуванням
 ;;; Примітка: Переконайтеся, що ви використовуєте кодування символів, яке працює з PHP
-mbstring.internal_encoding u003d UTF-8; Встановити внутрішнє кодування в UTF-8
+mbstring.internal_encoding = UTF-8; Встановити внутрішнє кодування в UTF-8
 
 ;;; Увімкнено перетворення кодування HTTP-введення.
-mbstring.encoding_translation u003d On
+mbstring.encoding_translation = On
 
 ;;; Встановити кодування символів за промовчанням для введення HTTP
 ;;; Примітка: Скрипт не може змінити інсталяцію http_input.
-mbstring.http_inputu003dpass; Немає перетворення.
-mbstring.http_input u003d auto; Встановити HTTP-введення в auto
+mbstring.http_input=pass; Немає перетворення.
+mbstring.http_input = auto; Встановити HTTP-введення в auto
 ; "auto" розширюється відповідно до mbstring.language
-mbstring.http_inputu003dSJIS; Встановити HTTP-введення у SJIS
-mbstring.http_input u003d UTF-8, SJIS, EUC-JP; Вказати порядок
+mbstring.http_input=SJIS; Встановити HTTP-введення у SJIS
+mbstring.http_input = UTF-8, SJIS, EUC-JP; Вказати порядок
 
 ;;; Встановити кодування символів за промовчанням для виводу HTTP
-mbstring.http_outputu003dpass; Немає перетворення.
-mbstring.http_output u003d UTF-8; Встановити кодування HTTP-виводу в UTF-8
+mbstring.http_output=pass; Немає перетворення.
+mbstring.http_output = UTF-8; Встановити кодування HTTP-виводу в UTF-8
 
 ;;; Встановити порядок визначення кодування символів за промовчанням
-mbstring.detect_order u003d auto; Встановити порядок визначення у auto
-mbstring.detect_order u003d ASCII,JIS,UTF-8,SJIS,EUC-JP; Вказати порядок
+mbstring.detect_order = auto; Встановити порядок визначення у auto
+mbstring.detect_order = ASCII,JIS,UTF-8,SJIS,EUC-JP; Вказати порядок
 
 ;;; Встановити символ заміни за промовчанням
-mbstring.substitute_character u003d 12307; Вказати значення Unicode
-mbstring.substitute_characteru003dnone; Не друкувати символ
-mbstring.substitute_character u003d long; Приклад кодових значень символів: U+3000,JIS+7E7E
+mbstring.substitute_character = 12307; Вказати значення Unicode
+mbstring.substitute_character=none; Не друкувати символ
+mbstring.substitute_character = long; Приклад кодових значень символів: U+3000,JIS+7E7E
 
 **Приклад #2 Налаштування `php.ini` для користувачів `EUC-JP`**
 
 ;;; Вимкнути буферизацію виводу
-output_buffering u003d Off
+output_buffering = Off
 
 ;;; Встановити кодування у http-заголовку
-default_charset u003d EUC-JP
+default_charset = EUC-JP
 
 ;;; Встановити японську мову за замовчуванням
-mbstring.languageu003dJapanese
+mbstring.language=Japanese
 
 ;;; Увімкнено перетворення кодування HTTP-введення.
-mbstring.encoding_translation u003d On
+mbstring.encoding_translation = On
 
 ;;; Встановити перекодування HTTP-введення в auto
-mbstring.http_inputu003dauto
+mbstring.http_input=auto
 
 ;;; Конвертувати HTTP-виведення в EUC-JP
-mbstring.http_output u003d EUC-JP
+mbstring.http_output = EUC-JP
 
 ;;; Встановити внутрішнє кодування в EUC-JP
-mbstring.internal_encoding u003d EUC-JP
+mbstring.internal_encoding = EUC-JP
 
 ;;; Не друкувати неприпустимі символи
-mbstring.substitute_character u003d none
+mbstring.substitute_character = none
 
 **Приклад #3 Налаштування `php.ini` для користувачів `SJIS`**
 
 ;;; Включити буферизацію виводу
-output_buffering u003d On
+output_buffering = On
 
 ;;; Встановити mb_output_handler для увімкнення перекодування виводу
-output_handler u003d mb_output_handler
+output_handler = mb_output_handler
 
 ;;; Встановити кодування у http-заголовку
-default_charset u003d Shift_JIS
+default_charset = Shift_JIS
 
 ;;; Встановити японську мову за замовчуванням
-mbstring.languageu003dJapanese
+mbstring.language=Japanese
 
 ;;; Встановити перекодування HTTP-введення в auto
-mbstring.http_inputu003dauto
+mbstring.http_input=auto
 
 ;;; Конвертувати у SJIS
-mbstring.http_outputu003dSJIS
+mbstring.http_output=SJIS
 
 ;;; Встановити внутрішнє кодування в EUC-JP
-mbstring.internal_encoding u003d EUC-JP
+mbstring.internal_encoding = EUC-JP
 
 ;;; Не друкувати неприпустимі символи
-mbstring.substitute_character u003d none
+mbstring.substitute_character = none

@@ -7,14 +7,14 @@
 
 # GmagickPixel::getcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::getcolor — Повертає колір
 
 ### Опис
 
-public **GmagickPixel::getcolor**(bool `$as_array` u003d **`false`**, bool
-`$normalize_array` u003d **`false`**):
+public **GmagickPixel::getcolor**(bool `$as_array` = **`false`**, bool
+`$normalize_array` = **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає колір об'єкта [GmagickPixel](class.gmagickpixel.md) у вигляді

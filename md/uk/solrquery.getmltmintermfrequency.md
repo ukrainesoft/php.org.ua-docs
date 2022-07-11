@@ -8,7 +8,7 @@
 
 # SolrQuery::getMltMinTermFrequency
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getMltMinTermFrequency — Повертає частоту, нижче за яку
 вирази ігноруватимуться у вихідному документі

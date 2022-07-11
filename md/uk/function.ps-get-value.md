@@ -7,13 +7,13 @@
 
 #ps_get_value
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_get_value — Отримує певні значення
 
 ### Опис
 
-**ps_get_value**(resource `$psdoc`, string `$name`, float `$modifier` u003d
+**ps_get_value**(resource `$psdoc`, string `$name`, float `$modifier` =
 ?): float
 
 Отримує кілька значень, встановлених

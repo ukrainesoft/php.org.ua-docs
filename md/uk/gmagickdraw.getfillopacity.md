@@ -7,7 +7,7 @@
 
 # GmagickDraw::getfillopacity
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getfillopacity — Повертає значення прозорості,
 використовуване при малюванні

@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::getEnv
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getEnv — Отримує змінну ENV
 
 ### Опис
 
 public **Yaf_Request_Abstract::getEnv**(string `$name`, string
-`$default` u003d ?): void
+`$default` = ?): void
 
 Отримує змінну ENV
 

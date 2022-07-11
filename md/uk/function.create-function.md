@@ -7,7 +7,7 @@
 
 #create_function
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7)
 
 create_function — Створює функцію динамічно, оцінюючи рядок коду
 
@@ -62,18 +62,18 @@ create_function — Створює функцію динамічно, оціню
 створити функцію з урахуванням інформації, зібраної під час виконання.
 По-перше, використовуючи функцію create_function()**:
 
-` <?php$newfunc u003d create_function('$a,$b', 'return "ln($a) + ln($b) u003d " . log($a * $b);');echo $newfunc( 2, M_E) . "
+` <?php$newfunc = create_function('$a,$b', 'return "ln($a) + ln($b) = " . log($a * $b);');echo $newfunc( 2, M_E) . "
 ";?> `
 
 Тепер той самий код, використовуючи [анонімну функцію](functions.anonymous.md); зверніть увагу, що код і
 аргументи більше не містяться у рядках:
 
-` <?php$newfunc u003d function($a,$b) { return "ln($a) + ln($b) u003d " . log($a * $b); };echo $newfunc(2, M_E) . "
+` <?php$newfunc = function($a,$b) { return "ln($a) + ln($b) = " . log($a * $b); };echo $newfunc(2, M_E) . "
 ";?> `
 
 Результат виконання цього прикладу:
 
-ln(2) + ln(2.718281828459) u003d 1.6931471805599
+ln(2) + ln(2.718281828459) = 1.6931471805599
 
 **Приклад #2 Створення загальної функції-обробника за допомогою
 **create_function()** або анонімних функцій**
@@ -82,11 +82,11 @@ ln(2) + ln(2.718281828459) u003d 1.6931471805599
 яка може застосовувати набір операцій до списку параметрів:
 
 ` <?phpfunction process($var1, $var2, $farr){   foreach ($farr as $f) {       echo $f($var1, $var2) . "
-";    }}// створюємо купу математичних функцій$farr u003d array(   create_function('$x,$y', 'return "тригонометрія: ".(sin($x) +$); ),   create_function('$x,$y', 'return "гіпотенуза: ".sqrt($x*$x + $y*$y);'),   create_function('$a,$b', 'if ( $a >u003d0) {return "b*a^2 u003d ".$b*sqrt($a);} else {return false;}'),   create_function('$a,$b', "return \" min(b^2+a, a^2,b)u003du003d \".min(\$a*\$a+\$b,\$b*\$b+\$a);"),    create_function('$ a,$b', 'if ($a > 0 && $b !u003d 0) {return "ln(a)/b u003d ".log($a)/$b; } else { return false; }') );echo "
+";    }}// створюємо купу математичних функцій$farr = array(   create_function('$x,$y', 'return "тригонометрія: ".(sin($x) +$); ),   create_function('$x,$y', 'return "гіпотенуза: ".sqrt($x*$x + $y*$y);'),   create_function('$a,$b', 'if ( $a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;}'),   create_function('$a,$b', "return \" min(b^2+a, a^2,b)== \".min(\$a*\$a+\$b,\$b*\$b+\$a);"),    create_function('$ a,$b', 'if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; }') );echo "
 Використання першого масиву динамічних функцій
 ";echo "Параметри: 2.3445, M_PI
-";process(2.3445, M_PI, $farr);// тепер створюємо купу функцій обробки рядків$garr u003d array(   create_function('$b,$a', 'if (str) 0) return "** \"$a\" '.       'і \"$b\"
-** для мені однакові! (дивлячись по першим 3 символам)";'),   create_function('$a,$b', 'return "CRCs: " . crc32($a) . ", ".crc32($b);'                                                         crc32($b);'                          cc33($b);' ■ '$a,$b', 'return "similar(a,b) u003d " . similar_text($a, $b, $p) . "($p%)";'));echo "
+";process(2.3445, M_PI, $farr);// тепер створюємо купу функцій обробки рядків$garr = array(   create_function('$b,$a', 'if (str) 0) return "** \"$a\" '.       'і \"$b\"
+** для мені однакові! (дивлячись по першим 3 символам)";'),   create_function('$a,$b', 'return "CRCs: " . crc32($a) . ", ".crc32($b);'                                                         crc32($b);'                          cc33($b);' ■ '$a,$b', 'return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)";'));echo "
 Використання другого масиву динамічних функцій
 ";process("Варкалося. Хливі шорьки піралися за наве", "Варан повзе", $garr);?> `
 
@@ -95,11 +95,11 @@ ln(2) + ln(2.718281828459) u003d 1.6931471805599
 укладено у рядок.
 
 ` <?phpfunction process($var1, $var2, $farr){   foreach ($farr as $f) {       echo $f($var1, $var2) . "
-";    }}// творюємо купу математичних функцій$farr u003d array(    function($x,$y) { return "тригонометрія: ".(sin($x) + $x*   ($x,$y) { return "гіпотенуза: ".sqrt($x*$x + $y*$y); },    function($a,$b) { if ($a >u003d0) {return "b*a^2 u003d ".$b*sqrt($a);} else {return false;} },   function($a,$b) { return "min(b^2+a, a^2, b) u003d " . min($a*$a+$b, $b*$b+$a); },    function($a,$b) { if ($a > 0 && $b !u003d 0) {return "ln(a)/b u003d ".log($a)/$b; } else { return false; } });echo "
+";    }}// творюємо купу математичних функцій$farr = array(    function($x,$y) { return "тригонометрія: ".(sin($x) + $x*   ($x,$y) { return "гіпотенуза: ".sqrt($x*$x + $y*$y); },    function($a,$b) { if ($a >=0) {return "b*a^2 = ".$b*sqrt($a);} else {return false;} },   function($a,$b) { return "min(b^2+a, a^2, b) = " . min($a*$a+$b, $b*$b+$a); },    function($a,$b) { if ($a > 0 && $b != 0) {return "ln(a)/b = ".log($a)/$b; } else { return false; } });echo "
 Використання першого масиву динамічних функцій
 ";echo "Параметри: 2.3445, M_PI
 process(2.3445, M_PI, $ farr); return "** \"$a\" " .        "і \"$b\"
-** для мені однакові! (дивлячись по перших 3 символів)"; },   function($a,$b) { return "CRCs: " . crc32($a) . ", ".crc32($b); $, $ b) { return "similar(a,b) u003d " . similar_text($a, $b, $p) . "($p%)"; });echo "
+** для мені однакові! (дивлячись по перших 3 символів)"; },   function($a,$b) { return "CRCs: " . crc32($a) . ", ".crc32($b); $, $ b) { return "similar(a,b) = " . similar_text($a, $b, $p) . "($p%)"; });echo "
 Використання другого масиву динамічних функцій
 ";process("Варкалося. Хливі шорьки піралися за наве", "Варан повзе", $garr);?> `
 
@@ -109,15 +109,15 @@ process(2.3445, M_PI, $ farr); return "** \"$a\" " .        "і \"$
 Параметри: 2.3445, M_PI
 тригонометрія: -1.6291725057799
 гіпотенуза: 3.9199852871011
-b*a^2 u003d 4.8103313314525
-min(b^2+a, a^2,b) u003d 8.6382729035898
-ln(a)/b u003d 0.27122299212594
+b*a^2 = 4.8103313314525
+min(b^2+a, a^2,b) = 8.6382729035898
+ln(a)/b = 0.27122299212594
 
 Використання другого масиву динамічних функцій
 ** "Варан повзе" і "Варкалося.
 ** для мене однакові! (дивлячись за першими 3 символами)
 CRCs: 2672527412, 2269828269
-similar(a,b) u003d 16(31.683168316832%)
+similar(a,b) = 16(31.683168316832%)
 
 **Приклад #3 Використання динамічних функцій як
 callback-функцій**
@@ -127,32 +127,32 @@ callback-функцій**
 використання [array_walk()](function.array-walk.md) або
 [usort()](function.usort.md).
 
-` <?php$av u003d array("the ", "a ", "that ", "this ");array_walk($av, create_function('&$v,$k', '$v u003d $v . ") mango";'));print_r($av);?> `
+` <?php$av = array("the ", "a ", "that ", "this ");array_walk($av, create_function('&$v,$k', '$v = $v . ") mango";'));print_r($av);?> `
 
 Перетворення наведеного вище коду на [анонімну функцію](functions.anonymous.md):
 
-` <?php$av u003d array("о, ", "ех, ", "то ", "це ");array_walk($av, create_function('&$v,$k', '$v u003d $v . "манго";'));print_r($av);?> `
+` <?php$av = array("о, ", "ех, ", "то ", "це ");array_walk($av, create_function('&$v,$k', '$v = $v . "манго";'));print_r($av);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> о, манго
-[1] u003d> ех, манго
-[2] u003d> то манго
-[3] u003d> це манго
+[0] => о, манго
+[1] => ех, манго
+[2] => то манго
+[3] => це манго
 )
 
 Сортування рядків від найдовшого до найкоротшого за допомогою
 **create_function()**:
 
-` <?php$sv u003d array("мало", "багато", "великий рядок", "рядок рядок рядок");echo "Оригінальний масив:
+` <?php$sv = array("мало", "багато", "великий рядок", "рядок рядок рядок");echo "Оригінальний масив:
 ";print_r($sv);echo "Відсортований:
 ";usort($sv, create_function('$a,$b','return strlen($b) - strlen($a);'));print_r($sv);?> `
 
 Перетворення наведеного вище коду на [анонімну функцію](functions.anonymous.md):
 
-` <?php$sv u003d array("мало", "багато", "великий рядок", "рядок рядок рядок");echo "Оригінальний масив:
+` <?php$sv = array("мало", "багато", "великий рядок", "рядок рядок рядок");echo "Оригінальний масив:
 ";print_r($sv);echo "Відсортований:
 ";usort($sv,function($a,$b) { return strlen($b) - strlen($a); });print_r($sv);?> `
 
@@ -161,18 +161,18 @@ Array
 Оригінальний масив:
 Array
 (
-[0] u003d> мало
-[1] u003d> багато
-[2] u003d> великий рядок
-[3] u003d> рядок рядок рядок
+[0] => мало
+[1] => багато
+[2] => великий рядок
+[3] => рядок рядок рядок
 )
 Відсортований:
 Array
 (
-[0] u003d> рядок рядок рядок
-[1] u003d> великий рядок
-[2] u003d> багато
-[3] u003d> мало
+[0] => рядок рядок рядок
+[1] => великий рядок
+[2] => багато
+[3] => мало
 )
 
 ### Дивіться також

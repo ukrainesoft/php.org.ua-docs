@@ -7,7 +7,7 @@
 
 # Imagick::exportImagePixels
 
-(PECL imagick 2 \>u003d2.3.0, PECL imagick 3)
+(PECL imagick 2 \>=2.3.0, PECL imagick 3)
 
 Imagick::exportImagePixels — Експортує пікселі зображення
 
@@ -62,33 +62,33 @@ int `$STORAGE`
 
 Експорт пікселів зображення в масив
 
-` <?php/* Створення нового об'єкта */$im u003d new Imagick();/* Створення нового зображення */$im->newPseudoImage(0, 0, "magick:rose");/* $pixelsu003du003d$im->exportImagePixels(10, 10, 2, 2, "RGB", Imagick::PIXEL_CHAR);/* Висновок */var_dump($pixels);?> `
+` <?php/* Створення нового об'єкта */$im = new Imagick();/* Створення нового зображення */$im->newPseudoImage(0, 0, "magick:rose");/* $pixels==$im->exportImagePixels(10, 10, 2, 2, "RGB", Imagick::PIXEL_CHAR);/* Висновок */var_dump($pixels);?> `
 
 Результат виконання цього прикладу:
 
 array(12) {
-[0]u003d>
+[0]=>
 int(72)
-[1]u003d>
+[1]=>
 int(64)
-[2]u003d>
+[2]=>
 int(57)
-[3]u003d>
+[3]=>
 int(69)
-[4]u003d>
+[4]=>
 int(59)
-[5]u003d>
+[5]=>
 int(43)
-[6]u003d>
+[6]=>
 int(124)
-[7]u003d>
+[7]=>
 int(120)
-[8]u003d>
+[8]=>
 int(-96)
-[9] u003d>
+[9] =>
 int(91)
-[10] u003d>
+[10] =>
 int(84)
-[11] u003d>
+[11] =>
 int(111)
 }

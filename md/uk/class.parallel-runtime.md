@@ -1,4 +1,4 @@
-- [« parallelun](parallel.run.md)
+- [« parallel\run](parallel.run.md)
 - [parallel\Runtime::\_\_construct »](parallel-runtime.construct.md)
 
 - [PHP Manual](index.md)

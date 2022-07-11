@@ -1,5 +1,4 @@
-- [«
-dbase_get_record_with_names](function.dbase-get-record-with-names.md)
+- [« dbase_get_record_with_names](function.dbase-get-record-with-names.md)
 - [dbase_numfields »](function.dbase-numfields.md)
 
 - [PHP Manual](index.md)

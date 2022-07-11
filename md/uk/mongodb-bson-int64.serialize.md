@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.md)
-- [MongoDB\BSON\Int64::\_\_toString
-»](mongodb-bson-int64.tostring.md)
+- [« MongoDB\BSON\Int64::jsonSerialize](mongodb-bson-int64.jsonserialize.md)
+- [MongoDB\BSON\Int64::\_\_toString »](mongodb-bson-int64.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)

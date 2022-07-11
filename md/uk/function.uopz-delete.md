@@ -1,5 +1,5 @@
 - [«uopz_del_function](function.uopz-del-function.md)
-- [uopz_extend »] (function.uopz-extend.md)
+- [uopz_extend »](function.uopz-extend.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

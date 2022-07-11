@@ -11,51 +11,37 @@
 PHP. Дистрибутиви PHP доступні майже для всіх операційних систем та
 веб-серверів.
 
-Для встановлення PHP, дотримуйтесь інструкцій: [Встановлення та
-настройка](install.md).
+Для встановлення PHP, дотримуйтесь інструкцій: [Встановлення та настройка](install.md).
 
 1. [Чому краще не користуватися Apache2 з багатопотоковим "MPM" (event,
 worker) у промисловій експлуатації?](#faq.installation.apache2)
-2. [ОС "Unix"/"Windows": Де шукати файл
-php.ini?](#faq.installation.phpini)
+2. [ОС "Unix"/"Windows": Де шукати файл php.ini?](#faq.installation.phpini)
 3. [Unix: Я встановив PHP, але при кожному відкритті будь-якого документа
-бачу 'Document Contains No Data', що це
-значить?](#faq.installation.nodata)
-4. [Unix: Я встановив PHP використовуючи RPMS, але Apache не обробляє
-PHP-сторінки, в чому річ?](#faq.installation.processing)
+бачу 'Document Contains No Data', що це значить?](#faq.installation.nodata)
+4. [Unix: Я встановив PHP використовуючи RPMS, але Apache не обробляє PHP-сторінки, в чому річ?](#faq.installation.processing)
 5. [Unix: Я пропатчив Apache модулем FrontPage, і тепер PHP не
-працює. Тобто. PHP несумісний із модулями Apache
-FrontPage?](#faq.installation.frontpage)
-6. [Unix/Windows: Я встановив PHP, але при спробі відкрити PHP-файл
-браузером бачу просто порожній екран.](#faq.installation.blankscreen)
+працює. Тобто. PHP несумісний із модулями Apache FrontPage?](#faq.installation.frontpage)
+6. [Unix/Windows: Я встановив PHP, але при спробі відкрити PHP-файл браузером бачу просто порожній екран.](#faq.installation.blankscreen)
 7. [Unix/Windows: Я встановив PHP, але коли намагаюся подивитися
-створену PHP-сторінку через браузер, то отримую помилку
-500.](#faq.installation.500error)
+створену PHP-сторінку через браузер, то отримую помилку 500.](#faq.installation.500error)
 8. [Деякі операційні системи: Я встановив PHP без будь-яких
 помилок, але коли намагаюся запустити Apache, мені виводиться помилка:
-\[mybox:user /src/php5\] root# apachectl configtest apachectl:
-/usr/local/apache/bin/httpd Undefined symbols: \_compress
-\_uncompress](#faq.installation.undefinedsyms)
+[mybox:user /src/php5] root# apachectl configtest apachectl:
+/usr/local/apache/bin/httpd Undefined symbols: \_compress \_uncompress](#faq.installation.undefinedsyms)
 9. [Windows: Я встановив PHP, але коли намагаюся відкрити сторінку скрипту
 через браузер, отримую помилку: cgi error: The specified CGI
-application misbehaved by not returning a complete set of HTTP
-headers. headers it did return are:](#faq.installation.cgierror)
-10. [Windows: Я все зробив за інструкцією, але PHP та IIS не хочуть працювати
-разом!](#faq.installation.phpandiis)
+application misbehaved by not returning a complete set of HTTP headers. headers it did return are:](#faq.installation.cgierror)
+10. [Windows: Я все зробив за інструкцією, але PHP та IIS не хочуть працювати разом!](#faq.installation.phpandiis)
 11. [Коли я запускаю PHP як CGI на IIS, PWS, OmniHTTPD або Xitami, я
-отримую таку помилку: Security Alert! PHP CGI cannot be accessed
-directly..](#faq.installation.forceredirect)
+отримую таку помилку: Security Alert! PHP CGI cannot be accessed directly..](#faq.installation.forceredirect)
 12. Як я можу зрозуміти, що мій php.ini знайдений і використовується? Таке
 враження, що внесені мною зміни
 ігноруються.](#faq.installation.findphpini)
-13. [Як я можу додати директорію з PHP до PATH в
-Windows?](#faq.installation.addtopath)
-14. [Як я можу зробити файл php.ini доступним для PHP
-windows?](#faq.installation.phprc)
+13. [Як я можу додати директорію з PHP до PATH в Windows?](#faq.installation.addtopath)
+14. [Як я можу зробити файл php.ini доступним для PHP windows?](#faq.installation.phprc)
 15. [Чи можна використовувати узгодження контенту Apache (опція
 MultiViews) з PHP?](#faq.installation.apache.multiviews)
-16. [PHP обмежений роботою лише з методами GET та
-POST?](#faq.installation.requestmethods)
+16. [PHP обмежений роботою лише з методами GET та POST?](#faq.installation.requestmethods)
 
 **Чому краще не користуватися Apache2 з багатопоточним "MPM" (event, worker) у промисловій експлуатації?**
 PHP подібний до сполучної ланки. Це сполучна ланка для створення добрих
@@ -248,8 +234,7 @@ Services Manager. Якщо файл відсутній, сервер натом�
 Користувач повинен мати права на запуск `php.exe`. Так само, кожен
 авторизований користувач повинен мати права на запуск `php.exe`. Для
 IIS4 сказати йому, що PHP - це інтерпретатор скриптів. Також
-прочитайте [це
-FAQ](faq.installation.md#faq.installation.forceredirect).
+прочитайте [це FAQ](faq.installation.md#faq.installation.forceredirect).
 
 
 
@@ -260,8 +245,7 @@ FAQ](faq.installation.md#faq.installation.forceredirect).
 допомогою `;`). Як і всі налаштування PHP, вона налаштовується в `php.ini`
 
 Оскільки вона за умовчанням дорівнює `1`, критично важливо переконатися, що
-використовується саме той php.ini, який потрібен. Читайте [це
-FAQ](faq.installation.md#faq.installation.findphpini) для
+використовується саме той php.ini, який потрібен. Читайте [це FAQ](faq.installation.md#faq.installation.findphpini) для
 подробиць.
 
 

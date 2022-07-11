@@ -1,5 +1,5 @@
 - [« Установка](yar.installation.md)
-- [Типи ресурсів»] (yar.resources.md)
+- [Типи ресурсів»](yar.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](yar.setup.md)

@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_sign_seed_keypair](function.sodium-crypto-sign-seed-keypair.md)
+- [« sodium_crypto_sign_seed_keypair](function.sodium-crypto-sign-seed-keypair.md)
 - [sodium_crypto_sign »](function.sodium-crypto-sign.md)
 
 - [PHP Manual](index.md)

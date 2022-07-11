@@ -448,8 +448,7 @@ SolrObject Object
 )
 
 )
-
-**Приклад #13 Згортання [SolrQuery](class.solrquery.md)**
+ **Приклад #13 Згортання [SolrQuery](class.solrquery.md)**
 
 ` <?phpinclude "bootstrap.php";$options u003d array(        'hostname' u003d> SOLR_SERVER_HOSTNAME,        'login'    u003d> SOLR_SERVER_USERNAME,        'password' u003d> SOLR_SERVER_PASSWORD,        'port'     u003d> SOLR_SERVER_PORT,        'path'     u003d> SOLR_SERVER_PATH) ;$client u003d new SolrClient($options);$query u003d new SolrQuery('*:*');$collapseFunction u003d new SolrCollapseFunction('manu_id_s');$collapseFunction-> NULLPOLICY_IGNORE);$query->collapse($collapseFunction)->setRows(4);$queryResponseu003du003d$client->query($query);$response u003d $queryResponse->getResponse();print_r($respon > `
 

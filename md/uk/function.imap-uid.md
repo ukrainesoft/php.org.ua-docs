@@ -1,5 +1,5 @@
 - [« imap_timeout](function.imap-timeout.md)
-- [imap_undelete »] (function.imap-undelete.md)
+- [imap_undelete »](function.imap-undelete.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

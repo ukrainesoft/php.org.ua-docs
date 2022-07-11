@@ -1,5 +1,4 @@
-- [«
-ReflectionAttribute::\_\_construct](reflectionattribute.construct.md)
+- [« ReflectionAttribute::\_\_construct](reflectionattribute.construct.md)
 - [ReflectionAttribute::getName »](reflectionattribute.getname.md)
 
 - [PHP Manual](index.md)

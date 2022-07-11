@@ -1,6 +1,5 @@
 - [«Трейти](language.enumerations.traits.md)
-- [Відмінності від об'єктів
-»](language.enumerations.object-differences.md)
+- [Відмінності від об'єктів »](language.enumerations.object-differences.md)
 
 - [PHP Manual](index.md)
 - [Перерахування](language.enumerations.md)

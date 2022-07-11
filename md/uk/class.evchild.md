@@ -2,7 +2,7 @@
 - [EvChild::\_\_construct »](evchild.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvChild
 
 # Клас EvChild

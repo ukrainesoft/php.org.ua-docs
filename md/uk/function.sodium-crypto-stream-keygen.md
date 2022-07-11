@@ -1,6 +1,5 @@
 - [« sodium_crypto_sign](function.sodium-crypto-sign.md)
-- [sodium_crypto_stream_xchacha20_keygen
-»](function.sodium-crypto-stream-xchacha20-keygen.md)
+- [sodium_crypto_stream_xchacha20_keygen »](function.sodium-crypto-stream-xchacha20-keygen.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

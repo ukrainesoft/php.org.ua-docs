@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md)
+- [« ReflectionClass::getDefaultProperties](reflectionclass.getdefaultproperties.md)
 - [ReflectionClass::getEndLine »](reflectionclass.getendline.md)
 
 - [PHP Manual](index.md)

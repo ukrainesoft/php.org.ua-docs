@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_activation_functions](function.fann-set-cascade-activation-functions.md)
-- [fann_set_cascade_candidate_change_fraction
-»](function.fann-set-cascade-candidate-change-fraction.md)
+- [« fann_set_cascade_activation_functions](function.fann-set-cascade-activation-functions.md)
+- [fann_set_cascade_candidate_change_fraction »](function.fann-set-cascade-candidate-change-fraction.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

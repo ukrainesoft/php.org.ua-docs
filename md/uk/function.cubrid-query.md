@@ -1,6 +1,5 @@
 - [«cubrid_ping](function.cubrid-ping.md)
-- [cubrid_real_escape_string
-»](function.cubrid-real-escape-string.md)
+- [cubrid_real_escape_string »](function.cubrid-real-escape-string.md)
 
 - [PHP Manual](index.md)
 - [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)
@@ -26,8 +25,7 @@ resource
 `query`
 SQL-запит
 
-Дані у запиті мають бути [коректно
-экранированы](function.cubrid-real-escape-string.md).
+Дані у запиті мають бути [коректно экранированы](function.cubrid-real-escape-string.md).
 
 `conn_identifier`
 Ідентифікатор з'єднання. Якщо не задано, то буде використано

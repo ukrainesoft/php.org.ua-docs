@@ -1,5 +1,5 @@
 - [« Установка](varnish.installation.md)
-- [Типи ресурсів»] (varnish.resources.md)
+- [Типи ресурсів»](varnish.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](varnish.setup.md)

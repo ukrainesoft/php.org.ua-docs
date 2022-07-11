@@ -28,16 +28,13 @@ public **EventBufferEvent::setCallbacks**(
 ### Список параметрів
 
 `readcb`
-Callback-функція читання. Дивіться докладніше [Про callback-функції
-буферів](eventbufferevent.about.callbacks.md) .
+Callback-функція читання. Дивіться докладніше [Про callback-функції буферів](eventbufferevent.about.callbacks.md) .
 
 `writecb`
-Callback-функція запису. Дивіться докладніше [Про callback-функції
-буферів](eventbufferevent.about.callbacks.md) .
+Callback-функція запису. Дивіться докладніше [Про callback-функції буферів](eventbufferevent.about.callbacks.md) .
 
 `eventcb`
-Callback – функція події зміни статусу. Дивіться докладніше [Про
-callback-функціях буферів](eventbufferevent.about.callbacks.md) .
+Callback – функція події зміни статусу. Дивіться докладніше [Про callback-функціях буферів](eventbufferevent.about.callbacks.md) .
 
 `arg`
 Змінна, яка буде передана всім callback-функціям.

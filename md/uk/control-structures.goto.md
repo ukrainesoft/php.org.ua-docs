@@ -9,8 +9,7 @@
 
 (PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
 
-![Що найгірше може статися, якщо використовується
-goto?](images/0baa1b9fae6aec55bbb73037f3016001-xkcd-goto.png)
+![Що найгірше може статися, якщо використовується goto?](images/0baa1b9fae6aec55bbb73037f3016001-xkcd-goto.png)
 
 Зображення надано [»xkcd](http://xkcd.com/292)
 

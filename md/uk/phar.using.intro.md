@@ -1,6 +1,5 @@
 - [«Використання Phar-архівів](phar.using.md)
-- [Використання Phar-архівів: обгортка потоку phar
-»](phar.using.stream.md)
+- [Використання Phar-архівів: обгортка потоку phar »](phar.using.stream.md)
 
 - [PHP Manual](index.md)
 - [Використання Phar-архівів](phar.using.md)

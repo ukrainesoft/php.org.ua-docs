@@ -12,4 +12,4 @@
 - [Вимоги](mailparse.requirements.md)
 - [Установка](mailparse.installation.md)
 - [Налаштування під час виконання](mailparse.configuration.md)
-- [Типи ресурсів] (mailparse.resources.md)
+- [Типи ресурсів](mailparse.resources.md)

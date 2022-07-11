@@ -1,7 +1,5 @@
-- [«
-IntlTimeZone::createEnumeration](intltimezone.createenumeration.md)
-- [IntlTimeZone::createTimeZoneIDEnumeration
-»](intltimezone.createtimezoneidenumeration.md)
+- [« IntlTimeZone::createEnumeration](intltimezone.createenumeration.md)
+- [IntlTimeZone::createTimeZoneIDEnumeration »](intltimezone.createtimezoneidenumeration.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

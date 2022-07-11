@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Unserializable](class.mongodb-bson-unserializable.md)
-- [MongoDB\BSON\BinaryInterface
-»](class.mongodb-bson-binaryinterface.md)
+- [« MongoDB\BSON\Unserializable](class.mongodb-bson-unserializable.md)
+- [MongoDB\BSON\BinaryInterface »](class.mongodb-bson-binaryinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Unserializable](class.mongodb-bson-unserializable.md)

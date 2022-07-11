@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md)
-- [RecursiveIteratorIterator::setMaxDepth
-»](recursiveiteratoriterator.setmaxdepth.md)
+- [« RecursiveIteratorIterator::nextElement](recursiveiteratoriterator.nextelement.md)
+- [RecursiveIteratorIterator::setMaxDepth »](recursiveiteratoriterator.setmaxdepth.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

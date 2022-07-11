@@ -1,7 +1,5 @@
-- [«
-EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md)
-- [EventBufferEvent::sslGetProtocol
-»](eventbufferevent.sslgetprotocol.md)
+- [« EventBufferEvent::sslGetCipherName](eventbufferevent.sslgetciphername.md)
+- [EventBufferEvent::sslGetProtocol »](eventbufferevent.sslgetprotocol.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

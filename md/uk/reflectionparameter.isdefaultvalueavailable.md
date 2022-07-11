@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::isCallable](reflectionparameter.iscallable.md)
-- [ReflectionParameter::isDefaultValueConstant
-»](reflectionparameter.isdefaultvalueconstant.md)
+- [« ReflectionParameter::isCallable](reflectionparameter.iscallable.md)
+- [ReflectionParameter::isDefaultValueConstant »](reflectionparameter.isdefaultvalueconstant.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

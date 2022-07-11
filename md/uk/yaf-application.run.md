@@ -1,6 +1,5 @@
 - [« Yaf_Application::getModules](yaf-application.getmodules.md)
-- [Yaf_Application::setAppDirectory
-»](yaf-application.setappdirectory.md)
+- [Yaf_Application::setAppDirectory »](yaf-application.setappdirectory.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

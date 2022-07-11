@@ -1,6 +1,5 @@
 - [« Приклад Структури Елементу XML](example.xml-structure.md)
-- [Приклад використання зовнішніх сутностей XML
-»](example.xml-external-entity.md)
+- [Приклад використання зовнішніх сутностей XML »](example.xml-external-entity.md)
 
 - [PHP Manual](index.md)
 - [Приклади](xml.examples.md)

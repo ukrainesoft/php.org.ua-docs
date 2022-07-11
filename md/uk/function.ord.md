@@ -60,8 +60,7 @@ UTF-16
 
 - [chr()](function.chr.md) - Генерує односимвольний рядок по
 заданому числу
-- [» Таблиця
-ASCII-кодів](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+- [» Таблиця ASCII-кодів](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
 - [mb_ord()](function.mb-ord.md) - Отримує кодову точку символу
 Unicode
 - [IntlChar::ord()](intlchar.ord.md) - Отримати код символ Unicode

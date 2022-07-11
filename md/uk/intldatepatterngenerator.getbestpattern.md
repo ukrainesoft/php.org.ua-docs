@@ -1,5 +1,4 @@
-- [«
-IntlDatePatternGenerator::create](intldatepatterngenerator.create.md)
+- [« IntlDatePatternGenerator::create](intldatepatterngenerator.create.md)
 - [IntlPartsIterator »](class.intlpartsiterator.md)
 
 - [PHP Manual](index.md)

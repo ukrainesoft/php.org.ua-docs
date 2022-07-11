@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Button::\_\_construct](ui-controls-button.construct.md)
+- [« UI\Controls\Button::\_\_construct](ui-controls-button.construct.md)
 - [UI\Controls\Button::onClick »](ui-controls-button.onclick.md)
 
 - [PHP Manual](index.md)

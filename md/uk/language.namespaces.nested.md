@@ -1,7 +1,5 @@
-- [« Визначення просторів
-імен](language.namespaces.definition.md)
-- [Опис кількох просторів імен в одному файлі
-»](language.namespaces.definitionmultiple.md)
+- [« Визначення просторів імен](language.namespaces.definition.md)
+- [Опис кількох просторів імен в одному файлі »](language.namespaces.definitionmultiple.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)

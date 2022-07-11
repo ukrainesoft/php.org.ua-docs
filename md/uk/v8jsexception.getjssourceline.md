@@ -1,5 +1,4 @@
-- [«
-V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md)
+- [« V8JsException::getJsLineNumber](v8jsexception.getjslinenumber.md)
 - [V8JsException::getJsTrace »](v8jsexception.getjstrace.md)
 
 - [PHP Manual](index.md)

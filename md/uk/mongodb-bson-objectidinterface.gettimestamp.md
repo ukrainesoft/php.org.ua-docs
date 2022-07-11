@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectIdInterface](class.mongodb-bson-objectidinterface.md)
-- [MongoDB\BSON\ObjectIdInterface::\_\_toString
-»](mongodb-bson-objectidinterface.tostring.md)
+- [« MongoDB\BSON\ObjectIdInterface](class.mongodb-bson-objectidinterface.md)
+- [MongoDB\BSON\ObjectIdInterface::\_\_toString »](mongodb-bson-objectidinterface.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectIdInterface](class.mongodb-bson-objectidinterface.md)

@@ -1,6 +1,5 @@
 - [« mysqli_warning::next](mysqli-warning.next.md)
-- [mysqli_sql_exception::getSqlState
-»](mysqli-sql-exception.getsqlstate.md)
+- [mysqli_sql_exception::getSqlState »](mysqli-sql-exception.getsqlstate.md)
 
 - [PHP Manual](index.md)
 - [MySQLi](book.mysqli.md)
@@ -39,9 +38,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

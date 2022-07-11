@@ -1,6 +1,5 @@
 - [« IntlBreakIterator::first](intlbreakiterator.first.md)
-- [IntlBreakIterator::getErrorCode
-»](intlbreakiterator.geterrorcode.md)
+- [IntlBreakIterator::getErrorCode »](intlbreakiterator.geterrorcode.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

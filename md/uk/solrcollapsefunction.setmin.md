@@ -1,6 +1,5 @@
 - [«SolrCollapseFunction::setMax](solrcollapsefunction.setmax.md)
-- [SolrCollapseFunction::setNullPolicy
-»](solrcollapsefunction.setnullpolicy.md)
+- [SolrCollapseFunction::setNullPolicy »](solrcollapsefunction.setnullpolicy.md)
 
 - [PHP Manual](index.md)
 - [SolrCollapseFunction](class.solrcollapsefunction.md)

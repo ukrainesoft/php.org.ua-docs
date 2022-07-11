@@ -17,8 +17,7 @@
 - [Приклади](ffi.examples.md)
 - [Прості приклади використання FFI](ffi.examples-basic.md)
 - [Callback-функції PHP](ffi.examples-callback.md)
-- [Комплексний приклад
-PHP/FFI/preloading](ffi.examples-complete.md)
+- [Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)
 - [FFI](class.ffi.md) — Основний інтерфейс до коду та даних C
 - [FFI::addr](ffi.addr.md) — Створює некерований покажчик на
 дані C

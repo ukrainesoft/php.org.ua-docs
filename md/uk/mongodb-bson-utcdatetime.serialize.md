@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md)
-- [MongoDB\BSON\UTCDateTime::toDateTime
-»](mongodb-bson-utcdatetime.todatetime.md)
+- [« MongoDB\BSON\UTCDateTime::jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md)
+- [MongoDB\BSON\UTCDateTime::toDateTime »](mongodb-bson-utcdatetime.todatetime.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)

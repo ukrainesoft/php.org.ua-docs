@@ -1,5 +1,4 @@
-- [«
-HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
+- [« HRTime\PerformanceCounter::getTicks](hrtime-performancecounter.getticks.md)
 - [HRTime\StopWatch »](class.hrtime-stopwatch.md)
 
 - [PHP Manual](index.md)

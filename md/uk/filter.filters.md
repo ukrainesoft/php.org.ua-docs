@@ -1,5 +1,5 @@
 - [« Типи ресурсів](filter.resources.md)
-- [Фільтри валідації даних»] (filter.filters.validate.md)
+- [Фільтри валідації даних»](filter.filters.validate.md)
 
 - [PHP Manual](index.md)
 - [Filter](book.filter.md)

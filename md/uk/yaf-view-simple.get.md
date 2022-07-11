@@ -1,6 +1,5 @@
 - [« Yaf_View_Simple::eval](yaf-view-simple.eval.md)
-- [Yaf_View_Simple::getScriptPath
-»](yaf-view-simple.getscriptpath.md)
+- [Yaf_View_Simple::getScriptPath »](yaf-view-simple.getscriptpath.md)
 
 - [PHP Manual](index.md)
 - [Yaf_View_Simple](class.yaf-view-simple.md)

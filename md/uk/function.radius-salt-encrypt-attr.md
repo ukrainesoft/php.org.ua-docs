@@ -1,5 +1,4 @@
-- [«
-radius_request_authenticator](function.radius-request-authenticator.md)
+- [« radius_request_authenticator](function.radius-request-authenticator.md)
 - [radius_send_request »](function.radius-send-request.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« fann_get_rprop_delta_min](function.fann-get-rprop-delta-min.md)
-- [fann_get_rprop_increase_factor
-»](function.fann-get-rprop-increase-factor.md)
+- [fann_get_rprop_increase_factor »](function.fann-get-rprop-increase-factor.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

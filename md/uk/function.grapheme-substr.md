@@ -61,5 +61,4 @@ a%CC%8Abco%CC%88
 - [grapheme_extract()](function.grapheme-extract.md) - Функція для
 вилучення послідовності кластерів графем за замовчуванням
 текстового буфера, яка має бути закодована в UTF-8
-- [»  Сегментація тексту в Unicode: межі кластера
-графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+- [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

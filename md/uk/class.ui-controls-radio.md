@@ -1,5 +1,4 @@
-- [«
-UI\Controls\EditableCombo::setText](ui-controls-editablecombo.settext.md)
+- [« UI\Controls\EditableCombo::setText](ui-controls-editablecombo.settext.md)
 - [UI\Controls\Radio::append »](ui-controls-radio.append.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« LuaSandbox::getMemoryUsage](luasandbox.getmemoryusage.md)
-- [LuaSandbox::getProfilerFunctionReport
-»](luasandbox.getprofilerfunctionreport.md)
+- [LuaSandbox::getProfilerFunctionReport »](luasandbox.getprofilerfunctionreport.md)
 
 - [PHP Manual](index.md)
 - [LuaSandbox](class.luasandbox.md)

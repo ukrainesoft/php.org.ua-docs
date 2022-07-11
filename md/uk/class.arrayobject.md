@@ -30,11 +30,10 @@ const int `ARRAY_AS_PROPS` u003d 2;
 /\* Методи \*/
 
 public [\_\_construct](arrayobject.construct.md)(array\|object
-`$array` u003d \[\], int `$flags` u003d 0, string `$iteratorClass` u003d
+`$array` u003d [], int `$flags` u003d 0, string `$iteratorClass` u003d
 ArrayIterator::class)
 
-public
-[append](arrayobject.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
+public [append](arrayobject.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): void
 
 public [asort](arrayobject.asort.md)(int `$flags` u003d

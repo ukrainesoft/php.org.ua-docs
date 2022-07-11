@@ -32,8 +32,7 @@ public **ArrayIterator::ksort**(int `$flags` u003d **`SORT_REGULAR`**): bool
 Прапори типу сортування:
 
 - **`SORT_REGULAR`** - звичайне порівняння елементів; подробиці
-описані в розділі [оператори
-порівняння](language.operators.comparison.md)
+описані в розділі [оператори порівняння](language.operators.comparison.md)
 - **`SORT_NUMERIC`** - числове порівняння елементів
 - **`SORT_STRING`** - рядкове порівняння елементів
 - **`SORT_LOCALE_STRING`** - порівняння елементів як рядки на основі

@@ -2,7 +2,7 @@
 - [Приклади »](com.examples.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Помилки та їх обробка
 
 # Помилки та їх обробка

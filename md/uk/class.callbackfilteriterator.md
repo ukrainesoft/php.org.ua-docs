@@ -1,6 +1,5 @@
 - [«CachingIterator::valid](cachingiterator.valid.md)
-- [CallbackFilterIterator::accept
-»](callbackfilteriterator.accept.md)
+- [CallbackFilterIterator::accept »](callbackfilteriterator.accept.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

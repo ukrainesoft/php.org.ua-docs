@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.md)
-- [MongoDB\Driver\ServerApi::bsonSerialize
-»](mongodb-driver-serverapi.bsonserialize.md)
+- [« MongoDB\Driver\ClientEncryption::encrypt](mongodb-driver-clientencryption.encrypt.md)
+- [MongoDB\Driver\ServerApi::bsonSerialize »](mongodb-driver-serverapi.bsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

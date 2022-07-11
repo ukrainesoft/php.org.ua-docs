@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_auth_keygen](function.sodium-crypto-auth-keygen.md)
+- [« sodium_crypto_auth_keygen](function.sodium-crypto-auth-keygen.md)
 - [sodium_crypto_auth »](function.sodium-crypto-auth.md)
 
 - [PHP Manual](index.md)

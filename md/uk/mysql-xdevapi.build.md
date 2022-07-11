@@ -47,8 +47,7 @@ of 'zendparse'". Крім того, пакетні сценарії Windows PHP 
 перезаписувати оточення.
 
 - Примітки для Windows: Щоб підготувати оточення, ознайомтесь з
-офіційною документацією зі збирання Windows для [» поточного
-SDK](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2).
+офіційною документацією зі збирання Windows для [» поточного SDK](https://wiki.php.net/internals/windows/stepbystepbuild_sdk_2).
 
 Ми рекомендуємо використовувати зворотну косу межу '\\' замість косої
 риси '/' всім шляхів.

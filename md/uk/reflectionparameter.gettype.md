@@ -1,5 +1,4 @@
-- [«
-ReflectionParameter::getPosition](reflectionparameter.getposition.md)
+- [« ReflectionParameter::getPosition](reflectionparameter.getposition.md)
 - [ReflectionParameter::hasType »](reflectionparameter.hastype.md)
 
 - [PHP Manual](index.md)

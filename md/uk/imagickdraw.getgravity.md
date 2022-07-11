@@ -1,6 +1,5 @@
 - [« ImagickDraw::getFontWeight](imagickdraw.getfontweight.md)
-- [ImagickDraw::getStrokeAntialias
-»](imagickdraw.getstrokeantialias.md)
+- [ImagickDraw::getStrokeAntialias »](imagickdraw.getstrokeantialias.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

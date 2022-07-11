@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged
-»](mongodb-driver-monitoring-sdamsubscriber.topologychanged.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatSucceeded](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatsucceeded.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyChanged »](mongodb-driver-monitoring-sdamsubscriber.topologychanged.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)

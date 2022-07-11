@@ -1,5 +1,5 @@
 - [«cubrid_column_names](function.cubrid-column-names.md)
-- [cubrid_commit »] (function.cubrid-commit.md)
+- [cubrid_commit »](function.cubrid-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції CUBRID](ref.cubrid.md)

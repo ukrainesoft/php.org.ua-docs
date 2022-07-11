@@ -1,7 +1,5 @@
-- [«
-IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md)
-- [IntlBreakIterator::getPartsIterator
-»](intlbreakiterator.getpartsiterator.md)
+- [« IntlBreakIterator::getErrorMessage](intlbreakiterator.geterrormessage.md)
+- [IntlBreakIterator::getPartsIterator »](intlbreakiterator.getpartsiterator.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

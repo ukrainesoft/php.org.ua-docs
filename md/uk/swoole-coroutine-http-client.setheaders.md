@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::setDefer](swoole-coroutine-http-client.setdefer.md)
-- [Swoole\Coroutine\Http\Client::setMethod
-»](swoole-coroutine-http-client.setmethod.md)
+- [« Swoole\Coroutine\Http\Client::setDefer](swoole-coroutine-http-client.setdefer.md)
+- [Swoole\Coroutine\Http\Client::setMethod »](swoole-coroutine-http-client.setmethod.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

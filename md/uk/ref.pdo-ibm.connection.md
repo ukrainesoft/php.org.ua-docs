@@ -1,8 +1,8 @@
-- [IBM (PDO)] (ref.pdo-ibm.md)
+- [IBM (PDO)](ref.pdo-ibm.md)
 - [Informix (PDO) »](ref.pdo-informix.md)
 
 - [PHP Manual](index.md)
-- [IBM (PDO)] (ref.pdo-ibm.md)
+- [IBM (PDO)](ref.pdo-ibm.md)
 - З'єднання з базою даних IBM
 
 # PDO_IBM DSN

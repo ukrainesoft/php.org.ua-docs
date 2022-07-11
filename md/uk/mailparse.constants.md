@@ -1,5 +1,5 @@
-- [« Типи ресурсів] (mailparse.resources.md)
-- [Mailparse »] (ref.mailparse.md)
+- [« Типи ресурсів](mailparse.resources.md)
+- [Mailparse »](ref.mailparse.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](book.mailparse.md)

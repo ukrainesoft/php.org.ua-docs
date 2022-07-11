@@ -38,10 +38,8 @@ array\|string\|null `$from_encoding` u003d **`null`**): array\|string\|false
 [mb_detect_encoding()](function.mb-detect-encoding.md).
 
 Якщо параметр `from_encoding` дорівнює **`null`** або не вказано, то буде
-використовуватись [mbstring.internal_encoding
-setting](mbstring.configuration.md#ini.mbstring.internal-encoding),
-якщо вона встановлена, інакше [кодування по
-замовчуванням](ini.core.md#ini.default-charset).
+використовуватись [mbstring.internal_encoding setting](mbstring.configuration.md#ini.mbstring.internal-encoding),
+якщо вона встановлена, інакше [кодування по замовчуванням](ini.core.md#ini.default-charset).
 
 Допустимі значення `to_encoding` та `from_encoding` вказані на сторінці
 [підтримувані кодування](mbstring.supported-encodings.md).

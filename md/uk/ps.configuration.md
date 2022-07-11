@@ -1,5 +1,5 @@
 - [« Установка](ps.installation.md)
-- [Типи ресурсів»] (ps.resources.md)
+- [Типи ресурсів»](ps.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ps.setup.md)

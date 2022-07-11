@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Cursor::next](mongodb-driver-cursor.next.md)
-- [MongoDB\Driver\Cursor::setTypeMap
-»](mongodb-driver-cursor.settypemap.md)
+- [MongoDB\Driver\Cursor::setTypeMap »](mongodb-driver-cursor.settypemap.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)

@@ -1,7 +1,5 @@
-- [«
-EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.md)
-- [EventHttpRequest::getOutputHeaders
-»](eventhttprequest.getoutputheaders.md)
+- [« EventHttpRequest::getInputHeaders](eventhttprequest.getinputheaders.md)
+- [EventHttpRequest::getOutputHeaders »](eventhttprequest.getoutputheaders.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

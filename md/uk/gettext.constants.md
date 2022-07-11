@@ -1,5 +1,5 @@
-- [« Типи ресурсів] (gettext.resources.md)
-- [Функції gettext»] (ref.gettext.md)
+- [« Типи ресурсів](gettext.resources.md)
+- [Функції gettext»](ref.gettext.md)
 
 - [PHP Manual](index.md)
 - [Gettext](book.gettext.md)

@@ -1,5 +1,5 @@
 - [« Установка](simplexml.installation.md)
-- [Типи ресурсів»] (simplexml.resources.md)
+- [Типи ресурсів»](simplexml.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](simplexml.setup.md)

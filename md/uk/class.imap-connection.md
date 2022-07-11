@@ -1,5 +1,5 @@
 - [« imap_utf8](function.imap-utf8.md)
-- [Mail»] (book.mail.md)
+- [Mail»](book.mail.md)
 
 - [PHP Manual](index.md)
 - [IMAP](book.imap.md)

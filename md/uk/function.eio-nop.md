@@ -1,5 +1,5 @@
 - [«eio_mknod](function.eio-mknod.md)
-- [eio_npending »] (function.eio-npending.md)
+- [eio_npending »](function.eio-npending.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

@@ -1,5 +1,5 @@
 - [«stripslashes](function.stripslashes.md)
-- [strlen »] (function.strlen.md)
+- [strlen »](function.strlen.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

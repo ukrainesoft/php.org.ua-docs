@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\ThematicBreak](class.commonmark-node-thematicbreak.md)
+- [« CommonMark\Node\ThematicBreak](class.commonmark-node-thematicbreak.md)
 - [CommonMark\Node\LineBreak »](class.commonmark-node-linebreak.md)
 
 - [PHP Manual](index.md)

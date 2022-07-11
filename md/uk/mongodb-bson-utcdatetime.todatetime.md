@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\UTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.md)
-- [MongoDB\BSON\UTCDateTime::\_\_toString
-»](mongodb-bson-utcdatetime.tostring.md)
+- [« MongoDB\BSON\UTCDateTime::serialize](mongodb-bson-utcdatetime.serialize.md)
+- [MongoDB\BSON\UTCDateTime::\_\_toString »](mongodb-bson-utcdatetime.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
@@ -54,5 +52,4 @@ string(6) "+00:00"
 
 ### Дивіться також
 
-- [» Типи BSON:
-Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+- [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

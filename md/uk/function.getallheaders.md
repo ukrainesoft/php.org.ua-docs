@@ -1,5 +1,5 @@
 - [« apache_setenv](function.apache-setenv.md)
-- [virtual »] (function.virtual.md)
+- [virtual »](function.virtual.md)
 
 - [PHP Manual](index.md)
 - [Функції Apache](ref.apache.md)
@@ -34,9 +34,9 @@ getallheaders — Повертає всі заголовки HTTP-запиту
 
 ### Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- |
-| 7.3.0 | Ця функція стала доступною у SAPI FPM. |
+| Версія | Опис                                   |
+|--------|----------------------------------------|
+| 7.3.0  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 

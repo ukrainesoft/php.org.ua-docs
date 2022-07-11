@@ -1,5 +1,4 @@
-- [«
-Swoole\WebSocket\Server::exist](swoole-websocket-server.exist.md)
+- [« Swoole\WebSocket\Server::exist](swoole-websocket-server.exist.md)
 - [Swoole\WebSocket\Server::pack »](swoole-websocket-server.pack.md)
 
 - [PHP Manual](index.md)

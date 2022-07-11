@@ -1,5 +1,4 @@
-- [« Приклад використання зовнішніх сутностей
-XML](example.xml-external-entity.md)
+- [« Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)
 - [xml_error_string »](function.xml-error-string.md)
 
 - [PHP Manual](index.md)

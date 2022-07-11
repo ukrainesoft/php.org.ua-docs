@@ -1,5 +1,5 @@
 - [«readline_redisplay](function.readline-redisplay.md)
-- [readline »] (function.readline.md)
+- [readline »](function.readline.md)
 
 - [PHP Manual](index.md)
 - [Функції Readline](ref.readline.md)

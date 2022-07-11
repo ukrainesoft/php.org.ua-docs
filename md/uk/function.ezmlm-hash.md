@@ -1,5 +1,5 @@
 - [« Пошта](ref.mail.md)
-- [mail »] (function.mail.md)
+- [mail »](function.mail.md)
 
 - [PHP Manual](index.md)
 - [Пошта](ref.mail.md)

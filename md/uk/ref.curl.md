@@ -1,5 +1,5 @@
 - [« Простий приклад використання curl](curl.examples-basic.md)
-- [curl_close »] (function.curl-close.md)
+- [curl_close »](function.curl-close.md)
 
 - [PHP Manual](index.md)
 - [cURL](book.curl.md)

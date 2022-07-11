@@ -1,5 +1,5 @@
 - [« Параметри контексту FTP](context.ftp.md)
-- [Опції контексту CURL»] (context.curl.md)
+- [Опції контексту CURL»](context.curl.md)
 
 - [PHP Manual](index.md)
 - [Контекстні опції та параметри](context.md)

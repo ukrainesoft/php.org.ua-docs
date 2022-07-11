@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\HTMLInline](class.commonmark-node-htmlinline.md)
-- [CommonMark\Node\Image::\_\_construct
-»](commonmark-node-image.construct.md)
+- [« CommonMark\Node\HTMLInline](class.commonmark-node-htmlinline.md)
+- [CommonMark\Node\Image::\_\_construct »](commonmark-node-image.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

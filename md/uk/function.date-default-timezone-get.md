@@ -1,6 +1,5 @@
 - [« date_date_set](function.date-date-set.md)
-- [date_default_timezone_set
-»](function.date-default-timezone-set.md)
+- [date_default_timezone_set »](function.date-default-timezone-set.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

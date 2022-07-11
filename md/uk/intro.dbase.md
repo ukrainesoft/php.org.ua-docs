@@ -1,4 +1,4 @@
-- [« dBase] (book.dbase.md)
+- [« dBase](book.dbase.md)
 - [Встановлення та налаштування »](dbase.setup.md)
 
 - [PHP Manual](index.md)

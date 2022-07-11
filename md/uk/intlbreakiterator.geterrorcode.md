@@ -1,6 +1,5 @@
 - [« IntlBreakIterator::following](intlbreakiterator.following.md)
-- [IntlBreakIterator::getErrorMessage
-»](intlbreakiterator.geterrormessage.md)
+- [IntlBreakIterator::getErrorMessage »](intlbreakiterator.geterrormessage.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

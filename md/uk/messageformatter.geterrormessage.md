@@ -1,5 +1,4 @@
-- [«
-MessageFormatter::getErrorCode](messageformatter.geterrorcode.md)
+- [« MessageFormatter::getErrorCode](messageformatter.geterrorcode.md)
 - [MessageFormatter::getLocale »](messageformatter.getlocale.md)
 
 - [PHP Manual](index.md)

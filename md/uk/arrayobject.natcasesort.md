@@ -73,8 +73,7 @@ ArrayObject Object
 )
 
 Докладніше дивіться сторінку Мартіна Пула (Martin
-Pool) [» Natural Order String
-Comparison](https://github.com/sourcefrog/natsort).
+Pool) [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).
 
 ### Дивіться також
 

@@ -1,6 +1,5 @@
 - [«UI\Controls\Tab::setMargin](ui-controls-tab.setmargin.md)
-- [UI\Controls\Check::\_\_construct
-»](ui-controls-check.construct.md)
+- [UI\Controls\Check::\_\_construct »](ui-controls-check.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

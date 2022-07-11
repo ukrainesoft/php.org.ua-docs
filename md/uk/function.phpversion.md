@@ -1,5 +1,5 @@
 - [«phpinfo](function.phpinfo.md)
-- [putenv»] (function.putenv.md)
+- [putenv»](function.putenv.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)
@@ -56,8 +56,7 @@ phpversion — Отримує поточну версію PHP
 
 ### Дивіться також
 
-- [Константи
-PHP_VERSION](reserved.constants.md#reserved.constants.core)
+- [Константи PHP_VERSION](reserved.constants.md#reserved.constants.core)
 - [version_compare()](function.version-compare.md) - Порівнює дві
 "стандартизовані" рядки з номером версії PHP
 - [phpinfo()](function.phpinfo.md) - Виводить інформацію про поточну

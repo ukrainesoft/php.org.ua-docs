@@ -1,6 +1,5 @@
 - [«openssl_open](function.openssl-open.md)
-- [openssl_pkcs12_export_to_file
-»](function.openssl-pkcs12-export-to-file.md)
+- [openssl_pkcs12_export_to_file »](function.openssl-pkcs12-export-to-file.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -38,8 +37,7 @@ PBKDF2 рекомендує використовувати криптограф�
 Довжина ключа, що генерується.
 
 `iterations`
-Кількість ітерацій. [» NIST рекомендує як мінімум
-10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5).
+Кількість ітерацій. [» NIST рекомендує як мінімум 10,000](https://pages.nist.gov/800-63-3/sp800-63b.md#sec5).
 
 `digest_algo`
 Опціональний алгоритм хешування отриманий з

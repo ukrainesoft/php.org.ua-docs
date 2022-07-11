@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\OrderedList](class.commonmark-node-orderedlist.md)
+- [« CommonMark\Node\OrderedList](class.commonmark-node-orderedlist.md)
 - [CommonMark\Node\Item »](class.commonmark-node-item.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-EventDnsBase::countNameservers](eventdnsbase.countnameservers.md)
+- [« EventDnsBase::countNameservers](eventdnsbase.countnameservers.md)
 - [EventDnsBase::parseResolvConf »](eventdnsbase.parseresolvconf.md)
 
 - [PHP Manual](index.md)

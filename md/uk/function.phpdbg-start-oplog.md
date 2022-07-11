@@ -1,5 +1,5 @@
 - [«phpdbg_prompt](function.phpdbg-prompt.md)
-- [runkit7 »] (book.runkit7.md)
+- [runkit7 »](book.runkit7.md)
 
 - [PHP Manual](index.md)
 - [Функції phpdbg](ref.phpdbg.md)

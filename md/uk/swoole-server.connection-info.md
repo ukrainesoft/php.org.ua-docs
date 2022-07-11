@@ -1,6 +1,5 @@
 - [« Swoole\Server::confirm](swoole-server.confirm.md)
-- [Swoole\Server::connection_list
-»](swoole-server.connection-list.md)
+- [Swoole\Server::connection_list »](swoole-server.connection-list.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Server](class.swoole-server.md)

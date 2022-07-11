@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Timestamp::unserialize](mongodb-bson-timestamp.unserialize.md)
-- [MongoDB\BSON\UTCDateTime::\_\_construct
-»](mongodb-bson-utcdatetime.construct.md)
+- [« MongoDB\BSON\Timestamp::unserialize](mongodb-bson-timestamp.unserialize.md)
+- [MongoDB\BSON\UTCDateTime::\_\_construct »](mongodb-bson-utcdatetime.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -13,8 +11,7 @@ MongoDB\BSON\Timestamp::unserialize](mongodb-bson-timestamp.unserialize.md)
 
 ## Вступ
 
-Представляє [» дату
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#date).
+Представляє [» дату BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#date).
 Значення є 64-розрядним цілим числом, що представляє
 кількість мілісекунд від початку епохи Unix (1 січня 1970 р.).
 Негативні значення становлять дати до 1970 року.

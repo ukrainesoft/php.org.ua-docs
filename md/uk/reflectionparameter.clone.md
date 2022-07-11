@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.md)
-- [ReflectionParameter::\_\_construct
-»](reflectionparameter.construct.md)
+- [« ReflectionParameter::canBePassedByValue](reflectionparameter.canbepassedbyvalue.md)
+- [ReflectionParameter::\_\_construct »](reflectionparameter.construct.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

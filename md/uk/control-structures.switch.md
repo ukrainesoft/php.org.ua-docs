@@ -1,5 +1,5 @@
 - [«continue](control-structures.continue.md)
-- [match »] (control-structures.match.md)
+- [match »](control-structures.match.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)
@@ -80,8 +80,7 @@ case.
 > **`E_COMPILE_ERROR`**.
 
 Можливий альтернативний синтаксис для керуючої структури switch. Для
-докладнішу інформацію дивіться [Альтернативний синтаксис для
-керуючих структур] (control-structures.alternative-syntax.md).
+докладнішу інформацію дивіться [Альтернативний синтаксис для керуючих структур](control-structures.alternative-syntax.md).
 
 `<?phpswitch ($i):   case 0:        echo "і рівно 0"; break; case 1:        echo "i рівно 1"; break; case 2:        echo "i рівно 2"; break; default:        echo "i не рівно 0, 1 або 2";endswitch;?> `
 

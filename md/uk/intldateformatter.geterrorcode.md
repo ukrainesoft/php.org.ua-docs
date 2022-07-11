@@ -1,7 +1,5 @@
-- [«
-IntlDateFormatter::getDateType](intldateformatter.getdatetype.md)
-- [IntlDateFormatter::getErrorMessage
-»](intldateformatter.geterrormessage.md)
+- [« IntlDateFormatter::getDateType](intldateformatter.getdatetype.md)
+- [IntlDateFormatter::getErrorMessage »](intldateformatter.geterrormessage.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

@@ -1,6 +1,5 @@
 - [« UConverter::getSubstChars](uconverter.getsubstchars.md)
-- [UConverter::setDestinationEncoding
-»](uconverter.setdestinationencoding.md)
+- [UConverter::setDestinationEncoding »](uconverter.setdestinationencoding.md)
 
 - [PHP Manual](index.md)
 - [UConverter](class.uconverter.md)

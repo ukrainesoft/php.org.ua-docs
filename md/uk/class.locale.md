@@ -1,5 +1,4 @@
-- [«
-NumberFormatter::setTextAttribute](numberformatter.settextattribute.md)
+- [« NumberFormatter::setTextAttribute](numberformatter.settextattribute.md)
 - [Locale::acceptFromHttp »](locale.acceptfromhttp.md)
 
 - [PHP Manual](index.md)
@@ -157,18 +156,12 @@ bool
 
 ## Дивіться також
 
-- [» RFC 4646 - мітки для ідентифікаторів
-мов](http://www.faqs.org/rfcs/rfc4646)
-- [» RFC 4647 - перевірка мовних
-тегів](http://www.faqs.org/rfcs/rfc4647)
-- [» Проект Unicode CLDR: Стандартний репозиторій даних
-локалей](http://www.unicode.org/cldr/)
-- [» Регістр мовних міток
-IANA](http://www.iana.org/assignments/language-subtag-registry)
-- [» Керівництво користувача ICU -
-Локаль](https://unicode-org.github.io/icu/userguide/locale/)
-- [» ICU api
-локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.md#details)
+- [» RFC 4646 - мітки для ідентифікаторів мов](http://www.faqs.org/rfcs/rfc4646)
+- [» RFC 4647 - перевірка мовних тегів](http://www.faqs.org/rfcs/rfc4647)
+- [» Проект Unicode CLDR: Стандартний репозиторій даних локалей](http://www.unicode.org/cldr/)
+- [» Регістр мовних міток IANA](http://www.iana.org/assignments/language-subtag-registry)
+- [» Керівництво користувача ICU - Локаль](https://unicode-org.github.io/icu/userguide/locale/)
+- [» ICU api локалі](http://www.icu-project.org/apiref/icu4c/uloc_8h.md#details)
 
 ## Зміст
 

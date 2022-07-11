@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)
-- [ReflectionClassConstant::getDocComment
-»](reflectionclassconstant.getdoccomment.md)
+- [« ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)
+- [ReflectionClassConstant::getDocComment »](reflectionclassconstant.getdoccomment.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

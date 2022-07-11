@@ -1,6 +1,5 @@
 - [« Swoole\Client::sleep](swoole-client.sleep.md)
-- [Swoole\Connection\Iterator
-»](class.swoole-connection-iterator.md)
+- [Swoole\Connection\Iterator »](class.swoole-connection-iterator.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Client](class.swoole-client.md)

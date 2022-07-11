@@ -1,5 +1,5 @@
 - [«set_include_path](function.set-include-path.md)
-- [sys_get_temp_dir »] (function.sys-get-temp-dir.md)
+- [sys_get_temp_dir »](function.sys-get-temp-dir.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

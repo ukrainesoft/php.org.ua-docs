@@ -1,5 +1,4 @@
-- [«
-fann_set_sarprop_temperature](function.fann-set-sarprop-temperature.md)
+- [« fann_set_sarprop_temperature](function.fann-set-sarprop-temperature.md)
 - [fann_set_scaling_params »](function.fann-set-scaling-params.md)
 
 - [PHP Manual](index.md)

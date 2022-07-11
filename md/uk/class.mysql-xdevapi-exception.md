@@ -1,5 +1,4 @@
-- [«
-DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.md)
+- [« DocResult::getWarningsCount](mysql-xdevapi-docresult.getwarningscount.md)
 - [mysql_xdevapi\Executable »](class.mysql-xdevapi-executable.md)
 
 - [PHP Manual](index.md)

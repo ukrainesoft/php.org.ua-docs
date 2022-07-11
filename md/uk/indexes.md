@@ -1,5 +1,5 @@
 - [« Creative Commons Attribution 3.0](cc.license.md)
-- [Список функцій та методів»] (indexes.functions.md)
+- [Список функцій та методів»](indexes.functions.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)

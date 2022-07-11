@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md)
-- [SolrQuery::getHighlightRequireFieldMatch
-»](solrquery.gethighlightrequirefieldmatch.md)
+- [« SolrQuery::getHighlightRegexPattern](solrquery.gethighlightregexpattern.md)
+- [SolrQuery::getHighlightRequireFieldMatch »](solrquery.gethighlightrequirefieldmatch.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

@@ -1,6 +1,5 @@
 - [«ResourceBundle::create](resourcebundle.create.md)
-- [ResourceBundle::getErrorMessage
-»](resourcebundle.geterrormessage.md)
+- [ResourceBundle::getErrorMessage »](resourcebundle.geterrormessage.md)
 
 - [PHP Manual](index.md)
 - [ResourceBundle](class.resourcebundle.md)

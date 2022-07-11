@@ -1,5 +1,4 @@
-- [«
-Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.md)
+- [« Session::releaseSavepoint](mysql-xdevapi-session.releasesavepoint.md)
 - [Session::rollbackTo »](mysql-xdevapi-session.rollbackto.md)
 
 - [PHP Manual](index.md)

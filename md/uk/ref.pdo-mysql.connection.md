@@ -1,8 +1,8 @@
-- [«MySQL (PDO)] (ref.pdo-mysql.md)
+- [«MySQL (PDO)](ref.pdo-mysql.md)
 - [MS SQL Server (PDO) »](ref.pdo-sqlsrv.md)
 
 - [PHP Manual](index.md)
-- [MySQL (PDO)] (ref.pdo-mysql.md)
+- [MySQL (PDO)](ref.pdo-mysql.md)
 - З'єднання з базою даних MySQL
 
 #PDO_MYSQL DSN

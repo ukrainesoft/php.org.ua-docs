@@ -1,6 +1,5 @@
 - [«UI\Controls\Radio](class.ui-controls-radio.md)
-- [UI\Controls\Radio::getSelected
-»](ui-controls-radio.getselected.md)
+- [UI\Controls\Radio::getSelected »](ui-controls-radio.getselected.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Radio](class.ui-controls-radio.md)

@@ -1,7 +1,5 @@
-- [«
-Collection::createIndex](mysql-xdevapi-collection.createindex.md)
-- [Collection::existsInDatabase
-»](mysql-xdevapi-collection.existsindatabase.md)
+- [« Collection::createIndex](mysql-xdevapi-collection.createindex.md)
+- [Collection::existsInDatabase »](mysql-xdevapi-collection.existsindatabase.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)

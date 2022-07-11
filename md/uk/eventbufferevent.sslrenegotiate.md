@@ -1,5 +1,4 @@
-- [«
-EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md)
+- [« EventBufferEvent::sslGetProtocol](eventbufferevent.sslgetprotocol.md)
 - [EventBufferEvent::sslSocket »](eventbufferevent.sslsocket.md)
 
 - [PHP Manual](index.md)

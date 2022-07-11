@@ -1,5 +1,4 @@
-- [« Зміни, що ламають зворотну
-сумісність](migration74.incompatible.md)
+- [« Зміни, що ламають зворотну сумісність](migration74.incompatible.md)
 - [Видалені модулі »](migration74.removed-extensions.md)
 
 - [PHP Manual](index.md)

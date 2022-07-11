@@ -1,5 +1,4 @@
-- [«
-openssl_random_pseudo_bytes](function.openssl-random-pseudo-bytes.md)
+- [« openssl_random_pseudo_bytes](function.openssl-random-pseudo-bytes.md)
 - [openssl_sign »](function.openssl-sign.md)
 
 - [PHP Manual](index.md)

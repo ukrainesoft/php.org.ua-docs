@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md)
-- [SolrQuery::getHighlightFormatter
-»](solrquery.gethighlightformatter.md)
+- [« SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md)
+- [SolrQuery::getHighlightFormatter »](solrquery.gethighlightformatter.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

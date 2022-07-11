@@ -1,6 +1,5 @@
 - [« Collection::removeOne](mysql-xdevapi-collection.removeone.md)
-- [mysql_xdevapi\CollectionAdd
-»](class.mysql-xdevapi-collectionadd.md)
+- [mysql_xdevapi\CollectionAdd »](class.mysql-xdevapi-collectionadd.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)

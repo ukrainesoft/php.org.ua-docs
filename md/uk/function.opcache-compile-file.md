@@ -1,6 +1,5 @@
 - [« Функції OPcache](ref.opcache.md)
-- [opcache_get_configuration
-»](function.opcache-get-configuration.md)
+- [opcache_get_configuration »](function.opcache-get-configuration.md)
 
 - [PHP Manual](index.md)
 - [Функції OPcache](ref.opcache.md)

@@ -1,7 +1,5 @@
-- [«
-fann_create_standard_array](function.fann-create-standard-array.md)
-- [fann_create_train_from_callback
-»](function.fann-create-train-from-callback.md)
+- [« fann_create_standard_array](function.fann-create-standard-array.md)
+- [fann_create_train_from_callback »](function.fann-create-train-from-callback.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

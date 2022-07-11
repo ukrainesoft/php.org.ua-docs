@@ -1,5 +1,5 @@
 - [« Встановлення](rar.installation.md)
-- [Типи ресурсів»] (rar.resources.md)
+- [Типи ресурсів»](rar.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](rar.setup.md)

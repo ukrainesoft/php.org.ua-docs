@@ -1,5 +1,5 @@
 - [« Установка](hash.installation.md)
-- [Типи ресурсів»] (hash.resources.md)
+- [Типи ресурсів»](hash.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](hash.setup.md)

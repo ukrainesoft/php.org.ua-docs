@@ -1,7 +1,5 @@
-- [«
-Yaf_Application::getDispatcher](yaf-application.getdispatcher.md)
-- [Yaf_Application::getLastErrorNo
-»](yaf-application.getlasterrorno.md)
+- [« Yaf_Application::getDispatcher](yaf-application.getdispatcher.md)
+- [Yaf_Application::getLastErrorNo »](yaf-application.getlasterrorno.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

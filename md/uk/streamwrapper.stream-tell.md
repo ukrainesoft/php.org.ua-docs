@@ -1,6 +1,5 @@
 - [« streamWrapper::stream_stat](streamwrapper.stream-stat.md)
-- [streamWrapper::stream_truncate
-»](streamwrapper.stream-truncate.md)
+- [streamWrapper::stream_truncate »](streamwrapper.stream-truncate.md)
 
 - [PHP Manual](index.md)
 - [streamWrapper](class.streamwrapper.md)

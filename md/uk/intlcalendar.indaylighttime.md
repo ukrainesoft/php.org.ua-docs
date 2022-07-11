@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md)
+- [« IntlCalendar::getWeekendTransition](intlcalendar.getweekendtransition.md)
 - [IntlCalendar::isEquivalentTo »](intlcalendar.isequivalentto.md)
 
 - [PHP Manual](index.md)

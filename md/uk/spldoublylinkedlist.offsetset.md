@@ -1,7 +1,5 @@
-- [«
-SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)
-- [SplDoublyLinkedList::offsetUnset
-»](spldoublylinkedlist.offsetunset.md)
+- [« SplDoublyLinkedList::offsetGet](spldoublylinkedlist.offsetget.md)
+- [SplDoublyLinkedList::offsetUnset »](spldoublylinkedlist.offsetunset.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

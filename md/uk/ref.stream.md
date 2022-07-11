@@ -1,5 +1,5 @@
 - [« streamWrapper::url_stat](streamwrapper.url-stat.md)
-- [stream_bucket_append »] (function.stream-bucket-append.md)
+- [stream_bucket_append »](function.stream-bucket-append.md)
 
 - [PHP Manual](index.md)
 - [Потоки](book.stream.md)

@@ -1,5 +1,5 @@
 - [«mb_strlen](function.mb-strlen.md)
-- [mb_strrchr »] (function.mb-strrchr.md)
+- [mb_strrchr »](function.mb-strrchr.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

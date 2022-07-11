@@ -25,8 +25,7 @@
 працює у режимі обслуговування запитів без перезавантаження. Таким чином,
 хоч передзавантаження і можна використовувати в режимі CLI з увімкненим
 opcache, проте, здебільшого безглуздо. Винятком є
-використання передзавантаження з [бібліотеками
-FFI] (ffi.examples-complete.md).
+використання передзавантаження з [бібліотеками FFI](ffi.examples-complete.md).
 
 > **Примітка**:
 >
@@ -59,8 +58,7 @@ opcache.preloadu003dpreload.php
 файли `.php` у директорії `src`, якщо вони не містять `Test` в імені.
 
 ` <?php$directory u003d new RecursiveDirectoryIterator(__DIR__ . '/src');$fullTreeu003d new RecursiveIteratorIterator($directory);$phpFiles u003d new RegexIterator($f<' .php$)/i', RecursiveRegexIterator::GET_MATCH);foreach ($phpFiles as $key u003d> $file) {   require_once($file[0]);}?> `
-
-І [include](function.include.md) та
+ І [include](function.include.md) та
 [opcache_compile_file()](function.opcache-compile-file.md) будуть
 працювати, але при цьому будуть трохи по-різному оброблені.
 

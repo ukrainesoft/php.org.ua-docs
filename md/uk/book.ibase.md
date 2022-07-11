@@ -2,8 +2,7 @@
 - [Вступ »](intro.ibase.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - Firebird/InterBase
 
 # Firebird/InterBase

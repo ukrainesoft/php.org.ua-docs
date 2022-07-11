@@ -1,7 +1,5 @@
-- [«
-readline_callback_read_char](function.readline-callback-read-char.md)
-- [readline_completion_function
-»](function.readline-completion-function.md)
+- [« readline_callback_read_char](function.readline-callback-read-char.md)
+- [readline_completion_function »](function.readline-completion-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Readline](ref.readline.md)

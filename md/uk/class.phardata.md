@@ -2,7 +2,7 @@
 - [PharData::addEmptyDir »](phardata.addemptydir.md)
 
 - [PHP Manual](index.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - Клас PharData
 
 # Клас PharData

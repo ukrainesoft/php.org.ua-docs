@@ -1,5 +1,4 @@
-- [«
-SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md)
+- [« SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md)
 - [SimpleXMLElement::asXML »](simplexmlelement.asxml.md)
 
 - [PHP Manual](index.md)

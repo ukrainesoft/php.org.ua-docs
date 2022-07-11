@@ -1,5 +1,5 @@
 - [« Функціональний API](functional.parallel.md)
-- [Parallelun »](parallel.run.md)
+- [Parallel\run »](parallel.run.md)
 
 - [PHP Manual](index.md)
 - [Функціональний API](functional.parallel.md)
@@ -17,7 +17,7 @@ parallel ootstrap — Початкове завантаження
 
 Повинен використовувати наданий `file` для початкового завантаження всіх
 середовищ виконання, створених для автоматичного планування за допомогою
-[Parallelun()](parallel.run.md).
+[Parallel\run()](parallel.run.md).
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ parallel ootstrap — Початкове завантаження
 **Увага**
 
 Викидає parallel\Runtime\Error\Bootstrap, якщо викликається після
-[Parallelun()](parallel.run.md).
+[Parallel\run()](parallel.run.md).
 
 ### Дивіться також
 

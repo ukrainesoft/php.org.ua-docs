@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::count](swoole-connection-iterator.count.md)
-- [Swoole\Connection\Iterator::key
-»](swoole-connection-iterator.key.md)
+- [« Swoole\Connection\Iterator::count](swoole-connection-iterator.count.md)
+- [Swoole\Connection\Iterator::key »](swoole-connection-iterator.key.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)

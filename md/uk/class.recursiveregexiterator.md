@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)
-- [RecursiveRegexIterator::\_\_construct
-»](recursiveregexiterator.construct.md)
+- [« RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)
+- [RecursiveRegexIterator::\_\_construct »](recursiveregexiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

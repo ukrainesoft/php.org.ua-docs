@@ -29,7 +29,7 @@
 - [PhpToken::tokenize](phptoken.tokenize.md) - Розбирає
 заданий рядок, що містить програму на PHP, на масив об'єктів
 PhpToken
-- [Функції PHP-лексера (tokenizer)] (ref.tokenizer.md)
+- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
 - [token_get_all](function.token-get-all.md) - Розбиває
 переданий вихідний код на PHP-лексеми
 - [token_name](function.token-name.md) — Отримати символьне ім'я

@@ -10,8 +10,7 @@
 Деякі питання можуть не відповідати іншим категоріям. Ви можете
 знайти їх тут.
 
-1. [Як поводитися зі стислими bz2 посібниками під
-Windows?](#faq.misc.bz2)
+1. [Як поводитися зі стислими bz2 посібниками під Windows?](#faq.misc.bz2)
 
 **Як поводитися зі стислими bz2 посібниками під Windows?**
 Якщо у вас немає архіватора для роботи із файлами bz2, то
@@ -19,13 +18,10 @@ Windows?](#faq.misc.bz2)
 рядки від Redhat (будь ласка, шукайте подробиці нижче).
 
 Якщо ви не бажаєте використовувати утиліту командного рядка, ви можете
-спробувати безкоштовні засоби, такі як [» Stuffit
-Expander](http://www.stuffit.com/),
+спробувати безкоштовні засоби, такі як [» Stuffit Expander](http://www.stuffit.com/),
 [» UltimateZip](http://www.ultimatezip.com/),
-[» 7-Zip](http://www.7-zip.org/) або [» Quick
-Zip](http://www.quickzip.org/). Якщо у вас є такі утиліти як
-[»WinRAR](http://www.rarlab.com/) або [»Power
-Archiver](http://www.powerarchiver.com/), то за їх допомогою ви можете
+[» 7-Zip](http://www.7-zip.org/) або [» Quick Zip](http://www.quickzip.org/). Якщо у вас є такі утиліти як
+[»WinRAR](http://www.rarlab.com/) або [»Power Archiver](http://www.powerarchiver.com/), то за їх допомогою ви можете
 легко розпакувати файли bz2. Якщо ви користуєтесь Total Commander (колишній
 Windows Commander), модуль bz2 для цієї програми доступний
 безкоштовно із сайту [»Total Commander](http://www.ghisler.com/).

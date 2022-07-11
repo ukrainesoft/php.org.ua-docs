@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.md)
-- [ColumnResult::isNumberSigned
-»](mysql-xdevapi-columnresult.isnumbersigned.md)
+- [« ColumnResult::getTableName](mysql-xdevapi-columnresult.gettablename.md)
+- [ColumnResult::isNumberSigned »](mysql-xdevapi-columnresult.isnumbersigned.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

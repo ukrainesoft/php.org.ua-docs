@@ -1,5 +1,4 @@
-- [«
-Yaf_Controller_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md)
+- [« Yaf_Controller_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md)
 - [Yaf_Action_Abstract::execute »](yaf-action-abstract.execute.md)
 
 - [PHP Manual](index.md)

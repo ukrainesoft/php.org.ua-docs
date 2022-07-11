@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md)
+- [« ImagickDraw::setTextInterlineSpacing](imagickdraw.settextinterlinespacing.md)
 - [ImagickDraw::setTextKerning »](imagickdraw.settextkerning.md)
 
 - [PHP Manual](index.md)

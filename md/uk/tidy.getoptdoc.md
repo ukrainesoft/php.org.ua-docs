@@ -2,7 +2,7 @@
 - [tidy::getRelease »](tidy.getrelease.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає опис для опції із зазначеною назвою
 
 # tidy::getOptDoc

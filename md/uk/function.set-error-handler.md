@@ -1,5 +1,4 @@
-- [«
-restore_exception_handler](function.restore-exception-handler.md)
+- [« restore_exception_handler](function.restore-exception-handler.md)
 - [set_exception_handler »](function.set-exception-handler.md)
 
 - [PHP Manual](index.md)

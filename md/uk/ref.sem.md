@@ -1,5 +1,5 @@
 - [«Зумовлені константи](sem.constants.md)
-- [ftok »] (function.ftok.md)
+- [ftok »](function.ftok.md)
 
 - [PHP Manual](index.md)
 - [Семафори](book.sem.md)

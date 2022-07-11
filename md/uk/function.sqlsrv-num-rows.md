@@ -21,8 +21,7 @@ sqlsrv_num_rows — Отримує кількість рядків у набор
 набір ключів. Для отримання додаткової інформації дивіться опис
 функцій [sqlsrv_query()](function.sqlsrv-query.md),
 [sqlsrv_prepare()](function.sqlsrv-prepare.md) або [» Вказівка типу
-курсору та вибір
-рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) в
+курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) в
 Microsoft SQLSRV документації.
 
 ### Список параметрів
@@ -33,8 +32,7 @@ Microsoft SQLSRV документації.
 ключів. Для отримання додаткової інформації дивіться опис
 функцій [sqlsrv_query()](function.sqlsrv-query.md),
 [sqlsrv_prepare()](function.sqlsrv-prepare.md) або [» Вказівка типу
-курсору та вибір
-рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) в
+курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) в
 Microsoft SQLSRV документації.
 
 ### Значення, що повертаються

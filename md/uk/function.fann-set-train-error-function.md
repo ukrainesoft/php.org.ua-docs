@@ -1,6 +1,5 @@
 - [« fann_set_scaling_params](function.fann-set-scaling-params.md)
-- [fann_set_train_stop_function
-»](function.fann-set-train-stop-function.md)
+- [fann_set_train_stop_function »](function.fann-set-train-stop-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)
@@ -20,8 +19,7 @@ fann_set_train_error_function — Встановлює функцію помил
 
 Встановлює функцію помилки під час тренування.
 
-Функції помилок описані далі в константах [функцій
-помилок](fann.constants.md#constants.fann-errorfunc).
+Функції помилок описані далі в константах [функцій помилок](fann.constants.md#constants.fann-errorfunc).
 
 ### Список параметрів
 

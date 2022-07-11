@@ -1,5 +1,4 @@
-- [« Буферизовані та небуферизовані
-запити](mysqlinfo.concepts.buffering.md)
+- [« Буферизовані та небуферизовані запити](mysqlinfo.concepts.buffering.md)
 - [MySQLi »](book.mysqli.md)
 
 - [PHP Manual](index.md)
@@ -10,8 +9,7 @@
 
 В ідеальному випадку кодування символів має встановлюватися на рівні
 сервера і робити це згідно з описом у розділі [»Конфігурація
-кодування
-символів](http://dev.mysql.com/doc/mysql/en/charset-configuration.md)
+кодування символів](http://dev.mysql.com/doc/mysql/en/charset-configuration.md)
 документації сервера MySQL Як альтернатива кожен MySQL API
 пропонує метод встановлення кодування символів під час виконання.
 

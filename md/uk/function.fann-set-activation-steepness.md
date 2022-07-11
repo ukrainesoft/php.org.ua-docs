@@ -1,5 +1,4 @@
-- [«
-fann_set_activation_steepness_output](function.fann-set-activation-steepness-output.md)
+- [« fann_set_activation_steepness_output](function.fann-set-activation-steepness-output.md)
 - [fann_set_bit_fail_limit »](function.fann-set-bit-fail-limit.md)
 
 - [PHP Manual](index.md)

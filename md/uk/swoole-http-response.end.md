@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Response::\_\_destruct](swoole-http-response.destruct.md)
+- [« Swoole\Http\Response::\_\_destruct](swoole-http-response.destruct.md)
 - [Swoole\Http\Response::gzip »](swoole-http-response.gzip.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [«Componere\Definition](class.componere-definition.md)
-- [Componere\Definition::addConstant
-»](componere-definition.addconstant.md)
+- [Componere\Definition::addConstant »](componere-definition.addconstant.md)
 
 - [PHP Manual](index.md)
 - [Componere\Definition](class.componere-definition.md)

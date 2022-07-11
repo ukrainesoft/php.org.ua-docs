@@ -1,5 +1,5 @@
 - [«jdtofrench](function.jdtofrench.md)
-- [jdtojewish »] (function.jdtojewish.md)
+- [jdtojewish »](function.jdtojewish.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

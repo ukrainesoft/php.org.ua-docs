@@ -17,13 +17,12 @@ ldap_list - Однорівневий пошук
 [LDAP\Connection](class.ldap-connection.md)\|array `$ldap`,
 array\|string `$base`,
 array\|string `$filter`,
-array `$attributes` u003d \[\],
+array `$attributes` u003d [],
 int `$attributes_only` u003d 0,
 int `$sizelimit` u003d -1,
 int `$timelimit` u003d -1,
 int `$deref` u003d **`LDAP_DEREF_NEVER`**,
-?array `$controls` u003d **`null`**
-): [LDAP\Result](class.ldap-result.md)\|array\|false
+?array `$controls` u003d **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
 
 Виконує пошук для зазначеного `filter` у директорії в рамках
 **`LDAP_SCOPE_ONELEVEL`**.

@@ -1,5 +1,5 @@
 - [« Установка](readline.installation.md)
-- [Типи ресурсів»] (readline.resources.md)
+- [Типи ресурсів»](readline.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](readline.setup.md)
@@ -19,8 +19,7 @@
 Коротке пояснення конфігураційних директив.
 
 `cli.pager` string
-Зовнішня утиліта для відображення виведення в [командну
-рядок](features.commandline.md).
+Зовнішня утиліта для відображення виведення в [командну рядок](features.commandline.md).
 
 `cli.prompt` string
 Підказка [командного рядка](features.commandline.md).

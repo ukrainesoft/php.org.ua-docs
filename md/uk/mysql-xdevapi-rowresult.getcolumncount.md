@@ -1,6 +1,5 @@
 - [« RowResult::fetchOne](mysql-xdevapi-rowresult.fetchone.md)
-- [RowResult::getColumnNames
-»](mysql-xdevapi-rowresult.getcolumnnames.md)
+- [RowResult::getColumnNames »](mysql-xdevapi-rowresult.getcolumnnames.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)

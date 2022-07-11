@@ -1,5 +1,5 @@
 - [« variant_idiv](function.variant-idiv.md)
-- [variant_int »] (function.variant-int.md)
+- [variant_int »](function.variant-int.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)
@@ -48,16 +48,16 @@ variant_imp - Побітова імплікація над двома варіа
 ### Значення, що повертаються
 
 | Якщо `left` | Якщо `right` | Тоді результат |
-|-------------|--------------|-----------------|
-| **`true`** | **`true`** | **`true`** |
-| **`true`** | **`false`** | **`false`** |
-| **`true`** | **`null`** | **`true`** |
-| **`false`** | **`true`** | **`true`** |
-| **`false`** | **`false`** | **`true`** |
-| **`false`** | **`null`** | **`true`** |
-| **`null`** | **`true`** | **`true`** |
-| **`null`** | **`false`** | **`null`** |
-| **`null`** | **`null`** | **`null`** |
+|-------------|--------------|----------------|
+| **`true`**  | **`true`**   | **`true`**     |
+| **`true`**  | **`false`**  | **`false`**    |
+| **`true`**  | **`null`**   | **`true`**     |
+| **`false`** | **`true`**   | **`true`**     |
+| **`false`** | **`false`**  | **`true`**     |
+| **`false`** | **`null`**   | **`true`**     |
+| **`null`**  | **`true`**   | **`true`**     |
+| **`null`**  | **`false`**  | **`null`**     |
+| **`null`**  | **`null`**   | **`null`**     |
 
 **Таблиця імплікації варіантів**
 

@@ -1,6 +1,5 @@
 - [« openssl_spki_verify](function.openssl-spki-verify.md)
-- [openssl_x509_check_private_key
-»](function.openssl-x509-check-private-key.md)
+- [openssl_x509_check_private_key »](function.openssl-x509-check-private-key.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -45,8 +44,7 @@ string\|int `$algorithm` u003d **`OPENSSL_ALGO_SHA1`**
 KEY----- MIIBCgK..."
 
 `algorithm`
-Ціле число, що відповідає одному з [алгоритмів
-підпису](openssl.signature-algos.md).
+Ціле число, що відповідає одному з [алгоритмів підпису](openssl.signature-algos.md).
 
 Рядок, повернутий
 [openssl_get_md_methods()](function.openssl-get-md-methods.md),

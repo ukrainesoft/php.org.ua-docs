@@ -1,6 +1,5 @@
-- [« Чим відрізняється phar від tar- або
-zip-архіву?](phar.fileformat.md)
-- [Заглушка Phar-файлу»] (phar.fileformat.stub.md)
+- [« Чим відрізняється phar від tar- або zip-архіву?](phar.fileformat.md)
+- [Заглушка Phar-файлу»](phar.fileformat.stub.md)
 
 - [PHP Manual](index.md)
 - [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
@@ -16,5 +15,5 @@ zip-архіву?](phar.fileformat.md)
 
 3. вміст файлу
 
-4. \[необов'язково\] підпис для перевірки цілісності Phar (тільки для
+4. [необов'язково] підпис для перевірки цілісності Phar (тільки для
 формату файлу phar)

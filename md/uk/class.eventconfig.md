@@ -1,9 +1,8 @@
-- [« Про callback-функції подієвого
-буфера](eventbufferevent.about.callbacks.md)
+- [« Про callback-функції подієвого буфера](eventbufferevent.about.callbacks.md)
 - [EventConfig::avoidMethod »](eventconfig.avoidmethod.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventConfig
 
 # Клас EventConfig

@@ -73,6 +73,5 @@ nodevalue
 пов'язаний з вузлом синхронно
 - [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує
 ACL, пов'язаний із вузлом
-- [Стани
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
+- [Стани ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
 - [ZookeeperException](class.zookeeperexception.md)

@@ -1,5 +1,4 @@
-- [«
-fann_set_cascade_output_stagnation_epochs](function.fann-set-cascade-output-stagnation-epochs.md)
+- [« fann_set_cascade_output_stagnation_epochs](function.fann-set-cascade-output-stagnation-epochs.md)
 - [fann_set_error_log »](function.fann-set-error-log.md)
 
 - [PHP Manual](index.md)

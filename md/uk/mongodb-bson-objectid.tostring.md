@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectId::serialize](mongodb-bson-objectid.serialize.md)
-- [MongoDB\BSON\ObjectId::unserialize
-»](mongodb-bson-objectid.unserialize.md)
+- [« MongoDB\BSON\ObjectId::serialize](mongodb-bson-objectid.serialize.md)
+- [MongoDB\BSON\ObjectId::unserialize »](mongodb-bson-objectid.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
@@ -40,7 +38,5 @@ string(24) "0000000000000000000001"
 
 ### Дивіться також
 
-- [» Довідка по
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
-- [» Типи BSON:
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

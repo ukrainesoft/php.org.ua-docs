@@ -1,5 +1,4 @@
-- [«
-XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.md)
+- [« XMLReader::moveToFirstAttribute](xmlreader.movetofirstattribute.md)
 - [XMLReader::next »](xmlreader.next.md)
 
 - [PHP Manual](index.md)

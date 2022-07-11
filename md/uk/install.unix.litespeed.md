@@ -1,7 +1,5 @@
-- [« Установка PHP на Lighttpd 1.4 на
-Unix-системах](install.unix.lighttpd-14.md)
-- [Установка з інтерфейсами CGI та командного рядка
-»](install.unix.commandline.md)
+- [« Установка PHP на Lighttpd 1.4 на Unix-системах](install.unix.lighttpd-14.md)
+- [Установка з інтерфейсами CGI та командного рядка »](install.unix.commandline.md)
 
 - [PHP Manual](index.md)
 - [Установка для Unix-системи](install.unix.md)
@@ -32,10 +30,8 @@ LSAPI – це дуже оптимізований API, що дозволяє Li
 версії.
 
 1. Для отримання та встановлення LSWS та OLS відвідайте сайт із документацією
-по LiteSpeed Web Server - [» інструкції з
-установці](https://docs.litespeedtech.com/products/lsws/installation/)
-або сайт з документацією по OpenLiteSpeed - [» інструкції з
-установці](https://openlitespeed.org/kb/category/installation/more-installation-methods/).
+по LiteSpeed Web Server - [» інструкції з установці](https://docs.litespeedtech.com/products/lsws/installation/)
+або сайт з документацією по OpenLiteSpeed - [» інструкції з установці](https://openlitespeed.org/kb/category/installation/more-installation-methods/).
 
 2. Завантажте та розпакуйте вихідні коди PHP:
 
@@ -117,8 +113,7 @@ PHP_LSAPI_MAX_REQUESTSu003d500 PHP_LSAPI_CHILDRENu003d35 /path/to/lsphp -b IP_ad
 
 На даний момент LiteSpeed PHP можна використовувати з веб-серверами
 LiteSpeed, OpenLiteSpeed та Apache mod_lsapi. Подробиці про конфігурацію
-сервера читайте на сторінках [» LiteSpeed Web
-Server](https://docs.litespeedtech.com/extapp/php/getting_started/) та
+сервера читайте на сторінках [» LiteSpeed Web Server](https://docs.litespeedtech.com/extapp/php/getting_started/) та
 [» OpenLiteSpeed](https://openlitespeed.org/kb/category/installation/php-installation-guides/).
 
 LSPHP можна встановити різними способами.

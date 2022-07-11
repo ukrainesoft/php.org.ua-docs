@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MinKey::unserialize](mongodb-bson-minkey.unserialize.md)
-- [MongoDB\BSON\ObjectId::\_\_construct
-»](mongodb-bson-objectid.construct.md)
+- [« MongoDB\BSON\MinKey::unserialize](mongodb-bson-minkey.unserialize.md)
+- [MongoDB\BSON\ObjectId::\_\_construct »](mongodb-bson-objectid.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -73,8 +71,7 @@ final public
 [TABLE]
 
 ## Зміст
-
-- [MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
+ - [MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
 - Створює новий ObjectId
 - [MongoDB\BSON\ObjectId::getTimestamp](mongodb-bson-objectid.gettimestamp.md)
 — Повертає позначку часу ObjectId

@@ -1,5 +1,5 @@
 - [« variant_and](function.variant-and.md)
-- [variant_cat »] (function.variant-cat.md)
+- [variant_cat »](function.variant-cat.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

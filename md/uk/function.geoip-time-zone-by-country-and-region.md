@@ -1,5 +1,4 @@
-- [«
-geoip_setup_custom_directory](function.geoip-setup-custom-directory.md)
+- [« geoip_setup_custom_directory](function.geoip-setup-custom-directory.md)
 - [FANN »](book.fann.md)
 
 - [PHP Manual](index.md)

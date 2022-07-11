@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md)
-- [MongoDB\BSON\Unserializable::bsonUnserialize
-»](mongodb-bson-unserializable.bsonunserialize.md)
+- [« MongoDB\BSON\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserialize.md)
+- [MongoDB\BSON\Unserializable::bsonUnserialize »](mongodb-bson-unserializable.bsonunserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -13,8 +11,7 @@ MongoDB\BSON\Serializable::bsonSerialize](mongodb-bson-serializable.bsonserializ
 
 ## Вступ
 
-Класи, які реалізують цей інтерфейс, можуть бути зазначені в [карті
-типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
+Класи, які реалізують цей інтерфейс, можуть бути зазначені в [карті типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 для десеріалізації масивів та документів BSON (як кореневих, так і
 вбудованих).
 

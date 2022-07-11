@@ -1,6 +1,5 @@
 - [« ReflectionFiber::getFiber](reflectionfiber.getfiber.md)
-- [ReflectionIntersectionType
-»](class.reflectionintersectiontype.md)
+- [ReflectionIntersectionType »](class.reflectionintersectiontype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFiber](class.reflectionfiber.md)

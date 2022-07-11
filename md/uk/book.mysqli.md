@@ -10,15 +10,12 @@
 - [Вступ](intro.mysqli.md)
 - [Короткий огляд](mysqli.overview.md)
 - [Короткий посібник](mysqli.quickstart.md)
-- [Процедурний та об'єктно-орієнтований
-интерфейс](mysqli.quickstart.dual-interface.md)
+- [Процедурний та об'єктно-орієнтований интерфейс](mysqli.quickstart.dual-interface.md)
 - [З'єднання](mysqli.quickstart.connections.md)
 - [Виконання запитів](mysqli.quickstart.statements.md)
-- [Підготовлювані
-запити](mysqli.quickstart.prepared-statements.md)
+- [Підготовлювані запити](mysqli.quickstart.prepared-statements.md)
 - [Збережені процедури](mysqli.quickstart.stored-procedures.md)
-- [Множинні
-запити](mysqli.quickstart.multiple-statement.md)
+- [Множинні запити](mysqli.quickstart.multiple-statement.md)
 - [API підтримка транзакцій](mysqli.quickstart.transactions.md)
 - [Метадані](mysqli.quickstart.metadata.md)
 - [Встановлення та налаштування](mysqli.setup.md)

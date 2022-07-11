@@ -2,7 +2,7 @@
 - [Watcher callbacks »](ev.watcher-callbacks.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Спостерігачі
 
 # Спостерігачі
@@ -28,5 +28,4 @@
 спостерігач, якщо він активний, це означає, що всі повідомлення, що очікують
 будуть втрачені.
 
-Також читайте: [Callback-функції
-спостерігачів](ev.watcher-callbacks.md).
+Також читайте: [Callback-функції спостерігачів](ev.watcher-callbacks.md).

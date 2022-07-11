@@ -1,5 +1,4 @@
-- [«
-SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)
+- [« SplDoublyLinkedList::getIteratorMode](spldoublylinkedlist.getiteratormode.md)
 - [SplDoublyLinkedList::key »](spldoublylinkedlist.key.md)
 
 - [PHP Manual](index.md)

@@ -1,9 +1,8 @@
-- [« Масиви та властивості COM у стилі
-масивів](com.examples.arrays.md)
+- [« Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
 - [com::\_\_construct »](com.construct.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Клас com
 
 # Клас com

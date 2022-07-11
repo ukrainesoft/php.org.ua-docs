@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Manager::selectServer](mongodb-driver-manager.selectserver.md)
+- [« MongoDB\Driver\Manager::selectServer](mongodb-driver-manager.selectserver.md)
 - [MongoDB\Driver\Command »](class.mongodb-driver-command.md)
 
 - [PHP Manual](index.md)
@@ -36,8 +35,7 @@ final public **MongoDB\Driver\Manager::startSession**(array `$options` u003d
 **options**
 
 ### Значення, що повертаються
-
-Повертає [MongoDB\Driver\Session](class.mongodb-driver-session.md).
+ Повертає [MongoDB\Driver\Session](class.mongodb-driver-session.md).
 
 ### Помилки
 
@@ -62,6 +60,5 @@ final public **MongoDB\Driver\Manager::startSession**(array `$options` u003d
 ### Дивіться також
 
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- [» Причинна
-узгодженість](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency)
+- [» Причинна узгодженість](https://www.mongodb.com/docs/manual/core/read-isolation-consistency-recency/#causal-consistency)
 у посібнику MongoDB

@@ -1,6 +1,5 @@
 - [« sodium_crypto_sign_open](function.sodium-crypto-sign-open.md)
-- [sodium_crypto_sign_publickey
-»](function.sodium-crypto-sign-publickey.md)
+- [sodium_crypto_sign_publickey »](function.sodium-crypto-sign-publickey.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

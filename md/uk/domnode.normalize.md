@@ -28,7 +28,6 @@ public **DOMNode::normalize**(): void
 
 ### Дивіться також
 
-- [» Специфікація
-DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-normalize)
+- [» Специфікація DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-normalize)
 - [DOMDocument::normalizeDocument()](domdocument.normalizedocument.md) -
 Нормалізує документ

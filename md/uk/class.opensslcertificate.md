@@ -1,6 +1,5 @@
 - [« openssl_x509_verify](function.openssl-x509-verify.md)
-- [OpenSSLCertificateSigningRequest
-»](class.opensslcertificatesigningrequest.md)
+- [OpenSSLCertificateSigningRequest »](class.opensslcertificatesigningrequest.md)
 
 - [PHP Manual](index.md)
 - [OpenSSL](book.openssl.md)

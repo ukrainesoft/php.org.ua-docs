@@ -1,5 +1,4 @@
-- [«
-CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md)
+- [« CommonMark\Interfaces\IVisitable](class.commonmark-interfaces-ivisitable.md)
 - [CommonMark\Parser »](class.commonmark-parser.md)
 
 - [PHP Manual](index.md)

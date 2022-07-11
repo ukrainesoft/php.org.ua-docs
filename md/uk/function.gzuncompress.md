@@ -1,5 +1,5 @@
 - [«gztell](function.gztell.md)
-- [gzwrite »] (function.gzwrite.md)
+- [gzwrite »](function.gzwrite.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

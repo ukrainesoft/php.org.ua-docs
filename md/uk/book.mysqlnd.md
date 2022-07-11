@@ -16,12 +16,9 @@
 - [Статистика](mysqlnd.stats.md)
 - [Примітки](mysqlnd.notes.md)
 - [Управління пам'яттю](mysqlnd.memory.md)
-- [API для плагінів до вбудованого драйвера MySQL] (mysqlnd.plugin.md)
-- [Порівняння плагінів mysqlnd з MySQL
-Proxy](mysqlnd.plugin.mysql-proxy.md)
+- [API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)
+- [Порівняння плагінів mysqlnd з MySQL Proxy](mysqlnd.plugin.mysql-proxy.md)
 - [Отримання API плагінів mysqlnd](mysqlnd.plugin.obtaining.md)
-- [Архітектура плагінів MySQL Native
-Driver](mysqlnd.plugin.architecture.md)
+- [Архітектура плагінів MySQL Native Driver](mysqlnd.plugin.architecture.md)
 - [API плагінів mysqlnd](mysqlnd.plugin.api.md)
-- [Починаємо розробку плагіна
-mysqlnd](mysqlnd.plugin.developing.md)
+- [Починаємо розробку плагіна mysqlnd](mysqlnd.plugin.developing.md)

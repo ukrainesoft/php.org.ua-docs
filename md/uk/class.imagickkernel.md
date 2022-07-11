@@ -1,5 +1,4 @@
-- [«
-ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md)
+- [« ImagickPixelIterator::syncIterator](imagickpixeliterator.synciterator.md)
 - [ImagickKernel::addKernel »](imagickkernel.addkernel.md)
 
 - [PHP Manual](index.md)

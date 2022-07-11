@@ -1,7 +1,5 @@
-- [«
-IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md)
-- [IntlCalendar::getDayOfWeekType
-»](intlcalendar.getdayofweektype.md)
+- [« IntlCalendar::getActualMinimum](intlcalendar.getactualminimum.md)
+- [IntlCalendar::getDayOfWeekType »](intlcalendar.getdayofweektype.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

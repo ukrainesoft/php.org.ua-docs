@@ -1,4 +1,4 @@
-- [« Swoole \ Http \ Client] (class.swoole-http-client.md)
+- [« Swoole \ Http \ Client](class.swoole-http-client.md)
 - [Swoole\Http\Client::close »](swoole-http-client.close.md)
 
 - [PHP Manual](index.md)

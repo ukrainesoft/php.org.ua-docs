@@ -1,6 +1,5 @@
 - [«ReflectionEnum](class.reflectionenum.md)
-- [ReflectionEnum::getBackingType
-»](reflectionenum.getbackingtype.md)
+- [ReflectionEnum::getBackingType »](reflectionenum.getbackingtype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionEnum](class.reflectionenum.md)

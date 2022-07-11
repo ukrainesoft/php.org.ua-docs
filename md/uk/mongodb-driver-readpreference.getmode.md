@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md)
-- [MongoDB\Driver\ReadPreference::getModeString
-»](mongodb-driver-readpreference.getmodestring.md)
+- [« MongoDB\Driver\ReadPreference::getMaxStalenessSeconds](mongodb-driver-readpreference.getmaxstalenessseconds.md)
+- [MongoDB\Driver\ReadPreference::getModeString »](mongodb-driver-readpreference.getmodestring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -50,5 +48,4 @@ int(10)
 
 - [MongoDB\Driver\ReadPreference::getModeString()](mongodb-driver-readpreference.getmodestring.md) -
 Повертає опцію "mode" об'єкта ReadPreference у вигляді рядка
-- [»Керівництво за перевагою
-читання](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [»Керівництво за перевагою читання](https://www.mongodb.com/docs/manual/core/read-preference/)

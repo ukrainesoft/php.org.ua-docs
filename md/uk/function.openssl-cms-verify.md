@@ -1,6 +1,5 @@
 - [« openssl_cms_sign](function.openssl-cms-sign.md)
-- [openssl_csr_export_to_file
-»](function.openssl-csr-export-to-file.md)
+- [openssl_csr_export_to_file »](function.openssl-csr-export-to-file.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -18,7 +17,7 @@ openssl_cms_verify — Перевіряє підпис CMS
 string `$input_filename`,
 int `$flags` u003d 0,
 ?string `$certificates` u003d **`null`**,
-array `$ca_info` u003d \[\],
+array `$ca_info` u003d [],
 ?string `$untrusted_certificates_filename` u003d **`null`**,
 ?string `$content` u003d **`null`**,
 ?string `$pk7` u003d **`null`**,

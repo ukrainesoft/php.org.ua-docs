@@ -38,8 +38,7 @@ string `$frame`
 (наприклад, 120×120+4+3).
 
 `mode`
-Режим кадрування мініатюр, дивіться [константи режиму
-кадрування](imagick.constants.md#imagick.constants.montagemode).
+Режим кадрування мініатюр, дивіться [константи режиму кадрування](imagick.constants.md#imagick.constants.montagemode).
 
 `frame`
 Обведіть зображення декоративною рамкою (наприклад, 15x15+3+3). Колір

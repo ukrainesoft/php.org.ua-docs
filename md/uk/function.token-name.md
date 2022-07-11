@@ -2,7 +2,7 @@
 - [URL »](book.url.md)
 
 - [PHP Manual](index.md)
-- [Функції PHP-лексера (tokenizer)] (ref.tokenizer.md)
+- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
 - Отримати символьне ім'я для переданої PHP-лексеми
 
 # token_name

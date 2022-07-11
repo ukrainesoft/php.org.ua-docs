@@ -2,7 +2,7 @@
 - [Встановлення та налаштування »](com.setup.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 -   Вступ
 
 # Вступ

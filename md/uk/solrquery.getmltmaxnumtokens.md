@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.md)
-- [SolrQuery::getMltMaxWordLength
-»](solrquery.getmltmaxwordlength.md)
+- [« SolrQuery::getMltMaxNumQueryTerms](solrquery.getmltmaxnumqueryterms.md)
+- [SolrQuery::getMltMaxWordLength »](solrquery.getmltmaxwordlength.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

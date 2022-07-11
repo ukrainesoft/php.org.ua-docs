@@ -1,6 +1,5 @@
 - [«TableSelect::limit](mysql-xdevapi-tableselect.limit.md)
-- [TableSelect::lockShared
-»](mysql-xdevapi-tableselect.lockshared.md)
+- [TableSelect::lockShared »](mysql-xdevapi-tableselect.lockshared.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)

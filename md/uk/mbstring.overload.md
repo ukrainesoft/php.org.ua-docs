@@ -1,7 +1,5 @@
-- [« Підтримувані кодування
-символів](mbstring.supported-encodings.md)
-- [Вимоги до кодування символів у PHP
-»](mbstring.php4.req.md)
+- [« Підтримувані кодування символів](mbstring.supported-encodings.md)
+- [Вимоги до кодування символів у PHP »](mbstring.php4.req.md)
 
 - [PHP Manual](index.md)
 - [Багатобайтові рядки](book.mbstring.md)

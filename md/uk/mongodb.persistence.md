@@ -2,8 +2,7 @@
 - [Серіалізація в BSON »](mongodb.persistence.serialization.md)
 
 - [PHP Manual](index.md)
-- [Архітектура та внутрішній пристрій
-драйвера](mongodb.architecture.md)
+- [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md)
 - Серіалізація та десеріалізація змінних PHP у MongoDB
 
 # Серіалізація та десеріалізація змінних PHP у MongoDB

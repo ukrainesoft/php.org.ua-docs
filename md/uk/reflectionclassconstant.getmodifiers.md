@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
-- [ReflectionClassConstant::getName
-»](reflectionclassconstant.getname.md)
+- [« ReflectionClassConstant::getDocComment](reflectionclassconstant.getdoccomment.md)
+- [ReflectionClassConstant::getName »](reflectionclassconstant.getname.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)
@@ -28,8 +26,7 @@ public **ReflectionClassConstant::getModifiers**(): int
 ### Значення, що повертаються
 
 Числове уявлення модифікаторів. Фактичні значення цих
-модифікаторів описані в [визначених
-константах](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers).
+модифікаторів описані в [визначених константах](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers).
 
 ### Дивіться також
 

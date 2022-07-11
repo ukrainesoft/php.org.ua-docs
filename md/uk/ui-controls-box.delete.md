@@ -1,6 +1,5 @@
 - [«UI\Controls\Box::\_\_construct](ui-controls-box.construct.md)
-- [UI\Controls\Box::getOrientation
-»](ui-controls-box.getorientation.md)
+- [UI\Controls\Box::getOrientation »](ui-controls-box.getorientation.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Box](class.ui-controls-box.md)

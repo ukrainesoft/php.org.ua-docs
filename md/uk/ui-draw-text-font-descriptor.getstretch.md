@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Text\Font\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.md)
-- [UI\Draw\Text\Font\Descriptor::getWeight
-»](ui-draw-text-font-descriptor.getweight.md)
+- [« UI\Draw\Text\Font\Descriptor::getSize](ui-draw-text-font-descriptor.getsize.md)
+- [UI\Draw\Text\Font\Descriptor::getWeight »](ui-draw-text-font-descriptor.getweight.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)

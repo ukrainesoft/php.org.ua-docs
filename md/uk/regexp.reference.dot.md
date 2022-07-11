@@ -2,8 +2,7 @@
 - [Символьні класи »](regexp.reference.character-classes.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Метасимвол крапка
 
 ## Метасимвол крапка

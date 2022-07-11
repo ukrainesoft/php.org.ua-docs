@@ -1,5 +1,5 @@
-- [« Типи ресурсів] (network.resources.md)
-- [Мережні функції»] (ref.network.md)
+- [« Типи ресурсів](network.resources.md)
+- [Мережні функції»](ref.network.md)
 
 - [PHP Manual](index.md)
 - [Мережа](book.network.md)

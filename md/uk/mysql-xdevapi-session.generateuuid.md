@@ -1,6 +1,5 @@
 - [« Session::dropSchema](mysql-xdevapi-session.dropschema.md)
-- [Session::getDefaultSchema
-»](mysql-xdevapi-session.getdefaultschema.md)
+- [Session::getDefaultSchema »](mysql-xdevapi-session.getdefaultschema.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)
@@ -17,8 +16,7 @@ Session::generateUUID — Отримує новий UUID
 public **mysql_xdevapi\Session::generateUUID**(): string
 
 Генерує універсальний унікальний ідентифікатор (UUID),
-згенерований відповідно до [»RFC
-4122](http://www.faqs.org/rfcs/rfc4122).
+згенерований відповідно до [»RFC 4122](http://www.faqs.org/rfcs/rfc4122).
 
 ### Список параметрів
 

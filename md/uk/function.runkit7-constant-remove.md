@@ -1,5 +1,4 @@
-- [«
-runkit7_constant_redefine](function.runkit7-constant-redefine.md)
+- [« runkit7_constant_redefine](function.runkit7-constant-redefine.md)
 - [runkit7_function_add »](function.runkit7-function-add.md)
 
 - [PHP Manual](index.md)

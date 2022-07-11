@@ -139,5 +139,4 @@ PHP не розпізнаються як форматуючі, оскільки 
 Форматує значення дати/часу у вигляді рядка
 - [time()](function.time.md) - Повертає поточну мітку системного
 часу Unix
-- [Предвизначені константи дати та
-часу](class.datetimeinterface.md#datetime.constants.types)
+- [Предвизначені константи дати та часу](class.datetimeinterface.md#datetime.constants.types)

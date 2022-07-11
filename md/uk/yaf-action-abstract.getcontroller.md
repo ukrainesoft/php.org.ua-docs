@@ -1,6 +1,5 @@
 - [« Yaf_Action_Abstract::execute](yaf-action-abstract.execute.md)
-- [Yaf_Action_Abstract::getControllerName
-»](yaf-controller-abstract.getcontrollername.md)
+- [Yaf_Action_Abstract::getControllerName »](yaf-controller-abstract.getcontrollername.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Action_Abstract](class.yaf-action-abstract.md)

@@ -1,6 +1,5 @@
 - [« Нові функції](migration71.new-functions.md)
-- [Зміни, що ламають зворотну сумісність
-»](migration71.incompatible.md)
+- [Зміни, що ламають зворотну сумісність »](migration71.incompatible.md)
 
 - [PHP Manual](index.md)
 - [Міграція з PHP 7.0.x на PHP 7.1.x](migration71.md)

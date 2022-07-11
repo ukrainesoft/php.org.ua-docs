@@ -1,5 +1,5 @@
 - [« Приклади](sockets.examples.md)
-- [Функції сокету»] (ref.sockets.md)
+- [Функції сокету»](ref.sockets.md)
 
 - [PHP Manual](index.md)
 - [Сокети](book.sockets.md)

@@ -1,5 +1,4 @@
-- [«
-oci_set_client_identifier](function.oci-set-client-identifier.md)
+- [« oci_set_client_identifier](function.oci-set-client-identifier.md)
 - [oci_set_db_operation »](function.oci-set-db-operation.md)
 
 - [PHP Manual](index.md)

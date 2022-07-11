@@ -1,5 +1,4 @@
-- [«
-Swoole\Connection\Iterator::rewind](swoole-connection-iterator.rewind.md)
+- [« Swoole\Connection\Iterator::rewind](swoole-connection-iterator.rewind.md)
 - [Swoole\Coroutine »](class.swoole-coroutine.md)
 
 - [PHP Manual](index.md)

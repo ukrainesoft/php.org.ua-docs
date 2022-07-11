@@ -1,5 +1,4 @@
-- [«
-UI\Exception\InvalidArgumentException](class.ui-exception-invalidargumentexception.md)
+- [« UI\Exception\InvalidArgumentException](class.ui-exception-invalidargumentexception.md)
 - [ЧАВО »](faq.md)
 
 - [PHP Manual](index.md)
@@ -30,9 +29,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

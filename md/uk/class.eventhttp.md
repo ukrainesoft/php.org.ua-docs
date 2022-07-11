@@ -2,7 +2,7 @@
 - [EventHttp::accept »](eventhttp.accept.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventHttp
 
 # Клас EventHttp

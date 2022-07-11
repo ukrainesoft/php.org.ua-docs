@@ -1,5 +1,4 @@
-- [«
-ReflectionIntersectionType](class.reflectionintersectiontype.md)
+- [« ReflectionIntersectionType](class.reflectionintersectiontype.md)
 - [ReflectionReference »](class.reflectionreference.md)
 
 - [PHP Manual](index.md)

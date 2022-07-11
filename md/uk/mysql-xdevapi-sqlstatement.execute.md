@@ -1,7 +1,5 @@
-- [«
-SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.md)
-- [SqlStatement::getNextResult
-»](mysql-xdevapi-sqlstatement.getnextresult.md)
+- [« SqlStatement::\_\_construct](mysql-xdevapi-sqlstatement.construct.md)
+- [SqlStatement::getNextResult »](mysql-xdevapi-sqlstatement.getnextresult.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)

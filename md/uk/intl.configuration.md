@@ -1,5 +1,5 @@
 - [« Встановлення](intl.installation.md)
-- [Типи ресурсів»] (intl.resources.md)
+- [Типи ресурсів»](intl.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](intl.setup.md)

@@ -1,5 +1,4 @@
-- [«
-MessageFormatter::getErrorMessage](messageformatter.geterrormessage.md)
+- [« MessageFormatter::getErrorMessage](messageformatter.geterrormessage.md)
 - [MessageFormatter::getPattern »](messageformatter.getpattern.md)
 
 - [PHP Manual](index.md)

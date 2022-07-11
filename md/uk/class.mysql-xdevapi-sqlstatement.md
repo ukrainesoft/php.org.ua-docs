@@ -1,5 +1,4 @@
-- [«
-Session::startTransaction](mysql-xdevapi-session.starttransaction.md)
+- [« Session::startTransaction](mysql-xdevapi-session.starttransaction.md)
 - [SqlStatement::bind »](mysql-xdevapi-sqlstatement.bind.md)
 
 - [PHP Manual](index.md)

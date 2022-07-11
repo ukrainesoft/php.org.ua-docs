@@ -1,6 +1,5 @@
 - [«RarException](class.rarexception.md)
-- [RarException::setUsingExceptions
-»](rarexception.setusingexceptions.md)
+- [RarException::setUsingExceptions »](rarexception.setusingexceptions.md)
 
 - [PHP Manual](index.md)
 - [RarException](class.rarexception.md)

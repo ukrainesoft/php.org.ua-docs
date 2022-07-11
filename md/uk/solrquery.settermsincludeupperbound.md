@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md)
+- [« SolrQuery::setTermsIncludeLowerBound](solrquery.settermsincludelowerbound.md)
 - [SolrQuery::setTermsLimit »](solrquery.settermslimit.md)
 
 - [PHP Manual](index.md)

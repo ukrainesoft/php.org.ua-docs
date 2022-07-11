@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\BulkWrite::delete](mongodb-driver-bulkwrite.delete.md)
-- [MongoDB\Driver\BulkWrite::update
-»](mongodb-driver-bulkwrite.update.md)
+- [« MongoDB\Driver\BulkWrite::delete](mongodb-driver-bulkwrite.delete.md)
+- [MongoDB\Driver\BulkWrite::update »](mongodb-driver-bulkwrite.update.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md)

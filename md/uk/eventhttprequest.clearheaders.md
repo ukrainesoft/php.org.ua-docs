@@ -1,6 +1,5 @@
 - [«EventHttpRequest::cancel](eventhttprequest.cancel.md)
-- [EventHttpRequest::closeConnection
-»](eventhttprequest.closeconnection.md)
+- [EventHttpRequest::closeConnection »](eventhttprequest.closeconnection.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

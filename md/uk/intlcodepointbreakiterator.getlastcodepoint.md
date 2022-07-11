@@ -1,5 +1,4 @@
-- [«
-IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
+- [« IntlCodePointBreakIterator](class.intlcodepointbreakiterator.md)
 - [IntlDatePatternGenerator »](class.intldatepatterngenerator.md)
 
 - [PHP Manual](index.md)

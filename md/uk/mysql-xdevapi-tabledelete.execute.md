@@ -1,5 +1,4 @@
-- [«
-TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.md)
+- [« TableDelete::\_\_construct](mysql-xdevapi-tabledelete.construct.md)
 - [TableDelete::limit »](mysql-xdevapi-tabledelete.limit.md)
 
 - [PHP Manual](index.md)

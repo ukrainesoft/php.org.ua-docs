@@ -1,5 +1,4 @@
-- [«
-fann_cascadetrain_on_file](function.fann-cascadetrain-on-file.md)
+- [« fann_cascadetrain_on_file](function.fann-cascadetrain-on-file.md)
 - [fann_copy »](function.fann-copy.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« UI\Draw\Text\Font::getDescent](ui-draw-text-font.getdescent.md)
-- [UI\Draw\Text\Font::getUnderlinePosition
-»](ui-draw-text-font.getunderlineposition.md)
+- [UI\Draw\Text\Font::getUnderlinePosition »](ui-draw-text-font.getunderlineposition.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font](class.ui-draw-text-font.md)

@@ -12,14 +12,12 @@
 - [Вимоги](image.requirements.md)
 - [Установка](image.installation.md)
 - [Налаштування під час виконання](image.configuration.md)
-- [Типи ресурсів] (image.resources.md)
+- [Типи ресурсів](image.resources.md)
 - [Предвизначені константи](image.constants.md)
 - [Приклади](image.examples.md)
 - [Створення PNG засобами PHP](image.examples-png.md)
-- [Додавання водяних знаків на зображення за допомогою
-альфа-каналів](image.examples-watermark.md)
-- [Використання imagecopymerge створити напівпрозорий водяний
-знак](image.examples.merged-watermark.md)
+- [Додавання водяних знаків на зображення за допомогою альфа-каналів](image.examples-watermark.md)
+- [Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)
 - [gd_info](function.gd-info.md) — Виведення інформації про поточну
 встановленої GD бібліотеки

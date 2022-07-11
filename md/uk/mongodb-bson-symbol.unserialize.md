@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Symbol::\_\_toString](mongodb-bson-symbol.tostring.md)
+- [« MongoDB\BSON\Symbol::\_\_toString](mongodb-bson-symbol.tostring.md)
 - [MongoDB\BSON\Undefined »](class.mongodb-bson-undefined.md)
 
 - [PHP Manual](index.md)

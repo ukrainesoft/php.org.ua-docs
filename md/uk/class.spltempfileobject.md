@@ -1,6 +1,5 @@
 - [« SplFileObject::valid](splfileobject.valid.md)
-- [SplTempFileObject::\_\_construct
-»](spltempfileobject.construct.md)
+- [SplTempFileObject::\_\_construct »](spltempfileobject.construct.md)
 
 - [PHP Manual](index.md)
 - [Обробка файлів](spl.files.md)

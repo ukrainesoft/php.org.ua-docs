@@ -1,5 +1,5 @@
 - [« Установка](array.installation.md)
-- [Типи ресурсів»] (array.resources.md)
+- [Типи ресурсів»](array.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](array.setup.md)

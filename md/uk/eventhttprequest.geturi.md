@@ -1,7 +1,5 @@
-- [«
-EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.md)
-- [EventHttpRequest::removeHeader
-»](eventhttprequest.removeheader.md)
+- [« EventHttpRequest::getResponseCode](eventhttprequest.getresponsecode.md)
+- [EventHttpRequest::removeHeader »](eventhttprequest.removeheader.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

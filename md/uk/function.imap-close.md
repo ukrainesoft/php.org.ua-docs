@@ -1,5 +1,5 @@
 - [« imap_clearflag_full](function.imap-clearflag-full.md)
-- [imap_create »] (function.imap-create.md)
+- [imap_create »](function.imap-create.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

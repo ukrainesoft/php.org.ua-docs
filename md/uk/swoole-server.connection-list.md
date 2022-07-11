@@ -1,5 +1,4 @@
-- [«
-Swoole\Server::connection_info](swoole-server.connection-info.md)
+- [« Swoole\Server::connection_info](swoole-server.connection-info.md)
 - [Swoole\Server::\_\_construct »](swoole-server.construct.md)
 
 - [PHP Manual](index.md)

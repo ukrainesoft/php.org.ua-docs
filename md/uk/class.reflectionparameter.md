@@ -1,6 +1,5 @@
 - [« ReflectionObject::export](reflectionobject.export.md)
-- [ReflectionParameter::allowsNull
-»](reflectionparameter.allowsnull.md)
+- [ReflectionParameter::allowsNull »](reflectionparameter.allowsnull.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

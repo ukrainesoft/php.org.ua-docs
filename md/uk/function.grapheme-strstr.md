@@ -65,5 +65,4 @@ o%CC%88a%CC%8A
 регістру
 - [grapheme_strrpos()](function.grapheme-strrpos.md) - Знаходить
 позицію (в одиницях графеми) останнього входження рядка
-- [»  Сегментація тексту в Unicode: межі кластера
-графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+- [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

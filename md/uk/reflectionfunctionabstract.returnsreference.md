@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)
-- [ReflectionFunctionAbstract::\_\_toString
-»](reflectionfunctionabstract.tostring.md)
+- [« ReflectionFunctionAbstract::isVariadic](reflectionfunctionabstract.isvariadic.md)
+- [ReflectionFunctionAbstract::\_\_toString »](reflectionfunctionabstract.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

@@ -1,5 +1,4 @@
-- [«
-radius_get_tagged_attr_tag](function.radius-get-tagged-attr-tag.md)
+- [« radius_get_tagged_attr_tag](function.radius-get-tagged-attr-tag.md)
 - [radius_put_addr »](function.radius-put-addr.md)
 
 - [PHP Manual](index.md)

@@ -18,7 +18,7 @@ pcntl_waitpid — Очікує або повертає статус породж
 int `$process_id`,
 int `&$status`,
 int `$flags` u003d 0,
-array `&$resource_usage` u003d \[\]
+array `&$resource_usage` u003d []
 ): int
 
 Функція очікування призупиняє виконання поточного процесу

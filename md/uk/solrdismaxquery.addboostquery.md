@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md)
-- [SolrDisMaxQuery::addPhraseField
-»](solrdismaxquery.addphrasefield.md)
+- [« SolrDisMaxQuery::addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md)
+- [SolrDisMaxQuery::addPhraseField »](solrdismaxquery.addphrasefield.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)
@@ -21,7 +19,7 @@ public **SolrDisMaxQuery::addBoostQuery**(string `$field`, string
 `$value`, string `$boost` u003d ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
-Додає поле підвищення запиту зі значенням \[і підвищення\] (параметр
+Додає поле підвищення запиту зі значенням [і підвищення](параметр
 bq)
 
 ### Список параметрів

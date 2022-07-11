@@ -49,5 +49,4 @@ PHP без попередження. Використовуйте цю функ�
 
 ### Дивіться також
 
-- [» SVN-документація з svn
-delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.md)
+- [» SVN-документація з svn delete](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.delete.md)

@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_box_publickey_from_secretkey](function.sodium-crypto-box-publickey-from-secretkey.md)
-- [sodium_crypto_box_seal_open
-»](function.sodium-crypto-box-seal-open.md)
+- [« sodium_crypto_box_publickey_from_secretkey](function.sodium-crypto-box-publickey-from-secretkey.md)
+- [sodium_crypto_box_seal_open »](function.sodium-crypto-box-seal-open.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

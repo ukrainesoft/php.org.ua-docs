@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.md)
-- [MongoDB\BSON\Javascript::\_\_construct
-»](mongodb-bson-javascript.construct.md)
+- [« MongoDB\BSON\Decimal128::unserialize](mongodb-bson-decimal128.unserialize.md)
+- [MongoDB\BSON\Javascript::\_\_construct »](mongodb-bson-javascript.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

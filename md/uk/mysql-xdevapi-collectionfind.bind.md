@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
-- [CollectionFind::\_\_construct
-»](mysql-xdevapi-collectionfind.construct.md)
+- [« mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
+- [CollectionFind::\_\_construct »](mysql-xdevapi-collectionfind.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

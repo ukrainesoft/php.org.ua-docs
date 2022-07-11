@@ -1,5 +1,5 @@
 - [«Зумовлені константи](ibm-db2.constants.md)
-- [db2_autocommit »] (function.db2-autocommit.md)
+- [db2_autocommit »](function.db2-autocommit.md)
 
 - [PHP Manual](index.md)
 - [IBM DB2](book.ibm-db2.md)

@@ -1,5 +1,5 @@
 - [« Процедурний приклад PECL/rrd](rrd.examples-procedural.md)
-- [Функції RRD»] (ref.rrd.md)
+- [Функції RRD»](ref.rrd.md)
 
 - [PHP Manual](index.md)
 - [Приклади](rrd.examples.md)

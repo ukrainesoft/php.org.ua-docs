@@ -1,5 +1,5 @@
 - [«popen](function.popen.md)
-- [readlink »] (function.readlink.md)
+- [readlink »](function.readlink.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)
@@ -49,8 +49,7 @@ readfile — Виводить файл
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Діалог відкриття / збереження
-файлу](images/e88cefb5c3fca5060e2490b9763c4433-readfile.png)
+![Діалог відкриття / збереження файлу](images/e88cefb5c3fca5060e2490b9763c4433-readfile.png)
 
 ### Примітки
 
@@ -64,13 +63,11 @@ readfile — Виводить файл
 **Підказка**
 
 Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen
-wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
+була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
 докладнішу інформацію про визначення імені файлу в описі функції
 [fopen()](function.fopen.md). Дивіться також список підтримуваних
 оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та
-обертки](wrappers.md).
+визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
 
 ### Дивіться також
 

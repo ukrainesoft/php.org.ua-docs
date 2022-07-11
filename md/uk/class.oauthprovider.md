@@ -1,6 +1,5 @@
 - [« OAuth::setVersion](oauth.setversion.md)
-- [OAuthProvider::addRequiredParameter
-»](oauthprovider.addrequiredparameter.md)
+- [OAuthProvider::addRequiredParameter »](oauthprovider.addrequiredparameter.md)
 
 - [PHP Manual](index.md)
 - [OAuth](book.oauth.md)
@@ -18,8 +17,7 @@
 сервісу провайдера
 OAuth](http://toys.lerdorf.com/archives/55-Writing-an-OAuth-Provider-Service.md),
 в якому описується практичний підхід щодо надання такого сервісу.
-Також перегляньте [» приклади провайдера
-OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних
+Також перегляньте [» приклади провайдера OAuth](https://svn.php.net/viewvc/pecl/oauth/trunk/examples) у вихідних
 коди модуля OAuth.
 
 ## Огляд класів

@@ -1,6 +1,5 @@
 - [« SolrQuery::getHighlightFields](solrquery.gethighlightfields.md)
-- [SolrQuery::getHighlightFragmenter
-»](solrquery.gethighlightfragmenter.md)
+- [SolrQuery::getHighlightFragmenter »](solrquery.gethighlightfragmenter.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

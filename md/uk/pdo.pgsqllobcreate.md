@@ -2,7 +2,7 @@
 - [PDO::pgsqlLOBOpen »](pdo.pgsqllobopen.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Створити новий великий об'єкт (LOB)
 
 # PDO::pgsqlLOBCreate

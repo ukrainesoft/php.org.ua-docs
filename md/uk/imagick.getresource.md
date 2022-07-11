@@ -21,8 +21,7 @@ public static **Imagick::getResource**(int `$type`): int
 ### Список параметрів
 
 `type`
-Дивіться список [констант типів
-ресурсов](imagick.constants.md#imagick.constants.resourcetypes).
+Дивіться список [констант типів ресурсов](imagick.constants.md#imagick.constants.resourcetypes).
 
 ### Значення, що повертаються
 

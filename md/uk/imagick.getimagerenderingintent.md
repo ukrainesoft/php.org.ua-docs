@@ -24,8 +24,7 @@ public **Imagick::getImageRenderingIntent**(): int
 
 ### Значення, що повертаються
 
-Повертає [схему
-кольору](imagick.constants.md#imagick.constants.renderingintent)
+Повертає [схему кольору](imagick.constants.md#imagick.constants.renderingintent)
 зображення.
 
 ### Помилки

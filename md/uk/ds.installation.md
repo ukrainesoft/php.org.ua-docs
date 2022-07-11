@@ -30,8 +30,7 @@ make install
 make clean
 phpize --clean
 
-Якщо ви використовуєте Windows, ви можете завантажити [» готову бібліотеку
-.dll з PECL](https://pecl.php.net/package/ds)
+Якщо ви використовуєте Windows, ви можете завантажити [» готову бібліотеку .dll з PECL](https://pecl.php.net/package/ds)
 
 > **Примітка**:
 >

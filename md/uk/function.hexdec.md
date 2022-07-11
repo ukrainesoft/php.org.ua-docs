@@ -1,5 +1,5 @@
 - [«getrandmax](function.getrandmax.md)
-- [hypot»] (function.hypot.md)
+- [hypot»](function.hypot.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

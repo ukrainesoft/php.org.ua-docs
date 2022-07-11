@@ -1,6 +1,5 @@
 - [«SolrInputDocument::getBoost](solrinputdocument.getboost.md)
-- [SolrInputDocument::getChildDocumentsCount
-»](solrinputdocument.getchilddocumentscount.md)
+- [SolrInputDocument::getChildDocumentsCount »](solrinputdocument.getchilddocumentscount.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

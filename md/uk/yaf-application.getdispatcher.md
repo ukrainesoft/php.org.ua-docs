@@ -1,6 +1,5 @@
 - [« Yaf_Application::getConfig](yaf-application.getconfig.md)
-- [Yaf_Application::getLastErrorMsg
-»](yaf-application.getlasterrormsg.md)
+- [Yaf_Application::getLastErrorMsg »](yaf-application.getlasterrormsg.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

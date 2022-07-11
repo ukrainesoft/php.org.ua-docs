@@ -49,8 +49,7 @@ TAF можна настроїти на стороні PHP OCI8 або конфі
 Налаштувати TAF у PHP OCI8 (на стороні клієнта) можна додавши параметр
 FAILOVER_MODE є частиною CONNECT_DATA дескриптора з'єднання. Більше
 детально про налаштування TAF на стороні клієнта читайте в [» Oracle
-Database Net Services Administrator's
-Guide](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-8F532535-C401-4B51-BE0B-04FD74BB0621).
+Database Net Services Administrator's Guide](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-8F532535-C401-4B51-BE0B-04FD74BB0621).
 
 Приклад налаштування TAF в tnsnames.ora для перепідключення до тієї ж самої
 БД:
@@ -69,8 +68,7 @@ ORCL u003d
 Також можна настроїти TAF на стороні бази даних шляхом модифікації
 сервісу за допомогою
 [»srvctl](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-8DC4D5E0-CA9D-47BC-BAD0-8769405AFEC5)
-(для RAC) або за допомогою пакетної процедури [»
-DBMS_SERVICE.MODIFY_SERVICE](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-C11449DC-EEDE-4BB8-9D2C-0A45198C1928)
+(для RAC) або за допомогою пакетної процедури [» DBMS_SERVICE.MODIFY_SERVICE](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-C11449DC-EEDE-4BB8-9D2C-0A45198C1928)
 (Для одиночних екземплярів баз даних).
 
 ## Використання функцій зворотного виклику TAF у OCI8

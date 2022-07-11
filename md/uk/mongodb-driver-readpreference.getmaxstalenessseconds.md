@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md)
-- [MongoDB\Driver\ReadPreference::getMode
-»](mongodb-driver-readpreference.getmode.md)
+- [« MongoDB\Driver\ReadPreference::getHedge](mongodb-driver-readpreference.gethedge.md)
+- [MongoDB\Driver\ReadPreference::getMode »](mongodb-driver-readpreference.getmode.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -50,5 +48,4 @@ int(1000)
 
 ### Дивіться також
 
-- [»Керівництво за перевагою
-читання](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [»Керівництво за перевагою читання](https://www.mongodb.com/docs/manual/core/read-preference/)

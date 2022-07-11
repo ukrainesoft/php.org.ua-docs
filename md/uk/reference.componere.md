@@ -1,7 +1,6 @@
 - [« Componere\Value::hasDefault](componere-value.hasdefault.md)
 - [Componer
-
-- [PHP Manual](index.md)
+ - [PHP Manual](index.md)
 - [Componere](book.componere.md)
 - Функції Componere
 

@@ -1,5 +1,5 @@
 - [«rrd_error](function.rrd-error.md)
-- [rrd_first »] (function.rrd-first.md)
+- [rrd_first »](function.rrd-first.md)
 
 - [PHP Manual](index.md)
 - [Функції RRD](ref.rrd.md)

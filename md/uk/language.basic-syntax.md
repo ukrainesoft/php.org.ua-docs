@@ -11,6 +11,5 @@
 
 - [теги PHP](language.basic-syntax.phptags.md)
 - [Ізолювання від HTML](language.basic-syntax.phpmode.md)
-- [Поділ
-інструкцій](language.basic-syntax.instruction-separation.md)
+- [Поділ інструкцій](language.basic-syntax.instruction-separation.md)
 - [Коментарі](language.basic-syntax.comments.md)

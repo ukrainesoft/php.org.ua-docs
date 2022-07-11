@@ -1,7 +1,5 @@
-- [«
-Swoole\Http\Client::setCookies](swoole-http-client.setcookies.md)
-- [Swoole\Http\Client::setHeaders
-»](swoole-http-client.setheaders.md)
+- [« Swoole\Http\Client::setCookies](swoole-http-client.setcookies.md)
+- [Swoole\Http\Client::setHeaders »](swoole-http-client.setheaders.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Client](class.swoole-http-client.md)

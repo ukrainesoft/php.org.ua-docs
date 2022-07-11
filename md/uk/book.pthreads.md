@@ -2,8 +2,7 @@
 - [Вступ »](intro.pthreads.md)
 
 - [PHP Manual](index.md)
-- [Модулі для управління процесами
-програм](refs.fileprocess.process.md)
+- [Модулі для управління процесами програм](refs.fileprocess.process.md)
 - pthreads
 
 # pthreads

@@ -1,6 +1,5 @@
 - [« Функції libxml](ref.libxml.md)
-- [libxml_disable_entity_loader
-»](function.libxml-disable-entity-loader.md)
+- [libxml_disable_entity_loader »](function.libxml-disable-entity-loader.md)
 
 - [PHP Manual](index.md)
 - [Функції libxml](ref.libxml.md)

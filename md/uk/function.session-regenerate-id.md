@@ -1,6 +1,5 @@
 - [« session_name](function.session-name.md)
-- [session_register_shutdown
-»](function.session-register-shutdown.md)
+- [session_register_shutdown »](function.session-register-shutdown.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з сесіями](ref.session.md)

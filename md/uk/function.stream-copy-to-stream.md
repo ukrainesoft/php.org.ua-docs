@@ -1,5 +1,4 @@
-- [«
-stream_context_set_params](function.stream-context-set-params.md)
+- [« stream_context_set_params](function.stream-context-set-params.md)
 - [stream_filter_append »](function.stream-filter-append.md)
 
 - [PHP Manual](index.md)

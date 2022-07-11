@@ -44,22 +44,18 @@ int `$options` u003d 0 ,
 `sockets`).
 
 `options`
-Одна з [констант
-EventBufferEvent::OPT\_\*](class.eventbufferevent.md#eventbufferevent.constants)
+Одна з [констант EventBufferEvent::OPT\_\*](class.eventbufferevent.md#eventbufferevent.constants)
 або **`0`**.
 
 `readcb`
-Callback-функція читання. Зверніться до розділу [Про функції callback
-подійного буфера](eventbufferevent.about.callbacks.md).
+Callback-функція читання. Зверніться до розділу [Про функції callback подійного буфера](eventbufferevent.about.callbacks.md).
 
 `writecb`
-Callback-функція запису. Зверніться до розділу [Про функції callback
-подійного буфера](eventbufferevent.about.callbacks.md).
+Callback-функція запису. Зверніться до розділу [Про функції callback подійного буфера](eventbufferevent.about.callbacks.md).
 
 `eventcb`
 Callback – функція події зміни статусу. Зверніться до розділу [Про
-callback-функціях подієвого
-буфера](eventbufferevent.about.callbacks.md).
+callback-функціях подієвого буфера](eventbufferevent.about.callbacks.md).
 
 `arg`
 Змінна, яка буде передана всім callback-функціям.

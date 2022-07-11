@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.md)
+- [« ImagickDraw::setTextUnderColor](imagickdraw.settextundercolor.md)
 - [ImagickDraw::setViewbox »](imagickdraw.setviewbox.md)
 
 - [PHP Manual](index.md)

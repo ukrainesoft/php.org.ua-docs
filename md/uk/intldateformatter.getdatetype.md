@@ -1,7 +1,5 @@
-- [«
-IntlDateFormatter::getCalendar](intldateformatter.getcalendar.md)
-- [IntlDateFormatter::getErrorCode
-»](intldateformatter.geterrorcode.md)
+- [« IntlDateFormatter::getCalendar](intldateformatter.getcalendar.md)
+- [IntlDateFormatter::getErrorCode »](intldateformatter.geterrorcode.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)
@@ -36,8 +34,7 @@ public **IntlDateFormatter::getDateType**(): int\|false
 
 ### Значення, що повертаються
 
-Значення поточного [типу
-дати](class.intldateformatter.md#intl.intldateformatter-constants)
+Значення поточного [типу дати](class.intldateformatter.md#intl.intldateformatter-constants)
 засоби форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади

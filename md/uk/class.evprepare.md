@@ -2,7 +2,7 @@
 - [EvPrepare::\_\_construct »](evprepare.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvPrepare
 
 # Клас EvPrepare

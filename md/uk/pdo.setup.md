@@ -12,4 +12,4 @@
 - [Вимоги](pdo.requirements.md)
 - [Установка](pdo.installation.md)
 - [Налаштування під час виконання](pdo.configuration.md)
-- [Типи ресурсів] (pdo.resources.md)
+- [Типи ресурсів](pdo.resources.md)

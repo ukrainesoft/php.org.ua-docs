@@ -1,4 +1,4 @@
-- [« Помилки в PHP 7] (language.errors.php7.md)
+- [« Помилки в PHP 7](language.errors.php7.md)
 - [Спадкування винятків »](language.exceptions.extending.md)
 
 - [PHP Manual](index.md)
@@ -104,7 +104,7 @@
 
 Одна важлива взаємодія відбувається між блоком
 [`finally`](language.exceptions.md#language.exceptions.finally) та
-оператором [`return`] (function.return.md). Якщо оператор
+оператором [`return`](function.return.md). Якщо оператор
 [`return`](function.return.md) зустрічається всередині блоків
 [`try`](language.exceptions.md) або
 [`catch`](language.exceptions.md#language.exceptions.catch), блок
@@ -137,8 +137,7 @@
 
 > **Примітка**:
 >
-> Внутрішні функції PHP в основному використовують [повідомлення про
-> помилках](errorfunc.configuration.md#ini.error-reporting), і лише
+> Внутрішні функції PHP в основному використовують [повідомлення про > помилках](errorfunc.configuration.md#ini.error-reporting), і лише
 > нові [об'єктно-орієнтовані](language.oop5.md) модулі використовують
 > винятки. Однак, помилки можна легко перетворити у виключення з
 > за допомогою класу [ErrorException](class.errorexception.md). Однак це

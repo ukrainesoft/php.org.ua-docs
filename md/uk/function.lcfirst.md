@@ -1,5 +1,5 @@
 - [«join](function.join.md)
-- [levenshtein »] (function.levenshtein.md)
+- [levenshtein »](function.levenshtein.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

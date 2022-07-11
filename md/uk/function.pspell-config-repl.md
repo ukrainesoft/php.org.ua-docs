@@ -1,6 +1,5 @@
 - [« pspell_config_personal](function.pspell-config-personal.md)
-- [pspell_config_runtogether
-»](function.pspell-config-runtogether.md)
+- [pspell_config_runtogether »](function.pspell-config-runtogether.md)
 
 - [PHP Manual](index.md)
 - [Функції Pspell](ref.pspell.md)

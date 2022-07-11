@@ -1,7 +1,5 @@
-- [«
-Yaf_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.md)
-- [Yaf_Dispatcher::getDefaultAction
-»](yaf-dispatcher.getdefaultaction.md)
+- [« Yaf_Dispatcher::flushInstantly](yaf-dispatcher.flushinstantly.md)
+- [Yaf_Dispatcher::getDefaultAction »](yaf-dispatcher.getdefaultaction.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

@@ -1,5 +1,5 @@
 - [« Установка](session.installation.md)
-- [Типи ресурсів»] (session.resources.md)
+- [Типи ресурсів»](session.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](session.setup.md)
@@ -33,8 +33,7 @@
 | [session.cache_expire](session.configuration.md#ini.session.cache-expire) | "180" | PHP_INI_ALL | |
 | [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid) | "0" | PHP_INI_ALL | |
 | [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags) | "au003dhref,areau003dhref,frameu003dsrc,formu003d" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
+| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHP_INI_ALL | Доступна з PHP 7.1.0. | | [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
 | [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character) | "4" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
 | [session.upload_progress.enabled](session.configuration.md#ini.session.upload-progress.enabled) | "1" | PHP_INI_PERDIR | |
 | [session.upload_progress.cleanup](session.configuration.md#ini.session.upload-progress.cleanup) | "1" | PHP_INI_PERDIR | |
@@ -51,8 +50,7 @@
 **Опції налаштування механізму сесій**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Система управління сесіями підтримує ряд опцій, які можуть бути
 вказано у файлі `php.ini`. Нижче наведено короткий огляд.
@@ -348,8 +346,7 @@ INI-налаштування таким чином, щоб ідентифіка�
 використовується для створення ідентифікатора сесії. '0' означає MD5 (128
 bits), а '1' означає SHA-1 (160 bits).
 
-Можна вказати будь-який з алгоритмів, передбачених [модулем
-hash](ref.hash.md) (якщо він доступний), наприклад, `sha512` або
+Можна вказати будь-який з алгоритмів, передбачених [модулем hash](ref.hash.md) (якщо він доступний), наприклад, `sha512` або
 `whirlpool`. Повний список алгоритмів можна отримати за допомогою
 функції [hash_algos()](function.hash-algos.md).
 
@@ -406,6 +403,5 @@ POST-даних (тобто коли завантаження завершено
 
 Прогрес завантаження файлів не оброблятиметься, якщо не включена опція
 session.upload_progress.enabled та не встановлена змінна
-$\_POST\[ini_get("session.upload_progress.name")\]. Докладніше про це
-дивіться у розділі "[Відстеження прогресу завантаження файлів за допомогою
-сесій](session.upload-progress.md)".
+$\_POST[ini_get("session.upload_progress.name")]. Докладніше про це
+дивіться у розділі "[Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)".

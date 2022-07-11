@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md)
-- [OAuthProvider::calltokenHandler
-»](oauthprovider.calltokenhandler.md)
+- [« OAuthProvider::callconsumerHandler](oauthprovider.callconsumerhandler.md)
+- [OAuthProvider::calltokenHandler »](oauthprovider.calltokenhandler.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

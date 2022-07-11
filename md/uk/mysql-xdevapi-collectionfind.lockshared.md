@@ -1,5 +1,4 @@
-- [«
-CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.md)
+- [« CollectionFind::lockExclusive](mysql-xdevapi-collectionfind.lockexclusive.md)
 - [CollectionFind::offset »](mysql-xdevapi-collectionfind.offset.md)
 
 - [PHP Manual](index.md)

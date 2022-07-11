@@ -1,7 +1,5 @@
-- [«
-CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md)
-- [DatabaseObject::existsInDatabase
-»](mysql-xdevapi-databaseobject.existsindatabase.md)
+- [« CrudOperationSortable::sort](mysql-xdevapi-crudoperationsortable.sort.md)
+- [DatabaseObject::existsInDatabase »](mysql-xdevapi-databaseobject.existsindatabase.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

@@ -1,7 +1,5 @@
-- [«
-enchant_broker_request_pwl_dict](function.enchant-broker-request-pwl-dict.md)
-- [enchant_broker_set_ordering
-»](function.enchant-broker-set-ordering.md)
+- [« enchant_broker_request_pwl_dict](function.enchant-broker-request-pwl-dict.md)
+- [enchant_broker_set_ordering »](function.enchant-broker-set-ordering.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

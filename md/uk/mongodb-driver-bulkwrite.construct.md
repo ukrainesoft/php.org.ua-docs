@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md)
-- [MongoDB\Driver\BulkWrite::count
-»](mongodb-driver-bulkwrite.count.md)
+- [MongoDB\Driver\BulkWrite::count »](mongodb-driver-bulkwrite.count.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md)
@@ -32,8 +31,7 @@ public **MongoDB\Driver\BulkWrite::\_\_construct**(array `$options` u003d ?)
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 
 ### Список змін
 

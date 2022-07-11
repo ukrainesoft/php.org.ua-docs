@@ -1,5 +1,5 @@
 - [«finfo::file](finfo.file.md)
-- [Файлова система»] (book.filesystem.md)
+- [Файлова система»](book.filesystem.md)
 
 - [PHP Manual](index.md)
 - [finfo](class.finfo.md)

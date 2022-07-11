@@ -1,5 +1,4 @@
-- [«
-fdf_set_on_import_javascript](function.fdf-set-on-import-javascript.md)
+- [« fdf_set_on_import_javascript](function.fdf-set-on-import-javascript.md)
 - [fdf_set_status »](function.fdf-set-status.md)
 
 - [PHP Manual](index.md)

@@ -24,5 +24,4 @@ public **Imagick::getColorspace**(): int
 
 ### Значення, що повертаються
 
-Повертає ціле число, яке можна порівняти з [константами
-COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
+Повертає ціле число, яке можна порівняти з [константами COLORSPACE](imagick.constants.md#imagick.constants.colorspace).

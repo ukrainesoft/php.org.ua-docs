@@ -1,6 +1,5 @@
 - [«error_reporting](function.error-reporting.md)
-- [restore_exception_handler
-»](function.restore-exception-handler.md)
+- [restore_exception_handler »](function.restore-exception-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції обробки помилок](ref.errorfunc.md)

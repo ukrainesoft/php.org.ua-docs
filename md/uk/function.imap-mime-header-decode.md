@@ -1,5 +1,5 @@
 - [« imap_mailboxmsginfo](function.imap-mailboxmsginfo.md)
-- [imap_msgno »] (function.imap-msgno.md)
+- [imap_msgno »](function.imap-msgno.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

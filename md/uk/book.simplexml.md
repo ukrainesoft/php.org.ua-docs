@@ -1,5 +1,4 @@
-- [«
-libxml_use_internal_errors](function.libxml-use-internal-errors.md)
+- [« libxml_use_internal_errors](function.libxml-use-internal-errors.md)
 - [Вступ »](intro.simplexml.md)
 
 - [PHP Manual](index.md)

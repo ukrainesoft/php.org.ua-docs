@@ -2,7 +2,7 @@
 - [tidy::repairString »](tidy.repairstring.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Відновлює розмітку файлу та повертає його у вигляді рядка
 
 # tidy::repairFile

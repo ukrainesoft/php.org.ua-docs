@@ -17,6 +17,5 @@ X DevAPI використовує X Protocol, клієнт-серверний п
 Покоління сервера MySQL 8.0.
 
 Для отримання загальної інформації про сховище документів MySQL, будь ласка,
-зверніться до розділу [» Сховище документів
-MySQL](https://dev.mysql.com/doc/refman/8.0/en/document-store.md) в
+зверніться до розділу [» Сховище документів MySQL](https://dev.mysql.com/doc/refman/8.0/en/document-store.md) в
 керівництво MySQL.

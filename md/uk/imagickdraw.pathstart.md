@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.md)
+- [« ImagickDraw::pathMoveToRelative](imagickdraw.pathmovetorelative.md)
 - [ImagickDraw::point »](imagickdraw.point.md)
 
 - [PHP Manual](index.md)

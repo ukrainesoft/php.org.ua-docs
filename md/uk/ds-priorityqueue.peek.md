@@ -1,5 +1,4 @@
-- [«
-Ds\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.md)
+- [« Ds\PriorityQueue::jsonSerialize](ds-priorityqueue.jsonserialize.md)
 - [Ds\PriorityQueue::pop »](ds-priorityqueue.pop.md)
 
 - [PHP Manual](index.md)

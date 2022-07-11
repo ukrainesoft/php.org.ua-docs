@@ -1,5 +1,4 @@
-- [«
-Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md)
+- [« Gmagick::setimageinterlacescheme](gmagick.setimageinterlacescheme.md)
 - [Gmagick::setimageprofile »](gmagick.setimageprofile.md)
 
 - [PHP Manual](index.md)

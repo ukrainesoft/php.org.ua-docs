@@ -1,6 +1,5 @@
 - [«fdf_set_file](function.fdf-set-file.md)
-- [fdf_set_javascript_action
-»](function.fdf-set-javascript-action.md)
+- [fdf_set_javascript_action »](function.fdf-set-javascript-action.md)
 
 - [PHP Manual](index.md)
 - [FDF](ref.fdf.md)

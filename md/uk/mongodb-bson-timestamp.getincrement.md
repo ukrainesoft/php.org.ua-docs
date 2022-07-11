@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Timestamp::\_\_construct](mongodb-bson-timestamp.construct.md)
-- [MongoDB\BSON\Timestamp::getTimestamp
-»](mongodb-bson-timestamp.gettimestamp.md)
+- [« MongoDB\BSON\Timestamp::\_\_construct](mongodb-bson-timestamp.construct.md)
+- [MongoDB\BSON\Timestamp::getTimestamp »](mongodb-bson-timestamp.gettimestamp.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
@@ -52,5 +50,4 @@ final public **MongoDB\BSON\Timestamp::getIncrement**(): int
 
 ### Дивіться також
 
-- [» Типи BSON:
-Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+- [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

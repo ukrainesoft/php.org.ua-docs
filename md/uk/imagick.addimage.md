@@ -1,5 +1,4 @@
-- [«
-Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.md)
+- [« Imagick::adaptiveThresholdImage](imagick.adaptivethresholdimage.md)
 - [Imagick::addNoiseImage »](imagick.addnoiseimage.md)
 
 - [PHP Manual](index.md)

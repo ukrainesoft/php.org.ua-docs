@@ -1,7 +1,5 @@
-- [«
-fann_get_sarprop_temperature](function.fann-get-sarprop-temperature.md)
-- [fann_get_total_connections
-»](function.fann-get-total-connections.md)
+- [« fann_get_sarprop_temperature](function.fann-get-sarprop-temperature.md)
+- [fann_get_total_connections »](function.fann-get-total-connections.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

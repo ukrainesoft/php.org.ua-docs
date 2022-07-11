@@ -1,5 +1,4 @@
-- [«
-IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md)
+- [« IntlChar::getIntPropertyMinValue](intlchar.getintpropertyminvalue.md)
 - [IntlChar::getNumericValue »](intlchar.getnumericvalue.md)
 
 - [PHP Manual](index.md)

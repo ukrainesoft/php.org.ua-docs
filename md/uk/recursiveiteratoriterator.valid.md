@@ -1,5 +1,4 @@
-- [«
-RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)
+- [« RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)
 - [RecursiveRegexIterator »](class.recursiveregexiterator.md)
 
 - [PHP Manual](index.md)

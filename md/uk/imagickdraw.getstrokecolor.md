@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md)
-- [ImagickDraw::getStrokeDashArray
-»](imagickdraw.getstrokedasharray.md)
+- [« ImagickDraw::getStrokeAntialias](imagickdraw.getstrokeantialias.md)
+- [ImagickDraw::getStrokeDashArray »](imagickdraw.getstrokedasharray.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

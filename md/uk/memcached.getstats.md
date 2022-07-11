@@ -17,8 +17,7 @@ public **Memcached::getStats**(): array\|false
 
 **Memcached::getStats()** повертає масив, що містить статистику всіх
 доступні memcache сервери. Ознайомтеся також із специфікацією
-[» memcache
-протоколу](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
+[» memcache протоколу](https://github.com/memcached/memcached/blob/master/doc/protocol.txt)
 для отримання повної інформації про цю статистику.
 
 ### Список параметрів

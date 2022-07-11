@@ -1,6 +1,5 @@
 - [«Безпека сесій](security.sessions.md)
-- [Проблеми безпеки, пов'язані з нульовим байтом
-»](security.filesystem.nullbytes.md)
+- [Проблеми безпеки, пов'язані з нульовим байтом »](security.filesystem.nullbytes.md)
 
 - [PHP Manual](index.md)
 - [Безпека](security.md)
@@ -10,8 +9,7 @@
 
 ## Зміст
 
-- [Проблеми безпеки, пов'язані з нульовим
-байтом](security.filesystem.nullbytes.md)
+- [Проблеми безпеки, пов'язані з нульовим байтом](security.filesystem.nullbytes.md)
 
 PHP є одним з важливих моментів у питанні безпеки сервера,
 оскільки PHP-скрипти можуть маніпулювати файлами та каталогами на

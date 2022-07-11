@@ -16,43 +16,32 @@
 Спершу, спільні питання.
 
 1. [Якщо я не використовую простору імен, чи слід вважати що-небудь
-із цього
-важливим?](language.namespaces.faq.md#language.namespaces.faq.shouldicare)
+із цього важливим?](language.namespaces.faq.md#language.namespaces.faq.shouldicare)
 2. [Як мені використовувати внутрішні або глобальні класи в
-просторі
-імен?](language.namespaces.faq.md#language.namespaces.faq.globalclass)
+просторі імен?](language.namespaces.faq.md#language.namespaces.faq.globalclass)
 3. [Як мені використовувати функції класів у просторах імен, або
-константи у їхньому власному просторі
-імен?](language.namespaces.faq.md#language.namespaces.faq.innamespace)
+константи у їхньому власному просторі імен?](language.namespaces.faq.md#language.namespaces.faq.innamespace)
 4. [Як таке ім'я як `\my
 ame` або `
-ame`
-перетворюється?](language.namespaces.faq.md#language.namespaces.faq.full)
+ame` перетворюється?](language.namespaces.faq.md#language.namespaces.faq.full)
 5. [Як таке ім'я, як my
-ame`
-перетворюється?](language.namespaces.faq.md#language.namespaces.faq.qualified)
-6. [Як неповне ім'я класу таке як `name`
-перетворюється?](language.namespaces.faq.md#language.namespaces.faq.shortname1)
+ame` перетворюється?](language.namespaces.faq.md#language.namespaces.faq.qualified)
+6. [Як неповне ім'я класу таке як `name` перетворюється?](language.namespaces.faq.md#language.namespaces.faq.shortname1)
 7. [Як неповне ім'я функції або неповне ім'я константи таке як
-`name`
-перетворюється?](language.namespaces.faq.md#language.namespaces.faq.shortname2)
+`name` перетворюється?](language.namespaces.faq.md#language.namespaces.faq.shortname2)
 
 Деякі деталі реалізації просторів імен, які корисно розуміти.
 
 1. [Імпортовані імена не повинні конфліктувати з класами,
-певними в тому ж
-файлі.](language.namespaces.faq.md#language.namespaces.faq.conflict)
-2. [Вкладені простори імен
-неприпустимі.](language.namespaces.faq.md#language.namespaces.faq.nested)
+певними в тому ж файлі.](language.namespaces.faq.md#language.namespaces.faq.conflict)
+2. [Вкладені простори імен неприпустимі.](language.namespaces.faq.md#language.namespaces.faq.nested)
 3. [Динамічні імена просторів імен (ідентифікатори, взяті в
 лапки) повинні екранувати символ зворотного
 слєша.](language.namespaces.faq.md#language.namespaces.faq.quote)
 4. [Посилатися на невизначені константи, використовуючи зворотний сліш,
-не можна. Виводиться фатальна
-ошибка](language.namespaces.faq.md#language.namespaces.faq.constants)
+не можна. Виводиться фатальна ошибка](language.namespaces.faq.md#language.namespaces.faq.constants)
 5. [Неможливо перевизначити спеціальні константи, такі як NULL,
-TRUE, FALSE, ZEND_THREAD_SAFE або
-ZEND_DEBUG_BUILD](language.namespaces.faq.md#language.namespaces.faq.builtinconst)
+TRUE, FALSE, ZEND_THREAD_SAFE або ZEND_DEBUG_BUILD](language.namespaces.faq.md#language.namespaces.faq.builtinconst)
 
 ### Якщо я не використовую простору імен, чи слід вважати щось із цього важливим?
 

@@ -1,5 +1,5 @@
 - [« Установка](json.installation.md)
-- [Типи ресурсів»] (json.resources.md)
+- [Типи ресурсів»](json.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](json.setup.md)

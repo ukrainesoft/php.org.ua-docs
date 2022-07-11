@@ -1,6 +1,5 @@
 - [«explode](function.explode.md)
-- [get_html_translation_table
-»](function.get-html-translation-table.md)
+- [get_html_translation_table »](function.get-html-translation-table.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -87,11 +86,11 @@ fprintf — записує відформатований рядок у поті
 
 Змінні будуть приведені до відповідного для специфікатора типу:
 
-| Тип | Специфікатор |
-|--------|---------------------------------------- |
-| string | `s` |
-| int | `d`, `u`, `c`, `o`, `x`, `X`, `b` |
-| float | 'e', 'E', 'f', 'F', 'g', 'G', 'h', 'H' |
+| Тип    | Специфікатор                           |
+|--------|----------------------------------------|
+| string | `s`                                    |
+| int    | `d`, `u`, `c`, `o`, `x`, `X`, `b`      |
+| float  | 'e', 'E', 'f', 'F', 'g', 'G', 'h', 'H' |
 
 **Обробка типів**
 

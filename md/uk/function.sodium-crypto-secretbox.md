@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_secretbox_open](function.sodium-crypto-secretbox-open.md)
-- [sodium_crypto_secretstream_xchacha20poly1305_init_pull
-»](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md)
+- [« sodium_crypto_secretbox_open](function.sodium-crypto-secretbox-open.md)
+- [sodium_crypto_secretstream_xchacha20poly1305_init_pull »](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

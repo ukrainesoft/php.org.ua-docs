@@ -1,7 +1,5 @@
-- [«
-enchant_broker_list_dicts](function.enchant-broker-list-dicts.md)
-- [enchant_broker_request_pwl_dict
-»](function.enchant-broker-request-pwl-dict.md)
+- [« enchant_broker_list_dicts](function.enchant-broker-list-dicts.md)
+- [enchant_broker_request_pwl_dict »](function.enchant-broker-request-pwl-dict.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

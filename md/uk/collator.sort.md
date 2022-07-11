@@ -76,8 +76,7 @@ array (
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_asort()](collator.asort.md) - Сортує масив з
 збереженням асоціації індексу
 - [collator_sort_with_sort_keys()](collator.sortwithsortkeys.md) -

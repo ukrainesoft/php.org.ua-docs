@@ -1,5 +1,4 @@
-- [«
-Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md)
+- [« Gmagick::setimagebackgroundcolor](gmagick.setimagebackgroundcolor.md)
 - [Gmagick::setimagebordercolor »](gmagick.setimagebordercolor.md)
 
 - [PHP Manual](index.md)

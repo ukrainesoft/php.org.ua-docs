@@ -1,5 +1,5 @@
 - [« Установка](phar.installation.md)
-- [Типи ресурсів»] (phar.resources.md)
+- [Типи ресурсів»](phar.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](phar.setup.md)

@@ -1,5 +1,5 @@
 - [«fflush](function.fflush.md)
-- [fgetcsv »] (function.fgetcsv.md)
+- [fgetcsv »](function.fgetcsv.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)
@@ -34,9 +34,7 @@ fgetc — Зчитує символ із файлу
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади

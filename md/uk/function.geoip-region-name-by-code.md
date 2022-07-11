@@ -1,6 +1,5 @@
 - [« geoip_region_by_name](function.geoip-region-by-name.md)
-- [geoip_setup_custom_directory
-»](function.geoip-setup-custom-directory.md)
+- [geoip_setup_custom_directory »](function.geoip-setup-custom-directory.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

@@ -1,6 +1,5 @@
 - [« SolrQuery::getFilterQueries](solrquery.getfilterqueries.md)
-- [SolrQuery::getGroupCachePercent
-»](solrquery.getgroupcachepercent.md)
+- [SolrQuery::getGroupCachePercent »](solrquery.getgroupcachepercent.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

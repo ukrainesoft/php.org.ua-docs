@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
-- [MongoDB\Driver\Cursor::current
-»](mongodb-driver-cursor.current.md)
+- [MongoDB\Driver\Cursor::current »](mongodb-driver-cursor.current.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)

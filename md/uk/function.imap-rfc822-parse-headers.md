@@ -1,7 +1,5 @@
-- [«
-imap_rfc822_parse_adrlist](function.imap-rfc822-parse-adrlist.md)
-- [imap_rfc822_write_address
-»](function.imap-rfc822-write-address.md)
+- [« imap_rfc822_parse_adrlist](function.imap-rfc822-parse-adrlist.md)
+- [imap_rfc822_write_address »](function.imap-rfc822-write-address.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

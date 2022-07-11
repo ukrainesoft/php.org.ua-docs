@@ -1,6 +1,5 @@
 - [« Основи використання](hrtime.example.basic.md)
-- [HRTime\PerformanceCounter::getFrequency
-»](hrtime-performancecounter.getfrequency.md)
+- [HRTime\PerformanceCounter::getFrequency »](hrtime-performancecounter.getfrequency.md)
 
 - [PHP Manual](index.md)
 - [HRTime](book.hrtime.md)

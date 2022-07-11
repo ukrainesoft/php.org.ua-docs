@@ -1,6 +1,5 @@
-- [« svn_mkdir] (function.svn-mkdir.md)
-- [svn_repos_fs_begin_txn_for_commit
-»](function.svn-repos-fs-begin-txn-for-commit.md)
+- [« svn_mkdir](function.svn-mkdir.md)
+- [svn_repos_fs_begin_txn_for_commit »](function.svn-repos-fs-begin-txn-for-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)

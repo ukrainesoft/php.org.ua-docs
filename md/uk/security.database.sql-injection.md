@@ -134,8 +134,7 @@ MSSQL запущений з необхідними привілеями, то в
 > Продукти неможливі. Працездатність вашої бази даних може бути
 > порушена будь-яким іншим способом.
 
-![Робочий приклад проблем, що викликаються
-SQL-ін'єкцією](images/fa7c5b5f326e3c4a6cc9db19e7edbaf0-xkcd-bobby-tables.png)
+![Робочий приклад проблем, що викликаються SQL-ін'єкцією](images/fa7c5b5f326e3c4a6cc9db19e7edbaf0-xkcd-bobby-tables.png)
 
 Авторство зображення належить [»xkcd](http://xkcd.com/327)
 
@@ -177,8 +176,7 @@ SQL-ін'єкцією](images/fa7c5b5f326e3c4a6cc9db19e7edbaf0-xkcd-bobby-tables
 [функцій визначення типу символів](ref.ctype.md) (таких як
 [is_numeric()](function.is-numeric.md) та
 [ctype_digit()](function.ctype-digit.md) відповідно) та
-закінчуючи [Perl-сумісними регулярними
-виразами] (ref.pcre.md).
+закінчуючи [Perl-сумісними регулярними виразами](ref.pcre.md).
 
 - Якщо програма очікує цифрове введення, застосуйте функцію
 [ctype_digit()](function.ctype-digit.md) для перевірки введених

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted
-»](mongodb-driver-monitoring-commandsubscriber.commandstarted.md)
+- [« MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
+- [MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted »](mongodb-driver-monitoring-commandsubscriber.commandstarted.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)

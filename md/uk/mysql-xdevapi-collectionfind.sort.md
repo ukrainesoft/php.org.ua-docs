@@ -1,6 +1,5 @@
 - [« CollectionFind::offset](mysql-xdevapi-collectionfind.offset.md)
-- [mysql_xdevapi\CollectionModify
-»](class.mysql-xdevapi-collectionmodify.md)
+- [mysql_xdevapi\CollectionModify »](class.mysql-xdevapi-collectionmodify.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

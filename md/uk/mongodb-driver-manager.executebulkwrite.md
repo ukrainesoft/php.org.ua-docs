@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::createClientEncryption](mongodb-driver-manager.createclientencryption.md)
-- [MongoDB\Driver\Manager::executeCommand
-»](mongodb-driver-manager.executecommand.md)
+- [« MongoDB\Driver\Manager::createClientEncryption](mongodb-driver-manager.createclientencryption.md)
+- [MongoDB\Driver\Manager::executeCommand »](mongodb-driver-manager.executecommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

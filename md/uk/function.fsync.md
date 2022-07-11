@@ -1,5 +1,5 @@
 - [«fstat](function.fstat.md)
-- [ftell »] (function.ftell.md)
+- [ftell »](function.ftell.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

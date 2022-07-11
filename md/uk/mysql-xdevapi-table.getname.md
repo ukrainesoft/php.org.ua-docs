@@ -1,5 +1,4 @@
-- [«
-Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md)
+- [« Table::existsInDatabase](mysql-xdevapi-table.existsindatabase.md)
 - [Table::getSchema »](mysql-xdevapi-table.getschema.md)
 
 - [PHP Manual](index.md)

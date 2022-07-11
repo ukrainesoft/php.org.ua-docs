@@ -1,6 +1,5 @@
 - [« ReflectionClass::getName](reflectionclass.getname.md)
-- [ReflectionClass::getParentClass
-»](reflectionclass.getparentclass.md)
+- [ReflectionClass::getParentClass »](reflectionclass.getparentclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

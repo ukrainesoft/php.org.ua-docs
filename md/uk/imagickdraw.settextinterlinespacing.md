@@ -1,6 +1,5 @@
 - [« ImagickDraw::setTextEncoding](imagickdraw.settextencoding.md)
-- [ImagickDraw::setTextInterwordSpacing
-»](imagickdraw.settextinterwordspacing.md)
+- [ImagickDraw::setTextInterwordSpacing »](imagickdraw.settextinterwordspacing.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

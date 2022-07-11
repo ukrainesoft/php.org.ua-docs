@@ -1,5 +1,4 @@
-- [«
-OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md)
+- [« OAuthProvider::calltokenHandler](oauthprovider.calltokenhandler.md)
 - [OAuthProvider::\_\_construct »](oauthprovider.construct.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\UTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.md)
-- [MongoDB\BSON\UTCDateTime::unserialize
-»](mongodb-bson-utcdatetime.unserialize.md)
+- [« MongoDB\BSON\UTCDateTime::toDateTime](mongodb-bson-utcdatetime.todatetime.md)
+- [MongoDB\BSON\UTCDateTime::unserialize »](mongodb-bson-utcdatetime.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
@@ -39,5 +37,4 @@ string(13) "1416445411987"
 
 ### Дивіться також
 
-- [» Типи BSON:
-Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+- [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

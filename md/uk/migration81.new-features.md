@@ -19,8 +19,7 @@
 
 #### Розпакування масиву за допомогою рядкових ключів
 
-Додано підтримку [розпакування масивів з рядковими
-ключами](language.types.array.md#language.types.array.unpacking).
+Додано підтримку [розпакування масивів з рядковими ключами](language.types.array.md#language.types.array.unpacking).
 
 ` <?php$arr1 u003d [1, 'a' u003d> 'b'];$arr2 u003d [...$arr1, 'c' u003d> 'd']; //[1, 'a' u003d> 'b', 'c' u003d> 'd']?> `
 
@@ -53,15 +52,12 @@
 
 #### Перетин типів
 
-Додано підтримку [перетину
-типів](language.types.declarations.md#language.types.declarations.composite.intersection).
+Додано підтримку [перетину типів](language.types.declarations.md#language.types.declarations.composite.intersection).
 
 **Застереження**
 
-[Перетинання
-типів](language.types.declarations.md#language.types.declarations.composite.intersection)
-не можна використовувати разом з [об'єднаними
-типами](language.types.declarations.md#language.types.declarations.composite.union).
+[Перетинання типів](language.types.declarations.md#language.types.declarations.composite.intersection)
+не можна використовувати разом з [об'єднаними типами](language.types.declarations.md#language.types.declarations.composite.union).
 
 #### Тип never
 
@@ -84,8 +80,7 @@
 
 #### Остаточні константи класу
 
-Додано підтримку [модифікатора final при визначенні констант
-класу](language.oop5.final.md#language.oop5.final.example.php81).
+Додано підтримку [модифікатора final при визначенні констант класу](language.oop5.final.md#language.oop5.final.example.php81).
 Крім того, константи стандартного інтерфейсу стають
 перевизначуваними.
 
@@ -181,8 +176,7 @@
 
 #### Нова INI-директива `mysqli.local_infile_directory`
 
-Додано INI-директиву
-[mysqli.local_infile_directory](mysqli.configuration.md#ini.mysqli.local-infile-directory),
+Додано INI-директиву [mysqli.local_infile_directory](mysqli.configuration.md#ini.mysqli.local-infile-directory),
 за допомогою якої можна вказати каталог, з якого дозволено завантаження
 файлів. Це має сенс тільки якщо
 [mysqli.allow_local_infile](mysqli.configuration.md#ini.mysqli.allow-local-infile)

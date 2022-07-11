@@ -1,6 +1,5 @@
 - [« Підтримка Windows](migration71.windows-support.md)
-- [Зміни, що ламають зворотну сумісність
-»](migration70.incompatible.md)
+- [Зміни, що ламають зворотну сумісність »](migration70.incompatible.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)
@@ -10,11 +9,9 @@
 
 ## Зміст
 
-- [Зміни, що ламають зворотну
-сумісність](migration70.incompatible.md)
+- [Зміни, що ламають зворотну сумісність](migration70.incompatible.md)
 - [Нова функціональність](migration70.new-features.md)
-- [Функціональність, оголошена застарілою в PHP
-7.0.x](migration70.deprecated.md)
+- [Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.md)
 - [Змінені функції](migration70.changed-functions.md)
 - [Нові функції](migration70.new-functions.md)
 - [Нові класи та інтерфейси](migration70.classes.md)
@@ -30,7 +27,6 @@
 узгодженості мови.
 
 Є невелика кількість
-[несумісності](migration70.incompatible.md) та [новий
-функциональности](migration70.new-features.md), які слідують
+[несумісності](migration70.incompatible.md) та [новий функциональности](migration70.new-features.md), які слідують
 враховувати та тестувати перш ніж змінювати версію PHP у робочому
 оточенні.

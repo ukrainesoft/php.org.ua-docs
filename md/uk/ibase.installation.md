@@ -17,15 +17,14 @@
 [»https://pecl.php.net/package/ibase](https://pecl.php.net/package/ibase).
 
 Для включення підтримки Firebird/InterBase, налаштуйте PHP з опцією
-**--with-interbase\[u003dDIR\]**, де DIR вказує на директорію установки
+**--with-interbase[u003dDIR]**, де DIR вказує на директорію установки
 Firebird/InterBase (за замовчуванням `/usr`).
 
 > **Примітка**: **Примітки для користувачів Win32/Win64**
 >
 > Для роботи цього модуля системної змінної Windows `PATH` мають бути
 > Доступні файли DLL. Щоб дізнатися як цього досягти, зверніться до
-> розділ FAQ "[Як додати мою директорію з PHP до змінної Windows
-> PATH](faq.installation.md#faq.installation.addtopath)". Хоча
+> розділ FAQ "[Як додати мою директорію з PHP до змінної Windows > PATH](faq.installation.md#faq.installation.addtopath)". Хоча
 > копіювання DLL-файлів із директорії PHP до системної папки Windows
 > також вирішує проблему (бо системна директорія за замовчуванням
 > перебуває у змінній `PATH`), це рекомендується. *Цьому модулю

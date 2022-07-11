@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md)
+- [« ReflectionClass::getInterfaces](reflectionclass.getinterfaces.md)
 - [ReflectionClass::getMethods »](reflectionclass.getmethods.md)
 
 - [PHP Manual](index.md)

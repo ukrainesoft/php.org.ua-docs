@@ -1,5 +1,4 @@
-- [«
-FFI\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.md)
+- [« FFI\CType::getFuncParameterType](ffi-ctype.getfuncparametertype.md)
 - [FFI\CType::getKind »](ffi-ctype.getkind.md)
 
 - [PHP Manual](index.md)

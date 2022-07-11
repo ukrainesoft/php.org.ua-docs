@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_secretbox_keygen](function.sodium-crypto-secretbox-keygen.md)
+- [« sodium_crypto_secretbox_keygen](function.sodium-crypto-secretbox-keygen.md)
 - [sodium_crypto_secretbox »](function.sodium-crypto-secretbox.md)
 
 - [PHP Manual](index.md)

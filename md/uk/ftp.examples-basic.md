@@ -1,5 +1,5 @@
 - [« Приклади](ftp.examples.md)
-- [Функції FTP»] (ref.ftp.md)
+- [Функції FTP»](ref.ftp.md)
 
 - [PHP Manual](index.md)
 - [Приклади](ftp.examples.md)

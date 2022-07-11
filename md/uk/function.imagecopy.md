@@ -1,5 +1,5 @@
 - [«imageconvolution](function.imageconvolution.md)
-- [imagecopymerge»] (function.imagecopymerge.md)
+- [imagecopymerge»](function.imagecopymerge.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)
@@ -73,8 +73,7 @@ y-координата вихідного зображення.
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Висновок прикладу: Обрізка логотипу
-PHP.net](images/21009b70229598c6a80eef8b45bf282b-imagecopy.gif)
+![Висновок прикладу: Обрізка логотипу PHP.net](images/21009b70229598c6a80eef8b45bf282b-imagecopy.gif)
 
 ### Дивіться також
 

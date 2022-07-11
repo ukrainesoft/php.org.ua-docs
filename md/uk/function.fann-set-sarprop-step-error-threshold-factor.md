@@ -1,7 +1,5 @@
-- [«
-fann_set_sarprop_step_error_shift](function.fann-set-sarprop-step-error-shift.md)
-- [fann_set_sarprop_temperature
-»](function.fann-set-sarprop-temperature.md)
+- [« fann_set_sarprop_step_error_shift](function.fann-set-sarprop-step-error-shift.md)
+- [fann_set_sarprop_temperature »](function.fann-set-sarprop-temperature.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

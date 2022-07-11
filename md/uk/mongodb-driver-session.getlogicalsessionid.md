@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::getClusterTime](mongodb-driver-session.getclustertime.md)
-- [MongoDB\Driver\Session::getOperationTime
-»](mongodb-driver-session.getoperationtime.md)
+- [« MongoDB\Driver\Session::getClusterTime](mongodb-driver-session.getclustertime.md)
+- [MongoDB\Driver\Session::getOperationTime »](mongodb-driver-session.getoperationtime.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

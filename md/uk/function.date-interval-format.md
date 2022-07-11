@@ -1,5 +1,4 @@
-- [«
-date_interval_create_from_date_string](function.date-interval-create-from-date-string.md)
+- [« date_interval_create_from_date_string](function.date-interval-create-from-date-string.md)
 - [date_isodate_set »](function.date-isodate-set.md)
 
 - [PHP Manual](index.md)

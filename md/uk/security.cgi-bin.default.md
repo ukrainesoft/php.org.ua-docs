@@ -1,6 +1,5 @@
 - [« Можливі атаки](security.cgi-bin.attacks.md)
-- [Варіант 2: використання cgi.force_redirect
-»](security.cgi-bin.force-redirect.md)
+- [Варіант 2: використання cgi.force_redirect »](security.cgi-bin.force-redirect.md)
 
 - [PHP Manual](index.md)
 - [Якщо PHP встановлено як CGI](security.cgi-bin.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId
-»](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)
+- [« MongoDB\Driver\Monitoring\ServerClosedEvent::getHost](mongodb-driver-monitoring-serverclosedevent.gethost.md)
+- [MongoDB\Driver\Monitoring\ServerClosedEvent::getTopologyId »](mongodb-driver-monitoring-serverclosedevent.gettopologyid.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)

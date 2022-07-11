@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md)
-- [MongoDB\BSON\ObjectId::\_\_toString
-»](mongodb-bson-objectid.tostring.md)
+- [« MongoDB\BSON\ObjectId::jsonSerialize](mongodb-bson-objectid.jsonserialize.md)
+- [MongoDB\BSON\ObjectId::\_\_toString »](mongodb-bson-objectid.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)

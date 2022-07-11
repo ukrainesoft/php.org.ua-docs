@@ -1,5 +1,4 @@
-- [«
-SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md)
+- [« SolrInputDocument::getChildDocuments](solrinputdocument.getchilddocuments.md)
 - [SolrInputDocument::getField »](solrinputdocument.getfield.md)
 
 - [PHP Manual](index.md)

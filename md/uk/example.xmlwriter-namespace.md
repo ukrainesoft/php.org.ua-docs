@@ -1,6 +1,5 @@
 - [« Створення простого XML-документа](example.xmlwriter-simple.md)
-- [Робота з об'єктно-орієнтованим API
-»](example.xmlwriter-oop.md)
+- [Робота з об'єктно-орієнтованим API »](example.xmlwriter-oop.md)
 
 - [PHP Manual](index.md)
 - [Приклади](xmlwriter.examples.md)

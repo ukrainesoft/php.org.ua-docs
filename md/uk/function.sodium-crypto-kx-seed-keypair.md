@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_kx_secretkey](function.sodium-crypto-kx-secretkey.md)
-- [sodium_crypto_kx_server_session_keys
-»](function.sodium-crypto-kx-server-session-keys.md)
+- [« sodium_crypto_kx_secretkey](function.sodium-crypto-kx-secretkey.md)
+- [sodium_crypto_kx_server_session_keys »](function.sodium-crypto-kx-server-session-keys.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

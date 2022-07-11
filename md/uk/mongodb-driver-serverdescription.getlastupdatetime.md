@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerDescription::getHost](mongodb-driver-serverdescription.gethost.md)
-- [MongoDB\Driver\ServerDescription::getPort
-»](mongodb-driver-serverdescription.getport.md)
+- [« MongoDB\Driver\ServerDescription::getHost](mongodb-driver-serverdescription.gethost.md)
+- [MongoDB\Driver\ServerDescription::getPort »](mongodb-driver-serverdescription.getport.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)

@@ -1,7 +1,5 @@
-- [«
-GearmanClient::addTaskHighBackground](gearmanclient.addtaskhighbackground.md)
-- [GearmanClient::addTaskLowBackground
-»](gearmanclient.addtasklowbackground.md)
+- [« GearmanClient::addTaskHighBackground](gearmanclient.addtaskhighbackground.md)
+- [GearmanClient::addTaskLowBackground »](gearmanclient.addtasklowbackground.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

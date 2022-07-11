@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerApi::unserialize](mongodb-driver-serverapi.unserialize.md)
-- [MongoDB\Driver\WriteConcern::bsonSerialize
-»](mongodb-driver-writeconcern.bsonserialize.md)
+- [« MongoDB\Driver\ServerApi::unserialize](mongodb-driver-serverapi.unserialize.md)
+- [MongoDB\Driver\WriteConcern::bsonSerialize »](mongodb-driver-writeconcern.bsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

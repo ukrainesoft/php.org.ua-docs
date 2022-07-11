@@ -1,6 +1,5 @@
 - [« Міграція з PHP 7.4.x на PHP 8.0.x](migration80.md)
-- [Зміни, що ламають зворотну сумісність
-»](migration80.incompatible.md)
+- [Зміни, що ламають зворотну сумісність »](migration80.incompatible.md)
 
 - [PHP Manual](index.md)
 - [Міграція з PHP 7.4.x на PHP 8.0.x](migration80.md)
@@ -12,8 +11,7 @@
 
 #### Іменовані аргументи
 
-Додана підтримка [іменованих
-аргументів](functions.arguments.md#functions.named-arguments).
+Додана підтримка [іменованих аргументів](functions.arguments.md#functions.named-arguments).
 
 #### Атрибути
 
@@ -21,23 +19,20 @@
 
 #### Оголошення властивостей у конструкторі
 
-Додано підтримку [визначення властивостей у
-конструктори](language.oop5.decon.md#language.oop5.decon.constructor.promotion)
+Додано підтримку [визначення властивостей у конструктори](language.oop5.decon.md#language.oop5.decon.constructor.promotion)
 (Оголошення властивостей у сигнатурі конструктора).
 
 #### Тип Union
 
-Додано підтримку [об'єднаних
-типів](language.types.declarations.md#language.types.declarations.composite.union).
+Додано підтримку [об'єднаних типів](language.types.declarations.md#language.types.declarations.composite.union).
 
 #### Вираз Match
 
-Додано підтримку [вирази `match`] (control-structures.match.md).
+Додано підтримку [вирази `match`](control-structures.match.md).
 
 #### Оператор Nullsafe
 
-Додано підтримку [оператора
-Nullsafe](language.oop5.basic.md#language.oop5.basic.nullsafe)
+Додано підтримку [оператора Nullsafe](language.oop5.basic.md#language.oop5.basic.nullsafe)
 (`?->`).
 
 #### Інші нові функції
@@ -164,8 +159,7 @@ Nullsafe](language.oop5.basic.md#language.oop5.basic.nullsafe)
 
 ### OpenSSL
 
-Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC
-5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для
+Додано підтримку синтаксису криптографічних повідомлень (CMS) ([» RFC 5652](http://www.faqs.org/rfcs/rfc5652)), що складається з функцій для
 шифрування, дешифрування, підписи, перевірки та читання. API схожий на API
 для функцій PKCS #7 з додаванням нових констант кодування:
 **`OPENSSL_ENCODING_DER`**, **`OPENSSL_ENCODING_SMIME`** та

@@ -1,7 +1,5 @@
-- [«
-DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md)
-- [DateTimeImmutable::getLastErrors
-»](datetimeimmutable.getlasterrors.md)
+- [« DateTimeImmutable::createFromInterface](datetimeimmutable.createfrominterface.md)
+- [DateTimeImmutable::getLastErrors »](datetimeimmutable.getlasterrors.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

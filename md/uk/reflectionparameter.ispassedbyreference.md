@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::isOptional](reflectionparameter.isoptional.md)
-- [ReflectionParameter::isVariadic
-»](reflectionparameter.isvariadic.md)
+- [« ReflectionParameter::isOptional](reflectionparameter.isoptional.md)
+- [ReflectionParameter::isVariadic »](reflectionparameter.isvariadic.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

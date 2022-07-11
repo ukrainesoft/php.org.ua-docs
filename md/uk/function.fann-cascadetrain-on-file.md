@@ -1,7 +1,5 @@
-- [«
-fann_cascadetrain_on_data](function.fann-cascadetrain-on-data.md)
-- [fann_clear_scaling_params
-»](function.fann-clear-scaling-params.md)
+- [« fann_cascadetrain_on_data](function.fann-cascadetrain-on-data.md)
+- [fann_clear_scaling_params »](function.fann-clear-scaling-params.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

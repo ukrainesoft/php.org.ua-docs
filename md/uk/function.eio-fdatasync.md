@@ -1,5 +1,5 @@
 - [«eio_fchown](function.eio-fchown.md)
-- [eio_fstat »] (function.eio-fstat.md)
+- [eio_fstat »](function.eio-fstat.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

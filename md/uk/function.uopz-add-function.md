@@ -1,5 +1,5 @@
 - [« Функції Uopz](ref.uopz.md)
-- [uopz_allow_exit »] (function.uopz-allow-exit.md)
+- [uopz_allow_exit »](function.uopz-allow-exit.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

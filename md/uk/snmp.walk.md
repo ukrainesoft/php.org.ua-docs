@@ -57,8 +57,7 @@ OID. Якщо встановлено значення **`true`**, префікс
 генерацію виключення SNMPException у разі виникнення деяких помилок
 даної бібліотеки необхідно встановити параметр `exceptions_enabled`
 класу SNMP у відповідне значення. Докладніше дивіться в [поясненні
-параметра
-`SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled).
+параметра `SNMP::$exceptions_enabled`](class.snmp.md#snmp.props.exceptions-enabled).
 
 ### Приклади
 

@@ -1,5 +1,4 @@
-- [«
-ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)
+- [« ZipArchive::isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)
 - [ZipArchive::locateName »](ziparchive.locatename.md)
 
 - [PHP Manual](index.md)

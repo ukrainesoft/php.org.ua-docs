@@ -1,7 +1,5 @@
-- [«
-enchant_dict_is_in_session](function.enchant-dict-is-in-session.md)
-- [enchant_dict_store_replacement
-»](function.enchant-dict-store-replacement.md)
+- [« enchant_dict_is_in_session](function.enchant-dict-is-in-session.md)
+- [enchant_dict_store_replacement »](function.enchant-dict-store-replacement.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

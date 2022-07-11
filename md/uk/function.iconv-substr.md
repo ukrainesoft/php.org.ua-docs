@@ -1,5 +1,5 @@
 - [« iconv_strrpos](function.iconv-strrpos.md)
-- [iconv »] (function.iconv.md)
+- [iconv »](function.iconv.md)
 
 - [PHP Manual](index.md)
 - [Функції iconv](ref.iconv.md)

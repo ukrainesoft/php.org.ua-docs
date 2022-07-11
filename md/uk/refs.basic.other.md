@@ -41,8 +41,7 @@ JsonSerializable
 - [LuaSandbox](book.luasandbox.md)
 - [Вступ](intro.luasandbox.md)
 - [Встановлення та налаштування](luasandbox.setup.md)
-- [Відмінності від стандартного
-Lua] (reference.luasandbox.differences.md)
+- [Відмінності від стандартного Lua](reference.luasandbox.differences.md)
 - [Приклади](luasandbox.examples.md)
 - [LuaSandbox](class.luasandbox.md) - Клас LuaSandbox
 - [LuaSandboxFunction](class.luasandboxfunction.md) - Клас
@@ -149,14 +148,14 @@ Swoole\Serialize
 - [tidy](class.tidy.md) - Клас tidy
 - [tidyNode](class.tidynode.md) - Клас tidyNode
 - [Tidy](ref.tidy.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 - [Вступ](intro.tokenizer.md)
 - [Встановлення та налаштування](tokenizer.setup.md)
 - [Предвизначені константи](tokenizer.constants.md)
 - [Приклади](tokenizer.examples.md)
 - [PhpToken](class.phptoken.md) - Клас PhpToken
-- [Функції PHP-лексера (tokenizer)] (ref.tokenizer.md)
-- [URL] (book.url.md)
+- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
+- [URL](book.url.md)
 - [Вступ](intro.url.md)
 - [Встановлення та налаштування](url.setup.md)
 - [Предвизначені константи](url.constants.md)
@@ -246,7 +245,7 @@ Yaf_Route_Supervar
 - Клас Yaf_Exception_LoadFailed_Action
 - [Yaf_Exception_LoadFailed_View](class.yaf-exception-loadfailed-view.md)
 - Клас Yaf_Exception_LoadFailed_View
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 - [Вступ](intro.yaconf.md)
 - [Встановлення та налаштування](yaconf.setup.md)
 - [Предвизначені константи](yaconf.constants.md)

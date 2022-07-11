@@ -1,5 +1,5 @@
 - [« Функції Yaml](ref.yaml.md)
-- [yaml_emit »] (function.yaml-emit.md)
+- [yaml_emit »](function.yaml-emit.md)
 
 - [PHP Manual](index.md)
 - [Функції Yaml](ref.yaml.md)
@@ -48,8 +48,7 @@ callbacks
 (array), де як ключі використовуються імена класів, а як
 значень callback-функції ([callable](language.types.callable.md)),
 які створюватимуть вузли для цих класів. Більше подробиць можна
-дізнатися у розділі про [публікуючі
-callback-функції] (yaml.callbacks.emit.md).
+дізнатися у розділі про [публікуючі callback-функції](yaml.callbacks.emit.md).
 
 ### Значення, що повертаються
 

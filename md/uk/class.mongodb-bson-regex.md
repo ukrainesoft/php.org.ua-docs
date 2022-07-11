@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectId::unserialize](mongodb-bson-objectid.unserialize.md)
-- [MongoDB\BSON\Regex::\_\_construct
-»](mongodb-bson-regex.construct.md)
+- [« MongoDB\BSON\ObjectId::unserialize](mongodb-bson-objectid.unserialize.md)
+- [MongoDB\BSON\Regex::\_\_construct »](mongodb-bson-regex.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

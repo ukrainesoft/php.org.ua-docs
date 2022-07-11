@@ -12,7 +12,7 @@
 - [Вимоги](mailparse.requirements.md)
 - [Установка](mailparse.installation.md)
 - [Налаштування під час виконання](mailparse.configuration.md)
-- [Типи ресурсів] (mailparse.resources.md)
+- [Типи ресурсів](mailparse.resources.md)
 - [Предвизначені константи](mailparse.constants.md)
 - [Mailparse](ref.mailparse.md)
 - [mailparse_determine_best_xfer_encoding](function.mailparse-determine-best-xfer-encoding.md)

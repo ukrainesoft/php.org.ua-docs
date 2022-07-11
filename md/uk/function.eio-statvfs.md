@@ -1,5 +1,5 @@
 - [«eio_stat](function.eio-stat.md)
-- [eio_symlink »] (function.eio-symlink.md)
+- [eio_symlink »](function.eio-symlink.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

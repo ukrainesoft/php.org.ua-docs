@@ -1,5 +1,4 @@
-- [«
-COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
+- [« COMPersistHelper::LoadFromFile](compersisthelper.loadfromfile.md)
 - [COMPersistHelper::SaveToFile »](compersisthelper.savetofile.md)
 
 - [PHP Manual](index.md)

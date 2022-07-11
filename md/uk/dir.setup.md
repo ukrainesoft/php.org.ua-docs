@@ -12,4 +12,4 @@
 - [Вимоги](dir.requirements.md)
 - [Установка](dir.installation.md)
 - [Налаштування під час виконання](dir.configuration.md)
-- [Типи ресурсів] (dir.resources.md)
+- [Типи ресурсів](dir.resources.md)

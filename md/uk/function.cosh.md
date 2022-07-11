@@ -1,5 +1,5 @@
 - [«cos](function.cos.md)
-- [decbin »] (function.decbin.md)
+- [decbin »](function.decbin.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

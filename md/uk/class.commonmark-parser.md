@@ -1,7 +1,5 @@
-- [«
-CommonMark\Interfaces\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)
-- [CommonMark\Parser::\_\_construct
-»](commonmark-parser.construct.md)
+- [« CommonMark\Interfaces\IVisitable::accept](commonmark-interfaces-ivisitable.accept.md)
+- [CommonMark\Parser::\_\_construct »](commonmark-parser.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

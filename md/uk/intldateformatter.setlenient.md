@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md)
+- [« IntlDateFormatter::setCalendar](intldateformatter.setcalendar.md)
 - [IntlDateFormatter::setPattern »](intldateformatter.setpattern.md)
 
 - [PHP Manual](index.md)

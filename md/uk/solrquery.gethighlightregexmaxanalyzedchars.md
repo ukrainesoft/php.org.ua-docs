@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md)
-- [SolrQuery::getHighlightRegexPattern
-»](solrquery.gethighlightregexpattern.md)
+- [« SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md)
+- [SolrQuery::getHighlightRegexPattern »](solrquery.gethighlightregexpattern.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

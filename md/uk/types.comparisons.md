@@ -1,5 +1,5 @@
 - [« Unix-сокети: UNIX та UDG](transports.unix.md)
-- [Список тегів (tokens) парсера»] (tokens.md)
+- [Список тегів (tokens) парсера»](tokens.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)
@@ -7,12 +7,9 @@
 
 # Таблиця порівняння типів у PHP
 
-Наступні таблиці демонструють роботу PHP з [типами
-змінних](language.types.md) та [операторами
-порівняння](language.operators.comparison.md), як у випадку вільного,
+Наступні таблиці демонструють роботу PHP з [типами змінних](language.types.md) та [операторами порівняння](language.operators.comparison.md), як у випадку вільного,
 так і у разі суворого порівняння. Також ця інформація відноситься до
-розділу документації з [наведення
-типів] (language.types.type-juggling.md). Натхненням на створення
+розділу документації з [наведення типів](language.types.type-juggling.md). Натхненням на створення
 цього розділу ми зобов'язані різним коментарям користувачів та роботі
 над
 [»BlueShoes](http://www.blueshoes.org/en/developer/php_cheat_sheet/).

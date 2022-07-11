@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\CustomInline](class.commonmark-node-custominline.md)
+- [« CommonMark\Node\CustomInline](class.commonmark-node-custominline.md)
 - [CommonMark\Node::appendChild »](commonmark-node.appendchild.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-IteratorAggregate::getIterator](iteratoraggregate.getiterator.md)
+- [« IteratorAggregate::getIterator](iteratoraggregate.getiterator.md)
 - [Throwable::getMessage »](throwable.getmessage.md)
 
 - [PHP Manual](index.md)
@@ -56,7 +55,7 @@ public [Stringable::\_\_toString](stringable.tostring.md)(): string
 
 | Версія | Опис |
 |--------|---------------------------------------- ---------------------------------------------|
-| 8.0.0 | Клас ** Throwable ** тепер реалізує інтерфейс [Stringable] (class.stringable.md). |
+| 8.0.0 | Клас ** Throwable ** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
 
 ## Зміст
 

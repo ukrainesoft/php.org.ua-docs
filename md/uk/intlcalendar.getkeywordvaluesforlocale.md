@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.md)
+- [« IntlCalendar::getGreatestMinimum](intlcalendar.getgreatestminimum.md)
 - [IntlCalendar::getLeastMaximum »](intlcalendar.getleastmaximum.md)
 
 - [PHP Manual](index.md)

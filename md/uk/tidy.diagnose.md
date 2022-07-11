@@ -2,7 +2,7 @@
 - [tidy::$errorBuffer »](tidy.props.errorbuffer.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Запуск налаштованої діагностики для розібраної та відновленої
 розмітки
 

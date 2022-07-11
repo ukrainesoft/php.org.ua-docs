@@ -1,5 +1,4 @@
-- [«
-Imagick::transformImageColorspace](imagick.transformimagecolorspace.md)
+- [« Imagick::transformImageColorspace](imagick.transformimagecolorspace.md)
 - [Imagick::transposeImage »](imagick.transposeimage.md)
 
 - [PHP Manual](index.md)

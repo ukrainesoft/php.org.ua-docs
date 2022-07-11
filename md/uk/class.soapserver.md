@@ -11,9 +11,7 @@
 
 ## Вступ
 
-Клас SoapServer є сервером для протоколів [» SOAP
-1.1](http://www.w3.org/TR/soap11/) та [» SOAP
-1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом
+Клас SoapServer є сервером для протоколів [» SOAP 1.1](http://www.w3.org/TR/soap11/) та [» SOAP 1.2](http://www.w3.org/TR/soap12/). Його можна використовувати з описом
 служби WSDL або без нього.
 
 ## Огляд класів
@@ -29,9 +27,8 @@ private ?[SoapFault](class.soapfault.md) `$__soap_fault` u003d null;
 /\* Методи \*/
 
 public [\_\_construct](soapserver.construct.md)(?string `$wsdl`, array
-`$options` u003d \[\])
-
-public [addFunction](soapserver.addfunction.md)(array\|string\|int
+`$options` u003d [])
+ public [addFunction](soapserver.addfunction.md)(array\|string\|int
 `$functions`): void
 
 public

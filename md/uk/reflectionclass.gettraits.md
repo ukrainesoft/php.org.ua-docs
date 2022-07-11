@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)
+- [« ReflectionClass::getTraitNames](reflectionclass.gettraitnames.md)
 - [ReflectionClass::hasConstant »](reflectionclass.hasconstant.md)
 
 - [PHP Manual](index.md)

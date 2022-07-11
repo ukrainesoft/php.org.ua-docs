@@ -1,5 +1,4 @@
-- [« Компіляція модулів PECL статично в
-PHP](install.pecl.static.md)
+- [« Компіляція модулів PECL статично в PHP](install.pecl.static.md)
 - [Читайте FAQ »](install.problems.faq.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Установка](xattr.installation.md)
-- [Типи ресурсів»] (xattr.resources.md)
+- [Типи ресурсів»](xattr.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xattr.setup.md)

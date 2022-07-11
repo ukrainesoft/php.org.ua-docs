@@ -11,8 +11,7 @@
 - [DBA](book.dba.md) — Database (dbm-style) Abstraction Layer
 - [ODBC](book.uodbc.md) - ODBC (Unified)
 - [PDO](book.pdo.md) - Об'єкти даних PHP
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - [CUBRID](book.cubrid.md)
 - [dBase](book.dbase.md)
 - [Firebird/InterBase](book.ibase.md)

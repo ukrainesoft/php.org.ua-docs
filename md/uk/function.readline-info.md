@@ -1,5 +1,4 @@
-- [«
-readline_completion_function](function.readline-completion-function.md)
+- [« readline_completion_function](function.readline-completion-function.md)
 - [readline_list_history »](function.readline-list-history.md)
 
 - [PHP Manual](index.md)

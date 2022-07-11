@@ -1,5 +1,5 @@
 - [«sha1](function.sha1.md)
-- [soundex »] (function.soundex.md)
+- [soundex »](function.soundex.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

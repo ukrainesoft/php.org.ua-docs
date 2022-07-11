@@ -1,5 +1,5 @@
 - [« imap_uid](function.imap-uid.md)
-- [imap_unsubscribe »] (function.imap-unsubscribe.md)
+- [imap_unsubscribe »](function.imap-unsubscribe.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

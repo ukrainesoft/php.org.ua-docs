@@ -1,7 +1,5 @@
-- [«
-IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md)
-- [IntlCalendar::setSkippedWallTimeOption
-»](intlcalendar.setskippedwalltimeoption.md)
+- [« IntlCalendar::setMinimalDaysInFirstWeek](intlcalendar.setminimaldaysinfirstweek.md)
+- [IntlCalendar::setSkippedWallTimeOption »](intlcalendar.setskippedwalltimeoption.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

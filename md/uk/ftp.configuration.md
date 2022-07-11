@@ -1,5 +1,5 @@
 - [« Встановлення](ftp.installation.md)
-- [Типи ресурсів»] (ftp.resources.md)
+- [Типи ресурсів»](ftp.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ftp.setup.md)

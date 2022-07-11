@@ -1,6 +1,5 @@
 - [« GearmanClient::returnCode](gearmanclient.returncode.md)
-- [GearmanClient::setClientCallback
-»](gearmanclient.setclientcallback.md)
+- [GearmanClient::setClientCallback »](gearmanclient.setclientcallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

@@ -50,8 +50,7 @@ Array
 типами**
 
 Два елементи вважаються рівними тоді і лише тоді, коли
-`(string) $elem1 u003du003du003d (string) $elem2`. Тобто, коли [рядкове
-представлення](language.types.string.md#language.types.string.casting)
+`(string) $elem1 u003du003du003d (string) $elem2`. Тобто, коли [рядкове представлення](language.types.string.md#language.types.string.casting)
 однаково.
 
 ` <?php// Це згенерує повідомлення про том, що масив не може перетворити в рядок.$source u003d [1, 2, 3, 4];$filter u003d [3, result u003d array_diff($source, $filter);// В то же час це нормально, оскільки об'єкти можуть бути перетворені в рядок.class S { private public function __construct(string$$) {   $this->v u003d $v; }  public function __toString() {    return $this->v; }}$source u003d [new S('a'), new S('b'), new S('c')];$filter u003d [new S('b'), new S('c') , new S('d')];$result u003d array_diff($source, $filter);// $result тепер містить один примірник S('a');?> `

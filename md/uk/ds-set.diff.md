@@ -33,8 +33,7 @@ public **Ds\Set::diff**([Ds\Set](class.ds-set.md) `$set`):
 
 ### Дивіться також
 
-- [»Різниця
-множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на
+- [»Різниця множин](https://en.wikipedia.org/wiki/Complement_(set_theory)) на
 Вікіпедія
 
 ### Приклади

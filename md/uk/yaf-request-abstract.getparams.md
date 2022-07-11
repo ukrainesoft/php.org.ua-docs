@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::getParam](yaf-request-abstract.getparam.md)
-- [Yaf_Request_Abstract::getRequestUri
-»](yaf-request-abstract.getrequesturi.md)
+- [« Yaf_Request_Abstract::getParam](yaf-request-abstract.getparam.md)
+- [Yaf_Request_Abstract::getRequestUri »](yaf-request-abstract.getrequesturi.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

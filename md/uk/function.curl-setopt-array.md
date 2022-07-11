@@ -1,5 +1,5 @@
 - [«curl_reset](function.curl-reset.md)
-- [curl_setopt »] (function.curl-setopt.md)
+- [curl_setopt »](function.curl-setopt.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

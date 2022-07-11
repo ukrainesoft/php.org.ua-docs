@@ -1,5 +1,5 @@
 - [« Установка](iconv.installation.md)
-- [Типи ресурсів»] (iconv.resources.md)
+- [Типи ресурсів»](iconv.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](iconv.setup.md)

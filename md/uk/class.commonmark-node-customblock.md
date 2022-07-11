@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\Link::\_\_construct](commonmark-node-link.construct.md)
-- [CommonMark\Node\CustomInline
-»](class.commonmark-node-custominline.md)
+- [« CommonMark\Node\Link::\_\_construct](commonmark-node-link.construct.md)
+- [CommonMark\Node\CustomInline »](class.commonmark-node-custominline.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

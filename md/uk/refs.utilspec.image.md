@@ -1,5 +1,5 @@
-- [« recode ] (function.recode.md)
-- [Exif »] (book.exif.md)
+- [« recode ](function.recode.md)
+- [Exif »](book.exif.md)
 
 - [PHP Manual](index.md)
 - [Довідник функцій](funcref.md)
@@ -17,8 +17,7 @@
 - [Встановлення та налаштування](image.setup.md)
 - [Предвизначені константи](image.constants.md)
 - [Приклади](image.examples.md)
-- [Функції GD та функції для роботи з
-зображення](ref.image.md)
+- [Функції GD та функції для роботи з зображення](ref.image.md)
 - [GdImage](class.gdimage.md) - Клас GdImage
 - [GdFont](class.gdfont.md) - Клас GdFont
 - [Gmagick](book.gmagick.md)

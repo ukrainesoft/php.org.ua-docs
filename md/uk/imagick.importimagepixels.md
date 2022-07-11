@@ -1,6 +1,5 @@
 - [« Imagick::implodeImage](imagick.implodeimage.md)
-- [Imagick::inverseFourierTransformImage
-»](imagick.inversefouriertransformimage.md)
+- [Imagick::inverseFourierTransformImage »](imagick.inversefouriertransformimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)
@@ -52,8 +51,7 @@ G u003d зелений, B u003d синій, A u003d альфа (0 – прозо
 I u003d інтенсивність (для відтінків сірого), P u003d заповнювач.
 
 `storage`
-Спосіб зберігання пікселів. Дивіться список [констант
-пікселів](imagick.constants.md#imagick.constants.pixel).
+Спосіб зберігання пікселів. Дивіться список [констант пікселів](imagick.constants.md#imagick.constants.pixel).
 
 `pixels`
 Масив пікселів.

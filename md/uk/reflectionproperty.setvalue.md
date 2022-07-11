@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md)
-- [ReflectionProperty::\_\_toString
-»](reflectionproperty.tostring.md)
+- [« ReflectionProperty::setAccessible](reflectionproperty.setaccessible.md)
+- [ReflectionProperty::\_\_toString »](reflectionproperty.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

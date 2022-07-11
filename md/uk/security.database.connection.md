@@ -1,5 +1,5 @@
 - [«Проектування бази даних](security.database.design.md)
-- [Шифрування сховища бази даних»] (security.database.storage.md)
+- [Шифрування сховища бази даних»](security.database.storage.md)
 
 - [PHP Manual](index.md)
 - [Безпека баз даних](security.database.md)

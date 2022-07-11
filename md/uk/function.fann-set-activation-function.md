@@ -1,7 +1,5 @@
-- [«
-fann_set_activation_function_output](function.fann-set-activation-function-output.md)
-- [fann_set_activation_steepness_hidden
-»](function.fann-set-activation-steepness-hidden.md)
+- [« fann_set_activation_function_output](function.fann-set-activation-function-output.md)
+- [fann_set_activation_steepness_hidden »](function.fann-set-activation-steepness-hidden.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)
@@ -34,11 +32,9 @@ int `$neuron`
 1, а **`FANN_LINEAR`** без обмежень.
 
 Надане значення activation_function має бути однією з
-констант [функцій
-активації](fann.constants.md#constants.fann-activation-funcs).
+констант [функцій активації](fann.constants.md#constants.fann-activation-funcs).
 
-Значення, що повертається - одна з констант [функцій
-активації](fann.constants.md#constants.fann-train).
+Значення, що повертається - одна з констант [функцій активації](fann.constants.md#constants.fann-train).
 
 ### Список параметрів
 
@@ -46,8 +42,7 @@ int `$neuron`
 Ресурс нейронної мережі.
 
 `activation_function`
-Константа [функцій
-активації](fann.constants.md#constants.fann-activation-funcs).
+Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs).
 
 `layer`
 Номер шару.

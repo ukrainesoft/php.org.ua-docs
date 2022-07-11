@@ -24,7 +24,7 @@ metaphone — Повертає ключ metaphone для рядка
 рядки не фіксовано.
 
 Функція metaphone була написана Lawrence Philips <lphilips at verity
-dot com\> і описана в книзі \["Practical Algorithms for Programmers",
+dot com\> і описана в книзі ["Practical Algorithms for Programmers",
 Binstock & Rex, Addison Wesley, 1995].
 
 ### Список параметрів

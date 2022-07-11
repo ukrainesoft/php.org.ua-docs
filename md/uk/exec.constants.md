@@ -1,5 +1,5 @@
 - [« Типи ресурсів](exec.resources.md)
-- [Функції запуску програм»] (ref.exec.md)
+- [Функції запуску програм»](ref.exec.md)
 
 - [PHP Manual](index.md)
 - [Запуск програми](book.exec.md)

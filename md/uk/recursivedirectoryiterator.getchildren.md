@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md)
-- [RecursiveDirectoryIterator::getSubPath
-»](recursivedirectoryiterator.getsubpath.md)
+- [« RecursiveDirectoryIterator::\_\_construct](recursivedirectoryiterator.construct.md)
+- [RecursiveDirectoryIterator::getSubPath »](recursivedirectoryiterator.getsubpath.md)
 
 - [PHP Manual](index.md)
 - [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
@@ -33,5 +31,4 @@ public **RecursiveDirectoryIterator::getChildren**():
 
 Ім'я файлу, інформація про файл або посилання на об'єкт $this. Що саме
 буде повертатись залежить від прапорів налаштувань. Дивіться додатково
-[Константи
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+[Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).

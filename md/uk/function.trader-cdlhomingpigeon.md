@@ -1,6 +1,5 @@
 - [« trader_cdlhikkakemod](function.trader-cdlhikkakemod.md)
-- [trader_cdlidentical3crows
-»](function.trader-cdlidentical3crows.md)
+- [trader_cdlidentical3crows »](function.trader-cdlidentical3crows.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

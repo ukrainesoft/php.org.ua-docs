@@ -19,7 +19,7 @@ pg_fetch_all_columns — Вибирає всі записи з однієї ко
 `$result`, int `$field` u003d 0): array
 
 **pg_fetch_all_columns()** повертає масив, що містить усі записи
-однієї колонки екземпляра [PgSql \ Result] (class.pgsql-result.md).
+однієї колонки екземпляра [PgSql \ Result](class.pgsql-result.md).
 
 > **Примітка**: Ця функція встановлює NULL-поля у значення
 > **`null`** PHP.

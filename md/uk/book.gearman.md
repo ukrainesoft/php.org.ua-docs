@@ -16,10 +16,8 @@
 - [Предвизначені константи](gearman.constants.md)
 - [Приклади](gearman.examples.md)
 - [Базове використання](gearman.examples-reverse.md)
-- [Базовий клієнт та обробник Gearman, фоновий
-режим](gearman.examples-reverse-bg.md)
-- [Базові клієнт та обробник Gearman, відправка
-задач](gearman.examples-reverse-task.md)
+- [Базовий клієнт та обробник Gearman, фоновий режим](gearman.examples-reverse-bg.md)
+- [Базові клієнт та обробник Gearman, відправка задач](gearman.examples-reverse-task.md)
 - [GearmanClient](class.gearmanclient.md) - Клас GearmanClient
 - [GearmanClient::addOptions](gearmanclient.addoptions.md) -
 Додати клієнтські опції
@@ -56,8 +54,7 @@
 - [GearmanClient::data](gearmanclient.data.md) - Повертає
 дані програми (функція застаріла)
 - [GearmanClient::do](gearmanclient.do.md) — Виконує одну
-завдання і повертає результат [Застарілий метод]
-- [GearmanClient::doBackground](gearmanclient.dobackground.md) -
+завдання і повертає результат [Застарілий метод] - [GearmanClient::doBackground](gearmanclient.dobackground.md) -
 Запускає виконання завдання у фоновому режимі
 - [GearmanClient::doHigh](gearmanclient.dohigh.md) - Запускає
 на виконання завдання з високим пріоритетом
@@ -77,8 +74,7 @@
 Отримання статусу завдання, що виконується
 - [GearmanClient::echo](gearmanclient.echo.md) - Відправляє
 дані всім серверам завдань, щоб перевірити відгук
-\[Застарілий метод\]
-- [GearmanClient::error](gearmanclient.error.md) — Повернути
+[Застарілий метод] - [GearmanClient::error](gearmanclient.error.md) — Повернути
 рядок помилки для останньої виявленої помилки
 - [GearmanClient::getErrno](gearmanclient.geterrno.md) -
 Отримати значення errno

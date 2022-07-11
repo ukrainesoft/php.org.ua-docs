@@ -1,6 +1,5 @@
 - [« Ds\PriorityQueue::count](ds-priorityqueue.count.md)
-- [Ds\PriorityQueue::jsonSerialize
-»](ds-priorityqueue.jsonserialize.md)
+- [Ds\PriorityQueue::jsonSerialize »](ds-priorityqueue.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [Черга з пріоритетом](class.ds-priorityqueue.md)

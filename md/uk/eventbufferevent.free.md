@@ -1,6 +1,5 @@
 - [«EventBufferEvent::enable](eventbufferevent.enable.md)
-- [EventBufferEvent::getDnsErrorString
-»](eventbufferevent.getdnserrorstring.md)
+- [EventBufferEvent::getDnsErrorString »](eventbufferevent.getdnserrorstring.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

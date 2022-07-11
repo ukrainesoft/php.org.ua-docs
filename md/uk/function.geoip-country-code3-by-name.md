@@ -1,7 +1,5 @@
-- [«
-geoip_country_code_by_name](function.geoip-country-code-by-name.md)
-- [geoip_country_name_by_name
-»](function.geoip-country-name-by-name.md)
+- [« geoip_country_code_by_name](function.geoip-country-code-by-name.md)
+- [geoip_country_name_by_name »](function.geoip-country-name-by-name.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md)
-- [ImagickDraw::setStrokeDashArray
-»](imagickdraw.setstrokedasharray.md)
+- [« ImagickDraw::setStrokeAntialias](imagickdraw.setstrokeantialias.md)
+- [ImagickDraw::setStrokeDashArray »](imagickdraw.setstrokedasharray.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

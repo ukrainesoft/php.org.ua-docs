@@ -1,5 +1,4 @@
-- [« Робота з просторами імен
-XML] (example.xmlwriter-namespace.md)
+- [« Робота з просторами імен XML](example.xmlwriter-namespace.md)
 - [XMLWriter »](class.xmlwriter.md)
 
 - [PHP Manual](index.md)

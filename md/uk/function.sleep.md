@@ -1,5 +1,5 @@
 - [«show_source](function.show-source.md)
-- [sys_getloadavg »] (function.sys-getloadavg.md)
+- [sys_getloadavg »](function.sys-getloadavg.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

@@ -1,5 +1,5 @@
 - [« ocicloselob](function.ocicloselob.md)
-- [ocicollassign »] (function.ocicollassign.md)
+- [ocicollassign »](function.ocicollassign.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

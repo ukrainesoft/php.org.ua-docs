@@ -1,5 +1,5 @@
 - [«imagecropauto](function.imagecropauto.md)
-- [imagedestroy »] (function.imagedestroy.md)
+- [imagedestroy »](function.imagedestroy.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

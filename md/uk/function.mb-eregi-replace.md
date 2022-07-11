@@ -1,5 +1,5 @@
 - [«mb_ereg](function.mb-ereg.md)
-- [mb_eregi »] (function.mb-eregi.md)
+- [mb_eregi »](function.mb-eregi.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

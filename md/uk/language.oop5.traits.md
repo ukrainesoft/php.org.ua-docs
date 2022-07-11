@@ -1,4 +1,4 @@
-- [« Інтерфейси об'єктів] (language.oop5.interfaces.md)
+- [« Інтерфейси об'єктів](language.oop5.interfaces.md)
 - [Анонімні класи »](language.oop5.anonymous.md)
 
 - [PHP Manual](index.md)

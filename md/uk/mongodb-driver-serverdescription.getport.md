@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md)
-- [MongoDB\Driver\ServerDescription::getRoundTripTime
-»](mongodb-driver-serverdescription.getroundtriptime.md)
+- [« MongoDB\Driver\ServerDescription::getLastUpdateTime](mongodb-driver-serverdescription.getlastupdatetime.md)
+- [MongoDB\Driver\ServerDescription::getRoundTripTime »](mongodb-driver-serverdescription.getroundtriptime.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)

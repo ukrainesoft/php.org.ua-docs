@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md)
-- [MongoDB\Driver\Exception\UnexpectedValueException
-»](class.mongodb-driver-exception-unexpectedvalueexception.md)
+- [« MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md)
+- [MongoDB\Driver\Exception\UnexpectedValueException »](class.mongodb-driver-exception-unexpectedvalueexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Exception](mongodb.exceptions.md)
@@ -43,9 +41,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

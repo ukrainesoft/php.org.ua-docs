@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (eio.resources.md)
+- [« Типи ресурсів](eio.resources.md)
 - [Приклади »](eio.examples.md)
 
 - [PHP Manual](index.md)

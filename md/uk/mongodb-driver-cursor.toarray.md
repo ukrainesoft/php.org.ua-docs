@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Cursor::setTypeMap](mongodb-driver-cursor.settypemap.md)
+- [« MongoDB\Driver\Cursor::setTypeMap](mongodb-driver-cursor.settypemap.md)
 - [MongoDB\Driver\Cursor::valid »](mongodb-driver-cursor.valid.md)
 
 - [PHP Manual](index.md)

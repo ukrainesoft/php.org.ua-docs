@@ -1,7 +1,5 @@
-- [«
-RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.md)
-- [RecursiveCallbackFilterIterator::hasChildren
-»](recursivecallbackfilteriterator.haschildren.md)
+- [« RecursiveCallbackFilterIterator::\_\_construct](recursivecallbackfilteriterator.construct.md)
+- [RecursiveCallbackFilterIterator::hasChildren »](recursivecallbackfilteriterator.haschildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
@@ -39,8 +37,7 @@ public **RecursiveCallbackFilterIterator::getChildren**():
 
 ### Дивіться також
 
-- [Приклади використання
-RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
+- [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
 - [RecursiveCallbackFilterIterator::\_\_construct()](recursivecallbackfilteriterator.construct.md) -
 Створює об'єкт класу RecursiveCallbackFilterIterator на основі
 об'єкту RecursiveIterator

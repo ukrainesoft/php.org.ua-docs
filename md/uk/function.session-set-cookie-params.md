@@ -40,8 +40,7 @@ int `$lifetime_or_options`,
 ### Список параметрів
 
 `lifetime_or_options`
-Якщо використовувати першу сигнатуру, [час
-життя](session.configuration.md#ini.session.cookie-lifetime)
+Якщо використовувати першу сигнатуру, [час життя](session.configuration.md#ini.session.cookie-lifetime)
 сесійної куки, задане в секундах.
 
 Якщо використовувати другу сигнатуру, асоціативний масив (array),

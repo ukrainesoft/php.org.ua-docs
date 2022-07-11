@@ -1,6 +1,5 @@
 - [« ImagickPixelIterator](class.imagickpixeliterator.md)
-- [ImagickPixelIterator::\_\_construct
-»](imagickpixeliterator.construct.md)
+- [ImagickPixelIterator::\_\_construct »](imagickpixeliterator.construct.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixelIterator](class.imagickpixeliterator.md)

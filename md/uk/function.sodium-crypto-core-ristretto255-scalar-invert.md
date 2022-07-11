@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_core_ristretto255_scalar_complement](function.sodium-crypto-core-ristretto255-scalar-complement.md)
-- [sodium_crypto_core_ristretto255_scalar_mul
-»](function.sodium-crypto-core-ristretto255-scalar-mul.md)
+- [« sodium_crypto_core_ristretto255_scalar_complement](function.sodium-crypto-core-ristretto255-scalar-complement.md)
+- [sodium_crypto_core_ristretto255_scalar_mul »](function.sodium-crypto-core-ristretto255-scalar-mul.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

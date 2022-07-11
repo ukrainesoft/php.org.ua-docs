@@ -409,8 +409,7 @@ libxml.
 
 ## Дивіться також
 
-- [» Специфікація W3C для
-Document](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-i-Document)
+- [» Специфікація W3C для Document](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-i-Document)
 
 ## Зміст
 

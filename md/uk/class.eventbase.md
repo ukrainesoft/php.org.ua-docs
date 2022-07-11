@@ -2,7 +2,7 @@
 - [EventBase::\_\_construct »](eventbase.construct.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventBase
 
 # Клас EventBase

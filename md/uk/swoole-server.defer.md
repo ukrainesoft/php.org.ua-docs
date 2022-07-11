@@ -1,6 +1,5 @@
 - [« Swoole\Server::\_\_construct](swoole-server.construct.md)
-- [Swoole\Server\Port::\_\_construct
-»](swoole-server-port.construct.md)
+- [Swoole\Server\Port::\_\_construct »](swoole-server-port.construct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Server](class.swoole-server.md)

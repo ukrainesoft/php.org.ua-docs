@@ -24,8 +24,7 @@ int `$bytes_max`
 ): void
 
 Callback-функція типу [callable](language.types.callable.md),
-використовувана [параметром контексту
-notification](context.params.md#context.params.notification),
+використовувана [параметром контексту notification](context.params.md#context.params.notification),
 викликана під час події.
 
 > **Примітка**:
@@ -97,7 +96,9 @@ notification](context.params.md#context.params.notification),
 ";        break;    case STREAM_NOTIFY_CONNECT:        echo "Приєдналися...
 ";  ¦                                                                                               ¦
 ";        break;    case STREAM_NOTIFY_MIME_TYPE_IS:        echo "Mime-тип файлу: ", $message, "
-";        break;    case STREAM_NOTIFY_PROGRESS:        if ($bytes_transferred > 0) {            if (!isset($filesize)) {                printf("Неизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);            } else {                $length u003d (int)(($bytes_transferred/$filesize)*100);                printf("[%-100s] %d%% (%2d/%2d kb)", str_repeat("u003d", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024)              }      break;   }}isset($argv[1], $argv[2]) or usage($argv);$ctx u003dstream_context_create();stream_context_set_params("t" ;$fp u003d fopen($argv[1], "r", false, $ctx);if (is_resource($fp) && file_put_contents($argv[2], $fp)) {    echo "
+";        break;    case STREAM_NOTIFY_PROGRESS:        if ($bytes_transferred > 0) {            if (!isset($filesize)) {                printf("
+Неизвестный размер файла.. Закачано %2d Кб..", $bytes_transferred/1024);            } else {                $length u003d (int)(($bytes_transferred/$filesize)*100);                printf("
+[%-100s] %d%% (%2d/%2d kb)", str_repeat("u003d", $length). ">", $length, ($bytes_transferred/1024), $filesize/1024)              }      break;   }}isset($argv[1], $argv[2]) or usage($argv);$ctx u003dstream_context_create();stream_context_set_params("t" ;$fp u003d fopen($argv[1], "r", false, $ctx);if (is_resource($fp) && file_put_contents($argv[2], $fp)) {    echo "
 Готово!
 ";   exit(0);}$err u003d error_get_last();echo "
 Ошшшшибкка.

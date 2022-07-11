@@ -1,5 +1,4 @@
-- [«
-ReflectionParameter::\_\_toString](reflectionparameter.tostring.md)
+- [« ReflectionParameter::\_\_toString](reflectionparameter.tostring.md)
 - [ReflectionProperty::\_\_clone »](reflectionproperty.clone.md)
 
 - [PHP Manual](index.md)
@@ -125,7 +124,7 @@ public [\_\_toString](reflectionproperty.tostring.md)(): string
 
 **`ReflectionProperty::IS_STATIC`**
 Вказує, що властивість є
-[Статичним] (language.oop5.static.md). До PHP 7.4.0, значення було
+[Статичним](language.oop5.static.md). До PHP 7.4.0, значення було
 `1`.
 
 **`ReflectionProperty::IS_PUBLIC`**

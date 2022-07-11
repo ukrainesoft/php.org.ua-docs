@@ -1,6 +1,5 @@
 - [« openssl_public_decrypt](function.openssl-public-decrypt.md)
-- [openssl_random_pseudo_bytes
-»](function.openssl-random-pseudo-bytes.md)
+- [openssl_random_pseudo_bytes »](function.openssl-random-pseudo-bytes.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

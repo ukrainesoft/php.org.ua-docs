@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Server](class.mongodb-driver-server.md)
-- [MongoDB\Driver\Server::executeBulkWrite
-»](mongodb-driver-server.executebulkwrite.md)
+- [MongoDB\Driver\Server::executeBulkWrite »](mongodb-driver-server.executebulkwrite.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

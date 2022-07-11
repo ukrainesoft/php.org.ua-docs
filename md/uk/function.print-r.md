@@ -1,4 +1,4 @@
-- [«isset] (function.isset.md)
+- [«isset](function.isset.md)
 - [serialize »](function.serialize.md)
 
 - [PHP Manual](index.md)

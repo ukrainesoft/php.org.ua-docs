@@ -1,5 +1,5 @@
 - [« Установка](uopz.installation.md)
-- [Типи ресурсів»] (uopz.resources.md)
+- [Типи ресурсів»](uopz.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](uopz.setup.md)
@@ -18,8 +18,7 @@
 **uopz Опції налаштування**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 
@@ -36,6 +35,5 @@
 [uopz_overload()](function.uopz-overload.md).
 
 > **Примітка**: Під час роботи з увімкненим OPcache може знадобитися
-> вимкнути все [оптимізація
-> OPcache](opcache.configuration.md#ini.opcache.optimization-level)
+> вимкнути все [оптимізація > OPcache](opcache.configuration.md#ini.opcache.optimization-level)
 > (`opcache.optimization_levelu003d0`).

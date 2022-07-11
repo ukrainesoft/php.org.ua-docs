@@ -36,8 +36,7 @@ public **Ds\Map::diff**([Ds\Map](class.ds-map.md) `$map`):
 
 ### Дивись також
 
-- [»Різниця
-масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на
+- [»Різниця масивів](https://en.wikipedia.org/wiki/Complement_(set_theory)) на
 Wikipedia
 
 ### Приклади

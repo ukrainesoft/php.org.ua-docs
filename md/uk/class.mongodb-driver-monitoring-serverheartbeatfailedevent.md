@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros
-»](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md)
+- [« MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId](mongodb-driver-monitoring-serveropeningevent.gettopologyid.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros »](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring](mongodb.monitoring.md)

@@ -1,5 +1,5 @@
 - [«gzgetc](function.gzgetc.md)
-- [gzgetss »] (function.gzgetss.md)
+- [gzgetss »](function.gzgetss.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

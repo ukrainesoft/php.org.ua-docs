@@ -1,6 +1,5 @@
 - [« SolrQuery::getTermsUpperBound](solrquery.gettermsupperbound.md)
-- [SolrQuery::removeExpandFilterQuery
-»](solrquery.removeexpandfilterquery.md)
+- [SolrQuery::removeExpandFilterQuery »](solrquery.removeexpandfilterquery.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

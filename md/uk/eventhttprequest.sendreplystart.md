@@ -1,5 +1,4 @@
-- [«
-EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md)
+- [« EventHttpRequest::sendReplyEnd](eventhttprequest.sendreplyend.md)
 - [EventListener »](class.eventlistener.md)
 
 - [PHP Manual](index.md)

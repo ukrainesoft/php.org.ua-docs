@@ -47,8 +47,7 @@ int `$attribute`): int\|false
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_set_attribute()](collator.setattribute.md) -
 Встановлює атрибут зіставлення
 - [collator_get_strength()](collator.getstrength.md) - Отримує

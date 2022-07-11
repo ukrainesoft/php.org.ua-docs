@@ -1,5 +1,5 @@
 - [« snmp3_set](function.snmp3-set.md)
-- [snmpget »] (function.snmpget.md)
+- [snmpget »](function.snmpget.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)

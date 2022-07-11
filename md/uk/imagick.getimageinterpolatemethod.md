@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md)
+- [« Imagick::getImageInterlaceScheme](imagick.getimageinterlacescheme.md)
 - [Imagick::getImageIterations »](imagick.getimageiterations.md)
 
 - [PHP Manual](index.md)

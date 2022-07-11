@@ -1,5 +1,5 @@
 - [«md5_file](function.md5-file.md)
-- [metaphone»] (function.metaphone.md)
+- [metaphone»](function.metaphone.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -15,15 +15,13 @@ md5 - Повертає MD5-хеш рядки
 
 Не рекомендується використовувати цю функцію для забезпечення безпеки
 зберігання паролів з огляду на високу швидкість роботи даного алгоритму. Більше
-детально читайте в розділі [Відповіді на питання, що часто ставляться
-хешування паролів](faq.passwords.md#faq.passwords.fasthash).
+детально читайте в розділі [Відповіді на питання, що часто ставляться хешування паролів](faq.passwords.md#faq.passwords.fasthash).
 
 ### Опис
 
 **md5**(string `$string`, bool `$binary` u003d **`false`**): string
 
-Обчислює MD5-хеш рядки `string`, використовуючи [» алгоритм MD5 RSA Data
-Security, Inc.](http://www.faqs.org/rfcs/rfc1321) та повертає цей хеш.
+Обчислює MD5-хеш рядки `string`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) та повертає цей хеш.
 
 ### Список параметрів
 

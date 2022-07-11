@@ -1,6 +1,5 @@
 - [« Swoole\Server::defer](swoole-server.defer.md)
-- [Swoole\Server\Port::\_\_destruct
-»](swoole-server-port.destruct.md)
+- [Swoole\Server\Port::\_\_destruct »](swoole-server-port.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Server](class.swoole-server.md)

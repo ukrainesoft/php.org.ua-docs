@@ -1,7 +1,5 @@
-- [«
-UI\Controls\Combo::setSelected](ui-controls-combo.setselected.md)
-- [UI\Controls\EditableCombo::append
-»](ui-controls-editablecombo.append.md)
+- [« UI\Controls\Combo::setSelected](ui-controls-combo.setselected.md)
+- [UI\Controls\EditableCombo::append »](ui-controls-editablecombo.append.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

@@ -1,6 +1,5 @@
 - [« snmp_set_enum_print](function.snmp-set-enum-print.md)
-- [snmp_set_oid_output_format
-»](function.snmp-set-oid-output-format.md)
+- [snmp_set_oid_output_format »](function.snmp-set-oid-output-format.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)

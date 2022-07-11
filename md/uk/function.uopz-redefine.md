@@ -1,5 +1,5 @@
 - [«uopz_overload](function.uopz-overload.md)
-- [uopz_rename »] (function.uopz-rename.md)
+- [uopz_rename »](function.uopz-rename.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

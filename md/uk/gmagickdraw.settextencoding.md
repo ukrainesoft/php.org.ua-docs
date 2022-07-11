@@ -1,5 +1,4 @@
-- [«
-GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.md)
+- [« GmagickDraw::settextdecoration](gmagickdraw.settextdecoration.md)
 - [GmagickPixel »](class.gmagickpixel.md)
 
 - [PHP Manual](index.md)

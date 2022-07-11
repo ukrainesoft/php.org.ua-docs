@@ -2,8 +2,7 @@
 - [Рекурсивні шаблони»](regexp.reference.recursive.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Коментарі
 
 ## Коментарі

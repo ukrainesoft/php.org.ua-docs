@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md)
+- [« ImagickDraw::getStrokeLineJoin](imagickdraw.getstrokelinejoin.md)
 - [ImagickDraw::getStrokeOpacity »](imagickdraw.getstrokeopacity.md)
 
 - [PHP Manual](index.md)

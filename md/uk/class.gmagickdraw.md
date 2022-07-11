@@ -67,7 +67,7 @@ public [gettextdecoration](gmagickdraw.gettextdecoration.md)(): int
 public [gettextencoding](gmagickdraw.gettextencoding.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [line] (gmagickdraw.line.md) (
+public [line](gmagickdraw.line.md) (
 float `$sx`,
 float `$sy`,
 float `$ex`,

@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md)
+- [« ImagickDraw::getStrokeMiterLimit](imagickdraw.getstrokemiterlimit.md)
 - [ImagickDraw::getStrokeWidth »](imagickdraw.getstrokewidth.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)
+- [« PharData::setSignatureAlgorithm](phardata.setsignaturealgorithm.md)
 - [PharFileInfo »](class.pharfileinfo.md)
 
 - [PHP Manual](index.md)

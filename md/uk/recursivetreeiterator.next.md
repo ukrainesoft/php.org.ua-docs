@@ -1,6 +1,5 @@
 - [« RecursiveTreeIterator::key](recursivetreeiterator.key.md)
-- [RecursiveTreeIterator::nextElement
-»](recursivetreeiterator.nextelement.md)
+- [RecursiveTreeIterator::nextElement »](recursivetreeiterator.nextelement.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)

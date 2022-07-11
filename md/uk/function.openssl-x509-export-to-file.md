@@ -1,5 +1,4 @@
-- [«
-openssl_x509_checkpurpose](function.openssl-x509-checkpurpose.md)
+- [« openssl_x509_checkpurpose](function.openssl-x509-checkpurpose.md)
 - [openssl_x509_export »](function.openssl-x509-export.md)
 
 - [PHP Manual](index.md)
@@ -24,8 +23,7 @@ openssl_x509_export_to_file — Експортує сертифікат у фа�
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри
-ключів/сертифікатів](openssl.certparams.md).
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
 
 `output_filename`
 Шлях до файлу.

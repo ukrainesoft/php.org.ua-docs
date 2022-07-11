@@ -1,6 +1,5 @@
 - [«SolrQuery::getTermsField](solrquery.gettermsfield.md)
-- [SolrQuery::getTermsIncludeUpperBound
-»](solrquery.gettermsincludeupperbound.md)
+- [SolrQuery::getTermsIncludeUpperBound »](solrquery.gettermsincludeupperbound.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

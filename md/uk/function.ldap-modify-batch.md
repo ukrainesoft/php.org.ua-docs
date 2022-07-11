@@ -1,5 +1,5 @@
 - [«ldap_mod_replace](function.ldap-mod-replace.md)
-- [ldap_modify»] (function.ldap-modify.md)
+- [ldap_modify»](function.ldap-modify.md)
 
 - [PHP Manual](index.md)
 - [Функції LDAP](ref.ldap.md)

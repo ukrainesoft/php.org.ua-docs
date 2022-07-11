@@ -17,7 +17,7 @@ hash — Генерує хеш-код (підпис повідомлення)
 string `$algo`,
 string `$data`,
 bool `$binary` u003d **`false`**,
-array `$options` u003d \[\]
+array `$options` u003d []
 ): string
 
 ### Список параметрів

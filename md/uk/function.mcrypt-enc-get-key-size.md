@@ -1,6 +1,5 @@
 - [« mcrypt_enc_get_iv_size](function.mcrypt-enc-get-iv-size.md)
-- [mcrypt_enc_get_modes_name
-»](function.mcrypt-enc-get-modes-name.md)
+- [mcrypt_enc_get_modes_name »](function.mcrypt-enc-get-modes-name.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

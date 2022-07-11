@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\MySQL::\_\_destruct](swoole-coroutine-mysql.destruct.md)
+- [« Swoole\Coroutine\MySQL::\_\_destruct](swoole-coroutine-mysql.destruct.md)
 - [Swoole\Coroutine\MySQL::query »](swoole-coroutine-mysql.query.md)
 
 - [PHP Manual](index.md)

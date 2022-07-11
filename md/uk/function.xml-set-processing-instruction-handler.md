@@ -1,6 +1,5 @@
 - [« xml_set_object](function.xml-set-object.md)
-- [xml_set_start_namespace_decl_handler
-»](function.xml-set-start-namespace-decl-handler.md)
+- [xml_set_start_namespace_decl_handler »](function.xml-set-start-namespace-decl-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

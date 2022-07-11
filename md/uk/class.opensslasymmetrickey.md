@@ -1,5 +1,4 @@
-- [«
-OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)
+- [« OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)
 - [Хешування паролів »](book.password.md)
 
 - [PHP Manual](index.md)

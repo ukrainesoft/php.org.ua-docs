@@ -65,8 +65,7 @@ obj Object
 )
 
 ## Зміст
-
-- [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) -
+ - [ArrayAccess::offsetExists](arrayaccess.offsetexists.md) -
 Визначає, чи існує задане усунення (ключ)
 - [ArrayAccess::offsetGet](arrayaccess.offsetget.md) — Повертає
 задане зміщення (ключ)

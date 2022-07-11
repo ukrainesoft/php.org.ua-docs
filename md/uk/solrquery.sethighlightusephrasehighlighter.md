@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setHighlightSnippets](solrquery.sethighlightsnippets.md)
+- [« SolrQuery::setHighlightSnippets](solrquery.sethighlightsnippets.md)
 - [SolrQuery::setMlt »](solrquery.setmlt.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« imap_8bit](function.imap-8bit.md)
-- [imap_append »] (function.imap-append.md)
+- [imap_append »](function.imap-append.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

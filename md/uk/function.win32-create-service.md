@@ -91,8 +91,7 @@ PHP.
 Щоб зменшити вплив на використання процесора, може знадобитися
 встановити базовий пріоритет нижче звичайного.
 
-`base_priority` може бути однією з констант визначених у [базових
-класи пріоритету Win32](win32service.constants.basepriorities.md).
+`base_priority` може бути однією з констант визначених у [базових класи пріоритету Win32](win32service.constants.basepriorities.md).
 
 `dependencies`
 Щоб визначити залежність вашої служби, може знадобитися
@@ -108,22 +107,19 @@ PHP.
 Дія буде виконана за першої помилки. Значення за замовчуванням -
 **`WIN32_SC_ACTION_NONE`**.
 
-Для `recovery_action_1` можна встановити одну з констант [дій
-відновлення Win32] (win32service.constants.recovery-action.md).
+Для `recovery_action_1` можна встановити одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md).
 
 `recovery_action_2`
 Дія буде виконана за другої помилки. Значення за замовчуванням -
 **`WIN32_SC_ACTION_NONE`**.
 
-Для `recovery_action_2` можна встановити одну з констант [дій
-відновлення Win32] (win32service.constants.recovery-action.md).
+Для `recovery_action_2` можна встановити одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md).
 
 `recovery_action_3`
 Дія буде виконана за наступних помилок. Значення по
 замовчуванням - **`WIN32_SC_ACTION_NONE`**.
 
-Для `recovery_action_3` можна встановити одну з констант [дій
-відновлення Win32] (win32service.constants.recovery-action.md).
+Для `recovery_action_3` можна встановити одну з констант [дій відновлення Win32](win32service.constants.recovery-action.md).
 
 `recovery_reset_period`
 Лічильник відмов буде скинутий після затримки, визначеної у параметрі.
@@ -234,8 +230,6 @@ PHP.
 
 - [win32_delete_service()](function.win32-delete-service.md) -
 Видаляє запис служби з бази даних SCM
-- [Базові класи пріоритету
-Win32](win32service.constants.basepriorities.md)
-- [Дії відновлення
-Win32](win32service.constants.recovery-action.md)
+- [Базові класи пріоритету Win32](win32service.constants.basepriorities.md)
+- [Дії відновлення Win32](win32service.constants.recovery-action.md)
 - [Коди помилок Win32](win32service.constants.errors.md)

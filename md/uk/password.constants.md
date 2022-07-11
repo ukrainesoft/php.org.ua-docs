@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (password.resources.md)
+- [« Типи ресурсів](password.resources.md)
 - [Функції хешування паролів »](ref.password.md)
 
 - [PHP Manual](index.md)

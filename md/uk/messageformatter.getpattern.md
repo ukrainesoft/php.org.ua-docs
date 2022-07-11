@@ -1,6 +1,5 @@
 - [« MessageFormatter::getLocale](messageformatter.getlocale.md)
-- [MessageFormatter::parseMessage
-»](messageformatter.parsemessage.md)
+- [MessageFormatter::parseMessage »](messageformatter.parsemessage.md)
 
 - [PHP Manual](index.md)
 - [MessageFormatter](class.messageformatter.md)

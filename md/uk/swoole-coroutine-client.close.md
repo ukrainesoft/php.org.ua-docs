@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine::create](swoole-coroutine.create.md)
-- [Swoole\Coroutine\Client::connect
-»](swoole-coroutine-client.connect.md)
+- [Swoole\Coroutine\Client::connect »](swoole-coroutine-client.connect.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

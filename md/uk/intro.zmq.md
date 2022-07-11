@@ -1,4 +1,4 @@
-- [« Обмін повідомленнями 0MQ] (book.zmq.md)
+- [« Обмін повідомленнями 0MQ](book.zmq.md)
 - [Встановлення та налаштування »](zmq.setup.md)
 
 - [PHP Manual](index.md)

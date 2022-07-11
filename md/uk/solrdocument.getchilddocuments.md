@@ -1,6 +1,5 @@
 - [«SolrDocument::\_\_get](solrdocument.get.md)
-- [SolrDocument::getChildDocumentsCount
-»](solrdocument.getchilddocumentscount.md)
+- [SolrDocument::getChildDocumentsCount »](solrdocument.getchilddocumentscount.md)
 
 - [PHP Manual](index.md)
 - [SolrDocument](class.solrdocument.md)

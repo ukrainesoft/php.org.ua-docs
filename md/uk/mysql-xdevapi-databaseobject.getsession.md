@@ -1,5 +1,4 @@
-- [«
-DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md)
+- [« DatabaseObject::getName](mysql-xdevapi-databaseobject.getname.md)
 - [mysql_xdevapi\DocResult »](class.mysql-xdevapi-docresult.md)
 
 - [PHP Manual](index.md)

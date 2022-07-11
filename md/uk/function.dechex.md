@@ -1,5 +1,5 @@
 - [«decbin](function.decbin.md)
-- [decoct »] (function.decoct.md)
+- [decoct »](function.decoct.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

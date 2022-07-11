@@ -21,8 +21,7 @@
 - [Приклади](xml.examples.md)
 - [Приклад структури елемента XML](example.xml-structure.md)
 - [Приклад відображення тегів XML](example.xml-map-tags.md)
-- [Приклад використання зовнішніх сутностей
-XML](example.xml-external-entity.md)
+- [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)
 - [Функції парсера XML](ref.xml.md)
 - [xml_error_string](function.xml-error-string.md) — Отримання
 рядки помилки XML-аналізатора

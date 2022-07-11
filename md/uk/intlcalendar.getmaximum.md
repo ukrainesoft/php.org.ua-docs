@@ -1,6 +1,5 @@
 - [« IntlCalendar::getLocale](intlcalendar.getlocale.md)
-- [IntlCalendar::getMinimalDaysInFirstWeek
-»](intlcalendar.getminimaldaysinfirstweek.md)
+- [IntlCalendar::getMinimalDaysInFirstWeek »](intlcalendar.getminimaldaysinfirstweek.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

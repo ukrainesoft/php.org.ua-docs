@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::isInTransaction](mongodb-driver-session.isintransaction.md)
-- [MongoDB\Driver\ClientEncryption
-»](class.mongodb-driver-clientencryption.md)
+- [« MongoDB\Driver\Session::isInTransaction](mongodb-driver-session.isintransaction.md)
+- [MongoDB\Driver\ClientEncryption »](class.mongodb-driver-clientencryption.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)
@@ -52,8 +50,7 @@ final public **MongoDB\Driver\Session::startTransaction**(array
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 - Видає виняток
 [MongoDB\Driver\Exception\CommandException](class.mongodb-driver-exception-commandexception.md),
 якщо транзакція не може бути запущена через проблему на стороні

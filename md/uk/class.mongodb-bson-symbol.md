@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Int64::unserialize](mongodb-bson-int64.unserialize.md)
-- [MongoDB\BSON\Symbol::\_\_construct
-»](mongodb-bson-symbol.construct.md)
+- [« MongoDB\BSON\Int64::unserialize](mongodb-bson-int64.unserialize.md)
+- [MongoDB\BSON\Symbol::\_\_construct »](mongodb-bson-symbol.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

@@ -1,6 +1,5 @@
 - [« IntlChar::getCombiningClass](intlchar.getcombiningclass.md)
-- [IntlChar::getIntPropertyMaxValue
-»](intlchar.getintpropertymaxvalue.md)
+- [IntlChar::getIntPropertyMaxValue »](intlchar.getintpropertymaxvalue.md)
 
 - [PHP Manual](index.md)
 - [IntlChar](class.intlchar.md)

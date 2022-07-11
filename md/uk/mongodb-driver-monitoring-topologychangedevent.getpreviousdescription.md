@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription](mongodb-driver-monitoring-topologychangedevent.getnewdescription.md)
-- [MongoDB\Driver\Monitoring\TopologyChangedEvent::getTopologyId
-»](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md)
+- [« MongoDB\Driver\Monitoring\TopologyChangedEvent::getNewDescription](mongodb-driver-monitoring-topologychangedevent.getnewdescription.md)
+- [MongoDB\Driver\Monitoring\TopologyChangedEvent::getTopologyId »](mongodb-driver-monitoring-topologychangedevent.gettopologyid.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\TopologyChangedEvent](class.mongodb-driver-monitoring-topologychangedevent.md)

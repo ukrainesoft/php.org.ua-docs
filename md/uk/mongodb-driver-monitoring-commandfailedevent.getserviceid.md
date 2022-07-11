@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md)
-- [MongoDB\Driver\Monitoring\CommandStartedEvent
-»](class.mongodb-driver-monitoring-commandstartedevent.md)
+- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getServerConnectionId](mongodb-driver-monitoring-commandfailedevent.getserverconnectionid.md)
+- [MongoDB\Driver\Monitoring\CommandStartedEvent »](class.mongodb-driver-monitoring-commandstartedevent.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)

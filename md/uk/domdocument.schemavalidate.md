@@ -1,6 +1,5 @@
 - [« DOMDocument::saveXML](domdocument.savexml.md)
-- [DOMDocument::schemaValidateSource
-»](domdocument.schemavalidatesource.md)
+- [DOMDocument::schemaValidateSource »](domdocument.schemavalidatesource.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

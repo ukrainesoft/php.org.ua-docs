@@ -1,7 +1,5 @@
-- [«
-Componere\Definition::isRegistered](componere-definition.isregistered.md)
-- [Componere\Definition::getClosures
-»](componere-definition.getclosures.md)
+- [« Componere\Definition::isRegistered](componere-definition.isregistered.md)
+- [Componere\Definition::getClosures »](componere-definition.getclosures.md)
 
 - [PHP Manual](index.md)
 - [Componere\Definition](class.componere-definition.md)

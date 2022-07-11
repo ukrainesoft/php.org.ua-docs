@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.md)
+- [« CommonMark\Node\OrderedList::\_\_construct](commonmark-node-orderedlist.construct.md)
 - [CommonMark\Node\Text »](class.commonmark-node-text.md)
 
 - [PHP Manual](index.md)

@@ -42,8 +42,7 @@ Callback-функція ([callable](language.types.callable.md)), яка
 Дані користувача, які будуть передаватися в `cb`.
 
 `flags`
-Бітова маска із констант `EventListener::OPT_*`. Дивіться [константи
-EventListener](class.eventlistener.md#eventlistener.constants) .
+Бітова маска із констант `EventListener::OPT_*`. Дивіться [константи EventListener](class.eventlistener.md#eventlistener.constants) .
 
 `backlog`
 Встановлює максимальну кількість очікуваних з'єднань, якими,

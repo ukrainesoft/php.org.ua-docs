@@ -1,7 +1,5 @@
-- [«
-EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md)
-- [EventBufferEvent::sslRenegotiate
-»](eventbufferevent.sslrenegotiate.md)
+- [« EventBufferEvent::sslGetCipherVersion](eventbufferevent.sslgetcipherversion.md)
+- [EventBufferEvent::sslRenegotiate »](eventbufferevent.sslrenegotiate.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

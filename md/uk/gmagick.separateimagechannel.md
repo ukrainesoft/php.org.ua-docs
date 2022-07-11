@@ -1,6 +1,5 @@
 - [«Gmagick::scaleimage](gmagick.scaleimage.md)
-- [Gmagick::setCompressionQuality
-»](gmagick.setcompressionquality.md)
+- [Gmagick::setCompressionQuality »](gmagick.setcompressionquality.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

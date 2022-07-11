@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\Client::getsockname](swoole-coroutine-client.getsockname.md)
+- [« Swoole\Coroutine\Client::getsockname](swoole-coroutine-client.getsockname.md)
 - [Swoole\Coroutine\Client::recv »](swoole-coroutine-client.recv.md)
 
 - [PHP Manual](index.md)

@@ -64,6 +64,5 @@ cnu003dJohn Smith,ouu003dAccounts,ou003dMy Company,cu003dUS
 [» 4510](http://www.faqs.org/rfcs/rfcrfc4510) за
 [» 4519](http://www.faqs.org/rfcs/rfcrfc4519).
 
-Netscape SDK містить корисне [» Керівництво
-програміста](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide)
+Netscape SDK містить корисне [» Керівництво програміста](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide)
 у форматі HTML.

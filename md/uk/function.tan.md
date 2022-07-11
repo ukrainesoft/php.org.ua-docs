@@ -1,5 +1,5 @@
 - [«srand](function.srand.md)
-- [tanh »] (function.tanh.md)
+- [tanh »](function.tanh.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

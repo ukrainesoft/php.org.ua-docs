@@ -1,6 +1,5 @@
 - [« Locale::setDefault](locale.setdefault.md)
-- [Normalizer::getRawDecomposition
-»](normalizer.getrawdecomposition.md)
+- [Normalizer::getRawDecomposition »](normalizer.getrawdecomposition.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)
@@ -76,12 +75,9 @@ int `$form` u003d Normalizer::FORM_C): string\|false
 ## Дивіться також
 
 - [» Нормалізація Unicode](http://unicode.org/reports/tr15/)
-- [» Нормалізація Unicode.
-FAQ](http://unicode.org/faq/normalization.md)
-- [»  ICU Посібник користувача -
-нормалізація](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
-- [»  ICU Опис API -
-нормалізація](http://www.icu-project.org/apiref/icu4c/unorm_8h.md)
+- [» Нормалізація Unicode. FAQ](http://unicode.org/faq/normalization.md)
+- [»  ICU Посібник користувача - нормалізація](https://unicode-org.github.io/icu/userguide/transforms/normalization/)
+- [»  ICU Опис API - нормалізація](http://www.icu-project.org/apiref/icu4c/unorm_8h.md)
 
 ## Зміст
 

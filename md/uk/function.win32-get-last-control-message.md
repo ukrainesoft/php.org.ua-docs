@@ -33,8 +33,7 @@ SAPI цю функцію вимкнено.
 ### Значення, що повертаються
 
 Повертає керуючу константу, яка буде однією з [Констант
-повідомлень управління службою
-Win32Service](win32service.constants.servicecontrol.md):
+повідомлень управління службою Win32Service](win32service.constants.servicecontrol.md):
 **`WIN32_SERVICE_CONTROL_CONTINUE`**,
 **`WIN32_SERVICE_CONTROL_DEVICEEVENT`**,
 **`WIN32_SERVICE_CONTROL_HARDWAREPROFILECHANGE`**,
@@ -81,5 +80,4 @@ Win32Service](win32service.constants.servicecontrol.md):
 Визначає або повертає режим виходу для поточної запущеної служби
 - [win32_set_service_exit_code()](function.win32-set-service-exit-code.md) -
 Визначає чи повертає код виходу для поточної запущеної служби
-- [Константи повідомлень керування службою
-Win32Service](win32service.constants.servicecontrol.md)
+- [Константи повідомлень керування службою Win32Service](win32service.constants.servicecontrol.md)

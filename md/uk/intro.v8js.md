@@ -1,4 +1,4 @@
-- [« V8js] (book.v8js.md)
+- [« V8js](book.v8js.md)
 - [Встановлення та налаштування »](v8js.setup.md)
 
 - [PHP Manual](index.md)

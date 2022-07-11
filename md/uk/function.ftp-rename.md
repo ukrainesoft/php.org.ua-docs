@@ -1,5 +1,5 @@
 - [«ftp_rawlist](function.ftp-rawlist.md)
-- [ftp_rmdir »] (function.ftp-rmdir.md)
+- [ftp_rmdir »](function.ftp-rmdir.md)
 
 - [PHP Manual](index.md)
 - [Функції FTP](ref.ftp.md)

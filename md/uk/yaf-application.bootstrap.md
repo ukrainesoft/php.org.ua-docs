@@ -1,6 +1,5 @@
 - [« Yaf_Application::app](yaf-application.app.md)
-- [Yaf_Application::clearLastError
-»](yaf-application.clearlasterror.md)
+- [Yaf_Application::clearLastError »](yaf-application.clearlasterror.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

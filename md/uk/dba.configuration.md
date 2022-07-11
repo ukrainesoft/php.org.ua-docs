@@ -1,5 +1,5 @@
 - [« Установка](dba.installation.md)
-- [Типи ресурсів»] (dba.resources.md)
+- [Типи ресурсів»](dba.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](dba.setup.md)

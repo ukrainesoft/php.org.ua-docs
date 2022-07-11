@@ -1,5 +1,5 @@
 - [«fgetcsv](function.fgetcsv.md)
-- [fgetss»] (function.fgetss.md)
+- [fgetss»](function.fgetss.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

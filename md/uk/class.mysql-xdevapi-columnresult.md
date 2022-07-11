@@ -1,6 +1,5 @@
 - [« CollectionRemove::sort](mysql-xdevapi-collectionremove.sort.md)
-- [ColumnResult::\_\_construct
-»](mysql-xdevapi-columnresult.construct.md)
+- [ColumnResult::\_\_construct »](mysql-xdevapi-columnresult.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

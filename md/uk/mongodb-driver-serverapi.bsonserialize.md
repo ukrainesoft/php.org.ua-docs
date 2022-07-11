@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)
-- [MongoDB\Driver\ServerApi::\_\_construct
-»](mongodb-driver-serverapi.construct.md)
+- [MongoDB\Driver\ServerApi::\_\_construct »](mongodb-driver-serverapi.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)

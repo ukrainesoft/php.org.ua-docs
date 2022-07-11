@@ -1,5 +1,5 @@
 - [« Установка](taint.installation.md)
-- [Типи ресурсів»] (taint.resources.md)
+- [Типи ресурсів»](taint.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](taint.setup.md)

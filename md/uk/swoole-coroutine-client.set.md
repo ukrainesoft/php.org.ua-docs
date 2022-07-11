@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::sendto](swoole-coroutine-client.sendto.md)
-- [Swoole\Coroutine\Http\Client::addFile
-»](swoole-coroutine-http-client.addfile.md)
+- [« Swoole\Coroutine\Client::sendto](swoole-coroutine-client.sendto.md)
+- [Swoole\Coroutine\Http\Client::addFile »](swoole-coroutine-http-client.addfile.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

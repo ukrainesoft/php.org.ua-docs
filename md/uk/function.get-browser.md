@@ -97,8 +97,7 @@ Array
 
 > **Примітка**:
 >
-> Для цієї функції необхідно, щоб в установці
-> [browscap](misc.configuration.md#ini.browscap) у налаштуваннях
+> Для цієї функції необхідно, щоб в установці > [browscap](misc.configuration.md#ini.browscap) у налаштуваннях
 > `php.ini` було встановлено коректний шлях до файлу `browscap.ini` в
 > вашої системи.
 >

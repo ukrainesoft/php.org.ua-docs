@@ -1,5 +1,4 @@
-- [«
-openssl_pkey_export_to_file](function.openssl-pkey-export-to-file.md)
+- [« openssl_pkey_export_to_file](function.openssl-pkey-export-to-file.md)
 - [openssl_pkey_free »](function.openssl-pkey-free.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md)
+- [« Imagick::getImageColormapColor](imagick.getimagecolormapcolor.md)
 - [Imagick::getImageColorspace »](imagick.getimagecolorspace.md)
 
 - [PHP Manual](index.md)

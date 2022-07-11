@@ -1,5 +1,4 @@
-- [«
-UI\Controls\MultilineEntry::setText](ui-controls-multilineentry.settext.md)
+- [« UI\Controls\MultilineEntry::setText](ui-controls-multilineentry.settext.md)
 - [UI\Controls\Spin::\_\_construct »](ui-controls-spin.construct.md)
 
 - [PHP Manual](index.md)

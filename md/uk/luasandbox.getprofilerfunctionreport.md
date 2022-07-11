@@ -1,5 +1,4 @@
-- [«
-LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)
+- [« LuaSandbox::getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)
 - [LuaSandbox::getVersionInfo »](luasandbox.getversioninfo.md)
 
 - [PHP Manual](index.md)

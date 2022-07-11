@@ -1,6 +1,5 @@
 - [« Функції iconv](ref.iconv.md)
-- [iconv_mime_decode_headers
-»](function.iconv-mime-decode-headers.md)
+- [iconv_mime_decode_headers »](function.iconv-mime-decode-headers.md)
 
 - [PHP Manual](index.md)
 - [Функції iconv](ref.iconv.md)

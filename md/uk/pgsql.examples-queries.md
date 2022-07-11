@@ -1,5 +1,5 @@
 - [« Базове використання](pgsql.examples-basic.md)
-- [Функції PostgreSQL»] (ref.pgsql.md)
+- [Функції PostgreSQL»](ref.pgsql.md)
 
 - [PHP Manual](index.md)
 - [Приклади](pgsql.examples.md)

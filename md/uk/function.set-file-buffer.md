@@ -1,5 +1,5 @@
 - [«rmdir](function.rmdir.md)
-- [stat »] (function.stat.md)
+- [stat »](function.stat.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

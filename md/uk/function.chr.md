@@ -1,5 +1,5 @@
 - [«chop](function.chop.md)
-- [chunk_split »] (function.chunk-split.md)
+- [chunk_split »](function.chunk-split.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -74,7 +74,6 @@ aA
 
 - Опис формату `%c` функції [sprintf()](function.sprintf.md)
 - [ord()](function.ord.md)
-- [» Таблиця
-ASCII-кодів](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
+- [» Таблиця ASCII-кодів](https://www.man7.org/linux/man-pages/man7/ascii.7.md)
 - [mb_chr()](function.mb-chr.md)
 - [IntlChar::chr()](intlchar.chr.md)

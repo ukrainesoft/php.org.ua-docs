@@ -1,5 +1,4 @@
-- [«
-trader_linearreg_intercept](function.trader-linearreg-intercept.md)
+- [« trader_linearreg_intercept](function.trader-linearreg-intercept.md)
 - [trader_linearreg »](function.trader-linearreg.md)
 
 - [PHP Manual](index.md)

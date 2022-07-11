@@ -1,5 +1,5 @@
 - [«realpath_cache_size](function.realpath-cache-size.md)
-- [rename »] (function.rename.md)
+- [rename »](function.rename.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

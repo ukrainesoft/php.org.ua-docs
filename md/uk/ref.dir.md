@@ -1,5 +1,5 @@
 - [« Directory::rewind](directory.rewind.md)
-- [chdir »] (function.chdir.md)
+- [chdir »](function.chdir.md)
 
 - [PHP Manual](index.md)
 - [Каталоги](book.dir.md)

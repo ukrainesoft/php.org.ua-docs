@@ -1,5 +1,4 @@
-- [«
-streamWrapper::stream_metadata](streamwrapper.stream-metadata.md)
+- [« streamWrapper::stream_metadata](streamwrapper.stream-metadata.md)
 - [streamWrapper::stream_read »](streamwrapper.stream-read.md)
 
 - [PHP Manual](index.md)

@@ -2,7 +2,7 @@
 - [For Each »](com.examples.foreach.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Приклади
 
 # Приклади

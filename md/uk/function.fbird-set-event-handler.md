@@ -1,5 +1,5 @@
 - [«fbird_service_detach](function.fbird-service-detach.md)
-- [fbird_trans»] (function.fbird-trans.md)
+- [fbird_trans»](function.fbird-trans.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

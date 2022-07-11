@@ -1,5 +1,4 @@
-- [«
-SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md)
+- [« SolrDisMaxQuery::useDisMaxQueryParser](solrdismaxquery.usedismaxqueryparser.md)
 - [SolrCollapseFunction »](class.solrcollapsefunction.md)
 
 - [PHP Manual](index.md)

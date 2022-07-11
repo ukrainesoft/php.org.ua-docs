@@ -1,5 +1,5 @@
 - [«cubrid_current_oid](function.cubrid-current-oid.md)
-- [cubrid_drop »] (function.cubrid-drop.md)
+- [cubrid_drop »](function.cubrid-drop.md)
 
 - [PHP Manual](index.md)
 - [Функції CUBRID](ref.cubrid.md)

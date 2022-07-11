@@ -1,6 +1,5 @@
 - [« Yaf_View_Interface::assign](yaf-view-interface.assign.md)
-- [Yaf_View_Interface::getScriptPath
-»](yaf-view-interface.getscriptpath.md)
+- [Yaf_View_Interface::getScriptPath »](yaf-view-interface.getscriptpath.md)
 
 - [PHP Manual](index.md)
 - [Yaf_View_Interface](class.yaf-view-interface.md)

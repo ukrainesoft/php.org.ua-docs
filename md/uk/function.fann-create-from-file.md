@@ -1,6 +1,5 @@
 - [« fann_copy](function.fann-copy.md)
-- [fann_create_shortcut_array
-»](function.fann-create-shortcut-array.md)
+- [fann_create_shortcut_array »](function.fann-create-shortcut-array.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

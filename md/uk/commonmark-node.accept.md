@@ -1,6 +1,5 @@
 - [« CommonMark\Node::unlink](commonmark-node.unlink.md)
-- [CommonMark\Interfaces\IVisitor
-»](class.commonmark-interfaces-ivisitor.md)
+- [CommonMark\Interfaces\IVisitor »](class.commonmark-interfaces-ivisitor.md)
 
 - [PHP Manual](index.md)
 - [CommonMark\Node](class.commonmark-node.md)

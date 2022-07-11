@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ClientEncryption::\_\_construct](mongodb-driver-clientencryption.construct.md)
-- [MongoDB\Driver\ClientEncryption::decrypt
-»](mongodb-driver-clientencryption.decrypt.md)
+- [« MongoDB\Driver\ClientEncryption::\_\_construct](mongodb-driver-clientencryption.construct.md)
+- [MongoDB\Driver\ClientEncryption::decrypt »](mongodb-driver-clientencryption.decrypt.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
@@ -35,8 +33,7 @@ final public **MongoDB\Driver\ClientEncryption::createDataKey**(string
 
 ### Значення, що повертаються
 
-Повертає ідентифікатор нового ключа як об'єкт
-[MongoDB\BSON\Binary](class.mongodb-bson-binary.md) з підтипом 4
+Повертає ідентифікатор нового ключа як об'єкт [MongoDB\BSON\Binary](class.mongodb-bson-binary.md) з підтипом 4
 (UUID).
 
 ### Помилки

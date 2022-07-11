@@ -1,5 +1,5 @@
 - [« preg_last_error](function.preg-last-error.md)
-- [preg_match »] (function.preg-match.md)
+- [preg_match »](function.preg-match.md)
 
 - [PHP Manual](index.md)
 - [Функції PCRE](ref.pcre.md)
@@ -262,8 +262,7 @@ Array
 )
 
 ### Дивіться також
-
-- [Регулярні висловлювання PCRE](pcre.pattern.md)
+ - [Регулярні висловлювання PCRE](pcre.pattern.md)
 - [preg_quote()](function.preg-quote.md) - Екранує символи в
 регулярних виразах
 - [preg_match()](function.preg-match.md) - Виконує перевірку на

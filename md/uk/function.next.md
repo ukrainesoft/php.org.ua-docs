@@ -1,5 +1,5 @@
-- [« natsort] (function.natsort.md)
-- [pos »] (function.pos.md)
+- [« natsort](function.natsort.md)
+- [pos »](function.pos.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)
@@ -37,9 +37,7 @@ next - Переміщує покажчик масиву вперед на оди
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін

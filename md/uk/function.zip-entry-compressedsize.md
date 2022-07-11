@@ -1,6 +1,5 @@
 - [«zip_entry_close](function.zip-entry-close.md)
-- [zip_entry_compressionmethod
-»](function.zip-entry-compressionmethod.md)
+- [zip_entry_compressionmethod »](function.zip-entry-compressionmethod.md)
 
 - [PHP Manual](index.md)
 - [Функції Zip](ref.zip.md)

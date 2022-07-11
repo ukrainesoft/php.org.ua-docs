@@ -1,4 +1,4 @@
-- [« Swoole \ MySQL \ Exception] (class.swoole-mysql-exception.md)
+- [« Swoole \ MySQL \ Exception](class.swoole-mysql-exception.md)
 - [Swoole\Process::alarm »](swoole-process.alarm.md)
 
 - [PHP Manual](index.md)

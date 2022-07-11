@@ -9,8 +9,7 @@
 
 Модуль FANN має працювати на будь-яких дистрибутивах Linux.
 
-- [Встановлення бібліотеки
-FANN](fann.installation.md#fann.installation.lib)
+- [Встановлення бібліотеки FANN](fann.installation.md#fann.installation.lib)
 - [Встановлення з PECL](fann.installation.md#fann.installation.pecl)
 - [Ручне встановлення](fann.installation.md#fann.installation.manual)
 
@@ -22,8 +21,7 @@ FANN](fann.installation.md#fann.installation.lib)
 версія для розробників.
 
 Якщо вона не встановлена, то вам все-таки доведеться її встановити. Можете
-встановити її з репозиторію ОС чи завантажити з [» офіційного
-сайту](http://leenissen.dk/fann/wp/). Наприклад для Fedora:
+встановити її з репозиторію ОС чи завантажити з [» офіційного сайту](http://leenissen.dk/fann/wp/). Наприклад для Fedora:
 
 
 $ sudo yum install fann-devel

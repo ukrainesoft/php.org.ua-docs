@@ -1,9 +1,8 @@
 - [« Навчання XOR](fann.examples-1.md)
-- [fann_cascadetrain_on_data
-»](function.fann-cascadetrain-on-data.md)
+- [fann_cascadetrain_on_data »](function.fann-cascadetrain-on-data.md)
 
 - [PHP Manual](index.md)
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 - Функції Fann
 
 # Функції Fann

@@ -1,7 +1,5 @@
-- [«
-CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.md)
-- [CollectionModify::\_\_construct
-»](mysql-xdevapi-collectionmodify.construct.md)
+- [« CollectionModify::arrayInsert](mysql-xdevapi-collectionmodify.arrayinsert.md)
+- [CollectionModify::\_\_construct »](mysql-xdevapi-collectionmodify.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)

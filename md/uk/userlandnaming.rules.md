@@ -1,5 +1,4 @@
-- [« Глобальний простір
-імен](userlandnaming.globalnamespace.md)
+- [« Глобальний простір імен](userlandnaming.globalnamespace.md)
 - [Поради »](userlandnaming.tips.md)
 
 - [PHP Manual](index.md)
@@ -10,8 +9,7 @@
 
 Наступний перелік правил дає огляд прав назви, які проект PHP
 залишає собі під час виборів нових ідентифікаторів. Повним керівництвом
-є офіційний "[» Стандарт написання
-коду](https://github.com/php/php-src/raw/master/CODING_STANDARDS.md)":
+є офіційний "[» Стандарт написання коду](https://github.com/php/php-src/raw/master/CODING_STANDARDS.md)":
 
 - PHP володіє глобальним простором імен, але намагається шукати
 хороші описові імена та уникати будь-яких очевидних колізій.

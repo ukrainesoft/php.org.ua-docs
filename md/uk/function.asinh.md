@@ -1,5 +1,5 @@
 - [«asin](function.asin.md)
-- [atan2 »] (function.atan2.md)
+- [atan2 »](function.atan2.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.md)
-- [SqlStatementResult::getLastInsertId
-»](mysql-xdevapi-sqlstatementresult.getlastinsertid.md)
+- [« SqlStatementResult::getColumns](mysql-xdevapi-sqlstatementresult.getcolumns.md)
+- [SqlStatementResult::getLastInsertId »](mysql-xdevapi-sqlstatementresult.getlastinsertid.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

@@ -1,7 +1,5 @@
-- [«
-SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.md)
-- [SqlStatementResult::\_\_construct
-»](mysql-xdevapi-sqlstatementresult.construct.md)
+- [« SqlStatement::hasMoreResults](mysql-xdevapi-sqlstatement.hasmoreresults.md)
+- [SqlStatementResult::\_\_construct »](mysql-xdevapi-sqlstatementresult.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

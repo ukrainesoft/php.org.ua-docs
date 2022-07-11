@@ -1,5 +1,5 @@
 - [«Зумовлені константи](mbstring.constants.md)
-- [Основи японських багатобайтних кодувань»] (mbstring.ja-basic.md)
+- [Основи японських багатобайтних кодувань»](mbstring.ja-basic.md)
 
 - [PHP Manual](index.md)
 - [Багатобайтові рядки](book.mbstring.md)

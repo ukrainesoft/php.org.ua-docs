@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.md)
-- [MongoDB\Driver\Manager::getReadPreference
-»](mongodb-driver-manager.getreadpreference.md)
+- [« MongoDB\Driver\Manager::getEncryptedFieldsMap](mongodb-driver-manager.getencryptedfieldsmap.md)
+- [MongoDB\Driver\Manager::getReadPreference »](mongodb-driver-manager.getreadpreference.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

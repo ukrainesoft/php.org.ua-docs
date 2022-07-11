@@ -1,5 +1,5 @@
 - [«mb_regex_set_options](function.mb-regex-set-options.md)
-- [mb_send_mail »] (function.mb-send-mail.md)
+- [mb_send_mail »](function.mb-send-mail.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

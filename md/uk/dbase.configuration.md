@@ -1,5 +1,5 @@
 - [« Установка](dbase.installation.md)
-- [Типи ресурсів»] (dbase.resources.md)
+- [Типи ресурсів»](dbase.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](dbase.setup.md)

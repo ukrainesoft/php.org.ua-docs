@@ -1,5 +1,5 @@
 - [« trader_linearreg](function.trader-linearreg.md)
-- [trader_log10 »] (function.trader-log10.md)
+- [trader_log10 »](function.trader-log10.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

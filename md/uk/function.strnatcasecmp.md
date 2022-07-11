@@ -21,8 +21,7 @@ strnatcasecmp — Порівняння рядків без урахування 
 алфавітно-цифрові рядки подібно до того, як це зробив би людина. Ця
 функція подібна до [strnatcmp()](function.strnatcmp.md), за винятком
 те, що порівняння відбувається без урахування регістру символів. Для
-отримання додаткової інформації дивіться [Natural Order String
-Comparison](https://github.com/sourcefrog/natsort).
+отримання додаткової інформації дивіться [Natural Order String Comparison](https://github.com/sourcefrog/natsort).
 
 ### Список параметрів
 

@@ -1,5 +1,5 @@
 - [« Встановлення](svn.installation.md)
-- [Типи ресурсів»] (svn.resources.md)
+- [Типи ресурсів»](svn.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](svn.setup.md)

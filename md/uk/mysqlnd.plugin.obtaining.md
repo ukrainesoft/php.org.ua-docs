@@ -1,7 +1,5 @@
-- [« Порівняння плагінів mysqlnd з MySQL
-Proxy](mysqlnd.plugin.mysql-proxy.md)
-- [Архітектура плагінів MySQL Native Driver
-»](mysqlnd.plugin.architecture.md)
+- [« Порівняння плагінів mysqlnd з MySQL Proxy](mysqlnd.plugin.mysql-proxy.md)
+- [Архітектура плагінів MySQL Native Driver »](mysqlnd.plugin.architecture.md)
 
 - [PHP Manual](index.md)
 - [API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)

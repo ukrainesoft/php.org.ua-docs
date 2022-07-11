@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md)
-- [ImagickDraw::pathCurveToSmoothRelative
-»](imagickdraw.pathcurvetosmoothrelative.md)
+- [« ImagickDraw::pathCurveToRelative](imagickdraw.pathcurvetorelative.md)
+- [ImagickDraw::pathCurveToSmoothRelative »](imagickdraw.pathcurvetosmoothrelative.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

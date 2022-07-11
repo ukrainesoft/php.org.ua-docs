@@ -2,8 +2,7 @@
 - [Постійні дані »](mongodb.persistence.md)
 
 - [PHP Manual](index.md)
-- [Архітектура та внутрішній пристрій
-драйвера](mongodb.architecture.md)
+- [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md)
 - Обробка з'єднання та сталість
 
 # Обробка з'єднання та сталість
@@ -34,16 +33,14 @@
 представлення топології сервера (наприклад, автономний, набір реплік,
 кластер сегментів). Зберігаючи клієнт між запитами PHP, драйвер може
 повторно використовувати встановлені підключення до бази даних та
-усувати необхідність [» виявлення топології
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+усувати необхідність [» виявлення топології сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
 при кожному запиті.
 
 Розглянемо наступний приклад:
 
 `<?php$managers u003d [   new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    ('mongodb://127.0.0.1:27017'),   new MongoDB\Driver\Manager('mongodb://rs1.example.com,rs2.example.com/', ['replicaSet' u003d> 'myReplicaSet'] ),];foreach ($managers as $manager) {   $manager->executeCommand('test', new MongoDB\Driver\Command(['ping' u003d> 1]));}?> `
 
-Перші два об'єкти Manager будуть використовувати один і той самий клієнт
-[» libmongoc](https://github.com/mongodb/mongo-c-driver), оскільки їх
+Перші два об'єкти Manager будуть використовувати один і той самий клієнт [» libmongoc](https://github.com/mongodb/mongo-c-driver), оскільки їх
 аргументи конструктора ідентичні. Третій та четвертий об'єкти будуть
 використовувати кожний свій клієнт. Всього буде створено три клієнти, та
 процес PHP, що виконує цей скрипт, відкриє два з'єднання
@@ -69,8 +66,7 @@ libmongoc створюється для кожного
 в результаті драйвер зберігає окремі з'єднання з базою даних, але не
 інформацію про стан автентифікації чи топології. Це означає, що
 драйвер повинен видавати команди на початку кожного запиту для перевірки
-справжності та [» виявлення топології
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
+справжності та [» виявлення топології сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
 
 З'єднання з базою даних зберігаються за допомогою хеша, отриманого з
 хоста, порту та рядки URI сервера, що використовується для побудови
@@ -83,6 +79,5 @@ libmongoc створюється для кожного
 > Додаткову інформацію.
 
 Незважаючи на недоліки, пов'язані зі збереженням з'єднань SSL та
-інформацією про топологію, ця версія драйвера підтримує всі [параметри
-контексту SSL](context.ssl.md), оскільки використовує PHP's Streams
+інформацією про топологію, ця версія драйвера підтримує всі [параметри контексту SSL](context.ssl.md), оскільки використовує PHP's Streams
 API.

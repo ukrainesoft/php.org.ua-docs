@@ -1,5 +1,5 @@
 - [« svn_fs_youngest_rev](function.svn-fs-youngest-rev.md)
-- [svn_log »] (function.svn-log.md)
+- [svn_log »](function.svn-log.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)
@@ -65,5 +65,4 @@ PHP без попередження. Використовуйте цю функ�
 
 - [svn_add()](function.svn-add.md) - Додає елементи до списку
 запланованих для додавання до робочої копії
-- [» SVN-документація з svn
-import](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.import.md)
+- [» SVN-документація з svn import](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.import.md)

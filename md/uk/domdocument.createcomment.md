@@ -1,7 +1,5 @@
-- [«
-DOMDocument::createCDATASection](domdocument.createcdatasection.md)
-- [DOMDocument::createDocumentFragment
-»](domdocument.createdocumentfragment.md)
+- [« DOMDocument::createCDATASection](domdocument.createcdatasection.md)
+- [DOMDocument::createDocumentFragment »](domdocument.createdocumentfragment.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

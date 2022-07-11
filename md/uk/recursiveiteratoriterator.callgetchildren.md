@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md)
-- [RecursiveIteratorIterator::callHasChildren
-»](recursiveiteratoriterator.callhaschildren.md)
+- [« RecursiveIteratorIterator::beginIteration](recursiveiteratoriterator.beginiteration.md)
+- [RecursiveIteratorIterator::callHasChildren »](recursiveiteratoriterator.callhaschildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

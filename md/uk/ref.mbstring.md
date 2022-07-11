@@ -1,5 +1,4 @@
-- [« Вимоги, що пред'являються до кодувань символів
-PHP](mbstring.php4.req.md)
+- [« Вимоги, що пред'являються до кодувань символів PHP](mbstring.php4.req.md)
 - [mb_check_encoding »](function.mb-check-encoding.md)
 
 - [PHP Manual](index.md)

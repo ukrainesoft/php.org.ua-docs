@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::isSecondary](mongodb-driver-server.issecondary.md)
-- [MongoDB\Driver\ServerDescription::getHelloResponse
-»](mongodb-driver-serverdescription.gethelloresponse.md)
+- [« MongoDB\Driver\Server::isSecondary](mongodb-driver-server.issecondary.md)
+- [MongoDB\Driver\ServerDescription::getHelloResponse »](mongodb-driver-serverdescription.gethelloresponse.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

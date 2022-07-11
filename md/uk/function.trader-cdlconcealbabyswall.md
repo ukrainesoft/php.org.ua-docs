@@ -1,5 +1,4 @@
-- [«
-trader_cdlclosingmarubozu](function.trader-cdlclosingmarubozu.md)
+- [« trader_cdlclosingmarubozu](function.trader-cdlclosingmarubozu.md)
 - [trader_cdlcounterattack »](function.trader-cdlcounterattack.md)
 
 - [PHP Manual](index.md)

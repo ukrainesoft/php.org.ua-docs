@@ -1,5 +1,5 @@
 - [« Встановлення](pcntl.installation.md)
-- [Типи ресурсів»] (pcntl.resources.md)
+- [Типи ресурсів»](pcntl.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](pcntl.setup.md)

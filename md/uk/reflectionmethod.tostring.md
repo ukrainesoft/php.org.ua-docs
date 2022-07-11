@@ -1,5 +1,4 @@
-- [«
-ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)
+- [« ReflectionMethod::setAccessible](reflectionmethod.setaccessible.md)
 - [ReflectionNamedType »](class.reflectionnamedtype.md)
 
 - [PHP Manual](index.md)

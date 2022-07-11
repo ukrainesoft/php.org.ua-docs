@@ -1,5 +1,4 @@
-- [« Функції, які не будуть обробляти зіпсовану
-рядок](taint.detail.untaint.md)
+- [« Функції, які не будуть обробляти зіпсовану рядок](taint.detail.untaint.md)
 - [is_tainted »](function.is-tainted.md)
 
 - [PHP Manual](index.md)

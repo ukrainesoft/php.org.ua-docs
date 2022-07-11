@@ -1,6 +1,5 @@
 - [«MessageFormatter](class.messageformatter.md)
-- [MessageFormatter::formatMessage
-»](messageformatter.formatmessage.md)
+- [MessageFormatter::formatMessage »](messageformatter.formatmessage.md)
 
 - [PHP Manual](index.md)
 - [MessageFormatter](class.messageformatter.md)

@@ -1,5 +1,4 @@
-- [«
-Collection::existsInDatabase](mysql-xdevapi-collection.existsindatabase.md)
+- [« Collection::existsInDatabase](mysql-xdevapi-collection.existsindatabase.md)
 - [Collection::getName »](mysql-xdevapi-collection.getname.md)
 
 - [PHP Manual](index.md)

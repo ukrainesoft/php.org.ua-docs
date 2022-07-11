@@ -2,7 +2,7 @@
 - [Phar::addEmptyDir »](phar.addemptydir.md)
 
 - [PHP Manual](index.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - Клас Phar
 
 # Клас Phar
@@ -111,8 +111,7 @@ array\|string\|null `$files` u003d **`null`**, bool `$overwrite` u003d
 public [getAlias](phar.getalias.md)(): ?string
 
 public [getMetadata](phar.getmetadata.md)(array `$unserializeOptions`
-u003d \[\]):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+u003d []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getModified](phar.getmodified.md)(): bool
 
@@ -198,8 +197,7 @@ final public static [webPhar](phar.webphar.md)(
 ?string `$alias` u003d **`null`**,
 ?string `$index` u003d **`null`**,
 ?string `$fileNotFoundScript` u003d **`null`**,
-array `$mimeTypes` u003d \[\],
-?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
+array `$mimeTypes` u003d [], ?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
 ): void
 
 public [\_\_destruct](phar.destruct.md)()

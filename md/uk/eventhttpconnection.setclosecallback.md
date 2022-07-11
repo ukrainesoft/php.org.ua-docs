@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::makeRequest](eventhttpconnection.makerequest.md)
-- [EventHttpConnection::setLocalAddress
-»](eventhttpconnection.setlocaladdress.md)
+- [« EventHttpConnection::makeRequest](eventhttpconnection.makerequest.md)
+- [EventHttpConnection::setLocalAddress »](eventhttpconnection.setlocaladdress.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

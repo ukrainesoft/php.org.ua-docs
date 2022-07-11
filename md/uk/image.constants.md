@@ -2,7 +2,7 @@
 - [Приклади »](image.examples.md)
 
 - [PHP Manual](index.md)
-- [GD] (book.image.md)
+- [GD](book.image.md)
 - Обумовлені константи
 
 # Зумовлені константи

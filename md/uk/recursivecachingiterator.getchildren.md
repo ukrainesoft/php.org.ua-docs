@@ -1,7 +1,5 @@
-- [«
-RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.md)
-- [RecursiveCachingIterator::hasChildren
-»](recursivecachingiterator.haschildren.md)
+- [« RecursiveCachingIterator::\_\_construct](recursivecachingiterator.construct.md)
+- [RecursiveCachingIterator::hasChildren »](recursivecachingiterator.haschildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveCachingIterator](class.recursivecachingiterator.md)

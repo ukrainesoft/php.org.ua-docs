@@ -25,8 +25,7 @@ public **MultipleIterator::setFlags**(int `$flags`): void
 ### Список параметрів
 
 `flags`
-Прапори для установки, відповідно до [Предвизначеним
-константам](class.multipleiterator.md#multipleiterator.constants)
+Прапори для установки, відповідно до [Предвизначеним константам](class.multipleiterator.md#multipleiterator.constants)
 
 ### Значення, що повертаються
 
@@ -34,8 +33,7 @@ public **MultipleIterator::setFlags**(int `$flags`): void
 
 ### Дивіться також
 
-- [Предвизначені
-константи](class.multipleiterator.md#multipleiterator.constants)
+- [Предвизначені константи](class.multipleiterator.md#multipleiterator.constants)
 - [MultipleIterator::\_\_construct()](multipleiterator.construct.md) -
 Створює новий MultipleIterator
 - [MultipleIterator::getFlags()](multipleiterator.getflags.md) -

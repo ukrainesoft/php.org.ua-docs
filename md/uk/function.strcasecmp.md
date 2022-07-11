@@ -1,5 +1,5 @@
 - [«str_word_count](function.str-word-count.md)
-- [strchr »] (function.strchr.md)
+- [strchr »](function.strchr.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

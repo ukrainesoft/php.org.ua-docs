@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.md)
+- [« SolrQuery::getMltMinTermFrequency](solrquery.getmltmintermfrequency.md)
 - [SolrQuery::getMltQueryFields »](solrquery.getmltqueryfields.md)
 
 - [PHP Manual](index.md)

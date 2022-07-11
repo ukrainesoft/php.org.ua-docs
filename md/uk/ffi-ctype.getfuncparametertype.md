@@ -1,5 +1,4 @@
-- [«
-FFI\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.md)
+- [« FFI\CType::getFuncParameterCount](ffi-ctype.getfuncparametercount.md)
 - [FFI\CType::getFuncReturnType »](ffi-ctype.getfuncreturntype.md)
 
 - [PHP Manual](index.md)

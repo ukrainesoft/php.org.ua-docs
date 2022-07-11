@@ -1,6 +1,5 @@
 - [« Yaf_Config_Ini::valid](yaf-config-ini.valid.md)
-- [Yaf_Config_Simple::\_\_construct
-»](yaf-config-simple.construct.md)
+- [Yaf_Config_Simple::\_\_construct »](yaf-config-simple.construct.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

@@ -1,5 +1,5 @@
 - [«log10](function.log10.md)
-- [log »] (function.log.md)
+- [log »](function.log.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

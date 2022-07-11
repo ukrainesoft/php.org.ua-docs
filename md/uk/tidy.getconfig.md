@@ -2,7 +2,7 @@
 - [tidy::getHtmlVer »](tidy.gethtmlver.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Отримує поточну конфігурацію Tidy
 
 # tidy::getConfig

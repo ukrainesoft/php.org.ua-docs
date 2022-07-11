@@ -2,8 +2,7 @@
 - [Вступ »](intro.ibm-db2.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - IBM DB2, Cloudscape та Apache Derby
 
 # IBM DB2, Cloudscape та Apache Derby

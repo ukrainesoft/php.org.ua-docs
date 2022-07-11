@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
+- [« MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
 - [MongoDB\BSON\Binary::getType »](mongodb-bson-binary.gettype.md)
 
 - [PHP Manual](index.md)
@@ -41,5 +40,4 @@ string(3) "foo"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

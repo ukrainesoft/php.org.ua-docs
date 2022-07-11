@@ -7,7 +7,7 @@
 
 # Модулі для роботи з пошуковими системами
 
-- [Solr] (book.solr.md) - Apache Solr
+- [Solr](book.solr.md) - Apache Solr
 - [Вступ](intro.solr.md)
 - [Встановлення та налаштування](solr.setup.md)
 - [Предвизначені константи](solr.constants.md)

@@ -1,5 +1,5 @@
 - [« Установка](yaf.installation.md)
-- [Типи ресурсів»] (yaf.resources.md)
+- [Типи ресурсів»](yaf.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](yaf.setup.md)

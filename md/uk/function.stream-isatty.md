@@ -1,6 +1,5 @@
 - [«stream_is_local](function.stream-is-local.md)
-- [stream_notification_callback
-»](function.stream-notification-callback.md)
+- [stream_notification_callback »](function.stream-notification-callback.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

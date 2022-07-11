@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed
-»](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverOpening](mongodb-driver-monitoring-sdamsubscriber.serveropening.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::topologyClosed »](mongodb-driver-monitoring-sdamsubscriber.topologyclosed.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)

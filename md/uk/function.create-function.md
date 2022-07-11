@@ -1,6 +1,5 @@
 - [«call_user_func](function.call-user-func.md)
-- [forward_static_call_array
-»](function.forward-static-call-array.md)
+- [forward_static_call_array »](function.forward-static-call-array.md)
 
 - [PHP Manual](index.md)
 - [Функції керування функціями](ref.funchand.md)
@@ -36,10 +35,8 @@ create_function — Створює функцію динамічно, оціню
 
 ### Список параметрів
 
-Зазвичай рекомендується передавати параметри у вигляді рядків [з одинарним
-лапкою](language.types.string.md#language.types.string.syntax.single).
-При використанні рядків [з подвійним
-лапкою](language.types.string.md#language.types.string.syntax.double)
+Зазвичай рекомендується передавати параметри у вигляді рядків [з одинарним лапкою](language.types.string.md#language.types.string.syntax.single).
+При використанні рядків [з подвійним лапкою](language.types.string.md#language.types.string.syntax.double)
 імена змінних у коді повинні бути ретельно екрановані, наприклад,
 ось так: `\$ somevar`.
 
@@ -68,8 +65,7 @@ create_function — Створює функцію динамічно, оціню
 ` <?php$newfunc u003d create_function('$a,$b', 'return "ln($a) + ln($b) u003d " . log($a * $b);');echo $newfunc( 2, M_E) . "
 ";?> `
 
-Тепер той самий код, використовуючи [анонімну
-функцію](functions.anonymous.md); зверніть увагу, що код і
+Тепер той самий код, використовуючи [анонімну функцію](functions.anonymous.md); зверніть увагу, що код і
 аргументи більше не містяться у рядках:
 
 ` <?php$newfunc u003d function($a,$b) { return "ln($a) + ln($b) u003d " . log($a * $b); };echo $newfunc(2, M_E) . "
@@ -94,8 +90,7 @@ ln(2) + ln(2.718281828459) u003d 1.6931471805599
 Використання другого масиву динамічних функцій
 ";process("Варкалося. Хливі шорьки піралися за наве", "Варан повзе", $garr);?> `
 
-І знову, той же код з використанням [анонімних
-функцій] (functions.anonymous.md). Зверніть увагу, що імена
+І знову, той же код з використанням [анонімних функцій](functions.anonymous.md). Зверніть увагу, що імена
 змінних у коді більше не потрібно екранувати, оскільки вони не
 укладено у рядок.
 
@@ -134,8 +129,7 @@ callback-функцій**
 
 ` <?php$av u003d array("the ", "a ", "that ", "this ");array_walk($av, create_function('&$v,$k', '$v u003d $v . ") mango";'));print_r($av);?> `
 
-Перетворення наведеного вище коду на [анонімну
-функцію](functions.anonymous.md):
+Перетворення наведеного вище коду на [анонімну функцію](functions.anonymous.md):
 
 ` <?php$av u003d array("о, ", "ех, ", "то ", "це ");array_walk($av, create_function('&$v,$k', '$v u003d $v . "манго";'));print_r($av);?> `
 
@@ -156,8 +150,7 @@ Array
 ";print_r($sv);echo "Відсортований:
 ";usort($sv, create_function('$a,$b','return strlen($b) - strlen($a);'));print_r($sv);?> `
 
-Перетворення наведеного вище коду на [анонімну
-функцію](functions.anonymous.md):
+Перетворення наведеного вище коду на [анонімну функцію](functions.anonymous.md):
 
 ` <?php$sv u003d array("мало", "багато", "великий рядок", "рядок рядок рядок");echo "Оригінальний масив:
 ";print_r($sv);echo "Відсортований:
@@ -183,5 +176,4 @@ Array
 )
 
 ### Дивіться також
-
-- [Анонімні функції](functions.anonymous.md)
+ - [Анонімні функції](functions.anonymous.md)

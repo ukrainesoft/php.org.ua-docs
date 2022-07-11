@@ -1,5 +1,4 @@
-- [«
-NumberFormatter::formatCurrency](numberformatter.formatcurrency.md)
+- [« NumberFormatter::formatCurrency](numberformatter.formatcurrency.md)
 - [NumberFormatter::getAttribute »](numberformatter.getattribute.md)
 
 - [PHP Manual](index.md)
@@ -41,8 +40,7 @@ NumberFormatter::TYPE_DEFAULT): string\|false
 значення.
 
 `type`
-Використовуваний [тип
-форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
+Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
 
 ### Значення, що повертаються
 

@@ -1,5 +1,5 @@
 - [« Встановлення](xmlreader.installation.md)
-- [Типи ресурсів»] (xmlreader.resources.md)
+- [Типи ресурсів»](xmlreader.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xmlreader.setup.md)

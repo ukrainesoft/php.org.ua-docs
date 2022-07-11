@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::getType](mongodb-driver-server.gettype.md)
-- [MongoDB\Driver\Server::isHidden
-»](mongodb-driver-server.ishidden.md)
+- [« MongoDB\Driver\Server::getType](mongodb-driver-server.gettype.md)
+- [MongoDB\Driver\Server::isHidden »](mongodb-driver-server.ishidden.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

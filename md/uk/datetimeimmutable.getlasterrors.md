@@ -1,5 +1,4 @@
-- [«
-DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md)
+- [« DateTimeImmutable::createFromMutable](datetimeimmutable.createfrommutable.md)
 - [DateTimeImmutable::modify »](datetimeimmutable.modify.md)
 
 - [PHP Manual](index.md)

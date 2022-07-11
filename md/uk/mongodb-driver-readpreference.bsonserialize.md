@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-- [MongoDB\Driver\ReadPreference::\_\_construct
-»](mongodb-driver-readpreference.construct.md)
+- [« MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
+- [MongoDB\Driver\ReadPreference::\_\_construct »](mongodb-driver-readpreference.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -105,5 +103,4 @@ int(120)
 
 - [MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) -
 Надає масив або документ для серіалізації у BSON
-- [» Довідкова інформація за перевагою
-читання](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [» Довідкова інформація за перевагою читання](https://www.mongodb.com/docs/manual/core/read-preference/)

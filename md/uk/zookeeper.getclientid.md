@@ -46,6 +46,5 @@ public **Zookeeper::getClientId**(): int
 для спілкування з zookeeper
 - [Zookeeper::getState()](zookeeper.getstate.md) - Отримує
 стан з'єднання zookeeper
-- [Стани
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
+- [Стани ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
 - [ZookeeperException](class.zookeeperexception.md)

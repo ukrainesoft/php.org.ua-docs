@@ -2,7 +2,7 @@
 - [Ev::backend »](ev.backend.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас Ev
 
 # Клас Ev
@@ -285,8 +285,7 @@ API передає сигнали синхронно, що робить його
 статися через некоректний запуск спостерігача, тому що `libev`
 вичерпав ліміт по пам'яті, через закритий дескриптор файлу або по
 будь-якої ще причини. `Libev` вважає, що ці помилки програми.
-Також читайте розділ [» АНАТОМІЯ
-СПОСТЕРІГАЧІВ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#ANATOMY_OF_A_WATCHER_CONTENT)
+Також читайте розділ [» АНАТОМІЯ СПОСТЕРІГАЧІВ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#ANATOMY_OF_A_WATCHER_CONTENT)
 
 Прапори бекенда:
 

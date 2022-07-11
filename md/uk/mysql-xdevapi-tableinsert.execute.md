@@ -1,5 +1,4 @@
-- [«
-TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.md)
+- [« TableInsert::\_\_construct](mysql-xdevapi-tableinsert.construct.md)
 - [TableInsert::values »](mysql-xdevapi-tableinsert.values.md)
 
 - [PHP Manual](index.md)

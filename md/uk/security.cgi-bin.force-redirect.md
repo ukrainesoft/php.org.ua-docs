@@ -1,7 +1,5 @@
-- [« Варіант 1: обслуговуються лише загальнодоступні
-файли](security.cgi-bin.default.md)
-- [Варіант 3: використання опцій doc_root чи user_dir
-»](security.cgi-bin.doc-root.md)
+- [« Варіант 1: обслуговуються лише загальнодоступні файли](security.cgi-bin.default.md)
+- [Варіант 3: використання опцій doc_root чи user_dir »](security.cgi-bin.doc-root.md)
 
 - [PHP Manual](index.md)
 - [Якщо PHP встановлено як CGI](security.cgi-bin.md)

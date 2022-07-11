@@ -1,5 +1,5 @@
 - [«jdmonthname](function.jdmonthname.md)
-- [jdtogregorian »] (function.jdtogregorian.md)
+- [jdtogregorian »](function.jdtogregorian.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

@@ -1,6 +1,5 @@
 - [« Imagick::floodFillPaintImage](imagick.floodfillpaintimage.md)
-- [Imagick::forwardFourierTransformImage
-»](imagick.forwardfouriertransformimage.md)
+- [Imagick::forwardFourierTransformImage »](imagick.forwardfouriertransformimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

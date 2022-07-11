@@ -1,8 +1,8 @@
 - [« PDO::pgsqlLOBOpen](pdo.pgsqllobopen.md)
-- [SQLite (PDO) »] (ref.pdo-sqlite.md)
+- [SQLite (PDO) »](ref.pdo-sqlite.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Видалити великий об'єкт
 
 # PDO::pgsqlLOBUnlink

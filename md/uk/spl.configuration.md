@@ -1,5 +1,5 @@
 - [« Установка](spl.installation.md)
-- [Типи ресурсів»] (spl.resources.md)
+- [Типи ресурсів»](spl.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](spl.setup.md)

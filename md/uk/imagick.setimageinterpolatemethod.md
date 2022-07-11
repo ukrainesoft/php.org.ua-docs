@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md)
+- [« Imagick::setImageInterlaceScheme](imagick.setimageinterlacescheme.md)
 - [Imagick::setImageIterations »](imagick.setimageiterations.md)
 
 - [PHP Manual](index.md)

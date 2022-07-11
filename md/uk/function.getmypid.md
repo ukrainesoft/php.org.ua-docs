@@ -1,5 +1,5 @@
 - [«getmyinode](function.getmyinode.md)
-- [getmyuid »] (function.getmyuid.md)
+- [getmyuid »](function.getmyuid.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

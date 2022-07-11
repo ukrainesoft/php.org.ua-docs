@@ -1,5 +1,5 @@
 - [« Опції PHP/інформаційні функції](ref.info.md)
-- [assert »] (function.assert.md)
+- [assert »](function.assert.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

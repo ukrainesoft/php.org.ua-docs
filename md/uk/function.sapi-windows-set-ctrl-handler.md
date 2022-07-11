@@ -1,7 +1,5 @@
-- [«
-sapi_windows_generate_ctrl_event](function.sapi-windows-generate-ctrl-event.md)
-- [sapi_windows_vt100_support
-»](function.sapi-windows-vt100-support.md)
+- [« sapi_windows_generate_ctrl_event](function.sapi-windows-generate-ctrl-event.md)
+- [sapi_windows_vt100_support »](function.sapi-windows-vt100-support.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

@@ -1,7 +1,5 @@
-- [«
-UI\Controls\ColorButton::setColor](ui-controls-colorbutton.setcolor.md)
-- [UI\Controls\Label::\_\_construct
-»](ui-controls-label.construct.md)
+- [« UI\Controls\ColorButton::setColor](ui-controls-colorbutton.setcolor.md)
+- [UI\Controls\Label::\_\_construct »](ui-controls-label.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

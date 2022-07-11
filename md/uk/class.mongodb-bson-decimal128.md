@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Binary::unserialize](mongodb-bson-binary.unserialize.md)
-- [MongoDB\BSON\Decimal128::\_\_construct
-»](mongodb-bson-decimal128.construct.md)
+- [« MongoDB\BSON\Binary::unserialize](mongodb-bson-binary.unserialize.md)
+- [MongoDB\BSON\Decimal128::\_\_construct »](mongodb-bson-decimal128.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -13,8 +11,7 @@ MongoDB\BSON\Binary::unserialize](mongodb-bson-binary.unserialize.md)
 
 ## Вступ
 
-Тип BSON для [» Decimal128 формату з плаваючою
-точкою](https://en.wikipedia.org/wiki/Decimal128_floating-point_format),
+Тип BSON для [» Decimal128 формату з плаваючою точкою](https://en.wikipedia.org/wiki/Decimal128_floating-point_format),
 який підтримує числа до 34 десяткових знаків (тобто значних
 цифр) та діапазон експонентів від -6143 до +6144.
 

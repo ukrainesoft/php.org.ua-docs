@@ -1,5 +1,5 @@
 - [« Установка](password.installation.md)
-- [Типи ресурсів»] (password.resources.md)
+- [Типи ресурсів»](password.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](password.setup.md)

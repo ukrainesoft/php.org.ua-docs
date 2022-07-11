@@ -1,5 +1,5 @@
 - [« Установка](xhprof.installation.md)
-- [Типи ресурсів»] (xhprof.resources.md)
+- [Типи ресурсів»](xhprof.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xhprof.setup.md)

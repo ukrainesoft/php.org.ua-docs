@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\ClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.md)
+- [« MongoDB\Driver\ClientEncryption::decrypt](mongodb-driver-clientencryption.decrypt.md)
 - [MongoDB\Driver\ServerApi »](class.mongodb-driver-serverapi.md)
 
 - [PHP Manual](index.md)
@@ -34,8 +33,7 @@ final public
 
 ### Значення, що повертаються
 
-Повертає зашифровані дані як об'єкт
-[MongoDB\BSON\Binary](class.mongodb-bson-binary.md) з підтипом 6.
+Повертає зашифровані дані як об'єкт [MongoDB\BSON\Binary](class.mongodb-bson-binary.md) з підтипом 6.
 
 ### Помилки
 

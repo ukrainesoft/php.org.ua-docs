@@ -16,8 +16,7 @@
 - [Оператори порівняння](language.operators.comparison.md)
 - [Оператор управління помилками](language.operators.errorcontrol.md)
 - [Оператори виконання](language.operators.execution.md)
-- [Оператори інкременту та
-декременту](language.operators.increment.md)
+- [Оператори інкременту та декременту](language.operators.increment.md)
 - [Логічні оператори](language.operators.logical.md)
 - [Рядкові оператори](language.operators.string.md)
 - [Оператори з масивами](language.operators.array.md)
@@ -35,14 +34,12 @@
 оператори набувають двох значень; це, наприклад, знайомі всім
 [арифметичні оператори](language.operators.arithmetic.md) `+`
 (плюс) і `-` (мінус), більшість операторів, що підтримуються в PHP, входять
-саме у цю категорію. Ну і, нарешті, є лише один [тернарний
-оператор](language.operators.comparison.md#language.operators.comparison.ternary),
+саме у цю категорію. Ну і, нарешті, є лише один [тернарний оператор](language.operators.comparison.md#language.operators.comparison.ternary),
 `? :`, що приймає три значення, зазвичай його так і називають - "тернарний
 оператор" (хоча, можливо, більш точною назвою було б "умовний
 оператор").
 
-Повний список PHP-операторів ви можете знайти у розділі "[Порядок
-виконання операторів](language.operators.precedence.md)". У цьому
+Повний список PHP-операторів ви можете знайти у розділі "[Порядок виконання операторів](language.operators.precedence.md)". У цьому
 розділ також описує порядок виконання операторів та їх асоціативність,
 які точно визначають, як обчислюються вирази з декількома
 різними операторами.

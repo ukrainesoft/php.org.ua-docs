@@ -25,8 +25,7 @@
 `^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$`.
 
 **Підказка**
-
-Дивіться також [Інструкція по імену](userlandnaming.md).
+ Дивіться також [Інструкція по імену](userlandnaming.md).
 
 Функції не повинні бути визначені до їх використання, * виключаючи * той
 випадок, коли функції визначаються умовно, як це показано у двох
@@ -57,10 +56,8 @@ PHP не підтримує навантаження функції, також 
 > `A` до `Z`, тим не менш, краще викликати функції так, як
 > вони були оголошені.
 
-Функції PHP підтримують як [списки аргументів змінної
-довжини](functions.arguments.md#functions.variable-arg-list), так і
-[значення аргументів щодо
-замовчуванням](functions.arguments.md#functions.arguments.default).
+Функції PHP підтримують як [списки аргументів змінної довжини](functions.arguments.md#functions.variable-arg-list), так і
+[значення аргументів щодо замовчуванням](functions.arguments.md#functions.arguments.default).
 Дивіться також опис функцій
 [func_num_args()](function.func-num-args.md),
 [func_get_arg()](function.func-get-arg.md) та

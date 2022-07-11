@@ -1,5 +1,4 @@
-- [«
-ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
+- [« ReflectionMethod::getModifiers](reflectionmethod.getmodifiers.md)
 - [ReflectionMethod::invoke »](reflectionmethod.invoke.md)
 
 - [PHP Manual](index.md)

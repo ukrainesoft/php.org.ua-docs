@@ -1,5 +1,4 @@
-- [«
-DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md)
+- [« DOMDocument::createDocumentFragment](domdocument.createdocumentfragment.md)
 - [DOMDocument::createElementNS »](domdocument.createelementns.md)
 
 - [PHP Manual](index.md)

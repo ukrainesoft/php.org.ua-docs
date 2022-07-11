@@ -1,5 +1,5 @@
 - [« Установка](sodium.installation.md)
-- [Типи ресурсів»] (sodium.resources.md)
+- [Типи ресурсів»](sodium.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](sodium.setup.md)

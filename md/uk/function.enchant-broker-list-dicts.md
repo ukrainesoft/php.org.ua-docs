@@ -1,6 +1,5 @@
 - [«enchant_broker_init](function.enchant-broker-init.md)
-- [enchant_broker_request_dict
-»](function.enchant-broker-request-dict.md)
+- [enchant_broker_request_dict »](function.enchant-broker-request-dict.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::\_\_construct](mongodb-driver-manager.construct.md)
-- [MongoDB\Driver\Manager::executeBulkWrite
-»](mongodb-driver-manager.executebulkwrite.md)
+- [« MongoDB\Driver\Manager::\_\_construct](mongodb-driver-manager.construct.md)
+- [MongoDB\Driver\Manager::executeBulkWrite »](mongodb-driver-manager.executebulkwrite.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -33,8 +31,7 @@ final public **MongoDB\Driver\Manager::createClientEncryption**(array
 
 ### Значення, що повертаються
 
-Повертає новий екземпляр
-[MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md).
+Повертає новий екземпляр [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md).
 
 ### Помилки
 

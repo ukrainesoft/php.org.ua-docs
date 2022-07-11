@@ -1,5 +1,4 @@
-- [«
-Yaf_Exception_LoadFailed_View](class.yaf-exception-loadfailed-view.md)
+- [« Yaf_Exception_LoadFailed_View](class.yaf-exception-loadfailed-view.md)
 - [Вступ »](intro.yaconf.md)
 
 - [PHP Manual](index.md)

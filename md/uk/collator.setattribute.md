@@ -49,8 +49,7 @@ int `$attribute`, int `$value`): bool
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_get_attribute()](collator.getattribute.md) - Отримує
 значення атрибуту зіставлення
 - [collator_set_strength()](collator.setstrength.md) - Встановлює

@@ -1,6 +1,5 @@
 - [« Imagick::paintFloodfillImage](imagick.paintfloodfillimage.md)
-- [Imagick::paintTransparentImage
-»](imagick.painttransparentimage.md)
+- [Imagick::paintTransparentImage »](imagick.painttransparentimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

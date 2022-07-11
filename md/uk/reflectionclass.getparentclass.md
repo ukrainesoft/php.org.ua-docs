@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)
-- [ReflectionClass::getProperties
-»](reflectionclass.getproperties.md)
+- [« ReflectionClass::getNamespaceName](reflectionclass.getnamespacename.md)
+- [ReflectionClass::getProperties »](reflectionclass.getproperties.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

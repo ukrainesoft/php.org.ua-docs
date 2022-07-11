@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
-- [MongoDB\Driver\ServerDescription::getHost
-»](mongodb-driver-serverdescription.gethost.md)
+- [« MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
+- [MongoDB\Driver\ServerDescription::getHost »](mongodb-driver-serverdescription.gethost.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)
@@ -24,8 +22,7 @@ array
 [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md))
 відповіді команди
 [»Hello](https://www.mongodb.com/docs/manual/reference/command/hello/)
-відповідь команди, отримана за допомогою [» моніторингу
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
+відповідь команди, отримана за допомогою [» моніторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
 
 > **Примітка**:
 >
@@ -56,5 +53,4 @@ array
 - команда
 [»Hello](https://www.mongodb.com/docs/manual/reference/command/hello/)
 у посібнику з MongoDB
-- [» Специфікація виявлення та моніторингу
-серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+- [» Специфікація виявлення та моніторингу серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

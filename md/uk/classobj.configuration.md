@@ -1,5 +1,5 @@
 - [« Установка](classobj.installation.md)
-- [Типи ресурсів»] (classobj.resources.md)
+- [Типи ресурсів»](classobj.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](classobj.setup.md)

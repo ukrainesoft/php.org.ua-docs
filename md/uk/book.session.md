@@ -17,13 +17,10 @@
 - [Приклади](session.examples.md)
 - [Основи використання](session.examples.basic.md)
 - [Передача сесійного ідентифікатора](session.idpassing.md)
-- [Обробники користувача
-сесії](session.customhandler.md)
-- [Відстеження прогресу завантаження файлів за допомогою
-сесій](session.upload-progress.md)
+- [Обробники користувача сесії](session.customhandler.md)
+- [Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)
 - [Безпека сесій](session.security.md)
-- [Базові принципи управління
-сесіями](features.session.security.management.md)
+- [Базові принципи управління сесіями](features.session.security.management.md)
 - [INI-налаштування безпеки сесій](session.security.ini.md)
 - [Функції для роботи з сесіями](ref.session.md)
 - [session_abort](function.session-abort.md) — Скасує

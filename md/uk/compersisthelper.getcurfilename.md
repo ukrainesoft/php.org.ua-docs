@@ -1,6 +1,5 @@
 - [« COMPersistHelper::\_\_construct](compersisthelper.construct.md)
-- [COMPersistHelper::GetMaxStreamSize
-»](compersisthelper.getmaxstreamsize.md)
+- [COMPersistHelper::GetMaxStreamSize »](compersisthelper.getmaxstreamsize.md)
 
 - [PHP Manual](index.md)
 - [COMPersistHelper](class.compersisthelper.md)

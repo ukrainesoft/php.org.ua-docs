@@ -1,4 +1,4 @@
-- [« MongoDB \ BSON \ Type] (class.mongodb-bson-type.md)
+- [« MongoDB \ BSON \ Type](class.mongodb-bson-type.md)
 - [MongoDB\BSON\Serializable »](class.mongodb-bson-serializable.md)
 
 - [PHP Manual](index.md)
@@ -17,8 +17,7 @@
 містить ім'я класу PHP, дані, що повертаються
 [MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md).
 Під час десеріалізації та ж властивість \_\_pclass буде використовуватись
-для виведення класу PHP (незалежного від будь-якої конфігурації [типу
-карти](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)),
+для виведення класу PHP (незалежного від будь-якої конфігурації [типу карти](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)),
 яка має бути створена до виклику
 [MongoDB\BSON\Unserializable::bsonUnserialize()](mongodb-bson-unserializable.bsonunserialize.md).
 Дивіться [Постійні дані](mongodb.persistence.md) для отримання

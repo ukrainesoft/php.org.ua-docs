@@ -1,5 +1,5 @@
 - [«eio_rename](function.eio-rename.md)
-- [eio_seek »] (function.eio-seek.md)
+- [eio_seek »](function.eio-seek.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

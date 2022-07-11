@@ -43,8 +43,7 @@ public [item](domnodelist.item.md)(int `$index`):
 
 ## Дивіться також
 
-- [» Специфікація W3C по
-NodeList](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-536297177)
+- [» Специфікація W3C по NodeList](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-536297177)
 
 ## Зміст
 

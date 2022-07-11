@@ -1,6 +1,5 @@
 - [« ReflectionProperty::getType](reflectionproperty.gettype.md)
-- [ReflectionProperty::hasDefaultValue
-»](reflectionproperty.hasdefaultvalue.md)
+- [ReflectionProperty::hasDefaultValue »](reflectionproperty.hasdefaultvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

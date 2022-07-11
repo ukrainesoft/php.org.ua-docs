@@ -13,14 +13,10 @@
 обчислення).
 
 PHP підтримує передачу аргументів за значенням (за умовчанням),
-[передачу аргументів по
-ссылке](functions.arguments.md#functions.arguments.by-reference), та
-[значення по
-замовчуванням](functions.arguments.md#functions.arguments.default).
-[Списки аргументів змінної
-довжини](functions.arguments.md#functions.variable-arg-list) та
-[іменовані
-аргументи](functions.arguments.md#functions.named-arguments) також
+[передачу аргументів по ссылке](functions.arguments.md#functions.arguments.by-reference), та
+[значення по замовчуванням](functions.arguments.md#functions.arguments.default).
+[Списки аргументів змінної довжини](functions.arguments.md#functions.variable-arg-list) та
+[іменовані аргументи](functions.arguments.md#functions.named-arguments) також
 підтримуються.
 
 **Приклад #1 Передача масиву у функцію**
@@ -116,8 +112,7 @@ to function makeyogurt(), 1 passed in example.php on line 42
 
 Робимо миску з малиновим йогуртом.
 
-Починаючи з PHP 8.0.0, [іменовані
-аргументи](functions.arguments.md#functions.named-arguments) можна
+Починаючи з PHP 8.0.0, [іменовані аргументи](functions.arguments.md#functions.named-arguments) можна
 використовуватиме пропуску кількох необов'язкових параметрів.
 
 **Приклад #9 Правильне використання аргументів за замовчуванням**
@@ -135,8 +130,7 @@ to function makeyogurt(), 1 passed in example.php on line 42
 використовуватись. Винятком із цього правила є аргументи виду
 `Type $param u003d null`, де **`null`** за умовчанням робить тип неявно
 обнулюваним. Таке використання залишається допустимим, хоча рекомендується
-використовувати явний [тип
-nullable](language.types.declarations.md#language.types.declarations.nullable).
+використовувати явний [тип nullable](language.types.declarations.md#language.types.declarations.nullable).
 
 **Приклад #10 Оголошення необов'язкових аргументів після обов'язкових
 аргументів**

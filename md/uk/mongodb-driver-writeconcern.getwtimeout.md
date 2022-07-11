@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::getW](mongodb-driver-writeconcern.getw.md)
-- [MongoDB\Driver\WriteConcern::isDefault
-»](mongodb-driver-writeconcern.isdefault.md)
+- [« MongoDB\Driver\WriteConcern::getW](mongodb-driver-writeconcern.getw.md)
+- [MongoDB\Driver\WriteConcern::isDefault »](mongodb-driver-writeconcern.isdefault.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -52,5 +50,4 @@ int(3000)
 
 ### Дивіться також
 
-- [»Керівництво по гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

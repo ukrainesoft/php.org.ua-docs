@@ -1,5 +1,4 @@
-- [«
-imap_rfc822_write_address](function.imap-rfc822-write-address.md)
+- [« imap_rfc822_write_address](function.imap-rfc822-write-address.md)
 - [imap_scan »](function.imap-scan.md)
 
 - [PHP Manual](index.md)

@@ -42,4 +42,4 @@ bool(true)
 
 - [ReflectionClass::isAbstract()](reflectionclass.isabstract.md) -
 Перевіряє, чи є клас абстрактним
-- [Ключове слово "final"] (language.oop5.final.md)
+- [Ключове слово "final"](language.oop5.final.md)

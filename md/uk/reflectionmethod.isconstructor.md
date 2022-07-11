@@ -1,6 +1,5 @@
 - [« ReflectionMethod::isAbstract](reflectionmethod.isabstract.md)
-- [ReflectionMethod::isDestructor
-»](reflectionmethod.isdestructor.md)
+- [ReflectionMethod::isDestructor »](reflectionmethod.isdestructor.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)

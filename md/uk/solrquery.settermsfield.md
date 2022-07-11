@@ -1,6 +1,5 @@
 - [«SolrQuery::setTerms](solrquery.setterms.md)
-- [SolrQuery::setTermsIncludeLowerBound
-»](solrquery.settermsincludelowerbound.md)
+- [SolrQuery::setTermsIncludeLowerBound »](solrquery.settermsincludelowerbound.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

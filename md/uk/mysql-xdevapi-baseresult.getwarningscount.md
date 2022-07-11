@@ -1,5 +1,4 @@
-- [«
-BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md)
+- [« BaseResult::getWarnings](mysql-xdevapi-baseresult.getwarnings.md)
 - [mysql_xdevapi\Client »](class.mysql-xdevapi-client.md)
 
 - [PHP Manual](index.md)

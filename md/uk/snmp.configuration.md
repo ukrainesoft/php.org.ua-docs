@@ -1,5 +1,5 @@
 - [« Установка](snmp.installation.md)
-- [Типи ресурсів»] (snmp.resources.md)
+- [Типи ресурсів»](snmp.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](snmp.setup.md)

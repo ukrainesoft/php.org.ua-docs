@@ -1,5 +1,5 @@
 - [«mb_scrub](function.mb-scrub.md)
-- [mb_split »] (function.mb-split.md)
+- [mb_split »](function.mb-split.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
@@ -17,7 +17,7 @@ mb_send_mail — Надіслати закодоване повідомленн�
 string `$to`,
 string `$subject`,
 string `$message`,
-array\|string `$additional_headers` u003d \[\],
+array\|string `$additional_headers` u003d [],
 ?string `$additional_params` u003d **`null`**
 ): bool
 

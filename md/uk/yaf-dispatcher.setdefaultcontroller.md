@@ -1,7 +1,5 @@
-- [«
-Yaf_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md)
-- [Yaf_Dispatcher::setDefaultModule
-»](yaf-dispatcher.setdefaultmodule.md)
+- [« Yaf_Dispatcher::setDefaultAction](yaf-dispatcher.setdefaultaction.md)
+- [Yaf_Dispatcher::setDefaultModule »](yaf-dispatcher.setdefaultmodule.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

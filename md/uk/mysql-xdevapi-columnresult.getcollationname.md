@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.md)
-- [ColumnResult::getColumnLabel
-»](mysql-xdevapi-columnresult.getcolumnlabel.md)
+- [« ColumnResult::getCharacterSetName](mysql-xdevapi-columnresult.getcharactersetname.md)
+- [ColumnResult::getColumnLabel »](mysql-xdevapi-columnresult.getcolumnlabel.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

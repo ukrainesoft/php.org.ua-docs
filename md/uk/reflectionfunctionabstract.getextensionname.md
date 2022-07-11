@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md)
-- [ReflectionFunctionAbstract::getFileName
-»](reflectionfunctionabstract.getfilename.md)
+- [« ReflectionFunctionAbstract::getExtension](reflectionfunctionabstract.getextension.md)
+- [ReflectionFunctionAbstract::getFileName »](reflectionfunctionabstract.getfilename.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

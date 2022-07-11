@@ -1,6 +1,5 @@
 - [« trader_cdlpiercing](function.trader-cdlpiercing.md)
-- [trader_cdlrisefall3methods
-»](function.trader-cdlrisefall3methods.md)
+- [trader_cdlrisefall3methods »](function.trader-cdlrisefall3methods.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

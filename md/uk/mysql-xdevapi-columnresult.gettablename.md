@@ -1,5 +1,4 @@
-- [«
-ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.md)
+- [« ColumnResult::getTableLabel](mysql-xdevapi-columnresult.gettablelabel.md)
 - [ColumnResult::getType »](mysql-xdevapi-columnresult.gettype.md)
 
 - [PHP Manual](index.md)

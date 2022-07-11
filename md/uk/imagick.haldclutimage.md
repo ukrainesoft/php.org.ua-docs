@@ -27,11 +27,9 @@ HALD.
 
 `channel`
 Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи
-каналов](imagick.constants.md#imagick.constants.channel) за допомогою
+застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
 побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант
-каналов](imagick.constants.md#imagick.constants.channel)
+Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

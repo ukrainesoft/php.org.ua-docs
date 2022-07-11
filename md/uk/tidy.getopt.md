@@ -2,7 +2,7 @@
 - [tidy::getOptDoc »](tidy.getoptdoc.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає значення вказаного параметра конфігурації для документа
 tidy
 

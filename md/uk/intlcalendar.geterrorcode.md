@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.md)
+- [« IntlCalendar::getDayOfWeekType](intlcalendar.getdayofweektype.md)
 - [IntlCalendar::getErrorMessage »](intlcalendar.geterrormessage.md)
 
 - [PHP Manual](index.md)

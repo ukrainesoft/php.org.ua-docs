@@ -1,5 +1,5 @@
 - [«oci_client_version](function.oci-client-version.md)
-- [oci_commit»] (function.oci-commit.md)
+- [oci_commit»](function.oci-commit.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)

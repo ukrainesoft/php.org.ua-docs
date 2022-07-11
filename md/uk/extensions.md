@@ -1,5 +1,5 @@
 - [« Опис вбудованих директив php.ini](ini.core.md)
-- [В алфавітному порядку»] (extensions.alphabetical.md)
+- [В алфавітному порядку»](extensions.alphabetical.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md)
-- [MongoDB\Driver\Cursor::\_\_construct
-»](mongodb-driver-cursor.construct.md)
+- [« MongoDB\Driver\ReadConcern::unserialize](mongodb-driver-readconcern.unserialize.md)
+- [MongoDB\Driver\Cursor::\_\_construct »](mongodb-driver-cursor.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)
@@ -74,7 +72,7 @@ public [valid](mongodb-driver-cursor.valid.md)(): bool
 
 Оскільки **MongoDB\Driver\Cursor** реалізує інтерфейс
 [Traversable](class.traversable.md), можна ітерувати за набором
-результату за допомогою [foreach] (control-structures.foreach.md).
+результату за допомогою [foreach](control-structures.foreach.md).
 
 ` <?php$manager u003d new MongoDB\Driver\Manager();/* Вставити визначені документи, наш наше запит вернув результати */$bulkWrite u003d new MongoDB\Driver'Bul > 'Ceres', 'size' u003d> 946, 'distance' u003d> 2.766]);$bulkWrite->insert(['name' u003d> 'Vesta', 'size' u003d> 525, 'distance' > ]);$manager->executeBulkWrite("test.asteroids", $bulkWrite);/* Запрос на отримання всіх елементів в колекції */$query u003d new MongoDB\Driver\Query( [ " бази даних "test" */$cursor u003d $manager->executeQuery("test.asteroids", $query);/* Тепер $cursor містить об'єкт, обгорнутий навколо набору з . Використовуйте * foreach() для ітеації по всьому результату */foreach ($cursor as $document) {    print_r($document);}?> `
 
@@ -105,12 +103,10 @@ stdClass Object
 
 **Приклад #2 Читання набору результатів для хвостового курсору**
 
-[» Хвостові
-курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors) - -
+[» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors) - -
 це особливий тип курсору MongoDB, який дозволяє клієнту читати
 деякі результати, а потім чекати, доки не з'являться додаткові
-документи. Ці курсори в основному використовуються з [» Capped
-Collections](https://www.mongodb.com/docs/manual/core/capped-collections)
+документи. Ці курсори в основному використовуються з [» Capped Collections](https://www.mongodb.com/docs/manual/core/capped-collections)
 та [» Change Streams](https://www.mongodb.com/docs/manual/changeStreams).
 
 Хоча звичайні курсори можна ітерувати один раз за допомогою `foreach`,

@@ -1,5 +1,5 @@
 - [« escapeshellcmd](function.escapeshellcmd.md)
-- [passthru »] (function.passthru.md)
+- [passthru »](function.passthru.md)
 
 - [PHP Manual](index.md)
 - [Функції запуску програм](ref.exec.md)

@@ -2,7 +2,7 @@
 - [PDO::pgsqlGetPid »](pdo.pgsqlgetpid.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Отримати асинхронне повідомлення
 
 # PDO::pgsqlGetNotify

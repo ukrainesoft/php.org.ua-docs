@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.md)
+- [« SolrQuery::getExpandFilterQueries](solrquery.getexpandfilterqueries.md)
 - [SolrQuery::getExpandRows »](solrquery.getexpandrows.md)
 
 - [PHP Manual](index.md)

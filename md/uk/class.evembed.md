@@ -2,7 +2,7 @@
 - [EvEmbed::\_\_construct »](evembed.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvEmbed
 
 # Клас EvEmbed

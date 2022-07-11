@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md)
-- [ImagickDraw::pathMoveToAbsolute
-»](imagickdraw.pathmovetoabsolute.md)
+- [« ImagickDraw::pathLineToVerticalAbsolute](imagickdraw.pathlinetoverticalabsolute.md)
+- [ImagickDraw::pathMoveToAbsolute »](imagickdraw.pathmovetoabsolute.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

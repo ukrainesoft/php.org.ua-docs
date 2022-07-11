@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)
-- [SolrQuery::setHighlightFragmenter
-»](solrquery.sethighlightfragmenter.md)
+- [« SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)
+- [SolrQuery::setHighlightFragmenter »](solrquery.sethighlightfragmenter.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

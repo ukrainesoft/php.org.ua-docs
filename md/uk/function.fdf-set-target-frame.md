@@ -1,5 +1,4 @@
-- [«
-fdf_set_submit_form_action](function.fdf-set-submit-form-action.md)
+- [« fdf_set_submit_form_action](function.fdf-set-submit-form-action.md)
 - [fdf_set_value »](function.fdf-set-value.md)
 
 - [PHP Manual](index.md)

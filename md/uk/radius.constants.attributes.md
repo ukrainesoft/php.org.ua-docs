@@ -1,6 +1,5 @@
 - [«типи пакетів RADIUS](radius.constants.packets.md)
-- [Атрибути RADIUS специфічні для різних виробників
-»](radius.constants.vendor-specific.md)
+- [Атрибути RADIUS специфічні для різних виробників »](radius.constants.vendor-specific.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](radius.constants.md)
@@ -24,8 +23,7 @@
 Атрибут User-Password. Має бути типу string і містити пароль
 користувача. Атрибут можна встановити функцією
 [radius_put_attr()](function.radius-put-attr.md). Це значення буде
-обфусковано при передачі згідно [секції 5.2 RFC
-2865](http://www.faqs.org/rfcs/rfc2865).
+обфусковано при передачі згідно [секції 5.2 RFC 2865](http://www.faqs.org/rfcs/rfc2865).
 
 **`RADIUS_CHAP_PASSWORD`** (int)
 Атрибут Chap-Password. Має бути типу string і містити ідентифікатор

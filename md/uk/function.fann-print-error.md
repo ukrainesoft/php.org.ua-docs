@@ -1,5 +1,4 @@
-- [«
-fann_num_output_train_data](function.fann-num-output-train-data.md)
+- [« fann_num_output_train_data](function.fann-num-output-train-data.md)
 - [fann_randomize_weights »](function.fann-randomize-weights.md)
 
 - [PHP Manual](index.md)

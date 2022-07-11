@@ -1,7 +1,5 @@
-- [«
-UI\Controls\EditableCombo::getText](ui-controls-editablecombo.gettext.md)
-- [UI\Controls\EditableCombo::setText
-»](ui-controls-editablecombo.settext.md)
+- [« UI\Controls\EditableCombo::getText](ui-controls-editablecombo.gettext.md)
+- [UI\Controls\EditableCombo::setText »](ui-controls-editablecombo.settext.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\EditableCombo](class.ui-controls-editablecombo.md)

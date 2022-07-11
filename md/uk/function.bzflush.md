@@ -1,5 +1,5 @@
 - [«bzerrstr](function.bzerrstr.md)
-- [bzopen »] (function.bzopen.md)
+- [bzopen »](function.bzopen.md)
 
 - [PHP Manual](index.md)
 - [Функції Bzip2](ref.bzip2.md)

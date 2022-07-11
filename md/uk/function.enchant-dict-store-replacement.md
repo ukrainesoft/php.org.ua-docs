@@ -1,5 +1,5 @@
 - [« enchant_dict_quick_check](function.enchant-dict-quick-check.md)
-- [enchant_dict_suggest »] (function.enchant-dict-suggest.md)
+- [enchant_dict_suggest »](function.enchant-dict-suggest.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

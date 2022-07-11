@@ -48,5 +48,5 @@ HTTP запити.
 ### Дивіться також
 
 - [Curl](book.curl.md)
-- [Потоки PHP] (book.stream.md)
+- [Потоки PHP](book.stream.md)
 - [OAuthException](class.oauthexception.md)

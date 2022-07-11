@@ -1,5 +1,5 @@
 - [«get_resource_type](function.get-resource-type.md)
-- [intval »] (function.intval.md)
+- [intval »](function.intval.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)

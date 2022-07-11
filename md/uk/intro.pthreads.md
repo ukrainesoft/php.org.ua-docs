@@ -1,4 +1,4 @@
-- [« pthreads] (book.pthreads.md)
+- [« pthreads](book.pthreads.md)
 - [Встановлення та налаштування »](pthreads.setup.md)
 
 - [PHP Manual](index.md)

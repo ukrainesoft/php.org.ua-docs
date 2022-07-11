@@ -1,6 +1,5 @@
 - [« Imagick::setImageProperty](imagick.setimageproperty.md)
-- [Imagick::setImageRenderingIntent
-»](imagick.setimagerenderingintent.md)
+- [Imagick::setImageRenderingIntent »](imagick.setimagerenderingintent.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

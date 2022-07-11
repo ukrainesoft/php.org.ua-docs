@@ -1,5 +1,5 @@
 - [«trim](function.trim.md)
-- [ucwords»] (function.ucwords.md)
+- [ucwords»](function.ucwords.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

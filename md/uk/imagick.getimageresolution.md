@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md)
+- [« Imagick::getImageRenderingIntent](imagick.getimagerenderingintent.md)
 - [Imagick::getImagesBlob »](imagick.getimagesblob.md)
 
 - [PHP Manual](index.md)

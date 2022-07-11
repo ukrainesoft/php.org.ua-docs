@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\CursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md)
+- [« MongoDB\Driver\CursorInterface::setTypeMap](mongodb-driver-cursorinterface.settypemap.md)
 - [MongoDB\Driver\Server »](class.mongodb-driver-server.md)
 
 - [PHP Manual](index.md)

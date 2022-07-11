@@ -1,6 +1,5 @@
 - [« XMLReader::moveToElement](xmlreader.movetoelement.md)
-- [XMLReader::moveToNextAttribute
-»](xmlreader.movetonextattribute.md)
+- [XMLReader::moveToNextAttribute »](xmlreader.movetonextattribute.md)
 
 - [PHP Manual](index.md)
 - [XMLReader](class.xmlreader.md)

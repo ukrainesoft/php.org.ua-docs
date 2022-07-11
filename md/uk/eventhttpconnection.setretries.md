@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md)
-- [EventHttpConnection::setTimeout
-»](eventhttpconnection.settimeout.md)
+- [« EventHttpConnection::setMaxHeadersSize](eventhttpconnection.setmaxheaderssize.md)
+- [EventHttpConnection::setTimeout »](eventhttpconnection.settimeout.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

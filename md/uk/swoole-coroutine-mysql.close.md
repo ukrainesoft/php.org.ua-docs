@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::setMethod](swoole-coroutine-http-client.setmethod.md)
-- [Swoole\Coroutine\MySQL::connect
-»](swoole-coroutine-mysql.connect.md)
+- [« Swoole\Coroutine\Http\Client::setMethod](swoole-coroutine-http-client.setmethod.md)
+- [Swoole\Coroutine\MySQL::connect »](swoole-coroutine-mysql.connect.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

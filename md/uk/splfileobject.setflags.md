@@ -21,8 +21,7 @@ public **SplFileObject::setFlags**(int `$flags`): void
 ### Список параметрів
 
 `flags`
-Бітова маска прапори для встановлення. Дивіться [константи
-SplFileObject](class.splfileobject.md#splfileobject.constants) для
+Бітова маска прапори для встановлення. Дивіться [константи SplFileObject](class.splfileobject.md#splfileobject.constants) для
 отримання списку доступних прапорів.
 
 ### Значення, що повертаються

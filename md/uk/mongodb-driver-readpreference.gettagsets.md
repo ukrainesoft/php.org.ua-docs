@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md)
-- [MongoDB\Driver\ReadPreference::serialize
-»](mongodb-driver-readpreference.serialize.md)
+- [« MongoDB\Driver\ReadPreference::getModeString](mongodb-driver-readpreference.getmodestring.md)
+- [MongoDB\Driver\ReadPreference::serialize »](mongodb-driver-readpreference.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -74,5 +72,4 @@ array(0) {
 
 ### Дивіться також
 
-- [» Довідкова інформація за перевагою
-читання](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [» Довідкова інформація за перевагою читання](https://www.mongodb.com/docs/manual/core/read-preference/)

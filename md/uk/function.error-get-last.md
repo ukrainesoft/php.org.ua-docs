@@ -46,14 +46,10 @@ Array
 )
 
 ### Дивіться також
-
-- [Константи помилок](errorfunc.constants.md)
+ - [Константи помилок](errorfunc.constants.md)
 - Змінна `$php_errormsg`
 - [error_clear_last()](function.error-clear-last.md) - Очистити
 останню помилку
-- [Директива
-`display_errors`](errorfunc.configuration.md#ini.display-errors)
-- [Директива
-`html_errors`](errorfunc.configuration.md#ini.md-errors)
-- [Директива
-`xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)
+- [Директива `display_errors`](errorfunc.configuration.md#ini.display-errors)
+- [Директива `html_errors`](errorfunc.configuration.md#ini.md-errors)
+- [Директива `xmlrpc_errors`](errorfunc.configuration.md#ini.xmlrpc-errors)

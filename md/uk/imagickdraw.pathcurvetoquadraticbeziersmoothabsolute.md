@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.md)
-- [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative
-»](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md)
+- [« ImagickDraw::pathCurveToQuadraticBezierRelative](imagickdraw.pathcurvetoquadraticbezierrelative.md)
+- [ImagickDraw::pathCurveToQuadraticBezierSmoothRelative »](imagickdraw.pathcurvetoquadraticbeziersmoothrelative.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

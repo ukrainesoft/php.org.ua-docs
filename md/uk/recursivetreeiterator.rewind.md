@@ -1,7 +1,5 @@
-- [«
-RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
-- [RecursiveTreeIterator::setPostfix
-»](recursivetreeiterator.setpostfix.md)
+- [« RecursiveTreeIterator::nextElement](recursivetreeiterator.nextelement.md)
+- [RecursiveTreeIterator::setPostfix »](recursivetreeiterator.setpostfix.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)

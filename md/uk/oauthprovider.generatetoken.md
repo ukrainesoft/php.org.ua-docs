@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md)
-- [OAuthProvider::is2LeggedEndpoint
-»](oauthprovider.is2leggedendpoint.md)
+- [« OAuthProvider::consumerHandler](oauthprovider.consumerhandler.md)
+- [OAuthProvider::is2LeggedEndpoint »](oauthprovider.is2leggedendpoint.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

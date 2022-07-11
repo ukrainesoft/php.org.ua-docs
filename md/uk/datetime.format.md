@@ -45,8 +45,7 @@ public **DateTimeInterface::format**(string `$format`): string
 `format`
 Шаблон результуючого рядка (string) з датою. Дивіться настройки
 форматування нижче. Також існує кілька [визначених
-констант
-дати/часу](class.datetimeinterface.md#datetime.constants.types),
+констант дати/часу](class.datetimeinterface.md#datetime.constants.types),
 які можуть бути використані замість цих параметрів. Наприклад:
 **`DATE_RSS`** замінює шаблон ``D, d M Y H:i:s'`.
 

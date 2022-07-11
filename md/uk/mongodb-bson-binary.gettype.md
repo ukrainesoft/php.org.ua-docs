@@ -1,6 +1,5 @@
 - [« MongoDB\BSON\Binary::getData](mongodb-bson-binary.getdata.md)
-- [MongoDB\BSON\Binary::jsonSerialize
-»](mongodb-bson-binary.jsonserialize.md)
+- [MongoDB\BSON\Binary::jsonSerialize »](mongodb-bson-binary.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
@@ -41,5 +40,4 @@ int(0)
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

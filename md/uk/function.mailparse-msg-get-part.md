@@ -1,7 +1,5 @@
-- [«
-mailparse_msg_get_part_data](function.mailparse-msg-get-part-data.md)
-- [mailparse_msg_get_structure
-»](function.mailparse-msg-get-structure.md)
+- [« mailparse_msg_get_part_data](function.mailparse-msg-get-part-data.md)
+- [mailparse_msg_get_structure »](function.mailparse-msg-get-structure.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

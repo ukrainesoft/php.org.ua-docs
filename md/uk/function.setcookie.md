@@ -1,5 +1,5 @@
 - [« pfsockopen](function.pfsockopen.md)
-- [setrawcookie»] (function.setrawcookie.md)
+- [setrawcookie»](function.setrawcookie.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)
@@ -27,7 +27,7 @@ bool `$httponly` u003d **`false`**
 підтримуються):
 
 **setcookie**(string `$name`, string `$value` u003d "", array `$options` u003d
-\[\]): bool
+[]): bool
 
 **setcookie()** задає cookie, яке буде передано клієнту разом з
 іншими HTTP-заголовками. Як і будь-який інший заголовок, cookie повинні
@@ -87,8 +87,7 @@ bool `$httponly` u003d **`false`**
 cookie доступними для всього домену (включно з піддоменами), потрібно просто
 вказати ім'я домену (тобто ``example.com'`).
 
-Старі браузери, що йдуть застарілому документу [» RFC
-2109](http://www.faqs.org/rfcs/rfc2109), можуть вимагати `.` перед
+Старі браузери, що йдуть застарілому документу [» RFC 2109](http://www.faqs.org/rfcs/rfc2109), можуть вимагати `.` перед
 доменом, щоб включалися всі піддомени.
 
 `secure`

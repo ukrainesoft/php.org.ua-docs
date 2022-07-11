@@ -1,6 +1,5 @@
 - [« SolrQuery::setMltBoost](solrquery.setmltboost.md)
-- [SolrQuery::setMltMaxNumQueryTerms
-»](solrquery.setmltmaxnumqueryterms.md)
+- [SolrQuery::setMltMaxNumQueryTerms »](solrquery.setmltmaxnumqueryterms.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

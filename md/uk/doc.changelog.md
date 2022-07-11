@@ -211,7 +211,7 @@
 | | [mhash_get_block_size](function.mhash-get-block-size.md) | Функція оголошена застарілою. Використовуйте замість неї функції hash\_\*(). |
 | | [mhash_get_hash_name](function.mhash-get-hash-name.md) | Функція оголошена застарілою. Використовуйте замість неї функції hash\_\*(). |
 | | [mhash_keygen_s2k](function.mhash-keygen-s2k.md) | Функція оголошена застарілою. Використовуйте замість неї функції hash\_\*(). |
-| | [Next] (function.next.md) | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію get_mangled_object_vars, або використовуйте ArrayIterator. |
+| | [Next](function.next.md) | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію get_mangled_object_vars, або використовуйте ArrayIterator. |
 | | [odbc_result_all](function.odbc-result-all.md) | Функція оголошена застарілою. |
 | | [openssl_cms_encrypt](function.openssl-cms-encrypt.md) | Алгоритм шифрування за замовчуванням (cipher_algo) тепер є AES-128-CBC (OPENSSL_CIPHER_AES_128_CBC). Раніше використовувався алгоритм PKCS7/CMS (OPENSSL_CIPHER_RC2_40). |
 | | [openssl_decrypt](function.openssl-decrypt.md) | Параметр tag тепер припускає значення null. |
@@ -503,7 +503,7 @@
 | | [define](function.define.md) | Передача true до case_insensitive тепер видає помилку рівня E_WARNING. Передача false досі дозволена. |
 | | [deflate_add](function.deflate-add.md) | context чекає екземпляр DeflateContext; раніше, очікувався ресурс (resource). |
 | | [deflate_init](function.deflate-init.md) | У разі успішного виконання функція повертає екземпляр DeflateContext; раніше, повертався ресурс (resource). |
-| | [dir] (function.dir.md) | context тепер припускає значення null. |
+| | [dir](function.dir.md) | context тепер припускає значення null. |
 | | [dom_import_simplexml](function.dom-import-simplexml.md) | Функція більше не повертає null у разі помилки. |
 | | [easter_date](function.easter-date.md) | year тепер допускає значення null. |
 | | [easter_days](function.easter-days.md) | year тепер допускає значення null. |
@@ -697,29 +697,10 @@
 | | [inflate_init](function.inflate-init.md) | У разі успішного виконання функція повертає екземпляр InflateContext; раніше повертався ресурс (resource). |
 | | [is_numeric](function.is-numeric.md) | Рядки, що складаються з чисел, що закінчуються пробілом ("42"), тепер повертатимуть true. Раніше натомість поверталося false. |
 | | [jdtounix](function.jdtounix.md) | Функція більше не повертає false у разі виникнення помилки, натомість викидає ValueError. |
-| | [ldap_add](function.ldap-add.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_add_ext](function.ldap-add-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_bind_ext](function.ldap-bind-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_compare](function.ldap-compare.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_control_paged_result](function.ldap-control-paged-result.md) | Функцію було видалено. |
+| | [ldap_add](function.ldap-add.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_add_ext](function.ldap-add-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_bind_ext](function.ldap-bind-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_compare](function.ldap-compare.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_control_paged_result](function.ldap-control-paged-result.md) | Функцію було видалено. |
 | | [ldap_control_paged_result_response](function.ldap-control-paged-result-response.md) | Функцію було видалено. |
-| | [ldap_delete](function.ldap-delete.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_delete_ext](function.ldap-delete-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_exop_passwd](function.ldap-exop-passwd.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_list](function.ldap-list.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_add](function.ldap-mod-add.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_del](function.ldap-mod-del.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_replace](function.ldap-mod-replace.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_modify_batch](function.ldap-modify-batch.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_add_ext](function.ldap-mod_add-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_del_ext](function.ldap-mod_del-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_mod_replace_ext](function.ldap-mod_replace-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_read](function.ldap-read.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_rename](function.ldap-rename.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_rename_ext](function.ldap-rename-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_sasl_bind](function.ldap-sasl-bind.md) | dn, password, mech, realm, authc_id, authz_id and props тепер допускають значення null. |
-| | [ldap_search](function.ldap-search.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. |
-| | [ldap_set_rebind_proc](function.ldap-set-rebind-proc.md) | callback тепер допускає значення null. |
+| | [ldap_delete](function.ldap-delete.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_delete_ext](function.ldap-delete-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_exop_passwd](function.ldap-exop-passwd.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_list](function.ldap-list.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_add](function.ldap-mod-add.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_del](function.ldap-mod-del.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_replace](function.ldap-mod-replace.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_modify_batch](function.ldap-modify-batch.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_add_ext](function.ldap-mod_add-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_del_ext](function.ldap-mod_del-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_mod_replace_ext](function.ldap-mod_replace-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_read](function.ldap-read.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_rename](function.ldap-rename.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_rename_ext](function.ldap-rename-ext.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_sasl_bind](function.ldap-sasl-bind.md) | dn, password, mech, realm, authc_id, authz_id and props тепер допускають значення null. |
+| | [ldap_search](function.ldap-search.md) | controls тепер допускає значення null; раніше значення за умовчанням було [[]. | | | [ldap_set_rebind_proc](function.ldap-set-rebind-proc.md) | callback тепер допускає значення null. |
 | | [ldap_sort](function.ldap-sort.md) | Функцію було видалено. |
 | | [Levenshtein](function.levenshtein.md) | До цієї версії levenshtein потрібно було викликати з двома чи п'ятьма аргументами. |
 | | [libxml_use_internal_errors](function.libxml-use-internal-errors.md) | use_errors тепер припускає значення null. Раніше значенням за промовчанням було false. |

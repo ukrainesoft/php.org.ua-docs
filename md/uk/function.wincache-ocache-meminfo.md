@@ -1,6 +1,5 @@
 - [«wincache_ocache_fileinfo](function.wincache-ocache-fileinfo.md)
-- [wincache_refresh_if_changed
-»](function.wincache-refresh-if-changed.md)
+- [wincache_refresh_if_changed »](function.wincache-refresh-if-changed.md)
 
 - [PHP Manual](index.md)
 - [Функції WinCache](ref.wincache.md)

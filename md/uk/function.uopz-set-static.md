@@ -1,5 +1,5 @@
 - [«uopz_set_return](function.uopz-set-return.md)
-- [uopz_undefine »] (function.uopz-undefine.md)
+- [uopz_undefine »](function.uopz-undefine.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

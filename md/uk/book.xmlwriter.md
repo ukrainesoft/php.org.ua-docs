@@ -16,10 +16,8 @@
 - [Предвизначені константи](xmlwriter.constants.md)
 - [Приклади](xmlwriter.examples.md)
 - [Створення простого XML-документу](example.xmlwriter-simple.md)
-- [Робота з просторами імен
-XML] (example.xmlwriter-namespace.md)
-- [Робота з об'єктно-орієнтованим
-API](example.xmlwriter-oop.md)
+- [Робота з просторами імен XML](example.xmlwriter-namespace.md)
+- [Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.md)
 - [XMLWriter](class.xmlwriter.md) - Клас XMLWriter
 - [XMLWriter::endAttribute](xmlwriter.endattribute.md) -
 Завершити атрибут

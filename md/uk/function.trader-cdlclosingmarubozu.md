@@ -1,6 +1,5 @@
 - [« trader_cdlbreakaway](function.trader-cdlbreakaway.md)
-- [trader_cdlconcealbabyswall
-»](function.trader-cdlconcealbabyswall.md)
+- [trader_cdlconcealbabyswall »](function.trader-cdlconcealbabyswall.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

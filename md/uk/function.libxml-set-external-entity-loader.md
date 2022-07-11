@@ -1,6 +1,5 @@
 - [« libxml_get_last_error](function.libxml-get-last-error.md)
-- [libxml_set_streams_context
-»](function.libxml-set-streams-context.md)
+- [libxml_set_streams_context »](function.libxml-set-streams-context.md)
 
 - [PHP Manual](index.md)
 - [Функції libxml](ref.libxml.md)

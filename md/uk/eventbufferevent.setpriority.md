@@ -1,5 +1,4 @@
-- [«
-EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md)
+- [« EventBufferEvent::setCallbacks](eventbufferevent.setcallbacks.md)
 - [EventBufferEvent::setTimeouts »](eventbufferevent.settimeouts.md)
 
 - [PHP Manual](index.md)

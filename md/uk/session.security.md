@@ -1,7 +1,5 @@
-- [« Відстеження прогресу завантаження файлів за допомогою
-сесій](session.upload-progress.md)
-- [Базові засади управління сесіями
-»](features.session.security.management.md)
+- [« Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)
+- [Базові засади управління сесіями »](features.session.security.management.md)
 
 - [PHP Manual](index.md)
 - [Сесії](book.session.md)
@@ -11,12 +9,10 @@
 
 ## Зміст
 
-- [Базові принципи управління
-сесіями](features.session.security.management.md)
+- [Базові принципи управління сесіями](features.session.security.management.md)
 - [INI-налаштування безпеки сесій](session.security.ini.md)
 
-Зовнішні посилання: [» Атака "Фіксація"
-сесії"](http://www.acros.si/papers/session_fixation.pdf)
+Зовнішні посилання: [» Атака "Фіксація" сесії"](http://www.acros.si/papers/session_fixation.pdf)
 
 Робота з HTTP-сесіями є основою веб-безпеки. Повинні бути
 застосовано всі можливі заходи для забезпечення безпеки сесії.

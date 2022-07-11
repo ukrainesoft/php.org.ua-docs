@@ -1,6 +1,5 @@
 - [« GearmanClient::runTasks](gearmanclient.runtasks.md)
-- [GearmanClient::setCompleteCallback
-»](gearmanclient.setcompletecallback.md)
+- [GearmanClient::setCompleteCallback »](gearmanclient.setcompletecallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

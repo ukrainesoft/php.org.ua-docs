@@ -1,6 +1,5 @@
 - [« DOMDocument::createElementNS](domdocument.createelementns.md)
-- [DOMDocument::createProcessingInstruction
-»](domdocument.createprocessinginstruction.md)
+- [DOMDocument::createProcessingInstruction »](domdocument.createprocessinginstruction.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

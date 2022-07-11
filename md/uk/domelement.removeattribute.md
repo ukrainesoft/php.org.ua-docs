@@ -1,6 +1,5 @@
 - [« DOMElement::hasAttributeNS](domelement.hasattributens.md)
-- [DOMElement::removeAttributeNode
-»](domelement.removeattributenode.md)
+- [DOMElement::removeAttributeNode »](domelement.removeattributenode.md)
 
 - [PHP Manual](index.md)
 - [DOMElement](class.domelement.md)

@@ -35,8 +35,7 @@ public **Ds\Set::xor**([Ds\Set](class.ds-set.md) `$set`):
 
 ### Також дивіться
 
-- [» Симетрична
-різницю](https://en.wikipedia.org/wiki/Symmetric_difference) в
+- [» Симетрична різницю](https://en.wikipedia.org/wiki/Symmetric_difference) в
 Вікіпедія
 
 ### Приклади

@@ -1,5 +1,5 @@
 - [« fann_run](function.fann-run.md)
-- [fann_save »] (function.fann-save.md)
+- [fann_save »](function.fann-save.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

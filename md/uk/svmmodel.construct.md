@@ -1,5 +1,4 @@
-- [«
-SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md)
+- [« SVMModel::checkProbabilityModel](svmmodel.checkprobabilitymodel.md)
 - [SVMModel::getLabels »](svmmodel.getlabels.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-UConverter::getDestinationType](uconverter.getdestinationtype.md)
+- [« UConverter::getDestinationType](uconverter.getdestinationtype.md)
 - [UConverter::getErrorMessage »](uconverter.geterrormessage.md)
 
 - [PHP Manual](index.md)

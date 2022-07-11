@@ -1,5 +1,4 @@
-- [«
-DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.md)
+- [« DOMProcessingInstruction::\_\_construct](domprocessinginstruction.construct.md)
 - [DOMText::\_\_construct »](domtext.construct.md)
 
 - [PHP Manual](index.md)

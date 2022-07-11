@@ -1,6 +1,5 @@
 - [« Модуль mysqli та постійні з'єднання](mysqli.persistconns.md)
-- [Основна інформація про функції модуля MySQLi
-»](mysqli.summary.md)
+- [Основна інформація про функції модуля MySQLi »](mysqli.summary.md)
 
 - [PHP Manual](index.md)
 - [MySQLi](book.mysqli.md)

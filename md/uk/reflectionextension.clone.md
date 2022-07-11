@@ -1,6 +1,5 @@
 - [« ReflectionExtension](class.reflectionextension.md)
-- [ReflectionExtension::\_\_construct
-»](reflectionextension.construct.md)
+- [ReflectionExtension::\_\_construct »](reflectionextension.construct.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

@@ -24,8 +24,7 @@ public **Imagick::previewImages**(int `$preview`): bool
 
 `preview`
 Тип попереднього перегляду. Дивіться [константи типу
-попереднього
-перегляду](imagick.constants.md#imagick.constants.preview)
+попереднього перегляду](imagick.constants.md#imagick.constants.preview)
 
 ### Значення, що повертаються
 

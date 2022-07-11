@@ -1,6 +1,5 @@
 - [« Yaf_Exception::getPrevious](yaf-exception.getprevious.md)
-- [Yaf_Exception_StartupError
-»](class.yaf-exception-startuperror.md)
+- [Yaf_Exception_StartupError »](class.yaf-exception-startuperror.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

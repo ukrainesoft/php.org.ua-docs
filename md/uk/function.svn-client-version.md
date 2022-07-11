@@ -1,5 +1,5 @@
 - [« svn_cleanup](function.svn-cleanup.md)
-- [svn_commit »] (function.svn-commit.md)
+- [svn_commit »](function.svn-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)

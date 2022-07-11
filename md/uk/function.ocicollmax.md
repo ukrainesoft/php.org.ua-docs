@@ -1,4 +1,4 @@
-- [« ocicollgetelem] (function.ocicollgetelem.md)
+- [« ocicollgetelem](function.ocicollgetelem.md)
 - [ocicollsize »](function.ocicollsize.md)
 
 - [PHP Manual](index.md)

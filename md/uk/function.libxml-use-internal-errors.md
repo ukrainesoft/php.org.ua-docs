@@ -1,5 +1,4 @@
-- [«
-libxml_set_streams_context](function.libxml-set-streams-context.md)
+- [« libxml_set_streams_context](function.libxml-set-streams-context.md)
 - [SimpleXML »](book.simplexml.md)
 
 - [PHP Manual](index.md)

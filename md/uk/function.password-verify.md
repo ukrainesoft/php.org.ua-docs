@@ -53,7 +53,6 @@ password_verify — Перевіряє, чи пароль хешу відпов�
 ### Дивіться також
 
 - [password_hash()](function.password-hash.md) - Створює хеш пароля
-- [» користувацька
-реалізація](https://github.com/ircmaxell/password_compat)
+- [» користувацька реалізація](https://github.com/ircmaxell/password_compat)
 - [sodium_crypto_pwhash_str_verify()](function.sodium-crypto-pwhash-str-verify.md) -
 Перевіряє, що пароль відповідає хешу

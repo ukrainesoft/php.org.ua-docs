@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.md)
-- [ColumnResult::getTableName
-»](mysql-xdevapi-columnresult.gettablename.md)
+- [« ColumnResult::getSchemaName](mysql-xdevapi-columnresult.getschemaname.md)
+- [ColumnResult::getTableName »](mysql-xdevapi-columnresult.gettablename.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

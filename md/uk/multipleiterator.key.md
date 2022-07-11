@@ -37,7 +37,7 @@ public **MultipleIterator::key**(): array
 **`MIT_NEED_ALL`** і принаймні один приєднаний ітератор
 недійсний.
 
-Виклик цього методу з [foreach] (control-structures.foreach.md)
+Виклик цього методу з [foreach](control-structures.foreach.md)
 попередження "Повернений неправильний тип" ("Illegal type returned").
 
 ### Список змін

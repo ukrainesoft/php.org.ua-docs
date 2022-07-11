@@ -1,5 +1,5 @@
 - [« Встановлення](strings.installation.md)
-- [Типи ресурсів»] (strings.resources.md)
+- [Типи ресурсів»](strings.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](strings.setup.md)

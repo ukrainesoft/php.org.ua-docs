@@ -1,6 +1,5 @@
 - [« CollectionFind::having](mysql-xdevapi-collectionfind.having.md)
-- [CollectionFind::lockExclusive
-»](mysql-xdevapi-collectionfind.lockexclusive.md)
+- [CollectionFind::lockExclusive »](mysql-xdevapi-collectionfind.lockexclusive.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

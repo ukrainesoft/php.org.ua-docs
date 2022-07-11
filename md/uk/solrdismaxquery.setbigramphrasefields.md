@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md)
-- [SolrDisMaxQuery::setBigramPhraseSlop
-»](solrdismaxquery.setbigramphraseslop.md)
+- [« SolrDisMaxQuery::removeUserField](solrdismaxquery.removeuserfield.md)
+- [SolrDisMaxQuery::setBigramPhraseSlop »](solrdismaxquery.setbigramphraseslop.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

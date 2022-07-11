@@ -1,6 +1,5 @@
 - [«openssl_seal](function.openssl-seal.md)
-- [openssl_spki_export_challenge
-»](function.openssl-spki-export-challenge.md)
+- [openssl_spki_export_challenge »](function.openssl-spki-export-challenge.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -43,8 +42,7 @@ string\|int `$algorithm` u003d **`OPENSSL_ALGO_SHA1`**
 Рядок, що є ключем у форматі PEM
 
 `algorithm`
-Ціле число, що визначає алгоритм. Дивіться [алгоритми
-підпису](openssl.signature-algos.md).
+Ціле число, що визначає алгоритм. Дивіться [алгоритми підпису](openssl.signature-algos.md).
 
 Рядок, повернутий
 [openssl_get_md_methods()](function.openssl-get-md-methods.md).

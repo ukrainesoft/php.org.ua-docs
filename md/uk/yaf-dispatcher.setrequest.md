@@ -1,5 +1,4 @@
-- [«
-Yaf_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md)
+- [« Yaf_Dispatcher::setErrorHandler](yaf-dispatcher.seterrorhandler.md)
 - [Yaf_Dispatcher::setView »](yaf-dispatcher.setview.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.md)
-- [SolrQuery::setHighlightSimplePost
-»](solrquery.sethighlightsimplepost.md)
+- [« SolrQuery::setHighlightRegexSlop](solrquery.sethighlightregexslop.md)
+- [SolrQuery::setHighlightSimplePost »](solrquery.sethighlightsimplepost.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

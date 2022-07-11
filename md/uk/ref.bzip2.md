@@ -1,5 +1,5 @@
 - [« Приклади](bzip2.examples.md)
-- [bzclose »] (function.bzclose.md)
+- [bzclose »](function.bzclose.md)
 
 - [PHP Manual](index.md)
 - [Bzip2](book.bzip2.md)

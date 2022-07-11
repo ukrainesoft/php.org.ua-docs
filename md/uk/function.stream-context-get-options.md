@@ -1,7 +1,5 @@
-- [«
-stream_context_get_default](function.stream-context-get-default.md)
-- [stream_context_get_params
-»](function.stream-context-get-params.md)
+- [« stream_context_get_default](function.stream-context-get-default.md)
+- [stream_context_get_params »](function.stream-context-get-params.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

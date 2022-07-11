@@ -1,5 +1,4 @@
-- [«
-fdf_set_javascript_action](function.fdf-set-javascript-action.md)
+- [« fdf_set_javascript_action](function.fdf-set-javascript-action.md)
 - [fdf_set_opt »](function.fdf-set-opt.md)
 
 - [PHP Manual](index.md)

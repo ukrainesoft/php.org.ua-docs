@@ -1,6 +1,5 @@
 - [« COMPersistHelper::InitNew](compersisthelper.initnew.md)
-- [COMPersistHelper::LoadFromStream
-»](compersisthelper.loadfromstream.md)
+- [COMPersistHelper::LoadFromStream »](compersisthelper.loadfromstream.md)
 
 - [PHP Manual](index.md)
 - [COMPersistHelper](class.compersisthelper.md)
@@ -26,8 +25,7 @@ $flags u003d 0): bool
 
 `flags`
 Режим доступу для доступу до файлу. Допустимі значення вказані в
-[» перерахуванні
-STGM](https://docs.microsoft.com/en-us/windows/win32/stg/stgm-constants).
+[» перерахуванні STGM](https://docs.microsoft.com/en-us/windows/win32/stg/stgm-constants).
 Цей режим вважається бажаним, але може бути, по необхідності, змінено
 на більш строгий Якщо параметр `flags` заданий як `0`, то файл буде
 відкритий з дозволами за замовчуванням, які б використовувалися, якби

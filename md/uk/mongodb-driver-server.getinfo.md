@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::getHost](mongodb-driver-server.gethost.md)
-- [MongoDB\Driver\Server::getLatency
-»](mongodb-driver-server.getlatency.md)
+- [« MongoDB\Driver\Server::getHost](mongodb-driver-server.gethost.md)
+- [MongoDB\Driver\Server::getLatency »](mongodb-driver-server.getlatency.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -21,8 +19,7 @@ final public **MongoDB\Driver\Server::getInfo**(): array
 Повертає масив інформації, що описує сервер. Цей масив отриманий з
 останньої відповіді команди
 [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/),
-отриманого за допомогою [» моніторингу
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
+отриманого за допомогою [» моніторингу сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
 
 > **Примітка**:
 >
@@ -194,5 +191,4 @@ string(10) "1635478989"
 - команда
 [»Hello](https://www.mongodb.com/docs/manual/reference/command/hello/)
 у посібнику MongoDB
-- [»Керівництво з виявлення та моніторингу
-серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+- [»Керівництво з виявлення та моніторингу серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)

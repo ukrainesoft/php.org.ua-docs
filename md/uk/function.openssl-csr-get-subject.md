@@ -1,5 +1,4 @@
-- [«
-openssl_csr_get_public_key](function.openssl-csr-get-public-key.md)
+- [« openssl_csr_get_public_key](function.openssl-csr-get-public-key.md)
 - [openssl_csr_new »](function.openssl-csr-new.md)
 
 - [PHP Manual](index.md)
@@ -24,8 +23,7 @@ openssl_csr_get_subject — Повертає суб'єкт CSR
 ### Список параметрів
 
 `csr`
-Для отримання списку допустимих значень дивіться [Параметри
-CSR](openssl.certparams.md).
+Для отримання списку допустимих значень дивіться [Параметри CSR](openssl.certparams.md).
 
 `short_names`
 `shortnames` визначає, як дані індексуються в масиві, якщо

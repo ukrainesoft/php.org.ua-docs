@@ -2,7 +2,7 @@
 - [EvIo::\_\_construct »](evio.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvIo
 
 # Клас EvIo

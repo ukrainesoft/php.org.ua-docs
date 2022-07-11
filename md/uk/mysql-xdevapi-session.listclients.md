@@ -1,5 +1,4 @@
-- [«
-Session::getServerVersion](mysql-xdevapi-session.getserverversion.md)
+- [« Session::getServerVersion](mysql-xdevapi-session.getserverversion.md)
 - [Session::quoteName »](mysql-xdevapi-session.quotename.md)
 
 - [PHP Manual](index.md)

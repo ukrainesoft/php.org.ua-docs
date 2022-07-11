@@ -1,5 +1,5 @@
 - [«stream_bucket_append](function.stream-bucket-append.md)
-- [stream_bucket_new »] (function.stream-bucket-new.md)
+- [stream_bucket_new »](function.stream-bucket-new.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

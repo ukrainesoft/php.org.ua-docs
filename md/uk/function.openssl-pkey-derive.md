@@ -1,6 +1,5 @@
 - [« openssl_pkcs7_verify](function.openssl-pkcs7-verify.md)
-- [openssl_pkey_export_to_file
-»](function.openssl-pkey-export-to-file.md)
+- [openssl_pkey_export_to_file »](function.openssl-pkey-export-to-file.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

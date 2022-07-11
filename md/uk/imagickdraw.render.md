@@ -1,6 +1,5 @@
 - [« ImagickDraw::rectangle](imagickdraw.rectangle.md)
-- [ImagickDraw::resetVectorGraphics
-»](imagickdraw.resetvectorgraphics.md)
+- [ImagickDraw::resetVectorGraphics »](imagickdraw.resetvectorgraphics.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

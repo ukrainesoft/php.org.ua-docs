@@ -59,8 +59,7 @@ func_num_args — Повертає кількість аргументів, на
 
 ### Дивіться також
 
-- [Синтаксис
-`...`](functions.arguments.md#functions.variable-arg-list)
+- [Синтаксис `...`](functions.arguments.md#functions.variable-arg-list)
 - [func_get_arg()](function.func-get-arg.md)
 - [func_get_args()](function.func-get-args.md)
 - [ReflectionFunctionAbstract::getNumberOfParameters()](reflectionfunctionabstract.getnumberofparameters.md)

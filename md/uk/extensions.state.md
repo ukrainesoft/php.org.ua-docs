@@ -1,5 +1,5 @@
 - [« За складом](extensions.membership.md)
-- [Список псевдонімів функцій»] (aliases.md)
+- [Список псевдонімів функцій»](aliases.md)
 
 - [PHP Manual](index.md)
 - [Список/класифікація модулів](extensions.md)
@@ -27,9 +27,9 @@
 
 - [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md)
 
-- [Firebird (PDO)] (ref.pdo-firebird.md)
+- [Firebird (PDO)](ref.pdo-firebird.md)
 
-- [Oracle (PDO)] (ref.pdo-oci.md)
+- [Oracle (PDO)](ref.pdo-oci.md)
 
 - [PS](book.ps.md)
 

@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.md)
-- [ColumnResult::getFractionalDigits
-»](mysql-xdevapi-columnresult.getfractionaldigits.md)
+- [« ColumnResult::getColumnLabel](mysql-xdevapi-columnresult.getcolumnlabel.md)
+- [ColumnResult::getFractionalDigits »](mysql-xdevapi-columnresult.getfractionaldigits.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

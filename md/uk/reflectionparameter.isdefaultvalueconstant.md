@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.md)
-- [ReflectionParameter::isOptional
-»](reflectionparameter.isoptional.md)
+- [« ReflectionParameter::isDefaultValueAvailable](reflectionparameter.isdefaultvalueavailable.md)
+- [ReflectionParameter::isOptional »](reflectionparameter.isoptional.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

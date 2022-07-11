@@ -1,6 +1,5 @@
 - [« ImagickDraw::matte](imagickdraw.matte.md)
-- [ImagickDraw::pathCurveToAbsolute
-»](imagickdraw.pathcurvetoabsolute.md)
+- [ImagickDraw::pathCurveToAbsolute »](imagickdraw.pathcurvetoabsolute.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

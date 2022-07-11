@@ -1,6 +1,5 @@
 - [« SplPriorityQueue::current](splpriorityqueue.current.md)
-- [SplPriorityQueue::getExtractFlags
-»](splpriorityqueue.getextractflags.md)
+- [SplPriorityQueue::getExtractFlags »](splpriorityqueue.getextractflags.md)
 
 - [PHP Manual](index.md)
 - [SplPriorityQueue](class.splpriorityqueue.md)

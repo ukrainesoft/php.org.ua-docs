@@ -1,6 +1,5 @@
 - [« Vtiful\Kernel\Excel::addSheet](vtiful-kernel-excel.addSheet.md)
-- [Vtiful\Kernel\Excel::constMemory
-»](vtiful-kernel-excel.constMemory.md)
+- [Vtiful\Kernel\Excel::constMemory »](vtiful-kernel-excel.constMemory.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

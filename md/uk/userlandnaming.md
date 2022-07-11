@@ -1,6 +1,5 @@
 - [« Список тегів (tokens) парсера](tokens.md)
-- [Глобальний простір імен
-»](userlandnaming.globalnamespace.md)
+- [Глобальний простір імен »](userlandnaming.globalnamespace.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)

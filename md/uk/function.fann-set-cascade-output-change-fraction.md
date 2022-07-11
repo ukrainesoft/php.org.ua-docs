@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_num_candidate_groups](function.fann-set-cascade-num-candidate-groups.md)
-- [fann_set_cascade_output_stagnation_epochs
-»](function.fann-set-cascade-output-stagnation-epochs.md)
+- [« fann_set_cascade_num_candidate_groups](function.fann-set-cascade-num-candidate-groups.md)
+- [fann_set_cascade_output_stagnation_epochs »](function.fann-set-cascade-output-stagnation-epochs.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

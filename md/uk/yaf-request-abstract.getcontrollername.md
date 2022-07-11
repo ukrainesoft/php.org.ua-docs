@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.md)
+- [« Yaf_Request_Abstract::getBaseUri](yaf-request-abstract.getbaseuri.md)
 - [Yaf_Request_Abstract::getEnv »](yaf-request-abstract.getenv.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Установка](tcpwrap.installation.md)
-- [Типи ресурсів»] (tcpwrap.resources.md)
+- [Типи ресурсів»](tcpwrap.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](tcpwrap.setup.md)

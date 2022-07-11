@@ -1,6 +1,5 @@
 - [« PharData::setDefaultStub](phardata.setdefaultstub.md)
-- [PharData::setSignatureAlgorithm
-»](phardata.setsignaturealgorithm.md)
+- [PharData::setSignatureAlgorithm »](phardata.setsignaturealgorithm.md)
 
 - [PHP Manual](index.md)
 - [PharData](class.phardata.md)

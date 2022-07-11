@@ -60,12 +60,12 @@ array
 - Масив BSON буде десеріалізовано, як PHP array.
 
 - Документ BSON (кореневий або впроваджений) без властивості \_\_pclass
-[^(\[1\])](#fnidmongodb.pclass) стає об'єктом PHP
+[^([1])](#fnidmongodb.pclass) стає об'єктом PHP
 **stdClass**, причому кожен ключ документа BSON встановлюється в
 якість відкритої властивості **stdClass**.
 
 - Документ BSON (кореневий або вбудований) з властивістю \_\_pclass
-[^(\[1\])](#fnidmongodb.pclass) стає об'єктом PHP імені
+[^([1])](#fnidmongodb.pclass) стає об'єктом PHP імені
 класу, як визначено властивістю \_\_pclass.
 
 Якщо вказаний клас реалізує інтерфейс
@@ -90,13 +90,13 @@ M[MongoDB\BSON\Persistable](class.mongodb-bson-persistable.md), то
 ``array'`
 Перетворює масив BSON або документ BSON на масив PHP. Не буде
 спеціальної обробки властивості \_\_pclass
-[^(\[1\])](#fnidmongodb.pclass), але його можна встановити, як елемент у
+[^([1])](#fnidmongodb.pclass), але його можна встановити, як елемент у
 повертається масиві, якщо він був присутній у документі BSON.
 
 ``object'' або ``stdClass'`
 Перетворює масив BSON або документ BSON на об'єкт **stdClass**. Не буде
 спеціальної обробки властивості \_\_pclass
-[^(\[1\])](#fnidmongodb.pclass), але воно може бути встановлене, як
+[^([1])](#fnidmongodb.pclass), але воно може бути встановлене, як
 відкрита властивість у об'єкті, що повертається, якщо вона була присутня в
 документі BSON.
 
@@ -161,7 +161,7 @@ TheirClass
 ` <?phpfunction bsonUnserialize( array $map ){   foreach ( $map as $k u003d> $value )    {        $this-$$$; }   $this->unserialized u003d true;} `
 
 ``` textcode
-/* typemap: [] (усі значення за замовчуванням) */
+/* typemap: [](усі значення за замовчуванням) */
 {"foo": "yes", "bar": false}
 -> stdClass { $foo u003d> 'yes', $bar u003d> false }
 

@@ -17,11 +17,9 @@
 - [Короткий огляд підтримуваних кодувань](mbstring.encodings.md)
 - [Основи японських багатобайтних кодувань](mbstring.ja-basic.md)
 - [Введення та виведення HTTP](mbstring.http.md)
-- [Підтримувані кодування
-символів](mbstring.supported-encodings.md)
+- [Підтримувані кодування символів](mbstring.supported-encodings.md)
 - [Механізм навантаження функцій](mbstring.overload.md)
-- [Вимоги, що пред'являються до кодувань символів
-PHP](mbstring.php4.req.md)
+- [Вимоги, що пред'являються до кодувань символів PHP](mbstring.php4.req.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
 - [mb_check_encoding](function.mb-check-encoding.md) -
 Перевіряє, що кодування рядків вибрано правильно
@@ -31,7 +29,7 @@ PHP](mbstring.php4.req.md)
 зміну регістру символів у рядку
 - [mb_convert_encoding](function.mb-convert-encoding.md) -
 Перетворює рядок з одного кодування символів на інше
-- [mb_convert_kana] (function.mb-convert-kana.md) -
+- [mb_convert_kana](function.mb-convert-kana.md) -
 Перетворення кодувань "kana" з одного в інше ("zen-kaku",
 "han-kaku" та інші)
 - [mb_convert_variables](function.mb-convert-variables.md) -

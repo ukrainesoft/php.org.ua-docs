@@ -1,5 +1,4 @@
-- [« Відмінності від стандартного
-Lua] (reference.luasandbox.differences.md)
+- [« Відмінності від стандартного Lua](reference.luasandbox.differences.md)
 - [Базове використання LuaSandbox »](luasandbox.examples-basic.md)
 
 - [PHP Manual](index.md)

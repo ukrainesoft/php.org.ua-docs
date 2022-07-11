@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
-- [ReflectionParameter::getDefaultValue
-»](reflectionparameter.getdefaultvalue.md)
+- [« ReflectionParameter::getDeclaringClass](reflectionparameter.getdeclaringclass.md)
+- [ReflectionParameter::getDefaultValue »](reflectionparameter.getdefaultvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

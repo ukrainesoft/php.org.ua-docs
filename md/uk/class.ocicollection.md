@@ -1,5 +1,4 @@
-- [«
-oci_unregister_taf_callback](function.oci-unregister-taf-callback.md)
+- [« oci_unregister_taf_callback](function.oci-unregister-taf-callback.md)
 - [OCICollection::append »](ocicollection.append.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md)
-- [MongoDB\Driver\Monitoring\TopologyChangedEvent
-»](class.mongodb-driver-monitoring-topologychangedevent.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md)
+- [MongoDB\Driver\Monitoring\TopologyChangedEvent »](class.mongodb-driver-monitoring-topologychangedevent.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md)

@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::getVersion](reflectionextension.getversion.md)
-- [ReflectionExtension::isPersistent
-»](reflectionextension.ispersistent.md)
+- [« ReflectionExtension::getVersion](reflectionextension.getversion.md)
+- [ReflectionExtension::isPersistent »](reflectionextension.ispersistent.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

@@ -17,8 +17,7 @@
 - [Помилки та їх обробка](com.error-handling.md)
 - [Приклади](com.examples.md)
 - [For Each](com.examples.foreach.md)
-- [Масиви та властивості COM у стилі
-масивів](com.examples.arrays.md)
+- [Масиви та властивості COM у стилі масивів](com.examples.arrays.md)
 - [com](class.com.md) - Клас com
 - [com::\_\_construct](com.construct.md) - Конструктор класу
 com

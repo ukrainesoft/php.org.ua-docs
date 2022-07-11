@@ -1,7 +1,5 @@
-- [«
-IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.md)
-- [IntlDatePatternGenerator::create
-»](intldatepatterngenerator.create.md)
+- [« IntlCodePointBreakIterator::getLastCodePoint](intlcodepointbreakiterator.getlastcodepoint.md)
+- [IntlDatePatternGenerator::create »](intldatepatterngenerator.create.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)

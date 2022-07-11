@@ -2,8 +2,7 @@
 - [Якоря »](regexp.reference.anchors.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Властивості Unicode-символів
 
 ## Властивості Unicode-символів

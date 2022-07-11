@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md)
+- [« SolrQuery::setHighlightUsePhraseHighlighter](solrquery.sethighlightusephrasehighlighter.md)
 - [SolrQuery::setMltBoost »](solrquery.setmltboost.md)
 
 - [PHP Manual](index.md)

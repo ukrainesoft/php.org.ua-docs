@@ -1,6 +1,5 @@
 - [«UI\Draw\Line\Join](class.ui-draw-line-join.md)
-- [UI\Exception\InvalidArgumentException
-»](class.ui-exception-invalidargumentexception.md)
+- [UI\Exception\InvalidArgumentException »](class.ui-exception-invalidargumentexception.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

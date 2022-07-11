@@ -1,6 +1,5 @@
 - [« fann_set_bit_fail_limit](function.fann-set-bit-fail-limit.md)
-- [fann_set_cascade_activation_functions
-»](function.fann-set-cascade-activation-functions.md)
+- [fann_set_cascade_activation_functions »](function.fann-set-cascade-activation-functions.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

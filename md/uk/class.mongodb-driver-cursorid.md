@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Cursor::valid](mongodb-driver-cursor.valid.md)
-- [MongoDB\Driver\CursorId::\_\_construct
-»](mongodb-driver-cursorid.construct.md)
+- [MongoDB\Driver\CursorId::\_\_construct »](mongodb-driver-cursorid.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

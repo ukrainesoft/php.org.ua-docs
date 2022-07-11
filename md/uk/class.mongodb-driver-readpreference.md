@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md)
-- [MongoDB\Driver\ReadPreference::bsonSerialize
-»](mongodb-driver-readpreference.bsonserialize.md)
+- [« MongoDB\Driver\WriteConcern::unserialize](mongodb-driver-writeconcern.unserialize.md)
+- [MongoDB\Driver\ReadPreference::bsonSerialize »](mongodb-driver-readpreference.bsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)
@@ -140,8 +138,7 @@ final public
 [TABLE]
 
 ## Зміст
-
-- [MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)
+ - [MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)
 — Повертає об'єкт серіалізації BSON
 - [MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)
 — Створити новий ReadPreference

@@ -1,7 +1,5 @@
-- [«
-IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md)
-- [IntlPartsIterator::getBreakIterator
-»](intlpartsiterator.getbreakiterator.md)
+- [« IntlDatePatternGenerator::getBestPattern](intldatepatterngenerator.getbestpattern.md)
+- [IntlPartsIterator::getBreakIterator »](intlpartsiterator.getbreakiterator.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)

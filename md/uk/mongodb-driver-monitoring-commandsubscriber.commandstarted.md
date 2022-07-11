@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded
-»](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md)
+- [« MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed](mongodb-driver-monitoring-commandsubscriber.commandfailed.md)
+- [MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded »](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)

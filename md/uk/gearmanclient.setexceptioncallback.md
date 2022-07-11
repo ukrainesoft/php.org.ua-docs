@@ -1,7 +1,5 @@
-- [«
-GearmanClient::setDataCallback](gearmanclient.setdatacallback.md)
-- [GearmanClient::setFailCallback
-»](gearmanclient.setfailcallback.md)
+- [« GearmanClient::setDataCallback](gearmanclient.setdatacallback.md)
+- [GearmanClient::setFailCallback »](gearmanclient.setfailcallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

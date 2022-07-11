@@ -1,5 +1,4 @@
-- [«
-DOMElement::setAttributeNodeNS](domelement.setattributenodens.md)
+- [« DOMElement::setAttributeNodeNS](domelement.setattributenodens.md)
 - [DOMElement::setIdAttribute »](domelement.setidattribute.md)
 
 - [PHP Manual](index.md)

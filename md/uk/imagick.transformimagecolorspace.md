@@ -1,6 +1,5 @@
 - [« Imagick::transformImage](imagick.transformimage.md)
-- [Imagick::transparentPaintImage
-»](imagick.transparentpaintimage.md)
+- [Imagick::transparentPaintImage »](imagick.transparentpaintimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)
@@ -23,8 +22,7 @@ public **Imagick::transformImageColorspace**(int `$colorspace`): bool
 
 `colorspace`
 Колірний простір, в який має бути перетворено зображення,
-одна з [констант
-COLORSPACE](imagick.constants.md#imagick.constants.colorspace),
+одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace),
 наприклад, Imagick::COLORSPACE_CMYK.
 
 ### Значення, що повертаються

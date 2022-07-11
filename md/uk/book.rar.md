@@ -12,7 +12,7 @@
 - [Вимоги](rar.requirements.md)
 - [Установка](rar.installation.md)
 - [Налаштування під час виконання](rar.configuration.md)
-- [Типи ресурсів] (rar.resources.md)
+- [Типи ресурсів](rar.resources.md)
 - [Предвизначені константи](rar.constants.md)
 - [Приклади](rar.examples.md)
 - [Rar](ref.rar.md)

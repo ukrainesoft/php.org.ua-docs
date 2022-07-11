@@ -1,5 +1,4 @@
-- [«
-readline_callback_handler_remove](function.readline-callback-handler-remove.md)
+- [« readline_callback_handler_remove](function.readline-callback-handler-remove.md)
 - [readline_clear_history »](function.readline-clear-history.md)
 
 - [PHP Manual](index.md)

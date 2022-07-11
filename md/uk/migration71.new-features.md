@@ -59,8 +59,7 @@ int(1)
 Додано підтримку визначення області видимості для констант класу.
 
 `<?phpclass ConstDemo{    const PUBLIC_CONST_A u003d 1; public const PUBLIC_CONST_B u003d 2; protected const PROTECTED_CONST u003d 3; private const PRIVATE_CONST u003d 4;} `
-
-### Псевдотип [iterable](language.types.iterable.md)
+ ### Псевдотип [iterable](language.types.iterable.md)
 
 Було додано новий псевдотип (схожий на
 [callable](language.types.callable.md)), названий
@@ -96,9 +95,7 @@ array або [Traversable](class.traversable.md) до
 
 ### Підтримка негативних зсувів для рядків
 
-Підтримка негативних зсувів для рядків додано до [функції для
-роботи з рядками](book.strings.md), а також в [індексацію
-строк](language.types.string.md#language.types.string.substr) з
+Підтримка негативних зсувів для рядків додано до [функції для роботи з рядками](book.strings.md), а також в [індексацію строк](language.types.string.md#language.types.string.substr) з
 допомогою `[]` або `{}`. У цих випадках негативні усунення
 інтерпретуються як усунення щодо кінця рядка.
 

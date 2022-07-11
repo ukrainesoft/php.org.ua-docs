@@ -20,8 +20,7 @@ curl_share_strerror — Повертає опис для заданого код
 ### Список параметрів
 
 `error_code`
-Одна із констант: [» Коди помилок
-cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
+Одна із констант: [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
 
 ### Значення, що повертаються
 

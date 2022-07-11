@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\UTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.md)
+- [« MongoDB\BSON\UTCDateTime::unserialize](mongodb-bson-utcdatetime.unserialize.md)
 - [MongoDB\BSON\Persistable »](class.mongodb-bson-persistable.md)
 
 - [PHP Manual](index.md)

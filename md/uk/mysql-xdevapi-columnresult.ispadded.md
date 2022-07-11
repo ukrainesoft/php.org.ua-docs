@@ -1,7 +1,5 @@
-- [«
-ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.md)
-- [mysql_xdevapi\CrudOperationBindable
-»](class.mysql-xdevapi-crudoperationbindable.md)
+- [« ColumnResult::isNumberSigned](mysql-xdevapi-columnresult.isnumbersigned.md)
+- [mysql_xdevapi\CrudOperationBindable »](class.mysql-xdevapi-crudoperationbindable.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

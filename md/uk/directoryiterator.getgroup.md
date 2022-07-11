@@ -1,5 +1,4 @@
-- [«
-DirectoryIterator::getFilename](directoryiterator.getfilename.md)
+- [« DirectoryIterator::getFilename](directoryiterator.getfilename.md)
 - [DirectoryIterator::getInode »](directoryiterator.getinode.md)
 
 - [PHP Manual](index.md)

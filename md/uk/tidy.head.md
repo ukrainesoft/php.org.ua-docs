@@ -2,7 +2,7 @@
 - [tidy::html »](tidy.md.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає об'єкт tidyNode, починаючи з тега \<head\> розібраного
 tidy-дерева
 

@@ -1,5 +1,5 @@
 - [« cubrid_get_query_timeout](function.cubrid-get-query-timeout.md)
-- [cubrid_get»] (function.cubrid-get.md)
+- [cubrid_get»](function.cubrid-get.md)
 
 - [PHP Manual](index.md)
 - [Функції CUBRID](ref.cubrid.md)

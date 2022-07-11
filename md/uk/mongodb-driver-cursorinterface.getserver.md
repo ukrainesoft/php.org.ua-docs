@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorInterface::getId](mongodb-driver-cursorinterface.getid.md)
-- [MongoDB\Driver\CursorInterface::isDead
-»](mongodb-driver-cursorinterface.isdead.md)
+- [« MongoDB\Driver\CursorInterface::getId](mongodb-driver-cursorinterface.getid.md)
+- [MongoDB\Driver\CursorInterface::isDead »](mongodb-driver-cursorinterface.isdead.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)

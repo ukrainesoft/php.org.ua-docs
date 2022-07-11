@@ -1,6 +1,5 @@
 - [« EventListener::getSocketName](eventlistener.getsocketname.md)
-- [EventListener::setErrorCallback
-»](eventlistener.seterrorcallback.md)
+- [EventListener::setErrorCallback »](eventlistener.seterrorcallback.md)
 
 - [PHP Manual](index.md)
 - [EventListener](class.eventlistener.md)

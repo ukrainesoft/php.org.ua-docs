@@ -1,7 +1,5 @@
-- [«
-Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md)
-- [Result::getGeneratedIds
-»](mysql-xdevapi-result.getgeneratedids.md)
+- [« Result::getAffectedItemsCount](mysql-xdevapi-result.getaffecteditemscount.md)
+- [Result::getGeneratedIds »](mysql-xdevapi-result.getgeneratedids.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)

@@ -89,7 +89,6 @@ position більше реально переданої кількості ар�
 
 ### Дивіться також
 
-- [Синтаксис
-`...`](functions.arguments.md#functions.variable-arg-list)
+- [Синтаксис `...`](functions.arguments.md#functions.variable-arg-list)
 - [func_get_args()](function.func-get-args.md)
 - [func_num_args()](function.func-num-args.md)

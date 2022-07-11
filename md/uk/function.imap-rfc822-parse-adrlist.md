@@ -1,6 +1,5 @@
 - [« imap_reopen](function.imap-reopen.md)
-- [imap_rfc822_parse_headers
-»](function.imap-rfc822-parse-headers.md)
+- [imap_rfc822_parse_headers »](function.imap-rfc822-parse-headers.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

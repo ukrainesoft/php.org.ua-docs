@@ -1,6 +1,5 @@
 - [« trader_cdltristar](function.trader-cdltristar.md)
-- [trader_cdlupsidegap2crows
-»](function.trader-cdlupsidegap2crows.md)
+- [trader_cdlupsidegap2crows »](function.trader-cdlupsidegap2crows.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

@@ -1,5 +1,4 @@
-- [«
-DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md)
+- [« DOMImplementation::createDocumentType](domimplementation.createdocumenttype.md)
 - [DOMNamedNodeMap »](class.domnamednodemap.md)
 
 - [PHP Manual](index.md)

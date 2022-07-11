@@ -1,6 +1,5 @@
 - [« DOMDocument::loadXML](domdocument.loadxml.md)
-- [DOMDocument::registerNodeClass
-»](domdocument.registernodeclass.md)
+- [DOMDocument::registerNodeClass »](domdocument.registernodeclass.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)
@@ -29,6 +28,5 @@ public **DOMDocument::normalizeDocument**(): void
 
 ### Дивіться також
 
-- [» Специфікація
-DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-Document3-normalizeDocument)
+- [» Специфікація DOM](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-Document3-normalizeDocument)
 - [DOMNode::normalize()](domnode.normalize.md) - Нормалізує вузол

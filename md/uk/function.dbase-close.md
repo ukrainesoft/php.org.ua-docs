@@ -1,5 +1,5 @@
 - [« dbase_add_record](function.dbase-add-record.md)
-- [dbase_create »] (function.dbase-create.md)
+- [dbase_create »](function.dbase-create.md)
 
 - [PHP Manual](index.md)
 - [dBase](ref.dbase.md)

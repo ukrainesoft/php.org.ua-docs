@@ -1,5 +1,4 @@
-- [«
-NumberFormatter::parseCurrency](numberformatter.parsecurrency.md)
+- [« NumberFormatter::parseCurrency](numberformatter.parsecurrency.md)
 - [NumberFormatter::setAttribute »](numberformatter.setattribute.md)
 
 - [PHP Manual](index.md)
@@ -42,8 +41,7 @@ int `&$offset` u003d **`null`**
 Рядок для розбору числа.
 
 `type`
-Використовуваний [тип
-форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
+Використовуваний [тип форматирования](class.numberformatter.md#intl.numberformatter-constants.types).
 За промовчанням використовується **`NumberFormatter::TYPE_DOUBLE`**.
 
 `offset`

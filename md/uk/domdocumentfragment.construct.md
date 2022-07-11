@@ -1,5 +1,4 @@
-- [«
-DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md)
+- [« DOMDocumentFragment::appendXML](domdocumentfragment.appendxml.md)
 - [DOMDocumentType »](class.domdocumenttype.md)
 
 - [PHP Manual](index.md)

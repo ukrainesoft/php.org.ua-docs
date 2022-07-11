@@ -32,8 +32,7 @@ public **Imagick::compareImageChannels**([Imagick](class.imagick.md)
 [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
 
 `metricType`
-Одна з [констант типу
-METRIC](imagick.constants.md#imagick.constants.metric).
+Одна з [констант типу METRIC](imagick.constants.md#imagick.constants.metric).
 
 ### Значення, що повертаються
 

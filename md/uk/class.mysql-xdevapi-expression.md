@@ -1,7 +1,5 @@
-- [«
-ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md)
-- [Expression::\_\_construct
-»](mysql-xdevapi-expression.construct.md)
+- [« ExecutionStatus::\_\_construct](mysql-xdevapi-executionstatus.construct.md)
+- [Expression::\_\_construct »](mysql-xdevapi-expression.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (mail.resources.md)
+- [« Типи ресурсів](mail.resources.md)
 - [Пошта »](ref.mail.md)
 
 - [PHP Manual](index.md)

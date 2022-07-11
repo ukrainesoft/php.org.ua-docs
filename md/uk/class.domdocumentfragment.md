@@ -1,6 +1,5 @@
 - [« DOMDocument::xinclude](domdocument.xinclude.md)
-- [DOMDocumentFragment::appendXML
-»](domdocumentfragment.appendxml.md)
+- [DOMDocumentFragment::appendXML »](domdocumentfragment.appendxml.md)
 
 - [PHP Manual](index.md)
 - [DOM](book.dom.md)

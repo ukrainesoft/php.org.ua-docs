@@ -1,6 +1,5 @@
 - [« IntlCalendar::getNow](intlcalendar.getnow.md)
-- [IntlCalendar::getSkippedWallTimeOption
-»](intlcalendar.getskippedwalltimeoption.md)
+- [IntlCalendar::getSkippedWallTimeOption »](intlcalendar.getskippedwalltimeoption.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

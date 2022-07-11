@@ -1,5 +1,4 @@
-- [«
-mysqli_driver::embedded_server_end](mysqli-driver.embedded-server-end.md)
+- [« mysqli_driver::embedded_server_end](mysqli-driver.embedded-server-end.md)
 - [mysqli_driver::$report_mode »](mysqli-driver.report-mode.md)
 
 - [PHP Manual](index.md)

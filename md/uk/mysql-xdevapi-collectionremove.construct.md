@@ -1,6 +1,5 @@
 - [« CollectionRemove::bind](mysql-xdevapi-collectionremove.bind.md)
-- [CollectionRemove::execute
-»](mysql-xdevapi-collectionremove.execute.md)
+- [CollectionRemove::execute »](mysql-xdevapi-collectionremove.execute.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)

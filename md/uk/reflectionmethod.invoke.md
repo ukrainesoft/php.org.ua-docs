@@ -1,5 +1,4 @@
-- [«
-ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
+- [« ReflectionMethod::getPrototype](reflectionmethod.getprototype.md)
 - [ReflectionMethod::invokeArgs »](reflectionmethod.invokeargs.md)
 
 - [PHP Manual](index.md)

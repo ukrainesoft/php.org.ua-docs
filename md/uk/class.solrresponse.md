@@ -1,6 +1,5 @@
 - [«SolrClient::threads](solrclient.threads.md)
-- [SolrResponse::getDigestedResponse
-»](solrresponse.getdigestedresponse.md)
+- [SolrResponse::getDigestedResponse »](solrresponse.getdigestedresponse.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

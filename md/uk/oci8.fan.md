@@ -1,5 +1,4 @@
-- [« Робота зі з'єднаннями OCI8 та Connection
-Pooling] (oci8.connection.md)
+- [« Робота зі з'єднаннями OCI8 та Connection Pooling](oci8.connection.md)
 - [Підтримка прозорого для програм відновлення після відмови
 (Transparent Application Failover або TAF) для OCI8
 »](oci8.taf.md)

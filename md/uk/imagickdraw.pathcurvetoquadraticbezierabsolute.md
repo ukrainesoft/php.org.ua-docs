@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md)
-- [ImagickDraw::pathCurveToQuadraticBezierRelative
-»](imagickdraw.pathcurvetoquadraticbezierrelative.md)
+- [« ImagickDraw::pathCurveToAbsolute](imagickdraw.pathcurvetoabsolute.md)
+- [ImagickDraw::pathCurveToQuadraticBezierRelative »](imagickdraw.pathcurvetoquadraticbezierrelative.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

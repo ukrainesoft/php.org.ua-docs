@@ -1,5 +1,4 @@
-- [«
-SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.md)
+- [« SolrQuery::addExpandFilterQuery](solrquery.addexpandfilterquery.md)
 - [SolrQuery::addFacetDateField »](solrquery.addfacetdatefield.md)
 
 - [PHP Manual](index.md)

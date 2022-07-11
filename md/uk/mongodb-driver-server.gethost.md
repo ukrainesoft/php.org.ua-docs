@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::executeWriteCommand](mongodb-driver-server.executewritecommand.md)
-- [MongoDB\Driver\Server::getInfo
-»](mongodb-driver-server.getinfo.md)
+- [« MongoDB\Driver\Server::executeWriteCommand](mongodb-driver-server.executewritecommand.md)
+- [MongoDB\Driver\Server::getInfo »](mongodb-driver-server.getinfo.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

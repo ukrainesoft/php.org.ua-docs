@@ -13,8 +13,7 @@
 під час виконання.
 
 Більшість із цих констант торкаються проблем, зазначених у тому числі
-в офіційних [» повідомленнях про
-проблем](http://wiki.oauth.net/ProblemReporting) OAuth. Проте
+в офіційних [» повідомленнях про проблем](http://wiki.oauth.net/ProblemReporting) OAuth. Проте
 Зауважте, хоча дані імена констант і мають схожу схему імен, вони
 характерні лише для PHP.
 
@@ -68,8 +67,7 @@ POST запит.
 Використовується методом
 [OAuth::setRequestEngine()](oauth.setrequestengine.md) для вибору
 [Curl](book.curl.md) як двигун, на противагу константі
-**`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоків
-PHP] (book.stream.md).
+**`OAUTH_REQENGINE_STREAMS`**, що використовується для вибору [потоків PHP](book.stream.md).
 
 **`OAUTH_OK`** (int)
 Життя прекрасне.

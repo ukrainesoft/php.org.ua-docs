@@ -1,7 +1,5 @@
-- [«
-fann_set_learning_momentum](function.fann-set-learning-momentum.md)
-- [fann_set_output_scaling_params
-»](function.fann-set-output-scaling-params.md)
+- [« fann_set_learning_momentum](function.fann-set-learning-momentum.md)
+- [fann_set_output_scaling_params »](function.fann-set-output-scaling-params.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

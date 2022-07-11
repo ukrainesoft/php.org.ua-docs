@@ -1,7 +1,5 @@
-- [«
-DirectoryIterator::getBasename](directoryiterator.getbasename.md)
-- [DirectoryIterator::getExtension
-»](directoryiterator.getextension.md)
+- [« DirectoryIterator::getBasename](directoryiterator.getbasename.md)
+- [DirectoryIterator::getExtension »](directoryiterator.getextension.md)
 
 - [PHP Manual](index.md)
 - [DirectoryIterator](class.directoryiterator.md)

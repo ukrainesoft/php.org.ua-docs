@@ -1,6 +1,5 @@
 - [« variant_cat](function.variant-cat.md)
-- [variant_date_from_timestamp
-»](function.variant-date-from-timestamp.md)
+- [variant_date_from_timestamp »](function.variant-date-from-timestamp.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

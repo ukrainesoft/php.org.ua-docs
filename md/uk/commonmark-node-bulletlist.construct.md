@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)
-- [CommonMark\Node\OrderedList
-»](class.commonmark-node-orderedlist.md)
+- [« CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)
+- [CommonMark\Node\OrderedList »](class.commonmark-node-orderedlist.md)
 
 - [PHP Manual](index.md)
 - [CommonMark\Node\BulletList](class.commonmark-node-bulletlist.md)

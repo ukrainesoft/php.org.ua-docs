@@ -1,5 +1,4 @@
-- [« Атака за допомогою ін'єкцій у
-скриптах](mongodb.security.script_injection.md)
+- [« Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
 - [MongoDB\Driver\Manager »](class.mongodb-driver-manager.md)
 
 - [PHP Manual](index.md)

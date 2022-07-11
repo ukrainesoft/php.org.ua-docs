@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (ftp.resources.md)
+- [« Типи ресурсів](ftp.resources.md)
 - [Приклади »](ftp.examples.md)
 
 - [PHP Manual](index.md)

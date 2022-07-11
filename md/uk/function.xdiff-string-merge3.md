@@ -1,6 +1,5 @@
 - [«xdiff_string_diff](function.xdiff-string-diff.md)
-- [xdiff_string_patch_binary
-»](function.xdiff-string-patch-binary.md)
+- [xdiff_string_patch_binary »](function.xdiff-string-patch-binary.md)
 
 - [PHP Manual](index.md)
 - [Функції xdiff](ref.xdiff.md)

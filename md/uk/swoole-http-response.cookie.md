@@ -1,6 +1,5 @@
-- [« Swoole \ Http \ Response] (class.swoole-http-response.md)
-- [Swoole\Http\Response::\_\_destruct
-»](swoole-http-response.destruct.md)
+- [« Swoole \ Http \ Response](class.swoole-http-response.md)
+- [Swoole\Http\Response::\_\_destruct »](swoole-http-response.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Response](class.swoole-http-response.md)

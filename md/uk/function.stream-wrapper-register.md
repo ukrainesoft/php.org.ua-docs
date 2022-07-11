@@ -65,8 +65,7 @@ line3
 ### Дивіться також
 
 - Клас-прототип [streamWrapper](class.streamwrapper.md)
-- [Приклад класу, зареєстрованого як обгортка
-потоку](stream.streamwrapper.example-1.md)
+- [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 - [stream_wrapper_unregister()](function.stream-wrapper-unregister.md) -
 Скасує реєстрацію обгортки URL
 - [stream_wrapper_restore()](function.stream-wrapper-restore.md) -

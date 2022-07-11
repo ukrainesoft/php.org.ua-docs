@@ -1,5 +1,4 @@
-- [«
-SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md)
+- [« SplDoublyLinkedList::setIteratorMode](spldoublylinkedlist.setiteratormode.md)
 - [SplDoublyLinkedList::top »](spldoublylinkedlist.top.md)
 
 - [PHP Manual](index.md)

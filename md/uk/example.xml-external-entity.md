@@ -1,5 +1,5 @@
 - [« Приклад відображення тегів XML](example.xml-map-tags.md)
-- [Функції парсера XML»] (ref.xml.md)
+- [Функції парсера XML»](ref.xml.md)
 
 - [PHP Manual](index.md)
 - [Приклади](xml.examples.md)

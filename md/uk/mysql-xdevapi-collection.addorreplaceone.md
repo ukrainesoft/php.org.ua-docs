@@ -1,6 +1,5 @@
 - [« Collection::add](mysql-xdevapi-collection.add.md)
-- [Collection::\_\_construct
-»](mysql-xdevapi-collection.construct.md)
+- [Collection::\_\_construct »](mysql-xdevapi-collection.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)

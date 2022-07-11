@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Int64::\_\_toString](mongodb-bson-int64.tostring.md)
+- [« MongoDB\BSON\Int64::\_\_toString](mongodb-bson-int64.tostring.md)
 - [MongoDB\BSON\Symbol »](class.mongodb-bson-symbol.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)
-- [ReflectionClass::getNamespaceName
-»](reflectionclass.getnamespacename.md)
+- [ReflectionClass::getNamespaceName »](reflectionclass.getnamespacename.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

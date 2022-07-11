@@ -1,5 +1,5 @@
 - [«readdir](function.readdir.md)
-- [scandir »] (function.scandir.md)
+- [scandir »](function.scandir.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з каталогами](ref.dir.md)

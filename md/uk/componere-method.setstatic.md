@@ -1,7 +1,5 @@
-- [«
-Componere\Method::setProtected](componere-method.setprotected.md)
-- [Componere\Method::getReflector
-»](componere-method.getreflector.md)
+- [« Componere\Method::setProtected](componere-method.setprotected.md)
+- [Componere\Method::getReflector »](componere-method.getreflector.md)
 
 - [PHP Manual](index.md)
 - [Componere\Method](class.componere-method.md)

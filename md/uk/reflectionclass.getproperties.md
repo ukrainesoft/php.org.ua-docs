@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getParentClass](reflectionclass.getparentclass.md)
+- [« ReflectionClass::getParentClass](reflectionclass.getparentclass.md)
 - [ReflectionClass::getProperty »](reflectionclass.getproperty.md)
 
 - [PHP Manual](index.md)
@@ -23,8 +22,7 @@ array
 
 `filter`
 Опціональний фільтр, що дозволяє повертати лише бажані типи
-властивостей. Він налаштовується за допомогою [констант
-ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers),
+властивостей. Він налаштовується за допомогою [констант ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers),
 за замовчуванням дає змогу повертати властивості всіх типів.
 
 ### Значення, що повертаються
@@ -75,5 +73,4 @@ string(3) "Foo"
 - [ReflectionClass::getProperty()](reflectionclass.getproperty.md) -
 Повертає екземпляр ReflectionProperty для якості класу
 - [ReflectionProperty](class.reflectionproperty.md)
-- [константи
-ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers)
+- [константи ReflectionProperty](class.reflectionproperty.md#reflectionproperty.constants.modifiers)

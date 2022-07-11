@@ -1,5 +1,4 @@
-- [«
-opcache_get_configuration](function.opcache-get-configuration.md)
+- [« opcache_get_configuration](function.opcache-get-configuration.md)
 - [opcache_invalidate »](function.opcache-invalidate.md)
 
 - [PHP Manual](index.md)

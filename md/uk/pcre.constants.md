@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (pcre.resources.md)
+- [« Типи ресурсів](pcre.resources.md)
 - [Приклади »](pcre.examples.md)
 
 - [PHP Manual](index.md)

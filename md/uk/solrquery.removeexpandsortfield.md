@@ -1,7 +1,5 @@
-- [«
-SolrQuery::removeExpandFilterQuery](solrquery.removeexpandfilterquery.md)
-- [SolrQuery::removeFacetDateField
-»](solrquery.removefacetdatefield.md)
+- [« SolrQuery::removeExpandFilterQuery](solrquery.removeexpandfilterquery.md)
+- [SolrQuery::removeFacetDateField »](solrquery.removefacetdatefield.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

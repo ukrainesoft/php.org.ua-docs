@@ -1,5 +1,5 @@
 - [«addslashes](function.addslashes.md)
-- [chop»] (function.chop.md)
+- [chop»](function.chop.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

@@ -1,5 +1,4 @@
-- [«
-LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.md)
+- [« LuaSandboxFunction::\_\_construct](luasandboxfunction.construct.md)
 - [LuaSandboxError »](class.luasandboxerror.md)
 
 - [PHP Manual](index.md)

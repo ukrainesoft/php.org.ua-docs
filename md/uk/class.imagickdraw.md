@@ -140,7 +140,7 @@ public [getTextUnderColor](imagickdraw.gettextundercolor.md)():
 
 public [getVectorGraphics](imagickdraw.getvectorgraphics.md)(): string
 
-public [line] (imagickdraw.line.md) (
+public [line](imagickdraw.line.md) (
 float `$sx`,
 float `$sy`,
 float `$ex`,

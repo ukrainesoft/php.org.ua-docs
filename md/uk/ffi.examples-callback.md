@@ -1,6 +1,5 @@
 - [« Прості приклади використання FFI](ffi.examples-basic.md)
-- [Комплексний приклад PHP/FFI/preloading
-»](ffi.examples-complete.md)
+- [Комплексний приклад PHP/FFI/preloading »](ffi.examples-complete.md)
 
 - [PHP Manual](index.md)
 - [Приклади](ffi.examples.md)

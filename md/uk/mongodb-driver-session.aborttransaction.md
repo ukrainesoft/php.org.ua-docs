@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Session](class.mongodb-driver-session.md)
-- [MongoDB\Driver\Session::advanceClusterTime
-»](mongodb-driver-session.advanceclustertime.md)
+- [MongoDB\Driver\Session::advanceClusterTime »](mongodb-driver-session.advanceclustertime.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

@@ -54,6 +54,5 @@ settype — Задає тип змінної
 ### Дивіться також
 
 - [gettype()](function.gettype.md) - Повертає тип змінної
-- [Приведення
-типів](language.types.type-juggling.md#language.types.typecasting)
+- [Приведення типів](language.types.type-juggling.md#language.types.typecasting)
 - [Маніпуляції з типами](language.types.type-juggling.md)

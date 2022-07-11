@@ -1,7 +1,5 @@
-- [«
-IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md)
-- [IntlBreakIterator::createLineInstance
-»](intlbreakiterator.createlineinstance.md)
+- [« IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md)
+- [IntlBreakIterator::createLineInstance »](intlbreakiterator.createlineinstance.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

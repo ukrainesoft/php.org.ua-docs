@@ -1,5 +1,5 @@
 - [«clearstatcache](function.clearstatcache.md)
-- [delete »] (function.delete.md)
+- [delete »](function.delete.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

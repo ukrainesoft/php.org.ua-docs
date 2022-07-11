@@ -17,8 +17,7 @@ public **Imagick::fxImage**(string `$expression`, int `$channel` u003d
 Imagick::CHANNEL_DEFAULT): [Imagick](class.imagick.md)
 
 Оцінює вираз для кожного пікселя у зображенні. Подивіться
-докладніше про [» Оператор зображення Fx зі спеціальними
-ефектами](http://www.imagemagick.org/script/fx.php) для отримання
+докладніше про [» Оператор зображення Fx зі спеціальними ефектами](http://www.imagemagick.org/script/fx.php) для отримання
 додаткову інформацію.
 
 ### Список параметрів

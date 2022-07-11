@@ -110,11 +110,9 @@ Oracle, що використовуються в PHP, і версія серве
 та новіше.
 
 Документація з DRCP знаходиться в кількох посібниках Oracle. До
-Наприклад, дивіться [»Конфігурування пулу постійних з'єднань бази
-даних](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-82FF6896-F57E-41CF-89F7-755F3BC9C924)
+Наприклад, дивіться [»Конфігурування пулу постійних з'єднань бази даних](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-82FF6896-F57E-41CF-89F7-755F3BC9C924)
 у документації Oracle для інформації щодо використання. Документ
-[" технічний опис
-DRCP](https://www.oracle.com/technetwork/topics/php/whatsnew/php-scalability-ha-twp-128842.pdf)
+[" технічний опис DRCP](https://www.oracle.com/technetwork/topics/php/whatsnew/php-scalability-ha-twp-128842.pdf)
 містить додаткову інформацію щодо DRCP.
 
 Для використання DRCP, встановіть модуль OCI8 1.3 (або новий) і

@@ -33,7 +33,7 @@
 | [mysqli::character_set_name()](mysqli.character-set-name.md) | [mysqli_character_set_name()](mysqli.character-set-name.md) | Н/Д | Повертає кодування за промовчанням для з'єднання з базою даних |
 | [mysqli::close()](mysqli.close.md) | [mysqli_close()](mysqli.close.md) | \- | Закриває відкрите з'єднання з базою |
 | [mysqli::commit()](mysqli.commit.md) | [mysqli_commit()](mysqli.commit.md) | \- | Підтверджує поточну транзакцію
-| [mysqli::\_\_construct()](mysqli.construct.md) | [mysqli_connect()](function.mysqli-connect.md) | \- | Відкрити нове з'єднання з сервером MySQL \[Примітка: статичний метод (тобто метод класу)\] |
+| [mysqli::\_\_construct()](mysqli.construct.md) | [mysqli_connect()](function.mysqli-connect.md) | \- | Відкрити нове з'єднання з сервером MySQL [Примітка: статичний метод (тобто метод класу)] |
 | [mysqli::debug()](mysqli.debug.md) | [mysqli_debug()](mysqli.debug.md) | \- | Виконує операції налагодження
 | [mysqli::dump_debug_info()](mysqli.dump-debug-info.md) | [mysqli_dump_debug_info()](mysqli.dump-debug-info.md) | \- | Збір налагоджувальної інформації в балку |
 | [mysqli::get_charset()](mysqli.get-charset.md) | [mysqli_get_charset()](mysqli.get-charset.md) | \- | Повертає об'єкт, що описує кодування

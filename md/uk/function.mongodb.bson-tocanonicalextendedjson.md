@@ -16,8 +16,7 @@ JSON подання для значення BSON
 
 **MongoDB\BSON oCanonicalExtendedJSON**(string `$bson`): string
 
-Перетворює рядок BSON на його [» Canonical Extended
-JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example)
+Перетворює рядок BSON на його [» Canonical Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#canonical-extended-json-example)
 уявлення. Канонічний формат віддає перевагу точності типів за рахунок
 короткого виведення та найбільш підходить для створення вихідних даних,
 які можуть бути перетворені назад в BSON без будь-якої втрати
@@ -80,7 +79,5 @@ JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json
 Повертає уявлення BSON значення JSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» Специфікація Extended
-JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Специфікація Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

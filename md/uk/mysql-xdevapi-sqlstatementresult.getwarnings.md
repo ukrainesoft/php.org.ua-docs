@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getLastInsertId](mysql-xdevapi-sqlstatementresult.getlastinsertid.md)
-- [SqlStatementResult::getWarningsCount
-»](mysql-xdevapi-sqlstatementresult.getwarningcount.md)
+- [« SqlStatementResult::getLastInsertId](mysql-xdevapi-sqlstatementresult.getlastinsertid.md)
+- [SqlStatementResult::getWarningsCount »](mysql-xdevapi-sqlstatementresult.getwarningcount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

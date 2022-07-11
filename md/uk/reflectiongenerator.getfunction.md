@@ -1,5 +1,4 @@
-- [«
-ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md)
+- [« ReflectionGenerator::getExecutingLine](reflectiongenerator.getexecutingline.md)
 - [ReflectionGenerator::getThis »](reflectiongenerator.getthis.md)
 
 - [PHP Manual](index.md)

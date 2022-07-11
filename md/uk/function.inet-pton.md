@@ -1,5 +1,5 @@
 - [«inet_ntop](function.inet-ntop.md)
-- [ip2long »] (function.ip2long.md)
+- [ip2long »](function.ip2long.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

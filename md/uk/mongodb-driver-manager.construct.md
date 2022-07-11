@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::addSubscriber](mongodb-driver-manager.addsubscriber.md)
-- [MongoDB\Driver\Manager::createClientEncryption
-»](mongodb-driver-manager.createclientencryption.md)
+- [« MongoDB\Driver\Manager::addSubscriber](mongodb-driver-manager.addsubscriber.md)
+- [MongoDB\Driver\Manager::createClientEncryption »](mongodb-driver-manager.createclientencryption.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -23,8 +21,7 @@ final public **MongoDB\Driver\Manager::\_\_construct**(string `$uri` u003d
 [MongoDB\Driver\Manager](class.mongodb-driver-manager.md) з
 переданими параметрами.
 
-> **Примітка**: У [» специфікації з виявлення та моніторингу
-> сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction),
+> **Примітка**: У [» специфікації з виявлення та моніторингу > сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst#single-threaded-client-construction),
 > цей конструктор не виконує введення-виводу. З'єднання будуть
 > ініціалізуватись на вимогу, коли виконується перша операція.
 
@@ -50,15 +47,12 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 ````
 
 Докладніше про параметри, що підтримуються URI, дивіться розділ [» Параметри
-рядки
-підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options)
-у посібнику MongoDB. [» Параметри пулу
-підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-pool-options)
+рядки підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options)
+у посібнику MongoDB. [» Параметри пулу підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connection-pool-options)
 не підтримуються, т.к. PHP-драйвер не продає пули підключень.
 
 `uri` - це URL, тому будь-які спеціальні символи у його компонентах
-повинні закодовані відповідно до [» RFC
-3986](http://www.faqs.org/rfcs/rfc3986). Це особливо актуально для
+повинні закодовані відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986). Це особливо актуально для
 імені користувача та пароля, які часто можуть містити спеціальні
 символи, такі як `@`, `:`, або `%`. При підключенні через доменний
 сокет Unix, шлях сокету може містити спеціальні символи, наприклад
@@ -74,8 +68,7 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 за відсутності облікових даних користувача.
 
 `uriOptions`
-Додаткові [» параметри рядка
-підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options),
+Додаткові [» параметри рядка підключення](https://www.mongodb.com/docs/manual/reference/connection-string/#connections-connection-options),
 які будуть перезаписувати будь-які параметри з тим самим ім'ям у параметрі
 `uri`.
 
@@ -90,8 +83,7 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 - При неправильному форматі `uri` викидає виняток
 [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md).
 
@@ -145,7 +137,5 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 
 ### Дивіться також
 
-- [Обробка підключення та
-збереження](mongodb.connection-handling.md)
-- [» Формат рядка з'єднання
-MongoDB](https://www.mongodb.com/docs/manual/reference/connection-string/)
+- [Обробка підключення та збереження](mongodb.connection-handling.md)
+- [» Формат рядка з'єднання MongoDB](https://www.mongodb.com/docs/manual/reference/connection-string/)

@@ -1,5 +1,4 @@
-- [«
-xmlrpc_server_call_method](function.xmlrpc-server-call-method.md)
+- [« xmlrpc_server_call_method](function.xmlrpc-server-call-method.md)
 - [xmlrpc_server_destroy »](function.xmlrpc-server-destroy.md)
 
 - [PHP Manual](index.md)

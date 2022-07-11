@@ -13,11 +13,9 @@ mysql_list_dbs — Повертає список баз даних, доступ
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 5.4.0 і разом з [модулем
-MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
+Ця функція оголошена застарілою в PHP 5.4.0 і разом з [модулем MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
 модулі, що активно розвиваються [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - SQL запит: `SHOW DATABASES`
 

@@ -1,6 +1,5 @@
 - [« CollectionModify::skip](mysql-xdevapi-collectionmodify.skip.md)
-- [CollectionModify::unset
-»](mysql-xdevapi-collectionmodify.unset.md)
+- [CollectionModify::unset »](mysql-xdevapi-collectionmodify.unset.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)

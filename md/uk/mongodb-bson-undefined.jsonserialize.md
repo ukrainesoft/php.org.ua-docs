@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Undefined::\_\_construct](mongodb-bson-undefined.construct.md)
-- [MongoDB\BSON\Undefined::serialize
-»](mongodb-bson-undefined.serialize.md)
+- [« MongoDB\BSON\Undefined::\_\_construct](mongodb-bson-undefined.construct.md)
+- [MongoDB\BSON\Undefined::serialize »](mongodb-bson-undefined.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

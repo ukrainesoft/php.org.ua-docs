@@ -1,5 +1,4 @@
-- [«
-Yaf_Plugin_Abstract::routerShutdown](yaf-plugin-abstract.routershutdown.md)
+- [« Yaf_Plugin_Abstract::routerShutdown](yaf-plugin-abstract.routershutdown.md)
 - [Yaf_Registry »](class.yaf-registry.md)
 
 - [PHP Manual](index.md)

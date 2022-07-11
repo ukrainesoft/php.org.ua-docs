@@ -1,5 +1,5 @@
 - [«Зумовлені константи](zlib.constants.md)
-- [Функції Zlib»] (ref.zlib.md)
+- [Функції Zlib»](ref.zlib.md)
 
 - [PHP Manual](index.md)
 - [Zlib](book.zlib.md)

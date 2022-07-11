@@ -1,6 +1,5 @@
 - [« Функції runkit7](ref.runkit7.md)
-- [runkit7_constant_redefine
-»](function.runkit7-constant-redefine.md)
+- [runkit7_constant_redefine »](function.runkit7-constant-redefine.md)
 
 - [PHP Manual](index.md)
 - [Функції runkit7](ref.runkit7.md)

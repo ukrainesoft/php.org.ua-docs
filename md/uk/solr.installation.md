@@ -14,8 +14,7 @@
 [»https://pecl.php.net/package/solr](https://pecl.php.net/package/solr).
 
 Відвідайте групу модулів Google, щоб отримати допомогу та підтримку.
-[» Модуль Apache Solr
-PHP](https://groups.google.com/forum/#!forum/php-solr)
+[» Модуль Apache Solr PHP](https://groups.google.com/forum/#!forum/php-solr)
 
 Бінарні файли Windows (файли DLL) для цього модуля PECL доступні на
 сайті PECL.

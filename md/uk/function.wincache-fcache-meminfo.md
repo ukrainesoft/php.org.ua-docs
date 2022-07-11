@@ -1,5 +1,5 @@
 - [«wincache_fcache_fileinfo](function.wincache-fcache-fileinfo.md)
-- [wincache_lock »] (function.wincache-lock.md)
+- [wincache_lock »](function.wincache-lock.md)
 
 - [PHP Manual](index.md)
 - [Функції WinCache](ref.wincache.md)

@@ -1,6 +1,5 @@
 - [« Yaf_Route_Supervar](class.yaf-route-supervar.md)
-- [Yaf_Route_Supervar::\_\_construct
-»](yaf-route-supervar.construct.md)
+- [Yaf_Route_Supervar::\_\_construct »](yaf-route-supervar.construct.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Route_Supervar](class.yaf-route-supervar.md)

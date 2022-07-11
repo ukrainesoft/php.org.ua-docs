@@ -1,5 +1,5 @@
 - [«eio_chown](function.eio-chown.md)
-- [eio_custom »] (function.eio-custom.md)
+- [eio_custom »](function.eio-custom.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

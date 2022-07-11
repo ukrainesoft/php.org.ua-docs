@@ -1,6 +1,5 @@
 - [« PharFileInfo::\_\_destruct](pharfileinfo.destruct.md)
-- [PharFileInfo::getCompressedSize
-»](pharfileinfo.getcompressedsize.md)
+- [PharFileInfo::getCompressedSize »](pharfileinfo.getcompressedsize.md)
 
 - [PHP Manual](index.md)
 - [PharFileInfo](class.pharfileinfo.md)

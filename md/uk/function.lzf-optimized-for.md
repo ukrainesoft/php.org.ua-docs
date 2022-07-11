@@ -1,5 +1,5 @@
 - [« lzf_decompress](function.lzf-decompress.md)
-- [Phar »] (book.phar.md)
+- [Phar »](book.phar.md)
 
 - [PHP Manual](index.md)
 - [Функції LZF](ref.lzf.md)

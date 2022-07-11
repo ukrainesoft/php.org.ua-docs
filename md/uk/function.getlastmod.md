@@ -1,5 +1,5 @@
 - [«getenv](function.getenv.md)
-- [getmygid »] (function.getmygid.md)
+- [getmygid »](function.getmygid.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

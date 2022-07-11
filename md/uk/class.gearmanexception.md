@@ -1,5 +1,5 @@
 - [« GearmanWorker::work](gearmanworker.work.md)
-- [LDAP »] (book.ldap.md)
+- [LDAP »](book.ldap.md)
 
 - [PHP Manual](index.md)
 - [Gearman](book.gearman.md)
@@ -27,9 +27,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Методи \*/
 

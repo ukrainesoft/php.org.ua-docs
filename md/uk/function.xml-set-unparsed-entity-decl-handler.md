@@ -1,5 +1,4 @@
-- [«
-xml_set_start_namespace_decl_handler](function.xml-set-start-namespace-decl-handler.md)
+- [« xml_set_start_namespace_decl_handler](function.xml-set-start-namespace-decl-handler.md)
 - [XmlParser »](class.xmlparser.md)
 
 - [PHP Manual](index.md)
@@ -29,8 +28,7 @@ NDATA-оголошення зовнішньої сутності вигляду:
 NDATA <parameter>notationName</parameter>
 ````
 
-Дивіться [розділ 4.2.2 XML 1.0
-специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent),
+Дивіться [розділ 4.2.2 XML 1.0 специфікації](http://www.w3.org/TR/1998/REC-xml-19980210#sec-external-ent),
 щоб отримати точне визначення позначень зовнішніх сутностей.
 
 ### Список параметрів

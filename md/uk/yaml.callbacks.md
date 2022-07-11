@@ -1,5 +1,5 @@
 - [« Приклади](yaml.examples.md)
-- [Callback-функції парсингу»] (yaml.callbacks.parse.md)
+- [Callback-функції парсингу»](yaml.callbacks.parse.md)
 
 - [PHP Manual](index.md)
 - [Yaml](book.yaml.md)

@@ -15,8 +15,7 @@ mysql_set_charset — Встановлює кодування клієнта
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_set_charset()](mysqli.set-charset.md)
 - PDO: Додаванням `charset` у рядок з'єднання, наприклад
@@ -58,15 +57,12 @@ NULL): bool
 >
 > Це найбільш вдалий спосіб зміни кодування. Використання
 > [mysql_query()](function.mysql-query.md) з цією метою (наприклад
-> `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування]
-> символи в MySQL](mysqlinfo.concepts.charset.md) для докладної
+> `SET NAMES utf8`) не рекомендується. Дивіться розділ [кодування] > символи в MySQL](mysqlinfo.concepts.charset.md) для докладної
 > інформації.
 
 ### Дивіться також
 
-- [Настроювання кодувань символів у
-MySQL](mysqlinfo.concepts.charset.md)
-- [» Список підтримуваних MySQL
-кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
+- [Настроювання кодувань символів у MySQL](mysqlinfo.concepts.charset.md)
+- [» Список підтримуваних MySQL кодувань](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
 - [mysql_client_encoding()](function.mysql-client-encoding.md) -
 Повертає кодування з'єднання

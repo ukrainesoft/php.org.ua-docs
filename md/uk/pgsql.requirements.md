@@ -13,5 +13,4 @@ PostgreSQL версії 6.5 або вище, або PostgreSQL версії 8.0 
 підтримка різних кодувань символів, включаючи багатобайтове кодування.
 Остання версія та повна інформація про PostgreSQL доступна на
 [»http://www.postgresql.org/](http://www.postgresql.org/) та в
-[» документації
-PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
+[» документації PostgreSQL](http://www.postgresql.org/docs/current/interactive/).

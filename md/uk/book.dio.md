@@ -1,5 +1,4 @@
-- [« Модулі для роботи з файловою
-системою](refs.fileprocess.file.md)
+- [« Модулі для роботи з файловою системою](refs.fileprocess.file.md)
 - [Вступ »](intro.dio.md)
 
 - [PHP Manual](index.md)

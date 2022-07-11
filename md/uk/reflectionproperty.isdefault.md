@@ -1,6 +1,5 @@
 - [« ReflectionProperty::hasType](reflectionproperty.hastype.md)
-- [ReflectionProperty::isInitialized
-»](reflectionproperty.isinitialized.md)
+- [ReflectionProperty::isInitialized »](reflectionproperty.isinitialized.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

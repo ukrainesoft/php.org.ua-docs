@@ -23,8 +23,7 @@ public **Imagick::getInterlaceScheme**(): int
 
 ### Значення, що повертаються
 
-Отримує схему [стиснення
-зображення](imagick.constants.md#imagick.constants.interlace).
+Отримує схему [стиснення зображення](imagick.constants.md#imagick.constants.interlace).
 
 ### Помилки
 

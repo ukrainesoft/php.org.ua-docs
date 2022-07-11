@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md)
+- [« IntlDateFormatter::getErrorCode](intldateformatter.geterrorcode.md)
 - [IntlDateFormatter::getLocale »](intldateformatter.getlocale.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md)
-- [DateTimeImmutable::\_\_set_state
-»](datetimeimmutable.set-state.md)
+- [« DateTimeImmutable::getLastErrors](datetimeimmutable.getlasterrors.md)
+- [DateTimeImmutable::\_\_set_state »](datetimeimmutable.set-state.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

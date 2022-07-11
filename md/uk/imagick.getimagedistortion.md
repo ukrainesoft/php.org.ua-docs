@@ -26,8 +26,7 @@ public **Imagick::getImageDistortion**(MagickWand `$reference`, int
 Об'єкт Imagick для порівняння.
 
 `metric`
-Одна з [констант типу
-METRIC](imagick.constants.md#imagick.constants.metric).
+Одна з [констант типу METRIC](imagick.constants.md#imagick.constants.metric).
 
 ### Значення, що повертаються
 

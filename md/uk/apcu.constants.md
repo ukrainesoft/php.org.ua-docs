@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (apcu.resources.md)
+- [« Типи ресурсів](apcu.resources.md)
 - [Функції APCu »](ref.apcu.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« Imagick::getImageCompose](imagick.getimagecompose.md)
-- [Imagick::getImageCompressionQuality
-»](imagick.getimagecompressionquality.md)
+- [Imagick::getImageCompressionQuality »](imagick.getimagecompressionquality.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

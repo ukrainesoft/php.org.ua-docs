@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::clearBody](yaf-response-abstract.clearbody.md)
-- [Yaf_Response_Abstract::\_\_construct
-»](yaf-response-abstract.construct.md)
+- [« Yaf_Response_Abstract::clearBody](yaf-response-abstract.clearbody.md)
+- [Yaf_Response_Abstract::\_\_construct »](yaf-response-abstract.construct.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

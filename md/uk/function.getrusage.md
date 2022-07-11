@@ -1,5 +1,5 @@
 - [«getopt](function.getopt.md)
-- [ini_alter»] (function.ini-alter.md)
+- [ini_alter»](function.ini-alter.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

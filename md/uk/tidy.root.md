@@ -2,7 +2,7 @@
 - [tidyNode »](class.tidynode.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає об'єкт tidyNode, що представляє вершину розібраного
 tidy-дерева
 

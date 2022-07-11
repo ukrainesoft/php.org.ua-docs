@@ -39,13 +39,11 @@ int `$flags` u003d **`PKCS7_DETACHED`**,
 
 `certificate`
 Сертифікат X.509, який буде використаний для підпису
-`input_filename`. Дивіться [параметри
-ключа/сертифіката](openssl.certparams.md).
+`input_filename`. Дивіться [параметри ключа/сертифіката](openssl.certparams.md).
 
 `private_key`
 `private_key` задається секретним ключем, що відповідає сертифікату
-(`Certificate`). Дивіться [параметри відкритого/секретного
-ключа](openssl.certparams.md).
+(`Certificate`). Дивіться [параметри відкритого/секретного ключа](openssl.certparams.md).
 
 `headers`
 `headers` задається масивом заголовків, які будуть додані на початок
@@ -54,8 +52,7 @@ int `$flags` u003d **`PKCS7_DETACHED`**,
 отримання додаткової інформації про формат цього параметра).
 
 `flags`
-`flags` використовується для налаштування виводу. Дивіться [константи
-PKCS7](openssl.pkcs7.flags.md).
+`flags` використовується для налаштування виводу. Дивіться [константи PKCS7](openssl.pkcs7.flags.md).
 
 `untrusted_certificates_filename`
 `untrusted_certificates_filename` може містити ім'я файлу, в якому

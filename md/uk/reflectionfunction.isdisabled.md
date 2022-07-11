@@ -1,7 +1,5 @@
-- [«
-ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md)
-- [ReflectionFunction::\_\_toString
-»](reflectionfunction.tostring.md)
+- [« ReflectionFunction::invokeArgs](reflectionfunction.invokeargs.md)
+- [ReflectionFunction::\_\_toString »](reflectionfunction.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunction](class.reflectionfunction.md)

@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md)
-- [RecursiveIteratorIterator::nextElement
-»](recursiveiteratoriterator.nextelement.md)
+- [« RecursiveIteratorIterator::key](recursiveiteratoriterator.key.md)
+- [RecursiveIteratorIterator::nextElement »](recursiveiteratoriterator.nextelement.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

@@ -1,6 +1,5 @@
 - [« Нові функції](migration81.new-functions.md)
-- [Зміни, що ламають зворотну сумісність
-»](migration81.incompatible.md)
+- [Зміни, що ламають зворотну сумісність »](migration81.incompatible.md)
 
 - [PHP Manual](index.md)
 - [Міграція з PHP 8.0.x на PHP 8.1.x](migration81.md)

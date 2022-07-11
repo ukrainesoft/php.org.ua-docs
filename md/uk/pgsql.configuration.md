@@ -1,5 +1,5 @@
 - [« Установка](pgsql.installation.md)
-- [Типи ресурсів»] (pgsql.resources.md)
+- [Типи ресурсів»](pgsql.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](pgsql.setup.md)
@@ -21,8 +21,7 @@
 **Параметри конфігурації PostgreSQL**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

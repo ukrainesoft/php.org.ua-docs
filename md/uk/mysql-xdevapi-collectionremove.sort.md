@@ -1,7 +1,5 @@
-- [«
-CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.md)
-- [mysql_xdevapi\ColumnResult
-»](class.mysql-xdevapi-columnresult.md)
+- [« CollectionRemove::limit](mysql-xdevapi-collectionremove.limit.md)
+- [mysql_xdevapi\ColumnResult »](class.mysql-xdevapi-columnresult.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)

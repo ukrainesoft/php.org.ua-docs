@@ -1,6 +1,5 @@
 - [« GearmanClient::setTimeout](gearmanclient.settimeout.md)
-- [GearmanClient::setWorkloadCallback
-»](gearmanclient.setworkloadcallback.md)
+- [GearmanClient::setWorkloadCallback »](gearmanclient.setworkloadcallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

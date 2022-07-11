@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md)
-- [SolrQuery::getHighlightUsePhraseHighlighter
-»](solrquery.gethighlightusephrasehighlighter.md)
+- [« SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md)
+- [SolrQuery::getHighlightUsePhraseHighlighter »](solrquery.gethighlightusephrasehighlighter.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

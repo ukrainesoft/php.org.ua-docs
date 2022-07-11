@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ Persistable] (class.mongodb-bson-persistable.md)
-- [MongoDB\BSON\Serializable::bsonSerialize
-»](mongodb-bson-serializable.bsonserialize.md)
+- [« MongoDB \ BSON \ Persistable](class.mongodb-bson-persistable.md)
+- [MongoDB\BSON\Serializable::bsonSerialize »](mongodb-bson-serializable.bsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

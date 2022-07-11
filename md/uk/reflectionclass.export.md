@@ -1,6 +1,5 @@
 - [« ReflectionClass::\_\_construct](reflectionclass.construct.md)
-- [ReflectionClass::getAttributes
-»](reflectionclass.getattributes.md)
+- [ReflectionClass::getAttributes »](reflectionclass.getattributes.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

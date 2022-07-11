@@ -12,8 +12,7 @@
 - [Встановлення та налаштування](session.setup.md)
 - [Предвизначені константи](session.constants.md)
 - [Приклади](session.examples.md)
-- [Відстеження прогресу завантаження файлів за допомогою
-сесій](session.upload-progress.md)
+- [Відстеження прогресу завантаження файлів за допомогою сесій](session.upload-progress.md)
 - [Безпека сесій](session.security.md)
 - [Функції для роботи з сесіями](ref.session.md)
 - [SessionHandler](class.sessionhandler.md) - Клас

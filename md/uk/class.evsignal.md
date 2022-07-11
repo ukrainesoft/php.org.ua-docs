@@ -2,7 +2,7 @@
 - [EvSignal::\_\_construct »](evsignal.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvSignal
 
 # Клас EvSignal

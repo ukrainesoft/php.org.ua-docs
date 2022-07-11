@@ -36,8 +36,7 @@ PHP може відслідковувати прогрес завантажен�
 цим способом, то елемент з ключем `error` у масиві `$_FILES` буде
 встановлений у **`UPLOAD_ERR_EXTENSION`**.
 
-Опції
-[session.upload_progress.freq](session.configuration.md#ini.session.upload-progress.freq)
+Опції [session.upload_progress.freq](session.configuration.md#ini.session.upload-progress.freq)
 і
 [session.upload_progress.min_freq](session.configuration.md#ini.session.upload-progress.min-freq)
 контролюють частоту оновлення інформації про прогрес завантаження. При

@@ -1,5 +1,5 @@
 - [«fbird_db_info](function.fbird-db-info.md)
-- [fbird_drop_db »] (function.fbird-drop-db.md)
+- [fbird_drop_db »](function.fbird-drop-db.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

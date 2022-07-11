@@ -1,5 +1,5 @@
 - [« pg_copy_to](function.pg-copy-to.md)
-- [pg_delete »] (function.pg-delete.md)
+- [pg_delete »](function.pg-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції PostgreSQL](ref.pgsql.md)

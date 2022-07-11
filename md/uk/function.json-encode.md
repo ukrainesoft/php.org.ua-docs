@@ -43,8 +43,7 @@ json_encode — Повертає JSON-подання даних
 **`JSON_PARTIAL_OUTPUT_ON_ERROR`**, **`JSON_PRESERVE_ZERO_FRACTION`**,
 **`JSON_PRETTY_PRINT`**, **`JSON_UNESCAPED_LINE_TERMINATORS`**,
 **`JSON_UNESCAPED_SLASHES`**, **`JSON_UNESCAPED_UNICODE`**,
-**`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [сторінці
-JSON-констант] (json.constants.md).
+**`JSON_THROW_ON_ERROR`**. Сенс цих констант пояснюється на [сторінці JSON-констант](json.constants.md).
 
 `depth`
 Встановлює максимальну глибину. Має бути більше нуля.

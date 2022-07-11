@@ -1,6 +1,5 @@
 - [« ImagickPixel::destroy](imagickpixel.destroy.md)
-- [ImagickPixel::getColorAsString
-»](imagickpixel.getcolorasstring.md)
+- [ImagickPixel::getColorAsString »](imagickpixel.getcolorasstring.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixel](class.imagickpixel.md)

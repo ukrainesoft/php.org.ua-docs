@@ -1,6 +1,5 @@
 - [«SolrDocument::fieldExists](solrdocument.fieldexists.md)
-- [SolrDocument::getChildDocuments
-»](solrdocument.getchilddocuments.md)
+- [SolrDocument::getChildDocuments »](solrdocument.getchilddocuments.md)
 
 - [PHP Manual](index.md)
 - [SolrDocument](class.solrdocument.md)

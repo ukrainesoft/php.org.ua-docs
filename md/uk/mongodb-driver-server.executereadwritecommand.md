@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::executeReadCommand](mongodb-driver-server.executereadcommand.md)
-- [MongoDB\Driver\Server::executeWriteCommand
-»](mongodb-driver-server.executewritecommand.md)
+- [« MongoDB\Driver\Server::executeReadCommand](mongodb-driver-server.executereadcommand.md)
+- [MongoDB\Driver\Server::executeWriteCommand »](mongodb-driver-server.executewritecommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -28,8 +26,7 @@ final public **MongoDB\Driver\Server::executeReadWriteCommand**(string
 [» aggregate](https://www.mongodb.com/docs/manual/reference/command/aggregate/))
 та враховують версію сервера MongoDB. Параметри ``readConcern'` та
 `"writeConcern"` за замовчуванням відповідають відповідним значенням з
-[URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+[URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 ### Список параметрів
 
@@ -47,8 +44,7 @@ MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-ur
 **Увага**
 При використанні `session` та наявності незавершених транзакцій, ви не
 можете вказати ``readConcern'' або 'writeConcern' option. Це приведе
-до викидання виключення
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+до викидання виключення [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 Натомість ви повинні встановити ці дві опції при створенні транзакції
 за допомогою
 [MongoDB\Driver\Session::startTransaction()](mongodb-driver-session.starttransaction.md).

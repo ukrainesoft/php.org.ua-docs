@@ -1,5 +1,5 @@
 - [« iconv](function.iconv.md)
-- [intl »] (book.intl.md)
+- [intl »](book.intl.md)
 
 - [PHP Manual](index.md)
 - [Функції iconv](ref.iconv.md)

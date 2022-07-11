@@ -1,5 +1,4 @@
-- [«
-mysqli_sql_exception::getSqlState](mysqli-sql-exception.getsqlstate.md)
+- [« mysqli_sql_exception::getSqlState](mysqli-sql-exception.getsqlstate.md)
 - [mysqli_connect »](function.mysqli-connect.md)
 
 - [PHP Manual](index.md)

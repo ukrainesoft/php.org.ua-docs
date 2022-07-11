@@ -1,5 +1,5 @@
 - [« Типи ресурсів](math.resources.md)
-- [Математичні функції»] (ref.math.md)
+- [Математичні функції»](ref.math.md)
 
 - [PHP Manual](index.md)
 - [Math](book.math.md)

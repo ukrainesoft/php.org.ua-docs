@@ -1,5 +1,5 @@
 - [«eio_fallocate](function.eio-fallocate.md)
-- [eio_fchown »] (function.eio-fchown.md)
+- [eio_fchown »](function.eio-fchown.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

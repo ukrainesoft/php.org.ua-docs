@@ -19,10 +19,10 @@
 |------------------------------------------------- |------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------------------------|
 | `dayname` (найменування дня тижня) | 'sunday' \| 'Monday' \| 'tuesday' \| 'Wednesday' \| 'thursday' \| 'friday' \| 'saturday' \| 'sun' \| 'mon' \| 'tue' \| 'wed' \| 'thu' \| 'fri' \| 'sat' |
 | `daytext` (інтервали у тижнях) | 'weekday' \| 'weekdays' |
-| `number` | \[+-\]?\[0-9\]+ |
+| `number` | [+-]?[0-9]+ |
 | `ordinal` (порядкові числівники та покажчики) | 'first' \| 'second' \| 'third' \| 'fourth' \| 'fifth' \| 'sixth' \| 'seventh' \| 'eighth' \| 'ninth' \| 'tenth' \| 'eleventh' \| 'Twelfth' \| 'next' \| 'last' \| 'previous' \| 'this' |
 | `reltext` (покажчики) | 'next' \| 'last' \| 'previous' \| 'this' |
-| `space` (символи пробілу та табуляції) | \[\]+ |
+| `space` (символи пробілу та табуляції) | []+ |
 | `unit` (інтервали) | (('sec' \| 'second' \| 'min' \| 'minute' \| 'hour' \| 'day' \| 'fortnight' \| 'forthnight' \| 'month' \| 'year' ) 's'?) \| 'weeks' \| `daytext` |
 
 **Використовувані символи**

@@ -1,5 +1,4 @@
-- [« Зміни, що ламають зворотну
-сумісність](migration73.incompatible.md)
+- [« Зміни, що ламають зворотну сумісність](migration73.incompatible.md)
 - [Інші зміни »](migration73.other-changes.md)
 
 - [PHP Manual](index.md)
@@ -46,8 +45,7 @@
 
 #### Зміни у видаленні тегів
 
-Функція [fgetss()](function.fgetss.md) та [фільтр потоку
-string.strip_tags](filters.string.md) оголошені застарілим. це також
+Функція [fgetss()](function.fgetss.md) та [фільтр потоку string.strip_tags](filters.string.md) оголошені застарілим. це також
 впливає на метод [SplFileObject::fgetss()](splfileobject.fgetss.md) та
 на функцію [gzgetss()](function.gzgetss.md).
 

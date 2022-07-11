@@ -1,5 +1,5 @@
 - [« Установка](eio.installation.md)
-- [Типи ресурсів»] (eio.resources.md)
+- [Типи ресурсів»](eio.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](eio.setup.md)

@@ -1,5 +1,4 @@
-- [« Componer
-- [Обробка помилок»] (book.errorfunc.md)
+- [« Componer - [Обробка помилок»](book.errorfunc.md)
 
 - [PHP Manual](index.md)
 - [Функції Componere](reference.componere.md)

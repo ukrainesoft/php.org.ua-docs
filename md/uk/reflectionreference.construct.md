@@ -1,6 +1,5 @@
 - [«ReflectionReference](class.reflectionreference.md)
-- [ReflectionReference::fromArrayElement
-»](reflectionreference.fromarrayelement.md)
+- [ReflectionReference::fromArrayElement »](reflectionreference.fromarrayelement.md)
 
 - [PHP Manual](index.md)
 - [ReflectionReference](class.reflectionreference.md)

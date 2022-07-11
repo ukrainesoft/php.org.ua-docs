@@ -1,6 +1,5 @@
 - [« Використання Phar-архівів: Вступ](phar.using.intro.md)
-- [Використання Phar-архівів: класи Phar та PharData
-»](phar.using.object.md)
+- [Використання Phar-архівів: класи Phar та PharData »](phar.using.object.md)
 
 - [PHP Manual](index.md)
 - [Використання Phar-архівів](phar.using.md)

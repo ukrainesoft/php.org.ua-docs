@@ -1,6 +1,5 @@
 - [« Yaf_Request_Http::getRaw](yaf-request-http.getraw.md)
-- [Yaf_Request_Http::isXmlHttpRequest
-»](yaf-request-http.isxmlhttprequest.md)
+- [Yaf_Request_Http::isXmlHttpRequest »](yaf-request-http.isxmlhttprequest.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Http](class.yaf-request-http.md)

@@ -1,5 +1,5 @@
 - [« Установка](yac.installation.md)
-- [Типи ресурсів»] (yac.resources.md)
+- [Типи ресурсів»](yac.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](yac.setup.md)

@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::\_\_toString](reflectionextension.tostring.md)
-- [ReflectionFunction::\_\_construct
-»](reflectionfunction.construct.md)
+- [« ReflectionExtension::\_\_toString](reflectionextension.tostring.md)
+- [ReflectionFunction::\_\_construct »](reflectionfunction.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

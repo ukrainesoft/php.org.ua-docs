@@ -24,8 +24,7 @@ string `$flags` u003d "")
 > **Примітка**: Шаблон не повинен укладатися у символи-розділювачі.
 
 `flags` (string)
-[» Прапори регулярних
-виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options).
+[» Прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options).
 Символи у цьому аргументі будуть відсортовані за абеткою.
 
 ### Помилки
@@ -58,7 +57,5 @@ string(1) "i"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
-- [» Підтримувані прапори регулярних
-виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

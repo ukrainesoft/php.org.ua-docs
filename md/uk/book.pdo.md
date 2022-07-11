@@ -12,13 +12,11 @@
 - [Вимоги](pdo.requirements.md)
 - [Установка](pdo.installation.md)
 - [Налаштування під час виконання](pdo.configuration.md)
-- [Типи ресурсів] (pdo.resources.md)
+- [Типи ресурсів](pdo.resources.md)
 - [Предвизначені константи](pdo.constants.md)
 - [Підключення та керування підключеннями](pdo.connections.md)
-- [Транзакції та автоматична фіксація
-змін](pdo.transactions.md)
-- [Підготовлені запити та збережені
-процедури](pdo.prepared-statements.md)
+- [Транзакції та автоматична фіксація змін](pdo.transactions.md)
+- [Підготовлені запити та збережені процедури](pdo.prepared-statements.md)
 - [Помилки та їх обробка](pdo.error-handling.md)
 - [Великі об'єкти (LOB)](pdo.lobs.md)
 - [PDO](class.pdo.md) - Клас PDO
@@ -97,22 +95,22 @@ PDOStatement
 Встановлює стандартний режим вибірки для об'єкта запиту
 - [PDOException](class.pdoexception.md) - Клас PDOException
 - [Драйвери PDO](pdo.drivers.md)
-- [CUBRID (PDO)] (ref.pdo-cubrid.md) - Опції CUBRID
+- [CUBRID (PDO)](ref.pdo-cubrid.md) - Опції CUBRID
 (PDO_CUBRID)
 - [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md) - Опції
 Microsoft SQL Server та Sybase (PDO_DBLIB)
-- [Firebird (PDO)] (ref.pdo-firebird.md) - Функції Firebird
+- [Firebird (PDO)](ref.pdo-firebird.md) - Функції Firebird
 (PDO_FIREBIRD)
-- [IBM (PDO)] (ref.pdo-ibm.md) - Функції IBM (PDO_IBM)
-- [Informix (PDO)] (ref.pdo-informix.md) - Функції Informix
+- [IBM (PDO)](ref.pdo-ibm.md) - Функції IBM (PDO_IBM)
+- [Informix (PDO)](ref.pdo-informix.md) - Функції Informix
 (PDO_INFORMIX)
-- [MySQL (PDO)] (ref.pdo-mysql.md) - Функції MySQL (PDO_MYSQL)
-- [MS SQL Server (PDO)] (ref.pdo-sqlsrv.md) - Функції модуля
+- [MySQL (PDO)](ref.pdo-mysql.md) - Функції MySQL (PDO_MYSQL)
+- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md) - Функції модуля
 PDO_SQLSRV для Microsoft SQL Server
-- [Oracle (PDO)] (ref.pdo-oci.md) - Функції Oracle (PDO_OCI)
-- [ODBC та DB2 (PDO)] (ref.pdo-odbc.md) - Функції ODBC та DB2
+- [Oracle (PDO)](ref.pdo-oci.md) - Функції Oracle (PDO_OCI)
+- [ODBC та DB2 (PDO)](ref.pdo-odbc.md) - Функції ODBC та DB2
 (PDO_ODBC)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md) - Опції PostgreSQL
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md) - Опції PostgreSQL
 (PDO_PGSQL)
-- [SQLite (PDO)] (ref.pdo-sqlite.md) - Функції SQLite
+- [SQLite (PDO)](ref.pdo-sqlite.md) - Функції SQLite
 (PDO_SQLITE)

@@ -1,5 +1,4 @@
-- [«
-fann_clear_scaling_params](function.fann-clear-scaling-params.md)
+- [« fann_clear_scaling_params](function.fann-clear-scaling-params.md)
 - [fann_create_from_file »](function.fann-create-from-file.md)
 
 - [PHP Manual](index.md)

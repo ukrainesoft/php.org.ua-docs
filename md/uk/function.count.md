@@ -1,5 +1,5 @@
 - [«compact](function.compact.md)
-- [current »] (function.current.md)
+- [current »](function.current.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)

@@ -1,7 +1,5 @@
-- [«
-XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
-- [XSLTProcessor::removeParameter
-»](xsltprocessor.removeparameter.md)
+- [« XSLTProcessor::importStylesheet](xsltprocessor.importstylesheet.md)
+- [XSLTProcessor::removeParameter »](xsltprocessor.removeparameter.md)
 
 - [PHP Manual](index.md)
 - [XSLTProcessor](class.xsltprocessor.md)

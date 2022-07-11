@@ -15,8 +15,7 @@ mysql_get_client_info — Повертає дані про MySQL-клієнт
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_get_client_info()](mysqli.get-client-info.md)
 - [PDO::getAttribute(PDO::ATTR_CLIENT_VERSION)](pdo.getattribute.md)

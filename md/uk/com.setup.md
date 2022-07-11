@@ -2,7 +2,7 @@
 - [Вимоги »](com.requirements.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)
-- [ReflectionFunctionAbstract::getClosureThis
-»](reflectionfunctionabstract.getclosurethis.md)
+- [« ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)
+- [ReflectionFunctionAbstract::getClosureThis »](reflectionfunctionabstract.getclosurethis.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

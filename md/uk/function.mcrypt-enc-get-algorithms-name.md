@@ -1,6 +1,5 @@
 - [«mcrypt_decrypt](function.mcrypt-decrypt.md)
-- [mcrypt_enc_get_block_size
-»](function.mcrypt-enc-get-block-size.md)
+- [mcrypt_enc_get_block_size »](function.mcrypt-enc-get-block-size.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

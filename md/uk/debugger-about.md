@@ -9,8 +9,7 @@
 
 Разом з PHP поставляється інтерактивний налагоджувач
 [phpdbg](migration56.new-features.md#migration56.new-features.phpdbg).
-Ви можете використовувати зовнішні відладчики. [»Zend
-IDE](http://www.zend.com/en/products/studio/) має вбудований наладчик,
+Ви можете використовувати зовнішні відладчики. [»Zend IDE](http://www.zend.com/en/products/studio/) має вбудований наладчик,
 а також є кілька безкоштовних модулів налагодження, такі як DBG,
 що знаходиться за адресою
 [»http://www.php-debugger.com/dbg/](http://www.php-debugger.com/dbg/),

@@ -1,6 +1,5 @@
 - [«time](function.time.md)
-- [timezone_identifiers_list
-»](function.timezone-identifiers-list.md)
+- [timezone_identifiers_list »](function.timezone-identifiers-list.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

@@ -1,5 +1,4 @@
-- [«
-fann_create_train_from_callback](function.fann-create-train-from-callback.md)
+- [« fann_create_train_from_callback](function.fann-create-train-from-callback.md)
 - [fann_descale_input »](function.fann-descale-input.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«Зумовлені константи](network.constants.md)
-- [checkdnsrr »] (function.checkdnsrr.md)
+- [checkdnsrr »](function.checkdnsrr.md)
 
 - [PHP Manual](index.md)
 - [Мережа](book.network.md)

@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::\_\_construct](mysql-xdevapi-sqlstatementresult.construct.md)
-- [SqlStatementResult::fetchOne
-»](mysql-xdevapi-sqlstatementresult.fetchone.md)
+- [« SqlStatementResult::\_\_construct](mysql-xdevapi-sqlstatementresult.construct.md)
+- [SqlStatementResult::fetchOne »](mysql-xdevapi-sqlstatementresult.fetchone.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

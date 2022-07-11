@@ -1,5 +1,5 @@
 - [«substr_replace](function.substr-replace.md)
-- [Trim »] (function.trim.md)
+- [Trim »](function.trim.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -104,7 +104,7 @@ substr — Повертає підрядок
 
 string(0) ""
 
-\]
+]
 
 Результат виконання цього прикладу в PHP 7:
 
@@ -123,5 +123,4 @@ bool(false)
 - [mb_substr()](function.mb-substr.md) - Повертає частину рядка
 - [wordwrap()](function.wordwrap.md) - Переносить рядок по
 вказаній кількості символів
-- [Посимвольний доступ та зміна
-строки](language.types.string.md#language.types.string.substr)
+- [Посимвольний доступ та зміна строки](language.types.string.md#language.types.string.substr)

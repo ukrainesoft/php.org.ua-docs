@@ -1,5 +1,4 @@
-- [«
-ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md)
+- [« ZipArchive::getExternalAttributesName](ziparchive.getexternalattributesname.md)
 - [ZipArchive::getFromName »](ziparchive.getfromname.md)
 
 - [PHP Manual](index.md)

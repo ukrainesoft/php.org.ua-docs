@@ -1,4 +1,4 @@
-- [« tempnam] (function.tempnam.md)
+- [« tempnam](function.tempnam.md)
 - [touch »](function.touch.md)
 
 - [PHP Manual](index.md)

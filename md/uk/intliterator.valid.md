@@ -1,5 +1,5 @@
 - [« IntlIterator::rewind](intliterator.rewind.md)
-- [Функції intl »] (ref.intl.md)
+- [Функції intl »](ref.intl.md)
 
 - [PHP Manual](index.md)
 - [IntlIterator](class.intliterator.md)

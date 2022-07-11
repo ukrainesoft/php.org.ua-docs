@@ -1,6 +1,5 @@
 - [« EventBufferEvent::write](eventbufferevent.write.md)
-- [Про callback-функції подійного буфера
-»](eventbufferevent.about.callbacks.md)
+- [Про callback-функції подійного буфера »](eventbufferevent.about.callbacks.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

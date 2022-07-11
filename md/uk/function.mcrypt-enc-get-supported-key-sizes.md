@@ -1,7 +1,5 @@
-- [«
-mcrypt_enc_get_modes_name](function.mcrypt-enc-get-modes-name.md)
-- [mcrypt_enc_is_block_algorithm_mode
-»](function.mcrypt-enc-is-block-algorithm-mode.md)
+- [« mcrypt_enc_get_modes_name](function.mcrypt-enc-get-modes-name.md)
+- [mcrypt_enc_is_block_algorithm_mode »](function.mcrypt-enc-is-block-algorithm-mode.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

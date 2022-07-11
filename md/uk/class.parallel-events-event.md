@@ -1,6 +1,5 @@
 - [« parallel\Events\Input::remove](parallel-events-input.remove.md)
-- [Parallel\Events\Event\Type
-»](class.parallel-events-event-type.md)
+- [Parallel\Events\Event\Type »](class.parallel-events-event-type.md)
 
 - [PHP Manual](index.md)
 - [parallel](book.parallel.md)

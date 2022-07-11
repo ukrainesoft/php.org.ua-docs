@@ -1,6 +1,5 @@
 - [« ReflectionParameter::isArray](reflectionparameter.isarray.md)
-- [ReflectionParameter::isDefaultValueAvailable
-»](reflectionparameter.isdefaultvalueavailable.md)
+- [ReflectionParameter::isDefaultValueAvailable »](reflectionparameter.isdefaultvalueavailable.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

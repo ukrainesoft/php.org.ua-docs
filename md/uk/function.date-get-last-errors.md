@@ -1,6 +1,5 @@
 - [«date_format](function.date-format.md)
-- [date_interval_create_from_date_string
-»](function.date-interval-create-from-date-string.md)
+- [date_interval_create_from_date_string »](function.date-interval-create-from-date-string.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

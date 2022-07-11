@@ -11,9 +11,7 @@
 
 ## Вступ
 
-Клас SoapClient є клієнтом для серверів [» SOAP
-1.1](http://www.w3.org/TR/soap11/), [» SOAP
-1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі з
+Клас SoapClient є клієнтом для серверів [» SOAP 1.1](http://www.w3.org/TR/soap11/), [» SOAP 1.2](http://www.w3.org/TR/soap12/). Він може використовуватися в режимі з
 WSDL чи без нього.
 
 ## Огляд класів
@@ -80,11 +78,10 @@ private int `$_soap_version`;
 
 private ?int `$_use_proxy` u003d null;
 
-private array `$_cookies` u003d \[\];
+private array `$_cookies` u003d [];
 
 private ?array `$__default_headers` u003d null;
-
-private ?[SoapFault](class.soapfault.md) `$__soap_fault` u003d null;
+ private ?[SoapFault](class.soapfault.md) `$__soap_fault` u003d null;
 
 private ?string `$__last_request` u003d null;
 
@@ -97,9 +94,8 @@ private ?string `$__last_response_headers` u003d null;
 /\* Методи \*/
 
 public [\_\_construct](soapclient.construct.md)(?string `$wsdl`, array
-`$options` u003d \[\])
-
-public [\_\_call](soapclient.call.md)(string `$name`, array `$args`):
+`$options` u003d [])
+ public [\_\_call](soapclient.call.md)(string `$name`, array `$args`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [\_\_doRequest](soapclient.dorequest.md)(

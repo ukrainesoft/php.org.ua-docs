@@ -1,5 +1,5 @@
 - [«trader_rocr](function.trader-rocr.md)
-- [trader_sar »] (function.trader-sar.md)
+- [trader_sar »](function.trader-sar.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

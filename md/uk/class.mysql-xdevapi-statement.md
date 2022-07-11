@@ -1,5 +1,4 @@
-- [«
-SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.md)
+- [« SqlStatementResult::nextResult](mysql-xdevapi-sqlstatementresult.nextresult.md)
 - [Statement::\_\_construct »](mysql-xdevapi-statement.construct.md)
 
 - [PHP Manual](index.md)

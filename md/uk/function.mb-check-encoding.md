@@ -1,5 +1,5 @@
 - [« Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
-- [mb_chr »] (function.mb-chr.md)
+- [mb_chr »](function.mb-chr.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

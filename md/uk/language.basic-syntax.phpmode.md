@@ -1,6 +1,5 @@
 - [« Теги PHP](language.basic-syntax.phptags.md)
-- [Поділ інструкцій
-»](language.basic-syntax.instruction-separation.md)
+- [Поділ інструкцій »](language.basic-syntax.instruction-separation.md)
 
 - [PHP Manual](index.md)
 - [Основи синтаксису](language.basic-syntax.md)

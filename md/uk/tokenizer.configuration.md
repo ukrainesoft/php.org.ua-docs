@@ -1,5 +1,5 @@
 - [« Установка](tokenizer.installation.md)
-- [Типи ресурсів»] (tokenizer.resources.md)
+- [Типи ресурсів»](tokenizer.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](tokenizer.setup.md)

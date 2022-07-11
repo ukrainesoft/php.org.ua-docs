@@ -1,6 +1,5 @@
 - [« ReflectionParameter::hasType](reflectionparameter.hastype.md)
-- [ReflectionParameter::isCallable
-»](reflectionparameter.iscallable.md)
+- [ReflectionParameter::isCallable »](reflectionparameter.iscallable.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

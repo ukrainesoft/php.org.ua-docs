@@ -1,6 +1,5 @@
 - [«MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)
-- [MongoDB\BSON\Unserializable
-»](class.mongodb-bson-unserializable.md)
+- [MongoDB\BSON\Unserializable »](class.mongodb-bson-unserializable.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md)

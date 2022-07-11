@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::getExtensionName](reflectionclass.getextensionname.md)
-- [ReflectionClass::getInterfaceNames
-»](reflectionclass.getinterfacenames.md)
+- [« ReflectionClass::getExtensionName](reflectionclass.getextensionname.md)
+- [ReflectionClass::getInterfaceNames »](reflectionclass.getinterfacenames.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

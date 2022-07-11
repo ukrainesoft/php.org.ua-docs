@@ -19,7 +19,7 @@ pg_fetch_object — Вибирає рядок результату запиту 
 [PgSql\Result](class.pgsql-result.md) `$result`,
 ?int `$row` u003d **`null`**,
 string `$class` u003d "stdClass",
-array `$constructor_args` u003d \[\]
+array `$constructor_args` u003d []
 ): object \ | false
 
 **pg_fetch_object()** повертає об'єкт, властивості якого відповідають

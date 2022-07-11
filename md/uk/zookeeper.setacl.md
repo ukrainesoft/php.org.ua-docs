@@ -71,6 +71,5 @@ string(6) "anyone"
 вузол
 - [Zookeeper::getAcl()](zookeeper.getacl.md) - Синхронно отримує
 ACL, пов'язаний із вузлом
-- [Дозволи
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+- [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 - [ZookeeperException](class.zookeeperexception.md)

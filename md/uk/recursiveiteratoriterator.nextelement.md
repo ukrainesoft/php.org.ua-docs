@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md)
-- [RecursiveIteratorIterator::rewind
-»](recursiveiteratoriterator.rewind.md)
+- [« RecursiveIteratorIterator::next](recursiveiteratoriterator.next.md)
+- [RecursiveIteratorIterator::rewind »](recursiveiteratoriterator.rewind.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

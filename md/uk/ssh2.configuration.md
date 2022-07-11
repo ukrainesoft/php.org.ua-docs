@@ -1,5 +1,5 @@
 - [« Установка](ssh2.installation.md)
-- [Типи ресурсів»] (ssh2.resources.md)
+- [Типи ресурсів»](ssh2.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ssh2.setup.md)

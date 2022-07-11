@@ -1,5 +1,5 @@
 - [ trader_mult](function.trader-mult.md)
-- [trader_obv »] (function.trader-obv.md)
+- [trader_obv »](function.trader-obv.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

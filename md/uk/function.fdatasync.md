@@ -1,5 +1,5 @@
 - [«fcclose](function.fclose.md)
-- [feof »] (function.feof.md)
+- [feof »](function.feof.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

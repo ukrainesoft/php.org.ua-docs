@@ -1,5 +1,4 @@
-- [«
-Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.md)
+- [« Zookeeper::setDeterministicConnOrder](zookeeper.setdeterministicconnorder.md)
 - [Zookeeper::setWatcher »](zookeeper.setwatcher.md)
 
 - [PHP Manual](index.md)

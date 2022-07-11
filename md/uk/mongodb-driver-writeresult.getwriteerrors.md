@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.md)
-- [MongoDB\Driver\WriteResult::isAcknowledged
-»](mongodb-driver-writeresult.isacknowledged.md)
+- [« MongoDB\Driver\WriteResult::getWriteConcernError](mongodb-driver-writeresult.getwriteconcernerror.md)
+- [MongoDB\Driver\WriteResult::isAcknowledged »](mongodb-driver-writeresult.isacknowledged.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
@@ -91,5 +89,4 @@ NULL
 }
 
 ### Дивіться також
-
-- [MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)
+ - [MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)

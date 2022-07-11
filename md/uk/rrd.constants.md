@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (rrd.resources.md)
+- [« Типи ресурсів](rrd.resources.md)
 - [Приклади »](rrd.examples.md)
 
 - [PHP Manual](index.md)

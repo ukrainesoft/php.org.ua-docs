@@ -12,4 +12,4 @@
 - [Вимоги](readline.requirements.md)
 - [Установка](readline.installation.md)
 - [Налаштування під час виконання](readline.configuration.md)
-- [Типи ресурсів] (readline.resources.md)
+- [Типи ресурсів](readline.resources.md)

@@ -1,6 +1,5 @@
 - [«FFI\CType::getPointerType](ffi-ctype.getpointertype.md)
-- [FFI\CType::getStructFieldNames
-»](ffi-ctype.getstructfieldnames.md)
+- [FFI\CType::getStructFieldNames »](ffi-ctype.getstructfieldnames.md)
 
 - [PHP Manual](index.md)
 - [FFI\CType](class.ffi-ctype.md)

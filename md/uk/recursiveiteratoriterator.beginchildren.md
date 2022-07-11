@@ -1,6 +1,5 @@
 - [«RecursiveIteratorIterator](class.recursiveiteratoriterator.md)
-- [RecursiveIteratorIterator::beginIteration
-»](recursiveiteratoriterator.beginiteration.md)
+- [RecursiveIteratorIterator::beginIteration »](recursiveiteratoriterator.beginiteration.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

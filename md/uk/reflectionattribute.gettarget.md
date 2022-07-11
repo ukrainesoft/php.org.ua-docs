@@ -1,6 +1,5 @@
 - [« ReflectionAttribute::getName](reflectionattribute.getname.md)
-- [ReflectionAttribute::isRepeated
-»](reflectionattribute.isrepeated.md)
+- [ReflectionAttribute::isRepeated »](reflectionattribute.isrepeated.md)
 
 - [PHP Manual](index.md)
 - [ReflectionAttribute](class.reflectionattribute.md)

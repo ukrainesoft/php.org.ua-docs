@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::execute](swoole-coroutine-http-client.execute.md)
-- [Swoole\Coroutine\Http\Client::getDefer
-»](swoole-coroutine-http-client.getdefer.md)
+- [« Swoole\Coroutine\Http\Client::execute](swoole-coroutine-http-client.execute.md)
+- [Swoole\Coroutine\Http\Client::getDefer »](swoole-coroutine-http-client.getdefer.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

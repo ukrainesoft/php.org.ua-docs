@@ -1,5 +1,4 @@
-- [«
-ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)
+- [« ReflectionMethod::isDestructor](reflectionmethod.isdestructor.md)
 - [ReflectionMethod::isPrivate »](reflectionmethod.isprivate.md)
 
 - [PHP Manual](index.md)

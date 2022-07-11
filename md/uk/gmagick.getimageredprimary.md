@@ -1,6 +1,5 @@
 - [« Gmagick::getimageprofile](gmagick.getimageprofile.md)
-- [Gmagick::getimagerenderingintent
-»](gmagick.getimagerenderingintent.md)
+- [Gmagick::getimagerenderingintent »](gmagick.getimagerenderingintent.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

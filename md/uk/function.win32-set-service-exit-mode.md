@@ -1,5 +1,4 @@
-- [«
-win32_set_service_exit_code](function.win32-set-service-exit-code.md)
+- [« win32_set_service_exit_code](function.win32-set-service-exit-code.md)
 - [win32_set_service_status »](function.win32-set-service-status.md)
 
 - [PHP Manual](index.md)

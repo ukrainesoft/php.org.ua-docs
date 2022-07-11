@@ -1,4 +1,4 @@
-- [« date] (function.date.md)
+- [« date](function.date.md)
 - [gettimeofday »](function.gettimeofday.md)
 
 - [PHP Manual](index.md)

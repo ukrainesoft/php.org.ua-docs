@@ -1,5 +1,5 @@
 - [« Установка](event.installation.md)
-- [Типи ресурсів»] (event.resources.md)
+- [Типи ресурсів»](event.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](event.setup.md)

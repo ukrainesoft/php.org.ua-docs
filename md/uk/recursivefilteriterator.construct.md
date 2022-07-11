@@ -1,6 +1,5 @@
 - [«RecursiveFilterIterator](class.recursivefilteriterator.md)
-- [RecursiveFilterIterator::getChildren
-»](recursivefilteriterator.getchildren.md)
+- [RecursiveFilterIterator::getChildren »](recursivefilteriterator.getchildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveFilterIterator](class.recursivefilteriterator.md)

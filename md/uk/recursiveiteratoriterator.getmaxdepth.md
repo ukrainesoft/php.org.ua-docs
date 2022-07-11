@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md)
-- [RecursiveIteratorIterator::getSubIterator
-»](recursiveiteratoriterator.getsubiterator.md)
+- [« RecursiveIteratorIterator::getInnerIterator](recursiveiteratoriterator.getinneriterator.md)
+- [RecursiveIteratorIterator::getSubIterator »](recursiveiteratoriterator.getsubiterator.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

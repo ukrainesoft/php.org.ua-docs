@@ -1,4 +1,4 @@
-- [« Lua] (class.lua.md)
+- [« Lua](class.lua.md)
 - [Lua::call »](lua.call.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md)
+- [« SolrModifiableParams::\_\_construct](solrmodifiableparams.construct.md)
 - [SolrQuery »](class.solrquery.md)
 
 - [PHP Manual](index.md)

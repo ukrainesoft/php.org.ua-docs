@@ -1,5 +1,5 @@
 - [« Установка](mbstring.installation.md)
-- [Типи ресурсів»] (mbstring.resources.md)
+- [Типи ресурсів»](mbstring.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](mbstring.setup.md)
@@ -25,8 +25,7 @@
 **Опції конфігурації mbstring**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 
@@ -97,8 +96,7 @@
 Включає чітке визначення кодування. Дивіться опис та приклади в
 [mb_detect_encoding()](function.mb-detect-encoding.md).
 
-Відповідно до [» специфікації HTML
-4.01](http://www.w3.org/TR/REC-html40/interact/forms.md#adef-accept-charset),
+Відповідно до [» специфікації HTML 4.01](http://www.w3.org/TR/REC-html40/interact/forms.md#adef-accept-charset),
 веб-браузерам можна перекодувати дані з форми, які вони
 отримують у кодуванні символів, відмінною від використовуваної на сторінці.
 Дивіться функцію [mb_http_input()](function.mb-http-input.md) для

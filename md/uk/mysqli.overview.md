@@ -168,7 +168,7 @@ PostgreSQL серверів.
 надає API-інтерфейс програмісту PHP.
 
 Додатково про драйвер PDO MYSQL можна прочитати в розділі [MySQL
-(PDO)] (ref.pdo-mysql.md).
+(PDO)](ref.pdo-mysql.md).
 
 *Що таке нативний драйвер MySQL для PHP?*
 

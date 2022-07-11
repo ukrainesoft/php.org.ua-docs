@@ -1,5 +1,5 @@
 - [« Встановлення](gnupg.installation.md)
-- [Типи ресурсів»] (gnupg.resources.md)
+- [Типи ресурсів»](gnupg.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](gnupg.setup.md)

@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Client::setHeaders](swoole-http-client.setheaders.md)
+- [« Swoole\Http\Client::setHeaders](swoole-http-client.setheaders.md)
 - [Swoole\Http\Client::upgrade »](swoole-http-client.upgrade.md)
 
 - [PHP Manual](index.md)

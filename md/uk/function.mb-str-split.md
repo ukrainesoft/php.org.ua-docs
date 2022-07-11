@@ -1,5 +1,5 @@
 - [«mb_split](function.mb-split.md)
-- [mb_strcut »] (function.mb-strcut.md)
+- [mb_strcut »](function.mb-strcut.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

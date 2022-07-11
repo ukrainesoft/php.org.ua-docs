@@ -30,8 +30,7 @@ public [finfo::\_\_construct](finfo.construct.md)(int `$flags` u003d
 ### Список параметрів
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант
-Fileinfo](fileinfo.constants.md).
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
 
 `magic_database`
 Ім'я файлу магічної бази даних, зазвичай щось на кшталт цього:

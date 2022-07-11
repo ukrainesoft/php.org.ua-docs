@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Int64::\_\_construct](mongodb-bson-int64.construct.md)
+- [« MongoDB\BSON\Int64::\_\_construct](mongodb-bson-int64.construct.md)
 - [MongoDB\BSON\Int64::serialize »](mongodb-bson-int64.serialize.md)
 
 - [PHP Manual](index.md)
@@ -53,5 +52,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

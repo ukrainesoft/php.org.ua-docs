@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::isPassive](mongodb-driver-server.ispassive.md)
-- [MongoDB\Driver\Server::isSecondary
-»](mongodb-driver-server.issecondary.md)
+- [« MongoDB\Driver\Server::isPassive](mongodb-driver-server.ispassive.md)
+- [MongoDB\Driver\Server::isSecondary »](mongodb-driver-server.issecondary.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -18,8 +16,7 @@ MongoDB\Driver\Server::isPrimary — Перевіряє, чи є сервер
 
 final public **MongoDB\Driver\Server::isPrimary**(): bool
 
-Повертає, чи є цей сервер [»основним
-членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary)
+Повертає, чи є цей сервер [»основним членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-primary)
 набір реплік.
 
 ### Список параметрів

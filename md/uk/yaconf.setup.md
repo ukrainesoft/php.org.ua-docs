@@ -2,7 +2,7 @@
 - [Вимоги »](yaconf.requirements.md)
 
 - [PHP Manual](index.md)
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

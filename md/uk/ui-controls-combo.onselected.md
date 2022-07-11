@@ -1,7 +1,5 @@
-- [«
-UI\Controls\Combo::getSelected](ui-controls-combo.getselected.md)
-- [UI\Controls\Combo::setSelected
-»](ui-controls-combo.setselected.md)
+- [« UI\Controls\Combo::getSelected](ui-controls-combo.getselected.md)
+- [UI\Controls\Combo::setSelected »](ui-controls-combo.setselected.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Combo](class.ui-controls-combo.md)

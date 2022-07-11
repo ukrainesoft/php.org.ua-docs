@@ -1,5 +1,5 @@
 - [« imap_sort](function.imap-sort.md)
-- [imap_subscribe »] (function.imap-subscribe.md)
+- [imap_subscribe »](function.imap-subscribe.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

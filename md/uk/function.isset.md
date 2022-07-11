@@ -81,9 +81,7 @@ bool(false)
 функцію [defined()](function.defined.md).
 
 > **Примітка**: Оскільки це мовна конструкція, а не функція, вона
-> не може викликатися за допомогою [змінних
-> функцій](functions.variable-functions.md) або [іменованих
-> аргументів](functions.arguments.md#functions.named-arguments).
+> не може викликатися за допомогою [змінних > функцій](functions.variable-functions.md) або [іменованих > аргументів](functions.arguments.md#functions.named-arguments).
 
 > **Примітка**:
 >

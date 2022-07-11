@@ -1,6 +1,5 @@
 - [«else](control-structures.else.md)
-- [Альтернативний синтаксис керуючих структур
-»](control-structures.alternative-syntax.md)
+- [Альтернативний синтаксис керуючих структур »](control-structures.alternative-syntax.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)

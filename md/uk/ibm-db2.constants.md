@@ -1,5 +1,5 @@
 - [« Типи ресурсів](ibm-db2.resources.md)
-- [Функції IBM DB2»] (ref.ibm-db2.md)
+- [Функції IBM DB2»](ref.ibm-db2.md)
 
 - [PHP Manual](index.md)
 - [IBM DB2](book.ibm-db2.md)

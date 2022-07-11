@@ -20,8 +20,7 @@
 Створюється функцією [dir()](function.dir.md).
 
 **stdClass**
-Створюється [наведенням типу до
-об'єкту](language.types.object.md#language.types.object.casting).
+Створюється [наведенням типу до об'єкту](language.types.object.md#language.types.object.casting).
 
 **\_\_PHP_Incomplete_Class**
 Можливо, створюється функцією [unserialize()](function.unserialize.md).
@@ -34,8 +33,7 @@
 
 [Closure](class.closure.md)
 Обумовлений остаточний клас [Closure](class.closure.md),
-використовується для внутрішньої реалізації [анонімних
-функцій] (functions.anonymous.md).
+використовується для внутрішньої реалізації [анонімних функцій](functions.anonymous.md).
 
 [Generator](class.generator.md)
 Обумовлений остаточний клас [Generator](class.generator.md),
@@ -64,8 +62,7 @@
 [Поточний клас](language.oop5.paamayim-nekudotayim.md).
 
 **static**
-[Поточний клас під час
-виконання](language.oop5.late-static-bindings.md).
+[Поточний клас під час виконання](language.oop5.late-static-bindings.md).
 
 **parent**
 [Батьківський клас](language.oop5.paamayim-nekudotayim.md).

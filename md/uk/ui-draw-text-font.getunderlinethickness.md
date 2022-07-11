@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Text\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.md)
-- [UI\Draw\Text\Font\Descriptor
-»](class.ui-draw-text-font-descriptor.md)
+- [« UI\Draw\Text\Font::getUnderlinePosition](ui-draw-text-font.getunderlineposition.md)
+- [UI\Draw\Text\Font\Descriptor »](class.ui-draw-text-font-descriptor.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font](class.ui-draw-text-font.md)

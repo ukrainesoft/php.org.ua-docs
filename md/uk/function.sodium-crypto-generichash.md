@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_generichash_update](function.sodium-crypto-generichash-update.md)
-- [sodium_crypto_kdf_derive_from_key
-»](function.sodium-crypto-kdf-derive-from-key.md)
+- [« sodium_crypto_generichash_update](function.sodium-crypto-generichash-update.md)
+- [sodium_crypto_kdf_derive_from_key »](function.sodium-crypto-kdf-derive-from-key.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

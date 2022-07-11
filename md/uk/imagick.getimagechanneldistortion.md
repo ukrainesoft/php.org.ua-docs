@@ -1,6 +1,5 @@
 - [« Imagick::getImageChannelDepth](imagick.getimagechanneldepth.md)
-- [Imagick::getImageChannelDistortions
-»](imagick.getimagechanneldistortions.md)
+- [Imagick::getImageChannelDistortions »](imagick.getimagechanneldistortions.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)
@@ -34,8 +33,7 @@ public
 [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
 
 `metric`
-Одна з [констант типу
-METRIC](imagick.constants.md#imagick.constants.metric).
+Одна з [констант типу METRIC](imagick.constants.md#imagick.constants.metric).
 
 ### Значення, що повертаються
 

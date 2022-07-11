@@ -1,5 +1,5 @@
 - [«openlog](function.openlog.md)
-- [setcookie »] (function.setcookie.md)
+- [setcookie »](function.setcookie.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

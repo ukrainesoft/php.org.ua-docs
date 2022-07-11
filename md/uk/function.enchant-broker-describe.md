@@ -1,6 +1,5 @@
 - [« Функції Enchant](ref.enchant.md)
-- [enchant_broker_dict_exists
-»](function.enchant-broker-dict-exists.md)
+- [enchant_broker_dict_exists »](function.enchant-broker-dict-exists.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

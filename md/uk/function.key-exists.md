@@ -1,5 +1,5 @@
 - [«in_array](function.in-array.md)
-- [key »] (function.key.md)
+- [key »](function.key.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)

@@ -48,5 +48,4 @@ int `$cursor_option` u003d **`SQL_CUR_USE_DRIVER`**
 
 - [odbc_connect()](function.odbc-connect.md) - З'єднує з
 джерелом даних
-- [Постійні з'єднання з базами
-даних](features.persistent-connections.md)
+- [Постійні з'єднання з базами даних](features.persistent-connections.md)

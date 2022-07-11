@@ -1,6 +1,5 @@
 - [« Помилки потоку](stream.errors.md)
-- [Приклад класу, зареєстрованого як обгортка потоку
-»](stream.streamwrapper.example-1.md)
+- [Приклад класу, зареєстрованого як обгортка потоку »](stream.streamwrapper.example-1.md)
 
 - [PHP Manual](index.md)
 - [Потоки](book.stream.md)
@@ -10,8 +9,7 @@
 
 ## Зміст
 
-- [Приклад класу, зареєстрованого як обгортка
-потоку](stream.streamwrapper.example-1.md)
+- [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 
 **Приклад #1 Використання
 [file_get_contents()](function.file-get-contents.md) для отримання

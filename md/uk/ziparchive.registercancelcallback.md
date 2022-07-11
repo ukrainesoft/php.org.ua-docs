@@ -1,6 +1,5 @@
 - [« ZipArchive::open](ziparchive.open.md)
-- [ZipArchive::registerProgressCallback
-»](ziparchive.registerprogresscallback.md)
+- [ZipArchive::registerProgressCallback »](ziparchive.registerprogresscallback.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

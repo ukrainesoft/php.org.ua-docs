@@ -1,7 +1,5 @@
-- [«
-Componere\Definition::\_\_construct](componere-definition.construct.md)
-- [Componere\Definition::addProperty
-»](componere-definition.addproperty.md)
+- [« Componere\Definition::\_\_construct](componere-definition.construct.md)
+- [Componere\Definition::addProperty »](componere-definition.addproperty.md)
 
 - [PHP Manual](index.md)
 - [Componere\Definition](class.componere-definition.md)

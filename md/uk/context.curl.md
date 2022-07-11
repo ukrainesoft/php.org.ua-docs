@@ -1,5 +1,5 @@
 - [« Опції контексту SSL](context.ssl.md)
-- [Контекстні опції Phar »] (context.phar.md)
+- [Контекстні опції Phar »](context.phar.md)
 
 - [PHP Manual](index.md)
 - [Контекстні опції та параметри](context.md)

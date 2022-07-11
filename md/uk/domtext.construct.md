@@ -1,6 +1,5 @@
 - [«DOMText](class.domtext.md)
-- [DOMText::isElementContentWhitespace
-»](domtext.iselementcontentwhitespace.md)
+- [DOMText::isElementContentWhitespace »](domtext.iselementcontentwhitespace.md)
 
 - [PHP Manual](index.md)
 - [DOMText](class.domtext.md)

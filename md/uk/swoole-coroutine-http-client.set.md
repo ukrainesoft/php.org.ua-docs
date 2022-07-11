@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::recv](swoole-coroutine-http-client.recv.md)
-- [Swoole\Coroutine\Http\Client::setCookies
-»](swoole-coroutine-http-client.setcookies.md)
+- [« Swoole\Coroutine\Http\Client::recv](swoole-coroutine-http-client.recv.md)
+- [Swoole\Coroutine\Http\Client::setCookies »](swoole-coroutine-http-client.setcookies.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

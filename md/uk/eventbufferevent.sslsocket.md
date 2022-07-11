@@ -1,5 +1,4 @@
-- [«
-EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md)
+- [« EventBufferEvent::sslRenegotiate](eventbufferevent.sslrenegotiate.md)
 - [EventBufferEvent::write »](eventbufferevent.write.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« Imagick::setImageChannelDepth](imagick.setimagechanneldepth.md)
-- [Imagick::setImageColormapColor
-»](imagick.setimagecolormapcolor.md)
+- [Imagick::setImageColormapColor »](imagick.setimagecolormapcolor.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

@@ -1,6 +1,5 @@
 - [« sodium_crypto_scalarmult](function.sodium-crypto-scalarmult.md)
-- [sodium_crypto_secretbox_open
-»](function.sodium-crypto-secretbox-open.md)
+- [sodium_crypto_secretbox_open »](function.sodium-crypto-secretbox-open.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

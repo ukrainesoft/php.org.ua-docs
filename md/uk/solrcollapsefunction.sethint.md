@@ -1,5 +1,4 @@
-- [«
-SolrCollapseFunction::setField](solrcollapsefunction.setfield.md)
+- [« SolrCollapseFunction::setField](solrcollapsefunction.setfield.md)
 - [SolrCollapseFunction::setMax »](solrcollapsefunction.setmax.md)
 
 - [PHP Manual](index.md)

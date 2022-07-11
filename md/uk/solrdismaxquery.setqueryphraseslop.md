@@ -1,6 +1,5 @@
 - [«SolrDisMaxQuery::setQueryAlt](solrdismaxquery.setqueryalt.md)
-- [SolrDisMaxQuery::setTieBreaker
-»](solrdismaxquery.settiebreaker.md)
+- [SolrDisMaxQuery::setTieBreaker »](solrdismaxquery.settiebreaker.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

@@ -1,8 +1,8 @@
-- [«Ev] (book.ev.md)
+- [«Ev](book.ev.md)
 - [Встановлення та налаштування »](ev.setup.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 -   Вступ
 
 # Вступ
@@ -26,5 +26,4 @@
 званих спостерігачів за подіями, а потім запустити їх, передавши
 libev.
 
-Для отримання детальної інформації зверніться до [» документації
-libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod)
+Для отримання детальної інформації зверніться до [» документації libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod)

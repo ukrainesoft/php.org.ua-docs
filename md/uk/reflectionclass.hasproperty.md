@@ -1,6 +1,5 @@
 - [« ReflectionClass::hasMethod](reflectionclass.hasmethod.md)
-- [ReflectionClass::implementsInterface
-»](reflectionclass.implementsinterface.md)
+- [ReflectionClass::implementsInterface »](reflectionclass.implementsinterface.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

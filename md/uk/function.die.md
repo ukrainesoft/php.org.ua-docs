@@ -1,5 +1,5 @@
 - [«defined](function.defined.md)
-- [eval »] (function.eval.md)
+- [eval »](function.eval.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

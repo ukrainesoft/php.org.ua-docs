@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.md)
-- [MongoDB\Driver\Manager::executeQuery
-»](mongodb-driver-manager.executequery.md)
+- [« MongoDB\Driver\Manager::executeBulkWrite](mongodb-driver-manager.executebulkwrite.md)
+- [MongoDB\Driver\Manager::executeQuery »](mongodb-driver-manager.executequery.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -22,14 +20,12 @@ array `$options` u003d array()):
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує
 запит на цьому сервері. За замовчуванням використовуватиметься перевага
-читання з URI [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+читання з URI [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 Цей метод не застосовує особливої логіки до команди. Хоча цей метод
 приймає ``readConcern'' та ``writeConcern'', які будуть включені в
 документи коанди, ці опції не відповідатимуть значенням по
-замовчуванням з [MongoDB URI
-з'єднання](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
+замовчуванням з [MongoDB URI з'єднання](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 , і не враховуватиметься версія сервера MongoDB. Тому користувачам
 рекомендується використовувати конкретні методи команди читання та/або запису
 якщо це можливо.
@@ -50,8 +46,7 @@ MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-ur
 **Увага**
 При використанні `session` та наявності незавершених транзакцій, ви не
 можете вказати ``readConcern'' або 'writeConcern' option. Це приведе
-до викидання виключення
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+до викидання виключення [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 Натомість ви повинні встановити ці дві опції при створенні транзакції
 за допомогою
 [MongoDB\Driver\Session::startTransaction()](mongodb-driver-session.starttransaction.md).
@@ -132,15 +127,13 @@ int(2)
 [MongoDB\Driver\Query](class.mongodb-driver-query.md) може
 використовуватись для обмеження часу виконання запиту. Зверніть
 увагу, що цей термін застосовується на стороні сервера та не враховує
-затримки мережі. Дивіться [» Завершення виконання
-операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
+затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 у посібнику MongoDB для отримання додаткової інформації.
 
 ` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$command u003d new MongoDB\Driver\Command([   'count' u003d> 'collection', > | ['x' u003d> ['$gt' u003d> 1]],   'maxTimeMS' u003d> 1000,]);$cursor u003d $manager->executeCommand('db', $command);var_dump($cursor-> toArray()[0]);?> `
 
 Якщо запит не завершиться через секунду після початку виконання на
-сервері, буде викинуто виняток
-[MongoDB\Driver\Exception\ExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md).
+сервері, буде викинуто виняток [MongoDB\Driver\Exception\ExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md).
 
 ### Примітки
 

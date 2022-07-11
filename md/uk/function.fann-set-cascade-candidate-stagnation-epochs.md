@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_candidate_limit](function.fann-set-cascade-candidate-limit.md)
-- [fann_set_cascade_max_cand_epochs
-»](function.fann-set-cascade-max-cand-epochs.md)
+- [« fann_set_cascade_candidate_limit](function.fann-set-cascade-candidate-limit.md)
+- [fann_set_cascade_max_cand_epochs »](function.fann-set-cascade-max-cand-epochs.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

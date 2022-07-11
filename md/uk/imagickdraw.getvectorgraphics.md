@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md)
+- [« ImagickDraw::getTextUnderColor](imagickdraw.gettextundercolor.md)
 - [ImagickDraw::line »](imagickdraw.line.md)
 
 - [PHP Manual](index.md)

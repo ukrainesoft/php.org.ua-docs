@@ -1,5 +1,5 @@
 - [«Зумовлені константи](classobj.constants.md)
-- [Функції роботи з класами та об'єктами»] (ref.classobj.md)
+- [Функції роботи з класами та об'єктами»](ref.classobj.md)
 
 - [PHP Manual](index.md)
 - [Класи та об'єкти](book.classobj.md)

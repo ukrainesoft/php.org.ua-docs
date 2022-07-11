@@ -1,5 +1,5 @@
 - [«jdtounix](function.jdtounix.md)
-- [juliantojd »] (function.juliantojd.md)
+- [juliantojd »](function.juliantojd.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

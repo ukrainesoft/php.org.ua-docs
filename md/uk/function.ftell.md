@@ -1,5 +1,5 @@
 - [«fsync](function.fsync.md)
-- [ftruncate »] (function.ftruncate.md)
+- [ftruncate »](function.ftruncate.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

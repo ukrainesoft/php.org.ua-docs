@@ -39,8 +39,7 @@ public **NumberFormatter::setTextAttribute**(int `$attribute`, string
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `attribute`
-Специфікатор атрибута - одна із констант [текстового
-атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute).
+Специфікатор атрибута - одна із констант [текстового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute).
 
 `value`
 Текст значення атрибута.

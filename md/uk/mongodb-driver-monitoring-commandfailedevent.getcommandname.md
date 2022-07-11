@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros
-»](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md)
+- [« MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)
+- [MongoDB\Driver\Monitoring\CommandFailedEvent::getDurationMicros »](mongodb-driver-monitoring-commandfailedevent.getdurationmicros.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)

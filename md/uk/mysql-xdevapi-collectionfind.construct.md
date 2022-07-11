@@ -1,6 +1,5 @@
 - [« CollectionFind::bind](mysql-xdevapi-collectionfind.bind.md)
-- [CollectionFind::execute
-»](mysql-xdevapi-collectionfind.execute.md)
+- [CollectionFind::execute »](mysql-xdevapi-collectionfind.execute.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

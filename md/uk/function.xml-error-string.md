@@ -1,6 +1,5 @@
 - [« Функції парсера XML](ref.xml.md)
-- [xml_get_current_byte_index
-»](function.xml-get-current-byte-index.md)
+- [xml_get_current_byte_index »](function.xml-get-current-byte-index.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

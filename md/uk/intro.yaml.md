@@ -1,4 +1,4 @@
-- [« Yaml] (book.yaml.md)
+- [« Yaml](book.yaml.md)
 - [Встановлення та налаштування »](yaml.setup.md)
 
 - [PHP Manual](index.md)

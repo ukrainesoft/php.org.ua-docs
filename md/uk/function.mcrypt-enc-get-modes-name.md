@@ -1,6 +1,5 @@
 - [« mcrypt_enc_get_key_size](function.mcrypt-enc-get-key-size.md)
-- [mcrypt_enc_get_supported_key_sizes
-»](function.mcrypt-enc-get-supported-key-sizes.md)
+- [mcrypt_enc_get_supported_key_sizes »](function.mcrypt-enc-get-supported-key-sizes.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

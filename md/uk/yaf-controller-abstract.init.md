@@ -1,7 +1,5 @@
-- [«
-Yaf_Controller_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md)
-- [Yaf_Controller_Abstract::initView
-»](yaf-controller-abstract.initview.md)
+- [« Yaf_Controller_Abstract::getViewpath](yaf-controller-abstract.getviewpath.md)
+- [Yaf_Controller_Abstract::initView »](yaf-controller-abstract.initview.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

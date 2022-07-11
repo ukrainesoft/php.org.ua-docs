@@ -1,5 +1,5 @@
 - [« Відмінності від Perl](reference.pcre.pattern.differences.md)
-- [preg_filter»] (function.preg-filter.md)
+- [preg_filter»](function.preg-filter.md)
 
 - [PHP Manual](index.md)
 - [PCRE](book.pcre.md)

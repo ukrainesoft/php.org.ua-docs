@@ -2,7 +2,7 @@
 - [Event »](class.event.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Створення подій для сигналів
 
 # Створення подій для сигналів
@@ -24,6 +24,5 @@ Event може відстежувати сигнали у стилі POSIX. Дл
 обробників сигналів POSIX
 
 Також почитайте [» Fast portable non-blocking network programming with
-Libevent, Constructing Signal
-Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_constructing_signal_events)
+Libevent, Constructing Signal Events](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_constructing_signal_events)
 .

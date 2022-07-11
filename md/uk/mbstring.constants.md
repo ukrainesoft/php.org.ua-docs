@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (mbstring.resources.md)
+- [« Типи ресурсів](mbstring.resources.md)
 - [Короткий огляд підтримуваних кодувань »](mbstring.encodings.md)
 
 - [PHP Manual](index.md)

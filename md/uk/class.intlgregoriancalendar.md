@@ -1,6 +1,5 @@
 - [« IntlCalendar::toDateTime](intlcalendar.todatetime.md)
-- [IntlGregorianCalendar::\_\_construct
-»](intlgregoriancalendar.construct.md)
+- [IntlGregorianCalendar::\_\_construct »](intlgregoriancalendar.construct.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)

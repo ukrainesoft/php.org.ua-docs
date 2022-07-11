@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.md)
+- [« IntlCalendar::getKeywordValuesForLocale](intlcalendar.getkeywordvaluesforlocale.md)
 - [IntlCalendar::getLocale »](intlcalendar.getlocale.md)
 
 - [PHP Manual](index.md)

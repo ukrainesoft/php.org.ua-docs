@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::getAttributes](reflectionparameter.getattributes.md)
-- [ReflectionParameter::getDeclaringClass
-»](reflectionparameter.getdeclaringclass.md)
+- [« ReflectionParameter::getAttributes](reflectionparameter.getattributes.md)
+- [ReflectionParameter::getDeclaringClass »](reflectionparameter.getdeclaringclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

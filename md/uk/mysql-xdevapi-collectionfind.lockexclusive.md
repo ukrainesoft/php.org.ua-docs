@@ -1,6 +1,5 @@
 - [« CollectionFind::limit](mysql-xdevapi-collectionfind.limit.md)
-- [CollectionFind::lockShared
-»](mysql-xdevapi-collectionfind.lockshared.md)
+- [CollectionFind::lockShared »](mysql-xdevapi-collectionfind.lockshared.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

@@ -1,5 +1,5 @@
 - [«ocirollback](function.ocirollback.md)
-- [ocisavelob »] (function.ocisavelob.md)
+- [ocisavelob »](function.ocisavelob.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

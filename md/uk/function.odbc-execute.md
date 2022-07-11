@@ -13,7 +13,7 @@ odbc_execute — Виконує запит
 
 ### Опис
 
-**odbc_execute**(resource `$statement`, array `$params` u003d \[\]): bool
+**odbc_execute**(resource `$statement`, array `$params` u003d []): bool
 
 Виконує запит, підготовлений
 [odbc_prepare()](function.odbc-prepare.md).

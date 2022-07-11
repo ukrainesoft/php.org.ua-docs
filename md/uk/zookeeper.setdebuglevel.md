@@ -1,6 +1,5 @@
 - [« Zookeeper::setAcl](zookeeper.setacl.md)
-- [Zookeeper::setDeterministicConnOrder
-»](zookeeper.setdeterministicconnorder.md)
+- [Zookeeper::setDeterministicConnOrder »](zookeeper.setdeterministicconnorder.md)
 
 - [PHP Manual](index.md)
 - [Zookeeper](class.zookeeper.md)
@@ -52,6 +51,5 @@ SUCCESS
 
 ### Дивіться також
 
-- [Рівень логування
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.log-levels)
+- [Рівень логування ZooKeeper](class.zookeeper.md#zookeeper.class.constants.log-levels)
 - [ZookeeperException](class.zookeeperexception.md)

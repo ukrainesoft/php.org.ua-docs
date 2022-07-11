@@ -35,8 +35,7 @@ public **Ds\Map::xor**([Ds\Map](class.ds-map.md) `$map`):
 
 ### Також дивіться
 
-- [» Симетрична
-різницю](https://en.wikipedia.org/wiki/Symmetric_difference) в
+- [» Симетрична різницю](https://en.wikipedia.org/wiki/Symmetric_difference) в
 Вікіпедія
 
 ### Приклади

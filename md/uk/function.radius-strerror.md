@@ -1,6 +1,5 @@
 - [«radius_server_secret](function.radius-server-secret.md)
-- [Модулі для роботи з командним рядком
-»](refs.utilspec.cmdline.md)
+- [Модулі для роботи з командним рядком »](refs.utilspec.cmdline.md)
 
 - [PHP Manual](index.md)
 - [Функції Radius](ref.radius.md)

@@ -1,6 +1,5 @@
 - [«Зумовлені константи](openssl.constants.md)
-- [Прапори заповнення для асиметричного шифрування
-»](openssl.padding.md)
+- [Прапори заповнення для асиметричного шифрування »](openssl.padding.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](openssl.constants.md)

@@ -1,6 +1,5 @@
 - [«FFI\CType::getSize](ffi-ctype.getsize.md)
-- [FFI\CType::getStructFieldOffset
-»](ffi-ctype.getstructfieldoffset.md)
+- [FFI\CType::getStructFieldOffset »](ffi-ctype.getstructfieldoffset.md)
 
 - [PHP Manual](index.md)
 - [FFI\CType](class.ffi-ctype.md)

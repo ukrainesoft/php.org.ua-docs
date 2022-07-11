@@ -1,5 +1,6 @@
 - [« Функції](ref.monitoring.functions.md)
-- [MongoDB\Driver\MonitoringemoveSubscriber
+- [MongoDB\Driver\Monitoring
+emoveSubscriber »](veSubscriber
 »](function.mongodb.driver.monitoring.removesubscriber.md)
 
 - [PHP Manual](index.md)
@@ -42,7 +43,8 @@ MongoDB\Driver\Monitoring ddSubscriber - Глобальна реєстрація
 
 ### Дивіться також
 
-- [MongoDB\Driver\MonitoringemoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) -
+- [MongoDB\Driver\Monitoring
+emoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) -
 Скасує глобальну реєстрацію передплатника на подію моніторингу
 - [MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
 - [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)

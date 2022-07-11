@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MaxKey::\_\_construct](mongodb-bson-maxkey.construct.md)
-- [MongoDB\BSON\MaxKey::serialize
-»](mongodb-bson-maxkey.serialize.md)
+- [« MongoDB\BSON\MaxKey::\_\_construct](mongodb-bson-maxkey.construct.md)
+- [MongoDB\BSON\MaxKey::serialize »](mongodb-bson-maxkey.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

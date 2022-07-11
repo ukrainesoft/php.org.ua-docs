@@ -1,5 +1,4 @@
-- [«
-openssl_spki_export_challenge](function.openssl-spki-export-challenge.md)
+- [« openssl_spki_export_challenge](function.openssl-spki-export-challenge.md)
 - [openssl_spki_new »](function.openssl-spki-new.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError
-»](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getError »](mongodb-driver-monitoring-serverheartbeatfailedevent.geterror.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)

@@ -1,6 +1,5 @@
 - [« IntlDatePatternGenerator](class.intldatepatterngenerator.md)
-- [IntlDatePatternGenerator::getBestPattern
-»](intldatepatterngenerator.getbestpattern.md)
+- [IntlDatePatternGenerator::getBestPattern »](intldatepatterngenerator.getbestpattern.md)
 
 - [PHP Manual](index.md)
 - [IntlDatePatternGenerator](class.intldatepatterngenerator.md)

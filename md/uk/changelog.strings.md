@@ -1,6 +1,5 @@
 - [«wordwrap](function.wordwrap.md)
-- [Модулі, що стосуються змінних та типів
-»](refs.basic.vartype.md)
+- [Модулі, що стосуються змінних та типів »](refs.basic.vartype.md)
 
 - [PHP Manual](index.md)
 - [Рядки](book.strings.md)

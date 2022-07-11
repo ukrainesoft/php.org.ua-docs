@@ -1,5 +1,4 @@
-- [«
-DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
+- [« DOMDocument::createProcessingInstruction](domdocument.createprocessinginstruction.md)
 - [DOMDocument::getElementById »](domdocument.getelementbyid.md)
 
 - [PHP Manual](index.md)

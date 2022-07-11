@@ -1,5 +1,5 @@
 - [« Установка](yaml.installation.md)
-- [Типи ресурсів»] (yaml.resources.md)
+- [Типи ресурсів»](yaml.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](yaml.setup.md)

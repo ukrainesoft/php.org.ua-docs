@@ -1,5 +1,5 @@
 - [«fread](function.fread.md)
-- [fseek »] (function.fseek.md)
+- [fseek »](function.fseek.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

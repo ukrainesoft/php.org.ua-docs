@@ -18,8 +18,7 @@ public **ZMQSocket::setSockOpt**(int `$key`,
 `$value`): [ZMQSocket](class.zmqsocket.md)
 
 Встановлює опцію сокету ZMQ. Тип параметра `value` залежить від
-значення параметра `key`. Дивіться [Типи констант
-ZMQ](class.zmq.md#zmq.constants).
+значення параметра `key`. Дивіться [Типи констант ZMQ](class.zmq.md#zmq.constants).
 
 ### Список параметрів
 

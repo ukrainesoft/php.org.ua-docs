@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md)
+- [« ImagickDraw::setVectorGraphics](imagickdraw.setvectorgraphics.md)
 - [ImagickDraw::skewX »](imagickdraw.skewx.md)
 
 - [PHP Manual](index.md)

@@ -1,4 +1,4 @@
-- [« svn_ls] (function.svn-ls.md)
+- [« svn_ls](function.svn-ls.md)
 - [svn_repos_create »](function.svn-repos-create.md)
 
 - [PHP Manual](index.md)

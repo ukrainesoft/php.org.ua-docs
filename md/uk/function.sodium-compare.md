@@ -1,6 +1,5 @@
 - [« sodium_bin2hex](function.sodium-bin2hex.md)
-- [sodium_crypto_aead_aes256gcm_decrypt
-»](function.sodium-crypto-aead-aes256gcm-decrypt.md)
+- [sodium_crypto_aead_aes256gcm_decrypt »](function.sodium-crypto-aead-aes256gcm-decrypt.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

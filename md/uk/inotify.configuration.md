@@ -1,5 +1,5 @@
 - [« Встановлення та налаштування](inotify.install.md)
-- [Типи ресурсів»] (inotify.resources.md)
+- [Типи ресурсів»](inotify.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](inotify.setup.md)

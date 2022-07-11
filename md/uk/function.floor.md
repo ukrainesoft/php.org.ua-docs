@@ -1,5 +1,5 @@
 - [«fdiv](function.fdiv.md)
-- [fmod»] (function.fmod.md)
+- [fmod»](function.fmod.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

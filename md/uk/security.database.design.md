@@ -1,5 +1,5 @@
 - [«Безпека баз даних](security.database.md)
-- [З'єднання з базою даних»] (security.database.connection.md)
+- [З'єднання з базою даних»](security.database.connection.md)
 
 - [PHP Manual](index.md)
 - [Безпека баз даних](security.database.md)

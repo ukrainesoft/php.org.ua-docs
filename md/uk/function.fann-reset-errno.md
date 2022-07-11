@@ -1,5 +1,4 @@
-- [«
-fann_read_train_from_file](function.fann-read-train-from-file.md)
+- [« fann_read_train_from_file](function.fann-read-train-from-file.md)
 - [fann_reset_errstr »](function.fann-reset-errstr.md)
 
 - [PHP Manual](index.md)

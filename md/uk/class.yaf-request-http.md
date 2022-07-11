@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::setRouted](yaf-request-abstract.setrouted.md)
+- [« Yaf_Request_Abstract::setRouted](yaf-request-abstract.setrouted.md)
 - [Yaf_Request_Http::\_\_construct »](yaf-request-http.construct.md)
 
 - [PHP Manual](index.md)

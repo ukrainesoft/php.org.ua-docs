@@ -1,7 +1,5 @@
-- [«
-Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md)
-- [Componere\Abstract\Definition::getReflector
-»](componere-abstract-definition.getreflector.md)
+- [« Componere\Abstract\Definition::addMethod](componere-abstract-definition.addmethod.md)
+- [Componere\Abstract\Definition::getReflector »](componere-abstract-definition.getreflector.md)
 
 - [PHP Manual](index.md)
 - [Componere\Abstract\Definition](class.componere-abstract-definition.md)

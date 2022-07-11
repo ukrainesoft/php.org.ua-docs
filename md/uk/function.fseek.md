@@ -1,5 +1,5 @@
 - [«fscanf](function.fscanf.md)
-- [fstat »] (function.fstat.md)
+- [fstat »](function.fstat.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

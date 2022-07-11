@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\MySQL::connect](swoole-coroutine-mysql.connect.md)
-- [Swoole\Coroutine\MySQL::\_\_destruct
-»](swoole-coroutine-mysql.destruct.md)
+- [« Swoole\Coroutine\MySQL::connect](swoole-coroutine-mysql.connect.md)
+- [Swoole\Coroutine\MySQL::\_\_destruct »](swoole-coroutine-mysql.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

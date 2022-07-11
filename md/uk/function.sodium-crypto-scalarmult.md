@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_scalarmult_ristretto255](function.sodium-crypto-scalarmult-ristretto255.md)
-- [sodium_crypto_secretbox_keygen
-»](function.sodium-crypto-secretbox-keygen.md)
+- [« sodium_crypto_scalarmult_ristretto255](function.sodium-crypto-scalarmult-ristretto255.md)
+- [sodium_crypto_secretbox_keygen »](function.sodium-crypto-secretbox-keygen.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

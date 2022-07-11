@@ -1,5 +1,5 @@
 - [« Основи синтаксису](language.basic-syntax.md)
-- [Ізолювання від HTML »] (language.basic-syntax.phpmode.md)
+- [Ізолювання від HTML »](language.basic-syntax.phpmode.md)
 
 - [PHP Manual](index.md)
 - [Основи синтаксису](language.basic-syntax.md)

@@ -1,4 +1,4 @@
-- [« OAuth] (book.oauth.md)
+- [« OAuth](book.oauth.md)
 - [Встановлення та налаштування »](oauth.setup.md)
 
 - [PHP Manual](index.md)

@@ -33,8 +33,7 @@
 - [MongoDB](set.mongodb.md) - Драйвер MongoDB
 - [Встановлення та налаштування](mongodb.setup.md)
 - [Навчальні матеріали](mongodb.tutorial.md)
-- [Архітектура та внутрішній пристрій
-драйвера](mongodb.architecture.md) — Огляд архітектури
+- [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md) — Огляд архітектури
 драйвера та її особливостей
 - [Безпека](mongodb.security.md)
 - [MongoDB\Driver](book.mongodb.md) - Класи драйвера MongoDB
@@ -56,13 +55,12 @@ Improved)
 - [Встановлення та налаштування](oci8.setup.md)
 - [Предвизначені константи](oci8.constants.md)
 - [Приклади](oci8.examples.md)
-- [Робота зі з'єднаннями OCI8 та Connection
-Pooling] (oci8.connection.md)
+- [Робота зі з'єднаннями OCI8 та Connection Pooling](oci8.connection.md)
 - [Підтримка OCI8 Fast Application Notification
 (FAN)](oci8.fan.md)
 - [Підтримка прозорого для програм відновлення після
 відмови (Transparent Application Failover або TAF) для
-OCI8] (oci8.taf.md)
+OCI8](oci8.taf.md)
 - [OCI8 та динамічне трасування DTrace](oci8.dtrace.md)
 - [Підтримувані типи даних](oci8.datatypes.md)
 - [OCI8 Функції](ref.oci8.md)

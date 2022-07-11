@@ -1,7 +1,5 @@
-- [«
-Yaf_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.md)
-- [Yaf_Dispatcher::setDefaultController
-»](yaf-dispatcher.setdefaultcontroller.md)
+- [« Yaf_Dispatcher::returnResponse](yaf-dispatcher.returnresponse.md)
+- [Yaf_Dispatcher::setDefaultController »](yaf-dispatcher.setdefaultcontroller.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

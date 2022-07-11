@@ -1,7 +1,5 @@
-- [«
-IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)
-- [IntlGregorianCalendar::setGregorianChange
-»](intlgregoriancalendar.setgregorianchange.md)
+- [« IntlGregorianCalendar::getGregorianChange](intlgregoriancalendar.getgregorianchange.md)
+- [IntlGregorianCalendar::setGregorianChange »](intlgregoriancalendar.setgregorianchange.md)
 
 - [PHP Manual](index.md)
 - [IntlGregorianCalendar](class.intlgregoriancalendar.md)

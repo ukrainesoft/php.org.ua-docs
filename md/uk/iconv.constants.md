@@ -1,5 +1,5 @@
 - [« Типи ресурсів](iconv.resources.md)
-- [Функції iconv»] (ref.iconv.md)
+- [Функції iconv»](ref.iconv.md)
 
 - [PHP Manual](index.md)
 - [iconv](book.iconv.md)

@@ -1,5 +1,4 @@
-- [«
-ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md)
+- [« ReflectionProperty::getModifiers](reflectionproperty.getmodifiers.md)
 - [ReflectionProperty::getType »](reflectionproperty.gettype.md)
 
 - [PHP Manual](index.md)

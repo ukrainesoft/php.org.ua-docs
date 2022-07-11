@@ -1,4 +1,4 @@
-- [« gregoriantojd] (function.gregoriantojd.md)
+- [« gregoriantojd](function.gregoriantojd.md)
 - [jdmonthname »](function.jdmonthname.md)
 
 - [PHP Manual](index.md)

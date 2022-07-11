@@ -1,6 +1,5 @@
 - [« mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md)
-- [BaseResult::getWarningsCount
-»](mysql-xdevapi-baseresult.getwarningscount.md)
+- [BaseResult::getWarningsCount »](mysql-xdevapi-baseresult.getwarningscount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\BaseResult](class.mysql-xdevapi-baseresult.md)

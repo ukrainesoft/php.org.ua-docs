@@ -1,5 +1,4 @@
-- [« Функції зворотного виклику для результуючого
-набору](memcached.callbacks.result.md)
+- [« Функції зворотного виклику для результуючого набору](memcached.callbacks.result.md)
 - [Підтримка сесій»](memcached.sessions.md)
 
 - [PHP Manual](index.md)

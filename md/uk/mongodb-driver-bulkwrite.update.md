@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\BulkWrite::insert](mongodb-driver-bulkwrite.insert.md)
+- [« MongoDB\Driver\BulkWrite::insert](mongodb-driver-bulkwrite.insert.md)
 - [MongoDB\Driver\Session »](class.mongodb-driver-session.md)
 
 - [PHP Manual](index.md)
@@ -23,26 +22,21 @@ array\|object `$newObj`, array `$updateOptions` u003d ?): void
 ### Список параметрів
 
 `filter` (array\|object)
-[» Предикат
-запиту](https://www.mongodb.com/docs/manual/tutorial/query-documents/).
+[» Предикат запиту](https://www.mongodb.com/docs/manual/tutorial/query-documents/).
 Порожній предикат збігатиметься з усіма елементами колекції.
 
 > **Примітка**: При обчисленні критеріїв запиту MongoDB порівнює
 > типи та значення відповідно до власних [» правил порівняння
-> типів
-> BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/),
-> відмінних від правил [порівняння](types.comparisons.md) та [приведення
-> типів](language.types.type-juggling.md) PHP. Коли використовується
-> спеціальний тип BSON, критерію запиту має відповідати [класу
-> BSON](book.bson.md) (тобто використовувати
+> типів > BSON](https://www.mongodb.com/docs/manual/reference/bson-type-comparison-order/),
+> відмінних від правил [порівняння](types.comparisons.md) та [приведення > типів](language.types.type-juggling.md) PHP. Коли використовується
+> спеціальний тип BSON, критерію запиту має відповідати [класу > BSON](book.bson.md) (тобто використовувати
 > [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md) для вибірки
 > по
 > [» ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)).
 
 `newObj` (array\|object)
 Документ, що містить оператори оновлення (наприклад, $set), що замінює
-документ (наприклад, *лише* вирази `field:value`) або [» конвеєр
-агрегації](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline).
+документ (наприклад, *лише* вирази `field:value`) або [» конвеєр агрегації](https://www.mongodb.com/docs/manual/reference/command/update/#update-with-an-aggregation-pipeline).
 
 `updateOptions`
 [TABLE]
@@ -55,8 +49,7 @@ array\|object `$newObj`, array `$updateOptions` u003d ?): void
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 
 ### Список змін
 

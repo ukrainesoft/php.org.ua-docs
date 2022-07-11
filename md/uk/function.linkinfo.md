@@ -1,5 +1,5 @@
 - [«link](function.link.md)
-- [lstat »] (function.lstat.md)
+- [lstat »](function.lstat.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

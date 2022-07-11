@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.md)
-- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer
-»](mongodb-driver-monitoring-commandsucceededevent.getserver.md)
+- [« MongoDB\Driver\Monitoring\CommandSucceededEvent::getReply](mongodb-driver-monitoring-commandsucceededevent.getreply.md)
+- [MongoDB\Driver\Monitoring\CommandSucceededEvent::getServer »](mongodb-driver-monitoring-commandsucceededevent.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandSucceededEvent](class.mongodb-driver-monitoring-commandsucceededevent.md)

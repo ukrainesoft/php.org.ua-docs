@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md)
-- [ReflectionFunctionAbstract::getShortName
-»](reflectionfunctionabstract.getshortname.md)
+- [« ReflectionFunctionAbstract::getParameters](reflectionfunctionabstract.getparameters.md)
+- [ReflectionFunctionAbstract::getShortName »](reflectionfunctionabstract.getshortname.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md)
-- [EventHttpConnection::setRetries
-»](eventhttpconnection.setretries.md)
+- [« EventHttpConnection::setMaxBodySize](eventhttpconnection.setmaxbodysize.md)
+- [EventHttpConnection::setRetries »](eventhttpconnection.setretries.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

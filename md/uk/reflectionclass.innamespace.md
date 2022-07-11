@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)
+- [« ReflectionClass::implementsInterface](reflectionclass.implementsinterface.md)
 - [ReflectionClass::isAbstract »](reflectionclass.isabstract.md)
 
 - [PHP Manual](index.md)

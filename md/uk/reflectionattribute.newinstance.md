@@ -1,5 +1,4 @@
-- [«
-ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
+- [« ReflectionAttribute::isRepeated](reflectionattribute.isrepeated.md)
 - [Reflector »](class.reflector.md)
 
 - [PHP Manual](index.md)

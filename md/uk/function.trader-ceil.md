@@ -1,5 +1,4 @@
-- [«
-trader_cdlxsidegap3methods](function.trader-cdlxsidegap3methods.md)
+- [« trader_cdlxsidegap3methods](function.trader-cdlxsidegap3methods.md)
 - [trader_cmo »](function.trader-cmo.md)
 
 - [PHP Manual](index.md)

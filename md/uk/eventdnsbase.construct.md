@@ -1,6 +1,5 @@
 - [«EventDnsBase::clearSearch](eventdnsbase.clearsearch.md)
-- [EventDnsBase::countNameservers
-»](eventdnsbase.countnameservers.md)
+- [EventDnsBase::countNameservers »](eventdnsbase.countnameservers.md)
 
 - [PHP Manual](index.md)
 - [EventDnsBase](class.eventdnsbase.md)

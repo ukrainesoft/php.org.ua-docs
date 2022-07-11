@@ -1,7 +1,5 @@
-- [«
-SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md)
-- [SolrResponse::getRawRequestHeaders
-»](solrresponse.getrawrequestheaders.md)
+- [« SolrResponse::getHttpStatusMessage](solrresponse.gethttpstatusmessage.md)
+- [SolrResponse::getRawRequestHeaders »](solrresponse.getrawrequestheaders.md)
 
 - [PHP Manual](index.md)
 - [SolrResponse](class.solrresponse.md)

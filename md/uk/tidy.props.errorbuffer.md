@@ -2,7 +2,7 @@
 - [tidy::getConfig »](tidy.getconfig.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає попередження та помилки, що виникли при розборі вказаного
 документа
 

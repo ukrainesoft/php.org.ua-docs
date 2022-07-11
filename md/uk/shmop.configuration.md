@@ -1,5 +1,5 @@
 - [« Установка](shmop.installation.md)
-- [Типи ресурсів»] (shmop.resources.md)
+- [Типи ресурсів»](shmop.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](shmop.setup.md)

@@ -11,8 +11,7 @@
 
 - [Основи підрахунку посилань](features.gc.refcounting-basics.md)
 - [Збір циклічних посилань](features.gc.collecting-cycles.md)
-- [Питання
-продуктивності](features.gc.performance-considerations.md)
+- [Питання продуктивності](features.gc.performance-considerations.md)
 
 У цьому розділі описуються переваги нового механізму збирання сміття
 (також званого Garbage Collection або GC), що є частиною PHP

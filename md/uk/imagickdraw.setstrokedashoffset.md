@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md)
+- [« ImagickDraw::setStrokeDashArray](imagickdraw.setstrokedasharray.md)
 - [ImagickDraw::setStrokeLineCap »](imagickdraw.setstrokelinecap.md)
 
 - [PHP Manual](index.md)

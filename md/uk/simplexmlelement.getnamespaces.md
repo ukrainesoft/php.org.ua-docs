@@ -1,6 +1,5 @@
 - [« SimpleXMLElement::getName](simplexmlelement.getname.md)
-- [SimpleXMLElement::registerXPathNamespace
-»](simplexmlelement.registerxpathnamespace.md)
+- [SimpleXMLElement::registerXPathNamespace »](simplexmlelement.registerxpathnamespace.md)
 
 - [PHP Manual](index.md)
 - [SimpleXMLElement](class.simplexmlelement.md)

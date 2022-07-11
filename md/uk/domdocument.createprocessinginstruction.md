@@ -1,5 +1,4 @@
-- [«
-DOMDocument::createEntityReference](domdocument.createentityreference.md)
+- [« DOMDocument::createEntityReference](domdocument.createentityreference.md)
 - [DOMDocument::createTextNode »](domdocument.createtextnode.md)
 
 - [PHP Manual](index.md)

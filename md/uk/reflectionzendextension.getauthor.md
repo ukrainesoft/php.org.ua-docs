@@ -1,7 +1,5 @@
-- [«
-ReflectionZendExtension::export](reflectionzendextension.export.md)
-- [ReflectionZendExtension::getCopyright
-»](reflectionzendextension.getcopyright.md)
+- [« ReflectionZendExtension::export](reflectionzendextension.export.md)
+- [ReflectionZendExtension::getCopyright »](reflectionzendextension.getcopyright.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

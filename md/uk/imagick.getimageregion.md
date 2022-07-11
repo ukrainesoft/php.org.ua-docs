@@ -1,6 +1,5 @@
 - [« Imagick::getImageRedPrimary](imagick.getimageredprimary.md)
-- [Imagick::getImageRenderingIntent
-»](imagick.getimagerenderingintent.md)
+- [Imagick::getImageRenderingIntent »](imagick.getimagerenderingintent.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

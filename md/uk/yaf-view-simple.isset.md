@@ -1,5 +1,4 @@
-- [«
-Yaf_View_Simple::getScriptPath](yaf-view-simple.getscriptpath.md)
+- [« Yaf_View_Simple::getScriptPath](yaf-view-simple.getscriptpath.md)
 - [Yaf_View_Simple::render »](yaf-view-simple.render.md)
 
 - [PHP Manual](index.md)

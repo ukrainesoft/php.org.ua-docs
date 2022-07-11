@@ -1,5 +1,5 @@
 - [«feof](function.feof.md)
-- [fgetc »] (function.fgetc.md)
+- [fgetc »](function.fgetc.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

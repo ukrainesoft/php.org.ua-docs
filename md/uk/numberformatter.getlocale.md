@@ -1,5 +1,4 @@
-- [«
-NumberFormatter::getErrorMessage](numberformatter.geterrormessage.md)
+- [« NumberFormatter::getErrorMessage](numberformatter.geterrormessage.md)
 - [NumberFormatter::getPattern »](numberformatter.getpattern.md)
 
 - [PHP Manual](index.md)

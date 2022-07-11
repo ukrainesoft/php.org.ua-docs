@@ -1,5 +1,5 @@
 - [« Приклади](dba.examples.md)
-- [Функції DBA»] (ref.dba.md)
+- [Функції DBA»](ref.dba.md)
 
 - [PHP Manual](index.md)
 - [Приклади](dba.examples.md)

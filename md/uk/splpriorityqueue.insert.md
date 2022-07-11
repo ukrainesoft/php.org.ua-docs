@@ -1,5 +1,4 @@
-- [«
-SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.md)
+- [« SplPriorityQueue::getExtractFlags](splpriorityqueue.getextractflags.md)
 - [SplPriorityQueue::isCorrupted »](splpriorityqueue.iscorrupted.md)
 
 - [PHP Manual](index.md)

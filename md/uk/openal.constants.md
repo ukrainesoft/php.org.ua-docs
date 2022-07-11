@@ -1,5 +1,5 @@
 - [« Типи ресурсів](openal.resources.md)
-- [Функції OpenAL»] (ref.openal.md)
+- [Функції OpenAL»](ref.openal.md)
 
 - [PHP Manual](index.md)
 - [OpenAL](book.openal.md)

@@ -1,6 +1,5 @@
 - [« Yaf_Dispatcher::initView](yaf-dispatcher.initview.md)
-- [Yaf_Dispatcher::returnResponse
-»](yaf-dispatcher.returnresponse.md)
+- [Yaf_Dispatcher::returnResponse »](yaf-dispatcher.returnresponse.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

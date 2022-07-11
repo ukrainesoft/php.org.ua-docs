@@ -42,8 +42,7 @@ u003d **`FILEINFO_NONE`**, ?resource `$context` u003d **`null`**): string\|false
 Вміст файлу, що перевіряється.
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант
-Fileinfo](fileinfo.constants.md).
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
 
 `context`
 

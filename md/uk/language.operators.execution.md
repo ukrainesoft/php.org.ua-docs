@@ -1,7 +1,5 @@
-- [« Оператор управління
-помилками](language.operators.errorcontrol.md)
-- [Оператори інкременту та декременту
-»](language.operators.increment.md)
+- [« Оператор управління помилками](language.operators.errorcontrol.md)
+- [Оператори інкременту та декременту »](language.operators.increment.md)
 
 - [PHP Manual](index.md)
 - [Оператори](language.operators.md)

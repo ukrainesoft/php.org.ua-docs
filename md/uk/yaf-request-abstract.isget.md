@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::isDispatched](yaf-request-abstract.isdispatched.md)
+- [« Yaf_Request_Abstract::isDispatched](yaf-request-abstract.isdispatched.md)
 - [Yaf_Request_Abstract::isHead »](yaf-request-abstract.ishead.md)
 
 - [PHP Manual](index.md)

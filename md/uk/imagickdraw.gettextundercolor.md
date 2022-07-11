@@ -1,6 +1,5 @@
 - [« ImagickDraw::getTextKerning](imagickdraw.gettextkerning.md)
-- [ImagickDraw::getVectorGraphics
-»](imagickdraw.getvectorgraphics.md)
+- [ImagickDraw::getVectorGraphics »](imagickdraw.getvectorgraphics.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

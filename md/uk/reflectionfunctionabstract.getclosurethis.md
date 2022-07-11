@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
-- [ReflectionFunctionAbstract::getClosureUsedVariables
-»](reflectionfunctionabstract.getclosureusedvariables.md)
+- [« ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)
+- [ReflectionFunctionAbstract::getClosureUsedVariables »](reflectionfunctionabstract.getclosureusedvariables.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

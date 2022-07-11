@@ -1,5 +1,5 @@
 - [«mailparse_msg_free](function.mailparse-msg-free.md)
-- [mailparse_msg_get_part »] (function.mailparse-msg-get-part.md)
+- [mailparse_msg_get_part »](function.mailparse-msg-get-part.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

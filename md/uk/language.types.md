@@ -22,6 +22,6 @@
 - [Ресурс](language.types.resource.md)
 - [NULL](language.types.null.md)
 - [Функції зворотного виклику
-(callback-функції)] (language.types.callable.md)
+(callback-функції)](language.types.callable.md)
 - [Оголошення типів](language.types.declarations.md)
 - [Маніпуляції з типами](language.types.type-juggling.md)

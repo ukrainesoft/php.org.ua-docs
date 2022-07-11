@@ -1,5 +1,5 @@
 - [« Типи ресурсів](ssh2.resources.md)
-- [Функції SSH2»] (ref.ssh2.md)
+- [Функції SSH2»](ref.ssh2.md)
 
 - [PHP Manual](index.md)
 - [SSH2](book.ssh2.md)

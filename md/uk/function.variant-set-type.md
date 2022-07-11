@@ -1,5 +1,5 @@
 - [« variant_round](function.variant-round.md)
-- [variant_set »] (function.variant-set.md)
+- [variant_set »](function.variant-set.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

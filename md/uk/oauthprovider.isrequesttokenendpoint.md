@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md)
-- [OAuthProvider::removeRequiredParameter
-»](oauthprovider.removerequiredparameter.md)
+- [« OAuthProvider::is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md)
+- [OAuthProvider::removeRequiredParameter »](oauthprovider.removerequiredparameter.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

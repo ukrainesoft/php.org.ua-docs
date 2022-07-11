@@ -11,7 +11,7 @@
 - [Вимоги](dir.requirements.md)
 - [Установка](dir.installation.md)
 - [Налаштування під час виконання](dir.configuration.md)
-- [Типи ресурсів] (dir.resources.md)
+- [Типи ресурсів](dir.resources.md)
 - [Предвизначені константи](dir.constants.md)
 - [Directory](class.directory.md) - Клас Directory
 - [Directory::close](directory.close.md) - Закриває дескриптор

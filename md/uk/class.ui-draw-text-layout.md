@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Brush\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md)
-- [UI\Draw\Text\Layout::\_\_construct
-»](ui-draw-text-layout.construct.md)
+- [« UI\Draw\Brush\RadialGradient::\_\_construct](ui-draw-brush-radialgradient.construct.md)
+- [UI\Draw\Text\Layout::\_\_construct »](ui-draw-text-layout.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

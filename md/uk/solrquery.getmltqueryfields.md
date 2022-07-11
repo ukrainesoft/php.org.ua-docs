@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md)
+- [« SolrQuery::getMltMinWordLength](solrquery.getmltminwordlength.md)
 - [SolrQuery::getQuery »](solrquery.getquery.md)
 
 - [PHP Manual](index.md)

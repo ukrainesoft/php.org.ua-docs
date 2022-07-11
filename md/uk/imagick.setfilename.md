@@ -1,5 +1,4 @@
-- [«
-Imagick::setCompressionQuality](imagick.setcompressionquality.md)
+- [« Imagick::setCompressionQuality](imagick.setcompressionquality.md)
 - [Imagick::setFirstIterator »](imagick.setfirstiterator.md)
 
 - [PHP Manual](index.md)

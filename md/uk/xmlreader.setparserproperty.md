@@ -24,8 +24,7 @@ bool
 ### Список параметрів
 
 `property`
-Одна з [констант опцій
-парсера](class.xmlreader.md#xmlreader.constants).
+Одна з [констант опцій парсера](class.xmlreader.md#xmlreader.constants).
 
 `value`
 Якщо встановлено в **`true`**, то опція буде включена, інакше

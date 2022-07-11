@@ -1,6 +1,5 @@
 - [« xmlrpc_server_create](function.xmlrpc-server-create.md)
-- [xmlrpc_server_register_introspection_callback
-»](function.xmlrpc-server-register-introspection-callback.md)
+- [xmlrpc_server_register_introspection_callback »](function.xmlrpc-server-register-introspection-callback.md)
 
 - [PHP Manual](index.md)
 - [Функції XML-RPC](ref.xmlrpc.md)

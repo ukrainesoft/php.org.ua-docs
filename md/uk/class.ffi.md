@@ -1,5 +1,4 @@
-- [« Комплексний приклад
-PHP/FFI/preloading](ffi.examples-complete.md)
+- [« Комплексний приклад PHP/FFI/preloading](ffi.examples-complete.md)
 - [FFI::addr »](ffi.addr.md)
 
 - [PHP Manual](index.md)
@@ -28,8 +27,7 @@ PHP/FFI/preloading](ffi.examples-complete.md)
 за замовчуванням "C") і завантажені за допомогою [FFI::load()](ffi.load.md)
 час передзавантаження. Це призведе до створення постійних прив'язок, які
 будуть доступні для всіх запитів через [FFI::scope()](ffi.scope.md).
-Докладніше читайте на сторінці [Прості приклади використання
-FFI] (ffi.examples-complete.md).
+Докладніше читайте на сторінці [Прості приклади використання FFI](ffi.examples-complete.md).
 
 У той самий скоуп можна завантажити кілька заголовних файлів.
 

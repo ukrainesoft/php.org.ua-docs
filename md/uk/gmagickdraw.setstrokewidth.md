@@ -1,6 +1,5 @@
 - [« GmagickDraw::setstrokeopacity](gmagickdraw.setstrokeopacity.md)
-- [GmagickDraw::settextdecoration
-»](gmagickdraw.settextdecoration.md)
+- [GmagickDraw::settextdecoration »](gmagickdraw.settextdecoration.md)
 
 - [PHP Manual](index.md)
 - [GmagickDraw](class.gmagickdraw.md)

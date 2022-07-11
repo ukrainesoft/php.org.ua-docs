@@ -24,8 +24,7 @@ array `$options` u003d ?
 Database, IBM Cloudscape або Apache Derby.
 
 Для отримання додаткової інформації про постійні з'єднання
-дивіться [Постійні з'єднання з базами
-даних](features.persistent-connections.md).
+дивіться [Постійні з'єднання з базами даних](features.persistent-connections.md).
 
 Виклик [db2_close()](function.db2-close.md) у постійному з'єднанні
 завжди повертає **`true`**, але базове клієнтське з'єднання DB2

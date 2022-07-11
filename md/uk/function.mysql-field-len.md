@@ -15,13 +15,12 @@ mysql_field_len — Повертає довжину вказаного поля
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_fetch_field_direct()](mysqli-result.fetch-field-direct.md)
-\[length\]
+[length]
 - [PDOStatement::getColumnMeta()](pdostatement.getcolumnmeta.md)
-\[len\]
+[len]
 
 ### Опис
 

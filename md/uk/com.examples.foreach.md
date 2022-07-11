@@ -1,6 +1,5 @@
 - [« Приклади](com.examples.md)
-- [Масиви та властивості COM у стилі масивів
-»](com.examples.arrays.md)
+- [Масиви та властивості COM у стилі масивів »](com.examples.arrays.md)
 
 - [PHP Manual](index.md)
 - [Приклади](com.examples.md)

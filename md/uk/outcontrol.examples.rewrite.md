@@ -1,5 +1,5 @@
 - [« Базове використання](outcontrol.examples.basic.md)
-- [Функції контролю виведення»] (ref.outcontrol.md)
+- [Функції контролю виведення»](ref.outcontrol.md)
 
 - [PHP Manual](index.md)
 - [Приклади](outcontrol.examples.md)
@@ -11,8 +11,7 @@
 [output_add_rewrite_var()](function.output-add-rewrite-var.md) та
 [output_reset_rewrite_vars()](function.output-reset-rewrite-vars.md)
 використовують окремий буфер виводу, тобто не використовують буфер виводу
-[прозорої підтримки
-sid](session.configuration.md#ini.session.use-trans-sid).
+[прозорої підтримки sid](session.configuration.md#ini.session.use-trans-sid).
 
 **Приклад #1 Приклад перезапису виведення**
 

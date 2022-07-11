@@ -1,6 +1,5 @@
 - [« ZipArchive::getCommentIndex](ziparchive.getcommentindex.md)
-- [ZipArchive::getExternalAttributesIndex
-»](ziparchive.getexternalattributesindex.md)
+- [ZipArchive::getExternalAttributesIndex »](ziparchive.getexternalattributesindex.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

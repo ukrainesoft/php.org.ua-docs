@@ -1,5 +1,4 @@
-- [«
-Yaf_Exception_DispatchFailed](class.yaf-exception-dispatchfailed.md)
+- [« Yaf_Exception_DispatchFailed](class.yaf-exception-dispatchfailed.md)
 - [Yaf_Exception_LoadFailed »](class.yaf-exception-loadfailed.md)
 
 - [PHP Manual](index.md)

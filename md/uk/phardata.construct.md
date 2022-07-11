@@ -35,8 +35,7 @@ int `$format` u003d 0
 потокових обгортках.
 
 `format`
-Одна з [констант формату
-файлів](phar.constants.md#phar.constants.fileformat) доступна для
+Одна з [констант формату файлів](phar.constants.md#phar.constants.fileformat) доступна для
 класу [Phar](class.phar.md).
 
 ### Помилки

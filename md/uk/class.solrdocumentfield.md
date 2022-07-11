@@ -1,6 +1,5 @@
 - [« SolrDocument::valid](solrdocument.valid.md)
-- [SolrDocumentField::\_\_construct
-»](solrdocumentfield.construct.md)
+- [SolrDocumentField::\_\_construct »](solrdocumentfield.construct.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

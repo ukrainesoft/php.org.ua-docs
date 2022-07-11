@@ -33,8 +33,7 @@ float `$height`,
 ### Список параметрів
 
 `compose`
-Оператор накладання. Одна з констант [Оператора
-накладання](imagick.constants.md#imagick.constants.compositeop)
+Оператор накладання. Одна з констант [Оператора накладання](imagick.constants.md#imagick.constants.compositeop)
 (`imagick::COMPOSITE_*`).
 
 `x`

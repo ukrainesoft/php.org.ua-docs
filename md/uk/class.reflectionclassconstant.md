@@ -1,6 +1,5 @@
 - [« ReflectionClass::\_\_toString](reflectionclass.tostring.md)
-- [ReflectionClassConstant::\_\_construct
-»](reflectionclassconstant.construct.md)
+- [ReflectionClassConstant::\_\_construct »](reflectionclassconstant.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

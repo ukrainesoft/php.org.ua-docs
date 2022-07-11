@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md)
+- [« ImagickDraw::resetVectorGraphics](imagickdraw.resetvectorgraphics.md)
 - [ImagickDraw::roundRectangle »](imagickdraw.roundrectangle.md)
 
 - [PHP Manual](index.md)

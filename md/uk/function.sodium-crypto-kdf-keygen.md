@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_kdf_derive_from_key](function.sodium-crypto-kdf-derive-from-key.md)
-- [sodium_crypto_kx_client_session_keys
-»](function.sodium-crypto-kx-client-session-keys.md)
+- [« sodium_crypto_kdf_derive_from_key](function.sodium-crypto-kdf-derive-from-key.md)
+- [sodium_crypto_kx_client_session_keys »](function.sodium-crypto-kx-client-session-keys.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

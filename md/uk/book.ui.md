@@ -448,7 +448,7 @@ Callback-функція виконання
 - [UI\Draw\Text\Font ontFamilies](function.ui-draw-text-font-fontfamilies.md)
 — Витягти сімейство шрифтів
 - [UI\quit](function.ui-quit.md) - Вийти з циклу UI
-- [UIun](function.ui-run.md) — Увійти до циклу UI
+- [UI\run](function.ui-run.md) — Увійти до циклу UI
 - [UI\Draw\Text\Font\Weight](class.ui-draw-text-font-weight.md) -
 Налаштування зображення шрифту
 - [UI\Draw\Text\Font\Italic](class.ui-draw-text-font-italic.md) -

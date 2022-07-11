@@ -82,14 +82,10 @@ public [setPattern](messageformatter.setpattern.md)(string
 
 ## Дивіться також
 
-- [»  ICU. Документація з
-форматированию.](https://unicode-org.github.io/icu/userguide/format_parse/)
-- [»  ICU. Опис форматування
-повідомлень.](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
-- [» ICU. Засоби форматування
-повідомлень](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
-- [» ICU. Засоби форматування
-вибору](http://icu-project.org/apiref/icu4c/classChoiceFormat.md#details)
+- [»  ICU. Документація з форматированию.](https://unicode-org.github.io/icu/userguide/format_parse/)
+- [»  ICU. Опис форматування повідомлень.](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+- [» ICU. Засоби форматування повідомлень](https://unicode-org.github.io/icu/userguide/format_parse/messages/)
+- [» ICU. Засоби форматування вибору](http://icu-project.org/apiref/icu4c/classChoiceFormat.md#details)
 
 ## Зміст
 

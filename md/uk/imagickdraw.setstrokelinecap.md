@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.md)
-- [ImagickDraw::setStrokeLineJoin
-»](imagickdraw.setstrokelinejoin.md)
+- [« ImagickDraw::setStrokeDashOffset](imagickdraw.setstrokedashoffset.md)
+- [ImagickDraw::setStrokeLineJoin »](imagickdraw.setstrokelinejoin.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

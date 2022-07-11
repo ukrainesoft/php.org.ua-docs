@@ -1,6 +1,5 @@
-- [« Функції та оператори, які перевіряють зіпсовані
-рядки](taint.detail.taint.md)
-- [Функції Taint »] (ref.taint.md)
+- [« Функції та оператори, які перевіряють зіпсовані рядки](taint.detail.taint.md)
+- [Функції Taint »](ref.taint.md)
 
 - [PHP Manual](index.md)
 - [Додаткові подробиці](taint.detail.md)

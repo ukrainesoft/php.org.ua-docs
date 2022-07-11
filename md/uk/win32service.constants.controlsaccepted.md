@@ -1,7 +1,5 @@
-- [« Константи обробки повідомлень службою
-Win32Service](win32service.constants.servicecontrol.md)
-- [Константи типу запуску служби Win32Service
-»](win32service.constants.servicestarttype.md)
+- [« Константи обробки повідомлень службою Win32Service](win32service.constants.servicecontrol.md)
+- [Константи типу запуску служби Win32Service »](win32service.constants.servicestarttype.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

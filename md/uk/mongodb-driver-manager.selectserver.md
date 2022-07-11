@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::removeSubscriber](mongodb-driver-manager.removesubscriber.md)
-- [MongoDB\Driver\Manager::startSession
-»](mongodb-driver-manager.startsession.md)
+- [« MongoDB\Driver\Manager::removeSubscriber](mongodb-driver-manager.removesubscriber.md)
+- [MongoDB\Driver\Manager::startSession »](mongodb-driver-manager.startsession.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -31,8 +29,7 @@ final public
 > [MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md),
 > цей метод ініціалізуватиме підключення до бази даних і при
 > необхідності виконувати виявлення сервера. Докладніше дивіться.
-> [» Специфікацію вибору
-> сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection).
+> [» Специфікацію вибору > сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst#single-threaded-server-selection).
 
 ### Список параметрів
 
@@ -69,5 +66,4 @@ final public
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
 - [MongoDB\Driver\Manager::getServers()](mongodb-driver-manager.getservers.md) -
 Повертає сервери, до яких підключено менеджера
-- [» Специфікація вибору
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)
+- [» Специфікація вибору сервера](https://github.com/mongodb/specifications/blob/master/source/server-selection/server-selection.rst)

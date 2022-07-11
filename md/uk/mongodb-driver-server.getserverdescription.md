@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::getPort](mongodb-driver-server.getport.md)
-- [MongoDB\Driver\Server::getTags
-»](mongodb-driver-server.gettags.md)
+- [« MongoDB\Driver\Server::getPort](mongodb-driver-server.getport.md)
+- [MongoDB\Driver\Server::getTags »](mongodb-driver-server.gettags.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

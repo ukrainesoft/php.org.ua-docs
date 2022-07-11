@@ -1,6 +1,5 @@
 - [«NumberFormatter](class.numberformatter.md)
-- [NumberFormatter::formatCurrency
-»](numberformatter.formatcurrency.md)
+- [NumberFormatter::formatCurrency »](numberformatter.formatcurrency.md)
 
 - [PHP Manual](index.md)
 - [NumberFormatter](class.numberformatter.md)
@@ -44,15 +43,12 @@ public **NumberFormatter::\_\_construct**(string `$locale`, int
 en_CA).
 
 `style`
-Стиль форматування, одна із констант [стилю
-форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle).
+Стиль форматування, одна із констант [стилю форматування](class.numberformatter.md#intl.numberformatter-constants.unumberformatstyle).
 Якщо передана **`NumberFormatter::PATTERN_DECIMAL`** або
 **`NumberFormatter::PATTERN_RULEBASED`**, то формат числа відкривається з
 використанням даного шаблону, який має відповідати
-синтаксису, описаному в [»документації ICU
-DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
-або [» документації ICU
-RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details),
+синтаксису, описаному в [»документації ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details)
+або [» документації ICU RuleBasedNumberFormat](http://www.icu-project.org/apiref/icu4c/classRuleBasedNumberFormat.md#details),
 відповідно.
 
 `pattern`

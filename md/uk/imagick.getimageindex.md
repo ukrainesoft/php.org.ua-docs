@@ -1,6 +1,5 @@
 - [« Imagick::getImageHistogram](imagick.getimagehistogram.md)
-- [Imagick::getImageInterlaceScheme
-»](imagick.getimageinterlacescheme.md)
+- [Imagick::getImageInterlaceScheme »](imagick.getimageinterlacescheme.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

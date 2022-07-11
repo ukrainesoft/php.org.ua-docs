@@ -1,5 +1,5 @@
 - [«connection_aborted](function.connection-aborted.md)
-- [constant »] (function.constant.md)
+- [constant »](function.constant.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

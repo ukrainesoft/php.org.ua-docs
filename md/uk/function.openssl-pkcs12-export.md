@@ -1,5 +1,4 @@
-- [«
-openssl_pkcs12_export_to_file](function.openssl-pkcs12-export-to-file.md)
+- [« openssl_pkcs12_export_to_file](function.openssl-pkcs12-export-to-file.md)
 - [openssl_pkcs12_read »](function.openssl-pkcs12-read.md)
 
 - [PHP Manual](index.md)
@@ -23,7 +22,7 @@ string `&$output`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
 string `$passphrase`,
-array `$options` u003d \[\]
+array `$options` u003d []
 ): bool
 
 **openssl_pkcs12_export()** зберігає `x509` у змінну `out` в
@@ -32,16 +31,14 @@ array `$options` u003d \[\]
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри
-ключів/сертифікатів](openssl.certparams.md).
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
 
 `output`
 У разі успішного виконання міститиме PKCS#12.
 
 `private_key`
 Компонент закритого ключа PKCS#12. Список допустимих значень
-дивіться на сторінці [параметрів відкритого/закритого
-ключа](openssl.certparams.md).
+дивіться на сторінці [параметрів відкритого/закритого ключа](openssl.certparams.md).
 
 `passphrase`
 Пароль для шифрування PKCS#12.

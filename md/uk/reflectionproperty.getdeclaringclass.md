@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
-- [ReflectionProperty::getDefaultValue
-»](reflectionproperty.getdefaultvalue.md)
+- [« ReflectionProperty::getAttributes](reflectionproperty.getattributes.md)
+- [ReflectionProperty::getDefaultValue »](reflectionproperty.getdefaultvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

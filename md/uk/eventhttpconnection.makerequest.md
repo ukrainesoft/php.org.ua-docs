@@ -1,6 +1,5 @@
 - [«EventHttpConnection::getPeer](eventhttpconnection.getpeer.md)
-- [EventHttpConnection::setCloseCallback
-»](eventhttpconnection.setclosecallback.md)
+- [EventHttpConnection::setCloseCallback »](eventhttpconnection.setclosecallback.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

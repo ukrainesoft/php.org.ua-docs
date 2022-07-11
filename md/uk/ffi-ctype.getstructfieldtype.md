@@ -1,5 +1,4 @@
-- [«
-FFI\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md)
+- [« FFI\CType::getStructFieldOffset](ffi-ctype.getstructfieldoffset.md)
 - [FFI\Exception »](class.ffi-exception.md)
 
 - [PHP Manual](index.md)

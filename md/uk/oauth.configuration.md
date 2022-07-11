@@ -1,5 +1,5 @@
 - [« Установка](oauth.installation.md)
-- [Типи ресурсів»] (oauth.resources.md)
+- [Типи ресурсів»](oauth.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](oauth.setup.md)

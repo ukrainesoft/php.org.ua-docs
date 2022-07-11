@@ -1,6 +1,5 @@
 - [«UI\Controls\Group](class.ui-controls-group.md)
-- [UI\Controls\Group::\_\_construct
-»](ui-controls-group.construct.md)
+- [UI\Controls\Group::\_\_construct »](ui-controls-group.construct.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Group](class.ui-controls-group.md)

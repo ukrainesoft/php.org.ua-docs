@@ -1,5 +1,4 @@
-- [«
-fann_set_training_algorithm](function.fann-set-training-algorithm.md)
+- [« fann_set_training_algorithm](function.fann-set-training-algorithm.md)
 - [fann_set_weight »](function.fann-set-weight.md)
 
 - [PHP Manual](index.md)

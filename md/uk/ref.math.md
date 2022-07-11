@@ -22,7 +22,7 @@
 - [bindec](function.bindec.md) - Двійкове до десяткового
 - [ceil](function.ceil.md) - Округлює дріб у велику сторону
 - [cos](function.cos.md) - Косінус
-- [cosh] (function.cosh.md) - Гіперболічний косинус
+- [cosh](function.cosh.md) - Гіперболічний косинус
 - [decbin](function.decbin.md) — Перекладає число з десяткового
 системи числення в двійкову
 - [dechex](function.dechex.md) — Перекладає число з десяткового
@@ -46,7 +46,7 @@
 шістнадцятковій системи числення до десяткової
 - [hypot](function.hypot.md) - Розраховує довжину гіпотенузи
 прямокутного трикутника
-- [intdiv] (function.intdiv.md) - цілісний поділ
+- [intdiv](function.intdiv.md) - цілісний поділ
 - [is_finite](function.is-finite.md) — Перевіряє, чи є
 значення допустимим кінцевим числом
 - [is_infinite](function.is-infinite.md) — Перевіряє, чи є
@@ -70,7 +70,7 @@
 випадкових чисел на базі Вихря Мерсенна
 - [octdec](function.octdec.md) — Перекладає число з восьмеричного
 системи числення до десяткової
-- [pi] (function.pi.md) - Повертає число Пі
+- [pi](function.pi.md) - Повертає число Пі
 - [pow](function.pow.md) - Зведення в ступінь
 - [rad2deg](function.rad2deg.md) — Перетворює значення радіанів
 у градуси
@@ -81,5 +81,5 @@
 - [sqrt](function.sqrt.md) - Квадратний корінь
 - [srand](function.srand.md) — Змінює початкове число генератора
 псевдовипадкових чисел
-- [tan] (function.tan.md) - Тангенс
-- [tanh] (function.tanh.md) - Гіперболічний тангенс
+- [tan](function.tan.md) - Тангенс
+- [tanh](function.tanh.md) - Гіперболічний тангенс

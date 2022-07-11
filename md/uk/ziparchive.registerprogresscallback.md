@@ -1,5 +1,4 @@
-- [«
-ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md)
+- [« ZipArchive::registerCancelCallback](ziparchive.registercancelcallback.md)
 - [ZipArchive::renameIndex »](ziparchive.renameindex.md)
 
 - [PHP Manual](index.md)

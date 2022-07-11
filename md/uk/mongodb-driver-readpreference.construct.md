@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)
-- [MongoDB\Driver\ReadPreference::getHedge
-»](mongodb-driver-readpreference.gethedge.md)
+- [« MongoDB\Driver\ReadPreference::bsonSerialize](mongodb-driver-readpreference.bsonserialize.md)
+- [MongoDB\Driver\ReadPreference::getHedge »](mongodb-driver-readpreference.gethedge.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -61,8 +59,7 @@ sets. Порожній набір тегів (`array()`) буде відпові
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 - При некоректному `mode` викидає
 [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md)
 - Якщо `tagSets` надається як первинна перевага читання або
@@ -124,5 +121,4 @@ bool(true)
 
 ### Дивіться також
 
-- [»Керівництво за перевагою
-читання](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [»Керівництво за перевагою читання](https://www.mongodb.com/docs/manual/core/read-preference/)

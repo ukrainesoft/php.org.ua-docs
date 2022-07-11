@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_kx_seed_keypair](function.sodium-crypto-kx-seed-keypair.md)
-- [sodium_crypto_pwhash_scryptsalsa208sha256_str_verify
-»](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
+- [« sodium_crypto_kx_seed_keypair](function.sodium-crypto-kx-seed-keypair.md)
+- [sodium_crypto_pwhash_scryptsalsa208sha256_str_verify »](function.sodium-crypto-pwhash-scryptsalsa208sha256-str-verify.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

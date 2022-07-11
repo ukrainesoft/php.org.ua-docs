@@ -1,6 +1,5 @@
 - [«trader_kama](function.trader-kama.md)
-- [trader_linearreg_intercept
-»](function.trader-linearreg-intercept.md)
+- [trader_linearreg_intercept »](function.trader-linearreg-intercept.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

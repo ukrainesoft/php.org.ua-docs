@@ -1,7 +1,5 @@
-- [«
-SolrQuery::removeHighlightField](solrquery.removehighlightfield.md)
-- [SolrQuery::removeMltQueryField
-»](solrquery.removemltqueryfield.md)
+- [« SolrQuery::removeHighlightField](solrquery.removehighlightfield.md)
+- [SolrQuery::removeMltQueryField »](solrquery.removemltqueryfield.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

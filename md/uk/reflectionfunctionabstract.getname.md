@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md)
-- [ReflectionFunctionAbstract::getNamespaceName
-»](reflectionfunctionabstract.getnamespacename.md)
+- [« ReflectionFunctionAbstract::getFileName](reflectionfunctionabstract.getfilename.md)
+- [ReflectionFunctionAbstract::getNamespaceName »](reflectionfunctionabstract.getnamespacename.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

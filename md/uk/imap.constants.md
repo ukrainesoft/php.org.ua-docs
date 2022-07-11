@@ -1,5 +1,5 @@
 - [« Типи ресурсів](imap.resources.md)
-- [Функції IMAP »] (ref.imap.md)
+- [Функції IMAP »](ref.imap.md)
 
 - [PHP Manual](index.md)
 - [IMAP](book.imap.md)

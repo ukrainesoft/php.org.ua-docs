@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md)
-- [EventHttpConnection::setLocalPort
-»](eventhttpconnection.setlocalport.md)
+- [« EventHttpConnection::setCloseCallback](eventhttpconnection.setclosecallback.md)
+- [EventHttpConnection::setLocalPort »](eventhttpconnection.setlocalport.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

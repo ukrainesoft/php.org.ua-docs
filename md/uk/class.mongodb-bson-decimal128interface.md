@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.md)
-- [MongoDB\BSON\Decimal128Interface::\_\_toString
-»](mongodb-bson-decimal128interface.tostring.md)
+- [« MongoDB\BSON\BinaryInterface::\_\_toString](mongodb-bson-binaryinterface.tostring.md)
+- [MongoDB\BSON\Decimal128Interface::\_\_toString »](mongodb-bson-decimal128interface.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

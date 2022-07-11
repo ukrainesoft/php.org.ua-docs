@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteError::getMessage](mongodb-driver-writeerror.getmessage.md)
-- [MongoDB\Driver\WriteResult::getDeletedCount
-»](mongodb-driver-writeresult.getdeletedcount.md)
+- [« MongoDB\Driver\WriteError::getMessage](mongodb-driver-writeerror.getmessage.md)
+- [MongoDB\Driver\WriteResult::getDeletedCount »](mongodb-driver-writeresult.getdeletedcount.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

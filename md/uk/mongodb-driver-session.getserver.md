@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::getOperationTime](mongodb-driver-session.getoperationtime.md)
-- [MongoDB\Driver\Session::getTransactionOptions
-»](mongodb-driver-session.gettransactionoptions.md)
+- [« MongoDB\Driver\Session::getOperationTime](mongodb-driver-session.getoperationtime.md)
+- [MongoDB\Driver\Session::getTransactionOptions »](mongodb-driver-session.gettransactionoptions.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

@@ -1,7 +1,5 @@
-- [«
-SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md)
-- [SolrCollapseFunction::\_\_toString
-»](solrcollapsefunction.tostring.md)
+- [« SolrCollapseFunction::setNullPolicy](solrcollapsefunction.setnullpolicy.md)
+- [SolrCollapseFunction::\_\_toString »](solrcollapsefunction.tostring.md)
 
 - [PHP Manual](index.md)
 - [SolrCollapseFunction](class.solrcollapsefunction.md)

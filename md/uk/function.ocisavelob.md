@@ -1,5 +1,5 @@
 - [«ocirowcount](function.ocirowcount.md)
-- [ocisavelobfile »] (function.ocisavelobfile.md)
+- [ocisavelobfile »](function.ocisavelobfile.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

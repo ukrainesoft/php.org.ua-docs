@@ -159,5 +159,4 @@ Array
 )
 
 ### Дивіться також
-
-- [Опис метрик](mysqlnd.stats.md)
+ - [Опис метрик](mysqlnd.stats.md)

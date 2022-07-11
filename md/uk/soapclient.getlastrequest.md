@@ -1,6 +1,5 @@
 - [« SoapClient::\_\_getFunctions](soapclient.getfunctions.md)
-- [SoapClient::\_\_getLastRequestHeaders
-»](soapclient.getlastrequestheaders.md)
+- [SoapClient::\_\_getLastRequestHeaders »](soapclient.getlastrequestheaders.md)
 
 - [PHP Manual](index.md)
 - [SoapClient](class.soapclient.md)

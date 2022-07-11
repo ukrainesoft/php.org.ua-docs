@@ -1,5 +1,4 @@
-- [«
-mcrypt_module_is_block_mode](function.mcrypt-module-is-block-mode.md)
+- [« mcrypt_module_is_block_mode](function.mcrypt-module-is-block-mode.md)
 - [mcrypt_module_self_test »](function.mcrypt-module-self-test.md)
 
 - [PHP Manual](index.md)

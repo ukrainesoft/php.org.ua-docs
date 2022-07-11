@@ -1,6 +1,5 @@
 - [«SolrDocument::getFieldNames](solrdocument.getfieldnames.md)
-- [SolrDocument::hasChildDocuments
-»](solrdocument.haschilddocuments.md)
+- [SolrDocument::hasChildDocuments »](solrdocument.haschilddocuments.md)
 
 - [PHP Manual](index.md)
 - [SolrDocument](class.solrdocument.md)

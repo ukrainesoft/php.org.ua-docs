@@ -24,8 +24,7 @@ final public static **EvIdle::createStopped**( string `$callback` ,
 ### Список параметрів
 
 `callback`
-Дивіться [функції зворотного дзвінка
-спостерігачів](ev.watcher-callbacks.md).
+Дивіться [функції зворотного дзвінка спостерігачів](ev.watcher-callbacks.md).
 
 `data`
 Довільні дані, асоційовані із спостерігачем

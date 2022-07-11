@@ -1,5 +1,5 @@
 - [« date_offset_get](function.date-offset-get.md)
-- [date_parse »] (function.date-parse.md)
+- [date_parse »](function.date-parse.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

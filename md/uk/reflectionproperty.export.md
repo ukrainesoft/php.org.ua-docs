@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::\_\_construct](reflectionproperty.construct.md)
-- [ReflectionProperty::getAttributes
-»](reflectionproperty.getattributes.md)
+- [« ReflectionProperty::\_\_construct](reflectionproperty.construct.md)
+- [ReflectionProperty::getAttributes »](reflectionproperty.getattributes.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

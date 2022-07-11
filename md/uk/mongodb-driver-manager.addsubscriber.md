@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
-- [MongoDB\Driver\Manager::\_\_construct
-»](mongodb-driver-manager.construct.md)
+- [MongoDB\Driver\Manager::\_\_construct »](mongodb-driver-manager.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

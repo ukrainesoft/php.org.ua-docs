@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md)
-- [ReflectionClassConstant::\_\_toString
-»](reflectionclassconstant.tostring.md)
+- [« ReflectionClassConstant::isProtected](reflectionclassconstant.isprotected.md)
+- [ReflectionClassConstant::\_\_toString »](reflectionclassconstant.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

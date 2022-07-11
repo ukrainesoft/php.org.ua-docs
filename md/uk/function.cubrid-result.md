@@ -1,5 +1,4 @@
-- [«
-cubrid_real_escape_string](function.cubrid-real-escape-string.md)
+- [« cubrid_real_escape_string](function.cubrid-real-escape-string.md)
 - [cubrid_unbuffered_query »](function.cubrid-unbuffered-query.md)
 
 - [PHP Manual](index.md)

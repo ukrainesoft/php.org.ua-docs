@@ -1,6 +1,5 @@
 - [«SolrInputDocument::\_\_clone](solrinputdocument.clone.md)
-- [SolrInputDocument::deleteField
-»](solrinputdocument.deletefield.md)
+- [SolrInputDocument::deleteField »](solrinputdocument.deletefield.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

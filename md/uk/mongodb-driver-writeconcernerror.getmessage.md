@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\WriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md)
+- [« MongoDB\Driver\WriteConcernError::getInfo](mongodb-driver-writeconcernerror.getinfo.md)
 - [MongoDB\Driver\WriteError »](class.mongodb-driver-writeerror.md)
 
 - [PHP Manual](index.md)
@@ -43,5 +42,4 @@ string(33) "waiting for replication timed out"
 
 ### Дивіться також
 
-- [» Довідка за гарантіями
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

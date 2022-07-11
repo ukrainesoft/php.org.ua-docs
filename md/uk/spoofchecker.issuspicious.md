@@ -1,6 +1,5 @@
 - [«Spoofchecker::\_\_construct](spoofchecker.construct.md)
-- [Spoofchecker::setAllowedLocales
-»](spoofchecker.setallowedlocales.md)
+- [Spoofchecker::setAllowedLocales »](spoofchecker.setallowedlocales.md)
 
 - [PHP Manual](index.md)
 - [Spoofchecker](class.spoofchecker.md)

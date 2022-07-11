@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.md)
-- [MongoDB\BSON\MinKeyInterface
-»](class.mongodb-bson-minkeyinterface.md)
+- [« MongoDB\BSON\JavascriptInterface::\_\_toString](mongodb-bson-javascriptinterface.tostring.md)
+- [MongoDB\BSON\MinKeyInterface »](class.mongodb-bson-minkeyinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

@@ -1,6 +1,5 @@
 - [« DOMDocument::createTextNode](domdocument.createtextnode.md)
-- [DOMDocument::getElementsByTagName
-»](domdocument.getelementsbytagname.md)
+- [DOMDocument::getElementsByTagName »](domdocument.getelementsbytagname.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

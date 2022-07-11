@@ -1,5 +1,4 @@
-- [« Поділ
-інструкцій](language.basic-syntax.instruction-separation.md)
+- [« Поділ інструкцій](language.basic-syntax.instruction-separation.md)
 - [Типи »](language.types.md)
 
 - [PHP Manual](index.md)

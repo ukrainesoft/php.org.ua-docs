@@ -1,5 +1,4 @@
-- [«
-IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.md)
+- [« IntlTimeZone::fromDateTimeZone](intltimezone.fromdatetimezone.md)
 - [IntlTimeZone::getDisplayName »](intltimezone.getdisplayname.md)
 
 - [PHP Manual](index.md)

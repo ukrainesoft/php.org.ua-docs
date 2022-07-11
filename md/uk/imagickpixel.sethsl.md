@@ -1,5 +1,4 @@
-- [«
-ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.md)
+- [« ImagickPixel::setColorValueQuantum](imagickpixel.setcolorvaluequantum.md)
 - [ImagickPixel::setIndex »](imagickpixel.setindex.md)
 
 - [PHP Manual](index.md)

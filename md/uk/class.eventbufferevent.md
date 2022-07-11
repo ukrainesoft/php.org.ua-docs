@@ -2,7 +2,7 @@
 - [EventBufferEvent::close »](eventbufferevent.close.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventBufferEvent
 
 # Клас EventBufferEvent

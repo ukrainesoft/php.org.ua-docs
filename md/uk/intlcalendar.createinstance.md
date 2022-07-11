@@ -62,8 +62,7 @@ public static
 
 `locale`
 Використання мовного стандарту або значення **`null`** для використання
-[мовного стандарту за
-замовчуванням](intl.configuration.md#ini.intl.default-locale).
+[мовного стандарту за замовчуванням](intl.configuration.md#ini.intl.default-locale).
 
 ### Значення, що повертаються
 

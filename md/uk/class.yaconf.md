@@ -2,7 +2,7 @@
 - [Yaconf::get »](yaconf.get.md)
 
 - [PHP Manual](index.md)
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 - Клас Yaconf
 
 # Клас Yaconf

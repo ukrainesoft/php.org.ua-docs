@@ -1,5 +1,4 @@
-- [« Пізніше статичне
-зв'язування](language.oop5.late-static-bindings.md)
+- [« Пізніше статичне зв'язування](language.oop5.late-static-bindings.md)
 - [Серіалізація об'єктів »](language.oop5.serialization.md)
 
 - [PHP Manual](index.md)

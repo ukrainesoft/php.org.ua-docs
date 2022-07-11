@@ -1,7 +1,5 @@
-- [«
-fann_set_train_error_function](function.fann-set-train-error-function.md)
-- [fann_set_training_algorithm
-»](function.fann-set-training-algorithm.md)
+- [« fann_set_train_error_function](function.fann-set-train-error-function.md)
+- [fann_set_training_algorithm »](function.fann-set-training-algorithm.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)
@@ -21,8 +19,7 @@ bool
 
 Встановлює функцію зупинки під час тренування.
 
-Опції зупинки описані далі в константах [функції
-зупинки](fann.constants.md#constants.fann-stopfunc).
+Опції зупинки описані далі в константах [функції зупинки](fann.constants.md#constants.fann-stopfunc).
 
 ### Список параметрів
 
@@ -30,8 +27,7 @@ bool
 Ресурс нейронної мережі.
 
 `stop_function`
-Константа [функції
-зупинки](fann.constants.md#constants.fann-stopfunc).
+Константа [функції зупинки](fann.constants.md#constants.fann-stopfunc).
 
 ### Значення, що повертаються
 

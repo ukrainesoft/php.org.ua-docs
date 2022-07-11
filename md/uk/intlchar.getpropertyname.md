@@ -1,6 +1,5 @@
 - [« IntlChar::getPropertyEnum](intlchar.getpropertyenum.md)
-- [IntlChar::getPropertyValueEnum
-»](intlchar.getpropertyvalueenum.md)
+- [IntlChar::getPropertyValueEnum »](intlchar.getpropertyvalueenum.md)
 
 - [PHP Manual](index.md)
 - [IntlChar](class.intlchar.md)

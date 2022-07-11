@@ -1,6 +1,5 @@
 - [« session_encode](function.session-encode.md)
-- [session_get_cookie_params
-»](function.session-get-cookie-params.md)
+- [session_get_cookie_params »](function.session-get-cookie-params.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з сесіями](ref.session.md)

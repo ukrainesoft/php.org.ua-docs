@@ -1,5 +1,5 @@
 - [«bin2hex](function.bin2hex.md)
-- [chr »] (function.chr.md)
+- [chr »](function.chr.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

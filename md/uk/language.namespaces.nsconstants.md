@@ -1,7 +1,5 @@
-- [« Простори імен та динамічні особливості
-мови](language.namespaces.dynamic.md)
-- [Використання просторів імен: імпорт/створення псевдоніма імені
-»](language.namespaces.importing.md)
+- [« Простори імен та динамічні особливості мови](language.namespaces.dynamic.md)
+- [Використання просторів імен: імпорт/створення псевдоніма імені »](language.namespaces.importing.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)

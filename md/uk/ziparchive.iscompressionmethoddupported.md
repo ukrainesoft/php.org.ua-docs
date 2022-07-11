@@ -1,6 +1,5 @@
 - [« ZipArchive::getStreamName](ziparchive.getstreamname.md)
-- [ZipArchive::isEncryptionMethodSupported
-»](ziparchive.isencryptionmethoddupported.md)
+- [ZipArchive::isEncryptionMethodSupported »](ziparchive.isencryptionmethoddupported.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

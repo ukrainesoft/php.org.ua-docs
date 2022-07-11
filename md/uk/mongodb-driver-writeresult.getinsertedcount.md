@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.md)
-- [MongoDB\Driver\WriteResult::getMatchedCount
-»](mongodb-driver-writeresult.getmatchedcount.md)
+- [« MongoDB\Driver\WriteResult::getDeletedCount](mongodb-driver-writeresult.getdeletedcount.md)
+- [MongoDB\Driver\WriteResult::getMatchedCount »](mongodb-driver-writeresult.getmatchedcount.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)

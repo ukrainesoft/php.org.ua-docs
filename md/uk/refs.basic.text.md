@@ -1,5 +1,4 @@
-- [«
-SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md)
+- [« SessionUpdateTimestampHandlerInterface::validateId](sessionupdatetimestamphandlerinterface.validateid.md)
 - [CommonMark »](book.cmark.md)
 
 - [PHP Manual](index.md)
@@ -64,7 +63,7 @@ CommonMark\Parser
 - [CommonMark\CQL](class.commonmark-cql.md) - Клас
 CommonMark\CQL
 - [Функції CommonMark](ref.cmark.md)
-- [Parle] (book.parle.md) - Розбір та лексування
+- [Parle](book.parle.md) - Розбір та лексування
 - [Вступ](intro.parle.md)
 - [Встановлення та налаштування](parle.setup.md)
 - [Предвизначені константи](parle.constants.md)

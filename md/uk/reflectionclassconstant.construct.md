@@ -1,6 +1,5 @@
 - [«ReflectionClassConstant](class.reflectionclassconstant.md)
-- [ReflectionClassConstant::export
-»](reflectionclassconstant.export.md)
+- [ReflectionClassConstant::export »](reflectionclassconstant.export.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

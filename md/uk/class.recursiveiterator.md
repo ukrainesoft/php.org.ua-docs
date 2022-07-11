@@ -1,7 +1,5 @@
-- [«
-OuterIterator::getInnerIterator](outeriterator.getinneriterator.md)
-- [RecursiveIterator::getChildren
-»](recursiveiterator.getchildren.md)
+- [« OuterIterator::getInnerIterator](outeriterator.getinneriterator.md)
+- [RecursiveIterator::getChildren »](recursiveiterator.getchildren.md)
 
 - [PHP Manual](index.md)
 - [Інтерфейси](spl.interfaces.md)

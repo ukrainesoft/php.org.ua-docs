@@ -1,5 +1,5 @@
 - [« Функції файлової системи](ref.filesystem.md)
-- [chgrp»] (function.chgrp.md)
+- [chgrp»](function.chgrp.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

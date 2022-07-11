@@ -1,6 +1,5 @@
 - [«Зумовлені константи](mailparse.constants.md)
-- [mailparse_determine_best_xfer_encoding
-»](function.mailparse-determine-best-xfer-encoding.md)
+- [mailparse_determine_best_xfer_encoding »](function.mailparse-determine-best-xfer-encoding.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](book.mailparse.md)

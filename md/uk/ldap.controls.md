@@ -55,8 +55,8 @@ value ([mixed](language.types.declarations.md#language.types.declarations.mixed)
 коректними ключами, і тоді все відбудеться автоматично. Підтримувані
 керуючі об'єкти:
 
-- **`LDAP_CONTROL_PAGEDRESULTS`** Очікувані ключі \[size\] та
-\[cookie\]
+- **`LDAP_CONTROL_PAGEDRESULTS`** Очікувані ключі [size] та
+[cookie]
 
 - **`LDAP_CONTROL_ASSERT`** Очікуваний ключ - filter
 
@@ -70,7 +70,7 @@ value ([mixed](language.types.declarations.md#language.types.declarations.mixed)
 attr, [oid], [reverse].
 
 - **`LDAP_CONTROL_VLVREQUEST`** Очікувані ключі: before, after,
-attrvalue\|(offset, count), \[context\]
+attrvalue\|(offset, count), [context]
 
 Для наступних керуючих об'єктів значення не потрібні:
 
@@ -89,7 +89,7 @@ attrvalue\|(offset, count), \[context\]
 перетворені на масив, якщо підтримуються. Підтримується таке:
 
 - **`LDAP_CONTROL_PASSWORDPOLICYRESPONSE`** Ключі: expire, grace,
-\[error\]
+[error]
 
 - **`LDAP_CONTROL_PAGEDRESULTS`** Ключі: size, cookie
 
@@ -97,7 +97,7 @@ attrvalue\|(offset, count), \[context\]
 
 - **`LDAP_CONTROL_POST_READ`** Ключі: dn та імена атрибутів LDAP
 
-- **`LDAP_CONTROL_SORTRESPONSE`** Ключі: errcode, \[attribute\]
+- **`LDAP_CONTROL_SORTRESPONSE`** Ключі: errcode, [attribute]
 
 - **`LDAP_CONTROL_VLVRESPONSE`** Ключі: target, count, errcode,
 context

@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_sign_ed25519_pk_to_curve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
-- [sodium_crypto_sign_keypair_from_secretkey_and_publickey
-»](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md)
+- [« sodium_crypto_sign_ed25519_pk_to_curve25519](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
+- [sodium_crypto_sign_keypair_from_secretkey_and_publickey »](function.sodium-crypto-sign-keypair-from-secretkey-and-publickey.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

@@ -1,5 +1,5 @@
 - [«cubrid_pconnect](function.cubrid-pconnect.md)
-- [cubrid_put »] (function.cubrid-put.md)
+- [cubrid_put »](function.cubrid-put.md)
 
 - [PHP Manual](index.md)
 - [Функції CUBRID](ref.cubrid.md)

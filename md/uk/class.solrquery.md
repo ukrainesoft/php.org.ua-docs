@@ -1,7 +1,5 @@
-- [«
-SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md)
-- [SolrQuery::addExpandFilterQuery
-»](solrquery.addexpandfilterquery.md)
+- [« SolrModifiableParams::\_\_destruct](solrmodifiableparams.destruct.md)
+- [SolrQuery::addExpandFilterQuery »](solrquery.addexpandfilterquery.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

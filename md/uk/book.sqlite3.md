@@ -2,8 +2,7 @@
 - [Вступ »](intro.sqlite3.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - SQLite3
 
 # SQLite3

@@ -1,5 +1,4 @@
-- [« Основна інформація про функції модуля
-MySQLi](mysqli.summary.md)
+- [« Основна інформація про функції модуля MySQLi](mysqli.summary.md)
 - [mysqli::$affected_rows »](mysqli.affected-rows.md)
 
 - [PHP Manual](index.md)

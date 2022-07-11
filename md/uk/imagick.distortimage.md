@@ -35,8 +35,7 @@ ImageMagick 6.3.6 або старше.
 ### Список параметрів
 
 `method`
-Метод спотворення зображення. Дивіться [константи
-спотворення](imagick.constants.md#imagick.constants.distortion).
+Метод спотворення зображення. Дивіться [константи спотворення](imagick.constants.md#imagick.constants.distortion).
 
 `arguments`
 Аргументи обраного методу спотворення.

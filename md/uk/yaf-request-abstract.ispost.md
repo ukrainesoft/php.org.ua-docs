@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::isOptions](yaf-request-abstract.isoptions.md)
+- [« Yaf_Request_Abstract::isOptions](yaf-request-abstract.isoptions.md)
 - [Yaf_Request_Abstract::isPut »](yaf-request-abstract.isput.md)
 
 - [PHP Manual](index.md)

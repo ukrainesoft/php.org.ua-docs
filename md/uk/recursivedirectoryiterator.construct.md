@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
-- [RecursiveDirectoryIterator::getChildren
-»](recursivedirectoryiterator.getchildren.md)
+- [« RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
+- [RecursiveDirectoryIterator::getChildren »](recursivedirectoryiterator.getchildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)
@@ -31,8 +29,7 @@ FilesystemIterator::CURRENT_AS_FILEINFO)
 `flags`
 Можна встановити кілька прапорів, від яких залежатиме поведінка
 деяких методів. Список можливих прапорів можна знайти на сторінці
-[Предвизначених констант класу
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+[Предвизначених констант класу FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
 Прапори можна задати пізніше методом
 [FilesystemIterator::setFlags()](filesystemiterator.setflags.md).
 
@@ -82,5 +79,4 @@ FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
 Створює новий ітератор файлової системи
 - [RecursiveIteratorIterator::\_\_construct()](recursiveiteratoriterator.construct.md) -
 Конструктор класу RecursiveIteratorIterator
-- [Предвизначені константи класу
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
+- [Предвизначені константи класу FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)

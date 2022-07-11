@@ -1,6 +1,5 @@
 - [«DOMentity](class.domentity.md)
-- [DOMEntityReference::\_\_construct
-»](domentityreference.construct.md)
+- [DOMEntityReference::\_\_construct »](domentityreference.construct.md)
 
 - [PHP Manual](index.md)
 - [DOM](book.dom.md)

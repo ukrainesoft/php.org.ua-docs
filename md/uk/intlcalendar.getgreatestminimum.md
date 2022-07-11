@@ -1,7 +1,5 @@
-- [«
-IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md)
-- [IntlCalendar::getKeywordValuesForLocale
-»](intlcalendar.getkeywordvaluesforlocale.md)
+- [« IntlCalendar::getFirstDayOfWeek](intlcalendar.getfirstdayofweek.md)
+- [IntlCalendar::getKeywordValuesForLocale »](intlcalendar.getkeywordvaluesforlocale.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

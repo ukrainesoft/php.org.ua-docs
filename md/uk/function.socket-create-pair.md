@@ -1,5 +1,5 @@
 - [«socket_create_listen](function.socket-create-listen.md)
-- [socket_create »] (function.socket-create.md)
+- [socket_create »](function.socket-create.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)

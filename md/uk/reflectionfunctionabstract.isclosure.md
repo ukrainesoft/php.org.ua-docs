@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md)
-- [ReflectionFunctionAbstract::isDeprecated
-»](reflectionfunctionabstract.isdeprecated.md)
+- [« ReflectionFunctionAbstract::inNamespace](reflectionfunctionabstract.innamespace.md)
+- [ReflectionFunctionAbstract::isDeprecated »](reflectionfunctionabstract.isdeprecated.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

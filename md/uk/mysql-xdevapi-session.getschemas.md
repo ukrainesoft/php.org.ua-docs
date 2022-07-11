@@ -1,6 +1,5 @@
 - [« Session::getSchema](mysql-xdevapi-session.getschema.md)
-- [Session::getServerVersion
-»](mysql-xdevapi-session.getserverversion.md)
+- [Session::getServerVersion »](mysql-xdevapi-session.getserverversion.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)

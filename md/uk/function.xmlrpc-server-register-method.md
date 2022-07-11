@@ -1,5 +1,4 @@
-- [«
-xmlrpc_server_register_introspection_callback](function.xmlrpc-server-register-introspection-callback.md)
+- [« xmlrpc_server_register_introspection_callback](function.xmlrpc-server-register-introspection-callback.md)
 - [xmlrpc_set_type »](function.xmlrpc-set-type.md)
 
 - [PHP Manual](index.md)

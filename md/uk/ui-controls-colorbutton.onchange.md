@@ -1,7 +1,5 @@
-- [«
-UI\Controls\ColorButton::getColor](ui-controls-colorbutton.getcolor.md)
-- [UI\Controls\ColorButton::setColor
-»](ui-controls-colorbutton.setcolor.md)
+- [« UI\Controls\ColorButton::getColor](ui-controls-colorbutton.getcolor.md)
+- [UI\Controls\ColorButton::setColor »](ui-controls-colorbutton.setcolor.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\ColorButton](class.ui-controls-colorbutton.md)

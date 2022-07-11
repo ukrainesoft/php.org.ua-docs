@@ -1,5 +1,4 @@
-- [«
-HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)
+- [« HRTime\StopWatch::getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)
 - [HRTime\StopWatch::start »](hrtime-stopwatch.start.md)
 
 - [PHP Manual](index.md)

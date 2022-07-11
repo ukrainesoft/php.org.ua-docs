@@ -5,19 +5,19 @@
 - [Функціональний API](functional.parallel.md)
 - Виконання
 
-# parallelun
+# parallel\run
 
 (1.0.0)
 
-parallelun — Виконання
+parallel\run — Виконання
 
 ### Опис
 
-**parallelun**([Closure](class.closure.md) `$task`): ?Future
+**parallel\run**([Closure](class.closure.md) `$task`): ?Future
 
 Планує `task` для виконання у parallel.
 
-**parallelun**([Closure](class.closure.md) `$task`, array `$argv`):
+**parallel\run**([Closure](class.closure.md) `$task`, array `$argv`):
 ?Future
 
 Планує `task` для виконання в parallel, передаючи `argv` під час
@@ -26,7 +26,7 @@ parallelun — Виконання
 ### Автоматичне планування
 
 Якщо **\parallel\Runtime** внутрішньо створений та кешований попереднім
-викликом **parallelun()** не діє, він буде використовуватися для
+викликом **parallel\run()** не діє, він буде використовуватися для
 виконання завдання. Якщо жоден **\parallel\Runtime** не діє,
 parallel створить і збереже в кеш **parallelRuntime**.
 

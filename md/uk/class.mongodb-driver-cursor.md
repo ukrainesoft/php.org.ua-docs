@@ -55,10 +55,10 @@ public [valid](mongodb-driver-cursor.valid.md)(): bool
 
 ## Список змін
 
-| Версія | Опис |
-|--------------------|---------------------------- -------------------------------------------------- -------------------------------------------------- -----------------|
-| PECL mongodb 1.9.0 | Реалізує [Iterator](class.iterator.md). |
-| PECL mongodb 1.6.0 Реалізує [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md), який успадковує [Traversable](class.traversable.md). |
+| Версія                                                                                                                                                      | Опис                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| PECL mongodb 1.9.0                                                                                                                                          | Реалізує [Iterator](class.iterator.md). |
+| PECL mongodb 1.6.0 Реалізує [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md), який успадковує [Traversable](class.traversable.md). |                                         |
 
 ## Приклади
 

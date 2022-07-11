@@ -7,7 +7,7 @@
 
 # sodium_crypto_secretstream_xchacha20poly1305_pull
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_secretstream_xchacha20poly1305_pull — Розшифровує частину
 даних із зашифрованого потоку
@@ -15,7 +15,7 @@ sodium_crypto_secretstream_xchacha20poly1305_pull — Розшифровує ч�
 ### Опис
 
 **sodium_crypto_secretstream_xchacha20poly1305_pull**(string `&$state`,
-string `$ciphertext`, string `$additional_data` u003d ""): array\|false
+string `$ciphertext`, string `$additional_data` = ""): array\|false
 
 Розшифровує частину даних із зашифрованого потоку.
 

@@ -24,8 +24,8 @@ string `$auth_passphrase`,
 string `$privacy_protocol`,
 string `$privacy_passphrase`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -74,7 +74,7 @@ SNMP, який слідує за вказаним `object_id`.
 
 **Приклад #1 Приклад використання **snmp3_getnext()****
 
-` <?php$nameOfSecondInterface u003d snmp3_getnext('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007','IF-MIB::if. > `
+` <?php$nameOfSecondInterface = snmp3_getnext('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007','IF-MIB::if. > `
 
 ### Дивіться також
 

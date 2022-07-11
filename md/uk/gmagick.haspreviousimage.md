@@ -7,7 +7,7 @@
 
 # Gmagick::haspreviousimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::haspreviousimage — Перевіряє, чи є ще зображення в об'єкті
 при ітерації тому

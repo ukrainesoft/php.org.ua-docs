@@ -80,7 +80,7 @@ PDO перевіряє можливість використання транз�
 піде не так, catch-блок відкотить усі зміни з початку транзакції та
 друкує повідомлення про помилку.
 
-` <?phptry { $dbh u003d new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2',      array(PDO::ATTR_PERSISTENT u003d> true)); echo "Підключилися
+` <?phptry { $dbh = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2',      array(PDO::ATTR_PERSISTENT => true)); echo "Підключилися
 ";} catch (Exception $e) { die("Не удалося підключитися: " . $e->getMessage());}try { $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO: $: ->beginTransaction();$dbh->exec("insert into staff (id, first, last) values (23, 'Joe', 'Bloggs')"); $dbh->exec("insert , amount, changedate)       values (23, 50000, NOW())"); $dbh->commit();} catch (Exception $e) { о"d| ->getMessage();}?> `
 
 Ви не обмежені у кількості запитів у рамках транзакції; ви

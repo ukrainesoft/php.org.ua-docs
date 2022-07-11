@@ -35,11 +35,11 @@ public **SolrDisMaxQuery::setBigramPhraseFields**(string `$fields`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setBigramPhraseFields()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery->setBigramPhraseFields("cat~5.1^2 feature^4.5");echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery->setBigramPhraseFields("cat~5.1^2 feature^4.5");echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&pf2u003dcat~5.1^2 feature^4.5
+q=lucene&defType=edismax&pf2=cat~5.1^2 feature^4.5
 
 ### Дивіться також
 

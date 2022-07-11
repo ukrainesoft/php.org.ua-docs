@@ -7,7 +7,7 @@
 
 # RegexIterator::accept
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::accept — Перевірка відповідності регулярному виразу
 
@@ -37,7 +37,7 @@ public **RegexIterator::accept**(): bool
 У цьому прикладі буде здійснюватись навігація тільки за тими елементами,
 значення яких відповідають регулярному виразу.
 
-` <?php$names u003d new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));$filter u003d new RegexIterator($names, '/^[B-D]/');foreach ($filter as $name) {    echo $name . PHP_EOL;}?> `
+` <?php$names = new ArrayIterator(array('Ann', 'Bob', 'Charlie', 'David'));$filter = new RegexIterator($names, '/^[B-D]/');foreach ($filter as $name) {    echo $name . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

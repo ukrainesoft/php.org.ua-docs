@@ -7,7 +7,7 @@
 
 #cubrid_lob_send
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_lob_send - Читає дані BLOB/CLOB і відправляє їх прямо в
 браузер
@@ -39,7 +39,7 @@ cubrid_lob_send - Читає дані BLOB/CLOB і відправляє їх п�
 
 **Приклад #1 Приклад використання **cubrid_lob_send()****
 
-`<?php$conn u003d cubrid_connect ("localhost", 33000, "demodb", "dba");cubrid_execute($conn,"DROP TABLE if exists doc");cubrid_execute($conn,"C , doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$lobs u003d cubrid_lob_get($conn, "SELECT doc_content FROM cu| ($conn, $lobs[0]);cubrid_lob_close($lobs);cubrid_disconnect($conn);?> `
+`<?php$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");cubrid_execute($conn,"DROP TABLE if exists doc");cubrid_execute($conn,"C , doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM cu| ($conn, $lobs[0]);cubrid_lob_close($lobs);cubrid_disconnect($conn);?> `
 
 ### Дивіться також
 

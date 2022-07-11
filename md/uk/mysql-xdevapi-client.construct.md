@@ -26,4 +26,4 @@ private **mysql_xdevapi\Client::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Client::\_\_construct()****
 
-`<?php$pooling_options u003d '{ "enabled": true,    "maxSize": 10,    "maxIdleTime": 3600,     "queueTimeOut": $0$ sessionu003du003d$client->getSession(); `
+`<?php$pooling_options = '{ "enabled": true,    "maxSize": 10,    "maxIdleTime": 3600,     "queueTimeOut": $0$ session==$client->getSession(); `

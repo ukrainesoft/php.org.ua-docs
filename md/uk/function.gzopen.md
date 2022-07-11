@@ -13,7 +13,7 @@ gzopen — Відкрити файл gz
 
 ### Опис
 
-**gzopen**(string `$filename`, string `$mode`, int `$use_include_path` u003d
+**gzopen**(string `$filename`, string `$mode`, int `$use_include_path` =
 0): resource \ | false
 
 Відкриває файл gzip (.gz) для читання чи запису.
@@ -51,7 +51,7 @@ gzopen — Відкрити файл gz
 
 **Приклад #1 Приклад використання **gzopen()****
 
-` <?php$fp u003d gzopen("/tmp/file.gz", "r");?> `
+` <?php$fp = gzopen("/tmp/file.gz", "r");?> `
 
 ### Дивіться також
 

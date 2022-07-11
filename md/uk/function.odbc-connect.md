@@ -17,7 +17,7 @@ odbc_connect — З'єднує з джерелом даних
 string `$dsn`,
 string `$user`,
 string `$password`,
-int `$cursor_option` u003d **`SQL_CUR_USE_DRIVER`**
+int `$cursor_option` = **`SQL_CUR_USE_DRIVER`**
 ): resource \ | false
 
 Ідентифікатор з'єднання, що повертається цією функцією, необхідний
@@ -64,7 +64,7 @@ Database Source Name (DSN) для з'єднання. Як альтернатив
 
 **Приклад #1 З'єднання без DSN**
 
-` <?php// Microsoft SQL Server використовуючи SQL Native Client 10.0 ODBC Driver - дозволяє з'єднуватися// с SQL 7, 2000, 2005 r|Clu003du003d0| ;Databaseu003d$database;", $user, $password);// Microsoft Access$connection u003d odbc_connect("Driveru003d{Microsoft Access Driver (*.mdb)};Dbqu003d$mdbFilename", $user, $password) ;// Microsoft Excel$excelFile u003d realpath('C:/ExcelData.xls');$excelDir u003d dirname($excelFile);$connection u003d odbc_connect("Driveru003d{Microsoft Excel Driver (*.xls)}; DriverId 790;Dbqu003d$excelFile;DefaultDiru003d$excelDir" , '', '');?> `
+` <?php// Microsoft SQL Server використовуючи SQL Native Client 10.0 ODBC Driver - дозволяє з'єднуватися// с SQL 7, 2000, 2005 r|Cl==0| ;Database=$database;", $user, $password);// Microsoft Access$connection = odbc_connect("Driver={Microsoft Access Driver (*.mdb)};Dbq=$mdbFilename", $user, $password) ;// Microsoft Excel$excelFile = realpath('C:/ExcelData.xls');$excelDir = dirname($excelFile);$connection = odbc_connect("Driver={Microsoft Excel Driver (*.xls)}; DriverId 790;Dbq=$excelFile;DefaultDir=$excelDir" , '', '');?> `
 
 ### Дивіться також
 

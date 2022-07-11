@@ -7,13 +7,13 @@
 
 # gzuncompress
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 gzuncompress — Розпакувати стислий рядок
 
 ### Опис
 
-**gzuncompress**(string `$data`, int `$max_length` u003d 0): string\|false
+**gzuncompress**(string `$data`, int `$max_length` = 0): string\|false
 
 Розпаковує стислий рядок.
 
@@ -37,7 +37,7 @@ gzuncompress — Розпакувати стислий рядок
 
 **Приклад #1 Приклад використання **gzuncompress()****
 
-` <?php$compressed   u003d gzcompress('Сожми меня', 9);$uncompressed u003d gzuncompress($compressed);echo $uncompressed;?> `
+` <?php$compressed   = gzcompress('Сожми меня', 9);$uncompressed = gzuncompress($compressed);echo $uncompressed;?> `
 
 ### Дивіться також
 

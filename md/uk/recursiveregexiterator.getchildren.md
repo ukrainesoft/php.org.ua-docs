@@ -7,7 +7,7 @@
 
 # RecursiveRegexIterator::getChildren
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RecursiveRegexIterator::getChildren — Повертає ітератор для поточного
 елемента
@@ -39,7 +39,7 @@ public **RecursiveRegexIterator::getChildren**():
 **Приклад #1 Приклад використання
 **RecursiveRegexIterator::getChildren()****
 
-` <?php$rArrayIterator u003d new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator u003d new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $key1 u003d> $value1) {    if ($rRegexIterator->hasChildren()) {        // выведем все дочерние элементы        echo "Дочерние элементы: "; foreach ($rRegexIterator->getChildren() as $key u003d> $value) {            echo $value . " "; }        echo "
+` <?php$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator = new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $key1 => $value1) {    if ($rRegexIterator->hasChildren()) {        // выведем все дочерние элементы        echo "Дочерние элементы: "; foreach ($rRegexIterator->getChildren() as $key => $value) {            echo $value . " "; }        echo "
 ";    }}else {        echo "Немає|дочірніх елементів
 ";    }}?> `
 

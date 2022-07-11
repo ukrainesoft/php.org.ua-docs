@@ -7,7 +7,7 @@
 
 # SolrClient::\_\_construct
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::\_\_construct — Конструктор об'єкта SolrClient
 
@@ -56,7 +56,7 @@ public **SolrClient::\_\_construct**(array `$clientOptions`)
 
 **Приклад #1 Приклад використання **SolrClient::\_\_construct()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,    'path'     u003d> SOLR_PATH_TO_SOLR,    'wt'       u003d> ' xml',);$clientu003d SoleClient($options);$docu003dNew SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software') ;$doc->addField('cat', 'Lucene');$updateResponse u003d $client->addDocument($doc);?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,    'path'     => SOLR_PATH_TO_SOLR,    'wt'       => ' xml',);$client= SoleClient($options);$doc=New SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software') ;$doc->addField('cat', 'Lucene');$updateResponse = $client->addDocument($doc);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

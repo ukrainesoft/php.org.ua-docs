@@ -28,7 +28,7 @@
 [spl_autoload_register()](function.spl-autoload-register.md) для
 автоматичне підключення.
 
-` <?php// classa.inc:  class A {     public$$one u003d 1; public function show_one() {          echo $this->one; }  }// page1.php: include("classa.inc"); $a u003d new A; $s u003d serialize($a); // зберігаємо $s де-небудь, звідки page2.php зможе його отримати. file_put_contents('store', $s);// page2.php:  // потрібно для того, щоб функція unserialize працювала правильно. include("classa.inc"); $s u003d file_get_contents('store'); $au003du003dunserialize($s); // тепер можна використовувати метод show_one() об'єкта $a. $a->show_one();?> `
+` <?php// classa.inc:  class A {     public$$one = 1; public function show_one() {          echo $this->one; }  }// page1.php: include("classa.inc"); $a = new A; $s = serialize($a); // зберігаємо $s де-небудь, звідки page2.php зможе його отримати. file_put_contents('store', $s);// page2.php:  // потрібно для того, щоб функція unserialize працювала правильно. include("classa.inc"); $s = file_get_contents('store'); $a==unserialize($s); // тепер можна використовувати метод show_one() об'єкта $a. $a->show_one();?> `
 
 Якщо у додатку проводиться серіалізація об'єктів для наступного
 використання, рекомендується підключати визначення класу

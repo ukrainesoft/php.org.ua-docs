@@ -7,7 +7,7 @@
 
 #openssl_error_string
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_error_string — Повертає повідомлення про помилку openSSL
 
@@ -33,5 +33,5 @@ openssl_error_string — Повертає повідомлення про пом
 
 **Приклад #1 Приклад використання **openssl_error_string()****
 
-`<?php// Припустимо, що ви викликали функцію openssl, завершилася невдачеюwhile ($msg u003d openssl_error_string())    echo $msg . "<br />
+`<?php// Припустимо, що ви викликали функцію openssl, завершилася невдачеюwhile ($msg = openssl_error_string())    echo $msg . "<br />
 ";?> `

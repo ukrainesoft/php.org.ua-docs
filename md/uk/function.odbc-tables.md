@@ -17,10 +17,10 @@ odbc_tables — Отримує список імен таблиць, що збе
 
 **odbc_tables**(
 resource `$odbc`,
-?string `$catalog` u003d **`null`**,
-?string `$schema` u003d **`null`**,
-?string `$table` u003d **`null`**,
-?string `$types` u003d **`null`**
+?string `$catalog` = **`null`**,
+?string `$schema` = **`null`**,
+?string `$table` = **`null`**,
+?string `$types` = **`null`**
 ): resource \ | false
 
 Перелічує всі таблиці у запрошеному діапазоні.
@@ -90,24 +90,24 @@ resource `$odbc`,
 ### Список змін
 
 | Версія | Опис                                                       |
-| ------ | ---------------------------------------------------------- |
+|--------|------------------------------------------------------------|
 | 8.0.0  | schema, table і types тепер можуть набувати значення null. |
 
 ### Приклади
 
 **Приклад #1 Перелік таблиць у каталозі**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$tables u003d odbc_tables($conn, 'SalesOrders', 'dbo', '%', 'TABLE');while (($row u003d odbc_fetch_array($tables))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$tables = odbc_tables($conn, 'SalesOrders', 'dbo', '%', 'TABLE');while (($row = odbc_fetch_array($tables))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[TABLE_CAT] u003d> SalesOrders
-[TABLE_SCHEM] u003d> dbo
-[TABLE_NAME] u003d> Orders
-[TABLE_TYPE] u003d> TABLE
-[REMARKS] u003d>
+[TABLE_CAT] => SalesOrders
+[TABLE_SCHEM] => dbo
+[TABLE_NAME] => Orders
+[TABLE_TYPE] => TABLE
+[REMARKS] =>
 )
 
 ### Дивіться також

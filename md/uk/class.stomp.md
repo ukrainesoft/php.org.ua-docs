@@ -7,7 +7,7 @@
 
 # Клас Stomp
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 ## Вступ
 
@@ -21,43 +21,43 @@ class **Stomp** {
 /\* Методи \*/
 
 public [\_\_construct](stomp.construct.md)(
-string `$broker` u003d ini_get("stomp.default_broker_uri"),
-string `$username` u003d ?,
-string `$password` u003d ?,
-array `$headers` u003d ?
+string `$broker` = ini_get("stomp.default_broker_uri"),
+string `$username` = ?,
+string `$password` = ?,
+array `$headers` = ?
 )
 
 public [abort](stomp.abort.md)(string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 **stomp_abort**(resource `$link`, string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 public
 [ack](stomp.ack.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 **stomp_ack**(resource `$link`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 public [begin](stomp.begin.md)(string $transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 **stomp_begin**(resource `$link`, string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 public [commit](stomp.commit.md)(string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 **stomp_commit**(resource `$link`, string `$transaction_id`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 **stomp_connect**(
-string `$broker` u003d ini_get("stomp.default_broker_uri"),
-string `$username` u003d ?,
-string `$password` u003d ?,
-array `$headers` u003d ?
+string `$broker` = ini_get("stomp.default_broker_uri"),
+string `$username` = ?,
+string `$password` = ?,
+array `$headers` = ?
 ): resource
 
 **stomp_close**(resource `$link`): bool
@@ -78,40 +78,40 @@ public [hasFrame](stomp.hasframe.md)(): bool
 
 **stomp_has_frame**(resource `$link`): bool
 
-public [readFrame](stomp.readframe.md)(string `$class_name` u003d
+public [readFrame](stomp.readframe.md)(string `$class_name` =
 "stompFrame"): [stompframe](class.stompframe.md)
 
 **stomp_read_frame**(resource `$link`): array
 
 public [send](stomp.send.md)(string `$destination`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 **stomp_send**(
 resource `$link`,
 string `$destination`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$msg`,
-array `$headers` u003d ?
+array `$headers` = ?
 ): bool
 
 public [setReadTimeout](stomp.setreadtimeout.md)(int `$seconds`, int
-`$microseconds` u003d ?): void
+`$microseconds` = ?): void
 
 **stomp_set_read_timeout**(resource `$link`, int `$seconds`, int
-`$microseconds` u003d ?): void
+`$microseconds` = ?): void
 
 public [subscribe](stomp.subscribe.md)(string `$destination`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 **stomp_subscribe**(resource `$link`, string `$destination`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 public [unsubscribe](stomp.unsubscribe.md)(string `$destination`,
-array `$headers` u003d ?): bool
+array `$headers` = ?): bool
 
 **stomp_unsubscribe**(resource `$link`, string `$destination`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 public [\_\_destruct](stomp.destruct.md)()
 

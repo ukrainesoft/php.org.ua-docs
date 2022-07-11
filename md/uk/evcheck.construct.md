@@ -7,7 +7,7 @@
 
 # EvCheck::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvCheck::\_\_construct — Конструктор об'єкту EvCheck
 
@@ -16,7 +16,7 @@ EvCheck::\_\_construct — Конструктор об'єкту EvCheck
 public **EvCheck::\_\_construct**(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?, int `$priority` u003d ?)
+`$data` = ?, int `$priority` = ?)
 
 Створює спостерігач [EvCheck](class.evcheck.md).
 

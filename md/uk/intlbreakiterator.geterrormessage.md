@@ -9,7 +9,7 @@
 
 # intl_get_error_message
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::getErrorMessage -- intl_get_error_message --
 Повертає останнє повідомлення про помилку об'єкту

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId
 Повертає ідентифікатор операції команди

@@ -7,7 +7,7 @@
 
 # Swoole\Server::addlistener
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::addlistener — Додає нового слухача на сервер
 

@@ -39,12 +39,12 @@ urlencode — URL-кодування рядка
 
 **Приклад #1 Приклад використання **urlencode()****
 
-` <?phpecho '<a hrefu003d"mycgi?foou003d', urlencode($userinput), '">';?> `
+` <?phpecho '<a href="mycgi?foo=', urlencode($userinput), '">';?> `
 
 **Приклад #2 Приклад використання **urlencode()** та
 [htmlentities()](function.mdentities.md)**
 
-` <?php$query_string u003d 'foou003d' . urlencode($foo) . '&baru003d' . urlencode($bar);echo '<a hrefu003d"mycgi?' . htmlentities($query_string) . '">';?> `
+` <?php$query_string = 'foo=' . urlencode($foo) . '&bar=' . urlencode($bar);echo '<a href="mycgi?' . htmlentities($query_string) . '">';?> `
 
 ### Примітки
 

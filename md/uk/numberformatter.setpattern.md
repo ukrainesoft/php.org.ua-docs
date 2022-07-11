@@ -9,7 +9,7 @@
 
 #numfmt_set_pattern
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::setPattern -- numfmt_set_pattern — Встановлює шаблон
 засоби форматування
@@ -45,7 +45,7 @@ public **NumberFormatter::setPattern**(string `$pattern`): bool
 
 **Приклад #1 Приклад використання **numfmt_set_pattern()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Шаблон: ".numfmt_get_pattern($fmt)."
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Шаблон: ".numfmt_get_pattern($fmt)."
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
 ";numfmt_set_pattern($fmt, "#0.# kg");echo "Шаблон: ".numfmt_get_pattern($fmt)."
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
@@ -53,7 +53,7 @@ public **NumberFormatter::setPattern**(string `$pattern`): bool
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Шаблон: ".$fmt->getPattern()."
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Шаблон: ".$fmt->getPattern()."
 ";echo $fmt->format(1234567.891234567890000)."
 ";$fmt->setPattern("#0.# kg");echo "Шаблон: ".$fmt->getPattern()."
 ";echo $fmt->format(1234567.891234567890000)."

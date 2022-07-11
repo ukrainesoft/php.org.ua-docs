@@ -13,7 +13,7 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 Тема містить багато прикладів.
 
 1. [Яке кодування/декодування я повинен виконувати під час передачі значення через форму/URL?](#faq.md.encoding)
-2. [Я намагаюся використати \<input typeu003d"image"\>, але змінні $foo.x
+2. [Я намагаюся використати \<input type="image"\>, але змінні $foo.x
 та $foo.y недоступні. $\_GET['foo.x'] також немає. Де вони?](#faq.md.form-image)
 3. [Як створити масиви в HTML \<form\>?](#faq.md.arrays)
 4. [Як отримати всі результати з HTML-тегу select з атрибутом multiple?](#faq.md.select-multiple)
@@ -35,7 +35,7 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 
 **Приклад #1 Прихований елемент HTML-форми**
 
-` <?php    echo '<input typeu003d"hidden" valueu003d"' . htmlspecialchars($data) . '" />'."
+` <?php    echo '<input type="hidden" value="' . htmlspecialchars($data) . '" />'."
 ";?> `
 
 > **Примітка**: Використовувати [urlencode()](function.urlencode.md) для
@@ -47,7 +47,7 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 
 **Приклад #2 Дані, редаговані користувачем**
 
-` <?php    echo "<textarea nameu003d'mydata'>
+` <?php    echo "<textarea name='mydata'>
 ";   echo htmlspecialchars($data)."
 ";   echo "</textarea>";?> `
 
@@ -60,7 +60,7 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 
 **Приклад #3 В URL**
 
-` <?php    echo '<a hrefu003d"' . htmlspecialchars("/nextpage.php?stageu003d23&datau003d" .      urlencode($data)) . '">'."
+` <?php    echo '<a href="' . htmlspecialchars("/nextpage.php?stage=23&data=" .      urlencode($data)) . '">'."
 ";?> `
 
 > **Примітка**: Насправді ви підробляєте HTML GET-запитом,
@@ -81,12 +81,12 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 
 
 
-**Я намагаюся використовувати \<input typeu003d"image"\>, але змінні `$foo.x` та `$foo.y` недоступні. `$_GET['foo.x']` також немає. Де вони?**
+**Я намагаюся використовувати \<input type="image"\>, але змінні `$foo.x` та `$foo.y` недоступні. `$_GET['foo.x']` також немає. Де вони?**
 При відправленні форми замість стандартної кнопки відправлення можливо
 використовувати зображення з тегом як:
 
 ```htmlcode
-<input typeu003d"image" srcu003d"image.gif" nameu003d"foo" />
+<input type="image" src="image.gif" name="foo" />
 ````
 
 Коли користувач клікає десь на картинці, серверу буде надіслано
@@ -109,10 +109,10 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 \<select\> або \<textarea\> наступним чином:
 
 ```htmlcode
-<input nameu003d"MyArray[]" />
-<input nameu003d"MyArray[]" />
-<input nameu003d"MyArray[]" />
-<input nameu003d"MyArray[]" />
+<input name="MyArray[]" />
+<input name="MyArray[]" />
+<input name="MyArray[]" />
+<input name="MyArray[]" />
 ````
 
 Зауважте квадратні дужки після імені змінної, це робить її
@@ -120,10 +120,10 @@ PHP та HTML тісно взаємодіють: PHP може генеруват
 те саме ім'я різним елементам:
 
 ```htmlcode
-<input nameu003d"MyArray[]" />
-<input nameu003d"MyArray[]" />
-<input nameu003d"MyOtherArray[]" />
-<input nameu003d"MyOtherArray[]" />
+<input name="MyArray[]" />
+<input name="MyArray[]" />
+<input name="MyOtherArray[]" />
+<input name="MyOtherArray[]" />
 ````
 
 Це створить два масиви, MyArray і MyOtherArray, які будуть передані
@@ -131,10 +131,10 @@ PHP-скрипт. Також можна задати певні ключі дл�
 масивів:
 
 ```htmlcode
-<input nameu003d"AnotherArray[]" />
-<input nameu003d"AnotherArray[]" />
-<input nameu003d"AnotherArray[email]" />
-<input nameu003d"AnotherArray[phone]" />
+<input name="AnotherArray[]" />
+<input name="AnotherArray[]" />
+<input name="AnotherArray[email]" />
+<input name="AnotherArray[phone]" />
 ````
 
 Масив AnotherArray тепер міститиме ключі 0, 1, email та phone.
@@ -156,14 +156,14 @@ HTML-тег select із зазначеним multiple дозволяє кори�
 Наприклад:
 
 ```htmlcode
-<select nameu003d"var" multipleu003d"yes">
+<select name="var" multiple="yes">
 ````
 
 Кожна обрана опція надійде обробнику форми як:
 
-varu003doption1
-varu003doption2
-varu003doption3
+var=option1
+var=option2
+var=option3
 
 
 Кожна опція перезаписуватиме вміст попередньої змінної
@@ -171,7 +171,7 @@ varu003doption3
 форми". Слід використовувати таке:
 
 ```htmlcode
-<select nameu003d"var[]" multipleu003d"yes">
+<select name="var[]" multiple="yes">
 ````
 
 Це вкаже PHP обробляти `$var` як масив та кожне привласнення
@@ -187,7 +187,7 @@ $var[0], наступним - $var[1] і т.д. Функція
 або укласти ім'я змінної в одинарні лапки і використовуйте його як
 індекс масиву елементів, наприклад:
 
-variable u003d document.forms[0].elements['var[]'];
+variable = document.forms[0].elements['var[]'];
 
 
 
@@ -209,6 +209,6 @@ PHP-коду отримати висоту та ширину екрану, що,
 ` <?phpif (isset($_GET['width'])|AND| $_GET['width'] ."<br />
 ";  echo "Висота екрана: ". $_GET['height'] ."<br />
 ";} else {  // передаємо змінні з розмірами  // (зберігаємо оригінальний рядок запиту  //   -- post змінні потрібно буде пере    
-";  echo " location.hrefu003d\"${_SERVER['SCRIPT_NAME']}?${_SERVER['QUERY_STRING']}"             . "&widthu003d\" + screen.width + \"&heightu003d\" + screen.height;
+";  echo " location.href=\"${_SERVER['SCRIPT_NAME']}?${_SERVER['QUERY_STRING']}"             . "&width=\" + screen.width + \"&height=\" + screen.height;
 ";  echo "</script>
 "; exit();}?> `

@@ -7,7 +7,7 @@
 
 # Клас Yaf_Request_Simple
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -21,20 +21,20 @@ class **Yaf_Request_Simple** extends
 
 /\* Константи \*/
 
-const string `SCHEME_HTTP` u003d http;
+const string `SCHEME_HTTP` = http;
 
-const string `SCHEME_HTTPS` u003d https;
+const string `SCHEME_HTTPS` = https;
 
 /\* Властивості \*/
 
 /\* Методи \*/
 
 public [\_\_construct](yaf-request-simple.construct.md)(
-string `$method` u003d ?,
-string `$module` u003d ?,
-string `$controller` u003d ?,
-string `$action` u003d ?,
-array `$params` u003d ?
+string `$method` = ?,
+string `$module` = ?,
+string `$controller` = ?,
+string `$action` = ?,
+array `$params` = ?
 )
 
 public [get](yaf-request-simple.get.md)(): void
@@ -72,7 +72,7 @@ void
 
 public
 [Yaf_Request_Abstract::getEnv](yaf-request-abstract.getenv.md)(string
-`$name`, string `$default` u003d ?): void
+`$name`, string `$default` = ?): void
 
 public
 [Yaf_Request_Abstract::getException](yaf-request-abstract.getexception.md)():
@@ -92,7 +92,7 @@ void
 
 public
 [Yaf_Request_Abstract::getParam](yaf-request-abstract.getparam.md)(string
-`$name`, string `$default` u003d ?):
+`$name`, string `$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
@@ -105,7 +105,7 @@ void
 
 public
 [Yaf_Request_Abstract::getServer](yaf-request-abstract.getserver.md)(string
-`$name`, string `$default` u003d ?): void
+`$name`, string `$default` = ?): void
 
 public [Yaf_Request_Abstract::isCli](yaf-request-abstract.iscli.md)():
 bool
@@ -140,7 +140,7 @@ bool
 
 public
 [Yaf_Request_Abstract::setActionName](yaf-request-abstract.setactionname.md)(string
-`$action`, bool `$format_name` u003d true): void
+`$action`, bool `$format_name` = true): void
 
 public
 [Yaf_Request_Abstract::setBaseUri](yaf-request-abstract.setbaseuri.md)(string
@@ -148,7 +148,7 @@ public
 
 public
 [Yaf_Request_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md)(string
-`$controller`, bool `$format_name` u003d true): void
+`$controller`, bool `$format_name` = true): void
 
 public
 [Yaf_Request_Abstract::setDispatched](yaf-request-abstract.setdispatched.md)():
@@ -156,11 +156,11 @@ void
 
 public
 [Yaf_Request_Abstract::setModuleName](yaf-request-abstract.setmodulename.md)(string
-`$module`, bool `$format_name` u003d true): void
+`$module`, bool `$format_name` = true): void
 
 public
 [Yaf_Request_Abstract::setParam](yaf-request-abstract.setparam.md)(string
-`$name`, string `$value` u003d ?): bool
+`$name`, string `$value` = ?): bool
 
 public
 [Yaf_Request_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md)(string
@@ -168,7 +168,7 @@ public
 
 public
 [Yaf_Request_Abstract::setRouted](yaf-request-abstract.setrouted.md)(string
-`$flag` u003d ?): void
+`$flag` = ?): void
 
 }
 

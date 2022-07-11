@@ -8,7 +8,7 @@
 
 #pg_last_error
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_last_error — Отримує повідомлення про останню помилку, що відбулася на
 з'єднанні з базою даних
@@ -16,7 +16,7 @@ pg_last_error — Отримує повідомлення про останню 
 ### Опис
 
 **pg_last_error**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d **`null`**): string
+`$connection` = **`null`**): string
 
 **pg_last_error()** повертає повідомлення про останню помилку на заданому
 з'єднанні `connection`.
@@ -56,7 +56,7 @@ pg_last_error — Отримує повідомлення про останню 
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -64,7 +64,7 @@ pg_last_error — Отримує повідомлення про останню 
 
 **Приклад #1 Приклад використання **pg_last_error()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося з'єднатися з сервером"); // Невдалий запит  $res u003d pg_query($dbconn, "select * from doesnotexist"); echo pg_last_error($dbconn);?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з сервером"); // Невдалий запит  $res = pg_query($dbconn, "select * from doesnotexist"); echo pg_last_error($dbconn);?> `
 
 ### Дивіться також
 

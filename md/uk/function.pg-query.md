@@ -7,14 +7,14 @@
 
 #pg_query
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_query — Виконує запит
 
 ### Опис
 
 **pg_query**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, string `$query`):
+`$connection` = ?, string `$query`):
 [PgSql\Result](class.pgsql-result.md)\|false
 
 **pg_query()** виконує `query` до вказаної в `connection` базі даних.
@@ -74,7 +74,7 @@ pg_query — Виконує запит
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PgSql\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                   |
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
@@ -82,14 +82,14 @@ pg_query — Виконує запит
 
 **Приклад #1 Приклад використання **pg_query()****
 
-` <?php$conn u003d pg_pconnect("dbnameu003dpublisher");if (!$conn) { echo "Відбулася помилка.
-";  exit;}$result u003dpg_query($conn, "SELECT author, email FROM authors");if (!$result) { echo "Відбулася помилка.
-";  exit;}while ($row u003d pg_fetch_row($result)) {  echo "Автор: $row[0]  E-mail: $row[1]";  echo "<br />
+` <?php$conn = pg_pconnect("dbname=publisher");if (!$conn) { echo "Відбулася помилка.
+";  exit;}$result =pg_query($conn, "SELECT author, email FROM authors");if (!$result) { echo "Відбулася помилка.
+";  exit;}while ($row = pg_fetch_row($result)) {  echo "Автор: $row[0]  E-mail: $row[1]";  echo "<br />
 ";}?> `
 
 **Приклад #2 Використання декількох виразів у **pg_query()****
 
-`<?php$conn u003d pg_pconnect("dbnameu003dpublisher");// ці вирази будуть виконані в одні транзакції$query u003d "UPDATE authors SET authoru003dUPPER(author) WHE| UPDATE authors SET authoru003dLOWER(author) WHERE idu003d2;";$query .u003d "UPDATE authors SET authoru003dNULL WHERE idu003d3;";pg_query($conn, $query);?> ``
+`<?php$conn = pg_pconnect("dbname=publisher");// ці вирази будуть виконані в одні транзакції$query = "UPDATE authors SET author=UPPER(author) WHE| UPDATE authors SET author=LOWER(author) WHERE id=2;";$query .= "UPDATE authors SET author=NULL WHERE id=3;";pg_query($conn, $query);?> ``
 
 ### Дивіться також
 

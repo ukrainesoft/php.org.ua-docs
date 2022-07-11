@@ -37,4 +37,4 @@ public **Imagick::polaroidImage**([ImagickDraw](class.imagickdraw.md)
 
 Приклад використання Imagick::polaroidImage()
 
-` <?php/* Створення об'єкта */$image u003d new Imagick('source.png');/* Установка непрозорості */$image->polaroidImage(new ImagickDraw(), 25);/* Виведення ('Content-type: image/png');echo $image;?> `
+` <?php/* Створення об'єкта */$image = new Imagick('source.png');/* Установка непрозорості */$image->polaroidImage(new ImagickDraw(), 25);/* Виведення ('Content-type: image/png');echo $image;?> `

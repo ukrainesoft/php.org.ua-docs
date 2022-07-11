@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::getMode
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\ReadPreference::getMode — Повертає параметр "mode"
 ReadPreference
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\ReadPreference::getMode**(): int
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadPreference::getMode()****
 
-` <?php$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);var_dump($rp->getMode());$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ ::RP_PRIMARY_PREFERRED);var_dump($rp->getMode());$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);var_dump($rp->getMode());$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED);var_dump($rp->getMode());$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference:;RP $rp->getMode());?> `
+` <?php$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);var_dump($rp->getMode());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ ::RP_PRIMARY_PREFERRED);var_dump($rp->getMode());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);var_dump($rp->getMode());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED);var_dump($rp->getMode());$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference:;RP $rp->getMode());?> `
 
 Результат виконання цього прикладу:
 

@@ -49,28 +49,28 @@ each — Повертає поточну пару ключ/значення з �
 
 **Приклад #1 Приклади використання **each()****
 
-` <?php$foo u003d array("bob", "fred", "jussi", "jouni", "egon", "marliese");$bar u003d each($foo);print_r($bar);? > `
+` <?php$foo = array("bob", "fred", "jussi", "jouni", "egon", "marliese");$bar = each($foo);print_r($bar);? > `
 
 `$bar` тепер містить наступні пари ключ/значення:
 
 Array
 (
-[1] u003d> bob
-[value] u003d> bob
-[0] u003d> 0
-[key] u003d> 0
+[1] => bob
+[value] => bob
+[0] => 0
+[key] => 0
 )
 
-` <?php$foo u003d array("Robert" u003d> "Bob", "Seppo" u003d> "Sepi");$bar u003d each($foo);print_r($bar);?> `
+` <?php$foo = array("Robert" => "Bob", "Seppo" => "Sepi");$bar = each($foo);print_r($bar);?> `
 
 `$bar` тепер містить наступні пари ключ/значення:
 
 Array
 (
-[1] u003d> Bob
-[value] u003d> Bob
-[0] u003d> Robert
-[key] u003d> Robert
+[1] => Bob
+[value] => Bob
+[0] => Robert
+[key] => Robert
 )
 
 **each()** зазвичай використовується спільно з [list()](function.list.md)
@@ -78,14 +78,14 @@ Array
 
 **Приклад #2 Обхід масиву функцією **each()****
 
-` <?php$fruit u003d array('a' u003d> 'apple', 'b' u003d> 'banana', 'c' u003d> 'cranberry');reset($fruit);while(list($key, $val) u003d each($fruit)) {    echo "$key u003d> $val
+` <?php$fruit = array('a' => 'apple', 'b' => 'banana', 'c' => 'cranberry');reset($fruit);while(list($key, $val) = each($fruit)) {    echo "$key => $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-a u003d> apple
-b u003d> banana
-c u003d> cranberry
+a => apple
+b => banana
+c => cranberry
 
 **Застереження**
 

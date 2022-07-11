@@ -16,7 +16,7 @@ DOMDocument::schemaValidate — Перевіряє дійсність докум
 ### Опис
 
 public **DOMDocument::schemaValidate**(string `$filename`, int `$flags`
-u003d 0): bool
+= 0): bool
 
 Перевіряє документ на дійсність, виходячи з файлу схеми.
 

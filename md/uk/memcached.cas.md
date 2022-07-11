@@ -7,7 +7,7 @@
 
 # Memcached::cas
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::cas — Порівнює та встановлює значення для запису
 
@@ -18,7 +18,7 @@ float `$cas_token`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 **Memcached::cas()** здійснює перевірку та встановлення значення запису,
@@ -59,7 +59,7 @@ memcache. Зверніться до документації методу **Memc
 
 **Приклад #1 Приклад використання **Memcached::cas()****
 
-`<?php$m u003d new Memcached();$m->addServer('localhost', 11211);do {    /* fetch IP list and its token */     $ip null, $cas); /* if list doesn't exist yet, create it and do       an atomic add which will fail if someone else already added it */    if ($m->getResultCode() u003du003d Memcached::RES_NOTFOUND) {        $ips u003d array( $_SERVER['REMOTE_ADDR']); $m->add('ip_block', $ips); /* otherwise, add IP to the list and store via compare-and-swap       with the token, which will fail if someone else updated the list */    } else {        $ips[] u003d $_SERVER['REMOTE_ADDR']; $m->cas($cas, 'ip_block', $ips); }} while ($m->getResultCode() !u003d Memcached::RES_SUCCESS);?> `
+`<?php$m = new Memcached();$m->addServer('localhost', 11211);do {    /* fetch IP list and its token */     $ip null, $cas); /* if list doesn't exist yet, create it and do       an atomic add which will fail if someone else already added it */    if ($m->getResultCode() == Memcached::RES_NOTFOUND) {        $ips = array( $_SERVER['REMOTE_ADDR']); $m->add('ip_block', $ips); /* otherwise, add IP to the list and store via compare-and-swap       with the token, which will fail if someone else updated the list */    } else {        $ips[] = $_SERVER['REMOTE_ADDR']; $m->cas($cas, 'ip_block', $ips); }} while ($m->getResultCode() != Memcached::RES_SUCCESS);?> `
 
 ### Дивіться також
 

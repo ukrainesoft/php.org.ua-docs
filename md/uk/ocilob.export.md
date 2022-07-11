@@ -7,14 +7,14 @@
 
 # OCILob::export
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 OCILob::export — Зберігає вміст об'єкта LOB у файл
 
 ### Опис
 
-public **OCILob::export**(string `$filename`, ?int `$offset` u003d
-**`null`**, ?int `$length` u003d **`null`**): bool
+public **OCILob::export**(string `$filename`, ?int `$offset` =
+**`null`**, ?int `$length` = **`null`**): bool
 
 Зберігає вміст об'єкта LOB у файлі.
 
@@ -37,7 +37,7 @@ public **OCILob::export**(string `$filename`, ?int `$offset` u003d
 ### Список змін
 
 | Версія                 | Опис                                                                                                  |
-| ---------------------- | ----------------------------------------------------------------------------------------------------- |
+|------------------------|-------------------------------------------------------------------------------------------------------|
 | 8.0.0, PECL OCI8 3.0.0 | offset та length тепер допускають значення null.                                                      |
 | 8.0.0, PECL OCI8 3.0.0 | Клас **OCI-Lob** перейменований на [OCILob](class.ocilob.md) відповідно до стандартів іменування PHP. |
 

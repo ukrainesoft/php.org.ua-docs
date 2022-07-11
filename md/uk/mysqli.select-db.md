@@ -55,14 +55,14 @@ public **mysqli::select_db**(string `$database`): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "test");/* >query("SELECT DATABASE()");$row u003d $result->fetch_row();printf("База даних за замовчуванням: %s.
-", $row[0]);/* змінюємо базу даних за мовчанням на "world" */$mysqli->select_db("world");/* отримуємо ім'я поточної бази даних замовчання$  >query("SELECT DATABASE()");$row u003d $result->fetch_row();printf("База даних за замовчуванням: %s.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "test");/* >query("SELECT DATABASE()");$row = $result->fetch_row();printf("База даних за замовчуванням: %s.
+", $row[0]);/* змінюємо базу даних за мовчанням на "world" */$mysqli->select_db("world");/* отримуємо ім'я поточної бази даних замовчання$  >query("SELECT DATABASE()");$row = $result->fetch_row();printf("База даних за замовчуванням: %s.
 ", $row[0]); `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "test");/* отримувати , "SELECT DATABASE()");$row u003d mysqli_fetch_row($result);printf("База даних за замовчуванням: %s.
-", $row[0]);/* змінюємо базу даних за мовчанням на "world" */mysqli_select_db($link, "world");/* отримуємо ім'я поточної бази даних за у$ , "SELECT DATABASE()");$row u003d mysqli_fetch_row($result);printf("База даних за замовчуванням: %s.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "test");/* отримувати , "SELECT DATABASE()");$row = mysqli_fetch_row($result);printf("База даних за замовчуванням: %s.
+", $row[0]);/* змінюємо базу даних за мовчанням на "world" */mysqli_select_db($link, "world");/* отримуємо ім'я поточної бази даних за у$ , "SELECT DATABASE()");$row = mysqli_fetch_row($result);printf("База даних за замовчуванням: %s.
 ", $row[0]); `
 
 Результат виконання даних прикладів:

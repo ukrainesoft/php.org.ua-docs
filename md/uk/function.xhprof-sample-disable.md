@@ -7,7 +7,7 @@
 
 #xhprof_sample_disable
 
-(PECL xhprof \>u003d 0.9.0)
+(PECL xhprof \>= 0.9.0)
 
 xhprof_sample_disable — Зупинити профілювання, що семплює, xhprof
 
@@ -29,12 +29,12 @@ xhprof_sample_disable — Зупинити профілювання, що сем
 
 **Приклад #1 Приклад використання **xhprof_sample_disable()****
 
-` <?phpxhprof_sample_enable();for ($i u003d 0; $i <u003d 10000; $i++) {   $a u003d strlen($i); $b u003d $i * $a; $c u003d rand();}$xhprof_data u003d xhprof_sample_disable();print_r($xhprof_data);?> `
+` <?phpxhprof_sample_enable();for ($i = 0; $i <= 10000; $i++) {   $a = strlen($i); $b = $i * $a; $c = rand();}$xhprof_data = xhprof_sample_disable();print_r($xhprof_data);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[1272935300.800000] u003d> main()
-[1272935300.900000] u003d> main()
+[1272935300.800000] => main()
+[1272935300.900000] => main()
 )

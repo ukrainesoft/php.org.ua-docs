@@ -7,13 +7,13 @@
 
 # Phar::count
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::count — Повертає кількість записів (файлів) у Phar-архіві
 
 ### Опис
 
-public **Phar::count**(int `$mode` u003d **`COUNT_NORMAL`**): int
+public **Phar::count**(int `$mode` = **`COUNT_NORMAL`**): int
 
 ### Список параметрів
 
@@ -26,8 +26,8 @@ public **Phar::count**(int `$mode` u003d **`COUNT_NORMAL`**): int
 
 **Приклад #1 Приклад використання **Phar::count()****
 
-`<?php// переконайтеся, що архів не існує@unlink('brandnewphar.phar');try {    $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar','ar' ;} catch (Exception $e) {    echo 'Не удалося створити phar:', $e;}echo 'Новий phar містить ' . $p->count() . "записів
-";$p['file.txt'] u003d 'привіт';echo 'Новий phar містить ' . $p->count() . "" записів
+`<?php// переконайтеся, що архів не існує@unlink('brandnewphar.phar');try {    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar','ar' ;} catch (Exception $e) {    echo 'Не удалося створити phar:', $e;}echo 'Новий phar містить ' . $p->count() . "записів
+";$p['file.txt'] = 'привіт';echo 'Новий phar містить ' . $p->count() . "" записів
 ";?> `
 
 Результат виконання цього прикладу:

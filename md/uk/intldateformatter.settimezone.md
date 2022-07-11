@@ -9,7 +9,7 @@
 
 #datefmt_set_timezone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL intl u003d 3.0.0)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
 
 IntlDateFormatter::setTimeZone -- datefmt_set_timezone — Встановлює
 часовий пояс засобу форматування
@@ -69,7 +69,7 @@ public
 
 **Приклад #1 Приклад використання **IntlDateFormatter::setTimeZone()****
 
-` <?phpini_set('date.timezone', 'Europe/Amsterdam');$formatter u003d IntlDateFormatter::create(NULL, NULL, NULL, "UTC");$formatter->setTimeZone(NULL);echo "NULL
+` <?phpini_set('date.timezone', 'Europe/Amsterdam');$formatter = IntlDateFormatter::create(NULL, NULL, NULL, "UTC");$formatter->setTimeZone(NULL);echo "NULL
 ", $formatter->getTimeZone()->getId(), "
 ";$formatter->setTimeZone(IntlTimeZone::createTimeZone('Europe/Lisbon'));echo "IntlTimeZone
 ", $formatter->getTimeZone()->getId(), "
@@ -91,10 +91,10 @@ String
 Europe/Rome
 IntlTimeZone Object
 (
-[valid] u003d> 1
-[id] u003d> GMT+00:30
-[rawOffset] u003d> 1800000
-[currentOffset] u003d> 1800000
+[valid] => 1
+[id] => GMT+00:30
+[rawOffset] => 1800000
+[currentOffset] => 1800000
 )
 
 ### Дивіться також

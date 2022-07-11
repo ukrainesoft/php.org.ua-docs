@@ -7,7 +7,7 @@
 
 # fann_get_rprop_delta_max
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_rprop_delta_max — Повертає максимальний розмір кроку
 

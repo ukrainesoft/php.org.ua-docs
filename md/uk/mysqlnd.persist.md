@@ -23,11 +23,11 @@
 Генерація виклику `COM_CHANGE_USER` може бути вимкнена прапором
 компіляції `MYSQLI_NO_CHANGE_USER_ON_PCONNECT`. Наприклад:
 
-shell# CFLAGSu003d"-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT" ./configure --with-mysqlu003d/usr/local/mysql/ --with-mysqliu003d/usr/local/mysql/bin/mysql_config --with-pdo-mysqlu003d/usr /local/mysql/bin/mysql_config --enable-debug && make clean && make -j6
+shell# CFLAGS="-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT" ./configure --with-mysql=/usr/local/mysql/ --with-mysqli=/usr/local/mysql/bin/mysql_config --with-pdo-mysql=/usr /local/mysql/bin/mysql_config --enable-debug && make clean && make -j6
 
 Або альтернативний варіант:
 
-shell# export CFLAGSu003d"-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT"
+shell# export CFLAGS="-DMYSQLI_NO_CHANGE_USER_ON_PCONNECT"
 shell# configure --whatever-option
 shell# make clean
 shell# make

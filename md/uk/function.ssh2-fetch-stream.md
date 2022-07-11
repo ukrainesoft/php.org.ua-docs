@@ -7,7 +7,7 @@
 
 #ssh2_fetch_stream
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_fetch_stream — отримання розширеного потоку даних
 
@@ -35,7 +35,7 @@ ssh2_fetch_stream — отримання розширеного потоку д�
 **Приклад #1 Відкриття консолі та отримання пов'язаного з нею потоку
 STDERR**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stdio_stream u003d ssh2_shell($connection);$stderr_stream_femu003du003d , SSH2_STREAM_STDERR);?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stdio_stream = ssh2_shell($connection);$stderr_stream_fem== , SSH2_STREAM_STDERR);?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # fann_set_cascade_activation_functions
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_activation_functions — Встановлює масив каскадних
 функцій активації кандидатів

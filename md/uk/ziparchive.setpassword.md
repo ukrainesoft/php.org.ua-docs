@@ -7,7 +7,7 @@
 
 # ZipArchive::setPassword
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8, PECL zip \>u003d 1.12.4)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
 
 ZipArchive::setPassword — Встановлення пароля для активного архіву
 

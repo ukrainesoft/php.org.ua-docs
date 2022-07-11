@@ -7,7 +7,7 @@
 
 #gnupg_adddecryptkey
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_adddecryptkey — Додати ключ для розшифровки
 
@@ -38,9 +38,9 @@ string `$passphrase`): bool
 **Приклад #1 Приклад використання **gnupg_adddecryptkey()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();gnupg_adddecryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");?> `
+` <?php$res = gnupg_init();gnupg_adddecryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");?> `
 
 **Приклад #2 Приклад використання **gnupg_adddecryptkey()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");?> `
+` <?php$gpg = new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");?> `

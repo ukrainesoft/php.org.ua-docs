@@ -7,14 +7,14 @@
 
 # ZipArchive::getFromIndex
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::getFromIndex — Повертає вміст елемента за його індексом
 
 ### Опис
 
-public **ZipArchive::getFromIndex**(int `$index`, int `$len` u003d 0, int
-`$flags` u003d 0): string\|false
+public **ZipArchive::getFromIndex**(int `$index`, int `$len` = 0, int
+`$flags` = 0): string\|false
 
 Повертає вміст елемента за його індексом.
 
@@ -44,7 +44,7 @@ public **ZipArchive::getFromIndex**(int `$index`, int `$len` u003d 0, int
 
 **Приклад #1 Отримати вміст файлу**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {    echo $zip->getFromIndex(2); $zip->close();} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {    echo $zip->getFromIndex(2); $zip->close();} else {    echo 'помилка';}?> `
 
 ### Дивіться також
 

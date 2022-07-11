@@ -7,7 +7,7 @@
 
 # Gmagick::cropimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::cropimage — Обрізає зображення
 

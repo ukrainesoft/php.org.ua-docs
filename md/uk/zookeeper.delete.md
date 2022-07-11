@@ -7,13 +7,13 @@
 
 # Zookeeper::delete
 
-(PECL zookeeper \>u003d 0.2.0)
+(PECL zookeeper \>= 0.2.0)
 
 Zookeeper::delete — Видаляє синхронно вузол у zookeeper
 
 ### Опис
 
-public **Zookeeper::delete**(string `$path`, int `$version` u003d -1): bool
+public **Zookeeper::delete**(string `$path`, int `$version` = -1): bool
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ public **Zookeeper::delete**(string `$path`, int `$version` u003d -1): bool
 
 Видалення існуючого вузла.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/path/to/node';$r u003d $zookeeper->delete($path);if ($r) echo ' виконання';else  echo 'Помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$r = $zookeeper->delete($path);if ($r) echo ' виконання';else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 

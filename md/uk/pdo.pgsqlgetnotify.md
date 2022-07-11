@@ -7,14 +7,14 @@
 
 # PDO::pgsqlGetNotify
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 PDO::pgsqlGetNotify — Отримати асинхронне повідомлення
 
 ### Опис
 
-public **PDO::pgsqlGetNotify**(int `$result_type` u003d
-**`PDO::FETCH_USE_DEFAULT`**, int `$ms_timeout` u003d 0): array\|false
+public **PDO::pgsqlGetNotify**(int `$result_type` =
+**`PDO::FETCH_USE_DEFAULT`**, int `$ms_timeout` = 0): array\|false
 
 Повертає результуючий набір, що представляє очікування асинхронного
 повідомлення.

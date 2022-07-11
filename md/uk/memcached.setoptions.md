@@ -7,7 +7,7 @@
 
 # Memcached::setOptions
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::setOptions — Встановлює кілька параметрів Memcached
 
@@ -35,7 +35,7 @@ public **Memcached::setOptions**(array `$options`): bool
 
 **Приклад #1 Встановлює декілька Memcached параметрів**
 
-` <?php$m u003d new Memcached();var_dump($m->getOption(Memcached::OPT_HASH) u003du003d Memcached::HASH_DEFAULT);$m->setOptions(array(Memcached::OPT_HASH ) HASH_MURMUR, Memcached::OPT_PREFIX_KEY u003d> "widgets"));var_dump($m->getOption(Memcached::OPT_HASH) u003du003d Memcached::HASH_DEFAULT);echo "Pre | Memcached::OPT_PREFIX_KEY), "
+` <?php$m = new Memcached();var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);$m->setOptions(array(Memcached::OPT_HASH ) HASH_MURMUR, Memcached::OPT_PREFIX_KEY => "widgets"));var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);echo "Pre | Memcached::OPT_PREFIX_KEY), "
 ";?> `
 
 Результат виконання цього прикладу:

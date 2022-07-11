@@ -7,7 +7,7 @@
 
 # Thread::getCurrentThread
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::getCurrentThread — Ідентифікація
 
@@ -30,7 +30,7 @@ public static **Thread::getCurrentThread**():
 
 **Приклад #1 Повертає посилання на поточний потік**
 
-`<?phpclass My extends Thread {    public function run() {       var_dump(Thread::getCurrentThread()); }}$my u003d new My();$my->start();?> `
+`<?phpclass My extends Thread {    public function run() {       var_dump(Thread::getCurrentThread()); }}$my = new My();$my->start();?> `
 
 Результат виконання цього прикладу:
 

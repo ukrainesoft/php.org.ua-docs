@@ -30,12 +30,12 @@ protected `$controls`;
 /\* Конструктор \*/
 
 public [\_\_construct](ui-controls-box.construct.md)(int
-`$orientation` u003d UI\Controls\Box::Horizontal)
+`$orientation` = UI\Controls\Box::Horizontal)
 
 /\* Методи \*/
 
 public [append](ui-controls-box.append.md)(Control `$control`, bool
-`$stretchy` u003d **`false`**): int
+`$stretchy` = **`false`**): int
 
 public [delete](ui-controls-box.delete.md)(int `$index`): bool
 

@@ -40,11 +40,11 @@ mysqli::$connect_error -- mysqli_connect_error -- Повертає опис
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для придушення попереджень */$mysqli u003d @new mysqli('localhost', 'fake_user', 'wrong_password', /* Використовуйте переважний вами метод реєстрації помилок */    error_log('Помилка при підключенні: ' . $mysqli->connect_error);}?> `
+` <?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для придушення попереджень */$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', /* Використовуйте переважний вами метод реєстрації помилок */    error_log('Помилка при підключенні: ' . $mysqli->connect_error);}?> `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для|придушення попереджень */$link u003d @mysqli_connect('localhost', 'fake_user', 'wrong_password', '  відданий перевагу вами метод реєстрації помилок */    error_log('Помилка при підключенні: ' . mysqli_connect_error());}?> `
+` <?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для|придушення попереджень */$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', '  відданий перевагу вами метод реєстрації помилок */    error_log('Помилка при підключенні: ' . mysqli_connect_error());}?> `
 
 ### Дивіться також
 

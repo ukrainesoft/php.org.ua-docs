@@ -7,13 +7,13 @@
 
 #cubrid_close
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_close — Закриває з'єднання з базою даних
 
 ### Опис
 
-**cubrid_close**(resource `$conn_identifier` u003d ?): bool
+**cubrid_close**(resource `$conn_identifier` = ?): bool
 
 Функція **cubrid_close()** використовується для закриття обробника
 з'єднання та від'єднання від сервера. Якщо будь-який обробник запиту
@@ -38,7 +38,7 @@ cubrid_close — Закриває з'єднання з базою даних
 
 **Приклад #1 Приклад використання **cubrid_close()****
 
-` <?php$con u003d cubrid_connect ("localhost", 33000, "demodb");if ($con) {  echo "підключення успішно виконано"; $req u003d cubrid_execute ( $con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_close ($con);}?> `
+` <?php$con = cubrid_connect ("localhost", 33000, "demodb");if ($con) {  echo "підключення успішно виконано"; $req = cubrid_execute ( $con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_close ($con);}?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # Memcache::increment
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::increment — Збільшити значення елемента
 
 ### Опис
 
-**Memcache::increment**(string `$key`, int `$value` u003d 1): int\|false
+**Memcache::increment**(string `$key`, int `$value` = 1): int\|false
 
 **Memcache::increment()** збільшує значення елемента на величину
 `value`. Якщо елемент із зазначеним ключем `key` не числовий і не може
@@ -46,7 +46,7 @@ Memcache::increment — Збільшити значення елемента
 
 **Приклад #1 Приклад використання **Memcache::increment()****
 
-`<?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);/* інкрементувати лічильник на 2 */$current_value <m'ca API */$memcache_obj u003d new Memcache;$memcache_obj->connect('memcache_host', 11211);/* інкрементувати лічильник на 3 */$current_value u003d $memca
+`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/* інкрементувати лічильник на 2 */$current_value <m'ca API */$memcache_obj = new Memcache;$memcache_obj->connect('memcache_host', 11211);/* інкрементувати лічильник на 3 */$current_value = $memca
 
 ### Дивіться також
 

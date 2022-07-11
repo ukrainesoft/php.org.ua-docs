@@ -15,7 +15,7 @@ OAuth::getRequestHeader — Згенерувати підпис заголовк
 
 public **OAuth::getRequestHeader**(string `$http_method`, string `$url`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$extra_parameters` u003d ?): string\|false
+`$extra_parameters` = ?): string\|false
 
 Генерує підпис заголовка OAuth на основі фінального методу HTTP, URL
 та додаткових параметрів.

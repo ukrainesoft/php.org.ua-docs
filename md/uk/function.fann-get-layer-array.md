@@ -7,7 +7,7 @@
 
 # fann_get_layer_array
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_layer_array — Отримує кількість нейронів у кожному шарі мережі
 

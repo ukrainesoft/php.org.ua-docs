@@ -9,7 +9,7 @@
 
 #rar_open
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::open -- rar_open — Відкриває архів RAR
 
@@ -18,13 +18,13 @@ RarArchive::open -- rar_open — Відкриває архів RAR
 Об'єктно-орієнтований стиль (метод):
 
 public static **RarArchive::open**(string `$filename`, string
-`$password` u003d NULL, [callable](language.types.callable.md)
-`$volume_callback` u003d NULL): [RarArchive](class.rararchive.md)\|false
+`$password` = NULL, [callable](language.types.callable.md)
+`$volume_callback` = NULL): [RarArchive](class.rararchive.md)\|false
 
 Процедурний стиль:
 
-**rar_open**(string `$filename`, string `$password` u003d NULL,
-[callable](language.types.callable.md) `$volume_callback` u003d NULL):
+**rar_open**(string `$filename`, string `$password` = NULL,
+[callable](language.types.callable.md) `$volume_callback` = NULL):
 [RarArchive](class.rararchive.md)\|false
 
 Відкриває зазначений RAR-архів та повертає об'єкт
@@ -69,15 +69,15 @@ public static **RarArchive::open**(string `$filename`, string
 ### Список змін
 
 | Версія         | Опис                         |
-| -------------- | ---------------------------- |
+|----------------|------------------------------|
 | PECL rar 3.0.0 | Було додано volume_callback. |
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$rar_arch u003dRarArchive::open('encrypted_headers.rar', 'samplepassword');if ($rar_arch u003du003du003du003dFALSE)   die("Невдале відкриття файлу");$$ );if ($entries u003du003du003d FALSE)    die("Невдале отримання записів");echo "Знайдено " . count($entries) . "Файлів.
-";if (empty($entries))    die("Не найдено коректних записів.");$stream u003dreset($entries)->getStream();if ($stream u003du003du003d FALSE)  пере  die("Недач| файлу");$rar_arch->close();echo "Вміст першого файлу:
+` <?php$rar_arch =RarArchive::open('encrypted_headers.rar', 'samplepassword');if ($rar_arch ====FALSE)   die("Невдале відкриття файлу");$$ );if ($entries === FALSE)    die("Невдале отримання записів");echo "Знайдено " . count($entries) . "Файлів.
+";if (empty($entries))    die("Не найдено коректних записів.");$stream =reset($entries)->getStream();if ($stream === FALSE)  пере  die("Недач| файлу");$rar_arch->close();echo "Вміст першого файлу:
 ";echo stream_get_contents($stream);fclose($stream);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -88,13 +88,13 @@ Encrypted file 1 contents.
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$rar_arch u003d rar_open('encrypted_headers.rar', 'samplepassword');if ($rar_arch u003du003du003d FALSE)   die("Невдале відкриття файла");$entries u003d$ entriesu003du003du003du003dFALSE)  die("Failed fetching entries");echo "Знайдено " . count($entries) . "Файлів.
-";if (empty($entries))    die("Не найдено коректних записів.");$stream u003dreset($entries)->getStream();if ($stream u003du003du003d FALSE)  пере  die("Недач| файлу");rar_close($rar_arch);echo "Вміст першого файлу:
+` <?php$rar_arch = rar_open('encrypted_headers.rar', 'samplepassword');if ($rar_arch === FALSE)   die("Невдале відкриття файла");$entries =$ entries====FALSE)  die("Failed fetching entries");echo "Знайдено " . count($entries) . "Файлів.
+";if (empty($entries))    die("Не найдено коректних записів.");$stream =reset($entries)->getStream();if ($stream === FALSE)  пере  die("Недач| файлу");rar_close($rar_arch);echo "Вміст першого файлу:
 ";echo stream_get_contents($stream);fclose($stream);?> `
 
 **Приклад #3 Callback-функція для тома**
 
-` <?php/* У цьому прикладі є том з іменем multi_broken.part1.rar, * а наступний том має ім'я multi.part2.rar */function resolve($vol)    vol))      return str_replace('_broken', '', $vol); else         return null;}$rar_file1 u003d rar_open(dirname(__FILE__).'/multi_broken.part1.rar', null, 'resolve');$entry u003d $rar_file1->get$try >extract(null, dirname(__FILE__) . "/temp_file2.txt");?> `
+` <?php/* У цьому прикладі є том з іменем multi_broken.part1.rar, * а наступний том має ім'я multi.part2.rar */function resolve($vol)    vol))      return str_replace('_broken', '', $vol); else         return null;}$rar_file1 = rar_open(dirname(__FILE__).'/multi_broken.part1.rar', null, 'resolve');$entry = $rar_file1->get$try >extract(null, dirname(__FILE__) . "/temp_file2.txt");?> `
 
 ### Дивіться також
 

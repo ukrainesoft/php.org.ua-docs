@@ -7,7 +7,7 @@
 
 #posix_errno
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 posix_errno - Псевдонім
 [posix_get_last_error()](function.posix-get-last-error.md)

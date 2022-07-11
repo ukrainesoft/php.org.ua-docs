@@ -7,7 +7,7 @@
 
 # SessionHandlerInterface::close
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::close — Закриває сесію
 

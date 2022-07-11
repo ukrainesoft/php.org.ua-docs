@@ -23,7 +23,7 @@ mysql_select_db - Вибирає базу даних MySQL
 ### Опис
 
 **mysql_select_db**(string `$database_name`, resource `$link_identifier`
-u003d NULL): bool
+= NULL): bool
 
 Вибирає для роботи вказану базу даних на сервері, на який
 посилається переданий дескриптор з'єднання. Кожен наступний виклик
@@ -53,7 +53,7 @@ u003d NULL): bool
 
 **Приклад #1 Приклад використання **mysql_select_db()****
 
-` <?php$link u003d Mysql_connect('localhost', Mysql_user', Mysql_password'); поточної бази даних $db_selectedu003dmysql_select_db('foo', $link);if (!$db_selected) {    die ('Не вдалося вибрати базу foo: ' . . mysql_error
+` <?php$link = Mysql_connect('localhost', Mysql_user', Mysql_password'); поточної бази даних $db_selected=mysql_select_db('foo', $link);if (!$db_selected) {    die ('Не вдалося вибрати базу foo: ' . . mysql_error
 
 ### Примітки
 

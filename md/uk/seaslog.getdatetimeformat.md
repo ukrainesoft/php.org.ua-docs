@@ -7,7 +7,7 @@
 
 # SeasLog::getDatetimeFormat
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::getDatetimeFormat — Отримує стиль формату дати та часу
 SeasLog

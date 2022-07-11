@@ -7,7 +7,7 @@
 
 # Клас Swoole\Async
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -23,8 +23,8 @@ public static [dnsLookup](swoole-async.dnslookup.md)(string
 public static [read](swoole-async.read.md)(
 string `$filename`,
 [callable](language.types.callable.md) `$callback`,
-int `$chunk_size` u003d ?,
-int `$offset` u003d ?
+int `$chunk_size` = ?,
+int `$offset` = ?
 ): bool
 
 public static [readFile](swoole-async.readfile.md)(string `$filename`,
@@ -35,15 +35,15 @@ public static [set](swoole-async.set.md)(array `$settings`): void
 public static [write](swoole-async.write.md)(
 string `$filename`,
 string `$content`,
-int `$offset` u003d ?,
-[callable](language.types.callable.md) `$callback` u003d ?
+int `$offset` = ?,
+[callable](language.types.callable.md) `$callback` = ?
 ): void
 
 public static [writeFile](swoole-async.writefile.md)(
 string `$filename`,
 string `$content`,
-[callable](language.types.callable.md) `$callback` u003d ?,
-string `$flags` u003d ?
+[callable](language.types.callable.md) `$callback` = ?,
+string `$flags` = ?
 ): void
 
 }

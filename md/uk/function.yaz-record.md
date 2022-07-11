@@ -7,7 +7,7 @@
 
 # yaz_record
 
-(PHP 4 u003d 4.0.1, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
 
 yaz_record — Повертає запис
 
@@ -44,7 +44,7 @@ $hits, де $hits - число записів у результуючому на
 форматів USMARC/MARC21, які рекомендується перетворювати, оскільки
 вони зазвичай повертаються в кодуванні MARC-8, яке не розуміють браузери
 та інші програми. Щоб визначити перетворення, додайте
-`; charsetu003d`from`, `to, де from поточне кодування запису та to
+`; charset=`from`, `to, де from поточне кодування запису та to
 результуюче кодування, яке буде доступне PHP.
 
 `string`
@@ -131,29 +131,29 @@ MARC-запис повертається у форматі ISO2709, XML та SUT
 
 Якщо цей запис знаходиться на позиції $p, тоді скрипт
 
-` <?php$ar u003d yaz_record($id, $p, "array");print_r($ar);?> `
+` <?php$ar = yaz_record($id, $p, "array");print_r($ar);?> `
 
 виведе:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> (4,52)
-[1] u003d> Robert M. Pirsig
+[0] => (4,52)
+[1] => Robert M. Pirsig
 )
-[1] u003d> Array
+[1] => Array
 (
-[0] u003d> (4,70)
+[0] => (4,70)
 )
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> (4,70) (4,90)
+[0] => (4,70) (4,90)
 )
-[3] u003d> Array
+[3] => Array
 (
-[0] u003d> (4,70)(4,90)(2,7)
-[1] u003d> Transworld Publishers, ltd.
+[0] => (4,70)(4,90)(2,7)
+[1] => Transworld Publishers, ltd.
 )
 )
 
@@ -163,8 +163,8 @@ Array
 запис буде повернено у кодуванні marc-8 (невідомому для більшості
 XML парсерів), тому вона перетворюється на UTF-8.
 
-` <?php$rec u003d yaz_record($id, $p, "xml; charsetu003dmarc-8,utf-8");?> `
+` <?php$rec = yaz_record($id, $p, "xml; charset=marc-8,utf-8");?> `
 
 Запис `$rec` може бути оброблений процесором Sablotron XSLT так:
 
-` <?php$xslfile u003d 'display.xsl';$processor u003d xslt_create();$parms u003d array('/_xml' u003d> $rec);$res u003d xslt_process($processor, 'arg:/ $xslfile, NULL, $parms);xslt_free($processor);$res u003d preg_replace("'</?html[^>]*>'", '', $res);echo $res;?> `
+` <?php$xslfile = 'display.xsl';$processor = xslt_create();$parms = array('/_xml' => $rec);$res = xslt_process($processor, 'arg:/ $xslfile, NULL, $parms);xslt_free($processor);$res = preg_replace("'</?html[^>]*>'", '', $res);echo $res;?> `

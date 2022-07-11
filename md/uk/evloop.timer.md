@@ -8,7 +8,7 @@
 
 # EvLoop::timer
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::timer — Створення об'єкта спостерігача EvTimer, пов'язаного з поточним
 екземпляром циклу подій
@@ -21,8 +21,8 @@ float `$repeat`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvTimer](class.evtimer.md)
 
 Створює об'єкт спостерігача EvTimer, пов'язаний із поточним екземпляром

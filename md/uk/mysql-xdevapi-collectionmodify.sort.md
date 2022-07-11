@@ -42,4 +42,4 @@ public **mysql_xdevapi\CollectionModify::sort**(string `$sort_expr`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionModify::sort()****
 
-` <?php$res u003d $coll->modify('true')->sort('name desc', 'age asc')->limit(4)->set('Married', 'NO')- >execute();?> `
+` <?php$res = $coll->modify('true')->sort('name desc', 'age asc')->limit(4)->set('Married', 'NO')- >execute();?> `

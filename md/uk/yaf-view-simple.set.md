@@ -7,7 +7,7 @@
 
 # Yaf_View_Simple::\_\_set
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::\_\_set - Встановлює значення для движка
 
@@ -34,7 +34,7 @@ public **Yaf_View_Simple::\_\_set**(string `$name`,
 
 **Приклад #1 Приклад використання **Yaf_View_Simple::\_\_set()**exampl**
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->foo u003d "bar"; // те ж, що і assign("foo", "bar"); }}?> `
+` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->foo = "bar"; // те ж, що і assign("foo", "bar"); }}?> `
 
 ### Дивіться також
 

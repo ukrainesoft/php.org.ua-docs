@@ -7,7 +7,7 @@
 
 #gnupg_geterrorinfo
 
-(PECL gnupg \>u003d 1.5)
+(PECL gnupg \>= 1.5)
 
 gnupg_geterrorinfo — Повертає інформацію про помилку
 
@@ -30,35 +30,35 @@ gnupg_geterrorinfo — Повертає інформацію про помилк
 **Приклад #1 Приклад використання **gnupg_geterrorinfo()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();// викликається без помилокprint_r(gnupg_geterrorinfo($res));?> `
+` <?php$res = gnupg_init();// викликається без помилокprint_r(gnupg_geterrorinfo($res));?> `
 
 Результат виконання цього прикладу:
 
 array(4) {
-["generic_message"]u003d>
+["generic_message"]=>
 bool(false)
-["gpgme_code"]u003d>
+["gpgme_code"]=>
 int(0)
-["gpgme_source"]u003d>
+["gpgme_source"]=>
 string(18) "Unspecified source"
-["gpgme_message"]u003d>
+["gpgme_message"]=>
 string(7) "Success"
 }
 
 **Приклад #2 Приклад використання **gnupg_geterrorinfo()** в
 об'єктно-орієнтованому стилі**
 
-`<?php$gpg u003d new gnupg();// виклик з помилкою$gpg->decrypt('abc');// повинна відобразитися інформація про помилкаprint_r($gpg->geterrorinfo()
+`<?php$gpg = new gnupg();// виклик з помилкою$gpg->decrypt('abc');// повинна відобразитися інформація про помилкаprint_r($gpg->geterrorinfo()
 
 Результат виконання цього прикладу:
 
 array(4) {
-["generic_message"]u003d>
+["generic_message"]=>
 string(14) "decrypt failed"
-["gpgme_code"]u003d>
+["gpgme_code"]=>
 int(117440570)
-["gpgme_source"]u003d>
+["gpgme_source"]=>
 string(5) "GPGME"
-["gpgme_message"]u003d>
+["gpgme_message"]=>
 string(7) "No data"
 }

@@ -7,7 +7,7 @@
 
 # sha1
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 sha1 - Повертає SHA1-хеш рядки
 
@@ -19,7 +19,7 @@ sha1 - Повертає SHA1-хеш рядки
 
 ### Опис
 
-**sha1**(string `$string`, bool `$binary` u003d **`false`**): string
+**sha1**(string `$string`, bool `$binary` = **`false`**): string
 
 Повертає SHA1-хеш рядка `string`, обчислений за алгоритмом [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174).
 
@@ -41,7 +41,7 @@ sha1 - Повертає SHA1-хеш рядки
 
 **Приклад #1 Приклад використання **sha1()****
 
-`<?php$str u003d 'яблуко';if (sha1($str) u003du003du003d '88b184adea10bf987b15257a5d6c5cb94eba69d3') {    echo "Бажаєте|
+`<?php$str = 'яблуко';if (sha1($str) === '88b184adea10bf987b15257a5d6c5cb94eba69d3') {    echo "Бажаєте|
 
 ### Дивіться також
 

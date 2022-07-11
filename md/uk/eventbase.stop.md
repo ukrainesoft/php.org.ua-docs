@@ -7,7 +7,7 @@
 
 # EventBase::stop
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::stop — Повідомляє event_base припинити надсилання подій
 

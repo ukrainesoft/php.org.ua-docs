@@ -7,7 +7,7 @@
 
 #apcu_enabled
 
-(PECL apcu \>u003d 4.0.3)
+(PECL apcu \>= 4.0.3)
 
 apcu_enabled — Чи можна використовувати APCu у поточному оточенні
 

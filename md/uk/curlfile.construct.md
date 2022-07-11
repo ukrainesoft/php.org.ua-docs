@@ -9,7 +9,7 @@
 
 #curl_file_create
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 CURLFile::\_\_construct -- curl_file_create — Створює об'єкт CURLFile
 
@@ -18,12 +18,12 @@ CURLFile::\_\_construct -- curl_file_create — Створює об'єкт CURLF
 Об'єктно-орієнтований стиль
 
 public **CURLFile::\_\_construct**(string `$filename`, ?string
-`$mime_type` u003d **`null`**, ?string `$posted_filename` u003d **`null`**)
+`$mime_type` = **`null`**, ?string `$posted_filename` = **`null`**)
 
 Процедурний стиль
 
-**curl_file_create**(string `$filename`, ?string `$mime_type` u003d
-**`null`**, ?string `$posted_filename` u003d **`null`**):
+**curl_file_create**(string `$filename`, ?string `$mime_type` =
+**`null`**, ?string `$posted_filename` = **`null`**):
 [CURLFile](class.curlfile.md)
 
 Створює об'єкт [CURLFile](class.curlfile.md), який використовується для
@@ -47,7 +47,7 @@ Mime-тип файлу.
 ### Список змін
 
 | Версія | Опис                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------|
 | 8.0.0  | mime_type та posted_filename тепер допускають значення null; раніше значенням за умовчанням був '0'. |
 
 ### Приклади
@@ -56,26 +56,26 @@ Mime-тип файлу.
 
 Об'єктно-орієнтований стиль
 
-` <?php/* http://example.com/upload.php:<?php var_dump($_FILES); ?>*/// Створюємо дескриптор cURL$ch u003d curl_init('http://example.com/upload.php');// Створюємо об'єкт CURLFile$cfile u003d new CURLFile('cats.jpg','image/ ','test_name');// Встановлюємо дані для POST$data u003d array('test_file' u003d> $cfile);curl_setopt($ch, CURLOPT_POST,1);curl_setopt($ch, CURLOPT_$ Запускаємо дескриптор на виконання curl_exec($ch);?> `
+` <?php/* http://example.com/upload.php:<?php var_dump($_FILES); ?>*/// Створюємо дескриптор cURL$ch = curl_init('http://example.com/upload.php');// Створюємо об'єкт CURLFile$cfile = new CURLFile('cats.jpg','image/ ','test_name');// Встановлюємо дані для POST$data = array('test_file' => $cfile);curl_setopt($ch, CURLOPT_POST,1);curl_setopt($ch, CURLOPT_$ Запускаємо дескриптор на виконання curl_exec($ch);?> `
 
 Процедурний стиль
 
-` <?php/* http://example.com/upload.php:<?php var_dump($_FILES); ?>*/// Створюємо дескриптор cURL$ch u003d curl_init('http://example.com/upload.php');// Створюємо об'єкт CURLFile$cfile u003d curl_file_create('cats.jpg','image/ ,'test_name');// Встановлюємо дані для POST$data u003d array('test_file' u003d> $cfile);curl_setopt($ch, CURLOPT_POST,1);curl_setopt($ch, CURLOPT_POST дескриптор на виконанняcurl_exec($ch);?> `
+` <?php/* http://example.com/upload.php:<?php var_dump($_FILES); ?>*/// Створюємо дескриптор cURL$ch = curl_init('http://example.com/upload.php');// Створюємо об'єкт CURLFile$cfile = curl_file_create('cats.jpg','image/ ,'test_name');// Встановлюємо дані для POST$data = array('test_file' => $cfile);curl_setopt($ch, CURLOPT_POST,1);curl_setopt($ch, CURLOPT_POST дескриптор на виконанняcurl_exec($ch);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["test_file"]u003d>
+["test_file"]=>
 array(5) {
-["name"]u003d>
+["name"]=>
 string(9) "test_name"
-["type"]u003d>
+["type"]=>
 string(10) "image/jpeg"
-["tmp_name"]u003d>
+["tmp_name"]=>
 string(14) "/tmp/phpPC9Kbx"
-["error"]u003d>
+["error"]=>
 int(0)
-["size"]u003d>
+["size"]=>
 int(46334)
 }
 }
@@ -85,67 +85,67 @@ int(46334)
 
 Об'єктно-орієнтований стиль
 
-` <?php$request u003dcurl_init('http://www.example.com/upload.php');curl_setopt($request, CURLOPT_POST, true);curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);curl_se , CURLOPT_POSTFIELDS, [    'blob[0]' u003d> new CURLFile(realpath('first-file.jpg'), 'image/jpeg'),    'blob[1]' u003d> new .txt'), 'text/plain'),    'blob[2]' u003d> new CURLFile(realpath('third-file.exe'), 'application/octet-stream'),]);curl_setopt($request , CURLOPT_RETURNTRANSFER, true);echo curl_exec($request);var_dump(curl_getinfo($request));curl_close($request); `
+` <?php$request =curl_init('http://www.example.com/upload.php');curl_setopt($request, CURLOPT_POST, true);curl_setopt($request, CURLOPT_SAFE_UPLOAD, true);curl_se , CURLOPT_POSTFIELDS, [    'blob[0]' => new CURLFile(realpath('first-file.jpg'), 'image/jpeg'),    'blob[1]' => new .txt'), 'text/plain'),    'blob[2]' => new CURLFile(realpath('third-file.exe'), 'application/octet-stream'),]);curl_setopt($request , CURLOPT_RETURNTRANSFER, true);echo curl_exec($request);var_dump(curl_getinfo($request));curl_close($request); `
 
 Процедурний стиль
 
-` <?php// procedural$request u003dcurl_init('http://www.example.com/upload.php');curl_setopt($request, CURLOPT_POST, true);curl_setopt($request, CURLOPT_SAFE_UPLOAD, ($request, CURLOPT_POSTFIELDS, [    'blob[0]' u003d> curl_file_create(realpath('first-file.jpg'), 'image/jpeg'),    'blob[1]' u003d>'cur file.txt'), 'text/plain'),    'blob[2]' u003d> curl_file_create(realpath('third-file.exe'), 'application/octet-stream'),]);curl_setopt($request , CURLOPT_RETURNTRANSFER, true);echo curl_exec($request);var_dump(curl_getinfo($request));curl_close($request); `
+` <?php// procedural$request =curl_init('http://www.example.com/upload.php');curl_setopt($request, CURLOPT_POST, true);curl_setopt($request, CURLOPT_SAFE_UPLOAD, ($request, CURLOPT_POSTFIELDS, [    'blob[0]' => curl_file_create(realpath('first-file.jpg'), 'image/jpeg'),    'blob[1]' =>'cur file.txt'), 'text/plain'),    'blob[2]' => curl_file_create(realpath('third-file.exe'), 'application/octet-stream'),]);curl_setopt($request , CURLOPT_RETURNTRANSFER, true);echo curl_exec($request);var_dump(curl_getinfo($request));curl_close($request); `
 
 Результат виконання цього прикладу:
 
 array(26) {
-["url"]u003d>
+["url"]=>
 string(31) "http://www.example.com/upload.php"
-["content_type"]u003d>
-string(24) "text/html; charsetu003dUTF-8"
-["http_code"]u003d>
+["content_type"]=>
+string(24) "text/html; charset=UTF-8"
+["http_code"]=>
 int(200)
-["header_size"]u003d>
+["header_size"]=>
 int(198)
-["request_size"]u003d>
+["request_size"]=>
 int(196)
-["filetime"]u003d>
+["filetime"]=>
 int(-1)
-["ssl_verify_result"]u003d>
+["ssl_verify_result"]=>
 int(0)
-["redirect_count"]u003d>
+["redirect_count"]=>
 int(0)
-["total_time"]u003d>
+["total_time"]=>
 float(0.060062)
-["namelookup_time"]u003d>
+["namelookup_time"]=>
 float(0.028575)
-["connect_time"]u003d>
+["connect_time"]=>
 float(0.029011)
-["pretransfer_time"]u003d>
+["pretransfer_time"]=>
 float(0.029121)
-["size_upload"]u003d>
+["size_upload"]=>
 float(3230730)
-["size_download"]u003d>
+["size_download"]=>
 float(811)
-["speed_download"]u003d>
+["speed_download"]=>
 float(13516)
-["speed_upload"]u003d>
+["speed_upload"]=>
 float(53845500)
-["download_content_length"]u003d>
+["download_content_length"]=>
 float(811)
-["upload_content_length"]u003d>
+["upload_content_length"]=>
 float(3230730)
-["starttransfer_time"]u003d>
+["starttransfer_time"]=>
 float(0.030355)
-["redirect_time"]u003d>
+["redirect_time"]=>
 float(0)
-["redirect_url"]u003d>
+["redirect_url"]=>
 string(0) ""
-["primary_ip"]u003d>
+["primary_ip"]=>
 string(13) "0.0.0.0"
-["certinfo"]u003d>
+["certinfo"]=>
 array(0) {
 }
-["primary_port"]u003d>
+["primary_port"]=>
 int(80)
-["local_ip"]u003d>
+["local_ip"]=>
 string(12) "0.0.0.0"
-["local_port"]u003d>
+["local_port"]=>
 int(34856)
 }
 

@@ -7,14 +7,14 @@
 
 # Yaf_Request_Http::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Http::\_\_construct - Конструктор класу Yaf_Request_Http
 
 ### Опис
 
-public **Yaf_Request_Http::\_\_construct**(string `$request_uri` u003d ?,
-string `$base_uri` u003d ?)
+public **Yaf_Request_Http::\_\_construct**(string `$request_uri` = ?,
+string `$base_uri` = ?)
 
 **Увага**
 

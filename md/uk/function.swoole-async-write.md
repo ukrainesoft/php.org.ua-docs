@@ -7,7 +7,7 @@
 
 # swoole_async_write
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_async_write — Асинхронний запис даних до потоку файлу
 
@@ -16,8 +16,8 @@ swoole_async_write — Асинхронний запис даних до пот�
 **swoole_async_write**(
 string `$filename`,
 string `$content`,
-int `$offset` u003d ?,
-[callable](language.types.callable.md) `$callback` u003d ?
+int `$offset` = ?,
+[callable](language.types.callable.md) `$callback` = ?
 ): bool
 
 ### Список параметрів

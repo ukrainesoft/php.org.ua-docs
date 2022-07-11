@@ -7,7 +7,7 @@
 
 # openssl_x509_fingerprint
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 openssl_x509_fingerprint — Обчислює відбиток або дайджест, заданий
 сертифікатом X.509
@@ -15,7 +15,7 @@ openssl_x509_fingerprint — Обчислює відбиток або дайдж
 ### Опис
 
 **openssl_x509_fingerprint**([OpenSSLCertificate](class.opensslcertificate.md)\|string
-`$certificate`, string `$digest_algo` u003d "sha1", bool `$binary` u003d
+`$certificate`, string `$digest_algo` = "sha1", bool `$binary` =
 **`false`**): string\|false
 
 **openssl_x509_fingerprint()** повертає дайджест `certificate` у вигляді
@@ -45,5 +45,5 @@ openssl_x509_fingerprint — Обчислює відбиток або дайдж
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                        |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |

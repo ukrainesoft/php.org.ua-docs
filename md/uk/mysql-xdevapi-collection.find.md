@@ -13,7 +13,7 @@ Collection::find — Шукає документ
 
 ### Опис
 
-public **mysql_xdevapi\Collection::find**(string `$search_condition` u003d
+public **mysql_xdevapi\Collection::find**(string `$search_condition` =
 ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
@@ -41,24 +41,24 @@ public **mysql_xdevapi\Collection::find**(string `$search_condition` u003d
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Collection::find()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$collection->ad ": "Альфред",     "age": 18, "job": "Дворецький"}')->execute();$collection->add('{"name": "Боб",        ")"age" "job": "Пловець"}')->execute();$collection->add('{"name": "Фред",       "age": 20, "job": "Будівельник"}')-> execute();$collection->add('{"name": "Вілма",      "age": 21, "job": "Учитель"}')->execute();$collection->add('{ "name": "Джон",       "age": 22, "job": "Учитель"}')->execute();$find  u003d $collection->find('job LIKE :job AND | );$result u003d $find  ->bind(['job' u003d> 'Учитель', 'age' u003d> 20])  ->sort('age DESC') ->limit(2) ->>execute(); print_r($result->fetchAll());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Альфред",     "age": 18, "job": "Дворецький"}')->execute();$collection->add('{"name": "Боб",        ")"age" "job": "Пловець"}')->execute();$collection->add('{"name": "Фред",       "age": 20, "job": "Будівельник"}')-> execute();$collection->add('{"name": "Вілма",      "age": 21, "job": "Учитель"}')->execute();$collection->add('{ "name": "Джон",       "age": 22, "job": "Учитель"}')->execute();$find  = $collection->find('job LIKE :job AND | );$result = $find  ->bind(['job' => 'Учитель', 'age' => 20])  ->sort('age DESC') ->limit(2) ->>execute(); print_r($result->fetchAll());?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[_id] u003d> 00005b6b53610000000000000a8
-[age] u003d> 22
-[job] u003d> Вчитель
-[name] u003d> Джон
+[_id] => 00005b6b53610000000000000a8
+[age] => 22
+[job] => Вчитель
+[name] => Джон
 )
-[1] u003d> Array
+[1] => Array
 (
-[_id] u003d> 00005b6b5361000000000000007
-[age] u003d> 21
-[job] u003d> Вчитель
-[name] u003d> Вілма
+[_id] => 00005b6b5361000000000000007
+[age] => 21
+[job] => Вчитель
+[name] => Вілма
 )
 )

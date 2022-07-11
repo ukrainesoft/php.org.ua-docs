@@ -15,14 +15,14 @@ InterBase
 ### Опис
 
 **ibase_pconnect**(
-string `$database` u003d ?,
-string `$username` u003d ?,
-string `$password` u003d ?,
-string `$charset` u003d ?,
-int `$buffers` u003d ?,
-int `$dialect` u003d ?,
-string `$role` u003d ?,
-int `$sync` u003d ?
+string `$database` = ?,
+string `$username` = ?,
+string `$password` = ?,
+string `$charset` = ?,
+int `$buffers` = ?,
+int `$dialect` = ?,
+string `$role` = ?,
+int `$sync` = ?
 ): resource
 
 Відкриває постійне підключення до бази даних InterBase.

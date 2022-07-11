@@ -13,4 +13,4 @@
 
 **Приклад #1 Видалення коментарів лексером**
 
-`<?php$source u003d file_get_contents('example.php');$tokens u003d token_get_all($source);foreach ($tokens as $token) {   if (is_string($token))              token; } else {        // масив з лексемою       list($id, $text) u003d $token; s                                   default:                // все остальное -> виводимо як є                 echo $text; break; }   }}?> `
+`<?php$source = file_get_contents('example.php');$tokens = token_get_all($source);foreach ($tokens as $token) {   if (is_string($token))              token; } else {        // масив з лексемою       list($id, $text) = $token; s                                   default:                // все остальное -> виводимо як є                 echo $text; break; }   }}?> `

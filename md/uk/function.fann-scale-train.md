@@ -8,7 +8,7 @@
 
 # fann_scale_train
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_scale_train — Масштабує вхідні та вихідні дані на основі
 раніше розрахованих параметрів

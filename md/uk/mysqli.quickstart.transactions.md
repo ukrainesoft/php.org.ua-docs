@@ -18,7 +18,7 @@ API-функцій. Для увімкнення та вимкнення режи
 **Приклад #1 Встановлення режиму автофіксації (`autocommit`) засобами SQL
 та функціями API**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Рекомендується ми  (false);/* Не розпізнаватиметься і враховуватись плагінами реплікації і балансування навантаження */$mysqli->query('SET AUTOCOMMIT u003d 0'); `
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Рекомендується ми  (false);/* Не розпізнаватиметься і враховуватись плагінами реплікації і балансування навантаження */$mysqli->query('SET AUTOCOMMIT = 0'); `
 
 Додаткові служби сервера, такі як плагіни реплікації та
 балансування навантаження можуть відслідковувати виклики API-функцій. Плагін
@@ -30,7 +30,7 @@ SQL запитами.
 
 **Приклад #2 Фіксація та відкат**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->autocommit(false> "INSERT INTO test(id) VALUES (1)");$mysqli->rollback();$mysqli->query("INSERT INTO test(id) VALUES (2)");$mysqli->commit(); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->autocommit(false> "INSERT INTO test(id) VALUES (1)");$mysqli->rollback();$mysqli->query("INSERT INTO test(id) VALUES (2)");$mysqli->commit(); `
 
 Слід зазначити, що MySQL сервер не може відкотити результати всіх
 запитів. Деякі зміни фіксуються неявно.

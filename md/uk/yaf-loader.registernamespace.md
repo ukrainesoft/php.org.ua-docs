@@ -7,7 +7,7 @@
 
 # Yaf_Loader::registerNamespace
 
-(Yaf \>u003d3.2.0)
+(Yaf \>=3.2.0)
 
 Yaf_Loader::registerNamespace — Реєструє простір імен за допомогою
 пошуку
@@ -15,7 +15,7 @@ Yaf_Loader::registerNamespace — Реєструє простір імен за 
 ### Опис
 
 public **Yaf_Loader::registerNamespace**(string\|array `$namespaces`,
-string `$path` u003d ?): bool
+string `$path` = ?): bool
 
 Реєструє простір імен шляхом пошуку,
 [Yaf_Loader](class.yaf-loader.md) шукає класи у цьому просторі імен
@@ -43,4 +43,4 @@ bool
 
 **Приклад #1 Приклад використання **Yaf_Loader::registerNamespace()****
 
-` <?php$loader u003dYaf_Loader::getInstance();$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");$loader->registerNamespace(array(     "\Vendor\ASP " u003d> "/var/lib/asp",     "\Vendor\JSP" u003d> "/usr/lib/vendor/",));$loader->autoload("\Vendor\PHP\Dummy"); //load '/var/lib/php/Dummy.php'$loader->autoload("\Vendor\PHP\Foo_Bar"); //load '/var/lib/php/Foo/Bar.php'$loader->autoload("\Vendor\JSP\Dummy"); //load '/usr/lib/vendor/Dummy.php'?> `
+` <?php$loader =Yaf_Loader::getInstance();$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");$loader->registerNamespace(array(     "\Vendor\ASP " => "/var/lib/asp",     "\Vendor\JSP" => "/usr/lib/vendor/",));$loader->autoload("\Vendor\PHP\Dummy"); //load '/var/lib/php/Dummy.php'$loader->autoload("\Vendor\PHP\Foo_Bar"); //load '/var/lib/php/Foo/Bar.php'$loader->autoload("\Vendor\JSP\Dummy"); //load '/usr/lib/vendor/Dummy.php'?> `

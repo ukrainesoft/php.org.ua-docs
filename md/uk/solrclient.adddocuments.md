@@ -7,15 +7,15 @@
 
 # SolrClient::addDocuments
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::addDocuments — Додає колекцію екземплярів
 SolrInputDocument в індекс
 
 ### Опис
 
-public **SolrClient::addDocuments**(array `$docs`, bool `$overwrite` u003d
-**`true`**, int `$commitWithin` u003d 0): void
+public **SolrClient::addDocuments**(array `$docs`, bool `$overwrite` =
+**`true`**, int `$commitWithin` = 0): void
 
 Додає колекцію документів до індексу.
 
@@ -34,7 +34,7 @@ public **SolrClient::addDocuments**(array `$docs`, bool `$overwrite` u003d
 У PECL Solr \< 2.0 $allowDups використовувався замість $overwrite, який
 виконує самі функції з повністю протилежним прапором bool.
 
-$allowDups u003d false так само, як і $overwrite u003d true
+$allowDups = false так само, як і $overwrite = true
 
 `commitWithin`
 Кількість мілісекунд для автоматичної фіксації документа. Доступно,
@@ -62,16 +62,16 @@ $allowDups u003d false так само, як і $overwrite u003d true
 
 **Приклад #1 Приклад використання **SolrClient::addDocuments()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ doc u003d new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); $doc2u003du003dclone $doc;$doc2->deleteField('id');$doc2->addField('id', 334456);$docs u003d array($doc, $doc2);$updateResponse u003d $client-> addDocuments($docs);// ніякі зміни не будуть записані на диск, якщо не буде переданий $commitWithin або не буде викликаний SolrClient::commitprint_r($upda>)
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ doc = new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); $doc2==clone $doc;$doc2->deleteField('id');$doc2->addField('id', 334456);$docs = array($doc, $doc2);$updateResponse = $client-> addDocuments($docs);// ніякі зміни не будуть записані на диск, якщо не буде переданий $commitWithin або не буде викликаний SolrClient::commitprint_r($upda>)
 
 Результатом виконання цього прикладу буде щось подібне:
 
 SolrObject Object
 (
-[responseHeader] u003d> SolrObject Object
+[responseHeader] => SolrObject Object
 (
-[status] u003d> 0
-[QTime] u003d> 2
+[status] => 0
+[QTime] => 2
 )
 
 )

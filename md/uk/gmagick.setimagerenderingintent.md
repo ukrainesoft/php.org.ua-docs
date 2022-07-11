@@ -7,7 +7,7 @@
 
 # Gmagick::setimagerenderingintent
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagerenderingintent — Встановлює спосіб рендерингу
 зображення

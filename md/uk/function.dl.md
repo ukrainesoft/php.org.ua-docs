@@ -72,7 +72,7 @@ Safety) чи ні
 
 **Приклад #1 Приклади використання **dl()****
 
-` <?php// Приклад завантаження модуля, основуючись на ОСif (!extension_loaded('sqlite')) {    if (strtoupper(substr(PHP_OS, 0, 3))                '); } else {       dl('sqlite.so'); }}// Або на константі PHP_SHLIB_SUFFIXif (!extension_loaded('sqlite')) {    $prefix u003d (PHP_SHLIB_SUFFIX u003du003du003d'dll') ? 'php_' : ''; dl($prefix . 'sqlite.' . PHP_SHLIB_SUFFIX);}?> `
+` <?php// Приклад завантаження модуля, основуючись на ОСif (!extension_loaded('sqlite')) {    if (strtoupper(substr(PHP_OS, 0, 3))                '); } else {       dl('sqlite.so'); }}// Або на константі PHP_SHLIB_SUFFIXif (!extension_loaded('sqlite')) {    $prefix = (PHP_SHLIB_SUFFIX ==='dll') ? 'php_' : ''; dl($prefix . 'sqlite.' . PHP_SHLIB_SUFFIX);}?> `
 
 ### Примітки
 

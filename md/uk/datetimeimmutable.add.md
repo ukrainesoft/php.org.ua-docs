@@ -8,7 +8,7 @@
 
 # DateTimeImmutable::add
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::add — Повертає новий об'єкт із доданим
 кількістю днів, місяців, років, годин, хвилин та секунд
@@ -46,14 +46,14 @@ public
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable('2000-01-01');$newDate u003d $date->add(new DateInterval('P10D'));echo $newDate->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable('2000-01-01');$newDate = $date->add(new DateInterval('P10D'));echo $newDate->format('Y-m-d') . "
 ";?> `
 
 **Приклад #2 Додатковий приклад використання
 **DateTimeImmutable::add()****
 
-` <?php$date u003d new DateTimeImmutable('2000-01-01');$newDate u003d $date->add(new DateInterval('PT10H30S'));echo $newDate->format('Y-m-:: s') . "
-";$date u003d new DateTimeImmutable('2000-01-01');$newDate u003d $date->add(new DateInterval('P7Y5M4DT4H3M2S'));echo $newDate->format('Y:': ) . "
+` <?php$date = new DateTimeImmutable('2000-01-01');$newDate = $date->add(new DateInterval('PT10H30S'));echo $newDate->format('Y-m-:: s') . "
+";$date = new DateTimeImmutable('2000-01-01');$newDate = $date->add(new DateInterval('P7Y5M4DT4H3M2S'));echo $newDate->format('Y:': ) . "
 ";?> `
 
 Результат виконання цього прикладу:
@@ -63,8 +63,8 @@ public
 
 **Приклад #3 Будьте обережні при додаванні місяців**
 
-` <?php$date u003d new DateTimeImmutable('2000-12-31');$interval u003d new DateInterval('P1M');$newDate1 u003d $date->add($interval);echo $newDate1 'Y-m-d') . "
-";$newDate2 u003d $newDate1->add($interval);echo $newDate2->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable('2000-12-31');$interval = new DateInterval('P1M');$newDate1 = $date->add($interval);echo $newDate1 'Y-m-d') . "
+";$newDate2 = $newDate1->add($interval);echo $newDate2->format('Y-m-d') . "
 ";?> `
 
 Результат виконання цього прикладу:

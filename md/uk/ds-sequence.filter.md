@@ -8,7 +8,7 @@
 
 # Ds\Sequence::filter
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::filter — Створює нову послідовність елементів,
 вибраних за допомогою заданої callback-функції
@@ -17,7 +17,7 @@ Ds\Sequence::filter — Створює нову послідовність ел�
 
 abstract public
 **Ds\Sequence::filter**([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Sequence](class.ds-sequence.md)
+`$callback` = ?): [Ds\Sequence](class.ds-sequence.md)
 
 Створює нову послідовність елементів, вибраних за допомогою
 заданої callback-функції.
@@ -47,29 +47,29 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **Приклад #1 Приклад використання **Ds\Sequence::filter()** з
 callback-функцією**
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3, 4, 5]);var_dump($sequence->filter(function($value) {    return|$value % 2 u003du003du003d ));?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3, 4, 5]);var_dump($sequence->filter(function($value) {    return|$value % 2 === ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Vector)#3 (2) {
-[0]u003d>
+[0]=>
 int(2)
-[1]u003d>
+[1]=>
 int(4)
 }
 
 **Приклад #2 Приклад використання **Ds\Sequence::filter()** без
 callback-функції**
 
-` <?php$sequence u003d new \Ds\Vector([0, 1, 'a', true, false]);var_dump($sequence->filter());?> `
+` <?php$sequence = new \Ds\Vector([0, 1, 'a', true, false]);var_dump($sequence->filter());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Vector)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 string(1) "a"
-[2]u003d>
+[2]=>
 bool(true)
 }

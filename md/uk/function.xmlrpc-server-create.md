@@ -7,7 +7,7 @@
 
 #xmlrpc_server_create
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_server_create — Створює сервер XML-RPC
 

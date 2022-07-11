@@ -7,7 +7,7 @@
 
 # Клас SQLite3Result
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -27,7 +27,7 @@ string\|false
 public [columnType](sqlite3result.columntype.md)(int `$column`):
 int\|false
 
-public [fetchArray](sqlite3result.fetcharray.md)(int `$mode` u003d
+public [fetchArray](sqlite3result.fetcharray.md)(int `$mode` =
 **`SQLITE3_BOTH`**): array\|false
 
 public [finalize](sqlite3result.finalize.md)(): bool

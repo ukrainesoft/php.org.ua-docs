@@ -7,7 +7,7 @@
 
 # PharFileInfo::\_\_destruct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::\_\_destruct — Знищує вхідний об'єкт Phar
 

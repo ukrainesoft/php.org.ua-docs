@@ -7,7 +7,7 @@
 
 #xmlrpc_parse_method_descriptions
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_parse_method_descriptions — Декодує XML до списку описів
 методів

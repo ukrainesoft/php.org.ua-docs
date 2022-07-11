@@ -7,7 +7,7 @@
 
 #trader_macdext
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_macdext - MACD з керованим типом MA
 
@@ -15,12 +15,12 @@ trader_macdext - MACD з керованим типом MA
 
 **trader_macdext**(
 array `$real`,
-int `$fastPeriod` u003d ?,
-int `$fastMAType` u003d ?,
-int `$slowPeriod` u003d ?,
-int `$slowMAType` u003d ?,
-int `$signalPeriod` u003d ?,
-int `$signalMAType` u003d ?
+int `$fastPeriod` = ?,
+int `$fastMAType` = ?,
+int `$slowPeriod` = ?,
+int `$slowMAType` = ?,
+int `$signalPeriod` = ?,
+int `$signalMAType` = ?
 ): array
 
 ### Список параметрів

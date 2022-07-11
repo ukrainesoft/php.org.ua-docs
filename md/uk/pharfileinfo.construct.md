@@ -7,7 +7,7 @@
 
 # PharFileInfo::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::\_\_construct — Конструктор об'єкта PharFileInfo
 
@@ -39,9 +39,9 @@ public **PharFileInfo::\_\_construct**(string `$filename`)
 
 **Приклад #1 Приклад використання **PharFileInfo::\_\_construct()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['testfile.txt'] u003d "hi
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['testfile.txt'] = "hi
 there
-dude";    $file u003d $p['testfile.txt'];    foreach ($file as $line u003d> $text) {        echo "номер строки $line: $text";    }    // так то же работает    $file u003d new PharFileInfo('phar:///path/to/my.phar/testfile.txt');    foreach ($file as $line u003d> $text) {         echo "ряд|$ (Exception $e) {   echo 'Операції Phar завершилися помилкою;}?> `
+dude";    $file = $p['testfile.txt'];    foreach ($file as $line => $text) {        echo "номер строки $line: $text";    }    // так то же работает    $file = new PharFileInfo('phar:///path/to/my.phar/testfile.txt');    foreach ($file as $line => $text) {         echo "ряд|$ (Exception $e) {   echo 'Операції Phar завершилися помилкою;}?> `
 
 Результат виконання цього прикладу:
 

@@ -7,14 +7,14 @@
 
 # iconv_get_encoding
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 iconv_get_encoding — Отримує поточне значення налаштувань перетворення
 кодувань
 
 ### Опис
 
-**iconv_get_encoding**(string `$type` u003d "all"): array\|string\|false
+**iconv_get_encoding**(string `$type` = "all"): array\|string\|false
 
 Повертає внутрішні параметри конфігурації модуля iconv.
 
@@ -46,9 +46,9 @@ iconv_get_encoding — Отримує поточне значення налаш
 
 Array
 (
-[input_encoding] u003d> WINDOWS-1251
-[output_encoding] u003d> KOI8-U
-[internal_encoding] u003d> UTF-8
+[input_encoding] => WINDOWS-1251
+[output_encoding] => KOI8-U
+[internal_encoding] => UTF-8
 )
 
 ### Дивіться також

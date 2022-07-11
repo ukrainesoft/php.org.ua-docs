@@ -14,7 +14,7 @@ UI\Menu::appendPreferences — Додати пункт меню "Налашту�
 
 ### Опис
 
-public **UI\Menu::appendPreferences**(string `$type` u003d
+public **UI\Menu::appendPreferences**(string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 Додасть пункт меню "Параметри"

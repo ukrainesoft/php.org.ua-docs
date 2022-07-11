@@ -7,7 +7,7 @@
 
 # Клас DatePeriod
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -23,7 +23,7 @@ class **DatePeriod** implements
 
 /\* Константи \*/
 
-const int `EXCLUDE_START_DATE` u003d 1;
+const int `EXCLUDE_START_DATE` = 1;
 
 /\* Властивості \*/
 
@@ -45,18 +45,18 @@ public [\_\_construct](dateperiod.construct.md)(
 [DateTimeInterface](class.datetimeinterface.md) `$start`,
 [DateInterval](class.dateinterval.md) `$interval`,
 int `$recurrences`,
-int `$options` u003d 0
+int `$options` = 0
 )
 
 public [\_\_construct](dateperiod.construct.md)(
 [DateTimeInterface](class.datetimeinterface.md) `$start`,
 [DateInterval](class.dateinterval.md) `$interval`,
 [DateTimeInterface](class.datetimeinterface.md) `$end`,
-int `$options` u003d 0
+int `$options` = 0
 )
 
 public [\_\_construct](dateperiod.construct.md)(string `$isostr`, int
-`$options` u003d 0)
+`$options` = 0)
 
 public [getDateInterval](dateperiod.getdateinterval.md)():
 [DateInterval](class.dateinterval.md)
@@ -102,7 +102,7 @@ public [getStartDate](dateperiod.getstartdate.md)():
 ## Список змін
 
 | Версія | Опис                                                                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Клас **DatePeriod** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md). |
 
 ## Зміст

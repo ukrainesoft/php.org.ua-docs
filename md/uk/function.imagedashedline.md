@@ -57,14 +57,14 @@ int `$color`
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagedashedline()****
 
-` <?php// Створення зображення 100x100$im u003d imagecreatetruecolor(100, 100);$white u003d imagecolorallocate($im, 0xFF, 0xFF, 0xFF),/5    75, $white);// Збереження зображенняimagepng($im, './dashedline.png');imagedestroy($im);?> `
+` <?php// Створення зображення 100x100$im = imagecreatetruecolor(100, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF),/5    75, $white);// Збереження зображенняimagepng($im, './dashedline.png');imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -73,7 +73,7 @@ imagedashedline()](images/21009b70229598c6a80eef8b45bf282b-imagedashedline.png)
 
 **Приклад #2 Альтернатива функції **imagedashedline()****
 
-` <?php// Створення зображення 100x100$im u003d imagecreatetruecolor(100, 100);$white u003d imagecolorallocate($im, 0xFF, 0xFF, 0xFF);// Виявлення / Это создаёт эффект пунктира.$style u003d Array(                $white,                $white,                $white,                $white,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT                );imagesetstyle($im, $style);// Рисование пунктирной линииimageline($im, 50, 25, 50, 75, IMG_COLOR_STYLED);// Збереження зображенняimagepng($im, './imageline.png');imagedestroy($im);?> `
+` <?php// Створення зображення 100x100$im = imagecreatetruecolor(100, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);// Виявлення / Это создаёт эффект пунктира.$style = Array(                $white,                $white,                $white,                $white,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT,                IMG_COLOR_TRANSPARENT                );imagesetstyle($im, $style);// Рисование пунктирной линииimageline($im, 50, 25, 50, 75, IMG_COLOR_STYLED);// Збереження зображенняimagepng($im, './imageline.png');imagedestroy($im);?> `
 
 ### Дивіться також
 

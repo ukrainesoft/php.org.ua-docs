@@ -7,7 +7,7 @@
 
 #is_null
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 is_null — Перевіряє, чи значення змінної дорівнює **`null`**
 
@@ -32,7 +32,7 @@ is_null — Перевіряє, чи значення змінної дорів�
 
 **Приклад #1 Приклад використання **is_null()****
 
-` <?phperror_reporting(E_ALL);$foo u003d NULL;var_dump(is_null($inexistent), is_null($foo));?> `
+` <?phperror_reporting(E_ALL);$foo = NULL;var_dump(is_null($inexistent), is_null($foo));?> `
 
 Notice: Undefined variable: inexistent in ...
 bool(true)

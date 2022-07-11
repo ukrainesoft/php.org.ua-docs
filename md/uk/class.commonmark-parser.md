@@ -7,7 +7,7 @@
 
 # Клас CommonMark\Parser
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 ## Вступ
 
@@ -21,7 +21,7 @@ final class **CommonMark\Parser** {
 /\* Конструктор \*/
 
 public [\_\_construct](commonmark-parser.construct.md)(int `$options`
-u003d?)
+=?)
 
 /\* Методи \*/
 

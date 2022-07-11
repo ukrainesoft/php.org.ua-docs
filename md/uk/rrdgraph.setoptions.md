@@ -7,7 +7,7 @@
 
 # RRDGraph::setOptions
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDGraph::setOptions — Встановлює параметри експорту графіка rrd
 
@@ -31,17 +31,17 @@ public **RRDGraph::setOptions**(array `$options`): void
 
 **Приклад #1 Приклад використання **RRDGraph::setOptions()****
 
-` <?php$graphObj->setOptions(array(    "--start" u003d> "920804400",    "--end" u003d> 920808000,    "--vertical-label myspeedu003d$rrdFile:speed:AVERAGE",    "CDEF:realspeedu003dmyspeed,1000,*",   "LINE2:realspeed#FF0000"));?> `
+` <?php$graphObj->setOptions(array(    "--start" => "920804400",    "--end" => 920808000,    "--vertical-label myspeed=$rrdFile:speed:AVERAGE",    "CDEF:realspeed=myspeed,1000,*",   "LINE2:realspeed#FF0000"));?> `
 
 **Приклад #2 Встановлення кількох варіантів кольорів**
 
-` <?php$graphObj->setOptions(array(   "--start" u003d> "920804400",    "--end" u003d> 920808000,    "--vertical-label| " coloru003dBACK#00000000",   "--coloru003dGRID#00000000",   "--coloru003dMGRID#00000000",    "DEF:myspeedu003d$rrdFile:speed:AVERAGE" ",    "LINE2:realspeed#FF0000"));?> `
+` <?php$graphObj->setOptions(array(   "--start" => "920804400",    "--end" => 920808000,    "--vertical-label| " color=BACK#00000000",   "--color=GRID#00000000",   "--color=MGRID#00000000",    "DEF:myspeed=$rrdFile:speed:AVERAGE" ",    "LINE2:realspeed#FF0000"));?> `
 
 Не використовуйте синтаксис ключ-значення для однакових опцій rrd.
 Виглядає більш читально, але не працює.
 
-` <?php$graphObj->setOptions(array(    "--color" u003d> "BACK#00000000",     ---color" u003d>"GRID#00000000",  00"0 0" ));?> `
+` <?php$graphObj->setOptions(array(    "--color" => "BACK#00000000",     ---color" =>"GRID#00000000",  00"0 0" ));?> `
 
 Приклад вище означає те саме.
 
-` <?php$graphObj->setOptions(array(    "--color" u003d> "MGRID#00000000"));?> `
+` <?php$graphObj->setOptions(array(    "--color" => "MGRID#00000000"));?> `

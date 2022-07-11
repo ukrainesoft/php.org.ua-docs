@@ -7,5 +7,5 @@
 
 ## Вимоги
 
-Цей модуль вимагає для роботи [> libxml](http://www.xmlsoft.org/) \>u003d
+Цей модуль вимагає для роботи [> libxml](http://www.xmlsoft.org/) \>=
 2.6.0.

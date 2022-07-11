@@ -7,7 +7,7 @@
 
 # svn_fs_is_file
 
-(PECL svn \>u003d 0.2.0)
+(PECL svn \>= 0.2.0)
 
 svn_fs_is_file — Визначає, чи є файл по даному шляху
 

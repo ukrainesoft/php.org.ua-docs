@@ -7,7 +7,7 @@
 
 # Gmagick::chopimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::chopimage — Видаляє область зображення та підрізає його.
 

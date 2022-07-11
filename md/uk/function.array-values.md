@@ -32,14 +32,14 @@ array_values — Вибирає всі значення масиву
 
 **Приклад #1 Приклад використання **array_values()****
 
-` <?php$array u003d array("size" u003d> "XL", "color" u003d> "gold");print_r(array_values($array));?> `
+` <?php$array = array("size" => "XL", "color" => "gold");print_r(array_values($array));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> XL
-[1] u003d> gold
+[0] => XL
+[1] => gold
 )
 
 ### Дивіться також

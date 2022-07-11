@@ -17,10 +17,10 @@ TAF - це механізм бази даних Oracle, що забезпечу�
 У конфігурованій системі бази даних Oracle, TAF відбувається коли
 програма PHP визначає, що екземпляр бази даних недоступний. В цьому
 У випадку відбувається з'єднання з іншим вузлом в Oracle
-[» RAC](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-DEF850F6-27E9-428E-B8FC-530230D78AD2).
+[» RAC](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-DEF850F6-27E9-428E-B8FC-530230D78AD2).
 Це може бути гарячий резерв або той самий екземпляр бази даних.
 Докладніше про OCI TAF читайте в Oracle Oracle Interface Programmer's
-Guide](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-F7817CD2-4A2C-4D37-BD36-56DBABD4725F).
+Guide](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-F7817CD2-4A2C-4D37-BD36-56DBABD4725F).
 
 Ви можете зареєструвати функцію зворотного дзвінка для програми.
 [oci_register_taf_callback()](function.oci-register-taf-callback.md).
@@ -49,26 +49,26 @@ TAF можна настроїти на стороні PHP OCI8 або конфі
 Налаштувати TAF у PHP OCI8 (на стороні клієнта) можна додавши параметр
 FAILOVER_MODE є частиною CONNECT_DATA дескриптора з'єднання. Більше
 детально про налаштування TAF на стороні клієнта читайте в [» Oracle
-Database Net Services Administrator's Guide](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-8F532535-C401-4B51-BE0B-04FD74BB0621).
+Database Net Services Administrator's Guide](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-8F532535-C401-4B51-BE0B-04FD74BB0621).
 
 Приклад налаштування TAF в tnsnames.ora для перепідключення до тієї ж самої
 БД:
 
-ORCL u003d
-(DESCRIPTION u003d
-(ADDRESS u003d (PROTOCOL u003d TCP) (HOST u003d 127.0.0.1) (PORT u003d 1521))
-(CONNECT_DATA u003d
-(SERVICE_NAME u003d orclpdb1)
-(FAILOVER_MODE u003d
-(TYPE u003d SELECT)
-(METHOD u003d BASIC)
-(RETRIES u003d 20)
-(DELAY u003d 15))))
+ORCL =
+(DESCRIPTION =
+(ADDRESS = (PROTOCOL = TCP) (HOST = 127.0.0.1) (PORT = 1521))
+(CONNECT_DATA =
+(SERVICE_NAME = orclpdb1)
+(FAILOVER_MODE =
+(TYPE = SELECT)
+(METHOD = BASIC)
+(RETRIES = 20)
+(DELAY = 15))))
 
 Також можна настроїти TAF на стороні бази даних шляхом модифікації
 сервісу за допомогою
-[»srvctl](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-8DC4D5E0-CA9D-47BC-BAD0-8769405AFEC5)
-(для RAC) або за допомогою пакетної процедури [» DBMS_SERVICE.MODIFY_SERVICE](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-C11449DC-EEDE-4BB8-9D2C-0A45198C1928)
+[»srvctl](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-8DC4D5E0-CA9D-47BC-BAD0-8769405AFEC5)
+(для RAC) або за допомогою пакетної процедури [» DBMS_SERVICE.MODIFY_SERVICE](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-C11449DC-EEDE-4BB8-9D2C-0A45198C1928)
 (Для одиночних екземплярів баз даних).
 
 ## Використання функцій зворотного виклику TAF у OCI8

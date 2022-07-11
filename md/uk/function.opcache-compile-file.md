@@ -7,7 +7,7 @@
 
 # opcache_compile_file
 
-(PHP 5 \>u003d 5.5.5, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
+(PHP 5 \>= 5.5.5, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
 
 opcache_compile_file — Скомпілювати та закешувати, але не виконувати
 скрипт PHP

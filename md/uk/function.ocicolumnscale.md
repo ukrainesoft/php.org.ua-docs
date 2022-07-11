@@ -7,7 +7,7 @@
 
 # ocicolumnscale
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ocicolumnscale - Псевдонім
 [oci_field_scale()](function.oci-field-scale.md)

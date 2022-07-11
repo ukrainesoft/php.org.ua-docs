@@ -7,7 +7,7 @@
 
 # EventBufferEvent::setCallbacks
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::setCallbacks — Призначає callback-функції для читання,
 записи та події (стану)
@@ -20,7 +20,7 @@ public **EventBufferEvent::setCallbacks**(
 [callable](language.types.callable.md) `$eventcb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): void
 
 Призначає callback-функції для читання, запису та події (стану).

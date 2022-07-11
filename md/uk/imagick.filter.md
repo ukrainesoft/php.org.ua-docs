@@ -7,7 +7,7 @@
 
 # Imagick::filter
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::filter — Опис
 
@@ -19,7 +19,7 @@ Imagick::filter — Опис
 ### Опис
 
 public **Imagick::filter**([ImagickKernel](class.imagickkernel.md)
-`$ImagickKernel`, int `$channel` u003d Imagick::CHANNEL_UNDEFINED): bool
+`$ImagickKernel`, int `$channel` = Imagick::CHANNEL_UNDEFINED): bool
 
 Застосовує ядро згортки до зображення.
 
@@ -43,4 +43,4 @@ public **Imagick::filter**([ImagickKernel](class.imagickkernel.md)
 
 **Приклад #1 Приклад використання **Imagick::filter()****
 
-` <?phpfunction filter($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $matrix u003d [        [-1, 0, -1],        [0,  5,  0],        [-1, 0, ] $kernelu003d \ImagickKernel::fromMatrix($matrix); $strengthu003du003d0.5; $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE); $kernel->addUnityKernel(1 - $strength); $imagick->filter($kernel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction filter($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $matrix = [        [-1, 0, -1],        [0,  5,  0],        [-1, 0, ] $kernel= \ImagickKernel::fromMatrix($matrix); $strength==0.5; $kernel->scale($strength, \Imagick::NORMALIZE_KERNEL_VALUE); $kernel->addUnityKernel(1 - $strength); $imagick->filter($kernel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

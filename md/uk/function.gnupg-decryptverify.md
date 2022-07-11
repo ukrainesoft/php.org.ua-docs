@@ -7,7 +7,7 @@
 
 #gnupg_decryptverify
 
-(PECL gnupg \>u003d 0.2)
+(PECL gnupg \>= 0.2)
 
 gnupg_decryptverify — Розшифровує та перевіряє підпис переданого
 тексту
@@ -43,9 +43,9 @@ gnupg_decryptverify — Розшифровує та перевіряє підп�
 **Приклад #1 Приклад використання **gnupg_decryptverify()** у процедурному
 стилі**
 
-` <?php$plaintext u003d "";$res u003d gnupg_init();gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$info u003d gnupg_decryptverify($res, $text, $plaintext);print_r($info );?> `
+` <?php$plaintext = "";$res = gnupg_init();gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$info = gnupg_decryptverify($res, $text, $plaintext);print_r($info );?> `
 
 **Приклад #2 Приклад використання **gnupg_decryptverify()** в
 об'єктно-орієнтованому стилі**
 
-`<?php$plaintext u003d "";$gpg u003d new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","$$; ($ info);?> `
+`<?php$plaintext = "";$gpg = new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","$$; ($ info);?> `

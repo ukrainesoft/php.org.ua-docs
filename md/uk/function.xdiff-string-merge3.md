@@ -7,7 +7,7 @@
 
 #xdiff_string_merge3
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_string_merge3 — Об'єднати три рядки в один
 
@@ -17,7 +17,7 @@ xdiff_string_merge3 — Об'єднати три рядки в один
 string `$old_data`,
 string `$new_data1`,
 string `$new_data2`,
-string `&$error` u003d ?
+string `&$error` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

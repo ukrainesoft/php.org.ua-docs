@@ -7,7 +7,7 @@
 
 # svn_client_version
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_client_version — Повертає версію клієнтських бібліотек SVN
 

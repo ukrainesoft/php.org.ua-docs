@@ -9,7 +9,7 @@
 
 # mysqli_stmt_more_results
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 mysqli_stmt::more_results -- mysqli_stmt_more_results — Перевіряє, чи є
 ще набори рядків в результаті мультизапиту

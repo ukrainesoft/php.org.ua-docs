@@ -7,7 +7,7 @@
 
 # EvEmbed::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvEmbed::\_\_construct — Конструктор об'єкту EvEmbed
 
@@ -15,11 +15,11 @@ EvEmbed::\_\_construct — Конструктор об'єкту EvEmbed
 
 public **EvEmbed::\_\_construct**(
 object `$other` ,
-[callable](language.types.callable.md) `$callback` u003d ?,
+[callable](language.types.callable.md) `$callback` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 )
 
 Це досить просунутий тип спостерігача, який дозволяє вбудувати
@@ -54,7 +54,7 @@ int `$priority` u003d ?
 **Приклад #1 Вбудовування циклу, створеного за допомогою kqueue у подійний
 цикл за замовчуванням**
 
-` <?php/* * Перевірте, доступний або kqueue і створіть бекенд kqueue * для використання з сокетами (це звичайно працює з любою реалізацією kqueue). * Збережіть подійний цикл kqueue/socket-only в loop_socket. (Опціонально можна * використовувати прапор EVFLAG_NOENV) * * приклад взято із * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9 */        :defaultLoop();$socket_loopu003du003dNULL;$embed       u003d NULL;if (Ev::supportedBackends() & ~Ev::recommendedBackends() BACKEND_KQUEUE))) {        $embed u003d new EvEmbed($loop); }}if (!$socket_loop) {    $socket_loop u003d $loop;}// тепер використовуйте $socket_loop для всіх сокетів, а $loop для всього остального?> ``
+` <?php/* * Перевірте, доступний або kqueue і створіть бекенд kqueue * для використання з сокетами (це звичайно працює з любою реалізацією kqueue). * Збережіть подійний цикл kqueue/socket-only в loop_socket. (Опціонально можна * використовувати прапор EVFLAG_NOENV) * * приклад взято із * http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9 */        :defaultLoop();$socket_loop==NULL;$embed       = NULL;if (Ev::supportedBackends() & ~Ev::recommendedBackends() BACKEND_KQUEUE))) {        $embed = new EvEmbed($loop); }}if (!$socket_loop) {    $socket_loop = $loop;}// тепер використовуйте $socket_loop для всіх сокетів, а $loop для всього остального?> ``
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # Swoole\MySQL::\_\_destruct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\MySQL::\_\_destruct - Знищує асинхронний клієнт MySQL
 

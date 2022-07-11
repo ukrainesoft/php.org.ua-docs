@@ -8,7 +8,7 @@ traversable або масиву
 
 # Ds\Map::putAll
 
-(PECL ds \>u003d 1.0.2)
+(PECL ds \>= 1.0.2)
 
 Ds\Map::putAll — Зв'язує з колекцією всі пари ключ-значення з
 об'єкта класу traversable або масиву
@@ -42,28 +42,28 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::putAll()****
 
-` <?php$map u003d new \Ds\Map();$map->putAll([    "a" u003d> 1,    "b" u003d> 2,    "c" u003d> 3,]);print_r($ );?> `
+` <?php$map = new \Ds\Map();$map->putAll([    "a" => 1,    "b" => 2,    "c" => 3,]);print_r($ );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 2
+[key] => b
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 3
+[key] => c
+[value] => 3
 )
 
 )

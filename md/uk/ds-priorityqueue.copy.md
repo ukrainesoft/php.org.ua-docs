@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::copy
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::copy — Повертає поверхневу копію черги
 
@@ -30,13 +30,13 @@ public **Ds\PriorityQueue::copy**():
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::copy()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);print_r($queue->copy());?> `
+` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);print_r($queue->copy());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\PriorityQueue Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> a
+[0] => b
+[1] => c
+[2] => a
 )

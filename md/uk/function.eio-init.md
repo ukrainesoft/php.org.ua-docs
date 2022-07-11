@@ -7,7 +7,7 @@
 
 #eio_init
 
-(PECL eio u003d 1.0.0)
+(PECL eio = 1.0.0)
 
 eio_init — (Ре-)ініціалізує Eio
 

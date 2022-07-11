@@ -7,7 +7,7 @@
 
 #hash_update_stream
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL hash u003d 1.1)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL hash = 1.1)
 
 hash_update_stream — Додає дані з відкритого потоку до активного
 контекст хешування
@@ -15,7 +15,7 @@ hash_update_stream — Додає дані з відкритого потоку 
 ### Опис
 
 **hash_update_stream**([HashContext](class.hashcontext.md) `$context`,
-resource `$stream`, int `$length` u003d -1): int
+resource `$stream`, int `$length` = -1): int
 
 ### Список параметрів
 
@@ -38,14 +38,14 @@ resource `$stream`, int `$length` u003d -1): int
 ### Список змін
 
 | Версія | Опис                                                         |
-| ------ | ------------------------------------------------------------ |
+|--------|--------------------------------------------------------------|
 | 7.2.0  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **hash_update_stream()****
 
-` <?php$fp u003d tmpfile();fwrite($fp, 'Нахабний коричневий лисенок стрибає навколо ледачої собаки.');rewind($fp);$ctx u003d hash_init('md5$'); fp);echo hash_final($ctx);?> `
+` <?php$fp = tmpfile();fwrite($fp, 'Нахабний коричневий лисенок стрибає навколо ледачої собаки.');rewind($fp);$ctx = hash_init('md5$'); fp);echo hash_final($ctx);?> `
 
 Результат виконання цього прикладу:
 

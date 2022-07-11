@@ -7,7 +7,7 @@
 
 # EvStat::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvStat::createStopped — Створює зупинений об'єкт спостерігача EvStat
 
@@ -19,8 +19,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): void
 
 Створює об'єкт спостерігача EvStat, але не запускає його автоматично (у

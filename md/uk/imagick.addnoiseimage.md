@@ -13,7 +13,7 @@ Imagick::addNoiseImage — Накладає випадковий шум на з�
 
 ### Опис
 
-public **Imagick::addNoiseImage**(int `$noise_type`, int `$channel` u003d
+public **Imagick::addNoiseImage**(int `$noise_type`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Накладає випадковий шум зображення.
@@ -37,4 +37,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::addNoiseImage()****
 
-` <?phpfunction addNoiseImage($noiseType, $imagePath, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->addNoiseImage($noiseType, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction addNoiseImage($noiseType, $imagePath, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->addNoiseImage($noiseType, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

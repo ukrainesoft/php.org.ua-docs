@@ -28,7 +28,7 @@ const int `NoWrap`;
 /\* Конструктор \*/
 
 public [\_\_construct](ui-controls-multilineentry.construct.md)(int
-`$type` u003d ?)
+`$type` = ?)
 
 /\* Методи \*/
 

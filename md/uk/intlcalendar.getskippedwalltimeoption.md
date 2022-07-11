@@ -7,7 +7,7 @@
 
 # IntlCalendar::getSkippedWallTimeOption
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getSkippedWallTimeOption — Отримує поведінку для
 обробки пропущеного часу процесора
@@ -50,7 +50,7 @@ public **IntlCalendar::getSkippedWallTimeOption**(): int
 **Приклад #1 Приклад використання
 **IntlCalendar::getSkippedWallTimeOption()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');ini_set('intl.error_level', E_WARNING);// 31 березень в 01:0 часы переводятся на 1 час вперёд и с GMT+00 на GMT+01.$cal u003d new IntlGregorianCalendar(2013, 2 /* March */, 31, 1, 30);var_dump(    $cal->isLenient(),               // true    $cal->getSkippedWalltimeOption() // 0 WALLTIME_LAST);$formatter u003d IntlDateFormatter::create(   NULL,              ¦         Formatter::FULL,| >getTime() / 1000));$cal->setSkippedWallTimeOption(IntlCalendar::WALLTIME_FIRST);var_dump($cal->getSkippedWalltimeOption()); // 1 WALLTIME_FIRST$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000));$cal->setSkippedWallTimeOption(IntlCale: var_dump($cal->getSkippedWalltimeOption()); // 2 WALLTIME_NEXT_VALID$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000)); `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');ini_set('intl.error_level', E_WARNING);// 31 березень в 01:0 часы переводятся на 1 час вперёд и с GMT+00 на GMT+01.$cal = new IntlGregorianCalendar(2013, 2 /* March */, 31, 1, 30);var_dump(    $cal->isLenient(),               // true    $cal->getSkippedWalltimeOption() // 0 WALLTIME_LAST);$formatter = IntlDateFormatter::create(   NULL,              ¦         Formatter::FULL,| >getTime() / 1000));$cal->setSkippedWallTimeOption(IntlCalendar::WALLTIME_FIRST);var_dump($cal->getSkippedWalltimeOption()); // 1 WALLTIME_FIRST$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000));$cal->setSkippedWallTimeOption(IntlCale: var_dump($cal->getSkippedWalltimeOption()); // 2 WALLTIME_NEXT_VALID$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000)); `
 
 Результат виконання цього прикладу:
 

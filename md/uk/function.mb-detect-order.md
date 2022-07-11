@@ -8,14 +8,14 @@
 
 #mb_detect_order
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_detect_order — Встановлення/отримання списку кодувань для механізмів
 визначення кодування
 
 ### Опис
 
-**mb_detect_order**(array\|string\|null `$encoding` u003d **`null`**):
+**mb_detect_order**(array\|string\|null `$encoding` = **`null`**):
 array\|bool
 
 В `encoding` задається порядок, у якому механізми автоматичного
@@ -58,23 +58,23 @@ array\|bool
 ### Список змін
 
 | Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
+|--------|----------------------------------------------------------|
 | 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **mb_detect_order()****
 
-` <?php/* Установка порядку визначення в виді упорядкованого списку */mb_detect_order("eucjp-win,sjis-win,UTF-8");/* Установка списку кодувань в від  ;$ary[] u003d "JIS";$ary[] u003d "EUC-JP";mb_detect_order($ary);/* Висновок поточного списку кодувань */echo implode(", ", mb_detect_order
+` <?php/* Установка порядку визначення в виді упорядкованого списку */mb_detect_order("eucjp-win,sjis-win,UTF-8");/* Установка списку кодувань в від  ;$ary[] = "JIS";$ary[] = "EUC-JP";mb_detect_order($ary);/* Висновок поточного списку кодувань */echo implode(", ", mb_detect_order
 
 **Приклад #2 Приклад марного порядку визначення**
 
 ; Завжди визначає як ISO-8859-1
-detect_order u003d ISO-8859-1, UTF-8
+detect_order = ISO-8859-1, UTF-8
 
 ; Завжди визначає як UTF-8, тому що ASCII/UTF-7
 ; є підмножиною UTF-8
-detect_order u003d UTF-8, ASCII, UTF-7
+detect_order = UTF-8, ASCII, UTF-7
 
 ### Дивіться також
 

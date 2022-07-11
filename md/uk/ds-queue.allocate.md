@@ -7,7 +7,7 @@
 
 # Ds\Queue::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::allocate — Виділяє пам'ять під зазначену місткість
 
@@ -46,7 +46,7 @@ public **Ds\Queue::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Queue::allocate()****
 
-` <?php$queue u003d new \Ds\Queue();var_dump($queue->capacity());$queue->allocate(100);var_dump($queue->capacity());?> `
+` <?php$queue = new \Ds\Queue();var_dump($queue->capacity());$queue->allocate(100);var_dump($queue->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

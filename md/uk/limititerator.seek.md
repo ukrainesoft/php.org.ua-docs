@@ -7,7 +7,7 @@
 
 # LimitIterator::seek
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::seek - Переміщує ітератор на задану позицію
 

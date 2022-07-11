@@ -7,7 +7,7 @@
 
 # ZMQSocket::disconnect
 
-(PECL zmq \>u003d 1.0.4)
+(PECL zmq \>= 1.0.4)
 
 ZMQSocket::disconnect — Вимкнути сокет
 

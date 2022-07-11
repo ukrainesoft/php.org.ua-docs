@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::getTransactionOptions
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\Session::getTransactionOptions — Повертає установки
 поточної транзакції

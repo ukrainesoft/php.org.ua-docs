@@ -7,7 +7,7 @@
 
 #wincache_ucache_delete
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_delete — Видаляє змінні з кешу користувача.
 
@@ -50,24 +50,24 @@ bool(false)
 **Приклад #2 Приклад використання **wincache_ucache_delete()** з `key` в
 вигляді масиву**
 
-` <?php$array1 u003d array('green' u003d> '5', 'blue' u003d> '6', 'yellow' u003d> '7', 'cyan' u003d> '8');wincache_ucache_set($array1 );$array2 u003d array('green', 'blue', 'yellow', 'cyan');var_dump(wincache_ucache_delete($array2));?> `
+` <?php$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');wincache_ucache_set($array1 );$array2 = array('green', 'blue', 'yellow', 'cyan');var_dump(wincache_ucache_delete($array2));?> `
 
 Результат виконання цього прикладу:
 
-array(4) { [0]u003d> string(5) "green"
-[1]u003d> string(4) "Blue"
-[2]u003d> string(6) "yellow"
-[3]u003d> string(4) "cyan" }
+array(4) { [0]=> string(5) "green"
+[1]=> string(4) "Blue"
+[2]=> string(6) "yellow"
+[3]=> string(4) "cyan" }
 
 **Приклад #3 Приклад використання **wincache_ucache_delete()** з `key` в
 у вигляді масиву, з якого не можна видалити деякі елементи**
 
-` <?php$array1 u003d array('green' u003d> '5', 'blue' u003d> '6', 'yellow' u003d> '7', 'cyan' u003d> '8');wincache_ucache_set($array1 );$array2 u003d array('orange', 'red', 'yellow', 'cyan');var_dump(wincache_ucache_delete($array2));?> `
+` <?php$array1 = array('green' => '5', 'blue' => '6', 'yellow' => '7', 'cyan' => '8');wincache_ucache_set($array1 );$array2 = array('orange', 'red', 'yellow', 'cyan');var_dump(wincache_ucache_delete($array2));?> `
 
 Результат виконання цього прикладу:
 
-array(2) { [0]u003d> string(6) "yellow"
-[1]u003d> string(4) "cyan" }
+array(2) { [0]=> string(6) "yellow"
+[1]=> string(4) "cyan" }
 
 ### Дивіться також
 

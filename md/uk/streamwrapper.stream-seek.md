@@ -7,13 +7,13 @@
 
 # streamWrapper::stream_seek
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 streamWrapper::stream_seek — Переміщення на задану позицію в потоці
 
 ### Опис
 
-public **streamWrapper::stream_seek**(int `$offset`, int `$whence` u003d
+public **streamWrapper::stream_seek**(int `$offset`, int `$whence` =
 SEEK_SET): bool
 
 Цей метод викликається у процесі виконання

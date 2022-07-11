@@ -7,7 +7,7 @@
 
 #mb_decode_mimeheader
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_decode_mimeheader — Декодує рядок у заголовку MIME
 

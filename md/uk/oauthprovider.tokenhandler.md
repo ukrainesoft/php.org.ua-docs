@@ -7,7 +7,7 @@
 
 # OAuthProvider::tokenHandler
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::tokenHandler — Встановити обробник tokenHandler
 
@@ -39,7 +39,7 @@ public
 
 **Приклад #1 Приклад використання **OAuthProvider::tokenHandler()****
 
-` <?phpfunction tokenHandler($provider) {    if ($provider->token u003du003du003d 'rejected') {       return OAUTH_TOKEN_REJECTED; } elseif ($provider->token u003du003du003d 'revoked') {        return OAUTH_TOKEN_REVOKED; }   $provider->token_secret u003d "the_tokens_secret"; return OAUTH_OK;}?> `
+` <?phpfunction tokenHandler($provider) {    if ($provider->token === 'rejected') {       return OAUTH_TOKEN_REJECTED; } elseif ($provider->token === 'revoked') {        return OAUTH_TOKEN_REVOKED; }   $provider->token_secret = "the_tokens_secret"; return OAUTH_OK;}?> `
 
 ### Дивіться також
 

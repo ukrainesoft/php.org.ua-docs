@@ -17,7 +17,7 @@ VB/ASP.
 
 `` aspcode
 <%
-Set domainObject u003d GetObject("WinNT://Domain")
+Set domainObject = GetObject("WinNT://Domain")
 For Each obj in domainObject
 Response.Write obj.Name & "<br />"
 Next
@@ -26,4 +26,4 @@ Next
 
 **Приклад #2 foreach у PHP**
 
-` <?php$domainObject u003d new COM("WinNT://Domain");foreach ($domainObject as $obj) {   echo $obj->Name . "<br />";}?> `
+` <?php$domainObject = new COM("WinNT://Domain");foreach ($domainObject as $obj) {   echo $obj->Name . "<br />";}?> `

@@ -8,7 +8,7 @@
 
 # SeasLog::flushBuffer
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::flushBuffer - Очищає буфер логів, робить дамп у файл
 програми або відправляє на віддалений API за допомогою tcp/udp
@@ -47,12 +47,12 @@ tcp/udp.
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-["/var/log/www/default/20180707.log"]u003d>
+["/var/log/www/default/20180707.log"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(79) "2018-07-07 10:47:58 | INFO | 71910 | 5b4029ded6009 | 1530931678.877 | info log
 "
-[1]u003d>
+[1]=>
 string(81) "2018-07-07 10:47:58 | DEBUG | 71910 | 5b4029ded6009 | 1530931678.877 | debug log
 "
 }

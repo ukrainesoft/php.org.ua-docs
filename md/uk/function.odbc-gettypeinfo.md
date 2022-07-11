@@ -15,7 +15,7 @@ odbc_gettypeinfo — Повертає інформацію про типи да�
 
 ### Опис
 
-**odbc_gettypeinfo**(resource `$odbc`, int `$data_type` u003d 0):
+**odbc_gettypeinfo**(resource `$odbc`, int `$data_type` = 0):
 resource\|false
 
 Повертає інформацію про типи даних, що підтримуються джерелом даних.

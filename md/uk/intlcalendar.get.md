@@ -7,7 +7,7 @@
 
 # IntlCalendar::get
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::get — Отримує значення поля
 
@@ -42,7 +42,7 @@ public **IntlCalendar::get**(int `$field`): int\|false
 
 **Приклад #1 Приклад використання **IntlCalendar::get()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$class u003d new ReflectionClass('IntlCalendar');$fields u003d array();foreach ($class->getConstants() as $name u003d> $val) {    if (strpos($name, 'FIELD_') !u003du003d 0 || $val > 22)         | $fields[$val] u003d $name;}$cal u003d IntlCalendar::createInstance(); // current timevar_dump(IntlDateFormatter::formatObject($cal));foreach ($fields as $val u003d> $name) {    echo "$val ($name)", "
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$class = new ReflectionClass('IntlCalendar');$fields = array();foreach ($class->getConstants() as $name => $val) {    if (strpos($name, 'FIELD_') !== 0 || $val > 22)         | $fields[$val] = $name;}$cal = IntlCalendar::createInstance(); // current timevar_dump(IntlDateFormatter::formatObject($cal));foreach ($fields as $val => $name) {    echo "$val ($name)", "
 ", $cal->get($val), "
 ";} `
 

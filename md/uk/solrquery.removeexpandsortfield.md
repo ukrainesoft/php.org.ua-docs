@@ -7,7 +7,7 @@
 
 # SolrQuery::removeExpandSortField
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::removeExpandSortField — Видаляє розширене поле сортування
 із параметра expand.sort

@@ -30,11 +30,11 @@ public **SimpleXMLIterator::rewind**(): void
 
 **Приклад #1 Повернення до першого елемента**
 
-` <?php$xmlIterator u003d new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');$xmlIterator->rewind();var_dump($ xmlIterator->current());?> `
+` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');$xmlIterator->rewind();var_dump($ xmlIterator->current());?> `
 
 Результат виконання цього прикладу:
 
 object(SimpleXMLIterator)#2 (1) {
-[0]u003d>
+[0]=>
 string(10) "Основи PHP"
 }

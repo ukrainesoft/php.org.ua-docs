@@ -7,13 +7,13 @@
 
 # Swoole\Client::send
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::send — Відправляє дані у віддалений TCP-сокет
 
 ### Опис
 
-public **Swoole\Client::send**(string `$data`, string `$flag` u003d ?): int
+public **Swoole\Client::send**(string `$data`, string `$flag` = ?): int
 
 ### Список параметрів
 

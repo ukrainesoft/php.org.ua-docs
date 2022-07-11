@@ -57,12 +57,12 @@ int\|string `$mysqli_result->num_rows`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$result u003d $mysql BY Name");/* Отримання кількості рядків в набір результатів */$row_cnt u003d $result->num_rows;printf("Отримано %d рядків.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysql BY Name");/* Отримання кількості рядків в набір результатів */$row_cnt = $result->num_rows;printf("Отримано %d рядків.
 ", $row_cnt);?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$result u003d mysqli_query(  ");/* Отримання кількості рядків в наборі результатів */$row_cnt u003d mysqli_num_rows($result);printf("Отримано %d рядків.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$result = mysqli_query(  ");/* Отримання кількості рядків в наборі результатів */$row_cnt = mysqli_num_rows($result);printf("Отримано %d рядків.
 ", $row_cnt); `
 
 Результат виконання даних прикладів:

@@ -8,7 +8,7 @@
 
 # ReflectionFunctionAbstract::getTentativeReturnType
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFunctionAbstract::getTentativeReturnType — Повертає
 попередній тип значення, що повертається, пов'язаний з функцією
@@ -36,7 +36,7 @@ public **ReflectionFunctionAbstract::getTentativeReturnType**():
 **Приклад #1 Приклад використання
 **ReflectionFunctionAbstract::getTentativeReturnType()****
 
-` <?php$method u003d new ReflectionMethod(\ArrayAccess::class, 'offsetGet');var_dump($method->getTentativeReturnType()); `
+` <?php$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');var_dump($method->getTentativeReturnType()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

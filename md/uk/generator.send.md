@@ -7,7 +7,7 @@
 
 # Generator::send
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 Generator::send — Передати значення в генератор
 
@@ -46,7 +46,7 @@ public
 
 **Приклад #1 Використання **Generator::send()** для впровадження значень**
 
-` <?phpfunction printer() {    echo "I'm printer!".PHP_EOL; while(true)${  $string u003d yield; echo $string.PHP_EOL; }}$printeru003du003dprinter();$printer->send('Hello world!');$printer->send('Bye world!');?> `
+` <?phpfunction printer() {    echo "I'm printer!".PHP_EOL; while(true)${  $string = yield; echo $string.PHP_EOL; }}$printer==printer();$printer->send('Hello world!');$printer->send('Bye world!');?> `
 
 Результат виконання цього прикладу:
 

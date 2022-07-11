@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring\CommandSubscriber::commandStarted — Метод
 повідомлення про запущену команду

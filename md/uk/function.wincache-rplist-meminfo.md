@@ -8,7 +8,7 @@
 
 #wincache_rplist_meminfo
 
-(PECL wincache \>u003d 1.0.0)
+(PECL wincache \>= 1.0.0)
 
 wincache_rplist_meminfo — Отримує інформацію про використання пам'яті з
 за допомогою кеша шляху до файлу дозволу
@@ -52,11 +52,11 @@ wincache_rplist_meminfo — Отримує інформацію про вико�
 
 Array
 (
-[memory_total] u003d> 9437184
-[memory_free] u003d> 9416744
-[num_used_blks] u003d> 23
-[num_free_blks] u003d> 1
-[memory_overhead] u003d> 416
+[memory_total] => 9437184
+[memory_free] => 9416744
+[num_used_blks] => 23
+[num_free_blks] => 1
+[memory_overhead] => 416
 )
 
 ### Дивіться також

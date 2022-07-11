@@ -7,7 +7,7 @@
 
 # Swoole\Connection\Iterator::offsetExists
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Connection\Iterator::offsetExists — Перевіряє, чи існує
 зміщення

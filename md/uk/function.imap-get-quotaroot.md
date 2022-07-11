@@ -7,7 +7,7 @@
 
 #imap_get_quotaroot
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imap_get_quotaroot — Отримати налаштування квоти для кожного користувача
 
@@ -41,14 +41,14 @@ imap_get_quotaroot — Отримати налаштування квоти дл
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_get_quotaroot()****
 
-` <?php$mbox u003d imap_open("{imap.example.org}", "kalowsky", "password", OP_HALFOPEN)      or die("не удалося підключитися: " imap_las| mbox, "INBOX");if (is_array($quota)) {   $storage u003d $quota['STORAGE']; echo "Рівень використання STORAGE: " . $storage['usage']; echo "Максимальний розмір STORAGE: " . $storage['limit']; $messageu003du003d$quota['MESSAGE']; echo "Рівень використання MESSAGE: " . $message['usage']; echo "Максимальний розмір MESSAGE: " . $message['limit']; /* ... */}imap_close($mbox);?> `
+` <?php$mbox = imap_open("{imap.example.org}", "kalowsky", "password", OP_HALFOPEN)      or die("не удалося підключитися: " imap_las| mbox, "INBOX");if (is_array($quota)) {   $storage = $quota['STORAGE']; echo "Рівень використання STORAGE: " . $storage['usage']; echo "Максимальний розмір STORAGE: " . $storage['limit']; $message==$quota['MESSAGE']; echo "Рівень використання MESSAGE: " . $message['usage']; echo "Максимальний розмір MESSAGE: " . $message['limit']; /* ... */}imap_close($mbox);?> `
 
 ### Примітки
 

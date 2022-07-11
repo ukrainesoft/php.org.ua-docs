@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\DBPointer::\_\_construct
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\BSON\DBPointer::\_\_construct — Створює новий DBPointer (не
 використовується)

@@ -7,7 +7,7 @@
 
 # hash_update_file
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL hash u003d 1.1)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL hash = 1.1)
 
 hash_update_file — Додає дані з файлу до активного контексту
 хешування
@@ -15,7 +15,7 @@ hash_update_file — Додає дані з файлу до активного �
 ### Опис
 
 **hash_update_file**([HashContext](class.hashcontext.md) `$context`,
-string `$filename`, ?resource `$stream_context` u003d **`null`**): bool
+string `$filename`, ?resource `$stream_context` = **`null`**): bool
 
 ### Список параметрів
 
@@ -38,7 +38,7 @@ string `$filename`, ?resource `$stream_context` u003d **`null`**): bool
 ### Список змін
 
 | Версія | Опис                                                         |
-| ------ | ------------------------------------------------------------ |
+|--------|--------------------------------------------------------------|
 | 8.0.0  | stream_context тепер допускає значення null.                 |
 | 7.2.0  | Приймає [HashContext](class.hashcontext.md), а чи не ресурс. |
 

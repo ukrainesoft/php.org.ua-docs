@@ -8,7 +8,7 @@ ZooKeeper, про яку відомо серверу, до якого підкл
 
 # ZookeeperConfig::get
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 ZookeeperConfig::get — Синхронно отримує останню підтверджену
 конфігурацію кластера ZooKeeper, про яку відомо серверу, до якого
@@ -17,7 +17,7 @@ ZookeeperConfig::get — Синхронно отримує останню під
 ### Опис
 
 public **ZookeeperConfig::get**([callable](language.types.callable.md)
-`$watcher_cb` u003d **`null`**, array `&$stat` u003d **`null`**): string
+`$watcher_cb` = **`null`**, array `&$stat` = **`null`**): string
 
 ### Список параметрів
 
@@ -45,12 +45,12 @@ public **ZookeeperConfig::get**([callable](language.types.callable.md)
 
 Отримання конфігурації.
 
-` <?php$zk u003d new Zookeeper();$zk->connect('localhost:2181');$zk->addAuth('digest', 'timandes:timandes');$zkConfig u003d$zk->getConfig ();$r u003d $zkConfig->get();if ($r) echo $r;else  echo 'Помилка';?> `
+` <?php$zk = new Zookeeper();$zk->connect('localhost:2181');$zk->addAuth('digest', 'timandes:timandes');$zkConfig =$zk->getConfig ();$r = $zkConfig->get();if ($r) echo $r;else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
-server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181
-versionu003d0xca01e881a2
+server.1=localhost:2888:3888:participant;0.0.0.0:2181
+version=0xca01e881a2
 
 ### Дивіться також
 

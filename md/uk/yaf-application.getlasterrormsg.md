@@ -7,7 +7,7 @@
 
 # Yaf_Application::getLastErrorMsg
 
-(Yaf \> u003d 2.1.2)
+(Yaf \> = 2.1.2)
 
 Yaf_Application::getLastErrorMsg — Отримати останнє повідомлення про
 помилці
@@ -27,7 +27,7 @@ public **Yaf_Application::getLastErrorMsg**(): string
 **Приклад #1 Приклад використання
 **Yaf_Application::getLastErrorMsg()****
 
-` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {   var_dump(Yaf_Application::app()->getLastErrorMsg());}$config u003d array( "application"  | u003d> "/tmp/notexists",     "dispatcher" u003d> array(      "throwException" u003d> 0, //викликати помилку     ¦                                            язах| ()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);$app->run();?> `
+` <?phpfunction error_handler($errno, $errstr, $errfile, $errline) {   var_dump(Yaf_Application::app()->getLastErrorMsg());}$config = array( "application"  | => "/tmp/notexists",     "dispatcher" => array(      "throwException" => 0, //викликати помилку     ¦                                            язах| ()->setErrorHandler("error_handler", E_RECOVERABLE_ERROR);$app->run();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -8,7 +8,7 @@
 
 # fann_get_activation_steepness
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_activation_steepness — Повертає крутість активації для
 нейрона, що поставляється, і номери шару

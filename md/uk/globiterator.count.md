@@ -7,7 +7,7 @@
 
 # GlobIterator::count
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 GlobIterator::count — Визначає кількість директорій та файлів
 
@@ -30,7 +30,7 @@ glob-виразом.
 
 **Приклад #1 Приклад використання **GlobIterator::count()****
 
-` <?php$iterator u003d new GlobIterator('*.xml');printf("Знайдено елементів: %d
+` <?php$iterator = new GlobIterator('*.xml');printf("Знайдено елементів: %d
 ", $iterator->count());?> `
 
 Результатом виконання цього прикладу буде щось подібне:

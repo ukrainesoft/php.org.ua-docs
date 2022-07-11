@@ -65,7 +65,7 @@ public static **IntlChar::charType**(int\|string `$codepoint`): ?int
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::charType("A") u003du003du003d IntlChar::CHAR_CATEGORY_UPPERCASE_LETTER);var_dump(IntlChar::charType(".") u003du003du003d IntlChar::CHAR_CATEGORY_OTHER_PU "")u003du003du003du003dIntlChar::CHAR_CATEGORY_CONTROL_CHAR);var_dump(IntlChar::charType("\u{2603}") u003du003du003d IntlChar::CHAR_CATEGORY_OTHER_SYMBOL);var_dump(IntlChar:" u003d null);?> `
+` <?phpvar_dump(IntlChar::charType("A") === IntlChar::CHAR_CATEGORY_UPPERCASE_LETTER);var_dump(IntlChar::charType(".") === IntlChar::CHAR_CATEGORY_OTHER_PU "")====IntlChar::CHAR_CATEGORY_CONTROL_CHAR);var_dump(IntlChar::charType("\u{2603}") === IntlChar::CHAR_CATEGORY_OTHER_SYMBOL);var_dump(IntlChar:" = null);?> `
 
 Результат виконання цього прикладу:
 

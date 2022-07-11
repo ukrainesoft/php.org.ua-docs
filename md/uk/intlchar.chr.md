@@ -36,7 +36,7 @@ public static **IntlChar::chr**(int\|string `$codepoint`): ?string
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?php$values u003d ["A", 63, 123, 9731];foreach ($values as $value) {    var_dump(IntlChar::chr($value));}?> `
+` <?php$values = ["A", 63, 123, 9731];foreach ($values as $value) {    var_dump(IntlChar::chr($value));}?> `
 
 Результат виконання цього прикладу:
 

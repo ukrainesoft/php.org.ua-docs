@@ -50,7 +50,7 @@ int `$y`
 
 Приклад використання Imagick::chopImage
 
-` <?php/* Створюємо об'єкти */$image u003d new Imagick();$pixel u003d new ImagickPixel( 'gray' );/* Нове зображення */$image->newImage(400, 20 * Обрізка зображення */$image->chopImage(200, 200, 0, 0);/* Установка формату зображення */$image->setImageFormat('png');/* Висновок зображення з заголовками -type: image/png');echo $image;?> `
+` <?php/* Створюємо об'єкти */$image = new Imagick();$pixel = new ImagickPixel( 'gray' );/* Нове зображення */$image->newImage(400, 20 * Обрізка зображення */$image->chopImage(200, 200, 0, 0);/* Установка формату зображення */$image->setImageFormat('png');/* Висновок зображення з заголовками -type: image/png');echo $image;?> `
 
 ### Дивіться також
 

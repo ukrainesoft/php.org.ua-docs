@@ -7,7 +7,7 @@
 
 # GmagickDraw::getfontweight
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getfontweight — Повертає товщину шрифту
 

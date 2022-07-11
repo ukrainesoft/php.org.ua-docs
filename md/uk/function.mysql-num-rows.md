@@ -47,7 +47,7 @@ UPDATE, REPLACE та DELETE, використовуйте функцію
 
 **Приклад #1 Приклад використання **mysql_num_rows()****
 
-` <?php$link u003d mysql_connect("localhost", "mysql_user", "mysql_password"); mysql_select_db("database", $link);$result u003d mysql_query("SELECT * FROM table1", $link); u003d mysql_num_rows($result);echo "Отримано $num_rows рядів
+` <?php$link = mysql_connect("localhost", "mysql_user", "mysql_password"); mysql_select_db("database", $link);$result = mysql_query("SELECT * FROM table1", $link); = mysql_num_rows($result);echo "Отримано $num_rows рядів
 ";?> `
 
 ### Примітки

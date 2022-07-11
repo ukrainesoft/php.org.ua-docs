@@ -7,7 +7,7 @@
 
 # imageconvolution
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 imageconvolution - Накладання викривляючої матриці 3х3, використовуючи
 коефіцієнт та зміщення
@@ -49,14 +49,14 @@ float `$offset`
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Створення рельєфу на логотипі PHP.net**
 
-` <?php$image u003d imagecreatefromgif('http://www.php.net/images/php.gif');$emboss u003d array(array(2, 0, 0), array(0, -1, 0 ), array(0, 0, -1));imageconvolution($image, $emboss, 1, 127);header('Content-Type: image/png');imagepng($image, null, 9);? > `
+` <?php$image = imagecreatefromgif('http://www.php.net/images/php.gif');$emboss = array(array(2, 0, 0), array(0, -1, 0 ), array(0, 0, -1));imageconvolution($image, $emboss, 1, 127);header('Content-Type: image/png');imagepng($image, null, 9);? > `
 
 Результат виконання цього прикладу:
 
@@ -64,7 +64,7 @@ float `$offset`
 
 **Приклад #2 Розмиття за Гаусом**
 
-`<?php$image u003d imagecreatetruecolor(180,40);// Пишетекст і застосовує розмиття до зображенняimagestring($image, 5, 10, 8, 'Gaussian Blur y'       ¦ , 2.0, 1.0), array(2.0, 4.0, 2.0), array(1.0, 2.0, 1.0));imageconvolution($image, $gaussian, 16, 0);// Переписує 10, 18, 'Gaussian Blur Text', 0x00ff00);header('Content-Type: image/png');imagepng($image, null, 9);?> `
+`<?php$image = imagecreatetruecolor(180,40);// Пишетекст і застосовує розмиття до зображенняimagestring($image, 5, 10, 8, 'Gaussian Blur y'       ¦ , 2.0, 1.0), array(2.0, 4.0, 2.0), array(1.0, 2.0, 1.0));imageconvolution($image, $gaussian, 16, 0);// Переписує 10, 18, 'Gaussian Blur Text', 0x00ff00);header('Content-Type: image/png');imagepng($image, null, 9);?> `
 
 Результат виконання цього прикладу:
 

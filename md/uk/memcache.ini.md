@@ -9,26 +9,26 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                                | Місце зміни | Список змін   |
-| ------------------------------------------------------------------------------------ | ----------- | ------------- |
-| [memcache.allow_failover](memcache.ini.md#ini.memcache.allow-failover)               | "1"         | PHP_INI_ALL   | Доступно з memcache 2.0.2.
-| [memcache.max_failover_attempts](memcache.ini.md#ini.memcache.max-failover-attempts) | "20"        | PHP_INI_ALL   | Доступно з memcache 2.1.0.
-| [memcache.chunk_size](memcache.ini.md#ini.memcache.chunk-size)                       | "8192"      | PHP_INI_ALL   | Доступно з memcache 2.0.2.
-| [memcache.default_port](memcache.ini.md#ini.memcache.default-port)                   | "11211"     | PHP_INI_ALL   | Доступно з memcache 2.0.2.
-| [memcache.hash_strategy](memcache.ini.md#ini.memcache.hash-strategy)                 | "standard"  | PHP_INI_ALL   | Доступно з memcache 2.2.0.
-| [memcache.hash_function](memcache.ini.md#ini.memcache.hash-function)                 | "crc32"     | PHP_INI_ALL   | Доступно з memcache 2.2.0.
-| [memcache.protocol](memcache.ini.md#ini.memcache.protocol)                           | Ascii       | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0
-| [memcache.redundancy](memcache.ini.md#ini.memcache.redundancy)                       | 1           | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0
-| [memcache.session_redundancy](memcache.ini.md#ini.memcache.session-redundancy)       | 2           | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0
-| [memcache.compress_threshold](memcache.ini.md#ini.memcache.compress-threshold)       | 20000       | \>PHP_INI_ALL | Підтримується з Memcache 3.0.3
-| [memcache.lock_timeout](memcache.ini.md#ini.memcache.lock-timeout)                   | 15          | \>PHP_INI_ALL | Підтримується з memcache 3.0.4
+| Ім'я За замовчуванням                                                                | Місце зміни | Список змін   |                                |
+|--------------------------------------------------------------------------------------|-------------|---------------|--------------------------------|
+| [memcache.allow_failover](memcache.ini.md#ini.memcache.allow-failover)               | "1"         | PHP_INI_ALL   | Доступно з memcache 2.0.2.     |
+| [memcache.max_failover_attempts](memcache.ini.md#ini.memcache.max-failover-attempts) | "20"        | PHP_INI_ALL   | Доступно з memcache 2.1.0.     |
+| [memcache.chunk_size](memcache.ini.md#ini.memcache.chunk-size)                       | "8192"      | PHP_INI_ALL   | Доступно з memcache 2.0.2.     |
+| [memcache.default_port](memcache.ini.md#ini.memcache.default-port)                   | "11211"     | PHP_INI_ALL   | Доступно з memcache 2.0.2.     |
+| [memcache.hash_strategy](memcache.ini.md#ini.memcache.hash-strategy)                 | "standard"  | PHP_INI_ALL   | Доступно з memcache 2.2.0.     |
+| [memcache.hash_function](memcache.ini.md#ini.memcache.hash-function)                 | "crc32"     | PHP_INI_ALL   | Доступно з memcache 2.2.0.     |
+| [memcache.protocol](memcache.ini.md#ini.memcache.protocol)                           | Ascii       | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0 |
+| [memcache.redundancy](memcache.ini.md#ini.memcache.redundancy)                       | 1           | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0 |
+| [memcache.session_redundancy](memcache.ini.md#ini.memcache.session-redundancy)       | 2           | \>PHP_INI_ALL | Підтримується з Memcache 3.0.0 |
+| [memcache.compress_threshold](memcache.ini.md#ini.memcache.compress-threshold)       | 20000       | \>PHP_INI_ALL | Підтримується з Memcache 3.0.3 |
+| [memcache.lock_timeout](memcache.ini.md#ini.memcache.lock-timeout)                   | 15          | \>PHP_INI_ALL | Підтримується з memcache 3.0.4 |
 
 **Конфігураційні параметри Memcache**
 
-| Ім'я За замовчуванням                                             | Місце зміни | Список змін |
-| ----------------------------------------------------------------- | ----------- | ----------- |
-| [session.save_handler](memcache.ini.md#ini.memcache.save-handler) | "files"     | PHP_INI_ALL | Підтримується з memcache 2.1.2
-| [session.save_path](memcache.ini.md#ini.memcache.save-path)       | ""          | PHP_INI_ALL | Підтримується з memcache 2.1.2
+| Ім'я За замовчуванням                                             | Місце зміни | Список змін |                                |
+|-------------------------------------------------------------------|-------------|-------------|--------------------------------|
+| [session.save_handler](memcache.ini.md#ini.memcache.save-handler) | "files"     | PHP_INI_ALL | Підтримується з memcache 2.1.2 |
+| [session.save_path](memcache.ini.md#ini.memcache.save-path)       | ""          | PHP_INI_ALL | Підтримується з memcache 2.1.2 |
 
 **Параметри конфігурації сесії, що впливають на поведінку Memcache**
 
@@ -87,4 +87,4 @@ memcached, якщо явно не вказаний інший.
 Кожна адреса може містити параметри, аналогічні використовуваним в
 методі [Memcache::addServer()](memcache.addserver.md), які будуть
 застосовані сервером. Наприклад,
-`"tcp://host1:11211?persistentu003d1&weightu003d1&timeoutu003d1&retry_intervalu003d15"`
+`"tcp://host1:11211?persistent=1&weight=1&timeout=1&retry_interval=15"`

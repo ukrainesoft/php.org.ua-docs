@@ -7,7 +7,7 @@
 
 # SolrQuery::addFilterQuery
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addFilterQuery — Визначає запит фільтру
 
@@ -31,8 +31,8 @@ public **SolrQuery::addFilterQuery**(string `$fq`):
 
 **Приклад #1 Приклад використання **SolrQuery::addFilterQuery()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ query u003d new SolrQuery();$query->setQuery('*:*');$query->addFilterQuery('color:blue,green');$query_response u003d $client->query($query);$response u003d $query_response->getResponse();print_r($response['facet_counts']['facet_fields']);?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ query = new SolrQuery();$query->setQuery('*:*');$query->addFilterQuery('color:blue,green');$query_response = $client->query($query);$response = $query_response->getResponse();print_r($response['facet_counts']['facet_fields']);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-&fqu003dcolor:blue,green
+&fq=color:blue,green

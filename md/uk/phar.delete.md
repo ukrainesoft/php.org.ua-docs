@@ -7,7 +7,7 @@
 
 # Phar::delete
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::delete — Видалення файлу всередині phar-архіву
 
@@ -46,7 +46,7 @@ public **Phar::delete**(string `$localName`): bool
 
 **Приклад #1 Приклад використання **Phar::delete()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); $phar->delete('удали/мене.php'); // це еквівалентно наступному:   unlink('phar://myphar.phar/удали/меня.php');} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); $phar->delete('удали/мене.php'); // це еквівалентно наступному:   unlink('phar://myphar.phar/удали/меня.php');} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Дивіться також
 

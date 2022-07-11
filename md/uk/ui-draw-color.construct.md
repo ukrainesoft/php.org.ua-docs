@@ -15,9 +15,9 @@ UI\Draw\Color::\_\_construct — Створити новий об'єкт Color
 
 public
 **UI\Draw\Color::\_\_construct**([UI\Draw\Color](class.ui-draw-color.md)
-`$color` u003d ?)
+`$color` = ?)
 
-public **UI\Draw\Color::\_\_construct**(int `$color` u003d ?)
+public **UI\Draw\Color::\_\_construct**(int `$color` = ?)
 
 Створить новий колір
 

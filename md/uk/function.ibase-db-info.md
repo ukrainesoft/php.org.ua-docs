@@ -17,7 +17,7 @@ ibase_db_info — Запитує статистику бази даних
 resource `$service_handle`,
 string `$db`,
 int `$action`,
-int `$argument` u003d 0
+int `$argument` = 0
 ): string
 
 **Увага**

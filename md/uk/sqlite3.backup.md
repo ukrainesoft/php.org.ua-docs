@@ -7,14 +7,14 @@
 
 # SQLite3::backup
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 SQLite3::backup — Резервне копіювання однієї бази даних до іншої
 
 ### Опис
 
 public **SQLite3::backup**([SQLite3](class.sqlite3.md) `$destination`,
-string `$sourceDatabase` u003d "main", string `$destinationDatabase` u003d
+string `$sourceDatabase` = "main", string `$destinationDatabase` =
 "main"): bool
 
 **SQLite3::backup()** копіює вміст однієї бази в іншу,
@@ -51,4 +51,4 @@ string `$sourceDatabase` u003d "main", string `$destinationDatabase` u003d
 
 **Приклад #1 Створення резервної копії існуючої бази**
 
-` <?php// $conn is a connection to an already opened sqlite3 database$backup u003d new SQLite3('backup.sqlite');$conn->backup($backup);?> `
+` <?php// $conn is a connection to an already opened sqlite3 database$backup = new SQLite3('backup.sqlite');$conn->backup($backup);?> `

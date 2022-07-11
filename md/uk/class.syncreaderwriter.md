@@ -7,7 +7,7 @@
 
 # Клас SyncReaderWriter
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 ## Вступ
 
@@ -25,15 +25,15 @@ class **SyncReaderWriter** {
 
 /\* Методи \*/
 
-public [\_\_construct](syncreaderwriter.construct.md)(string `$name` u003d
-?, int `$autounlock` u003d 1)
+public [\_\_construct](syncreaderwriter.construct.md)(string `$name` =
+?, int `$autounlock` = 1)
 
-public [readlock](syncreaderwriter.readlock.md)(int `$wait` u003d -1):
+public [readlock](syncreaderwriter.readlock.md)(int `$wait` = -1):
 bool
 
 public [readunlock](syncreaderwriter.readunlock.md)(): bool
 
-public [writelock](syncreaderwriter.writelock.md)(int `$wait` u003d -1):
+public [writelock](syncreaderwriter.writelock.md)(int `$wait` = -1):
 bool
 
 public [writeunlock](syncreaderwriter.writeunlock.md)(): bool

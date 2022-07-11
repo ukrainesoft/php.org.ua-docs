@@ -7,7 +7,7 @@
 
 #xdiff_string_diff
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_string_diff — Створити звичайний патч для двох рядків
 
@@ -16,8 +16,8 @@ xdiff_string_diff — Створити звичайний патч для дво
 **xdiff_string_diff**(
 string `$old_data`,
 string `$new_data`,
-int `$context` u003d 3,
-bool `$minimal` u003d **`false`**
+int `$context` = 3,
+bool `$minimal` = **`false`**
 ): string
 
 Створює патч для рядків `old_data` та `new_data`. Підсумковий патч
@@ -52,7 +52,7 @@ bool `$minimal` u003d **`false`**
 
 Наступний код виведе різницю двох статей.
 
-` <?php$old_article u003d file_get_contents('./old_article.txt');$new_article u003d $_REQUEST['article']; /* Допустимо хтось відправив нову статтю через html-форму */$diff u003d xdiff_string_diff($old_article, $new_article, 1);if (is_string($diff)) х         
+` <?php$old_article = file_get_contents('./old_article.txt');$new_article = $_REQUEST['article']; /* Допустимо хтось відправив нову статтю через html-форму */$diff = xdiff_string_diff($old_article, $new_article, 1);if (is_string($diff)) х         
 ";   echo $diff;}?> `
 
 ### Примітки

@@ -31,7 +31,7 @@ public **DirectoryIterator::getPerms**(): int
 
 **Приклад #1 Приклад використання **DirectoryIterator::getPerms()****
 
-`<?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if (!$fileinfo->isDot()) s| s| | fileinfo->getPerms()), -4); echo $fileinfo->getFilename() . " " . $octal_perms . "
+`<?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if (!$fileinfo->isDot()) s| s| | fileinfo->getPerms()), -4); echo $fileinfo->getFilename() . " " . $octal_perms . "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

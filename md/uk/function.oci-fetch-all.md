@@ -7,7 +7,7 @@
 
 #oci_fetch_all
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_fetch_all — Вибирає всі рядки з результату запиту на двомірний
 масив
@@ -17,9 +17,9 @@ oci_fetch_all — Вибирає всі рядки з результату за�
 **oci_fetch_all**(
 resource `$statement`,
 array `&$output`,
-int `$offset` u003d 0,
-int `$limit` u003d -1,
-int `$flags` u003d OCI_FETCHSTATEMENT_BY_COLUMN \| OCI_ASSOC
+int `$offset` = 0,
+int `$limit` = -1,
+int `$flags` = OCI_FETCHSTATEMENT_BY_COLUMN \| OCI_ASSOC
 ): int
 
 Вибирає всі рядки з результату запиту двомірний масив. за
@@ -57,20 +57,20 @@ LOB стовпці повертаються у вигляді рядків, дл
 Параметр `flags` містить структуру масиву, що відображає необхідність
 використання асоціативних масивів
 
-| Константа Опис                   |
-| -------------------------------- |
-| **OCI_FETCHSTATEMENT_BY_ROW**    | Масив буде містити по одному підмасиву на кожен рядок запиту. 
-| **OCI_FETCHSTATEMENT_BY_COLUMN** | Масив міститиме по одному підмасиву на кожен стовпець. Використовується за замовчуванням.
+| Константа Опис                   |                                                                                           |
+|----------------------------------|-------------------------------------------------------------------------------------------|
+| **OCI_FETCHSTATEMENT_BY_ROW**    | Масив буде містити по одному підмасиву на кожен рядок запиту.                             |
+| **OCI_FETCHSTATEMENT_BY_COLUMN** | Масив міститиме по одному підмасиву на кожен стовпець. Використовується за замовчуванням. |
 
 **Структура масиву **oci_fetch_all()****
 
 Масиви можуть бути проіндексовані або заголовками стовпців або
 пронумеровані. Повернеться лише один режим індексації.
 
-| Константа Опис |
-| -------------- |
-| **OCI_NUM**    | Для масиву кожного стовпця використовуються числові індекси. 
-| **OCI_ASSOC**  | Для масиву кожного стовпця використовують асоціативні індекси. За замовчуванням.
+| Константа Опис |                                                                                  |
+|----------------|----------------------------------------------------------------------------------|
+| **OCI_NUM**    | Для масиву кожного стовпця використовуються числові індекси.                     |
+| **OCI_ASSOC**  | Для масиву кожного стовпця використовують асоціативні індекси. За замовчуванням. |
 
 **Індексація масиву **oci_fetch_all()****
 
@@ -97,10 +97,10 @@ LOB стовпці повертаються у вигляді рядків, дл
 
 **Приклад #1 Приклад використання **oci_fetch_all()****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res);echo "$nrows рядків отримано<br>
-";var_dump($res);// Виведення var_dump://   2 рядків отримано//   array(2) {//      ["POSTAL_CODE"]u003d>/    string(6) "00989x"//        [1]u003d>//        string(6) "10934x"//      }//      ["CITY"]u003d>//      array(2) {//        [0]u003d>/ /                                                                                   
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res);echo "$nrows рядків отримано<br>
+";var_dump($res);// Виведення var_dump://   2 рядків отримано//   array(2) {//      ["POSTAL_CODE"]=>/    string(6) "00989x"//        [1]=>//        string(6) "10934x"//      }//      ["CITY"]=>//      array(2) {//        [0]=>/ /                                                                                   
 ";foreach ($res as $col) {    echo "<tr>
-";   foreach ($col as $item) {        echo "    <td>".($item !u003du003d null ? htmlentities($item, ENT_QU)
+";   foreach ($col as $item) {        echo "    <td>".($item !== null ? htmlentities($item, ENT_QU)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";oci_free_statement($stid);oci_close($conn);?> `
@@ -108,13 +108,13 @@ LOB стовпці повертаються у вигляді рядків, дл
 **Приклад #2 Приклад використання **oci_fetch_all()** з
 **`OCI_FETCHSTATEMENT_BY_ROW`****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW);echo "$nrows рядків отримано<br>
-";var_dump($res);// Виведе://   2 рядків отримано//   array(2) {//     [0]u003d>//      array(2)                                          стр (6) "00989x"//        ["CITY"]u003d>//        string(4) "Roma"//      }//      [1]u003d>//      array(2) {//        ["POSTAL_CODE"]u003d> //                    ¦                                    ¦ 
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW);echo "$nrows рядків отримано<br>
+";var_dump($res);// Виведе://   2 рядків отримано//   array(2) {//     [0]=>//      array(2)                                          стр (6) "00989x"//        ["CITY"]=>//        string(4) "Roma"//      }//      [1]=>//      array(2) {//        ["POSTAL_CODE"]=> //                    ¦                                    ¦ 
 
 **Приклад #3 Приклад використання **oci_fetch_all()** з **`OCI_NUM`****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW + OCI_NUM);echo "$nrows рядків отримано<br>
-";var_dump($res);// Виведе //   2 рядків отримано//   array(2) {//      [0]u003d>//      array(2)                                   ) "00989x"//        [1]u003d>//        string(4) "Roma"//      }//      [1]u003d>//      array(2) {//        [0]u003d>//        string(6) "10934x"//        [1]u003d>//        string(6) "Venice"//      }//    }oci_free_statement($d?
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT POSTAL_CODE, CITY FROM locations WHERE ROWNUM oci_fetch_all($stid, $res, null, null, OCI_FETCHSTATEMENT_BY_ROW + OCI_NUM);echo "$nrows рядків отримано<br>
+";var_dump($res);// Виведе //   2 рядків отримано//   array(2) {//      [0]=>//      array(2)                                   ) "00989x"//        [1]=>//        string(4) "Roma"//      }//      [1]=>//      array(2) {//        [0]=>//        string(6) "10934x"//        [1]=>//        string(6) "Venice"//      }//    }oci_free_statement($d?
 
 ### Примітки
 

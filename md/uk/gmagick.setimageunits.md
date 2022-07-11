@@ -7,7 +7,7 @@
 
 # Gmagick::setimageunits
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageunits — Встановлює одиниці роздільної здатності зображення
 

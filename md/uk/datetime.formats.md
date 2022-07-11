@@ -57,12 +57,12 @@
 7. Існує додаткова перевірка, якщо вказано недійсну
 дата:
 
-` <?php$res u003d date_parse("2015-09-31");var_dump($res["warnings"]);?> `
+` <?php$res = date_parse("2015-09-31");var_dump($res["warnings"]);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[11] u003d>
+[11] =>
 string(27) "The parsed date was invalid"
 }
 
@@ -71,15 +71,15 @@ string(27) "The parsed date was invalid"
 [DateTimeImmutable::createFromFormat()](datetimeimmutable.createfromformat.md),
 надаючи правильний формат.
 
-` <?php$res u003d DateImmutable::createFromFormat("Y-m-d", "2015-09-34");var_dump($res); `
+` <?php$res = DateImmutable::createFromFormat("Y-m-d", "2015-09-34");var_dump($res); `
 
 Результат виконання цього прикладу:
 
 class DateTime#1 (3) {
-public $date u003d>
+public $date =>
 string(26) "2015-10-04 17:24:43.000000"
-$timezone_type u003d>
+$timezone_type =>
 int(3)
-$timezone u003d>
+$timezone =>
 string(13) "Europe/London"
 }

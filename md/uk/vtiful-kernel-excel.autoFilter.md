@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::autoFilter
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::autoFilter — Додати автофільтр
 
@@ -30,4 +30,4 @@ public **Vtiful\Kernel\Excel::autoFilter**(string `$scope`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$fileObject  u003d new \Vtiful\Kernel\Excel($config);$file u003d $excel->fileName('test.xlsx') ->header(['name', 'age'])   |>                        |
+` <?php$config = [   'path' => './tests'];$fileObject  = new \Vtiful\Kernel\Excel($config);$file = $excel->fileName('test.xlsx') ->header(['name', 'age'])   |>                        |

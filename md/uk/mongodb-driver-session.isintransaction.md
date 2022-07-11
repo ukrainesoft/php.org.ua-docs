@@ -8,7 +8,7 @@
 
 # MongoDB\Driver\Session::isInTransaction
 
-(mongodb \>u003d1.6.0)
+(mongodb \>=1.6.0)
 
 MongoDB\Driver\Session::isInTransaction - Визначає, чи відбувається в
 на даний момент багатодокументна транзакція

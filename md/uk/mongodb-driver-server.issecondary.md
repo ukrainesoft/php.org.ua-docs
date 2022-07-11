@@ -8,7 +8,7 @@
 
 # MongoDB\Driver\Server::isSecondary
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::isSecondary — Перевіряє, чи є цей сервер
 другорядним членом набору реплік

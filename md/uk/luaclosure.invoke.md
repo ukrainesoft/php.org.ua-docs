@@ -7,7 +7,7 @@
 
 # LuaClosure::\_\_invoke
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 LuaClosure::\_\_invoke — Виклик замикання Lua
 
@@ -32,7 +32,7 @@ public
 
 **Приклад #1 Приклад використання**LuaClosure::\_\_invoke()****
 
-`<?php$lua u003d new Lua();$closure u003d $lua->eval(<<<CODE   return (function ()       print("hello world")   | );$closure();?> `
+`<?php$lua = new Lua();$closure = $lua->eval(<<<CODE   return (function ()       print("hello world")   | );$closure();?> `
 
 Результат виконання цього прикладу:
 

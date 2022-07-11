@@ -7,14 +7,14 @@
 
 # ZMQContext::\_\_construct
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQContext::\_\_construct - Конструктор ZMQContext
 
 ### Опис
 
-public **ZMQContext::\_\_construct**(int `$io_threads` u003d 1, bool
-`$is_persistent` u003d **`true`**)
+public **ZMQContext::\_\_construct**(int `$io_threads` = 1, bool
+`$is_persistent` = **`true`**)
 
 Створює новий контекст ZMQ. Контекст використовується для ініціалізації
 сокетів. Для ініціалізації постійних сокетів потрібний постійний
@@ -41,4 +41,4 @@ public **ZMQContext::\_\_construct**(int `$io_threads` u003d 1, bool
 
 Створимо новий контекст і створимо сокети з нього
 
-` <?php/* Створюємо новий контекст */$context u003d new ZMQContext();/* Створюємо новий сокет */$socket u003d $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message u003d $ socket->recv();?> `
+` <?php/* Створюємо новий контекст */$context = new ZMQContext();/* Створюємо новий сокет */$socket = $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message = $ socket->recv();?> `

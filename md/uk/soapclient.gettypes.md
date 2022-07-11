@@ -33,20 +33,20 @@ public **SoapClient::\_\_getTypes**(): ?array
 
 **Приклад #1 Приклад використання **SoapClient::\_\_getTypes()****
 
-` <?php$client u003d new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');var_dump($client->__getTypes());?> `
+` <?php$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');var_dump($client->__getTypes());?> `
 
 Результат виконання цього прикладу:
 
 array(88) {
-[0]u003d>
+[0]=>
 string(30) "ProductLine ProductLineArray[]"
-[1]u003d>
+[1]=>
 string(85) "struct ProductLine {
 string Mode;
 string RelevanceRank;
 ProductInfo ProductInfo;
 }"
-[2]u003d>
+[2]=>
 string(105) "struct ProductInfo {
 string TotalResults;
 string TotalPages;
@@ -54,9 +54,9 @@ string ListName;
 DetailsArray Details;
 }"
 ...
-[85] u003d>
+[85] =>
 string(32) "ShortSummary ShortSummaryArray[]"
-[86] u003d>
+[86] =>
 string(121) "struct GetTransactionDetailsRequest {
 string tag;
 string devtag;
@@ -64,7 +64,7 @@ string key;
 OrderIdArray OrderIds;
 string locale;
 }"
-[87] u003d>
+[87] =>
 string(75) "struct GetTransactionDetailsResponse {
 ShortSummaryArray ShortSummaries;
 }"

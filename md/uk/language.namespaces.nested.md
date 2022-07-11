@@ -7,7 +7,7 @@
 
 ## Визначення підпросторів імен
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 Так само як файли та каталоги, простори імен PHP дозволяють створювати
 ієрархію імен. Таким чином, ім'я простору може бути визначено з
@@ -15,7 +15,7 @@
 
 **Приклад #1 Визначення простору імен з ієрархією**
 
-` <?phpnamespace MyProject\Sub\Level;const CONNECT_OK u003d 1;class Connection { /* ... */ }function connect() { /* ... */  }?> `
+` <?phpnamespace MyProject\Sub\Level;const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }?> `
 
 Вищенаведений приклад створює константу
 `MyProject\Sub\Level\CONNECT_OK`, клас `MyProject\Sub\Level\Connection`

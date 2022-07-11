@@ -7,7 +7,7 @@
 
 #curl_file_create
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 curl_file_create — Створює об'єкт CURLFile
 

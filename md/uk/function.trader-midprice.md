@@ -7,13 +7,13 @@
 
 #trader_midprice
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_midprice — Середня ціна за період
 
 ### Опис
 
-**trader_midprice**(array `$high`, array `$low`, int `$timePeriod` u003d ?):
+**trader_midprice**(array `$high`, array `$low`, int `$timePeriod` = ?):
 array
 
 ### Список параметрів

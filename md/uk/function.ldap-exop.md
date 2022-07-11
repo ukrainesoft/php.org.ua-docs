@@ -7,7 +7,7 @@
 
 #ldap_exop
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 ldap_exop — Виконати розширену операцію
 
@@ -16,10 +16,10 @@ ldap_exop — Виконати розширену операцію
 **ldap_exop**(
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
 string `$reqoid`,
-string `$reqdata` u003d **`null`**,
-array `$serverctrls` u003d **`null`**,
-string `&$retdata` u003d ?,
-string `&$retoid` u003d ?
+string `$reqdata` = **`null`**,
+array `$serverctrls` = **`null`**,
+string `&$retdata` = ?,
+string `&$retoid` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -65,7 +65,7 @@ BER.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 7.3    | Додана підтримка serverctrls                                                                                                                            |
 
@@ -73,7 +73,7 @@ BER.
 
 **Приклад #1 Розширена операція Whoami**
 
-`<?php$ds u003d ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind u003d ldap_bind($ds, cnu003ds; if (!$bind) {     echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Викликаємо WHOAMI EXOP    $r u003d ldap_exop($ds, LDAP_EXOP_WHO_AM_I); // Розбираємо отриману відповідь   ldap_parse_exop($ds, $r, $retdata); // Висновок: string (31) "dn: cn u003d root, o u003d My Company, c u003d US" | // То же саме, а з параметром $retdata    $success u003d ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $retdata, $retoid); if ($success) {     var_dump($retdata); }   ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
+`<?php$ds = ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind = ldap_bind($ds, cn=s; if (!$bind) {     echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Викликаємо WHOAMI EXOP    $r = ldap_exop($ds, LDAP_EXOP_WHO_AM_I); // Розбираємо отриману відповідь   ldap_parse_exop($ds, $r, $retdata); // Висновок: string (31) "dn: cn = root, o = My Company, c = US" | // То же саме, а з параметром $retdata    $success = ldap_exop($ds, LDAP_EXOP_WHO_AM_I, NULL, NULL, $retdata, $retoid); if ($success) {     var_dump($retdata); }   ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
 
 ### Дивіться також
 

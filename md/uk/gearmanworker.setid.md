@@ -35,7 +35,7 @@ public **GearmanWorker::setId**(string `$id`): bool
 
 Визначення ідентифікатора для простого обробника.
 
-` <?php$workeru003d new GearmanWorker();$worker->setId('test');?> `
+` <?php$worker= new GearmanWorker();$worker->setId('test');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

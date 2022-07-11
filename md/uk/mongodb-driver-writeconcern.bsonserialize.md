@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcern::bsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\Driver\WriteConcern::bsonSerialize — Повертає об'єкт
 серіалізації BSON
@@ -34,13 +34,13 @@ final public **MongoDB\Driver\WriteConcern::bsonSerialize**(): object
 **Приклад #1 **MongoDB\Driver\WriteConcern::bsonSerialize()** з
 більшістю гарантії запису**
 
-` <?php$wc u003d new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);var_dump($wc->bsonSerialize());echo "
+` <?php$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY);var_dump($wc->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($wc));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (1) {
-["w"]u003d>
+["w"]=>
 string(8) "majority"
 }
 
@@ -49,17 +49,17 @@ string(8) "majority"
 **Приклад #2 **MongoDB\Driver\WriteConcern::bsonSerialize()** з часом
 очікування та журналом**
 
-` <?php$wc u003d new MongoDB\Driver\WriteConcern(2, 1000, true);var_dump($wc->bsonSerialize());echo "
+` <?php$wc = new MongoDB\Driver\WriteConcern(2, 1000, true);var_dump($wc->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($wc));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (3) {
-["w"]u003d>
+["w"]=>
 int(2)
-["j"]u003d>
+["j"]=>
 bool(true)
-["wtimeout"]u003d>
+["wtimeout"]=>
 int(1000)
 }
 

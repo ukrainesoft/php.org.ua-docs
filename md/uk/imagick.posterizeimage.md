@@ -32,4 +32,4 @@ public **Imagick::posterizeImage**(int `$levels`, bool `$dither`): bool
 
 **Приклад #1 Приклад використання **Imagick::posterizeImage()****
 
-` <?phpfunction posterizeImage($imagePath, $posterizeType, $numberLevels) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->posterizeImage($numberLevels, $posterizeType); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}posterizeImage($imagePath, \Imagick::DITHERMETHOD_RIEMERSMA, 8);?> `
+` <?phpfunction posterizeImage($imagePath, $posterizeType, $numberLevels) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->posterizeImage($numberLevels, $posterizeType); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}posterizeImage($imagePath, \Imagick::DITHERMETHOD_RIEMERSMA, 8);?> `

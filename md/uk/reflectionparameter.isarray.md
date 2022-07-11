@@ -7,7 +7,7 @@
 
 # ReflectionParameter::isArray
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionParameter::isArray — Перевіряє, чи очікує аргумент масиву
 якості значення
@@ -42,7 +42,7 @@ public **ReflectionParameter::isArray**(): bool
 Починаючи з PHP 8.0.0, наступний код повідомить, чи підтримує тип
 викликані об'єкти, зокрема як частина об'єднання.
 
-` <?phpfunction declaresArray(ReflectionParameter $reflectionParameter): bool{    $reflectionType u003d $reflectionParameter->getType(); if (!$reflectionType) return false; $types u003d $reflectionType instanceof ReflectionUnionType        ?? $reflectionType->getTypes()         : [$reflectionType]; return in_array('array', array_map(fn(ReflectionNamedType $t) u003d> $t->getName(), $types));}?> `
+` <?phpfunction declaresArray(ReflectionParameter $reflectionParameter): bool{    $reflectionType = $reflectionParameter->getType(); if (!$reflectionType) return false; $types = $reflectionType instanceof ReflectionUnionType        ?? $reflectionType->getTypes()         : [$reflectionType]; return in_array('array', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));}?> `
 
 ### Дивіться також
 

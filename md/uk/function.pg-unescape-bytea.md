@@ -7,7 +7,7 @@
 
 #pg_unescape_bytea
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_unescape_bytea — Забирає екранування двійкових даних типу bytea
 
@@ -50,7 +50,7 @@ pg_unescape_bytea — Забирає екранування двійкових �
 
 **Приклад #1 Приклад використання **pg_unescape_bytea()****
 
-`<?php  // Підключення к базі даних $dbconn u003d pg_connect('dbnameu003dfoo'); // Отримання bytea даних $res u003d pg_query("SELECT data FROM gallery WHERE nameu003d'Pine trees'"); $rawu003d pg_fetch_result($res, 'data'); // Перетворення в двійковий формат і відправка в браузер header('Content-type:image/jpeg'); echo pg_unescape_bytea($raw);?> `
+`<?php  // Підключення к базі даних $dbconn = pg_connect('dbname=foo'); // Отримання bytea даних $res = pg_query("SELECT data FROM gallery WHERE name='Pine trees'"); $raw= pg_fetch_result($res, 'data'); // Перетворення в двійковий формат і відправка в браузер header('Content-type:image/jpeg'); echo pg_unescape_bytea($raw);?> `
 
 ### Дивіться також
 

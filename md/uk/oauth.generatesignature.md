@@ -16,7 +16,7 @@ OAuth::generateSignature — Згенерувати підпис
 public **OAuth::generateSignature**(string `$http_method`, string
 $url,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$extra_parameters` u003d ?): string\|false
+`$extra_parameters` = ?): string\|false
 
 Генерує підпис на основі методу HTTP, URL та додаткових
 параметрів.

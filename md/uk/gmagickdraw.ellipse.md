@@ -7,7 +7,7 @@
 
 # GmagickDraw::ellipse
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::ellipse — Малює еліпс на зображенні
 

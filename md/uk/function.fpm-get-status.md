@@ -7,7 +7,7 @@
 
 #fpm_get_status
 
-(PHP 7 \>u003d 7.3, PHP 8)
+(PHP 7 \>= 7.3, PHP 8)
 
 fpm_get_status — Повертає поточний стан пулу FPM
 

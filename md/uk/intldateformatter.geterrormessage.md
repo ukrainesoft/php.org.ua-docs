@@ -9,7 +9,7 @@
 
 # datefmt_get_error_message
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::getErrorMessage -- datefmt_get_error_message --
 Отримує текст помилки останньої операції
@@ -40,12 +40,12 @@ public **IntlDateFormatter::getErrorMessage**(): string
 
 **Приклад #1 Приклад використання **datefmt_get_error_message()****
 
-` <?php$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$str u003d datefmt_format($fmt);if (!$str) {    printf(        ""ПОМИЛКА: %s(%d)
+` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$str = datefmt_format($fmt);if (!$str) {    printf(        ""ПОМИЛКА: %s(%d)
 ",         datefmt_get_error_message($fmt),        datefmt_get_error_code($fmt)    );}?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$fmt u003d new IntlDateFormatter(   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,     'America/Los_Ang| $str) {   printf(         "ПОМИЛКА: %s (%d)
+`<?php$fmt = new IntlDateFormatter(   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,     'America/Los_Ang| $str) {   printf(         "ПОМИЛКА: %s (%d)
 ",        $fmt->getErrorMessage(),        $fmt->getErrorCode()    );}?> `
 
 Результат виконання цього прикладу:

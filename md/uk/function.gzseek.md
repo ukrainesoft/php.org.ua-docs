@@ -13,7 +13,7 @@ gzseek — Перемістити вказівник на позицію у вк
 
 ### Опис
 
-**gzseek**(resource `$stream`, int `$offset`, int `$whence` u003d
+**gzseek**(resource `$stream`, int `$offset`, int `$whence` =
 **`SEEK_SET`**): int
 
 Встановлює вказівник на позицію у файлі, який посилається zp.
@@ -53,7 +53,7 @@ gzseek — Перемістити вказівник на позицію у вк
 
 **Приклад #1 Приклад використання **gzseek()****
 
-` <?php$gz u003d gzopen('somefile.gz', 'r');gzseek($gz,2);echo gzgetc($gz);gzclose($gz);?> `
+` <?php$gz = gzopen('somefile.gz', 'r');gzseek($gz,2);echo gzgetc($gz);gzclose($gz);?> `
 
 ### Дивіться також
 

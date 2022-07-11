@@ -7,7 +7,7 @@
 
 # Клас SNMP
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -41,14 +41,14 @@ public [\_\_construct](snmp.construct.md)(
 int `$version`,
 string `$hostname`,
 string `$community`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 )
 
 public [close](snmp.close.md)(): bool
 
 public [get](snmp.get.md)(array\|string `$objectId`, bool
-`$preserveKeys` u003d **`false`**):
+`$preserveKeys` = **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getErrno](snmp.geterrno.md)(): int
@@ -63,46 +63,46 @@ public [set](snmp.set.md)(array\|string `$objectId`, array\|string
 
 public [setSecurity](snmp.setsecurity.md)(
 string `$securityLevel`,
-string `$authProtocol` u003d "",
-string `$authPassphrase` u003d "",
-string `$privacyProtocol` u003d "",
-string `$privacyPassphrase` u003d "",
-string `$contextName` u003d "",
-string `$contextEngineId` u003d ""
+string `$authProtocol` = "",
+string `$authPassphrase` = "",
+string `$privacyProtocol` = "",
+string `$privacyPassphrase` = "",
+string `$contextName` = "",
+string `$contextEngineId` = ""
 ): bool
 
 public [walk](snmp.walk.md)(
 array\|string `$objectId`,
-bool `$suffixAsKey` u003d **`false`**,
-int `$maxRepetitions` u003d -1,
-int `$nonRepeaters` u003d -1
+bool `$suffixAsKey` = **`false`**,
+int `$maxRepetitions` = -1,
+int `$nonRepeaters` = -1
 ): array\|false
 
 /\* Константи \*/
 
-const int `ERRNO_NOERROR` u003d 0;
+const int `ERRNO_NOERROR` = 0;
 
-const int `ERRNO_GENERIC` u003d 2;
+const int `ERRNO_GENERIC` = 2;
 
-const int `ERRNO_TIMEOUT` u003d 4;
+const int `ERRNO_TIMEOUT` = 4;
 
-const int `ERRNO_ERROR_IN_REPLY` u003d 8;
+const int `ERRNO_ERROR_IN_REPLY` = 8;
 
-const int `ERRNO_OID_NOT_INCREASING` u003d 16;
+const int `ERRNO_OID_NOT_INCREASING` = 16;
 
-const int `ERRNO_OID_PARSING_ERROR` u003d 32;
+const int `ERRNO_OID_PARSING_ERROR` = 32;
 
-const int `ERRNO_MULTIPLE_SET_QUERIES` u003d 64;
+const int `ERRNO_MULTIPLE_SET_QUERIES` = 64;
 
-const int `ERRNO_ANY` u003d 126;
+const int `ERRNO_ANY` = 126;
 
-const int `VERSION_1` u003d 0;
+const int `VERSION_1` = 0;
 
-const int `VERSION_2C` u003d 1;
+const int `VERSION_2C` = 1;
 
-const int `VERSION_2c` u003d 1;
+const int `VERSION_2c` = 1;
 
-const int `VERSION_3` u003d 3;
+const int `VERSION_3` = 3;
 
 }
 
@@ -115,8 +115,8 @@ const int `VERSION_3` u003d 3;
 Контролює спосіб, як повертатимуться значення SNMP
 
 |                        |                                                                                                                                                                                                                                                       |
-| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **SNMP_VALUE_LIBRARY** | Значення, що повертаються, будуть такими, ніби повернені бібліотекою Net-SNMP.                                                                                                                                                                        |                                                                                                                                                                                                                                                           
+|------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **SNMP_VALUE_LIBRARY** | Значення, що повертаються, будуть такими, ніби повернені бібліотекою Net-SNMP.                                                                                                                                                                        |
 | **SNMP_VALUE_PLAIN**   | Значення, що повертаються, будуть простими, без інформації про типи SNMP.                                                                                                                                                                             |
 | **SNMP_VALUE_OBJECT**  | Значення, що повертаються будуть об'єктами з властивостями "value" і "type", де "type" міститиме одну з констант: SNMP_OCTET_STR, SNMP_COUNTER і т.д., а "value" буде залежати від того, встановлено **SNMP_VALUE_LIBRARY** або **SNMP_VALUE_PLAIN**. |
 
@@ -143,8 +143,8 @@ OID). Додатково, якщо quick_print не дозволено, бібл
 Контролює формат виводу OID
 
 |                             |                                                                     |
-| --------------------------- | ------------------------------------------------------------------- |
-| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |                                     
+|-----------------------------|---------------------------------------------------------------------|
+| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
 | **SNMP_OID_OUTPUT_NUMERIC** | .1.3.6.1.2.1.1.3.0                                                  |
 | **SNMP_OID_OUTPUT_MODULE**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
 | **SNMP_OID_OUTPUT_SUFFIX**  | sysUpTimeInstance                                                   |

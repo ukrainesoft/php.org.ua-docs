@@ -23,7 +23,7 @@ class **Ds\Queue** implements **Ds\Collection**,
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 8;
+const int `MIN_CAPACITY` = 8;
 
 /\* Методи \*/
 
@@ -58,7 +58,7 @@ public [toArray](ds-queue.toarray.md)(): array
 ## Список змін
 
 | Версія        | Опис                                                   |
-| ------------- | ------------------------------------------------------ |
+|---------------|--------------------------------------------------------|
 | PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
 
 ## Зміст

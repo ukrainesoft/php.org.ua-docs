@@ -7,7 +7,7 @@
 
 #array_key_exists
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 array_key_exists — Перевіряє, чи присутній у масиві зазначений ключ
 або індекс
@@ -42,14 +42,14 @@ array_key_exists — Перевіряє, чи присутній у масиві
 
 **Приклад #1 Приклад використання **array_key_exists()****
 
-` <?php$search_array u003d array('first' u003d> 1, 'second' u003d> 4);if (array_key_exists('first', $search_array)) {    echo "Масив '" > `
+` <?php$search_array = array('first' => 1, 'second' => 4);if (array_key_exists('first', $search_array)) {    echo "Масив '" > `
 
 **Приклад #2 **array_key_exists()** та [isset()](function.isset.md)**
 
 [isset()](function.isset.md) не повертає **`true`** для ключів
 масиву, що вказують на **`null`**, а array_key_exists()** повертає.
 
-` <?php$search_array u003d array('first' u003d> null, 'second' u003d> 4);// повертає falseisset($search_array['first']);// повертає truearray_key_exists('$ ;?> `
+` <?php$search_array = array('first' => null, 'second' => 4);// повертає falseisset($search_array['first']);// повертає truearray_key_exists('$ ;?> `
 
 ### Примітки
 

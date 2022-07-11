@@ -7,7 +7,7 @@
 
 # SolrResponse::success
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrResponse::success — Чи був успішним запит?
 

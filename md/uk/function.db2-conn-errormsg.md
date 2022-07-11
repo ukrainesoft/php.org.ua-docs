@@ -8,14 +8,14 @@ SQLCODE
 
 #db2_conn_errormsg
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_conn_errormsg — Повертає останнє повідомлення про помилку підключення
 та значення SQLCODE
 
 ### Опис
 
-**db2_conn_errormsg**(resource `$connection` u003d ?): string
+**db2_conn_errormsg**(resource `$connection` = ?): string
 
 Повертає повідомлення про помилку та значення SQLCODE, що представляє
 причину, через яку остання спроба підключення до бази даних
@@ -52,13 +52,13 @@ db2_conn_errormsg — Повертає останнє повідомлення �
 SQLCODE після умисної передачі неприпустимих параметрів
 [db2_connect()](function.db2-connect.md).
 
-` <?php$conn u003d db2_connect('badname', 'baduser', 'badpassword');if (!$conn) {    print db2_conn_errormsg();}?> `
+` <?php$conn = db2_connect('badname', 'baduser', 'badpassword');if (!$conn) {    print db2_conn_errormsg();}?> `
 
 Результат виконання цього прикладу:
 
 [IBM][CLI Driver] SQL1013N Database alias name
-or database name "BADNAME" could not be found. SQLSTATEu003d42705
-SQLCODEu003d-1013
+or database name "BADNAME" could not be found. SQLSTATE=42705
+SQLCODE=-1013
 
 ### Дивіться також
 

@@ -43,4 +43,4 @@ public **Imagick::compareImages**([Imagick](class.imagick.md)
 
 Порівняння зображення та відображення відновленого зображення
 
-` <?php$image1 u003d new imagick("image1.png");$image2 u003d neu imagick("image2.png");$result u003d $image1->compareImages($image2, Imagick::METRIC_MEANSQUAREERROR);$result [0]->setImageFormat("png");header("Content-Type: image/png");echo $result[0];?> `
+` <?php$image1 = new imagick("image1.png");$image2 = neu imagick("image2.png");$result = $image1->compareImages($image2, Imagick::METRIC_MEANSQUAREERROR);$result [0]->setImageFormat("png");header("Content-Type: image/png");echo $result[0];?> `

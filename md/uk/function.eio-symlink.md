@@ -7,7 +7,7 @@
 
 #eio_symlink
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_symlink — Створює символічне посилання
 
@@ -16,10 +16,10 @@ eio_symlink — Створює символічне посилання
 **eio_symlink**(
 string `$path`,
 string `$new_path`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_symlink()** створює символічне посилання `new_path` на шлях
@@ -68,7 +68,7 @@ $data u003d NULL
 
 **Приклад #1 Приклад використання **eio_symlink()****
 
-` <?php$filename u003d dirname(__FILE__)."/symlink.dat";touch($filename);$link u003d dirname(__FILE__)."/symlink.link";function my_symlink_cb($data, $result) { global $link, $filename; var_dump(file_exists($data) && is_link($data)); if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {        @unlink($link); @unlink($filename); }}function my_readlink_cb($data, $result) {    global $filename, $link; var_dump($result); @unlink($link); @unlink($filename);}eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);eio_event_loop();?> `
+` <?php$filename = dirname(__FILE__)."/symlink.dat";touch($filename);$link = dirname(__FILE__)."/symlink.link";function my_symlink_cb($data, $result) { global $link, $filename; var_dump(file_exists($data) && is_link($data)); if (!eio_readlink($data, EIO_PRI_DEFAULT, "my_readlink_cb", NULL)) {        @unlink($link); @unlink($filename); }}function my_readlink_cb($data, $result) {    global $filename, $link; var_dump($result); @unlink($link); @unlink($filename);}eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_cb", $link);eio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

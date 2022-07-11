@@ -7,7 +7,7 @@
 
 # svn_fs_youngest_rev
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_youngest_rev — Повертає номер ранньої ревізії у файловій
 системі

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerDescription::getRoundTripTime
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\ServerDescription::getRoundTripTime — Повертає час
 обходу сервера в мілісекундах

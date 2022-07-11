@@ -7,7 +7,7 @@
 
 # EventUtil::getSocketFd
 
-(PECL event \>u003d 1.7.0)
+(PECL event \>= 1.7.0)
 
 EventUtil::getSocketFd — Отримати числовий файловий дескриптор сокету
 або потоку

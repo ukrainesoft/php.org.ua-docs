@@ -7,7 +7,7 @@
 
 #enchant_dict_suggest
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0 )
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
 
 enchant_dict_suggest — Поверне список можливих варіантів для слова з
 помилкою
@@ -35,14 +35,14 @@ enchant_dict_suggest — Поверне список можливих варіа
 ### Список змін
 
 | Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **enchant_dict_suggest()****
 
-` <?php$tag u003d 'en_US';$r u003d enchant_broker_init();if (enchant_broker_dict_exists($r,$tag)) {   $d u003d enchant_broker_request_dict($r, $ $wordcorrectu003du003denchant_dict_check($d, "soong"); if (!$wordcorrect) {        $suggs u003d enchant_dict_suggest($d, "soong"); echo "Подказки для 'soong':"; print_r($suggs); }    enchant_broker_free_dict($d);}enchant_broker_free($r);?> `
+` <?php$tag = 'en_US';$r = enchant_broker_init();if (enchant_broker_dict_exists($r,$tag)) {   $d = enchant_broker_request_dict($r, $ $wordcorrect==enchant_dict_check($d, "soong"); if (!$wordcorrect) {        $suggs = enchant_dict_suggest($d, "soong"); echo "Подказки для 'soong':"; print_r($suggs); }    enchant_broker_free_dict($d);}enchant_broker_free($r);?> `
 
 ### Дивіться також
 

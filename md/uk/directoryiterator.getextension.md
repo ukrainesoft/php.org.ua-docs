@@ -7,7 +7,7 @@
 
 # DirectoryIterator::getExtension
 
-(PHP 5 \>u003d 5.3.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
 
 DirectoryIterator::getExtension — Повертає розширення файлу
 
@@ -30,7 +30,7 @@ public **DirectoryIterator::getExtension**(): string
 
 **Приклад #1 Приклад використання **DirectoryIterator::getExtension()****
 
-` <?php$directory u003d new DirectoryIterator(__DIR__);foreach ($directory as $fileinfo) {    if ($fileinfo->isFile()) {        echo $file "
+` <?php$directory = new DirectoryIterator(__DIR__);foreach ($directory as $fileinfo) {    if ($fileinfo->isFile()) {        echo $file "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -47,7 +47,7 @@ gz
 > Іншим доступним рішенням може бути функція
 > [pathinfo()](function.pathinfo.md).
 >
-> ` <?php$extension u003d pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);?> `
+> ` <?php$extension = pathinfo($fileinfo->getFilename(), PATHINFO_EXTENSION);?> `
 
 ### Дивіться також
 

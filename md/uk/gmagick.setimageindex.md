@@ -8,7 +8,7 @@
 
 # Gmagick::setimageindex
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageindex — Встановлює ітератор у положення у списку
 зображень, заданим параметром index

@@ -22,7 +22,7 @@ PDO_INFORMIX є модулем [»PECL](https://pecl.php.net/), так що
 для його встановлення слідуйте наступним інструкціям [Установка модулів PECL](install.pecl.md). Виконайте команду **configure**, вказавши
 розташування заголовних файлів та бібліотек Informix Client SDK:
 
-bash$ ./configure --with-pdo-informixu003d/path/to/SDK[,shared]
+bash$ ./configure --with-pdo-informix=/path/to/SDK[,shared]
 
 За замовчуванням команда **configure** використовуватиме значення
 змінної оточення `INFORMIXDIR`.
@@ -31,9 +31,9 @@ bash$ ./configure --with-pdo-informixu003d/path/to/SDK[,shared]
 
 PDO_INFORMIX підтримує курсори, що перемотуються; однак за умовчанням їх
 використання не дозволено. Для дозволу їх підтримки ви повинні
-вказати **`ENABLESCROLLABLECURSORSu003d1`** у відповідних налаштуваннях
+вказати **`ENABLESCROLLABLECURSORS=1`** у відповідних налаштуваннях
 з'єднання ODBC в `odbc.ini` або задати параметр
-**`EnableScrollableCursorsu003d1`** у рядку з'єднання (DSN).
+**`EnableScrollableCursors=1`** у рядку з'єднання (DSN).
 
 ## Зміст
 

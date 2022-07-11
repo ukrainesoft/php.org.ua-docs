@@ -7,14 +7,14 @@
 
 # SeasLog::emergency
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::emergency — Записує інформацію рівня "emergency" до журналу
 
 ### Опис
 
 public static **SeasLog::emergency**(string `$message`, array `$content`
-u003d ?, string `$logger` u003d ?): bool
+= ?, string `$logger` = ?): bool
 
 Записує інформацію рівня "emergency" до журналу.
 
@@ -30,7 +30,7 @@ u003d ?, string `$logger` u003d ?): bool
 `content`
 Повідомлення містить наповнювачі, які розробники замінюють значеннями
 із масиву вмісту. Якщо "message" - це інформація журналу від
-{NAME}\`, а \`content\` - \`array('NAME' u003d\> 'Нікіти')\`, інформація
+{NAME}\`, а \`content\` - \`array('NAME' =\> 'Нікіти')\`, інформація
 журналу буде "інформація журналу від Микити".
 
 `logger`
@@ -49,7 +49,7 @@ u003d ?, string `$logger` u003d ?): bool
 
 **Приклад #1 Приклад використання **SeasLog::emergency()****
 
-` <?phpvar_dump(SeasLog::emergency('log message'));//с contentvar_dump(SeasLog::emergency('log message from {NAME}',array('NAME' u003d> 'neeke'))); //з часовим loggervar_dump(SeasLog::emergency('log message from {NAME}',array('NAME' u003d> 'neeke'),'tmp_logger'));var_dump(SeasLog::getBuffer());?> `
+` <?phpvar_dump(SeasLog::emergency('log message'));//с contentvar_dump(SeasLog::emergency('log message from {NAME}',array('NAME' => 'neeke'))); //з часовим loggervar_dump(SeasLog::emergency('log message from {NAME}',array('NAME' => 'neeke'),'tmp_logger'));var_dump(SeasLog::getBuffer());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -57,18 +57,18 @@ bool(true)
 bool(true)
 bool(true)
 array(2) {
-["/var/log/www/default/20180707.log"]u003d>
+["/var/log/www/default/20180707.log"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(81) "2018-07-07 11:45:49 | EMERGENCY | 73263 | 5b40376d1067c | 1530935149.68 | log message
 "
-[1]u003d>
+[1]=>
 string(92) "2018-07-07 11:45:49 | EMERGENCY | 73263 | 5b40376d1067c | 1530935149.68 | log message from neeke
 "
 }
-["/var/log/www/tmp_logger/20180707.log"]u003d>
+["/var/log/www/tmp_logger/20180707.log"]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(92) "2018-07-07 11:45:49 | EMERGENCY | 73263 | 5b40376d1067c | 1530935149.68 | log message from neeke
 "
 }

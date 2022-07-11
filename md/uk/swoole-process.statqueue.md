@@ -8,7 +8,7 @@
 
 # Swoole\Process::statQueue
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::statQueue — Отримує статистику черги повідомлень,
 використовується як метод зв'язку між процесами

@@ -7,7 +7,7 @@
 
 # Клас SolrClient
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 ## Вступ
 
@@ -20,29 +20,29 @@ final class **SolrClient** {
 
 /\* Константи \*/
 
-const int `SEARCH_SERVLET_TYPE` u003d 1;
+const int `SEARCH_SERVLET_TYPE` = 1;
 
-const int `UPDATE_SERVLET_TYPE` u003d 2;
+const int `UPDATE_SERVLET_TYPE` = 2;
 
-const int `THREADS_SERVLET_TYPE` u003d 4;
+const int `THREADS_SERVLET_TYPE` = 4;
 
-const int `PING_SERVLET_TYPE` u003d 8;
+const int `PING_SERVLET_TYPE` = 8;
 
-const int `TERMS_SERVLET_TYPE` u003d 16;
+const int `TERMS_SERVLET_TYPE` = 16;
 
-const int `SYSTEM_SERVLET_TYPE` u003d 32;
+const int `SYSTEM_SERVLET_TYPE` = 32;
 
-const string `DEFAULT_SEARCH_SERVLET` u003d select;
+const string `DEFAULT_SEARCH_SERVLET` = select;
 
-const string `DEFAULT_UPDATE_SERVLET` u003d update;
+const string `DEFAULT_UPDATE_SERVLET` = update;
 
-const string `DEFAULT_THREADS_SERVLET` u003d admin/threads;
+const string `DEFAULT_THREADS_SERVLET` = admin/threads;
 
-const string `DEFAULT_PING_SERVLET` u003d admin/ping;
+const string `DEFAULT_PING_SERVLET` = admin/ping;
 
-const string `DEFAULT_TERMS_SERVLET` u003d terms;
+const string `DEFAULT_TERMS_SERVLET` = terms;
 
-const string `DEFAULT_SYSTEM_SERVLET` u003d admin/system;
+const string `DEFAULT_SYSTEM_SERVLET` = admin/system;
 
 /\* Методи \*/
 
@@ -51,14 +51,14 @@ public [\_\_construct](solrclient.construct.md)(array
 
 public
 [addDocument](solrclient.adddocument.md)([SolrInputDocument](class.solrinputdocument.md)
-`$doc`, bool `$overwrite` u003d **`true`**, int `$commitWithin` u003d 0):
+`$doc`, bool `$overwrite` = **`true`**, int `$commitWithin` = 0):
 [SolrUpdateResponse](class.solrupdateresponse.md)
 
 public [addDocuments](solrclient.adddocuments.md)(array `$docs`, bool
-`$overwrite` u003d **`true`**, int `$commitWithin` u003d 0): void
+`$overwrite` = **`true`**, int `$commitWithin` = 0): void
 
-public [commit](solrclient.commit.md)(bool `$softCommit` u003d
-**`false`**, bool `$waitSearcher` u003d **`true`**, bool `$expungeDeletes` u003d
+public [commit](solrclient.commit.md)(bool `$softCommit` =
+**`false`**, bool `$waitSearcher` = **`true`**, bool `$expungeDeletes` =
 **`false`**): [SolrUpdateResponse](class.solrupdateresponse.md)
 
 public [deleteById](solrclient.deletebyid.md)(string `$id`):
@@ -83,8 +83,8 @@ public [getDebug](solrclient.getdebug.md)(): string
 
 public [getOptions](solrclient.getoptions.md)(): array
 
-public [optimize](solrclient.optimize.md)(int `$maxSegments` u003d 1, bool
-`$softCommit` u003d **`true`**, bool `$waitSearcher` u003d **`true`**):
+public [optimize](solrclient.optimize.md)(int `$maxSegments` = 1, bool
+`$softCommit` = **`true`**, bool `$waitSearcher` = **`true`**):
 [SolrUpdateResponse](class.solrupdateresponse.md)
 
 public [ping](solrclient.ping.md)():

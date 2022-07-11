@@ -7,7 +7,7 @@
 
 # JsonSerializable::jsonSerialize
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 JsonSerializable::jsonSerialize — Задає дані, які мають бути
 серіалізовані в JSON
@@ -35,7 +35,7 @@ public **JsonSerializable::jsonSerialize**():
 **Приклад #1 Приклад використання **JsonSerializable::jsonSerialize()**,
 повертає масив (array)**
 
-` <?phpclass ArrayValue implements JsonSerializable {    public function __construct(array $array) {       $this->array u003d $array; }    public function jsonSerialize() {        return $this->array; }}$array u003d [1, 2, 3];echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);?> `
+` <?phpclass ArrayValue implements JsonSerializable {    public function __construct(array $array) {       $this->array = $array; }    public function jsonSerialize() {        return $this->array; }}$array = [1, 2, 3];echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);?> `
 
 Результат виконання цього прикладу:
 
@@ -48,7 +48,7 @@ public **JsonSerializable::jsonSerialize**():
 **Приклад #2 Приклад використання **JsonSerializable::jsonSerialize()**,
 повертає асоціативний масив (array)**
 
-` <?phpclass ArrayValue implements JsonSerializable {    public function __construct(array $array) {       $this->array u003d $array; }    public function jsonSerialize() {        return $this->array; }}$array u003d ['foo' u003d> 'bar', 'quux' u003d> 'baz'];echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);?> `
+` <?phpclass ArrayValue implements JsonSerializable {    public function __construct(array $array) {       $this->array = $array; }    public function jsonSerialize() {        return $this->array; }}$array = ['foo' => 'bar', 'quux' => 'baz'];echo json_encode(new ArrayValue($array), JSON_PRETTY_PRINT);?> `
 
 Результат виконання цього прикладу:
 
@@ -60,7 +60,7 @@ public **JsonSerializable::jsonSerialize**():
 **Приклад #3 Приклад використання **JsonSerializable::jsonSerialize()**,
 повертає ціле значення (int)**
 
-`<?phpclass IntegerValue implements JsonSerializable {    public function __construct($number) {       $this->number u003d (integer) $number; }    public function jsonSerialize() {        return $this->number; }}echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);?> `
+`<?phpclass IntegerValue implements JsonSerializable {    public function __construct($number) {       $this->number = (integer) $number; }    public function jsonSerialize() {        return $this->number; }}echo json_encode(new IntegerValue(1), JSON_PRETTY_PRINT);?> `
 
 Результат виконання цього прикладу:
 
@@ -69,7 +69,7 @@ public **JsonSerializable::jsonSerialize**():
 **Приклад #4 Приклад використання **JsonSerializable::jsonSerialize()**,
 повертає рядок (string)**
 
-` <?phpclass StringValue implements JsonSerializable {    public function __construct($string) {        $this->string u003d (string) $string; }    public function jsonSerialize() {        return $this->string; }}echo json_encode(new StringValue('Hello!'), JSON_PRETTY_PRINT);?> `
+` <?phpclass StringValue implements JsonSerializable {    public function __construct($string) {        $this->string = (string) $string; }    public function jsonSerialize() {        return $this->string; }}echo json_encode(new StringValue('Hello!'), JSON_PRETTY_PRINT);?> `
 
 Результат виконання цього прикладу:
 

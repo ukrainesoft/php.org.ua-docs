@@ -7,7 +7,7 @@
 
 # openssl_cipher_iv_length
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 openssl_cipher_iv_length — Отримує довжину вектора, що ініціалізує.
 шифру
@@ -37,7 +37,7 @@ openssl_cipher_iv_length — Отримує довжину вектора, що 
 
 **Приклад #1 Приклад використання **openssl_cipher_iv_length()****
 
-` <?php$method u003d 'AES-128-CBC';$ivlen u003d openssl_cipher_iv_length($method);echo $ivlen;?> `
+` <?php$method = 'AES-128-CBC';$ivlen = openssl_cipher_iv_length($method);echo $ivlen;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

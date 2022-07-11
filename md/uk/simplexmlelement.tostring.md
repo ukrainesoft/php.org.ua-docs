@@ -7,7 +7,7 @@
 
 # SimpleXMLElement::\_\_toString
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SimpleXMLElement::\_\_toString — Повертає вміст рядка
 
@@ -31,7 +31,7 @@ public **SimpleXMLElement::\_\_toString**(): string
 
 **Приклад #1 Отримати вміст рядка**
 
-` <?php$xml u003d new SimpleXMLElement('<a>1 <b>2 </b>3</a>');echo $xml;?> `
+` <?php$xml = new SimpleXMLElement('<a>1 <b>2 </b>3</a>');echo $xml;?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 #cubrid_num_rows
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_num_rows — Отримати кількість рядків у наборі результатів
 
@@ -46,7 +46,7 @@ cubrid_num_rows — Отримати кількість рядків у набо
 
 **Приклад #1 Приклад використання **cubrid_num_rows()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");$req u003d cubrid_execute($conn, "SELECT * FROM code");$row_num $u003d col_num u003d cubrid_num_cols($req);printf("Кількість рядків: %d
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT * FROM code");$row_num $= col_num = cubrid_num_cols($req);printf("Кількість рядків: %d
 Кількість стовпців: % d
 ", $row_num, $col_num);cubrid_disconnect($conn);?> `
 

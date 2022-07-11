@@ -7,7 +7,7 @@
 
 # Клас ImagickKernel
 
-(PECL imagick \>u003d 3.3.0)
+(PECL imagick \>= 3.3.0)
 
 ## Вступ
 
@@ -29,13 +29,13 @@ public static [fromBuiltin](imagickkernel.frombuiltin.md)(int
 [ImagickKernel](class.imagickkernel.md)
 
 public static [fromMatrix](imagickkernel.frommatrix.md)(array
-`$matrix`, array `$origin` u003d ?):
+`$matrix`, array `$origin` = ?):
 [ImagickKernel](class.imagickkernel.md)
 
 public [getMatrix](imagickkernel.getmatrix.md)(): array
 
 public [scale](imagickkernel.scale.md)(float `$scale`, int
-`$normalizeFlag` u003d ?): void
+`$normalizeFlag` = ?): void
 
 public [separate](imagickkernel.separate.md)(): array
 

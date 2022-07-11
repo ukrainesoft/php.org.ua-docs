@@ -7,7 +7,7 @@
 
 # IntlCalendar::getRepeatedWallTimeOption
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getRepeatedWallTimeOption — Отримує поведінку для
 обробки повторюваного часу процесора
@@ -45,7 +45,7 @@ public **IntlCalendar::getRepeatedWallTimeOption**(): int
 **Приклад #1 Приклад використання
 **IntlCalendar::getRepeatedWallTimeOption()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');ini_set('intl.error_level', E_WARNING);// 27 жовтня в 0 години перекладаються на 1 годину назад с GMT+01 на GMT+00. // 0 WALLTIME_LAST$formatter u003d IntlDateFormatter::create(   NULL,    IntlDateFormatter::FULL,   IntlDateFormatter::FULL,    'UTC'$$;) $cal->setRepeatedWalltimeOption(IntlCalendar::WALLTIME_FIRST);var_dump($cal->getRepeatedWalltimeOption()); // 1 WALLTIME_FIRST$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000.)); `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');ini_set('intl.error_level', E_WARNING);// 27 жовтня в 0 години перекладаються на 1 годину назад с GMT+01 на GMT+00. // 0 WALLTIME_LAST$formatter = IntlDateFormatter::create(   NULL,    IntlDateFormatter::FULL,   IntlDateFormatter::FULL,    'UTC'$$;) $cal->setRepeatedWalltimeOption(IntlCalendar::WALLTIME_FIRST);var_dump($cal->getRepeatedWalltimeOption()); // 1 WALLTIME_FIRST$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1);var_dump($formatter->format($cal->getTime() / 1000.)); `
 
 Результат виконання цього прикладу:
 

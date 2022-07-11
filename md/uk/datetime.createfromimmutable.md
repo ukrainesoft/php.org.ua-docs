@@ -8,7 +8,7 @@ DateTimeImmutable
 
 # DateTime::createFromImmutable
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 DateTime::createFromImmutable — Повертає об'єкт DateTime
 інкапсулюючий заданий об'єкт DateTimeImmutable
@@ -36,4 +36,4 @@ public static
 
 **Приклад #1 Створення об'єкта, що змінюється**
 
-` <?php$date u003d new DateTimeImmutable("2014-06-20 11:45 Europe/London");$mutable u003d DateTime::createFromImmutable( $date );?> `
+` <?php$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");$mutable = DateTime::createFromImmutable( $date );?> `

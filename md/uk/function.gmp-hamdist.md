@@ -7,7 +7,7 @@
 
 #gmp_hamdist
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_hamdist — Відстань Хеммінга
 
@@ -41,7 +41,7 @@ gmp_hamdist — Відстань Хеммінга
 
 **Приклад #1 Приклад використання **gmp_hamdist()****
 
-` <?php$ham1 u003d gmp_init("1001010011", 2);$ham2 u003d gmp_init("1011111100", 2);echo gmp_hamdist($ham1, $ham2) . "
+` <?php$ham1 = gmp_init("1001010011", 2);$ham2 = gmp_init("1011111100", 2);echo gmp_hamdist($ham1, $ham2) . "
 ";/* відстань Хеммінга еквівалентно: */echo gmp_popcount(gmp_xor($ham1, $ham2)) . ""
 ";?> `
 

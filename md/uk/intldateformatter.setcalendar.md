@@ -9,7 +9,7 @@
 
 #datefmt_set_calendar
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::setCalendar -- datefmt_set_calendar — Встановлює
 тип календаря, який використовується засобом форматування
@@ -57,18 +57,18 @@ public
 ### Список змін
 
 | Версія           | Опис                                                                     |
-| ---------------- | ------------------------------------------------------------------------ |
+|------------------|--------------------------------------------------------------------------|
 | 5.5.0/PECL 3.0.0 | Додано можливість передати об'єкт [IntlCalendar](class.intlcalendar.md). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **datefmt_set_calendar()****
 
-` <?php$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);echo 'Тепер тип календаря : ' . datefmt_get_calendar($fmt);?> `
+` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип календаря средства форматирования : ' . datefmt_get_calendar($fmt);datefmt_set_calendar($fmt, IntlDateFormatter::TRADITIONAL);echo 'Тепер тип календаря : ' . datefmt_get_calendar($fmt);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();$fmt->setCalendar(IntlDateFormatter::TRADITIONAL);echo 'Тепер тип календаря : ' . $fmt->getCalendar();?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип календаря средства форматирования : ' . $fmt->getCalendar();$fmt->setCalendar(IntlDateFormatter::TRADITIONAL);echo 'Тепер тип календаря : ' . $fmt->getCalendar();?> `
 
 Результат виконання цього прикладу:
 
@@ -78,8 +78,8 @@ public
 **Приклад #3 Приклад використання [IntlCalendar](class.intlcalendar.md)
 з параметром**
 
-` <?php$time u003d strtotime("2013-03-03 00:00:00 UTC");$formatter u003d IntlDateFormatter::create("en_US", NULL, NULL, "Europe/Amsterdam");echo : ", $formatter->format($time), "
-";/* обратите внимание, что языковой стандарт календаря не используется! */$formatter->setCalendar(IntlCalendar::createInstance(               "America/New_York", "pt_PT@calendaru003dislamic"));echo "После:  ", $ formatter->format($time), "
+` <?php$time = strtotime("2013-03-03 00:00:00 UTC");$formatter = IntlDateFormatter::create("en_US", NULL, NULL, "Europe/Amsterdam");echo : ", $formatter->format($time), "
+";/* обратите внимание, что языковой стандарт календаря не используется! */$formatter->setCalendar(IntlCalendar::createInstance(               "America/New_York", "pt_PT@calendar=islamic"));echo "После:  ", $ formatter->format($time), "
 ";
 
 Результат виконання цього прикладу:

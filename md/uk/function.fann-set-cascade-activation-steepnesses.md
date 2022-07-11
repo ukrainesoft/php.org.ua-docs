@@ -7,7 +7,7 @@
 
 # fann_set_cascade_activation_steepnesses
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_activation_steepnesses — Встановлює масив крутості
 включення кандидатів у каскад

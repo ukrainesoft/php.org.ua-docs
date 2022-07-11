@@ -7,7 +7,7 @@
 
 # GearmanWorker::addFunction
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::addFunction — Реєстрація та додавання callback-функції
 
@@ -17,8 +17,8 @@ public **GearmanWorker::addFunction**(
 string `$function_name`,
 [callable](language.types.callable.md) `$function`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-int `$timeout` u003d ?
+`&$context` = ?,
+int `$timeout` = ?
 ): bool
 
 Реєструє ім'я функції на сервері завдань та додає посилання на це
@@ -52,7 +52,7 @@ Callback-функція, яка буде викликатись, коли сер
 **Приклад #1 Простий обробник використовує додаткові дані
 контексту програми**
 
-` <?php# отримуємо обробник gearman$workeru003d new GearmanWorker();# додаємо сервер за мовчанням (localhost)$worker->addServer();# визначаємо зміну, в про "reverse"$worker->addFunction("reverse", "reverse_cb", $count);# запускаємо обробникwhile ($worker->work());function reverse_cb($job, &$count){  $count++; return "$count: " . strrev($job->workload());}?> `
+` <?php# отримуємо обробник gearman$worker= new GearmanWorker();# додаємо сервер за мовчанням (localhost)$worker->addServer();# визначаємо зміну, в про "reverse"$worker->addFunction("reverse", "reverse_cb", $count);# запускаємо обробникwhile ($worker->work());function reverse_cb($job, &$count){  $count++; return "$count: " . strrev($job->workload());}?> `
 
 Якщо клієнт надішле два завдання для функції reverse, то висновок буде
 наступним:

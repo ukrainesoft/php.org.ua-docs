@@ -7,7 +7,7 @@
 
 # Клас SeasLog
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 ## Вступ
 
@@ -18,19 +18,19 @@ class **SeasLog** {
 /\* Методи \*/
 
 public static [alert](seaslog.alert.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public static [analyzerCount](seaslog.analyzercount.md)(string
-`$level`, string `$log_path` u003d ?, string `$key_word` u003d ?):
+`$level`, string `$log_path` = ?, string `$key_word` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public static [analyzerDetail](seaslog.analyzerdetail.md)(
 string `$level`,
-string `$log_path` u003d ?,
-string `$key_word` u003d ?,
-int `$start` u003d ?,
-int `$limit` u003d ?,
-int `$order` u003d ?
+string `$log_path` = ?,
+string `$key_word` = ?,
+int `$start` = ?,
+int `$limit` = ?,
+int `$order` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -38,18 +38,18 @@ public static [closeLoggerStream](seaslog.closeloggerstream.md)(int
 `$model`, string `$logger`): bool
 
 public static [critical](seaslog.critical.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public static [debug](seaslog.debug.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public [\_\_destruct](seaslog.destruct.md)()
 
 public static [emergency](seaslog.emergency.md)(string `$message`,
-array `$content` u003d ?, string `$logger` u003d ?): bool
+array `$content` = ?, string `$logger` = ?): bool
 
 public static [error](seaslog.error.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public static [flushBuffer](seaslog.flushbuffer.md)(): bool
 
@@ -70,17 +70,17 @@ public static [getRequestVariable](seaslog.getrequestvariable.md)(int
 `$key`): bool
 
 public static [info](seaslog.info.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public static [log](seaslog.log.md)(
 string `$level`,
-string `$message` u003d ?,
-array `$content` u003d ?,
-string `$logger` u003d ?
+string `$message` = ?,
+array `$content` = ?,
+string `$logger` = ?
 ): bool
 
 public static [notice](seaslog.notice.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 public static [setBasePath](seaslog.setbasepath.md)(string
 `$base_path`): bool
@@ -98,7 +98,7 @@ public static [setRequestVariable](seaslog.setrequestvariable.md)(int
 `$key`, string `$value`): bool
 
 public static [warning](seaslog.warning.md)(string `$message`, array
-`$content` u003d ?, string `$logger` u003d ?): bool
+`$content` = ?, string `$logger` = ?): bool
 
 }
 

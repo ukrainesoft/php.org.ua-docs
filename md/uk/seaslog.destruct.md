@@ -7,7 +7,7 @@
 
 # SeasLog::\_\_destruct
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::\_\_destruct — Опис
 

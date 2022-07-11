@@ -7,7 +7,7 @@
 
 # Gmagick::getcopyright
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getcopyright — Повертає копірайт GraphicsMagick API у вигляді
 рядки

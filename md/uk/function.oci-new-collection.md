@@ -7,14 +7,14 @@
 
 #oci_new_collection
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_new_collection — Створює новий об'єкт колекції
 
 ### Опис
 
 **oci_new_collection**(resource `$connection`, string `$type_name`,
-?string `$schema` u003d **`null`**):
+?string `$schema` = **`null`**):
 [OCICollection](class.ocicollection.md)\|false
 
 Створює новий об'єкт колекції.
@@ -42,7 +42,7 @@ oci_new_collection — Створює новий об'єкт колекції
 ### Список змін
 
 | Версія                 | Опис                                  |
-| ---------------------- | ------------------------------------- |
+|------------------------|---------------------------------------|
 | 8.0.0, PECL OCI8 3.0.0 | schema тепер припускає значення null. |
 
 ### Примітки

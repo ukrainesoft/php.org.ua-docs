@@ -7,7 +7,7 @@
 
 # OAuth::setRSACertificate
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuth::setRSACertificate — Встановити сертифікат RSA
 
@@ -36,14 +36,14 @@ public **OAuth::setRSACertificate**(string `$cert`):
 ### Список змін
 
 | Версія           | Опис                                                                    |
-| ---------------- | ----------------------------------------------------------------------- |
+|------------------|-------------------------------------------------------------------------|
 | PECL oauth 1.0.0 | Раніше у разі виникнення помилки повертався **null** замість **false**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **OAuth::setRsaCertificate()****
 
-` <?php$consume u003d new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);$consume->setRSACertificate(file_get_contents('test.pem'));?> `
+` <?php$consume = new OAuth('1234', '', OAUTH_SIG_METHOD_RSASHA1);$consume->setRSACertificate(file_get_contents('test.pem'));?> `
 
 ### Дивіться також
 

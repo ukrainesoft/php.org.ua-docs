@@ -7,13 +7,13 @@
 
 # ArrayIterator::asort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayIterator::asort — Сортує елементи за значеннями
 
 ### Опис
 
-public **ArrayIterator::asort**(int `$flags` u003d **`SORT_REGULAR`**): bool
+public **ArrayIterator::asort**(int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує елементи за значеннями.
 

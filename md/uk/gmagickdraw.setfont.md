@@ -7,7 +7,7 @@
 
 # GmagickDraw::setfont
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setfont — Встановлює вказаний шрифт для використання
 при анотації тексту

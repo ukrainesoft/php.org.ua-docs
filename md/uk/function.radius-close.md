@@ -7,7 +7,7 @@
 
 # radius_close
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_close - Звільняє всі ресурси
 

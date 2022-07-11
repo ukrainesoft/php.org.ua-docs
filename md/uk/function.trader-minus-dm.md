@@ -7,13 +7,13 @@
 
 #trader_minus_dm
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_minus_dm — Мінус-спрямований рух
 
 ### Опис
 
-**trader_minus_dm**(array `$high`, array `$low`, int `$timePeriod` u003d ?):
+**trader_minus_dm**(array `$high`, array `$low`, int `$timePeriod` = ?):
 array
 
 ### Список параметрів

@@ -7,14 +7,14 @@
 
 # XMLReader::XML
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::XML — Встановити дані, що містять XML для аналізу
 
 ### Опис
 
-public static **XMLReader::XML**(string `$source`, ?string `$encoding` u003d
-**`null`**, int `$flags` u003d 0): bool\|[XMLReader](class.xmlreader.md)
+public static **XMLReader::XML**(string `$source`, ?string `$encoding` =
+**`null`**, int `$flags` = 0): bool\|[XMLReader](class.xmlreader.md)
 
 Встановлює дані, що містять XML для аналізу.
 
@@ -44,7 +44,7 @@ public static **XMLReader::XML**(string `$source`, ?string `$encoding` u003d
 ### Список змін
 
 | Версія | Опис                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | **XMLReader::XML()** тепер оголошений як статичний метод, але може бути викликаний в екземплярі [XMLReader](class.xmlreader.md). |
 
 ### Дивіться також

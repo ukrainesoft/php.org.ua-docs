@@ -12,8 +12,8 @@
 
 **Приклад #1 Приклад роботи з MySQL**
 
-` <?php// З'єднуємось, вибираємо базу даних$link u003d mysql_connect('mysql_host', 'mysql_user', 'mysql_password')    or die('Не удалося|з'єднатися: ' ' ; mysql_select_db('my_database') or die('Не удалося обрати базу даних');// Виконуємо SQL-запит$query u003d 'SELECT * FROM my_table';$result u003d mysql_query( $| ' . mysql_error());// Виводимо результати в htmlecho "<table>
-";while ($line u003d mysql_fetch_array($result, MYSQL_ASSOC)) {    echo " <tr>
+` <?php// З'єднуємось, вибираємо базу даних$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')    or die('Не удалося|з'єднатися: ' ' ; mysql_select_db('my_database') or die('Не удалося обрати базу даних');// Виконуємо SQL-запит$query = 'SELECT * FROM my_table';$result = mysql_query( $| ' . mysql_error());// Виводимо результати в htmlecho "<table>
+";while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {    echo " <tr>
 ";    foreach ($line as $col_value) {        echo " <td>$col_value</td>
 ";    }    echo " </tr>
 ";}echo "</table>

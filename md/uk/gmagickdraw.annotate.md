@@ -7,7 +7,7 @@
 
 # GmagickDraw::annotate
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::annotate — Малює текст на зображенні
 

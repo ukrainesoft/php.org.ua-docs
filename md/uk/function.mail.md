@@ -17,8 +17,8 @@ mail — Надсилає електронну пошту
 string `$to`,
 string `$subject`,
 string `$message`,
-array\|string `$additional_headers` u003d [],
-string `$additional_params` u003d ""
+array\|string `$additional_headers` = [],
+string `$additional_params` = ""
 ): bool
 
 Надсилає електронну пошту.
@@ -53,7 +53,7 @@ string `$additional_params` u003d ""
 На початку рядка стоїть точка, то вона буде видалена. Щоб уникнути цього
 замініть усі такі точки на дві.
 
-` <?php$text u003d str_replace("
+` <?php$text = str_replace("
 .", "
 ..", $text);?> `
 
@@ -137,7 +137,7 @@ string `$additional_params` u003d ""
 ### Список змін
 
 | Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
+|--------|---------------------------------------------------------------|
 | 7.2.0  | Параметр additional_headers може набувати значень типу масив. |
 
 ### Приклади
@@ -146,9 +146,9 @@ string `$additional_params` u003d ""
 
 Використання функції **mail()** для надсилання простого листа:
 
-` <?php// Повідомлення$message u003d "Line 1
+` <?php// Повідомлення$message = "Line 1
 Line 2
-Line 3";// На випадок якщо рядок листи довші 70 символів ми ми використовуємо wordwrap()$message u003d wordwrap($message, 70, "
+Line 3";// На випадок якщо рядок листи довші 70 символів ми ми використовуємо wordwrap()$message = wordwrap($message, 70, "
 ");// Відправляємо mail('caffeinated@example.com', 'My Subject', $message);?> `
 
 **Приклад #2 Надсилання листа з додатковими заголовками.**
@@ -156,7 +156,7 @@ Line 3";// На випадок якщо рядок листи довші�
 Додавання простих заголовків, які повідомляють поштовий агент адреси From і
 Reply-To:
 
-` <?php$to      u003d 'nobody@example.com';$subject u003d 'the subject';$message u003d 'hello';$headers u003d 'From: webmaster@example.com' . "
+` <?php$to      = 'nobody@example.com';$subject = 'the subject';$message = 'hello';$headers = 'From: webmaster@example.com' . "
 " .   'Reply-To: webmaster@example.com' . "
 " .    'X-Mailer: PHP/' . phpversion();mail($to, $subject, $message, $headers);?> `
 
@@ -166,7 +166,7 @@ Reply-To:
 У цьому прикладі надсилається той же лист, що і в прикладі вище, але
 додаткові заголовки задаються масивом (доступно з PHP 7.2.0).
 
-` <?php$to      u003d 'nobody@example.com';$subject u003d 'the subject';$message u003d 'hello';$headers u003d array(    'From' u003d> '             -To' u003d> 'webmaster@example.com',    'X-Mailer' u003d> 'PHP/' . phpversion());mail($to, $subject, $message, $headers);?> `
+` <?php$to      = 'nobody@example.com';$subject = 'the subject';$message = 'hello';$headers = array(    'From' => '             -To' => 'webmaster@example.com',    'X-Mailer' => 'PHP/' . phpversion());mail($to, $subject, $message, $headers);?> `
 
 **Приклад #4 Надсилання листа з додатковими аргументами командної
 рядки.**
@@ -181,9 +181,9 @@ Reply-To:
 
 За допомогою функції **mail()** також можна надіслати HTML-лист.
 
-`<?php// кілька одержувачів$to u003d 'johny@example.com, sally@example.com'; // зверніть увагу на кому// тема листа$subject u003d 'Birthday Reminders for August';// текст листа$message u003d '<html><head> <title>B> body>  <p>Here are the birthdays upcoming in August!</p>  <table>    <tr>     <th>Person</th><th>Day</th><th>Month</th> Year</th>    </tr>    <tr>      <td>Johny</td><td>10th</td><td>August</td><td>1970</td>    </tr> >      <td>Sally</td><td>17th</td><td>August</td><td>1973</td>    </tr>  </table></body></html>' ;// Для відправки HTML-листи повинен бути встановлений заголовок Content-type$headers u003d 'MIME-Version: 1.0' . "
-";$headers .u003d 'Content-type: text/html; charsetu003diso-8859-1' . "
-";// Додаткові заголовки$headers[] u003d 'To: Mary <mary@example.com>, Kelly <kelly@example.com>';$headers[] u003d 'From: Birthday Reminder <birthday@ ';$headers[] u003d 'Cc: birthdayarchive@example.com';$headers[] u003d 'Bcc: birthdaycheck@example.com';// Відправляємо mail($to, $subject, $message, implode("
+`<?php// кілька одержувачів$to = 'johny@example.com, sally@example.com'; // зверніть увагу на кому// тема листа$subject = 'Birthday Reminders for August';// текст листа$message = '<html><head> <title>B> body>  <p>Here are the birthdays upcoming in August!</p>  <table>    <tr>     <th>Person</th><th>Day</th><th>Month</th> Year</th>    </tr>    <tr>      <td>Johny</td><td>10th</td><td>August</td><td>1970</td>    </tr> >      <td>Sally</td><td>17th</td><td>August</td><td>1973</td>    </tr>  </table></body></html>' ;// Для відправки HTML-листи повинен бути встановлений заголовок Content-type$headers = 'MIME-Version: 1.0' . "
+";$headers .= 'Content-type: text/html; charset=iso-8859-1' . "
+";// Додаткові заголовки$headers[] = 'To: Mary <mary@example.com>, Kelly <kelly@example.com>';$headers[] = 'From: Birthday Reminder <birthday@ ';$headers[] = 'Cc: birthdayarchive@example.com';$headers[] = 'Bcc: birthdaycheck@example.com';// Відправляємо mail($to, $subject, $message, implode("
 ", $headers));?> `
 
 > **Примітка**:

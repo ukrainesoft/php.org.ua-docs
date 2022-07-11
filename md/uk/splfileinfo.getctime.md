@@ -7,7 +7,7 @@
 
 # SplFileInfo::getCTime
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getCTime — Повертає час останньої зміни індексного
 дескриптора файлу
@@ -37,7 +37,7 @@ public **SplFileInfo::getCTime**(): int\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getCTime()****
 
-` <?php$info u003d new SplFileInfo(__FILE__);echo 'Час останньої зміни ' . date('g:i a', $info->getCTime());?> `
+` <?php$info = new SplFileInfo(__FILE__);echo 'Час останньої зміни ' . date('g:i a', $info->getCTime());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

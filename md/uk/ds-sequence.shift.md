@@ -7,7 +7,7 @@
 
 # Ds\Sequence::shift
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::shift — Видаляє та повертає перше значення
 
@@ -36,7 +36,7 @@ abstract public **Ds\Sequence::shift**():
 
 **Приклад #1 Приклад використання **Ds\Sequence::shift()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c"]);var_dump($sequence->shift());var_dump($sequence->shift()); var_dump($sequence->shift());?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);var_dump($sequence->shift());var_dump($sequence->shift()); var_dump($sequence->shift());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

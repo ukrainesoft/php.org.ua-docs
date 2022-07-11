@@ -7,7 +7,7 @@
 
 #ftok
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 ftok — Перетворення шляху та ідентифікатора проекту на ключ System V IPC
 

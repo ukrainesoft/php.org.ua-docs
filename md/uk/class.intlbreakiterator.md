@@ -7,7 +7,7 @@
 
 # Клас IntlBreakIterator
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -35,43 +35,43 @@ class **IntlBreakIterator** implements
 
 /\* Константи \*/
 
-const int `DONE` u003d -1;
+const int `DONE` = -1;
 
-const int `WORD_NONE` u003d 0;
+const int `WORD_NONE` = 0;
 
-const int `WORD_NONE_LIMIT` u003d 100;
+const int `WORD_NONE_LIMIT` = 100;
 
-const int `WORD_NUMBER` u003d 100;
+const int `WORD_NUMBER` = 100;
 
-const int `WORD_NUMBER_LIMIT` u003d 200;
+const int `WORD_NUMBER_LIMIT` = 200;
 
-const int `WORD_LETTER` u003d 200;
+const int `WORD_LETTER` = 200;
 
-const int `WORD_LETTER_LIMIT` u003d 300;
+const int `WORD_LETTER_LIMIT` = 300;
 
-const int `WORD_KANA` u003d 300;
+const int `WORD_KANA` = 300;
 
-const int `WORD_KANA_LIMIT` u003d 400;
+const int `WORD_KANA_LIMIT` = 400;
 
-const int `WORD_IDEO` u003d 400;
+const int `WORD_IDEO` = 400;
 
-const int `WORD_IDEO_LIMIT` u003d 500;
+const int `WORD_IDEO_LIMIT` = 500;
 
-const int `LINE_SOFT` u003d 0;
+const int `LINE_SOFT` = 0;
 
-const int `LINE_SOFT_LIMIT` u003d 100;
+const int `LINE_SOFT_LIMIT` = 100;
 
-const int `LINE_HARD` u003d 100;
+const int `LINE_HARD` = 100;
 
-const int `LINE_HARD_LIMIT` u003d 200;
+const int `LINE_HARD_LIMIT` = 200;
 
-const int `SENTENCE_TERM` u003d 0;
+const int `SENTENCE_TERM` = 0;
 
-const int `SENTENCE_TERM_LIMIT` u003d 100;
+const int `SENTENCE_TERM_LIMIT` = 100;
 
-const int `SENTENCE_SEP` u003d 100;
+const int `SENTENCE_SEP` = 100;
 
-const int `SENTENCE_SEP_LIMIT` u003d 200;
+const int `SENTENCE_SEP_LIMIT` = 200;
 
 /\* Методи \*/
 
@@ -79,7 +79,7 @@ private [\_\_construct](intlbreakiterator.construct.md)()
 
 public static
 [createCharacterInstance](intlbreakiterator.createcharacterinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
@@ -88,22 +88,22 @@ public static
 
 public static
 [createLineInstance](intlbreakiterator.createlineinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [createSentenceInstance](intlbreakiterator.createsentenceinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [createTitleInstance](intlbreakiterator.createtitleinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [createWordInstance](intlbreakiterator.createwordinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public [current](intlbreakiterator.current.md)(): int
@@ -126,7 +126,7 @@ string
 
 public
 [getPartsIterator](intlbreakiterator.getpartsiterator.md)(string
-`$type` u003d IntlPartsIterator::KEY_SEQUENTIAL):
+`$type` = IntlPartsIterator::KEY_SEQUENTIAL):
 [IntlPartsIterator](class.intlpartsiterator.md)
 
 public [getText](intlbreakiterator.gettext.md)(): ?string
@@ -136,7 +136,7 @@ bool
 
 public [last](intlbreakiterator.last.md)(): int
 
-public [next](intlbreakiterator.next.md)(?int `$offset` u003d **`null`**):
+public [next](intlbreakiterator.next.md)(?int `$offset` = **`null`**):
 int
 
 public [preceding](intlbreakiterator.preceding.md)(int `$offset`): int
@@ -190,7 +190,7 @@ public [setText](intlbreakiterator.settext.md)(string `$text`): ?bool
 ## Список змін
 
 | Версія | Опис                                                                                                                                                                                  |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Клас **IntlBreakIterator** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md). |
 
 ## Зміст

@@ -8,7 +8,7 @@
 
 # RarException::isUsingExceptions
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarException::isUsingExceptions — Перевірити, чи будуть функції повертати
 помилки або викидати винятки

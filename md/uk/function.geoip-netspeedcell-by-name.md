@@ -7,7 +7,7 @@
 
 # geoip_netspeedcell_by_name
 
-(PECL geoip \>u003d 1.1.0)
+(PECL geoip \>= 1.1.0)
 
 geoip_netspeedcell_by_name — Отримати швидкість з'єднання з мережею
 Інтернет
@@ -50,7 +50,7 @@ GeoIP Domain Edition. Якщо коректна база даних не
 
 Отримання швидкості підключення до example.com.
 
-` <?php$netspeed u003d geoip_netspeedcell_by_name('www.example.com');if ($netspeed) {    echo 'Тип з'єднання: '. $netspeed;}?> `
+` <?php$netspeed = geoip_netspeedcell_by_name('www.example.com');if ($netspeed) {    echo 'Тип з'єднання: '. $netspeed;}?> `
 
 Результат виконання цього прикладу:
 

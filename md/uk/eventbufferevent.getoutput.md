@@ -8,7 +8,7 @@
 
 # EventBufferEvent::getOutput
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::getOutput — Повертає базовий вихідний буфер,
 пов'язаний з поточною буферною подією
@@ -37,9 +37,9 @@ public **EventBufferEvent::getOutput**():
 
 **Приклад #1 Приклад використання **EventBufferEvent::getOutput()****
 
-` <?php$base u003d new EventBase();$dns_base u003d new EventDnsBase($base, TRUE); // Використовувати асинхронне дозвіл DNSif (!$dns_base) {    exit("Не удалося ініціалізувати базу DNS
-");}$bev u003d new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
-");}$bev->enable(Event::READ | Event::WRITE);$output u003d $bev->getOutput();if (!$output->add(    "GET {$argv[2]} HTTP/1.0
+` <?php$base = new EventBase();$dns_base = new EventDnsBase($base, TRUE); // Використовувати асинхронне дозвіл DNSif (!$dns_base) {    exit("Не удалося ініціалізувати базу DNS
+");}$bev = new EventBufferEvent($base, /* использовать внутренний сокет */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
+");}$bev->enable(Event::READ | Event::WRITE);$output = $bev->getOutput();if (!$output->add(    "GET {$argv[2]} HTTP/1.0
 ".    "Host: {$argv[1]}
 ".    "Connection: Close
 

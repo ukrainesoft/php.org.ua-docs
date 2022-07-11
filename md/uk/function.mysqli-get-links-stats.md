@@ -7,7 +7,7 @@
 
 # mysqli_get_links_stats
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 mysqli_get_links_stats — Повертає інформацію про відкриті та
 закешованих з'єднаннях MySQL

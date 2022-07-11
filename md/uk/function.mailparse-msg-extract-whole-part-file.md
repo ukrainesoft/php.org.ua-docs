@@ -7,7 +7,7 @@
 
 #mailparse_msg_extract_whole_part_file
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_extract_whole_part_file — Вийняти секцію повідомлення разом
 із заголовками без декодування
@@ -15,7 +15,7 @@ mailparse_msg_extract_whole_part_file — Вийняти секцію повід
 ### Опис
 
 **mailparse_msg_extract_whole_part_file**(resource `$mimemail`, string
-`$filename`, [callable](language.types.callable.md) `$callbackfunc` u003d
+`$filename`, [callable](language.types.callable.md) `$callbackfunc` =
 ?): string
 
 **Увага**

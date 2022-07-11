@@ -7,7 +7,7 @@
 
 # RecursiveTreeIterator::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 RecursiveTreeIterator::\_\_construct — Конструктор класу
 RecursiveTreeIterator
@@ -17,9 +17,9 @@ RecursiveTreeIterator
 public **RecursiveTreeIterator::\_\_construct**(
 [RecursiveIterator](class.recursiveiterator.md)\|[IteratorAggregate](class.iteratoraggregate.md)
 `$iterator`,
-int `$flags` u003d RecursiveTreeIterator::BYPASS_KEY,
-int `$cachingIteratorFlags` u003d CachingIterator::CATCH_GET_CHILD,
-int `$mode` u003d RecursiveTreeIterator::SELF_FIRST
+int `$flags` = RecursiveTreeIterator::BYPASS_KEY,
+int `$cachingIteratorFlags` = CachingIterator::CATCH_GET_CHILD,
+int `$mode` = RecursiveTreeIterator::SELF_FIRST
 )
 
 Створює новий об'єкт класу

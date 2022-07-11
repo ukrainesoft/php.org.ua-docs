@@ -7,7 +7,7 @@
 
 # Gmagick::getimagedispose
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagedispose — Отримує спосіб видалення зображення
 

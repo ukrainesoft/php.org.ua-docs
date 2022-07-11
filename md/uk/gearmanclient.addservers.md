@@ -7,13 +7,13 @@
 
 # GearmanClient::addServers
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addServers — Додати список серверів завдань для клієнта
 
 ### Опис
 
-public **GearmanClient::addServers**(string `$servers` u003d
+public **GearmanClient::addServers**(string `$servers` =
 127.0.0.1:4730): bool
 
 Додає список серверів завдань, які можуть бути використані для
@@ -35,7 +35,7 @@ public **GearmanClient::addServers**(string `$servers` u003d
 
 **Приклад #1 Додавання двох серверів задач**
 
-`<?php# Створюємо наш клієнтський об'єкт$gmclientu003d new GearmanClient();# Добавляємо кілька серверів задач, перший з них працює за умовчанням 0:00:00:0. ;?> `
+`<?php# Створюємо наш клієнтський об'єкт$gmclient= new GearmanClient();# Добавляємо кілька серверів задач, перший з них працює за умовчанням 0:00:00:0. ;?> `
 
 ### Дивіться також
 

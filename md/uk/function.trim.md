@@ -13,7 +13,7 @@ trim — Видалення пробілів (або інших символів
 
 ### Опис
 
-**trim**(string `$string`, string `$characters` u003d "
+**trim**(string `$string`, string `$characters` = "
 
 \x00"):
 string
@@ -50,8 +50,8 @@ string
 
 **Приклад #1 Приклад використання **trim()****
 
-` <?php$text   u003d " These are a few words :) ...  ";$binary u003d "\x09Example string\x0A";$hello  u003d "Hello World";var_dump$$$ ;print "
-";$trimmed u003d trim($text);var_dump($trimmed);$trimmed u003d trim($text, "  .");var_dump($trimmed);$trimmed u003d trim($hello, "Hdle");var_dump ($trimmed);$trimmed u003d trim($hello, HdWr');var_dump($trimmed); ($binary, "\x00..\x1F");var_dump($clean);?> `
+` <?php$text   = " These are a few words :) ...  ";$binary = "\x09Example string\x0A";$hello  = "Hello World";var_dump$$$ ;print "
+";$trimmed = trim($text);var_dump($trimmed);$trimmed = trim($text, "  .");var_dump($trimmed);$trimmed = trim($hello, "Hdle");var_dump ($trimmed);$trimmed = trim($hello, HdWr');var_dump($trimmed); ($binary, "\x00..\x1F");var_dump($clean);?> `
 
 Результат виконання цього прикладу:
 
@@ -68,24 +68,24 @@ string(14) "Example string"
 
 **Приклад #2 Обрізання значень масиву за допомогою **trim()****
 
-` <?phpfunction trim_value(&$value){   $value u003d trim($value);}$fruit u003d array('apple','banana ', ' cranberry ');var_dump($fruit 'trim_value');var_dump($fruit);?> `
+` <?phpfunction trim_value(&$value){   $value = trim($value);}$fruit = array('apple','banana ', ' cranberry ');var_dump($fruit 'trim_value');var_dump($fruit);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(5) "apple"
-[1]u003d>
+[1]=>
 string(7) "banana"
-[2]u003d>
+[2]=>
 string(11) " cranberry "
 }
 array(3) {
-[0]u003d>
+[0]=>
 string(5) "apple"
-[1]u003d>
+[1]=>
 string(6) "banana"
-[2]u003d>
+[2]=>
 string(9) "cranberry"
 }
 

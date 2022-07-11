@@ -7,14 +7,14 @@
 
 # GearmanWorker::addServer
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::addServer — Додавання сервера завдань
 
 ### Опис
 
-public **GearmanWorker::addServer**(string `$host` u003d 127.0.0.1, int
-`$port` u003d 4730): bool
+public **GearmanWorker::addServer**(string `$host` = 127.0.0.1, int
+`$port` = 4730): bool
 
 Додає сервер завдань до обробника. Обробник зберігає список
 серверів, від яких може отримувати завдання на обробку. Метод
@@ -38,7 +38,7 @@ public **GearmanWorker::addServer**(string `$host` u003d 127.0.0.1, int
 
 **Приклад #1 Додавання альтернативних Gearman серверів**
 
-` <?php$workeru003d new GearmanWorker();$worker->addServer("10.0.0.1");$worker->addServer("10.0.0.2", 7003);?> `
+` <?php$worker= new GearmanWorker();$worker->addServer("10.0.0.1");$worker->addServer("10.0.0.2", 7003);?> `
 
 ### Дивіться також
 

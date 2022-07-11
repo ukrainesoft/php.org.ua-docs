@@ -42,7 +42,7 @@ feof — Перевіряє, чи кінець файлу досягнуто.
 
 **Приклад #1 Обробка часу очікування з функцією **feof()****
 
-`<?phpfunction safe_feof($fp, &$start u003d NULL) { $start u003d microtime(true); return feof($fp);}/* Припустимо, що $fp був раніше відкритий за допомогою fsockopen() */$start u003d NULL;$timeout u003d ini_get('default_socket$ ) && (microtime(true) - $start) < $timeout){ /* Обробка */}?> `
+`<?phpfunction safe_feof($fp, &$start = NULL) { $start = microtime(true); return feof($fp);}/* Припустимо, що $fp був раніше відкритий за допомогою fsockopen() */$start = NULL;$timeout = ini_get('default_socket$ ) && (microtime(true) - $start) < $timeout){ /* Обробка */}?> `
 
 **Увага**
 
@@ -51,4 +51,4 @@ feof — Перевіряє, чи кінець файлу досягнуто.
 
 **Приклад #2 Приклад **feof()** з невірним файловим покажчиком**
 
-`<?php//якщо файл не може пробутий прочитаний або не існує, fopen верне FALSE$file u003d @fopen("no_such_file", "r");// попередження| $file)) {}fclose($file);?> `
+`<?php//якщо файл не може пробутий прочитаний або не існує, fopen верне FALSE$file = @fopen("no_such_file", "r");// попередження| $file)) {}fclose($file);?> `

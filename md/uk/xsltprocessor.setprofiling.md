@@ -7,7 +7,7 @@
 
 # XSLTProcessor::setProfiling
 
-(PHP \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP \>= 5.3.0, PHP 7, PHP 8)
 
 XSLTProcessor::setProfiling — Встановлює файл для профілювання
 
@@ -32,7 +32,7 @@ public **XSLTProcessor::setProfiling**(?string `$filename`): bool
 
 **Приклад #1 Приклад виведення профілюючої інформації**
 
-` <?php// Завантаження вихідного XML$xml u003d new DOMDocument;$xml->load('collection.xml');$xsl u003d new DOMDocument;$xsl->load('collection.xsl');// На перетворення $proc u003d new XSLTProcessor;$proc->setProfiling('profiling.txt');$proc->importStyleSheet($xsl); // додавання стилів xslecho trim($proc->transformToDoc($xml)->firstChild->wholeText);?> `
+` <?php// Завантаження вихідного XML$xml = new DOMDocument;$xml->load('collection.xml');$xsl = new DOMDocument;$xsl->load('collection.xsl');// На перетворення $proc = new XSLTProcessor;$proc->setProfiling('profiling.txt');$proc->importStyleSheet($xsl); // додавання стилів xslecho trim($proc->transformToDoc($xml)->firstChild->wholeText);?> `
 
 Вищенаведений код записує таку інформацію у файл
 профільування:

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::getWriteConcern
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::getWriteConcern — Повертає WriteConcern для
 Manager
@@ -41,16 +41,16 @@ final public **MongoDB\Driver\Manager::getWriteConcern**():
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Manager::getWriteConcern()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getWriteConcern());$manager u003d new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?wu003dmajority&wtimeoutMSu003d2000');var_dump($manager->getWriteConcern());?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getWriteConcern());$manager = new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?w=majority&wtimeoutMS=2000');var_dump($manager->getWriteConcern());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\WriteConcern)#2 (0) {
 }
 object(MongoDB\Driver\WriteConcern)#1 (2) {
-["w"]u003d>
+["w"]=>
 string(8) "majority"
-["wtimeout"]u003d>
+["wtimeout"]=>
 int(2000)
 }
 

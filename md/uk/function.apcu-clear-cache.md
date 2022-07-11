@@ -7,7 +7,7 @@
 
 #apcu_clear_cache
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_clear_cache — Очистити кеш APCu
 

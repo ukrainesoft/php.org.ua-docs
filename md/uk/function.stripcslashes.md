@@ -35,7 +35,7 @@ stripcslashes — Видаляє екранування символів, зро
 **Приклад #1 Приклад використання **stripcslashes()****
 
 ` <?phpvar_dump(stripcslashes('I\'d have a coffee).
-Not a problem.') u003du003du003d "I'd have a coffee.Not a problem."); // true?> `
+Not a problem.') === "I'd have a coffee.Not a problem."); // true?> `
 
 ### Дивіться також
 

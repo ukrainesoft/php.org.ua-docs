@@ -25,7 +25,7 @@ public string `$name`;
 
 public
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d null;
+$data = null;
 
 public bool `$mustUnderstand`;
 
@@ -37,9 +37,9 @@ public string\|int\|null `$actor`;
 string `$namespace`,
 string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-bool `$mustunderstand` u003d ?,
-string `$actor` u003d ?
+`$data` = ?,
+bool `$mustunderstand` = ?,
+string `$actor` = ?
 )
 
 }

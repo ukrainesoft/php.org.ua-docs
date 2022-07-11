@@ -9,7 +9,7 @@
 
 #date_create_immutable
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::\_\_construct -- date_create_immutable - Повертає
 новий об'єкт DateTimeImmutable
@@ -18,14 +18,14 @@ DateTimeImmutable::\_\_construct -- date_create_immutable - Повертає
 
 Об'єктно-орієнтований стиль
 
-public **DateTimeImmutable::\_\_construct**(string `$datetime` u003d "now",
-?[DateTimeZone](class.datetimezone.md) `$timezone` u003d **`null`**)
+public **DateTimeImmutable::\_\_construct**(string `$datetime` = "now",
+?[DateTimeZone](class.datetimezone.md) `$timezone` = **`null`**)
 
 Процедурний стиль
 
 [date_create_immutable](function.date-create-immutable.md)(string
-`$datetime` u003d "now", ?[DateTimeZone](class.datetimezone.md)
-`$timezone` u003d **`null`**):
+`$datetime` = "now", ?[DateTimeZone](class.datetimezone.md)
+`$timezone` = **`null`**):
 [DateTimeImmutable](class.datetimeimmutable.md)\|false
 
 Повертає новий об'єкт DateTimeImmutable.
@@ -66,7 +66,7 @@ public **DateTimeImmutable::\_\_construct**(string `$datetime` u003d "now",
 ### Список змін
 
 | Версія | Опис                                                                   |
-| ------ | ---------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------|
 | 7.1.0  | Відтепер мікросекунди заповнюються фактичним значенням. Чи не '00000'. |
 
 ### Приклади
@@ -76,11 +76,11 @@ public **DateTimeImmutable::\_\_construct**(string `$datetime` u003d "now",
 
 Об'єктно-орієнтований стиль
 
-` <?phptry {    $date u003d new DateTimeImmutable('2000-01-01');} catch (Exception $e) {    echo $e->getMessage(); exit(1);}echo$date->format('Y-m-d');?> `
+` <?phptry {    $date = new DateTimeImmutable('2000-01-01');} catch (Exception $e) {    echo $e->getMessage(); exit(1);}echo$date->format('Y-m-d');?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create('2000-01-01');if (!$date) {    $e u003d date_get_last_errors(); foreach ($e['errors'] as $error) {       echo "$error
+` <?php$date = date_create('2000-01-01');if (!$date) {    $e = date_get_last_errors(); foreach ($e['errors'] as $error) {       echo "$error
 ";    }    exit(1);}echo date_format($date, 'Y-m-d');?> `
 
 Результат виконання даних прикладів:
@@ -89,12 +89,12 @@ public **DateTimeImmutable::\_\_construct**(string `$datetime` u003d "now",
 
 **Приклад #2 Тонкості **DateTimeImmutable::\_\_construct()****
 
-` <?php// Вказана дата/час в годинному поясі вашого комп'ютера.$date u003d new DateTimeImmutable('2000-01-01');echo $date->format('Y-m-d| "
-";// Зазначена дата/час в вказаному годинному поясі.$date u003d new DateTimeImmutable('2000-01-01', neu DateTimeImmutableZone('Pacific/Nauru')'); :sP') . "
-";// Поточна дата/час в годинному поясі вашого комп'ютера.$date u003d new DateTimeImmutable();echo $date->format('Y-m-d H:i:sP') .
-";// Поточна дата/час в вказаному годинному поясі.$date u003d new DateTimeImmutable(null, new DateTimeZone('Pacific/Nauru'));echo $date->format|'     |
-";// Використання тимчасової мітки UNIX. Зверніть увагу, результат в годинному поясі UTC.$date u003d new DateTimeImmutable('@946684800')|
-";// Неіснуючі значення перевертаються.$date u003d new DateTimeImmutable('2000-02-30');echo $date->format('Y-m-d H:i:sP') . ."
+` <?php// Вказана дата/час в годинному поясі вашого комп'ютера.$date = new DateTimeImmutable('2000-01-01');echo $date->format('Y-m-d| "
+";// Зазначена дата/час в вказаному годинному поясі.$date = new DateTimeImmutable('2000-01-01', neu DateTimeImmutableZone('Pacific/Nauru')'); :sP') . "
+";// Поточна дата/час в годинному поясі вашого комп'ютера.$date = new DateTimeImmutable();echo $date->format('Y-m-d H:i:sP') .
+";// Поточна дата/час в вказаному годинному поясі.$date = new DateTimeImmutable(null, new DateTimeZone('Pacific/Nauru'));echo $date->format|'     |
+";// Використання тимчасової мітки UNIX. Зверніть увагу, результат в годинному поясі UTC.$date = new DateTimeImmutable('@946684800')|
+";// Неіснуючі значення перевертаються.$date = new DateTimeImmutable('2000-02-30');echo $date->format('Y-m-d H:i:sP') . ."
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

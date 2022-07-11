@@ -28,7 +28,7 @@
 [fgets()](function.fgets.md), [fread()](function.fread.md) та
 [stream_get_contents()](function.stream-get-contents.md).
 
-` <?php$db u003d new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');$stmt u003d $db->prepare("select contenttype, imagedata from images where idu003d?"); ->execute(array($_GET['id']));$stmt->bindColumn(1, $type, PDO::PARAM_STR, 256);$stmt->bindColumn(2, $lob, PDO::PARAM_LOB );$stmt->fetch(PDO::FETCH_BOUND);header("Content-Type: $type");fpassthru($lob);?> `
+` <?php$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');$stmt = $db->prepare("select contenttype, imagedata from images where id=?"); ->execute(array($_GET['id']));$stmt->bindColumn(1, $type, PDO::PARAM_STR, 256);$stmt->bindColumn(2, $lob, PDO::PARAM_LOB );$stmt->fetch(PDO::FETCH_BOUND);header("Content-Type: $type");fpassthru($lob);?> `
 
 **Приклад #2 Вставляння зображення в базу даних**
 
@@ -37,7 +37,7 @@
 основу як LOB. PDO витягне вміст файлу і помістить його в базу
 найефективнішим способом.
 
-` <?php$db u003d new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');$stmt u003d $db->prepare("insert into images (id, contenttype, imagedata) valu values , ?)");$id u003d get_new_id(); // якась функція для виділення нового ID// припустимо,що ми перебуваємо на сторінці завантаження файлів на віддалений сервер$fp u003d fopen($_FILES['$' >bindParam(1, $id);$stmt->bindParam(2, $_FILES['file']['type']);$stmt->bindParam(3, $fp, PDO::PARAM_LOB);$db ->beginTransaction();$stmt->execute();$db->commit();?> `
+` <?php$db = new PDO('odbc:SAMPLE', 'db2inst1', 'ibmdb2');$stmt = $db->prepare("insert into images (id, contenttype, imagedata) valu values , ?)");$id = get_new_id(); // якась функція для виділення нового ID// припустимо,що ми перебуваємо на сторінці завантаження файлів на віддалений сервер$fp = fopen($_FILES['$' >bindParam(1, $id);$stmt->bindParam(2, $_FILES['file']['type']);$stmt->bindParam(3, $fp, PDO::PARAM_LOB);$db ->beginTransaction();$stmt->execute();$db->commit();?> `
 
 **Приклад #3 Вставлення зображення до бази даних: Oracle**
 
@@ -48,4 +48,4 @@
 транзакції, зміни фіксуватимуться після кожного виконаного
 запиту.
 
-` <?php$db u003d new PDO('oci:', 'scott', 'tiger');$stmtu003du003d$db->prepare("insert into images (id, contenttype, imagedata) " ."VALUES (?) , ?, EMPTY_BLOB()) RETURNING imagedata INTO ?");$id u003d get_new_id(); // якась функція для виділення ID// припустимо,що ми перебуваємо на сторінці завантаження файлів на віддалений сервер$fp u003d fopen($_FILES['file']''t'; bindParam(1, $id);$stmt->bindParam(2, $_FILES['file']['type']);$stmt->bindParam(3, $fp, PDO::PARAM_LOB);$db- >beginTransaction();$stmt->execute();$db->commit();?> `
+` <?php$db = new PDO('oci:', 'scott', 'tiger');$stmt==$db->prepare("insert into images (id, contenttype, imagedata) " ."VALUES (?) , ?, EMPTY_BLOB()) RETURNING imagedata INTO ?");$id = get_new_id(); // якась функція для виділення ID// припустимо,що ми перебуваємо на сторінці завантаження файлів на віддалений сервер$fp = fopen($_FILES['file']''t'; bindParam(1, $id);$stmt->bindParam(2, $_FILES['file']['type']);$stmt->bindParam(3, $fp, PDO::PARAM_LOB);$db- >beginTransaction();$stmt->execute();$db->commit();?> `

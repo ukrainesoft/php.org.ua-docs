@@ -7,7 +7,7 @@
 
 #gmp_random_bits
 
-(PHP 5 \>u003d 5.6.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
 
 gmp_random_bits — Випадкове число
 
@@ -34,7 +34,7 @@ gmp_random_bits — Випадкове число
 
 **Приклад #1 Приклад використання **gmp_random_bits()****
 
-`<?php$rand1 u003d gmp_random_bits(3); // випадкове число від 0 до 7$rand2 u003d gmp_random_bits(5); // випадкове число від 0 до 31echo gmp_strval($rand1) . "
+`<?php$rand1 = gmp_random_bits(3); // випадкове число від 0 до 7$rand2 = gmp_random_bits(5); // випадкове число від 0 до 31echo gmp_strval($rand1) . "
 ";echo gmp_strval($rand2) . "
 ";?> `
 

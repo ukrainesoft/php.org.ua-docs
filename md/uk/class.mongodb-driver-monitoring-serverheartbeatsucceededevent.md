@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 ## Вступ
 

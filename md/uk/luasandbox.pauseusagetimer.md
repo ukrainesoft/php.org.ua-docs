@@ -7,7 +7,7 @@
 
 # LuaSandbox::pauseUsageTimer
 
-(PECL luasandbox \>u003d 1.4.0)
+(PECL luasandbox \>= 1.4.0)
 
 LuaSandbox::pauseUsageTimer — Зупиняє таймер використання
 процесора
@@ -42,7 +42,7 @@ public **LuaSandbox::pauseUsageTimer**(): bool
 
 **Приклад #1 Керування таймером використання**
 
-`<?php// створення нового LuaSandbox і установка ліміту процесора$sandbox u003d neu LuaSandbox(); while ( microtime( true ) < $end ) {        // waste CPU cycles    }}// регистрация новой callback-функции PHP$sandbox->registerLibrary( 'php', [    'test' u003d> function () use ( $sandbox ) {        $sandbox->pauseUsageTimer();        doWait( 5 );        $sandbox->unpauseUsageTimer();        doWait( 0.1 );    },    'test2' u003d> function () use ( $sandbox ) {        $sandbox->pauseUsageTimer() ;     $sandbox->unpauseUsageTimer();        doWait( 1.1 );    }] );echo "Це не повинна 
+`<?php// створення нового LuaSandbox і установка ліміту процесора$sandbox = neu LuaSandbox(); while ( microtime( true ) < $end ) {        // waste CPU cycles    }}// регистрация новой callback-функции PHP$sandbox->registerLibrary( 'php', [    'test' => function () use ( $sandbox ) {        $sandbox->pauseUsageTimer();        doWait( 5 );        $sandbox->unpauseUsageTimer();        doWait( 0.1 );    },    'test2' => function () use ( $sandbox ) {        $sandbox->pauseUsageTimer() ;     $sandbox->unpauseUsageTimer();        doWait( 1.1 );    }] );echo "Це не повинна 
 ";$sandbox->loadString( 'php.test()' )->call();echo "Це повинно міняти.
 ";try { |$sandbox->loadString( 'php.test2()' )->call();   echo "Це не так?
 ";} catch ( LuaSandboxTimeoutError $ex ) {    echo "Це так! " . $ex->getMessage() . "

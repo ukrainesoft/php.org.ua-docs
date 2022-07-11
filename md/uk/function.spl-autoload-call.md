@@ -8,7 +8,7 @@
 
 # spl_autoload_call
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 spl_autoload_call — Спроба завантажити клас усіма зареєстрованими
 функціями \_\_autoload()

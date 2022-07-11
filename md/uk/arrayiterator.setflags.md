@@ -7,7 +7,7 @@
 
 # ArrayIterator::setFlags
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ArrayIterator::setFlags — Встановлює прапори, що змінюють поведінку
 ArrayIterator
@@ -29,7 +29,7 @@ public **ArrayIterator::setFlags**(int `$flags`): void
 прапорів описаний в [визначених константах](class.arrayiterator.md#arrayiterator.constants).
 
 | значення | константа                                                                                      |
-| -------- | ---------------------------------------------------------------------------------------------- |
+|----------|------------------------------------------------------------------------------------------------|
 | 1        | [ArrayIterator::STD_PROP_LIST](class.arrayiterator.md#arrayiterator.constants.std-prop-list)   |
 | 2        | [ArrayIterator::ARRAY_AS_PROPS](class.arrayiterator.md#arrayiterator.constants.array-as-props) |
 

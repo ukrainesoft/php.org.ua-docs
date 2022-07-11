@@ -38,11 +38,11 @@ ImagickPixel.
 ### Список змін
 
 | Версія                                                                                                   | Опис |
-| -------------------------------------------------------------------------------------------------------- | ---- |
+|----------------------------------------------------------------------------------------------------------|------|
 | PECL imagick 2.1.0 Як колір можна передавати рядок. Попередні версії допускали лише об'єкт ImagickPixel. |      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::borderImage()****
 
-` <?phpfunction borderImage($imagePath, $color, $width, $height) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->borderImage($color, $width, $height); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction borderImage($imagePath, $color, $width, $height) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->borderImage($color, $width, $height); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

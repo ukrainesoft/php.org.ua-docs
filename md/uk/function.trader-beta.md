@@ -7,13 +7,13 @@
 
 #trader_beta
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_beta — Бета
 
 ### Опис
 
-**trader_beta**(array `$real0`, array `$real1`, int `$timePeriod` u003d ?):
+**trader_beta**(array `$real0`, array `$real1`, int `$timePeriod` = ?):
 array
 
 ### Список параметрів

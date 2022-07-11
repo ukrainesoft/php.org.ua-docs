@@ -8,7 +8,7 @@ phar-архіву
 
 # Phar::isValidPharFilename
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.2.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.0)
 
 Phar::isValidPharFilename — Перевіряє, що задане ім'я файлу є
 коректним ім'ям phar-архіву
@@ -16,7 +16,7 @@ Phar::isValidPharFilename — Перевіряє, що задане ім'я фа
 ### Опис
 
 final public static **Phar::isValidPharFilename**(string `$filename`,
-bool `$executable` u003d **`true`**): bool
+bool `$executable` = **`true`**): bool
 
 Перевіряє, що ім'я файлу є коректним ім'ям
 phar-архіву. Можна використовувати для перевірки імені файлу до його

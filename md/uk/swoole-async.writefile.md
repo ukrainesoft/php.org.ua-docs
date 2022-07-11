@@ -7,7 +7,7 @@
 
 # Swoole\Async::writeFile
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Async::writeFile — Опис
 
@@ -16,8 +16,8 @@ Swoole\Async::writeFile — Опис
 public static **Swoole\Async::writeFile**(
 string `$filename`,
 string `$content`,
-[callable](language.types.callable.md) `$callback` u003d ?,
-string `$flags` u003d ?
+[callable](language.types.callable.md) `$callback` = ?,
+string `$flags` = ?
 ): void
 
 **Увага**

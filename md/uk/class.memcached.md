@@ -7,7 +7,7 @@
 
 # Клас Memcached
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 ## Вступ
 
@@ -18,22 +18,22 @@
 class **Memcached** {
 
 public [\_\_construct](memcached.construct.md)(string `$persistent_id`
-u003d?)
+=?)
 
 public [add](memcached.add.md)(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` u003d ?): bool
+`$value`, int `$expiration` = ?): bool
 
 public [addByKey](memcached.addbykey.md)(
 string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 public [addServer](memcached.addserver.md)(string `$host`, int
-`$port`, int `$weight` u003d 0): bool
+`$port`, int `$weight` = 0): bool
 
 public [addServers](memcached.addservers.md)(array `$servers`): bool
 
@@ -48,7 +48,7 @@ float `$cas_token`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 public [casByKey](memcached.casbykey.md)(
@@ -57,44 +57,44 @@ string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 public [decrement](memcached.decrement.md)(
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 public [decrementByKey](memcached.decrementbykey.md)(
 string `$server_key`,
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
-public [delete](memcached.delete.md)(string `$key`, int `$time` u003d 0):
+public [delete](memcached.delete.md)(string `$key`, int `$time` = 0):
 bool
 
 public [deleteByKey](memcached.deletebykey.md)(string `$server_key`,
-string `$key`, int `$time` u003d 0): bool
+string `$key`, int `$time` = 0): bool
 
 public [deleteMulti](memcached.deletemulti.md)(array `$keys`, int
-`$time` u003d 0): array
+`$time` = 0): array
 
 public [deleteMultiByKey](memcached.deletemultibykey.md)(string
-`$server_key`, array `$keys`, int `$time` u003d 0): bool
+`$server_key`, array `$keys`, int `$time` = 0): bool
 
 public [fetch](memcached.fetch.md)(): array
 
 public [fetchAll](memcached.fetchall.md)(): array\|false
 
-public [flush](memcached.flush.md)(int `$delay` u003d 0): bool
+public [flush](memcached.flush.md)(int `$delay` = 0): bool
 
 public [get](memcached.get.md)(string `$key`,
-[callable](language.types.callable.md) `$cache_cb` u003d ?, int `$flags` u003d
+[callable](language.types.callable.md) `$cache_cb` = ?, int `$flags` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -103,28 +103,28 @@ public [getAllKeys](memcached.getallkeys.md)(): array\|false
 public [getByKey](memcached.getbykey.md)(
 string `$server_key`,
 string `$key`,
-[callable](language.types.callable.md) `$cache_cb` u003d ?,
-int `$flags` u003d ?
+[callable](language.types.callable.md) `$cache_cb` = ?,
+int `$flags` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getDelayed](memcached.getdelayed.md)(array `$keys`, bool
-`$with_cas` u003d ?, [callable](language.types.callable.md) `$value_cb` u003d
+`$with_cas` = ?, [callable](language.types.callable.md) `$value_cb` =
 ?): bool
 
 public [getDelayedByKey](memcached.getdelayedbykey.md)(
 string `$server_key`,
 array `$keys`,
-bool `$with_cas` u003d ?,
-[callable](language.types.callable.md) `$value_cb` u003d ?
+bool `$with_cas` = ?,
+[callable](language.types.callable.md) `$value_cb` = ?
 ): bool
 
-public [getMulti](memcached.getmulti.md)(array `$keys`, int `$flags` u003d
+public [getMulti](memcached.getmulti.md)(array `$keys`, int `$flags` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getMultiByKey](memcached.getmultibykey.md)(string
-`$server_key`, array `$keys`, int `$flags` u003d ?): array\|false
+`$server_key`, array `$keys`, int `$flags` = ?): array\|false
 
 public [getOption](memcached.getoption.md)(int `$option`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -144,17 +144,17 @@ public [getVersion](memcached.getversion.md)(): array
 
 public [increment](memcached.increment.md)(
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 public [incrementByKey](memcached.incrementbykey.md)(
 string `$server_key`,
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 public [isPersistent](memcached.ispersistent.md)(): bool
@@ -171,35 +171,35 @@ public [quit](memcached.quit.md)(): bool
 
 public [replace](memcached.replace.md)(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` u003d ?): bool
+`$value`, int `$expiration` = ?): bool
 
 public [replaceByKey](memcached.replacebykey.md)(
 string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 public [resetServerList](memcached.resetserverlist.md)(): bool
 
 public [set](memcached.set.md)(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` u003d ?): bool
+`$value`, int `$expiration` = ?): bool
 
 public [setByKey](memcached.setbykey.md)(
 string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 public [setMulti](memcached.setmulti.md)(array `$items`, int
-`$expiration` u003d ?): bool
+`$expiration` = ?): bool
 
 public [setMultiByKey](memcached.setmultibykey.md)(string
-`$server_key`, array `$items`, int `$expiration` u003d ?): bool
+`$server_key`, array `$items`, int `$expiration` = ?): bool
 
 public [setOption](memcached.setoption.md)(int `$option`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

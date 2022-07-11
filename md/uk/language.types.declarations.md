@@ -144,7 +144,7 @@ NULL
 >
 > **Приклад #7 Старий спосіб задавати обнулювані типи аргументів**
 >
-> ` <?phpclass C {}function f(C $c u003d null) {    var_dump($c);}f(new C);f(null);?> `
+> ` <?phpclass C {}function f(C $c = null) {    var_dump($c);}f(new C);f(null);?> `
 >
 > Результат виконання цього прикладу:
 >
@@ -313,7 +313,7 @@ never, говорячи мовою теорії типів, є нижчим ти
 
 **Приклад #8 Сувора типізація для значень аргументів**
 
-`<?phpdeclare(strict_typesu003d1);function sum(int $a, int $b) {   return $a + $b;}var_dump(sum(1, 2));var_dump(sum(1.5, 2.) ?> `
+`<?phpdeclare(strict_types=1);function sum(int $a, int $b) {   return $a + $b;}var_dump(sum(1, 2));var_dump(sum(1.5, 2.) ?> `
 
 Результат виконання цього прикладу в PHP 8:
 
@@ -336,7 +336,7 @@ int(3)
 
 **Приклад #10 Сувора типізація для значень, що повертаються**
 
-`<?phpdeclare(strict_typesu003d1);function sum($a, $b): int {    return $a + $b;}var_dump(sum(1, 2));var_dump(sum(1, 2.5)); ?> `
+`<?phpdeclare(strict_types=1);function sum($a, $b): int {    return $a + $b;}var_dump(sum(1, 2));var_dump(sum(1, 2.5)); ?> `
 
 Результат виконання цього прикладу:
 
@@ -390,7 +390,7 @@ float.
 лише на етапі виклику функції. Немає жодної гарантії, що після виходу
 з функції тип змінної залишиться постійним.
 
-` <?phpfunction array_baz(array &$param){    $param u003d 1;}$var u003d [];array_baz($var);var_dump($var);array_baz($var);?> `
+` <?phpfunction array_baz(array &$param){    $param = 1;}$var = [];array_baz($var);var_dump($var);array_baz($var);?> `
 
 Результат виконання цього прикладу в PHP 8:
 
@@ -404,7 +404,7 @@ thrown in - on line 2
 
 **Приклад #13 Обробка [TypeError](class.typeerror.md)**
 
-`<?phpdeclare(strict_typesu003d1);function sum(int $a, int $b) {   return $a + $b;}try {   var_dump(sum(1, 2)); var_dump(sum(1.5, 2.5));} catch (TypeError $e) {   echo 'Помилка: ', $e->getMessage();}?> `
+`<?phpdeclare(strict_types=1);function sum(int $a, int $b) {   return $a + $b;}try {   var_dump(sum(1, 2)); var_dump(sum(1.5, 2.5));} catch (TypeError $e) {   echo 'Помилка: ', $e->getMessage();}?> `
 
 Результат виконання цього прикладу в PHP 8:
 

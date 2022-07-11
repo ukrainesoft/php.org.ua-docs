@@ -7,7 +7,7 @@
 
 #array_key_first
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 array_key_first — Отримує перший ключ масиву
 
@@ -32,7 +32,7 @@ array_key_first — Отримує перший ключ масиву
 
 **Приклад #1 Приклад використання **array_key_first()****
 
-` <?php$array u003d ['a' u003d> 1, 'b' u003d> 2, 'c' u003d> 3];$firstKey u003d array_key_first($array);var_dump($firstKey);?> `
+` <?php$array = ['a' => 1, 'b' => 2, 'c' => 3];$firstKey = array_key_first($array);var_dump($firstKey);?> `
 
 Результат виконання цього прикладу:
 

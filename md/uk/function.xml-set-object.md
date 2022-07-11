@@ -37,20 +37,20 @@ callback-функції можуть бути встановлені функц�
 ### Список змін
 
 | Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **xml_set_object()****
 
-`<?phpclass XMLParser{    private $parser; function __construct()    {         $this->parser u003d xml_parser_create(); xml_set_object($this->parser, $this); xml_set_element_handler($this->parser, "tag_open", "tag_close"); xml_set_character_data_handler($this->parser, "cdata"); }   function __destruct()    {        xml_parser_free($this->parser); unset($this->parser); }   function parse($data)    {         xml_parse($this->parser, $data); }   function tag_open($parser, $tag, $attributes)    {       var_dump($tag, $attributes); }   function cdata($parser, $cdata)    {        var_dump($cdata); }   function tag_close($parser, $tag)    {       var_dump($tag); }} // закінчення визначення класу xml$xml_parseru003d new XMLParser();$xml_parser->parse("<A IDu003d'hallo'>PHP</A>");?> `
+`<?phpclass XMLParser{    private $parser; function __construct()    {         $this->parser = xml_parser_create(); xml_set_object($this->parser, $this); xml_set_element_handler($this->parser, "tag_open", "tag_close"); xml_set_character_data_handler($this->parser, "cdata"); }   function __destruct()    {        xml_parser_free($this->parser); unset($this->parser); }   function parse($data)    {         xml_parse($this->parser, $data); }   function tag_open($parser, $tag, $attributes)    {       var_dump($tag, $attributes); }   function cdata($parser, $cdata)    {        var_dump($cdata); }   function tag_close($parser, $tag)    {       var_dump($tag); }} // закінчення визначення класу xml$xml_parser= new XMLParser();$xml_parser->parse("<A ID='hallo'>PHP</A>");?> `
 
 Результат виконання цього прикладу:
 
 string(1) "A"
 array(1) {
-["ID"]u003d>
+["ID"]=>
 string(5) "hallo"
 }
 string(3) "PHP"

@@ -7,13 +7,13 @@
 
 # SyncSemaphore::lock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncSemaphore::lock — Зменшує рахунок семафору або чекає
 
 ### Опис
 
-public **SyncSemaphore::lock**(int `$wait` u003d -1): bool
+public **SyncSemaphore::lock**(int `$wait` = -1): bool
 
 Зменшує лічильник об'єкта [SyncSemaphore](class.syncsemaphore.md) або
 чекає, поки семафор стане відмінним від нуля.
@@ -32,7 +32,7 @@ public **SyncSemaphore::lock**(int `$wait` u003d -1): bool
 
 **Приклад #1 Приклад використання **SyncSemaphore::lock()****
 
-` <?php$semaphore u003d new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
+` <?php$semaphore = new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
 
 ### Дивіться також
 

@@ -7,14 +7,14 @@
 
 # SolrQuery::getHighlightSimplePre
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightSimplePre — Повертає текст, який з'являється
 перед виділеним виразом
 
 ### Опис
 
-public **SolrQuery::getHighlightSimplePre**(string `$field_override` u003d
+public **SolrQuery::getHighlightSimplePre**(string `$field_override` =
 ?): string
 
 Повертає текст, який з'являється перед виділенням.

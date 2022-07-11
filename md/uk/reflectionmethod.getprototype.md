@@ -7,7 +7,7 @@
 
 # ReflectionMethod::getPrototype
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionMethod::getPrototype — Отримує прототип методу (якщо такий)
 є)
@@ -36,14 +36,14 @@ public **ReflectionMethod::getPrototype**():
 
 **Приклад #1 Приклад використання **ReflectionMethod::getPrototype()****
 
-`<?phpclass Hello {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}class HelloWorld extends Hello {    public function sayHelloTo($name) {        return 'Привіт, світ: ' . $name; }}$reflectionMethod u003d new ReflectionMethod('HelloWorld', 'sayHelloTo');var_dump($reflectionMethod->getPrototype());?> `
+`<?phpclass Hello {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}class HelloWorld extends Hello {    public function sayHelloTo($name) {        return 'Привіт, світ: ' . $name; }}$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');var_dump($reflectionMethod->getPrototype());?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionMethod)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(10) "sayHelloTo"
-["class"]u003d>
+["class"]=>
 string(5) "Hello"
 }
 

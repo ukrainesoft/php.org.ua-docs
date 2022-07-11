@@ -33,7 +33,7 @@ gzgetc — Отримати символ із покажчика на gz-фай�
 
 **Приклад #1 Приклад використання **gzgetc()****
 
-` <?php$gz u003d gzopen('somefile.gz', 'r');while (!gzeof($gz)) { echo gzgetc($gz);}gzclose($gz);?> `
+` <?php$gz = gzopen('somefile.gz', 'r');while (!gzeof($gz)) { echo gzgetc($gz);}gzclose($gz);?> `
 
 ### Дивіться також
 

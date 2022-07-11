@@ -7,7 +7,7 @@
 
 # sodium_crypto_aead_chacha20poly1305_decrypt
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_aead_chacha20poly1305_decrypt — Перевіряє, потім
 розшифровує за допомогою ChaCha20-Poly1305

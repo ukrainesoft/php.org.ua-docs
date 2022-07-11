@@ -7,7 +7,7 @@
 
 # Gmagick::levelimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::levelimage — Регулює рівні зображення
 
@@ -17,7 +17,7 @@ public **Gmagick::levelimage**(
 float `$blackPoint`,
 float `$gamma`,
 float `$whitePoint`,
-int `$channel` u003d Gmagick::CHANNEL_DEFAULT
+int `$channel` = Gmagick::CHANNEL_DEFAULT
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

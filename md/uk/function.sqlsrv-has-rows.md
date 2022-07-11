@@ -33,7 +33,7 @@ sqlsrv_has_rows — Вказує, чи є вказаний оператор ря
 
 **Приклад #1 Приклад використання **sqlsrv_has_rows()****
 
-` <?php$server u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password" );$conn u003d sqlsrv_connect ( $server, $connectionInfo );$stmt u003d sqlsrv_query( $conn, "SELECT * FROM Table_1");if ($stmt) {   $rows u003d sqlsrv_has_rows if ($rows u003du003du003d true)      echo "Є рядки. <br />"; else      echo "Немає|рядків. <br />";}?> `
+` <?php$server = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $server, $connectionInfo );$stmt = sqlsrv_query( $conn, "SELECT * FROM Table_1");if ($stmt) {   $rows = sqlsrv_has_rows if ($rows === true)      echo "Є рядки. <br />"; else      echo "Немає|рядків. <br />";}?> `
 
 ### Дивіться також
 

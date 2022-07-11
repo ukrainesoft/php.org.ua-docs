@@ -26,20 +26,20 @@ private **mysql_xdevapi\RowResult::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\RowResult::\_\_construct()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );$row u003d $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();print_r($row); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$row = $table->select('name', 'age')->where('age > 18')->execute()->fetchAll();print_r($row); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[name] u003d> John
-[age] u003d> 42
+[name] => John
+[age] => 42
 )
-[1] u003d> Array
+[1] => Array
 (
-[name] u003d> Sam
-[age] u003d> 33
+[name] => Sam
+[age] => 33
 )
 )

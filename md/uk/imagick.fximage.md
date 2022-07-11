@@ -13,7 +13,7 @@ Imagick::fxImage — Оцінює вираз для кожного піксел�
 
 ### Опис
 
-public **Imagick::fxImage**(string `$expression`, int `$channel` u003d
+public **Imagick::fxImage**(string `$expression`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): [Imagick](class.imagick.md)
 
 Оцінює вираз для кожного пікселя у зображенні. Подивіться
@@ -43,4 +43,4 @@ Imagick::CHANNEL_DEFAULT): [Imagick](class.imagick.md)
 
 **Приклад #1 Приклад використання **Imagick::fxImage()****
 
-` <?phpfunction fxImage() {    $imagick u003d new \Imagick(); $imagick->newPseudoImage(200, 200, "xc:white"); $fx u003d 'xxu003di-w/2; yyu003dj-h/2; rru003dhypot(xx,yy); (.5-rr/140)*1.2+.5'; $fxImage u003d $imagick->fxImage($fx); header("Content-Type: image/png"); $fxImage->setimageformat('png'); echo $fxImage->getImageBlob();}?> `
+` <?phpfunction fxImage() {    $imagick = new \Imagick(); $imagick->newPseudoImage(200, 200, "xc:white"); $fx = 'xx=i-w/2; yy=j-h/2; rr=hypot(xx,yy); (.5-rr/140)*1.2+.5'; $fxImage = $imagick->fxImage($fx); header("Content-Type: image/png"); $fxImage->setimageformat('png'); echo $fxImage->getImageBlob();}?> `

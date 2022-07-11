@@ -9,7 +9,7 @@
 
 # mysqli_set_charset
 
-(PHP 5 \>u003d 5.0.5, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.5, PHP 7, PHP 8)
 
 mysqli::set_charset -- mysqli_set_charset — Задає набір символів
 
@@ -48,13 +48,13 @@ public **mysqli::set_charset**(string `$charset`): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "test");printf("Початковий :
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "test");printf("Початковий :
 ", $mysqli->character_set_name());/* зміна набору символів на utf8mb4 */$mysqli->set_charset("utf8mb4");printf("Поточний набір символів: %s
 ", $mysqli->character_set_name());
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect('localhost', 'my_user', 'my_password', 'test');printf("Початковий набір s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect('localhost', 'my_user', 'my_password', 'test');printf("Початковий набір s
 ", mysqli_character_set_name($link));/* зміна набору символів на utf8mb4 */mysqli_set_charset($link, "utf8mb4");printf("Поточний набір символів: %s
 ", mysqli_character_set_name($link)); `
 

@@ -7,7 +7,7 @@
 
 # GmagickDraw::polygon
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::polygon — Малює багатокутник
 

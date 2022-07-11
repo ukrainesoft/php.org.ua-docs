@@ -13,7 +13,7 @@ fgets — Читає рядок із файлу
 
 ### Опис
 
-**fgets**(resource `$stream`, ?int `$length` u003d **`null`**):
+**fgets**(resource `$stream`, ?int `$length` = **`null`**):
 string\|false
 
 Читає рядок із файлового покажчика.
@@ -45,7 +45,7 @@ string\|false
 
 **Приклад #1 Порядкове читання файлу**
 
-` <?php$fp u003d @fopen("/tmp/inputfile.txt", "r");if ($fp) {    while (($buffer u003d fgets($fp, 4096)) !u003du003d false) echo $buffer; }    if (!feof($fp)) {        echo "Помилка: fgets() несподівано потерпів невдачу
+` <?php$fp = @fopen("/tmp/inputfile.txt", "r");if ($fp) {    while (($buffer = fgets($fp, 4096)) !== false) echo $buffer; }    if (!feof($fp)) {        echo "Помилка: fgets() несподівано потерпів невдачу
 ";    }    fclose($fp);}?> `
 
 ### Примітки

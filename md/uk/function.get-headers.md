@@ -13,8 +13,8 @@ get_headers — Повертає всі заголовки з відповіді
 
 ### Опис
 
-**get_headers**(string `$url`, bool `$associative` u003d **`false`**,
-?resource `$context` u003d **`null`**): array\|false
+**get_headers**(string `$url`, bool `$associative` = **`false`**,
+?resource `$context` = **`null`**): array\|false
 
 **get_headers()** повертає масив із заголовками з відповіді сервера на
 HTTP-запит.
@@ -42,7 +42,7 @@ HTTP-запит.
 ### Список змін
 
 | Версія | Опис                                                                                     |
-| ------ | ---------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------|
 | 8.0.0  | Тип параметра associative був змінений із цілого числа (int) на логічне значення (bool). |
 | 7.1.0  | Доданий параметр context.                                                                |
 
@@ -50,40 +50,40 @@ HTTP-запит.
 
 **Приклад #1 Приклад використання **get_headers()****
 
-` <?php$url u003d 'http://www.example.com';print_r(get_headers($url));print_r(get_headers($url, true));?> `
+` <?php$url = 'http://www.example.com';print_r(get_headers($url));print_r(get_headers($url, true));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> HTTP/1.1 200 ОК
-[1] u003d> Дата: Sat, 29 May 2004 12:28:13 GMT
-[2] u003d> Server: Apache/1.3.27 (Unix) (Red-Hat/Linux)
-[3] u003d> Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
-[4] u003d> ETag: "3f80f-1b6-3e1cb03b"
-[5] u003d> Accept-Ranges: bytes
-[6] u003d> Content-Length: 438
-[7] u003d> Connection: close
-[8] u003d> Content-Type: text/html
+[0] => HTTP/1.1 200 ОК
+[1] => Дата: Sat, 29 May 2004 12:28:13 GMT
+[2] => Server: Apache/1.3.27 (Unix) (Red-Hat/Linux)
+[3] => Last-Modified: Wed, 08 Jan 2003 23:11:55 GMT
+[4] => ETag: "3f80f-1b6-3e1cb03b"
+[5] => Accept-Ranges: bytes
+[6] => Content-Length: 438
+[7] => Connection: close
+[8] => Content-Type: text/html
 )
 
 Array
 (
-[0] u003d> HTTP/1.1 200 ОК
-[Date] u003d> Sat, 29 May 2004 12:28:14 GMT
-[Server] u003d> Apache/1.3.27 (Unix) (Red-Hat/Linux)
-[Last-Modified] u003d> Wed, 08 Jan 2003 23:11:55 GMT
-[ETag] u003d> "3f80f-1b6-3e1cb03b"
-[Accept-Ranges] u003d> bytes
-[Content-Length] u003d> 438
-[Connection] u003d> close
-[Content-Type] u003d> text/html
+[0] => HTTP/1.1 200 ОК
+[Date] => Sat, 29 May 2004 12:28:14 GMT
+[Server] => Apache/1.3.27 (Unix) (Red-Hat/Linux)
+[Last-Modified] => Wed, 08 Jan 2003 23:11:55 GMT
+[ETag] => "3f80f-1b6-3e1cb03b"
+[Accept-Ranges] => bytes
+[Content-Length] => 438
+[Connection] => close
+[Content-Type] => text/html
 )
 
 **Приклад #2 Приклад використання запиту HEAD в
 функції**get_headers()****
 
-`<?php// За мовчанням функція get_headers використовує GET-запит для отримання заголовків. Если// вы хотите вместо него отправить HEAD-запрос, то это можно сделать, используя контекста потока:stream_context_set_default(    array(        'http' u003d> array(            'method' u003d> 'HEAD'        )    ));$headers u003d get_headers(' http://example.com');?> `
+`<?php// За мовчанням функція get_headers використовує GET-запит для отримання заголовків. Если// вы хотите вместо него отправить HEAD-запрос, то это можно сделать, используя контекста потока:stream_context_set_default(    array(        'http' => array(            'method' => 'HEAD'        )    ));$headers = get_headers(' http://example.com');?> `
 
 ### Дивіться також
 

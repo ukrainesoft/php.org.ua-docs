@@ -7,7 +7,7 @@
 
 # SplFileObject::current
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::current — Отримати поточний рядок файлу
 
@@ -32,12 +32,12 @@ public **SplFileObject::current**(): string\|array\|false
 
 **Приклад #1 Приклад використання **SplFileObject::current()****
 
-` <?php$file u003d new SplFileObject(__FILE__);foreach ($file as $k u003d> $line) {   echo ($file->key() + 1) . ': ' . $file->current();}?> `
+` <?php$file = new SplFileObject(__FILE__);foreach ($file as $k => $line) {   echo ($file->key() + 1) . ': ' . $file->current();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 1: <?php
-2: $file u003d New SplFileObject(__FILE__);
+2: $file = New SplFileObject(__FILE__);
 3: foreach ($file as $line) {
 4: echo ($file->key() + 1) . ':'. $ file-> current ();
 5: }

@@ -8,7 +8,7 @@ DNS
 
 # EventBufferEvent::connectHost
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::connectHost — Підключається на ім'я хоста з
 можливістю асинхронного дозволу DNS
@@ -19,7 +19,7 @@ public **EventBufferEvent::connectHost**(
 [EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
 string `$hostname`,
 int `$port` ,
-int `$family` u003d EventUtil::AF_UNSPEC
+int `$family` = EventUtil::AF_UNSPEC
 ): bool
 
 Дозволяє ім'я хоста DNS-імені, шукаючи адреси типу `family` (константи
@@ -78,12 +78,12 @@ www.example.com (hostname)
 
 **Приклад #1 **Приклад використання EventBufferEvent::connectHost()****
 
-` <?php/* Callback-функція читання */function readcb($bev, $base) {    //$input u003d $bev->input; //$bev->getInput(); //$pos u003d $input->search("TTP"); $pos u003d $bev->input->search("TTP"); while(($n u003d $bev->input->remove($buf, 1024)) > 0) {        echo $buf; }}/* Callback-функція події */function eventcb($bev, $events, $base) {    if ($events & EventBufferEvent::CONNECTED) {                        
+` <?php/* Callback-функція читання */function readcb($bev, $base) {    //$input = $bev->input; //$bev->getInput(); //$pos = $input->search("TTP"); $pos = $bev->input->search("TTP"); while(($n = $bev->input->remove($buf, 1024)) > 0) {        echo $buf; }}/* Callback-функція події */function eventcb($bev, $events, $base) {    if ($events & EventBufferEvent::CONNECTED) {                        
 ";    } elseif ($events & (EventBufferEvent::ERROR | EventBufferEvent::EOF)) {        if ($events & EventBufferEvent::ERROR) {            echo "Ошибка DNS: ", $bev->getDnsErrorString(), PHP_EOL;        } echo "Закриття
 ";        $base->exit();        exit("Виконано
-");    }}$base u003d new EventBase();$dns_base u003d new EventDnsBase($base, TRUE); // Використання асинхронного дозволу DNSif |   
-");}$bev u003d new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
-");}//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);$bev->enable(Event::READ | Event::WRITE);$output u003d $bev->output; //$bev->getOutput();if (!$output->add(   "GET {$argv[2]} HTTP/1.0
+");    }}$base = new EventBase();$dns_base = new EventDnsBase($base, TRUE); // Використання асинхронного дозволу DNSif |   
+");}$bev = new EventBufferEvent($base, /* использование внутреннего сокета */ NULL,    EventBufferEvent::OPT_CLOSE_ON_FREE | EventBufferEvent::OPT_DEFER_CALLBACKS,    "readcb", /* writecb */ NULL, "eventcb", $base) ;if (!$bev) {   exit("Не удалося створити сокет bufferevent
+");}//$bev->setCallbacks("readcb", /* writecb */ NULL, "eventcb", $base);$bev->enable(Event::READ | Event::WRITE);$output = $bev->output; //$bev->getOutput();if (!$output->add(   "GET {$argv[2]} HTTP/1.0
 ".    "Host: {$argv[1]}
 ".    "Connection: Close
 
@@ -96,20 +96,20 @@ www.example.com (hostname)
 Connected.
 HTTP/1.0 301 Moved Permanently
 Location: http://www.google.co.uk/
-Content-Type: text/html; charsetu003dUTF-8
+Content-Type: text/html; charset=UTF-8
 Дата: Sat, 09 Mar 2013 12:21:19 GMT
 Expires: Mon, 08 Apr 2013 12:21:19 GMT
-Cache-Control: public, max-ageu003d2592000
+Cache-Control: public, max-age=2592000
 Server: gws
 Content-Length: 221
-X-XSS-Protection: 1; modeu003dblock
+X-XSS-Protection: 1; mode=block
 X-Frame-Options: SAMEORIGIN
 
-<HTML><HEAD><meta http-equivu003d"content-type" contentu003d"text/html;charsetu003dutf-8">
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
 <TITLE>301 Moved</TITLE></HEAD><BODY>
 <H1>301 Moved</H1>
 The document has moved
-<A HREFu003d"http://www.google.co.uk/">here</A>.
+<A HREF="http://www.google.co.uk/">here</A>.
 </BODY></HTML>
 Closing
 Done

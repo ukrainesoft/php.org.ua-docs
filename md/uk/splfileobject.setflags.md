@@ -7,7 +7,7 @@
 
 # SplFileObject::setFlags
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setFlags — Встановлює прапори для SplFileObject
 
@@ -32,7 +32,7 @@ public **SplFileObject::setFlags**(int `$flags`): void
 
 **Приклад #1 Приклад використання **SplFileObject::setFlags()****
 
-` <?php$file u003d new SplFileObject("data.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $fields) {    var_dump($fields);}?> `
+` <?php$file = new SplFileObject("data.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $fields) {    var_dump($fields);}?> `
 
 ### Дивіться також
 

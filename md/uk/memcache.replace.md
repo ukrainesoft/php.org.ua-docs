@@ -7,7 +7,7 @@
 
 # Memcache::replace
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::replace — Замінити значення наявного елемента
 
@@ -17,8 +17,8 @@ Memcache::replace — Замінити значення наявного еле�
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 **Memcache::replace()** використовується для заміни значення існуючого
@@ -56,7 +56,7 @@ int `$expire` u003d ?
 
 **Приклад #1 Приклад використання **Memcache::replace()****
 
-` <?php$memcache_obj u003d memcache_connect('memcache_host', 11211);/* процедурне API */memcache_replace($memcache_obj, test_key', fal'є;   memcache_obj->replace("test_key", "some variable", false, 30);?> `
+` <?php$memcache_obj = memcache_connect('memcache_host', 11211);/* процедурне API */memcache_replace($memcache_obj, test_key', fal'є;   memcache_obj->replace("test_key", "some variable", false, 30);?> `
 
 ### Дивіться також
 

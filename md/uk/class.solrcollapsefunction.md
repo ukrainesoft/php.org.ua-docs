@@ -7,7 +7,7 @@
 
 # Клас SolrCollapseFunction
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 ## Вступ
 
@@ -17,16 +17,16 @@ class **SolrCollapseFunction** {
 
 /\* Константи \*/
 
-const string `NULLPOLICY_IGNORE` u003d ignore;
+const string `NULLPOLICY_IGNORE` = ignore;
 
-const string `NULLPOLICY_EXPAND` u003d expand;
+const string `NULLPOLICY_EXPAND` = expand;
 
-const string `NULLPOLICY_COLLAPSE` u003d collapse;
+const string `NULLPOLICY_COLLAPSE` = collapse;
 
 /\* Методи \*/
 
 public [\_\_construct](solrcollapsefunction.construct.md)(string
-`$field` u003d ?)
+`$field` = ?)
 
 public [getField](solrcollapsefunction.getfield.md)(): string
 

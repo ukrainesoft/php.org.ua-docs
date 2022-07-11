@@ -86,7 +86,7 @@ phar-формат однією командою:
 
 **Приклад #3 Конвертування phar-архіву з формату phar у формат tar**
 
-`<?php $phar u003d new Phar('myphar.phar'); $pgzu003du003d$phar->convertToExecutable(Phar::TAR, Phar::GZ); // створить myphar.phar.tar.gz ?> `
+`<?php $phar = new Phar('myphar.phar'); $pgz==$phar->convertToExecutable(Phar::TAR, Phar::GZ); // створить myphar.phar.tar.gz ?> `
 
 Phar може стискати окремі файли або архів повністю за допомогою
 [gzip](book.zlib.md)-компресії або

@@ -7,7 +7,7 @@
 
 # Gmagick::resizeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::resizeimage — Масштабує зображення
 
@@ -18,7 +18,7 @@ int `$width`,
 int `$height`,
 int `$filter`,
 float `$blur`,
-bool `$fit` u003d **`false`**
+bool `$fit` = **`false`**
 ): [Gmagick](class.gmagick.md)
 
 Масштабує зображення до бажаних розмірів за допомогою фільтра.

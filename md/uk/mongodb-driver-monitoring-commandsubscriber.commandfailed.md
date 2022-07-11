@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed - Метод
 повідомлення про невдалу команду

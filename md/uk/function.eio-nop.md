@@ -7,16 +7,16 @@
 
 #eio_nop
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_nop — Прохід циклу запиту, не здійснюючи жодних операцій
 
 ### Опис
 
-**eio_nop**(int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+**eio_nop**(int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL): resource
+$data = NULL): resource
 
 **eio_nop()** проходить по циклу запиту, нічого не роблячи. Може
 виявитися корисною при налагодженні.

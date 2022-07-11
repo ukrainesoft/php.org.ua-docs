@@ -13,8 +13,8 @@ Error::\_\_construct — Створює об'єкт класу Error
 
 ### Опис
 
-public **Error::\_\_construct**(string `$message` u003d "", int `$code` u003d 0,
-?[Throwable](class.throwable.md) `$previous` u003d **`null`**)
+public **Error::\_\_construct**(string `$message` = "", int `$code` = 0,
+?[Throwable](class.throwable.md) `$previous` = **`null`**)
 
 Створює об'єкт класу Error.
 

@@ -13,7 +13,7 @@ readline — Читає рядок
 
 ### Опис
 
-**readline**(?string `$prompt` u003d **`null`**): string\|false
+**readline**(?string `$prompt` = **`null`**): string\|false
 
 Читає один рядок, введений користувачем. Якщо вам потрібно додати цю
 рядок в історію, то зробити це ви повинні самостійно, за допомогою
@@ -34,4 +34,4 @@ readline — Читає рядок
 
 **Приклад #1 Приклад використання **readline()****
 
-` <?php//отримаємо 3 команди від користувачаfor ($iu003d0; $i < 3; $i++) {        $line u003d readline("Command: "); readline_add_history($line);}//роздрукуємо історію введенняprint_r(readline_list_history());//роздрукуємо змінніprint_r(readline_info());?> `
+` <?php//отримаємо 3 команди від користувачаfor ($i=0; $i < 3; $i++) {        $line = readline("Command: "); readline_add_history($line);}//роздрукуємо історію введенняprint_r(readline_list_history());//роздрукуємо змінніprint_r(readline_info());?> `

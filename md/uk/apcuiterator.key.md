@@ -7,7 +7,7 @@
 
 # APCUIterator::key
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 APCUIterator::key — Отримати ключ ітератора
 

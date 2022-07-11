@@ -8,7 +8,7 @@
 
 # snmp2_getnext
 
-(PHP \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP \>= 5.2.0, PHP 7, PHP 8)
 
 snmp2_getnext — Отримує об'єкт SNMP, який слідує за даними
 ідентифікатором об'єкта
@@ -19,8 +19,8 @@ snmp2_getnext — Отримує об'єкт SNMP, який слідує за д
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -54,7 +54,7 @@ Read-спільнота.
 
 **Приклад #1 Приклад використання **snmp2_get_next()****
 
-` <?php$nameOfSecondInterface u003d snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1');?> `
+` <?php$nameOfSecondInterface = snmp2_get_next('localhost', 'public', 'IF-MIB::ifName.1');?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # Ds\Sequence::slice
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::slice — Повертає колекцію із заданого діапазону.
 
 ### Опис
 
-abstract public **Ds\Sequence::slice**(int `$index`, int `$length` u003d ?):
+abstract public **Ds\Sequence::slice**(int `$index`, int `$length` = ?):
 [Ds\Sequence](class.ds-sequence.md)
 
 Повертає під-колекцію з діапазону, заданого початковим індексом
@@ -43,37 +43,37 @@ abstract public **Ds\Sequence::slice**(int `$index`, int `$length` u003d ?):
 
 **Приклад #1 Приклад використання **Ds\Sequence::slice()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c", "d", "e"]);// Діапазон від 2 до кінцяprint_r($sequence->slice( 2));// Діапазон від 1 з довжиною 3print_r($sequence->slice(1, 3));// Діапазон від 1 до кінцяprint_r($sequence->slice(1));// Діапазон  до початкуprint_r($sequence->slice(-2));// Діапазон від 1 від 1 с кінцяprint_r($sequence->slice(1, -1));?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c", "d", "e"]);// Діапазон від 2 до кінцяprint_r($sequence->slice( 2));// Діапазон від 1 з довжиною 3print_r($sequence->slice(1, 3));// Діапазон від 1 до кінцяprint_r($sequence->slice(1));// Діапазон  до початкуprint_r($sequence->slice(-2));// Діапазон від 1 від 1 с кінцяprint_r($sequence->slice(1, -1));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> c
-[1] u003d> d
-[2] u003d> e
+[0] => c
+[1] => d
+[2] => e
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> e
+[0] => b
+[1] => c
+[2] => d
+[3] => e
 )
 Ds\Vector Object
 (
-[0] u003d> d
-[1] u003d> e
+[0] => d
+[1] => e
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )

@@ -334,8 +334,8 @@ PHP-коду зловмисниками іншими розширеннями. �
 ``%R - %u %t \"%m %r\" %s'`:
 
 | Заповнювач | Опис                  |
-| ---------- | --------------------- |
-| **%C**     | %CPU                  |                       
+|------------|-----------------------|
+| **%C**     | %CPU                  |
 | **%d**     | тривалість µs         |
 | **%e**     | fastcgi env           |
 | **%f**     | скрипт                |
@@ -363,17 +363,17 @@ PHP для певного пулу. Для цього вам необхідно 
 **Приклад #1 Передача змінних оточення та налаштувань PHP пулу**
 
 `` inicode
-env[HOSTNAME] u003d $HOSTNAME
-env[PATH] u003d /usr/local/bin:/usr/bin:/bin
-env[TMP] u003d /tmp
-env[TMPDIR] u003d /tmp
-env[TEMP] u003d /tmp
+env[HOSTNAME] = $HOSTNAME
+env[PATH] = /usr/local/bin:/usr/bin:/bin
+env[TMP] = /tmp
+env[TMPDIR] = /tmp
+env[TEMP] = /tmp
 
-php_admin_value[sendmail_path] u003d /usr/sbin/sendmail -t -i -f www@my.domain.com
-php_flag[display_errors] u003d off
-php_admin_value[error_log] u003d /var/log/fpm-php.www.log
-php_admin_flag[log_errors] u003d on
-php_admin_value[memory_limit] u003d 32M
+php_admin_value[sendmail_path] = /usr/sbin/sendmail -t -i -f www@my.domain.com
+php_flag[display_errors] = off
+php_admin_value[error_log] = /var/log/fpm-php.www.log
+php_admin_flag[log_errors] = on
+php_admin_value[memory_limit] = 32M
 ````
 
 Налаштування PHP, передані через `php_value` або `php_flag` перезапишуть
@@ -390,12 +390,12 @@ php_admin_value[memory_limit] u003d 32M
 **Приклад #2 Встановлення налаштувань PHP у nginx.conf**
 
 `` inicode
-set $php_value "pcre.backtrack_limitu003d424242";
+set $php_value "pcre.backtrack_limit=424242";
 set $php_value "$php_value
- pcre.recursion_limitu003d99999";
+ pcre.recursion_limit=99999";
 fastcgi_param PHP_VALUE $php_value;
 
-fastcgi_param PHP_ADMIN_VALUE "open_basediru003d/var/www/htdocs";
+fastcgi_param PHP_ADMIN_VALUE "open_basedir=/var/www/htdocs";
 ````
 
 **Застереження**

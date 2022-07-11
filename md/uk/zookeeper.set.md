@@ -7,7 +7,7 @@
 
 # Zookeeper::set
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::set — Встановлює дані, пов'язані з вузлом
 
@@ -16,8 +16,8 @@ Zookeeper::set — Встановлює дані, пов'язані з вузл�
 public **Zookeeper::set**(
 string `$path`,
 string `$value`,
-int `$version` u003d -1,
-array `&$stat` u003d **`null`**
+int `$version` = -1,
+array `&$stat` = **`null`**
 ): bool
 
 ### Список параметрів
@@ -58,7 +58,7 @@ array `&$stat` u003d **`null`**
 
 Збереження значення у вузол.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/path/to/node';$value u003d 'nodevalue';$r u003d $zookeeper->set($path, $ );if ($r)  echo 'Значення збережено';else  echo 'Помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$value = 'nodevalue';$r = $zookeeper->set($path, $ );if ($r)  echo 'Значення збережено';else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 

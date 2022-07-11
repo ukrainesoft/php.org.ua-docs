@@ -27,8 +27,8 @@ RowResult::getColumns().
 **Приклад #1 Приклад використання
 **mysql_xdevapi\ColumnResult::\_\_construct()****
 
-` <?php$sessionu003du003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS nonsense")->execute();$session->sql( "CREATE DATABASE nonsense")->execute();$session->sql("CREATE TABLE nonsense.numbers (hello int, world float unsigned)")->execute();$session->sql("INSERT INTO .numbers values (42, 42)")->execute();$schema u003d $session->getSchema("nonsense");$table  u003d $schema->getTable("numbers");$result1 u003d $table- >select('hello','world')->execute();// Повертає масив об'єктів ColumnResult$columns u003d $result1->getColumns();foreach ($columns as $column) {      
-Мітка стовпця " , $column->getColumnLabel();   echo " є типом "       , $column->getType();    echo "> і | "Підписаний.";}// Альтернативний варіант$result2 u003d $session->sql("SELECT * FROM nonsense.numbers")->execute();// Повертає масив об'єктів FieldMetadataprint_r `
+` <?php$session== mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS nonsense")->execute();$session->sql( "CREATE DATABASE nonsense")->execute();$session->sql("CREATE TABLE nonsense.numbers (hello int, world float unsigned)")->execute();$session->sql("INSERT INTO .numbers values (42, 42)")->execute();$schema = $session->getSchema("nonsense");$table  = $schema->getTable("numbers");$result1 = $table- >select('hello','world')->execute();// Повертає масив об'єктів ColumnResult$columns = $result1->getColumns();foreach ($columns as $column) {      
+Мітка стовпця " , $column->getColumnLabel();   echo " є типом "       , $column->getType();    echo "> і | "Підписаний.";}// Альтернативний варіант$result2 = $session->sql("SELECT * FROM nonsense.numbers")->execute();// Повертає масив об'єктів FieldMetadataprint_r `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -38,36 +38,36 @@ RowResult::getColumns().
 
 Array
 (
-[0] u003d> mysql_xdevapi\FieldMetadata Object
+[0] => mysql_xdevapi\FieldMetadata Object
 (
-[type] u003d> 1
-[type_name] u003d> SINT
-[name] u003d> hello
-[original_name] u003d> hello
-[table] u003d> numbers
-[original_table] u003d> numbers
-[schema] u003d> nonsense
-[catalog] u003d> def
-[collation] u003d> 0
-[fractional_digits] u003d> 0
-[length] u003d> 11
-[flags] u003d> 0
-[content_type] u003d> 0
+[type] => 1
+[type_name] => SINT
+[name] => hello
+[original_name] => hello
+[table] => numbers
+[original_table] => numbers
+[schema] => nonsense
+[catalog] => def
+[collation] => 0
+[fractional_digits] => 0
+[length] => 11
+[flags] => 0
+[content_type] => 0
 )
-[1] u003d> mysql_xdevapi\FieldMetadata Object
+[1] => mysql_xdevapi\FieldMetadata Object
 (
-[type] u003d> 6
-[type_name] u003d> FLOAT
-[name] u003d> world
-[original_name] u003d> world
-[table] u003d> numbers
-[original_table] u003d> numbers
-[schema] u003d> nonsense
-[catalog] u003d> def
-[collation] u003d> 0
-[fractional_digits] u003d> 31
-[length] u003d> 12
-[flags] u003d> 1
-[content_type] u003d> 0
+[type] => 6
+[type_name] => FLOAT
+[name] => world
+[original_name] => world
+[table] => numbers
+[original_table] => numbers
+[schema] => nonsense
+[catalog] => def
+[collation] => 0
+[fractional_digits] => 31
+[length] => 12
+[flags] => 1
+[content_type] => 0
 )
 )

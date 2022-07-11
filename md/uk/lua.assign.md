@@ -7,7 +7,7 @@
 
 # Lua::assign
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::assign — Присвоїти PHP-змінній Lua
 
@@ -35,13 +35,13 @@ public **Lua::assign**(string `$name`, string `$value`):
 
 **Приклад #1 Приклад використання **Lua::assign()****
 
-` <?php$lua u003d new Lua();$lua->assign("php_var", array(1u003d>1, 2, 3)); // індекси таблиці lua починаються з 1$lua->eval(<<<CODE    print(php_var);CODE);?> `
+` <?php$lua = new Lua();$lua->assign("php_var", array(1=>1, 2, 3)); // індекси таблиці lua починаються з 1$lua->eval(<<<CODE    print(php_var);CODE);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[1] u003d> 1
-[2] u003d> 2
-[3] u003d> 3
+[1] => 1
+[2] => 2
+[3] => 3
 )

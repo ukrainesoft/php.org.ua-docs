@@ -35,7 +35,7 @@ ucfirst — Перетворює перший символ рядка у вер�
 
 **Приклад #1 Приклад використання **ucfirst()****
 
-` <?php$foo u003d 'hello world!';$foo u003d ucfirst($foo); // Hello world!$bar u003d 'HELLO WORLD!';$bar u003d ucfirst($bar); // HELLO WORLD! $ bar u003d u003d ucfirst (strtolower ($ bar)); // Hello world!?> `
+` <?php$foo = 'hello world!';$foo = ucfirst($foo); // Hello world!$bar = 'HELLO WORLD!';$bar = ucfirst($bar); // HELLO WORLD! $ bar = = ucfirst (strtolower ($ bar)); // Hello world!?> `
 
 ### Дивіться також
 

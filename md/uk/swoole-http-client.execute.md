@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::execute
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::execute — Надсилає HTTP-запит після встановлення
 параметрів

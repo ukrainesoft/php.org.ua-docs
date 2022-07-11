@@ -7,7 +7,7 @@
 
 # Клас EvPrepare
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -58,12 +58,12 @@ public `$priority`;
 /\* Методи \*/
 
 public [\_\_construct](evprepare.construct.md)( string `$callback` ,
-string `$data` u003d ?, string `$priority` u003d ?)
+string `$data` = ?, string `$priority` = ?)
 
 final public static [createStopped](evprepare.createstopped.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvPrepare](class.evprepare.md)
 
 /\* Наслідувані методи \*/
@@ -78,7 +78,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

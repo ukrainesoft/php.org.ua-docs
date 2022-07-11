@@ -38,14 +38,14 @@ bool
 
 **Приклад #1 Приклад використання **Imagick::setColorValue()****
 
-` <?php$color u003d new \ImagickPixel('firebrick');$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);print_r($color->getcolor(true));?> `
+` <?php$color = new \ImagickPixel('firebrick');$color->setColorValue(Imagick::COLOR_ALPHA, 0.5);print_r($color->getcolor(true));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[r] u003d> 0.69803921568627
-[g] u003d> 0.13333333333333
-[b] u003d> 0.13333333333333
-[a] u003d> 0.50000762951095
+[r] => 0.69803921568627
+[g] => 0.13333333333333
+[b] => 0.13333333333333
+[a] => 0.50000762951095
 )

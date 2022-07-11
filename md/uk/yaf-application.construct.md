@@ -7,7 +7,7 @@
 
 # Yaf_Application::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::\_\_construct - Конструктор класу Yaf_Application
 
@@ -15,7 +15,7 @@ Yaf_Application::\_\_construct - Конструктор класу Yaf_Applicati
 
 public
 **Yaf_Application::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$config`, string `$envrion` u003d ?)
+`$config`, string `$envrion` = ?)
 
 Примірник [Yaf_Application](class.yaf-application.md).
 
@@ -41,27 +41,27 @@ public
 `` inicode
 [product]
 ;Ця опція не має значення за умовчанням і обов'язково має бути задана вами
-application.directoryu003dAPPLICATION_PATH
+application.directory=APPLICATION_PATH
 
 ;Наступні параметри мають значення за замовчуванням, вам можна їх не чіпати
-application.library u003d APPLICATION_PATH . "/library"
-application.dispatcher.throwExceptionu003d1
-application.dispatcher.catchExceptionu003d1
+application.library = APPLICATION_PATH . "/library"
+application.dispatcher.throwException=1
+application.dispatcher.catchException=1
 
-application.baseUriu003d""
+application.baseUri=""
 
 ;розширення php-скриптів
-ap.extu003dphp
+ap.ext=php
 
 ;розширення файлів шаблонів
-ap.view.extu003dphtml
+ap.view.ext=phtml
 
-ap.dispatcher.defaultModuelu003dIndex
-ap.dispatcher.defaultControlleru003dIndex
-ap.dispatcher.defaultActionu003dindex
+ap.dispatcher.defaultModuel=Index
+ap.dispatcher.defaultController=Index
+ap.dispatcher.defaultAction=index
 
 ;Певні модулі
-ap.modulesu003dIndex
+ap.modules=Index
 ````
 
 `envrion`
@@ -73,13 +73,13 @@ ap.modulesu003dIndex
 
 **Приклад #2 Приклад використання **Yaf_Application::\_\_construct()****
 
-` <?phpdefined('APPLICATION_PATH')                   // APPLICATION_PATH will be used in the ini config file   | define('APPLICATION_PATH', __DIR__));$application u003d new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap()->run();?> `
+` <?phpdefined('APPLICATION_PATH')                   // APPLICATION_PATH will be used in the ini config file   | define('APPLICATION_PATH', __DIR__));$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap()->run();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 **Приклад #3 Приклад використання **Yaf_Application::\_\_construct()****
 
-`<?php$config u003d array(    "application" u003d> array(       "directory" u003d> realpath(dirname(__FILE__)) . "/application", Y_ ) $config);$application->bootstrap()->run();?> `
+`<?php$config = array(    "application" => array(       "directory" => realpath(dirname(__FILE__)) . "/application", Y_ ) $config);$application->bootstrap()->run();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

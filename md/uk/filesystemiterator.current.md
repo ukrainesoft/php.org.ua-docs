@@ -7,7 +7,7 @@
 
 # FilesystemIterator::current
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::current — Поточний файл
 
@@ -34,7 +34,7 @@ string\|[SplFileInfo](class.splfileinfo.md)\|[FilesystemIterator](class.filesyst
 У цьому прикладі буде виведено список вмісту директорії, в якій
 знаходиться виконуваний скрипт.
 
-` <?php$iterator u003d new FilesystemIterator(__DIR__, FilesystemIterator::CURRENT_AS_PATHNAME);foreach ($iterator as $fileinfo) {    echo $iterator->current() . "
+` <?php$iterator = new FilesystemIterator(__DIR__, FilesystemIterator::CURRENT_AS_PATHNAME);foreach ($iterator as $fileinfo) {    echo $iterator->current() . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

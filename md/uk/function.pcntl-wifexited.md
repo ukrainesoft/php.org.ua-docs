@@ -8,7 +8,7 @@
 
 #pcntl_wifexited
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 pcntl_wifexited — Перевіряє, чи код завершення процесу відповідає
 нормальному завершенню

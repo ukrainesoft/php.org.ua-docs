@@ -7,7 +7,7 @@
 
 #ldap_control_paged_result_response
 
-(PHP 5 \>u003d 5.4.0, PHP 7)
+(PHP 5 \>= 5.4.0, PHP 7)
 
 ldap_control_paged_result_response — Отримати вказівник на поточну
 сторінку результуючого набору LDAP
@@ -24,8 +24,8 @@ ldap_control_paged_result_response — Отримати вказівник на 
 **ldap_control_paged_result_response**(
 resource `$link`,
 resource `$result`,
-string `&$cookie` u003d ?,
-int `&$estimated` u003d ?
+string `&$cookie` = ?,
+int `&$estimated` = ?
 ): bool
 
 Отримати вказівник на поточну сторінку LDAP.
@@ -52,7 +52,7 @@ int `&$estimated` u003d ?
 ### Список змін
 
 | Версія | Опис                          |
-| ------ | ----------------------------- |
+|--------|-------------------------------|
 | 8.0.0  | Функцію було видалено.        |
 | 7.4.0  | Функція оголошена застарілою. |
 

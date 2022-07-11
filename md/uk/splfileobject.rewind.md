@@ -7,7 +7,7 @@
 
 # SplFileObject::rewind
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::rewind — Перемотування файлового покажчика на початок файлу
 
@@ -34,7 +34,7 @@ public **SplFileObject::rewind**(): void
 
 **Приклад #1 Приклад використання **SplFileObject::rewind()****
 
-`<?php$file u003d new SplFileObject("misc.txt");// Прохід по всему файлуforeach ($file as $line) { }// Перемотання на/ перший рядок$file->rewind рядкиecho $file->current();?> `
+`<?php$file = new SplFileObject("misc.txt");// Прохід по всему файлуforeach ($file as $line) { }// Перемотання на/ перший рядок$file->rewind рядкиecho $file->current();?> `
 
 ### Дивіться також
 

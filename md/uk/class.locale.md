@@ -7,7 +7,7 @@
 
 # Клас Locale
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 ## Вступ
 
@@ -56,11 +56,11 @@ public static [composeLocale](locale.composelocale.md)(array
 `$subtags`): string\|false
 
 public static [filterMatches](locale.filtermatches.md)(string
-`$languageTag`, string `$locale`, bool `$canonicalize` u003d **`false`**):
+`$languageTag`, string `$locale`, bool `$canonicalize` = **`false`**):
 ?bool
 
 **locale_filter_matches**(string `$langtag`, string `$locale`, bool
-`$canonicalize` u003d **`false`**): ?bool
+`$canonicalize` = **`false`**): ?bool
 
 public static [getAllVariants](locale.getallvariants.md)(string
 `$locale`): ?array
@@ -69,19 +69,19 @@ public static [getDefault](locale.getdefault.md)(): string
 
 public static
 [getDisplayLanguage](locale.getdisplaylanguage.md)(string `$locale`,
-?string `$displayLocale` u003d **`null`**): string\|false
+?string `$displayLocale` = **`null`**): string\|false
 
 public static [getDisplayName](locale.getdisplayname.md)(string
-`$locale`, ?string `$displayLocale` u003d **`null`**): string\|false
+`$locale`, ?string `$displayLocale` = **`null`**): string\|false
 
 public static [getDisplayRegion](locale.getdisplayregion.md)(string
-`$locale`, ?string `$displayLocale` u003d **`null`**): string\|false
+`$locale`, ?string `$displayLocale` = **`null`**): string\|false
 
 public static [getDisplayScript](locale.getdisplayscript.md)(string
-`$locale`, ?string `$displayLocale` u003d **`null`**): string\|false
+`$locale`, ?string `$displayLocale` = **`null`**): string\|false
 
 public static [getDisplayVariant](locale.getdisplayvariant.md)(string
-`$locale`, ?string `$displayLocale` u003d **`null`**): string\|false
+`$locale`, ?string `$displayLocale` = **`null`**): string\|false
 
 public static [getKeywords](locale.getkeywords.md)(string `$locale`):
 array\|false\|null
@@ -99,8 +99,8 @@ public static [getScript](locale.getscript.md)(string `$locale`):
 public static [lookup](locale.lookup.md)(
 array `$languageTag`,
 string `$locale`,
-bool `$canonicalize` u003d **`false`**,
-?string `$defaultLocale` u003d **`null`**
+bool `$canonicalize` = **`false`**,
+?string `$defaultLocale` = **`null`**
 ): ?string
 
 public static [parseLocale](locale.parselocale.md)(string `$locale`):

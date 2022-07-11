@@ -53,14 +53,14 @@ mysqli_fetch_row/array/object або якщо в результуючому на
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
-", mysqli_connect_error());   exit();}$query u003d "SELECT * from Country ORDER BY Code LIMIT 1";if ($result u003d $mysqli->query($query) fetch_row();    /* виведемо довжини полів */    foreach ($result->lengths as $i u003d> $val) {       є printf("Д|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
+", mysqli_connect_error());   exit();}$query = "SELECT * from Country ORDER BY Code LIMIT 1";if ($result = $mysqli->query($query) fetch_row();    /* виведемо довжини полів */    foreach ($result->lengths as $i => $val) {       є printf("Д|
 ", $i+1, $val);    }    $result->close();}/* закриваємо підключення */$mysqli->close();?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());   exit();}$query u003d "SELECT * from Country ORDER BY Code LIMIT 1";if ($result u003d) Mysqli_query($link, $$ ;   /* виведемо довжини полів */   foreach (mysqli_fetch_lengths($result) as $i u003d> $val) {      дє
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
+", mysqli_connect_error());   exit();}$query = "SELECT * from Country ORDER BY Code LIMIT 1";if ($result =) Mysqli_query($link, $$ ;   /* виведемо довжини полів */   foreach (mysqli_fetch_lengths($result) as $i => $val) {      дє
 ", $i+1, $val);    }    mysqli_free_result($result);}/* закриваємо підключення */mysqli_close($link);?> `
 
 Результат виконання даних прикладів:

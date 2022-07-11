@@ -7,7 +7,7 @@
 
 # GmagickDraw::polyline
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::polyline — Малює ламану лінію
 

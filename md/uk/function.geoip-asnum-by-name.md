@@ -7,7 +7,7 @@
 
 # geoip_asnum_by_name
 
-(PECL geoip \>u003d 1.1.0)
+(PECL geoip \>= 1.1.0)
 
 geoip_asnum_by_name — Отримати номер автономної системи (ASN)
 
@@ -34,7 +34,7 @@ geoip_asnum_by_name — Отримати номер автономної сис�
 
 Отримання ASN для хоста www.example.com.
 
-` <?php$asn u003d geoip_asnum_by_name('www.example.com');if ($asn) {   echo 'ASN рівний: '. $asn;}?> `
+` <?php$asn = geoip_asnum_by_name('www.example.com');if ($asn) {   echo 'ASN рівний: '. $asn;}?> `
 
 Результат виконання цього прикладу:
 

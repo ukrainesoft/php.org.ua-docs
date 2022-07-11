@@ -8,7 +8,7 @@
 
 # SplStack::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7)
+(PHP 5 = 5.3.0, PHP 7)
 
 SplStack::\_\_construct — Створює новий стек, реалізований з
 використанням двозв'язкового списку
@@ -32,7 +32,7 @@ public **SplStack::\_\_construct**()
 
 **Приклад #1 Приклад використання **SplStack::\_\_construct()****
 
-` <?php$q u003d new SplStack();$q[] u003d 1;$q[] u003d 2;$q[] u003d 3;foreach ($q as $elem)  { echo $elem."
+` <?php$q = new SplStack();$q[] = 1;$q[] = 2;$q[] = 3;foreach ($q as $elem)  { echo $elem."
 ";}?> `
 
 Результат виконання цього прикладу:

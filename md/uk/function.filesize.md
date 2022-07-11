@@ -41,7 +41,7 @@ filesize — Повертає розмір файлу
 
 **Приклад #1 Приклад використання функції **filesize()****
 
-`<?php// Приклад висновку: Розмір файлу somefile.txt: 1024 байтів$filename u003d 'somefile.txt';echo 'Розмір файлу ' . $filename . ': ' . filesize($filename) . ' байтів';?> `
+`<?php// Приклад висновку: Розмір файлу somefile.txt: 1024 байтів$filename = 'somefile.txt';echo 'Розмір файлу ' . $filename . ': ' . filesize($filename) . ' байтів';?> `
 
 ### Примітки
 

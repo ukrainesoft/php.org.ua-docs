@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Binary::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Binary::\_\_construct — Створює новий Binary
 
@@ -40,7 +40,7 @@ final public **MongoDB\BSON\Binary::\_\_construct**(string `$data`, int
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                                                                         |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.3.0 | [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо type є **MongoDB\BSON\Binary::TYPE_UUID** або **MongoDB\BSON \Binary::TYPE_OLD_UUID**, а довжина data не дорівнює 16 байтам. |
 | PECL mongodb 1.1.3 | [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) видається, якщо type не є 8-розрядним цілим числом.                                                                                          |
 
@@ -49,14 +49,14 @@ final public **MongoDB\BSON\Binary::\_\_construct**(string `$data`, int
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Binary::\_\_construct()****
 
-` <?php$binary u003d new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary);?> `
+` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary);?> `
 
 Результат виконання цього прикладу:
 
 object(MongoDB\BSON\Binary)#1 (2) {
-["data"]u003d>
+["data"]=>
 string(3) "foo"
-["type"]u003d>
+["type"]=>
 int(0)
 }
 

@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Static
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -31,7 +31,7 @@ class **Yaf_Route_Static** implements
 /\* Методи \*/
 
 public [assemble](yaf-route-static.assemble.md)(array `$info`, array
-`$query` u003d ?): string
+`$query` = ?): string
 
 public [match](yaf-route-static.match.md)(string `$uri`): void
 

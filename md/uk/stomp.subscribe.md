@@ -9,7 +9,7 @@
 
 #stomp_subscribe
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::subscribe -- stomp_subscribe — Зареєструє передплату на вказану
 розсилку
@@ -18,13 +18,13 @@ Stomp::subscribe -- stomp_subscribe — Зареєструє передплат�
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::subscribe**(string `$destination`, array `$headers` u003d
+public **Stomp::subscribe**(string `$destination`, array `$headers` =
 ?): bool
 
 Процедурний стиль:
 
 **stomp_subscribe**(resource `$link`, string `$destination`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 Реєструє передплату на вказану розсилку.
 

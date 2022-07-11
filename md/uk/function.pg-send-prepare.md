@@ -8,7 +8,7 @@
 
 #pg_send_prepare
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_send_prepare — Надсилає запит на створення параметризованого
 SQL-вирази, не чекаючи його завершення
@@ -55,14 +55,14 @@ SQL-вирази, не чекаючи його завершення
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_send_prepare()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Could not connect"); // Підготовка запиту if (!pg_connection_busy($dbconn)) {    pg_send_prepare($dbconn, "my_query", 'SELECT ** FROM shops WHERE name ' $res1 u003d pg_get_result($dbconn); }  // Запуск запиту на виконання. Варто відзначити, що немає потреби екранувати // спецспеку символи в рядку "Joe's Widgets": $res2 u003d pg_get_result($dbconn); }  // Запуск на виконання того ж| $res3 u003d pg_get_result($dbconn); }?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); // Підготовка запиту if (!pg_connection_busy($dbconn)) {    pg_send_prepare($dbconn, "my_query", 'SELECT ** FROM shops WHERE name ' $res1 = pg_get_result($dbconn); }  // Запуск запиту на виконання. Варто відзначити, що немає потреби екранувати // спецспеку символи в рядку "Joe's Widgets": $res2 = pg_get_result($dbconn); }  // Запуск на виконання того ж| $res3 = pg_get_result($dbconn); }?> `
 
 ### Дивіться також
 

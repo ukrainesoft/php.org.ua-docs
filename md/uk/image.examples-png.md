@@ -9,10 +9,10 @@
 
 **Приклад #1 Створення PNG засобами PHP**
 
-` <?phpheader("Content-type: image/png");$string u003d $_GET['text'];$im    u003d imagecreatefrompng("images/button1.png");$orange u003d imagecolorallocate($im, 22 , 210, 60);$px     u003du003d (imagesx($im) - 7.5 * strlen($string)) / 2;imagestring($im, 3, $px, 9, $string, $orange); );imagedestroy($im);?> `
+` <?phpheader("Content-type: image/png");$string = $_GET['text'];$im    = imagecreatefrompng("images/button1.png");$orange = imagecolorallocate($im, 22 , 210, 60);$px     == (imagesx($im) - 7.5 * strlen($string)) / 2;imagestring($im, 3, $px, 9, $string, $orange); );imagedestroy($im);?> `
 
 Цей приклад можна було б викликати на сторінці з тегом:
-`<img srcu003d"button.php?textu003dtext">`. Наведений вище скрипт
+`<img src="button.php?text=text">`. Наведений вище скрипт
 `button.php` візьме рядок ``text'` і накладе її поверх базового
 зображення, яке є, в даному випадку ``images/button1.png'' і
 виведе кінцеве зображення. Це дуже зручний спосіб уникнути

@@ -7,13 +7,13 @@
 
 # gmp_import
 
-(PHP 5 \>u003d 5.6.1, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.1, PHP 7, PHP 8)
 
 gmp_import — Імпортувати з бінарного рядка
 
 ### Опис
 
-**gmp_import**(string `$data`, int `$word_size` u003d 1, int `$flags` u003d
+**gmp_import**(string `$data`, int `$word_size` = 1, int `$flags` =
 GMP_MSW_FIRST \| GMP_NATIVE_ENDIAN): [GMP](class.gmp.md)
 
 Імпортує GMP-число з бінарного рядка
@@ -37,15 +37,15 @@ GMP_MSW_FIRST \| GMP_NATIVE_ENDIAN): [GMP](class.gmp.md)
 ### Список змін
 
 | Версія | Опис                                                            |
-| ------ | --------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------|
 | 8.0.0  | Функція більше не повертає **false** у разі виникнення помилки. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **gmp_import()****
 
-` <?php$number u003d gmp_import(" ");echo gmp_strval($number) . "
-";$number u003d gmp_import(" ");echo gmp_strval($number) . "
+` <?php$number = gmp_import(" ");echo gmp_strval($number) . "
+";$number = gmp_import(" ");echo gmp_strval($number) . "
 ";?> `
 
 Результат виконання цього прикладу:

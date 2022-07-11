@@ -7,7 +7,7 @@
 
 # SplDoublyLinkedList::top
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::top — Отримує вузол, що знаходиться в кінці
 двозв'язного списку

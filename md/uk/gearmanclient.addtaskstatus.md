@@ -7,14 +7,14 @@
 
 # GearmanClient::addTaskStatus
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addTaskStatus — Додати завдання для отримання статусу
 
 ### Опис
 
 public **GearmanClient::addTaskStatus**(string `$job_handle`, string
-`&$context` u003d ?): [GearmanTask](class.gearmantask.md)
+`&$context` = ?): [GearmanTask](class.gearmantask.md)
 
 Використовується для запиту інформації про стан із сервера Gearman,
 який буде викликати вказаний callback-функцію статусу (задану
@@ -42,8 +42,8 @@ public **GearmanClient::addTaskStatus**(string `$job_handle`, string
 змоделювати тривалий робочий процес. Є лише один обробник,
 запущений для цього прикладу.
 
-`<?php/* створення клієнтського об'єкта */$gmclientu003d new GearmanClient();/* додавання сервера задач за замовчуванням */$gmclient->addServer();/* запуск не      array();$handles[0] u003d $gmclient->doBackground("reverse", "Hello World!");$handles[1] u003d $gmclient->doBackground("reverse", "!dlroW olleH"); $gmclient->setStatusCallback("reverse_status");/* Опитування сервера з метою визначення, коли завершаться фонові завдання; *//* кращим методом може бути установка callback-функцій на події */do{   /* використовуємо контекстні змінні для відстеження за те     $gmclient->addTaskStatus($handles[0], &$done); $gmclient->addTaskStatus($handles[1], &$done); $gmclient->runTasks(); echo "Виконано: $done
-";   sleep(1);}while ($done !u003d 2);function reverse_status($task, $done){   if (!$task->isKnown())      $done++;}>
+`<?php/* створення клієнтського об'єкта */$gmclient= new GearmanClient();/* додавання сервера задач за замовчуванням */$gmclient->addServer();/* запуск не      array();$handles[0] = $gmclient->doBackground("reverse", "Hello World!");$handles[1] = $gmclient->doBackground("reverse", "!dlroW olleH"); $gmclient->setStatusCallback("reverse_status");/* Опитування сервера з метою визначення, коли завершаться фонові завдання; *//* кращим методом може бути установка callback-функцій на події */do{   /* використовуємо контекстні змінні для відстеження за те     $gmclient->addTaskStatus($handles[0], &$done); $gmclient->addTaskStatus($handles[1], &$done); $gmclient->runTasks(); echo "Виконано: $done
+";   sleep(1);}while ($done != 2);function reverse_status($task, $done){   if (!$task->isKnown())      $done++;}>
 
 Результатом виконання цього прикладу буде щось подібне:
 

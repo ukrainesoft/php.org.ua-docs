@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::toArray
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Cursor::toArray — Повертає масив, що містить усі
 результати курсору
@@ -38,39 +38,39 @@ final public **MongoDB\Driver\Cursor::toArray**(): array
 
 **Приклад #1 Приклад використання **MongoDB\Driver\Cursor::toArray()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]) ;$bulk->insert(['x' u003d> 2]);$bulk->insert(['x' u003d> 3]);$manager->executeBulkWrite('db.collection', $bulk);$ query u003d new MongoDB\Driver\Query([]);$cursor u003d $manager->executeQuery('db.collection', $query);var_dump($cursor->toArray());?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]) ;$bulk->insert(['x' => 2]);$bulk->insert(['x' => 3]);$manager->executeBulkWrite('db.collection', $bulk);$ query = new MongoDB\Driver\Query([]);$cursor = $manager->executeQuery('db.collection', $query);var_dump($cursor->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 object(stdClass)#6 (2) {
-["_id"]u003d>
+["_id"]=>
 object(MongoDB\BSON\ObjectId)#5 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "564259a96118fd40b41bcf61"
 }
-["x"]u003d>
+["x"]=>
 int(1)
 }
-[1]u003d>
+[1]=>
 object(stdClass)#8 (2) {
-["_id"]u003d>
+["_id"]=>
 object(MongoDB\BSON\ObjectId)#7 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "564259a96118fd40b41bcf62"
 }
-["x"]u003d>
+["x"]=>
 int(2)
 }
-[2]u003d>
+[2]=>
 object(stdClass)#10 (2) {
-["_id"]u003d>
+["_id"]=>
 object(MongoDB\BSON\ObjectId)#9 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "564259a96118fd40b41bcf63"
 }
-["x"]u003d>
+["x"]=>
 int(3)
 }
 }

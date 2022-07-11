@@ -41,8 +41,8 @@ public **SolrDisMaxQuery::setQueryPhraseSlop**(string `$slop`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setQueryPhraseSlop()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery();$dismaxQuery->setQueryPhraseSlop(3);echo $dismaxQuery;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->setQueryPhraseSlop(3);echo $dismaxQuery;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-defTypeu003dedismax&qsu003d3
+defType=edismax&qs=3

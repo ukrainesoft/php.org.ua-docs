@@ -7,7 +7,7 @@
 
 # ZipArchive::deleteName
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::deleteName — Видаляє елемент в архіві за допомогою його імені.
 
@@ -31,4 +31,4 @@ public **ZipArchive::deleteName**(string `$name`): bool
 
 **Приклад #1 Видалити файл та каталог з архіву за допомогою імен**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test1.zip') u003du003du003d TRUE) {   $zip->deleteName('testfromfile.php'); $zip->deleteName('testDir/'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test1.zip') === TRUE) {   $zip->deleteName('testfromfile.php'); $zip->deleteName('testDir/'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `

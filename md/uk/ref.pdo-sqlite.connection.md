@@ -7,7 +7,7 @@
 
 #PDO_SQLITE DSN
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PECL PDO_SQLITE \>u003d 0.2.0)
+(PHP 5 \>= 5.1.0, PHP 7, PECL PDO_SQLITE \>= 0.2.0)
 
 PDO_SQLITE DSN — З'єднання з базою даних SQLite
 

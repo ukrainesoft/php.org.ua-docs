@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Binary
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -27,23 +27,23 @@ final class **MongoDB\BSON\Binary** implements
 
 /\* Константи \*/
 
-const int `TYPE_GENERIC` u003d 0;
+const int `TYPE_GENERIC` = 0;
 
-const int `TYPE_FUNCTION` u003d 1;
+const int `TYPE_FUNCTION` = 1;
 
-const int `TYPE_OLD_BINARY` u003d 2;
+const int `TYPE_OLD_BINARY` = 2;
 
-const int `TYPE_OLD_UUID` u003d 3;
+const int `TYPE_OLD_UUID` = 3;
 
-const int `TYPE_UUID` u003d 4;
+const int `TYPE_UUID` = 4;
 
-const int `TYPE_MD5` u003d 5;
+const int `TYPE_MD5` = 5;
 
-const int `TYPE_ENCRYPTED` u003d 6;
+const int `TYPE_ENCRYPTED` = 6;
 
-const int `TYPE_COLUMN` u003d 7;
+const int `TYPE_COLUMN` = 7;
 
-const int `TYPE_USER_DEFINED` u003d 128;
+const int `TYPE_USER_DEFINED` = 128;
 
 /\* Методи \*/
 

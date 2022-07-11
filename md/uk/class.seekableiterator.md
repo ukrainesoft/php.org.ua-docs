@@ -7,7 +7,7 @@
 
 # Інтерфейс SeekableIterator
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -43,7 +43,7 @@ public [Iterator::valid](iterator.valid.md)(): bool
 **SeekableIterator**, який шукає позицію та обробляє
 недійсну позицію.
 
-` <?phpclass MySeekableIterator implements SeekableIterator {    private $position; private $array u003d array(        "перший елемент",        "другий елемент",  ...| /* Метод, требуемый для интерфейса SeekableIterator */    public function seek($position) {      if (!isset($this->array[$position])) {          throw new OutOfBoundsException("недействительная позиция ($position)"); }     $this->position u003d $position; }    /*  Методи, потрібні для інтерфейсу Iterator */    public function rewind() {        $this->position u003d 0; }    public function current() {        return $this->array[$this->position]; }    public function key() {        return $this->position; }    public function next() {        ++$this->position; }    public function valid() {        return isset($this->array[$this->position]); }}try {   $it u003d new MySeekableIterator; echo $it->current(), "
+` <?phpclass MySeekableIterator implements SeekableIterator {    private $position; private $array = array(        "перший елемент",        "другий елемент",  ...| /* Метод, требуемый для интерфейса SeekableIterator */    public function seek($position) {      if (!isset($this->array[$position])) {          throw new OutOfBoundsException("недействительная позиция ($position)"); }     $this->position = $position; }    /*  Методи, потрібні для інтерфейсу Iterator */    public function rewind() {        $this->position = 0; }    public function current() {        return $this->array[$this->position]; }    public function key() {        return $this->position; }    public function next() {        ++$this->position; }    public function valid() {        return isset($this->array[$this->position]); }}try {   $it = new MySeekableIterator; echo $it->current(), "
 ";   $it->seek(2);    echo $it->current(), "
 ";   $it->seek(1);    echo $it->current(), "
 ";   $it->seek(10);} catch (OutOfBoundsException $e) {   echo $e->getMessage();}?> `

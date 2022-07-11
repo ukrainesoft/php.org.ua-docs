@@ -7,7 +7,7 @@
 
 # SplObjectStorage::detach
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::detach — Видаляє об'єкт з контейнера
 
@@ -30,7 +30,7 @@ public **SplObjectStorage::detach**(object `$object`): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::detach()****
 
-` <?php$o u003d new StdClass;$s u003d new SplObjectStorage();$s->attach($o);var_dump(count($s));$s->detach($o);var_dump(count ($s));?> `
+` <?php$o = new StdClass;$s = new SplObjectStorage();$s->attach($o);var_dump(count($s));$s->detach($o);var_dump(count ($s));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

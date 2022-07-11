@@ -7,7 +7,7 @@
 
 # SplFileObject::getFlags
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getFlags — Отримує прапорці налаштування об'єкту SplFileObject
 
@@ -30,7 +30,7 @@ int.
 
 **Приклад #1 Приклад використання **SplFileObject::getFlags()****
 
-` <?php$file u003d new SplFileObject(__FILE__, "r");if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {    echo "Пропускати пусті рядки
+` <?php$file = new SplFileObject(__FILE__, "r");if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {    echo "Пропускати пусті рядки
 ";} else {    echo "Не пропускати пусті рядки
 ";}$file->setFlags(SplFileObject::SKIP_EMPTY);if ($file->getFlags() & SplFileObject::SKIP_EMPTY) {    echo "Пропускати пусті рядки
 ";} else {    echo "Не пропускати пусті рядки

@@ -8,7 +8,7 @@
 
 # EvLoop::idle
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::idle — Створює об'єкт спостерігача EvIdle, пов'язаний із поточним
 екземпляром циклу подій
@@ -18,7 +18,7 @@ EvLoop::idle — Створює об'єкт спостерігача EvIdle, п�
 final public **EvLoop::idle**( [callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvIdle](class.evidle.md)
 
 Створює об'єкт спостерігача EvIdle, пов'язаний з поточним екземпляром циклу

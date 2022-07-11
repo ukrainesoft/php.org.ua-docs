@@ -13,7 +13,7 @@ localtime — Повертає локальний час
 
 ### Опис
 
-**localtime**(?int `$timestamp` u003d **`null`**, bool `$associative` u003d
+**localtime**(?int `$timestamp` = **`null`**, bool `$associative` =
 **`false`**): array
 
 Функція **localtime()** повертає масив, аналогічний структурою,
@@ -62,41 +62,41 @@ localtime — Повертає локальний час
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | timestamp тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **localtime()****
 
-` <?php$localtime u003d localtime();$localtime_assoc u003d localtime(time(), true);print_r($localtime);print_r($localtime_assoc);?> `
+` <?php$localtime = localtime();$localtime_assoc = localtime(time(), true);print_r($localtime);print_r($localtime_assoc);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 24
-[1] u003d> 3
-[2] u003d> 19
-[3] u003d> 3
-[4] u003d> 3
-[5] u003d> 105
-[6] u003d> 0
-[7] u003d> 92
-[8] u003d> 1
+[0] => 24
+[1] => 3
+[2] => 19
+[3] => 3
+[4] => 3
+[5] => 105
+[6] => 0
+[7] => 92
+[8] => 1
 )
 
 Array
 (
-[tm_sec] u003d> 24
-[tm_min] u003d> 3
-[tm_hour] u003d> 19
-[tm_mday] u003d> 3
-[tm_mon] u003d> 3
-[tm_year] u003d> 105
-[tm_wday] u003d> 0
-[tm_yday] u003d> 92
-[tm_isdst] u003d> 1
+[tm_sec] => 24
+[tm_min] => 3
+[tm_hour] => 19
+[tm_mday] => 3
+[tm_mon] => 3
+[tm_year] => 105
+[tm_wday] => 0
+[tm_yday] => 92
+[tm_isdst] => 1
 )
 
 ### Дивіться також

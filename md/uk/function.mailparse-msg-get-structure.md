@@ -7,7 +7,7 @@
 
 #mailparse_msg_get_structure
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_get_structure — Отримати масив імен mime-секцій у
 заданому повідомленні

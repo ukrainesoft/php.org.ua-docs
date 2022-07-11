@@ -7,7 +7,7 @@
 
 # svn_fs_node_created_rev
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_node_created_rev — Повертає номер ревізії, коли було створено
 шлях у файловій системі

@@ -33,4 +33,4 @@ public **SimpleXMLIterator::valid**(): bool
 
 **Приклад #1 Перевіряє, чи поточний елемент є допустимим**
 
-` <?php$xmlIterator u003d new SimpleXMLIterator('<books><book>Основи SQL</book></books>');$xmlIterator->rewind(); // повернення до першого елементуecho var_dump($xmlIterator->valid()); //bool(true)$xmlIterator->next(); // перейти до наступного елементуecho var_dump($xmlIterator->valid()); // bool(false), оскільки є тільки один елемент?> `
+` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи SQL</book></books>');$xmlIterator->rewind(); // повернення до першого елементуecho var_dump($xmlIterator->valid()); //bool(true)$xmlIterator->next(); // перейти до наступного елементуecho var_dump($xmlIterator->valid()); // bool(false), оскільки є тільки один елемент?> `

@@ -7,7 +7,7 @@
 
 # GearmanWorker::removeOptions
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::removeOptions — Видалення налаштувань обробника
 

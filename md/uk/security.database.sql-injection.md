@@ -29,7 +29,7 @@
 **Приклад #1 Посторінковий висновок результату... та створення
 суперкористувача в PostgreSQL**
 
-`<?php$offsetu003du003d$argv[0]; // увага, ні ні перевірки введених даних!$query u003d "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";$result u003d pg_query
+`<?php$offset==$argv[0]; // увага, ні ні перевірки введених даних!$query = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";$result = pg_query
 
 Зазвичай користувачі клацають за посиланням 'вперед' і 'назад', внаслідок
 чого значення змінної `$offset` заноситься до URL. Скрипт очікує, що
@@ -41,7 +41,7 @@ $offset - десяткове число. Проте, зломщик може с�
 0;
 insert into pg_shadow(usename,usesysid,usesuper,usecatupd,passwd)
 select 'crack', usesysid, 't', 't', 'crack'
-from pg_shadow where usenameu003d'postgres';
+from pg_shadow where usename='postgres';
 -
 ````
 
@@ -69,7 +69,7 @@ from pg_shadow where usenameu003d'postgres';
 **Приклад #2 Лістинг статей... та деяких паролів (для будь-якої бази
 даних)**
 
-` <?php$query  u003d "SELECT id, name, inserted, size FROM products           WHERE size u003d '$size'";$result u003d odbc_;
+` <?php$query  = "SELECT id, name, inserted, size FROM products           WHERE size = '$size'";$result = odbc_;
 
 Статична частина запиту може комбінуватися з іншим
 `SELECT`-запитом, який виведе всі паролі:
@@ -97,15 +97,15 @@ union select '1', concat(uname||'-'||passwd) as name, '1971-01-01', '0' from use
 **Приклад #3 Від відновлення пароля... до отримання додаткових
 привілеїв (для будь-якої бази даних)**
 
-` <?php$query u003d "UPDATE usertable SET pwdu003d'$pwd' WHERE uidu003d'$uid';";?> `
+` <?php$query = "UPDATE usertable SET pwd='$pwd' WHERE uid='$uid';";?> `
 
 Але зловмисник може ввести значення 'or uid like'%admin%'' для
 змінною `$uid` для зміни пароля адміністратора або просто
-присвоїти змінній `$pwd` значення `hehehe', trustedu003d100, adminu003d'yes`
+присвоїти змінній `$pwd` значення `hehehe', trusted=100, admin='yes`
 для отримання додаткових привілеїв. Під час виконання запитів
 переплітаються:
 
-` <?php// $uid: ' or uid like '%admin%$query u003d "UPDATE usertable SET pwdu003d'...' WHERE uidu003d'' or uid like '%admin%';";// pwd: hehehe', trustedu003d100, adminu003d'yes$query u003d "UPDATE usertable SET pwdu003d'hehehe', trustedu003d100, adminu003d'yes' WHERE...;";?> `
+` <?php// $uid: ' or uid like '%admin%$query = "UPDATE usertable SET pwd='...' WHERE uid='' or uid like '%admin%';";// pwd: hehehe', trusted=100, admin='yes$query = "UPDATE usertable SET pwd='hehehe', trusted=100, admin='yes' WHERE...;";?> `
 
 Страхітливий приклад того, як на сервері баз даних можуть виконуватися
 команди операційної системи.
@@ -113,13 +113,13 @@ union select '1', concat(uname||'-'||passwd) as name, '1971-01-01', '0' from use
 **Приклад #4 Виконання команд операційної системи на сервері (для бази
 MSSQL)**
 
-` <?php$query  u003d "SELECT * FROM products WHERE id LIKE '%$prod%'";$result u003d mssql_query($query);?> `
+` <?php$query  = "SELECT * FROM products WHERE id LIKE '%$prod%'";$result = mssql_query($query);?> `
 
 Якщо зломщик введе значення
 `a%' exec master..xp_cmdshell 'net user test testpass /ADD' --` для
 змінною `$prod`, тоді запит `$query` виглядатиме так:
 
-` <?php$query  u003d "SELECT * FROM products           WHERE id LIKE '%a%'           exec master..xp_cmdshell 'net user test testpass /ADD' --%'";$result u003d mssql_query($query);?> `
+` <?php$query  = "SELECT * FROM products           WHERE id LIKE '%a%'           exec master..xp_cmdshell 'net user test testpass /ADD' --%'";$result = mssql_query($query);?> `
 
 MSSQL сервер виконує SQL-команди в пакетному режимі, у тому числі
 операції із закладу локальних облікових записів бази даних. В разі,
@@ -186,7 +186,7 @@ MSSQL запущений з необхідними привілеями, то в
 
 **Приклад #5 Більш безпечна реалізація посторінкової навігації**
 
-` <?phpsettype($offset, 'integer');$query u003d "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";// зверніть увагу на форм    query u003d sprintf("SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET %d;",                 $set)
+` <?phpsettype($offset, 'integer');$query = "SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET $offset;";// зверніть увагу на форм    query = sprintf("SELECT id, name FROM products ORDER BY name LIMIT 20 OFFSET %d;",                 $set)
 
 - Якщо на рівні бази даних не підтримуються прив'язані
 змінні, то завжди екрануйте будь-які нечислові дані,

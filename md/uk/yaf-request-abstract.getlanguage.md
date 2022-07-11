@@ -7,7 +7,7 @@
 
 # Yaf_Request_Abstract::getLanguage
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getLanguage — Отримує бажану мову
 клієнта

@@ -7,7 +7,7 @@
 
 # Ds\Stack::pop
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::pop — Видаляє та повертає значення з вершини стека
 
@@ -36,7 +36,7 @@ public **Ds\Stack::pop**():
 
 **Приклад #1 Приклад використання **Ds\Stack::pop()****
 
-` <?php$stack u003d new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c");var_dump( $stack->pop());var_dump($stack->pop());var_dump($stack->pop());?> `
+` <?php$stack = new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c");var_dump( $stack->pop());var_dump($stack->pop());var_dump($stack->pop());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Gmagick::edgeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::edgeimage — Збільшує краї зображення.
 

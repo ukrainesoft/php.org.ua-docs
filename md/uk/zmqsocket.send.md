@@ -7,13 +7,13 @@
 
 # ZMQSocket::send
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::send — Надіслати повідомлення
 
 ### Опис
 
-public **ZMQSocket::send**(string `$message`, int `$mode` u003d 0):
+public **ZMQSocket::send**(string `$message`, int `$mode` = 0):
 [ZMQSocket](class.zmqsocket.md)
 
 Надсилає повідомлення. Операція може блокуватися, якщо не використовується

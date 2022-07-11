@@ -8,7 +8,7 @@
 
 # RarException::setUsingExceptions
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarException::setUsingExceptions — Увімкнути або вимкнути генерацію
 винятків замість повернення помилок
@@ -46,7 +46,7 @@ public static **RarException::setUsingExceptions**(bool
 **Приклад #1 Приклад використання
 **RarException::setUsingExceptions()****
 
-` <?phpvar_dump(RarException::isUsingExceptions());$arch u003d RarArchive::open("does_not_exist.rar");var_dump($arch);RarException::setUsingExceptions(true);var_dump(RarException );$arch u003d RarArchive::open("does_not_exist.rar");var_dump($arch); //not reached?> `
+` <?phpvar_dump(RarException::isUsingExceptions());$arch = RarArchive::open("does_not_exist.rar");var_dump($arch);RarException::setUsingExceptions(true);var_dump(RarException );$arch = RarArchive::open("does_not_exist.rar");var_dump($arch); //not reached?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

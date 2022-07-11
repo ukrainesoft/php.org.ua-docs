@@ -7,7 +7,7 @@
 
 # SolrQuery::setFacetOffset
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetOffset — Встановлює зміщення до списку обмежень
 для розбивки на сторінки
@@ -15,7 +15,7 @@ SolrQuery::setFacetOffset — Встановлює зміщення до спи�
 ### Опис
 
 public **SolrQuery::setFacetOffset**(int `$offset`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює зміщення до списку обмежень розбивки на сторінки.
 

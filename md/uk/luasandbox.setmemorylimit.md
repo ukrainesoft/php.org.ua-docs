@@ -7,7 +7,7 @@
 
 # LuaSandbox::setMemoryLimit
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::setMemoryLimit — Встановлює межу пам'яті для середовища Lua
 
@@ -33,7 +33,7 @@ public **LuaSandbox::setMemoryLimit**(int `$limit`): void
 
 **Приклад #1 Виклик функції Lua**
 
-`<?php// Створення нового об'єкта LuaSandbox$sandbox u003d neu LuaSandbox();// Установка межі пам'яті$sandbox->setMemoryLimit( 50 * 1024 * > u003d "x"; while true do x u003d x .. x; end' )->call();?> `
+`<?php// Створення нового об'єкта LuaSandbox$sandbox = neu LuaSandbox();// Установка межі пам'яті$sandbox->setMemoryLimit( 50 * 1024 * > = "x"; while true do x = x .. x; end' )->call();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

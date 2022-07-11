@@ -7,7 +7,7 @@
 
 # Клас EventSslContext
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -20,39 +20,39 @@ final class **EventSslContext** {
 
 /\* Константи \*/
 
-const int `SSLv2_CLIENT_METHOD` u003d 1;
+const int `SSLv2_CLIENT_METHOD` = 1;
 
-const int `SSLv3_CLIENT_METHOD` u003d 2;
+const int `SSLv3_CLIENT_METHOD` = 2;
 
-const int `SSLv23_CLIENT_METHOD` u003d 3;
+const int `SSLv23_CLIENT_METHOD` = 3;
 
-const int `TLS_CLIENT_METHOD` u003d 4;
+const int `TLS_CLIENT_METHOD` = 4;
 
-const int `SSLv2_SERVER_METHOD` u003d 5;
+const int `SSLv2_SERVER_METHOD` = 5;
 
-const int `SSLv3_SERVER_METHOD` u003d 6;
+const int `SSLv3_SERVER_METHOD` = 6;
 
-const int `SSLv23_SERVER_METHOD` u003d 7;
+const int `SSLv23_SERVER_METHOD` = 7;
 
-const int `TLS_SERVER_METHOD` u003d 8;
+const int `TLS_SERVER_METHOD` = 8;
 
-const int `OPT_LOCAL_CERT` u003d 1;
+const int `OPT_LOCAL_CERT` = 1;
 
-const int `OPT_LOCAL_PK` u003d 2;
+const int `OPT_LOCAL_PK` = 2;
 
-const int `OPT_PASSPHRASE` u003d 3;
+const int `OPT_PASSPHRASE` = 3;
 
-const int `OPT_CA_FILE` u003d 4;
+const int `OPT_CA_FILE` = 4;
 
-const int `OPT_CA_PATH` u003d 5;
+const int `OPT_CA_PATH` = 5;
 
-const int `OPT_ALLOW_SELF_SIGNED` u003d 6;
+const int `OPT_ALLOW_SELF_SIGNED` = 6;
 
-const int `OPT_VERIFY_PEER` u003d 7;
+const int `OPT_VERIFY_PEER` = 7;
 
-const int `OPT_VERIFY_DEPTH` u003d 8;
+const int `OPT_VERIFY_DEPTH` = 8;
 
-const int `OPT_CIPHERS` u003d 9;
+const int `OPT_CIPHERS` = 9;
 
 /\* Властивості \*/
 

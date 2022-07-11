@@ -7,7 +7,7 @@
 
 # Клас SQLite3
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -20,12 +20,12 @@ class **SQLite3** {
 /\* Методи \*/
 
 public [\_\_construct](sqlite3.construct.md)(string `$filename`, int
-`$flags` u003d SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string
-`$encryptionKey` u003d "")
+`$flags` = SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string
+`$encryptionKey` = "")
 
 public [backup](sqlite3.backup.md)([SQLite3](class.sqlite3.md)
-`$destination`, string `$sourceDatabase` u003d "main", string
-`$destinationDatabase` u003d "main"): bool
+`$destination`, string `$sourceDatabase` = "main", string
+`$destinationDatabase` = "main"): bool
 
 public [busyTimeout](sqlite3.busytimeout.md)(int `$milliseconds`):
 bool
@@ -38,7 +38,7 @@ public [createAggregate](sqlite3.createaggregate.md)(
 string `$name`,
 [callable](language.types.callable.md) `$stepCallback`,
 [callable](language.types.callable.md) `$finalCallback`,
-int `$argCount` u003d -1
+int `$argCount` = -1
 ): bool
 
 public [createCollation](sqlite3.createcollation.md)(string `$name`,
@@ -47,12 +47,12 @@ public [createCollation](sqlite3.createcollation.md)(string `$name`,
 public [createFunction](sqlite3.createfunction.md)(
 string `$name`,
 [callable](language.types.callable.md) `$callback`,
-int `$argCount` u003d -1,
-int `$flags` u003d 0
+int `$argCount` = -1,
+int `$flags` = 0
 ): bool
 
 public [enableExceptions](sqlite3.enableexceptions.md)(bool `$enable`
-u003d **`false`**): bool
+= **`false`**): bool
 
 public static [escapeString](sqlite3.escapestring.md)(string
 `$string`): string
@@ -67,16 +67,16 @@ public [lastInsertRowID](sqlite3.lastinsertrowid.md)(): int
 
 public [loadExtension](sqlite3.loadextension.md)(string `$name`): bool
 
-public [open](sqlite3.open.md)(string `$filename`, int `$flags` u003d
-SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` u003d
+public [open](sqlite3.open.md)(string `$filename`, int `$flags` =
+SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` =
 ""): void
 
 public [openBlob](sqlite3.openblob.md)(
 string `$table`,
 string `$column`,
 int `$rowid`,
-string `$database` u003d "main",
-int `$flags` u003d **`SQLITE3_OPEN_READONLY`**
+string `$database` = "main",
+int `$flags` = **`SQLITE3_OPEN_READONLY`**
 ): resource \ | false
 
 public [prepare](sqlite3.prepare.md)(string `$query`):
@@ -86,7 +86,7 @@ public [query](sqlite3.query.md)(string `$query`):
 [SQLite3Result](class.sqlite3result.md)\|false
 
 public [querySingle](sqlite3.querysingle.md)(string `$query`, bool
-`$entireRow` u003d **`false`**):
+`$entireRow` = **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public

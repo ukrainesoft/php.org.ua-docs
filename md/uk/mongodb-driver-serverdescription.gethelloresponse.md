@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerDescription::getHelloResponse
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\ServerDescription::getHelloResponse — Повертає
 остання відповідь сервера "hello"

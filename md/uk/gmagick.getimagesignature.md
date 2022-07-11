@@ -7,7 +7,7 @@
 
 # Gmagick::getimagesignature
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagesignature — Створює підпис до повідомлення SHA-256
 

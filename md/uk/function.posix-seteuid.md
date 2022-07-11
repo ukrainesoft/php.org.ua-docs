@@ -8,7 +8,7 @@
 
 #posix_seteuid
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 posix_seteuid — Встановлює ефективний ідентифікатор користувача
 поточного процесу EUID

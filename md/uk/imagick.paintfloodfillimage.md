@@ -7,7 +7,7 @@
 
 # Imagick::paintFloodfillImage
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::paintFloodfillImage — Змінює значення кольору будь-якого пікселя,
 відповідної мети
@@ -27,7 +27,7 @@ float `$fuzz`,
 $bordercolor,
 int `$x`,
 int `$y`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Змінює значення кольору будь-якого пікселя, який відповідає цілі та

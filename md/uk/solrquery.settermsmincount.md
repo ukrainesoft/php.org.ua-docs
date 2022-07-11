@@ -7,7 +7,7 @@
 
 # SolrQuery::setTermsMinCount
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setTermsMinCount — Встановлює мінімальну частоту
 документів

@@ -36,7 +36,7 @@ public **XSLTProcessor::setParameter**(string `$namespace`, array
 Нове значення параметра XSLT.
 
 `options`
-Масив пар `nameu003d>value`.
+Масив пар `name=>value`.
 
 ### Значення, що повертаються
 
@@ -47,7 +47,7 @@ public **XSLTProcessor::setParameter**(string `$namespace`, array
 
 **Приклад #1 Зміна власника перед перетворенням**
 
-` <?php$collections u003d array(    'Marc Rutkowski' u003d> 'marc',   'Olivier Parmentier' u003d> 'olivier');$xsl u003d new DOMDocument;'x''''; / Налаштування перетворення$proc u003d new XSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslforeach ($collections as $name u003d> $file) {    // Load the XML source    $xml u003d new DOMDocument; $xml->load('collection_' . $file . '.xml'); $proc->setParameter('', 'owner', $name); $proc->transformToURI($xml, 'file:///tmp/' . $file . '.md');}?> `
+` <?php$collections = array(    'Marc Rutkowski' => 'marc',   'Olivier Parmentier' => 'olivier');$xsl = new DOMDocument;'x''''; / Налаштування перетворення$proc = new XSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslforeach ($collections as $name => $file) {    // Load the XML source    $xml = new DOMDocument; $xml->load('collection_' . $file . '.xml'); $proc->setParameter('', 'owner', $name); $proc->transformToURI($xml, 'file:///tmp/' . $file . '.md');}?> `
 
 ### Дивіться також
 

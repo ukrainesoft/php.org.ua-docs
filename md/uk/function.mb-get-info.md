@@ -7,13 +7,13 @@
 
 #mb_get_info
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 mb_get_info — Отримує внутрішні налаштування mbstring
 
 ### Опис
 
-**mb_get_info**(string `$type` u003d "all"): array\|string\|int\|false
+**mb_get_info**(string `$type` = "all"): array\|string\|int\|false
 
 **mb_get_info()** повертає внутрішні настройки mbstring.
 
@@ -43,7 +43,7 @@ mb_get_info — Отримує внутрішні налаштування mbstr
 ### Список змін
 
 | Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
+|--------|---------------------------------------------------------------|
 | 8.0.0  | type більше не підтримує func_overload та func_overload_list. |
 
 ### Дивіться також

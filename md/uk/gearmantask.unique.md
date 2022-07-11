@@ -7,7 +7,7 @@
 
 # GearmanTask::unique
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanTask::unique — Отримання унікального ідентифікатора задачі
 

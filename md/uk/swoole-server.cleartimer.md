@@ -9,7 +9,7 @@
 
 # swoole_timer_clear
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::clearTimer -- swoole_timer_clear — Зупиняє та
 знищує таймер

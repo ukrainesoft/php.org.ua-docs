@@ -7,7 +7,7 @@
 
 # Клас MultipleIterator
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -20,22 +20,22 @@ class **MultipleIterator** implements [Iterator](class.iterator.md) {
 
 /\* Константи \*/
 
-const int `MIT_NEED_ANY` u003d 0;
+const int `MIT_NEED_ANY` = 0;
 
-const int `MIT_NEED_ALL` u003d 1;
+const int `MIT_NEED_ALL` = 1;
 
-const int `MIT_KEYS_NUMERIC` u003d 0;
+const int `MIT_KEYS_NUMERIC` = 0;
 
-const int `MIT_KEYS_ASSOC` u003d 2;
+const int `MIT_KEYS_ASSOC` = 2;
 
 /\* Методи \*/
 
-public [\_\_construct](multipleiterator.construct.md)(int `$flags` u003d
+public [\_\_construct](multipleiterator.construct.md)(int `$flags` =
 MultipleIterator::MIT_NEED_ALL \| MultipleIterator::MIT_KEYS_NUMERIC)
 
 public
 [attachIterator](multipleiterator.attachiterator.md)([Iterator](class.iterator.md)
-`$iterator`, string\|int\|null `$info` u003d **`null`**): void
+`$iterator`, string\|int\|null `$info` = **`null`**): void
 
 public
 [containsIterator](multipleiterator.containsiterator.md)([Iterator](class.iterator.md)

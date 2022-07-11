@@ -7,7 +7,7 @@
 
 # Ds\Vector::contains
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::contains — Перевіряє, чи міститься у векторі задані
 значення
@@ -34,7 +34,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Vector::contains()****
 
-` <?php$vector u003d new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);var_dump($vector->contains('a')); //truevar_dump($vector->contains('a', 'b')); //truevar_dump($vector->contains('c', 'd')); //falsevar_dump($vector->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($vector->contains(1)); // Truevar_dump($vector->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
+` <?php$vector = new \Ds\Vector(['a', 'b', 'c', 1, 2, 3]);var_dump($vector->contains('a')); //truevar_dump($vector->contains('a', 'b')); //truevar_dump($vector->contains('c', 'd')); //falsevar_dump($vector->contains(...['c', 'b', 'a'])); // true// Завжди строга перевіркаvar_dump($vector->contains(1)); // Truevar_dump($vector->contains('1')); //falsevar_dump($sequece->contains(...[])); // true?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

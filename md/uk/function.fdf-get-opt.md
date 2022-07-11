@@ -7,14 +7,14 @@
 
 #fdf_get_opt
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECLv)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECLv)
 
 fdf_get_opt — Отримує значення з масиву opt поля
 
 ### Опис
 
 **fdf_get_opt**(resource `$fdf_document`, string `$fieldname`, int
-$element u003d -1):
+$element = -1):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**

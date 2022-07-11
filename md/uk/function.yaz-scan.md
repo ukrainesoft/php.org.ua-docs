@@ -7,7 +7,7 @@
 
 # yaz_scan
 
-(PHP 4 u003d 4.0.5, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
 
 yaz_scan — Підготовка сканування
 
@@ -17,7 +17,7 @@ yaz_scan — Підготовка сканування
 resource `$id`,
 string `$type`,
 string `$startterm`,
-array `$flags` u003d ?
+array `$flags` = ?
 ): void
 
 Функція готує запит на сканування для встановленого з'єднання
@@ -63,4 +63,4 @@ array `$flags` u003d ?
 
 **Приклад #1 Функція PHP, яка сканує заголовки**
 
-` <?phpfunction scan_titles($id, $startterm){ yaz_scan($id, "rpn", "@attr 1u003d4 " . $startterm); yaz_wait(); $errnou003du003dyaz_errno($id); if ($errno u003du003d 0) {    $ar u003d yaz_scan_result($id, $options); echo 'Scan ok; '; foreach ($options as $key u003d> $val) {      echo "$key u003d $val "; }   echo '<br /><table>'; while(list($key, list($k, $term, $tcount)) u003d each($ar)) {      if (empty($k)) continue; echo "<tr><td>$term</td><td>$tcount</td></tr>"; }   echo '</table>'; } else {    echo "Сканування не удалося. Помилка: " . yaz_error($id) . "<br />"; }}?> `
+` <?phpfunction scan_titles($id, $startterm){ yaz_scan($id, "rpn", "@attr 1=4 " . $startterm); yaz_wait(); $errno==yaz_errno($id); if ($errno == 0) {    $ar = yaz_scan_result($id, $options); echo 'Scan ok; '; foreach ($options as $key => $val) {      echo "$key = $val "; }   echo '<br /><table>'; while(list($key, list($k, $term, $tcount)) = each($ar)) {      if (empty($k)) continue; echo "<tr><td>$term</td><td>$tcount</td></tr>"; }   echo '</table>'; } else {    echo "Сканування не удалося. Помилка: " . yaz_error($id) . "<br />"; }}?> `

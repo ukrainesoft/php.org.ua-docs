@@ -10,7 +10,7 @@
 Поведінка цих функцій залежить від установок `php.ini`.
 
 | Ім'я За замовчуванням                                                 | Місце зміни | Список змін    |
-| --------------------------------------------------------------------- | ----------- | -------------- |
+|-----------------------------------------------------------------------|-------------|----------------|
 | [yaf.library](yaf.configuration.md#ini.yaf.library)                   |             | PHP_INI_ALL    |
 | [yaf.action_prefer](yaf.configuration.md#ini.yaf.action-prefer)       | 0           | PHP_INI_ALL    |
 | [yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path)         | 0           | PHP_INI_ALL    |
@@ -112,13 +112,13 @@ Yaf використовує шлях до ini-файлу як ключ заке
 
 Наприклад:
 
-Yaf_Route_Rewrite u003d> \Yaf\Route\Rewrite
-Yaf_Request_Http u003d> \Yaf\Request\Http
+Yaf_Route_Rewrite => \Yaf\Route\Rewrite
+Yaf_Request_Http => \Yaf\Request\Http
 
 Є винятки для класів типу
 [Yaf_Controller_Abstract](class.yaf-controller-abstract.md). Останній
 компонент імені є ключовим словом PHP і не може використовуватися в
 як ім'я класу, так що він буде виглядати так:
 
-Yaf_Controller_Abstract u003d> \Yaf\Controller_Abstract
-Yaf_Route_Static u003d> \Yaf\Route_Static
+Yaf_Controller_Abstract => \Yaf\Controller_Abstract
+Yaf_Route_Static => \Yaf\Route_Static

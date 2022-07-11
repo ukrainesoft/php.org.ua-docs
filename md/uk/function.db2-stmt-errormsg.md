@@ -8,14 +8,14 @@ SQL-вирази
 
 #db2_stmt_errormsg
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_stmt_errormsg — Повертає рядок, який містить останнє повідомлення про
 помилці SQL-вирази
 
 ### Опис
 
-**db2_stmt_errormsg**(resource `$stmt` u003d ?): string
+**db2_stmt_errormsg**(resource `$stmt` = ?): string
 
 Повертає рядок, що містить останнє повідомлення про помилку
 SQL-вирази.

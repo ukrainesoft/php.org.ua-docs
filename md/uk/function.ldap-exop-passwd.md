@@ -7,7 +7,7 @@
 
 #ldap_exop_passwd
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 ldap_exop_passwd — Обертка для розширеної операції PASSWD
 
@@ -15,10 +15,10 @@ ldap_exop_passwd — Обертка для розширеної операції
 
 **ldap_exop_passwd**(
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
-string `$user` u003d "",
-string `$old_password` u003d "",
-string `$new_password` u003d "",
-array `&$controls` u003d **`null`**
+string `$user` = "",
+string `$old_password` = "",
+string `$new_password` = "",
+array `&$controls` = **`null`**
 ): string\|bool
 
 Виконує розширену операцію PASSWD.
@@ -52,7 +52,7 @@ array `&$controls` u003d **`null`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
 | 7.3    | Додано підтримку параметра controls                                                                                                                     |
@@ -61,7 +61,7 @@ array `&$controls` u003d **`null`**
 
 **Приклад #1 Розширена операція PASSWD**
 
-`<?php$ds u003d ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind u003d ldap_bind($ds, cnu003ds; if (!$bind) {      echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Використовуємо PASSWD EXOP для зміни пароля користувача на новий випадковий    $genpw u003d ldap_exop_passwd($ds, cnu003ds c| if ($genpw) {       // Використовуємо для прив'язки новий пароль      $bind u003dldap_bind($ds, "cnu003droot, ou003dMy $; }    // Повертаємо старий пароль "secret"   ldap_exop_passwd($ds, "cnu003droot, ou003dMy Company, cu003dUS", $genpw, "secret"); ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
+`<?php$ds = ldap_connect("localhost"); // припустимо, що сервер LDAP запущено локальноif ($ds) {     // Прив'язуємось до потрібного DN   $bind = ldap_bind($ds, cn=s; if (!$bind) {      echo "Неможливо здійснити прив'язку LDAP"; exit; }    // Використовуємо PASSWD EXOP для зміни пароля користувача на новий випадковий    $genpw = ldap_exop_passwd($ds, cn=s c| if ($genpw) {       // Використовуємо для прив'язки новий пароль      $bind =ldap_bind($ds, "cn=root, o=My $; }    // Повертаємо старий пароль "secret"   ldap_exop_passwd($ds, "cn=root, o=My Company, c=US", $genpw, "secret"); ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
 
 ### Дивіться також
 

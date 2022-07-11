@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteResult::getWriteConcernError
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteResult::getWriteConcernError — Повертає будь-яку
 помилку гарантій запису, що відбувся
@@ -38,18 +38,18 @@ final public **MongoDB\Driver\WriteResult::getWriteConcernError**():
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteResult::getWriteConcernError()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSetu003dmyReplicaSet");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' u003d> 1]);$writeConcern u003d new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {    var_dump($e->getWriteResult()->getWriteConcernError());}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");$bulk = new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' => 1]);$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {    var_dump($e->getWriteResult()->getWriteConcernError());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\WriteConcernError)#6 (3) {
-["message"]u003d>
+["message"]=>
 string(33) "waiting for replication timed out"
-["code"]u003d>
+["code"]=>
 int(64)
-["info"]u003d>
+["info"]=>
 object(stdClass)#7 (1) {
-["wtimeout"]u003d>
+["wtimeout"]=>
 bool(true)
 }
 }

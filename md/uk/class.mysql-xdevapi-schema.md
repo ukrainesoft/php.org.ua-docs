@@ -7,7 +7,7 @@
 
 # Клас Schema
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -23,7 +23,7 @@ public `$name`;
 
 /\* Методи \*/
 
-public **createCollection**(string `$name`, string `$validate` u003d ?):
+public **createCollection**(string `$name`, string `$validate` = ?):
 [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)
 
 public **dropCollection**(string `$collection_name`): bool

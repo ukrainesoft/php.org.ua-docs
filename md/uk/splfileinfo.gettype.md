@@ -7,7 +7,7 @@
 
 # SplFileInfo::getType
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getType — Отримує тип файлу
 
@@ -36,7 +36,7 @@ public **SplFileInfo::getType**(): string\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getType()****
 
-` <?php$info u003d new SplFileInfo(__FILE__);echo $info->getType().PHP_EOL;$info u003d new SplFileInfo(dirname(__FILE__));echo $info->getType();?> `
+` <?php$info = new SplFileInfo(__FILE__);echo $info->getType().PHP_EOL;$info = new SplFileInfo(dirname(__FILE__));echo $info->getType();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -35,8 +35,8 @@ public **SolrDisMaxQuery::setPhraseSlop**(string `$slop`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setPhraseSlop()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->setPhraseSlop(4);echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setPhraseSlop(4);echo $dismaxQuery.PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 
-qu003dlucene&defTypeu003dedismax&psu003d4
+q=lucene&defType=edismax&ps=4

@@ -25,7 +25,7 @@
 
 **Приклад #1 Читання атрибутів за допомогою Reflection API**
 
-` <?php#[Attribute]class MyAttribute{    public $value; public function __construct($value)    {        $this->value u003d $value; }}#[MyAttribute(value: 1234)]class Thing{}function dumpAttributeData($reflection) {   $attributes u003d $reflection->getAttributes(); foreach ($attributes as $attribute) {      var_dump($attribute->getName()); var_dump($attribute->getArguments()); var_dump($attribute->newInstance()); }}dumpAttributeData(newReflectionClass(Thing::class));/*string(11) "MyAttribute"array(1) {  ["value"]u003d> int(1234)}object(MyAttribute)#3 (1) ["value"]u003d> int(1234)}*/ `
+` <?php#[Attribute]class MyAttribute{    public $value; public function __construct($value)    {        $this->value = $value; }}#[MyAttribute(value: 1234)]class Thing{}function dumpAttributeData($reflection) {   $attributes = $reflection->getAttributes(); foreach ($attributes as $attribute) {      var_dump($attribute->getName()); var_dump($attribute->getArguments()); var_dump($attribute->newInstance()); }}dumpAttributeData(newReflectionClass(Thing::class));/*string(11) "MyAttribute"array(1) {  ["value"]=> int(1234)}object(MyAttribute)#3 (1) ["value"]=> int(1234)}*/ `
 
 Замість послідовно перебирати всі атрибути об'єкта
 рефлексії, можна вказати ім'я класу як аргумент і отримати
@@ -33,4 +33,4 @@
 
 **Приклад #2 Читання конкретних атрибутів за допомогою Reflection API**
 
-` <?phpfunction dumpMyAttributeData($reflection) {   $attributes u003d $reflection->getAttributes(MyAttribute::class); foreach ($attributes as $attribute) {      var_dump($attribute->getName()); var_dump($attribute->getArguments()); var_dump($attribute->newInstance()); }}dumpMyAttributeData(new ReflectionClass(Thing::class)); `
+` <?phpfunction dumpMyAttributeData($reflection) {   $attributes = $reflection->getAttributes(MyAttribute::class); foreach ($attributes as $attribute) {      var_dump($attribute->getName()); var_dump($attribute->getArguments()); var_dump($attribute->newInstance()); }}dumpMyAttributeData(new ReflectionClass(Thing::class)); `

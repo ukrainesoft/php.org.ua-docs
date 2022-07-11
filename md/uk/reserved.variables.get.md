@@ -7,7 +7,7 @@
 
 # $\_GET
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 $\_GET — Змінні HTTP GET
 
@@ -25,7 +25,7 @@ $\_GET — Змінні HTTP GET
 `<?phpecho 'Привіт, ' . htmlspecialchars($_GET["name"]) . '!';?> `
 
 Очевидно, що користувач ввів у браузері адресу
-http://example.com/?nameu003dІван
+http://example.com/?name=Іван
 
 Результатом виконання цього прикладу буде щось подібне:
 

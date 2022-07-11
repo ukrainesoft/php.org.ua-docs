@@ -7,7 +7,7 @@
 
 # CommonMark\CQL::\_\_construct
 
-(cmark \>u003d 1.1.0)
+(cmark \>= 1.1.0)
 
 CommonMark\CQL::\_\_construct - Конструктор класу CQL
 

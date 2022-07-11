@@ -27,16 +27,16 @@ public bool `$registerNodeNamespaces`;
 
 public
 [\_\_construct](domxpath.construct.md)([DOMDocument](class.domdocument.md)
-`$document`, bool `$registerNodeNS` u003d **`true`**)
+`$document`, bool `$registerNodeNS` = **`true`**)
 
 public [evaluate](domxpath.evaluate.md)(string `$expression`,
-?[DOMNode](class.domnode.md) `$contextNode` u003d **`null`**, bool
-`$registerNodeNS` u003d **`true`**):
+?[DOMNode](class.domnode.md) `$contextNode` = **`null`**, bool
+`$registerNodeNS` = **`true`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [query](domxpath.query.md)(string `$expression`,
-?[DOMNode](class.domnode.md) `$contextNode` u003d **`null`**, bool
-`$registerNodeNS` u003d **`true`**):
+?[DOMNode](class.domnode.md) `$contextNode` = **`null`**, bool
+`$registerNodeNS` = **`true`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [registerNamespace](domxpath.registernamespace.md)(string
@@ -44,7 +44,7 @@ public [registerNamespace](domxpath.registernamespace.md)(string
 
 public
 [registerPhpFunctions](domxpath.registerphpfunctions.md)(string\|array\|null
-`$restrict` u003d **`null`**): void
+`$restrict` = **`null`**): void
 
 }
 
@@ -59,7 +59,7 @@ public
 ## Список змін
 
 | Версія | Опис                                       |
-| ------ | ------------------------------------------ |
+|--------|--------------------------------------------|
 | 8.0.0  | Додано властивість registerNodeNamespaces. |
 
 ## Зміст

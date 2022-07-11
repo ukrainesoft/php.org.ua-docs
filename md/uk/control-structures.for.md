@@ -37,7 +37,7 @@ statement
 
 Розглянемо такі приклади. Усі вони відображають числа від 1 до 10:
 
-` <?php/* приклад 1 */for ($i u003d 1; $i <u003d 10; $i++) {    echo $i;}/* приклад 2 */for ($i u003d 1; ; if ($i > 10) {         break; }   echo $i;}/* приклад 3 */$i u003d 1;for (; ; ) {    if ($i > 10) {         break; }   echo $i; $i++;}/* приклад 4 */for ($i u003d 1, $j u003d 0; $i <u003d 10; $j +u003d $i, print $i, $i++);?> `
+` <?php/* приклад 1 */for ($i = 1; $i <= 10; $i++) {    echo $i;}/* приклад 2 */for ($i = 1; ; if ($i > 10) {         break; }   echo $i;}/* приклад 3 */$i = 1;for (; ; ) {    if ($i > 10) {         break; }   echo $i; $i++;}/* приклад 4 */for ($i = 1, $j = 0; $i <= 10; $j += $i, print $i, $i++);?> `
 
 Звичайно, перший приклад здається найкращим (або, можливо, четвертий),
 але ви можете виявити, що можливість використовувати порожні вирази в
@@ -54,7 +54,7 @@ endfor;
 Перебір масивів як показано нижче - це звичайна справа для багатьох
 користувачів.
 
-`<?php/* * Це масив з деякими даними, ми ми хочемо змінити * при роботі цикла. */$people u003d array(    array('name' u003d> 'Kalle', 'salt' u003d> 856412),    array('name' u003d> 'Pierre', 'salt' u003d>$2; u003d 0; $i < count($people); ++$i) {    $people[$i]['salt'] u003d mt_rand(000000, 999999);}?> `
+`<?php/* * Це масив з деякими даними, ми ми хочемо змінити * при роботі цикла. */$people = array(    array('name' => 'Kalle', 'salt' => 856412),    array('name' => 'Pierre', 'salt' =>$2; = 0; $i < count($people); ++$i) {    $people[$i]['salt'] = mt_rand(000000, 999999);}?> `
 
 Вищенаведений код може працювати повільно, оскільки розмір масиву
 обчислюється у кожній ітерації. Оскільки розмір не змінюється, цикл може
@@ -62,4 +62,4 @@ endfor;
 буде записано розмір масиву, замість повторюваних викликів функції
 [count()](function.count.md):
 
-` <?php$people u003d array(    array('name' u003d> 'Kalle', 'salt' u003d> 856412),   array('name' u003d> 'Pierre', 'salt' u003d>> $i u003d 0, $size u003d count($people); $i < $size; ++$i) {    $people[$i]['salt'] u003d mt_rand(000000, 99999')
+` <?php$people = array(    array('name' => 'Kalle', 'salt' => 856412),   array('name' => 'Pierre', 'salt' =>> $i = 0, $size = count($people); $i < $size; ++$i) {    $people[$i]['salt'] = mt_rand(000000, 99999')

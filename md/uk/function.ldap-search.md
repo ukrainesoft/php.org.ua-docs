@@ -17,12 +17,12 @@ ldap_search — Пошук по LDAP дереву
 [LDAP\Connection](class.ldap-connection.md)\|array `$ldap`,
 array\|string `$base`,
 array\|string `$filter`,
-array `$attributes` u003d [],
-int `$attributes_only` u003d 0,
-int `$sizelimit` u003d -1,
-int `$timelimit` u003d -1,
-int `$deref` u003d **`LDAP_DEREF_NEVER`**,
-?array `$controls` u003d **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
+array `$attributes` = [],
+int `$attributes_only` = 0,
+int `$sizelimit` = -1,
+int `$timelimit` = -1,
+int `$deref` = **`LDAP_DEREF_NEVER`**,
+?array `$controls` = **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
 
 Виконує пошук для зазначеного фільтра у директорії з межами
 **`LDAP_SCOPE_SUBTREE`**. Еквівалентно пошуку по всьому каталогу.
@@ -123,7 +123,7 @@ Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Se
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
@@ -139,5 +139,5 @@ Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Se
 
 **Приклад #1 LDAP пошук**
 
-` <?php//$$ds вірний ідентифікатор посилання на сервер директорії// $person все або частина імені людини, н-р "Jo"$dn u003d "ou003dMy Compan|| (snu003d$person*)(givennameu003d$person*))";$justthese u003d array("ou", "sn", "givenname", "mail");$sru003dldap_search($ds, $dn, $filter, $justthese);$info u003d ldap_get_entries($ds, $sr);echo $info["count"]." записів повернуто
+` <?php//$$ds вірний ідентифікатор посилання на сервер директорії// $person все або частина імені людини, н-р "Jo"$dn = "o=My Compan|| (sn=$person*)(givenname=$person*))";$justthese = array("ou", "sn", "givenname", "mail");$sr=ldap_search($ds, $dn, $filter, $justthese);$info = ldap_get_entries($ds, $sr);echo $info["count"]." записів повернуто
 ";?> `

@@ -10,7 +10,7 @@
 
 # intltz_create_enumeration
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::createEnumeration -- intltz_create_enumeration — Отримати
 перерахування з ідентифікаторів часових поясів по зазначеній країні або
@@ -22,13 +22,13 @@ IntlTimeZone::createEnumeration -- intltz_create_enumeration — Отримат�
 
 public static
 **IntlTimeZone::createEnumeration**([IntlTimeZone](class.intltimezone.md)\|string\|int\|float\|null
-`$countryOrRawOffset` u003d **`null`**):
+`$countryOrRawOffset` = **`null`**):
 [IntlIterator](class.intliterator.md)\|false
 
 Процедурний стиль:
 
 **intltz_create_enumeration**([IntlTimeZone](class.intltimezone.md)\|string\|int\|float\|null
-`$countryOrRawOffset` u003d **`null`**):
+`$countryOrRawOffset` = **`null`**):
 [IntlIterator](class.intliterator.md)\|false
 
 **Увага**

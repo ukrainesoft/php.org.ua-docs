@@ -19,8 +19,8 @@ ibase_backup - Ініціює завдання резервного копіюв
 resource `$service_handle`,
 string `$source_db`,
 string `$dest_file`,
-int `$options` u003d 0,
-bool `$verbose` u003d **`false`**
+int `$options` = 0,
+bool `$verbose` = **`false`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -67,11 +67,11 @@ bool `$verbose` u003d **`false`**
 
 **Приклад #1 Приклад використання **ibase_backup()****
 
- <?php// З'єднання до серверу бази даних за IP-адресою і порту$service u003d ibase_service_attach ('10.1.11.200/3050', запуску| / Резервне копіювання бази даних співробітників, використовуючи повний шлях к /srv/backup/employees.fbk// Не використовуйте ніяких спеціальних аргументівibase_backup($service,'es ');// Звільнення підключеного з'єднанняibase_service_detach ($service);?> `
+ <?php// З'єднання до серверу бази даних за IP-адресою і порту$service = ibase_service_attach ('10.1.11.200/3050', запуску| / Резервне копіювання бази даних співробітників, використовуючи повний шлях к /srv/backup/employees.fbk// Не використовуйте ніяких спеціальних аргументівibase_backup($service,'es ');// Звільнення підключеного з'єднанняibase_service_detach ($service);?> `
 
 **Приклад #2 Приклад використання **ibase_backup()** з аргументами**
 
-`<?php// Підключитися до серверу бази даних за імені і порту за замовчуванням$service u003d ibase_service_attach ('fb-server.contoso.local', звернення'; 'sysdba'; даних//Резервне копіювання бази даних співробітників з використанням псевдоніма в /srv/backup/employees.fbk.// Резервне копіювання тільки метаданих. Не створюйте переносну резервну копію.ibase_backup($service, 'employees.fdb', '/srv/backup/employees.fbk', IBASE_BKP_METADATA_ONLY | IBASE_BKP_N  IBASE_BKP_N|
+`<?php// Підключитися до серверу бази даних за імені і порту за замовчуванням$service = ibase_service_attach ('fb-server.contoso.local', звернення'; 'sysdba'; даних//Резервне копіювання бази даних співробітників з використанням псевдоніма в /srv/backup/employees.fbk.// Резервне копіювання тільки метаданих. Не створюйте переносну резервну копію.ibase_backup($service, 'employees.fdb', '/srv/backup/employees.fbk', IBASE_BKP_METADATA_ONLY | IBASE_BKP_N  IBASE_BKP_N|
 
 ### Дивіться також
 

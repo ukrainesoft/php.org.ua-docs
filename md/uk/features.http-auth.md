@@ -23,14 +23,14 @@
 
 **Приклад #1 Приклад Basic HTTP-автентифікації**
 
-` <?phpif (!isset($_SERVER['PHP_AUTH_USER']))) {    header('WWW-Authenticate: Basic realmu003d"My Realm"'); header('HTTP/1.0 401 Unauthorized'); echo 'Текст, надсилається в том випадку,    якщо користувач натиснув кнопку Cancel'; exit;} else {    echo "<p>Hello {$_SERVER['PHP_AUTH_USER']}.</p>"; echo "<p>Ви ввели пароль {$_SERVER['PHP_AUTH_PW']}.</p>";}?> `
+` <?phpif (!isset($_SERVER['PHP_AUTH_USER']))) {    header('WWW-Authenticate: Basic realm="My Realm"'); header('HTTP/1.0 401 Unauthorized'); echo 'Текст, надсилається в том випадку,    якщо користувач натиснув кнопку Cancel'; exit;} else {    echo "<p>Hello {$_SERVER['PHP_AUTH_USER']}.</p>"; echo "<p>Ви ввели пароль {$_SERVER['PHP_AUTH_PW']}.</p>";}?> `
 
 **Приклад #2 Приклад Digest HTTP-автентифікації**
 
 Це приклад реалізації простого скрипту Digest HTTP аутентифікації. За
 подробиці звертайтесь до [» RFC 2617](http://www.faqs.org/rfcs/rfc2617).
 
-` <?php$realm u003d 'Заборонена зона';//user u003d> password$users u003d array('admin' u003d> 'mypass', 'guest' u003d> 'guest');if (empty($_SERVER[') PHP_AUTH_DIGEST'])) {   header('HTTP/1.1 401 Unauthorized'); header('WWW-Authenticate: Digest realmu003d"'.$realm.           '",qopu003d"auth",nonceu003d"'.uniqid().'",opaqueu003d"'.md5($realm).'" '); die('Текст, надсилається в том випадку, якщо користувач натиснувкнопку Cancel');}// аналізуємо змінну PHP_AUTH_DIGESTif (!($data u003d http_digest_parse($||||| data['username']]))   die('Неправильні дані!');// генеруємо коректну відповідь$A1 u003d md5($data['username'] . ':' . $realm . ':' . $ $data['username']]);$A2u003du003dmd5($_SERVER['REQUEST_METHOD'].':'.$data['uri']);$valid_response u003d md5($A1.':'.$data ['nonce'].':'.$data['nc'].':'.$data['cnonce'].':'.$data['qop'].':'.$A2); if ($data['response'] !u003d $valid_response)   die('Неправильні дані!');// все добре, логін і пароль вірніecho 'Ви увійшли як: ' . $data['username'];// функція розбору заголовка http authfunction http_digest_parse($txt){     // захист від відсутніх даних     $needed_parts '' >1, 'qop'u003d>1, 'username'u003d>1, 'uri'u003d>1, 'response'u003d>1); $datau003du003darray(); $keys u003d implode('|', array_keys($needed_parts)); preg_match_all('@(' . $keys . ')u003d(?:([\'"])([^ ]+?) |([^\s,]+))@', $txt, $ matches,PREG_SET_ORDER);  foreach ($matches as $m) {        $data[$m[1]] u003d $m[3] ? $m[3] :$$  1]]);    }    return $needed_parts ? false : $data;}?> `
+` <?php$realm = 'Заборонена зона';//user => password$users = array('admin' => 'mypass', 'guest' => 'guest');if (empty($_SERVER[') PHP_AUTH_DIGEST'])) {   header('HTTP/1.1 401 Unauthorized'); header('WWW-Authenticate: Digest realm="'.$realm.           '",qop="auth",nonce="'.uniqid().'",opaque="'.md5($realm).'" '); die('Текст, надсилається в том випадку, якщо користувач натиснувкнопку Cancel');}// аналізуємо змінну PHP_AUTH_DIGESTif (!($data = http_digest_parse($||||| data['username']]))   die('Неправильні дані!');// генеруємо коректну відповідь$A1 = md5($data['username'] . ':' . $realm . ':' . $ $data['username']]);$A2==md5($_SERVER['REQUEST_METHOD'].':'.$data['uri']);$valid_response = md5($A1.':'.$data ['nonce'].':'.$data['nc'].':'.$data['cnonce'].':'.$data['qop'].':'.$A2); if ($data['response'] != $valid_response)   die('Неправильні дані!');// все добре, логін і пароль вірніecho 'Ви увійшли як: ' . $data['username'];// функція розбору заголовка http authfunction http_digest_parse($txt){     // захист від відсутніх даних     $needed_parts '' >1, 'qop'=>1, 'username'=>1, 'uri'=>1, 'response'=>1); $data==array(); $keys = implode('|', array_keys($needed_parts)); preg_match_all('@(' . $keys . ')=(?:([\'"])([^ ]+?) |([^\s,]+))@', $txt, $ matches,PREG_SET_ORDER);  foreach ($matches as $m) {        $data[$m[1]] = $m[3] ? $m[3] :$$  1]]);    }    return $needed_parts ? false : $data;}?> `
 
 > **Примітка**: **Примітка щодо сумісності**
 >
@@ -73,11 +73,11 @@ dbm-файл.
 **Приклад #3 Приклад HTTP-автентифікації з примусовим введенням нової
 пари логін/пароль**
 
-`<?phpfunction authenticate() {    header('WWW-Authenticate: Basic realmu003d"Test Authentication System"'); header('HTTP/1.0 401 Unauthorized'); echo "Ви повинні ввести коректний логін і пароль для отримання доступу к ресурсу
-";   exit;}if(!isset($_SERVER['PHP_AUTH_USER']) ||    ($_POST['SeenBefore'] u003du003d 1 && $_POST['OldAuth']_u003du003d $__ER {                                                            ']);    echo "<form actionu003d'' methodu003d'post'>
-";   echo "<input typeu003d'hidden' nameu003d'SeenBefore' valueu003d'1' />
-";   echo "<input typeu003d'hidden' nameu003d'OldAuth' valueu003d\""" . htmlspecialchars($_SERVER['PHP_AUTH_USER']) . "\" />
-";   echo "<input typeu003d'submit' valueu003d'Авторизовуватися повторно' />
+`<?phpfunction authenticate() {    header('WWW-Authenticate: Basic realm="Test Authentication System"'); header('HTTP/1.0 401 Unauthorized'); echo "Ви повинні ввести коректний логін і пароль для отримання доступу к ресурсу
+";   exit;}if(!isset($_SERVER['PHP_AUTH_USER']) ||    ($_POST['SeenBefore'] == 1 && $_POST['OldAuth']_== $__ER {                                                            ']);    echo "<form action='' method='post'>
+";   echo "<input type='hidden' name='SeenBefore' value='1' />
+";   echo "<input type='hidden' name='OldAuth' value=\""" . htmlspecialchars($_SERVER['PHP_AUTH_USER']) . "\" />
+";   echo "<input type='submit' value='Авторизовуватися повторно' />
 ";   echo "</form></p>
 ";}?> `
 

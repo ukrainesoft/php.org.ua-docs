@@ -9,7 +9,7 @@
 
 # datefmt_get_calendar_object
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL intl u003d 3.0.0)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
 
 IntlDateFormatter::getCalendarObject -- datefmt_get_calendar_object --
 Отримує копію об'єкта календаря засобу форматування
@@ -47,19 +47,19 @@ public **IntlDateFormatter::getCalendarObject**():
 **Приклад #1 Приклад використання
 **IntlDateFormatter::getCalendarObject()****
 
-`<?php$formatteru003du003dIntlDateFormatter::create( | (   $cal->getType(),   $cal->getTimeZone(),   $cal->getLocale(Locale::VALID_LOCALE)); `
+`<?php$formatter==IntlDateFormatter::create( | (   $cal->getType(),   $cal->getTimeZone(),   $cal->getLocale(Locale::VALID_LOCALE)); `
 
 Результат виконання цього прикладу:
 
 string(7) "islamic"
 object(IntlTimeZone)#3 (4) {
-["valid"]u003d>
+["valid"]=>
 bool(true)
-["id"]u003d>
+["id"]=>
 string(9) "GMT-01:00"
-["rawOffset"]u003d>
+["rawOffset"]=>
 int(-3600000)
-["currentOffset"]u003d>
+["currentOffset"]=>
 int(-3600000)
 }
 string(5) "fr_FR"

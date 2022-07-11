@@ -7,7 +7,7 @@
 
 # EventBufferEvent::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::\_\_construct — Створює об'єкт EventBufferEvent
 
@@ -17,16 +17,16 @@ public **EventBufferEvent::\_\_construct**(
 [EventBase](class.eventbase.md) `$base` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d **`null`** ,
-int `$options` u003d 0 ,
-[callable](language.types.callable.md) `$readcb` u003d **`null`** ,
-[callable](language.types.callable.md) `$writecb` u003d **`null`**
+`$socket` = **`null`** ,
+int `$options` = 0 ,
+[callable](language.types.callable.md) `$readcb` = **`null`** ,
+[callable](language.types.callable.md) `$writecb` = **`null`**
 ,
-[callable](language.types.callable.md) `$eventcb` u003d **`null`**
+[callable](language.types.callable.md) `$eventcb` = **`null`**
 ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`**
+`$arg` = **`null`**
 )
 
 Створює подію буфера для сокету, потоку чи файлового дескриптора.

@@ -7,7 +7,7 @@
 
 # Клас variant
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -24,7 +24,7 @@ class **variant** {
 
 public
 [\_\_construct](variant.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d **`null`**, int `$type` u003d **`VT_EMPTY`**, int `$codepage` u003d
+`$value` = **`null`**, int `$type` = **`VT_EMPTY`**, int `$codepage` =
 **`CP_ACP`**)
 
 }
@@ -33,7 +33,7 @@ public
 
 **Приклад #1 Приклад використання variant**
 
-`<?php$v u003d new variant(42);print "Тип — " . variant_get_type($v) . "<br/>";print "Значення — " . $v . "<br/>";?> `
+`<?php$v = new variant(42);print "Тип — " . variant_get_type($v) . "<br/>";print "Значення — " . $v . "<br/>";?> `
 
 > **Примітка**:
 >

@@ -8,7 +8,7 @@
 
 # Swoole\Process::write
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::write - Записує дані в канал і зв'язується з
 батьківським процесом чи дочірніми процесами

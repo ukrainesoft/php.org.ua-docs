@@ -65,7 +65,7 @@ ASCII кодами від 0 до 31.
 
 **Приклад #1 Приклад використання **addcslashes()****
 
-` <?php$escaped u003d addcslashes($not_escaped, " .. !@ ..�");?> `
+` <?php$escaped = addcslashes($not_escaped, " .. !@ ..�");?> `
 
 ### Дивіться також
 

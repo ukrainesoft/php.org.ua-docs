@@ -17,10 +17,10 @@ imap_mail — Надіслати email
 string `$to`,
 string `$subject`,
 string `$message`,
-?string `$additional_headers` u003d **`null`**,
-?string `$cc` u003d **`null`**,
-?string `$bcc` u003d **`null`**,
-?string `$return_path` u003d **`null`**
+?string `$additional_headers` = **`null`**,
+?string `$cc` = **`null`**,
+?string `$bcc` = **`null`**,
+?string `$return_path` = **`null`**
 ): bool
 
 Ця функція дозволяє надсилати повідомлення з коректною обробкою
@@ -62,7 +62,7 @@ string `$message`,
 ### Список змін
 
 | Версія | Опис                                                                       |
-| ------ | -------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------|
 | 8.0.0  | additional_headers, cc, bcc та return_path тепер допускають значення null. |
 
 ### Дивіться також

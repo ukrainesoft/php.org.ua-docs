@@ -7,7 +7,7 @@
 
 # SQLite3Stmt::bindParam
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::bindParam — Зв'язує параметр зі змінною підготовленого
 запиту
@@ -16,7 +16,7 @@ SQLite3Stmt::bindParam — Зв'язує параметр зі змінною п
 
 public **SQLite3Stmt::bindParam**(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`, int `$type` u003d **`SQLITE3_TEXT`**): bool
+`&$var`, int `$type` = **`SQLITE3_TEXT`**): bool
 
 Зв'язує параметр із змінною підготовленого запиту.
 
@@ -82,7 +82,7 @@ public **SQLite3Stmt::bindParam**(string\|int `$param`,
 ### Список змін
 
 | Версія | Опис                                           |
-| ------ | ---------------------------------------------- |
+|--------|------------------------------------------------|
 | 7.4.0  | Параметр param тепер підтримує нотацію @param. |
 
 ### Приклади
@@ -93,16 +93,16 @@ public **SQLite3Stmt::bindParam**(string\|int `$param`,
 параметра може використовуватися для вставки декількох рядків з різними
 значеннями.
 
-` <?php$db u003d new SQLite3(':memory:');$db->exec("CREATE TABLE foo (bar TEXT)");$stmt u003d $db->prepare("INSERT INTO foo VALUES (: bar)");$stmt->bindParam(':bar', $bar, SQLITE3_TEXT);$bar u003d 'baz';$stmt->execute();$bar u003d 42;$stmt->execute(); $res u003d $db->query("SELECT * FROM foo");while (($row u003d $res->fetchArray(SQLITE3_ASSOC))) {   var_dump($row);}?> `
+` <?php$db = new SQLite3(':memory:');$db->exec("CREATE TABLE foo (bar TEXT)");$stmt = $db->prepare("INSERT INTO foo VALUES (: bar)");$stmt->bindParam(':bar', $bar, SQLITE3_TEXT);$bar = 'baz';$stmt->execute();$bar = 42;$stmt->execute(); $res = $db->query("SELECT * FROM foo");while (($row = $res->fetchArray(SQLITE3_ASSOC))) {   var_dump($row);}?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["bar"]u003d>
+["bar"]=>
 string(3) "baz"
 }
 array(1) {
-["bar"]u003d>
+["bar"]=>
 string(2) "42"
 }
 

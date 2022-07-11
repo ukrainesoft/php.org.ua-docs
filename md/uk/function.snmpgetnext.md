@@ -19,8 +19,8 @@ snmpgetnext — Отримує об'єкт SNMP, який слідує за да
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -54,7 +54,7 @@ Read-спільнота.
 
 **Приклад #1 Приклад використання **snmpgetnext()****
 
-` <?php$nameOfSecondInterface u003d snmpgetnetxt('localhost', 'public', 'IF-MIB::ifName.1');?> `
+` <?php$nameOfSecondInterface = snmpgetnetxt('localhost', 'public', 'IF-MIB::ifName.1');?> `
 
 ### Дивіться також
 

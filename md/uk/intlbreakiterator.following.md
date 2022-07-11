@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::following
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::following — Переміщення ітератора до першого кордону
 після вказаного усунення

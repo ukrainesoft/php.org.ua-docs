@@ -32,7 +32,7 @@ public **PhpToken::isIgnorable**(): bool
 
 **Приклад #1 Приклад використання **PhpToken::isIgnorable()****
 
-` <?php$echo u003d new PhpToken(T_ECHO, 'echo');var_dump($echo->isIgnorable()); // -> bool(false)$space u003d new PhpToken(T_WHITESPACE, ' ');var_dump($space->isIgnorable()); // -> bool(true) `
+` <?php$echo = new PhpToken(T_ECHO, 'echo');var_dump($echo->isIgnorable()); // -> bool(false)$space = new PhpToken(T_WHITESPACE, ' ');var_dump($space->isIgnorable()); // -> bool(true) `
 
 ### Дивіться також
 

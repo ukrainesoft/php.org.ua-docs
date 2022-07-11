@@ -7,7 +7,7 @@
 
 # Клас Yaf_Loader
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -55,10 +55,10 @@ php.ini (yaf.library).
 
 `` shellcode
 // Передбачаються наступні налаштування у php.ini:
-yaf.library u003d "/global_dir"
+yaf.library = "/global_dir"
 
 / / Передбачаються наступні налаштування в php.ini:
-application.library u003d APPLICATION_PATH "/library"
+application.library = APPLICATION_PATH "/library"
 ````
 
 Передбачається, що зареєстровано такий локальний простір
@@ -73,10 +73,10 @@ application.library u003d APPLICATION_PATH "/library"
 **Приклад #3 Приклад завантаження класу**
 
 `` shellcode
-class Foo_Bar_Test u003d>
+class Foo_Bar_Test =>
 // APPLICATION_PATH/library/Foo/Bar/Test.php
 
-class GLO_Name u003d>
+class GLO_Name =>
 // /global_dir/Glo/Name.php
 
 class BarNon_Test
@@ -86,16 +86,16 @@ class BarNon_Test
 **Приклад #4 Приклад завантаження класу імен**
 
 `` shellcode
-class \Foo\Bar\Dummy u003d>
+class \Foo\Bar\Dummy =>
 // APPLICATION_PATH/library/Foo/Bar/Dummy.php
 
-class \FooBar\Bar\Dummy u003d>
+class \FooBar\Bar\Dummy =>
 // /global_dir/FooBar/Bar/Dummy.php
 ````
 
 Ви можете помітити, що всі папки з першою літерою великими, ви можете
 зробити їх малими, встановивши
-[yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path) u003d On в
+[yaf.lowcase_path](yaf.configuration.md#ini.yaf.lowcase-path) = On в
 php.ini.
 
 **Yaf_Loader** також призначений для завантаження класів MVC, і правило
@@ -104,13 +104,13 @@ php.ini.
 **Приклад #5 Приклад завантаження класу MVC**
 
 `` shellcode
-Controller Classes u003d>
+Controller Classes =>
 // APPLICATION_PATH/controllers/
 
-Model Classes u003d>
+Model Classes =>
 // APPLICATION_PATH/models/
 
-Plugin Classes u003d>
+Plugin Classes =>
 // APPLICATION_PATH/plugins/
 ````
 
@@ -122,13 +122,13 @@ Yaf ідентифікує суфікс класу (це за замовчува
 **Приклад #6 Класові відмінності MVC**
 
 `` shellcode
-Controller Classes u003d>
+Controller Classes =>
 // ***Controller
 
-Model Classes u003d>
+Model Classes =>
 // ***Model
 
-Plugin Classes u003d>
+Plugin Classes =>
 // ***Plugin
 ````
 
@@ -140,13 +140,13 @@ Plugin Classes u003d>
 class IndexController
 // APPLICATION_PATH/controllers/Index.php
 
-class DataModel u003d>
+class DataModel =>
 // APPLICATION_PATH/models/Data.php
 
-class DummyPlugin u003d>
+class DummyPlugin =>
 // APPLICATION_PATH/plugins/Dummy.php
 
-class A_B_TestModel u003d>
+class A_B_TestModel =>
 // APPLICATION_PATH/models/A/B/Test.php
 ````
 
@@ -189,7 +189,7 @@ void
 public static [getInstance](yaf-loader.getinstance.md)(): void
 
 public [getLibraryPath](yaf-loader.getlibrarypath.md)(bool
-`$is_global` u003d **`false`**): [Yaf_Loader](class.yaf-loader.md)
+`$is_global` = **`false`**): [Yaf_Loader](class.yaf-loader.md)
 
 public [getLocalNamespace](yaf-loader.getnamespaces.md)(): void
 
@@ -208,10 +208,10 @@ public
 
 public
 [registerNamespace](yaf-loader.registernamespace.md)(string\|array
-`$namespaces`, string `$path` u003d ?): bool
+`$namespaces`, string `$path` = ?): bool
 
 public [setLibraryPath](yaf-loader.setlibrarypath.md)(string
-`$directory`, bool `$is_global` u003d **`false`**):
+`$directory`, bool `$is_global` = **`false`**):
 [Yaf_Loader](class.yaf-loader.md)
 
 }

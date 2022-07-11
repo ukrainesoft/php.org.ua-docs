@@ -8,7 +8,7 @@
 
 # EventBufferEvent::getEnabled
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::getEnabled — Повертає бітову маску подій, які
 на даний момент активовано для буферної події

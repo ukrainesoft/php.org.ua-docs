@@ -7,7 +7,7 @@
 
 # EventBufferEvent::close
 
-(PECL event \>u003d 1.10.0)
+(PECL event \>= 1.10.0)
 
 EventBufferEvent::close — Закриває дескриптор файлу, пов'язаний з
 поточною подією буфера

@@ -7,13 +7,13 @@
 
 # trader_wma
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_wma — Зважене ковзне середнє
 
 ### Опис
 
-**trader_wma**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_wma**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

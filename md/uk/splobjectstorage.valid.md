@@ -7,7 +7,7 @@
 
 # SplObjectStorage::valid
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::valid — Визначає, чи допустиме поточне значення
 ітератора
@@ -32,7 +32,7 @@ public **SplObjectStorage::valid**(): bool
 
 **Приклад #1 Приклад використання **SplObjectStorage::valid()****
 
-` <?php$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {   echo $s->key()."
+` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {   echo $s->key()."
 ";   $s->next();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::advanceClusterTime
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::advanceClusterTime — Збільшує час кластера
 для сеансу

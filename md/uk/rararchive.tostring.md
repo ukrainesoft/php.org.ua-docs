@@ -7,7 +7,7 @@
 
 # RarArchive::\_\_toString
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::\_\_toString — Отримати текстове уявлення
 
@@ -36,7 +36,7 @@ public **RarArchive::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **RarArchive::\_\_toString()****
 
-` <?php$rar_arch u003d RarArchive::open('latest_winrar.rar');echo $rar_arch."
+` <?php$rar_arch = RarArchive::open('latest_winrar.rar');echo $rar_arch."
 ";$rar_arch->close();echo $rar_arch."
 ";?> `
 

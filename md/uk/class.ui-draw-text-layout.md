@@ -28,10 +28,10 @@ float `$width`)
 
 public
 [setColor](ui-draw-text-layout.setcolor.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color`, int `$start` u003d 0, int `$end` u003d ?)
+`$color`, int `$start` = 0, int `$end` = ?)
 
 public [setColor](ui-draw-text-layout.setcolor.md)(int `$color`, int
-`$start` u003d 0, int `$end` u003d ?)
+`$start` = 0, int `$end` = ?)
 
 public [setWidth](ui-draw-text-layout.setwidth.md)(float `$width`)
 

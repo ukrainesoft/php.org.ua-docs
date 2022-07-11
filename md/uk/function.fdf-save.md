@@ -13,7 +13,7 @@ fdf_save — Зберігає документ FDF
 
 ### Опис
 
-**fdf_save**(resource `$fdf_document`, string `$filename` u003d ?): bool
+**fdf_save**(resource `$fdf_document`, string `$filename` = ?): bool
 
 Зберігає документ FDF.
 

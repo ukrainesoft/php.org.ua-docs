@@ -7,7 +7,7 @@
 
 # Gmagick::getimagecolorspace
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagecolorspace — Повертає колірний простір
 зображення

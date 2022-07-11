@@ -13,7 +13,7 @@ DOMDocument::xinclude — Вставляє XInclude в об'єкті DOMDocument
 
 ### Опис
 
-public **DOMDocument::xinclude**(int `$options` u003d 0): int\|false
+public **DOMDocument::xinclude**(int `$options` = 0): int\|false
 
 Цей метод вставляє [» блоки XInclude](http://www.w3.org/TR/xinclude/)
 в об'єкті класу DOMDocument.
@@ -40,27 +40,27 @@ public **DOMDocument::xinclude**(int `$options` u003d 0): int\|false
 
 **Приклад #1 Приклад використання DOMDocument::xinclude()**
 
-` <?php$xml u003d <<<EOD<?xml versionu003d"1.0" ?><chapter xmlns:xiu003d"http://www.w3.org/2001/XInclude"> <title>Books of the other guy..</title> <para> <xi:include hrefu003d"book.xml">   <xi:fallback>   <error>xinclude: book.xml not found</error>   </xi:fallback>  </xi :include> </para></chapter>EOD;$dom u003d new DOMDocument;// оформимо висновок красиво$dom->preserveWhiteSpace u003d false;$dom->formatOutput u003d true;// завантаження$ dom->loadXML($xml);// вставка блоків xinclude$dom->xinclude();echo $dom->saveXML();?> `
+` <?php$xml = <<<EOD<?xml version="1.0" ?><chapter xmlns:xi="http://www.w3.org/2001/XInclude"> <title>Books of the other guy..</title> <para> <xi:include href="book.xml">   <xi:fallback>   <error>xinclude: book.xml not found</error>   </xi:fallback>  </xi :include> </para></chapter>EOD;$dom = new DOMDocument;// оформимо висновок красиво$dom->preserveWhiteSpace = false;$dom->formatOutput = true;// завантаження$ dom->loadXML($xml);// вставка блоків xinclude$dom->xinclude();echo $dom->saveXML();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-<?xml versionu003d"1.0"?>
-<chapter xmlns:xiu003d"http://www.w3.org/2001/XInclude">
+<?xml version="1.0"?>
+<chapter xmlns:xi="http://www.w3.org/2001/XInclude">
 <title>Books of the other guy..</title>
 <para>
-<row xml:baseu003d"/home/didou/book.xml">
+<row xml:base="/home/didou/book.xml">
 <entry>The Grapes of Wrath</entry>
 <entry>John Steinbeck</entry>
 <entry>en</entry>
 <entry>0140186409</entry>
 </row>
-<row xml:baseu003d"/home/didou/book.xml">
+<row xml:base="/home/didou/book.xml">
 <entry>The Pearl</entry>
 <entry>John Steinbeck</entry>
 <entry>en</entry>
 <entry>014017737X</entry>
 </row>
-<row xml:baseu003d"/home/didou/book.xml">
+<row xml:base="/home/didou/book.xml">
 <entry>Samarcande</entry>
 <entry>Amine Maalouf</entry>
 <entry>fr</entry>

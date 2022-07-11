@@ -7,7 +7,7 @@
 
 # SimpleXMLElement::getName
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 SimpleXMLElement::getName — Отримує ім'я елемента XML
 
@@ -36,7 +36,7 @@ public **SimpleXMLElement::getName**(): string
 
 **Приклад #1 Отримання імен XML-елемента**
 
-` <?phpinclude ''example.php';$sxe u003d new SimpleXMLElement($xmlstr);echo $sxe->getName() . "
+` <?phpinclude ''example.php';$sxe = new SimpleXMLElement($xmlstr);echo $sxe->getName() . "
 ";foreach ($sxe->children() as $child){   echo $child->getName() . "
 ";}?> `
 

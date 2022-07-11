@@ -7,7 +7,7 @@
 
 # Yaf_Route_Supervar::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Supervar::\_\_construct - Призначення \_\_construct
 
@@ -36,15 +36,15 @@ public **Yaf_Route_Supervar::\_\_construct**(string `$supervar_name`)
 
 Результатом виконання цього прикладу буде щось подібне:
 
-/** для запиту: http://yourdomain.com/xx/oo/?ru003d/ctr/act/var/value
+/** для запиту: http://yourdomain.com/xx/oo/?r=/ctr/act/var/value
 * буде наступний результат:
 */
 array (
-"module" u003d> index(default),
-"controller" u003d> ctr,
-"action" u003d> act,
-"params" u003d> array(
-"var" u003d> value,
+"module" => index(default),
+"controller" => ctr,
+"action" => act,
+"params" => array(
+"var" => value,
 )
 )
 

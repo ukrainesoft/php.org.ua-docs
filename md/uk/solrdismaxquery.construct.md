@@ -13,7 +13,7 @@ SolrDisMaxQuery::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **SolrDisMaxQuery::\_\_construct**(string `$q` u003d ?)
+public **SolrDisMaxQuery::\_\_construct**(string `$q` = ?)
 
 Конструктор класу ініціалізує об'єкт та встановлює параметр q,
 якщо він вказаний
@@ -35,8 +35,8 @@ public **SolrDisMaxQuery::\_\_construct**(string `$q` u003d ?)
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::\_\_construct()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');echo $dismaxQuery;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');echo $dismaxQuery;?> `
 
 Результат виконання цього прикладу:
 
-qu003dlucene&defTypeu003dedismax
+q=lucene&defType=edismax

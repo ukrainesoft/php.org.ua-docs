@@ -7,14 +7,14 @@
 
 #gmp_div_r
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_div_r — Залишок від розподілу чисел
 
 ### Опис
 
 **gmp_div_r**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` u003d
+[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` =
 **`GMP_ROUND_ZERO`**): [GMP](class.gmp.md)
 
 Обчислює залишок від розподілу націло числа `num1` на `num2`. Якщо число
@@ -46,7 +46,7 @@ gmp_div_r — Залишок від розподілу чисел
 
 **Приклад #1 Приклад використання **gmp_div_r()****
 
-`<?php    $div u003d gmp_div_r("105", "20"); echo gmp_strval($div) . "
+`<?php    $div = gmp_div_r("105", "20"); echo gmp_strval($div) . "
 ";     ?> `
 
 Результат виконання цього прикладу:

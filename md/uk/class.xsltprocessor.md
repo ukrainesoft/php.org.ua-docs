@@ -29,7 +29,7 @@ public [importStylesheet](xsltprocessor.importstylesheet.md)(object
 
 public
 [registerPHPFunctions](xsltprocessor.registerphpfunctions.md)(array\|string\|null
-`$functions` u003d **`null`**): void
+`$functions` = **`null`**): void
 
 public [removeParameter](xsltprocessor.removeparameter.md)(string
 `$namespace`, string `$name`): bool
@@ -47,7 +47,7 @@ public [setSecurityPrefs](xsltprocessor.setsecurityprefs.md)(int
 `$preferences`): int
 
 public [transformToDoc](xsltprocessor.transformtodoc.md)(object
-`$document`, ?string `$returnClass` u003d **`null`**):
+`$document`, ?string `$returnClass` = **`null`**):
 [DOMDocument](class.domdocument.md)\|false
 
 public

@@ -7,7 +7,7 @@
 
 # LuaSandbox::unpauseUsageTimer
 
-(PECL luasandbox \>u003d 1.4.0)
+(PECL luasandbox \>= 1.4.0)
 
 LuaSandbox::unpauseUsageTimer — Відновлює таймер, призупинений
 [LuaSandbox::pauseUsageTimer()](luasandbox.pauseusagetimer.md)

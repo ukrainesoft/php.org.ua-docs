@@ -7,7 +7,7 @@
 
 # Parle\Parser::tokenId
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\Parser::tokenId — Отримує ідентифікатор токена
 

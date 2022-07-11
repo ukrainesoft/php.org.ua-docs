@@ -7,7 +7,7 @@
 
 # OAuth::getLastResponseInfo
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::getLastResponseInfo — Отримати HTTP-інформацію про останню відповідь
 

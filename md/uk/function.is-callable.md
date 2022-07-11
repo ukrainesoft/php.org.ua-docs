@@ -8,7 +8,7 @@
 
 #is_callable
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 is_callable — Перевіряє, що значення може бути викликане як функція в
 поточної області видимості
@@ -16,7 +16,7 @@ is_callable — Перевіряє, що значення може бути ви
 ### Опис
 
 **is_callable**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, bool `$syntax_only` u003d **`false`**, string `&$callable_name` u003d
+`$value`, bool `$syntax_only` = **`false`**, string `&$callable_name` =
 **`null`**): bool
 
 Перевіряє, що значення є

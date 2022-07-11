@@ -7,7 +7,7 @@
 
 #pspell_new_personal
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_new_personal — Завантажує новий словник із персональним списком
 слів
@@ -17,10 +17,10 @@ pspell_new_personal — Завантажує новий словник із пе
 **pspell_new_personal**(
 string `$filename`,
 string `$language`,
-string `$spelling` u003d "",
-string `$jargon` u003d "",
-string `$encoding` u003d "",
-int `$mode` u003d 0
+string `$spelling` = "",
+string `$jargon` = "",
+string `$encoding` = "",
+int `$mode` = 0
 ): [PSpell\Dictionary](class.pspell-dictionary.md)\|false
 
 **pspell_new_personal()** відкриває новий словник із персональним списком
@@ -98,11 +98,11 @@ Mode - це бітова маска, сконструйована з різни�
 ### Список змін
 
 | Версія | Опис                                                                                                                                   |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pspell_new_personal()****
 
-` <?php$pspell u003d pspell_new_personal ("/var/dictionaries/custom.pws",        "en", "", ", "", PSPELL_FAST|PSPELL_RUN_TOGE
+` <?php$pspell = pspell_new_personal ("/var/dictionaries/custom.pws",        "en", "", ", "", PSPELL_FAST|PSPELL_RUN_TOGE

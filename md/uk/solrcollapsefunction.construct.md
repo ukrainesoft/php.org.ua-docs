@@ -7,13 +7,13 @@
 
 # SolrCollapseFunction::\_\_construct
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrCollapseFunction::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **SolrCollapseFunction::\_\_construct**(string `$field` u003d ?)
+public **SolrCollapseFunction::\_\_construct**(string `$field` = ?)
 
 Конструктор класу Collapse Function
 
@@ -30,7 +30,7 @@ public **SolrCollapseFunction::\_\_construct**(string `$field` u003d ?)
 **Приклад #1 Приклад використання
 **SolrCollapseFunction::\_\_construct()****
 
-` <?phpinclude "bootstrap.php";$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,    'path'     u003d> SOLR_SERVER_PATH) ;$client u003d new SolrClient($options);$query u003d new SolrQuery('*:*');$func u003d new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field some_other_field))');$func->setSize(100);$func->setNullPolicy(SolrCollapseFunction::NULLPOLICY_EXPAND);$query->collapse($func);$queryResponse u003d $client->query($quer $responseu003du003d$queryResponse->getResponse();print_r($response);?> `
+` <?phpinclude "bootstrap.php";$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,    'path'     => SOLR_SERVER_PATH) ;$client = new SolrClient($options);$query = new SolrQuery('*:*');$func = new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field some_other_field))');$func->setSize(100);$func->setNullPolicy(SolrCollapseFunction::NULLPOLICY_EXPAND);$query->collapse($func);$queryResponse = $client->query($quer $response==$queryResponse->getResponse();print_r($response);?> `
 
 ### Дивіться також
 

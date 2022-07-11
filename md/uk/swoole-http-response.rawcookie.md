@@ -7,7 +7,7 @@
 
 # Swoole\Http\Response::rawcookie
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::rawcookie — Встановлює необроблені cookie в
 HTTP-відповідь
@@ -16,12 +16,12 @@ HTTP-відповідь
 
 public **Swoole\Http\Response::rawcookie**(
 string `$name`,
-string `$value` u003d ?,
-string `$expires` u003d ?,
-string `$path` u003d ?,
-string `$domain` u003d ?,
-string `$secure` u003d ?,
-string `$httponly` u003d ?
+string `$value` = ?,
+string `$expires` = ?,
+string `$path` = ?,
+string `$domain` = ?,
+string `$secure` = ?,
+string `$httponly` = ?
 ): ReturnType
 
 ### Список параметрів

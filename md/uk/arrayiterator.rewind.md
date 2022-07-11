@@ -29,4 +29,4 @@ public **ArrayIterator::rewind**(): void
 
 **Приклад #1 Приклад використання **ArrayIterator::rewind()****
 
-` <?php$arrayobject u003d new ArrayObject();$arrayobject[] u003d 'нуль';$arrayobject[] u003d 'один';$arrayobject[] u003d 'два';$iterator u003d $arrayobject->getIterator(); $iterator->next();echo $iterator->key(); //1$iterator->rewind(); // переміщає покажчик в початок масиваecho $iterator->key(); //0?> `
+` <?php$arrayobject = new ArrayObject();$arrayobject[] = 'нуль';$arrayobject[] = 'один';$arrayobject[] = 'два';$iterator = $arrayobject->getIterator(); $iterator->next();echo $iterator->key(); //1$iterator->rewind(); // переміщає покажчик в початок масиваecho $iterator->key(); //0?> `

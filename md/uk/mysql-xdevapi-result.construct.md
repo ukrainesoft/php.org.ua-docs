@@ -27,7 +27,7 @@ AUTO_INCREMENT та попередження для набору Result.
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Result::\_\_construct()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql(" CREATE TABLE addressbook.names    (id INT NOT NULL AUTO_INCREMENT, name VARCHAR( RY  RY) execute();$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names");$result u003d $table->insert("name", "age")- >values(["Suzanne", 31],["Julie", 43])->execute();$result u003d $table->insert("name", "age")->values(["Suki" , 34])->execute();$ai u003d $result->getAutoIncrementValue();var_dump($ai);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$session->sql(" CREATE TABLE addressbook.names    (id INT NOT NULL AUTO_INCREMENT, name VARCHAR( RY  RY) execute();$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names");$result = $table->insert("name", "age")- >values(["Suzanne", 31],["Julie", 43])->execute();$result = $table->insert("name", "age")->values(["Suki" , 34])->execute();$ai = $result->getAutoIncrementValue();var_dump($ai);?> `
 
 Результат виконання цього прикладу:
 

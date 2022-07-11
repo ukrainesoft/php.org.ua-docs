@@ -7,7 +7,7 @@
 
 #radius_server_secret
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_server_secret — Повертає загальний секрет
 

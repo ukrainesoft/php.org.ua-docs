@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\CursorInterface::isDead
 
-(mongodb \>u003d1.6.0)
+(mongodb \>=1.6.0)
 
 MongoDB\Driver\CursorInterface::isDead — Перевірити, чи можна ще
 отримати з курсору результати

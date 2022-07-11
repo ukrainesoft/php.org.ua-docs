@@ -7,7 +7,7 @@
 
 #ErrorException
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -19,32 +19,32 @@ class **ErrorException** extends [Exception](class.exception.md) {
 
 /\* Властивості \*/
 
-protected int `$severity` u003d E_ERROR;
+protected int `$severity` = E_ERROR;
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](errorexception.construct.md)(
-string `$message` u003d "",
-int `$code` u003d 0,
-int `$severity` u003d **`E_ERROR`**,
-?string `$filename` u003d **`null`**,
-?int `$line` u003d **`null`**,
-?[Throwable](class.throwable.md) `$previous` u003d **`null`**
+string `$message` = "",
+int `$code` = 0,
+int `$severity` = **`E_ERROR`**,
+?string `$filename` = **`null`**,
+?int `$line` = **`null`**,
+?[Throwable](class.throwable.md) `$previous` = **`null`**
 )
 
 final public [getSeverity](errorexception.getseverity.md)(): int

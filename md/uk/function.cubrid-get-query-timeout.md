@@ -7,7 +7,7 @@
 
 #cubrid_get_query_timeout
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_get_query_timeout — Отримує значення часу очікування запиту
 
@@ -33,7 +33,7 @@ cubrid_get_query_timeout — Отримує значення часу очіку
 
 **Приклад #1 Приклад використання **cubrid_get_query_timeout()****
 
-` <?php$host u003d "localhost";$port u003d 33000;$db u003d "demodb";$conn u003dcubrid_connect_with_url("CUBRID:$host:$port:$db:::?login_timeoutu003d50000&query_timeoutu003d5 ");$req u003d cubrid_prepare($conn, "SELECT * FROM code");$timeout u003d cubrid_get_query_timeout($req);var_dump($timeout);cubrid_set_query_timeout($req, $0 ;var_dump($timeout);cubrid_close($conn);?> `
+` <?php$host = "localhost";$port = 33000;$db = "demodb";$conn =cubrid_connect_with_url("CUBRID:$host:$port:$db:::?login_timeout=50000&query_timeout=5 ");$req = cubrid_prepare($conn, "SELECT * FROM code");$timeout = cubrid_get_query_timeout($req);var_dump($timeout);cubrid_set_query_timeout($req, $0 ;var_dump($timeout);cubrid_close($conn);?> `
 
 Результат виконання цього прикладу:
 

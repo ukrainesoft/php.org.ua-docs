@@ -7,13 +7,13 @@
 
 # SyncMutex::unlock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncMutex::unlock — Розблокує м'ютекс
 
 ### Опис
 
-public **SyncMutex::unlock**(bool `$all` u003d **`false`**): bool
+public **SyncMutex::unlock**(bool `$all` = **`false`**): bool
 
 Зменшує внутрішній лічильник об'єкта [SyncMutex](class.syncmutex.md).
 Коли внутрішній лічильник досягає нуля, фактичне блокування об'єкта
@@ -34,7 +34,7 @@ public **SyncMutex::unlock**(bool `$all` u003d **`false`**): bool
 
 **Приклад #1 Приклад використання **SyncMutex::unlock()****
 
-` <?php$mutex u003d new SyncMutex("UniqueName");$mutex->lock();/* ... */$mutex->unlock();?> `
+` <?php$mutex = new SyncMutex("UniqueName");$mutex->lock();/* ... */$mutex->unlock();?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # GmagickPixel::\_\_construct
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::\_\_construct — Конструктор класу GmagickPixel
 
 ### Опис
 
-public **GmagickPixel::\_\_construct**(string `$color` u003d ?)
+public **GmagickPixel::\_\_construct**(string `$color` = ?)
 
 Створює новий об'єкт класу [GmagickPixel](class.gmagickpixel.md).
 Якщо вказано колір, об'єкт буде ініціалізований цим кольором.

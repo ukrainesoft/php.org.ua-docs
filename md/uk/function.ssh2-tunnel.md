@@ -7,7 +7,7 @@
 
 # ssh2_tunnel
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_tunnel — Відкрити тунель через віддалений сервер
 
@@ -35,7 +35,7 @@ resource
 
 **Приклад #1 Відкриття тунелю по довільному хосту**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');$tunnel u003d ssh2_tunnel .0.101', 12345);?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_pubkey_file($connection, 'username', 'id_dsa.pub', 'id_dsa');$tunnel = ssh2_tunnel .0.101', 12345);?> `
 
 ### Дивіться також
 

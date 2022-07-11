@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::getServer
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getServer — Отримує змінну SERVER
 
 ### Опис
 
 public **Yaf_Request_Abstract::getServer**(string `$name`, string
-`$default` u003d ?): void
+`$default` = ?): void
 
 Отримує змінну SERVER
 

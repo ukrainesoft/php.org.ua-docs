@@ -7,13 +7,13 @@
 
 #ini_get_all
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 ini_get_all — Отримує всі налаштування конфігурації
 
 ### Опис
 
-**ini_get_all**(?string `$extension` u003d **`null`**, bool `$details` u003d
+**ini_get_all**(?string `$extension` = **`null`**, bool `$details` =
 **`true`**): array\|false
 
 Повертає всі зареєстровані конфігураційні установки.
@@ -60,35 +60,35 @@ ini_get_all — Отримує всі налаштування конфігур�
 
 Array
 (
-[pcre.backtrack_limit] u003d> Array
+[pcre.backtrack_limit] => Array
 (
-[global_value] u003d> 100000
-[local_value] u003d> 100000
-[access] u003d> 7
+[global_value] => 100000
+[local_value] => 100000
+[access] => 7
 )
 
-[pcre.recursion_limit] u003d> Array
+[pcre.recursion_limit] => Array
 (
-[global_value] u003d> 100000
-[local_value] u003d> 100000
-[access] u003d> 7
+[global_value] => 100000
+[local_value] => 100000
+[access] => 7
 )
 
 )
 Array
 (
-[allow_call_time_pass_reference] u003d> Array
+[allow_call_time_pass_reference] => Array
 (
-[global_value] u003d> 0
-[local_value] u003d> 0
-[access] u003d> 6
+[global_value] => 0
+[local_value] => 0
+[access] => 6
 )
 
-[allow_url_fopen] u003d> Array
+[allow_url_fopen] => Array
 (
-[global_value] u003d> 1
-[local_value] u003d> 1
-[access] u003d> 4
+[global_value] => 1
+[local_value] => 1
+[access] => 4
 )
 
 ...
@@ -103,13 +103,13 @@ Array
 
 Array
 (
-[pcre.backtrack_limit] u003d> 100000
-[pcre.recursion_limit] u003d> 100000
+[pcre.backtrack_limit] => 100000
+[pcre.recursion_limit] => 100000
 )
 Array
 (
-[allow_call_time_pass_reference] u003d> 0
-[allow_url_fopen] u003d> 1
+[allow_call_time_pass_reference] => 0
+[allow_url_fopen] => 1
 ...
 )
 

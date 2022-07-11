@@ -7,14 +7,14 @@
 
 # Swoole\Server::connection_list
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::connection_list — Отримує всі встановлені з'єднання
 
 ### Опис
 
 public **Swoole\Server::connection_list**(int `$start_fd`, int
-`$pagesize` u003d ?): array
+`$pagesize` = ?): array
 
 ### Список параметрів
 

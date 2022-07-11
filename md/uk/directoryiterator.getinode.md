@@ -33,7 +33,7 @@ public **DirectoryIterator::getInode**(): int
 
 Приклад виведе inode директорії, що містить скрипт, що виконується.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));echo $iterator->getInode();?> `
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));echo $iterator->getInode();?> `
 
 ### Дивіться також
 

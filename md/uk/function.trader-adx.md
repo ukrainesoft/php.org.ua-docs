@@ -7,7 +7,7 @@
 
 #trader_adx
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_adx - Середній індекс спрямованого руху
 
@@ -17,7 +17,7 @@ trader_adx - Середній індекс спрямованого руху
 array `$high`,
 array `$low`,
 array `$close`,
-int `$timePeriod` u003d ?
+int `$timePeriod` = ?
 ): array
 
 ### Список параметрів

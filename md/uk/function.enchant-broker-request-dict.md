@@ -7,7 +7,7 @@
 
 #enchant_broker_request_dict
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0 )
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
 
 enchant_broker_request_dict — Створити новий словник, використовуючи тег
 
@@ -37,7 +37,7 @@ enchant_broker_request_dict — Створити новий словник, ви
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                       |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)).                                         |
 | 8.0.0  | У разі успішного виконання, функція повертає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше повертався ресурс ([resource](language.types.resource.md)). |
 
@@ -49,7 +49,7 @@ enchant_broker_request_dict — Створити новий словник, ви
 [enchant_broker_dict_exists()](function.enchant-broker-dict-exists.md)
 і, потім, просимо його.
 
-` <?php$tag u003d 'en_US';$broker u003d enchant_broker_init();if (enchant_broker_dict_exists($broker,$tag)) {   $dict u003d enchant_broker_request_dict$$;;
+` <?php$tag = 'en_US';$broker = enchant_broker_init();if (enchant_broker_dict_exists($broker,$tag)) {   $dict = enchant_broker_request_dict$$;;
 
 ### Дивіться також
 

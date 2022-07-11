@@ -7,7 +7,7 @@
 
 # Yaf_Route_Simple::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Simple::\_\_construct - Конструктор класу Yaf_Route_Simple
 
@@ -45,17 +45,17 @@ public **Yaf_Route_Simple::\_\_construct**(string `$module_name`, string
 **Приклад #1 Приклад використання
 [Yaf_Route_Simple::route()](yaf-route-simple.route.md)**
 
-` <?php  $route u003d new Yaf_Route_Simple("m", "controller", "act"); Yaf_Router::getInstance()->addRoute("simple", $route);?> `
+` <?php  $route = new Yaf_Route_Simple("m", "controller", "act"); Yaf_Router::getInstance()->addRoute("simple", $route);?> `
 
 **Приклад #2 Приклад використання
 [Yaf_Route_Simple::route()](yaf-route-simple.route.md)**
 
 ``` bashcode
-Запит: http://yourdomain.com/path/?controlleru003da&actu003db
-u003d> module u003d default(index), controller u003d a, action u003d b
+Запит: http://yourdomain.com/path/?controller=a&act=b
+=> module = default(index), controller = a, action = b
 
 Запит: http://yourdomain.com/path
-u003d> module u003d default(index), controller u003d default(index), action u003d default(index)
+=> module = default(index), controller = default(index), action = default(index)
 ````
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # trader_adosc
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_adosc - Осцилятор Чайкіна
 
@@ -18,8 +18,8 @@ array `$high`,
 array `$low`,
 array `$close`,
 array `$volume`,
-int `$fastPeriod` u003d ?,
-int `$slowPeriod` u003d ?
+int `$fastPeriod` = ?,
+int `$slowPeriod` = ?
 ): array
 
 ### Список параметрів

@@ -8,7 +8,7 @@
 
 # IntlCalendar::getDayOfWeekType
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getDayOfWeekType — Повідомляє, чи день буде буднім,
 вихідним або днем із переходом між ними
@@ -61,7 +61,7 @@ public **IntlCalendar::getDayOfWeekType**(int `$dayOfWeek`): int\|false
 **Приклад #1 Приклад використання **IntlCalendar::getDayOfWeekType()****
 
 ` <?phpforeach (array('en_US', 'ar_SA') as $locale) {    echo "Мовний стандарт: ", Locale::getDisplayName($locale, "en_US"), "
-";|   $cal u003d IntlCalendar::createInstance('UTC', $locale);   for ($i u003d IntlCalendar::DOW_SUNDAY; $i <u003d IntlCalendar::DOW_SA    | $i);        $transition u003d ($type !u003du003d IntlCalendar::DOW_TYPE_WEEKDAY)            ? $cal->getWeekendTransition($i)            : '';        echo $i, " ", $type, " ", $transition, "
+";|   $cal = IntlCalendar::createInstance('UTC', $locale);   for ($i = IntlCalendar::DOW_SUNDAY; $i <= IntlCalendar::DOW_SA    | $i);        $transition = ($type !== IntlCalendar::DOW_TYPE_WEEKDAY)            ? $cal->getWeekendTransition($i)            : '';        echo $i, " ", $type, " ", $transition, "
 ";    }    echo "
 ";}?> `
 

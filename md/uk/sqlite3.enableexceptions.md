@@ -7,13 +7,13 @@
 
 # SQLite3::enableExceptions
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::enableExceptions — Включити викид виключень
 
 ### Опис
 
-public **SQLite3::enableExceptions**(bool `$enable` u003d **`false`**): bool
+public **SQLite3::enableExceptions**(bool `$enable` = **`false`**): bool
 
 Визначає, чи буде екземпляр [SQLite3](class.sqlite3.md) викидати
 виключення чи попередження про помилку.
@@ -46,7 +46,7 @@ public **SQLite3::enableExceptions**(bool `$enable` u003d **`false`**): bool
 
 **Приклад #1 Приклад використання **SQLite3::enableExceptions()****
 
-` <?php$sqlite u003d new SQLite3(':memory:');try {   $sqlite->exec('create table foo'); $sqlite->enableExceptions(true); $sqlite->exec('create table bar');} catch (Exception $e) {   echo 'Впіймано виняток: ' . $e->getMessage();}?> `
+` <?php$sqlite = new SQLite3(':memory:');try {   $sqlite->exec('create table foo'); $sqlite->enableExceptions(true); $sqlite->exec('create table bar');} catch (Exception $e) {   echo 'Впіймано виняток: ' . $e->getMessage();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

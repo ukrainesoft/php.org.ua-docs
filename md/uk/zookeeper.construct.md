@@ -7,15 +7,15 @@
 
 # Zookeeper::\_\_construct
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::\_\_construct — Створює дескриптор для спілкування з zookeeper
 
 ### Опис
 
-public **Zookeeper::\_\_construct**(string `$host` u003d '',
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**, int
-`$recv_timeout` u003d 10000)
+public **Zookeeper::\_\_construct**(string `$host` = '',
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**, int
+`$recv_timeout` = 10000)
 
 Метод створює новий дескриптор та сеанс zookeeper, який відповідає
 цього дескриптора. Встановлення сеансу асинхронне, тому сеанс не

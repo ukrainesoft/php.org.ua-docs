@@ -7,7 +7,7 @@
 
 # trader_stochrsi
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_stochrsi - Стохастичний відносний індекс сили
 
@@ -15,10 +15,10 @@ trader_stochrsi - Стохастичний відносний індекс си�
 
 **trader_stochrsi**(
 array `$real`,
-int `$timePeriod` u003d ?,
-int `$fastK_Period` u003d ?,
-int `$fastD_Period` u003d ?,
-int `$fastD_MAType` u003d ?
+int `$timePeriod` = ?,
+int `$fastK_Period` = ?,
+int `$fastD_Period` = ?,
+int `$fastD_MAType` = ?
 ): array
 
 ### Список параметрів

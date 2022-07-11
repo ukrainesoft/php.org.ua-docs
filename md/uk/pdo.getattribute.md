@@ -7,7 +7,7 @@
 
 # PDO::getAttribute
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDO::getAttribute — Отримати атрибут з'єднання з базою даних
 
@@ -55,7 +55,7 @@ public **PDO::getAttribute**(int `$attribute`):
 
 **Приклад #1 Отримання атрибутів з'єднання з базою даних**
 
-` <?php$conn u003d new PDO('odbc:sample', 'db2inst1', 'ibmdb2');$attributes u003darray(    "AUTOCOMMIT", "ERRMODE", "CASE", C "ORACLE_NULLS", "PERSISTENT", "PREFETCH", "SERVER_INFO", "SERVER_VERSION",   "TIMEOUT");foreach ($attributes as $val) {     echo "; echo $conn->getAttribute(constant("PDO::ATTR_$val")) . "
+` <?php$conn = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');$attributes =array(    "AUTOCOMMIT", "ERRMODE", "CASE", C "ORACLE_NULLS", "PERSISTENT", "PREFETCH", "SERVER_INFO", "SERVER_VERSION",   "TIMEOUT");foreach ($attributes as $val) {     echo "; echo $conn->getAttribute(constant("PDO::ATTR_$val")) . "
 ";}?> `
 
 ### Дивіться також

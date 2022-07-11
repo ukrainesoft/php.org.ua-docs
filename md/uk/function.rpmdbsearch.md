@@ -7,7 +7,7 @@
 
 # rpmdbsearch
 
-(PECL rpminfo u003d 0.3.0)
+(PECL rpminfo = 0.3.0)
 
 rpmdbsearch — Пошук RPM-пакетів
 
@@ -15,9 +15,9 @@ rpmdbsearch — Пошук RPM-пакетів
 
 **rpmdbsearch**(
 string `$pattern`,
-int `$rpmtag` u003d RPMTAG_NAME,
-int `$rpmmire` u003d -1,
-bool `$full` u003d **`false`**
+int `$rpmtag` = RPMTAG_NAME,
+int `$rpmmire` = -1,
+bool `$full` = **`false`**
 ): array
 
 Пошук пакетів у системній базі даних RPM.
@@ -47,19 +47,19 @@ bool `$full` u003d **`false`**
 
 **Приклад #1 Пошук пакета, в якому знаходиться файл**
 
-` <?php$info u003d rpmdbsearch("/usr/bin/php", RPMTAG_INSTFILENAMES);print_r($info);?> `
+` <?php$info = rpmdbsearch("/usr/bin/php", RPMTAG_INSTFILENAMES);print_r($info);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[Name] u003d> php-cli
-[Version] u003d> 7.4.4
-[Release] u003d> 1.fc32
-[Summary] u003d> Command-line interface for PHP
-[Arch] u003d> x86_64
+[Name] => php-cli
+[Version] => 7.4.4
+[Release] => 1.fc32
+[Summary] => Command-line interface for PHP
+[Arch] => x86_64
 )
 
 )

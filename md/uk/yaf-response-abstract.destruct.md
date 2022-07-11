@@ -7,7 +7,7 @@
 
 # Yaf_Response_Abstract::\_\_destruct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::\_\_destruct - Деструктор класу
 Yaf_Response_Abstract

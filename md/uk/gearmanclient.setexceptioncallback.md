@@ -8,7 +8,7 @@
 
 # GearmanClient::setExceptionCallback
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setExceptionCallback — Встановлення функції зворотнього дзвінка
 для перехоплення виключень обробника завдань

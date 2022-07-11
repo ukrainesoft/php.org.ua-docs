@@ -9,7 +9,7 @@
 
 # finfo::file
 
-(PHP \>u003d 5.3.0, PHP 7, PHP 8, PECL fileinfo \>u003d 0.1.0)
+(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
 
 finfo_file -- finfo::file — Повертає інформацію про файл
 
@@ -20,14 +20,14 @@ finfo_file -- finfo::file — Повертає інформацію про фа�
 [finfo_file](finfo.file.md)(
 [finfo](class.finfo.md) `$finfo`,
 string `$filename`,
-int `$flags` u003d **`FILEINFO_NONE`**,
-?resource `$context` u003d **`null`**
+int `$flags` = **`FILEINFO_NONE`**,
+?resource `$context` = **`null`**
 ): string\|false
 
 Об'єктно-орієнтований стиль
 
-public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` u003d
-**`FILEINFO_NONE`**, ?resource `$context` u003d **`null`**): string\|false
+public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` =
+**`FILEINFO_NONE`**, ?resource `$context` = **`null`**): string\|false
 
 Функція використовується для отримання інформації щодо файлу.
 
@@ -54,7 +54,7 @@ public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` u003d
 ### Список змін
 
 | Версія | Опис                                                                                                                                |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр finfo тепер чекає на екземпляр [finfo](class.finfo.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | 'context' тепер допускає значення null.                                                                                             |
 
@@ -62,7 +62,7 @@ public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` u003d
 
 **Приклад #1 Приклад використання [finfo_file()](finfo.file.md)**
 
-`<?php$finfou003du003dfinfo_open(FILEINFO_MIME_TYPE); // повертає mime-типforeach (glob("*") as $filename) {    echo finfo_file($finfo, $filename) . "
+`<?php$finfo==finfo_open(FILEINFO_MIME_TYPE); // повертає mime-типforeach (glob("*") as $filename) {    echo finfo_file($finfo, $filename) . "
 ";}finfo_close($finfo);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

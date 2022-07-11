@@ -7,14 +7,14 @@
 
 # PharData::compress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::compress — Стискає весь архів tar/zip, використовуючи стиснення Gzip
 або Bzip2
 
 ### Опис
 
-public **PharData::compress**(int `$compression`, ?string `$extension` u003d
+public **PharData::compress**(int `$compression`, ?string `$extension` =
 **`null`**): ?[PharData](class.phardata.md)
 
 Для tar-архівів, цей метод здійснить стиснення всього архіву за допомогою
@@ -55,14 +55,14 @@ gunzip або bunzip або використовувати безпосеред�
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | extension  тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::compress()****
 
-` <?php$p u003d new PharData('/path/to/my.tar');$p['myfile.txt'] u003d 'hi';$p['myfile2.txt'] u003d 'hi'; $p1u003du003d$p->compress(Phar::GZ); // copies to /path/to/my.tar.gz$p2 u003d $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2$p3 u003d $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists?> `
+` <?php$p = new PharData('/path/to/my.tar');$p['myfile.txt'] = 'hi';$p['myfile2.txt'] = 'hi'; $p1==$p->compress(Phar::GZ); // copies to /path/to/my.tar.gz$p2 = $p->compress(Phar::BZ2); // copies to /path/to/my.tar.bz2$p3 = $p2->compress(Phar::NONE); // exception: /path/to/my.tar already exists?> `
 
 ### Дивіться також
 

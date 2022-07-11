@@ -7,7 +7,7 @@
 
 #stream_socket_enable_crypto
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 stream_socket_enable_crypto — Вмикає або вимикає шифрування вже
 підключеному сокеті
@@ -17,8 +17,8 @@ stream_socket_enable_crypto — Вмикає або вимикає шифрув�
 **stream_socket_enable_crypto**(
 resource `$stream`,
 bool `$enable`,
-?int `$crypto_method` u003d **`null`**,
-?resource `$session_stream` u003d **`null`**
+?int `$crypto_method` = **`null`**,
+?resource `$session_stream` = **`null`**
 ): int\|bool
 
 Вмикає або вимикає шифрування на потоці.
@@ -70,16 +70,16 @@ bool `$enable`,
 ### Список змін
 
 | Версія | Опис                                          |
-| ------ | --------------------------------------------- |
+|--------|-----------------------------------------------|
 | 8.0.0  | session_stream тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **stream_socket_enable_crypto()****
 
-` <?php$fp u003d stream_socket_client("tcp://myproto.example.com:31337", $errno, $errstr, 30);if (!$fp) {    die("Не можу $|| errno)");}/* Включити шифрування для етапу входу в систему */stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_SSLv23_CLIENT);fwrite$"
+` <?php$fp = stream_socket_client("tcp://myproto.example.com:31337", $errno, $errstr, 30);if (!$fp) {    die("Не можу $|| errno)");}/* Включити шифрування для етапу входу в систему */stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_SSLv23_CLIENT);fwrite$"
 ");fwrite($fp, "PASS секрет
-");/* Вимкнути шифрування для всього остального */stream_socket_enable_crypto($fp, false);while ($motd u003d fgets($fp)) {    echo $motd;}f;
+");/* Вимкнути шифрування для всього остального */stream_socket_enable_crypto($fp, false);while ($motd = fgets($fp)) {    echo $motd;}f;
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -38,7 +38,7 @@
 
 **Приклад #1 Визначення властивостей**
 
-`<?phpclass SimpleClass{   public $var1 u003d 'hello ' . 'world'; public$var2u003du003d<<<EODhello worldEOD; public $var3 u003d 1+2; // неправильне визначення властивостей:   public $var4 u003d self::myStaticMethod(); public $var5 u003d $myVar; // правильне визначення властивостей:   public $var6 u003d myConstant; public $var7 u003d [true, false]; public $var8 u003d <<<'EOD'hello worldEOD; // Без модифікатора області видимості:   static $var9; readonly int $var10;}?> `
+`<?phpclass SimpleClass{   public $var1 = 'hello ' . 'world'; public$var2==<<<EODhello worldEOD; public $var3 = 1+2; // неправильне визначення властивостей:   public $var4 = self::myStaticMethod(); public $var5 = $myVar; // правильне визначення властивостей:   public $var6 = myConstant; public $var7 = [true, false]; public $var8 = <<<'EOD'hello worldEOD; // Без модифікатора області видимості:   static $var9; readonly int $var10;}?> `
 
 > **Примітка**:
 >
@@ -52,7 +52,7 @@
 
 **Приклад #2 Приклад використання типізованих властивостей**
 
-`<?phpclass User{    public int $id; public ?string $name; public function __construct(int $id, ?string $name)    {        $this->id u003d $id; $this->name u003d $name; }}$user u003d new User(1234, null);var_dump($user->id);var_dump($user->name);?> `
+`<?phpclass User{    public int $id; public ?string $name; public function __construct(int $id, ?string $name)    {        $this->id = $id; $this->name = $name; }}$user = new User(1234, null);var_dump($user->id);var_dump($user->name);?> `
 
 Результат виконання цього прикладу:
 
@@ -64,7 +64,7 @@ NULL
 
 **Приклад #3 Звернення до властивостей**
 
-`<?phpclass Shape{    public int $numberOfSides; public string $name; public function setNumberOfSides(int$numberOfSides): void    {       $this->numberOfSides u003d$numberOfSides; }    public function setName(string $name): void    {       $this->name u003d $name; }    public function getNumberOfSides(): int    {       return $this->numberOfSides; }    public function getName(): string    {        return $this->name; }}$triangle u003d new Shape();$triangle->setName("triangle");$triangle->setNumberofSides(3);var_dump($triangle->getName());var_dump($triangle->getNumberOfSides() );$circle u003d new Shape();$circle->setName("circle");var_dump($circle->getName());var_dump($circle->getNumberOfSides());?> `
+`<?phpclass Shape{    public int $numberOfSides; public string $name; public function setNumberOfSides(int$numberOfSides): void    {       $this->numberOfSides =$numberOfSides; }    public function setName(string $name): void    {       $this->name = $name; }    public function getNumberOfSides(): int    {       return $this->numberOfSides; }    public function getName(): string    {        return $this->name; }}$triangle = new Shape();$triangle->setName("triangle");$triangle->setNumberofSides(3);var_dump($triangle->getName());var_dump($triangle->getNumberOfSides() );$circle = new Shape();$circle->setName("circle");var_dump($circle->getName());var_dump($circle->getNumberOfSides());?> `
 
 Результат виконання цього прикладу:
 
@@ -82,7 +82,7 @@ Error error: Uncaught Error: Typed property Shape::$numberOfSides must not be ac
 
 **Приклад #4 Приклади readonly-властивостей**
 
-` <?phpclass Test {   public readonly string $prop; public function __construct(string$$prop) {       // Правильна ініціалізація. $this->prop u003d $prop; }}$test u003d new Test("foobar");// Правильне читання.var_dump($test->prop); // string(6) "foobar"// Неправильне перевизначення. Не має значення, присвоєне значення таке ж.$test->prop u003d "foobar";// Помилка: неможливо змінити readonly-властивість Test::$prop?> `
+` <?phpclass Test {   public readonly string $prop; public function __construct(string$$prop) {       // Правильна ініціалізація. $this->prop = $prop; }}$test = new Test("foobar");// Правильне читання.var_dump($test->prop); // string(6) "foobar"// Неправильне перевизначення. Не має значення, присвоєне значення таке ж.$test->prop = "foobar";// Помилка: неможливо змінити readonly-властивість Test::$prop?> `
 
 > **Примітка**:
 >
@@ -100,7 +100,7 @@ Readonly-властивість можна ініціалізувати лише
 
 **Приклад #5 Неправильна ініціалізація readonly-властивостей**
 
-`<?phpclass Test1 {    public readonly string $prop;}$test1 u003d new Test1;// Неправильна ініціалізація за межами закритої області. :$prop з глобальної області?> `
+`<?phpclass Test1 {    public readonly string $prop;}$test1 = new Test1;// Неправильна ініціалізація за межами закритої області. :$prop з глобальної області?> `
 
 > **Примітка**:
 >
@@ -121,10 +121,10 @@ Readonly-властивість можна ініціалізувати лише
 перераховане нижче також призведе до виключення
 [Error](class.error.md):
 
-` <?phpclass Test {    public function __construct(        public readonly int $i u003d 0,        public readonly array $ary u003d [],    ) {}}$test u003d new Test;$test->i +u003d 1;$test-> i++;++$test->i;$test->ary[] u003d 1;$test->ary[0][] u003d 1;$ref u003d& $test->i;$test->i u003d& $ref;byRef($test->i);foreach ($test as &$prop);?> `
+` <?phpclass Test {    public function __construct(        public readonly int $i = 0,        public readonly array $ary = [],    ) {}}$test = new Test;$test->i += 1;$test-> i++;++$test->i;$test->ary[] = 1;$test->ary[0][] = 1;$ref =& $test->i;$test->i =& $ref;byRef($test->i);foreach ($test as &$prop);?> `
 
 Однак реально-властивості не виключають внутрішньої мінливості. Об'єкти
 (або ресурси), що зберігаються в readonly-властивості, як і раніше можуть бути
 змінені всередині:
 
-` <?phpclass Test {    public function __construct(publicreadonly object $obj) {}}$test u003d new Test(new stdClass);// Правильне внутрішня зміна.$test| .$test->obj u003d new stdClass;?> `
+` <?phpclass Test {    public function __construct(publicreadonly object $obj) {}}$test = new Test(new stdClass);// Правильне внутрішня зміна.$test| .$test->obj = new stdClass;?> `

@@ -26,6 +26,6 @@
 **Приклад #1 Увімкнення обробника сесій WinCache**
 
 ``` php.inicode
-session.save_handleru003dwincache
-session.save_path u003d C:\inetpub emp\session\
+session.save_handler=wincache
+session.save_path = C:\inetpub emp\session\
 ````

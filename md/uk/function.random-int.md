@@ -23,7 +23,7 @@ random_int - Генерує криптографічно безпечні псе
 Джерело випадкових величин, що використовуються цією функцією:
 
 - У Windows завжди використовується
-[» **CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(vu003dvs.85).aspx)
+[» **CryptGenRandom()**](https://msdn.microsoft.com/en-us/library/windows/desktop/aa379942(v=vs.85).aspx)
 Починаючи з PHP 7.2.0, замість нього завжди використовуватиметься
 [» CNG-API](https://docs.microsoft.com/en-us/windows/desktop/SecCNG/cng-portal).
 - У Linux, якщо доступний, використовується системний виклик

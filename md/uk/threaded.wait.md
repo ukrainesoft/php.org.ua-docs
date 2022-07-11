@@ -7,13 +7,13 @@
 
 # Threaded::wait
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::wait — Синхронізація
 
 ### Опис
 
-public **Threaded::wait**(int `$timeout` u003d ?): bool
+public **Threaded::wait**(int `$timeout` = ?): bool
 
 Примушує викликаючий контекст чекати на повідомлення від зазначеного об'єкта.
 
@@ -31,7 +31,7 @@ public **Threaded::wait**(int `$timeout` u003d ?): bool
 
 **Приклад #1 Сповіщення та очікування**
 
-` <?phpclass My extends Thread {    public function run() {        /** заставить этот поток ждать **/        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait ();        }, $this); }}$my u003d new My();$my->start();/** надіслати повідомлення очікуючого потоку **/$my->synchronized(function($thread){    $thread->done u003d                 <br> ->notify();}, $my);var_dump($my->join());?> `
+` <?phpclass My extends Thread {    public function run() {        /** заставить этот поток ждать **/        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait ();        }, $this); }}$my = new My();$my->start();/** надіслати повідомлення очікуючого потоку **/$my->synchronized(function($thread){    $thread->done =                 <br> ->notify();}, $my);var_dump($my->join());?> `
 
 Результат виконання цього прикладу:
 

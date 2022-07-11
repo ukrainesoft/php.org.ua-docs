@@ -7,7 +7,7 @@
 
 #oci_define_by_name
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_define_by_name — Порівняє змінну PHP стовпцю результату
 запиту
@@ -19,7 +19,7 @@ resource `$statement`,
 string `$column`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&$var`,
-int `$type` u003d 0
+int `$type` = 0
 ): bool
 
 Порівняє змінну PHP стовпцю результату запиту, отриманого з
@@ -65,25 +65,25 @@ int `$type` u003d 0
 
 **Приклад #1 Приклад використання **oci_define_by_name()****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql u003d 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti; ДОЛЖНЫ быть определены перед запускомoci_define_by_name($stid, 'LOCATION_ID', $locid);oci_define_by_name($stid, 'CITY', $city);oci_execute($stid);//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данныхwhile ( oci_fetch($stid)) {    echo "ID місце $locid - $city<br>
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti; ДОЛЖНЫ быть определены перед запускомoci_define_by_name($stid, 'LOCATION_ID', $locid);oci_define_by_name($stid, 'CITY', $city);oci_execute($stid);//  Каждый результат запроса помещает в заранее определённую переменную следующую строку данныхwhile ( oci_fetch($stid)) {    echo "ID місце $locid - $city<br>
 ";}// Виведе://  ID місце 1000 - Roma//   ID місцеположення 1100 - Veniceoci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #2 Приклад використання **oci_define_by_name()** з
 реєстрозалежними іменами стовпців**
 
-`<?php/* До|запуску, створюється таблиця зі стовпцем, має реєстрозалежне ім'я    CREATE TABLE mytab (id NUMBER, "MyDescription" VAR; INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM mytab');// Використовується¸ ', $id);// Використовується точне напис для реєстрозалежних імен столбцовoci_define_by_name($stid, 'MyDescription', $mydesc);oci_execute($stid);while$             <br>
+`<?php/* До|запуску, створюється таблиця зі стовпцем, має реєстрозалежне ім'я    CREATE TABLE mytab (id NUMBER, "MyDescription" VAR; INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Використовується¸ ', $id);// Використовується точне напис для реєстрозалежних імен столбцовoci_define_by_name($stid, 'MyDescription', $mydesc);oci_execute($stid);while$             <br>
 ";}// Виведе://  Ідентифікатор 1 - Iced Coffeeoci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #3 Приклад використання **oci_define_by_name()** зі стовпцями
 типу LOB**
 
-`<?php/*  Перед запуском створюються таблиці:   CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);oci_define_by_name($stid, 'FRUIT', $fruit); // $fruit стане дескриптором LOBoci_execute($stid);while (oci_fetch($stid)) {    echo $id . " - " . $fruit->load(100) . "<br>
+`<?php/*  Перед запуском створюються таблиці:   CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);oci_define_by_name($stid, 'FRUIT', $fruit); // $fruit стане дескриптором LOBoci_execute($stid);while (oci_fetch($stid)) {    echo $id . " - " . $fruit->load(100) . "<br>
 ";}// Виведе: //  1 - apple//  2 - orange$fruit->free();oci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #4 Приклад використання **oci_define_by_name()** з наведеними
 типами**
 
-`<?php/*  Перед запуском створюється таблиця:    CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);$fruit u003d oci_new_descriptor($conn, OCI_D_LOB);oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);oci_execute($stid);   " - " . $fruit->load(100) . "<br>
+`<?php/*  Перед запуском створюється таблиця:    CREATE TABLE mytab (id NUMBER, fruit CLOB); INSERT INTO mytab (id, fruit) values (1, 'apple'); INSERT INTO mytab (id, fruit) values (2, 'orange'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM mytab');// Змінні Повинні , $id);$fruit = oci_new_descriptor($conn, OCI_D_LOB);oci_define_by_name($stid, 'FRUIT', $fruit, OCI_D_CLOB);oci_execute($stid);   " - " . $fruit->load(100) . "<br>
 ";}// Виведе: //  1 - apple//  2 - orange$fruit->free();oci_free_statement($stid);oci_close($conn);?> `
 
 ### Дивіться також

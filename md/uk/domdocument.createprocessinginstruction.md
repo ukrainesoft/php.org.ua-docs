@@ -14,7 +14,7 @@ DOMDocument::createProcessingInstruction — Створити новий PI-са
 ### Опис
 
 public **DOMDocument::createProcessingInstruction**(string `$target`,
-string `$data` u003d ""):
+string `$data` = ""):
 [DOMProcessingInstruction](class.domprocessinginstruction.md)\|false
 
 Ця функція створює екземпляр класу

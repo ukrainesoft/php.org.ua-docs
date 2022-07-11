@@ -7,7 +7,7 @@
 
 # Ds\Stack::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::\_\_construct — Створює новий екземпляр класу
 
@@ -15,7 +15,7 @@ Ds\Stack::\_\_construct — Створює новий екземпляр кла�
 
 public
 **Ds\Stack::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?)
+$values = ?)
 
 Створює новий екземпляр класу, використовуючи або об'єкт реалізує
 [traversable](class.traversable.md), або масив, передані в
@@ -30,7 +30,7 @@ $values u003d ?)
 
 **Приклад #1 Приклад використання **Ds\Stack::\_\_construct()****
 
-` <?php$stack u003d new \Ds\Stack();print_r($stack);$stack u003d new \Ds\Stack([1, 2, 3]);print_r($stack);?> `
+` <?php$stack = new \Ds\Stack();print_r($stack);$stack = new \Ds\Stack([1, 2, 3]);print_r($stack);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -39,7 +39,7 @@ Ds\Stack Object
 )
 Ds\Stack Object
 (
-[0] u003d> 3
-[1] u003d> 2
-[2] u003d> 1
+[0] => 3
+[1] => 2
+[2] => 1
 )

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Decimal128::serialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Decimal128::serialize — Серіалізує Decimal128
 

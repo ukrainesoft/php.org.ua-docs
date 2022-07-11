@@ -7,13 +7,13 @@
 
 # gzdeflate
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gzdeflate — Стисне рядок
 
 ### Опис
 
-**gzdeflate**(string `$data`, int `$level` u003d -1, int `$encoding` u003d
+**gzdeflate**(string `$data`, int `$level` = -1, int `$encoding` =
 **`ZLIB_ENCODING_RAW`**): string\|false
 
 Ця функція стискає рядок, використовуючи формат даних `DEFLATE`.
@@ -41,7 +41,7 @@ gzdeflate — Стисне рядок
 
 **Приклад #1 Приклад використання **gzdeflate()****
 
-` <?php$compressedu003du003dgzdeflate('Сожми меня', 9);echo $compressed;?> `
+` <?php$compressed==gzdeflate('Сожми меня', 9);echo $compressed;?> `
 
 ### Дивіться також
 

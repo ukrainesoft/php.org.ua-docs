@@ -7,7 +7,7 @@
 
 #openssl_encrypt
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 openssl_encrypt — Шифрує дані
 
@@ -17,11 +17,11 @@ openssl_encrypt — Шифрує дані
 string `$data`,
 string `$cipher_algo`,
 string `$passphrase`,
-int `$options` u003d 0,
-string `$iv` u003d "",
-string `&$tag` u003d **`null`**,
-string `$aad` u003d "",
-int `$tag_length` u003d 16
+int `$options` = 0,
+string `$iv` = "",
+string `&$tag` = **`null`**,
+string `$aad` = "",
+int `$tag_length` = 16
 ): string\|false
 
 Шифрує дані із заданим шифром та ключем і повертає необроблену
@@ -75,7 +75,7 @@ int `$tag_length` u003d 16
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 7.1.0  | Додані параметри tag, aad та tag_length. |
 
 ### Приклади
@@ -83,12 +83,12 @@ int `$tag_length` u003d 16
 **Приклад #1 Приклад шифрування AES з автентифікацією в режимі GCM PHP
 7.1+**
 
-`<?php//$$key повинен бути згенерований заздалегідь криптографічно безпечним образом// наприклад, допомогою openssl_random_pseudo_bytes$plaintext u003d_ cipu003d"cipu003d"; ())){   $ivlen u003d openssl_cipher_iv_length($cipher); $iv u003d openssl_random_pseudo_bytes($ivlen); $ciphertextu003du003dopenssl_encrypt($plaintext,$cipher,$key,$optionsu003d0,$iv, $tag); // зберігаємо $cipher, $iv і $tag для дальшого розшифровки    $original_plaintext u003d openssl_decrypt($ciphertext, $cipher, $key, $optionsu003d0| echo $original_plaintext."
+`<?php//$$key повинен бути згенерований заздалегідь криптографічно безпечним образом// наприклад, допомогою openssl_random_pseudo_bytes$plaintext =_ cip="cip="; ())){   $ivlen = openssl_cipher_iv_length($cipher); $iv = openssl_random_pseudo_bytes($ivlen); $ciphertext==openssl_encrypt($plaintext,$cipher,$key,$options=0,$iv, $tag); // зберігаємо $cipher, $iv і $tag для дальшого розшифровки    $original_plaintext = openssl_decrypt($ciphertext, $cipher, $key, $options=0| echo $original_plaintext."
 ";}?> `
 
 **Приклад #2 Приклад шифрування AES з автентифікацією до PHP 7.1**
 
-`<?php//$$key повинен бути згенерований заздалегідь криптографічно безпечним образом// наприклад, допомогою openssl_random_pseudo_bytes$plaintext u003d' "дані для шифрування$$; u003d openssl_random_pseudo_bytes($ivlen);$ciphertext_raw u003d openssl_encrypt($plaintext, $cipher, $key, $optionsu003dOPENSSL_RAW_DATA, $iv);$hmac u003d hash_h$ ;$ciphertextu003du003dbase64_encode($iv.$hmac.$ciphertext_raw );// розшифровка....$c u003d base64_decode($ciphertext);$ivlen u003d openssl_cipher_iv_l$ iv u003d substr($c, 0, $ivlen);$hmac u003d substr($c, $ivlen, $sha2lenu003d32);$ciphertext_raw u003d substr($c, $ivlen+$sha2len);$original_plaintext ciphertext_raw, $cipher, $ key, $ options u003d OPENSSL_RAW_DATA, $ iv); / порівняння, не схильне атаці за часу{   echo $original_plaintext."
+`<?php//$$key повинен бути згенерований заздалегідь криптографічно безпечним образом// наприклад, допомогою openssl_random_pseudo_bytes$plaintext =' "дані для шифрування$$; = openssl_random_pseudo_bytes($ivlen);$ciphertext_raw = openssl_encrypt($plaintext, $cipher, $key, $options=OPENSSL_RAW_DATA, $iv);$hmac = hash_h$ ;$ciphertext==base64_encode($iv.$hmac.$ciphertext_raw );// розшифровка....$c = base64_decode($ciphertext);$ivlen = openssl_cipher_iv_l$ iv = substr($c, 0, $ivlen);$hmac = substr($c, $ivlen, $sha2len=32);$ciphertext_raw = substr($c, $ivlen+$sha2len);$original_plaintext ciphertext_raw, $cipher, $ key, $ options = OPENSSL_RAW_DATA, $ iv); / порівняння, не схильне атаці за часу{   echo $original_plaintext."
 ";}?> `
 
 ### Дивіться також

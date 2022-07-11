@@ -8,7 +8,7 @@ PHP
 
 #xmlrpc_set_type
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_set_type — Встановлює тип XML-RPC, base64 або datetime для
 значення рядка PHP
@@ -47,11 +47,11 @@ PHP без попередження. Використовуйте цю функ�
 
 **Приклад #1 Приклад використання **xmlrpc_set_type()****
 
-` <?php$params u003d date("Ymd\TH:i:s", time());xmlrpc_set_type($params, 'datetime');echo xmlrpc_encode($params);?> `
+` <?php$params = date("Ymd\TH:i:s", time());xmlrpc_set_type($params, 'datetime');echo xmlrpc_encode($params);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <params>
 <param>
 <value>

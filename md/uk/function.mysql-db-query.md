@@ -24,7 +24,7 @@ mysql_db_query — Перемикається на вказану базу да�
 ### Опис
 
 **mysql_db_query**(string `$database`, string `$query`, resource
-`$link_identifier` u003d NULL): resource\|bool
+`$link_identifier` = NULL): resource\|bool
 
 **mysql_db_query()** вибирає базу даних та виконує запит до неї.
 
@@ -57,8 +57,8 @@ mysql_db_query — Перемикається на вказану базу да�
 
 **Приклад #1 Приклад використання альтернативи **mysql_db_query()****
 
-` <?phpif (!$link u003d mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {    echo 'Не удалося підключитися к mysql'; exit;}if(!mysql_select_db('mysql_dbname', $link)) {    echo 'Не удалося вибрати базу даних'; exit;}$sql    u003d 'SELECT foo FROM bar WHERE id u003d 42';$result u003d mysql_query($sql, $link);if (!$result) {    echo "Про|
-";   echo 'MySQL Error: ' . mysql_error();    exit;}while ($row u003d mysql_fetch_assoc($result)) {    echo $row['fo'
+` <?phpif (!$link = mysql_connect('mysql_host', 'mysql_user', 'mysql_password')) {    echo 'Не удалося підключитися к mysql'; exit;}if(!mysql_select_db('mysql_dbname', $link)) {    echo 'Не удалося вибрати базу даних'; exit;}$sql    = 'SELECT foo FROM bar WHERE id = 42';$result = mysql_query($sql, $link);if (!$result) {    echo "Про|
+";   echo 'MySQL Error: ' . mysql_error();    exit;}while ($row = mysql_fetch_assoc($result)) {    echo $row['fo'
 
 ### Примітки
 

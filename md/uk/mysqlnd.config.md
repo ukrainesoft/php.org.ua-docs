@@ -9,19 +9,19 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                                        | Місце зміни                    | Список змін    |
-| -------------------------------------------------------------------------------------------- | ------------------------------ | -------------- |
-| [mysqlnd.collect_statistics](mysqlnd.config.md#ini.mysqlnd.collect-statistics)               | "1"                            | PHP_INI_SYSTEM |
-| [mysqlnd.collect_memory_statistics](mysqlnd.config.md#ini.mysqlnd.collect-memory-statistics) | "0"                            | PHP_INI_SYSTEM |
-| [mysqlnd.debug](mysqlnd.config.md#ini.mysqlnd.debug)                                         | ""                             | PHP_INI_SYSTEM |
-| [mysqlnd.log_mask](mysqlnd.config.md#ini.mysqlnd.log-mask)                                   | 0                              | PHP_INI_ALL    |
-| [mysqlnd.mempool_default_size](mysqlnd.config.md#ini.mysqlnd.mempool-default-size)           | 16000                          | PHP_INI_ALL    |
-| [mysqlnd.net_read_timeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHP_INI_ALL    | До PHP 7.2.0 значенням "31536000", а місцем зміни було **PHP_INI_SYSTEM**
-| [mysqlnd.net_cmd_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-cmd-buffer-size)             | 5.3.0 – "2048", 5.3.1 – "4096" | PHP_INI_SYSTEM |
-| [mysqlnd.net_read_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-read-buffer-size)           | "32768"                        | PHP_INI_SYSTEM |
-| [mysqlnd.sha256_server_public_key](mysqlnd.config.md#ini.mysqlnd.sha256-server-public-key)   | ""                             | PHP_INI_PERDIR |
-| [mysqlnd.trace_alloc](mysqlnd.config.md#ini.mysqlnd.trace-alloc)                             | ""                             | PHP_INI_SYSTEM |
-| [mysqlnd.fetch_data_copy](mysqlnd.config.md#ini.mysqlnd.fetch_data_copy)                     | 0                              | PHP_INI_ALL    |
+| Ім'я За замовчуванням                                                                        | Місце зміни                    | Список змін    |                                                                           |
+|----------------------------------------------------------------------------------------------|--------------------------------|----------------|---------------------------------------------------------------------------|
+| [mysqlnd.collect_statistics](mysqlnd.config.md#ini.mysqlnd.collect-statistics)               | "1"                            | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.collect_memory_statistics](mysqlnd.config.md#ini.mysqlnd.collect-memory-statistics) | "0"                            | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.debug](mysqlnd.config.md#ini.mysqlnd.debug)                                         | ""                             | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.log_mask](mysqlnd.config.md#ini.mysqlnd.log-mask)                                   | 0                              | PHP_INI_ALL    |                                                                           |
+| [mysqlnd.mempool_default_size](mysqlnd.config.md#ini.mysqlnd.mempool-default-size)           | 16000                          | PHP_INI_ALL    |                                                                           |
+| [mysqlnd.net_read_timeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHP_INI_ALL    | До PHP 7.2.0 значенням "31536000", а місцем зміни було **PHP_INI_SYSTEM** |
+| [mysqlnd.net_cmd_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-cmd-buffer-size)             | 5.3.0 – "2048", 5.3.1 – "4096" | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.net_read_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-read-buffer-size)           | "32768"                        | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.sha256_server_public_key](mysqlnd.config.md#ini.mysqlnd.sha256-server-public-key)   | ""                             | PHP_INI_PERDIR |                                                                           |
+| [mysqlnd.trace_alloc](mysqlnd.config.md#ini.mysqlnd.trace-alloc)                             | ""                             | PHP_INI_SYSTEM |                                                                           |
+| [mysqlnd.fetch_data_copy](mysqlnd.config.md#ini.mysqlnd.fetch_data_copy)                     | 0                              | PHP_INI_ALL    |                                                                           |
 
 **Параметри конфігурації вбудованого драйвера MySQL**
 
@@ -57,7 +57,7 @@
 файл із логами.
 
 Формат параметра наступний:
-`mysqlnd.debug u003d "option1[,parameter_option1][:option2[,parameter_option2]]"`.
+`mysqlnd.debug = "option1[,parameter_option1][:option2[,parameter_option2]]"`.
 
 Можливі нижченаведені значення для рядка форматування:
 
@@ -118,17 +118,17 @@ d:t:x:O,/tmp/mysqlnd.trace
 0, що вимикає журнал. Значення параметра – тільки ціле
 число, константи PHP використовувати не можна. Наприклад, при значенні 48
 (16 + 32) в журнал будуть записуватися повільні запити, які або
-використовують невідповідні індекси (SERVER_QUERY_NO_GOOD_INDEX_USED u003d 16),
-або використовують їх взагалі SERVER_QUERY_NO_INDEX_USED u003d 32). При
+використовують невідповідні індекси (SERVER_QUERY_NO_GOOD_INDEX_USED = 16),
+або використовують їх взагалі SERVER_QUERY_NO_INDEX_USED = 32). При
 значенні 2043 (1 + 2 + 8 + ... + 1024) в журнал записуватимуться всі
 типи повільних запитів.
 
-Використовуються такі типи запитів: SERVER_STATUS_IN_TRANSu003d1,
-SERVER_STATUS_AUTOCOMMITu003d2, SERVER_MORE_RESULTS_EXISTSu003d8,
-SERVER_QUERY_NO_GOOD_INDEX_USEDu003d16, SERVER_QUERY_NO_INDEX_USEDu003d32,
-SERVER_STATUS_CURSOR_EXISTSu003d64, SERVER_STATUS_LAST_ROW_SENTu003d128,
-SERVER_STATUS_DB_DROPPEDu003d256, SERVER_STATUS_NO_BACKSLASH_ESCAPESu003d512,
-and SERVER_QUERY_WAS_SLOWu003d1024.
+Використовуються такі типи запитів: SERVER_STATUS_IN_TRANS=1,
+SERVER_STATUS_AUTOCOMMIT=2, SERVER_MORE_RESULTS_EXISTS=8,
+SERVER_QUERY_NO_GOOD_INDEX_USED=16, SERVER_QUERY_NO_INDEX_USED=32,
+SERVER_STATUS_CURSOR_EXISTS=64, SERVER_STATUS_LAST_ROW_SENT=128,
+SERVER_STATUS_DB_DROPPED=256, SERVER_STATUS_NO_BACKSLASH_ESCAPES=512,
+and SERVER_QUERY_WAS_SLOW=1024.
 
 `mysqlnd.mempool_default_size` int
 Більшість розміру mysqlnd memory pool, which is used by result sets.

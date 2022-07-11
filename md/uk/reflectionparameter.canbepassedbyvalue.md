@@ -7,7 +7,7 @@
 
 # ReflectionParameter::canBePassedByValue
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ReflectionParameter::canBePassedByValue — Перевіряє, чи можна передати
 цей аргумент за значенням

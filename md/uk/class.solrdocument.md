@@ -7,7 +7,7 @@
 
 # Клас SolrDocument
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 ## Вступ
 
@@ -21,17 +21,17 @@ final class **SolrDocument** implements
 
 /\* Константи \*/
 
-const int `SORT_DEFAULT` u003d 1;
+const int `SORT_DEFAULT` = 1;
 
-const int `SORT_ASC` u003d 1;
+const int `SORT_ASC` = 1;
 
-const int `SORT_DESC` u003d 2;
+const int `SORT_DESC` = 2;
 
-const int `SORT_FIELD_NAME` u003d 1;
+const int `SORT_FIELD_NAME` = 1;
 
-const int `SORT_FIELD_VALUE_COUNT` u003d 2;
+const int `SORT_FIELD_VALUE_COUNT` = 2;
 
-const int `SORT_FIELD_BOOST_VALUE` u003d 4;
+const int `SORT_FIELD_BOOST_VALUE` = 4;
 
 /\* Методи \*/
 
@@ -80,7 +80,7 @@ public [key](solrdocument.key.md)(): string
 
 public
 [merge](solrdocument.merge.md)([SolrDocument](class.solrdocument.md)
-`$sourceDoc`, bool `$overwrite` u003d **`true`**): bool
+`$sourceDoc`, bool `$overwrite` = **`true`**): bool
 
 public [next](solrdocument.next.md)(): void
 
@@ -106,7 +106,7 @@ public [\_\_set](solrdocument.set.md)(string `$fieldName`, string
 `$fieldValue`): bool
 
 public [sort](solrdocument.sort.md)(int `$sortOrderBy`, int
-`$sortDirection` u003d SolrDocument::SORT_ASC): bool
+`$sortDirection` = SolrDocument::SORT_ASC): bool
 
 public [toArray](solrdocument.toarray.md)(): array
 

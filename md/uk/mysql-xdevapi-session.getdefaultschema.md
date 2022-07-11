@@ -32,7 +32,7 @@ public **mysql_xdevapi\Session::getDefaultSchema**(): string
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::getSchema()****
 
-` <?php$uri u003d "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-modeu003ddisabled";$session u003d Mysql_xdevapi\getSession($uri);$schema u003d $session->getDefault ;echo $schema;?> `
+` <?php$uri = "mysqlx://testuser:testpasswd@localhost:33160/testx?ssl-mode=disabled";$session = Mysql_xdevapi\getSession($uri);$schema = $session->getDefault ;echo $schema;?> `
 
 Результат виконання цього прикладу:
 

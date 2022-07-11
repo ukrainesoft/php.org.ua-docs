@@ -7,13 +7,13 @@
 
 # SplFileObject::fwrite
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fwrite — Запис до файлу
 
 ### Опис
 
-public **SplFileObject::fwrite**(string `$data`, int `$length` u003d 0):
+public **SplFileObject::fwrite**(string `$data`, int `$length` = 0):
 int\|false
 
 Записує вміст рядка `string` у файл
@@ -36,14 +36,14 @@ int\|false
 ### Список змін
 
 | Версія | Опис                                                                     |
-| ------ | ------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------|
 | 7.4.0  | Функція тепер повертає **false** замість нуля у разі виникнення помилки. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fwrite()****
 
-` <?php$file u003d new SplFileObject("fwrite.txt", "w");$written u003d $file->fwrite("12345");echo "У файл записано $written байт";?> `
+` <?php$file = new SplFileObject("fwrite.txt", "w");$written = $file->fwrite("12345");echo "У файл записано $written байт";?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

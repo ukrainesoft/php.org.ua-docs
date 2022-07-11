@@ -7,7 +7,7 @@
 
 # Gmagick::removeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::removeimage — Видаляє зображення зі списку
 

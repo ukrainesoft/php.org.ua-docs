@@ -9,7 +9,7 @@
 
 #numfmt_format
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::format -- numfmt_format — Форматує число
 
@@ -17,13 +17,13 @@ NumberFormatter::format -- numfmt_format — Форматує число
 
 Об'єктно-орієнтований стиль
 
-public **NumberFormatter::format**(int\|float `$num`, int `$type` u003d
+public **NumberFormatter::format**(int\|float `$num`, int `$type` =
 NumberFormatter::TYPE_DEFAULT): string\|false
 
 Процедурний стиль
 
 **numfmt_format**([NumberFormatter](class.numberformatter.md)
-`$formatter`, int\|float `$num`, int `$type` u003d
+`$formatter`, int\|float `$num`, int `$type` =
 NumberFormatter::TYPE_DEFAULT): string\|false
 
 Форматує числове значення відповідно до правил засобу
@@ -51,11 +51,11 @@ NumberFormatter::TYPE_DEFAULT): string\|false
 
 **Приклад #1 Приклад використання **numfmt_format()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::DECIMAL );$data u003d numfmt_format($fmt, 1234567.891234567890000);if(intl_is_failure(numfmt_format($fmt))) {    report_error("Formatter error"); }?> `
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );$data = numfmt_format($fmt, 1234567.891234567890000);if(intl_is_failure(numfmt_format($fmt))) {    report_error("Formatter error"); }?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );$fmt->format(1234567.891234567890000);if(intl_is_failure$ ;}?> `
+`<?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );$fmt->format(1234567.891234567890000);if(intl_is_failure$ ;}?> `
 
 Результат виконання цього прикладу:
 

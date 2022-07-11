@@ -8,7 +8,7 @@
 
 # spl_autoload_register
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 spl_autoload_register — Реєструє задану функцію як
 реалізації методу \_\_autoload()
@@ -16,7 +16,7 @@ spl_autoload_register — Реєструє задану функцію як
 ### Опис
 
 **spl_autoload_register**(?[callable](language.types.callable.md)
-`$callback` u003d **`null`**, bool `$throw` u003d **`true`**, bool `$prepend` u003d
+`$callback` = **`null`**, bool `$throw` = **`true`**, bool `$prepend` =
 **`false`**): bool
 
 Реєструє функцію \_\_autoload у черзі, що надається SPL. В
@@ -63,7 +63,7 @@ callback(string `$class_name`): void
 ### Список змін
 
 | Версія | Опис                                   |
-| ------ | -------------------------------------- |
+|--------|----------------------------------------|
 | 8.0.0  | callback тепер допускає значення null. |
 
 ### Приклади

@@ -14,7 +14,7 @@ Server
 
 ### Опис
 
-**sqlsrv_connect**(string `$serverName`, array `$connectionInfo` u003d ?):
+**sqlsrv_connect**(string `$serverName`, array `$connectionInfo` = ?):
 resource
 
 Відкриває підключення до бази даних Microsoft SQL Server. За замовчуванням
@@ -44,15 +44,15 @@ Server, увімкніть "UID" та "PWD" в масив параметрів �
 
 **Приклад #1 Підключення за допомогою автентифікації Windows.**
 
-` <?php$serverName u003d "serverName\sqlexpress"; //serverName\instanceName//Оскільки UID і PWD не вказані в масиві $connectionInfo,// буде прийнято спроба підключення з focus| $serverName, $connectionInfo);if( $conn ) {    echo "З'єднання встановлено.<br />";}else{    echo "З'єднання не встановлено.<br /> die( print_r( sqlsrv_errors(), true));}?> `
+` <?php$serverName = "serverName\sqlexpress"; //serverName\instanceName//Оскільки UID і PWD не вказані в масиві $connectionInfo,// буде прийнято спроба підключення з focus| $serverName, $connectionInfo);if( $conn ) {    echo "З'єднання встановлено.<br />";}else{    echo "З'єднання не встановлено.<br /> die( print_r( sqlsrv_errors(), true));}?> `
 
 **Приклад #2 Підключення за допомогою імені користувача та пароля.**
 
-` <?php$serverName u003d "serverName\sqlexpress"; //serverName\instanceName$connectionInfou003du003darray( "Database"u003d>"dbName", "UID"u003d>"userName", "PWD"u003d>"password");$conn u003d sqlsrv_connect( $serverName, $connectionInfo); if( $conn ) {     echo "З'єднання встановлено.<br />";}else{     echo "З'єднання не встановлено.<br />"; die( print_r( sqlsrv_errors(), true));}?> `
+` <?php$serverName = "serverName\sqlexpress"; //serverName\instanceName$connectionInfo==array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");$conn = sqlsrv_connect( $serverName, $connectionInfo); if( $conn ) {     echo "З'єднання встановлено.<br />";}else{     echo "З'єднання не встановлено.<br />"; die( print_r( sqlsrv_errors(), true));}?> `
 
 **Приклад #3 Підключення за допомогою порту.**
 
-` <?php$serverName u003d "serverName\sqlexpress, 1542"; //serverName\instanceName, portNumber (за замовчуванням 1433)$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"userName", "PWD"u003d>"password");$conn u003d sql $serverName, $connectionInfo);if( $conn ) {    echo "З'єднання встановлено.<br />";}else{    echo "З'єднання не встановлено.<br /> die( print_r( sqlsrv_errors(), true));}?> `
+` <?php$serverName = "serverName\sqlexpress, 1542"; //serverName\instanceName, portNumber (за замовчуванням 1433)$connectionInfo = array( "Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");$conn = sql $serverName, $connectionInfo);if( $conn ) {    echo "З'єднання встановлено.<br />";}else{    echo "З'єднання не встановлено.<br /> die( print_r( sqlsrv_errors(), true));}?> `
 
 ### Примітки
 

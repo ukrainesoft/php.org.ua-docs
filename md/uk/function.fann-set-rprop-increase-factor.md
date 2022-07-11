@@ -8,7 +8,7 @@ Rprop
 
 # fann_set_rprop_increase_factor
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_rprop_increase_factor — Встановлює коефіцієнт збільшення,
 використовується під час навчання Rprop

@@ -7,14 +7,14 @@
 
 # Zookeeper::getChildren
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::getChildren - Виводить список нащадків вузла синхронно
 
 ### Опис
 
 public **Zookeeper::getChildren**(string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**):
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**):
 array
 
 ### Список параметрів
@@ -48,12 +48,12 @@ false у разі виникнення помилки.
 
 Перелічує дочірні елементи вузла.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/zookeeper';$r u003d $zookeeper->getchildren($path);if ($r) var_dump($r echo 'Помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/zookeeper';$r = $zookeeper->getchildren($path);if ($r) var_dump($r echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 string(6) "config"
 }
 

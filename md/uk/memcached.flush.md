@@ -7,13 +7,13 @@
 
 # Memcached::flush
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::flush — Анулює всі записи в кеші
 
 ### Опис
 
-public **Memcached::flush**(int `$delay` u003d 0): bool
+public **Memcached::flush**(int `$delay` = 0): bool
 
 **Memcached::flush()** анулює всі існуючі записи в кеші
 негайно (за замовчуванням) або після закінчення періоду часу,
@@ -39,4 +39,4 @@ public **Memcached::flush**(int `$delay` u003d 0): bool
 
 **Приклад #1 Приклад використання **Memcached::flush()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);/* Очищає всі записи через 10 секунд */$m->flush(10);?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);/* Очищає всі записи через 10 секунд */$m->flush(10);?> `

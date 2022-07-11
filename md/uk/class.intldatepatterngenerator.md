@@ -7,7 +7,7 @@
 
 # Клас IntlDatePatternGenerator
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ## Вступ
 
@@ -22,10 +22,10 @@ class **IntlDatePatternGenerator** {
 /\* Методи \*/
 
 public [\_\_construct](intldatepatterngenerator.create.md)(string
-`$locale` u003d **`null`**)
+`$locale` = **`null`**)
 
 public static [create](intldatepatterngenerator.create.md)(string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlDatePatternGenerator](class.intldatepatterngenerator.md)
 
 public

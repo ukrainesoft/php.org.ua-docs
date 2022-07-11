@@ -8,7 +8,7 @@ varnish
 
 # VarnishAdmin::isRunning
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::isRunning — Перевірити, чи виконується зараз
 підлеглий процес varnish

@@ -9,7 +9,7 @@
 
 #local_parse
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::parseLocale -- locale_parse — Отримати асоціативний масив усіх
 підтегів локалі
@@ -39,7 +39,7 @@ public static **Locale::parseLocale**(string `$locale`): ?array
 підтегів, а значеннями відповідно їх значення. Підтеги будуть
 відсортовані як підтеги ідентифікатора локалі, тобто. якщо ідентифікатор
 містить кілька варіантів '-varX-varY-varZ', то в масиві вони будуть
-розташовуватися так: variant0u003dvarX, variant1u003dvarY, variant2u003dvarZ
+розташовуватися так: variant0=varX, variant1=varY, variant2=varZ
 
 Повертає **`null`** якщо довжина параметра `locale` перевищує
 **`INTL_MAX_LOCALE_LEN`**.
@@ -48,11 +48,11 @@ public static **Locale::parseLocale**(string `$locale`): ?array
 
 **Приклад #1 Приклад використання **locale_parse()****
 
-`<?php$arr u003d locale_parse('sl-Latn-IT-nedis');if ($arr) {   foreach ($arr as $key u003d> $value) { u| | }}?> `
+`<?php$arr = locale_parse('sl-Latn-IT-nedis');if ($arr) {   foreach ($arr as $key => $value) { u| | }}?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$arr u003d Locale::parseLocale('sl-Latn-IT-nedis');if ($arr) {    foreach ($arr as $key u003d> $value) { u$$ "; }}?> `
+`<?php$arr = Locale::parseLocale('sl-Latn-IT-nedis');if ($arr) {    foreach ($arr as $key => $value) { u$$ "; }}?> `
 
 Результат виконання цього прикладу:
 

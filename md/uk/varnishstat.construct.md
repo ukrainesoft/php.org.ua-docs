@@ -7,13 +7,13 @@
 
 # VarnishStat::\_\_construct
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishStat::\_\_construct — Конструктор VarnishStat
 
 ### Опис
 
-public **VarnishStat::\_\_construct**(array `$args` u003d ?)
+public **VarnishStat::\_\_construct**(array `$args` = ?)
 
 ### Список параметрів
 

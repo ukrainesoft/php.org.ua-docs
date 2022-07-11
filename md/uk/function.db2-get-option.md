@@ -8,7 +8,7 @@
 
 #db2_get_option
 
-(PECL ibm_db2 \>u003d 1.6.0)
+(PECL ibm_db2 \>= 1.6.0)
 
 db2_get_option — Встановлює параметр для ресурсу оператора або
 ресурсу з'єднання
@@ -89,9 +89,9 @@ DB2 Connect.
 У наступній таблиці наведено параметри, сумісні з доступними типами
 ресурсів:
 
-| Ключ       | Значення                 | Тип ресурсу |           |
-| ---------- | ------------------------ | ----------- | --------- |
-|            |                          | Connection  | Statement | Result Set
+| Ключ | Значення | Тип ресурсу |           |            |
+|------|----------|-------------|-----------|------------|
+|      |          | Connection  | Statement | Result Set |
 | userid     | SQL_ATTR_INFO_USERID     | X           | X         | \- |             |           
 | acctstr    | SQL_ATTR_INFO_ACCTSTR    | X           | X         | \-
 | applname   | SQL_ATTR_INFO_APPLNAME   | X           | X         | \-
@@ -109,16 +109,16 @@ DB2 Connect.
 
 **Приклад #1 Встановлення та отримання параметрів через ресурс підключення**
 
-` <?php/* Параметри підключення до базі даних */$database u003d 'SAMPLE';$user     u003d 'db2inst1';$password u003d 'ibmdb2';/* Отримання ресур $ user, $password);echo "Атрибути клієнта, передані через рядок підключення:
-";/* Створіть масив асоціативних опцій з допустимими парами "ключ-значення" *//* Призначте атрибути через рядок підключення *//* Доступ к вказаним          $conn1 u003d db2_connect($database, $user, $password, $options1);$val u003d db2_get_option($conn1, 'userid');echo $val . "
-";$options2 u003d array('acctstr' u003d> 'account');$conn2 u003d db2_connect($database, $user, $password, $options2);$val u003d db2_get_option($conn2, 'acct') val . "
-";$options3 u003d array('applname' u003d> 'myapp');$conn3 u003d db2_connect($database, $user, $password, $options3);$val u003d db2_get_option($conn3, 'applname'); val . "
-$options4 u003d array('wrkstnname' u003d> 'workstation');$conn4 u003d db2_connect($database, $user, $password, $options4);$val u003d db2_get_option($conn4, 'wrk val . "
+` <?php/* Параметри підключення до базі даних */$database = 'SAMPLE';$user     = 'db2inst1';$password = 'ibmdb2';/* Отримання ресур $ user, $password);echo "Атрибути клієнта, передані через рядок підключення:
+";/* Створіть масив асоціативних опцій з допустимими парами "ключ-значення" *//* Призначте атрибути через рядок підключення *//* Доступ к вказаним          $conn1 = db2_connect($database, $user, $password, $options1);$val = db2_get_option($conn1, 'userid');echo $val . "
+";$options2 = array('acctstr' => 'account');$conn2 = db2_connect($database, $user, $password, $options2);$val = db2_get_option($conn2, 'acct') val . "
+";$options3 = array('applname' => 'myapp');$conn3 = db2_connect($database, $user, $password, $options3);$val = db2_get_option($conn3, 'applname'); val . "
+$options4 = array('wrkstnname' => 'workstation');$conn4 = db2_connect($database, $user, $password, $options4);$val = db2_get_option($conn4, 'wrk val . "
 ";echo "Атрибути клієнта пройшли після підключення:
-";/* Create the associative options array with valid key-value pairs *//* Assign the attributes after a connection is made *//**Access the options           );$conn5 u003d db2_connect($database, $user, $password);$rc u003d db2_set_option($conn5, $options5, 1);$val u003d db2_get_option($conn5, 'userid');  |.
-$options6 u003d array('acctstr' u003d> 'account');$conn6 u003d db2_connect($database, $user, $password);$rc u003d db2_set_option($conn6, $options6, 1);$val ($conn6, 'acctstr');echo $val . "
-$options7 u003d array('applname' u003d> 'myapp');$conn7 u003d db2_connect($database, $user, $password);$rc u003d db2_set_option($conn7, $options7, 1);$val ($conn7, 'applname');echo $val . "
-";$options8 u003d array('wrkstnname' u003d> 'workstation');$conn8 u003d db2_connect($database, $user, $password);$rc u003d db2_set_option($conn8, $options8, 1);$$ ($conn8, 'wrkstnname');echo $val . "
+";/* Create the associative options array with valid key-value pairs *//* Assign the attributes after a connection is made *//**Access the options           );$conn5 = db2_connect($database, $user, $password);$rc = db2_set_option($conn5, $options5, 1);$val = db2_get_option($conn5, 'userid');  |.
+$options6 = array('acctstr' => 'account');$conn6 = db2_connect($database, $user, $password);$rc = db2_set_option($conn6, $options6, 1);$val ($conn6, 'acctstr');echo $val . "
+$options7 = array('applname' => 'myapp');$conn7 = db2_connect($database, $user, $password);$rc = db2_set_option($conn7, $options7, 1);$val ($conn7, 'applname');echo $val . "
+";$options8 = array('wrkstnname' => 'workstation');$conn8 = db2_connect($database, $user, $password);$rc = db2_set_option($conn8, $options8, 1);$$ ($conn8, 'wrkstnname');echo $val . "
 ";?> `
 
 Результат виконання цього прикладу:

@@ -7,15 +7,15 @@
 
 # MongoDB\Driver\Manager::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::\_\_construct - Створює новий Manager MongoDB
 
 ### Опис
 
-final public **MongoDB\Driver\Manager::\_\_construct**(string `$uri` u003d
-"mongodb://127.0.0.1/", array `$uriOptions` u003d array(), array
-`$driverOptions` u003d array())
+final public **MongoDB\Driver\Manager::\_\_construct**(string `$uri` =
+"mongodb://127.0.0.1/", array `$uriOptions` = array(), array
+`$driverOptions` = array())
 
 Створює новий об'єкт
 [MongoDB\Driver\Manager](class.mongodb-driver-manager.md) з
@@ -98,28 +98,28 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 
 Підключення до автономного вузла MongoDB:
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://example.com:27017");?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://example.com:27017");?> `
 
 Підключення до автономного сайту MongoDB через доменний сокет Unix. Шлях
 сокет може містити спеціальні символи, наприклад сліші, які
 повинні закодовані за допомогою
 [rawurlencode()](function.rawurlencode.md).
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://" . rawurlencode("/tmp/mongodb-27017.sock"));?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://" . rawurlencode("/tmp/mongodb-27017.sock"));?> `
 
 Підключення до набору реплік:
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSetu003dmyReplicaSet");?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");?> `
 
 Підключення до сегментованого кластера (тобто одну або кілька
 екземплярам mongos):
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://mongos1.example.com,mongos2.example.com/");?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://mongos1.example.com,mongos2.example.com/");?> `
 
 Підключення до MongoDB з обліковими даними аутентифікації для конкретного
 користувача та бази даних:
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSourceu003ddatabaseName");?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");?> `
 
 Підключення до MongoDB з обліковими даними аутентифікації для конкретного
 користувача та бази даних, де ім'я користувача або пароль містять
@@ -129,11 +129,11 @@ mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][
 екранування URI-компонентів, які можуть містити спеціальні
 символи.
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSourceu003ddatabaseName");?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://myusername:mypassword@example.com/?authSource=databaseName");?> `
 
 Підключення до MongoDB з автентифікацією X509:
 
-`<?php$manager u003d new MongoDB\Driver\Manager(   "mongodb://example.com/?sslu003dtrue&authMechanismu003dMONGODB-X509",    []/ | pem",    ]);?> `
+`<?php$manager = new MongoDB\Driver\Manager(   "mongodb://example.com/?ssl=true&authMechanism=MONGODB-X509",    []/ | pem",    ]);?> `
 
 ### Дивіться також
 

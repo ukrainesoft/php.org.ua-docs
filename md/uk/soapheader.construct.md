@@ -17,9 +17,9 @@ SoapHeader::\_\_construct - Конструктор SoapHeader
 string `$namespace`,
 string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-bool `$mustunderstand` u003d ?,
-string `$actor` u003d ?
+`$data` = ?,
+bool `$mustunderstand` = ?,
+string `$actor` = ?
 )
 
 Створює новий об'єкт SoapHeader.
@@ -46,7 +46,7 @@ string `$actor` u003d ?
 
 **Приклад #1 Приклад використання **SoapHeader::SoapHeader()****
 
-` <?php$client u003d new SoapClient(null, array('location' u003d> "http://localhost/soap.php",                                     'uri'      u003d> "http://test-uri/"));$ client->__soapCall("echoVoid", null, null,                new SoapHeader('http://soapinterop.org/echoheader/',                               'echoMeStringRequest',                               'hello world'));?> `
+` <?php$client = new SoapClient(null, array('location' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/"));$ client->__soapCall("echoVoid", null, null,                new SoapHeader('http://soapinterop.org/echoheader/',                               'echoMeStringRequest',                               'hello world'));?> `
 
 ### Дивіться також
 

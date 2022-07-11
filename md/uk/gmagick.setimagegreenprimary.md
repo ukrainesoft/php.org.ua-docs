@@ -7,7 +7,7 @@
 
 # Gmagick::setimagegreenprimary
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagegreenprimary — Встановлює кольоровість зображення
 зеленою первинною точкою

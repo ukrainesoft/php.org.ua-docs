@@ -7,7 +7,7 @@
 
 # Клас EventUtil
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 ## Вступ
 
@@ -20,53 +20,53 @@ final class **EventUtil** {
 
 /\* Константи \*/
 
-const int `AF_INET` u003d 2;
+const int `AF_INET` = 2;
 
-const int `AF_INET6` u003d 10;
+const int `AF_INET6` = 10;
 
-const int `AF_UNSPEC` u003d 0;
+const int `AF_UNSPEC` = 0;
 
-const int `LIBEVENT_VERSION_NUMBER` u003d 33559808;
+const int `LIBEVENT_VERSION_NUMBER` = 33559808;
 
-const int `SO_DEBUG` u003d 1;
+const int `SO_DEBUG` = 1;
 
-const int `SO_REUSEADDR` u003d 2;
+const int `SO_REUSEADDR` = 2;
 
-const int `SO_KEEPALIVE` u003d 9;
+const int `SO_KEEPALIVE` = 9;
 
-const int `SO_DONTROUTE` u003d 5;
+const int `SO_DONTROUTE` = 5;
 
-const int `SO_LINGER` u003d 13;
+const int `SO_LINGER` = 13;
 
-const int `SO_BROADCAST` u003d 6;
+const int `SO_BROADCAST` = 6;
 
-const int `SO_OOBINLINE` u003d 10;
+const int `SO_OOBINLINE` = 10;
 
-const int `SO_SNDBUF` u003d 7;
+const int `SO_SNDBUF` = 7;
 
-const int `SO_RCVBUF` u003d 8;
+const int `SO_RCVBUF` = 8;
 
-const int `SO_SNDLOWAT` u003d 19;
+const int `SO_SNDLOWAT` = 19;
 
-const int `SO_RCVLOWAT` u003d 18;
+const int `SO_RCVLOWAT` = 18;
 
-const int `SO_SNDTIMEO` u003d 21;
+const int `SO_SNDTIMEO` = 21;
 
-const int `SO_RCVTIMEO` u003d 20;
+const int `SO_RCVTIMEO` = 20;
 
-const int `SO_TYPE` u003d 3;
+const int `SO_TYPE` = 3;
 
-const int `SO_ERROR` u003d 4;
+const int `SO_ERROR` = 4;
 
-const int `SOL_SOCKET` u003d 1;
+const int `SOL_SOCKET` = 1;
 
-const int `SOL_TCP` u003d 6;
+const int `SOL_TCP` = 6;
 
-const int `SOL_UDP` u003d 17;
+const int `SOL_UDP` = 17;
 
-const int `IPPROTO_IP` u003d 0;
+const int `IPPROTO_IP` = 0;
 
-const int `IPPROTO_IPV6` u003d 41;
+const int `IPPROTO_IPV6` = 41;
 
 /\* Методи \*/
 
@@ -74,11 +74,11 @@ abstract public [\_\_construct](eventutil.construct.md)()
 
 public static [getLastSocketErrno](eventutil.getlastsocketerrno.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d **`null`** ): int
+`$socket` = **`null`** ): int
 
 public static [getLastSocketError](eventutil.getlastsocketerror.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d ?): string
+`$socket` = ?): string
 
 public static [getSocketFd](eventutil.getsocketfd.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -88,7 +88,7 @@ public static [getSocketName](eventutil.getsocketname.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$socket` , string `&$address` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` u003d ?): bool
+`&$port` = ?): bool
 
 public static [setSocketOption](eventutil.setsocketoption.md)(
 

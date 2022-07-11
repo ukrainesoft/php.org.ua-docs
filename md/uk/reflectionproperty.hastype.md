@@ -7,7 +7,7 @@
 
 # ReflectionProperty::hasType
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 ReflectionProperty::hasType — Перевірити, чи заданий для властивості тип
 
@@ -29,7 +29,7 @@ public **ReflectionProperty::hasType**(): bool
 
 **Приклад #1 Приклад використання **ReflectionProperty::hasType()****
 
-` <?phpclass User{    public string $name;}$rp u003d new ReflectionProperty('User', 'name');var_dump($rp->hasType());?> `
+` <?phpclass User{    public string $name;}$rp = new ReflectionProperty('User', 'name');var_dump($rp->hasType());?> `
 
 Результат виконання цього прикладу:
 

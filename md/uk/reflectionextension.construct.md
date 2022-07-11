@@ -29,7 +29,7 @@ public **ReflectionExtension::\_\_construct**(string `$name`)
 **Приклад #1 Приклад використання
 [ReflectionExtension](class.reflectionextension.md)**
 
-` <?php$ext u003d new ReflectionExtension('Reflection');printf('Модуль: %s (версія: %s)', $ext->getName(), $ext->getVersion());?> `
+` <?php$ext = new ReflectionExtension('Reflection');printf('Модуль: %s (версія: %s)', $ext->getName(), $ext->getVersion());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

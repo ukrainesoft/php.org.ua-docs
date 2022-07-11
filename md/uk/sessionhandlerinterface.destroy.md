@@ -7,7 +7,7 @@
 
 # SessionHandlerInterface::destroy
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SessionHandlerInterface::destroy — Знищує сесію
 
@@ -17,7 +17,7 @@ public **SessionHandlerInterface::destroy**(string `$id`): bool
 
 Знищує сесію. Викликається функціями
 [session_regenerate_id()](function.session-regenerate-id.md) (з
-$destroy u003d **`true`**),
+$destroy = **`true`**),
 [session_destroy()](function.session-destroy.md) та при невдалому
 завершення функції [session_decode()](function.session-decode.md).
 

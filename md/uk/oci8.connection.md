@@ -110,7 +110,7 @@ Oracle, що використовуються в PHP, і версія серве
 та новіше.
 
 Документація з DRCP знаходиться в кількох посібниках Oracle. До
-Наприклад, дивіться [»Конфігурування пулу постійних з'єднань бази даних](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-82FF6896-F57E-41CF-89F7-755F3BC9C924)
+Наприклад, дивіться [»Конфігурування пулу постійних з'єднань бази даних](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-82FF6896-F57E-41CF-89F7-755F3BC9C924)
 у документації Oracle для інформації щодо використання. Документ
 [" технічний опис DRCP](https://www.oracle.com/technetwork/topics/php/whatsnew/php-scalability-ha-twp-128842.pdf)
 містить додаткову інформацію щодо DRCP.
@@ -132,19 +132,19 @@ SQL> execute dbms_connection_pool.start_pool;
 PHP, які зараз з'єднуються, використовуючи Network Connect Name
 `MYDB`:
 
-$c u003d oci_pconnect("myuser", "mypassword", "MYDB");
+$c = oci_pconnect("myuser", "mypassword", "MYDB");
 
-змініть файл tnsnames.ora та додайте оператор `(SERVERu003dPOOLED)`,
+змініть файл tnsnames.ora та додайте оператор `(SERVER=POOLED)`,
 наприклад:
 
-MYDB u003d (DESCRIPTIONu003d(ADDRESSu003d(PROTOCOLu003dtcp)) (HOSTu003dmyhost.dom.com)
-(PORTu003d1521))(CONNECT_DATAu003d(SERVICE_NAMEu003dsales)
-(SERVER u003d POOLED)))
+MYDB = (DESCRIPTION=(ADDRESS=(PROTOCOL=tcp)) (HOST=myhost.dom.com)
+(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=sales)
+(SERVER = POOLED)))
 
 Як альтернативу можна змінити синтаксис спрощеного
 з'єднання в PHP і додати туди `:POOLED` після імені сервісу:
 
-$c u003d oci_pconnect("myuser", "mypassword", "myhost.dom.com:1521/sales:POOLED");
+$c = oci_pconnect("myuser", "mypassword", "myhost.dom.com:1521/sales:POOLED");
 
 - Відредагуйте `php.ini` та виберіть ім'я класу з'єднання. Це ім'я
 встановлює логічне поділ пулу сполук і може
@@ -153,7 +153,7 @@ $c u003d oci_pconnect("myuser", "mypassword", "myhost.dom.com:1521/sales:POOLED"
 з'єднання буде мати можливість спільно використовувати з'єднання
 в пулі, отримуючи більшу масштабованість.
 
-oci8.connection_class u003d "MY_APPLICATION_NAME"
+oci8.connection_class = "MY_APPLICATION_NAME"
 
 - Запустіть програму, що з'єднується з базою 11g та новішою.
 

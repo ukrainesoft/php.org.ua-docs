@@ -7,7 +7,7 @@
 
 # Ds\Deque::rotate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::rotate — Перемотує двосторонню чергу на задане число
 значень
@@ -35,20 +35,20 @@ public **Ds\Deque::rotate**(int `$rotations`): void
 
 **Приклад #1 Приклад використання **Ds\Deque::rotate()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c", "d"]);$deque->rotate(1); // Аналогічно $a u003d $sequence->deque(); $deque->push($a);print_r($deque);$deque->rotate(2);print_r($deque);?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c", "d"]);$deque->rotate(1); // Аналогічно $a = $sequence->deque(); $deque->push($a);print_r($deque);$deque->rotate(2);print_r($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> a
+[0] => b
+[1] => c
+[2] => d
+[3] => a
 )
 Ds\Deque Object
 (
-[0] u003d> d
-[1] u003d> a
-[2] u003d> b
-[3] u003d> c
+[0] => d
+[1] => a
+[2] => b
+[3] => c
 )

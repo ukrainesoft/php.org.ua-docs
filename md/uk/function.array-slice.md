@@ -16,8 +16,8 @@ array_slice - Вибирає зріз масиву
 **array_slice**(
 array `$array`,
 int `$offset`,
-?int `$length` u003d **`null`**,
-bool `$preserve_keys` u003d **`false`**
+?int `$length` = **`null`**,
+bool `$preserve_keys` = **`false`**
 ): array
 
 **array_slice()** повертає послідовність елементів масиву
@@ -71,52 +71,52 @@ bool `$preserve_keys` u003d **`false`**
 
 **Приклад #1 Приклад використання **array_slice()****
 
-` <?php$input u003d array("a", "b", "c", "d", "e");$output u003d array_slice($input, 2); // повертає "c", "d" і "e"$output u003d array_slice($input, -2, 1); // повертає "d"$output u003d array_slice($input, 0, 3); // повертає "a", "b" і "c"// зверніть увага на розбіжності в індексах масивівprint_r(array_slice($input, 2, -1));print_r(array_slice($e) );?> `
+` <?php$input = array("a", "b", "c", "d", "e");$output = array_slice($input, 2); // повертає "c", "d" і "e"$output = array_slice($input, -2, 1); // повертає "d"$output = array_slice($input, 0, 3); // повертає "a", "b" і "c"// зверніть увага на розбіжності в індексах масивівprint_r(array_slice($input, 2, -1));print_r(array_slice($e) );?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> c
-[1] u003d> d
+[0] => c
+[1] => d
 )
 Array
 (
-[2] u003d> c
-[3] u003d> d
+[2] => c
+[3] => d
 )
 
 **Приклад #2 Приклад використання **array_slice()** з одновимірним
 масивом**
 
-` <?php$input u003d array(1 u003d> "a", "b", "c", "d", "e");print_r(array_slice($input, 1, 2));?> `
+` <?php$input = array(1 => "a", "b", "c", "d", "e");print_r(array_slice($input, 1, 2));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> b
-[1] u003d> c
+[0] => b
+[1] => c
 )
 
 **Приклад #3 Приклад використання **array_slice()** з масивом з
 змішаних ключів**
 
-` <?php$ar u003d array('a'u003d>'apple', 'b'u003d>'banana', '42'u003d>'pear', 'd'u003d>'orange');print_r(array_slice( $ar, 0, 3));print_r(array_slice($ar, 0, 3, true));?> `
+` <?php$ar = array('a'=>'apple', 'b'=>'banana', '42'=>'pear', 'd'=>'orange');print_r(array_slice( $ar, 0, 3));print_r(array_slice($ar, 0, 3, true));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[a] u003d> apple
-[b] u003d> banana
-[0] u003d> pear
+[a] => apple
+[b] => banana
+[0] => pear
 )
 Array
 (
-[a] u003d> apple
-[b] u003d> banana
-[42] u003d> pear
+[a] => apple
+[b] => banana
+[42] => pear
 )
 
 ### Дивіться також

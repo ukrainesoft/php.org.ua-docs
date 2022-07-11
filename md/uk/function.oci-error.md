@@ -7,13 +7,13 @@
 
 #oci_error
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_error — Повертає останню помилку
 
 ### Опис
 
-**oci_error**(?resource `$connection_or_statement` u003d **`null`**):
+**oci_error**(?resource `$connection_or_statement` = **`null`**):
 array\|false
 
 Повертає останню знайдену помилку.
@@ -49,23 +49,23 @@ array\|false
 ### Список змін
 
 | Версія                 | Опис                                                   |
-| ---------------------- | ------------------------------------------------------ |
+|------------------------|--------------------------------------------------------|
 | 8.0.0, PECL OCI8 3.0.0 | connection_or_statement тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Виведення повідомлення про помилку Oracle після помилки з'єднання**
 
-` <?php$conn u003d oci_connect("hr", "welcome", "localhost/XE");if (!$conn) {    $e u003d oci_error(); // Для обробки помилок oci_connect    trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
+` <?php$conn = oci_connect("hr", "welcome", "localhost/XE");if (!$conn) {    $e = oci_error(); // Для обробки помилок oci_connect    trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
 
 **Приклад #2 Виведення повідомлення про помилку Oracle після помилки розбору**
 
-`<?php$stidu003du003doci_parse($conn, "select ' from dual"); // пропущені лапкиif (!$stid) {   $e u003d oci_error($conn); // Для обробки помилок oci_parse    trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
+`<?php$stid==oci_parse($conn, "select ' from dual"); // пропущені лапкиif (!$stid) {   $e = oci_error($conn); // Для обробки помилок oci_parse    trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
 
 **Приклад #3 Виведення повідомлення про помилку Oracle, помилкового запиту та
 позиції помилки запуску запиту**
 
-` <?php$stid u003d oci_parse($conn, "select does_not_exist from dual");$r u003d oci_execute($stid);if (!$r) {    $e u003d oci_error($stid) // Для обробки помилок oci_execute    print htmlentities($e['message']); print "
+` <?php$stid = oci_parse($conn, "select does_not_exist from dual");$r = oci_execute($stid);if (!$r) {    $e = oci_error($stid) // Для обробки помилок oci_execute    print htmlentities($e['message']); print "
 <pre>
 ";   print htmlentities($e['sqltext']);    printf("
 %".($e['offset']+1)."s", "^");    print  "

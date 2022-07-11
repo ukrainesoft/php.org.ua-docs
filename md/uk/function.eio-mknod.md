@@ -7,7 +7,7 @@
 
 #eio_mknod
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_mknod — Створює спеціальний або звичайний файл
 
@@ -17,10 +17,10 @@ eio_mknod — Створює спеціальний або звичайний ф
 string `$path`,
 int `$mode`,
 int `$dev`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_mknod()** створює звичайний або спеціальний (що частіше) файл.
@@ -87,62 +87,62 @@ mknod(2)*.
 
 **Приклад #1 Приклад використання **eio_mknod()****
 
-`<?php//ім'я FIFO$temp_filename u003d "/tmp/eio-temp-fifo";/* викликатиметься по завершенні роботи функції eio_mknod() */function my_mknod_ $    $ data); var_dump($s); if ($result u003du003du003d0) {        echo "eio_mknod_ok"; }   @unlink($data);}eio_mknod($temp_filename, EIO_S_IFIFO, 0,   EIO_PRI_DEFAULT, "my_mknod_callback", $temp_filename);eio_e;
+`<?php//ім'я FIFO$temp_filename = "/tmp/eio-temp-fifo";/* викликатиметься по завершенні роботи функції eio_mknod() */function my_mknod_ $    $ data); var_dump($s); if ($result ===0) {        echo "eio_mknod_ok"; }   @unlink($data);}eio_mknod($temp_filename, EIO_S_IFIFO, 0,   EIO_PRI_DEFAULT, "my_mknod_callback", $temp_filename);eio_e;
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(26) {
-[0]u003d>
+[0]=>
 int(17)
-[1]u003d>
+[1]=>
 int(2337608)
-[2]u003d>
+[2]=>
 int(4096)
-[3]u003d>
+[3]=>
 int(1)
-[4]u003d>
+[4]=>
 int(1000)
-[5]u003d>
+[5]=>
 int(100)
-[6]u003d>
+[6]=>
 int(0)
-[7]u003d>
+[7]=>
 int(0)
-[8]u003d>
+[8]=>
 int(1318241261)
-[9] u003d>
+[9] =>
 int(1318241261)
-[10] u003d>
+[10] =>
 int(1318241261)
-[11] u003d>
+[11] =>
 int(4096)
-[12] u003d>
+[12] =>
 int(0)
-["dev"]u003d>
+["dev"]=>
 int(17)
-["ino"]u003d>
+["ino"]=>
 int(2337608)
-["mode"]u003d>
+["mode"]=>
 int(4096)
-["nlink"]u003d>
+["nlink"]=>
 int(1)
-["uid"]u003d>
+["uid"]=>
 int(1000)
-["gid"]u003d>
+["gid"]=>
 int(100)
-["rdev"]u003d>
+["rdev"]=>
 int(0)
-["size"]u003d>
+["size"]=>
 int(0)
-["atime"]u003d>
+["atime"]=>
 int(1318241261)
-["mtime"]u003d>
+["mtime"]=>
 int(1318241261)
-["ctime"]u003d>
+["ctime"]=>
 int(1318241261)
-["blksize"]u003d>
+["blksize"]=>
 int(4096)
-["blocks"]u003d>
+["blocks"]=>
 int(0)
 }
 eio_mknod_ok

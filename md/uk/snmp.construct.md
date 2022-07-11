@@ -7,7 +7,7 @@
 
 # SNMP::\_\_construct
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::\_\_construct — Створює екземпляр SNMP, який представляє сесію
 дистанційного агента SNMP
@@ -18,8 +18,8 @@ public **SNMP::\_\_construct**(
 int `$version`,
 string `$hostname`,
 string `$community`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 )
 
 Опис функції
@@ -40,7 +40,7 @@ php-snmp, а чи не механізмом Net-SNMP. Використання I
 квадратні дужки. Ось кілька прикладів:
 
 |                                                                                 |                  |
-| ------------------------------------------------------------------------------- | ---------------- |
+|---------------------------------------------------------------------------------|------------------|
 | IPv4 з стандартним портом                                                       | 127.0.0.1        |
 | IPv6 з стандартним портом                                                       | ::1 or [::1]     |
 | IPv4 з конкретним портом 127.0.0.1:1161                                         |                  |
@@ -54,7 +54,7 @@ php-snmp, а чи не механізмом Net-SNMP. Використання I
 Призначення `community` залежить від версії SNMP:
 
 |                  |                     |
-| ---------------- | ------------------- |
+|------------------|---------------------|
 | SNMP::VERSION_1  | SNMP community      |
 | SNMP::VERSION_2C | SNMP community      |
 | SNMP::VERSION_3  | SNMPv3 securityName |
@@ -74,7 +74,7 @@ php-snmp, а чи не механізмом Net-SNMP. Використання I
 
 **Приклад #1 Отримання sysLocation**
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $sysdescru003du003d$session->get("sysDescr.0"); echo "$sysdescr
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $sysdescr==$session->get("sysDescr.0"); echo "$sysdescr
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

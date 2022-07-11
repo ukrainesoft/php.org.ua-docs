@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\ServerOpeningEvent::getTopologyId — Returns
 the topology ID associated with this server

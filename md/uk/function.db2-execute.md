@@ -7,13 +7,13 @@
 
 #db2_execute
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_execute — Виконує підготовлений SQL-запит
 
 ### Опис
 
-**db2_execute**(resource `$stmt`, array `$parameters` u003d ?): bool
+**db2_execute**(resource `$stmt`, array `$parameters` = ?): bool
 
 **db2_execute()** виконує SQL-запит, підготовлений за допомогою
 [db2_prepare()](function.db2-prepare.md).
@@ -59,7 +59,7 @@ SELECT або CALL для збереженої процедури, яка пов
 масивів, що містять вхідні значення, які необхідно передати в
 **db2_execute()**.
 
-` <?php$pet u003d array(0, 'cat', 'Pook', 3.2);$insert u003d 'INSERT INTO animals (id, breed, name, weight)    VALUES (?, ?, ') $stmtu003du003ddb2_prepare($conn,$insert);if($stmt) {    $result u003d db2_execute($stmt, $pet); if ($result) {         print "Успішно доданий новий вихованець."; }}?> `
+` <?php$pet = array(0, 'cat', 'Pook', 3.2);$insert = 'INSERT INTO animals (id, breed, name, weight)    VALUES (?, ?, ') $stmt==db2_prepare($conn,$insert);if($stmt) {    $result = db2_execute($stmt, $pet); if ($result) {         print "Успішно доданий новий вихованець."; }}?> `
 
 Результат виконання цього прикладу:
 
@@ -75,7 +75,7 @@ SELECT або CALL для збереженої процедури, яка пов
 CALL процедури, що зберігається, значення `$num_pets` змінюється, щоб відобразити
 значення, яке повертається збереженою процедурою для цього параметра OUT.
 
-` <?php$num_pets u003d 0;$res u003d db2_prepare($conn, "CALL count_my_pets(?)");$rc u003d db2_bind_param($res, 1, "num_pets", DB2_PARAM_CU| );print "У мені $num_pets домашніх тварин!";?> `
+` <?php$num_pets = 0;$res = db2_prepare($conn, "CALL count_my_pets(?)");$rc = db2_bind_param($res, 1, "num_pets", DB2_PARAM_CU| );print "У мені $num_pets домашніх тварин!";?> `
 
 Результат виконання цього прикладу:
 
@@ -88,7 +88,7 @@ CALL процедури, що зберігається, значення `$num_p
 SQL/XML, цей приклад повертає деякі вузли у XML-документі у форматі
 SQL ResultSet, з яким знайома більшість користувачів.
 
-` <?php$conn u003d db2_connect("SAMPLE", "db2inst1", "ibmdb2");$queryu003du003d''SELECT * FROM XMLTABLE(    XMLNAMESPACES (DEFAULT \'http://posample) -fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'                                                                                                                 ¦¦¦¦¦ 50) PATH \'phone [ @type u003d "work"]\'    ) AS T    WHERE NAME u003d ? ';$stmtu003du003ddb2_prepare($conn, $query);$name u003d 'Kathy Smith';if ($stmt) {    db2_bind_param($stmt, 1, name), DB2_ db2_execute($stmt); while($row u003d db2_fetch_object($stmt)){   printf("$row->CID    $row->NAME     $row->PHONE
+` <?php$conn = db2_connect("SAMPLE", "db2inst1", "ibmdb2");$query==''SELECT * FROM XMLTABLE(    XMLNAMESPACES (DEFAULT \'http://posample) -fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'                                                                                                                 ¦¦¦¦¦ 50) PATH \'phone [ @type = "work"]\'    ) AS T    WHERE NAME = ? ';$stmt==db2_prepare($conn, $query);$name = 'Kathy Smith';if ($stmt) {    db2_bind_param($stmt, 1, name), DB2_ db2_execute($stmt); while($row = db2_fetch_object($stmt)){   printf("$row->CID    $row->NAME     $row->PHONE
 ");   }}db2_close($conn);?> `
 
 Результат виконання цього прикладу:
@@ -103,7 +103,7 @@ XML у базі даних SAMPLE. Він створює 2 тимчасові т
 XML-документів з 2 різних стовпця і повертає SQL ResultSet з
 інформацією про статус доставки клієнта.
 
-` <?php$connu003du003ddb2_connect("SAMPLE", "db2inst1", "ibmdb2");$queryu003du003d''SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUSFROMXMLTABLE(XML \'http://posample.org\'),\'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'COLUMNS"CID" BIGINT PATH \'@Cid\',"NAME" VARCHAR (50 ) PATH \'name\',"PHONE" VARCHAR (50) PATH \'phone [ @type u003d "work"]\') as A,PURCHASEORDER AS B,XMLTABLE (XMLNAMESPACES (DEFAULT ). org\'),\'db2-fn:xmlcolumn("PURCHASEORDER.PORDER")/PurchaseOrder\'COLUMNS"PONUM" BIGINT PATH \'@PoNum\',"STATUS" VARCHAR (50) PATH \'@ ) as CWHERE A.CID u003d B.CUSTID AND    B.POID u003d C.PONUM AND     A.NAME u003d ?';$stmt u003d db2_prepare($conn, $$; ) {    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN); db2_execute($stmt); while($row u003d db2_fetch_object($stmt)){    printf("$row->CID    $row->NAME    $row->PHONE     $row->PONUM>$|
+` <?php$conn==db2_connect("SAMPLE", "db2inst1", "ibmdb2");$query==''SELECT A.CID, A.NAME, A.PHONE, C.PONUM, C.STATUSFROMXMLTABLE(XML \'http://posample.org\'),\'db2-fn:xmlcolumn("CUSTOMER.INFO")/customerinfo\'COLUMNS"CID" BIGINT PATH \'@Cid\',"NAME" VARCHAR (50 ) PATH \'name\',"PHONE" VARCHAR (50) PATH \'phone [ @type = "work"]\') as A,PURCHASEORDER AS B,XMLTABLE (XMLNAMESPACES (DEFAULT ). org\'),\'db2-fn:xmlcolumn("PURCHASEORDER.PORDER")/PurchaseOrder\'COLUMNS"PONUM" BIGINT PATH \'@PoNum\',"STATUS" VARCHAR (50) PATH \'@ ) as CWHERE A.CID = B.CUSTID AND    B.POID = C.PONUM AND     A.NAME = ?';$stmt = db2_prepare($conn, $$; ) {    db2_bind_param($stmt, 1, "name", DB2_PARAM_IN); db2_execute($stmt); while($row = db2_fetch_object($stmt)){    printf("$row->CID    $row->NAME    $row->PHONE     $row->PONUM>$|
 ");   }}db2_close($conn);?> `
 
 Результат виконання цього прикладу:
@@ -116,14 +116,14 @@ XML-документів з 2 різних стовпця і повертає SQ
 даних SAMPLE. Він створює XML-документ, що містить опис продукту
 (дані XML) та інформацію про ціни (дані SQL).
 
-` <?php$connu003du003ddb2_connect("SAMPLE", "db2inst1", "ibmdb2");$queryu003du003d'SELECTXMLSERIALIZE(XMLQUERY(\'   declare boundary-space strip;       ";    <promoList> {    for $prod in $doc/product    where $prod/description/price < 10.00    order by $prod/description/price ascending    return(        <promoitem> {        $prod,        <startdate> {$start} </ startdate>,        <enddate> {$end} </enddate>,        <promoprice> {$promo} </promoprice>            } </promoitem>    )    } </promoList>\' passing by ref DESCRIPTION AS "doc",PROMOSTART as "start",PROMOEND as "end",PROMOPRICE as "promo"RETURNING SEQUENCE)AS CLOB (32000))AS NEW_PRODUCT_INFOFROM PRODUCTWHERE PID u003d ?';$stmt u003d $ 100-01"; if ($stmt) {    db2_bind_param($stmt, 1, "pid", DB2_PARAM_IN); db2_execute($stmt); while($row u003d db2_fetch_array($stmt)){    printf("$row[0]
+` <?php$conn==db2_connect("SAMPLE", "db2inst1", "ibmdb2");$query=='SELECTXMLSERIALIZE(XMLQUERY(\'   declare boundary-space strip;       ";    <promoList> {    for $prod in $doc/product    where $prod/description/price < 10.00    order by $prod/description/price ascending    return(        <promoitem> {        $prod,        <startdate> {$start} </ startdate>,        <enddate> {$end} </enddate>,        <promoprice> {$promo} </promoprice>            } </promoitem>    )    } </promoList>\' passing by ref DESCRIPTION AS "doc",PROMOSTART as "start",PROMOEND as "end",PROMOPRICE as "promo"RETURNING SEQUENCE)AS CLOB (32000))AS NEW_PRODUCT_INFOFROM PRODUCTWHERE PID = ?';$stmt = $ 100-01"; if ($stmt) {    db2_bind_param($stmt, 1, "pid", DB2_PARAM_IN); db2_execute($stmt); while($row = db2_fetch_array($stmt)){    printf("$row[0]
 ");   }}db2_close($conn);?> `
 
 Результат виконання цього прикладу:
 
-<promoList xmlnsu003d"http://posample.org">
+<promoList xmlns="http://posample.org">
 <promoitem>
-<product pidu003d"100-100-01">
+<product pid="100-100-01">
 <description>
 <name>Snow Shovel, Basic 22 inch</name>
 <details>Basic Snow Shovel, 22 inches wide, straight handle with D-Grip</details>

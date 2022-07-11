@@ -7,13 +7,13 @@
 
 #cubrid_query
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_query — Надсилання запиту CUBRID
 
 ### Опис
 
-**cubrid_query**(string `$query`, resource `$conn_identifier` u003d ?):
+**cubrid_query**(string `$query`, resource `$conn_identifier` = ?):
 resource
 
 Функція **cubrid_query()** надсилає унікальний запит (множинні
@@ -63,14 +63,14 @@ SQL-запит
 Наступний запит містить синтаксичну помилку, тому
 **cubrid_query()** поверне **`false`**.
 
-` <?php$conn u003d cubrid_connect('localhost', 33000, 'demodb');$result u003d cubrid_query('SELECT * WHERE 1u003d1');if (!$result) {про:не'    | cubrid_error());}?> `
+` <?php$conn = cubrid_connect('localhost', 33000, 'demodb');$result = cubrid_query('SELECT * WHERE 1=1');if (!$result) {про:не'    | cubrid_error());}?> `
 
 **Приклад #2 Коректний запит**
 
 Наступний запит коректний, тому **cubrid_query()** поверне resource.
 
-` <?php//Які небудь значення$firstname u003d 'fred';$lastname  u003d 'fox';$conn u003d cubrid_connect('localhost', 33000, 'demodb');cubrid_execute( conn "); 'home-1','20')");cubrid_execute($conn,"insert into friends values('blue','cat','home-2','21')");// Сформулюємо запит/ / Це кращий шлях для виконання запиту// Інші приклади дивіться cubrid_real_escape_string()$query u003d sprintf("SELECT firstname, lastname, address, age FROM ' firstname), cubrid_real_escape_string($lastname)); // Виконуємо запит $ result u003d cubrid_query ($ query); корисно при налагодження.if (!$result) {   $message  u003d 'Некоректний запит: ' . cubrid_error() . "
-";    $message .u003d 'Всего запросов: ' . $query;    die($message);}// Используем результат// Попытка распечатать $result не позволит получить доступ к информации в ресурсе// Должна быть использована одна из функций cubrid/ / Дивіться cubrid_result(), cubrid_fetch_array(), cubrid_fetch_row() і т.д.while ($row u003d cubrid_fetch_assoc($result)) {              row['address'];    echo $row['age'];}// Звільняємо ресурси. У принципі можна і не робити, так як// вони будуть автоматично освоє$ |
+` <?php//Які небудь значення$firstname = 'fred';$lastname  = 'fox';$conn = cubrid_connect('localhost', 33000, 'demodb');cubrid_execute( conn "); 'home-1','20')");cubrid_execute($conn,"insert into friends values('blue','cat','home-2','21')");// Сформулюємо запит/ / Це кращий шлях для виконання запиту// Інші приклади дивіться cubrid_real_escape_string()$query = sprintf("SELECT firstname, lastname, address, age FROM ' firstname), cubrid_real_escape_string($lastname)); // Виконуємо запит $ result = cubrid_query ($ query); корисно при налагодження.if (!$result) {   $message  = 'Некоректний запит: ' . cubrid_error() . "
+";    $message .= 'Всего запросов: ' . $query;    die($message);}// Используем результат// Попытка распечатать $result не позволит получить доступ к информации в ресурсе// Должна быть использована одна из функций cubrid/ / Дивіться cubrid_result(), cubrid_fetch_array(), cubrid_fetch_row() і т.д.while ($row = cubrid_fetch_assoc($result)) {              row['address'];    echo $row['age'];}// Звільняємо ресурси. У принципі можна і не робити, так як// вони будуть автоматично освоє$ |
 
 ### Дивіться також
 

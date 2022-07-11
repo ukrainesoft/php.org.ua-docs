@@ -7,7 +7,7 @@
 
 # Componere\Method::\_\_construct
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Method::\_\_construct - Конструктор класу Method
 

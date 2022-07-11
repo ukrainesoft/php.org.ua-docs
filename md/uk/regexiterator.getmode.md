@@ -7,7 +7,7 @@
 
 # RegexIterator::getMode
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getMode — Повертає режим роботи
 
@@ -30,7 +30,7 @@ public **RegexIterator::getMode**(): int
 
 **Приклад #1 Приклад використання **RegexIterator::getMode()****
 
-` <?php$test u003d array ('str1' u003d> 'test 1', 'teststr2' u003d> 'another test', 'str3' u003d> 'test 123');$arrayIterator u003d new Ar $regexIteratoru003du003d new RegexIterator($arrayIterator, '/^[a-z]+/', RegexIterator::GET_MATCH);$mode u003d $regexIterator->getMode();if ($mode & Regex           соответствий для каждого элемента.';} elseif ($mode & RegexIterator::ALL_MATCHES) {    echo 'Получение всех соответствий для каждого элемента.';} elseif ($mode & RegexIterator::MATCH) {    echo 'Получение элементов, прошедших отбор. ';} elseif ($mode & RegexIterator::SPLIT) {    echo 'Одержання окремих частей кожного елемента.';}?> `
+` <?php$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');$arrayIterator = new Ar $regexIterator== new RegexIterator($arrayIterator, '/^[a-z]+/', RegexIterator::GET_MATCH);$mode = $regexIterator->getMode();if ($mode & Regex           соответствий для каждого элемента.';} elseif ($mode & RegexIterator::ALL_MATCHES) {    echo 'Получение всех соответствий для каждого элемента.';} elseif ($mode & RegexIterator::MATCH) {    echo 'Получение элементов, прошедших отбор. ';} elseif ($mode & RegexIterator::SPLIT) {    echo 'Одержання окремих частей кожного елемента.';}?> `
 
 Результат виконання цього прикладу:
 

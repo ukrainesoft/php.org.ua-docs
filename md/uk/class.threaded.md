@@ -7,7 +7,7 @@
 
 # Клас Threaded
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 ## Вступ
 
@@ -40,7 +40,7 @@ public [isTerminated](threaded.isterminated.md)(): bool
 
 public
 [merge](threaded.merge.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` u003d ?): bool
+`$from`, bool `$overwrite` = ?): bool
 
 public [notify](threaded.notify.md)(): bool
 
@@ -60,7 +60,7 @@ public
 `...$args`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [wait](threaded.wait.md)(int `$timeout` u003d ?): bool
+public [wait](threaded.wait.md)(int `$timeout` = ?): bool
 
 }
 

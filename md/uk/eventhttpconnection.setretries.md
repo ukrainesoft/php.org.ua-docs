@@ -7,7 +7,7 @@
 
 # EventHttpConnection::setRetries
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::setRetries — Встановлює максимальну кількість
 повторів для з'єднання

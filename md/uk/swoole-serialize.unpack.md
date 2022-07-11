@@ -7,14 +7,14 @@
 
 # Swoole\Serialize::unpack
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Serialize::unpack — Десеріалізувати дані
 
 ### Опис
 
 public static **Swoole\Serialize::unpack**(string `$data`, string
-`$args` u003d ?): ReturnType
+`$args` = ?): ReturnType
 
 Десеріалізувати дані.
 

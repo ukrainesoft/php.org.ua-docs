@@ -13,4 +13,4 @@
 можуть включати лише методи та статичні методи. Трейт із властивостями
 призведе до фатальної помилки.
 
-`<?phpinterface Colorful{    public function color(): string;}trait Rectangle{    public function shape(): string {        return "; }}enum Suit implements Colorful{    useuse Rectangle; case Hearts; case Diamonds; case Clubs; case Spades; public function color(): string    {        return match($this) {            Suit::Hearts, Suit::Diamonds u003d> 'Красный',            Suit::Clubs, Suit::Spades u003d> 'Чёрный',        }; }}?> `
+`<?phpinterface Colorful{    public function color(): string;}trait Rectangle{    public function shape(): string {        return "; }}enum Suit implements Colorful{    useuse Rectangle; case Hearts; case Diamonds; case Clubs; case Spades; public function color(): string    {        return match($this) {            Suit::Hearts, Suit::Diamonds => 'Красный',            Suit::Clubs, Suit::Spades => 'Чёрный',        }; }}?> `

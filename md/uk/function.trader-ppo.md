@@ -7,7 +7,7 @@
 
 # trader_ppo
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_ppo — Відсотковий ціновий осцилятор
 
@@ -15,9 +15,9 @@ trader_ppo — Відсотковий ціновий осцилятор
 
 **trader_ppo**(
 array `$real`,
-int `$fastPeriod` u003d ?,
-int `$slowPeriod` u003d ?,
-int `$mAType` u003d ?
+int `$fastPeriod` = ?,
+int `$slowPeriod` = ?,
+int `$mAType` = ?
 ): array
 
 ### Список параметрів

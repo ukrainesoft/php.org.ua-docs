@@ -7,14 +7,14 @@
 
 # Worker::collect
 
-(PECL pthreads \>u003d 3.0.0)
+(PECL pthreads \>= 3.0.0)
 
 Worker::collect — Зібрати посилання на завершені завдання
 
 ### Опис
 
 public **Worker::collect**([Callable](language.types.callable.md)
-`$collector` u003d ?): int
+`$collector` = ?): int
 
 Дозволяє Worker зібрати "сміттєві" посилання на завдання. Опціонально можна
 задати користувальницький збирач.
@@ -34,8 +34,8 @@ public **Worker::collect**([Callable](language.types.callable.md)
 
 **Приклад #1 Приклад використання **Worker::collect()****
 
-` <?php$worker u003d new Worker();echo "Зараз на стеку {$worker->collect()} завдань, потрібно зібрати
-";for ($i u003d 0; $i < 15; ++$i) {    $worker->stack(new class extends Threaded {});}echo "На стеку {$worker->collect() які потрібно зібрати
+` <?php$worker = new Worker();echo "Зараз на стеку {$worker->collect()} завдань, потрібно зібрати
+";for ($i = 0; $i < 15; ++$i) {    $worker->stack(new class extends Threaded {});}echo "На стеку {$worker->collect() які потрібно зібрати
 $worker->start();while($worker->collect()); зберуть
 ";$worker->shutdown(); `
 

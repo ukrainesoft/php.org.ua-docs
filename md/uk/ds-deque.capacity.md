@@ -7,7 +7,7 @@
 
 # Ds\Deque::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ public **Ds\Deque::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\Deque::capacity()****
 
-` <?php$deque u003d new \Ds\Deque();var_dump($deque->capacity());$deque->push(...range(1, 50));var_dump($deque->capacity ());?> `
+` <?php$deque = new \Ds\Deque();var_dump($deque->capacity());$deque->push(...range(1, 50));var_dump($deque->capacity ());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

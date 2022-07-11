@@ -8,7 +8,7 @@
 
 # EventBufferEvent::getInput
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::getInput — Повертає базовий вхідний буфер, пов'язаний
 з поточною буферною подією
@@ -37,7 +37,7 @@ public **EventBufferEvent::getInput**():
 
 **Приклад #1 Callback-функція читання буфера**
 
-` <?phpfunction readcb($bev, $base) {    $input u003d $bev->input; //$bev->getInput(); while(($n u003d $input->remove($buf, 1024)) > 0) {       echo $buf; }}?> `
+` <?phpfunction readcb($bev, $base) {    $input = $bev->input; //$bev->getInput(); while(($n = $input->remove($buf, 1024)) > 0) {       echo $buf; }}?> `
 
 ### Дивіться також
 

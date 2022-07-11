@@ -76,14 +76,14 @@ crypt — Незворотне хешування рядка
 використовувати "$2y$". Для повного розуміння ознайомтеся з [» цим розділом](https://www.php.net/security/crypt_blowfish.php).
 - **`CRYPT_SHA256`** - хеш SHA-256 з шістнадцятисимвольною сіллю,
 що починається з $5$. Якщо рядок із сіллю починається з
-'roundsu003d\<N\>$', число N буде використано для позначення
+'rounds=\<N\>$', число N буде використано для позначення
 кількості раундів хешування, за аналогією з ваговим параметром
 Blowfish. За замовчуванням кількість раундів дорівнює 5000,
 мінімально доступно 1000 та максимально 999,999,999. Будь-яке значення
 поза цим діапазоном буде усічено до найближчого ліміту.
 - **`CRYPT_SHA512`** - хеш SHA-512 з шістнадцятисимвольною сіллю,
 що починається з $6$. Якщо рядок із сіллю починається з
-'roundsu003d\<N\>$', число N буде використано для позначення
+'rounds=\<N\>$', число N буде використано для позначення
 кількості раундів хешування, за аналогією з ваговим параметром
 Blowfish. За замовчуванням кількість раундів дорівнює 5000,
 мінімально доступно 1000 та максимально 999,999,999. Будь-яке значення
@@ -118,18 +118,18 @@ Blowfish. За замовчуванням кількість раундів до
 ### Список змін
 
 | Версія | Опис                             |
-| ------ | -------------------------------- |
+|--------|----------------------------------|
 | 8.0.0  | salt більше не є необов'язковим. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **crypt()****
 
-`<?php// сіль буде згенерована автоматично; не рекомендуется$hashed_password u003d crypt('mypassword');/* Для проверки пароля в качестве параметра salt следует передавать результат работы   crypt() целиком во избежание проблем при использовании различных   алгоритмов (как уже было отмечено выше, стандартный DES-алгоритм   использует 2- символьну сіль, а MD5 - 12-символьну. */if (hash_equals($hashed_password, crypt($user_input, $hashed_password))) {  echo "Пароль вірний!";
+`<?php// сіль буде згенерована автоматично; не рекомендуется$hashed_password = crypt('mypassword');/* Для проверки пароля в качестве параметра salt следует передавать результат работы   crypt() целиком во избежание проблем при использовании различных   алгоритмов (как уже было отмечено выше, стандартный DES-алгоритм   использует 2- символьну сіль, а MD5 - 12-символьну. */if (hash_equals($hashed_password, crypt($user_input, $hashed_password))) {  echo "Пароль вірний!";
 
 **Приклад #2 Використання **crypt()** та htpasswd**
 
-` <?php// пароль$password u003d 'mypassword';// отримання хешу, сіль генерується автоматично; не рекомендується$hash u003d crypt($password);?> `
+` <?php// пароль$password = 'mypassword';// отримання хешу, сіль генерується автоматично; не рекомендується$hash = crypt($password);?> `
 
 **Приклад #3 Використання **crypt()** з різними видами хешей**
 
@@ -137,8 +137,8 @@ Blowfish. За замовчуванням кількість раундів до
 ";echo 'Розширений DES: ',    crypt('rasmuslerdorf', '_J9..rasm'),    "
 ";echo 'MD5:          '',    crypt('rasmuslerdorf', '$1$rasmusle$'),    "
 ";echo 'Blowfish:     ',    crypt('rasmuslerdorf', '$2a$07$usesomesillystringforsalt$'),    "
-";echo 'SHA-256:       ',    crypt('rasmuslerdorf', '$5$roundsu003d5000$usesomesillystringforsalt$'),    "
-";echo 'SHA-512:       ',    crypt('rasmuslerdorf', '$6$roundsu003d5000$usesomesillystringforsalt$'),    "
+";echo 'SHA-256:       ',    crypt('rasmuslerdorf', '$5$rounds=5000$usesomesillystringforsalt$'),    "
+";echo 'SHA-512:       ',    crypt('rasmuslerdorf', '$6$rounds=5000$usesomesillystringforsalt$'),    "
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -147,8 +147,8 @@ Blowfish. За замовчуванням кількість раундів до
 Розширений DES: _J9..rasmBYk8r9AiWNc
 MD5: $1$rasmusle$rISCgZzpwk3UhDidwXvin0
 Blowfish: $2y$07$usesomesillystringfore2uDLvp1Ii2e./U9C8sBjqp8I90dH6hi
-SHA-256: $5$roundsu003d5000$usesomesillystri$KqJWpanXZHKq2BOB43TSaYhEWsQ1Lr5QNyPCDH/Tp.6
-SHA-512: $6$roundsu003d5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KPgErtP/EN5mcO.ChWQ
+SHA-256: $5$rounds=5000$usesomesillystri$KqJWpanXZHKq2BOB43TSaYhEWsQ1Lr5QNyPCDH/Tp.6
+SHA-512: $6$rounds=5000$usesomesillystri$D4IrlXatmP7rx3P3InaxBeoomnAihCKRVQP22JZ6EY47Wc6BkroIuUUBOov1i.S5KPgErtP/EN5mcO.ChWQ
 
 ### Примітки
 

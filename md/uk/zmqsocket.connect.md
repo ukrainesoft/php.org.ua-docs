@@ -7,13 +7,13 @@
 
 # ZMQSocket::connect
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::connect — Підключення до сокету
 
 ### Опис
 
-public **ZMQSocket::connect**(string `$dsn`, bool `$force` u003d
+public **ZMQSocket::connect**(string `$dsn`, bool `$force` =
 **`false`**): [ZMQSocket](class.zmqsocket.md)
 
 Підключення сокету до віддаленої кінцевої точки. Кінцева точка
@@ -43,4 +43,4 @@ public **ZMQSocket::connect**(string `$dsn`, bool `$force` u003d
 
 Створити новий контекст та виділити сокет
 
-` <?php/* Адреса сервера */$dsn u003d "tcp://127.0.0.1:5555";/* Створити сокет */$socket u003d new ZMQSocket(new ZMQContext(), CK ');/* Отримати список підключених кінцевих точок */$endpoints u003d $socket->getEndpoints();/* Перевірити, підключений ли сокет */if (!in_array($dsn, $ends) echo "<p>Підключення до $dsn</p>"; $socket->connect($dsn);} else {    echo "<p>Вже підключений к $dsn</p>";}/* Послати і отримати дані */$socket->send("Привіт!"); $messageu003du003d$socket->recv();echo "<p>Сервер відповів: {$message}</p>";?> `
+` <?php/* Адреса сервера */$dsn = "tcp://127.0.0.1:5555";/* Створити сокет */$socket = new ZMQSocket(new ZMQContext(), CK ');/* Отримати список підключених кінцевих точок */$endpoints = $socket->getEndpoints();/* Перевірити, підключений ли сокет */if (!in_array($dsn, $ends) echo "<p>Підключення до $dsn</p>"; $socket->connect($dsn);} else {    echo "<p>Вже підключений к $dsn</p>";}/* Послати і отримати дані */$socket->send("Привіт!"); $message==$socket->recv();echo "<p>Сервер відповів: {$message}</p>";?> `

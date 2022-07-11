@@ -13,7 +13,7 @@ UI\Menu::appendCheck — Додати пункт меню з чекбоксом
 
 ### Опис
 
-public **UI\Menu::appendCheck**(string `$name`, string `$type` u003d
+public **UI\Menu::appendCheck**(string `$name`, string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 Додасть пункт меню із чекбоксом

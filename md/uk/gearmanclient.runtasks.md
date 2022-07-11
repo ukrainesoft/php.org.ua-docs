@@ -7,7 +7,7 @@
 
 # GearmanClient::runTasks
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::runTasks — Запустити список завдань у паралельному режимі
 

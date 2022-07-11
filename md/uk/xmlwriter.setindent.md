@@ -9,7 +9,7 @@
 
 #xmlwriter_set_indent
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::setIndent -- xmlwriter_set_indent — Увімкнути або вимкнути
 відступи
@@ -46,7 +46,7 @@ bool `$enable`): bool
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
@@ -56,11 +56,11 @@ bool `$enable`): bool
 Увімкнення відступу не підходить для змішаного вмісту, оскільки
 рядок відступу також вставляється перед інтегрованими елементами.
 
-` <?php$writer u003d new XMLWriter();$writer->openMemory();$writer->setIndent(2);$writer->startDocument();$writer->startElement('p');$writer ->text('до');$writer->writeElement('a', 'елемента');$writer->text('після');$writer->endElement();$writer->endDocument() ;echo $writer->outputMemory();?> `
+` <?php$writer = new XMLWriter();$writer->openMemory();$writer->setIndent(2);$writer->startDocument();$writer->startElement('p');$writer ->text('до');$writer->writeElement('a', 'елемента');$writer->text('після');$writer->endElement();$writer->endDocument() ;echo $writer->outputMemory();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <p>до <a>елемена</a>
 після</p>
 

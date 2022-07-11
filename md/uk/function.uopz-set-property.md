@@ -49,7 +49,7 @@ uopz_set_property — Встановлює значення існуючої в�
 
 **Приклад #1 Просте використання **uopz_set_property()****
 
-`<?phpclass Foo {   private static $staticBar; private $bar; public static function testStaticBar() {     return self::$staticBar; }   public function testBar() {     return $this->bar; }}$foo u003d new Foo;uopz_set_property('Foo', 'staticBar', 10);uopz_set_property($foo, 'bar', 100);var_dump(Foo::testStaticBar() ());?> `
+`<?phpclass Foo {   private static $staticBar; private $bar; public static function testStaticBar() {     return self::$staticBar; }   public function testBar() {     return $this->bar; }}$foo = new Foo;uopz_set_property('Foo', 'staticBar', 10);uopz_set_property($foo, 'bar', 100);var_dump(Foo::testStaticBar() ());?> `
 
 Результат виконання цього прикладу:
 

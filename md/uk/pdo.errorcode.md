@@ -7,7 +7,7 @@
 
 # PDO::errorCode
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDO::errorCode — Повертає код SQLSTATE результату останньої операції з
 базою даних

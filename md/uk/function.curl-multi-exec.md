@@ -42,7 +42,7 @@ CURL.
 ### Список змін
 
 | Версія | Опис                                                                      |
-| ------ | ------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------|
 | 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
@@ -52,7 +52,7 @@ CURL.
 Цей приклад створить два дескриптори cURL, додасть їх до набору
 дескрипторів, а потім запустить їх асинхронно.
 
-`<?php// створюємо обидва ресурсу cURL$ch1 u003d curl_init();$ch2 u003d curl_init();// встановлюємо URL і інші відповідні опціїcurl_setopt($ch, curl_setopt($ch1, CURLOPT_HEADER, 0);curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");curl_setopt($ch2, CURLOPT_HEADER, 0)| curl_multi_init();//додаємо два дескриптори if ($active) {         // Чекаємо якийсь час для пожвавлення активності        curl_multi_select($mh); }} while ($active && $status u003du003du003dCURLM_OK);//закриваємо дескрипториcurl_multi_remove_handle($mh, $ch1);curl_multi_remove_handle($mh, $ch2);curl_mul
+`<?php// створюємо обидва ресурсу cURL$ch1 = curl_init();$ch2 = curl_init();// встановлюємо URL і інші відповідні опціїcurl_setopt($ch, curl_setopt($ch1, CURLOPT_HEADER, 0);curl_setopt($ch2, CURLOPT_URL, "http://www.php.net/");curl_setopt($ch2, CURLOPT_HEADER, 0)| curl_multi_init();//додаємо два дескриптори if ($active) {         // Чекаємо якийсь час для пожвавлення активності        curl_multi_select($mh); }} while ($active && $status ===CURLM_OK);//закриваємо дескрипториcurl_multi_remove_handle($mh, $ch1);curl_multi_remove_handle($mh, $ch2);curl_mul
 
 ### Дивіться також
 

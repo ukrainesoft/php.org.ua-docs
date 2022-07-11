@@ -21,7 +21,7 @@
 
 **Приклад #1 Завантаження синтаксично неправильного XML-рядка**
 
-` <?phplibxml_use_internal_errors(true);$sxe u003d simplexml_load_string("<?xml versionu003d'1.0'><broken><xml></broken>");if (!$sxe) {    echo "Помилка "
+` <?phplibxml_use_internal_errors(true);$sxe = simplexml_load_string("<?xml version='1.0'><broken><xml></broken>");if (!$sxe) {    echo "Помилка "
 ";   foreach(libxml_get_errors() as $error) {        echo " ",,$error->message;    }}?> `
 
 Результат виконання цього прикладу:

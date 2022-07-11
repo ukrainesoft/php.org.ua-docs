@@ -47,7 +47,7 @@ array_pad — Доповнити масив певним значенням до
 
 **Приклад #1 Приклад використання **array_pad()****
 
-` <?php$input u003d array(12, 10, 9);$result u003d array_pad($input, 5, 0);// результат: array(12, 10, 9, 0, 0)$result u003d array_pad $input, -7, -1);// результат: array(-1, -1, -1, -1, 12, 10, 9)$result u003d array_pad($input, 2, "noop");/ / операція не зроблена `
+` <?php$input = array(12, 10, 9);$result = array_pad($input, 5, 0);// результат: array(12, 10, 9, 0, 0)$result = array_pad $input, -7, -1);// результат: array(-1, -1, -1, -1, 12, 10, 9)$result = array_pad($input, 2, "noop");/ / операція не зроблена `
 
 ### Дивіться також
 

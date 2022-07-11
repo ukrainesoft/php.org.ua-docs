@@ -24,7 +24,7 @@
 Існує лише одне значення типу null - реєстронезалежна
 константа **`null`**.
 
-` <?php$var u003d NULL;?> `
+` <?php$var = NULL;?> `
 
 Дивіться також функції [is_null()](function.is-null.md) та
 [unset()](function.unset.md).

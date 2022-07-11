@@ -7,7 +7,7 @@
 
 # runkit7_function_copy
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_function_copy — Копіює функцію до нового імені функції
 

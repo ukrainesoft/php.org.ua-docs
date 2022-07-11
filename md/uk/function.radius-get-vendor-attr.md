@@ -7,7 +7,7 @@
 
 #radius_get_vendor_attr
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_get_vendor_attr — Виймає атрибут, що залежить від постачальника
 
@@ -33,9 +33,9 @@ radius_get_vendor_attr — Виймає атрибут, що залежить в
 
 **Приклад #1 Приклад використання **radius_get_vendor_attr()****
 
-` <?phpwhile ($resa u003d radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
-",  radius_strerror($res));         exit;    }   $attr u003d $resa['attr'];    $data u003d $resa['data']   |
-", $attr, strlen($data), bin2hex($data));    if ($attr u003du003d RADIUS_VENDOR_SPECIFIC) {        $resv u003d radius_get_vendor_attr($data);        if (is_array($resv)) {            $vendor u003d $resv ['vendor'];      $attrv u003d $resv['attr'];            $datav u003d $resv[   
+` <?phpwhile ($resa = radius_get_attr($res)) {    if (!is_array($resa)) {       printf ("Помилка при отриманні атрибу
+",  radius_strerror($res));         exit;    }   $attr = $resa['attr'];    $data = $resa['data']   |
+", $attr, strlen($data), bin2hex($data));    if ($attr == RADIUS_VENDOR_SPECIFIC) {        $resv = radius_get_vendor_attr($data);        if (is_array($resv)) {            $vendor = $resv ['vendor'];      $attrv = $resv['attr'];            $datav = $resv[   
 ", $attrv, strlen($datav), bin2hex($datav));        }    }}?> `
 
 ### Дивіться також

@@ -8,7 +8,7 @@
 
 # SolrQuery::getHighlightMaxAnalyzedChars
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightMaxAnalyzedChars — Повертає максимальне
 кількість символів у документі для пошуку відповідних фрагментів

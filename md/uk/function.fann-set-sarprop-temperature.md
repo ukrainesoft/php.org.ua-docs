@@ -7,7 +7,7 @@
 
 # fann_set_sarprop_temperature
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_sarprop_temperature — Встановлює температуру sarprop
 
@@ -36,7 +36,7 @@ fann_set_sarprop_temperature — Встановлює температуру sar
 > **Примітка**:
 >
 > Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann u003d 2.2.
+> libfann = 2.2.
 
 ### Дивіться також
 

@@ -7,14 +7,14 @@
 
 #wincache_refresh_if_changed
 
-(PECL wincache \>u003d 1.0.0)
+(PECL wincache \>= 1.0.0)
 
 wincache_refresh_if_changed — Оновлює записи кеша для закешованих
 файлів
 
 ### Опис
 
-**wincache_refresh_if_changed**(array `$files` u003d NULL): bool
+**wincache_refresh_if_changed**(array `$files` = NULL): bool
 
 Оновлює записи кеша для файлів, імена яких були передані у вхідному
 аргумент. Якщо аргумент не вказано, всі записи в кеші оновлюються.
@@ -45,7 +45,7 @@ PHP-скрипт, в якому зберігаються параметри ко
 
 **Приклад #1 Приклад використання **wincache_refresh_if_changed()****
 
-` <?php$filename u003d 'C:\inetpub\wwwroo
+` <?php$filename = 'C:\inetpub\wwwroo
 
 ### Дивіться також
 

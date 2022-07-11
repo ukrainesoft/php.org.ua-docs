@@ -7,7 +7,7 @@
 
 # Parle\Parser::push
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\Parser::push — Додає граматичне правило
 

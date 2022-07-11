@@ -7,7 +7,7 @@
 
 # RarEntry::getName
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 RarEntry::getName — Повертає ім'я елемента
 
@@ -29,11 +29,11 @@ public **RarEntry::getName**(): string
 ### Список змін
 
 | Версія         | Опис                                                                    |
-| -------------- | ----------------------------------------------------------------------- |
+|----------------|-------------------------------------------------------------------------|
 | PECL rar 2.0.0 | Починаючи з версії 2.0.0, повертається рядок у кодуванні Unicode/UTF-8. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RarEntry::getName()****
 
-`<?php// цей приклад працює, навіть сторінка не в кодуванні UTF-8// для перекодування в UTF-8 викликається mb_convert_encoding$rar_file u003d rar_open );$entry u003d rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалося найти такий запис");echo "Ім'яелемента: " . mb_convert_encoding(htmlentities(   htmlentities(        $entry->getName(),        ENT_COMPAT,                  |)
+`<?php// цей приклад працює, навіть сторінка не в кодуванні UTF-8// для перекодування в UTF-8 викликається mb_convert_encoding$rar_file = rar_open );$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не удалося найти такий запис");echo "Ім'яелемента: " . mb_convert_encoding(htmlentities(   htmlentities(        $entry->getName(),        ENT_COMPAT,                  |)

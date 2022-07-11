@@ -9,7 +9,7 @@
 
 #stomp_send
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::send -- stomp_send — Надсилає повідомлення
 
@@ -19,7 +19,7 @@ Stomp::send -- stomp_send — Надсилає повідомлення
 
 public **Stomp::send**(string `$destination`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$msg`, array `$headers` u003d ?): bool
+`$msg`, array `$headers` = ?): bool
 
 Процедурний стиль:
 
@@ -28,7 +28,7 @@ resource `$link`,
 string `$destination`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$msg`,
-array `$headers` u003d ?
+array `$headers` = ?
 ): bool
 
 Надсилає повідомлення брокеру повідомлень (Message Broker).

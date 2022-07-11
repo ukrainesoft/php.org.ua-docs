@@ -36,19 +36,19 @@ apcu_key_info — Отримати детальну інформацію про 
 Результат виконання цього прикладу:
 
 array(7) {
-["hits"]u003d>
+["hits"]=>
 int(0)
-["access_time"]u003d>
+["access_time"]=>
 int(1606701783)
-["mtime"]u003d>
+["mtime"]=>
 int(1606701783)
-["creation_time"]u003d>
+["creation_time"]=>
 int(1606701783)
-["deletion_time"]u003d>
+["deletion_time"]=>
 int(0)
-["ttl"]u003d>
+["ttl"]=>
 int(0)
-["refs"]u003d>
+["refs"]=>
 int(0)
 }
 

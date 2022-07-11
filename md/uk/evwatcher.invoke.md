@@ -8,7 +8,7 @@
 
 # EvWatcher::invoke
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvWatcher::invoke — Викликає callback-функцію спостерігача із заданою
 бітовою маскою прийнятих подій

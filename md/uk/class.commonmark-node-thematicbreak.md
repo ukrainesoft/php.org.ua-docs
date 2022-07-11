@@ -7,7 +7,7 @@
 
 # ThematicBreak успадковує CommonMark\Node
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 ## Огляд класів
 

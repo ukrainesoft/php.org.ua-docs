@@ -8,14 +8,14 @@ PHP
 
 # php_uname
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 php_uname — Повертає інформацію про операційну систему, на якій
 запущений PHP
 
 ### Опис
 
-**php_uname**(string `$mode` u003d "a"): string
+**php_uname**(string `$mode` = "a"): string
 
 **php_uname()** повертає опис операційної системи, на якій
 запущено PHP. Це той самий рядок, з якого починається виведення
@@ -51,7 +51,7 @@ php_uname — Повертає інформацію про операційну 
 
 **Приклад #1 Кілька прикладів використання **php_uname()****
 
-`<?phpecho php_uname();echo PHP_OS;/* Різні варіанти:Linux localhost 2.4.21-0.13mdk #1 Fri Mar 14 15:08:06 EST 2003 i8          :02 GMT 2001FreeBSDWindows NT XN1 5.1 build 2600WINNT*/if (strtoupper(substr(PHP_OS, 0, 3)) u003du003du003d 'WIN') {    echo 'Сервер работает под управлением Windows!';} else {    echo 'Сервер работает под управлінням ОС, відмінної від Windows!';}?> `
+`<?phpecho php_uname();echo PHP_OS;/* Різні варіанти:Linux localhost 2.4.21-0.13mdk #1 Fri Mar 14 15:08:06 EST 2003 i8          :02 GMT 2001FreeBSDWindows NT XN1 5.1 build 2600WINNT*/if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {    echo 'Сервер работает под управлением Windows!';} else {    echo 'Сервер работает под управлінням ОС, відмінної від Windows!';}?> `
 
 Нижче наведено декілька [Предвизначених PHP-констант](language.constants.predefined.md), які можуть бути
 виявитися корисними:

@@ -7,7 +7,7 @@
 
 # Клас StompFrame
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 ## Вступ
 
@@ -28,8 +28,8 @@ public `$body`;
 
 /\* Методи \*/
 
-[\_\_construct](stompframe.construct.md)(string `$command` u003d ?, array
-`$headers` u003d ?, string `$body` u003d ?)
+[\_\_construct](stompframe.construct.md)(string `$command` = ?, array
+`$headers` = ?, string `$body` = ?)
 
 }
 

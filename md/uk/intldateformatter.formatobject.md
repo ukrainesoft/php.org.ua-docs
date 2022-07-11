@@ -9,7 +9,7 @@
 
 # datefmt_format_object
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL intl u003d 3.0.0)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
 
 IntlDateFormatter::formatObject -- datefmt_format_object — Форматує
 об'єкт
@@ -20,14 +20,14 @@ IntlDateFormatter::formatObject -- datefmt_format_object — Форматує
 
 public static
 **IntlDateFormatter::formatObject**([IntlCalendar](class.intlcalendar.md)\|[DateTime](class.datetime.md)
-`$datetime`, array\|int\|string\|null `$format` u003d **`null`**, ?string
-`$locale` u003d **`null`**): string\|false
+`$datetime`, array\|int\|string\|null `$format` = **`null`**, ?string
+`$locale` = **`null`**): string\|false
 
 Процедурний стиль
 
 **datefmt_format_object**([IntlCalendar](class.intlcalendar.md)\|[DateTimeInterface](class.datetimeinterface.md)
-`$datetime`, array\|int\|string\|null `$format` u003d **`null`**, ?string
-`$locale` u003d **`null`**): string\|false
+`$datetime`, array\|int\|string\|null `$format` = **`null`**, ?string
+`$locale` = **`null`**): string\|false
 
 Функція дозволяє форматувати об'єкт
 [IntlCalendar](class.intlcalendar.md) або

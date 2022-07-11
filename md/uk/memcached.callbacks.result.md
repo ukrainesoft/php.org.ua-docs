@@ -16,23 +16,23 @@
 
 **Приклад #1 Приклад функції зворотного дзвінка**
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$items u003d array(    'key1' u003d> 'value1',    'key'  ' u003d> 'value3');$m->setMulti($items);$m->getDelayed(array('key1', 'key3'), true, 'result_cb');function result_cb($memc, $item ){   var_dump($item);}?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$items = array(    'key1' => 'value1',    'key'  ' => 'value3');$m->setMulti($items);$m->getDelayed(array('key1', 'key3'), true, 'result_cb');function result_cb($memc, $item ){   var_dump($item);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["key"]u003d>
+["key"]=>
 string(4) "key1"
-["value"]u003d>
+["value"]=>
 string(6) "value1"
-["cas"]u003d>
+["cas"]=>
 float(49)
 }
 array(3) {
-["key"]u003d>
+["key"]=>
 string(4) "key3"
-["value"]u003d>
+["value"]=>
 string(6) "value3"
-["cas"]u003d>
+["cas"]=>
 float(50)
 }

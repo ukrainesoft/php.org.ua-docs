@@ -7,13 +7,13 @@
 
 # opcache_invalidate
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \>u003d 7.0.0)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \>= 7.0.0)
 
 opcache_invalidate — Анулює закешований скрипт
 
 ### Опис
 
-**opcache_invalidate**(string `$filename`, bool `$force` u003d **`false`**):
+**opcache_invalidate**(string `$filename`, bool `$force` = **`false`**):
 bool
 
 Функція анулює закешований скрипт. Якщо параметр `force` не заданий

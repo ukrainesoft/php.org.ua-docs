@@ -7,7 +7,7 @@
 
 # LuaSandboxFunction::dump
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandboxFunction::dump — Вивантажує функцію у вигляді BLOB
 

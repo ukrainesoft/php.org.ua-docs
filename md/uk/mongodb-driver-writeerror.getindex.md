@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteError::getIndex
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteError::getIndex — Повертає індекс запису,
 що відповідає цьому WriteError
@@ -36,7 +36,7 @@ final public **MongoDB\Driver\WriteError::getIndex**(): int
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteError::getIndex()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' u003d> 1]);$bulk->insert(['_id' u003d> 1]);try { {   $manager->executeBulkWrite('db.collection', $bulk);} catch(MongoDB\Driver\Exception\BulkWriteException$$e) {    var_dump ()[0]->getIndex());}?> `
+` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1]);$bulk->insert(['_id' => 1]);try { {   $manager->executeBulkWrite('db.collection', $bulk);} catch(MongoDB\Driver\Exception\BulkWriteException$$e) {    var_dump ()[0]->getIndex());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

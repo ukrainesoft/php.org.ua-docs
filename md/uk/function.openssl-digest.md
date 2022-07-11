@@ -7,14 +7,14 @@
 
 # openssl_digest
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 openssl_digest - Обчислення дайджесту
 
 ### Опис
 
 **openssl_digest**(string `$data`, string `$digest_algo`, bool `$binary`
-u003d **`false`**): string\|false
+= **`false`**): string\|false
 
 Обчислює значення дайджесту для переданих даних за допомогою зазначеного
 методу. Повертає необроблений рядок або рядок шістнадцяткових

@@ -7,7 +7,7 @@
 
 # Клас GearmanWorker
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 ## Вступ
 
@@ -21,16 +21,16 @@ public [addFunction](gearmanworker.addfunction.md)(
 string `$function_name`,
 [callable](language.types.callable.md) `$function`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-int `$timeout` u003d ?
+`&$context` = ?,
+int `$timeout` = ?
 ): bool
 
 public [addOptions](gearmanworker.addoptions.md)(int `$option`): bool
 
-public [addServer](gearmanworker.addserver.md)(string `$host` u003d
-127.0.0.1, int `$port` u003d 4730): bool
+public [addServer](gearmanworker.addserver.md)(string `$host` =
+127.0.0.1, int `$port` = 4730): bool
 
-public [addServers](gearmanworker.addservers.md)(string `$servers` u003d
+public [addServers](gearmanworker.addservers.md)(string `$servers` =
 127.0.0.1:4730): bool
 
 public [clone](gearmanworker.clone.md)(): void
@@ -46,7 +46,7 @@ public [getErrno](gearmanworker.geterrno.md)(): int
 public [options](gearmanworker.options.md)(): int
 
 public [register](gearmanworker.register.md)(string `$function_name`,
-int `$timeout` u003d ?): bool
+int `$timeout` = ?): bool
 
 public [removeOptions](gearmanworker.removeoptions.md)(int `$option`):
 bool

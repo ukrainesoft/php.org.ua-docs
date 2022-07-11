@@ -7,14 +7,14 @@
 
 # session_cache_limiter
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 session_cache_limiter — Отримати та/або встановити поточний режим
 кешування
 
 ### Опис
 
-**session_cache_limiter**(?string `$value` u003d **`null`**): string\|false
+**session_cache_limiter**(?string `$value` = **`null`**): string\|false
 
 **session_cache_limiter()** повертає ім'я поточного режиму кешування.
 
@@ -59,14 +59,14 @@ session_cache_limiter — Отримати та/або встановити по
 ### Список змін
 
 | Версія | Опис                                   |
-| ------ | -------------------------------------- |
+|--------|----------------------------------------|
 | 8.0.0  | value може набувати значення **null**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **session_cache_limiter()****
 
-` <?php/* встановити режим кешування на 'private' */session_cache_limiter('private');$cache_limiter u003d session_cache_limiter();echo "Режим кешування <$>< >
+` <?php/* встановити режим кешування на 'private' */session_cache_limiter('private');$cache_limiter = session_cache_limiter();echo "Режим кешування <$>< >
 
 ### Дивіться також
 

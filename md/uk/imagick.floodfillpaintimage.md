@@ -7,7 +7,7 @@
 
 # Imagick::floodFillPaintImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::floodFillPaintImage — Змінює значення кольору будь-якого пікселя,
 відповідного цільового
@@ -23,7 +23,7 @@ float `$fuzz`,
 int `$x`,
 int `$y`,
 bool `$invert`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Змінює значення кольору будь-якого пікселя, що відповідає цільовому та
@@ -69,7 +69,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::floodfillPaintImage()****
 
-` <?php/* Створення нового об'єкта Imagick */$im u003d new Imagick();/* Створення червоних, зелених і синіх зображення */$im->newImage(100, >>> newImage(100, 50, "green");$im->newImage(100, 50, "blue");/* Складання зображень в одне*/$im->resetIterator();$combined u003d $im->appendImages (true);/* Збереження проміжного зображення для порівнення */$combined->writeImage("floodfillpaint_intermediate.png");/* Цільовий піксель для малювання */$x u003d 1;$ | малюємо */$target u003d $combined->getImagePixelColor($x, $y);/* Зафарбовування пікселя в позиції 1,1 чорним і всіх сусідних пікселів,         , $target, $x, $y, false);/* Збереження результату */$combined->writeImage("floodfillpaint_result.png");?> `
+` <?php/* Створення нового об'єкта Imagick */$im = new Imagick();/* Створення червоних, зелених і синіх зображення */$im->newImage(100, >>> newImage(100, 50, "green");$im->newImage(100, 50, "blue");/* Складання зображень в одне*/$im->resetIterator();$combined = $im->appendImages (true);/* Збереження проміжного зображення для порівнення */$combined->writeImage("floodfillpaint_intermediate.png");/* Цільовий піксель для малювання */$x = 1;$ | малюємо */$target = $combined->getImagePixelColor($x, $y);/* Зафарбовування пікселя в позиції 1,1 чорним і всіх сусідних пікселів,         , $target, $x, $y, false);/* Збереження результату */$combined->writeImage("floodfillpaint_result.png");?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

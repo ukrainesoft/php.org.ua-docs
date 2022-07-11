@@ -7,7 +7,7 @@
 
 # Gmagick::getimagefilename
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagefilename — Повертає ім'я певного файлу.
 у послідовності

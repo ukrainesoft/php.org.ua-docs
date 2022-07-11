@@ -13,8 +13,8 @@ ReflectionProperty::getAttributes — Отримує атрибути
 
 ### Опис
 
-public **ReflectionProperty::getAttributes**(?string `$name` u003d
-**`null`**, int `$flags` u003d 0): array
+public **ReflectionProperty::getAttributes**(?string `$name` =
+**`null`**, int `$flags` = 0): array
 
 Повертає всі атрибути, оголошені у цій властивості класу, як
 масиву [ReflectionAttribute](class.reflectionattribute.md).

@@ -7,7 +7,7 @@
 
 # Ds\Queue::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::toArray — Перетворює колекцію на масив (array)
 
@@ -38,15 +38,15 @@ public **Ds\Queue::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Queue::toArray()****
 
-` <?php$queue u003d new \Ds\Queue([1, 2, 3]);var_dump($queue->toArray());?> `
+` <?php$queue = new \Ds\Queue([1, 2, 3]);var_dump($queue->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

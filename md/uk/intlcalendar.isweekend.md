@@ -7,7 +7,7 @@
 
 # IntlCalendar::isWeekend
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::isWeekend — Визначає, чи припадають певні
 дата/час на вихідні
@@ -16,13 +16,13 @@ IntlCalendar::isWeekend — Визначає, чи припадають певн
 
 Об'єктно-орієнтований стиль
 
-public **IntlCalendar::isWeekend**(?float `$timestamp` u003d **`null`**):
+public **IntlCalendar::isWeekend**(?float `$timestamp` = **`null`**):
 bool
 
 Процедурний стиль
 
 **intlcal_is_weekend**([IntlCalendar](class.intlcalendar.md)
-`$calendar`, ?float `$timestamp` u003d **`null`**): bool
+`$calendar`, ?float `$timestamp` = **`null`**): bool
 
 Повертає, чи є поточний час об'єкта чи задана тимчасова
 мітка вихідними у календарній системі цього об'єкта.
@@ -54,7 +54,7 @@ bool
 
 **Приклад #1 Приклад використання **IntlCalendar::isWeekend()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');$cal u003d new IntlGregorianCalendar(NULL, 'en_US');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // truevar_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понеділок$cal u003d new IntlGregorianCalendar(NULL, 'ar_SA');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // false, неділя не є вихідним днем в цьому календарі `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');$cal = new IntlGregorianCalendar(NULL, 'en_US');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // truevar_dump($cal->isWeekend(strtotime('2013-07-01 00:00:00'))); // false, Понеділок$cal = new IntlGregorianCalendar(NULL, 'ar_SA');$cal->set(2013, 6 /* Липень */, 7); // Неділяvar_dump($cal->isWeekend()); // false, неділя не є вихідним днем в цьому календарі `
 
 ### Дивіться також
 

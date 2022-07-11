@@ -7,7 +7,7 @@
 
 # fann_merge_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_merge_train_data — Об'єднує навчальні дані
 

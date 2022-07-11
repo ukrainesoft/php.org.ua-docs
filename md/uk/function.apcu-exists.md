@@ -7,7 +7,7 @@
 
 # apcu_exists
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_exists — Перевіряє, чи є записи
 
@@ -34,16 +34,16 @@ apcu_exists — Перевіряє, чи є записи
 
 **Приклад #1 Приклад використання **apcu_exists()****
 
-` <?php$fruit  u003d 'apple';$veggie u003d 'carrot';apcu_store('foo', $fruit);apcu_store('bar', $veggie);if (apcu_exists('foo')) {   | Foo с: "; echo apcu_fetch('foo');} else {   echo "Foo не існує";}echo PHP_EOL;if (apcu_exists('baz')) { є|є| }echo PHP_EOL;$ret u003d apcu_exists(array('foo', 'donotexist', 'bar'));var_dump($ret);?> `
+` <?php$fruit  = 'apple';$veggie = 'carrot';apcu_store('foo', $fruit);apcu_store('bar', $veggie);if (apcu_exists('foo')) {   | Foo с: "; echo apcu_fetch('foo');} else {   echo "Foo не існує";}echo PHP_EOL;if (apcu_exists('baz')) { є|є| }echo PHP_EOL;$ret = apcu_exists(array('foo', 'donotexist', 'bar'));var_dump($ret);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Foo існує: apple
 Baz не існує
 array(2) {
-["foo"]u003d>
+["foo"]=>
 bool(true)
-["bar"]u003d>
+["bar"]=>
 bool(true)
 }
 

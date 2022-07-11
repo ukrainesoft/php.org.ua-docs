@@ -30,16 +30,16 @@ stream_get_filters — Отримати список зареєстровани�
 
 **Приклад #1 Приклад використання функції **stream_get_filters()****
 
-` <?php$streamlist u003d stream_get_filters();print_r($streamlist);?> `
+` <?php$streamlist = stream_get_filters();print_r($streamlist);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array (
-[0] u003d> string.rot13
-[1] u003d> string.toupper
-[2] u003d> string.tolower
-[3] u003d> string.base64
-[4] u003d> string.quoted-printable
+[0] => string.rot13
+[1] => string.toupper
+[2] => string.tolower
+[3] => string.base64
+[4] => string.quoted-printable
 )
 
 ### Дивіться також

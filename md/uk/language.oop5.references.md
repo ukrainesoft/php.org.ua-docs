@@ -23,9 +23,9 @@
 
 **Приклад #1 Посилання та об'єкти**
 
-` <?phpclass A {    public $foo u003d 1;}$a u003d new A;$b u003d $a; // $a і $b - копії одного ідентифікатора              // ($a) u003d ($b) u003d <id>$b->foo u003d 2;echo|.
-";$c u003d new A;$d u003d &$c;    // $c і $d - посилання              // ($c,$d) u003d > foo."
-";$e u003d new A;function foo($obj) {    // ($obj) u003d ($e) u003d <id>   $obj->foo u003d 2;}foo($e);echo$ foo."
+` <?phpclass A {    public $foo = 1;}$a = new A;$b = $a; // $a і $b - копії одного ідентифікатора              // ($a) = ($b) = <id>$b->foo = 2;echo|.
+";$c = new A;$d = &$c;    // $c і $d - посилання              // ($c,$d) = > foo."
+";$e = new A;function foo($obj) {    // ($obj) = ($e) = <id>   $obj->foo = 2;}foo($e);echo$ foo."
 ";?> `
 
 Результат виконання цього прикладу:

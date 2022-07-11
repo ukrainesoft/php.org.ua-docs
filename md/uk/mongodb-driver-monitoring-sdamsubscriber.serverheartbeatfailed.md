@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed - Метод
 повідомлення про невдалий heartbeat сервера

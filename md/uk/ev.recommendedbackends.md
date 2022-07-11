@@ -7,7 +7,7 @@
 
 # Ev:: recommendedBackends
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 Ev::recommendedBackends — Отримати бітову маску рекомендованих
 бекендів для даної платформи
@@ -38,7 +38,7 @@ final public static **Ev::recommendedBackends**(): int
 
 **Приклад #1 Вбудовування одного циклу в інший**
 
-` <?php/** Попытаемся получить встраиваемый событийный цикл и встроить его в* событийный цикл по умолчанию.* Если это невозможно - используем цикл по умолчанию.* Цикл по умолчанию хранится в $loop_hi, а встраиваемый в $loop_lo* (который равен $loop_hi в випадку, якщо не можна використовувати вбудований цикл).** Приклад взято з сайту* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9*/ $loop_hi u003d EvLoop::defaultLoop();$loop_lo u003d NULL;$embed   u003d NULL;/** Дивимося, якщо хоч би один відповіднийбекенд* (флаг & Ev::recommendedBackends() ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends()) : 0;if ($loop_lo) { $embed u003d nev EvEmbed($loop_lo, function $ ;}?> `
+` <?php/** Попытаемся получить встраиваемый событийный цикл и встроить его в* событийный цикл по умолчанию.* Если это невозможно - используем цикл по умолчанию.* Цикл по умолчанию хранится в $loop_hi, а встраиваемый в $loop_lo* (который равен $loop_hi в випадку, якщо не можна використовувати вбудований цикл).** Приклад взято з сайту* http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Examples_CONTENT-9*/ $loop_hi = EvLoop::defaultLoop();$loop_lo = NULL;$embed   = NULL;/** Дивимося, якщо хоч би один відповіднийбекенд* (флаг & Ev::recommendedBackends() ? new EvLoop(Ev::embeddableBackends() & Ev::recommendedBackends()) : 0;if ($loop_lo) { $embed = nev EvEmbed($loop_lo, function $ ;}?> `
 
 ### Дивіться також
 

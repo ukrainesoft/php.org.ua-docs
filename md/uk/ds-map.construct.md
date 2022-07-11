@@ -7,7 +7,7 @@
 
 # Ds\Map::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::\_\_construct — Створює новий екземпляр
 
@@ -30,32 +30,32 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::\_\_construct()****
 
-` <?php$map u003d new \Ds\Map();var_dump($map);$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, "c" u003d> 3]); var_dump($map);?> `
+` <?php$map = new \Ds\Map();var_dump($map);$map = new \Ds\Map(["a" => 1, "b" => 2, "c" => 3]); var_dump($map);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#1 (0) {
 }
 object(Ds\Map)#2 (3) {
-[0]u003d>
+[0]=>
 object(Ds\Pair)#1 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "a"
-["value"]u003d>
+["value"]=>
 int(1)
 }
-[1]u003d>
+[1]=>
 object(Ds\Pair)#3 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "b"
-["value"]u003d>
+["value"]=>
 int(2)
 }
-[2]u003d>
+[2]=>
 object(Ds\Pair)#4 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "c"
-["value"]u003d>
+["value"]=>
 int(3)
 }
 }

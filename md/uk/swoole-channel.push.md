@@ -7,7 +7,7 @@
 
 # Swoole\Channel::push
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Channel::push — Записує та передає дані у канал Swoole
 

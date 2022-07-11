@@ -8,15 +8,15 @@
 
 # svn_add
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_add — Додає елементи до списку запланованих для додавання до
 робочу копію
 
 ### Опис
 
-**svn_add**(string `$path`, bool `$recursive` u003d **`true`**, bool
-`$force` u003d **`false`**): bool
+**svn_add**(string `$path`, bool `$recursive` = **`true`**, bool
+`$force` = **`false`**): bool
 
 Додає файл, папку або символічне посилання 'path' у робочу копію.
 Дані будуть додані до репозиторію при наступному виклику методу

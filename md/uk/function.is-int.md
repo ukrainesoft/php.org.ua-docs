@@ -38,17 +38,17 @@ is_int — Перевіряє, чи змінна є цілим числом
 
 **Приклад #1 Приклад використання **is_int()****
 
-`<?php$values u003d array(23, "23", 23.5, "23.5", null, true, false);foreach ($values as $value) {           ") u003d "; var_dump(is_int($value));}?> `
+`<?php$values = array(23, "23", 23.5, "23.5", null, true, false);foreach ($values as $value) {           ") = "; var_dump(is_int($value));}?> `
 
 Результат виконання цього прикладу:
 
-is_int(23) u003d bool(true)
-is_int('23') u003d bool(false)
-is_int(23.5) u003d bool(false)
-is_int('23.5') u003d bool(false)
-is_int(NULL) u003d bool(false)
-is_int(true) u003d bool(false)
-is_int(false) u003d bool(false)
+is_int(23) = bool(true)
+is_int('23') = bool(false)
+is_int(23.5) = bool(false)
+is_int('23.5') = bool(false)
+is_int(NULL) = bool(false)
+is_int(true) = bool(false)
+is_int(false) = bool(false)
 
 ### Дивіться також
 

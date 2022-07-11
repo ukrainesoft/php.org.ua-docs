@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\ReadConcern
 
-(mongodb \>u003d1.1.0)
+(mongodb \>=1.1.0)
 
 ## Вступ
 
@@ -23,15 +23,15 @@ final class **MongoDB\Driver\ReadConcern** implements
 
 /\* Константи \*/
 
-const string `AVAILABLE` u003d "available";
+const string `AVAILABLE` = "available";
 
-const string `LINEARIZABLE` u003d "linearizable";
+const string `LINEARIZABLE` = "linearizable";
 
-const string `LOCAL` u003d "local";
+const string `LOCAL` = "local";
 
-const string `MAJORITY` u003d "majority";
+const string `MAJORITY` = "majority";
 
-const string `SNAPSHOT` u003d "snapshot";
+const string `SNAPSHOT` = "snapshot";
 
 /\* Методи \*/
 
@@ -40,7 +40,7 @@ final public
 
 final public
 [\_\_construct](mongodb-driver-readconcern.construct.md)(string
-`$level` u003d ?)
+`$level` = ?)
 
 final public [getLevel](mongodb-driver-readconcern.getlevel.md)():
 ?string

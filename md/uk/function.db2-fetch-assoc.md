@@ -8,14 +8,14 @@
 
 #db2_fetch_assoc
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_fetch_assoc — Повертає масив, індексований на ім'я стовпця,
 представляє рядок у наборі результатів
 
 ### Опис
 
-**db2_fetch_assoc**(resource `$stmt`, int `$row_number` u003d -1): array
+**db2_fetch_assoc**(resource `$stmt`, int `$row_number` = -1): array
 
 Повертає масив, індексований на ім'я стовпця, що представляє
 рядок у наборі результатів.
@@ -45,7 +45,7 @@ db2_fetch_assoc — Повертає масив, індексований на �
 Якщо ви викликаєте **db2_fetch_assoc()** без певного номера рядка,
 він автоматично отримує наступний рядок у наборі результатів.
 
-` <?php$sql u003d "SELECT id, name, breed, weight FROM animals ORDER BY breed";$stmt u003d db2_prepare($conn, $sql);$result u003d db2_execute($smt ($stmt)) {    printf ("%-5d %-16s %-32s %10s
+` <?php$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";$stmt = db2_prepare($conn, $sql);$result = db2_execute($smt ($stmt)) {    printf ("%-5d %-16s %-32s %10s
 ",        $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);}?> `
 
 Результат виконання цього прикладу:
@@ -62,8 +62,8 @@ db2_fetch_assoc — Повертає масив, індексований на �
 наступний приклад витягується кожен другий рядок у наборі результатів,
 починаючи з другого рядка.
 
-` <?php$sql u003d "SELECT id, name, breed, weight FROM animals ORDER BY breed";$result u003d db2_exec($stmt, $sql, array('cursor' u003d> DB2_SCR while($row u003d db2_fetch_assoc($result, $i)) {    printf ("%-5d %-16s %-32s %10s
-",       $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);    $i u003d $i + 2;}?> `
+` <?php$sql = "SELECT id, name, breed, weight FROM animals ORDER BY breed";$result = db2_exec($stmt, $sql, array('cursor' => DB2_SCR while($row = db2_fetch_assoc($result, $i)) {    printf ("%-5d %-16s %-32s %10s
+",       $row['ID'], $row['NAME'], $row['BREED'], $row['WEIGHT']);    $i = $i + 2;}?> `
 
 Результат виконання цього прикладу:
 

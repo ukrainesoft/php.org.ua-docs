@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros
 — Повертає тривалість heartbeat у мікросекундах

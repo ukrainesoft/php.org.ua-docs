@@ -7,7 +7,7 @@
 
 # Swoole\Table::exist
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::exist — Перевіряє, чи існує рядок $row_key
 

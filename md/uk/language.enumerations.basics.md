@@ -21,7 +21,7 @@
 перевірено на відповідність типу перерахування і в цьому випадку може бути
 передані лише значення цього типу.
 
-` <?phpfunction pick_a_card(Suit $suit) { ... }$val u003d Suit::Diamonds;// OKpick_a_card($val);// OKpick_a_card(Suit::Clubs);// TypeError: #1 ($suit) must be of type Suit, string givenpick_a_card('Spades');?> `
+` <?phpfunction pick_a_card(Suit $suit) { ... }$val = Suit::Diamonds;// OKpick_a_card($val);// OKpick_a_card(Suit::Clubs);// TypeError: #1 ($suit) must be of type Suit, string givenpick_a_card('Spades');?> `
 
 Перелік може мати нуль або більше варіантів `case` без
 обмежень. Перерахування без варіантів синтаксично коректне, хоч і
@@ -35,7 +35,7 @@
 підтримується одноелементним об'єктом із таким ім'ям. Це означає,
 що:
 
-` <?php$a u003d Suit::Spades;$b u003d Suit::Spades;$a u003du003du003d $b; // True $ a Instanceof Suit; // true?> `
+` <?php$a = Suit::Spades;$b = Suit::Spades;$a === $b; // True $ a Instanceof Suit; // true?> `
 
 Це також означає, що значення переліку ніколи не є `<`
 або `>` один з одним, оскільки ці порівняння не мають сенсу для

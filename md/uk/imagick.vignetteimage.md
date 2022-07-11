@@ -45,7 +45,7 @@ Imagick був скомпілюваний з версією ImageMagick 6.2.9 а
 
 **Приклад #1 Приклад використання **Imagick::vignetteImage()****
 
-`<?phpfunction vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->vignetteImage($blackPoint, $whitePoint, $x, $y); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction vignetteImage($imagePath, $blackPoint, $whitePoint, $x, $y) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->vignetteImage($blackPoint, $whitePoint, $x, $y); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

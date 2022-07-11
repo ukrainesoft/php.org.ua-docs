@@ -7,7 +7,7 @@
 
 # VarnishLog::getLine
 
-(PECL varnish \>u003d 0.6)
+(PECL varnish \>= 0.6)
 
 VarnishLog::getLine — Отримати наступний рядок журналу
 

@@ -7,14 +7,14 @@
 
 # SplFileInfo::openFile
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::openFile — Отримує об'єкт SplFileObject для файлу
 
 ### Опис
 
-public **SplFileInfo::openFile**(string `$mode` u003d "r", bool
-`$useIncludePath` u003d **`false`**, ?resource `$context` u003d **`null`**):
+public **SplFileInfo::openFile**(string `$mode` = "r", bool
+`$useIncludePath` = **`false`**, ?resource `$context` = **`null`**):
 [SplFileObject](class.splfileobject.md)
 
 Створює об'єкт (object) [SplFileObject](class.splfileobject.md) файлу.
@@ -51,14 +51,14 @@ public **SplFileInfo::openFile**(string `$mode` u003d "r", bool
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | 'context' тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::openFile()****
 
-` <?php$fileinfo u003d new SplFileInfo('/tmp/foo.txt');if ($fileinfo->isWritable()) {   $fileobj u003d $fileinfo->openFile('a'); $fileobj->fwrite("зразок тексту");}?> `
+` <?php$fileinfo = new SplFileInfo('/tmp/foo.txt');if ($fileinfo->isWritable()) {   $fileobj = $fileinfo->openFile('a'); $fileobj->fwrite("зразок тексту");}?> `
 
 ### Дивіться також
 

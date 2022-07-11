@@ -9,7 +9,7 @@
 
 #rar_entry_get
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::getEntry -- rar_entry_get — Повертає об'єкт елемента з
 RAR архів
@@ -59,7 +59,7 @@ public **RarArchive::getEntry**(string `$entryname`):
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$rar_arch u003d RarArchive::open('solid.rar');if ($rar_arch u003du003du003d FALSE)    die("Не зміг відкрити RAR архів.");$rar_entry u003d $rar_ar tese.txt');if($rar_entry u003du003du003d FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
+` <?php$rar_arch = RarArchive::open('solid.rar');if ($rar_arch === FALSE)    die("Не зміг відкрити RAR архів.");$rar_entry = $rar_ar tese.txt');if($rar_entry === FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
 ";echo $rar_entry;$rar_arch->close();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -69,7 +69,7 @@ RarEntry для файлу "tese.txt" (23b93a7a)
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$rar_arch u003d rar_open('solid.rar');if ($rar_arch u003du003du003d FALSE)   die("Не зміг відкрити RAR архів.");$rar_entryu003d rar_entry_get('t''t );if ($rar_entry u003du003du003d FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
+` <?php$rar_arch = rar_open('solid.rar');if ($rar_arch === FALSE)   die("Не зміг відкрити RAR архів.");$rar_entry= rar_entry_get('t''t );if ($rar_entry === FALSE)    die("Не зміг дістати цей|об'єкт");echo get_class($rar_entry)."
 ";echo $rar_entry;rar_close($rar_arch);?> `
 
 ### Дивіться також

@@ -70,7 +70,7 @@ string `$types`,
 значення змінної, що прив'язується:
 
 | Символ | Опис                                                                              |
-| ------ | --------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------|
 | i      | відповідна змінна має тип integer                                                 |
 | d      | відповідна змінна має тип double                                                  |
 | s      | відповідна змінна має тип string                                                  |
@@ -94,13 +94,13 @@ string `$types`,
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli('localhost', 'my_user', 'my_password', 'world');$stmt u003d $my ?, ?, ?)");$stmt->bind_param('sssd', $code, $language, $official, $percent);$code u003d 'DEU';$language u003d 'Bavarian';$official u003d F";$percent u003d 11.2;$stmt->execute();printf("рядок додано: %d.
-", $stmt->affected_rows);/* Clean up table CountryLanguage */$mysqli->query("DELETE FROM CountryLanguage WHERE Languageu003d'Bavarian'");printf("рядок уда.
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world');$stmt = $my ?, ?, ?)");$stmt->bind_param('sssd', $code, $language, $official, $percent);$code = 'DEU';$language = 'Bavarian';$official = F";$percent = 11.2;$stmt->execute();printf("рядок додано: %d.
+", $stmt->affected_rows);/* Clean up table CountryLanguage */$mysqli->query("DELETE FROM CountryLanguage WHERE Language='Bavarian'");printf("рядок уда.
 ", $mysqli->affected_rows); `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect('localhost', 'my_user', 'my_password', 'world')|$? ?, ?)");mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);$code u003d 'DEU';$language u003d 'Bavarian';$official| $percentu003d11.2;mysqli_stmt_execute($stmt);printf("рядок|додано:%d.
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect('localhost', 'my_user', 'my_password', 'world')|$? ?, ?)");mysqli_stmt_bind_param($stmt, 'sssd', $code, $language, $official, $percent);$code = 'DEU';$language = 'Bavarian';$official| $percent=11.2;mysqli_stmt_execute($stmt);printf("рядок|додано:%d.
 ", Mysqli_stmt_affected_rows($stmt));
 "mysqli_affected_rows($link));
 
@@ -114,7 +114,7 @@ string `$types`,
 Оператор `...` може використовуватись для надання списку аргументів
 змінної довжини, наприклад, у конструкції `WHERE IN`.
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli('localhost', 'my_user', 'my_password', 'world') (?, ?)");/* використання ... для надання аргументів */$stmt->bind_param('ss', ...['DEU', 'POL']);$stmt->execute() ;$stmt->store_result();printf("знайдено рядок: %d.
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'world') (?, ?)");/* використання ... для надання аргументів */$stmt->bind_param('ss', ...['DEU', 'POL']);$stmt->execute() ;$stmt->store_result();printf("знайдено рядок: %d.
 ", $stmt->num_rows());
 
 Результат виконання даних прикладів:

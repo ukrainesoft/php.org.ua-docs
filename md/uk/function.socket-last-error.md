@@ -7,13 +7,13 @@
 
 # socket_last_error
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_last_error — Повертає останню помилку на сокеті
 
 ### Опис
 
-**socket_last_error**(?[Socket](class.socket.md) `$socket` u003d
+**socket_last_error**(?[Socket](class.socket.md) `$socket` =
 **`null`**): int
 
 Якщо екземпляр [Socket](class.socket.md) передано цієї функції, то
@@ -45,7 +45,7 @@ socket_last_error — Повертає останню помилку на сок
 ### Список змін
 
 | Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------|
 | 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 | 8.0.0  | socket тепер припускає значення null.                                                   |
 
@@ -53,7 +53,7 @@ socket_last_error — Повертає останню помилку на сок
 
 **Приклад #1 Приклад використання **socket_last_error()****
 
-` <?php$socket u003d @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if ($socket u003du003du003d false) {    $errorcode u003d socket_last_error(); $errormsgu003du003dsocket_strerror($errorcode); die("Не можу створити сокет: [$errorcode] $errormsg");}?> `
+` <?php$socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if ($socket === false) {    $errorcode = socket_last_error(); $errormsg==socket_strerror($errorcode); die("Не можу створити сокет: [$errorcode] $errormsg");}?> `
 
 ### Примітки
 

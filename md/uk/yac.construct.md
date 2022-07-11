@@ -7,13 +7,13 @@
 
 # Yac::\_\_construct
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 Yac::\_\_construct - Конструктор класу
 
 ### Опис
 
-public **Yac::\_\_construct**(string `$prefix` u003d "")
+public **Yac::\_\_construct**(string `$prefix` = "")
 
 Префікс використовується для додавання ключів, його можна використовувати для
 запобігання конфліктам між додатками.

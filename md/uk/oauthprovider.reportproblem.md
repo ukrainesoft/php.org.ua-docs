@@ -7,14 +7,14 @@
 
 # OAuthProvider::reportProblem
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::reportProblem — Повідомити про проблему
 
 ### Опис
 
 final public static **OAuthProvider::reportProblem**(string
-`$oauthexception`, bool `$send_headers` u003d **`true`**): string
+`$oauthexception`, bool `$send_headers` = **`true`**): string
 
 Передати проблему як виняток
 [OAuthException](class.oauthexception.md). Допустимі проблеми

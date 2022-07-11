@@ -12,4 +12,4 @@
 
 **Приклад #1 Приклади використання Gmagick**
 
-` <?php// Створюємо новий об'єкт Gmagick$image u003d new Gmagick('example.jpg');// Створюємо зменшену копію зображення. 0 для збереження пропорцій. , 8, 8)->oilpaintimage(0.3);// Записуємо отримане зображення в файл$image->write('example_thumbnail.jpg');?> `
+` <?php// Створюємо новий об'єкт Gmagick$image = new Gmagick('example.jpg');// Створюємо зменшену копію зображення. 0 для збереження пропорцій. , 8, 8)->oilpaintimage(0.3);// Записуємо отримане зображення в файл$image->write('example_thumbnail.jpg');?> `

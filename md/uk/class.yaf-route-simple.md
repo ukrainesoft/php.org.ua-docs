@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Simple
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -41,7 +41,7 @@ public [\_\_construct](yaf-route-simple.construct.md)(string
 `$module_name`, string `$controller_name`, string `$action_name`)
 
 public [assemble](yaf-route-simple.assemble.md)(array `$info`, array
-`$query` u003d ?): string
+`$query` = ?): string
 
 public
 [route](yaf-route-simple.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)

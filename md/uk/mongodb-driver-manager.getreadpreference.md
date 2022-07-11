@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::getReadPreference
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::getReadPreference — Повертає ReadPreference
 для Manager
@@ -42,32 +42,32 @@ final public **MongoDB\Driver\Manager::getReadPreference**():
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Manager::getReadPreference()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getReadPreference());$manager u003d new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?readPreferenceu003dsecondaryPreferred&readPreferenceTagsu003ddc:ny,rack:1&readPreferenceTagsu003ddc:ny&readPreferenceTagsu003d');var_dump($manager->getReadPreference());?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getReadPreference());$manager = new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?readPreference=secondaryPreferred&readPreferenceTags=dc:ny,rack:1&readPreferenceTags=dc:ny&readPreferenceTags=');var_dump($manager->getReadPreference());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\ReadPreference)#2 (1) {
-["mode"]u003d>
+["mode"]=>
 string(7) "primary"
 }
 object(MongoDB\Driver\ReadPreference)#1 (2) {
-["mode"]u003d>
+["mode"]=>
 string(18) "secondaryPreferred"
-["tags"]u003d>
+["tags"]=>
 array(3) {
-[0]u003d>
+[0]=>
 object(stdClass)#3 (2) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
-["rack"]u003d>
+["rack"]=>
 string(1) "1"
 }
-[1]u003d>
+[1]=>
 object(stdClass)#4 (1) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
 }
-[2]u003d>
+[2]=>
 object(stdClass)#5 (0) {
 }
 }

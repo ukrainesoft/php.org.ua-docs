@@ -32,7 +32,7 @@ quick_print. quick_print за замовчуванням вимкнено.
 
 **Приклад #1 Приклад використання **snmp_get_quick_print()****
 
-` <?php$quickprint u003d snmp_get_quick_print();?> `
+` <?php$quickprint = snmp_get_quick_print();?> `
 
 ### Дивіться також
 

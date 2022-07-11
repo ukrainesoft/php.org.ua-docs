@@ -7,7 +7,7 @@
 
 # fann_set_bit_fail_limit
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_bit_fail_limit — Встановлює межу помилок, що використовується в
 час навчання

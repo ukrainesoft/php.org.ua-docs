@@ -7,7 +7,7 @@
 
 # Memcached::replace
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::replace — Замінює існуючий запис із зазначеним ключем
 
@@ -15,7 +15,7 @@ Memcached::replace — Замінює існуючий запис із зазн�
 
 public **Memcached::replace**(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` u003d ?): bool
+`$value`, int `$expiration` = ?): bool
 
 **Memcached::replace()** схожий на метод
 [Memcached::set()](memcached.set.md), але операція завершиться невдачею

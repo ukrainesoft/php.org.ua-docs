@@ -7,7 +7,7 @@
 
 # register_tick_function
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 register_tick_function — Реєструє функцію для виконання при кожному
 тиці
@@ -38,7 +38,7 @@ register_tick_function — Реєструє функцію для виконан
 
 **Приклад #1 Приклад використання **register_tick_function()****
 
-` <?phpdeclare(ticks u003d 1); , true);?> `
+` <?phpdeclare(ticks = 1); , true);?> `
 
 ### Дивіться також
 

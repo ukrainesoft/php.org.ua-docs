@@ -7,7 +7,7 @@
 
 #array_product
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 array_product — Обчислити добуток значень масиву
 
@@ -30,11 +30,11 @@ array_product — Обчислити добуток значень масиву
 
 **Приклад #1 Приклади використання **array_product()****
 
-` <?php$a u003d array(2, 4, 6, 8);echo "product(a) u003d " . array_product($a) . "
-";echo "product(array()) u003d " . array_product(array()) . "
+` <?php$a = array(2, 4, 6, 8);echo "product(a) = " . array_product($a) . "
+";echo "product(array()) = " . array_product(array()) . "
 ";?> `
 
 Результат виконання цього прикладу:
 
-product(a) u003d 384
-product(array()) u003d 1
+product(a) = 384
+product(array()) = 1

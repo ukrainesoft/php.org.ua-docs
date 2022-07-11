@@ -7,7 +7,7 @@
 
 # intl_error_name
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 intl_error_name — Отримати ім'я помилки за її кодом
 
@@ -31,7 +31,7 @@ intl_error_name — Отримати ім'я помилки за її кодом
 
 **Приклад #1 Приклад використання **intl_error_name()****
 
-` <?php$coll     u003d collator_create( 'en_RU' );$err_code u003d collator_get_error_code( $coll );printf( "Символічне ім'я для %d - %s
+` <?php$coll     = collator_create( 'en_RU' );$err_code = collator_get_error_code( $coll );printf( "Символічне ім'я для %d - %s
 .", $err_code, intl_error_name( $err_code ) );?> `
 
 Результатом виконання цього прикладу буде щось подібне:

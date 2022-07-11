@@ -7,7 +7,7 @@
 
 # Worker::stack
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Worker::stack — Покласти завдання на стек
 
@@ -31,7 +31,7 @@ Worker.
 
 **Приклад #1 Приміщення задачі на стек Worker для її запуску**
 
-` <?php$worker u003d new Worker();$work u003d new class extends Threaded {};var_dump($worker->stack($work)); `
+` <?php$worker = new Worker();$work = new class extends Threaded {};var_dump($worker->stack($work)); `
 
 Результат виконання цього прикладу:
 

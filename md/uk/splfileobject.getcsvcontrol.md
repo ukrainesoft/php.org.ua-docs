@@ -7,7 +7,7 @@
 
 # SplFileObject::getCsvControl
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 SplFileObject::getCsvControl — Отримує символи роздільника, обгортання
 та екранування для CSV
@@ -32,7 +32,7 @@ public **SplFileObject::getCsvControl**(): array
 ### Список змін
 
 | Версія | Опис                                                        |
-| ------ | ----------------------------------------------------------- |
+|--------|-------------------------------------------------------------|
 | 7.4.0  | Як символ екранування можна використовувати порожній рядок. |
 | 7.0.10 | Доданий символ екранування до результуючого масиву.         |
 
@@ -40,15 +40,15 @@ public **SplFileObject::getCsvControl**(): array
 
 **Приклад #1 Приклад використання **SplFileObject::getCsvControl()****
 
-` <?php$file u003d new SplFileObject("data.txt");print_r($file->getCsvControl());?> `
+` <?php$file = new SplFileObject("data.txt");print_r($file->getCsvControl());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> ,
-[1] u003d> "
-[2] u003d> \
+[0] => ,
+[1] => "
+[2] => \
 )
 
 ### Дивіться також

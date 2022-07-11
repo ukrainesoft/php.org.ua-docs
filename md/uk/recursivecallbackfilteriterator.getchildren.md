@@ -8,7 +8,7 @@ RecursiveCallbackFilterIterator
 
 # RecursiveCallbackFilterIterator::getChildren
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 RecursiveCallbackFilterIterator::getChildren — Повертає дочірні
 елементи ітератора, що зберігається всередині RecursiveCallbackFilterIterator

@@ -7,14 +7,14 @@
 
 # Ds\Map::ksort
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::ksort — Сортує поточну колекцію за ключами
 
 ### Опис
 
 public **Ds\Map::ksort**([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 Сортує поточну колекцію за ключами, опціонально використовуючи
 callback-функцію `comparator` для порівняння елементів.
@@ -45,28 +45,28 @@ float, буде приведено до цілої кількості (int). О�
 
 **Приклад #1 Приклад використання **Ds\Map::ksort()****
 
-` <?php$map u003d new \Ds\Map(["b" u003d> 2, "c" u003d> 3, "a" u003d> 1]);$map->ksort();print_r($map) ;?> `
+` <?php$map = new \Ds\Map(["b" => 2, "c" => 3, "a" => 1]);$map->ksort();print_r($map) ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 2
+[key] => b
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 3
+[key] => c
+[value] => 3
 )
 
 )
@@ -74,29 +74,29 @@ Ds\Map Object
 **Приклад #2 Приклад використання **Ds\Map::ksort()** з callback-функцією
 порівняння**
 
-` <?php$map u003d new \Ds\Map([1 u003d> "x", 2 u003d> "y", 0 u003d> "z"]);// Зворотний порядок$map->ksort(function($ a, $b) {   return $b <u003d> $a;});print_r($map);?> `
+` <?php$map = new \Ds\Map([1 => "x", 2 => "y", 0 => "z"]);// Зворотний порядок$map->ksort(function($ a, $b) {   return $b <=> $a;});print_r($map);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> 2
-[value] u003d> y
+[key] => 2
+[value] => y
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> 1
-[value] u003d> x
+[key] => 1
+[value] => x
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> 0
-[value] u003d> z
+[key] => 0
+[value] => z
 )
 
 )

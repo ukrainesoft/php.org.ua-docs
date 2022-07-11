@@ -7,13 +7,13 @@
 
 #odbc_fetch_object
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 odbc_fetch_object — Повертає рядок результату як об'єкт
 
 ### Опис
 
-**odbc_fetch_object**(resource `$statement`, int `$row` u003d -1):
+**odbc_fetch_object**(resource `$statement`, int `$row` = -1):
 stdClass\|false
 
 Повертає об'єкт (object) із запиту ODBC.

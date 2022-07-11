@@ -43,7 +43,7 @@
 `name` та `value`, які підставляються замість відповідних
 псевдозмінних:
 
-` <?php$stmt u003d $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");$stmt->bindParam(':name', $name);$stmt ->bindParam(':value', $value);// вставимо одну рядок$name u003d 'one';$value u003d 1;$stmt->execute();// тепер іншу рядок з іншими  two';$value u003d 2;$stmt->execute();?> `
+` <?php$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (:name, :value)");$stmt->bindParam(':name', $name);$stmt ->bindParam(':value', $value);// вставимо одну рядок$name = 'one';$value = 1;$stmt->execute();// тепер іншу рядок з іншими  two';$value = 2;$stmt->execute();?> `
 
 **Приклад #2 Вставки, що повторюються, в базу з використанням підготовлених
 запитів**
@@ -51,7 +51,7 @@
 У цьому прикладі 2 рази виконується INSERT запит з різними значеннями
 `name` і `value`, які підставляються замість псевдозмінних `?`.
 
-` <?php$stmt u003d $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (?, ?)");$stmt->bindParam(1, $name);$stmt->bindParam(2 , $value);// вставимо одне рядок$name u003d 'one';$value u003d 1;$stmt->execute();// тепер інше рядок з іншими значеннями$name u003d 'two'; $stmt->execute();?> `
+` <?php$stmt = $dbh->prepare("INSERT INTO REGISTRY (name, value) VALUES (?, ?)");$stmt->bindParam(1, $name);$stmt->bindParam(2 , $value);// вставимо одне рядок$name = 'one';$value = 1;$stmt->execute();// тепер інше рядок з іншими значеннями$name = 'two'; $stmt->execute();?> `
 
 **Приклад #3 Вибір даних за допомогою підготовлених запитів**
 
@@ -59,7 +59,7 @@
 Користувач через форму. Користувальницьке введення автоматично
 полягає в лапки, тому немає ризику ін'єкції SQL.
 
-` <?php$stmt u003d$dbh->prepare("SELECT * FROM REGISTRY where name u003d ?");$stmt->execute([$_GET['name']]);foreach ($stmt as $row) {  print_r($row);}?> `
+` <?php$stmt =$dbh->prepare("SELECT * FROM REGISTRY where name = ?");$stmt->execute([$_GET['name']]);foreach ($stmt as $row) {  print_r($row);}?> `
 
 **Приклад #4 Виклик збереженої процедури з вихідними параметрами**
 
@@ -71,7 +71,7 @@
 параметрів. Якщо отримане значення виявиться більшим, ніж
 передбачалося, буде викликано помилку.
 
-` <?php$stmt u003d $dbh->prepare("CALL sp_returns_string(?)");$stmt->bindParam(1, $return_value, PDO::PARAM_STR, 4000);// виклик зберігається$ execute();print "процедура вернула $return_value
+` <?php$stmt = $dbh->prepare("CALL sp_returns_string(?)");$stmt->bindParam(1, $return_value, PDO::PARAM_STR, 4000);// виклик зберігається$ execute();print "процедура вернула $return_value
 ";?> `
 
 **Приклад #5 Виклик збереженої процедури з вхідним/вихідним параметром**
@@ -81,9 +81,9 @@
 'привіт' передається в процедуру, що зберігається, а потім цей рядок буде
 замінена значенням, що повертається.
 
-` <?php$stmt u003d $dbh->prepare("CALL sp_takes_string_returns_string(?)");$value u003d 'привіт';$stmt->bindParam(1, $value, PDO::PARAM_STR|PDO::PARAM 4000);// виклик хронічної процедури $ stmt-> execute (); print "процедура повернула $ value
+` <?php$stmt = $dbh->prepare("CALL sp_takes_string_returns_string(?)");$value = 'привіт';$stmt->bindParam(1, $value, PDO::PARAM_STR|PDO::PARAM 4000);// виклик хронічної процедури $ stmt-> execute (); print "процедура повернула $ value
 ";?> `
 
 **Приклад #6 Неправильне використання псевдозмінної**
 
-` <?php$stmt u003d $dbh->prepare("SELECT * FROM REGISTRY where name LIKE '%?%'");$stmt->execute([$_GET['name']]);// псевдозмінна може використовуватися тільки в виді окремого значення$stmt u003d $dbh->prepare("SELECT * FROM REGISTRY where name LIKE ?");$stmt->execute(["%$_GET[name]%"]);
+` <?php$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE '%?%'");$stmt->execute([$_GET['name']]);// псевдозмінна може використовуватися тільки в виді окремого значення$stmt = $dbh->prepare("SELECT * FROM REGISTRY where name LIKE ?");$stmt->execute(["%$_GET[name]%"]);

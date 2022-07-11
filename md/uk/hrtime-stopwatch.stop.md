@@ -7,7 +7,7 @@
 
 # HRTime\StopWatch::stop
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 HRTime\StopWatch::stop — Зупинити вимірювання
 

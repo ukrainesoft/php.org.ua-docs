@@ -7,7 +7,7 @@
 
 # EventListener::getSocketName
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 EventListener::getSocketName — Отримує поточну адресу, до якої
 прив'язаний сокет слухача
@@ -16,7 +16,7 @@ EventListener::getSocketName — Отримує поточну адресу, д�
 
 public static **EventListener::getSocketName**( string `&$address` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` u003d ?): bool
+`&$port` = ?): bool
 
 Отримує поточну адресу, яку прив'язаний сокет слухача.
 

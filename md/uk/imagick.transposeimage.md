@@ -31,7 +31,7 @@ public **Imagick::transposeImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::transposeImage()****
 
-` <?phpfunction transposeImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->transposeImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction transposeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->transposeImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

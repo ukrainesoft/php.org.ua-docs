@@ -7,7 +7,7 @@
 
 # Gmagick::getimagechanneldepth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagechanneldepth — Отримує глибину для певного
 каналу зображення

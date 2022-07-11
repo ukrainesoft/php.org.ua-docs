@@ -7,7 +7,7 @@
 
 # EvChild::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvChild::createStopped — Створює зупинений екземпляр спостерігача
 EvCheck
@@ -20,8 +20,8 @@ bool `$trace`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 ): object
 
 Те саме, що і [EvChild::\_\_construct()](evchild.construct.md) ,

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\DBPointer::unserialize
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\BSON\DBPointer::unserialize — Десеріалізує DBPointer
 

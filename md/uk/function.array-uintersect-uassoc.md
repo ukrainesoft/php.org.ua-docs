@@ -58,14 +58,14 @@ Callback-функція для порівняння ключів.
 
 **Приклад #1 Приклад використання **array_uintersect_uassoc()****
 
-` <?php$array1 u003d array("a" u003d> "green", "b" u003d> "brown", "c" u003d> "blue", "red");$array2 u003d array("a" u003d > "GREEN", "B" u003d> "brown", "yellow", "red");print_r(array_uintersect_uassoc($array1, $array2, "strcasecmp", "strcasecmp"));?> `
+` <?php$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");$array2 = array("a" = > "GREEN", "B" => "brown", "yellow", "red");print_r(array_uintersect_uassoc($array1, $array2, "strcasecmp", "strcasecmp"));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[a] u003d> green
-[b] u003d> brown
+[a] => green
+[b] => brown
 )
 
 ### Дивіться також

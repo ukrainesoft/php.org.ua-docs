@@ -7,14 +7,14 @@
 
 #cubrid_move_cursor
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_move_cursor — Переміщує курсор у результаті
 
 ### Опис
 
 **cubrid_move_cursor**(resource `$req_identifier`, int `$offset`, int
-`$origin` u003d CUBRID_CURSOR_CURRENT): bool
+`$origin` = CUBRID_CURSOR_CURRENT): bool
 
 Функція **cubrid_move_cursor()** використовується для переміщення поточного
 положення курсору `req_identifier` на значення, задане в аргументі
@@ -53,26 +53,26 @@ cubrid_move_cursor — Переміщує курсор у результаті
 
 **Приклад #1 Приклад використання **cubrid_move_cursor()****
 
-` <?php$conn u003d cubrid_connect("127.0.0.1", 33000, "demodb", "dba"); );$result u003d cubrid_fetch_row($req);var_dump($result);cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);$result u003d cubrid_fetch_row($req);var_dump($result); );$result u003d cubrid_fetch_row($req);var_dump($result);cubrid_close_request($req);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba"); );$result = cubrid_fetch_row($req);var_dump($result);cubrid_move_cursor($req, 1, CUBRID_CURSOR_FIRST);$result = cubrid_fetch_row($req);var_dump($result); );$result = cubrid_fetch_row($req);var_dump($result);cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 string(1) "G"
-[1]u003d>
+[1]=>
 string(4) "Gold"
 }
 array(2) {
-[0]u003d>
+[0]=>
 string(1) "X"
-[1]u003d>
+[1]=>
 string(5) "Mixed"
 }
 array(2) {
-[0]u003d>
+[0]=>
 string(1) "M"
-[1]u003d>
+[1]=>
 string(3) "Man"
 }
 

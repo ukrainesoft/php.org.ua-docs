@@ -8,7 +8,7 @@
 
 #pg_convert
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_convert — Перетворює значення асоціативного масиву на прийнятні
 для використання у SQL-запитах
@@ -19,7 +19,7 @@ pg_convert — Перетворює значення асоціативного 
 [PgSql\Connection](class.pgsql-connection.md) `$connection`,
 string `$table_name`,
 array `$values`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): array\|false
 
 **pg_convert()** перевіряє та перетворює значення з `values` в
@@ -61,14 +61,14 @@ int `$flags` u003d 0
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_convert()****
 
-` <?php $dbconnu003du003dpg_connect('dbnameu003dfoo'); $tmp u003d array(     'author' u003d> 'Joe Thackery',      'year' u003d> 2005,      'title' u003d> 'y| $valsu003du003dpg_convert($dbconn,'authors',$tmp);?> `
+` <?php $dbconn==pg_connect('dbname=foo'); $tmp = array(     'author' => 'Joe Thackery',      'year' => 2005,      'title' => 'y| $vals==pg_convert($dbconn,'authors',$tmp);?> `
 
 ### Дивіться також
 

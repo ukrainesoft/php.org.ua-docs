@@ -15,7 +15,7 @@ getmxrr — Отримує записи MX, що відповідають пер
 
 ### Опис
 
-**getmxrr**(string `$hostname`, array `&$hosts`, array `&$weights` u003d
+**getmxrr**(string `$hostname`, array `&$hosts`, array `&$weights` =
 **`null`**): bool
 
 Шукає в DNS записи MX, що відповідають `hostname`.

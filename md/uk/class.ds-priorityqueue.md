@@ -33,7 +33,7 @@ class **Ds\PriorityQueue** implements **Ds\Collection** {
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 8;
+const int `MIN_CAPACITY` = 8;
 
 /\* Методи \*/
 

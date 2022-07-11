@@ -7,13 +7,13 @@
 
 # zlib_encode
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 zlib_encode — Стиснення даних із зазначеним кодуванням
 
 ### Опис
 
-**zlib_encode**(string `$data`, int `$encoding`, int `$level` u003d -1):
+**zlib_encode**(string `$data`, int `$encoding`, int `$level` = -1):
 string\|false
 
 Стискає дані із зазначеним кодуванням.
@@ -40,7 +40,7 @@ string\|false
 
 **Приклад #1 Приклад використання **zlib_encode()****
 
-` <?php$str u003d 'hello world';$enc u003d zlib_encode($str, ZLIB_ENCODING_DEFLATE);echo bin2hex($enc);?> `
+` <?php$str = 'hello world';$enc = zlib_encode($str, ZLIB_ENCODING_DEFLATE);echo bin2hex($enc);?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # EvIo::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvIo::\_\_construct — Створює об'єкт спостерігача EvIo
 
@@ -21,8 +21,8 @@ int `$events` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 )
 
 Створює та автоматично стартує об'єкт спостерігач EvIo.

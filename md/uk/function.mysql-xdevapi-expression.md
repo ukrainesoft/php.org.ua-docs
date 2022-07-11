@@ -32,7 +32,7 @@ expression — Зв'язує підготовлені змінні твердж�
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Expression()****
 
-` <?php$expression u003d mysql_xdevapi\Expression("[age,job]");$res  u003d $coll->find("age > 30")->fields($expression)->limit(3)-> execute();$datau003du003d$res->fetchAll();print_r($data);?> `
+` <?php$expression = mysql_xdevapi\Expression("[age,job]");$res  = $coll->find("age > 30")->fields($expression)->limit(3)-> execute();$data==$res->fetchAll();print_r($data);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

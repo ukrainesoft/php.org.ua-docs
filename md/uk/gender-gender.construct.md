@@ -7,13 +7,13 @@
 
 # Gender\Gender::\_\_construct
 
-(PECL gender \>u003d 0.6.0)
+(PECL gender \>= 0.6.0)
 
 Gender\Gender::\_\_construct - Конструктор об'єкта класу Gender
 
 ### Опис
 
-public **Gender\Gender::\_\_construct**(string `$dsn` u003d ?)
+public **Gender\Gender::\_\_construct**(string `$dsn` = ?)
 
 Створює об'єкт класу Gender, який необов'язково може бути підключений
 до зовнішнього словника імен. Якщо зовнішня база даних не задана, будуть

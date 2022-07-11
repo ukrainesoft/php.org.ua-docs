@@ -7,7 +7,7 @@
 
 # VarnishLog::getTagName
 
-(PECL varnish \>u003d 0.6)
+(PECL varnish \>= 0.6)
 
 VarnishLog::getTagName — Отримати строкове представлення тега журналу
 за його індексом

@@ -16,9 +16,9 @@ preg_match — Виконує перевірку на відповідність
 **preg_match**(
 string `$pattern`,
 string `$subject`,
-array `&$matches` u003d **`null`**,
-int `$flags` u003d 0,
-int `$offset` u003d 0
+array `&$matches` = **`null`**,
+int `$flags` = 0,
+int `$offset` = 0
 ): int\|false
 
 Шукає в заданому тексті `subject` збіги із шаблоном `pattern`.
@@ -54,28 +54,28 @@ int `$offset` u003d 0
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> foobarbaz
-[1] u003d> 0
+[0] => foobarbaz
+[1] => 0
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[0] u003d> foo
-[1] u003d> 0
+[0] => foo
+[1] => 0
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> bar
-[1] u003d> 3
+[0] => bar
+[1] => 3
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[0] u003d> baz
-[1] u003d> 6
+[0] => baz
+[1] => 6
 )
 
 )
@@ -90,23 +90,23 @@ Array
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 string(2) "ac"
-[1]u003d>
+[1]=>
 string(1) "a"
-[2]u003d>
+[2]=>
 string(0) ""
-[3]u003d>
+[3]=>
 string(1) "c"
 }
 array(4) {
-[0]u003d>
+[0]=>
 string(2) "ac"
-[1]u003d>
+[1]=>
 string(1) "a"
-[2]u003d>
+[2]=>
 NULL
-[3]u003d>
+[3]=>
 string(1) "c"
 }
 
@@ -120,9 +120,9 @@ string(1) "c"
 > Використання параметра `offset` не еквівалентне заміні порівнянної
 > рядки виразом `substr($subject, $offset)` під час виклику функції
 > **preg_match()**, оскільки шаблон `pattern` може містити такі
-> умови як *^*, *$* чи *(?\<u003dx)*. Порівняйте:
+> умови як *^*, *$* чи *(?\<=x)*. Порівняйте:
 >
-> ` <?php$subject u003d "abcdef";$pattern u003d '/^def/';preg_match($pattern, $subject, $matches, PREG_OFFSET_CAPTURE, 3);print_r($matches);?> `
+> ` <?php$subject = "abcdef";$pattern = '/^def/';preg_match($pattern, $subject, $matches, PREG_OFFSET_CAPTURE, 3);print_r($matches);?> `
 >
 > Результат виконання цього прикладу:
 >
@@ -132,16 +132,16 @@ string(1) "c"
 >
 > У той час як цей приклад
 >
-> ` <?php$subject u003d "abcdef";$pattern u003d '/^def/';preg_match($pattern, substr($subject,3), $matches, PREG_OFFSET_CAPTURE);print_r($matches);?> `
+> ` <?php$subject = "abcdef";$pattern = '/^def/';preg_match($pattern, substr($subject,3), $matches, PREG_OFFSET_CAPTURE);print_r($matches);?> `
 >
 > виведе наступне:
 >
 > Array
 > (
-> [0] u003d> Array
+> [0] => Array
 > (
-> [0] u003d> def
-> [1] u003d> 0
+> [0] => def
+> [1] => 0
 > )
 >
 > )
@@ -160,7 +160,7 @@ string(1) "c"
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки
@@ -171,7 +171,7 @@ string(1) "c"
 ### Список змін
 
 | Версія | Опис                                                                           |
-| ------ | ------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------|
 | 7.2.0  | Тепер константа **PREG_UNMATCHED_AS_NULL** підтримується для параметра $flags. |
 
 ### Приклади
@@ -186,7 +186,7 @@ string(1) "c"
 
 **Приклад #3 Вилучення доменного імені з URL**
 
-` <?php// Вилучаємо ім'я хоста із URLpreg_match('@^(?:http://)?([^/]+)@i',   "http://www.php.net/index.md" , $matches);$host u003d $matches[1];// витягуємо дві останні частини імені хостаpreg_match('/[^.]+\.[^.]+$/', $host, $matches);echo " доменне ім'я: {$matches[0]}
+` <?php// Вилучаємо ім'я хоста із URLpreg_match('@^(?:http://)?([^/]+)@i',   "http://www.php.net/index.md" , $matches);$host = $matches[1];// витягуємо дві останні частини імені хостаpreg_match('/[^.]+\.[^.]+$/', $host, $matches);echo " доменне ім'я: {$matches[0]}
 ";?> `
 
 Результат виконання цього прикладу:
@@ -195,17 +195,17 @@ string(1) "c"
 
 **Приклад #4 Використання іменованих підмасок**
 
-` <?php$str u003d 'foobar: 2008';preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);/* Альтернативний варіант */// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);print_r($matches);?> `
+` <?php$str = 'foobar: 2008';preg_match('/(?P<name>\w+): (?P<digit>\d+)/', $str, $matches);/* Альтернативний варіант */// preg_match('/(?<name>\w+): (?<digit>\d+)/', $str, $matches);print_r($matches);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Foobar: 2008
-[name] u003d> foobar
-[1] u003d> foobar
-[digit] u003d> 2008
-[2] u003d> 2008
+[0] => Foobar: 2008
+[name] => foobar
+[1] => foobar
+[digit] => 2008
+[2] => 2008
 )
 
 ### Примітки

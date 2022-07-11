@@ -7,7 +7,7 @@
 
 # Gmagick::rotateimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::rotateimage — Повертає зображення
 

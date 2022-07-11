@@ -38,4 +38,4 @@ CHANNEL_BLUE для позначення 1-го, 2-го та 3-го каналі
 
 **Приклад #1 Приклад використання **Imagick::separateImageChannel()****
 
-` <?phpfunction separateImageChannel($imagePath, $channel) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->separateimagechannel($channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}separateImageChannel($imagePath, \Imagick::CHANNEL_GREEN);?> `
+` <?phpfunction separateImageChannel($imagePath, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->separateimagechannel($channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}separateImageChannel($imagePath, \Imagick::CHANNEL_GREEN);?> `

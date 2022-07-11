@@ -7,7 +7,7 @@
 
 #ob_list_handlers
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 ob_list_handlers — Список всіх обробників виводу, що використовуються.
 
@@ -34,23 +34,23 @@ ob_list_handlers — Список всіх обробників виводу, щ
 
 **Приклад #1 Приклад використання функції **ob_list_handlers()****
 
-` <?php//використовується output_bufferingu003dOnprint_r(ob_list_handlers());ob_end_flush();ob_start("ob_gzhandler");print_r(ob_list_handlers());ob_end_flush();// анонімна $string; });print_r(ob_list_handlers());ob_end_flush();?> `
+` <?php//використовується output_buffering=Onprint_r(ob_list_handlers());ob_end_flush();ob_start("ob_gzhandler");print_r(ob_list_handlers());ob_end_flush();// анонімна $string; });print_r(ob_list_handlers());ob_end_flush();?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> default output handler
+[0] => default output handler
 )
 
 Array
 (
-[0] u003d> ob_gzhandler
+[0] => ob_gzhandler
 )
 
 Array
 (
-[0] u003d> Closure::__invoke
+[0] => Closure::__invoke
 )
 
 ### Дивіться також

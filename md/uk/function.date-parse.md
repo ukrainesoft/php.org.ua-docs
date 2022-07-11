@@ -8,7 +8,7 @@
 
 #date_parse
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 date_parse — Повертає асоціативний масив з детальною інформацією про
 заданої дати/часу
@@ -56,7 +56,7 @@ date_parse — Повертає асоціативний масив з дета�
 ### Список змін
 
 | Версія | Опис                                                                                                                                 |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 7.2.0  | Елемент масива з ключем zone тепер містить секунди, а не хвилини. Крім того, знак інвертовано. Тобто. раніше був -120, а тепер 7200. |
 
 ### Приклади
@@ -69,20 +69,20 @@ date_parse — Повертає асоціативний масив з дета�
 Результат виконання цього прикладу:
 
 array(12) {
-'year' u003d> int(2006)
-'month' u003d> int(12)
-'day' u003d> int(12)
-'hour' u003d> int(10)
-'minute' u003d> int(0)
-'second' u003d> int(0)
-'fraction' u003d> double(0.5)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => int(2006)
+'month' => int(12)
+'day' => int(12)
+'hour' => int(10)
+'minute' => int(0)
+'second' => int(0)
+'fraction' => double(0.5)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(false)
+'is_localtime' => bool(false)
 }
 
 Елементи часових поясів з'являються лише в тому випадку, якщо вони
@@ -98,24 +98,24 @@ array(12) {
 Результат виконання цього прикладу:
 
 array(16) {
-'year' u003d> int(2022)
-'month' u003d> int(6)
-'day' u003d> int(2)
-'hour' u003d> int(10)
-'minute' u003d> int(28)
-'second' u003d> int(17)
-'fraction' u003d> double(0)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => int(2022)
+'month' => int(6)
+'day' => int(2)
+'hour' => int(10)
+'minute' => int(28)
+'second' => int(17)
+'fraction' => double(0)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(true)
-'zone_type' u003d> int(2)
-'zone' u003d> int(0)
-'is_dst' u003d> bool(true)
-'tz_abbr' u003d> string(3) "BST"
+'is_localtime' => bool(true)
+'zone_type' => int(2)
+'zone' => int(0)
+'is_dst' => bool(true)
+'tz_abbr' => string(3) "BST"
 }
 
 **Приклад #3 Приклад використання **date_parse()** з інформацією про
@@ -126,22 +126,22 @@ array(16) {
 Результат виконання цього прикладу:
 
 array(14) {
-'year' u003d> int(2022)
-'month' u003d> int(6)
-'day' u003d> int(2)
-'hour' u003d> int(10)
-'minute' u003d> int(28)
-'second' u003d> int(17)
-'fraction' u003d> double(0)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => int(2022)
+'month' => int(6)
+'day' => int(2)
+'hour' => int(10)
+'minute' => int(28)
+'second' => int(17)
+'fraction' => double(0)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(true)
-'zone_type' u003d> int(3)
-'tz_id' u003d> string(13) "Europe/London"
+'is_localtime' => bool(true)
+'zone_type' => int(3)
+'tz_id' => string(13) "Europe/London"
 }
 
 Якщо розбирається мінімальний рядок параметра `datetime`, то
@@ -156,20 +156,20 @@ array(14) {
 Результат виконання цього прикладу:
 
 array(12) {
-'year' u003d> int(2022)
-'month' u003d> int(6)
-'day' u003d> int(2)
-'hour' u003d> bool(false)
-'minute' u003d> bool(false)
-'second' u003d> bool(false)
-'fraction' u003d> bool(false)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => int(2022)
+'month' => int(6)
+'day' => int(2)
+'hour' => bool(false)
+'minute' => bool(false)
+'second' => bool(false)
+'fraction' => bool(false)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(false)
+'is_localtime' => bool(false)
 }
 
 [Відносні формати](datetime.formats.relative.md) не впливають на
@@ -184,28 +184,28 @@ array(12) {
 Результат виконання цього прикладу:
 
 array(13) {
-'year' u003d> int(2006)
-'month' u003d> int(12)
-'day' u003d> int(12)
-'hour' u003d> int(10)
-'minute' u003d> int(0)
-'second' u003d> int(0)
-'fraction' u003d> double(0.5)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => int(2006)
+'month' => int(12)
+'day' => int(12)
+'hour' => int(10)
+'minute' => int(0)
+'second' => int(0)
+'fraction' => double(0.5)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(false)
-'relative' u003d>
+'is_localtime' => bool(false)
+'relative' =>
 array(6) {
-'year' u003d> int(0)
-'month' u003d> int(0)
-'day' u003d> int(7)
-'hour' u003d> int(1)
-'minute' u003d> int(0)
-'second' u003d> int(0)
+'year' => int(0)
+'month' => int(0)
+'day' => int(7)
+'hour' => int(1)
+'minute' => int(0)
+'second' => int(0)
 }
 }
 
@@ -224,29 +224,29 @@ array(6) {
 Результат виконання цього прикладу:
 
 array(13) {
-'year' u003d> bool(false)
-'month' u003d> int(6)
-'day' u003d> int(2)
-'hour' u003d> int(0)
-'minute' u003d> int(0)
-'second' u003d> int(0)
-'fraction' u003d> double(0)
-'warning_count' u003d> int(0)
-'warnings' u003d> array(0) {
+'year' => bool(false)
+'month' => int(6)
+'day' => int(2)
+'hour' => int(0)
+'minute' => int(0)
+'second' => int(0)
+'fraction' => double(0)
+'warning_count' => int(0)
+'warnings' => array(0) {
 }
-'error_count' u003d> int(0)
-'errors' u003d> array(0) {
+'error_count' => int(0)
+'errors' => array(0) {
 }
-'is_localtime' u003d> bool(false)
-'relative' u003d>
+'is_localtime' => bool(false)
+'relative' =>
 array(7) {
-'year' u003d> int(0)
-'month' u003d> int(0)
-'day' u003d> int(0)
-'hour' u003d> int(0)
-'minute' u003d> int(0)
-'second' u003d> int(0)
-'weekday' u003d> int(4)
+'year' => int(0)
+'month' => int(0)
+'day' => int(0)
+'hour' => int(0)
+'minute' => int(0)
+'second' => int(0)
+'weekday' => int(4)
 }
 }
 

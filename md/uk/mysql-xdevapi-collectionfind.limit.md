@@ -33,20 +33,20 @@ public **mysql_xdevapi\CollectionFind::limit**(int `$rows`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionFind::limit()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$create u003d $schema->createCollection("people");$create  ->add('{"name ": "Alfred", "age": 18, "job": "Butler"}') ->execute();$create  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}') ->execute();// ...$collection u003d $schema->getCollection("people");$result u003d $collection ->find('job like :job and age > :age') ->bind(['job' u003d> 'Butler', 'age' u003d> 16])  ->sort('age desc') ->limit(1) ->execute();var_dump ($result->fetchAll());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$create  ->add('{"name ": "Alfred", "age": 18, "job": "Butler"}') ->execute();$create  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}') ->execute();// ...$collection = $schema->getCollection("people");$result = $collection ->find('job like :job and age > :age') ->bind(['job' => 'Butler', 'age' => 16])  ->sort('age desc') ->limit(1) ->execute();var_dump ($result->fetchAll());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(4) {
-["_id"]u003d>
+["_id"]=>
 string(28) "00005b6b53610000000000000f3"
-["age"]u003d>
+["age"]=>
 int(42)
-["job"]u003d>
+["job"]=>
 string(6) "Butler"
-["name"]u003d>
+["name"]=>
 string(8) "Reginald"
 }
 }

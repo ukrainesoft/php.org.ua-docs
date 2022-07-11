@@ -7,7 +7,7 @@
 
 # Клас EventHttp
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 ## Вступ
 
@@ -31,7 +31,7 @@ void
 
 public [\_\_construct](eventhttp.construct.md)(
 [EventBase](class.eventbase.md) `$base` ,
-[EventSslContext](class.eventsslcontext.md) `$ctx` u003d **`null`** )
+[EventSslContext](class.eventsslcontext.md) `$ctx` = **`null`** )
 
 public [removeServerAlias](eventhttp.removeserveralias.md)( string
 `$alias` ): bool
@@ -40,10 +40,10 @@ public [setAllowedMethods](eventhttp.setallowedmethods.md)( int
 `$methods` ): void
 
 public [setCallback](eventhttp.setcallback.md)( string `$path` ,
-string `$cb` , string `$arg` u003d ?): void
+string `$cb` , string `$arg` = ?): void
 
 public [setDefaultCallback](eventhttp.setdefaultcallback.md)( string
-`$cb` , string `$arg` u003d ?): void
+`$cb` , string `$arg` = ?): void
 
 public [setMaxBodySize](eventhttp.setmaxbodysize.md)( int `$value` ):
 void

@@ -7,7 +7,7 @@
 
 # Memcached::incrementByKey
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::incrementByKey — Збільшує числове значення запису,
 що зберігається на вказаному сервері
@@ -17,9 +17,9 @@ Memcached::incrementByKey — Збільшує числове значення �
 public **Memcached::incrementByKey**(
 string `$server_key`,
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 **Memcached::incrementByKey()** збільшує числове значення запису на

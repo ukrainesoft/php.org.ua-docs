@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::executeCommand
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::executeCommand — Виконати команду бази даних на
 сервері
@@ -16,7 +16,7 @@ MongoDB\Driver\Server::executeCommand — Виконати команду баз
 
 final public **MongoDB\Driver\Server::executeCommand**(string `$db`,
 [MongoDB\Driver\Command](class.mongodb-driver-command.md) `$command`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Виконує команду на сервері.
@@ -88,7 +88,7 @@ array `$options` u003d array()):
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                                       |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). |
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом options. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md).                                             |
 

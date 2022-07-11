@@ -7,7 +7,7 @@
 
 # Parle\RLexer::push
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\RLexer::push — Додає правило лексера
 

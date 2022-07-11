@@ -7,7 +7,7 @@
 
 # openssl_decrypt
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 openssl_decrypt - Розшифровує дані
 
@@ -17,10 +17,10 @@ openssl_decrypt - Розшифровує дані
 string `$data`,
 string `$cipher_algo`,
 string `$passphrase`,
-int `$options` u003d 0,
-string `$iv` u003d "",
-?string `$tag` u003d **`null`**,
-string `$aad` u003d ""
+int `$options` = 0,
+string `$iv` = "",
+?string `$tag` = **`null`**,
+string `$aad` = ""
 ): string\|false
 
 Бере необроблений або кодований у base64 рядок і розшифровує
@@ -76,7 +76,7 @@ string `$aad` u003d ""
 ### Список змін
 
 | Версія | Опис                                        |
-| ------ | ------------------------------------------- |
+|--------|---------------------------------------------|
 | 8.1.0  | Параметр tag тепер припускає значення null. |
 | 7.1.0  | Додані параметри tag та aad.                |
 

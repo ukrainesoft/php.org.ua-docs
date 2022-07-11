@@ -7,7 +7,7 @@
 
 # Gmagick::getimagebordercolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagebordercolor — Повертає колір кордону зображення
 

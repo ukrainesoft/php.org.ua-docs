@@ -7,7 +7,7 @@
 
 # fann_init_weights
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_init_weights - Ініціалізує ваги за допомогою алгоритму Widrow +
 Nguyen

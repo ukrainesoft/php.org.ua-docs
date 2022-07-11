@@ -7,7 +7,7 @@
 
 # SplFileInfo::getExtension
 
-(PHP 5 \>u003d 5.3.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
 
 SplFileInfo::getExtension — Отримує розширення файлу
 
@@ -30,7 +30,7 @@ public **SplFileInfo::getExtension**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getExtension()****
 
-` <?php$info u003d new SplFileInfo('foo.txt');var_dump($info->getExtension());$info u003d new SplFileInfo('photo.jpg');var_dump($info->getExtension() );$info u003d new SplFileInfo('something.tar.gz');var_dump($info->getExtension());?> `
+` <?php$info = new SplFileInfo('foo.txt');var_dump($info->getExtension());$info = new SplFileInfo('photo.jpg');var_dump($info->getExtension() );$info = new SplFileInfo('something.tar.gz');var_dump($info->getExtension());?> `
 
 Результат виконання цього прикладу:
 
@@ -45,7 +45,7 @@ string(2) "gz"
 > Інший спосіб отримання розширення - використання функції
 > [pathinfo()](function.pathinfo.md).
 >
-> ` <?php$extension u003d pathinfo($info->getFilename(), PATHINFO_EXTENSION);?> `
+> ` <?php$extension = pathinfo($info->getFilename(), PATHINFO_EXTENSION);?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 #oci_set_client_info
 
-(PHP 5 u003d 5.3.2, PHP 7, PHP 8, PECL OCI8 u003d 1.4.0)
+(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
 
 oci_set_client_info — Задає інформацію про клієнта
 
@@ -46,7 +46,7 @@ bool
 
 **Приклад #1 Встановлення клієнтської інформації**
 
-` <?php$c u003d oci_connect('hr', 'welcome', 'localhost/XE');// Запис інформації про клієнтеoci_set_client_info($c, 'My Application Version 2');// Код, , наприклад вибірка:$s u003d oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
+` <?php$c = oci_connect('hr', 'welcome', 'localhost/XE');// Запис інформації про клієнтеoci_set_client_info($c, 'My Application Version 2');// Код, , наприклад вибірка:$s = oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
 
 // Поки скрипт виконується, адміністратор може побачити клієнтську
 // інформацію:

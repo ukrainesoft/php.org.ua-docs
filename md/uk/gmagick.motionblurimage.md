@@ -7,7 +7,7 @@
 
 # Gmagick::motionblurimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::motionblurimage — Імітує розмиття під час руху
 

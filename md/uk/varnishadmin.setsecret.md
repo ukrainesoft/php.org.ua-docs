@@ -7,7 +7,7 @@
 
 # VarnishAdmin::setSecret
 
-(PECL varnish \>u003d 0.8)
+(PECL varnish \>= 0.8)
 
 VarnishAdmin::setSecret — Встановити параметр конфігурації secret класу
 

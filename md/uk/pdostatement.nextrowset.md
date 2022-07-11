@@ -7,7 +7,7 @@
 
 # PDOStatement::nextRowset
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDOStatement::nextRowset — Перехід до наступного набору рядків
 в результаті запиту
@@ -43,7 +43,7 @@ public **PDOStatement::nextRowset**(): bool
 **`false`** і завершить цикл, коли більше не буде доступних
 результуючих наборів.
 
-` <?php$sql u003d 'CALL multiple_rowsets()';$stmt u003d $conn->query($sql);$i u003d 1;do {    $rowset u003d $stmt->fetchAll(PDO::FETCH if ($rowset) {        printResultSet($rowset, $i); }   $i++;} while ($stmt->nextRowset());function printResultSet(&$rowset, $i) {    print "Результуючий набір $i:
+` <?php$sql = 'CALL multiple_rowsets()';$stmt = $conn->query($sql);$i = 1;do {    $rowset = $stmt->fetchAll(PDO::FETCH if ($rowset) {        printResultSet($rowset, $i); }   $i++;} while ($stmt->nextRowset());function printResultSet(&$rowset, $i) {    print "Результуючий набір $i:
 ";   foreach ($rowset as $row) {        foreach ($row as $col) {             print|
 ";    }    print "
 ";}?> `

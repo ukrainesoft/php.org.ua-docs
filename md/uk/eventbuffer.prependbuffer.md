@@ -7,7 +7,7 @@
 
 # EventBuffer::prependBuffer
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBuffer::prependBuffer — Переміщує всі дані з вихідного буфера
 початок поточного буфера

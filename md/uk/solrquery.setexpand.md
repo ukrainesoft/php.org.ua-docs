@@ -7,7 +7,7 @@
 
 # SolrQuery::setExpand
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::setExpand — Вмикає/вимикає компонент Expand
 
@@ -31,11 +31,11 @@ public **SolrQuery::setExpand**(bool `$value`):
 
 **Приклад #1 Приклад використання **SolrQuery::setExpand()****
 
-`<?php$query u003d new SolrQuery('lucene');$query   ->setExpand(true) setExpandRows(50)   -> >addExpandFilterQuery('inStock:true')  ->addExpandSortField('score', SolrQuery::ORDER_DESC)   ->addExpandSortField('title', SolrQuery::
+`<?php$query = new SolrQuery('lucene');$query   ->setExpand(true) setExpandRows(50)   -> >addExpandFilterQuery('inStock:true')  ->addExpandSortField('score', SolrQuery::ORDER_DESC)   ->addExpandSortField('title', SolrQuery::
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&expandu003dtrue&expand.rowsu003d50&expand.qu003dtext:product&expand.fqu003dmanu:apple&expand.fqu003dinStock:true&expand.sortu003dscore desc,title asc
+q=lucene&expand=true&expand.rows=50&expand.q=text:product&expand.fq=manu:apple&expand.fq=inStock:true&expand.sort=score desc,title asc
 
 ### Дивіться також
 

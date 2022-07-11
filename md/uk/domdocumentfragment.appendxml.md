@@ -7,7 +7,7 @@
 
 # DOMDocumentFragment::appendXML
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 DOMDocumentFragment::appendXML — Додавання необроблених даних XML
 
@@ -38,9 +38,9 @@ XML для додавання.
 
 **Приклад #1 Додавання XML-даних у документ**
 
-` <?php$doc u003d new DOMDocument();$doc->loadXML("<root/>");$f u003d $doc->createDocumentFragment();$f->appendXML("<foo>text</ foo><bar>text2</bar>");$doc->documentElement->appendChild($f);echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument();$doc->loadXML("<root/>");$f = $doc->createDocumentFragment();$f->appendXML("<foo>text</ foo><bar>text2</bar>");$doc->documentElement->appendChild($f);echo $doc->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <root><foo>text</foo><bar>text2</bar></root>

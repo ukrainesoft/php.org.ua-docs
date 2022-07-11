@@ -7,7 +7,7 @@
 
 # socket_recv
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_recv — Отримує дані з приєднаного сокету
 
@@ -50,8 +50,8 @@ int `$flags`
 прапорів, з'єднаних за допомогою бінарного оператора OR (`|`).
 
 | Підкреслити      | Опис                                                                                                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **MSG_OOB**      | Обробляти позасмугові (out-of-band) дані.                                                                                                                                                   |                                                                                                                                                                                               
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **MSG_OOB**      | Обробляти позасмугові (out-of-band) дані.                                                                                                                                                   |
 | **MSG_PEEK**     | Отримувати дані з початку черги отримання без видалення їх із черги.                                                                                                                        |
 | **MSG_WAITALL**  | Функція блокуватиме виконання скрипту доти, доки щонайменше length байт не буде отримано. Однак, якщо отриманий сигнал або віддалений хост від'єднався, функція може повернути менше даних. |
 | **MSG_DONTWAIT** | Якщо цей прапор встановлений, то функція повернеться навіть у тому випадку, якщо вона зазвичай блокувала виконання скрипта.                                                                 |
@@ -71,7 +71,7 @@ int `$flags`
 ### Список змін
 
 | Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------|
 | 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
@@ -82,19 +82,19 @@ int `$flags`
 [Приклади](sockets.examples.md) за допомогою **socket_recv()**.
 
 ` <?phperror_reporting(E_ALL);echo "<h2>З'єднанняTCP/IP</h2>
-";/* Отримати порт сервісу WWW. */$service_port u003d getservbyname('www', 'tcp');/* Отримати IP-адресу цільового хоста. */$address u003d gethostbyname('www; /* Створити сокет TCP/IP. */$socket u003d socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if ($socket u003du003du003d false) {                                                   … )) . "
+";/* Отримати порт сервісу WWW. */$service_port = getservbyname('www', 'tcp');/* Отримати IP-адресу цільового хоста. */$address = gethostbyname('www; /* Створити сокет TCP/IP. */$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if ($socket === false) {                                                   … )) . "
 ";} else {    echo "OK.
-";}echo "Спроба з'єднатися з хостом '$address' по порту '$service_port'...";$result u003d socket_connect($socket, $address, $service_port);if ($result u003du003du003d false "Не вийшло виконати функцію socket_connect().
+";}echo "Спроба з'єднатися з хостом '$address' по порту '$service_port'...";$result = socket_connect($socket, $address, $service_port);if ($result === false "Не вийшло виконати функцію socket_connect().
 Причина: ($result) " . socket_strerror(socket_last_error($socket)) . "
 ";} else {    echo "OK.
-";}$in u003d "HEAD / HTTP/1.1
-";$in .u003d "Host: www.example.com
-";$in .u003d "Connection: Close
+";}$in = "HEAD / HTTP/1.1
+";$in .= "Host: www.example.com
+";$in .= "Connection: Close
 
-";$out u003d '';echo "Відправка запиту HTTP HEAD...";socket_write($socket, $in, strlen($in));echo "OK.
+";$out = '';echo "Відправка запиту HTTP HEAD...";socket_write($socket, $in, strlen($in));echo "OK.
 ";echo "Отримання відповіді:
 
-";$buf u003d 'Це мій буфер.';if (false !u003du003d ($bytes u003d socket_recv($socket, $buf, 2048, MSG_WAITALL))) {  про про про Закриваємо сокет...";} else {    echo "Не вийшло виконати socket_recv(); причина: " . socket_strerror(socket_last_error($socket)) . "
+";$buf = 'Це мій буфер.';if (false !== ($bytes = socket_recv($socket, $buf, 2048, MSG_WAITALL))) {  про про про Закриваємо сокет...";} else {    echo "Не вийшло виконати socket_recv(); причина: " . socket_strerror(socket_last_error($socket)) . "
 ";}socket_close($socket);echo $buf . "
 ";echo "OK.
 
@@ -116,6 +116,6 @@ ETag: "b80f4-1b6-80bfd280"
 Accept-Ranges: bytes
 Content-Length: 438
 Connection: close
-Content-Type: text/html; charsetu003dUTF-8
+Content-Type: text/html; charset=UTF-8
 
 Добре.

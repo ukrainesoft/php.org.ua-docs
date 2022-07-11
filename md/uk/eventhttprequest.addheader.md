@@ -7,7 +7,7 @@
 
 # EventHttpRequest::addHeader
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::addHeader — Додає заголовок HTTP до заголовків
 запиту

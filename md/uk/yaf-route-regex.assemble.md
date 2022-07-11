@@ -7,13 +7,13 @@
 
 # Yaf_Route_Regex::assemble
 
-(Yaf \> u003d 2.3.0)
+(Yaf \> = 2.3.0)
 
 Yaf_Route_Regex::assemble — Сформувати URL-адресу
 
 ### Опис
 
-public **Yaf_Route_Regex::assemble**(array `$info`, array `$query` u003d ?):
+public **Yaf_Route_Regex::assemble**(array `$info`, array `$query` = ?):
 ?string
 
 Сформувати URL-адресу.
@@ -33,8 +33,8 @@ public **Yaf_Route_Regex::assemble**(array `$info`, array `$query` u003d ?):
 
 **Приклад #1 Приклад використання **Yaf_Route_Regex::assemble()****
 
-` <?php$router u003d new Yaf_Router();$route  u003d new Yaf_Route_Regex(            "#^/product/([^/]+)/([^/])+#",            array(                'controller' u003d> " product",  //маршрут на контроллер product,                ),            array(),            array(),            '/:m/:c/:a'        );$router->addRoute("regex", $route);var_dump($ router->getRoute('regex')->assemble(            array(                ':m' u003d> 'module',                ':c' u003d> 'controller',                ':a' u003d> 'action'                ),            array(                'tkey1 ' u003d> 'tval1',                'tkey2' u003d>                'tval2'                )            )        ); `
+` <?php$router = new Yaf_Router();$route  = new Yaf_Route_Regex(            "#^/product/([^/]+)/([^/])+#",            array(                'controller' => " product",  //маршрут на контроллер product,                ),            array(),            array(),            '/:m/:c/:a'        );$router->addRoute("regex", $route);var_dump($ router->getRoute('regex')->assemble(            array(                ':m' => 'module',                ':c' => 'controller',                ':a' => 'action'                ),            array(                'tkey1 ' => 'tval1',                'tkey2' =>                'tval2'                )            )        ); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(49) "/module/controller/action?tkey1u003dtval1&tkey2u003dtval2"
+string(49) "/module/controller/action?tkey1=tval1&tkey2=tval2"

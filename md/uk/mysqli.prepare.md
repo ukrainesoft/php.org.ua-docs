@@ -58,7 +58,7 @@ public **mysqli::prepare**(string `$query`):
 >
 > Однак вони не дозволені як ідентифікатори (наприклад, імена
 > таблиць або стовпців) або для вказівки обох бінарних операндів
-> оператора, як знак рівності `u003d`. Останнє обмеження
+> оператора, як знак рівності `=`. Останнє обмеження
 > необхідно, оскільки неможливо визначити тип параметра. В основному,
 > параметри допустимі у виразах мови маніпулювання даними (DML),
 > і неприпустимі у виразах мови визначення даних (DDL).
@@ -74,12 +74,12 @@ public **mysqli::prepare**(string `$query`):
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$city запропонувати| $mysqli->prepare("SELECT District FROM City WHERE Nameu003d?");/* зв'язування параметрів з мітками */$stmt->bind_param("s", $city);/* виконання запиту execute();/* зв'язування змінних з результатами запиту */$stmt->bind_result($district);/* отримання значення */$stmt->fetch();printf("%s перебуває в ок|
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$city запропонувати| $mysqli->prepare("SELECT District FROM City WHERE Name=?");/* зв'язування параметрів з мітками */$stmt->bind_param("s", $city);/* виконання запиту execute();/* зв'язування змінних з результатами запиту */$stmt->bind_result($district);/* отримання значення */$stmt->fetch();printf("%s перебуває в ок|
 ", $city, $district); `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world"); ($link, "SELECT District FROM City WHERE Nameu003d?");/* зв'язування параметрів метками */mysqli_stmt_bind_param($stmt, "s", $city);/* m|t * зв'язування змінних з результатами запиту */mysqli_stmt_bind_result($stmt, $district);/* набуття значення */mysqli_stmt_fetch($stmt);printf("%s s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world"); ($link, "SELECT District FROM City WHERE Name=?");/* зв'язування параметрів метками */mysqli_stmt_bind_param($stmt, "s", $city);/* m|t * зв'язування змінних з результатами запиту */mysqli_stmt_bind_result($stmt, $district);/* набуття значення */mysqli_stmt_fetch($stmt);printf("%s s
 ", $city, $district);?> `
 
 Результат виконання даних прикладів:

@@ -7,13 +7,13 @@
 
 # Swoole\Process::read
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::read - Читає дані відправки в процес
 
 ### Опис
 
-public **Swoole\Process::read**(int `$maxsize` u003d ?): string
+public **Swoole\Process::read**(int `$maxsize` = ?): string
 
 ### Список параметрів
 

@@ -7,7 +7,7 @@
 
 #radius_salt_encrypt_attr
 
-(PECL radius \>u003d 1.3.0)
+(PECL radius \>= 1.3.0)
 
 radius_salt_encrypt_attr — Зашифровує значення за допомогою солі
 

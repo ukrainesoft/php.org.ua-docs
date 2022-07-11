@@ -7,7 +7,7 @@
 
 #ldap_modify_batch
 
-(PHP 5.4 \>u003d 5.4.26, PHP 5.5 \>u003d 5.5.10, PHP 5.6 \>u003d 5.6.0, PHP 7, PHP
+(PHP 5.4 \>= 5.4.26, PHP 5.5 \>= 5.5.10, PHP 5.6 \>= 5.6.0, PHP 7, PHP
 8)
 
 ldap_modify_batch — Формування та запуск пакетної зміни запису
@@ -19,7 +19,7 @@ LDAP
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
 string `$dn`,
 array `$modifications_info`,
-?array `$controls` u003d **`null`**
+?array `$controls` = **`null`**
 ): bool
 
 Модифікує існуючий запис у каталозі LDAP. Допустимо детальне
@@ -75,7 +75,7 @@ array `$modifications_info`,
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
 | 7.3    | Додано підтримку параметра controls                                                                                                                     |
@@ -84,20 +84,20 @@ array `$modifications_info`,
 
 **Приклад #1 Додавання контакту телефонного номера**
 
-` <?php$dn u003d "cnu003dJohn Smith,ouu003dWizards,dcu003dexample,dcu003dcom";$modifs u003d [    [        "attrib"  u003d> "telephoneNumber",        "modtype" u003d> LDAP_MODIFY_BATCH_ADD,        "values" u003d> ["+1 555 555 1717"],    ],];ldap_modify_batch($connection, $dn, $modifs);?> `
+` <?php$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";$modifs = [    [        "attrib"  => "telephoneNumber",        "modtype" => LDAP_MODIFY_BATCH_ADD,        "values" => ["+1 555 555 1717"],    ],];ldap_modify_batch($connection, $dn, $modifs);?> `
 
 **Приклад #2 Перейменування користувача**
 
-` <?php$dn u003d "cnu003dJohn Smith,ouu003dWizards,dcu003dexample,dcu003dcom";$modifs u003d [    [        "attrib"  u003d> "sn",        "modtype" u003d> LDAP_MODIFY_BATCH_REPLACE,        "values" u003d> ["Smith-Jones"],    ],    [        "attrib"  u003d> "givenName",        "modtype" u003d> LDAP_MODIFY_BATCH_REPLACE,        "values"  u003d> ["Jack"],    ],];ldap_modify_batch($connection, $ dn, $modifs);ldap_rename($connection, $dn, "cnu003dJack Smith-Jones", NULL, TRUE);?> `
+` <?php$dn = "cn=John Smith,ou=Wizards,dc=example,dc=com";$modifs = [    [        "attrib"  => "sn",        "modtype" => LDAP_MODIFY_BATCH_REPLACE,        "values" => ["Smith-Jones"],    ],    [        "attrib"  => "givenName",        "modtype" => LDAP_MODIFY_BATCH_REPLACE,        "values"  => ["Jack"],    ],];ldap_modify_batch($connection, $ dn, $modifs);ldap_rename($connection, $dn, "cn=Jack Smith-Jones", NULL, TRUE);?> `
 
 **Приклад #3 Додавання користувачеві двох e-mail адрес**
 
-` <?php$dn u003d "cnu003dJack Smith-Jones,ouu003dWizards,dcu003dexample,dcu003dcom";$modifs u003d [    [        "attrib"  u003d> "mail",        "modtype" u003d> LDAP_MODIFY_BATCH_ADD,        " values"  u003d> [            "jack.smith@example.com",            "jack.smith-jones@example.com",        ],    ],];ldap_modify_batch($connection, $dn, $modifs);?> `
+` <?php$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";$modifs = [    [        "attrib"  => "mail",        "modtype" => LDAP_MODIFY_BATCH_ADD,        " values"  => [            "jack.smith@example.com",            "jack.smith-jones@example.com",        ],    ],];ldap_modify_batch($connection, $dn, $modifs);?> `
 
 **Приклад #4 Зміна пароля користувача**
 
-` <?php$dn u003d "cnu003dJack Smith-Jones,ouu003dWizards,dcu003dexample,dcu003dcom";$modifs u003d [    [        "attrib"  u003d> "userPassword",        "modtype" u003d> LDAP_MODIFY_BATCH_REMOVE,        " values"  u003d> ["Tr0ub4dor&3"],    ],    [        "attrib"  u003d> "userPassword",        "modtype" u003d> LDAP_MODIFY_BATCH_ADD,        "values"  u003d> ["correct horse battery staple"],    ],];ldap_modify_batch($ connection, $dn, $modifs);?> `
+` <?php$dn = "cn=Jack Smith-Jones,ou=Wizards,dc=example,dc=com";$modifs = [    [        "attrib"  => "userPassword",        "modtype" => LDAP_MODIFY_BATCH_REMOVE,        " values"  => ["Tr0ub4dor&3"],    ],    [        "attrib"  => "userPassword",        "modtype" => LDAP_MODIFY_BATCH_ADD,        "values"  => ["correct horse battery staple"],    ],];ldap_modify_batch($ connection, $dn, $modifs);?> `
 
 **Приклад #5 Зміна пароля користувача (Active Directory)**
 
-` <?phpfunction adifyPw($pw){    return iconv("UTF-8", "UTF-16LE", '"'''.$$pw . '"');}$dn u003d "cnu003dJack Smi u003dWizards,dcu003dad,dcu003dexample,dcu003dcom";$modifs u003d [    [        "attrib"  u003d> "unicodePwd",        "modtype" u003d> LDAP_MODIFY_BATCH_REMOVE,        "values"  u003d> [adifyPw("Tr0ub4dor&3")] ,    ],    [        "attrib"  u003d> "unicodePwd",        "modtype" u003d> LDAP_MODIFY_BATCH_ADD,        "values"  u003d> [adifyPw("correct horse battery staple")],    ],];ldap_modify_batch($connection, $dn, $ modifs); `
+` <?phpfunction adifyPw($pw){    return iconv("UTF-8", "UTF-16LE", '"'''.$$pw . '"');}$dn = "cn=Jack Smi =Wizards,dc=ad,dc=example,dc=com";$modifs = [    [        "attrib"  => "unicodePwd",        "modtype" => LDAP_MODIFY_BATCH_REMOVE,        "values"  => [adifyPw("Tr0ub4dor&3")] ,    ],    [        "attrib"  => "unicodePwd",        "modtype" => LDAP_MODIFY_BATCH_ADD,        "values"  => [adifyPw("correct horse battery staple")],    ],];ldap_modify_batch($connection, $dn, $ modifs); `

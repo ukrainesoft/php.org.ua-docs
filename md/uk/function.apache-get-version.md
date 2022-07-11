@@ -7,7 +7,7 @@
 
 #apache_get_version
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 apache_get_version — Повертає версію Apache
 
@@ -29,7 +29,7 @@ apache_get_version — Повертає версію Apache
 
 **Приклад #1 Приклад використання **apache_get_version()****
 
-` <?php$version u003d apache_get_version();echo "$version
+` <?php$version = apache_get_version();echo "$version
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

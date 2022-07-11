@@ -7,7 +7,7 @@
 
 # Клас EvEmbed
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -25,20 +25,20 @@ public `$embed`;
 
 public [\_\_construct](evembed.construct.md)(
 object `$other` ,
-[callable](language.types.callable.md) `$callback` u003d ?,
+[callable](language.types.callable.md) `$callback` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 )
 
 final public static [createStopped](evembed.createstopped.md)(
 object `$other` ,
-[callable](language.types.callable.md) `$callback` u003d ?,
+[callable](language.types.callable.md) `$callback` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 ): void
 
 public [set](evembed.set.md)( object `$other` ): void
@@ -57,7 +57,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

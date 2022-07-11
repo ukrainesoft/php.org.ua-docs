@@ -7,7 +7,7 @@
 
 # Spoofchecker::areConfusable
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Spoofchecker::areConfusable — Перевірити, чи є рядки
 підозрілими
@@ -15,7 +15,7 @@ Spoofchecker::areConfusable — Перевірити, чи є рядки
 ### Опис
 
 public **Spoofchecker::areConfusable**(string `$string1`, string
-`$string2`, int `&$errorCode` u003d **`null`**): bool
+`$string2`, int `&$errorCode` = **`null`**): bool
 
 Перевіряє, наскільки легко переплутати два рядки.
 
@@ -40,4 +40,4 @@ public **Spoofchecker::areConfusable**(string `$string1`, string
 
 **Приклад #1 Приклад використання **Spoofchecker::areConfusable()****
 
-` <?php$checker u003d new Spoofchecker();$checker->areConfusable('google.com', 'goog1e.com'); // true// Англійську рядкову "l" легко переплутати з цифрою 1$checker->areConfusable('google.com', 'g00g1e.com'); // false// Ніль (0) складно переплутати з рядковою "o" `
+` <?php$checker = new Spoofchecker();$checker->areConfusable('google.com', 'goog1e.com'); // true// Англійську рядкову "l" легко переплутати з цифрою 1$checker->areConfusable('google.com', 'g00g1e.com'); // false// Ніль (0) складно переплутати з рядковою "o" `

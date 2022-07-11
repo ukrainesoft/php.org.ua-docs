@@ -15,11 +15,11 @@ class **ImagickPixel** {
 
 public [clear](imagickpixel.clear.md)(): bool
 
-public [\_\_construct](imagickpixel.construct.md)(string `$color` u003d ?)
+public [\_\_construct](imagickpixel.construct.md)(string `$color` = ?)
 
 public [destroy](imagickpixel.destroy.md)(): bool
 
-public [getColor](imagickpixel.getcolor.md)(int `$normalized` u003d 0):
+public [getColor](imagickpixel.getcolor.md)(int `$normalized` = 0):
 array
 
 public [getColorAsString](imagickpixel.getcolorasstring.md)(): string
@@ -45,7 +45,7 @@ public
 
 public
 [isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md)(string
-`$color`, string `$fuzz` u003d ?): bool
+`$color`, string `$fuzz` = ?): bool
 
 public
 [isSimilar](imagickpixel.issimilar.md)([ImagickPixel](class.imagickpixel.md)

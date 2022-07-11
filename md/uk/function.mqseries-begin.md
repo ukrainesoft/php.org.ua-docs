@@ -7,7 +7,7 @@
 
 # mqseries_begin
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_begin — MQseries MQBEGIN
 
@@ -49,7 +49,7 @@ resource `&$reason`
 
 **Приклад #1 Приклад використання **mqseries_begin()****
 
-` <?php   $mqbo u003d array(); mqseries_begin( $conn,                    $mqbo,                    $comp_code,                    $reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         /* код причини 2121 - попереджувальний. Дивись документацію MQSeries.*/        if ($reason !u003du003d 2121) {            printf("CompCode:%d Reason:%d<br>
+` <?php   $mqbo = array(); mqseries_begin( $conn,                    $mqbo,                    $comp_code,                    $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         /* код причини 2121 - попереджувальний. Дивись документацію MQSeries.*/        if ($reason !== 2121) {            printf("CompCode:%d Reason:%d<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        }    }?> `
 
 ### Примітки

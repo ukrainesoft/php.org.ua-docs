@@ -8,7 +8,7 @@
 
 #wincache_ucache_add
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_add — Додає змінну в кеш користувача,
 тільки якщо змінна ще не існує у кеші
@@ -17,11 +17,11 @@ wincache_ucache_add — Додає змінну в кеш користувача
 
 **wincache_ucache_add**(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` u003d 0): bool
+`$value`, int `$ttl` = 0): bool
 
 **wincache_ucache_add**(array `$values`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$unused` u003d NULL, int `$ttl` u003d 0): bool
+`$unused` = NULL, int `$ttl` = 0): bool
 
 Додає змінну в кеш користувача, тільки якщо ця змінна
 ще не існує у кеші. Додана змінна залишається в
@@ -38,7 +38,7 @@ wincache_ucache_add — Додає змінну в кеш користувача
 **`false`**. `key` чутливий до регістру. Щоб перевизначити
 значення, навіть якщо `key` вже існує, використовуйте функцію
 [wincache_ucache_set()](function.wincache-ucache-set.md). `key` також
-може приймати масив пар ім'я u003d\> значення, де імена будуть
+може приймати масив пар ім'я =\> значення, де імена будуть
 використовуватися як ключі. Це можна використовувати для додавання
 кількох значень у кеш за одну операцію, що дозволяє уникнути
 стану перегонів.
@@ -72,12 +72,12 @@ wincache_ucache_add — Додає змінну в кеш користувача
 
 Якщо `key` є масивом, функція повертає:
 
-- Якщо всі пари ім'я u003d\> значення в масиві можуть бути встановлені,
+- Якщо всі пари ім'я =\> значення в масиві можуть бути встановлені,
 функція повертає порожній масив;
-- Якщо всі пари ім'я u003d\> значення в масиві не можуть бути встановлені,
+- Якщо всі пари ім'я =\> значення в масиві не можуть бути встановлені,
 функція повертає **`false`**;
 - Якщо деякі з них можуть бути встановлені, а інші – ні,
-функція повертає масив з парами name u003d\> value, які не
+функція повертає масив з парами name =\> value, які не
 вдалося додати до користувача кеш.
 
 ### Приклади
@@ -85,7 +85,7 @@ wincache_ucache_add — Додає змінну в кеш користувача
 **Приклад #1 Приклад використання **wincache_ucache_add()** з `key` в
 вигляді рядка**
 
-` <?php$bar u003d 'BAR';var_dump(wincache_ucache_add('foo', $bar));var_dump(wincache_ucache_add('foo', $bar));var_dump(wincache_ucache_get('foo'));?>
+` <?php$bar = 'BAR';var_dump(wincache_ucache_add('foo', $bar));var_dump(wincache_ucache_add('foo', $bar));var_dump(wincache_ucache_get('foo'));?>
 
 Результат виконання цього прикладу:
 
@@ -96,16 +96,16 @@ string(3) "BAR"
 **Приклад #2 Приклад використання **wincache_ucache_add()** з `key` в
 вигляді масиву**
 
-` <?php$colors_array u003d array('green' u003d> '5', 'Blue' u003d> '6', 'yellow' u003d> '7', 'cyan' u003d> '8');var_dump(wincache_ucache_ad $colors_array));var_dump(wincache_ucache_add($colors_array));var_dump(wincache_ucache_get('Blue'));?> `
+` <?php$colors_array = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');var_dump(wincache_ucache_ad $colors_array));var_dump(wincache_ucache_add($colors_array));var_dump(wincache_ucache_get('Blue'));?> `
 
 Результат виконання цього прикладу:
 
 array(0) { }
 array(4) {
-["green"]u003d> int(-1)
-["Blue"]u003d> int(-1)
-["yellow"]u003d> int(-1)
-["cyan"]u003d> int(-1)
+["green"]=> int(-1)
+["Blue"]=> int(-1)
+["yellow"]=> int(-1)
+["cyan"]=> int(-1)
 }
 string(1) "6"
 

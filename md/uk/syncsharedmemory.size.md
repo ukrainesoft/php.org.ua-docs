@@ -7,7 +7,7 @@
 
 # SyncSharedMemory::size
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 SyncSharedMemory::size — Повертає розмір іменованої розділяється
 пам'яті
@@ -32,7 +32,7 @@ public **SyncSharedMemory::size**(): int
 
 **Приклад #1 Приклад використання **SyncSharedMemory::size()****
 
-` <?php$mem u003d new SyncSharedMemory("AppReportName", 1024);var_dump($mem->size());?> `
+` <?php$mem = new SyncSharedMemory("AppReportName", 1024);var_dump($mem->size());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

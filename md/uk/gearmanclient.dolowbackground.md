@@ -7,7 +7,7 @@
 
 # GearmanClient::doLowBackground
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doLowBackground — Запускає виконання з низьким
 пріоритетом завдання у фоновому режимі
@@ -15,7 +15,7 @@ GearmanClient::doLowBackground — Запускає виконання з низ
 ### Опис
 
 public **GearmanClient::doLowBackground**(string `$function_name`,
-string `$workload`, string `$unique` u003d ?): string
+string `$workload`, string `$unique` = ?): string
 
 Запускає виконання з низьким пріоритетом завдання у фоновому режимі,
 повертаючи дескриптор завдання, який може бути використаний для запиту

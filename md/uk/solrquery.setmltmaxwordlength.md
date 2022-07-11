@@ -7,7 +7,7 @@
 
 # SolrQuery::setMltMaxWordLength
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setMltMaxWordLength — Встановлює максимальну довжину слова
 

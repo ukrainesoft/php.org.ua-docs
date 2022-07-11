@@ -7,7 +7,7 @@
 
 #eio_sync_file_range
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_sync_file_range — Синхронізує сегмент файлу з даними файлу на
 зовнішньому сховищі
@@ -20,10 +20,10 @@ eio_sync_file_range — Синхронізує сегмент файлу з да
 int `$offset`,
 int `$nbytes`,
 int `$flags`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_sync_file_range()** здійснює необхідні перевірки та дії

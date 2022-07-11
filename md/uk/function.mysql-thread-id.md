@@ -7,7 +7,7 @@
 
 # mysql_thread_id
 
-(PHP 4 u003d 4.3.0, PHP 5)
+(PHP 4 = 4.3.0, PHP 5)
 
 mysql_thread_id — Повертає ідентифікатор потоку
 
@@ -21,7 +21,7 @@ mysql_thread_id — Повертає ідентифікатор потоку
 
 ### Опис
 
-**mysql_thread_id**(resource `$link_identifier` u003d NULL): int\|false
+**mysql_thread_id**(resource `$link_identifier` = NULL): int\|false
 
 **mysql_thread_id()** повертає ідентифікатор потоку. Якщо
 з'єднання втрачено і ви переєдналися за допомогою
@@ -50,7 +50,7 @@ mysql_thread_id — Повертає ідентифікатор потоку
 
 **Приклад #1 Приклад використання **mysql_thread_id()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$thread_id u003d mysql_thread_id($link);if ($thread_id){    printf("Ідентифікатор 
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$thread_id = mysql_thread_id($link);if ($thread_id){    printf("Ідентифікатор 
 ", $thread_id);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

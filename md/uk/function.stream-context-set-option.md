@@ -7,7 +7,7 @@
 
 #stream_context_set_option
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_context_set_option — Встановлює опцію для
 потоку/обгортки/контексту
@@ -48,7 +48,7 @@ string `$option`,
 > **Примітка**:
 >
 > Параметр `options` повинен бути асоціативним масивом
-> масивів у форматі $arr['wrapper']['option'] u003d $value`.
+> масивів у форматі $arr['wrapper']['option'] = $value`.
 > > Зверніться до розділу [Опції та параметри контексту](context.md),
 > щоб отримати список опцій потоку.
 

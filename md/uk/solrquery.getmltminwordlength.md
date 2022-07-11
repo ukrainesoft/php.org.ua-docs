@@ -8,7 +8,7 @@
 
 # SolrQuery::getMltMinWordLength
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getMltMinWordLength — Повертає мінімальну довжину слова,
 нижче за яку слова ігноруватимуться

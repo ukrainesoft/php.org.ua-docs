@@ -7,7 +7,7 @@
 
 # Gmagick::annotateimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::annotateimage — Підписати зображення текстом
 

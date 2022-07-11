@@ -55,14 +55,14 @@ y-координата другої точки.
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Малювання жирної лінії**
 
-` <?phpfunction imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick u003d 1){    /* цей способ застосовуємо тільки для ортогональних$ return imageline($image, $x1, $y1, $x2, $y2, $color); */    if ($thick u003du003d 1) {        return imageline($image, $x1, $y1, $x2, $y2, $color); }   $t u003d $thick / 2 - 0.5; if ($x1 u003du003d $x2 || $y1 u003du003d $y2) {       return imagefilledrectangle($image,round(min($x1, $x2) - $t), y $t), round(max($x1, $x2) + $t), round(max($y1, $y2) + $t), $color); }   $k u003d ($y2 - $y1) / ($x2 - $x1); //y u003d kx + q    $a u003d $t / sqrt(1 + pow($k, 2)); $points u003d array(        round($x1 - (1+$k)*$a), round($y1 + (1-$k)*$a),         round($x1 $ a), round($y1 - (1+$k)*$a),        round($x2 + (1+$k)*$a), round($y2 - (1-$k)*$a) ,      round($x2 + (1-$k)*$a), round($y2 + (1+$k)*$a),    ); imagefilledpolygon($image, $points, 4, $color); return imagepolygon($image, $points, 4, $color);}?> `
+` <?phpfunction imagelinethick($image, $x1, $y1, $x2, $y2, $color, $thick = 1){    /* цей способ застосовуємо тільки для ортогональних$ return imageline($image, $x1, $y1, $x2, $y2, $color); */    if ($thick == 1) {        return imageline($image, $x1, $y1, $x2, $y2, $color); }   $t = $thick / 2 - 0.5; if ($x1 == $x2 || $y1 == $y2) {       return imagefilledrectangle($image,round(min($x1, $x2) - $t), y $t), round(max($x1, $x2) + $t), round(max($y1, $y2) + $t), $color); }   $k = ($y2 - $y1) / ($x2 - $x1); //y = kx + q    $a = $t / sqrt(1 + pow($k, 2)); $points = array(        round($x1 - (1+$k)*$a), round($y1 + (1-$k)*$a),         round($x1 $ a), round($y1 - (1+$k)*$a),        round($x2 + (1+$k)*$a), round($y2 - (1-$k)*$a) ,      round($x2 + (1-$k)*$a), round($y2 + (1+$k)*$a),    ); imagefilledpolygon($image, $points, 4, $color); return imagepolygon($image, $points, 4, $color);}?> `
 
 ### Дивіться також
 

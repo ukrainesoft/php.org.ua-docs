@@ -7,14 +7,14 @@
 
 # openssl_csr_get_subject
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 openssl_csr_get_subject — Повертає суб'єкт CSR
 
 ### Опис
 
 **openssl_csr_get_subject**([OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)\|string
-`$csr`, bool `$short_names` u003d **`true`**): array\|false
+`$csr`, bool `$short_names` = **`true`**): array\|false
 
 **openssl_csr_get_subject()** повертає відому про суб'єкт
 інформацію, закодовану в `csr`, включаючи поля commonName (CN),
@@ -39,26 +39,26 @@ openssl_csr_get_subject — Повертає суб'єкт CSR
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | csr тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання openssl_csr_get_subject()**
 
-`<?php$subject u003d array(    "countryName" u003d> "CA",   "stateOrProvinceName" u003d> Alberta",    "localityName" u003d> "Calgary",   | u003d> "PHP Documentation Team",    "commonName" u003d> "Wez Furlong",    "emailAddress" u003d> "wez@example.com",);$private_key u003d openssl_pkey_new(array(    "private_key_bits" u003d> 2048,    "private_key_type" u003d> OPENSSL_KEYTYPE_RSA,));$configargs u003d array(    'digest_alg' u003d> 'sha512WithRSAEncryption');$csr u003d openssl_csr_new($subject, $sr
+`<?php$subject = array(    "countryName" => "CA",   "stateOrProvinceName" => Alberta",    "localityName" => "Calgary",   | => "PHP Documentation Team",    "commonName" => "Wez Furlong",    "emailAddress" => "wez@example.com",);$private_key = openssl_pkey_new(array(    "private_key_bits" => 2048,    "private_key_type" => OPENSSL_KEYTYPE_RSA,));$configargs = array(    'digest_alg' => 'sha512WithRSAEncryption');$csr = openssl_csr_new($subject, $sr
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[C] u003d> CA
-[ST] u003d> Alberta
-[L] u003d> Calgary
-[O] u003d> XYZ Widgets Inc
-[OU] u003d> PHP Documentation Team
-[CN] u003d> Wez Furlong
-[emailAddress] u003d> wez@example.com
+[C] => CA
+[ST] => Alberta
+[L] => Calgary
+[O] => XYZ Widgets Inc
+[OU] => PHP Documentation Team
+[CN] => Wez Furlong
+[emailAddress] => wez@example.com
 )
 
 ### Дивіться також

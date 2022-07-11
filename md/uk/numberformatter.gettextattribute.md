@@ -9,7 +9,7 @@
 
 #numfmt_get_text_attribute
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::getTextAttribute -- numfmt_get_text_attribute --
 Отримує текстовий атрибут
@@ -50,7 +50,7 @@ string\|false
 
 **Приклад #1 Приклад використання **numfmt_get_text_attribute()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX
 ";echo numfmt_format($fmt, -1234567.891234567890000)."
 ";numfmt_set_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX, "MINUS");echo "Prefix: ".numfmt_get_text_attribute($fmt, NumberFormatter::NEGATIVE_PREFIX)
 ";echo numfmt_format($fmt, -1234567.891234567890000)."
@@ -58,7 +58,7 @@ string\|false
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Префікс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Префікс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."
 ";echo $fmt->format(-1234567.891234567890000)."
 ";$fmt->setTextAttribute(NumberFormatter::NEGATIVE_PREFIX, "MINUS");echo "Префікс: ".$fmt->getTextAttribute(NumberFormatter::NEGATIVE_PREFIX)."
 ";echo $fmt->format(-1234567.891234567890000)."

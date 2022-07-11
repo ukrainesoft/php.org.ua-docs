@@ -7,7 +7,7 @@
 
 #sys_getloadavg
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 sys_getloadavg — Отримує середнє завантаження системи
 
@@ -31,7 +31,7 @@ sys_getloadavg — Отримує середнє завантаження сис
 
 **Приклад #1 Приклад використання **sys_getloadavg()****
 
-` <?php$load u003d sys_getloadavg();if ($load[0] > 0.80) {    header('HTTP/1.1 503 Too busy, try again later'); die('Server too busy. Please try again later.');}?> `
+` <?php$load = sys_getloadavg();if ($load[0] > 0.80) {    header('HTTP/1.1 503 Too busy, try again later'); die('Server too busy. Please try again later.');}?> `
 
 ### Примітки
 

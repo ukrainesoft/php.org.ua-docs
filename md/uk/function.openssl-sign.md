@@ -7,7 +7,7 @@
 
 # openssl_sign
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 openssl_sign — Генерація підпису
 
@@ -18,7 +18,7 @@ string `$data`,
 string `&$signature`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
-string\|int `$algorithm` u003d **`OPENSSL_ALGO_SHA1`**
+string\|int `$algorithm` = **`OPENSSL_ALGO_SHA1`**
 ): bool
 
 **openssl_sign()** обчислює підпис даних `data` шляхом генерації
@@ -56,18 +56,18 @@ string\|int `$algorithm` u003d **`OPENSSL_ALGO_SHA1`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **openssl_sign()****
 
-` <?php// $data містить дані для генерації підписи// Виймаємо секретний ключ з файла і підготовляємо$pkeyid u003d openssl_pkey_get_private("file//src/. // Обчислюємо підписopenssl_sign($data, $signature, $pkeyid);// Вивільняємо ресурс ключаopenssl_free_key($pkeyid);?> `
+` <?php// $data містить дані для генерації підписи// Виймаємо секретний ключ з файла і підготовляємо$pkeyid = openssl_pkey_get_private("file//src/. // Обчислюємо підписopenssl_sign($data, $signature, $pkeyid);// Вивільняємо ресурс ключаopenssl_free_key($pkeyid);?> `
 
 **Приклад #2 Приклад використання **openssl_sign()****
 
-` <?php//Данные для генерации сигнатуры$data u003d 'my data';//Создаём новую пару открытый/закрытый ключ$new_key_pair u003d openssl_pkey_new(array(    "private_key_bits" u003d> 2048,    "private_key_type" u003d> OPENSSL_KEYTYPE_RSA,)) ;openssl_pkey_export($new_key_pair, $private_key_pem);$details u003d openssl_pkey_get_details($new_key_pair);$public_key_pem u003d $details['key'];//Вычисляем подписьopenssl_sign($data, $signature, $private_key_pem, OPENSSL_ALGO_SHA256);//Сохраняемfile_put_contents ('private_key.pem', $private_key_pem);file_put_contents('public_key.pem', $public_key_pem);file_put_contents('signature.dat', $signature);//Звіряємо підпис$r u003d openssl_ver $public_key_pem, "sha256WithRSAEncryption");var_dump($r);?> `
+` <?php//Данные для генерации сигнатуры$data = 'my data';//Создаём новую пару открытый/закрытый ключ$new_key_pair = openssl_pkey_new(array(    "private_key_bits" => 2048,    "private_key_type" => OPENSSL_KEYTYPE_RSA,)) ;openssl_pkey_export($new_key_pair, $private_key_pem);$details = openssl_pkey_get_details($new_key_pair);$public_key_pem = $details['key'];//Вычисляем подписьopenssl_sign($data, $signature, $private_key_pem, OPENSSL_ALGO_SHA256);//Сохраняемfile_put_contents ('private_key.pem', $private_key_pem);file_put_contents('public_key.pem', $public_key_pem);file_put_contents('signature.dat', $signature);//Звіряємо підпис$r = openssl_ver $public_key_pem, "sha256WithRSAEncryption");var_dump($r);?> `
 
 ### Дивіться також
 

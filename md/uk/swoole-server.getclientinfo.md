@@ -7,15 +7,15 @@
 
 # Swoole\Server::getClientInfo
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::getClientInfo — Отримує інформацію про з'єднання з
 опис файлу
 
 ### Опис
 
-public **Swoole\Server::getClientInfo**(int `$fd`, int `$reactor_id` u003d
-?, bool `$ignore_error` u003d ?): array
+public **Swoole\Server::getClientInfo**(int `$fd`, int `$reactor_id` =
+?, bool `$ignore_error` = ?): array
 
 ### Список параметрів
 

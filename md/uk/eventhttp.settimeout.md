@@ -7,7 +7,7 @@
 
 # EventHttp::setTimeout
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttp::setTimeout — Встановлює час очікування для запиту HTTP
 

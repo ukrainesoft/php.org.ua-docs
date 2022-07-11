@@ -7,7 +7,7 @@
 
 # sodium_crypto_aead_aes256gcm_keygen
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_aead_aes256gcm_keygen — Створює випадковий ключ AES-256-GCM
 

@@ -8,7 +8,7 @@ DNS
 
 # EventBufferEvent::getDnsErrorString
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::getDnsErrorString — Повертає рядок, що описує
 останню невдалу спробу пошуку DNS

@@ -9,7 +9,7 @@
 
 #numfmt_set_attribute
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::setAttribute -- numfmt_set_attribute -- Встановлює
 атрибут
@@ -50,7 +50,7 @@ public **NumberFormatter::setAttribute**(int `$attribute`, int\|float
 
 **Приклад #1 Приклад використання **numfmt_set_attribute()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGI
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGI
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
 ";numfmt_set_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS, 2);echo "Цифр: ".numfmt_get_attribute($fmt, NumberFormatter::MAX_FRACTION_DIGITS)."
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
@@ -58,7 +58,7 @@ public **NumberFormatter::setAttribute**(int `$attribute`, int\|float
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."
 ";echo $fmt->format(1234567.891234567890000)."
 ";$fmt->setAttribute(NumberFormatter::MAX_FRACTION_DIGITS, 2);echo "Цифр: ".$fmt->getAttribute(NumberFormatter::MAX_FRACTION_DIGITS)."
 ";echo $fmt->format(1234567.891234567890000)."

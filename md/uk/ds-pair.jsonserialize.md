@@ -7,7 +7,7 @@
 
 # Ds\Pair::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Pair::jsonSerialize — Повертає пару у виставі JSON
 

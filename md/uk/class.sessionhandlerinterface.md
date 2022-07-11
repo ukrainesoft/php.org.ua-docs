@@ -7,7 +7,7 @@
 
 # Клас SessionHandlerInterface
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -68,7 +68,7 @@ public [write](sessionhandlerinterface.write.md)(string `$id`, string
 не використовуйте цей код у промисловій експлуатації, не додавши
 відповідні перевірки.
 
-` <?phpclass MySessionHandler implements SessionHandlerInterface{    private $savePath; public function open($savePath, $sessionName): bool    {       $this->savePath u003d $savePath; if (!is_dir($this->savePath)) {            mkdir($this->savePath, 0777); }     return true; }    public function close(): bool    {        return true; }   #[ReturnTypeWillChange]    public function read($id)   {        return (string)@file_get_contents("$this->savePath/ses_; }    public function write($id, $data): bool    {        return file_put_contents("$this->savePath/sess_$id", $data| false : true; }    public function destroy($id): bool   {        $file u003d "$this->savePath/sess_$id"; if (file_exists($file)) {            unlink($file); }     return true; }    #[ReturnTypeWillChange]    public function gc($maxlifetime)    {        foreach (glob("$this->savePath/sess_*") as $file) {            if (filemtime($file) + $maxlifetime < time() && file_exists( $file)) unlink($file); }        }}        return true; }}$handler u003d new MySessionHandler();session_set_save_handler($handler, true);session_start();// продовжуємо працювати з змінними сесії, встановлюючи або читання 
+` <?phpclass MySessionHandler implements SessionHandlerInterface{    private $savePath; public function open($savePath, $sessionName): bool    {       $this->savePath = $savePath; if (!is_dir($this->savePath)) {            mkdir($this->savePath, 0777); }     return true; }    public function close(): bool    {        return true; }   #[ReturnTypeWillChange]    public function read($id)   {        return (string)@file_get_contents("$this->savePath/ses_; }    public function write($id, $data): bool    {        return file_put_contents("$this->savePath/sess_$id", $data| false : true; }    public function destroy($id): bool   {        $file = "$this->savePath/sess_$id"; if (file_exists($file)) {            unlink($file); }     return true; }    #[ReturnTypeWillChange]    public function gc($maxlifetime)    {        foreach (glob("$this->savePath/sess_*") as $file) {            if (filemtime($file) + $maxlifetime < time() && file_exists( $file)) unlink($file); }        }}        return true; }}$handler = new MySessionHandler();session_set_save_handler($handler, true);session_start();// продовжуємо працювати з змінними сесії, встановлюючи або читання 
 
 ## Зміст
 

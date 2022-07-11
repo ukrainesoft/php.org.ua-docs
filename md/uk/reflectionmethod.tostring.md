@@ -31,7 +31,7 @@ public **ReflectionMethod::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **ReflectionMethod::\_\_toString()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod u003d new ReflectionMethod(new HelloWorld(), 'sayHelloTo');echo $reflectionMethod;?> `
+`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');echo $reflectionMethod;?> `
 
 Результат виконання цього прикладу:
 

@@ -46,4 +46,4 @@ bind приймає список заповнювачів, якщо за умо�
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionRemove::bind()****
 
-` <?php$res u003d $coll->remove('age > :age_from and age < :age_to')->bind(['age_from' u003d> 20, 'age_to' u003d> 50])->limit(7 )->execute();?> `
+` <?php$res = $coll->remove('age > :age_from and age < :age_to')->bind(['age_from' => 20, 'age_to' => 50])->limit(7 )->execute();?> `

@@ -36,13 +36,13 @@ public **mysql_xdevapi\SqlStatementResult::fetchOne**(): array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\SqlStatementResult::fetchOne()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS dbtest")->execute();$session->sql( "CREATE DATABASE dbtest")->execute();$session->sql("CREATE TABLE dbtest.workers(name text, age int, job text)")->execute();$session->sql("INSERT INTO dbtest.workers values ('John', 42, 'bricklayer'), ('Sam', 33, 'carpenter')")->execute();$schema u003d $session->getSchema("dbtest"); $table  u003d $schema->getTable("workers");$rows u003d $session->sql("SELECT * FROM dbtest.workers")->execute()->fetchOne();print_r($rows);? > `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS dbtest")->execute();$session->sql( "CREATE DATABASE dbtest")->execute();$session->sql("CREATE TABLE dbtest.workers(name text, age int, job text)")->execute();$session->sql("INSERT INTO dbtest.workers values ('John', 42, 'bricklayer'), ('Sam', 33, 'carpenter')")->execute();$schema = $session->getSchema("dbtest"); $table  = $schema->getTable("workers");$rows = $session->sql("SELECT * FROM dbtest.workers")->execute()->fetchOne();print_r($rows);? > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[name] u003d> John
-[age] u003d> 42
-[job] u003d> bricklayer
+[name] => John
+[age] => 42
+[job] => bricklayer
 )

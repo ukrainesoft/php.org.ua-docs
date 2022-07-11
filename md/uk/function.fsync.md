@@ -7,7 +7,7 @@
 
 #fsync
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 fsync — Синхронізує зміни у файлі (включаючи метадані)
 
@@ -36,7 +36,7 @@ fsync — Синхронізує зміни у файлі (включаючи м
 
 **Приклад #1 Приклад використання **fsync()****
 
-` <?php$file u003d 'test.txt';$stream u003dfopen($file, 'w');fwrite($stream, 'тестові дані');fwrite($stream, "
+` <?php$file = 'test.txt';$stream =fopen($file, 'w');fwrite($stream, 'тестові дані');fwrite($stream, "
 ");fwrite($stream, 'додаткові дані');fsync($stream);fclose($stream);?> `
 
 ### Дивіться також

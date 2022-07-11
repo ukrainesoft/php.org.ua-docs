@@ -15,7 +15,7 @@ stristr - Реєстронезалежний варіант функції
 ### Опис
 
 **stristr**(string `$haystack`, string `$needle`, bool `$before_needle`
-u003d **`false`**): string\|false
+= **`false`**): string\|false
 
 Повертає весь рядок `haystack` починаючи з першого входження `needle`
 включно.
@@ -47,7 +47,7 @@ u003d **`false`**): string\|false
 ### Список змін
 
 | Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
+|--------|---------------------------------------------------------------|
 | 8.0.0  | Передача цілого числа (int) у needle більше не підтримується. |
 | 7.3.0  | Передача цілого числа (int) у needle оголошена застарілою.    |
 
@@ -55,15 +55,15 @@ u003d **`false`**): string\|false
 
 **Приклад #1 Приклад використання **stristr()****
 
-`<?php  $email u003d 'USER@EXAMPLE.com'; echo stristr($email, 'e'); // виводить ER@EXAMPLE.com echo stristr($email, 'e', true); // виводить US?> `
+`<?php  $email = 'USER@EXAMPLE.com'; echo stristr($email, 'e'); // виводить ER@EXAMPLE.com echo stristr($email, 'e', true); // виводить US?> `
 
 **Приклад #2 Перевірка на входження рядка**
 
-`<?php  $string u003d 'Hello World!'; if(stristr($string, 'earth') u003du003du003d FALSE) {   echo '"earth" не найдена в рядку'; }// виводить: "earth" не найдена у рядку?> `
+`<?php  $string = 'Hello World!'; if(stristr($string, 'earth') === FALSE) {   echo '"earth" не найдена в рядку'; }// виводить: "earth" не найдена у рядку?> `
 
 **Приклад #3 Використання не рядка у пошуку**
 
-`<?php  $string u003d 'APPLE'; echo stristr($string, 97); // 97 u003d a в нижньому реєстрі// виводить: APPLE?> `
+`<?php  $string = 'APPLE'; echo stristr($string, 97); // 97 = a в нижньому реєстрі// виводить: APPLE?> `
 
 ### Примітки
 

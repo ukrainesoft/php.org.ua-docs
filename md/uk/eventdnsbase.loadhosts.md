@@ -8,7 +8,7 @@ hosts
 
 # EventDnsBase::loadHosts
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventDnsBase::loadHosts — Завантажує файл hosts (у тому ж форматі, що й
 /etc/hosts) з файлу hosts

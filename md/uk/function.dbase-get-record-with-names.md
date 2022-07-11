@@ -54,14 +54,14 @@ array
 ### Список змін
 
 | Версія    | Опис                                                |
-| --------- | --------------------------------------------------- |
+|-----------|-----------------------------------------------------|
 | dbase 7.0 | Параметр database тепер має тип resource, а не int. |
 
 ### Приклади
 
 **Приклад #1 Список усіх зареєстрованих користувачів у базі даних**
 
-` <?php// відкриваємо базу в режимі читання$db u003d dbase_open('/tmp/test.dbf', 0);if ($db) { $record_numbers u003d dbase_numrecords(db for ($i u003d 1; $i <u003d$$record_numbers;$i++) {     $row u003d dbase_get_record_with_names($db, $i); if ($row['ismember'] u003du003d 1) {          echo "Member #$i: " . trim($row['name']) . "
+` <?php// відкриваємо базу в режимі читання$db = dbase_open('/tmp/test.dbf', 0);if ($db) { $record_numbers = dbase_numrecords(db for ($i = 1; $i <=$$record_numbers;$i++) {     $row = dbase_get_record_with_names($db, $i); if ($row['ismember'] == 1) {          echo "Member #$i: " . trim($row['name']) . "
 ";      }  }}// Прим. пер. -// к полученным с помощью dbase_get_record_with_names значениям записи// обращаемся по имени - $row['ismember'],// а в случае с dbase_get_record к значениям записи// обращаемся по номеру - $row[4]?> `
 
 ### Дивіться також

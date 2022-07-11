@@ -14,7 +14,7 @@ RecursiveDirectoryIterator::hasChildren — Визначає, чи є
 
 ### Опис
 
-public **RecursiveDirectoryIterator::hasChildren**(bool `$allowLinks` u003d
+public **RecursiveDirectoryIterator::hasChildren**(bool `$allowLinks` =
 **`false`**): bool
 
 **Увага**

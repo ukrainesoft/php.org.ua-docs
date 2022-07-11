@@ -7,13 +7,13 @@
 
 # Swoole\Http\Response::gzip
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::gzip — Включає gzip-стиснення вмісту відповіді.
 
 ### Опис
 
-public **Swoole\Http\Response::gzip**(string `$compress_level` u003d ?):
+public **Swoole\Http\Response::gzip**(string `$compress_level` = ?):
 ReturnType
 
 Заголовок про Content-Encoding буде додано автоматично.

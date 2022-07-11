@@ -7,15 +7,15 @@
 
 # Phar::convertToExecutable
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::convertToExecutable — Конвертує phar-архів в інший виконуваний
 формат файлу
 
 ### Опис
 
-public **Phar::convertToExecutable**(?int `$format` u003d **`null`**, ?int
-`$compression` u003d **`null`**, ?string `$extension` u003d **`null`**):
+public **Phar::convertToExecutable**(?int `$format` = **`null`**, ?int
+`$compression` = **`null`**, ?string `$extension` = **`null`**):
 ?[Phar](class.phar.md)
 
 > **Примітка**:
@@ -85,7 +85,7 @@ phar-архіви, засновані на tar або zip, повинні міс
 ### Список змін
 
 | Версія | Опис                                                             |
-| ------ | ---------------------------------------------------------------- |
+|--------|------------------------------------------------------------------|
 | 8.0.0  | format, compression та localName тепер допускають значення null. |
 
 ### Приклади
@@ -94,7 +94,7 @@ phar-архіви, засновані на tar або zip, повинні міс
 
 Використання Phar::convertToExecutable():
 
-`<?phptry {   $tarphar u003d new Phar('myphar.phar.tar'); // конвертувати архів в формат phar     // зверніть увагу, миphar.phar.tar *не* буде віддалений    $phar u003d $tarphar->convertToExecu //буде створений myphar.phar    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php')); // буде створений myphar.phar.tgz   $compressed u003d $phar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');} catch (Exception $                                                                                    | > `
+`<?phptry {   $tarphar = new Phar('myphar.phar.tar'); // конвертувати архів в формат phar     // зверніть увагу, миphar.phar.tar *не* буде віддалений    $phar = $tarphar->convertToExecu //буде створений myphar.phar    $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php')); // буде створений myphar.phar.tgz   $compressed = $phar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');} catch (Exception $                                                                                    | > `
 
 ### Дивіться також
 

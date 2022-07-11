@@ -7,13 +7,13 @@
 
 # trader_tema
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_tema - Потрійна експоненційна ковзна середня
 
 ### Опис
 
-**trader_tema**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_tema**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

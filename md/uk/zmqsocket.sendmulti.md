@@ -7,13 +7,13 @@
 
 # ZMQSocket::sendmulti
 
-(PECL zmq \>u003d 0.8.0)
+(PECL zmq \>= 0.8.0)
 
 ZMQSocket::sendmulti — Надіслати повідомлення, яке складається з кількох частин
 
 ### Опис
 
-public **ZMQSocket::sendmulti**(array `$message`, int `$mode` u003d 0):
+public **ZMQSocket::sendmulti**(array `$message`, int `$mode` = 0):
 [ZMQSocket](class.zmqsocket.md)
 
 Надіслати повідомлення, що складається з кількох частин Операція може

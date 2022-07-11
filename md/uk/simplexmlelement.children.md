@@ -13,8 +13,8 @@ SimpleXMLElement::children — Знаходить дочірні елемент�
 
 ### Опис
 
-public **SimpleXMLElement::children**(?string `$namespaceOrPrefix` u003d
-**`null`**, bool `$isPrefix` u003d **`false`**):
+public **SimpleXMLElement::children**(?string `$namespaceOrPrefix` =
+**`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 Цей метод знаходить усі дочірні елементи вузла. Результат підпорядковується
@@ -45,7 +45,7 @@ public **SimpleXMLElement::children**(?string `$namespaceOrPrefix` u003d
 
 **Приклад #1 Обхід псевдомасиву `children()`**
 
-` <?php$xml u003d new SimpleXMLElement('<person> <child roleu003d"син">  <child roleu003d"дочка"/> </child> <child roleu003d"дочка">  <child roleu003d"син >   <child roleu003d"син"/>  </child> </child></person>');foreach ($xml->children() as $second_gen) {    echo ' У людини|. $second_gen['role']; foreach ($second_gen->children() as $third_gen) {        echo ', у якого народився(-ась) ' . $third_gen['role'] . ';'; foreach ($third_gen->children() as $fourth_gen) {            echo ' і у ' . $third_gen['role'] . ' народився(-ась) ' . $fourth_gen['role']; }    }}?> `
+` <?php$xml = new SimpleXMLElement('<person> <child role="син">  <child role="дочка"/> </child> <child role="дочка">  <child role="син >   <child role="син"/>  </child> </child></person>');foreach ($xml->children() as $second_gen) {    echo ' У людини|. $second_gen['role']; foreach ($second_gen->children() as $third_gen) {        echo ', у якого народився(-ась) ' . $third_gen['role'] . ';'; foreach ($third_gen->children() as $fourth_gen) {            echo ' і у ' . $third_gen['role'] . ' народився(-ась) ' . $fourth_gen['role']; }    }}?> `
 
 Результат виконання цього прикладу:
 
@@ -54,7 +54,7 @@ public **SimpleXMLElement::children**(?string `$namespaceOrPrefix` u003d
 
 **Приклад #2 Використання простору імен**
 
-` <?php$xml u003d '<example xmlns:foou003d"my.foo.urn">  <foo:a>Яблуко</foo:a>  <foo:b>Банан</foo:b>  <c>Вишня </c></example>';$sxe u003d new SimpleXMLElement($xml);$kids u003d $sxe->children('foo');var_dump(count($kids));$kids u003d $sxe-> children('foo', TRUE);var_dump(count($kids));$kids u003d $sxe->children('my.foo.urn');var_dump(count($kids));$kids u003d $sxe ->children('my.foo.urn', TRUE);var_dump(count($kids));$kids u003d $sxe->children();var_dump(count($kids));?> `
+` <?php$xml = '<example xmlns:foo="my.foo.urn">  <foo:a>Яблуко</foo:a>  <foo:b>Банан</foo:b>  <c>Вишня </c></example>';$sxe = new SimpleXMLElement($xml);$kids = $sxe->children('foo');var_dump(count($kids));$kids = $sxe-> children('foo', TRUE);var_dump(count($kids));$kids = $sxe->children('my.foo.urn');var_dump(count($kids));$kids = $sxe ->children('my.foo.urn', TRUE);var_dump(count($kids));$kids = $sxe->children();var_dump(count($kids));?> `
 
 int(0)
 int(2)

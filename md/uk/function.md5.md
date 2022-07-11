@@ -19,7 +19,7 @@ md5 - Повертає MD5-хеш рядки
 
 ### Опис
 
-**md5**(string `$string`, bool `$binary` u003d **`false`**): string
+**md5**(string `$string`, bool `$binary` = **`false`**): string
 
 Обчислює MD5-хеш рядки `string`, використовуючи [» алгоритм MD5 RSA Data Security, Inc.](http://www.faqs.org/rfcs/rfc1321) та повертає цей хеш.
 
@@ -40,7 +40,7 @@ md5 - Повертає MD5-хеш рядки
 
 **Приклад #1 Приклад використання **md5()****
 
-`<?php$str u003d 'яблуко';if (md5($str) u003du003du003d '1afa148eb41f2e7103f21410bf48346c') {    echo "Вам зелене або>
+`<?php$str = 'яблуко';if (md5($str) === '1afa148eb41f2e7103f21410bf48346c') {    echo "Вам зелене або>
 
 ### Дивіться також
 

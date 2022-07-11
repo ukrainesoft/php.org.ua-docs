@@ -34,7 +34,7 @@ public **mysql_xdevapi\Session::quoteName**(string `$name`): string
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::quoteName()****
 
-`` <?php$session u003d Mysql_xdevapi\getSession("mysqlx://user:password@localhost");$first u003d "MySQL's test";var_dump($first);var_dump($session->quoteName($first) );$second u003d 'Another `test` "like" `this`';var_dump($second);var_dump($session->quoteName($second));?> ``
+`` <?php$session = Mysql_xdevapi\getSession("mysqlx://user:password@localhost");$first = "MySQL's test";var_dump($first);var_dump($session->quoteName($first) );$second = 'Another `test` "like" `this`';var_dump($second);var_dump($session->quoteName($second));?> ``
 
 Результатом виконання цього прикладу буде щось подібне:
 

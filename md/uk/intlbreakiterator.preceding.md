@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::preceding
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::preceding — Встановлює позицію ітератора до першої
 кордону перед усуненням

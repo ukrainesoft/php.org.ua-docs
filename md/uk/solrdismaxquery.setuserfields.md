@@ -37,11 +37,11 @@ public **SolrDisMaxQuery::setUserFields**(string `$fields`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setUserFields()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->setUserFields('field1 field2 *_txt');echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setUserFields('field1 field2 *_txt');echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&ufu003dfield1 field2 *_txt
+q=lucene&defType=edismax&uf=field1 field2 *_txt
 
 ### Дивіться також
 

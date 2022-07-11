@@ -7,7 +7,7 @@
 
 # SolrClient::setServlet
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::setServlet — Змінює цей тип сервлета на новий.
 значення

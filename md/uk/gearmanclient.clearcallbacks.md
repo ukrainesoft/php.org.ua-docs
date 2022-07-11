@@ -7,7 +7,7 @@
 
 # GearmanClient::clearCallbacks
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::clearCallbacks — Очистити всі функції зворотного дзвінка
 даної задачі

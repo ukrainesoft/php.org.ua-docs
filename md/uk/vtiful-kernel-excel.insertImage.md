@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::insertImage
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::insertImage — Вставити зображення
 
@@ -37,4 +37,4 @@ string `$localImagePath`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel u003d new \Vtiful\Kernel\Excel($config);$file u003d $excel->fileName("free.xlsx") ;$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');$file->output(); `
+` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$file = $excel->fileName("free.xlsx") ;$file->insertImage(5, 0, '/vagrant/ASW-G-66.jpg');$file->output(); `

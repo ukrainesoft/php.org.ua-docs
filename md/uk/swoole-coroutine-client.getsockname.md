@@ -7,7 +7,7 @@
 
 # Swoole\Coroutine\Client::getsockname
 
-(PECL swoole \>u003d 2.0.0)
+(PECL swoole \>= 2.0.0)
 
 Swoole\Coroutine\Client::getsockname - Опис
 

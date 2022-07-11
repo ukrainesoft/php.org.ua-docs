@@ -37,7 +37,7 @@ is_link — Визначає, чи є файл символічним посил
 **Приклад #1 Створюємо файл і підтверджуємо, що він є символічним
 посиланням**
 
-` <?php$link u003d 'uploads';if (is_link($link)) {    echo(readlink($link));} else {    symlink('uploads.php', $link);}?> `
+` <?php$link = 'uploads';if (is_link($link)) {    echo(readlink($link));} else {    symlink('uploads.php', $link);}?> `
 
 ### Примітки
 

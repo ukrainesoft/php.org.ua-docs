@@ -7,7 +7,7 @@
 
 # Ds\Map::first
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::first — Повертає перший елемент колекції
 
@@ -35,13 +35,13 @@ public **Ds\Map::first**(): [Ds\Pair](class.ds-pair.md)
 
 **Приклад #1 Приклад використання **Ds\Map::first()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->first());?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->first());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Pair)#2 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "a"
-["value"]u003d>
+["value"]=>
 int(1)
 }

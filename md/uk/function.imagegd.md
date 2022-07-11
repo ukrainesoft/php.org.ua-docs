@@ -7,13 +7,13 @@
 
 #imagegd
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8)
 
 imagegd — Вивод GD-зображення у браузер або файл
 
 ### Опис
 
-**imagegd**([GdImage](class.gdimage.md) `$image`, ?string `$file` u003d
+**imagegd**([GdImage](class.gdimage.md) `$image`, ?string `$file` =
 **`null`**): bool
 
 Висновок GD-зображення в `file`.
@@ -44,7 +44,7 @@ imagegd — Вивод GD-зображення у браузер або файл
 ### Список змін
 
 | Версія | Опис                                                                                                          |
-| ------ | ------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------|
 | 8.0.3  | file тепер допускає значення null.                                                                            |
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                  |
 | 7.2.0  | Тепер **imagegd()** дозволяє зберігати зображення "truecolor". Раніше вони неявно перетворювалися на палітру. |
@@ -53,11 +53,11 @@ imagegd — Вивод GD-зображення у браузер або файл
 
 **Приклад #1 Висновок GD-зображення**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   Simple Text String", $text_color);// Виводимо зображенняimagegd($im);// Звільняємо пам'ятьimagedestroy($im);?> `
+`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String", $text_color);// Виводимо зображенняimagegd($im);// Звільняємо пам'ятьimagedestroy($im);?> `
 
 **Приклад #2 Збереження GD-зображення**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   Simple Text String", $text_color);// Зберігаємо GD-зображення// Розширенням GD-зображень є .gd, детальніше на http://www.libgd.org/GdFileFormatsimagegd($im, '; / Звільняємо пам'ятьimagedestroy($im);?> `
+`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String", $text_color);// Зберігаємо GD-зображення// Розширенням GD-зображень є .gd, детальніше на http://www.libgd.org/GdFileFormatsimagegd($im, '; / Звільняємо пам'ятьimagedestroy($im);?> `
 
 ### Примітки
 

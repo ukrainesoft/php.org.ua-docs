@@ -7,7 +7,7 @@
 
 # Клас IntlPartsIterator
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -29,11 +29,11 @@ class **IntlPartsIterator** extends
 
 /\* Constants \*/
 
-const int `KEY_SEQUENTIAL` u003d 0;
+const int `KEY_SEQUENTIAL` = 0;
 
-const int `KEY_LEFT` u003d 1;
+const int `KEY_LEFT` = 1;
 
-const int `KEY_RIGHT` u003d 2;
+const int `KEY_RIGHT` = 2;
 
 /\* Методи \*/
 

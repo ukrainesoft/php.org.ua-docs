@@ -7,7 +7,7 @@
 
 # GmagickDraw::setstrokeopacity
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setstrokeopacity — Визначає прозорість обведення контурів
 об'єкта

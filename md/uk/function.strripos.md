@@ -14,7 +14,7 @@ strripos — Повертає позицію останнього входжен
 
 ### Опис
 
-**strripos**(string `$haystack`, string `$needle`, int `$offset` u003d 0):
+**strripos**(string `$haystack`, string `$needle`, int `$offset` = 0):
 int\|false
 
 Шукає позицію останнього входження підрядки `needle` у рядок
@@ -63,13 +63,13 @@ int\|false
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін
 
 | Версія | Опис                                                          |
-| ------ | ------------------------------------------------------------- |
+|--------|---------------------------------------------------------------|
 | 8.0.0  | Передача цілого числа (int) у needle більше не підтримується. |
 | 7.3.0  | Передача цілого числа (int) у needle оголошена застарілою.    |
 
@@ -77,7 +77,7 @@ int\|false
 
 **Приклад #1 Приклад використання **strripos()****
 
-`<?php$haystack u003d 'ababcd';$needle  u003du003d 'aB';$pos     u003d strripos($haystack, $needle);if ($pos u003du003du003d false) {           знайдена в ($haystack)";} else {   echo "Вітаємо!
+`<?php$haystack = 'ababcd';$needle  == 'aB';$pos     = strripos($haystack, $needle);if ($pos === false) {           знайдена в ($haystack)";} else {   echo "Вітаємо!
 ";    echo "Остання входження ($needle) найдено в ($haystack) в позиції ($pos)";}?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # sodium_crypto_scalarmult_ristretto255
 
-(PHP 8 \>u003d 8.1.1)
+(PHP 8 \>= 8.1.1)
 
 sodium_crypto_scalarmult_ristretto255 - Обчислює загальний секрет
 

@@ -7,7 +7,7 @@
 
 # $http_response_header
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 $http_response_header — Заголовки відповідей HTTP
 
@@ -27,23 +27,23 @@ $http_response_header — Заголовки відповідей HTTP
 Результатом виконання цього прикладу буде щось подібне:
 
 array(9) {
-[0]u003d>
+[0]=>
 string(15) "HTTP/1.1 200 OK"
-[1]u003d>
+[1]=>
 string(35) "Date: Sat, 12 Apr 2008 17:30:38 GMT"
-[2]u003d>
+[2]=>
 string(29) "Server: Apache/2.2.3 (CentOS)"
-[3]u003d>
+[3]=>
 string(44) "Last-Modified: Tue, 15 Nov 2005 13:24:10 GMT"
-[4]u003d>
+[4]=>
 string(27) "ETag: "280100-1b6-80bfd280""
-[5]u003d>
+[5]=>
 string(20) "Accept-Ranges: bytes"
-[6]u003d>
+[6]=>
 string(19) "Content-Length: 438"
-[7]u003d>
+[7]=>
 string(17) "Connection: close"
-[8]u003d>
-string(38) "Content-Type: text/html; charsetu003dUTF-8"
+[8]=>
+string(38) "Content-Type: text/html; charset=UTF-8"
 }
 NULL

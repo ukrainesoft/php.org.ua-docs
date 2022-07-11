@@ -8,7 +8,7 @@
 
 #imagelayereffect
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imagelayereffect — Встановлення прапора альфа пару для використання
 ефектів накладання зображень
@@ -57,16 +57,16 @@ imagelayereffect — Встановлення прапора альфа пару
 
 ### Список змін
 
-| Версія | Опис                                                                                                                  |
-| ------ | --------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                          |
-| 7.2.0  | Додана **IMG_EFFECT_MULTIPLY** (вимагає системну бібліотеку libgd \>u003d 2.1.1 або libgd, що йде в комплекті з PHP). |
+| Версія | Опис                                                                                                              |
+|--------|-------------------------------------------------------------------------------------------------------------------|
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                      |
+| 7.2.0  | Додана **IMG_EFFECT_MULTIPLY** (вимагає системну бібліотеку libgd \>= 2.1.1 або libgd, що йде в комплекті з PHP). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagelayereffect()****
 
-`<?php// Завдання зображення$im u003d imagecreatetruecolor(100,100); прапора альфа спряження - overlayimagelayereffect($im, IMG_EFFECT_OVERLAY); 50, 50, 80, imagecolorallocate($im, 100, 100, 255));imagefilledellipse($im, 50, 50, 80, 50, imagecolorallocate($im, 255, и) Content-type:image/png');imagepng($im);imagedestroy($im);?> `
+`<?php// Завдання зображення$im = imagecreatetruecolor(100,100); прапора альфа спряження - overlayimagelayereffect($im, IMG_EFFECT_OVERLAY); 50, 50, 80, imagecolorallocate($im, 100, 100, 255));imagefilledellipse($im, 50, 50, 80, 50, imagecolorallocate($im, 255, и) Content-type:image/png');imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

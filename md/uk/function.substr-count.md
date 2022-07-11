@@ -16,8 +16,8 @@ substr_count — Повертає кількість входжень підря
 **substr_count**(
 string `$haystack`,
 string `$needle`,
-int `$offset` u003d 0,
-?int `$length` u003d **`null`**
+int `$offset` = 0,
+?int `$length` = **`null`**
 ): int
 
 **substr_count()** повертає кількість входжень підрядки `needle` в
@@ -54,7 +54,7 @@ int `$offset` u003d 0,
 ### Список змін
 
 | Версія | Опис                                                                                  |
-| ------ | ------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------|
 | 8.0.0  | length тепер припускає значення null.                                                 |
 | 7.1.0  | Додана підтримка негативних значень offset та length. length тепер також може бути 0. |
 
@@ -62,7 +62,7 @@ int `$offset` u003d 0,
 
 **Приклад #1 Приклад використання **substr_count()****
 
-` <?php$text u003d 'This is a test';echo strlen($text); // 14echo substr_count($text, 'is'); // 2// рядок зменшується до 's is a test', тому висновок буде 1echo substr_count($text, 'is', 3);// текст зменшується до 's i'    'is', 3, 3);// генерує попередження, так як  5+10 > 14echo substr_count($text, 'is', 5, 10); підстроки, що перекриваються, не враховуються $text2 u003d 'gcdgcdgcd';echo substr_count($text2, 'gcdgcd');?> `
+` <?php$text = 'This is a test';echo strlen($text); // 14echo substr_count($text, 'is'); // 2// рядок зменшується до 's is a test', тому висновок буде 1echo substr_count($text, 'is', 3);// текст зменшується до 's i'    'is', 3, 3);// генерує попередження, так як  5+10 > 14echo substr_count($text, 'is', 5, 10); підстроки, що перекриваються, не враховуються $text2 = 'gcdgcdgcd';echo substr_count($text2, 'gcdgcd');?> `
 
 ### Дивіться також
 

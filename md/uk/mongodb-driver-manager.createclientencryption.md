@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::createClientEncryption
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\Manager::createClientEncryption — Створення нового об'єкта
 ClientEncryption

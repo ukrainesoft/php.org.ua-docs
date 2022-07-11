@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\UTCDateTime::\_\_toString
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\UTCDateTime::\_\_toString — Повертає рядкове
 представлення UTCDateTime
@@ -29,7 +29,7 @@ final public **MongoDB\BSON\UTCDateTime::\_\_toString**(): string
 **Приклад #1 Приклад використання
 **MongoDB\BSON\UTCDateTime::\_\_toString()****
 
-` <?php$utcdatetime u003d new MongoDB\BSON\UTCDateTime(1416445411987);var_dump((string) $utcdatetime);?> `
+` <?php$utcdatetime = new MongoDB\BSON\UTCDateTime(1416445411987);var_dump((string) $utcdatetime);?> `
 
 Результат виконання цього прикладу:
 

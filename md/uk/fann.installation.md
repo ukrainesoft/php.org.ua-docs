@@ -69,7 +69,7 @@ Installing '/usr/lib/php/extensions/no-debug-non-zts-20060613/fann.so'
 
 
 $php-i | grep extension_dir
-extension_dir u003d> /usr/lib/php/extensions/no-debug-non-zts-20060613 u003d>
+extension_dir => /usr/lib/php/extensions/no-debug-non-zts-20060613 =>
 /usr/lib/php/extensions/no-debug-non-zts-20060613
 
 Якщо це не так, то поміняйте *extension_dir* у php.ini або просто
@@ -78,4 +78,4 @@ extension_dir u003d> /usr/lib/php/extensions/no-debug-non-zts-20060613 u003d>
 - Для завантаження модуля під час запуску PHP, додайте у php.ini рядок:
 
 
-extensionu003dfann.so
+extension=fann.so

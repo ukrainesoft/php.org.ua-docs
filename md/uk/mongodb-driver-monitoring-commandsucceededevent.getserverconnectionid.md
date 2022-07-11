@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId
 
-(mongodb \>u003d1.14.0)
+(mongodb \>=1.14.0)
 
 MongoDB\Driver\Monitoring\CommandSucceededEvent::getServerConnectionId -
 Повертає ідентифікатор з'єднання із сервером для команди

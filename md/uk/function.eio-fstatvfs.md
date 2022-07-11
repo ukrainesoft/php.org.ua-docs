@@ -7,7 +7,7 @@
 
 # eio_fstatvfs
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_fstatvfs — Повертає статистику файлової системи
 
@@ -19,7 +19,7 @@ eio_fstatvfs — Повертає статистику файлової сист
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$ data` u003d ?
+`$ data` = ?
 ): resource
 
 **eio_fstatvfs()** повертає статистику файлової системи в `result`

@@ -8,7 +8,7 @@
 
 # SolrQuery::getHighlightAlternateField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightAlternateField — Повертає виділене поле для
 використання як резервна копія або за замовчуванням
@@ -16,7 +16,7 @@ SolrQuery::getHighlightAlternateField — Повертає виділене по
 ### Опис
 
 public **SolrQuery::getHighlightAlternateField**(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 Повертає виділене поле для використання як резервну копію
 або за замовчуванням. Приймає необов'язкове перевизначення поля

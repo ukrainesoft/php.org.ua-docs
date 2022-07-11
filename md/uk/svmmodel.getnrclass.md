@@ -7,7 +7,7 @@
 
 # SVMModel::getNrClass
 
-(PECL svm u003d 0.1.5)
+(PECL svm = 0.1.5)
 
 SVMModel::getNrClass — Повертає кількість класів, для яких
 навчалася модель

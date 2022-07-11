@@ -34,7 +34,7 @@ string\|null\|false
 
 **Приклад #1 Трансформація у рядок**
 
-` <?php// Завантаження джерела XML$xml u003d new DOMDocument;$xml->load('collection.xml');$xsl u003d new DOMDocument;$xsl->load('collection.xsl');// На перетворення $procu003du003dnewXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslecho $proc->transformToXML($xml);?> `
+` <?php// Завантаження джерела XML$xml = new DOMDocument;$xml->load('collection.xml');$xsl = new DOMDocument;$xsl->load('collection.xsl');// На перетворення $proc==newXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslecho $proc->transformToXML($xml);?> `
 
 Результат виконання цього прикладу:
 

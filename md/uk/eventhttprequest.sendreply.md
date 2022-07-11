@@ -7,14 +7,14 @@
 
 # EventHttpRequest::sendReply
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::sendReply — Відправляє HTML-відповідь клієнту
 
 ### Опис
 
 public **EventHttpRequest::sendReply**( int `$code` , string `$reason` ,
-[EventBuffer](class.eventbuffer.md) `$buf` u003d ?): void
+[EventBuffer](class.eventbuffer.md) `$buf` = ?): void
 
 Відправляє HTML0відповідь клієнту. Тіло відповіді складається з даних у
 необов'язковому параметрі `buf`.

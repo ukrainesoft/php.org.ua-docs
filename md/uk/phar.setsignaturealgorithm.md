@@ -7,7 +7,7 @@
 
 # Phar::setSignatureAlgorithm
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.1.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.1.0)
 
 Phar::setSignatureAlgorithm — Встановити алгоритм підписання phar-архіву
 та застосування його
@@ -15,7 +15,7 @@ Phar::setSignatureAlgorithm — Встановити алгоритм підпи
 ### Опис
 
 public **Phar::setSignatureAlgorithm**(int `$algo`, ?string
-`$privateKey` u003d **`null`**): void
+`$privateKey` = **`null`**): void
 
 > **Примітка**:
 >
@@ -44,7 +44,7 @@ public **Phar::setSignatureAlgorithm**(int `$algo`, ?string
 Секретний ключ OpenSSL, витягнутий із сертифіката, або файл із ключем
 OpenSSL:
 
-` <?php$private u003d openssl_get_privatekey(file_get_contents('private.pem'));$pkey u003d '';openssl_pkey_export($private, $pkey);$p->setSignatureAlgorithm(Phar::OPENS > `
+` <?php$private = openssl_get_privatekey(file_get_contents('private.pem'));$pkey = '';openssl_pkey_export($private, $pkey);$p->setSignatureAlgorithm(Phar::OPENS > `
 
 Подробиці про іменування та розміщення файлу відкритого ключа дивіться у
 розділ [Вступ до phar](phar.using.md).
@@ -63,7 +63,7 @@ OpenSSL:
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | privateKey тепер допускає значення null. |
 
 ### Дивіться також

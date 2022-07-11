@@ -34,7 +34,7 @@ Imagick був скомпілюваний з версією ImageMagick 6.3.2 а
 
 Завдання та отримання властивості зображення
 
-` <?php$image u003d new Imagick();$image->newImage(300, 200, "black");$image->setImageProperty('Exif:Make', 'Imagick');echo $image->getImageProperty ('Exif:Make');?> `
+` <?php$image = new Imagick();$image->newImage(300, 200, "black");$image->setImageProperty('Exif:Make', 'Imagick');echo $image->getImageProperty ('Exif:Make');?> `
 
 ### Дивіться також
 

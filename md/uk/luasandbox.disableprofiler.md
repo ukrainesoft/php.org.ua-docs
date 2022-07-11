@@ -7,7 +7,7 @@
 
 # LuaSandbox::disableProfiler
 
-(PECL luasandbox \>u003d 1.1.0)
+(PECL luasandbox \>= 1.1.0)
 
 LuaSandbox::disableProfiler — Вимикає профільник
 

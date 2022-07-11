@@ -7,7 +7,7 @@
 
 #cubrid_lob_get
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_lob_get — Отримує дані BLOB/CLOB
 
@@ -41,7 +41,7 @@ LOB якщо вони більше не потрібні.
 
 **Приклад #1 Приклад використання **cubrid_lob_get()****
 
-`<?php$conn u003d cubrid_connect ("localhost", 33000, "demodb", "dba");cubrid_execute($conn,"DROP TABLE if exists doc");cubrid_execute($conn,"C , doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$lobs u003d cubrid_lob_get($conn, "SELECT doc_content FROM| "Розмір документа: ".cubrid_lob_size($lobs[0])." байтів";cubrid_lob_export($conn, $lobs[0], "doc_5.txt");cubrid_lob_close($lobs);$brid > `
+`<?php$conn = cubrid_connect ("localhost", 33000, "demodb", "dba");cubrid_execute($conn,"DROP TABLE if exists doc");cubrid_execute($conn,"C , doc_content CLOB)");cubrid_execute($conn,"INSERT INTO doc VALUES (5,'hello,cubrid')");$lobs = cubrid_lob_get($conn, "SELECT doc_content FROM| "Розмір документа: ".cubrid_lob_size($lobs[0])." байтів";cubrid_lob_export($conn, $lobs[0], "doc_5.txt");cubrid_lob_close($lobs);$brid > `
 
 ### Дивіться також
 

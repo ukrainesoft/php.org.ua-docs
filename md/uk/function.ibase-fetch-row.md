@@ -13,7 +13,7 @@ ibase_fetch_row — Витягує рядок із бази даних InterBase
 
 ### Опис
 
-**ibase_fetch_row**(resource `$result_identifier`, int `$fetch_flag` u003d
+**ibase_fetch_row**(resource `$result_identifier`, int `$fetch_flag` =
 0): array
 
 **ibase_fetch_row()** витягує один рядок даних із даного набору

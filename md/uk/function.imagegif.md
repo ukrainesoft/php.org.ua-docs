@@ -14,7 +14,7 @@ imagegif - Виводить зображення в браузер або пиш
 ### Опис
 
 **imagegif**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**): bool
+resource\|string\|null `$file` = **`null`**): bool
 
 **imagegif()** створює GIF файл `file` із зображення `image`. Аргумент
 `image` повертається функціями
@@ -51,18 +51,18 @@ resource\|string\|null `$file` u003d **`null`**): bool
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Виведення зображення, використовуючи **imagegif()****
 
-` <?php// Створення зображення$im u003d imagecreatetruecolor(100, 100);// Створення білого фонуimagefilledrectangle($im, 0, 0, 99, 99, 0xFFFFFF);   40, 20, 'GD'бібліотека', 0xFFBA00);
+` <?php// Створення зображення$im = imagecreatetruecolor(100, 100);// Створення білого фонуimagefilledrectangle($im, 0, 0, 99, 99, 0xFFFFFF);   40, 20, 'GD'бібліотека', 0xFFBA00);
 
 **Приклад #2 Перетворення PNG на GIF, використовуючи **imagegif()****
 
-` <?php// Завантаження PNG$png u003d imagecreatefrompng('./php.png');// Збереження як GIFimagegif($png, './php.gif');// Звільнення пам'ятіimagedestroy($png);// / готовоecho 'Перетворення PNG в GIF успішно завершено!';?> `
+` <?php// Завантаження PNG$png = imagecreatefrompng('./php.png');// Збереження як GIFimagegif($png, './php.gif');// Звільнення пам'ятіimagedestroy($png);// / готовоecho 'Перетворення PNG в GIF успішно завершено!';?> `
 
 ### Примітки
 
@@ -74,7 +74,7 @@ resource\|string\|null `$file` u003d **`null`**): bool
 > рядки: `header ("Content-Type: image/gif"); imagegif ($im);` на більш
 > переносимі:
 >
-> `<?php// Створення нового зображення$im u003d imagecreatetruecolor(100, 100);// Якісь операції з зображенням// Обробка виводуif(function_exists('imagegif'))         Type: image/gif'); imagegif($im);}elseif(function_exists('imagejpeg')){    // для JPEG    header('Content-Type: image/jpeg'); imagejpeg($im, NULL, 100);}elseif(function_exists('imagepng')){    // для PNG    header('Content-Type: image/png'); imagepng($im);}elseif(function_exists('imagewbmp')){ для WBMP    header('Content-Type: image/vnd.wap.wbmp'); imagewbmp($im);}else{   imagedestroy($im); die('У цьому PHP сервері ні підтримки зображень');}//Якщо не підтримується ні один із форматів// звільним пам'ятьif($im){    imagedestroy($)
+> `<?php// Створення нового зображення$im = imagecreatetruecolor(100, 100);// Якісь операції з зображенням// Обробка виводуif(function_exists('imagegif'))         Type: image/gif'); imagegif($im);}elseif(function_exists('imagejpeg')){    // для JPEG    header('Content-Type: image/jpeg'); imagejpeg($im, NULL, 100);}elseif(function_exists('imagepng')){    // для PNG    header('Content-Type: image/png'); imagepng($im);}elseif(function_exists('imagewbmp')){ для WBMP    header('Content-Type: image/vnd.wap.wbmp'); imagewbmp($im);}else{   imagedestroy($im); die('У цьому PHP сервері ні підтримки зображень');}//Якщо не підтримується ні один із форматів// звільним пам'ятьif($im){    imagedestroy($)
 
 > **Примітка**:
 >

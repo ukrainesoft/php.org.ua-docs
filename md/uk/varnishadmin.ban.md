@@ -7,7 +7,7 @@
 
 # VarnishAdmin::ban
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::ban — Заборонити URL-адресу за допомогою виразу VCL
 

@@ -7,7 +7,7 @@
 
 # GmagickDraw::gettextencoding
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::gettextencoding — Повертає кодовий набір, який використовується
 для текстових анотацій

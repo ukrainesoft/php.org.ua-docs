@@ -7,7 +7,7 @@
 
 # Клас CURLFile
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -24,16 +24,16 @@ class **CURLFile** {
 
 /\* Властивості \*/
 
-public string `$name` u003d "";
+public string `$name` = "";
 
-public string `$mime` u003d "";
+public string `$mime` = "";
 
-public string `$postname` u003d "";
+public string `$postname` = "";
 
 /\* Методи \*/
 
 public [\_\_construct](curlfile.construct.md)(string `$filename`,
-?string `$mime_type` u003d **`null`**, ?string `$posted_filename` u003d
+?string `$mime_type` = **`null`**, ?string `$posted_filename` =
 **`null`**)
 
 public [getFilename](curlfile.getfilename.md)(): string

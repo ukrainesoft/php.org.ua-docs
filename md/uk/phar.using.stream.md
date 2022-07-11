@@ -18,7 +18,7 @@
 Також за допомогою контекстів потоку можна впливати на стиснення окремих
 файлів та пофайлові метадані в Phar-архіві:
 
-` <?php$context u003d stream_context_create(array('phar' u003d>                                    array('compress' u003d> Phar::GZ)),                                    array('metadata' u003d> array('user' u003d> 'cellog'))) ;file_put_contents('phar://my.phar/somefile.php', 0, $context);?> `
+` <?php$context = stream_context_create(array('phar' =>                                    array('compress' => Phar::GZ)),                                    array('metadata' => array('user' => 'cellog'))) ;file_put_contents('phar://my.phar/somefile.php', 0, $context);?> `
 
 Обгортка потоку `phar` не працює з файлами, розташованими віддалено, та
 не може з ними працювати, так що її використання можливе навіть коли

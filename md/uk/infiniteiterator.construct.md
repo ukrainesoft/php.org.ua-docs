@@ -7,7 +7,7 @@
 
 # InfiniteIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 InfiniteIterator::\_\_construct - Конструктор класу InfiniteIterator
 
@@ -30,7 +30,7 @@ public
 
 **Приклад #1 Приклад використання **InfiniteIterator::\_\_construct()****
 
-` <?php$arrayit  u003d new ArrayIterator(array('cat','dog'));$infinite u003d new InfiniteIterator($arrayit);$limit    u003d new LimitIterator($infinite,$0; as $value){    echo "$value
+` <?php$arrayit  = new ArrayIterator(array('cat','dog'));$infinite = new InfiniteIterator($arrayit);$limit    = new LimitIterator($infinite,$0; as $value){    echo "$value
 ";}?> `
 
 Результат виконання цього прикладу:

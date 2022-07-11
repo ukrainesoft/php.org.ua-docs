@@ -21,7 +21,7 @@ public readonly string `$tagName`;
 
 public readonly
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$schemaTypeInfo` u003d null;
+`$schemaTypeInfo` = null;
 
 public readonly ?[DOMElement](class.domelement.md)
 `$firstElementChild`;
@@ -75,7 +75,7 @@ public string `$textContent`;
 /\* Методи \*/
 
 public [\_\_construct](domelement.construct.md)(string
-`$qualifiedName`, ?string `$value` u003d **`null`**, string `$namespace` u003d
+`$qualifiedName`, ?string `$value` = **`null`**, string `$namespace` =
 "")
 
 public [getAttribute](domelement.getattribute.md)(string
@@ -148,21 +148,21 @@ public
 `$node`): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 public [DOMNode::C14NFile](domnode.c14nfile.md)(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` u003d
+public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
 **`false`**): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::getLineNo](domnode.getlineno.md)(): int
@@ -175,7 +175,7 @@ public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
 
 public
 [DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 public
@@ -235,7 +235,7 @@ public
 ## Список змін
 
 | Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Додані властивості firstElementChild, lastElementChild, childElementCount, previousElementSibling та nextElementSibling.       |
 | 8.0.0  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) та [DOMChildNode](class.domchildnode.md). |
 

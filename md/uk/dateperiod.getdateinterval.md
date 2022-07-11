@@ -7,7 +7,7 @@
 
 # DatePeriod::getDateInterval
 
-(PHP 5 \>u003d 5.6.5, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getDateInterval — Повертає інтервал
 
@@ -33,7 +33,7 @@ public **DatePeriod::getDateInterval**():
 
 **Приклад #1 Приклад використання **DatePeriod::getDateInterval()****
 
-` <?php$period u003d new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');$interval u003d $period->getDateInterval();echo $interval->format('%d day' );?> `
+` <?php$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');$interval = $period->getDateInterval();echo $interval->format('%d day' );?> `
 
 Результат виконання цього прикладу:
 

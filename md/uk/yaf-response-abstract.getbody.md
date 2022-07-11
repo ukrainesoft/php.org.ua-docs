@@ -7,13 +7,13 @@
 
 # Yaf_Response_Abstract::getBody
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::getBody — Отримує існуючий вміст
 
 ### Опис
 
-public **Yaf_Response_Abstract::getBody**(string `$key` u003d ?):
+public **Yaf_Response_Abstract::getBody**(string `$key` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує існуючий вміст
@@ -35,7 +35,7 @@ Yaf_Response_Abstract::DEFAULT_BODY. Якщо ви передасте **`null`**
 
 **Приклад #1 Приклад використання **Yaf_Response_Abstract::getBody()****
 
-` <?php$response u003d new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");var_dump($response->getBody()); //за умовчанням var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так ж, як і вище var_dump($response->getBody("footer"));var_dump($response->getBody(NULL)); //отримати все?> `
+` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");var_dump($response->getBody()); //за умовчанням var_dump($response->getBody(Yaf_Response_Abstract::DEFAULT_BODY)); //так ж, як і вище var_dump($response->getBody("footer"));var_dump($response->getBody(NULL)); //отримати все?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -43,9 +43,9 @@ string(5) "Привіт"
 string(5) "Привіт"
 string(6) ", Світ"
 array(2) {
-["content"]u003d>
+["content"]=>
 string(5) "Привіт"
-["footer"]u003d>
+["footer"]=>
 string(6) ", Світ"
 }
 

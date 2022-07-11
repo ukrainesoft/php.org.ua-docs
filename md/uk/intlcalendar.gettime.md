@@ -7,7 +7,7 @@
 
 # IntlCalendar::getTime
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getTime — Отримує час, наданий в даний момент
 об'єктом
@@ -41,7 +41,7 @@ public **IntlCalendar::getTime**(): float\|false
 
 **Приклад #1 Приклад використання **IntlCalendar::getTime()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal u003d new IntlGregorianCalendar(2013, 4 /* Май */, 0, 0);$time u003d $cal->getTime();var_dump($time, $time / 1000 u003du003d strtotime('2013-05-01 00:00:00')); // true `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal = new IntlGregorianCalendar(2013, 4 /* Май */, 0, 0);$time = $cal->getTime();var_dump($time, $time / 1000 == strtotime('2013-05-01 00:00:00')); // true `
 
 Результат виконання цього прикладу:
 

@@ -7,13 +7,13 @@
 
 # Memcached::\_\_construct
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::\_\_construct — Створює екземпляр класу Memcached
 
 ### Опис
 
-public **Memcached::\_\_construct**(string `$persistent_id` u003d ?)
+public **Memcached::\_\_construct**(string `$persistent_id` = ?)
 
 Створює екземпляр класу Memcached, який з'єднує з сервером
 memcache.
@@ -32,4 +32,4 @@ memcache.
 
 **Приклад #1 Створення екземпляра класу Memcached**
 
-` <?php/* Створює звичайний примірник класу */$m u003d new Memcached();echo get_class($m);/* Створює стійкий примірник класу */$m2 u003d Memcached('story_pool');/* Тепер об'єкти $m2 і $m3 використовують загальне з'єднання */?> `
+` <?php/* Створює звичайний примірник класу */$m = new Memcached();echo get_class($m);/* Створює стійкий примірник класу */$m2 = Memcached('story_pool');/* Тепер об'єкти $m2 і $m3 використовують загальне з'єднання */?> `

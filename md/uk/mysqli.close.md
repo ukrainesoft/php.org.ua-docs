@@ -51,11 +51,11 @@ public **mysqli::close**(): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$result u003d $mysql BY ID LIMIT 3");/* Закрийте з'єднання, як тільки воно становиться непотрібним */$mysqli->close();foreach ($result as $row) {  данних**  
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysql BY ID LIMIT 3");/* Закрийте з'єднання, як тільки воно становиться непотрібним */$mysqli->close();foreach ($result as $row) {  данних**  
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$result u003d mysqli_query  LIMIT 3");
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$result = mysqli_query  LIMIT 3");
 
 ### Примітки
 

@@ -7,14 +7,14 @@
 
 # SolrQuery::getFacetDateOther
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetDateOther — Повертає значення параметра
 facet.date.other
 
 ### Опис
 
-public **SolrQuery::getFacetDateOther**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetDateOther**(string `$field_override` = ?):
 array
 
 Повертає значення параметра facet.date.other. Приймає необов'язкове

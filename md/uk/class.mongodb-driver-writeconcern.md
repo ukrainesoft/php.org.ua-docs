@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\WriteConcern
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -25,7 +25,7 @@ final class **MongoDB\Driver\WriteConcern** implements
 
 /\* Константи \*/
 
-const string `MAJORITY` u003d "majority";
+const string `MAJORITY` = "majority";
 
 /\* Методи \*/
 
@@ -35,7 +35,7 @@ object
 
 final public
 [\_\_construct](mongodb-driver-writeconcern.construct.md)(string\|int
-`$w`, int `$wtimeout` u003d ?, bool `$journal` u003d ?)
+`$w`, int `$wtimeout` = ?, bool `$journal` = ?)
 
 final public
 [getJournal](mongodb-driver-writeconcern.getjournal.md)(): ?bool
@@ -69,7 +69,7 @@ final public
 ## Список змін
 
 | Версія             | Опис                                                                      |
-| ------------------ | ------------------------------------------------------------------------- |
+|--------------------|---------------------------------------------------------------------------|
 | PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md).                           |
 | PECL mongodb 1.2.0 | Реалізує [MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md). |
 

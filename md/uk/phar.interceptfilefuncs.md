@@ -8,7 +8,7 @@ stat-функції
 
 # Phar::interceptFileFuncs
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::interceptFileFuncs — Вказує phar перехоплювати fopen,
 file_get_contents, opendir та всі stat-функції

@@ -7,7 +7,7 @@
 
 # RRDCreator::\_\_construct
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDCreator::\_\_construct — Створює новий екземпляр
 [RRDCreator](class.rrdcreator.md)
@@ -15,7 +15,7 @@ RRDCreator::\_\_construct — Створює новий екземпляр
 ### Опис
 
 public **RRDCreator::\_\_construct**(string `$path`, string `$startTime`
-u003d ?, int `$step` u003d 0)
+= ?, int `$step` = 0)
 
 Створює новий екземпляр [RRDCreator](class.rrdcreator.md).
 

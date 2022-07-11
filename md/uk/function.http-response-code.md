@@ -7,13 +7,13 @@
 
 # http_response_code
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 http_response_code — Отримує або встановлює код відповіді HTTP
 
 ### Опис
 
-**http_response_code**(int `$response_code` u003d 0): int\|bool
+**http_response_code**(int `$response_code` = 0): int\|bool
 
 Отримує або визначає коди відповідей HTTP.
 

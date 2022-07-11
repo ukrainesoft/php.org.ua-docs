@@ -7,14 +7,14 @@
 
 # Imagick::rotationalBlurImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::rotationalBlurImage — Застосовує обертальне розмиття до
 зображенню
 
 ### Опис
 
-public **Imagick::rotationalBlurImage**(float `$angle`, int `$channel` u003d
+public **Imagick::rotationalBlurImage**(float `$angle`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Застосовує обертальне розмиття зображення.
@@ -38,4 +38,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::rotationalBlurImage()****
 
-`<?phpfunction rotationalBlurImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->rotationalBlurImage(3); $imagick->rotationalBlurImage(5); $imagick->rotationalBlurImage(7); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction rotationalBlurImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->rotationalBlurImage(3); $imagick->rotationalBlurImage(5); $imagick->rotationalBlurImage(7); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

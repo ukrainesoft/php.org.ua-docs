@@ -7,7 +7,7 @@
 
 # PDOStatement::bindValue
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 1.0.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 1.0.0)
 
 PDOStatement::bindValue — Зв'язує параметр із заданим значенням
 
@@ -15,7 +15,7 @@ PDOStatement::bindValue — Зв'язує параметр із заданим �
 
 public **PDOStatement::bindValue**(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` u003d PDO::PARAM_STR): bool
+`$value`, int `$type` = PDO::PARAM_STR): bool
 
 Задає значення іменованої або неіменованої псевдозмінної
 підготовлений SQL-запит.
@@ -44,12 +44,12 @@ public **PDOStatement::bindValue**(string\|int `$param`,
 **Приклад #1 Виконання підготовленого запиту з іменованими
 псевдозмінними**
 
-` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('SELECT name, colour, ca  ca  ca| AND colour u003d :colour');$sth->bindValue('calories', $calories, PDO::PARAM_INT);/* Імена також можуть починатися з двоточки ":" (необов'язково) :colour', $colour, PDO::PARAM_STR);$sth->execute();?> `
+` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name, colour, ca  ca  ca| AND colour = :colour');$sth->bindValue('calories', $calories, PDO::PARAM_INT);/* Імена також можуть починатися з двоточки ":" (необов'язково) :colour', $colour, PDO::PARAM_STR);$sth->execute();?> `
 
 **Приклад #2 Виконання підготовленого запиту з неназваними
 псевдозмінними (?)**
 
-` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('SELECT name, colour, ca   ca  colour u003d ?');$sth->bindValue(1, $calories, PDO::PARAM_INT);$sth->bindValue(2, $colour, PDO::PARAM_STR);$sth->execute();?> `
+` <?php/* Виконання запиту з прив'язкою PHP-змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name, colour, ca   ca  colour = ?');$sth->bindValue(1, $calories, PDO::PARAM_INT);$sth->bindValue(2, $colour, PDO::PARAM_STR);$sth->execute();?> `
 
 ### Дивіться також
 

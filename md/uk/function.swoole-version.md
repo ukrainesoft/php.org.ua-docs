@@ -7,7 +7,7 @@
 
 # swoole_version
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_version — Отримати версію Swoole
 

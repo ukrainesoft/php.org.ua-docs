@@ -7,14 +7,14 @@
 
 #pg_end_copy
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 pg_end_copy — Синхронізує з бекендом PostgreSQL
 
 ### Опис
 
 **pg_end_copy**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d **`null`**): bool
+`$connection` = **`null`**): bool
 
 **pg_end_copy()** синхронізує дані між фронтендом PostgreSQL
 (зазвичай процесом веб-сервера) та сервером PostgreSQL після завершення
@@ -44,7 +44,7 @@ PostgreSQL з фронтендом та повідомлення про поми
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -52,7 +52,7 @@ PostgreSQL з фронтендом та повідомлення про поми
 
 **Приклад #1 Приклад використання **pg_end_copy()****
 
-` <?php $connu003du003dpg_pconnect("dbnameu003dfoo"); pg_query($conn, "create table bar (a int4, b char(16), d float8)"); pg_query($conn, "copy bar from stdin"); pg_put_line($conn, "3 hello world 4.5
+` <?php $conn==pg_pconnect("dbname=foo"); pg_query($conn, "create table bar (a int4, b char(16), d float8)"); pg_query($conn, "copy bar from stdin"); pg_put_line($conn, "3 hello world 4.5
 "); pg_put_line($conn, "4 goodbye world 7.11
 "); pg_put_line($conn,"".
 "); pg_end_copy($conn);?> `

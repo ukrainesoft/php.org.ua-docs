@@ -7,7 +7,7 @@
 
 # SQLite3::prepare
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::prepare — Підготовка SQL-запиту для виконання
 
@@ -33,7 +33,7 @@ SQL запит на підготовку.
 
 **Приклад #1 Приклад використання **SQLite3::prepare()****
 
-` <?phpunlink('mysqlitedb.db');$db u003d new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');$db->exec ("INSERT INTO foo (id, bar) VALUES (1, 'Тестове значення')");$stmt u003d $db->prepare('SELECT bar FROM foo WHERE idu003d:id');$stmt> ':id', 1, SQLITE3_INTEGER);$result u003d $stmt->execute();var_dump($result->fetchArray());?> `
+` <?phpunlink('mysqlitedb.db');$db = new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');$db->exec ("INSERT INTO foo (id, bar) VALUES (1, 'Тестове значення')");$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');$stmt> ':id', 1, SQLITE3_INTEGER);$result = $stmt->execute();var_dump($result->fetchArray());?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # Imagick::setGravity
 
-(PECL imagick 2 \>u003d 2.2.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.2.0, PECL imagick 3)
 
 Imagick::setGravity — Встановлює гравітацію
 

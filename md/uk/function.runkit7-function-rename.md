@@ -7,7 +7,7 @@
 
 # runkit7_function_rename
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_function_rename — Змінює ім'я функції
 

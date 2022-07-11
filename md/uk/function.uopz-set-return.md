@@ -16,14 +16,14 @@ uopz_set_return — Надати значення, що повертається
 
 **uopz_set_return**(string `$function`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, bool `$execute` u003d **`false`**): bool
+`$value`, bool `$execute` = **`false`**): bool
 
 **uopz_set_return**(
 string `$class`,
 string `$function`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-bool `$execute` u003d **`false`**
+bool `$execute` = **`false`**
 ): bool
 
 Встановити значення, що повертається для `function` на `value`. Якщо `value`

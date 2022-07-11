@@ -35,7 +35,7 @@ public **DirectoryIterator::isDot**(): bool
 
 Приклад виведе список всіх файлів у директорії, крім `.` та `..`
 
-`<?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if (!$fileinfo->isDot()) {           "
+`<?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if (!$fileinfo->isDot()) {           "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

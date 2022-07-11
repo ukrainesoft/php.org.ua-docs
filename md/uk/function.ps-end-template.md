@@ -7,7 +7,7 @@
 
 #ps_end_template
 
-(PECL ps \>u003d 1.2.0)
+(PECL ps \>= 1.2.0)
 
 ps_end_template — Завершує шаблон
 

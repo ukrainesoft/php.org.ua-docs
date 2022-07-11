@@ -7,7 +7,7 @@
 
 # ZipArchive::getExternalAttributesName
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8, PECL zip \>u003d 1.12.4)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
 
 ZipArchive::getExternalAttributesName — Вийняти зовнішні атрибути запису
 на її ім'я
@@ -18,7 +18,7 @@ public **ZipArchive::getExternalAttributesName**(
 string `$name`,
 int `&$opsys`,
 int `&$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 Витягує зовнішні атрибути запису на її ім'я.

@@ -24,7 +24,7 @@ mysql_db_name — Повертає назву бази даних із викл�
 
 **mysql_db_name**(resource `$result`, int `$row`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field` u003d NULL): string
+`$field` = NULL): string
 
 Повертає назву бази даних із виклику до
 [mysql_list_dbs()](function.mysql-list-dbs.md).
@@ -52,7 +52,7 @@ mysql_db_name — Повертає назву бази даних із викл�
 
 **Приклад #1 Приклад використання **mysql_db_name()****
 
-` <?phperror_reporting(E_ALL);$link u003d mysql_connect('dbhost', 'username', 'password');$db_list u003d mysql_list_dbs($link);$i u003d 0;$cnt u003d mysql_num_rows($db ($i < $cnt) {   echo mysql_db_name($db_list, $i) . "
+` <?phperror_reporting(E_ALL);$link = mysql_connect('dbhost', 'username', 'password');$db_list = mysql_list_dbs($link);$i = 0;$cnt = mysql_num_rows($db ($i < $cnt) {   echo mysql_db_name($db_list, $i) . "
 ";   $i++;}?> `
 
 ### Примітки

@@ -8,7 +8,7 @@ callback-функцію
 
 #array_reduce
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 array_reduce - Ітеративно зменшує масив до єдиного значення,
 використовуючи callback-функцію
@@ -18,7 +18,7 @@ array_reduce - Ітеративно зменшує масив до єдиног�
 **array_reduce**(array `$array`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d **`null`**):
+`$initial` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **array_reduce()** ітеративно застосовує callback-функцію `callback` до
@@ -59,14 +59,14 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 ### Список змін
 
 | Версія | Опис                                                                                                                         |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Якщо параметр callback очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня ** E_WARNING **. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **array_reduce()****
 
-`<?phpfunction sum($carry, $item){   $carry +u003d $item; return $carry;}function product($carry, $item){    $carry *u003d $item; return $carry;}$a u003d array(1, 2, 3, 4, 5);$x u003d array();var_dump(array_reduce($a, "sum")); // int(15)var_dump(array_reduce($a, "product", 10)); // int(1200), тому що: 10*1*2*3*4*5var_dump(array_reduce($x, "sum", "Нет даних")); // string(19) "Немає даних"?> `
+`<?phpfunction sum($carry, $item){   $carry += $item; return $carry;}function product($carry, $item){    $carry *= $item; return $carry;}$a = array(1, 2, 3, 4, 5);$x = array();var_dump(array_reduce($a, "sum")); // int(15)var_dump(array_reduce($a, "product", 10)); // int(1200), тому що: 10*1*2*3*4*5var_dump(array_reduce($x, "sum", "Нет даних")); // string(19) "Немає даних"?> `
 
 ### Дивіться також
 

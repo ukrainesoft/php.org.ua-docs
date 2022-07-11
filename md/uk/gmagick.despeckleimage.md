@@ -7,7 +7,7 @@
 
 # Gmagick::despeckleimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::despeckleimage — Призначення despeckleimage
 

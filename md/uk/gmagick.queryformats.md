@@ -7,13 +7,13 @@
 
 # Gmagick::queryformats
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::queryformats — Повертає формати, які підтримує Gmagick
 
 ### Опис
 
-public **Gmagick::queryformats**(string `$pattern` u003d "\*"): array
+public **Gmagick::queryformats**(string `$pattern` = "\*"): array
 
 Повертає формати, що підтримуються [Gmagick](class.gmagick.md).
 

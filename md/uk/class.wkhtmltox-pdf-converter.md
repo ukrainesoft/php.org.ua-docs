@@ -7,7 +7,7 @@
 
 # Клас wkhtmltox\PDF\Converter
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **wkhtmltox\PDF\Converter** {
 /\* Constructor \*/
 
 public [\_\_construct](wkhtmltox-pdf-converter.construct.md)(array
-`$settings` u003d ?)
+`$settings` = ?)
 
 /\* Методи \*/
 

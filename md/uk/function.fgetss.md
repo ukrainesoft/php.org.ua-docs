@@ -18,8 +18,8 @@ fgetss — Читає рядок з файлу та видаляє HTML-теги
 
 ### Опис
 
-**fgetss**(resource `$handle`, int `$length` u003d ?, string
-`$allowable_tags` u003d ?): string
+**fgetss**(resource `$handle`, int `$length` = ?, string
+`$allowable_tags` = ?): string
 
 Функція ідентична функції [fgets()](function.fgets.md), крім
 того, що **fgetss()** видаляє будь-які NULL-байти, HTML- та PHP-теги з
@@ -56,7 +56,7 @@ fgetss — Читає рядок з файлу та видаляє HTML-теги
 
 **Приклад #1 Порядкове читання PHP-файлу**
 
-` <?php$str u003d <<<EOD<html><body> <p>Ласкаво просимо! Сьогодні <?php echo(date('jS F')); ?>.</p></body></html>Текст поза HTML-блоку.EOD;file_put_contents('sample.php', $str);$handle u003d @fopen("sample.php", "r" );if ($handle) {    while (!feof($handle)) {       $buffer u003d fgetss($handle, 4096); echo $buffer; }   fclose($handle);}?> `
+` <?php$str = <<<EOD<html><body> <p>Ласкаво просимо! Сьогодні <?php echo(date('jS F')); ?>.</p></body></html>Текст поза HTML-блоку.EOD;file_put_contents('sample.php', $str);$handle = @fopen("sample.php", "r" );if ($handle) {    while (!feof($handle)) {       $buffer = fgetss($handle, 4096); echo $buffer; }   fclose($handle);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

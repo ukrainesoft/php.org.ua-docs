@@ -7,7 +7,7 @@
 
 #stomp_version
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 stomp_version — Повертає поточну версію модуля Stomp
 

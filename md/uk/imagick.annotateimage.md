@@ -52,7 +52,7 @@ string `$text`
 
 Додавання тексту до порожнього зображення
 
-` <?php/* Створюємо об'єкти */$image u003d new Imagick();$draw u003d new ImagickDraw();$pixel u003d new ImagickPixel( 'gray' );/* Нове image , 75, $pixel);/* Чорний текст */$draw->setFillColor('black');/* Настройки шрифту */$draw->setFont('Bookman-DemiItalic');$draw->setFontSize( 30 );/* Створюємо текст */$image->annotateImage($draw, 10, 45, 0, 'the quick brown fox jumps over the lazy dog');/* Встановлюємо ізображені png');/* Виводимо зображення з заголовками */header('Content-type: image/png');echo $image;?> `
+` <?php/* Створюємо об'єкти */$image = new Imagick();$draw = new ImagickDraw();$pixel = new ImagickPixel( 'gray' );/* Нове image , 75, $pixel);/* Чорний текст */$draw->setFillColor('black');/* Настройки шрифту */$draw->setFont('Bookman-DemiItalic');$draw->setFontSize( 30 );/* Створюємо текст */$image->annotateImage($draw, 10, 45, 0, 'the quick brown fox jumps over the lazy dog');/* Встановлюємо ізображені png');/* Виводимо зображення з заголовками */header('Content-type: image/png');echo $image;?> `
 
 ### Дивіться також
 

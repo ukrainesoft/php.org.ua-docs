@@ -7,7 +7,7 @@
 
 # swoole_event_add
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_event_add - Додати нових callback-функцій сокету в цикл подій
 
@@ -15,9 +15,9 @@ swoole_event_add - Додати нових callback-функцій сокету 
 
 **swoole_event_add**(
 int `$fd`,
-[callable](language.types.callable.md) `$read_callback` u003d ?,
-[callable](language.types.callable.md) `$write_callback` u003d ?,
-int `$events` u003d 0
+[callable](language.types.callable.md) `$read_callback` = ?,
+[callable](language.types.callable.md) `$write_callback` = ?,
+int `$events` = 0
 ): int
 
 ### Список параметрів

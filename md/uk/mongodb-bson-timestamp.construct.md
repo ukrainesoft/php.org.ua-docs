@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Timestamp::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Timestamp::\_\_construct - Створює новий Timestamp
 
@@ -35,14 +35,14 @@ int `$timestamp`)
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Timestamp::\_\_construct()****
 
-`<?php$timestamp u003d new MongoDB\BSON\Timestamp(1234, 5678);?> `
+`<?php$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);?> `
 
 Результат виконання цього прикладу:
 
 object(MongoDB\BSON\Timestamp)#1 (2) {
-["increment"]u003d>
+["increment"]=>
 int(1234)
-["timestamp"]u003d>
+["timestamp"]=>
 int(5678)
 }
 

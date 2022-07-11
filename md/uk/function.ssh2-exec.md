@@ -7,7 +7,7 @@
 
 # ssh2_exec
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_exec — Виконання команди на віддаленому сервері
 
@@ -16,11 +16,11 @@ ssh2_exec — Виконання команди на віддаленому се
 **ssh2_exec**(
 resource `$session`,
 string `$command`,
-string `$pty` u003d ?,
-array `$env` u003d ?,
-int `$width` u003d 80,
-int `$height` u003d 25,
-int `$width_height_type` u003d SSH2_TERM_UNIT_CHARS
+string `$pty` = ?,
+array `$env` = ?,
+int `$width` = 80,
+int `$height` = 25,
+int `$width_height_type` = SSH2_TERM_UNIT_CHARS
 ): resource \ | false
 
 Запуск команди на віддаленому сервері та виділення для неї каналу.
@@ -59,7 +59,7 @@ int `$width_height_type` u003d SSH2_TERM_UNIT_CHARS
 
 **Приклад #1 Виконання команди**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stream u003d ssh2_exec($connection, '/usr/local/bin/ php -i');?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$stream = ssh2_exec($connection, '/usr/local/bin/ php -i');?> `
 
 ### Дивіться також
 

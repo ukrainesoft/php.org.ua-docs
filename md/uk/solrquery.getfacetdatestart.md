@@ -8,14 +8,14 @@
 
 # SolrQuery::getFacetDateStart
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetDateStart — Повертає нижню межу першого
 діапазону дат для всіх аспектів дати у цьому полі
 
 ### Опис
 
-public **SolrQuery::getFacetDateStart**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetDateStart**(string `$field_override` = ?):
 string
 
 Повертає нижню межу першого діапазону дат для всіх аспектів дати

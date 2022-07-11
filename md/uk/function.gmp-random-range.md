@@ -7,7 +7,7 @@
 
 #gmp_random_range
 
-(PHP 5 \>u003d 5.6.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
 
 gmp_random_range — Випадкове число
 
@@ -37,7 +37,7 @@ GMP-число, що є верхньою межею діапазону
 
 **Приклад #1 Приклад використання **gmp_random_range()****
 
-`<?php$rand1 u003d gmp_random_range(0, 100); // випадкове число від 0 до 100$rand2 u003d gmp_random_range(-100, -10); // випадкове число від -100 до -10echo gmp_strval($rand1) . "
+`<?php$rand1 = gmp_random_range(0, 100); // випадкове число від 0 до 100$rand2 = gmp_random_range(-100, -10); // випадкове число від -100 до -10echo gmp_strval($rand1) . "
 ";echo gmp_strval($rand2) . "
 ";?> `
 

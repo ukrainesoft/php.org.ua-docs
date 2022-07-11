@@ -7,13 +7,13 @@
 
 # EvLoop::stop
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::stop — Зупиняє цикл подій
 
 ### Опис
 
-public **EvLoop::stop**( int `$how` u003d ?): void
+public **EvLoop::stop**( int `$how` = ?): void
 
 Зупиняє цикл подій
 

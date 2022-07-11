@@ -7,7 +7,7 @@
 
 # svn_repos_open
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_repos_open — Відкриває репозиторій із загальним блокуванням
 

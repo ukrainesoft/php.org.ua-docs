@@ -7,7 +7,7 @@
 
 # SolrDocument::\_\_unset
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::\_\_unset — Видаляє поле з документа
 

@@ -7,7 +7,7 @@
 
 # Memcached::getAllKeys
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::getAllKeys — Отримує всі ключі, що зберігаються на серверах
 

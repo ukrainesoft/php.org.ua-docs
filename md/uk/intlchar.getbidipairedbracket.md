@@ -18,7 +18,7 @@ public static **IntlChar::getBidiPairedBracket**(int\|string
 
 Отримує парну дужку для символу.
 
-Для `Bidi_Paired_Bracket_Type!u003dNone` це аналогічно
+Для `Bidi_Paired_Bracket_Type!=None` це аналогічно
 [IntlChar::charMirror()](intlchar.charmirror.md). Якщо такого немає,
 повертається вихідний 'codepoint'.
 

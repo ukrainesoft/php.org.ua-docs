@@ -7,7 +7,7 @@
 
 # Swoole\Buffer::recycle
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::recycle — Звільняє пам'ять для ОС, яка не
 використовується буфером пам'яті

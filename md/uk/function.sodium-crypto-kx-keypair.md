@@ -7,7 +7,7 @@
 
 # sodium_crypto_kx_keypair
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_kx_keypair — Створює нову пару ключів sodium
 
@@ -38,7 +38,7 @@ sodium_crypto_kx_keypair — Створює нову пару ключів sodiu
 
 Створити нову пару ключів та витягти з неї секретний та відкритий ключі.
 
-` <?php$keypair u003d sodium_crypto_kx_keypair();$secret u003d sodium_crypto_kx_secretkey($keypair);$public u003d sodium_crypto_kx_publickey($keypair);printf("секретний ключ: 
+` <?php$keypair = sodium_crypto_kx_keypair();$secret = sodium_crypto_kx_secretkey($keypair);$public = sodium_crypto_kx_publickey($keypair);printf("секретний ключ: 
 відкритий ключ: %s", sodium_bin2hex($secret), sodium_bin2hex($public));?> `
 
 Результатом виконання цього прикладу буде щось подібне:

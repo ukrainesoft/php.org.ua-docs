@@ -7,7 +7,7 @@
 
 # Imagick::setImageAlphaChannel
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::setImageAlphaChannel — Встановлює альфа-канал зображення
 

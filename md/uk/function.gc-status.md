@@ -7,7 +7,7 @@
 
 # gc_status
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 gc_status — Повертає інформацію про поточний статус збирача сміття
 
@@ -34,18 +34,18 @@ gc_status — Повертає інформацію про поточний ст
 
 **Приклад #1 Використання **gc_status()****
 
-`<?php// створимо дерево об'єктів, для потрібно збирати сміття$a u003d new stdClass();$a->b u003d [];for ($i u003d 0; $i  u003d new stdClass(); $b->a u003d $a; $a->b[] u003d $b;}unset($a);unset($b);gc_collect_cycles();var_dump(gc_status()); `
+`<?php// створимо дерево об'єктів, для потрібно збирати сміття$a = new stdClass();$a->b = [];for ($i = 0; $i  = new stdClass(); $b->a = $a; $a->b[] = $b;}unset($a);unset($b);gc_collect_cycles();var_dump(gc_status()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(4) {
-["runs"]u003d>
+["runs"]=>
 int(5)
-["collected"]u003d>
+["collected"]=>
 int(100002)
-["threshold"]u003d>
+["threshold"]=>
 int(50001)
-["roots"]u003d>
+["roots"]=>
 int(0)
 }
 

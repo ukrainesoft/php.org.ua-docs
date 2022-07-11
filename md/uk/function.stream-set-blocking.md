@@ -7,7 +7,7 @@
 
 #stream_set_blocking
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_set_blocking — Встановити блокуючий/неблокуючий режим
 потоці

@@ -14,7 +14,7 @@ DOMElement::\_\_construct — Створює новий екземпляр кл�
 ### Опис
 
 public **DOMElement::\_\_construct**(string `$qualifiedName`, ?string
-`$value` u003d **`null`**, string `$namespace` u003d "")
+`$value` = **`null`**, string `$namespace` = "")
 
 Створює новий об'єкт класу [DOMElement](class.domelement.md). Цей
 об'єкт доступний лише читання. Він може бути доданий до документа,
@@ -41,7 +41,7 @@ URI простору імен для створення елемента з пе
 
 **Приклад #1 Створення нового DOMElement**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');$element u003d $dom->appendChild(new DOMElement('root'));$element_ns u003d new DOMElement('pr node1', 'thisvalue', 'http://xyz');$element->appendChild($element_ns);echo $dom->saveXML(); /* <?xml versionu003d"1.0" encodingu003d"utf-8"?><root><pr:node1 xmlns:pru003d"http://xyz">thisvalue</pr:node1></root> * /?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');$element = $dom->appendChild(new DOMElement('root'));$element_ns = new DOMElement('pr node1', 'thisvalue', 'http://xyz');$element->appendChild($element_ns);echo $dom->saveXML(); /* <?xml version="1.0" encoding="utf-8"?><root><pr:node1 xmlns:pr="http://xyz">thisvalue</pr:node1></root> * /?> `
 
 ### Дивіться також
 

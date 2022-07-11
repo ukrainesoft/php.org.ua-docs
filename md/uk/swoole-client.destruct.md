@@ -7,7 +7,7 @@
 
 # Swoole\Client::\_\_destruct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::\_\_destruct — Знищує клієнт Swoole
 

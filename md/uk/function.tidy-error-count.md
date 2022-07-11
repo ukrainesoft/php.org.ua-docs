@@ -8,7 +8,7 @@
 
 #tidy_error_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy_error_count — Повертає кількість помилок Tidy, що зустрілися при
 розгляді документа
@@ -32,7 +32,7 @@ tidy_error_count — Повертає кількість помилок Tidy, щ
 
 **Приклад #1 Приклад використання **tidy_error_count()****
 
-` <?php$html u003d '<p>test</i><bogustag>bogus</bogustag>';$tidy u003d tidy_parse_string($html);echo tidy_error_count($tidy) . "
+` <?php$html = '<p>test</i><bogustag>bogus</bogustag>';$tidy = tidy_parse_string($html);echo tidy_error_count($tidy) . "
 "; //1echo $tidy->errorBuffer;?> `
 
 Результат виконання цього прикладу:

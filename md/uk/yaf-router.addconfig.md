@@ -7,7 +7,7 @@
 
 # Yaf_Router::addConfig
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Router::addConfig — Додає настроєні маршрути до маршрутизатора
 
@@ -37,38 +37,38 @@ public
 порядок дуже важливий, попередній буде названий першим
 
 ;запит на переписування маршруту /product/*/*
-routes.route_name.typeu003d"rewrite"
-routes.route_name.matchu003d"/product/:name/:value"
-routes.route_name.route.controlleru003dproduct
-routes.route_name.route.actionu003dinfo
+routes.route_name.type="rewrite"
+routes.route_name.match="/product/:name/:value"
+routes.route_name.route.controller=product
+routes.route_name.route.action=info
 
 ;запит відповідності регулярного вираження /list/*/*
-routes.route_name1.typeu003d"regex"
-routes.route_name1.matchu003d"#^list/([^/]*)/([^/]*)#"
-routes.route_name1.route.controlleru003dIndex
-routes.route_name1.route.actionu003daction
-routes.route_name1.map.1u003dname
-routes.route_name1.map.2u003dvalue
+routes.route_name1.type="regex"
+routes.route_name1.match="#^list/([^/]*)/([^/]*)#"
+routes.route_name1.route.controller=Index
+routes.route_name1.route.action=action
+routes.route_name1.map.1=name
+routes.route_name1.map.2=value
 
-;проста відповідність маршруту /**?cu003dcontroller&au003daction&mu003dmodule
-routes.route_name2.typeu003d"simple"
-routes.route_name2.controlleru003dc
-routes.route_name2.moduleu003dm
-routes.route_name2.actionu003da
+;проста відповідність маршруту /**?c=controller&a=action&m=module
+routes.route_name2.type="simple"
+routes.route_name2.controller=c
+routes.route_name2.module=m
+routes.route_name2.action=a
 
-;проста відповідність маршрутизатора /**?ru003dPATH_INFO
-routes.route_name3.typeu003d"supervar"
-routes.route_name3.varnameu003dr
+;проста відповідність маршрутизатора /**?r=PATH_INFO
+routes.route_name3.type="supervar"
+routes.route_name3.varname=r
 
 ;карта маршруту відповідає будь-якому запиту до контролера
-routes.route_name4.typeu003d"map"
-routes.route_name4.controllerPreferu003dTRUE
-routes.route_namer.delimiteru003d"#!"
+routes.route_name4.type="map"
+routes.route_name4.controllerPrefer=TRUE
+routes.route_namer.delimiter="#!"
 ````
 
 **Приклад #2 Приклад використання **Yaf_Dispatcher::autoConfig()****
 
-`<?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config u003d Yaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {        $router u003d$$dispatcher->getRouter(); /**         * ми ми можемо додати кілька визначених маршрутів в application.ini         || }?> `
+`<?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config = Yaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {        $router =$$dispatcher->getRouter(); /**         * ми ми можемо додати кілька визначених маршрутів в application.ini         || }?> `
 
 ### Дивіться також
 

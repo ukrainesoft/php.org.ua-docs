@@ -7,13 +7,13 @@
 
 # Phar::decompress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::decompress — Розпаковує весь Phar-архів
 
 ### Опис
 
-public **Phar::decompress**(?string `$extension` u003d **`null`**):
+public **Phar::decompress**(?string `$extension` = **`null`**):
 ?[Phar](class.phar.md)
 
 > **Примітка**:
@@ -66,14 +66,14 @@ INI-змінна
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | extension  тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::decompress()****
 
-` <?php$p u003d new Phar('/шлях/к/my.phar', 0, 'my.phar.gz');$p['myfile.txt'] u003d 'привіт';$p[' myfile2.txt'] u003d 'привіт';$p3 u003d $p2->decompress(); // створить /шлях/к/my.phar?> `
+` <?php$p = new Phar('/шлях/к/my.phar', 0, 'my.phar.gz');$p['myfile.txt'] = 'привіт';$p[' myfile2.txt'] = 'привіт';$p3 = $p2->decompress(); // створить /шлях/к/my.phar?> `
 
 ### Дивіться також
 

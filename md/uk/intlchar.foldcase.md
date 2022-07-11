@@ -15,7 +15,7 @@ IntlChar::foldCase — Перетворює регістр заданого
 ### Опис
 
 public static **IntlChar::foldCase**(int\|string `$codepoint`, int
-`$options` u003d IntlChar::FOLD_CASE_DEFAULT): int\|string\|null
+`$options` = IntlChar::FOLD_CASE_DEFAULT): int\|string\|null
 
 Повертає код символу в регістрі відмінному від регістру переданого
 символ. Якщо символ не має уявлення в іншому регістрі, то буде

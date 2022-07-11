@@ -7,7 +7,7 @@
 
 # Клас ZookeeperConfig
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 ## Вступ
 
@@ -20,17 +20,17 @@ class **ZookeeperConfig** {
 /\* Методи \*/
 
 public [add](zookeeperconfig.add.md)(string `$members`, int `$version`
-u003d -1, array `&$stat` u003d **`null`**): void
+= -1, array `&$stat` = **`null`**): void
 
 public
 [get](zookeeperconfig.get.md)([callable](language.types.callable.md)
-`$watcher_cb` u003d **`null`**, array `&$stat` u003d **`null`**): string
+`$watcher_cb` = **`null`**, array `&$stat` = **`null`**): string
 
 public [remove](zookeeperconfig.remove.md)(string `$id_list`, int
-`$version` u003d -1, array `&$stat` u003d **`null`**): void
+`$version` = -1, array `&$stat` = **`null`**): void
 
 public [set](zookeeperconfig.set.md)(string `$members`, int `$version`
-u003d -1, array `&$stat` u003d **`null`**): void
+= -1, array `&$stat` = **`null`**): void
 
 }
 

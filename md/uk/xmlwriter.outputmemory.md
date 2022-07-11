@@ -9,7 +9,7 @@
 
 #xmlwriter_output_memory
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::outputMemory -- xmlwriter_output_memory — Повертає поточний
 буфер
@@ -18,12 +18,12 @@ XMLWriter::outputMemory -- xmlwriter_output_memory — Повертає пото
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::outputMemory**(bool `$flush` u003d **`true`**): string
+public **XMLWriter::outputMemory**(bool `$flush` = **`true`**): string
 
 Процедурний стиль
 
 **xmlwriter_output_memory**([XMLWriter](class.xmlwriter.md) `$writer`,
-bool `$flush` u003d **`true`**): string
+bool `$flush` = **`true`**): string
 
 Повертає поточний буфер.
 
@@ -45,7 +45,7 @@ bool `$flush` u003d **`true`**): string
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # SolrInputDocument::\_\_clone
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::\_\_clone — Створює копію SolrDocument
 

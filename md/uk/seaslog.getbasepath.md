@@ -7,7 +7,7 @@
 
 # SeasLog::getBasePath
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::getBasePath — Отримує базовий шлях SeasLog
 

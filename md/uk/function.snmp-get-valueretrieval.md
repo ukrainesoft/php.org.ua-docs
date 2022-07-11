@@ -7,7 +7,7 @@
 
 #snmp_get_valueretrieval
 
-(PHP 4 \>u003d 4.3.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.3, PHP 5, PHP 7, PHP 8)
 
 snmp_get_valueretrieval — Повертає метод повернення.
 значення SNMP
@@ -29,7 +29,7 @@ snmp_get_valueretrieval — Повертає метод повернення.
 
 **Приклад #1 Приклад використання **snmp_get_valueretrieval()****
 
-` <?php $ret u003d snmpget('localhost', 'public', 'IF-MIB::ifName.1'); if (snmp_get_valueretrieval() & SNMP_VALUE_OBJECT) {   echo $ret->value; } else {   echo $ret; }?> `
+` <?php $ret = snmpget('localhost', 'public', 'IF-MIB::ifName.1'); if (snmp_get_valueretrieval() & SNMP_VALUE_OBJECT) {   echo $ret->value; } else {   echo $ret; }?> `
 
 ### Дивіться також
 

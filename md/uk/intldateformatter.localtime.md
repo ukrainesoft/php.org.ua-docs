@@ -9,7 +9,7 @@
 
 #datefmt_localtime
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::localtime -- datefmt_localtime — Перетворює рядок на
 значення часу на основі поля
@@ -19,12 +19,12 @@ IntlDateFormatter::localtime -- datefmt_localtime — Перетворює ря�
 Об'єктно-орієнтований стиль
 
 public **IntlDateFormatter::localtime**(string `$string`, int `&$offset`
-u003d **`null`**): array\|false
+= **`null`**): array\|false
 
 Процедурний стиль
 
 **datefmt_localtime**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`, string `$string`, int `&$offset` u003d **`null`**):
+`$formatter`, string `$string`, int `&$offset` = **`null`**):
 array\|false
 
 Перетворює рядок $value на значення часу на основі полів (масив
@@ -55,11 +55,11 @@ $parse_pos міститиме -1, інакше він міститиме
 
 **Приклад #1 Приклад використання **datefmt_localtime()****
 
-` <?php$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$arr u003d datefmt_localtime($fmt, 'Wednesday, December 31, 1969 4:00:00PM PT', 0); }}?> `
+` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$arr = datefmt_localtime($fmt, 'Wednesday, December 31, 1969 4:00:00PM PT', 0); }}?> `
 
 **Приклад #2 OO example**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$arr u003d $fmt->localtime('Wednesday, December 31 , 1969 4:00:00 PM PT', 0);echo 'Перетворений висновок: ';if ($arr) {    foreach ($arr as $key u003d> $value)    | }}?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);$arr = $fmt->localtime('Wednesday, December 31 , 1969 4:00:00 PM PT', 0);echo 'Перетворений висновок: ';if ($arr) {    foreach ($arr as $key => $value)    | }}?> `
 
 Результат виконання цього прикладу:
 

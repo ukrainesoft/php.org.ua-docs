@@ -13,14 +13,14 @@
 можуть стати небажаними $-запитами.
 
 Досить невинний приклад. Припустимо, ви шукаєте інформацію про
-користувачеві на запит *http://www.example.com?usernameu003dbob*. Ваше
+користувачеві на запит *http://www.example.com?username=bob*. Ваше
 програма створює запит
-`$q u003d new \MongoDB\Driver\Query( [ 'username' u003d> $_GET['username'] ])`.
+`$q = new \MongoDB\Driver\Query( [ 'username' => $_GET['username'] ])`.
 
 Хтось може підірвати це, отримавши
-*http://www.example.com?username[$ne]u003dfoo*, який PHP чарівним
+*http://www.example.com?username[$ne]=foo*, який PHP чарівним
 чином перетворить на асоціативний масив, перетворивши ваш запит на
-`$q u003d new \MongoDB\Driver\Query( [ 'username' u003d> [ '$ne' u003d> 'foo' ] ] )`,
+`$q = new \MongoDB\Driver\Query( [ 'username' => [ '$ne' => 'foo' ] ] )`,
 який поверне всіх користувачів, які не мають імені "foo" (ймовірно,
 всіх ваших користувачів).
 

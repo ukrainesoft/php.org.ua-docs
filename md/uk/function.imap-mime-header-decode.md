@@ -38,7 +38,7 @@ MIME-текст
 
 **Приклад #1 Приклад використання **imap_mime_header_decode()****
 
-` <?php$text u003d "u003d?ISO-8859-1?Q?Keld_Ju003dF8rn_Simonsen?u003d <keld@example.com>";$elements u003d imap_mime_header_decode($text);for ($iu003d0; $i <count($elements); $i++) {    echo "Charset: {$elements[$i]->charset}
+` <?php$text = "=?ISO-8859-1?Q?Keld_J=F8rn_Simonsen?= <keld@example.com>";$elements = imap_mime_header_decode($text);for ($i=0; $i <count($elements); $i++) {    echo "Charset: {$elements[$i]->charset}
 ";   echo "Text: {$elements[$i]->text}
 
 ";}?> `

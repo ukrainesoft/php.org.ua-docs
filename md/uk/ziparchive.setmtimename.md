@@ -7,7 +7,7 @@
 
 # ZipArchive::setMtimeName
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.16.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.16.0)
 
 ZipArchive::setMtimeName — Встановити час модифікації файлу на його
 імені
@@ -15,7 +15,7 @@ ZipArchive::setMtimeName — Встановити час модифікації 
 ### Опис
 
 public **ZipArchive::setMtimeName**(string `$name`, int `$timestamp`,
-int `$flags` u003d 0): bool
+int `$flags` = 0): bool
 
 Встановити час модифікації файлу на ім'я.
 
@@ -42,7 +42,7 @@ int `$flags` u003d 0): bool
 
 **Приклад #1 Архівування файлу**
 
-` <?php$zip u003d new ZipArchive();if ($zip->open('test.zip', ZipArchive::CREATE) u003du003du003d TRUE) {    $zip->addFile('text.txt'); $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019)); $zip->close(); echo "Ok
+` <?php$zip = new ZipArchive();if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {    $zip->addFile('text.txt'); $zip->setMtimeName('text.txt', mktime(0,0,0,12,25,2019)); $zip->close(); echo "Ok
 ";} else {    echo "KO
 ";}?> `
 

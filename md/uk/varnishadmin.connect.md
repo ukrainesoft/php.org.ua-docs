@@ -7,7 +7,7 @@
 
 # VarnishAdmin::connect
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::connect — Підключення до інтерфейсу адміністрування
 екземпляра varnish

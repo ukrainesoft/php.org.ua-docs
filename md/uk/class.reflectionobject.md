@@ -20,11 +20,11 @@ class **ReflectionObject** extends
 
 /\* Успадковані константи \*/
 
-const int `ReflectionClass::IS_IMPLICIT_ABSTRACT` u003d 16;
+const int `ReflectionClass::IS_IMPLICIT_ABSTRACT` = 16;
 
-const int `ReflectionClass::IS_EXPLICIT_ABSTRACT` u003d 32;
+const int `ReflectionClass::IS_EXPLICIT_ABSTRACT` = 32;
 
-const int `ReflectionClass::IS_FINAL` u003d 64;
+const int `ReflectionClass::IS_FINAL` = 64;
 
 /\* Наслідувані властивості \*/
 
@@ -39,11 +39,11 @@ public [\_\_construct](reflectionobject.construct.md)(object
 
 public static
 [ReflectionClass::export](reflectionclass.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$argument`, bool `$return` u003d **`false`**): string
+`$argument`, bool `$return` = **`false`**): string
 
 public
 [ReflectionClass::getAttributes](reflectionclass.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [ReflectionClass::getConstant](reflectionclass.getconstant.md)(string
@@ -52,7 +52,7 @@ public
 
 public
 [ReflectionClass::getConstants](reflectionclass.getconstants.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public
 [ReflectionClass::getConstructor](reflectionclass.getconstructor.md)():
@@ -95,7 +95,7 @@ public
 
 public
 [ReflectionClass::getMethods](reflectionclass.getmethods.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public
 [ReflectionClass::getModifiers](reflectionclass.getmodifiers.md)():
@@ -114,7 +114,7 @@ public
 
 public
 [ReflectionClass::getProperties](reflectionclass.getproperties.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public
 [ReflectionClass::getProperty](reflectionclass.getproperty.md)(string
@@ -127,7 +127,7 @@ public
 
 public
 [ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)(?int
-`$filter` u003d **`null`**): array
+`$filter` = **`null`**): array
 
 public
 [ReflectionClass::getShortName](reflectionclass.getshortname.md)():
@@ -145,7 +145,7 @@ public
 [ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)(string
 `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$def_value` u003d ?):
+`&$def_value` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
@@ -224,7 +224,7 @@ public
 
 public
 [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` u003d []): ?object
+`$args` = []): ?object
 
 public [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
 object

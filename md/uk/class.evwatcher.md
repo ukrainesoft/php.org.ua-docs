@@ -7,7 +7,7 @@
 
 # Клас EvWatcher
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -42,7 +42,7 @@ public [getLoop](evwatcher.getloop.md)(): [EvLoop](class.evloop.md)
 
 public [invoke](evwatcher.invoke.md)( int `$revents` ): void
 
-public [keepalive](evwatcher.keepalive.md)( bool `$value` u003d ?): bool
+public [keepalive](evwatcher.keepalive.md)( bool `$value` = ?): bool
 
 public [setCallback](evwatcher.setcallback.md)(
 [callable](language.types.callable.md) `$callback` ): void

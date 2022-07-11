@@ -29,7 +29,7 @@ unset — Видалення змінної
 видимості виклику функції збереже те саме значення, що й до виклику
 **unset()**.
 
-`<?phpfunction destroy_foo(){    global $foo; unset($foo);}$foo u003d 'bar';destroy_foo();echo $foo;?> `
+`<?phpfunction destroy_foo(){    global $foo; unset($foo);}$foo = 'bar';destroy_foo();echo $foo;?> `
 
 Результат виконання цього прикладу:
 
@@ -38,14 +38,14 @@ bar
 Якщо необхідно видалити глобальну змінну всередині функції, то для
 цього потрібно використовувати масив `$GLOBALS`:
 
-` <?phpfunction foo(){   unset($GLOBALS['bar']);}$bar u003d "something";foo();?> `
+` <?phpfunction foo(){   unset($GLOBALS['bar']);}$bar = "something";foo();?> `
 
 Якщо змінна, яка передається за посиланням, видаляється всередині функції,
 то буде видалена лише локальна змінна. Змінна в області
 видимості виклику функції збереже те саме значення, що й до виклику
 **unset()**.
 
-`<?phpfunction foo(&$bar){   unset($bar); $bar u003d "blah";}$bar u003d 'something';echo "$bar
+`<?phpfunction foo(&$bar){   unset($bar); $bar = "blah";}$bar = 'something';echo "$bar
 ";foo($bar);echo "$bar
 ";?> `
 
@@ -58,7 +58,7 @@ something
 змінну лише у контексті подальшого виконання функції. При
 На наступному виклику попереднє значення змінної буде відновлено.
 
-`<?phpfunction foo(){   static $bar; $ bar ++; echo "До|видалення: $bar, "; unset($bar); $bar u003d 23; echo "Після віддалення: $bar
+`<?phpfunction foo(){   static $bar; $ bar ++; echo "До|видалення: $bar, "; unset($bar); $bar = 23; echo "Після віддалення: $bar
 ";}foo();foo();foo();?> `
 
 Результат виконання цього прикладу:
@@ -94,7 +94,7 @@ something
 реалізації. Воно не змінює значення змінної, що наводиться. З PHP 7.2.0
 перетворення типу (unset) оголошено застарілим та видалено в PHP 8.0.0.
 
-` <?php$name u003d 'Felipe';var_dump((unset) $name);var_dump($name);?> `
+` <?php$name = 'Felipe';var_dump((unset) $name);var_dump($name);?> `
 
 Результат виконання цього прикладу:
 

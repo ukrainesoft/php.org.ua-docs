@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Exception\RuntimeException
 
-(mongodb \>u003d 1.0.0)
+(mongodb \>= 1.0.0)
 
 ## Вступ
 
@@ -28,18 +28,18 @@ protected ?array `$errorLabels`;
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Методи \*/
 
@@ -85,7 +85,7 @@ private [Exception::\_\_clone](exception.clone.md)(): void
 ## Список змін
 
 | Версія                                                                                                                                                                                                                                                                                                                                | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | PECL mongodb 1.6.0 Доданий метод [MongoDB\Driver\Exception\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) та властивість [MongoDB\Driver\Exception\RuntimeException::errorLabels](class.mongodb-driver-except runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels). |      |
 
 ## Зміст

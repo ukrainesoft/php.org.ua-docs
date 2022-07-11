@@ -19,8 +19,8 @@ string `$output_filename`,
 [OpenSSLCertificate](class.opensslcertificate.md)\|string
 `$certificate`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string\|null
-`$private_key` u003d **`null`**,
-int `$encoding` u003d **`OPENSSL_ENCODING_SMIME`**
+`$private_key` = **`null`**,
+int `$encoding` = **`OPENSSL_ENCODING_SMIME`**
 ): bool
 
 Розшифровує CMS-повідомлення.

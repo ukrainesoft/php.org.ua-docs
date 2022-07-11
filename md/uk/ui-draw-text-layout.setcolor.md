@@ -15,10 +15,10 @@ UI\Draw\Text\Layout::setColor — Встановити колір
 
 public
 **UI\Draw\Text\Layout::setColor**([UI\Draw\Color](class.ui-draw-color.md)
-`$color`, int `$start` u003d 0, int `$end` u003d ?)
+`$color`, int `$start` = 0, int `$end` = ?)
 
-public **UI\Draw\Text\Layout::setColor**(int `$color`, int `$start` u003d 0,
-int `$end` u003d ?)
+public **UI\Draw\Text\Layout::setColor**(int `$color`, int `$start` = 0,
+int `$end` = ?)
 
 Встановить колір для всього тексту або діапазону в макеті
 

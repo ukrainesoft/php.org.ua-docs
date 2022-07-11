@@ -30,10 +30,10 @@ public **ReflectionMethod::getModifiers**(): int
 
 **Приклад #1 Приклад використання **ReflectionMethod::getModifiers()****
 
-` <?phpclass Testing{    final public static function foo()    {        return; }    public function bar()    {        return; }}$foo u003d new ReflectionMethod('Testing', 'foo');echo "Модифікатори методу foo():
+` <?phpclass Testing{    final public static function foo()    {        return; }    public function bar()    {        return; }}$foo = new ReflectionMethod('Testing', 'foo');echo "Модифікатори методу foo():
 ";echo $foo->getModifiers() . "
 ";echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "
-";$bar u003d new ReflectionMethod('Testing', 'bar');echo "Модифікатори методу bar():
+";$bar = new ReflectionMethod('Testing', 'bar');echo "Модифікатори методу bar():
 ";echo $bar->getModifiers() . "
 ";echo implode(' ', Reflection::getModifierNames($bar->getModifiers()));?> `
 

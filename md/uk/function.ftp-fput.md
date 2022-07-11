@@ -17,8 +17,8 @@ ftp_fput — Завантажує попередньо відкритий фай
 [FTP\Connection](class.ftp-connection.md) `$ftp`,
 string `$remote_filename`,
 resource `$stream`,
-int `$mode` u003d **`FTP_BINARY`**,
-int `$offset` u003d 0
+int `$mode` = **`FTP_BINARY`**,
+int `$offset` = 0
 ): bool
 
 **ftp_fput()** завантажує дані з файлового дескриптора у віддалений
@@ -50,7 +50,7 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
 
@@ -58,7 +58,7 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 **Приклад #1 Приклад використання **ftp_fput()****
 
-` <?php// відкрити файл для читання$file u003d 'somefile.txt';$fp u003d fopen($file, 'r');// установка з'єднання$ftp u003d ftp_connect($ftp_server);|/  користувача і паролем$login_result u003d ftp_login($ftp, $ftp_user_name, $ftp_user_pass);//?
+` <?php// відкрити файл для читання$file = 'somefile.txt';$fp = fopen($file, 'r');// установка з'єднання$ftp = ftp_connect($ftp_server);|/  користувача і паролем$login_result = ftp_login($ftp, $ftp_user_name, $ftp_user_pass);//?
 ";} else {    echo "При завантаженні $file відбулася проблема
 ";}// закриваємо з'єднання і дескриптор файлаftp_close($ftp);fclose($fp);?> `
 

@@ -7,7 +7,7 @@
 
 #xmlrpc_server_call_method
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_server_call_method — Розбирає XML-запити та методи, що викликають
 
@@ -18,7 +18,7 @@ resource `$server`,
 string `$xml`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$user_data`,
-array `$output_options` u003d ?
+array `$output_options` = ?
 ): string
 
 **Увага**

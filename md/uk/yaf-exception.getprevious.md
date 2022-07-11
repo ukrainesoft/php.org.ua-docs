@@ -7,7 +7,7 @@
 
 # Yaf_Exception::getPrevious
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Exception::getPrevious — Отримати попередній виняток
 

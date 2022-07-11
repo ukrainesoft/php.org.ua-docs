@@ -7,7 +7,7 @@
 
 # SolrInputDocument::toArray
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::toArray — Повертає уявлення масиву вхідного
 документа

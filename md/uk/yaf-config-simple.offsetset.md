@@ -7,7 +7,7 @@
 
 # Yaf_Config_Simple::offsetSet
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Simple::offsetSet — Призначення offsetSet
 

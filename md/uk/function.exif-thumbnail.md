@@ -7,7 +7,7 @@
 
 #exif_thumbnail
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 exif_thumbnail — Отримує вбудоване зображення.
 
@@ -15,9 +15,9 @@ exif_thumbnail — Отримує вбудоване зображення.
 
 **exif_thumbnail**(
 resource\|string `$file`,
-int `&$width` u003d **`null`**,
-int `&$height` u003d **`null`**,
-int `&$image_type` u003d **`null`**
+int `&$width` = **`null`**,
+int `&$height` = **`null`**,
+int `&$image_type` = **`null`**
 ): string\|false
 
 **exif_thumbnail()** зчитує вбудоване прев'ю зображення.
@@ -53,14 +53,14 @@ int `&$image_type` u003d **`null`**
 ### Список змін
 
 | Версія | Опис                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------|
 | 7.2.0  | Параметр file перейменований на stream і може приймати як локальний шлях до файлу, так і потоковий ресурс. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **exif_thumbnail()****
 
-` <?php$image u003d exif_thumbnail('/path/to/image.jpg', $width, $height, $type);if ($image!u003du003dfalse) {    header('Content-type: ' .image_type_to_mi ($ type)); echo $image; exit;} else {    // немає доступного прев'ю, можно обробити помилку    echo 'Немає доступного ескізу';}?> `
+` <?php$image = exif_thumbnail('/path/to/image.jpg', $width, $height, $type);if ($image!==false) {    header('Content-type: ' .image_type_to_mi ($ type)); echo $image; exit;} else {    // немає доступного прев'ю, можно обробити помилку    echo 'Немає доступного ескізу';}?> `
 
 ### Примітки
 

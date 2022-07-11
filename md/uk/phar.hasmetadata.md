@@ -7,7 +7,7 @@
 
 # Phar::hasMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.2.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.0)
 
 Phar::hasMetadata — Перевірити, чи містить phar-архів глобальні
 метадані
@@ -30,7 +30,7 @@ public **Phar::hasMetadata**(): bool
 
 **Приклад #1 Приклад використання **Phar::hasMetadata()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); var_dump($phar->hasMetadata()); $phar->setMetadata(array('thing' u003d> 'hi')); var_dump($phar->hasMetadata()); $phar->delMetadata(); var_dump($phar->hasMetadata());} catch (Exception $e) {    // handle error}?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); var_dump($phar->hasMetadata()); $phar->setMetadata(array('thing' => 'hi')); var_dump($phar->hasMetadata()); $phar->delMetadata(); var_dump($phar->hasMetadata());} catch (Exception $e) {    // handle error}?> `
 
 Результат виконання цього прикладу:
 

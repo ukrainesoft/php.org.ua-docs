@@ -7,7 +7,7 @@
 
 #pg_lo_truncate
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 pg_lo_truncate — Обрізає великий об'єкт
 
@@ -39,14 +39,14 @@ An [PgSql\Lob](class.pgsql-lob.md) instance, returned by
 ### Список змін
 
 | Версія | Опис                                                                                                                                      |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр lob тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_truncate()****
 
-`<?php  $doc_oidu003du003d189762345; $databaseu003du003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); $handle u003d pg_lo_open($database, $doc_oid, "r"); // Обрізати до 0   pg_lo_truncate($handle, 0); pg_query($database, "commit"); echo $data;?> `
+`<?php  $doc_oid==189762345; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); $handle = pg_lo_open($database, $doc_oid, "r"); // Обрізати до 0   pg_lo_truncate($handle, 0); pg_query($database, "commit"); echo $data;?> `
 
 ### Дивіться також
 

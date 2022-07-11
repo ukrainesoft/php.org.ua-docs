@@ -7,7 +7,7 @@
 
 # SplFileObject::getMaxLineLen
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::getMaxLineLen — Отримати максимальну довжину рядка
 
@@ -33,7 +33,7 @@ public **SplFileObject::getMaxLineLen**(): int
 
 **Приклад #1 Приклад використання **SplFileObject::getMaxLineLen()****
 
-` <?php$file u003d new SplFileObject("file.txt");var_dump($file->getMaxLineLen());$file->setMaxLineLen(20);var_dump($file->getMaxLineLen());?> `
+` <?php$file = new SplFileObject("file.txt");var_dump($file->getMaxLineLen());$file->setMaxLineLen(20);var_dump($file->getMaxLineLen());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

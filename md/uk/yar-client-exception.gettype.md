@@ -7,7 +7,7 @@
 
 # Yar_Client_Exception::getType
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Client_Exception::getType — Отримати тип виключення
 

@@ -7,7 +7,7 @@
 
 # sodium_crypto_secretbox_open
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_secretbox_open — Розшифровка за допомогою загального ключа
 з автентичністю
@@ -54,7 +54,7 @@ string `$key`): string\|false
 
 **Приклад #1 Приклад використання **sodium_crypto_secretbox_open()****
 
-` <?php// $key должен храниться в секрете.$key u003d random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);// Не используйте $nonce повторно с тем же ключом$nonce u003d random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);$ciphertext u003d sodium_crypto_secretbox('message to be encrypted ', $nonce, $key);// Для розшифровки $ciphertext потрібні те ж ім'я і ключ.$plaintext u003d sodium_crypto_secretbox_open($ciphertext, $nonce, $ . PHP_EOL;}?> `
+` <?php// $key должен храниться в секрете.$key = random_bytes(SODIUM_CRYPTO_SECRETBOX_KEYBYTES);// Не используйте $nonce повторно с тем же ключом$nonce = random_bytes(SODIUM_CRYPTO_SECRETBOX_NONCEBYTES);$ciphertext = sodium_crypto_secretbox('message to be encrypted ', $nonce, $key);// Для розшифровки $ciphertext потрібні те ж ім'я і ключ.$plaintext = sodium_crypto_secretbox_open($ciphertext, $nonce, $ . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

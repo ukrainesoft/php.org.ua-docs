@@ -7,7 +7,7 @@
 
 # hash_equals
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 hash_equals — Порівняння рядків, нечутливе до атак за часом
 
@@ -43,7 +43,7 @@ hash_equals — Порівняння рядків, нечутливе до ат�
 
 **Приклад #1 Приклад використання **hash_equals()****
 
-` <?php$expected  u003d crypt('12345', '$2a$07$usesomesillystringforsalt$');$correct   u003d crypt('12345', '$2a$07$usesomesillystringforsalt$' , '$2a$07$usesomesillystringforsalt$');var_dump(hash_equals($expected, $correct));var_dump(hash_equals($expected, $incorrect));?> `
+` <?php$expected  = crypt('12345', '$2a$07$usesomesillystringforsalt$');$correct   = crypt('12345', '$2a$07$usesomesillystringforsalt$' , '$2a$07$usesomesillystringforsalt$');var_dump(hash_equals($expected, $correct));var_dump(hash_equals($expected, $incorrect));?> `
 
 Результат виконання цього прикладу:
 

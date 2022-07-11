@@ -20,4 +20,4 @@
 **Приклад #1 Використання модуля cURL для збереження стартової сторінки
 example.com**
 
-` <?php$ch u003dcurl_init("http://www.example.com/");$fp u003dfopen("example_homepage.txt", "w");curl_setopt($ch, CURLOPT_FILE, $fp); curl_setopt($ch, CURLOPT_HEADER, 0); curl_exec ($ ch); if (curl_error ($ ch))  {    fwrite($fp, curl_error($ch)); ?> `
+` <?php$ch =curl_init("http://www.example.com/");$fp =fopen("example_homepage.txt", "w");curl_setopt($ch, CURLOPT_FILE, $fp); curl_setopt($ch, CURLOPT_HEADER, 0); curl_exec ($ ch); if (curl_error ($ ch))  {    fwrite($fp, curl_error($ch)); ?> `

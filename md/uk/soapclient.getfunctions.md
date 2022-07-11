@@ -34,23 +34,23 @@ public **SoapClient::\_\_getFunctions**(): ?array
 
 **Приклад #1 Приклад використання **SoapClient::\_\_getFunctions()****
 
-` <?php$client u003d new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');var_dump($client->__getFunctions());?> `
+` <?php$client = new SoapClient('http://soap.amazon.com/schemas3/AmazonWebServices.wsdl');var_dump($client->__getFunctions());?> `
 
 Результат виконання цього прикладу:
 
 array(26) {
-[0]u003d>
+[0]=>
 string(70) "ProductInfo KeywordSearchRequest(KeywordRequest $KeywordSearchRequest)"
-[1]u003d>
+[1]=>
 string(79) "ProductInfo TextStreamSearchRequest(TextStreamRequest $TextStreamSearchRequest)"
-[2]u003d>
+[2]=>
 string(64) "ProductInfo PowerSearchRequest(PowerRequest $PowerSearchRequest)"
 ...
-[23] u003d>
+[23] =>
 string(107) "ShoppingCart RemoveShoppingCartItemsRequest(RemoveShoppingCartItemsRequest $RemoveShoppingCartItemsRequest)"
-[24] u003d>
+[24] =>
 string(107) "ShoppingCart ModifyShoppingCartItemsRequest(ModifyShoppingCartItemsRequest $ModifyShoppingCartItemsRequest)"
-[25] u003d>
+[25] =>
 string(118) "GetTransactionDetailsResponse GetTransactionDetailsRequest(GetTransactionDetailsRequest $GetTransactionDetailsRequest)"
 }
 

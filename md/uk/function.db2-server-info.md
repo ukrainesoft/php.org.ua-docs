@@ -7,7 +7,7 @@
 
 #db2_server_info
 
-(PECL ibm_db2 \>u003d 1.1.1)
+(PECL ibm_db2 \>= 1.1.1)
 
 db2_server_info — Повертає об'єкт із властивостями, що описують сервер
 бази даних DB2
@@ -42,7 +42,7 @@ Apache Derby. У наступній таблиці наведено власти
 Щоб отримати інформацію про сервер, ви повинні передати дійсний
 ресурс підключення до бази даних **db2_server_info()**.
 
-` <?php$conn u003d db2_connect('sample', 'db2inst1', 'ibmdb2');$server u003d db2_server_info( $conn );if ($server) {    echo "DBMS_NAME: var_dump($server->DBMS_NAME); echo "DBMS_VER: "; var_dump($server->DBMS_VER); echo "DB_CODEPAGE: "; var_dump($server->DB_CODEPAGE); echo "DB_NAME: "; var_dump($server->DB_NAME); echo "INST_NAME: "; var_dump($server->INST_NAME); echo "SPECIAL_CHARS:"; var_dump($server->SPECIAL_CHARS); echo "KEYWORDS: "; var_dump(sizeof($server->KEYWORDS)); echo "DFT_ISOLATION: "; var_dump($server->DFT_ISOLATION); echo "ISOLATION_OPTION: "; $il u003d ''; foreach( $server->ISOLATION_OPTION as $opt )    {       $il .u003d $opt." "; }   var_dump($$il ); echo "SQL_CONFORMANCE: "; var_dump($server->SQL_CONFORMANCE); echo "PROCEDURES: "; var_dump($server->PROCEDURES); echo "IDENTIFIER_QUOTE_CHAR: "; var_dump($server->IDENTIFIER_QUOTE_CHAR); echo "LIKE_ESCAPE_CLAUSE: "; var_dump($server->LIKE_ESCAPE_CLAUSE); echo "MAX_COL_NAME_LEN: "; var_dump($server->MAX_COL_NAME_LEN); echo "MAX_ROW_SIZE: "; var_dump($server->MAX_ROW_SIZE); echo "MAX_IDENTIFIER_LEN: "; var_dump($server->MAX_IDENTIFIER_LEN); echo "MAX_INDEX_SIZE: "; var_dump($server->MAX_INDEX_SIZE); echo "MAX_PROC_NAME_LEN: "; var_dump($server->MAX_PROC_NAME_LEN); echo "MAX_SCHEMA_NAME_LEN: "; var_dump($server->MAX_SCHEMA_NAME_LEN); echo "MAX_STATEMENT_LEN: "; var_dump($server->MAX_STATEMENT_LEN); echo "MAX_TABLE_NAME_LEN: "; var_dump($server->MAX_TABLE_NAME_LEN); echo "NON_NULLABLE_COLUMNS: "; var_dump($server->NON_NULLABLE_COLUMNS); db2_close($conn);}?> `
+` <?php$conn = db2_connect('sample', 'db2inst1', 'ibmdb2');$server = db2_server_info( $conn );if ($server) {    echo "DBMS_NAME: var_dump($server->DBMS_NAME); echo "DBMS_VER: "; var_dump($server->DBMS_VER); echo "DB_CODEPAGE: "; var_dump($server->DB_CODEPAGE); echo "DB_NAME: "; var_dump($server->DB_NAME); echo "INST_NAME: "; var_dump($server->INST_NAME); echo "SPECIAL_CHARS:"; var_dump($server->SPECIAL_CHARS); echo "KEYWORDS: "; var_dump(sizeof($server->KEYWORDS)); echo "DFT_ISOLATION: "; var_dump($server->DFT_ISOLATION); echo "ISOLATION_OPTION: "; $il = ''; foreach( $server->ISOLATION_OPTION as $opt )    {       $il .= $opt." "; }   var_dump($$il ); echo "SQL_CONFORMANCE: "; var_dump($server->SQL_CONFORMANCE); echo "PROCEDURES: "; var_dump($server->PROCEDURES); echo "IDENTIFIER_QUOTE_CHAR: "; var_dump($server->IDENTIFIER_QUOTE_CHAR); echo "LIKE_ESCAPE_CLAUSE: "; var_dump($server->LIKE_ESCAPE_CLAUSE); echo "MAX_COL_NAME_LEN: "; var_dump($server->MAX_COL_NAME_LEN); echo "MAX_ROW_SIZE: "; var_dump($server->MAX_ROW_SIZE); echo "MAX_IDENTIFIER_LEN: "; var_dump($server->MAX_IDENTIFIER_LEN); echo "MAX_INDEX_SIZE: "; var_dump($server->MAX_INDEX_SIZE); echo "MAX_PROC_NAME_LEN: "; var_dump($server->MAX_PROC_NAME_LEN); echo "MAX_SCHEMA_NAME_LEN: "; var_dump($server->MAX_SCHEMA_NAME_LEN); echo "MAX_STATEMENT_LEN: "; var_dump($server->MAX_STATEMENT_LEN); echo "MAX_TABLE_NAME_LEN: "; var_dump($server->MAX_TABLE_NAME_LEN); echo "NON_NULLABLE_COLUMNS: "; var_dump($server->NON_NULLABLE_COLUMNS); db2_close($conn);}?> `
 
 Результат виконання цього прикладу:
 

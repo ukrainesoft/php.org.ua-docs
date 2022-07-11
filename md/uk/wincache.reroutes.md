@@ -39,7 +39,7 @@ WinCache включає оптимізовані під Windows реалізац
 **Приклад #1 Увімкнення перенаправлення функцій у WinCache**
 
 ``` php.inicode
-wincache.rerouteini u003d C:\PHP
+wincache.rerouteini = C:\PHP
 eroute.ini
 ````
 
@@ -52,7 +52,7 @@ eroute.ini
 їх еквіваленти модуля WinCache. Кожен рядок файлу визначає прив'язку
 з використанням наступного синтаксису:
 
-`<Ім'я функції PHP>:[<кількість параметрів функції>]u003d<ім'я функції wincache>`
+`<Ім'я функції PHP>:[<кількість параметрів функції>]=<ім'я функції wincache>`
 
 Приклад файлу наведено нижче. У цьому прикладі виклик PHP-функції
 [file_get_contents()](function.file-get-contents.md) змінюється
@@ -65,14 +65,14 @@ eroute.ini
 
 ``` php.inicode
 [FunctionRerouteList]
-file_existsu003dwincache_file_exists
-file_get_contents:2u003dwincache_file_get_contents
-readfile:2u003dwincache_readfile
-is_readableu003dwincache_is_readable
-is_writableu003dwincache_is_writable
-is_writeableu003dwincache_is_writable
-is_fileu003dwincache_is_file
-is_diru003dwincache_is_dir
-realpathu003dwincache_realpath
-filesizeu003dwincache_filesize
+file_exists=wincache_file_exists
+file_get_contents:2=wincache_file_get_contents
+readfile:2=wincache_readfile
+is_readable=wincache_is_readable
+is_writable=wincache_is_writable
+is_writeable=wincache_is_writable
+is_file=wincache_is_file
+is_dir=wincache_is_dir
+realpath=wincache_realpath
+filesize=wincache_filesize
 ````

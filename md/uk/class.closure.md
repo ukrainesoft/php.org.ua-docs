@@ -7,7 +7,7 @@
 
 # Клас Closure
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -30,11 +30,11 @@ final class **Closure** {
 private [\_\_construct](closure.construct.md)()
 
 public static [bind](closure.bind.md)([Closure](class.closure.md)
-`$closure`, ?object `$newThis`, object\|string\|null `$newScope` u003d
+`$closure`, ?object `$newThis`, object\|string\|null `$newScope` =
 "static"): ?[Closure](class.closure.md)
 
 public [bindTo](closure.bindto.md)(?object `$newThis`,
-object\|string\|null `$newScope` u003d "static"):
+object\|string\|null `$newScope` = "static"):
 ?[Closure](class.closure.md)
 
 public [call](closure.call.md)(object `$newThis`,

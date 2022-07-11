@@ -8,7 +8,7 @@
 
 # runkit7_import
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_import — Обробляє функцію імпорту файлу PHP та визначення
 класів, при необхідності перезаписуючи
@@ -19,7 +19,7 @@ runkit7_import — Обробляє функцію імпорту файлу PHP
 
 ### Опис
 
-**runkit7_import**(string `$filename`, int `$flags` u003d ?): bool
+**runkit7_import**(string `$filename`, int `$flags` = ?): bool
 
 Функція подібна до [include](function.include.md). Однак будь-який код,
 що знаходиться поза межами функції або класу, просто ігнорується. Крім

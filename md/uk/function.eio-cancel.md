@@ -7,7 +7,7 @@
 
 #eio_cancel
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_cancel — Скасовує запит
 
@@ -57,7 +57,7 @@ eio_cancel — Скасовує запит
 **Приклад #1 **eio_cancel()** example**
 
 ` <?php /* Викликається при завершенні eio_nop() */ function my_nop_cb($data, $result) {  echo "my_nop ", $data, "
-"; }// Цей  виклик eio_nop() буде скасований$req u003d eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "1");var_dump($req);eio_cancel($eq| , "my_nop_cb", "2");// Виконання запитівeio_event_loop();?> `
+"; }// Цей  виклик eio_nop() буде скасований$req = eio_nop(EIO_PRI_DEFAULT, "my_nop_cb", "1");var_dump($req);eio_cancel($eq| , "my_nop_cb", "2");// Виконання запитівeio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

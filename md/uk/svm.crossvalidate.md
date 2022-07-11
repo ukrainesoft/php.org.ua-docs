@@ -7,7 +7,7 @@
 
 # SVM::crossvalidate
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 SVM::crossvalidate — Тестування навчальних параметрів на підмножинах
 навчальних даних

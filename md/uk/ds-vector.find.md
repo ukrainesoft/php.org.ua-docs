@@ -7,7 +7,7 @@
 
 # Ds\Vector::find
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::find — Пошук індексу за значенням
 
@@ -38,7 +38,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Vector::find()****
 
-` <?php$vector u003d new \Ds\Vector(["a", 1, true]);var_dump($vector->find("a")); // 0var_dump($vector->find("b")); //falsevar_dump($vector->find("1")); //falsevar_dump($vector->find(1)); // 1?> `
+` <?php$vector = new \Ds\Vector(["a", 1, true]);var_dump($vector->find("a")); // 0var_dump($vector->find("b")); //falsevar_dump($vector->find("1")); //falsevar_dump($vector->find(1)); // 1?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -17,7 +17,7 @@
 Додавання PT24H через перехід DST призведе до додавання 23/25 годин
 (Більшість часових поясів).
 
-` <?php$dt u003d new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));echo "Початок: ","$dt->format i:s P"), PHP_EOL;$dt u003d $dt->add(new DateInterval("PT3H"));echo "Кінець:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;?> `
+` <?php$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));echo "Початок: ","$dt->format i:s P"), PHP_EOL;$dt = $dt->add(new DateInterval("PT3H"));echo "Кінець:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 
@@ -30,7 +30,7 @@
 Додавання +24 годин через перехід DST додасть точно 24 години (замість
 обліку переходу на зимовий або літній час).
 
-` <?php$dt u003d new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));echo "Початок: ","$dt->format i:s P"), PHP_EOL;$dt u003d $dt->modify("+24 hours");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL; ?> `
+` <?php$dt = new DateTimeImmutable("2015-11-01 00:00:00", new DateTimeZone("America/New_York"));echo "Початок: ","$dt->format i:s P"), PHP_EOL;$dt = $dt->modify("+24 hours");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P"), PHP_EOL; ?> `
 
 Результат виконання цього прикладу:
 
@@ -44,8 +44,8 @@
 березня (звичайний рік).
 
 `<?phpecho "Звичайний рік:
-"; // У лютому 28 днів$dt u003d new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"); t>>t| "Y-m-d H:i:s P"), PHP_EOL;$dt u003d $dt->modify("+1 month");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P" ), PHP_EOL;echo "Високосний рік:
-"; // У лютому 29 днів$dt u003d new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York");ech| "Y-m-d H:i:s P"), PHP_EOL;$dt u003d $dt->modify("+1 month");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P" ), PHP_EOL;?> `
+"; // У лютому 28 днів$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"); t>>t| "Y-m-d H:i:s P"), PHP_EOL;$dt = $dt->modify("+1 month");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P" ), PHP_EOL;echo "Високосний рік:
+"; // У лютому 29 днів$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York");ech| "Y-m-d H:i:s P"), PHP_EOL;$dt = $dt->modify("+1 month");echo "Кінець:  ", $dt->format("Y-m-d H:i:s P" ), PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 
@@ -60,8 +60,8 @@
 запобігти переповненню) існує директива `last day of`.
 
 `<?phpecho "Звичайний рік:
-"; // Лютий містить 28 днів$dt u003d new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"),>t| "Y-m-d H:i:s P"), PHP_EOL;$dt u003d $dt->modify("last day of next month");echo "Кінець:  ", $dt->format("Y-m-d P"), PHP_EOL;echo "Високосний рік:
-"; // Лютий містить 29 днів$dt u003d new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"))>ech| "Y-m-d H:i:s P"), PHP_EOL;$dt u003d $dt->modify("last day of next month");echo "Кінець:  ", $dt->format("Y-m-d P"), PHP_EOL;?> `
+"; // Лютий містить 28 днів$dt = new DateTimeImmutable("2015-01-31 00:00:00", new DateTimeZone("America/New_York"),>t| "Y-m-d H:i:s P"), PHP_EOL;$dt = $dt->modify("last day of next month");echo "Кінець:  ", $dt->format("Y-m-d P"), PHP_EOL;echo "Високосний рік:
+"; // Лютий містить 29 днів$dt = new DateTimeImmutable("2016-01-31 00:00:00", new DateTimeZone("America/New_York"))>ech| "Y-m-d H:i:s P"), PHP_EOL;$dt = $dt->modify("last day of next month");echo "Кінець:  ", $dt->format("Y-m-d P"), PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 

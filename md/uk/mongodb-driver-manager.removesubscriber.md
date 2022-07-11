@@ -8,7 +8,7 @@
 
 # MongoDB\Driver\Manager::removeSubscriber
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\Manager::removeSubscriber — Скасує реєстрацію
 передплатника на подію моніторингу в даному об'єкті Manager

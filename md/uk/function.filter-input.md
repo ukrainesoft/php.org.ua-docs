@@ -7,7 +7,7 @@
 
 #filter_input
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 filter_input — Приймає змінну ззовні PHP і, за необхідності,
 фільтрує її
@@ -17,8 +17,8 @@ filter_input — Приймає змінну ззовні PHP і, за необ�
 **filter_input**(
 int `$type`,
 string `$var_name`,
-int `$filter` u003d **`FILTER_DEFAULT`**,
-array\|int `$options` u003d 0
+int `$filter` = **`FILTER_DEFAULT`**,
+array\|int `$options` = 0
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -56,13 +56,13 @@ array\|int `$options` u003d 0
 
 **Приклад #1 Приклад використання **filter_input()****
 
-` <?php$search_html u003d filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);$search_url u003d filter_input(INPUT_GET, 'search', FILTER_SANITIZE_ENCODED)|
-";echo "<a hrefu003d'?searchu003d$search_url'>Шукати знову.</a>";?> `
+` <?php$search_html = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_SPECIAL_CHARS);$search_url = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_ENCODED)|
+";echo "<a href='?search=$search_url'>Шукати знову.</a>";?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ви шукали Me & Son.
-<a hrefu003d'?searchu003dMe%20%26%20son'>Шукати знову.</a>
+<a href='?search=Me%20%26%20son'>Шукати знову.</a>
 
 ### Дивіться також
 

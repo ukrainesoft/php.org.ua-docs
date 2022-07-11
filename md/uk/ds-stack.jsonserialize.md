@@ -7,7 +7,7 @@
 
 # Ds\Stack::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::jsonSerialize — Повертає колекцію в JSON-представництві
 

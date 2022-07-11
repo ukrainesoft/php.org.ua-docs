@@ -12,7 +12,7 @@
 Для створення нового об'єкта, використовуйте вираз `new`, що створює в
 змінний екземпляр класу:
 
-`<?phpclass foo{    function do_foo()    {       echo "Код foo."; }}$bar u003d new foo;$bar->do_foo();?> `
+`<?phpclass foo{    function do_foo()    {       echo "Код foo."; }}$bar = new foo;$bar->do_foo();?> `
 
 Повний розгляд проводиться у розділі [Класи та Об'єкти](language.oop5.md).
 
@@ -26,9 +26,9 @@
 Зверніть увагу, що в цьому випадку до PHP 7.2.0 числові ключі не
 будуть доступні, доки не проітерувати об'єкт.
 
-` <?php$obj u003d (object) array('1' u003d> 'foo');var_dump(isset($obj->{'1'})); // виводить 'bool(true)', починаючи з PHP 7.2.0; 'bool(false)' раніше var_dump(key($obj)); // виводить 'string(1) "1"', починаючи з PHP 7.2.0; 'int(1)' раніше?> `
+` <?php$obj = (object) array('1' => 'foo');var_dump(isset($obj->{'1'})); // виводить 'bool(true)', починаючи з PHP 7.2.0; 'bool(false)' раніше var_dump(key($obj)); // виводить 'string(1) "1"', починаючи з PHP 7.2.0; 'int(1)' раніше?> `
 
 При перетворенні будь-якого іншого значення, воно буде поміщено в поле з
 ім'ям `scalar` відповідного типу.
 
-` <?php$obj u003d (object) 'привіт';echo $obj->scalar; // виведе 'привіт'?> `
+` <?php$obj = (object) 'привіт';echo $obj->scalar; // виведе 'привіт'?> `

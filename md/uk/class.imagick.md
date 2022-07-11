@@ -15,21 +15,21 @@ class **Imagick** implements [Iterator](class.iterator.md) {
 
 public
 [\_\_construct](imagick.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$files` u003d ?)
+`$files` = ?)
 
 public [adaptiveBlurImage](imagick.adaptiveblurimage.md)(float
-`$radius`, float `$sigma`, int `$channel` u003d Imagick::CHANNEL_DEFAULT):
+`$radius`, float `$sigma`, int `$channel` = Imagick::CHANNEL_DEFAULT):
 bool
 
 public [adaptiveResizeImage](imagick.adaptiveresizeimage.md)(
 int `$columns`,
 int `$rows`,
-bool `$bestfit` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 public [adaptiveSharpenImage](imagick.adaptivesharpenimage.md)(float
-`$radius`, float `$sigma`, int `$channel` u003d Imagick::CHANNEL_DEFAULT):
+`$radius`, float `$sigma`, int `$channel` = Imagick::CHANNEL_DEFAULT):
 bool
 
 public [adaptiveThresholdImage](imagick.adaptivethresholdimage.md)(int
@@ -39,7 +39,7 @@ public [addImage](imagick.addimage.md)([Imagick](class.imagick.md)
 `$source`): bool
 
 public [addNoiseImage](imagick.addnoiseimage.md)(int `$noise_type`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public
 [affineTransformImage](imagick.affinetransformimage.md)([ImagickDraw](class.imagickdraw.md)
@@ -59,7 +59,7 @@ string `$text`
 public [appendImages](imagick.appendimages.md)(bool `$stack`):
 [Imagick](class.imagick.md)
 
-public [autoLevelImage](imagick.autolevelimage.md)(int `$channel` u003d
+public [autoLevelImage](imagick.autolevelimage.md)(int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [averageImages](imagick.averageimages.md)():
@@ -69,11 +69,11 @@ public
 [blackThresholdImage](imagick.blackthresholdimage.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$threshold`): bool
 
-public [blueShiftImage](imagick.blueshiftimage.md)(float `$factor` u003d
+public [blueShiftImage](imagick.blueshiftimage.md)(float `$factor` =
 1.5): bool
 
 public [blurImage](imagick.blurimage.md)(float `$radius`, float
-`$sigma`, int `$channel` u003d ?): bool
+`$sigma`, int `$channel` = ?): bool
 
 public
 [borderImage](imagick.borderimage.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -81,7 +81,7 @@ public
 
 public
 [brightnessContrastImage](imagick.brightnesscontrastimage.md)(float
-`$brightness`, float `$contrast`, int `$channel` u003d
+`$brightness`, float `$contrast`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [charcoalImage](imagick.charcoalimage.md)(float `$radius`,
@@ -94,7 +94,7 @@ int `$x`,
 int `$y`
 ): bool
 
-public [clampImage](imagick.clampimage.md)(int `$channel` u003d
+public [clampImage](imagick.clampimage.md)(int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [clear](imagick.clear.md)(): bool
@@ -110,7 +110,7 @@ bool `$inside`): bool
 public [clone](imagick.clone.md)(): [Imagick](class.imagick.md)
 
 public [clutImage](imagick.clutimage.md)([Imagick](class.imagick.md)
-`$lookup_table`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$lookup_table`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [coalesceImages](imagick.coalesceimages.md)():
 [Imagick](class.imagick.md)
@@ -129,10 +129,10 @@ public
 [colorizeImage](imagick.colorizeimage.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$colorize`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$opacity`, bool `$legacy` u003d **`false`**): bool
+`$opacity`, bool `$legacy` = **`false`**): bool
 
 public [colorMatrixImage](imagick.colormatriximage.md)(array
-`$color_matrix` u003d Imagick::CHANNEL_DEFAULT): bool
+`$color_matrix` = Imagick::CHANNEL_DEFAULT): bool
 
 public [combineImages](imagick.combineimages.md)(int `$channelType`):
 [Imagick](class.imagick.md)
@@ -156,20 +156,20 @@ public [compositeImage](imagick.compositeimage.md)(
 int `$composite`,
 int `$x`,
 int `$y`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [contrastImage](imagick.contrastimage.md)(bool `$sharpen`):
 bool
 
 public [contrastStretchImage](imagick.contraststretchimage.md)(float
-`$black_point`, float `$white_point`, int `$channel` u003d
+`$black_point`, float `$white_point`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [convolveImage](imagick.convolveimage.md)(array `$kernel`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
-public [count](imagick.count.md)(int `$mode` u003d 0): int
+public [count](imagick.count.md)(int `$mode` = 0): int
 
 public [cropImage](imagick.cropimage.md)(
 int `$width`,
@@ -179,7 +179,7 @@ int `$y`
 ): bool
 
 public [cropThumbnailImage](imagick.cropthumbnailimage.md)(int
-`$width`, int `$height`, bool `$legacy` u003d **`false`**): bool
+`$width`, int `$height`, bool `$legacy` = **`false`**): bool
 
 public [current](imagick.current.md)(): [Imagick](class.imagick.md)
 
@@ -230,7 +230,7 @@ public [enhanceImage](imagick.enhanceimage.md)(): bool
 public [equalizeImage](imagick.equalizeimage.md)(): bool
 
 public [evaluateImage](imagick.evaluateimage.md)(int `$op`, float
-`$constant`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$constant`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [exportImagePixels](imagick.exportimagepixels.md)(
 int `$x`,
@@ -250,7 +250,7 @@ int `$y`
 
 public
 [filter](imagick.filter.md)([ImagickKernel](class.imagickkernel.md)
-`$ImagickKernel`, int `$channel` u003d Imagick::CHANNEL_UNDEFINED): bool
+`$ImagickKernel`, int `$channel` = Imagick::CHANNEL_UNDEFINED): bool
 
 public [flattenImages](imagick.flattenimages.md)():
 [Imagick](class.imagick.md)
@@ -266,7 +266,7 @@ float `$fuzz`,
 int `$x`,
 int `$y`,
 bool `$invert`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [flopImage](imagick.flopimage.md)(): bool
@@ -285,16 +285,16 @@ int `$outer_bevel`
 ): bool
 
 public [functionImage](imagick.functionimage.md)(int `$function`,
-array `$arguments`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+array `$arguments`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [fxImage](imagick.fximage.md)(string `$expression`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): [Imagick](class.imagick.md)
+`$channel` = Imagick::CHANNEL_DEFAULT): [Imagick](class.imagick.md)
 
 public [gammaImage](imagick.gammaimage.md)(float `$gamma`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [gaussianBlurImage](imagick.gaussianblurimage.md)(float
-`$radius`, float `$sigma`, int `$channel` u003d Imagick::CHANNEL_DEFAULT):
+`$radius`, float `$sigma`, int `$channel` = Imagick::CHANNEL_DEFAULT):
 bool
 
 public [getColorspace](imagick.getcolorspace.md)(): int
@@ -347,7 +347,7 @@ public
 
 public
 [getImageChannelDistortions](imagick.getimagechanneldistortions.md)([Imagick](class.imagick.md)
-`$reference`, int `$metric`, int `$channel` u003d Imagick::CHANNEL_DEFAULT):
+`$reference`, int `$metric`, int `$channel` = Imagick::CHANNEL_DEFAULT):
 float
 
 public [getImageChannelExtrema](imagick.getimagechannelextrema.md)(int
@@ -355,7 +355,7 @@ public [getImageChannelExtrema](imagick.getimagechannelextrema.md)(int
 
 public
 [getImageChannelKurtosis](imagick.getimagechannelkurtosis.md)(int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): array
+`$channel` = Imagick::CHANNEL_DEFAULT): array
 
 public [getImageChannelMean](imagick.getimagechannelmean.md)(int
 `$channel`): array
@@ -444,10 +444,10 @@ public [getImageProfile](imagick.getimageprofile.md)(string `$name`):
 string
 
 public [getImageProfiles](imagick.getimageprofiles.md)(string
-`$pattern` u003d "\*", bool `$include_values` u003d **`true`**): array
+`$pattern` = "\*", bool `$include_values` = **`true`**): array
 
 public [getImageProperties](imagick.getimageproperties.md)(string
-`$pattern` u003d "\*", bool `$include_values` u003d **`true`**): array
+`$pattern` = "\*", bool `$include_values` = **`true`**): array
 
 public [getImageProperty](imagick.getimageproperty.md)(string
 `$name`): string
@@ -542,7 +542,7 @@ public static [getVersion](imagick.getversion.md)(): array
 
 public
 [haldClutImage](imagick.haldclutimage.md)([Imagick](class.imagick.md)
-`$clut`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$clut`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [hasNextImage](imagick.hasnextimage.md)(): bool
 
@@ -552,7 +552,7 @@ public [identifyFormat](imagick.identifyformat.md)(string
 `$embedText`): string\|false
 
 public [identifyImage](imagick.identifyimage.md)(bool
-`$appendRawOutput` u003d **`false`**): array
+`$appendRawOutput` = **`false`**): array
 
 public [implodeImage](imagick.implodeimage.md)(float `$radius`): bool
 
@@ -576,7 +576,7 @@ public [levelImage](imagick.levelimage.md)(
 float `$blackPoint`,
 float `$gamma`,
 float `$whitePoint`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [linearStretchImage](imagick.linearstretchimage.md)(float
@@ -631,7 +631,7 @@ public [morphology](imagick.morphology.md)(
 int `$morphologyMethod`,
 int `$iterations`,
 [ImagickKernel](class.imagickkernel.md) `$ImagickKernel`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [mosaicImages](imagick.mosaicimages.md)():
@@ -641,18 +641,18 @@ public [motionBlurImage](imagick.motionblurimage.md)(
 float `$radius`,
 float `$sigma`,
 float `$angle`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [negateImage](imagick.negateimage.md)(bool `$gray`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [newImage](imagick.newimage.md)(
 int `$cols`,
 int `$rows`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$background`,
-string `$format` u003d ?
+string `$format` = ?
 ): bool
 
 public [newPseudoImage](imagick.newpseudoimage.md)(int `$columns`, int
@@ -660,7 +660,7 @@ public [newPseudoImage](imagick.newpseudoimage.md)(int `$columns`, int
 
 public [nextImage](imagick.nextimage.md)(): bool
 
-public [normalizeImage](imagick.normalizeimage.md)(int `$channel` u003d
+public [normalizeImage](imagick.normalizeimage.md)(int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [oilPaintImage](imagick.oilpaintimage.md)(float `$radius`):
@@ -673,14 +673,14 @@ public [opaquePaintImage](imagick.opaquepaintimage.md)(
 `$fill`,
 float `$fuzz`,
 bool `$invert`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [optimizeImageLayers](imagick.optimizeimagelayers.md)(): bool
 
 public
 [orderedPosterizeImage](imagick.orderedposterizeimage.md)(string
-`$threshold_map`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$threshold_map`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [paintFloodfillImage](imagick.paintfloodfillimage.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -690,7 +690,7 @@ float `$fuzz`,
 $bordercolor,
 int `$x`,
 int `$y`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [paintOpaqueImage](imagick.paintopaqueimage.md)(
@@ -699,7 +699,7 @@ public [paintOpaqueImage](imagick.paintopaqueimage.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fill`,
 float `$fuzz`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public
@@ -712,7 +712,7 @@ public [pingImageBlob](imagick.pingimageblob.md)(string `$image`):
 bool
 
 public [pingImageFile](imagick.pingimagefile.md)(resource
-`$filehandle`, string `$fileName` u003d ?): bool
+`$filehandle`, string `$fileName` = ?): bool
 
 public
 [polaroidImage](imagick.polaroidimage.md)([ImagickDraw](class.imagickdraw.md)
@@ -746,16 +746,16 @@ bool `$ measureError`
 
 public
 [queryFontMetrics](imagick.queryfontmetrics.md)([ImagickDraw](class.imagickdraw.md)
-`$properties`, string `$text`, bool `$multiline` u003d ?): array
+`$properties`, string `$text`, bool `$multiline` = ?): array
 
-public static [queryFonts](imagick.queryfonts.md)(string `$pattern` u003d
+public static [queryFonts](imagick.queryfonts.md)(string `$pattern` =
 "\*"): array
 
 public static [queryFormats](imagick.queryformats.md)(string
-`$pattern` u003d "\*"): array
+`$pattern` = "\*"): array
 
 public [radialBlurImage](imagick.radialblurimage.md)(float `$angle`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [raiseImage](imagick.raiseimage.md)(
 int `$width`,
@@ -766,15 +766,15 @@ bool `$raise`
 ): bool
 
 public [randomThresholdImage](imagick.randomthresholdimage.md)(float
-`$low`, float `$high`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$low`, float `$high`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [readImage](imagick.readimage.md)(string $filename`): bool
 
 public [readImageBlob](imagick.readimageblob.md)(string `$image`,
-string `$filename` u003d ?): bool
+string `$filename` = ?): bool
 
 public [readImageFile](imagick.readimagefile.md)(resource
-`$filehandle`, string `$fileName` u003d **`null`**): bool
+`$filehandle`, string `$fileName` = **`null`**): bool
 
 public [readImages](imagick.readimages.md)(array `$filenames`): bool
 
@@ -809,8 +809,8 @@ int `$columns`,
 int `$rows`,
 int `$filter`,
 float `$blur`,
-bool `$bestfit` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 public [rollImage](imagick.rollimage.md)(int `$x`, int `$y`): bool
@@ -820,14 +820,14 @@ public
 `$background`, float `$degrees`): bool
 
 public [rotationalBlurImage](imagick.rotationalblurimage.md)(float
-`$angle`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$angle`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [roundCorners](imagick.roundcorners.md)(
 float `$x_rounding`,
 float `$y_rounding`,
-float `$stroke_width` u003d 10,
-float `$displace` u003d 5,
-float `$size_correction` u003d -6
+float `$stroke_width` = 10,
+float `$displace` = 5,
+float `$size_correction` = -6
 ): bool
 
 public [sampleImage](imagick.sampleimage.md)(int `$columns`, int
@@ -836,22 +836,22 @@ public [sampleImage](imagick.sampleimage.md)(int `$columns`, int
 public [scaleImage](imagick.scaleimage.md)(
 int `$cols`,
 int `$rows`,
-bool `$bestfit` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 public [segmentImage](imagick.segmentimage.md)(
 int `$COLORSPACE`,
 float `$cluster_threshold`,
 float `$smooth_threshold`,
-bool `$verbose` u003d **`false`**
+bool `$verbose` = **`false`**
 ): bool
 
 public [selectiveBlurImage](imagick.selectiveblurimage.md)(
 float `$radius`,
 float `$sigma`,
 float `$threshold`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [separateImageChannel](imagick.separateimagechannel.md)(int
@@ -1079,7 +1079,7 @@ int `$y`
 ): bool
 
 public [sharpenImage](imagick.sharpenimage.md)(float `$radius`, float
-`$sigma`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$sigma`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [shaveImage](imagick.shaveimage.md)(int `$columns`, int
 `$rows`): bool
@@ -1092,7 +1092,7 @@ public [sigmoidalContrastImage](imagick.sigmoidalcontrastimage.md)(
 bool `$sharpen`,
 float `$alpha`,
 float `$beta`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [sketchImage](imagick.sketchimage.md)(float `$radius`, float
@@ -1105,7 +1105,7 @@ public [solarizeImage](imagick.solarizeimage.md)(int `$threshold`):
 bool
 
 public [sparseColorImage](imagick.sparsecolorimage.md)(int
-`$SPARSE_METHOD`, array `$arguments`, int `$channel` u003d
+`$SPARSE_METHOD`, array `$arguments`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 public [spliceImage](imagick.spliceimage.md)(
@@ -1121,7 +1121,7 @@ public [statisticImage](imagick.statisticimage.md)(
 int `$type`,
 int `$width`,
 int `$height`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public
@@ -1136,7 +1136,7 @@ public [stripImage](imagick.stripimage.md)(): bool
 
 public
 [subImageMatch](imagick.subimagematch.md)([Imagick](class.imagick.md)
-`$Imagick`, array `&$offset` u003d ?, float `&$similarity` u003d ?):
+`$Imagick`, array `&$offset` = ?, float `&$similarity` = ?):
 [Imagick](class.imagick.md)
 
 [swirlImage](imagick.swirlimage.md)(float `$degrees`): bool
@@ -1145,21 +1145,21 @@ public
 `$texture_wand`): [Imagick](class.imagick.md)
 
 public [thresholdImage](imagick.thresholdimage.md)(float `$threshold`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 public [thumbnailImage](imagick.thumbnailimage.md)(
 int `$columns`,
 int `$rows`,
-bool `$bestfit` u003d **`false`**,
-bool `$fill` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$fill` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 public
 [tintImage](imagick.tintimage.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$tint`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$opacity`, bool `$legacy` u003d **`false`**): bool
+`$opacity`, bool `$legacy` = **`false`**): bool
 
 public [\_\_toString](imagick.tostring.md)(): string
 
@@ -1191,7 +1191,7 @@ float `$radius`,
 float `$sigma`,
 float `$amount`,
 float `$threshold`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 public [valid](imagick.valid.md)(): bool
@@ -1210,17 +1210,17 @@ public
 [whiteThresholdImage](imagick.whitethresholdimage.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$threshold`): bool
 
-public [writeImage](imagick.writeimage.md)(string `$filename` u003d NULL):
+public [writeImage](imagick.writeimage.md)(string `$filename` = NULL):
 bool
 
 public [writeImageFile](imagick.writeimagefile.md)(resource
-`$filehandle`, string `$format` u003d ?): bool
+`$filehandle`, string `$format` = ?): bool
 
 public [writeImages](imagick.writeimages.md)(string `$filename`, bool
 `$adjoin`): bool
 
 public [writeImagesFile](imagick.writeimagesfile.md)(resource
-`$filehandle`, string `$format` u003d ?): bool
+`$filehandle`, string `$format` = ?): bool
 
 }
 
@@ -1240,106 +1240,106 @@ Image для позначення того, що вони впливають л�
 Тут наведено список найбільш використовуваних методів, об'єднаних у
 групи за призначенням:
 
-| Ефекти зображення                                                      | Методи одержання                                                               | Методи встановлення Читання/записування зображень                              | Інші                                                       |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
-| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md)           | [Imagick::getCompression()](imagick.getcompression.md)                         | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.md)                 | [Imagick::\_\_construct()](imagick.construct.md)           | [Imagick::clear()](imagick.clear.md)
-| [Imagick::adaptiveResizeImage()](imagick.adaptiveresizeimage.md)       | [Imagick::getFilename()](imagick.getfilename.md)                               | [Imagick::setCompressionQuality()](imagick.setcompressionquality.md)           | [Imagick::addImage()](imagick.addimage.md)                 | [Imagick::clone()](imagick.clone.md)
-| [Imagick::adaptiveSharpenImage()](imagick.adaptivesharpenimage.md)     | [Imagick::getFormat()](imagick.getformat.md)                                   | [Imagick::setCompression()](imagick.setcompression.md)                         | [Imagick::appendImages()](imagick.appendimages.md)         | [Imagick::current()](imagick.current.md)
-| [Imagick::adaptiveThresholdImage()](imagick.adaptivethresholdimage.md) | [Imagick::getImageBackgroundColor()](imagick.getimagebackgroundcolor.md)       | [Imagick::setFilename()](imagick.setfilename.md)                               | [Imagick::getFilename()](imagick.getfilename.md)           | [Imagick::destroy()](imagick.destroy.md)
-| [Imagick::addNoiseImage()](imagick.addnoiseimage.md)                   | [Imagick::getImageBlob()](imagick.getimageblob.md)                             | [Imagick::getImagesBlob()](imagick.getimagesblob.md)                           | [Imagick::setFormat()](imagick.setformat.md)               | [Imagick::getFormat()](imagick.getformat.md)
-| [Imagick::affinetransformimage()](imagick.affinetransformimage.md)     | [Imagick::getImageBluePrimary()](imagick.getimageblueprimary.md)               | [Imagick::setImageBackgroundColor()](imagick.setimagebackgroundcolor.md)       | [Imagick::getImageFilename()](imagick.getimagefilename.md) | [Imagick::getHomeURL()](imagick.gethomeurl.md)
-| [Imagick::annotateImage()](imagick.annotateimage.md)                   | [Imagick::getImageBorderColor()](imagick.getimagebordercolor.md)               | [Imagick::setFirstIterator()](imagick.setfirstiterator.md)                     | [Imagick::getImageFormat()](imagick.getimageformat.md)     | [Imagick::commentImage()](imagick.commentimage.md)
-| [Imagick::averageImages()](imagick.averageimages.md)                   | [Imagick::getImageChannelDepth()](imagick.getimagechanneldepth.md)             | [Imagick::setImageBias()](imagick.setimagebias.md)                             | [Imagick::getImage()](imagick.getimage.md)                 | [Imagick::getNumberImages()](imagick.getnumberimages.md)
-| [Imagick::blackThresholdImage()](imagick.blackthresholdimage.md)       | [Imagick::getImageChannelDistortion()](imagick.getimagechanneldistortion.md)   | [Imagick::setImageBluePrimary()](imagick.setimageblueprimary.md)               | [Imagick::setImageFilename()](imagick.setimagefilename.md) | [Imagick::getReleaseDate()](imagick.getreleasedate.md)
-| [Imagick::blurImage()](imagick.blurimage.md)                           | [Imagick::getImageChannelExtrema()](imagick.getimagechannelextrema.md)         | [Imagick::setImageBorderColor()](imagick.setimagebordercolor.md)               | [Imagick::setImageFormat()](imagick.setimageformat.md)     | [Imagick::getVersion()](imagick.getversion.md)
-| [Imagick::borderImage()](imagick.borderimage.md)                       | [Imagick::getImageChannelMean()](imagick.getimagechannelmean.md)               | [Imagick::setImageChannelDepth()](imagick.setimagechanneldepth.md)             | [Imagick::readImageFile()](imagick.readimagefile.md)       | [Imagick::hasNextImage()](imagick.hasnextimage.md)
-| [Imagick::charcoalImage()](imagick.charcoalimage.md)                   | [Imagick::getImageChannelStatistics()](imagick.getimagechannelstatistics.md)   | [Imagick::setImageColormapColor()](imagick.setimagecolormapcolor.md)           | [Imagick::readImage()](imagick.readimage.md)               | [Imagick::hasPreviousImage()](imagick.haspreviousimage.md)
-| [Imagick::chopImage()](imagick.chopimage.md)                           | [Imagick::getImageColormapColor()](imagick.getimagecolormapcolor.md)           | [Imagick::setImageColorSpace()](imagick.setimagecolorspace.md)                 | [Imagick::writeImages()](imagick.writeimages.md)           | [Imagick::labelImage()](imagick.labelimage.md)
-| [Imagick::clipImage()](imagick.clipimage.md)                           | [Imagick::getImageColorspace()](imagick.getimagecolorspace.md)                 | [Imagick::setImageCompose()](imagick.setimagecompose.md)                       | [Imagick::writeImage()](imagick.writeimage.md)             | [Imagick::newImage()](imagick.newimage.md)
-| [Imagick::clipPathImage()](imagick.clippathimage.md)                   | [Imagick::getImageColors()](imagick.getimagecolors.md)                         | [Imagick::setImageCompression()](imagick.setimagecompression.md)               |                                                            | [Imagick::newPseudoImage()](imagick.newpseudoimage.md)
-| [Imagick::coalesceImages()](imagick.coalesceimages.md)                 | [Imagick::getImageCompose()](imagick.getimagecompose.md)                       | [Imagick::setImageDelay()](imagick.setimagedelay.md)                           |                                                            | [Imagick::nextImage()](imagick.nextimage.md)
-| [Imagick::colorFloodFillImage()](imagick.colorfloodfillimage.md)       | [Imagick::getImageDelay()](imagick.getimagedelay.md)                           | [Imagick::setImageDepth()](imagick.setimagedepth.md)                           |                                                            | [Imagick::pingImageBlob()](imagick.pingimageblob.md)
-| [Imagick::colorizeImage()](imagick.colorizeimage.md)                   | [Imagick::getImageDepth()](imagick.getimagedepth.md)                           | [Imagick::setImageDispose()](imagick.setimagedispose.md)                       |                                                            | [Imagick::pingImageFile()](imagick.pingimagefile.md)
-| [Imagick::combineImages()](imagick.combineimages.md)                   | [Imagick::getImageDispose()](imagick.getimagedispose.md)                       | [Imagick::setImageDispose()](imagick.setimagedispose.md)                       |                                                            | [Imagick::pingImage()](imagick.pingimage.md)
-| [Imagick::compareImageChannels()](imagick.compareimagechannels.md)     | [Imagick::getImageDistortion()](imagick.getimagedistortion.md)                 | [Imagick::setImageExtent()](imagick.setimageextent.md)                         |                                                            | [Imagick::previousImage()](imagick.previousimage.md)
-| [Imagick::compareImageLayers()](imagick.compareimagelayers.md)         | [Imagick::getImageExtrema()](imagick.getimageextrema.md)                       | [Imagick::setImageFilename()](imagick.setimagefilename.md)                     |                                                            | [Imagick::profileImage()](imagick.profileimage.md)
-| [Imagick::compositeImage()](imagick.compositeimage.md)                 | [Imagick::getImageFilename()](imagick.getimagefilename.md)                     | [Imagick::setImageFormat()](imagick.setimageformat.md)                         |                                                            | [Imagick::queryFormats()](imagick.queryformats.md)
-| [Imagick::contrastImage()](imagick.contrastimage.md)                   | [Imagick::getImageFormat()](imagick.getimageformat.md)                         | [Imagick::setImageGamma()](imagick.setimagegamma.md)                           |                                                            | [Imagick::removeImageProfile()](imagick.removeimageprofile.md)
-| [Imagick::contrastStretchImage()](imagick.contraststretchimage.md)     | [Imagick::getImageGamma()](imagick.getimagegamma.md)                           | [Imagick::setImageGreenPrimary()](imagick.setimagegreenprimary.md)             |                                                            | [Imagick::removeImage()](imagick.removeimage.md)
-| [Imagick::convolveImage()](imagick.convolveimage.md)                   | [Imagick::getImageGeometry()](imagick.getimagegeometry.md)                     | [Imagick::setImageIndex()](imagick.setimageindex.md)                           |                                                            | [Imagick::setFirstIterator()](imagick.setfirstiterator.md)
-| [Imagick::cropImage()](imagick.cropimage.md)                           | [Imagick::getImageGreenPrimary()](imagick.getimagegreenprimary.md)             | [Imagick::setImageInterpolateMethod()](imagick.setimageinterpolatemethod.md)   |                                                            | [Imagick::setImageIndex()](imagick.setimageindex.md)
-| [Imagick::cycleColormapImage()](imagick.cyclecolormapimage.md)         | [Imagick::getImageHeight()](imagick.getimageheight.md)                         | [Imagick::setImageIterations()](imagick.setimageiterations.md)                 |                                                            | [Imagick::valid()](imagick.valid.md)
-| [Imagick::deconstructImages()](imagick.deconstructimages.md)           | [Imagick::getImageHistogram()](imagick.getimagehistogram.md)                   | [Imagick::setImageMatteColor()](imagick.setimagemattecolor.md)                 |                                                            | [Imagick::getCopyright()](imagick.getcopyright.md)
-| [Imagick::drawImage()](imagick.drawimage.md)                           | [Imagick::getImageIndex()](imagick.getimageindex.md)                           | [Imagick::setImageMatte()](imagick.setimagematte.md)                           |                                                            |
-| [Imagick::edgeImage()](imagick.edgeimage.md)                           | [Imagick::getImageInterlaceScheme()](imagick.getimageinterlacescheme.md)       | [Imagick::setImagePage()](imagick.setimagepage.md)                             |                                                            |
-| [Imagick::embossImage()](imagick.embossimage.md)                       | [Imagick::getImageInterpolateMethod()](imagick.getimageinterpolatemethod.md)   | [Imagick::setImageProfile()](imagick.setimageprofile.md)                       |                                                            |
-| [Imagick::enhanceImage()](imagick.enhanceimage.md)                     | [Imagick::getImageIterations()](imagick.getimageiterations.md)                 | [Imagick::setImageProperty()](imagick.setimageproperty.md)                     |                                                            |
-| [Imagick::equalizeImage()](imagick.equalizeimage.md)                   | [Imagick::getImageMatteColor()](imagick.getimagemattecolor.md)                 | [Imagick::setImageRedPrimary()](imagick.setimageredprimary.md)                 |                                                            |
-| [Imagick::evaluateImage()](imagick.evaluateimage.md)                   | [Imagick::getImageMatte()](imagick.getimagematte.md)                           | [Imagick::setImageRenderingIntent()](imagick.setimagerenderingintent.md)       |                                                            |
-| [Imagick::flattenImages()](imagick.flattenimages.md)                   | [Imagick::getImagePage()](imagick.getimagepage.md)                             | [Imagick::setImageResolution()](imagick.setimageresolution.md)                 |                                                            |
-| [Imagick::flipImage()](imagick.flipimage.md)                           | [Imagick::getImagePixelColor()](imagick.getimagepixelcolor.md)                 | [Imagick::setImageScene()](imagick.setimagescene.md)                           |                                                            |
-| [Imagick::flopImage()](imagick.flopimage.md)                           | [Imagick::getImageProfile()](imagick.getimageprofile.md)                       | [Imagick::setImageTicksPerSecond()](imagick.setimagetickspersecond.md)         |                                                            |
-|                                                                        | [Imagick::getImageProperty()](imagick.getimageproperty.md)                     | [Imagick::setImageType()](imagick.setimagetype.md)                             |                                                            |
-| [Imagick::fxImage()](imagick.fximage.md)                               | [Imagick::getImageRedPrimary()](imagick.getimageredprimary.md)                 | [Imagick::setImageUnits()](imagick.setimageunits.md)                           |                                                            |
-| [Imagick::gammaImage()](imagick.gammaimage.md)                         | [Imagick::getImageRegion()](imagick.getimageregion.md)                         | [Imagick::setImageVirtualPixelMethod()](imagick.setimagevirtualpixelmethod.md) |                                                            |
-| [Imagick::gaussianBlurImage()](imagick.gaussianblurimage.md)           | [Imagick::getImageRenderingIntent()](imagick.getimagerenderingintent.md)       | [Imagick::setImageWhitepoint()](imagick.setimagewhitepoint.md)                 |                                                            |
-| [Imagick::implodeImage()](imagick.implodeimage.md)                     | [Imagick::getImageResolution()](imagick.getimageresolution.md)                 | [Imagick::setInterlaceScheme()](imagick.setinterlacescheme.md)                 |                                                            |
-| [Imagick::levelImage()](imagick.levelimage.md)                         | [Imagick::getImageScene()](imagick.getimagescene.md)                           | [Imagick::setOption()](imagick.setoption.md)                                   |                                                            |
-| [Imagick::linearStretchImage()](imagick.linearstretchimage.md)         | [Imagick::getImageSignature()](imagick.getimagesignature.md)                   | [Imagick::setPage()](imagick.setpage.md)                                       |                                                            |
-| [Imagick::magnifyImage()](imagick.magnifyimage.md)                     | [Imagick::getImageTicksPerSecond()](imagick.getimagetickspersecond.md)         | [Imagick::setResolution()](imagick.setresolution.md)                           |                                                            |
-| [Imagick::matteFloodFillImage()](imagick.mattefloodfillimage.md)       | [Imagick::getImageTotalInkDensity()](imagick.getimagetotalinkdensity.md)       | [Imagick::setResourceLimit()](imagick.setresourcelimit.md)                     |                                                            |
-| [Imagick::medianFilterImage()](imagick.medianfilterimage.md)           | [Imagick::getImageType()](imagick.getimagetype.md)                             | [Imagick::setSamplingFactors()](imagick.setsamplingfactors.md)                 |                                                            |
-| [Imagick::minifyImage()](imagick.minifyimage.md)                       | [Imagick::getImageUnits()](imagick.getimageunits.md)                           | [Imagick::setSizeOffset()](imagick.setsizeoffset.md)                           |                                                            |
-| [Imagick::modulateImage()](imagick.modulateimage.md)                   | [Imagick::getImageVirtualPixelMethod()](imagick.getimagevirtualpixelmethod.md) | [Imagick::setSize()](imagick.setsize.md)                                       |                                                            |
-| [Imagick::montageImage()](imagick.montageimage.md)                     | [Imagick::getImageWhitepoint()](imagick.getimagewhitepoint.md)                 | [Imagick::setType()](imagick.settype.md)                                       |                                                            |
-| [Imagick::morphImages()](imagick.morphimages.md)                       | [Imagick::getImageWidth()](imagick.getimagewidth.md)                           |                                                                                |                                                            |
-| [Imagick::mosaicImages()](imagick.mosaicimages.md)                     | [Imagick::getImage()](imagick.getimage.md)                                     |                                                                                |                                                            |
-| [Imagick::motionBlurImage()](imagick.motionblurimage.md)               | [Imagick::getInterlaceScheme()](imagick.getinterlacescheme.md)                 |                                                                                |                                                            |
-| [Imagick::negateImage()](imagick.negateimage.md)                       | [Imagick::getNumberImages()](imagick.getnumberimages.md)                       |                                                                                |                                                            |
-| [Imagick::normalizeImage()](imagick.normalizeimage.md)                 | [Imagick::getOption()](imagick.getoption.md)                                   |                                                                                |                                                            |
-| [Imagick::oilPaintImage()](imagick.oilpaintimage.md)                   | [Imagick::getPackageName()](imagick.getpackagename.md)                         |                                                                                |                                                            |
-| [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md)       | [Imagick::getPage()](imagick.getpage.md)                                       |                                                                                |                                                            |
-| [Imagick::paintOpaqueImage()](imagick.paintopaqueimage.md)             | [Imagick::getPixelIterator()](imagick.getpixeliterator.md)                     |                                                                                |                                                            |
-| [Imagick::paintTransparentImage()](imagick.painttransparentimage.md)   | [Imagick::getPixelRegionIterator()](imagick.getpixelregioniterator.md)         |                                                                                |                                                            |
-| [Imagick::posterizeImage()](imagick.posterizeimage.md)                 | [Imagick::getQuantumDepth()](imagick.getquantumdepth.md)                       |                                                                                |                                                            |
-| [Imagick::radialBlurImage()](imagick.radialblurimage.md)               | [Imagick::getQuantumRange()](imagick.getquantumrange.md)                       |                                                                                |                                                            |
-| [Imagick::raiseImage()](imagick.raiseimage.md)                         | [Imagick::getResourceLimit()](imagick.getresourcelimit.md)                     |                                                                                |                                                            |
-| [Imagick::randomThresholdImage()](imagick.randomthresholdimage.md)     | [Imagick::getResource()](imagick.getresource.md)                               |                                                                                |                                                            |
-| [Imagick::reduceNoiseImage()](imagick.reducenoiseimage.md)             | [Imagick::getSamplingFactors()](imagick.getsamplingfactors.md)                 |                                                                                |                                                            |
-| [Imagick::render()](imagick.render.md)                                 | [Imagick::getSizeOffset()](imagick.getsizeoffset.md)                           |                                                                                |                                                            |
-| [Imagick::resampleImage()](imagick.resampleimage.md)                   | [Imagick::getSize()](imagick.getsize.md)                                       |                                                                                |                                                            |
-| [Imagick::resizeImage()](imagick.resizeimage.md)                       | [Imagick::identifyImage()](imagick.identifyimage.md)                           |                                                                                |                                                            |
-| [Imagick::rollImage()](imagick.rollimage.md)                           | [Imagick::getImageSize()](imagick.getimagesize.md)                             |                                                                                |                                                            |
-| [Imagick::rotateImage()](imagick.rotateimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::sampleImage()](imagick.sampleimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::scaleImage()](imagick.scaleimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::separateImageChannel()](imagick.separateimagechannel.md)     |                                                                                |                                                                                |                                                            |
-| [Imagick::sepiaToneImage()](imagick.sepiatoneimage.md)                 |                                                                                |                                                                                |                                                            |
-| [Imagick::shadeImage()](imagick.shadeimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::shadowImage()](imagick.shadowimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::sharpenImage()](imagick.sharpenimage.md)                     |                                                                                |                                                                                |                                                            |
-| [Imagick::shaveImage()](imagick.shaveimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::shearImage()](imagick.shearimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::sigmoidalContrastImage()](imagick.sigmoidalContrastimage.md) |                                                                                |                                                                                |                                                            |
-| [Imagick::sketchImage()](imagick.sketchimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::solarizeImage()](imagick.solarizeimage.md)                   |                                                                                |                                                                                |                                                            |
-| [Imagick::spliceImage()](imagick.spliceimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::spreadImage()](imagick.spreadimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::steganoImage()](imagick.steganoimage.md)                     |                                                                                |                                                                                |                                                            |
-| [Imagick::stereoImage()](imagick.stereoimage.md)                       |                                                                                |                                                                                |                                                            |
-| [Imagick::stripImage()](imagick.stripimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::swirlImage()](imagick.swirlimage.md)                         |                                                                                |                                                                                |                                                            |
-| [Imagick::textureImage()](imagick.textureimage.md)                     |                                                                                |                                                                                |                                                            |
-| [Imagick::thresholdImage()](imagick.thresholdimage.md)                 |                                                                                |                                                                                |                                                            |
-| [Imagick::thumbnailImage()](imagick.thumbnailimage.md)                 |                                                                                |                                                                                |                                                            |
-| [Imagick::tintImage()](imagick.tintimage.md)                           |                                                                                |                                                                                |                                                            |
-| [Imagick::transverseImage()](imagick.transverseimage.md)               |                                                                                |                                                                                |                                                            |
-| [Imagick::trimImage()](imagick.trimimage.md)                           |                                                                                |                                                                                |                                                            |
-| [Imagick::uniqueImageColors()](imagick.uniqueimagecolors.md)           |                                                                                |                                                                                |                                                            |
-| [Imagick::unsharpMaskImage()](imagick.unsharpmaskimage.md)             |                                                                                |                                                                                |                                                            |
-| [Imagick::vignetteImage()](imagick.vignetteimage.md)                   |                                                                                |                                                                                |                                                            |
-| [Imagick::waveImage()](imagick.waveimage.md)                           |                                                                                |                                                                                |                                                            |
-| [Imagick::whiteThresholdImage()](imagick.whitethresholdimage.md)       |                                                                                |                                                                                |                                                            |
+| Ефекти зображення                                                      | Методи одержання                                                               | Методи встановлення Читання/записування зображень                              | Інші                                                       |                                                                |
+|------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------|----------------------------------------------------------------|
+| [Imagick::adaptiveBlurImage()](imagick.adaptiveblurimage.md)           | [Imagick::getCompression()](imagick.getcompression.md)                         | [Imagick::setBackgroundColor()](imagick.setbackgroundcolor.md)                 | [Imagick::\_\_construct()](imagick.construct.md)           | [Imagick::clear()](imagick.clear.md)                           |
+| [Imagick::adaptiveResizeImage()](imagick.adaptiveresizeimage.md)       | [Imagick::getFilename()](imagick.getfilename.md)                               | [Imagick::setCompressionQuality()](imagick.setcompressionquality.md)           | [Imagick::addImage()](imagick.addimage.md)                 | [Imagick::clone()](imagick.clone.md)                           |
+| [Imagick::adaptiveSharpenImage()](imagick.adaptivesharpenimage.md)     | [Imagick::getFormat()](imagick.getformat.md)                                   | [Imagick::setCompression()](imagick.setcompression.md)                         | [Imagick::appendImages()](imagick.appendimages.md)         | [Imagick::current()](imagick.current.md)                       |
+| [Imagick::adaptiveThresholdImage()](imagick.adaptivethresholdimage.md) | [Imagick::getImageBackgroundColor()](imagick.getimagebackgroundcolor.md)       | [Imagick::setFilename()](imagick.setfilename.md)                               | [Imagick::getFilename()](imagick.getfilename.md)           | [Imagick::destroy()](imagick.destroy.md)                       |
+| [Imagick::addNoiseImage()](imagick.addnoiseimage.md)                   | [Imagick::getImageBlob()](imagick.getimageblob.md)                             | [Imagick::getImagesBlob()](imagick.getimagesblob.md)                           | [Imagick::setFormat()](imagick.setformat.md)               | [Imagick::getFormat()](imagick.getformat.md)                   |
+| [Imagick::affinetransformimage()](imagick.affinetransformimage.md)     | [Imagick::getImageBluePrimary()](imagick.getimageblueprimary.md)               | [Imagick::setImageBackgroundColor()](imagick.setimagebackgroundcolor.md)       | [Imagick::getImageFilename()](imagick.getimagefilename.md) | [Imagick::getHomeURL()](imagick.gethomeurl.md)                 |
+| [Imagick::annotateImage()](imagick.annotateimage.md)                   | [Imagick::getImageBorderColor()](imagick.getimagebordercolor.md)               | [Imagick::setFirstIterator()](imagick.setfirstiterator.md)                     | [Imagick::getImageFormat()](imagick.getimageformat.md)     | [Imagick::commentImage()](imagick.commentimage.md)             |
+| [Imagick::averageImages()](imagick.averageimages.md)                   | [Imagick::getImageChannelDepth()](imagick.getimagechanneldepth.md)             | [Imagick::setImageBias()](imagick.setimagebias.md)                             | [Imagick::getImage()](imagick.getimage.md)                 | [Imagick::getNumberImages()](imagick.getnumberimages.md)       |
+| [Imagick::blackThresholdImage()](imagick.blackthresholdimage.md)       | [Imagick::getImageChannelDistortion()](imagick.getimagechanneldistortion.md)   | [Imagick::setImageBluePrimary()](imagick.setimageblueprimary.md)               | [Imagick::setImageFilename()](imagick.setimagefilename.md) | [Imagick::getReleaseDate()](imagick.getreleasedate.md)         |
+| [Imagick::blurImage()](imagick.blurimage.md)                           | [Imagick::getImageChannelExtrema()](imagick.getimagechannelextrema.md)         | [Imagick::setImageBorderColor()](imagick.setimagebordercolor.md)               | [Imagick::setImageFormat()](imagick.setimageformat.md)     | [Imagick::getVersion()](imagick.getversion.md)                 |
+| [Imagick::borderImage()](imagick.borderimage.md)                       | [Imagick::getImageChannelMean()](imagick.getimagechannelmean.md)               | [Imagick::setImageChannelDepth()](imagick.setimagechanneldepth.md)             | [Imagick::readImageFile()](imagick.readimagefile.md)       | [Imagick::hasNextImage()](imagick.hasnextimage.md)             |
+| [Imagick::charcoalImage()](imagick.charcoalimage.md)                   | [Imagick::getImageChannelStatistics()](imagick.getimagechannelstatistics.md)   | [Imagick::setImageColormapColor()](imagick.setimagecolormapcolor.md)           | [Imagick::readImage()](imagick.readimage.md)               | [Imagick::hasPreviousImage()](imagick.haspreviousimage.md)     |
+| [Imagick::chopImage()](imagick.chopimage.md)                           | [Imagick::getImageColormapColor()](imagick.getimagecolormapcolor.md)           | [Imagick::setImageColorSpace()](imagick.setimagecolorspace.md)                 | [Imagick::writeImages()](imagick.writeimages.md)           | [Imagick::labelImage()](imagick.labelimage.md)                 |
+| [Imagick::clipImage()](imagick.clipimage.md)                           | [Imagick::getImageColorspace()](imagick.getimagecolorspace.md)                 | [Imagick::setImageCompose()](imagick.setimagecompose.md)                       | [Imagick::writeImage()](imagick.writeimage.md)             | [Imagick::newImage()](imagick.newimage.md)                     |
+| [Imagick::clipPathImage()](imagick.clippathimage.md)                   | [Imagick::getImageColors()](imagick.getimagecolors.md)                         | [Imagick::setImageCompression()](imagick.setimagecompression.md)               |                                                            | [Imagick::newPseudoImage()](imagick.newpseudoimage.md)         |
+| [Imagick::coalesceImages()](imagick.coalesceimages.md)                 | [Imagick::getImageCompose()](imagick.getimagecompose.md)                       | [Imagick::setImageDelay()](imagick.setimagedelay.md)                           |                                                            | [Imagick::nextImage()](imagick.nextimage.md)                   |
+| [Imagick::colorFloodFillImage()](imagick.colorfloodfillimage.md)       | [Imagick::getImageDelay()](imagick.getimagedelay.md)                           | [Imagick::setImageDepth()](imagick.setimagedepth.md)                           |                                                            | [Imagick::pingImageBlob()](imagick.pingimageblob.md)           |
+| [Imagick::colorizeImage()](imagick.colorizeimage.md)                   | [Imagick::getImageDepth()](imagick.getimagedepth.md)                           | [Imagick::setImageDispose()](imagick.setimagedispose.md)                       |                                                            | [Imagick::pingImageFile()](imagick.pingimagefile.md)           |
+| [Imagick::combineImages()](imagick.combineimages.md)                   | [Imagick::getImageDispose()](imagick.getimagedispose.md)                       | [Imagick::setImageDispose()](imagick.setimagedispose.md)                       |                                                            | [Imagick::pingImage()](imagick.pingimage.md)                   |
+| [Imagick::compareImageChannels()](imagick.compareimagechannels.md)     | [Imagick::getImageDistortion()](imagick.getimagedistortion.md)                 | [Imagick::setImageExtent()](imagick.setimageextent.md)                         |                                                            | [Imagick::previousImage()](imagick.previousimage.md)           |
+| [Imagick::compareImageLayers()](imagick.compareimagelayers.md)         | [Imagick::getImageExtrema()](imagick.getimageextrema.md)                       | [Imagick::setImageFilename()](imagick.setimagefilename.md)                     |                                                            | [Imagick::profileImage()](imagick.profileimage.md)             |
+| [Imagick::compositeImage()](imagick.compositeimage.md)                 | [Imagick::getImageFilename()](imagick.getimagefilename.md)                     | [Imagick::setImageFormat()](imagick.setimageformat.md)                         |                                                            | [Imagick::queryFormats()](imagick.queryformats.md)             |
+| [Imagick::contrastImage()](imagick.contrastimage.md)                   | [Imagick::getImageFormat()](imagick.getimageformat.md)                         | [Imagick::setImageGamma()](imagick.setimagegamma.md)                           |                                                            | [Imagick::removeImageProfile()](imagick.removeimageprofile.md) |
+| [Imagick::contrastStretchImage()](imagick.contraststretchimage.md)     | [Imagick::getImageGamma()](imagick.getimagegamma.md)                           | [Imagick::setImageGreenPrimary()](imagick.setimagegreenprimary.md)             |                                                            | [Imagick::removeImage()](imagick.removeimage.md)               |
+| [Imagick::convolveImage()](imagick.convolveimage.md)                   | [Imagick::getImageGeometry()](imagick.getimagegeometry.md)                     | [Imagick::setImageIndex()](imagick.setimageindex.md)                           |                                                            | [Imagick::setFirstIterator()](imagick.setfirstiterator.md)     |
+| [Imagick::cropImage()](imagick.cropimage.md)                           | [Imagick::getImageGreenPrimary()](imagick.getimagegreenprimary.md)             | [Imagick::setImageInterpolateMethod()](imagick.setimageinterpolatemethod.md)   |                                                            | [Imagick::setImageIndex()](imagick.setimageindex.md)           |
+| [Imagick::cycleColormapImage()](imagick.cyclecolormapimage.md)         | [Imagick::getImageHeight()](imagick.getimageheight.md)                         | [Imagick::setImageIterations()](imagick.setimageiterations.md)                 |                                                            | [Imagick::valid()](imagick.valid.md)                           |
+| [Imagick::deconstructImages()](imagick.deconstructimages.md)           | [Imagick::getImageHistogram()](imagick.getimagehistogram.md)                   | [Imagick::setImageMatteColor()](imagick.setimagemattecolor.md)                 |                                                            | [Imagick::getCopyright()](imagick.getcopyright.md)             |
+| [Imagick::drawImage()](imagick.drawimage.md)                           | [Imagick::getImageIndex()](imagick.getimageindex.md)                           | [Imagick::setImageMatte()](imagick.setimagematte.md)                           |                                                            |                                                                |
+| [Imagick::edgeImage()](imagick.edgeimage.md)                           | [Imagick::getImageInterlaceScheme()](imagick.getimageinterlacescheme.md)       | [Imagick::setImagePage()](imagick.setimagepage.md)                             |                                                            |                                                                |
+| [Imagick::embossImage()](imagick.embossimage.md)                       | [Imagick::getImageInterpolateMethod()](imagick.getimageinterpolatemethod.md)   | [Imagick::setImageProfile()](imagick.setimageprofile.md)                       |                                                            |                                                                |
+| [Imagick::enhanceImage()](imagick.enhanceimage.md)                     | [Imagick::getImageIterations()](imagick.getimageiterations.md)                 | [Imagick::setImageProperty()](imagick.setimageproperty.md)                     |                                                            |                                                                |
+| [Imagick::equalizeImage()](imagick.equalizeimage.md)                   | [Imagick::getImageMatteColor()](imagick.getimagemattecolor.md)                 | [Imagick::setImageRedPrimary()](imagick.setimageredprimary.md)                 |                                                            |                                                                |
+| [Imagick::evaluateImage()](imagick.evaluateimage.md)                   | [Imagick::getImageMatte()](imagick.getimagematte.md)                           | [Imagick::setImageRenderingIntent()](imagick.setimagerenderingintent.md)       |                                                            |                                                                |
+| [Imagick::flattenImages()](imagick.flattenimages.md)                   | [Imagick::getImagePage()](imagick.getimagepage.md)                             | [Imagick::setImageResolution()](imagick.setimageresolution.md)                 |                                                            |                                                                |
+| [Imagick::flipImage()](imagick.flipimage.md)                           | [Imagick::getImagePixelColor()](imagick.getimagepixelcolor.md)                 | [Imagick::setImageScene()](imagick.setimagescene.md)                           |                                                            |                                                                |
+| [Imagick::flopImage()](imagick.flopimage.md)                           | [Imagick::getImageProfile()](imagick.getimageprofile.md)                       | [Imagick::setImageTicksPerSecond()](imagick.setimagetickspersecond.md)         |                                                            |                                                                |
+|                                                                        | [Imagick::getImageProperty()](imagick.getimageproperty.md)                     | [Imagick::setImageType()](imagick.setimagetype.md)                             |                                                            |                                                                |
+| [Imagick::fxImage()](imagick.fximage.md)                               | [Imagick::getImageRedPrimary()](imagick.getimageredprimary.md)                 | [Imagick::setImageUnits()](imagick.setimageunits.md)                           |                                                            |                                                                |
+| [Imagick::gammaImage()](imagick.gammaimage.md)                         | [Imagick::getImageRegion()](imagick.getimageregion.md)                         | [Imagick::setImageVirtualPixelMethod()](imagick.setimagevirtualpixelmethod.md) |                                                            |                                                                |
+| [Imagick::gaussianBlurImage()](imagick.gaussianblurimage.md)           | [Imagick::getImageRenderingIntent()](imagick.getimagerenderingintent.md)       | [Imagick::setImageWhitepoint()](imagick.setimagewhitepoint.md)                 |                                                            |                                                                |
+| [Imagick::implodeImage()](imagick.implodeimage.md)                     | [Imagick::getImageResolution()](imagick.getimageresolution.md)                 | [Imagick::setInterlaceScheme()](imagick.setinterlacescheme.md)                 |                                                            |                                                                |
+| [Imagick::levelImage()](imagick.levelimage.md)                         | [Imagick::getImageScene()](imagick.getimagescene.md)                           | [Imagick::setOption()](imagick.setoption.md)                                   |                                                            |                                                                |
+| [Imagick::linearStretchImage()](imagick.linearstretchimage.md)         | [Imagick::getImageSignature()](imagick.getimagesignature.md)                   | [Imagick::setPage()](imagick.setpage.md)                                       |                                                            |                                                                |
+| [Imagick::magnifyImage()](imagick.magnifyimage.md)                     | [Imagick::getImageTicksPerSecond()](imagick.getimagetickspersecond.md)         | [Imagick::setResolution()](imagick.setresolution.md)                           |                                                            |                                                                |
+| [Imagick::matteFloodFillImage()](imagick.mattefloodfillimage.md)       | [Imagick::getImageTotalInkDensity()](imagick.getimagetotalinkdensity.md)       | [Imagick::setResourceLimit()](imagick.setresourcelimit.md)                     |                                                            |                                                                |
+| [Imagick::medianFilterImage()](imagick.medianfilterimage.md)           | [Imagick::getImageType()](imagick.getimagetype.md)                             | [Imagick::setSamplingFactors()](imagick.setsamplingfactors.md)                 |                                                            |                                                                |
+| [Imagick::minifyImage()](imagick.minifyimage.md)                       | [Imagick::getImageUnits()](imagick.getimageunits.md)                           | [Imagick::setSizeOffset()](imagick.setsizeoffset.md)                           |                                                            |                                                                |
+| [Imagick::modulateImage()](imagick.modulateimage.md)                   | [Imagick::getImageVirtualPixelMethod()](imagick.getimagevirtualpixelmethod.md) | [Imagick::setSize()](imagick.setsize.md)                                       |                                                            |                                                                |
+| [Imagick::montageImage()](imagick.montageimage.md)                     | [Imagick::getImageWhitepoint()](imagick.getimagewhitepoint.md)                 | [Imagick::setType()](imagick.settype.md)                                       |                                                            |                                                                |
+| [Imagick::morphImages()](imagick.morphimages.md)                       | [Imagick::getImageWidth()](imagick.getimagewidth.md)                           |                                                                                |                                                            |                                                                |
+| [Imagick::mosaicImages()](imagick.mosaicimages.md)                     | [Imagick::getImage()](imagick.getimage.md)                                     |                                                                                |                                                            |                                                                |
+| [Imagick::motionBlurImage()](imagick.motionblurimage.md)               | [Imagick::getInterlaceScheme()](imagick.getinterlacescheme.md)                 |                                                                                |                                                            |                                                                |
+| [Imagick::negateImage()](imagick.negateimage.md)                       | [Imagick::getNumberImages()](imagick.getnumberimages.md)                       |                                                                                |                                                            |                                                                |
+| [Imagick::normalizeImage()](imagick.normalizeimage.md)                 | [Imagick::getOption()](imagick.getoption.md)                                   |                                                                                |                                                            |                                                                |
+| [Imagick::oilPaintImage()](imagick.oilpaintimage.md)                   | [Imagick::getPackageName()](imagick.getpackagename.md)                         |                                                                                |                                                            |                                                                |
+| [Imagick::optimizeImageLayers()](imagick.optimizeimagelayers.md)       | [Imagick::getPage()](imagick.getpage.md)                                       |                                                                                |                                                            |                                                                |
+| [Imagick::paintOpaqueImage()](imagick.paintopaqueimage.md)             | [Imagick::getPixelIterator()](imagick.getpixeliterator.md)                     |                                                                                |                                                            |                                                                |
+| [Imagick::paintTransparentImage()](imagick.painttransparentimage.md)   | [Imagick::getPixelRegionIterator()](imagick.getpixelregioniterator.md)         |                                                                                |                                                            |                                                                |
+| [Imagick::posterizeImage()](imagick.posterizeimage.md)                 | [Imagick::getQuantumDepth()](imagick.getquantumdepth.md)                       |                                                                                |                                                            |                                                                |
+| [Imagick::radialBlurImage()](imagick.radialblurimage.md)               | [Imagick::getQuantumRange()](imagick.getquantumrange.md)                       |                                                                                |                                                            |                                                                |
+| [Imagick::raiseImage()](imagick.raiseimage.md)                         | [Imagick::getResourceLimit()](imagick.getresourcelimit.md)                     |                                                                                |                                                            |                                                                |
+| [Imagick::randomThresholdImage()](imagick.randomthresholdimage.md)     | [Imagick::getResource()](imagick.getresource.md)                               |                                                                                |                                                            |                                                                |
+| [Imagick::reduceNoiseImage()](imagick.reducenoiseimage.md)             | [Imagick::getSamplingFactors()](imagick.getsamplingfactors.md)                 |                                                                                |                                                            |                                                                |
+| [Imagick::render()](imagick.render.md)                                 | [Imagick::getSizeOffset()](imagick.getsizeoffset.md)                           |                                                                                |                                                            |                                                                |
+| [Imagick::resampleImage()](imagick.resampleimage.md)                   | [Imagick::getSize()](imagick.getsize.md)                                       |                                                                                |                                                            |                                                                |
+| [Imagick::resizeImage()](imagick.resizeimage.md)                       | [Imagick::identifyImage()](imagick.identifyimage.md)                           |                                                                                |                                                            |                                                                |
+| [Imagick::rollImage()](imagick.rollimage.md)                           | [Imagick::getImageSize()](imagick.getimagesize.md)                             |                                                                                |                                                            |                                                                |
+| [Imagick::rotateImage()](imagick.rotateimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::sampleImage()](imagick.sampleimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::scaleImage()](imagick.scaleimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::separateImageChannel()](imagick.separateimagechannel.md)     |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::sepiaToneImage()](imagick.sepiatoneimage.md)                 |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::shadeImage()](imagick.shadeimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::shadowImage()](imagick.shadowimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::sharpenImage()](imagick.sharpenimage.md)                     |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::shaveImage()](imagick.shaveimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::shearImage()](imagick.shearimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::sigmoidalContrastImage()](imagick.sigmoidalContrastimage.md) |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::sketchImage()](imagick.sketchimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::solarizeImage()](imagick.solarizeimage.md)                   |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::spliceImage()](imagick.spliceimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::spreadImage()](imagick.spreadimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::steganoImage()](imagick.steganoimage.md)                     |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::stereoImage()](imagick.stereoimage.md)                       |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::stripImage()](imagick.stripimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::swirlImage()](imagick.swirlimage.md)                         |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::textureImage()](imagick.textureimage.md)                     |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::thresholdImage()](imagick.thresholdimage.md)                 |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::thumbnailImage()](imagick.thumbnailimage.md)                 |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::tintImage()](imagick.tintimage.md)                           |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::transverseImage()](imagick.transverseimage.md)               |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::trimImage()](imagick.trimimage.md)                           |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::uniqueImageColors()](imagick.uniqueimagecolors.md)           |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::unsharpMaskImage()](imagick.unsharpmaskimage.md)             |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::vignetteImage()](imagick.vignetteimage.md)                   |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::waveImage()](imagick.waveimage.md)                           |                                                                                |                                                                                |                                                            |                                                                |
+| [Imagick::whiteThresholdImage()](imagick.whitethresholdimage.md)       |                                                                                |                                                                                |                                                            |                                                                |
 
 **Методи класу за призначенням**
 

@@ -8,7 +8,7 @@
 
 # IntlBreakIterator::createCharacterInstance
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::createCharacterInstance — Створює ітератор переривання
 для меж комбінування послідовностей символів
@@ -16,7 +16,7 @@ IntlBreakIterator::createCharacterInstance — Створює ітератор �
 ### Опис
 
 public static **IntlBreakIterator::createCharacterInstance**(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 **Увага**

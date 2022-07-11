@@ -7,7 +7,7 @@
 
 # SolrQuery::setRows
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setRows — Задає максимальну кількість рядків, що повертаються
 в результаті

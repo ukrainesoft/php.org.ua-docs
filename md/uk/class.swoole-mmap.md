@@ -7,7 +7,7 @@
 
 # Клас Swoole\Mmap
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -18,7 +18,7 @@ class **Swoole\Mmap** {
 /\* Методи \*/
 
 public static [open](swoole-mmap.open.md)(string `$filename`, string
-`$size` u003d ?, string `$offset` u003d ?): ReturnType
+`$size` = ?, string `$offset` = ?): ReturnType
 
 }
 

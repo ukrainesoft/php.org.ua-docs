@@ -7,7 +7,7 @@
 
 # Memcached::isPristine
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::isPristine — Перевіряє чи вже створено екземпляр класу
 Memcached

@@ -7,7 +7,7 @@
 
 # Клас RegexIterator
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -21,30 +21,30 @@ class **RegexIterator** extends
 
 /\* Константи \*/
 
-const int `MATCH` u003d 0;
+const int `MATCH` = 0;
 
-const int `GET_MATCH` u003d 1;
+const int `GET_MATCH` = 1;
 
-const int `ALL_MATCHES` u003d 2;
+const int `ALL_MATCHES` = 2;
 
-const int `SPLIT` u003d 3;
+const int `SPLIT` = 3;
 
-const int `REPLACE` u003d 4;
+const int `REPLACE` = 4;
 
-const int `USE_KEY` u003d 1;
+const int `USE_KEY` = 1;
 
 /\* Властивості \*/
 
-public ?string `$replacement` u003d null;
+public ?string `$replacement` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](regexiterator.construct.md)(
 [Iterator](class.iterator.md) `$iterator`,
 string `$pattern`,
-int `$mode` u003d RegexIterator::MATCH,
-int `$flags` u003d 0,
-int `$pregFlags` u003d 0
+int `$mode` = RegexIterator::MATCH,
+int `$flags` = 0,
+int `$pregFlags` = 0
 )
 
 public [accept](regexiterator.accept.md)(): bool

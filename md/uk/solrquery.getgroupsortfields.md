@@ -7,7 +7,7 @@
 
 # SolrQuery::getGroupSortFields
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::getGroupSortFields — Повертає значення group.sort
 

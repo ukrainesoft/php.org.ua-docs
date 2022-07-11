@@ -18,19 +18,19 @@ Callback-функція повинна повернути дані, які па�
 
 **Приклад #1 Приклад використання callback-функції парсингу**
 
-`<?php/** * Callback-функція парсингу для тегів yaml. * @param mixed $value Данные из файла yaml * @param string $tag Тег, для которого срабатывает функция * @param int $flags Стиль скаляра записи (смотрите YAML_*_SCALAR_STYLE) * @return mixed Значение, которое должен выдать парсер YAML */ function tag_callback ($value, $tag, $flags) { var_dump(func_get_args()); // налагодження  return "Hello {$value}";}$yaml u003d <<<YAMLgreeting: !example/hello WorldYAML;$result u003d yaml_parse($yaml, 0, $ndocs, array(  ! 'tag_callback',  ));var_dump($result);?> `
+`<?php/** * Callback-функція парсингу для тегів yaml. * @param mixed $value Данные из файла yaml * @param string $tag Тег, для которого срабатывает функция * @param int $flags Стиль скаляра записи (смотрите YAML_*_SCALAR_STYLE) * @return mixed Значение, которое должен выдать парсер YAML */ function tag_callback ($value, $tag, $flags) { var_dump(func_get_args()); // налагодження  return "Hello {$value}";}$yaml = <<<YAMLgreeting: !example/hello WorldYAML;$result = yaml_parse($yaml, 0, $ndocs, array(  ! 'tag_callback',  ));var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(5) "World"
-[1]u003d>
+[1]=>
 string(14) "!example/hello"
-[2]u003d>
+[2]=>
 int(1)
 }
 array(1) {
-["greeting"]u003d>
+["greeting"]=>
 string(11) "Hello World"
 }

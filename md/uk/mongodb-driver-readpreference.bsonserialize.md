@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::bsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\Driver\ReadPreference::bsonSerialize — Повертає об'єкт
 серіалізації BSON
@@ -35,13 +35,13 @@ final public **MongoDB\Driver\ReadPreference::bsonSerialize**(): object
 **MongoDB\Driver\ReadPreference::bsonSerialize()** з первинним
 перевагою читання**
 
-` <?php$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);var_dump($rp->bsonSerialize());echo "
+` <?php$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);var_dump($rp->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($rp));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (1) {
-["mode"]u003d>
+["mode"]=>
 string(7) "primary"
 }
 
@@ -51,29 +51,29 @@ string(7) "primary"
 **MongoDB\Driver\ReadPreference::bsonSerialize()** з вторинним
 перевагою читання та наборами тегів**
 
-`<?php$rp u003d new MongoDB\Driver\ReadPreference(  MongoDB\Driver\ReadPreference::RP_SECONDARY,   ['du003d'              'reporting'],        []    ]);var_dump($rp->bsonSerialize());echo "
+`<?php$rp = new MongoDB\Driver\ReadPreference(  MongoDB\Driver\ReadPreference::RP_SECONDARY,   ['d='              'reporting'],        []    ]);var_dump($rp->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($rp));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (2) {
-["mode"]u003d>
+["mode"]=>
 string(9) "secondary"
-["tags"]u003d>
+["tags"]=>
 array(3) {
-[0]u003d>
+[0]=>
 object(stdClass)#1 (1) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
 }
-[1]u003d>
+[1]=>
 object(stdClass)#5 (2) {
-["dc"]u003d>
+["dc"]=>
 string(2) "sf"
-["use"]u003d>
+["use"]=>
 string(9) "reporting"
 }
-[2]u003d>
+[2]=>
 object(stdClass)#4 (0) {
 }
 }
@@ -85,15 +85,15 @@ object(stdClass)#4 (0) {
 **MongoDB\Driver\ReadPreference::bsonSerialize()** з вторинним
 перевагою читання та максимальним staleness**
 
-`<?php$rp u003d new MongoDB\Driver\ReadPreference(  MongoDB\Driver\ReadPreference::RP_SECONDARY,   null,    ['maxStalenessSeconds')u003d>|
+`<?php$rp = new MongoDB\Driver\ReadPreference(  MongoDB\Driver\ReadPreference::RP_SECONDARY,   null,    ['maxStalenessSeconds')=>|
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($rp));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (2) {
-["mode"]u003d>
+["mode"]=>
 string(9) "secondary"
-["maxStalenessSeconds"]u003d>
+["maxStalenessSeconds"]=>
 int(120)
 }
 

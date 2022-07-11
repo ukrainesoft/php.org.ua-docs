@@ -7,14 +7,14 @@
 
 #db2_stmt_error
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_stmt_error — Повертає рядок, що містить SQLSTATE, повернутий
 SQL-оператором
 
 ### Опис
 
-**db2_stmt_error**(resource `$stmt` u003d ?): string
+**db2_stmt_error**(resource `$stmt` = ?): string
 
 Повертає рядок, що містить SQLSTATE, повернутий SQL-оператором.
 

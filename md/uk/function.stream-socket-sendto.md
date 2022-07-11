@@ -18,8 +18,8 @@ stream_socket_sendto — Надсилає повідомлення до соке
 **stream_socket_sendto**(
 resource `$socket`,
 string `$data`,
-int `$flags` u003d 0,
-string `$address` u003d ""
+int `$flags` = 0,
+string `$address` = ""
 ): int\|false
 
 Відправляє зазначені дані `data` через сокет `socket`.
@@ -36,8 +36,8 @@ string `$address` u003d ""
 Значення параметра `flags` може бути будь-якою з наступних комбінацій:
 
 |                |                                                |
-| -------------- | ---------------------------------------------- |
-| **STREAM_OOB** | Обробляти OOB (out-of-band, позасмугові) дані. |     
+|----------------|------------------------------------------------|
+| **STREAM_OOB** | Обробляти OOB (out-of-band, позасмугові) дані. |
 
 **можливі значення для параметра `flags`**
 
@@ -56,7 +56,7 @@ string `$address` u003d ""
 
 **Приклад #1 Приклад використання **stream_socket_sendto()****
 
-` <?php/* Відкрити сокет на 1234-му порту на localhost */$socket u003d stream_socket_client('tcp://127.0.0.1:1234');/* Відправити звичайні  */fwrite($socket, "Передача звичайних даних.");/* Відправляємо внесмугові дані. */stream_socket_sendto($socket, "Позасмугові дані.", STREAM_OOB);/* Закрити сокет */fclose($socket);?> `
+` <?php/* Відкрити сокет на 1234-му порту на localhost */$socket = stream_socket_client('tcp://127.0.0.1:1234');/* Відправити звичайні  */fwrite($socket, "Передача звичайних даних.");/* Відправляємо внесмугові дані. */stream_socket_sendto($socket, "Позасмугові дані.", STREAM_OOB);/* Закрити сокет */fclose($socket);?> `
 
 ### Дивіться також
 

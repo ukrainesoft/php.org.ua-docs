@@ -7,7 +7,7 @@
 
 # PharData::buildFromIterator
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::buildFromIterator — Створення tar/zip-архіву за допомогою
 ітератора
@@ -16,7 +16,7 @@ PharData::buildFromIterator — Створення tar/zip-архіву за д�
 
 public
 **PharData::buildFromIterator**([Traversable](class.traversable.md)
-`$iterator`, ?string `$baseDirectory` u003d **`null`**): array
+`$iterator`, ?string `$baseDirectory` = **`null`**): array
 
 Заповнення архів tar або zip за допомогою ітератора. Підтримуються два
 типу ітераторів: ітератор, який зв'язує файл на диску з файлом усередині
@@ -27,7 +27,7 @@ SplFileInfo. Для ітераторів, що повертають об'єкт�
 ### Список параметрів
 
 `iterator`
-Ітератор, що надає зв'язки ключ u003d значення, або об'єкти
+Ітератор, що надає зв'язки ключ = значення, або об'єкти
 SplFileInfo
 
 `baseDirectory`
@@ -54,7 +54,7 @@ SplFileInfo
 ### Список змін
 
 | Версія | Опис                                                                     |
-| ------ | ------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------|
 | 8.1.0  | **PharData::buildFromIterator()** більше не повертає значення **false**. |
 | 8.0.0  | baseDirectory тепер допускає значення null.                              |
 
@@ -85,7 +85,7 @@ index.php
 
 Потрібно використовувати такий код для створення архіву "project.tar":
 
-`<?php$phar u003d new PharData('project.tar');$phar->buildFromIterator(    new RecursiveIteratorIterator(     new )RecursiveDirectoryIterator('/path/to/'') ?> `
+`<?php$phar = new PharData('project.tar');$phar->buildFromIterator(    new RecursiveIteratorIterator(     new )RecursiveDirectoryIterator('/path/to/'') ?> `
 
 Файл `project.tar` можна використовувати одразу ж після його створення.
 **PharData::buildFromIterator()** не здійснює налаштування стиснення або
@@ -97,15 +97,15 @@ index.php
 zip-архіву, так як об'єкт PharData успадковує від
 [DirectoryIterator](class.directoryiterator.md):
 
-` <?php$phar u003d new PharData('project.tar');$phar->buildFromIterator(    new RecursiveIteratorIterator(    new Phar('/path/to/anotherphar.ph')) to/anotherphar.phar/path/to/project');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+` <?php$phar = new PharData('project.tar');$phar->buildFromIterator(    new RecursiveIteratorIterator(    new Phar('/path/to/anotherphar.ph')) to/anotherphar.phar/path/to/project');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
 
 **Приклад #2 Приклад використання **PharData::buildFromIterator()** з
 іншим ітератором**
 
-Можна використовувати ітератори, що повертають зв'язку "ключ" u003d\> "значення",
+Можна використовувати ітератори, що повертають зв'язку "ключ" =\> "значення",
 наприклад, [ArrayIterator](class.arrayiterator.md):
 
-`<?php$phar u003d new PharData('project.tar');$phar->buildFromIterator(   new ArrayIterator(     array(      )) another/file.jpg' u003d> fopen('/path/to/bigfile.jpg', 'rb'),     ))));?> `
+`<?php$phar = new PharData('project.tar');$phar->buildFromIterator(   new ArrayIterator(     array(      )) another/file.jpg' => fopen('/path/to/bigfile.jpg', 'rb'),     ))));?> `
 
 ### Дивіться також
 

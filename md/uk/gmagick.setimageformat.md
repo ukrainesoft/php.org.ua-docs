@@ -7,7 +7,7 @@
 
 # Gmagick::setimageformat
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageformat — Встановлює формат певного зображення
 

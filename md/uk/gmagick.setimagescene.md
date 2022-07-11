@@ -7,7 +7,7 @@
 
 # Gmagick::setimagescene
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagescene — Встановлює сцену зображення
 

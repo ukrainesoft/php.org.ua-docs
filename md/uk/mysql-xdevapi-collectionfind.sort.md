@@ -37,31 +37,31 @@ public **mysql_xdevapi\CollectionFind::sort**(string `$sort_expr`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionFind::sort()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$create u003d $schema->createCollection("people");$create  ->add('{"name ": "Alfred", "age": 18, "job": "Butler"}') ->execute();$create  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}') ->execute();// ...$collection u003d $schema->getCollection("people");$result u003d $collection ->find() ->sort(' job desc', 'age asc') ->execute();var_dump($result->fetchAll());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$create  ->add('{"name ": "Alfred", "age": 18, "job": "Butler"}') ->execute();$create  ->add('{"name": "Reginald", "age": 42, "job": "Butler"}') ->execute();// ...$collection = $schema->getCollection("people");$result = $collection ->find() ->sort(' job desc', 'age asc') ->execute();var_dump($result->fetchAll());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-[0]u003d>
+[0]=>
 array(4) {
-["_id"]u003d>
+["_id"]=>
 string(28) "00005b6b5361000000000000106"
-["age"]u003d>
+["age"]=>
 int(18)
-["job"]u003d>
+["job"]=>
 string(6) "Butler"
-["name"]u003d>
+["name"]=>
 string(6) "Alfred"
 }
-[1]u003d>
+[1]=>
 array(4) {
-["_id"]u003d>
+["_id"]=>
 string(28) "00005b6b5361000000000000107"
-["age"]u003d>
+["age"]=>
 int(42)
-["job"]u003d>
+["job"]=>
 string(6) "Butler"
-["name"]u003d>
+["name"]=>
 string(8) "Reginald"
 }
 }

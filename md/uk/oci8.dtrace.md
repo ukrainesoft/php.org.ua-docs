@@ -17,18 +17,18 @@ OCI8 2.0 містить статичні зонди DTrace, які можна в
 Для включення підтримки DTrace в PHP OCI8, зберіть OCI8 як розділяється
 модуль після встановлення змінної оточення `PHP_DTRACE`.
 
-$ export PHP_DTRACEu003dyes
+$ export PHP_DTRACE=yes
 $ pecl install oci8
 
 Відредагуйте php.ini, задавши
 [extension_dir](ini.core.md#ini.extension-dir) рівним директорії, в
 якої створився `oci8.so`, а також увімкніть модуль таким чином:
 
-extensionu003doci8.so
+extension=oci8.so
 
 Якщо ви встановили PHP OCI8 з PECL з використанням `phpize` та
 `configure` (замість `pecl`), вам все ще буде необхідно встановити
-`PHP_DTRACEu003dyes`. Це тому, що опція `--enable-dtrace` буде
+`PHP_DTRACE=yes`. Це тому, що опція `--enable-dtrace` буде
 проігнорована обмеженим скриптом `configure` модуля PECL.
 
 Докладніше про встановлення PECL модулів читайте у розділі [Установка модулів PECL](install.pecl.md).
@@ -60,7 +60,7 @@ extensionu003doci8.so
 зонди DTrace у ядрі PHP](features.dtrace.dtrace.md#features.dtrace.static-probes).
 
 | Ім'я зонда                  |
-| --------------------------- |
+|-----------------------------|
 | oci8-connect-expiry         |
 | oci8-connect-lookup         |
 | oci8-connect-p-dtor-close   |
@@ -125,15 +125,15 @@ php*:::oci8-connect-entry
 {
 printf("%lld: PHP connect-entry
 ", walltimestamp);
-printf(" credentialsu003d\"%s@%s\"
+printf(" credentials=\"%s@%s\"
 ", arg0 ? copyinstr(arg0) : "", arg1 ? copyinstr(arg1) : "");
-printf(" charsetu003d\"%s\"
+printf(" charset=\"%s\"
 ", arg2 ? copyinstr(arg2) : "");
-printf(" session_modeu003d%ld
+printf(" session_mode=%ld
 ", (long) arg3);
-printf(" persistentu003d%d
+printf(" persistent=%d
 ", (int) arg4);
-printf(" exclusiveu003d%d
+printf(" exclusive=%d
 ", (int) arg5);
 }
 
@@ -141,7 +141,7 @@ php*:::oci8-connect-return
 {
 printf("%lld: PHP oci8-connect-return
 ", walltimestamp);
-printf(" connectionu003d0x%p
+printf(" connection=0x%p
 ", (void *) arg0);
 }
 
@@ -149,7 +149,7 @@ php*:::oci8-connection-close
 {
 printf("%lld: PHP oci8-connect-close
 ", walltimestamp);
-printf(" connectionu003d0x%p
+printf(" connection=0x%p
 ", (void *) arg0);
 }
 
@@ -157,9 +157,9 @@ php*:::oci8-error
 {
 printf("%lld: PHP oci8-error
 ", walltimestamp);
-printf(" statusu003d%d
+printf(" status=%d
 ", (int) arg0);
-printf(" errcodeu003d%ld
+printf(" errcode=%ld
 ", (long) arg1);
 }
 
@@ -167,15 +167,15 @@ php*:::oci8-check-connection
 {
 printf("%lld: PHP oci8-check-connection
 ", walltimestamp);
-printf(" connectionu003d0x%p
+printf(" connection=0x%p
 ", (void *) arg0);
-printf("client_idu003d\"%s\"
+printf("client_id=\"%s\"
 ", arg1 ? copyinstr(arg1) : "");
-printf(" is_openu003d%d
+printf(" is_open=%d
 ", arg2);
-printf(" errcodeu003d%ld
+printf(" errcode=%ld
 ", (long) arg3);
-printf(" server_statusu003d%lu
+printf(" server_status=%lu
 ", (unsigned long) arg4);
 }
 
@@ -183,13 +183,13 @@ php*:::oci8-sqltext
 {
 printf("%lld: PHP oci8-sqltext
 ", walltimestamp);
-printf(" connectionu003d0x%p
+printf(" connection=0x%p
 ", (void *) arg0);
-printf("client_idu003d\"%s\"
+printf("client_id=\"%s\"
 ", arg1 ? copyinstr(arg1) : "");
-printf(" statementu003d0x%p
+printf(" statement=0x%p
 ", (void *) arg2);
-printf(" sqlu003d\"%s\"
+printf(" sql=\"%s\"
 ", arg3 ? copyinstr(arg3) : "");
 }
 
@@ -197,13 +197,13 @@ php*:::oci8-execute-mode
 {
 printf("%lld: PHP oci8-execute-mode
 ", walltimestamp);
-printf(" connectionu003d0x%p
+printf(" connection=0x%p
 ", (void *) arg0);
-printf("client_idu003d\"%s\"
+printf("client_id=\"%s\"
 ", arg1 ? copyinstr(arg1) : "");
-printf(" statementu003d0x%p
+printf(" statement=0x%p
 ", (void *) arg2);
-printf(" modeu003d0x%x
+printf(" mode=0x%x
 ", arg3);
 }
 
@@ -227,25 +227,25 @@ printf(" modeu003d0x%x
 виконуючий запит до бази даних може створювати такі повідомлення:
 
 1381794982092854582: PHP connect-entry
-credentialsu003d"hr@localhost/pdborcl"
-charsetu003d""
-session_modeu003d0
-persistentu003d0
-exclusiveu003d0
+credentials="hr@localhost/pdborcl"
+charset=""
+session_mode=0
+persistent=0
+exclusive=0
 1381794982183158766: PHP oci8-connect-return
-connectionu003d0x7f4a7907bfb8
+connection=0x7f4a7907bfb8
 1381794982183594576: PHP oci8-sqltext
-connectionu003d0x7f4a7907bfb8
-client_idu003d"Chris"
-statementu003d0x7f4a7907c2a0
-sqlu003d"select * from employees"
+connection=0x7f4a7907bfb8
+client_id="Chris"
+statement=0x7f4a7907c2a0
+sql="select * from employees"
 1381794982183783706: PHP oci8-execute-mode
-connectionu003d0x7f4a7907bfb8
-client_idu003d"Chris"
-statementu003d0x7f4a7907c2a0
-modeu003d0x20
+connection=0x7f4a7907bfb8
+client_id="Chris"
+statement=0x7f4a7907c2a0
+mode=0x20
 1381794982444344390: PHP oci8-connect-close
-connectionu003d0x7f4a7907bfb8
+connection=0x7f4a7907bfb8
 
 Після завершення діагностики D-скрипт можна перервати за допомогою натискання
 `^C`.

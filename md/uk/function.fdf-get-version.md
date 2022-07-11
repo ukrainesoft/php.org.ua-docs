@@ -7,13 +7,13 @@
 
 #fdf_get_version
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_get_version — Отримує номер версії для FDF API або файлу
 
 ### Опис
 
-**fdf_get_version**(resource `$fdf_document` u003d ?): string
+**fdf_get_version**(resource `$fdf_document` = ?): string
 
 Повертає версію FDF для цього документа або номер версії API набору
 інструментів, якщо параметр не вказано.

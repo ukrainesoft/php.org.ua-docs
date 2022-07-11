@@ -8,7 +8,7 @@
 
 # swoole_get_local_ip
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_get_local_ip — Отримати IP-адреси у форматі IPv4 кожної мережевої
 плати (NIC) комп'ютера

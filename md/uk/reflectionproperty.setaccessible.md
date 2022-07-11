@@ -7,7 +7,7 @@
 
 # ReflectionProperty::setAccessible
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ReflectionProperty::setAccessible — Робить властивість доступною
 
@@ -37,7 +37,7 @@ public **ReflectionProperty::setAccessible**(bool `$accessible`): void
 
 **Приклад #1 Визначення простого класу**
 
-` <?phpclass MyClass{    private $foo u003d 'bar';}$property u003d new ReflectionProperty("MyClass", "foo");$property->setAccessible(true);$obj u003d ne$| ->getValue($obj);echo $obj->foo;?> `
+` <?phpclass MyClass{    private $foo = 'bar';}$property = new ReflectionProperty("MyClass", "foo");$property->setAccessible(true);$obj = ne$| ->getValue($obj);echo $obj->foo;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # APCUIterator::rewind
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 APCUIterator::rewind — Перемотування ітератора
 

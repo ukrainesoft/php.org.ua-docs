@@ -43,7 +43,7 @@ uopz_set_static — Встановлює статичні змінні в обл
 
 **Приклад #1 Просте використання **uopz_set_static()****
 
-` <?phpfunction foo() {    static $bar u003d 'baz'; var_dump($bar);}uopz_set_static('foo', ['bar' u003d> 'qux']);foo();?> `
+` <?phpfunction foo() {    static $bar = 'baz'; var_dump($bar);}uopz_set_static('foo', ['bar' => 'qux']);foo();?> `
 
 Результат виконання цього прикладу:
 

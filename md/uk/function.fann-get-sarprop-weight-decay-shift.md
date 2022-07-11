@@ -7,7 +7,7 @@
 
 # fann_get_sarprop_weight_decay_shift
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_sarprop_weight_decay_shift — Повертає зсув зменшення ваги
 sarprop
@@ -35,7 +35,7 @@ sarprop
 > **Примітка**:
 >
 > Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann u003d 2.2.
+> libfann = 2.2.
 
 ### Дивіться також
 

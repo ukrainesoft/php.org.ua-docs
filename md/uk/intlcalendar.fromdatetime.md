@@ -7,7 +7,7 @@
 
 # IntlCalendar::fromDateTime
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a2)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a2)
 
 IntlCalendar::fromDateTime — Створює IntlCalendar з об'єкта або рядка
 DateTime
@@ -18,13 +18,13 @@ DateTime
 
 public static
 **IntlCalendar::fromDateTime**([DateTime](class.datetime.md)\|string
-`$datetime`, ?string `$locale` u003d **`null`**):
+`$datetime`, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 Процедурний стиль
 
 **intlcal_from_date_time**([DateTime](class.datetime.md)\|string
-`$datetime`, ?string `$locale` u003d **`null`**):
+`$datetime`, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 Створює об'єкт [IntlCalendar](class.intlcalendar.md) або об'єкт
@@ -54,7 +54,7 @@ public static
 
 **Приклад #1 Приклад використання **IntlCalendar::fromDateTime()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');// то ж, і IntlCalendar::fromDateTime(new DateTime(...))$cal1 u003d IntlCalendar::fromDateTime('20 -28 00:01:02 Europe/Berlin');// Зверніть увага, що годинний пояс - Europe/Berlin, а не Europe/Lisbon за умовчаннямecho IntlDateFormat VVVV', 'de_DE'), "
+` <?phpini_set('date.timezone', 'Europe/Lisbon');// то ж, і IntlCalendar::fromDateTime(new DateTime(...))$cal1 = IntlCalendar::fromDateTime('20 -28 00:01:02 Europe/Berlin');// Зверніть увага, що годинний пояс - Europe/Berlin, а не Europe/Lisbon за умовчаннямecho IntlDateFormat VVVV', 'de_DE'), "
 ";
 
 Результат виконання цього прикладу:

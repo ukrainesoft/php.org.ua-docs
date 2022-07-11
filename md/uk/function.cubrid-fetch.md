@@ -7,13 +7,13 @@
 
 #cubrid_fetch
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_fetch — Вибирає наступний рядок із набору результатів
 
 ### Опис
 
-**cubrid_fetch**(resource `$result`, int `$type` u003d CUBRID_BOTH):
+**cubrid_fetch**(resource `$result`, int `$type` = CUBRID_BOTH):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Функція **cubrid_fetch()** використовується для отримання одного рядка з
@@ -56,8 +56,8 @@ CUBRID_LOB.
 
 **Приклад #1 Приклад використання **cubrid_fetch()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT *FROM stadium WHERE nation_codeu003d'GRE' | -40s%-10s%-6s%-20s
-", "name", "area", "seats", "address");while($row u003d cubrid_fetch($req)) {    printf("%-40s %-10s %-6s %-20s
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT *FROM stadium WHERE nation_code='GRE' | -40s%-10s%-6s%-20s
+", "name", "area", "seats", "address");while($row = cubrid_fetch($req)) {    printf("%-40s %-10s %-6s %-20s
 ",        $row["name"], $row["area"], $row["seats"], $row["address"]);}// для управління LOB-об'єктом, можна використовувати cubrid_fe , CUBRID_LOB)cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

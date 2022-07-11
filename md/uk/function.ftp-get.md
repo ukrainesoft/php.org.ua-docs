@@ -17,8 +17,8 @@ ftp_get — Завантажує файл із FTP-сервера
 [FTP\Connection](class.ftp-connection.md) `$ftp`,
 string `$local_filename`,
 string `$remote_filename`,
-int `$mode` u003d **`FTP_BINARY`**,
-int `$offset` u003d 0
+int `$mode` = **`FTP_BINARY`**,
+int `$offset` = 0
 ): bool
 
 **ftp_get()** завантажує віддалений файл з FTP-сервера та зберігає його
@@ -49,7 +49,7 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 7.3.0  | Тепер параметр mode опціональний. Раніше він був обов'язковим.                                                                                      |
 
@@ -57,7 +57,7 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 **Приклад #1 Приклад використання **ftp_get()****
 
-` <?php// оголошення змінних$local_file u003d 'local.zip';$server_file u003d 'server.zip';// установка з'єднання$conn_id u003d ftp_connect($ftp_server);// вхід з імен ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
+` <?php// оголошення змінних$local_file = 'local.zip';$server_file = 'server.zip';// установка з'єднання$conn_id = ftp_connect($ftp_server);// вхід з імен ftp_login($conn_id, $ftp_user_name, $ftp_user_pass);
 ";} else {    echo "Не удалося завершити операцію
 ";}// закриття з'єднанняftp_close($conn_id);?> `
 

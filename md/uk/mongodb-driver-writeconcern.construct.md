@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\WriteConcern::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteConcern::\_\_construct — Створити новий WriteConcern
 
 ### Опис
 
 final public **MongoDB\Driver\WriteConcern::\_\_construct**(string\|int
-`$w`, int `$wtimeout` u003d ?, bool `$journal` u003d ?)
+`$w`, int `$wtimeout` = ?, bool `$journal` = ?)
 
 Створює новий
 [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md),
@@ -42,7 +42,7 @@ final public **MongoDB\Driver\WriteConcern::\_\_construct**(string\|int
 більше або дорівнює нулю.
 
 | Значення                     | Опис                                                |
-| ---------------------------- | --------------------------------------------------- |
+|------------------------------|-----------------------------------------------------|
 | 0                            | Блокувати нескінченно. Це значення за промовчанням. |
 | \<ціле число більше, ніж 0\> | Мілісекунди до очікування повернення.               |
 
@@ -62,7 +62,7 @@ final public **MongoDB\Driver\WriteConcern::\_\_construct**(string\|int
 ### Список змін
 
 | Версія             | Опис                                                |
-| ------------------ | --------------------------------------------------- |
+|--------------------|-----------------------------------------------------|
 | PECL mongodb 1.7.0 | Параметр wTimeout тепер набуває 64-бітових значень. |
 
 ### Приклади
@@ -70,7 +70,7 @@ final public **MongoDB\Driver\WriteConcern::\_\_construct**(string\|int
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcern::\_\_construct()****
 
-` <?php/* Запит підтвердження запису від більшості вузлів набору реплік */$wc u003d new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern: МайорITY,  | MultipleDC" */$wc u003d new MongoDB\Driver\WriteConcern("MultipleDC", 500);?> `
+` <?php/* Запит підтвердження запису від більшості вузлів набору реплік */$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern: МайорITY,  | MultipleDC" */$wc = new MongoDB\Driver\WriteConcern("MultipleDC", 500);?> `
 
 ### Дивіться також
 

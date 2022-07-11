@@ -9,8 +9,8 @@
 
 **Приклад #1 Обчислення MD5 та HMAC та друк їх у шістнадцятковому вигляді**
 
-`<?php$input u003d "what do ya want for nothing?";$hash u003d mhash(MHASH_MD5, $input);echo "Хеш MD5 - " . bin2hex($hash) . "<br />
-";$hash u003d mhash(MHASH_MD5, $input, "Jefe");echo "Хеш HMAC - " . bin2hex($hash) . "<br />
+`<?php$input = "what do ya want for nothing?";$hash = mhash(MHASH_MD5, $input);echo "Хеш MD5 - " . bin2hex($hash) . "<br />
+";$hash = mhash(MHASH_MD5, $input, "Jefe");echo "Хеш HMAC - " . bin2hex($hash) . "<br />
 ";?> `
 
 Результат виконання цього прикладу:

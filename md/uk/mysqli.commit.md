@@ -17,13 +17,13 @@ mysqli::commit -- mysqli_commit -- Фіксує поточну транзакц�
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::commit**(int `$flags` u003d 0, ?string `$name` u003d
+public **mysqli::commit**(int `$flags` = 0, ?string `$name` =
 **`null`**): bool
 
 Процедурний стиль
 
-**mysqli_commit**([mysqli](class.mysqli.md) `$mysql`, int `$flags` u003d
-0, ?string `$name` u003d **`null`**): bool
+**mysqli_commit**([mysqli](class.mysqli.md) `$mysql`, int `$flags` =
+0, ?string `$name` = **`null`**): bool
 
 Фіксує транзакцію для з'єднання з базою даних.
 
@@ -48,7 +48,7 @@ public **mysqli::commit**(int `$flags` u003d 0, ?string `$name` u003d
 ### Список змін
 
 | Версія | Опис                                |
-| ------ | ----------------------------------- |
+|--------|-------------------------------------|
 | 8.0.0  | name тепер припускає значення null. |
 
 ### Приклади

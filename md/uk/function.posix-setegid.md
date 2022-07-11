@@ -8,7 +8,7 @@ EGID
 
 #posix_setegid
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 posix_setegid — Встановлює ефективний ідентифікатор групи для
 поточного процесу EGID

@@ -7,14 +7,14 @@
 
 # EventBuffer::search
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBuffer::search — Сканує буфер на наявність рядка
 
 ### Опис
 
-public **EventBuffer::search**( string `$what` , int `$start` u003d -1 , int
-$end u003d -1):
+public **EventBuffer::search**( string `$what` , int `$start` = -1 , int
+$end = -1):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Сканує буфер на наявність рядка `what`. Повертає числову позицію
@@ -45,14 +45,14 @@ $end u003d -1):
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **EventBuffer::search()****
 
-` <?php// Count total occurances of 'str' in 'buf'function count_instances($buf, $str) {    $total u003d 0; $p    u003du003d0; $i     u003d 0; while(1) {       |$p u003d $buf->search($str, $p); if ($p u003du003du003d FALSE) {            break; }        ++$total; ++$p; }   return $total;}$buf u003d new EventBuffer();$buf->add("Some string within a string inside another string");var_dump(count_instances($buf, )"
+` <?php// Count total occurances of 'str' in 'buf'function count_instances($buf, $str) {    $total = 0; $p    ==0; $i     = 0; while(1) {       |$p = $buf->search($str, $p); if ($p === FALSE) {            break; }        ++$total; ++$p; }   return $total;}$buf = new EventBuffer();$buf->add("Some string within a string inside another string");var_dump(count_instances($buf, )"
 
 Результатом виконання цього прикладу буде щось подібне:
 

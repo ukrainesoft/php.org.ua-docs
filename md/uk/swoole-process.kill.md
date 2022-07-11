@@ -7,13 +7,13 @@
 
 # Swoole\Process::kill
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::kill — Надсилає сигнал дочірньому процесу
 
 ### Опис
 
-public static **Swoole\Process::kill**(int `$pid`, int `$signal_no` u003d
+public static **Swoole\Process::kill**(int `$pid`, int `$signal_no` =
 ?): bool
 
 Надсилає сигнал дочірньому процесу.

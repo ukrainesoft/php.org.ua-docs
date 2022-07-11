@@ -7,7 +7,7 @@
 
 #mb_encode_mimeheader
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_encode_mimeheader — Кодує рядок для заголовка MIME
 
@@ -15,11 +15,11 @@ mb_encode_mimeheader — Кодує рядок для заголовка MIME
 
 **mb_encode_mimeheader**(
 string `$string`,
-?string `$charset` u003d **`null`**,
-?string `$transfer_encoding` u003d **`null`**,
-string `$newline` u003d "
+?string `$charset` = **`null`**,
+?string `$transfer_encoding` = **`null`**,
+string `$newline` = "
 ",
-int `$indent` u003d 0
+int `$indent` = 0
 ): string
 
 Кодує рядок (string) за схемою кодування MIME-заголовка.
@@ -57,18 +57,18 @@ int `$indent` u003d 0
 ### Список змін
 
 | Версія | Опис                                                         |
-| ------ | ------------------------------------------------------------ |
+|--------|--------------------------------------------------------------|
 | 8.0.0  | charset та transfer_encoding тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **mb_encode_mimeheader()****
 
-`<?php$name u003d "太郎"; // kanji$mbox u003d "kru";$doma u003d "gtinn.mon";$addr u003d '"' . addcslashes(mb_encode_mimeheader($name, "UTF-7", "Q"), '"') . '" <' . $mbox . "@" . $doma . ">";echo $addr;?> `
+`<?php$name = "太郎"; // kanji$mbox = "kru";$doma = "gtinn.mon";$addr = '"' . addcslashes(mb_encode_mimeheader($name, "UTF-7", "Q"), '"') . '" <' . $mbox . "@" . $doma . ">";echo $addr;?> `
 
 Результат виконання цього прикладу:
 
-"u003d?UTF-7?Q?+WSqQzg-?u003d" <kru@gtinn.mon>
+"=?UTF-7?Q?+WSqQzg-?=" <kru@gtinn.mon>
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # SplFileInfo::getFilename
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getFilename — Отримує ім'я файлу
 
@@ -29,7 +29,7 @@ public **SplFileInfo::getFilename**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getFilename()****
 
-` <?php$info u003d new SplFileInfo('foo.txt');var_dump($info->getFilename());$info u003d new SplFileInfo('/path/to/foo.txt');var_dump($info ->getFilename());$info u003d new SplFileInfo('http://www.php.net/');var_dump($info->getFilename());$info u003d new SplFileInfo('http://www .php.net/svn.php');var_dump($info->getFilename());?> `
+` <?php$info = new SplFileInfo('foo.txt');var_dump($info->getFilename());$info = new SplFileInfo('/path/to/foo.txt');var_dump($info ->getFilename());$info = new SplFileInfo('http://www.php.net/');var_dump($info->getFilename());$info = new SplFileInfo('http://www .php.net/svn.php');var_dump($info->getFilename());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

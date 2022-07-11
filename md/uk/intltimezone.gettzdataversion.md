@@ -10,7 +10,7 @@
 
 # intltz_get_tz_data_version
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::getTZDataVersion -- intltz_get_tz_data_version — Отримати
 версію даних про часовий пояс, який на даний момент використовується в

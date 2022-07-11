@@ -13,7 +13,7 @@ krsort — Сортує масив за ключом у порядку змен�
 
 ### Опис
 
-**krsort**(array `&$array`, int `$flags` u003d **`SORT_REGULAR`**): bool
+**krsort**(array `&$array`, int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує `array` за ключом у порядку спадання.
 
@@ -60,15 +60,15 @@ krsort — Сортує масив за ключом у порядку змен�
 
 **Приклад #1 Приклад використання **krsort()****
 
-` <?php$fruits u003d array("d"u003d>"lemon", "a"u003d>"orange", "b"u003d>"banana", "c"u003d>"apple");krsort($fruits );foreach ($fruits as $key u003d> $val) {    echo "$key u003d $val
+` <?php$fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");krsort($fruits );foreach ($fruits as $key => $val) {    echo "$key = $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-d u003d lemon
-c u003d apple
-b u003d banana
-a u003d orange
+d = lemon
+c = apple
+b = banana
+a = orange
 
 ### Дивіться також
 

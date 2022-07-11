@@ -7,7 +7,7 @@
 
 # Swoole\Process::close
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::close — Закриває канал для дочірнього процесу
 

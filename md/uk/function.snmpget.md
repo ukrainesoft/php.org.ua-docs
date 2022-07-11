@@ -17,8 +17,8 @@ snmpget — Отримує об'єкт SNMP
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -51,7 +51,7 @@ Read-спільнота.
 
 **Приклад #1 Приклад використання **snmpget()****
 
-` <?php$syscontact u003d snmpget("127.0.0.1", "public", "system.SysContact.0");?> `
+` <?php$syscontact = snmpget("127.0.0.1", "public", "system.SysContact.0");?> `
 
 ### Дивіться також
 

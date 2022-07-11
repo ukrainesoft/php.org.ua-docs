@@ -7,7 +7,7 @@
 
 # SVMModel::getSvmType
 
-(PECL svm u003d 0.1.5)
+(PECL svm = 0.1.5)
 
 SVMModel::getSvmType — Отримати тип SVM, з яким навчалася модель
 

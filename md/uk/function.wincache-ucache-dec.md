@@ -7,14 +7,14 @@
 
 #wincache_ucache_dec
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_dec — Зменшує значення, пов'язане з ключем
 
 ### Опис
 
-**wincache_ucache_dec**(string `$key`, int `$dec_by` u003d 1, bool
-`&$success` u003d ?):
+**wincache_ucache_dec**(string `$key`, int `$dec_by` = 1, bool
+`&$success` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Зменшує значення, пов'язане з `key` на 1 або як зазначено в `dec_by`.

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerApi::\_\_construct
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\ServerApi::\_\_construct - Створює новий екземпляр
 ServerApi
@@ -15,7 +15,7 @@ ServerApi
 ### Опис
 
 final public **MongoDB\Driver\ServerApi::\_\_construct**(string
-`$version`, bool `$strict` u003d **`null`**, bool `$deprecationErrors` u003d
+`$version`, bool `$strict` = **`null`**, bool `$deprecationErrors` =
 **`null`**)
 
 Створює новий екземпляр

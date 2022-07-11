@@ -32,7 +32,7 @@ public **ReflectionClass::getConstant**(string `$name`):
 
 **Приклад #1 Приклад використання **ReflectionClass::getConstant()****
 
-`<?phpclass Example {    const C1 u003d false; const C2 u003d 'I am a constant';}$reflection u003d new ReflectionClass('Example');var_dump($reflection->getConstant('C1'));var_dump($reflection->getConstant('C2')); var_dump($reflection->getConstant('C3'));?> `
+`<?phpclass Example {    const C1 = false; const C2 = 'I am a constant';}$reflection = new ReflectionClass('Example');var_dump($reflection->getConstant('C1'));var_dump($reflection->getConstant('C2')); var_dump($reflection->getConstant('C3'));?> `
 
 Результат виконання цього прикладу:
 

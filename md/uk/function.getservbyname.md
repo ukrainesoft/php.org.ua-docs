@@ -38,7 +38,7 @@ getservbyname — Отримує номер порту, пов'язаного з
 
 **Приклад #1 Приклад використання **getservbyname()****
 
-` <?php$services u003d array('http', 'ftp', 'ssh', 'telnet', 'imap','smtp', 'nicname', 'gopher', 'finger', 'pop3', ' www');foreach ($services as $service) {   $port u003d getservbyname($service, 'tcp'); echo $service . ": " . $port . "<br />
+` <?php$services = array('http', 'ftp', 'ssh', 'telnet', 'imap','smtp', 'nicname', 'gopher', 'finger', 'pop3', ' www');foreach ($services as $service) {   $port = getservbyname($service, 'tcp'); echo $service . ": " . $port . "<br />
 ";}?> `
 
 ### Дивіться також

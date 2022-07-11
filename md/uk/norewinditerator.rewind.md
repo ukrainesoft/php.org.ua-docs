@@ -7,7 +7,7 @@
 
 # NoRewindIterator::rewind
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::rewind — Запобігає поверненню внутрішнього ітератора в
 початок
@@ -33,7 +33,7 @@ public **NoRewindIterator::rewind**(): void
 Приклад показує, що виклик операції повернення на початок об'єкта
 NoRewindIterator не має жодного ефекту.
 
-` <?php$fruits u003d array("лимон", "апельсин", "яблуко", "груша");$noRewindIterator u003d new NoRewindIterator(new ArrayIterator($fruits));echo $noRewind "
+` <?php$fruits = array("лимон", "апельсин", "яблуко", "груша");$noRewindIterator = new NoRewindIterator(new ArrayIterator($fruits));echo $noRewind "
 ";$noRewindIterator->next();// повернення ітератора початок (нічого не повинно трапитися)$noRewindIterator->rewind();echo $noRewindIterator->current() . ""
 ";?> `
 

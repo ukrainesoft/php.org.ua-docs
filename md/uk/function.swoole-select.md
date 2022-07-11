@@ -8,7 +8,7 @@
 
 # swoole_select
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_select — Вибрати опис файлів, які готові до читання/запису
 або помилки в цикл подій
@@ -19,7 +19,7 @@ swoole_select — Вибрати опис файлів, які готові до
 array `&$read_array`,
 array `&$write_array`,
 array `&$error_array`,
-float `$timeout` u003d ?
+float `$timeout` = ?
 ): int
 
 ### Список параметрів

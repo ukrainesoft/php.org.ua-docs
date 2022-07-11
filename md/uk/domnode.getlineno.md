@@ -7,7 +7,7 @@
 
 # DOMNode::getLineNo
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DOMNode::getLineNo — Отримати номер рядка вузла
 
@@ -29,7 +29,7 @@ public **DOMNode::getLineNo**(): int
 
 **Приклад #1 Приклад використання **DOMNode::getLineNo()****
 
-` <?php// Визначення необхідного для прикладу XML$xml u003d <<<XML<?xml versionu003d"1.0" encodingu003d"utf-8"?><root>    <node /></root>XML;/// Створення нового примірника DOMDocument$dom u003d new DOMDocument; // Завантаження XML$dom->loadXML($xml); , $dom->getElementsByTagName('node')->item(0)->getLineNo());?> `
+` <?php// Визначення необхідного для прикладу XML$xml = <<<XML<?xml version="1.0" encoding="utf-8"?><root>    <node /></root>XML;/// Створення нового примірника DOMDocument$dom = new DOMDocument; // Завантаження XML$dom->loadXML($xml); , $dom->getElementsByTagName('node')->item(0)->getLineNo());?> `
 
 Результат виконання цього прикладу:
 

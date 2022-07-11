@@ -7,7 +7,7 @@
 
 # Componere\Definition::addProperty
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Definition::addProperty — Додає властивість
 

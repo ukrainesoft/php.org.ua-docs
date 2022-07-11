@@ -7,7 +7,7 @@
 
 # streamWrapper::stream_truncate
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 streamWrapper::stream_truncate — Усічення потоку
 

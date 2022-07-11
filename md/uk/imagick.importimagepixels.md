@@ -7,7 +7,7 @@
 
 # Imagick::importImagePixels
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::importImagePixels — Імпортує пікселі зображення
 
@@ -45,10 +45,10 @@ ImageMagick 6.4.5 або старше.
 
 `map`
 Карта впорядкування пікселів у вигляді рядка. Це може бути, наприклад,
-`RGB`. Значення може бути будь-якою комбінацією або порядком: R u003d червоний,
-G u003d зелений, B u003d синій, A u003d альфа (0 – прозорий), O u003d непрозорий
-(0 - непрозорий), C u003d блакитний, Y u003d жовтий, M u003d пурпурний, K u003d чорний,
-I u003d інтенсивність (для відтінків сірого), P u003d заповнювач.
+`RGB`. Значення може бути будь-якою комбінацією або порядком: R = червоний,
+G = зелений, B = синій, A = альфа (0 – прозорий), O = непрозорий
+(0 - непрозорий), C = блакитний, Y = жовтий, M = пурпурний, K = чорний,
+I = інтенсивність (для відтінків сірого), P = заповнювач.
 
 `storage`
 Спосіб зберігання пікселів. Дивіться список [констант пікселів](imagick.constants.md#imagick.constants.pixel).
@@ -68,7 +68,7 @@ I u003d інтенсивність (для відтінків сірого), P u
 
 **Приклад #1 Приклад використання **Imagick::importImagePixels()****
 
-`<?php/* Створення масиву пікселів. 2000 пикселей на цветную полосу */$count u003d 2000 * 3;$pixels u003d   array_merge(array_pad(array(), $count, 0),               array_pad(array(), $count, 255),               array_pad(array(), $ count, 0),               array_pad(array(), $count, 255),                  array_pad(array; і) Площа - це кількість пікселей, розділене на три.Три відбувається від "RGB", три значення на піксель. */$width u003d $height u003d pow((count($pixels) / 3), 0.5);/* Створення пустого зображення */$im u003d new Imagick();$im->newImage($width, $ 'gray');/* Імпорт пікселів в зображення. width * height * strlen("RGB") повинно відповідати count($pixels) */$im->importImagePixels(0, 0, $width, $height, "RGB", Imagick::PIXEL_CH Висновок зображення */$im->setImageFormat('jpg');header("Content-Type: image/jpg");echo $im;?> `
+`<?php/* Створення масиву пікселів. 2000 пикселей на цветную полосу */$count = 2000 * 3;$pixels =   array_merge(array_pad(array(), $count, 0),               array_pad(array(), $count, 255),               array_pad(array(), $ count, 0),               array_pad(array(), $count, 255),                  array_pad(array; і) Площа - це кількість пікселей, розділене на три.Три відбувається від "RGB", три значення на піксель. */$width = $height = pow((count($pixels) / 3), 0.5);/* Створення пустого зображення */$im = new Imagick();$im->newImage($width, $ 'gray');/* Імпорт пікселів в зображення. width * height * strlen("RGB") повинно відповідати count($pixels) */$im->importImagePixels(0, 0, $width, $height, "RGB", Imagick::PIXEL_CH Висновок зображення */$im->setImageFormat('jpg');header("Content-Type: image/jpg");echo $im;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

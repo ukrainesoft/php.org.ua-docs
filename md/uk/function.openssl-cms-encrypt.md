@@ -19,9 +19,9 @@ string `$output_filename`,
 [OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$certificate`,
 ?array `$headers`,
-int `$flags` u003d 0,
-int `$encoding` u003d **`OPENSSL_ENCODING_SMIME`**,
-int `$cipher_algo` u003d **`OPENSSL_CIPHER_AES_128_CBC`**
+int `$flags` = 0,
+int `$encoding` = **`OPENSSL_ENCODING_SMIME`**,
+int `$cipher_algo` = **`OPENSSL_CIPHER_AES_128_CBC`**
 ): bool
 
 Шифрує вміст для одного або кількох одержувачів на основі
@@ -59,5 +59,5 @@ int `$cipher_algo` u003d **`OPENSSL_CIPHER_AES_128_CBC`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Алгоритм шифрування за замовчуванням ('cipher_algo') тепер є AES-128-CBC (**'OPENSSL_CIPHER_AES_128_CBC**). Раніше використовувався алгоритм PKCS7/CMS (**OPENSSL_CIPHER_RC2_40**). |

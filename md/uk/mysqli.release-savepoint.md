@@ -10,7 +10,7 @@
 
 # mysqli_release_savepoint
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 mysqli::release_savepoint -- mysqli_release_savepoint -- Видаляє
 іменовану точку збереження зі списку точок збереження поточної

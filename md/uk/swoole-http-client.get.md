@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::get
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::get — Надсилає HTTP-запит GET на віддалений сервер
 

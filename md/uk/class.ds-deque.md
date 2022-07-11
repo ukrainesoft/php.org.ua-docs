@@ -46,7 +46,7 @@ class **Ds\Deque** implements **Ds\Sequence**,
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 8;
+const int `MIN_CAPACITY` = 8;
 
 /\* Методи \*/
 
@@ -68,7 +68,7 @@ public [copy](ds-deque.copy.md)(): [Ds\Deque](class.ds-deque.md)
 
 public
 [filter](ds-deque.filter.md)([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Deque](class.ds-deque.md)
+`$callback` = ?): [Ds\Deque](class.ds-deque.md)
 
 public
 [find](ds-deque.find.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -87,7 +87,7 @@ public [insert](ds-deque.insert.md)(int `$index`,
 
 public [isEmpty](ds-deque.isempty.md)(): bool
 
-public [join](ds-deque.join.md)(string `$glue` u003d ?): string
+public [join](ds-deque.join.md)(string `$glue` = ?): string
 
 public [last](ds-deque.last.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -110,7 +110,7 @@ public
 [reduce](ds-deque.reduce.md)([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [remove](ds-deque.remove.md)(int `$index`):
@@ -130,16 +130,16 @@ public [set](ds-deque.set.md)(int `$index`,
 public [shift](ds-deque.shift.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [slice](ds-deque.slice.md)(int `$index`, int `$length` u003d ?):
+public [slice](ds-deque.slice.md)(int `$index`, int `$length` = ?):
 [Ds\Deque](class.ds-deque.md)
 
 public
 [sort](ds-deque.sort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 public
 [sorted](ds-deque.sorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Deque](class.ds-deque.md)
+`$comparator` = ?): [Ds\Deque](class.ds-deque.md)
 
 public [sum](ds-deque.sum.md)(): int\|float
 
@@ -147,7 +147,7 @@ public [toArray](ds-deque.toarray.md)(): array
 
 public
 [unshift](ds-deque.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?): void
+$values = ?): void
 
 }
 
@@ -158,7 +158,7 @@ $values u003d ?): void
 ## Список змін
 
 | Версія        | Опис                                                   |
-| ------------- | ------------------------------------------------------ |
+|---------------|--------------------------------------------------------|
 | PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
 
 ## Зміст

@@ -7,7 +7,7 @@
 
 # SNMP::setSecurity
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::setSecurity — Налаштовує пов'язані з безпекою установки
 сесії SNMPv3
@@ -16,12 +16,12 @@ SNMP::setSecurity — Налаштовує пов'язані з безпекою
 
 public **SNMP::setSecurity**(
 string `$securityLevel`,
-string `$authProtocol` u003d "",
-string `$authPassphrase` u003d "",
-string `$privacyProtocol` u003d "",
-string `$privacyPassphrase` u003d "",
-string `$contextName` u003d "",
-string `$contextEngineId` u003d ""
+string `$authProtocol` = "",
+string `$authPassphrase` = "",
+string `$privacyProtocol` = "",
+string `$privacyPassphrase` = "",
+string `$contextName` = "",
+string `$contextEngineId` = ""
 ): bool
 
 setSecurity налаштовує пов'язані з безпекою параметри сесії,
@@ -59,7 +59,7 @@ setSecurity налаштовує пов'язані з безпекою пара�
 
 **Приклад #1 Приклад використання **SNMP::setSecurity()****
 
-` <?php $sessionu003du003dnew SNMP(SNMP::VERSION_3, $hostname, $rwuser, $timeout, $retries); $session->setSecurity('authPriv', 'MD5', $auth_pass, 'AES', $priv_pass, '', 'aeeeff');?> `
+` <?php $session==new SNMP(SNMP::VERSION_3, $hostname, $rwuser, $timeout, $retries); $session->setSecurity('authPriv', 'MD5', $auth_pass, 'AES', $priv_pass, '', 'aeeeff');?> `
 
 ### Дивіться також
 

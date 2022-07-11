@@ -7,7 +7,7 @@
 
 # geoip_time_zone_by_country_and_region
 
-(PECL geoip \>u003d 1.0.4)
+(PECL geoip \>= 1.0.4)
 
 geoip_time_zone_by_country_and_region — Повертає часовий пояс для коду
 країни та регіону
@@ -15,7 +15,7 @@ geoip_time_zone_by_country_and_region — Повертає часовий поя
 ### Опис
 
 **geoip_time_zone_by_country_and_region**(string `$country_code`, string
-`$region_code` u003d ?): string
+`$region_code` = ?): string
 
 Функція **geoip_time_zone_by_country_and_region()** поверне часовий пояс
 та код регіону відповідної країни.
@@ -55,7 +55,7 @@ geoip_time_zone_by_country_and_region — Повертає часовий поя
 
 Надрукує часовий пояс країни CA (Канада), регіону QC (Квебек).
 
-` <?php$timezone u003d geoip_time_zone_by_country_and_region('CA', 'QC');if ($timezone) {    echo 'Годинний пояс для CA/QC: ' . $timezone;}?> `
+` <?php$timezone = geoip_time_zone_by_country_and_region('CA', 'QC');if ($timezone) {    echo 'Годинний пояс для CA/QC: ' . $timezone;}?> `
 
 Результат виконання цього прикладу:
 
@@ -66,7 +66,7 @@ geoip_time_zone_by_country_and_region — Повертає часовий поя
 
 Виводить часовий пояс для країни JP (Японія), регіон 01 (Aichi).
 
-` <?php$timezone u003d geoip_time_zone_by_country_and_region('JP', '01');if ($timezone) {    echo 'Годинний пояс для JP/01: ' . $timezone;}?> `
+` <?php$timezone = geoip_time_zone_by_country_and_region('JP', '01');if ($timezone) {    echo 'Годинний пояс для JP/01: ' . $timezone;}?> `
 
 Результат виконання цього прикладу:
 

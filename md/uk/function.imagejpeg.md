@@ -14,7 +14,7 @@ imagejpeg — Виводить зображення до браузера або
 ### Опис
 
 **imagejpeg**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
+resource\|string\|null `$file` = **`null`**, int `$quality` = -1): bool
 
 Функція **imagejpeg()** створює файл JPEG із зображення `image`.
 
@@ -50,14 +50,14 @@ resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Виведення JPEG-зображень у браузер**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадкуimage/jpegheader('Content-Type:image/jpeg'); im);?> `
+`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадкуimage/jpegheader('Content-Type:image/jpeg'); im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -65,11 +65,11 @@ resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
 
 **Приклад #2 Збереження зображення JPEG у файл**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Зберігаємо зображення в 'simpletext.jpg'imagejpeg($im, 'simpletext.jpg');// Звільняємо пам'ятьimagedestroy($im);?> `
+`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Зберігаємо зображення в 'simpletext.jpg'imagejpeg($im, 'simpletext.jpg');// Звільняємо пам'ятьimagedestroy($im);?> `
 
 **Приклад #3 Висновок JPEG-зображення з 75% якістю в браузер**
 
-`<?php// Створюємо пусте зображення і додаємо текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадку image/jpegheader('Content-Type: image/jpeg'); %imagejpeg($im, NULL, 75);// Звільняємо пам'ятьimagedestroy($im);?> `
+`<?php// Створюємо пусте зображення і додаємо текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   Simple Text String', $text_color);// Встановлюємо тип вмісту в заголовок, в даному випадку image/jpegheader('Content-Type: image/jpeg'); %imagejpeg($im, NULL, 75);// Звільняємо пам'ятьimagedestroy($im);?> `
 
 ### Примітки
 

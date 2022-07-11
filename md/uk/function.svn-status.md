@@ -7,13 +7,13 @@
 
 # svn_status
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_status — Повертає SVN-статус файлів та директорій робочої копії
 
 ### Опис
 
-**svn_status**(string `$path`, int `$flags` u003d 0): array
+**svn_status**(string `$path`, int `$flags` = 0): array
 
 Повертає SVN статус файлів та директорій робочої копії, що зазнали
 модифікації, додавання, видалення та інших змін.
@@ -42,10 +42,10 @@ svn_status — Повертає SVN-статус файлів та директ�
 
 ``` returnvaluescode
 Array (
-[0] u003d> Array (
+[0] => Array (
 // інформація про елемент
 )
-[1] u003d> ...
+[1] => ...
 )
 ````
 
@@ -150,23 +150,23 @@ URL-адреса репозиторію.
 Результатом виконання цього прикладу буде щось подібне:
 
 Array (
-[0] u003d> Array (
-[path] u003d> /home/bob/wc/sandwich.txt
-[text_status] u003d> 8 // елемент змінено
-[repos_text_status] u003d> 1 // немає доступної інформації, виконати update
-[prop_status] u003d> 3 // немає змін
-[repos_prop_status] u003d> 1 // немає доступної інформації, виконати update
-[name] u003d> sandwich.txt
-[url] u003d> http://www.example.com/svnroot/deli/trunk/sandwich.txt
-[repos] u003d> http://www.example.com/svnroot/
-[revision] u003d> 123
-[kind] u003d> 1 // file
-[schedule] u003d> 0 // не заплановано жодних дій
-[cmt_date] u003d> 1165543135
-[cmt_rev] u003d> 120
-[cmt_author] u003d> Alice
-[prop_time] u003d> 1180201728
-[text_time] u003d> 1180201729
+[0] => Array (
+[path] => /home/bob/wc/sandwich.txt
+[text_status] => 8 // елемент змінено
+[repos_text_status] => 1 // немає доступної інформації, виконати update
+[prop_status] => 3 // немає змін
+[repos_prop_status] => 1 // немає доступної інформації, виконати update
+[name] => sandwich.txt
+[url] => http://www.example.com/svnroot/deli/trunk/sandwich.txt
+[repos] => http://www.example.com/svnroot/
+[revision] => 123
+[kind] => 1 // file
+[schedule] => 0 // не заплановано жодних дій
+[cmt_date] => 1165543135
+[cmt_rev] => 120
+[cmt_author] => Alice
+[prop_time] => 1180201728
+[text_time] => 1180201729
 )
 )
 

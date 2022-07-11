@@ -7,14 +7,14 @@
 
 # SolrQuery::getHighlightSimplePost
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightSimplePost — Повертає текст, який відображається
 після виділеного виразу
 
 ### Опис
 
-public **SolrQuery::getHighlightSimplePost**(string `$field_override` u003d
+public **SolrQuery::getHighlightSimplePost**(string `$field_override` =
 ?): string
 
 Повертає текст, який з'являється після виділення.

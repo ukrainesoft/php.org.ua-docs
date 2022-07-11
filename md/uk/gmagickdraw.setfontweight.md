@@ -7,7 +7,7 @@
 
 # GmagickDraw::setfontweight
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setfontweight — Встановлює товщину шрифту
 

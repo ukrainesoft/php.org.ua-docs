@@ -7,7 +7,7 @@
 
 #apache_child_terminate
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 apache_child_terminate — Завершити процес Apache після закінчення поточного
 запиту

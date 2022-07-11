@@ -7,13 +7,13 @@
 
 # MongoDB\Driver\BulkWrite::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\BulkWrite::\_\_construct - Створює новий об'єкт BulkWrite
 
 ### Опис
 
-public **MongoDB\Driver\BulkWrite::\_\_construct**(array `$options` u003d ?)
+public **MongoDB\Driver\BulkWrite::\_\_construct**(array `$options` = ?)
 
 Створює новий
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md), який
@@ -35,9 +35,9 @@ public **MongoDB\Driver\BulkWrite::\_\_construct**(array `$options` u003d ?)
 
 ### Список змін
 
-| Версія                                                     | Опис                             |
-| ---------------------------------------------------------- | -------------------------------- |
-| PECL mongodb 1.14.0                                        | Додані опції comment'' та let''. |
+| Версія              | Опис                             |
+|---------------------|----------------------------------|
+| PECL mongodb 1.14.0 | Додані опції comment'' та let''. |
 | PECL mongodb 1.1.0 Додана опція bypassDocumentValidation'. |                                  | | | | |                                     
 
 ### Приклади
@@ -45,7 +45,7 @@ public **MongoDB\Driver\BulkWrite::\_\_construct**(array `$options` u003d ?)
 **Приклад #1 Приклад використання
 **MongoDB\Driver\BulkWrite::\_\_construct()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite(['ordered' u003d> true]);$bulk->delete([]);$bulk->insert(['_id' u003d> 1, 'x ' u003d> 1]);$bulk->insert(['_id' u003d> 2, 'x' u003d> 2]);$bulk->update(    ['x' u003d> 2],    ['$set' u003d> ['x' u003d> 1]],    ['limit' u003d> 1, 'upsert' u003d> false]);$bulk->delete(['x' u003d> 1], ['limit' u003d> 1]);$bulk->update(   ['_id' u003d> 3],    ['$set' u003d> ['x' u003d> 3]],    ['limit' u003d> 1, 'upsert' ]);$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$writeConcern u003d new MongoDB\Driver\WriteConcern(1);try {     $result u003d $$ .collection', $bulk, $writeConcern);} catch (MongoDB\Driver\Exception\BulkWriteException $e) {    $result u003d $e->getWriteResult(); // Перевіряємо забезпечення гарантії запису    if ($writeConcernError u003d $result->getWriteConcernError()) {        printf("%s (%d): 
+` <?php$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);$bulk->delete([]);$bulk->insert(['_id' => 1, 'x ' => 1]);$bulk->insert(['_id' => 2, 'x' => 2]);$bulk->update(    ['x' => 2],    ['$set' => ['x' => 1]],    ['limit' => 1, 'upsert' => false]);$bulk->delete(['x' => 1], ['limit' => 1]);$bulk->update(   ['_id' => 3],    ['$set' => ['x' => 3]],    ['limit' => 1, 'upsert' ]);$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$writeConcern = new MongoDB\Driver\WriteConcern(1);try {     $result = $$ .collection', $bulk, $writeConcern);} catch (MongoDB\Driver\Exception\BulkWriteException $e) {    $result = $e->getWriteResult(); // Перевіряємо забезпечення гарантії запису    if ($writeConcernError = $result->getWriteConcernError()) {        printf("%s (%d): 
 ",            $writeConcernError->getMessage(),            $writeConcernError->getCode(),            var_export($writeConcernError->getInfo(), true)        );    }    // Проверяем, если какие-либо операции записи не были выполнены    foreach ($result ->getWriteErrors() as $writeError) {        printf("Operation#%d: %s (%d)
 ",            $writeError->getIndex(),            $writeError->getMessage(),            $writeError->getCode()        );    }} catch (MongoDB\Driver\Exception\Exception $e) {    printf("Другая ошибка: %s
 ",$e->getMessage());   exit;}printf("Додано %d документ(ів)

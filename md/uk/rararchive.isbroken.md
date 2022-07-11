@@ -9,7 +9,7 @@
 
 #rar_broken_is
 
-(PECL rar \>u003d 3.0.0)
+(PECL rar \>= 3.0.0)
 
 RarArchive::isBroken -- rar_broken_is — Перевіряє, чи не зламаний архів
 (не завершено)
@@ -47,7 +47,7 @@ public **RarArchive::isBroken**(): bool
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpfunction retnull() { return null; }$file u003d dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент служить для пригнічення повідомлень */$arch u003d RarArchive::open($file, null, 'retnull');var_dump($arch->isBroken() `
+`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент служить для пригнічення повідомлень */$arch = RarArchive::open($file, null, 'retnull');var_dump($arch->isBroken() `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -55,7 +55,7 @@ bool(true)
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpfunction retnull() { return null; }$file u003d dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент служить для придушення повідомлень */$arch u003d rar_open($file, null, 'retnull');var_dump(rar_broken_is($arch));?> ``
+`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент служить для придушення повідомлень */$arch = rar_open($file, null, 'retnull');var_dump(rar_broken_is($arch));?> ``
 
 ### Дивіться також
 

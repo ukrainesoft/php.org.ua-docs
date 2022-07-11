@@ -13,21 +13,21 @@
 Клієнт відправляє рядок серверу завдань, обробник перевертає
 рядок та відсилає її назад. Операція виконується синхронно.
 
-`<?php# Створення клієнтського об'єкта$gmclientu003d new GearmanClient();# Вказівка сервера за замовчуванням (localhost).$gmclient->addServer();echo "Sending job
-";# Отправка задания обратноdo{  $result u003d $gmclient->doNormal("reverse", "Hello!");  # Проверка на различные возвращаемые пакеты и ошибки.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA:      echo "Data: $result
+`<?php# Створення клієнтського об'єкта$gmclient= new GearmanClient();# Вказівка сервера за замовчуванням (localhost).$gmclient->addServer();echo "Sending job
+";# Отправка задания обратноdo{  $result = $gmclient->doNormal("reverse", "Hello!");  # Проверка на различные возвращаемые пакеты и ошибки.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA:      echo "Data: $result
 ";                       ¦                                            ¦                                             ???
 ";      break;    case GEARMAN_WORK_FAIL:      echo "Failed
 ";      exit;    case GEARMAN_SUCCESS:      echo "Success: $result
 ";      break;    default:      echo "RET: " . $gmclient->returnCode() . "
-";     exit; }}while($gmclient->returnCode() !u003d GEARMAN_SUCCESS);?> `
+";     exit; }}while($gmclient->returnCode() != GEARMAN_SUCCESS);?> `
 
 `<?phpecho "Starting
-";# Створення нового обробника.$gmworkeru003d new GearmanWorker();# Додавання сервера за мовчанням (localhost).$gmworker->addServer();# Реєстрація функції " більше швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Waiting for job...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
+";# Створення нового обробника.$gmworker= new GearmanWorker();# Додавання сервера за мовчанням (localhost).$gmworker->addServer();# Реєстрація функції " більше швидкої обробки без висновку.$gmworker->addFunction("reverse", "reverse_fn");print "Waiting for job...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {    echo "return_code: " . $gmworker->returnCode|.
 ";    break;  }}function reverse_fn($job){ echo "Received job: " . $job->handle() . "
-";  $workload u003d $job->workload();  $workload_size u003d $job->workloadSize(); echo "Workload: $workload ($workload_size)
-";| # Цей цикл не є необхідним, але|показує як виконується робота  for ($xu003d 0; $x < $workload_size; $x++) |
-";   $job->sendStatus($x, $workload_size);    sleep(1);  }  $resultu003d strrev($workload); echo ""Result: $result
+";  $workload = $job->workload();  $workload_size = $job->workloadSize(); echo "Workload: $workload ($workload_size)
+";| # Цей цикл не є необхідним, але|показує як виконується робота  for ($x= 0; $x < $workload_size; $x++) |
+";   $job->sendStatus($x, $workload_size);    sleep(1);  }  $result= strrev($workload); echo ""Result: $result
 ";  # Возвращаем, когда необходимо отправить результат обратно клиенту.  return $result;}# Гораздо более простая и менее подробная версия вышеприведённой функции выглядит так:function reverse_fn_fast($job){  return strrev($job->workload());} ?> `
 
 Результатом виконання цього прикладу буде щось подібне:

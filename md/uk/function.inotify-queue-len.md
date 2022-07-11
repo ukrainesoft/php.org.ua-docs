@@ -7,7 +7,7 @@
 
 #inotify_queue_len
 
-(PECL inotify \>u003d 0.1.2)
+(PECL inotify \>= 0.1.2)
 
 inotify_queue_len — Повертає кількість очікуваних подій у черзі
 

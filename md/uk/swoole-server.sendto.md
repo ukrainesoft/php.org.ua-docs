@@ -7,7 +7,7 @@
 
 # Swoole\Server::sendto
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::sendto — Надсилає дані на віддалену UDP-адресу
 
@@ -17,7 +17,7 @@ public **Swoole\Server::sendto**(
 string `$ip`,
 int `$port`,
 string `$data`,
-string `$server_socket` u003d ?
+string `$server_socket` = ?
 ): bool
 
 ### Список параметрів

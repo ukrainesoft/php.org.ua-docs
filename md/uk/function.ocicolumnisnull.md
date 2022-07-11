@@ -7,7 +7,7 @@
 
 # ocicolumnisnull
 
-(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ocicolumnisnull - Псевдонім
 [oci_field_is_null()](function.oci-field-is-null.md)

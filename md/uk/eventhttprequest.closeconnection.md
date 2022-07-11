@@ -7,7 +7,7 @@
 
 # EventHttpRequest::closeConnection
 
-(PECL event \>u003d 1.8.0)
+(PECL event \>= 1.8.0)
 
 EventHttpRequest::closeConnection — Закриває пов'язане з'єднання HTTP
 

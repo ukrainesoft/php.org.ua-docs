@@ -7,7 +7,7 @@
 
 # FANNConnection::getWeight
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 FANNConnection::getWeight — Повертає вагу зв'язку
 

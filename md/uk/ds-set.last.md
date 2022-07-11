@@ -7,7 +7,7 @@
 
 # Ds\Set::last
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::last — Повертає останнє значення колекції
 
@@ -36,7 +36,7 @@ public **Ds\Set::last**():
 
 **Приклад #1 Приклад використання **Ds\Set::last()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);var_dump($set->last());?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->last());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

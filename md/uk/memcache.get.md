@@ -7,15 +7,15 @@
 
 # Memcache::get
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::get — Вийняти елемент із сервера
 
 ### Опис
 
-**Memcache::get**(string `$key`, int `&$flags` u003d ?): string
+**Memcache::get**(string `$key`, int `&$flags` = ?): string
 
-**Memcache::get**(array `$keys`, array `&$flags` u003d ?): array
+**Memcache::get**(array `$keys`, array `&$flags` = ?): array
 
 **Memcache::get()** повертає раніше збережений елемент із ключем `key`,
 якщо він зараз існує на сервері.
@@ -47,4 +47,4 @@ Memcache::get — Вийняти елемент із сервера
 
 **Приклад #1 Приклад використання **Memcache::get()****
 
-`<?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);$var u003d memcache_get($memcache_obj, 'om'е_не$ memcache_obj->connect('memcache_host', 11211);$var u003d $memcache_obj->get('some_key');/*Також в якості параметра ви можете то мати не буде включений цей ключ. */$memcache_obj u003d new Memcache;$memcache_obj->connect('memcache_host', 11211);$var u003d $memcache_obj->get(Array('some_key', 'second_key'));?> `
+`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);$var = memcache_get($memcache_obj, 'om'е_не$ memcache_obj->connect('memcache_host', 11211);$var = $memcache_obj->get('some_key');/*Також в якості параметра ви можете то мати не буде включений цей ключ. */$memcache_obj = new Memcache;$memcache_obj->connect('memcache_host', 11211);$var = $memcache_obj->get(Array('some_key', 'second_key'));?> `

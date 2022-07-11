@@ -37,8 +37,8 @@ ip2long — Конвертує рядок, що містить IPv4-адресу
 
 **Приклад #1 Приклад використання **ip2long()****
 
-` <?php$ip u003d gethostbyname('www.example.com');$out u003d "Наступні URL еквівалентні:<br />
-";$out .u003d 'http://www.example.com/, http://' . $ip . '/, і http://' . sprintf("%u", ip2long($ip)) . "/<br />
+` <?php$ip = gethostbyname('www.example.com');$out = "Наступні URL еквівалентні:<br />
+";$out .= 'http://www.example.com/, http://' . $ip . '/, і http://' . sprintf("%u", ip2long($ip)) . "/<br />
 ";echo $out;?> `
 
 **Приклад #2 Відображення IP-адрес**
@@ -46,7 +46,7 @@ ip2long — Конвертує рядок, що містить IPv4-адресу
 Другий приклад показує як виводити конвертовані адреси за допомогою
 функції [printf()](function.printf.md):
 
-`<?php$ip   u003d gethostbyname('www.example.com');$long u003d ip2long($ip);if ($long u003du003d -1 || $long u003du003du003d FALSE) {    echo ''Невірний адресу, спробуйте ще раз';} else {    echo $ip   . "
+`<?php$ip   = gethostbyname('www.example.com');$long = ip2long($ip);if ($long == -1 || $long === FALSE) {    echo ''Невірний адресу, спробуйте ще раз';} else {    echo $ip   . "
 ";              // 192.0.34.166    echo $long . "
 ";              // -1073732954    printf("%u
 ", ip2long($ip)); // 3221234342}?> `

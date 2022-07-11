@@ -18,7 +18,7 @@ gzgetss — Повертає рядок із покажчика gz-файлу т
 
 ### Опис
 
-**gzgetss**(resource `$zp`, int `$length`, string `$allowable_tags` u003d
+**gzgetss**(resource `$zp`, int `$length`, string `$allowable_tags` =
 ?): string
 
 Аналогічно [gzgets()](function.gzgets.md), за винятком того, що
@@ -46,7 +46,7 @@ gzgetss — Повертає рядок із покажчика gz-файлу т
 
 **Приклад #1 Приклад використання **gzgetss()****
 
-` <?php$handle u003d gzopen('somefile.gz', 'r');while (!gzeof($handle)) {   $buffer u003d gzgetss($handle, 4096); echo $buffer;}gzclose($handle);?> `
+` <?php$handle = gzopen('somefile.gz', 'r');while (!gzeof($handle)) {   $buffer = gzgetss($handle, 4096); echo $buffer;}gzclose($handle);?> `
 
 ### Дивіться також
 

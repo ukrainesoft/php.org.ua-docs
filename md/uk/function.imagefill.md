@@ -48,14 +48,14 @@ y-координата початку.
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagefill()****
 
-` <?php$im u003d imagecreatetruecolor(100, 100);// установка червоного фону$red u003d imagecolorallocate($im, 255, 0, 0);imagefill($im, 0, 0, $red) Content-type:image/png');imagepng($im);imagedestroy($im);?> `
+` <?php$im = imagecreatetruecolor(100, 100);// установка червоного фону$red = imagecolorallocate($im, 255, 0, 0);imagefill($im, 0, 0, $red) Content-type:image/png');imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

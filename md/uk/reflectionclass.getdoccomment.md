@@ -32,7 +32,7 @@ doc-блок коментарів, якщо він існує, інакше
 
 **Приклад #1 Приклад використання **ReflectionClass::getDocComment()****
 
-` <?php/*** Тестовий клас** @param  foo bar* @return baz*/class TestClass { }$rc u003d new ReflectionClass('TestClass');var_dump($rc->getDocComment()); `
+` <?php/*** Тестовий клас** @param  foo bar* @return baz*/class TestClass { }$rc = new ReflectionClass('TestClass');var_dump($rc->getDocComment()); `
 
 Результат виконання цього прикладу:
 

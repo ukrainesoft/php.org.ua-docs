@@ -7,7 +7,7 @@
 
 # ReflectionFiber::getExecutingFile
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFiber::getExecutingFile — Отримує ім'я файлу поточної точки
 виконання

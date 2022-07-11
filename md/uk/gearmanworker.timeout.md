@@ -7,7 +7,7 @@
 
 # GearmanWorker::timeout
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::timeout — Отримання значення час очікування запитів на
 сокеті

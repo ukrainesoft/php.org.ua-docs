@@ -18,7 +18,7 @@ array_walk_recursive — Рекурсивно застосовує функці�
 **array_walk_recursive**(array\|object `&$array`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`**): bool
+`$arg` = **`null`**): bool
 
 Застосовує функцію користувача `callback` до кожного елемента масиву
 `input`. Ця функція обробляє кожен елемент багатовимірного масиву.
@@ -52,7 +52,7 @@ array_walk_recursive — Рекурсивно застосовує функці�
 
 **Приклад #1 Приклад використання **array_walk_recursive()****
 
-` <?php$sweet u003d array('a' u003d> 'apple', 'b' u003d> 'banana');$fruits u003d array('sweet' u003d> $sweet, 'sour' u003d> 'lemon') ;function test_print($item, $key){   echo "$key містить $item
+` <?php$sweet = array('a' => 'apple', 'b' => 'banana');$fruits = array('sweet' => $sweet, 'sour' => 'lemon') ;function test_print($item, $key){   echo "$key містить $item
 ";}array_walk_recursive($fruits, 'test_print');?> `
 
 Результат виконання цього прикладу:

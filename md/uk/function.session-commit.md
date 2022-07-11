@@ -7,7 +7,7 @@
 
 # session_commit
 
-(PHP 4 \>u003d 4.4.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.4.0, PHP 5, PHP 7, PHP 8)
 
 session_commit - Псевдонім
 [session_write_close()](function.session-write-close.md)

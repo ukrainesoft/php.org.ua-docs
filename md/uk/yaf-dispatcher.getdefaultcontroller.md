@@ -7,7 +7,7 @@
 
 # Yaf_Dispatcher::getDefaultController
 
-(Yaf \>u003d3.2.0)
+(Yaf \>=3.2.0)
 
 Yaf_Dispatcher::getDefaultController — Отримує ім'я контролера за
 замовчуванням

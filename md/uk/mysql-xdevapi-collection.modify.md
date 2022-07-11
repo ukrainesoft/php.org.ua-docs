@@ -26,7 +26,7 @@ public **mysql_xdevapi\Collection::modify**(string `$search_condition`):
 відповідності документам, які потрібно змінити. Цей вираз може
 бути простим значенням **`true`**, що відповідає всім документам,
 або може використовувати функції та оператори, такі як
-''CAST(_id AS SIGNED)>u003d 10'', ''age MOD 2 u003d 0 OR age MOD 3 u003d 0'' або
+''CAST(_id AS SIGNED)>= 10'', ''age MOD 2 = 0 OR age MOD 3 = 0'' або
 `'_id IN ["2","5","7","10"]'`.
 
 ### Значення, що повертаються
@@ -42,4 +42,4 @@ public **mysql_xdevapi\Collection::modify**(string `$search_condition`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::modify()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$collection->ad ": "Альфред", "age": 18, "job": "Дворецький"}')->execute();$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();// Додавання двох робіт для всіх художників: артист і майстер$collection ->modify("job in ('Дворецький', '>> arrayAppend('job', 'Артист')  ->arrayAppend('job', 'Майстер') ->execute();// Видалення поля 'beer' з всіх документів з віком 2$ 21') ->unset(['beer']) ->execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Альфред", "age": 18, "job": "Дворецький"}')->execute();$collection->add('{"name": "Боб",    "age": 19, "job": "Художник"}')->execute();// Додавання двох робіт для всіх художників: артист і майстер$collection ->modify("job in ('Дворецький', '>> arrayAppend('job', 'Артист')  ->arrayAppend('job', 'Майстер') ->execute();// Видалення поля 'beer' з всіх документів з віком 2$ 21') ->unset(['beer']) ->execute();?> `

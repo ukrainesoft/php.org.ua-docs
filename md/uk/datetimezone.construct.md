@@ -9,7 +9,7 @@
 
 #timezone_open
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTimeZone::\_\_construct -- timezone_open — Створює новий об'єкт
 DateTimeZone
@@ -59,7 +59,7 @@ public **DateTimeZone::\_\_construct**(string `$timezone`)
 
 **Приклад #1 Створення та приєднання DateTimeZone до DateTimeImmutable**
 
-` <?php$d u003d new DateTimeImmutable("2022-06-02 15:44:48 UTC");$timezones u003d [ 'Europe/London', 'GMT+04:45', '-06:00', 'CEST' ];foreach ($timezones as $tz) {    $tzo u003d new DateTimeZone($tz); $localu003du003d$d->setTimezone($tzo); echo $local->format(DateTimeInterface::RFC2822 . ' — e'), "
+` <?php$d = new DateTimeImmutable("2022-06-02 15:44:48 UTC");$timezones = [ 'Europe/London', 'GMT+04:45', '-06:00', 'CEST' ];foreach ($timezones as $tz) {    $tzo = new DateTimeZone($tz); $local==$d->setTimezone($tzo); echo $local->format(DateTimeInterface::RFC2822 . ' — e'), "
 ";}?> `
 
 Результат виконання цього прикладу:
@@ -73,7 +73,7 @@ Thu, 02 Jun 2022 17:44:48 +0200 - CEST
 **Приклад #2 Перехоплення помилок при створенні екземпляра
 [DateTimeZone](class.datetimezone.md)**
 
-`<?php// Обробка помилок допомогою перехоплення виключень$timezones u003d array('Europe/London', 'Mars/Phobos', 'Jupiter/Europa');foreach ($timezones as           new DateTimeZone($tz); } catch(Exception $e) {        echo $e->getMessage() . '<br />'; }}?> `
+`<?php// Обробка помилок допомогою перехоплення виключень$timezones = array('Europe/London', 'Mars/Phobos', 'Jupiter/Europa');foreach ($timezones as           new DateTimeZone($tz); } catch(Exception $e) {        echo $e->getMessage() . '<br />'; }}?> `
 
 Результат виконання цього прикладу:
 

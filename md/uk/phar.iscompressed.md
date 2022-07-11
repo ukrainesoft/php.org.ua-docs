@@ -8,7 +8,7 @@
 
 # Phar::isCompressed
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::isCompressed — Повертає Phar::GZ або PHAR::BZ2, якщо phar-архів
 стиснутий повністю (.tar.gz/tar.bz і так далі)
@@ -41,7 +41,7 @@ public **Phar::isCompressed**(): int\|false
 
 **Приклад #1 Приклад використання **Phar::isCompressed()****
 
-`<?phptry {   $phar1 u003d new Phar('myphar.zip.phar'); var_dump($phar1->isCompressed()); $phar2u003du003dnewPhar('myuncompressed.tar.phar'); var_dump($phar2->isCompressed()); $phar2->compress(Phar::GZ); var_dump($phar2->isCompressed() u003du003d Phar::GZ);} catch (Exception $e) {}?> `
+`<?phptry {   $phar1 = new Phar('myphar.zip.phar'); var_dump($phar1->isCompressed()); $phar2==newPhar('myuncompressed.tar.phar'); var_dump($phar2->isCompressed()); $phar2->compress(Phar::GZ); var_dump($phar2->isCompressed() == Phar::GZ);} catch (Exception $e) {}?> `
 
 Результат виконання цього прикладу:
 

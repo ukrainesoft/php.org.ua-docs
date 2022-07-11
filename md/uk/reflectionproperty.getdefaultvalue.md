@@ -36,7 +36,7 @@ public **ReflectionProperty::getDefaultValue**():
 **Приклад #1 Приклад використання
 **ReflectionProperty::getDefaultValue()****
 
-`<?phpclass Foo {    public $bar u003d 1; public ?int $baz; public int $boing u003d 0;}$ro u003d new ReflectionClass(Foo::class);var_dump($ro->getProperty('bar')->getDefaultValue());var_dump($ro->getProperty('baz') )->getDefaultValue());var_dump($ro->getProperty('boing')->getDefaultValue());?> `
+`<?phpclass Foo {    public $bar = 1; public ?int $baz; public int $boing = 0;}$ro = new ReflectionClass(Foo::class);var_dump($ro->getProperty('bar')->getDefaultValue());var_dump($ro->getProperty('baz') )->getDefaultValue());var_dump($ro->getProperty('boing')->getDefaultValue());?> `
 
 Результат виконання цього прикладу:
 

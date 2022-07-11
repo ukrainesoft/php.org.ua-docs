@@ -7,7 +7,7 @@
 
 # Phar::compressFiles
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::compressFiles — Стискає всі файли в поточному Phar-архіві
 
@@ -66,7 +66,7 @@ INI-змінна
 
 **Приклад #1 Приклад використання **Phar::compressFiles()****
 
-` <?php$p u003d new Phar('/шлях/к/my.phar', 0, 'my.phar');$p['myfile.txt'] u003d 'привіт';$p['myfile2. txt'] u003d 'привіт';foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
+` <?php$p = new Phar('/шлях/к/my.phar', 0, 'my.phar');$p['myfile.txt'] = 'привіт';$p['myfile2. txt'] = 'привіт';foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
 
 Результат виконання цього прикладу:
 

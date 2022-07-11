@@ -7,14 +7,14 @@
 
 # Zookeeper::exists
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::exists — Синхронно перевіряє наявність вузла в zookeeper
 
 ### Опис
 
 public **Zookeeper::exists**(string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**):
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**):
 array
 
 ### Список параметрів
@@ -49,7 +49,7 @@ array
 
 Перевірити наявність вузла.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/path/to/node';$r u003d $zookeeper->exists($path);if ($r) echo '' ';else  echo 'Не визначено або помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$r = $zookeeper->exists($path);if ($r) echo '' ';else  echo 'Не визначено або помилка';?> `
 
 Результат виконання цього прикладу:
 

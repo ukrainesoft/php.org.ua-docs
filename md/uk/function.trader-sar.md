@@ -7,7 +7,7 @@
 
 # trader_sar
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_sar - Параболічний SAR
 
@@ -16,8 +16,8 @@ trader_sar - Параболічний SAR
 **trader_sar**(
 array `$high`,
 array `$low`,
-float `$acceleration` u003d ?,
-float `$maximum` u003d ?
+float `$acceleration` = ?,
+float `$maximum` = ?
 ): array
 
 ### Список параметрів

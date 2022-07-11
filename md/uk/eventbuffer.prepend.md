@@ -7,7 +7,7 @@
 
 # EventBuffer::prepend
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBuffer::prepend — Записує дані на початок буфера
 

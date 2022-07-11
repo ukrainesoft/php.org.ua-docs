@@ -7,14 +7,14 @@
 
 # Swoole\Http\Client::push
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::push - Передає дані в клієнт websocket
 
 ### Опис
 
-public **Swoole\Http\Client::push**(string `$data`, string `$opcode` u003d
-?, string `$finish` u003d ?): void
+public **Swoole\Http\Client::push**(string `$data`, string `$opcode` =
+?, string `$finish` = ?): void
 
 ### Список параметрів
 

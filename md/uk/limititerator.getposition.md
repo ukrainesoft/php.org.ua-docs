@@ -7,7 +7,7 @@
 
 # LimitIterator::getPosition
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 LimitIterator::getPosition — Повертає поточну позицію
 
@@ -30,7 +30,7 @@ public **LimitIterator::getPosition**(): int
 
 **Приклад #1 Приклад використання **LimitIterator::getPosition()****
 
-` <?php$fruits u003d array(    'a' u003d> 'apple',   'b' u003d> 'banana',    'c' u003d> 'cherry' ' ' ' '       'elderberry');$array_it u003d new ArrayIterator($fruits);$limit_it u003d new LimitIterator($array_it, 2, 3);foreach ($limit_it as $item) {  | ' ' . $item . "
+` <?php$fruits = array(    'a' => 'apple',   'b' => 'banana',    'c' => 'cherry' ' ' ' '       'elderberry');$array_it = new ArrayIterator($fruits);$limit_it = new LimitIterator($array_it, 2, 3);foreach ($limit_it as $item) {  | ' ' . $item . "
 ";}?> `
 
 Результат виконання цього прикладу:

@@ -9,7 +9,7 @@
 
 #gearman_job_status
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::jobStatus -- gearman_job_status — Отримання статусу
 виконання фонового завдання
@@ -43,8 +43,8 @@ public **GearmanClient::jobStatus**(string `$job_handle`): array
 **Приклад #1 Моніторинг процесу обробки, що довго виконується у фоновому
 режимі завдання**
 
-` <?php/* створюємо клієнта */$gmclientu003d new GearmanClient();/* додаємо сервер за мовчанням */$gmclient->addServer();/* запускаємо клієнт */$jo reverse", "this is a test");if ($gmclient->returnCode() !u003d GEARMAN_SUCCESS){ echo "Не удалося виконати завдання
-";  exit;}$done u003d false;do{   sleep(3);   $stat u003d $gmclient->jobStatus($job_handle);   if (!$stat[0])| done u003d true;   echo "Виконується: " . ($stat[1] ? "true" : "false") . ", оброблено: " . $stat[2] . ", | "
+` <?php/* створюємо клієнта */$gmclient= new GearmanClient();/* додаємо сервер за мовчанням */$gmclient->addServer();/* запускаємо клієнт */$jo reverse", "this is a test");if ($gmclient->returnCode() != GEARMAN_SUCCESS){ echo "Не удалося виконати завдання
+";  exit;}$done = false;do{   sleep(3);   $stat = $gmclient->jobStatus($job_handle);   if (!$stat[0])| done = true;   echo "Виконується: " . ($stat[1] ? "true" : "false") . ", оброблено: " . $stat[2] . ", | "
 ";}while(!$done);echo "завершено!
 ";?> `
 

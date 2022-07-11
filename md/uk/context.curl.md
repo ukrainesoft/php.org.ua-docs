@@ -71,7 +71,7 @@ URI, який вказує адресу проксі-сервера. (Напри
 
 **Приклад #1 Отримує сторінку та надсилає POST-запит**
 
-` <?php$postdata u003d http_build_query(    array(        'var1' u003d> 'некоторое содержимое',        'var2' u003d> 'doh'    ));$opts u003d array('http' u003d>    array(        'method'  u003d> ' POST',         ¦                                     ¦¦ ://example.com/submit.php', false, $context);?> `
+` <?php$postdata = http_build_query(    array(        'var1' => 'некоторое содержимое',        'var2' => 'doh'    ));$opts = array('http' =>    array(        'method'  => ' POST',         ¦                                     ¦¦ ://example.com/submit.php', false, $context);?> `
 
 ### Дивіться також
 

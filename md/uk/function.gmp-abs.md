@@ -7,7 +7,7 @@
 
 #gmp_abs
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_abs - Абсолютна величина
 
@@ -32,7 +32,7 @@ gmp_abs - Абсолютна величина
 
 **Приклад #1 Приклад використання **gmp_abs()****
 
-$$abs1u003du003dgmp_abs("274982683358"); $abs2 u003d gmp_abs("-274982683358"); echo gmp_strval($abs1) . "
+$$abs1==gmp_abs("274982683358"); $abs2 = gmp_abs("-274982683358"); echo gmp_strval($abs1) . "
 ";     echo gmp_strval($abs2) . "
 ";     ?> `
 

@@ -7,7 +7,7 @@
 
 # Gmagick::nextimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::nextimage — Здійснює перехід до наступного зображення
 

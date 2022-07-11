@@ -14,7 +14,7 @@ UI\Controls\Box::append — Додати елемент керування
 ### Опис
 
 public **UI\Controls\Box::append**(Control `$control`, bool `$stretchy`
-u003d **`false`**): int
+= **`false`**): int
 
 Додасть заданий керуючий елемент до цього блоку
 

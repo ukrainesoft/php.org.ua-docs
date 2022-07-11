@@ -8,7 +8,7 @@ EvLoop
 
 # EvLoop::embed
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::embed — Створює екземпляр спостерігача EvEmbed, пов'язаний з
 поточним об'єктом EvLoop
@@ -17,9 +17,9 @@ EvLoop::embed — Створює екземпляр спостерігача EvE
 
 final public **EvLoop::embed**(
 string `$other` ,
-string `$callback` u003d ?,
-string `$data` u003d ?,
-string `$priority` u003d ?
+string `$callback` = ?,
+string `$data` = ?,
+string `$priority` = ?
 ): [EvEmbed](class.evembed.md)
 
 Створює екземпляр спостерігача [EvEmbed](class.evembed.md), пов'язаний із

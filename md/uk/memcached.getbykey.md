@@ -7,7 +7,7 @@
 
 # Memcached::getByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getByKey — Отримує запис із певного сервера
 
@@ -16,8 +16,8 @@ Memcached::getByKey — Отримує запис із певного серве
 public **Memcached::getByKey**(
 string `$server_key`,
 string `$key`,
-[callable](language.types.callable.md) `$cache_cb` u003d ?,
-int `$flags` u003d ?
+[callable](language.types.callable.md) `$cache_cb` = ?,
+int `$flags` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -55,7 +55,7 @@ Callback-функція для читання, що кешується, або *
 ### Список змін
 
 | Версія               | Опис                                                                                                                                                              |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL memcached 3.0.0 | Видалено параметр &cas_token. Замість нього доданий параметр flags, в який можна передати значення **Memcached::GET_EXTENDED** для того, щоб повернуто токен CAS. |
 
 ### Дивіться також

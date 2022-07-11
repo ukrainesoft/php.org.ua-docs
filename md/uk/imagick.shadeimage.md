@@ -45,4 +45,4 @@ public **Imagick::shadeImage**(bool `$gray`, float `$azimuth`, float
 
 **Приклад #1 Приклад використання **Imagick::shadeImage()****
 
-` <?phpfunction shadeImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->shadeImage(true, 45, 20); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction shadeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->shadeImage(true, 45, 20); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

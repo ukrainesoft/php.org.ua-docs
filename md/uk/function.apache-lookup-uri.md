@@ -62,28 +62,28 @@ Apache у веб-серверах.
 
 **Приклад #1 Приклад використання **apache_lookup_uri()****
 
-` <?php$info u003d apache_lookup_uri('index.php?varu003dvalue');print_r($info);if (file_exists($info->filename)) {    echo 'file exists!';}?> `
+` <?php$info = apache_lookup_uri('index.php?var=value');print_r($info);if (file_exists($info->filename)) {    echo 'file exists!';}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 stdClass Object
 (
-[status] u003d> 200
-[the_request] u003d> GET /dir/file.php HTTP/1.1
-[method] u003d> GET
-[mtime] u003d> 0
-[clength] u003d> 0
-[chunked] u003d> 0
-[content_type] u003d> application/x-httpd-php
-[no_cache] u003d> 0
-[no_local_copy] u003d> 1
-[unparsed_uri] u003d> /dir/index.php?varu003dvalue
-[uri] u003d> /dir/index.php
-[filename] u003d> /home/htdocs/dir/index.php
-[args] u003d> varu003dvalue
-[allowed] u003d> 0
-[sent_bodyct] u003d> 0
-[bytes_sent] u003d> 0
-[request_time] u003d> 1074282764
+[status] => 200
+[the_request] => GET /dir/file.php HTTP/1.1
+[method] => GET
+[mtime] => 0
+[clength] => 0
+[chunked] => 0
+[content_type] => application/x-httpd-php
+[no_cache] => 0
+[no_local_copy] => 1
+[unparsed_uri] => /dir/index.php?var=value
+[uri] => /dir/index.php
+[filename] => /home/htdocs/dir/index.php
+[args] => var=value
+[allowed] => 0
+[sent_bodyct] => 0
+[bytes_sent] => 0
+[request_time] => 1074282764
 )
 file exists!

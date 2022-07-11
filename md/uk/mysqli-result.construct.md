@@ -15,7 +15,7 @@ mysqli_result::\_\_construct — Конструктор об'єкту
 ### Опис
 
 public **mysqli_result::\_\_construct**([mysqli](class.mysqli.md)
-`$mysql`, int `$result_mode` u003d **`MYSQLI_STORE_RESULT`**)
+`$mysql`, int `$result_mode` = **`MYSQLI_STORE_RESULT`**)
 
 Метод створює новий об'єкт [mysqli_result](class.mysqli-result.md).
 
@@ -57,7 +57,7 @@ public **mysqli_result::\_\_construct**([mysqli](class.mysqli.md)
 **Приклад #1 Приклад створення об'єкта
 [mysqli_result](class.mysqli-result.md)**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* SELECT-запроси SELECT Name FROM City LIMIT 10");$result u003d new mysqli_result($mysqli);printf("Запит вернув %d записів.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* SELECT-запроси SELECT Name FROM City LIMIT 10");$result = new mysqli_result($mysqli);printf("Запит вернув %d записів.
 ", $result->num_rows); `
 
 Результатом виконання даних прикладів буде щось подібне:

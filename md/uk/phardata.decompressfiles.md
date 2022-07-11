@@ -7,7 +7,7 @@
 
 # PharData::decompressFiles
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::decompressFiles — Розпакувати всі файли у поточному zip-архіві
 
@@ -52,7 +52,7 @@ public **PharData::decompressFiles**(): bool
 
 **Приклад #1 Приклад використання **PharData::decompressFiles()****
 
-` <?php$p u003d new PharData('/path/to/my.zip');$p['myfile.txt'] u003d 'hi';$p['myfile2.txt'] u003d 'hi'; $p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->decompressFiles();foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
+` <?php$p = new PharData('/path/to/my.zip');$p['myfile.txt'] = 'hi';$p['myfile2.txt'] = 'hi'; $p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->decompressFiles();foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::setCookies
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::setCookies — Встановлює cookies для HTTP-запиту
 

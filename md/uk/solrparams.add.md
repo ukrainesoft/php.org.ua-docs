@@ -7,7 +7,7 @@
 
 # SolrParams::add
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::add — Псевдонім SolrParams::addParam
 

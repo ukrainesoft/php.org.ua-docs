@@ -7,7 +7,7 @@
 
 # Клас Yaf_Response_Abstract
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **Yaf_Response_Abstract** {
 
 /\* Константи \*/
 
-const string `DEFAULT_BODY` u003d "content";
+const string `DEFAULT_BODY` = "content";
 
 /\* Властивості \*/
 
@@ -32,20 +32,20 @@ protected `$_sendheader`;
 public [\_\_construct](yaf-response-abstract.construct.md)()
 
 public [appendBody](yaf-response-abstract.appendbody.md)(string
-`$content`, string `$key` u003d ?): bool
+`$content`, string `$key` = ?): bool
 
-public [clearBody](yaf-response-abstract.clearbody.md)(string `$key` u003d
+public [clearBody](yaf-response-abstract.clearbody.md)(string `$key` =
 ?): bool
 
 public [clearHeaders](yaf-response-abstract.clearheaders.md)(): void
 
-public [getBody](yaf-response-abstract.getbody.md)(string `$key` u003d ?):
+public [getBody](yaf-response-abstract.getbody.md)(string `$key` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getHeader](yaf-response-abstract.getheader.md)(): void
 
 public [prependBody](yaf-response-abstract.prependbody.md)(string
-`$content`, string `$key` u003d ?): bool
+`$content`, string `$key` = ?): bool
 
 public [response](yaf-response-abstract.response.md)(): void
 
@@ -53,10 +53,10 @@ protected [setAllHeaders](yaf-response-abstract.setallheaders.md)():
 void
 
 public [setBody](yaf-response-abstract.setbody.md)(string `$content`,
-string `$key` u003d ?): bool
+string `$key` = ?): bool
 
 public [setHeader](yaf-response-abstract.setheader.md)(string `$name`,
-string `$value`, bool `$replace` u003d ?): bool
+string `$value`, bool `$replace` = ?): bool
 
 public [setRedirect](yaf-response-abstract.setredirect.md)(string
 `$url`): bool

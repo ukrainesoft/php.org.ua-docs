@@ -16,8 +16,8 @@ stream_copy_to_stream — Копіює дані з одного потоку д�
 **stream_copy_to_stream**(
 resource `$from`,
 resource `$to`,
-?int `$length` u003d **`null`**,
-int `$offset` u003d 0
+?int `$length` = **`null`**,
+int `$offset` = 0
 ): int\|false
 
 Робить копію до `length` байт даних від поточної позиції (або від позиції
@@ -47,14 +47,14 @@ int `$offset` u003d 0
 ### Список змін
 
 | Версія | Опис                                          |
-| ------ | --------------------------------------------- |
+|--------|-----------------------------------------------|
 | 8.0.0  | Параметр length тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **stream_copy_to_stream()****
 
-` <?php$src u003d fopen('http://www.example.com', 'r');$dest1 u003d fopen('first1k.txt', 'w');$dest2 u003d fopen('remainder. txt', 'w');echo stream_copy_to_stream($src, $dest1, 1024) . "Байт|скопійовано|в|first1k.txt
+` <?php$src = fopen('http://www.example.com', 'r');$dest1 = fopen('first1k.txt', 'w');$dest2 = fopen('remainder. txt', 'w');echo stream_copy_to_stream($src, $dest1, 1024) . "Байт|скопійовано|в|first1k.txt
 ";echo stream_copy_to_stream($src, $dest2) . " байт скопійовано в remainder.txt
 ";?> `
 

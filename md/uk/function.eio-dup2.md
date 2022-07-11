@@ -7,7 +7,7 @@
 
 # eio_dup2
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_dup2 — Створює дублікат дескриптора файлу
 
@@ -18,10 +18,10 @@ eio_dup2 — Створює дублікат дескриптора файлу
 `$fd`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd2`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_dup2()** створює дублікат дескриптора файлу.

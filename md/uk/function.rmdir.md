@@ -13,7 +13,7 @@ rmdir — Видаляє директорію
 
 ### Опис
 
-**rmdir**(string `$directory`, ?resource `$context` u003d **`null`**): bool
+**rmdir**(string `$directory`, ?resource `$context` = **`null`**): bool
 
 Намагається видалити директорію з ім'ям directory. Директорія має бути
 порожній і повинні бути необхідні для цього права. При невдалому

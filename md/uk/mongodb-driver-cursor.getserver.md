@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::getServer
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Cursor::getServer — Повертає сервер, пов'язаний з
 курсором
@@ -41,50 +41,50 @@ final public **MongoDB\Driver\Cursor::getServer**():
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Cursor::getServer()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$query u003d new MongoDB\Driver\Query([]);$bulk u003d new MongoDB\Driver\BulkWrite; bulk->insert(['x' u003d> 1]);$manager->executeBulkWrite('db.collection', $bulk);$cursor u003d $manager->executeQuery('db.collection', $query); var_dump($cursor->getServer());?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$query = new MongoDB\Driver\Query([]);$bulk = new MongoDB\Driver\BulkWrite; bulk->insert(['x' => 1]);$manager->executeBulkWrite('db.collection', $bulk);$cursor = $manager->executeQuery('db.collection', $query); var_dump($cursor->getServer());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\Server)#5 (10) {
-["host"]u003d>
+["host"]=>
 string(9) "localhost"
-["port"]u003d>
+["port"]=>
 int(27017)
-["type"]u003d>
+["type"]=>
 int(1)
-["is_primary"]u003d>
+["is_primary"]=>
 bool(false)
-["is_secondary"]u003d>
+["is_secondary"]=>
 bool(false)
-["is_arbiter"]u003d>
+["is_arbiter"]=>
 bool(false)
-["is_hidden"]u003d>
+["is_hidden"]=>
 bool(false)
-["is_passive"]u003d>
+["is_passive"]=>
 bool(false)
-["last_hello_response"]u003d>
+["last_hello_response"]=>
 array(8) {
-["isWritablePrimary"]u003d>
+["isWritablePrimary"]=>
 bool(true)
-["maxBsonObjectSize"]u003d>
+["maxBsonObjectSize"]=>
 int(16777216)
-["maxMessageSizeBytes"]u003d>
+["maxMessageSizeBytes"]=>
 int(48000000)
-["maxWriteBatchSize"]u003d>
+["maxWriteBatchSize"]=>
 int(1000)
-["localTime"]u003d>
+["localTime"]=>
 object(MongoDB\BSON\UTCDateTime)#6 (1) {
-["milliseconds"]u003d>
+["milliseconds"]=>
 int(1446505367907)
 }
-["maxWireVersion"]u003d>
+["maxWireVersion"]=>
 int(3)
-["minWireVersion"]u003d>
+["minWireVersion"]=>
 int(0)
-["ok"]u003d>
+["ok"]=>
 float(1)
 }
-["round_trip_time"]u003d>
+["round_trip_time"]=>
 int(584)
 }
 

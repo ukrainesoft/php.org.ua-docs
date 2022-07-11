@@ -9,7 +9,7 @@
 
 # Zookeeper::getClientId
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::getClientId — Повертає ідентифікатор сесії клієнта,
 дійсний тільки в тому випадку, якщо з'єднання в даний час

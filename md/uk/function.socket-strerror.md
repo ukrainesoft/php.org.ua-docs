@@ -7,7 +7,7 @@
 
 # socket_strerror
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_strerror — Повертає рядок, що описує помилку сокету
 
@@ -40,8 +40,8 @@ socket_strerror — Повертає рядок, що описує помилк�
 
 **Приклад #1 Приклад використання **socket_strerror()****
 
-` <?phpif (false u003du003d ($socket u003d @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {   echo "socket_create() не виконана: причина: " . socket_strerror(socket_last_error()) . "
-";}if(false u003du003d (@socket_bind($socket, '127.0.0.1', 80))) {   echo "socket_bind() не виконано: причина: "socket_strerror( . . socket_strerror
+` <?phpif (false == ($socket = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP))) {   echo "socket_create() не виконана: причина: " . socket_strerror(socket_last_error()) . "
+";}if(false == (@socket_bind($socket, '127.0.0.1', 80))) {   echo "socket_bind() не виконано: причина: "socket_strerror( . . socket_strerror
 ";}?> `
 
 Очікуваний висновок з прикладу вище (маю на увазі, що скрипт не запущено

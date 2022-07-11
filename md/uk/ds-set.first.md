@@ -7,7 +7,7 @@
 
 # Ds\Set::first
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::first — Повертає перший елемент колекції
 
@@ -36,7 +36,7 @@ public **Ds\Set::first**():
 
 **Приклад #1 Приклад використання **Ds\Set::first()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);var_dump($set->first());?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->first());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

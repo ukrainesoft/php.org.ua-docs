@@ -8,7 +8,7 @@
 
 # ZipArchive::clearError
 
-(PHP 8 \>u003d 8.2.0, PECL zip \>u003d 1.20.0)
+(PHP 8 \>= 8.2.0, PECL zip \>= 1.20.0)
 
 ZipArchive::clearError — Видаляє повідомлення про помилку статусу, системні
 та/або повідомлення модуля zip

@@ -8,7 +8,7 @@
 
 # SplObjectStorage::removeAllExcept
 
-(PHP 5 \>u003d 5.3.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
 
 SplObjectStorage::removeAllExcept — Видаляє з поточного контейнера все
 об'єкти, яких немає в іншому контейнері
@@ -37,7 +37,7 @@ public
 **Приклад #1 Приклад використання
 **SplObjectStorage::removeAllExcept()****
 
-` <?php$a u003d (object) 'a';$b u003d (object) 'b';$c u003d (object) 'c';$foo u003d new SplObjectStorage;$foo->attach($a); $foo->attach($b);$bar u003d new SplObjectStorage;$bar->attach($b);$bar->attach($c);$foo->removeAllExcept($bar);var_dump($foo ->contains($a));var_dump($foo->contains($b));?> `
+` <?php$a = (object) 'a';$b = (object) 'b';$c = (object) 'c';$foo = new SplObjectStorage;$foo->attach($a); $foo->attach($b);$bar = new SplObjectStorage;$bar->attach($b);$bar->attach($c);$foo->removeAllExcept($bar);var_dump($foo ->contains($a));var_dump($foo->contains($b));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

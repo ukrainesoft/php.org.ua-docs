@@ -39,7 +39,7 @@ rewind — Скидає курсор вказівника файлу
 
 **Приклад #1 Приклад перезапису **rewind()****
 
-` <?php$handle u003dfopen('output.txt', 'r+');fwrite($handle, 'Жахливо довга пропозиція.');rewind($handle);fwrite($handle, 'Оп');rewind ($handle);echo fread($handle, filesize('output.txt'));fclose($handle);?> `
+` <?php$handle =fopen('output.txt', 'r+');fwrite($handle, 'Жахливо довга пропозиція.');rewind($handle);fwrite($handle, 'Оп');rewind ($handle);echo fread($handle, filesize('output.txt'));fclose($handle);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

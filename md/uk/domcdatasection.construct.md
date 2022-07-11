@@ -28,11 +28,11 @@ public **DOMCdataSection::\_\_construct**(string `$data`)
 
 **Приклад #1 Створення об'єкта класу DOMCdataSection**
 
-` <?php$dom u003d new DOMDocument('1.0', 'utf-8');$element u003d $dom->appendChild(new DOMElement('root'));$text u003d $element->appendChild(new DOMC ('root value'));echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'utf-8');$element = $dom->appendChild(new DOMElement('root'));$text = $element->appendChild(new DOMC ('root value'));echo $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root><![CDATA[root value]]></root>
 
 ### Дивіться також

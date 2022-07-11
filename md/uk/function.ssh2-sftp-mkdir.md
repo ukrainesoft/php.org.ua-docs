@@ -7,7 +7,7 @@
 
 # ssh2_sftp_mkdir
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_mkdir — Створити директорію
 
@@ -16,8 +16,8 @@ ssh2_sftp_mkdir — Створити директорію
 **ssh2_sftp_mkdir**(
 resource `$sftp`,
 string `$dirname`,
-int `$mode` u003d 0777,
-bool `$recursive` u003d **`false`**
+int `$mode` = 0777,
+bool `$recursive` = **`false`**
 ): bool
 
 Створює директорію на сервері із заданими в `mode` правами доступу.
@@ -50,7 +50,7 @@ bool `$recursive` u003d **`false`**
 
 **Приклад #1 Створення директорії на віддаленому сервері**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);ssh2_sftp_mkdir home/username/newdir');/* Або так: mkdir("ssh2.sftp://$sftp/home/username/newdir"); */?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_mkdir home/username/newdir');/* Або так: mkdir("ssh2.sftp://$sftp/home/username/newdir"); */?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 #rrd_lastupdate
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 rrd_lastupdate — Отримує інформацію про останні оновлені дані
 

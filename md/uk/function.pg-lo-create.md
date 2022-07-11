@@ -7,16 +7,16 @@
 
 #pg_lo_create
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_lo_create — Створює великий об'єкт
 
 ### Опис
 
 **pg_lo_create**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?,
+`$connection` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_id` u003d ?): int
+`$object_id` = ?): int
 
 **pg_lo_create**([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$object_id`): int
@@ -64,13 +64,13 @@ PostgreSQL типу `bytea` для зберігання двійкових да�
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_create()****
 
-`<?php  $database u003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); $oidu003du003dpg_lo_create($database); echo "$oid
-";   $handle u003d pg_lo_open($database, $oid, "w");  echo "$handle
+`<?php  $database =pg_connect("dbname=jacarta"); pg_query($database, "begin"); $oid==pg_lo_create($database); echo "$oid
+";   $handle = pg_lo_open($database, $oid, "w");  echo "$handle
 ";  pg_lo_write($handle, "large object data");   pg_lo_close($handle);   pg_query($database, "commit");?> `

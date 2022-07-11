@@ -7,7 +7,7 @@
 
 # ZipArchive::getExternalAttributesIndex
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8, PECL zip \>u003d 1.12.4)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
 
 ZipArchive::getExternalAttributesIndex — Видобути зовнішні атрибути запису
 за її індексом
@@ -18,7 +18,7 @@ public **ZipArchive::getExternalAttributesIndex**(
 int `$index`,
 int `&$opsys`,
 int `&$attr`,
-int `$flags` u003d ?
+int `$flags` = ?
 ): bool
 
 Витягує зовнішні атрибути запису за її індексом.
@@ -52,6 +52,6 @@ int `$flags` u003d ?
 
 **Приклад #1 Виймаємо всі записи з їхніми правами Unix**
 
-` <?php$zip u003d new ZipArchive();if ($zip->open('test.zip') u003du003du003d TRUE) {    for ($idxu003d0 ; $s u003d $zip->statIndex($idx ) ; $idx++) {        if ($zip->extractTo('.', $s['name'])) {            if ($zip->getExternalAttributesIndex($idx, $opsys, $attr)                && $opsysu003du003d ZipArchive::OPSYS_UNIX) {                chmod($s['name'], ($attr >> 16) & 0777); }         }    }}     $zip->close(); echo "готово
+` <?php$zip = new ZipArchive();if ($zip->open('test.zip') === TRUE) {    for ($idx=0 ; $s = $zip->statIndex($idx ) ; $idx++) {        if ($zip->extractTo('.', $s['name'])) {            if ($zip->getExternalAttributesIndex($idx, $opsys, $attr)                && $opsys== ZipArchive::OPSYS_UNIX) {                chmod($s['name'], ($attr >> 16) & 0777); }         }    }}     $zip->close(); echo "готово
 ";} else {    echo "помилка
 ";}?> `

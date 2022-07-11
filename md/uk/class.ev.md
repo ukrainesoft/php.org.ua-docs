@@ -7,7 +7,7 @@
 
 # Клас Ev
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -20,73 +20,73 @@ final class **Ev** {
 
 /\* Константи \*/
 
-const int `FLAG_AUTO` u003d 0;
+const int `FLAG_AUTO` = 0;
 
-const int `FLAG_NOENV` u003d 16777216;
+const int `FLAG_NOENV` = 16777216;
 
-const int `FLAG_FORKCHECK` u003d 33554432;
+const int `FLAG_FORKCHECK` = 33554432;
 
-const int `FLAG_NOINOTIFY` u003d 1048576;
+const int `FLAG_NOINOTIFY` = 1048576;
 
-const int `FLAG_SIGNALFD` u003d 2097152;
+const int `FLAG_SIGNALFD` = 2097152;
 
-const int `FLAG_NOSIGMASK` u003d 4194304;
+const int `FLAG_NOSIGMASK` = 4194304;
 
-const int `RUN_NOWAIT` u003d 1;
+const int `RUN_NOWAIT` = 1;
 
-const int `RUN_ONCE` u003d 2;
+const int `RUN_ONCE` = 2;
 
-const int `BREAK_CANCEL` u003d 0;
+const int `BREAK_CANCEL` = 0;
 
-const int `BREAK_ONE` u003d 1;
+const int `BREAK_ONE` = 1;
 
-const int `BREAK_ALL` u003d 2;
+const int `BREAK_ALL` = 2;
 
-const int `MINPRI` u003d -2;
+const int `MINPRI` = -2;
 
-const int `MAXPRI` u003d 2;
+const int `MAXPRI` = 2;
 
-const int `READ` u003d 1;
+const int `READ` = 1;
 
-const int `WRITE` u003d 2;
+const int `WRITE` = 2;
 
-const int `TIMER` u003d 256;
+const int `TIMER` = 256;
 
-const int `PERIODIC` u003d 512;
+const int `PERIODIC` = 512;
 
-const int `SIGNAL` u003d 1024;
+const int `SIGNAL` = 1024;
 
-const int `CHILD` u003d 2048;
+const int `CHILD` = 2048;
 
-const int `STAT` u003d 4096;
+const int `STAT` = 4096;
 
-const int `IDLE` u003d 8192;
+const int `IDLE` = 8192;
 
-const int `PREPARE` u003d 16384;
+const int `PREPARE` = 16384;
 
-const int `CHECK` u003d 32768;
+const int `CHECK` = 32768;
 
-const int `EMBED` u003d 65536;
+const int `EMBED` = 65536;
 
-const int `CUSTOM` u003d 16777216;
+const int `CUSTOM` = 16777216;
 
-const int `ERROR` u003d 2147483648;
+const int `ERROR` = 2147483648;
 
-const int `BACKEND_SELECT` u003d 1;
+const int `BACKEND_SELECT` = 1;
 
-const int `BACKEND_POLL` u003d 2;
+const int `BACKEND_POLL` = 2;
 
-const int `BACKEND_EPOLL` u003d 4;
+const int `BACKEND_EPOLL` = 4;
 
-const int `BACKEND_KQUEUE` u003d 8;
+const int `BACKEND_KQUEUE` = 8;
 
-const int `BACKEND_DEVPOLL` u003d 16;
+const int `BACKEND_DEVPOLL` = 16;
 
-const int `BACKEND_PORT` u003d 32;
+const int `BACKEND_PORT` = 32;
 
-const int `BACKEND_ALL` u003d 63;
+const int `BACKEND_ALL` = 63;
 
-const int `BACKEND_MASK` u003d 65535;
+const int `BACKEND_MASK` = 65535;
 
 /\* Методи \*/
 
@@ -114,11 +114,11 @@ final public static
 
 final public static [resume](ev.resume.md)(): void
 
-final public static [run](ev.run.md)( int `$flags` u003d ?): void
+final public static [run](ev.run.md)( int `$flags` = ?): void
 
 final public static [sleep](ev.sleep.md)( float `$seconds`): void
 
-final public static [stop](ev.stop.md)( int `$how` u003d ?): void
+final public static [stop](ev.stop.md)( int `$how` = ?): void
 
 final public static [supportedBackends](ev.supportedbackends.md)():
 int

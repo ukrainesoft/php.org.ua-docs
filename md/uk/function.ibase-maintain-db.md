@@ -18,7 +18,7 @@ ibase_maintain_db — Виконує команду обслуговування
 resource `$service_handle`,
 string `$db`,
 int `$action`,
-int `$argument` u003d 0
+int `$argument` = 0
 ): bool
 
 **Увага**

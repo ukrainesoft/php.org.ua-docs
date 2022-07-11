@@ -7,7 +7,7 @@
 
 # Ds\Set::contains
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::contains — Перевіряє, чи міститься в колекції
 значення
@@ -45,7 +45,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Set::contains()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);var_dump($set->contains(1)); // Truevar_dump ($ set-> contains (1, 2)); // Truevar_dump ($ set-> contains (... [1, 2])); // Truevar_dump($set->contains("1")); //falsevar_dump($set->contains(...[1, 2, 3, 4])); //falsevar_dump($set->contains(...[])); // true?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->contains(1)); // Truevar_dump ($ set-> contains (1, 2)); // Truevar_dump ($ set-> contains (... [1, 2])); // Truevar_dump($set->contains("1")); //falsevar_dump($set->contains(...[1, 2, 3, 4])); //falsevar_dump($set->contains(...[])); // true?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

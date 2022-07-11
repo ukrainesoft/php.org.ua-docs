@@ -27,7 +27,7 @@ MySQL сервер підтримує неіменовані, або позиц�
 
 **Приклад #1 Підготовлений запит**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");/* Підготовлений запрос, крок1: підготовка */$stmt u003d $mysqli- (id, label) VALUES (?, ?)");/* Підготовлений запит, крок2: зв'язування і виконання */$id u003d 1;$label u003d 'PHP';$stmt->bind_param(" id, $label); // "is"  означає, що $id зв'язується, як ціле число, а $label - як рядок$stmt->execute(); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");/* Підготовлений запрос, крок1: підготовка */$stmt = $mysqli- (id, label) VALUES (?, ?)");/* Підготовлений запит, крок2: зв'язування і виконання */$id = 1;$label = 'PHP';$stmt->bind_param(" id, $label); // "is"  означає, що $id зв'язується, як ціле число, а $label - як рядок$stmt->execute(); `
 
 *Повторне виконання запиту*
 
@@ -39,30 +39,30 @@ MySQL сервер підтримує неіменовані, або позиц�
 **Приклад #2 Вираз INSERT один раз готується, а потім
 багаторазово виконується**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");/* Підготовлений запрос, крок1: підготовка */$stmt u003d $mysqli- (id, label) VALUES (?, ?)");/* Підготовлений запит, крок 2: зв'язування і виконання */$stmt->bind_param("is", $id, $label); // "is"  означає, що $id зв'язується, як ціле число, а $label - як рядок$data u003d [   1 u003d> 'PHP',  '              $data as $id u003d> $label) {    $stmt->execute();}$result u003d $mysqli->query('SELECT id, label FROM test');var_dump($result->fetch_all ; `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");/* Підготовлений запрос, крок1: підготовка */$stmt = $mysqli- (id, label) VALUES (?, ?)");/* Підготовлений запит, крок 2: зв'язування і виконання */$stmt->bind_param("is", $id, $label); // "is"  означає, що $id зв'язується, як ціле число, а $label - як рядок$data = [   1 => 'PHP',  '              $data as $id => $label) {    $stmt->execute();}$result = $mysqli->query('SELECT id, label FROM test');var_dump($result->fetch_all ; `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 array(2) {
-["id"]u003d>
+["id"]=>
 string(1) "1"
-["label"]u003d>
+["label"]=>
 string(3) "PHP"
 }
-[1]u003d>
+[1]=>
 array(2) {
-["id"]u003d>
+["id"]=>
 string(1) "2"
-["label"]u003d>
+["label"]=>
 string(4) "Java"
 }
-[2]u003d>
+[2]=>
 array(2) {
-["id"]u003d>
+["id"]=>
 string(1) "3"
-["label"]u003d>
+["label"]=>
 string(3) "C++"
 }
 }
@@ -86,7 +86,7 @@ string(3) "C++"
 
 **Приклад #3 Менше обміну даними під час використання мультивставок SQL**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DR| $mysqli->query("CREATE TABLE test(id INT)");$values u003d [1, 2, 3, 4];$stmt u003d $mysqli->prepare("INSERT INTO test(id) VALUES (?) , (?), (?), (?)");$stmt->bind_param('iiii', ...$values);$stmt->execute(); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DR| $mysqli->query("CREATE TABLE test(id INT)");$values = [1, 2, 3, 4];$stmt = $mysqli->prepare("INSERT INTO test(id) VALUES (?) , (?), (?), (?)");$stmt->bind_param('iiii', ...$values);$stmt->execute(); `
 
 *Типи даних значень у результуючій таблиці*
 
@@ -102,14 +102,14 @@ integer.
 
 **Приклад #4 Вихідні типи даних**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmt u003d $mysqli->prepare("SELECT id, label FROM test WHERE id u003d 1");$stmt->execute();$result u003d $stmt->get_result();$row u003d $ >fetch_assoc();printf("id u003d %s (%s)
-", $row['id'], gettype($row['id']));printf("label u003d %s (%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmt = $mysqli->prepare("SELECT id, label FROM test WHERE id = 1");$stmt->execute();$result = $stmt->get_result();$row = $ >fetch_assoc();printf("id = %s (%s)
+", $row['id'], gettype($row['id']));printf("label = %s (%s)
 ", $row['label'], gettype($row['label'])); `
 
 Результат виконання цього прикладу:
 
-id u003d 1 (integer)
-label u003d PHP (string)
+id = 1 (integer)
+label = PHP (string)
 
 Така поведінка не характерна для звичайних запитів, які за замовчуванням
 всі результати повертають як текстових рядків. Ця поведінка по
@@ -129,12 +129,12 @@ label u003d PHP (string)
 
 **Приклад #5 Прив'язка змінних до результату запиту**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmt u003d $mysqli->prepare("SELECT id, label FROM test WHERE id u003d 1");$stmt->execute();$stmt->bind_result($out_id, $out_label);wh ->fetch()) {    printf("idu003du003d%s|(%s), labelu003du003d%s|(%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmt = $mysqli->prepare("SELECT id, label FROM test WHERE id = 1");$stmt->execute();$stmt->bind_result($out_id, $out_label);wh ->fetch()) {    printf("id==%s|(%s), label==%s|(%s)
 ", $out_id, gettype($out_id), $out_label, gettype($out_label));} `
 
 Результат виконання цього прикладу:
 
-id u003d 1 (integer), label u003d PHP (string)
+id = 1 (integer), label = PHP (string)
 
 Об'єкти запитів за замовчуванням повертають
 небуферизовані результати набори. Ці таблиці ніяким неявним
@@ -160,16 +160,16 @@ mysqli_result. Функція
 **Приклад #6 Використання mysqli_result для вибірки результатів
 запиту**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmtu003du003d$mysqli->prepare("SELECT id, label FROM test WHERE id u003d 1");$stmt->execute();$result u003d $stmt->get_result();var_dump($result fetch_all(MYSQLI_ASSOC)); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) );$stmt==$mysqli->prepare("SELECT id, label FROM test WHERE id = 1");$stmt->execute();$result = $stmt->get_result();var_dump($result fetch_all(MYSQLI_ASSOC)); `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(2) {
-["id"]u003d>
+["id"]=>
 int(1)
-["label"]u003d>
+["label"]=>
 string(3) "PHP"
 }
 }
@@ -181,26 +181,26 @@ string(3) "PHP"
 **Приклад #7 Буферизація результуючого набору для зручності читання
 даних**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) (2, 'Java'), (3, 'C++')");$stmtu003du003d$mysqli->prepare("SELECT id, label FROM test");$stmt->execute();$result u003d $stmt ->get_result();for ($row_no u003d $result->num_rows - 1; $row_no >u003d 0; $row_no--) {    $result->data_seek($row_no); var_dump($result->fetch_assoc());} `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");/* Непідготовлений TA IF EXISTS test");$mysqli->query("CREATE TABLE test(id INT, label TEXT)");$mysqli->query("INSERT INTO test(id, label) VALUES (1, 'PHP) (2, 'Java'), (3, 'C++')");$stmt==$mysqli->prepare("SELECT id, label FROM test");$stmt->execute();$result = $stmt ->get_result();for ($row_no = $result->num_rows - 1; $row_no >= 0; $row_no--) {    $result->data_seek($row_no); var_dump($result->fetch_assoc());} `
 
 Результат виконання цього прикладу:
 
 array(2) {
-["id"]u003d>
+["id"]=>
 int(3)
-["label"]u003d>
+["label"]=>
 string(3) "C++"
 }
 array(2) {
-["id"]u003d>
+["id"]=>
 int(2)
-["label"]u003d>
+["label"]=>
 string(4) "Java"
 }
 array(2) {
-["id"]u003d>
+["id"]=>
 int(1)
-["label"]u003d>
+["label"]=>
 string(3) "PHP"
 }
 
@@ -234,20 +234,20 @@ SQL-ін'єкції, але насправді такого ж рівня без
 У таблиці нижче наведено порівняння звичайного та підготовленого на сервері
 запитів.
 
-|                                                                                                                                                                                                                                                                 | Підготовлений запит Звичайний запит                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Кількість звернень до сервера, SELECT, одноразове виконання 2                                                                                                                                                                                                   | 1                                                                            |
-| Кількість рядків із текстом запиту, переданих клієнтом на сервер                                                                                                                                                                                                | 1                                                                            | 1
-| Кількість звернень до сервера, SELECT, n-кратне виконання                                                                                                                                                                                                       | 1+n                                                                          | n
-| Кількість рядків із текстом запиту, переданих клієнтом на сервер                                                                                                                                                                                                | 1 шаблон, n разів параметри, якщо є                                          | n разів і щоразу розбирається
-| Прив'язка вхідних параметрів засобами API Є                                                                                                                                                                                                                     | Ні, настройки екрануються вручну                                             |
-| Прив'язка вихідних параметрів засобами API Є                                                                                                                                                                                                                    | Ні                                                                           |
-| Підтримує API mysqli_result                                                                                                                                                                                                                                     | Так, використовується [mysqli_stmt::get_result()](mysqli-stmt.get-result.md) | Так
-| Буферизація результуючих наборів Є, можна використовувати функцію [mysqli_stmt::get_result()](mysqli-stmt.get-result.md) або [mysqli_stmt::store_result()](mysqli-stmt.store-result.md)                                                                         | Є ця поведінка за умовчанням для [mysqli::query()](mysqli.query.md)          |
-| Робота з небуферизованими результуючими наборами Можливо, використовується прив'язка вихідних параметрів за допомогою API Можливо, використовується функція [mysqli::real_query()](mysqli.real-query.md) спільно з [mysqli::use_result()](mysqli.use-result.md) |                                                                              |
-| Спосіб передачі даних протоколу клієнт-серверної взаємодії MySQL Двійковий протокол                                                                                                                                                                             | Текстовий протокол                                                           |
-| SQL-типи значень результуючого набору Зберігаються під час вилучення                                                                                                                                                                                            | Перетворюються на рядки або зберігаються під час вилучення                   |
-| Підтримує всі SQL-вирази Останні версії MySQL підтримують більшість, але все                                                                                                                                                                                    | Так                                                                          |
+|                                                                                                                                                                                                                                                                 | Підготовлений запит Звичайний запит                                          |                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------|
+| Кількість звернень до сервера, SELECT, одноразове виконання 2                                                                                                                                                                                                   | 1                                                                            |                               |
+| Кількість рядків із текстом запиту, переданих клієнтом на сервер                                                                                                                                                                                                | 1                                                                            | 1                             |
+| Кількість звернень до сервера, SELECT, n-кратне виконання                                                                                                                                                                                                       | 1+n                                                                          | n                             |
+| Кількість рядків із текстом запиту, переданих клієнтом на сервер                                                                                                                                                                                                | 1 шаблон, n разів параметри, якщо є                                          | n разів і щоразу розбирається |
+| Прив'язка вхідних параметрів засобами API Є                                                                                                                                                                                                                     | Ні, настройки екрануються вручну                                             |                               |
+| Прив'язка вихідних параметрів засобами API Є                                                                                                                                                                                                                    | Ні                                                                           |                               |
+| Підтримує API mysqli_result                                                                                                                                                                                                                                     | Так, використовується [mysqli_stmt::get_result()](mysqli-stmt.get-result.md) | Так                           |
+| Буферизація результуючих наборів Є, можна використовувати функцію [mysqli_stmt::get_result()](mysqli-stmt.get-result.md) або [mysqli_stmt::store_result()](mysqli-stmt.store-result.md)                                                                         | Є ця поведінка за умовчанням для [mysqli::query()](mysqli.query.md)          |                               |
+| Робота з небуферизованими результуючими наборами Можливо, використовується прив'язка вихідних параметрів за допомогою API Можливо, використовується функція [mysqli::real_query()](mysqli.real-query.md) спільно з [mysqli::use_result()](mysqli.use-result.md) |                                                                              |                               |
+| Спосіб передачі даних протоколу клієнт-серверної взаємодії MySQL Двійковий протокол                                                                                                                                                                             | Текстовий протокол                                                           |                               |
+| SQL-типи значень результуючого набору Зберігаються під час вилучення                                                                                                                                                                                            | Перетворюються на рядки або зберігаються під час вилучення                   |                               |
+| Підтримує всі SQL-вирази Останні версії MySQL підтримують більшість, але все                                                                                                                                                                                    | Так                                                                          |                               |
 
 **Порівняння підготовлених та непідготовлених запитів**
 

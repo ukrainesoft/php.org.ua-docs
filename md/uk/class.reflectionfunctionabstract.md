@@ -7,7 +7,7 @@
 
 # Клас ReflectionFunctionAbstract
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -30,7 +30,7 @@ private [\_\_clone](reflectionfunctionabstract.clone.md)(): void
 
 public
 [getAttributes](reflectionfunctionabstract.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)():

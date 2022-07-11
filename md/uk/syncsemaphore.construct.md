@@ -7,14 +7,14 @@
 
 # SyncSemaphore::\_\_construct
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncSemaphore::\_\_construct — Створює новий об'єкт SyncSemaphore
 
 ### Опис
 
-public **SyncSemaphore::\_\_construct**(string `$name` u003d ?, int
-`$initialval` u003d 1, bool `$autounlock` u003d **`true`**)
+public **SyncSemaphore::\_\_construct**(string `$name` = ?, int
+`$initialval` = 1, bool `$autounlock` = **`true`**)
 
 Створює іменований чи безіменний семафор.
 
@@ -55,7 +55,7 @@ public **SyncSemaphore::\_\_construct**(string `$name` u003d ?, int
 
 **Приклад #1 Приклад використання **SyncSemaphore::\_\_construct()****
 
-` <?php$semaphore u003d new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
+` <?php$semaphore = new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
 
 ### Дивіться також
 

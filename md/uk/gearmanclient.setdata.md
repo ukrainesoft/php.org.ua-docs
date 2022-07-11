@@ -7,7 +7,7 @@
 
 # GearmanClient::setData
 
-(PECL gearman \<u003d 0.5.0)
+(PECL gearman \<= 0.5.0)
 
 GearmanClient::setData — Встановити дані програми (застарілий метод)
 

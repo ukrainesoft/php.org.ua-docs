@@ -50,10 +50,10 @@ Oracle 10gR2 або пізнішими і виконайте такі кроки
 за допомогою програм типу SQL\*Plus дозвольте сервісу бази надсилати
 оповіщення FAN, наприклад:
 SQL> execute dbms_service.modify_service(
-SERVICE_NAME u003d> 'sales',
-AQ_HA_NOTIFICATIONS u003d> TRUE);
+SERVICE_NAME => 'sales',
+AQ_HA_NOTIFICATIONS => TRUE);
 - Додайте до php.ini
-oci8.events u003d On
+oci8.events = On
 - Якщо програма не обробляє помилки з'єднання OCI8,
 модифікуйте його таким чином, щоб обробляло та виробляло,
 наприклад, перепідключення та перезапуск запитів.

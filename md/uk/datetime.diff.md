@@ -13,7 +13,7 @@
 
 #date_diff
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateTime::diff -- DateTimeImmutable::diff -- DateTimeInterface::diff --
 date_diff — Повертає різницю між двома об'єктами DateTime
@@ -24,24 +24,24 @@ date_diff — Повертає різницю між двома об'єктам�
 
 public
 **DateTime::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 public
 **DateTimeImmutable::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 public
 **DateTimeInterface::diff**([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 Процедурний стиль
 
 [date_diff](function.date-diff.md)([DateTimeInterface](class.datetimeinterface.md)
 `$baseObject`, [DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 Повертає різницю між двома об'єктами
@@ -70,11 +70,11 @@ public
 
 Об'єктно-орієнтований стиль
 
-` <?php$origin u003d new DateTime('2009-10-11');$target u003d new DateTime('2009-10-13');$interval u003d $origin->diff($target);echo $interval ->format('%R%a днів');?> `
+` <?php$origin = new DateTime('2009-10-11');$target = new DateTime('2009-10-13');$interval = $origin->diff($target);echo $interval ->format('%R%a днів');?> `
 
 Процедурний стиль
 
-` <?php$origin u003d date_create('2009-10-11');$target u003d date_create('2009-10-13');$interval u003d date_diff($origin, $target);echo $interval->format ('%R%a днів');?> `
+` <?php$origin = date_create('2009-10-11');$target = date_create('2009-10-13');$interval = date_diff($origin, $target);echo $interval->format ('%R%a днів');?> `
 
 Результат виконання даних прикладів:
 
@@ -86,7 +86,7 @@ public
 >
 > Об'єкти DateTime можуть порівнюватися за допомогою [операторів > порівняння](language.operators.comparison.md).
 
-` <?php$date1 u003d new DateTime("now");$date2 u003d new DateTime("tomorrow");var_dump($date1 u003du003d $date2);var_dump($date1 < $date2);var_dump> $date2);?> `
+` <?php$date1 = new DateTime("now");$date2 = new DateTime("tomorrow");var_dump($date1 == $date2);var_dump($date1 < $date2);var_dump> $date2);?> `
 
 Результат виконання цього прикладу:
 

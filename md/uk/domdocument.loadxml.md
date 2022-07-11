@@ -13,7 +13,7 @@ DOMDocument::loadXML — Завантаження XML із рядка
 
 ### Опис
 
-public **DOMDocument::loadXML**(string `$source`, int `$options` u003d 0):
+public **DOMDocument::loadXML**(string `$source`, int `$options` = 0):
 [DOMDocument](class.domdocument.md)\|bool
 
 Завантажує XML-документ із рядка.
@@ -47,11 +47,11 @@ public **DOMDocument::loadXML**(string `$source`, int `$options` u003d 0):
 
 **Приклад #1 Створення документа**
 
-` <?php$doc u003d new DOMDocument();$doc->loadXML('<root><node/></root>');echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument();$doc->loadXML('<root><node/></root>');echo $doc->saveXML();?> `
 
 **Приклад #2 Статичний виклик `loadXML`**
 
-` <?php// Викликає помилки E_DEPRECATED$doc u003d DOMDocument::loadXML('<root><node/></root>');echo $doc->saveXML();?> `
+` <?php// Викликає помилки E_DEPRECATED$doc = DOMDocument::loadXML('<root><node/></root>');echo $doc->saveXML();?> `
 
 ### Дивіться також
 

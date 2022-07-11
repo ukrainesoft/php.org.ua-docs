@@ -7,14 +7,14 @@
 
 #date_create
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 date_create — Створює новий об'єкт [DateTime](class.datetime.md)
 
 ### Опис
 
-**date_create**(string `$datetime` u003d "now",
-?[DateTimeZone](class.datetimezone.md) `$timezone` u003d **`null`**):
+**date_create**(string `$datetime` = "now",
+?[DateTimeZone](class.datetimezone.md) `$timezone` = **`null`**):
 [DateTime](class.datetime.md)\|false
 
 Це процедурна версія методу

@@ -45,4 +45,4 @@ public **ImagickDraw::matte**(float `$x`, float `$y`, int
 
 **Приклад #1 Приклад використання **ImagickDraw::matte()****
 
-` <?phpfunction matte($strokeColor, $fillColor, $backgroundColor, $paintType) {    $draw u003d new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->setFontSize(72); $draw->matte(120, 120, $paintType); $draw->rectangle(100, 100, 300, 200); $imagicku003du003dnewImagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction matte($strokeColor, $fillColor, $backgroundColor, $paintType) {    $draw = new \ImagickDraw(); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->setStrokeWidth(2); $draw->setFontSize(72); $draw->matte(120, 120, $paintType); $draw->rectangle(100, 100, 300, 200); $imagick==newImagick(); $imagick->newImage(500, 500, $backgroundColor); $imagick->setImageFormat("png"); $imagick->drawImage($draw); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `

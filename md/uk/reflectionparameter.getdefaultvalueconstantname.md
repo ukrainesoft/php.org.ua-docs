@@ -8,7 +8,7 @@
 
 # ReflectionParameter::getDefaultValueConstantName
 
-(PHP 5 \>u003d 5.4.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.6, PHP 7, PHP 8)
 
 ReflectionParameter::getDefaultValueConstantName — Повертає ім'я
 константи значення за промовчанням, якщо значення за промовчанням константа
@@ -36,7 +36,7 @@ public **ReflectionParameter::getDefaultValueConstantName**(): ?string
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                  |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Метод дозволяє отримувати стандартні імена для вбудованих функцій та вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md). |
 
 ### Приклади
@@ -44,7 +44,7 @@ public **ReflectionParameter::getDefaultValueConstantName**(): ?string
 **Приклад #1 Отримання стандартних констант для параметрів
 функції**
 
-` <?phpfunction foo($test, $bar u003d PHP_INT_MIN){    echo $test . $bar;}$function u003d new ReflectionFunction('foo');foreach ($function->getParameters() as $param) {    echo 'Ім'я: ' . $param->getName() . PHP_EOL; if ($param->isOptional()) {        echo 'Значення за замовчуванням: ' . $param->getDefaultValueConstantName() . PHP_EOL; }   echo PHP_EOL;}?> `
+` <?phpfunction foo($test, $bar = PHP_INT_MIN){    echo $test . $bar;}$function = new ReflectionFunction('foo');foreach ($function->getParameters() as $param) {    echo 'Ім'я: ' . $param->getName() . PHP_EOL; if ($param->isOptional()) {        echo 'Значення за замовчуванням: ' . $param->getDefaultValueConstantName() . PHP_EOL; }   echo PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

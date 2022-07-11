@@ -7,7 +7,7 @@
 
 # fann_get_bias_array
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_bias_array — Отримує кількість зсувів у кожному шарі в мережі
 

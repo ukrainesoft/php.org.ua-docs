@@ -8,7 +8,7 @@
 
 #grapheme_strripos
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 grapheme_strripos — Знаходить позицію (в одиницях графеми) останнього
 входження рядка без урахування регістру
@@ -18,7 +18,7 @@ grapheme_strripos — Знаходить позицію (в одиницях г�
 Процедурний стиль
 
 **grapheme_strripos**(string `$haystack`, string `$needle`, int
-`$offset` u003d 0): int\|false
+`$offset` = 0): int\|false
 
 Знаходить позицію (в одиницях графеми) останнього входження рядка без
 обліку регістру.
@@ -47,7 +47,7 @@ grapheme_strripos() поверне **`false`**.
 
 **Приклад #1 Приклад використання **grapheme_strripos()****
 
-` <?php$char_a_ring_nfdu003du003d"a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd u003d"o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"$char_O_diaeresis_nfd u003d"O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd_________|
+` <?php$char_a_ring_nfd=="a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd ="o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"$char_O_diaeresis_nfd ="O\xCC\x88"; // 'LATIN CAPITAL LETTER O WITH DIAERESIS' (U+00D6) normalization form "D"print grapheme_strripos( $char_a_ring_nfd . $char_o_diaeresis_nfd_________|
 
 Результат виконання цього прикладу:
 

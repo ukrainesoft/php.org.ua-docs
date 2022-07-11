@@ -7,7 +7,7 @@
 
 # token_name
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 token_name — Отримати символьне ім'я для переданої PHP-лексеми
 

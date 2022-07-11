@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Undefined::jsonSerialize
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\BSON\Undefined::jsonSerialize — Повертає виставу,
 яке можна перетворити на JSON

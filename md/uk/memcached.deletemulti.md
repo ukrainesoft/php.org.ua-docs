@@ -7,13 +7,13 @@
 
 # Memcached::deleteMulti
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::deleteMulti — Видаляє кілька записів
 
 ### Опис
 
-public **Memcached::deleteMulti**(array `$keys`, int `$time` u003d 0): array
+public **Memcached::deleteMulti**(array `$keys`, int `$time` = 0): array
 
 **Memcached::deleteMulti()** видаляє записи, передані в масиві
 `keys`, із сервера. Параметр `time` задає період часу в секундах

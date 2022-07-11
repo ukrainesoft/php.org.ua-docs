@@ -7,7 +7,7 @@
 
 # Клас SolrQueryResponse
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 ## Вступ
 
@@ -20,15 +20,15 @@ final class **SolrQueryResponse** extends
 
 /\* Константи \*/
 
-const int `PARSE_SOLR_OBJ` u003d 0;
+const int `PARSE_SOLR_OBJ` = 0;
 
-const int `PARSE_SOLR_DOC` u003d 1;
+const int `PARSE_SOLR_DOC` = 1;
 
 /\* Наслідувані властивості \*/
 
-const int `SolrResponse::PARSE_SOLR_OBJ` u003d 0;
+const int `SolrResponse::PARSE_SOLR_OBJ` = 0;
 
-const int `SolrResponse::PARSE_SOLR_DOC` u003d 1;
+const int `SolrResponse::PARSE_SOLR_DOC` = 1;
 
 protected int `$http_status`;
 
@@ -91,7 +91,7 @@ public [SolrResponse::getResponse](solrresponse.getresponse.md)():
 [SolrObject](class.solrobject.md)
 
 public [SolrResponse::setParseMode](solrresponse.setparsemode.md)(int
-`$parser_mode` u003d 0): bool
+`$parser_mode` = 0): bool
 
 public [SolrResponse::success](solrresponse.success.md)(): bool
 

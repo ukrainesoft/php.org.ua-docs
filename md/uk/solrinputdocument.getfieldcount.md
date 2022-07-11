@@ -7,7 +7,7 @@
 
 # SolrInputDocument::getFieldCount
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::getFieldCount — Повертає кількість полів у
 документі

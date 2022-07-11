@@ -31,15 +31,15 @@ stream_get_transports — Отримати список зареєстрован
 
 **Приклад #1 Приклад використання **stream_get_transports()****
 
-` <?php$xportlist u003d stream_get_transports();print_r($xportlist);?> `
+` <?php$xportlist = stream_get_transports();print_r($xportlist);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array (
-[0] u003d> tcp
-[1] u003d> udp
-[2] u003d> unix
-[3] u003d> udg
+[0] => tcp
+[1] => udp
+[2] => unix
+[3] => udg
 )
 
 ### Дивіться також

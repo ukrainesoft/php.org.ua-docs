@@ -7,14 +7,14 @@
 
 # Yaf_Response_Abstract::appendBody
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::appendBody — Додає вміст до тіла відповіді
 
 ### Опис
 
 public **Yaf_Response_Abstract::appendBody**(string `$content`, string
-`$key` u003d ?): bool
+`$key` = ?): bool
 
 Додає вміст до існуючого блоку вмісту
 
@@ -40,7 +40,7 @@ bool
 **Приклад #1 Приклад використання
 **Yaf_Response_Abstract::appendBody()****
 
-` <?php$response u003d new Yaf_Response_Http();$response->setBody("Привіт")->prependBody(", Світ");echo $response;?> `
+` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->prependBody(", Світ");echo $response;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Generator::key
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 Generator::key — Отримати ключ згенерованого елемента
 
@@ -30,8 +30,8 @@ public **Generator::key**():
 
 **Приклад #1 Приклад використання **Generator::key()****
 
-` <?phpfunction Gen(){   yield 'key' u003d> 'value';}$gen u003d Gen();echo "{$gen->key()} u003d> {$gen->current()}"; `
+` <?phpfunction Gen(){   yield 'key' => 'value';}$gen = Gen();echo "{$gen->key()} => {$gen->current()}"; `
 
 Результат виконання цього прикладу:
 
-key u003d> value
+key => value

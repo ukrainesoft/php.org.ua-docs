@@ -7,14 +7,14 @@
 
 #pg_result_status
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_result_status — Повертає стан результату запиту
 
 ### Опис
 
 **pg_result_status**([PgSql\Result](class.pgsql-result.md) `$result`,
-int `$mode` u003d **`PGSQL_STATUS_LONG`**): string\|int
+int `$mode` = **`PGSQL_STATUS_LONG`**): string\|int
 
 **pg_result_status()** повертає поточний стан екземпляра
 [PgSql\Result](class.pgsql-result.md), або тег завершення сервером
@@ -46,14 +46,14 @@ int `$mode` u003d **`PGSQL_STATUS_LONG`**): string\|int
 ### Список змін
 
 | Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_result_status()****
 
-` <?php// Підключаємося до бази даних$conn u003d pg_pconnect("dbnameu003dpublisher"); $status u003d pg_result_status($result);// Розбираємо отримані даніif ($status u003du003d PGSQL_COPY_IN)  echo "Copy began.";else   echo "Copy fai>
+` <?php// Підключаємося до бази даних$conn = pg_pconnect("dbname=publisher"); $status = pg_result_status($result);// Розбираємо отримані даніif ($status == PGSQL_COPY_IN)  echo "Copy began.";else   echo "Copy fai>
 
 Результат виконання цього прикладу:
 

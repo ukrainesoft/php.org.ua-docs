@@ -8,4 +8,4 @@
 ## Вимоги
 
 Модуль використовує бібліотеку ["zlib](http://www.zlib.net/), написану
-Jean-loup Gailly та Mark Adler. Потрібна zlib версії \>u003d 1.2.0.4.
+Jean-loup Gailly та Mark Adler. Потрібна zlib версії \>= 1.2.0.4.

@@ -45,4 +45,4 @@ bool `$ measureError`
 
 **Приклад #1 Приклад використання **Imagick::quantizeImage()****
 
-` <?phpfunction quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction quantizeImage($imagePath, $numberColors, $colorSpace, $treeDepth, $dither) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->quantizeImage($numberColors, $colorSpace, $treeDepth, $dither, false); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `

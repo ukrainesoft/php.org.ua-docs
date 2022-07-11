@@ -42,7 +42,7 @@ strncmp — Бінарно-безпечне порівняння перших n 
 
 **Приклад #1 **strncmp()** example**
 
-` <?php$var1 u003d 'Hello John';$var2 u003d 'Hello Doe';if (strncmp($var1, $var2, 5) u003du003du003d 0) {    echo 'Перші 5 сим      порівнянні рядків з обліком реєстру';}?> `
+` <?php$var1 = 'Hello John';$var2 = 'Hello Doe';if (strncmp($var1, $var2, 5) === 0) {    echo 'Перші 5 сим      порівнянні рядків з обліком реєстру';}?> `
 
 ### Дивіться також
 

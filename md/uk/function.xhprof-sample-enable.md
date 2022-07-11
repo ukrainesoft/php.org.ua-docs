@@ -7,7 +7,7 @@
 
 #xhprof_sample_enable
 
-(PECL xhprof \>u003d 0.9.0)
+(PECL xhprof \>= 0.9.0)
 
 xhprof_sample_enable — Запуск семплюючого режиму профілювання XHProf
 

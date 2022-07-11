@@ -53,7 +53,7 @@
 
 **Приклад #1 Приклад успадкування**
 
-` <?phpclass Foo{    public function printItem($string)    {       echo 'Foo: ' . $string. PHP_EOL; }    public function printPHP()    {        echo 'PHP просто супер.' . PHP_EOL; }}class Bar extends Foo{    public function printItem($string)    {        echo 'Bar: ' . $string. PHP_EOL; }}$foo u003d new Foo();$bar u003d new Bar();$foo->printItem('baz'); // Виведе: 'Foo: baz'$foo->printPHP(); // Виведе: 'PHP просто супер'$bar->printItem('baz'); // Виведе: 'Bar: baz'$bar->printPHP(); // Виведе: 'PHP просто супер'?> `
+` <?phpclass Foo{    public function printItem($string)    {       echo 'Foo: ' . $string. PHP_EOL; }    public function printPHP()    {        echo 'PHP просто супер.' . PHP_EOL; }}class Bar extends Foo{    public function printItem($string)    {        echo 'Bar: ' . $string. PHP_EOL; }}$foo = new Foo();$bar = new Bar();$foo->printItem('baz'); // Виведе: 'Foo: baz'$foo->printPHP(); // Виведе: 'PHP просто супер'$bar->printItem('baz'); // Виведе: 'Bar: baz'$bar->printPHP(); // Виведе: 'PHP просто супер'?> `
 
 ### Сумісність типів значень, що повертаються, з внутрішніми класами
 

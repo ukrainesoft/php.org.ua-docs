@@ -7,7 +7,7 @@
 
 # SolrClient::deleteByQuery
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::deleteByQuery — Видаляє всі відповідні документи.
 заданому запиту
@@ -41,7 +41,7 @@ public **SolrClient::deleteByQuery**(string `$query`):
 
 **Приклад #1 Приклад використання **SolrQuery::deleteByQuery()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);/ /Це соттре весь індекс$client->deleteByQuery("*:*");$client->commit();?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);/ /Це соттре весь індекс$client->deleteByQuery("*:*");$client->commit();?> `
 
 ### Дивіться також
 

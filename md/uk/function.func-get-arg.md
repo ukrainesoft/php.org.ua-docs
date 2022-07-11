@@ -43,8 +43,8 @@ position більше реально переданої кількості ар�
 
 **Приклад #1 Приклад використання **func_get_arg()****
 
-`<?phpfunction foo(){     $numargs u003d func_num_args(); echo "Кількість аргументів: $numargs
-";     if ($numargs >u003d 2) {         echo "Другий аргумент: " . func_get_arg(1) . "
+`<?phpfunction foo(){     $numargs = func_num_args(); echo "Кількість аргументів: $numargs
+";     if ($numargs >= 2) {         echo "Другий аргумент: " . func_get_arg(1) . "
 ";     }}foo(1, 2, 3);?> `
 
 Результат виконання цього прикладу:
@@ -55,7 +55,7 @@ position більше реально переданої кількості ар�
 **Приклад #2 Приклад передачі аргументів за посиланням та за значенням з
 **func_get_arg()****
 
-` <?phpfunction byVal($arg) {    echo 'Передано          ::'', var_export(func_get_arg(0)), PHP_EOL; $argu003du003d'baz'; echo 'Після зміни  : ', var_export(func_get_arg(0)), PHP_EOL;}function byRef(&$arg) {   echo 'Передан  _ _| $argu003du003d'baz'; echo 'Після зміни  : ', var_export(func_get_arg(0)), PHP_EOL;}$arg u003d 'bar';byVal($arg);byRef($arg);?> `
+` <?phpfunction byVal($arg) {    echo 'Передано          ::'', var_export(func_get_arg(0)), PHP_EOL; $arg=='baz'; echo 'Після зміни  : ', var_export(func_get_arg(0)), PHP_EOL;}function byRef(&$arg) {   echo 'Передан  _ _| $arg=='baz'; echo 'Після зміни  : ', var_export(func_get_arg(0)), PHP_EOL;}$arg = 'bar';byVal($arg);byRef($arg);?> `
 
 Результат виконання цього прикладу:
 

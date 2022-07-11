@@ -7,7 +7,7 @@
 
 #ssh2_sftp_rename
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_rename — Перейменовує файл
 
@@ -39,7 +39,7 @@ bool
 
 **Приклад #1 Перейменування файлу**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);ssh2_sftp_rename('$ home/username/oldname', '/home/username/newname');?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_rename('$ home/username/oldname', '/home/username/newname');?> `
 
 ### Дивіться також
 

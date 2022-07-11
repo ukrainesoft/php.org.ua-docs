@@ -7,7 +7,7 @@
 
 # Threaded::shift
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::shift — Обробка
 
@@ -31,7 +31,7 @@ public **Threaded::shift**():
 **Приклад #1 Переміщення першого елемента з таблиці властивостей пов'язаного
 об'єкта**
 
-` <?php$safe u003d new Threaded();while (count($safe) < 10)   $safe[] u003d count($safe);var_dump($safe->shift());?> `
+` <?php$safe = new Threaded();while (count($safe) < 10)   $safe[] = count($safe);var_dump($safe->shift());?> `
 
 Результат виконання цього прикладу:
 

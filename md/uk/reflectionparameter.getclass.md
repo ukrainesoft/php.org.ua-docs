@@ -52,7 +52,7 @@ public **ReflectionParameter::getClass**():
 **Приклад #1 Приклад використання класу
 [ReflectionParameter](class.reflectionparameter.md)**
 
-` <?phpfunction foo(Exception $a) { }$functionReflection u003d new ReflectionFunction('foo');$parameters u003d $functionReflection->getParameters();$aParameter u003d $parameters[>] )->name;?> `
+` <?phpfunction foo(Exception $a) { }$functionReflection = new ReflectionFunction('foo');$parameters = $functionReflection->getParameters();$aParameter = $parameters[>] )->name;?> `
 
 ### Дивіться також
 

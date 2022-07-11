@@ -36,4 +36,4 @@ public **Imagick::setImageCompressionQuality**(int `$quality`): bool
 **Приклад #1 Приклад використання
 **Imagick::setImageCompressionQuality()****
 
-`<?phpfunction setImageCompressionQuality($imagePath, $quality) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->setImageCompressionQuality($quality); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction setImageCompressionQuality($imagePath, $quality) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->setImageCompressionQuality($quality); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

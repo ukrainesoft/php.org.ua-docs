@@ -7,7 +7,7 @@
 
 # HRTime\StopWatch::getLastElapsedTicks
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 HRTime\StopWatch::getLastElapsedTicks — Отримати кількість минулих
 тиків за останній інтервал

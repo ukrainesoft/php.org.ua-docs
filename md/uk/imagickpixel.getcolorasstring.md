@@ -7,7 +7,7 @@
 
 # ImagickPixel::getColorAsString
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 ImagickPixel::getColorAsString — Повертає колір у вигляді рядка
 
@@ -29,7 +29,7 @@ public **ImagickPixel::getColorAsString**(): string
 
 **Приклад #1 Приклад використання **Imagick::getColorAsString()****
 
-`<?php// Створення ImagickPixel з стандартним колірником 'brown'$color u003d new ImagickPixel('brown'); );print_r($colorInfo);?> `
+`<?php// Створення ImagickPixel з стандартним колірником 'brown'$color = new ImagickPixel('brown'); );print_r($colorInfo);?> `
 
 Результат виконання цього прикладу:
 

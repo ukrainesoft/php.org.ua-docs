@@ -7,7 +7,7 @@
 
 # SplFileInfo::isExecutable
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isExecutable — Вказує, чи файл виконується
 
@@ -30,7 +30,7 @@ public **SplFileInfo::isExecutable**(): bool
 
 **Приклад #1 Приклад використання **SplFileInfo::isExecutable()****
 
-` <?php$info u003d new SplFileInfo('/usr/bin/php');var_dump($info->isExecutable());$info u003d new SplFileInfo('/usr/bin');var_dump($info- >isExecutable());$info u003d new SplFileInfo('foo');var_dump($info->isExecutable());?> `
+` <?php$info = new SplFileInfo('/usr/bin/php');var_dump($info->isExecutable());$info = new SplFileInfo('/usr/bin');var_dump($info- >isExecutable());$info = new SplFileInfo('foo');var_dump($info->isExecutable());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

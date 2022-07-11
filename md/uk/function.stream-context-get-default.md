@@ -7,13 +7,13 @@
 
 #stream_context_get_default
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 stream_context_get_default — Отримує контекст потоку за промовчанням
 
 ### Опис
 
-**stream_context_get_default**(?array `$options` u003d **`null`**): resource
+**stream_context_get_default**(?array `$options` = **`null`**): resource
 
 Повертає контекст потоку за замовчуванням, який використовується у будь-яких
 файлових операціях ([fopen()](function.fopen.md),
@@ -27,7 +27,7 @@ stream_context_get_default — Отримує контекст потоку за
 
 `options`
 `options` повинен бути асоціативним масивом асоціативних масивів
-форматі $arr['wrapper']['option'] u003d $value` або **`null`**.
+форматі $arr['wrapper']['option'] = $value` або **`null`**.
 
 ### Значення, що повертаються
 
@@ -36,16 +36,16 @@ stream_context_get_default — Отримує контекст потоку за
 ### Список змін
 
 | Версія | Опис                                            |
-| ------ | ----------------------------------------------- |
+|--------|-------------------------------------------------|
 | 8.0.0  | Параметр options тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **stream_context_get_default()****
 
-` <?php$default_opts u003d array(  'http'u003d>array(    'method'u003d>"GET",   'header'u003d>"Accept-language: en
-"¦. .                                                                                                                                              ¦ 'header'u003d>"Content-type: application/x-www-form-urlencoded
-"|.        "Content-length: " .strlen("bazu003dbomb"),    'content'u003d>"bazu003dbomb"| * Відправляє звичайний GET-запит на проксі-сервер 10.54.1.39 * Для www.example.com використовуються опції контексту, вказані в $default_opts */readfile(' запит напряму до www.example.com * Використовувані опції контексту визначені в $alternate_opts */readfile('http://www.example.com', false, $alternate);?> `
+` <?php$default_opts = array(  'http'=>array(    'method'=>"GET",   'header'=>"Accept-language: en
+"¦. .                                                                                                                                              ¦ 'header'=>"Content-type: application/x-www-form-urlencoded
+"|.        "Content-length: " .strlen("baz=bomb"),    'content'=>"baz=bomb"| * Відправляє звичайний GET-запит на проксі-сервер 10.54.1.39 * Для www.example.com використовуються опції контексту, вказані в $default_opts */readfile(' запит напряму до www.example.com * Використовувані опції контексту визначені в $alternate_opts */readfile('http://www.example.com', false, $alternate);?> `
 
 ### Дивіться також
 

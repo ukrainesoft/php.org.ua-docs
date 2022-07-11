@@ -7,7 +7,7 @@
 
 # Інтерфейс DateTimeInterface
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,37 +22,37 @@ interface **DateTimeInterface** {
 
 /\* Константи \*/
 
-const string `ATOM` u003d "Y-m-d\TH:i:sP";
+const string `ATOM` = "Y-m-d\TH:i:sP";
 
-const string `COOKIE` u003d "l, d-M-Y H: i: s T";
+const string `COOKIE` = "l, d-M-Y H: i: s T";
 
-const string `ISO8601` u003d "Y-m-d\TH:i:sO";
+const string `ISO8601` = "Y-m-d\TH:i:sO";
 
-const string `RFC822` u003d "D, d M y H: i: s O";
+const string `RFC822` = "D, d M y H: i: s O";
 
-const string `RFC850` u003d "l, d-M-y H: i: s T";
+const string `RFC850` = "l, d-M-y H: i: s T";
 
-const string `RFC1036` u003d "D, d M y H: i: s O";
+const string `RFC1036` = "D, d M y H: i: s O";
 
-const string `RFC1123` u003d "D, d MY H:i:s O";
+const string `RFC1123` = "D, d MY H:i:s O";
 
-const string `RFC7231` u003d "D, d M Y H:i:s \G\M\T";
+const string `RFC7231` = "D, d M Y H:i:s \G\M\T";
 
-const string `RFC2822` u003d "D, d MY H:i:s O";
+const string `RFC2822` = "D, d MY H:i:s O";
 
-const string `RFC3339` u003d "Y-m-d\TH:i:sP";
+const string `RFC3339` = "Y-m-d\TH:i:sP";
 
-const string `RFC3339_EXTENDED` u003d "Y-m-d\TH:i:s.vP";
+const string `RFC3339_EXTENDED` = "Y-m-d\TH:i:s.vP";
 
-const string `RSS` u003d "D, d MY H:i:s O";
+const string `RSS` = "D, d MY H:i:s O";
 
-const string `W3C` u003d "Y-m-d\TH:i:sP";
+const string `W3C` = "Y-m-d\TH:i:sP";
 
 /\* Методи \*/
 
 public
 [diff](datetime.diff.md)([DateTimeInterface](class.datetimeinterface.md)
-`$targetObject`, bool `$absolute` u003d **`false`**):
+`$targetObject`, bool `$absolute` = **`false`**):
 [DateInterval](class.dateinterval.md)
 
 public [format](datetime.format.md)(string `$format`): string
@@ -130,7 +130,7 @@ World Wide Web Consortium (приклад: 2005-08-15T15:52:01+00:00)
 ## Список змін
 
 | Версія | Опис                                                                                   |
-| ------ | -------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------|
 | 7.2.0  | Константи класу тепер [DateTime](class.datetime.md) визначені у **DateTimeInterface**. |
 
 ## Зміст

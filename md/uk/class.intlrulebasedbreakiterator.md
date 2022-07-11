@@ -7,7 +7,7 @@
 
 # Клас IntlRuleBasedBreakIterator
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -24,48 +24,48 @@ class **IntlRuleBasedBreakIterator** extends
 
 /\* Успадковані константи \*/
 
-const int `IntlBreakIterator::DONE` u003d -1;
+const int `IntlBreakIterator::DONE` = -1;
 
-const int `IntlBreakIterator::WORD_NONE` u003d 0;
+const int `IntlBreakIterator::WORD_NONE` = 0;
 
-const int `IntlBreakIterator::WORD_NONE_LIMIT` u003d 100;
+const int `IntlBreakIterator::WORD_NONE_LIMIT` = 100;
 
-const int `IntlBreakIterator::WORD_NUMBER` u003d 100;
+const int `IntlBreakIterator::WORD_NUMBER` = 100;
 
-const int `IntlBreakIterator::WORD_NUMBER_LIMIT` u003d 200;
+const int `IntlBreakIterator::WORD_NUMBER_LIMIT` = 200;
 
-const int `IntlBreakIterator::WORD_LETTER` u003d 200;
+const int `IntlBreakIterator::WORD_LETTER` = 200;
 
-const int `IntlBreakIterator::WORD_LETTER_LIMIT` u003d 300;
+const int `IntlBreakIterator::WORD_LETTER_LIMIT` = 300;
 
-const int `IntlBreakIterator::WORD_KANA` u003d 300;
+const int `IntlBreakIterator::WORD_KANA` = 300;
 
-const int `IntlBreakIterator::WORD_KANA_LIMIT` u003d 400;
+const int `IntlBreakIterator::WORD_KANA_LIMIT` = 400;
 
-const int `IntlBreakIterator::WORD_IDEO` u003d 400;
+const int `IntlBreakIterator::WORD_IDEO` = 400;
 
-const int `IntlBreakIterator::WORD_IDEO_LIMIT` u003d 500;
+const int `IntlBreakIterator::WORD_IDEO_LIMIT` = 500;
 
-const int `IntlBreakIterator::LINE_SOFT` u003d 0;
+const int `IntlBreakIterator::LINE_SOFT` = 0;
 
-const int `IntlBreakIterator::LINE_SOFT_LIMIT` u003d 100;
+const int `IntlBreakIterator::LINE_SOFT_LIMIT` = 100;
 
-const int `IntlBreakIterator::LINE_HARD` u003d 100;
+const int `IntlBreakIterator::LINE_HARD` = 100;
 
-const int `IntlBreakIterator::LINE_HARD_LIMIT` u003d 200;
+const int `IntlBreakIterator::LINE_HARD_LIMIT` = 200;
 
-const int `IntlBreakIterator::SENTENCE_TERM` u003d 0;
+const int `IntlBreakIterator::SENTENCE_TERM` = 0;
 
-const int `IntlBreakIterator::SENTENCE_TERM_LIMIT` u003d 100;
+const int `IntlBreakIterator::SENTENCE_TERM_LIMIT` = 100;
 
-const int `IntlBreakIterator::SENTENCE_SEP` u003d 100;
+const int `IntlBreakIterator::SENTENCE_SEP` = 100;
 
-const int `IntlBreakIterator::SENTENCE_SEP_LIMIT` u003d 200;
+const int `IntlBreakIterator::SENTENCE_SEP_LIMIT` = 200;
 
 /\* Методи \*/
 
 public [\_\_construct](intlrulebasedbreakiterator.construct.md)(string
-`$rules`, bool `$compiled` u003d **`false`**)
+`$rules`, bool `$compiled` = **`false`**)
 
 public
 [getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md)():
@@ -85,7 +85,7 @@ array\|false
 
 public static
 [IntlBreakIterator::createCharacterInstance](intlbreakiterator.createcharacterinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
@@ -94,22 +94,22 @@ public static
 
 public static
 [IntlBreakIterator::createLineInstance](intlbreakiterator.createlineinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [IntlBreakIterator::createSentenceInstance](intlbreakiterator.createsentenceinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [IntlBreakIterator::createTitleInstance](intlbreakiterator.createtitleinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public static
 [IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md)(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 public [IntlBreakIterator::current](intlbreakiterator.current.md)():
@@ -139,7 +139,7 @@ public
 
 public
 [IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)(string
-`$type` u003d IntlPartsIterator::KEY_SEQUENTIAL):
+`$type` = IntlPartsIterator::KEY_SEQUENTIAL):
 [IntlPartsIterator](class.intlpartsiterator.md)
 
 public [IntlBreakIterator::getText](intlbreakiterator.gettext.md)():
@@ -152,7 +152,7 @@ public
 public [IntlBreakIterator::last](intlbreakiterator.last.md)(): int
 
 public [IntlBreakIterator::next](intlbreakiterator.next.md)(?int
-`$offset` u003d **`null`**): int
+`$offset` = **`null`**): int
 
 public
 [IntlBreakIterator::preceding](intlbreakiterator.preceding.md)(int

@@ -7,7 +7,7 @@
 
 # Swoole\Server::pause
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::pause — Припиняє отримання даних від з'єднання
 

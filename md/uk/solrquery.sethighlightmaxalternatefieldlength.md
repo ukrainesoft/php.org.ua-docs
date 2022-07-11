@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightMaxAlternateFieldLength
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightMaxAlternateFieldLength — Встановлює
 максимальна кількість символів поля для повернення
@@ -15,7 +15,7 @@ SolrQuery::setHighlightMaxAlternateFieldLength — Встановлює
 ### Опис
 
 public **SolrQuery::setHighlightMaxAlternateFieldLength**(int
-`$fieldLength`, string `$field_override` u003d ?):
+`$fieldLength`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 Якщо SolrQuery::setHighlightAlternateField() було передано значення

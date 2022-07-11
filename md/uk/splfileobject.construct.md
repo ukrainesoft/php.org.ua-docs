@@ -7,7 +7,7 @@
 
 # SplFileObject::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::\_\_construct — Створює об'єкт SplFileObject
 
@@ -15,9 +15,9 @@ SplFileObject::\_\_construct — Створює об'єкт SplFileObject
 
 public **SplFileObject::\_\_construct**(
 string `$filename`,
-string `$mode` u003d "r",
-bool `$useIncludePath` u003d **`false`**,
-?resource `$context` u003d **`null`**
+string `$mode` = "r",
+bool `$useIncludePath` = **`false`**,
+?resource `$context` = **`null`**
 )
 
 Створює новий файловий об'єкт.
@@ -62,13 +62,13 @@ bool `$useIncludePath` u003d **`false`**,
 
 Цей приклад відкриває поточний файл і перебирає його рядків.
 
-` <?php$file u003d new SplFileObject(__FILE__);foreach ($file as $line_num u003d> $line) {    echo "Рядок$line_num: $line";}?> `
+` <?php$file = new SplFileObject(__FILE__);foreach ($file as $line_num => $line) {    echo "Рядок$line_num: $line";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Рядок 0: <?php
-Рядок 1: $file u003d New SplFileObject(__FILE__);
-Рядок 2: foreach ($file as $line_num u003d> $line) {
+Рядок 1: $file = New SplFileObject(__FILE__);
+Рядок 2: foreach ($file as $line_num => $line) {
 Рядок 3: echo "Line $line_num is $line";
 Рядок 4: }
 Рядок 5: ?>

@@ -7,7 +7,7 @@
 
 # CommonMark\Node\Heading::\_\_construct
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Node\Heading::\_\_construct - Конструктор класу Heading
 

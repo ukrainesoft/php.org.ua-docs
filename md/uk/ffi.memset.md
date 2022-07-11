@@ -7,7 +7,7 @@
 
 # FFI::memset
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::memset — Заповнити область пам'яті
 

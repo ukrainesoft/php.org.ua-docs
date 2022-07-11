@@ -7,7 +7,7 @@
 
 # fann_get_cascade_output_change_fraction
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_cascade_output_change_fraction — Повертає частку зміни
 виходу каскаду

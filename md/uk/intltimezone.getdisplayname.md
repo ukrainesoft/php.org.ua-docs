@@ -9,7 +9,7 @@
 
 # intltz_get_display_name
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::getDisplayName -- intltz_get_display_name — Отримати ім'я
 часового поясу для відображення користувача
@@ -18,17 +18,17 @@ IntlTimeZone::getDisplayName -- intltz_get_display_name — Отримати і�
 
 Об'єктно-орієнтований стиль (метод):
 
-public **IntlTimeZone::getDisplayName**(bool `$dst` u003d **`false`**, int
-`$style` u003d IntlTimeZone::DISPLAY_LONG, ?string `$locale` u003d **`null`**):
+public **IntlTimeZone::getDisplayName**(bool `$dst` = **`false`**, int
+`$style` = IntlTimeZone::DISPLAY_LONG, ?string `$locale` = **`null`**):
 string\|false
 
 Процедурний стиль:
 
 **intltz_get_display_name**(
 [IntlTimeZone](class.intltimezone.md) `$timezone`,
-bool `$dst` u003d **`false`**,
-int `$style` u003d IntlTimeZone::DISPLAY_LONG,
-?string `$locale` u003d **`null`**
+bool `$dst` = **`false`**,
+int `$style` = IntlTimeZone::DISPLAY_LONG,
+?string `$locale` = **`null`**
 ): string\|false
 
 **Увага**

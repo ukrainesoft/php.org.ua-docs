@@ -7,7 +7,7 @@
 
 # Swoole\Event::write
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Event::write - Записує дані в сокет
 

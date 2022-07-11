@@ -41,7 +41,7 @@ recode_file — Перекодує з одного файлу до іншого 
 
 **Приклад #1 Приклад використання **recode_file()****
 
-` <?php$input u003dfopen('input.txt', 'r');$output u003dfopen('output.txt', 'w');recode_file("us..flat", $input, $output );?> `
+` <?php$input =fopen('input.txt', 'r');$output =fopen('output.txt', 'w');recode_file("us..flat", $input, $output );?> `
 
 ### Примітки
 

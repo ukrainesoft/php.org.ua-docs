@@ -7,7 +7,7 @@
 
 #gnupg_geterror
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_geterror — Повернення тексту повідомлення про помилку, якщо функція не
 була виконана
@@ -32,9 +32,9 @@ gnupg_geterror — Повернення тексту повідомлення п
 **Приклад #1 Приклад використання **gnupg_geterror()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();echo gnupg_geterror($res);?> `
+` <?php$res = gnupg_init();echo gnupg_geterror($res);?> `
 
 **Приклад #2 Приклад використання **gnupg_geterror()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();echo $gpg->geterror();?> `
+` <?php$gpg = new gnupg();echo $gpg->geterror();?> `

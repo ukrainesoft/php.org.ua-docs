@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::mergeCells
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::mergeCells — Об'єднати осередки
 
@@ -34,4 +34,4 @@ public **Vtiful\Kernel\Excel::mergeCells**(string `$scope`, string
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel u003d new \Vtiful\Kernel\Excel($config);$excel->fileName("test.xlsx")         ('A1:C1', 'Merge cells')        ->output(); `
+` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$excel->fileName("test.xlsx")         ('A1:C1', 'Merge cells')        ->output(); `

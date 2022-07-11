@@ -7,7 +7,7 @@
 
 # EvEmbed::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvEmbed::createStopped — Створює зупинений об'єкт спостерігач
 EvEmbed
@@ -16,11 +16,11 @@ EvEmbed
 
 final public static **EvEmbed::createStopped**(
 object `$other` ,
-[callable](language.types.callable.md) `$callback` u003d ?,
+[callable](language.types.callable.md) `$callback` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 ): void
 
 Те ж саме, що і [EvEmbed::\_\_construct()](evembed.construct.md) ,

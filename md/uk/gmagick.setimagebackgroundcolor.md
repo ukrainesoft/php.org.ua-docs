@@ -7,7 +7,7 @@
 
 # Gmagick::setimagebackgroundcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagebackgroundcolor — Встановлює колір тла зображення
 

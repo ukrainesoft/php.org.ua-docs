@@ -7,7 +7,7 @@
 
 #xdiff_file_bdiff_size
 
-(PECL xdiff \>u003d 1.5.0)
+(PECL xdiff \>= 1.5.0)
 
 xdiff_file_bdiff_size — Отримати розмір файлу після застосування бінарного
 патча
@@ -37,7 +37,7 @@ xdiff_file_bdiff_size — Отримати розмір файлу після з
 Наступний код отримує розмір файлу, який буде створено після
 застосування патчу.
 
-` <?php$length u003d xdiff_string_bdiff_size('file.bdiff');echo "Розмір результуючого файлу буде $length байт";?> `
+` <?php$length = xdiff_string_bdiff_size('file.bdiff');echo "Розмір результуючого файлу буде $length байт";?> `
 
 ### Дивіться також
 

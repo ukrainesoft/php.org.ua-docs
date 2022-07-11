@@ -13,7 +13,7 @@ ibase_commit - Фіксує транзакцію
 
 ### Опис
 
-**ibase_commit**(resource `$link_or_trans_identifier` u003d **`null`**):
+**ibase_commit**(resource `$link_or_trans_identifier` = **`null`**):
 bool
 
 Фіксує транзакцію.

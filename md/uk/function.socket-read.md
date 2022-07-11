@@ -7,14 +7,14 @@
 
 # socket_read
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_read — Читає рядок максимальну довжину байт із сокету
 
 ### Опис
 
 **socket_read**([Socket](class.socket.md) `$socket`, int `$length`,
-int `$mode` u003d **`PHP_BINARY_READ`**): string\|false
+int `$mode` = **`PHP_BINARY_READ`**): string\|false
 
 Функція **socket_read()** читає дані з екземпляра
 [Socket](class.socket.md) `socket`, створеного за допомогою функцій
@@ -61,9 +61,9 @@ int `$mode` u003d **`PHP_BINARY_READ`**): string\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                    | ](  |
-| ------ | --------------------------------------------------------------------------------------- | --- |
-| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |     |     
+| Версія | Опис                                                                                    | ]( |
+|--------|-----------------------------------------------------------------------------------------|----|
+| 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |    |
 
 ### Дивіться також
 

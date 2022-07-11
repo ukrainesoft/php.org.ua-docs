@@ -13,8 +13,8 @@ Imagick::getImageProperties — Повертає властивості зобр
 
 ### Опис
 
-public **Imagick::getImageProperties**(string `$pattern` u003d "\*", bool
-`$include_values` u003d **`true`**): array
+public **Imagick::getImageProperties**(string `$pattern` = "\*", bool
+`$include_values` = **`true`**): array
 
 Повертає всі властивості, що задовольняють шаблон. Якщо як
 другого параметра передано **`false`**, то повертаються лише назви
@@ -40,5 +40,5 @@ ImageMagick 6.3.6 або старше.
 
 Приклад отримання EXIF-інформації.
 
-` <?php/* Створення об'єкта */$im u003d new imagick("/path/to/example.jpg");/* Отримання EXIF-інформації */$exifArray u003d $im->getImageProperties("exif:*" );/* Цикл по EXIF-властивостей */foreach ($exifArray as $name u003d> $property){    echo "{$name} u003d> {$property}<br />
+` <?php/* Створення об'єкта */$im = new imagick("/path/to/example.jpg");/* Отримання EXIF-інформації */$exifArray = $im->getImageProperties("exif:*" );/* Цикл по EXIF-властивостей */foreach ($exifArray as $name => $property){    echo "{$name} => {$property}<br />
 ";}?> `

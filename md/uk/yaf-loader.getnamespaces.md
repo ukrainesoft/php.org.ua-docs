@@ -7,7 +7,7 @@
 
 # Yaf_Loader::getLocalNamespace
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Loader::getLocalNamespace — Отримує всю інформацію про
 зареєстрованих просторах імен

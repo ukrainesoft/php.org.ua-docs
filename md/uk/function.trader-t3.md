@@ -7,13 +7,13 @@
 
 # trader_t3
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_t3 - Потрійна експоненційна ковзна середня
 
 ### Опис
 
-**trader_t3**(array `$real`, int `$timePeriod` u003d ?, float `$vFactor` u003d
+**trader_t3**(array `$real`, int `$timePeriod` = ?, float `$vFactor` =
 ?): array
 
 ### Список параметрів

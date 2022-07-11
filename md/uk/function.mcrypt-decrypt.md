@@ -7,7 +7,7 @@
 
 # mcrypt_decrypt
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_decrypt — Розшифровує дані із заданими параметрами
 
@@ -23,7 +23,7 @@ string `$cipher`,
 string `$key`,
 string `$data`,
 string `$mode`,
-string `$iv` u003d ?
+string `$iv` = ?
 ): string\|false
 
 Розшифровує `data` та повертає отримане значення.

@@ -7,13 +7,13 @@
 
 # ArrayObject::ksort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::ksort — Сортування записів за ключами
 
 ### Опис
 
-public **ArrayObject::ksort**(int `$flags` u003d **`SORT_REGULAR`**): bool
+public **ArrayObject::ksort**(int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує масив за ключами, зберігаючи відносини між ключами та
 значеннями. Це корисно в основному для роботи з асоціативними
@@ -55,15 +55,15 @@ public **ArrayObject::ksort**(int `$flags` u003d **`SORT_REGULAR`**): bool
 
 **Приклад #1 Приклад використання **ArrayObject::ksort()****
 
-` <?php$fruits u003d array("d" u003d> "lemon", "a" u003d> "orange", "b" u003d> "banana", "c" u003d> "apple");$fruitArrayObject u003d new ArrayObject($fruits);$fruitArrayObject->ksort();foreach ($fruitArrayObject as $key u003d> $val) {    echo "$key u003d $val
+` <?php$fruits = array("d" => "lemon", "a" => "orange", "b" => "banana", "c" => "apple");$fruitArrayObject = new ArrayObject($fruits);$fruitArrayObject->ksort();foreach ($fruitArrayObject as $key => $val) {    echo "$key = $val
 ";} ?> `
 
 Результат виконання цього прикладу:
 
-a u003d orange
-b u003d banana
-c u003d apple
-d u003d lemon
+a = orange
+b = banana
+c = apple
+d = lemon
 
 ### Дивіться також
 

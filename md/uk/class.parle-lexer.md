@@ -7,7 +7,7 @@
 
 # Клас Parle\Lexer
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 ## Вступ
 
@@ -27,27 +27,27 @@ class **Parle\Lexer** {
 
 /\* Константи \*/
 
-const int `ICASE` u003d 1;
+const int `ICASE` = 1;
 
-const int `DOT_NOT_LF` u003d 2;
+const int `DOT_NOT_LF` = 2;
 
-const int `DOT_NOT_CRLF` u003d 4;
+const int `DOT_NOT_CRLF` = 4;
 
-const int `SKIP_WS` u003d 8;
+const int `SKIP_WS` = 8;
 
-const int `MATCH_ZERO_LEN` u003d 16;
+const int `MATCH_ZERO_LEN` = 16;
 
 /\* Властивості \*/
 
-public bool `$bol` u003d **`false`**;
+public bool `$bol` = **`false`**;
 
-public int `$flags` u003d 0;
+public int `$flags` = 0;
 
-public int `$state` u003d 0;
+public int `$state` = 0;
 
-public int `$marker` u003d 0;
+public int `$marker` = 0;
 
-public int `$cursor` u003d 0;
+public int `$cursor` = 0;
 
 /\* Методи \*/
 

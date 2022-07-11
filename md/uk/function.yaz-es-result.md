@@ -7,7 +7,7 @@
 
 # yaz_es_result
 
-(PHP 4 u003d 4.2.0, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.2.0, PECL yaz = 0.9.0)
 
 yaz_es_result — Перевіряє результат Extended Service
 

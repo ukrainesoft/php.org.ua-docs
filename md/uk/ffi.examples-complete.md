@@ -10,8 +10,8 @@
 `php.ini`
 
 `` inicode
-ffi.enableu003dpreload
-opcache.preloadu003dpreload.php
+ffi.enable=preload
+opcache.preload=preload.php
 ````
 
 `preload.php`
@@ -29,9 +29,9 @@ int printf(const char *format, ...);
 
 `dummy.php`
 
-`<?phpfinal class Dummy {     private static $ffi u003d null; function __construct() {        if (is_null(self::$ffi)) {            selsel::$ffi u003d FFI::scope("DUMMY" }    }    function printf($format, ...$args) {      return (int)self::$ffi->printf($format, ...$args); }}?> `
+`<?phpfinal class Dummy {     private static $ffi = null; function __construct() {        if (is_null(self::$ffi)) {            selsel::$ffi = FFI::scope("DUMMY" }    }    function printf($format, ...$args) {      return (int)self::$ffi->printf($format, ...$args); }}?> `
 
 `test.php`
 
-` <?php$d u003d new Dummy();$d->printf("Привіт,%s!"
+` <?php$d = new Dummy();$d->printf("Привіт,%s!"
 ", "світ");?> `

@@ -37,7 +37,7 @@ public **mysql_xdevapi\Schema::existsInDatabase**(): bool
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::getCollection()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema u003d $session->getSchema("food ");$schema->createCollection("trees");// ...$trees u003d $schema->getCollection("trees");// ...//| )?if($trees->existsInDatabase()) {    echo "Так, колекція 'trees' все ще існує.";} `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS food")->execute();$session->sql( "CREATE DATABASE food")->execute();$session->sql("CREATE TABLE food.fruit(name text, rating text)")->execute();$schema = $session->getSchema("food ");$schema->createCollection("trees");// ...$trees = $schema->getCollection("trees");// ...//| )?if($trees->existsInDatabase()) {    echo "Так, колекція 'trees' все ще існує.";} `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # mysql_fetch_assoc
 
-(PHP 4 u003d 4.0.3, PHP 5)
+(PHP 4 = 4.0.3, PHP 5)
 
 mysql_fetch_assoc — Повертає ряд результату запиту як
 асоціативного масиву
@@ -57,7 +57,7 @@ mysql_fetch_assoc — Повертає ряд результату запиту 
 
 **Приклад #1 Розширений приклад використання **mysql_fetch_assoc()****
 
-` <?php$conn u003d mysql_connect("localhost", "mysql_user", "mysql_password");if (!$conn) {    echo "Unable to connect to DB: " . mysql_error(); exit;}if(!mysql_select_db("mydbname")) {   echo "Unable to select mydbname: " . mysql_error(); exit;}$sql u003d "SELECT id as userid, fullname, userstatus        FROM   sometable        WHERE  userstatus u003d 1";$result u003d mysql_query($sql);if (!$result) {    echo "Could not successfully run query ($sql) from DB: " . mysql_error(); exit;}if(mysql_num_rows($result) u003du003d 0) {    echo "No rows found, nothing to print so am exiting"; exit;}// До тих пор, поки в результаті містяться ряди, поміщаємо их в асоціативний масив.// Зауваження: якщо запит повертає тільки один    | в початок цикла, ви зробите//             доступними змінні $userid, $fullname і $userstatuswhile ($row u003d mysql_fetch_assoc$   echo $row["fullname"]; echo $row["userstatus"];}mysql_free_result($result);?> `
+` <?php$conn = mysql_connect("localhost", "mysql_user", "mysql_password");if (!$conn) {    echo "Unable to connect to DB: " . mysql_error(); exit;}if(!mysql_select_db("mydbname")) {   echo "Unable to select mydbname: " . mysql_error(); exit;}$sql = "SELECT id as userid, fullname, userstatus        FROM   sometable        WHERE  userstatus = 1";$result = mysql_query($sql);if (!$result) {    echo "Could not successfully run query ($sql) from DB: " . mysql_error(); exit;}if(mysql_num_rows($result) == 0) {    echo "No rows found, nothing to print so am exiting"; exit;}// До тих пор, поки в результаті містяться ряди, поміщаємо их в асоціативний масив.// Зауваження: якщо запит повертає тільки один    | в початок цикла, ви зробите//             доступними змінні $userid, $fullname і $userstatuswhile ($row = mysql_fetch_assoc$   echo $row["fullname"]; echo $row["userstatus"];}mysql_free_result($result);?> `
 
 ### Примітки
 

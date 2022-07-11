@@ -7,13 +7,13 @@
 
 # trader_min
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_min — Найменше значення за вказаний період
 
 ### Опис
 
-**trader_min**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_min**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

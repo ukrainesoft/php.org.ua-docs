@@ -7,7 +7,7 @@
 
 #date_create_immutable
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 date_create_immutable - Псевдонім
 [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md)

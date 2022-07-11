@@ -39,4 +39,4 @@ abstract public **mysql_xdevapi\CrudOperationLimitable::limit**(int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CrudOperationLimitable::limit()****
 
-` <?php$res u003d $coll->find()->fields(['name as n','age as a','job as j'])->groupBy('j')->limit( 11)->execute();$res u003d $table->update()->set('age',69)->where('age > 15 and age < 22')->limit(4)-> orderby(['age asc','name desc'])->execute();?> `
+` <?php$res = $coll->find()->fields(['name as n','age as a','job as j'])->groupBy('j')->limit( 11)->execute();$res = $table->update()->set('age',69)->where('age > 15 and age < 22')->limit(4)-> orderby(['age asc','name desc'])->execute();?> `

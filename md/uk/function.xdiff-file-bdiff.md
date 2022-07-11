@@ -7,7 +7,7 @@
 
 #xdiff_file_bdiff
 
-(PECL xdiff \>u003d 1.5.0)
+(PECL xdiff \>= 1.5.0)
 
 xdiff_file_bdiff — Створити бінарний патч порівнюючи два файли
 
@@ -44,7 +44,7 @@ xdiff_file_bdiff — Створити бінарний патч порівнюю
 
 Наступний код створює бінарний патч.
 
-` <?php$old_version u003d 'my_script_1.0.tgz';$new_version u003d 'my_script_1.1.tgz';xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');?> `
+` <?php$old_version = 'my_script_1.0.tgz';$new_version = 'my_script_1.1.tgz';xdiff_file_bdiff($old_version, $new_version, 'my_script.bdiff');?> `
 
 ### Примітки
 

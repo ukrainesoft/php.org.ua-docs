@@ -7,7 +7,7 @@
 
 # iconv
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 iconv — Перетворення рядка з одного кодування символів на інше
 
@@ -54,7 +54,7 @@ iconv — Перетворення рядка з одного кодування
 
 **Приклад #1 Приклад використання **iconv()****
 
-` <?php$text u003d "Це символ євро - '€'.";echo 'Вихідний|рядок         :: ', $text, PHP_EOL;echo 'З додаванням TRANSL' -1//TRANSLIT", $text), PHP_EOL;echo 'З додаванням IGNORE   : ', iconv("UTF-8", "ISO-8859-1//IGNORE", $text), PHP_E'е; : ', iconv("UTF-8", "ISO-8859-1", $text), PHP_EOL;?> `
+` <?php$text = "Це символ євро - '€'.";echo 'Вихідний|рядок         :: ', $text, PHP_EOL;echo 'З додаванням TRANSL' -1//TRANSLIT", $text), PHP_EOL;echo 'З додаванням IGNORE   : ', iconv("UTF-8", "ISO-8859-1//IGNORE", $text), PHP_E'е; : ', iconv("UTF-8", "ISO-8859-1", $text), PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

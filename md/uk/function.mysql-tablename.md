@@ -51,7 +51,7 @@ mysql_tablename — Повертає ім'я таблиці, що містить
 
 **Приклад #1 Приклад використання **mysql_tablename()****
 
-` <?phpmysql_connect("localhost", "mysql_user", "mysql_password");$result u003d mysql_list_tables("mydb");$num_rows u003d mysql_num_rows($result);for ($i u003d 0; $$; $i++) {    echo "Table: ", mysql_tablename($result, $i), "
+` <?phpmysql_connect("localhost", "mysql_user", "mysql_password");$result = mysql_list_tables("mydb");$num_rows = mysql_num_rows($result);for ($i = 0; $$; $i++) {    echo "Table: ", mysql_tablename($result, $i), "
 ";} mysql_free_result($result);?> `
 
 ### Примітки

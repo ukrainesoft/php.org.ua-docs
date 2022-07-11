@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Serializable::bsonSerialize
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Serializable::bsonSerialize — Надає масив або
 документ для серіалізації у BSON
@@ -51,7 +51,7 @@ BSON.
 **Приклад #1 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
 асоціативного масиву для кореневого документа**
 
-`<?phpclass MyDocument implements MongoDB\BSON\Serializable{    private $id; function __construct()    {        $this->id u003d new MongoDB\BSON\ObjectId; }   function bsonSerialize()    {        return ['_id' u003d>$this->id, 'foo' u003d> 'bar']; }}$bson u003dMongoDB\BSON romPHP(new MyDocument);echo MongoDB\BSON oJSON($bson), "
+`<?phpclass MyDocument implements MongoDB\BSON\Serializable{    private $id; function __construct()    {        $this->id = new MongoDB\BSON\ObjectId; }   function bsonSerialize()    {        return ['_id' =>$this->id, 'foo' => 'bar']; }}$bson =MongoDB\BSON romPHP(new MyDocument);echo MongoDB\BSON oJSON($bson), "
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -61,7 +61,7 @@ BSON.
 **Приклад #2 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
 послідовного масиву для кореневого документа**
 
-`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$bson u003dMongoDB\BSON romPHP(new MyArray);echo MongoDB\BSON oJSON($bson), "
+`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$bson =MongoDB\BSON romPHP(new MyArray);echo MongoDB\BSON oJSON($bson), "
 ";?> `
 
 Результат виконання цього прикладу:
@@ -71,7 +71,7 @@ BSON.
 **Приклад #3 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
 асоціативного масиву для поля документа**
 
-` <?phpclass MyDocument implements MongoDB\BSON\Serializable{; }}$value u003d ['document' u003d> new MyDocument];$bson u003d MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
+` <?phpclass MyDocument implements MongoDB\BSON\Serializable{; }}$value = ['document' => new MyDocument];$bson = MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
 ";?> `
 
 Результат виконання цього прикладу:
@@ -81,7 +81,7 @@ BSON.
 **Приклад #4 **MongoDB\BSON\Serializable::bsonSerialize()** повернення
 послідовного масиву для поля документа**
 
-`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$value u003d ['array' u003d> new MyArray];$bson u003d MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
+`<?phpclass MyArray implements MongoDB\BSON\Serializable{    function bsonSerialize()    {       return [1, 2, 3]; }}$value = ['array' => new MyArray];$bson = MongoDB\BSON romPHP($value);echo MongoDB\BSON oJSON($bson), "
 ";?> `
 
 Результат виконання цього прикладу:

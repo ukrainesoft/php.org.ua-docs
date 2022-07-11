@@ -80,12 +80,12 @@ public **mysqli_stmt::result_metadata**():
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "test");$mysqli->query("DROP TABLE IF EXISTS friends");$mysqli->query("CREATE TABLE friends (id int, name varchar(20))");$mysqli->query("INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");$stmt u003d $mysql >prepare("SELECT id, name FROM friends");$stmt->execute();/* отримуємо результуючий набір метаданих */$result u003d $stmt->result_metadata(); $field u003d $result->fetch_field();printf("Ім'я стовпця: %s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "test");$mysqli->query("DROP TABLE IF EXISTS friends");$mysqli->query("CREATE TABLE friends (id int, name varchar(20))");$mysqli->query("INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");$stmt = $mysql >prepare("SELECT id, name FROM friends");$stmt->execute();/* отримуємо результуючий набір метаданих */$result = $stmt->result_metadata(); $field = $result->fetch_field();printf("Ім'я стовпця: %s
 ", $field->name);/* закриваємо результуючий набір */$result->close();/* закриваємо підключення */$mysqli->close();?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "test"); mysqli_query($link, "DROP TABLE IF EXISTS friends");mysqli_query($link, id int, name varchar(20))");mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");$stmt u003d mysqli_prepare($link, id, name FROM friends");mysqli_stmt_execute($stmt);/* отримуємо результуючий набір метаданих */$result u003d mysqli_stmt_result_metadata($stmt); printf("Ім'я стовпця:%s
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "test"); mysqli_query($link, "DROP TABLE IF EXISTS friends");mysqli_query($link, id int, name varchar(20))");mysqli_query($link, "INSERT INTO friends VALUES (1,'Hartmut'), (2, 'Ulf')");$stmt = mysqli_prepare($link, id, name FROM friends");mysqli_stmt_execute($stmt);/* отримуємо результуючий набір метаданих */$result = mysqli_stmt_result_metadata($stmt); printf("Ім'я стовпця:%s
 ", $field->name);/* закриваємо результуючий набір */mysqli_free_result($result);/* закриваємо підключення */mysqli_close($link);?> `
 
 ### Дивіться також

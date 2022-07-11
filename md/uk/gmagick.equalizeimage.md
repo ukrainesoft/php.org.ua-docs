@@ -7,7 +7,7 @@
 
 # Gmagick::equalizeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::equalizeimage — Вирівнює гістограму зображення
 

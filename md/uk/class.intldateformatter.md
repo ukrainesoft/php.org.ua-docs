@@ -7,7 +7,7 @@
 
 # Клас IntlDateFormatter
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 ## Вступ
 
@@ -30,10 +30,10 @@ public [\_\_construct](intldateformatter.create.md)(
 int `$dateType`,
 int `$timeType`,
 [IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**,
-[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` u003d
+`$timezone` = **`null`**,
+[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` =
 **`null`**,
-string `$pattern` u003d ""
+string `$pattern` = ""
 )
 
 public static [create](intldateformatter.create.md)(
@@ -41,10 +41,10 @@ public static [create](intldateformatter.create.md)(
 int `$dateType`,
 int `$timeType`,
 [IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**,
-[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` u003d
+`$timezone` = **`null`**,
+[IntlCalendar](class.intlcalendar.md)\|int\|null `$calendar` =
 **`null`**,
-string `$pattern` u003d ""
+string `$pattern` = ""
 ): ?[IntlDateFormatter](class.intldateformatter.md)
 
 public
@@ -53,8 +53,8 @@ public
 
 public static
 [formatObject](intldateformatter.formatobject.md)([IntlCalendar](class.intlcalendar.md)\|[DateTime](class.datetime.md)
-`$datetime`, array\|int\|string\|null `$format` u003d **`null`**, ?string
-`$locale` u003d **`null`**): string\|false
+`$datetime`, array\|int\|string\|null `$format` = **`null`**, ?string
+`$locale` = **`null`**): string\|false
 
 public [getCalendar](intldateformatter.getcalendar.md)(): int\|false
 
@@ -65,7 +65,7 @@ public [getErrorCode](intldateformatter.geterrorcode.md)(): int
 public [getErrorMessage](intldateformatter.geterrormessage.md)():
 string
 
-public [getLocale](intldateformatter.getlocale.md)(int `$type` u003d
+public [getLocale](intldateformatter.getlocale.md)(int `$type` =
 **`ULOC_ACTUAL_LOCALE`**): string\|false
 
 public [getPattern](intldateformatter.getpattern.md)(): string\|false
@@ -84,10 +84,10 @@ public [getTimeZone](intldateformatter.gettimezone.md)():
 public [isLenient](intldateformatter.islenient.md)(): bool
 
 public [localtime](intldateformatter.localtime.md)(string `$string`,
-int `&$offset` u003d **`null`**): array\|false
+int `&$offset` = **`null`**): array\|false
 
 public [parse](intldateformatter.parse.md)(string `$string`, int
-`&$offset` u003d **`null`**): int\|float\|false
+`&$offset` = **`null`**): int\|float\|false
 
 public
 [setCalendar](intldateformatter.setcalendar.md)([IntlCalendar](class.intlcalendar.md)\|int\|null
@@ -157,7 +157,7 @@ public
 Наступні константи використовуються для завдання типу календаря. Ці
 календарі зав'язані прямо на Григоріанський календар. Чи не Григоріанський
 календар має бути заданий у локалі. Наприклад
-localeu003d"hi@calendaru003dBUDDHIST".
+locale="hi@calendar=BUDDHIST".
 
 **`IntlDateFormatter::TRADITIONAL`** (int)
 Чи не Григоріанський календар

@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::isConnected
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::isConnected — Перевіряє, чи підключено з'єднання
 HTTP

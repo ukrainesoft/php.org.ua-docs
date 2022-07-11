@@ -63,7 +63,7 @@ BLOB-поле бази даних, а чи не в полях типу CHAR чи
 
 **Приклад #1 Приклад використання **serialize()****
 
-`<?php//$session_data містить багатомірний масив з сесійною// інформацією про поточному користувачеві. Ми  використовуємо serialize() для збереження// цій інформації в базі даних в кінці запиту.$conn u003d odbc_connect("webdb", "php", "chicken");$stmt  ? WHERE id u003d ?");$sqldata u003d array (serialize($session_data), $_SERVER['PHP_AUTH_USER']);if (!odbc_execute($stmt, $sqldata))           ¦ INSERT INTO sessions (id, data) VALUES(?, ?)"); if (!odbc_execute($stmt, array_reverse($sqldata))) {        /* Код, виконаний в випадку виникнення помилки.. */   
+`<?php//$session_data містить багатомірний масив з сесійною// інформацією про поточному користувачеві. Ми  використовуємо serialize() для збереження// цій інформації в базі даних в кінці запиту.$conn = odbc_connect("webdb", "php", "chicken");$stmt  ? WHERE id = ?");$sqldata = array (serialize($session_data), $_SERVER['PHP_AUTH_USER']);if (!odbc_execute($stmt, $sqldata))           ¦ INSERT INTO sessions (id, data) VALUES(?, ?)"); if (!odbc_execute($stmt, array_reverse($sqldata))) {        /* Код, виконаний в випадку виникнення помилки.. */   
 
 ### Примітки
 

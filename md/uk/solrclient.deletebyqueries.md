@@ -7,7 +7,7 @@
 
 # SolrClient::deleteByQueries
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::deleteByQueries — Видаляє всі відповідні документи.
 будь-якому із запитів

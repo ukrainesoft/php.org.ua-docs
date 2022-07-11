@@ -16,11 +16,11 @@
 
 `Овощ`
 
-`<?phpclass Vegetable {    public $edible; public $color; public function __construct($edible, $color u003d "green")    {       $this->edible u003d $edible; $this->color u003d $color; }   public functionisEdible()   {        return $this->edible; }   publicfunction getColor()   {        return $this->color; }}?> `
+`<?phpclass Vegetable {    public $edible; public $color; public function __construct($edible, $color = "green")    {       $this->edible = $edible; $this->color = $color; }   public functionisEdible()   {        return $this->edible; }   publicfunction getColor()   {        return $this->color; }}?> `
 
 `Шпинат`
 
-`<?phpclass Spinach extends Vegetable {    public $cooked u003d false; public function __construct()    {        parent::__construct(true, "green"); }    public function cook()    {        $this->cooked u003d true; }   public|function isCooked()   {        return $this->cooked; }}?> `
+`<?phpclass Spinach extends Vegetable {    public $cooked = false; public function __construct()    {        parent::__construct(true, "green"); }    public function cook()    {        $this->cooked = true; }   public|function isCooked()   {        return $this->cooked; }}?> `
 
 Тепер ми створимо об'єкт кожного класу і роздрукуємо інформацію про
 них, включаючи порядок їх успадкування. Також ми оголосимо кілька
@@ -28,11 +28,11 @@
 
 **Приклад #2 test_script.php**
 
-` <?php// зареєструвати автозавантажувач для завантаження класівspl_autoload_register();function printProperties($obj){    foreach (get_object_vars($obj) as $prop u003d> $               
-";    }}function printMethods($obj){   $arr u003d get_class_methods(get_class($obj));   foreach ($arr as $method) {     
+` <?php// зареєструвати автозавантажувач для завантаження класівspl_autoload_register();function printProperties($obj){    foreach (get_object_vars($obj) as $prop => $               
+";    }}function printMethods($obj){   $arr = get_class_methods(get_class($obj));   foreach ($arr as $method) {     
 ";    }}function objectBelongsTo($obj, $class){    if (is_subclass_of($obj, $class)) {        echo "Объект принадлежит к классу " . get_class($obj);        echo ", подкласс $class
 ";    }}else {         echo "Об'єкт не належить до підкласу $class
-";    }}// створення 2 об'єктів$veggie u003d new Vegetable(true, "blue");$leafy u003d new Spinach();// виведення інформації об'єктахecho |
+";    }}// створення 2 об'єктів$veggie = new Vegetable(true, "blue");$leafy = new Spinach();// виведення інформації об'єктахecho |
 ";echo "листовий: CLASS " . get_class($leafy);echo ", PARENT " . get_parent_class($leafy) . "
 ";// показати вегетаріанські властивостіecho "
 вегетаріанська: Властивості
@@ -48,8 +48,8 @@ leafy: Методи
 листовий: CLASS Spinach, PARENT Vegetable
 
 вегетаріанська: Властивості
-edible u003d 1
-color u003d blue
+edible = 1
+color = blue
 
 листовий: Методи
 function __construct()

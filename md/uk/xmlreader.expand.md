@@ -7,14 +7,14 @@
 
 # XMLReader::expand
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::expand — Повернути копію поточного сайту як об'єкт DOM
 
 ### Опис
 
 public **XMLReader::expand**(?[DOMNode](class.domnode.md) `$baseNode`
-u003d **`null`**): [DOMNode](class.domnode.md)\|false
+= **`null`**): [DOMNode](class.domnode.md)\|false
 
 Цей метод копіює поточний вузол та повертає відповідний об'єкт
 DOM.

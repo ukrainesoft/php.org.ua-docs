@@ -21,19 +21,19 @@
 **Приклад #1 Проста пошукова форма XForms**
 
 ```htmlcode
-<h:html xmlns:hu003d"http://www.w3.org/1999/xhtml"
-xmlnsu003d"http://www.w3.org/2002/xforms">
+<h:html xmlns:h="http://www.w3.org/1999/xhtml"
+xmlns="http://www.w3.org/2002/xforms">
 <h:head>
 <h:title>Пошук</h:title>
 <model>
-<submission actionu003d"http://example.com/search"
-methodu003d"post" idu003d"s"/>
+<submission action="http://example.com/search"
+method="post" id="s"/>
 </model>
 </h:head>
 <h:body>
 <h:p>
-<input refu003d"q"><label>Що шукати?</label></input>
-<submit submissionu003d"s"><label>Знайти</label></submit>
+<input ref="q"><label>Що шукати?</label></input>
+<submit submission="s"><label>Знайти</label></submit>
 </h:p>
 </h:body>
 </h:html>
@@ -63,19 +63,19 @@ XML-документ, згенерований браузером, який мо
 **Приклад #2 Використання XForm спільно з масивом `$_POST`**
 
 ```htmlcode
-<h:html xmlns:hu003d"http://www.w3.org/1999/xhtml"
-xmlnsu003d"http://www.w3.org/2002/xforms">
+<h:html xmlns:h="http://www.w3.org/1999/xhtml"
+xmlns="http://www.w3.org/2002/xforms">
 <h:head>
 <h:title>Пошук</h:title>
 <model>
-<submission actionu003d"http://example.com/search"
-methodu003d"urlencoded-post" idu003d"s"/>
+<submission action="http://example.com/search"
+method="urlencoded-post" id="s"/>
 </model>
 </h:head>
 <h:body>
 <h:p>
-<input refu003d"q"><label>Що шукати?</label></input>
-<submit submissionu003d"s"><label>Знайти</label></submit>
+<input ref="q"><label>Що шукати?</label></input>
+<submit submission="s"><label>Знайти</label></submit>
 </h:p>
 </h:body>
 </h:html>

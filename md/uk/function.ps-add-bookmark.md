@@ -7,7 +7,7 @@
 
 #ps_add_bookmark
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_add_bookmark — Додає закладку на поточну сторінку
 
@@ -16,8 +16,8 @@ ps_add_bookmark — Додає закладку на поточну сторін
 **ps_add_bookmark**(
 resource `$psdoc`,
 string `$text`,
-int `$parent` u003d 0,
-int `$open` u003d 0
+int `$parent` = 0,
+int `$open` = 0
 ): int
 
 Додає закладку до поточної сторінки. Закладки зазвичай видно в

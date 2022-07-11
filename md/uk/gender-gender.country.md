@@ -7,7 +7,7 @@
 
 # Gender\Gender::country
 
-(PECL gender \>u003d 0.8.0)
+(PECL gender \>= 0.8.0)
 
 Gender\Gender::country — Отримати текстове уявлення країни
 
@@ -32,13 +32,13 @@ public **Gender\Gender::country**(int `$country`): array\|false
 
 **Приклад #1 Приклад використання **Gender\Gender::country()****
 
-` $gender u003d new Gender\Gender;var_dump($gender->country(Gender\Gender::BRITAIN));`
+` $gender = new Gender\Gender;var_dump($gender->country(Gender\Gender::BRITAIN));`
 
 Результат виконання цього прикладу:
 
 array(2) {
-'country_short' u003d>
+'country_short' =>
 string(2) "UK"
-'country' u003d>
+'country' =>
 string(13) "Great Britain"
 }

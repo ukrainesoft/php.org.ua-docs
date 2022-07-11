@@ -7,7 +7,7 @@
 
 # EvPrepare::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvPrepare::createStopped — Створити об'єкт класу EvPrepare, але не
 стартувати його
@@ -17,7 +17,7 @@ EvPrepare::createStopped — Створити об'єкт класу EvPrepare, 
 final public static **EvPrepare::createStopped**(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvPrepare](class.evprepare.md)
 
 Те саме, що й

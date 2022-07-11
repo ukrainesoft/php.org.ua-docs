@@ -7,7 +7,7 @@
 
 # DOMXPath::registerPhpFunctions
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DOMXPath::registerPhpFunctions — Реєстрація PHP-функцій як функцій
 XPath
@@ -15,7 +15,7 @@ XPath
 ### Опис
 
 public **DOMXPath::registerPhpFunctions**(string\|array\|null
-`$restrict` u003d **`null`**): void
+`$restrict` = **`null`**): void
 
 Цей метод дозволяє використовувати PHP-функції у виразах XPath.
 
@@ -40,7 +40,7 @@ public **DOMXPath::registerPhpFunctions**(string\|array\|null
 **Приклад #1 book.xml**
 
 `` xmlcode
-<?xml versionu003d"1.0" encodingu003d"UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <books>
 <book>
 <title>PHP Basics</title>
@@ -61,8 +61,8 @@ public **DOMXPath::registerPhpFunctions**(string\|array\|null
 **Приклад #2 **DOMXPath::registerPHPFunctions()** з
 `php:functionString`**
 
-` <?php$doc u003d new DOMDocument;$doc->load('book.xml');$xpath u003d new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація функцій PHP (без обмежень)$xpath->registerPHPFunctions();// Виклик функції substr для назви книги$ '//book[php:functionString("substr", title, 0, 3) u003d "PHP"]');echo "Знайдені {$nodes->length} книги, починаються с 'PHP':
-";foreach ($nodes as $node) {    $title  u003d $node->getElementsByTagName("title")->item(0)->nodeValue;    $author u003d $node-> (0)->nodeValue;   echo "$title автора $author
+` <?php$doc = new DOMDocument;$doc->load('book.xml');$xpath = new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація функцій PHP (без обмежень)$xpath->registerPHPFunctions();// Виклик функції substr для назви книги$ '//book[php:functionString("substr", title, 0, 3) = "PHP"]');echo "Знайдені {$nodes->length} книги, починаються с 'PHP':
+";foreach ($nodes as $node) {    $title  = $node->getElementsByTagName("title")->item(0)->nodeValue;    $author = $node-> (0)->nodeValue;   echo "$title автора $author
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -73,7 +73,7 @@ PHP Secrets автора Jenny Smythe
 
 **Приклад #3 **DOMXPath::registerPHPFunctions()** з `php:function`**
 
-` <?php$doc u003d new DOMDocument;$doc->load('book.xml');$xpath u003d new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація PHP-функцій (тільки has_multiple)$xpath->registerPHPFunctions("has_multiple");function has_multiple($nodes) { більше одного автора    return count($nodes) > 1;}// Фільтр книг з двома і більше авторами$books u003d $xpath->query('//book[php:function'' echo "Книги з двома і більше авторами:
+` <?php$doc = new DOMDocument;$doc->load('book.xml');$xpath = new DOMXPath($doc);// Реєстрація PHP: простір імен (обов'язково)$xpath->registerName php", "http://php.net/xpath");// Реєстрація PHP-функцій (тільки has_multiple)$xpath->registerPHPFunctions("has_multiple");function has_multiple($nodes) { більше одного автора    return count($nodes) > 1;}// Фільтр книг з двома і більше авторами$books = $xpath->query('//book[php:function'' echo "Книги з двома і більше авторами:
 ";foreach ($books as $book) {    echo $book->getElementsByTagName("title")->item(0)->nodeValue . "
 ";}?> `
 

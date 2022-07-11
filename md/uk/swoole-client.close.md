@@ -7,13 +7,13 @@
 
 # Swoole\Client::close
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::close — Закриває встановлене з'єднання
 
 ### Опис
 
-public **Swoole\Client::close**(bool `$force` u003d ?): bool
+public **Swoole\Client::close**(bool `$force` = ?): bool
 
 ### Список параметрів
 

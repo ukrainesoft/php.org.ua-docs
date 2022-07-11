@@ -7,7 +7,7 @@
 
 # Клас EventBufferEvent
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -42,31 +42,31 @@ final class **EventBufferEvent** {
 
 /\* Константи \*/
 
-const int `READING` u003d 1;
+const int `READING` = 1;
 
-const int `WRITING` u003d 2;
+const int `WRITING` = 2;
 
-const int `EOF` u003d 16;
+const int `EOF` = 16;
 
-const int `ERROR` u003d 32;
+const int `ERROR` = 32;
 
-const int `TIMEOUT` u003d 64;
+const int `TIMEOUT` = 64;
 
-const int `CONNECTED` u003d 128;
+const int `CONNECTED` = 128;
 
-const int `OPT_CLOSE_ON_FREE` u003d 1;
+const int `OPT_CLOSE_ON_FREE` = 1;
 
-const int `OPT_THREADSAFE` u003d 2;
+const int `OPT_THREADSAFE` = 2;
 
-const int `OPT_DEFER_CALLBACKS` u003d 4;
+const int `OPT_DEFER_CALLBACKS` = 4;
 
-const int `OPT_UNLOCK_CALLBACKS` u003d 8;
+const int `OPT_UNLOCK_CALLBACKS` = 8;
 
-const int `SSL_OPEN` u003d 0;
+const int `SSL_OPEN` = 0;
 
-const int `SSL_CONNECTING` u003d 1;
+const int `SSL_CONNECTING` = 1;
 
-const int `SSL_ACCEPTING` u003d 2;
+const int `SSL_ACCEPTING` = 2;
 
 /\* Властивості \*/
 
@@ -88,27 +88,27 @@ public [connectHost](eventbufferevent.connecthost.md)(
 [EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
 string `$hostname`,
 int `$port` ,
-int `$family` u003d EventUtil::AF_UNSPEC
+int `$family` = EventUtil::AF_UNSPEC
 ): bool
 
 public [\_\_construct](eventbufferevent.construct.md)(
 [EventBase](class.eventbase.md) `$base` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d **`null`** ,
-int `$options` u003d 0 ,
-[callable](language.types.callable.md) `$readcb` u003d **`null`** ,
-[callable](language.types.callable.md) `$writecb` u003d **`null`**
+`$socket` = **`null`** ,
+int `$options` = 0 ,
+[callable](language.types.callable.md) `$readcb` = **`null`** ,
+[callable](language.types.callable.md) `$writecb` = **`null`**
 ,
-[callable](language.types.callable.md) `$eventcb` u003d **`null`**
+[callable](language.types.callable.md) `$eventcb` = **`null`**
 ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`**
+`$arg` = **`null`**
 )
 
 public static [createPair](eventbufferevent.createpair.md)(
-[EventBase](class.eventbase.md) `$base` , int `$options` u003d 0 : array
+[EventBase](class.eventbase.md) `$base` , int `$options` = 0 : array
 
 public [disable](eventbufferevent.disable.md)( int `$events` ): bool
 
@@ -138,7 +138,7 @@ public [setCallbacks](eventbufferevent.setcallbacks.md)(
 [callable](language.types.callable.md) `$eventcb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?
+`$arg` = ?
 ): void
 
 public [setPriority](eventbufferevent.setpriority.md)( int `$priority`
@@ -157,7 +157,7 @@ public static [sslFilter](eventbufferevent.sslfilter.md)(
 [EventBufferEvent](class.eventbufferevent.md) `$underlying`,
 [EventSslContext](class.eventsslcontext.md) `$ctx` ,
 int `$state` ,
-int `$options` u003d 0
+int `$options` = 0
 ): [EventBufferEvent](class.eventbufferevent.md)
 
 public [sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md)():
@@ -181,7 +181,7 @@ public static [sslSocket](eventbufferevent.sslsocket.md)(
 `$socket`,
 [EventSslContext](class.eventsslcontext.md) `$ctx` ,
 int `$state` ,
-int `$options` u003d ?
+int `$options` = ?
 ): [EventBufferEvent](class.eventbufferevent.md)
 
 public [write](eventbufferevent.write.md)( string `$data` ): bool

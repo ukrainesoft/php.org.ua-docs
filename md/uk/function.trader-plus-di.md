@@ -7,7 +7,7 @@
 
 #trader_plus_di
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_plus_di — Плюс-спрямований індикатор
 
@@ -17,7 +17,7 @@ trader_plus_di — Плюс-спрямований індикатор
 array `$high`,
 array `$low`,
 array `$close`,
-int `$timePeriod` u003d ?
+int `$timePeriod` = ?
 ): array
 
 ### Список параметрів

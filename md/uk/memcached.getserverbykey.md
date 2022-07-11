@@ -7,7 +7,7 @@
 
 # Memcached::getServerByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getServerByKey — Отримує інформацію про сервер за ключом
 
@@ -39,31 +39,31 @@ public **Memcached::getServerByKey**(string `$server_key`): array
 
 **Приклад #1 Приклад використання **Memcached::getServerByKey()****
 
-` <?php$m u003d new Memcached();$m->addServers(array(    array('mem1.domain.com', 11211, 40),    array('mem2.domain.com', 1) array('mem3.domain.com', 11211, 20),));$m->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);var_dump($m->getServerByKey('user'));var_dump($m ->getServerByKey('log'));var_dump($m->getServerByKey('ip'));?> `
+` <?php$m = new Memcached();$m->addServers(array(    array('mem1.domain.com', 11211, 40),    array('mem2.domain.com', 1) array('mem3.domain.com', 11211, 20),));$m->setOption(Memcached::OPT_LIBKETAMA_COMPATIBLE, true);var_dump($m->getServerByKey('user'));var_dump($m ->getServerByKey('log'));var_dump($m->getServerByKey('ip'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "mem3.domain.com"
-["port"]u003d>
+["port"]=>
 int(11211)
-["weight"]u003d>
+["weight"]=>
 int(20)
 }
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "mem2.domain.com"
-["port"]u003d>
+["port"]=>
 int(11211)
-["weight"]u003d>
+["weight"]=>
 int(40)
 }
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "mem2.domain.com"
-["port"]u003d>
+["port"]=>
 int(11211)
-["weight"]u003d>
+["weight"]=>
 int(40)
 }

@@ -7,14 +7,14 @@
 
 # openssl_pkey_get_private
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_pkey_get_private — Отримати закритий ключ
 
 ### Опис
 
 **openssl_pkey_get_private**([OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
-`$private_key`, ?string `$passphrase` u003d **`null`**):
+`$private_key`, ?string `$passphrase` = **`null`**):
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|false
 
 **openssl_pkey_get_private()** розбирає `private_key` та готує
@@ -42,7 +42,7 @@ openssl_pkey_get_private — Отримати закритий ключ
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key.                                                      |
 | 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
 | 8.0.0  | passphrase тепер допускає значення null.                                                                                                                                                                                                              |

@@ -7,7 +7,7 @@
 
 # Ds\Deque::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::jsonSerialize — Повертає колекцію в JSON-представництві
 

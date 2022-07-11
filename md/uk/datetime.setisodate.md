@@ -9,7 +9,7 @@
 
 # date_isodate_set
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::setISODate -- date_isodate_set — Встановлює дату у форматі
 ISO
@@ -19,7 +19,7 @@ ISO
 Об'єктно-орієнтований стиль
 
 public **DateTime::setISODate**(int `$year`, int `$week`, int
-`$dayOfWeek` u003d 1): [DateTime](class.datetime.md)
+`$dayOfWeek` = 1): [DateTime](class.datetime.md)
 
 Процедурний стиль
 
@@ -27,7 +27,7 @@ public **DateTime::setISODate**(int `$year`, int `$week`, int
 [DateTime](class.datetime.md) `$object`,
 int `$year`,
 int `$week`,
-int `$dayOfWeek` u003d 1
+int `$dayOfWeek` = 1
 ): [DateTime](class.datetime.md)
 
 Встановлення дати відповідно до стандарту ISO 8601, в якому

@@ -8,7 +8,7 @@
 
 # fann_set_input_scaling_params
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_input_scaling_params — Розраховує вхідні параметри
 масштабування для майбутнього використання на основі даних навчання

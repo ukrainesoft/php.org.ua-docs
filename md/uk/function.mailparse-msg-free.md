@@ -7,7 +7,7 @@
 
 #mailparse_msg_free
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_free — Вивільнити MIME-ресурс
 

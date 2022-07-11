@@ -7,7 +7,7 @@
 
 #fdf_set_flags
 
-(PHP 4 \>u003d 4.0.2, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.0.2, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_set_flags — Встановлює прапор поля
 

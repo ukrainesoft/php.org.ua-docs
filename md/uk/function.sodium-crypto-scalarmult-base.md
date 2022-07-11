@@ -7,7 +7,7 @@
 
 # sodium_crypto_scalarmult_base
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_scalarmult_base — Псевдонім
 [sodium_crypto_box_publickey_from_secretkey()](function.sodium-crypto-box-publickey-from-secretkey.md)

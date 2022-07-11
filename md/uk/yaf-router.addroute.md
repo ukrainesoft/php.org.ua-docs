@@ -7,7 +7,7 @@
 
 # Yaf_Router::addRoute
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Router::addRoute — Додає новий маршрут до маршрутизатора
 
@@ -36,7 +36,7 @@ public **Yaf_Router::addRoute**(string `$name`, Yaf_Route_Abstract
 **Приклад #1 Приклад використання
 [Yaf_Dispatcher::autoRender()](yaf-dispatcher.autorender.md)**
 
-` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config u003dYaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {       $router u003d$$dispatcher->getRouter(); /**         * ми ми можемо додати кілька визначених маршрутів в application.ini        | /**         * добавьте Rewrite route, затем запрос uri:         * http://example.com/product/list/22/foo         * будет соответствовать этому маршруту, и результат:         *         *  [module] u003d>         *  [controller] u003d> product         *  [action] u003d> info         *  [method] u003d> GET         *  [params:protected] u003d> Array         *      (         *          [id] u003d> 22         *          [name] u003d> foo         *      )         *         */        $route  u003d new Yaf_Route_Rewrite (            "/product/list/:id/:name",            array(                "controller" u003d> "product",                "action"     u003d> "info",            )        ); $router->addRoute('dummy', $route); }}?> `
+` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config =Yaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {       $router =$$dispatcher->getRouter(); /**         * ми ми можемо додати кілька визначених маршрутів в application.ini        | /**         * добавьте Rewrite route, затем запрос uri:         * http://example.com/product/list/22/foo         * будет соответствовать этому маршруту, и результат:         *         *  [module] =>         *  [controller] => product         *  [action] => info         *  [method] => GET         *  [params:protected] => Array         *      (         *          [id] => 22         *          [name] => foo         *      )         *         */        $route  = new Yaf_Route_Rewrite (            "/product/list/:id/:name",            array(                "controller" => "product",                "action"     => "info",            )        ); $router->addRoute('dummy', $route); }}?> `
 
 ### Дивіться також
 

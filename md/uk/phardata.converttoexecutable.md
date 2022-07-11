@@ -7,15 +7,15 @@
 
 # PharData::convertToExecutable
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::convertToExecutable — Конвертація tar/zip-архіву з даними в
 Phar-архів, що запускається
 
 ### Опис
 
-public **PharData::convertToExecutable**(?int `$format` u003d **`null`**,
-?int `$compression` u003d **`null`**, ?string `$extension` u003d **`null`**):
+public **PharData::convertToExecutable**(?int `$format` = **`null`**,
+?int `$compression` = **`null`**, ?string `$extension` = **`null`**):
 ?[Phar](class.phar.md)
 
 > **Примітка**:
@@ -78,7 +78,7 @@ tar-архівів, розширення за умовчанням `.phar.tar`, 
 ### Список змін
 
 | Версія | Опис                                                             |
-| ------ | ---------------------------------------------------------------- |
+|--------|------------------------------------------------------------------|
 | 8.0.0  | format, compression та localName тепер допускають значення null. |
 
 ### Приклади
@@ -87,7 +87,7 @@ tar-архівів, розширення за умовчанням `.phar.tar`, 
 
 Використовуємо PharData::convertToExecutable():
 
-`<?phptry {   $tarphar u003d new PharData('myphar.tar'); // конвертуємо в формат phar     // зверніть увагу, myphar.tar *не* віддаляється    $phar u003d $tarphar->convertToExecutable(Phar::PHAR); // creates myphar.phar   $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php')); // створюємо myphar.phar.tgz    $compressed u003d $tarphar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');} catch (Exception $e)   `
+`<?phptry {   $tarphar = new PharData('myphar.tar'); // конвертуємо в формат phar     // зверніть увагу, myphar.tar *не* віддаляється    $phar = $tarphar->convertToExecutable(Phar::PHAR); // creates myphar.phar   $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php')); // створюємо myphar.phar.tgz    $compressed = $tarphar->convertToExecutable(Phar::TAR, Phar::GZ, '.phar.tgz');} catch (Exception $e)   `
 
 ### Дивіться також
 

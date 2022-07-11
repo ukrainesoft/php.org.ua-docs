@@ -7,7 +7,7 @@
 
 # Zookeeper::get
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::get — Синхронно отримує дані, пов'язані з вузлом
 
@@ -15,10 +15,10 @@ Zookeeper::get — Синхронно отримує дані, пов'язані
 
 public **Zookeeper::get**(
 string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d
+[callable](language.types.callable.md) `$watcher_cb` =
 **`null`**,
-array `&$stat` u003d **`null`**,
-int `$max_size` u003d 0
+array `&$stat` = **`null`**,
+int `$max_size` = 0
 ): string
 
 ### Список параметрів
@@ -59,7 +59,7 @@ int `$max_size` u003d 0
 
 Набуття значення від вузла.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/path/to/node';$value u003d 'nodevalue';$zookeeper->set($path, $value);$ r u003d $zookeeper->get($path);if ($r) echo $r;else echo 'Помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$value = 'nodevalue';$zookeeper->set($path, $value);$ r = $zookeeper->get($path);if ($r) echo $r;else echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
@@ -69,32 +69,32 @@ nodevalue
 
 Отримання інформації про статистику сайту.
 
-` <?php$zookeeper u003d new Zookeeper('localhost:2181');$path u003d '/path/to/node';$stat u003d [];$zookeeper->get($path, null, $stat); var_dump($stat);?> `
+` <?php$zookeeper = new Zookeeper('localhost:2181');$path = '/path/to/node';$stat = [];$zookeeper->get($path, null, $stat); var_dump($stat);?> `
 
 Результат виконання цього прикладу:
 
 array(11) {
-["czxid"]u003d>
+["czxid"]=>
 float(0)
-["mzxid"]u003d>
+["mzxid"]=>
 float(0)
-["ctime"]u003d>
+["ctime"]=>
 float(0)
-["mtime"]u003d>
+["mtime"]=>
 float(0)
-["version"]u003d>
+["version"]=>
 int(0)
-["cversion"]u003d>
+["cversion"]=>
 int(-2)
-["aversion"]u003d>
+["aversion"]=>
 int(0)
-["ephemeralOwner"]u003d>
+["ephemeralOwner"]=>
 float(0)
-["dataLength"]u003d>
+["dataLength"]=>
 int(0)
-["numChildren"]u003d>
+["numChildren"]=>
 int(2)
-["pzxid"]u003d>
+["pzxid"]=>
 float(0)
 }
 

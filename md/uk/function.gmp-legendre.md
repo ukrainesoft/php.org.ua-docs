@@ -7,7 +7,7 @@
 
 #gmp_legendre
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_legendre - Символ Лежандра
 
@@ -16,7 +16,7 @@ gmp_legendre - Символ Лежандра
 **gmp_legendre**([GMP](class.gmp.md)\|int\|string `$num1`,
 [GMP](class.gmp.md)\|int\|string `$num2`): int
 
-Обчислює [» символ Лежандра](http://primes.utm.edu/glossary/page.php?sortu003dLegendreSymbol)
+Обчислює [» символ Лежандра](http://primes.utm.edu/glossary/page.php?sort=LegendreSymbol)
 чисел `num1` та `num2`. `num2` має бути непарним та позитивним.
 
 ### Список параметрів

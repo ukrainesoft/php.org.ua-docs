@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\CursorInterface::setTypeMap
 
-(mongodb \>u003d1.6.0)
+(mongodb \>=1.6.0)
 
 MongoDB\Driver\CursorInterface::setTypeMap — Задати порівняння типів
 для десеріалізації BSON

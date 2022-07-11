@@ -7,7 +7,7 @@
 
 # PharData::addFromString
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::addFromString — Створити файл із заданим вмістом у
 tar/zip-архіві
@@ -38,7 +38,7 @@ public **PharData::addFromString**(string `$localName`, string
 
 **Приклад #1 Приклад використання **PharData::addFromString()****
 
-` <?phptry {   $a u003d new PharData('/path/to/my.tar'); $a->addFromString('path/to/file.txt', 'my simple file'); $b u003d $a['path/to/file.txt']->getContent(); // Для додавання вмісту через струмову обертку для великих файлів, використовуйтеoffsetSet()   $c u003dfopen('/path/to/hugefile.bin'); $a['largefile.bin'] u003d $c; fclose($c);} catch (Exception $e) {    // обробка помилок}?> `
+` <?phptry {   $a = new PharData('/path/to/my.tar'); $a->addFromString('path/to/file.txt', 'my simple file'); $b = $a['path/to/file.txt']->getContent(); // Для додавання вмісту через струмову обертку для великих файлів, використовуйтеoffsetSet()   $c =fopen('/path/to/hugefile.bin'); $a['largefile.bin'] = $c; fclose($c);} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Примітки
 

@@ -17,7 +17,7 @@ PHP.
 [»https://pecl.php.net/package/zookeeper](https://pecl.php.net/package/zookeeper).
 
 Щоб увімкнути підтримку zookeeper, конфігуруйте PHP з опцією
-**--with-libzookeeper-diru003dDIR**. DIR - директорія в якій встановлено
+**--with-libzookeeper-dir=DIR**. DIR - директорія в якій встановлено
 бібліотека ZooKeeper C Binding, всередині якої має бути
 `include/zookeeper/zookeeper.h`
 

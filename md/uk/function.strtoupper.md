@@ -35,7 +35,7 @@ strtoupper — Перетворює рядок на верхній регіст�
 
 **Приклад #1 Приклад використання **strtoupper()****
 
-` <?php$str u003d "Mary Had A Little Lamb and She LOVED It So";$str u003d strtoupper($str);echo $str; // виводить: MARY HAD A LITTLE LAMB AND SHE LOVED IT SO?> `
+` <?php$str = "Mary Had A Little Lamb and She LOVED It So";$str = strtoupper($str);echo $str; // виводить: MARY HAD A LITTLE LAMB AND SHE LOVED IT SO?> `
 
 ### Примітки
 

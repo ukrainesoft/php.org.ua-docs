@@ -7,7 +7,7 @@
 
 # fann_destroy
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_destroy - Знищує всю мережу і правильно звільняє всю пов'язану
 пам'ять

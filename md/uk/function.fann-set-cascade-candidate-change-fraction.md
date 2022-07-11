@@ -7,7 +7,7 @@
 
 # fann_set_cascade_candidate_change_fraction
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_candidate_change_fraction — Встановлює частку
 каскадної зміни кандидата

@@ -26,19 +26,19 @@ FastCGI необхідно відредагувати конфігураційн
 
 **Приклад #1 Приклад частини файлу lighttpd.conf**
 
-server.modules +u003d ( "mod_fastcgi")
+server.modules += ( "mod_fastcgi")
 
-fastcgi.server u003d (".php" u003d>
+fastcgi.server = (".php" =>
 ((
-"socket" u003d> "/tmp/php.socket",
-"bin-path" u003d> "/usr/local/bin/php-cgi",
-"bin-environment" u003d> (
-"PHP_FCGI_CHILDREN" u003d> "16",
-"PHP_FCGI_MAX_REQUESTS" u003d> "10000"
+"socket" => "/tmp/php.socket",
+"bin-path" => "/usr/local/bin/php-cgi",
+"bin-environment" => (
+"PHP_FCGI_CHILDREN" => "16",
+"PHP_FCGI_MAX_REQUESTS" => "10000"
 ),
-"min-procs" u003d> 1,
-"max-procs" u003d> 1,
-"idle-timeout" u003d> 20
+"min-procs" => 1,
+"max-procs" => 1,
+"idle-timeout" => 20
 ))
 )
 
@@ -73,21 +73,21 @@ Lighttpd надає програму spawn-fcgi для полегшення уп
 #!/bin/sh
 
 # Розташування бінарного файлу php-cgi
-PHPu003d/usr/local/bin/php-cgi
+PHP=/usr/local/bin/php-cgi
 
 # Розташування PID-файлу
-PHP_PIDu003d/tmp/php.pid
+PHP_PID=/tmp/php.pid
 
 # Прив'язка до адреси
-#FCGI_BIND_ADDRESSu003d10.0.1.1:10000
+#FCGI_BIND_ADDRESS=10.0.1.1:10000
 # Прив'язка до сокету
-FCGI_BIND_ADDRESSu003d/tmp/php.sock
+FCGI_BIND_ADDRESS=/tmp/php.sock
 
-PHP_FCGI_CHILDRENu003d16
-PHP_FCGI_MAX_REQUESTSu003d10000
+PHP_FCGI_CHILDREN=16
+PHP_FCGI_MAX_REQUESTS=10000
 
-env -i PHP_FCGI_CHILDRENu003d$PHP_FCGI_CHILDREN \
-PHP_FCGI_MAX_REQUESTSu003d$PHP_FCGI_MAX_REQUESTS \
+env -i PHP_FCGI_CHILDREN=$PHP_FCGI_CHILDREN \
+PHP_FCGI_MAX_REQUESTS=$PHP_FCGI_MAX_REQUESTS \
 $PHP -b $FCGI_BIND_ADDRESS &
 
 echo $! > "$PHP_PID"
@@ -99,7 +99,7 @@ echo $! > "$PHP_PID"
 
 **Приклад #3 Підключення до віддалених процесів fastcgi**
 
-fastcgi.server u003d (".php" u003d>
-(( "host" u003d> "10.0.0.2", "port" u003d> 1030 ),
-( "host" u003d> "10.0.0.3", "port" u003d> 1030))
+fastcgi.server = (".php" =>
+(( "host" => "10.0.0.2", "port" => 1030 ),
+( "host" => "10.0.0.3", "port" => 1030))
 )

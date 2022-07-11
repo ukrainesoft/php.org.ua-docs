@@ -7,7 +7,7 @@
 
 # GearmanWorker::unregisterAll
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::unregisterAll — Видалення реєстрації всіх імен функцій на
 сервери завдань

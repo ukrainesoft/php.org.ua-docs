@@ -7,7 +7,7 @@
 
 #cubrid_close_prepare
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_close_prepare — Закриває обробник запиту
 
@@ -33,7 +33,7 @@ cubrid_close_prepare — Закриває обробник запиту
 
 **Приклад #1 Приклад використання **cubrid_close_prepare()****
 
-`<?php$con u003d cubrid_connect ("localhost", 33000, "demodb", "dba", "");if ($con) {   echo "connected successfully"; $req u003d cubrid_execute| if ($req) {      while ( list ($id, $name) u003d cubrid_fetch ($req) ){         echo $id; echo $name; }    cubrid_close_prepare($req); // or you can use cubrid_close_request($req)   }   cubrid_disconnect($con);}?> `
+`<?php$con = cubrid_connect ("localhost", 33000, "demodb", "dba", "");if ($con) {   echo "connected successfully"; $req = cubrid_execute| if ($req) {      while ( list ($id, $name) = cubrid_fetch ($req) ){         echo $id; echo $name; }    cubrid_close_prepare($req); // or you can use cubrid_close_request($req)   }   cubrid_disconnect($con);}?> `
 
 ### Дивіться також
 

@@ -8,7 +8,7 @@
 
 #tidy_warning_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy_warning_count - Повертає число Tidy-попереджень, зустрінутих в
 зазначеному документі
@@ -32,7 +32,7 @@ tidy_warning_count - Повертає число Tidy-попереджень, з
 
 **Приклад #1 Приклад використання **tidy_warning_count()****
 
-` <?php$html u003d '<p>тест</i><bogustag>фікція</bogustag>';$tidy u003d tidy_parse_string($html);echo tidy_error_count($tidy) . "
+` <?php$html = '<p>тест</i><bogustag>фікція</bogustag>';$tidy = tidy_parse_string($html);echo tidy_error_count($tidy) . "
 "; //1echo tidy_warning_count($tidy) . "
 "; //5?> `
 

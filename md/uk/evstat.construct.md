@@ -7,7 +7,7 @@
 
 # EvStat::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvStat::\_\_construct — Створює об'єкт спостерігача EvStat
 
@@ -19,8 +19,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 Створює об'єкт спостерігача EvStat та автоматично запускає спостерігача.
@@ -48,8 +48,8 @@ int `$priority` u003d 0
 
 **Приклад #1 Дивимося зміни в /var/log/messages**
 
-`` <?php// Використовуємо 10-секундний інтервал оновлення.$w u003d new EvStat("/var/log/messages", 8, function ($w) { echo "/var/log/messages змін
-"; $attr u003d $w->attr(); if ($attr['nlink']) {  printf("Розмір: %ld
+`` <?php// Використовуємо 10-секундний інтервал оновлення.$w = new EvStat("/var/log/messages", 8, function ($w) { echo "/var/log/messages змін
+"; $attr = $w->attr(); if ($attr['nlink']) {  printf("Розмір: %ld
 ", $attr['size']);  printf("Переглянуто: %ld
 ", $attr['atime']);  printf("Змінено: %ld
 ", $attr['mtime']); } else { fprintf(STDERR, "`messages` файл не найден!"); $w->stop(); }});Ev::run();?> ``

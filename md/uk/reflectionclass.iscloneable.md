@@ -7,7 +7,7 @@
 
 # ReflectionClass::isCloneable
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ReflectionClass::isCloneable — Перевіряє, чи можна клонувати цей
 клас
@@ -31,7 +31,7 @@ public **ReflectionClass::isCloneable**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isCloneable()****
 
-` <?phpclass NotCloneable {    public $var1; private function __clone() {    }}classCloneable {    public $var1;}$notCloneable u003d new ReflectionClass('NotCloneable');$cloneable u003d new ReflectionClass ($cloneable->isCloneable());?> `
+` <?phpclass NotCloneable {    public $var1; private function __clone() {    }}classCloneable {    public $var1;}$notCloneable = new ReflectionClass('NotCloneable');$cloneable = new ReflectionClass ($cloneable->isCloneable());?> `
 
 Результат виконання цього прикладу:
 

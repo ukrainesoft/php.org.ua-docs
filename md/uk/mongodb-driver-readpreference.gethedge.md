@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::getHedge
 
-(mongodb \>u003d1.8.0)
+(mongodb \>=1.8.0)
 
 MongoDB\Driver\ReadPreference::getHedge — Повертає опцію "hedge" з
 ReadPreference

@@ -7,7 +7,7 @@
 
 # IntlCalendar::getTimeZone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getTimeZone — Отримує часовий пояс об'єкту
 
@@ -41,30 +41,30 @@ public **IntlCalendar::getTimeZone**():
 
 **Приклад #1 Приклад використання **IntlCalendar::getTimeZone()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal u003d IntlCalendar::createInstance();print_r($cal->getTimeZone() );$cal->setTimeZone('UTC');print_r($cal->getTimeZone());$cal u003d IntlCalendar::fromDateTime('2012-01-01 00:00:00 GMT+03:33') ;print_r($cal->getTimeZone()); `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal = IntlCalendar::createInstance();print_r($cal->getTimeZone() );$cal->setTimeZone('UTC');print_r($cal->getTimeZone());$cal = IntlCalendar::fromDateTime('2012-01-01 00:00:00 GMT+03:33') ;print_r($cal->getTimeZone()); `
 
 Результат виконання цього прикладу:
 
 IntlTimeZone Object
 (
-[valid] u003d> 1
-[id] u003d> Europe/Lisbon
-[rawOffset] u003d> 0
-[currentOffset] u003d> 3600000
+[valid] => 1
+[id] => Europe/Lisbon
+[rawOffset] => 0
+[currentOffset] => 3600000
 )
 IntlTimeZone Object
 (
-[valid] u003d> 1
-[id] u003d> UTC
-[rawOffset] u003d> 0
-[currentOffset] u003d> 0
+[valid] => 1
+[id] => UTC
+[rawOffset] => 0
+[currentOffset] => 0
 )
 IntlTimeZone Object
 (
-[valid] u003d> 1
-[id] u003d> GMT+03:33
-[rawOffset] u003d> 12780000
-[currentOffset] u003d> 12780000
+[valid] => 1
+[id] => GMT+03:33
+[rawOffset] => 12780000
+[currentOffset] => 12780000
 )
 
 ### Дивіться також

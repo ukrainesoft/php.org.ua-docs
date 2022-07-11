@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\MaxKey::jsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\MaxKey::jsonSerialize — Повертає уявлення, яке
 можна перетворити на JSON

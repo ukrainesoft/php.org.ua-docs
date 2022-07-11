@@ -13,7 +13,7 @@ ibase_fetch_object — Отримує об'єкт із бази даних Inter
 
 ### Опис
 
-**ibase_fetch_object**(resource `$result_id`, int `$fetch_flag` u003d 0):
+**ibase_fetch_object**(resource `$result_id`, int `$fetch_flag` = 0):
 object
 
 Витягує рядок як псевдооб'єкт із заданого ідентифікатора
@@ -46,7 +46,7 @@ BLOB-об'єктів. Передача **`IBASE_UNIXTIME`** змусить фу�
 
 **Приклад #1 Приклад використання **ibase_fetch_object()****
 
-` <?php$dbh u003d ibase_connect($host, $username, $password);$stmt u003d 'SELECT * FROM tblname';$sth u003d ibase_query($dbh, $stmt);while ($row )) {    echo $row->email . "
+` <?php$dbh = ibase_connect($host, $username, $password);$stmt = 'SELECT * FROM tblname';$sth = ibase_query($dbh, $stmt);while ($row )) {    echo $row->email . "
 ";} ibase_close($dbh);?> `
 
 ### Дивіться також

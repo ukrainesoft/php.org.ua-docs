@@ -7,19 +7,19 @@
 
 # EvLoop::defaultLoop
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::defaultLoop — Повертає або створює цикл стандартних подій
 
 ### Опис
 
 public static **EvLoop::defaultLoop**(
-int `$flags` u003d Ev::FLAG_AUTO ,
+int `$flags` = Ev::FLAG_AUTO ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d NULL ,
-float `$io_interval` u003d 0. ,
-float `$timeout_interval` u003d 0.
+`$data` = NULL ,
+float `$io_interval` = 0. ,
+float `$timeout_interval` = 0.
 ): [EvLoop](class.evloop.md)
 
 Якщо цикл стандартних подій не створено, **EvLoop::defaultLoop()**

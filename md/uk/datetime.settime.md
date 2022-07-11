@@ -9,7 +9,7 @@
 
 # date_time_set
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::setTime -- date_time_set — Встановлює час
 
@@ -20,8 +20,8 @@ DateTime::setTime -- date_time_set — Встановлює час
 public **DateTime::setTime**(
 int `$hour`,
 int `$minute`,
-int `$second` u003d 0,
-int `$microsecond` u003d 0
+int `$second` = 0,
+int `$microsecond` = 0
 ): [DateTime](class.datetime.md)
 
 Процедурний стиль
@@ -30,8 +30,8 @@ int `$microsecond` u003d 0
 [DateTime](class.datetime.md) `$object`,
 int `$hour`,
 int `$minute`,
-int `$second` u003d 0,
-int `$microsecond` u003d 0
+int `$second` = 0,
+int `$microsecond` = 0
 ): [DateTime](class.datetime.md)
 
 Встановлює поточне значення часу об'єкта DateTime на нове

@@ -7,7 +7,7 @@
 
 # Клас wkhtmltox\PDF\Object
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **wkhtmltox\PDF\Object** {
 /\* Constructor \*/
 
 public [\_\_construct](wkhtmltox-pdf-object.construct.md)(string
-`$buffer`, array `$settings` u003d ?)
+`$buffer`, array `$settings` = ?)
 
 }
 

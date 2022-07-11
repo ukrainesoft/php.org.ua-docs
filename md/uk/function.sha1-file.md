@@ -7,13 +7,13 @@
 
 #sha1_file
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 sha1_file — Повертає SHA1-хеш файлу
 
 ### Опис
 
-**sha1_file**(string `$filename`, bool `$binary` u003d **`false`**):
+**sha1_file**(string `$filename`, bool `$binary` = **`false`**):
 string\|false
 
 Обчислює SHA1-хеш файлу, ім'я якого задано аргументом `filename`,

@@ -32,7 +32,7 @@ public **ReflectionProperty::isPromoted**(): bool
 
 **Приклад #1 Приклад використання **ReflectionProperty::isPromoted()****
 
-`<?phpclass Foo {    public $baz; public function __construct(public $bar) {}}$o u003d new Foo(42);$o->baz u003d 42;$ro u003d new ReflectionObject($o);var_dump($ro->getProperty('bar') ->isPromoted());var_dump($ro->getProperty('baz')->isPromoted());?> `
+`<?phpclass Foo {    public $baz; public function __construct(public $bar) {}}$o = new Foo(42);$o->baz = 42;$ro = new ReflectionObject($o);var_dump($ro->getProperty('bar') ->isPromoted());var_dump($ro->getProperty('baz')->isPromoted());?> `
 
 Результат виконання цього прикладу:
 

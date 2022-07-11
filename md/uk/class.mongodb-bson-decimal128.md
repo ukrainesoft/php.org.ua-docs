@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Decimal128
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 ## Вступ
 
@@ -38,7 +38,7 @@ final class **MongoDB\BSON\Decimal128** implements
 
 final public
 [\_\_construct](mongodb-bson-decimal128.construct.md)(string `$value`
-u003d?)
+=?)
 
 final public
 [jsonSerialize](mongodb-bson-decimal128.jsonserialize.md)():
@@ -59,7 +59,7 @@ final public
 ## Список змін
 
 | Версія                                                                                                                         | Опис                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0                                                                                                            | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                |
 | PECL mongodb 1.3.0                                                                                                             | Реалізує інтерфейс [MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md). |
 | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |                                                                                                   |

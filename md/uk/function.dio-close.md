@@ -7,7 +7,7 @@
 
 #dio_close
 
-(PHP 4 \>u003d 4.2.0, PHP 5 \< 5.1.0)
+(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
 
 dio_close — Закрити файловий дескриптор
 
@@ -30,7 +30,7 @@ dio_close — Закрити файловий дескриптор
 
 **Приклад #1 Закриття файлового дескриптора**
 
-` <?php$fd u003d dio_open('/dev/ttyS0', O_RDWR);dio_close($fd);?> `
+` <?php$fd = dio_open('/dev/ttyS0', O_RDWR);dio_close($fd);?> `
 
 ### Дивіться також
 

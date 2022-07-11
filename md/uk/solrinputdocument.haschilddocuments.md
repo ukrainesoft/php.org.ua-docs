@@ -7,7 +7,7 @@
 
 # SolrInputDocument::hasChildDocuments
 
-(PECL solr \>u003d 2.3.0)
+(PECL solr \>= 2.3.0)
 
 SolrInputDocument::hasChildDocuments — Повертає true, якщо документ має
 є дочірні документи

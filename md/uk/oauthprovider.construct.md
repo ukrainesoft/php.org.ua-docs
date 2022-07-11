@@ -7,13 +7,13 @@
 
 # OAuthProvider::\_\_construct
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::\_\_construct - Конструктор класу OAuthProvider
 
 ### Опис
 
-public **OAuthProvider::\_\_construct**(array `$params_array` u003d ?)
+public **OAuthProvider::\_\_construct**(array `$params_array` = ?)
 
 Створює об'єкт класу [OAuthProvider](class.oauthprovider.md).
 
@@ -35,7 +35,7 @@ public **OAuthProvider::\_\_construct**(array `$params_array` u003d ?)
 
 **Приклад #1 Приклад використання **OAuthProvider::\_\_construct()****
 
-` <?phptry {   $op u003d new OAuthProvider(); // Використовуємо користувацькі callback-функції    $op->consumerHandler(array($this, 'lookupConsumer')); $op->timestampNonceHandler(array($this, 'timestampNonceChecker')); $op->tokenHandler(array($this, 'myTokenHandler')); // Ігноруємо параметр foo_uri    $op->setParam('foo_uri', NULL); // Для даної кінцевої точки токен не потрібний    $op->setRequestTokenPath('/v1/oauth/request_token'); $op->checkOAuthRequest();} catch (OAuthException $e) {    echo OAuthProvider::reportProblem($e);}?> `
+` <?phptry {   $op = new OAuthProvider(); // Використовуємо користувацькі callback-функції    $op->consumerHandler(array($this, 'lookupConsumer')); $op->timestampNonceHandler(array($this, 'timestampNonceChecker')); $op->tokenHandler(array($this, 'myTokenHandler')); // Ігноруємо параметр foo_uri    $op->setParam('foo_uri', NULL); // Для даної кінцевої точки токен не потрібний    $op->setRequestTokenPath('/v1/oauth/request_token'); $op->checkOAuthRequest();} catch (OAuthException $e) {    echo OAuthProvider::reportProblem($e);}?> `
 
 ### Дивіться також
 

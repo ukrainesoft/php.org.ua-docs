@@ -29,4 +29,4 @@ public **mysql_xdevapi\Session::close**(): bool
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Session::close()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );$session->close(); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$session->close(); `

@@ -7,7 +7,7 @@
 
 # EventListener::setCallback
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventListener::setCallback — Мета setCallback
 
@@ -16,7 +16,7 @@ EventListener::setCallback — Мета setCallback
 public **EventListener::setCallback**(
 [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 Налаштуйте callback-функцію слухача події та, за необхідності,
 callback-аргумент.
@@ -30,15 +30,15 @@ callback-аргумент.
 Повинна відповідати прототипу:
 
 **callback**(
-[EventListener](class.eventlistener.md) `$listener` u003d **`null`**
+[EventListener](class.eventlistener.md) `$listener` = **`null`**
 ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` u003d **`null`** ,
-array `$address` u003d **`null`** ,
+`$fd` = **`null`** ,
+array `$address` = **`null`** ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`**
+`$arg` = **`null`**
 ): void
 
 `listener`

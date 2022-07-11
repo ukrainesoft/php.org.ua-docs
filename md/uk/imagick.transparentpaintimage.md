@@ -7,7 +7,7 @@
 
 # Imagick::transparentPaintImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::transparentPaintImage — Малює пікселі прозорими
 
@@ -51,4 +51,4 @@ bool `$invert`
 
 **Приклад #1 Приклад використання **Imagick::transparentPaintImage()****
 
-` <?phpfunction transparentPaintImage($color, $alpha, $fuzz) {    $imagick u003d new \Imagick(realpath("images/BlueScreen.jpg")); //Мовен бути в форматі, підтримує прозорість    $imagick->setimageformat('png'); $imagick->transparentPaintImage(        $color, $alpha, $fuzz * \Imagick::getQuantum(), false    ); //Не потрібно, але допомагає прибирати залишені пікселі    $imagick->despeckleimage(); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction transparentPaintImage($color, $alpha, $fuzz) {    $imagick = new \Imagick(realpath("images/BlueScreen.jpg")); //Мовен бути в форматі, підтримує прозорість    $imagick->setimageformat('png'); $imagick->transparentPaintImage(        $color, $alpha, $fuzz * \Imagick::getQuantum(), false    ); //Не потрібно, але допомагає прибирати залишені пікселі    $imagick->despeckleimage(); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `

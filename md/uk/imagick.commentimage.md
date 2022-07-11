@@ -36,4 +36,4 @@ public **Imagick::commentImage**(string `$comment`): bool
 
 Коментування зображення та отримання коментаря:
 
-` <?php/* Створити новий об'єкт Imagick */$im u003d new imagick();/* Створити порожнє зображення */$im->newImage(100, 100, new ImagickPixel; до зображення */$im->commentImage("Привіт, Світ!");/* Показати коментар */echo $im->getImageProperty("comment");?> `
+` <?php/* Створити новий об'єкт Imagick */$im = new imagick();/* Створити порожнє зображення */$im->newImage(100, 100, new ImagickPixel; до зображення */$im->commentImage("Привіт, Світ!");/* Показати коментар */echo $im->getImageProperty("comment");?> `

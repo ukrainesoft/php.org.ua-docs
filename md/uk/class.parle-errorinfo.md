@@ -7,7 +7,7 @@
 
 # Клас Parle\ErrorInfo
 
-(PECL parle \>u003d 0.5.2)
+(PECL parle \>= 0.5.2)
 
 ## Вступ
 

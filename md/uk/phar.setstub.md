@@ -7,14 +7,14 @@
 
 # Phar::setStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::setStub — Встановити завантажувач або завантажувальну заглушку в
 Phar-архів
 
 ### Опис
 
-public **Phar::setStub**(string `$stub`, int `$len` u003d -1): bool
+public **Phar::setStub**(string `$stub`, int `$len` = -1): bool
 
 > **Примітка**:
 >
@@ -61,7 +61,7 @@ php.ini. У разі проблем із записом на диск буде �
 
 **Приклад #1 Приклад використання **Phar::setStub()****
 
-` <?phptry {    $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar'); $p['a.php'] u003d '<?php var_dump("Hello");'; $p->setStub('<?php var_dump("First"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>'); include 'phar://brandnewphar.phar/a.php'; var_dump($p->getStub()); $p['b.php'] u003d '<?php var_dump("World");'; $p->setStub('<?php var_dump("Second"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>'); include 'phar://brandnewphar.phar/b.php'; var_dump($p->getStub());} catch (Exception $e) {   echo 'Операції запису на brandnewphar.phar завершилися невдачею: ', $e;}?> `
+` <?phptry {    $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar'); $p['a.php'] = '<?php var_dump("Hello");'; $p->setStub('<?php var_dump("First"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>'); include 'phar://brandnewphar.phar/a.php'; var_dump($p->getStub()); $p['b.php'] = '<?php var_dump("World");'; $p->setStub('<?php var_dump("Second"); Phar::mapPhar("brandnewphar.phar"); __HALT_COMPILER(); ?>'); include 'phar://brandnewphar.phar/b.php'; var_dump($p->getStub());} catch (Exception $e) {   echo 'Операції запису на brandnewphar.phar завершилися невдачею: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

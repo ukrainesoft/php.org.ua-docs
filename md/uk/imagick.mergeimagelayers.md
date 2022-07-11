@@ -7,7 +7,7 @@
 
 # Imagick::mergeImageLayers
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::mergeImageLayers — Об'єднує шари зображення
 
@@ -39,7 +39,7 @@ public **Imagick::mergeImageLayers**(int `$layer_method`):
 
 **Приклад #1 Приклад використання **Imagick::mergeImageLayers()****
 
-` <?phpfunction mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick2 u003d new \Imagick(realpath($imagePath2)); $imagick->addImage($imagick2); $imagick->setImageFormat('png'); $resultu003du003d$imagick->mergeImageLayers($layerMethodType); header("Content-Type: image/png"); echo $result->getImageBlob();}?> `
+` <?phpfunction mergeImageLayers($layerMethodType, $imagePath1, $imagePath2) {   $imagick = new \Imagick(realpath($imagePath)); $imagick2 = new \Imagick(realpath($imagePath2)); $imagick->addImage($imagick2); $imagick->setImageFormat('png'); $result==$imagick->mergeImageLayers($layerMethodType); header("Content-Type: image/png"); echo $result->getImageBlob();}?> `
 
 ### Дивіться також
 

@@ -7,14 +7,14 @@
 
 # Vtiful\Kernel\Excel::constMemory
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::constMemory — Кількість пам'яті
 
 ### Опис
 
 public **Vtiful\Kernel\Excel::constMemory**(string `$fileName`, string
-`$sheetName` u003d ?)
+`$sheetName` = ?)
 
 Запис великого файлу з використанням пам'яті.
 
@@ -34,4 +34,4 @@ public **Vtiful\Kernel\Excel::constMemory**(string `$fileName`, string
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [ 'path' u003d> '/home/viest'];$fileObject u003d new \Vtiful\Kernel\Excel($config);$file u003d $instance->constMemory('tutorial.xlsx'' , 'sheet');?> `
+` <?php$config = [ 'path' => '/home/viest'];$fileObject = new \Vtiful\Kernel\Excel($config);$file = $instance->constMemory('tutorial.xlsx'' , 'sheet');?> `

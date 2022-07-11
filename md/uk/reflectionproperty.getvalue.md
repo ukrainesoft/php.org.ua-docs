@@ -13,7 +13,7 @@ ReflectionProperty::getValue — Отримує значення
 
 ### Опис
 
-public **ReflectionProperty::getValue**(?object `$object` u003d **`null`**):
+public **ReflectionProperty::getValue**(?object `$object` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує значення якості.
@@ -41,14 +41,14 @@ public **ReflectionProperty::getValue**(?object `$object` u003d **`null`**):
 ### Список змін
 
 | Версія | Опис                                 |
-| ------ | ------------------------------------ |
+|--------|--------------------------------------|
 | 8.0.0  | object тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionProperty::getValue()****
 
-`<?phpclass Foo {    public static $staticProperty u003d 'foobar'; public $property u003d 'barfoo'; protected$privatePropertyu003du003d'foofoo';}$reflectionClass u003d new ReflectionClass('Foo');var_dump($reflectionClass->getProperty('staticProperty')->getValue());var_dump($reflectionClass' )->getValue(new Foo));$reflectionProperty u003d $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccessible(true);var_dump($reflectionProperty->getValue(new Fo>
+`<?phpclass Foo {    public static $staticProperty = 'foobar'; public $property = 'barfoo'; protected$privateProperty=='foofoo';}$reflectionClass = new ReflectionClass('Foo');var_dump($reflectionClass->getProperty('staticProperty')->getValue());var_dump($reflectionClass' )->getValue(new Foo));$reflectionProperty = $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccessible(true);var_dump($reflectionProperty->getValue(new Fo>
 
 Результат виконання цього прикладу:
 

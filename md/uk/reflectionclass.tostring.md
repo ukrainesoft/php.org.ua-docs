@@ -31,7 +31,7 @@ public **ReflectionClass::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **ReflectionClass::\_\_toString()****
 
-` <?php$reflectionClass u003d new ReflectionClass('Exception');echo $reflectionClass->__toString();?> `
+` <?php$reflectionClass = new ReflectionClass('Exception');echo $reflectionClass->__toString();?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # RegexIterator::getFlags
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getFlags — Отримання прапорців налаштування
 
@@ -30,7 +30,7 @@ public **RegexIterator::getFlags**(): int
 
 **Приклад #1 Приклад використання **RegexIterator::getFlags()****
 
-` <?php$test u003d array ('str1' u003d> 'test 1', 'teststr2' u003d> 'another test', 'str3' u003d> 'test 123');$arrayIterator u003d new Ar $regexIteratoru003d new RegexIterator($arrayIterator, '/^test/');$regexIterator->setFlags(RegexIterator::USE_KEY);if ($regexIterator->getFlags() На: ключів масиву.';} else {    echo 'Фільтрація на основі значень масиву.';}?> `
+` <?php$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');$arrayIterator = new Ar $regexIterator= new RegexIterator($arrayIterator, '/^test/');$regexIterator->setFlags(RegexIterator::USE_KEY);if ($regexIterator->getFlags() На: ключів масиву.';} else {    echo 'Фільтрація на основі значень масиву.';}?> `
 
 Результат виконання цього прикладу:
 

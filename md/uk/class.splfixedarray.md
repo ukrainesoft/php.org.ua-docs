@@ -7,7 +7,7 @@
 
 # Клас SplFixedArray
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -28,7 +28,7 @@ class **SplFixedArray** implements
 
 /\* Методи \*/
 
-public [\_\_construct](splfixedarray.construct.md)(int `$size` u003d 0)
+public [\_\_construct](splfixedarray.construct.md)(int `$size` = 0)
 
 public [count](splfixedarray.count.md)(): int
 
@@ -36,7 +36,7 @@ public [current](splfixedarray.current.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public static [fromArray](splfixedarray.fromarray.md)(array `$array`,
-bool `$preserveKeys` u003d **`true`**):
+bool `$preserveKeys` = **`true`**):
 [SplFixedArray](class.splfixedarray.md)
 
 public [getSize](splfixedarray.getsize.md)(): int
@@ -72,7 +72,7 @@ public [\_\_wakeup](splfixedarray.wakeup.md)(): void
 ## Список змін
 
 | Версія | Опис                                                                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md).                                                                    |
 | 8.0.0  | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md). |
 
@@ -80,7 +80,7 @@ public [\_\_wakeup](splfixedarray.wakeup.md)(): void
 
 **Приклад #1 Приклад використання **SplFixedArray****
 
-` <?php// Ініціалізація масива фіксованої довжиною$array u003d new SplFixedArray(5);$array[1] u003d 2;$array[4] u003d "foo";var_dump($array[0]); // NULLvar_dump($array[1]); //int(2)var_dump($array["4"]); // string(3) "foo"// Збільшення розміру масиву до 10$array->setSize(10);$array[9] u003d "asdf";// Скорочуємо розмір масиву до 2-х$array-> 2);//Наступний код викликає виключення RuntimeException: Inex ()."
+` <?php// Ініціалізація масива фіксованої довжиною$array = new SplFixedArray(5);$array[1] = 2;$array[4] = "foo";var_dump($array[0]); // NULLvar_dump($array[1]); //int(2)var_dump($array["4"]); // string(3) "foo"// Збільшення розміру масиву до 10$array->setSize(10);$array[9] = "asdf";// Скорочуємо розмір масиву до 2-х$array-> 2);//Наступний код викликає виключення RuntimeException: Inex ()."
 ";}try {    var_dump($array[-1]);} catch(RuntimeException $re) {    echo "RuntimeException: ".$re->getMessage()."
 ";}try {    var_dump($array[5]);} catch(RuntimeException $re) {    echo "RuntimeException: ".$re->getMessage()."
 ";}?> `

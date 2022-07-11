@@ -7,14 +7,14 @@
 
 # SolrInputDocument::addField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::addField — Додає поле до документа
 
 ### Опис
 
 public **SolrInputDocument::addField**(string `$fieldName`, string
-`$fieldValue`, float `$fieldBoostValue` u003d 0.0): bool
+`$fieldValue`, float `$fieldBoostValue` = 0.0): bool
 
 Для багатозначних полів, якщо вказано допустиме значення підвищення,
 вказане значення буде помножено на поточне значення підвищення для

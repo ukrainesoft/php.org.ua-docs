@@ -7,7 +7,7 @@
 
 # sodium_crypto_core_ristretto255_is_valid_point
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_core_ristretto255_is_valid_point — Визначає, чи лежить
 точка на кривій ristretto255
@@ -40,7 +40,7 @@ sodium_crypto_core_ristretto255_is_valid_point — Визначає, чи леж
 **Приклад #1 Приклад використання
 **sodium_crypto_core_ristretto255_is_valid_point()****
 
-` <?php$foo u003d sodium_crypto_core_ristretto255_scalar_random();$bar u003d sodium_crypto_scalarmult_ristretto255_base($foo);var_dump(sodium_crypto_core_ristretto255_$_valid
+` <?php$foo = sodium_crypto_core_ristretto255_scalar_random();$bar = sodium_crypto_scalarmult_ristretto255_base($foo);var_dump(sodium_crypto_core_ristretto255_$_valid
 
 Результат виконання цього прикладу:
 

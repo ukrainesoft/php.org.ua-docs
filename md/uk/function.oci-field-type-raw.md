@@ -7,7 +7,7 @@
 
 #oci_field_type_raw
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_field_type_raw — Повертає вихідний тип поля Oracle
 
@@ -38,7 +38,7 @@ int\|false
 
 **Приклад #1 Приклад використання **oci_field_type_raw()****
 
-`<?php// Створити таблицю://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);$conn u003d oci ;if (!$conn) {    $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stidu003du003doci_parse($conn, 'select * from mytab');oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$n u003d oci_num_fields($stid);for ($i u003d 1; $i <u003d $n; ++$i) {     " - вихідний тип: " . oci_field_type_raw($stid, $i) . "<br>
+`<?php// Створити таблицю://   CREATE TABLE mytab (number_col NUMBER, varchar2_col varchar2(1), clob_col CLOB, date_col DATE);$conn = oci ;if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, 'select * from mytab');oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$n = oci_num_fields($stid);for ($i = 1; $i <= $n; ++$i) {     " - вихідний тип: " . oci_field_type_raw($stid, $i) . "<br>
 ";}// Выведет://    NUMBER_COL - исходный тип: 2//    VARCHAR2_COL - исходный тип: 1//    CLOB_COL - исходный тип: 112//    DATE_COL - исходный тип: 12oci_free_statement($stid);oci_close($conn); ?> `
 
 ### Примітки

@@ -7,7 +7,7 @@
 
 # Ds\Sequence::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ abstract public **Ds\Sequence::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\Sequence::capacity()****
 
-` <?php$sequence u003d new \Ds\Vector();var_dump($sequence->capacity());$sequence->push(...range(1, 50));var_dump($sequence->capacity ());$sequence[] u003d "a";var_dump($sequence->capacity());?> `
+` <?php$sequence = new \Ds\Vector();var_dump($sequence->capacity());$sequence->push(...range(1, 50));var_dump($sequence->capacity ());$sequence[] = "a";var_dump($sequence->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

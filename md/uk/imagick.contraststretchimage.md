@@ -15,7 +15,7 @@ Imagick::contrastStretchImage — Підвищує контрастність к
 ### Опис
 
 public **Imagick::contrastStretchImage**(float `$black_point`, float
-`$white_point`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$white_point`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Підвищує контрастність кольорового зображення, регулюючи колір пікселів
 охоплення всього діапазону доступних кольорів. Цей метод доступний, якщо

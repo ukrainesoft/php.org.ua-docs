@@ -7,13 +7,13 @@
 
 # EventBuffer::substr
 
-(PECL event \>u003d 1.6.0)
+(PECL event \>= 1.6.0)
 
 EventBuffer::substr — Обрізає частину даних буфера
 
 ### Опис
 
-public **EventBuffer::substr**( int `$start` , int `$length` u003d ?):
+public **EventBuffer::substr**( int `$start` , int `$length` = ?):
 string
 
 Обрізає до `length` байтів даних буфера, починаючи з позиції `start`.

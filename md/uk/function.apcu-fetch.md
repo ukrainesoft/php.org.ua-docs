@@ -7,14 +7,14 @@
 
 #apcu_fetch
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_fetch — Витягує з кеша змінну змінну
 
 ### Опис
 
 **apcu_fetch**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`, bool `&$success` u003d ?):
+`$key`, bool `&$success` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Витягує з кеша збережену змінну.
@@ -38,14 +38,14 @@ apcu_fetch — Витягує з кеша змінну змінну
 ### Список змін
 
 | Версія                                     | Опис |
-| ------------------------------------------ | ---- |
-| PECL apcu 3.0.17 Доданий параметр success. |      |      
+|--------------------------------------------|------|
+| PECL apcu 3.0.17 Доданий параметр success. |      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **apcu_fetch()****
 
-` <?php$bar u003d 'BAR';apcu_store('foo', $bar);var_dump(apcu_fetch('foo'));?> `
+` <?php$bar = 'BAR';apcu_store('foo', $bar);var_dump(apcu_fetch('foo'));?> `
 
 Результат виконання цього прикладу:
 

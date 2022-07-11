@@ -9,7 +9,7 @@ emoveSubscriber »](veSubscriber
 
 # MongoDB\Driver\Monitoring ddSubscriber
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring ddSubscriber - Глобальна реєстрація
 передплатника на подію моніторингу

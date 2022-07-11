@@ -7,7 +7,7 @@
 
 # PharData::copy
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::copy — Скопіювати файл із tar/zip-архіву в новий файл усередині
 нього ж
@@ -50,4 +50,4 @@ public **PharData::copy**(string `$from`, string `$to`): bool
 винятки, тоді як потокові обгортки використовують функцію
 [trigger_error()](function.trigger-error.md).
 
-`<?phptry {   $phar u003d new PharData('myphar.tar'); $phar['a'] u003d 'hi'; $phar->copy('a', 'b'); echo $phar['b']; // виводить "phar://myphar.tar/b"} catch (Exception $e) {    // Обробка помилок}// Аналог з використанням потокових обгорток.// В з| //myphar.tar/a', 'phar//myphar.tar/c');echo file_get_contents('phar://myphar.tar/c'); // виводить "hi"?> `
+`<?phptry {   $phar = new PharData('myphar.tar'); $phar['a'] = 'hi'; $phar->copy('a', 'b'); echo $phar['b']; // виводить "phar://myphar.tar/b"} catch (Exception $e) {    // Обробка помилок}// Аналог з використанням потокових обгорток.// В з| //myphar.tar/a', 'phar//myphar.tar/c');echo file_get_contents('phar://myphar.tar/c'); // виводить "hi"?> `

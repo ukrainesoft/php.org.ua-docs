@@ -7,7 +7,7 @@
 
 # OAuthProvider::addRequiredParameter
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::addRequiredParameter — Додати необхідні параметри
 

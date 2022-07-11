@@ -7,7 +7,7 @@
 
 # Phar::getSupportedSignatures
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.1.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.1.0)
 
 Phar::getSupportedSignatures — Отримати масив підтримуваних алгоритмів
 підписи архіву

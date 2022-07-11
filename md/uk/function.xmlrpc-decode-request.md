@@ -7,14 +7,14 @@
 
 #xmlrpc_decode_request
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_decode_request — Декодує XML у нативні типи PHP
 
 ### Опис
 
 **xmlrpc_decode_request**(string `$xml`, string `&$method`, string
-$encoding u003d ?):
+$encoding = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**

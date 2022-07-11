@@ -12,9 +12,9 @@ XMLWriter.
 
 **Приклад #1 Робота з об'єктно-орієнтованим API**
 
-` <?php$xw u003d new XMLWriter();$xw->openMemory();$xw->startDocument("1.0");$xw->startElement("book");$xw->text("example ");$xw->endElement();$xw->endDocument();echo $xw->outputMemory(); `
+` <?php$xw = new XMLWriter();$xw->openMemory();$xw->startDocument("1.0");$xw->startElement("book");$xw->text("example ");$xw->endElement();$xw->endDocument();echo $xw->outputMemory(); `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <book>example</book>

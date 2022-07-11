@@ -7,7 +7,7 @@
 
 # trader_cdlupsidegap2crows
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlupsidegap2crows — Свічкова модель "Перевернені дві ворони"
 

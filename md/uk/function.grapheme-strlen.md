@@ -7,7 +7,7 @@
 
 #grapheme_strlen
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 grapheme_strlen — Отримує довжину рядка в одиницях графеми
 
@@ -34,7 +34,7 @@ grapheme_strlen — Отримує довжину рядка в одиницях
 
 **Приклад #1 Приклад використання **grapheme_strlen()****
 
-` <?php$char_a_ring_nfdu003du003d"a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd u003d"o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o____|
+` <?php$char_a_ring_nfd=="a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd ="o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print grapheme_strlen( 'abc' . $char_a_ring_nfd . $char_o____|
 
 Результат виконання цього прикладу:
 

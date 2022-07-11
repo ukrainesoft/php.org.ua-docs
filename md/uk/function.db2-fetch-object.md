@@ -8,14 +8,14 @@
 
 #db2_fetch_object
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_fetch_object — Повертає об'єкт із властивостями.
 стовпці у вибраному рядку
 
 ### Опис
 
-**db2_fetch_object**(resource `$stmt`, int `$row_number` u003d -1): object
+**db2_fetch_object**(resource `$stmt`, int `$row_number` = -1): object
 
 Повертає об'єкт, у якому кожна властивість представляє стовпець,
 повернутий у рядку, отриманому з набору результатів.
@@ -58,7 +58,7 @@ AS у запиті SELECT для надання імені "name" змінено
 Сервер бази даних переводить імена стовпців у верхній регістр,
 внаслідок чого виходить об'єкт із властивостями "BREED" та "NAME".
 
-`<?php$conn u003d db2_connect($database, $user, $password);$sql u003d "SELECT breed, RTRIM(name) AS name   FROM animals     WHERE id u003d   ($conn, $$); db2_execute($stmt, array(0)); while($pet u003d db2_fetch_object($stmt)) {        echo "Іди сюди, {$pet->NAME}, мій маленький {$pet->BREED}!"; }   db2_close($conn);}?> `
+`<?php$conn = db2_connect($database, $user, $password);$sql = "SELECT breed, RTRIM(name) AS name   FROM animals     WHERE id =   ($conn, $$); db2_execute($stmt, array(0)); while($pet = db2_fetch_object($stmt)) {        echo "Іди сюди, {$pet->NAME}, мій маленький {$pet->BREED}!"; }   db2_close($conn);}?> `
 
 Результат виконання цього прикладу:
 

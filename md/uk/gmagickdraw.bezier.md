@@ -7,7 +7,7 @@
 
 # GmagickDraw::bezier
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::bezier — Малює криву Безьє
 

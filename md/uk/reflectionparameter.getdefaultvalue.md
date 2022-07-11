@@ -7,7 +7,7 @@
 
 # ReflectionParameter::getDefaultValue
 
-(PHP 5 \>u003d 5.0.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.3, PHP 7, PHP 8)
 
 ReflectionParameter::getDefaultValue — Отримання стандартного значення
 для параметра
@@ -33,14 +33,14 @@ public **ReflectionParameter::getDefaultValue**():
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                     |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Метод тепер дозволяє отримати значення за замовчуванням параметрів вбудованих функцій і вбудованих методів класу. Раніше викидалося [ReflectionException](class.reflectionexception.md). |
 
 ### Приклади
 
 **Приклад #1 Отримання**
 
-` <?phpfunction foo($test, $bar u003d 'baz'){   echo $test . $bar;}$function u003d new ReflectionFunction('foo');foreach ($function->getParameters() as $param) {    echo 'Ім'я: ' . $param->getName() . PHP_EOL; if ($param->isOptional()) {        echo 'Значення за замовчуванням: ' . $param->getDefaultValue() . PHP_EOL; }   echo PHP_EOL;}?> `
+` <?phpfunction foo($test, $bar = 'baz'){   echo $test . $bar;}$function = new ReflectionFunction('foo');foreach ($function->getParameters() as $param) {    echo 'Ім'я: ' . $param->getName() . PHP_EOL; if ($param->isOptional()) {        echo 'Значення за замовчуванням: ' . $param->getDefaultValue() . PHP_EOL; }   echo PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

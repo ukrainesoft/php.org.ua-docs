@@ -7,13 +7,13 @@
 
 # RRDUpdater::update
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDUpdater::update — Оновлює файл бази даних RRD
 
 ### Опис
 
-public **RRDUpdater::update**(array `$values`, string `$time` u003d time()
+public **RRDUpdater::update**(array `$values`, string `$time` = time()
 ): bool
 
 Оновлює файл бази даних RRD, визначений через конструктор
@@ -44,4 +44,4 @@ public **RRDUpdater::update**(array `$values`, string `$time` u003d time()
 
 **Приклад #1 Приклад використання **RRDUpdater::update()****
 
-` <?php$updator u003d new RRDUpdater("speed.rrd");//оновлює джерело даних "speed" значенням "12411"//для часу заданого часової міткою timestamp da20 " u003d> "12411"), "920807700");?> `
+` <?php$updator = new RRDUpdater("speed.rrd");//оновлює джерело даних "speed" значенням "12411"//для часу заданого часової міткою timestamp da20 " => "12411"), "920807700");?> `

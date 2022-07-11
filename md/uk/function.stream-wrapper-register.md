@@ -7,7 +7,7 @@
 
 #stream_wrapper_register
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 stream_wrapper_register — Реєструє обгортку URL, реалізовану як
 PHP-класу
@@ -15,7 +15,7 @@ PHP-класу
 ### Опис
 
 **stream_wrapper_register**(string `$protocol`, string `$class`, int
-$flags u003d 0): bool
+$flags = 0): bool
 
 Дозволяє вам реалізувати ваші власні обробники протоколів та
 потоків для використання з усіма іншими функціями файлової системи
@@ -47,7 +47,7 @@ $flags u003d 0): bool
 
 **Приклад #1 Як зареєструвати обгортку потоку**
 
-` <?php$existed u003d in_array("var", stream_get_wrappers());if ($existed) {    stream_wrapper_unregister("var");}stream_wrapper_register("var", "VariableStream"$| fpu003du003dfopen("var://myvar", "r+");fwrite($fp, "line1
+` <?php$existed = in_array("var", stream_get_wrappers());if ($existed) {    stream_wrapper_unregister("var");}stream_wrapper_register("var", "VariableStream"$| fp==fopen("var://myvar", "r+");fwrite($fp, "line1
 ");fwrite($fp, "line2
 ");fwrite($fp, "line3
 "); rewind ($ fp); );}?> `

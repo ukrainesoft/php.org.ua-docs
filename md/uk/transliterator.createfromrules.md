@@ -9,7 +9,7 @@
 
 # transliterator_create_from_rules
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::createFromRules -- transliterator_create_from_rules --
 Створити транслітератор на основі правил
@@ -19,12 +19,12 @@ Transliterator::createFromRules -- transliterator_create_from_rules --
 Об'єктно-орієнтований стиль
 
 public static **Transliterator::createFromRules**(string `$rules`, int
-`$direction` u003d Transliterator::FORWARD):
+`$direction` = Transliterator::FORWARD):
 ?[Transliterator](class.transliterator.md)
 
 Процедурний стиль
 
-**transliterator_create_from_rules**(string `$rules`, int `$direction` u003d
+**transliterator_create_from_rules**(string `$rules`, int `$direction` =
 Transliterator::FORWARD): ?[Transliterator](class.transliterator.md)
 
 Створити транслітератор з урахуванням правил.

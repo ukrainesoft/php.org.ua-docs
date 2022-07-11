@@ -7,13 +7,13 @@
 
 # SolrResponse::setParseMode
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrResponse::setParseMode — Встановлює режим аналізу
 
 ### Опис
 
-public **SolrResponse::setParseMode**(int `$parser_mode` u003d 0): bool
+public **SolrResponse::setParseMode**(int `$parser_mode` = 0): bool
 
 Встановлює режим аналізу.
 

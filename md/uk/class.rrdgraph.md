@@ -7,7 +7,7 @@
 
 # Клас RRDGraph
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 ## Вступ
 

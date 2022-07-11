@@ -7,7 +7,7 @@
 
 # fann_get_cascade_activation_steepnesses
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_cascade_activation_steepnesses — Повертає каскадну крутизну
 активації

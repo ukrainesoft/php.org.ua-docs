@@ -7,7 +7,7 @@
 
 # Gmagick::setimageredprimary
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageredprimary — Встановлює кольоровість зображення
 червоною основною точкою

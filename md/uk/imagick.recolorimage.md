@@ -7,7 +7,7 @@
 
 # Imagick::recolorImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::recolorImage — Перефарбовує зображення
 
@@ -39,7 +39,7 @@ public **Imagick::recolorImage**(array `$matrix`): bool
 
 **Приклад #1 Приклад використання **Imagick::recolorImage()****
 
-`<?phpfunction recolorImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $remapColor u003d [ 1, 0, 0,        0, 0, 1,        0, 1, 0,];//$remapColor u003d [//    1.438, -0.122, -0.016,  0, 0, -0.03,//    - 0.062, 1.378, -0.016, 0, 0, 0.05,//   -0.062, -0.122, 1.483,   0, 0, -0.0; @$imagick->recolorImage($remapColor); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction recolorImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $remapColor = [ 1, 0, 0,        0, 0, 1,        0, 1, 0,];//$remapColor = [//    1.438, -0.122, -0.016,  0, 0, -0.03,//    - 0.062, 1.378, -0.016, 0, 0, 0.05,//   -0.062, -0.122, 1.483,   0, 0, -0.0; @$imagick->recolorImage($remapColor); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

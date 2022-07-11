@@ -8,7 +8,7 @@
 
 # SplMinHeap::compare
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplMinHeap::compare — Порівнює елементи, щоб під час сортування
 коректно розмістити їх у купі

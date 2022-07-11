@@ -31,7 +31,7 @@ public **ReflectionClass::isFinal**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isFinal()****
 
-` <?phpclass       TestClass { }final class TestFinalClass { }$normalClass u003d new ReflectionClass('TestClass');$finalClass  u003du003dnew ReflectionClass('TestFinal> >isFinal());?> `
+` <?phpclass       TestClass { }final class TestFinalClass { }$normalClass = new ReflectionClass('TestClass');$finalClass  ==new ReflectionClass('TestFinal> >isFinal());?> `
 
 Результат виконання цього прикладу:
 

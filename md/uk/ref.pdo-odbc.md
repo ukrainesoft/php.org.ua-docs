@@ -39,7 +39,7 @@ generic
 синтаксис **configure**.
 
 ibm_db2
-./configure --with-pdo-odbcu003dibm-db2,/opt/IBM/db2/V8.1/
+./configure --with-pdo-odbc=ibm-db2,/opt/IBM/db2/V8.1/
 
 Для складання PDO_ODBC для ibm-db2 потрібно попередньо
 інсталювати файли заголовків пакета розробника програм DB2.
@@ -53,13 +53,13 @@ IBM developerWorks.
 файлів DB2, **configure** буде шукати їх у `/home/db2inst1/sqllib`.
 
 unixODBC
-./configure --with-pdo-odbcu003dunixODBC,/usr/local
+./configure --with-pdo-odbc=unixODBC,/usr/local
 
 Якщо ви не вкажете директорію установки бібліотек та заголовків
 файлів unixODBC, **configure** буде шукати їх у `/usr/local`.
 
 generic
-./configure --with-pdo-odbcu003dgeneric,/usr/local,libname,ldflags,cflags
+./configure --with-pdo-odbc=generic,/usr/local,libname,ldflags,cflags
 
 ## Зумовлені константи
 
@@ -98,10 +98,10 @@ generic
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                          | Місце зміни | Список змін    |
-| ------------------------------------------------------------------------------ | ----------- | -------------- |
-| [pdo_odbc.connection_pooling](ref.pdo-odbc.md#ini.pdo-odbc.connection-pooling) | "Strict"    | PHP_INI_ALL    |
-| [pdo_odbc.db2_instance_name](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name)   | NULL        | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому.
+| Ім'я За замовчуванням                                                          | Місце зміни | Список змін    |                                                                     |
+|--------------------------------------------------------------------------------|-------------|----------------|---------------------------------------------------------------------|
+| [pdo_odbc.connection_pooling](ref.pdo-odbc.md#ini.pdo-odbc.connection-pooling) | "Strict"    | PHP_INI_ALL    |                                                                     |
+| [pdo_odbc.db2_instance_name](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name)   | NULL        | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому. |
 
 **Конфігураційні опції PDO_ODBC**
 

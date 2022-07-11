@@ -7,7 +7,7 @@
 
 # Клас Yaconf
 
-(PECL yaconf \>u003d 1.0.0)
+(PECL yaconf \>= 1.0.0)
 
 ## Вступ
 
@@ -23,7 +23,7 @@ class **Yaconf** {
 
 public static [get](yaconf.get.md)(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default_value` u003d NULL):
+`$default_value` = NULL):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public static [has](yaconf.has.md)(string `$name`): bool

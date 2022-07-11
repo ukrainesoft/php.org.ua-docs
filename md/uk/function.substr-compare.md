@@ -19,8 +19,8 @@ substr_compare - Бінарно-безпечне порівняння 2 рядк
 string `$haystack`,
 string `$needle`,
 int `$offset`,
-?int `$length` u003d **`null`**,
-bool `$case_insensitive` u003d **`false`**
+?int `$length` = **`null`**,
+bool `$case_insensitive` = **`false`**
 ): int
 
 **substr_compare()** порівнює рядок `haystack` (починаючи з позиції
@@ -58,7 +58,7 @@ bool `$case_insensitive` u003d **`false`**
 ### Список змін
 
 | Версія        | Опис                                    |
-| ------------- | --------------------------------------- |
+|---------------|-----------------------------------------|
 | 8.0.0         | length тепер припускає значення null.   |
 | 7.2.18, 7.3.5 | offset тепер може бути рівним haystack. |
 

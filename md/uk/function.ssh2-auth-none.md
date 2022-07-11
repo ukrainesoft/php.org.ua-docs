@@ -7,7 +7,7 @@
 
 # ssh2_auth_none
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_auth_none - Аутентифікація як "none"
 
@@ -38,5 +38,5 @@ ssh2_auth_none - Аутентифікація як "none"
 
 **Приклад #1 Вилучення списку доступних методів аутентифікації**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);$auth_methods u003d ssh2_auth_none($connection, 'user');if (in_array('password', $auth_methods))   | аутентифікацію на основі паролю
+` <?php$connection = ssh2_connect('shell.example.com', 22);$auth_methods = ssh2_auth_none($connection, 'user');if (in_array('password', $auth_methods))   | аутентифікацію на основі паролю
 ";}?> `

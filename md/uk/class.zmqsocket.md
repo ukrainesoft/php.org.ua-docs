@@ -7,7 +7,7 @@
 
 # Клас ZMQSocket
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ## Вступ
 
@@ -17,17 +17,17 @@ class **ZMQSocket** {
 
 /\* Методи \*/
 
-public [bind](zmqsocket.bind.md)(string `$dsn`, bool `$force` u003d
+public [bind](zmqsocket.bind.md)(string `$dsn`, bool `$force` =
 **`false`**): [ZMQSocket](class.zmqsocket.md)
 
-public [connect](zmqsocket.connect.md)(string `$dsn`, bool `$force` u003d
+public [connect](zmqsocket.connect.md)(string `$dsn`, bool `$force` =
 **`false`**): [ZMQSocket](class.zmqsocket.md)
 
 public [\_\_construct](zmqsocket.construct.md)(
 [ZMQContext](class.zmqcontext.md) `$context`,
 int `$type`,
-string `$persistent_id` u003d **`null`**,
-[callable](language.types.callable.md) `$on_new_socket` u003d
+string `$persistent_id` = **`null`**,
+[callable](language.types.callable.md) `$on_new_socket` =
 **`null`**
 )
 
@@ -45,15 +45,15 @@ public [getSockOpt](zmqsocket.getsockopt.md)(string `$key`):
 
 public [isPersistent](zmqsocket.ispersistent.md)(): bool
 
-public [recv](zmqsocket.recv.md)(int `$mode` u003d 0): string
+public [recv](zmqsocket.recv.md)(int `$mode` = 0): string
 
-public [recvMulti](zmqsocket.recvmulti.md)(int `$mode` u003d 0): array
+public [recvMulti](zmqsocket.recvmulti.md)(int `$mode` = 0): array
 
-public [send](zmqsocket.send.md)(string `$message`, int `$mode` u003d 0):
+public [send](zmqsocket.send.md)(string `$message`, int `$mode` = 0):
 [ZMQSocket](class.zmqsocket.md)
 
 public [sendmulti](zmqsocket.sendmulti.md)(array `$message`, int
-`$mode` u003d 0): [ZMQSocket](class.zmqsocket.md)
+`$mode` = 0): [ZMQSocket](class.zmqsocket.md)
 
 public [setSockOpt](zmqsocket.setsockopt.md)(int `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

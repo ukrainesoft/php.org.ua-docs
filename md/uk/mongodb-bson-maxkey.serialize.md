@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\MaxKey::serialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\MaxKey::serialize — Серіалізує MaxKey
 

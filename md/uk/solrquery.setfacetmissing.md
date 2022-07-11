@@ -7,14 +7,14 @@
 
 # SolrQuery::setFacetMissing
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetMissing — Відповідає facet.missing
 
 ### Опис
 
 public **SolrQuery::setFacetMissing**(bool `$flag`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Використовується для позначення того, що на додаток до заснованих на
 виразах обмежень поля фасета має бути обчислена кількість

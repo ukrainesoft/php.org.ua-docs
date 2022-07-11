@@ -7,14 +7,14 @@
 
 # Memcached::addServer
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::addServer — Додає сервер до пулу
 
 ### Опис
 
 public **Memcached::addServer**(string `$host`, int `$port`, int
-`$weight` u003d 0): bool
+`$weight` = 0): bool
 
 **Memcached::addServer()** додає вказаний сервер у пул. При цьому
 з'єднання встановлено не буде, але якщо ви використовуєте налаштування
@@ -62,7 +62,7 @@ public **Memcached::addServer**(string `$host`, int `$port`, int
 
 **Приклад #1 Приклад використання **Memcached::addServer()****
 
-`<?php$m u003d new Memcached();/* Додає 2 сервера в пул, ймовірність бути обраним   у другого сервера в 2 рази вище. */$m->addServer('mem1.domain.com', 11211, 33);$m->addServer('mem2.domain.com', 11211, 67);?> `
+`<?php$m = new Memcached();/* Додає 2 сервера в пул, ймовірність бути обраним   у другого сервера в 2 рази вище. */$m->addServer('mem1.domain.com', 11211, 33);$m->addServer('mem2.domain.com', 11211, 67);?> `
 
 ### Дивіться також
 

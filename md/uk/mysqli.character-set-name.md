@@ -44,12 +44,12 @@ string
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Установка );/* Висновок поточного кодування */$charset u003d $mysqli->character_set_name();printf("Поточне кодування - %s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Установка );/* Висновок поточного кодування */$charset = $mysqli->character_set_name();printf("Поточне кодування - %s
 ", $charset);?> `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Установка кодування| /* Висновок поточного кодування */$charset u003d mysqli_character_set_name($mysqli);printf("Поточне кодування - %s
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");/* Установка кодування| /* Висновок поточного кодування */$charset = mysqli_character_set_name($mysqli);printf("Поточне кодування - %s
 ", $charset); `
 
 Результат виконання даних прикладів:

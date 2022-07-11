@@ -13,7 +13,7 @@ class_parents — Повертає список батьківських кла�
 
 ### Опис
 
-**class_parents**(object\|string `$object_or_class`, bool `$autoload` u003d
+**class_parents**(object\|string `$object_or_class`, bool `$autoload` =
 **`true`**): array\|false
 
 Ця функція повертає масив із іменами батьківських класів заданого
@@ -42,15 +42,15 @@ class_parents — Повертає список батьківських кла�
 
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[parent_of_not_loaded] u003d> parent_of_not_loaded
+[parent_of_not_loaded] => parent_of_not_loaded
 )
 
 ### Дивіться також

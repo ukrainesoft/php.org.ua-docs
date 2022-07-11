@@ -8,7 +8,7 @@
 
 # SolrClient::rollback
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::rollback — Відкочує всі додавання/видалення, зроблені в
 індекс з моменту останньої фіксації

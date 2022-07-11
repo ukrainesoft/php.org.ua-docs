@@ -7,13 +7,13 @@
 
 # PDO::quote
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.1)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.1)
 
 PDO::quote — Укладає рядок у лапки для використання у запиті
 
 ### Опис
 
-public **PDO::quote**(string `$string`, int `$type` u003d PDO::PARAM_STR):
+public **PDO::quote**(string `$string`, int `$type` = PDO::PARAM_STR):
 string\|false
 
 **PDO::quote()** укладає рядок у лапки (якщо потрібно) і
@@ -61,7 +61,7 @@ string\|false
 
 **Приклад #1 Екранування звичайного рядка**
 
-` <?php$conn u003d new PDO('sqlite:/home/lynn/music.sql3');/* простий рядок */$string u003d 'Nice';print "Неекранований рядок: $string
+` <?php$conn = new PDO('sqlite:/home/lynn/music.sql3');/* простий рядок */$string = 'Nice';print "Неекранований рядок: $string
 ";print "Екранований рядок: " . $conn->quote($string) . "
 ";?> `
 
@@ -72,7 +72,7 @@ string\|false
 
 **Приклад #2 Екранування небезпечного рядка**
 
-` <?php$conn u003d new PDO('sqlite:/home/lynn/music.sql3');/* небезпечний рядок */$string u003d 'Naughty \' string';print "Неекранований рядок: $string
+` <?php$conn = new PDO('sqlite:/home/lynn/music.sql3');/* небезпечний рядок */$string = 'Naughty \' string';print "Неекранований рядок: $string
 ";print "Екранований рядок:" . $conn->quote($string) . "
 ";?> `
 
@@ -83,7 +83,7 @@ string\|false
 
 **Приклад #3 Екранування складного рядка**
 
-` <?php$conn u003d new PDO('sqlite:/home/lynn/music.sql3');/* складний рядок*/$string u003d "Co'mpl''ex \"st'\"ring";print "Неекранований рядок: $string
+` <?php$conn = new PDO('sqlite:/home/lynn/music.sql3');/* складний рядок*/$string = "Co'mpl''ex \"st'\"ring";print "Неекранований рядок: $string
 ";print "Екранований рядок: " . $conn->quote($string) . "
 ";?> `
 

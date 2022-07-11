@@ -9,7 +9,7 @@
 
 #timezone_location_get
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateTimeZone::getLocation -- timezone_location_get — Повертає
 інформацію про місцезнаходження для часового поясу
@@ -44,21 +44,21 @@ public **DateTimeZone::getLocation**(): array\|false
 
 **Приклад #1 Приклад використання **DateTimeZone::getLocation()****
 
-` <?php$tz u003d new DateTimeZone("Europe/Prague");print_r($tz->getLocation());print_r(timezone_location_get($tz));?> `
+` <?php$tz = new DateTimeZone("Europe/Prague");print_r($tz->getLocation());print_r(timezone_location_get($tz));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[country_code] u003d> CZ
-[latitude] u003d> 50.08333
-[longitude] u003d> 14.43333
-[comments] u003d>
+[country_code] => CZ
+[latitude] => 50.08333
+[longitude] => 14.43333
+[comments] =>
 )
 Array
 (
-[country_code] u003d> CZ
-[latitude] u003d> 50.08333
-[longitude] u003d> 14.43333
-[comments] u003d>
+[country_code] => CZ
+[latitude] => 50.08333
+[longitude] => 14.43333
+[comments] =>
 )

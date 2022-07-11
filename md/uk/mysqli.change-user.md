@@ -69,16 +69,16 @@ string `$password`,
 
 Об'єктно-орієнтований стиль
 
-` <?php/* створюємо підключення до базі даних test */$mysqli u003d new mysqli("localhost", "my_user", "my_password", "test");/* перевіряємо з'єднання *| printf("Підключення не удалося: %s
-", mysqli_connect_error());   exit();}/* встановлюємо змінну a */$mysqli->query("SET @a:u003d1");/* все скидаємо і вибираємо нову базу change_user("my_user", "my_password", "world");if ($result u003d $mysqli->query("SELECT DATABASE()")) {   $row u003d $result->fetch_row();    даних за замовчуванням: %s
-", $row[0]);   $result->close();}if($result u003d $mysqli->query("SELECT @a")) {   $row u003d $result->fetch_row();     $row[0] u003du003du003d NULL) {         printf("Значення змінної - NULL
+` <?php/* створюємо підключення до базі даних test */$mysqli = new mysqli("localhost", "my_user", "my_password", "test");/* перевіряємо з'єднання *| printf("Підключення не удалося: %s
+", mysqli_connect_error());   exit();}/* встановлюємо змінну a */$mysqli->query("SET @a:=1");/* все скидаємо і вибираємо нову базу change_user("my_user", "my_password", "world");if ($result = $mysqli->query("SELECT DATABASE()")) {   $row = $result->fetch_row();    даних за замовчуванням: %s
+", $row[0]);   $result->close();}if($result = $mysqli->query("SELECT @a")) {   $row = $result->fetch_row();     $row[0] === NULL) {         printf("Значення змінної - NULL
 ");    }   $result->close();}/* закриваємо з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php/* створюємо підключення до базі даних test */$link u003d mysqli_connect("localhost", "my_user", "my_password", "test");/* перевіряємо з'єднання**/if ("Підключення не удалося: %s
-", mysqli_connect_error());   exit();}/* встановлюємо змінну a */mysqli_query($link, "SET @a:u003d1"); "my_user", "my_password", "world");if ($result u003d mysqli_query($link, "SELECT DATABASE()")) {   $row u003d mysqli_fetch_row($result);    s
-", $row[0]);   mysqli_free_result($result);}if ($result u003d mysqli_query($link, "SELECT @a")) {    $row u003d mysqli_fetch_row($$) u003du003du003d NULL) {        printf("Значення змінної - NULL
+` <?php/* створюємо підключення до базі даних test */$link = mysqli_connect("localhost", "my_user", "my_password", "test");/* перевіряємо з'єднання**/if ("Підключення не удалося: %s
+", mysqli_connect_error());   exit();}/* встановлюємо змінну a */mysqli_query($link, "SET @a:=1"); "my_user", "my_password", "world");if ($result = mysqli_query($link, "SELECT DATABASE()")) {   $row = mysqli_fetch_row($result);    s
+", $row[0]);   mysqli_free_result($result);}if ($result = mysqli_query($link, "SELECT @a")) {    $row = mysqli_fetch_row($$) === NULL) {        printf("Значення змінної - NULL
 ");    }    mysqli_free_result($result);}/* закриваємо з'єднання*/mysqli_close($link);?> `
 
 Результат виконання даних прикладів:

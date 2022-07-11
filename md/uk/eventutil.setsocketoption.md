@@ -7,7 +7,7 @@
 
 # EventUtil::setSocketOption
 
-(PECL event \>u003d 1.6.0)
+(PECL event \>= 1.6.0)
 
 EventUtil::setSocketOption — Встановити опції сокету
 

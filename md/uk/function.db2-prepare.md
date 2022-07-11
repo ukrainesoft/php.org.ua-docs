@@ -7,14 +7,14 @@
 
 #db2_prepare
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_prepare — Підготовка SQL-запиту до виконання
 
 ### Опис
 
 **db2_prepare**(resource `$connection`, string `$statement`, array
-`$options` u003d ?): resource
+`$options` = ?): resource
 
 **db2_prepare()** створює підготовлений SQL-запит, який може
 включати 0 або більше маркерів параметрів (символів `?`), що становлять
@@ -84,7 +84,7 @@ SQL-запит, який необов'язково містить один аб�
 масивів, що містять вхідні значення, які необхідно передати в
 [db2_execute()](function.db2-execute.md).
 
-` <?php$animals u003d array(    array(0, 'cat', 'Pook', 3.2),   array(1, 'dog', 'Peaches', 12.3),    ''array(') , 350.0),);$insert u003d 'INSERT INTO animals (id, breed, name, weight)    VALUES (?, ?, ?, ?)';$stmt u003d db2_prepare$$ ) {    foreach ($animals as $animal) {         $result u003d db2_execute($stmt, $animal); }}?> `
+` <?php$animals = array(    array(0, 'cat', 'Pook', 3.2),   array(1, 'dog', 'Peaches', 12.3),    ''array(') , 350.0),);$insert = 'INSERT INTO animals (id, breed, name, weight)    VALUES (?, ?, ?, ?)';$stmt = db2_prepare$$ ) {    foreach ($animals as $animal) {         $result = db2_execute($stmt, $animal); }}?> `
 
 ### Дивіться також
 

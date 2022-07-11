@@ -7,14 +7,14 @@
 
 #ps_get_parameter
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_get_parameter — Отримує певні параметри
 
 ### Опис
 
 **ps_get_parameter**(resource `$psdoc`, string `$name`, float
-`$modifier` u003d ?): string\|false
+`$modifier` = ?): string\|false
 
 Отримує кілька параметрів, які були прямо встановлені
 [ps_set_parameter()](function.ps-set-parameter.md) або опосередковано однією

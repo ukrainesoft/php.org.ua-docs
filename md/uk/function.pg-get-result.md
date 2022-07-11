@@ -7,7 +7,7 @@
 
 #pg_get_result
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_get_result — Отримання результату асинхронного запиту
 
@@ -40,7 +40,7 @@ pg_get_result — Отримання результату асинхронног
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PgSql\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                   |
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
@@ -48,11 +48,11 @@ pg_get_result — Отримання результату асинхронног
 
 **Приклад #1 Приклад використання **pg_get_result()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Неможливо з'єднатися з сервером"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from authors; select count(*) from authors;"); }  $res1 u003d pg_get_result($dbconn); echo "Перший виклик pg_get_result(): $res1
-";  $rows1 u003d pg_num_rows($res1); echo "$res1 має $rows1 записів
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Неможливо з'єднатися з сервером"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from authors; select count(*) from authors;"); }  $res1 = pg_get_result($dbconn); echo "Перший виклик pg_get_result(): $res1
+";  $rows1 = pg_num_rows($res1); echo "$res1 має $rows1 записів
 
-";  $res2 u003d pg_get_result($dbconn); echo "Другий виклик pg_get_result(): $res2
-";  $rows2 u003d pg_num_rows($res2);  echo "$res2 має $rows2 записів
+";  $res2 = pg_get_result($dbconn); echo "Другий виклик pg_get_result(): $res2
+";  $rows2 = pg_num_rows($res2);  echo "$res2 має $rows2 записів
 ";?> `
 
 Результат виконання цього прикладу:

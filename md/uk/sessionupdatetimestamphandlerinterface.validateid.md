@@ -1,6 +1,5 @@
-- [«
-SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
-- [Обробка тексту»] (refs.basic.text.md)
+- [« SessionUpdateTimestampHandlerInterface::updateTimestamp](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
+- [Обробка тексту»](refs.basic.text.md)
 
 - [PHP Manual](index.md)
 - [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)

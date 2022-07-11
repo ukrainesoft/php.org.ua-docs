@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::getControllerName](yaf-request-abstract.getcontrollername.md)
-- [Yaf_Request_Abstract::getException
-»](yaf-request-abstract.getexception.md)
+- [« Yaf_Request_Abstract::getControllerName](yaf-request-abstract.getcontrollername.md)
+- [Yaf_Request_Abstract::getException »](yaf-request-abstract.getexception.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

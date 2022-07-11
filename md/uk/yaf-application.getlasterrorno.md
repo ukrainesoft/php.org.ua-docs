@@ -1,5 +1,4 @@
-- [«
-Yaf_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md)
+- [« Yaf_Application::getLastErrorMsg](yaf-application.getlasterrormsg.md)
 - [Yaf_Application::getModules »](yaf-application.getmodules.md)
 
 - [PHP Manual](index.md)

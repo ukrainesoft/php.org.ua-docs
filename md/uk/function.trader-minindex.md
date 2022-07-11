@@ -1,4 +1,4 @@
-- [ trader_min] (function.trader-min.md)
+- [ trader_min](function.trader-min.md)
 - [trader_minmax »](function.trader-minmax.md)
 
 - [PHP Manual](index.md)

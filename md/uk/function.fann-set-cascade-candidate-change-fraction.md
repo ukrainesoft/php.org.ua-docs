@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_activation_steepnesses](function.fann-set-cascade-activation-steepnesses.md)
-- [fann_set_cascade_candidate_limit
-»](function.fann-set-cascade-candidate-limit.md)
+- [« fann_set_cascade_activation_steepnesses](function.fann-set-cascade-activation-steepnesses.md)
+- [fann_set_cascade_candidate_limit »](function.fann-set-cascade-candidate-limit.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

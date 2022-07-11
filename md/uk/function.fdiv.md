@@ -1,5 +1,5 @@
 - [«expm1](function.expm1.md)
-- [floor »] (function.floor.md)
+- [floor »](function.floor.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

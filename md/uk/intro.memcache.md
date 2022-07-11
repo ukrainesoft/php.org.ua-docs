@@ -13,7 +13,7 @@
 навантаження на базу даних у динамічних веб-додатках.
 
 Модуль Memcache також надає дескриптор
-[сесій] (ref.session.md) (`memcache`).
+[сесій](ref.session.md) (`memcache`).
 
 Більше інформації про memcached ви зможете знайти на
 [»http://www.memcached.org/](http://www.memcached.org/).

@@ -1,5 +1,5 @@
 - [« Установка](swoole.installation.md)
-- [Типи ресурсів»] (swoole.resources.md)
+- [Типи ресурсів»](swoole.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](swoole.setup.md)

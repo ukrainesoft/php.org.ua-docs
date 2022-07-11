@@ -81,8 +81,7 @@ Array
 )
 
 ### Дивіться також
-
-- [Шаблони PCRE](pcre.pattern.md)
+ - [Шаблони PCRE](pcre.pattern.md)
 - [preg_quote()](function.preg-quote.md) - Екранує символи в
 регулярних виразах
 - [preg_replace()](function.preg-replace.md) - Пошук та

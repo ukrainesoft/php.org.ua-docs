@@ -1,6 +1,5 @@
 - [«SolrQuery::setTimeAllowed](solrquery.settimeallowed.md)
-- [SolrDisMaxQuery::addBigramPhraseField
-»](solrdismaxquery.addbigramphrasefield.md)
+- [SolrDisMaxQuery::addBigramPhraseField »](solrdismaxquery.addbigramphrasefield.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

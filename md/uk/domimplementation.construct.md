@@ -1,6 +1,5 @@
 - [« DOMImplementation](class.domimplementation.md)
-- [DOMImplementation::createDocument
-»](domimplementation.createdocument.md)
+- [DOMImplementation::createDocument »](domimplementation.createdocument.md)
 
 - [PHP Manual](index.md)
 - [DOMImplementation](class.domimplementation.md)

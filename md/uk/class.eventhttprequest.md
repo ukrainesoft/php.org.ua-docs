@@ -1,9 +1,8 @@
-- [«
-EventHttpConnection::setTimeout](eventhttpconnection.settimeout.md)
+- [« EventHttpConnection::setTimeout](eventhttpconnection.settimeout.md)
 - [EventHttpRequest::addHeader »](eventhttprequest.addheader.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventHttpRequest
 
 # Клас EventHttpRequest

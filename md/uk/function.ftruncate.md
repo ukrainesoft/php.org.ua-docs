@@ -1,5 +1,5 @@
 - [«ftell](function.ftell.md)
-- [fwrite »] (function.fwrite.md)
+- [fwrite »](function.fwrite.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

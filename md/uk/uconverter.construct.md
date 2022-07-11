@@ -1,4 +1,4 @@
-- [« UConverter] (class.uconverter.md)
+- [« UConverter](class.uconverter.md)
 - [UConverter::convert »](uconverter.convert.md)
 
 - [PHP Manual](index.md)

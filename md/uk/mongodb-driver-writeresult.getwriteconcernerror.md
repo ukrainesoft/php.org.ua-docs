@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.md)
-- [MongoDB\Driver\WriteResult::getWriteErrors
-»](mongodb-driver-writeresult.getwriteerrors.md)
+- [« MongoDB\Driver\WriteResult::getUpsertedIds](mongodb-driver-writeresult.getupsertedids.md)
+- [MongoDB\Driver\WriteResult::getWriteErrors »](mongodb-driver-writeresult.getwriteerrors.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
@@ -59,5 +57,4 @@ bool(true)
 ### Дивіться також
 
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- [» Довідка за гарантіями
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

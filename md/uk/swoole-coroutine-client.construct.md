@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::connect](swoole-coroutine-client.connect.md)
-- [Swoole\Coroutine\Client::\_\_destruct
-»](swoole-coroutine-client.destruct.md)
+- [« Swoole\Coroutine\Client::connect](swoole-coroutine-client.connect.md)
+- [Swoole\Coroutine\Client::\_\_destruct »](swoole-coroutine-client.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

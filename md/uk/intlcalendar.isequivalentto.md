@@ -32,9 +32,7 @@ public
 [м'який режим](intlcalendar.islenient.md),
 [повторювані](intlcalendar.getrepeatedwalltimeoption.md) та
 [пропущені](intlcalendar.getskippedwalltimeoption.md) налаштування
-часу процесора, [дні тижні, коли вихідні починаються та
-закінчуються](intlcalendar.getdayofweektype.md) та [час, коли
-відбуваються такі переходи](intlcalendar.getweekendtransition.md).
+часу процесора, [дні тижні, коли вихідні починаються та закінчуються](intlcalendar.getdayofweektype.md) та [час, коли відбуваються такі переходи](intlcalendar.getweekendtransition.md).
 Також може містити інші установки, специфічні для календаря,
 наприклад, момент переходу між григоріанським та юліанським календарем.
 

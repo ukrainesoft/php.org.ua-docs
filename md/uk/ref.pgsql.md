@@ -38,8 +38,7 @@
 > версіях PostgreSQL 7.4 та вище існує стандартна схема, яка
 > називається `information_schema`. Вона містить системні уявлення
 > (view) з усією необхідною інформацією у легкодоступній формі. Для
-> додаткову інформацію дивіться [»документацію
-> PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
+> додаткову інформацію дивіться [»документацію > PostgreSQL](http://www.postgresql.org/docs/current/interactive/)
 
 ## Зміст
 

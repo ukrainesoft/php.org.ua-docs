@@ -1,5 +1,5 @@
 - [« Типи ресурсів](stomp.resources.md)
-- [Функції Stomp »] (ref.stomp.md)
+- [Функції Stomp »](ref.stomp.md)
 
 - [PHP Manual](index.md)
 - [Stomp](book.stomp.md)

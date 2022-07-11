@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Label::\_\_construct](ui-controls-label.construct.md)
+- [« UI\Controls\Label::\_\_construct](ui-controls-label.construct.md)
 - [UI\Controls\Label::setText »](ui-controls-label.settext.md)
 
 - [PHP Manual](index.md)

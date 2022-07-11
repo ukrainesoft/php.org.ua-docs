@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::startTransaction](mongodb-driver-session.starttransaction.md)
-- [MongoDB\Driver\ClientEncryption::\_\_construct
-»](mongodb-driver-clientencryption.construct.md)
+- [« MongoDB\Driver\Session::startTransaction](mongodb-driver-session.starttransaction.md)
+- [MongoDB\Driver\ClientEncryption::\_\_construct »](mongodb-driver-clientencryption.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)
@@ -61,13 +59,11 @@ final public
 ## Зумовлені константи
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC`**
-Визначає алгоритм для [» детермінованого
-шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption),
+Визначає алгоритм для [» детермінованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#deterministic-encryption),
 який підходить для запитів.
 
 **`MongoDB\Driver\ClientEncryption::AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM`**
-Визначає алгоритм для [» рандомізованого
-шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#randomized-encryption).
+Визначає алгоритм для [» рандомізованого шифрування](https://www.mongodb.com/docs/manual/core/security-client-side-encryption/#randomized-encryption).
 
 **`MongoDB\Driver\ClientEncryption::ALGORITHM_INDEXED`**
 Визначає алгоритм для індексованої, зашифрованої корисної

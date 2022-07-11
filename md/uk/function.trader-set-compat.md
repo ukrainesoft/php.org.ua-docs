@@ -1,6 +1,5 @@
 - [«trader_sarext](function.trader-sarext.md)
-- [trader_set_unstable_period
-»](function.trader-set-unstable-period.md)
+- [trader_set_unstable_period »](function.trader-set-unstable-period.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

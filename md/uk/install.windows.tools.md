@@ -1,6 +1,5 @@
 - [«PECL](install.windows.pecl.md)
-- [Рекомендована конфігурація для Windows
-»](install.windows.recommended.md)
+- [Рекомендована конфігурація для Windows »](install.windows.recommended.md)
 
 - [PHP Manual](index.md)
 - [Установка Windows](install.windows.md)
@@ -15,6 +14,5 @@ BitNami встановлять PHP з використанням як веб-с�
 Windows.
 
 Встановлення та налаштування Nginx на Windows вимагатиме трохи більше
-Зміни. Дивіться [документацію по
-Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/)
+Зміни. Дивіться [документацію по Nginx](https://www.nginx.com/resources/wiki/start/topics/examples/phpfastcgionwindows/)
 для отримання допомоги із встановлення.

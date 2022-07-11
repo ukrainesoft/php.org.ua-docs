@@ -172,10 +172,9 @@ public
 `...$args`): object
 
 public [newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` u003d \[\]): ?object
+`$args` u003d []): ?object
 
-public
-[newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
+public [newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
 object
 
 public

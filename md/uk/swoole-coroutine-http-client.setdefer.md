@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::setData](swoole-coroutine-http-client.setdata.md)
-- [Swoole\Coroutine\Http\Client::setHeaders
-»](swoole-coroutine-http-client.setheaders.md)
+- [« Swoole\Coroutine\Http\Client::setData](swoole-coroutine-http-client.setdata.md)
+- [Swoole\Coroutine\Http\Client::setHeaders »](swoole-coroutine-http-client.setheaders.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

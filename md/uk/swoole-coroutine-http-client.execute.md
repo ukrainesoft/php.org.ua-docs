@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::\_\_destruct](swoole-coroutine-http-client.destruct.md)
-- [Swoole\Coroutine\Http\Client::get
-»](swoole-coroutine-http-client.get.md)
+- [« Swoole\Coroutine\Http\Client::\_\_destruct](swoole-coroutine-http-client.destruct.md)
+- [Swoole\Coroutine\Http\Client::get »](swoole-coroutine-http-client.get.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

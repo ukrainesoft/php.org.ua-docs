@@ -1,6 +1,5 @@
 - [«SolrQuery::getExpandQuery](solrquery.getexpandquery.md)
-- [SolrQuery::getExpandSortFields
-»](solrquery.getexpandsortfields.md)
+- [SolrQuery::getExpandSortFields »](solrquery.getexpandsortfields.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

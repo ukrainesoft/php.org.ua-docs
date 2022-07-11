@@ -1,5 +1,4 @@
-- [« Робота з об'єктно-орієнтованим
-API](example.xmlwriter-oop.md)
+- [« Робота з об'єктно-орієнтованим API](example.xmlwriter-oop.md)
 - [XMLWriter::endAttribute »](xmlwriter.endattribute.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« ibase_trans](function.ibase-trans.md)
-- [IBM DB2 »] (book.ibm-db2.md)
+- [IBM DB2 »](book.ibm-db2.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

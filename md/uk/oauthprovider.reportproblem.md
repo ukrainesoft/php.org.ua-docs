@@ -1,5 +1,4 @@
-- [«
-OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md)
+- [« OAuthProvider::removeRequiredParameter](oauthprovider.removerequiredparameter.md)
 - [OAuthProvider::setParam »](oauthprovider.setparam.md)
 
 - [PHP Manual](index.md)

@@ -16,10 +16,8 @@
 - [Предвизначені константи](memcached.constants.md)
 - [Час зберігання об'єкта](memcached.expiration.md)
 - [Функції зворотного дзвінка](memcached.callbacks.md)
-- [Функції зворотного виклику для результуючого
-набору](memcached.callbacks.result.md)
-- [Функції зворотного виклику наскрізного читання
-кеша](memcached.callbacks.read-through.md)
+- [Функції зворотного виклику для результуючого набору](memcached.callbacks.result.md)
+- [Функції зворотного виклику наскрізного читання кеша](memcached.callbacks.read-through.md)
 - [Підтримка сесій](memcached.sessions.md)
 - [Memcached](class.memcached.md) - Клас Memcached
 - [Memcached::add](memcached.add.md) — Додає елемент із новим

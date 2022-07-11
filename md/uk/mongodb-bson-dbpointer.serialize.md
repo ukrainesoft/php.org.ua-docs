@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md)
-- [MongoDB\BSON\DBPointer::\_\_toString
-»](mongodb-bson-dbpointer.tostring.md)
+- [« MongoDB\BSON\DBPointer::jsonSerialize](mongodb-bson-dbpointer.jsonserialize.md)
+- [MongoDB\BSON\DBPointer::\_\_toString »](mongodb-bson-dbpointer.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)

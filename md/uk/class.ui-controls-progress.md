@@ -1,6 +1,5 @@
 - [« UI\Controls\Slider::setValue](ui-controls-slider.setvalue.md)
-- [UI\Controls\Progress::getValue
-»](ui-controls-progress.getvalue.md)
+- [UI\Controls\Progress::getValue »](ui-controls-progress.getvalue.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

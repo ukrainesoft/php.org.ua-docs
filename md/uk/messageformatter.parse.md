@@ -1,5 +1,4 @@
-- [«
-MessageFormatter::parseMessage](messageformatter.parsemessage.md)
+- [« MessageFormatter::parseMessage](messageformatter.parsemessage.md)
 - [MessageFormatter::setPattern »](messageformatter.setpattern.md)
 
 - [PHP Manual](index.md)

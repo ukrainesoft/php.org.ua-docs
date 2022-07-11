@@ -1,8 +1,8 @@
-- [« Типи ресурсів] (tokenizer.resources.md)
+- [« Типи ресурсів](tokenizer.resources.md)
 - [Приклади »](tokenizer.examples.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 - Обумовлені константи
 
 # Зумовлені константи

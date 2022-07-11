@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\CustomBlock](class.commonmark-node-customblock.md)
+- [« CommonMark\Node\CustomBlock](class.commonmark-node-customblock.md)
 - [CommonMark\Node »](class.commonmark-node.md)
 
 - [PHP Manual](index.md)

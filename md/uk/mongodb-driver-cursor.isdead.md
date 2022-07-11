@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Cursor::getServer](mongodb-driver-cursor.getserver.md)
+- [« MongoDB\Driver\Cursor::getServer](mongodb-driver-cursor.getserver.md)
 - [MongoDB\Driver\Cursor::key »](mongodb-driver-cursor.key.md)
 
 - [PHP Manual](index.md)
@@ -22,8 +21,7 @@ final public **MongoDB\Driver\Cursor::isDead**(): bool
 аналогічний методу
 [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/)
 в оболонці MongoDB і насамперед корисний при виконанні ітерації
-[»хвостових
-курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/).
+[»хвостових курсорів](https://www.mongodb.com/docs/manual/core/tailable-cursors/).
 
 Курсор не має додаткових результатів і вважається "мертвим", якщо
 виконується одна з наступних умов:
@@ -79,8 +77,7 @@ bool(true)
 
 ### Дивіться також
 
-- [» Хвостові
-курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
+- [» Хвостові курсори](https://www.mongodb.com/docs/manual/core/tailable-cursors/)
 у посібнику MongoDB
 - [» cursor.isExhausted()](https://www.mongodb.com/docs/manual/reference/method/cursor.isExhausted/)
 у посібнику MongoDB

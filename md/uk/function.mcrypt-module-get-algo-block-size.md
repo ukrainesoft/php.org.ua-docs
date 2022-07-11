@@ -1,6 +1,5 @@
 - [«mcrypt_module_close](function.mcrypt-module-close.md)
-- [mcrypt_module_get_algo_key_size
-»](function.mcrypt-module-get-algo-key-size.md)
+- [mcrypt_module_get_algo_key_size »](function.mcrypt-module-get-algo-key-size.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

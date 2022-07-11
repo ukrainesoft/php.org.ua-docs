@@ -1,7 +1,5 @@
-- [«
-SessionIdInterface::create_sid](sessionidinterface.create-sid.md)
-- [SessionUpdateTimestampHandlerInterface::updateTimestamp
-»](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
+- [« SessionIdInterface::create_sid](sessionidinterface.create-sid.md)
+- [SessionUpdateTimestampHandlerInterface::updateTimestamp »](sessionupdatetimestamphandlerinterface.updatetimestamp.md)
 
 - [PHP Manual](index.md)
 - [Сесії](book.session.md)

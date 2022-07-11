@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::setBody](yaf-response-abstract.setbody.md)
-- [Yaf_Response_Abstract::setRedirect
-»](yaf-response-abstract.setredirect.md)
+- [« Yaf_Response_Abstract::setBody](yaf-response-abstract.setbody.md)
+- [Yaf_Response_Abstract::setRedirect »](yaf-response-abstract.setredirect.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

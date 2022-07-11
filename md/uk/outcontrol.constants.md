@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (outcontrol.resources.md)
+- [« Типи ресурсів](outcontrol.resources.md)
 - [Приклади »](outcontrol.examples.md)
 
 - [PHP Manual](index.md)

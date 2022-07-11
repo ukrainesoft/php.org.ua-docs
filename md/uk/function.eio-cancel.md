@@ -1,5 +1,5 @@
 - [«eio_busy](function.eio-busy.md)
-- [eio_chmod»] (function.eio-chmod.md)
+- [eio_chmod»](function.eio-chmod.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

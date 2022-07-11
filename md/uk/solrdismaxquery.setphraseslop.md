@@ -1,5 +1,4 @@
-- [«
-SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md)
+- [« SolrDisMaxQuery::setPhraseFields](solrdismaxquery.setphrasefields.md)
 - [SolrDisMaxQuery::setQueryAlt »](solrdismaxquery.setqueryalt.md)
 
 - [PHP Manual](index.md)

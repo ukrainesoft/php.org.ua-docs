@@ -17,8 +17,7 @@
 таким же чином.
 
 - Ітерація SafeArray ("справжні" масиви), використовуючи
-[foreach] (control-structures.foreach.md). Це працює, оскільки
+[foreach](control-structures.foreach.md). Це працює, оскільки
 SafeArrays включає інформацію про свій розмір. Якщо властивість
 реалізує IEnumVariant, то ви також можете використовувати для нього
-foreach. Докладніше читайте у розділі [For
-Each](com.examples.foreach.md).
+foreach. Докладніше читайте у розділі [For Each](com.examples.foreach.md).

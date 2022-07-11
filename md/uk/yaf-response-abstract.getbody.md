@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::\_\_destruct](yaf-response-abstract.destruct.md)
-- [Yaf_Response_Abstract::getHeader
-»](yaf-response-abstract.getheader.md)
+- [« Yaf_Response_Abstract::\_\_destruct](yaf-response-abstract.destruct.md)
+- [Yaf_Response_Abstract::getHeader »](yaf-response-abstract.getheader.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

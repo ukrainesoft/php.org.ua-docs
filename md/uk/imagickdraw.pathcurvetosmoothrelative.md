@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md)
-- [ImagickDraw::pathEllipticArcAbsolute
-»](imagickdraw.pathellipticarcabsolute.md)
+- [« ImagickDraw::pathCurveToSmoothAbsolute](imagickdraw.pathcurvetosmoothabsolute.md)
+- [ImagickDraw::pathEllipticArcAbsolute »](imagickdraw.pathellipticarcabsolute.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

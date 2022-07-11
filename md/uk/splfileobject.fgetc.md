@@ -30,9 +30,7 @@ public **SplFileObject::fgetc**(): string\|false
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальнішу інформацію зверніться до розділу [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади

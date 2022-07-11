@@ -1,5 +1,5 @@
 - [«quoted_printable_decode](function.quoted-printable-decode.md)
-- [quotemeta»] (function.quotemeta.md)
+- [quotemeta»](function.quotemeta.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

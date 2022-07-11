@@ -1,6 +1,5 @@
 - [« DirectoryIterator::current](directoryiterator.current.md)
-- [DirectoryIterator::getBasename
-»](directoryiterator.getbasename.md)
+- [DirectoryIterator::getBasename »](directoryiterator.getbasename.md)
 
 - [PHP Manual](index.md)
 - [DirectoryIterator](class.directoryiterator.md)

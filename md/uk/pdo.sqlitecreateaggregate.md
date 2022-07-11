@@ -2,7 +2,7 @@
 - [PDO::sqliteCreateCollation »](pdo.sqlitecreatecollation.md)
 
 - [PHP Manual](index.md)
-- [SQLite (PDO)] (ref.pdo-sqlite.md)
+- [SQLite (PDO)](ref.pdo-sqlite.md)
 - Реєстрація агрегуючої функції користувача для використання
 у SQL-запитах
 

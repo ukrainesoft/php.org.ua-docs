@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
-- [ReflectionExtension::getDependencies
-»](reflectionextension.getdependencies.md)
+- [« ReflectionExtension::getClassNames](reflectionextension.getclassnames.md)
+- [ReflectionExtension::getDependencies »](reflectionextension.getdependencies.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

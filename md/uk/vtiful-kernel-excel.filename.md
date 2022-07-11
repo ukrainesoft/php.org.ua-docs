@@ -1,6 +1,5 @@
 - [« Vtiful\Kernel\Excel::data](vtiful-kernel-excel.data.md)
-- [Vtiful\Kernel\Excel::getHandle
-»](vtiful-kernel-excel.getHandle.md)
+- [Vtiful\Kernel\Excel::getHandle »](vtiful-kernel-excel.getHandle.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

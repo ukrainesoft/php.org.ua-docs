@@ -1,5 +1,4 @@
-- [«
-stream_resolve_include_path](function.stream-resolve-include-path.md)
+- [« stream_resolve_include_path](function.stream-resolve-include-path.md)
 - [stream_set_blocking »](function.stream-set-blocking.md)
 
 - [PHP Manual](index.md)

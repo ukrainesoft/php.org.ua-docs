@@ -1,5 +1,4 @@
-- [«
-xmlrpc_server_register_method](function.xmlrpc-server-register-method.md)
+- [« xmlrpc_server_register_method](function.xmlrpc-server-register-method.md)
 - [Модулі лише для Windows »](refs.utilspec.windows.md)
 
 - [PHP Manual](index.md)

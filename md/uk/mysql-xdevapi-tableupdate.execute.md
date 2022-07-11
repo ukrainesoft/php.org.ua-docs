@@ -1,5 +1,4 @@
-- [«
-TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.md)
+- [« TableUpdate::\_\_construct](mysql-xdevapi-tableupdate.construct.md)
 - [TableUpdate::limit »](mysql-xdevapi-tableupdate.limit.md)
 
 - [PHP Manual](index.md)

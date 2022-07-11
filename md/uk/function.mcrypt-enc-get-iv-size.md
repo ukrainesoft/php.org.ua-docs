@@ -1,5 +1,4 @@
-- [«
-mcrypt_enc_get_block_size](function.mcrypt-enc-get-block-size.md)
+- [« mcrypt_enc_get_block_size](function.mcrypt-enc-get-block-size.md)
 - [mcrypt_enc_get_key_size »](function.mcrypt-enc-get-key-size.md)
 
 - [PHP Manual](index.md)

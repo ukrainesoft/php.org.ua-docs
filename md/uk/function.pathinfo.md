@@ -1,5 +1,5 @@
 - [«parse_ini_string](function.parse-ini-string.md)
-- [pclose »] (function.pclose.md)
+- [pclose »](function.pclose.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)
@@ -22,8 +22,7 @@ array\|string
 > **Примітка**:
 >
 > Докладніше про отримання інформації про поточний шлях, можна почитати в
-> розділ [Предвизначені зарезервовані
-> змінні](language.variables.predefined.md).
+> розділ [Предвизначені зарезервовані > змінні](language.variables.predefined.md).
 
 > **Примітка**:
 >

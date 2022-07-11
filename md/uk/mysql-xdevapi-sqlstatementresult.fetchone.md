@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.md)
-- [SqlStatementResult::getAffectedItemsCount
-»](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md)
+- [« SqlStatementResult::fetchAll](mysql-xdevapi-sqlstatementresult.fetchall.md)
+- [SqlStatementResult::getAffectedItemsCount »](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

@@ -1,5 +1,4 @@
-- [«
-fann_set_activation_steepness](function.fann-set-activation-steepness.md)
+- [« fann_set_activation_steepness](function.fann-set-activation-steepness.md)
 - [fann_set_callback »](function.fann-set-callback.md)
 
 - [PHP Manual](index.md)

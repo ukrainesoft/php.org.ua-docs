@@ -2,7 +2,7 @@
 - [PDO::pgsqlLOBUnlink »](pdo.pgsqllobunlink.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Відкриває потік для існуючого великого об'єкту
 
 # PDO::pgsqlLOBOpen

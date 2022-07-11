@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)
-- [ReflectionFunctionAbstract::returnsReference
-»](reflectionfunctionabstract.returnsreference.md)
+- [« ReflectionFunctionAbstract::isUserDefined](reflectionfunctionabstract.isuserdefined.md)
+- [ReflectionFunctionAbstract::returnsReference »](reflectionfunctionabstract.returnsreference.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
@@ -19,8 +17,7 @@ ReflectionFunctionAbstract::isVariadic — Перевіряє, чи є функ�
 
 public **ReflectionFunctionAbstract::isVariadic**(): bool
 
-Перевіряє, чи є функція з [змінним числом
-аргументів](functions.arguments.md#functions.variable-arg-list).
+Перевіряє, чи є функція з [змінним числом аргументів](functions.arguments.md#functions.variable-arg-list).
 
 ### Список параметрів
 

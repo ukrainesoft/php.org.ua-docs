@@ -1,6 +1,5 @@
 - [« Gmagick::getimagehistogram](gmagick.getimagehistogram.md)
-- [Gmagick::getimageinterlacescheme
-»](gmagick.getimageinterlacescheme.md)
+- [Gmagick::getimageinterlacescheme »](gmagick.getimageinterlacescheme.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

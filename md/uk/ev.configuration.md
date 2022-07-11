@@ -1,5 +1,5 @@
 - [« Встановлення](ev.installation.md)
-- [Типи ресурсів»] (ev.resources.md)
+- [Типи ресурсів»](ev.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ev.setup.md)

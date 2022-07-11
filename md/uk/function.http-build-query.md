@@ -1,5 +1,5 @@
 - [«get_meta_tags](function.get-meta-tags.md)
-- [parse_url »] (function.parse-url.md)
+- [parse_url »](function.parse-url.md)
 
 - [PHP Manual](index.md)
 - [Функції URL](ref.url.md)
@@ -57,8 +57,7 @@ int `$encoding_type` u003d **`PHP_QUERY_RFC1738`**
 пробіли кодуються як символи "плюс" (`+`).
 
 Якщо `enc_type` дорівнює **`PHP_QUERY_RFC3986`**, тоді кодування
-здійснюється відповідно до [» RFC
-3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані в
+здійснюється відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986), а пробіли будуть закодовані в
 відсотках (%20).
 
 ### Значення, що повертаються

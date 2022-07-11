@@ -1,5 +1,5 @@
 - [«eio_readlink](function.eio-readlink.md)
-- [eio_rename »] (function.eio-rename.md)
+- [eio_rename »](function.eio-rename.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

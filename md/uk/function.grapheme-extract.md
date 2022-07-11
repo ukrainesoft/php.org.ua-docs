@@ -86,5 +86,4 @@ o%CC%88
 
 - [grapheme_substr()](function.grapheme-substr.md) - Повертає
 частина рядка
-- [»  Сегментація тексту в Unicode: межі кластера
-графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+- [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

@@ -2,7 +2,7 @@
 - [tidy::root »](tidy.root.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Відновлює рядок, використовуючи наскільки можна конфігураційний
 файл
 

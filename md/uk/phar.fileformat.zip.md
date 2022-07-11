@@ -1,5 +1,5 @@
 - [«Phar-архіви, засновані на tar](phar.fileformat.tar.md)
-- [Формат файлу phar »] (phar.fileformat.phar.md)
+- [Формат файлу phar »](phar.fileformat.phar.md)
 
 - [PHP Manual](index.md)
 - [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)

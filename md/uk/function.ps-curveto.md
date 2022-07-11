@@ -1,5 +1,5 @@
 - [«ps_continue_text](function.ps-continue-text.md)
-- [ps_delete »] (function.ps-delete.md)
+- [ps_delete »](function.ps-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

@@ -1,5 +1,4 @@
-- [«
-trader_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.md)
+- [« trader_cdlgapsidesidewhite](function.trader-cdlgapsidesidewhite.md)
 - [trader_cdlhammer »](function.trader-cdlhammer.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Вимоги](xlswriter.requirements.md)
-- [Типи ресурсів»] (xlswriter.resources.md)
+- [Типи ресурсів»](xlswriter.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xlswriter.setup.md)

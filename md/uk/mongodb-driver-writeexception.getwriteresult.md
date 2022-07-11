@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Exception\WriteException](class.mongodb-driver-exception-writeexception.md)
+- [« MongoDB\Driver\Exception\WriteException](class.mongodb-driver-exception-writeexception.md)
 - [Class Tree »](mongodb.exceptions.tree.md)
 
 - [PHP Manual](index.md)
@@ -61,7 +60,6 @@ NULL
 }
 
 ### Дивіться також
-
-- [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
+ - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
 - [MongoDB\Driver\Manager::executeBulkWrite()](mongodb-driver-manager.executebulkwrite.md) -
 Виконує одну або кілька операцій запису

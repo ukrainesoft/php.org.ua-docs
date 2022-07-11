@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::getDependencies](reflectionextension.getdependencies.md)
-- [ReflectionExtension::getINIEntries
-»](reflectionextension.getinientries.md)
+- [« ReflectionExtension::getDependencies](reflectionextension.getdependencies.md)
+- [ReflectionExtension::getINIEntries »](reflectionextension.getinientries.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

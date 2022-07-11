@@ -1,5 +1,4 @@
-- [«
-geoip_netspeedcell_by_name](function.geoip-netspeedcell-by-name.md)
+- [« geoip_netspeedcell_by_name](function.geoip-netspeedcell-by-name.md)
 - [geoip_record_by_name »](function.geoip-record-by-name.md)
 
 - [PHP Manual](index.md)

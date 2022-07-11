@@ -39,7 +39,7 @@
 цьому буде згенеровано помилку рівня **`E_WARNING`**. До PHP 7.2.0
 натомість видавалася помилка рівня [E_NOTICE](ref.errorfunc.md).
 Дивіться також главу керівництва, яка пояснює, чому
-[$foo\[bar\]](language.types.array.md#language.types.array.foo-bar) -
+[$foo[bar]](language.types.array.md#language.types.array.foo-bar) -
 це неправильно (якщо `bar` не є константою). Це не стосується
 до [(повністю) певним константам](language.namespaces.rules.md),
 які завжди будуть викидати [Error](class.error.md), якщо вони не

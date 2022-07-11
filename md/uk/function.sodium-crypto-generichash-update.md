@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_generichash_keygen](function.sodium-crypto-generichash-keygen.md)
-- [sodium_crypto_generichash
-»](function.sodium-crypto-generichash.md)
+- [« sodium_crypto_generichash_keygen](function.sodium-crypto-generichash-keygen.md)
+- [sodium_crypto_generichash »](function.sodium-crypto-generichash.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

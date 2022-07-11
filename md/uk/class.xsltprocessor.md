@@ -1,5 +1,4 @@
-- [« Обробка помилок за допомогою функцій обробки помилок
-libxml](xsl.examples-errors.md)
+- [« Обробка помилок за допомогою функцій обробки помилок libxml](xsl.examples-errors.md)
 - [XSLTProcessor::\_\_construct »](xsltprocessor.construct.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::executeWriteCommand](mongodb-driver-manager.executewritecommand.md)
-- [MongoDB\Driver\Manager::getReadConcern
-»](mongodb-driver-manager.getreadconcern.md)
+- [« MongoDB\Driver\Manager::executeWriteCommand](mongodb-driver-manager.executewritecommand.md)
+- [MongoDB\Driver\Manager::getReadConcern »](mongodb-driver-manager.getreadconcern.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

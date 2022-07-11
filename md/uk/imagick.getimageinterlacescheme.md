@@ -1,6 +1,5 @@
 - [« Imagick::getImageIndex](imagick.getimageindex.md)
-- [Imagick::getImageInterpolateMethod
-»](imagick.getimageinterpolatemethod.md)
+- [Imagick::getImageInterpolateMethod »](imagick.getimageinterpolatemethod.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

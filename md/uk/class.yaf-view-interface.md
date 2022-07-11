@@ -1,5 +1,4 @@
-- [«
-Yaf_Action_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md)
+- [« Yaf_Action_Abstract::getControllerName](yaf-controller-abstract.getcontrollername.md)
 - [Yaf_View_Interface::assign »](yaf-view-interface.assign.md)
 
 - [PHP Manual](index.md)

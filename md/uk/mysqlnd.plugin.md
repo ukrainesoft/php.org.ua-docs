@@ -1,6 +1,5 @@
 - [«Керування пам'яттю](mysqlnd.memory.md)
-- [Порівняння плагінів mysqlnd з MySQL Proxy
-»](mysqlnd.plugin.mysql-proxy.md)
+- [Порівняння плагінів mysqlnd з MySQL Proxy »](mysqlnd.plugin.mysql-proxy.md)
 
 - [PHP Manual](index.md)
 - [Mysqlnd](book.mysqlnd.md)
@@ -10,14 +9,11 @@
 
 ## Зміст
 
-- [Порівняння плагінів mysqlnd з MySQL
-Proxy](mysqlnd.plugin.mysql-proxy.md)
+- [Порівняння плагінів mysqlnd з MySQL Proxy](mysqlnd.plugin.mysql-proxy.md)
 - [Отримання API плагінів mysqlnd](mysqlnd.plugin.obtaining.md)
-- [Архітектура плагінів MySQL Native
-Driver](mysqlnd.plugin.architecture.md)
+- [Архітектура плагінів MySQL Native Driver](mysqlnd.plugin.architecture.md)
 - [API плагінів mysqlnd](mysqlnd.plugin.api.md)
-- [Починаємо розробку плагіна
-mysqlnd](mysqlnd.plugin.developing.md)
+- [Починаємо розробку плагіна mysqlnd](mysqlnd.plugin.developing.md)
 
 API для плагінів до вбудованого драйвера MySQL є особливістю
 вбудованого драйвера MySQL (`mysqlnd`). Плагіни `mysqlnd` працюють на

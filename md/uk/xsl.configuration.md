@@ -1,5 +1,5 @@
 - [« Встановлення](xsl.installation.md)
-- [Типи ресурсів»] (xsl.resources.md)
+- [Типи ресурсів»](xsl.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xsl.setup.md)

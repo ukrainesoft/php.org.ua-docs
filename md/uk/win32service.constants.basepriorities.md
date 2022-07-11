@@ -1,6 +1,5 @@
 - [« Коди помилок Win32](win32service.constants.errors.md)
-- [Дії при відновленні Win32
-»](win32service.constants.recovery-action.md)
+- [Дії при відновленні Win32 »](win32service.constants.recovery-action.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

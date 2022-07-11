@@ -51,5 +51,4 @@ PHP без попередження. Використовуйте цю функ�
 ### Дивіться також
 
 - **svn_list()**
-- [» SVN-документація з svn
-cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)
+- [» SVN-документація з svn cat](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cat.md)

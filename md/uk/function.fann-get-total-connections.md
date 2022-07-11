@@ -1,5 +1,4 @@
-- [«
-fann_get_sarprop_weight_decay_shift](function.fann-get-sarprop-weight-decay-shift.md)
+- [« fann_get_sarprop_weight_decay_shift](function.fann-get-sarprop-weight-decay-shift.md)
 - [fann_get_total_neurons »](function.fann-get-total-neurons.md)
 
 - [PHP Manual](index.md)

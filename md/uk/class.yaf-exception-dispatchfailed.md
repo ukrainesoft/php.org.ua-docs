@@ -1,7 +1,5 @@
-- [«
-Yaf_Exception_StartupError](class.yaf-exception-startuperror.md)
-- [Yaf_Exception_RouterFailed
-»](class.yaf-exception-routerfailed.md)
+- [« Yaf_Exception_StartupError](class.yaf-exception-startuperror.md)
+- [Yaf_Exception_RouterFailed »](class.yaf-exception-routerfailed.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

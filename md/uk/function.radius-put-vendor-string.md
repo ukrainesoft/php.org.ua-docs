@@ -1,6 +1,5 @@
 - [«radius_put_vendor_int](function.radius-put-vendor-int.md)
-- [radius_request_authenticator
-»](function.radius-request-authenticator.md)
+- [radius_request_authenticator »](function.radius-request-authenticator.md)
 
 - [PHP Manual](index.md)
 - [Функції Radius](ref.radius.md)

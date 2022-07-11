@@ -1,7 +1,5 @@
-- [«
-Collection::\_\_construct](mysql-xdevapi-collection.construct.md)
-- [Collection::createIndex
-»](mysql-xdevapi-collection.createindex.md)
+- [« Collection::\_\_construct](mysql-xdevapi-collection.construct.md)
+- [Collection::createIndex »](mysql-xdevapi-collection.createindex.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Collection](class.mysql-xdevapi-collection.md)

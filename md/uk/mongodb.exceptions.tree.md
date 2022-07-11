@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Exception\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md)
+- [« MongoDB\Driver\Exception\WriteException::getWriteResult](mongodb-driver-writeexception.getwriteresult.md)
 - [MySQL »](set.mysqlinfo.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«trader_sum](function.trader-sum.md)
-- [trader_tan »] (function.trader-tan.md)
+- [trader_tan »](function.trader-tan.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

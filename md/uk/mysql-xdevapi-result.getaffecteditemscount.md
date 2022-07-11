@@ -1,6 +1,5 @@
 - [« Result::\_\_construct](mysql-xdevapi-result.construct.md)
-- [Result::getAutoIncrementValue
-»](mysql-xdevapi-result.getautoincrementvalue.md)
+- [Result::getAutoIncrementValue »](mysql-xdevapi-result.getautoincrementvalue.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)

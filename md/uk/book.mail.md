@@ -12,7 +12,7 @@
 - [Вимоги](mail.requirements.md)
 - [Установка](mail.installation.md)
 - [Налаштування під час виконання](mail.configuration.md)
-- [Типи ресурсів] (mail.resources.md)
+- [Типи ресурсів](mail.resources.md)
 - [Предвизначені константи](mail.constants.md)
 - [Пошта](ref.mail.md)
 - [ezmlm_hash](function.ezmlm-hash.md) - обчислює хеш-суму,

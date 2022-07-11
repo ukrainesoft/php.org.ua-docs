@@ -15,7 +15,7 @@ socket_addrinfo_lookup — Отримати масив із вмістом getad
 ### Опис
 
 **socket_addrinfo_lookup**(string `$host`, ?string `$service` u003d
-**`null`**, array `$hints` u003d \[\]): array\|false
+**`null`**, array `$hints` u003d []): array\|false
 
 Пошук різних способів підключення до хоста (host). Повертається
 масив містить набір екземплярів [AddressInfo](class.addressinfo.md),

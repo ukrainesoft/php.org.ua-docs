@@ -1,5 +1,4 @@
-- [«
-SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md)
+- [« SolrIllegalOperationException::getInternalInfo](solrillegaloperationexception.getinternalinfo.md)
 - [Модулі для роботи із серверами »](refs.utilspec.server.md)
 
 - [PHP Manual](index.md)
@@ -29,9 +28,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 protected int `$sourceline`;
 

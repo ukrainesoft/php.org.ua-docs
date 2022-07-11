@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandFailedEvent::getError](mongodb-driver-monitoring-commandfailedevent.geterror.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getReply
-»](mongodb-driver-monitoring-commandfailedevent.getreply.md)
+- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getError](mongodb-driver-monitoring-commandfailedevent.geterror.md)
+- [MongoDB\Driver\Monitoring\CommandFailedEvent::getReply »](mongodb-driver-monitoring-commandfailedevent.getreply.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)

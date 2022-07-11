@@ -16,8 +16,7 @@ ssdeep_fuzzy_hash_filename — Створення нечіткого хеша з
 **ssdeep_fuzzy_hash_filename**(string `$file_name`): string
 
 **ssdeep_fuzzy_hash_filename()** обчислює хеш вказаного файлу
-`file_name`, використовуючи [» контекстно-переключається часткове
-хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
+`file_name`, використовуючи [» контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
 повертає його значення.
 
 ### Список параметрів

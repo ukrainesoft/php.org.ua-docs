@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::appendBody](yaf-response-abstract.appendbody.md)
-- [Yaf_Response_Abstract::clearHeaders
-»](yaf-response-abstract.clearheaders.md)
+- [« Yaf_Response_Abstract::appendBody](yaf-response-abstract.appendbody.md)
+- [Yaf_Response_Abstract::clearHeaders »](yaf-response-abstract.clearheaders.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

@@ -1,6 +1,5 @@
 - [«radius_demangle](function.radius-demangle.md)
-- [radius_get_tagged_attr_data
-»](function.radius-get-tagged-attr-data.md)
+- [radius_get_tagged_attr_data »](function.radius-get-tagged-attr-data.md)
 
 - [PHP Manual](index.md)
 - [Функції Radius](ref.radius.md)

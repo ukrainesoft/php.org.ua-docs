@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::getBody](yaf-response-abstract.getbody.md)
-- [Yaf_Response_Abstract::prependBody
-»](yaf-response-abstract.prependbody.md)
+- [« Yaf_Response_Abstract::getBody](yaf-response-abstract.getbody.md)
+- [Yaf_Response_Abstract::prependBody »](yaf-response-abstract.prependbody.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

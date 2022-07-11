@@ -11,5 +11,4 @@
 інформації про CUBRID можна знайти на сайті
 [»CUBRID](http://www.cubrid.org/).
 
-Також подивіться [» Документацію
-CUBRID](http://www.cubrid.org/documentation/).
+Також подивіться [» Документацію CUBRID](http://www.cubrid.org/documentation/).

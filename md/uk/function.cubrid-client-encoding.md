@@ -1,5 +1,5 @@
 - [«cubrid_affected_rows](function.cubrid-affected-rows.md)
-- [cubrid_close »] (function.cubrid-close.md)
+- [cubrid_close »](function.cubrid-close.md)
 
 - [PHP Manual](index.md)
 - [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)

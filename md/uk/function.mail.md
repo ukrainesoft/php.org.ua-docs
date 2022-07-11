@@ -1,5 +1,5 @@
 - [«ezmlm_hash](function.ezmlm-hash.md)
-- [Mailparse »] (book.mailparse.md)
+- [Mailparse »](book.mailparse.md)
 
 - [PHP Manual](index.md)
 - [Пошта](ref.mail.md)
@@ -17,7 +17,7 @@ mail — Надсилає електронну пошту
 string `$to`,
 string `$subject`,
 string `$message`,
-array\|string `$additional_headers` u003d \[\],
+array\|string `$additional_headers` u003d [],
 string `$additional_params` u003d ""
 ): bool
 
@@ -28,8 +28,7 @@ string `$additional_params` u003d ""
 `to`
 Одержувач або одержувачі листа.
 
-Формат цього параметра має відповідати [»RFC
-2822](http://www.faqs.org/rfcs/rfc2822). Декілька прикладів:
+Формат цього параметра має відповідати [»RFC 2822](http://www.faqs.org/rfcs/rfc2822). Декілька прикладів:
 
 - user@example.com
 - user@example.com, anotheruser@example.com
@@ -40,8 +39,7 @@ string `$additional_params` u003d ""
 Тема листа, що надсилається.
 
 **Застереження**
-Тема повинна відповідати [»RFC
-2047](http://www.faqs.org/rfcs/rfc2047).
+Тема повинна відповідати [»RFC 2047](http://www.faqs.org/rfcs/rfc2047).
 
 `message`
 Надіслане повідомлення.
@@ -100,8 +98,7 @@ string `$additional_params` u003d ""
 ). Деякі агенти пересилання повідомлень Unix (особливо
 > [»qmail](http://cr.yp.to/qmail.md)) автоматично замінюють LF на
 > CRLF (що призводить до подвійного CR, якщо використовувалося CRLF).
-> Використовуйте цей захід у крайньому випадку, оскільки це порушує [» RFC
-> 2822](http://www.faqs.org/rfcs/rfc2822).
+> Використовуйте цей захід у крайньому випадку, оскільки це порушує [» RFC > 2822](http://www.faqs.org/rfcs/rfc2822).
 
 `additional_params` (необов'язковий)
 Параметр `additional_params` може бути використаний для передачі
@@ -225,13 +222,7 @@ Reply-To:
 
 > **Примітка**:
 >
-> Корисні RFC: [»RFC 1896](http://www.faqs.org/rfcs/rfc1896), [»RFC
-> 2045](http://www.faqs.org/rfcs/rfc2045), [»RFC
-> 2046](http://www.faqs.org/rfcs/rfc2046), [» RFC
-> 2047](http://www.faqs.org/rfcs/rfc2047), [»RFC
-> 2048](http://www.faqs.org/rfcs/rfc2048), [» RFC
-> 2049](http://www.faqs.org/rfcs/rfc2049) та [» RFC
-> 2822](http://www.faqs.org/rfcs/rfc2822).
+> Корисні RFC: [»RFC 1896](http://www.faqs.org/rfcs/rfc1896), [»RFC > 2045](http://www.faqs.org/rfcs/rfc2045), [»RFC > 2046](http://www.faqs.org/rfcs/rfc2046), [» RFC > 2047](http://www.faqs.org/rfcs/rfc2047), [»RFC > 2048](http://www.faqs.org/rfcs/rfc2048), [» RFC > 2049](http://www.faqs.org/rfcs/rfc2049) та [» RFC > 2822](http://www.faqs.org/rfcs/rfc2822).
 
 ### Дивіться також
 

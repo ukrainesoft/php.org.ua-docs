@@ -1,6 +1,5 @@
 - [« Про нотатки користувачів](about.notes.md)
-- [Версії PHP, документовані у цьому посібнику
-»](about.phpversions.md)
+- [Версії PHP, документовані у цьому посібнику »](about.phpversions.md)
 
 - [PHP Manual](index.md)
 - [Про це посібник](about.md)

@@ -28,5 +28,4 @@ PHP.
 значень за замовчуванням їх необхідно помістити в
 `%USERPROFILE%/.config/ImageMagick` або, замість цього на шляху, заданому
 в змінному оточенні `MAGICK_CONFIGURE_PATH`. додаткові відомості
-дивіться в [» документації за файлами конфігурації
-ImageMagick](http://www.imagemagick.org/script/resources.php).
+дивіться в [» документації за файлами конфігурації ImageMagick](http://www.imagemagick.org/script/resources.php).

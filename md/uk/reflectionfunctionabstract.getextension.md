@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)
-- [ReflectionFunctionAbstract::getExtensionName
-»](reflectionfunctionabstract.getextensionname.md)
+- [« ReflectionFunctionAbstract::getEndLine](reflectionfunctionabstract.getendline.md)
+- [ReflectionFunctionAbstract::getExtensionName »](reflectionfunctionabstract.getextensionname.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

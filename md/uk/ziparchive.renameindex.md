@@ -1,5 +1,4 @@
-- [«
-ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md)
+- [« ZipArchive::registerProgressCallback](ziparchive.registerprogresscallback.md)
 - [ZipArchive::renameName »](ziparchive.renamename.md)
 
 - [PHP Manual](index.md)

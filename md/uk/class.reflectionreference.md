@@ -1,7 +1,5 @@
-- [«
-ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
-- [ReflectionReference::\_\_construct
-»](reflectionreference.construct.md)
+- [« ReflectionIntersectionType::getTypes](reflectionintersectiontype.gettypes.md)
+- [ReflectionReference::\_\_construct »](reflectionreference.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

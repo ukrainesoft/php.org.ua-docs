@@ -1,5 +1,5 @@
 - [«exif_read_data](function.exif-read-data.md)
-- [exif_thumbnail »] (function.exif-thumbnail.md)
+- [exif_thumbnail »](function.exif-thumbnail.md)
 
 - [PHP Manual](index.md)
 - [Exif Функції](ref.exif.md)
@@ -41,5 +41,4 @@ ID тега, ім'я якого потрібно отримати.
 - [exif_imagetype()](function.exif-imagetype.md) - Determine the
 type of an image
 - [» EXIF специфікація](http://exif.org/Exif2-2.PDF)
-- [»EXIF
-теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.md)
+- [»EXIF теги](http://www.sno.phy.queensu.ca/~phil/exiftool/TagNames/EXIF.md)

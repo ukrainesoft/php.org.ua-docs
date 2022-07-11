@@ -1,8 +1,8 @@
-- [« Типи ресурсів] (phar.resources.md)
-- [Використання Phar-архівів»] (phar.using.md)
+- [« Типи ресурсів](phar.resources.md)
+- [Використання Phar-архівів»](phar.using.md)
 
 - [PHP Manual](index.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - Обумовлені константи
 
 # Зумовлені константи

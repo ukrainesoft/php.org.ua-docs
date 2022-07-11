@@ -1,5 +1,5 @@
 - [«highlight_file](function.highlight-file.md)
-- [hrtime »] (function.hrtime.md)
+- [hrtime »](function.hrtime.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)
@@ -62,5 +62,4 @@ PHP-код, що підсвічується. Повинен включати т�
 
 - [highlight_file()](function.highlight-file.md) - Підсвічування
 синтаксису файлу
-- [Підсвічування директив
-INI](misc.configuration.md#ini.syntax-highlighting)
+- [Підсвічування директив INI](misc.configuration.md#ini.syntax-highlighting)

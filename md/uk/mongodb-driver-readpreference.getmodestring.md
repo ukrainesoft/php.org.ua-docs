@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md)
-- [MongoDB\Driver\ReadPreference::getTagSets
-»](mongodb-driver-readpreference.gettagsets.md)
+- [« MongoDB\Driver\ReadPreference::getMode](mongodb-driver-readpreference.getmode.md)
+- [MongoDB\Driver\ReadPreference::getTagSets »](mongodb-driver-readpreference.gettagsets.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -50,5 +48,4 @@ string(7) "nearest"
 
 - [MongoDB\Driver\ReadPreference::getMode()](mongodb-driver-readpreference.getmode.md) -
 Повертає параметр "mode" ReadPreference
-- [» Документація з Read
-Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [» Документація з Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

@@ -1,5 +1,4 @@
-- [«
-get_html_translation_table](function.get-html-translation-table.md)
+- [« get_html_translation_table](function.get-html-translation-table.md)
 - [hebrevc »](function.hebrevc.md)
 
 - [PHP Manual](index.md)

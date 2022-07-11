@@ -1,6 +1,5 @@
 - [« Нові глобальні константи](migration72.constants.md)
-- [Функціонал, оголошений застарілим у PHP 7.2.x
-»](migration72.deprecated.md)
+- [Функціонал, оголошений застарілим у PHP 7.2.x »](migration72.deprecated.md)
 
 - [PHP Manual](index.md)
 - [Міграція з PHP 7.1.x на PHP 7.2.x](migration72.md)

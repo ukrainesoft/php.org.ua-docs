@@ -1,5 +1,5 @@
 - [«Зумовлені константи](stream.constants.md)
-- [Контексти потоків»] (stream.contexts.md)
+- [Контексти потоків»](stream.contexts.md)
 
 - [PHP Manual](index.md)
 - [Потоки](book.stream.md)

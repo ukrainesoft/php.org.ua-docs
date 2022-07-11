@@ -1,7 +1,5 @@
-- [«
-Yaf_Controller_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md)
-- [Yaf_Controller_Abstract::getModuleName
-»](yaf-controller-abstract.getmodulename.md)
+- [« Yaf_Controller_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md)
+- [Yaf_Controller_Abstract::getModuleName »](yaf-controller-abstract.getmodulename.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

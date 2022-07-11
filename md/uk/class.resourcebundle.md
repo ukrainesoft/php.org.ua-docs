@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md)
+- [« IntlDateFormatter::setTimeZone](intldateformatter.settimezone.md)
 - [ResourceBundle::count »](resourcebundle.count.md)
 
 - [PHP Manual](index.md)
@@ -75,8 +74,7 @@ public static [getLocales](resourcebundle.locales.md)(string
 
 ## Дивіться також
 
-- [»  Менеджер ресурсів
-ICU](http://userguide.icu-project.org/locale/resources)
+- [»  Менеджер ресурсів ICU](http://userguide.icu-project.org/locale/resources)
 - [» Дані ICU](http://userguide.icu-project.org/icudata)
 
 ## Зміст

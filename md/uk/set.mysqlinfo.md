@@ -2,8 +2,7 @@
 - [Огляд PHP драйверів MySQL »](mysql.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - MySQL драйвери та плагіни
 
 # MySQL драйвери та плагіни
@@ -24,11 +23,9 @@ Improved)
 - [Короткий огляд](mysqli.overview.md)
 - [Короткий посібник](mysqli.quickstart.md)
 - [Встановлення та налаштування](mysqli.setup.md)
-- [Модуль mysqli та постійні
-з'єднання](mysqli.persistconns.md)
+- [Модуль mysqli та постійні з'єднання](mysqli.persistconns.md)
 - [Предвизначені константи](mysqli.constants.md)
-- [Основна інформація про функції модуля
-MySQLi](mysqli.summary.md)
+- [Основна інформація про функції модуля MySQLi](mysqli.summary.md)
 - [mysqli](class.mysqli.md) - Клас mysqli
 - [mysqli_stmt](class.mysqli-stmt.md) — The mysqli_stmt class
 - [mysqli_result](class.mysqli-result.md) - Клас mysqli_result
@@ -127,5 +124,4 @@ Table
 - [Статистика](mysqlnd.stats.md)
 - [Примітки](mysqlnd.notes.md)
 - [Управління пам'яттю](mysqlnd.memory.md)
-- [API для плагінів до вбудованого драйвера
-MySQL](mysqlnd.plugin.md)
+- [API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)

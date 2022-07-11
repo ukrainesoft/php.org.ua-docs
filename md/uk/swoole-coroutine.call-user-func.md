@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine::call_user_func_array](swoole-coroutine.call-user-func-array.md)
+- [« Swoole\Coroutine::call_user_func_array](swoole-coroutine.call-user-func-array.md)
 - [Swoole\Coroutine::cli_wait »](swoole-coroutine.cli-wait.md)
 
 - [PHP Manual](index.md)

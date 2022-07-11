@@ -1,6 +1,5 @@
 - [« CollectionModify::sort](mysql-xdevapi-collectionmodify.sort.md)
-- [mysql_xdevapi\CollectionRemove
-»](class.mysql-xdevapi-collectionremove.md)
+- [mysql_xdevapi\CollectionRemove »](class.mysql-xdevapi-collectionremove.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)

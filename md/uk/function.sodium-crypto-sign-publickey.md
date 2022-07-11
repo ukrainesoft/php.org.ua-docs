@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_sign_publickey_from_secretkey](function.sodium-crypto-sign-publickey-from-secretkey.md)
-- [sodium_crypto_sign_secretkey
-»](function.sodium-crypto-sign-secretkey.md)
+- [« sodium_crypto_sign_publickey_from_secretkey](function.sodium-crypto-sign-publickey-from-secretkey.md)
+- [sodium_crypto_sign_secretkey »](function.sodium-crypto-sign-secretkey.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

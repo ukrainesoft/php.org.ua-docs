@@ -1,5 +1,5 @@
 - [« Типи ресурсів](runkit7.resources.md)
-- [Функції runkit7»] (ref.runkit7.md)
+- [Функції runkit7»](ref.runkit7.md)
 
 - [PHP Manual](index.md)
 - [runkit7](book.runkit7.md)

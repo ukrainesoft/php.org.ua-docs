@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
-- [mysql_xdevapi\CrudOperationLimitable
-»](class.mysql-xdevapi-crudoperationlimitable.md)
+- [« mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)
+- [mysql_xdevapi\CrudOperationLimitable »](class.mysql-xdevapi-crudoperationlimitable.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CrudOperationBindable](class.mysql-xdevapi-crudoperationbindable.md)

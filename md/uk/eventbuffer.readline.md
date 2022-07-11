@@ -22,8 +22,7 @@ public **EventBuffer::readLine**( int `$eol_style` ): string
 ### Список параметрів
 
 `eol_style`
-Один з [EventBuffer:EOL\_\*
-констант](class.eventbuffer.md#eventbuffer.constants) .
+Один з [EventBuffer:EOL\_\* констант](class.eventbuffer.md#eventbuffer.constants) .
 
 ### Значення, що повертаються
 

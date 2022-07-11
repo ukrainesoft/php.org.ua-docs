@@ -1,6 +1,5 @@
 - [« ReflectionUnionType::getTypes](reflectionuniontype.gettypes.md)
-- [ReflectionGenerator::\_\_construct
-»](reflectiongenerator.construct.md)
+- [ReflectionGenerator::\_\_construct »](reflectiongenerator.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

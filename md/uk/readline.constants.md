@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (readline.resources.md)
+- [« Типи ресурсів](readline.resources.md)
 - [Функції Readline »](ref.readline.md)
 
 - [PHP Manual](index.md)

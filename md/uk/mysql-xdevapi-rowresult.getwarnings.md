@@ -1,6 +1,5 @@
 - [« RowResult::getColumns](mysql-xdevapi-rowresult.getcolumns.md)
-- [RowResult::getWarningsCount
-»](mysql-xdevapi-rowresult.getwarningscount.md)
+- [RowResult::getWarningsCount »](mysql-xdevapi-rowresult.getwarningscount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\RowResult](class.mysql-xdevapi-rowresult.md)

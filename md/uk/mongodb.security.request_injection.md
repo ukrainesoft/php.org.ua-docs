@@ -1,6 +1,5 @@
 - [«Безпека](mongodb.security.md)
-- [Атака за допомогою ін'єкцій у скриптах
-»](mongodb.security.script_injection.md)
+- [Атака за допомогою ін'єкцій у скриптах »](mongodb.security.script_injection.md)
 
 - [PHP Manual](index.md)
 - [Безпека](mongodb.security.md)
@@ -19,7 +18,7 @@
 `$q u003d new \MongoDB\Driver\Query( [ 'username' u003d> $_GET['username'] ])`.
 
 Хтось може підірвати це, отримавши
-*http://www.example.com?username\[$ne\]u003dfoo*, який PHP чарівним
+*http://www.example.com?username[$ne]u003dfoo*, який PHP чарівним
 чином перетворить на асоціативний масив, перетворивши ваш запит на
 `$q u003d new \MongoDB\Driver\Query( [ 'username' u003d> [ '$ne' u003d> 'foo' ] ] )`,
 який поверне всіх користувачів, які не мають імені "foo" (ймовірно,
@@ -34,6 +33,5 @@ $\_GET і $\_POST відповідають очікуваному типу, пе
 взаємодією з базою даних, що знаходить документ, включаючи
 команди update, upserts, delete і findAndModify.
 
-Дивіться [основну]
-документацію](https://www.mongodb.com/docs/manual/security/) для
+Дивіться [основну] документацію](https://www.mongodb.com/docs/manual/security/) для
 отримання додаткової інформації про проблеми SQL ін'єкцій у MongoDB.

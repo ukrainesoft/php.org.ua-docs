@@ -1,5 +1,5 @@
 - [«sin](function.sin.md)
-- [sqrt »] (function.sqrt.md)
+- [sqrt »](function.sqrt.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

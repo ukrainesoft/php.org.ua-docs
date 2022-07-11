@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::get](swoole-coroutine-http-client.get.md)
-- [Swoole\Coroutine\Http\Client::isConnected
-»](swoole-coroutine-http-client.isconnected.md)
+- [« Swoole\Coroutine\Http\Client::get](swoole-coroutine-http-client.get.md)
+- [Swoole\Coroutine\Http\Client::isConnected »](swoole-coroutine-http-client.isconnected.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

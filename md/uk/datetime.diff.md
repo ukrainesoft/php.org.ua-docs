@@ -84,8 +84,7 @@ public
 
 > **Примітка**:
 >
-> Об'єкти DateTime можуть порівнюватися за допомогою [операторів
-> порівняння](language.operators.comparison.md).
+> Об'єкти DateTime можуть порівнюватися за допомогою [операторів > порівняння](language.operators.comparison.md).
 
 ` <?php$date1 u003d new DateTime("now");$date2 u003d new DateTime("tomorrow");var_dump($date1 u003du003d $date2);var_dump($date1 < $date2);var_dump> $date2);?> `
 

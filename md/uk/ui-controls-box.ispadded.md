@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Box::getOrientation](ui-controls-box.getorientation.md)
+- [« UI\Controls\Box::getOrientation](ui-controls-box.getorientation.md)
 - [UI\Controls\Box::setPadded »](ui-controls-box.setpadded.md)
 
 - [PHP Manual](index.md)

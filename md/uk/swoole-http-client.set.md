@@ -1,6 +1,5 @@
 - [« Swoole\Http\Client::push](swoole-http-client.push.md)
-- [Swoole\Http\Client::setCookies
-»](swoole-http-client.setcookies.md)
+- [Swoole\Http\Client::setCookies »](swoole-http-client.setcookies.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Client](class.swoole-http-client.md)

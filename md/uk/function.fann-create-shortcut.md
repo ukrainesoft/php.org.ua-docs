@@ -1,5 +1,4 @@
-- [«
-fann_create_shortcut_array](function.fann-create-shortcut-array.md)
+- [« fann_create_shortcut_array](function.fann-create-shortcut-array.md)
 - [fann_create_sparse_array »](function.fann-create-sparse-array.md)
 
 - [PHP Manual](index.md)

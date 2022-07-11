@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\Text::\_\_construct](commonmark-node-text.construct.md)
-- [CommonMark\Node\Text\Emphasis
-»](class.commonmark-node-text-emphasis.md)
+- [« CommonMark\Node\Text::\_\_construct](commonmark-node-text.construct.md)
+- [CommonMark\Node\Text\Emphasis »](class.commonmark-node-text-emphasis.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

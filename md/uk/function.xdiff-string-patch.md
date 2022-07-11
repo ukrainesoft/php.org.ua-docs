@@ -1,5 +1,4 @@
-- [«
-xdiff_string_patch_binary](function.xdiff-string-patch-binary.md)
+- [« xdiff_string_patch_binary](function.xdiff-string-patch-binary.md)
 - [xdiff_string_rabdiff »](function.xdiff-string-rabdiff.md)
 
 - [PHP Manual](index.md)

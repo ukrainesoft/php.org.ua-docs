@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::getpeername](swoole-coroutine-client.getpeername.md)
-- [Swoole\Coroutine\Client::isConnected
-»](swoole-coroutine-client.isconnected.md)
+- [« Swoole\Coroutine\Client::getpeername](swoole-coroutine-client.getpeername.md)
+- [Swoole\Coroutine\Client::isConnected »](swoole-coroutine-client.isconnected.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

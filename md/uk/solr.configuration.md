@@ -1,5 +1,5 @@
 - [« Установка](solr.installation.md)
-- [Типи ресурсів»] (solr.resources.md)
+- [Типи ресурсів»](solr.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](solr.setup.md)

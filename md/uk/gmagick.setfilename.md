@@ -1,7 +1,5 @@
-- [«
-Gmagick::setCompressionQuality](gmagick.setcompressionquality.md)
-- [Gmagick::setimagebackgroundcolor
-»](gmagick.setimagebackgroundcolor.md)
+- [« Gmagick::setCompressionQuality](gmagick.setcompressionquality.md)
+- [Gmagick::setimagebackgroundcolor »](gmagick.setimagebackgroundcolor.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

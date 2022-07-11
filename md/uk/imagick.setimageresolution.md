@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md)
+- [« Imagick::setImageRenderingIntent](imagick.setimagerenderingintent.md)
 - [Imagick::setImageScene »](imagick.setimagescene.md)
 
 - [PHP Manual](index.md)

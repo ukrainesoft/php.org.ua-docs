@@ -1,5 +1,4 @@
-- [«
-sapi_windows_set_ctrl_handler](function.sapi-windows-set-ctrl-handler.md)
+- [« sapi_windows_set_ctrl_handler](function.sapi-windows-set-ctrl-handler.md)
 - [show_source »](function.show-source.md)
 
 - [PHP Manual](index.md)

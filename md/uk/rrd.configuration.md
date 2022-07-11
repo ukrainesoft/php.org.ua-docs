@@ -1,5 +1,5 @@
 - [« Установка](rrd.installation.md)
-- [Типи ресурсів»] (rrd.resources.md)
+- [Типи ресурсів»](rrd.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](rrd.setup.md)

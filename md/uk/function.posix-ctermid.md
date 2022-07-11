@@ -1,5 +1,5 @@
 - [«posix_access](function.posix-access.md)
-- [posix_errno»] (function.posix-errno.md)
+- [posix_errno»](function.posix-errno.md)
 
 - [PHP Manual](index.md)
 - [POSIX Функції](ref.posix.md)

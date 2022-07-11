@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setMltMaxWordLength](solrquery.setmltmaxwordlength.md)
-- [SolrQuery::setMltMinTermFrequency
-»](solrquery.setmltmintermfrequency.md)
+- [« SolrQuery::setMltMaxWordLength](solrquery.setmltmaxwordlength.md)
+- [SolrQuery::setMltMinTermFrequency »](solrquery.setmltmintermfrequency.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

@@ -1,5 +1,4 @@
-- [«
-ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md)
+- [« ImagickPixel::isPixelSimilarQuantum](imagickpixel.ispixelsimilarquantum.md)
 - [ImagickPixel::setColor »](imagickpixel.setcolor.md)
 
 - [PHP Manual](index.md)

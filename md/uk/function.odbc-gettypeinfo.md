@@ -1,5 +1,5 @@
 - [«odbc_free_result](function.odbc-free-result.md)
-- [odbc_longreadlen »] (function.odbc-longreadlen.md)
+- [odbc_longreadlen »](function.odbc-longreadlen.md)
 
 - [PHP Manual](index.md)
 - [Функції ODBC](ref.uodbc.md)

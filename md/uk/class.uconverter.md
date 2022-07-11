@@ -1,5 +1,4 @@
-- [«
-IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)
+- [« IntlPartsIterator::getBreakIterator](intlpartsiterator.getbreakiterator.md)
 - [UConverter::\_\_construct »](uconverter.construct.md)
 
 - [PHP Manual](index.md)

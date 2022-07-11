@@ -1,5 +1,4 @@
-- [«
-wincache_refresh_if_changed](function.wincache-refresh-if-changed.md)
+- [« wincache_refresh_if_changed](function.wincache-refresh-if-changed.md)
 - [wincache_rplist_meminfo »](function.wincache-rplist-meminfo.md)
 
 - [PHP Manual](index.md)

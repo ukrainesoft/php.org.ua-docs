@@ -1,5 +1,4 @@
-- [« Зміни, що ламають зворотну
-сумісність](migration81.incompatible.md)
+- [« Зміни, що ламають зворотну сумісність](migration81.incompatible.md)
 - [Інші зміни »](migration81.other-changes.md)
 
 - [PHP Manual](index.md)
@@ -190,7 +189,8 @@ INI-директива
 
 INI-директива
 [auto_detect_line_endings](filesystem.configuration.md#ini.auto-detect-line-endings)
-застаріла. При необхідності обробіть розриви рядків.вручну.
+застаріла. При необхідності обробіть розриви рядків.
+вручну.
 
 Константи **`FILE_BINARY`** та **`FILE_TEXT`** застаріли. Вони ніколи не
 мали сенсу.

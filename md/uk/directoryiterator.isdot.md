@@ -1,6 +1,5 @@
 - [« DirectoryIterator::isDir](directoryiterator.isdir.md)
-- [DirectoryIterator::isExecutable
-»](directoryiterator.isexecutable.md)
+- [DirectoryIterator::isExecutable »](directoryiterator.isexecutable.md)
 
 - [PHP Manual](index.md)
 - [DirectoryIterator](class.directoryiterator.md)

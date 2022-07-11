@@ -1,6 +1,5 @@
 - [« ZipArchive::setCommentName](ziparchive.setcommentname.md)
-- [ZipArchive::setCompressionName
-»](ziparchive.setcompressionname.md)
+- [ZipArchive::setCompressionName »](ziparchive.setcompressionname.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

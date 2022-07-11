@@ -1,5 +1,5 @@
 - [« Установка](cubrid.installation.md)
-- [Типи ресурсів»] (cubrid.resources.md)
+- [Типи ресурсів»](cubrid.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](cubrid.setup.md)

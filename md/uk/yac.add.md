@@ -1,4 +1,4 @@
-- [« Yac] (class.yac.md)
+- [« Yac](class.yac.md)
 - [Yac::\_\_construct »](yac.construct.md)
 
 - [PHP Manual](index.md)

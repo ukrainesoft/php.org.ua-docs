@@ -1,6 +1,5 @@
 - [« fann_destroy_train](function.fann-destroy-train.md)
-- [fann_duplicate_train_data
-»](function.fann-duplicate-train-data.md)
+- [fann_duplicate_train_data »](function.fann-duplicate-train-data.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

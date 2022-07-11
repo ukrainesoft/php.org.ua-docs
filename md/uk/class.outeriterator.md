@@ -1,6 +1,5 @@
 - [«Countable::count](countable.count.md)
-- [OuterIterator::getInnerIterator
-»](outeriterator.getinneriterator.md)
+- [OuterIterator::getInnerIterator »](outeriterator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [Інтерфейси](spl.interfaces.md)

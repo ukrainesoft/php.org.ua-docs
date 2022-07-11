@@ -1,5 +1,4 @@
-- [«
-GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.md)
+- [« GearmanClient::setWarningCallback](gearmanclient.setwarningcallback.md)
 - [GearmanClient::timeout »](gearmanclient.timeout.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Установка](openssl.installation.md)
-- [Типи ресурсів»] (openssl.resources.md)
+- [Типи ресурсів»](openssl.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](openssl.setup.md)
@@ -17,8 +17,7 @@
 **Опції налаштування openssl**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

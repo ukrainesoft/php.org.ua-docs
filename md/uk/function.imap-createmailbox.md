@@ -1,5 +1,5 @@
 - [« imap_create](function.imap-create.md)
-- [imap_delete »] (function.imap-delete.md)
+- [imap_delete »](function.imap-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

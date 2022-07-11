@@ -1,5 +1,4 @@
-- [«
-Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.md)
+- [« Schema::getCollectionAsTable](mysql-xdevapi-schema.getcollectionastable.md)
 - [Schema::getName »](mysql-xdevapi-schema.getname.md)
 
 - [PHP Manual](index.md)

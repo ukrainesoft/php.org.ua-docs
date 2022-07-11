@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::getTags](mongodb-driver-server.gettags.md)
-- [MongoDB\Driver\Server::isArbiter
-»](mongodb-driver-server.isarbiter.md)
+- [« MongoDB\Driver\Server::getTags](mongodb-driver-server.gettags.md)
+- [MongoDB\Driver\Server::isArbiter »](mongodb-driver-server.isarbiter.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

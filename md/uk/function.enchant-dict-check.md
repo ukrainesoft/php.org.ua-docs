@@ -1,5 +1,5 @@
 - [«enchant_dict_add](function.enchant-dict-add.md)
-- [enchant_dict_describe »] (function.enchant-dict-describe.md)
+- [enchant_dict_describe »](function.enchant-dict-describe.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

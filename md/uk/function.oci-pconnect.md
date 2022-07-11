@@ -1,6 +1,5 @@
 - [«oci_password_change](function.oci-password-change.md)
-- [oci_register_taf_callback
-»](function.oci-register-taf-callback.md)
+- [oci_register_taf_callback »](function.oci-register-taf-callback.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)
@@ -29,8 +28,7 @@ int `$session_mode` u003d **`OCI_DEFAULT`**
 запити, в результаті знижуються накладні витрати при кожному завантаженні
 сторінки; типова програма PHP має одне постійне підключення до
 серверу PHP, реалізоване дочірнім процесом Apache (або процесом PHP
-FPM). Додаткову інформацію дивіться у розділі [Робота з
-з'єднаннями OCI8 та Connection Pooling](oci8.connection.md).
+FPM). Додаткову інформацію дивіться у розділі [Робота з з'єднаннями OCI8 та Connection Pooling](oci8.connection.md).
 
 ### Список параметрів
 
@@ -42,8 +40,7 @@ FPM). Додаткову інформацію дивіться у розділі
 
 `connection_string`
 Містить `примірник Oracle` для підключення. Це може бути [» Easy
-Connect
-string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
+Connect string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
 або Connect Name з файлу `tnsnames.ora`, або ім'я локального екземпляра
 Oracle.
 
@@ -55,9 +52,9 @@ Windows) і **`ORACLE_SID`** для визначення `примірника O
 Для використання методу Easy Connect, PHP повинен бути злінкований з
 клієнтські бібліотеки версії Oracle 10*g* або старші. Easy Connect
 string для Oracle 10*g* набуває такої форми:
-*\[//\]host_name\[:port\]\[/service_name\]*. Починаючи з Oracle 11*g*
+*[//]host_name[:port][/service_name]*. Починаючи з Oracle 11*g*
 синтаксис такий:
-*\[//\]host_name\[:port\]\[/service_name\]\[:server_type\]\[/instance_name\]*.
+*[//]host_name[:port][/service_name][:server_type][/instance_name]*.
 У Oracle 19c було введено додаткові параметри, включаючи налаштування
 часу очікування та перевірки активності. Зверніться до документації
 Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle

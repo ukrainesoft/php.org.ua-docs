@@ -1,6 +1,5 @@
 - [« snmp_read_mib](function.snmp-read-mib.md)
-- [snmp_set_oid_numeric_print
-»](function.snmp-set-oid-numeric-print.md)
+- [snmp_set_oid_numeric_print »](function.snmp-set-oid-numeric-print.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)

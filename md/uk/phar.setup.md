@@ -2,7 +2,7 @@
 - [Вимоги »](phar.requirements.md)
 
 - [PHP Manual](index.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування
@@ -12,4 +12,4 @@
 - [Вимоги](phar.requirements.md)
 - [Установка](phar.installation.md)
 - [Налаштування під час виконання](phar.configuration.md)
-- [Типи ресурсів] (phar.resources.md)
+- [Типи ресурсів](phar.resources.md)

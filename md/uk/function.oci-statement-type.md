@@ -1,6 +1,5 @@
 - [«oci_set_prefetch](function.oci-set-prefetch.md)
-- [oci_unregister_taf_callback
-»](function.oci-unregister-taf-callback.md)
+- [oci_unregister_taf_callback »](function.oci-unregister-taf-callback.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)

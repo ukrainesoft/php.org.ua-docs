@@ -1,6 +1,5 @@
 - [«mailparse_msg_create](function.mailparse-msg-create.md)
-- [mailparse_msg_extract_part
-»](function.mailparse-msg-extract-part.md)
+- [mailparse_msg_extract_part »](function.mailparse-msg-extract-part.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

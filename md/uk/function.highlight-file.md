@@ -63,5 +63,4 @@ AddType application/x-httpd-php-source .phps
 
 - [highlight_string()](function.highlight-string.md) - Підсвічування
 синтаксису рядка
-- [Підсвічування директив
-INI](misc.configuration.md#ini.syntax-highlighting)
+- [Підсвічування директив INI](misc.configuration.md#ini.syntax-highlighting)

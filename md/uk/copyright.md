@@ -9,8 +9,7 @@
 Авторські права © 1997 – 2022 належать групі документування PHP.
 Ці матеріали можуть бути поширені тільки на умовах та
 угоди, встановлені в ліцензії Creative Commons Attribution
-версії 3.0 або пізнішої. Копія ліцензії [Creative Commons
-Attribution 3.0](cc.license.md) поширюється разом із
+версії 3.0 або пізнішої. Копія ліцензії [Creative Commons Attribution 3.0](cc.license.md) поширюється разом із
 керівництвом. Остання на даний момент версія доступна за адресою
 [»http://creativecommons.org/licenses/by/3.0/](http://creativecommons.org/licenses/by/3.0/).
 

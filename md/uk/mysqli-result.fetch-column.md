@@ -1,6 +1,5 @@
 - [« mysqli_result::fetch_assoc](mysqli-result.fetch-assoc.md)
-- [mysqli_result::fetch_field_direct
-»](mysqli-result.fetch-field-direct.md)
+- [mysqli_result::fetch_field_direct »](mysqli-result.fetch-field-direct.md)
 
 - [PHP Manual](index.md)
 - [mysqli_result](class.mysqli-result.md)

@@ -1,7 +1,5 @@
-- [«
-stream_context_set_default](function.stream-context-set-default.md)
-- [stream_context_set_params
-»](function.stream-context-set-params.md)
+- [« stream_context_set_default](function.stream-context-set-default.md)
+- [stream_context_set_params »](function.stream-context-set-params.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)
@@ -36,8 +34,7 @@ string `$option`,
 Потік або ресурс контексту, до якого будуть використані опції.
 
 `wrapper`
-Ім'я обгортки (може відрізнятися від протоколу). Дивіться [опції та параметри
-контекста](context.md) для отримання списку параметрів потоку.
+Ім'я обгортки (може відрізнятися від протоколу). Дивіться [опції та параметри контекста](context.md) для отримання списку параметрів потоку.
 
 `option`
 Ім'я опції.
@@ -52,8 +49,7 @@ string `$option`,
 >
 > Параметр `options` повинен бути асоціативним масивом
 > масивів у форматі $arr['wrapper']['option'] u003d $value`.
->
-> Зверніться до розділу [Опції та параметри контексту](context.md),
+> > Зверніться до розділу [Опції та параметри контексту](context.md),
 > щоб отримати список опцій потоку.
 
 ### Значення, що повертаються

@@ -11,10 +11,8 @@
 - [Встановлення та налаштування](mysql-xdevapi.setup.md)
 - [Вимоги](mysql-xdevapi.requirements.md)
 - [Установка](mysql-xdevapi.installation.md)
-- [Налаштування під час
-виконання](mysql-xdevapi.configuration.md)
-- [Складання / Компіляція з вихідного
-коду](mysql-xdevapi.build.md)
+- [Налаштування під час виконання](mysql-xdevapi.configuration.md)
+- [Складання / Компіляція з вихідного коду](mysql-xdevapi.build.md)
 - [Предвизначені константи](mysql-xdevapi.constants.md)
 - [Список змін](changelog.mysql_xdevapi.md)
 - [Приклади](mysql-xdevapi.examples.md)

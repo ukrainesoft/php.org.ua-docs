@@ -1,5 +1,5 @@
 - [« Установка](stomp.installation.md)
-- [Типи ресурсів»] (stomp.resources.md)
+- [Типи ресурсів»](stomp.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](stomp.setup.md)

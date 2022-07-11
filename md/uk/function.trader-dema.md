@@ -1,5 +1,5 @@
 - [ trader_cosh](function.trader-cosh.md)
-- [trader_div »] (function.trader-div.md)
+- [trader_div »](function.trader-div.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

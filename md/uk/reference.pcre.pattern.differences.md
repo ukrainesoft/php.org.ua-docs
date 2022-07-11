@@ -1,6 +1,6 @@
 - [« Описує можливі модифікатори шаблонів Perl-сумісних
-регулярних виразів (PCRE)] (reference.pcre.pattern.modifiers.md)
-- [Функції PCRE»] (ref.pcre.md)
+регулярних виразів (PCRE)](reference.pcre.pattern.modifiers.md)
+- [Функції PCRE»](ref.pcre.md)
 
 - [PHP Manual](index.md)
 - [Регулярні висловлювання PCRE](pcre.pattern.md)

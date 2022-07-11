@@ -15,8 +15,7 @@
 - [Типи ресурсів](luasandbox.resources.md)
 - [Відмінності від стандартного Lua](reference.luasandbox.differences.md)
 - [Приклади](luasandbox.examples.md)
-- [Базове використання
-LuaSandbox](luasandbox.examples-basic.md)
+- [Базове використання LuaSandbox](luasandbox.examples-basic.md)
 - [LuaSandbox](class.luasandbox.md) - Клас LuaSandbox
 - [LuaSandbox::callFunction](luasandbox.callfunction.md)
 Викликає функцію у глобальній змінній Lua

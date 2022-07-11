@@ -1,5 +1,5 @@
 - [« Встановлення](dio.installation.md)
-- [Типи ресурсів»] (dio.resources.md)
+- [Типи ресурсів»](dio.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](dio.setup.md)

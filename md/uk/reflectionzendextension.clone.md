@@ -1,6 +1,5 @@
 - [« ReflectionZendExtension](class.reflectionzendextension.md)
-- [ReflectionZendExtension::\_\_construct
-»](reflectionzendextension.construct.md)
+- [ReflectionZendExtension::\_\_construct »](reflectionzendextension.construct.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

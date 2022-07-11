@@ -1,5 +1,4 @@
-- [«
-imap_rfc822_parse_headers](function.imap-rfc822-parse-headers.md)
+- [« imap_rfc822_parse_headers](function.imap-rfc822-parse-headers.md)
 - [imap_savebody »](function.imap-savebody.md)
 
 - [PHP Manual](index.md)

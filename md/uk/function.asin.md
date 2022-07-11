@@ -1,5 +1,5 @@
 - [«acosh](function.acosh.md)
-- [asinh »] (function.asinh.md)
+- [asinh »](function.asinh.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

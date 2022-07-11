@@ -1,7 +1,5 @@
-- [«
-SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md)
-- [SimpleXMLElement::getNamespaces
-»](simplexmlelement.getnamespaces.md)
+- [« SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md)
+- [SimpleXMLElement::getNamespaces »](simplexmlelement.getnamespaces.md)
 
 - [PHP Manual](index.md)
 - [SimpleXMLElement](class.simplexmlelement.md)

@@ -44,7 +44,7 @@ doc-рядку.
 
 #### Підтримка Argon2id
 
-З аргументом **--with-password-argon2\[u003ddir\]** скрипта configure тепер
+З аргументом **--with-password-argon2[u003ddir]** скрипта configure тепер
 підтримуються обидва хеші, як Argon2i, так і Argon2id, у функціях
 [password_hash()](function.password-hash.md),
 [password_verify()](function.password-verify.md),

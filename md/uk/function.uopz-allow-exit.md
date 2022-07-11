@@ -1,5 +1,5 @@
 - [«uopz_add_function](function.uopz-add-function.md)
-- [uopz_backup »] (function.uopz-backup.md)
+- [uopz_backup »](function.uopz-backup.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

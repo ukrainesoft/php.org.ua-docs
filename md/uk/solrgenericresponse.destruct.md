@@ -1,5 +1,4 @@
-- [«
-SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md)
+- [« SolrGenericResponse::\_\_construct](solrgenericresponse.construct.md)
 - [SolrParams »](class.solrparams.md)
 
 - [PHP Manual](index.md)

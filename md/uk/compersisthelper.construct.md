@@ -1,6 +1,5 @@
 - [« COMPersistHelper](class.compersisthelper.md)
-- [COMPersistHelper::GetCurFileName
-»](compersisthelper.getcurfilename.md)
+- [COMPersistHelper::GetCurFileName »](compersisthelper.getcurfilename.md)
 
 - [PHP Manual](index.md)
 - [COMPersistHelper](class.compersisthelper.md)

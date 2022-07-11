@@ -1,5 +1,5 @@
 - [«eio_read](function.eio-read.md)
-- [eio_readdir »] (function.eio-readdir.md)
+- [eio_readdir »](function.eio-readdir.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

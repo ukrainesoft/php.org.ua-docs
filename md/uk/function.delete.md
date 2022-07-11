@@ -1,5 +1,5 @@
 - [«copy](function.copy.md)
-- [dirname »] (function.dirname.md)
+- [dirname »](function.dirname.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

@@ -1,5 +1,4 @@
-- [«
-CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.md)
+- [« CollectionFind::lockShared](mysql-xdevapi-collectionfind.lockshared.md)
 - [CollectionFind::sort »](mysql-xdevapi-collectionfind.sort.md)
 
 - [PHP Manual](index.md)

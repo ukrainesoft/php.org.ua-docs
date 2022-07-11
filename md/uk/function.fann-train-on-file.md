@@ -1,5 +1,5 @@
 - [« fann_train_on_data](function.fann-train-on-data.md)
-- [fann_train »] (function.fann-train.md)
+- [fann_train »](function.fann-train.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

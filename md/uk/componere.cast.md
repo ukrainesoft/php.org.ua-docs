@@ -1,7 +1,6 @@
 - [« Функції Componere](reference.componere.md)
 - [Componer
-
-- [PHP Manual](index.md)
+ - [PHP Manual](index.md)
 - [Функції Componere](reference.componere.md)
 - Приведення до типу
 

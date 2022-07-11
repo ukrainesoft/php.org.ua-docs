@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros
-»](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getDurationMicros »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getdurationmicros.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring](mongodb.monitoring.md)

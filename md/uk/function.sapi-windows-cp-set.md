@@ -1,6 +1,5 @@
 - [« sapi_windows_cp_is_utf8](function.sapi-windows-cp-is-utf8.md)
-- [sapi_windows_generate_ctrl_event
-»](function.sapi-windows-generate-ctrl-event.md)
+- [sapi_windows_generate_ctrl_event »](function.sapi-windows-generate-ctrl-event.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

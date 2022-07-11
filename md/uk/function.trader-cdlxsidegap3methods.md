@@ -1,5 +1,4 @@
-- [«
-trader_cdlupsidegap2crows](function.trader-cdlupsidegap2crows.md)
+- [« trader_cdlupsidegap2crows](function.trader-cdlupsidegap2crows.md)
 - [trader_ceil »](function.trader-ceil.md)
 
 - [PHP Manual](index.md)

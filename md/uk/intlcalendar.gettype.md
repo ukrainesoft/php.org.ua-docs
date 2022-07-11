@@ -1,6 +1,5 @@
 - [« IntlCalendar::getTimeZone](intlcalendar.gettimezone.md)
-- [IntlCalendar::getWeekendTransition
-»](intlcalendar.getweekendtransition.md)
+- [IntlCalendar::getWeekendTransition »](intlcalendar.getweekendtransition.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)
@@ -23,8 +22,7 @@ public **IntlCalendar::getType**(): string
 **intlcal_get_type**([IntlCalendar](class.intlcalendar.md)
 `$calendar`): string
 
-Рядок, що описує тип календаря. Одне з [припустимих
-значень](intlcalendar.getkeywordvaluesforlocale.md) для значення
+Рядок, що описує тип календаря. Одне з [припустимих значень](intlcalendar.getkeywordvaluesforlocale.md) для значення
 ключового слова календаря ``calendar'`.
 
 ### Список параметрів

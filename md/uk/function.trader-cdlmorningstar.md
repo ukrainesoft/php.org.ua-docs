@@ -1,5 +1,4 @@
-- [«
-trader_cdlmorningdojistar](function.trader-cdlmorningdojistar.md)
+- [« trader_cdlmorningdojistar](function.trader-cdlmorningdojistar.md)
 - [trader_cdlonneck »](function.trader-cdlonneck.md)
 
 - [PHP Manual](index.md)

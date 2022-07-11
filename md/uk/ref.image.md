@@ -1,9 +1,8 @@
-- [« Використання imagecopymerge створити напівпрозорий водяний
-знак](image.examples.merged-watermark.md)
+- [« Використання imagecopymerge створити напівпрозорий водяний знак](image.examples.merged-watermark.md)
 - [gd_info »](function.gd-info.md)
 
 - [PHP Manual](index.md)
-- [GD] (book.image.md)
+- [GD](book.image.md)
 - Функції GD та функції для роботи із зображеннями
 
 # Функції GD та функції для роботи із зображеннями

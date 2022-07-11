@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::localtime](intldateformatter.localtime.md)
-- [IntlDateFormatter::setCalendar
-»](intldateformatter.setcalendar.md)
+- [IntlDateFormatter::setCalendar »](intldateformatter.setcalendar.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

@@ -1,6 +1,5 @@
 - [«Schema::getTable](mysql-xdevapi-schema.gettable.md)
-- [mysql_xdevapi\SchemaObject
-»](class.mysql-xdevapi-schemaobject.md)
+- [mysql_xdevapi\SchemaObject »](class.mysql-xdevapi-schemaobject.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)

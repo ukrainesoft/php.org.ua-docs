@@ -1,5 +1,4 @@
-- [«
-MultipleIterator::containsIterator](multipleiterator.containsiterator.md)
+- [« MultipleIterator::containsIterator](multipleiterator.containsiterator.md)
 - [MultipleIterator::current »](multipleiterator.current.md)
 
 - [PHP Manual](index.md)

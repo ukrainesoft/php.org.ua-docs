@@ -1,6 +1,5 @@
 - [« GearmanClient::doBackground](gearmanclient.dobackground.md)
-- [GearmanClient::doHighBackground
-»](gearmanclient.dohighbackground.md)
+- [GearmanClient::doHighBackground »](gearmanclient.dohighbackground.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

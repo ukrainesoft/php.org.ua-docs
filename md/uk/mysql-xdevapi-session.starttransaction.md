@@ -1,6 +1,5 @@
 - [« Session::sql](mysql-xdevapi-session.sql.md)
-- [mysql_xdevapi\SqlStatement
-»](class.mysql-xdevapi-sqlstatement.md)
+- [mysql_xdevapi\SqlStatement »](class.mysql-xdevapi-sqlstatement.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)

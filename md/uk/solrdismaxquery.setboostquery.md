@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.md)
-- [SolrDisMaxQuery::setMinimumMatch
-»](solrdismaxquery.setminimummatch.md)
+- [« SolrDisMaxQuery::setBoostFunction](solrdismaxquery.setboostfunction.md)
+- [SolrDisMaxQuery::setMinimumMatch »](solrdismaxquery.setminimummatch.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

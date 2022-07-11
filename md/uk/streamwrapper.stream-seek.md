@@ -1,6 +1,5 @@
 - [« streamWrapper::stream_read](streamwrapper.stream-read.md)
-- [streamWrapper::stream_set_option
-»](streamwrapper.stream-set-option.md)
+- [streamWrapper::stream_set_option »](streamwrapper.stream-set-option.md)
 
 - [PHP Manual](index.md)
 - [streamWrapper](class.streamwrapper.md)

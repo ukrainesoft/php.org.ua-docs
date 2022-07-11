@@ -1,5 +1,5 @@
 - [«parse_str](function.parse-str.md)
-- [printf»] (function.printf.md)
+- [printf»](function.printf.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -28,8 +28,7 @@ print — Виводить рядок
 
 `expression`
 Вираз висновку. Нестрокові значення будуть перетворені на рядки,
-навіть якщо [включено директиву
-`strict_types`](language.types.declarations.md#language.types.declarations.strict).
+навіть якщо [включено директиву `strict_types`](language.types.declarations.md#language.types.declarations.strict).
 
 ### Значення, що повертаються
 
@@ -62,9 +61,7 @@ print — Виводить рядок
 > ` <?phpif ( (print "привіт") && false ) {    print " - внутрі if";}else {    print " - внутрі else";}// | , вираз (print "привіт") обчислюється першим// після висновку "привіт" print повертає 1// оскільки 1 && false ложно, вивіт" вет& ||| print "мир" виконується в першу чергу,// тоді вираз "привіт" && 1 передається в ліву частина print(print "привіт ") && (print "мир");// ; круглі дужки примушують вираження print// виконуватися перед &&?> `
 
 > **Примітка**: Оскільки це мовна конструкція, а не функція, вона
-> не може викликатися за допомогою [змінних
-> функцій](functions.variable-functions.md) або [іменованих
-> аргументів](functions.arguments.md#functions.named-arguments).
+> не може викликатися за допомогою [змінних > функцій](functions.variable-functions.md) або [іменованих > аргументів](functions.arguments.md#functions.named-arguments).
 
 ### Дивіться також
 

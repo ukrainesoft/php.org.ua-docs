@@ -1,8 +1,8 @@
 - [« Типи ресурсів](url.resources.md)
-- [Функції URL»] (ref.url.md)
+- [Функції URL»](ref.url.md)
 
 - [PHP Manual](index.md)
-- [URL] (book.url.md)
+- [URL](book.url.md)
 - Обумовлені константи
 
 # Зумовлені константи
@@ -42,11 +42,9 @@
 [http_build_query()](function.http-build-query.md).
 
 **`PHP_QUERY_RFC1738`** (int)
-Кодування виконується відповідно до [» RFC
-1738](http://www.faqs.org/rfcs/rfc1738) та типом даних
+Кодування виконується відповідно до [» RFC 1738](http://www.faqs.org/rfcs/rfc1738) та типом даних
 `application/x-www-form-urlencoded`. Це означає, що прогалини
 замінюються символом плюс (`+`).
 
 **`PHP_QUERY_RFC3986`** (int)
-Кодування здійснюється відповідно до [»RFC
-3986](http://www.faqs.org/rfcs/rfc3986), і пробіли кодуються як `% 20`.
+Кодування здійснюється відповідно до [»RFC 3986](http://www.faqs.org/rfcs/rfc3986), і пробіли кодуються як `% 20`.

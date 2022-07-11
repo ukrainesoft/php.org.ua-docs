@@ -1,5 +1,4 @@
-- [« Статичні методи
-перерахувань](language.enumerations.static-methods.md)
+- [« Статичні методи перерахувань](language.enumerations.static-methods.md)
 - [Трейти »](language.enumerations.traits.md)
 
 - [PHP Manual](index.md)

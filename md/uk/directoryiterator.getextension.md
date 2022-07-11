@@ -1,6 +1,5 @@
 - [« DirectoryIterator::getCTime](directoryiterator.getctime.md)
-- [DirectoryIterator::getFilename
-»](directoryiterator.getfilename.md)
+- [DirectoryIterator::getFilename »](directoryiterator.getfilename.md)
 
 - [PHP Manual](index.md)
 - [DirectoryIterator](class.directoryiterator.md)

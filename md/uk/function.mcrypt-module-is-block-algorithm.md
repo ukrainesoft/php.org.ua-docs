@@ -1,7 +1,5 @@
-- [«
-mcrypt_module_is_block_algorithm_mode](function.mcrypt-module-is-block-algorithm-mode.md)
-- [mcrypt_module_is_block_mode
-»](function.mcrypt-module-is-block-mode.md)
+- [« mcrypt_module_is_block_algorithm_mode](function.mcrypt-module-is-block-algorithm-mode.md)
+- [mcrypt_module_is_block_mode »](function.mcrypt-module-is-block-mode.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

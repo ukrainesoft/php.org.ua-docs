@@ -1,5 +1,5 @@
 - [«chown](function.chown.md)
-- [Copy »] (function.copy.md)
+- [Copy »](function.copy.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::getClasses](reflectionextension.getclasses.md)
-- [ReflectionExtension::getConstants
-»](reflectionextension.getconstants.md)
+- [« ReflectionExtension::getClasses](reflectionextension.getclasses.md)
+- [ReflectionExtension::getConstants »](reflectionextension.getconstants.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

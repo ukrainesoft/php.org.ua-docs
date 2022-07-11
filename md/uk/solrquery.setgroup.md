@@ -1,6 +1,5 @@
 - [«SolrQuery::setFacetSort](solrquery.setfacetsort.md)
-- [SolrQuery::setGroupCachePercent
-»](solrquery.setgroupcachepercent.md)
+- [SolrQuery::setGroupCachePercent »](solrquery.setgroupcachepercent.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

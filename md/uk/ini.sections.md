@@ -20,8 +20,8 @@
 
 | Назва | Місце зміни | Історія змін
 |---------------------------------------------|--- --------------|-------------------|
-| [\[HOSTu003d\]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM | |
-| [\[PATHu003d\]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM | |
+| [[HOSTu003d]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM | |
+| [[PATHu003d]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM | |
 
 **Розділи**
 

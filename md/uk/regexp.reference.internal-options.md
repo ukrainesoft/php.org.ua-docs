@@ -2,8 +2,7 @@
 - [Підмаски »](regexp.reference.subpatterns.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Встановлення внутрішніх опцій
 
 ## Встановлення внутрішніх опцій

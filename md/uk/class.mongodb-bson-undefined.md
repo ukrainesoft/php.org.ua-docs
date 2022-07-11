@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Symbol::unserialize](mongodb-bson-symbol.unserialize.md)
-- [MongoDB\BSON\Undefined::\_\_construct
-»](mongodb-bson-undefined.construct.md)
+- [« MongoDB\BSON\Symbol::unserialize](mongodb-bson-symbol.unserialize.md)
+- [MongoDB\BSON\Undefined::\_\_construct »](mongodb-bson-undefined.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

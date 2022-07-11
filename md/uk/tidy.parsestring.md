@@ -2,7 +2,7 @@
 - [tidy::repairFile »](tidy.repairfile.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Розбір документа, що зберігається у рядку
 
 # tidy::parseString

@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)
-- [CollectionRemove::\_\_construct
-»](mysql-xdevapi-collectionremove.construct.md)
+- [« mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)
+- [CollectionRemove::\_\_construct »](mysql-xdevapi-collectionremove.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionRemove](class.mysql-xdevapi-collectionremove.md)

@@ -1,5 +1,4 @@
-- [«
-DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md)
+- [« DatabaseObject::getSession](mysql-xdevapi-databaseobject.getsession.md)
 - [DocResult::\_\_construct »](mysql-xdevapi-docresult.construct.md)
 
 - [PHP Manual](index.md)

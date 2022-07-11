@@ -1,5 +1,4 @@
-- [«
-ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
+- [« ReflectionAttribute::newInstance](reflectionattribute.newinstance.md)
 - [Reflector::export »](reflector.export.md)
 
 - [PHP Manual](index.md)

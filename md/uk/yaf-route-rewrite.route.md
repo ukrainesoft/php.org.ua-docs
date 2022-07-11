@@ -1,5 +1,4 @@
-- [«
-Yaf_Route_Rewrite::\_\_construct](yaf-route-rewrite.construct.md)
+- [« Yaf_Route_Rewrite::\_\_construct](yaf-route-rewrite.construct.md)
 - [Yaf_Router »](class.yaf-router.md)
 
 - [PHP Manual](index.md)

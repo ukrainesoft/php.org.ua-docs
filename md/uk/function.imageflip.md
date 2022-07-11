@@ -1,5 +1,5 @@
 - [«imagefilter](function.imagefilter.md)
-- [imagefontheight »] (function.imagefontheight.md)
+- [imagefontheight »](function.imagefontheight.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)
@@ -54,8 +54,7 @@ imageflip — Перевертає зображення за допомогою 
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Результат прикладу: Перевернуте по вертикалі
-зображення](images/21009b70229598c6a80eef8b45bf282b-imageflipvertical.png)
+![Результат прикладу: Перевернуте по вертикалі зображення](images/21009b70229598c6a80eef8b45bf282b-imageflipvertical.png)
 
 **Приклад #2 Перевертає зображення по горизонталі**
 
@@ -65,5 +64,4 @@ imageflip — Перевертає зображення за допомогою 
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Результат прикладу: Перевернуте по горизонталі
-зображення](images/21009b70229598c6a80eef8b45bf282b-imagefliphorizontal.png)
+![Результат прикладу: Перевернуте по горизонталі зображення](images/21009b70229598c6a80eef8b45bf282b-imagefliphorizontal.png)

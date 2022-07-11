@@ -1,8 +1,8 @@
-- [«SQLite (PDO)] (ref.pdo-sqlite.md)
+- [«SQLite (PDO)](ref.pdo-sqlite.md)
 - [PDO::sqliteCreateAggregate »](pdo.sqlitecreateaggregate.md)
 
 - [PHP Manual](index.md)
-- [SQLite (PDO)] (ref.pdo-sqlite.md)
+- [SQLite (PDO)](ref.pdo-sqlite.md)
 - З'єднання з базою даних SQLite
 
 #PDO_SQLITE DSN

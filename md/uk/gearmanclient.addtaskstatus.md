@@ -1,5 +1,4 @@
-- [«
-GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.md)
+- [« GearmanClient::addTaskLowBackground](gearmanclient.addtasklowbackground.md)
 - [GearmanClient::clearCallbacks »](gearmanclient.clearcallbacks.md)
 
 - [PHP Manual](index.md)

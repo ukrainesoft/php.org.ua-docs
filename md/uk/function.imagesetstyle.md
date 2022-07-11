@@ -1,5 +1,5 @@
 - [«imagesetpixel](function.imagesetpixel.md)
-- [imagesetthickness »] (function.imagesetthickness.md)
+- [imagesetthickness »](function.imagesetthickness.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

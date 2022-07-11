@@ -1,5 +1,4 @@
-- [«
-SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md)
+- [« SolrDocument::getChildDocumentsCount](solrdocument.getchilddocumentscount.md)
 - [SolrDocument::getFieldCount »](solrdocument.getfieldcount.md)
 
 - [PHP Manual](index.md)

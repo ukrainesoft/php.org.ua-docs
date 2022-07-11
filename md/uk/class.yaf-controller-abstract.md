@@ -1,6 +1,5 @@
 - [« Yaf_Config_Simple::valid](yaf-config-simple.valid.md)
-- [Yaf_Controller_Abstract::\_\_construct
-»](yaf-controller-abstract.construct.md)
+- [Yaf_Controller_Abstract::\_\_construct »](yaf-controller-abstract.construct.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

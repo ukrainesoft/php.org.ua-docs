@@ -14,5 +14,4 @@ Monitoring або APM)](mongodb.tutorial.apm.md)
 - [Постійні дані](mongodb.persistence.md) — Серіалізація та
 десеріалізація змінних PHP у MongoDB
 - [Серіалізація у BSON](mongodb.persistence.serialization.md)
-- [Десеріалізація з
-BSON](mongodb.persistence.deserialization.md)
+- [Десеріалізація з BSON](mongodb.persistence.deserialization.md)

@@ -10,44 +10,32 @@
 У цьому розділі зібрані найзагальніші помилки, що виникають на етапі
 збирання.
 
-1. [Я отримав останню версію PHP, використовуючи анонімний доступ до Git,
-але в ньому немає конфігураційного скрипта!] (#faq.build.configure)
+1. [Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але в ньому немає конфігураційного скрипта!](#faq.build.configure)
 2. [У мене виникають проблеми при конфігуруванні PHP для роботи з
-Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться
-точно там, де я сказав!] (#faq.build.configuring)
+Apache. Він каже, що не може знайти httpd.h, хоча файл знаходиться точно там, де я сказав!](#faq.build.configuring)
 3. [Під час конфігурації PHP (./configure) ви натрапляєте на
 помилку, подібну до наступної: checking lex output file root...
 ./configure: lex: command not found configure: error: cannot find
 output from lex; giving up](#faq.build.lex)
 4. [Коли я намагаюся запустити Apache, я отримую наступне повідомлення:
 fatal: relocation error: файл /path/to/libphp4.so: symbol
-ap_block_alarms: referenced symbol not
-found](#faq.build.apache-sharedcore)
+ap_block_alarms: referenced symbol not found](#faq.build.apache-sharedcore)
 5. [Коли я запускаю configure, він каже, що не може знайти файли
-include або бібліотеку для GD, gdbm або будь-якого іншого
-пакета!](#faq.build.not-found)
-6. [При компіляції файлу language-parser.tab.c мені видаються помилки,
-говорячі yytname undeclared.](#faq.build.yytname)
+include або бібліотеку для GD, gdbm або будь-якого іншого пакета!](#faq.build.not-found)
+6. [При компіляції файлу language-parser.tab.c мені видаються помилки, говорячі yytname undeclared.](#faq.build.yytname)
 7. [Коли я запускаю make, схоже, він виконується нормально, але на
-кінцевої лінківці скаржиться, що не може знайти деякі
-файли.](#faq.build.link)
-8. [При компонуванні PHP, він скаржиться на деякі невизначені
-посилання.](#faq.build.undefined)
+кінцевої лінківці скаржиться, що не може знайти деякі файли.](#faq.build.link)
+8. [При компонуванні PHP, він скаржиться на деякі невизначені посилання.](#faq.build.undefined)
 9. [Я слідував усім крокам по встановленню модульної версії для Apache на
-Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит
-зберегти файл.](#faq.build.not-running)
+Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит зберегти файл.](#faq.build.not-running)
 10. [У документації рекомендується використовувати:
 --activate-moduleu003dsrc/modules/php4/libphp4.a, але такий файл не
 існує, тому я замінив це на
---activate-moduleu003dsrc/modules/php4/libmodphp4.a і воно не працює!?
-Що відбувається?](#faq.build.activate-module)
+--activate-moduleu003dsrc/modules/php4/libmodphp4.a і воно не працює!? Що відбувається?](#faq.build.activate-module)
 11. [Коли я намагаюся зібрати Apache c PHP у вигляді статичного модуля,
-використовуючи --activate-moduleu003dsrc/modules/php4/libphp4.a він каже,
-що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
-12. [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую
-дивне повідомлення про помилку.](#faq.build.apxs)
-13. [Під час виконання make я дуже швидко отримую помилки та безліч
-всяких RUSAGE\_.](#faq.build.microtime)
+використовуючи --activate-moduleu003dsrc/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
+12. [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую дивне повідомлення про помилку.](#faq.build.apxs)
+13. [Під час виконання make я дуже швидко отримую помилки та безліч всяких RUSAGE\_.](#faq.build.microtime)
 14. [При компіляції PHP з MySQL, configure виконується нормально, але у
 час make я отримую помилку типу наступного:
 ext/mysql/libmysqlclient/my_tempnam.o(.text+0x46): In function
@@ -55,14 +43,12 @@ my_tempnam': /php4/ext/mysql/libmysqlclient/my_tempnam.c:103: the
 use of tempnam' is dangerous, better use mkstemp', у чому
 справа?](#faq.build.mysql.tempnam)
 15. [Я хочу оновити мій PHP. Де я можу знайти рядок ./configure,
-яка була використана для моєї поточної PHP
-установки?](#faq.build.upgrade)
+яка була використана для моєї поточної PHP установки?](#faq.build.upgrade)
 16. [Під час складання PHP з бібліотекою GD, або видаються дивні помилки
 компіляції, або помилки сегментації (segfaults) при
 виконанні.](#faq.build.gdlibs)
 17. [При компіляції PHP я, здається, отримую випадкові помилки, наприклад
-вона зависає. Я використовую Solaris, якщо це має
-значення.](#faq.installation.needgnu)
+вона зависає. Я використовую Solaris, якщо це має значення.](#faq.installation.needgnu)
 
 **Я отримав останню версію PHP, використовуючи анонімний доступ до Git, але немає конфігураційного скрипта!**
 Вам потрібний встановлений пакет GNU autoconf для того, щоб згенерувати
@@ -110,8 +96,7 @@ symbol ap_block_alarms: referenced symbol not found
 --enable-sharedu003dmax --enable-ruleu003dSHARED_CORE
 
 Для більш детальної інформації читайте файл `INSTALL` у директорії
-верхнього рівня або [»  сторінку керівництва Apache по
-DSO](http://httpd.apache.org/docs/current/dso.md).
+верхнього рівня або [»  сторінку керівництва Apache по DSO](http://httpd.apache.org/docs/current/dso.md).
 
 **Коли я запускаю configure, він каже, що не може знайти файли include або бібліотеку для GD, gdbm або іншого пакета!**
 Ви можете зробити так, що скрипт configure буде шукати файли
@@ -295,7 +280,4 @@ $ gcc -E test.c >/dev/null
 проблеми. Щоб бути впевненим, що компіляція PHP працюватиме,
 використовуйте утиліти GNU. Наприклад, у Solaris, використання SunOS
 BSD-сумісної або Solaris версії `sed` не буде працювати, а GNU або
-Sun POSIX (xpg4) версії `sed` буде. Посилання: [»GNU
-sed](http://www.gnu.org/software/sed/sed.md), [» GNU
-flex](http://www.gnu.org/software/flex/flex.md), and [» GNU
-bison](http://www.gnu.org/software/bison/bison.md).
+Sun POSIX (xpg4) версії `sed` буде. Посилання: [»GNU sed](http://www.gnu.org/software/sed/sed.md), [» GNU flex](http://www.gnu.org/software/flex/flex.md), and [» GNU bison](http://www.gnu.org/software/bison/bison.md).

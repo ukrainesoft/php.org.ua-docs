@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.md)
-- [MongoDB\Driver\ReadConcern::isDefault
-»](mongodb-driver-readconcern.isdefault.md)
+- [« MongoDB\Driver\ReadConcern::\_\_construct](mongodb-driver-readconcern.construct.md)
+- [MongoDB\Driver\ReadConcern::isDefault »](mongodb-driver-readconcern.isdefault.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
@@ -46,5 +44,4 @@ string(8) "majority"
 
 ### Дивіться також
 
-- [» Довідка за гарантіями
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

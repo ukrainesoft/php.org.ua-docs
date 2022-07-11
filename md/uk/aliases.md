@@ -1,5 +1,5 @@
 - [« За станом](extensions.state.md)
-- [Список зарезервованих слів»] (reserved.md)
+- [Список зарезервованих слів»](reserved.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)

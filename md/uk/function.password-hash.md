@@ -14,7 +14,7 @@ password_hash - Створює хеш пароля
 ### Опис
 
 **password_hash**(string `$password`, string\|int\|null `$algo`, array
-`$options` u003d \[\]): string
+`$options` u003d []): string
 
 **password_hash()** створює хеш пароля використовуючи сильний, необоротний
 алгоритм хешування.
@@ -96,8 +96,7 @@ Argon2.
 
 `options`
 Асоціативний масив із опціями. За документацією щодо підтримуваних
-опціям для кожного алгоритму зверніться до розділу [Константи алгоритмів
-хешування паролів](password.constants.md).
+опціям для кожного алгоритму зверніться до розділу [Константи алгоритмів хешування паролів](password.constants.md).
 
 Якщо не задано, то буде використано стандартну вартість і сіль буде
 генеруватися автоматично.
@@ -200,7 +199,6 @@ $2y$12$QjSH496pcT5CEbzjD/vtVeH03tfHKFy36d4J0Ltp3lRtee9HDxY3K
 - [password_verify()](function.password-verify.md) - Перевіряє,
 чи відповідає пароль хешу
 - [crypt()](function.crypt.md) - Необоротне хешування рядка
-- [» Користувацька
-реалізація](https://github.com/ircmaxell/password_compat)
+- [» Користувацька реалізація](https://github.com/ircmaxell/password_compat)
 - [sodium_crypto_pwhash_str()](function.sodium-crypto-pwhash-str.md) -
 Отримати ASCII-кодований хеш

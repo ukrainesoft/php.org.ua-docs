@@ -1,5 +1,4 @@
-- [« Складові всіх Phar-архівів незалежно від формату
-файла](phar.fileformat.ingredients.md)
+- [« Складові всіх Phar-архівів незалежно від формату файла](phar.fileformat.ingredients.md)
 - [Порівняння Phar, Tar та Zip »](phar.fileformat.comparison.md)
 
 - [PHP Manual](index.md)

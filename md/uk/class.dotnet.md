@@ -2,7 +2,7 @@
 - [dotnet::\_\_construct »](dotnet.construct.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Клас dotnet
 
 # Клас dotnet
@@ -13,8 +13,7 @@
 
 Клас dotnet дозволяє створювати об'єкти зі збірок .Net, викликати їх
 методи і використовувати їх властивості, якщо клас, методи та властивості
-[» видимі для
-COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute).
+[» видимі для COM](https://docs.microsoft.com/dotnet/api/system.runtime.interopservices.comvisibleattribute).
 
 Ні створення екземплярів статичних класів, ні виклик статичних
 методів не підтримуються. Створення екземплярів універсальних класів,

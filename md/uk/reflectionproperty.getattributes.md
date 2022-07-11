@@ -1,6 +1,5 @@
 - [« ReflectionProperty::export](reflectionproperty.export.md)
-- [ReflectionProperty::getDeclaringClass
-»](reflectionproperty.getdeclaringclass.md)
+- [ReflectionProperty::getDeclaringClass »](reflectionproperty.getdeclaringclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

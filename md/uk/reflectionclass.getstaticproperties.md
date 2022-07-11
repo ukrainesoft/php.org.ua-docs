@@ -1,6 +1,5 @@
 - [« ReflectionClass::getStartLine](reflectionclass.getstartline.md)
-- [ReflectionClass::getStaticPropertyValue
-»](reflectionclass.getstaticpropertyvalue.md)
+- [ReflectionClass::getStaticPropertyValue »](reflectionclass.getstaticpropertyvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

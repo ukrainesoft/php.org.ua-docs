@@ -1,6 +1,5 @@
 - [«SVM::train](svm.train.md)
-- [SVMModel::checkProbabilityModel
-»](svmmodel.checkprobabilitymodel.md)
+- [SVMModel::checkProbabilityModel »](svmmodel.checkprobabilitymodel.md)
 
 - [PHP Manual](index.md)
 - [SVM](book.svm.md)

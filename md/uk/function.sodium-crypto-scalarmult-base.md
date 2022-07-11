@@ -1,6 +1,5 @@
 - [« sodium_crypto_pwhash](function.sodium-crypto-pwhash.md)
-- [sodium_crypto_scalarmult_ristretto255_base
-»](function.sodium-crypto-scalarmult-ristretto255-base.md)
+- [sodium_crypto_scalarmult_ristretto255_base »](function.sodium-crypto-scalarmult-ristretto255-base.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

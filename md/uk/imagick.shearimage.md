@@ -1,6 +1,5 @@
 - [« Imagick::shaveImage](imagick.shaveimage.md)
-- [Imagick::sigmoidalContrastImage
-»](imagick.sigmoidalcontrastimage.md)
+- [Imagick::sigmoidalContrastImage »](imagick.sigmoidalcontrastimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

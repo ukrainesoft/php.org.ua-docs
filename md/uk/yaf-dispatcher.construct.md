@@ -1,5 +1,4 @@
-- [«
-Yaf_Dispatcher::catchException](yaf-dispatcher.catchexception.md)
+- [« Yaf_Dispatcher::catchException](yaf-dispatcher.catchexception.md)
 - [Yaf_Dispatcher::disableView »](yaf-dispatcher.disableview.md)
 
 - [PHP Manual](index.md)

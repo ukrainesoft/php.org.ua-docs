@@ -1,5 +1,4 @@
-- [« Варіант 3: використання опцій doc_root або
-user_dir](security.cgi-bin.doc-root.md)
+- [« Варіант 3: використання опцій doc_root або user_dir](security.cgi-bin.doc-root.md)
 - [Якщо PHP встановлено як модуль Apache »](security.apache.md)
 
 - [PHP Manual](index.md)

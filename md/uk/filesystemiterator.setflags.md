@@ -20,8 +20,7 @@ public **FilesystemIterator::setFlags**(int `$flags`): void
 ### Список параметрів
 
 `flags`
-Прапори, які потрібно встановити. Дивіться [Константи
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+Прапори, які потрібно встановити. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
 
 ### Значення, що повертаються
 

@@ -1,5 +1,5 @@
 - [« Установка](gearman.installation.md)
-- [Типи ресурсів»] (gearman.resources.md)
+- [Типи ресурсів»](gearman.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](gearman.setup.md)

@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_generichash_init](function.sodium-crypto-generichash-init.md)
-- [sodium_crypto_generichash_update
-»](function.sodium-crypto-generichash-update.md)
+- [« sodium_crypto_generichash_init](function.sodium-crypto-generichash-init.md)
+- [sodium_crypto_generichash_update »](function.sodium-crypto-generichash-update.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

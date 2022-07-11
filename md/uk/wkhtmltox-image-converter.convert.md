@@ -1,7 +1,5 @@
-- [«
-wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)
-- [wkhtmltox\Image\Converter::getVersion
-»](wkhtmltox-image-converter.getversion.md)
+- [« wkhtmltox\Image\Converter::\_\_construct](wkhtmltox-image-converter.construct.md)
+- [wkhtmltox\Image\Converter::getVersion »](wkhtmltox-image-converter.getversion.md)
 
 - [PHP Manual](index.md)
 - [wkhtmltox\Image\Converter](class.wkhtmltox-image-converter.md)

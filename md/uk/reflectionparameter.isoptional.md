@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
-- [ReflectionParameter::isPassedByReference
-»](reflectionparameter.ispassedbyreference.md)
+- [« ReflectionParameter::isDefaultValueConstant](reflectionparameter.isdefaultvalueconstant.md)
+- [ReflectionParameter::isPassedByReference »](reflectionparameter.ispassedbyreference.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

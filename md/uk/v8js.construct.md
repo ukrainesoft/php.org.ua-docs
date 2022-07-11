@@ -1,4 +1,4 @@
-- [« V8Js] (class.v8js.md)
+- [« V8Js](class.v8js.md)
 - [V8Js::executeString »](v8js.executestring.md)
 
 - [PHP Manual](index.md)

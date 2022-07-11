@@ -1,5 +1,4 @@
-- [«
-ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md)
+- [« ReflectionClassConstant::\_\_toString](reflectionclassconstant.tostring.md)
 - [ReflectionEnum::\_\_construct »](reflectionenum.construct.md)
 
 - [PHP Manual](index.md)
@@ -237,10 +236,9 @@ public
 
 public
 [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` u003d \[\]): ?object
+`$args` u003d []): ?object
 
-public
-[ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
+public [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
 object
 
 public

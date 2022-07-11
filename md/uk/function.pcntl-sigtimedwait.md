@@ -15,7 +15,7 @@ pcntl_sigtimedwait — Очікує сигнали протягом задано
 
 **pcntl_sigtimedwait**(
 array `$signals`,
-array `&$info` u003d \[\],
+array `&$info` u003d [],
 int `$seconds` u003d 0,
 int `$nanoseconds` u003d 0
 ): int\|false

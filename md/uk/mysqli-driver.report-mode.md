@@ -1,5 +1,4 @@
-- [«
-mysqli_driver::embedded_server_start](mysqli-driver.embedded-server-start.md)
+- [« mysqli_driver::embedded_server_start](mysqli-driver.embedded-server-start.md)
 - [mysqli_warning »](class.mysqli-warning.md)
 
 - [PHP Manual](index.md)

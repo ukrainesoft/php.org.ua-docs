@@ -1,5 +1,4 @@
-- [«
-snmp_set_oid_output_format](function.snmp-set-oid-output-format.md)
+- [« snmp_set_oid_output_format](function.snmp-set-oid-output-format.md)
 - [snmp_set_valueretrieval »](function.snmp-set-valueretrieval.md)
 
 - [PHP Manual](index.md)

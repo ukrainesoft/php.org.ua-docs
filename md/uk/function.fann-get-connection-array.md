@@ -1,5 +1,4 @@
-- [«
-fann_get_cascade_weight_multiplier](function.fann-get-cascade-weight-multiplier.md)
+- [« fann_get_cascade_weight_multiplier](function.fann-get-cascade-weight-multiplier.md)
 - [fann_get_connection_rate »](function.fann-get-connection-rate.md)
 
 - [PHP Manual](index.md)

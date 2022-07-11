@@ -1,5 +1,5 @@
 - [« trader_linearreg_slope](function.trader-linearreg-slope.md)
-- [trader_ln »] (function.trader-ln.md)
+- [trader_ln »](function.trader-ln.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

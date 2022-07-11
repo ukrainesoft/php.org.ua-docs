@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\Heading::\_\_construct](commonmark-node-heading.construct.md)
-- [CommonMark\Node\BlockQuote
-»](class.commonmark-node-blockquote.md)
+- [« CommonMark\Node\Heading::\_\_construct](commonmark-node-heading.construct.md)
+- [CommonMark\Node\BlockQuote »](class.commonmark-node-blockquote.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

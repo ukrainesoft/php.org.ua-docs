@@ -48,8 +48,7 @@ int `$offset` u003d 0,
 >
 > Можна використовувати константу **`FILE_USE_INCLUDE_PATH`** для пошуку
 > файлу [include path](ini.core.md#ini.include-path). Тільки
-> пам'ятайте, що якщо ви використовуєте [сувору
-> типізацію](language.types.declarations.md#language.types.declarations.strict),
+> пам'ятайте, що якщо ви використовуєте [сувору > типізацію](language.types.declarations.md#language.types.declarations.strict),
 > то так зробити не вийде, оскільки **`FILE_USE_INCLUDE_PATH`**
 > має тип int. У такому разі використовуйте **`true`**.
 
@@ -82,9 +81,7 @@ int `$offset` u003d 0,
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки
@@ -136,13 +133,11 @@ Cookie:foou003dbar
 **Підказка**
 
 Для цієї функції ви можете використовувати URL як ім'я файлу, якщо
-була включена опція [fopen
-wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
+була включена опція [fopen wrappers](filesystem.configuration.md#ini.allow-url-fopen). Дивіться
 докладнішу інформацію про визначення імені файлу в описі функції
 [fopen()](function.fopen.md). Дивіться також список підтримуваних
 оберток URL, їх можливості, зауваження щодо використання та список
-визначених констант у розділі [Підтримувані протоколи та
-обертки](wrappers.md).
+визначених констант у розділі [Підтримувані протоколи та обертки](wrappers.md).
 
 **Увага**
 

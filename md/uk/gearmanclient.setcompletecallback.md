@@ -1,5 +1,4 @@
-- [«
-GearmanClient::setClientCallback](gearmanclient.setclientcallback.md)
+- [« GearmanClient::setClientCallback](gearmanclient.setclientcallback.md)
 - [GearmanClient::setContext »](gearmanclient.setcontext.md)
 
 - [PHP Manual](index.md)

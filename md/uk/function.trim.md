@@ -1,5 +1,5 @@
 - [«substr](function.substr.md)
-- [ucfirst »] (function.ucfirst.md)
+- [ucfirst »](function.ucfirst.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -14,7 +14,8 @@ trim — Видалення пробілів (або інших символів
 ### Опис
 
 **trim**(string `$string`, string `$characters` u003d "
-\x00"):
+
+\x00"):
 string
 
 Ця функція повертає рядок `string` з віддаленими з початку та кінця
@@ -25,7 +26,8 @@ string
 - "" (ASCII `9` (`0x09`)), символ табуляції.
 - "
 (ASCII `10` (`0x0A`)), символ перекладу рядка.
-- "(ASCII `13` (`0x0D`)), символ повернення каретки.
+- "
+(ASCII `13` (`0x0D`)), символ повернення каретки.
 - "" (ASCII `0` (`0x00`)), `NUL`-байт.
 - "" (ASCII `11` (`0x0B`)), вертикальна табуляція.
 

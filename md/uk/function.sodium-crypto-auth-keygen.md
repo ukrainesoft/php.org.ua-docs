@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_aead_xchacha20poly1305_ietf_keygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md)
-- [sodium_crypto_auth_verify
-»](function.sodium-crypto-auth-verify.md)
+- [« sodium_crypto_aead_xchacha20poly1305_ietf_keygen](function.sodium-crypto-aead-xchacha20poly1305-ietf-keygen.md)
+- [sodium_crypto_auth_verify »](function.sodium-crypto-auth-verify.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

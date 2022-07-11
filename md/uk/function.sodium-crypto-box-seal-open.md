@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_box_publickey](function.sodium-crypto-box-publickey.md)
+- [« sodium_crypto_box_publickey](function.sodium-crypto-box-publickey.md)
 - [sodium_crypto_box_seal »](function.sodium-crypto-box-seal.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
-- [MongoDB\BSON\UTCDateTimeInterface::\_\_toString
-»](mongodb-bson-utcdatetimeinterface.tostring.md)
+- [« MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)
+- [MongoDB\BSON\UTCDateTimeInterface::\_\_toString »](mongodb-bson-utcdatetimeinterface.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md)

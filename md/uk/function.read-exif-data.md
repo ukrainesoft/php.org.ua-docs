@@ -1,5 +1,5 @@
 - [«exif_thumbnail](function.exif-thumbnail.md)
-- [GD »] (book.image.md)
+- [GD »](book.image.md)
 
 - [PHP Manual](index.md)
 - [Exif Функції](ref.exif.md)

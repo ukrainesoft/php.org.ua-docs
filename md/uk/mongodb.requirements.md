@@ -15,8 +15,7 @@
 [» libbson](https://github.com/mongodb/mongo-c-driver/tree/master/src/libbson)
 і [» libmongoc](https://github.com/mongodb/mongo-c-driver), і по
 за замовчуванням він використовуватиме їх вбудовані версії. Також можна
-використовувати системні бібліотеки, як описано в документації з [складання
-з вихідного коду](mongodb.installation.manual.md).
+використовувати системні бібліотеки, як описано в документації з [складання з вихідного коду](mongodb.installation.manual.md).
 
 Драйвер через libmongoc, необов'язково залежить від бібліотеки TLS
 (наприклад, OpenSSL) і використовуватиме її, якщо вона доступна. Якщо
@@ -24,8 +23,7 @@
 перевірити, що відповідний пакет розробки (наприклад, `libssl-dev`)
 та [»pkg-config](https://en.wikipedia.org/wiki/Pkg-config) встановлено.
 Процес виявлення та налаштування бібліотек TLS докладніше описаний у
-документації по [складання з вихідного
-коду](mongodb.installation.manual.md).
+документації по [складання з вихідного коду](mongodb.installation.manual.md).
 
 [» Cyrus SASL](http://cyrusimap.org/) - це необов'язкова залежність
 для підтримки аутентифікації Kerberos, яка буде використовуватись,

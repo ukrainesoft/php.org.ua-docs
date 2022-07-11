@@ -1,6 +1,5 @@
 - [«enchant_dict_get_error](function.enchant-dict-get-error.md)
-- [enchant_dict_is_in_session
-»](function.enchant-dict-is-in-session.md)
+- [enchant_dict_is_in_session »](function.enchant-dict-is-in-session.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

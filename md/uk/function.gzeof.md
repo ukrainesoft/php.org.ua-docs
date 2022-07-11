@@ -1,5 +1,5 @@
 - [«gzencode](function.gzencode.md)
-- [gzfile »] (function.gzfile.md)
+- [gzfile »](function.gzfile.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

@@ -1,5 +1,5 @@
 - [«dio_read](function.dio-read.md)
-- [dio_stat »] (function.dio-stat.md)
+- [dio_stat »](function.dio-stat.md)
 
 - [PHP Manual](index.md)
 - [Функції прямого введення/виводу](ref.dio.md)

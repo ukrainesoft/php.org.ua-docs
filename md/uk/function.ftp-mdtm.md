@@ -1,5 +1,5 @@
 - [«ftp_login](function.ftp-login.md)
-- [ftp_mkdir »] (function.ftp-mkdir.md)
+- [ftp_mkdir »](function.ftp-mkdir.md)
 
 - [PHP Manual](index.md)
 - [Функції FTP](ref.ftp.md)

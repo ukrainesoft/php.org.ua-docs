@@ -1,5 +1,5 @@
 - [«imagecopyresampled](function.imagecopyresampled.md)
-- [imagecreate »] (function.imagecreate.md)
+- [imagecreate »](function.imagecreate.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)
@@ -96,8 +96,7 @@ y-координата вихідного зображення.
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Висновок прикладу: Зміна розміру
-зображення](images/21009b70229598c6a80eef8b45bf282b-imagecopyresized.jpg)
+![Висновок прикладу: Зміна розміру зображення](images/21009b70229598c6a80eef8b45bf282b-imagecopyresized.jpg)
 
 Зображення буде відображено зі зменшеним розміром. Якщо необхідно
 отримати зображення у найкращій якості, використовуйте функцію

@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md)
-- [ReflectionFunctionAbstract::hasTentativeReturnType
-»](reflectionfunctionabstract.hastentativereturntype.md)
+- [« ReflectionFunctionAbstract::getTentativeReturnType](reflectionfunctionabstract.gettentativereturntype.md)
+- [ReflectionFunctionAbstract::hasTentativeReturnType »](reflectionfunctionabstract.hastentativereturntype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

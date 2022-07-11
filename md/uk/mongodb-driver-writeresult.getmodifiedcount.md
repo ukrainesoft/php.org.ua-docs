@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.md)
-- [MongoDB\Driver\WriteResult::getServer
-»](mongodb-driver-writeresult.getserver.md)
+- [« MongoDB\Driver\WriteResult::getMatchedCount](mongodb-driver-writeresult.getmatchedcount.md)
+- [MongoDB\Driver\WriteResult::getServer »](mongodb-driver-writeresult.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)

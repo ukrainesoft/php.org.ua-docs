@@ -12,8 +12,7 @@
 
 Стовпець "Місце зміни" показує коли і де може бути встановлена
 директиви. Для отримання інформації про значення цих директив дивіться
-розділ ["Де може бути встановлена
-директива?"](configuration.changes.modes.md).
+розділ ["Де може бути встановлена директива?"](configuration.changes.modes.md).
 
 | Ім'я За замовчуванням | Місце зміни | Список змін |
 |------------------------------------------------- -------------------------------------------------- ------------|------------------------------------- ---------|------------------|--------------------- -------------------------------------------------- -----------------------|
@@ -334,8 +333,7 @@
 | [session.cache_expire](session.configuration.md#ini.session.cache-expire) | "180" | PHP_INI_ALL | |
 | [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid) | "0" | PHP_INI_ALL | |
 | [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags) | "au003dhref,areau003dhref,frameu003dsrc,formu003d" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
+| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHP_INI_ALL | Доступна з PHP 7.1.0. | | [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
 | [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character) | "4" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
 | [session.upload_progress.enabled](session.configuration.md#ini.session.upload-progress.enabled) | "1" | PHP_INI_PERDIR | |
 | [session.upload_progress.cleanup](session.configuration.md#ini.session.upload-progress.cleanup) | "1" | PHP_INI_PERDIR | |

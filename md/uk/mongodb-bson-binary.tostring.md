@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Binary::serialize](mongodb-bson-binary.serialize.md)
-- [MongoDB\BSON\Binary::unserialize
-»](mongodb-bson-binary.unserialize.md)
+- [« MongoDB\BSON\Binary::serialize](mongodb-bson-binary.serialize.md)
+- [MongoDB\BSON\Binary::unserialize »](mongodb-bson-binary.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
@@ -43,5 +41,4 @@ string(3) "foo"
 
 - [MongoDB\BSON\Binary::getData()](mongodb-bson-binary.getdata.md) -
 Повертає дані Binary
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

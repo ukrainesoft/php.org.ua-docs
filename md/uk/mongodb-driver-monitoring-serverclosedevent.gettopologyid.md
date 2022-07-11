@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerOpeningEvent
-»](class.mongodb-driver-monitoring-serveropeningevent.md)
+- [« MongoDB\Driver\Monitoring\ServerClosedEvent::getPort](mongodb-driver-monitoring-serverclosedevent.getport.md)
+- [MongoDB\Driver\Monitoring\ServerOpeningEvent »](class.mongodb-driver-monitoring-serveropeningevent.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerClosedEvent](class.mongodb-driver-monitoring-serverclosedevent.md)

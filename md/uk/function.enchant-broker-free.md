@@ -1,6 +1,5 @@
 - [«enchant_broker_free_dict](function.enchant-broker-free-dict.md)
-- [enchant_broker_get_dict_path
-»](function.enchant-broker-get-dict-path.md)
+- [enchant_broker_get_dict_path »](function.enchant-broker-get-dict-path.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

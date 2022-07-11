@@ -1,6 +1,5 @@
 - [« UI\Draw\Brush::setColor](ui-draw-brush.setcolor.md)
-- [UI\Draw\Brush\Gradient::addStop
-»](ui-draw-brush-gradient.addstop.md)
+- [UI\Draw\Brush\Gradient::addStop »](ui-draw-brush-gradient.addstop.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

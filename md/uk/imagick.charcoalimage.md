@@ -1,5 +1,4 @@
-- [«
-Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md)
+- [« Imagick::brightnessContrastImage](imagick.brightnesscontrastimage.md)
 - [Imagick::chopImage »](imagick.chopimage.md)
 
 - [PHP Manual](index.md)

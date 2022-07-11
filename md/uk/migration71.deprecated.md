@@ -1,5 +1,4 @@
-- [« Зміни, що ламають зворотну
-сумісність](migration71.incompatible.md)
+- [« Зміни, що ламають зворотну сумісність](migration71.incompatible.md)
 - [Змінені функції »](migration71.changed-functions.md)
 
 - [PHP Manual](index.md)

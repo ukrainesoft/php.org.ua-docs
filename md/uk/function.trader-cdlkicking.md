@@ -1,6 +1,5 @@
 - [« trader_cdlinvertedhammer](function.trader-cdlinvertedhammer.md)
-- [trader_cdlkickingbylength
-»](function.trader-cdlkickingbylength.md)
+- [trader_cdlkickingbylength »](function.trader-cdlkickingbylength.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

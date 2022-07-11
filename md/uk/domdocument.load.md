@@ -31,8 +31,7 @@ public **DOMDocument::load**(string `$filename`, int `$options` u003d 0):
 Шлях до документа XML.
 
 `options`
-[Побітове `АБО`](language.operators.bitwise.md) [констант опцій
-libxml] (libxml.constants.md).
+[Побітове `АБО`](language.operators.bitwise.md) [констант опцій libxml](libxml.constants.md).
 
 ### Значення, що повертаються
 

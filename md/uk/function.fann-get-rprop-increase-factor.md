@@ -1,7 +1,5 @@
-- [«
-fann_get_rprop_delta_zero](function.fann-get-rprop-delta-zero.md)
-- [fann_get_sarprop_step_error_shift
-»](function.fann-get-sarprop-step-error-shift.md)
+- [« fann_get_rprop_delta_zero](function.fann-get-rprop-delta-zero.md)
+- [fann_get_sarprop_step_error_shift »](function.fann-get-sarprop-step-error-shift.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

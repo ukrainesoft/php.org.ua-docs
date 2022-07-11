@@ -1,7 +1,5 @@
-- [«
-SolrIllegalOperationException](class.solrillegaloperationexception.md)
-- [SolrMissingMandatoryParameterException
-»](class.solrmissingmandatoryparameterexception.md)
+- [« SolrIllegalOperationException](class.solrillegaloperationexception.md)
+- [SolrMissingMandatoryParameterException »](class.solrmissingmandatoryparameterexception.md)
 
 - [PHP Manual](index.md)
 - [SolrIllegalOperationException](class.solrillegaloperationexception.md)

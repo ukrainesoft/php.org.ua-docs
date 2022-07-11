@@ -1,5 +1,5 @@
 - [«win32_start_service](function.win32-start-service.md)
-- [Обробка XML»] (refs.xml.md)
+- [Обробка XML»](refs.xml.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)
@@ -51,7 +51,7 @@ void
 |-------------------------|----------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ---|
 | PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**. |
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |
-| PECL win32service 1.0.0 Тип повертається значення void, раніше був [mixed] (language.types.declarations.md#language.types.declarations.mixed). |
+| PECL win32service 1.0.0 Тип повертається значення void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed). |
 | PECL win32service 0.3.0 | Ця функція більше не потребує привілею адміністратора, якщо для користувача, що використовується, коректно настроєно ACL. |
 
 ### Дивіться також

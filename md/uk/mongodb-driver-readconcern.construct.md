@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md)
-- [MongoDB\Driver\ReadConcern::getLevel
-»](mongodb-driver-readconcern.getlevel.md)
+- [« MongoDB\Driver\ReadConcern::bsonSerialize](mongodb-driver-readconcern.bsonserialize.md)
+- [MongoDB\Driver\ReadConcern::getLevel »](mongodb-driver-readconcern.getlevel.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
@@ -25,10 +23,8 @@ final public **MongoDB\Driver\ReadConcern::\_\_construct**(string
 ### Список параметрів
 
 `level`
-[» Рівень гарантій
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels).
-Ви можете використовувати, але не обмежуючись цим, одну з [констант
-класу](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants).
+[» Рівень гарантій читання](https://www.mongodb.com/docs/manual/reference/read-concern/#read-concern-levels).
+Ви можете використовувати, але не обмежуючись цим, одну з [констант класу](class.mongodb-driver-readconcern.md#mongodb-driver-readconcern.constants).
 
 ### Помилки
 
@@ -44,5 +40,4 @@ final public **MongoDB\Driver\ReadConcern::\_\_construct**(string
 
 ### Дивіться також
 
-- [» Довідка за гарантіями
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

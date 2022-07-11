@@ -1,5 +1,5 @@
 - [« ImagickKernel::separate](imagickkernel.separate.md)
-- [IMAP »] (book.imap.md)
+- [IMAP »](book.imap.md)
 
 - [PHP Manual](index.md)
 - [Довідник функцій](funcref.md)

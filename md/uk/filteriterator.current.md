@@ -1,6 +1,5 @@
 - [« FilterIterator::\_\_construct](filteriterator.construct.md)
-- [FilterIterator::getInnerIterator
-»](filteriterator.getinneriterator.md)
+- [FilterIterator::getInnerIterator »](filteriterator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [FilterIterator](class.filteriterator.md)

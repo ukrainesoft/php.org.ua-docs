@@ -59,7 +59,7 @@ int `$family` u003d EventUtil::AF_UNSPEC
 www.example.com (hostname)
 1.2.3.4 (ipv4address)
 ::1 (ipv6address)
-[::1] ([ipv6address])
+[::1]([ipv6address])
 ````
 
 `port`
@@ -67,8 +67,7 @@ www.example.com (hostname)
 
 `family`
 Сімейство адрес. **`EventUtil::AF_UNSPEC`**, **`EventUtil::AF_INET`**
-або **`EventUtil::AF_INET6`**. Зверніться до списку [констант
-EventUtil](class.eventutil.md#eventutil.constants).
+або **`EventUtil::AF_INET6`**. Зверніться до списку [констант EventUtil](class.eventutil.md#eventutil.constants).
 
 ### Значення, що повертаються
 

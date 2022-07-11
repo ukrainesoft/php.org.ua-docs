@@ -1,5 +1,4 @@
-- [«
-trader_get_unstable_period](function.trader-get-unstable-period.md)
+- [« trader_get_unstable_period](function.trader-get-unstable-period.md)
 - [trader_ht_dcphase »](function.trader-ht-dcphase.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Undefined::\_\_toString](mongodb-bson-undefined.tostring.md)
+- [« MongoDB\BSON\Undefined::\_\_toString](mongodb-bson-undefined.tostring.md)
 - [MongoDB\Driver\Monitoring »](mongodb.monitoring.md)
 
 - [PHP Manual](index.md)

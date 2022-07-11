@@ -13,7 +13,7 @@ ArrayObject::\_\_construct — Створює новий об'єкт масив�
 
 ### Опис
 
-public **ArrayObject::\_\_construct**(array\|object `$array` u003d \[\], int
+public **ArrayObject::\_\_construct**(array\|object `$array` u003d [], int
 `$flags` u003d 0, string `$iteratorClass` u003d ArrayIterator::class)
 
 Створює новий об'єкт масиву.
@@ -24,8 +24,7 @@ public **ArrayObject::\_\_construct**(array\|object `$array` u003d \[\], int
 Параметр array приймає значення типу array або Object.
 
 `flags`
-Прапори для керування поведінкою об'єкта
-[ArrayObject](class.arrayobject.md). Дивіться
+Прапори для керування поведінкою об'єкта [ArrayObject](class.arrayobject.md). Дивіться
 [ArrayObject::setFlags()](arrayobject.setflags.md).
 
 `iteratorClass`

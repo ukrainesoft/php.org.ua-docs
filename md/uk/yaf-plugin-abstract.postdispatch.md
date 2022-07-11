@@ -1,7 +1,5 @@
-- [«
-Yaf_Plugin_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md)
-- [Yaf_Plugin_Abstract::preDispatch
-»](yaf-plugin-abstract.predispatch.md)
+- [« Yaf_Plugin_Abstract::dispatchLoopStartup](yaf-plugin-abstract.dispatchloopstartup.md)
+- [Yaf_Plugin_Abstract::preDispatch »](yaf-plugin-abstract.predispatch.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)

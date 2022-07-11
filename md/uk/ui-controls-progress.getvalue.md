@@ -1,6 +1,5 @@
 - [«UI\Controls\Progress](class.ui-controls-progress.md)
-- [UI\Controls\Progress::setValue
-»](ui-controls-progress.setvalue.md)
+- [UI\Controls\Progress::setValue »](ui-controls-progress.setvalue.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Progress](class.ui-controls-progress.md)

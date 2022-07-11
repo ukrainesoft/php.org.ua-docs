@@ -37,10 +37,9 @@ const int `ARRAY_AS_PROPS` u003d 2;
 /\* Методи \*/
 
 public [\_\_construct](arrayiterator.construct.md)(array\|object
-`$array` u003d \[\], int `$flags` u003d 0)
+`$array` u003d [], int `$flags` u003d 0)
 
-public
-[append](arrayiterator.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
+public [append](arrayiterator.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): void
 
 public [asort](arrayiterator.asort.md)(int `$flags` u003d

@@ -1,6 +1,5 @@
 - [« Основи японських багатобайтних кодувань](mbstring.ja-basic.md)
-- [Підтримувані кодування символів
-»](mbstring.supported-encodings.md)
+- [Підтримувані кодування символів »](mbstring.supported-encodings.md)
 
 - [PHP Manual](index.md)
 - [Багатобайтові рядки](book.mbstring.md)

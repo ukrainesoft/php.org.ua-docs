@@ -1,6 +1,5 @@
 - [«MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
-- [MongoDB\BSON\DBPointer::jsonSerialize
-»](mongodb-bson-dbpointer.jsonserialize.md)
+- [MongoDB\BSON\DBPointer::jsonSerialize »](mongodb-bson-dbpointer.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
@@ -27,5 +26,4 @@ final private **MongoDB\BSON\DBPointer::\_\_construct**()
 
 ### Дивіться також
 
-- [» BSON
-Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

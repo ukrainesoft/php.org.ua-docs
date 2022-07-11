@@ -1,6 +1,5 @@
 - [« ReflectionReference::getId](reflectionreference.getid.md)
-- [ReflectionAttribute::\_\_construct
-»](reflectionattribute.construct.md)
+- [ReflectionAttribute::\_\_construct »](reflectionattribute.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

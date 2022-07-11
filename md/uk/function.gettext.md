@@ -1,5 +1,5 @@
 - [« dngettext](function.dngettext.md)
-- [ngettext»] (function.ngettext.md)
+- [ngettext»](function.ngettext.md)
 
 - [PHP Manual](index.md)
 - [Функції gettext](ref.gettext.md)

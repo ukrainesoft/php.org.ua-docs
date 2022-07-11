@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.md)
-- [MongoDB\Driver\Session::getServer
-»](mongodb-driver-session.getserver.md)
+- [« MongoDB\Driver\Session::getLogicalSessionId](mongodb-driver-session.getlogicalsessionid.md)
+- [MongoDB\Driver\Session::getServer »](mongodb-driver-session.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

@@ -1,6 +1,5 @@
-- [« Атрибути RADIUS специфічні для різних
-виробників](radius.constants.vendor-specific.md)
-- [Функції Radius »] (ref.radius.md)
+- [« Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
+- [Функції Radius »](ref.radius.md)
 
 - [PHP Manual](index.md)
 - [Radius](book.radius.md)

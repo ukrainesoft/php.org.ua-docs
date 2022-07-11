@@ -2,7 +2,7 @@
 - [Прапори подій »](event.flags.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Приклади
 
 # Приклади

@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md)
-- [SolrDisMaxQuery::setTrigramPhraseFields
-»](solrdismaxquery.settrigramphrasefields.md)
+- [« SolrDisMaxQuery::setQueryPhraseSlop](solrdismaxquery.setqueryphraseslop.md)
+- [SolrDisMaxQuery::setTrigramPhraseFields »](solrdismaxquery.settrigramphrasefields.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

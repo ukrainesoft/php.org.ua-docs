@@ -1,6 +1,5 @@
 - [« OAuthProvider](class.oauthprovider.md)
-- [OAuthProvider::callconsumerHandler
-»](oauthprovider.callconsumerhandler.md)
+- [OAuthProvider::callconsumerHandler »](oauthprovider.callconsumerhandler.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

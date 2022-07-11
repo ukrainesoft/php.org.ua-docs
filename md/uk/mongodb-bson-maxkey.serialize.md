@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md)
-- [MongoDB\BSON\MaxKey::unserialize
-»](mongodb-bson-maxkey.unserialize.md)
+- [« MongoDB\BSON\MaxKey::jsonSerialize](mongodb-bson-maxkey.jsonserialize.md)
+- [MongoDB\BSON\MaxKey::unserialize »](mongodb-bson-maxkey.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)

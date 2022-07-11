@@ -1,5 +1,5 @@
 - [« Установка](soap.installation.md)
-- [Типи ресурсів»] (soap.resources.md)
+- [Типи ресурсів»](soap.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](soap.setup.md)

@@ -1,5 +1,5 @@
 - [«ftp_append](function.ftp-append.md)
-- [ftp_chdir »] (function.ftp-chdir.md)
+- [ftp_chdir »](function.ftp-chdir.md)
 
 - [PHP Manual](index.md)
 - [Функції FTP](ref.ftp.md)

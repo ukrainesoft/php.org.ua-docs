@@ -1,5 +1,4 @@
-- [«
-Componere\Definition::getClosure](componere-definition.getclosure.md)
+- [« Componere\Definition::getClosure](componere-definition.getclosure.md)
 - [Componere\Patch »](class.componere-patch.md)
 
 - [PHP Manual](index.md)

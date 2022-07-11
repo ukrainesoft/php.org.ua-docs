@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.md)
+- [« IntlDateFormatter::getTimeZone](intldateformatter.gettimezone.md)
 - [IntlDateFormatter::localtime »](intldateformatter.localtime.md)
 
 - [PHP Manual](index.md)

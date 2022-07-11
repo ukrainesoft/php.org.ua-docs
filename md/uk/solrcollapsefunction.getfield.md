@@ -1,5 +1,4 @@
-- [«
-SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.md)
+- [« SolrCollapseFunction::\_\_construct](solrcollapsefunction.construct.md)
 - [SolrCollapseFunction::getHint »](solrcollapsefunction.gethint.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::executeCommand](mongodb-driver-server.executecommand.md)
-- [MongoDB\Driver\Server::executeReadCommand
-»](mongodb-driver-server.executereadcommand.md)
+- [« MongoDB\Driver\Server::executeCommand](mongodb-driver-server.executecommand.md)
+- [MongoDB\Driver\Server::executeReadCommand »](mongodb-driver-server.executereadcommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

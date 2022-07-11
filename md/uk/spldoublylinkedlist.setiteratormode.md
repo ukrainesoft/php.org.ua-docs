@@ -1,5 +1,4 @@
-- [«
-SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)
+- [« SplDoublyLinkedList::serialize](spldoublylinkedlist.serialize.md)
 - [SplDoublyLinkedList::shift »](spldoublylinkedlist.shift.md)
 
 - [PHP Manual](index.md)

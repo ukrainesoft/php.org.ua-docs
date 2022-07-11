@@ -1,6 +1,5 @@
 - [«UI\Controls\Entry::isReadOnly](ui-controls-entry.isreadonly.md)
-- [UI\Controls\Entry::setReadOnly
-»](ui-controls-entry.setreadonly.md)
+- [UI\Controls\Entry::setReadOnly »](ui-controls-entry.setreadonly.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\Entry](class.ui-controls-entry.md)

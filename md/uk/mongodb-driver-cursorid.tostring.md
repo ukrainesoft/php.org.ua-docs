@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorId::serialize](mongodb-driver-cursorid.serialize.md)
-- [MongoDB\Driver\CursorId::unserialize
-»](mongodb-driver-cursorid.unserialize.md)
+- [« MongoDB\Driver\CursorId::serialize](mongodb-driver-cursorid.serialize.md)
+- [MongoDB\Driver\CursorId::unserialize »](mongodb-driver-cursorid.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)

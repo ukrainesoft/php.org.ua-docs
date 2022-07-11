@@ -2,7 +2,7 @@
 - [tidy::parseString »](tidy.parsestring.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Розбір розмітки у файлі або URI
 
 # tidy::parseFile

@@ -1,5 +1,4 @@
-- [«
-Vtiful\Kernel\Excel::\_\_construct](vtiful-kernel-excel.construct.md)
+- [« Vtiful\Kernel\Excel::\_\_construct](vtiful-kernel-excel.construct.md)
 - [Vtiful\Kernel\Excel::fileName »](vtiful-kernel-excel.filename.md)
 
 - [PHP Manual](index.md)

@@ -1,4 +1,4 @@
-- [« Yaconf] (class.yaconf.md)
+- [« Yaconf](class.yaconf.md)
 - [Yaconf::has »](yaconf.has.md)
 
 - [PHP Manual](index.md)

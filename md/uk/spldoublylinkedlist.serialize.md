@@ -1,6 +1,5 @@
 - [« SplDoublyLinkedList::rewind](spldoublylinkedlist.rewind.md)
-- [SplDoublyLinkedList::setIteratorMode
-»](spldoublylinkedlist.setiteratormode.md)
+- [SplDoublyLinkedList::setIteratorMode »](spldoublylinkedlist.setiteratormode.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

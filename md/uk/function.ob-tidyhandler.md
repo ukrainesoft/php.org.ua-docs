@@ -1,4 +1,4 @@
-- [« Tidy] (ref.tidy.md)
+- [« Tidy](ref.tidy.md)
 - [tidy_access_count »](function.tidy-access-count.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Установка](imagick.installation.md)
-- [Типи ресурсів»] (imagick.resources.md)
+- [Типи ресурсів»](imagick.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](imagick.setup.md)
@@ -18,8 +18,7 @@
 **Конфігураційні опції Imagick**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

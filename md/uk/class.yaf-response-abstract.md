@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md)
-- [Yaf_Response_Abstract::appendBody
-»](yaf-response-abstract.appendbody.md)
+- [« Yaf_Request_Simple::isXmlHttpRequest](yaf-request-simple.isxmlhttprequest.md)
+- [Yaf_Response_Abstract::appendBody »](yaf-response-abstract.appendbody.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

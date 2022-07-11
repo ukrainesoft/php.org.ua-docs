@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
-- [SolrDisMaxQuery::useEDisMaxQueryParser
-»](solrdismaxquery.useedismaxqueryparser.md)
+- [« SolrDisMaxQuery::setUserFields](solrdismaxquery.setuserfields.md)
+- [SolrDisMaxQuery::useEDisMaxQueryParser »](solrdismaxquery.useedismaxqueryparser.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

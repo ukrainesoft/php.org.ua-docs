@@ -1,9 +1,8 @@
-- [«
-EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.md)
+- [« EventHttpRequest::sendReplyStart](eventhttprequest.sendreplystart.md)
 - [EventListener::\_\_construct »](eventlistener.construct.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventListener
 
 # Клас EventListener

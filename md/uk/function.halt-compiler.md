@@ -1,5 +1,5 @@
 - [«get_browser](function.get-browser.md)
-- [highlight_file »] (function.highlight-file.md)
+- [highlight_file »](function.highlight-file.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

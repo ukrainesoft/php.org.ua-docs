@@ -26,8 +26,7 @@ public **Imagick::compareImages**([Imagick](class.imagick.md)
 Зображення для порівняння.
 
 `metric`
-Вкажіть допустиму константу типу метрики. Дивіться список [констант
-метрики](imagick.constants.md#imagick.constants.metric).
+Вкажіть допустиму константу типу метрики. Дивіться список [констант метрики](imagick.constants.md#imagick.constants.metric).
 
 ### Значення, що повертаються
 

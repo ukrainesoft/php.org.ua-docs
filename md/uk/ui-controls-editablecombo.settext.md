@@ -1,5 +1,4 @@
-- [«
-UI\Controls\EditableCombo::onChange](ui-controls-editablecombo.onchange.md)
+- [« UI\Controls\EditableCombo::onChange](ui-controls-editablecombo.onchange.md)
 - [UI\Controls\Radio »](class.ui-controls-radio.md)
 
 - [PHP Manual](index.md)

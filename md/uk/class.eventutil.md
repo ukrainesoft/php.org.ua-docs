@@ -2,7 +2,7 @@
 - [EventUtil::\_\_construct »](eventutil.construct.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventUtil
 
 # Клас EventUtil

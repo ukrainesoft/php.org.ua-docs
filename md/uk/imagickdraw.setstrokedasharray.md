@@ -1,6 +1,5 @@
 - [« ImagickDraw::setStrokeColor](imagickdraw.setstrokecolor.md)
-- [ImagickDraw::setStrokeDashOffset
-»](imagickdraw.setstrokedashoffset.md)
+- [ImagickDraw::setStrokeDashOffset »](imagickdraw.setstrokedashoffset.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

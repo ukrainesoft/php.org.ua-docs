@@ -1,5 +1,4 @@
-- [«
-scoutapm_list_instrumented_functions](function.scoutapm-list-instrumented-functions.md)
+- [« scoutapm_list_instrumented_functions](function.scoutapm-list-instrumented-functions.md)
 - [Вступ »](intro.snmp.md)
 
 - [PHP Manual](index.md)

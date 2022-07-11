@@ -1,5 +1,4 @@
-- [«
-ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md)
+- [« ReflectionZendExtension::\_\_toString](reflectionzendextension.tostring.md)
 - [ReflectionExtension::\_\_clone »](reflectionextension.clone.md)
 
 - [PHP Manual](index.md)

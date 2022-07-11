@@ -1,5 +1,5 @@
 - [« variant_neg](function.variant-neg.md)
-- [variant_or»] (function.variant-or.md)
+- [variant_or»](function.variant-or.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

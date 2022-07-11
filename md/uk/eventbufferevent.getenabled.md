@@ -1,5 +1,4 @@
-- [«
-EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md)
+- [« EventBufferEvent::getDnsErrorString](eventbufferevent.getdnserrorstring.md)
 - [EventBufferEvent::getInput »](eventbufferevent.getinput.md)
 
 - [PHP Manual](index.md)

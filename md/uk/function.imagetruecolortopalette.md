@@ -1,5 +1,5 @@
 - [«imagesy](function.imagesy.md)
-- [imagettfbbox »] (function.imagettfbbox.md)
+- [imagettfbbox »](function.imagettfbbox.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

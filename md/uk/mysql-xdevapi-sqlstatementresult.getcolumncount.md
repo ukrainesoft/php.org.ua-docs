@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md)
-- [SqlStatementResult::getColumnNames
-»](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
+- [« SqlStatementResult::getAffectedItemsCount](mysql-xdevapi-sqlstatementresult.getaffecteditemscount.md)
+- [SqlStatementResult::getColumnNames »](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

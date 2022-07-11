@@ -1,5 +1,4 @@
-- [«
-ReflectionReference::\_\_construct](reflectionreference.construct.md)
+- [« ReflectionReference::\_\_construct](reflectionreference.construct.md)
 - [ReflectionReference::getId »](reflectionreference.getid.md)
 
 - [PHP Manual](index.md)
@@ -40,5 +39,4 @@ int\|string `$key`):
 Якщо `array` не є масивом, або `key` не є цілим
 числом (int) або рядком (string), буде викинуто виняток
 [TypeError](class.typeerror.md). Якщо `$array[$key]` не заданий, то
-буде викинуто виняток
-[ReflectionException](class.reflectionexception.md).
+буде викинуто виняток [ReflectionException](class.reflectionexception.md).

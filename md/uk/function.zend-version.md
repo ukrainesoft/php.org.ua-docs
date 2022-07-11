@@ -1,5 +1,5 @@
 - [« zend_thread_id](function.zend-thread-id.md)
-- [phpdbg »] (book.phpdbg.md)
+- [phpdbg »](book.phpdbg.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

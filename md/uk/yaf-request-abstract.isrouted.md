@@ -1,6 +1,5 @@
 - [« Yaf_Request_Abstract::isPut](yaf-request-abstract.isput.md)
-- [Yaf_Request_Abstract::isXmlHttpRequest
-»](yaf-request-abstract.isxmlhttprequest.md)
+- [Yaf_Request_Abstract::isXmlHttpRequest »](yaf-request-abstract.isxmlhttprequest.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

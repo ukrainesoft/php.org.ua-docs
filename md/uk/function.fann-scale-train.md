@@ -1,6 +1,5 @@
 - [« fann_scale_train_data](function.fann-scale-train-data.md)
-- [fann_set_activation_function_hidden
-»](function.fann-set-activation-function-hidden.md)
+- [fann_set_activation_function_hidden »](function.fann-set-activation-function-hidden.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

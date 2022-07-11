@@ -1,6 +1,5 @@
 - [« ReflectionClass::getConstant](reflectionclass.getconstant.md)
-- [ReflectionClass::getConstructor
-»](reflectionclass.getconstructor.md)
+- [ReflectionClass::getConstructor »](reflectionclass.getconstructor.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)
@@ -24,8 +23,7 @@ array
 
 `filter`
 Додатковий фільтр для фільтрації констант видимості. Він
-налаштовується за допомогою [ReflectionClassConstant
-constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
+налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
 і за умовчанням використовується всім констант видимості.
 
 ### Значення, що повертаються
@@ -35,9 +33,9 @@ constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.mo
 
 ### Список змін
 
-| Версія | Опис |
-|--------|-----------------------------|
-| 8.0.0 | Доданий параметр `filter`. |
+| Версія | Опис                       |
+|--------|----------------------------|
+| 8.0.0  | Доданий параметр `filter`. |
 
 ### Дивіться також
 

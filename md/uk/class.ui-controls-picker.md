@@ -1,7 +1,5 @@
-- [«
-UI\Controls\Radio::setSelected](ui-controls-radio.setselected.md)
-- [UI\Controls\Picker::\_\_construct
-»](ui-controls-picker.construct.md)
+- [« UI\Controls\Radio::setSelected](ui-controls-radio.setselected.md)
+- [UI\Controls\Picker::\_\_construct »](ui-controls-picker.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

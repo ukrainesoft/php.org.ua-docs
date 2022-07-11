@@ -1,6 +1,5 @@
 - [« ReflectionMethod::export](reflectionmethod.export.md)
-- [ReflectionMethod::getDeclaringClass
-»](reflectionmethod.getdeclaringclass.md)
+- [ReflectionMethod::getDeclaringClass »](reflectionmethod.getdeclaringclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)

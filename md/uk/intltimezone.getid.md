@@ -1,6 +1,5 @@
 - [« IntlTimeZone::getGMT](intltimezone.getgmt.md)
-- [IntlTimeZone::getIDForWindowsID
-»](intltimezone.getidforwindowsid.md)
+- [IntlTimeZone::getIDForWindowsID »](intltimezone.getidforwindowsid.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

@@ -1,6 +1,5 @@
 - [« openssl_free_key](function.openssl-free-key.md)
-- [openssl_get_cipher_methods
-»](function.openssl-get-cipher-methods.md)
+- [openssl_get_cipher_methods »](function.openssl-get-cipher-methods.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

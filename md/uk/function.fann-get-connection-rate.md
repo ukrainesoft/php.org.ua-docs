@@ -1,5 +1,4 @@
-- [«
-fann_get_connection_array](function.fann-get-connection-array.md)
+- [« fann_get_connection_array](function.fann-get-connection-array.md)
 - [fann_get_errno »](function.fann-get-errno.md)
 
 - [PHP Manual](index.md)

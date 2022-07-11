@@ -1,6 +1,5 @@
 - [« Swoole\Server::close](swoole-server.close.md)
-- [Swoole\Server::connection_info
-»](swoole-server.connection-info.md)
+- [Swoole\Server::connection_info »](swoole-server.connection-info.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Server](class.swoole-server.md)

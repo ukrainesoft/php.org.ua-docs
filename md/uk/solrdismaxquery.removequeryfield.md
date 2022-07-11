@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md)
-- [SolrDisMaxQuery::removeTrigramPhraseField
-»](solrdismaxquery.removetrigramphrasefield.md)
+- [« SolrDisMaxQuery::removePhraseField](solrdismaxquery.removephrasefield.md)
+- [SolrDisMaxQuery::removeTrigramPhraseField »](solrdismaxquery.removetrigramphrasefield.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

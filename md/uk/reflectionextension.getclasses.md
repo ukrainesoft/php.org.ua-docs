@@ -1,6 +1,5 @@
 - [« ReflectionExtension::export](reflectionextension.export.md)
-- [ReflectionExtension::getClassNames
-»](reflectionextension.getclassnames.md)
+- [ReflectionExtension::getClassNames »](reflectionextension.getclassnames.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

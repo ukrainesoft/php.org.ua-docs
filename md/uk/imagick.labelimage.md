@@ -1,5 +1,4 @@
-- [«
-Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md)
+- [« Imagick::inverseFourierTransformImage](imagick.inversefouriertransformimage.md)
 - [Imagick::levelImage »](imagick.levelimage.md)
 
 - [PHP Manual](index.md)

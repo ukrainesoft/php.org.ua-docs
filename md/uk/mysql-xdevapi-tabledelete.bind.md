@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)
-- [TableDelete::\_\_construct
-»](mysql-xdevapi-tabledelete.construct.md)
+- [TableDelete::\_\_construct »](mysql-xdevapi-tabledelete.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\TableDelete](class.mysql-xdevapi-tabledelete.md)

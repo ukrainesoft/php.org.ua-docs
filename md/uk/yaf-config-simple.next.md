@@ -1,6 +1,5 @@
 - [« Yaf_Config_Simple::key](yaf-config-simple.key.md)
-- [Yaf_Config_Simple::offsetExists
-»](yaf-config-simple.offsetexists.md)
+- [Yaf_Config_Simple::offsetExists »](yaf-config-simple.offsetexists.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Config_Simple](class.yaf-config-simple.md)

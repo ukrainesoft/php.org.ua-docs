@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\Statement](class.mysql-xdevapi-statement.md)
-- [Statement::getNextResult
-»](mysql-xdevapi-statement.getnextresult.md)
+- [Statement::getNextResult »](mysql-xdevapi-statement.getnextresult.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Statement](class.mysql-xdevapi-statement.md)

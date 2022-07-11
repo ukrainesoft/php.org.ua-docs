@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescription
-»](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md)
+- [« MongoDB\Driver\Monitoring\ServerChangedEvent::getNewDescription](mongodb-driver-monitoring-serverchangedevent.getnewdescription.md)
+- [MongoDB\Driver\Monitoring\ServerChangedEvent::getPreviousDescription »](mongodb-driver-monitoring-serverchangedevent.getpreviousdescription.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)

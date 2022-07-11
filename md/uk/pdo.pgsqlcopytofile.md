@@ -2,7 +2,7 @@
 - [PDO::pgsqlGetNotify »](pdo.pgsqlgetnotify.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Вивантаження таблиці у файл
 
 # PDO::pgsqlCopyToFile

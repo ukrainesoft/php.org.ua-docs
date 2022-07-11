@@ -1,5 +1,5 @@
 - [«ksort](function.ksort.md)
-- [Natcasesort »] (function.Natcasesort.md)
+- [Natcasesort »](function.Natcasesort.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)

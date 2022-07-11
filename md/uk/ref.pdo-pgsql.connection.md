@@ -2,7 +2,7 @@
 - [PDO::pgsqlCopyFromArray »](pdo.pgsqlcopyfromarray.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - З'єднання з базою даних PostgreSQL
 
 # PDO_PGSQL DSN
@@ -39,8 +39,7 @@ DSN, PDO проігнорує значення, передане як парам
 
 `sslmode`
 Режим SSL. Підтримувані значення та їх опис перераховані в
-[» документації
-PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
+[» документації PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
 
 > **Примітка**: Усі точки з комою в рядку DSN замінюються пробілами,
 > тому що PostgreSQL очікує на такий формат. Це означає, що точки з

@@ -1,5 +1,5 @@
 - [«fdatasync](function.fdatasync.md)
-- [fflush »] (function.fflush.md)
+- [fflush »](function.fflush.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

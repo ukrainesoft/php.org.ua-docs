@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Regex::unserialize](mongodb-bson-regex.unserialize.md)
-- [MongoDB\BSON\Timestamp::\_\_construct
-»](mongodb-bson-timestamp.construct.md)
+- [« MongoDB\BSON\Regex::unserialize](mongodb-bson-regex.unserialize.md)
+- [MongoDB\BSON\Timestamp::\_\_construct »](mongodb-bson-timestamp.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -13,8 +11,7 @@ MongoDB\BSON\Regex::unserialize](mongodb-bson-regex.unserialize.md)
 
 ## Вступ
 
-Представляє [» мітку часу
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps).
+Представляє [» мітку часу BSON](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps).
 Значення складається з 4-байтової мітки часу (тобто секунди з початку
 епохи) та 4-байтового прирощення.
 

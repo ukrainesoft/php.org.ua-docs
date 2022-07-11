@@ -2,7 +2,7 @@
 - [EvLoop::backend »](evloop.backend.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvLoop
 
 # Клас EvLoop
@@ -179,8 +179,7 @@ public [verify](evloop.verify.md)(): void
 Довільні дані, додані циклу
 
 `backend`
-* Тільки читання *. [Прапори
-бекенда](class.ev.md#ev.constants.watcher-backends) вказують який
+* Тільки читання *. [Прапори бекенда](class.ev.md#ev.constants.watcher-backends) вказують який
 подієвий бекенд використовується.
 
 `is_default_loop`
@@ -208,8 +207,7 @@ public [verify](evloop.verify.md)(): void
 менше **`0.01`**, тому що це значення буде близько до мінімального
 інтервалу обчислюваного часу більшості систем.
 
-Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ
-ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS).
+Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS).
 
 `timeout_interval`
 Вищі значення `timeout_interval` дозволять *libev* витрачати
@@ -217,8 +215,7 @@ public [verify](evloop.verify.md)(): void
 збільшення затримок/джиттерів/неточностей (функція зворотного виклику
 спостерігача буде викликано пізніше). Спостерігачі [EvIo](class.evio.md) не
 будуть порушені. Збільшення цього значення не викликає перевитрати
-ресурсів у *libev*. Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ
-ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS).
+ресурсів у *libev*. Також читайте [» ФУНКЦІЇ УПРАВЛІННЯ ПОДІЙНИМИ ЦИКЛАМИ](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS).
 
 `depth`
 Глибина рекурсії. Дивіться [Ev::depth()](ev.depth.md).

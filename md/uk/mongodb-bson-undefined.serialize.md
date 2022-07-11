@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md)
-- [MongoDB\BSON\Undefined::\_\_toString
-»](mongodb-bson-undefined.tostring.md)
+- [« MongoDB\BSON\Undefined::jsonSerialize](mongodb-bson-undefined.jsonserialize.md)
+- [MongoDB\BSON\Undefined::\_\_toString »](mongodb-bson-undefined.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)

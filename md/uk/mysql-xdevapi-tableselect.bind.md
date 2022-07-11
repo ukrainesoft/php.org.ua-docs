@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
-- [TableSelect::\_\_construct
-»](mysql-xdevapi-tableselect.construct.md)
+- [TableSelect::\_\_construct »](mysql-xdevapi-tableselect.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)

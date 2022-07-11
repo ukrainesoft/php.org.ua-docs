@@ -31,8 +31,7 @@ var_representation - Повертає коротке, читане, розбір
 `flags`
 Бітова маска, що складається з: **`VAR_REPRESENTATION_SINGLE_LINE`**,
 **`VAR_REPRESENTATION_UNESCAPED`**. Поведінка цих констант описано на
-сторінці [константи
-var_representation](var-representation.constants.md).
+сторінці [константи var_representation](var-representation.constants.md).
 
 ### Значення, що повертаються
 

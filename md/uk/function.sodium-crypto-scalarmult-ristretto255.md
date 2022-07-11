@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_scalarmult_ristretto255_base](function.sodium-crypto-scalarmult-ristretto255-base.md)
+- [« sodium_crypto_scalarmult_ristretto255_base](function.sodium-crypto-scalarmult-ristretto255-base.md)
 - [sodium_crypto_scalarmult »](function.sodium-crypto-scalarmult.md)
 
 - [PHP Manual](index.md)

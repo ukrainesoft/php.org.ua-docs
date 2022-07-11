@@ -1,5 +1,4 @@
-- [«
-IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.md)
+- [« IntlTimeZone::getIDForWindowsID](intltimezone.getidforwindowsid.md)
 - [IntlTimeZone::getRawOffset »](intltimezone.getrawoffset.md)
 
 - [PHP Manual](index.md)

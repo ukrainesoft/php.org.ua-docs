@@ -88,7 +88,5 @@ END
 - [EvTimer::createStopped()](evtimer.createstopped.md) - Створює
 зупинений спостерігач EvTimer
 - [EvPeriodic](class.evperiodic.md)
-- [» ev_timer - відносний і необов'язково повторюваний час
-очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
-- [» Будьте обережні з часом
-ожидания](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)
+- [» ev_timer - відносний і необов'язково повторюваний час очікування](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_timer_code_relative_and_opti)
+- [» Будьте обережні з часом ожидания](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#Be_smart_about_timeouts)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md)
-- [MongoDB\BSON\JavascriptInterface::\_\_toString
-»](mongodb-bson-javascriptinterface.tostring.md)
+- [« MongoDB\BSON\JavascriptInterface::getCode](mongodb-bson-javascriptinterface.getcode.md)
+- [MongoDB\BSON\JavascriptInterface::\_\_toString »](mongodb-bson-javascriptinterface.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)

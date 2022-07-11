@@ -1,4 +1,4 @@
-- [«glob] (function.glob.md)
+- [«glob](function.glob.md)
 - [is_executable »](function.is-executable.md)
 
 - [PHP Manual](index.md)
@@ -58,8 +58,7 @@ bool(true)
 
 Починаючи з PHP 5.0.0, ця функція також може бути використана з
 * Деякими * обгортками url. Список обгорток, що підтримуються сімейством
-функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані
-протоколи та обгортки](wrappers.md).
+функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md).
 
 ### Дивіться також
 

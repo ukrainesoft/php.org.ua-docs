@@ -1,6 +1,5 @@
 - [« socket_strerror](function.socket-strerror.md)
-- [socket_wsaprotocol_info_export
-»](function.socket-wsaprotocol-info-export.md)
+- [socket_wsaprotocol_info_export »](function.socket-wsaprotocol-info-export.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)
@@ -52,7 +51,7 @@ socket_write — Запис у сокет
 
 | Версія | Опис |
 |--------|---------------------------------------- -------------------------------------------------- ----|
-| 8.0.0 | `socket` тепер екземпляр класу [Socket] (class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 | 8.0.0 | `length` тепер припускає значення null. |
 
 ### Примітки

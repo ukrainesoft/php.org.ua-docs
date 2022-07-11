@@ -1,5 +1,4 @@
-- [«
-SessionHandlerInterface::close](sessionhandlerinterface.close.md)
+- [« SessionHandlerInterface::close](sessionhandlerinterface.close.md)
 - [SessionHandlerInterface::gc »](sessionhandlerinterface.gc.md)
 
 - [PHP Manual](index.md)

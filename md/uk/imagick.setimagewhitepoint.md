@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md)
+- [« Imagick::setImageVirtualPixelMethod](imagick.setimagevirtualpixelmethod.md)
 - [Imagick::setInterlaceScheme »](imagick.setinterlacescheme.md)
 
 - [PHP Manual](index.md)

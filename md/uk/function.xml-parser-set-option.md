@@ -1,6 +1,5 @@
 - [« xml_parser_get_option](function.xml-parser-get-option.md)
-- [xml_set_character_data_handler
-»](function.xml-set-character-data-handler.md)
+- [xml_set_character_data_handler »](function.xml-set-character-data-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

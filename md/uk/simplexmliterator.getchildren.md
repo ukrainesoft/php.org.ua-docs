@@ -1,6 +1,5 @@
 - [« SimpleXMLIterator::current](simplexmliterator.current.md)
-- [SimpleXMLIterator::hasChildren
-»](simplexmliterator.haschildren.md)
+- [SimpleXMLIterator::hasChildren »](simplexmliterator.haschildren.md)
 
 - [PHP Manual](index.md)
 - [SimpleXMLIterator](class.simplexmliterator.md)

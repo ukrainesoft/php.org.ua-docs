@@ -1,5 +1,4 @@
-- [«
-RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
+- [« RecursiveRegexIterator::getChildren](recursiveregexiterator.getchildren.md)
 - [RecursiveTreeIterator »](class.recursivetreeiterator.md)
 
 - [PHP Manual](index.md)

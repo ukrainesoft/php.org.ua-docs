@@ -1,5 +1,4 @@
-- [«
-iconv_mime_decode_headers](function.iconv-mime-decode-headers.md)
+- [« iconv_mime_decode_headers](function.iconv-mime-decode-headers.md)
 - [iconv_mime_encode »](function.iconv-mime-encode.md)
 
 - [PHP Manual](index.md)

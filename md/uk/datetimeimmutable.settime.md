@@ -1,6 +1,5 @@
 - [« DateTimeImmutable::setISODate](datetimeimmutable.setisodate.md)
-- [DateTimeImmutable::setTimestamp
-»](datetimeimmutable.settimestamp.md)
+- [DateTimeImmutable::setTimestamp »](datetimeimmutable.settimestamp.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)
@@ -51,9 +50,9 @@ int `$microsecond` u003d 0
 
 ### Список змін
 
-| Версія | Опис |
-|--------|----------------------------------|
-| 7.1.0 | Доданий параметр `microsecond`. |
+| Версія | Опис                            |
+|--------|---------------------------------|
+| 7.1.0  | Доданий параметр `microsecond`. |
 
 ### Приклади
 

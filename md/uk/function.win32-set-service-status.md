@@ -1,7 +1,5 @@
-- [«
-win32_set_service_exit_mode](function.win32-set-service-exit-mode.md)
-- [win32_start_service_ctrl_dispatcher
-»](function.win32-start-service-ctrl-dispatcher.md)
+- [« win32_set_service_exit_mode](function.win32-set-service-exit-mode.md)
+- [win32_start_service_ctrl_dispatcher »](function.win32-start-service-ctrl-dispatcher.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)
@@ -84,5 +82,4 @@ SAPI цю функцію вимкнено.
 Визначає або повертає режим виходу для поточної запущеної служби
 - [win32_set_service_exit_code()](function.win32-set-service-exit-code.md) -
 Визначає чи повертає код виходу для поточної запущеної служби
-- [Константи стану служби
-Win32Service](win32service.constants.servicestatus.md)
+- [Константи стану служби Win32Service](win32service.constants.servicestatus.md)

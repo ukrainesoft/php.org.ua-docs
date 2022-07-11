@@ -1,6 +1,5 @@
 - [« fann_get_errstr](function.fann-get-errstr.md)
-- [fann_get_learning_momentum
-»](function.fann-get-learning-momentum.md)
+- [fann_get_learning_momentum »](function.fann-get-learning-momentum.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md)
-- [SolrQuery::setHighlightMaxAlternateFieldLength
-»](solrquery.sethighlightmaxalternatefieldlength.md)
+- [« SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md)
+- [SolrQuery::setHighlightMaxAlternateFieldLength »](solrquery.sethighlightmaxalternatefieldlength.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

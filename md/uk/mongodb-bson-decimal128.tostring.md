@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Decimal128::serialize](mongodb-bson-decimal128.serialize.md)
-- [MongoDB\BSON\Decimal128::unserialize
-»](mongodb-bson-decimal128.unserialize.md)
+- [« MongoDB\BSON\Decimal128::serialize](mongodb-bson-decimal128.serialize.md)
+- [MongoDB\BSON\Decimal128::unserialize »](mongodb-bson-decimal128.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Decimal128](class.mongodb-bson-decimal128.md)
@@ -41,7 +39,5 @@ string(8) "Infinity"
 
 ### Дивіться також
 
-- [» Формат із плаваючою точкою
-Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Формат із плаваючою точкою Decimal128](https://en.wikipedia.org/wiki/Decimal128_floating-point_format)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

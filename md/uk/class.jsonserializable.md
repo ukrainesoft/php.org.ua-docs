@@ -1,6 +1,5 @@
 - [«JsonException](class.jsonexception.md)
-- [JsonSerializable::jsonSerialize
-»](jsonserializable.jsonserialize.md)
+- [JsonSerializable::jsonSerialize »](jsonserializable.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [JSON](book.json.md)

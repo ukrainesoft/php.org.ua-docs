@@ -1,5 +1,4 @@
-- [«
-Vtiful\Kernel\Excel::setColumn](vtiful-kernel-excel.setColumn.md)
+- [« Vtiful\Kernel\Excel::setColumn](vtiful-kernel-excel.setColumn.md)
 - [Vtiful\Kernel\Format »](class.vtiful-kernel-format.md)
 
 - [PHP Manual](index.md)

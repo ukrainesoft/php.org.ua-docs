@@ -1,5 +1,4 @@
-- [«
-RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md)
+- [« RecursiveTreeIterator::setPrefixPart](recursivetreeiterator.setprefixpart.md)
 - [RegexIterator »](class.regexiterator.md)
 
 - [PHP Manual](index.md)

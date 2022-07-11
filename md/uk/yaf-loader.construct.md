@@ -1,5 +1,4 @@
-- [«
-Yaf_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md)
+- [« Yaf_Loader::clearLocalNamespace](yaf-loader.clearlocalnamespace.md)
 - [Yaf_Loader::getInstance »](yaf-loader.getinstance.md)
 
 - [PHP Manual](index.md)

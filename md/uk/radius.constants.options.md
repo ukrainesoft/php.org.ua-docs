@@ -1,5 +1,5 @@
 - [«Зумовлені константи](radius.constants.md)
-- [типи пакетів RADIUS »] (radius.constants.packets.md)
+- [типи пакетів RADIUS »](radius.constants.packets.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](radius.constants.md)

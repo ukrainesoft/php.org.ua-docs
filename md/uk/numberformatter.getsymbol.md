@@ -1,6 +1,5 @@
 - [«NumberFormatter::getPattern](numberformatter.getpattern.md)
-- [NumberFormatter::getTextAttribute
-»](numberformatter.gettextattribute.md)
+- [NumberFormatter::getTextAttribute »](numberformatter.gettextattribute.md)
 
 - [PHP Manual](index.md)
 - [NumberFormatter](class.numberformatter.md)
@@ -37,8 +36,7 @@ API не підтримується для форматування на осн�
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `symbol`
-Специфікатор символу, одна із констант [символів
-форматирования](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol).
+Специфікатор символу, одна із констант [символів форматирования](class.numberformatter.md#intl.numberformatter-constants.unumberformatsymbol).
 
 ### Значення, що повертаються
 

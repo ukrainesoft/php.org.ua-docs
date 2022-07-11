@@ -36,7 +36,7 @@ public **mysqli::multi_query**(string `$query`): bool
 виконання [mysqli_next_result()](mysqli.next-result.md) з PHP.
 
 Для обробки кількох запитів рекомендується використовувати
-[Do-while] (control-structures.do.while.md). З'єднання буде зайнято до
+[Do-while](control-structures.do.while.md). З'єднання буде зайнято до
 до тих пір, поки всі запити не будуть завершені та їх результати не будуть
 завантажені у PHP. Ніякий інший оператор не може бути виданий у тому ж
 з'єднанні, доки не будуть оброблені всі запити. Щоб перейти до
@@ -80,8 +80,7 @@ public **mysqli::multi_query**(string `$query`): bool
 # Попередження безпеки: SQL-ін'єкція
 
 Якщо запит містить будь-які вхідні змінні, натомість слід
-використовувати [підготовлювані
-запросы](mysqli.quickstart.prepared-statements.md). В якості
+використовувати [підготовлювані запросы](mysqli.quickstart.prepared-statements.md). В якості
 альтернативи дані повинні бути правильно відформатовані та всі рядки
 повинні бути екрановані за допомогою функції
 [mysqli_real_escape_string()](mysqli.real-escape-string.md).

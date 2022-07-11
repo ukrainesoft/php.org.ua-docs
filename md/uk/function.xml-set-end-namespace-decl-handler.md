@@ -1,6 +1,5 @@
 - [« xml_set_element_handler](function.xml-set-element-handler.md)
-- [xml_set_external_entity_ref_handler
-»](function.xml-set-external-entity-ref-handler.md)
+- [xml_set_external_entity_ref_handler »](function.xml-set-external-entity-ref-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

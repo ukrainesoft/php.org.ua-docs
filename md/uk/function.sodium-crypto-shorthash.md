@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_shorthash_keygen](function.sodium-crypto-shorthash-keygen.md)
-- [sodium_crypto_sign_detached
-»](function.sodium-crypto-sign-detached.md)
+- [« sodium_crypto_shorthash_keygen](function.sodium-crypto-shorthash-keygen.md)
+- [sodium_crypto_sign_detached »](function.sodium-crypto-sign-detached.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

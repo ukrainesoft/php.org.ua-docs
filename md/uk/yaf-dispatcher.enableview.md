@@ -1,6 +1,5 @@
 - [« Yaf_Dispatcher::dispatch](yaf-dispatcher.dispatch.md)
-- [Yaf_Dispatcher::flushInstantly
-»](yaf-dispatcher.flushinstantly.md)
+- [Yaf_Dispatcher::flushInstantly »](yaf-dispatcher.flushinstantly.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

@@ -1,5 +1,4 @@
-- [«
-session_register_shutdown](function.session-register-shutdown.md)
+- [« session_register_shutdown](function.session-register-shutdown.md)
 - [session_save_path »](function.session-save-path.md)
 
 - [PHP Manual](index.md)

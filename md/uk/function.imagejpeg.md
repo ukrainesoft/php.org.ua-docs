@@ -61,8 +61,7 @@ resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Приклад виведе зображення
-JPEG](images/21009b70229598c6a80eef8b45bf282b-imagejpeg.jpg)
+![Приклад виведе зображення JPEG](images/21009b70229598c6a80eef8b45bf282b-imagejpeg.jpg)
 
 **Приклад #2 Збереження зображення JPEG у файл**
 

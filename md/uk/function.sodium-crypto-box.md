@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_box_seed_keypair](function.sodium-crypto-box-seed-keypair.md)
-- [sodium_crypto_core_ristretto255_add
-»](function.sodium-crypto-core-ristretto255-add.md)
+- [« sodium_crypto_box_seed_keypair](function.sodium-crypto-box-seed-keypair.md)
+- [sodium_crypto_core_ristretto255_add »](function.sodium-crypto-core-ristretto255-add.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

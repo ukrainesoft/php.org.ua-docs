@@ -1,6 +1,5 @@
 - [« XSLTProcessor::\_\_construct](xsltprocessor.construct.md)
-- [XSLTProcessor::getSecurityPrefs
-»](xsltprocessor.getsecurityprefs.md)
+- [XSLTProcessor::getSecurityPrefs »](xsltprocessor.getsecurityprefs.md)
 
 - [PHP Manual](index.md)
 - [XSLTProcessor](class.xsltprocessor.md)

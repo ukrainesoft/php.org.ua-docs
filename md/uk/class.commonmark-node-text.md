@@ -1,6 +1,5 @@
 - [«CommonMark\Node\Item](class.commonmark-node-item.md)
-- [CommonMark\Node\Text::\_\_construct
-»](commonmark-node-text.construct.md)
+- [CommonMark\Node\Text::\_\_construct »](commonmark-node-text.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

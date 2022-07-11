@@ -1,9 +1,8 @@
 - [«EventHttp::setTimeout](eventhttp.settimeout.md)
-- [EventHttpConnection::\_\_construct
-»](eventhttpconnection.construct.md)
+- [EventHttpConnection::\_\_construct »](eventhttpconnection.construct.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventHttpConnection
 
 # Клас EventHttpConnection

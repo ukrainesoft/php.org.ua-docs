@@ -1,5 +1,5 @@
 - [«preg_match_all](function.preg-match-all.md)
-- [preg_quote»] (function.preg-quote.md)
+- [preg_quote»](function.preg-quote.md)
 
 - [PHP Manual](index.md)
 - [Функції PCRE](ref.pcre.md)
@@ -160,9 +160,7 @@ string(1) "c"
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки

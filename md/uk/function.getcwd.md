@@ -1,5 +1,5 @@
 - [«dir](function.dir.md)
-- [opendir »] (function.opendir.md)
+- [opendir »](function.opendir.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з каталогами](ref.dir.md)

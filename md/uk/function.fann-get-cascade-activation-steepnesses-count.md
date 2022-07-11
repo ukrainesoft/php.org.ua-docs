@@ -1,7 +1,5 @@
-- [«
-fann_get_cascade_activation_functions](function.fann-get-cascade-activation-functions.md)
-- [fann_get_cascade_activation_steepnesses
-»](function.fann-get-cascade-activation-steepnesses.md)
+- [« fann_get_cascade_activation_functions](function.fann-get-cascade-activation-functions.md)
+- [fann_get_cascade_activation_steepnesses »](function.fann-get-cascade-activation-steepnesses.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

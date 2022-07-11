@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.md)
-- [MongoDB\Driver\WriteResult::getModifiedCount
-»](mongodb-driver-writeresult.getmodifiedcount.md)
+- [« MongoDB\Driver\WriteResult::getInsertedCount](mongodb-driver-writeresult.getinsertedcount.md)
+- [MongoDB\Driver\WriteResult::getModifiedCount »](mongodb-driver-writeresult.getmodifiedcount.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)

@@ -14,10 +14,9 @@ SoapServer::\_\_construct - Конструктор SoapServer
 ### Опис
 
 public **SoapServer::\_\_construct**(?string `$wsdl`, array `$options` u003d
-\[\])
+[])
 
-Цей конструктор дозволяє створювати об'єкти
-[SoapServer](class.soapserver.md) у WSDL або не-WSDL режимах.
+Цей конструктор дозволяє створювати об'єкти [SoapServer](class.soapserver.md) у WSDL або не-WSDL режимах.
 
 ### Список параметрів
 

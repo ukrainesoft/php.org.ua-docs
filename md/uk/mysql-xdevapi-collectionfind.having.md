@@ -1,5 +1,4 @@
-- [«
-CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.md)
+- [« CollectionFind::groupBy](mysql-xdevapi-collectionfind.groupby.md)
 - [CollectionFind::limit »](mysql-xdevapi-collectionfind.limit.md)
 
 - [PHP Manual](index.md)

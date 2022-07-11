@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_generichash](function.sodium-crypto-generichash.md)
+- [« sodium_crypto_generichash](function.sodium-crypto-generichash.md)
 - [sodium_crypto_kdf_keygen »](function.sodium-crypto-kdf-keygen.md)
 
 - [PHP Manual](index.md)

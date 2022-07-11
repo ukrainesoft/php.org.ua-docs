@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_core_ristretto255_add](function.sodium-crypto-core-ristretto255-add.md)
-- [sodium_crypto_core_ristretto255_is_valid_point
-»](function.sodium-crypto-core-ristretto255-is-valid-point.md)
+- [« sodium_crypto_core_ristretto255_add](function.sodium-crypto-core-ristretto255-add.md)
+- [sodium_crypto_core_ristretto255_is_valid_point »](function.sodium-crypto-core-ristretto255-is-valid-point.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

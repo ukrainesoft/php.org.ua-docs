@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerDescription::getType](mongodb-driver-serverdescription.gettype.md)
-- [MongoDB\Driver\TopologyDescription::getServers
-»](mongodb-driver-topologydescription.getservers.md)
+- [« MongoDB\Driver\ServerDescription::getType](mongodb-driver-serverdescription.gettype.md)
+- [MongoDB\Driver\TopologyDescription::getServers »](mongodb-driver-topologydescription.getservers.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

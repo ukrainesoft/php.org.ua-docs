@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_auth_verify](function.sodium-crypto-auth-verify.md)
-- [sodium_crypto_box_keypair_from_secretkey_and_publickey
-»](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md)
+- [« sodium_crypto_auth_verify](function.sodium-crypto-auth-verify.md)
+- [sodium_crypto_box_keypair_from_secretkey_and_publickey »](function.sodium-crypto-box-keypair-from-secretkey-and-publickey.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

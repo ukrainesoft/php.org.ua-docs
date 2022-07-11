@@ -1,5 +1,5 @@
 - [« ocibindbyname](function.ocibindbyname.md)
-- [ocicloselob»] (function.ocicloselob.md)
+- [ocicloselob»](function.ocicloselob.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

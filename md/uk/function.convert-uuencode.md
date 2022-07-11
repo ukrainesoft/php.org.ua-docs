@@ -1,5 +1,5 @@
 - [«convert_uudecode](function.convert-uudecode.md)
-- [count_chars »] (function.count-chars.md)
+- [count_chars »](function.count-chars.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

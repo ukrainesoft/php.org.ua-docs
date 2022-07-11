@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine\MySQL::query](swoole-coroutine-mysql.query.md)
-- [Swoole\Coroutine\MySQL::setDefer
-»](swoole-coroutine-mysql.setdefer.md)
+- [Swoole\Coroutine\MySQL::setDefer »](swoole-coroutine-mysql.setdefer.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

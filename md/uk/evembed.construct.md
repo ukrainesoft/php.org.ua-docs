@@ -27,8 +27,7 @@ int `$priority` u003d ?
 події введення-виводу у вбудованому циклі, інші типи спостерігачів можуть
 оброблятися із затримкою або неправильно і не повинні використовуватись).
 
-Докладніше читайте у [» документації
-libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_).
+Докладніше читайте у [» документації libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#code_ev_embed_code_when_one_backend_).
 
 Цей спостерігач найбільш корисний у *BSD* системах без працюючого
 `kqueue` для підтримки обробки великої кількості сокетів. Дивіться

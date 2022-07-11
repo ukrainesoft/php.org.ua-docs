@@ -1,5 +1,5 @@
 - [« opcache_is_script_cached](function.opcache-is-script-cached.md)
-- [Контроль виведення »] (book.outcontrol.md)
+- [Контроль виведення »](book.outcontrol.md)
 
 - [PHP Manual](index.md)
 - [Функції OPcache](ref.opcache.md)

@@ -1,6 +1,5 @@
 - [« DOMElement::getAttributeNS](domelement.getattributens.md)
-- [DOMElement::getElementsByTagNameNS
-»](domelement.getelementsbytagnamens.md)
+- [DOMElement::getElementsByTagNameNS »](domelement.getelementsbytagnamens.md)
 
 - [PHP Manual](index.md)
 - [DOMElement](class.domelement.md)

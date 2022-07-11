@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Group::\_\_construct](ui-controls-group.construct.md)
+- [« UI\Controls\Group::\_\_construct](ui-controls-group.construct.md)
 - [UI\Controls\Group::hasMargin »](ui-controls-group.hasmargin.md)
 
 - [PHP Manual](index.md)

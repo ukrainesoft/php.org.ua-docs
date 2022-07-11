@@ -1,6 +1,5 @@
 - [« Yaf_Application::environ](yaf-application.environ.md)
-- [Yaf_Application::getAppDirectory
-»](yaf-application.getappdirectory.md)
+- [Yaf_Application::getAppDirectory »](yaf-application.getappdirectory.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

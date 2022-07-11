@@ -1,6 +1,5 @@
 - [« Yaf_Controller_Abstract](class.yaf-controller-abstract.md)
-- [Yaf_Controller_Abstract::display
-»](yaf-controller-abstract.display.md)
+- [Yaf_Controller_Abstract::display »](yaf-controller-abstract.display.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

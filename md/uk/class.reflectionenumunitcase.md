@@ -1,6 +1,5 @@
 - [« ReflectionEnum::isBacked](reflectionenum.isbacked.md)
-- [ReflectionEnumUnitCase::\_\_construct
-»](reflectionenumunitcase.construct.md)
+- [ReflectionEnumUnitCase::\_\_construct »](reflectionenumunitcase.construct.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

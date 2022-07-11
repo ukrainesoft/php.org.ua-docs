@@ -1,5 +1,4 @@
-- [«
-DOMElement::removeAttributeNode](domelement.removeattributenode.md)
+- [« DOMElement::removeAttributeNode](domelement.removeattributenode.md)
 - [DOMElement::setAttribute »](domelement.setattribute.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::setParam](yaf-request-abstract.setparam.md)
-- [Yaf_Request_Abstract::setRouted
-»](yaf-request-abstract.setrouted.md)
+- [« Yaf_Request_Abstract::setParam](yaf-request-abstract.setparam.md)
+- [Yaf_Request_Abstract::setRouted »](yaf-request-abstract.setrouted.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

@@ -1,7 +1,5 @@
-- [«
-IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.md)
-- [IntlGregorianCalendar::isLeapYear
-»](intlgregoriancalendar.isleapyear.md)
+- [« IntlGregorianCalendar::\_\_construct](intlgregoriancalendar.construct.md)
+- [IntlGregorianCalendar::isLeapYear »](intlgregoriancalendar.isleapyear.md)
 
 - [PHP Manual](index.md)
 - [IntlGregorianCalendar](class.intlgregoriancalendar.md)

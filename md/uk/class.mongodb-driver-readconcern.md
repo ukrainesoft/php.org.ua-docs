@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md)
-- [MongoDB\Driver\ReadConcern::bsonSerialize
-»](mongodb-driver-readconcern.bsonserialize.md)
+- [« MongoDB\Driver\ReadPreference::unserialize](mongodb-driver-readpreference.unserialize.md)
+- [MongoDB\Driver\ReadConcern::bsonSerialize »](mongodb-driver-readconcern.bsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)
@@ -156,8 +154,7 @@ final public
 
 ## Дивіться також
 
-- [» Довідка за гарантіями
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
 
 ## Зміст
 

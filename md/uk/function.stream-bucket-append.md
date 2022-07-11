@@ -1,6 +1,5 @@
 - [« Функції для роботи з потоками](ref.stream.md)
-- [stream_bucket_make_writeable
-»](function.stream-bucket-make-writeable.md)
+- [stream_bucket_make_writeable »](function.stream-bucket-make-writeable.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

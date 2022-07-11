@@ -1,6 +1,5 @@
 - [« fann_set_rprop_delta_max](function.fann-set-rprop-delta-max.md)
-- [fann_set_rprop_delta_zero
-»](function.fann-set-rprop-delta-zero.md)
+- [fann_set_rprop_delta_zero »](function.fann-set-rprop-delta-zero.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

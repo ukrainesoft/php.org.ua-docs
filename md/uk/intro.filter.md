@@ -1,4 +1,4 @@
-- [« Filter] (book.filter.md)
+- [« Filter](book.filter.md)
 - [Встановлення та налаштування »](filter.setup.md)
 
 - [PHP Manual](index.md)

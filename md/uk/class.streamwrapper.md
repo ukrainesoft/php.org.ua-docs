@@ -128,8 +128,7 @@ resource `context`
 
 ## Дивіться також
 
-- [Приклад класу, зареєстрованого як обгортка
-потоку](stream.streamwrapper.example-1.md)
+- [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 - [stream_wrapper_register()](function.stream-wrapper-register.md)
 - [stream_wrapper_unregister()](function.stream-wrapper-unregister.md)
 - [stream_wrapper_restore()](function.stream-wrapper-restore.md)

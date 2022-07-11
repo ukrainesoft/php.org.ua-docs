@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- [MongoDB\Driver\WriteConcern::\_\_construct
-»](mongodb-driver-writeconcern.construct.md)
+- [« MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
+- [MongoDB\Driver\WriteConcern::\_\_construct »](mongodb-driver-writeconcern.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -71,5 +69,4 @@ int(1000)
 
 - [MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) -
 Надає масив або документ для серіалізації у BSON
-- [» Довідкова інформація щодо гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\BlockQuote](class.commonmark-node-blockquote.md)
-- [CommonMark\Node\BulletList::\_\_construct
-»](commonmark-node-bulletlist.construct.md)
+- [« CommonMark\Node\BlockQuote](class.commonmark-node-blockquote.md)
+- [CommonMark\Node\BulletList::\_\_construct »](commonmark-node-bulletlist.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

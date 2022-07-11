@@ -1,7 +1,5 @@
-- [«
-mailparse_determine_best_xfer_encoding](function.mailparse-determine-best-xfer-encoding.md)
-- [mailparse_msg_extract_part_file
-»](function.mailparse-msg-extract-part-file.md)
+- [« mailparse_determine_best_xfer_encoding](function.mailparse-determine-best-xfer-encoding.md)
+- [mailparse_msg_extract_part_file »](function.mailparse-msg-extract-part-file.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

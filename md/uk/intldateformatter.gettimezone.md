@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.md)
+- [« IntlDateFormatter::getCalendarObject](intldateformatter.getcalendarobject.md)
 - [IntlDateFormatter::isLenient »](intldateformatter.islenient.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Типи ресурсів](strings.resources.md)
-- [Функції для роботи з рядками»] (ref.strings.md)
+- [Функції для роботи з рядками»](ref.strings.md)
 
 - [PHP Manual](index.md)
 - [Рядки](book.strings.md)

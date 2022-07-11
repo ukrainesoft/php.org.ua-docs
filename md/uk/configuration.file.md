@@ -70,8 +70,7 @@ memory_limit u003d ${PHP_MEMORY_LIMIT}
 додаток. Не всі директиви PHP документовані в цьому посібнику:
 ознайомлення з повним списком директив доступних у вашій версії PHP,
 прочитайте коментарі вашого `php.ini`. Крім того, ви можете знайти
-корисною [»|останню версію
-`php.ini`](https://github.com/php/php-src/blob/master/php.ini-production)
+корисною [»|останню версію `php.ini`](https://github.com/php/php-src/blob/master/php.ini-production)
 з Git.
 
 **Приклад #2 Приклад `php.ini`**

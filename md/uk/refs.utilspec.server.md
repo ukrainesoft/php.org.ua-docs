@@ -1,5 +1,4 @@
-- [«
-SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.md)
+- [« SolrMissingMandatoryParameterException](class.solrmissingmandatoryparameterexception.md)
 - [Apache »](book.apache.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md)
+- [« SolrResponse::getRawResponseHeaders](solrresponse.getrawresponseheaders.md)
 - [SolrResponse::getResponse »](solrresponse.getresponse.md)
 
 - [PHP Manual](index.md)

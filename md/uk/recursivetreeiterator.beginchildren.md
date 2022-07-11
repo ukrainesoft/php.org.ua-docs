@@ -1,6 +1,5 @@
 - [«RecursiveTreeIterator](class.recursivetreeiterator.md)
-- [RecursiveTreeIterator::beginIteration
-»](recursivetreeiterator.beginiteration.md)
+- [RecursiveTreeIterator::beginIteration »](recursivetreeiterator.beginiteration.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)

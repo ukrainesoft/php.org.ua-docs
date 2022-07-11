@@ -1,5 +1,5 @@
 - [« Встановлення](apcu.installation.md)
-- [Типи ресурсів»] (apcu.resources.md)
+- [Типи ресурсів»](apcu.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](apcu.setup.md)
@@ -59,8 +59,7 @@ PHP_INI_SYSTEM | || [apc.coredump_unmap](apcu.configuration.md#ini.apcu.coredump
 **Опції конфігурації APCu**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

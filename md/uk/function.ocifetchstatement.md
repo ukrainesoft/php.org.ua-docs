@@ -1,5 +1,5 @@
 - [« ocifetchinto](function.ocifetchinto.md)
-- [ocifreecollection»] (function.ocifreecollection.md)
+- [ocifreecollection»](function.ocifreecollection.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

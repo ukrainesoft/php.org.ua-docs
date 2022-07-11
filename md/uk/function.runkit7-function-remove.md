@@ -1,5 +1,4 @@
-- [«
-runkit7_function_redefine](function.runkit7-function-redefine.md)
+- [« runkit7_function_redefine](function.runkit7-function-redefine.md)
 - [runkit7_function_rename »](function.runkit7-function-rename.md)
 
 - [PHP Manual](index.md)

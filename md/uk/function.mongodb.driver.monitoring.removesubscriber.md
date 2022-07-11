@@ -1,22 +1,23 @@
-- [«
-MongoDB\Driver\Monitoring ddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent
-»](class.mongodb-driver-monitoring-commandfailedevent.md)
+- [« MongoDB\Driver\Monitoring ddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md)
+- [MongoDB\Driver\Monitoring\CommandFailedEvent »](class.mongodb-driver-monitoring-commandfailedevent.md)
 
 - [PHP Manual](index.md)
 - [Функції](ref.monitoring.functions.md)
 - скасовує глобальну реєстрацію передплатника на подію моніторингу
 
-# MongoDB\Driver\MonitoringemoveSubscriber
+# MongoDB\Driver\Monitoring
+emoveSubscriber
 
 (mongodb \>u003d1.3.0)
 
-MongoDB\Driver\MonitoringemoveSubscriber — Скасовує глобальну
+MongoDB\Driver\Monitoring
+emoveSubscriber — Скасовує глобальну
 реєстрацію передплатника на подію моніторингу
 
 ### Опис
 
-**MongoDB\Driver\MonitoringemoveSubscriber**([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
+**MongoDB\Driver\Monitoring
+emoveSubscriber**([MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
 `$subscriber`): void
 
 Скасує глобальну реєстрацію передплатника на подію моніторингу.

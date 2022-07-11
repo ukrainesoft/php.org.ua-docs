@@ -1,5 +1,4 @@
-- [«
-date_default_timezone_get](function.date-default-timezone-get.md)
+- [« date_default_timezone_get](function.date-default-timezone-get.md)
 - [date_diff »](function.date-diff.md)
 
 - [PHP Manual](index.md)
@@ -31,8 +30,7 @@ INI-настроюванням
 `timezoneId`
 Ідентифікатор часового поясу, наприклад, `UTC`, `Africa/Lagos`,
 'Asia/Hong_Kong' або 'Europe/Lisbon'. Список допустимих ідентифікаторів
-часових поясів можна знайти в розділі [Список підтримуваних часових поясів
-поясів](timezones.md).
+часових поясів можна знайти в розділі [Список підтримуваних часових поясів поясів](timezones.md).
 
 ### Значення, що повертаються
 

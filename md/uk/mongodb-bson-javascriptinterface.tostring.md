@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md)
-- [MongoDB\BSON\MaxKeyInterface
-»](class.mongodb-bson-maxkeyinterface.md)
+- [« MongoDB\BSON\JavascriptInterface::getScope](mongodb-bson-javascriptinterface.getscope.md)
+- [MongoDB\BSON\MaxKeyInterface »](class.mongodb-bson-maxkeyinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\JavascriptInterface](class.mongodb-bson-javascriptinterface.md)

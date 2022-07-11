@@ -1,6 +1,5 @@
 - [« sodium_crypto_shorthash](function.sodium-crypto-shorthash.md)
-- [sodium_crypto_sign_ed25519_pk_to_curve25519
-»](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
+- [sodium_crypto_sign_ed25519_pk_to_curve25519 »](function.sodium-crypto-sign-ed25519-pk-to-curve25519.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

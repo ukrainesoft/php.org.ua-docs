@@ -9,5 +9,4 @@
 
 Для роботи модуля потрібен [»ZooKeeper](https://zookeeper.apache.org/)
 C Binding (версія 3.4.1 або вище). Детальніше дивіться [» ZooKeeper
-Programmer's
-Guide](https://zookeeper.apache.org/doc/trunk/zookeeperProgrammers.md#C+Binding).
+Programmer's Guide](https://zookeeper.apache.org/doc/trunk/zookeeperProgrammers.md#C+Binding).

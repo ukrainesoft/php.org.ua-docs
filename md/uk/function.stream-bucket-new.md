@@ -1,5 +1,4 @@
-- [«
-stream_bucket_make_writeable](function.stream-bucket-make-writeable.md)
+- [« stream_bucket_make_writeable](function.stream-bucket-make-writeable.md)
 - [stream_bucket_prepend »](function.stream-bucket-prepend.md)
 
 - [PHP Manual](index.md)

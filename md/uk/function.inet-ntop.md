@@ -1,5 +1,5 @@
 - [«http_response_code](function.http-response-code.md)
-- [inet_pton »] (function.inet-pton.md)
+- [inet_pton »](function.inet-pton.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

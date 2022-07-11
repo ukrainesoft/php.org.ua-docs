@@ -1,5 +1,5 @@
 - [«easter_days](function.easter-days.md)
-- [gregoriantojd »] (function.gregoriantojd.md)
+- [gregoriantojd »](function.gregoriantojd.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

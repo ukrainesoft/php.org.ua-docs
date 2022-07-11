@@ -1,5 +1,4 @@
-- [«
-register_shutdown_function](function.register-shutdown-function.md)
+- [« register_shutdown_function](function.register-shutdown-function.md)
 - [unregister_tick_function »](function.unregister-tick-function.md)
 
 - [PHP Manual](index.md)

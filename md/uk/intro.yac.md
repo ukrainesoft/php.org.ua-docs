@@ -1,4 +1,4 @@
-- [« Yac] (book.yac.md)
+- [« Yac](book.yac.md)
 - [Встановлення та налаштування »](yac.setup.md)
 
 - [PHP Manual](index.md)

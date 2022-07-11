@@ -1,5 +1,5 @@
 - [«mysql_close](function.mysql-close.md)
-- [mysql_create_db »] (function.mysql-create-db.md)
+- [mysql_create_db »](function.mysql-create-db.md)
 
 - [PHP Manual](index.md)
 - [MySQL](ref.mysql.md)
@@ -15,8 +15,7 @@ mysql_connect — Відкриває з'єднання із сервером MyS
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_connect()](function.mysqli-connect.md)
 - [PDO::\_\_construct()](pdo.construct.md)
@@ -74,9 +73,7 @@ int `$client_flags` u003d 0
 Параметр `client_flags` має бути комбінацією з наступних констант:
 128 (включає обробку `LOAD DATA LOCAL`), **`MYSQL_CLIENT_SSL`**,
 **`MYSQL_CLIENT_COMPRESS`**, **`MYSQL_CLIENT_IGNORE_SPACE`** or
-**`MYSQL_CLIENT_INTERACTIVE`**. Докладніше читайте в розділі [Клієнтські
-константи MySQL](mysql.constants.md#mysql.client-flags). У [SQL safe
-mode](ini.core.md#ini.sql.safe-mode) цей параметр ігнорується.
+**`MYSQL_CLIENT_INTERACTIVE`**. Докладніше читайте в розділі [Клієнтські константи MySQL](mysql.constants.md#mysql.client-flags). У [SQL safe mode](ini.core.md#ini.sql.safe-mode) цей параметр ігнорується.
 
 ### Значення, що повертаються
 

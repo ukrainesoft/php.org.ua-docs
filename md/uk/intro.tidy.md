@@ -1,4 +1,4 @@
-- [« Tidy] (book.tidy.md)
+- [« Tidy](book.tidy.md)
 - [Встановлення та налаштування »](tidy.setup.md)
 
 - [PHP Manual](index.md)

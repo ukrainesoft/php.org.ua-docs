@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::offsetSet](swoole-connection-iterator.offsetset.md)
-- [Swoole\Connection\Iterator::rewind
-»](swoole-connection-iterator.rewind.md)
+- [« Swoole\Connection\Iterator::offsetSet](swoole-connection-iterator.offsetset.md)
+- [Swoole\Connection\Iterator::rewind »](swoole-connection-iterator.rewind.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)

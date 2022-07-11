@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (ffi.resources.md)
+- [« Типи ресурсів](ffi.resources.md)
 - [Приклади »](ffi.examples.md)
 
 - [PHP Manual](index.md)

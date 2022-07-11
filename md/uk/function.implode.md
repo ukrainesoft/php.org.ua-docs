@@ -1,5 +1,5 @@
 - [«htmlspecialchars](function.mdspecialchars.md)
-- [join »] (function.join.md)
+- [join »](function.join.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

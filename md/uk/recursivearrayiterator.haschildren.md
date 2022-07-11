@@ -1,5 +1,4 @@
-- [«
-RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md)
+- [« RecursiveArrayIterator::getChildren](recursivearrayiterator.getchildren.md)
 - [RecursiveCachingIterator »](class.recursivecachingiterator.md)
 
 - [PHP Manual](index.md)

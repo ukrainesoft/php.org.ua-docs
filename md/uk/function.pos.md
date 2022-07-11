@@ -1,5 +1,5 @@
 - [«next](function.next.md)
-- [prev »] (function.prev.md)
+- [prev »](function.prev.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)

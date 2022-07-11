@@ -1,5 +1,5 @@
 - [« Встановлення](radius.installation.md)
-- [Типи ресурсів»] (radius.resources.md)
+- [Типи ресурсів»](radius.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](radius.setup.md)

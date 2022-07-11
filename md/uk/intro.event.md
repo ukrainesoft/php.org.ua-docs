@@ -2,7 +2,7 @@
 - [Встановлення та налаштування »](event.setup.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 -   Вступ
 
 # Вступ

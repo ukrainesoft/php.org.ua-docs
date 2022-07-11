@@ -22,8 +22,7 @@ public **Gmagick::setimagecolorspace**(int `$colorspace`):
 ### Список параметрів
 
 `colorspace`
-Одна з констант [Кольорового
-простору](gmagick.constants.md#gmagick.constants.colorspace)
+Одна з констант [Кольорового простору](gmagick.constants.md#gmagick.constants.colorspace)
 (`Gmagick::COLORSPACE_*`).
 
 ### Значення, що повертаються

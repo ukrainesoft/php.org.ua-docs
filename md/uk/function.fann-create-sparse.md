@@ -1,6 +1,5 @@
 - [« fann_create_sparse_array](function.fann-create-sparse-array.md)
-- [fann_create_standard_array
-»](function.fann-create-standard-array.md)
+- [fann_create_standard_array »](function.fann-create-standard-array.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

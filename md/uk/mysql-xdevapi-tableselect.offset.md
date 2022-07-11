@@ -1,5 +1,4 @@
-- [«
-TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md)
+- [« TableSelect::lockShared](mysql-xdevapi-tableselect.lockshared.md)
 - [TableSelect::orderby »](mysql-xdevapi-tableselect.orderby.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
-- [«
-Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md)
-- [Eio »] (book.eio.md)
+- [« Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md)
+- [Eio »](book.eio.md)
 
 - [PHP Manual](index.md)
 - [Довідник функцій](funcref.md)
@@ -14,15 +13,14 @@ Vtiful\Kernel\Format::underline](vtiful-kernel-format.underline.md)
 - [Предвизначені константи](eio.constants.md)
 - [Приклади](eio.examples.md)
 - [Eio Функції](ref.eio.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - [Вступ](intro.ev.md)
 - [Встановлення та налаштування](ev.setup.md)
 - [Предвизначені константи](ev.global.constants.md)
 - [Приклади](ev.examples.md)
 - [Спостерігачі](ev.watchers.md)
 - [Watcher callbacks](ev.watcher-callbacks.md)
-- [Режими роботи періодичних
-спостерігачів](ev.periodic-modes.md)
+- [Режими роботи періодичних спостерігачів](ev.periodic-modes.md)
 - [Ev](class.ev.md) - Клас Ev
 - [EvCheck](class.evcheck.md) - Клас EvCheck
 - [EvChild](class.evchild.md) - Клас EvChild

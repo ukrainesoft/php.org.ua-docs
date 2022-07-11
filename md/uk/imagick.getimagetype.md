@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md)
+- [« Imagick::getImageTotalInkDensity](imagick.getimagetotalinkdensity.md)
 - [Imagick::getImageUnits »](imagick.getimageunits.md)
 
 - [PHP Manual](index.md)

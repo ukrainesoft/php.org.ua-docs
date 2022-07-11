@@ -1,5 +1,5 @@
 - [«strptime](function.strptime.md)
-- [time »] (function.time.md)
+- [time »](function.time.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

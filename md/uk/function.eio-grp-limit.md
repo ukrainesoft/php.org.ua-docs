@@ -1,5 +1,5 @@
 - [«eio_grp_cancel](function.eio-grp-cancel.md)
-- [eio_grp »] (function.eio-grp.md)
+- [eio_grp »](function.eio-grp.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

@@ -2,7 +2,7 @@
 - [Встановлення та налаштування »](fann.setup.md)
 
 - [PHP Manual](index.md)
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 -   Вступ
 
 # Вступ

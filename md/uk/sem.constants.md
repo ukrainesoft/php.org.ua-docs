@@ -1,5 +1,5 @@
 - [« Типи ресурсів](sem.resources.md)
-- [Функції семафорів»] (ref.sem.md)
+- [Функції семафорів»](ref.sem.md)
 
 - [PHP Manual](index.md)
 - [Семафори](book.sem.md)

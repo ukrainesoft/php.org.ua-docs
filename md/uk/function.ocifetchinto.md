@@ -1,4 +1,4 @@
-- [« ocifetch] (function.ocifetch.md)
+- [« ocifetch](function.ocifetch.md)
 - [ocifetchstatement »](function.ocifetchstatement.md)
 
 - [PHP Manual](index.md)

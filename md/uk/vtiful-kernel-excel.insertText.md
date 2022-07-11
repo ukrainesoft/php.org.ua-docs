@@ -1,7 +1,5 @@
-- [«
-Vtiful\Kernel\Excel::insertImage](vtiful-kernel-excel.insertImage.md)
-- [Vtiful\Kernel\Excel::mergeCells
-»](vtiful-kernel-excel.mergeCells.md)
+- [« Vtiful\Kernel\Excel::insertImage](vtiful-kernel-excel.insertImage.md)
+- [Vtiful\Kernel\Excel::mergeCells »](vtiful-kernel-excel.mergeCells.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

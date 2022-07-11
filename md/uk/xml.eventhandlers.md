@@ -1,5 +1,5 @@
 - [«Зумовлені константи](xml.constants.md)
-- [Приведення до одного регістру»] (xml.case-folding.md)
+- [Приведення до одного регістру»](xml.case-folding.md)
 
 - [PHP Manual](index.md)
 - [Розбір XML](book.xml.md)

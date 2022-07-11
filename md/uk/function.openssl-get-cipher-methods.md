@@ -1,5 +1,4 @@
-- [«
-openssl_get_cert_locations](function.openssl-get-cert-locations.md)
+- [« openssl_get_cert_locations](function.openssl-get-cert-locations.md)
 - [openssl_get_curve_names »](function.openssl-get-curve-names.md)
 
 - [PHP Manual](index.md)

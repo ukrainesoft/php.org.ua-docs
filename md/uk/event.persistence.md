@@ -1,8 +1,8 @@
 - [«Прапори подій](event.flags.md)
-- [Callback-функції»] (event.callbacks.md)
+- [Callback-функції»](event.callbacks.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Про постійні (persistent) події
 
 # Про постійні (persistent) події
@@ -30,5 +30,4 @@
 2. Щоразу, коли минуло п'ять секунд з моменту останньої події.
 
 Дивіться також [» Fast Швидке, переносне, неблокуюче мережне
-програмування з Libevent, про постійні
-подіях](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_about_event_persistence)
+програмування з Libevent, про постійні подіях](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_about_event_persistence)

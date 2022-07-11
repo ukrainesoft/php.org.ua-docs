@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.md)
-- [ColumnResult::getSchemaName
-»](mysql-xdevapi-columnresult.getschemaname.md)
+- [« ColumnResult::getFractionalDigits](mysql-xdevapi-columnresult.getfractionaldigits.md)
+- [ColumnResult::getSchemaName »](mysql-xdevapi-columnresult.getschemaname.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

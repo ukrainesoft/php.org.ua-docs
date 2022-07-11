@@ -1,6 +1,5 @@
 - [«HRTime\StopWatch::stop](hrtime-stopwatch.stop.md)
-- [Модулі для роботи з файловою системою
-»](refs.fileprocess.file.md)
+- [Модулі для роботи з файловою системою »](refs.fileprocess.file.md)
 
 - [PHP Manual](index.md)
 - [HRTime](book.hrtime.md)

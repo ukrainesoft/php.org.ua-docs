@@ -17,14 +17,12 @@ EventConfig::avoidMethod — Попросити libevent не використо
 public **EventConfig::avoidMethod**( string `$method` ): bool
 
 Попросити libevent не використовувати певний метод події (бекенд).
-Дивіться [» Створення бази
-події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base).
+Дивіться [» Створення бази події](http://www.wangafu.net/~nickm/libevent-book/Ref2_eventbase.md#_creating_an_event_base).
 
 ### Список параметрів
 
 `method`
-Метод бекенду, який потрібно ігнорувати. Дивіться [константи
-EventConfig](class.eventconfig.md#eventconfig.constants) .
+Метод бекенду, який потрібно ігнорувати. Дивіться [константи EventConfig](class.eventconfig.md#eventconfig.constants) .
 
 ### Значення, що повертаються
 

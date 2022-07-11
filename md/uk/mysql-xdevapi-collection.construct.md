@@ -1,5 +1,4 @@
-- [«
-Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.md)
+- [« Collection::addOrReplaceOne](mysql-xdevapi-collection.addorreplaceone.md)
 - [Collection::count »](mysql-xdevapi-collection.count.md)
 
 - [PHP Manual](index.md)

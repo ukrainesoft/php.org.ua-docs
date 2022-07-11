@@ -14,7 +14,7 @@ iconv_mime_encode — Створює поле `MIME`-заголовка
 ### Опис
 
 **iconv_mime_encode**(string `$field_name`, string `$field_value`, array
-`$options` u003d \[\]): string\|false
+`$options` u003d []): string\|false
 
 Створює та повертає коректне поле `MIME`-заголовка у вигляді рядка
 виду:

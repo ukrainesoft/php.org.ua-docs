@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Symbol::\_\_construct](mongodb-bson-symbol.construct.md)
-- [MongoDB\BSON\Symbol::serialize
-»](mongodb-bson-symbol.serialize.md)
+- [« MongoDB\BSON\Symbol::\_\_construct](mongodb-bson-symbol.construct.md)
+- [MongoDB\BSON\Symbol::serialize »](mongodb-bson-symbol.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

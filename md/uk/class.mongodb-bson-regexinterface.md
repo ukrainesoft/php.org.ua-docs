@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectIdInterface::\_\_toString](mongodb-bson-objectidinterface.tostring.md)
-- [MongoDB\BSON\RegexInterface::getFlags
-»](mongodb-bson-regexinterface.getflags.md)
+- [« MongoDB\BSON\ObjectIdInterface::\_\_toString](mongodb-bson-objectidinterface.tostring.md)
+- [MongoDB\BSON\RegexInterface::getFlags »](mongodb-bson-regexinterface.getflags.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

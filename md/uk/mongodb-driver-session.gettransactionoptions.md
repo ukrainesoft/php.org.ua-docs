@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::getServer](mongodb-driver-session.getserver.md)
-- [MongoDB\Driver\Session::getTransactionState
-»](mongodb-driver-session.gettransactionstate.md)
+- [« MongoDB\Driver\Session::getServer](mongodb-driver-session.getserver.md)
+- [MongoDB\Driver\Session::getTransactionState »](mongodb-driver-session.gettransactionstate.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

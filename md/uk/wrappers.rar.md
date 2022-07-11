@@ -49,8 +49,7 @@ URL-кодування. Сенс цього в тому, щоб дозволит
 ### Опції
 
 | Атрибут Підтримка
-|------------------------------------------------- ----------------------------------------|--------- --|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
+|------------------------------------------------- ----------------------------------------|--------- --| | Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
 | Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | Ні |
 | Читання | Так |
 | Запис | Ні |

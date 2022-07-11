@@ -1,6 +1,5 @@
 - [« Yaf_Request_Abstract::isGet](yaf-request-abstract.isget.md)
-- [Yaf_Request_Abstract::isOptions
-»](yaf-request-abstract.isoptions.md)
+- [Yaf_Request_Abstract::isOptions »](yaf-request-abstract.isoptions.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

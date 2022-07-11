@@ -1,6 +1,5 @@
 - [« IntlChar::getFC_NFKC_Closure](intlchar.getfc-nfkc-closure.md)
-- [IntlChar::getIntPropertyMinValue
-»](intlchar.getintpropertyminvalue.md)
+- [IntlChar::getIntPropertyMinValue »](intlchar.getintpropertyminvalue.md)
 
 - [PHP Manual](index.md)
 - [IntlChar](class.intlchar.md)

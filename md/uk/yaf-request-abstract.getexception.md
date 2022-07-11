@@ -1,6 +1,5 @@
 - [« Yaf_Request_Abstract::getEnv](yaf-request-abstract.getenv.md)
-- [Yaf_Request_Abstract::getLanguage
-»](yaf-request-abstract.getlanguage.md)
+- [Yaf_Request_Abstract::getLanguage »](yaf-request-abstract.getlanguage.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

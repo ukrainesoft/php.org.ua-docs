@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md)
-- [MongoDB\Driver\ReadConcern::unserialize
-»](mongodb-driver-readconcern.unserialize.md)
+- [« MongoDB\Driver\ReadConcern::isDefault](mongodb-driver-readconcern.isdefault.md)
+- [MongoDB\Driver\ReadConcern::unserialize »](mongodb-driver-readconcern.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)

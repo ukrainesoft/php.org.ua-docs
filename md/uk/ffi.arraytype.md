@@ -25,8 +25,7 @@ public static **FFI::arrayType**([FFI\CType](class.ffi-ctype.md)
 ### Список параметрів
 
 `type`
-Коректна декларація типу С, наприклад string, або заздалегідь створений
-об'єкт класу [FFI\CType](class.ffi-ctype.md).
+Коректна декларація типу С, наприклад string, або заздалегідь створений об'єкт класу [FFI\CType](class.ffi-ctype.md).
 
 `dimensions`
 Масив, що визначає розмірність типу.

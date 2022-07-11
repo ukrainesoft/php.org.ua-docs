@@ -1,6 +1,5 @@
 - [« geoip_id_by_name](function.geoip-id-by-name.md)
-- [geoip_netspeedcell_by_name
-»](function.geoip-netspeedcell-by-name.md)
+- [geoip_netspeedcell_by_name »](function.geoip-netspeedcell-by-name.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

@@ -1,7 +1,5 @@
-- [«
-SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md)
-- [SolrInputDocument::hasChildDocuments
-»](solrinputdocument.haschilddocuments.md)
+- [« SolrInputDocument::getFieldCount](solrinputdocument.getfieldcount.md)
+- [SolrInputDocument::hasChildDocuments »](solrinputdocument.haschilddocuments.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

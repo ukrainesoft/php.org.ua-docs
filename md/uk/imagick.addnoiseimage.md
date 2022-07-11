@@ -21,16 +21,13 @@ Imagick::CHANNEL_DEFAULT): bool
 ### Список параметрів
 
 `noise_type`
-Тип шуму. Зверніться до списку [констант
-шума](imagick.constants.md#imagick.constants.noise).
+Тип шуму. Зверніться до списку [констант шума](imagick.constants.md#imagick.constants.noise).
 
 `channel`
 Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи
-каналов](imagick.constants.md#imagick.constants.channel) за допомогою
+застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
 побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант
-каналов](imagick.constants.md#imagick.constants.channel)
+Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

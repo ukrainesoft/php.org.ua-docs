@@ -12,4 +12,4 @@
 - [Вимоги](pcntl.requirements.md)
 - [Установка](pcntl.installation.md)
 - [Налаштування під час виконання](pcntl.configuration.md)
-- [Типи ресурсів] (pcntl.resources.md)
+- [Типи ресурсів](pcntl.resources.md)

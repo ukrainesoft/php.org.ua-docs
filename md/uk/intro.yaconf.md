@@ -1,8 +1,8 @@
-- [« Yaconf] (book.yaconf.md)
+- [« Yaconf](book.yaconf.md)
 - [Встановлення та налаштування »](yaconf.setup.md)
 
 - [PHP Manual](index.md)
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 -   Вступ
 
 # Вступ

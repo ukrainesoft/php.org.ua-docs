@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md)
+- [« Imagick::getImageTicksPerSecond](imagick.getimagetickspersecond.md)
 - [Imagick::getImageType »](imagick.getimagetype.md)
 
 - [PHP Manual](index.md)

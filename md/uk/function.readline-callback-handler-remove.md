@@ -1,7 +1,5 @@
-- [«
-readline_callback_handler_install](function.readline-callback-handler-install.md)
-- [readline_callback_read_char
-»](function.readline-callback-read-char.md)
+- [« readline_callback_handler_install](function.readline-callback-handler-install.md)
+- [readline_callback_read_char »](function.readline-callback-read-char.md)
 
 - [PHP Manual](index.md)
 - [Функції Readline](ref.readline.md)

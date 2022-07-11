@@ -35,8 +35,7 @@ int\|float\|false
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `attribute`
-Специфікатор атрибута - одна з констант [числового
-атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute).
+Специфікатор атрибута - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute).
 
 ### Значення, що повертаються
 

@@ -33,8 +33,7 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **`false`**, якщо ні.
 
 Якщо callback-функція не задана, будуть включені тільки елементи,
-які наводяться до логічного значення **`true`** (дивись [приведення
-до boolean](language.types.boolean.md#language.types.boolean.casting)).
+які наводяться до логічного значення **`true`** (дивись [приведення до boolean](language.types.boolean.md#language.types.boolean.casting)).
 
 ### Значення, що повертаються
 

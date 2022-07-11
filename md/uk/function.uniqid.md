@@ -1,5 +1,5 @@
 - [«time_sleep_until](function.time-sleep-until.md)
-- [unpack »] (function.unpack.md)
+- [unpack »](function.unpack.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

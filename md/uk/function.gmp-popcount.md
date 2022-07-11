@@ -1,5 +1,5 @@
 - [«gmp_perfect_square](function.gmp-perfect-square.md)
-- [gmp_pow »] (function.gmp-pow.md)
+- [gmp_pow »](function.gmp-pow.md)
 
 - [PHP Manual](index.md)
 - [GMP Функції](ref.gmp.md)

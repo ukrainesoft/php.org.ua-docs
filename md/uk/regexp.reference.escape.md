@@ -2,8 +2,7 @@
 - [Властивості Unicode-символів »](regexp.reference.unicode.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Екрануючі послідовності
 
 ## Екрануючі послідовності
@@ -71,12 +70,14 @@ unicode](regexp.reference.unicode.md)
 символ без властивості xx, докладніше дивіться
 unicode](regexp.reference.unicode.md)
 
-**
+*
+*
 повернення каретки (шістнадцятковий код 0D)
 
 *\R*
 розрив рядка: збігається з
-, і
+,
+ і
 
 * *
 табуляція (шістнадцятковий код 09)

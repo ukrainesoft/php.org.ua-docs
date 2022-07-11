@@ -1,6 +1,5 @@
 - [« Swoole\Client::wakeup](swoole-client.wakeup.md)
-- [Swoole\Connection\Iterator::count
-»](swoole-connection-iterator.count.md)
+- [Swoole\Connection\Iterator::count »](swoole-connection-iterator.count.md)
 
 - [PHP Manual](index.md)
 - [Swoole](book.swoole.md)

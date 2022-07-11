@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Command::\_\_construct](mongodb-driver-command.construct.md)
-- [MongoDB\Driver\Query::\_\_construct
-»](mongodb-driver-query.construct.md)
+- [« MongoDB\Driver\Command::\_\_construct](mongodb-driver-command.construct.md)
+- [MongoDB\Driver\Query::\_\_construct »](mongodb-driver-query.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

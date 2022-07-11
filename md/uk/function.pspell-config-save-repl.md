@@ -1,5 +1,4 @@
-- [«
-pspell_config_runtogether](function.pspell-config-runtogether.md)
+- [« pspell_config_runtogether](function.pspell-config-runtogether.md)
 - [pspell_new_config »](function.pspell-new-config.md)
 
 - [PHP Manual](index.md)

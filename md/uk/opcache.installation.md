@@ -50,5 +50,4 @@ opcache.enable_cliu003d1
 має бути встановлена на вже існуючий та доступний для запису
 каталог.
 
-Повний список опцій налаштування OPcache [дивіться
-тут](opcache.configuration.md).
+Повний список опцій налаштування OPcache [дивіться тут](opcache.configuration.md).

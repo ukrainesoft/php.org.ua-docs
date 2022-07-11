@@ -59,8 +59,7 @@ array (
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_sort()](collator.sort.md) - Сортує масив з
 використанням зазначеного засобу сортування
 - [collator_asort()](collator.asort.md) - Сортує масив з

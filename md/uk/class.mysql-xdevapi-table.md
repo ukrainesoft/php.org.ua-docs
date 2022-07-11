@@ -1,5 +1,4 @@
-- [«
-Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md)
+- [« Statement::hasMoreResults](mysql-xdevapi-statement.hasmoreresults.md)
 - [Table::\_\_construct »](mysql-xdevapi-table.construct.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
-- [«
-stream_socket_enable_crypto](function.stream-socket-enable-crypto.md)
-- [stream_socket_pair »] (function.stream-socket-pair.md)
+- [« stream_socket_enable_crypto](function.stream-socket-enable-crypto.md)
+- [stream_socket_pair »](function.stream-socket-pair.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

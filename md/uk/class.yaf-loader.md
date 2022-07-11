@@ -1,5 +1,4 @@
-- [«
-Yaf_View_Simple::setScriptPath](yaf-view-simple.setscriptpath.md)
+- [« Yaf_View_Simple::setScriptPath](yaf-view-simple.setscriptpath.md)
 - [Yaf_Loader::autoload »](yaf-loader.autoload.md)
 
 - [PHP Manual](index.md)
@@ -39,13 +38,11 @@ Yaf.
 > переписати.
 
 За замовчуванням **Yaf_Loader** припускає, що вся бібліотека (сценарій,
-визначений класом) зберігається в [каталозі глобальної
-бібліотеки](yaf.configuration.md#ini.yaf.library), який визначено в
+визначений класом) зберігається в [каталозі глобальної бібліотеки](yaf.configuration.md#ini.yaf.library), який визначено в
 php.ini (yaf.library).
 
 Якщо ви хочете за допомогою **Yaf_Loader** виконати пошук деяких
-класів (бібліотек) у [каталозі локальних
-класів](class.yaf-loader.md#yaf-loader.props.library) (який
+класів (бібліотек) у [каталозі локальних класів](class.yaf-loader.md#yaf-loader.props.library) (який
 визначено в application.ini, за замовчуванням це
 [application.directory](yaf.appconfig.md#configuration.yaf.directory).
 "/library"), ви повинні зареєструвати префікс класу, використовуючи

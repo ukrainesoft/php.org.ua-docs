@@ -11,5 +11,4 @@
 
 - [Знайомство з генераторами](language.generators.overview.md)
 - [Синтаксис генераторів](language.generators.syntax.md)
-- [Порівняння генераторів з об'єктами класу
-Iterator](language.generators.comparison.md)
+- [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)

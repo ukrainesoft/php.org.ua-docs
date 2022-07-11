@@ -1,6 +1,5 @@
 - [«trader_floor](function.trader-floor.md)
-- [trader_get_unstable_period
-»](function.trader-get-unstable-period.md)
+- [trader_get_unstable_period »](function.trader-get-unstable-period.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

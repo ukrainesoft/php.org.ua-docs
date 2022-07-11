@@ -1,7 +1,5 @@
-- [«
-RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
-- [RecursiveTreeIterator::getPostfix
-»](recursivetreeiterator.getpostfix.md)
+- [« RecursiveTreeIterator::endIteration](recursivetreeiterator.enditeration.md)
+- [RecursiveTreeIterator::getPostfix »](recursivetreeiterator.getpostfix.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)

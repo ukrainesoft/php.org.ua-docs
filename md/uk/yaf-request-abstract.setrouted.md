@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md)
+- [« Yaf_Request_Abstract::setRequestUri](yaf-request-abstract.setrequesturi.md)
 - [Yaf_Request_Http »](class.yaf-request-http.md)
 
 - [PHP Manual](index.md)

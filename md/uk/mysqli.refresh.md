@@ -35,11 +35,9 @@ bool
 
 `flags`
 Налаштування оновлення задаються константами MYSQLI_REFRESH\_\*, які
-описано в розділі документації [Константи
-MySQLi](mysqli.constants.md).
+описано в розділі документації [Константи MySQLi](mysqli.constants.md).
 
-Дивіться також офіційну документацію [» MySQL
-Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md).
+Дивіться також офіційну документацію [» MySQL Refresh](http://dev.mysql.com/doc/mysql/en/mysql-refresh.md).
 
 ### Значення, що повертаються
 

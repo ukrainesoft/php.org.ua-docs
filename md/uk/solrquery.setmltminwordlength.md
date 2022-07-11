@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setMltMinTermFrequency](solrquery.setmltmintermfrequency.md)
+- [« SolrQuery::setMltMinTermFrequency](solrquery.setmltmintermfrequency.md)
 - [SolrQuery::setOmitHeader »](solrquery.setomitheader.md)
 
 - [PHP Manual](index.md)

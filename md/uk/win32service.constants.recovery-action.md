@@ -1,7 +1,5 @@
-- [« Базові класи пріоритетів
-Win32](win32service.constants.basepriorities.md)
-- [Win32 Service informations
-»](win32service.constants.serviceinfos.md)
+- [« Базові класи пріоритетів Win32](win32service.constants.basepriorities.md)
+- [Win32 Service informations »](win32service.constants.serviceinfos.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

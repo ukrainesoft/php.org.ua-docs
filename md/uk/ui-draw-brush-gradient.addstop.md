@@ -1,6 +1,5 @@
 - [« UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md)
-- [UI\Draw\Brush\Gradient::delStop
-»](ui-draw-brush-gradient.delstop.md)
+- [UI\Draw\Brush\Gradient::delStop »](ui-draw-brush-gradient.delstop.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Brush\Gradient](class.ui-draw-brush-gradient.md)

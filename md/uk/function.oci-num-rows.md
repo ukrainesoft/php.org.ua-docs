@@ -1,5 +1,5 @@
 - [«oci_num_fields](function.oci-num-fields.md)
-- [oci_parse »] (function.oci-parse.md)
+- [oci_parse »](function.oci-parse.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)

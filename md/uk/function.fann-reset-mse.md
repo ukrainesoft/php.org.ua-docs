@@ -1,5 +1,5 @@
 - [« fann_reset_errstr](function.fann-reset-errstr.md)
-- [fann_run »] (function.fann-run.md)
+- [fann_run »](function.fann-run.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

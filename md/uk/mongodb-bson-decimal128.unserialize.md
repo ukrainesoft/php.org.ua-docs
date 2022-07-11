@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.md)
+- [« MongoDB\BSON\Decimal128::\_\_toString](mongodb-bson-decimal128.tostring.md)
 - [MongoDB\BSON\Javascript »](class.mongodb-bson-javascript.md)
 
 - [PHP Manual](index.md)

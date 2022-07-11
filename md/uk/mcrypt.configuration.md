@@ -1,5 +1,5 @@
 - [« Установка](mcrypt.installation.md)
-- [Типи ресурсів»] (mcrypt.resources.md)
+- [Типи ресурсів»](mcrypt.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](mcrypt.setup.md)
@@ -17,8 +17,7 @@
 **Опції налаштування Mcrypt**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

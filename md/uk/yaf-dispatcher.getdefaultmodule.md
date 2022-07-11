@@ -1,5 +1,4 @@
-- [«
-Yaf_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md)
+- [« Yaf_Dispatcher::getDefaultController](yaf-dispatcher.getdefaultcontroller.md)
 - [Yaf_Dispatcher::getInstance »](yaf-dispatcher.getinstance.md)
 
 - [PHP Manual](index.md)

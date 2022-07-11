@@ -1,5 +1,4 @@
-- [«
-variant_date_to_timestamp](function.variant-date-to-timestamp.md)
+- [« variant_date_to_timestamp](function.variant-date-to-timestamp.md)
 - [variant_eqv »](function.variant-eqv.md)
 
 - [PHP Manual](index.md)

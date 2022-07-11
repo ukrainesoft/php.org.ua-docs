@@ -12,12 +12,11 @@
 - [Вимоги](pcre.requirements.md)
 - [Установка](pcre.installation.md)
 - [Налаштування під час виконання](pcre.configuration.md)
-- [Типи ресурсів] (pcre.resources.md)
+- [Типи ресурсів](pcre.resources.md)
 - [Предвизначені константи](pcre.constants.md)
 - [Приклади](pcre.examples.md)
 - [Регулярні висловлювання PCRE](pcre.pattern.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів] (reference.pcre.pattern.syntax.md) - Синтаксис
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md) - Синтаксис
 регулярних виразів
 - [Описує можливі модифікатори шаблонів Perl-сумісних
 регулярних виразів

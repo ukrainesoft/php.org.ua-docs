@@ -1,6 +1,5 @@
 - [« SplDoublyLinkedList::shift](spldoublylinkedlist.shift.md)
-- [SplDoublyLinkedList::unserialize
-»](spldoublylinkedlist.unserialize.md)
+- [SplDoublyLinkedList::unserialize »](spldoublylinkedlist.unserialize.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

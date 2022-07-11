@@ -1,5 +1,4 @@
-- [«
-DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md)
+- [« DOMXPath::registerPhpFunctions](domxpath.registerphpfunctions.md)
 - [dom_import_simplexml »](function.dom-import-simplexml.md)
 
 - [PHP Manual](index.md)

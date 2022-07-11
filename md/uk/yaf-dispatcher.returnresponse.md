@@ -1,7 +1,5 @@
-- [«
-Yaf_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.md)
-- [Yaf_Dispatcher::setDefaultAction
-»](yaf-dispatcher.setdefaultaction.md)
+- [« Yaf_Dispatcher::registerPlugin](yaf-dispatcher.registerplugin.md)
+- [Yaf_Dispatcher::setDefaultAction »](yaf-dispatcher.setdefaultaction.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

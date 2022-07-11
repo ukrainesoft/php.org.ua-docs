@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md)
+- [« Imagick::getImageVirtualPixelMethod](imagick.getimagevirtualpixelmethod.md)
 - [Imagick::getImageWidth »](imagick.getimagewidth.md)
 
 - [PHP Manual](index.md)

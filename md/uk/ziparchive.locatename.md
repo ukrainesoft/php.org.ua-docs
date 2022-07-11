@@ -1,5 +1,4 @@
-- [«
-ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)
+- [« ZipArchive::isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)
 - [ZipArchive::open »](ziparchive.open.md)
 
 - [PHP Manual](index.md)

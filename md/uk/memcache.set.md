@@ -1,6 +1,5 @@
 - [« Memcache::replace](memcache.replace.md)
-- [Memcache::setCompressThreshold
-»](memcache.setcompressthreshold.md)
+- [Memcache::setCompressThreshold »](memcache.setcompressthreshold.md)
 
 - [PHP Manual](index.md)
 - [Memcache](class.memcache.md)

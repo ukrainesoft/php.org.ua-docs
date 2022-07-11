@@ -36,8 +36,7 @@ public
 Ресурс засобу форматування.
 
 `calendar`
-Можливо: [тип
-календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes)
+Можливо: [тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes)
 для використання (за замовчуванням **`IntlDateFormatter::GREGORIAN`**,
 який також використовується, якщо вказано значення **`null`**) або об'єкт
 [IntlCalendar](class.intlcalendar.md).

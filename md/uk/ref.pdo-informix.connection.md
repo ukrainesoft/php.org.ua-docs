@@ -1,8 +1,8 @@
-- [« Informix (PDO)] (ref.pdo-informix.md)
+- [« Informix (PDO)](ref.pdo-informix.md)
 - [MySQL (PDO) »](ref.pdo-mysql.md)
 
 - [PHP Manual](index.md)
-- [Informix (PDO)] (ref.pdo-informix.md)
+- [Informix (PDO)](ref.pdo-informix.md)
 - З'єднання з базою даних Informix
 
 #PDO_INFORMIX DSN
@@ -15,16 +15,14 @@ PDO_INFORMIX DSN — З'єднання з базою даних Informix
 
 Рядок з'єднання (Data Source Name, DSN) PDO_INFORMIX базується на
 рядку Informix ODBC DSN. Подробиці конфігурації Informix ODBC DSN
-читайте на сайті [» Informix Dynamic Server Information
-Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp).
+читайте на сайті [» Informix Dynamic Server Information Center](http://publib.boulder.ibm.com/infocenter/idshelp/v10/index.jsp).
 Основні елементи PDO_INFORMIX DSN:
 
 Префікс DSN
 **`informix:`**.
 
 DSN
-DSN повинен бути або вказаний в `odbc.ini` або заданий повним [»рядком
-з'єднання](http://publib.boulder.ibm.com/infocenter/idshelp/v10/topic/com.ibm.odbc.doc/odbc66.htm#sii02998361).
+DSN повинен бути або вказаний в `odbc.ini` або заданий повним [»рядком з'єднання](http://publib.boulder.ibm.com/infocenter/idshelp/v10/topic/com.ibm.odbc.doc/odbc66.htm#sii02998361).
 
 ### Приклади
 

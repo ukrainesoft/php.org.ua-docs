@@ -1,6 +1,5 @@
 - [« ReflectionProperty](class.reflectionproperty.md)
-- [ReflectionProperty::\_\_construct
-»](reflectionproperty.construct.md)
+- [ReflectionProperty::\_\_construct »](reflectionproperty.construct.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

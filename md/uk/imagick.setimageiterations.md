@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md)
+- [« Imagick::setImageInterpolateMethod](imagick.setimageinterpolatemethod.md)
 - [Imagick::setImageMatte »](imagick.setimagematte.md)
 
 - [PHP Manual](index.md)

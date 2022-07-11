@@ -1,5 +1,4 @@
-- [« Транзакції та автоматична фіксація
-змін](pdo.transactions.md)
+- [« Транзакції та автоматична фіксація змін](pdo.transactions.md)
 - [Помилки та їх обробка»](pdo.error-handling.md)
 
 - [PHP Manual](index.md)

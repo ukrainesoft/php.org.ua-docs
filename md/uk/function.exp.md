@@ -1,5 +1,5 @@
 - [«deg2rad](function.deg2rad.md)
-- [expm1 »] (function.expm1.md)
+- [expm1 »](function.expm1.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

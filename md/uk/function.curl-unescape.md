@@ -1,5 +1,5 @@
 - [«curl_strerror](function.curl-strerror.md)
-- [curl_version »] (function.curl-version.md)
+- [curl_version »](function.curl-version.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

@@ -1,5 +1,5 @@
 - [«socket_select](function.socket-select.md)
-- [socket_sendmsg »] (function.socket-sendmsg.md)
+- [socket_sendmsg »](function.socket-sendmsg.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)
@@ -58,7 +58,7 @@ int `$flags`
 
 | Версія | Опис |
 |--------|---------------------------------------- -------------------------------------------------- ----|
-| 8.0.0 | `socket` тепер екземпляр класу [Socket] (class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

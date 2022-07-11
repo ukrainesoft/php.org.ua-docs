@@ -1,5 +1,4 @@
-- [«
-SolrInputDocument::\_\_construct](solrinputdocument.construct.md)
+- [« SolrInputDocument::\_\_construct](solrinputdocument.construct.md)
 - [SolrInputDocument::\_\_destruct »](solrinputdocument.destruct.md)
 
 - [PHP Manual](index.md)

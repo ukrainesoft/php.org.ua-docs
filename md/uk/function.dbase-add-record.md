@@ -34,7 +34,7 @@ dbase_add_record — Додає запис до бази даних
 > Якщо ви використовуєте як параметр запис, який повернув
 > функція [dbase_get_record()](function.dbase-get-record.md), не
 > забудьте скинути ключ `deleted`. (прим пров. -
-> unset(record\['deleted'\]);
+> unset(record['deleted']);
 
 ### Значення, що повертаються
 

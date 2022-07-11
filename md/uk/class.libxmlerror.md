@@ -1,5 +1,5 @@
 - [«Зумовлені константи](libxml.constants.md)
-- [Функції libxml »] (ref.libxml.md)
+- [Функції libxml »](ref.libxml.md)
 
 - [PHP Manual](index.md)
 - [libxml](book.libxml.md)
@@ -12,8 +12,7 @@
 ## Вступ
 
 Містить різну інформацію про помилки, що викидаються libxml. Коди
-помилок описані в офіційній [» xmlError API
-документації](http://www.xmlsoft.org/html/libxml-xmlerror.md).
+помилок описані в офіційній [» xmlError API документації](http://www.xmlsoft.org/html/libxml-xmlerror.md).
 
 ## Огляд класів
 

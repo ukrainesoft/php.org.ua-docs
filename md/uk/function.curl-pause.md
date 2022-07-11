@@ -1,5 +1,5 @@
 - [«curl_multi_strerror](function.curl-multi-strerror.md)
-- [curl_reset»] (function.curl-reset.md)
+- [curl_reset»](function.curl-reset.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

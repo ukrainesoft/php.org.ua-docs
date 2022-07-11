@@ -69,7 +69,7 @@ ODBC
 ресурси, пов'язані з результатом
 - [odbc_gettypeinfo](function.odbc-gettypeinfo.md) — Повертає
 інформацію про типи даних, що підтримуються джерелом даних
-- [odbc_longreadlen] (function.odbc-longreadlen.md) -
+- [odbc_longreadlen](function.odbc-longreadlen.md) -
 Обробляє стовпці LONG
 - [odbc_next_result](function.odbc-next-result.md) — Перевіряє,
 чи є кілька результатів

@@ -1,4 +1,4 @@
-- [« MongoDB \ BSON] (book.bson.md)
+- [« MongoDB \ BSON](book.bson.md)
 - [MongoDB\BSON romJSON »](function.mongodb.bson-fromjson.md)
 
 - [PHP Manual](index.md)

@@ -8,8 +8,7 @@
 ## Установка
 
 Для того, щоб включити підтримку PostgreSQL, необхідно скомпілювати
-PHP з директивою **-with-pgsql\[u003dDIR\]**. Параметр `DIR` визначає
+PHP з директивою **-with-pgsql[u003dDIR]**. Параметр `DIR` визначає
 шлях до настановної директорії PostgreSQL, за замовчуванням це
-`/usr/local/pgsql`. Якщо доступний динамічний модуль, він може бути
-включений директивою [extension](ini.core.md#ini.extension) в `php.ini`,
+`/usr/local/pgsql`. Якщо доступний динамічний модуль, він може бути включений директивою [extension](ini.core.md#ini.extension) в `php.ini`,
 або функцією [dl()](function.dl.md).

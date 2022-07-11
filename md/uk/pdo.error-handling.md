@@ -1,5 +1,4 @@
-- [« Підготовлені запити та збережені
-процедури](pdo.prepared-statements.md)
+- [« Підготовлені запити та збережені процедури](pdo.prepared-statements.md)
 - [Великі об'єкти (LOB) »](pdo.lobs.md)
 
 - [PHP Manual](index.md)

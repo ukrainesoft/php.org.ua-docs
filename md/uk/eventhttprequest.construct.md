@@ -1,5 +1,4 @@
-- [«
-EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md)
+- [« EventHttpRequest::closeConnection](eventhttprequest.closeconnection.md)
 - [EventHttpRequest::findHeader »](eventhttprequest.findheader.md)
 
 - [PHP Manual](index.md)

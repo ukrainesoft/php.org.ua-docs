@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
-- [ReflectionFunctionAbstract::isClosure
-»](reflectionfunctionabstract.isclosure.md)
+- [« ReflectionFunctionAbstract::hasTentativeReturnType](reflectionfunctionabstract.hastentativereturntype.md)
+- [ReflectionFunctionAbstract::isClosure »](reflectionfunctionabstract.isclosure.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

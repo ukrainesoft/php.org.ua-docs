@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::format](intldateformatter.format.md)
-- [IntlDateFormatter::getCalendar
-»](intldateformatter.getcalendar.md)
+- [IntlDateFormatter::getCalendar »](intldateformatter.getcalendar.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)
@@ -57,15 +56,13 @@ public static
 **`IntlDateFormatter::FULL`**), ціле число (int) зі значенням однієї з
 цих констант (у цьому випадку воно буде використовуватися як для часу,
 так і для дати) або рядок (string) у форматі, описаному в
-[» документації
-ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax).
+[» документації ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax).
 Якщо вказано значення **`null`**, буде використовуватися стиль
 замовчуванням.
 
 `locale`
 Використовуваний мовний стандарт або **`null`** для використання
-[значення по
-замовчуванням](intl.configuration.md#ini.intl.default-locale).
+[значення по замовчуванням](intl.configuration.md#ini.intl.default-locale).
 
 ### Значення, що повертаються
 

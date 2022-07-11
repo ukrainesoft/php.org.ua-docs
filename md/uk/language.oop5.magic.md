@@ -1,4 +1,4 @@
-- [« Ітератори об'єктів] (language.oop5.iterations.md)
+- [« Ітератори об'єктів](language.oop5.iterations.md)
 - [Ключове слово final»](language.oop5.final.md)
 
 - [PHP Manual](index.md)
@@ -178,8 +178,7 @@ public **\_\_toString**(): string
 
 Починаючи з PHP 8.0.0, значення, що повертається, слід стандартної семантиці
 типу PHP, що означає, що воно буде перетворено на рядок (string),
-якщо можливо, і якщо [strict
-typing](language.types.declarations.md#language.types.declarations.strict)
+якщо можливо, і якщо [strict typing](language.types.declarations.md#language.types.declarations.strict)
 вимкнено.
 
 Починаючи з PHP 8.0.0, будь-який клас, що містить метод

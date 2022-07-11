@@ -23,7 +23,7 @@ int `$y`,
 int `$color`,
 string `$font_filename`,
 string `$text`,
-array `$options` u003d \[\]
+array `$options` u003d []
 ): array\|false
 
 > **Примітка**:

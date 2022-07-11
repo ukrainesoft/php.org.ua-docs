@@ -1,5 +1,5 @@
 - [«bzopen](function.bzopen.md)
-- [bzwrite »] (function.bzwrite.md)
+- [bzwrite »](function.bzwrite.md)
 
 - [PHP Manual](index.md)
 - [Функції Bzip2](ref.bzip2.md)

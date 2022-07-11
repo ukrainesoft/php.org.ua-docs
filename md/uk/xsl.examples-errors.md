@@ -1,5 +1,4 @@
-- [« Файли collection.xml та collection.xsl для
-прикладів](xsl.examples-collection.md)
+- [« Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
 - [XSLTProcessor »](class.xsltprocessor.md)
 
 - [PHP Manual](index.md)

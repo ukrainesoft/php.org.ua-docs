@@ -1,5 +1,4 @@
-- [«
-TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.md)
+- [« TableSelect::lockExclusive](mysql-xdevapi-tableselect.lockexclusive.md)
 - [TableSelect::offset »](mysql-xdevapi-tableselect.offset.md)
 
 - [PHP Manual](index.md)

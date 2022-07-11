@@ -21,8 +21,7 @@ public **Gmagick::addnoiseimage**(int `$noise_type`):
 ### Список параметрів
 
 `noise_type`
-Тип шуму. Дивіться список [констант типу
-шума](gmagick.constants.md#gmagick.constants.noise).
+Тип шуму. Дивіться список [констант типу шума](gmagick.constants.md#gmagick.constants.noise).
 
 ### Значення, що повертаються
 

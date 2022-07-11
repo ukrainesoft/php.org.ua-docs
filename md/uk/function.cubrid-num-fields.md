@@ -1,5 +1,5 @@
 - [«cubrid_list_dbs](function.cubrid-list-dbs.md)
-- [cubrid_ping»] (function.cubrid-ping.md)
+- [cubrid_ping»](function.cubrid-ping.md)
 
 - [PHP Manual](index.md)
 - [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)

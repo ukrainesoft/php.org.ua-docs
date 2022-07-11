@@ -1,6 +1,5 @@
 - [« IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md)
-- [IntlCalendar::getActualMaximum
-»](intlcalendar.getactualmaximum.md)
+- [IntlCalendar::getActualMaximum »](intlcalendar.getactualmaximum.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

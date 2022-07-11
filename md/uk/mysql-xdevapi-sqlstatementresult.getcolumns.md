@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
-- [SqlStatementResult::getGeneratedIds
-»](mysql-xdevapi-sqlstatementresult.getgeneratedids.md)
+- [« SqlStatementResult::getColumnNames](mysql-xdevapi-sqlstatementresult.getcolumnnames.md)
+- [SqlStatementResult::getGeneratedIds »](mysql-xdevapi-sqlstatementresult.getgeneratedids.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

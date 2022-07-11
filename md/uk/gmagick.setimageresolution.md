@@ -1,5 +1,4 @@
-- [«
-Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md)
+- [« Gmagick::setimagerenderingintent](gmagick.setimagerenderingintent.md)
 - [Gmagick::setimagescene »](gmagick.setimagescene.md)
 
 - [PHP Manual](index.md)

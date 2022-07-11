@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::getServers](mongodb-driver-manager.getservers.md)
-- [MongoDB\Driver\Manager::removeSubscriber
-»](mongodb-driver-manager.removesubscriber.md)
+- [« MongoDB\Driver\Manager::getServers](mongodb-driver-manager.getservers.md)
+- [MongoDB\Driver\Manager::removeSubscriber »](mongodb-driver-manager.removesubscriber.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

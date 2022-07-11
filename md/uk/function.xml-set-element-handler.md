@@ -1,6 +1,5 @@
 - [« xml_set_default_handler](function.xml-set-default-handler.md)
-- [xml_set_end_namespace_decl_handler
-»](function.xml-set-end-namespace-decl-handler.md)
+- [xml_set_end_namespace_decl_handler »](function.xml-set-end-namespace-decl-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

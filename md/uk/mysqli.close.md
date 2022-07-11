@@ -62,8 +62,7 @@ public **mysqli::close**(): bool
 > **Примітка**:
 >
 > **mysqli_close()** не закриває постійні з'єднання. Для отримання
-> подробиці дивіться посібник з [persistent
-> connections](features.persistent-connections.md).
+> подробиці дивіться посібник з [persistent > connections](features.persistent-connections.md).
 
 ### Дивіться також
 

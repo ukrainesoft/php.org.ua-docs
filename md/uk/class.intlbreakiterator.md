@@ -1,6 +1,5 @@
 - [« Transliterator::transliterate](transliterator.transliterate.md)
-- [IntlBreakIterator::\_\_construct
-»](intlbreakiterator.construct.md)
+- [IntlBreakIterator::\_\_construct »](intlbreakiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)

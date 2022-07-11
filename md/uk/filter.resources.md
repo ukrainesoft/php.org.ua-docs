@@ -1,5 +1,5 @@
 - [« Налаштування під час виконання](filter.configuration.md)
-- [Типи фільтрів»] (filter.filters.md)
+- [Типи фільтрів»](filter.filters.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](filter.setup.md)

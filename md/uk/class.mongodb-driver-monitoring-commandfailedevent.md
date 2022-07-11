@@ -1,6 +1,6 @@
-- [«
-MongoDB\Driver\MonitoringemoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName
+- [« MongoDB\Driver\Monitoring
+emoveSubscriber](
+em[MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName »](MongoDB\Driver\Monitoring\CommandFailedEvent::getCommandName
 »](mongodb-driver-monitoring-commandfailedevent.getcommandname.md)
 
 - [PHP Manual](index.md)

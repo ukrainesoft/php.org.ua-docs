@@ -1,7 +1,5 @@
-- [«
-SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md)
-- [SolrInputDocument::getChildDocuments
-»](solrinputdocument.getchilddocuments.md)
+- [« SolrInputDocument::fieldExists](solrinputdocument.fieldexists.md)
+- [SolrInputDocument::getChildDocuments »](solrinputdocument.getchilddocuments.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

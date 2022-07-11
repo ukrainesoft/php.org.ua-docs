@@ -1,5 +1,4 @@
-- [« Константи контролю помилок сервісу
-Win32Service](win32service.constants.errorcontrol.md)
+- [« Константи контролю помилок сервісу Win32Service](win32service.constants.errorcontrol.md)
 - [Коди помилок Win32 »](win32service.constants.errors.md)
 
 - [PHP Manual](index.md)

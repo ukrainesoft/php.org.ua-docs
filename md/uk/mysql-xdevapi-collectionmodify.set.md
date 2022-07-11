@@ -1,5 +1,4 @@
-- [«
-CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md)
+- [« CollectionModify::replace](mysql-xdevapi-collectionmodify.replace.md)
 - [CollectionModify::skip »](mysql-xdevapi-collectionmodify.skip.md)
 
 - [PHP Manual](index.md)

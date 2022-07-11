@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::getINIEntries](reflectionextension.getinientries.md)
-- [ReflectionExtension::getVersion
-»](reflectionextension.getversion.md)
+- [« ReflectionExtension::getINIEntries](reflectionextension.getinientries.md)
+- [ReflectionExtension::getVersion »](reflectionextension.getversion.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

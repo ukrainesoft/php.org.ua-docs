@@ -1,5 +1,5 @@
 - [« Установка](pspell.installation.md)
-- [Типи ресурсів»] (pspell.resources.md)
+- [Типи ресурсів»](pspell.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](pspell.setup.md)

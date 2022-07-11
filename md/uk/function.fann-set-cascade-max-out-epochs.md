@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_max_cand_epochs](function.fann-set-cascade-max-cand-epochs.md)
-- [fann_set_cascade_min_cand_epochs
-»](function.fann-set-cascade-min-cand-epochs.md)
+- [« fann_set_cascade_max_cand_epochs](function.fann-set-cascade-max-cand-epochs.md)
+- [fann_set_cascade_min_cand_epochs »](function.fann-set-cascade-min-cand-epochs.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

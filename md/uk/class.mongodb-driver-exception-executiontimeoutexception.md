@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
-- [MongoDB\Driver\Exception\InvalidArgumentException
-»](class.mongodb-driver-exception-invalidargumentexception.md)
+- [« MongoDB\Driver\Exception\Exception](class.mongodb-driver-exception-exception.md)
+- [MongoDB\Driver\Exception\InvalidArgumentException »](class.mongodb-driver-exception-invalidargumentexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Exception](mongodb.exceptions.md)
@@ -40,9 +38,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

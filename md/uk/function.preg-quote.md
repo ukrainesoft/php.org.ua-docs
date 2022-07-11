@@ -1,6 +1,5 @@
 - [«preg_match](function.preg-match.md)
-- [preg_replace_callback_array
-»](function.preg-replace-callback-array.md)
+- [preg_replace_callback_array »](function.preg-replace-callback-array.md)
 
 - [PHP Manual](index.md)
 - [Функції PCRE](ref.pcre.md)

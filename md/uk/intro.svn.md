@@ -1,8 +1,8 @@
-- [«SVN] (book.svn.md)
+- [«SVN](book.svn.md)
 - [Встановлення та налаштування »](svn.setup.md)
 
 - [PHP Manual](index.md)
-- [SVN] (book.svn.md)
+- [SVN](book.svn.md)
 -   Вступ
 
 # Вступ

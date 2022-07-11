@@ -1,5 +1,5 @@
 - [«ini_get](function.ini-get.md)
-- [ini_set »] (function.ini-set.md)
+- [ini_set »](function.ini-set.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

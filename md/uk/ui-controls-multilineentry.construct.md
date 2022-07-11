@@ -1,7 +1,5 @@
-- [«
-UI\Controls\MultilineEntry::append](ui-controls-multilineentry.append.md)
-- [UI\Controls\MultilineEntry::getText
-»](ui-controls-multilineentry.gettext.md)
+- [« UI\Controls\MultilineEntry::append](ui-controls-multilineentry.append.md)
+- [UI\Controls\MultilineEntry::getText »](ui-controls-multilineentry.gettext.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)

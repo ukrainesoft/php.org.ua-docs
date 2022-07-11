@@ -1,5 +1,4 @@
-- [«
-DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md)
+- [« DOMText::isElementContentWhitespace](domtext.iselementcontentwhitespace.md)
 - [DOMText::splitText »](domtext.splittext.md)
 
 - [PHP Manual](index.md)

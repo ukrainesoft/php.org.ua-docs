@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getServer](mongodb-driver-writeresult.getserver.md)
-- [MongoDB\Driver\WriteResult::getUpsertedIds
-»](mongodb-driver-writeresult.getupsertedids.md)
+- [« MongoDB\Driver\WriteResult::getServer](mongodb-driver-writeresult.getserver.md)
+- [MongoDB\Driver\WriteResult::getUpsertedIds »](mongodb-driver-writeresult.getupsertedids.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)

@@ -1,5 +1,5 @@
 - [ trader_sub](function.trader-sub.md)
-- [trader_t3»] (function.trader-t3.md)
+- [trader_t3»](function.trader-t3.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

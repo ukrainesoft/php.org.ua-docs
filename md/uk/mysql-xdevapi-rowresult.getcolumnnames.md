@@ -1,5 +1,4 @@
-- [«
-RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md)
+- [« RowResult::getColumnsCount](mysql-xdevapi-rowresult.getcolumncount.md)
 - [RowResult::getColumns »](mysql-xdevapi-rowresult.getcolumns.md)
 
 - [PHP Manual](index.md)

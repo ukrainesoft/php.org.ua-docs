@@ -1,6 +1,5 @@
 - [«libxml_get_errors](function.libxml-get-errors.md)
-- [libxml_set_external_entity_loader
-»](function.libxml-set-external-entity-loader.md)
+- [libxml_set_external_entity_loader »](function.libxml-set-external-entity-loader.md)
 
 - [PHP Manual](index.md)
 - [Функції libxml](ref.libxml.md)

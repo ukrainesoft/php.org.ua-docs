@@ -1,5 +1,5 @@
 - [« Функції зворотного виклику
-(callback-функції)] (language.types.callable.md)
+(callback-функції)](language.types.callable.md)
 - [Маніпуляції з типами »](language.types.type-juggling.md)
 
 - [PHP Manual](index.md)
@@ -62,8 +62,7 @@ thrown in - on line 2
 #### mixed
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-еквівалентний [об'єднання
-типів](language.types.declarations.md#language.types.declarations.composite.union)
+еквівалентний [об'єднання типів](language.types.declarations.md#language.types.declarations.composite.union)
 object\|resource\|array\|string\|int\|float\|bool\|null. Доступно з PHP
 8.0.0.
 

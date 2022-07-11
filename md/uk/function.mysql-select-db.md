@@ -15,8 +15,7 @@ mysql_select_db - Вибирає базу даних MySQL
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_select_db()](mysqli.select-db.md)
 - [PDO::\_\_construct()](pdo.construct.md) (розділ про dsn)

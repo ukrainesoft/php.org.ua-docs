@@ -1,5 +1,4 @@
-- [«
-DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md)
+- [« DOMDocument::getElementsByTagNameNS](domdocument.getelementsbytagnamens.md)
 - [DOMDocument::load »](domdocument.load.md)
 
 - [PHP Manual](index.md)

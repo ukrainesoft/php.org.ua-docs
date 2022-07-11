@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md)
-- [MongoDB\BSON\BinaryInterface::getType
-»](mongodb-bson-binaryinterface.gettype.md)
+- [« MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md)
+- [MongoDB\BSON\BinaryInterface::getType »](mongodb-bson-binaryinterface.gettype.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md)

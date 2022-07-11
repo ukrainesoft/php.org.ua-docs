@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed
-»](mongodb-driver-monitoring-commandsubscriber.commandfailed.md)
+- [« MongoDB\Driver\Monitoring\TopologyOpeningEvent::getTopologyId](mongodb-driver-monitoring-topologyopeningevent.gettopologyid.md)
+- [MongoDB\Driver\Monitoring\CommandSubscriber::commandFailed »](mongodb-driver-monitoring-commandsubscriber.commandfailed.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring](mongodb.monitoring.md)

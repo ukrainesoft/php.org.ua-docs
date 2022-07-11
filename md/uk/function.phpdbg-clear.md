@@ -1,5 +1,5 @@
 - [«phpdbg_break_next](function.phpdbg-break-next.md)
-- [phpdbg_color »] (function.phpdbg-color.md)
+- [phpdbg_color »](function.phpdbg-color.md)
 
 - [PHP Manual](index.md)
 - [Функції phpdbg](ref.phpdbg.md)

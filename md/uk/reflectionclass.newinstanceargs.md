@@ -1,6 +1,5 @@
 - [« ReflectionClass::newInstance](reflectionclass.newinstance.md)
-- [ReflectionClass::newInstanceWithoutConstructor
-»](reflectionclass.newinstancewithoutconstructor.md)
+- [ReflectionClass::newInstanceWithoutConstructor »](reflectionclass.newinstancewithoutconstructor.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)
@@ -15,7 +14,7 @@ ReflectionClass::newInstanceArgs — Створює екземпляр клас�
 
 ### Опис
 
-public **ReflectionClass::newInstanceArgs**(array `$args` u003d \[\]):
+public **ReflectionClass::newInstanceArgs**(array `$args` u003d []):
 ?object
 
 Створює новий екземпляр класу. Прийняті аргументи передаються в

@@ -1,5 +1,5 @@
 - [« Типи ресурсів](filesystem.resources.md)
-- [Функції файлової системи»] (ref.filesystem.md)
+- [Функції файлової системи»](ref.filesystem.md)
 
 - [PHP Manual](index.md)
 - [Файлова система](book.filesystem.md)

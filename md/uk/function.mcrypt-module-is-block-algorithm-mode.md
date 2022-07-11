@@ -1,7 +1,5 @@
-- [«
-mcrypt_module_get_supported_key_sizes](function.mcrypt-module-get-supported-key-sizes.md)
-- [mcrypt_module_is_block_algorithm
-»](function.mcrypt-module-is-block-algorithm.md)
+- [« mcrypt_module_get_supported_key_sizes](function.mcrypt-module-get-supported-key-sizes.md)
+- [mcrypt_module_is_block_algorithm »](function.mcrypt-module-is-block-algorithm.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

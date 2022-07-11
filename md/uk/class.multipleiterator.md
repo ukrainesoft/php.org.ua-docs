@@ -1,6 +1,5 @@
 - [« LimitIterator::valid](limititerator.valid.md)
-- [MultipleIterator::attachIterator
-»](multipleiterator.attachiterator.md)
+- [MultipleIterator::attachIterator »](multipleiterator.attachiterator.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

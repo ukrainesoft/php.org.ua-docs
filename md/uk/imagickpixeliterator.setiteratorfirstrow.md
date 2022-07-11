@@ -1,7 +1,5 @@
-- [«
-ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md)
-- [ImagickPixelIterator::setIteratorLastRow
-»](imagickpixeliterator.setiteratorlastrow.md)
+- [« ImagickPixelIterator::resetIterator](imagickpixeliterator.resetiterator.md)
+- [ImagickPixelIterator::setIteratorLastRow »](imagickpixeliterator.setiteratorlastrow.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixelIterator](class.imagickpixeliterator.md)

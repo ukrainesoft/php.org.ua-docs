@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)
-- [ReflectionFunctionAbstract::isGenerator
-»](reflectionfunctionabstract.isgenerator.md)
+- [« ReflectionFunctionAbstract::isClosure](reflectionfunctionabstract.isclosure.md)
+- [ReflectionFunctionAbstract::isGenerator »](reflectionfunctionabstract.isgenerator.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

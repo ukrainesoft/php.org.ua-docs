@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.md)
-- [Swoole\Connection\Iterator::valid
-»](swoole-connection-iterator.valid.md)
+- [« Swoole\Connection\Iterator::offsetUnset](swoole-connection-iterator.offsetunset.md)
+- [Swoole\Connection\Iterator::valid »](swoole-connection-iterator.valid.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)

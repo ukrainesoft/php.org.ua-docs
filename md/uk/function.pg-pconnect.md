@@ -1,5 +1,5 @@
 - [« pg_parameter_status](function.pg-parameter-status.md)
-- [pg_ping»] (function.pg-ping.md)
+- [pg_ping»](function.pg-ping.md)
 
 - [PHP Manual](index.md)
 - [Функції PostgreSQL](ref.pgsql.md)
@@ -84,5 +84,4 @@ PostgreSQL.
 
 - [pg_connect()](function.pg-connect.md) - Відкриває з'єднання з
 базою даних PostgreSQL
-- [Постійні з'єднання з базою
-даних](features.persistent-connections.md)
+- [Постійні з'єднання з базою даних](features.persistent-connections.md)

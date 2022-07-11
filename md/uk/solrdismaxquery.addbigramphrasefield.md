@@ -1,6 +1,5 @@
 - [«SolrDisMaxQuery](class.solrdismaxquery.md)
-- [SolrDisMaxQuery::addBoostQuery
-»](solrdismaxquery.addboostquery.md)
+- [SolrDisMaxQuery::addBoostQuery »](solrdismaxquery.addboostquery.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

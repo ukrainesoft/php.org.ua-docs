@@ -1,5 +1,5 @@
 - [«jddayofweek](function.jddayofweek.md)
-- [jdtofrench »] (function.jdtofrench.md)
+- [jdtofrench »](function.jdtofrench.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

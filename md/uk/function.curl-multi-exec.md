@@ -1,5 +1,5 @@
 - [«curl_multi_errno](function.curl-multi-errno.md)
-- [curl_multi_getcontent »] (function.curl-multi-getcontent.md)
+- [curl_multi_getcontent »](function.curl-multi-getcontent.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

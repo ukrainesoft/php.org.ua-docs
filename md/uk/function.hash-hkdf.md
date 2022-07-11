@@ -78,5 +78,4 @@ string `$salt` u003d ""
 - [hash_pbkdf2()](function.hash-pbkdf2.md) - Формування ключа
 PBKDF2 для заданих вхідних даних
 - [»RFC 5869](http://www.faqs.org/rfcs/rfc5869)
-- [» користувацька
-реалізація](https://github.com/narfbg/hash_hkdf_compat)
+- [» користувацька реалізація](https://github.com/narfbg/hash_hkdf_compat)

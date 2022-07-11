@@ -1,5 +1,5 @@
 - [«acos](function.acos.md)
-- [asin »] (function.asin.md)
+- [asin »](function.asin.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

@@ -1,5 +1,5 @@
 - [« Установка](lua.installation.md)
-- [Типи ресурсів»] (lua.resources.md)
+- [Типи ресурсів»](lua.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](lua.setup.md)

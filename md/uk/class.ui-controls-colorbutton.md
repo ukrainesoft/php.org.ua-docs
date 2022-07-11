@@ -1,6 +1,5 @@
 - [«UI\Controls\Button::setText](ui-controls-button.settext.md)
-- [UI\Controls\ColorButton::getColor
-»](ui-controls-colorbutton.getcolor.md)
+- [UI\Controls\ColorButton::getColor »](ui-controls-colorbutton.getcolor.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

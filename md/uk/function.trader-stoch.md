@@ -1,5 +1,5 @@
 - [«trader_stddev](function.trader-stddev.md)
-- [trader_stochf»] (function.trader-stochf.md)
+- [trader_stochf»](function.trader-stochf.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

@@ -17,8 +17,7 @@ mysql_errno - Повертає чисельний код помилки вико
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_errno()](mysqli.errno.md)
 - [PDO::errorCode()](pdo.errorcode.md)
@@ -69,5 +68,4 @@ API] (mysqlinfo.api.choosing.md). Альтернативи для цієї фу�
 
 - [mysql_error()](function.mysql-error.md) - Повертає текст помилки
 останньої операції з MySQL
-- [» Коди помилок
-MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)
+- [» Коди помилок MySQL](http://dev.mysql.com/doc/mysql/en/error-handling.md)

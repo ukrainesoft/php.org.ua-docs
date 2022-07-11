@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.md)
+- [« SolrQuery::getTermsIncludeUpperBound](solrquery.gettermsincludeupperbound.md)
 - [SolrQuery::getTermsLowerBound »](solrquery.gettermslowerbound.md)
 
 - [PHP Manual](index.md)

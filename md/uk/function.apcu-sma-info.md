@@ -58,5 +58,4 @@ Array
 )
 
 ### Дивіться також
-
-- [Директиви конфігурації APCu](apcu.configuration.md)
+ - [Директиви конфігурації APCu](apcu.configuration.md)

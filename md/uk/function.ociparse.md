@@ -1,5 +1,5 @@
 - [« ocinumcols](function.ocinumcols.md)
-- [Ociplogon »] (function.ociplogon.md)
+- [Ociplogon »](function.ociplogon.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

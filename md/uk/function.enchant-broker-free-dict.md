@@ -1,5 +1,4 @@
-- [«
-enchant_broker_dict_exists](function.enchant-broker-dict-exists.md)
+- [« enchant_broker_dict_exists](function.enchant-broker-dict-exists.md)
 - [enchant_broker_free »](function.enchant-broker-free.md)
 
 - [PHP Manual](index.md)

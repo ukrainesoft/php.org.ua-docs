@@ -1,5 +1,4 @@
-- [«
-Swoole\Server::connection_list](swoole-server.connection-list.md)
+- [« Swoole\Server::connection_list](swoole-server.connection-list.md)
 - [Swoole\Server::defer »](swoole-server.defer.md)
 
 - [PHP Manual](index.md)

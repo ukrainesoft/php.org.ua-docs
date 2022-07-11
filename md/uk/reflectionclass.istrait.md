@@ -1,6 +1,5 @@
 - [« ReflectionClass::isSubclassOf](reflectionclass.issubclassof.md)
-- [ReflectionClass::isUserDefined
-»](reflectionclass.isuserdefined.md)
+- [ReflectionClass::isUserDefined »](reflectionclass.isuserdefined.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

@@ -1,5 +1,5 @@
 - [« Налаштування під час виконання](phpdbg.configuration.md)
-- [Функції phpdbg »] (ref.phpdbg.md)
+- [Функції phpdbg »](ref.phpdbg.md)
 
 - [PHP Manual](index.md)
 - [phpdbg](book.phpdbg.md)

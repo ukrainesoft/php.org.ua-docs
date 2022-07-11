@@ -1,5 +1,4 @@
-- [«
-SolrQuery::removeFacetDateField](solrquery.removefacetdatefield.md)
+- [« SolrQuery::removeFacetDateField](solrquery.removefacetdatefield.md)
 - [SolrQuery::removeFacetField »](solrquery.removefacetfield.md)
 
 - [PHP Manual](index.md)

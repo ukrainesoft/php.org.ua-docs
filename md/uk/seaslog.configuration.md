@@ -1,5 +1,5 @@
 - [« Установка](seaslog.installation.md)
-- [Типи ресурсів»] (seaslog.resources.md)
+- [Типи ресурсів»](seaslog.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](seaslog.setup.md)
@@ -184,7 +184,8 @@ DEBUG, 8-ALL
 
 `seaslog.trim_wrap` int
 Обрізає
- і у повідомленні журналу. 1 - Так, 0 - Ні (за замовчуванням)
+ і
+ у повідомленні журналу. 1 - Так, 0 - Ні (за замовчуванням)
 
 `seaslog.use_buffer` int
 Перемикає режим використання буфера журналу пам'яті. 1 - Так, 0 -

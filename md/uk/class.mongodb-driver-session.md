@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\BulkWrite::update](mongodb-driver-bulkwrite.update.md)
-- [MongoDB\Driver\Session::abortTransaction
-»](mongodb-driver-session.aborttransaction.md)
+- [« MongoDB\Driver\BulkWrite::update](mongodb-driver-bulkwrite.update.md)
+- [MongoDB\Driver\Session::abortTransaction »](mongodb-driver-session.aborttransaction.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

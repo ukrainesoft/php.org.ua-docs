@@ -1,7 +1,5 @@
-- [«
-fann_scale_input_train_data](function.fann-scale-input-train-data.md)
-- [fann_scale_output_train_data
-»](function.fann-scale-output-train-data.md)
+- [« fann_scale_input_train_data](function.fann-scale-input-train-data.md)
+- [fann_scale_output_train_data »](function.fann-scale-output-train-data.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

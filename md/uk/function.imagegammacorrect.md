@@ -1,5 +1,5 @@
 - [«imagefttext](function.imagefttext.md)
-- [imagegd2 »] (function.imagegd2.md)
+- [imagegd2 »](function.imagegd2.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

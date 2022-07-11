@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId](mongodb-driver-monitoring-commandfailedevent.getoperationid.md)
-- [MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId
-»](mongodb-driver-monitoring-commandfailedevent.getrequestid.md)
+- [« MongoDB\Driver\Monitoring\CommandFailedEvent::getOperationId](mongodb-driver-monitoring-commandfailedevent.getoperationid.md)
+- [MongoDB\Driver\Monitoring\CommandFailedEvent::getRequestId »](mongodb-driver-monitoring-commandfailedevent.getrequestid.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)

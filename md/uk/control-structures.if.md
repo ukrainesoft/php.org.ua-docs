@@ -1,5 +1,5 @@
 - [«Вступ](control-structures.intro.md)
-- [else »] (control-structures.else.md)
+- [else »](control-structures.else.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)
@@ -22,8 +22,7 @@ if (вираз)
 значення **`true`**, PHP виконає інструкцію, а якщо воно приймає
 значення **`false`** – проігнорує. Інформацію про те, які значення
 вважаються рівними значенню **`false`**, можна знайти у розділі
-['Перетворення на булев
-тип'](language.types.boolean.md#language.types.boolean.casting).
+['Перетворення на булев тип'](language.types.boolean.md#language.types.boolean.casting).
 
 Наступний приклад виведе a більше b, якщо значення змінної `$a`
 більше, ніж $b:

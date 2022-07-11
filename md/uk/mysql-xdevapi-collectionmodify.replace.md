@@ -1,5 +1,4 @@
-- [«
-CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.md)
+- [« CollectionModify::patch](mysql-xdevapi-collectionmodify.patch.md)
 - [CollectionModify::set »](mysql-xdevapi-collectionmodify.set.md)
 
 - [PHP Manual](index.md)

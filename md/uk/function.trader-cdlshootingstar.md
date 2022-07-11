@@ -1,5 +1,4 @@
-- [«
-trader_cdlseparatinglines](function.trader-cdlseparatinglines.md)
+- [« trader_cdlseparatinglines](function.trader-cdlseparatinglines.md)
 - [trader_cdlshortline »](function.trader-cdlshortline.md)
 
 - [PHP Manual](index.md)

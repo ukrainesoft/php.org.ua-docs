@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.md)
-- [MongoDB\BSON\JavascriptInterface::getCode
-»](mongodb-bson-javascriptinterface.getcode.md)
+- [« MongoDB\BSON\Decimal128Interface::\_\_toString](mongodb-bson-decimal128interface.tostring.md)
+- [MongoDB\BSON\JavascriptInterface::getCode »](mongodb-bson-javascriptinterface.getcode.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

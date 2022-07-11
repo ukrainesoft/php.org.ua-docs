@@ -1,6 +1,5 @@
 - [« IntlCalendar::roll](intlcalendar.roll.md)
-- [IntlCalendar::setFirstDayOfWeek
-»](intlcalendar.setfirstdayofweek.md)
+- [IntlCalendar::setFirstDayOfWeek »](intlcalendar.setfirstdayofweek.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)
@@ -45,8 +44,7 @@ int `$second` u003d NULL
 
 Встановлює або конкретне поле на задане значення, або
 встановлює одразу кілька загальних полів. Діапазон допустимих значень
-залежить від того, чи використовує календар [м'який
-режим](intlcalendar.setlenient.md).
+залежить від того, чи використовує календар [м'який режим](intlcalendar.setlenient.md).
 
 Для полів, які конфліктують, поля, які встановлюються пізніше,
 мають пріоритет.

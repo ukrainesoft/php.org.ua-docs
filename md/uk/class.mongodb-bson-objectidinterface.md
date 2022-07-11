@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MinKeyInterface](class.mongodb-bson-minkeyinterface.md)
-- [MongoDB\BSON\ObjectIdInterface::getTimestamp
-»](mongodb-bson-objectidinterface.gettimestamp.md)
+- [« MongoDB\BSON\MinKeyInterface](class.mongodb-bson-minkeyinterface.md)
+- [MongoDB\BSON\ObjectIdInterface::getTimestamp »](mongodb-bson-objectidinterface.gettimestamp.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

@@ -10,11 +10,10 @@
 ## Зміст
 
 - [Вступ](control-structures.intro.md)
-- [if] (control-structures.if.md)
+- [if](control-structures.if.md)
 - [else](control-structures.else.md)
 - [elseif/else if](control-structures.elseif.md)
-- [Альтернативний синтаксис керуючих
-структур](control-structures.alternative-syntax.md)
+- [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
 - [while](control-structures.while.md)
 - [do-while](control-structures.do.while.md)
 - [for](control-structures.for.md)

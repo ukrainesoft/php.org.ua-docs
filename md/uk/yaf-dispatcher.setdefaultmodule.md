@@ -1,7 +1,5 @@
-- [«
-Yaf_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md)
-- [Yaf_Dispatcher::setErrorHandler
-»](yaf-dispatcher.seterrorhandler.md)
+- [« Yaf_Dispatcher::setDefaultController](yaf-dispatcher.setdefaultcontroller.md)
+- [Yaf_Dispatcher::setErrorHandler »](yaf-dispatcher.seterrorhandler.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

@@ -1,6 +1,5 @@
 - [«Зумовлені константи](oci8.constants.md)
-- [Робота зі з'єднаннями OCI8 та Connection Pooling
-»](oci8.connection.md)
+- [Робота зі з'єднаннями OCI8 та Connection Pooling »](oci8.connection.md)
 
 - [PHP Manual](index.md)
 - [OCI8](book.oci8.md)

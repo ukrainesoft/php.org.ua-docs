@@ -1,6 +1,5 @@
 - [« Yaf_Loader::setLibraryPath](yaf-loader.setlibrarypath.md)
-- [Yaf_Plugin_Abstract::dispatchLoopShutdown
-»](yaf-plugin-abstract.dispatchloopshutdown.md)
+- [Yaf_Plugin_Abstract::dispatchLoopShutdown »](yaf-plugin-abstract.dispatchloopshutdown.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

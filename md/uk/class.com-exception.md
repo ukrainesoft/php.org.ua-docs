@@ -1,9 +1,8 @@
-- [«
-COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)
+- [« COMPersistHelper::SaveToStream](compersisthelper.savetostream.md)
 - [Функції COM»](ref.com.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Клас com_exception
 
 # Клас com_exception
@@ -29,9 +28,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

@@ -2,7 +2,7 @@
 - [Вимоги »](tokenizer.requirements.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

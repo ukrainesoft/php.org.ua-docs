@@ -1,6 +1,5 @@
 - [«Table::count](mysql-xdevapi-table.count.md)
-- [Table::existsInDatabase
-»](mysql-xdevapi-table.existsindatabase.md)
+- [Table::existsInDatabase »](mysql-xdevapi-table.existsindatabase.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Table](class.mysql-xdevapi-table.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::\_\_construct](mongodb-driver-server.construct.md)
-- [MongoDB\Driver\Server::executeCommand
-»](mongodb-driver-server.executecommand.md)
+- [« MongoDB\Driver\Server::\_\_construct](mongodb-driver-server.construct.md)
+- [MongoDB\Driver\Server::executeCommand »](mongodb-driver-server.executecommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

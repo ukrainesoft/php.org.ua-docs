@@ -1,5 +1,4 @@
-- [«
-mysql_xdevapi\CollectionAdd](class.mysql-xdevapi-collectionadd.md)
+- [« mysql_xdevapi\CollectionAdd](class.mysql-xdevapi-collectionadd.md)
 - [CollectionAdd::execute »](mysql-xdevapi-collectionadd.execute.md)
 
 - [PHP Manual](index.md)

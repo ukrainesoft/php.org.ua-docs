@@ -1,5 +1,4 @@
-- [«
-EventHttpConnection::setRetries](eventhttpconnection.setretries.md)
+- [« EventHttpConnection::setRetries](eventhttpconnection.setretries.md)
 - [EventHttpRequest »](class.eventhttprequest.md)
 
 - [PHP Manual](index.md)

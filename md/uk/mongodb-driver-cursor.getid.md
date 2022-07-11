@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Cursor::current](mongodb-driver-cursor.current.md)
-- [MongoDB\Driver\Cursor::getServer
-»](mongodb-driver-cursor.getserver.md)
+- [« MongoDB\Driver\Cursor::current](mongodb-driver-cursor.current.md)
+- [MongoDB\Driver\Cursor::getServer »](mongodb-driver-cursor.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)

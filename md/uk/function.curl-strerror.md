@@ -1,5 +1,5 @@
 - [«curl_share_strerror](function.curl-share-strerror.md)
-- [curl_unescape »] (function.curl-unescape.md)
+- [curl_unescape »](function.curl-unescape.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)
@@ -20,8 +20,7 @@ curl_strerror — Отримати текстовий опис для коду �
 ### Список параметрів
 
 `error_code`
-Одна з констант [» кодів помилок
-cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
+Одна з констант [» кодів помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
 
 ### Значення, що повертаються
 
@@ -46,5 +45,4 @@ Unsupported protocol
 помилки
 - [curl_error()](function.curl-error.md) - Повертає рядок з
 описом останньої помилки поточного сеансу
-- [» Коди помилок
-Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+- [» Коди помилок Curl](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

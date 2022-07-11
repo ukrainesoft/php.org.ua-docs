@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::getConstructor](reflectionclass.getconstructor.md)
-- [ReflectionClass::getDocComment
-»](reflectionclass.getdoccomment.md)
+- [« ReflectionClass::getConstructor](reflectionclass.getconstructor.md)
+- [ReflectionClass::getDocComment »](reflectionclass.getdoccomment.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

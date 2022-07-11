@@ -1,6 +1,5 @@
 - [« trader_cdlrickshawman](function.trader-cdlrickshawman.md)
-- [trader_cdlseparatinglines
-»](function.trader-cdlseparatinglines.md)
+- [trader_cdlseparatinglines »](function.trader-cdlseparatinglines.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

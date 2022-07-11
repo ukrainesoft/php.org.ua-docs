@@ -1,6 +1,5 @@
 - [«RecursiveIterator](class.recursiveiterator.md)
-- [RecursiveIterator::hasChildren
-»](recursiveiterator.haschildren.md)
+- [RecursiveIterator::hasChildren »](recursiveiterator.haschildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIterator](class.recursiveiterator.md)

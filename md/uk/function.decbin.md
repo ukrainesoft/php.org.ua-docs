@@ -1,5 +1,5 @@
 - [«cosh](function.cosh.md)
-- [dechex»] (function.dechex.md)
+- [dechex»](function.dechex.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

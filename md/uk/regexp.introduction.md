@@ -1,10 +1,8 @@
-- [« Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [« Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - [Розділювачі »](regexp.reference.delimiters.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Вступ
 
 ## Вступ

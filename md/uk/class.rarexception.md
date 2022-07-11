@@ -1,6 +1,5 @@
 - [« RarEntry::\_\_toString](rarentry.tostring.md)
-- [RarException::isUsingExceptions
-»](rarexception.isusingexceptions.md)
+- [RarException::isUsingExceptions »](rarexception.isusingexceptions.md)
 
 - [PHP Manual](index.md)
 - [Rar](book.rar.md)

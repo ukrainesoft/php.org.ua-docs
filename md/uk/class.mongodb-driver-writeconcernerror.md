@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\TopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md)
-- [MongoDB\Driver\WriteConcernError::getCode
-»](mongodb-driver-writeconcernerror.getcode.md)
+- [« MongoDB\Driver\TopologyDescription::hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md)
+- [MongoDB\Driver\WriteConcernError::getCode »](mongodb-driver-writeconcernerror.getcode.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

@@ -1,5 +1,4 @@
-- [«
-Session::getDefaultSchema](mysql-xdevapi-session.getdefaultschema.md)
+- [« Session::getDefaultSchema](mysql-xdevapi-session.getdefaultschema.md)
 - [Session::getSchemas »](mysql-xdevapi-session.getschemas.md)
 
 - [PHP Manual](index.md)

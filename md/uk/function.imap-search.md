@@ -1,5 +1,5 @@
 - [« imap_scanmailbox](function.imap-scanmailbox.md)
-- [imap_set_quota »] (function.imap-set-quota.md)
+- [imap_set_quota »](function.imap-set-quota.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

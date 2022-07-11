@@ -1,5 +1,4 @@
-- [«
-mcrypt_enc_is_block_algorithm_mode](function.mcrypt-enc-is-block-algorithm-mode.md)
+- [« mcrypt_enc_is_block_algorithm_mode](function.mcrypt-enc-is-block-algorithm-mode.md)
 - [mcrypt_enc_is_block_mode »](function.mcrypt-enc-is-block-mode.md)
 
 - [PHP Manual](index.md)

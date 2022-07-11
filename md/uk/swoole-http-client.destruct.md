@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Client::\_\_construct](swoole-http-client.construct.md)
+- [« Swoole\Http\Client::\_\_construct](swoole-http-client.construct.md)
 - [Swoole\Http\Client::download »](swoole-http-client.download.md)
 
 - [PHP Manual](index.md)

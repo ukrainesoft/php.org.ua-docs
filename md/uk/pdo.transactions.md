@@ -1,6 +1,5 @@
 - [«Підключення та керування підключеннями](pdo.connections.md)
-- [Підготовлені запити та процедури, що зберігаються
-»](pdo.prepared-statements.md)
+- [Підготовлені запити та процедури, що зберігаються »](pdo.prepared-statements.md)
 
 - [PHP Manual](index.md)
 - [PDO](book.pdo.md)

@@ -1,5 +1,5 @@
 - [«imageavif](function.imageavif.md)
-- [imagechar »] (function.imagechar.md)
+- [imagechar »](function.imagechar.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

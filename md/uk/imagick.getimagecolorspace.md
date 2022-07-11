@@ -15,8 +15,7 @@ Imagick::getImageColorspace — Повертає колірну палітру �
 
 public **Imagick::getImageColorspace**(): int
 
-Повертає ціле число, яке відповідає значенню однієї з [COLORSPACE
-констант](imagick.constants.md#imagick.constants.colorspace).
+Повертає ціле число, яке відповідає значенню однієї з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace).
 
 ### Список параметрів
 

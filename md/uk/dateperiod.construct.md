@@ -47,8 +47,7 @@ public **DatePeriod::\_\_construct**(string `$isostr`, int `$options` u003d
 Кінцева дата.
 
 `isostr`
-Рядок, що містить інтервал згідно [спеціфікації ISO
-8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові
+Рядок, що містить інтервал згідно [спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Repeating_intervals). Нульові
 входження (`R0/`) не підтримуються.
 
 `options`

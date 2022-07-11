@@ -1,5 +1,5 @@
 - [« svn_auth_set_parameter](function.svn-auth-set-parameter.md)
-- [svn_cat »] (function.svn-cat.md)
+- [svn_cat »](function.svn-cat.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)

@@ -1,5 +1,4 @@
-- [«
-CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
+- [« CallbackFilterIterator::accept](callbackfilteriterator.accept.md)
 - [DirectoryIterator »](class.directoryiterator.md)
 
 - [PHP Manual](index.md)
@@ -36,8 +35,7 @@ Callback-функція, яка повинна повертати **`true`**, я
 
 ### Дивіться також
 
-- [Приклади використання
-CallbackFilterIterator](class.callbackfilteriterator.md#callbackfilteriterator.examples)
+- [Приклади використання CallbackFilterIterator](class.callbackfilteriterator.md#callbackfilteriterator.examples)
 - [CallbackFilterIterator::accept()](callbackfilteriterator.accept.md) -
 Викликає callback-функцію та передає їй як аргументи
 поточне значення, поточний ключ та внутрішній покажчик

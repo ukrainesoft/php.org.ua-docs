@@ -1,5 +1,4 @@
-- [«
-trader_cdlconcealbabyswall](function.trader-cdlconcealbabyswall.md)
+- [« trader_cdlconcealbabyswall](function.trader-cdlconcealbabyswall.md)
 - [trader_cdldarkcloudcover »](function.trader-cdldarkcloudcover.md)
 
 - [PHP Manual](index.md)

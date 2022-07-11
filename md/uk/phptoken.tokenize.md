@@ -1,5 +1,5 @@
 - [« PhpToken::\_\_toString](phptoken.tostring.md)
-- [Функції PHP-лексера (tokenizer)»] (ref.tokenizer.md)
+- [Функції PHP-лексера (tokenizer)»](ref.tokenizer.md)
 
 - [PHP Manual](index.md)
 - [PhpToken](class.phptoken.md)
@@ -34,7 +34,7 @@ array
 ### Значення, що повертаються
 
 Масив токенів PHP як об'єктів класу PhpToken чи його нащадків.
-Цей метод повертає static\[\], так що PhpToken можна вільно
+Цей метод повертає static[], так що PhpToken можна вільно
 розширювати.
 
 ### Приклади

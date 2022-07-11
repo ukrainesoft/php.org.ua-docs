@@ -1,5 +1,4 @@
-- [«
-NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md)
+- [« NumberFormatter::getTextAttribute](numberformatter.gettextattribute.md)
 - [NumberFormatter::parse »](numberformatter.parse.md)
 
 - [PHP Manual](index.md)

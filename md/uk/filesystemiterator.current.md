@@ -1,5 +1,4 @@
-- [«
-FilesystemIterator::\_\_construct](filesystemiterator.construct.md)
+- [« FilesystemIterator::\_\_construct](filesystemiterator.construct.md)
 - [FilesystemIterator::getFlags »](filesystemiterator.getflags.md)
 
 - [PHP Manual](index.md)
@@ -26,8 +25,7 @@ string\|[SplFileInfo](class.splfileinfo.md)\|[FilesystemIterator](class.filesyst
 ### Значення, що повертаються
 
 Ім'я файлу, інформація про файл, або $this, залежно від
-встановлені прапори. Дивіться [Константи
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
+встановлені прапори. Дивіться [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
 
 ### Приклади
 
@@ -47,8 +45,7 @@ FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants).
 
 ### Дивіться також
 
-- [Константи
-FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
+- [Константи FilesystemIterator](class.filesystemiterator.md#filesystemiterator.constants)
 - [DirectoryIterator::current()](directoryiterator.current.md) -
 Повертає поточний елемент DirectoryIterator
 - [DirectoryIterator::getFileName()](directoryiterator.getfilename.md) -

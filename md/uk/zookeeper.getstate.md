@@ -44,6 +44,5 @@ public **Zookeeper::getState**(): int
 ідентифікатор сесії клієнта дійсний лише в тому випадку, якщо
 з'єднання в даний час підключені (тобто останній стан
 спостерігача - ZOO_CONNECTED_STATE)
-- [Стани
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
+- [Стани ZooKeeper](class.zookeeper.md#zookeeper.class.constants.states)
 - [ZookeeperException](class.zookeeperexception.md)

@@ -12,4 +12,4 @@
 - [Вимоги](outcontrol.requirements.md)
 - [Установка](outcontrol.installation.md)
 - [Налаштування під час виконання](outcontrol.configuration.md)
-- [Типи ресурсів] (outcontrol.resources.md)
+- [Типи ресурсів](outcontrol.resources.md)

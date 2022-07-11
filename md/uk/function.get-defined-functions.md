@@ -1,6 +1,5 @@
 - [«function_exists](function.function-exists.md)
-- [register_shutdown_function
-»](function.register-shutdown-function.md)
+- [register_shutdown_function »](function.register-shutdown-function.md)
 
 - [PHP Manual](index.md)
 - [Функції керування функціями](ref.funchand.md)

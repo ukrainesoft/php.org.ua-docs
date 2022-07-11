@@ -1,5 +1,4 @@
-- [« API для плагінів до вбудованого драйвера
-MySQL](mysqlnd.plugin.md)
+- [« API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)
 - [Отримання API плагінів mysqlnd »](mysqlnd.plugin.obtaining.md)
 
 - [PHP Manual](index.md)

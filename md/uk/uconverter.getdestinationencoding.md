@@ -1,6 +1,5 @@
 - [« UConverter::getAvailable](uconverter.getavailable.md)
-- [UConverter::getDestinationType
-»](uconverter.getdestinationtype.md)
+- [UConverter::getDestinationType »](uconverter.getdestinationtype.md)
 
 - [PHP Manual](index.md)
 - [UConverter](class.uconverter.md)

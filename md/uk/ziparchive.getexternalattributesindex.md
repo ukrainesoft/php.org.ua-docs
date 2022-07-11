@@ -1,6 +1,5 @@
 - [« ZipArchive::getCommentName](ziparchive.getcommentname.md)
-- [ZipArchive::getExternalAttributesName
-»](ziparchive.getexternalattributesname.md)
+- [ZipArchive::getExternalAttributesName »](ziparchive.getexternalattributesname.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

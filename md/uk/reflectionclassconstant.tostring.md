@@ -1,5 +1,4 @@
-- [«
-ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md)
+- [« ReflectionClassConstant::isPublic](reflectionclassconstant.ispublic.md)
 - [ReflectionEnum »](class.reflectionenum.md)
 
 - [PHP Manual](index.md)

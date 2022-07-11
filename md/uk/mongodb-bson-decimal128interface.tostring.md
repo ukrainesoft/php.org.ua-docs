@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md)
-- [MongoDB\BSON\JavascriptInterface
-»](class.mongodb-bson-javascriptinterface.md)
+- [« MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md)
+- [MongoDB\BSON\JavascriptInterface »](class.mongodb-bson-javascriptinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Decimal128Interface](class.mongodb-bson-decimal128interface.md)

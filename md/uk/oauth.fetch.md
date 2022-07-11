@@ -32,8 +32,7 @@ URL захищеного ресурсу OAuth.
 Додаткові опції запиту ресурсу.
 
 `http_method`
-Один із методів **`OAUTH_HTTP_METHOD_*`**. Дивіться [константи
-OAUTH](oauth.constants.md), які включають GET, POST, PUT, HEAD та
+Один із методів **`OAUTH_HTTP_METHOD_*`**. Дивіться [константи OAUTH](oauth.constants.md), які включають GET, POST, PUT, HEAD та
 DELETE.
 
 HEAD (**`OAUTH_HTTP_METHOD_HEAD`**) може бути корисним для вивчення

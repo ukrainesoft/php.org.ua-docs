@@ -1,5 +1,5 @@
 - [«gmmktime](function.gmmktime.md)
-- [idate »] (function.idate.md)
+- [idate »](function.idate.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

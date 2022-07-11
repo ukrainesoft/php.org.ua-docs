@@ -1,5 +1,5 @@
 - [«Мережеві функції](ref.network.md)
-- [closelog »] (function.closelog.md)
+- [closelog »](function.closelog.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

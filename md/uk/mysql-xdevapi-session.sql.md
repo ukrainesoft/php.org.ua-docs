@@ -1,6 +1,5 @@
 - [« Session::setSavepoint](mysql-xdevapi-session.setsavepoint.md)
-- [Session::startTransaction
-»](mysql-xdevapi-session.starttransaction.md)
+- [Session::startTransaction »](mysql-xdevapi-session.starttransaction.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)

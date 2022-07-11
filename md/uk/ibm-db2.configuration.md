@@ -1,5 +1,5 @@
 - [« Установка](ibm-db2.installation.md)
-- [Типи ресурсів»] (ibm-db2.resources.md)
+- [Типи ресурсів»](ibm-db2.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ibm-db2.setup.md)

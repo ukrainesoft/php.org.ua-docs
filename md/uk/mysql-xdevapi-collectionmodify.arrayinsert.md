@@ -1,5 +1,4 @@
-- [«
-CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.md)
+- [« CollectionModify::arrayAppend](mysql-xdevapi-collectionmodify.arrayappend.md)
 - [CollectionModify::bind »](mysql-xdevapi-collectionmodify.bind.md)
 
 - [PHP Manual](index.md)
@@ -36,7 +35,7 @@ public **mysql_xdevapi\CollectionModify::arrayInsert**(string
 індекс 0
 
 `expression_or_literal`
-Новий елемент для додавання після FIELD_NAME\[INDEX\]
+Новий елемент для додавання після FIELD_NAME[INDEX]
 
 ### Значення, що повертаються
 

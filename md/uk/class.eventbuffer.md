@@ -2,7 +2,7 @@
 - [EventBuffer::add »](eventbuffer.add.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventBuffer
 
 # Клас EventBuffer

@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ MinKey] (class.mongodb-bson-minkey.md)
-- [MongoDB\BSON\MinKey::jsonSerialize
-»](mongodb-bson-minkey.jsonserialize.md)
+- [« MongoDB \ BSON \ MinKey](class.mongodb-bson-minkey.md)
+- [MongoDB\BSON\MinKey::jsonSerialize »](mongodb-bson-minkey.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
@@ -39,5 +38,4 @@ object(MongoDB\BSON\MinKey)#1 (0) {
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

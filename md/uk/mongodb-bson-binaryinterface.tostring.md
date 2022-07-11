@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.md)
-- [MongoDB\BSON\Decimal128Interface
-»](class.mongodb-bson-decimal128interface.md)
+- [« MongoDB\BSON\BinaryInterface::getType](mongodb-bson-binaryinterface.gettype.md)
+- [MongoDB\BSON\Decimal128Interface »](class.mongodb-bson-decimal128interface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\BinaryInterface](class.mongodb-bson-binaryinterface.md)

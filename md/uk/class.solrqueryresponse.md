@@ -1,6 +1,5 @@
 - [«SolrResponse::success](solrresponse.success.md)
-- [SolrQueryResponse::\_\_construct
-»](solrqueryresponse.construct.md)
+- [SolrQueryResponse::\_\_construct »](solrqueryresponse.construct.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

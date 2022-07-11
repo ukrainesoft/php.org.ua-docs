@@ -1,7 +1,5 @@
-- [«
-UI\Controls\Progress::setValue](ui-controls-progress.setvalue.md)
-- [UI\Controls\Separator::\_\_construct
-»](ui-controls-separator.construct.md)
+- [« UI\Controls\Progress::setValue](ui-controls-progress.setvalue.md)
+- [UI\Controls\Separator::\_\_construct »](ui-controls-separator.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

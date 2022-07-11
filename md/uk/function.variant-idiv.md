@@ -1,5 +1,5 @@
 - [« variant_get_type](function.variant-get-type.md)
-- [variant_imp »] (function.variant-imp.md)
+- [variant_imp »](function.variant-imp.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

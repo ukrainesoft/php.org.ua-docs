@@ -1,5 +1,4 @@
-- [«
-Transliterator::createFromRules](transliterator.createfromrules.md)
+- [« Transliterator::createFromRules](transliterator.createfromrules.md)
 - [Transliterator::getErrorCode »](transliterator.geterrorcode.md)
 
 - [PHP Manual](index.md)

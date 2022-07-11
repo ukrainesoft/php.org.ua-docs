@@ -1,6 +1,5 @@
 - [« EventConfig::requireFeatures](eventconfig.requirefeatures.md)
-- [EventConfig::setMaxDispatchInterval
-»](eventconfig.setmaxdispatchinterval.md)
+- [EventConfig::setMaxDispatchInterval »](eventconfig.setmaxdispatchinterval.md)
 
 - [PHP Manual](index.md)
 - [EventConfig](class.eventconfig.md)
@@ -24,8 +23,7 @@ public **EventConfig::setFlags**( int `$flags` ): bool
 ### Список параметрів
 
 `flags`
-Одна із констант `EventBase::LOOP_*`. Дивіться [константи
-EventBase](class.eventbase.md#eventbase.constants).
+Одна із констант `EventBase::LOOP_*`. Дивіться [константи EventBase](class.eventbase.md#eventbase.constants).
 
 ### Значення, що повертаються
 

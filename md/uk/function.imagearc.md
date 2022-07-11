@@ -1,5 +1,5 @@
 - [«imageantialias](function.imageantialias.md)
-- [imageavif»] (function.imageavif.md)
+- [imageavif»](function.imageavif.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

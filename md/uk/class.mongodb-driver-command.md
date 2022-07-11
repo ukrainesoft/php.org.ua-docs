@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::startSession](mongodb-driver-manager.startsession.md)
-- [MongoDB\Driver\Command::\_\_construct
-»](mongodb-driver-command.construct.md)
+- [« MongoDB\Driver\Manager::startSession](mongodb-driver-manager.startsession.md)
+- [MongoDB\Driver\Command::\_\_construct »](mongodb-driver-command.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

@@ -1,6 +1,5 @@
 - [« DOMDocument::createElement](domdocument.createelement.md)
-- [DOMDocument::createEntityReference
-»](domdocument.createentityreference.md)
+- [DOMDocument::createEntityReference »](domdocument.createentityreference.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

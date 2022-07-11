@@ -1,5 +1,4 @@
-- [«
-streamWrapper::stream_truncate](streamwrapper.stream-truncate.md)
+- [« streamWrapper::stream_truncate](streamwrapper.stream-truncate.md)
 - [streamWrapper::unlink »](streamwrapper.unlink.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
-- [«
-wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md)
-- [PS»] (book.ps.md)
+- [« wkhtmltox\Image\Converter::convert](wkhtmltox-image-converter.convert.md)
+- [PS»](book.ps.md)
 
 - [PHP Manual](index.md)
 - [wkhtmltox\Image\Converter](class.wkhtmltox-image-converter.md)

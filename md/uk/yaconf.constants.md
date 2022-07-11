@@ -2,7 +2,7 @@
 - [Yaconf »](class.yaconf.md)
 
 - [PHP Manual](index.md)
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 - Обумовлені константи
 
 # Зумовлені константи

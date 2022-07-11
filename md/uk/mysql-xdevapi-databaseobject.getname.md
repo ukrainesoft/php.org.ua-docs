@@ -1,7 +1,5 @@
-- [«
-DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md)
-- [DatabaseObject::getSession
-»](mysql-xdevapi-databaseobject.getsession.md)
+- [« DatabaseObject::existsInDatabase](mysql-xdevapi-databaseobject.existsindatabase.md)
+- [DatabaseObject::getSession »](mysql-xdevapi-databaseobject.getsession.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)

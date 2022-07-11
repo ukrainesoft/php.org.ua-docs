@@ -1,5 +1,5 @@
 - [«fputcsv](function.fputcsv.md)
-- [fread »] (function.fread.md)
+- [fread »](function.fread.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

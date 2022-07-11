@@ -1,6 +1,5 @@
 - [«EventHttpRequest::sendReply](eventhttprequest.sendreply.md)
-- [EventHttpRequest::sendReplyEnd
-»](eventhttprequest.sendreplyend.md)
+- [EventHttpRequest::sendReplyEnd »](eventhttprequest.sendreplyend.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

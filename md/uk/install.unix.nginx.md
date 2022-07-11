@@ -1,6 +1,5 @@
 - [«Apache 2.x на Unix системах](install.unix.apache2.md)
-- [Установка PHP на Lighttpd 1.4 на Unix-системах
-»](install.unix.lighttpd-14.md)
+- [Установка PHP на Lighttpd 1.4 на Unix-системах »](install.unix.lighttpd-14.md)
 
 - [PHP Manual](index.md)
 - [Установка для Unix-системи](install.unix.md)
@@ -14,8 +13,7 @@ PHP-FPM для Nginx 1.4.x сервера HTTP.
 Даний посібник має на увазі, що ви зібрали Nginx з вихідних джерел,
 отже, всі бінарні файли та файли конфігурації розташовуються в
 `/usr/local/nginx`. Якщо ні, і ви отримали Nginx в інший спосіб,
-тоді, будь ласка, зверніться до [» Nginx
-Wiki](https://www.nginx.com/resources/wiki/), щоб перекласти це
+тоді, будь ласка, зверніться до [» Nginx Wiki](https://www.nginx.com/resources/wiki/), щоб перекласти це
 посібник для вашої установки.
 
 Даний посібник охоплює ази налаштування Nginx сервера, для обробки
@@ -28,8 +26,7 @@ PHP додатків та відображення їх на порту 80. Ре
 коректною у майбутньому. Будь ласка, замініть 'x' на необхідний номер
 версії.
 
-1. Рекомендується відвідати [сторінку
-установки](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+1. Рекомендується відвідати [сторінку установки](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 на Nginx Wiki, для інформації про отримання та встановлення Nginx.
 
 2. Отримання та розпакування вихідники PHP:

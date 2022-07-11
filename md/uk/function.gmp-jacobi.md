@@ -16,8 +16,7 @@ gmp_jacobi — Символ Якобі
 **gmp_jacobi**([GMP](class.gmp.md)\|int\|string `$num1`,
 [GMP](class.gmp.md)\|int\|string `$num2`): int
 
-Обчислює [» Символ
-Якобі](http://primes.utm.edu/glossary/page.php?sortu003dJacobiSymbol) для
+Обчислює [» Символ Якобі](http://primes.utm.edu/glossary/page.php?sortu003dJacobiSymbol) для
 чисел `num1` та `num2`. `num2` має бути позитивним та непарним.
 
 ### Список параметрів

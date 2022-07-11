@@ -1,6 +1,5 @@
 - [«SolrUpdateResponse](class.solrupdateresponse.md)
-- [SolrUpdateResponse::\_\_destruct
-»](solrupdateresponse.destruct.md)
+- [SolrUpdateResponse::\_\_destruct »](solrupdateresponse.destruct.md)
 
 - [PHP Manual](index.md)
 - [SolrUpdateResponse](class.solrupdateresponse.md)

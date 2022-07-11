@@ -1,6 +1,5 @@
 - [« GmagickDraw::getstrokeopacity](gmagickdraw.getstrokeopacity.md)
-- [GmagickDraw::gettextdecoration
-»](gmagickdraw.gettextdecoration.md)
+- [GmagickDraw::gettextdecoration »](gmagickdraw.gettextdecoration.md)
 
 - [PHP Manual](index.md)
 - [GmagickDraw](class.gmagickdraw.md)

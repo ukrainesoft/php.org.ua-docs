@@ -107,14 +107,14 @@ CommonMark\Parser
 - [CommonMark\CQL::\_\_invoke](commonmark-cql.invoke.md) -
 Виконання CQL
 - [Функції CommonMark](ref.cmark.md)
-- [CommonMark \ Parse] (function.commonmark-parse.md) - Розбір
+- [CommonMark \ Parse](function.commonmark-parse.md) - Розбір
 - [CommonMark\Render](function.commonmark-render.md) -
 Відображення
 - [CommonMark\Render\HTML](function.commonmark-render-html.md) -
 Відображення
 - [CommonMark\Render\Latex](function.commonmark-render-latex.md)
 - Відображення
-- [CommonMark \ Render \ Man] (function.commonmark-render-man.md) -
+- [CommonMark \ Render \ Man](function.commonmark-render-man.md) -
 Відображення
 - [CommonMark\Render\XML](function.commonmark-render-xml.md) -
 Відображення

@@ -2,7 +2,7 @@
 - [base64_decode »](function.base64-decode.md)
 
 - [PHP Manual](index.md)
-- [URL] (book.url.md)
+- [URL](book.url.md)
 - Функції URL
 
 # Функції URL

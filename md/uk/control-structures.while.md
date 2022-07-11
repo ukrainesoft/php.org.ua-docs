@@ -1,5 +1,4 @@
-- [« Альтернативний синтаксис керуючих
-структур](control-structures.alternative-syntax.md)
+- [« Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
 - [do-while »](control-structures.do.while.md)
 
 - [PHP Manual](index.md)

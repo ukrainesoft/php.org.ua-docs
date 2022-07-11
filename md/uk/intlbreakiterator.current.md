@@ -1,5 +1,4 @@
-- [«
-IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md)
+- [« IntlBreakIterator::createWordInstance](intlbreakiterator.createwordinstance.md)
 - [IntlBreakIterator::first »](intlbreakiterator.first.md)
 
 - [PHP Manual](index.md)

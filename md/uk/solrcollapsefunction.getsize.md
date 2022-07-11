@@ -1,7 +1,5 @@
-- [«
-SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md)
-- [SolrCollapseFunction::setField
-»](solrcollapsefunction.setfield.md)
+- [« SolrCollapseFunction::getNullPolicy](solrcollapsefunction.getnullpolicy.md)
+- [SolrCollapseFunction::setField »](solrcollapsefunction.setfield.md)
 
 - [PHP Manual](index.md)
 - [SolrCollapseFunction](class.solrcollapsefunction.md)

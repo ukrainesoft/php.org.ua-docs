@@ -1,6 +1,5 @@
 - [« GearmanClient::addServers](gearmanclient.addservers.md)
-- [GearmanClient::addTaskBackground
-»](gearmanclient.addtaskbackground.md)
+- [GearmanClient::addTaskBackground »](gearmanclient.addtaskbackground.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Check::\_\_construct](ui-controls-check.construct.md)
+- [« UI\Controls\Check::\_\_construct](ui-controls-check.construct.md)
 - [UI\Controls\Check::isChecked »](ui-controls-check.ischecked.md)
 
 - [PHP Manual](index.md)

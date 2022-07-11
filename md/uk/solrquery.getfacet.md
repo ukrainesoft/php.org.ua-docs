@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md)
+- [« SolrQuery::getExpandSortFields](solrquery.getexpandsortfields.md)
 - [SolrQuery::getFacetDateEnd »](solrquery.getfacetdateend.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«Зумовлені константи](ffi.constants.md)
-- [Прості приклади використання FFI»] (ffi.examples-basic.md)
+- [Прості приклади використання FFI»](ffi.examples-basic.md)
 
 - [PHP Manual](index.md)
 - [FFI](book.ffi.md)

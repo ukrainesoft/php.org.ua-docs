@@ -1,5 +1,5 @@
 - [« Приклади](filter.examples.md)
-- [Очищення (нормалізація)»] (filter.examples.sanitization.md)
+- [Очищення (нормалізація)»](filter.examples.sanitization.md)
 
 - [PHP Manual](index.md)
 - [Приклади](filter.examples.md)

@@ -1,6 +1,5 @@
 - [« Налаштування під час виконання](luasandbox.configuration.md)
-- [Відмінності від стандартного Lua
-»](reference.luasandbox.differences.md)
+- [Відмінності від стандартного Lua »](reference.luasandbox.differences.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](luasandbox.setup.md)

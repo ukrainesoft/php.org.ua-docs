@@ -1,5 +1,5 @@
 - [«pathinfo](function.pathinfo.md)
-- [popen »] (function.popen.md)
+- [popen »](function.popen.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

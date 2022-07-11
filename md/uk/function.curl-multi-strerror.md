@@ -1,5 +1,5 @@
 - [«curl_multi_setopt](function.curl-multi-setopt.md)
-- [curl_pause »] (function.curl-pause.md)
+- [curl_pause »](function.curl-pause.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)
@@ -21,8 +21,7 @@ curl_multi_strerror — Повертає рядок, що описує поми�
 ### Список параметрів
 
 `error_code`
-Одна та констант [» кодів помилок
-CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
+Одна та констант [» кодів помилок CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
 
 ### Значення, що повертаються
 
@@ -40,5 +39,4 @@ CURLM](http://curl.haxx.se/libcurl/c/libcurl-errors.md).
 
 - [curl_strerror()](function.curl-strerror.md) - Отримати текстове
 опис для коду помилки
-- [» коди помилок
-cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+- [» коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

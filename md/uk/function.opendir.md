@@ -1,5 +1,5 @@
 - [«getcwd](function.getcwd.md)
-- [readdir »] (function.readdir.md)
+- [readdir »](function.readdir.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з каталогами](ref.dir.md)

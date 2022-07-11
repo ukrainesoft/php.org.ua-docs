@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.md)
-- [MongoDB\Driver\WriteConcern::getW
-»](mongodb-driver-writeconcern.getw.md)
+- [« MongoDB\Driver\WriteConcern::\_\_construct](mongodb-driver-writeconcern.construct.md)
+- [MongoDB\Driver\WriteConcern::getW »](mongodb-driver-writeconcern.getw.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -46,5 +44,4 @@ bool(false)
 
 ### Дивіться також
 
-- [»Керівництво по гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

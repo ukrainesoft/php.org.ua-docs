@@ -22,8 +22,7 @@ openssl_csr_export_to_file — Експортує CSR у файл
 ### Список параметрів
 
 `csr`
-Для отримання списку допустимих значень дивіться [Параметри
-CSR](openssl.certparams.md).
+Для отримання списку допустимих значень дивіться [Параметри CSR](openssl.certparams.md).
 
 `output_filename`
 Шлях до файлу.

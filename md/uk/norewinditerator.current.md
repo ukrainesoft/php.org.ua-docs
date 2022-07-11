@@ -1,6 +1,5 @@
 - [«NoRewindIterator::\_\_construct](norewinditerator.construct.md)
-- [NoRewindIterator::getInnerIterator
-»](norewinditerator.getinneriterator.md)
+- [NoRewindIterator::getInnerIterator »](norewinditerator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [NoRewindIterator](class.norewinditerator.md)

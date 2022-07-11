@@ -2,7 +2,7 @@
 - [PDO::pgsqlCopyToArray »](pdo.pgsqlcopytoarray.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Скопіювати дані з файлу до таблиці
 
 # PDO::pgsqlCopyFromFile

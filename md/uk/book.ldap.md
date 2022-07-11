@@ -102,7 +102,7 @@ LDAP останньої команди
 Замінити значення атрибута на нові
 - [ldap_mod_replace](function.ldap-mod-replace.md) — Замінити
 значення атрибутів на нові
-- [ldap_modify_batch] (function.ldap-modify-batch.md) -
+- [ldap_modify_batch](function.ldap-modify-batch.md) -
 Формування та запуск пакетної зміни запису LDAP
 - [ldap_modify](function.ldap-modify.md) - Псевдонім
 ldap_mod_replace
@@ -119,7 +119,7 @@ ldap_mod_replace
 - [ldap_parse_result](function.ldap-parse-result.md) — Вийняти
 інформацію з результату
 - [ldap_read](function.ldap-read.md) - Читає запис
-- [ldap_rename_ext] (function.ldap-rename-ext.md) -
+- [ldap_rename_ext](function.ldap-rename-ext.md) -
 Модифікувати назву запису
 - [ldap_rename](function.ldap-rename.md) — Змінити назву запису
 - [ldap_sasl_bind](function.ldap-sasl-bind.md) — Прив'язати до

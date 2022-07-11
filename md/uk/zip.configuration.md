@@ -1,5 +1,5 @@
 - [« Установка](zip.installation.md)
-- [Типи ресурсів»] (zip.resources.md)
+- [Типи ресурсів»](zip.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](zip.setup.md)

@@ -1,5 +1,4 @@
-- [«
-FFI\CType::getArrayElementType](ffi-ctype.getarrayelementtype.md)
+- [« FFI\CType::getArrayElementType](ffi-ctype.getarrayelementtype.md)
 - [FFI\CType::getAttributes »](ffi-ctype.getattributes.md)
 
 - [PHP Manual](index.md)

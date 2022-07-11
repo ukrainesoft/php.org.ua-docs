@@ -1,5 +1,4 @@
-- [«
-trader_cdlidentical3crows](function.trader-cdlidentical3crows.md)
+- [« trader_cdlidentical3crows](function.trader-cdlidentical3crows.md)
 - [trader_cdlinvertedhammer »](function.trader-cdlinvertedhammer.md)
 
 - [PHP Manual](index.md)

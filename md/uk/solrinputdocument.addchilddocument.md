@@ -1,6 +1,5 @@
 - [«SolrInputDocument](class.solrinputdocument.md)
-- [SolrInputDocument::addChildDocuments
-»](solrinputdocument.addchilddocuments.md)
+- [SolrInputDocument::addChildDocuments »](solrinputdocument.addchilddocuments.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

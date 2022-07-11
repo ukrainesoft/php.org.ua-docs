@@ -1,5 +1,4 @@
-- [«
-fann_get_train_stop_function](function.fann-get-train-stop-function.md)
+- [« fann_get_train_stop_function](function.fann-get-train-stop-function.md)
 - [fann_init_weights »](function.fann-init-weights.md)
 
 - [PHP Manual](index.md)

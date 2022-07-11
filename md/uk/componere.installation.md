@@ -1,6 +1,5 @@
 - [« Вимоги](componere.requirements.md)
-- [Componere\Abstract\Definition
-»](class.componere-abstract-definition.md)
+- [Componere\Abstract\Definition »](class.componere-abstract-definition.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](componere.setup.md)

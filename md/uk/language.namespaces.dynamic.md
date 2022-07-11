@@ -1,7 +1,5 @@
-- [« Використання простору імен:
-основи](language.namespaces.basics.md)
-- [Ключове слово namespace та константа \_\_NAMESPACE\_\_
-»](language.namespaces.nsconstants.md)
+- [« Використання простору імен: основи](language.namespaces.basics.md)
+- [Ключове слово namespace та константа \_\_NAMESPACE\_\_ »](language.namespaces.nsconstants.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)
@@ -37,5 +35,4 @@ example1.php:
 amespacenam
 
 Обов'язково прочитайте [Примітка про екранування імен простору
-імен у
-рядках](language.namespaces.faq.md#language.namespaces.faq.quote).
+імен у рядках](language.namespaces.faq.md#language.namespaces.faq.quote).

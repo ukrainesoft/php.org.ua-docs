@@ -1,6 +1,5 @@
 - [« ReflectionFunction::invoke](reflectionfunction.invoke.md)
-- [ReflectionFunction::isDisabled
-»](reflectionfunction.isdisabled.md)
+- [ReflectionFunction::isDisabled »](reflectionfunction.isdisabled.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunction](class.reflectionfunction.md)

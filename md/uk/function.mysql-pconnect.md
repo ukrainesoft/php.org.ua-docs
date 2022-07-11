@@ -1,5 +1,5 @@
 - [« mysql_num_rows](function.mysql-num-rows.md)
-- [mysql_ping»] (function.mysql-ping.md)
+- [mysql_ping»](function.mysql-ping.md)
 
 - [PHP Manual](index.md)
 - [MySQL](ref.mysql.md)
@@ -15,8 +15,7 @@ mysql_pconnect — Встановлює постійне з'єднання із 
 
 Цей модуль застарів, починаючи з версії PHP 5.5.0, і вилучений до PHP 7.0.0.
 Використовуйте замість нього [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Дивіться також інструкцію [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - [mysqli_connect()](function.mysqli-connect.md) з `p:` префіксом
 хоста
@@ -86,8 +85,7 @@ int `$client_flags` u003d 0
 >
 > Зверніть увагу, що з'єднання такого типу працюють тільки, якщо PHP
 > встановлений як модуль. За додатковою інформацією звертайтесь до
-> розділу "[Постійні з'єднання з базами
-> даних](features.persistent-connections.md)".
+> розділу "[Постійні з'єднання з базами > даних](features.persistent-connections.md)".
 
 **Увага**
 
@@ -99,5 +97,4 @@ int `$client_flags` u003d 0
 
 - [mysql_connect()](function.mysql-connect.md) - Відкриває
 з'єднання з сервером MySQL
-- "[Постійні з'єднання з базами
-даних](features.persistent-connections.md)"
+- "[Постійні з'єднання з базами даних](features.persistent-connections.md)"

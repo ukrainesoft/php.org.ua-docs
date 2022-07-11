@@ -1,4 +1,4 @@
-- [« MongoDB \ BSON \ Binary] (class.mongodb-bson-binary.md)
+- [« MongoDB \ BSON \ Binary](class.mongodb-bson-binary.md)
 - [MongoDB\BSON\Binary::getData »](mongodb-bson-binary.getdata.md)
 
 - [PHP Manual](index.md)
@@ -62,5 +62,4 @@ int(0)
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

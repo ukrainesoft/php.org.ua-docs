@@ -1,5 +1,5 @@
 - [« Функції DOM](ref.dom.md)
-- [libxml »] (book.libxml.md)
+- [libxml »](book.libxml.md)
 
 - [PHP Manual](index.md)
 - [Функції DOM](ref.dom.md)

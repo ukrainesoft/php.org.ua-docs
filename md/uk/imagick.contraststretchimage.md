@@ -33,8 +33,7 @@ Imagick був скомпілюваний з версією ImageMagick 6.2.9 а
 Вкажіть будь-яку константу CHANNEL, яка підходить для вашого режиму
 каналу. Для застосування більш ніж одного каналу об'єднайте константи
 типу CHANNEL за допомогою побітових операторів. **`Imagick::CHANNEL_ALL`**.
-Зверніться до списку [констант
-CHANNEL](imagick.constants.md#imagick.constants.channel).
+Зверніться до списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
 
 ### Значення, що повертаються
 

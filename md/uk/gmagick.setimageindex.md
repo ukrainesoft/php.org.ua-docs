@@ -1,6 +1,5 @@
 - [« Gmagick::setimagegreenprimary](gmagick.setimagegreenprimary.md)
-- [Gmagick::setimageinterlacescheme
-»](gmagick.setimageinterlacescheme.md)
+- [Gmagick::setimageinterlacescheme »](gmagick.setimageinterlacescheme.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

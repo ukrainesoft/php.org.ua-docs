@@ -1,6 +1,5 @@
 - [« ImagickDraw::setTextAlignment](imagickdraw.settextalignment.md)
-- [ImagickDraw::setTextDecoration
-»](imagickdraw.settextdecoration.md)
+- [ImagickDraw::setTextDecoration »](imagickdraw.settextdecoration.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

@@ -1,6 +1,5 @@
 - [« Vtiful\Kernel\Format::bold](vtiful-kernel-format.bold.md)
-- [Vtiful\Kernel\Format::underline
-»](vtiful-kernel-format.underline.md)
+- [Vtiful\Kernel\Format::underline »](vtiful-kernel-format.underline.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Format](class.vtiful-kernel-format.md)

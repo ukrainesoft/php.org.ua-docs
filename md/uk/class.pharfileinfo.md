@@ -2,7 +2,7 @@
 - [PharFileInfo::chmod »](pharfileinfo.chmod.md)
 
 - [PHP Manual](index.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - Клас PharFileInfo
 
 # Клас PharFileInfo
@@ -37,8 +37,7 @@ public [getCompressedSize](pharfileinfo.getcompressedsize.md)(): int
 public [getContent](pharfileinfo.getcontent.md)(): string
 
 public [getMetadata](pharfileinfo.getmetadata.md)(array
-`$unserializeOptions` u003d \[\]):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+`$unserializeOptions` u003d []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getPharFlags](pharfileinfo.getpharflags.md)(): int
 

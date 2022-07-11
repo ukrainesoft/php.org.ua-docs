@@ -1,6 +1,5 @@
 - [« GearmanClient::doJobHandle](gearmanclient.dojobhandle.md)
-- [GearmanClient::doLowBackground
-»](gearmanclient.dolowbackground.md)
+- [GearmanClient::doLowBackground »](gearmanclient.dolowbackground.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

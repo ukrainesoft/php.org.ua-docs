@@ -1,6 +1,5 @@
 - [« ReflectionProperty::isPrivate](reflectionproperty.isprivate.md)
-- [ReflectionProperty::isProtected
-»](reflectionproperty.isprotected.md)
+- [ReflectionProperty::isProtected »](reflectionproperty.isprotected.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

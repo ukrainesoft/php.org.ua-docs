@@ -1,6 +1,5 @@
 - [« dbase_delete_record](function.dbase-delete-record.md)
-- [dbase_get_record_with_names
-»](function.dbase-get-record-with-names.md)
+- [dbase_get_record_with_names »](function.dbase-get-record-with-names.md)
 
 - [PHP Manual](index.md)
 - [dBase](ref.dbase.md)
@@ -40,8 +39,7 @@ name
 
 type
 Тип поля dBase у зручному для сприйняття вигляді (date, boolean, і т.д.)
-Типи файлів, що підтримуються, перераховані у [вступний
-секції](intro.dbase.md).
+Типи файлів, що підтримуються, перераховані у [вступний секції](intro.dbase.md).
 
 length
 Максимальна кількість байт даного поля, що зберігається (включаючи "precision" -

@@ -1,5 +1,4 @@
-- [« Модулі, що відносяться до змінних та
-типів](refs.basic.vartype.md)
+- [« Модулі, що відносяться до змінних та типів](refs.basic.vartype.md)
 - [Вступ »](intro.array.md)
 
 - [PHP Manual](index.md)

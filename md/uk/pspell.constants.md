@@ -1,5 +1,5 @@
 - [« Типи ресурсів](pspell.resources.md)
-- [Функції Pspell »] (ref.pspell.md)
+- [Функції Pspell »](ref.pspell.md)
 
 - [PHP Manual](index.md)
 - [Pspell](book.pspell.md)

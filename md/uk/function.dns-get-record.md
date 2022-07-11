@@ -1,5 +1,5 @@
 - [« dns_get_mx](function.dns-get-mx.md)
-- [fsockopen »] (function.fsockopen.md)
+- [fsockopen »](function.fsockopen.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

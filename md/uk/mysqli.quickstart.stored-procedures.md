@@ -1,5 +1,4 @@
-- [« Підготовка
-запити](mysqli.quickstart.prepared-statements.md)
+- [« Підготовка запити](mysqli.quickstart.prepared-statements.md)
 - [Множинні запити »](mysqli.quickstart.multiple-statement.md)
 
 - [PHP Manual](index.md)

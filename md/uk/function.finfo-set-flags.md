@@ -36,8 +36,7 @@ public [finfo::set_flags](finfo.set-flags.md)(int `$flags`): bool
 [finfo_open()](function.finfo-open.md).
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант
-Fileinfo](fileinfo.constants.md).
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
 
 ### Значення, що повертаються
 

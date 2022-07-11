@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md)
-- [ImagickDraw::getTextUnderColor
-»](imagickdraw.gettextundercolor.md)
+- [« ImagickDraw::getTextInterwordSpacing](imagickdraw.gettextinterwordspacing.md)
+- [ImagickDraw::getTextUnderColor »](imagickdraw.gettextundercolor.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

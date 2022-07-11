@@ -1,6 +1,5 @@
 - [« Yaf_Loader::import](yaf-loader.import.md)
-- [Yaf_Loader::registerLocalNamespace
-»](yaf-loader.registerlocalnamespace.md)
+- [Yaf_Loader::registerLocalNamespace »](yaf-loader.registerlocalnamespace.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Loader](class.yaf-loader.md)

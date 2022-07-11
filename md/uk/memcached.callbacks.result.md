@@ -1,6 +1,5 @@
 - [« Функції зворотного дзвінка](memcached.callbacks.md)
-- [Функції зворотного виклику наскрізного читання кеша
-»](memcached.callbacks.read-through.md)
+- [Функції зворотного виклику наскрізного читання кеша »](memcached.callbacks.read-through.md)
 
 - [PHP Manual](index.md)
 - [Функції зворотного дзвінка](memcached.callbacks.md)

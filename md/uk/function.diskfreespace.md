@@ -1,5 +1,5 @@
 - [«disk_total_space](function.disk-total-space.md)
-- [fclose »] (function.fclose.md)
+- [fclose »](function.fclose.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

@@ -1,6 +1,5 @@
 - [« DOMDocument::\_\_construct](domdocument.construct.md)
-- [DOMDocument::createAttributeNS
-»](domdocument.createattributens.md)
+- [DOMDocument::createAttributeNS »](domdocument.createattributens.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

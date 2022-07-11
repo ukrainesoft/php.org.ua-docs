@@ -1,4 +1,4 @@
-- [« Опції контексту CURL] (context.curl.md)
+- [« Опції контексту CURL](context.curl.md)
 - [Настройки контексту »](context.params.md)
 
 - [PHP Manual](index.md)
@@ -16,8 +16,7 @@
 ### Опції
 
 `compress` int
-Одна з [констант стиснення
-Phar](phar.constants.md#phar.constants.compression).
+Одна з [констант стиснення Phar](phar.constants.md#phar.constants.compression).
 
 `metadata` [mixed](language.types.declarations.md#language.types.declarations.mixed)
 Метадані Phar. Дивіться [Phar::setMetadata()](phar.setmetadata.md).

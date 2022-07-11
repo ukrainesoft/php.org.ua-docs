@@ -42,9 +42,10 @@
 | **`T_ARRAY`** | array() | [array()](function.array.md), [синтаксис масиву](language.types.array.md#language.types.array.syntax) |
 | **`T_ARRAY_CAST`** | (Array) | [Приведення типу](language.types.type-juggling.md#language.types.typecasting) |
 | **`T_AS`** | як | [foreach](control-structures.foreach.md) |
-| **`T_ATTRIBUTE`** | #\[ | [attributes](language.attributes.md) (доступно з PHP 8.0.0) |
+| **`T_ATTRIBUTE`** | #[ | [attributes](language.attributes.md) (доступно з PHP 8.0.0) |
 | **`T_BAD_CHARACTER`** | | все, що нижче за ASCII 32 виключаючи (0x09),
- (0x0a) та (0x0d) (доступно з PHP 7.4.0) |
+ (0x0a) та
+ (0x0d) (доступно з PHP 7.4.0) |
 | **`T_BOOLEAN_AND`** | && | [логічні оператори](language.operators.logical.md) |
 | **`T_BOOLEAN_OR`** | \|\| | [логічні оператори](language.operators.logical.md) |
 | **`T_BOOL_CAST`** | (bool) або (boolean) | [Приведення типу](language.types.type-juggling.md#language.types.typecasting) |
@@ -138,8 +139,8 @@
 | **`T_NAME_RELATIVE`** | namespace\Namespace | [простір імен](language.namespaces.md) (доступно, починаючи з PHP 8.0.0) |
 | **`T_NEW`** | New | [класи та об'єкти](language.oop5.md) |
 | **`T_NS_C`** | \_\_NAMESPACE\_\_ | [простір імен](language.namespaces.md) |
-| **`T_NS_SEPARATOR`** | \ | [простір імен](language.namespaces.md) |
-| **`T_NUM_STRING`** | "$a\[0\]" | [цифровий індекс масиву всередині рядка](language.types.string.md#language.types.string.parsing) |
+| **`T_NS_SEPARATOR`** | \ | ]ростір імен](language.namespaces.md) |
+| **`T_NUM_STRING`** | "$a[0\]" | [цифровий індекс масиву всередині рядка](language.types.string.md#language.types.string.parsing) |
 | **`T_OBJECT_CAST`** | (object) | [Приведення типів](language.types.type-juggling.md#language.types.typecasting) |
 | **`T_OBJECT_OPERATOR`** | -\> | [класи та об'єкти](language.oop5.md) |
 | **`T_NULLSAFE_OBJECT_OPERATOR`** | ?-\> | [класи та об'єкти](language.oop5.md) |

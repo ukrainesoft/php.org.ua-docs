@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
-- [MongoDB\Driver\ReadConcern::\_\_construct
-»](mongodb-driver-readconcern.construct.md)
+- [« MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
+- [MongoDB\Driver\ReadConcern::\_\_construct »](mongodb-driver-readconcern.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
@@ -67,5 +65,4 @@ string(5) "local"
 
 - [MongoDB\BSON\Serializable::bsonSerialize()](mongodb-bson-serializable.bsonserialize.md) -
 Надає масив або документ для серіалізації у BSON
-- [» Довідка за гарантіями
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

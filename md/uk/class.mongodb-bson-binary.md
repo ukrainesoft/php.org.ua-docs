@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON oRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.md)
-- [MongoDB\BSON\Binary::\_\_construct
-»](mongodb-bson-binary.construct.md)
+- [« MongoDB\BSON oRelaxedExtendedJSON](function.mongodb.bson-torelaxedextendedjson.md)
+- [MongoDB\BSON\Binary::\_\_construct »](mongodb-bson-binary.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)
@@ -92,8 +90,7 @@ final public [unserialize](mongodb-bson-binary.unserialize.md)(string
 
 **`MongoDB\BSON\Binary::TYPE_UUID`**
 Універсальний унікальний ідентифікатор. При використанні цього типу
-бінарні дані мають бути завдовжки 16 байт [» RFC
-4122](http://www.faqs.org/rfcs/rfc4122).
+бінарні дані мають бути завдовжки 16 байт [» RFC 4122](http://www.faqs.org/rfcs/rfc4122).
 
 **`MongoDB\BSON\Binary::TYPE_MD5`**
 Хеш MD5. При використанні цього типу, бінарні дані мають бути
@@ -116,8 +113,7 @@ final public [unserialize](mongodb-bson-binary.unserialize.md)(string
 [TABLE]
 
 ## Зміст
-
-- [MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
+ - [MongoDB\BSON\Binary::\_\_construct](mongodb-bson-binary.construct.md)
 - Створює новий Binary
 - [MongoDB\BSON\Binary::getData](mongodb-bson-binary.getdata.md) -
 Повертає дані Binary

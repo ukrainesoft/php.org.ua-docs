@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md)
-- [RecursiveFilterIterator::\_\_construct
-»](recursivefilteriterator.construct.md)
+- [« RecursiveDirectoryIterator::rewind](recursivedirectoryiterator.rewind.md)
+- [RecursiveFilterIterator::\_\_construct »](recursivefilteriterator.construct.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

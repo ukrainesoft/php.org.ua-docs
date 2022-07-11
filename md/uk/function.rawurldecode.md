@@ -1,5 +1,5 @@
 - [«parse_url](function.parse-url.md)
-- [rawurlencode »] (function.rawurlencode.md)
+- [rawurlencode »](function.rawurlencode.md)
 
 - [PHP Manual](index.md)
 - [Функції URL](ref.url.md)

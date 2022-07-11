@@ -2,7 +2,7 @@
 - [Помилки та їх обробка»](com.error-handling.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Обумовлені константи
 
 # Зумовлені константи

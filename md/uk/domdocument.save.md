@@ -1,5 +1,4 @@
-- [«
-DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md)
+- [« DOMDocument::relaxNGValidateSource](domdocument.relaxngvalidatesource.md)
 - [DOMDocument::saveHTML »](domdocument.savehtml.md)
 
 - [PHP Manual](index.md)

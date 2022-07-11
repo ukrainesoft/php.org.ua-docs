@@ -1,5 +1,5 @@
 - [« Установка](sync.installation.md)
-- [Типи ресурсів»] (sync.resources.md)
+- [Типи ресурсів»](sync.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](sync.setup.md)

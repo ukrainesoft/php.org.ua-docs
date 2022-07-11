@@ -1,5 +1,5 @@
 - [«cli_get_process_title](function.cli-get-process-title.md)
-- [dl »] (function.dl.md)
+- [dl »](function.dl.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

@@ -1,7 +1,5 @@
-- [«
-IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.md)
-- [IntlCodePointBreakIterator::getLastCodePoint
-»](intlcodepointbreakiterator.getlastcodepoint.md)
+- [« IntlRuleBasedBreakIterator::getRuleStatusVec](intlrulebasedbreakiterator.getrulestatusvec.md)
+- [IntlCodePointBreakIterator::getLastCodePoint »](intlcodepointbreakiterator.getlastcodepoint.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)

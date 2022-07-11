@@ -1,5 +1,4 @@
-- [«
-fann_num_input_train_data](function.fann-num-input-train-data.md)
+- [« fann_num_input_train_data](function.fann-num-input-train-data.md)
 - [fann_print_error »](function.fann-print-error.md)
 
 - [PHP Manual](index.md)

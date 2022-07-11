@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md)
-- [SolrDisMaxQuery::removeQueryField
-»](solrdismaxquery.removequeryfield.md)
+- [« SolrDisMaxQuery::removeBoostQuery](solrdismaxquery.removeboostquery.md)
+- [SolrDisMaxQuery::removeQueryField »](solrdismaxquery.removequeryfield.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

@@ -1,6 +1,5 @@
 - [« ZipArchive::setEncryptionName](ziparchive.setencryptionname.md)
-- [ZipArchive::setExternalAttributesName
-»](ziparchive.setexternalattributesname.md)
+- [ZipArchive::setExternalAttributesName »](ziparchive.setexternalattributesname.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

@@ -1,7 +1,5 @@
-- [«
-stream_context_get_params](function.stream-context-get-params.md)
-- [stream_context_set_option
-»](function.stream-context-set-option.md)
+- [« stream_context_get_params](function.stream-context-get-params.md)
+- [stream_context_set_option »](function.stream-context-set-option.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)
@@ -51,4 +49,4 @@ stream_context_set_default — Встановити контекст поток�
 - [stream_context_get_default()](function.stream-context-get-default.md) -
 Отримує контекст потоку за замовчуванням
 - Listing of supported wrappers with context options (Підтримувані
-протоколи та обгортки] (wrappers.md)).
+протоколи та обгортки](wrappers.md)).

@@ -1,5 +1,5 @@
 - [«chdir](function.chdir.md)
-- [closedir »] (function.closedir.md)
+- [closedir »](function.closedir.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з каталогами](ref.dir.md)

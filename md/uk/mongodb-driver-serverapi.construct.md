@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md)
-- [MongoDB\Driver\ServerApi::serialize
-»](mongodb-driver-serverapi.serialize.md)
+- [« MongoDB\Driver\ServerApi::bsonSerialize](mongodb-driver-serverapi.bsonserialize.md)
+- [MongoDB\Driver\ServerApi::serialize »](mongodb-driver-serverapi.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)

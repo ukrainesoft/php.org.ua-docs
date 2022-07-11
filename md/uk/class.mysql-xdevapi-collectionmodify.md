@@ -1,6 +1,5 @@
 - [« CollectionFind::sort](mysql-xdevapi-collectionfind.sort.md)
-- [CollectionModify::arrayAppend
-»](mysql-xdevapi-collectionmodify.arrayappend.md)
+- [CollectionModify::arrayAppend »](mysql-xdevapi-collectionmodify.arrayappend.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

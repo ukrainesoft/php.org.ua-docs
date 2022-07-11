@@ -1,6 +1,5 @@
 - [« ReflectionExtension::info](reflectionextension.info.md)
-- [ReflectionExtension::isTemporary
-»](reflectionextension.istemporary.md)
+- [ReflectionExtension::isTemporary »](reflectionextension.istemporary.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

@@ -1,6 +1,5 @@
 - [« EventBufferEvent::sslError](eventbufferevent.sslerror.md)
-- [EventBufferEvent::sslGetCipherInfo
-»](eventbufferevent.sslgetcipherinfo.md)
+- [EventBufferEvent::sslGetCipherInfo »](eventbufferevent.sslgetcipherinfo.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

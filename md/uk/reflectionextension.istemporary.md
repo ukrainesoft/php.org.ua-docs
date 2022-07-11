@@ -1,7 +1,5 @@
-- [«
-ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
-- [ReflectionExtension::\_\_toString
-»](reflectionextension.tostring.md)
+- [« ReflectionExtension::isPersistent](reflectionextension.ispersistent.md)
+- [ReflectionExtension::\_\_toString »](reflectionextension.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionExtension](class.reflectionextension.md)

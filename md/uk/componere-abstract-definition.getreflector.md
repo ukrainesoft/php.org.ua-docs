@@ -1,5 +1,4 @@
-- [«
-Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md)
+- [« Componere\Abstract\Definition::addTrait](componere-abstract-definition.addtrait.md)
 - [Componere\Definition »](class.componere-definition.md)
 
 - [PHP Manual](index.md)

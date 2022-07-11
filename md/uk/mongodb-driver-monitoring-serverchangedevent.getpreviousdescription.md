@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId
-»](mongodb-driver-monitoring-serverchangedevent.gettopologyid.md)
+- [« MongoDB\Driver\Monitoring\ServerChangedEvent::getPort](mongodb-driver-monitoring-serverchangedevent.getport.md)
+- [MongoDB\Driver\Monitoring\ServerChangedEvent::getTopologyId »](mongodb-driver-monitoring-serverchangedevent.gettopologyid.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)

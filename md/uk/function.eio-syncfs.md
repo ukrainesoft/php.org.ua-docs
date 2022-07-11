@@ -1,5 +1,5 @@
 - [«eio_sync](function.eio-sync.md)
-- [eio_truncate »] (function.eio-truncate.md)
+- [eio_truncate »](function.eio-truncate.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

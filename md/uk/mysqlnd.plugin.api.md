@@ -1,7 +1,5 @@
-- [« Архітектура плагінів MySQL Native
-Driver](mysqlnd.plugin.architecture.md)
-- [Починаємо розробку плагіна mysqlnd
-»](mysqlnd.plugin.developing.md)
+- [« Архітектура плагінів MySQL Native Driver](mysqlnd.plugin.architecture.md)
+- [Починаємо розробку плагіна mysqlnd »](mysqlnd.plugin.developing.md)
 
 - [PHP Manual](index.md)
 - [API для плагінів до вбудованого драйвера MySQL](mysqlnd.plugin.md)

@@ -1,6 +1,5 @@
-- [«
-enchant_dict_add_to_session](function.enchant-dict-add-to-session.md)
-- [enchant_dict_check »] (function.enchant-dict-check.md)
+- [« enchant_dict_add_to_session](function.enchant-dict-add-to-session.md)
+- [enchant_dict_check »](function.enchant-dict-check.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

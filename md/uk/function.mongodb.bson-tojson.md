@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON oCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.md)
+- [« MongoDB\BSON oCanonicalExtendedJSON](function.mongodb.bson-tocanonicalextendedjson.md)
 - [MongoDB\BSON oPHP »](function.mongodb.bson-tophp.md)
 
 - [PHP Manual](index.md)
@@ -17,17 +16,14 @@ MongoDB\BSON oJSON — Повертає Legacy Extended JSON представл�
 
 **MongoDB\BSON oJSON**(string `$bson`): string
 
-Перетворює рядок BSON на його [» Legacy Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+Перетворює рядок BSON на його [» Legacy Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
 уявлення.
 
 > **Примітка**: Існує кілька форматів JSON для представлення
 > BSON. Ця функція реалізує "суворий режим", визначений у [» MongoDB
-> Extended
-> JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/),
+> Extended > JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/),
 > який був замінений канонічними та спрощеними форматами,
-> визначеними в [» Специфікації Extended
-> JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+> визначеними в [» Специфікації Extended > JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
 > та реалізованими
 > [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md)
 > і
@@ -105,7 +101,5 @@ MongoDB не визначає альтернативне уявлення для
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

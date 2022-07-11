@@ -1,5 +1,4 @@
-- [« Функціонал, оголошений застарілим у PHP
-7.2.x](migration72.deprecated.md)
+- [« Функціонал, оголошений застарілим у PHP 7.2.x](migration72.deprecated.md)
 - [Міграція з PHP 7.0.x на PHP 7.1.x »](migration71.md)
 
 - [PHP Manual](index.md)
@@ -14,7 +13,7 @@
 [utf8_decode()](function.utf8-decode.md) були переміщені у стандартну
 бібліотеку як функції роботи з рядками. У попередніх
 версіях для їх використання необхідно встановити модуль
-[XML] (book.xml.md).
+[XML](book.xml.md).
 
 ### Зміни [mail()](function.mail.md) та [mb_send_mail()](function.mb-send-mail.md)
 

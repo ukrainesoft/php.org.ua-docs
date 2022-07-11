@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine\MySQL::close](swoole-coroutine-mysql.close.md)
-- [Swoole\Coroutine\MySQL::\_\_construct
-»](swoole-coroutine-mysql.construct.md)
+- [Swoole\Coroutine\MySQL::\_\_construct »](swoole-coroutine-mysql.construct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

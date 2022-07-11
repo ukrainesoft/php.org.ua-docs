@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\Text\Strong](class.commonmark-node-text-strong.md)
-- [CommonMark\Node\ThematicBreak
-»](class.commonmark-node-thematicbreak.md)
+- [« CommonMark\Node\Text\Strong](class.commonmark-node-text-strong.md)
+- [CommonMark\Node\ThematicBreak »](class.commonmark-node-thematicbreak.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

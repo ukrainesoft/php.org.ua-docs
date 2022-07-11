@@ -16,8 +16,7 @@
 - [Предвизначені константи](rrd.constants.md)
 - [Приклади](rrd.examples.md)
 - [Процедурний приклад PECL/rrd](rrd.examples-procedural.md)
-- [Об'єктно-орієнтований приклад
-PECL/rrd](rrd.examples-oop.md)
+- [Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)
 - [Функції RRD](ref.rrd.md)
 - [rrd_create](function.rrd-create.md) — Створити файл rrd
 - [rrd_error](function.rrd-error.md) — Отримати останнє

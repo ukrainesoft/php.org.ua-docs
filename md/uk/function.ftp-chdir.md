@@ -1,5 +1,5 @@
 - [«ftp_cdup](function.ftp-cdup.md)
-- [ftp_chmod»] (function.ftp-chmod.md)
+- [ftp_chmod»](function.ftp-chmod.md)
 
 - [PHP Manual](index.md)
 - [Функції FTP](ref.ftp.md)

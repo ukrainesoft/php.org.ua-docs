@@ -1,7 +1,5 @@
-- [«
-Swoole\Http\Response::initHeader](swoole-http-response.initheader.md)
-- [Swoole\Http\Response::sendfile
-»](swoole-http-response.sendfile.md)
+- [« Swoole\Http\Response::initHeader](swoole-http-response.initheader.md)
+- [Swoole\Http\Response::sendfile »](swoole-http-response.sendfile.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Response](class.swoole-http-response.md)

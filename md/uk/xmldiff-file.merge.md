@@ -1,5 +1,5 @@
 - [« XMLDiff\File::diff](xmldiff-file.diff.md)
-- [Розбір XML»] (book.xml.md)
+- [Розбір XML»](book.xml.md)
 
 - [PHP Manual](index.md)
 - [XMLDiff\File](class.xmldiff-file.md)

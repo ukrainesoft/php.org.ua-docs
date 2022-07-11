@@ -1,6 +1,5 @@
 - [«EventHttpRequest::findHeader](eventhttprequest.findheader.md)
-- [EventHttpRequest::getBufferEvent
-»](eventhttprequest.getbufferevent.md)
+- [EventHttpRequest::getBufferEvent »](eventhttprequest.getbufferevent.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

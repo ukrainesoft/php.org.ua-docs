@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_sign_secretkey](function.sodium-crypto-sign-secretkey.md)
-- [sodium_crypto_sign_verify_detached
-»](function.sodium-crypto-sign-verify-detached.md)
+- [« sodium_crypto_sign_secretkey](function.sodium-crypto-sign-secretkey.md)
+- [sodium_crypto_sign_verify_detached »](function.sodium-crypto-sign-verify-detached.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

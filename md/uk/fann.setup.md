@@ -2,7 +2,7 @@
 - [Вимоги »](fann.requirements.md)
 
 - [PHP Manual](index.md)
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

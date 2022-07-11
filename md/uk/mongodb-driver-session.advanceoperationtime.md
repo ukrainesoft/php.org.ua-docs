@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::advanceClusterTime](mongodb-driver-session.advanceclustertime.md)
-- [MongoDB\Driver\Session::commitTransaction
-»](mongodb-driver-session.committransaction.md)
+- [« MongoDB\Driver\Session::advanceClusterTime](mongodb-driver-session.advanceclustertime.md)
+- [MongoDB\Driver\Session::commitTransaction »](mongodb-driver-session.committransaction.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

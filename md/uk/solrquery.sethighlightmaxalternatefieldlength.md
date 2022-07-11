@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightHighlightMultiTerm](solrquery.sethighlighthighlightmultiterm.md)
-- [SolrQuery::setHighlightMaxAnalyzedChars
-»](solrquery.sethighlightmaxanalyzedchars.md)
+- [« SolrQuery::setHighlightHighlightMultiTerm](solrquery.sethighlighthighlightmultiterm.md)
+- [SolrQuery::setHighlightMaxAnalyzedChars »](solrquery.sethighlightmaxanalyzedchars.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

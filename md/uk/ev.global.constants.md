@@ -2,7 +2,7 @@
 - [Приклади »](ev.examples.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Обумовлені константи
 
 # Зумовлені константи

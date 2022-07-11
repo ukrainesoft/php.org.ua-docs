@@ -1,5 +1,5 @@
 - [«octdec](function.octdec.md)
-- [pow »] (function.pow.md)
+- [pow »](function.pow.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

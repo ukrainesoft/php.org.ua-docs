@@ -1,5 +1,5 @@
 - [«fopen](function.fopen.md)
-- [fputcsv »] (function.fputcsv.md)
+- [fputcsv »](function.fputcsv.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

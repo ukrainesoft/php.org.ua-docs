@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\WriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.md)
+- [« MongoDB\Driver\WriteResult::isAcknowledged](mongodb-driver-writeresult.isacknowledged.md)
 - [Функції »](ref.bson.functions.md)
 
 - [PHP Manual](index.md)

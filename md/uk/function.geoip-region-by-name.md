@@ -1,6 +1,5 @@
 - [« geoip_record_by_name](function.geoip-record-by-name.md)
-- [geoip_region_name_by_code
-»](function.geoip-region-name-by-code.md)
+- [geoip_region_name_by_code »](function.geoip-region-name-by-code.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

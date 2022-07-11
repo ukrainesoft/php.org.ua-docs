@@ -1,5 +1,5 @@
 - [« Phar-архіви, що базуються на zip](phar.fileformat.zip.md)
-- [Прапори глобальної бітової карти Phar »] (phar.fileformat.flags.md)
+- [Прапори глобальної бітової карти Phar »](phar.fileformat.flags.md)
 
 - [PHP Manual](index.md)
 - [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)

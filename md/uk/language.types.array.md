@@ -251,8 +251,7 @@ $arr[] u003d value;
 рекомендується, тому що якщо змінна `$arr` вже містить деяке
 значення (наприклад, значення типу string із змінної запиту), то це
 значення залишиться на місці і `[]` може насправді означати [доступ
-до символу в
-рядку](language.types.string.md#language.types.string.substr). Краще
+до символу в рядку](language.types.string.md#language.types.string.substr). Краще
 ініціалізувати змінну шляхом явного надання значення.
 
 > **Примітка**: Починаючи з PHP 7.1.0, використовуючи в оператор "порожній"
@@ -309,8 +308,7 @@ $arr[] u003d value;
 ### Корисні функції
 
 Для роботи з масивами існує достатня кількість корисних
-функцій. Дивіться розділ [функції для роботи з
-масивами] (ref.array.md).
+функцій. Дивіться розділ [функції для роботи з масивами](ref.array.md).
 
 > **Примітка**:
 >
@@ -322,7 +320,7 @@ $arr[] u003d value;
 >
 > ` <?php$a u003d array(1 u003d> 'один', 2 u003d> 'два', 3 u003d> 'три');unset($a[2]);/* дасть масив, представлений так:   $ a u003d array(1 u003d> 'один', 3 u003d> 'три'); а НЕ так:   $a u003d array(1 u003d> 'один', 2 u003d> 'три');*/$b u003d array_values($a);// Теперь $b це array(0 u003d> 1 u003d> 'три')?> `
 
-Керуюча конструкція [foreach] (control-structures.foreach.md)
+Керуюча конструкція [foreach](control-structures.foreach.md)
 Існує спеціально для масивів. Вона надає можливість легко
 пройтися масивом.
 
@@ -389,8 +387,7 @@ $arr[] u003d value;
 
 ` <?php// Показуємо все помилкиerror_reporting(E_ALL);$arr u003d array('fruit' u003d> 'apple', 'veggie' u003d> 'carrot');// Вірноprint $arr['fru' // appleprint $arr['veggie']; // Carrot // Неправильно. Це працює, але за невизначеної константи с// іменем fruit також викликає помилки PHP рівня E_NOTICE//// Notice: Use of undefined       ¦ // apple// Давайте визначимо константу, щоб продемонструвати, що// відбувається. Ми присвоїмо константі з іменем fruit значення 'veggie'.define('fruit', 'veggie'); // appleprint $arr[fruit]; // Carrot // Всередині рядки це нормально. Всередині рядків константи не// розглядаються, так що помилки E_NOTICE тут не відбудеться print "Hello $arr[fruit]"; // Hello apple// З одним винятком: фігурні дужки навколо масивів внутрі// рядків дозволяють константам там перебуватиprint "Hello {$arr[fruit]}"; // Hello carrotprint "Hello {$arr['fruit']}"; // Hello apple// Это не будет работать и вызовет ошибку обработки, такую как:// Parse error: parse error, expecting T_STRING' or T_VARIABLE' or T_NUM_STRING'// Это, конечно, также действует и с суперглобальными переменными в строкахprint " Hello $arr['fruit']";print "Hello $_GET['foo']";//Ще одна можливість - конкатенаціяprint "Hello " . $arr['fruit']; // Hello apple?> `
 
-Якщо ви переведете
-[error_reporting](errorfunc.configuration.md#ini.error-reporting) у
+Якщо ви переведете [error_reporting](errorfunc.configuration.md#ini.error-reporting) у
 режим відображення помилок рівня **`E_NOTICE`** (наприклад, такий як
 **`E_ALL`**), ви відразу побачите ці помилки. За замовчуванням
 [error_reporting](errorfunc.configuration.md#ini.error-reporting)
@@ -422,15 +419,13 @@ $arr[] u003d value;
 додати ще одну константу або ключове слово, або константа з
 інший код може втрутитися і тоді у вас можуть виникнути проблеми.
 Наприклад, ви вже не можете використовувати таким чином слова `empty` та
-`default`, оскільки вони є [зарезервованими ключовими
-словами](reserved.md).
+`default`, оскільки вони є [зарезервованими ключовими словами](reserved.md).
 
 > **Примітка**: Повторимо, усередині рядка (string), укладеного в подвійні
 > лапки, коректно не оточувати індекси масиву лапками, тому
 > ``$foo[bar]'` є вірним записом. Докладніше чому -
 > дивіться наведені вище приклади, а також розділ по [обробці
-> змінних у
-> рядках](language.types.string.md#language.types.string.parsing).
+> змінних у > рядках](language.types.string.md#language.types.string.parsing).
 
 ### Перетворення в масив
 
@@ -447,8 +442,7 @@ $arr[] u003d value;
 класу (private) попереду буде дописано ім'я класу; до захищених полів
 класу (protected) попереду буде додано символ '\*'. Ці додані
 значення з обох боків також мають 'NUL' байти. Неініціалізовані
-[типізовані
-властивості](language.oop5.properties.md#language.oop5.properties.typed-properties)
+[типізовані властивості](language.oop5.properties.md#language.oop5.properties.typed-properties)
 автоматично відкидаються.
 
 ` <?phpclass A {    private $B; protected $ C; public $D; function __construct()    {        $this->{1} u003d null; }}var_export((array) new A());?> `
@@ -486,8 +480,7 @@ NULL
 ### Порівняння
 
 Масиви можна порівнювати за допомогою функції
-[array_diff()](function.array-diff.md) та [операторів
-масивів] (language.operators.array.md).
+[array_diff()](function.array-diff.md) та [операторів масивів](language.operators.array.md).
 
 ### Розпакування масиву
 
@@ -514,8 +507,7 @@ NULL
 
 > **Примітка**:
 >
-> Ключі, які є цілими числами, ні рядками, викликають
-> помилку [TypeError](class.typeerror.md). Такі ключі можуть бути
+> Ключі, які є цілими числами, ні рядками, викликають > помилку [TypeError](class.typeerror.md). Такі ключі можуть бути
 > згенеровані лише об'єктом [Traversable](class.traversable.md).
 
 > **Примітка**:
@@ -601,7 +593,6 @@ Array
 ` <?php$fruits u003d array ( "fruits"  u003d> array ( "a" u003d> "апельсин",                                       "b" u003d> "банан",                                       "c" u003d> "яблоко"                                     ),                  "numbers"   u003d> array ( 1,                                       2,                                       3,                                       4,                                       5,                                       6                                     ),                  "holes"   u003d> array (      "первая",                                       5 u003d> "вторая",                                            "третья"                                     )                );// Несколько примеров доступа к значениям предыдущего массиваecho $fruits[ "holes"] [5]; // надрукує "друга"echo $fruits["fruits"]["a"]; // надрукує "апельсин"unset($fruits["holes"][0]); // видалити "перша"// Створити новий багатомірний масив$juices["apple"]["green"] u003d "good";?> `
 
 Зверніть увагу, що при привласненні масиву завжди відбувається
-копіювання значення. Щоб скопіювати масив за посиланням, вам потрібно
-використовувати [оператор посилання](language.operators.md).
+копіювання значення. Щоб скопіювати масив за посиланням, вам потрібно використовувати [оператор посилання](language.operators.md).
 
 ` <?php$arr1 u003d array(2, 3);$arr2 u003d $arr1;$arr2[] u003d 4; // $arr2 змінився,               // $arr1 все ще array(2, 3)$arr3 u003d &$arr1;$arr3[] u003d 4; // тепер $arr1 і $arr3 однакові?> `

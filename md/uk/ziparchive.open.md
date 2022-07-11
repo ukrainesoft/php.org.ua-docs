@@ -1,6 +1,5 @@
 - [« ZipArchive::locateName](ziparchive.locatename.md)
-- [ZipArchive::registerCancelCallback
-»](ziparchive.registercancelcallback.md)
+- [ZipArchive::registerCancelCallback »](ziparchive.registercancelcallback.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

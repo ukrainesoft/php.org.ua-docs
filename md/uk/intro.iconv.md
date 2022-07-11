@@ -1,4 +1,4 @@
-- [« iconv] (book.iconv.md)
+- [« iconv](book.iconv.md)
 - [Встановлення та налаштування »](iconv.setup.md)
 
 - [PHP Manual](index.md)

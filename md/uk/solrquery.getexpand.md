@@ -1,6 +1,5 @@
 - [«SolrQuery::\_\_destruct](solrquery.destruct.md)
-- [SolrQuery::getExpandFilterQueries
-»](solrquery.getexpandfilterqueries.md)
+- [SolrQuery::getExpandFilterQueries »](solrquery.getexpandfilterqueries.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

@@ -1,7 +1,5 @@
-- [«
-UI\Controls\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md)
-- [UI\Controls\MultilineEntry::setReadOnly
-»](ui-controls-multilineentry.setreadonly.md)
+- [« UI\Controls\MultilineEntry::isReadOnly](ui-controls-multilineentry.isreadonly.md)
+- [UI\Controls\MultilineEntry::setReadOnly »](ui-controls-multilineentry.setreadonly.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)

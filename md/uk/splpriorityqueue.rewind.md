@@ -1,7 +1,5 @@
-- [«
-SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.md)
-- [SplPriorityQueue::setExtractFlags
-»](splpriorityqueue.setextractflags.md)
+- [« SplPriorityQueue::recoverFromCorruption](splpriorityqueue.recoverfromcorruption.md)
+- [SplPriorityQueue::setExtractFlags »](splpriorityqueue.setextractflags.md)
 
 - [PHP Manual](index.md)
 - [SplPriorityQueue](class.splpriorityqueue.md)

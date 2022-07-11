@@ -1,6 +1,5 @@
 - [« DOMDocument::loadHTMLFile](domdocument.loadhtmlfile.md)
-- [DOMDocument::normalizeDocument
-»](domdocument.normalizedocument.md)
+- [DOMDocument::normalizeDocument »](domdocument.normalizedocument.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)
@@ -25,8 +24,7 @@ public **DOMDocument::loadXML**(string `$source`, int `$options` u003d 0):
 Містить XML-рядок.
 
 `options`
-[Побітове `АБО`](language.operators.bitwise.md) [констант опцій
-libxml] (libxml.constants.md).
+[Побітове `АБО`](language.operators.bitwise.md) [констант опцій libxml](libxml.constants.md).
 
 ### Значення, що повертаються
 

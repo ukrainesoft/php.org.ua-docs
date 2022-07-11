@@ -127,8 +127,7 @@ public
 не **`null`**.
 
 `nodeType`
-Повертає тип вузла. Одна з можливих [констант
-XML_xxx_NODE](dom.constants.md)
+Повертає тип вузла. Одна з можливих [констант XML_xxx_NODE](dom.constants.md)
 
 `parentNode`
 Батьківський вузол цього вузла. Якщо такого вузла немає, повертає
@@ -198,8 +197,7 @@ URI - простір імен цього вузла або **`null`**, якщо 
 
 ## Дивіться також
 
-- [» Специфікація W3C елемента
-Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
+- [» Специфікація W3C елемента Node](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-1950641247)
 
 ## Зміст
 

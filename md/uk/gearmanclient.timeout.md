@@ -1,5 +1,4 @@
-- [«
-GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md)
+- [« GearmanClient::setWorkloadCallback](gearmanclient.setworkloadcallback.md)
 - [GearmanClient::wait »](gearmanclient.wait.md)
 
 - [PHP Manual](index.md)

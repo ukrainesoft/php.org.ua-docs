@@ -2,7 +2,7 @@
 - [COMPersistHelper::\_\_construct »](compersisthelper.construct.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Клас COMPersistHelper
 
 # Клас COMPersistHelper

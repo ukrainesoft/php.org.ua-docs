@@ -1,7 +1,5 @@
-- [«
-xmlrpc_parse_method_descriptions](function.xmlrpc-parse-method-descriptions.md)
-- [xmlrpc_server_call_method
-»](function.xmlrpc-server-call-method.md)
+- [« xmlrpc_parse_method_descriptions](function.xmlrpc-parse-method-descriptions.md)
+- [xmlrpc_server_call_method »](function.xmlrpc-server-call-method.md)
 
 - [PHP Manual](index.md)
 - [Функції XML-RPC](ref.xmlrpc.md)

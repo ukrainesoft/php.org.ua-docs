@@ -2,20 +2,17 @@
 - [com_create_guid »](function.com-create-guid.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Функції COM
 
 # Функції COM
 
 ## Дивіться також
 
-Для отримання подальшої інформації про COM прочитайте [» Специфікацію
-COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal).
-Ви можете знайти додаткову інформацію у нашому FAQ [PHP та
-COM](faq.com.md). Якщо ви хочете використовувати програму MS Office на
+Для отримання подальшої інформації про COM прочитайте [» Специфікацію COM](https://docs.microsoft.com/windows/desktop/com/component-object-model--com--portal).
+Ви можете знайти додаткову інформацію у нашому FAQ [PHP та COM](faq.com.md). Якщо ви хочете використовувати програму MS Office на
 стороні сервера, необхідно прочитати подану тут інформацію:
-[» Використання MS Office на стороні
-сервера](http://support.microsoft.com/kb/257757).
+[» Використання MS Office на стороні сервера](http://support.microsoft.com/kb/257757).
 
 ## Зміст
 

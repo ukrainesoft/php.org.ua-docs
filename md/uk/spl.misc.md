@@ -1,5 +1,4 @@
-- [«
-SplTempFileObject::\_\_construct](spltempfileobject.construct.md)
+- [« SplTempFileObject::\_\_construct](spltempfileobject.construct.md)
 - [ArrayObject »](class.arrayobject.md)
 
 - [PHP Manual](index.md)

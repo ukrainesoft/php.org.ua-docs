@@ -1,6 +1,5 @@
 - [« sodium_compare](function.sodium-compare.md)
-- [sodium_crypto_aead_aes256gcm_encrypt
-»](function.sodium-crypto-aead-aes256gcm-encrypt.md)
+- [sodium_crypto_aead_aes256gcm_encrypt »](function.sodium-crypto-aead-aes256gcm-encrypt.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

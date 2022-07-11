@@ -1,5 +1,5 @@
 - [«get_resources](function.get-resources.md)
-- [getlastmod»] (function.getlastmod.md)
+- [getlastmod»](function.getlastmod.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

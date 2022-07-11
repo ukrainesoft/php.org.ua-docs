@@ -1,6 +1,5 @@
 - [« Побітові оператори](language.operators.bitwise.md)
-- [Оператор управління помилками
-»](language.operators.errorcontrol.md)
+- [Оператор управління помилками »](language.operators.errorcontrol.md)
 
 - [PHP Manual](index.md)
 - [Оператори](language.operators.md)
@@ -28,12 +27,10 @@
 
 **Оператори порівняння**
 
-У випадку, якщо обидва операнди є [рядками, що містять
-числа](language.types.numeric-strings.md) або один операнд є
-числом, а інший - [рядком, що містить
-числа](language.types.numeric-strings.md), то порівняння виконується
+У випадку, якщо обидва операнди є [рядками, що містять числа](language.types.numeric-strings.md) або один операнд є
+числом, а інший - [рядком, що містить числа](language.types.numeric-strings.md), то порівняння виконується
 чисельно. Ці правила також застосовуються до оператора
-[switch] (control-structures.switch.md). Перетворення типу не
+[switch](control-structures.switch.md). Перетворення типу не
 відбувається при порівнянні `u003du003du003d` або `!u003du003d`, оскільки це включає
 порівняння типу, і навіть значення.
 

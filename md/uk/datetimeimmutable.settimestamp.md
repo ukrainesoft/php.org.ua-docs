@@ -1,6 +1,5 @@
 - [« DateTimeImmutable::setTime](datetimeimmutable.settime.md)
-- [DateTimeImmutable::setTimezone
-»](datetimeimmutable.settimezone.md)
+- [DateTimeImmutable::setTimezone »](datetimeimmutable.settimezone.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

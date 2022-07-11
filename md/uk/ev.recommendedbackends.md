@@ -31,8 +31,7 @@ final public static **Ev::recommendedBackends**(): int
 
 ### Значення, що повертаються
 
-Повертає бітову маску, що містить [прапори]
-бекенда](class.ev.md#ev.constants.watcher-backends), об'єднані з
+Повертає бітову маску, що містить [прапори] бекенда](class.ev.md#ev.constants.watcher-backends), об'єднані з
 допомогою побітового *АБО*.
 
 ### Приклади

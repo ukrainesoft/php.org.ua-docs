@@ -1,5 +1,5 @@
 - [« Установка](win32service.installation.md)
-- [Типи ресурсів»] (win32service.resources.md)
+- [Типи ресурсів»](win32service.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](win32service.setup.md)

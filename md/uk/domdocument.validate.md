@@ -1,5 +1,4 @@
-- [«
-DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md)
+- [« DOMDocument::schemaValidateSource](domdocument.schemavalidatesource.md)
 - [DOMDocument::xinclude »](domdocument.xinclude.md)
 
 - [PHP Manual](index.md)

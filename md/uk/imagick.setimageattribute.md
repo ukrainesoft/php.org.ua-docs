@@ -1,6 +1,5 @@
 - [« Imagick::setImageArtifact](imagick.setimageartifact.md)
-- [Imagick::setImageBackgroundColor
-»](imagick.setimagebackgroundcolor.md)
+- [Imagick::setImageBackgroundColor »](imagick.setimagebackgroundcolor.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

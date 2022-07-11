@@ -1,5 +1,5 @@
 - [«asort](function.asort.md)
-- [count »] (function.count.md)
+- [count »](function.count.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)
@@ -70,10 +70,8 @@ Array
 ### Примітки
 
 > **Примітка**: **Примітки щодо роботи функції compact**
->
-> Оскільки [змінні змінних](language.variables.variable.md) не
-> можуть бути використані з [суперглобальними
-> масивами](language.variables.superglobals.md) всередині функцій,
+> > Оскільки [змінні змінних](language.variables.variable.md) не
+> можуть бути використані з [суперглобальними > масивами](language.variables.superglobals.md) всередині функцій,
 > суперглобальні масиви неможливо знайти передані в **compact()**.
 
 ### Дивіться також

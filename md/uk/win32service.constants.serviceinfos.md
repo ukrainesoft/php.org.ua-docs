@@ -1,5 +1,4 @@
-- [« Дії при відновленні
-Win32](win32service.constants.recovery-action.md)
+- [« Дії при відновленні Win32](win32service.constants.recovery-action.md)
 - [Win32ServiceException »](class.win32serviceexception.md)
 
 - [PHP Manual](index.md)

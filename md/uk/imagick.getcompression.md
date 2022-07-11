@@ -1,6 +1,5 @@
 - [« Imagick::getColorspace](imagick.getcolorspace.md)
-- [Imagick::getCompressionQuality
-»](imagick.getcompressionquality.md)
+- [Imagick::getCompressionQuality »](imagick.getcompressionquality.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

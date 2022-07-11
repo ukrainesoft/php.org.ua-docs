@@ -1,5 +1,5 @@
 - [«uopz_copy](function.uopz-copy.md)
-- [uopz_delete »] (function.uopz-delete.md)
+- [uopz_delete »](function.uopz-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції Uopz](ref.uopz.md)

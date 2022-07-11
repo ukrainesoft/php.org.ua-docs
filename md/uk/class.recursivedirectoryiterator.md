@@ -1,7 +1,5 @@
-- [«
-RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)
-- [RecursiveDirectoryIterator::\_\_construct
-»](recursivedirectoryiterator.construct.md)
+- [« RecursiveCallbackFilterIterator::hasChildren](recursivecallbackfilteriterator.haschildren.md)
+- [RecursiveDirectoryIterator::\_\_construct »](recursivedirectoryiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

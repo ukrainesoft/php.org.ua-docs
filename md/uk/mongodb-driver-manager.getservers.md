@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::getReadPreference](mongodb-driver-manager.getreadpreference.md)
-- [MongoDB\Driver\Manager::getWriteConcern
-»](mongodb-driver-manager.getwriteconcern.md)
+- [« MongoDB\Driver\Manager::getReadPreference](mongodb-driver-manager.getreadpreference.md)
+- [MongoDB\Driver\Manager::getWriteConcern »](mongodb-driver-manager.getwriteconcern.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

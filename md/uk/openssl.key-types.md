@@ -1,5 +1,4 @@
-- [« Прапори заповнення для асиметричного
-шифрування](openssl.padding.md)
+- [« Прапори заповнення для асиметричного шифрування](openssl.padding.md)
 - [Прапори/константи PKCS7 »](openssl.pkcs7.flags.md)
 
 - [PHP Manual](index.md)

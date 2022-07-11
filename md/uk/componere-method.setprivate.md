@@ -1,6 +1,5 @@
 - [«Componere\Method::\_\_construct](componere-method.construct.md)
-- [Componere\Method::setProtected
-»](componere-method.setprotected.md)
+- [Componere\Method::setProtected »](componere-method.setprotected.md)
 
 - [PHP Manual](index.md)
 - [Componere\Method](class.componere-method.md)

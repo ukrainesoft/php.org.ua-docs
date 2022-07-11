@@ -1,6 +1,5 @@
 - [« SplHeap::key](splheap.key.md)
-- [SplHeap::recoverFromCorruption
-»](splheap.recoverfromcorruption.md)
+- [SplHeap::recoverFromCorruption »](splheap.recoverfromcorruption.md)
 
 - [PHP Manual](index.md)
 - [SplHeap](class.splheap.md)

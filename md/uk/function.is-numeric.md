@@ -18,8 +18,7 @@ is_numeric — Перевіряє, чи є змінна числом або ря
 **is_numeric**([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): bool
 
-Визначає, чи є ця змінна числом або [рядком,
-містить число](language.types.numeric-strings.md).
+Визначає, чи є ця змінна числом або [рядком, містить число](language.types.numeric-strings.md).
 
 ### Список параметрів
 
@@ -28,8 +27,7 @@ is_numeric — Перевіряє, чи є змінна числом або ря
 
 ### Значення, що повертаються
 
-Повертає **`true`**, якщо `value` є числом або [рядком,
-містить число](language.types.numeric-strings.md) або **`false`**
+Повертає **`true`**, якщо `value` є числом або [рядком, містить число](language.types.numeric-strings.md) або **`false`**
 інакше.
 
 ### Список змін

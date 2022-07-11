@@ -1,5 +1,5 @@
 - [ trader_minus_di](function.trader-minus-di.md)
-- [trader_mom»] (function.trader-mom.md)
+- [trader_mom»](function.trader-mom.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

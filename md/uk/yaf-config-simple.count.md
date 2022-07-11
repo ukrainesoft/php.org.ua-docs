@@ -1,5 +1,4 @@
-- [«
-Yaf_Config_Simple::\_\_construct](yaf-config-simple.construct.md)
+- [« Yaf_Config_Simple::\_\_construct](yaf-config-simple.construct.md)
 - [Yaf_Config_Simple::current »](yaf-config-simple.current.md)
 
 - [PHP Manual](index.md)

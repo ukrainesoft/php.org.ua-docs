@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Symbol::serialize](mongodb-bson-symbol.serialize.md)
-- [MongoDB\BSON\Symbol::unserialize
-»](mongodb-bson-symbol.unserialize.md)
+- [« MongoDB\BSON\Symbol::serialize](mongodb-bson-symbol.serialize.md)
+- [MongoDB\BSON\Symbol::unserialize »](mongodb-bson-symbol.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
@@ -27,5 +25,4 @@ final public **MongoDB\BSON\Symbol::\_\_toString**(): string
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

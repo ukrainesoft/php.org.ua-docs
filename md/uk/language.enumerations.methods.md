@@ -1,6 +1,5 @@
 - [« Типізовані перерахування](language.enumerations.backed.md)
-- [Статичні методи перерахувань
-»](language.enumerations.static-methods.md)
+- [Статичні методи перерахувань »](language.enumerations.static-methods.md)
 
 - [PHP Manual](index.md)
 - [Перерахування](language.enumerations.md)

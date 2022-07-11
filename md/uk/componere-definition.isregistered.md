@@ -1,7 +1,5 @@
-- [«
-Componere\Definition::register](componere-definition.register.md)
-- [Componere\Definition::getClosure
-»](componere-definition.getclosure.md)
+- [« Componere\Definition::register](componere-definition.register.md)
+- [Componere\Definition::getClosure »](componere-definition.getclosure.md)
 
 - [PHP Manual](index.md)
 - [Componere\Definition](class.componere-definition.md)

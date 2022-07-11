@@ -2,7 +2,7 @@
 - [Вимоги »](url.requirements.md)
 
 - [PHP Manual](index.md)
-- [URL] (book.url.md)
+- [URL](book.url.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

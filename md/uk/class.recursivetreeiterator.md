@@ -1,7 +1,5 @@
-- [«
-RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md)
-- [RecursiveTreeIterator::beginChildren
-»](recursivetreeiterator.beginchildren.md)
+- [« RecursiveRegexIterator::hasChildren](recursiveregexiterator.haschildren.md)
+- [RecursiveTreeIterator::beginChildren »](recursivetreeiterator.beginchildren.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

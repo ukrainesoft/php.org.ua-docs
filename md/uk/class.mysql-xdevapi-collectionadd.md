@@ -1,6 +1,5 @@
 - [« Collection::replaceOne](mysql-xdevapi-collection.replaceone.md)
-- [CollectionAdd::\_\_construct
-»](mysql-xdevapi-collectionadd.construct.md)
+- [CollectionAdd::\_\_construct »](mysql-xdevapi-collectionadd.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Text\Font\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.md)
-- [UI\Draw\Text\Font\Descriptor::getSize
-»](ui-draw-text-font-descriptor.getsize.md)
+- [« UI\Draw\Text\Font\Descriptor::getFamily](ui-draw-text-font-descriptor.getfamily.md)
+- [UI\Draw\Text\Font\Descriptor::getSize »](ui-draw-text-font-descriptor.getsize.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)

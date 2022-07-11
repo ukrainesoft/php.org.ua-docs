@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_pwhash_str_verify](function.sodium-crypto-pwhash-str-verify.md)
+- [« sodium_crypto_pwhash_str_verify](function.sodium-crypto-pwhash-str-verify.md)
 - [sodium_crypto_pwhash »](function.sodium-crypto-pwhash.md)
 
 - [PHP Manual](index.md)
@@ -86,5 +85,4 @@ $argon2id$vu003d19$mu003d65536,tu003d2,pu003d1$oWIfdaXwWwhVmovOBc2NAQ$EbsZ+JnZyy
 - [password_hash()](function.password-hash.md) - Створює хеш пароля
 - [password_verify()](function.password-verify.md) - Перевіряє,
 чи відповідає пароль хешу
-- [» Документація на Libsodium
-Argon2](https://download.libsodium.org/doc/password_hashing/the_argon2i_function.md)
+- [» Документація на Libsodium Argon2](https://download.libsodium.org/doc/password_hashing/the_argon2i_function.md)

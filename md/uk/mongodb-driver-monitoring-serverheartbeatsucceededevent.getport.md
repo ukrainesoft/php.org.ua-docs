@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply
-»](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getHost](mongodb-driver-monitoring-serverheartbeatsucceededevent.gethost.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getReply »](mongodb-driver-monitoring-serverheartbeatsucceededevent.getreply.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md)

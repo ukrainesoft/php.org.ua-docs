@@ -1,5 +1,5 @@
 - [« Установка](sockets.installation.md)
-- [Типи ресурсів»] (sockets.resources.md)
+- [Типи ресурсів»](sockets.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](sockets.setup.md)

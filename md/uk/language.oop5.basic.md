@@ -20,8 +20,7 @@
 регулярного виразу, то вийде таке вираз:
 `^[a-zA-Z_\x80-\xff][a-zA-Z0-9_\x80-\xff]*$`.
 
-Клас може містити власні
-[константи](language.oop5.constants.md),
+Клас може містити власні [константи](language.oop5.constants.md),
 [змінні](language.oop5.properties.md) (називаються властивостями) та
 функції (звані методами).
 
@@ -272,8 +271,7 @@ Fatal error: Declaration of Extend::foo() must be compatible with Base::foo(int 
 Перейменування параметра методу в дочірньому класі не є
 несумісністю сигнатури. Однак це не рекомендується, оскільки
 приведе до [Error](class.error.md) під час виконання, якщо
-використовуються [іменовані
-аргументи](functions.arguments.md#functions.named-arguments).
+використовуються [іменовані аргументи](functions.arguments.md#functions.named-arguments).
 
 **Приклад #14 Помилка при використанні іменованих аргументів та
 параметрів, перейменованих у дочірньому класі**

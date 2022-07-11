@@ -1,5 +1,5 @@
 - [« snmprealwalk](function.snmprealwalk.md)
-- [snmpwalk »] (function.snmpwalk.md)
+- [snmpwalk »](function.snmpwalk.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)
@@ -41,19 +41,19 @@ Write-спільнота.
 MIB визначає тип ідентифікатора кожного об'єкта. Він має бути вказаний
 як один символ з наступного списку.
 
-| | |
-|-----|----------------------|
+|       |                         |
+|-------|-------------------------|
 | u003d | Тип, що приймається MIB |
-| i | INTEGER |
-| u | INTEGER |
-| s | STRING |
-| x | HEX STRING |
-| d | DECIMAL STRING |
-| n | NULLOBJ |
-| o | OBJID |
-| t | TIMETICKS |
-| a | IPADDRESS |
-| b | BITS |
+| i     | INTEGER                 |
+| u     | INTEGER                 |
+| s     | STRING                  |
+| x     | HEX STRING              |
+| d     | DECIMAL STRING          |
+| n     | NULLOBJ                 |
+| o     | OBJID                   |
+| t     | TIMETICKS               |
+| a     | IPADDRESS               |
+| b     | BITS                    |
 
 **types**
 
@@ -61,12 +61,12 @@ MIB визначає тип ідентифікатора кожного об'є�
 **`OPAQUE_SPECIAL_TYPES`**, то також можуть бути використані такі
 типи:
 
-| | |
-|-----|----------------|
+|   |                |
+|---|----------------|
 | U | unsigned int64 |
-| I | signed int64 |
-| F | float |
-| D | double |
+| I | signed int64   |
+| F | float          |
+| D | double         |
 
 **types**
 

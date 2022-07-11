@@ -1,6 +1,5 @@
 - [« Imagick::blurImage](imagick.blurimage.md)
-- [Imagick::brightnessContrastImage
-»](imagick.brightnesscontrastimage.md)
+- [Imagick::brightnessContrastImage »](imagick.brightnesscontrastimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

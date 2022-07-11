@@ -1,6 +1,5 @@
 - [« IntlCalendar::setLenient](intlcalendar.setlenient.md)
-- [IntlCalendar::setRepeatedWallTimeOption
-»](intlcalendar.setrepeatedwalltimeoption.md)
+- [IntlCalendar::setRepeatedWallTimeOption »](intlcalendar.setrepeatedwalltimeoption.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

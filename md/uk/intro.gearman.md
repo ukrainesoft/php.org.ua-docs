@@ -1,4 +1,4 @@
-- [« Gearman] (book.gearman.md)
+- [« Gearman](book.gearman.md)
 - [Встановлення та налаштування »](gearman.setup.md)
 
 - [PHP Manual](index.md)

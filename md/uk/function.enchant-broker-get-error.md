@@ -1,5 +1,4 @@
-- [«
-enchant_broker_get_dict_path](function.enchant-broker-get-dict-path.md)
+- [« enchant_broker_get_dict_path](function.enchant-broker-get-dict-path.md)
 - [enchant_broker_init »](function.enchant-broker-init.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«eio_rmdir](function.eio-rmdir.md)
-- [eio_sendfile »] (function.eio-sendfile.md)
+- [eio_sendfile »](function.eio-sendfile.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

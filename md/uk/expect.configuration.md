@@ -1,5 +1,5 @@
 - [« Установка](expect.installation.md)
-- [Типи ресурсів»] (expect.resources.md)
+- [Типи ресурсів»](expect.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](expect.setup.md)
@@ -22,8 +22,7 @@
 **Опції налаштування Expect**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ Javascript] (class.mongodb-bson-javascript.md)
-- [MongoDB\BSON\Javascript::getCode
-»](mongodb-bson-javascript.getcode.md)
+- [« MongoDB \ BSON \ Javascript](class.mongodb-bson-javascript.md)
+- [MongoDB\BSON\Javascript::getCode »](mongodb-bson-javascript.getcode.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
@@ -67,5 +66,4 @@ string(3) "bar"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

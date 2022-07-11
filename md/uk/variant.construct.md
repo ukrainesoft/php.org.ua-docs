@@ -1,4 +1,4 @@
-- [« variant] (class.variant.md)
+- [« variant](class.variant.md)
 - [COMPersistHelper »](class.compersisthelper.md)
 
 - [PHP Manual](index.md)
@@ -28,8 +28,7 @@ public
 
 `type`
 Визначає тип контенту об'єкта variant. Допустимі значення - одна з
-констант **`VT_XXX`** ([Предвизначені
-константи](com.constants.md)). PHP може автоматично визначати
+констант **`VT_XXX`** ([Предвизначені константи](com.constants.md)). PHP може автоматично визначати
 параметри, передані за посиланням; їх навіть не потрібно передавати як об'єкти
 variant. Додаткову інформацію за типами variant читайте у бібліотеці
 MSDN.

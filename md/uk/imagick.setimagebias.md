@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md)
+- [« Imagick::setImageBackgroundColor](imagick.setimagebackgroundcolor.md)
 - [Imagick::setImageBiasQuantum »](imagick.setimagebiasquantum.md)
 
 - [PHP Manual](index.md)

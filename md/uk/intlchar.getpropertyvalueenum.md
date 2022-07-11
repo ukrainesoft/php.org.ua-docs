@@ -1,6 +1,5 @@
 - [« IntlChar::getPropertyName](intlchar.getpropertyname.md)
-- [IntlChar::getPropertyValueName
-»](intlchar.getpropertyvaluename.md)
+- [IntlChar::getPropertyValueName »](intlchar.getpropertyvaluename.md)
 
 - [PHP Manual](index.md)
 - [IntlChar](class.intlchar.md)

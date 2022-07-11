@@ -1,5 +1,4 @@
-- [«
-session_get_cookie_params](function.session-get-cookie-params.md)
+- [« session_get_cookie_params](function.session-get-cookie-params.md)
 - [session_module_name »](function.session-module-name.md)
 
 - [PHP Manual](index.md)
@@ -48,9 +47,9 @@ URL-адреси. Дивіться також [Робота із сесіями]
 
 ### Список змін
 
-| Версія | Опис |
-|--------|------------------------------------|
-| 8.0.0 | `id` тепер може бути **`null`**. |
+| Версія | Опис                             |
+|--------|----------------------------------|
+| 8.0.0  | `id` тепер може бути **`null`**. |
 
 ### Дивіться також
 

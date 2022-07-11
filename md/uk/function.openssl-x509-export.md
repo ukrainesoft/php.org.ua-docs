@@ -1,5 +1,4 @@
-- [«
-openssl_x509_export_to_file](function.openssl-x509-export-to-file.md)
+- [« openssl_x509_export_to_file](function.openssl-x509-export-to-file.md)
 - [openssl_x509_fingerprint »](function.openssl-x509-fingerprint.md)
 
 - [PHP Manual](index.md)
@@ -23,8 +22,7 @@ openssl_x509_export — Експортує сертифікат у рядок
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри
-ключів/сертифікатів](openssl.certparams.md).
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
 
 `output`
 У разі успішного виконання в цій змінній буде PEM-подання

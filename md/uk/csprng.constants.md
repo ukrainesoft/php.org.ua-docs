@@ -1,5 +1,5 @@
 - [« Типи ресурсів](csprng.resources.md)
-- [Функції CSPRNG»] (ref.csprng.md)
+- [Функції CSPRNG»](ref.csprng.md)
 
 - [PHP Manual](index.md)
 - [CSPRNG](book.csprng.md)

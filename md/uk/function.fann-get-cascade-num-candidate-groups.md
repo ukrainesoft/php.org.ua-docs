@@ -1,7 +1,5 @@
-- [«
-fann_get_cascade_min_out_epochs](function.fann-get-cascade-min-out-epochs.md)
-- [fann_get_cascade_num_candidates
-»](function.fann-get-cascade-num-candidates.md)
+- [« fann_get_cascade_min_out_epochs](function.fann-get-cascade-min-out-epochs.md)
+- [fann_get_cascade_num_candidates »](function.fann-get-cascade-num-candidates.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

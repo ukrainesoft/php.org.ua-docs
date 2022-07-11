@@ -1,7 +1,5 @@
-- [«
-enchant_broker_set_ordering](function.enchant-broker-set-ordering.md)
-- [enchant_dict_add_to_session
-»](function.enchant-dict-add-to-session.md)
+- [« enchant_broker_set_ordering](function.enchant-broker-set-ordering.md)
+- [enchant_dict_add_to_session »](function.enchant-dict-add-to-session.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

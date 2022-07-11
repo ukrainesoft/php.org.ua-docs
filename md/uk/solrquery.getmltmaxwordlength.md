@@ -1,6 +1,5 @@
 - [« SolrQuery::getMltMaxNumTokens](solrquery.getmltmaxnumtokens.md)
-- [SolrQuery::getMltMinDocFrequency
-»](solrquery.getmltmindocfrequency.md)
+- [SolrQuery::getMltMinDocFrequency »](solrquery.getmltmindocfrequency.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

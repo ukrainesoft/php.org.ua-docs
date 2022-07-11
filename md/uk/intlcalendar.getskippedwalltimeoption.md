@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.md)
+- [« IntlCalendar::getRepeatedWallTimeOption](intlcalendar.getrepeatedwalltimeoption.md)
 - [IntlCalendar::getTime »](intlcalendar.gettime.md)
 
 - [PHP Manual](index.md)

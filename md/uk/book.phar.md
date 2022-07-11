@@ -12,28 +12,23 @@
 - [Вимоги](phar.requirements.md)
 - [Установка](phar.installation.md)
 - [Налаштування під час виконання](phar.configuration.md)
-- [Типи ресурсів] (phar.resources.md)
+- [Типи ресурсів](phar.resources.md)
 - [Предвизначені константи](phar.constants.md)
 - [Використання Phar-архівів](phar.using.md)
 - [Використання Phar-архівів: Вступ](phar.using.intro.md)
-- [Використання Phar-архівів: обгортка потоку
-phar](phar.using.stream.md)
-- [Використання Phar-архівів: класи Phar та
-PharData](phar.using.object.md)
+- [Використання Phar-архівів: обгортка потоку phar](phar.using.stream.md)
+- [Використання Phar-архівів: класи Phar та PharData](phar.using.object.md)
 - [Створення Phar-архівів](phar.creating.md)
 - [Створення Phar-архівів: Вступ](phar.creating.intro.md)
 - [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)
-- [Складові частини всіх Phar-архівів незалежно від формату
-файла](phar.fileformat.ingredients.md)
+- [Складові частини всіх Phar-архівів незалежно від формату файла](phar.fileformat.ingredients.md)
 - [Заглушка Phar-файлу](phar.fileformat.stub.md)
 - [Порівняння Phar, Tar та Zip](phar.fileformat.comparison.md)
 - [Phar-архіви, що базуються на tar](phar.fileformat.tar.md)
 - [Phar-архіви, що базуються на zip](phar.fileformat.zip.md)
 - [Формат файлу phar](phar.fileformat.phar.md)
-- [Прапори глобальної бітової карти
-Phar] (phar.fileformat.flags.md)
-- [Опис запису файлу у маніфесті
-Phar](phar.fileformat.manifestfile.md)
+- [Прапори глобальної бітової карти Phar](phar.fileformat.flags.md)
+- [Опис запису файлу у маніфесті Phar](phar.fileformat.manifestfile.md)
 - [Формат підпису Phar](phar.fileformat.signature.md)
 - [Phar](class.phar.md) - Клас Phar
 - [Phar::addEmptyDir](phar.addemptydir.md) — Додає до

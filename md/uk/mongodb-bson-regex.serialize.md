@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.md)
-- [MongoDB\BSON\Regex::\_\_toString
-»](mongodb-bson-regex.tostring.md)
+- [« MongoDB\BSON\Regex::jsonSerialize](mongodb-bson-regex.jsonserialize.md)
+- [MongoDB\BSON\Regex::\_\_toString »](mongodb-bson-regex.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)

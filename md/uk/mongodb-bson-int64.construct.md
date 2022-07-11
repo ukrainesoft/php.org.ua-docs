@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ Int64] (class.mongodb-bson-int64.md)
-- [MongoDB\BSON\Int64::jsonSerialize
-»](mongodb-bson-int64.jsonserialize.md)
+- [« MongoDB \ BSON \ Int64](class.mongodb-bson-int64.md)
+- [MongoDB\BSON\Int64::jsonSerialize »](mongodb-bson-int64.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
@@ -27,5 +26,4 @@ final private **MongoDB\BSON\Int64::\_\_construct**()
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

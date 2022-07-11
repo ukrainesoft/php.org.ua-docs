@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.md)
-- [MongoDB\BSON\Decimal128::\_\_toString
-»](mongodb-bson-decimal128.tostring.md)
+- [« MongoDB\BSON\Decimal128::jsonSerialize](mongodb-bson-decimal128.jsonserialize.md)
+- [MongoDB\BSON\Decimal128::\_\_toString »](mongodb-bson-decimal128.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Decimal128](class.mongodb-bson-decimal128.md)

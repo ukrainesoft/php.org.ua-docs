@@ -1,7 +1,5 @@
-- [«
-ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md)
-- [ReflectionZendExtension::getName
-»](reflectionzendextension.getname.md)
+- [« ReflectionZendExtension::getAuthor](reflectionzendextension.getauthor.md)
+- [ReflectionZendExtension::getName »](reflectionzendextension.getname.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

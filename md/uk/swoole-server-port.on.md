@@ -1,5 +1,4 @@
-- [«
-Swoole\Server\Port::\_\_destruct](swoole-server-port.destruct.md)
+- [« Swoole\Server\Port::\_\_destruct](swoole-server-port.destruct.md)
 - [Swoole\Server\Port::set »](swoole-server-port.set.md)
 
 - [PHP Manual](index.md)

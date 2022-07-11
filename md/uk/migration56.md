@@ -1,6 +1,5 @@
 - [« Інші зміни](migration70.other-changes.md)
-- [Зміни, що ламають зворотну сумісність
-»](migration56.incompatible.md)
+- [Зміни, що ламають зворотну сумісність »](migration56.incompatible.md)
 
 - [PHP Manual](index.md)
 - [Appendices](appendices.md)
@@ -10,11 +9,9 @@
 
 ## Зміст
 
-- [Зміни, що ламають зворотну
-сумісність](migration56.incompatible.md)
+- [Зміни, що ламають зворотну сумісність](migration56.incompatible.md)
 - [Нові можливості](migration56.new-features.md)
-- [Функціонал, оголошений застарілим у PHP
-5.6.x](migration56.deprecated.md)
+- [Функціонал, оголошений застарілим у PHP 5.6.x](migration56.deprecated.md)
 - [Змінені функції](migration56.changed-functions.md)
 - [Нові функції](migration56.new-functions.md)
 - [Зміни OpenSSL у PHP 5.6.x](migration56.openssl.md)

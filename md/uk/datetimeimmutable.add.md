@@ -1,6 +1,5 @@
 - [« DateTimeImmutable](class.datetimeimmutable.md)
-- [DateTimeImmutable::\_\_construct
-»](datetimeimmutable.construct.md)
+- [DateTimeImmutable::\_\_construct »](datetimeimmutable.construct.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

@@ -46,8 +46,7 @@ int `$STORAGE`
 для map: R, G, B, A, O, C, Y, M, K, I та P.
 
 `STORAGE`
-Зверніться до списку [констант типу
-PIXEL](imagick.constants.md#imagick.constants.pixel).
+Зверніться до списку [констант типу PIXEL](imagick.constants.md#imagick.constants.pixel).
 
 ### Значення, що повертаються
 

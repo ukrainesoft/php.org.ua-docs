@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Simple::\_\_construct](yaf-request-simple.construct.md)
+- [« Yaf_Request_Simple::\_\_construct](yaf-request-simple.construct.md)
 - [Yaf_Request_Simple::getCookie »](yaf-request-simple.getcookie.md)
 
 - [PHP Manual](index.md)

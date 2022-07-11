@@ -1,5 +1,4 @@
-- [« Установка драйвера PHP MongoDB під
-Windows](mongodb.installation.windows.md)
+- [« Установка драйвера PHP MongoDB під Windows](mongodb.installation.windows.md)
 - [Налаштування під час виконання »](mongodb.configuration.md)
 
 - [PHP Manual](index.md)

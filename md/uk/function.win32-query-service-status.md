@@ -1,6 +1,5 @@
 - [«win32_pause_service](function.win32-pause-service.md)
-- [win32_send_custom_control
-»](function.win32-send-custom-control.md)
+- [win32_send_custom_control »](function.win32-send-custom-control.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)
@@ -38,23 +37,19 @@ u003d ?): array
 при невдалому завершенні роботи.
 
 `ServiceType`
-dwServiceType. Дивіться [Побутові маски типів служби
-Win32Service](win32service.constants.servicetype.md).
+dwServiceType. Дивіться [Побутові маски типів служби Win32Service](win32service.constants.servicetype.md).
 
 `CurrentState`
-dwCurrentState. Дивіться [Константи стану служби
-Win32Service](win32service.constants.servicestatus.md).
+dwCurrentState. Дивіться [Константи стану служби Win32Service](win32service.constants.servicestatus.md).
 
 `ControlsAccepted`
 Які елементи управління службами приймаються службою. Дивіться
-[Бітові маски Win32Service Service Control Message
-Accepted](win32service.constants.controlsaccepted.md).
+[Бітові маски Win32Service Service Control Message Accepted](win32service.constants.controlsaccepted.md).
 
 `Win32ExitCode`
 Якщо служба завершила роботу, тут відображається код повернення з
 процесу. Це значення дорівнює **`WIN32_ERROR_SERVICE_SPECIFIC_ERROR`**,
-якщо режим виходу не є плавним. Дивіться [коди помилок
-Win32Service](win32service.constants.errors.md) та
+якщо режим виходу не є плавним. Дивіться [коди помилок Win32Service](win32service.constants.errors.md) та
 [win32_set_service_exit_mode()](function.win32-set-service-exit-mode.md)
 
 `ServiceSpecificExitCode`
@@ -78,8 +73,7 @@ Win32Service](win32service.constants.errors.md) та
 Ідентифікатор процесу Windows. Якщо 0, процес не запущено.
 
 `ServiceFlags`
-dwServiceFlags. Дивіться [Константи прапорів служби
-Win32Service](win32service.constants.serviceflag.md).
+dwServiceFlags. Дивіться [Константи прапорів служби Win32Service](win32service.constants.serviceflag.md).
 
 ### Помилки
 
@@ -96,5 +90,4 @@ Win32Service](win32service.constants.serviceflag.md).
 
 ### Дивіться також
 
-- [Предвизначені константи
-Win32Service](win32service.constants.md)
+- [Предвизначені константи Win32Service](win32service.constants.md)

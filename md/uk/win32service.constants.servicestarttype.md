@@ -1,7 +1,5 @@
-- [« Приймаються бітові маски обробки повідомлень службою
-Win32Service](win32service.constants.controlsaccepted.md)
-- [Константи контролю помилок сервісу Win32Service
-»](win32service.constants.errorcontrol.md)
+- [« Приймаються бітові маски обробки повідомлень службою Win32Service](win32service.constants.controlsaccepted.md)
+- [Константи контролю помилок сервісу Win32Service »](win32service.constants.errorcontrol.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

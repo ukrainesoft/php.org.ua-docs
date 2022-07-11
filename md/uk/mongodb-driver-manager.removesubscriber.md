@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md)
-- [MongoDB\Driver\Manager::selectServer
-»](mongodb-driver-manager.selectserver.md)
+- [« MongoDB\Driver\Manager::getWriteConcern](mongodb-driver-manager.getwriteconcern.md)
+- [MongoDB\Driver\Manager::selectServer »](mongodb-driver-manager.selectserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -49,7 +47,8 @@ Manager.
 Manager
 - [MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
 - [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md)
-- [MongoDB\Driver\MonitoringemoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) -
+- [MongoDB\Driver\Monitoring
+emoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md) -
 Скасує глобальну реєстрацію передплатника на подію моніторингу
 - [Моніторинг продуктивності програми (Application Performance)
 Monitoring або APM)](mongodb.tutorial.apm.md)

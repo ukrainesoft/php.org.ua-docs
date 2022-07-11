@@ -1,7 +1,5 @@
-- [«
-MessageFormatter::formatMessage](messageformatter.formatmessage.md)
-- [MessageFormatter::getErrorCode
-»](messageformatter.geterrorcode.md)
+- [« MessageFormatter::formatMessage](messageformatter.formatmessage.md)
+- [MessageFormatter::getErrorCode »](messageformatter.geterrorcode.md)
 
 - [PHP Manual](index.md)
 - [MessageFormatter](class.messageformatter.md)

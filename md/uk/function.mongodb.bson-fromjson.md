@@ -15,8 +15,7 @@ MongoDB\BSON romJSON — Повертає уявлення BSON значення
 
 **MongoDB\BSON romJSON**(string `$json`): string
 
-Перетворює рядок [» Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+Перетворює рядок [» Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
 у її уявлення BSON.
 
 ### Список параметрів
@@ -55,7 +54,5 @@ string(24) "563143b280d2387c91807965"
 
 - [MongoDB\BSON oJSON()](function.mongodb.bson-tojson.md) -
 Повертає Legacy Extended JSON подання значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

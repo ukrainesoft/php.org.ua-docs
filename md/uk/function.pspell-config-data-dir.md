@@ -1,5 +1,5 @@
 - [« pspell_config_create](function.pspell-config-create.md)
-- [pspell_config_dict_dir »] (function.pspell-config-dict-dir.md)
+- [pspell_config_dict_dir »](function.pspell-config-dict-dir.md)
 
 - [PHP Manual](index.md)
 - [Функції Pspell](ref.pspell.md)

@@ -12,8 +12,7 @@
 
 > **Примітка**:
 >
-> Спочатку слід прочитати [кроки ручний
-> установки](install.windows.manual.md)!
+> Спочатку слід прочитати [кроки ручний > установки](install.windows.manual.md)!
 
 Запуск PHP з командного рядка можна виконати без внесення будь-яких
 змін у Windows.
@@ -29,8 +28,7 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 `php-win.exe` або `php-cli.exe` залежно від вашої версії PHP та
 переваг відображення) в змінну оточення `PATH`. Докладніше про
 тому, як додати каталог PHP в `PATH`, читайте в [відповідній
-записи часто задаваних
-вопросов](faq.installation.md#faq.installation.addtopath).
+записи часто задаваних вопросов](faq.installation.md#faq.installation.addtopath).
 
 - Додайте розширення `.PHP` до змінного оточення `PATHEXT`. Це
 можна зробити одночасно із зміною змінної оточення `PATH`.
@@ -120,10 +118,8 @@ script -arg1 -arg2 -arg3
 > "InheritConsoleHandles"u003ddword:00000001
 >
 > Додаткову інформацію щодо цієї проблеми можна знайти в цій [»
-> статті бази знань Microsoft:
-> 321788](http://support.microsoft.com/default.aspx?scidu003dkb;en-us;321788).
+> статті бази знань Microsoft: > 321788](http://support.microsoft.com/default.aspx?scidu003dkb;en-us;321788).
 > У Windows 10 цей параметр змінено на протилежний і стандартний
 > інсталяція Windows 10 підтримує успадковані дескриптори консолі.
-> Це [»  повідомлення на форумі
-> Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console? forum u003d windowssdk)
+> Це [»  повідомлення на форумі > Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console? forum u003d windowssdk)
 > надає пояснення.

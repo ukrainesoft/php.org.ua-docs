@@ -1,7 +1,5 @@
-- [«
-ReflectionAttribute::getTarget](reflectionattribute.gettarget.md)
-- [ReflectionAttribute::newInstance
-»](reflectionattribute.newinstance.md)
+- [« ReflectionAttribute::getTarget](reflectionattribute.gettarget.md)
+- [ReflectionAttribute::newInstance »](reflectionattribute.newinstance.md)
 
 - [PHP Manual](index.md)
 - [ReflectionAttribute](class.reflectionattribute.md)

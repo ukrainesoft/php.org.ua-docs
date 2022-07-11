@@ -1,6 +1,5 @@
 - [« SplObjectStorage::offsetUnset](splobjectstorage.offsetunset.md)
-- [SplObjectStorage::removeAllExcept
-»](splobjectstorage.removeallexcept.md)
+- [SplObjectStorage::removeAllExcept »](splobjectstorage.removeallexcept.md)
 
 - [PHP Manual](index.md)
 - [SplObjectStorage](class.splobjectstorage.md)

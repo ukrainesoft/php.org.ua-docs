@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md)
+- [« ImagickDraw::getTextInterlineSpacing](imagickdraw.gettextinterlinespacing.md)
 - [ImagickDraw::getTextKerning »](imagickdraw.gettextkerning.md)
 
 - [PHP Manual](index.md)

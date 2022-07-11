@@ -13,8 +13,8 @@ pcntl_exec — Запустити цю програму в області пот
 
 ### Опис
 
-**pcntl_exec**(string `$path`, array `$args` u003d \[\], array `$env_vars` u003d
-\[\]): bool
+**pcntl_exec**(string `$path`, array `$args` u003d [], array `$env_vars` u003d
+[]): bool
 
 Запускає програму із переданими аргументами.
 

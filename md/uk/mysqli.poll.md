@@ -36,7 +36,7 @@ int `$microseconds` u003d 0
 ): int\|false
 
 Опитування підключень. Метод може використовуватись як
-[Статичний] (language.oop5.static.md).
+[Статичний](language.oop5.static.md).
 
 > **Примітка**:
 >

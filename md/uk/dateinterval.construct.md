@@ -1,6 +1,5 @@
 - [« DateInterval](class.dateinterval.md)
-- [DateInterval::createFromDateString
-»](dateinterval.createfromdatestring.md)
+- [DateInterval::createFromDateString »](dateinterval.createfromdatestring.md)
 
 - [PHP Manual](index.md)
 - [DateInterval](class.dateinterval.md)
@@ -56,8 +55,7 @@ public **DateInterval::\_\_construct**(string `$duration`)
 цьому форматі не повинні виходити за рамки допустимих значень дати та
 часу (наприклад, `25` годин неприпустимо)
 
-Ці формати засновані на [» спеціфікації ISO
-8601](http://en.wikipedia.org/wiki/Iso8601#Durations).
+Ці формати засновані на [» спеціфікації ISO 8601](http://en.wikipedia.org/wiki/Iso8601#Durations).
 
 ### Помилки
 

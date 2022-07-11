@@ -14,8 +14,7 @@ PharFileInfo::getMetadata — Отримати метадані, пов'язан
 ### Опис
 
 public **PharFileInfo::getMetadata**(array `$unserializeOptions` u003d
-\[\]):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+[]): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає метадані, пов'язані з файлом.
 

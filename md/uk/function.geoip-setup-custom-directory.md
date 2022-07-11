@@ -1,7 +1,5 @@
-- [«
-geoip_region_name_by_code](function.geoip-region-name-by-code.md)
-- [geoip_time_zone_by_country_and_region
-»](function.geoip-time-zone-by-country-and-region.md)
+- [« geoip_region_name_by_code](function.geoip-region-name-by-code.md)
+- [geoip_time_zone_by_country_and_region »](function.geoip-time-zone-by-country-and-region.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

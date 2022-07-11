@@ -1,7 +1,5 @@
-- [«
-wkhtmltox\PDF\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)
-- [wkhtmltox\PDF\Object::\_\_construct
-»](wkhtmltox-pdf-object.construct.md)
+- [« wkhtmltox\PDF\Converter::getVersion](wkhtmltox-pdf-converter.getversion.md)
+- [wkhtmltox\PDF\Object::\_\_construct »](wkhtmltox-pdf-object.construct.md)
 
 - [PHP Manual](index.md)
 - [wkhtmltox](book.wkhtmltox.md)

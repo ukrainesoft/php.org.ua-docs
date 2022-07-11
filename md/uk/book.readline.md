@@ -1,5 +1,4 @@
-- [« Модулі для роботи з командною
-рядком](refs.utilspec.cmdline.md)
+- [« Модулі для роботи з командною рядком](refs.utilspec.cmdline.md)
 - [Вступ »](intro.readline.md)
 
 - [PHP Manual](index.md)
@@ -13,7 +12,7 @@
 - [Вимоги](readline.requirements.md)
 - [Установка](readline.installation.md)
 - [Налаштування під час виконання](readline.configuration.md)
-- [Типи ресурсів] (readline.resources.md)
+- [Типи ресурсів](readline.resources.md)
 - [Предвизначені константи](readline.constants.md)
 - [Функції Readline](ref.readline.md)
 - [readline_add_history](function.readline-add-history.md) -

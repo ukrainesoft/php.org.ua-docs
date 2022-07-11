@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\CodeBlock::\_\_construct](commonmark-node-codeblock.construct.md)
-- [CommonMark\Node\HTMLInline
-»](class.commonmark-node-htmlinline.md)
+- [« CommonMark\Node\CodeBlock::\_\_construct](commonmark-node-codeblock.construct.md)
+- [CommonMark\Node\HTMLInline »](class.commonmark-node-htmlinline.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

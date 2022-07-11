@@ -1,5 +1,4 @@
-- [«
-CommonMark\Parser::\_\_construct](commonmark-parser.construct.md)
+- [« CommonMark\Parser::\_\_construct](commonmark-parser.construct.md)
 - [CommonMark\Parser::finish »](commonmark-parser.finish.md)
 
 - [PHP Manual](index.md)

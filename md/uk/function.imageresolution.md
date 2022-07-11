@@ -1,5 +1,5 @@
 - [«imagerectangle](function.imagerectangle.md)
-- [imagerotate »] (function.imagerotate.md)
+- [imagerotate »](function.imagerotate.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.md)
-- [EventHttpConnection::setMaxBodySize
-»](eventhttpconnection.setmaxbodysize.md)
+- [« EventHttpConnection::setLocalAddress](eventhttpconnection.setlocaladdress.md)
+- [EventHttpConnection::setMaxBodySize »](eventhttpconnection.setmaxbodysize.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

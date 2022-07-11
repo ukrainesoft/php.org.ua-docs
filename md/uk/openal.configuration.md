@@ -1,5 +1,5 @@
 - [« Установка](openal.installation.md)
-- [Типи ресурсів»] (openal.resources.md)
+- [Типи ресурсів»](openal.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](openal.setup.md)

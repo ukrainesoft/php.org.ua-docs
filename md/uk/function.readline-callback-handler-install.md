@@ -1,6 +1,5 @@
 - [«readline_add_history](function.readline-add-history.md)
-- [readline_callback_handler_remove
-»](function.readline-callback-handler-remove.md)
+- [readline_callback_handler_remove »](function.readline-callback-handler-remove.md)
 
 - [PHP Manual](index.md)
 - [Функції Readline](ref.readline.md)

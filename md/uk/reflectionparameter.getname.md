@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md)
-- [ReflectionParameter::getPosition
-»](reflectionparameter.getposition.md)
+- [« ReflectionParameter::getDefaultValueConstantName](reflectionparameter.getdefaultvalueconstantname.md)
+- [ReflectionParameter::getPosition »](reflectionparameter.getposition.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

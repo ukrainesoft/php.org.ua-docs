@@ -1,5 +1,4 @@
-- [«
-DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md)
+- [« DOMElement::getElementsByTagNameNS](domelement.getelementsbytagnamens.md)
 - [DOMElement::hasAttributeNS »](domelement.hasattributens.md)
 
 - [PHP Manual](index.md)

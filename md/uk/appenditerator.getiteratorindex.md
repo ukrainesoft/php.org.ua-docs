@@ -1,5 +1,4 @@
-- [«
-AppendIterator::getInnerIterator](appenditerator.getinneriterator.md)
+- [« AppendIterator::getInnerIterator](appenditerator.getinneriterator.md)
 - [AppendIterator::key »](appenditerator.key.md)
 
 - [PHP Manual](index.md)

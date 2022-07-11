@@ -12,7 +12,7 @@
 - [Вимоги](gettext.requirements.md)
 - [Установка](gettext.installation.md)
 - [Налаштування під час виконання](gettext.configuration.md)
-- [Типи ресурсів] (gettext.resources.md)
+- [Типи ресурсів](gettext.resources.md)
 - [Предвизначені константи](gettext.constants.md)
 - [Функції gettext](ref.gettext.md)
 - [bind_textdomain_codeset](function.bind-textdomain-codeset.md)

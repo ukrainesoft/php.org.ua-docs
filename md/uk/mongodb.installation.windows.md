@@ -1,7 +1,5 @@
-- [« Установка драйвера PHP MongoDB на macOS допомогою
-Homebrew](mongodb.installation.homebrew.md)
-- [Складання драйвера PHP MongoDB з вихідного коду
-»](mongodb.installation.manual.md)
+- [« Установка драйвера PHP MongoDB на macOS допомогою Homebrew](mongodb.installation.homebrew.md)
+- [Складання драйвера PHP MongoDB з вихідного коду »](mongodb.installation.manual.md)
 
 - [PHP Manual](index.md)
 - [Установка](mongodb.installation.md)
@@ -26,8 +24,7 @@ extensionu003dphp_mongo.dll
 >
 > Для роботи цього модуля системної змінної Windows `PATH` мають бути
 > Доступні файли DLL. Щоб дізнатися як цього досягти, зверніться до
-> розділ FAQ "[Як додати мою директорію з PHP до змінної Windows
-> PATH](faq.installation.md#faq.installation.addtopath)". Хоча
+> розділ FAQ "[Як додати мою директорію з PHP до змінної Windows > PATH](faq.installation.md#faq.installation.addtopath)". Хоча
 > копіювання DLL-файлів із директорії PHP до системної папки Windows
 > також вирішує проблему (бо системна директорія за замовчуванням
 > перебуває у змінній `PATH`), це рекомендується. *Цьому модулю

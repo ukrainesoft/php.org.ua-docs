@@ -1,6 +1,5 @@
 - [« Swoole\Http\Client::upgrade](swoole-http-client.upgrade.md)
-- [Swoole\Http\Request::\_\_destruct
-»](swoole-http-request.destruct.md)
+- [Swoole\Http\Request::\_\_destruct »](swoole-http-request.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole](book.swoole.md)

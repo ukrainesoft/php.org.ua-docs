@@ -1,6 +1,5 @@
-- [«
-UI\Draw\Text\Font\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md)
-- [Функції UI»] (ref.ui.md)
+- [« UI\Draw\Text\Font\Descriptor::getStretch](ui-draw-text-font-descriptor.getstretch.md)
+- [Функції UI»](ref.ui.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)

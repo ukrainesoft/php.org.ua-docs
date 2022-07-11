@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed
-»](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed »](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)

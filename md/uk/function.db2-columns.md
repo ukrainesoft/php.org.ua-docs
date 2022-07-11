@@ -1,5 +1,5 @@
 - [«db2_column_privileges](function.db2-column-privileges.md)
-- [db2_commit »] (function.db2-commit.md)
+- [db2_commit »](function.db2-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції IBM DB2](ref.ibm-db2.md)

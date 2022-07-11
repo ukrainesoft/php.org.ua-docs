@@ -1,6 +1,5 @@
 - [«TableSelect::having](mysql-xdevapi-tableselect.having.md)
-- [TableSelect::lockExclusive
-»](mysql-xdevapi-tableselect.lockexclusive.md)
+- [TableSelect::lockExclusive »](mysql-xdevapi-tableselect.lockexclusive.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)

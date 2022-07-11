@@ -1,7 +1,5 @@
-- [«
-enchant_broker_set_dict_path](function.enchant-broker-set-dict-path.md)
-- [enchant_dict_add_to_personal
-»](function.enchant-dict-add-to-personal.md)
+- [« enchant_broker_set_dict_path](function.enchant-broker-set-dict-path.md)
+- [enchant_dict_add_to_personal »](function.enchant-dict-add-to-personal.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

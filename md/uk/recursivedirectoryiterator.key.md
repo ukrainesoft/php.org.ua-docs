@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)
-- [RecursiveDirectoryIterator::next
-»](recursivedirectoryiterator.next.md)
+- [« RecursiveDirectoryIterator::hasChildren](recursivedirectoryiterator.haschildren.md)
+- [RecursiveDirectoryIterator::next »](recursivedirectoryiterator.next.md)
 
 - [PHP Manual](index.md)
 - [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)

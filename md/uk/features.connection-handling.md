@@ -1,6 +1,5 @@
 - [« Робота з віддаленими файлами](features.remote-files.md)
-- [Постійні з'єднання з базами даних
-»](features.persistent-connections.md)
+- [Постійні з'єднання з базами даних »](features.persistent-connections.md)
 
 - [PHP Manual](index.md)
 - [Відмінні риси](features.md)

@@ -1,5 +1,5 @@
 - [«touch](function.touch.md)
-- [unlink »] (function.unlink.md)
+- [unlink »](function.unlink.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

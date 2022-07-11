@@ -44,8 +44,7 @@
 Якщо об'єкт належить до класу **stdClass**, серіалізуйте як
 *документ BSON*.
 
-Якщо об'єкт є підтримуваним класом, який реалізує
-[MongoDB\BSON\Type](class.mongodb-bson-type.md), використовуйте логіку
+Якщо об'єкт є підтримуваним класом, який реалізує [MongoDB\BSON\Type](class.mongodb-bson-type.md), використовуйте логіку
 Серіалізація BSON для цього конкретного типу. Примірники
 [MongoDB\BSON\Type](class.mongodb-bson-type.md) (за винятком
 [MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md) можна

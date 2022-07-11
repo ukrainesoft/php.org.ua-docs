@@ -14,8 +14,7 @@ $http_response_header — Заголовки відповідей HTTP
 ### Опис
 
 Масив (array) `$http_response_header` схожий на функцию
-[get_headers()](function.get-headers.md). При використанні [обгортки
-HTTP](wrappers.http.md), `$http_response_header` буде заповнюватися
+[get_headers()](function.get-headers.md). При використанні [обгортки HTTP](wrappers.http.md), `$http_response_header` буде заповнюватися
 заголовки відповіді HTTP. `$http_response_header` буде створено в
 [локальної області видимості](language.variables.scope.md).
 

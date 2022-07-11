@@ -1,5 +1,5 @@
 - [«rename](function.rename.md)
-- [rmdir »] (function.rmdir.md)
+- [rmdir »](function.rmdir.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

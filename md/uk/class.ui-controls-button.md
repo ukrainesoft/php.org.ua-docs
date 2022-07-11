@@ -1,6 +1,5 @@
 - [«UI\Controls\Check::setText](ui-controls-check.settext.md)
-- [UI\Controls\Button::\_\_construct
-»](ui-controls-button.construct.md)
+- [UI\Controls\Button::\_\_construct »](ui-controls-button.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

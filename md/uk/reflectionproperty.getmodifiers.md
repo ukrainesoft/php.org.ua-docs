@@ -1,5 +1,4 @@
-- [«
-ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md)
+- [« ReflectionProperty::getDocComment](reflectionproperty.getdoccomment.md)
 - [ReflectionProperty::getName »](reflectionproperty.getname.md)
 
 - [PHP Manual](index.md)
@@ -26,8 +25,7 @@ public **ReflectionProperty::getModifiers**(): int
 ### Значення, що повертаються
 
 Числове уявлення модифікаторів. Фактичне значення цих
-модифікаторів описано в розділі [передбачені
-константи](class.reflectionproperty.md#reflectionproperty.constants.modifiers).
+модифікаторів описано в розділі [передбачені константи](class.reflectionproperty.md#reflectionproperty.constants.modifiers).
 
 ### Дивіться також
 

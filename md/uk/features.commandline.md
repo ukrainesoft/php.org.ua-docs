@@ -1,5 +1,4 @@
-- [« Постійні з'єднання з базами
-даних](features.persistent-connections.md)
+- [« Постійні з'єднання з базами даних](features.persistent-connections.md)
 - [Вступ »](features.commandline.introduction.md)
 
 - [PHP Manual](index.md)
@@ -11,8 +10,7 @@
 ## Зміст
 
 - [Вступ](features.commandline.introduction.md)
-- [Основні відмінності від інших реалізацій
-SAPI] (features.commandline.differences.md)
+- [Основні відмінності від інших реалізацій SAPI](features.commandline.differences.md)
 - [Опції](features.commandline.options.md)
 - [Використання](features.commandline.usage.md)
 - [Потоки вводу/виводу](features.commandline.io-streams.md)

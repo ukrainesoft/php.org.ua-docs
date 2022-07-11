@@ -1,5 +1,4 @@
-- [«
-Yaf_Exception_LoadFailed_Action](class.yaf-exception-loadfailed-action.md)
+- [« Yaf_Exception_LoadFailed_Action](class.yaf-exception-loadfailed-action.md)
 - [Yaconf »](book.yaconf.md)
 
 - [PHP Manual](index.md)

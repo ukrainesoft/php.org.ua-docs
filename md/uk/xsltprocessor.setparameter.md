@@ -1,5 +1,4 @@
-- [«
-XSLTProcessor::removeParameter](xsltprocessor.removeparameter.md)
+- [« XSLTProcessor::removeParameter](xsltprocessor.removeparameter.md)
 - [XSLTProcessor::setProfiling »](xsltprocessor.setprofiling.md)
 
 - [PHP Manual](index.md)

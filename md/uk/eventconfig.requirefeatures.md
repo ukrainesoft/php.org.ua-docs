@@ -21,8 +21,7 @@ public **EventConfig::requireFeatures**( int `$feature` ): bool
 ### Список параметрів
 
 `feature`
-Бітова маска потрібних властивостей. Дивіться [константи
-`EventConfig::FEATURE_*`](class.eventconfig.md#eventconfig.constants)
+Бітова маска потрібних властивостей. Дивіться [константи `EventConfig::FEATURE_*`](class.eventconfig.md#eventconfig.constants)
 
 ### Значення, що повертаються
 

@@ -1,5 +1,5 @@
 - [«fbird_close](function.fbird-close.md)
-- [fbird_commit »] (function.fbird-commit.md)
+- [fbird_commit »](function.fbird-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

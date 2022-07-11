@@ -1,5 +1,5 @@
 - [« Установка](gettext.installation.md)
-- [Типи ресурсів»] (gettext.resources.md)
+- [Типи ресурсів»](gettext.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](gettext.setup.md)

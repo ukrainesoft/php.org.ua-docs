@@ -1,5 +1,4 @@
-- [«
-date_create_immutable_from_format](function.date-create-immutable-from-format.md)
+- [« date_create_immutable_from_format](function.date-create-immutable-from-format.md)
 - [date_create »](function.date-create.md)
 
 - [PHP Manual](index.md)

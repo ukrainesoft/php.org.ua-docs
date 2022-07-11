@@ -1,7 +1,5 @@
-- [«
-CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.md)
-- [CollectionModify::patch
-»](mysql-xdevapi-collectionmodify.patch.md)
+- [« CollectionModify::execute](mysql-xdevapi-collectionmodify.execute.md)
+- [CollectionModify::patch »](mysql-xdevapi-collectionmodify.patch.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)

@@ -1,6 +1,5 @@
 - [« Якщо PHP встановлено як CGI](security.cgi-bin.md)
-- [Варіант 1: обслуговуються лише загальнодоступні файли
-»](security.cgi-bin.default.md)
+- [Варіант 1: обслуговуються лише загальнодоступні файли »](security.cgi-bin.default.md)
 
 - [PHP Manual](index.md)
 - [Якщо PHP встановлено як CGI](security.cgi-bin.md)

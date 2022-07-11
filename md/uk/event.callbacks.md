@@ -1,9 +1,8 @@
 - [« Про постійні(persistent) події](event.persistence.md)
-- [Створення подій для сигналів
-»](event.constructing.signal.events.md)
+- [Створення подій для сигналів »](event.constructing.signal.events.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Callback-функції
 
 # Callback-функції

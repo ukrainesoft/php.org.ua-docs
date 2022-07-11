@@ -1,5 +1,4 @@
-- [«
-socket_wsaprotocol_info_import](function.socket-wsaprotocol-info-import.md)
+- [« socket_wsaprotocol_info_import](function.socket-wsaprotocol-info-import.md)
 - [Socket »](class.socket.md)
 
 - [PHP Manual](index.md)

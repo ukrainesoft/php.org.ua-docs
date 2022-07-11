@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Progress::getValue](ui-controls-progress.getvalue.md)
+- [« UI\Controls\Progress::getValue](ui-controls-progress.getvalue.md)
 - [UI\Controls\Separator »](class.ui-controls-separator.md)
 
 - [PHP Manual](index.md)

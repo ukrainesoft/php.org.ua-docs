@@ -1,5 +1,5 @@
 - [« Установка](fann.installation.md)
-- [Типи ресурсів»] (fann.resources.md)
+- [Типи ресурсів»](fann.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](fann.setup.md)

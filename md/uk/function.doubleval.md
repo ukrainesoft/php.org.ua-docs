@@ -1,5 +1,5 @@
 - [«debug_zval_dump](function.debug-zval-dump.md)
-- [empty »] (function.empty.md)
+- [empty »](function.empty.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)

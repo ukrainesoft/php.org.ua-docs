@@ -1,5 +1,4 @@
-- [«
-Yaf_Controller_Abstract::render](yaf-controller-abstract.render.md)
+- [« Yaf_Controller_Abstract::render](yaf-controller-abstract.render.md)
 - [Yaf_Action_Abstract »](class.yaf-action-abstract.md)
 
 - [PHP Manual](index.md)

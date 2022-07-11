@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md)
+- [« SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md)
 - [SolrQuery::getFacetDateStart »](solrquery.getfacetdatestart.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-Vtiful\Kernel\Excel::autoFilter](vtiful-kernel-excel.autoFilter.md)
-- [Vtiful\Kernel\Excel::\_\_construct
-»](vtiful-kernel-excel.construct.md)
+- [« Vtiful\Kernel\Excel::autoFilter](vtiful-kernel-excel.autoFilter.md)
+- [Vtiful\Kernel\Excel::\_\_construct »](vtiful-kernel-excel.construct.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

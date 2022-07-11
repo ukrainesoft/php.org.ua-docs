@@ -1,7 +1,5 @@
-- [«
-ReflectionFunction::getClosure](reflectionfunction.getclosure.md)
-- [ReflectionFunction::invokeArgs
-»](reflectionfunction.invokeargs.md)
+- [« ReflectionFunction::getClosure](reflectionfunction.getclosure.md)
+- [ReflectionFunction::invokeArgs »](reflectionfunction.invokeargs.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunction](class.reflectionfunction.md)

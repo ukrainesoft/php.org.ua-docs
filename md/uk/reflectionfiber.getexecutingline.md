@@ -1,5 +1,4 @@
-- [«
-ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md)
+- [« ReflectionFiber::getExecutingFile](reflectionfiber.getexecutingfile.md)
 - [ReflectionFiber::getFiber »](reflectionfiber.getfiber.md)
 
 - [PHP Manual](index.md)

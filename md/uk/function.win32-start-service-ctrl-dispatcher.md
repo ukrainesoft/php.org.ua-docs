@@ -76,7 +76,7 @@ win32_start_service_ctrl_dispatcher — Додає до Менеджера Сл�
 |-------------------------|----------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ---|
 | PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при некоректних даних у параметрах, що раніше поверталося **`false`**. |
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |
-| PECL win32service 1.0.0 Тип повертається значення void, раніше був [mixed] (language.types.declarations.md#language.types.declarations.mixed). |
+| PECL win32service 1.0.0 Тип повертається значення void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed). |
 | PECL win32service 0.4.0 | Доданий параметр `gracefulMode`. |
 | PECL win32service 0.2.0 | Ця функція працює тільки з ``cli''` SAPI. |
 

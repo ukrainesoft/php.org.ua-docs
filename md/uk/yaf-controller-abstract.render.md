@@ -1,7 +1,5 @@
-- [«
-Yaf_Controller_Abstract::redirect](yaf-controller-abstract.redirect.md)
-- [Yaf_Controller_Abstract::setViewpath
-»](yaf-controller-abstract.setviewpath.md)
+- [« Yaf_Controller_Abstract::redirect](yaf-controller-abstract.redirect.md)
+- [Yaf_Controller_Abstract::setViewpath »](yaf-controller-abstract.setviewpath.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

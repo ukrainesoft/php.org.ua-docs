@@ -1,5 +1,4 @@
-- [«
-Imagick::paintTransparentImage](imagick.painttransparentimage.md)
+- [« Imagick::paintTransparentImage](imagick.painttransparentimage.md)
 - [Imagick::pingImageBlob »](imagick.pingimageblob.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md)
+- [« wkhtmltox\Image\Converter::getVersion](wkhtmltox-image-converter.getversion.md)
 - [Вступ »](intro.ps.md)
 
 - [PHP Manual](index.md)

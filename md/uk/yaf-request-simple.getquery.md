@@ -1,6 +1,5 @@
 - [« Yaf_Request_Simple::getPost](yaf-request-simple.getpost.md)
-- [Yaf_Request_Simple::getRequest
-»](yaf-request-simple.getrequest.md)
+- [Yaf_Request_Simple::getRequest »](yaf-request-simple.getrequest.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Simple](class.yaf-request-simple.md)

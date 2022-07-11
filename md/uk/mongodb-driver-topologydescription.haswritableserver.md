@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\TopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md)
-- [MongoDB\Driver\WriteConcernError
-»](class.mongodb-driver-writeconcernerror.md)
+- [« MongoDB\Driver\TopologyDescription::hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md)
+- [MongoDB\Driver\WriteConcernError »](class.mongodb-driver-writeconcernerror.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)

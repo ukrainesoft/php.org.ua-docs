@@ -1,5 +1,4 @@
-- [«
-Yaf_Plugin_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.md)
+- [« Yaf_Plugin_Abstract::routerStartup](yaf-plugin-abstract.routerstartup.md)
 - [Yaf_Registry::\_\_construct »](yaf-registry.construct.md)
 
 - [PHP Manual](index.md)

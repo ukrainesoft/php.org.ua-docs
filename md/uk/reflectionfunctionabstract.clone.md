@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
-- [ReflectionFunctionAbstract::getAttributes
-»](reflectionfunctionabstract.getattributes.md)
+- [« ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
+- [ReflectionFunctionAbstract::getAttributes »](reflectionfunctionabstract.getattributes.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

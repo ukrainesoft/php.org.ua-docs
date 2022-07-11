@@ -1,6 +1,5 @@
 - [« xmlrpc_get_type](function.xmlrpc-get-type.md)
-- [xmlrpc_parse_method_descriptions
-»](function.xmlrpc-parse-method-descriptions.md)
+- [xmlrpc_parse_method_descriptions »](function.xmlrpc-parse-method-descriptions.md)
 
 - [PHP Manual](index.md)
 - [Функції XML-RPC](ref.xmlrpc.md)

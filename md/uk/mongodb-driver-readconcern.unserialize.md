@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\ReadConcern::serialize](mongodb-driver-readconcern.serialize.md)
+- [« MongoDB\Driver\ReadConcern::serialize](mongodb-driver-readconcern.serialize.md)
 - [MongoDB\Driver\Cursor »](class.mongodb-driver-cursor.md)
 
 - [PHP Manual](index.md)

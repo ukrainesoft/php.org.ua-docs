@@ -58,9 +58,8 @@ public [fetch_field](mysqli-result.fetch-field.md)(): object\|false
 public [fetch_fields](mysqli-result.fetch-fields.md)(): array
 
 public [fetch_object](mysqli-result.fetch-object.md)(string `$class` u003d
-"stdClass", array `$constructor_args` u003d \[\]): object\|null\|false
-
-public [fetch_row](mysqli-result.fetch-row.md)(): array\|null\|false
+"stdClass", array `$constructor_args` u003d []): object\|null\|false
+ public [fetch_row](mysqli-result.fetch-row.md)(): array\|null\|false
 
 public [field_seek](mysqli-result.field-seek.md)(int `$index`): bool
 

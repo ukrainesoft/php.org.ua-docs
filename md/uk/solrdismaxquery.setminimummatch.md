@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md)
-- [SolrDisMaxQuery::setPhraseFields
-»](solrdismaxquery.setphrasefields.md)
+- [« SolrDisMaxQuery::setBoostQuery](solrdismaxquery.setboostquery.md)
+- [SolrDisMaxQuery::setPhraseFields »](solrdismaxquery.setphrasefields.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

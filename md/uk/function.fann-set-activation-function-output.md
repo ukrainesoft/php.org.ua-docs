@@ -1,7 +1,5 @@
-- [«
-fann_set_activation_function_layer](function.fann-set-activation-function-layer.md)
-- [fann_set_activation_function
-»](function.fann-set-activation-function.md)
+- [« fann_set_activation_function_layer](function.fann-set-activation-function-layer.md)
+- [fann_set_activation_function »](function.fann-set-activation-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)
@@ -27,8 +25,7 @@ fann_set_activation_function_output — Встановлює функцію ак
 Ресурс нейронної мережі.
 
 `activation_function`
-Константа [функцій
-активації](fann.constants.md#constants.fann-activation-funcs).
+Константа [функцій активації](fann.constants.md#constants.fann-activation-funcs).
 
 ### Значення, що повертаються
 

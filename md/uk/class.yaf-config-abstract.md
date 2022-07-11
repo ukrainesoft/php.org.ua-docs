@@ -1,5 +1,4 @@
-- [«
-Yaf_Dispatcher::throwException](yaf-dispatcher.throwexception.md)
+- [« Yaf_Dispatcher::throwException](yaf-dispatcher.throwexception.md)
 - [Yaf_Config_Abstract::get »](yaf-config-abstract.get.md)
 
 - [PHP Manual](index.md)

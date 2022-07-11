@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorId::\_\_construct](mongodb-driver-cursorid.construct.md)
-- [MongoDB\Driver\CursorId::\_\_toString
-»](mongodb-driver-cursorid.tostring.md)
+- [« MongoDB\Driver\CursorId::\_\_construct](mongodb-driver-cursorid.construct.md)
+- [MongoDB\Driver\CursorId::\_\_toString »](mongodb-driver-cursorid.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorId](class.mongodb-driver-cursorid.md)

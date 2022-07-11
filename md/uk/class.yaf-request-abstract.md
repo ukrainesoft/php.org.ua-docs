@@ -1,6 +1,5 @@
 - [« Yaf_Registry::set](yaf-registry.set.md)
-- [Yaf_Request_Abstract::clearParams
-»](yaf-request-abstract.clearparams.md)
+- [Yaf_Request_Abstract::clearParams »](yaf-request-abstract.clearparams.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

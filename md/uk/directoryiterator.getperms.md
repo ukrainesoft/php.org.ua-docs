@@ -1,5 +1,4 @@
-- [«
-DirectoryIterator::getPathname](directoryiterator.getpathname.md)
+- [« DirectoryIterator::getPathname](directoryiterator.getpathname.md)
 - [DirectoryIterator::getSize »](directoryiterator.getsize.md)
 
 - [PHP Manual](index.md)

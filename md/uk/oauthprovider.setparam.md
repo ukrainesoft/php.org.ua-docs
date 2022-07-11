@@ -1,6 +1,5 @@
 - [« OAuthProvider::reportProblem](oauthprovider.reportproblem.md)
-- [OAuthProvider::setRequestTokenPath
-»](oauthprovider.setrequesttokenpath.md)
+- [OAuthProvider::setRequestTokenPath »](oauthprovider.setrequesttokenpath.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

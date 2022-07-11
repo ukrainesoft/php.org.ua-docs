@@ -1,5 +1,5 @@
 - [« imap_mail_move](function.imap-mail-move.md)
-- [imap_mailboxmsginfo »] (function.imap-mailboxmsginfo.md)
+- [imap_mailboxmsginfo »](function.imap-mailboxmsginfo.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

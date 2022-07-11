@@ -1,7 +1,5 @@
-- [«
-Yaf_Exception_LoadFailed_Controller](class.yaf-exception-loadfailed-controller.md)
-- [Yaf_Exception_LoadFailed_View
-»](class.yaf-exception-loadfailed-view.md)
+- [« Yaf_Exception_LoadFailed_Controller](class.yaf-exception-loadfailed-controller.md)
+- [Yaf_Exception_LoadFailed_View »](class.yaf-exception-loadfailed-view.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

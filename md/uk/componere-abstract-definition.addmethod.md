@@ -1,7 +1,5 @@
-- [«
-Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md)
-- [Componere\Abstract\Definition::addTrait
-»](componere-abstract-definition.addtrait.md)
+- [« Componere\Abstract\Definition::addInterface](componere-abstract-definition.addinterface.md)
+- [Componere\Abstract\Definition::addTrait »](componere-abstract-definition.addtrait.md)
 
 - [PHP Manual](index.md)
 - [Componere\Abstract\Definition](class.componere-abstract-definition.md)

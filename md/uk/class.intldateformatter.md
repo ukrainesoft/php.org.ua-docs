@@ -107,13 +107,11 @@ public
 
 ## Дивіться також
 
-- [» Форматування дат
-ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.md#details)
+- [» Форматування дат ICU](http://www.icu-project.org/apiref/icu4c/udat_8h.md#details)
 
 
 
-- [» Формати дат
-ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
+- [» Формати дат ICU](https://unicode-org.github.io/icu/userguide/format_parse/datetime/#datetime-format-syntax)
 
 ## Зумовлені константи
 

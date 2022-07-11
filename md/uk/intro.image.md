@@ -2,7 +2,7 @@
 - [Встановлення та налаштування »](image.setup.md)
 
 - [PHP Manual](index.md)
-- [GD] (book.image.md)
+- [GD](book.image.md)
 -   Вступ
 
 # Вступ

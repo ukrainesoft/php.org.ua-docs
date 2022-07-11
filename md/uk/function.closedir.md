@@ -1,5 +1,5 @@
 - [«chroot](function.chroot.md)
-- [dir »] (function.dir.md)
+- [dir »](function.dir.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з каталогами](ref.dir.md)

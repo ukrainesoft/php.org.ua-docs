@@ -14,8 +14,6 @@
 3. Вихідний код WinCache
 
 Перші два пункти повністю покриваються статтею керівництва [» збірка
-PHP під
-Windows](https://wiki.php.net/internals/windows/stepbystepbuild).
+PHP під Windows](https://wiki.php.net/internals/windows/stepbystepbuild).
 
-Отримання вихідного коду WinCache описано в розділі [Завантаження
-PECL-модулів](install.pecl.downloads.md).
+Отримання вихідного коду WinCache описано в розділі [Завантаження PECL-модулів](install.pecl.downloads.md).

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Exception\EncryptionException](class.mongodb-driver-exception-encryptionexception.md)
-- [MongoDB\Driver\Exception\ExecutionTimeoutException
-»](class.mongodb-driver-exception-executiontimeoutexception.md)
+- [« MongoDB\Driver\Exception\EncryptionException](class.mongodb-driver-exception-encryptionexception.md)
+- [MongoDB\Driver\Exception\ExecutionTimeoutException »](class.mongodb-driver-exception-executiontimeoutexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Exception](mongodb.exceptions.md)

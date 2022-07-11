@@ -1,5 +1,5 @@
 - [«trader_typprice](function.trader-typprice.md)
-- [trader_var »] (function.trader-var.md)
+- [trader_var »](function.trader-var.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

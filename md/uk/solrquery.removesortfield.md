@@ -1,5 +1,4 @@
-- [«
-SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md)
+- [« SolrQuery::removeMltQueryField](solrquery.removemltqueryfield.md)
 - [SolrQuery::removeStatsFacet »](solrquery.removestatsfacet.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«stat](function.stat.md)
-- [tempnam »] (function.tempnam.md)
+- [tempnam »](function.tempnam.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

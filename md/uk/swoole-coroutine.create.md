@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine::cli_wait](swoole-coroutine.cli-wait.md)
-- [Swoole\Coroutine\Client::close
-»](swoole-coroutine-client.close.md)
+- [Swoole\Coroutine\Client::close »](swoole-coroutine-client.close.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

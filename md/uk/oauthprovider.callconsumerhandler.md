@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md)
-- [OAuthProvider::callTimestampNonceHandler
-»](oauthprovider.calltimestampnoncehandler.md)
+- [« OAuthProvider::addRequiredParameter](oauthprovider.addrequiredparameter.md)
+- [OAuthProvider::callTimestampNonceHandler »](oauthprovider.calltimestampnoncehandler.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

@@ -1,5 +1,5 @@
 - [«jdtojulian](function.jdtojulian.md)
-- [jewishtojd »] (function.jewishtojd.md)
+- [jewishtojd »](function.jewishtojd.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

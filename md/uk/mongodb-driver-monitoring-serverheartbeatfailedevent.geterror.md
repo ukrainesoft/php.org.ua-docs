@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getHost
-»](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getDurationMicros](mongodb-driver-monitoring-serverheartbeatfailedevent.getdurationmicros.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::getHost »](mongodb-driver-monitoring-serverheartbeatfailedevent.gethost.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent](class.mongodb-driver-monitoring-serverheartbeatfailedevent.md)

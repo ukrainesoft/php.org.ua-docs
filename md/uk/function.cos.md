@@ -1,5 +1,5 @@
 - [«ceil](function.ceil.md)
-- [cosh »] (function.cosh.md)
+- [cosh »](function.cosh.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

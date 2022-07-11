@@ -1,5 +1,5 @@
 - [« Directory::read](directory.read.md)
-- [Функції для роботи з каталогами»] (ref.dir.md)
+- [Функції для роботи з каталогами»](ref.dir.md)
 
 - [PHP Manual](index.md)
 - [Directory](class.directory.md)

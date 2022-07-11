@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Slider::\_\_construct](ui-controls-slider.construct.md)
+- [« UI\Controls\Slider::\_\_construct](ui-controls-slider.construct.md)
 - [UI\Controls\Slider::onChange »](ui-controls-slider.onchange.md)
 
 - [PHP Manual](index.md)

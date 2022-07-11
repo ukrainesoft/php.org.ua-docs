@@ -1,7 +1,5 @@
-- [«
-xml_set_processing_instruction_handler](function.xml-set-processing-instruction-handler.md)
-- [xml_set_unparsed_entity_decl_handler
-»](function.xml-set-unparsed-entity-decl-handler.md)
+- [« xml_set_processing_instruction_handler](function.xml-set-processing-instruction-handler.md)
+- [xml_set_unparsed_entity_decl_handler »](function.xml-set-unparsed-entity-decl-handler.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

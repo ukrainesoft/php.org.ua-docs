@@ -1,5 +1,5 @@
 - [«Сесії](features.sessions.md)
-- [Завантаження файлів на сервер»] (features.file-upload.md)
+- [Завантаження файлів на сервер»](features.file-upload.md)
 
 - [PHP Manual](index.md)
 - [Відмінні риси](features.md)

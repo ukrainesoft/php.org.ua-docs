@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getGeneratedIds](mysql-xdevapi-sqlstatementresult.getgeneratedids.md)
-- [SqlStatementResult::getWarnings
-»](mysql-xdevapi-sqlstatementresult.getwarnings.md)
+- [« SqlStatementResult::getGeneratedIds](mysql-xdevapi-sqlstatementresult.getgeneratedids.md)
+- [SqlStatementResult::getWarnings »](mysql-xdevapi-sqlstatementresult.getwarnings.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

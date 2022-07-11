@@ -1,6 +1,5 @@
 - [«fdf_set_flags](function.fdf-set-flags.md)
-- [fdf_set_on_import_javascript
-»](function.fdf-set-on-import-javascript.md)
+- [fdf_set_on_import_javascript »](function.fdf-set-on-import-javascript.md)
 
 - [PHP Manual](index.md)
 - [FDF](ref.fdf.md)

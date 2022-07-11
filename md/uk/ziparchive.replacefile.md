@@ -45,8 +45,7 @@ int `$flags` u003d 0
 `flags`
 Бітова маска, що складається з **`ZipArchive::FL_ENC_GUESS`**,
 **`ZipArchive::FL_ENC_UTF_8`**, **`ZipArchive::FL_ENC_CP437`**.
-Поведінка цих констант описана на сторінці [Константи
-ZIP](zip.constants.md).
+Поведінка цих констант описана на сторінці [Константи ZIP](zip.constants.md).
 
 ### Значення, що повертаються
 

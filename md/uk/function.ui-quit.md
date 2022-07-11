@@ -1,6 +1,6 @@
-- [«
-UI\Draw\Text\Font ontFamilies](function.ui-draw-text-font-fontfamilies.md)
-- [UIun »](function.ui-run.md)
+- [« UI\Draw\Text\Font ontFamilies](function.ui-draw-text-font-fontfamilies.md)
+- [UI
+un »](function.ui-run.md)
 
 - [PHP Manual](index.md)
 - [Функції UI](ref.ui.md)

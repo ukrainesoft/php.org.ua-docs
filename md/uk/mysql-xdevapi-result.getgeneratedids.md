@@ -1,5 +1,4 @@
-- [«
-Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.md)
+- [« Result::getAutoIncrementValue](mysql-xdevapi-result.getautoincrementvalue.md)
 - [Result::getWarnings »](mysql-xdevapi-result.getwarnings.md)
 
 - [PHP Manual](index.md)

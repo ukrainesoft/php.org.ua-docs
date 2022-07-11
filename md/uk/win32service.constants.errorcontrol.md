@@ -1,7 +1,5 @@
-- [« Константи типу запуску служби
-Win32Service](win32service.constants.servicestarttype.md)
-- [Константи прапорів сервісу Win32Service
-»](win32service.constants.serviceflag.md)
+- [« Константи типу запуску служби Win32Service](win32service.constants.servicestarttype.md)
+- [Константи прапорів сервісу Win32Service »](win32service.constants.serviceflag.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

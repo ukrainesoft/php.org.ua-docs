@@ -1,6 +1,5 @@
 - [«SolrServerException](class.solrserverexception.md)
-- [SolrIllegalArgumentException
-»](class.solrillegalargumentexception.md)
+- [SolrIllegalArgumentException »](class.solrillegalargumentexception.md)
 
 - [PHP Manual](index.md)
 - [SolrServerException](class.solrserverexception.md)

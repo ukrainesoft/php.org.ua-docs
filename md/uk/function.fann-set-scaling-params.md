@@ -1,7 +1,5 @@
-- [«
-fann_set_sarprop_weight_decay_shift](function.fann-set-sarprop-weight-decay-shift.md)
-- [fann_set_train_error_function
-»](function.fann-set-train-error-function.md)
+- [« fann_set_sarprop_weight_decay_shift](function.fann-set-sarprop-weight-decay-shift.md)
+- [fann_set_train_error_function »](function.fann-set-train-error-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Query::\_\_construct](mongodb-driver-query.construct.md)
-- [MongoDB\Driver\BulkWrite::\_\_construct
-»](mongodb-driver-bulkwrite.construct.md)
+- [« MongoDB\Driver\Query::\_\_construct](mongodb-driver-query.construct.md)
+- [MongoDB\Driver\BulkWrite::\_\_construct »](mongodb-driver-bulkwrite.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

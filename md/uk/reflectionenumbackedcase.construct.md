@@ -1,6 +1,5 @@
 - [«ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)
-- [ReflectionEnumBackedCase::getBackingValue
-»](reflectionenumbackedcase.getbackingvalue.md)
+- [ReflectionEnumBackedCase::getBackingValue »](reflectionenumbackedcase.getbackingvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)

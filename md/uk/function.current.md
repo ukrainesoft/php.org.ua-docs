@@ -1,4 +1,4 @@
-- [« count] (function.count.md)
+- [« count](function.count.md)
 - [each »](function.each.md)
 
 - [PHP Manual](index.md)
@@ -35,9 +35,7 @@ current — Повертає поточний елемент масиву
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін

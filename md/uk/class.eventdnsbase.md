@@ -1,9 +1,8 @@
-- [«
-EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)
+- [« EventConfig::setMaxDispatchInterval](eventconfig.setmaxdispatchinterval.md)
 - [EventDnsBase::addNameserverIp »](eventdnsbase.addnameserverip.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventDnsBase
 
 # Клас EventDnsBase

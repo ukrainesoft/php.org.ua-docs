@@ -1,6 +1,5 @@
 - [« Yaf_Controller_Abstract::init](yaf-controller-abstract.init.md)
-- [Yaf_Controller_Abstract::redirect
-»](yaf-controller-abstract.redirect.md)
+- [Yaf_Controller_Abstract::redirect »](yaf-controller-abstract.redirect.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

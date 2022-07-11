@@ -24,8 +24,7 @@ public **Memcached::setOption**(int `$option`,
 ### Список параметрів
 
 `option`
-Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константи
-Memcached](memcached.constants.md) для отримання повнішої
+Одна з констант `Memcached::OPT_*`. Вивчіть розділ [константи Memcached](memcached.constants.md) для отримання повнішої
 інформації.
 
 `value`

@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md)
-- [ImagickDraw::pathLineToAbsolute
-»](imagickdraw.pathlinetoabsolute.md)
+- [« ImagickDraw::pathEllipticArcRelative](imagickdraw.pathellipticarcrelative.md)
+- [ImagickDraw::pathLineToAbsolute »](imagickdraw.pathlinetoabsolute.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

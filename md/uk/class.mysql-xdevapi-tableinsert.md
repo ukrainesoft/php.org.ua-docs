@@ -1,6 +1,5 @@
 - [«TableDelete::where](mysql-xdevapi-tabledelete.where.md)
-- [TableInsert::\_\_construct
-»](mysql-xdevapi-tableinsert.construct.md)
+- [TableInsert::\_\_construct »](mysql-xdevapi-tableinsert.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

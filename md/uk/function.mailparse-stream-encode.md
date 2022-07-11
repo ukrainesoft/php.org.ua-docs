@@ -1,6 +1,5 @@
-- [«
-mailparse_rfc822_parse_addresses](function.mailparse-rfc822-parse-addresses.md)
-- [mailparse_uudecode_all »] (function.mailparse-uudecode-all.md)
+- [« mailparse_rfc822_parse_addresses](function.mailparse-rfc822-parse-addresses.md)
+- [mailparse_uudecode_all »](function.mailparse-uudecode-all.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

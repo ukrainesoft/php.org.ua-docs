@@ -1,5 +1,5 @@
 - [«ps_setlinejoin](function.ps-setlinejoin.md)
-- [ps_setmiterlimit »] (function.ps-setmiterlimit.md)
+- [ps_setmiterlimit »](function.ps-setmiterlimit.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

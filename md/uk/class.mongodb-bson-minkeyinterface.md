@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.md)
-- [MongoDB\BSON\ObjectIdInterface
-»](class.mongodb-bson-objectidinterface.md)
+- [« MongoDB\BSON\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.md)
+- [MongoDB\BSON\ObjectIdInterface »](class.mongodb-bson-objectidinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

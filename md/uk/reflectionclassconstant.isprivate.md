@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)
-- [ReflectionClassConstant::isProtected
-»](reflectionclassconstant.isprotected.md)
+- [« ReflectionClassConstant::isFinal](reflectionclassconstant.isfinal.md)
+- [ReflectionClassConstant::isProtected »](reflectionclassconstant.isprotected.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

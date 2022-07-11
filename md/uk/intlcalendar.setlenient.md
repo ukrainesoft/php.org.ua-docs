@@ -1,7 +1,5 @@
-- [«
-IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md)
-- [IntlCalendar::setMinimalDaysInFirstWeek
-»](intlcalendar.setminimaldaysinfirstweek.md)
+- [« IntlCalendar::setFirstDayOfWeek](intlcalendar.setfirstdayofweek.md)
+- [IntlCalendar::setMinimalDaysInFirstWeek »](intlcalendar.setminimaldaysinfirstweek.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

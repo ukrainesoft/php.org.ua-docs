@@ -1,6 +1,5 @@
 - [« Session::listClients](mysql-xdevapi-session.listclients.md)
-- [Session::releaseSavepoint
-»](mysql-xdevapi-session.releasesavepoint.md)
+- [Session::releaseSavepoint »](mysql-xdevapi-session.releasesavepoint.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Session](class.mysql-xdevapi-session.md)

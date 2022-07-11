@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md)
-- [ReflectionFunctionAbstract::getEndLine
-»](reflectionfunctionabstract.getendline.md)
+- [« ReflectionFunctionAbstract::getClosureUsedVariables](reflectionfunctionabstract.getclosureusedvariables.md)
+- [ReflectionFunctionAbstract::getEndLine »](reflectionfunctionabstract.getendline.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

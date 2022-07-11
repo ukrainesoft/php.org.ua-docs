@@ -1,5 +1,4 @@
-- [«
-DateTimeImmutable::\_\_set_state](datetimeimmutable.set-state.md)
+- [« DateTimeImmutable::\_\_set_state](datetimeimmutable.set-state.md)
 - [DateTimeImmutable::setISODate »](datetimeimmutable.setisodate.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« Transliterator::createInverse](transliterator.createinverse.md)
-- [Transliterator::getErrorMessage
-»](transliterator.geterrormessage.md)
+- [Transliterator::getErrorMessage »](transliterator.geterrormessage.md)
 
 - [PHP Manual](index.md)
 - [Transliterator](class.transliterator.md)

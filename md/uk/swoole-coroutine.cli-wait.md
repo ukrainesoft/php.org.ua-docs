@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine::call_user_func](swoole-coroutine.call-user-func.md)
+- [« Swoole\Coroutine::call_user_func](swoole-coroutine.call-user-func.md)
 - [Swoole\Coroutine::create »](swoole-coroutine.create.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md)
+- [« RowResult::getWarningsCount](mysql-xdevapi-rowresult.getwarningscount.md)
 - [Schema::\_\_construct »](mysql-xdevapi-schema.construct.md)
 
 - [PHP Manual](index.md)

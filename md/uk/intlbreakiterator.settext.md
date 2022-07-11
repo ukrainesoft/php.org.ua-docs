@@ -1,6 +1,5 @@
 - [« IntlBreakIterator::previous](intlbreakiterator.previous.md)
-- [IntlRuleBasedBreakIterator
-»](class.intlrulebasedbreakiterator.md)
+- [IntlRuleBasedBreakIterator »](class.intlrulebasedbreakiterator.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

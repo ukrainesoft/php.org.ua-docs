@@ -1,6 +1,5 @@
 - [«mcrypt_list_modes](function.mcrypt-list-modes.md)
-- [mcrypt_module_get_algo_block_size
-»](function.mcrypt-module-get-algo-block-size.md)
+- [mcrypt_module_get_algo_block_size »](function.mcrypt-module-get-algo-block-size.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

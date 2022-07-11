@@ -1,5 +1,4 @@
-- [«
-SolrDocumentField::\_\_construct](solrdocumentfield.construct.md)
+- [« SolrDocumentField::\_\_construct](solrdocumentfield.construct.md)
 - [SolrObject »](class.solrobject.md)
 
 - [PHP Manual](index.md)

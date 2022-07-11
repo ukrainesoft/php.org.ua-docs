@@ -1,5 +1,5 @@
 - [« Установка](mysql.installation.md)
-- [Типи ресурсів»] (mysql.resources.md)
+- [Типи ресурсів»](mysql.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](mysql.setup.md)
@@ -26,8 +26,7 @@
 **Директиви конфігурації MySQL**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 
@@ -36,8 +35,7 @@
 інструкцій LOAD DATA
 
 `mysql.allow_persistent` bool
-Чи дозволяти [постійні
-з'єднання](features.persistent-connections.md) з MySQL.
+Чи дозволяти [постійні з'єднання](features.persistent-connections.md) з MySQL.
 
 `mysql.max_persistent` int
 Максимальна кількість постійних з'єднань з MySQL однією процес.
@@ -66,18 +64,15 @@ TCP-порт, який використовується для з'єднання
 
 `mysql.default_host` string
 Адреса сервера за замовчуванням, що використовується для підключення до сервера бази
-даних, якщо не вказано інший. Не працює в [SQL safe
-mode](ini.core.md#ini.sql.safe-mode).
+даних, якщо не вказано інший. Не працює в [SQL safe mode](ini.core.md#ini.sql.safe-mode).
 
 `mysql.default_user` string
 Стандартне ім'я користувача, яке використовується для підключення до сервера
-бази даних, якщо не зазначено інше. Не працює в [SQL safe
-mode](ini.core.md#ini.sql.safe-mode).
+бази даних, якщо не зазначено інше. Не працює в [SQL safe mode](ini.core.md#ini.sql.safe-mode).
 
 `mysql.default_password` string
 Стандартний пароль, який використовується для підключення до сервера бази даних,
-якщо не вказано інший. Не працює в [SQL safe
-mode](ini.core.md#ini.sql.safe-mode).
+якщо не вказано інший. Не працює в [SQL safe mode](ini.core.md#ini.sql.safe-mode).
 
 `mysql.connect_timeout` int
 Час очікування на відповідь до розриву з'єднання в секундах. Linux також

@@ -17,13 +17,12 @@ ldap_search — Пошук по LDAP дереву
 [LDAP\Connection](class.ldap-connection.md)\|array `$ldap`,
 array\|string `$base`,
 array\|string `$filter`,
-array `$attributes` u003d \[\],
+array `$attributes` u003d [],
 int `$attributes_only` u003d 0,
 int `$sizelimit` u003d -1,
 int `$timelimit` u003d -1,
 int `$deref` u003d **`LDAP_DEREF_NEVER`**,
-?array `$controls` u003d **`null`**
-): [LDAP\Result](class.ldap-result.md)\|array\|false
+?array `$controls` u003d **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
 
 Виконує пошук для зазначеного фільтра у директорії з межами
 **`LDAP_SCOPE_SUBTREE`**. Еквівалентно пошуку по всьому каталогу.
@@ -56,8 +55,7 @@ int `$deref` u003d **`LDAP_DEREF_NEVER`**,
 `filter`
 Пошуковий фільтр може бути простим або розширеним, використовуючи булеви
 оператори у форматі, описаному в документації LDAP (дивіться [» Netscape
-Directory
-SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK)
+Directory SDK](https://wiki.mozilla.org/Mozilla_LDAP_SDK_Programmer%27s_Guide/Searching_the_Directory_With_LDAP_C_SDK)
 або [»RFC4515](http://www.faqs.org/rfcs/rfc4515) для повної інформації
 про фільтри).
 

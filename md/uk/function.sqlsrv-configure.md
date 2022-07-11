@@ -45,7 +45,5 @@ sqlsrv_configure — Змінює конфігурацію обробки пом
 
 ### Дивіться також
 
--   [" Обробка помилок
-SQLSRV](http://msdn.microsoft.com/en-us/library/cc626302.aspx).
-- [» Ведення журналу активності
-SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx).
+-   [" Обробка помилок SQLSRV](http://msdn.microsoft.com/en-us/library/cc626302.aspx).
+- [» Ведення журналу активності SQLSRV](http://msdn.microsoft.com/en-us/library/cc296188.aspx).

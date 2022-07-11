@@ -1,6 +1,5 @@
 - [« Yaf_Exception_TypeError](class.yaf-exception-typeerror.md)
-- [Yaf_Exception_DispatchFailed
-»](class.yaf-exception-dispatchfailed.md)
+- [Yaf_Exception_DispatchFailed »](class.yaf-exception-dispatchfailed.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

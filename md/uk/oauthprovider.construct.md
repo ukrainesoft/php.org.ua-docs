@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md)
-- [OAuthProvider::consumerHandler
-»](oauthprovider.consumerhandler.md)
+- [« OAuthProvider::checkOAuthRequest](oauthprovider.checkoauthrequest.md)
+- [OAuthProvider::consumerHandler »](oauthprovider.consumerhandler.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)
@@ -27,8 +25,7 @@ public **OAuthProvider::\_\_construct**(array `$params_array` u003d ?)
 ### Список параметрів
 
 `params_array`
-Установка цих необов'язкових параметрів обмежена [CLI
-SAPI] (features.commandline.md).
+Установка цих необов'язкових параметрів обмежена [CLI SAPI](features.commandline.md).
 
 ### Значення, що повертаються
 

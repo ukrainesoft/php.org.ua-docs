@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.md)
-- [MongoDB\Driver\ServerApi::unserialize
-»](mongodb-driver-serverapi.unserialize.md)
+- [« MongoDB\Driver\ServerApi::\_\_construct](mongodb-driver-serverapi.construct.md)
+- [MongoDB\Driver\ServerApi::unserialize »](mongodb-driver-serverapi.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerApi](class.mongodb-driver-serverapi.md)

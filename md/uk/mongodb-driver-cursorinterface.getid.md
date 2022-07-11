@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
-- [MongoDB\Driver\CursorInterface::getServer
-»](mongodb-driver-cursorinterface.getserver.md)
+- [« MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
+- [MongoDB\Driver\CursorInterface::getServer »](mongodb-driver-cursorinterface.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)

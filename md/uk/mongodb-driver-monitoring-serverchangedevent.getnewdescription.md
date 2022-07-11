@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent::getPort
-»](mongodb-driver-monitoring-serverchangedevent.getport.md)
+- [« MongoDB\Driver\Monitoring\ServerChangedEvent::getHost](mongodb-driver-monitoring-serverchangedevent.gethost.md)
+- [MongoDB\Driver\Monitoring\ServerChangedEvent::getPort »](mongodb-driver-monitoring-serverchangedevent.getport.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerChangedEvent](class.mongodb-driver-monitoring-serverchangedevent.md)

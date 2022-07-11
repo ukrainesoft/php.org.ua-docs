@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_output_change_fraction](function.fann-set-cascade-output-change-fraction.md)
-- [fann_set_cascade_weight_multiplier
-»](function.fann-set-cascade-weight-multiplier.md)
+- [« fann_set_cascade_output_change_fraction](function.fann-set-cascade-output-change-fraction.md)
+- [fann_set_cascade_weight_multiplier »](function.fann-set-cascade-weight-multiplier.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

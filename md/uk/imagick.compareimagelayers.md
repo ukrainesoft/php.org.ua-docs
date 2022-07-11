@@ -25,8 +25,7 @@ public **Imagick::compareImageLayers**(int `$method`):
 ### Список параметрів
 
 `method`
-Одна з [констант методу
-шару](imagick.constants.md#imagick.constants.layermethod).
+Одна з [констант методу шару](imagick.constants.md#imagick.constants.layermethod).
 
 ### Значення, що повертаються
 

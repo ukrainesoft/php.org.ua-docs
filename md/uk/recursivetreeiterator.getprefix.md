@@ -1,5 +1,4 @@
-- [«
-RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
+- [« RecursiveTreeIterator::getPostfix](recursivetreeiterator.getpostfix.md)
 - [RecursiveTreeIterator::key »](recursivetreeiterator.key.md)
 
 - [PHP Manual](index.md)

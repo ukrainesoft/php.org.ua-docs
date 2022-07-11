@@ -1,7 +1,5 @@
-- [«
-HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
-- [HRTime\StopWatch::getElapsedTicks
-»](hrtime-stopwatch.getelapsedticks.md)
+- [« HRTime\PerformanceCounter::getTicksSince](hrtime-performancecounter.gettickssince.md)
+- [HRTime\StopWatch::getElapsedTicks »](hrtime-stopwatch.getelapsedticks.md)
 
 - [PHP Manual](index.md)
 - [HRTime](book.hrtime.md)

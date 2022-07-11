@@ -1,5 +1,4 @@
-- [«
-date_default_timezone_set](function.date-default-timezone-set.md)
+- [« date_default_timezone_set](function.date-default-timezone-set.md)
 - [date_format »](function.date-format.md)
 
 - [PHP Manual](index.md)

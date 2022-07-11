@@ -1,5 +1,5 @@
 - [«openal_source_play](function.openal-source-play.md)
-- [openal_source_set »] (function.openal-source-set.md)
+- [openal_source_set »](function.openal-source-set.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenAL](ref.openal.md)

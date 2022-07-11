@@ -1,5 +1,4 @@
-- [« Читання атрибутів за допомогою Reflection
-API] (language.attributes.reflection.md)
+- [« Читання атрибутів за допомогою Reflection API](language.attributes.reflection.md)
 - [Пояснення посилань »](language.references.md)
 
 - [PHP Manual](index.md)

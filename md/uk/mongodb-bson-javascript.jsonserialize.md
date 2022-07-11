@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Javascript::getScope](mongodb-bson-javascript.getscope.md)
-- [MongoDB\BSON\Javascript::serialize
-»](mongodb-bson-javascript.serialize.md)
+- [« MongoDB\BSON\Javascript::getScope](mongodb-bson-javascript.getscope.md)
+- [MongoDB\BSON\Javascript::serialize »](mongodb-bson-javascript.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» Розширений JSON
-MongoDB](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» Розширений JSON MongoDB](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

@@ -1,5 +1,5 @@
 - [«include](function.include.md)
-- [include_once »] (function.include-once.md)
+- [include_once »](function.include-once.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)

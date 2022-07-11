@@ -1,5 +1,5 @@
 - [«eio_grp](function.eio-grp.md)
-- [eio_link »] (function.eio-link.md)
+- [eio_link »](function.eio-link.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

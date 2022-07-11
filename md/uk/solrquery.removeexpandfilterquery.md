@@ -1,6 +1,5 @@
 - [«SolrQuery::getTimeAllowed](solrquery.gettimeallowed.md)
-- [SolrQuery::removeExpandSortField
-»](solrquery.removeexpandsortfield.md)
+- [SolrQuery::removeExpandSortField »](solrquery.removeexpandsortfield.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

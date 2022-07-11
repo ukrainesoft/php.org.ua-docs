@@ -1,5 +1,5 @@
 - [« Встановлення](math.installation.md)
-- [Типи ресурсів»] (math.resources.md)
+- [Типи ресурсів»](math.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](math.setup.md)

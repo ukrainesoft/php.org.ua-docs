@@ -2,8 +2,7 @@
 - [Вступ »](intro.parallel.md)
 
 - [PHP Manual](index.md)
-- [Модулі для управління процесами
-програм](refs.fileprocess.process.md)
+- [Модулі для управління процесами програм](refs.fileprocess.process.md)
 - parallel
 
 # parallel
@@ -14,7 +13,8 @@
 - [Функціональний API](functional.parallel.md)
 - [parallel.ootstrap](parallel.bootstrap.md) - Початкова
 завантаження
-- [Parallelun](parallel.run.md) — Виконання
+- [Parallel
+un](parallel.run.md) — Виконання
 - [parallel\Runtime](class.parallel-runtime.md) - Клас
 parallel\Runtime
 - [parallel\Runtime::\_\_construct](parallel-runtime.construct.md)

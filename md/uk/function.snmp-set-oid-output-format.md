@@ -1,5 +1,4 @@
-- [«
-snmp_set_oid_numeric_print](function.snmp-set-oid-numeric-print.md)
+- [« snmp_set_oid_numeric_print](function.snmp-set-oid-numeric-print.md)
 - [snmp_set_quick_print »](function.snmp-set-quick-print.md)
 
 - [PHP Manual](index.md)

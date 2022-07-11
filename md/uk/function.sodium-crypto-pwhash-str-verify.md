@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_pwhash_str_needs_rehash](function.sodium-crypto-pwhash-str-needs-rehash.md)
+- [« sodium_crypto_pwhash_str_needs_rehash](function.sodium-crypto-pwhash-str-needs-rehash.md)
 - [sodium_crypto_pwhash_str »](function.sodium-crypto-pwhash-str.md)
 
 - [PHP Manual](index.md)

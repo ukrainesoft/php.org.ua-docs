@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Text\Font\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.md)
-- [UI\Draw\Text\Font\Descriptor::getItalic
-»](ui-draw-text-font-descriptor.getitalic.md)
+- [« UI\Draw\Text\Font\Descriptor::\_\_construct](ui-draw-text-font-descriptor.construct.md)
+- [UI\Draw\Text\Font\Descriptor::getItalic »](ui-draw-text-font-descriptor.getitalic.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font\Descriptor](class.ui-draw-text-font-descriptor.md)

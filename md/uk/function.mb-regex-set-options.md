@@ -1,5 +1,5 @@
 - [«mb_regex_encoding](function.mb-regex-encoding.md)
-- [mb_scrub »] (function.mb-scrub.md)
+- [mb_scrub »](function.mb-scrub.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

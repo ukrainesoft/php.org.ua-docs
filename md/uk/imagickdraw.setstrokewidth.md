@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.md)
+- [« ImagickDraw::setStrokePatternURL](imagickdraw.setstrokepatternurl.md)
 - [ImagickDraw::setTextAlignment »](imagickdraw.settextalignment.md)
 
 - [PHP Manual](index.md)

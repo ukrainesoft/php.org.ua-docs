@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\Result](class.mysql-xdevapi-result.md)
-- [Result::getAffectedItemsCount
-»](mysql-xdevapi-result.getaffecteditemscount.md)
+- [Result::getAffectedItemsCount »](mysql-xdevapi-result.getaffecteditemscount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Result](class.mysql-xdevapi-result.md)

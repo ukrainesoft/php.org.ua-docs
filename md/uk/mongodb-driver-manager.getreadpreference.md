@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::getReadConcern](mongodb-driver-manager.getreadconcern.md)
-- [MongoDB\Driver\Manager::getServers
-»](mongodb-driver-manager.getservers.md)
+- [« MongoDB\Driver\Manager::getReadConcern](mongodb-driver-manager.getreadconcern.md)
+- [MongoDB\Driver\Manager::getServers »](mongodb-driver-manager.getservers.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)

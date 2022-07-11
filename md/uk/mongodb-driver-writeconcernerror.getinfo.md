@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md)
-- [MongoDB\Driver\WriteConcernError::getMessage
-»](mongodb-driver-writeconcernerror.getmessage.md)
+- [« MongoDB\Driver\WriteConcernError::getCode](mongodb-driver-writeconcernerror.getcode.md)
+- [MongoDB\Driver\WriteConcernError::getMessage »](mongodb-driver-writeconcernerror.getmessage.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcernError](class.mongodb-driver-writeconcernerror.md)
@@ -48,5 +46,4 @@ bool(true)
 
 ### Дивіться також
 
-- [» Довідка за гарантіями
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

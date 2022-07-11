@@ -1,6 +1,5 @@
 - [« Установка](componere.installation.md)
-- [Componere\Abstract\Definition::addInterface
-»](componere-abstract-definition.addinterface.md)
+- [Componere\Abstract\Definition::addInterface »](componere-abstract-definition.addinterface.md)
 
 - [PHP Manual](index.md)
 - [Componere](book.componere.md)

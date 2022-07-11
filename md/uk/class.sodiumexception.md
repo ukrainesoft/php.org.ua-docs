@@ -1,5 +1,5 @@
 - [« sodium_unpad](function.sodium-unpad.md)
-- [Модулі для роботи з базами даних»] (refs.database.md)
+- [Модулі для роботи з базами даних»](refs.database.md)
 
 - [PHP Manual](index.md)
 - [Sodium](book.sodium.md)
@@ -29,9 +29,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

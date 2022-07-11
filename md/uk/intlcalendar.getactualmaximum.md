@@ -1,6 +1,5 @@
 - [« IntlCalendar::get](intlcalendar.get.md)
-- [IntlCalendar::getActualMinimum
-»](intlcalendar.getactualminimum.md)
+- [IntlCalendar::getActualMinimum »](intlcalendar.getactualminimum.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)
@@ -28,14 +27,12 @@ public **IntlCalendar::getActualMaximum**(int `$field`): int\|false
 часу. Точна семантика залежить від поля, але загалом це
 значення, яке було б отримано, якщо встановити значення поля на
 [найменший відносний максимум](intlcalendar.getleastmaximum.md) та
-збільшувати його доти, доки не буде досягнуто [глобальний
-максимум](intlcalendar.getmaximum.md), щоб обернути значення поля,
+збільшувати його доти, доки не буде досягнуто [глобальний максимум](intlcalendar.getmaximum.md), щоб обернути значення поля,
 якому повертається значення буде глобальним максимумом або значенням
 до перенесення, відповідно.
 
 Наприклад, у григоріанському календарі фактичне максимальне значення
-для [дня
-місяця](class.intlcalendar.md#intlcalendar.constants.field-day-of-month)
+для [дня місяця](class.intlcalendar.md#intlcalendar.constants.field-day-of-month)
 буде варіюватися від `28` до `31`, залежно від місяця та року
 поточного часу.
 

@@ -1,5 +1,5 @@
 - [« Типи ресурсів](ps.resources.md)
-- [Функції PS»] (ref.ps.md)
+- [Функції PS»](ref.ps.md)
 
 - [PHP Manual](index.md)
 - [PS](book.ps.md)

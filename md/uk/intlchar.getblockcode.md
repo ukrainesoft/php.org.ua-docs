@@ -1,5 +1,4 @@
-- [«
-IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md)
+- [« IntlChar::getBidiPairedBracket](intlchar.getbidipairedbracket.md)
 - [IntlChar::getCombiningClass »](intlchar.getcombiningclass.md)
 
 - [PHP Manual](index.md)

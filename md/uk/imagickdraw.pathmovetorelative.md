@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.md)
+- [« ImagickDraw::pathMoveToAbsolute](imagickdraw.pathmovetoabsolute.md)
 - [ImagickDraw::pathStart »](imagickdraw.pathstart.md)
 
 - [PHP Manual](index.md)

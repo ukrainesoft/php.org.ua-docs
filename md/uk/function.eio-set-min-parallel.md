@@ -1,5 +1,5 @@
 - [« eio_set_max_poll_time](function.eio-set-max-poll-time.md)
-- [eio_stat »] (function.eio-stat.md)
+- [eio_stat »](function.eio-stat.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

@@ -1,5 +1,5 @@
 - [« Установка](sqlite3.installation.md)
-- [Типи ресурсів»] (sqlite3.resources.md)
+- [Типи ресурсів»](sqlite3.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](sqlite3.setup.md)

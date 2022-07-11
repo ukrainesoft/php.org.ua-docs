@@ -1,5 +1,5 @@
 - [«implode](function.implode.md)
-- [lcfirst »] (function.lcfirst.md)
+- [lcfirst »](function.lcfirst.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

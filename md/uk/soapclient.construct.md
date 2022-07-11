@@ -14,9 +14,8 @@ SoapClient::\_\_construct - Конструктор класу SoapClient
 ### Опис
 
 public **SoapClient::\_\_construct**(?string `$wsdl`, array `$options` u003d
-\[\])
-
-Створює об'єкт [SoapClient](class.soapclient.md) для підключення до
+[])
+ Створює об'єкт [SoapClient](class.soapclient.md) для підключення до
 служби SOAP.
 
 ### Список параметрів
@@ -30,9 +29,7 @@ URI WSDL-файлу, який описує сервіс, який викорис
 >
 > За замовчуванням WSDL-файл кешуватиметься для підвищення
 > продуктивність. Щоб вимкнути або налаштувати кешування,
-> дивіться розділ [Опції налаштування
-> SOAP](soap.configuration.md#soap.configuration.list) та [параметр
-> `cache_wsdl`](soapclient.construct.md#soapclient.construct.options.cache-wsdl).
+> дивіться розділ [Опції налаштування > SOAP](soap.configuration.md#soap.configuration.list) та [параметр > `cache_wsdl`](soapclient.construct.md#soapclient.construct.options.cache-wsdl).
 
 `options`
 Асоціативний масив, який визначає додаткові параметри для клієнта
@@ -243,14 +240,11 @@ WSDL як ключі та імена класів PHP як значення.
 значення **`PHP_VERSION`**.
 
 `stream_context` resource
-Контекст [stream context] (context.md) створений за допомогою функції
+Контекст [stream context](context.md) створений за допомогою функції
 [stream_context_create()](function.stream-context-create.md), яка
 дає змогу встановити додаткові параметри.
 
-Контекст може містити [параметри контексту
-сокета](context.socket.md), [параметри контексту
-SSL](context.ssl.md), а також вибрані [опції контексту
-HTTP](context.http.md): `content_type`, `header`, `max_redirects`,
+Контекст може містити [параметри контексту сокета](context.socket.md), [параметри контексту SSL](context.ssl.md), а також вибрані [опції контексту HTTP](context.http.md): `content_type`, `header`, `max_redirects`,
 `protocol_version`, та `user_agent`.
 
 Зверніть увагу, що наступні заголовки HTTP генеруються
@@ -277,8 +271,7 @@ HTTP](context.http.md): `content_type`, `header`, `max_redirects`,
 демонстрації дивіться розділ із прикладами.
 
 **`SOAP_USE_XSI_ARRAY_TYPE`**
-Якщо [параметру
-`use`](soapclient.construct.md#soapclient.construct.options.use) або
+Якщо [параметру `use`](soapclient.construct.md#soapclient.construct.options.use) або
 властивості WSDL передано значення `encoded`, масиви примусово
 використовують тип `SOAP-ENC: Array`, а не специфічний для схеми.
 

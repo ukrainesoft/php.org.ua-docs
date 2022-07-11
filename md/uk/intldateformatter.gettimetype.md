@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::getPattern](intldateformatter.getpattern.md)
-- [IntlDateFormatter::getTimeZoneId
-»](intldateformatter.gettimezoneid.md)
+- [IntlDateFormatter::getTimeZoneId »](intldateformatter.gettimezoneid.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)
@@ -35,8 +34,7 @@ public **IntlDateFormatter::getTimeType**(): int\|false
 
 ### Значення, що повертаються
 
-Значення поточного [типу
-дати](class.intldateformatter.md#intl.intldateformatter-constants)
+Значення поточного [типу дати](class.intldateformatter.md#intl.intldateformatter-constants)
 засоби форматування або **`false`** у разі виникнення помилки.
 
 ### Приклади

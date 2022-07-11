@@ -1,5 +1,4 @@
-- [«
-UI\Exception\RuntimeException](class.ui-exception-runtimeexception.md)
+- [« UI\Exception\RuntimeException](class.ui-exception-runtimeexception.md)
 - [Загальна інформація »](faq.general.md)
 
 - [PHP Manual](index.md)

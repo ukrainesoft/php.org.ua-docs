@@ -1,7 +1,5 @@
-- [«
-MultipleIterator::countIterators](multipleiterator.countiterators.md)
-- [MultipleIterator::detachIterator
-»](multipleiterator.detachiterator.md)
+- [« MultipleIterator::countIterators](multipleiterator.countiterators.md)
+- [MultipleIterator::detachIterator »](multipleiterator.detachiterator.md)
 
 - [PHP Manual](index.md)
 - [MultipleIterator](class.multipleiterator.md)

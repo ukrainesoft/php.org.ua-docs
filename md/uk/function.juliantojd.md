@@ -1,5 +1,5 @@
 - [«jewishtojd](function.jewishtojd.md)
-- [unixtojd »] (function.unixtojd.md)
+- [unixtojd »](function.unixtojd.md)
 
 - [PHP Manual](index.md)
 - [Календарь](ref.calendar.md)

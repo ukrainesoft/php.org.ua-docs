@@ -1,5 +1,5 @@
 - [« Встановлення через PECL](rpminfo.installation.md)
-- [Типи ресурсів»] (rpminfo.resources.md)
+- [Типи ресурсів»](rpminfo.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](rpminfo.setup.md)

@@ -1,5 +1,5 @@
 - [«hexdec](function.hexdec.md)
-- [intdiv »] (function.intdiv.md)
+- [intdiv »](function.intdiv.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

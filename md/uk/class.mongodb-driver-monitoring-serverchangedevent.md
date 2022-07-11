@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.md)
-- [MongoDB\Driver\Monitoring\ServerChangedEvent::getHost
-»](mongodb-driver-monitoring-serverchangedevent.gethost.md)
+- [« MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId](mongodb-driver-monitoring-commandsucceededevent.getserviceid.md)
+- [MongoDB\Driver\Monitoring\ServerChangedEvent::getHost »](mongodb-driver-monitoring-serverchangedevent.gethost.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring](mongodb.monitoring.md)

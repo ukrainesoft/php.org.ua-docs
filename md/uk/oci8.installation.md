@@ -52,8 +52,7 @@ pecl install oci8
 `instantclient,/Users/myname/Downloads/instantclient_19_8`.
 
 - Помилка `oci8_dtrace_gen.h: No such file or directory`
-означає, що PHP було зібрано з підтримкою [DTrace Dynamic
-Tracing] (features.dtrace.md). У такому разі встановлюйте так:
+означає, що PHP було зібрано з підтримкою [DTrace Dynamic Tracing](features.dtrace.md). У такому разі встановлюйте так:
 
 $ export PHP_DTRACEu003dyes
 $ pecl install oci8
@@ -94,8 +93,7 @@ or
 make install
 
 - Помилка `oci8_dtrace_gen.h: No such file or directory` означає,
-що PHP був зібраний за допомогою [DTrace Dynamic
-Tracing] (features.dtrace.md). У такому разі перезапустіть
+що PHP був зібраний за допомогою [DTrace Dynamic Tracing](features.dtrace.md). У такому разі перезапустіть
 `configure` та `make`, попередньо встановивши змінну оточення:
 
 $ export PHP_DTRACEu003dyes
@@ -116,8 +114,7 @@ extensionu003doci8.so
 
 Зберіть OCI8 за допомогою однієї з наведених нижче опцій.
 
-- При використанні безкоштовних бібліотек [» Oracle Instant
-Client](https://www.oracle.com/database/technologies/instant-client.md):
+- При використанні безкоштовних бібліотек [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md):
 
 ./configure --with-oci8u003dshared,instantclient,/шлях/до/instant/client/lib
 

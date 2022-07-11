@@ -1,6 +1,5 @@
 - [« openssl_error_string](function.openssl-error-string.md)
-- [openssl_get_cert_locations
-»](function.openssl-get-cert-locations.md)
+- [openssl_get_cert_locations »](function.openssl-get-cert-locations.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

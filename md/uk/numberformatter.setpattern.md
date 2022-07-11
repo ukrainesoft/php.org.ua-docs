@@ -34,8 +34,7 @@ public **NumberFormatter::setPattern**(string `$pattern`): bool
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `pattern`
-Шаблон у синтаксисі, описаному в [» документації ICU
-DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details).
+Шаблон у синтаксисі, описаному в [» документації ICU DecimalFormat](http://www.icu-project.org/apiref/icu4c/classDecimalFormat.md#details).
 
 ### Значення, що повертаються
 

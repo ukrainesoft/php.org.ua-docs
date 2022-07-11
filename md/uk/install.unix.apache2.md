@@ -14,8 +14,7 @@
 Ми не рекомендуємо використовувати потоковий MPM у промисловому середовищі разом
 з Apache 2. Натомість, використовуйте prefork MPM, використовуваний по
 замовчуванням в Apache 2.0 та 2.2. Детальну інформацію з цього питання ви
-можете знайти у відповідному розділі FAQ [Apache2 та потоковий
-MPM](faq.installation.md#faq.installation.apache2)
+можете знайти у відповідному розділі FAQ [Apache2 та потоковий MPM](faq.installation.md#faq.installation.apache2)
 
 Найавторитетнішим джерелом інформації по Apache 2.x є
 [» документація Apache](http://httpd.apache.org/docs/current/). Більше
@@ -25,8 +24,7 @@ MPM](faq.installation.md#faq.installation.apache2)
 [» сторінці завантаження Apache](http://httpd.apache.org/), а адреса
 відповідної версії PHP було зазначено вище. Це короткий посібник
 визначає лише базову установку Apache 2.x і PHP. Для отримання більш
-детальну інформацію прочитайте [» документацію
-Apache](http://httpd.apache.org/docs/current/). В інструкції нижче
+детальну інформацію прочитайте [» документацію Apache](http://httpd.apache.org/docs/current/). В інструкції нижче
 опущені номери версій - замініть 'NN' на номер, що відповідає
 завантаженої вами версії Apache.
 
@@ -191,15 +189,13 @@ service httpd restart
 --with-mpmu003dworker
 
 Не слід бездумно використовувати це налаштування, використовуйте його тільки
-якщо ви знаєте всі наслідки цього рішення. Документація Apache з
-[» модулям MPM](http://httpd.apache.org/docs/current/mpm.md)
+якщо ви знаєте всі наслідки цього рішення. Документація Apache з [» модулям MPM](http://httpd.apache.org/docs/current/mpm.md)
 значно глибше розкриває цю тему.
 
 > **Примітка**:
 >
 > Якщо ви хочете використовувати залежний контент (content negotiation),
-> прочитайте [Apache MultiViews
-> FAQ](faq.installation.md#faq.installation.apache.multiviews).
+> прочитайте [Apache MultiViews > FAQ](faq.installation.md#faq.installation.apache.multiviews).
 
 > **Примітка**:
 >

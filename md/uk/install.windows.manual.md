@@ -1,5 +1,4 @@
-- [« Рекомендована конфігурація для систем
-Windows](install.windows.recommended.md)
+- [« Рекомендована конфігурація для систем Windows](install.windows.recommended.md)
 - [Складання з вихідних кодів »](install.windows.building.md)
 
 - [PHP Manual](index.md)
@@ -16,8 +15,7 @@ IIS є вбудованим у Windows. На сервері Windows викори
 Manager додавання ролі IIS. Переконайтеся, що функція ролі CGI
 увімкнено. На робочому столі Windows використовуйте панель "Встановлення та
 видалення програм" для додавання IIS. У документації Microsoft є
-[» детальні
-інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(vu003dvs.80)).
+[» детальні інструкції](https://docs.microsoft.com/en-us/previous-versions/ms181052(vu003dvs.80)).
 Для настільних веб-додатків та веб-розробки також можна використовувати
 IIS/Express або робочий стіл PHP.
 

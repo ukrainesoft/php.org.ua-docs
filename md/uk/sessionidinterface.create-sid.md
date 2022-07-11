@@ -1,6 +1,5 @@
 - [« SessionIdInterface](class.sessionidinterface.md)
-- [SessionUpdateTimestampHandlerInterface
-»](class.sessionupdatetimestamphandlerinterface.md)
+- [SessionUpdateTimestampHandlerInterface »](class.sessionupdatetimestamphandlerinterface.md)
 
 - [PHP Manual](index.md)
 - [SessionIdInterface](class.sessionidinterface.md)

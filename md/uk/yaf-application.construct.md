@@ -1,5 +1,4 @@
-- [«
-Yaf_Application::clearLastError](yaf-application.clearlasterror.md)
+- [« Yaf_Application::clearLastError](yaf-application.clearlasterror.md)
 - [Yaf_Application::\_\_destruct »](yaf-application.destruct.md)
 
 - [PHP Manual](index.md)

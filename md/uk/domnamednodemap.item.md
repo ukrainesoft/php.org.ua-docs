@@ -1,5 +1,4 @@
-- [«
-DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md)
+- [« DOMNamedNodeMap::getNamedItemNS](domnamednodemap.getnameditemns.md)
 - [DOMNode »](class.domnode.md)
 
 - [PHP Manual](index.md)

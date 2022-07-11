@@ -1,5 +1,4 @@
-- [«
-xmlrpc_server_add_introspection_data](function.xmlrpc-server-add-introspection-data.md)
+- [« xmlrpc_server_add_introspection_data](function.xmlrpc-server-add-introspection-data.md)
 - [xmlrpc_server_create »](function.xmlrpc-server-create.md)
 
 - [PHP Manual](index.md)

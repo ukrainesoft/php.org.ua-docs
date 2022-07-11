@@ -1,7 +1,5 @@
-- [«
-EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md)
-- [EventHttpRequest::getResponseCode
-»](eventhttprequest.getresponsecode.md)
+- [« EventHttpRequest::getOutputBuffer](eventhttprequest.getoutputbuffer.md)
+- [EventHttpRequest::getResponseCode »](eventhttprequest.getresponsecode.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

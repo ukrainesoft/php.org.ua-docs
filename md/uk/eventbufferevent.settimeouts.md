@@ -1,6 +1,5 @@
 - [« EventBufferEvent::setPriority](eventbufferevent.setpriority.md)
-- [EventBufferEvent::setWatermark
-»](eventbufferevent.setwatermark.md)
+- [EventBufferEvent::setWatermark »](eventbufferevent.setwatermark.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

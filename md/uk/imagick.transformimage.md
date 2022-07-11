@@ -1,6 +1,5 @@
 - [« Imagick::\_\_toString](imagick.tostring.md)
-- [Imagick::transformImageColorspace
-»](imagick.transformimagecolorspace.md)
+- [Imagick::transformImageColorspace »](imagick.transformimagecolorspace.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

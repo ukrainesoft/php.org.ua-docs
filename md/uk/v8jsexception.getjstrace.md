@@ -1,5 +1,4 @@
-- [«
-V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md)
+- [« V8JsException::getJsSourceLine](v8jsexception.getjssourceline.md)
 - [Yaml »](book.yaml.md)
 
 - [PHP Manual](index.md)

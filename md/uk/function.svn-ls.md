@@ -1,5 +1,5 @@
 - [« svn_log](function.svn-log.md)
-- [svn_mkdir »] (function.svn-mkdir.md)
+- [svn_mkdir »](function.svn-mkdir.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)
@@ -108,5 +108,4 @@ PHP без попередження. Використовуйте цю функ�
 
 ### Дивіться також
 
-- [» SVN-документація з svn
-list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)
+- [» SVN-документація з svn list](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.list.md)

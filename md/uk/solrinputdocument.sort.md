@@ -1,5 +1,4 @@
-- [«
-SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md)
+- [« SolrInputDocument::setFieldBoost](solrinputdocument.setfieldboost.md)
 - [SolrInputDocument::toArray »](solrinputdocument.toarray.md)
 
 - [PHP Manual](index.md)

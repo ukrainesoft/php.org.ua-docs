@@ -1,4 +1,4 @@
-- [« Тихоокеанський] (timezones.pacific.md)
+- [« Тихоокеанський](timezones.pacific.md)
 - [HRTime »](book.hrtime.md)
 
 - [PHP Manual](index.md)

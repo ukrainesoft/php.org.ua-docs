@@ -1,5 +1,5 @@
 - [« Встановлення](fdf.installation.md)
-- [Типи ресурсів»] (fdf.resources.md)
+- [Типи ресурсів»](fdf.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](fdf.setup.md)

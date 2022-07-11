@@ -1,6 +1,5 @@
 - [« sodium_crypto_box](function.sodium-crypto-box.md)
-- [sodium_crypto_core_ristretto255_from_hash
-»](function.sodium-crypto-core-ristretto255-from-hash.md)
+- [sodium_crypto_core_ristretto255_from_hash »](function.sodium-crypto-core-ristretto255-from-hash.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

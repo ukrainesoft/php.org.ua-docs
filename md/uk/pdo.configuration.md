@@ -1,5 +1,5 @@
 - [« Встановлення](pdo.installation.md)
-- [Типи ресурсів»] (pdo.resources.md)
+- [Типи ресурсів»](pdo.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](pdo.setup.md)

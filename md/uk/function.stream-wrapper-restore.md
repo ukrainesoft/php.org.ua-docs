@@ -1,6 +1,5 @@
 - [«stream_wrapper_register](function.stream-wrapper-register.md)
-- [stream_wrapper_unregister
-»](function.stream-wrapper-unregister.md)
+- [stream_wrapper_unregister »](function.stream-wrapper-unregister.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

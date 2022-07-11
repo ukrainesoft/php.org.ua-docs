@@ -1,7 +1,5 @@
-- [«
-ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md)
-- [ReflectionZendExtension::export
-»](reflectionzendextension.export.md)
+- [« ReflectionZendExtension::\_\_clone](reflectionzendextension.clone.md)
+- [ReflectionZendExtension::export »](reflectionzendextension.export.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

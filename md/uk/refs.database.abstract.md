@@ -23,10 +23,8 @@
 - [Встановлення та налаштування](pdo.setup.md)
 - [Предвизначені константи](pdo.constants.md)
 - [Підключення та керування підключеннями](pdo.connections.md)
-- [Транзакції та автоматична фіксація
-змін](pdo.transactions.md)
-- [Підготовлені запити та збережені
-процедури](pdo.prepared-statements.md)
+- [Транзакції та автоматична фіксація змін](pdo.transactions.md)
+- [Підготовлені запити та збережені процедури](pdo.prepared-statements.md)
 - [Помилки та їх обробка](pdo.error-handling.md)
 - [Великі об'єкти (LOB)](pdo.lobs.md)
 - [PDO](class.pdo.md) - Клас PDO

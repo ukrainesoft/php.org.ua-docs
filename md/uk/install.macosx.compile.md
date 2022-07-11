@@ -1,5 +1,4 @@
-- [« Використання вбудованого PHP до macOS
-Monterey](install.macosx.bundled.md)
+- [« Використання вбудованого PHP до macOS Monterey](install.macosx.bundled.md)
 - [Встановлення у системах Windows »](install.windows.md)
 
 - [PHP Manual](index.md)
@@ -8,5 +7,4 @@ Monterey](install.macosx.bundled.md)
 
 ## Компілювання PHP на macOS
 
-Для компіляції PHP на macOS прочитайте [Посібник зі встановлення на
-Unix] (install.unix.md).
+Для компіляції PHP на macOS прочитайте [Посібник зі встановлення на Unix](install.unix.md).

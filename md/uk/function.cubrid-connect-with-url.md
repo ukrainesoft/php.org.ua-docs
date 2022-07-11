@@ -30,11 +30,11 @@ bool `$new_link` u003d **`false`**
 використовувати з'єднання "PUBLIC".
 
 \<url\> ::u003d
-CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:\[?\<properties\>\]
+CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:[?\<properties\>]
 
-\<properties\> ::u003d \<property\> \[&\<property\>\]
+\<properties\> ::u003d \<property\> [&\<property\>]
 
-\<properties\> ::u003d alhostsu003d\<alternative_hosts\>\[ &rctimeu003d\<time\>\]
+\<properties\> ::u003d alhostsu003d\<alternative_hosts\>[ &rctimeu003d\<time\>]
 
 \<properties\> ::u003d login_timeoutu003d\<milli_sec\>
 
@@ -43,7 +43,7 @@ CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:\[?\<properties\>\]
 \<properties\> ::u003d disconnect_on_query_timeoutu003dtrue\|false
 
 \<alternative_hosts\> ::u003d \<standby_broker1_host\>:\<port\>
-\[,\<standby_broker2_host\>:\<port\>\]
+[,\<standby_broker2_host\>:\<port\>]
 
 \<host\> :u003d HOSTNAME \| IP_ADDR
 

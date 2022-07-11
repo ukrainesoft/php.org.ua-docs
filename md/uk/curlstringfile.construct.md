@@ -1,5 +1,5 @@
 - [«CURLStringFile](class.curlstringfile.md)
-- [Event »] (book.event.md)
+- [Event »](book.event.md)
 
 - [PHP Manual](index.md)
 - [CURLStringFile](class.curlstringfile.md)

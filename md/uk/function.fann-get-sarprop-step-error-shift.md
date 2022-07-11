@@ -1,7 +1,5 @@
-- [«
-fann_get_rprop_increase_factor](function.fann-get-rprop-increase-factor.md)
-- [fann_get_sarprop_step_error_threshold_factor
-»](function.fann-get-sarprop-step-error-threshold-factor.md)
+- [« fann_get_rprop_increase_factor](function.fann-get-rprop-increase-factor.md)
+- [fann_get_sarprop_step_error_threshold_factor »](function.fann-get-sarprop-step-error-threshold-factor.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

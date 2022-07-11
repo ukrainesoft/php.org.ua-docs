@@ -15,5 +15,4 @@
 - [Передача за посиланням](language.references.pass.md)
 - [Повернення за посиланням](language.references.return.md)
 - [Скидання змінних-посилань](language.references.unset.md)
-- [Неявне використання механізму
-посилань](language.references.spot.md)
+- [Неявне використання механізму посилань](language.references.spot.md)

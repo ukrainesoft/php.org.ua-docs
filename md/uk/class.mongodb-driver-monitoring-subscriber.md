@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monitoring-sdamsubscriber.topologyopening.md)
 - [MongoDB\Driver\Exception »](mongodb.exceptions.md)
 
 - [PHP Manual](index.md)
@@ -16,7 +15,8 @@ MongoDB\Driver\Monitoring\SDAMSubscriber::topologyOpening](mongodb-driver-monito
 параметра у функціях
 [MongoDB\Driver\Monitoring ddSubscriber()](function.mongodb.driver.monitoring.addsubscriber.md)
 і
-[MongoDB\Driver\MonitoringemoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md),
+[MongoDB\Driver\Monitoring
+emoveSubscriber()](function.mongodb.driver.monitoring.removesubscriber.md),
 і не має реалізовуватися безпосередньо.
 
 ## Огляд інтерфейсів

@@ -1,5 +1,5 @@
 - [« ocierror](function.ocierror.md)
-- [ocifetch »] (function.ocifetch.md)
+- [ocifetch »](function.ocifetch.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

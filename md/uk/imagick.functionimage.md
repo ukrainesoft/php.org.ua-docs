@@ -20,8 +20,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
 псевдозображення.
 
 Дивіться також [»ImageMagick v6 Examples - Image Transformations —
-Function, Multi-Argument
-Evaluate](http://www.imagemagick.org/Usage/transform/#function)
+Function, Multi-Argument Evaluate](http://www.imagemagick.org/Usage/transform/#function)
 
 Цей метод доступний, якщо Imagick був скомпільований з версією
 ImageMagick 6.4.9 або старше.
@@ -29,8 +28,7 @@ ImageMagick 6.4.9 або старше.
 ### Список параметрів
 
 `function`
-Зверніться до списку [констант
-FUNCTION](imagick.constants.md#imagick.constants.function).
+Зверніться до списку [констант FUNCTION](imagick.constants.md#imagick.constants.function).
 
 `arguments`
 Масив аргументів передачі у цю функцію.
@@ -51,8 +49,7 @@ FUNCTION](imagick.constants.md#imagick.constants.function).
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Результат створення синусоїдального
-градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_sinusoidal.png)
+![Результат створення синусоїдального градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_sinusoidal.png)
 
 **Приклад #2 Створення градієнта з полінома (4x^2 - 4x + 1)**
 
@@ -60,8 +57,7 @@ FUNCTION](imagick.constants.md#imagick.constants.function).
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Результат створення поліноміального
-градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_polynomial.png)
+![Результат створення поліноміального градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_polynomial.png)
 
 **Приклад #3 Створення складного градієнта з полінома (4x^2 - 4x^2 + 1),
 модульованого синусоїдальним градієнтом**
@@ -70,5 +66,4 @@ FUNCTION](imagick.constants.md#imagick.constants.function).
 
 Результатом виконання цього прикладу буде щось подібне:
 
-![Результат створення складного
-градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_multiplied.png)
+![Результат створення складного градієнта](images/c0d23d2d6769e53e24a1b3136c064577-functionImage_multiplied.png)

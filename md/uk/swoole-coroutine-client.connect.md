@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::close](swoole-coroutine-client.close.md)
-- [Swoole\Coroutine\Client::\_\_construct
-»](swoole-coroutine-client.construct.md)
+- [« Swoole\Coroutine\Client::close](swoole-coroutine-client.close.md)
+- [Swoole\Coroutine\Client::\_\_construct »](swoole-coroutine-client.construct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

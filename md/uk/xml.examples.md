@@ -11,5 +11,4 @@
 
 - [Приклад структури елемента XML](example.xml-structure.md)
 - [Приклад відображення тегів XML](example.xml-map-tags.md)
-- [Приклад використання зовнішніх сутностей
-XML](example.xml-external-entity.md)
+- [Приклад використання зовнішніх сутностей XML](example.xml-external-entity.md)

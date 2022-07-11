@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_aead_chacha20poly1305_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
-- [sodium_crypto_aead_chacha20poly1305_ietf_encrypt
-»](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
+- [« sodium_crypto_aead_chacha20poly1305_encrypt](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
+- [sodium_crypto_aead_chacha20poly1305_ietf_encrypt »](function.sodium-crypto-aead-chacha20poly1305-ietf-encrypt.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

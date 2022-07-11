@@ -15,8 +15,7 @@
 Об'єкт [libXMLError](class.libxmlerror.md), що повертається
 [libxml_get_errors()](function.libxml-get-errors.md), містить
 кілька властивостей, у тому числі
-[повідомлення](class.libxmlerror.md#libxmlerror.props.message), [номер
-рядки](class.libxmlerror.md#libxmlerror.props.line) та
+[повідомлення](class.libxmlerror.md#libxmlerror.props.message), [номер рядки](class.libxmlerror.md#libxmlerror.props.line) та
 [колонку](class.libxmlerror.md#libxmlerror.props.column) (позицію)
 цієї помилки.
 

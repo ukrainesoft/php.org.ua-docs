@@ -20,19 +20,15 @@ SQL Server (починаючи з версії SQL Server 2005) та SQL Azure.
 записи у файл `php.ini`. Завантажувана копія модуля PDO_SQLSRV включає
 себе вісім файлів драйверів, чотири з них для підтримки PDO.
 
-Версія драйвера, що найчастіше використовується, доступна тут: [» Завантаження
-SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx).
-Вихідний код драйвера розміщено в [» публічному
-репозиторії](https://github.com/microsoft/msphpsql).
+Версія драйвера, що найчастіше використовується, доступна тут: [» Завантаження SQLSRV](http://msdn.microsoft.com/en-us/sqlserver/ff657782.aspx).
+Вихідний код драйвера розміщено в [» публічному репозиторії](https://github.com/microsoft/msphpsql).
 
 За детальною інформацією про системні вимоги зверніться до розділу
-[" Системні вимоги
-SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx).
+[" Системні вимоги SQLSRV](http://msdn.microsoft.com/en-us/library/cc296170.aspx).
 
 Модуль PDO_SQLSRV може використовуватися з PHP лише у Windows. Для
 Linux використовуйте [ODBC](ref.pdo-odbc.md) та [» Microsoft's SQL Server
-ODBC Driver для
-Linux](http://www.microsoft.com/download/en/details.aspx?idu003d28160).
+ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?idu003d28160).
 
 ## Зумовлені константи
 
@@ -110,8 +106,7 @@ PDOStatement::setAttribute, PDO::setAttribute та PDO::prepare.
 Показує, що запит має бути негайно виконаний, без підготовки
 вирази. Константа може бути передана функції PDO::setAttribute і
 PDO::prepare. За подробицями зверніться до розділу документації
-[» Негайне виконання виразів та виконання підготовлених
-виразів](http://msdn.microsoft.com/en-us/library/ff754356.aspx).
+[» Негайне виконання виразів та виконання підготовлених виразів](http://msdn.microsoft.com/en-us/library/ff754356.aspx).
 
 ## Зміст
 

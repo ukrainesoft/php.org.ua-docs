@@ -1,7 +1,5 @@
-- [«
-SolrException::getInternalInfo](solrexception.getinternalinfo.md)
-- [SolrClientException::getInternalInfo
-»](solrclientexception.getinternalinfo.md)
+- [« SolrException::getInternalInfo](solrexception.getinternalinfo.md)
+- [SolrClientException::getInternalInfo »](solrclientexception.getinternalinfo.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)
@@ -33,9 +31,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 protected int `$sourceline`;
 

@@ -1,6 +1,5 @@
 - [« Swoole\Http\Client::execute](swoole-http-client.execute.md)
-- [Swoole\Http\Client::isConnected
-»](swoole-http-client.isconnected.md)
+- [Swoole\Http\Client::isConnected »](swoole-http-client.isconnected.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Client](class.swoole-http-client.md)

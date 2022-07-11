@@ -9,7 +9,7 @@
 
 PHP надає такий спосіб оголошення об'єктів, який дає
 можливість пройти по списку елементів даного об'єкта, наприклад,
-за допомогою оператора [foreach] (control-structures.foreach.md). за
+за допомогою оператора [foreach](control-structures.foreach.md). за
 замовчуванням, у цьому обході (ітерації) братимуть участь всі
 [видимые](language.oop5.visibility.md) властивості об'єкта.
 
@@ -34,7 +34,7 @@ var3 u003d> значення 3
 protected u003d> захищена змінна
 private u003d> закрита змінна
 
-Як показує результат, [foreach] (control-structures.foreach.md)
+Як показує результат, [foreach](control-structures.foreach.md)
 проітерував усі доступні та належать об'єкту
 [видимі](language.oop5.visibility.md) властивості.
 

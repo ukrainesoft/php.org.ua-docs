@@ -32,8 +32,7 @@ u003d **`EventBuffer::EOL_ANY`** ):
 Start search position.
 
 `eol_style`
-Один з [EventBuffer:EOL\_\*
-констант](class.eventbuffer.md#eventbuffer.constants) .
+Один з [EventBuffer:EOL\_\* констант](class.eventbuffer.md#eventbuffer.constants) .
 
 ### Значення, що повертаються
 
@@ -44,9 +43,7 @@ Start search position.
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев
-тип](language.types.boolean.md). Використовуйте [оператор
-u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Дивіться також

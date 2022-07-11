@@ -2,7 +2,7 @@
 - [Про постійні (persistent) події »](event.persistence.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Прапори подій
 
 # Прапори подій
@@ -24,5 +24,4 @@
 аргумент "$what" callback-функції, якщо відбулася подія цього типу.
 
 Також почитайте [» Fast portable non-blocking network programming with
-Libevent, Working with events, Event
-flags](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_the_event_flags)
+Libevent, Working with events, Event flags](http://www.wangafu.net/~nickm/libevent-book/Ref4_event.md#_the_event_flags)

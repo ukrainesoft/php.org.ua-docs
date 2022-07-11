@@ -7,7 +7,7 @@
 
 # swoole_event_del
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_event_del — Видалити всі callback-функції сокету
 

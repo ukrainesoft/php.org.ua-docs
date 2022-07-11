@@ -7,7 +7,7 @@
 
 #ftp_mlsd
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 ftp_mlsd — Повертає список файлів у заданій директорії
 
@@ -32,112 +32,112 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_mlsd()****
 
-`<?php// встановити основне з'єднання$ftp u003d ftp_connect($ftp_server);// авторизовуватися на сервері, використовуючи ім'я користувача і пароль$login_result u003d ftp_login$$$ $contents u003d ftp_mlsd($ftp, ".");// виведення $contentsvar_dump($contents);?> `
+`<?php// встановити основне з'єднання$ftp = ftp_connect($ftp_server);// авторизовуватися на сервері, використовуючи ім'я користувача і пароль$login_result = ftp_login$$$ $contents = ftp_mlsd($ftp, ".");// виведення $contentsvar_dump($contents);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(5) {
-[0]u003d>
+[0]=>
 array(8) {
-["name"]u003d>
+["name"]=>
 string(1) "."
-["modify"]u003d>
+["modify"]=>
 string(14) "20171212154511"
-["perm"]u003d>
+["perm"]=>
 string(7) "flcdmpe"
-["type"]u003d>
+["type"]=>
 string(4) "cdir"
-["unique"]u003d>
+["unique"]=>
 string(11) "811U5740002"
-["UNIX.group"]u003d>
+["UNIX.group"]=>
 string(2) "33"
-["UNIX.mode"]u003d>
+["UNIX.mode"]=>
 string(4) "0755"
-["UNIX.owner"]u003d>
+["UNIX.owner"]=>
 string(2) "33"
 }
-[1]u003d>
+[1]=>
 array(8) {
-["name"]u003d>
+["name"]=>
 string(2) ".."
-["modify"]u003d>
+["modify"]=>
 string(14) "20171212154511"
-["perm"]u003d>
+["perm"]=>
 string(7) "flcdmpe"
-["type"]u003d>
+["type"]=>
 string(4) "pdir"
-["unique"]u003d>
+["unique"]=>
 string(11) "811U5740002"
-["UNIX.group"]u003d>
+["UNIX.group"]=>
 string(2) "33"
-["UNIX.mode"]u003d>
+["UNIX.mode"]=>
 string(4) "0755"
-["UNIX.owner"]u003d>
+["UNIX.owner"]=>
 string(2) "33"
 }
-[2]u003d>
+[2]=>
 array(8) {
-["name"]u003d>
+["name"]=>
 string(11) "public_html"
-["modify"]u003d>
+["modify"]=>
 string(14) "20171211171525"
-["perm"]u003d>
+["perm"]=>
 string(7) "flcdmpe"
-["type"]u003d>
+["type"]=>
 string(3) "dir"
-["unique"]u003d>
+["unique"]=>
 string(11) "811U5740525"
-["UNIX.group"]u003d>
+["UNIX.group"]=>
 string(2) "33"
-["UNIX.mode"]u003d>
+["UNIX.mode"]=>
 string(4) "0755"
-["UNIX.owner"]u003d>
+["UNIX.owner"]=>
 string(2) "33"
 }
-[3]u003d>
+[3]=>
 array(8) {
-["name"]u003d>
+["name"]=>
 string(10) "public_ftp"
-["modify"]u003d>
+["modify"]=>
 string(14) "20171211174536"
-["perm"]u003d>
+["perm"]=>
 string(7) "flcdmpe"
-["type"]u003d>
+["type"]=>
 string(3) "dir"
-["unique"]u003d>
+["unique"]=>
 string(11) "811U57405EE"
-["UNIX.group"]u003d>
+["UNIX.group"]=>
 string(2) "33"
-["UNIX.mode"]u003d>
+["UNIX.mode"]=>
 string(4) "0755"
-["UNIX.owner"]u003d>
+["UNIX.owner"]=>
 string(2) "33"
 }
-[4]u003d>
+[4]=>
 array(8) {
-["name"]u003d>
+["name"]=>
 string(3) "www"
-["modify"]u003d>
+["modify"]=>
 string(14) "www"
-["perm"]u003d>
+["perm"]=>
 string(7) "flcdmpe"
-["type"]u003d>
+["type"]=>
 string(3) "dir"
-["unique"]u003d>
+["unique"]=>
 string(11) "811U5740780"
-["UNIX.group"]u003d>
+["UNIX.group"]=>
 string(2) "33"
-["UNIX.mode"]u003d>
+["UNIX.mode"]=>
 string(4) "0755"
-["UNIX.owner"]u003d>
+["UNIX.owner"]=>
 string(2) "33"
 }
 }

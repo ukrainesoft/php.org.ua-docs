@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Regex::getFlags
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Regex::getFlags — Повертає прапори Regex
 
@@ -32,7 +32,7 @@ final public **MongoDB\BSON\Regex::getFlags**(): string
 
 **Приклад #1 Приклад використання **MongoDB\BSON\Regex::getFlags()****
 
-` <?php$regex u003d new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getFlags());?> `
+` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getFlags());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

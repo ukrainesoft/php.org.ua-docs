@@ -7,7 +7,7 @@
 
 #oci_fetch
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_fetch — Вибирає наступний рядок із результату в буфер
 
@@ -41,14 +41,14 @@ oci_fetch — Вибирає наступний рядок із результа
 **Приклад #1 Приклад використання **oci_fetch()** з певними
 змінними**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql u003d 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti змінних МОВИН бути зроблено до запускаoci_define_by_name($stid, 'LOCATION_ID', $locid);oci_define_by_name($stid, 'CITY', $city);oci_execute| $stid)) {    echo "Ідентифікатор місце $city u003d $locid<br>
-";}// Виведе://  Ідентифікатор місце Roma u003d 1000//   Ідентифікатор місцеположення Venice u003d 1100oci_free_statement($stid);oci_close($n)
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti змінних МОВИН бути зроблено до запускаoci_define_by_name($stid, 'LOCATION_ID', $locid);oci_define_by_name($stid, 'CITY', $city);oci_execute| $stid)) {    echo "Ідентифікатор місце $city = $locid<br>
+";}// Виведе://  Ідентифікатор місце Roma = 1000//   Ідентифікатор місцеположення Venice = 1100oci_free_statement($stid);oci_close($n)
 
 **Приклад #2 Приклад використання **oci_fetch()** з
 [oci_result()](function.oci-result.md)**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql u003d 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti;$sti stid);while(oci_fetch($stid)) {    echo oci_result($stid, 'LOCATION_ID') . " u003d "; echo oci_result($stid, 'CITY') . "<br>
-";}// Виведе://  1000 u003d Roma//   1100 u003d Veniceoci_free_statement($stid);oci_close($conn);?> `
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti;$sti stid);while(oci_fetch($stid)) {    echo oci_result($stid, 'LOCATION_ID') . " = "; echo oci_result($stid, 'CITY') . "<br>
+";}// Виведе://  1000 = Roma//   1100 = Veniceoci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки
 

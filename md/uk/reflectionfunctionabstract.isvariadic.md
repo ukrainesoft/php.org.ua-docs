@@ -8,7 +8,7 @@
 
 # ReflectionFunctionAbstract::isVariadic
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isVariadic — Перевіряє, чи є функція
 функцією зі змінною кількістю аргументів

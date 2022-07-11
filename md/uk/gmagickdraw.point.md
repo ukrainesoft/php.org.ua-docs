@@ -7,7 +7,7 @@
 
 # GmagickDraw::point
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::point — Малює точку
 

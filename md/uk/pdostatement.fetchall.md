@@ -7,23 +7,23 @@
 
 # PDOStatement::fetchAll
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDOStatement::fetchAll — Вибирає рядки, що залишилися, з набору
 результатів
 
 ### Опис
 
-public **PDOStatement::fetchAll**(int `$mode` u003d PDO::FETCH_DEFAULT):
+public **PDOStatement::fetchAll**(int `$mode` = PDO::FETCH_DEFAULT):
 array
 
-public **PDOStatement::fetchAll**(int `$mode` u003d PDO::FETCH_COLUMN, int
+public **PDOStatement::fetchAll**(int `$mode` = PDO::FETCH_COLUMN, int
 `$column`): array
 
-public **PDOStatement::fetchAll**(int `$mode` u003d PDO::FETCH_CLASS, string
+public **PDOStatement::fetchAll**(int `$mode` = PDO::FETCH_CLASS, string
 `$class`, ?array `$constructorArgs`): array
 
-public **PDOStatement::fetchAll**(int `$mode` u003d PDO::FETCH_FUNC,
+public **PDOStatement::fetchAll**(int `$mode` = PDO::FETCH_FUNC,
 [callable](language.types.callable.md) `$callback`): array
 
 ### Список параметрів
@@ -82,44 +82,44 @@ public **PDOStatement::fetchAll**(int `$mode` u003d PDO::FETCH_FUNC,
 
 ### Список змін
 
-| Версія | Опис                                                                                                       |
-| ------ | ---------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **`false`**. |
+| Версія | Опис                                                                                                     |
+| ------ | -------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Метод тепер завжди повертає масив (array), раніше у разі виникнення помилки могло повертатися **false**. |
 
 ### Приклади
 
 **Приклад #1 Вилучення всіх рядків результуючого набору**, що залишилися**
 
-` <?php$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/* Витягнення всіх залишилися рядків рухнастрок і      :
-");$result u003d $sth->fetchAll();print_r($result);?> `
+` <?php$sth = $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/* Витягнення всіх залишилися рядків рухнастрок і      :
+");$result = $sth->fetchAll();print_r($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Вилучення всіх рядків результуючого набору:
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[name] u003d> apple
-[0] u003d> apple
-[colour] u003d> red
-[1] u003d> red
+[name] => apple
+[0] => apple
+[colour] => red
+[1] => red
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[name] u003d> pear
-[0] u003d> pear
-[colour] u003d> green
-[1] u003d> green
+[name] => pear
+[0] => pear
+[colour] => green
+[1] => green
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[name] u003d> watermelon
-[0] u003d> watermelon
-[colour] u003d> pink
-[1] u003d> pink
+[name] => watermelon
+[0] => watermelon
+[colour] => pink
+[1] => pink
 )
 )
 
@@ -130,18 +130,18 @@ Array
 значення лише одного стовпця, навіть якщо рядки містять значення
 кількох стовпців.
 
-` <?php$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/*¦Вилучення всіх значень першого стовпця */$result u003d chs ::FETCH_COLUMN, 0);var_dump($result);?> `
+` <?php$sth = $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/*¦Вилучення всіх значень першого стовпця */$result = chs ::FETCH_COLUMN, 0);var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array(3)
 (
-[0] u003d>
-string(5) u003d> apple
-[1] u003d>
-string(4) u003d> pear
-[2] u003d>
-string(10) u003d> watermelon
+[0] =>
+string(5) => apple
+[1] =>
+string(4) => pear
+[2] =>
+string(10) => watermelon
 )
 
 **Приклад #3 Угруповання рядків за значеннями одного стовпця**
@@ -152,28 +152,28 @@ string(10) u003d> watermelon
 що містять два різні кольори; в той же час `watermelon` буде масивом,
 що містить лише один колір.
 
-` <?php$insert u003d $dbh->prepare("INSERT INTO fruit(name, colour) VALUES (?, ?)");$insert->execute(array('apple', 'green'));$ insert->execute(array('pear', 'yellow'));$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/* Групуємо записи за значеннями першого стовпця*/var_dump($sth->fetchAll(PDO::FETCH_COLUMN|PDO::FETCH_GROUP));?> `
+` <?php$insert = $dbh->prepare("INSERT INTO fruit(name, colour) VALUES (?, ?)");$insert->execute(array('apple', 'green'));$ insert->execute(array('pear', 'yellow'));$sth = $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();/* Групуємо записи за значеннями першого стовпця*/var_dump($sth->fetchAll(PDO::FETCH_COLUMN|PDO::FETCH_GROUP));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["apple"]u003d>
+["apple"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(5) "green"
-[1]u003d>
+[1]=>
 string(3) "red"
 }
-["pear"]u003d>
+["pear"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(5) "green"
-[1]u003d>
+[1]=>
 string(6) "yellow"
 }
-["watermelon"]u003d>
+["watermelon"]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(5) "pink"
 }
 }
@@ -183,44 +183,44 @@ string(5) "pink"
 У наступному прикладі показано поведінку методу у режимі вибірки
 **`PDO::FETCH_CLASS`**.
 
-`<?phpclass fruit {    public $name; public $colour;}$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();$result u003d $sth->fetchAll(PDO::FETCH_CLASS, "fruit" ;var_dump($result);?> `
+`<?phpclass fruit {    public $name; public $colour;}$sth = $dbh->prepare("SELECT name, colour FROM fruit");$sth->execute();$result = $sth->fetchAll(PDO::FETCH_CLASS, "fruit" ;var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 object(fruit)#1 (2) {
-["name"]u003d>
+["name"]=>
 string(5) "apple"
-["colour"]u003d>
+["colour"]=>
 string(5) "green"
 }
-[1]u003d>
+[1]=>
 object(fruit)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(4) "pear"
-["colour"]u003d>
+["colour"]=>
 string(6) "yellow"
 }
-[2]u003d>
+[2]=>
 object(fruit)#3 (2) {
-["name"]u003d>
+["name"]=>
 string(10) "watermelon"
-["colour"]u003d>
+["colour"]=>
 string(4) "pink"
 }
-[3]u003d>
+[3]=>
 object(fruit)#4 (2) {
-["name"]u003d>
+["name"]=>
 string(5) "apple"
-["colour"]u003d>
+["colour"]=>
 string(3) "red"
 }
-[4]u003d>
+[4]=>
 object(fruit)#5 (2) {
-["name"]u003d>
+["name"]=>
 string(4) "pear"
-["colour"]u003d>
+["colour"]=>
 string(5) "green"
 }
 }
@@ -230,20 +230,20 @@ string(5) "green"
 У наступному прикладі показано поведінку методу у режимі вибірки
 **`PDO::FETCH_FUNC`**.
 
-` <?phpfunction fruit($name, $colour) {   return "{$name}: {$colour}";}$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");$s execute();$result u003d $sth->fetchAll(PDO::FETCH_FUNC, "fruit");var_dump($result);?> `
+` <?phpfunction fruit($name, $colour) {   return "{$name}: {$colour}";}$sth = $dbh->prepare("SELECT name, colour FROM fruit");$s execute();$result = $sth->fetchAll(PDO::FETCH_FUNC, "fruit");var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(12) "apple: green"
-[1]u003d>
+[1]=>
 string(12) "pear: yellow"
-[2]u003d>
+[2]=>
 string(16) "watermelon: pink"
-[3]u003d>
+[3]=>
 string(10) "apple: red"
-[4]u003d>
+[4]=>
 string(11) "pear: green"
 }
 

@@ -7,13 +7,13 @@
 
 # SQLite3::querySingle
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::querySingle — Виконує запит та повертає одиночний результат
 
 ### Опис
 
-public **SQLite3::querySingle**(string `$query`, bool `$entireRow` u003d
+public **SQLite3::querySingle**(string `$query`, bool `$entireRow` =
 **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -44,13 +44,13 @@ SQL запит на виконання.
 
 **Приклад #1 Приклад використання **SQLite3::querySingle()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');var_dump($db->querySingle('SELECT username FROM user WHERE useridu003d1'));print_r($db->querySingle('SELECT username, email FROM user WHERE useridu003d1', true));?> `
+` <?php$db = new SQLite3('mysqlitedb.db');var_dump($db->querySingle('SELECT username FROM user WHERE userid=1'));print_r($db->querySingle('SELECT username, email FROM user WHERE userid=1', true));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 string(5) "Scott"
 Array
 (
-[username] u003d> Scott
-[email] u003d> scott@example.com
+[username] => Scott
+[email] => scott@example.com
 )

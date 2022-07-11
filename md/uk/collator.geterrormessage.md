@@ -9,7 +9,7 @@
 
 #collator_get_error_message
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::getErrorMessage -- collator_get_error_message -- Отримує текст
 для коду останньої помилки Collator
@@ -41,7 +41,7 @@ public **Collator::getErrorMessage**(): string\|false
 
 **Приклад #1 Приклад використання **collator_get_error_message()****
 
-` <?php$coll u003d collator_create( 'lt' );if( collator_compare( $coll, 'y', 'k' ) u003du003du003du003dfalse ) {    echo collator_get_error_message($);
+` <?php$coll = collator_create( 'lt' );if( collator_compare( $coll, 'y', 'k' ) ====false ) {    echo collator_get_error_message($);
 
 ### Дивіться також
 

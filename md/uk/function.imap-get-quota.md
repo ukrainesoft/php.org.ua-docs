@@ -8,7 +8,7 @@
 
 #imap_get_quota
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 imap_get_quota — Отримати налаштування рівня квоти та статистику
 використання поштових скриньок
@@ -54,19 +54,19 @@ imap_get_quota — Отримати налаштування рівня квот
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `imap` тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_get_quota()****
 
-` <?php$mbox u003d imap_open("{imap.example.org}", "mailadmin", "password", OP_HALFOPEN)       or die("не удалося підключитися: " _map_last$| mbox, "user.kalowsky");if(is_array($quota_value)) {    echo "Рівень використання: " . $quota_value['usage']; echo "Розмір ящика: " . $quota_value['limit'];}imap_close($mbox);?> `
+` <?php$mbox = imap_open("{imap.example.org}", "mailadmin", "password", OP_HALFOPEN)       or die("не удалося підключитися: " _map_last$| mbox, "user.kalowsky");if(is_array($quota_value)) {    echo "Рівень використання: " . $quota_value['usage']; echo "Розмір ящика: " . $quota_value['limit'];}imap_close($mbox);?> `
 
 **Приклад #2 Приклад використання **imap_get_quota()** у PHP 4.3 та вище**
 
-` <?php$mbox u003d imap_open("{imap.example.org}", "mailadmin", "password", OP_HALFOPEN)      or die("не удалося підключитися: " _map_last$| mbox, "user.kalowsky");if(is_array($quota_values)) {   $storage u003d $quota_values['STORAGE']; echo "Рівень використання STORAGE: " . $storage['usage']; echo "Максимальний розмір STORAGE: " . $storage['limit']; $messageu003du003d$quota_values['MESSAGE']; echo "Рівень використання MESSAGE: " . $message['usage']; echo "Максимальний розмір MESSAGE: " . $message['limit']; /* ... */}imap_close($mbox);?> `
+` <?php$mbox = imap_open("{imap.example.org}", "mailadmin", "password", OP_HALFOPEN)      or die("не удалося підключитися: " _map_last$| mbox, "user.kalowsky");if(is_array($quota_values)) {   $storage = $quota_values['STORAGE']; echo "Рівень використання STORAGE: " . $storage['usage']; echo "Максимальний розмір STORAGE: " . $storage['limit']; $message==$quota_values['MESSAGE']; echo "Рівень використання MESSAGE: " . $message['usage']; echo "Максимальний розмір MESSAGE: " . $message['limit']; /* ... */}imap_close($mbox);?> `
 
 ### Примітки
 

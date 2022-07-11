@@ -8,7 +8,7 @@ SSL у сокет
 
 # EventBufferEvent::sslSocket
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::sslSocket — Створює нову буферну подію SSL для
 надсилання своїх даних через SSL в сокет
@@ -22,7 +22,7 @@ public static **EventBufferEvent::sslSocket**(
 `$socket`,
 [EventSslContext](class.eventsslcontext.md) `$ctx` ,
 int `$state` ,
-int `$options` u003d ?
+int `$options` = ?
 ): [EventBufferEvent](class.eventbufferevent.md)
 
 Створює нову буферну подію SSL для надсилання своїх даних через SSL

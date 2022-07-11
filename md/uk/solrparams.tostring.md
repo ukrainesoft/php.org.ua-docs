@@ -7,14 +7,14 @@
 
 # SolrParams::toString
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::toString — Повертає всі параметри об'єкта у вигляді пар
 ім'я-значення
 
 ### Опис
 
-final public **SolrParams::toString**(bool `$url_encode` u003d **`false`**):
+final public **SolrParams::toString**(bool `$url_encode` = **`false`**):
 string
 
 Повертає всі параметри об'єкта у вигляді пар ім'я-значення

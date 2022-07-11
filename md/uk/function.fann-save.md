@@ -7,7 +7,7 @@
 
 # fann_save
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_save — Зберігає всю мережу у файлі конфігурації
 

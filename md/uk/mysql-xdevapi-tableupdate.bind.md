@@ -31,4 +31,4 @@ public **mysql_xdevapi\TableUpdate::bind**(array `$placeholder_values`):
 
 **Приклад #1 Приклад використання **mysql_xdevapi\TableUpdate::bind()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );$table->update() ->set('status', 'admin')  ->where('name u003d :name and age > :age') ->bind(['name' u003d> 'Bernie') , 'age' u003d> 2000]) ->execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$table->update() ->set('status', 'admin')  ->where('name = :name and age > :age') ->bind(['name' => 'Bernie') , 'age' => 2000]) ->execute();?> `

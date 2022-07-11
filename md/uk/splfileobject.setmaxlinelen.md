@@ -7,7 +7,7 @@
 
 # SplFileObject::setMaxLineLen
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::setMaxLineLen — Встановити максимальну довжину рядка
 
@@ -35,7 +35,7 @@ public **SplFileObject::setMaxLineLen**(int `$maxLength`): void
 
 **Приклад #1 Приклад використання **SplFileObject::setMaxLineLen()****
 
-` <?php$file u003d new SplFileObject("lipsum.txt");$file->setMaxLineLen(20);foreach ($file as $line) {   echo $line . "
+` <?php$file = new SplFileObject("lipsum.txt");$file->setMaxLineLen(20);foreach ($file as $line) {   echo $line . "
 ";}?> `
 
 Вміст lipsum.txt

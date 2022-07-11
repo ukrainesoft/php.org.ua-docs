@@ -7,7 +7,7 @@
 
 #error_get_last
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 error_get_last — Отримання інформації про останню помилку
 
@@ -39,10 +39,10 @@ error_get_last — Отримання інформації про останню
 
 Array
 (
-[type] u003d> 8
-[message] u003d> Undefined variable: a
-[file] u003d> C:WWW\index.php
-[line] u003d> 2
+[type] => 8
+[message] => Undefined variable: a
+[file] => C:WWW\index.php
+[line] => 2
 )
 
 ### Дивіться також

@@ -48,13 +48,13 @@ public **mysqli_stmt::get_server_info**(): string
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password");/* перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Подключення не
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password");/* перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Подключення не
 ", mysqli_connect_error());  exit();}/* вивести версію сервера */printf("Версія сервера: %s
 ", $mysqli->server_info);/* закрити з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password");/* перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Підключення не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password");/* перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Підключення не 
 ", mysqli_connect_error());  exit();}/* вивести версію сервера */printf("Версія сервера: %s
 ", mysqli_get_server_info($link));/* закрити з'єднання*/mysqli_close($link);?> `
 

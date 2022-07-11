@@ -7,14 +7,14 @@
 
 # Yaf_Response_Abstract::clearBody
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::clearBody — Скидає все тіло, що існує.
 відповіді
 
 ### Опис
 
-public **Yaf_Response_Abstract::clearBody**(string `$key` u003d ?): bool
+public **Yaf_Response_Abstract::clearBody**(string `$key` = ?): bool
 
 Очищає наявний вміст
 

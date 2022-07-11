@@ -7,7 +7,7 @@
 
 # runkit7_function_remove
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_function_remove — Видалення визначення функції
 

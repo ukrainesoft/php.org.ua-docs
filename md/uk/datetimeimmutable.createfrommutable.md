@@ -8,7 +8,7 @@
 
 # DateTimeImmutable::createFromMutable
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 DateTimeImmutable::createFromMutable — Повертає новий об'єкт
 DateTimeImmutable, що містить заданий об'єкт DateTime
@@ -37,4 +37,4 @@ public static
 
 **Приклад #1 Створення незмінного об'єкта дати/часу**
 
-` <?php$date u003d new DateTime("2014-06-20 11:45 Europe/London");$immutable u003d DateTimeImmutable::createFromMutable( $date );?> `
+` <?php$date = new DateTime("2014-06-20 11:45 Europe/London");$immutable = DateTimeImmutable::createFromMutable( $date );?> `

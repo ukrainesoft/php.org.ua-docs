@@ -7,7 +7,7 @@
 
 # Gmagick::setsamplingfactors
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setsamplingfactors — Встановлює фактори вибірки зображення
 

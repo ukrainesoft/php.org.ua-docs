@@ -7,7 +7,7 @@
 
 # Gmagick::getimageresolution
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageresolution — Повертає роздільну здатність зображення
 

@@ -8,7 +8,7 @@ SQL-операторів
 
 #cubrid_next_result
 
-(PECL CUBRID u003d 8.4.0)
+(PECL CUBRID = 8.4.0)
 
 cubrid_next_result — Отримує результат наступного запиту при
 виконанні кількох SQL-операторів
@@ -37,14 +37,14 @@ cubrid_next_result — Отримує результат наступного з
 
 **Приклад #1 Приклад використання **cubrid_next_result()****
 
-` <?php$conn u003d cubrid_connect("127.0.0.1", 33000, "demodb", "dba");$sql_stmt u003d "SELECT * FROM code; SELECT * FROM res u003d cubrid_execute($conn, $sql_stmt, CUBRID_EXEC_QUERY_ALL);get_result_info($res);cubrid_next_result($res);get_result_info($res);function get_result_info($req){     
+` <?php$conn = cubrid_connect("127.0.0.1", 33000, "demodb", "dba");$sql_stmt = "SELECT * FROM code; SELECT * FROM res = cubrid_execute($conn, $sql_stmt, CUBRID_EXEC_QUERY_ALL);get_result_info($res);cubrid_next_result($res);get_result_info($res);function get_result_info($req){     
 ------------ get_result_info --------------------
-");    $row_num u003d cubrid_num_rows($req);    $col_num u003d cubrid_num_cols($req);    $column_name_list u003d cubrid_column_names($req);    $column_type_list u003d cubrid_column_types($req);    $column_last_name u003d cubrid_field_name($req, $col_num - 1);    $column_last_table u003d cubrid_field_table($req, $col_num - 1);    $column_last_type u003d cubrid_field_type($req, $col_num - 1);    $column_last_len u003d cubrid_field_len($req, $col_num - 1);    $column_1_flags u003d cubrid_field_flags( $req, 1);    printf("%-30s %d
+");    $row_num = cubrid_num_rows($req);    $col_num = cubrid_num_cols($req);    $column_name_list = cubrid_column_names($req);    $column_type_list = cubrid_column_types($req);    $column_last_name = cubrid_field_name($req, $col_num - 1);    $column_last_table = cubrid_field_table($req, $col_num - 1);    $column_last_type = cubrid_field_type($req, $col_num - 1);    $column_last_len = cubrid_field_len($req, $col_num - 1);    $column_1_flags = cubrid_field_flags( $req, 1);    printf("%-30s %d
 ", "Кількість рядків:", $row_num);    printf("%-30s %d
 ", "Кількість стовпців:", $col_num);    printf("
 ");   printf("%-30s %-30s %-15s
 ", "Назви стовпців", "Типи стовпців", "Довжина стовпців");    printf("----------------------------- -------------------------------------------------
-");    $size u003d count($column_name_list);   for($i u003d 0; $i < $size; $i++) {         $column_len u003d   | %-15s
+");    $size = count($column_name_list);   for($i = 0; $i < $size; $i++) {         $column_len =   | %-15s
 ", $column_name_list[$i], $column_type_list[$i], $column_len);    }    printf("
 
 ");   printf("%-30s %s

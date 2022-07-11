@@ -13,8 +13,8 @@ parse_ini_file — Обробляє файл конфігурації
 
 ### Опис
 
-**parse_ini_file**(string `$filename`, bool `$process_sections` u003d
-**`false`**, int `$scanner_mode` u003d **`INI_SCANNER_NORMAL`**):
+**parse_ini_file**(string `$filename`, bool `$process_sections` =
+**`false`**, int `$scanner_mode` = **`INI_SCANNER_NORMAL`**):
 array\|false
 
 **parse_ini_file()** завантажує ini-файл, вказаний у аргументі
@@ -60,22 +60,22 @@ array\|false
 ; Коментарі починаються з ';', як у php.ini
 
 [first_section]
-one u003d 1
-five u003d 5
-animal u003d BIRD
+one = 1
+five = 5
+animal = BIRD
 
 [second_section]
-path u003d "/usr/local/bin"
-URL u003d "http://www.example.com/~username"
+path = "/usr/local/bin"
+URL = "http://www.example.com/~username"
 
 [third_section]
-phpversion[] u003d "5.0"
-phpversion[] u003d "5.1"
-phpversion[] u003d "5.2"
-phpversion[] u003d "5.3"
+phpversion[] = "5.0"
+phpversion[] = "5.1"
+phpversion[] = "5.2"
+phpversion[] = "5.3"
 
-urls[svn] u003d "http://svn.php.net"
-urls[git] u003d "http://git.php.net"
+urls[svn] = "http://svn.php.net"
+urls[git] = "http://git.php.net"
 
 **Приклад #2 Приклад використання функції **parse_ini_file()****
 
@@ -86,61 +86,61 @@ urls[git] u003d "http://git.php.net"
 значення опцій будуть оброблятися і значення має бути просто
 константою. Наприклад:
 
-` <?phpdefine('BIRD', 'Птиця додо');// Обробляємо без секцій$ini_array u003d parse_ini_file("sample.ini");print_r($ini_array);// Обробляємо з секціями$ini_array .ini", true);print_r($ini_array);?> `
+` <?phpdefine('BIRD', 'Птиця додо');// Обробляємо без секцій$ini_array = parse_ini_file("sample.ini");print_r($ini_array);// Обробляємо з секціями$ini_array .ini", true);print_r($ini_array);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[one] u003d> 1
-[five] u003d> 5
-[animal] u003d> Птах додо
-[path] u003d> /usr/local/bin
-[URL] u003d> http://www.example.com/~username
-[phpversion] u003d> Array
+[one] => 1
+[five] => 5
+[animal] => Птах додо
+[path] => /usr/local/bin
+[URL] => http://www.example.com/~username
+[phpversion] => Array
 (
-[0] u003d> 5.0
-[1] u003d> 5.1
-[2] u003d> 5.2
-[3] u003d> 5.3
+[0] => 5.0
+[1] => 5.1
+[2] => 5.2
+[3] => 5.3
 )
 
-[urls] u003d> Array
+[urls] => Array
 (
-[svn] u003d> http://svn.php.net
-[git] u003d> http://git.php.net
+[svn] => http://svn.php.net
+[git] => http://git.php.net
 )
 
 )
 Array
 (
-[first_section] u003d> Array
+[first_section] => Array
 (
-[one] u003d> 1
-[five] u003d> 5
-[animal] u003d> Птах додо
+[one] => 1
+[five] => 5
+[animal] => Птах додо
 )
 
-[second_section] u003d> Array
+[second_section] => Array
 (
-[path] u003d> /usr/local/bin
-[URL] u003d> http://www.example.com/~username
+[path] => /usr/local/bin
+[URL] => http://www.example.com/~username
 )
 
-[third_section] u003d> Array
+[third_section] => Array
 (
-[phpversion] u003d> Array
+[phpversion] => Array
 (
-[0] u003d> 5.0
-[1] u003d> 5.1
-[2] u003d> 5.2
-[3] u003d> 5.3
+[0] => 5.0
+[1] => 5.1
+[2] => 5.2
+[3] => 5.3
 )
 
-[urls] u003d> Array
+[urls] => Array
 (
-[svn] u003d> http://svn.php.net
-[git] u003d> http://git.php.net
+[svn] => http://svn.php.net
+[git] => http://git.php.net
 )
 
 )
@@ -149,12 +149,12 @@ Array
 
 **Приклад #3 Обробка файлу php.ini функцією **parse_ini_file()****
 
-` <?php// Проста функція для порівняння результатівfunction yesno($expression){   return($expression ? 'Так' : 'Ні');}// Отримуємо шлях к| ();// Обрабатываем php.ini$ini u003d parse_ini_file($ini_path);// Выводим и сравниваем значения, учтите, что использование get_cfg_var()// даст одинаковые результаты для используемых здесь значений parsed (загруженное из файла) и loaded ( використовуване в даний момент)echo '(parsed) magic_quotes_gpc u003d ' . yesno($ini['magic_quotes_gpc']) . PHP_EOL;echo '(loaded) magic_quotes_gpc u003d ' . yesno(get_cfg_var('magic_quotes_gpc')) . PHP_EOL;?> `
+` <?php// Проста функція для порівняння результатівfunction yesno($expression){   return($expression ? 'Так' : 'Ні');}// Отримуємо шлях к| ();// Обрабатываем php.ini$ini = parse_ini_file($ini_path);// Выводим и сравниваем значения, учтите, что использование get_cfg_var()// даст одинаковые результаты для используемых здесь значений parsed (загруженное из файла) и loaded ( використовуване в даний момент)echo '(parsed) magic_quotes_gpc = ' . yesno($ini['magic_quotes_gpc']) . PHP_EOL;echo '(loaded) magic_quotes_gpc = ' . yesno(get_cfg_var('magic_quotes_gpc')) . PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-(parsed) magic_quotes_gpc u003d Так
-(loaded) magic_quotes_gpc u003d Так
+(parsed) magic_quotes_gpc = Так
+(loaded) magic_quotes_gpc = Так
 
 **Приклад #4 Інтерполяція значень**
 
@@ -165,22 +165,22 @@ Array
 використанням синтаксису `${}`.
 
 ; | використовується для побитового АБО
-three u003d 2 | 3
+three = 2 | 3
 
 ; & використовується для бітового AND
-four u003d 6&5
+four = 6&5
 
 ; ^ використовується для побитового XOR
-five u003d 3^6
+five = 3^6
 
 ; ~ використовується для побитового заперечення
-negative_two u003d ~1
+negative_two = ~1
 
 ; () використовується для угруповання
-seven u003d (8|7)&(6|5)
+seven = (8|7)&(6|5)
 
-path u003d ${PATH}
-also_five u003d ${five}
+path = ${PATH}
+also_five = ${five}
 
 **Приклад #5 Екранування символів**
 
@@ -189,28 +189,28 @@ also_five u003d ${five}
 це подвійна лапка ```` як маркера кордону і сама зворотна коса
 риса `\ (якщо за нею слідує один із спеціальних символів):
 
-quoted u003d "Вона сказала \"Саме моя точка зору\"." ; Результатом є рядок із лапками.
-hint u003d "Використовуйте \\", щоб уникнути подвійних лапок" ; Результат: Використовуйте \", щоб уникнути подвійних лапок
+quoted = "Вона сказала \"Саме моя точка зору\"." ; Результатом є рядок із лапками.
+hint = "Використовуйте \\", щоб уникнути подвійних лапок" ; Результат: Використовуйте \", щоб уникнути подвійних лапок
 
 Для шляхів, подібних до Windows, зроблено виняток: можна не екранувати
 зворотну косу межу в кінці, якщо за рядком у лапках слідує розрив
 рядки:
 
-save_path u003d "C:\Temp\"
+save_path = "C:\Temp\"
 
 Якщо потрібно екранувати подвійні лапки, за якими слід перенести
 рядки у багаторядковому значенні, можна використовувати конкатенацію
 значень наступним чином (за одним рядком у подвійних лапках
 безпосередньо слідує інша):
 
-long_text u003d "Lorem \"ipsum\"""
+long_text = "Lorem \"ipsum\"""
 dolor" ; Результат: Lorem "ipsum"
  dolor
 
 Інший символ зі спеціальним значенням – це `$` (знак долара). Він
 повинен бути екранований, якщо за ним слідує відкрита фігурна дужка:
 
-code u003d "\${test}"
+code = "\${test}"
 
 Екрануючі символи не підтримуються в режимі **`INI_SCANNER_RAW`** (в
 цьому режимі всі символи обробляються "як є").
@@ -245,7 +245,7 @@ code u003d "\${test}"
 > **Примітка**:
 >
 > Записи без рівня знання ігноруються. Наприклад, "foo" ігнорується,
-> тоді як "bar u003d" обробляється та додається з порожнім значенням.
+> тоді як "bar =" обробляється та додається з порожнім значенням.
 > Наприклад, у MySQL є опція "no-auto-rehash", що встановлюється в
 > `my.cnf`, яка не має значення та ігнорується.
 

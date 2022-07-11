@@ -7,7 +7,7 @@
 
 # Клас Yaf_Controller_Abstract
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -61,10 +61,10 @@ protected `$_view`;
 final private [\_\_construct](yaf-controller-abstract.construct.md)()
 
 protected [display](yaf-controller-abstract.display.md)(string `$tpl`,
-array `$parameters` u003d ?): bool
+array `$parameters` = ?): bool
 
 public [forward](yaf-controller-abstract.forward.md)(string `$action`,
-array `$paramters` u003d ?): bool
+array `$paramters` = ?): bool
 
 public [getInvokeArg](yaf-controller-abstract.getinvokearg.md)(string
 `$name`): void
@@ -91,13 +91,13 @@ public [getViewpath](yaf-controller-abstract.getviewpath.md)(): string
 public [init](yaf-controller-abstract.init.md)(): void
 
 public [initView](yaf-controller-abstract.initview.md)(array
-`$options` u003d ?): void
+`$options` = ?): void
 
 public [redirect](yaf-controller-abstract.redirect.md)(string `$url`):
 bool
 
 protected [render](yaf-controller-abstract.render.md)(string `$tpl`,
-array `$parameters` u003d ?): string
+array `$parameters` = ?): string
 
 public [setViewpath](yaf-controller-abstract.setviewpath.md)(string
 `$view_directory`): void
@@ -113,7 +113,7 @@ public [setViewpath](yaf-controller-abstract.setviewpath.md)(string
 
 **Приклад #1 Визначення дії в окремому файлі**
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {    protected $actions u003d array(        /** теперь dummyAction определяется в отдельном файле */        "dummy" u003d> "actions/Dummy_action.php",    ); /* у метода действия могут быть аргументы */    public function indexAction($name, $id) {       /* $name и $id небезопасные необработанные данные */       assert($name u003du003d $this->getRequest()->getParam( "name")); assert($id  u003du003du003d$this->_request->getParam("id")); }}?> `
+` <?phpclass IndexController extends Yaf_Controller_Abstract {    protected $actions = array(        /** теперь dummyAction определяется в отдельном файле */        "dummy" => "actions/Dummy_action.php",    ); /* у метода действия могут быть аргументы */    public function indexAction($name, $id) {       /* $name и $id небезопасные необработанные данные */       assert($name == $this->getRequest()->getParam( "name")); assert($id  ===$this->_request->getParam("id")); }}?> `
 
 **Приклад #2 Dummy_action.php**
 

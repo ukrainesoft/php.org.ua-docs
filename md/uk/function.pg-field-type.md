@@ -7,7 +7,7 @@
 
 #pg_field_type
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_field_type — Повертає ім'я типу заданого поля
 
@@ -46,15 +46,15 @@ pg_field_type — Повертає ім'я типу заданого поля
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поле вибірки**
 
-`<?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося з'єднатися з базою"); // Покладемо, 'title' має тип varchar $res u003d pg_query($dbconn, "select title from authors where author u003d 'Orwell'"); echo "Title field type: ", pg_field_type($res, 0);?> `
+`<?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою"); // Покладемо, 'title' має тип varchar $res = pg_query($dbconn, "select title from authors where author = 'Orwell'"); echo "Title field type: ", pg_field_type($res, 0);?> `
 
 Результат виконання цього прикладу:
 

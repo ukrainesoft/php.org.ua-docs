@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::isArbiter
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::isArbiter — Перевіряє, чи є сервер
 членом-арбітром у наборі реплік

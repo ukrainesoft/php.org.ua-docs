@@ -39,28 +39,28 @@ stdClass\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `imap` тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_check()****
 
-` <?php$imap u003d imap_check($imap_stream);var_dump($imap);?> `
+` <?php$imap = imap_check($imap_stream);var_dump($imap);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)(5) {
-["Date"]u003d>
+["Date"]=>
 string(37) "Wed, 10 Dec 2003 17:56:54 +0100 (CET)"
-["Driver"]u003d>
+["Driver"]=>
 string(4) "imap"
-["Mailbox"]u003d>
+["Mailbox"]=>
 string(54)
-"{www.example.com:143/imap/useru003d"foo@example.com"}INBOX"
-["Nmsgs"]u003d>
+"{www.example.com:143/imap/user="foo@example.com"}INBOX"
+["Nmsgs"]=>
 int(1)
-["Recent"]u003d>
+["Recent"]=>
 int(0)
 }

@@ -7,7 +7,7 @@
 
 #imagecolorexactalpha
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecolorexactalpha — Отримання індексу заданого кольору та альфа
 компонента
@@ -55,24 +55,24 @@ int `$alpha`
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Отримання кольорів GD логотипу**
 
-` <?php// створення зображення$im u003d imagecreatefrompng('./gdlogo.png');$colors  u003d Array();$colors[] u003d imagecolorexactalpha($im, 255, 0, 0, 0) [] u003d imagecolorexactalpha($im, 0, 0, 0, 127);$colors[] u003d imagecolorexactalpha($im, 255, 255, 255, 55);$colors[] u003d imagecolor 52, 20);print_r($colors);// звільнення пам'ятіimagedestroy($im);?> `
+` <?php// створення зображення$im = imagecreatefrompng('./gdlogo.png');$colors  = Array();$colors[] = imagecolorexactalpha($im, 255, 0, 0, 0) [] = imagecolorexactalpha($im, 0, 0, 0, 127);$colors[] = imagecolorexactalpha($im, 255, 255, 255, 55);$colors[] = imagecolor 52, 20);print_r($colors);// звільнення пам'ятіimagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 16711680
-[1] u003d> 2130706432
-[2] u003d> 939524095
-[3] u003d> 342163252
+[0] => 16711680
+[1] => 2130706432
+[2] => 939524095
+[3] => 342163252
 )
 
 ### Дивіться також

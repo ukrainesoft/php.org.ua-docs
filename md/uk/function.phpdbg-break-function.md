@@ -7,7 +7,7 @@
 
 # phpdbg_break_function
 
-(PHP 5 \>u003d 5.6.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
 
 phpdbg_break_function — Додати точку переривання на виклик функції
 

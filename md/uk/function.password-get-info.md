@@ -7,7 +7,7 @@
 
 #password_get_info
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 password_get_info — Повертає інформацію про заданий хеш
 

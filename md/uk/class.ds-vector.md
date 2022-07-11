@@ -39,7 +39,7 @@ class **Ds\Vector** implements **Ds\Sequence**,
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 10;
+const int `MIN_CAPACITY` = 10;
 
 /\* Методи \*/
 
@@ -61,7 +61,7 @@ public [copy](ds-vector.copy.md)(): [Ds\Vector](class.ds-vector.md)
 
 public
 [filter](ds-vector.filter.md)([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Vector](class.ds-vector.md)
+`$callback` = ?): [Ds\Vector](class.ds-vector.md)
 
 public
 [find](ds-vector.find.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -80,7 +80,7 @@ public [insert](ds-vector.insert.md)(int `$index`,
 
 public [isEmpty](ds-vector.isempty.md)(): bool
 
-public [join](ds-vector.join.md)(string `$glue` u003d ?): string
+public [join](ds-vector.join.md)(string `$glue` = ?): string
 
 public [last](ds-vector.last.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -104,7 +104,7 @@ public
 [reduce](ds-vector.reduce.md)([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [remove](ds-vector.remove.md)(int `$index`):
@@ -124,16 +124,16 @@ public [set](ds-vector.set.md)(int `$index`,
 public [shift](ds-vector.shift.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [slice](ds-vector.slice.md)(int `$index`, int `$length` u003d ?):
+public [slice](ds-vector.slice.md)(int `$index`, int `$length` = ?):
 [Ds\Vector](class.ds-vector.md)
 
 public
 [sort](ds-vector.sort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 public
 [sorted](ds-vector.sorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Vector](class.ds-vector.md)
+`$comparator` = ?): [Ds\Vector](class.ds-vector.md)
 
 public [sum](ds-vector.sum.md)(): int\|float
 
@@ -141,7 +141,7 @@ public [toArray](ds-vector.toarray.md)(): array
 
 public
 [unshift](ds-vector.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?): void
+$values = ?): void
 
 }
 

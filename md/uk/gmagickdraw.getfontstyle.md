@@ -7,7 +7,7 @@
 
 # GmagickDraw::getfontstyle
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getfontstyle — Повертає стиль шрифту
 

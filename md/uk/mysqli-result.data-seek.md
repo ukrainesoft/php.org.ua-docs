@@ -53,12 +53,12 @@ public **mysqli_result::data_seek**(int `$offset`): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d "C u003d $mysqli->query($query);/* Перехід до рядку 401 */$result->data_seek(400);/* Отримання рядки */$row u003d $result->fetch_row();printf("Місто: %s  Код країни: %s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = "C = $mysqli->query($query);/* Перехід до рядку 401 */$result->data_seek(400);/* Отримання рядки */$row = $result->fetch_row();printf("Місто: %s  Код країни: %s
 ", $row[0], $row[1]);
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT Name| mysqli_query($link, $query);/* Перехід до рядку 401 */mysqli_data_seek($result, 400);/* Отримання рядки */$row u003d mysqli_fetch_row($result); %s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT Name| mysqli_query($link, $query);/* Перехід до рядку 401 */mysqli_data_seek($result, 400);/* Отримання рядки */$row = mysqli_fetch_row($result); %s
 ", $row[0], $row[1]);
 
 Результат виконання даних прикладів:
@@ -71,9 +71,9 @@ public **mysqli_result::data_seek**(int `$offset`): bool
 накладення настроюваного порядку або перемотування набору результатів при
 багаторазовому повторенні.
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d " ";$result u003d $mysqli->query($query);/* Переміщення по набору результатів в зворотному порядку */for ($row_no u003d $result->num_rows - 1; $row_no | {   $result->data_seek($row_no); /* Отримання рядки */    $row u003d $result->fetch_row(); printf("Місто: %s  Код країни: %s
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = " ";$result = $mysqli->query($query);/* Переміщення по набору результатів в зворотному порядку */for ($row_no = $result->num_rows - 1; $row_no | {   $result->data_seek($row_no); /* Отримання рядки */    $row = $result->fetch_row(); printf("Місто: %s  Код країни: %s
 ", $row[0], $row[1]);}/* Скидання вказівника на початок набору результатів */$result->data_seek(0);print "
-";/* Знову переміщення за тому ж набору результатів */while ($row u003d $result->fetch_row()) {    printf("Місто: %s  Код країни: |
+";/* Знову переміщення за тому ж набору результатів */while ($row = $result->fetch_row()) {    printf("Місто: %s  Код країни: |
 ", $row[0], $row[1]);} `
 
 Результат виконання даних прикладів:

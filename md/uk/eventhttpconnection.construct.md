@@ -7,7 +7,7 @@
 
 # EventHttpConnection::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::\_\_construct — Конструктор об'єкта
 EventHttpConnection
@@ -19,7 +19,7 @@ public **EventHttpConnection::\_\_construct**(
 [EventDnsBase](class.eventdnsbase.md) `$dns_base` ,
 string `$address` ,
 int `$port` ,
-[EventSslContext](class.eventsslcontext.md) `$ctx` u003d **`null`**
+[EventSslContext](class.eventsslcontext.md) `$ctx` = **`null`**
 
 )
 
@@ -55,6 +55,6 @@ OpenSSL.
 
 ### Список змін
 
-| Версія           | Опис                              |
-| ---------------- | --------------------------------- |
-| PECL event 1.9.0 | Додано підтримку OpenSSL (`ctx`). |
+| Версія           | Опис                            |
+| ---------------- | ------------------------------- |
+| PECL event 1.9.0 | Додано підтримку OpenSSL (ctx). |

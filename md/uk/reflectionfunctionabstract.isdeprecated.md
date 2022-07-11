@@ -7,7 +7,7 @@
 
 # ReflectionFunctionAbstract::isDeprecated
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isDeprecated — Перевіряє, чи є
 функція застарілої
@@ -31,7 +31,7 @@ public **ReflectionFunctionAbstract::isDeprecated**(): bool
 **Приклад #1 Приклад використання
 **ReflectionFunctionAbstract::isDeprecated()****
 
-` <?php$rf u003d new ReflectionFunction('ereg');var_dump($rf->isDeprecated());?> `
+` <?php$rf = new ReflectionFunction('ereg');var_dump($rf->isDeprecated());?> `
 
 Результат виконання цього прикладу:
 

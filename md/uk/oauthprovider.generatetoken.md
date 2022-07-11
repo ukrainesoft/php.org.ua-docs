@@ -7,14 +7,14 @@
 
 # OAuthProvider::generateToken
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::generateToken — Генерація випадкового токена
 
 ### Опис
 
 final public static **OAuthProvider::generateToken**(int `$size`, bool
-`$strong` u003d **`false`**): string
+`$strong` = **`false`**): string
 
 Генерує рядок псевдовипадкових байт.
 
@@ -44,7 +44,7 @@ Windows цей параметр буде проігноровано.
 
 **Приклад #1 Приклад використання **OAuthProvider::generateToken()****
 
-` <?php$p u003d new OAuthProvider();$t u003d $p->generateToken(4);echo strlen($t), PHP_EOL;echo bin2hex($t), PHP_EOL;?> `
+` <?php$p = new OAuthProvider();$t = $p->generateToken(4);echo strlen($t), PHP_EOL;echo bin2hex($t), PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

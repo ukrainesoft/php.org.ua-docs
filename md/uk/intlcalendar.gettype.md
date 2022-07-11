@@ -7,7 +7,7 @@
 
 # IntlCalendar::getType
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getType — Отримує тип календаря
 
@@ -39,7 +39,7 @@ public **IntlCalendar::getType**(): string
 
 **Приклад #1 Приклад використання **IntlCalendar::getType()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal u003d IntlCalendar::createInstance(NULL, '@calendaru003dethiopic-amete-alem ');var_dump($cal->getType());$cal u003d new IntlGregorianCalendar();var_dump($cal->getType()); `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'en_US');$cal = IntlCalendar::createInstance(NULL, '@calendar=ethiopic-amete-alem ');var_dump($cal->getType());$cal = new IntlGregorianCalendar();var_dump($cal->getType()); `
 
 Результат виконання цього прикладу:
 

@@ -8,14 +8,14 @@
 
 #get_defined_constants
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 get_defined_constants - Повертає асоціативний масив з іменами всіх
 констант та їх значень
 
 ### Опис
 
-**get_defined_constants**(bool `$categorize` u003d **`false`**): array
+**get_defined_constants**(bool `$categorize` = **`false`**): array
 
 Повертає асоціативний масив з іменами та значеннями всіх певних
 нині констант. Масив буде включати константи,
@@ -35,44 +35,44 @@ get_defined_constants - Повертає асоціативний масив з 
 
 Array
 (
-[Core] u003d> Array
+[Core] => Array
 (
-[E_ERROR] u003d> 1
-[E_WARNING] u003d> 2
-[E_PARSE] u003d> 4
-[E_NOTICE] u003d> 8
-[E_CORE_ERROR] u003d> 16
-[E_CORE_WARNING] u003d> 32
-[E_COMPILE_ERROR] u003d> 64
-[E_COMPILE_WARNING] u003d> 128
-[E_USER_ERROR] u003d> 256
-[E_USER_WARNING] u003d> 512
-[E_USER_NOTICE] u003d> 1024
-[E_ALL] u003d> 2047
-[TRUE] u003d> 1
+[E_ERROR] => 1
+[E_WARNING] => 2
+[E_PARSE] => 4
+[E_NOTICE] => 8
+[E_CORE_ERROR] => 16
+[E_CORE_WARNING] => 32
+[E_COMPILE_ERROR] => 64
+[E_COMPILE_WARNING] => 128
+[E_USER_ERROR] => 256
+[E_USER_WARNING] => 512
+[E_USER_NOTICE] => 1024
+[E_ALL] => 2047
+[TRUE] => 1
 )
 
-[pcre] u003d> Array
+[pcre] => Array
 (
-[PREG_PATTERN_ORDER] u003d> 1
-[PREG_SET_ORDER] u003d> 2
-[PREG_OFFSET_CAPTURE] u003d> 256
-[PREG_SPLIT_NO_EMPTY] u003d> 1
-[PREG_SPLIT_DELIM_CAPTURE] u003d> 2
-[PREG_SPLIT_OFFSET_CAPTURE] u003d> 4
-[PREG_GREP_INVERT] u003d> 1
+[PREG_PATTERN_ORDER] => 1
+[PREG_SET_ORDER] => 2
+[PREG_OFFSET_CAPTURE] => 256
+[PREG_SPLIT_NO_EMPTY] => 1
+[PREG_SPLIT_DELIM_CAPTURE] => 2
+[PREG_SPLIT_OFFSET_CAPTURE] => 4
+[PREG_GREP_INVERT] => 1
 )
 
-[user] u003d> Array
+[user] => Array
 (
-[MY_CONSTANT] u003d> 1
+[MY_CONSTANT] => 1
 )
 
 )
 
 ### Значення, що повертаються
 
-Повертає масив виду "ім'я константи" u003d\> "значення константи", з
+Повертає масив виду "ім'я константи" =\> "значення константи", з
 можливістю згрупувати його на ім'я модуля, що зареєстрував
 константи.
 
@@ -86,19 +86,19 @@ Array
 
 Array
 (
-[E_ERROR] u003d> 1
-[E_WARNING] u003d> 2
-[E_PARSE] u003d> 4
-[E_NOTICE] u003d> 8
-[E_CORE_ERROR] u003d> 16
-[E_CORE_WARNING] u003d> 32
-[E_COMPILE_ERROR] u003d> 64
-[E_COMPILE_WARNING] u003d> 128
-[E_USER_ERROR] u003d> 256
-[E_USER_WARNING] u003d> 512
-[E_USER_NOTICE] u003d> 1024
-[E_ALL] u003d> 2047
-[TRUE] u003d> 1
+[E_ERROR] => 1
+[E_WARNING] => 2
+[E_PARSE] => 4
+[E_NOTICE] => 8
+[E_CORE_ERROR] => 16
+[E_CORE_WARNING] => 32
+[E_COMPILE_ERROR] => 64
+[E_COMPILE_WARNING] => 128
+[E_USER_ERROR] => 256
+[E_USER_WARNING] => 512
+[E_USER_NOTICE] => 1024
+[E_ALL] => 2047
+[TRUE] => 1
 )
 
 ### Дивіться також

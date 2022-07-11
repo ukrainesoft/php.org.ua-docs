@@ -31,7 +31,7 @@ gettext — Шукає повідомлення у поточному домен
 
 **Приклад #1 **gettext()**-check**
 
-` <?php// Встановлюємо російську мовуputenv('LC_ALLu003dru_RU');setlocale(LC_ALL, 'ru_RU');// Вказуємо шлях к таблицям перекладівbindtextdomain("myPHPApp", "; ". ". "myPHPApp");// Тепер пошук перекладів буде йти в ./locale/ua_RU/LC_MESSAGES/myPHPApp.mo// Виводимо тестове повідомленняecho gettext("Welcome to M  _("Have a nice day");?> `
+` <?php// Встановлюємо російську мовуputenv('LC_ALL=ru_RU');setlocale(LC_ALL, 'ru_RU');// Вказуємо шлях к таблицям перекладівbindtextdomain("myPHPApp", "; ". ". "myPHPApp");// Тепер пошук перекладів буде йти в ./locale/ua_RU/LC_MESSAGES/myPHPApp.mo// Виводимо тестове повідомленняecho gettext("Welcome to M  _("Have a nice day");?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # Worker::unstack
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Worker::unstack — Прибрати завдання зі стеку
 
@@ -35,7 +35,7 @@ public **Worker::unstack**(): int
 
 **Приклад #1 Видалення об'єктів зі стека Worker**
 
-` <?php$my u003d new Worker();$work u003d new class extends Threaded {};var_dump($my->stack($work));var_dump($my->unstack()); `
+` <?php$my = new Worker();$work = new class extends Threaded {};var_dump($my->stack($work));var_dump($my->unstack()); `
 
 Результат виконання цього прикладу:
 

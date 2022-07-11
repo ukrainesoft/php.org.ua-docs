@@ -7,14 +7,14 @@
 
 # socket_create_listen
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 socket_create_listen — Відкриває сокет на вказаному порту для прийняття
 з'єднань
 
 ### Опис
 
-**socket_create_listen**(int `$port`, int `$backlog` u003d 128):
+**socket_create_listen**(int `$port`, int `$backlog` = 128):
 [Socket](class.socket.md)\|false
 
 **socket_create_listen()** створює новий екземпляр

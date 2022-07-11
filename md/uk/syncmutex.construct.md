@@ -7,13 +7,13 @@
 
 # SyncMutex::\_\_construct
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncMutex::\_\_construct — Створює новий об'єкт SyncMutex
 
 ### Опис
 
-public **SyncMutex::\_\_construct**(string `$name` u003d ?)
+public **SyncMutex::\_\_construct**(string `$name` = ?)
 
 Створює іменований або безіменний лічильний м'ютекс.
 
@@ -41,12 +41,12 @@ public **SyncMutex::\_\_construct**(string `$name` u003d ?)
 **Приклад #1 Приклад використання **SyncMutex::\_\_construct()** для
 створення іменованого м'ютексу з часом очікування**
 
-` <?php$mutex u003d new SyncMutex("UniqueName");if (!$mutex->lock(3000)){    echo "Неможливо створити м'ютеккс."; exit();}/* ... */$mutex->unlock();?> `
+` <?php$mutex = new SyncMutex("UniqueName");if (!$mutex->lock(3000)){    echo "Неможливо створити м'ютеккс."; exit();}/* ... */$mutex->unlock();?> `
 
 **Приклад #2 Приклад використання **SyncMutex::\_\_construct()** для
 створення безіменного м'ютексу**
 
-` <?php$mutex u003d new SyncMutex();$mutex->lock();/* ... */$mutex->unlock();?> `
+` <?php$mutex = new SyncMutex();$mutex->lock();/* ... */$mutex->unlock();?> `
 
 ### Дивіться також
 

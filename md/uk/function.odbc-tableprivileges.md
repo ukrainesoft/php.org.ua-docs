@@ -67,19 +67,19 @@ string `$table`
 
 **Приклад #1 Перелік привілеїв таблиці**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$privileges u003d odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');while (($row u003d$ ))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$privileges = odbc_tableprivileges($conn, 'SalesOrders', 'dbo', 'Orders');while (($row =$ ))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[TABLE_CAT] u003d> SalesOrders
-[TABLE_SCHEM] u003d> dbo
-[TABLE_NAME] u003d> Orders
-[GRANTOR] u003d> dbo
-[GRANTEE] u003d> dbo
-[PRIVILEGE] u003d> DELETE
-[IS_GRANTABLE] u003d> YES
+[TABLE_CAT] => SalesOrders
+[TABLE_SCHEM] => dbo
+[TABLE_NAME] => Orders
+[GRANTOR] => dbo
+[GRANTEE] => dbo
+[PRIVILEGE] => DELETE
+[IS_GRANTABLE] => YES
 )
 
 ### Дивіться також

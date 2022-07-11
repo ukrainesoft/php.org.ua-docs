@@ -7,7 +7,7 @@
 
 #db2_client_info
 
-(PECL ibm_db2 \>u003d 1.1.1)
+(PECL ibm_db2 \>= 1.1.1)
 
 db2_client_info — Повертає об'єкт із властивостями, що описують клієнта
 DB2
@@ -40,7 +40,7 @@ DB2
 Для отримання інформації потрібно передати коректний ресурс з'єднання
 у **db2_client_info()**.
 
-` <?php$conn u003d db2_connect( 'SAMPLE', 'db2inst1', 'ibmdb2' );$client u003d db2_client_info( $conn );if ($client) {     echo | var_dump($client->DRIVER_NAME); echo "DRIVER_VER: "; var_dump($client->DRIVER_VER); echo "DATA_SOURCE_NAME: "; var_dump($client->DATA_SOURCE_NAME); echo "DRIVER_ODBC_VER: "; var_dump($client->DRIVER_ODBC_VER); echo "ODBC_VER: "; var_dump($client->ODBC_VER); echo "ODBC_SQL_CONFORMANCE: "; var_dump($client->ODBC_SQL_CONFORMANCE); echo "APPL_CODEPAGE: "; var_dump($client->APPL_CODEPAGE); echo "CONN_CODEPAGE:"; var_dump( $client->CONN_CODEPAGE );}else {    echo "Error retrieving client information.    Perhaps your database connection was invalid.";
+` <?php$conn = db2_connect( 'SAMPLE', 'db2inst1', 'ibmdb2' );$client = db2_client_info( $conn );if ($client) {     echo | var_dump($client->DRIVER_NAME); echo "DRIVER_VER: "; var_dump($client->DRIVER_VER); echo "DATA_SOURCE_NAME: "; var_dump($client->DATA_SOURCE_NAME); echo "DRIVER_ODBC_VER: "; var_dump($client->DRIVER_ODBC_VER); echo "ODBC_VER: "; var_dump($client->ODBC_VER); echo "ODBC_SQL_CONFORMANCE: "; var_dump($client->ODBC_SQL_CONFORMANCE); echo "APPL_CODEPAGE: "; var_dump($client->APPL_CODEPAGE); echo "CONN_CODEPAGE:"; var_dump( $client->CONN_CODEPAGE );}else {    echo "Error retrieving client information.    Perhaps your database connection was invalid.";
 
 Результат виконання цього прикладу:
 

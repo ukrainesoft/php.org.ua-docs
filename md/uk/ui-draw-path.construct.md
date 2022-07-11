@@ -13,7 +13,7 @@ UI\Draw\Path::\_\_construct — Створити новий об'єкт Path
 
 ### Опис
 
-public **UI\Draw\Path::\_\_construct**(int `$mode` u003d
+public **UI\Draw\Path::\_\_construct**(int `$mode` =
 UI\Draw\Path::Winding)
 
 Створить новий шлях у заданому режимі

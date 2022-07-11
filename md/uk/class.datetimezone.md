@@ -7,7 +7,7 @@
 
 # Клас DateTimeZone
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -19,33 +19,33 @@ class **DateTimeZone** {
 
 /\* Константи \*/
 
-const int `AFRICA` u003d 1;
+const int `AFRICA` = 1;
 
-const int `AMERICA` u003d 2;
+const int `AMERICA` = 2;
 
-const int `ANTARCTICA` u003d 4;
+const int `ANTARCTICA` = 4;
 
-const int `ARCTIC` u003d 8;
+const int `ARCTIC` = 8;
 
-const int `ASIA` u003d 16;
+const int `ASIA` = 16;
 
-const int `ATLANTIC` u003d 32;
+const int `ATLANTIC` = 32;
 
-const int `AUSTRALIA` u003d 64;
+const int `AUSTRALIA` = 64;
 
-const int `EUROPE` u003d 128;
+const int `EUROPE` = 128;
 
-const int `INDIAN` u003d 256;
+const int `INDIAN` = 256;
 
-const int `PACIFIC` u003d 512;
+const int `PACIFIC` = 512;
 
-const int `UTC` u003d 1024;
+const int `UTC` = 1024;
 
-const int `ALL` u003d 2047;
+const int `ALL` = 2047;
 
-const int `ALL_WITH_BC` u003d 4095;
+const int `ALL_WITH_BC` = 4095;
 
-const int `PER_COUNTRY` u003d 4096;
+const int `PER_COUNTRY` = 4096;
 
 /\* Методи \*/
 
@@ -60,14 +60,14 @@ public
 `$datetime`): int
 
 public [getTransitions](datetimezone.gettransitions.md)(int
-`$timestampBegin` u003d **`PHP_INT_MIN`**, int `$timestampEnd` u003d
+`$timestampBegin` = **`PHP_INT_MIN`**, int `$timestampEnd` =
 **`PHP_INT_MAX`**): array\|false
 
 public static
 [listAbbreviations](datetimezone.listabbreviations.md)(): array
 
 public static [listIdentifiers](datetimezone.listidentifiers.md)(int
-`$timezoneGroup` u003d DateTimeZone::ALL, ?string `$countryCode` u003d
+`$timezoneGroup` = DateTimeZone::ALL, ?string `$countryCode` =
 **`null`**): array
 
 }

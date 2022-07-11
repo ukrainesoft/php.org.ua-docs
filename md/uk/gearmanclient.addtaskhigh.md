@@ -7,7 +7,7 @@
 
 # GearmanClient::addTaskHigh
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addTaskHigh — Додати високопріоритетне завдання для
 роботи в паралельному режимі
@@ -18,8 +18,8 @@ public **GearmanClient::addTaskHigh**(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 Додає високопріоритетне завдання для паралельної роботи з іншими
@@ -56,7 +56,7 @@ string `$unique` u003d ?
 єдиний обробник, так що завдання запускаються одне за одним,
 Високопріоритетні завдання виконуються насамперед.
 
-` <?php# створення клієнта$gmcu003d new GearmanClient();# додавання сервера задач за замовчуванням$gmc->addServer();# установка callback-функції для повідомлення c>e| # додавання задач, одна з яких високопріоритетна$tasku003d $gmc->addTask("reverse", "Hello World!", null, "1");$tasku003d $gmc->addTaskHig olleH", null, "2");$tasku003d $gmc->addTask("reverse", "Hello World!", null, "3");if (! $gmc->runTasks()){   echo Помилка””. $gmc->error() . "
+` <?php# створення клієнта$gmc= new GearmanClient();# додавання сервера задач за замовчуванням$gmc->addServer();# установка callback-функції для повідомлення c>e| # додавання задач, одна з яких високопріоритетна$task= $gmc->addTask("reverse", "Hello World!", null, "1");$task= $gmc->addTaskHig olleH", null, "2");$task= $gmc->addTask("reverse", "Hello World!", null, "3");if (! $gmc->runTasks()){   echo Помилка””. $gmc->error() . "
 ";   exit;}echo "Виконано
 ";function reverse_complete($task){    echo "Завершено: " . $task->unique() . ", " . $task->data() . "
 ";}?> `

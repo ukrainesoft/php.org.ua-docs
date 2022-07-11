@@ -7,7 +7,7 @@
 
 # IntlCalendar::roll
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::roll — Додає значення в поле без перенесення до більш
 важливі поля
@@ -50,7 +50,7 @@ int `$field`, int\|bool `$value`): bool
 
 **Приклад #1 Приклад використання **IntlCalendar::roll()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'pt_PT');$cal u003d new IntlGregorianCalendar(2013, 5 /* Червень */, $ cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"$cal->set(2013, 5 /* Червень */, 30);$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // згорнути так так, як скатитися +1var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00" `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'pt_PT');$cal = new IntlGregorianCalendar(2013, 5 /* Червень */, $ cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);var_dump(IntlDateFormatter::formatObject($cal)); // "01/07/2013, 00:00:00"$cal->set(2013, 5 /* Червень */, 30);$cal->roll(IntlCalendar::FIELD_DAY_OF_MONTH, true); // згорнути так так, як скатитися +1var_dump(IntlDateFormatter::formatObject($cal)); // "01/06/2013, 00:00:00" `
 
 Результат виконання цього прикладу:
 

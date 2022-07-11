@@ -9,7 +9,7 @@
 
 #date_modify
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::modify -- date_modify — Зміна тимчасової мітки
 
@@ -51,11 +51,11 @@ public **DateTime::modify**(string `$modifier`):
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTime('2006-12-12');$date->modify('+1 day');echo $date->format('Y-m-d');?> `
+` <?php$date = new DateTime('2006-12-12');$date->modify('+1 day');echo $date->format('Y-m-d');?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create('2006-12-12');date_modify($date, '+1 day');echo date_format($date, 'Y-m-d');?> `
+` <?php$date = date_create('2006-12-12');date_modify($date, '+1 day');echo date_format($date, 'Y-m-d');?> `
 
 Результат виконання даних прикладів:
 
@@ -63,7 +63,7 @@ public **DateTime::modify**(string `$modifier`):
 
 **Приклад #2 Будьте обережні при додаванні та відніманні місяців**
 
-` <?php$date u003d new DateTime('2000-12-31');$date->modify('+1 month');echo $date->format('Y-m-d') . "
+` <?php$date = new DateTime('2000-12-31');$date->modify('+1 month');echo $date->format('Y-m-d') . "
 ";$date->modify('+1 month');echo $date->format('Y-m-d') . "
 ";?> `
 

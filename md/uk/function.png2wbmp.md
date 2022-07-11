@@ -7,7 +7,7 @@
 
 # png2wbmp
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7)
 
 png2wbmp — Перетворення PNG файлу на WBMP
 
@@ -59,7 +59,7 @@ int `$threshold`
 
 **Приклад #1 Приклад використання **png2wbmp()****
 
-` <?php// Шлях к png$path u003d './test.png';// Отримання розмірів зображень$image u003d getimagesize($path);// Перетворенняpng2wbmp($path, './test.wbmp' image[1], $image[0], 7);?> `
+` <?php// Шлях к png$path = './test.png';// Отримання розмірів зображень$image = getimagesize($path);// Перетворенняpng2wbmp($path, './test.wbmp' image[1], $image[0], 7);?> `
 
 ### Дивіться також
 

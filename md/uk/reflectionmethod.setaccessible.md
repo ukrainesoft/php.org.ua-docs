@@ -7,7 +7,7 @@
 
 # ReflectionMethod::setAccessible
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8)
 
 ReflectionMethod::setAccessible — Робить метод доступним
 
@@ -34,7 +34,7 @@ public **ReflectionMethod::setAccessible**(bool `$accessible`): void
 
 **Приклад #1 Визначення простого класу**
 
-`<?phpclass MyClass{    private function foo()    {       return 'bar'; }}$method u003d new ReflectionMethod("MyClass", "foo");$method->setAccessible(true);$obj u003d new MyClass();echo $method->invoke($obj);echo $obj-> foo();?> `
+`<?phpclass MyClass{    private function foo()    {       return 'bar'; }}$method = new ReflectionMethod("MyClass", "foo");$method->setAccessible(true);$obj = new MyClass();echo $method->invoke($obj);echo $obj-> foo();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

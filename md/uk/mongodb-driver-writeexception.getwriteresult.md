@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Exception\WriteException::getWriteResult
 
-(mongodb \>u003d 1.0.0)
+(mongodb \>= 1.0.0)
 
 MongoDB\Driver\Exception\WriteException::getWriteResult — Повертає
 WriteResult для операції запису помилкою, що закінчилася
@@ -41,20 +41,20 @@ final public
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Exception\WriteException::getWriteResult()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost');$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' u003d> 1]);$ bulk->insert(['_id' u003d> 1]);try {   $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\WriteException $e)   $e->getWriteResult(); if ($writeConcernError u003d $writeResult->getWriteConcernError()) {       var_dump($writeConcernError); }   if ($writeErrors u003d $writeResult->getWriteErrors()) {       var_dump($writeErrors); }}?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost');$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1]);$ bulk->insert(['_id' => 1]);try {   $manager->executeBulkWrite('db.collection', $bulk);} catch (MongoDB\Driver\Exception\WriteException $e)   $e->getWriteResult(); if ($writeConcernError = $writeResult->getWriteConcernError()) {       var_dump($writeConcernError); }   if ($writeErrors = $writeResult->getWriteErrors()) {       var_dump($writeErrors); }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 object(MongoDB\Driver\WriteError)#5 (4) {
-["message"]u003d>
+["message"]=>
 string(70) "E11000 duplicate key error index: db.collection.$_id_ dup key: { : 1 }"
-["code"]u003d>
+["code"]=>
 int(11000)
-["index"]u003d>
+["index"]=>
 int(1)
-["info"]u003d>
+["info"]=>
 NULL
 }
 }

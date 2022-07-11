@@ -7,7 +7,7 @@
 
 # PDO::inTransaction
 
-(PHP 5 \>u003d 5.3.3, Bundled pdo_pgsql, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, Bundled pdo_pgsql, PHP 7, PHP 8)
 
 PDO::inTransaction — Перевіряє, чи розпочато транзакцію
 

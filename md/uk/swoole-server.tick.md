@@ -7,7 +7,7 @@
 
 # Swoole\Server::tick
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::tick - Повторює цю функцію в кожен заданий
 інтервал часу

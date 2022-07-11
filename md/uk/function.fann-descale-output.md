@@ -8,7 +8,7 @@
 
 # fann_descale_output
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_descale_output — Масштабує дані у вихідному векторі після
 отримання їх на основі раніше розрахованих параметрів

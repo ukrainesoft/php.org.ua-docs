@@ -7,7 +7,7 @@
 
 # SeasLog::getRequestID
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::getRequestID — Отримує диференційовані запити SeasLog
 request_id

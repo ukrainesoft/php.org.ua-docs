@@ -26,7 +26,7 @@ public **mysql_xdevapi\Collection::remove**(string `$search_condition`):
 документів, які необхідно змінити. Вираз може бути таким же
 простим, як **`true`**, яке відповідає всім документам, або воно
 може використовувати функції та оператори, такі як
-``CAST(_id AS SIGNED) >u003d 10'`, `'age MOD 2 u003d 0 OR age MOD 3 u003d 0'', або
+``CAST(_id AS SIGNED) >= 10'`, `'age MOD 2 = 0 OR age MOD 3 = 0'', або
 `'_id IN ["2","5","7","10"]'`.
 
 ### Значення, що повертаються
@@ -42,4 +42,4 @@ public **mysql_xdevapi\Collection::remove**(string `$search_condition`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::remove()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$collection->ad ": "Alfred", "age": 18, "job": "Butler"}')->execute();$collection->add('{"name": "Bob",    "age": 19, "job": "Painter"}')->execute();// Видалення всіх художників$collection  ->remove("job in ('Painter')") ->execute();// Видалення найстарішого двору collection  ->remove("job in ('Butler')") ->sort('age desc') ->limit(1) ->execute();// Видалення запису з самим низким ove| 'true') ->sort('age desc') ->limit(1) ->execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Alfred", "age": 18, "job": "Butler"}')->execute();$collection->add('{"name": "Bob",    "age": 19, "job": "Painter"}')->execute();// Видалення всіх художників$collection  ->remove("job in ('Painter')") ->execute();// Видалення найстарішого двору collection  ->remove("job in ('Butler')") ->sort('age desc') ->limit(1) ->execute();// Видалення запису з самим низким ove| 'true') ->sort('age desc') ->limit(1) ->execute();?> `

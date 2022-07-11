@@ -34,4 +34,4 @@ bool
 **Приклад #1 Приклад використання
 **mysql_xdevapi\DatabaseObject::existsInDatabase()****
 
-` <?php$existInDb u003d $dbObj->existsInDatabase();?> `
+` <?php$existInDb = $dbObj->existsInDatabase();?> `

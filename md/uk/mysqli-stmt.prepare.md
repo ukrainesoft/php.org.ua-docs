@@ -76,7 +76,7 @@ SQL-вирази.
 >
 > Однак ці позначки неприпустимі як ідентифікатори (такі як
 > імена стовпців або таблиць) або для завдання обох операндів бінарного
-> оператора, як знак рівності `u003d`. Останнє обмеження
+> оператора, як знак рівності `=`. Останнє обмеження
 > необхідно, оскільки інакше неможливо буде визначити тип
 > операнда. В основному параметри допустимі у виразах мови
 > маніпулювання даними (DML), і неприпустимі у виразах мови
@@ -93,12 +93,12 @@ SQL-вирази.
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$city u003d      $mysqli->stmt_init();$stmt->prepare("SELECT District FROM City WHERE Nameu003d?");/* Зв'язуємо змінні змітками */$stmt->bind_param("s"; Виконуємо запит */$stmt->execute();/* Зв'язуємо змінні результату */$stmt->bind_result($district);/* Отримуємо значення */$stmt->fetch()находиться районі%s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$city =      $mysqli->stmt_init();$stmt->prepare("SELECT District FROM City WHERE Name=?");/* Зв'язуємо змінні змітками */$stmt->bind_param("s"; Виконуємо запит */$stmt->execute();/* Зв'язуємо змінні результату */$stmt->bind_result($district);/* Отримуємо значення */$stmt->fetch()находиться районі%s
 ", $city, $district); `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$city u003d| ($link);mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Nameu003d?");/* Зв'язуємо змінні з| ($stmt);/* Зв'язуємо змінні результату */mysqli_stmt_bind_result($stmt, $district);/* Отримуємо значення */mysqli_stmt_fetch($stmt);printf("%s не
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$city =| ($link);mysqli_stmt_prepare($stmt, "SELECT District FROM City WHERE Name=?");/* Зв'язуємо змінні з| ($stmt);/* Зв'язуємо змінні результату */mysqli_stmt_bind_result($stmt, $district);/* Отримуємо значення */mysqli_stmt_fetch($stmt);printf("%s не
 ", $city, $district); `
 
 Результат виконання даних прикладів:

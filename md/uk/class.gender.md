@@ -7,7 +7,7 @@
 
 # Клас Gender\Gender
 
-(PECL gender \>u003d 0.6.0)
+(PECL gender \>= 0.6.0)
 
 ## Вступ
 
@@ -17,147 +17,147 @@ class **Gender\Gender** {
 
 /\* Константи \*/
 
-const int `IS_FEMALE` u003d 70;
+const int `IS_FEMALE` = 70;
 
-const int `IS_MOSTLY_FEMALE` u003d 102;
+const int `IS_MOSTLY_FEMALE` = 102;
 
-const int `IS_MALE` u003d 77;
+const int `IS_MALE` = 77;
 
-const int `IS_MOSTLY_MALE` u003d 109;
+const int `IS_MOSTLY_MALE` = 109;
 
-const int `IS_UNISEX_NAME` u003d 63;
+const int `IS_UNISEX_NAME` = 63;
 
-const int `IS_A_COUPLE` u003d 67;
+const int `IS_A_COUPLE` = 67;
 
-const int `NAME_NOT_FOUND` u003d 32;
+const int `NAME_NOT_FOUND` = 32;
 
-const int `ERROR_IN_NAME` u003d 69;
+const int `ERROR_IN_NAME` = 69;
 
-const int `ANY_COUNTRY` u003d 0;
+const int `ANY_COUNTRY` = 0;
 
-const int `BRITAIN` u003d 1;
+const int `BRITAIN` = 1;
 
-const int `IRELAND` u003d 2;
+const int `IRELAND` = 2;
 
-const int `USA` u003d 3;
+const int `USA` = 3;
 
-const int `SPAIN` u003d 4;
+const int `SPAIN` = 4;
 
-const int `PORTUGAL` u003d 5;
+const int `PORTUGAL` = 5;
 
-const int `ITALY` u003d 6;
+const int `ITALY` = 6;
 
-const int `MALTA` u003d 7;
+const int `MALTA` = 7;
 
-const int `FRANCE` u003d 8;
+const int `FRANCE` = 8;
 
-const int `BELGIUM` u003d 9;
+const int `BELGIUM` = 9;
 
-const int `LUXEMBOURG` u003d 10;
+const int `LUXEMBOURG` = 10;
 
-const int `NETHERLANDS` u003d 11;
+const int `NETHERLANDS` = 11;
 
-const int `GERMANY` u003d 12;
+const int `GERMANY` = 12;
 
-const int `EAST_FRISIA` u003d 13;
+const int `EAST_FRISIA` = 13;
 
-const int `AUSTRIA` u003d 14;
+const int `AUSTRIA` = 14;
 
-const int `SWISS` u003d 15;
+const int `SWISS` = 15;
 
-const int `ICELAND` u003d 16;
+const int `ICELAND` = 16;
 
-const int `DENMARK` u003d 17;
+const int `DENMARK` = 17;
 
-const int `NORWAY` u003d 18;
+const int `NORWAY` = 18;
 
-const int `SWEDEN` u003d 19;
+const int `SWEDEN` = 19;
 
-const int `FINLAND` u003d 20;
+const int `FINLAND` = 20;
 
-const int `ESTONIA` u003d 21;
+const int `ESTONIA` = 21;
 
-const int `LATVIA` u003d 22;
+const int `LATVIA` = 22;
 
-const int `LITHUANIA` u003d 23;
+const int `LITHUANIA` = 23;
 
-const int `POLAND` u003d 24;
+const int `POLAND` = 24;
 
-const int `CZECH_REP` u003d 25;
+const int `CZECH_REP` = 25;
 
-const int `SLOVAKIA` u003d 26;
+const int `SLOVAKIA` = 26;
 
-const int `HUNGARY` u003d 27;
+const int `HUNGARY` = 27;
 
-const int `ROMANIA` u003d 28;
+const int `ROMANIA` = 28;
 
-const int `BULGARIA` u003d 29;
+const int `BULGARIA` = 29;
 
-const int `BOSNIA` u003d 30;
+const int `BOSNIA` = 30;
 
-const int `CROATIA` u003d 31;
+const int `CROATIA` = 31;
 
-const int `KOSOVO` u003d 32;
+const int `KOSOVO` = 32;
 
-const int `MACEDONIA` u003d 33;
+const int `MACEDONIA` = 33;
 
-const int `MONTENEGRO` u003d 34;
+const int `MONTENEGRO` = 34;
 
-const int `SERBIA` u003d 35;
+const int `SERBIA` = 35;
 
-const int `SLOVENIA` u003d 36;
+const int `SLOVENIA` = 36;
 
-const int `ALBANIA` u003d 37;
+const int `ALBANIA` = 37;
 
-const int `GREECE` u003d 38;
+const int `GREECE` = 38;
 
-const int `RUSSIA` u003d 39;
+const int `RUSSIA` = 39;
 
-const int `BELARUS` u003d 40;
+const int `BELARUS` = 40;
 
-const int `MOLDOVA` u003d 41;
+const int `MOLDOVA` = 41;
 
-const int `UKRAINE` u003d 42;
+const int `UKRAINE` = 42;
 
-const int `ARMENIA` u003d 43;
+const int `ARMENIA` = 43;
 
-const int `AZERBAIJAN` u003d 44;
+const int `AZERBAIJAN` = 44;
 
-const int `GEORGIA` u003d 45;
+const int `GEORGIA` = 45;
 
-const int `KAZAKH_UZBEK` u003d 46;
+const int `KAZAKH_UZBEK` = 46;
 
-const int `TURKEY` u003d 47;
+const int `TURKEY` = 47;
 
-const int `ARABIA` u003d 48;
+const int `ARABIA` = 48;
 
-const int `ISRAEL` u003d 49;
+const int `ISRAEL` = 49;
 
-const int `CHINA` u003d 50;
+const int `CHINA` = 50;
 
-const int `INDIA` u003d 51;
+const int `INDIA` = 51;
 
-const int `JAPAN` u003d 52;
+const int `JAPAN` = 52;
 
-const int `KOREA` u003d 53;
+const int `KOREA` = 53;
 
 /\* Методи \*/
 
-public [\_\_construct](gender-gender.construct.md)(string `$dsn` u003d ?)
+public [\_\_construct](gender-gender.construct.md)(string `$dsn` = ?)
 
 public [connect](gender-gender.connect.md)(string `$dsn`): bool
 
 public [country](gender-gender.country.md)(int `$country`):
 array\|false
 
-public [get](gender-gender.get.md)(string `$name`, int `$country` u003d
+public [get](gender-gender.get.md)(string `$name`, int `$country` =
 ?): int
 
 public [isNick](gender-gender.isnick.md)(string `$name0`, string
-`$name1`, int `$country` u003d ?): array
+`$name1`, int `$country` = ?): array
 
 public [similarNames](gender-gender.similarnames.md)(string `$name`,
-int `$country` u003d ?): array
+int `$country` = ?): array
 
 }
 

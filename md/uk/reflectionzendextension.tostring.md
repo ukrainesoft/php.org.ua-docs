@@ -7,7 +7,7 @@
 
 # ReflectionZendExtension::\_\_toString
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ReflectionZendExtension::\_\_toString — Обробник перетворення на
 рядок

@@ -7,7 +7,7 @@
 
 # SolrObject::offsetUnset
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrObject::offsetUnset - Скидає значення властивості
 

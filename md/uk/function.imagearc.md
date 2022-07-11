@@ -63,15 +63,15 @@ y-координат центру.
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Малювання кола за допомогою функції **imagearc()****
 
-`<?php// створюємо зображення 200*200$img u003d imagecreatetruecolor(200, 200);// створюємо кілька квітів$white u003d imagecolorallocate($img, 255, 5 5  5 ,  0,  0);$green u003d imagecolorallocate($img,  0, 255,   0);$blue u003du003dimagecolorallocate($img,   0,    0,0             х         ¦¦ ¦ 200, 0, 360, $white);// ротimagearc($img, 100, 100, 150, 150, 25, 155, $red);// очіimagearc($img,  5 360, $green);imagearc($img, 140, 75, 50, 50, 0, 360, $blue); ;// звільняємо пам'ятьimagedestroy($img);?> `
+`<?php// створюємо зображення 200*200$img = imagecreatetruecolor(200, 200);// створюємо кілька квітів$white = imagecolorallocate($img, 255, 5 5  5 ,  0,  0);$green = imagecolorallocate($img,  0, 255,   0);$blue ==imagecolorallocate($img,   0,    0,0             х         ¦¦ ¦ 200, 0, 360, $white);// ротimagearc($img, 100, 100, 150, 150, 25, 155, $red);// очіimagearc($img,  5 360, $green);imagearc($img, 140, 75, 50, 50, 0, 360, $blue); ;// звільняємо пам'ятьimagedestroy($img);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

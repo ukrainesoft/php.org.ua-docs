@@ -7,7 +7,7 @@
 
 # ZipArchive::setEncryptionName
 
-(PHP \>u003d 7.2.0, PHP 8, PECL zip \>u003d 1.14.0)
+(PHP \>= 7.2.0, PHP 8, PECL zip \>= 1.14.0)
 
 ZipArchive::setEncryptionName — Встановити метод шифрування запису за його
 імені
@@ -15,7 +15,7 @@ ZipArchive::setEncryptionName — Встановити метод шифрува
 ### Опис
 
 public **ZipArchive::setEncryptionName**(string `$name`, int `$method`,
-?string `$password` u003d **`null`**): bool
+?string `$password` = **`null`**): bool
 
 Встановити метод шифрування запису, вказаного на його ім'я.
 
@@ -37,9 +37,9 @@ public **ZipArchive::setEncryptionName**(string `$name`, int `$method`,
 
 ### Список змін
 
-| Версія | Опис                                      |
-| ------ | ----------------------------------------- |
-| 8.0.0  | `password` тепер припускає значення null. |
+| Версія | Опис                                    |
+| ------ | --------------------------------------- |
+| 8.0.0  | password тепер припускає значення null. |
 
 ### Приклади
 
@@ -48,7 +48,7 @@ public **ZipArchive::setEncryptionName**(string `$name`, int `$method`,
 
 **Приклад #1 Архівуємо та шифруємо файл**
 
-` <?php$zip u003d new ZipArchive();if ($zip->open('test.zip', ZipArchive::CREATE) u003du003du003d TRUE) {    $zip->setPassword('secret'); $zip->addFile('text.txt'); $zip->setEncryptionName('text.txt', ZipArchive::EM_AES_256); $zip->close(); echo "готово
+` <?php$zip = new ZipArchive();if ($zip->open('test.zip', ZipArchive::CREATE) === TRUE) {    $zip->setPassword('secret'); $zip->addFile('text.txt'); $zip->setEncryptionName('text.txt', ZipArchive::EM_AES_256); $zip->close(); echo "готово
 ";} else {    echo "помилка
 ";}?> `
 

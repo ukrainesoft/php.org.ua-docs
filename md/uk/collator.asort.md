@@ -9,7 +9,7 @@
 
 #collator_asort
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::asort -- collator_asort — Сортує масив із збереженням
 асоціації індексу
@@ -18,13 +18,13 @@ Collator::asort -- collator_asort — Сортує масив із збереж�
 
 Об'єктно-орієнтований стиль
 
-public **Collator::asort**(array `&$array`, int `$flags` u003d
+public **Collator::asort**(array `&$array`, int `$flags` =
 Collator::SORT_REGULAR): bool
 
 Процедурний стиль
 
 **collator_asort**([Collator](class.collator.md) `$object`, array
-`&$array`, int `$flags` u003d Collator::SORT_REGULAR): bool
+`&$array`, int `$flags` = Collator::SORT_REGULAR): bool
 
 Функція сортує масив таким чином, щоб індекси масиву зберігали
 свою кореляцію з елементами масиву, із якими пов'язані. Це
@@ -64,18 +64,18 @@ Collator::SORT_REGULAR): bool
 
 **Приклад #1 Приклад використання **collator_asort()****
 
-` <?php$coll u003d collator_create( 'en_US' );$arr u003d array(    'a' u003d> '100',    'b' u003d> '50', '   coll, $arr, Collator::SORT_NUMERIC );var_export( $arr );collator_asort( $coll, $arr, Collator::SORT_STRING );var_export( $arr );?> `
+` <?php$coll = collator_create( 'en_US' );$arr = array(    'a' => '100',    'b' => '50', '   coll, $arr, Collator::SORT_NUMERIC );var_export( $arr );collator_asort( $coll, $arr, Collator::SORT_STRING );var_export( $arr );?> `
 
 Результат виконання цього прикладу:
 
 array (
-'c' u003d> '7',
-'b' u003d> '50',
-'a' u003d> '100',
+'c' => '7',
+'b' => '50',
+'a' => '100',
 )array (
-'a' u003d> '100',
-'b' u003d> '50',
-'c' u003d> '7',
+'a' => '100',
+'b' => '50',
+'c' => '7',
 )
 
 ### Дивіться також

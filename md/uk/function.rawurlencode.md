@@ -36,21 +36,21 @@ URL, який має бути закодований.
 **Приклад #1 Приклад використання rawurlencode для включення пароля в URL
 FTP**
 
-` <?phpecho '<a hrefu003d"ftp://user:', rawurlencode('foo @+%/'),    '@ftp.example.com/x.txt">';?> `
+` <?phpecho '<a href="ftp://user:', rawurlencode('foo @+%/'),    '@ftp.example.com/x.txt">';?> `
 
 Результат виконання цього прикладу:
 
-<a hrefu003d"ftp://user:foo%20%40%2B%25%2F@ftp.example.com/x.txt">
+<a href="ftp://user:foo%20%40%2B%25%2F@ftp.example.com/x.txt">
 
 Або, якщо ви передаєте інформацію як частину URL:
 
 **Приклад #2 Приклад використання **rawurlencode()****
 
-` <?phpecho '<a hrefu003d"http://example.com/department_list_script/',    rawurlencode('sales and marketing/Miami'), '">';?> `
+` <?phpecho '<a href="http://example.com/department_list_script/',    rawurlencode('sales and marketing/Miami'), '">';?> `
 
 Результат виконання цього прикладу:
 
-<a hrefu003d"http://example.com/department_list_script/sales%20and%20marketing%2FMiami">
+<a href="http://example.com/department_list_script/sales%20and%20marketing%2FMiami">
 
 ### Дивіться також
 

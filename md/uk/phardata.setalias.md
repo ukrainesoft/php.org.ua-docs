@@ -7,7 +7,7 @@
 
 # PharData::setAlias
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::setAlias — Функція заглушка (Phar::setAlias не можна
 використовувати для PharData)

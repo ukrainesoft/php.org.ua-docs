@@ -7,7 +7,7 @@
 
 #pg_field_num
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_field_num - Повертає порядковий номер іменованого поля
 
@@ -42,15 +42,15 @@ SQL-команді, тобто воно переводиться в нижній
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поля вибірки**
 
-`<?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося з'єднатися з базою"); $res u003d pg_query($dbconn, "select author, year, title from authors where author u003d'Orwell'"); echo "Стовпець 'title' - це поле з номером: ", pg_field_num($res, 'title');?> `
+`<?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися з базою"); $res = pg_query($dbconn, "select author, year, title from authors where author ='Orwell'"); echo "Стовпець 'title' - це поле з номером: ", pg_field_num($res, 'title');?> `
 
 Результат виконання цього прикладу:
 

@@ -7,14 +7,14 @@
 
 #trader_minmaxindex
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_minmaxindex — Індекси найнижчих та найвищих значень за
 зазначений період
 
 ### Опис
 
-**trader_minmaxindex**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_minmaxindex**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

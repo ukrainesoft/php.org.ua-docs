@@ -8,7 +8,7 @@
 
 # GearmanClient::addTaskHighBackground
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addTaskHighBackground — Додати високопріоритетну
 фонове завдання для роботи в паралельному режимі
@@ -19,8 +19,8 @@ public **GearmanClient::addTaskHighBackground**(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 Додає високопріоритетне фонове завдання для паралельної роботи з

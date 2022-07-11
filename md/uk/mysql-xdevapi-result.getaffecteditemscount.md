@@ -30,7 +30,7 @@ public **mysql_xdevapi\Result::getAffectedItemsCount**(): int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Result::getAffectedItemsCount()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$create u003d $schema->createCollection("people");$collection u003d $schema->get people");$result u003d $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();var_dump( $res- >getAffectedItemsCount() );?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$collection = $schema->get people");$result = $collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();var_dump( $res- >getAffectedItemsCount() );?> `
 
 Результат виконання цього прикладу:
 

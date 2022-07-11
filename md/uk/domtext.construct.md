@@ -14,7 +14,7 @@ DOMText::\_\_construct — Створює об'єкт класу
 
 ### Опис
 
-public **DOMText::\_\_construct**(string `$data` u003d "")
+public **DOMText::\_\_construct**(string `$data` = "")
 
 Створює новий екземпляр класу [DOMText](class.domtext.md).
 
@@ -28,7 +28,7 @@ public **DOMText::\_\_construct**(string `$data` u003d "")
 
 **Приклад #1 Створення нового сайту DOMText**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');$element u003d $dom->appendChild(new DOMElement('root'));$text u003d $element->appendChild( new DOMText('root value'));echo $dom->saveXML(); /* <?xml versionu003d"1.0" encodingu003d"iso-8859-1"?><root>root value</root> */?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');$element = $dom->appendChild(new DOMElement('root'));$text = $element->appendChild( new DOMText('root value'));echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root>root value</root> */?> `
 
 ### Дивіться також
 

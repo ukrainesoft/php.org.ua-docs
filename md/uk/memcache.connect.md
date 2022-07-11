@@ -7,13 +7,13 @@
 
 # Memcache::connect
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::connect — Відкриває з'єднання з сервером memcached
 
 ### Опис
 
-**Memcache::connect**(string `$host`, int `$port` u003d ?, int `$timeout` u003d
+**Memcache::connect**(string `$host`, int `$port` = ?, int `$timeout` =
 ?): bool
 
 **Memcache::connect()** встановлює з'єднання з сервером memcached.
@@ -53,7 +53,7 @@ Memcache::connect — Відкриває з'єднання з сервером m
 
 **Приклад #1 Приклад використання **Memcache::connect()****
 
-`<?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);/* об'єктно-орієнтоване API */$memcache u003d new Memca > `
+`<?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/* об'єктно-орієнтоване API */$memcache = new Memca > `
 
 ### Примітки
 

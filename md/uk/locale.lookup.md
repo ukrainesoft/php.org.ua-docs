@@ -9,7 +9,7 @@
 
 #local_lookup
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::lookup -- locale_lookup — Пошук мовних позначок
 відповідних заданої локалі
@@ -21,8 +21,8 @@ Locale::lookup -- locale_lookup — Пошук мовних позначок
 public static **Locale::lookup**(
 array `$languageTag`,
 string `$locale`,
-bool `$canonicalize` u003d **`false`**,
-?string `$defaultLocale` u003d **`null`**
+bool `$canonicalize` = **`false`**,
+?string `$defaultLocale` = **`null`**
 ): ?string
 
 Процедурний стиль
@@ -30,8 +30,8 @@ bool `$canonicalize` u003d **`false`**,
 **locale_lookup**(
 array `$languageTag`,
 string `$locale`,
-bool `$canonicalize` u003d **`false`**,
-?string `$defaultLocale` u003d **`null`**
+bool `$canonicalize` = **`false`**,
+?string `$defaultLocale` = **`null`**
 ): ?string
 
 Шукає елементи `languageTag`, що найкраще підходять для діапазону
@@ -63,19 +63,19 @@ bool `$canonicalize` u003d **`false`**,
 
 ### Список змін
 
-| Версія | Опис                                          |
-| ------ | --------------------------------------------- |
-| 7.4.0  | `defaultLocale` тепер допускає значення null. |
+| Версія | Опис                                        |
+| ------ | ------------------------------------------- |
+| 7.4.0  | defaultLocale тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **locale_lookup()****
 
-` <?php$arr u003d array(   'de-DEVA',   'de-DE-1996',   'de','   'de-De');echo locale_lookup($arr, 'de-de-DE -prv2', true, 'en_US');?> `
+` <?php$arr = array(   'de-DEVA',   'de-DE-1996',   'de','   'de-De');echo locale_lookup($arr, 'de-de-DE -prv2', true, 'en_US');?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$arr u003d array(   'de-DEVA',   'de-DE-1996',   'de','   'de-De');echo Locale::lookup($arr, 9 x-prv1-prv2', true, 'en_US');?> `
+` <?php$arr = array(   'de-DEVA',   'de-DE-1996',   'de','   'de-De');echo Locale::lookup($arr, 9 x-prv1-prv2', true, 'en_US');?> `
 
 Результат виконання цього прикладу:
 

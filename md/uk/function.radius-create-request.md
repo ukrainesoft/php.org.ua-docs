@@ -7,7 +7,7 @@
 
 #radius_create_request
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_create_request — Створює обліковий запис або запит автентифікації
 

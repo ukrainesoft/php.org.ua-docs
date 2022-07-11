@@ -7,7 +7,7 @@
 
 # Клас SVM
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 ## Вступ
 
@@ -17,49 +17,49 @@ class **SVM** {
 
 /\* Константи \*/
 
-const int `C_SVC` u003d 0;
+const int `C_SVC` = 0;
 
-const int `NU_SVC` u003d 1;
+const int `NU_SVC` = 1;
 
-const int `ONE_CLASS` u003d 2;
+const int `ONE_CLASS` = 2;
 
-const int `EPSILON_SVR` u003d 3;
+const int `EPSILON_SVR` = 3;
 
-const int `NU_SVR` u003d 4;
+const int `NU_SVR` = 4;
 
-const int `KERNEL_LINEAR` u003d 0;
+const int `KERNEL_LINEAR` = 0;
 
-const int `KERNEL_POLY` u003d 1;
+const int `KERNEL_POLY` = 1;
 
-const int `KERNEL_RBF` u003d 2;
+const int `KERNEL_RBF` = 2;
 
-const int `KERNEL_SIGMOID` u003d 3;
+const int `KERNEL_SIGMOID` = 3;
 
-const int `KERNEL_PRECOMPUTED` u003d 4;
+const int `KERNEL_PRECOMPUTED` = 4;
 
-const int `OPT_TYPE` u003d 101;
+const int `OPT_TYPE` = 101;
 
-const int `OPT_KERNEL_TYPE` u003d 102;
+const int `OPT_KERNEL_TYPE` = 102;
 
-const int `OPT_DEGREE` u003d 103;
+const int `OPT_DEGREE` = 103;
 
-const int `OPT_SHRINKING` u003d 104;
+const int `OPT_SHRINKING` = 104;
 
-const int `OPT_PROPABILITY` u003d 105;
+const int `OPT_PROPABILITY` = 105;
 
-const int `OPT_GAMMA` u003d 201;
+const int `OPT_GAMMA` = 201;
 
-const int `OPT_NU` u003d 202;
+const int `OPT_NU` = 202;
 
-const int `OPT_EPS` u003d 203;
+const int `OPT_EPS` = 203;
 
-const int `OPT_P` u003d 204;
+const int `OPT_P` = 204;
 
-const int `OPT_COEF_ZERO` u003d 205;
+const int `OPT_COEF_ZERO` = 205;
 
-const int `OPT_C` u003d 206;
+const int `OPT_C` = 206;
 
-const int `OPT_CACHE_SIZE` u003d 207;
+const int `OPT_CACHE_SIZE` = 207;
 
 /\* Методи \*/
 
@@ -72,7 +72,7 @@ public [getOptions](svm.getoptions.md)(): array
 
 public [setOptions](svm.setoptions.md)(array `$params`): bool
 
-public [svm::train](svm.train.md)(array `$problem`, array `$weights` u003d
+public [svm::train](svm.train.md)(array `$problem`, array `$weights` =
 ?): [SVMModel](class.svmmodel.md)
 
 }

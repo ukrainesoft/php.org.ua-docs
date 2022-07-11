@@ -7,15 +7,15 @@
 
 # Phar::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::\_\_construct — Створює об'єкт Phar-архіву
 
 ### Опис
 
-public **Phar::\_\_construct**(string `$filename`, int `$flags` u003d
+public **Phar::\_\_construct**(string `$filename`, int `$flags` =
 FilesystemIterator::SKIP_DOTS \| FilesystemIterator::UNIX_PATHS, ?string
-`$alias` u003d **`null`**)
+`$alias` = **`null`**)
 
 ### Список параметрів
 
@@ -43,4 +43,4 @@ phar-архів може бути відкритий.
 
 **Приклад #1 Приклад використання **Phar::\_\_construct()****
 
-` <?phptry {    $p u003d new Phar('/путь/к/my.phar', FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME,                  'my.phar');} catch (UnexpectedValueException $e) {    die(' Не удалося відкрити my.phar');} catch (BadMethodCallException $e) {   echo 'Технічно це не може відбутися';}// це тепер х't'ar'; / і працює так ж, як якщо би ми ввелиecho file_get_contents('phar:///шлях/к/my.phar/example.txt');?> `
+` <?phptry {    $p = new Phar('/путь/к/my.phar', FilesystemIterator::CURRENT_AS_FILEINFO | FilesystemIterator::KEY_AS_FILENAME,                  'my.phar');} catch (UnexpectedValueException $e) {    die(' Не удалося відкрити my.phar');} catch (BadMethodCallException $e) {   echo 'Технічно це не може відбутися';}// це тепер х't'ar'; / і працює так ж, як якщо би ми ввелиecho file_get_contents('phar:///шлях/к/my.phar/example.txt');?> `

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::getTagSets
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\ReadPreference::getTagSets — Повертає параметр
 "tagSets" ReadPreference
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\ReadPreference::getTagSets**(): array
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadPreference::getTagSets()****
 
-` <?php$mode u003dMongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;/* Як і null, так і порожній масив, позначають, що не будуть встановлені теги */$rp u003d new MongoDB\Driver\ReadPreference($mode, null);var_dump($rp->getTagSets());$rp u003d new MongoDB\Driver\ReadPreference($mode, []);var_dump($rp ->getTagSets());/* Вибрати вузол в Нью-Йорку, але повернутись до любому доступному резервному вузлу. */$rp u003d new MongoDB\Driver\ReadPreference($mode, [['dc' u003d> 'ny']]);var_dump($rp->getTagSets());/* Вибрати вузол в Нью-Йорку, за яким|слід| */$rp u003d new MongoDB\Driver\ReadPreference($mode, [ ['dc' u003d> 'ny'], ['dc' u003d> 'sf', 'use' u003d> 'reporting'],  [] ]);var_dump($rp->getTagSets());?> `
+` <?php$mode =MongoDB\Driver\ReadPreference::RP_SECONDARY_PREFERRED;/* Як і null, так і порожній масив, позначають, що не будуть встановлені теги */$rp = new MongoDB\Driver\ReadPreference($mode, null);var_dump($rp->getTagSets());$rp = new MongoDB\Driver\ReadPreference($mode, []);var_dump($rp ->getTagSets());/* Вибрати вузол в Нью-Йорку, але повернутись до любому доступному резервному вузлу. */$rp = new MongoDB\Driver\ReadPreference($mode, [['dc' => 'ny']]);var_dump($rp->getTagSets());/* Вибрати вузол в Нью-Йорку, за яким|слід| */$rp = new MongoDB\Driver\ReadPreference($mode, [ ['dc' => 'ny'], ['dc' => 'sf', 'use' => 'reporting'],  [] ]);var_dump($rp->getTagSets());?> `
 
 Результат виконання цього прикладу:
 
@@ -43,29 +43,29 @@ array(0) {
 array(0) {
 }
 array(2) {
-[0]u003d>
+[0]=>
 array(1) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
 }
-[1]u003d>
+[1]=>
 array(0) {
 }
 }
 array(3) {
-[0]u003d>
+[0]=>
 array(1) {
-["dc"]u003d>
+["dc"]=>
 string(2) "ny"
 }
-[1]u003d>
+[1]=>
 array(2) {
-["dc"]u003d>
+["dc"]=>
 string(2) "sf"
-["use"]u003d>
+["use"]=>
 string(9) "reporting"
 }
-[2]u003d>
+[2]=>
 array(0) {
 }
 }

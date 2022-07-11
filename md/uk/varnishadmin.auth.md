@@ -7,7 +7,7 @@
 
 # VarnishAdmin::auth
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::auth — Аутентифікація на екземплярі varnish
 

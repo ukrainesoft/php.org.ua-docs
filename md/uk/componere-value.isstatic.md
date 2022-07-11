@@ -7,7 +7,7 @@
 
 # Componere\Value::isStatic
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Value::isStatic — Визначення доступності
 

@@ -7,13 +7,13 @@
 
 #OCILob::truncate
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 OCILob::truncate — Обрізає великий об'єкт
 
 ### Опис
 
-public **OCILob::truncate**(int `$length` u003d 0): bool
+public **OCILob::truncate**(int `$length` = 0): bool
 
 Обрізає об'єкт LOB.
 

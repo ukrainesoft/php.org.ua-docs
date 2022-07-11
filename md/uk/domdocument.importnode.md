@@ -14,7 +14,7 @@ DOMDocument::importNode — Імпортувати вузол у поточни�
 ### Опис
 
 public **DOMDocument::importNode**([DOMNode](class.domnode.md)
-`$node`, bool `$deep` u003d **`false`**):
+`$node`, bool `$deep` = **`false`**):
 [DOMNode](class.domnode.md)\|false
 
 Ця функція повертає копію імпортованого вузла та пов'язує її з
@@ -49,21 +49,21 @@ public **DOMDocument::importNode**([DOMNode](class.domnode.md)
 
 Копіювання вузлів між документами.
 
-` <?php$orgdoc u003d new DOMDocument;$orgdoc->loadXML("<root><element><child>text in child</child></element></root>");// Вузол, буде імпортований в новий документ$node u003d $orgdoc->getElementsByTagName("element")->item(0);// Створення нового документа$newdoc u003d new DOMDocument;$newdoc->formatOut >loadXML("<root><someelement>text in some element</someelement></root>");echo "Новий документ перед додаванням в ньому вузлів:
-";echo $newdoc->saveXML();// Імпорт вузла і всіх його нащадків в документ$node u003d $newdoc->importNode($node, true);// І затем додаток| ->appendChild($node);echo "
+` <?php$orgdoc = new DOMDocument;$orgdoc->loadXML("<root><element><child>text in child</child></element></root>");// Вузол, буде імпортований в новий документ$node = $orgdoc->getElementsByTagName("element")->item(0);// Створення нового документа$newdoc = new DOMDocument;$newdoc->formatOut >loadXML("<root><someelement>text in some element</someelement></root>");echo "Новий документ перед додаванням в ньому вузлів:
+";echo $newdoc->saveXML();// Імпорт вузла і всіх його нащадків в документ$node = $newdoc->importNode($node, true);// І затем додаток| ->appendChild($node);echo "
 Новий документ після додавання в него вузлів:
 ";echo $newdoc->saveXML();?> `
 
 Результат виконання цього прикладу:
 
 Новий документ перед додаванням до нього вузлів:
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <root>
 <someelement>text in some element</someelement>
 </root>
 
 Новий документ після додавання до нього вузлів:
-<?xml versionu003d"1.0"?>
+<?xml version="1.0"?>
 <root>
 <someelement>text in some element</someelement>
 <element>

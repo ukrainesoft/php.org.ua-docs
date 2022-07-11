@@ -46,7 +46,7 @@ fread — Бінарно-безпечне читання файлу
 
 **Приклад #1 Простий приклад використання **fread()****
 
-` <?php// отримує вміст файла в рядок$filename u003d "/usr/local/something.txt";$handle u003dfopen($filename, "r");$contents u003d fread($handle, filesi($file) ));fclose($handle);?> `
+` <?php// отримує вміст файла в рядок$filename = "/usr/local/something.txt";$handle =fopen($filename, "r");$contents = fread($handle, filesi($file) ));fclose($handle);?> `
 
 **Приклад #2 Приклад бінарного читання за допомогою **fread()****
 
@@ -56,7 +56,7 @@ fread — Бінарно-безпечне читання файлу
 Windows), файл повинен бути відкритий з використанням прапора 'b' у параметрі
 mode функції [fopen()](function.fopen.md).
 
-` <?php$filename u003d "c:\files\somepic.gif";$handle u003dfopen($filename, "rb");$contents u003dfread($handle, filesize($filename));fclose($handle );?> `
+` <?php$filename = "c:\files\somepic.gif";$handle =fopen($filename, "rb");$contents =fread($handle, filesize($filename));fclose($handle );?> `
 
 **Приклад #3 Приклади віддаленого читання за допомогою **fread()****
 
@@ -69,9 +69,9 @@ mode функції [fopen()](function.fopen.md).
 як пакет стане доступним. Це означає, що ви повинні збирати дані
 разом по шматочках, як показано на прикладі нижче.
 
-` <?php$handle u003d fopen("http://www.example.com/", "rb");$contents u003d stream_get_contents($handle);fclose($handle);?> `
+` <?php$handle = fopen("http://www.example.com/", "rb");$contents = stream_get_contents($handle);fclose($handle);?> `
 
-` <?php$handle u003d fopen("http://www.example.com/", "rb");if (FALSE u003du003du003d $handle) {    exit("Не вдалося відкрити потік за url адресою"); }$contents u003d '';while (!feof($handle)) {    $contents .u003d fread($handle, 8192);}fclose($handle);?> `
+` <?php$handle = fopen("http://www.example.com/", "rb");if (FALSE === $handle) {    exit("Не вдалося відкрити потік за url адресою"); }$contents = '';while (!feof($handle)) {    $contents .= fread($handle, 8192);}fclose($handle);?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # Yaf_Dispatcher::getApplication
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::getApplication — Отримує програму
 

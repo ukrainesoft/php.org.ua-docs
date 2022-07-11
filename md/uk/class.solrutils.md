@@ -7,7 +7,7 @@
 
 # Клас SolrUtils
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 ## Вступ
 
@@ -25,7 +25,7 @@ abstract class **SolrUtils** {
 
 public static
 [digestXmlResponse](solrutils.digestxmlresponse.md)(string
-`$xmlresponse`, int `$parse_mode` u003d 0):
+`$xmlresponse`, int `$parse_mode` = 0):
 [SolrObject](class.solrobject.md)
 
 public static [escapeQueryChars](solrutils.escapequerychars.md)(string

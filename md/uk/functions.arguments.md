@@ -21,7 +21,7 @@ PHP підтримує передачу аргументів за значенн
 
 **Приклад #1 Передача масиву у функцію**
 
-` <?phpfunction takes_array($input){    echo "$input[0] + $input[1] u003d ", $input[0]+$input[1];}?> `
+` <?phpfunction takes_array($input){    echo "$input[0] + $input[1] = ", $input[0]+$input[1];}?> `
 
 Починаючи з PHP 8.0.0, список аргументів функції може містити
 завершальну кому, яка буде проігнорована. Це корисно в
@@ -30,7 +30,7 @@ PHP підтримує передачу аргументів за значенн
 
 **Приклад #2 Список аргументів функції із завершальною комою**
 
-` <?phpfunction takes_many_args(    $first_arg,    $second_arg,    $a_very_long_argument_name,    $arg_with_default u003d 5,    $again u003d 'a default string', // Эта завершающая запятая допустима только начиная с  8.0.0.){    // ...} ?> `
+` <?phpfunction takes_many_args(    $first_arg,    $second_arg,    $a_very_long_argument_name,    $arg_with_default = 5,    $again = 'a default string', // Эта завершающая запятая допустима только начиная с  8.0.0.){    // ...} ?> `
 
 ### Передача аргументів за посиланням
 
@@ -44,7 +44,7 @@ PHP підтримує передачу аргументів за значенн
 
 **Приклад #3 Передача аргументів за посиланням**
 
-` <?phpfunction add_some_extra(&$string){    $string .u003d 'і щосьщо.';}$str u003d 'Це рядок, ';add_some_extra($str);echo $str; // виведе 'Це рядок, і що-що ще.'?> `
+` <?phpfunction add_some_extra(&$string){    $string .= 'і щосьщо.';}$str = 'Це рядок, ';add_some_extra($str);echo $str; // виведе 'Це рядок, і що-що ще.'?> `
 
 Передача значення як аргумент, який має передаватися по
 посилання, є помилкою.
@@ -59,7 +59,7 @@ PHP підтримує передачу аргументів за значенн
 
 **Приклад #4 Використання значень за промовчанням для визначення функції**
 
-`<?phpfunction makecoffee($type u003d "капучино"){    return "Готуємо чашку $type.
+`<?phpfunction makecoffee($type = "капучино"){    return "Готуємо чашку $type.
 ";}echo makecoffee();echo makecoffee(null);echo makecoffee("еспресо");?> `
 
 Результат виконання цього прикладу:
@@ -76,13 +76,13 @@ ClassName()](language.oop5.basic.md#language.oop5.basic.new).
 **Приклад #5 Використання нескалярних типів як значень по
 замовчуванням**
 
-` <?phpfunction makecoffee($types u003d array("капучино"), $coffeeMaker u003d NULL){    $device u003d is_null($coffeeMaker) ? "вручну": $coffeeMaker; return "Готую чашку ".join(", ", $types)." $device.
+` <?phpfunction makecoffee($types = array("капучино"), $coffeeMaker = NULL){    $device = is_null($coffeeMaker) ? "вручну": $coffeeMaker; return "Готую чашку ".join(", ", $types)." $device.
 ";}echo makecoffee();echo makecoffee(array("капучино", "лаватися"), "в чайнику");?> `
 
 **Приклад #6 Використання об'єктів як значень за замовчуванням
 (починаючи з PHP 8.1.0) **
 
-` <?phpclass DefaultCoffeeMaker {    public function brew() {       return 'Приготування кави.'; }}class FancyCoffeeMaker {     public function brew() {       return 'Приготування прекрасної кави спеціально для вас.'; }}function makecoffee($coffeeMaker u003d new DefaultCoffeeMaker){    return $coffeeMaker->brew();}echo makecoffee();echo makecoffee(new >
+` <?phpclass DefaultCoffeeMaker {    public function brew() {       return 'Приготування кави.'; }}class FancyCoffeeMaker {     public function brew() {       return 'Приготування прекрасної кави спеціально для вас.'; }}function makecoffee($coffeeMaker = new DefaultCoffeeMaker){    return $coffeeMaker->brew();}echo makecoffee();echo makecoffee(new >
 
 Значення за умовчанням має бути константним виразом, а не (до
 приклад) змінної або викликом функції/методу класу.
@@ -93,7 +93,7 @@ ClassName()](language.oop5.basic.md#language.oop5.basic.new).
 
 **Приклад #7 Некоректне використання значень за замовчуванням**
 
-`<?phpfunction makeyogurt($container u003d "миску", $flavour){    return "Робимо $container з $flavour йогуртом.
+`<?phpfunction makeyogurt($container = "миску", $flavour){    return "Робимо $container з $flavour йогуртом.
 ";}echo makeyogurt("малиновим"); // "малиновим" - це $container, не $flavour?> `
 
 Результат виконання цього прикладу:
@@ -105,7 +105,7 @@ to function makeyogurt(), 1 passed in example.php on line 42
 
 **Приклад #8 Коректне використання значень за замовчуванням**
 
-`<?phpfunction makeyogurt($flavour, $container u003d "миску"){    return "Робимо $container з $flavour йогуртом.
+`<?phpfunction makeyogurt($flavour, $container = "миску"){    return "Робимо $container з $flavour йогуртом.
 ";}echo makeyogurt("малиновим"); // "малиновим" - це $flavour?> `
 
 Результат виконання цього прикладу:
@@ -117,7 +117,7 @@ to function makeyogurt(), 1 passed in example.php on line 42
 
 **Приклад #9 Правильне використання аргументів за замовчуванням**
 
-`<?phpfunction makeyogurt($container u003d "миску", $flavour u003d "малиновим", $style u003d "грецьким"){   return "Робимо $container с $flavour |
+`<?phpfunction makeyogurt($container = "миску", $flavour = "малиновим", $style = "грецьким"){   return "Робимо $container с $flavour |
 ";}echo makeyogurt(style: "натуральним");?> `
 
 Результат виконання цього прикладу:
@@ -128,14 +128,14 @@ to function makeyogurt(), 1 passed in example.php on line 42
 необов'язкових аргументів є застарілим. Зазвичай це можна вирішити
 відмовившись від значення за промовчанням, оскільки воно ніколи не буде
 використовуватись. Винятком із цього правила є аргументи виду
-`Type $param u003d null`, де **`null`** за умовчанням робить тип неявно
+`Type $param = null`, де **`null`** за умовчанням робить тип неявно
 обнулюваним. Таке використання залишається допустимим, хоча рекомендується
 використовувати явний [тип nullable](language.types.declarations.md#language.types.declarations.nullable).
 
 **Приклад #10 Оголошення необов'язкових аргументів після обов'язкових
 аргументів**
 
-` <?phpfunction foo($a u003d [], $b) {} // За умовчанням не використовується; застарів, починаючи з версії PHP 8.0.0 function foo ($a, $ b) $a є обов'язковим, але допускає значення nullfunction bar(?A $a, $b) {}        // Рекомендується?> `
+` <?phpfunction foo($a = [], $b) {} // За умовчанням не використовується; застарів, починаючи з версії PHP 8.0.0 function foo ($a, $ b) $a є обов'язковим, але допускає значення nullfunction bar(?A $a, $b) {}        // Рекомендується?> `
 
 > **Примітка**: Починаючи з PHP 7.1.0, опущення параметра, не заданого
 > за замовчуванням викидає виняток
@@ -162,7 +162,7 @@ PHP підтримує списки аргументів змінної довж
 
 **Приклад #11 Використання `...` для доступу до аргументів**
 
-`<?phpfunction sum(...$numbers) {   $acc u003d 0; foreach ($numbers as $n) {        $acc +u003d $n; }   return$acc;}echo sum(1, 2, 3, 4);?> `
+`<?phpfunction sum(...$numbers) {   $acc = 0; foreach ($numbers as $n) {        $acc += $n; }   return$acc;}echo sum(1, 2, 3, 4);?> `
 
 Результат виконання цього прикладу:
 
@@ -175,7 +175,7 @@ PHP підтримує списки аргументів змінної довж
 **Приклад #12 Використання `...` для передачі аргументів**
 
 ` <?phpfunction add($a, $b) {    return $a + $b;}echo add(...[1, 2])."
-";$a u003d [1, 2];echo add(...$a);?> `
+";$a = [1, 2];echo add(...$a);?> `
 
 Результат виконання цього прикладу:
 
@@ -192,7 +192,7 @@ PHP підтримує списки аргументів змінної довж
 
 **Приклад #13 Аргументи з підказкою типу**
 
-` <?phpfunction total_intervals($unit, DateInterval ...$intervals) {   $time u003d 0; foreach ($intervals as $interval) {        $time +u003d $interval->$unit; }   return $time;}$a u003d new DateInterval('P1D');$b u003d new DateInterval('P2D');echo total_intervals('d', $a, $b).' days';// Це не спрацює, т.к. null не є об'єктом DateInterval.echo total_intervals('d', null);?> `
+` <?phpfunction total_intervals($unit, DateInterval ...$intervals) {   $time = 0; foreach ($intervals as $interval) {        $time += $interval->$unit; }   return $time;}$a = new DateInterval('P1D');$b = new DateInterval('P2D');echo total_intervals('d', $a, $b).' days';// Це не спрацює, т.к. null не є об'єктом DateInterval.echo total_intervals('d', null);?> `
 
 Результат виконання цього прикладу:
 
@@ -217,7 +217,7 @@ Catchable fatal error: 2
 
 **Приклад #14 Доступ до аргументів у попередніх версіях PHP**
 
-` <?phpfunction sum() {    $acc u003d 0; foreach (func_get_args() as $n) {       $acc +u003d $n; }   return$acc;}echo sum(1, 2, 3, 4);?> `
+` <?phpfunction sum() {    $acc = 0; foreach (func_get_args() as $n) {       $acc += $n; }   return$acc;}echo sum(1, 2, 3, 4);?> `
 
 Результат виконання цього прикладу:
 
@@ -277,4 +277,4 @@ Catchable fatal error: 2
 **Приклад #20 Приклад використання іменованих аргументів після
 розпакування**
 
-` <?phpfunction foo($a, $b, $c u003d 3, $d u003d 4) { return $a + $b + $c + $d;}var_dump(foo(...[1, 2], d: 40)); // 46var_dump(foo(...['b' u003d> 2, 'a' u003d> 1], d: 40)); // 46var_dump(foo(...[1, 2], b: 20)); // Фатальна помилка. Іменований аргумент $b перевизначає попередній аргумент?> `
+` <?phpfunction foo($a, $b, $c = 3, $d = 4) { return $a + $b + $c + $d;}var_dump(foo(...[1, 2], d: 40)); // 46var_dump(foo(...['b' => 2, 'a' => 1], d: 40)); // 46var_dump(foo(...[1, 2], b: 20)); // Фатальна помилка. Іменований аргумент $b перевизначає попередній аргумент?> `

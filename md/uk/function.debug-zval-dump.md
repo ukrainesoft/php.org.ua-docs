@@ -7,7 +7,7 @@
 
 #debug_zval_dump
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 debug_zval_dump — Виводить строкове уявлення внутрішньої структури
 zval
@@ -39,7 +39,7 @@ $value,
 
 **Приклад #1 Приклад використання **debug_zval_dump()****
 
-` <?php$var1 u003d 'Hello';$var1 .u003d ' World';$var2 u003d $var1;debug_zval_dump($var1);?> `
+` <?php$var1 = 'Hello';$var1 .= ' World';$var2 = $var1;debug_zval_dump($var1);?> `
 
 Результат виконання цього прикладу:
 
@@ -76,7 +76,7 @@ string(11) "Hello World" refcount(3)
 > ілюстрації розглянемо трохи змінену версію наведеного вище
 > прикладу:
 >
-> ` <?php$var1 u003d 'Hello';$var1 .u003d ' World';// Вкажіть три змінні як посилання на одно і те ж значення$var2 u003d& $var1;$var3 u003d& var1);?> `
+> ` <?php$var1 = 'Hello';$var1 .= ' World';// Вкажіть три змінні як посилання на одно і те ж значення$var2 =& $var1;$var3 =& var1);?> `
 >
 > Результат виконання цього прикладу:
 >

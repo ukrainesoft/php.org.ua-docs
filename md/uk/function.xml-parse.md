@@ -14,7 +14,7 @@ xml_parse — Запускає аналіз XML-документа
 ### Опис
 
 **xml_parse**([XMLParser](class.xmlparser.md) `$parser`, string
-`$data`, bool `$is_final` u003d **`false`**): int
+`$data`, bool `$is_final` = **`false`**): int
 
 **xml_parse()** розбирає XML-документ. Обробники запрограмовані
 подій викликаються стільки разів, скільки необхідно.
@@ -55,9 +55,9 @@ xml_parse — Запускає аналіз XML-документа
 
 ### Список змін
 
-| Версія | Опис                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Параметр `parser` чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Параметр parser чекає на екземпляр [XMLParser](class.xmlparser.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -67,4 +67,4 @@ xml_parse — Запускає аналіз XML-документа
 розібрані частинами, тому немає необхідності тримати весь документ у
 пам'яті. Обробка помилок опущена для стислості.
 
-` <?php$stream u003d fopen('large.xml', 'r');$parser u003d xml_parser_create();// встановити обробникиwhile (($data u003dfread($stream, 16384))    , $data); // розібрати поточну часть}xml_parse($parser, '', true); // завершити розбірxml_parser_free($parser);fclose($stream); `
+` <?php$stream = fopen('large.xml', 'r');$parser = xml_parser_create();// встановити обробникиwhile (($data =fread($stream, 16384))    , $data); // розібрати поточну часть}xml_parse($parser, '', true); // завершити розбірxml_parser_free($parser);fclose($stream); `

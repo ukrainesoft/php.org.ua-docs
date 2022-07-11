@@ -7,7 +7,7 @@
 
 # Memcached::addByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::addByKey — Додає новий елемент на заданий сервер
 
@@ -18,7 +18,7 @@ string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 **Memcached::addByKey()** працює аналогічно

@@ -22,12 +22,12 @@ class **SoapServer** {
 
 private resource `$service`;
 
-private ?[SoapFault](class.soapfault.md) `$__soap_fault` u003d null;
+private ?[SoapFault](class.soapfault.md) `$__soap_fault` = null;
 
 /\* Методи \*/
 
 public [\_\_construct](soapserver.construct.md)(?string `$wsdl`, array
-`$options` u003d [])
+`$options` = [])
  public [addFunction](soapserver.addfunction.md)(array\|string\|int
 `$functions`): void
 
@@ -38,15 +38,15 @@ public
 public [fault](soapserver.fault.md)(
 string `$code`,
 string `$string`,
-string `$actor` u003d "",
+string `$actor` = "",
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$details` u003d **`null`**,
-string `$name` u003d ""
+`$details` = **`null`**,
+string `$name` = ""
 ): void
 
 public [getFunctions](soapserver.getfunctions.md)(): array
 
-public [handle](soapserver.handle.md)(?string `$request` u003d
+public [handle](soapserver.handle.md)(?string `$request` =
 **`null`**): void
 
 public [setClass](soapserver.setclass.md)(string `$class`,

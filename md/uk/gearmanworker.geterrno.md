@@ -7,7 +7,7 @@
 
 # GearmanWorker::getErrno
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::getErrno — Отримання номера помилки
 

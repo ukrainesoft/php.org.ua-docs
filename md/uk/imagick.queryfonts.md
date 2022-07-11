@@ -13,7 +13,7 @@ Imagick::queryFonts — Повертає налаштовані шрифти
 
 ### Опис
 
-public static **Imagick::queryFonts**(string `$pattern` u003d "\*"): array
+public static **Imagick::queryFonts**(string `$pattern` = "\*"): array
 
 Повертає налаштовані шрифти.
 
@@ -34,4 +34,4 @@ public static **Imagick::queryFonts**(string `$pattern` u003d "\*"): array
 
 **Приклад #1 Приклад використання **Imagick::queryFonts()****
 
-`<?php        $output u003d ''; $output .u003d "Шрифти, відповідні 'Helvetica*':<br/>"; $fontList u003d \Imagick::queryFonts("Helvetica*"); foreach ($fontList as $fontName) {            $output .u003d '<li>'. $fontName."</li>"; }    return $output;?> `
+`<?php        $output = ''; $output .= "Шрифти, відповідні 'Helvetica*':<br/>"; $fontList = \Imagick::queryFonts("Helvetica*"); foreach ($fontList as $fontName) {            $output .= '<li>'. $fontName."</li>"; }    return $output;?> `

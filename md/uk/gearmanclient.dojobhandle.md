@@ -7,7 +7,7 @@
 
 # GearmanClient::doJobHandle
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doJobHandle — Отримати дескриптор завдання, що виконується
 

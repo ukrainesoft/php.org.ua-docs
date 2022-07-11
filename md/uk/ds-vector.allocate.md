@@ -7,7 +7,7 @@
 
 # Ds\Vector::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::allocate — Виділяє пам'ять під зазначену місткість
 
@@ -37,7 +37,7 @@ public **Ds\Vector::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Vector::allocate()****
 
-` <?php$vector u003d new \Ds\Vector();var_dump($vector->capacity());$vector->allocate(100);var_dump($vector->capacity());?> `
+` <?php$vector = new \Ds\Vector();var_dump($vector->capacity());$vector->allocate(100);var_dump($vector->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

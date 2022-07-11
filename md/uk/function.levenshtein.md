@@ -7,7 +7,7 @@
 
 # levenshtein
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 levenshtein — Обчислює відстань Левенштейна між двома рядками
 
@@ -16,9 +16,9 @@ levenshtein — Обчислює відстань Левенштейна між 
 **levenshtein**(
 string `$string1`,
 string `$string2`,
-int `$insertion_cost` u003d 1,
-int `$replacement_cost` u003d 1,
-int `$deletion_cost` u003d 1
+int `$insertion_cost` = 1,
+int `$replacement_cost` = 1,
+int `$deletion_cost` = 1
 ): int
 
 Відстань Левенштейна - це мінімальна кількість вставок, замін та
@@ -66,8 +66,8 @@ int `$deletion_cost` u003d 1
 
 **Приклад #1 Приклад використання **levenshtein()****
 
-` <?php// введене слово з друком$input u003d 'carrrot'; ,'pea','bean','potato');// найкоротша відстань поки ще не не найдено$shortest u003d -1;// проходимо за словами для знаходження найближчого варіантаfor         між вхідним словом і поточним    $lev u003d levenshtein($input, $word); // перевіряємо повне збіг| $shortestu003du003d0; // виходимо із циклу - ми найшли точне збіг          break; }    // если это расстояние меньше следующего наименьшего расстояния    // ИЛИ если следующее самое короткое слово ещё не было найдено    if ($lev <u003d $shortest || $shortest < 0) {        // устанивливаем ближайшее совпадение и кратчайшее расстояние        $closest  u003d $ word; $shortestu003du003d$lev; }}echo "Ви ввели: $input
-";if ($shortest u003du003d 0) {   echo "Знайдено точне збіг: $closest
+` <?php// введене слово з друком$input = 'carrrot'; ,'pea','bean','potato');// найкоротша відстань поки ще не не найдено$shortest = -1;// проходимо за словами для знаходження найближчого варіантаfor         між вхідним словом і поточним    $lev = levenshtein($input, $word); // перевіряємо повне збіг| $shortest==0; // виходимо із циклу - ми найшли точне збіг          break; }    // если это расстояние меньше следующего наименьшего расстояния    // ИЛИ если следующее самое короткое слово ещё не было найдено    if ($lev <= $shortest || $shortest < 0) {        // устанивливаем ближайшее совпадение и кратчайшее расстояние        $closest  = $ word; $shortest==$lev; }}echo "Ви ввели: $input
+";if ($shortest == 0) {   echo "Знайдено точне збіг: $closest
 ";} else {    echo "Ви не мали на виду: $closest?
 ";}?> `
 

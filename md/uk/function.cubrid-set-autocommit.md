@@ -7,7 +7,7 @@
 
 #cubrid_set_autocommit
 
-(PECL CUBRID u003d 8.4.0)
+(PECL CUBRID = 8.4.0)
 
 cubrid_set_autocommit — Встановлює режим автокомміту для з'єднання
 

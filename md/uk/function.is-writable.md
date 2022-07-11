@@ -41,7 +41,7 @@ is_writable — Визначає, чи доступний файл для зап
 
 **Приклад #1 Приклад використання **is_writable()****
 
-` <?php$filename u003d 'test.txt';if (is_writable($filename)) {   echo 'Файл доступний для запису';} else {    echo 'файл'не>|
+` <?php$filename = 'test.txt';if (is_writable($filename)) {   echo 'Файл доступний для запису';} else {    echo 'файл'не>|
 
 ### Примітки
 

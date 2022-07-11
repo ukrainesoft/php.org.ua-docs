@@ -7,7 +7,7 @@
 
 # gmp_mul
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_mul — Збільшення чисел
 
@@ -40,7 +40,7 @@ gmp_mul — Збільшення чисел
 
 **Приклад #1 Приклад використання **gmp_mul()****
 
-` <?php$mul u003d gmp_mul("12345678", "2000");echo gmp_strval($mul) . "
+` <?php$mul = gmp_mul("12345678", "2000");echo gmp_strval($mul) . "
 ";?> `
 
 Результат виконання цього прикладу:

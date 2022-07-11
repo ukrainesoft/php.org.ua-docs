@@ -7,7 +7,7 @@
 
 # Ds\Deque::pop
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::pop — Видаляє та повертає останнє значення
 
@@ -36,7 +36,7 @@ public **Ds\Deque::pop**():
 
 **Приклад #1 Приклад використання **Ds\Deque::pop()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque->pop());var_dump($deque->pop());var_dump($deque-> pop());?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->pop());var_dump($deque->pop());var_dump($deque-> pop());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -14,7 +14,7 @@ DOMAttr::\_\_construct — Створює екземпляр класу
 
 ### Опис
 
-public **DOMAttr::\_\_construct**(string `$name`, string `$value` u003d "")
+public **DOMAttr::\_\_construct**(string `$name`, string `$value` = "")
 
 Створює новий об'єкт класу DOMAttr. Цей об'єкт буде доступний тільки
 для читання. Він може бути доданий до документа, але додаткові вузли
@@ -35,12 +35,12 @@ public **DOMAttr::\_\_construct**(string `$name`, string `$value` u003d "")
 **Приклад #1 Створення нового об'єкта класу
 [DOMAttr](class.domattr.md)**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');$element u003d $dom->appendChild(new DOMElement('root'));$attr u003d $element->setAttributeNode new DOMAttr('attr', 'attrvalue'));echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');$element = $dom->appendChild(new DOMElement('root'));$attr = $element->setAttributeNode new DOMAttr('attr', 'attrvalue'));echo $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
-<root attru003d"attrvalue" />
+<?xml version="1.0" encoding="utf-8"?>
+<root attr="attrvalue" />
 
 ### Дивіться також
 

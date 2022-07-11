@@ -7,7 +7,7 @@
 
 # Swoole\Table::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::\_\_construct — Створює таблицю пам'яті Swoole з
 фіксованим розміром

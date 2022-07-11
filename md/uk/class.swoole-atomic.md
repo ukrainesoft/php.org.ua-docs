@@ -7,7 +7,7 @@
 
 # Клас Swoole\Atomic
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **Swoole\Atomic** {
 
 /\* Методи \*/
 
-public [add](swoole-atomic.add.md)(int `$add_value` u003d ?): int
+public [add](swoole-atomic.add.md)(int `$add_value` = ?): int
 
 public [cmpset](swoole-atomic.cmpset.md)(int `$cmp_value`, int
 `$new_value`): int
@@ -26,7 +26,7 @@ public [get](swoole-atomic.get.md)(): int
 
 public [set](swoole-atomic.set.md)(int $value): int
 
-public [sub](swoole-atomic.sub.md)(int `$sub_value` u003d ?): int
+public [sub](swoole-atomic.sub.md)(int `$sub_value` = ?): int
 
 }
 

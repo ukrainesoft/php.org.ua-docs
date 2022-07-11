@@ -7,7 +7,7 @@
 
 # SplFileObject::fscanf
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fscanf — Розбирає рядок файлу відповідно до заданого
 форматом
@@ -55,7 +55,7 @@ public **SplFileObject::fscanf**(string `$format`,
 
 **Приклад #1 Приклад використання **SplFileObject::fscanf()****
 
-` <?php$file u003d new SplFileObject("misc.txt");while ($userinfo u003d $file->fscanf("%s %s %s")) {    list ($name, $profession, $cou u003d$userinfo; // Працюємо з $name $profession $countrycode}?> `
+` <?php$file = new SplFileObject("misc.txt");while ($userinfo = $file->fscanf("%s %s %s")) {    list ($name, $profession, $cou =$userinfo; // Працюємо з $name $profession $countrycode}?> `
 
 Вміст файлу users.txt
 

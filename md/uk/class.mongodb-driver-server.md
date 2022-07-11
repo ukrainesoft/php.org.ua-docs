@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Server
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -17,25 +17,25 @@ final class **MongoDB\Driver\Server** {
 
 /\* Константи \*/
 
-const int `TYPE_UNKNOWN` u003d 0;
+const int `TYPE_UNKNOWN` = 0;
 
-const int `TYPE_STANDALONE` u003d 1;
+const int `TYPE_STANDALONE` = 1;
 
-const int `TYPE_MONGOS` u003d 2;
+const int `TYPE_MONGOS` = 2;
 
-const int `TYPE_POSSIBLE_PRIMARY` u003d 3;
+const int `TYPE_POSSIBLE_PRIMARY` = 3;
 
-const int `TYPE_RS_PRIMARY` u003d 4;
+const int `TYPE_RS_PRIMARY` = 4;
 
-const int `TYPE_RS_SECONDARY` u003d 5;
+const int `TYPE_RS_SECONDARY` = 5;
 
-const int `TYPE_RS_ARBITER` u003d 6;
+const int `TYPE_RS_ARBITER` = 6;
 
-const int `TYPE_RS_OTHER` u003d 7;
+const int `TYPE_RS_OTHER` = 7;
 
-const int `TYPE_RS_GHOST` u003d 8;
+const int `TYPE_RS_GHOST` = 8;
 
-const int `TYPE_LOAD_BALANCER` u003d 9;
+const int `TYPE_LOAD_BALANCER` = 9;
 
 /\* Методи \*/
 
@@ -45,37 +45,37 @@ final public
 [executeBulkWrite](mongodb-driver-server.executebulkwrite.md)(string
 `$namespace`,
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md) `$bulk`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
 
 final public
 [executeCommand](mongodb-driver-server.executecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeQuery](mongodb-driver-server.executequery.md)(string
 `$namespace`, [MongoDB\Driver\Query](class.mongodb-driver-query.md)
-`$query`, array `$options` u003d array()):
+`$query`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeReadCommand](mongodb-driver-server.executereadcommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeWriteCommand](mongodb-driver-server.executewritecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public [getHost](mongodb-driver-server.gethost.md)(): string
@@ -168,9 +168,9 @@ bool
 
 ## Список змін
 
-| Версія              | Опис                                                              |
-| ------------------- | ----------------------------------------------------------------- |
-| PECL mongodb 1.11.0 | Додано константу **`MongoDB\Driver\Server::TYPE_LOAD_BALANCER`**. |
+| Версія              | Опис                                                            |
+| ------------------- | --------------------------------------------------------------- |
+| PECL mongodb 1.11.0 | Додано константу **MongoDB\Driver\Server::TYPE_LOAD_BALANCER**. |
 
 ## Зміст
 

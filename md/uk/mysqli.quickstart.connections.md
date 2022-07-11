@@ -18,8 +18,8 @@
 
 **Приклад #1 Спеціальне призначення localhost**
 
-` <?php$mysqli u003d new mysqli("localhost", "user", "password", "database");echo $mysqli->host_info . "
-";$mysqli u003d new mysqli("127.0.0.1", "user", "password", "database", 3306);echo $mysqli->host_info . "
+` <?php$mysqli = new mysqli("localhost", "user", "password", "database");echo $mysqli->host_info . "
+";$mysqli = new mysqli("127.0.0.1", "user", "password", "database", 3306);echo $mysqli->host_info . "
 ";
 
 Результат виконання цього прикладу:
@@ -37,11 +37,11 @@ Localhost via UNIX socket
 **Приклад #2 Завдання значень за замовчуванням**
 
 `` inicode
-mysqli.default_hostu003d192.168.2.27
-mysqli.default_useru003droot
-mysqli.default_pwu003d""
-mysqli.default_portu003d3306
-mysqli.default_socketu003d/tmp/mysql.sock
+mysqli.default_host=192.168.2.27
+mysqli.default_user=root
+mysqli.default_pw=""
+mysqli.default_port=3306
+mysqli.default_socket=/tmp/mysql.sock
 ````
 
 Далі, щоб встановити з'єднання, функція передає параметри

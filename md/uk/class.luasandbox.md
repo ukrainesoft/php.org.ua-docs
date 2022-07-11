@@ -7,7 +7,7 @@
 
 # Клас LuaSandbox
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 ## Вступ
 
@@ -19,11 +19,11 @@ class **LuaSandbox** {
 
 /\* Константи \*/
 
-const int `SAMPLES` u003d 0;
+const int `SAMPLES` = 0;
 
-const int `SECONDS` u003d 1;
+const int `SECONDS` = 1;
 
-const int `PERCENT` u003d 2;
+const int `PERCENT` = 2;
 
 /\* Методи \*/
 
@@ -34,7 +34,7 @@ public [callFunction](luasandbox.callfunction.md)(string `$name`,
 public [disableProfiler](luasandbox.disableprofiler.md)(): void
 
 public [enableProfiler](luasandbox.enableprofiler.md)(float `$period`
-u003d 0.02): bool
+= 0.02): bool
 
 public [getCPUUsage](luasandbox.getcpuusage.md)(): float
 
@@ -44,15 +44,15 @@ public [getPeakMemoryUsage](luasandbox.getpeakmemoryusage.md)(): int
 
 public
 [getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md)(int
-`$units` u003d LuaSandbox::SECONDS): array
+`$units` = LuaSandbox::SECONDS): array
 
 public static [getVersionInfo](luasandbox.getversioninfo.md)(): array
 
 public [loadBinary](luasandbox.loadbinary.md)(string `$code`, string
-`$chunkName` u003d ''): [LuaSandboxFunction](class.luasandboxfunction.md)
+`$chunkName` = ''): [LuaSandboxFunction](class.luasandboxfunction.md)
 
 public [loadString](luasandbox.loadstring.md)(string `$code`, string
-`$chunkName` u003d ''): [LuaSandboxFunction](class.luasandboxfunction.md)
+`$chunkName` = ''): [LuaSandboxFunction](class.luasandboxfunction.md)
 
 public [pauseUsageTimer](luasandbox.pauseusagetimer.md)(): bool
 

@@ -7,7 +7,7 @@
 
 # bzerror
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzerror — Повертає код та рядок помилки роботи з bzip2 у вигляді масиву
 
@@ -33,7 +33,7 @@ bzerror — Повертає код та рядок помилки роботи 
 
 **Приклад #1 Приклад використання **bzerror()****
 
-` <?php$error u003d bzerror($bz);echo $error["errno"];echo $error["errstr"];?> `
+` <?php$error = bzerror($bz);echo $error["errno"];echo $error["errstr"];?> `
 
 ### Дивіться також
 

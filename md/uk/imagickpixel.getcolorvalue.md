@@ -35,7 +35,7 @@ Imagick. Це RGB колір, CMYK колір, альфа канал або пр
 
 **Приклад #1 Приклад використання **Imagick::getColorValue()****
 
-` <?php$color u003d new ImagickPixel('rgba(90%, 20%, 20%, 0.75)');echo "Значення альфа каналу ".$color->getColorValue(Imagick::COLOR_ ".PHP_EOL;echo "Значення червоного каналу ".$color->getColorValue(Imagick::COLOR_RED).PHP_EOL;echo "Значення зеленого каналу ".$color->getColorValue(EHP каналу ".$color->getColorValue(Imagick::COLOR_BLUE).PHP_EOL;echo "".PHP_EOL;echo "Значення блакитного каналу ".$color->getColorValue(Imagick::COLOR_C .$color->getColorValue(Imagick::COLOR_MAGENTA).PHP_EOL;echo "Значення жовтого каналу ".$color->getColorValue(Imagick::COLOR_YELLOW)Чоного ::COLOR_BLACK).PHP_EOL;?> `
+` <?php$color = new ImagickPixel('rgba(90%, 20%, 20%, 0.75)');echo "Значення альфа каналу ".$color->getColorValue(Imagick::COLOR_ ".PHP_EOL;echo "Значення червоного каналу ".$color->getColorValue(Imagick::COLOR_RED).PHP_EOL;echo "Значення зеленого каналу ".$color->getColorValue(EHP каналу ".$color->getColorValue(Imagick::COLOR_BLUE).PHP_EOL;echo "".PHP_EOL;echo "Значення блакитного каналу ".$color->getColorValue(Imagick::COLOR_C .$color->getColorValue(Imagick::COLOR_MAGENTA).PHP_EOL;echo "Значення жовтого каналу ".$color->getColorValue(Imagick::COLOR_YELLOW)Чоного ::COLOR_BLACK).PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 

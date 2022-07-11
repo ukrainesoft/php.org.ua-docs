@@ -7,7 +7,7 @@
 
 #odbc_next_result
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 odbc_next_result — Перевіряє, чи є кілька результатів.
 
@@ -35,24 +35,24 @@ odbc_next_result — Перевіряє, чи є кілька результат
 
 **Приклад #1 Приклад використання **odbc_next_result()****
 
-` <?php$r_Connection u003d odbc_connect($dsn, $username, $password);$s_SQL u003d <<<END_SQLSELECT 'A'SELECT 'B'SELECT 'C'END_SQL;$r_Results u003d odbc_exe ;$a_Row1 u003d odbc_fetch_array($r_Results);$a_Row2 u003d odbc_fetch_array($r_Results);echo "Вывод первого результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Получение второго результирующего набора ";var_dump(odbc_next_result($r_Results ));$a_Row1 u003d odbc_fetch_array($r_Results);$a_Row2 u003d odbc_fetch_array($r_Results);echo "Вывод второго результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Получение третьего результирующего набора ";var_dump(odbc_next_result( $r_Results));$a_Row1 u003d odbc_fetch_array($r_Results);$a_Row2 u003d odbc_fetch_array($r_Results);echo "Вывод третьего результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Попытка получения четвёртого результирующего набора ";var_dump (odbc_next_result($r_Results));?> `
+` <?php$r_Connection = odbc_connect($dsn, $username, $password);$s_SQL = <<<END_SQLSELECT 'A'SELECT 'B'SELECT 'C'END_SQL;$r_Results = odbc_exe ;$a_Row1 = odbc_fetch_array($r_Results);$a_Row2 = odbc_fetch_array($r_Results);echo "Вывод первого результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Получение второго результирующего набора ";var_dump(odbc_next_result($r_Results ));$a_Row1 = odbc_fetch_array($r_Results);$a_Row2 = odbc_fetch_array($r_Results);echo "Вывод второго результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Получение третьего результирующего набора ";var_dump(odbc_next_result( $r_Results));$a_Row1 = odbc_fetch_array($r_Results);$a_Row2 = odbc_fetch_array($r_Results);echo "Вывод третьего результирующего набора ";var_dump($a_Row1, $a_Row2);echo "Попытка получения четвёртого результирующего набора ";var_dump (odbc_next_result($r_Results));?> `
 
 Результат виконання цього прикладу:
 
 Виведення першого результуючого набору array(1) {
-["A"]u003d>
+["A"]=>
 string(1) "A"
 }
 bool(false)
 Отримання другого результуючого набору bool(true)
 Виведення другого результуючого набору array(1) {
-["B"]u003d>
+["B"]=>
 string(1) "B"
 }
 bool(false)
 Отримання третього результуючого набору bool(true)
 Виведення третього результуючого набору array(1) {
-["C"]u003d>
+["C"]=>
 string(1) "C"
 }
 bool(false)

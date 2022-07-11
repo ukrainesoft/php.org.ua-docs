@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\BulkWrite::delete
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\BulkWrite::delete — Додавання операції видалення порції
 
 ### Опис
 
 public **MongoDB\Driver\BulkWrite::delete**(array\|object `$filter`,
-array `$deleteOptions` u003d ?): void
+array `$deleteOptions` = ?): void
 
 Додає операцію видалення в об'єкт
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md).
@@ -49,17 +49,17 @@ array `$deleteOptions` u003d ?): void
 
 ### Список змін
 
-| Версія             | Опис                        |
-| ------------------ | --------------------------- |
-| PECL mongodb 1.8.0 | Додана опція ``hint'`.      |
-| PECL mongodb 1.2.0 | Додана опція ``collation'`. |
+| Версія             | Опис                     |
+| ------------------ | ------------------------ |
+| PECL mongodb 1.8.0 | Додана опція hint'.      |
+| PECL mongodb 1.2.0 | Додана опція collation'. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 **MongoDB\Driver\BulkWrite::delete()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->delete(['x' u003d> 1], ['limit' u003d> 1]);$bulk->delete(['x' u003d > 2], ['limit' u003d> 0]);$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$result u003d $manager->executeBulkWrite('db.collection', $ bulk);?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite;$bulk->delete(['x' => 1], ['limit' => 1]);$bulk->delete(['x' = > 2], ['limit' => 0]);$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$result = $manager->executeBulkWrite('db.collection', $ bulk);?> `
 
 ### Дивіться також
 

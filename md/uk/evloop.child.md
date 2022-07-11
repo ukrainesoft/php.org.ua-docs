@@ -7,7 +7,7 @@
 
 # EvLoop::child
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::child — Створює об'єкт EvChild, пов'язаний із поточним циклом
 подій
@@ -18,8 +18,8 @@ final public **EvLoop::child**(
 string `$pid` ,
 string `$trace` ,
 string `$callback`,
-string `$data` u003d ?,
-string `$priority` u003d ?
+string `$data` = ?,
+string `$priority` = ?
 ): [EvChild](class.evchild.md)
 
 Створює об'єкт EvChild, пов'язаний із поточним циклом подій.

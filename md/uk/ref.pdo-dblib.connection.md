@@ -7,7 +7,7 @@
 
 # PDO_DBLIB DSN
 
-(PECL PDO_DBLIB \>u003d 0.9.0)
+(PECL PDO_DBLIB \>= 0.9.0)
 
 PDO_DBLIB DSN — З'єднання з базами даних Microsoft SQL Server та Sybase
 
@@ -46,6 +46,6 @@ DB-lib" або "PHP freetds".
 Наведені нижче приклади демонструють PDO_DBLIB DSN для з'єднання з базами
 даних Microsoft SQL Server та Sybase:
 
-mssql:hostu003dlocalhost;dbnameu003dtestdb
-sybase:hostu003dlocalhost;dbnameu003dtestdb
-dblib:hostu003dlocalhost;dbnameu003dtestdb
+mssql:host=localhost;dbname=testdb
+sybase:host=localhost;dbname=testdb
+dblib:host=localhost;dbname=testdb

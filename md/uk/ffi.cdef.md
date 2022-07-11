@@ -7,13 +7,13 @@
 
 # FFI::cdef
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::cdef — Створює новий об'єкт FFI
 
 ### Опис
 
-public static **FFI::cdef**(string `$code` u003d "", ?string `$lib` u003d
+public static **FFI::cdef**(string `$code` = "", ?string `$lib` =
 **`null`**): [FFI](class.ffi.md)
 
 Створює новий об'єкт FFI.
@@ -47,6 +47,6 @@ public static **FFI::cdef**(string `$code` u003d "", ?string `$lib` u003d
 
 ### Список змін
 
-| Версія | Опис                                 |
-| ------ | ------------------------------------ |
-| 8.0.0  | `lib` тепер припускає значення null. |
+| Версія | Опис                               |
+| ------ | ---------------------------------- |
+| 8.0.0  | lib тепер припускає значення null. |

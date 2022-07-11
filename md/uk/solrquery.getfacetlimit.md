@@ -8,14 +8,14 @@
 
 # SolrQuery::getFacetLimit
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetLimit — Повертає максимальну кількість лічильників
 обмежень, яке має бути повернене для полів фасету
 
 ### Опис
 
-public **SolrQuery::getFacetLimit**(string `$field_override` u003d ?): int
+public **SolrQuery::getFacetLimit**(string `$field_override` = ?): int
 
 Повертає максимальну кількість лічильників обмежень, що має
 бути повернутий для полів фасета. Приймає необов'язкове

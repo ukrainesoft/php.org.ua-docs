@@ -7,7 +7,7 @@
 
 # ReflectionFiber::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFiber::\_\_construct — Створює об'єкт ReflectionFiber
 

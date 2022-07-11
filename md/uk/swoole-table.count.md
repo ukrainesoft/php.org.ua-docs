@@ -4,14 +4,14 @@
 - [PHP Manual](index.md)
 - [Swoole\Table](class.swoole-table.md)
 - Підраховує рядки в таблиці або підраховує всі елементи
-таблиці, якщо $mode u003d 1
+таблиці, якщо $mode = 1
 
 # Swoole\Table::count
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::count — Підраховує рядки у таблиці або підраховує всі
-елементи у таблиці, якщо $mode u003d 1
+елементи у таблиці, якщо $mode = 1
 
 ### Опис
 

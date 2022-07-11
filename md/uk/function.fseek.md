@@ -13,7 +13,7 @@ fseek — Встановлює зміщення у файловому вказі
 
 ### Опис
 
-**fseek**(resource `$stream`, int `$offset`, int `$whence` u003d
+**fseek**(resource `$stream`, int `$offset`, int `$whence` =
 **`SEEK_SET`**): int
 
 Встановлює зміщення у файлі, який посилається `stream`. Нове
@@ -58,7 +58,7 @@ fseek — Встановлює зміщення у файловому вказі
 
 **Приклад #1 Приклад використання функції **fseek()****
 
-`<?php$fp u003d fopen('somefile.txt', 'r');// читаємо трохи даних$data u003d fgets($fp, 4096);// переміщаємось назад|до| і rewind($fp);fseek($fp, 0);?> `
+`<?php$fp = fopen('somefile.txt', 'r');// читаємо трохи даних$data = fgets($fp, 4096);// переміщаємось назад|до| і rewind($fp);fseek($fp, 0);?> `
 
 ### Примітки
 

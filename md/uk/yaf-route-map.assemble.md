@@ -7,13 +7,13 @@
 
 # Yaf_Route_Map::assemble
 
-(Yaf \> u003d 2.3.0)
+(Yaf \> = 2.3.0)
 
 Yaf_Route_Map::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Map::assemble**(array `$info`, array `$query` u003d ?):
+public **Yaf_Route_Map::assemble**(array `$info`, array `$query` = ?):
 string
 
 Збирає URL-адресу.
@@ -38,9 +38,9 @@ string
 
 **Приклад #1 Приклад використання **Yaf_Route_Map::assemble()****
 
-` <?php$routeru003du003d new Yaf_Router();$route u003d new Yaf_Route_Map();$router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble array(                                ':c' u003d> 'foo_bar'                        ),                        array(                                'tkey1' u003d> 'tval1',                                'tkey2' u003d> 'tval2'                        )                   ));$route u003d new Yaf_Route_Map(true, '_');$ router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble(                        array(                                ':a' u003d> 'foo_bar'                        ),                        array(                                'tkey1' u003d> ' tval1',                                'tkey2' u003d> 'tval2'                        )                   )); `
+` <?php$router== new Yaf_Router();$route = new Yaf_Route_Map();$router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble array(                                ':c' => 'foo_bar'                        ),                        array(                                'tkey1' => 'tval1',                                'tkey2' => 'tval2'                        )                   ));$route = new Yaf_Route_Map(true, '_');$ router->addRoute("map", $route);var_dump($router->getRoute('map')->assemble(                        array(                                ':a' => 'foo_bar'                        ),                        array(                                'tkey1' => ' tval1',                                'tkey2' => 'tval2'                        )                   )); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(%d) "/foo/bar?tkey1u003dtval1&tkey2u003dtval2"
+string(%d) "/foo/bar?tkey1=tval1&tkey2=tval2"
 string(%d) "/foo/bar/_/tkey1/tval1/tkey2/tval2"

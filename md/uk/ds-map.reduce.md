@@ -7,7 +7,7 @@
 
 # Ds\Map::reduce
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::reduce — Зменшує колекцію до одного значення, використовуючи
 callback-функцію
@@ -17,7 +17,7 @@ callback-функцію
 public **Ds\Map::reduce**([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Зменшує колекцію до одного значення, використовуючи callback-функцію.
@@ -55,7 +55,7 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **Приклад #1 Приклад використання **Ds\Map::reduce()** з початковим
 значенням**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);$callback u003d function($carry, $key, $value ) {    return $carry * $value;};var_dump($map->reduce($callback, 5));// Ітерації://// $carry u003d $initial u003d 5/// $carry * 1 u003d  5// $carry u003d $carry * 2 u003d 10//$$carry u003d $carry * 3 u003d 30?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$callback = function($carry, $key, $value ) {    return $carry * $value;};var_dump($map->reduce($callback, 5));// Ітерації://// $carry = $initial = 5/// $carry * 1 =  5// $carry = $carry * 2 = 10//$$carry = $carry * 3 = 30?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -64,7 +64,7 @@ int(30)
 **Приклад #2 Приклад використання **Ds\Map::reduce()** без початкового
 значення**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->reduce(function($carry, $key, $value) {   return $carry + $value + 5;}));// Ітерації://// $carry u003d $initial u003d null///// $carry u003d $car          // $carry u003d $carry + 2 + 5 u003d 13// $carry u003d $carry + 3 + 5 u003d 21?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->reduce(function($carry, $key, $value) {   return $carry + $value + 5;}));// Ітерації://// $carry = $initial = null///// $carry = $car          // $carry = $carry + 2 + 5 = 13// $carry = $carry + 3 + 5 = 21?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

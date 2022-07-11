@@ -7,7 +7,7 @@
 
 # GearmanTask::taskNumerator
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanTask::taskNumerator — Отримання чисельника відсотка виконаної
 роботи

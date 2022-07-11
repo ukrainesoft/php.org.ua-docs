@@ -7,7 +7,7 @@
 
 # Ds\Deque::get
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::get — Повертає значення за індексом
 
@@ -37,7 +37,7 @@ public **Ds\Deque::get**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Deque::get()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);var_dump($deque->get(0));var_dump($deque->get(1) );var_dump($deque->get(2));?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->get(0));var_dump($deque->get(1) );var_dump($deque->get(2));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -48,7 +48,7 @@ string(1) "c"
 **Приклад #2 Приклад використання **Ds\Deque::get()** із синтаксисом
 масиву**
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);var_dump($deque[0]);var_dump($deque[1]);var_dump($deque [2]);?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque[0]);var_dump($deque[1]);var_dump($deque [2]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

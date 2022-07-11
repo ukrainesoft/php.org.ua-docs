@@ -9,7 +9,7 @@
 
 #transliterator_create
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::create -- transliterator_create — Створити транслітератор
 
@@ -18,11 +18,11 @@ Transliterator::create -- transliterator_create — Створити транс�
 Об'єктно-орієнтований стиль
 
 public static **Transliterator::create**(string `$id`, int `$direction`
-u003d Transliterator::FORWARD): ?[Transliterator](class.transliterator.md)
+= Transliterator::FORWARD): ?[Transliterator](class.transliterator.md)
 
 Процедурний стиль
 
-**transliterator_create**(string `$id`, int `$direction` u003d
+**transliterator_create**(string `$id`, int `$direction` =
 Transliterator::FORWARD): ?[Transliterator](class.transliterator.md)
 
 Відкриває об'єкт Transliterator за ідентифікатором.

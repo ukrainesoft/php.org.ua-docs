@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::getParam
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getParam — Отримує параметр виклику
 
 ### Опис
 
 public **Yaf_Request_Abstract::getParam**(string `$name`, string
-`$default` u003d ?):
+`$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 ### Список параметрів

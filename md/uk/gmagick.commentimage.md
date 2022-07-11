@@ -7,7 +7,7 @@
 
 # Gmagick::commentimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::commentimage — Додати коментар до зображення
 

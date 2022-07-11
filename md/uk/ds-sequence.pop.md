@@ -7,7 +7,7 @@
 
 # Ds\Sequence::pop
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::pop — Видаляє та повертає останнє значення
 
@@ -36,7 +36,7 @@ abstract public **Ds\Sequence::pop**():
 
 **Приклад #1 Приклад використання **Ds\Sequence::pop()****
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->pop());var_dump($sequence->pop());var_dump($sequence-> pop());?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->pop());var_dump($sequence->pop());var_dump($sequence-> pop());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

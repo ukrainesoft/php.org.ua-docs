@@ -24,7 +24,7 @@
 в змінному оточенні **`LD_LIBRARY_PATH`**, щоб динамічний
 Лінковщик зміг його знайти:
 
-$ export LD_LIBRARY_PATHu003d/opt/icu/lib
+$ export LD_LIBRARY_PATH=/opt/icu/lib
 
 Інакше, якщо ICU встановлено стандартну директорію, то
 ніяких додаткових дій не потрібне.

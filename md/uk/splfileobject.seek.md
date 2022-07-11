@@ -7,7 +7,7 @@
 
 # SplFileObject::seek
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::seek — Переклад файлового покажчика на заданий рядок
 
@@ -37,7 +37,7 @@ public **SplFileObject::seek**(int `$line`): void
 
 Цей приклад виводить третій рядок скрипта на 2-й позиції.
 
-` <?php$file u003d new SplFileObject(__FILE__);$file->seek(2);echo $file->current();?> `
+` <?php$file = new SplFileObject(__FILE__);$file->seek(2);echo $file->current();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

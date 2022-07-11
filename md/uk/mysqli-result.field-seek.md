@@ -57,8 +57,8 @@ public **mysqli_result::field_seek**(int `$index`): bool
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) {                    я
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d $mysqli-       поле у другому стовпці */    $result->field_seek(1);    $finfo u003d $result->fetch_field();    printf("Ім'я:    %%s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) {                    я
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = $mysqli-       поле у другому стовпці */    $result->field_seek(1);    $finfo = $result->fetch_field();    printf("Ім'я:    %%s
 ", $finfo->name);    printf("Таблиця:   %%s
 ", $finfo->table);    printf("Макс. довжина: %d
 ", $finfo->max_length);    printf("Прапори:   %%d
@@ -68,8 +68,8 @@ public **mysqli_result::field_seek**(int `$index`): bool
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Помилка|
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d mysqli_   у другому стовпці */   mysqli_field_seek($result, 1);   $finfo u003d mysqli_fetch_field($result);    printf("Ім'я:     %
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Помилка|
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = mysqli_   у другому стовпці */   mysqli_field_seek($result, 1);   $finfo = mysqli_fetch_field($result);    printf("Ім'я:     %
 ", $finfo->name);    printf("Таблиця:   %%s
 ", $finfo->table);    printf("Макс. довжина: %d
 ", $finfo->max_length);    printf("Прапори:   %%d

@@ -7,7 +7,7 @@
 
 # Event::timer
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::timer — Створити об'єкт події таймера
 
@@ -16,7 +16,7 @@ Event::timer — Створити об'єкт події таймера
 public static **Event::timer**( [EventBase](class.eventbase.md)
 `$base` , [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d ?): [Event](class.event.md)
+`$arg` = ?): [Event](class.event.md)
 
 Створює об'єкт таймера. Це полегшений метод для створення
 події сигналу. Зверніть увагу, що штатний конструктор

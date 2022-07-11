@@ -7,14 +7,14 @@
 
 # Vtiful\Kernel\Excel::setColumn
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::setColumn — Встановити стовпець
 
 ### Опис
 
 public **Vtiful\Kernel\Excel::setColumn**(string `$range`, float
-`$width`, resource `$format` u003d ?)
+`$width`, resource `$format` = ?)
 
 Встановити формат шпальти.
 
@@ -37,4 +37,4 @@ public **Vtiful\Kernel\Excel::setColumn**(string `$range`, float
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel  u003d new \Vtiful\Kernel\Excel($config);$fileObject u003d $excel->fileName('tutorial01.xlsx') ;$fileHandleu003du003d$fileObject->getHandle();$boldStyle u003d \Vtiful\Kernel\Format::bold($fileHandle);$fileObject->header(['name', 'age'])    ->data([ ['viest', 21]])   ->setColumn('A:A', 200, $boldStyle)   ->output(); `
+` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$boldStyle = \Vtiful\Kernel\Format::bold($fileHandle);$fileObject->header(['name', 'age'])    ->data([ ['viest', 21]])   ->setColumn('A:A', 200, $boldStyle)   ->output(); `

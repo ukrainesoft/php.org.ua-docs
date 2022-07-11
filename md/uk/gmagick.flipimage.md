@@ -7,7 +7,7 @@
 
 # Gmagick::flipimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::flipimage — Створює вертикальне дзеркальне відображення
 

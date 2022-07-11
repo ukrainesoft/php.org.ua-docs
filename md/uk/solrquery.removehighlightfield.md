@@ -7,7 +7,7 @@
 
 # SolrQuery::removeHighlightField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::removeHighlightField — Видаляє одне з полів, що використовуються
 для виділення

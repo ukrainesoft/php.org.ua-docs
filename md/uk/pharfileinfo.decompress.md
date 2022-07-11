@@ -7,7 +7,7 @@
 
 # PharFileInfo::decompress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharFileInfo::decompress — Розтискає поточний файл
 
@@ -45,7 +45,7 @@ public **PharFileInfo::decompress**(): bool
 
 **Приклад #1 Приклад використання **PharFileInfo::decompress()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $fileu003du003d$p['myfile.txt']; $file->compress(Phar::GZ); var_dump($file->isCompressed()); $p['myfile.txt']->decompress(); var_dump($file->isCompressed());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $file==$p['myfile.txt']; $file->compress(Phar::GZ); var_dump($file->isCompressed()); $p['myfile.txt']->decompress(); var_dump($file->isCompressed());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

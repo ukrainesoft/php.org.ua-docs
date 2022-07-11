@@ -40,4 +40,4 @@ int `$y`
 
 **Приклад #1 Приклад використання **Imagick::spliceImage()****
 
-` <?phpfunction spliceImage($imagePath, $startX, $startY, $width, $height) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->spliceImage($width, $height, $startX, $startY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction spliceImage($imagePath, $startX, $startY, $width, $height) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->spliceImage($width, $height, $startX, $startY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -7,14 +7,14 @@
 
 # Gmagick::thumbnailimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::thumbnailimage — Змінює розмір зображення
 
 ### Опис
 
 public **Gmagick::thumbnailimage**(int `$width`, int `$height`, bool
-`$fit` u003d **`false`**): [Gmagick](class.gmagick.md)
+`$fit` = **`false`**): [Gmagick](class.gmagick.md)
 
 Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані
 профілі. Мета полягає у створенні невеликих мініатюрних зображень,

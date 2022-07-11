@@ -7,7 +7,7 @@
 
 # OCILob::close
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 OCILob::close — Закриває дескриптор об'єкта LOB
 

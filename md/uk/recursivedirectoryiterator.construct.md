@@ -7,7 +7,7 @@
 
 # RecursiveDirectoryIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 RecursiveDirectoryIterator::\_\_construct — Конструктор класу
 RecursiveDirectoryIterator
@@ -15,7 +15,7 @@ RecursiveDirectoryIterator
 ### Опис
 
 public **RecursiveDirectoryIterator::\_\_construct**(string
-`$directory`, int `$flags` u003d FilesystemIterator::KEY_AS_PATHNAME \|
+`$directory`, int `$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
 FilesystemIterator::CURRENT_AS_FILEINFO)
 
 Створює новий об'єкт класу **RecursiveDirectoryIterator()**, використовуючи
@@ -44,16 +44,16 @@ FilesystemIterator::CURRENT_AS_FILEINFO)
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                               |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр `directory` містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
+| Версія | Опис                                                                                                                                                                             |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр directory містить порожній рядок. раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)**
 
-` <?php$directory u003d '/tmp';$it u003d new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));$it->rewind();while($it->valid()) {    if (!) ->isDot()) {        echo 'Ім'я файлу: ' . $it->getSubPathName() . "
+` <?php$directory = '/tmp';$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($directory));$it->rewind();while($it->valid()) {    if (!) ->isDot()) {        echo 'Ім'я файлу: ' . $it->getSubPathName() . "
 ";        echo 'Піддиректорія: ' . $it->getSubPath() . "
 ";        echo 'Ключ: ' . $it->key() . "
 

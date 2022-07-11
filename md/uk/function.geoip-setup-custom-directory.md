@@ -7,7 +7,7 @@
 
 # geoip_setup_custom_directory
 
-(PECL geoip \>u003d 1.1.0)
+(PECL geoip \>= 1.1.0)
 
 geoip_setup_custom_directory — Встановити власну директорію
 для бази даних GeoIP

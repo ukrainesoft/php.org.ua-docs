@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\Command::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Command::\_\_construct — Створює новий об'єкт Command
 
 ### Опис
 
 final public **MongoDB\Driver\Command::\_\_construct**(array\|object
-`$document`, array `$commandOptions` u003d ?)
+`$document`, array `$commandOptions` = ?)
 
 Створює новий об'єкт класу
 [MongoDB\Driver\Command](class.mongodb-driver-command.md), який
@@ -50,56 +50,56 @@ final public **MongoDB\Driver\Command::\_\_construct**(array\|object
 
 ### Список змін
 
-| Версія             | Опис                                                                                      |
-| ------------------ | ----------------------------------------------------------------------------------------- |
-| PECL mongodb 1.4.0 | Доданий другий аргумент `commandOptions`, що дозволяє визначити опцію ``maxAwaitTimeMS'`. |
+| Версія             | Опис                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------ |
+| PECL mongodb 1.4.0 | Доданий другий аргумент commandOptions, що дозволяє визначити опцію maxAwaitTimeMS'. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Command::\_\_construct()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$command u003d new MongoDB\Driver\Command(array("buildinfo" u003d> 1));try {     u003d $manager->executeCommand("admin", $command); $responseu003du003d$cursor->toArray()[0];} catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$command = new MongoDB\Driver\Command(array("buildinfo" => 1));try {     = $manager->executeCommand("admin", $command); $response==$cursor->toArray()[0];} catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
 ";   exit;}var_dump($response);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
 array(13) {
-["version"]u003d>
+["version"]=>
 string(14) "2.8.0-rc2-pre-"
-["gitVersion"]u003d>
+["gitVersion"]=>
 string(62) "b743d7158f7642f4da6b7eac8320374b3b88dc2e modules: subscription"
-["OpenSSLVersion"]u003d>
+["OpenSSLVersion"]=>
 string(25) "OpenSSL 1.0.1f 6 Jan 2014"
-["sysInfo"]u003d>
-string(104) "Linux infant 3.16.0-24-generic #32-Ubuntu SMP Tue Oct 28 13:07:32 UTC 2014 x86_64 BOOST_LIB_VERSIONu003d1_49"
-["loaderFlags"]u003d>
+["sysInfo"]=>
+string(104) "Linux infant 3.16.0-24-generic #32-Ubuntu SMP Tue Oct 28 13:07:32 UTC 2014 x86_64 BOOST_LIB_VERSION=1_49"
+["loaderFlags"]=>
 string(91) "-fPIC -pthread -Wl,-z,now -rdynamic -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,-E"
-["compilerFlags"]u003d>
-string(301) "-Wnon-virtual-dtor -Woverloaded-virtual -stdu003dc++11 -fPIC -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -pipe -Werror -O3 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-but-set-variable -fno-builtin-memcmp -stdu003dc99"
-["allocator"]u003d>
+["compilerFlags"]=>
+string(301) "-Wnon-virtual-dtor -Woverloaded-virtual -std=c++11 -fPIC -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -pipe -Werror -O3 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-but-set-variable -fno-builtin-memcmp -std=c99"
+["allocator"]=>
 string(8) "tcmalloc"
-["versionArray"]u003d>
+["versionArray"]=>
 array(4) {
-[0]u003d>
+[0]=>
 int(2)
-[1]u003d>
+[1]=>
 int(8)
-[2]u003d>
+[2]=>
 int(0)
-[3]u003d>
+[3]=>
 int(-8)
 }
-["javascriptEngine"]u003d>
+["javascriptEngine"]=>
 string(2) "V8"
-["bits"]u003d>
+["bits"]=>
 int(64)
-["debug"]u003d>
+["debug"]=>
 bool(false)
-["maxBsonObjectSize"]u003d>
+["maxBsonObjectSize"]=>
 int(16777216)
-["ok"]u003d>
+["ok"]=>
 float(1)
 }
 
@@ -111,7 +111,7 @@ float(1)
 команд можна передавати опцію `maxTimeMS` для обмеження часу їх
 виконання.
 
-`<?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$command u003d new MongoDB\Driver\Command(    array(      "            > "beer_name",        "maxTimeMS" u003d> 10,    ));try {    $cursor u003d $manager->executeCommand("beerdb", $command); $responseu003du003d$cursor->toArray()[0];} catch(MongoDB\Driver\Exception\Exception $e) {    echo $e->getMessage(), "
+`<?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$command = new MongoDB\Driver\Command(    array(      "            > "beer_name",        "maxTimeMS" => 10,    ));try {    $cursor = $manager->executeCommand("beerdb", $command); $response==$cursor->toArray()[0];} catch(MongoDB\Driver\Exception\Exception $e) {    echo $e->getMessage(), "
 ";   exit;}var_dump($response);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -7,13 +7,13 @@
 
 # EventBase::exit
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::exit — Припиняє надсилання подій
 
 ### Опис
 
-public **EventBase::exit**( float `$timeout` u003d ?): bool
+public **EventBase::exit**( float `$timeout` = ?): bool
 
 Повідомляє, що база подій має припинити відправку подій через
 кількість секунд.

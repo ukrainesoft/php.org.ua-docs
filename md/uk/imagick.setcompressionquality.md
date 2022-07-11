@@ -28,7 +28,7 @@ public **Imagick::setCompressionQuality**(int `$quality`): bool
 ### Список параметрів
 
 `quality`
-Ціле число (int) від 1 до 100, 1 u003d високий рівень стиснення, 100 u003d низький
+Ціле число (int) від 1 до 100, 1 = високий рівень стиснення, 100 = низький
 ступінь стиснення.
 
 ### Значення, що повертаються
@@ -39,4 +39,4 @@ public **Imagick::setCompressionQuality**(int `$quality`): bool
 
 **Приклад #1 Приклад використання **Imagick::setCompressionQuality()****
 
-`<?phpfunction setCompressionQuality($imagePath, $quality) {    $backgroundImagick u003d new \Imagick(realpath($imagePath)); $imagicku003du003dnewImagick(); $imagick->setCompressionQuality($quality); $imagick->newPseudoImage(        $backgroundImagick->getImageWidth(),        $backgroundImagick->getImageHeight(),                      $imagick->compositeImage(        $backgroundImagick,        \Imagick::COMPOSITE_ATOP,         0,                      | $imagick->setFormat("jpg"); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction setCompressionQuality($imagePath, $quality) {    $backgroundImagick = new \Imagick(realpath($imagePath)); $imagick==newImagick(); $imagick->setCompressionQuality($quality); $imagick->newPseudoImage(        $backgroundImagick->getImageWidth(),        $backgroundImagick->getImageHeight(),                      $imagick->compositeImage(        $backgroundImagick,        \Imagick::COMPOSITE_ATOP,         0,                      | $imagick->setFormat("jpg"); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

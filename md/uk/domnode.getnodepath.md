@@ -7,7 +7,7 @@
 
 # DOMNode::getNodePath
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DOMNode::getNodePath — Отримання XPath вузла
 
@@ -30,7 +30,7 @@ public **DOMNode::getNodePath**(): ?string
 
 **Приклад #1 Приклад використання **DOMNode::getNodePath()****
 
-` <?php// Створення об'єкту DOMDocument$dom u003d new DOMDocument;// Завантаження XML$dom->loadXML('<fruits> <apples>  <apple>braeburn</apple>  <app> /apples> <pears>  <pear>conference</pear> </pears></fruits>');// ВисновокXPath для кожного елементаforeach ($dom->getElementsByTagName('*') as $ node->getNodePath() . "
+` <?php// Створення об'єкту DOMDocument$dom = new DOMDocument;// Завантаження XML$dom->loadXML('<fruits> <apples>  <apple>braeburn</apple>  <app> /apples> <pears>  <pear>conference</pear> </pears></fruits>');// ВисновокXPath для кожного елементаforeach ($dom->getElementsByTagName('*') as $ node->getNodePath() . "
 ";}?> `
 
 Результат виконання цього прикладу:

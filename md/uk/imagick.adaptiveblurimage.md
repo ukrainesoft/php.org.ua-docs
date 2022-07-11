@@ -15,7 +15,7 @@ Imagick::adaptiveBlurImage — Додає адаптивний фільтр ро
 ### Опис
 
 public **Imagick::adaptiveBlurImage**(float `$radius`, float `$sigma`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Додає адаптивний фільтр розмиття до зображення. Інтенсивність
 адаптивного розмиття значно зменшується до країв зображення,
@@ -52,7 +52,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
 
 Адаптивне розмиття зображення та відображення його у браузері.
 
-` <?phpheader('Content-type: image/jpeg');$image u003d new Imagick('test.jpg');$image->adaptiveBlurImage(5,3);echo $image;?> `
+` <?phpheader('Content-type: image/jpeg');$image = new Imagick('test.jpg');$image->adaptiveBlurImage(5,3);echo $image;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

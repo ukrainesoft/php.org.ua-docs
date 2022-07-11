@@ -31,7 +31,7 @@ public **DirectoryIterator::getPathname**(): string
 
 **Приклад #1 Приклад використання **DirectoryIterator::getPathname()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    echo $fileinfo->getPathname() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    echo $fileinfo->getPathname() . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

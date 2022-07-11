@@ -8,7 +8,7 @@
 
 # sodium_crypto_stream_xchacha20
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_stream_xchacha20 — Розширює ключ та одноразовий номер у
 ключовий потік псевдовипадкових байтів

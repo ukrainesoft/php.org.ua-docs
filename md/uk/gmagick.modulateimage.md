@@ -7,7 +7,7 @@
 
 # Gmagick::modulateimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::modulateimage — Керує яскравістю, насиченістю та відтінком
 

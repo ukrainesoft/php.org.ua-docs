@@ -7,14 +7,14 @@
 
 #parse_ini_string
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 parse_ini_string — Розбирає рядок конфігурації
 
 ### Опис
 
-**parse_ini_string**(string `$ini_string`, bool `$process_sections` u003d
-**`false`**, int `$scanner_mode` u003d **`INI_SCANNER_NORMAL`**):
+**parse_ini_string**(string `$ini_string`, bool `$process_sections` =
+**`false`**, int `$scanner_mode` = **`INI_SCANNER_NORMAL`**):
 array\|false
 
 **parse_ini_string()** повертає налаштування з рядка `ini_string` в

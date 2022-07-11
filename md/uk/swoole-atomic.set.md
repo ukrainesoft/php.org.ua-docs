@@ -7,7 +7,7 @@
 
 # Swoole\Atomic::set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Atomic::set — Встановлює нове значення для атомарного об'єкта
 

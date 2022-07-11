@@ -32,7 +32,7 @@ posix_getpgid — Повертає ID групи поточного процес
 
 **Приклад #1 Приклад використання **posix_getpgid()****
 
-` <?php$pid u003d posix_getppid();echo posix_getpgid($pid); //35?> `
+` <?php$pid = posix_getppid();echo posix_getpgid($pid); //35?> `
 
 ### Примітки
 

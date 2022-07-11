@@ -8,7 +8,7 @@
 
 # fann_create_standard_array
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_create_standard_array — Створює стандартну повністю підключену
 нейронну мережу зворотного поширення, використовуючи масив розмірів

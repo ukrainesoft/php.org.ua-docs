@@ -73,7 +73,7 @@ PHP надає [вбудоване API хешування паролів](book.p
 Врахуйте, що якщо ви використовуєте функцію [crypt()](function.crypt.md)
 для перевірки пароля, то вам потрібно застерегти себе від атак за часом,
 застосовуючи порівняння рядків, що займає постійний час. Ні
-оператори PHP [u003du003d і u003du003du003d](language.operators.comparison.md), ні функція
+оператори PHP [== і ===](language.operators.comparison.md), ні функція
 [strcmp()](function.strcmp.md) не є такими. Функція ж
 [password_verify()](function.password-verify.md) робить те,
 що потрібно. Рекомендовано використовувати [вбудований API хешування паролів](book.password.md), якщо є така можливість.

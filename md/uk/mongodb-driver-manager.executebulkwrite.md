@@ -85,11 +85,11 @@ array `$options` u003d array()):
 
 ### Список змін
 
-| Версія             | Опис                                                                                                                                                                                                                                                                                                      |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).                                                                                |
-| PECL mongodb 1.4.0 | Третій параметр `options` тепер є масивом. Для зворотної сумісності цей параметр також приймає об'єкт [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md).                                                                                                                                |
-| PECL mongodb 1.3.0 | Тепер викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо `bulk` не містить операцій запису. Раніше викидалося [MongoDB\Driver\Exception\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md). |
+| Версія             | Опис                                                                                                                                                                                                                                                                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).                                                                              |
+| PECL mongodb 1.4.0 | Третій параметр options тепер є масивом. Для зворотної сумісності цей параметр також приймає об'єкт [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md).                                                                                                                                |
+| PECL mongodb 1.3.0 | Тепер викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо bulk не містить операцій запису. Раніше викидалося [MongoDB\Driver\Exception\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md). |
 
 ### Приклади
 

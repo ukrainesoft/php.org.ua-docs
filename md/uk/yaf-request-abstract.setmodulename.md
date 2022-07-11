@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::setModuleName
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::setModuleName — Встановлює ім'я модуля
 
 ### Опис
 
 public **Yaf_Request_Abstract::setModuleName**(string `$module`, bool
-`$format_name` u003d true): void
+`$format_name` = true): void
 
 Встановлює ім'я модуля для запиту, зазвичай використовується для настроювання
 маршрутизатор для встановлення імені модуля результату маршруту.

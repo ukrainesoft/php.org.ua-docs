@@ -7,7 +7,7 @@
 
 # Pool::submitTo
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Pool::submitTo — Відправляє завдання конкретному воркеру для виконання
 
@@ -36,7 +36,7 @@ public **Pool::submitTo**(int `$worker`, [Threaded](class.threaded.md)
 
 **Приклад #1 Надсилання завдань конкретному воркеру**
 
-` <?phpclass Task extends Threaded {    public function run() {        var_dump(Thread::getCurrentThreadID()); }}$pool u003d new Pool(2);$pool->submit(new Task());for ($i u003d 0; $i < 5; ++$i) {   $$pool->submitTo(0, ne Task()); // додавання всіх задань першому воркеру}$pool->submitTo(1, new Task()); // не може додати завдання другому воркеру, тому що його ще не існує$pool->shutdown(); `
+` <?phpclass Task extends Threaded {    public function run() {        var_dump(Thread::getCurrentThreadID()); }}$pool = new Pool(2);$pool->submit(new Task());for ($i = 0; $i < 5; ++$i) {   $$pool->submitTo(0, ne Task()); // додавання всіх задань першому воркеру}$pool->submitTo(1, new Task()); // не може додати завдання другому воркеру, тому що його ще не існує$pool->shutdown(); `
 
 Результат виконання цього прикладу:
 

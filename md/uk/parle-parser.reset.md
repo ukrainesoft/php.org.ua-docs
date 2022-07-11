@@ -7,13 +7,13 @@
 
 # Parle\Parser::reset
 
-(PECL parle \>u003d 0.7.1)
+(PECL parle \>= 0.7.1)
 
 Parle\Parser::reset — Скидає стан парсера
 
 ### Опис
 
-public **Parle\Parser::reset**(int `$tokenId` u003d ?): void
+public **Parle\Parser::reset**(int `$tokenId` = ?): void
 
 Скидає стан парсера за допомогою заданого ідентифікатора
 токена.

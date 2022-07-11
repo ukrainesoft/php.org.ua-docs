@@ -7,7 +7,7 @@
 
 #shmop_open
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 shmop_open — Резервування або використання блоку пам'яті, що розділяється
 
@@ -80,7 +80,7 @@ exploits).
 
 **Приклад #1 Резервування ділянки пам'яті, що розділяється**
 
-` <?php$shm_key u003d ftok(__FILE__, 't');$shm_id u003d shmop_open($shm_key, "c", 0644, 100);?> `
+` <?php$shm_key = ftok(__FILE__, 't');$shm_id = shmop_open($shm_key, "c", 0644, 100);?> `
 
 У наведеному прикладі виконується доступ до блоку з ідентифікатором
 повертається функцією [ftok()](function.ftok.md).

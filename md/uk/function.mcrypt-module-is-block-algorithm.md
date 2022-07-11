@@ -7,7 +7,7 @@
 
 # mcrypt_module_is_block_algorithm
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_module_is_block_algorithm — Перевіряє, чи заданий
 алгоритм блоковий чи ні
@@ -20,7 +20,7 @@ mcrypt_module_is_block_algorithm — Перевіряє, чи заданий
 ### Опис
 
 **mcrypt_module_is_block_algorithm**(string `$algorithm`, string
-`$lib_dir` u003d ?): bool
+`$lib_dir` = ?): bool
 
 Функція повертає **`true`**, якщо алгоритм блокований, інакше повертає
 **`false`** (струмовий).

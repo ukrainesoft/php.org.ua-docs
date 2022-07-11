@@ -7,14 +7,14 @@
 
 # gmp_div_q
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_div_q — Поділ чисел
 
 ### Опис
 
 **gmp_div_q**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` u003d
+[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` =
 **`GMP_ROUND_ZERO`**): [GMP](class.gmp.md)
 
 Поділяє `num1` на `num2` і повертає цілий результат.
@@ -54,11 +54,11 @@ gmp_div_q — Поділ чисел
 
 **Приклад #1 Приклад використання **gmp_div_q()****
 
-$ 10 u003d 100, 5; echo gmp_strval($div1) . "
-";     $div2 u003d gmp_div_q("1", "3");     echo gmp_strval($div2) . "
-";    $div3u003du003dgmp_div_q("1", "3", GMP_ROUND_PLUSINF);     echo gmp_strval($div3) . "
-";     $div4 u003d gmp_div_q("-1", "4", GMP_ROUND_PLUSINF);     echo gmp_strval($div4) . "
-";    $div5u003du003dgmp_div_q("-1", "4", GMP_ROUND_MINUSINF);     echo gmp_strval($div5) . "
+$ 10 = 100, 5; echo gmp_strval($div1) . "
+";     $div2 = gmp_div_q("1", "3");     echo gmp_strval($div2) . "
+";    $div3==gmp_div_q("1", "3", GMP_ROUND_PLUSINF);     echo gmp_strval($div3) . "
+";     $div4 = gmp_div_q("-1", "4", GMP_ROUND_PLUSINF);     echo gmp_strval($div4) . "
+";    $div5==gmp_div_q("-1", "4", GMP_ROUND_MINUSINF);     echo gmp_strval($div5) . "
 ";     ?> `
 
 Результат виконання цього прикладу:

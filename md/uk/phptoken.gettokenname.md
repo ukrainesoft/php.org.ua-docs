@@ -31,7 +31,7 @@ T\_\* (дивіться [Список тегів (tokens) парсера](tokens
 
 **Приклад #1 Приклад використання **PhpToken::getTokenName()****
 
-`<?php// стандартний токен$token u003d new PhpToken(T_ECHO, echo');var_dump($token->getTokenName()); // -> string(6) "T_ECHO"// відносимвольний токен$token u003d new PhpToken(ord(';'), ';');var_dump($token->getTokenName()); // -> string(1) ";"// невідомий токен$token u003d new PhpToken(10000 , " ");var_dump($token->getTokenName()); // -> NULL `
+`<?php// стандартний токен$token = new PhpToken(T_ECHO, echo');var_dump($token->getTokenName()); // -> string(6) "T_ECHO"// відносимвольний токен$token = new PhpToken(ord(';'), ';');var_dump($token->getTokenName()); // -> string(1) ";"// невідомий токен$token = new PhpToken(10000 , " ");var_dump($token->getTokenName()); // -> NULL `
 
 ### Дивіться також
 

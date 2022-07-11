@@ -9,7 +9,7 @@
 
 #xmlwriter_write_dtd
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::writeDtd -- xmlwriter_write_dtd — Записати повний тег DTD
 
@@ -19,9 +19,9 @@ XMLWriter::writeDtd -- xmlwriter_write_dtd — Записати повний т�
 
 public **XMLWriter::writeDtd**(
 string `$name`,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$content` u003d **`null`**
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$content` = **`null`**
 ): bool
 
 Процедурний стиль
@@ -29,9 +29,9 @@ string `$name`,
 **xmlwriter_write_dtd**(
 [XMLWriter](class.xmlwriter.md) `$writer`,
 string `$name`,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$content` u003d **`null`**
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$content` = **`null`**
 ): bool
 
 Записує повний тег DTD.
@@ -63,9 +63,9 @@ string `$name`,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

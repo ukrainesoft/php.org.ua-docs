@@ -7,7 +7,7 @@
 
 # Parle\RParser::precedence
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::precedence — Оголошує правило пріоритету
 

@@ -7,7 +7,7 @@
 
 # SyncEvent::reset
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncEvent::reset — Скидає ручну подію
 
@@ -32,7 +32,7 @@ public **SyncEvent::reset**(): bool
 
 **Приклад #1 **SyncEvent::reset()** example**
 
-` <?php// У веб-додатку:$event u003d new SyncEvent("DemoApplication", true);$event->wait();// В завдання cron:$event u003d new SyncEvent("DemoApplication", true) ;$event->reset();/* ... Виконання деяких задач по обслуговування ... */$event->fire();?> `
+` <?php// У веб-додатку:$event = new SyncEvent("DemoApplication", true);$event->wait();// В завдання cron:$event = new SyncEvent("DemoApplication", true) ;$event->reset();/* ... Виконання деяких задач по обслуговування ... */$event->fire();?> `
 
 ### Дивіться також
 

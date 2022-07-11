@@ -7,7 +7,7 @@
 
 # Ds\Stack::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::isEmpty — Перевіряє, чи порожня колекція
 
@@ -30,7 +30,7 @@ public **Ds\Stack::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Stack::isEmpty()****
 
-` <?php$a u003d new \Ds\Stack([1, 2, 3]);$b u003d new \Ds\Stack();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+` <?php$a = new \Ds\Stack([1, 2, 3]);$b = new \Ds\Stack();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

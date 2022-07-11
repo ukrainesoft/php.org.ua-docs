@@ -7,7 +7,7 @@
 
 # GmagickPixel::getcolorvalue
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::getcolorvalue — Повертає нормалізоване значення для
 заданого колірного каналу

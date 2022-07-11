@@ -7,7 +7,7 @@
 
 # PharFileInfo::getCRC32
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::getCRC32 — Отримати контрольну суму CRC32
 
@@ -39,7 +39,7 @@ Phar-архів.
 
 **Приклад #1 Приклад використання **PharFileInfo::getCRC32()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $fileu003du003d$p['myfile.txt']; echo $file->getCRC32();} catch (Exception $e) {    echo 'Операції запису на my.phar завершилися помилкою: ', $e;}?> `
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $file==$p['myfile.txt']; echo $file->getCRC32();} catch (Exception $e) {    echo 'Операції запису на my.phar завершилися помилкою: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

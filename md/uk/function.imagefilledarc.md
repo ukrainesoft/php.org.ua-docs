@@ -7,7 +7,7 @@
 
 #imagefilledarc
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagefilledarc — Малювання та заливка дуги
 
@@ -81,15 +81,15 @@ y-координат центру.
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Створення тривимірного пирога**
 
-`<?php// створення зображення$image u003d imagecreatetruecolor(100, 100);// визначення квітів$white    u003du003d imagecolorallocate($image, 0xFF, 0xFF, 0xFF);$  );$darkgray u003d imagecolorallocate($image, 0x90, 0x90, 0x90);$navy     u003d imagecolorallocate($image, 0x00, 0x00, 0x80);$darknavy u003d imagecolorallocate($image, 0x00, 0x00, 0x50);$red      u003d imagecolorallocate($image, 0xFF, 0x00, 0x00);$darkred u003du003d imagecolorallocate($image, 0x90, 0x00, 0x00);// робимо ефект 3Дfor ($i  ($image, 50, $i, 100, 50, 0, 45, $darknavy, IMG_ARC_PIE); imagefilledarc($image, 50, $i, 100, 50, 45, 75 , $darkgray, IMG_ARC_PIE); imagefilledarc($image, 50, $i, 100, 50, 75, 360 , $darkred, IMG_ARC_PIE);}imagefilledarc($image, 50, 50, 100, 50, |,| $image, 50, 50, 100, 50, 45, 75 , $gray, IMG_ARC_PIE);imagefilledarc($image, 50, 50, 100, 50, 75, 360 ,   Content-type:image/png');imagepng($image);imagedestroy($image);?> `
+`<?php// створення зображення$image = imagecreatetruecolor(100, 100);// визначення квітів$white    == imagecolorallocate($image, 0xFF, 0xFF, 0xFF);$  );$darkgray = imagecolorallocate($image, 0x90, 0x90, 0x90);$navy     = imagecolorallocate($image, 0x00, 0x00, 0x80);$darknavy = imagecolorallocate($image, 0x00, 0x00, 0x50);$red      = imagecolorallocate($image, 0xFF, 0x00, 0x00);$darkred == imagecolorallocate($image, 0x90, 0x00, 0x00);// робимо ефект 3Дfor ($i  ($image, 50, $i, 100, 50, 0, 45, $darknavy, IMG_ARC_PIE); imagefilledarc($image, 50, $i, 100, 50, 45, 75 , $darkgray, IMG_ARC_PIE); imagefilledarc($image, 50, $i, 100, 50, 75, 360 , $darkred, IMG_ARC_PIE);}imagefilledarc($image, 50, 50, 100, 50, |,| $image, 50, 50, 100, 50, 45, 75 , $gray, IMG_ARC_PIE);imagefilledarc($image, 50, 50, 100, 50, 75, 360 ,   Content-type:image/png');imagepng($image);imagedestroy($image);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

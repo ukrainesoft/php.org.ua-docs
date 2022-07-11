@@ -39,15 +39,15 @@ public **DirectoryIterator::key**():
 
 **Приклад #1 Приклад використання **DirectoryIterator::key()****
 
-` <?php$dir u003d new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if (!$fileinfo->isDot()) {           " u003d> " . $fileinfo->getFilename() . "
+` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if (!$fileinfo->isDot()) {           " => " . $fileinfo->getFilename() . "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-0 u003d> apple.jpg
-1 u003d> banana.jpg
-2 u003d> index.php
-3 u003d> pear.jpg
+0 => apple.jpg
+1 => banana.jpg
+2 => index.php
+3 => pear.jpg
 
 ### Дивіться також
 

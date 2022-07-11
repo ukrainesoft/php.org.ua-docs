@@ -7,7 +7,7 @@
 
 # swoole_event_set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_event_set — Оновити callback-функції події сокету
 
@@ -15,9 +15,9 @@ swoole_event_set — Оновити callback-функції події соке�
 
 **swoole_event_set**(
 int `$fd`,
-[callable](language.types.callable.md) `$read_callback` u003d ?,
-[callable](language.types.callable.md) `$write_callback` u003d ?,
-int `$events` u003d 0
+[callable](language.types.callable.md) `$read_callback` = ?,
+[callable](language.types.callable.md) `$write_callback` = ?,
+int `$events` = 0
 ): bool
 
 ### Список параметрів

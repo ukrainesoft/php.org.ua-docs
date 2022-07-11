@@ -7,7 +7,7 @@
 
 # Gmagick::setimagechanneldepth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagechanneldepth — Встановлює глибину певного
 каналу зображення

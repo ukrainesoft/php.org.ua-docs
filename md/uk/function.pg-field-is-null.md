@@ -7,7 +7,7 @@
 
 #pg_field_is_null
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_field_is_null — Перевірка поля на значення SQL `NULL`
 
@@ -52,14 +52,14 @@ int `$row`,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_field_is_null()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die ("Не удалося з'єднатися з базою"); $res u003d pg_query($dbconn, "select * from authors where author u003d 'Orwell'"); if ($res) {      if (pg_field_is_null($res, 0, "year") u003du003d 1) {         echo "Значення поля y.
-";      }      if (pg_field_is_null($res, 0, "year") u003du003d 0) {          echo "З|
+` <?php  $dbconn = pg_connect("dbname=publisher") or die ("Не удалося з'єднатися з базою"); $res = pg_query($dbconn, "select * from authors where author = 'Orwell'"); if ($res) {      if (pg_field_is_null($res, 0, "year") == 1) {         echo "Значення поля y.
+";      }      if (pg_field_is_null($res, 0, "year") == 0) {          echo "З|
 ";    } }?> `

@@ -7,7 +7,7 @@
 
 #stream_resolve_include_path
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8)
 
 stream_resolve_include_path — Перетворити повне ім'я файлу за допомогою
 шляхи включення

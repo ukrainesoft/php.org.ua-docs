@@ -36,7 +36,7 @@ bool
 
 **Приклад #1 Приклад використання **method_exists()****
 
-` <?php$directory u003d new Directory('.');var_dump(method_exists($directory,'read'));?> `
+` <?php$directory = new Directory('.');var_dump(method_exists($directory,'read'));?> `
 
 Результат виконання цього прикладу:
 

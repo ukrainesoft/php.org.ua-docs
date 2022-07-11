@@ -38,4 +38,4 @@ abstract public **mysql_xdevapi\CrudOperationSkippable::skip**(int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CrudOperationSkippable::skip()****
 
-` <?php$res u003d $coll->find('job like \'Programmatore\'')->limit(1)->skip(3)->sort('age asc')->execute(); ?> `
+` <?php$res = $coll->find('job like \'Programmatore\'')->limit(1)->skip(3)->sort('age asc')->execute(); ?> `

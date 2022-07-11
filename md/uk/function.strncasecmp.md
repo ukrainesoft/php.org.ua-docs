@@ -8,7 +8,7 @@
 
 #strncasecmp
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 strncasecmp — Бінарно-безпечне порівняння перших n символів рядків без
 обліку регістру
@@ -43,7 +43,7 @@ int
 
 **Приклад #1 Приклад використання **strncasecmp()****
 
-`<?php$var1 u003d 'Hello John';$var2 u003d 'hello Doe';if (strncasecmp($var1, $var2, 5) u003du003du003d 0) {    echo 'Перші 5$ порівнянні рядків без обліку реєстру';}?> `
+`<?php$var1 = 'Hello John';$var2 = 'hello Doe';if (strncasecmp($var1, $var2, 5) === 0) {    echo 'Перші 5$ порівнянні рядків без обліку реєстру';}?> `
 
 ### Дивіться також
 

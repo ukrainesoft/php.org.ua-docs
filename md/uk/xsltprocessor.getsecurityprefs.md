@@ -7,7 +7,7 @@
 
 # XSLTProcessor::getSecurityPrefs
 
-(PHP \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP \>= 5.4.0, PHP 7, PHP 8)
 
 XSLTProcessor::getSecurityPrefs — Отримати налаштування безпеки
 

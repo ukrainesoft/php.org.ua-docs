@@ -8,7 +8,7 @@
 
 # fann_cascadetrain_on_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_cascadetrain_on_data — Навчання на всьому наборі даних протягом
 певного періоду часу за допомогою алгоритму Cascade2

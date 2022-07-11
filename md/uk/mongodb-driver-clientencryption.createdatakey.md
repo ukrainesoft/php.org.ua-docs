@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\ClientEncryption::createDataKey
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\ClientEncryption::createDataKey — Створює ключ шифрування
 
 ### Опис
 
 final public **MongoDB\Driver\ClientEncryption::createDataKey**(string
-`$kmsProvider`, array `$options` u003d ?):
+`$kmsProvider`, array `$options` = ?):
 [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
 
 Створює новий документ із ключем шифрування та кладе його в колекцію

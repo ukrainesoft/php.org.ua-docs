@@ -8,7 +8,7 @@
 
 # ReflectionFunctionAbstract::hasTentativeReturnType
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFunctionAbstract::hasTentativeReturnType — Визначає, чи є
 у функції попередній тип значення, що повертається
@@ -34,7 +34,7 @@ public **ReflectionFunctionAbstract::hasTentativeReturnType**(): bool
 **Приклад #1 Приклад використання
 **ReflectionFunctionAbstract::hasTentativeReturnType()****
 
-` <?php$method u003d new ReflectionMethod(\ArrayAccess::class, 'offsetGet');var_dump($method->hasTentativeReturnType()); `
+` <?php$method = new ReflectionMethod(\ArrayAccess::class, 'offsetGet');var_dump($method->hasTentativeReturnType()); `
 
 Результат виконання цього прикладу:
 

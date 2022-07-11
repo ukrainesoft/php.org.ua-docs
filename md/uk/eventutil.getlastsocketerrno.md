@@ -7,7 +7,7 @@
 
 # EventUtil::getLastSocketErrno
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventUtil::getLastSocketErrno — Отримати номер останньої, що виникла
 помилки сокету
@@ -16,7 +16,7 @@ EventUtil::getLastSocketErrno — Отримати номер останньої
 
 public static **EventUtil::getLastSocketErrno**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$socket` u003d **`null`** ): int
+`$socket` = **`null`** ): int
 
 Повертає номер останньої помилки сокету ( `errno` ).
 

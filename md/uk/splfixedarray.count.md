@@ -7,7 +7,7 @@
 
 # SplFixedArray::count
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::count — Повертає розмір масиву
 
@@ -29,7 +29,7 @@ public **SplFixedArray::count**(): int
 
 **Приклад #1 Приклад **SplFixedArray::count()****
 
-` <?php$array u003d new SplFixedArray(5);echo $array->count() . "
+` <?php$array = new SplFixedArray(5);echo $array->count() . "
 ";echo count($array) . "
 ";?> `
 

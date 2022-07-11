@@ -7,13 +7,13 @@
 
 # OCILob::seek
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 OCILob::seek — Встановлює позицію внутрішнього покажчика LOB
 
 ### Опис
 
-public **OCILob::seek**(int `$offset`, int `$whence` u003d
+public **OCILob::seek**(int `$offset`, int `$whence` =
 **`OCI_SEEK_SET`**): bool
 
 Встановлює позицію внутрішнього покажчика об'єкта LOB.

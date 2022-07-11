@@ -32,7 +32,7 @@ gethostbyname — Отримує IPv4-адресу, що відповідає п
 
 **Приклад #1 Простий приклад використання **gethostbyname()****
 
-` <?php$ip u003d gethostbyname('www.example.com');echo $ip;?> `
+` <?php$ip = gethostbyname('www.example.com');echo $ip;?> `
 
 ### Дивіться також
 

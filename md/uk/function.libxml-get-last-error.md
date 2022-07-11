@@ -7,7 +7,7 @@
 
 #libxml_get_last_error
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 libxml_get_last_error — Вилучення останньої помилки з libxml
 

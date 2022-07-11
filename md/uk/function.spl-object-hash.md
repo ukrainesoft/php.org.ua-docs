@@ -7,7 +7,7 @@
 
 # spl_object_hash
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 spl_object_hash — Повертає хеш-ідентифікатор об'єкту
 
@@ -36,7 +36,7 @@ spl_object_hash — Повертає хеш-ідентифікатор об'єк
 
 **Приклад #1 Приклад використання **spl_object_hash()****
 
-` <?php$id u003d spl_object_hash($object);$storage[$id] u003d $object;?> `
+` <?php$id = spl_object_hash($object);$storage[$id] = $object;?> `
 
 ### Примітки
 

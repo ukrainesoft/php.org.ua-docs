@@ -9,18 +9,18 @@
 
 # Lua::\_\_call
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::call -- Lua::\_\_call — Викликати функції Lua:
 
 ### Опис
 
 public **Lua::call**([callable](language.types.callable.md)
-`$lua_func`, array `$args` u003d ?, int `$use_self` u003d 0):
+`$lua_func`, array `$args` = ?, int `$use_self` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public **Lua::\_\_call**([callable](language.types.callable.md)
-`$lua_func`, array `$args` u003d ?, int `$use_self` u003d 0):
+`$lua_func`, array `$args` = ?, int `$use_self` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**
@@ -48,8 +48,8 @@ public **Lua::\_\_call**([callable](language.types.callable.md)
 
 **Приклад #1 Приклад використання **Lua::call()****
 
-` <?php$lua u003d new Lua();$lua->eval(<<<CODE     function dummy(foo, bar)       print(foo, ",", bar)  >| ", array("Lua", "geiliable
-")); $lua->dummy("Lua", "geiliable"); // __call()var_dump($lua->call(array("table", "concat"), array(array(1u003d> 1, 2u003d>2, 3u003d>3), "-")));?> `
+` <?php$lua = new Lua();$lua->eval(<<<CODE     function dummy(foo, bar)       print(foo, ",", bar)  >| ", array("Lua", "geiliable
+")); $lua->dummy("Lua", "geiliable"); // __call()var_dump($lua->call(array("table", "concat"), array(array(1=> 1, 2=>2, 3=>3), "-")));?> `
 
 Результат виконання цього прикладу:
 

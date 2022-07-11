@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\MaxKey::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\MaxKey::\_\_construct - Конструктор MaxKey
 

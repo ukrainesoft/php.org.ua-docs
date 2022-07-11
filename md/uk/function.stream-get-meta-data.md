@@ -7,7 +7,7 @@
 
 #stream_get_meta_data
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_get_meta_data — Витягує заголовок/метадані з
 потоків/файлових покажчиків
@@ -75,57 +75,57 @@ stream_get_meta_data — Витягує заголовок/метадані з
 **Приклад #1 Приклад використання **stream_get_meta_data()** з
 використанням [fopen()](function.fopen.md) з http**
 
-` <?php$url u003d 'http://www.example.com/';if (!$fp u003d fopen($url, 'r')) {    trigger_error("Неможливо відкрити URL ($url)", E_US_ );}$meta u003d stream_get_meta_data($fp);var_dump($meta);fclose($fp);?> `
+` <?php$url = 'http://www.example.com/';if (!$fp = fopen($url, 'r')) {    trigger_error("Неможливо відкрити URL ($url)", E_US_ );}$meta = stream_get_meta_data($fp);var_dump($meta);fclose($fp);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(10) {
-'timed_out' u003d>
+'timed_out' =>
 bool(false)
-'blocked' u003d>
+'blocked' =>
 bool(true)
-'eof' u003d>
+'eof' =>
 bool(false)
-'wrapper_data' u003d>
+'wrapper_data' =>
 array(13) {
-[0] u003d>
+[0] =>
 string(15) "HTTP/1.1 200 OK"
-[1] u003d>
+[1] =>
 string(11) "Age: 244629"
-[2] u003d>
-string(29) "Cache-Control: max-ageu003d604800"
-[3] u003d>
-string(38) "Content-Type: text/html; charsetu003dUTF-8"
-[4] u003d>
+[2] =>
+string(29) "Cache-Control: max-age=604800"
+[3] =>
+string(38) "Content-Type: text/html; charset=UTF-8"
+[4] =>
 string(35) "Date: Sat, 20 Nov 2021 18:17:57 GMT"
-[5] u003d>
+[5] =>
 string(24) "Etag: "3147526947+ident""
-[6] u003d>
+[6] =>
 string(38) "Expires: Sat, 27 Nov 2021 18:17:57 GMT"
-[7] u003d>
+[7] =>
 string(44) "Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT"
-[8] u003d>
+[8] =>
 string(22) "Server: ECS (chb/0286)"
-[9] u003d>
+[9] =>
 string(21) "Vary: Accept-Encoding"
-[10] u003d>
+[10] =>
 string(12) "X-Cache: HIT"
-[11] u003d>
+[11] =>
 string(20) "Content-Length: 1256"
-[12] u003d>
+[12] =>
 string(17) "Connection: close"
 }
-'wrapper_type' u003d>
+'wrapper_type' =>
 string(4) "http"
-'stream_type' u003d>
+'stream_type' =>
 string(14) "tcp_socket/ssl"
-'mode' u003d>
+'mode' =>
 string(1) "r"
-'unread_bytes' u003d>
+'unread_bytes' =>
 int(1256)
-'seekable' u003d>
+'seekable' =>
 bool(false)
-'uri' u003d>
+'uri' =>
 string(23) "http://www.example.com/"
 }
 
@@ -133,35 +133,35 @@ string(23) "http://www.example.com/"
 використанням
 [stream_socket_client()](function.stream-socket-client.md) з https**
 
-` <?php$streamContext u003d stream_context_create(    [        'ssl' u003d> [            'capture_peer_cert' u003d> true,            'capture_peer_cert_chain' u003d> true,            'disable_compression' u003d> true,        ],    ]);$client u003d stream_socket_client(    'ssl: //www.example.com:443',   $errorNumber,   $errorDescription,    40,    STREAM_CLIENT_CONNECT,    $streamContext);$meta u003d stream
+` <?php$streamContext = stream_context_create(    [        'ssl' => [            'capture_peer_cert' => true,            'capture_peer_cert_chain' => true,            'disable_compression' => true,        ],    ]);$client = stream_socket_client(    'ssl: //www.example.com:443',   $errorNumber,   $errorDescription,    40,    STREAM_CLIENT_CONNECT,    $streamContext);$meta = stream
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(8) {
-'crypto' u003d>
+'crypto' =>
 array(4) {
-'protocol' u003d>
+'protocol' =>
 string(7) "TLSv1.3"
-'cipher_name' u003d>
+'cipher_name' =>
 string(22) "TLS_AES_256_GCM_SHA384"
-'cipher_bits' u003d>
+'cipher_bits' =>
 int(256)
-'cipher_version' u003d>
+'cipher_version' =>
 string(7) "TLSv1.3"
 }
-'timed_out' u003d>
+'timed_out' =>
 bool(false)
-'blocked' u003d>
+'blocked' =>
 bool(true)
-'eof' u003d>
+'eof' =>
 bool(false)
-'stream_type' u003d>
+'stream_type' =>
 string(14) "tcp_socket/ssl"
-'mode' u003d>
+'mode' =>
 string(2) "r+"
-'unread_bytes' u003d>
+'unread_bytes' =>
 int(0)
-'seekable' u003d>
+'seekable' =>
 bool(false)
 }
 

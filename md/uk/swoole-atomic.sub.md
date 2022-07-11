@@ -7,13 +7,13 @@
 
 # Swoole\Atomic::sub
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Atomic::sub — Віднімає число значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::sub**(int `$sub_value` u003d ?): int
+public **Swoole\Atomic::sub**(int `$sub_value` = ?): int
 
 Віднімає число значення атомарного об'єкта.
 

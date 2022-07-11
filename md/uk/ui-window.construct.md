@@ -14,7 +14,7 @@ UI\Window::\_\_construct — Створити новий об'єкт Window
 ### Опис
 
 public **UI\Window::\_\_construct**(string `$title`, Size `$size`, bool
-`$menu` u003d **`false`**)
+`$menu` = **`false`**)
 
 Створить новий об'єкт Window
 

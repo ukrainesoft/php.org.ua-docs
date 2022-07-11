@@ -7,7 +7,7 @@
 
 #lcfirst
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 lcfirst — Перетворює перший символ рядка на нижній регістр
 
@@ -35,7 +35,7 @@ lcfirst — Перетворює перший символ рядка на ни�
 
 **Приклад #1 Приклад використання **lcfirst()****
 
-` <?php$foo u003d 'HelloWorld';$foo u003d lcfirst($foo); // helloWorld$bar u003d 'HELLO WORLD!';$bar u003d lcfirst($bar); // hELLO WORLD!$bar u003dlcfirst(strtoupper($bar)); // hELLO WORLD!?> `
+` <?php$foo = 'HelloWorld';$foo = lcfirst($foo); // helloWorld$bar = 'HELLO WORLD!';$bar = lcfirst($bar); // hELLO WORLD!$bar =lcfirst(strtoupper($bar)); // hELLO WORLD!?> `
 
 ### Дивіться також
 

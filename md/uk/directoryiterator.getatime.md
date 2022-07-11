@@ -36,7 +36,7 @@ public **DirectoryIterator::getATime**(): int
 Приклад виведе список файлів директорії, що містить скрипт,
 та час останнього доступу до них.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getATime() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getATime() . "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

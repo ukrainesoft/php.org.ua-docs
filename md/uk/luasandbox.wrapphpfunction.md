@@ -7,7 +7,7 @@
 
 # LuaSandbox::wrapPhpFunction
 
-(PECL luasandbox \>u003d 1.2.0)
+(PECL luasandbox \>= 1.2.0)
 
 LuaSandbox::wrapPhpFunction — Обертає викликаний PHP-об'єкт в
 [LuaSandboxFunction](class.luasandboxfunction.md)

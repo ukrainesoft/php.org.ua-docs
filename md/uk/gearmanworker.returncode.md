@@ -7,7 +7,7 @@
 
 # GearmanWorker::returnCode
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::returnCode — Отримання останнього коду повернення Gearman
 

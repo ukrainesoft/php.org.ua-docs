@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightFragsize
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightFragsize — Розмір фрагментів, які слідують
 враховувати при виділенні
@@ -15,7 +15,7 @@ SolrQuery::setHighlightFragsize — Розмір фрагментів, які с
 ### Опис
 
 public **SolrQuery::setHighlightFragsize**(int `$size`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює розмір символів фрагментів для виділення. "0" вказує,
 що слід використати всі значення поля (без фрагментації).

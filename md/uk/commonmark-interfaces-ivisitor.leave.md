@@ -7,7 +7,7 @@
 
 # CommonMark\Interfaces\IVisitor::leave
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Interfaces\IVisitor::leave — Відвідування
 

@@ -7,13 +7,13 @@
 
 # zlib_decode
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 zlib_decode — Розпаковує будь-які закодовані дані raw/gzip/zlib
 
 ### Опис
 
-**zlib_decode**(string `$data`, int `$max_length` u003d 0): string\|false
+**zlib_decode**(string `$data`, int `$max_length` = 0): string\|false
 
 Розпаковує будь-які закодовані дані raw/gzip/zlib.
 

@@ -7,13 +7,13 @@
 
 # Gmagick::radialblurimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::radialblurimage — Застосовує радіальне розмиття до зображення
 
 ### Опис
 
-public **Gmagick::radialblurimage**(float `$angle`, int `$channel` u003d
+public **Gmagick::radialblurimage**(float `$angle`, int `$channel` =
 Gmagick::CHANNEL_DEFAULT): [Gmagick](class.gmagick.md)
 
 Застосовує радіальне розмиття зображення.

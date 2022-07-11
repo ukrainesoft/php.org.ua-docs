@@ -7,7 +7,7 @@
 
 # Клас SVMModel
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **SVMModel** {
 
 /\* Методи \*/
 
-public [\_\_construct](svmmodel.construct.md)(string `$filename` u003d ?)
+public [\_\_construct](svmmodel.construct.md)(string `$filename` = ?)
 
 public [checkProbabilityModel](svmmodel.checkprobabilitymodel.md)():
 bool

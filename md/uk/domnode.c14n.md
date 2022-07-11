@@ -7,17 +7,17 @@
 
 # DOMNode::C14N
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DOMNode::C14N — Канонізувати вузли в рядок
 
 ### Опис
 
 public **DOMNode::C14N**(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 Канонізувати вузли в рядок

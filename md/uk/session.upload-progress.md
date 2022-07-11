@@ -26,7 +26,7 @@ PHP може відслідковувати прогрес завантажен�
 [session.upload_progress.name](session.configuration.md#ini.session.upload-progress.name).
 Ключ зазвичай можна отримати прочитавши ці опції, тобто:
 
-` <?php$key u003d ini_get("session.upload_progress.prefix") . $_POST[ini_get("session.upload_progress.name")];var_dump($_SESSION[$key]);?> `
+` <?php$key = ini_get("session.upload_progress.prefix") . $_POST[ini_get("session.upload_progress.name")];var_dump($_SESSION[$key]);?> `
 
 Також можливо *скасувати* файл, що завантажується в даний момент, встановивши
 ключ `$_SESSION[$key]["cancel_upload"]` у значення **`true`**. При
@@ -48,17 +48,17 @@ PHP може відслідковувати прогрес завантажен�
 Приклад структури масиву прогресу завантаження.
 
 ```htmlcode
-<form actionu003d"upload.php" methodu003d"POST" enctypeu003d"multipart/form-data">
-<input typeu003d"hidden" nameu003d"<?php echo ini_get("session.upload_progress.name"); ?>" valueu003d"123" />
-<input typeu003d"file" nameu003d"file1" />
-<input typeu003d"file" nameu003d"file2" />
-<input typeu003d"submit" />
+<form action="upload.php" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="<?php echo ini_get("session.upload_progress.name"); ?>" value="123" />
+<input type="file" name="file1" />
+<input type="file" name="file2" />
+<input type="submit" />
 </form>
 ````
 
 Дані в сесії виглядатимуть приблизно так:
 
-` <?php$_SESSION["upload_progress_123"] u003d array( "start_time" u003d> 1234567890,   // Время начала запроса "content_length" u003d> 57343257, // Длина содержимого POST "bytes_processed" u003d> 453489,  // Количество полученных и обработанных байт "done" u003d> false,              // true при завершении обработки POST, успешно или нет "files" u003d> array(  0 u003d> array(   "field_name" u003d> "file1",       // Имя поля <input/>   / / Следующие 3 элемента аналогичны соответствующим элементам массива $_FILES   "name" u003d> "foo.avi",   "tmp_name" u003d> "/tmp/phpxxxxxx",   "error" u003d> 0,   "done" u003d> true,                // True , если обработчик POST закончил обработку данного файла   "start_time" u003d> 1234567890,    // Время начала обработки этого файла   "bytes_processed" u003d> 57343250, // Число полученных и обработанных байт этого файла  ),  // И ещё один файл, загрузка которого ещё не закінчена в том ж запиті  1 u003d> array(  "field_name" u003d> "file2",   "name" u003d> "bar.avi",   "tmp_name" u003d>    fa lse,  "start_time" u003d> 1234567899,  "bytes_processed" u003d> 54554,  ), )); `
+` <?php$_SESSION["upload_progress_123"] = array( "start_time" => 1234567890,   // Время начала запроса "content_length" => 57343257, // Длина содержимого POST "bytes_processed" => 453489,  // Количество полученных и обработанных байт "done" => false,              // true при завершении обработки POST, успешно или нет "files" => array(  0 => array(   "field_name" => "file1",       // Имя поля <input/>   / / Следующие 3 элемента аналогичны соответствующим элементам массива $_FILES   "name" => "foo.avi",   "tmp_name" => "/tmp/phpxxxxxx",   "error" => 0,   "done" => true,                // True , если обработчик POST закончил обработку данного файла   "start_time" => 1234567890,    // Время начала обработки этого файла   "bytes_processed" => 57343250, // Число полученных и обработанных байт этого файла  ),  // И ещё один файл, загрузка которого ещё не закінчена в том ж запиті  1 => array(  "field_name" => "file2",   "name" => "bar.avi",   "tmp_name" =>    fa lse,  "start_time" => 1234567899,  "bytes_processed" => 54554,  ), )); `
 
 **Увага**
 

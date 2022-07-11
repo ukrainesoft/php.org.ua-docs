@@ -7,13 +7,13 @@
 
 # PharFileInfo::isCompressed
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::isCompressed — Перевірити, чи стиснений файл
 
 ### Опис
 
-public **PharFileInfo::isCompressed**(?int `$compression` u003d **`null`**):
+public **PharFileInfo::isCompressed**(?int `$compression` = **`null`**):
 bool
 
 Перевіряє, чи стиснений файл усередині Phar-архіву за допомогою Gzip або Bzip2.
@@ -30,15 +30,15 @@ bool
 
 ### Список змін
 
-| Версія | Опис                                         |
-| ------ | -------------------------------------------- |
-| 8.0.0  | `compression` тепер припускає значення null. |
+| Версія | Опис                                       |
+| ------ | ------------------------------------------ |
+| 8.0.0  | compression тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharFileInfo::isCompressed()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $p['myfile2.txt'] u003d 'hi'; $p['myfile2.txt']->setCompressedGZ(); $fileu003du003d$p['myfile.txt']; $file2 u003d $p['myfile2.txt']; var_dump($file->isCompressed()); var_dump($file2->isCompressed());} catch (Exception $e) {    echo 'Не удалося створити/змінити phar my.phar: ', $e;}?> `
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $p['myfile2.txt'] = 'hi'; $p['myfile2.txt']->setCompressedGZ(); $file==$p['myfile.txt']; $file2 = $p['myfile2.txt']; var_dump($file->isCompressed()); var_dump($file2->isCompressed());} catch (Exception $e) {    echo 'Не удалося створити/змінити phar my.phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

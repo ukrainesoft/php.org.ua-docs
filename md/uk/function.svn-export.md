@@ -7,7 +7,7 @@
 
 # svn_export
 
-(PECL svn \>u003d 0.3.0)
+(PECL svn \>= 0.3.0)
 
 svn_export — Експортує вміст директорії SVN
 
@@ -16,8 +16,8 @@ svn_export — Експортує вміст директорії SVN
 **svn_export**(
 string `$frompath`,
 string `$topath`,
-bool `$working_copy` u003d **`true`**,
-int `$revision_no` u003d -1
+bool `$working_copy` = **`true`**,
+int `$revision_no` = -1
 ): bool
 
 Експортує дані як з робочої копії, так і з репозиторію в
@@ -44,7 +44,7 @@ int `$revision_no` u003d -1
 
 **Приклад #1 Приклад використання **svn_export()****
 
-` <?php$working_dir     u003d '../';$new_working_dir u003d '/home/user/devel/foo/trunk';svn_export($working_dir, $new_working_dir);?> `
+` <?php$working_dir     = '../';$new_working_dir = '/home/user/devel/foo/trunk';svn_export($working_dir, $new_working_dir);?> `
 
 ### Дивіться також
 

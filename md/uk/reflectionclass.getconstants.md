@@ -13,7 +13,7 @@ ReflectionClass::getConstants — Повертає константи
 
 ### Опис
 
-public **ReflectionClass::getConstants**(?int `$filter` u003d **`null`**):
+public **ReflectionClass::getConstants**(?int `$filter` = **`null`**):
 array
 
 Повертає всі визначені у класі константи, незалежно від них
@@ -33,9 +33,9 @@ array
 
 ### Список змін
 
-| Версія | Опис                       |
-| ------ | -------------------------- |
-| 8.0.0  | Доданий параметр `filter`. |
+| Версія | Опис                     |
+| ------ | ------------------------ |
+| 8.0.0  | Доданий параметр filter. |
 
 ### Дивіться також
 

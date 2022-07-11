@@ -7,14 +7,14 @@
 
 # Pool::\_\_construct
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Pool::\_\_construct - Створює новий пул воркерів
 
 ### Опис
 
-public **Pool::\_\_construct**(int `$size`, string `$class` u003d ?, array
-`$ctor` u003d ?)
+public **Pool::\_\_construct**(int `$size`, string `$class` = ?, array
+`$ctor` = ?)
 
 Створює новий пул робітників. Пули ліниво створюють свої потоки, що
 означає, що нові потоки будуть створюватися лише тоді, коли вони
@@ -36,25 +36,25 @@ public **Pool::\_\_construct**(int `$size`, string `$class` u003d ?, array
 
 **Приклад #1 Створення пулів**
 
-`<?phpclass MyWorker extends Worker {    public function __construct(Something $something) {       $this->something u003d $something; }    public function run() {         /** ... **/    }}$pool u003d new Pool(8, \MyWorker::class, [new Som|
+`<?phpclass MyWorker extends Worker {    public function __construct(Something $something) {       $this->something = $something; }    public function run() {         /** ... **/    }}$pool = new Pool(8, \MyWorker::class, [new Som|
 
 Результат виконання цього прикладу:
 
 object(Pool)#1 (6) {
-["size":protected]u003d>
+["size":protected]=>
 int(8)
-["class":protected]u003d>
+["class":protected]=>
 string(8) "MyWorker"
-["workers":protected]u003d>
+["workers":protected]=>
 NULL
-["work":protected]u003d>
+["work":protected]=>
 NULL
-["ctor":protected]u003d>
+["ctor":protected]=>
 array(1) {
-[0]u003d>
+[0]=>
 object(Something)#2 (0) {
 }
 }
-["last":protected]u003d>
+["last":protected]=>
 int(0)
 }

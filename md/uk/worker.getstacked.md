@@ -7,7 +7,7 @@
 
 # Worker::getStacked
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Worker::getStacked — Повертає поточний розмір стека
 
@@ -29,7 +29,7 @@ public **Worker::getStacked**(): int
 
 **Приклад #1 Приклад використання **Worker::getStacked****
 
-`<?php$worker u003d new Worker();for ($i u003d 0; $i < 5; ++$i) {    $worker->stack(new class extends Threaded {});}echo $worker->getStacked()} stacked tasks
+`<?php$worker = new Worker();for ($i = 0; $i < 5; ++$i) {    $worker->stack(new class extends Threaded {});}echo $worker->getStacked()} stacked tasks
 ";
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # EventBase::free
 
-(PECL event \>u003d 1.10.0)
+(PECL event \>= 1.10.0)
 
 EventBase::free — Звільняє ресурси, виділені для цієї бази подій
 

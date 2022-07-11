@@ -12,7 +12,7 @@
 область видимості. Ця єдина область видимості охоплює також
 включаються (include) та необхідні (require) файли. Наприклад:
 
-` <?php$a u003d 1;include 'b.inc';?> `
+` <?php$a = 1;include 'b.inc';?> `
 
 Тут змінна `$a` буде доступна всередині скрипта `b.inc`.
 Проте визначення (тіло) функції користувача задає локальну
@@ -20,7 +20,7 @@
 Змінна за замовчуванням обмежена локальною областю видимості функції.
 Наприклад:
 
-`<?php$a u003d 1; /* глобальна область видимості */function test(){   echo $a; /* посилання на змінну в локальної області видимості */}test();?> `
+`<?php$a = 1; /* глобальна область видимості */function test(){   echo $a; /* посилання на змінну в локальної області видимості */}test();?> `
 
 Цей скрипт не згенерує жодного висновку, оскільки вираз echo
 вказує на локальну версію змінної `$a`, а в межах цієї області
@@ -38,7 +38,7 @@
 
 **Приклад #1 Використання `global`**
 
-` <?php$a u003d 1;$b u003d 2;function Sum(){    global $a, $b; $b u003d $a + $b;}Sum();echo $b;?> `
+` <?php$a = 1;$b = 2;function Sum(){    global $a, $b; $b = $a + $b;}Sum();echo $b;?> `
 
 Наведений вище скрипт виведе `3`. Після визначення `$a` та `$b` всередині
 функції як global всі посилання на будь-яку з цих змінних будуть
@@ -51,7 +51,7 @@
 
 **Приклад #2 Використання `$GLOBALS` замість global**
 
-` <?php$a u003d 1;$b u003d 2;function Sum(){    $GLOBALS['b'] u003d $GLOBALS['a'] + $GLOBALS['b'];}Sum();echo $ b;?> `
+` <?php$a = 1;$b = 2;function Sum(){    $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b'];}Sum();echo $ b;?> `
 
 `$GLOBALS` - це асоціативний масив, ключем якого є ім'я, а
 значенням – вміст глобальної змінної. Зверніть увагу, що
@@ -80,7 +80,7 @@
 
 **Приклад #4 Демонстрація необхідності статичних змінних**
 
-` <?phpfunction test(){    $a u003d 0; echo $a; $a++;}?> `
+` <?phpfunction test(){    $a = 0; echo $a; $a++;}?> `
 
 Ця функція досить марна, оскільки при кожному виклику вона
 встановлює `$a` в `0` і виводить `0`. Інкремент змінної `$a`++
@@ -91,7 +91,7 @@ static:
 
 **Приклад #5 Приклад використання статичних змінних**
 
-`<?phpfunction test(){   static $a u003d 0; echo $a; $a++;}?> `
+`<?phpfunction test(){   static $a = 0; echo $a; $a++;}?> `
 
 Тепер `$a` буде проініціалізована лише при першому виклику функції,
 а кожен виклик функції `test()` буде виводити значення `$a` та
@@ -107,7 +107,7 @@ static:
 
 **Приклад #6 Статичні змінні та рекурсивні функції**
 
-` <?phpfunction test(){   static $count u003d 0; $ count++; echo $count; if ($count < 10) {         test(); }   $count--;}?> `
+` <?phpfunction test(){   static $count = 0; $ count++; echo $count; if ($count < 10) {         test(); }   $count--;}?> `
 
 Статичним змінним можна присвоїти значення, що є результатом
 вирази, але не можна використовувати для цього функцію, так це викличе
@@ -115,7 +115,7 @@ static:
 
 **Приклад #7 Оголошення статичних змінних**
 
-`<?phpfunction foo() {    static $int u003d 0; // вірно    static $int u003d 1+2; // Правильно Static $ int u003d sqrt (121); // невірно (оскільки це функція)    $int++; echo $int;}?> `
+`<?phpfunction foo() {    static $int = 0; // вірно    static $int = 1+2; // Правильно Static $ int = sqrt (121); // невірно (оскільки це функція)    $int++; echo $int;}?> `
 
 Починаючи з PHP 8.1.0, коли метод, який використовує статичні змінні,
 успадковується (але не перевизначається), успадкований метод тепер буде
@@ -126,7 +126,7 @@ static:
 **Приклад #8 Використання статичних змінних у успадкованих
 методах**
 
-` <?phpclass Foo {    public static function counter() {       static $counter u003d 0; $ counter++; return $counter; }}class Bar extends Foo {}var_dump(Foo::counter()); //int(1)var_dump(Foo::counter()); //int(2)var_dump(Bar::counter()); // int(3), до PHP 8.1.0 int(1)var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)?> `
+` <?phpclass Foo {    public static function counter() {       static $counter = 0; $ counter++; return $counter; }}class Bar extends Foo {}var_dump(Foo::counter()); //int(1)var_dump(Foo::counter()); //int(2)var_dump(Bar::counter()); // int(3), до PHP 8.1.0 int(1)var_dump(Bar::counter()); // int(4), до PHP 8.1.0 int(2)?> `
 
 > **Примітка**:
 >
@@ -144,7 +144,7 @@ PHP використовує модифікатори змінних
 змінну. Це може призвести до несподіваної поведінки, як це
 показано в наступному прикладі:
 
-` <?phpfunction test_global_ref() {    global $obj; $newu003du003dnew stdclass; $obj u003d &$new;}function test_global_noref() {    global $obj; $newu003du003dnew stdclass; $obj u003d $new;}test_global_ref();var_dump($obj);test_global_noref();var_dump($obj);?> `
+` <?phpfunction test_global_ref() {    global $obj; $new==new stdclass; $obj = &$new;}function test_global_noref() {    global $obj; $new==new stdclass; $obj = $new;}test_global_ref();var_dump($obj);test_global_noref();var_dump($obj);?> `
 
 Результат виконання цього прикладу:
 
@@ -154,8 +154,8 @@ object(stdClass)#1 (0) {
 
 Аналогічно поводиться і вираз `static`. Посилання не зберігаються статично:
 
-` <?phpfunction &get_instance_ref() {    static $obj; echo 'Статичний об'єкт: '; var_dump($obj); if (!isset($obj)) {         $new u003d new stdclass; // Присвоїти посилання статичної змінної        $obj u003d &$new; }   if (!isset($obj->property)) {        $obj->property u003d 1; } else {        $obj->property++; }   return $obj;}function &get_instance_noref() {    static $obj; echo 'Статичний об'єкт: '; var_dump($obj); if (!isset($obj)) {         $new u003d new stdclass; // Присвоїти об'єкт статичної змінної         $obj u003d $new; }   if (!isset($obj->property)) {        $obj->property u003d 1; } else {        $obj->property++; }   return $obj;}$obj1 u003d get_instance_ref();$still_obj1 u003d get_instance_ref();echo "
-";$obj2 u003d get_instance_noref();$still_obj2 u003d get_instance_noref();?> `
+` <?phpfunction &get_instance_ref() {    static $obj; echo 'Статичний об'єкт: '; var_dump($obj); if (!isset($obj)) {         $new = new stdclass; // Присвоїти посилання статичної змінної        $obj = &$new; }   if (!isset($obj->property)) {        $obj->property = 1; } else {        $obj->property++; }   return $obj;}function &get_instance_noref() {    static $obj; echo 'Статичний об'єкт: '; var_dump($obj); if (!isset($obj)) {         $new = new stdclass; // Присвоїти об'єкт статичної змінної         $obj = $new; }   if (!isset($obj->property)) {        $obj->property = 1; } else {        $obj->property++; }   return $obj;}$obj1 = get_instance_ref();$still_obj1 = get_instance_ref();echo "
+";$obj2 = get_instance_noref();$still_obj2 = get_instance_noref();?> `
 
 Результат виконання цього прикладу:
 
@@ -164,7 +164,7 @@ object(stdClass)#1 (0) {
 
 Статичний об'єкт: NULL
 Статичний об'єкт: object(stdClass)#3 (1) {
-["property"]u003d>
+["property"]=>
 int(1)
 }
 

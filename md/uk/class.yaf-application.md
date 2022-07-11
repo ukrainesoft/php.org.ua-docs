@@ -48,14 +48,14 @@ protected `$_environ`;
 
 public
 [\_\_construct](yaf-application.construct.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$config`, string `$envrion` u003d ?)
+`$config`, string `$envrion` = ?)
 
 public static[app](yaf-application.app.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
 [bootstrap](yaf-application.bootstrap.md)([Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
-$bootstrap u003d ?): void
+$bootstrap = ?): void
 
 public [clearLastError](yaf-application.clearlasterror.md)():
 [Yaf_Application](class.yaf-application.md)

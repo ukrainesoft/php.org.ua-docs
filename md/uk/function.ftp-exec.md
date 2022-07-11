@@ -7,7 +7,7 @@
 
 #ftp_exec
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 ftp_exec — Вимагає виконання команди на FTP-сервері
 
@@ -34,15 +34,15 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_exec()****
 
-` <?php// ініціалізація змінних$command u003d 'ls -al >files.txt';// встановлюємо з'єднання$ftp u003d ftp_connect($ftp_server);// вхід з іменем користувача і$ $ftp_user_name, $ftp_user_pass);// виконуємо командуif (ftp_exec($ftp, $command)) {    echo "Команда $command виконана успішно
+` <?php// ініціалізація змінних$command = 'ls -al >files.txt';// встановлюємо з'єднання$ftp = ftp_connect($ftp_server);// вхід з іменем користувача і$ $ftp_user_name, $ftp_user_pass);// виконуємо командуif (ftp_exec($ftp, $command)) {    echo "Команда $command виконана успішно
 ";} else {   echo "Не удалося виконати $command
 ";}// закриваємо з'єднанняftp_close($ftp);?> `
 

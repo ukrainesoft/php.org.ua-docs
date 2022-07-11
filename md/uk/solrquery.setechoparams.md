@@ -7,7 +7,7 @@
 
 # SolrQuery::setEchoParams
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setEchoParams — Визначає, які параметри включати у відповідь
 

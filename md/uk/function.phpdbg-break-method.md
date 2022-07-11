@@ -7,7 +7,7 @@
 
 # phpdbg_break_method
 
-(PHP 5 \>u003d 5.6.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.3, PHP 7, PHP 8)
 
 phpdbg_break_method — Додати точку переривання на виклик методу класу
 

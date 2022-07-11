@@ -7,14 +7,14 @@
 
 # ReflectionClass::newInstanceArgs
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 ReflectionClass::newInstanceArgs — Створює екземпляр класу з
 переданими параметрами
 
 ### Опис
 
-public **ReflectionClass::newInstanceArgs**(array `$args` u003d []):
+public **ReflectionClass::newInstanceArgs**(array `$args` = []):
 ?object
 
 Створює новий екземпляр класу. Прийняті аргументи передаються в
@@ -46,12 +46,12 @@ public **ReflectionClass::newInstanceArgs**(array `$args` u003d []):
 **Приклад #1 Приклад використання
 **ReflectionClass::newInstanceArgs()****
 
-` <?php$class u003d new ReflectionClass('ReflectionFunction');$instance u003d $class->newInstanceArgs(array('substr'));var_dump($instance);?> `
+` <?php$class = new ReflectionClass('ReflectionFunction');$instance = $class->newInstanceArgs(array('substr'));var_dump($instance);?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionFunction)#2 (1) {
-["name"]u003d>
+["name"]=>
 string(6) "substr"
 }
 

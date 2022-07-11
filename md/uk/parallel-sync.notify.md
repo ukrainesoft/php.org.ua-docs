@@ -13,7 +13,7 @@ parallel\Sync::notify — Синхронізація
 
 ### Опис
 
-public **parallel\Sync::notify**(bool `$all` u003d ?)
+public **parallel\Sync::notify**(bool `$all` = ?)
 
 Повідомляє один (за замовчуванням) або всі потоки, які очікують на об'єкт
 синхронізації.

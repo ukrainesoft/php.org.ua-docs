@@ -13,8 +13,8 @@ chunk_split — Розбиває рядок на фрагменти
 
 ### Опис
 
-**chunk_split**(string `$string`, int `$length` u003d 76, string
-`$separator` u003d "
+**chunk_split**(string `$string`, int `$length` = 76, string
+`$separator` = "
 "): string
 
 Функція використовується для розбиття рядка на фрагменти, наприклад,
@@ -42,7 +42,7 @@ chunk_split — Розбиває рядок на фрагменти
 
 **Приклад #1 Приклад використання **chunk_split()****
 
-`<?php// форматування даних у відповідності з RFC 2045$new_string u003d chunk_split(base64_encode($data));?> `
+`<?php// форматування даних у відповідності з RFC 2045$new_string = chunk_split(base64_encode($data));?> `
 
 ### Дивіться також
 

@@ -34,15 +34,15 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Використання **ftp_raw()** для входу на FTP-сервер**
 
-` <?php$ftp u003d ftp_connect("ftp.example.com");/* То же саме, що:  ftp_login($ftp, "joeblow", "secret"); */ftp_raw($ftp, "USER joeblow");ftp_raw($ftp, "PASS secret");?> `
+` <?php$ftp = ftp_connect("ftp.example.com");/* То же саме, що:  ftp_login($ftp, "joeblow", "secret"); */ftp_raw($ftp, "USER joeblow");ftp_raw($ftp, "PASS secret");?> `
 
 ### Дивіться також
 

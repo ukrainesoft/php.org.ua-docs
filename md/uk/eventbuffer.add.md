@@ -7,7 +7,7 @@
 
 # EventBuffer::add
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBuffer::add — Додає дані до кінця буфера подій
 

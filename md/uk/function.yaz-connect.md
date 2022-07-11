@@ -7,7 +7,7 @@
 
 # yaz_connect
 
-(PHP 4 u003d 4.0.1, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
 
 yaz_connect — Підготовка підключення до сервера Z39.50
 
@@ -15,7 +15,7 @@ yaz_connect — Підготовка підключення до сервера 
 
 **yaz_connect**(string `$zurl`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$options` u003d ?):
+`$options` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Функція повертає дескриптор з'єднання у разі успішного виконання та
@@ -116,9 +116,9 @@ maximumRecordSize
 
 ### Список змін
 
-| Версія | Опис                            |
-| ------ | ------------------------------- |
-| 4.1.0  | Було додано параметр `options`. |
+| Версія | Опис                          |
+| ------ | ----------------------------- |
+| 4.1.0  | Було додано параметр options. |
 
 ### Дивіться також
 

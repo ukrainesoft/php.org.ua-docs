@@ -7,7 +7,7 @@
 
 #cubrid_get_autocommit
 
-(PECL CUBRID u003d 8.4.0)
+(PECL CUBRID = 8.4.0)
 
 cubrid_get_autocommit — Повертає налаштування автокомміту для з'єднання
 

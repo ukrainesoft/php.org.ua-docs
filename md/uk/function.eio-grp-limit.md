@@ -7,7 +7,7 @@
 
 #eio_grp_limit
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_grp_limit — Встановлює граничну кількість запитів у групі
 

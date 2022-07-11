@@ -7,7 +7,7 @@
 
 # GearmanTask::isRunning
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanTask::isRunning — Перевіряє, чи виконується завдання в даний
 момент

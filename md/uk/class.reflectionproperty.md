@@ -20,13 +20,13 @@ class **ReflectionProperty** implements
 
 /\* Константи \*/
 
-const int `IS_STATIC` u003d 16;
+const int `IS_STATIC` = 16;
 
-const int `IS_PUBLIC` u003d 1;
+const int `IS_PUBLIC` = 1;
 
-const int `IS_PROTECTED` u003d 2;
+const int `IS_PROTECTED` = 2;
 
-const int `IS_PRIVATE` u003d 4;
+const int `IS_PRIVATE` = 4;
 
 /\* Властивості \*/
 
@@ -43,10 +43,10 @@ private [\_\_clone](reflectionproperty.clone.md)(): void
 
 public static
 [export](reflectionproperty.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` u003d ?): string
+`$class`, string `$name`, bool `$return` = ?): string
 
 public [getAttributes](reflectionproperty.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public [getDeclaringClass](reflectionproperty.getdeclaringclass.md)():
 [ReflectionClass](class.reflectionclass.md)
@@ -64,7 +64,7 @@ public [getName](reflectionproperty.getname.md)(): string
 public [getType](reflectionproperty.gettype.md)():
 ?[ReflectionType](class.reflectiontype.md)
 
-public [getValue](reflectionproperty.getvalue.md)(?object `$object` u003d
+public [getValue](reflectionproperty.getvalue.md)(?object `$object` =
 **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -76,7 +76,7 @@ public [hasType](reflectionproperty.hastype.md)(): bool
 public [isDefault](reflectionproperty.isdefault.md)(): bool
 
 public [isInitialized](reflectionproperty.isinitialized.md)(?object
-`$object` u003d **`null`**): bool
+`$object` = **`null`**): bool
 
 public [isPrivate](reflectionproperty.isprivate.md)(): bool
 

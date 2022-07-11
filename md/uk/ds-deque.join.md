@@ -7,13 +7,13 @@
 
 # Ds\Deque::join
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Deque::join**(string `$glue` u003d ?): string
+public **Ds\Deque::join**(string `$glue` = ?): string
 
 Склеює всі значення в рядок, опціонально використовуючи заданий
 роздільник.
@@ -31,7 +31,7 @@ public **Ds\Deque::join**(string `$glue` u003d ?): string
 
 **Приклад #1 Приклад використання **Ds\Deque::join()** з роздільником**
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", c", 1, 2, 3]);var_dump($deque->join("|"));?> `
+` <?php$deque = new \Ds\Deque(["a", "b", c", 1, 2, 3]);var_dump($deque->join("|"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -39,7 +39,7 @@ string(11) "a|b|c|1|2|3"
 
 **Приклад #2 Приклад використання **Ds\Deque::join()** без роздільника**
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c", 1, 2, 3]);var_dump($deque->join());?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c", 1, 2, 3]);var_dump($deque->join());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

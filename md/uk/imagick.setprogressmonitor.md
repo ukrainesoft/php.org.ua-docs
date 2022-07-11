@@ -8,7 +8,7 @@
 
 # Imagick::setProgressMonitor
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::setProgressMonitor — Встановлює callback-функцію, яка
 буде викликатися під час обробки зображення Imagick
@@ -50,4 +50,4 @@ callback (
 
 **Приклад #1 Приклад використання **Imagick::setProgressMonitor()****
 
-` <?php        $abortReason u003d null; try {             $imagick u003d new \Imagick(realpath($this->control->getImagePath())); $startTime u003d time(); $callback u003d function ($offset, $span)  use ($startTime, &$abortReason) {                if (((100 * $offset) / $span)  > 20) {                    $abortReason u003d "Обработка достигла 20%"; return false; }                  $nowTimeu003du003dtime(); if ($nowTime - $startTime > 5) {                     $abortReason u003d "Обробка зображення зайняла більше| return false; }                 if (($offset % 5) u003du003d 0) {                           ¦¦¦¦ }                 return true; }; $imagick->setProgressMonitor($callback); $imagick->waveImage(2, 15); echo "Довжина даних: ".strlen($imagick->getImageBlob()); }        catch(\ImagickException $e) {            if ($abortReason !u003d null) {                echo "Обработка изображения была прервана: ".$abortReason."<br/>"; }             else {                 echo "Впіймано виняток ImagickException: ".$e->getMessage( і| і| }        }}>
+` <?php        $abortReason = null; try {             $imagick = new \Imagick(realpath($this->control->getImagePath())); $startTime = time(); $callback = function ($offset, $span)  use ($startTime, &$abortReason) {                if (((100 * $offset) / $span)  > 20) {                    $abortReason = "Обработка достигла 20%"; return false; }                  $nowTime==time(); if ($nowTime - $startTime > 5) {                     $abortReason = "Обробка зображення зайняла більше| return false; }                 if (($offset % 5) == 0) {                           ¦¦¦¦ }                 return true; }; $imagick->setProgressMonitor($callback); $imagick->waveImage(2, 15); echo "Довжина даних: ".strlen($imagick->getImageBlob()); }        catch(\ImagickException $e) {            if ($abortReason != null) {                echo "Обработка изображения была прервана: ".$abortReason."<br/>"; }             else {                 echo "Впіймано виняток ImagickException: ".$e->getMessage( і| і| }        }}>

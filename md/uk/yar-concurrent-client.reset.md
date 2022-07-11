@@ -7,7 +7,7 @@
 
 # Yar_Concurrent_Client::reset
 
-(PECL yar \> u003d 1.2.4)
+(PECL yar \> = 1.2.4)
 
 Yar_Concurrent_Client::reset — Очистити всі зареєстровані дзвінки
 

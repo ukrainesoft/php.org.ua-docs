@@ -7,7 +7,7 @@
 
 #zip_entry_compressedsize
 
-(PHP 4 \>u003d 4.1.0, PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.0.0)
+(PHP 4 \>= 4.1.0, PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.0.0)
 
 zip_entry_compressedsize — Повертає стислий розмір файлу
 дескриптора директорії

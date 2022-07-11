@@ -7,13 +7,13 @@
 
 # Swoole\Process::wait
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::wait — Очікує на події дочірніх процесів
 
 ### Опис
 
-public static **Swoole\Process::wait**(bool `$blocking` u003d ?): array
+public static **Swoole\Process::wait**(bool `$blocking` = ?): array
 
 ### Список параметрів
 

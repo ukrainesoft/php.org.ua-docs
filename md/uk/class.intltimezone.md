@@ -7,7 +7,7 @@
 
 # Клас IntlTimeZone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 ## Вступ
 
@@ -17,9 +17,9 @@ class **IntlTimeZone** {
 
 /\* Constants \*/
 
-const int `DISPLAY_SHORT` u003d 1;
+const int `DISPLAY_SHORT` = 1;
 
-const int `DISPLAY_LONG` u003d 2;
+const int `DISPLAY_LONG` = 2;
 
 /\* Методи \*/
 
@@ -34,7 +34,7 @@ public static [createDefault](intltimezone.createdefault.md)():
 
 public static
 [createEnumeration](intltimezone.createenumeration.md)([IntlTimeZone](class.intltimezone.md)\|string\|int\|float\|null
-`$countryOrRawOffset` u003d **`null`**):
+`$countryOrRawOffset` = **`null`**):
 [IntlIterator](class.intliterator.md)\|false
 
 public static [createTimeZone](intltimezone.createtimezone.md)(string
@@ -42,7 +42,7 @@ public static [createTimeZone](intltimezone.createtimezone.md)(string
 
 public static
 [createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md)(int
-`$type`, ?string `$region` u003d **`null`**, ?int `$rawOffset` u003d
+`$type`, ?string `$region` = **`null`**, ?int `$rawOffset` =
 **`null`**): [IntlIterator](class.intliterator.md)\|false
 
 public static
@@ -50,11 +50,11 @@ public static
 `$timezone`): ?[IntlTimeZone](class.intltimezone.md)
 
 public static [getCanonicalID](intltimezone.getcanonicalid.md)(string
-`$timezoneId`, bool `&$isSystemId` u003d **`null`**): string\|false
+`$timezoneId`, bool `&$isSystemId` = **`null`**): string\|false
 
-public [getDisplayName](intltimezone.getdisplayname.md)(bool `$dst` u003d
-**`false`**, int `$style` u003d IntlTimeZone::DISPLAY_LONG, ?string
-`$locale` u003d **`null`**): string\|false
+public [getDisplayName](intltimezone.getdisplayname.md)(bool `$dst` =
+**`false`**, int `$style` = IntlTimeZone::DISPLAY_LONG, ?string
+`$locale` = **`null`**): string\|false
 
 public [getDSTSavings](intltimezone.getdstsavings.md)(): int
 
@@ -74,7 +74,7 @@ public [getID](intltimezone.getid.md)(): string\|false
 
 public static
 [getIDForWindowsID](intltimezone.getidforwindowsid.md)(string
-`$timezoneId`, ?string `$region` u003d **`null`**): string\|false
+`$timezoneId`, ?string `$region` = **`null`**): string\|false
 
 public [getOffset](intltimezone.getoffset.md)(
 float `$timestamp`,

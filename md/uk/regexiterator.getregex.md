@@ -7,7 +7,7 @@
 
 # RegexIterator::getRegex
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 RegexIterator::getRegex — Повертає рядок поточного регулярного
 вирази

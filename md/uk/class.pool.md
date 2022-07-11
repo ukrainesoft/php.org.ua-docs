@@ -7,7 +7,7 @@
 
 # Клас Pool
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 ## Вступ
 
@@ -37,11 +37,11 @@ protected `$last`;
 /\* Методи \*/
 
 public [\_\_construct](pool.construct.md)(int `$size`, string `$class`
-u003d ?, array `$ctor` u003d ?)
+= ?, array `$ctor` = ?)
 
 public
 [collect](pool.collect.md)([Callable](language.types.callable.md)
-`$collector` u003d ?): int
+`$collector` = ?): int
 
 public [resize](pool.resize.md)(int `$size`): void
 

@@ -17,7 +17,7 @@
 (особливо, `xml2-config`) по шляхах у такому порядку:
 
 1. Розташування ([DIR]), вказане за допомогою директиви
-**--with-libxml-dir** ([DIR]u003d`/bin/xml2-config`)
+**--with-libxml-dir** ([DIR]=`/bin/xml2-config`)
 
 2. `/usr/local/bin/xml2-config`
 

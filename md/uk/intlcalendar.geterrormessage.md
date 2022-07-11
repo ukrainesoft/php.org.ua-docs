@@ -9,7 +9,7 @@
 
 # intlcal_get_error_message
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getErrorMessage -- intlcal_get_error_message -- Отримує
 останнє повідомлення про помилку для об'єкту
@@ -48,7 +48,7 @@ public **IntlCalendar::getErrorMessage**(): string\|false
 
 **Приклад #1 Приклад використання **IntlCalendar::getErrorMessage()****
 
-` <?php$cal u003d IntlCalendar::createInstance('UTC', 'en_US');var_dump($cal->getErrorMessage());$cal->getWeekendTransition(IntlCalendar::DOW_WEDNESDAY);var_dump($cal> getErrorMessage()); `
+` <?php$cal = IntlCalendar::createInstance('UTC', 'en_US');var_dump($cal->getErrorMessage());$cal->getWeekendTransition(IntlCalendar::DOW_WEDNESDAY);var_dump($cal> getErrorMessage()); `
 
 Результат виконання цього прикладу:
 

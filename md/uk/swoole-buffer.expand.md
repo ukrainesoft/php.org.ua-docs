@@ -7,7 +7,7 @@
 
 # Swoole\Buffer::expand
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::expand — Розширює розмір буфера пам'яті
 

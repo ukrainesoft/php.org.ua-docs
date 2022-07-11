@@ -7,7 +7,7 @@
 
 # EventBufferEvent::createPair
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::createPair — Створює дві буферні події, пов'язані
 один з одним
@@ -15,7 +15,7 @@ EventBufferEvent::createPair — Створює дві буферні події
 ### Опис
 
 public static **EventBufferEvent::createPair**(
-[EventBase](class.eventbase.md) `$base` , int `$options` u003d 0 : array
+[EventBase](class.eventbase.md) `$base` , int `$options` = 0 : array
 
 Повертає масив із двох об'єктів
 [EventBufferEvent](class.eventbufferevent.md), пов'язаних один з

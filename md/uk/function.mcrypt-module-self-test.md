@@ -7,7 +7,7 @@
 
 # mcrypt_module_self_test
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_module_self_test — Функція запускає самоперевірку вказаного
 модуля
@@ -19,7 +19,7 @@ mcrypt_module_self_test — Функція запускає самопереві
 
 ### Опис
 
-**mcrypt_module_self_test**(string `$algorithm`, string `$lib_dir` u003d ?):
+**mcrypt_module_self_test**(string `$algorithm`, string `$lib_dir` = ?):
 bool
 
 Ця функція запускає самоперевірку вказаного алгоритму.

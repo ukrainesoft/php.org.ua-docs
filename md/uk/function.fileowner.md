@@ -38,7 +38,7 @@ fileowner — Повертає ідентифікатор власника фа�
 
 **Приклад #1 Знаходимо власника файлу**
 
-` <?php$filename u003d 'index.php';print_r(posix_getpwuid(fileowner($filename))));?> `
+` <?php$filename = 'index.php';print_r(posix_getpwuid(fileowner($filename))));?> `
 
 ### Примітки
 

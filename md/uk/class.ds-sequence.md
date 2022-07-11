@@ -51,7 +51,7 @@ abstract public
 
 abstract public
 [filter](ds-sequence.filter.md)([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Sequence](class.ds-sequence.md)
+`$callback` = ?): [Ds\Sequence](class.ds-sequence.md)
 
 abstract public
 [find](ds-sequence.find.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -68,7 +68,7 @@ abstract public [insert](ds-sequence.insert.md)(int `$index`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `...$values`): void
 
-abstract public [join](ds-sequence.join.md)(string `$glue` u003d ?):
+abstract public [join](ds-sequence.join.md)(string `$glue` = ?):
 string
 
 abstract public [last](ds-sequence.last.md)():
@@ -93,7 +93,7 @@ abstract public
 [reduce](ds-sequence.reduce.md)([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 abstract public [remove](ds-sequence.remove.md)(int `$index`):
@@ -115,21 +115,21 @@ abstract public [shift](ds-sequence.shift.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 abstract public [slice](ds-sequence.slice.md)(int `$index`, int
-`$length` u003d ?): [Ds\Sequence](class.ds-sequence.md)
+`$length` = ?): [Ds\Sequence](class.ds-sequence.md)
 
 abstract public
 [sort](ds-sequence.sort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 abstract public
 [sorted](ds-sequence.sorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Sequence](class.ds-sequence.md)
+`$comparator` = ?): [Ds\Sequence](class.ds-sequence.md)
 
 abstract public [sum](ds-sequence.sum.md)(): int\|float
 
 abstract public
 [unshift](ds-sequence.unshift.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?): void
+$values = ?): void
 
 }
 

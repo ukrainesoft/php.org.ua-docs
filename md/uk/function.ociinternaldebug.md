@@ -7,7 +7,7 @@
 
 # ociinternaldebug
 
-(PHP 4, PHP 5, PHP 7, PECL OCI8 \>u003d 1.0.0, PECL OCI8 \<u003d 2.2.0)
+(PHP 4, PHP 5, PHP 7, PECL OCI8 \>= 1.0.0, PECL OCI8 \<= 2.2.0)
 
 ociinternaldebug - Псевдонім
 [oci_internal_debug()](function.oci-internal-debug.md)

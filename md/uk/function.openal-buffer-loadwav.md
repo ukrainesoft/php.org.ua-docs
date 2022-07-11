@@ -7,7 +7,7 @@
 
 #openal_buffer_loadwav
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_buffer_loadwav — Завантажити файл у форматі wav у буфер
 

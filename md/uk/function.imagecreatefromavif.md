@@ -7,7 +7,7 @@
 
 #imagecreatefromavif
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 imagecreatefromavif — Створення нового зображення з файлу або URL
 

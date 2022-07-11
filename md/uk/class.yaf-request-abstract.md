@@ -7,7 +7,7 @@
 
 # Клас Yaf_Request_Abstract
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -17,9 +17,9 @@ class **Yaf_Request_Abstract** {
 
 /\* Константи \*/
 
-const string `SCHEME_HTTP` u003d http;
+const string `SCHEME_HTTP` = http;
 
-const string `SCHEME_HTTPS` u003d https;
+const string `SCHEME_HTTPS` = https;
 
 /\* Властивості \*/
 
@@ -57,7 +57,7 @@ public
 [getControllerName](yaf-request-abstract.getcontrollername.md)(): void
 
 public [getEnv](yaf-request-abstract.getenv.md)(string `$name`, string
-`$default` u003d ?): void
+`$default` = ?): void
 
 public [getException](yaf-request-abstract.getexception.md)(): void
 
@@ -68,7 +68,7 @@ public [getMethod](yaf-request-abstract.getmethod.md)(): string
 public [getModuleName](yaf-request-abstract.getmodulename.md)(): void
 
 public [getParam](yaf-request-abstract.getparam.md)(string `$name`,
-string `$default` u003d ?):
+string `$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getParams](yaf-request-abstract.getparams.md)(): array
@@ -76,7 +76,7 @@ public [getParams](yaf-request-abstract.getparams.md)(): array
 public [getRequestUri](yaf-request-abstract.getrequesturi.md)(): void
 
 public [getServer](yaf-request-abstract.getserver.md)(string `$name`,
-string `$default` u003d ?): void
+string `$default` = ?): void
 
 public [isCli](yaf-request-abstract.iscli.md)(): bool
 
@@ -98,27 +98,27 @@ public [isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md)():
 bool
 
 public [setActionName](yaf-request-abstract.setactionname.md)(string
-`$action`, bool `$format_name` u003d true): void
+`$action`, bool `$format_name` = true): void
 
 public [setBaseUri](yaf-request-abstract.setbaseuri.md)(string
 `$uir`): bool
 
 public
 [setControllerName](yaf-request-abstract.setcontrollername.md)(string
-`$controller`, bool `$format_name` u003d true): void
+`$controller`, bool `$format_name` = true): void
 
 public [setDispatched](yaf-request-abstract.setdispatched.md)(): void
 
 public [setModuleName](yaf-request-abstract.setmodulename.md)(string
-`$module`, bool `$format_name` u003d true): void
+`$module`, bool `$format_name` = true): void
 
 public [setParam](yaf-request-abstract.setparam.md)(string `$name`,
-string `$value` u003d ?): bool
+string `$value` = ?): bool
 
 public [setRequestUri](yaf-request-abstract.setrequesturi.md)(string
 `$uir`): void
 
-public [setRouted](yaf-request-abstract.setrouted.md)(string `$flag` u003d
+public [setRouted](yaf-request-abstract.setrouted.md)(string `$flag` =
 ?): void
 
 }

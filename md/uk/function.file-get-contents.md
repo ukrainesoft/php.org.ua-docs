@@ -7,7 +7,7 @@
 
 # file_get_contents
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 file_get_contents — Читає вміст файлу в рядок
 
@@ -15,10 +15,10 @@ file_get_contents — Читає вміст файлу в рядок
 
 **file_get_contents**(
 string `$filename`,
-bool `$use_include_path` u003d **`false`**,
-?resource `$context` u003d **`null`**,
-int `$offset` u003d 0,
-?int `$length` u003d **`null`**
+bool `$use_include_path` = **`false`**,
+?resource `$context` = **`null`**,
+int `$offset` = 0,
+?int `$length` = **`null`**
 ): string\|false
 
 Ця функція схожа на функцію [file()](function.file.md) з тієї лише
@@ -81,7 +81,7 @@ int `$offset` u003d 0,
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки
@@ -96,24 +96,24 @@ int `$offset` u003d 0,
 
 ### Список змін
 
-| Версія | Опис                                                  |
-| ------ | ----------------------------------------------------- |
-| 8.0.0  | Параметр `length` тепер допускає значення **`null`**. |
-| 7.1.0  | Додано підтримку негативних значень `offset`.         |
+| Версія | Опис                                              |
+| ------ | ------------------------------------------------- |
+| 8.0.0  | Параметр length тепер допускає значення **null**. |
+| 7.1.0  | Додано підтримку негативних значень offset.       |
 
 ### Приклади
 
 **Приклад #1 Отримати та вивести вихідний код домашньої сторінки сайту**
 
-` <?php$homepage u003d file_get_contents('http://www.example.com/');echo $homepage;?> `
+` <?php$homepage = file_get_contents('http://www.example.com/');echo $homepage;?> `
 
 **Приклад #2 Пошук файлів у include_path**
 
-`<?php// Якщо включені строгі типи, то є оголошено (strict_typesu003d1);$file u003d file_get_contents('./people.txt', true);// Інакше$file u003d t| ', FILE_USE_INCLUDE_PATH);?> `
+`<?php// Якщо включені строгі типи, то є оголошено (strict_types=1);$file = file_get_contents('./people.txt', true);// Інакше$file = t| ', FILE_USE_INCLUDE_PATH);?> `
 
 **Приклад #3 Читання секції файлу**
 
-`<?php// Читаємо 14 символів, починаючи з 21 символу$section u003d file_get_contents('./people.txt', FALSE, NULL, 20, 14);var_dump($section);
+`<?php// Читаємо 14 символів, починаючи з 21 символу$section = file_get_contents('./people.txt', FALSE, NULL, 20, 14);var_dump($section);
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -121,9 +121,9 @@ string(14) "lle Bjori Ro"
 
 **Приклад #4 Використання потокових контекстів**
 
-` <?php// Створюємо потік$opts u003d array(  'http'u003d>array(   'method'u003d>"GET",   'header'u003d>"Accept-language: en
-Cookie:foou003dbar
-"  ));$context u003d stream_context_create($opts);// Відкриваємо файл за допомогою встановлених вище HTTP-заголовків$fileu003du003dfile_get_contents('http://www.example.com/';>> `
+` <?php// Створюємо потік$opts = array(  'http'=>array(   'method'=>"GET",   'header'=>"Accept-language: en
+Cookie:foo=bar
+"  ));$context = stream_context_create($opts);// Відкриваємо файл за допомогою встановлених вище HTTP-заголовків$file==file_get_contents('http://www.example.com/';>> `
 
 ### Примітки
 

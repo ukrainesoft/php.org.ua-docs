@@ -7,7 +7,7 @@
 
 # hash_hkdf
 
-(PHP 7 \>u003d 7.1.2, PHP 8)
+(PHP 7 \>= 7.1.2, PHP 8)
 
 hash_hkdf — Формування ключа HKDF для заданих вхідних даних
 
@@ -16,9 +16,9 @@ hash_hkdf — Формування ключа HKDF для заданих вхі�
 **hash_hkdf**(
 string `$algo`,
 string `$key`,
-int `$length` u003d 0,
-string `$info` u003d "",
-string `$salt` u003d ""
+int `$length` = 0,
+string `$info` = "",
+string `$salt` = ""
 ): string
 
 ### Список параметрів
@@ -67,7 +67,7 @@ string `$salt` u003d ""
 
 **Приклад #1 Приклад використання **hash_hkdf()****
 
-`<?php// Генеруємо випадковий ключ і соль для посилення процесу формування.$inputKey u003d random_bytes(32);$salt u003drandom_bytes(16); hash_hkdf('sha256', $inputKey, 32, 'aes-256-encryption', $salt);$authenticationKey u003d hash_hkdf('sha256', $inputKey, 32, 'sha-256-; ($encryptionKey !u003du003d $authenticationKey); //bool(true)?> `
+`<?php// Генеруємо випадковий ключ і соль для посилення процесу формування.$inputKey = random_bytes(32);$salt =random_bytes(16); hash_hkdf('sha256', $inputKey, 32, 'aes-256-encryption', $salt);$authenticationKey = hash_hkdf('sha256', $inputKey, 32, 'sha-256-; ($encryptionKey !== $authenticationKey); //bool(true)?> `
 
 У прикладі вище створена пара різних ключів, що підходять для створення
 конструкції encrypt-then-HMAC, використовуючи AES-256 та SHA-256 для

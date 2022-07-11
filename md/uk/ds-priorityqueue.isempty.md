@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::isEmpty — Перевіряє, чи порожня колекція
 
@@ -30,7 +30,7 @@ public **Ds\PriorityQueue::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::isEmpty()****
 
-` <?php$a u003d new \Ds\PriorityQueue();$b u003d new \Ds\PriorityQueue();$a->push("a",  5);$a->push("b", 15 );$a->push("c", 10);var_dump($a->isEmpty());var_dump($b->isEmpty());?> `
+` <?php$a = new \Ds\PriorityQueue();$b = new \Ds\PriorityQueue();$a->push("a",  5);$a->push("b", 15 );$a->push("c", 10);var_dump($a->isEmpty());var_dump($b->isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

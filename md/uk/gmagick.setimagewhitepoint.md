@@ -7,7 +7,7 @@
 
 # Gmagick::setimagewhitepoint
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagewhitepoint — Встановлює кольоровість білого зображення
 точкою

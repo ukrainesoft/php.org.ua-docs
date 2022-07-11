@@ -8,7 +8,7 @@
 
 #mcrypt_module_open
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_module_open — Відкриває модуль шифрування за допомогою
 вказаних алгоритму та режиму
@@ -66,7 +66,7 @@ string `$mode_directory`
 
 **Приклад #1 Приклад використання **mcrypt_module_open()****
 
-` <?php   $td u003d mcrypt_module_open(MCRYPT_DES, '',       MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes'); $tdu003d mcrypt_module_open('rijndael-256', '', 'ofb', '');?> `
+` <?php   $td = mcrypt_module_open(MCRYPT_DES, '',       MCRYPT_MODE_ECB, '/usr/lib/mcrypt-modes'); $td= mcrypt_module_open('rijndael-256', '', 'ofb', '');?> `
 
 У першому рядку прикладу ми намагаємося відкрити шифр `DES` з директорії з
 замовчуванням та використовувати режим `ECB` з директорії
@@ -76,7 +76,7 @@ libmcrypt 2.4.x або 2.5.x.
 
 **Приклад #2 Приклад використання **mcrypt_module_open()****
 
-`<?php    /* Відкриваємо модуль шифрування */    $td u003d mcrypt_module_open('rijndael-256', '', 'ofb', ''); /* Створюємо ініціалізуючий вектор і визначаємо довжину ключа. * Для Windows  використовуємо MCRYPT_RAND */    $iv u003d mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM); $ks u003d mcrypt_enc_get_key_size($td); /* Створюємо ключ */    $key u003d substr(md5('very secret key'), 0, $ks); /* Ініціалізуємо шифрування */   mcrypt_generic_init($td, $key, $iv); /* Шифруємо дані */    $encryptedu003du003dmcrypt_generic($td, 'This is very important data'); /* Деинициализируем обробник шифрування */   mcrypt_generic_deinit($td); /* Ініціалізуємо модуль дешифрування */   mcrypt_generic_init($td, $key, $iv); /* Дешифруємо дані */    $decrypted u003d mdecrypt_generic($td, $encrypted); /* Деініціалізуємо обробник дешифровки і закриваємо модуль */    mcrypt_generic_deinit($td); mcrypt_module_close($td); /* Друкуємо рядок */    echo trim($decrypted) . "
+`<?php    /* Відкриваємо модуль шифрування */    $td = mcrypt_module_open('rijndael-256', '', 'ofb', ''); /* Створюємо ініціалізуючий вектор і визначаємо довжину ключа. * Для Windows  використовуємо MCRYPT_RAND */    $iv = mcrypt_create_iv(mcrypt_enc_get_iv_size($td), MCRYPT_DEV_RANDOM); $ks = mcrypt_enc_get_key_size($td); /* Створюємо ключ */    $key = substr(md5('very secret key'), 0, $ks); /* Ініціалізуємо шифрування */   mcrypt_generic_init($td, $key, $iv); /* Шифруємо дані */    $encrypted==mcrypt_generic($td, 'This is very important data'); /* Деинициализируем обробник шифрування */   mcrypt_generic_deinit($td); /* Ініціалізуємо модуль дешифрування */   mcrypt_generic_init($td, $key, $iv); /* Дешифруємо дані */    $decrypted = mdecrypt_generic($td, $encrypted); /* Деініціалізуємо обробник дешифровки і закриваємо модуль */    mcrypt_generic_deinit($td); mcrypt_module_close($td); /* Друкуємо рядок */    echo trim($decrypted) . "
 ";?> `
 
 ### Дивіться також

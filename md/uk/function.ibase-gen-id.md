@@ -14,8 +14,8 @@ ibase_gen_id — Збільшує вказаний генератор та по�
 
 ### Опис
 
-**ibase_gen_id**(string `$generator`, int `$increment` u003d 1, resource
-`$link_identifier` u003d **`null`**):
+**ibase_gen_id**(string `$generator`, int `$increment` = 1, resource
+`$link_identifier` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**

@@ -7,7 +7,7 @@
 
 # Ds\Map::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ public **Ds\Map::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\Map::capacity()****
 
-` <?php$map u003d new \Ds\Map();var_dump($map->capacity());?> `
+` <?php$map = new \Ds\Map();var_dump($map->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

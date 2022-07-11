@@ -9,7 +9,7 @@
 
 #rar_list
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::getEntries -- rar_list — Повертає повний перелік елементів
 з RAR архіву
@@ -58,7 +58,7 @@ array\|false
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$rar_arch u003d RarArchive::open('solid.rar');if ($rar_arch u003du003du003d FALSE)    die("Не зміг відкрити RAR архів.");$rar_entries u003d $rar_ar ;if ($rar_entries u003du003du003d FALSE)    die("Не зміг дістати вміст.");echo "Знайшов " . count($rar_entries) . Об'єктів.
+` <?php$rar_arch = RarArchive::open('solid.rar');if ($rar_arch === FALSE)    die("Не зміг відкрити RAR архів.");$rar_entries = $rar_ar ;if ($rar_entries === FALSE)    die("Не зміг дістати вміст.");echo "Знайшов " . count($rar_entries) . Об'єктів.
 ";foreach ($rar_entries as $e) {    echo $e;    echo "
 ";}$rar_arch->close();?> `
 
@@ -70,7 +70,7 @@ RarEntry для файлу "unrardll.txt" (2ed64b6e)
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$rar_arch u003d rar_open('solid.rar');if ($rar_arch u003du003du003d FALSE)   die("Could not open RAR archive.");$rar_entries u003d rar_list($rar_ar u003du003du003d FALSE)   die("Could retrieve entries.");echo "Found " . count($rar_entries) . " entries.
+` <?php$rar_arch = rar_open('solid.rar');if ($rar_arch === FALSE)   die("Could not open RAR archive.");$rar_entries = rar_list($rar_ar === FALSE)   die("Could retrieve entries.");echo "Found " . count($rar_entries) . " entries.
 ";foreach ($rar_entries as $e) {    echo $e;    echo "
 ";}rar_close($rar_arch);?> `
 

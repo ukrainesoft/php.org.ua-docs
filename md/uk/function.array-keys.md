@@ -17,7 +17,7 @@ array_keys — Повертає всі або деякі підмножини к
 
 **array_keys**(array `$array`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$search_value`, bool `$strict` u003d **`false`**): array
+`$search_value`, bool `$strict` = **`false`**): array
 
 Функція **array_keys()** повертає числові та рядкові ключі,
 що містяться в масиві `array`.
@@ -36,7 +36,7 @@ array_keys — Повертає всі або деякі підмножини к
 масиву збігаються з цим параметром.
 
 `strict`
-Визначає використання суворої перевірки рівності (u003du003du003d) під час пошуку.
+Визначає використання суворої перевірки рівності (===) під час пошуку.
 
 ### Значення, що повертаються
 
@@ -46,25 +46,25 @@ array_keys — Повертає всі або деякі підмножини к
 
 **Приклад #1 Приклад використання **array_keys()****
 
-` <?php$array u003d array(0 u003d> 100, "color" u003d> "red");print_r(array_keys($array));$array u003d array("blue", "red", "green", "blue", "blue");print_r(array_keys($array, "blue"));$array u003d array("color" u003d> array("blue", "red", "green"),            u003d> array("small", "medium", "large"));print_r(array_keys($array));?> `
+` <?php$array = array(0 => 100, "color" => "red");print_r(array_keys($array));$array = array("blue", "red", "green", "blue", "blue");print_r(array_keys($array, "blue"));$array = array("color" => array("blue", "red", "green"),            => array("small", "medium", "large"));print_r(array_keys($array));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> 0
-[1] u003d> color
+[0] => 0
+[1] => color
 )
 Array
 (
-[0] u003d> 0
-[1] u003d> 3
-[2] u003d> 4
+[0] => 0
+[1] => 3
+[2] => 4
 )
 Array
 (
-[0] u003d> color
-[1] u003d> size
+[0] => color
+[1] => size
 )
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 #jpeg2wbmp
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7)
 
 jpeg2wbmp — Перетворення зображення з формату JPEG на WBMP
 
@@ -59,7 +59,7 @@ int `$threshold`
 
 **Приклад #1 Приклад використання **jpeg2wbmp()****
 
-` <?php//Шлях до вихідному jpeg-зображенню$path u003d './test.jpg';// Отримуємо розміри зображення$image u003d getimagesize($path);// Конвертуємо зображенняjpeg2. wbmp', $image[1], $image[0], 5);?> `
+` <?php//Шлях до вихідному jpeg-зображенню$path = './test.jpg';// Отримуємо розміри зображення$image = getimagesize($path);// Конвертуємо зображенняjpeg2. wbmp', $image[1], $image[0], 5);?> `
 
 ### Дивіться також
 

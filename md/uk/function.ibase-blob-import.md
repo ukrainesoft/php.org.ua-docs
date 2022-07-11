@@ -40,7 +40,7 @@ ibase_blob_import — Створює BLOB-об'єкт, копіює файл і
 
 **Приклад #1 Приклад використання **ibase_blob_import()****
 
-` <?php$dbh u003d ibase_connect($host, $username, $password);$filename u003d '/tmp/bar';$fd u003d fopen($filename, 'r');if ($fd) {     $blob u003d ibase_blob_import ($ dbh, $ fd); fclose($fd); if (!is_string($blob)) {         // імпорт не удався    } else {        $query u003d "INSERT INTO ' $preparedu003du003dibase_prepare($dbh, $query); if (!ibase_execute($prepared, $blob)) {            // запис не удалася        }      
+` <?php$dbh = ibase_connect($host, $username, $password);$filename = '/tmp/bar';$fd = fopen($filename, 'r');if ($fd) {     $blob = ibase_blob_import ($ dbh, $ fd); fclose($fd); if (!is_string($blob)) {         // імпорт не удався    } else {        $query = "INSERT INTO ' $prepared==ibase_prepare($dbh, $query); if (!ibase_execute($prepared, $blob)) {            // запис не удалася        }      
 
 ### Дивіться також
 

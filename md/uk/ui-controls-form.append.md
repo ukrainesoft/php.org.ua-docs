@@ -14,7 +14,7 @@ UI\Controls\Form::append — Додати елемент керування
 ### Опис
 
 public **UI\Controls\Form::append**(string `$label`,
-[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` u003d
+[UI\Control](class.ui-control.md) `$control`, bool `$stretchy` =
 **`false`**): int
 
 Додає елемент управління до форми та встановлює мітку

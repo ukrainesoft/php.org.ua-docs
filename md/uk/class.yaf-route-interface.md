@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Interface
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -21,7 +21,7 @@ class **Yaf_Route_Interface** {
 /\* Методи \*/
 
 abstract public [assemble](yaf-route-interface.assemble.md)(array
-`$info`, array `$query` u003d ?): string
+`$info`, array `$query` = ?): string
 
 abstract public
 [route](yaf-route-interface.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)

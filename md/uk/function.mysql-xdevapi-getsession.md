@@ -25,7 +25,7 @@ URI до сервера MySQL, такий як `mysqlx://user:password@host`.
 
 Формат URI:
 
-`scheme://[user[:[password]]@]target[:port][?attribute1u003dvalue1&attribute2u003dvalue2...`
+`scheme://[user[:[password]]@]target[:port][?attribute1=value1&attribute2=value2...`
 
 - `scheme`: обов'язковий протокол з'єднання
 
@@ -50,7 +50,7 @@ URI до сервера MySQL, такий як `mysqlx://user:password@host`.
 
 за замовчуванням порт для X Protocol дорівнює 33060
 
-- `?attributeu003dvalue`: цей елемент є необов'язковим та
+- `?attribute=value`: цей елемент є необов'язковим та
 визначає словник даних, який містить різні параметри,
 в тому числі:
 
@@ -93,17 +93,17 @@ URI підключення до connect-timeout має пріоритет над
 zlib). За замовчуванням використовується порядок (залежно від
 доступності системи): lz4_message, zstd_stream, потім
 deflate_stream. Наприклад, під час передачі
-compression-algorithmsu003d[lz4, zstd_stream] використовується lz4,
+compression-algorithms=[lz4, zstd_stream] використовується lz4,
 якщо він доступний, інакше використовується zstd_stream.
 Якщо обидва недоступні, поведінка залежить від значення стиснення,
-наприклад, якщо compression u003d required, то відбудеться збій з
+наприклад, якщо compression = required, то відбудеться збій з
 помилкою.
 
 Опцію було додано у версії 8.0.22.
 
 **Приклад #1 Приклади URI**
 
-` mysqlx://foobarmysqlx://root@localhost?socketu003d%2Ftmp%2Fmysqld.sock%2Fmysqlx://foo:bar@localhost:33060mysqlx://foo:bar@localhost:33160?ssl-modeu003ddisabledmysqlx: //foo:bar@localhost:33260?ssl-modeu003drequiredmysqlx://foo:bar@localhost:33360?ssl-modeu003drequired&authu003dmysql41mysqlx://foo:bar@(/path/to/socket)mysqlx: //foo:bar@(/path/to/socket)?authu003dsha256_memmysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]mysqlx://foobar?ssl-cau003d(/path/ to/ca.pem)&ssl-crlu003d(/path/to/crl.pem)mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]?ssl-modeu003ddisabledmysqlx://foo: bar@localhost:33160/?connect-timeoutu003d0mysqlx://foo:bar@localhost:33160/?connect-timeoutu003d10&compressionu003drequiredmysqlx://foo:bar@localhost:33160/?connect-timeoutu003d10&compressionu003drequired&compression -algorithmsu003d[lz4,zstd_stream]`
+` mysqlx://foobarmysqlx://root@localhost?socket=%2Ftmp%2Fmysqld.sock%2Fmysqlx://foo:bar@localhost:33060mysqlx://foo:bar@localhost:33160?ssl-mode=disabledmysqlx: //foo:bar@localhost:33260?ssl-mode=requiredmysqlx://foo:bar@localhost:33360?ssl-mode=required&auth=mysql41mysqlx://foo:bar@(/path/to/socket)mysqlx: //foo:bar@(/path/to/socket)?auth=sha256_memmysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]mysqlx://foobar?ssl-ca=(/path/ to/ca.pem)&ssl-crl=(/path/to/crl.pem)mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]?ssl-mode=disabledmysqlx://foo: bar@localhost:33160/?connect-timeout=0mysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=requiredmysqlx://foo:bar@localhost:33160/?connect-timeout=10&compression=required&compression -algorithms=[lz4,zstd_stream]`
 
 Для отримання додаткової інформації дивіться MySQL Shell
 [» Підключення з використанням рядка URI](https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-connection-using-uri.md).
@@ -120,43 +120,43 @@ compression-algorithmsu003d[lz4, zstd_stream] використовується l
 
 **Приклад #2 Приклад використання **mysql_xdevapi\getSession()****
 
-` <?phptry { {   $session u003d mysql_xdevapi\getSession("mysqlx://user:password@host");} catch(Exception $e) {    die("Не удалося встановити з'єднання: $| );}$schemas u003d $session->getSchemas();print_r($schemas);$mysql_version u003d $session->getServerVersion();print_r($mysql_version);var_dump($collection->find("name u003d 'Alfred '")->execute()->fetchOne());?> `
+` <?phptry { {   $session = mysql_xdevapi\getSession("mysqlx://user:password@host");} catch(Exception $e) {    die("Не удалося встановити з'єднання: $| );}$schemas = $session->getSchemas();print_r($schemas);$mysql_version = $session->getServerVersion();print_r($mysql_version);var_dump($collection->find("name = 'Alfred '")->execute()->fetchOne());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> mysql_xdevapi\Schema Object
+[0] => mysql_xdevapi\Schema Object
 (
-[name] u003d> helloworld
+[name] => helloworld
 )
-[1] u003d> mysql_xdevapi\Schema Object
+[1] => mysql_xdevapi\Schema Object
 (
-[name] u003d> information_schema
+[name] => information_schema
 )
-[2] u003d> mysql_xdevapi\Schema Object
+[2] => mysql_xdevapi\Schema Object
 (
-[name] u003d> mysql
+[name] => mysql
 )
-[3] u003d> mysql_xdevapi\Schema Object
+[3] => mysql_xdevapi\Schema Object
 (
-[name] u003d> performance_schema
+[name] => performance_schema
 )
-[4] u003d> mysql_xdevapi\Schema Object
+[4] => mysql_xdevapi\Schema Object
 (
-[name] u003d> sys
+[name] => sys
 )
 )
 
 80012
 
 array(4) {
-["_id"]u003d>
+["_id"]=>
 string(28) "00005ad66abf0001000400000003"
-["age"]u003d>
+["age"]=>
 int(42)
-["job"]u003d>
+["job"]=>
 string(7) "Butler"
-["name"]u003d>
+["name"]=>
 string(4) "Alfred"
 }

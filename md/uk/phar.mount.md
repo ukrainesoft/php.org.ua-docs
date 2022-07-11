@@ -8,7 +8,7 @@ phar-архіві
 
 # Phar::mount
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::mount — Монтування зовнішнього шляху або файлу до віртуального шляху
 phar-архіві
@@ -52,7 +52,7 @@ final public static **Phar::mount**(string `$pharPath`, string
 
 Для початку код, що міститься в архіві:
 
-` <?php$configuration u003d simplexml_load_string(file_get_contents(    Phar::running(false) . '/config.xml')));?> `
+` <?php$configuration = simplexml_load_string(file_get_contents(    Phar::running(false) . '/config.xml')));?> `
 
 Далі зовнішній код, що монтує файл до архіву:
 

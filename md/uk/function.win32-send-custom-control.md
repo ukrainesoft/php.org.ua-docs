@@ -59,7 +59,7 @@ string `$machine` u003d ?): void
 
 | Версія                                                                                                                                                                                      | Опис |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**.                                                       |      |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |      |      
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 | PECL win32service 1.0.0 Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                  |      |
 

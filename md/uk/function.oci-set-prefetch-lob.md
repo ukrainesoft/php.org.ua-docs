@@ -8,7 +8,7 @@ CLOB або BLOB
 
 #oci_set_prefetch_lob
 
-(PHP 8.2, PECL OCI8 \>u003d 3.2)
+(PHP 8.2, PECL OCI8 \>= 3.2)
 
 oci_set_prefetch_lob - Встановлює обсяг даних, попередньо
 вибираються для кожного CLOB або BLOB
@@ -48,7 +48,7 @@ Oracle Database 12.2 чи новіший.
 `REF CURSOR`.
 
 `prefetch_lob_size`
-Число байтів кожного LOB, яке потрібно попередньо вибрати \u003d 0.
+Число байтів кожного LOB, яке потрібно попередньо вибрати \= 0.
 
 ### Значення, що повертаються
 
@@ -65,9 +65,9 @@ Oracle Database 12.2 чи новіший.
 
 **Приклад #1 Зміна значення попередньої вибірки LOB для запиту**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d oci_parse($conn, 'SELECT myclob FROM mytable');oci_set_prefetch_lob($stid,0 // Установка значення перед дзвінком oci_execute()oci_execute($stid);echo "<table borderu003d'1'>
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS+OCI_RETURN_LOBS)) {    echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>".($item !u003du003d null ? htmlentities($item, ENT_QU)
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = oci_parse($conn, 'SELECT myclob FROM mytable');oci_set_prefetch_lob($stid,0 // Установка значення перед дзвінком oci_execute()oci_execute($stid);echo "<table border='1'>
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS+OCI_RETURN_LOBS)) {    echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>".($item !== null ? htmlentities($item, ENT_QU)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";oci_free_statement($stid);oci_close($conn);?> `

@@ -8,7 +8,7 @@
 
 # Ds\Map::filter
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::filter — Створює нову колекцію пар з елементів, вибраних з
 допомогою заданої callback-функції
@@ -16,7 +16,7 @@ Ds\Map::filter — Створює нову колекцію пар з елеме
 ### Опис
 
 public **Ds\Map::filter**([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Map](class.ds-map.md)
+`$callback` = ?): [Ds\Map](class.ds-map.md)
 
 Створює нову колекцію пар із елементів, вибраних за допомогою заданої
 callback-функції.
@@ -49,45 +49,45 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 **Приклад #1 Приклад **Ds\Map::filter()** з використанням
 callback-функції**
 
-` <?php$map u003d new \Ds\Map(["a", "b", "c", "d", "e"]);var_dump($map->filter(function($key, $) value) {    return $key % 2 u003du003d 0;}));?> `
+` <?php$map = new \Ds\Map(["a", "b", "c", "d", "e"]);var_dump($map->filter(function($key, $) value) {    return $key % 2 == 0;}));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#3 (3) {
-[0]u003d>
+[0]=>
 object(Ds\Pair)#2 (2) {
-["key"]u003d>
+["key"]=>
 int(0)
-["value"]u003d>
+["value"]=>
 string(1) "a"
 }
-[1]u003d>
+[1]=>
 object(Ds\Pair)#4 (2) {
-["key"]u003d>
+["key"]=>
 int(2)
-["value"]u003d>
+["value"]=>
 string(1) "c"
 }
-[2]u003d>
+[2]=>
 object(Ds\Pair)#5 (2) {
-["key"]u003d>
+["key"]=>
 int(4)
-["value"]u003d>
+["value"]=>
 string(1) "e"
 }
 }
 
 **Приклад #2 Приклад **Ds\Map::filter()** без callback-функції**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 0, "b" u003d> 1, "c" u003d> true, "d" u003d> false]);var_dump($map-> filter());?> `
+` <?php$map = new \Ds\Map(["a" => 0, "b" => 1, "c" => true, "d" => false]);var_dump($map-> filter());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 string(1) "a"
-[2]u003d>
+[2]=>
 bool(true)
 }

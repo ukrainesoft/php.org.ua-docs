@@ -7,7 +7,7 @@
 
 # ReflectionClassConstant::export
 
-(PHP 7 \>u003d 7.1.0)
+(PHP 7 \>= 7.1.0)
 
 ReflectionClassConstant::export — Експорт
 
@@ -20,7 +20,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 public static
 **ReflectionClassConstant::export**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` u003d ?): string
+`$class`, string `$name`, bool `$return` = ?): string
 
 Експортує reflection.
 

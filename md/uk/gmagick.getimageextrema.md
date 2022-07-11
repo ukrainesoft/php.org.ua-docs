@@ -7,7 +7,7 @@
 
 # Gmagick::getimageextrema
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageextrema — Отримує екстремуми для зображення
 

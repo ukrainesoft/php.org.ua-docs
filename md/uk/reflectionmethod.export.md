@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionMethod::export**(string `$class`, string
-`$name`, bool `$return` u003d **`false`**): string
+`$name`, bool `$return` = **`false`**): string
 
 Експортує ReflectionMethod.
 

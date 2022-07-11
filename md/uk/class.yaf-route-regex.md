@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Regex
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -35,13 +35,13 @@ protected `$_verify`;
 public [\_\_construct](yaf-route-regex.construct.md)(
 string `$match`,
 array `$route`,
-array `$map` u003d ?,
-array `$verify` u003d ?,
-string `$reverse` u003d ?
+array `$map` = ?,
+array `$verify` = ?,
+string `$reverse` = ?
 )
 
 public [assemble](yaf-route-regex.assemble.md)(array `$info`, array
-`$query` u003d ?): ?string
+`$query` = ?): ?string
 
 public
 [route](yaf-route-regex.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)
@@ -51,7 +51,7 @@ public
 
 abstract public
 [Yaf_Route_Interface::assemble](yaf-route-interface.assemble.md)(array
-`$info`, array `$query` u003d ?): string
+`$info`, array `$query` = ?): string
 
 abstract public
 [Yaf_Route_Interface::route](yaf-route-interface.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)

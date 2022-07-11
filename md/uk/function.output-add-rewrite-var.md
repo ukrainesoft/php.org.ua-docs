@@ -7,7 +7,7 @@
 
 #output_add_rewrite_var
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 output_add_rewrite_var — Додати значення до обробника URL
 
@@ -55,21 +55,21 @@ URL. Ім'я та значення будуть додані до URL (як GET-
 
 **Приклад #1 Приклад використання функції **output_add_rewrite_var()****
 
-` <?phpoutput_add_rewrite_var('var', 'value');//Кілька посиланьecho '<a hrefu003d"file.php">посилання</a><a hrefu003d"http://example.com">посилання2< /a>';// формаecho '<form actionu003d"script.php" methodu003d"post"><input typeu003d"text" nameu003d"var2" /></form>';print_r(ob_list_handlers()) ;?> `
+` <?phpoutput_add_rewrite_var('var', 'value');//Кілька посиланьecho '<a href="file.php">посилання</a><a href="http://example.com">посилання2< /a>';// формаecho '<form action="script.php" method="post"><input type="text" name="var2" /></form>';print_r(ob_list_handlers()) ;?> `
 
 Результат виконання цього прикладу:
 
-<a hrefu003d"file.php?varu003dvalue">посилання</a>
-<a hrefu003d"http://example.com">посилання2</a>
+<a href="file.php?var=value">посилання</a>
+<a href="http://example.com">посилання2</a>
 
-<form actionu003d"script.php" methodu003d"post">
-<input typeu003d"hidden" nameu003d"var" valueu003d"value" />
-<input typeu003d"text" nameu003d"var2" />
+<form action="script.php" method="post">
+<input type="hidden" name="var" value="value" />
+<input type="text" name="var2" />
 </form>
 
 Array
 (
-[0] u003d> URL-Rewriter
+[0] => URL-Rewriter
 )
 
 ### Дивіться також

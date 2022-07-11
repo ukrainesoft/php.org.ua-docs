@@ -7,7 +7,7 @@
 
 # SolrClient::\_\_destruct
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::\_\_destruct - Деструктор SolrClient
 

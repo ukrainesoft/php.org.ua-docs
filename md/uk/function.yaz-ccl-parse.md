@@ -7,7 +7,7 @@
 
 # yaz_ccl_parse
 
-(PHP 4 u003d 4.0.5, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
 
 yaz_ccl_parse — Викликає парсер CCL
 
@@ -58,4 +58,4 @@ bool
 Спробуємо пошукати за допомогою CCL. У наведеному нижче прикладі `$ccl`
 є запитом CCL.
 
-`<?phpyaz_ccl_conf($id, $fields); // дивіться приклад для yaz_ccl_confif (!yaz_ccl_parse($id, $ccl, &$cclresult)) {    echo 'Помилка: ' . $cclresult["errorstring"];} else {    $rpn u003d $cclresult["rpn"]; yaz_search($id, "rpn", $rpn);}?> `
+`<?phpyaz_ccl_conf($id, $fields); // дивіться приклад для yaz_ccl_confif (!yaz_ccl_parse($id, $ccl, &$cclresult)) {    echo 'Помилка: ' . $cclresult["errorstring"];} else {    $rpn = $cclresult["rpn"]; yaz_search($id, "rpn", $rpn);}?> `

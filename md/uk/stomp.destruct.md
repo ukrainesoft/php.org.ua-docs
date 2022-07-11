@@ -9,7 +9,7 @@
 
 #stomp_close
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::\_\_destruct - stomp_close - Закриває Stomp-з'єднання
 

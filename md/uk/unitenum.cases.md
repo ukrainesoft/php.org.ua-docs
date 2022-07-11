@@ -7,7 +7,7 @@
 
 # UnitEnum::cases
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 UnitEnum::cases — Повертає список варіантів перерахування
 
@@ -37,12 +37,12 @@ public static **UnitEnum::cases**(): array
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 enum(Suit::Hearts)
-[1]u003d>
+[1]=>
 enum(Suit::Diamonds)
-[2]u003d>
+[2]=>
 enum(Suit::Clubs)
-[3]u003d>
+[3]=>
 enum(Suit::Spades)
 }

@@ -114,11 +114,11 @@ const int `VERSION_3` u003d 3;
 `valueretrieval`
 Контролює спосіб, як повертатимуться значення SNMP
 
-|                          |                                                                                                                                                                                                                                                           |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **`SNMP_VALUE_LIBRARY`** | Значення, що повертаються, будуть такими, ніби повернені бібліотекою Net-SNMP.                                                                                                                                                                            |
-| **`SNMP_VALUE_PLAIN`**   | Значення, що повертаються, будуть простими, без інформації про типи SNMP.                                                                                                                                                                                 |
-| **`SNMP_VALUE_OBJECT`**  | Значення, що повертаються будуть об'єктами з властивостями "value" і "type", де "type" міститиме одну з констант: SNMP_OCTET_STR, SNMP_COUNTER і т.д., а "value" буде залежати від того, встановлено **`SNMP_VALUE_LIBRARY`** або **`SNMP_VALUE_PLAIN`**. |
+|                        |                                                                                                                                                                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SNMP_VALUE_LIBRARY** | Значення, що повертаються, будуть такими, ніби повернені бібліотекою Net-SNMP.                                                                                                                                                                        |                                                                                                                                                                                                                                                           
+| **SNMP_VALUE_PLAIN**   | Значення, що повертаються, будуть простими, без інформації про типи SNMP.                                                                                                                                                                             |
+| **SNMP_VALUE_OBJECT**  | Значення, що повертаються будуть об'єктами з властивостями "value" і "type", де "type" міститиме одну з констант: SNMP_OCTET_STR, SNMP_COUNTER і т.д., а "value" буде залежати від того, встановлено **SNMP_VALUE_LIBRARY** або **SNMP_VALUE_PLAIN**. |
 
 `quick_print`
 Значення `quick_print` у бібліотеці NET-SNMP
@@ -142,14 +142,14 @@ OID). Додатково, якщо quick_print не дозволено, бібл
 `oid_output_format`
 Контролює формат виводу OID
 
-|                               |                                                                     |
-| ----------------------------- | ------------------------------------------------------------------- |
-| **`SNMP_OID_OUTPUT_FULL`**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_NUMERIC`** | .1.3.6.1.2.1.1.3.0                                                  |
-| **`SNMP_OID_OUTPUT_MODULE`**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
-| **`SNMP_OID_OUTPUT_SUFFIX`**  | sysUpTimeInstance                                                   |
-| **`SNMP_OID_OUTPUT_UCD`**     | system.sysUpTime.sysUpTimeInstance                                  |
-| **`SNMP_OID_OUTPUT_NONE`**    | Undefined                                                           |
+|                             |                                                                     |
+| --------------------------- | ------------------------------------------------------------------- |
+| **SNMP_OID_OUTPUT_FULL**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |                                     
+| **SNMP_OID_OUTPUT_NUMERIC** | .1.3.6.1.2.1.1.3.0                                                  |
+| **SNMP_OID_OUTPUT_MODULE**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
+| **SNMP_OID_OUTPUT_SUFFIX**  | sysUpTimeInstance                                                   |
+| **SNMP_OID_OUTPUT_UCD**     | system.sysUpTime.sysUpTimeInstance                                  |
+| **SNMP_OID_OUTPUT_NONE**    | Undefined                                                           |
 
 **OID-представлення .1.3.6.1.2.1.1.3.0 для різних значень
 `oid_output_format`**

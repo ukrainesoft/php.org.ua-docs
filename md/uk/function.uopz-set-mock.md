@@ -72,7 +72,7 @@ mockA
 Починаючи з uopz 6.0.0, імітація статичних членів класу не
 підтримується.
 
-`<?phpclass A {    public static function who() {       echo "A"; }}uopz_set_mock(A::class, new class {                            const CON u003d 'mockA';                            public static function who() {                                echo "mockA";                            }                        });echo A::CON, PHP_EOL;A::who(); `
+`<?phpclass A {    public static function who() {       echo "A"; }}uopz_set_mock(A::class, new class {                            const CON = 'mockA';                            public static function who() {                                echo "mockA";                            }                        });echo A::CON, PHP_EOL;A::who(); `
 
 Результат виконання цього прикладу:
 

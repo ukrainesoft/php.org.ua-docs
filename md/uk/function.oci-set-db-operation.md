@@ -7,7 +7,7 @@
 
 #oci_set_db_operation
 
-(PHP 7 \>u003d 7.2.14, PHP 8, PHP 7 \>u003d 7.3.1, PHP 8, PECL OCI8 \>u003d 2.2.0)
+(PHP 7 \>= 7.2.14, PHP 8, PHP 7 \>= 7.3.1, PHP 8, PECL OCI8 \>= 2.2.0)
 
 oci_set_db_operation — Задає операцію бази даних
 
@@ -48,7 +48,7 @@ oci_set_db_operation — Задає операцію бази даних
 
 **Приклад #1 Встановлення DBOP**
 
-` <?php$c u003d oci_connect('hr', 'welcome', 'localhost/XE');// Записати операціюoci_set_db_operation($c, 'main query');// Код, викликаючий циклічний шлях, s u003d oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
+` <?php$c = oci_connect('hr', 'welcome', 'localhost/XE');// Записати операціюoci_set_db_operation($c, 'main query');// Код, викликаючий циклічний шлях, s = oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
 
 // Під час виконання скрипта адміністратор може бачити виконувані операції
 / / З базою даних.

@@ -31,14 +31,14 @@ public **ReflectionClass::getConstructor**():
 
 **Приклад #1 Приклад використання **ReflectionClass::getConstructor()****
 
-` <?php$class u003d new ReflectionClass('ReflectionClass');$constructor u003d $class->getConstructor();var_dump($constructor);?> `
+` <?php$class = new ReflectionClass('ReflectionClass');$constructor = $class->getConstructor();var_dump($constructor);?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionMethod)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(11) "__construct"
-["class"]u003d>
+["class"]=>
 string(15) "ReflectionClass"
 }
 

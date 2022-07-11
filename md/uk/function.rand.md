@@ -84,7 +84,7 @@ rand - Генерує випадкове число
 **Увага**
 
 Діапазон `min` - `max` не повинен виходити за межі
-[getrandmax()](function.getrandmax.md). Тобто (`max` - `min`) \<u003d
+[getrandmax()](function.getrandmax.md). Тобто (`max` - `min`) \<=
 [getrandmax()](function.getrandmax.md). В іншому випадку, **rand()**
 може повертати менш якісні випадкові числа.
 

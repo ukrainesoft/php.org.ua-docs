@@ -9,7 +9,7 @@
 
 #xmlwriter_start_document
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::startDocument -- xmlwriter_start_document — Створити тег
 документа
@@ -18,16 +18,16 @@ XMLWriter::startDocument -- xmlwriter_start_document — Створити тег
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::startDocument**(?string `$version` u003d "1.0", ?string
-`$encoding` u003d **`null`**, ?string `$standalone` u003d **`null`**): bool
+public **XMLWriter::startDocument**(?string `$version` = "1.0", ?string
+`$encoding` = **`null`**, ?string `$standalone` = **`null`**): bool
 
 Процедурний стиль
 
 **xmlwriter_start_document**(
 [XMLWriter](class.xmlwriter.md) `$writer`,
-?string `$version` u003d "1.0",
-?string `$encoding` u003d **`null`**,
-?string `$standalone` u003d **`null`**
+?string `$version` = "1.0",
+?string `$encoding` = **`null`**,
+?string `$standalone` = **`null`**
 ): bool
 
 Починає документ.
@@ -56,9 +56,9 @@ public **XMLWriter::startDocument**(?string `$version` u003d "1.0", ?string
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

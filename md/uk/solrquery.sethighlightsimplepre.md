@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightSimplePre
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightSimplePre — Встановлює текст, який
 з'являється перед виділеним виразом
@@ -15,7 +15,7 @@ SolrQuery::setHighlightSimplePre — Встановлює текст, який
 ### Опис
 
 public **SolrQuery::setHighlightSimplePre**(string `$simplePre`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює текст, який з'являється перед виділеним виразом
 

@@ -7,13 +7,13 @@
 
 # ZipArchive::open
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::open — Відкриває ZIP-архів
 
 ### Опис
 
-public **ZipArchive::open**(string `$filename`, int `$flags` u003d 0):
+public **ZipArchive::open**(string `$filename`, int `$flags` = 0):
 bool\|int
 
 Відкриває новий або існуючий ZIP-архів для читання, запису або
@@ -76,12 +76,12 @@ bool\|int
 
 **Приклад #1 Відкриття та вилучення**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test.zip');if ($res u003du003du003d TRUE) {   echo 'готово'; $zip->extractTo('test'); $zip->close();} else {    echo 'помилка з кодом:' . $res;}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test.zip');if ($res === TRUE) {   echo 'готово'; $zip->extractTo('test'); $zip->close();} else {    echo 'помилка з кодом:' . $res;}?> `
 
 **Приклад #2 Створення архіву**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test.zip', ZipArchive::CREATE);if ($res u003du003du003d TRUE) {    $zip->addFromString('test. txt', 'вміст файлу'); $zip->addFile('data.txt', 'entryname.txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test.zip', ZipArchive::CREATE);if ($res === TRUE) {    $zip->addFromString('test. txt', 'вміст файлу'); $zip->addFile('data.txt', 'entryname.txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
 
 **Приклад #3 Створити тимчасовий архів**
 
-` <?php$name u003d tempnam(sys_get_temp_dir(), "FOO");$zip u003d new ZipArchive;$res u003d $zip->open($name, ZipArchive::OVERWRITE); /* усічення, оскільки порожній файл недопустимо */if ($res u003du003du003d TRUE) {    $zip->addFile('data.txt', 'entryname.txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$name = tempnam(sys_get_temp_dir(), "FOO");$zip = new ZipArchive;$res = $zip->open($name, ZipArchive::OVERWRITE); /* усічення, оскільки порожній файл недопустимо */if ($res === TRUE) {    $zip->addFile('data.txt', 'entryname.txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `

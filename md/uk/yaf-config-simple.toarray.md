@@ -7,7 +7,7 @@
 
 # Yaf_Config_Simple::toArray
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Simple::toArray — Повертає масив PHP
 

@@ -7,7 +7,7 @@
 
 # ReflectionParameter::isCallable
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ReflectionParameter::isCallable — Визначити, чи має бути параметр бути
 типу callable
@@ -46,4 +46,4 @@ public **ReflectionParameter::isCallable**(): bool
 Починаючи з PHP 8.0.0, наступний код повідомить, чи підтримує тип
 викликані об'єкти, зокрема як частина об'єднання.
 
-` <?phpfunction declaresCallable(ReflectionParameter $reflectionParameter): bool{    $reflectionType u003d $reflectionParameter->getType(); if (!$reflectionType) return false; $types u003d $reflectionType instanceof ReflectionUnionType        ?? $reflectionType->getTypes()         : [$reflectionType]; return in_array('callable', array_map(fn(ReflectionNamedType $t) u003d> $t->getName(), $types));}?> `
+` <?phpfunction declaresCallable(ReflectionParameter $reflectionParameter): bool{    $reflectionType = $reflectionParameter->getType(); if (!$reflectionType) return false; $types = $reflectionType instanceof ReflectionUnionType        ?? $reflectionType->getTypes()         : [$reflectionType]; return in_array('callable', array_map(fn(ReflectionNamedType $t) => $t->getName(), $types));}?> `

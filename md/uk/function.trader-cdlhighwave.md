@@ -7,7 +7,7 @@
 
 # trader_cdlhighwave
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlhighwave - Свічкова модель "Висока хвиля"
 

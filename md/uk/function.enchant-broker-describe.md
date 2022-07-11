@@ -7,7 +7,7 @@
 
 #enchant_broker_describe
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0)
 
 enchant_broker_describe - Перераховує провайдерів Enchant
 
@@ -31,16 +31,16 @@ enchant_broker_describe - Перераховує провайдерів Enchant
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                 |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | `broker` чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | До цієї версії функція повертала **`false`** у разі виникнення помилки.                                                              |
+| Версія | Опис                                                                                                                               |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.0.0  | До цієї версії функція повертала **false** у разі виникнення помилки.                                                              |
 
 ### Приклади
 
 **Приклад #1 Список бекендів, що надаються конкретним брокером**
 
-` <?php$r u003d enchant_broker_init();$bprovides u003d enchant_broker_describe($r);echo "Брокер надає наступні бекенди:
+` <?php$r = enchant_broker_init();$bprovides = enchant_broker_describe($r);echo "Брокер надає наступні бекенди:
 ";print_r($bprovides);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -48,32 +48,32 @@ enchant_broker_describe - Перераховує провайдерів Enchant
 Брокер надає такі бекенди:
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[name] u003d> aspell
-[desc] u003d> Aspell Provider
-[file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[name] => aspell
+[desc] => Aspell Provider
+[file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[name] u003d> hspell
-[desc] u003d> Hspell Provider
-[file] u003d> /usr/lib/enchant/libenchant_hspell.so
+[name] => hspell
+[desc] => Hspell Provider
+[file] => /usr/lib/enchant/libenchant_hspell.so
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[name] u003d> ispell
-[desc] u003d> Ispell Provider
-[file] u003d> /usr/lib/enchant/libenchant_ispell.so
+[name] => ispell
+[desc] => Ispell Provider
+[file] => /usr/lib/enchant/libenchant_ispell.so
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[name] u003d> myspell
-[desc] u003d> Myspell Provider
-[file] u003d> /usr/lib/enchant/libenchant_myspell.so
+[name] => myspell
+[desc] => Myspell Provider
+[file] => /usr/lib/enchant/libenchant_myspell.so
 )
 
 )

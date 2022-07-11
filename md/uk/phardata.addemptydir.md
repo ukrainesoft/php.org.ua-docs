@@ -7,7 +7,7 @@
 
 # PharData::addEmptyDir
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::addEmptyDir — Додати порожню директорію до tar/zip-архіву
 
@@ -32,7 +32,7 @@ public **PharData::addEmptyDir**(string `$directory`): void
 
 **Приклад #1 Приклад використання **PharData::addEmptyDir()****
 
-` <?phptry {   $a u003d new PharData('/path/to/my.tar'); $a->addEmptyDir('/full/path/to/file'); // показує, як зберігається файл    $b u003d $a['full/path/to/file']->isDir();} catch (Exception $e) {    // обробляємо?
+` <?phptry {   $a = new PharData('/path/to/my.tar'); $a->addEmptyDir('/full/path/to/file'); // показує, як зберігається файл    $b = $a['full/path/to/file']->isDir();} catch (Exception $e) {    // обробляємо?
 
 ### Дивіться також
 

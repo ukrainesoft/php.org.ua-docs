@@ -7,7 +7,7 @@
 
 #cubrid_save_to_glo
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_save_to_glo — Зберігає запитаний файл у примірнику GLO
 
@@ -40,7 +40,7 @@ Oid екземпляра glo у якому ви хочете зберегти ф
 
 **Приклад #1 Приклад використання **cubrid_save_to_glo()****
 
-` <?php$req u003d cubrid_execute ($con, "select image from person where idu003d1");if ($req) {   list ($oid) u003d cubrid_fetch($req); cubrid_close_request($req); $res u003d cubrid_save_to_glo ($con, $oid, "input.jpg"); if ($res) {      echo "зображення змінено"; }}?> `
+` <?php$req = cubrid_execute ($con, "select image from person where id=1");if ($req) {   list ($oid) = cubrid_fetch($req); cubrid_close_request($req); $res = cubrid_save_to_glo ($con, $oid, "input.jpg"); if ($res) {      echo "зображення змінено"; }}?> `
 
 ### Примітки
 

@@ -39,7 +39,7 @@ UPDATE або DELETE. Якщо жодних рядків не було пору�
 
 **Приклад #1 Приклад використання **sqlsrv_rows_affected()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password" );$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$sql u003d "UPDATE Table_1 SET| array("updated data", 1);$stmt u003d sqlsrv_query( $conn, $sql, $params);$rows_affected u003d sqlsrv_rows_affected( $stmt);if( false_affected  ), true));} elseif( $rows_affected u003du003d -1) {     echo "Немає доступної інформації. `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "UPDATE Table_1 SET| array("updated data", 1);$stmt = sqlsrv_query( $conn, $sql, $params);$rows_affected = sqlsrv_rows_affected( $stmt);if( false_affected  ), true));} elseif( $rows_affected == -1) {     echo "Немає доступної інформації. `
 
 ### Дивіться також
 

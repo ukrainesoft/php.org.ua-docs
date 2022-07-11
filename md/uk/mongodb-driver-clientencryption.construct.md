@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ClientEncryption::\_\_construct
 
-(mongodb \>u003d1.14.0)
+(mongodb \>=1.14.0)
 
 MongoDB\Driver\ClientEncryption::\_\_construct — Створює новий об'єкт
 ClientEncryption

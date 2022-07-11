@@ -7,7 +7,7 @@
 
 # FilterIterator::accept
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 FilterIterator::accept — Перевіряє, чи є поточний елемент
 ітератора допустимим
@@ -32,7 +32,7 @@ public **FilterIterator::accept**(): bool
 
 **Приклад #1 Приклад використання **FilterIterator::accept()****
 
-` <?php// Этот итератор фильтрует все значения с длиной менее 10 символовclass LengthFilterIterator extends FilterIterator {    public function accept() {        // Допускает строки с длиной 10 символов и более        return strlen(parent::current()) >u003d 10; }}$arrayIterator u003d new ArrayIterator(array('тест1', 'більше 10 символів'));$lengthFilter u003d new LengthFilterIterator($arrayIterator);foreach ($length   "
+` <?php// Этот итератор фильтрует все значения с длиной менее 10 символовclass LengthFilterIterator extends FilterIterator {    public function accept() {        // Допускает строки с длиной 10 символов и более        return strlen(parent::current()) >= 10; }}$arrayIterator = new ArrayIterator(array('тест1', 'більше 10 символів'));$lengthFilter = new LengthFilterIterator($arrayIterator);foreach ($length   "
 ";}?> `
 
 Результат виконання цього прикладу:

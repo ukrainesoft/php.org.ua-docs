@@ -33,20 +33,20 @@ null буде повертатися порожній рядок. Функція
 
 **Приклад #1 Кілька прикладів використання **ini_get()****
 
-` <?php/*Наш файл php.ini містить наступні настройки:display_errors u003d Onregister_globals u003d Offpost_max_size u003d 8M*/echo 'display_errors u003d ' . ini_get('display_errors') . "
-";echo 'register_globals u003d ' . ini_get('register_globals') . "
-";echo 'post_max_size u003d ' . ini_get('post_max_size') . "
-";echo 'post_max_size+1 u003d ' . (ini_get('post_max_size')+1) . "
-";echo 'post_max_size in bytes u003d ' . return_bytes(ini_get('post_max_size'));function return_bytes($val) {    $val u003d trim($val); $$| 1]);    switch($last) {        // Модификатор 'G' доступен        case 'g':            $val *u003d 1024;        case 'm':            $val *u003d 1024;        case 'k':            $val *u003d 1024; }   return $val;}?> `
+` <?php/*Наш файл php.ini містить наступні настройки:display_errors = Onregister_globals = Offpost_max_size = 8M*/echo 'display_errors = ' . ini_get('display_errors') . "
+";echo 'register_globals = ' . ini_get('register_globals') . "
+";echo 'post_max_size = ' . ini_get('post_max_size') . "
+";echo 'post_max_size+1 = ' . (ini_get('post_max_size')+1) . "
+";echo 'post_max_size in bytes = ' . return_bytes(ini_get('post_max_size'));function return_bytes($val) {    $val = trim($val); $$| 1]);    switch($last) {        // Модификатор 'G' доступен        case 'g':            $val *= 1024;        case 'm':            $val *= 1024;        case 'k':            $val *= 1024; }   return $val;}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
-display_errors u003d 1
-register_globals u003d 0
-post_max_sizeu003d8M
-post_max_size+1 u003d 9
-post_max_size in bytes u003d 8388608
+display_errors = 1
+register_globals = 0
+post_max_size=8M
+post_max_size+1 = 9
+post_max_size in bytes = 8388608
 
 ### Примітки
 

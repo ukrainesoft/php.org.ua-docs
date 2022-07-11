@@ -7,14 +7,14 @@
 
 # Yaf_View_Simple::eval
 
-(Yaf \> u003d 2.2.0)
+(Yaf \> = 2.2.0)
 
 Yaf_View_Simple::eval — Малює шаблон
 
 ### Опис
 
 public **Yaf_View_Simple::eval**(string `$tpl_content`, array
-`$tpl_vars` u003d ?): string
+`$tpl_vars` = ?): string
 
 Малює шаблон рядка і повертає результат.
 

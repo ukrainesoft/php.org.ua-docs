@@ -7,7 +7,7 @@
 
 # Клас Swoole\WebSocket\Server
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -25,16 +25,16 @@ public [on](swoole-websocket-server.on.md)(string `$event_name`,
 
 public static [pack](swoole-websocket-server.pack.md)(
 string `$data`,
-string `$opcode` u003d ?,
-string `$finish` u003d ?,
-string `$mask` u003d ?
+string `$opcode` = ?,
+string `$finish` = ?,
+string `$mask` = ?
 ): binary
 
 public [push](swoole-websocket-server.push.md)(
 string `$fd`,
 string `$data`,
-string `$opcode` u003d ?,
-string `$finish` u003d ?
+string `$opcode` = ?,
+string `$finish` = ?
 ): void
 
 public static [unpack](swoole-websocket-server.unpack.md)(binary

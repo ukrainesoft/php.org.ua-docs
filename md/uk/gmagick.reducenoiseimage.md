@@ -7,7 +7,7 @@
 
 # Gmagick::reducenoiseimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::reducenoiseimage — Згладжує контури зображення
 

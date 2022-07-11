@@ -7,7 +7,7 @@
 
 # Phar::webPhar
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::webPhar — Надсилає запит із браузера у внутрішній файл
 phar-архіві
@@ -15,10 +15,10 @@ phar-архіві
 ### Опис
 
 final public static **Phar::webPhar**(
-?string `$alias` u003d **`null`**,
-?string `$index` u003d **`null`**,
-?string `$fileNotFoundScript` u003d **`null`**,
-array `$mimeTypes` u003d [], ?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
+?string `$alias` = **`null`**,
+?string `$index` = **`null`**,
+?string `$fileNotFoundScript` = **`null`**,
+array `$mimeTypes` = [], ?[callable](language.types.callable.md) `$rewrite` = **`null`**
 ): void
 
 **Phar::webPhar()** служить [Phar::mapPhar()](phar.mapphar.md) для
@@ -51,7 +51,7 @@ phar-архіва (про те, що таке заглушка і як з ним
 Порівняння за замовчуванням, передайте сюди порожній масив. за
 замовчуванням використовуються такі зіставлення:
 
-` <?php$mimes u003d array(    'phps' u003d> Phar::PHPS, // передається в highlight_file()   'c' u003d> 'text/plain',    ' ' u003d> 'text/plain',   'c++' u003d> 'text/plain',   'dtd' u003d> 'text/plain',   'h' u003d>>'text/plain',      plain',   'rng' u003d> 'text/plain',   'txt' u003d> 'text/plain',   'xsd' u003d> 'text/plain',    'php' u003d> PHP   'inc' u003d> Phar::PHP, // розбірується як PHP   'avi' u003d> 'video/avi',   'bmp' u003d> 'image/bmp', '  gif' u003d> 'image/gif',   'htm' u003d> 'text/html',   'html' u003d> 'text/html',    htmls' u003d> 'text/html',    ' 'ico /x-ico',   'jpe' u003d> 'image/jpeg',    'jpg' u003d> 'image/jpeg',   'jpeg' u003d> 'image/jpeg',    'js' ',   'midi' u003d> 'audio/midi',   'mid' u003d> 'audio/midi',   'mod' u003d> 'audio/mod',    'mov' u003d>'  > 'audio/mp3',    'mpg' u003d> 'video/mpeg',   'mpeg' u003d> 'video/mpeg',    'pdf' u003d> 'application/pdf',     png ,   'swf ' u003d> 'application/shockwave-flash',   'tif' u003d> 'image/tiff',   'tiff' u003d> 'image/tiff',    'wav' u003d> 'audio/wav'  image/xbm',   'xml' u003d> 'text/xml',);?> `
+` <?php$mimes = array(    'phps' => Phar::PHPS, // передається в highlight_file()   'c' => 'text/plain',    ' ' => 'text/plain',   'c++' => 'text/plain',   'dtd' => 'text/plain',   'h' =>>'text/plain',      plain',   'rng' => 'text/plain',   'txt' => 'text/plain',   'xsd' => 'text/plain',    'php' => PHP   'inc' => Phar::PHP, // розбірується як PHP   'avi' => 'video/avi',   'bmp' => 'image/bmp', '  gif' => 'image/gif',   'htm' => 'text/html',   'html' => 'text/html',    htmls' => 'text/html',    ' 'ico /x-ico',   'jpe' => 'image/jpeg',    'jpg' => 'image/jpeg',   'jpeg' => 'image/jpeg',    'js' ',   'midi' => 'audio/midi',   'mid' => 'audio/midi',   'mod' => 'audio/mod',    'mov' =>'  > 'audio/mp3',    'mpg' => 'video/mpeg',   'mpeg' => 'video/mpeg',    'pdf' => 'application/pdf',     png ,   'swf ' => 'application/shockwave-flash',   'tif' => 'image/tiff',   'tiff' => 'image/tiff',    'wav' => 'audio/wav'  image/xbm',   'xml' => 'text/xml',);?> `
 
 `rewrite`
 Функція перезапису, якою передається єдиний рядковий параметр і
@@ -80,9 +80,9 @@ HTTP 403
 
 ### Список змін
 
-| Версія | Опис                                                                           |
-| ------ | ------------------------------------------------------------------------------ |
-| 8.0.0  | `fileNotFoundScript`, `mimeTypes` та `rewrite` тепер допускають значення null. |
+| Версія | Опис                                                                     |
+| ------ | ------------------------------------------------------------------------ |
+| 8.0.0  | fileNotFoundScript, mimeTypes та rewrite тепер допускають значення null. |
 
 ### Приклади
 
@@ -92,7 +92,7 @@ HTTP 403
 браузера до `/myphar.phar/index.php` або до `/myphar.phar`, і відобразить
 вихідний код `index.phps` при зверненні до `/myphar.phar/index.phps`.
 
-`<?php// створюємо архів:try {    $phar u003d new Phar('myphar.phar'); $phar['index.php'] u003d '<?php echo "Hello World"; ?>'; $phar['index.phps'] u003d '<?php echo "Hello World"; ?>'; $phar->setStub('<?phpPhar::webPhar();__HALT_COMPILER(); ?>');} catch (Exception $e) {    // обробка помилок}?> `
+`<?php// створюємо архів:try {    $phar = new Phar('myphar.phar'); $phar['index.php'] = '<?php echo "Hello World"; ?>'; $phar['index.phps'] = '<?php echo "Hello World"; ?>'; $phar->setStub('<?phpPhar::webPhar();__HALT_COMPILER(); ?>');} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Дивіться також
 

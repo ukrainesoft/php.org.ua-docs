@@ -37,7 +37,7 @@ public **DirectoryIterator::isFile**(): bool
 Приклад виведе список всіх файлів у директорії, що містить виконуваний
 скрипт.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

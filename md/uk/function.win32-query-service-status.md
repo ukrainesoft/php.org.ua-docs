@@ -84,7 +84,7 @@ dwServiceFlags. Дивіться [Константи прапорів служб
 
 | Версія                                                                                                                                                                                      | Опис |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **`false`**.                                                    |      |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **false**.                                                      |      |      
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 | PECL win32service 1.0.0 Тип повернення тепер array, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                   |      |
 

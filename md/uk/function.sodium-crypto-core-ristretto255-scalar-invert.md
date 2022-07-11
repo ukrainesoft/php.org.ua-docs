@@ -7,7 +7,7 @@
 
 # sodium_crypto_core_ristretto255_scalar_invert
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_core_ristretto255_scalar_invert — Інвертує скалярне
 значення
@@ -37,7 +37,7 @@ sodium_crypto_core_ristretto255_scalar_invert — Інвертує скаляр�
 **Приклад #1 Приклад використання
 **sodium_crypto_core_ristretto255_scalar_invert()****
 
-`<?php$foo u003d sodium_crypto_core_ristretto255_scalar_random();$inverted u003d
+`<?php$foo = sodium_crypto_core_ristretto255_scalar_random();$inverted =
 
 Результат виконання цього прикладу:
 

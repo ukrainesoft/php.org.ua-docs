@@ -7,7 +7,7 @@
 
 # ssh2_disconnect
 
-(PECL ssh2 \>u003d 1.0)
+(PECL ssh2 \>= 1.0)
 
 ssh2_disconnect — Закрити з'єднання з віддаленим сервером SSH
 

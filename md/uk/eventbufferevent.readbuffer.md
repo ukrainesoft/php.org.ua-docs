@@ -7,7 +7,7 @@
 
 # EventBufferEvent::readBuffer
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::readBuffer — Зливає весь вміст буфера введення та
 поміщає його у буфер

@@ -7,7 +7,7 @@
 
 # yaz_get_option
 
-(PECL yaz \>u003d 0.9.0)
+(PECL yaz \>= 0.9.0)
 
 yaz_get_option — Повертає значення параметра для підключення
 

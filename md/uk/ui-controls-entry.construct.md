@@ -13,7 +13,7 @@ UI\Controls\Entry::\_\_construct — Створити новий об'єкт Ent
 
 ### Опис
 
-public **UI\Controls\Entry::\_\_construct**(int `$type` u003d
+public **UI\Controls\Entry::\_\_construct**(int `$type` =
 UI\Controls\Entry::Normal)
 
 Створити новий елемент керування "Введення" заданого типу

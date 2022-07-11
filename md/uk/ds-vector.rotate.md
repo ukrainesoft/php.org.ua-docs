@@ -7,7 +7,7 @@
 
 # Ds\Vector::rotate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::rotate — Перемотує вектор на задану кількість значень
 
@@ -34,20 +34,20 @@ public **Ds\Vector::rotate**(int `$rotations`): void
 
 **Приклад #1 Приклад використання **Ds\Vector::rotate()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c", "d"]);$vector->rotate(1); // Аналогічно $a u003d $vector->shift(); $vector->push($a);print_r($vector);$vector->rotate(2);print_r($vector);?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c", "d"]);$vector->rotate(1); // Аналогічно $a = $vector->shift(); $vector->push($a);print_r($vector);$vector->rotate(2);print_r($vector);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> a
+[0] => b
+[1] => c
+[2] => d
+[3] => a
 )
 Ds\Vector Object
 (
-[0] u003d> d
-[1] u003d> a
-[2] u003d> b
-[3] u003d> c
+[0] => d
+[1] => a
+[2] => b
+[3] => c
 )

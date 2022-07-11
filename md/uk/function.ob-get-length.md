@@ -7,7 +7,7 @@
 
 #ob_get_length
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 ob_get_length — Повертає розмір буфера виводу
 
@@ -30,7 +30,7 @@ ob_get_length — Повертає розмір буфера виводу
 
 **Приклад #1 Простий приклад використання функції **ob_get_length()****
 
-` <?phpob_start();echo "Привіт ";$len1 u003d ob_get_length();echo "Світ";$len2 u003d ob_get_length();ob_end_clean();echo $len1 . ", " . $ len2;?> `
+` <?phpob_start();echo "Привіт ";$len1 = ob_get_length();echo "Світ";$len2 = ob_get_length();ob_end_clean();echo $len1 . ", " . $ len2;?> `
 
 Результат виконання цього прикладу:
 

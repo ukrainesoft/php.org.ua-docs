@@ -7,7 +7,7 @@
 
 # Клас SyncEvent
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 ## Вступ
 
@@ -27,14 +27,14 @@ class **SyncEvent** {
 
 /\* Методи \*/
 
-public [\_\_construct](syncevent.construct.md)(string `$name` u003d ?,
-bool `$manual` u003d **`false`**, bool `$prefire` u003d **`false`**)
+public [\_\_construct](syncevent.construct.md)(string `$name` = ?,
+bool `$manual` = **`false`**, bool `$prefire` = **`false`**)
 
 public [fire](syncevent.fire.md)(): bool
 
 public [reset](syncevent.reset.md)(): bool
 
-public [wait](syncevent.wait.md)(int `$wait` u003d -1): bool
+public [wait](syncevent.wait.md)(int `$wait` = -1): bool
 
 }
 

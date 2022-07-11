@@ -7,7 +7,7 @@
 
 #pg_escape_identifier
 
-(PHP 5 \>u003d 5.4.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.4, PHP 7, PHP 8)
 
 pg_escape_identifier — Екранує ідентифікатор для вставлення тексту
 поле
@@ -15,7 +15,7 @@ pg_escape_identifier — Екранує ідентифікатор для вст
 ### Опис
 
 **pg_escape_identifier**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, string `$data`): string
+`$connection` = ?, string `$data`): string
 
 **pg_escape_identifier()** екранує ідентифікатор (наприклад, таблицю,
 імена полів) для виконання запиту до бази. Повертає екранований
@@ -56,15 +56,15 @@ bytea потрібно використовувати
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                             |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `connection` тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад виконання **pg_escape_identifier()****
 
-`<?php  // Встановити з'єднання з базою даних  $dbconn u003d pg_connect('dbnameu003dfoo'); // Екранувати дані імені таблиці  $escaped u003d pg_escape_identifier($table_name); // Вибрати рядки із $table_name  pg_query("SELECT * FROM {$escaped};");?> `
+`<?php  // Встановити з'єднання з базою даних  $dbconn = pg_connect('dbname=foo'); // Екранувати дані імені таблиці  $escaped = pg_escape_identifier($table_name); // Вибрати рядки із $table_name  pg_query("SELECT * FROM {$escaped};");?> `
 
 ### Дивіться також
 

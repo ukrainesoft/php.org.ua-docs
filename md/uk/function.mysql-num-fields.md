@@ -42,7 +42,7 @@ mysql_num_fields — Повертає кількість полів резуль
 
 **Приклад #1 Приклад використання **mysql_num_fields()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}/* повертає 2, так як id,email u003du003du003d двом полям */echo mysql_num_fields($result);?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}/* повертає 2, так як id,email === двом полям */echo mysql_num_fields($result);?> `
 
 ### Примітки
 

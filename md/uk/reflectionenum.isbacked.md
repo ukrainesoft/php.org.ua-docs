@@ -7,7 +7,7 @@
 
 # ReflectionEnum::isBacked
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnum::isBacked — Визначає, чи є перерахування
 типізованим
@@ -33,7 +33,7 @@ public **ReflectionEnum::isBacked**(): bool
 
 **Приклад #1 Приклад використання **ReflectionEnum::isBacked()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}enum BackedSuit: string{    case Hearts u003d 'H'; case Diamonds u003d 'D'; case Clubs u003d 'C'; case Spades u003d 'S';}var_dump((newReflectionEnum(Suit::class))->isBacked());var_dump((newReflectionEnum(BackedSuit::class))->isBacked());?> `
+`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}enum BackedSuit: string{    case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}var_dump((newReflectionEnum(Suit::class))->isBacked());var_dump((newReflectionEnum(BackedSuit::class))->isBacked());?> `
 
 Результат виконання цього прикладу:
 

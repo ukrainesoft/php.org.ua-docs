@@ -8,7 +8,7 @@ order"
 
 # ArrayObject::natcasesort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::natcasesort — Сортувати за допомогою масиву
 реєстронезалежний алгоритм "natural order"
@@ -43,7 +43,7 @@ public **ArrayObject::natcasesort**(): bool
 
 **Приклад #1 Приклад використання **ArrayObject::natcasesort()****
 
-` <?php$array u003d array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');$arr1 u003d new ArrayObject($array);$arr2 u003d clone $arr1;$arr1->asort();echo "Стандартне сортування
+` <?php$array = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');$arr1 = new ArrayObject($array);$arr2 = clone $arr1;$arr1->asort();echo "Стандартне сортування
 ";print_r($arr1);$arr2->natcasesort();echo "
 Сортування в природному порядку (без обліку реєстру)
 ";print_r($arr2);?> `
@@ -53,23 +53,23 @@ public **ArrayObject::natcasesort**(): bool
 Стандартне сортування
 ArrayObject Object
 (
-[0] u003d> IMG0.png
-[5] u003d> IMG3.png
-[4] u003d> img1.png
-[2] u003d> img10.png
-[1] u003d> img12.png
-[3] u003d> img2.png
+[0] => IMG0.png
+[5] => IMG3.png
+[4] => img1.png
+[2] => img10.png
+[1] => img12.png
+[3] => img2.png
 )
 
 Сортування в природному порядку (без урахування регістру)
 ArrayObject Object
 (
-[0] u003d> IMG0.png
-[4] u003d> img1.png
-[3] u003d> img2.png
-[5] u003d> IMG3.png
-[2] u003d> img10.png
-[1] u003d> img12.png
+[0] => IMG0.png
+[4] => img1.png
+[3] => img2.png
+[5] => IMG3.png
+[2] => img10.png
+[1] => img12.png
 )
 
 Докладніше дивіться сторінку Мартіна Пула (Martin

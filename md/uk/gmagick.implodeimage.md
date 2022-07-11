@@ -7,7 +7,7 @@
 
 # Gmagick::implodeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::implodeimage — Створює копію зображення
 

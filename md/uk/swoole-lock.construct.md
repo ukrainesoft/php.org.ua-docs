@@ -7,14 +7,14 @@
 
 # Swoole\Lock::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Lock::\_\_construct — Створює блокування пам'яті
 
 ### Опис
 
-public **Swoole\Lock::\_\_construct**(string `$type` u003d ?, string
-`$file_lock_location` u003d ?)
+public **Swoole\Lock::\_\_construct**(string `$type` = ?, string
+`$file_lock_location` = ?)
 
 Блокування Swoole використовується для синхронізації даних між
 декількома операціями чи процесами.

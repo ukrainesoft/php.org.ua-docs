@@ -9,13 +9,13 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням                                                    | Місце зміни                                                      | Список змін    |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------- | -------------- |
-| [output_buffering](outcontrol.configuration.md#ini.output-buffering)     | "0"                                                              | PHP_INI_PERDIR |
-| [output_handler](outcontrol.configuration.md#ini.output-handler)         | NULL                                                             | PHP_INI_PERDIR |
-| [implicit_flush](outcontrol.configuration.md#ini.implicit-flush)         | "0"                                                              | PHP_INI_ALL    |
-| [url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)   | "au003dhref,areau003dhref,frameu003dsrc,formu003d,fieldsetu003d" | PHP_INI_ALL    | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується лише [output_add_rewrite_var()](function.output-add-rewrite-var.md).
-| [url_rewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts) | `$_SERVER['HTTP_HOST']` використовується за замовчуванням.       | PHP_INI_ALL    | Доступно з PHP 7.1.0
+| Ім'я За замовчуванням                                                    | Місце зміни                                              | Список змін    |                                                                                                                                                                                 |
+| ------------------------------------------------------------------------ | -------------------------------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [output_buffering](outcontrol.configuration.md#ini.output-buffering)     | "0"                                                      | PHP_INI_PERDIR |                                                                                                                                                                                 |
+| [output_handler](outcontrol.configuration.md#ini.output-handler)         | NULL                                                     | PHP_INI_PERDIR |                                                                                                                                                                                 |
+| [implicit_flush](outcontrol.configuration.md#ini.implicit-flush)         | "0"                                                      | PHP_INI_ALL    |                                                                                                                                                                                 |
+| [url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags)   | "a=href,area=href,frame=src,form=,fieldset="             | PHP_INI_ALL    | До PHP 7.1.0 використовувалася для встановлення перезапису сесії "trans sid". З PHP 7.1.0 використовується лише [output_add_rewrite_var()](function.output-add-rewrite-var.md). |
+| [url_rewriter.hosts](outcontrol.configuration.md#ini.url-rewriter.hosts) | $_SERVER['HTTP_HOST'] використовується за замовчуванням. | PHP_INI_ALL    | Доступно з PHP 7.1.0                                                                                                                                                            |                
 
 **Конфігураційні опції керування висновком**
 
@@ -28,7 +28,7 @@
 Ви можете дозволити буферизацію виводу для всіх файлів, встановивши цю
 директиву в 'On'. Якщо ви хочете обмежити розмір буфера до
 певного розміру, ви можете встановити не 'On', а максимальне
-кількість байт у цій директиві (наприклад, output_bufferingu003d4096). Ця
+кількість байт у цій директиві (наприклад, output_buffering=4096). Ця
 директива завжди відключена у PHP-CLI.
 
 `output_handler` string
@@ -72,8 +72,8 @@
 `url_rewriter.tags` визначає, які HTML-теги будуть перезаписані
 значеннями
 [output_add_rewrite_var()](function.output-add-rewrite-var.md). за
-замовчуванням `au003dhref,areau003dhref,frameu003dsrc,inputu003dsrc,formu003d` `form` є
-спеціальним тегом. `<input hiddenu003d"session_id" nameu003d"session_name">`
+замовчуванням `a=href,area=href,frame=src,input=src,form=` `form` є
+спеціальним тегом. `<input hidden="session_id" name="session_name">`
 додається як змінна форма.
 
 > **Примітка**: До PHP 7.1.0 треба було використовувати

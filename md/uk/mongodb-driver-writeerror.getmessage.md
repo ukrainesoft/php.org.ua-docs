@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteError::getMessage
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteError::getMessage — Повертає повідомлення про помилку
 WriteError
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\WriteError::getMessage**(): string
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteError::getMessage()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' u003d> 1]);$bulk->insert(['_id' u003d> 1]); ()[0]->getMessage());}?> `
+` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1]);$bulk->insert(['_id' => 1]); ()[0]->getMessage());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

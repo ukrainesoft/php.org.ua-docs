@@ -61,15 +61,15 @@ y-координата вихідного зображення.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                  |
-| ------ | --------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | dst_image і src_image тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Обрізання логотипу PHP.net**
 
-` <?php// Створення зображень$src u003d imagecreatefromgif('php.gif');$dest u003d imagecreatetruecolor(80, 40);// Копіюванняimagecopy($dest, $src, 0, 0, 0, 2 40);// Висновок і звільнення пам'яті header ('Content-Type: image/gif'); imagegif ($ dest); image destroy ($ dest); image destroy ($ src);?> `
+` <?php// Створення зображень$src = imagecreatefromgif('php.gif');$dest = imagecreatetruecolor(80, 40);// Копіюванняimagecopy($dest, $src, 0, 0, 0, 2 40);// Висновок і звільнення пам'яті header ('Content-Type: image/gif'); imagegif ($ dest); image destroy ($ dest); image destroy ($ src);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -9,7 +9,7 @@
 
 #xmlwriter_start_dtd
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::startDtd -- xmlwriter_start_dtd — Створити стартовий DTD тег
 
@@ -18,15 +18,15 @@ XMLWriter::startDtd -- xmlwriter_start_dtd — Створити стартови
 Об'єктно-орієнтований стиль
 
 public **XMLWriter::startDtd**(string `$qualifiedName`, ?string
-`$publicId` u003d **`null`**, ?string `$systemId` u003d **`null`**): bool
+`$publicId` = **`null`**, ?string `$systemId` = **`null`**): bool
 
 Процедурний стиль
 
 **xmlwriter_start_dtd**(
 [XMLWriter](class.xmlwriter.md) `$writer`,
 string `$qualifiedName`,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**
 ): bool
 
 Починає DTD.
@@ -55,9 +55,9 @@ string `$qualifiedName`,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також
 

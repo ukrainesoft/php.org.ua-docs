@@ -7,7 +7,7 @@
 
 # SolrQuery::setTermsField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setTermsField — Встановлює ім'я поля, з якого потрібно
 отримати вираз

@@ -7,7 +7,7 @@
 
 # cubrid_lob2_import
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_import — Імпортує дані BLOB/CLOB із файлу
 
@@ -44,7 +44,7 @@ bool
 **Приклад #1 Приклад використання
 [cubrid_lob2_export()](function.cubrid-lob2-export.md)**
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TABLE if exists test_lob");cubrid_execute (id INT, contents CLOB)");$req u003d cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");cubrid_bind($req, 1, 1);$lob u003d clob"); cubrid_lob2_import($lob, "doc_1.txt");cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba", "");cubrid_execute($conn,"DROP TABLE if exists test_lob");cubrid_execute (id INT, contents CLOB)");$req = cubrid_prepare($conn, "INSERT INTO test_lob VALUES (?, ?)");cubrid_bind($req, 1, 1);$lob = clob"); cubrid_lob2_import($lob, "doc_1.txt");cubrid_lob2_bind($req, 2, $lob, 'CLOB'); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);cubrid_disconnect($conn);?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # imageflip
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 imageflip — Перевертає зображення за допомогою вибраного режиму.
 
@@ -27,11 +27,11 @@ imageflip — Перевертає зображення за допомогою 
 `mode`
 Режим перевороту - одна із констант **`IMG_FLIP_*`**:
 
-| Константа Опис            |
-| ------------------------- |
-| **`IMG_FLIP_HORIZONTAL`** | Перевертає зображення по горизонталі.
-| **`IMG_FLIP_VERTICAL`**   | Перевертає зображення по вертикалі.
-| **`IMG_FLIP_BOTH`**       | Перевертає зображення і по горизонталі, і по вертикалі.
+| Константа Опис          |
+| ----------------------- |
+| **IMG_FLIP_HORIZONTAL** | Перевертає зображення по горизонталі. 
+| **IMG_FLIP_VERTICAL**   | Перевертає зображення по вертикалі.
+| **IMG_FLIP_BOTH**       | Перевертає зображення і по горизонталі, і по вертикалі.
 
 ### Значення, що повертаються
 
@@ -40,9 +40,9 @@ imageflip — Перевертає зображення за допомогою 
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -50,7 +50,7 @@ imageflip — Перевертає зображення за допомогою 
 
 У цьому прикладі використовується константа **`IMG_FLIP_VERTICAL`**.
 
-` <?php// Файл$filename u003d 'phplogo.png';// Тип данихheader('Content-type: image/png');// Завантаження$im u003d imagecreatefrompng($filename);// Перевертаємо поimage $im, IMG_FLIP_VERTICAL);// Виведенняimagejpeg($im);imagedestroy($im);?> `
+` <?php// Файл$filename = 'phplogo.png';// Тип данихheader('Content-type: image/png');// Завантаження$im = imagecreatefrompng($filename);// Перевертаємо поimage $im, IMG_FLIP_VERTICAL);// Виведенняimagejpeg($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -60,7 +60,7 @@ imageflip — Перевертає зображення за допомогою 
 
 У цьому прикладі використовується константа **`IMG_FLIP_HORIZONTAL`**.
 
-` <?php// Файл$filename u003d 'phplogo.png';// Тип данихheader('Content-type: image/png');// Завантаження$im u003d imagecreatefrompng($filename);// Перевертаємо поimage $im, IMG_FLIP_HORIZONTAL);// Виведенняimagejpeg($im);imagedestroy($im);?> `
+` <?php// Файл$filename = 'phplogo.png';// Тип данихheader('Content-type: image/png');// Завантаження$im = imagecreatefrompng($filename);// Перевертаємо поimage $im, IMG_FLIP_HORIZONTAL);// Виведенняimagejpeg($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

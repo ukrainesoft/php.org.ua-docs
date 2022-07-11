@@ -32,11 +32,11 @@ public **SolrDisMaxQuery::useDisMaxQueryParser**():
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::useDisMaxQueryParser()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery();$dismaxQuery->useDisMaxQueryParser();echo $dismaxQuery;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->useDisMaxQueryParser();echo $dismaxQuery;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-defTypeu003ddismax
+defType=dismax
 
 ### Дивіться також
 

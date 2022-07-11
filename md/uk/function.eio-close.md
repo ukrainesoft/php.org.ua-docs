@@ -7,7 +7,7 @@
 
 #eio_close
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_close — Закрити файл
 
@@ -16,10 +16,10 @@ eio_close — Закрити файл
 **eio_close**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_close()** закриває файл, вказаний у `fd`.

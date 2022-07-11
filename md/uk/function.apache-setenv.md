@@ -7,14 +7,14 @@
 
 #apache_setenv
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 apache_setenv — Встановлює змінну subprocess_env Apache
 
 ### Опис
 
 **apache_setenv**(string `$variable`, string `$value`, bool
-`$walk_to_top` u003d **`false`**): bool
+`$walk_to_top` = **`false`**): bool
 
 **apache_setenv()** встановлює значення змінної оточення Apache,
 визначеної як `variable`.

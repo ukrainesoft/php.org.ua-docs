@@ -14,7 +14,7 @@ similar_text — Обчислює ступінь схожості двох ря�
 ### Опис
 
 **similar_text**(string `$string1`, string `$string2`, float `&$percent`
-u003d **`null`**): int
+= **`null`**): int
 
 Обчислює ступінь схожості двох рядків за алгоритмом, описаним у
 Programming Classics: Implementing the World's Best Algorithms by Oliver
@@ -58,8 +58,8 @@ Programming Classics: Implementing the World's Best Algorithms by Oliver
 У цьому прикладі показано, що зміна порядку аргументів `string1` та
 `string2` може дати різні результати.
 
-` <?php$sim u003d similar_text('bafoobar', 'barfoo', $perc);echo "подібність: $sim ($perc %)
-";$sim u003d similar_text('barfoo', 'bafoobar', $perc);echo "подібність: $sim ($perc %)
+` <?php$sim = similar_text('bafoobar', 'barfoo', $perc);echo "подібність: $sim ($perc %)
+";$sim = similar_text('barfoo', 'bafoobar', $perc);echo "подібність: $sim ($perc %)
 ";
 
 Результатом виконання цього прикладу буде щось подібне:

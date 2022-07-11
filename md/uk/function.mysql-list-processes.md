@@ -7,7 +7,7 @@
 
 # mysql_list_processes
 
-(PHP 4 u003d 4.3.0, PHP 5)
+(PHP 4 = 4.3.0, PHP 5)
 
 mysql_list_processes — Повертає список процесів MySQL
 
@@ -21,7 +21,7 @@ mysql_list_processes — Повертає список процесів MySQL
 
 ### Опис
 
-**mysql_list_processes**(resource `$link_identifier` u003d NULL):
+**mysql_list_processes**(resource `$link_identifier` = NULL):
 resource\|false
 
 Повертає перелік поточних процесів на сервері MySQL.
@@ -46,7 +46,7 @@ resource\|false
 
 **Приклад #1 Приклад використання **mysql_list_processes()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$result u003d mysql_list_processes($link);while ($row u003d mysql_fetch_assoc($result)){    %s%s%s
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$result = mysql_list_processes($link);while ($row = mysql_fetch_assoc($result)){    %s%s%s
 ", $row["Id"], $row["Host"], $row["db"],        $row["Command"], $row["Time"]);}mysql_free_result($result); ?> `
 
 Результатом виконання цього прикладу буде щось подібне:

@@ -13,7 +13,7 @@ file — Читає вміст файлу та поміщає його в мас
 
 ### Опис
 
-**file**(string `$filename`, int `$flags` u003d 0, ?resource `$context` u003d
+**file**(string `$filename`, int `$flags` = 0, ?resource `$context` =
 **`null`**): array\|false
 
 Читає вміст файлу та поміщає його у масив.
@@ -78,8 +78,8 @@ file — Читає вміст файлу та поміщає його в мас
 
 **Приклад #1 Приклад використання **file()****
 
-`<?php// Отримує вміст файлу у вигляді масиву. У цьому прикладі ми використовуємо // звернення за протоколом HTTP для отримання HTML-коду з віддаленого сервера $lines -коду разом з номерами рядків.foreach ($lines as $line_num u003d> $line) {    echo "Рядок #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />
-";}// Використовуємо необов'язковий параметр flags$trimmed u003d file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);?> `
+`<?php// Отримує вміст файлу у вигляді масиву. У цьому прикладі ми використовуємо // звернення за протоколом HTTP для отримання HTML-коду з віддаленого сервера $lines -коду разом з номерами рядків.foreach ($lines as $line_num => $line) {    echo "Рядок #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />
+";}// Використовуємо необов'язковий параметр flags$trimmed = file('somefile.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # SQLite3Stmt::readOnly
 
-(PHP 5 \>u003d 5.3.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.6, PHP 7, PHP 8)
 
 SQLite3Stmt::readOnly — Перевіряє, чи підготовлений запит
 тільки для читання

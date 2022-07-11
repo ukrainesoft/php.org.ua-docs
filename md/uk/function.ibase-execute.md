@@ -50,7 +50,7 @@ ibase_execute — Виконує попередньо підготовлений
 
 **Приклад #1 Приклад використання **ibase_execute()****
 
-` <?php$dbh u003d ibase_connect($host, $username, $password);$updates u003d array(   1 u003d> 'Eric',   5 u003d> 'Filip', y' '; ($dbh, "UPDATE FOO SET BAR u003d ? WHERE BAZ u003d ?");foreach ($updates as $baz u003d> $bar) {    ibase_execute($query, $)
+` <?php$dbh = ibase_connect($host, $username, $password);$updates = array(   1 => 'Eric',   5 => 'Filip', y' '; ($dbh, "UPDATE FOO SET BAR = ? WHERE BAZ = ?");foreach ($updates as $baz => $bar) {    ibase_execute($query, $)
 
 ### Дивіться також
 

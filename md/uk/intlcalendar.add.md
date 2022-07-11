@@ -7,7 +7,7 @@
 
 # IntlCalendar::add
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::add — Додає кількість (зі знаком) часу в поле
 
@@ -58,7 +58,7 @@ public **IntlCalendar::add**(int `$field`, int `$value`): bool
 
 **Приклад #1 Приклад використання **IntlCalendar::add()****
 
-` <?phpini_set('intl.default_locale', 'fr_FR');ini_set('date.timezone', 'UTC');$cal u003d new IntlGregorianCalendar(2012, 0 /* January */, at: :formatObject($cal), "
+` <?phpini_set('intl.default_locale', 'fr_FR');ini_set('date.timezone', 'UTC');$cal = new IntlGregorianCalendar(2012, 0 /* January */, at: :formatObject($cal), "
 ";$cal->add(IntlCalendar::FIELD_MONTH, 1);echo IntlDateFormatter::formatObject($cal), "
 ";$cal->add(IntlCalendar::FIELD_DAY_OF_MONTH, 1);echo IntlDateFormatter::formatObject($cal), "
 ";

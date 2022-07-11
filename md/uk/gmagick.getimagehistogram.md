@@ -7,7 +7,7 @@
 
 # Gmagick::getimagehistogram
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagehistogram — Повертає гістограму зображення
 

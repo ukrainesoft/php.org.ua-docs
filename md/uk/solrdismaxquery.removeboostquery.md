@@ -35,12 +35,12 @@ public **SolrDisMaxQuery::removeBoostQuery**(string `$field`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removeBoostQuery()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBoostQuery('cat', 'electronics', 5.1)    ->addBoostQuery('_ ;// тепер видалите частину запиту з полем 'cat'$dismaxQuery->removeBoostQuery('cat');echo $dismaxQuery . PHP_EOL;?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBoostQuery('cat', 'electronics', 5.1)    ->addBoostQuery('_ ;// тепер видалите частину запиту з полем 'cat'$dismaxQuery->removeBoostQuery('cat');echo $dismaxQuery . PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&bqu003dcat:electronics^5.1 cat:hard drive
-qu003dlucene&defTypeu003dedismax&bqu003dcat:hard drive
+q=lucene&defType=edismax&bq=cat:electronics^5.1 cat:hard drive
+q=lucene&defType=edismax&bq=cat:hard drive
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 #openssl_spki_new
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 openssl_spki_new — Створення нового відкритого підписаного ключа з
 викликом
@@ -15,7 +15,7 @@ openssl_spki_new — Створення нового відкритого під
 ### Опис
 
 **openssl_spki_new**([OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)
-`$private_key`, string `$challenge`, int `$digest_algo` u003d
+`$private_key`, string `$challenge`, int `$digest_algo` =
 **`OPENSSL_ALGO_MD5`**): string\|false
 
 Створює новий підписаний відкритий ключ із викликом, використовуючи вказаний
@@ -47,9 +47,9 @@ openssl_spki_new — Створення нового відкритого під
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                            |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key. |
+| Версія | Опис                                                                                                                                                                          |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key. |
 
 ### Приклади
 
@@ -57,7 +57,7 @@ openssl_spki_new — Створення нового відкритого під
 
 Створює новий SPKAC з використанням стандартного алгоритму (MD5)
 
-`<?php$pkey u003d openssl_pkey_new('secret password');$spkac u003d openssl_spki_new($pkey, 'testing');if ($spkac !u003du003d NULL) {                  вдалася";}?> `
+`<?php$pkey = openssl_pkey_new('secret password');$spkac = openssl_spki_new($pkey, 'testing');if ($spkac !== NULL) {                  вдалася";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -73,7 +73,7 @@ y5I3OCyl3S4wCuU1ibZZwDVwYShr5ELp0J9PEf7qMQZOhNsizoC7k+Czb2xB6hYW
 sKfsfTKm3cXBtH3fdgc/Z1Z7VSWnAzYo38snqm72NTf5yFRnrQdphNNXi+kn1zHA
 lxXRyFDXHOcYsOnwAWfyXFA4QDHQ0ezz0UoCY8gJXovcZb4GRYqOLUAsF2HcNboy
 29WN8VqE29sL9QxVZFlwMcqyoLcNnyw38GvNvAGqSvzzbnEFP2MAQXJVe0H0hdp/
-MML5G2iNVgNozAou003d
+MML5G2iNVgNozAo=
 
 ### Дивіться також
 

@@ -11,7 +11,7 @@
 конкретною подією. Наприклад, наступний код чекатиме, коли
 **`STDIN`** стане читаним:
 
-` <?php// Чекаємо, поки STDIN не стане доступним для читання$w u003d new EvIo(STDIN, Ev::READ, function ($watcher, $revents) { echo 
+` <?php// Чекаємо, поки STDIN не стане доступним для читання$w = new EvIo(STDIN, Ev::READ, function ($watcher, $revents) { echo 
 ";});Ev::run(Ev::RUN_ONCE);?> `
 
 Конструктори спостерігачів запускають їх автоматично. Якщо вам потрібно

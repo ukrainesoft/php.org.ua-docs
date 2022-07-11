@@ -44,11 +44,11 @@ LDAP\ResultEntry\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
-| 8.1.0  | Повертає екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше повертався ресурс ([resource](language.types.resource.md)).                     |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
+| 8.1.0  | Повертає екземпляр [LDAP\ResultEntry](class.ldap-result-entry.md); раніше повертався ресурс ([resource](language.types.resource.md)).                   |
 
 ### Дивіться також
 

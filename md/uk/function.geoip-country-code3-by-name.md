@@ -7,7 +7,7 @@
 
 # geoip_country_code3_by_name
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_country_code3_by_name — Отримати трисимвольний код країни
 
@@ -34,7 +34,7 @@ geoip_country_code3_by_name — Отримати трисимвольний ко
 
 Цей приклад виведе розташування хоста example.com.
 
-` <?php$country u003d geoip_country_code3_by_name('www.example.com');if ($country) {    echo 'Хост розташований в ' . $country;}?> `
+` <?php$country = geoip_country_code3_by_name('www.example.com');if ($country) {    echo 'Хост розташований в ' . $country;}?> `
 
 Результат виконання цього прикладу:
 

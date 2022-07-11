@@ -7,7 +7,7 @@
 
 # XMLReader::setRelaxNGSchema
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::setRelaxNGSchema — Встановити ім'я файлу або URI для схеми
 RelaxNG

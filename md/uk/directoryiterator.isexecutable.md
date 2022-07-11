@@ -36,7 +36,7 @@ public **DirectoryIterator::isExecutable**(): bool
 Приклад показує список файлів, що виконуються в директорії, що містить
 виконуваний скрипт.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isExecutable()) { file| "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isExecutable()) { file| "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

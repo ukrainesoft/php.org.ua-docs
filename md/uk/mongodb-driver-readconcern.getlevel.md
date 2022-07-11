@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadConcern::getLevel
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\ReadConcern::getLevel - Повертає опцію "level"
 ReadConcern
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\ReadConcern::getLevel**(): ?string
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadConcern::getLevel()****
 
-` <?php$rc u003d new MongoDB\Driver\ReadConcern();var_dump($rc->getLevel());$rc u003d new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);var_dump($ rc->getLevel());$rc u003d new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);var_dump($rc->getLevel());?> `
+` <?php$rc = new MongoDB\Driver\ReadConcern();var_dump($rc->getLevel());$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);var_dump($ rc->getLevel());$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::MAJORITY);var_dump($rc->getLevel());?> `
 
 Результат виконання цього прикладу:
 

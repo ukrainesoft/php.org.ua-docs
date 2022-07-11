@@ -7,13 +7,13 @@
 
 # yaz_scan_result
 
-(PHP 4 u003d 4.0.5, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
 
 yaz_scan_result — Повернення результату запиту сканування
 
 ### Опис
 
-**yaz_scan_result**(resource `$id`, array `&$result` u003d ?): array
+**yaz_scan_result**(resource `$id`, array `&$result` = ?): array
 
 **yaz_scan_result()** повертає терми та асоційовану з ними
 інформацію, отриману з сервера останнім викликом функції

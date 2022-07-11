@@ -35,24 +35,24 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ftp` тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_nlist()****
 
-`<?php// установка з'єднання$ftp u003d ftp_connect($ftp_server);// перевірка імені користувача і пароля$login_result u003d ftp_login($ftp, $ftp_user_name, $ft $v, ".");// виведення $contentsvar_dump($contents);?> `
+`<?php// установка з'єднання$ftp = ftp_connect($ftp_server);// перевірка імені користувача і пароля$login_result = ftp_login($ftp, $ftp_user_name, $ft $v, ".");// виведення $contentsvar_dump($contents);?> `
 
 Наведений вище приклад виведе:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(11) "public_html"
-[1]u003d>
+[1]=>
 string(10) "public_ftp"
-[2]u003d>
+[2]=>
 string(3) "www"
 
 ### Дивіться також

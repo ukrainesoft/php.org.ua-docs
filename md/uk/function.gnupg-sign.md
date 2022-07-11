@@ -7,7 +7,7 @@
 
 #gnupg_sign
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_sign — Підписує переданий текст
 
@@ -39,9 +39,9 @@ gnupg_sign — Підписує переданий текст
 
 **Приклад #1 Приклад використання **gnupg_sign()** у процедурному стилі**
 
-` <?php$res u003d gnupg_init();gnupg_addsignkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");$signed u003d gnupg_sign|
+` <?php$res = gnupg_init();gnupg_addsignkey($res,"8660281B6051D071D94B5B230549F9DC851566DC","test");$signed = gnupg_sign|
 
 **Приклад #2 Приклад використання **gnupg_sign()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$signed u003d $gpg->|
+` <?php$gpg = new gnupg();$gpg->addsignkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$signed = $gpg->|

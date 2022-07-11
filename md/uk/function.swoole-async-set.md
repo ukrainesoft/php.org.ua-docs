@@ -7,7 +7,7 @@
 
 # swoole_async_set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_async_set — Оновлення опцій асинхронного введення-виводу
 

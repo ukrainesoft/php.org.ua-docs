@@ -7,7 +7,7 @@
 
 #cubrid_current_oid
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_current_oid — Повертає OID поточної позиції курсору
 
@@ -34,14 +34,14 @@ Oid поточного положення курсору, у разі успіш
 
 **Приклад #1 Приклад використання **cubrid_current_oid()****
 
-` <?php$connu003du003dcubrid_connect("localhost", 33000, "demodb", "dba");$req u003d cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$res u003d cubrid_get($conn, $oid);print_r($res);cubrid_disconnect($conn);?> `
+` <?php$conn==cubrid_connect("localhost", 33000, "demodb", "dba");$req = cubrid_execute($conn, "SELECT **FROM code", CUBRID_INCLU ;$res = cubrid_get($conn, $oid);print_r($res);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[s_name] u003d> X
-[f_name] u003d> mixed
+[s_name] => X
+[f_name] => mixed
 )
 
 ### Дивіться також

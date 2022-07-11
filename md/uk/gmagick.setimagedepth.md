@@ -7,7 +7,7 @@
 
 # Gmagick::setimagedepth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagedepth — Встановлює глибину зображення
 

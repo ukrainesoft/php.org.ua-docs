@@ -9,7 +9,7 @@
 
 #xmlwriter_start_attribute
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::startAttribute -- xmlwriter_start_attribute -- Створити
 початковий атрибут
@@ -45,21 +45,21 @@ public **XMLWriter::startAttribute**(string `$name`): bool
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У параметрі `writer` тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад базового використання
 **XMLWriter::startAttribute()****
 
-` <?php$writer u003d new XMLWriter;$writer->openURI('php://output');$writer->startDocument('1.0', 'UTF-8');$writer->startElement('element ');$writer->startAttribute('attribute');$writer->text('value');$writer->endAttribute();$writer->endElement();$writer->endDocument(); `
+` <?php$writer = new XMLWriter;$writer->openURI('php://output');$writer->startDocument('1.0', 'UTF-8');$writer->startElement('element ');$writer->startAttribute('attribute');$writer->text('value');$writer->endAttribute();$writer->endElement();$writer->endDocument(); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-<?xml versionu003d"1.0" encodingu003d"UTF-8"?>
-<element attributeu003d"value"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<element attribute="value"/>
 
 ### Дивіться також
 

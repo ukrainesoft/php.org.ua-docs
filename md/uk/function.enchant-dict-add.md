@@ -36,13 +36,13 @@ enchant_dict_add — Додає слово до особистого словн�
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | `dictionary` чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                           |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 **Приклад #1 Додавання слова до PWL**
 
-`<?php$filename u003d './my_word_list.pwl';$word u003d 'Supercalifragilisticexpialidocious';$broker u003d enchant_broker_init();$dict u003d enchant_broker_request_pwl_dict($dic enchant_broker_free($broker);?> `
+`<?php$filename = './my_word_list.pwl';$word = 'Supercalifragilisticexpialidocious';$broker = enchant_broker_init();$dict = enchant_broker_request_pwl_dict($dic enchant_broker_free($broker);?> `
 
 ### Дивіться також
 

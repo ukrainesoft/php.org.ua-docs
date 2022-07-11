@@ -7,7 +7,7 @@
 
 # Клас RecursiveArrayIterator
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -24,13 +24,13 @@ class **RecursiveArrayIterator** extends
 
 /\* Успадковані константи \*/
 
-const int `STD_PROP_LIST` u003d 1;
+const int `STD_PROP_LIST` = 1;
 
-const int `ARRAY_AS_PROPS` u003d 2;
+const int `ARRAY_AS_PROPS` = 2;
 
 /\* Константи \*/
 
-const int `CHILD_ARRAYS_ONLY` u003d 4;
+const int `CHILD_ARRAYS_ONLY` = 4;
 
 /\* Методи \*/
 
@@ -45,7 +45,7 @@ public
 [ArrayIterator::append](arrayiterator.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): void
 
-public [ArrayIterator::asort](arrayiterator.asort.md)(int `$flags` u003d
+public [ArrayIterator::asort](arrayiterator.asort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [ArrayIterator::count](arrayiterator.count.md)(): int
@@ -60,7 +60,7 @@ public [ArrayIterator::getFlags](arrayiterator.getflags.md)(): int
 
 public [ArrayIterator::key](arrayiterator.key.md)(): string\|int\|null
 
-public [ArrayIterator::ksort](arrayiterator.ksort.md)(int `$flags` u003d
+public [ArrayIterator::ksort](arrayiterator.ksort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [ArrayIterator::natcasesort](arrayiterator.natcasesort.md)():

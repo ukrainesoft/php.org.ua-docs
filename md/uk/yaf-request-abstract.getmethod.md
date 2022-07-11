@@ -7,7 +7,7 @@
 
 # Yaf_Request_Abstract::getMethod
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getMethod — Отримує спосіб запиту
 

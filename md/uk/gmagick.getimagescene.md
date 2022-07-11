@@ -7,7 +7,7 @@
 
 # Gmagick::getimagescene
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagescene — Отримує сцену зображення
 

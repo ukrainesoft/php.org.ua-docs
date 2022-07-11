@@ -32,15 +32,15 @@ is_numeric — Перевіряє, чи є змінна числом або ря
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | Рядки, що складаються з чисел, що закінчуються пробілом ('42'), тепер повертатимуть true. Раніше натомість поверталося **`false`**. |
+| Версія | Опис                                                                                                                              |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Рядки, що складаються з чисел, що закінчуються пробілом ('42'), тепер повертатимуть true. Раніше натомість поверталося **false**. |
 
 ### Приклади
 
 **Приклад #1 Приклади використання **is_numeric()****
 
-` <?php$tests u003d array(    "42",    1337,    0x539,    02471,    0b10100111001,    1337e0,    "0x539",    "02471",    "0b10100111001",    "1337e0",    "not numeric",    array(),    9.1, null,    '',);foreach ($tests as $element) {    if (is_numeric($element)) {        echo var_export($element, true) . " is numeric", PHP_EOL; } else {        echo var_export($element, true) . " is NOT numeric", PHP_EOL; }}?> `
+` <?php$tests = array(    "42",    1337,    0x539,    02471,    0b10100111001,    1337e0,    "0x539",    "02471",    "0b10100111001",    "1337e0",    "not numeric",    array(),    9.1, null,    '',);foreach ($tests as $element) {    if (is_numeric($element)) {        echo var_export($element, true) . " is numeric", PHP_EOL; } else {        echo var_export($element, true) . " is NOT numeric", PHP_EOL; }}?> `
 
 Результат виконання цього прикладу:
 
@@ -63,7 +63,7 @@ NULL - НЕ число
 
 **Приклад #2 Приклад використання **is_numeric()** з пробілом**
 
-` <?php$tests u003d [    " 42",    "42 ",    " 9001", // неразрывный пробел    "9001 ", // неразрывный пробел];foreach ($tests as $element) {    if (is_numeric($element) ) {        echo var_export($element, true) . " - число", PHP_EOL; } else {        echo var_export($element, true) . " - НЕ число", PHP_EOL; }}?> `
+` <?php$tests = [    " 42",    "42 ",    " 9001", // неразрывный пробел    "9001 ", // неразрывный пробел];foreach ($tests as $element) {    if (is_numeric($element) ) {        echo var_export($element, true) . " - число", PHP_EOL; } else {        echo var_export($element, true) . " - НЕ число", PHP_EOL; }}?> `
 
 Результат виконання цього прикладу в PHP 8:
 

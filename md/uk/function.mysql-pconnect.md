@@ -25,10 +25,10 @@ mysql_pconnect — Встановлює постійне з'єднання із 
 ### Опис
 
 **mysql_pconnect**(
-string `$server` u003d ini_get("mysql.default_host"),
-string `$username` u003d ini_get("mysql.default_user"),
-string `$password` u003d ini_get("mysql.default_password"),
-int `$client_flags` u003d 0
+string `$server` = ini_get("mysql.default_host"),
+string `$username` = ini_get("mysql.default_user"),
+string `$password` = ini_get("mysql.default_password"),
+int `$client_flags` = 0
 ): resource
 
 Встановлює постійне з'єднання із сервером MySQL.

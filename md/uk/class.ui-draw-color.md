@@ -42,9 +42,9 @@ public `$a`;
 
 public
 [\_\_construct](ui-draw-color.construct.md)([UI\Draw\Color](class.ui-draw-color.md)
-`$color` u003d ?)
+`$color` = ?)
 
-public [\_\_construct](ui-draw-color.construct.md)(int `$color` u003d ?)
+public [\_\_construct](ui-draw-color.construct.md)(int `$color` = ?)
 
 /\* Методи \*/
 

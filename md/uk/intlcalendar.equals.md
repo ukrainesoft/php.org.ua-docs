@@ -7,7 +7,7 @@
 
 # IntlCalendar::equals
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::equals — Порівнює час двох об'єктів IntlCalendar на
 предмет рівності
@@ -51,4 +51,4 @@ public **IntlCalendar::equals**([IntlCalendar](class.intlcalendar.md)
 
 **Приклад #1 Приклад використання **IntlCalendar::equals()****
 
-` <?phpini_set('date.timezone', 'UTC');$cal1 u003d IntlCalendar::createInstance(NULL, 'es_ES');$cal2 u003d clone $cal1;var_dump($cal1->equals($cal2)) ; //TRUE// Мовний стандарт не включений в порівняння$cal2 u003d IntlCalendar::createInstance(NULL, 'pt_PT');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( cal2)); //TRUE// І стан встановлених полів також не включено$cal2->clear(IntlCalendar::FIELD_YEAR);var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) u003d| ); //FALSEvar_dump($cal1->equals($cal2)); //TRUE// І тип календаря$cal2 u003d IntlCalendar::createInstance(NULL, 'es_ES@calendaru003dislamic');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( $ cal2)); //TRUE// Тільки час$cal2 u003d clone $cal1;$cal2->setTime($cal1->getTime() + 1.);var_dump($cal1->equals($cal2)); // FALSE `
+` <?phpini_set('date.timezone', 'UTC');$cal1 = IntlCalendar::createInstance(NULL, 'es_ES');$cal2 = clone $cal1;var_dump($cal1->equals($cal2)) ; //TRUE// Мовний стандарт не включений в порівняння$cal2 = IntlCalendar::createInstance(NULL, 'pt_PT');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( cal2)); //TRUE// І стан встановлених полів також не включено$cal2->clear(IntlCalendar::FIELD_YEAR);var_dump($cal1->isSet(IntlCalendar::FIELD_YEAR) =| ); //FALSEvar_dump($cal1->equals($cal2)); //TRUE// І тип календаря$cal2 = IntlCalendar::createInstance(NULL, 'es_ES@calendar=islamic');$cal2->setTime($cal1->getTime());var_dump($cal1->equals( $ cal2)); //TRUE// Тільки час$cal2 = clone $cal1;$cal2->setTime($cal1->getTime() + 1.);var_dump($cal1->equals($cal2)); // FALSE `

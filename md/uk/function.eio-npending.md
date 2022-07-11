@@ -7,7 +7,7 @@
 
 #eio_npending
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_npending — Повертає кількість завершених, але необроблених процесів
 

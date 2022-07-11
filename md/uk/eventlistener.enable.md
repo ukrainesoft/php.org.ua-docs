@@ -7,7 +7,7 @@
 
 # EventListener::enable
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventListener::enable — Включає подію підключення до об'єкта слухача
 

@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::\_\_construct — Створює новий екземпляр
 
@@ -21,7 +21,7 @@ public **Ds\PriorityQueue::\_\_construct**()
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::\_\_construct()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();var_dump($queue);?> `
+` <?php$queue = new \Ds\PriorityQueue();var_dump($queue);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

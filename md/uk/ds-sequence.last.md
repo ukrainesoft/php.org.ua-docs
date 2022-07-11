@@ -7,7 +7,7 @@
 
 # Ds\Sequence::last
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::last — Повертає останнє значення колекції
 
@@ -36,7 +36,7 @@ abstract public **Ds\Sequence::last**():
 
 **Приклад #1 Приклад використання **Ds\Sequence::last()****
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->last());?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->last());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

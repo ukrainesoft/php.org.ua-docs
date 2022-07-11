@@ -26,8 +26,8 @@
 
 **Приклад #1 Отримання заголовка віддаленої сторінки**
 
-` <?php$file u003d fopen ("http://www.example.com/", "r");if (!$file) {    echo "<p>Неможливо відкрити віддалений файл.
-";    exit;}while (!feof ($file)) {    $line u003d fgets ($file, 1024);    /* Сработает, только если заголовок и сопутствующие теги расположены в одной строке */    if (preg_match ("@\< title\>(.*)\</title\>@i", $line, $out)) {        $title u003d $out[1];        break;    }}fclose($file);
+` <?php$file = fopen ("http://www.example.com/", "r");if (!$file) {    echo "<p>Неможливо відкрити віддалений файл.
+";    exit;}while (!feof ($file)) {    $line = fgets ($file, 1024);    /* Сработает, только если заголовок и сопутствующие теги расположены в одной строке */    if (preg_match ("@\< title\>(.*)\</title\>@i", $line, $out)) {        $title = $out[1];        break;    }}fclose($file);
 
 Ви також можете працювати з віддаленими файлами, розташованими на
 FTP-сервері (маю на увазі, що ви авторизувалися з необхідними для
@@ -44,7 +44,7 @@ HTTP-протоколу, якщо потрібна Basic-автентифіка�
 
 **Приклад #2 Збереження даних на віддаленому сервері**
 
-` <?php$file u003d fopen ("ftp://ftp.example.com/incoming/outputfile", "w");if (!$file) {    echo "<p>Неможливо перезаписати віддалений файл.
+` <?php$file = fopen ("ftp://ftp.example.com/incoming/outputfile", "w");if (!$file) {    echo "<p>Неможливо перезаписати віддалений файл.
 ";   exit;}/* Запис даних. */fwrite ($file, $_SERVER['HTTP_USER_AGENT'] . ")
 "); fclose ($file);?> `
 

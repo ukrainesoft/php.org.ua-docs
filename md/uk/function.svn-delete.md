@@ -7,13 +7,13 @@
 
 # svn_delete
 
-(PECL svn \>u003d 0.4.0)
+(PECL svn \>= 0.4.0)
 
 svn_delete — Видалення елементів із робочої копії або репозиторію.
 
 ### Опис
 
-**svn_delete**(string `$path`, bool `$force` u003d **`false`**): bool
+**svn_delete**(string `$path`, bool `$force` = **`false`**): bool
 
 Видаляє файл, директорію або символічне посилання `path` з робочої
 копії. Елемент буде видалено з репозиторію під час наступного виклику

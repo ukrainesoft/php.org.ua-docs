@@ -29,7 +29,7 @@ public **ReflectionType::allowsNull**(): bool
 
 **Приклад #1 Приклад використання **ReflectionType::allowsNull()****
 
-`<?phpfunction someFunction(string $param, StdClass $param2 u003d null) {}$reflectionFunc u003d new ReflectionFunction('someFunction');$reflectionParams u003d $reflectionFunc>$reflectionFunc ()->allowsNull());var_dump($reflectionParams[1]->getType()->allowsNull()); `
+`<?phpfunction someFunction(string $param, StdClass $param2 = null) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParams = $reflectionFunc>$reflectionFunc ()->allowsNull());var_dump($reflectionParams[1]->getType()->allowsNull()); `
 
 Результат виконання цього прикладу:
 

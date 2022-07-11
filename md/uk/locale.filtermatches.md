@@ -9,7 +9,7 @@
 
 #local_filter_matches
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::filterMatches -- locale_filter_matches — Перевірити,
 чи відповідає тег фільтра мови локалі
@@ -19,12 +19,12 @@ Locale::filterMatches -- locale_filter_matches — Перевірити,
 Об'єктно-орієнтований стиль
 
 public static **Locale::filterMatches**(string `$languageTag`, string
-`$locale`, bool `$canonicalize` u003d **`false`**): ?bool
+`$locale`, bool `$canonicalize` = **`false`**): ?bool
 
 Процедурний стиль
 
 **locale_filter_matches**(string `$langtag`, string `$locale`, bool
-`$canonicalize` u003d **`false`**): ?bool
+`$canonicalize` = **`false`**): ?bool
 
 Перевірити, чи відповідає фільтр `languageTag` локалі `locale`
 керуючись базовими фільтруючими алгоритмами RFC 4647

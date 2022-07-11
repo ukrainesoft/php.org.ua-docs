@@ -9,7 +9,7 @@
 
 # date_date_set
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::setDate -- date_date_set — Встановлює дату
 

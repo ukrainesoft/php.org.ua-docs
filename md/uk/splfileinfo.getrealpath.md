@@ -7,7 +7,7 @@
 
 # SplFileInfo::getRealPath
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 SplFileInfo::getRealPath — Отримує абсолютний шлях до файлу
 
@@ -30,7 +30,7 @@ public **SplFileInfo::getRealPath**(): string\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getRealPath()****
 
-` <?php$info u003d new SplFileInfo('/..//.../../'.__FILE__);var_dump($info->getRealPath());$info u003d new SplFileInfo('/tmp' );var_dump($info->getRealPath());$info u003d new SplFileInfo('/I/Do/Not/Exist');var_dump($info->getRealPath());$info u003d new SplFileInfo('php ://output');var_dump($info->getRealPath());$info u003d new SplFileInfo("");var_dump($info->getRealPath());?> `
+` <?php$info = new SplFileInfo('/..//.../../'.__FILE__);var_dump($info->getRealPath());$info = new SplFileInfo('/tmp' );var_dump($info->getRealPath());$info = new SplFileInfo('/I/Do/Not/Exist');var_dump($info->getRealPath());$info = new SplFileInfo('php ://output');var_dump($info->getRealPath());$info = new SplFileInfo("");var_dump($info->getRealPath());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

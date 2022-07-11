@@ -7,7 +7,7 @@
 
 #imageaffinematrixget
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 imageaffinematrixget — Отримує матрицю афінного перетворення
 
@@ -43,18 +43,18 @@ array\|false
 
 **Приклад #1 Приклад використання **imageaffinematrixget()****
 
-` <?php$matrix u003d imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' u003d> 2, 'y' u003d> 3));print_r($matrix);?> `
+` <?php$matrix = imageaffinematrixget(IMG_AFFINE_TRANSLATE, array('x' => 2, 'y' => 3));print_r($matrix);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> 1
-[1] u003d> 0
-[2] u003d> 0
-[3] u003d> 1
-[4] u003d> 2
-[5] u003d> 3
+[0] => 1
+[1] => 0
+[2] => 0
+[3] => 1
+[4] => 2
+[5] => 3
 )
 
 ### Дивіться також

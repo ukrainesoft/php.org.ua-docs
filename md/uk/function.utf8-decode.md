@@ -52,8 +52,8 @@ utf8_decode — Перетворює рядок з UTF-8 на ISO-8859-1, зам
 
 **Приклад #1 Простий приклад**
 
-` <?php// Перетворення рядки 'Zoë' із UTF-8 в ISO 8859-1$utf8_string u003d "\x5A\x6F\xC3\xAB";$iso8859_1_string u003d utf8_ "
-";// Неправильні послідовності UTF-8 замінюються на '?'$invalid_utf8_string u003d "\xC3";$iso8859_1_string u003d utf8_decode($invalid_utf8_string);_і8| як// '€' (Знак євро) також замінюються на '?'$utf8_string u003d "\xE2\x82\xAC";$iso8859_1_string u003d utf8_decode($utf8_string);_8_5;
+` <?php// Перетворення рядки 'Zoë' із UTF-8 в ISO 8859-1$utf8_string = "\x5A\x6F\xC3\xAB";$iso8859_1_string = utf8_ "
+";// Неправильні послідовності UTF-8 замінюються на '?'$invalid_utf8_string = "\xC3";$iso8859_1_string = utf8_decode($invalid_utf8_string);_і8| як// '€' (Знак євро) також замінюються на '?'$utf8_string = "\xE2\x82\xAC";$iso8859_1_string = utf8_decode($utf8_string);_8_5;
 
 Результат виконання цього прикладу:
 

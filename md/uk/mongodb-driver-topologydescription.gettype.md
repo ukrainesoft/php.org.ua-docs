@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\TopologyDescription::getType
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\TopologyDescription::getType — Повертає рядок,
 що позначає тип топології

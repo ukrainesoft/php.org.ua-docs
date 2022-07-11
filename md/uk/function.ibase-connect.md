@@ -14,14 +14,14 @@ ibase_connect — Відкриває з'єднання з базою даних
 ### Опис
 
 **ibase_connect**(
-string `$database` u003d ?,
-string `$username` u003d ?,
-string `$password` u003d ?,
-string `$charset` u003d ?,
-int `$buffers` u003d ?,
-int `$dialect` u003d ?,
-string `$role` u003d ?,
-int `$sync` u003d ?
+string `$database` = ?,
+string `$username` = ?,
+string `$password` = ?,
+string `$charset` = ?,
+int `$buffers` = ?,
+int `$dialect` = ?,
+string `$role` = ?,
+int `$sync` = ?
 ): resource
 
 Встановлює з'єднання із сервером Firebird/InterBase.
@@ -85,7 +85,7 @@ between character sets" (відбувається, коли ви намагає�
 
 **Приклад #1 Приклад використання **ibase_connect()****
 
-` <?php$host u003d 'localhost:/path/to/your.gdb';$dbh u003d ibase_connect($host, $username, $password);$stmt u003d 'SELECT * FROM tblname';$sth u003d iba $dbh, $stmt);while ($row u003d ibase_fetch_object($sth)) {    echo $row->email, "
+` <?php$host = 'localhost:/path/to/your.gdb';$dbh = ibase_connect($host, $username, $password);$stmt = 'SELECT * FROM tblname';$sth = iba $dbh, $stmt);while ($row = ibase_fetch_object($sth)) {    echo $row->email, "
 ";}ibase_free_result($sth);ibase_close($dbh);?> `
 
 ### Дивіться також

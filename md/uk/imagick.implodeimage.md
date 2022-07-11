@@ -35,4 +35,4 @@ public **Imagick::implodeImage**(float `$radius`): bool
 
 **Приклад #1 Приклад використання **Imagick::implodeImage()****
 
-`<?phpfunction implodeImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->implodeImage(0.0001); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction implodeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->implodeImage(0.0001); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

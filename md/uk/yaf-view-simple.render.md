@@ -7,13 +7,13 @@
 
 # Yaf_View_Simple::render
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::render — Малює шаблон
 
 ### Опис
 
-public **Yaf_View_Simple::render**(string `$tpl`, array `$tpl_vars` u003d
+public **Yaf_View_Simple::render**(string `$tpl`, array `$tpl_vars` =
 ?): string
 
 Малює шаблон і повертає результат.

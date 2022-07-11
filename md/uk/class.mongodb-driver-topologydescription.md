@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\TopologyDescription
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 ## Вступ
 
@@ -22,17 +22,17 @@ final class **MongoDB\Driver\TopologyDescription** {
 
 /\* Константи \*/
 
-const string `TYPE_UNKNOWN` u003d "Unknown";
+const string `TYPE_UNKNOWN` = "Unknown";
 
-const string `TYPE_SINGLE` u003d "Single";
+const string `TYPE_SINGLE` = "Single";
 
-const string `TYPE_SHARDED` u003d "Sharded";
+const string `TYPE_SHARDED` = "Sharded";
 
-const string `TYPE_REPLICA_SET_NO_PRIMARY` u003d "ReplicaSetNoPrimary";
+const string `TYPE_REPLICA_SET_NO_PRIMARY` = "ReplicaSetNoPrimary";
 
-const string `TYPE_REPLICA_SET_WITH_PRIMARY` u003d "ReplicaSetWithPrimary";
+const string `TYPE_REPLICA_SET_WITH_PRIMARY` = "ReplicaSetWithPrimary";
 
-const string `TYPE_LOAD_BALANCED` u003d "LoadBalanced";
+const string `TYPE_LOAD_BALANCED` = "LoadBalanced";
 
 /\* Методи \*/
 
@@ -45,7 +45,7 @@ final public
 
 final public
 [hasReadableServer](mongodb-driver-topologydescription.hasreadableserver.md)(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` u003d **`null`**): bool
+`$readPreference` = **`null`**): bool
 
 final public
 [hasWritableServer](mongodb-driver-topologydescription.haswritableserver.md)():

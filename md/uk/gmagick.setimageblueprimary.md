@@ -7,7 +7,7 @@
 
 # Gmagick::setimageblueprimary
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageblueprimary — Встановлює кольоровість зображення
 блакитний основний крапкою

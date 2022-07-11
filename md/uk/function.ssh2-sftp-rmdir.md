@@ -7,7 +7,7 @@
 
 # ssh2_sftp_rmdir
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_rmdir — Видаляє директорію
 
@@ -37,7 +37,7 @@ ssh2_sftp_rmdir — Видаляє директорію
 
 **Приклад #1 Видалення директорії на сервері**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);ssh2_sftp_rmdir home/username/deltodel');/* Або так: rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);ssh2_sftp_rmdir home/username/deltodel');/* Або так: rmdir("ssh2.sftp://$sftp/home/username/dirtodel"); */?> `
 
 ### Дивіться також
 

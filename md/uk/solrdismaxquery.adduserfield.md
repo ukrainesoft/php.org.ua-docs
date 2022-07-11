@@ -32,11 +32,11 @@ public **SolrDisMaxQuery::addUserField**(string `$field`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::addUserField()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL > `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&ufu003dcat text *_dt
+q=lucene&defType=edismax&uf=cat text *_dt
 
 ### Дивіться також
 

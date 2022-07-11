@@ -7,7 +7,7 @@
 
 # swoole_load_module
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_load_module — Завантажити модуль swoole
 

@@ -7,7 +7,7 @@
 
 # Клас Memcache
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 ## Вступ
 
@@ -21,80 +21,80 @@ class **Memcache** {
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 [addServer](memcache.addserver.md)(
 string `$host`,
-int `$port` u003d 11211,
-bool `$persistent` u003d ?,
-int `$weight` u003d ?,
-int `$timeout` u003d ?,
-int `$retry_interval` u003d ?,
-bool `$status` u003d ?,
-[callable](language.types.callable.md) `$failure_callback` u003d ?,
-int `$timeoutms` u003d ?
+int `$port` = 11211,
+bool `$persistent` = ?,
+int `$weight` = ?,
+int `$timeout` = ?,
+int `$retry_interval` = ?,
+bool `$status` = ?,
+[callable](language.types.callable.md) `$failure_callback` = ?,
+int `$timeoutms` = ?
 ): bool
 
 [close](memcache.close.md)(): bool
 
-[connect](memcache.connect.md)(string `$host`, int `$port` u003d ?, int
-`$timeout` u003d ?): bool
+[connect](memcache.connect.md)(string `$host`, int `$port` = ?, int
+`$timeout` = ?): bool
 
-[decrement](memcache.decrement.md)(string `$key`, int `$value` u003d 1):
+[decrement](memcache.decrement.md)(string `$key`, int `$value` = 1):
 int\|false
 
-[delete](memcache.delete.md)(string `$key`, int `$timeout` u003d 0): bool
+[delete](memcache.delete.md)(string `$key`, int `$timeout` = 0): bool
 
 [flush](memcache.flush.md)(): bool
 
-[get](memcache.get.md)(string `$key`, int `&$flags` u003d ?): string
+[get](memcache.get.md)(string `$key`, int `&$flags` = ?): string
 
-[getExtendedStats](memcache.getextendedstats.md)(string `$type` u003d ?,
-int `$slabid` u003d ?, int `$limit` u003d 100): array
+[getExtendedStats](memcache.getextendedstats.md)(string `$type` = ?,
+int `$slabid` = ?, int `$limit` = 100): array
 
 [getServerStatus](memcache.getserverstatus.md)(string `$host`, int
-`$port` u003d 11211): int
+`$port` = 11211): int
 
-[getStats](memcache.getstats.md)(string `$type` u003d ?, int `$slabid` u003d
-?, int `$limit` u003d 100): array\|false
+[getStats](memcache.getstats.md)(string `$type` = ?, int `$slabid` =
+?, int `$limit` = 100): array\|false
 
 [getVersion](memcache.getversion.md)(): string\|false
 
-[increment](memcache.increment.md)(string `$key`, int `$value` u003d 1):
+[increment](memcache.increment.md)(string `$key`, int `$value` = 1):
 int\|false
 
-[pconnect](memcache.pconnect.md)(string `$host`, int `$port` u003d ?, int
-$timeout u003d ?):
+[pconnect](memcache.pconnect.md)(string `$host`, int `$port` = ?, int
+$timeout = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 [replace](memcache.replace.md)(
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 [set](memcache.set.md)(
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 [setCompressThreshold](memcache.setcompressthreshold.md)(int
-`$threshold`, float `$min_savings` u003d ?): bool
+`$threshold`, float `$min_savings` = ?): bool
 
 [setServerParams](memcache.setserverparams.md)(
 string `$host`,
-int `$port` u003d 11211,
-int `$timeout` u003d ?,
-int `$retry_interval` u003d **`false`**,
-bool `$status` u003d ?,
-[callable](language.types.callable.md) `$failure_callback` u003d ?
+int `$port` = 11211,
+int `$timeout` = ?,
+int `$retry_interval` = **`false`**,
+bool `$status` = ?,
+[callable](language.types.callable.md) `$failure_callback` = ?
 ): bool
 
 }

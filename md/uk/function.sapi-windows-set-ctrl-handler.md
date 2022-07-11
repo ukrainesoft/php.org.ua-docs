@@ -7,7 +7,7 @@
 
 # sapi_windows_set_ctrl_handler
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 sapi_windows_set_ctrl_handler — Встановити або видалити обробник
 події CTRL
@@ -15,7 +15,7 @@ sapi_windows_set_ctrl_handler — Встановити або видалити �
 ### Опис
 
 **sapi_windows_set_ctrl_handler**(?[callable](language.types.callable.md)
-`$handler`, bool `$add` u003d **`true`**): bool
+`$handler`, bool `$add` = **`true`**): bool
 
 Встановлює або видаляє обробник події CTRL, який дозволить
 процесам Windows CLI перехоплювати або ігнорувати події `CTRL+C` та

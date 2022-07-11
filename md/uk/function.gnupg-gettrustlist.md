@@ -7,7 +7,7 @@
 
 # gnupg_gettrustlist
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_gettrustlist — Пошук довірчих елементів
 
@@ -35,9 +35,9 @@ gnupg_gettrustlist — Пошук довірчих елементів
 **Приклад #1 Приклад використання **gnupg_gettrustlist()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();$items u003d gnupg_gettrustlist($res);print_r($items);?> `
+` <?php$res = gnupg_init();$items = gnupg_gettrustlist($res);print_r($items);?> `
 
 **Приклад #2 Приклад використання **gnupg_gettrustlist()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$items u003d $gpg->gettrustlist();print_r($items);?> `
+` <?php$gpg = new gnupg();$items = $gpg->gettrustlist();print_r($items);?> `

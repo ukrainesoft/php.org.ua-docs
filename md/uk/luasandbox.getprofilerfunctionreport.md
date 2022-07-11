@@ -7,13 +7,13 @@
 
 # LuaSandbox::getProfilerFunctionReport
 
-(PECL luasandbox \>u003d 1.1.0)
+(PECL luasandbox \>= 1.1.0)
 
 LuaSandbox::getProfilerFunctionReport — Отримує дані профілювача
 
 ### Опис
 
-public **LuaSandbox::getProfilerFunctionReport**(int `$units` u003d
+public **LuaSandbox::getProfilerFunctionReport**(int `$units` =
 LuaSandbox::SECONDS): array
 
 Для екземпляра профілювання, раніше запущеного за допомогою
@@ -56,4 +56,4 @@ parameter:
 
 **Приклад #1 Профіль коду Lua**
 
-` <?php// створення нового LuaSandbox$sandbox u003d new LuaSandbox();// початок профілювання$sandbox->enableProfiler( 0.01 );// ... Виконання якого    data u003d $sandbox->getProfilerFunctionReport();?> `
+` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// початок профілювання$sandbox->enableProfiler( 0.01 );// ... Виконання якого    data = $sandbox->getProfilerFunctionReport();?> `

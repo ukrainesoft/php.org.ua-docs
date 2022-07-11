@@ -31,7 +31,7 @@ preg_last_error_msg — Повертає повідомлення про пом�
 
 **Приклад #1 Приклад використання **preg_last_error_msg()****
 
-` <?phppreg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');if (preg_last_error() !u003du003d PREG_NO_ERROR) {    echo }; ?> `
+` <?phppreg_match('/(?:\D+|<\d+>)*[!?]/', 'foobar foobar foobar');if (preg_last_error() !== PREG_NO_ERROR) {    echo }; ?> `
 
 Результат виконання цього прикладу:
 

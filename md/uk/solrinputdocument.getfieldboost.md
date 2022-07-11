@@ -7,7 +7,7 @@
 
 # SolrInputDocument::getFieldBoost
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrInputDocument::getFieldBoost — Отримує значення підвищення для
 певного поля

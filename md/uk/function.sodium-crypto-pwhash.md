@@ -7,7 +7,7 @@
 
 # sodium_crypto_pwhash
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_pwhash — Отримує ключ із пароля, використовуючи Argon2
 
@@ -19,7 +19,7 @@ string `$password`,
 string `$salt`,
 int `$opslimit`,
 int `$memlimit`,
-int `$algo` u003d **`SODIUM_CRYPTO_PWHASH_ALG_DEFAULT`**
+int `$algo` = **`SODIUM_CRYPTO_PWHASH_ALG_DEFAULT`**
 ): string
 
 Ця функція надає низькорівневий доступ до функції crypto_pwhash
@@ -90,7 +90,7 @@ int Число, що вказує алгоритм хешування, що ви
 **Приклад #1 Приклад використання
 [password_hash()](function.password-hash.md)**
 
-` <?php//Для дальнейшенй проверки необходимо сохранить соль$salt u003d random_bytes(SODIUM_CRYPTO_PWHASH_SALTBYTES);// Используем bin2hex для удобочитаемостиecho bin2hex(    sodium_crypto_pwhash(        16, // u003du003d 128 бит        'password',        $salt,        SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,        SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE,        SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13 ));?> `
+` <?php//Для дальнейшенй проверки необходимо сохранить соль$salt = random_bytes(SODIUM_CRYPTO_PWHASH_SALTBYTES);// Используем bin2hex для удобочитаемостиecho bin2hex(    sodium_crypto_pwhash(        16, // == 128 бит        'password',        $salt,        SODIUM_CRYPTO_PWHASH_OPSLIMIT_INTERACTIVE,        SODIUM_CRYPTO_PWHASH_MEMLIMIT_INTERACTIVE,        SODIUM_CRYPTO_PWHASH_ALG_ARGON2ID13 ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

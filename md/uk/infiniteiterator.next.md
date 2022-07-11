@@ -7,7 +7,7 @@
 
 # InfiniteIterator::next
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 InfiniteIterator::next — Переміщує ітератор на одну позицію вперед або
 на початок

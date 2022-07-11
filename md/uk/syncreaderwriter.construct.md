@@ -7,14 +7,14 @@
 
 # SyncReaderWriter::\_\_construct
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncReaderWriter::\_\_construct — Створює новий об'єкт SyncReaderWriter
 
 ### Опис
 
-public **SyncReaderWriter::\_\_construct**(string `$name` u003d ?, int
-`$autounlock` u003d 1)
+public **SyncReaderWriter::\_\_construct**(string `$name` = ?, int
+`$autounlock` = 1)
 
 Створює іменований чи безіменний об'єкт читання-запису.
 
@@ -55,7 +55,7 @@ PHP завершується до того, як об'єкт буде розбл
 
 **Приклад #1 Приклад використання **SyncReaderWriter::\_\_construct()****
 
-` <?php$readwrite u003d new SyncReaderWriter("FileCacheLock");$readwrite->readlock();/* ... */$readwrite->readunlock();$readwrite->writelock();/* .. . */$readwrite->writeunlock();?> `
+` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->readlock();/* ... */$readwrite->readunlock();$readwrite->writelock();/* .. . */$readwrite->writeunlock();?> `
 
 ### Дивіться також
 

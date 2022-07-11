@@ -7,7 +7,7 @@
 
 # Zookeeper::create
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::create — Створює синхронно вузол
 
@@ -17,7 +17,7 @@ public **Zookeeper::create**(
 string `$path`,
 string `$value`,
 array `$acls`,
-int `$flags` u003d **`null`**
+int `$flags` = **`null`**
 ): string
 
 Метод створить вузол у ZooKeeper. Вузол може бути створений тільки в тому
@@ -64,7 +64,7 @@ int `$flags` u003d **`null`**
 
 Створення нового сайту.
 
-`<?php$zookeeper u003d new Zookeeper('locahost:2181');$aclArray u003d array(  array(   'perms'  u003d> Zookeeper::PERM_ALL, '  ',  ));$path u003d '/path/to/newnode';$realPath u003d $zookeeper->create($path, null, $aclArray);if ($realPath)  echo $realPath;else    ?> `
+`<?php$zookeeper = new Zookeeper('locahost:2181');$aclArray = array(  array(   'perms'  => Zookeeper::PERM_ALL, '  ',  ));$path = '/path/to/newnode';$realPath = $zookeeper->create($path, null, $aclArray);if ($realPath)  echo $realPath;else    ?> `
 
 Результат виконання цього прикладу:
 

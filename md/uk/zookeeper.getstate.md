@@ -7,7 +7,7 @@
 
 # Zookeeper::getState
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::getState — Отримує стан з'єднання zookeeper
 

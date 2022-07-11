@@ -19,7 +19,7 @@
 
 **Приклад #1 string.rot13**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'string.rot13');fwrite($fp, "This is a test.
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'string.rot13');fwrite($fp, "This is a test.
 ");/* Виведе:  Guvf vf n grfg.   */?> `
 
 ## string.toupper
@@ -29,7 +29,7 @@
 
 **Приклад #2 string.toupper**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'string.toupper');fwrite($fp, "This is a test.
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'string.toupper');fwrite($fp, "This is a test.
 ");/* Виведе:  THIS IS A TEST.   */?> `
 
 ## string.tolower
@@ -39,7 +39,7 @@
 
 **Приклад #3 string.tolower**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'string.tolower');fwrite($fp, "This is a test.
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'string.tolower');fwrite($fp, "This is a test.
 ");/* Виведе: this is a test.   */?> `
 
 ##string.strip_tags
@@ -57,6 +57,6 @@
 
 **Приклад #4 string.strip_tags**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, "<b><i><u>");fwrite( $fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'string.strip_tags', STREAM_FILTER_WRITE, "<b><i><u>");fwrite( $fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>
 ");fclose($fp);/*Виведе:bolded|text|enlarged| ', STREAM_FILTER_WRITE, array('b','i','u'));fwrite($fp, "<b>bolded text</b> enlarged to a <h1>level 1 heading</h1>
 "); fclose($fp);

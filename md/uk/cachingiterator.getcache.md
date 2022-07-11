@@ -7,7 +7,7 @@
 
 # CachingIterator::getCache
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 CachingIterator::getCache — Отримання вмісту кешу
 
@@ -38,21 +38,21 @@ public **CachingIterator::getCache**(): array
 
 **Приклад #1 Приклад використання **CachingIterator::getCache()****
 
-` <?php$iterator u003d new ArrayIterator(array(1, 2, 3));$cache   u003d new CachingIterator($iterator, CachingIterator::FULL_CACHE);$cache->next();$$ ;var_dump($cache->getCache());$cache->next();var_dump($cache->getCache());?> `
+` <?php$iterator = new ArrayIterator(array(1, 2, 3));$cache   = new CachingIterator($iterator, CachingIterator::FULL_CACHE);$cache->next();$$ ;var_dump($cache->getCache());$cache->next();var_dump($cache->getCache());?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
 }
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

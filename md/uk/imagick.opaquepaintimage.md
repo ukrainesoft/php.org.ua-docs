@@ -7,7 +7,7 @@
 
 # Imagick::opaquePaintImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::opaquePaintImage — Змінює значення кольору будь-якого пікселя,
 відповідного цільового
@@ -21,7 +21,7 @@ public **Imagick::opaquePaintImage**(
 `$fill`,
 float `$fuzz`,
 bool `$invert`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Змінює будь-який піксель, який відповідає кольору, на колір, визначений

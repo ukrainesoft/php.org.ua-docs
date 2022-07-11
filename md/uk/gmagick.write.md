@@ -7,7 +7,7 @@
 
 # Gmagick::write
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::write — Псевдонім
 [Gmagick::writeimage()](gmagick.writeimage.md)

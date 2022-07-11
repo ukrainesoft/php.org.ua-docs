@@ -7,14 +7,14 @@
 
 # Yaf_Response_Abstract::prependBody
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::prependBody — Призначення prependBody
 
 ### Опис
 
 public **Yaf_Response_Abstract::prependBody**(string `$content`, string
-`$key` u003d ?): bool
+`$key` = ?): bool
 
 Додає вміст до існуючого блоку вмісту
 
@@ -40,7 +40,7 @@ bool
 **Приклад #1 Приклад використання
 **Yaf_Response_Abstract::prependBody()****
 
-` <?php$response u003d new Yaf_Response_Http();$response->setBody("Світ")->prependBody("Привіт ,");echo $response;?> `
+` <?php$response = new Yaf_Response_Http();$response->setBody("Світ")->prependBody("Привіт ,");echo $response;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

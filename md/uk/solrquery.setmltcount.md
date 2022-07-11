@@ -8,7 +8,7 @@
 
 # SolrQuery::setMltCount
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setMltCount — Встановлює кількість схожих документів,
 повертаються для кожного результату

@@ -31,16 +31,16 @@ XSL. Ми будемо використовувати `collection.xml` та `col
 **Приклад #2 collection.xsl**
 
 `` xmlcode
-<xsl:stylesheet versionu003d"1.0" xmlns:xslu003d"http://www.w3.org/1999/XSL/Transform">
-<xsl:param nameu003d"owner" selectu003d"'Nicolas Eliaszewicz'"/>
-<xsl:output methodu003d"html" encodingu003d"iso-8859-1" indentu003d"no"/>
-<xsl:template matchu003d"collection">
-Hey! Welcome to <xsl:value-of selectu003d"$owner"/>'s sweet CD collection!
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:param name="owner" select="'Nicolas Eliaszewicz'"/>
+<xsl:output method="html" encoding="iso-8859-1" indent="no"/>
+<xsl:template match="collection">
+Hey! Welcome to <xsl:value-of select="$owner"/>'s sweet CD collection!
 <xsl:apply-templates/>
 </xsl:template>
-<xsl:template matchu003d"cd">
-<h1><xsl:value-of selectu003d"title"/></h1>
-<h2>by <xsl:value-of selectu003d"artist"/> - <xsl:value-of selectu003d"year"/></h2>
+<xsl:template match="cd">
+<h1><xsl:value-of select="title"/></h1>
+<h2>by <xsl:value-of select="artist"/> - <xsl:value-of select="year"/></h2>
 <hr />
 </xsl:template>
 </xsl:stylesheet>

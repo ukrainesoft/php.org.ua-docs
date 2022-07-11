@@ -7,7 +7,7 @@
 
 #cubrid_get_charset
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_get_charset — Повертає кодування поточного з'єднання CUBRID
 
@@ -33,7 +33,7 @@ cubrid_get_charset — Повертає кодування поточного з
 
 **Приклад #1 Приклад використання **cubrid_get_charset()****
 
-` <?php$con u003d cubrid_connect("localhost", 33000, "demodb");if (!$con){    die('Could not connect.');}printf("CUBRID current charset: %s
+` <?php$con = cubrid_connect("localhost", 33000, "demodb");if (!$con){    die('Could not connect.');}printf("CUBRID current charset: %s
 ", cubrid_get_charset($con));?> `
 
 Результат виконання цього прикладу:

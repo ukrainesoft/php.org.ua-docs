@@ -40,7 +40,7 @@ public **ReflectionType::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **ReflectionType::\_\_toString()****
 
-` <?phpfunction someFunction(string $param) {}$reflectionFunc u003d new ReflectionFunction('someFunction');$reflectionParam u003d $reflectionFunc->getParameters()[0];echo $reflection `
+` <?phpfunction someFunction(string $param) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParam = $reflectionFunc->getParameters()[0];echo $reflection `
 
 Результатом виконання цього прикладу буде щось подібне:
 

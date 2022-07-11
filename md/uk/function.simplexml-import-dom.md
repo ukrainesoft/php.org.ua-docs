@@ -15,7 +15,7 @@ DOM
 ### Опис
 
 **simplexml_import_dom**([SimpleXMLElement](class.simplexmlelement.md)\|[DOMNode](class.domnode.md)
-`$node`, ?string `$class_name` u003d SimpleXMLElement::class):
+`$node`, ?string `$class_name` = SimpleXMLElement::class):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 Ця функція бере вузол документа [DOM](book.dom.md) і перетворює його на
@@ -42,7 +42,7 @@ DOM
 
 **Приклад #1 Імпорт DOM**
 
-` <?php$dom u003d new DOMDocument;$dom->loadXML('<books><book><title>дурниця</title></book></books>');if (!$dom) {    echo 'Помилка при розборі документа'; exit;}$s u003d simplexml_import_dom($dom);echo $s->book[0]->title;?> `
+` <?php$dom = new DOMDocument;$dom->loadXML('<books><book><title>дурниця</title></book></books>');if (!$dom) {    echo 'Помилка при розборі документа'; exit;}$s = simplexml_import_dom($dom);echo $s->book[0]->title;?> `
 
 Результат виконання цього прикладу:
 

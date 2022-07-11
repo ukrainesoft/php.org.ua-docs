@@ -7,7 +7,7 @@
 
 #enchant_broker_init
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0 )
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
 
 enchant_broker_init — Створити новий об'єкт брокера
 

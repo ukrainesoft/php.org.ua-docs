@@ -14,7 +14,7 @@ COMPersistHelper::SaveToFile — Зберегти об'єкт у файл
 ### Опис
 
 public **COMPersistHelper::SaveToFile**(?string `$filename`, bool
-`$remember` u003d **`true`**): bool
+`$remember` = **`true`**): bool
 
 Зберігає копію об'єкта у вказаний файл.
 
@@ -46,4 +46,4 @@ public **COMPersistHelper::SaveToFile**(?string `$filename`, bool
 
 **Приклад #1 Використання **COMPersistHelper::saveToFile()****
 
-` <?php$word u003d new COM('Word.Application');$doc u003d $word->Documents->Add();$ph u003d new COMPersistHelper($doc);$ph->SaveToFile('C: \Users\cmb\Documents\my.docx');$word->Quit();?> `
+` <?php$word = new COM('Word.Application');$doc = $word->Documents->Add();$ph = new COMPersistHelper($doc);$ph->SaveToFile('C: \Users\cmb\Documents\my.docx');$word->Quit();?> `

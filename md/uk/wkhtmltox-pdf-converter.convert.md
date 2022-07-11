@@ -7,7 +7,7 @@
 
 # wkhtmltox\PDF\Converter::convert
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 wkhtmltox\PDF\Converter::convert — Виконати перетворення PDF
 

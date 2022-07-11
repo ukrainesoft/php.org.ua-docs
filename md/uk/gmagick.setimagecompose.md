@@ -7,7 +7,7 @@
 
 # Gmagick::setimagecompose
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagecompose — Встановлює оператор складеного зображення
 

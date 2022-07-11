@@ -7,7 +7,7 @@
 
 # Yaf_Route_Map::route
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Map::route — Призначення route
 

@@ -7,7 +7,7 @@
 
 # Клас EventBuffer
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 ## Вступ
 
@@ -23,17 +23,17 @@ class **EventBuffer** {
 
 /\* Константи \*/
 
-const int `EOL_ANY` u003d 0;
+const int `EOL_ANY` = 0;
 
-const int `EOL_CRLF` u003d 1;
+const int `EOL_CRLF` = 1;
 
-const int `EOL_CRLF_STRICT` u003d 2;
+const int `EOL_CRLF_STRICT` = 2;
 
-const int `EOL_LF` u003d 3;
+const int `EOL_LF` = 3;
 
-const int `PTR_SET` u003d 0;
+const int `PTR_SET` = 0;
 
-const int `PTR_ADD` u003d 1;
+const int `PTR_ADD` = 1;
 
 /\* Властивості \*/
 
@@ -82,14 +82,14 @@ public [read](eventbuffer.read.md)(
 public [readLine](eventbuffer.readline.md)( int `$eol_style` ): string
 
 public [search](eventbuffer.search.md)( string `$what` , int `$start`
-u003d -1 , int `$end` u003d -1 ):
+= -1 , int `$end` = -1 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [searchEol](eventbuffer.searcheol.md)( int `$start` u003d -1 , int
-`$eol_style` u003d **`EventBuffer::EOL_ANY`** ):
+public [searchEol](eventbuffer.searcheol.md)( int `$start` = -1 , int
+`$eol_style` = **`EventBuffer::EOL_ANY`** ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [substr](eventbuffer.substr.md)( int `$start` , int `$length` u003d
+public [substr](eventbuffer.substr.md)( int `$start` , int `$length` =
 ?): string
 
 public [unfreeze](eventbuffer.unfreeze.md)( bool `$at_front` ): bool
@@ -98,7 +98,7 @@ public [unlock](eventbuffer.unlock.md)(): bool
 
 public [write](eventbuffer.write.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$howmuch` u003d ?): int
+`$fd` , int `$howmuch` = ?): int
 
 }
 

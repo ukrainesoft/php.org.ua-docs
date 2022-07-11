@@ -32,4 +32,4 @@ QuantumRange і є мірою ступеня соляризації.
 
 **Приклад #1 Приклад використання **Imagick::solarizeImage()****
 
-`<?phpfunction solarizeImage($imagePath, $solarizeThreshold) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum()); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction solarizeImage($imagePath, $solarizeThreshold) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->solarizeImage($solarizeThreshold * \Imagick::getQuantum()); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

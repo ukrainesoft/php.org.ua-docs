@@ -7,7 +7,7 @@
 
 #cubrid_bind
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_bind — Зв'язує змінні із підготовленим запитом
 
@@ -18,7 +18,7 @@ resource `$req_identifier`,
 int `$bind_index`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$bind_value`,
-string `$bind_value_type` u003d ?
+string `$bind_value_type` = ?
 ): bool
 
 Функція **cubrid_bind()** використовується для прив'язки до зазначених значень
@@ -95,8 +95,8 @@ string `$bind_value_type` u003d ?
 
 **Приклад #1 Приклад використання **cubrid_bind()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");$result u003d cubrid_execute($conn, "SELECT code FROM event WHERE sportsu003d'| );$row u003d cubrid_fetch_array($result, CUBRID_ASSOC);$event_code u003d $row["code"];cubrid_close_request($result);$game_req u003d cubrid_prepare($conn, F9_ ?and nation_codeu003d'USA'");cubrid_bind($game_req, 1, $event_code, "number");cubrid_execute($game_req);printf("--- Dream Team s s s -
-");while ($athlete_code u003d cubrid_fetch_array($game_req, CUBRID_NUM)) {    $athlete_req u003d cubrid_prepare($conn, "SELECT name FROM   | M'");   cubrid_bind($athlete_req, 1, $athlete_code[0], "number");    cubrid_execute($athlete_req);    $row u003d cubrid|
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$result = cubrid_execute($conn, "SELECT code FROM event WHERE sports='| );$row = cubrid_fetch_array($result, CUBRID_ASSOC);$event_code = $row["code"];cubrid_close_request($result);$game_req = cubrid_prepare($conn, F9_ ?and nation_code='USA'");cubrid_bind($game_req, 1, $event_code, "number");cubrid_execute($game_req);printf("--- Dream Team s s s -
+");while ($athlete_code = cubrid_fetch_array($game_req, CUBRID_NUM)) {    $athlete_req = cubrid_prepare($conn, "SELECT name FROM   | M'");   cubrid_bind($athlete_req, 1, $athlete_code[0], "number");    cubrid_execute($athlete_req);    $row = cubrid|
 ", $row["name"]);}cubrid_close_request($game_req);cubrid_close_request($athlete_req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
@@ -117,11 +117,11 @@ Barkley Charles
 
 **Приклад #2 Приклад використання **cubrid_bind()** з BLOB/CLOB**
 
-` <?php$con u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");if ($con) {    cubrid_execute($con,"DROP TABLE if exists| cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (doc_content CLOB)"); $sql u003d "INSERT INTO php_cubrid_lob_test(doc_content) VALUES(?)"; $req u003d cubrid_prepare($con, $sql); $fpu003du003dfopen("book.txt","rb"); cubrid_bind($req, 1, $fp, "clob"); cubrid_execute($req);}?> `
+` <?php$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");if ($con) {    cubrid_execute($con,"DROP TABLE if exists| cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (doc_content CLOB)"); $sql = "INSERT INTO php_cubrid_lob_test(doc_content) VALUES(?)"; $req = cubrid_prepare($con, $sql); $fp==fopen("book.txt","rb"); cubrid_bind($req, 1, $fp, "clob"); cubrid_execute($req);}?> `
 
 **Приклад #3 Приклад використання **cubrid_bind()** з BLOB/CLOB**
 
-` <?php$con u003d cubrid_connect("localhost", 33000, "demodb", "dba", "");if ($con) {    cubrid_execute($con,"DROP TABLE if exists| cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (image BLOB)"); $sql u003d "INSERT INTO php_cubrid_lob_test(image) VALUES(?)"; $req u003d cubrid_prepare($con, $sql); cubrid_bind($req, 1, "cubrid_logo.png", "blob"); cubrid_execute($req);}?> `
+` <?php$con = cubrid_connect("localhost", 33000, "demodb", "dba", "");if ($con) {    cubrid_execute($con,"DROP TABLE if exists| cubrid_execute($con,"CREATE TABLE php_cubrid_lob_test (image BLOB)"); $sql = "INSERT INTO php_cubrid_lob_test(image) VALUES(?)"; $req = cubrid_prepare($con, $sql); cubrid_bind($req, 1, "cubrid_logo.png", "blob"); cubrid_execute($req);}?> `
 
 ### Дивіться також
 

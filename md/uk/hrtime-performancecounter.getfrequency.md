@@ -7,7 +7,7 @@
 
 # HRTime\PerformanceCounter::getFrequency
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 HRTime\PerformanceCounter::getFrequency — Частота таймера в тиках
 секунду

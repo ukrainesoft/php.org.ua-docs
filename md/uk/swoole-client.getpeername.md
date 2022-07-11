@@ -7,7 +7,7 @@
 
 # Swoole\Client::getpeername
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::getpeername — Отримує ім'я віддаленого сокету з'єднання
 

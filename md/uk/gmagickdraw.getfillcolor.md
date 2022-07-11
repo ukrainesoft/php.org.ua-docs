@@ -7,7 +7,7 @@
 
 # GmagickDraw::getfillcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getfillcolor — Повертає колір заливки
 

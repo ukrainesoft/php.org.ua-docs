@@ -7,13 +7,13 @@
 
 # SolrParams::getParam
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::getParam — Повертає значення параметра
 
 ### Опис
 
-final public **SolrParams::getParam**(string `$param_name` u003d ?):
+final public **SolrParams::getParam**(string `$param_name` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає значення параметра з ім'ям param_name

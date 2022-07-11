@@ -10,7 +10,7 @@
 
 #local_get_display_variant
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::getDisplayVariant -- locale_get_display_variant — Повертає
 відповідним чином локалізована назва варіанта для заданої
@@ -21,12 +21,12 @@ Locale::getDisplayVariant -- locale_get_display_variant — Повертає
 Об'єктно-орієнтований стиль
 
 public static **Locale::getDisplayVariant**(string `$locale`, ?string
-`$displayLocale` u003d **`null`**): string\|false
+`$displayLocale` = **`null`**): string\|false
 
 Процедурний стиль
 
 **locale_get_display_variant**(string `$locale`, ?string
-`$displayLocale` u003d **`null`**): string\|false
+`$displayLocale` = **`null`**): string\|false
 
 Повертає відповідним чином локалізовану назву варіанта для
 заданої локалі. Якщо **`null`**, то буде використано локаль по
@@ -47,9 +47,9 @@ public static **Locale::getDisplayVariant**(string `$locale`, ?string
 
 ### Список змін
 
-| Версія | Опис                                          |
-| ------ | --------------------------------------------- |
-| 8.0.0  | `displayLocale` тепер допускає значення null. |
+| Версія | Опис                                        |
+| ------ | ------------------------------------------- |
+| 8.0.0  | displayLocale тепер допускає значення null. |
 
 ### Приклади
 

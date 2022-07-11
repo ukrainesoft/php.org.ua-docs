@@ -7,7 +7,7 @@
 
 # EventBufferEvent::disable
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::disable — Вимикає читання, запис або те й інше
 у події буфера

@@ -7,7 +7,7 @@
 
 #db2_close
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_close — Закриває з'єднання з базою даних
 
@@ -41,7 +41,7 @@ db2_close — Закриває з'єднання з базою даних
 Наступний приклад показує успішну спробу закрити з'єднання з IBM
 DB2, Cloudscape або базою даних Apache Derby.
 
-` <?php$conn u003d db2_connect('SAMPLE', 'db2inst1', 'ibmdb2');$rc u003d db2_close($conn);if ($rc) {   echo "З'єднання'закрито."};
+` <?php$conn = db2_connect('SAMPLE', 'db2inst1', 'ibmdb2');$rc = db2_close($conn);if ($rc) {   echo "З'єднання'закрито."};
 
 Результат виконання цього прикладу:
 

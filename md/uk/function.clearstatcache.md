@@ -13,8 +13,8 @@ clearstatcache — Очищає кеш стану файлів
 
 ### Опис
 
-**clearstatcache**(bool `$clear_realpath_cache` u003d **`false`**, string
-`$filename` u003d ""): void
+**clearstatcache**(bool `$clear_realpath_cache` = **`false`**, string
+`$filename` = ""): void
 
 Для забезпечення більшої продуктивності під час використання функцій
 [stat()](function.stat.md), [lstat()](function.lstat.md) або будь-який
@@ -78,7 +78,7 @@ clearstatcache — Очищає кеш стану файлів
 
 **Приклад #1 Приклад використання **clearstatcache()****
 
-` <?php$file u003d 'output_log.txt';function get_owner($file){   $stat u003dstat($file); $useru003du003dposix_getpwuid($stat['uid']); return $user['name'];}$format u003d "UID @ %s: %s
+` <?php$file = 'output_log.txt';function get_owner($file){   $stat =stat($file); $user==posix_getpwuid($stat['uid']); return $user['name'];}$format = "UID @ %s: %s
 ";printf($format, date('r'), get_owner($file));chown($file, 'ross');printf($format, date('r'), get_owner($file)); clearstatcache();printf($format, date('r'), get_owner($file));?> `
 
 Результатом виконання цього прикладу буде щось подібне:

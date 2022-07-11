@@ -7,14 +7,14 @@
 
 ## Опис кількох просторів імен в одному файлі
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 Декілька просторів імен також можна описати в одному файлі за допомогою
 двох допустимих синтаксичних конструкцій
 
 **Приклад #1 Опис кількох просторів імен, простий синтаксис**
 
-` <?phpnamespace MyProject;const CONNECT_OK u003d 1;class Connection { /* ... */ }function connect() { /* ... */  }namespace AnotherProject;const CONNECT_OK   . */ }function connect() { /* ... */  }?> `
+` <?phpnamespace MyProject;const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }namespace AnotherProject;const CONNECT_OK   . */ }function connect() { /* ... */  }?> `
 
 Цей синтаксис не рекомендується для комбінування просторів імен
 одному файлі. Натомість рекомендується використовувати альтернативний
@@ -23,7 +23,7 @@
 **Приклад #2 Опис кількох просторів імен, синтаксис з
 дужками**
 
-` <?phpnamespace MyProject {const CONNECT_OK u003d 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace AnotherProject {const         ¦¦¦ .. */ }function connect() { /* ... */  }}?> `
+` <?phpnamespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace AnotherProject {const         ¦¦¦ .. */ }function connect() { /* ... */  }}?> `
 
 Настійно не рекомендується при програмуванні комбінувати
 кілька просторів імен в один файл. Основним застосуванням цього може
@@ -37,7 +37,7 @@
 **Приклад #3 Опис глобального та звичайного простору імен в одному
 файлі**
 
-`<?phpnamespace MyProject {const CONNECT_OK u003d 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace { s| |
+`<?phpnamespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}namespace { s| |
 
 PHP-код не може знаходитися поза дужками конструкції простору імен,
 Крім початкового виразу розглянемо.
@@ -45,4 +45,4 @@ PHP-код не може знаходитися поза дужками конс
 **Приклад #4 Опис глобального та звичайного простору імен в одному
 файлі**
 
-`<?phpdeclare(encodingu003d'UTF-8');namespace MyProject {const CONNECT_OK u003d 1;class Connection { /* ... */ }function connect() { /* ... */  }}   / глобальний кодsession_start();$a u003d MyProjec
+`<?phpdeclare(encoding='UTF-8');namespace MyProject {const CONNECT_OK = 1;class Connection { /* ... */ }function connect() { /* ... */  }}   / глобальний кодsession_start();$a = MyProjec

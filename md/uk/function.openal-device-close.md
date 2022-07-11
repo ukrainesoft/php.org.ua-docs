@@ -7,7 +7,7 @@
 
 #openal_device_close
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_device_close — Закрити пристрій OpenAL
 

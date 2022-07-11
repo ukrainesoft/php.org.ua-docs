@@ -7,7 +7,7 @@
 
 # hash_pbkdf2
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 hash_pbkdf2 — Формування ключа PBKDF2 для вхідних даних.
 
@@ -18,8 +18,8 @@ string `$algo`,
 string `$password`,
 string `$salt`,
 int `$iterations`,
-int `$length` u003d 0,
-bool `$binary` u003d **`false`**
+int `$length` = 0,
+bool `$binary` = **`false`**
 ): string
 
 ### Список параметрів
@@ -76,7 +76,7 @@ bool `$binary` u003d **`false`**
 
 **Приклад #1 Приклад простого використання **hash_pbkdf2()****
 
-` <?php$password u003d "password";$iterations u003d 1000;// Создаём случайный инициализирующий вектор// с помощью openssl_random_pseudo_bytes() или другого источника случайных данных$salt u003d openssl_random_pseudo_bytes(16);$hash u003d hash_pbkdf2("sha256" , $password, $salt, $iterations, 20);var_dump($hash);// для необробленого двійкового файлу параметр $length повинен бути зменшений по 2 на 2 , $iterations, 10, true);var_dump(bin2hex($hash));?> `
+` <?php$password = "password";$iterations = 1000;// Создаём случайный инициализирующий вектор// с помощью openssl_random_pseudo_bytes() или другого источника случайных данных$salt = openssl_random_pseudo_bytes(16);$hash = hash_pbkdf2("sha256" , $password, $salt, $iterations, 20);var_dump($hash);// для необробленого двійкового файлу параметр $length повинен бути зменшений по 2 на 2 , $iterations, 10, true);var_dump(bin2hex($hash));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

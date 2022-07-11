@@ -7,7 +7,7 @@
 
 # GmagickDraw::settextdecoration
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::settextdecoration — Визначає оформлення
 

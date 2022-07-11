@@ -17,7 +17,7 @@ public **Imagick::sigmoidalContrastImage**(
 bool `$sharpen`,
 float `$alpha`,
 float `$beta`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Регулює контраст зображення за допомогою алгоритму нелінійного
@@ -63,4 +63,4 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 змішування двох зображень разом, зі змішуванням, що визначається
 контрастом та середньою точкою.**
 
-`<?phpfunction generateBlendImage($width, $height, $contrast u003d 10, $midpoint u003d 0.5) {    $imagick u003d new Imagick(); $imagick->newPseudoImage($width, $height, 'gradient:black-white'); $quantau003du003d$imagick->getQuantumRange(); $imagick->sigmoidalContrastImage(true, $contrast, $midpoint * $quanta["quantumRangeLong"]); return $imagick;}?> `
+`<?phpfunction generateBlendImage($width, $height, $contrast = 10, $midpoint = 0.5) {    $imagick = new Imagick(); $imagick->newPseudoImage($width, $height, 'gradient:black-white'); $quanta==$imagick->getQuantumRange(); $imagick->sigmoidalContrastImage(true, $contrast, $midpoint * $quanta["quantumRangeLong"]); return $imagick;}?> `

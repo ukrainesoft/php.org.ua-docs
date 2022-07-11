@@ -81,13 +81,13 @@ drive:\path o\php xecutable\php.exe -i
 платформонезалежний. Однак ви все ще можете прямо вказувати ім'я файлу
 модуля.
 
-;extensionu003dphp_extname.dll
+;extension=php_extname.dll
 
-extensionu003dphp_extname.dll
+extension=php_extname.dll
 
 ; У PHP 7.2 і вище краще робити так:
-extensionu003dextname
-zend_extensionu003danother_extension
+extension=extname
+zend_extension=another_extension
 
 Проте деякі веб-сервери створюють плутанину, т.к. вони не використовують
 `php.ini`, розташований у дистрибутиві PHP, а використовують свій

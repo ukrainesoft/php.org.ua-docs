@@ -7,7 +7,7 @@
 
 # gnupg_setsignmode
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_setsignmode — Встановлює режим підписування
 
@@ -41,9 +41,9 @@ gnupg_setsignmode — Встановлює режим підписування
 **Приклад #1 Приклад використання **gnupg_setsignmode()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // виробляти роздільну підпис?
+` <?php$res = gnupg_init();gnupg_setsignmode($res, GNUPG_SIG_MODE_DETACH); // виробляти роздільну підпис?
 
 **Приклад #2 Приклад використання **gnupg_setsignmode()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // виробляти роздільну підпис?
+` <?php$gpg = new gnupg();$gpg->setsignmode(gnupg::SIG_MODE_DETACH); // виробляти роздільну підпис?

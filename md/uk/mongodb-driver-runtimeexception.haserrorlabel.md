@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Exception\RuntimeException::hasErrorLabel
 
-(mongodb \>u003d 1.6.0)
+(mongodb \>= 1.6.0)
 
 MongoDB\Driver\Exception\RuntimeException::hasErrorLabel — Повертає,
 чи пов'язана мітка помилки з винятком

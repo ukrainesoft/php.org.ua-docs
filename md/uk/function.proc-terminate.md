@@ -14,7 +14,7 @@ proc_open
 
 ### Опис
 
-**proc_terminate**(resource `$process`, int `$signal` u003d 15): bool
+**proc_terminate**(resource `$process`, int `$signal` = 15): bool
 
 Відправляє процесу `process` (створеному за допомогою функції
 [proc_open()](function.proc-open.md)) сигнал, що говорить про те, що він

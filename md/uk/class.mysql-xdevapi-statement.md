@@ -7,7 +7,7 @@
 
 # Клас Statement
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -17,9 +17,9 @@ class **mysql_xdevapi\Statement** {
 
 /\* Константи \*/
 
-const int `EXECUTE_ASYNC` u003d 1;
+const int `EXECUTE_ASYNC` = 1;
 
-const int `BUFFERED` u003d 2;
+const int `BUFFERED` = 2;
 
 /\* Методи \*/
 

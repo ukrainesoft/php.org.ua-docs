@@ -8,7 +8,7 @@
 
 # EvLoop::stat
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::stat — Створює об'єкт спостерігача EvStat, пов'язаний із поточним
 екземпляром циклу подій
@@ -21,8 +21,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvStat](class.evstat.md)
 
 Створює об'єкт спостерігача EvStat, пов'язаний з поточним екземпляром циклу

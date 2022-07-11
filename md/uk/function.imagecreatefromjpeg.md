@@ -48,7 +48,7 @@ imagecreatefromjpeg — Створення нового зображення з 
 
 **Приклад #1 Приклад обробки помилки під час завантаження JPEG**
 
-` <?phpfunction LoadJpeg($imgname){    /* Намагаємося відкрити */    $im u003d @imagecreatefromjpeg($imgname); /* Якщо не удалося */    if(!$im)    {        /* Створюємо пусте зображення */         $im              $bgc u003d imagecolorallocate($im, 255, 255, 255); $tc u003d imagecolorallocate($im, 0, 0, 0); imagefilledrectangle($im, 0, 0, 150, 30, $bgc); /* Виводимо повідомлення про помилки */        imagestring($im, 1, 5, 5, 'Помилка завантаження ' . $imgname, $tc); }   return $im;}header('Content-Type: image/jpeg');$img u003d LoadJpeg('bogus.image');imagejpeg($img);imagedestroy($img);?> `
+` <?phpfunction LoadJpeg($imgname){    /* Намагаємося відкрити */    $im = @imagecreatefromjpeg($imgname); /* Якщо не удалося */    if(!$im)    {        /* Створюємо пусте зображення */         $im              $bgc = imagecolorallocate($im, 255, 255, 255); $tc = imagecolorallocate($im, 0, 0, 0); imagefilledrectangle($im, 0, 0, 150, 30, $bgc); /* Виводимо повідомлення про помилки */        imagestring($im, 1, 5, 5, 'Помилка завантаження ' . $imgname, $tc); }   return $im;}header('Content-Type: image/jpeg');$img = LoadJpeg('bogus.image');imagejpeg($img);imagedestroy($img);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

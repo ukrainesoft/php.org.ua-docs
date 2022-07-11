@@ -9,4 +9,4 @@
 
 Модуль використовує функції бібліотеки
 [»bzip2](https://www.sourceware.org/bzip2/) (автор: Julian Seward) і
-вимагає bzip2/libbzip2 версій u003d 1.0.x.
+вимагає bzip2/libbzip2 версій = 1.0.x.

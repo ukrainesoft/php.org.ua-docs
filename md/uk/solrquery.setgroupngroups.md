@@ -8,7 +8,7 @@
 
 # SolrQuery::setGroupNGroups
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::setGroupNGroups — Якщо true, Solr включає результати
 кількість груп, які відповідають запиту
@@ -51,7 +51,7 @@ public **SolrQuery::setGroupNGroups**(bool `$value`):
 - [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо
 true, результат першої команди угруповання полів використовується в
 як основний список результатів у відповіді з використанням
-group.formatu003dsimple
+group.format=simple
 - [SolrQuery::setGroupTruncate()](solrquery.setgrouptruncate.md) -
 Якщо true, підрахунок фасетів базується на найбільш релевантному документі
 кожної групи, що відповідає запиту

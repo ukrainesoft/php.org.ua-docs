@@ -7,7 +7,7 @@
 
 # Memcached::getDelayedByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getDelayedByKey — Запитує кілька записів із зазначеного
 сервера
@@ -17,8 +17,8 @@ Memcached::getDelayedByKey — Запитує кілька записів із �
 public **Memcached::getDelayedByKey**(
 string `$server_key`,
 array `$keys`,
-bool `$with_cas` u003d ?,
-[callable](language.types.callable.md) `$value_cb` u003d ?
+bool `$with_cas` = ?,
+[callable](language.types.callable.md) `$value_cb` = ?
 ): bool
 
 **Memcached::getDelayedByKey()** працює аналогічно

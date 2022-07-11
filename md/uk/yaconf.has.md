@@ -7,7 +7,7 @@
 
 # Yaconf::has
 
-(PECL yaconf \>u003d 1.0.0)
+(PECL yaconf \>= 1.0.0)
 
 Yaconf::has — Визначити, чи існує елемент
 

@@ -14,7 +14,7 @@ ReflectionGenerator::getTrace — Отримати трасування запу
 
 ### Опис
 
-public **ReflectionGenerator::getTrace**(int `$options` u003d
+public **ReflectionGenerator::getTrace**(int `$options` =
 **`DEBUG_BACKTRACE_PROVIDE_OBJECT`**): array
 
 Повертає трасування запущеного генератора.
@@ -24,10 +24,10 @@ public **ReflectionGenerator::getTrace**(int `$options` u003d
 `options`
 Значення `options` може бути одним із наступних прапорів:
 
-| Опція                                | Опис                                                           |
-| ------------------------------------ | -------------------------------------------------------------- |
-| **`DEBUG_BACKTRACE_PROVIDE_OBJECT`** | За замовчуванням.                                              |
-| **`DEBUG_BACKTRACE_IGNORE_ARGS`**    | Не включати інформацію про аргументи функцій у стеку дзвінків. |
+| Опція                              | Опис                                                           |
+| ---------------------------------- | -------------------------------------------------------------- |
+| **DEBUG_BACKTRACE_PROVIDE_OBJECT** | За замовчуванням.                                              |                                                                
+| **DEBUG_BACKTRACE_IGNORE_ARGS**    | Не включати інформацію про аргументи функцій у стеку дзвінків. |
 
 **Доступні опції**
 
@@ -44,27 +44,27 @@ public **ReflectionGenerator::getTrace**(int `$options` u003d
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-[0]u003d>
+[0]=>
 array(4) {
-["file"]u003d>
+["file"]=>
 string(18) "example.php"
-["line"]u003d>
+["line"]=>
 int(8)
-["function"]u003d>
+["function"]=>
 string(3) "foo"
-["args"]u003d>
+["args"]=>
 array(0) {
 }
 }
-[1]u003d>
+[1]=>
 array(4) {
-["file"]u003d>
+["file"]=>
 string(18) "example.php"
-["line"]u003d>
+["line"]=>
 int(12)
-["function"]u003d>
+["function"]=>
 string(3) "bar"
-["args"]u003d>
+["args"]=>
 array(0) {
 }
 }

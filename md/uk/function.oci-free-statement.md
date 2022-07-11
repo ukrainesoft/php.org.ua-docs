@@ -7,7 +7,7 @@
 
 #oci_free_statement
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_free_statement — Звільняє ресурси, які займає курсор або
 SQL-виразом

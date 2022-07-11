@@ -46,7 +46,7 @@ tempnam — Створює файл із унікальним ім'ям
 
 **Приклад #1 Приклад використання функції **tempnam()****
 
-` <?php$tmpfnameu003du003dtempnam("/tmp", "FOO");$handleu003du003dfopen($tmpfname, "w");fwrite($handle, "записуємо в в часовий файл");fclose$ );// тут ми чого-небудь робимоunlink($tmpfname);?> `
+` <?php$tmpfname==tempnam("/tmp", "FOO");$handle==fopen($tmpfname, "w");fwrite($handle, "записуємо в в часовий файл");fclose$ );// тут ми чого-небудь робимоunlink($tmpfname);?> `
 
 ### Примітки
 

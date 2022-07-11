@@ -7,7 +7,7 @@
 
 # CommonMark\Node::accept
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Node::accept — Visitation
 

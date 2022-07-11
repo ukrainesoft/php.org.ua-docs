@@ -17,8 +17,8 @@ preg_replace — Пошук та заміна за регулярним вира
 string\|array `$pattern`,
 string\|array `$replacement`,
 string\|array `$subject`,
-int `$limit` u003d -1,
-int `&$count` u003d **`null`**
+int `$limit` = -1,
+int `&$count` = **`null`**
 ): string\|array\|null
 
 Виконує пошук збігів у рядку `subject` із шаблоном `pattern` та
@@ -103,7 +103,7 @@ int `&$count` u003d **`null`**
 
 **Приклад #1 Використання підмасок, за якими слідує цифра**
 
-` <?php$string u003d 'April 15, 2003';$pattern u003d '/(\w+) (\d+), (\d+)/i';$replacement u003d '${1}1,$3';echo preg_replace($pattern, $replacement, $string);?> `
+` <?php$string = 'April 15, 2003';$pattern = '/(\w+) (\d+), (\d+)/i';$replacement = '${1}1,$3';echo preg_replace($pattern, $replacement, $string);?> `
 
 Результат виконання цього прикладу:
 
@@ -112,7 +112,7 @@ April1,2003
 **Приклад #2 Використання масивів з числовими індексами як
 аргументів функції **preg_replace()****
 
-` <?php$string u003d 'The quick brown fox jumps over the lazy dog.';$patterns u003d array();$patterns[0] u003d '/quick/';$patterns[1] u003d '/brown ;$patterns[2] u003d '/fox/';$replacements u003d array();$replacements[2] u003d 'bear';$replacements[1] u003d 'black';$replacements[0] u003d 'slow'; echo preg_replace($patterns, $replacements, $string);?> `
+` <?php$string = 'The quick brown fox jumps over the lazy dog.';$patterns = array();$patterns[0] = '/quick/';$patterns[1] = '/brown ;$patterns[2] = '/fox/';$replacements = array();$replacements[2] = 'bear';$replacements[1] = 'black';$replacements[0] = 'slow'; echo preg_replace($patterns, $replacements, $string);?> `
 
 Результат виконання цього прикладу:
 
@@ -128,21 +128,21 @@ Slow black bear jumps over the lazy dog.
 
 **Приклад #3 Заміна за кількома шаблонами**
 
-` <?php$patterns u003d array ('/(19|20)(\d{2})-(\d{1,2})-(\d{1,2})/',               ^/ s*{(\w+)}\s*u003d/');$replace u003d array (' / / ', '$  u003d');echo preg_replace($patterns, $replace, '{startDate} u003d 1999-5-27');?> `
+` <?php$patterns = array ('/(19|20)(\d{2})-(\d{1,2})-(\d{1,2})/',               ^/ s*{(\w+)}\s*=/');$replace = array (' / / ', '$  =');echo preg_replace($patterns, $replace, '{startDate} = 1999-5-27');?> `
 
 Результат виконання цього прикладу:
 
-$startDate u003d 5/27/1999
+$startDate = 5/27/1999
 
 **Приклад #4 Чистка пробілів**
 
 Цей приклад вичищає зайві прогалини у рядку.
 
-` <?php$str u003d 'foo   o';$str u003d preg_replace('/\s\s+/', ' ', $str);// Це тепер буде 'foo o'echo $str;?> `
+` <?php$str = 'foo   o';$str = preg_replace('/\s\s+/', ' ', $str);// Це тепер буде 'foo o'echo $str;?> `
 
 **Приклад #5 Використання параметра `count`**
 
-` <?php$count u003d 0;echo preg_replace(array('/\d/', '/\s/'), '*', 'xp 4 to', -1 , $count);echo $count; //3?> `
+` <?php$count = 0;echo preg_replace(array('/\d/', '/\s/'), '*', 'xp 4 to', -1 , $count);echo $count; //3?> `
 
 Результат виконання цього прикладу:
 

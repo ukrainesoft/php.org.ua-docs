@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::toArray — Перетворює чергу на масив (array)
 
@@ -38,15 +38,15 @@ public **Ds\PriorityQueue::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::toArray()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);var_dump($queue->toArray());?> `
+` <?php$queue = new \Ds\PriorityQueue();$queue->push("a",  5);$queue->push("b", 15);$queue->push("c" , 10);var_dump($queue->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(1) "b"
-[1]u003d>
+[1]=>
 string(1) "c"
-[2]u003d>
+[2]=>
 string(1) "a"
 }

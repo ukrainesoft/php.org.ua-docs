@@ -8,14 +8,14 @@
 
 #mb_split
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 mb_split — Поділ рядків у багатобайтних кодуваннях, використовуючи
 регулярний вираз
 
 ### Опис
 
-**mb_split**(string `$pattern`, string `$string`, int `$limit` u003d -1):
+**mb_split**(string `$pattern`, string `$string`, int `$limit` = -1):
 array\|false
 
 Розділяє багатобайтний рядок `string`, використовуючи регулярний вираз

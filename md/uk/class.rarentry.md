@@ -7,7 +7,7 @@
 
 # Клас [RarEntry](class.rarentry.md)
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 ## Вступ
 
@@ -19,95 +19,95 @@ final class **RarEntry** {
 
 /\* Константи \*/
 
-const int `HOST_MSDOS` u003d 0;
+const int `HOST_MSDOS` = 0;
 
-const int `HOST_OS2` u003d 1;
+const int `HOST_OS2` = 1;
 
-const int `HOST_WIN32` u003d 2;
+const int `HOST_WIN32` = 2;
 
-const int `HOST_UNIX` u003d 3;
+const int `HOST_UNIX` = 3;
 
-const int `HOST_MACOS` u003d 4;
+const int `HOST_MACOS` = 4;
 
-const int `HOST_BEOS` u003d 5;
+const int `HOST_BEOS` = 5;
 
-const int `ATTRIBUTE_WIN_READONLY` u003d 1;
+const int `ATTRIBUTE_WIN_READONLY` = 1;
 
-const int `ATTRIBUTE_WIN_HIDDEN` u003d 2;
+const int `ATTRIBUTE_WIN_HIDDEN` = 2;
 
-const int `ATTRIBUTE_WIN_SYSTEM` u003d 4;
+const int `ATTRIBUTE_WIN_SYSTEM` = 4;
 
-const int `ATTRIBUTE_WIN_DIRECTORY` u003d 16;
+const int `ATTRIBUTE_WIN_DIRECTORY` = 16;
 
-const int `ATTRIBUTE_WIN_ARCHIVE` u003d 32;
+const int `ATTRIBUTE_WIN_ARCHIVE` = 32;
 
-const int `ATTRIBUTE_WIN_DEVICE` u003d 64;
+const int `ATTRIBUTE_WIN_DEVICE` = 64;
 
-const int `ATTRIBUTE_WIN_NORMAL` u003d 128;
+const int `ATTRIBUTE_WIN_NORMAL` = 128;
 
-const int `ATTRIBUTE_WIN_TEMPORARY` u003d 256;
+const int `ATTRIBUTE_WIN_TEMPORARY` = 256;
 
-const int `ATTRIBUTE_WIN_SPARSE_FILE` u003d 512;
+const int `ATTRIBUTE_WIN_SPARSE_FILE` = 512;
 
-const int `ATTRIBUTE_WIN_REPARSE_POINT` u003d 1024;
+const int `ATTRIBUTE_WIN_REPARSE_POINT` = 1024;
 
-const int `ATTRIBUTE_WIN_COMPRESSED` u003d 2048;
+const int `ATTRIBUTE_WIN_COMPRESSED` = 2048;
 
-const int `ATTRIBUTE_WIN_OFFLINE` u003d 4096;
+const int `ATTRIBUTE_WIN_OFFLINE` = 4096;
 
-const int `ATTRIBUTE_WIN_NOT_CONTENT_INDEXED` u003d 8192;
+const int `ATTRIBUTE_WIN_NOT_CONTENT_INDEXED` = 8192;
 
-const int `ATTRIBUTE_WIN_ENCRYPTED` u003d 16384;
+const int `ATTRIBUTE_WIN_ENCRYPTED` = 16384;
 
-const int `ATTRIBUTE_WIN_VIRTUAL` u003d 65536;
+const int `ATTRIBUTE_WIN_VIRTUAL` = 65536;
 
-const int `ATTRIBUTE_UNIX_WORLD_EXECUTE` u003d 1;
+const int `ATTRIBUTE_UNIX_WORLD_EXECUTE` = 1;
 
-const int `ATTRIBUTE_UNIX_WORLD_WRITE` u003d 2;
+const int `ATTRIBUTE_UNIX_WORLD_WRITE` = 2;
 
-const int `ATTRIBUTE_UNIX_WORLD_READ` u003d 4;
+const int `ATTRIBUTE_UNIX_WORLD_READ` = 4;
 
-const int `ATTRIBUTE_UNIX_GROUP_EXECUTE` u003d 8;
+const int `ATTRIBUTE_UNIX_GROUP_EXECUTE` = 8;
 
-const int `ATTRIBUTE_UNIX_GROUP_WRITE` u003d 16;
+const int `ATTRIBUTE_UNIX_GROUP_WRITE` = 16;
 
-const int `ATTRIBUTE_UNIX_GROUP_READ` u003d 32;
+const int `ATTRIBUTE_UNIX_GROUP_READ` = 32;
 
-const int `ATTRIBUTE_UNIX_OWNER_EXECUTE` u003d 64;
+const int `ATTRIBUTE_UNIX_OWNER_EXECUTE` = 64;
 
-const int `ATTRIBUTE_UNIX_OWNER_WRITE` u003d 128;
+const int `ATTRIBUTE_UNIX_OWNER_WRITE` = 128;
 
-const int `ATTRIBUTE_UNIX_OWNER_READ` u003d 256;
+const int `ATTRIBUTE_UNIX_OWNER_READ` = 256;
 
-const int `ATTRIBUTE_UNIX_STICKY` u003d 512;
+const int `ATTRIBUTE_UNIX_STICKY` = 512;
 
-const int `ATTRIBUTE_UNIX_SETGID` u003d 1024;
+const int `ATTRIBUTE_UNIX_SETGID` = 1024;
 
-const int `ATTRIBUTE_UNIX_SETUID` u003d 2048;
+const int `ATTRIBUTE_UNIX_SETUID` = 2048;
 
-const int `ATTRIBUTE_UNIX_FINAL_QUARTET` u003d 61440;
+const int `ATTRIBUTE_UNIX_FINAL_QUARTET` = 61440;
 
-const int `ATTRIBUTE_UNIX_FIFO` u003d 4096;
+const int `ATTRIBUTE_UNIX_FIFO` = 4096;
 
-const int `ATTRIBUTE_UNIX_CHAR_DEV` u003d 8192;
+const int `ATTRIBUTE_UNIX_CHAR_DEV` = 8192;
 
-const int `ATTRIBUTE_UNIX_DIRECTORY` u003d 16384;
+const int `ATTRIBUTE_UNIX_DIRECTORY` = 16384;
 
-const int `ATTRIBUTE_UNIX_BLOCK_DEV` u003d 24576;
+const int `ATTRIBUTE_UNIX_BLOCK_DEV` = 24576;
 
-const int `ATTRIBUTE_UNIX_REGULAR_FILE` u003d 32768;
+const int `ATTRIBUTE_UNIX_REGULAR_FILE` = 32768;
 
-const int `ATTRIBUTE_UNIX_SYM_LINK` u003d 40960;
+const int `ATTRIBUTE_UNIX_SYM_LINK` = 40960;
 
-const int `ATTRIBUTE_UNIX_SOCKET` u003d 49152;
+const int `ATTRIBUTE_UNIX_SOCKET` = 49152;
 
 /\* Методи \*/
 
 public [extract](rarentry.extract.md)(
 string `$dir`,
-string `$filepath` u003d "",
-string `$password` u003d NULL,
-bool `$extended_data` u003d **`false`**
+string `$filepath` = "",
+string `$password` = NULL,
+bool `$extended_data` = **`false`**
 ): bool
 
 public [getAttr](rarentry.getattr.md)(): int
@@ -124,7 +124,7 @@ public [getName](rarentry.getname.md)(): string
 
 public [getPackedSize](rarentry.getpackedsize.md)(): int
 
-public [getStream](rarentry.getstream.md)(string `$password` u003d ?):
+public [getStream](rarentry.getstream.md)(string `$password` = ?):
 resource\|false
 
 public [getUnpackedSize](rarentry.getunpackedsize.md)(): int

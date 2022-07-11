@@ -7,7 +7,7 @@
 
 # Клас Swoole\Event
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -20,8 +20,8 @@ class **Swoole\Event** {
 public static [add](swoole-event.add.md)(
 int `$fd`,
 [callable](language.types.callable.md) `$read_callback`,
-[callable](language.types.callable.md) `$write_callback` u003d ?,
-string `$events` u003d ?
+[callable](language.types.callable.md) `$write_callback` = ?,
+string `$events` = ?
 ): bool
 
 public static
@@ -34,9 +34,9 @@ public static [exit](swoole-event.exit.md)(): void
 
 public static [set](swoole-event.set.md)(
 int `$fd`,
-string `$read_callback` u003d ?,
-string `$write_callback` u003d ?,
-string `$events` u003d ?
+string `$read_callback` = ?,
+string `$write_callback` = ?,
+string `$events` = ?
 ): bool
 
 public static [wait](swoole-event.wait.md)(): void

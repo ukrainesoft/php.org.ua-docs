@@ -7,7 +7,7 @@
 
 # SolrQuery::setTermsLowerBound
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setTermsLowerBound — Визначає вираз, з якого потрібно
 починати

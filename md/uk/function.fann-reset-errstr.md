@@ -7,7 +7,7 @@
 
 # fann_reset_errstr
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_reset_errstr — Скидає останній рядок помилки
 

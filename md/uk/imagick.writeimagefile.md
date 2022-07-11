@@ -7,14 +7,14 @@
 
 # Imagick::writeImageFile
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::writeImageFile — Записує зображення у файл
 
 ### Опис
 
 public **Imagick::writeImageFile**(resource `$filehandle`, string
-`$format` u003d ?): bool
+`$format` = ?): bool
 
 Записує зображення у заданий файловий дескриптор. Дескриптор повинен
 бути попередньо відкритий, наприклад, за допомогою fopen. Цей метод

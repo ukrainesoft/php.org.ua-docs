@@ -7,7 +7,7 @@
 
 # Yaf_Config_Ini::current
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Ini::current — Отримує поточне значення
 

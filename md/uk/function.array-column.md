@@ -7,7 +7,7 @@
 
 #array_column
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 array_column — Повертає масив із значень одного стовпця вхідного
 масиву
@@ -15,7 +15,7 @@ array_column — Повертає масив із значень одного с
 ### Опис
 
 **array_column**(array `$array`, int\|string\|null `$column_key`,
-int\|string\|null `$index_key` u003d **`null`**): array
+int\|string\|null `$index_key` = **`null`**): array
 
 **array_column()** повертає масив із значень стовпця масиву `array`
 з ключем `column_key`. Опціонально можна вказати `index_key`, щоб
@@ -53,67 +53,67 @@ int\|string\|null `$index_key` u003d **`null`**): array
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                         |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | Об'єкти в стовпцях, позначені параметром `index_key`, більше не будуть перетворені на рядок і замість цього будуть видавати [TypeError](class.typeerror.md). |
+| Версія | Опис                                                                                                                                                       |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Об'єкти в стовпцях, позначені параметром index_key, більше не будуть перетворені на рядок і замість цього будуть видавати [TypeError](class.typeerror.md). |
 
 ### Приклади
 
 **Приклад #1 Отримаємо стовпець з іменами з набору записів**
 
-` <?php// Массив, представляющий из себя набор записей, полученных из базы данных$records u003d array(    array(        'id' u003d> 2135,        'first_name' u003d> 'John',        'last_name' u003d> 'Doe', ),    array(        'id' u003d> 3245,        'first_name' u003d> 'Sally',        'last_name' u003d> 'Smith',    ),    array(        'id' u003d> 5342,        'first_name' u003d> 'Jane',        ' last_name' u003d> 'Jones',    ),    array(        'id' u003d> 5623,        'first_name' u003d> 'Peter',        'last_name' u003d> 'Doe',    ));$first_names u003d array_column($records, 'first_name ');print_r($first_names);?> `
+` <?php// Массив, представляющий из себя набор записей, полученных из базы данных$records = array(    array(        'id' => 2135,        'first_name' => 'John',        'last_name' => 'Doe', ),    array(        'id' => 3245,        'first_name' => 'Sally',        'last_name' => 'Smith',    ),    array(        'id' => 5342,        'first_name' => 'Jane',        ' last_name' => 'Jones',    ),    array(        'id' => 5623,        'first_name' => 'Peter',        'last_name' => 'Doe',    ));$first_names = array_column($records, 'first_name ');print_r($first_names);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> John
-[1] u003d> Sally
-[2] u003d> Jane
-[3] u003d> Peter
+[0] => John
+[1] => Sally
+[2] => Jane
+[3] => Peter
 )
 
 **Приклад #2 Отримаємо стовпець з прізвищами, а як ключі
 масиву, що повертається використовуємо значення зі стовпця "id"**
 
-` <?php// Використовуємо масив $records з першого прикладу$last_names u003d array_column($records, 'last_name', 'id');print_r($last_names);?> `
+` <?php// Використовуємо масив $records з першого прикладу$last_names = array_column($records, 'last_name', 'id');print_r($last_names);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[2135] u003d> Doe
-[3245] u003d> Smith
-[5342] u003d> Jones
-[5623] u003d> Doe
+[2135] => Doe
+[3245] => Smith
+[5342] => Jones
+[5623] => Doe
 )
 
 **Приклад #3 Отримаємо стовпець імен користувачів із загальнодоступного
 властивості "username" об'єкта**
 
-`<?phpclass User{    public $username; public function __construct(string$$username)    {        $this->username u003d $username; }}$users u003d [   new User('user 1'),    new User('user 2'),    new User('user 3'),];print_r(array_column($users, '>> `
+`<?phpclass User{    public $username; public function __construct(string$$username)    {        $this->username = $username; }}$users = [   new User('user 1'),    new User('user 2'),    new User('user 3'),];print_r(array_column($users, '>> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> user 1
-[1] u003d> user 2
-[2] u003d> user 3
+[0] => user 1
+[1] => user 2
+[2] => user 3
 )
 
 **Приклад #4 Отримаємо стовпець імен користувачів з приватної властивості
 "name" об'єкта, використовуючи магічний метод **\_\_get()**.**
 
-`<?phpclass Person{    private $name; public function __construct(string $name)    {        $this->name u003d $name; }    public function __get($prop)    {        return $this->$prop; }    public function __isset($prop) : bool    {       return isset($this->$prop); }}$people u003d [   new Person('Fred'),    new Person('Jane'),    new Person('John'),];print_r(array_column($people, 'name');
+`<?phpclass Person{    private $name; public function __construct(string $name)    {        $this->name = $name; }    public function __get($prop)    {        return $this->$prop; }    public function __isset($prop) : bool    {       return isset($this->$prop); }}$people = [   new Person('Fred'),    new Person('Jane'),    new Person('John'),];print_r(array_column($people, 'name');
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Fred
-[1] u003d> Jane
-[2] u003d> John
+[0] => Fred
+[1] => Jane
+[2] => John
 )
 
 Якщо в об'єкті не буде методу **\_\_isset()**, то повернеться порожнім

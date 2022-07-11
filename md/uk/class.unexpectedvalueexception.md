@@ -7,7 +7,7 @@
 
 # Клас UnexpectedValueException
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -23,18 +23,18 @@ class **UnexpectedValueException** extends
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Наслідувані методи \*/
 

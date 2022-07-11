@@ -21,7 +21,7 @@ mysql_list_dbs — Повертає список баз даних, доступ
 
 ### Опис
 
-**mysql_list_dbs**(resource `$link_identifier` u003d NULL): resource
+**mysql_list_dbs**(resource `$link_identifier` = NULL): resource
 
 Повертає покажчик на результат, що містить список баз даних,
 доступних на вказаному сервері.
@@ -50,8 +50,8 @@ mysql_list_dbs — Повертає список баз даних, доступ
 
 **Приклад #1 Приклад використання **mysql_list_dbs()****
 
-` <?php// Без використання mysql_list_dbs()$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$res u003d mysql_query("SHOW DATABASES")_sql($$ ) {    echo $row['Database'] . "
-";}// Застаріло, починаючи с PHP 5.4.0$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$db_list u003d mysql_list_dbs($link);while ($row ) {     echo $row->Database . "
+` <?php// Без використання mysql_list_dbs()$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$res = mysql_query("SHOW DATABASES")_sql($$ ) {    echo $row['Database'] . "
+";}// Застаріло, починаючи с PHP 5.4.0$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');$db_list = mysql_list_dbs($link);while ($row ) {     echo $row->Database . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

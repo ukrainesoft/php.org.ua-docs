@@ -8,7 +8,7 @@
 
 # Ds\Vector::map
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::map — Повертає результат застосування callback-функції
 всім значенням вектора
@@ -45,19 +45,19 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **Ds\Vector::map()****
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);print_r($vector->map(function($value) { return $value * 2; }));print_r($vector );?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);print_r($vector->map(function($value) { return $value * 2; }));print_r($vector );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 2
-[1] u003d> 4
-[2] u003d> 6
+[0] => 2
+[1] => 4
+[2] => 6
 )
 Ds\Vector Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )

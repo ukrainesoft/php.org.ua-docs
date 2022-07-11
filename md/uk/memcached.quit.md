@@ -7,7 +7,7 @@
 
 # Memcached::quit
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::quit — Закриває всі відкриті з'єднання
 

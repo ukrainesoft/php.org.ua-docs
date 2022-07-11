@@ -7,7 +7,7 @@
 
 # Gmagick::getimagecompose
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagecompose — Повертає складовий оператор, пов'язаний з
 зображенням

@@ -7,7 +7,7 @@
 
 # EventHttpRequest::getConnection
 
-(PECL event \>u003d 1.8.0)
+(PECL event \>= 1.8.0)
 
 EventHttpRequest::getConnection — Повертає об'єкт EventHttpConnection
 

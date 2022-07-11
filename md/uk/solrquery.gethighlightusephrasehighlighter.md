@@ -7,7 +7,7 @@
 
 # SolrQuery::getHighlightUsePhraseHighlighter
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightUsePhraseHighlighter — Повертає стан
 параметра hl.usePhraseHighlighter

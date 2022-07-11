@@ -7,7 +7,7 @@
 
 # Ds\Queue::push
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::push — Додає значення в чергу
 
@@ -32,16 +32,16 @@ public
 
 **Приклад #1 Приклад використання **Ds\Queue::push()****
 
-` <?php$queue u003d new \Ds\Queue();$queue->push("a");$queue->push("b");$queue->push("c", "d" );$queue->push(...["e", "f"]);print_r($queue);?> `
+` <?php$queue = new \Ds\Queue();$queue->push("a");$queue->push("b");$queue->push("c", "d" );$queue->push(...["e", "f"]);print_r($queue);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Queue Object
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
-[3] u003d> d
-[4] u003d> e
-[5] u003d> f
+[0] => a
+[1] => b
+[2] => c
+[3] => d
+[4] => e
+[5] => f
 )

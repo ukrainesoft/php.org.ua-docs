@@ -8,7 +8,7 @@
 
 # date_default_timezone_get
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 date_default_timezone_get — Повертає часовий пояс, використовуваний за
 замовчуванням усіма функціями дати/часу в скрипті
@@ -52,11 +52,11 @@ date.timezone: Європа/Лондон
 
 **Приклад #2 Отримання абревіатури часового поясу**
 
-` <?phpdate_default_timezone_set('America/Los_Angeles');echo date_default_timezone_get() . ' u003d> ' . date('e') . ' u003d> ' . date('T');?> `
+` <?phpdate_default_timezone_set('America/Los_Angeles');echo date_default_timezone_get() . ' => ' . date('e') . ' => ' . date('T');?> `
 
 Результат виконання цього прикладу:
 
-America/Los_Angeles u003d> America/Los_Angeles u003d> PST
+America/Los_Angeles => America/Los_Angeles => PST
 
 ### Дивіться також
 

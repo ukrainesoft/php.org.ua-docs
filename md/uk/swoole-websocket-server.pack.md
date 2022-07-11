@@ -8,7 +8,7 @@
 
 # Swoole\WebSocket\Server::pack
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\WebSocket\Server::pack — Отримання пакета двійкових даних для
 відправки в одній групі даних (frame)
@@ -17,9 +17,9 @@ Swoole\WebSocket\Server::pack — Отримання пакета двійков
 
 public static **Swoole\WebSocket\Server::pack**(
 string `$data`,
-string `$opcode` u003d ?,
-string `$finish` u003d ?,
-string `$mask` u003d ?
+string `$opcode` = ?,
+string `$finish` = ?,
+string `$mask` = ?
 ): binary
 
 ### Список параметрів

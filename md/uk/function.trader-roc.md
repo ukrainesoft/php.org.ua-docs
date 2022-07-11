@@ -7,13 +7,13 @@
 
 # trader_roc
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_roc — Швидкість зміни: ((ціна/попередня ціна)-1)\*100
 
 ### Опис
 
-**trader_roc**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_roc**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

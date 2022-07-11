@@ -31,7 +31,7 @@ public **SimpleXMLIterator::key**():
 
 **Приклад #1 Отримує ім'я поточного XML-тегу**
 
-` <?php$xmlIterator u003d new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');echo var_dump($xmlIterator->key()) ;$xmlIterator->rewind(); // повернення до першого елементуecho var_dump($xmlIterator->key());?> `
+` <?php$xmlIterator = new SimpleXMLIterator('<books><book>Основи PHP</book><book>Основи XML</book></books>');echo var_dump($xmlIterator->key()) ;$xmlIterator->rewind(); // повернення до першого елементуecho var_dump($xmlIterator->key());?> `
 
 Результат виконання цього прикладу:
 

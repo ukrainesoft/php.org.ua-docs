@@ -7,7 +7,7 @@
 
 # Клас APCUIterator
 
-(PECL apcu \>u003d 5.0.0)
+(PECL apcu \>= 5.0.0)
 
 ## Вступ
 
@@ -26,10 +26,10 @@ class **APCUIterator** implements [Iterator](class.iterator.md) {
 /\* Методи \*/
 
 public [\_\_construct](apcuiterator.construct.md)(
-array\|string\|null `$search` u003d **`null`**,
-int `$format` u003d APC_ITER_ALL,
-int `$chunk_size` u003d 100,
-int `$list` u003d APC_LIST_ACTIVE
+array\|string\|null `$search` = **`null`**,
+int `$format` = APC_ITER_ALL,
+int `$chunk_size` = 100,
+int `$list` = APC_LIST_ACTIVE
 )
 
 public [current](apcuiterator.current.md)():

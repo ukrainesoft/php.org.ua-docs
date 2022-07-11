@@ -7,13 +7,13 @@
 
 # Swoole\Buffer::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::\_\_construct - Фіксований розмір блоку пам'яті
 
 ### Опис
 
-public **Swoole\Buffer::\_\_construct**(int `$size` u003d ?)
+public **Swoole\Buffer::\_\_construct**(int `$size` = ?)
 
 ### Список параметрів
 

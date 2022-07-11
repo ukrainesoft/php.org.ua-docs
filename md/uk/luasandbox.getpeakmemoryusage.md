@@ -7,7 +7,7 @@
 
 # LuaSandbox::getPeakMemoryUsage
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::getPeakMemoryUsage — Повертає пікове використання пам'яті
 у середовищі Lua

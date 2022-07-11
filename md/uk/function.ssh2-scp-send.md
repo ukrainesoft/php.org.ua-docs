@@ -7,7 +7,7 @@
 
 #ssh2_scp_send
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_scp_send — Надсилання файлу через SCP
 
@@ -17,7 +17,7 @@ ssh2_scp_send — Надсилання файлу через SCP
 resource `$session`,
 string `$local_file`,
 string `$remote_file`,
-int `$create_mode` u003d 0644
+int `$create_mode` = 0644
 ): bool
 
 Копіювання файлу з клієнта на сервер за допомогою протоколу SCP.
@@ -46,7 +46,7 @@ int `$create_mode` u003d 0644
 
 **Приклад #1 Завантаження файлу на сервер через SCP**
 
-` <?php$connection u003dssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');ssh2_scp_send($connection, '/local/filename', '/remote filename', 0644);?> `
+` <?php$connection =ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');ssh2_scp_send($connection, '/local/filename', '/remote filename', 0644);?> `
 
 ### Дивіться також
 

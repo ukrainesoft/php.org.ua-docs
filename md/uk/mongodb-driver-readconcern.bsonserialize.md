@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadConcern::bsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\Driver\ReadConcern::bsonSerialize — Повертає об'єкт для
 серіалізації BSON
@@ -35,7 +35,7 @@ final public **MongoDB\Driver\ReadConcern::bsonSerialize**(): object
 **MongoDB\Driver\ReadConcern::bsonSerialize()** з порожніми гарантіями
 читання**
 
-` <?php$rc u003d new MongoDB\Driver\ReadConcern;var_dump($rc->bsonSerialize());echo "
+` <?php$rc = new MongoDB\Driver\ReadConcern;var_dump($rc->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($rc));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -49,13 +49,13 @@ object(stdClass)#2 (0) {
 **MongoDB\Driver\ReadConcern::bsonSerialize()** з локальними гарантіями
 читання**
 
-` <?php$rc u003d new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);var_dump($rc->bsonSerialize());echo "
+` <?php$rc = new MongoDB\Driver\ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);var_dump($rc->bsonSerialize());echo "
 ", MongoDB\BSON oJSON(MongoDB\BSON romPHP($rc));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#2 (1) {
-["level"]u003d>
+["level"]=>
 string(5) "local"
 }
 

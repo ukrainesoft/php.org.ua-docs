@@ -7,7 +7,7 @@
 
 # Yaf_Router::getCurrentRoute
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Router::getCurrentRoute — Отримує ім'я діючого маршруту
 
@@ -34,7 +34,7 @@ public **Yaf_Router::getCurrentRoute**(): string
 
 **Приклад #1 Реєстрація деяких маршрутів у Bootstrap**
 
-` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config u003dYaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {       $router u003d$$dispatcher->getRouter(); $rewrite_route  u003d new Yaf_Route_Rewrite(            "/product/list/:page",            array(                "controller" u003d> "product",                "action"     u003d> "list",            )        ); $regex_route  u003d new Yaf_Route_Rewrite(            "#^/product/info/(\d+)",            array(                "controller" u003d> "product",                "action"     u003d> "info",            )        ); $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route); }   /**     * зареєструвати плагін     */   public function __initPlugins(Yaf_Dispatcher $dispatcher) { {         | }}?> `
+` <?phpclass Bootstrap extends Yaf_Bootstrap_Abstract{    public function _initConfig() {       $config =Yaf_Application::app()->getConf Yaf_Registry::set("config", $config); }    public function _initRoute(Yaf_Dispatcher $dispatcher) {       $router =$$dispatcher->getRouter(); $rewrite_route  = new Yaf_Route_Rewrite(            "/product/list/:page",            array(                "controller" => "product",                "action"     => "list",            )        ); $regex_route  = new Yaf_Route_Rewrite(            "#^/product/info/(\d+)",            array(                "controller" => "product",                "action"     => "info",            )        ); $router->addRoute('rewrite', $rewrite_route)->addRoute('regex', $regex_route); }   /**     * зареєструвати плагін     */   public function __initPlugins(Yaf_Dispatcher $dispatcher) { {         | }}?> `
 
 **Приклад #2 Плагін Dummy.php (в
 [application.directory](yaf.appconfig.md#configuration.yaf.directory)/plugins)**

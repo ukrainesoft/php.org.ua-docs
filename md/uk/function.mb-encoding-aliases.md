@@ -7,7 +7,7 @@
 
 #mb_encoding_aliases
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 mb_encoding_aliases — Отримує псевдоніми відомого типу кодування
 
@@ -36,23 +36,23 @@ mb_encoding_aliases — Отримує псевдоніми відомого т�
 
 **Приклад #1 Приклад використання **mb_encoding_aliases()****
 
-` <?php$encoding         u003d 'ASCII';$known_encodings u003d mb_list_encodings();if (in_array($encoding, $known_encodings)) { | print_r($aliases);} else {    echo "Невідоме кодування ($encoding).
+` <?php$encoding         = 'ASCII';$known_encodings = mb_list_encodings();if (in_array($encoding, $known_encodings)) { | print_r($aliases);} else {    echo "Невідоме кодування ($encoding).
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> ANSI_X3.4-1968
-[1] u003d> iso-ir-6
-[2] u003d> ANSI_X3.4-1986
-[3] u003d> ISO_646.irv:1991
-[4] u003d> US-ASCII
-[5] u003d> ISO646-US
-[6] u003d> us
-[7] u003d> IBM367
-[8] u003d> CP367
-[9] u003d> csASCII
+[0] => ANSI_X3.4-1968
+[1] => iso-ir-6
+[2] => ANSI_X3.4-1986
+[3] => ISO_646.irv:1991
+[4] => US-ASCII
+[5] => ISO646-US
+[6] => us
+[7] => IBM367
+[8] => CP367
+[9] => csASCII
 )
 
 ### Дивіться також

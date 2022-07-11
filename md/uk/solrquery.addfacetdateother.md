@@ -7,7 +7,7 @@
 
 # SolrQuery::addFacetDateOther
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addFacetDateOther — Додає ще один параметр
 facet.date.other
@@ -15,7 +15,7 @@ facet.date.other
 ### Опис
 
 public **SolrQuery::addFacetDateOther**(string `$value`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює параметр facet.date.other. Приймає необов'язкове
 перевизначення поля

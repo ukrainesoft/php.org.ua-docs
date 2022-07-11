@@ -7,7 +7,7 @@
 
 # ReflectionProperty::getType
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 ReflectionProperty::getType — Отримати тип якості
 
@@ -31,7 +31,7 @@ public **ReflectionProperty::getType**():
 
 **Приклад #1 Приклад використання **ReflectionProperty::getType()****
 
-` <?phpclass User{    public string $name;}$rp u003d new ReflectionProperty('User', 'name');echo $rp->getType()->getName();?> `
+` <?phpclass User{    public string $name;}$rp = new ReflectionProperty('User', 'name');echo $rp->getType()->getName();?> `
 
 Результат виконання цього прикладу:
 

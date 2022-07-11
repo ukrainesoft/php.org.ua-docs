@@ -7,7 +7,7 @@
 
 # geoip_db_filename
 
-(PECL geoip \>u003d 1.0.1)
+(PECL geoip \>= 1.0.1)
 
 geoip_db_filename — Повертає ім'я файлу відповідної бази GeoIP
 

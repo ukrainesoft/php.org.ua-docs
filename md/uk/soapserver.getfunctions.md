@@ -32,7 +32,7 @@ public **SoapServer::getFunctions**(): array
 
 **Приклад #1 Приклад використання **SoapServer::getFunctions()****
 
-` <?php$server u003d new SoapServer(NULL, array("uri" u003d> "http://test-uri"));$server->addFunction(SOAP_FUNCTIONS_ALL);if ($_SERVER["REQUEST_METHOD"] u003d u003d "POST") { $server->handle();} else {  echo "Цей сервер SOAP може обробляти наступні функції: "; $functionsu003du003d$server->getFunctions(); foreach($functions as $func) {    echo $func . "
+` <?php$server = new SoapServer(NULL, array("uri" => "http://test-uri"));$server->addFunction(SOAP_FUNCTIONS_ALL);if ($_SERVER["REQUEST_METHOD"] = = "POST") { $server->handle();} else {  echo "Цей сервер SOAP може обробляти наступні функції: "; $functions==$server->getFunctions(); foreach($functions as $func) {    echo $func . "
 ";  }}?> `
 
 ### Дивіться також

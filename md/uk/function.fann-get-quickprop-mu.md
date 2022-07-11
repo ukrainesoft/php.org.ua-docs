@@ -7,7 +7,7 @@
 
 # fann_get_quickprop_mu
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_quickprop_mu — Повертає коефіцієнт mu
 

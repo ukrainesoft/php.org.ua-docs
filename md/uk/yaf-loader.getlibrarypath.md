@@ -7,13 +7,13 @@
 
 # Yaf_Loader::getLibraryPath
 
-(Yaf \> u003d 2.1.4)
+(Yaf \> = 2.1.4)
 
 Yaf_Loader::getLibraryPath — Отримує шлях до бібліотеки
 
 ### Опис
 
-public **Yaf_Loader::getLibraryPath**(bool `$is_global` u003d **`false`**):
+public **Yaf_Loader::getLibraryPath**(bool `$is_global` = **`false`**):
 [Yaf_Loader](class.yaf-loader.md)
 
 **Увага**

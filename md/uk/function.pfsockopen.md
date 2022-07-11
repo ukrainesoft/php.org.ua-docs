@@ -17,10 +17,10 @@ pfsockopen — Відкриває постійне з'єднання з інте
 
 **pfsockopen**(
 string `$hostname`,
-int `$port` u003d -1,
-int `&$error_code` u003d **`null`**,
-string `&$error_message` u003d **`null`**,
-?float `$timeout` u003d **`null`**
+int `$port` = -1,
+int `&$error_code` = **`null`**,
+string `&$error_message` = **`null`**,
+?float `$timeout` = **`null`**
 ): resource \ | false
 
 Ця функція є повним аналогом функції
@@ -45,9 +45,9 @@ string `&$error_message` u003d **`null`**,
 
 ### Список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 8.0.0  | `timeout` тепер допускає значення null. |
+| Версія | Опис                                  |
+| ------ | ------------------------------------- |
+| 8.0.0  | timeout тепер допускає значення null. |
 
 ### Дивіться також
 

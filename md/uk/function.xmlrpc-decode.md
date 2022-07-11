@@ -7,13 +7,13 @@
 
 #xmlrpc_decode
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_decode — Декодує XML у типові типи PHP
 
 ### Опис
 
-**xmlrpc_decode**(string `$xml`, string `$encoding` u003d "iso-8859-1"):
+**xmlrpc_decode**(string `$xml`, string `$encoding` = "iso-8859-1"):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**

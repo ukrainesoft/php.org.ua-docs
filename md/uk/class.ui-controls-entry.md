@@ -29,7 +29,7 @@ const int `Search`;
 
 /\* Конструктор \*/
 
-public [\_\_construct](ui-controls-entry.construct.md)(int `$type` u003d
+public [\_\_construct](ui-controls-entry.construct.md)(int `$type` =
 UI\Controls\Entry::Normal)
 
 /\* Методи \*/

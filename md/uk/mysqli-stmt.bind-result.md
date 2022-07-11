@@ -86,12 +86,12 @@ public
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* підготовка s$ Code, Name FROM Country ORDER BY Name LIMIT 5"); $stmt->execute(); ($stmt->fetch()){{    printf("%s %s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* підготовка s$ Code, Name FROM Country ORDER BY Name LIMIT 5"); $stmt->execute(); ($stmt->fetch()){{    printf("%s %s
 ", $col1, $col2);} `
 
 **Приклад #2 Процедурний стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* підготовка запросу *$ | Name FROM Country ORDER BY Name LIMIT 5"); mysqli_stmt_execute($stmt); )) {    printf("%s %s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* підготовка запросу *$ | Name FROM Country ORDER BY Name LIMIT 5"); mysqli_stmt_execute($stmt); )) {    printf("%s %s
 ", $col1, $col2);} `
 
 Результат виконання даних прикладів:

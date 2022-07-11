@@ -7,7 +7,7 @@
 
 #inotify_read
 
-(PECL inotify \>u003d 0.1.2)
+(PECL inotify \>= 0.1.2)
 
 inotify_read — Читає очікувані повідомлення з черги
 

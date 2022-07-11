@@ -31,14 +31,14 @@ public **mysql_xdevapi\Schema::getCollections**(): array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::getCollections()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$collect u003d $schema->createCollection("people");$collect->add('{"name ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$collections u003d $schema->getCollections();var_dump($collections);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$collect = $schema->createCollection("people");$collect->add('{"name ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$collections = $schema->getCollections();var_dump($collections);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-["people"]u003d>
+["people"]=>
 object(mysql_xdevapi\Collection)#4 (1) {
-["name"]u003d>
+["name"]=>
 string(6) "people"
 }
 }

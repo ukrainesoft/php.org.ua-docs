@@ -556,7 +556,7 @@ callback-функцію на ім'я події
 Створює таблицю пам'яті Swoole із фіксованим розміром
 - [Swoole\Table::count](swoole-table.count.md) - Підраховує
 рядки в таблиці або підраховує всі елементи в таблиці, якщо
-$mode u003d 1
+$mode = 1
 - [Swoole\Table::create](swoole-table.create.md) - Створює
 таблицю пам'яті swoole
 - [Swoole\Table::current](swoole-table.current.md) - Отримує

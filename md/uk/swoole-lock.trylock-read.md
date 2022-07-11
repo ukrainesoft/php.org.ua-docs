@@ -8,7 +8,7 @@
 
 # Swoole\Lock::trylock_read
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Lock::trylock_read — Намагається заблокувати блокування
 читання-записи для читання і відразу повертає, навіть якщо блокування

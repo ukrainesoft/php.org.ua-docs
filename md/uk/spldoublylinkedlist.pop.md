@@ -7,7 +7,7 @@
 
 # SplDoublyLinkedList::pop
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplDoublyLinkedList::pop — Видаляє (виштовхує) вузол, що знаходиться в
 кінці двозв'язкового списку

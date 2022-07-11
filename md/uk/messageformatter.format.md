@@ -9,7 +9,7 @@
 
 #msgfmt_format
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 MessageFormatter::format -- msgfmt_format — Форматує повідомлення
 
@@ -43,11 +43,11 @@ public **MessageFormatter::format**(array `$values`): string\|false
 
 **Приклад #1 Приклад використання **msgfmt_format()****
 
-` <?php$fmt u003d msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");echo (4560, 123, 4560/123));$fmtu003du003dmsgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,num echo msgfmt_format($fmt, array(4560, 123, 4560/123));?> `
+` <?php$fmt = msgfmt_create("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree");echo (4560, 123, 4560/123));$fmt==msgfmt_create("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen sind {2,num echo msgfmt_format($fmt, array(4560, 123, 4560/123));?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree"t)t; (array(4560, 123, 4560/123));$fmt u003d new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen s  ");echo $fmt->format(array(4560, 123, 4560/123));?> `
+` <?php$fmt = new MessageFormatter("en_US", "{0,number,integer} monkeys on {1,number,integer} trees make {2,number} monkeys per tree"t)t; (array(4560, 123, 4560/123));$fmt = new MessageFormatter("de", "{0,number,integer} Affen auf {1,number,integer} Bäumen s  ");echo $fmt->format(array(4560, 123, 4560/123));?> `
 
 Результат виконання цього прикладу:
 

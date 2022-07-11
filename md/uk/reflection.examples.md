@@ -119,11 +119,11 @@ Function [ <internal:json> function json_last_error ] {
 
 dom
 
-DOM/XML u003d> enabled
-DOM/XML API Version u003d> 20031129
-libxml Version u003d> 2.7.3
-HTML Support u003d> enabled
-XPath Support u003d> enabled
-XPointer Support u003d> enabled
-Schema Support u003d> enabled
-RelaxNG Support u003d> enabled
+DOM/XML => enabled
+DOM/XML API Version => 20031129
+libxml Version => 2.7.3
+HTML Support => enabled
+XPath Support => enabled
+XPointer Support => enabled
+Schema Support => enabled
+RelaxNG Support => enabled

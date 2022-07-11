@@ -7,7 +7,7 @@
 
 # SolrQuery::setOmitHeader
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setOmitHeader — Виключає заголовок із повертаних
 результатів

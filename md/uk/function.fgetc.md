@@ -34,14 +34,14 @@ fgetc — Зчитує символ із файлу
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання функції **fgetc()****
 
-` <?php$fp u003d fopen('somefile.txt', 'r');if (!$fp) {   echo 'Помилка при відкритті файла somefile.txt';}while (false $! ($fp))) {    echo "$char
+` <?php$fp = fopen('somefile.txt', 'r');if (!$fp) {   echo 'Помилка при відкритті файла somefile.txt';}while (false $! ($fp))) {    echo "$char
 ";}?> `
 
 ### Примітки

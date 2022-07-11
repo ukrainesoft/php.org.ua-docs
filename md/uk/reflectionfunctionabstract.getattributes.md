@@ -13,8 +13,8 @@ ReflectionFunctionAbstract::getAttributes — Отримує атрибути
 
 ### Опис
 
-public **ReflectionFunctionAbstract::getAttributes**(?string `$name` u003d
-**`null`**, int `$flags` u003d 0): array
+public **ReflectionFunctionAbstract::getAttributes**(?string `$name` =
+**`null`**, int `$flags` = 0): array
 
 Повертає всі атрибути, оголошені для цієї функції або методу у вигляді
 масиву [ReflectionAttribute](class.reflectionattribute.md).

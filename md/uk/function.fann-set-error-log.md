@@ -7,7 +7,7 @@
 
 # fann_set_error_log
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_error_log — Встановлює, де реєструються помилки
 

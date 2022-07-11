@@ -34,7 +34,7 @@ LDAP - це полегшений протокол доступу до катал
 може бути таким:
 
 ``` literallayout
-cnu003dJohn Smith,ouu003dAccounts,ou003dMy Company,cu003dUS
+cn=John Smith,ou=Accounts,o=My Company,c=US
 
 ````
 
@@ -42,10 +42,10 @@ cnu003dJohn Smith,ouu003dAccounts,ou003dMy Company,cu003dUS
 читається праворуч наліво. Ви читали б цей dn як:
 
 ``` literallayout
-Країна (Country) u003d US
-Організація (organization) u003d My Company
-Підрозділ (organizationalUnit) u003d Accounts
-Ім'я (commonName) u003d John Smith
+Країна (Country) = US
+Організація (organization) = My Company
+Підрозділ (organizationalUnit) = Accounts
+Ім'я (commonName) = John Smith
 
 ````
 

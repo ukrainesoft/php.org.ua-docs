@@ -7,7 +7,7 @@
 
 # IntlCalendar::createInstance
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::createInstance — Створює новий об'єкт IntlCalendar
 
@@ -17,13 +17,13 @@ IntlCalendar::createInstance — Створює новий об'єкт IntlCalen
 
 public static
 **IntlCalendar::createInstance**([IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**, ?string `$locale` u003d **`null`**):
+`$timezone` = **`null`**, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 Процедурний стиль
 
 **intlcal_create_instance**([IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**, ?string `$locale` u003d **`null`**):
+`$timezone` = **`null`**, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 Враховуючи часовий пояс та мовний стандарт, метод створює об'єкт
@@ -73,12 +73,12 @@ public static
 
 **Приклад #1 Приклад використання **IntlCalendar::createInstance()****
 
-` <?phpini_set('intl.default_locale', 'es_ES');ini_set('date.timezone', 'Europe/Madrid');$cal u003d IntlCalendar::createInstance();echo "Без аргументів
+` <?phpini_set('intl.default_locale', 'es_ES');ini_set('date.timezone', 'Europe/Madrid');$cal = IntlCalendar::createInstance();echo "Без аргументів
 ";var_dump(get_class($cal),         IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));echo "
 ";echo "Явна вказівка годинного поясу
-";$cal u003dIntlCalendar::createInstance(IntlTimeZone::getGMT());var_dump(get_class($cal),        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
+";$cal =IntlCalendar::createInstance(IntlTimeZone::getGMT());var_dump(get_class($cal),        IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL));
 ";echo "Явна вказівка мовного стандарту (з календарем)
-";$cal u003d IntlCalendar::createInstance(NULL, 'es_ES@calendaru003dpersian');var_dump(get_class($cal),        IntlDateFormatter::formatObject($cal, IntlDateFormatter::
+";$cal = IntlCalendar::createInstance(NULL, 'es_ES@calendar=persian');var_dump(get_class($cal),        IntlDateFormatter::formatObject($cal, IntlDateFormatter::
 
 Результат виконання цього прикладу:
 

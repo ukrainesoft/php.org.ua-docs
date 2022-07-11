@@ -42,7 +42,7 @@ getallheaders — Повертає всі заголовки HTTP-запиту
 
 **Приклад #1 Приклад використання **getallheaders()****
 
-` <?phpforeach (getallheaders() as $name u003d> $value) {   echo "$name: $value
+` <?phpforeach (getallheaders() as $name => $value) {   echo "$name: $value
 ";}?> `
 
 ### Дивіться також

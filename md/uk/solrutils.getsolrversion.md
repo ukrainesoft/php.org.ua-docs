@@ -7,7 +7,7 @@
 
 # SolrUtils::getSolrVersion
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrUtils::getSolrVersion — Повертає поточну версію модуля Solr
 

@@ -7,14 +7,14 @@
 
 #curl_getinfo
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 curl_getinfo — Повертає інформацію про певну операцію
 
 ### Опис
 
 **curl_getinfo**([CurlHandle](class.curlhandle.md) `$handle`, ?int
-`$option` u003d **`null`**):
+`$option` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає інформацію про останню операцію.
@@ -199,23 +199,23 @@ SSL/SSH не було завершено
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.0.0  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource).                                                                                                                                                                                                                                                                                                                                                                                                      |
-| 8.0.0  | `option` is nullable now; previously, the default був `0`.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 7.3.0  | Додані **`CURLINFO_CONTENT_LENGTH_DOWNLOAD_T`**, **`CURLINFO_CONTENT_LENGTH_UPLOAD_T`**, **`CURLINFO_HTTP_VERSION`**, **`CURLINFO_PROTOCOL`**, **`CURLINFO_PROXY_SSL_VERIF** *`CURLINFO_SIZE_DOWNLOAD_T`**, **`CURLINFO_SIZE_UPLOAD_T`**, **`CURLINFO_SPEED_DOWNLOAD_T`**, **`CURLINFO_SPEED_UPLOAD_T`**, **`CURLINFO_APPCONNECT_TI** ** CURLINFO_FILETIME_T`**, **`CURLINFO_NAMELOOKUP_TIME_T`**, **`CURLINFO_PRETRANSFER_TIME_T`**, **`CURLINFO_REDIRECT_TIME_T`**, **`CURLINFO_STARTTRANSFER_TIME_T`**,** |
+| Версія | Опис                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource).                                                                                                                                                                                                                                                                                                                                                                             |
+| 8.0.0  | option is nullable now; previously, the default був 0.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 7.3.0  | Додані **CURLINFO_CONTENT_LENGTH_DOWNLOAD_T**, **CURLINFO_CONTENT_LENGTH_UPLOAD_T**, **CURLINFO_HTTP_VERSION**, **CURLINFO_PROTOCOL**, **CURLINFO_PROXY_SSL_VERIF** *CURLINFO_SIZE_DOWNLOAD_T**, **CURLINFO_SIZE_UPLOAD_T**, **CURLINFO_SPEED_DOWNLOAD_T**, **CURLINFO_SPEED_UPLOAD_T**, **CURLINFO_APPCONNECT_TI** ** CURLINFO_FILETIME_T**, **CURLINFO_NAMELOOKUP_TIME_T**, **CURLINFO_PRETRANSFER_TIME_T**, **CURLINFO_REDIRECT_TIME_T**, **CURLINFO_STARTTRANSFER_TIME_T**,** |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **curl_getinfo()****
 
-` <?php// Створюємо дескриптор cURL$ch u003d curl_init('http://www.example.com/');// Запускаємоcurl_exec($ch);// Перевіряємо наявність помилокif (!curl_errno $infou003dcurl_getinfo($ch); echo 'Пройшло ', $info['total_time'], ' секунд во час запиту к ', $info['url'], "
+` <?php// Створюємо дескриптор cURL$ch = curl_init('http://www.example.com/');// Запускаємоcurl_exec($ch);// Перевіряємо наявність помилокif (!curl_errno $info=curl_getinfo($ch); echo 'Пройшло ', $info['total_time'], ' секунд во час запиту к ', $info['url'], "
 ";}// Закриваємо дескрипторcurl_close($ch);?> `
 
 **Приклад #2 Приклад використання **curl_getinfo()** з параметром
 `option`**
 
-` <?php// Створюємо дескриптор cURL$ch u003d curl_init('http://www.example.com/');// Запускаємоcurl_exec($ch);// Перевіряємо наявність помилокif (!curl_errno switch ($http_code u003d curl_getinfo($ch, CURLINFO_HTTP_CODE)) {   case 200:  # OK      break; default:     echo 'Несподіваний код HTTP: ', $http_code, "
+` <?php// Створюємо дескриптор cURL$ch = curl_init('http://www.example.com/');// Запускаємоcurl_exec($ch);// Перевіряємо наявність помилокif (!curl_errno switch ($http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE)) {   case 200:  # OK      break; default:     echo 'Несподіваний код HTTP: ', $http_code, "
 ";  }}// Закриваємо дескрипторcurl_close($ch);?> `
 
 ### Примітки

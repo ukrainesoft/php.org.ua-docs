@@ -7,13 +7,13 @@
 
 #pg_lo_read
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_lo_read — Читає дані великого об'єкту
 
 ### Опис
 
-**pg_lo_read**([PgSql\Lob](class.pgsql-lob.md) `$lob`, int `$length` u003d
+**pg_lo_read**([PgSql\Lob](class.pgsql-lob.md) `$lob`, int `$length` =
 8192): string \ | false
 
 **pg_lo_read()** читає `length` байт великого об'єкта та повертає їх у
@@ -42,15 +42,15 @@ An [PgSql\Lob](class.pgsql-lob.md) instance, returned by
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                        |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `lob` тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                      |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр lob тепер чекає на екземпляр [PgSql\Lob](class.pgsql-lob.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_read()****
 
-`<?php  $doc_oidu003du003d189762345; $databaseu003du003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); $handle u003d pg_lo_open($database, $doc_oid, "r"); $datau003du003dpg_lo_read($handle, 50000); pg_query($database, "commit"); echo $data;?> `
+`<?php  $doc_oid==189762345; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); $handle = pg_lo_open($database, $doc_oid, "r"); $data==pg_lo_read($handle, 50000); pg_query($database, "commit"); echo $data;?> `
 
 ### Дивіться також
 

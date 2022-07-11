@@ -7,13 +7,13 @@
 
 # CommonMark \ Parse
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark \ Parse - Розбір
 
 ### Опис
 
-**CommonMark\Parse**(string `$content`, int `$options` u003d ?):
+**CommonMark\Parse**(string `$content`, int `$options` = ?):
 [CommonMark\Node](class.commonmark-node.md)
 
 Розбирає `content`

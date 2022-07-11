@@ -7,7 +7,7 @@
 
 # mysql_get_server_info
 
-(PHP 4 u003d 4.0.5, PHP 5)
+(PHP 4 = 4.0.5, PHP 5)
 
 mysql_get_server_info — Повертає інформацію про сервер MySQL
 
@@ -22,7 +22,7 @@ mysql_get_server_info — Повертає інформацію про серв�
 
 ### Опис
 
-**mysql_get_server_info**(resource `$link_identifier` u003d NULL):
+**mysql_get_server_info**(resource `$link_identifier` = NULL):
 string\|false
 
 Повертає версію MySQL.
@@ -47,7 +47,7 @@ string\|false
 
 **Приклад #1 Приклад використання **mysql_get_server_info()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . Mysql_error());}printf("Вер| %s
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . Mysql_error());}printf("Вер| %s
 ", mysql_get_server_info());?> `
 
 Результатом виконання цього прикладу буде щось подібне:

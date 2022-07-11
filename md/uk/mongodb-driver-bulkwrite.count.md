@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\BulkWrite::count
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\BulkWrite::count - Підраховує кількість операцій
 записи у порції
@@ -43,7 +43,7 @@ public **MongoDB\Driver\BulkWrite::count**(): int
 
 **Приклад #1 Приклад використання **MongoDB\Driver\BulkWrite::count()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' u003d> 1, 'x' u003d> 1]);$bulk->insert(['_id' u003d> 2 , 'x' u003d> 2]);$bulk->update(['x' u003d> 2], ['$set' u003d> ['x' u003d> 1]]);$bulk->delete([ 'x' u003d> 1]);var_dump(count($bulk));?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['_id' => 1, 'x' => 1]);$bulk->insert(['_id' => 2 , 'x' => 2]);$bulk->update(['x' => 2], ['$set' => ['x' => 1]]);$bulk->delete([ 'x' => 1]);var_dump(count($bulk));?> `
 
 Результат виконання цього прикладу:
 

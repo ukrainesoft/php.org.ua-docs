@@ -7,7 +7,7 @@
 
 # FFI\CType::getArrayLength
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 FFI\CType::getArrayLength — Опис
 

@@ -35,12 +35,12 @@ public **SolrDisMaxQuery::removeBigramPhraseField**(string `$field`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removeBigramPhraseField()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBigramPhraseField('cat', 2, 5.1)    ->addBigramPhraseField| | з pf2$dismaxQuery   ->removeBigramPhraseField('cat');echo $dismaxQuery.PHP_EOL;?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBigramPhraseField('cat', 2, 5.1)    ->addBigramPhraseField| | з pf2$dismaxQuery   ->removeBigramPhraseField('cat');echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&pf2u003dcat~5.1^2 feature^4.5
-qu003dlucene&defTypeu003dedismax&pf2u003dfeature^4.5
+q=lucene&defType=edismax&pf2=cat~5.1^2 feature^4.5
+q=lucene&defType=edismax&pf2=feature^4.5
 
 ### Дивіться також
 

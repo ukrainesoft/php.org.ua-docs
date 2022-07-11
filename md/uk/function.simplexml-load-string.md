@@ -15,10 +15,10 @@ simplexml_load_string — Інтерпретує рядок із XML в об'є�
 
 **simplexml_load_string**(
 string `$data`,
-?string `$class_name` u003d SimpleXMLElement::class,
-int `$options` u003d 0,
-string `$namespace_or_prefix` u003d "",
-bool `$is_prefix` u003d **`false`**
+?string `$class_name` = SimpleXMLElement::class,
+int `$options` = 0,
+string `$namespace_or_prefix` = "",
+bool `$is_prefix` = **`false`**
 ): [SimpleXMLElement](class.simplexmlelement.md)\|false
 
 Отримує правильно сформований XML-рядок і повертає його як об'єкт.
@@ -56,7 +56,7 @@ bool `$is_prefix` u003d **`false`**
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки
@@ -76,16 +76,16 @@ bool `$is_prefix` u003d **`false`**
 
 **Приклад #1 Інтерпретація XML-рядка**
 
-` <?php$string u003d <<<<XML<?xml versionu003d'1.0'?><document> <title>Що 40?</title> <from>Джо</from> <to>Джейн</to> <body>  Я знаю, що -відповідь. У чому полягає питання? </body></document>XML;$xml u003d simplexml_load_string($string);print_r($xml);?> `
+` <?php$string = <<<<XML<?xml version='1.0'?><document> <title>Що 40?</title> <from>Джо</from> <to>Джейн</to> <body>  Я знаю, що -відповідь. У чому полягає питання? </body></document>XML;$xml = simplexml_load_string($string);print_r($xml);?> `
 
 Результат виконання цього прикладу:
 
 SimpleXMLElement Object
 (
-[title] u003d> Що 40?
-[from] u003d> Джо
-[to] u003d> Джейн
-[body] u003d>
+[title] => Що 40?
+[from] => Джо
+[to] => Джейн
+[body] =>
 Я знаю, що це відповідь. У чому питання?
 )
 

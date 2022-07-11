@@ -7,7 +7,7 @@
 
 # PharFileInfo::isCRCChecked
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 PharFileInfo::isCRCChecked — Визначити, чи пройшов файл перевірку CRC
 
@@ -30,7 +30,7 @@ public **PharFileInfo::isCRCChecked**(): bool
 
 **Приклад #1 Приклад використання **PharFileInfo::isCRCChecked()****
 
-`<?phptry {    $p u003d new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] u003d 'hi'; $fileu003du003d$p['myfile.txt']; var_dump($file->isCRCChecked());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
+`<?phptry {    $p = new Phar('/path/to/my.phar', 0, 'my.phar'); $p['myfile.txt'] = 'hi'; $file==$p['myfile.txt']; var_dump($file->isCRCChecked());} catch (Exception $e) {    echo 'Не удалося створити/змінити my.phar: ', $e;}?> `
 
 Результат виконання цього прикладу:
 

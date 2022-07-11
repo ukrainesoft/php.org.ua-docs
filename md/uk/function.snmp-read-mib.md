@@ -43,9 +43,9 @@ snmp_read_mib — Читає та аналізує файл MIB в активн�
 
 Array
 (
-[iso.3.6.1.2.1.2.3.4.5.0] u003d> Gauge32: 6
+[iso.3.6.1.2.1.2.3.4.5.0] => Gauge32: 6
 )
 Array
 (
-[FOO-BAR-MIB::someTable.0] u003d> Gauge32: 6
+[FOO-BAR-MIB::someTable.0] => Gauge32: 6
 )

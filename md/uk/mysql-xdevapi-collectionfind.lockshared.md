@@ -14,7 +14,7 @@ CollectionFind::lockShared — Виконує операцію з SHARED LOCK
 ### Опис
 
 public **mysql_xdevapi\CollectionFind::lockShared**(int
-`$lock_waiting_option` u003d ?):
+`$lock_waiting_option` = ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
 Дозволяє розділяти документи між кількома транзакціями, які
@@ -51,4 +51,4 @@ public **mysql_xdevapi\CollectionFind::lockShared**(int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionFind::lockShared()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema    u003d $session->getSchema("addressbook");$collection u003d $schema->createColle );$session->startTransaction();$result u003d $collection ->find("age > 50") ->lockShared() ->execute();// ... читаємо об'єкт врежиме міс транзакцію і розблокуємо документ$session->commit();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema    = $session->getSchema("addressbook");$collection = $schema->createColle );$session->startTransaction();$result = $collection ->find("age > 50") ->lockShared() ->execute();// ... читаємо об'єкт врежиме міс транзакцію і розблокуємо документ$session->commit();?> `

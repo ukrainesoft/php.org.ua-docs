@@ -32,4 +32,4 @@ public **mysql_xdevapi\TableDelete::where**(string `$where_expr`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\TableDelete::where()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );$table->delete() ->where("id u003d :id")  ->bind(['id' u003d> 42])  ->limit(1) ->execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$table->delete() ->where("id = :id")  ->bind(['id' => 42])  ->limit(1) ->execute();?> `

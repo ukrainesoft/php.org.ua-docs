@@ -7,7 +7,7 @@
 
 # Клас ZMQDevice
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **ZMQDevice** {
 public
 [\_\_construct](zmqdevice.construct.md)([ZMQSocket](class.zmqsocket.md)
 `$frontend`, [ZMQSocket](class.zmqsocket.md) `$backend`,
-[ZMQSocket](class.zmqsocket.md) `$listener` u003d ?)
+[ZMQSocket](class.zmqsocket.md) `$listener` = ?)
 
 public [getIdleTimeout](zmqdevice.getidletimeout.md)():
 [ZMQDevice](class.zmqdevice.md)
@@ -34,7 +34,7 @@ public
 [setIdleCallback](zmqdevice.setidlecallback.md)([callable](language.types.callable.md)
 `$cb_func`, int `$timeout`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data` u003d ?): [ZMQDevice](class.zmqdevice.md)
+`$user_data` = ?): [ZMQDevice](class.zmqdevice.md)
 
 public [setIdleTimeout](zmqdevice.setidletimeout.md)(int `$timeout`):
 [ZMQDevice](class.zmqdevice.md)
@@ -43,7 +43,7 @@ public
 [setTimerCallback](zmqdevice.settimercallback.md)([callable](language.types.callable.md)
 `$cb_func`, int `$timeout`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$user_data` u003d ?): [ZMQDevice](class.zmqdevice.md)
+`$user_data` = ?): [ZMQDevice](class.zmqdevice.md)
 
 public [setTimerTimeout](zmqdevice.settimertimeout.md)(int
 `$timeout`): [ZMQDevice](class.zmqdevice.md)

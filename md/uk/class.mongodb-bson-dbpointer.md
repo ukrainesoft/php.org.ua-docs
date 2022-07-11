@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\DBPointer (застарілий)
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 ## Вступ
 

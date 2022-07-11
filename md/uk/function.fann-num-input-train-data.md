@@ -8,7 +8,7 @@
 
 # fann_num_input_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_num_input_train_data — Повертає кількість вхідних даних у
 кожному з шаблонів у навчальних даних

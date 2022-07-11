@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightSimplePost
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightSimplePost — Встановлює текст, який
 з'являється після виділеного виразу
@@ -15,7 +15,7 @@ SolrQuery::setHighlightSimplePost — Встановлює текст, який
 ### Опис
 
 public **SolrQuery::setHighlightSimplePost**(string `$simplePost`,
-string `$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+string `$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює текст, який з'являється після виділення
 

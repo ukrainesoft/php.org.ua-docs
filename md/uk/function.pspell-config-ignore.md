@@ -7,7 +7,7 @@
 
 #pspell_config_ignore
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_config_ignore — Ігнорує слова довжиною менше N символів
 
@@ -35,12 +35,12 @@ pspell_config_ignore — Ігнорує слова довжиною менше N
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 8.1.0  | Параметр `config` тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                 |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pspell_config_ignore()****
 
-` <?php$pspell_config u003d pspell_config_create("en");pspell_config_ignore($pspell_config, 5);$pspell u003d pspell_new_config($pspell_config);pspell_check($pspell, "abcd") //Повідомлення про помилку не буде згенеровано?
+` <?php$pspell_config = pspell_config_create("en");pspell_config_ignore($pspell_config, 5);$pspell = pspell_new_config($pspell_config);pspell_check($pspell, "abcd") //Повідомлення про помилку не буде згенеровано?

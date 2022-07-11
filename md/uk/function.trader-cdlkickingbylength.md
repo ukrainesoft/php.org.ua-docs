@@ -7,7 +7,7 @@
 
 # trader_cdlkickingbylength
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlkickingbylength — Високий стрибок - бик/ведмідь визначається за
 довгому марубозу

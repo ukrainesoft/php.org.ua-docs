@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteResult::getDeletedCount
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteResult::getDeletedCount — Повертає кількість
 віддалених документів
@@ -35,7 +35,7 @@ final public **MongoDB\Driver\WriteResult::getDeletedCount**(): ?int
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteResult::getDeletedCount()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]);$bulk->update(['x' u003d> 1], ['$set' u003d> ['y' u003d> 3]]);$bulk->update(['x' u003d> 2], ['$set' u003d> ['y' u003d > 1]], ['upsert' u003d> true]);$bulk->update(['x' u003d> 3], ['$set' u003d> ['y' u003d> 2]], ['upsert ' u003d> true]);$bulk->delete(['x' u003d> 1]);$result u003d $manager->executeBulkWrite('db.collection', $bulk);var_dump($result->getDeletedCount( ));?> `
+` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$bulk->update(['x' => 1], ['$set' => ['y' => 3]]);$bulk->update(['x' => 2], ['$set' => ['y' = > 1]], ['upsert' => true]);$bulk->update(['x' => 3], ['$set' => ['y' => 2]], ['upsert ' => true]);$bulk->delete(['x' => 1]);$result = $manager->executeBulkWrite('db.collection', $bulk);var_dump($result->getDeletedCount( ));?> `
 
 Результат виконання цього прикладу:
 

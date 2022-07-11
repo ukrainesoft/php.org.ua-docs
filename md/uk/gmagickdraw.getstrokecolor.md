@@ -7,7 +7,7 @@
 
 # GmagickDraw::getstrokecolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getstrokecolor — Повертає колір, який використовується для обведення
 контурів об'єкта

@@ -7,7 +7,7 @@
 
 # GearmanClient::setDataCallback
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanClient::setDataCallback — Задає функцію callback для обробки
 переданих даних

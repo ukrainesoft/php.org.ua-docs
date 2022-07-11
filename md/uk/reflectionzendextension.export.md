@@ -7,7 +7,7 @@
 
 # ReflectionZendExtension::export
 
-(PHP 5 \>u003d 5.4.0, PHP 7)
+(PHP 5 \>= 5.4.0, PHP 7)
 
 ReflectionZendExtension::export — Експорт
 
@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionZendExtension::export**(string `$name`, bool
-`$return` u003d ?): string
+`$return` = ?): string
 
 **Увага**
 

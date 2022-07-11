@@ -7,7 +7,7 @@
 
 # SplFileInfo::getPathname
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPathname — Отримує шлях до файлу
 
@@ -29,7 +29,7 @@ public **SplFileInfo::getPathname**(): string
 
 **Приклад #1 Приклад використання **SplFileInfo::getPathname()****
 
-` <?php$info u003d new SplFileInfo('/usr/bin/php');var_dump($info->getPathname());?> `
+` <?php$info = new SplFileInfo('/usr/bin/php');var_dump($info->getPathname());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

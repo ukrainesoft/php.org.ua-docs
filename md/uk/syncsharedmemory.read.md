@@ -7,14 +7,14 @@
 
 # SyncSharedMemory::read
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 SyncSharedMemory::read — Копіює дані з іменованої розділяється
 пам'яті
 
 ### Опис
 
-public **SyncSharedMemory::read**(int `$start` u003d 0, int `$length` u003d ?)
+public **SyncSharedMemory::read**(int `$start` = 0, int `$length` = ?)
 
 Копіює дані з іменованої пам'яті, що розділяється.
 
@@ -48,7 +48,7 @@ public **SyncSharedMemory::read**(int `$start` u003d 0, int `$length` u003d ?)
 **Приклад #1 Приклад використання
 [SyncSharedMemory::\_\_construct()](syncsharedmemory.construct.md)**
 
-` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem u003d new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Тут можна виконати первинну ініціалізацію.}$result u003d $mem->write("report.txt");$result u003d $mem->read(3, -4);var_dump ;?> `
+` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem = new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Тут можна виконати первинну ініціалізацію.}$result = $mem->write("report.txt");$result = $mem->read(3, -4);var_dump ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

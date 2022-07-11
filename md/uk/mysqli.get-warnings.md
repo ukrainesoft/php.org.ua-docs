@@ -9,7 +9,7 @@
 
 # mysqli_get_warnings
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 mysqli::get_warnings -- mysqli_get_warnings — Отримує результат SHOW
 WARNINGS

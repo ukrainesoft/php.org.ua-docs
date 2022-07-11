@@ -7,7 +7,7 @@
 
 # openssl_pbkdf2
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 openssl_pbkdf2 — Генерує рядки PKCS5 v2 PBKDF2
 
@@ -18,7 +18,7 @@ string `$password`,
 string `$salt`,
 int `$key_length`,
 int `$iterations`,
-string `$digest_algo` u003d "sha1"
+string `$digest_algo` = "sha1"
 ): string\|false
 
 **openssl_pbkdf2()** обчислює PBKDF2 (Password-Based Key Derivation
@@ -53,7 +53,7 @@ PBKDF2 рекомендує використовувати криптограф�
 
 **Приклад #1 Приклад використання openssl_pbkdf2()**
 
-`<?php$password u003d 'yOuR-pAs5w0rd-hERe';$salt u003d openssl_random_pseudo_bytes(12);$keyLength u003d 40;$iterations u003d 10000;$generated_key $ $ 'sha256');echo bin2hex($generated_key)."
+`<?php$password = 'yOuR-pAs5w0rd-hERe';$salt = openssl_random_pseudo_bytes(12);$keyLength = 40;$iterations = 10000;$generated_key $ $ 'sha256');echo bin2hex($generated_key)."
 ";echo base64_encode($generated_key)."
 ";?> `
 

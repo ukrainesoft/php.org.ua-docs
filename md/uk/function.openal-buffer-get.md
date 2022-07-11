@@ -7,7 +7,7 @@
 
 #openal_buffer_get
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_buffer_get — Отримати властивість буфера OpenAL
 

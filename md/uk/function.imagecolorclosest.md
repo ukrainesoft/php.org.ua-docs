@@ -56,15 +56,15 @@ RGB значення.
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Пошук набору кольорів зображення**
 
-` <?php// Створення зображення і перетворення його в палітрове$im u003d imagecreatefrompng('figures/imagecolorclosest.png');imagetruecolortopalette($im, false, 255);// | array(254, 145, 154),    array(153, 145, 188),    array(153, 90, 145),    array(255, 137, 92));// Проход по каждому цвету и поиск ближайшего к нему в палитре .// Повернення номери по порядку, RGB шуканого колірника і знайдене RGB відповідністьforeach($colors as $id u003d> $rgb){    $result u003d $col| 2]); $resultu003du003dimagecolorsforindex($im,$result); $result u003d "({$result['red']}, {$result['green']}, {$result['blue']})"; echo "#$id: Пошук ($rgb[0], $rgb[1], $rgb[2]); Найближча подібність: $result.
+` <?php// Створення зображення і перетворення його в палітрове$im = imagecreatefrompng('figures/imagecolorclosest.png');imagetruecolortopalette($im, false, 255);// | array(254, 145, 154),    array(153, 145, 188),    array(153, 90, 145),    array(255, 137, 92));// Проход по каждому цвету и поиск ближайшего к нему в палитре .// Повернення номери по порядку, RGB шуканого колірника і знайдене RGB відповідністьforeach($colors as $id => $rgb){    $result = $col| 2]); $result==imagecolorsforindex($im,$result); $result = "({$result['red']}, {$result['green']}, {$result['blue']})"; echo "#$id: Пошук ($rgb[0], $rgb[1], $rgb[2]); Найближча подібність: $result.
 ";}imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

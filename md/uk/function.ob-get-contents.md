@@ -30,7 +30,7 @@ ob_get_contents — Повертає вміст буфера виводу
 
 **Приклад #1 Простий приклад використання функції **ob_get_contents()****
 
-` <?phpob_start();echo "Привіт ";$out1 u003d ob_get_contents();echo "Світ";$out2 u003d ob_get_contents();ob_end_clean();var_dump($out1, $out2);?> `
+` <?phpob_start();echo "Привіт ";$out1 = ob_get_contents();echo "Світ";$out2 = ob_get_contents();ob_end_clean();var_dump($out1, $out2);?> `
 
 Результат виконання цього прикладу:
 

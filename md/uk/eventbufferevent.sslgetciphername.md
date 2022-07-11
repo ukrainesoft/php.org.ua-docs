@@ -7,7 +7,7 @@
 
 # EventBufferEvent::sslGetCipherName
 
-(PECL event \>u003d 1.10.0)
+(PECL event \>= 1.10.0)
 
 EventBufferEvent::sslGetCipherName — Повертає поточне ім'я шифру
 з'єднання SSL

@@ -7,7 +7,7 @@
 
 # PDO::beginTransaction
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDO::beginTransaction — Ініціалізація транзакції
 
@@ -53,7 +53,7 @@ TABLE або CREATE TABLE, що знаходяться всередині тра
 вираз DROP TABLE автоматично фіксує транзакцію так, що жодна
 із змін транзакції не відкочується.
 
-` <?php/* Початок транзакції, відключення автоматичної фіксації */$dbh->beginTransaction();/* Зміна схеми бази даних і даних */$sth u003d $dbh->exec| | u003d $dbh->exec("UPDATE dessert    SETSET name u003d 'hamburger'"); > `
+` <?php/* Початок транзакції, відключення автоматичної фіксації */$dbh->beginTransaction();/* Зміна схеми бази даних і даних */$sth = $dbh->exec| | = $dbh->exec("UPDATE dessert    SETSET name = 'hamburger'"); > `
 
 ### Дивіться також
 

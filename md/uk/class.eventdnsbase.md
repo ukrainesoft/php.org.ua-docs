@@ -7,7 +7,7 @@
 
 # Клас EventDnsBase
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -21,15 +21,15 @@ final class **EventDnsBase** {
 
 /\* Константи \*/
 
-const int `OPTION_SEARCH` u003d 1;
+const int `OPTION_SEARCH` = 1;
 
-const int `OPTION_NAMESERVERS` u003d 2;
+const int `OPTION_NAMESERVERS` = 2;
 
-const int `OPTION_MISC` u003d 4;
+const int `OPTION_MISC` = 4;
 
-const int `OPTION_HOSTSFILE` u003d 8;
+const int `OPTION_HOSTSFILE` = 8;
 
-const int `OPTIONS_ALL` u003d 15;
+const int `OPTIONS_ALL` = 15;
 
 /\* Методи \*/
 

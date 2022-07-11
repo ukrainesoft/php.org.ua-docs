@@ -15,9 +15,9 @@ imagepng — Виведення PNG зображення до браузера �
 
 **imagepng**(
 [GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**,
-int `$quality` u003d -1,
-int `$filters` u003d -1
+resource\|string\|null `$file` = **`null`**,
+int `$quality` = -1,
+int `$filters` = -1
 ): bool
 
 Виводить або зберігає PNG зображення `image`.
@@ -67,13 +67,13 @@ int `$filters` u003d -1
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
-` <?php$im u003d imagecreatefrompng("test.png");header('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
+` <?php$im = imagecreatefrompng("test.png");header('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
 
 ### Дивіться також
 

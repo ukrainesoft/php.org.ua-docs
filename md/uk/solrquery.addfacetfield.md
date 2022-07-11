@@ -7,7 +7,7 @@
 
 # SolrQuery::addFacetField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addFacetField — Додає інше поле до фасету
 
@@ -32,17 +32,17 @@ public **SolrQuery::addFacetField**(string `$field`):
 
 **Приклад #1 Приклад використання **SolrQuery::addFacetField()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ query u003d new SolrQuery();$query->setQuery($query);$query->addField('price')->addField('color');$query->setFacet(true);$query->addFacetField ('price')->addFacetField('color');$query_responseu003du003d$client->query($query);$response u003d $query_response->getResponse();print_r($response['facet_counts']['facet_field ']);?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ query = new SolrQuery();$query->setQuery($query);$query->addField('price')->addField('color');$query->setFacet(true);$query->addFacetField ('price')->addFacetField('color');$query_response==$client->query($query);$response = $query_response->getResponse();print_r($response['facet_counts']['facet_field ']);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
 SolrObject Object
 (
-[color] u003d> SolrObject Object
+[color] => SolrObject Object
 (
-[blue] u003d> 20
-[green] u003d> 100
+[blue] => 20
+[green] => 100
 )
 
 )

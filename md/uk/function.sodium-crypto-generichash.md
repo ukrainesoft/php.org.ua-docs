@@ -7,14 +7,14 @@
 
 # sodium_crypto_generichash
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_generichash — Отримати хеш повідомлення
 
 ### Опис
 
-**sodium_crypto_generichash**(string `$message`, string `$key` u003d "", int
-`$length` u003d **`SODIUM_CRYPTO_GENERICHASH_BYTES`**): string
+**sodium_crypto_generichash**(string `$message`, string `$key` = "", int
+`$length` = **`SODIUM_CRYPTO_GENERICHASH_BYTES`**): string
 
 Хешує повідомлення за допомогою BLAKE2b.
 

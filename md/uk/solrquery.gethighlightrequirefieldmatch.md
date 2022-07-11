@@ -8,7 +8,7 @@
 
 # SolrQuery::getHighlightRequireFieldMatch
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightRequireFieldMatch — Повертає, якщо поле буде
 виділено лише у тому випадку, якщо запит відповідає цьому

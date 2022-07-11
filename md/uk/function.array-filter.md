@@ -7,15 +7,15 @@
 
 #array_filter
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 array_filter — Фільтрує елементи масиву за допомогою callback-функції
 
 ### Опис
 
 **array_filter**(array `$array`,
-?[callable](language.types.callable.md) `$callback` u003d **`null`**, int
-`$mode` u003d 0): array
+?[callable](language.types.callable.md) `$callback` = **`null`**, int
+`$mode` = 0): array
 
 Обходить кожне значення масиву `array`, передаючи його в
 'callback'-функцію. Якщо `callback`-функція повертає **`true`**,
@@ -63,7 +63,7 @@ callback замість тільки значення
 
 **Приклад #1 Приклад використання **array_filter()****
 
-`<?phpfunction odd($var){    // є або передане число непарним| u003d ['a' u003d> 1, 'b' u003d> 2, 'c' u003d> 3, 'd' u003d> 4, 'e' u003d> 5];$array2 u003d [6, 7, 8, 9, 10, 11, 12];echo "Непарні:
+`<?phpfunction odd($var){    // є або передане число непарним| = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4, 'e' => 5];$array2 = [6, 7, 8, 9, 10, 11, 12];echo "Непарні:
 ";print_r(array_filter($array1, "odd"));echo "Парні:
 ";print_r(array_filter($array2, "even"));?> `
 
@@ -72,45 +72,45 @@ callback замість тільки значення
 Непарні:
 Array
 (
-[a] u003d> 1
-[c] u003d> 3
-[e] u003d> 5
+[a] => 1
+[c] => 3
+[e] => 5
 )
 парні:
 Array
 (
-[0] u003d> 6
-[2] u003d> 8
-[4] u003d> 10
-[6] u003d> 12
+[0] => 6
+[2] => 8
+[4] => 10
+[6] => 12
 )
 
 **Приклад #2 Використання **array_filter()** без `callback`-функції**
 
-'u003d?            ;print_r(array_filter($entry));?> `
+'=?            ;print_r(array_filter($entry));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> foo
-[2] u003d> -1
+[0] => foo
+[2] => -1
 )
 
 **Приклад #3 **array_filter()** із зазначеним `mode`**
 
-` <?php$arr u003d ['a' u003d> 1, 'b' u003d> 2, 'c' u003d> 3, 'd' u003d> 4];var_dump(array_filter($arr, function($k) { return $k u003du003d 'b';}, ARRAY_FILTER_USE_KEY));var_dump(array_filter($arr, function($v, $k) {   return $k u003du003d 'b' || | ));?> `
+` <?php$arr = ['a' => 1, 'b' => 2, 'c' => 3, 'd' => 4];var_dump(array_filter($arr, function($k) { return $k == 'b';}, ARRAY_FILTER_USE_KEY));var_dump(array_filter($arr, function($v, $k) {   return $k == 'b' || | ));?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["b"]u003d>
+["b"]=>
 int(2)
 }
 array(2) {
-["b"]u003d>
+["b"]=>
 int(2)
-["d"]u003d>
+["d"]=>
 int(4)
 }
 

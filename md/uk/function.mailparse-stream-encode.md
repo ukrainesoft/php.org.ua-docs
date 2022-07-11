@@ -7,7 +7,7 @@
 
 #mailparse_stream_encode
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_stream_encode — Кодує потік із файлу джерела та пише в
 файл отримувач.
@@ -40,8 +40,8 @@ string `$encoding`): bool
 
 **Приклад #1 Приклад використання **mailparse_stream_encode()****
 
-` <?php//email.eml містить: hello, this is some textu003dhello.$fp u003dfopen('email.eml', 'r');$dest u003d tmpfile();mailparse_stream_encode($p, , "quoted-printable");rewind($dest);// Відображаємо контент нового файлаfpassthru($dest);?> `
+` <?php//email.eml містить: hello, this is some text=hello.$fp =fopen('email.eml', 'r');$dest = tmpfile();mailparse_stream_encode($p, , "quoted-printable");rewind($dest);// Відображаємо контент нового файлаfpassthru($dest);?> `
 
 Результат виконання цього прикладу:
 
-hello, this is some textu003d3Dhello.
+hello, this is some text=3Dhello.

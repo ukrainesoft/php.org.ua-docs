@@ -7,7 +7,7 @@
 
 # radius_demangle_mppe_key
 
-(PECL radius \>u003d 1.2.0)
+(PECL radius \>= 1.2.0)
 
 radius_demangle_mppe_key — Отримує mppe-ключі зі спотворених даних
 

@@ -37,7 +37,7 @@ sqlsrv_free_stmt — Визволяє всі ресурси для вказан�
 
 **Приклад #1 Приклад використання **sqlsrv_free_stmt()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$stmt u003d sqlsrv_query( $ F| stmt u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}/*---------------------------- ---     |Тут можна обробити результати запиту.-------------------------------*//* Звільніть ресурси для оператора */ sqlsrv_free_stmt($stmt);?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$stmt = sqlsrv_query( $ F| stmt === false ) {     die( print_r( sqlsrv_errors(), true));}/*---------------------------- ---     |Тут можна обробити результати запиту.-------------------------------*//* Звільніть ресурси для оператора */ sqlsrv_free_stmt($stmt);?> `
 
 ### Примітки
 

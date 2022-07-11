@@ -14,7 +14,7 @@ Imagick::cropThumbnailImage — Створює мініатюру, що обрі
 ### Опис
 
 public **Imagick::cropThumbnailImage**(int `$width`, int `$height`, bool
-`$legacy` u003d **`false`**): bool
+`$legacy` = **`false`**): bool
 
 Створює мініатюру фіксованого розміру, спочатку масштабуючи
 зображення вгору або вниз та обрізаючи вказану область від центру.

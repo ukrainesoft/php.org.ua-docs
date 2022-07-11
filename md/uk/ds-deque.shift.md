@@ -7,7 +7,7 @@
 
 # Ds\Deque::shift
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::shift — Видаляє та повертає перше значення
 
@@ -36,7 +36,7 @@ public **Ds\Deque::shift**():
 
 **Приклад #1 Приклад використання **Ds\Deque::shift()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c"]);var_dump($deque->shift());var_dump($deque->shift()); var_dump($deque->shift());?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c"]);var_dump($deque->shift());var_dump($deque->shift()); var_dump($deque->shift());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

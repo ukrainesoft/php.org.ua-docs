@@ -7,14 +7,14 @@
 
 # ZookeeperConfig::remove
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 ZookeeperConfig::remove — Видаляє сервери з ансамблю
 
 ### Опис
 
-public **ZookeeperConfig::remove**(string `$id_list`, int `$version` u003d
--1, array `&$stat` u003d **`null`**): void
+public **ZookeeperConfig::remove**(string `$id_list`, int `$version` =
+-1, array `&$stat` = **`null`**): void
 
 ### Список параметрів
 
@@ -47,12 +47,12 @@ public **ZookeeperConfig::remove**(string `$id_list`, int `$version` u003d
 
 Видалення серверів.
 
-` <?php$client u003d new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig u003d $client->getConfig ();$zkConfig->set("server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181,server.2u003dlocalhost:2889:3889:participant;0.0.0.0:2182");$zkConfig ->remove("2");echo$zkConfig->get();if($r) echo $r;else echo 'Помилка';?> `
+` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig = $client->getConfig ();$zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181,server.2=localhost:2889:3889:participant;0.0.0.0:2182");$zkConfig ->remove("2");echo$zkConfig->get();if($r) echo $r;else echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
-server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181
-versionu003d0xca01e881a2
+server.1=localhost:2888:3888:participant;0.0.0.0:2181
+version=0xca01e881a2
 
 ### Дивіться також
 

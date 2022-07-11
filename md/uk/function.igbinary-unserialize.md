@@ -8,7 +8,7 @@ igbinary_serialize
 
 #igbinary_unserialize
 
-(PECL igbinary \>u003d 1.1.1)
+(PECL igbinary \>= 1.1.1)
 
 igbinary_unserialize — Створює значення PHP із збереженого
 уявлення функцією

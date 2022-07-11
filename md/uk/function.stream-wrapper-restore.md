@@ -7,7 +7,7 @@
 
 #stream_wrapper_restore
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 stream_wrapper_restore — Відновлює скасовану вбудовану раніше
 обгортку

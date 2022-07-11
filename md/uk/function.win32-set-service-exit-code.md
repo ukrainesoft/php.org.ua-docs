@@ -7,14 +7,14 @@
 
 #win32_set_service_exit_code
 
-(PECL win32service \>u003d0.4.0)
+(PECL win32service \>=0.4.0)
 
 win32_set_service_exit_code — Визначає або повертає код виходу для
 поточної запущеної служби
 
 ### Опис
 
-**win32_set_service_exit_code**(int `$exitCode` u003d 1): int
+**win32_set_service_exit_code**(int `$exitCode` = 1): int
 
 Змінює чи повертає код виходу. Код виходу використовується лише в тому
 якщо режим виходу не витончений. Якщо значення не дорівнює нулю,
@@ -49,7 +49,7 @@ win32_set_service_exit_code — Визначає або повертає код 
 
 | Версія                                                                                                                                                                                      | Опис |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **`false`**.                                                       |      |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |      |      
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 
 ### Дивіться також

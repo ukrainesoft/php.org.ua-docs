@@ -38,7 +38,7 @@ class **Ds\Set** implements **Ds\Collection**,
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 16;
+const int `MIN_CAPACITY` = 16;
 
 /\* Методи \*/
 
@@ -63,7 +63,7 @@ public [diff](ds-set.diff.md)([Ds\Set](class.ds-set.md) `$set`):
 
 public
 [filter](ds-set.filter.md)([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Set](class.ds-set.md)
+`$callback` = ?): [Ds\Set](class.ds-set.md)
 
 public [first](ds-set.first.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -76,7 +76,7 @@ public [intersect](ds-set.intersect.md)([Ds\Set](class.ds-set.md)
 
 public [isEmpty](ds-set.isempty.md)(): bool
 
-public [join](ds-set.join.md)(string `$glue` u003d ?): string
+public [join](ds-set.join.md)(string `$glue` = ?): string
 
 public [last](ds-set.last.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -89,7 +89,7 @@ public
 [reduce](ds-set.reduce.md)([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
@@ -100,15 +100,15 @@ public [reverse](ds-set.reverse.md)(): void
 
 public [reversed](ds-set.reversed.md)(): [Ds\Set](class.ds-set.md)
 
-public [slice](ds-set.slice.md)(int `$index`, int `$length` u003d ?):
+public [slice](ds-set.slice.md)(int `$index`, int `$length` = ?):
 [Ds\Set](class.ds-set.md)
 
 public [sort](ds-set.sort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 public
 [sorted](ds-set.sorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Set](class.ds-set.md)
+`$comparator` = ?): [Ds\Set](class.ds-set.md)
 
 public [sum](ds-set.sum.md)(): int\|float
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::current
 
-(mongodb \>u003d1.9.0)
+(mongodb \>=1.9.0)
 
 MongoDB\Driver\Cursor::current — Повертає поточний елемент
 

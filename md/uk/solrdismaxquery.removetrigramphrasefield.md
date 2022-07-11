@@ -33,12 +33,12 @@ public **SolrDisMaxQuery::removeTrigramPhraseField**(string `$field`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removeTrigramPhraseField()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->addTrigramPhraseField('cat', 2, 5.1)->addTrigramPhraseField('feature', 4.5); dismaxQuery->removeTrigramPhraseField('cat');echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addTrigramPhraseField('cat', 2, 5.1)->addTrigramPhraseField('feature', 4.5); dismaxQuery->removeTrigramPhraseField('cat');echo $dismaxQuery.PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 
-qu003dlucene&defTypeu003d%s&pf3u003dcat~5.1^2 feature^4.5
-qu003dlucene&defTypeu003d%s&pf3u003dfeature^4.5
+q=lucene&defType=%s&pf3=cat~5.1^2 feature^4.5
+q=lucene&defType=%s&pf3=feature^4.5
 
 ### Дивіться також
 

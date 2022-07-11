@@ -14,7 +14,7 @@ DOMDocument::createElement — Створити новий вузол елеме
 ### Опис
 
 public **DOMDocument::createElement**(string `$localName`, string
-`$value` u003d ""): [DOMElement](class.domelement.md)\|false
+`$value` = ""): [DOMElement](class.domelement.md)\|false
 
 Ця функція створює екземпляр класу
 [DOMElement](class.domelement.md). Цей вузол не відображатиметься в
@@ -51,21 +51,21 @@ public **DOMDocument::createElement**(string `$localName`, string
 **Приклад #1 Створення нового елемента та вставка його як
 кореневого**
 
-` <?php$dom u003d new DOMDocument('1.0', 'utf-8');$element u003d $dom->createElement('test', 'Це кореневий елемент!');// Вставляємо новий еле нащадок документа)$dom->appendChild($element);echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'utf-8');$element = $dom->createElement('test', 'Це кореневий елемент!');// Вставляємо новий еле нащадок документа)$dom->appendChild($element);echo $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <test>Це кореневий елемент!</test>
 
 **Приклад #2 Передача тексту, що містить неекранований & `value`**
 
-` <?php$dom u003d new DOMDocument('1.0', 'utf-8');$element u003d $dom->createElement('foo', 'я & ти');$dom->appendChild($element) ;echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'utf-8');$element = $dom->createElement('foo', 'я & ти');$dom->appendChild($element) ;echo $dom->saveXML();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Warning: DOMDocument::createElement(): unterminated entity reference you in /in/BjTCg on line 4
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <foo/>
 
 ### Примітки

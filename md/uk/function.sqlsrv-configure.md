@@ -32,7 +32,7 @@ sqlsrv_configure — Змінює конфігурацію обробки пом
 
 | Налаштування           | Опції                                                                                                                                                            |
 | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| WarningsReturnAsErrors | 1 (**`true`**) або 0 (**`false`**)                                                                                                                               |
+| WarningsReturnAsErrors | 1 (**true**) або 0 (**false**)                                                                                                                                   |
 | LogSubsystems          | SQLSRV_LOG_SYSTEM_ALL (-1) SQLSRV_LOG_SYSTEM_CONN (2) SQLSRV_LOG_SYSTEM_INIT (1) SQLSRV_LOG_SYSTEM_OFF (0) SQLSRV_LOG_SYSTEM_STMT (4) SQLSRV_LOG_SYSTEM_UTIL (8) |
 | LogSeverity            | SQLSRV_LOG_SEVERITY_ALL (-1) SQLSRV_LOG_SEVERITY_ERROR (1) SQLSRV_LOG_SEVERITY_NOTICE (4) SQLSRV_LOG_SEVERITY_WARNING (2)                                        |
 

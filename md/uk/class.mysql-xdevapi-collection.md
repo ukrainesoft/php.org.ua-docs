@@ -7,7 +7,7 @@
 
 # Клас Collection
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -39,7 +39,7 @@ public **dropIndex**(string `$index_name`): bool
 
 public **existsInDatabase**(): bool
 
-public **find**(string `$search_condition` u003d ?):
+public **find**(string `$search_condition` = ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
 public **getName**(): string

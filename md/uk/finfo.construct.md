@@ -7,21 +7,21 @@
 
 # finfo::\_\_construct
 
-(PHP \>u003d 5.3.0, PHP 7, PHP 8, PECL fileinfo \>u003d 0.1.0)
+(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
 
 finfo::\_\_construct - Псевдонім
 [finfo_open()](function.finfo-open.md)
 
 ### Опис
 
-public **finfo::\_\_construct**(int `$flags` u003d **`FILEINFO_NONE`**,
-?string `$magic_database` u003d **`null`**)
+public **finfo::\_\_construct**(int `$flags` = **`FILEINFO_NONE`**,
+?string `$magic_database` = **`null`**)
 
 Ця функція є псевдонімом:
 [finfo_open()](function.finfo-open.md)
 
 ### Список змін
 
-| Версія | Опис                                           |
-| ------ | ---------------------------------------------- |
-| 8.0.3  | `magic_database` тепер допускає значення null. |
+| Версія | Опис                                         |
+| ------ | -------------------------------------------- |
+| 8.0.3  | magic_database тепер допускає значення null. |

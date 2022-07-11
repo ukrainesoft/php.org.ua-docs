@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::setActionName
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::setActionName — Встановлює ім'я дії
 
 ### Опис
 
 public **Yaf_Request_Abstract::setActionName**(string `$action`, bool
-`$format_name` u003d true): void
+`$format_name` = true): void
 
 Встановлює ім'я дії для запиту, зазвичай використовується
 маршрутизатором, що настроюється, для встановлення імені контролера результату

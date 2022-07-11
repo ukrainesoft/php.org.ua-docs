@@ -7,7 +7,7 @@
 
 # RRDUpdater::\_\_construct
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 RRDUpdater::\_\_construct — Створює новий об'єкт
 [RRDUpdater](class.rrdupdater.md)

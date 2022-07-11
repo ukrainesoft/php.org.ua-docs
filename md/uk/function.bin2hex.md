@@ -32,7 +32,7 @@ bin2hex — Перетворює бінарні дані на шістнадця
 
 **Приклад #1 Приклад використання **bin2hex()****
 
-` <?php$hex u003d bin2hex('Hello world!');var_dump($hex);var_dump(hex2bin($hex));?> `
+` <?php$hex = bin2hex('Hello world!');var_dump($hex);var_dump(hex2bin($hex));?> `
 
 Результат виконання цього прикладу:
 

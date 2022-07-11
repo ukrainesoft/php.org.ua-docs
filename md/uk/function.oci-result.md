@@ -7,7 +7,7 @@
 
 #oci_result
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_result — Повертає значення поля з результату запиту
 
@@ -43,7 +43,7 @@ Oracle, яке завжди у верхньому регістрі для пол
 **Приклад #1 Приклад використання [oci_fetch()](function.oci-fetch.md)
 з **oci_result()****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql u003d 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti;$sti stid);while(oci_fetch($stid)) {    echo oci_result($stid, 'LOCATION_ID') . " - це "; echo oci_result($stid, 'CITY') . "<br>
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$sql = 'SELECT location_id, city FROM locations WHERE location_id < 1200';$sti;$sti stid);while(oci_fetch($stid)) {    echo oci_result($stid, 'LOCATION_ID') . " - це "; echo oci_result($stid, 'CITY') . "<br>
 ";}// Виведе://  1000 - це Roma//   1100 - це Veniceoci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки

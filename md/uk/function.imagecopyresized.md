@@ -82,9 +82,9 @@ y-координата вихідного зображення.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                  |
-| ------ | --------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `dst_image` і `src_image` тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | dst_image і src_image тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
@@ -92,7 +92,7 @@ y-координата вихідного зображення.
 
 У цьому прикладі розмір зображення буде зменшено вдвічі.
 
-` <?php//файл і новий розмір$filename u003d 'test.jpg';$percent u003d 0.5;// тип вмістheader('Content-Type: image/jpeg'); height) u003d getimagesize($filename);$newwidth u003d $width * $percent;$newheight u003d $height * $percent;// завантаження$thumb u003d imagecreatetruecolor($newwidth, $$ ;// зміна розміруimagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);// виведенняimagejpeg($thumb);?> `
+` <?php//файл і новий розмір$filename = 'test.jpg';$percent = 0.5;// тип вмістheader('Content-Type: image/jpeg'); height) = getimagesize($filename);$newwidth = $width * $percent;$newheight = $height * $percent;// завантаження$thumb = imagecreatetruecolor($newwidth, $$ ;// зміна розміруimagecopyresized($thumb, $source, 0, 0, 0, 0, $newwidth, $newheight, $width, $height);// виведенняimagejpeg($thumb);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

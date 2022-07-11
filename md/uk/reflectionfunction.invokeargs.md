@@ -7,7 +7,7 @@
 
 # ReflectionFunction::invokeArgs
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionFunction::invokeArgs — Виклик функції передачі аргументів
 
@@ -33,7 +33,7 @@ public **ReflectionFunction::invokeArgs**(array `$args`):
 **Приклад #1 Приклад використання **ReflectionFunction::invokeArgs()****
 
 ` <?phpfunction title($title, $name){    return sprintf("%s. %s
-", $title, $name);}$function u003d new ReflectionFunction('title');echo $function->invokeArgs(array('Dr', 'Phil'));?> `
+", $title, $name);}$function = new ReflectionFunction('title');echo $function->invokeArgs(array('Dr', 'Phil'));?> `
 
 Результат виконання цього прикладу:
 
@@ -47,9 +47,9 @@ Dr. Phil
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 bool(false)
-[1]u003d>
+[1]=>
 int(0)
 }
 

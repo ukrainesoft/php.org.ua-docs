@@ -7,7 +7,7 @@
 
 # Клас OAuthProvider
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 ## Вступ
 
@@ -40,10 +40,10 @@ void
 public [calltokenHandler](oauthprovider.calltokenhandler.md)(): void
 
 public [checkOAuthRequest](oauthprovider.checkoauthrequest.md)(string
-`$uri` u003d ?, string `$method` u003d ?): void
+`$uri` = ?, string `$method` = ?): void
 
 public [\_\_construct](oauthprovider.construct.md)(array
-`$params_array` u003d ?)
+`$params_array` = ?)
 
 public
 [consumerHandler](oauthprovider.consumerhandler.md)([callable](language.types.callable.md)
@@ -51,7 +51,7 @@ public
 
 final public static
 [generateToken](oauthprovider.generatetoken.md)(int `$size`, bool
-`$strong` u003d **`false`**): string
+`$strong` = **`false`**): string
 
 public
 [is2LeggedEndpoint](oauthprovider.is2leggedendpoint.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
@@ -67,12 +67,12 @@ final public
 
 final public static
 [reportProblem](oauthprovider.reportproblem.md)(string
-`$oauthexception`, bool `$send_headers` u003d **`true`**): string
+`$oauthexception`, bool `$send_headers` = **`true`**): string
 
 final public [setParam](oauthprovider.setparam.md)(string
 `$param_key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param_val` u003d ?): bool
+`$param_val` = ?): bool
 
 final public
 [setRequestTokenPath](oauthprovider.setrequesttokenpath.md)(string

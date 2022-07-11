@@ -7,7 +7,7 @@
 
 # EventHttpRequest::removeHeader
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::removeHeader — Видаляє заголовок HTTP із заголовків
 запиту

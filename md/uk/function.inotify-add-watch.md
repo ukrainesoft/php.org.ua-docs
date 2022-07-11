@@ -7,7 +7,7 @@
 
 #inotify_add_watch
 
-(PECL inotify \>u003d 0.1.2)
+(PECL inotify \>= 0.1.2)
 
 inotify_add_watch — Додати спостерігача для екземпляра inotify
 

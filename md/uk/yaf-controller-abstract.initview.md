@@ -7,13 +7,13 @@
 
 # Yaf_Controller_Abstract::initView
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Controller_Abstract::initView — Призначення initView
 
 ### Опис
 
-public **Yaf_Controller_Abstract::initView**(array `$options` u003d ?): void
+public **Yaf_Controller_Abstract::initView**(array `$options` = ?): void
 
 ### Список параметрів
 

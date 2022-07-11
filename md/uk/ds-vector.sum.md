@@ -7,7 +7,7 @@
 
 # Ds\Vector::sum
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::sum — Повертає суму всіх значень колекції
 
@@ -35,7 +35,7 @@ public **Ds\Vector::sum**(): int\|float
 **Приклад #1 Приклад використання **Ds\Vector::sum()** з цілими
 значеннями**
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);var_dump($vector->sum());?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -44,7 +44,7 @@ int(6)
 **Приклад #2 Приклад використання **Ds\Vector::sum()** зі значеннями типу
 float**
 
-` <?php$vector u003d new \Ds\Vector([1, 2.5, 3]);var_dump($vector->sum());?> `
+` <?php$vector = new \Ds\Vector([1, 2.5, 3]);var_dump($vector->sum());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

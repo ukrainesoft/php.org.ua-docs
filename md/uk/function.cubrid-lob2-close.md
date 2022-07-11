@@ -7,7 +7,7 @@
 
 # cubrid_lob2_close
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_close — Закриває об'єкт LOB
 

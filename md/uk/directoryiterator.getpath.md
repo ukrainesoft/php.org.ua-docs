@@ -32,7 +32,7 @@ public **DirectoryIterator::getPath**(): string
 
 **Приклад #1 Приклад використання **DirectoryIterator::getPath()****
 
-` <?php$iteratoru003du003dnewDirectoryIterator(dirname(__FILE__));echo$iterator->getPath();?> `
+` <?php$iterator==newDirectoryIterator(dirname(__FILE__));echo$iterator->getPath();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

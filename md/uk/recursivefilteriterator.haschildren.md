@@ -8,7 +8,7 @@
 
 # RecursiveFilterIterator::hasChildren
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveFilterIterator::hasChildren — Перевіряє, чи є у поточного
 елемента внутрішнього ітератора дочірні елементи

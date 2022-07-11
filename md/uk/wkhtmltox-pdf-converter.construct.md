@@ -7,13 +7,13 @@
 
 # wkhtmltox\PDF\Converter::\_\_construct
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 wkhtmltox\PDF\Converter::\_\_construct — Створити новий PDF-конвертер
 
 ### Опис
 
-public **wkhtmltox\PDF\Converter::\_\_construct**(array `$settings` u003d ?)
+public **wkhtmltox\PDF\Converter::\_\_construct**(array `$settings` = ?)
 
 Створює PDF-конвертер, використовуючи додаткові параметри конфігурації
 

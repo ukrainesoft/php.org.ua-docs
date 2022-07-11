@@ -44,20 +44,20 @@ y-координата піксела.
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Доступ до компонентів RGB кольору**
 
-` <?php$im u003d imagecreatefrompng("php.png");$rgb u003d imagecolorat($im, 10, 15);$r u003d ($rgb >> 16) & 0xFF;$g u003d ($rgb 8) & 0xFF;$b u003d $rgb & 0xFF;var_dump($r, $g, $b);?> `
+` <?php$im = imagecreatefrompng("php.png");$rgb = imagecolorat($im, 10, 15);$r = ($rgb >> 16) & 0xFF;$g = ($rgb 8) & 0xFF;$b = $rgb & 0xFF;var_dump($r, $g, $b);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -68,18 +68,18 @@ int(180)
 **Приклад #2 Додані RGB значення з використанням
 [imagecolorsforindex()](function.imagecolorsforindex.md)**
 
-` <?php$im u003d imagecreatefrompng("php.png");$rgb u003d imagecolorat($im, 10, 15);$colors u003d imagecolorsforindex($im, $rgb);var_dump($colors);?> `
+` <?php$im = imagecreatefrompng("php.png");$rgb = imagecolorat($im, 10, 15);$colors = imagecolorsforindex($im, $rgb);var_dump($colors);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(4) {
-["red"]u003d>
+["red"]=>
 int(119)
-["green"]u003d>
+["green"]=>
 int(123)
-["blue"]u003d>
+["blue"]=>
 int(180)
-["alpha"]u003d>
+["alpha"]=>
 int(127)
 }
 

@@ -7,7 +7,7 @@
 
 # SplObjectStorage::unserialize
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 SplObjectStorage::unserialize — Відновлює серіалізований контейнер
 з рядка
@@ -32,7 +32,7 @@ public **SplObjectStorage::unserialize**(string `$data`): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::unserialize()****
 
-` <?php$s1 u003d new SplObjectStorage;$s2 u003d new SplObjectStorage;$o u003d new StdClass;$s1[$o] u003d "data";$s2->unserialize($s1->serialize(); count($s2));?> `
+` <?php$s1 = new SplObjectStorage;$s2 = new SplObjectStorage;$o = new StdClass;$s1[$o] = "data";$s2->unserialize($s1->serialize(); count($s2));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

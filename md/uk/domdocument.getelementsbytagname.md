@@ -36,7 +36,7 @@ public **DOMDocument::getElementsByTagName**(string `$qualifiedName`):
 
 **Приклад #1 Простий приклад використання**
 
-`<?php$xml u003d <<<<XML<?xml versionu003d"1.0" encodingu003d"utf-8"?><books> <book>Шаблони корпоративних додатків</book> <book>Прийоми об'єктно-орієнтованого проектування. Паттерни проектування</book> <book>Чистий код</book></books>XML;$dom u003d new DOMDocument;$dom->loadXML($xml);$books u003d $dom->getElementsByTagName('book') ;foreach ($books as $book) {   echo $book->nodeValue, PHP_EOL;}?> `
+`<?php$xml = <<<<XML<?xml version="1.0" encoding="utf-8"?><books> <book>Шаблони корпоративних додатків</book> <book>Прийоми об'єктно-орієнтованого проектування. Паттерни проектування</book> <book>Чистий код</book></books>XML;$dom = new DOMDocument;$dom->loadXML($xml);$books = $dom->getElementsByTagName('book') ;foreach ($books as $book) {   echo $book->nodeValue, PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

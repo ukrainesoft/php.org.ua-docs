@@ -7,7 +7,7 @@
 
 # mqseries_open
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_open — MQSeries MQOPEN
 
@@ -57,7 +57,7 @@ resource `&$reason`
 
 **Приклад #1 Приклад використання **mqseries_open()****
 
-` <?php   $mqods u003d array('ObjectName' u003d> 'TESTQ'); mqseries_open(                $conn,                $mqods,                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("open CompCode:%d Reason:%d Text:%s<br>
+` <?php   $mqods = array('ObjectName' => 'TESTQ'); mqseries_open(                $conn,                $mqods,                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("open CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
 
 ### Дивіться також

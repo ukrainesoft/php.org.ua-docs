@@ -9,7 +9,7 @@
 
 #local_get_keywords
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::getKeywords -- locale_get_keywords — Отримати ключові слова для
 локалі
@@ -43,18 +43,18 @@ array\|false\|null
 
 **Приклад #1 Приклад використання **locale_get_keywords()****
 
-`<?php$keywords_arr u003d locale_get_keywords('de_DE@currencyu003dEUR;collationu003dPHONEBOOK');if ($keywords_arr) {                                         ???
+`<?php$keywords_arr = locale_get_keywords('de_DE@currency=EUR;collation=PHONEBOOK');if ($keywords_arr) {                                         ???
 ";    }}?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-`<?php$keywords_arr u003d Locale::getKeywords('de_DE@currencyu003dEUR;collationu003dPHONEBOOK');if ($keywords_arr) {   foreach ($keywords_arr as $key u003d>                                                       り| value
+`<?php$keywords_arr = Locale::getKeywords('de_DE@currency=EUR;collation=PHONEBOOK');if ($keywords_arr) {   foreach ($keywords_arr as $key =>                                                       り| value
 ";    }}?> `
 
 Результат виконання цього прикладу:
 
-collation u003d PHONEBOOK
-currency u003d EUR
+collation = PHONEBOOK
+currency = EUR
 
 ### Дивіться також
 

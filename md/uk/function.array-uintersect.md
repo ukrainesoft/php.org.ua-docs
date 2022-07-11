@@ -48,15 +48,15 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **array_uintersect()****
 
-` <?php$array1 u003d array("a" u003d> "green", "b" u003d> "brown", "c" u003d> "blue", "red");$array2 u003d array("a" u003d > "GREEN", "B" u003d> "brown", "yellow", "red");print_r(array_uintersect($array1, $array2, "strcasecmp"));?> `
+` <?php$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");$array2 = array("a" = > "GREEN", "B" => "brown", "yellow", "red");print_r(array_uintersect($array1, $array2, "strcasecmp"));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[a] u003d> green
-[b] u003d> brown
-[0] u003d> red
+[a] => green
+[b] => brown
+[0] => red
 )
 
 ### Дивіться також

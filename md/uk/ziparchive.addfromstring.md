@@ -7,7 +7,7 @@
 
 # ZipArchive::addFromString
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::addFromString — Додає файл до ZIP-архіву, використовуючи його
 вміст
@@ -15,7 +15,7 @@ ZipArchive::addFromString — Додає файл до ZIP-архіву, вик�
 ### Опис
 
 public **ZipArchive::addFromString**(string `$name`, string `$content`,
-int `$flags` u003d ZipArchive::FL_OVERWRITE): bool
+int `$flags` = ZipArchive::FL_OVERWRITE): bool
 
 Додає файл до ZIP-архіву, використовуючи його вміст.
 
@@ -45,16 +45,16 @@ int `$flags` u003d ZipArchive::FL_OVERWRITE): bool
 
 ### Список змін
 
-| Версія       | Опис                      |
-| ------------ | ------------------------- |
-| 8.0.0/1.18.0 | Доданий параметр `flags`. |
+| Версія       | Опис                    |
+| ------------ | ----------------------- |
+| 8.0.0/1.18.0 | Доданий параметр flags. |
 
 ### Приклади
 
 **Приклад #1 Додати запис до нового архіву**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test.zip', ZipArchive::CREATE);if ($res u003du003du003d TRUE) {    $zip->addFromString('test. txt', 'тут следует вміст файла'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test.zip', ZipArchive::CREATE);if ($res === TRUE) {    $zip->addFromString('test. txt', 'тут следует вміст файла'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
 
 **Приклад #2 Додати файл до директорії всередині архіву**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {    $zip->addFromString('dir/test.txt', 'тут следует вміст' ); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {    $zip->addFromString('dir/test.txt', 'тут следует вміст' ); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `

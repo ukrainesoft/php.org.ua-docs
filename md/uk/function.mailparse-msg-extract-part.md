@@ -7,14 +7,14 @@
 
 #mailparse_msg_extract_part
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_extract_part — Вийняти/декодувати секцію з повідомленням
 
 ### Опис
 
 **mailparse_msg_extract_part**(resource `$mimemail`, string `$msgbody`,
-[callable](language.types.callable.md) `$callbackfunc` u003d ?): void
+[callable](language.types.callable.md) `$callbackfunc` = ?): void
 
 **Увага**
 

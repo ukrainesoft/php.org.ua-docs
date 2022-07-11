@@ -57,12 +57,12 @@ public **mysqli_result::fetch_row**(): array\|null\|false
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d C| resultu003du003d $mysqli->query($query);/* отримання масиву об'єктів */while ($row u003d $result->fetch_row()) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = C| result== $mysqli->query($query);/* отримання масиву об'єктів */while ($row = $result->fetch_row()) {    printf("%s (%s)
 ", $row[0], $row[1]);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d SELECT u003d mysqli_query($mysqli, $query);/* отримання асоціативного масиву */while ($row u003d mysqli_fetch_row($result)) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$query = SELECT = mysqli_query($mysqli, $query);/* отримання асоціативного масиву */while ($row = mysqli_fetch_row($result)) {    printf("%s (%s)
 ", $row[0], $row[1]);} `
 
 Результат виконання даних прикладів:

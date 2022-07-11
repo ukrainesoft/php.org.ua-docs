@@ -7,7 +7,7 @@
 
 # Клас Yaf_Router
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -53,10 +53,10 @@ RewriteRule ^.*$ index.php [NC,L]
 **Приклад #3 Правило перезапису для Lighttpd**
 
 ```confcode
-url.rewrite-once u003d (
-".*\?(.*)$" u003d> "/index.php?$1",
-".*\.(js|ico|gif|jpg|png|css|html)$" u003d> "$0",
-"" u003d> "/index.php"
+url.rewrite-once = (
+".*\?(.*)$" => "/index.php?$1",
+".*\.(js|ico|gif|jpg|png|css|html)$" => "$0",
+"" => "/index.php"
 )
 ````
 
@@ -90,7 +90,7 @@ rewrite ^/(.*) /index.php/$1 last;
 > **Примітка**:
 >
 > Ім'я модуля має бути визначено у конфігурації з урахуванням
-> application.moduleu003d"Index,Foo,Bar", у цьому випадку тільки index, foo та
+> application.module="Index,Foo,Bar", у цьому випадку тільки index, foo та
 > bar можна як ім'я модуля. Якщо не налаштовано, є
 > лише один модуль під назвою "Index".
 
@@ -101,40 +101,40 @@ rewrite ^/(.*) /index.php/$1 last;
 
 ```confcode
 // Припускаючи наступне налаштування:
-$conf u003d array(
-"application" u003d> array(
-"modules" u003d> "Index,Blog",
+$conf = array(
+"application" => array(
+"modules" => "Index,Blog",
 ),
 );
 
 Тільки контролер:
 http://example/news
-controller u003du003d news
-Тільки дія (якщо визначено yaf.action_preferu003d1 у php.ini)
-action u003du003d news
+controller == news
+Тільки дія (якщо визначено yaf.action_prefer=1 у php.ini)
+action == news
 
 Невірний модуль відображається на ім'я контролера:
 http://example/foo
-controller u003du003d foo
+controller == foo
 
 Модуль + контролер:
 http://example/blog/archive
-module u003du003d blog
-controller u003du003d archive
+module == blog
+controller == archive
 
 Модуль + контролер + дія:
 http://example/blog/archive/list
-module u003du003d blog
-controller u003du003d archive
-action u003du003d list
+module == blog
+controller == archive
+action == list
 
 Модуль + контролер + дія + параметри:
 http://example/blog/archive/list/sort/alpha/date/desc
-module u003du003d blog
-controller u003du003d archive
-action u003du003d list
-sort u003du003d alpha
-date u003du003d desc
+module == blog
+controller == archive
+action == list
+sort == alpha
+date == desc
 ````
 
 ## Огляд класів

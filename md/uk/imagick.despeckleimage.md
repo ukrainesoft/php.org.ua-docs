@@ -33,4 +33,4 @@ public **Imagick::despeckleImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::despeckleImage()****
 
-`<?phpfunction despeckleImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->despeckleImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction despeckleImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->despeckleImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

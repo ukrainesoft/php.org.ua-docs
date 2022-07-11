@@ -23,8 +23,8 @@ mysql_fetch_object — Обробляє ряд результатів запит
 
 ### Опис
 
-**mysql_fetch_object**(resource `$result`, string `$class_name` u003d ?,
-array `$params` u003d ?): object
+**mysql_fetch_object**(resource `$result`, string `$class_name` = ?,
+array `$params` = ?): object
 
 Повертає об'єкт з властивостями, відповідними колонкам в
 обробленому ряду та зсуває внутрішній покажчик результату вперед.
@@ -54,11 +54,11 @@ array `$params` u003d ?): object
 
 **Приклад #1 Приклад використання **mysql_fetch_object()****
 
-` <?phpmysql_connect("hostname", "user", "password");mysql_select_db("mydb");$result u003d mysql_query("select * from mytable");while ($row u003d mysql_fetch_object($result)) echo $row->user_id; echo $row->fullname;}mysql_free_result($result);?> `
+` <?phpmysql_connect("hostname", "user", "password");mysql_select_db("mydb");$result = mysql_query("select * from mytable");while ($row = mysql_fetch_object($result)) echo $row->user_id; echo $row->fullname;}mysql_free_result($result);?> `
 
 **Приклад #2 Приклад використання **mysql_fetch_object()****
 
-` <?phpclass foo {   public $name;}mysql_connect("hostname", "user", "password");mysql_select_db("mydb");$result u003d Mysql_query("select name from mytable li$| u003d mysql_fetch_object($result, 'foo');var_dump($obj);?> `
+` <?phpclass foo {   public $name;}mysql_connect("hostname", "user", "password");mysql_select_db("mydb");$result = Mysql_query("select name from mytable li$| = mysql_fetch_object($result, 'foo');var_dump($obj);?> `
 
 ### Примітки
 

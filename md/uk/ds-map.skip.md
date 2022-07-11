@@ -7,7 +7,7 @@
 
 # Ds\Map::skip
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::skip — Повертає пару за індексом позиції
 
@@ -37,13 +37,13 @@ public **Ds\Map::skip**(int `$position`): [Ds\Pair](class.ds-pair.md)
 
 **Приклад #1 Приклад використання **Ds\Map::skip()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->skip(1));? > `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->skip(1));? > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Pair)#2 (2) {
-["key"]u003d>
+["key"]=>
 string(1) "b"
-["value"]u003d>
+["value"]=>
 int(2)
 }

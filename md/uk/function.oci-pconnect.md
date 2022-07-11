@@ -7,7 +7,7 @@
 
 #oci_pconnect
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_pconnect — Встановлює постійне з'єднання із сервером Oracle
 
@@ -16,9 +16,9 @@ oci_pconnect — Встановлює постійне з'єднання із с
 **oci_pconnect**(
 string `$username`,
 string `$password`,
-?string `$connection_string` u003d **`null`**,
-string `$encoding` u003d "",
-int `$session_mode` u003d **`OCI_DEFAULT`**
+?string `$connection_string` = **`null`**,
+string `$encoding` = "",
+int `$session_mode` = **`OCI_DEFAULT`**
 ): resource \ | false
 
 Створює постійне з'єднання із сервером Oracle та виконує
@@ -40,7 +40,7 @@ FPM). Додаткову інформацію дивіться у розділі
 
 `connection_string`
 Містить `примірник Oracle` для підключення. Це може бути [» Easy
-Connect string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
+Connect string](https://www.oracle.com/pls/topic/lookup?ctx=dblatest&id=GUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
 або Connect Name з файлу `tnsnames.ora`, або ім'я локального екземпляра
 Oracle.
 
@@ -116,9 +116,9 @@ Oracle. Назви служб можуть бути визначені за до
 **Приклад #1 Простий приклад для **oci_pconnect()** з використанням
 спрощеного синтаксису підключення**
 
-`<?php// Підключення к XE сервісу (тобто базі даних) на локальній машині$conn u003d oci_pconnect('hr', 'welcome', 'localhost/XE');if (!$conn u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+`<?php// Підключення к XE сервісу (тобто базі даних) на локальній машині$conn = oci_pconnect('hr', 'welcome', 'localhost/XE');if (!$conn = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid); ''' >
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `

@@ -7,7 +7,7 @@
 
 # trader_ultosc
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_ultosc - Остаточний, граничний осцилятор
 
@@ -17,9 +17,9 @@ trader_ultosc - Остаточний, граничний осцилятор
 array `$high`,
 array `$low`,
 array `$close`,
-int `$timePeriod1` u003d ?,
-int `$timePeriod2` u003d ?,
-int `$timePeriod3` u003d ?
+int `$timePeriod1` = ?,
+int `$timePeriod2` = ?,
+int `$timePeriod3` = ?
 ): array
 
 ### Список параметрів

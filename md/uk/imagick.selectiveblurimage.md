@@ -7,7 +7,7 @@
 
 # Imagick::selectiveBlurImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::selectiveBlurImage — Опис
 
@@ -17,7 +17,7 @@ public **Imagick::selectiveBlurImage**(
 float `$radius`,
 float `$sigma`,
 float `$threshold`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Вибіркове розмиття зображення в межах порогового значення
@@ -46,4 +46,4 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::selectiveBlurImage()****
 
-`<?phpfunction selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction selectiveBlurImage($imagePath, $radius, $sigma, $threshold, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->selectiveBlurImage($radius, $sigma, $threshold, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

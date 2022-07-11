@@ -8,7 +8,7 @@
 
 #ps_open_memory_image
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_open_memory_image — Бере зображення GD і повертає зображення для
 розміщення у документі PS

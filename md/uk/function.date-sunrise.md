@@ -21,11 +21,11 @@ date_sunrise — Повертає час світанку для заданих 
 
 **date_sunrise**(
 int `$timestamp`,
-int `$returnFormat` u003d **`SUNFUNCS_RET_STRING`**,
-?float `$latitude` u003d **`null`**,
-?float `$longitude` u003d **`null`**,
-?float `$zenith` u003d **`null`**,
-?float `$utcOffset` u003d **`null`**
+int `$returnFormat` = **`SUNFUNCS_RET_STRING`**,
+?float `$latitude` = **`null`**,
+?float `$longitude` = **`null`**,
+?float `$zenith` = **`null`**,
+?float `$utcOffset` = **`null`**
 ): string\|int\|float\|false
 
 **date_sunrise()** повертає час світанку для певних днів
@@ -38,11 +38,11 @@ int `$returnFormat` u003d **`SUNFUNCS_RET_STRING`**,
 світанку.
 
 `returnFormat`
-| константа опис         | приклад                                               |
-| ---------------------- | ----------------------------------------------------- |
-| SUNFUNCS_RET_STRING    | тип результату, що повертається string                | 16:46
-| SUNFUNCS_RET_DOUBLE    | тип результату, що повертається float                 | 16.78243132
-| SUNFUNCS_RET_TIMESTAMP | тип результату, що повертається int (тимчасова мітка) | 1095034606
+| константа опис         | приклад                                               |             |
+| ---------------------- | ----------------------------------------------------- | ----------- |
+| SUNFUNCS_RET_STRING    | тип результату, що повертається string                | 16:46       |
+| SUNFUNCS_RET_DOUBLE    | тип результату, що повертається float                 | 16.78243132 |
+| SUNFUNCS_RET_TIMESTAMP | тип результату, що повертається int (тимчасова мітка) | 1095034606  |
 
 **Константи `returnFormat`**
 
@@ -93,13 +93,13 @@ int `$returnFormat` u003d **`SUNFUNCS_RET_STRING`**,
 | Версія | Опис                                                                                             |
 | ------ | ------------------------------------------------------------------------------------------------ |
 | 8.1.0  | Функція оголошена застарілою, використовуйте разом [date_sun_info()](function.date-sun-info.md). |
-| 8.0.0  | `latitude`, `longitude`, `zenith` та `utcOffset` тепер допускають значення null.                 |
+| 8.0.0  | latitude, longitude, zenith та utcOffset тепер допускають значення null.                         |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **date_sunrise()****
 
-`<?php/* розрахунок часу сходу сонця в Лісабоні, ПортугаліяLatitude: 38.4 NorthLongitude: 9 WestZenith ~u003d 90offset: +1 GMT*/ech   ', час сходу сонця : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);?> `
+`<?php/* розрахунок часу сходу сонця в Лісабоні, ПортугаліяLatitude: 38.4 NorthLongitude: 9 WestZenith ~= 90offset: +1 GMT*/ech   ', час сходу сонця : ' .date_sunrise(time(), SUNFUNCS_RET_STRING, 38.4, -9, 90, 1);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -107,7 +107,7 @@ Mon Dec 20 2004, час сходу сонця : 08:54
 
 **Приклад #2 Немає сходу сонця**
 
-` <?php$solstice u003d strtotime('2017-12-21');var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));?> `
+` <?php$solstice = strtotime('2017-12-21');var_dump(date_sunrise($solstice, SUNFUNCS_RET_STRING, 69.245833, -53.537222));?> `
 
 Результат виконання цього прикладу:
 

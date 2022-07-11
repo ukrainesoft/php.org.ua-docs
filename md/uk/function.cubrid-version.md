@@ -7,7 +7,7 @@
 
 #cubrid_version
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_version — Отримати версію модуля CUBRID PHP
 
@@ -32,12 +32,12 @@ CUBRID PHP.
 
 ` <?phpprintf("%-30s %s
 ", "CUBRID PHP Version:", cubrid_version());printf("
-");$connu003du003dcubrid_connect("localhost", 33088, "demodb", "dba");if (!$conn) {    die('Connect Error ('. cubrid_error_code()_._) .')' . ;}$db_params u003d cubrid_get_db_parameter($conn);while (list($param_name, $param_value) u003d each($db_params)) {    printf("%-30s %s
+");$conn==cubrid_connect("localhost", 33088, "demodb", "dba");if (!$conn) {    die('Connect Error ('. cubrid_error_code()_._) .')' . ;}$db_params = cubrid_get_db_parameter($conn);while (list($param_name, $param_value) = each($db_params)) {    printf("%-30s %s
 ", $param_name, $param_value);}printf("
-");$server_info u003d cubrid_get_server_info($conn);$client_info u003d cubrid_get_client_info();printf("%-30s %s
+");$server_info = cubrid_get_server_info($conn);$client_info = cubrid_get_client_info();printf("%-30s %s
 ", "Server Info:", $server_info);printf("%-30s %s
 ", "Client Info:", $client_info);printf("
-");$charset u003d cubrid_get_charset($conn);printf("%-30s %s
+");$charset = cubrid_get_charset($conn);printf("%-30s %s
 ", "CUBRID Charset:", $charset);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

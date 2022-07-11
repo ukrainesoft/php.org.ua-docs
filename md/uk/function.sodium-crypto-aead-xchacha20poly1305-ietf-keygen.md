@@ -7,7 +7,7 @@
 
 # sodium_crypto_aead_xchacha20poly1305_ietf_keygen
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_aead_xchacha20poly1305_ietf_keygen — Створює випадковий
 ключ XChaCha20-Poly1305

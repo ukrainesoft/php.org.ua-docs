@@ -34,9 +34,9 @@ macOS установка за замовчуванням *І*
 [» libmongocrypt](https://github.com/mongodb/libmongocrypt) і спробує
 настроїти їх самостійно. Якщо ці бібліотеки вже встановлені в
 системі, ви можете повідомити драйверу про це за допомогою аргументу
-`--with-libbsonu003dyes --with--libmongocu003dyes` команди `configure`. Починаючи
+`--with-libbson=yes --with--libmongoc=yes` команди `configure`. Починаючи
 з версії 1.7.0 модуля ці аргументи застаріли, і ви повинні використовувати
-замість них `-with-mongodb-system-libsu003dyes`.
+замість них `-with-mongodb-system-libs=yes`.
 
 Повний список опцій команди `configure` можна отримати за допомогою
 **configure --help**.
@@ -44,7 +44,7 @@ macOS установка за замовчуванням *І*
 При використанні вбудованих версій libbson і libmongoc, драйвер також
 спробує вибрати бібліотеку SSL відповідно до опції
 `--with-mongodb-ssl` команди `configure`. За замовчуванням це
-`--with-mongodb-sslu003dauto`, що призведе до пошуку в такому порядку: Secure
+`--with-mongodb-ssl=auto`, що призведе до пошуку в такому порядку: Secure
 Transport (тільки MacOS), OpenSSL, LibreSSL. Також ви можете явно
 вказати `openssl`, `libressl` або `darwin`.
 
@@ -60,7 +60,7 @@ Transport (тільки MacOS), OpenSSL, LibreSSL. Також ви можете 
 > змінну оточення `PKG_CONFIG_PATH`. Вона використовуватиметься
 > `pkg-config` для визначення шляху пошуку. Якщо не використовується
 > `pkg-config`, то можна використовувати `configure` з ключем
-> `--with-openssl-diru003dDIR` (лише для OpenSSL).
+> `--with-openssl-dir=DIR` (лише для OpenSSL).
 
 На останньому, фінальному кроці, **make install** виведе шлях, яким
 була зібрана модуль `mongodb.so`. Наприклад так:
@@ -76,7 +76,7 @@ Installing shared extensions: /usr/lib/php/extensions/debug-non-zts-20151012/
 
 `` shellcode
 $php-i | grep extension_dir
-extension_dir u003d> /usr/lib/php/extensions/debug-non-zts-20151012 u003d>
+extension_dir => /usr/lib/php/extensions/debug-non-zts-20151012 =>
 /usr/lib/php/extensions/debug-non-zts-20151012
 ````
 
@@ -87,5 +87,5 @@ extension_dir u003d> /usr/lib/php/extensions/debug-non-zts-20151012 u003d>
 Додайте наступний рядок до `php.ini`:
 
 `` inicode
-extensionu003dmongodb.so
+extension=mongodb.so
 ````

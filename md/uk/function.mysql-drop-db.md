@@ -21,7 +21,7 @@ mysql_drop_db — Знищує базу даних MySQL
 
 ### Опис
 
-**mysql_drop_db**(string `$database_name`, resource `$link_identifier` u003d
+**mysql_drop_db**(string `$database_name`, resource `$link_identifier` =
 NULL): bool
 
 **mysql_drop_db()** намагається знищити базу даних на сервері, на
@@ -52,7 +52,7 @@ NULL): bool
 
 **Приклад #1 Альтернативний приклад використання **mysql_drop_db()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Не удалося підключитися к базе даних: ' . mysql 'DROP DATABASE my_db';if (mysql_query($sql, $link)) {    echo "База даних my_db була успішно віддалена
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Не удалося підключитися к базе даних: ' . mysql 'DROP DATABASE my_db';if (mysql_query($sql, $link)) {    echo "База даних my_db була успішно віддалена
 ";} else {    echo 'Помилка при віддаленні бази даних: ' . mysql_error() . ""
 ";}?> `
 

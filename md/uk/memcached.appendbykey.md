@@ -7,7 +7,7 @@
 
 # Memcached::appendByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::appendByKey — Додає дані до наявного запису на
 заданому сервері

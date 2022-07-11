@@ -15,10 +15,10 @@ odbc_procedurecolumns — Отримує інформацію про парам�
 
 **odbc_procedurecolumns**(
 resource `$odbc`,
-?string `$catalog` u003d **`null`**,
-?string `$schema` u003d **`null`**,
-?string `$procedure` u003d **`null`**,
-?string `$column` u003d **`null`**
+?string `$catalog` = **`null`**,
+?string `$schema` = **`null`**,
+?string `$procedure` = **`null`**,
+?string `$column` = **`null`**
 ): resource \ | false
 
 Отримує інформацію про параметри процедури.
@@ -91,31 +91,31 @@ resource `$odbc`,
 
 **Приклад #1 Перелік стовпців процедури, що зберігається**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$columns u003d odbc_procedurecolumns($conn, 'TutorialDB', 'dbo', 'GetEmployeeSalesYTD;1', '%'); rowu003du003dodbc_fetch_array($columns))) {   print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$columns = odbc_procedurecolumns($conn, 'TutorialDB', 'dbo', 'GetEmployeeSalesYTD;1', '%'); row==odbc_fetch_array($columns))) {   print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[PROCEDURE_CAT] u003d> TutorialDB
-[PROCEDURE_SCHEM] u003d> dbo
-[PROCEDURE_NAME] u003d> GetEmployeeSalesYTD;1
-[COLUMN_NAME] u003d> @SalesPerson
-[COLUMN_TYPE] u003d> 1
-[DATA_TYPE] u003d> -9
-[TYPE_NAME] u003d> nvarchar
-[COLUMN_SIZE] u003d> 50
-[BUFFER_LENGTH] u003d> 100
-[DECIMAL_DIGITS] u003d>
-[NUM_PREC_RADIX] u003d>
-[NULLABLE] u003d> 1
-[REMARKS] u003d>
-[COLUMN_DEF] u003d>
-[SQL_DATA_TYPE] u003d> -9
-[SQL_DATETIME_SUB] u003d>
-[CHAR_OCTET_LENGTH] u003d> 100
-[ORDINAL_POSITION] u003d> 1
-[IS_NULLABLE] u003d> YES
+[PROCEDURE_CAT] => TutorialDB
+[PROCEDURE_SCHEM] => dbo
+[PROCEDURE_NAME] => GetEmployeeSalesYTD;1
+[COLUMN_NAME] => @SalesPerson
+[COLUMN_TYPE] => 1
+[DATA_TYPE] => -9
+[TYPE_NAME] => nvarchar
+[COLUMN_SIZE] => 50
+[BUFFER_LENGTH] => 100
+[DECIMAL_DIGITS] =>
+[NUM_PREC_RADIX] =>
+[NULLABLE] => 1
+[REMARKS] =>
+[COLUMN_DEF] =>
+[SQL_DATA_TYPE] => -9
+[SQL_DATETIME_SUB] =>
+[CHAR_OCTET_LENGTH] => 100
+[ORDINAL_POSITION] => 1
+[IS_NULLABLE] => YES
 )
 
 ### Дивіться також

@@ -14,7 +14,7 @@ ob_tidyhandler — Функція зворотного виклику ob_start �
 
 ### Опис
 
-**ob_tidyhandler**(string `$input`, int `$mode` u003d ?): string
+**ob_tidyhandler**(string `$input`, int `$mode` = ?): string
 
 Функція зворотного виклику [ob_start()](function.ob-start.md)
 відновлення буфера.

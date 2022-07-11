@@ -7,7 +7,7 @@
 
 # Yaf_Application::getModules
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::getModules — Отримати імена заявлених модулів
 
@@ -29,11 +29,11 @@ public **Yaf_Application::getModules**(): array
 
 **Приклад #1 Приклад використання **Yaf_Application::getModules()****
 
-`<?php$config u003d array(    "application" u003d> array(       "directory" u003d> realpath(dirname(__FILE__)) . "/application", Y_ ) $config);print_r($application->getModules());?> `
+`<?php$config = array(    "application" => array(       "directory" => realpath(dirname(__FILE__)) . "/application", Y_ ) $config);print_r($application->getModules());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Index
+[0] => Index
 )

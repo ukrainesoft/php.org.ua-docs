@@ -36,17 +36,17 @@ SPL.
 
 Array
 (
-[ArrayObject] u003d> ArrayObject
-[ArrayIterator] u003d> ArrayIterator
-[CachingIterator] u003d> CachingIterator
-[RecursiveCachingIterator] u003d> RecursiveCachingIterator
-[DirectoryIterator] u003d> DirectoryIterator
-[FilterIterator] u003d> FilterIterator
-[LimitIterator] u003d> LimitIterator
-[ParentIterator] u003d> ParentIterator
-[RecursiveDirectoryIterator] u003d> RecursiveDirectoryIterator
-[RecursiveIterator] u003d> RecursiveIterator
-[RecursiveIteratorIterator] u003d> RecursiveIteratorIterator
-[SeekableIterator] u003d> SeekableIterator
-[SimpleXMLIterator] u003d> SimpleXMLIterator
+[ArrayObject] => ArrayObject
+[ArrayIterator] => ArrayIterator
+[CachingIterator] => CachingIterator
+[RecursiveCachingIterator] => RecursiveCachingIterator
+[DirectoryIterator] => DirectoryIterator
+[FilterIterator] => FilterIterator
+[LimitIterator] => LimitIterator
+[ParentIterator] => ParentIterator
+[RecursiveDirectoryIterator] => RecursiveDirectoryIterator
+[RecursiveIterator] => RecursiveIterator
+[RecursiveIteratorIterator] => RecursiveIteratorIterator
+[SeekableIterator] => SeekableIterator
+[SimpleXMLIterator] => SimpleXMLIterator
 )

@@ -7,7 +7,7 @@
 
 # Клас ResourceBundle
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8, PECL intl \>u003d 2.0.0)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
 
 ## Вступ
 
@@ -44,12 +44,12 @@ class **ResourceBundle** implements
 /\* Методи \*/
 
 public [\_\_construct](resourcebundle.create.md)(?string `$locale`,
-?string `$bundle`, bool `$fallback` u003d **`true`**)
+?string `$bundle`, bool `$fallback` = **`true`**)
 
 public [count](resourcebundle.count.md)(): int
 
 public static [create](resourcebundle.create.md)(?string `$locale`,
-?string `$bundle`, bool `$fallback` u003d **`true`**):
+?string `$bundle`, bool `$fallback` = **`true`**):
 ?[ResourceBundle](class.resourcebundle.md)
 
 public [getErrorCode](resourcebundle.geterrorcode.md)(): int
@@ -57,7 +57,7 @@ public [getErrorCode](resourcebundle.geterrorcode.md)(): int
 public [getErrorMessage](resourcebundle.geterrormessage.md)(): string
 
 public [get](resourcebundle.get.md)(string\|int `$index`, bool
-`$fallback` u003d **`true`**):
+`$fallback` = **`true`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public static [getLocales](resourcebundle.locales.md)(string

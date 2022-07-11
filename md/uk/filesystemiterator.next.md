@@ -7,7 +7,7 @@
 
 # FilesystemIterator::next
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::next — Переміщення вказівника на наступний файл
 
@@ -31,7 +31,7 @@ public **FilesystemIterator::next**(): void
 
 Виведення списку вмісту директорії за допомогою циклу while.
 
-` <?php$iterator u003d new FilesystemIterator(dirname(__FILE__));while($iterator->valid()) {    echo $iterator->getFilename() . "
+` <?php$iterator = new FilesystemIterator(dirname(__FILE__));while($iterator->valid()) {    echo $iterator->getFilename() . "
 ";   $iterator->next();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

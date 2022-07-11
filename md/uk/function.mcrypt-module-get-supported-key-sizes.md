@@ -8,7 +8,7 @@
 
 # mcrypt_module_get_supported_key_sizes
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_module_get_supported_key_sizes — Повертає список підтримуваних
 розмірів ключів для відкритого алгоритму
@@ -21,7 +21,7 @@ mcrypt_module_get_supported_key_sizes — Повертає список підт
 ### Опис
 
 **mcrypt_module_get_supported_key_sizes**(string `$algorithm`, string
-`$lib_dir` u003d ?): array
+`$lib_dir` = ?): array
 
 Повертає список підтримуваних розмірів ключів для відкритого
 алгоритму. Якщо повернутий порожній масив, то підтримується будь-яка

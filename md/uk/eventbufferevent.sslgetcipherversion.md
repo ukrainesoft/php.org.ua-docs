@@ -7,7 +7,7 @@
 
 # EventBufferEvent::sslGetCipherVersion
 
-(PECL event \>u003d 1.10.0)
+(PECL event \>= 1.10.0)
 
 EventBufferEvent::sslGetCipherVersion — Повертає версію шифру,
 використовуваного поточним SSL-з'єднанням

@@ -8,7 +8,7 @@
 
 # fann_set_activation_steepness_hidden
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_activation_steepness_hidden — Встановлює крутість крутості
 активації для всіх нейронів у всіх прихованих шарах

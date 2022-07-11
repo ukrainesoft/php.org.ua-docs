@@ -7,7 +7,7 @@
 
 # Event::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::\_\_construct - Конструктор об'єкта Event
 
@@ -22,7 +22,7 @@ int `$what` ,
 [callable](language.types.callable.md) `$cb` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$arg u003d NULL
+$arg = NULL
 )
 
 Створює об'єкт Event.

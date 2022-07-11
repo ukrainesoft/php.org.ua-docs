@@ -7,7 +7,7 @@
 
 # ReflectionFiber::getCallable
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFiber::getCallable — Отримує об'єкт, що використовується.
 для створення файбера

@@ -7,7 +7,7 @@
 
 # Yaconf::get
 
-(PECL yaconf \>u003d 1.0.0)
+(PECL yaconf \>= 1.0.0)
 
 Yaconf::get — Вийняти елемент
 
@@ -15,7 +15,7 @@ Yaconf::get — Вийняти елемент
 
 public static **Yaconf::get**(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default_value` u003d NULL):
+`$default_value` = NULL):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 ### Список параметрів
@@ -40,18 +40,18 @@ public static **Yaconf::get**(string `$name`,
 ;файл foo.ini, що знаходиться в директорії, заданої yaconf.directory
 [SectionA]
 ;пара ключ-значення
-keyu003dval
+key=val
 ;хеш
-hash.au003dval
+hash.a=val
 ;масив
-arr.0u003dval
+arr.0=val
 ;або так
-arr[]u003dval
+arr[]=val
 
 ;SectionB успадковується від SectionA
 [SectionB:SectionA]
 ;перевизначити конфігурацію key з розділу SectionA
-keyu003dnew_val
+key=new_val
 ````
 
 Результатом виконання цього прикладу буде щось подібне:

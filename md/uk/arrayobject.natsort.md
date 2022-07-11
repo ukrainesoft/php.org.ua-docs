@@ -7,7 +7,7 @@
 
 # ArrayObject::natsort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::natsort — Сортувати масив за допомогою алгоритму "natural"
 order"
@@ -42,7 +42,7 @@ public **ArrayObject::natsort**(): bool
 
 **Приклад #1 Приклад використання **ArrayObject::natsort()****
 
-` <?php$array u003d array("img12.png", "img10.png", "img2.png", "img1.png");$arr1 u003d new ArrayObject($array);$arr2 u003d clone $arr1 ;$arr1->asort();echo "Стандартне сортування
+` <?php$array = array("img12.png", "img10.png", "img2.png", "img1.png");$arr1 = new ArrayObject($array);$arr2 = clone $arr1 ;$arr1->asort();echo "Стандартне сортування
 ";print_r($arr1);$arr2->natsort();echo "
 Сортування в природному порядку
 ";print_r($arr2);?> `
@@ -52,19 +52,19 @@ public **ArrayObject::natsort**(): bool
 Стандартне сортування
 ArrayObject Object
 (
-[3] u003d> img1.png
-[1] u003d> img10.png
-[0] u003d> img12.png
-[2] u003d> img2.png
+[3] => img1.png
+[1] => img10.png
+[0] => img12.png
+[2] => img2.png
 )
 
 Сортування у природному порядку
 ArrayObject Object
 (
-[3] u003d> img1.png
-[2] u003d> img2.png
-[1] u003d> img10.png
-[0] u003d> img12.png
+[3] => img1.png
+[2] => img2.png
+[1] => img10.png
+[0] => img12.png
 )
 
 Докладніше дивіться сторінку Мартіна Пула (Martin

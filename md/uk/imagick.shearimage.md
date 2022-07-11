@@ -50,4 +50,4 @@ public
 
 **Приклад #1 Приклад використання **Imagick::shearImage()****
 
-` <?phpfunction shearImage($imagePath, $color, $shearX, $shearY) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->shearimage($color, $shearX, $shearY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction shearImage($imagePath, $color, $shearX, $shearY) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->shearimage($color, $shearX, $shearY); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

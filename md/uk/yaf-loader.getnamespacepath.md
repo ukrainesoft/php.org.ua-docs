@@ -7,7 +7,7 @@
 
 # Yaf_Loader::getNamespacePath
 
-(Yaf \>u003d3.2.0)
+(Yaf \>=3.2.0)
 
 Yaf_Loader::getNamespacePath — Отримує шлях зареєстрованого
 простору імен
@@ -33,4 +33,4 @@ string шлях, якщо простір імен не зареєстрован�
 **Приклад #1 Приклад використання
 [Yaf_Loader::registerNamespace()](yaf-loader.registernamespace.md)**
 
-` <?php$loader u003d Yaf_Loader::getInstance("/var/application/lib");$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");$loader->getNamespacePath ("Vendor \ PHP"); // '/var/lib/php'$loader->getNamespacePath("Vendor\JSP"); // '/var/application/lib'?> `
+` <?php$loader = Yaf_Loader::getInstance("/var/application/lib");$loader->registerNamespace("\Vendor\PHP", "/var/lib/php");$loader->getNamespacePath ("Vendor \ PHP"); // '/var/lib/php'$loader->getNamespacePath("Vendor\JSP"); // '/var/application/lib'?> `

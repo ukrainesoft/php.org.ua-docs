@@ -7,7 +7,7 @@
 
 # MongoDB\BSON romPHP
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON romPHP — Повертає подання BSON значення PHP
 
@@ -43,7 +43,7 @@ MongoDB\BSON romPHP — Повертає подання BSON значення PH
 
 **Приклад #1 Приклад використання **MongoDB\BSON romPHP()****
 
-` <?php$bson u003d MongoDB\BSON romPHP(['foo' u003d> 1]);echo bin2hex($bson), "
+` <?php$bson = MongoDB\BSON romPHP(['foo' => 1]);echo bin2hex($bson), "
 ";?> `
 
 Результат виконання цього прикладу:

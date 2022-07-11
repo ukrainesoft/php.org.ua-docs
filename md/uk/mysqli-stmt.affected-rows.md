@@ -61,12 +61,12 @@ int\|string `$mysqli_stmt->affected_rows`;
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* створення| myCountry LIKE Country");$query u003d "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?"; u003d 'A%';$stmt->bind_param("s", $code);/* виконання виразу */$stmt->execute();printf("Додано рядків: %d
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* створення| myCountry LIKE Country");$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?"; = 'A%';$stmt->bind_param("s", $code);/* виконання виразу */$stmt->execute();printf("Додано рядків: %d
 ", $stmt->affected_rows);?> `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* створення тимчасової TA Country");$query u003d "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?"; %';mysqli_stmt_bind_param($stmt, "s", $code);/* виконання виразу */mysqli_stmt_execute($stmt);printf("Додано рядків: %d
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* створення тимчасової TA Country");$query = "INSERT INTO myCountry SELECT * FROM Country WHERE Code LIKE ?"; %';mysqli_stmt_bind_param($stmt, "s", $code);/* виконання виразу */mysqli_stmt_execute($stmt);printf("Додано рядків: %d
 ", mysqli_stmt_affected_rows($stmt));?> `
 
 Результат виконання даних прикладів:

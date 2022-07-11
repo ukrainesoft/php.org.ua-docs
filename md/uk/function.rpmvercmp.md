@@ -7,7 +7,7 @@
 
 # rpmvercmp
 
-(PECL rpminfo u003d> 0.1.0)
+(PECL rpminfo => 0.1.0)
 
 rpmvercmp - Порівняння версій двох RPM
 

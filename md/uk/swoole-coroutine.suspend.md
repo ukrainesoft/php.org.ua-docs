@@ -7,7 +7,7 @@
 
 # Swoole\Coroutine::suspend
 
-(PECL swoole \>u003d 2.0.0)
+(PECL swoole \>= 2.0.0)
 
 Swoole\Coroutine::suspend — Опис
 

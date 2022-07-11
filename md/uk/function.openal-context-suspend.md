@@ -7,7 +7,7 @@
 
 #openal_context_suspend
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_context_suspend — Зупинити вказаний контекст
 

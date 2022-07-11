@@ -7,13 +7,13 @@
 
 # trader_midpoint
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_midpoint — Середина відрізка за період
 
 ### Опис
 
-**trader_midpoint**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_midpoint**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

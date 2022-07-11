@@ -7,7 +7,7 @@
 
 # Ds\Sequence::set
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::set — Замінює значення за вказаним індексом
 
@@ -41,27 +41,27 @@ abstract public **Ds\Sequence::set**(int `$index`,
 
 **Приклад #1 Приклад використання **Ds\Sequence::set()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c"]);$sequence->set(1, "_");print_r($sequence);?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);$sequence->set(1, "_");print_r($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )
 
 **Приклад #2 Приклад використання **Ds\Sequence::set()** з синтаксисом
 масиву**
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c"]);$sequence[1] u003d "_";print_r($sequence);?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);$sequence[1] = "_";print_r($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )

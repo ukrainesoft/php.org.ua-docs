@@ -7,14 +7,14 @@
 
 # SQLite3::open
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::open — Відкрити базу даних SQLite
 
 ### Опис
 
-public **SQLite3::open**(string `$filename`, int `$flags` u003d
-SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` u003d
+public **SQLite3::open**(string `$filename`, int `$flags` =
+SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` =
 ""): void
 
 Відкриває базу даних SQLite 3. Якщо збірка включає шифрування, вона
@@ -47,4 +47,4 @@ SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` u003d
 
 **Приклад #1 Приклад використання **SQLite3::open()****
 
-` <?php/** * Простий приклад розширення класу SQLite3 і зміни параметрів конструктора. * Після чого використання методуopen для ініціалізації БД. */class MyDB extends SQLite3{    function __construct()    {        $this->open('mysqlitedb.db'); }}$db u003d new MyDB();$db->exec('CREATE TABLE foo (bar STRING)');$db->exec("INSERT INTO foo (bar) VALUES ('This is a test') );$result u003d $db->query('SELECT bar FROM foo');var_dump($result->fetchArray());?> `
+` <?php/** * Простий приклад розширення класу SQLite3 і зміни параметрів конструктора. * Після чого використання методуopen для ініціалізації БД. */class MyDB extends SQLite3{    function __construct()    {        $this->open('mysqlitedb.db'); }}$db = new MyDB();$db->exec('CREATE TABLE foo (bar STRING)');$db->exec("INSERT INTO foo (bar) VALUES ('This is a test') );$result = $db->query('SELECT bar FROM foo');var_dump($result->fetchArray());?> `

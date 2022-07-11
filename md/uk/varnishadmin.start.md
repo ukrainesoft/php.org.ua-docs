@@ -7,7 +7,7 @@
 
 # VarnishAdmin::start
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::start — Запустити робочий процес varnish
 

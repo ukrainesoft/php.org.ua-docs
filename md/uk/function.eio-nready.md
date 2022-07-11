@@ -7,7 +7,7 @@
 
 #eio_nready
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_nready — Повертає кількість ще не опрацьованих запитів
 

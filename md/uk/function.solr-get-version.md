@@ -7,7 +7,7 @@
 
 #solr_get_version
 
-(PECL solr \> u003d 0.9.1)
+(PECL solr \> = 0.9.1)
 
 solr_get_version — Повертає поточну версію модуля Apache Solr
 
@@ -34,7 +34,7 @@ solr_get_version — Повертає поточну версію модуля A
 
 **Приклад #1 Приклад використання **solr_get_version()****
 
-` <?php$solr_version u003d solr_get_version();print $solr_version;?> `
+` <?php$solr_version = solr_get_version();print $solr_version;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

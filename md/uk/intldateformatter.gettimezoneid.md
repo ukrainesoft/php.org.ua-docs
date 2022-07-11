@@ -10,7 +10,7 @@ IntlDateFormatter
 
 # datefmt_get_timezone_id
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::getTimeZoneId -- datefmt_get_timezone_id — Отримує
 ідентифікатор часового поясу, який використовується IntlDateFormatter
@@ -42,12 +42,12 @@ public **IntlDateFormatter::getTimeZoneId**(): string\|false
 
 **Приклад #1 Приклад використання **datefmt_get_timezone_id()****
 
-`<?php$fmt u003d datefmt_create(   'en_US',   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    America/Los_Angeles', | datefmt_get_timezone_id($fmt) . "
+`<?php$fmt = datefmt_create(   'en_US',   IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    America/Los_Angeles', | datefmt_get_timezone_id($fmt) . "
 ";datefmt_set_timezone($fmt, 'Europe/Madrid');echo 'Тепер timezone_id засоби форматування: ' . datefmt_get_timezone_id($fmt);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'timezone_id средства форматирования: ' . $fmt->getTimezoneId() . "
 ";$fmt->setTimezone('Europe/Madrid');echo 'Тепер timezone_id засоби форматування: ' . $fmt->getTimezoneId();?> `
 
 Результат виконання цього прикладу:

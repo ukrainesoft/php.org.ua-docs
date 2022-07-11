@@ -7,7 +7,7 @@
 
 # Yaf_View_Simple::setScriptPath
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::setScriptPath — Встановлює каталог шаблонів
 

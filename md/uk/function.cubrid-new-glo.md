@@ -7,7 +7,7 @@
 
 #cubrid_new_glo
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_new_glo — Створює екземпляр glo
 
@@ -41,7 +41,7 @@ Oid створеного екземпляра у разі успішного в�
 
 **Приклад #1 Приклад використання **cubrid_new_glo()****
 
-` <?php$oid u003d cubrid_new_glo ($con, "glo", "input.jpg");if ($oid){   // тип "image" – "object"   $req u003d cubrid_exe person(image) values($oid)"); if ($req) {      echo "картинка була оновлена"; cubrid_close_request ($ req); cubrid_commit($con); }}?> `
+` <?php$oid = cubrid_new_glo ($con, "glo", "input.jpg");if ($oid){   // тип "image" – "object"   $req = cubrid_exe person(image) values($oid)"); if ($req) {      echo "картинка була оновлена"; cubrid_close_request ($ req); cubrid_commit($con); }}?> `
 
 ### Примітки
 

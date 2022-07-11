@@ -7,7 +7,7 @@
 
 # Клас Swoole \ Http \ Client
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -26,9 +26,9 @@ public `$sock`;
 public [addFile](swoole-http-client.addfile.md)(
 string `$path`,
 string `$name`,
-string `$type` u003d ?,
-string `$filename` u003d ?,
-string `$offset` u003d ?
+string `$type` = ?,
+string `$filename` = ?,
+string `$offset` = ?
 ): void
 
 public [close](swoole-http-client.close.md)(): void
@@ -39,7 +39,7 @@ public [download](swoole-http-client.download.md)(
 string `$path`,
 string `$file`,
 [callable](language.types.callable.md) `$callback`,
-int `$offset` u003d ?
+int `$offset` = ?
 ): void
 
 public [execute](swoole-http-client.execute.md)(string `$path`, string
@@ -57,7 +57,7 @@ public [post](swoole-http-client.post.md)(string `$path`, string
 `$data`, [callable](language.types.callable.md) `$callback`): void
 
 public [push](swoole-http-client.push.md)(string `$data`, string
-`$opcode` u003d ?, string `$finish` u003d ?): void
+`$opcode` = ?, string `$finish` = ?): void
 
 public [set](swoole-http-client.set.md)(array `$settings`): void
 

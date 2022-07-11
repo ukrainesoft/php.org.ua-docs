@@ -41,7 +41,7 @@ tmpfile — Створення тимчасового файлу
 
 **Приклад #1 Приклад використання функції **tmpfile()****
 
-` <?php$tempu003du003dtmpfile();fwrite($temp, "записуємо вчасний файл");fseek($temp, 0);echo fread($temp, 1024);fclose($temp); //відбувається видалення файлу?
+` <?php$temp==tmpfile();fwrite($temp, "записуємо вчасний файл");fseek($temp, 0);echo fread($temp, 1024);fclose($temp); //відбувається видалення файлу?
 
 Результат виконання цього прикладу:
 

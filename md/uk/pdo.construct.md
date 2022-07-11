@@ -7,7 +7,7 @@
 
 # PDO::\_\_construct
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDO::\_\_construct — Створює екземпляр PDO, що надає з'єднання з
 базою даних
@@ -16,9 +16,9 @@ PDO::\_\_construct — Створює екземпляр PDO, що надає з
 
 public **PDO::\_\_construct**(
 string `$dsn`,
-?string `$username` u003d **`null`**,
-?string `$password` u003d **`null`**,
-?array `$options` u003d **`null`**
+?string `$username` = **`null`**,
+?string `$password` = **`null`**,
+?array `$options` = **`null`**
 )
 
 Створює екземпляр PDO, що надає підключення до необхідної бази
@@ -65,7 +65,7 @@ passwd
 PDO.
 
 options
-Масив ключ u003d значення специфічних для драйвера налаштувань підключення.
+Масив ключ = значення специфічних для драйвера налаштувань підключення.
 
 ### Помилки
 
@@ -78,7 +78,7 @@ options
 
 **Приклад #1 Створення екземпляра PDO через виклик драйвера**
 
-` <?php/* Підключення к базі даних MySQL за допомогою дзвінка драйвера */$dsn u003d 'mysql:dbnameu003dtestdb;hostu003d127.0.0.1';$user u003d 'dbuser';$'password u003d new PDO($dsn, $user, $password);?> `
+` <?php/* Підключення к базі даних MySQL за допомогою дзвінка драйвера */$dsn = 'mysql:dbname=testdb;host=127.0.0.1';$user = 'dbuser';$'password = new PDO($dsn, $user, $password);?> `
 
 **Приклад #2 Створення екземпляра PDO через виклик URI**
 
@@ -87,12 +87,12 @@ options
 містить PDO DSN для підключення до бази даних DB2 через драйвер
 PDO_ODBC:
 
-odbc:DSNu003dSAMPLE;UIDu003djohn;PWDu003dmypass
+odbc:DSN=SAMPLE;UID=john;PWD=mypass
 
 PHP-скрипт може створити підключення до бази даних шляхом простої
 передачі параметра `uri:`, що вказує на файл URI:
 
-` <?php/* Підключення к базі даних ODBC за допомогою дзвінка драйвера */$dsn u003d 'uri:file:///usr/local/dbconnect';$user u003d '';$password u003d '';$db new PDO($dsn, $user, $password);?> `
+` <?php/* Підключення к базі даних ODBC за допомогою дзвінка драйвера */$dsn = 'uri:file:///usr/local/dbconnect';$user = '';$password = '';$db new PDO($dsn, $user, $password);?> `
 
 **Приклад #3 Створення екземпляра PDO, використовуючи псевдонім**
 
@@ -102,7 +102,7 @@ PHP-скрипт може створити підключення до бази 
 
 `` inicode
 [PDO]
-pdo.dsn.mydbu003d"mysql:dbnameu003dtestdb;hostu003dlocalhost"
+pdo.dsn.mydb="mysql:dbname=testdb;host=localhost"
 ````
 
-` <?php/* Підключення к базі даних ODBC, використовуючи псевдонім */$dsn u003d 'mydb';$user u003d '';$password u003d '';$dbh u003d new PDO($dsn,$ ;?> `
+` <?php/* Підключення к базі даних ODBC, використовуючи псевдонім */$dsn = 'mydb';$user = '';$password = '';$dbh = new PDO($dsn,$ ;?> `

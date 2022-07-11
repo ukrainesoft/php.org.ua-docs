@@ -55,7 +55,7 @@ public **mysqli_stmt::send_long_data**(int `$param_num`, string
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$stmt u003d $mysqli->prepare("INSERT INTO messages (message) VALUES (?)");$null u003d NULL;$stmt->bind_param("b", $null);$fp u003d ("messages.txt", "r");while (!feof($fp)) {    $stmt->send_long_data(0, fread($fp, 8192));}fclose($fp);$stmt-> execute();?> `
+` <?php$stmt = $mysqli->prepare("INSERT INTO messages (message) VALUES (?)");$null = NULL;$stmt->bind_param("b", $null);$fp = ("messages.txt", "r");while (!feof($fp)) {    $stmt->send_long_data(0, fread($fp, 8192));}fclose($fp);$stmt-> execute();?> `
 
 ### Дивіться також
 

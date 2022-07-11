@@ -7,7 +7,7 @@
 
 # snmp2_real_walk
 
-(PHP \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP \>= 5.2.0, PHP 7, PHP 8)
 
 snmp2_real_walk — Повертає всі об'єкти, включаючи їх ідентифікатор
 
@@ -17,8 +17,8 @@ snmp2_real_walk — Повертає всі об'єкти, включаючи ї
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ): array\|false
 
 Функція **snmp2_real_walk()** використовується для обходу об'єктів SNMP,
@@ -59,11 +59,11 @@ Read-спільнота.
 
 Array
 (
-[IF-MIB::ifName.1] u003d> STRING: lo
-[IF-MIB::ifName.2] u003d> STRING: eth0
-[IF-MIB::ifName.3] u003d> STRING: eth2
-[IF-MIB::ifName.4] u003d> STRING: sit0
-[IF-MIB::ifName.5] u003d> STRING: sixxs
+[IF-MIB::ifName.1] => STRING: lo
+[IF-MIB::ifName.2] => STRING: eth0
+[IF-MIB::ifName.3] => STRING: eth2
+[IF-MIB::ifName.4] => STRING: sit0
+[IF-MIB::ifName.5] => STRING: sixxs
 )
 
 ### Дивіться також

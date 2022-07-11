@@ -7,14 +7,14 @@
 
 #iterator_apply
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 iterator_apply — Викликає функцію кожного елемента в ітераторі
 
 ### Опис
 
 **iterator_apply**([Traversable](class.traversable.md) `$iterator`,
-[callable](language.types.callable.md) `$callback`, ?array `$args` u003d
+[callable](language.types.callable.md) `$callback`, ?array `$args` =
 **`null`**): int
 
 Викликає функцію кожного елемента в итераторе.
@@ -27,7 +27,7 @@ iterator_apply — Викликає функцію кожного елемент
 `callback`
 Функція зворотного дзвінка, яка застосовується до кожного елемента. Ця
 функція приймає тільки переданий `args`, тому він null по
-замовчуванням. Наприклад, якщо `count($args) u003du003du003d 3`, функція зворотного
+замовчуванням. Наприклад, якщо `count($args) === 3`, функція зворотного
 виклику – тернарна.
 
 > **Примітка**: Функція повинна повертати **`true`** для того, щоб
@@ -47,7 +47,7 @@ iterator_apply — Викликає функцію кожного елемент
 **Приклад #1 Приклад використання **iterator_apply()****
 
 ` <?phpfunction print_caps(Iterator $iterator) {    echo strtoupper($iterator->current()) . "
-";    return TRUE;}$it u003d new ArrayIterator(array("Apples", "Bananas", "Cherries"));iterator_apply($it, "print_caps", array($it));?> `
+";    return TRUE;}$it = new ArrayIterator(array("Apples", "Bananas", "Cherries"));iterator_apply($it, "print_caps", array($it));?> `
 
 Результат виконання цього прикладу:
 

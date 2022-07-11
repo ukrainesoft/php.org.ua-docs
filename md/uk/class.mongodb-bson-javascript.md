@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Javascript
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -33,7 +33,7 @@ final class **MongoDB\BSON\Javascript** implements
 
 final public
 [\_\_construct](mongodb-bson-javascript.construct.md)(string `$code`,
-array\|object `$scope` u003d ?)
+array\|object `$scope` = ?)
 
 final public [getCode](mongodb-bson-javascript.getcode.md)(): string
 

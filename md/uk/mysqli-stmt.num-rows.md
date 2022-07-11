@@ -58,12 +58,12 @@ public **mysqli_stmt::num_rows**(): int\|string
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d| $stmtu003du003d$mysqli->prepare($query);$stmt->execute();/* збереження результату у внутрішньому буфері */$stmt->store_result();printf("Число рядків: %d.
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query =| $stmt==$mysqli->prepare($query);$stmt->execute();/* збереження результату у внутрішньому буфері */$stmt->store_result();printf("Число рядків: %d.
 ", $stmt->num_rows); `
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT Name| stmtu003du003dmysqli_prepare($link, $query);mysqli_stmt_execute($stmt);/* збереження результату во внутрішньому буфері */mysqli_stmt_store_result($stmt);
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT Name| stmt==mysqli_prepare($link, $query);mysqli_stmt_execute($stmt);/* збереження результату во внутрішньому буфері */mysqli_stmt_store_result($stmt);
 ", mysqli_stmt_num_rows($stmt)); `
 
 Результат виконання даних прикладів:

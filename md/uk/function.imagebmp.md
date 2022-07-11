@@ -7,14 +7,14 @@
 
 #imagebmp
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 imagebmp — Вивести BMP-зображення у браузер або файл
 
 ### Опис
 
 **imagebmp**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**, bool `$compressed` u003d
+resource\|string\|null `$file` = **`null`**, bool `$compressed` =
 **`true`**): bool
 
 Виводить або зберігає BMP-версію заданого зображення (image).
@@ -51,13 +51,13 @@ resource\|string\|null `$file` u003d **`null`**, bool `$compressed` u003d
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
-| 8.0.0  | Тип параметра `compressed` тепер є логічним значенням (bool); раніше був цілим числом (int).   |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| 8.0.0  | Тип параметра compressed тепер є логічним значенням (bool); раніше був цілим числом (int).   |
 
 ### Приклади
 
 **Приклад #1 Збереження BMP-файлу**
 
-` <?php// Створіть пусте зображення і додайте текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91)   with PHP', $text_color);// Зберегти зображенняimagebmp($im, 'php.bmp');// Звільнити пам'ятьimagedestroy($im);?> `
+` <?php// Створіть пусте зображення і додайте текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91)   with PHP', $text_color);// Зберегти зображенняimagebmp($im, 'php.bmp');// Звільнити пам'ятьimagedestroy($im);?> `

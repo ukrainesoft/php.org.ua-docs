@@ -7,13 +7,13 @@
 
 # Memcached::getMulti
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getMulti — Отримує кілька записів
 
 ### Опис
 
-public **Memcached::getMulti**(array `$keys`, int `$flags` u003d ?):
+public **Memcached::getMulti**(array `$keys`, int `$flags` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Memcached::getMulti()** працює аналогічно методу
@@ -52,49 +52,49 @@ public **Memcached::getMulti**(array `$keys`, int `$flags` u003d ?):
 
 ### Список змін
 
-| Версія               | Опис                                                                                                        |
-| -------------------- | ----------------------------------------------------------------------------------------------------------- |
-| PECL memcached 3.0.0 | Видалено параметр `&cas_tokens`. Додано константу **`Memcached::GET_EXTENDED`** для повернення токенів CAS. |
+| Версія               | Опис                                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------------------- |
+| PECL memcached 3.0.0 | Видалено параметр &cas_tokens. Додано константу **Memcached::GET_EXTENDED** для повернення токенів CAS. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Memcached::getMulti()** версії 3**
 
-`<?php// Працює з версією модуля 3$m u003d new Memcached();$m->addServer('localhost', 11211);$items u003d array( val>           > 'value2',   'key3' u003d> 'value3');$m->setMulti($items);$result u003d $m->getMulti(array('key1', 'key3', 'badkey')); var_dump($result);?> `
+`<?php// Працює з версією модуля 3$m = new Memcached();$m->addServer('localhost', 11211);$items = array( val>           > 'value2',   'key3' => 'value3');$m->setMulti($items);$result = $m->getMulti(array('key1', 'key3', 'badkey')); var_dump($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["key1"]u003d>
+["key1"]=>
 string(6) "value1"
-["key3"]u003d>
+["key3"]=>
 string(6) "value3"
 }
 
 **Приклад #2 Приклад використання **Memcached::getMulti()** версій 1 та
 2**
 
-`<?php// Працює з версіями модуля 1 і 2$m u003d new Memcached();$m->addServer('localhost', 11211);$items u003d1 array(     ' u003d> 'value2',   'key3' u003d> 'value3');$m->setMulti($items);$result u003d $m->getMulti(array('key1', 'key3', 'badkey') , $cas);var_dump($result, $cas);?> `
+`<?php// Працює з версіями модуля 1 і 2$m = new Memcached();$m->addServer('localhost', 11211);$items =1 array(     ' => 'value2',   'key3' => 'value3');$m->setMulti($items);$result = $m->getMulti(array('key1', 'key3', 'badkey') , $cas);var_dump($result, $cas);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["key1"]u003d>
+["key1"]=>
 string(6) "value1"
-["key3"]u003d>
+["key3"]=>
 string(6) "value3"
 }
 array(2) {
-["key1"]u003d>
+["key1"]=>
 float(2360)
-["key3"]u003d>
+["key3"]=>
 float(2362)
 }
 
 **Приклад #3 Приклад використання **`Memcached::GET_PRESERVE_ORDER`** з
 версією 3**
 
-`<?php// Працює з версією модуля 3$m u003d new Memcached();$m->addServer('localhost', 11211);$data u003d array(  - ta ' u003d> 'bar-data',   'baz' u003d> 'baz-data',   'lol' u003d> 'lol-data',   'kek' u003d> 'kek-data',);$m-set $data, 3600);$keys u003d array_keys($data);$keys[] u003d 'zoo';$got u003d $m->getMulti($keys, Memcached::GET_PRESERVE_ORDER);foreach ($got > $v) {   echo "$k $v
+`<?php// Працює з версією модуля 3$m = new Memcached();$m->addServer('localhost', 11211);$data = array(  - ta ' => 'bar-data',   'baz' => 'baz-data',   'lol' => 'lol-data',   'kek' => 'kek-data',);$m-set $data, 3600);$keys = array_keys($data);$keys[] = 'zoo';$got = $m->getMulti($keys, Memcached::GET_PRESERVE_ORDER);foreach ($got > $v) {   echo "$k $v
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -109,7 +109,7 @@ zoo
 **Приклад #4 Приклад використання **`Memcached::GET_PRESERVE_ORDER`** з
 версією 1 та 2**
 
-` <?php// Працює з версіями модуля 1 і 2$m u003d new Memcached();$m->addServer('localhost', 11211);$data u003d array(  o'' 'bar' u003d> 'bar-data',    'baz' u003d> 'baz-data',   'lol' u003d> 'lol-data',   ''ekek' u003d> 'kek-data',); setMulti($data, 3600);$null u003d null;$keys u003d array_keys($data);$keys[] u003d 'zoo';$got u003d $m->getMulti($keys, $null, Memcached::E );foreach ($got as $k u003d> $v) {    echo "$k $v
+` <?php// Працює з версіями модуля 1 і 2$m = new Memcached();$m->addServer('localhost', 11211);$data = array(  o'' 'bar' => 'bar-data',    'baz' => 'baz-data',   'lol' => 'lol-data',   ''ekek' => 'kek-data',); setMulti($data, 3600);$null = null;$keys = array_keys($data);$keys[] = 'zoo';$got = $m->getMulti($keys, $null, Memcached::E );foreach ($got as $k => $v) {    echo "$k $v
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

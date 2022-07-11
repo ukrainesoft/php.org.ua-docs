@@ -93,7 +93,7 @@ int `$returnFormat` u003d **`SUNFUNCS_RET_STRING`**,
 | Версія | Опис                                                                                             |
 | ------ | ------------------------------------------------------------------------------------------------ |
 | 8.1.0  | Функція оголошена застарілою, використовуйте разом [date_sun_info()](function.date-sun-info.md). |
-| 8.0.0  | `latitude`, `longitude`, `zenith` та `utcOffset` тепер допускають значення null.                 |
+| 8.0.0  | latitude, longitude, zenith та utcOffset тепер допускають значення null.                         |
 
 ### Приклади
 

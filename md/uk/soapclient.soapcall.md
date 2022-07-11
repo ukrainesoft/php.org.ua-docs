@@ -16,10 +16,10 @@ SoapClient::\_\_soapCall — Викликає SOAP-функцію
 public **SoapClient::\_\_soapCall**(
 string `$name`,
 array `$args`,
-?array `$options` u003d **`null`**,
-[SoapHeader](class.soapheader.md)\|array\|null `$inputHeaders` u003d
+?array `$options` = **`null`**,
+[SoapHeader](class.soapheader.md)\|array\|null `$inputHeaders` =
 **`null`**,
-array `&$outputHeaders` u003d **`null`**
+array `&$outputHeaders` = **`null`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -77,7 +77,7 @@ SOAP повертає тільки одне значення, то поверт�
 
 **Приклад #1 Приклад використання **SoapClient::\_\_soapCall()****
 
-` <?php$client u003d new SoapClient("some.wsdl");$client->SomeFunction($a, $b, $c);$client->__soapCall("SomeFunction", array($a, $b , $c));$client->__soapCall("SomeFunction", array($a, $b, $c), NULL,           | location' u003d> "http://localhost/soap.php",                                     'uri'      u003d> "http://test-uri/"));$client->SomeFunction($a, $b, $c); $client->__soapCall("SomeFunction", array($a, $b, $c));$client->__soapCall("SomeFunction", array($a, $b, $c),                    u003d> 'some_action',                           'uri'        u003d> 'some_uri'));
+` <?php$client = new SoapClient("some.wsdl");$client->SomeFunction($a, $b, $c);$client->__soapCall("SomeFunction", array($a, $b , $c));$client->__soapCall("SomeFunction", array($a, $b, $c), NULL,           | location' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/"));$client->SomeFunction($a, $b, $c); $client->__soapCall("SomeFunction", array($a, $b, $c));$client->__soapCall("SomeFunction", array($a, $b, $c),                    => 'some_action',                           'uri'        => 'some_uri'));
 
 ### Дивіться також
 

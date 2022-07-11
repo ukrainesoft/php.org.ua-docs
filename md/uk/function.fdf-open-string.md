@@ -7,7 +7,7 @@
 
 #fdf_open_string
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_open_string — Читає документ FDF з рядка
 
@@ -36,7 +36,7 @@ fdf_open_string — Читає документ FDF з рядка
 
 **Приклад #1 Доступ до даних форми**
 
-` <?php$fdf u003d fdf_open_string($HTTP_FDF_DATA);/* ... */fdf_close($fdf);?> `
+` <?php$fdf = fdf_open_string($HTTP_FDF_DATA);/* ... */fdf_close($fdf);?> `
 
 ### Дивіться також
 

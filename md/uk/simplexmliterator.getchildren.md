@@ -35,7 +35,7 @@ public **SimpleXMLIterator::getChildren**():
 
 **Приклад #1 Повертає вкладені елементи поточного елемента**
 
-`<?php$xml u003d <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>> books>XML;$xmlIteratoru003du003dnew SimpleXMLIterator($xml);for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {     foreach as $name u003d> $data) {    echo "$name: '$data' з класу " . get_class($data) . "
+`<?php$xml = <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>> books>XML;$xmlIterator==new SimpleXMLIterator($xml);for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) {     foreach as $name => $data) {    echo "$name: '$data' з класу " . get_class($data) . "
 ";    }}?> `
 
 Результат виконання цього прикладу:

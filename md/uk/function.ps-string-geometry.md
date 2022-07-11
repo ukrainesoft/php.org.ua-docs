@@ -7,7 +7,7 @@
 
 #ps_string_geometry
 
-(PECL ps \>u003d 1.2.0)
+(PECL ps \>= 1.2.0)
 
 ps_string_geometry — Отримує геометрію рядка
 
@@ -16,8 +16,8 @@ ps_string_geometry — Отримує геометрію рядка
 **ps_string_geometry**(
 resource `$psdoc`,
 string `$text`,
-int `$fontid` u003d 0,
-float `$size` u003d 0.0
+int `$fontid` = 0,
+float `$size` = 0.0
 ): array
 
 Функція схожа на [ps_stringwidth()](function.ps-stringwidth.md), але

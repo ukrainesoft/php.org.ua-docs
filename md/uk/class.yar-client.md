@@ -31,7 +31,7 @@ public [\_\_call](yar-client.call.md)(string `$method`, array
 `$parameters`): void
 
 final public [\_\_construct](yar-client.construct.md)(string `$url`,
-array `$options` u003d ?)
+array `$options` = ?)
 
 public [setOpt](yar-client.setopt.md)(int `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

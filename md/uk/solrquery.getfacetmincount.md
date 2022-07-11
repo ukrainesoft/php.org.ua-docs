@@ -8,14 +8,14 @@
 
 # SolrQuery::getFacetMinCount
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetMinCount — Повертає мінімальну кількість полів
 аспектів, які повинні бути включені у відповідь
 
 ### Опис
 
-public **SolrQuery::getFacetMinCount**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetMinCount**(string `$field_override` = ?):
 int
 
 Повертає мінімальну кількість полів аспектів, які мають бути

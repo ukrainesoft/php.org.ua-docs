@@ -7,7 +7,7 @@
 
 # RarEntry::extract
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 RarEntry::extract — Витягує елемент із архіву
 
@@ -15,9 +15,9 @@ RarEntry::extract — Витягує елемент із архіву
 
 public **RarEntry::extract**(
 string `$dir`,
-string `$filepath` u003d "",
-string `$password` u003d NULL,
-bool `$extended_data` u003d **`false`**
+string `$filepath` = "",
+string `$password` = NULL,
+bool `$extended_data` = **`false`**
 ): bool
 
 **RarEntry::extract()** витягує вміст елемента. При цьому
@@ -68,18 +68,18 @@ bool `$extended_data` u003d **`false`**
 
 | Версія         | Опис                                                                   |
 | -------------- | ---------------------------------------------------------------------- |
-| PECL rar 3.0.0 | Було додано параметр `extended_data`.                                  |
+| PECL rar 3.0.0 | Було додано параметр extended_data.                                    |
 | PECL rar 3.0.0 | Виправлена підтримка RAR архівів з іменами елементів, що повторюються. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **RarEntry::extract()****
 
-` <?php$rar_file u003d rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry u003d rar_entry_get($rar_file, 'Dir/file.txt') or die("Не таку запис");$entry->extract('/dir/to'); // створення /dir/to/Dir/file.txt$entry->extract(false, '/dir/to/new_name.txt'); // створення /dir/to/new_name.txt?> `
+` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не таку запис");$entry->extract('/dir/to'); // створення /dir/to/Dir/file.txt$entry->extract(false, '/dir/to/new_name.txt'); // створення /dir/to/new_name.txt?> `
 
 **Приклад #2 Як витягти всі файли з архіву:**
 
-` <?php/* Приклад від Erik Jenssen aka erix */$filename u003d "foobar.rar";$filepath u003d "/home/foo/bar/";$rar_file u003d rar_open($filepath.$filename);$list u003d rar_list($rar_file);foreach($list as $file) {    $entry u003d rar_entry_get($rar_file, $file); $entry->extract("."); // витягти в поточний каталог}rar_close($rar_file);?> `
+` <?php/* Приклад від Erik Jenssen aka erix */$filename = "foobar.rar";$filepath = "/home/foo/bar/";$rar_file = rar_open($filepath.$filename);$list = rar_list($rar_file);foreach($list as $file) {    $entry = rar_entry_get($rar_file, $file); $entry->extract("."); // витягти в поточний каталог}rar_close($rar_file);?> `
 
 ### Дивіться також
 

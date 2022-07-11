@@ -31,4 +31,4 @@ public **mysql_xdevapi\Session::rollbackTo**(string `$name`): void
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::rollbackTo()****
 
-` <?php$session    u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection u003d $session->getSchema("addressbook")->getCollection("names");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint1 u003d $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$savepoint2 u003d $session->setSavepoint();$session->rollbackTo($savepoint1);?> `
+` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("names");$session-> startTransaction();$collection->add( '{"test1":1, "test2":2}' )->execute();$savepoint1 = $session->setSavepoint();$collection->add( ' {"test3":3, "test4":4}' )->execute();$savepoint2 = $session->setSavepoint();$session->rollbackTo($savepoint1);?> `

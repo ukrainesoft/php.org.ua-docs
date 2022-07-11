@@ -7,13 +7,13 @@
 
 # PharData::addFile
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::addFile — Додати існуючі файли до tar/zip-архіву
 
 ### Опис
 
-public **PharData::addFile**(string `$filename`, ?string `$localName` u003d
+public **PharData::addFile**(string `$filename`, ?string `$localName` =
 **`null`**): void
 
 За допомогою цього методу можна додати до архіву будь-які файли чи URL-адреси. Якщо
@@ -38,15 +38,15 @@ public **PharData::addFile**(string `$filename`, ?string `$localName` u003d
 
 ### Список змін
 
-| Версія | Опис                                      |
-| ------ | ----------------------------------------- |
-| 8.0.0  | `localName` тепер допускає значення null. |
+| Версія | Опис                                    |
+| ------ | --------------------------------------- |
+| 8.0.0  | localName тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::addFile()****
 
-` <?phptry {   $a u003d new PharData('/path/to/my.tar'); $a->addFile('/full/path/to/file'); // додавання файлу    $b u003d $a['full/path/to/file']->getContent(); $a->addFile('/full/path/to/file', 'my/file.txt'); $c u003d $a['my/file.txt']->getContent(); // додавання URL   $a->addFile('http://www.example.com', 'example.md');} catch (Exception $e) {    // обробка  помилок}?>
+` <?phptry {   $a = new PharData('/path/to/my.tar'); $a->addFile('/full/path/to/file'); // додавання файлу    $b = $a['full/path/to/file']->getContent(); $a->addFile('/full/path/to/file', 'my/file.txt'); $c = $a['my/file.txt']->getContent(); // додавання URL   $a->addFile('http://www.example.com', 'example.md');} catch (Exception $e) {    // обробка  помилок}?>
 
 ### Примітки
 

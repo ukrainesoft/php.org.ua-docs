@@ -27,10 +27,10 @@ base64 буде поділено на шматки довгої `line-length` с
 
 **Приклад #1 convert.base64-encode та convert.base64-decode**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'convert.base64-encode');fwrite($fp, "This is a test.
-");fclose($fp);/* Виведе: VGhpcyBpcyBhIHRlc3QuCgu003du003d */$param u003d array('line-length' u003d> 8, 'line-break-chars' u003d> "
-");$fp u003d fopen('php://output', 'w');stream_filter_append($fp, 'convert.base64-encode', STREAM_FILTER_WRITE, $param);fwrite($fp, "This t .
-");fclose($fp);/* Выведет:  VGhpcyBp          :  cyBhIHRl          :  c3QuCgu003du003d  */$fp u003d fopen('php://output', 'w');stream_filter_append($fp, 'convert.base64- decode');fwrite($fp, "VGhpcyBpcyBhIHRlc3QuCgu003du003d");fclose($fp);/* Виведе: This is a test.
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'convert.base64-encode');fwrite($fp, "This is a test.
+");fclose($fp);/* Виведе: VGhpcyBpcyBhIHRlc3QuCg== */$param = array('line-length' => 8, 'line-break-chars' => "
+");$fp = fopen('php://output', 'w');stream_filter_append($fp, 'convert.base64-encode', STREAM_FILTER_WRITE, $param);fwrite($fp, "This t .
+");fclose($fp);/* Выведет:  VGhpcyBp          :  cyBhIHRl          :  c3QuCg==  */$fp = fopen('php://output', 'w');stream_filter_append($fp, 'convert.base64- decode');fwrite($fp, "VGhpcyBpcyBhIHRlc3QuCg==");fclose($fp);/* Виведе: This is a test.
 
 ## convert.quoted-printable-encode та convert.quoted-printable-decode
 
@@ -48,8 +48,8 @@ base64 буде поділено на шматки довгої `line-length` с
 **Приклад #2 convert.quoted-printable-encode &
 convert.quoted-printable-decode**
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'convert.quoted-printable-encode');fwrite($fp, "This is a test.
-");/* Виведе:  u003dThis is a test.u003d0A  */?> `
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'convert.quoted-printable-encode');fwrite($fp, "This is a test.
+");/* Виведе:  =This is a test.=0A  */?> `
 
 ## convert.iconv.\*
 
@@ -64,5 +64,5 @@ convert.quoted-printable-decode**
 
 **Приклад #3 convert.iconv.\***
 
-` <?php$fp u003dfopen('php://output', 'w');stream_filter_append($fp, 'convert.iconv.utf-16le.utf-8');fwrite($fp, "T h i s   i s a t e s t .
+` <?php$fp =fopen('php://output', 'w');stream_filter_append($fp, 'convert.iconv.utf-16le.utf-8');fwrite($fp, "T h i s   i s a t e s t .
 "); fclose ($ fp); / * Виведе: This is a test. * *?

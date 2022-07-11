@@ -8,7 +8,7 @@ Phar-архіву на диск
 
 # Phar::startBuffering
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::startBuffering — Запускає буферизацію операцій запису, вимикаючи
 запис змін Phar-архіву на диск
@@ -44,8 +44,8 @@ public **Phar::startBuffering**(): void
 
 **Приклад #1 Приклад використання **Phar::startBuffering()****
 
-`<?php// удалимо на всякий випадок@unlink('brandnewphar.phar');try {   $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, );' catch (Exception $e) {    echo 'не можу створити phar:', $e;}echo 'У новому phar міститься ' . $p->count() . "записів
-";$p->startBuffering();$p['file.txt'] u003d 'hi';$p['file2.txt'] u003d 'there';$p['file2.txt']->setCompressedGZ ();$p['file3.txt'] u003d 'babyface';$p['file3.txt']->setMetadata(42);$p->setStub("<?phpfunction __autoload($class){    include 'phar://myphar.phar/' . str_replace('_', '/', $class) . '.php';}Phar::mapPhar('myphar.phar');include 'phar://myphar .phar/startup.php';__HALT_COMPILER();");$p->stopBuffering();?> `
+`<?php// удалимо на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, );' catch (Exception $e) {    echo 'не можу створити phar:', $e;}echo 'У новому phar міститься ' . $p->count() . "записів
+";$p->startBuffering();$p['file.txt'] = 'hi';$p['file2.txt'] = 'there';$p['file2.txt']->setCompressedGZ ();$p['file3.txt'] = 'babyface';$p['file3.txt']->setMetadata(42);$p->setStub("<?phpfunction __autoload($class){    include 'phar://myphar.phar/' . str_replace('_', '/', $class) . '.php';}Phar::mapPhar('myphar.phar');include 'phar://myphar .phar/startup.php';__HALT_COMPILER();");$p->stopBuffering();?> `
 
 ### Дивіться також
 

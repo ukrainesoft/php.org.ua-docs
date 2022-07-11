@@ -7,7 +7,7 @@
 
 # Клас StompException
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 ## Вступ
 

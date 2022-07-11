@@ -7,7 +7,7 @@
 
 # OAuth::getAccessToken
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::getAccessToken — Отримати токен доступу
 
@@ -15,9 +15,9 @@ OAuth::getAccessToken — Отримати токен доступу
 
 public **OAuth::getAccessToken**(
 string `$access_token_url`,
-string `$auth_session_handle` u003d ?,
-string `$verifier_token` u003d ?,
-string `$http_method` u003d ?
+string `$auth_session_handle` = ?,
+string `$verifier_token` = ?,
+string `$http_method` = ?
 ): array
 
 Отримує токен доступу, його пароль та всі додаткові параметри відповіді
@@ -52,24 +52,24 @@ oauth_callback URL). Докладніше читайте за посилання
 
 ### Список змін
 
-| Версія            | Опис                                                                        |
-| ----------------- | --------------------------------------------------------------------------- |
-| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **`null`** замість **`false`**. |
-| PECL oauth 0.99.9 | Доданий параметр `verifier_token`                                           |
+| Версія            | Опис                                                                    |
+| ----------------- | ----------------------------------------------------------------------- |
+| PECL oauth 1.0.0  | Раніше у разі виникнення помилки повертався **null** замість **false**. |
+| PECL oauth 0.99.9 | Доданий параметр verifier_token                                         |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **OAuth::getAccessToken()****
 
-` <?phptry {|   $oauth u003d new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET); $oauth->setToken($request_token, $request_token_secret); $access_token_infou003du003d$oauth->getAccessToken("https://example.com/oauth/access_token"); if(!empty($access_token_info)) {         print_r($access_token_info); } else {        print "Не удалося отримати токен доступу, відповідь був: " . $oauth->getLastResponse(); }} catch(OAuthException $E) {   echo "Відповідь: ". $E->lastResponse . "
+` <?phptry {|   $oauth = new OAuth(OAUTH_CONSUMER_KEY,OAUTH_CONSUMER_SECRET); $oauth->setToken($request_token, $request_token_secret); $access_token_info==$oauth->getAccessToken("https://example.com/oauth/access_token"); if(!empty($access_token_info)) {         print_r($access_token_info); } else {        print "Не удалося отримати токен доступу, відповідь був: " . $oauth->getLastResponse(); }} catch(OAuthException $E) {   echo "Відповідь: ". $E->lastResponse . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[oauth_token] u003d> some_token
-[oauth_token_secret] u003d> some_token_secret
+[oauth_token] => some_token
+[oauth_token_secret] => some_token_secret
 )
 
 ### Дивіться також

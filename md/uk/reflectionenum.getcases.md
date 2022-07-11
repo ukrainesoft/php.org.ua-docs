@@ -7,7 +7,7 @@
 
 # ReflectionEnum::getCases
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnum::getCases — Повертає список усіх варіантів перерахунку
 
@@ -35,7 +35,7 @@ public **ReflectionEnum::getCases**(): array
 
 **Приклад #1 Приклад використання **ReflectionEnum::getCases()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum u003d new ReflectionEnum(Suit::class);$cases u003d $rEnum->getCases();foreach ($cases as $rCase) {    var_dump($rCa>) `
+`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum = new ReflectionEnum(Suit::class);$cases = $rEnum->getCases();foreach ($cases as $rCase) {    var_dump($rCa>) `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # EventHttp::setMaxBodySize
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttp::setMaxBodySize — Встановлює максимальний розмір тіла
 запиту

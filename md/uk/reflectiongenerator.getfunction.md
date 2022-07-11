@@ -35,12 +35,12 @@ public **ReflectionGenerator::getFunction**():
 **Приклад #1 Приклад використання
 **ReflectionGenerator::getFunction()****
 
-` <?phpfunction gen(){   yield 1;}$gen u003d gen();$reflectionGenu003du003dnew ReflectionGenerator($gen);var_dump($reflectionGen->getFunction()); `
+` <?phpfunction gen(){   yield 1;}$gen = gen();$reflectionGen==new ReflectionGenerator($gen);var_dump($reflectionGen->getFunction()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(ReflectionFunction)#3 (1) {
-["name"]u003d>
+["name"]=>
 string(3) "gen"
 }
 

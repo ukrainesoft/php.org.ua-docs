@@ -8,7 +8,7 @@
 
 # Swoole\Buffer::append
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::append — Додає рядок або двійкові дані до кінця
 буфера пам'яті та повертає новий розмір виділеної пам'яті

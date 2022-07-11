@@ -7,7 +7,7 @@
 
 # Клас wkhtmltox\Image\Converter
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 ## Вступ
 
@@ -20,7 +20,7 @@ class **wkhtmltox\Image\Converter** {
 /\* Constructor \*/
 
 public [\_\_construct](wkhtmltox-image-converter.construct.md)(string
-`$buffer` u003d ?, array `$settings` u003d ?)
+`$buffer` = ?, array `$settings` = ?)
 
 /\* Методи \*/
 

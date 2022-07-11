@@ -32,11 +32,11 @@ public
 
 **Приклад #1 Приклад використання **ArrayObject::offsetUnset()****
 
-` <?php$arrayobj u003d new ArrayObject(array(0u003d>'zero',2u003d>'two'));$arrayobj->offsetUnset(2);var_dump($arrayobj);?> `
+` <?php$arrayobj = new ArrayObject(array(0=>'zero',2=>'two'));$arrayobj->offsetUnset(2);var_dump($arrayobj);?> `
 
 Результат виконання цього прикладу:
 
 object(ArrayObject)#1 (1) {
-[0]u003d>
+[0]=>
 string(4) "zero"
 }

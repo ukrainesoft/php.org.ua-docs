@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::executeBulkWrite
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::executeBulkWrite — Виконати одну або кілька
 операцій запису на сервері
@@ -17,7 +17,7 @@ MongoDB\Driver\Server::executeBulkWrite — Виконати одну або к�
 final public **MongoDB\Driver\Server::executeBulkWrite**(string
 `$namespace`,
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md) `$bulk`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
 
 Виконує одну або кілька операцій запису на сервері.
@@ -86,7 +86,7 @@ array `$options` u003d array()):
 | Версія             | Опис                                                                                                                                                                                                                                                                                        |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).                                                                  |
-| PECL mongodb 1.4.0 | Третій параметр тепер є масивом `options`. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md).                                                                                                            |
+| PECL mongodb 1.4.0 | Третій параметр тепер є масивом options. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md).                                                                                                              |
 | PECL mongodb 1.3.0 | Якщо 'bulk' не містить операцій запису, викидається [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). Раніше викидалося [MongoDB\Driver\Exception\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md). |
 
 ### Примітки

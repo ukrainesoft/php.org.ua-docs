@@ -7,7 +7,7 @@
 
 # Memcached::casByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::casByKey — Порівнює та встановлює значення для запису на
 конкретному сервері
@@ -20,7 +20,7 @@ string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 **Memcached::casByKey()** працює аналогічно методу

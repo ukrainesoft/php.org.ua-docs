@@ -7,7 +7,7 @@
 
 # EventHttpConnection::getBase
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::getBase — Повертає базу подій, пов'язану з
 з'єднанням

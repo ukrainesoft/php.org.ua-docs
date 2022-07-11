@@ -24,7 +24,7 @@ mysql_errno - Повертає чисельний код помилки вико
 
 ### Опис
 
-**mysql_errno**(resource `$link_identifier` u003d NULL): int
+**mysql_errno**(resource `$link_identifier` = NULL): int
 
 Повертає код помилки останньої функції роботи з MySQL.
 
@@ -55,7 +55,7 @@ mysql_errno - Повертає чисельний код помилки вико
 
 **Приклад #1 Приклад використання **mysql_errno()****
 
-` <?php$link u003d mysql_connect("localhost", "mysql_user", "mysql_password");if (!mysql_select_db("nonexistentdb", $link)) {    echo mysql_errno($link) . ": " . mysql_error($link). "
+` <?php$link = mysql_connect("localhost", "mysql_user", "mysql_password");if (!mysql_select_db("nonexistentdb", $link)) {    echo mysql_errno($link) . ": " . mysql_error($link). "
 ";}mysql_select_db("kossu", $link);if (!mysql_query("SELECT * FROM nonexistenttable", $link)) {   echo mysql_errno($link) . ": " . .
 ";}?> `
 

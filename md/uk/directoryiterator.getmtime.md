@@ -36,7 +36,7 @@ public **DirectoryIterator::getMTime**(): int
 Приклад виведе список файлів директорії, що містить скрипт і
 час їхньої останньої модифікації.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getMTime() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isFile()) {            " " . $fileinfo->getMTime() . "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

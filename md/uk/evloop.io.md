@@ -8,7 +8,7 @@
 
 # EvLoop::io
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::io — Створює об'єкт спостерігача EvIo, пов'язаний із поточним
 екземпляром циклу подій
@@ -23,8 +23,8 @@ int `$events` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvIo](class.evio.md)
 
 Створює об'єкт спостерігача EvIo, пов'язаний із поточним екземпляром циклу

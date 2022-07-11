@@ -7,7 +7,7 @@
 
 #is_tainted
 
-(PECL taint \>u003d0.1.0)
+(PECL taint \>=0.1.0)
 
 is_tainted — Перевіряє, чи зіпсований рядок
 

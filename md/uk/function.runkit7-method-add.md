@@ -7,7 +7,7 @@
 
 # runkit7_method_add
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_method_add — Динамічно додає новий метод у заданий клас
 
@@ -18,20 +18,20 @@ string `$class_name`,
 string `$method_name`,
 string `$argument_list`,
 string `$code`,
-int `$flags` u003d RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+int `$flags` = RUNKIT7_ACC_PUBLIC,
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 **runkit7_method_add**(
 string `$class_name`,
 string `$method_name`,
 [Closure](class.closure.md) `$closure`,
-int `$flags` u003d RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+int `$flags` = RUNKIT7_ACC_PUBLIC,
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 ### Список параметрів
@@ -64,7 +64,7 @@ bool `$is_strict` u003d ?
 
 `is_strict`
 Визначає, чи буде метод поводитися так, начебто він був оголошений в
-файл з `strict_typesu003d1`.
+файл з `strict_types=1`.
 
 ### Значення, що повертаються
 
@@ -76,7 +76,7 @@ bool `$is_strict` u003d ?
 **Приклад #1 Приклад використання **runkit7_method_add()****
 
 ` <?phpclass Example {   function foo() {        echo "foo!
-";    }}// создание объекта Example$e u003d new Example();// добавление нового общедоступного методаrunkit7_method_add(    'Example',    'add',    '$num1, $num2',    'return $num1 + $num2;', RUNKIT7_ACC_PUBLIC);// додавання 12 + 4echo $e->add(12, 4);?> `
+";    }}// создание объекта Example$e = new Example();// добавление нового общедоступного методаrunkit7_method_add(    'Example',    'add',    '$num1, $num2',    'return $num1 + $num2;', RUNKIT7_ACC_PUBLIC);// додавання 12 + 4echo $e->add(12, 4);?> `
 
 Результат виконання цього прикладу:
 

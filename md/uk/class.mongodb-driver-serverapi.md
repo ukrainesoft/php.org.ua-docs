@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\ServerApi
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 ## Вступ
 
@@ -19,7 +19,7 @@ final class **MongoDB\Driver\ServerApi** implements
 
 /\* Константи \*/
 
-const string `MongoDB\Driver\ServerAPI::V1` u003d "1";
+const string `MongoDB\Driver\ServerAPI::V1` = "1";
 
 /\* Методи \*/
 
@@ -28,7 +28,7 @@ final public
 
 final public
 [\_\_construct](mongodb-driver-serverapi.construct.md)(string
-`$version`, bool `$strict` u003d **`null`**, bool `$deprecationErrors` u003d
+`$version`, bool `$strict` = **`null`**, bool `$deprecationErrors` =
 **`null`**)
 
 final public [serialize](mongodb-driver-serverapi.serialize.md)():
@@ -49,7 +49,7 @@ Server API версія 1
 
 **Приклад #1 Приклад оголошення версії API у диспетчері**
 
-` <?phpuse MongoDB\Driver\Manager;use MongoDB\Driver\ServerApi;$v1 u003d new ServerApi(ServerApi::v1);$manager u003d new Manager('mongodb://localhost:27017', [], serverApi' u003d> $v1]);$command u003d new MongoDB\Driver\Command(['buildInfo' u003d> 1]);try {    $cursor u003d $manager->executeCommand('admin', $command) (MongoDB\Driver\Exception $e) {    echo $e->getMessage(), "
+` <?phpuse MongoDB\Driver\Manager;use MongoDB\Driver\ServerApi;$v1 = new ServerApi(ServerApi::v1);$manager = new Manager('mongodb://localhost:27017', [], serverApi' => $v1]);$command = new MongoDB\Driver\Command(['buildInfo' => 1]);try {    $cursor = $manager->executeCommand('admin', $command) (MongoDB\Driver\Exception $e) {    echo $e->getMessage(), "
 ";   exit;}/* Команда buildInfo повертає єдиний документ результату, на нам потрібно отримати доступ * до першого fol?bu|
 ";?> `
 
@@ -63,7 +63,7 @@ Server API версія 1
 серверу відхилити будь-яку команду, яка не є частиною оголошеної версії
 API. Це призводить до помилки при виконанні команди buildInfo.
 
-` <?phpuse MongoDB\Driver\Manager;use MongoDB\Driver\ServerApi;$v1 u003d new ServerApi(ServerApi::v1, true);$manager u003d new Manager('mongodb://localhost:27017', ['serverApi' u003d> $v1]);$command u003d new MongoDB\Driver\Command(['buildInfo' u003d> 1]);try {   $cursor u003d $manager->executeCommand('admin', $ } catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
+` <?phpuse MongoDB\Driver\Manager;use MongoDB\Driver\ServerApi;$v1 = new ServerApi(ServerApi::v1, true);$manager = new Manager('mongodb://localhost:27017', ['serverApi' => $v1]);$command = new MongoDB\Driver\Command(['buildInfo' => 1]);try {   $cursor = $manager->executeCommand('admin', $ } catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
 ";   exit;}/* Команда buildInfo повертає єдиний документ результату, на нам потрібно отримати доступ * до першого fol?bu|
 ";?> `
 

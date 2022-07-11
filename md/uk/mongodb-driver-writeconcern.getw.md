@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcern::getW
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteConcern::getW — Повертає опцію "w" WriteConcern
 
@@ -33,7 +33,7 @@ final public **MongoDB\Driver\WriteConcern::getW**(): string\|int\|null
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcern::getW()****
 
-` <?php$wc u003d new MongoDB\Driver\WriteConcern(1);var_dump($wc->getW());$wc u003d new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY $wc->getW());?> `
+` <?php$wc = new MongoDB\Driver\WriteConcern(1);var_dump($wc->getW());$wc = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY $wc->getW());?> `
 
 Результат виконання цього прикладу:
 

@@ -9,7 +9,7 @@
 
 # transliterator_list_ids
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::listIDs -- transliterator_list_ids — Отримати
 ідентифікатори транслітератора
@@ -46,17 +46,17 @@ public static **Transliterator::listIDs**(): array\|false
 
 Array
 (
-[0] u003d> ASCII-Latin
-[1] u003d> Accents-Any
-[2] u003d> Amharic-Latin/BGN
-[3] u003d> Any-Accents
-[4] u003d> Any-Publishing
+[0] => ASCII-Latin
+[1] => Accents-Any
+[2] => Amharic-Latin/BGN
+[3] => Any-Accents
+[4] => Any-Publishing
 ...
-[650] u003d> Any-ps_Latn/BGN
-[651] u003d> Any-tk/BGN
-[652] u003d> Any-ch_FONIPA
-[653] u003d> Any-cs_FONIPA
-[654] u003d> Any-cy_FONIPA
+[650] => Any-ps_Latn/BGN
+[651] => Any-tk/BGN
+[652] => Any-ch_FONIPA
+[653] => Any-cs_FONIPA
+[654] => Any-cy_FONIPA
 )
 
 ### Дивіться також

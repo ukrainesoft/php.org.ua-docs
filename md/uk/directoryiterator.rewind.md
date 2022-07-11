@@ -31,7 +31,7 @@ public **DirectoryIterator::rewind**(): void
 
 **Приклад #1 Приклад використання **DirectoryIterator::rewind()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));$iterator->next();echo $iterator->key(); //1$iterator->rewind(); //перехід до початкуecho $iterator->key(); //0?> `
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));$iterator->next();echo $iterator->key(); //1$iterator->rewind(); //перехід до початкуecho $iterator->key(); //0?> `
 
 ### Дивіться також
 

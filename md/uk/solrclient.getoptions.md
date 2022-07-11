@@ -7,7 +7,7 @@
 
 # SolrClient::getOptions
 
-(PECL solr \> u003d 0.9.6)
+(PECL solr \> = 0.9.6)
 
 SolrClient::getOptions — Повертає внутрішні параметри клієнта
 

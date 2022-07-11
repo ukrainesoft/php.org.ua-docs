@@ -7,7 +7,7 @@
 
 # Gmagick::stripimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::stripimage — Знімає зображення всіх профілів та коментарів
 

@@ -7,7 +7,7 @@
 
 # Phar::offsetGet
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::offsetGet — Отримати об'єкт
 [PharFileInfo](class.pharfileinfo.md) для конкретного файлу
@@ -47,7 +47,7 @@ public **Phar::offsetGet**(string `$localName`):
 [ArrayAccess](class.arrayaccess.md), метод **Phar::offsetGet()** буде
 викликаний автоматично під час використання оператора `[]`.
 
-` <?php$p u003d new Phar(dirname(__FILE__) . '/myphar.phar', 0, 'myphar.phar');$p['exists.txt'] u003d "file exists
+` <?php$p = new Phar(dirname(__FILE__) . '/myphar.phar', 0, 'myphar.phar');$p['exists.txt'] = "file exists
 ";try {    // автоматичний дзвін offsetGet()    echo $p['exists.txt'];    echo $p['doesnotexist.txt'];} catch (BadM|
 
 Результат виконання цього прикладу:

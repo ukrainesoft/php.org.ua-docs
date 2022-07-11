@@ -7,15 +7,15 @@
 
 #uopz_flags
 
-(PECL uopz 2 \>u003d 2.0.2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
+(PECL uopz 2 \>= 2.0.2, PECL uopz 5, PECL uopz 6, PECL uopz 7)
 
 uopz_flags — Отримати або встановити прапори для функції або класу
 
 ### Опис
 
-**uopz_flags**(string `$function`, int `$flags` u003d PHP_INT_MAX): int
+**uopz_flags**(string `$function`, int `$flags` = PHP_INT_MAX): int
 
-**uopz_flags**(string `$class`, string `$function`, int `$flags` u003d
+**uopz_flags**(string `$class`, string `$function`, int `$flags` =
 PHP_INT_MAX): int
 
 Отримати або встановити прапори для запису функції або класу під час
@@ -48,15 +48,15 @@ PHP_INT_MAX): int
 
 ### Список змін
 
-| Версія                                                                                                                                                       | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| PECL uopz 5.0.0 Параметр `flags` тепер необов'язковий. Раніше **`ZEND_ACC_FETCH`** повинен був передаватися, щоб **uopz_flags()** використовувався як гетер. |      |
+| Версія                                                                                                                                                   | Опис |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| PECL uopz 5.0.0 Параметр flags тепер необов'язковий. Раніше **ZEND_ACC_FETCH** повинен був передаватися, щоб **uopz_flags()** використовувався як гетер. |      |      
 
 ### Приклади
 
 **Приклад #1 Приклад використання **uopz_flags()****
 
-`<?phpclass Test {    public function method() {        return __CLASS__; }}$flags u003d uopz_flags("Test", "method");var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));var_dump((bool) (uopz_flags) method") & ZEND_ACC_STATIC));var_dump(uopz_flags("Test", "method", $flags|ZEND_ACC_STATIC|ZEND_ACC_PRIVATE));var_dump((bool) (uopz_flags("Test", | var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));?> `
+`<?phpclass Test {    public function method() {        return __CLASS__; }}$flags = uopz_flags("Test", "method");var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_PRIVATE));var_dump((bool) (uopz_flags) method") & ZEND_ACC_STATIC));var_dump(uopz_flags("Test", "method", $flags|ZEND_ACC_STATIC|ZEND_ACC_PRIVATE));var_dump((bool) (uopz_flags("Test", | var_dump((bool) (uopz_flags("Test", "method") & ZEND_ACC_STATIC));?> `
 
 Результат виконання цього прикладу:
 
@@ -68,7 +68,7 @@ bool(true)
 
 **Приклад #2 "Скасувати final" класу**
 
-` <?phpfinal class MyClass{}$flags u003d uopz_flags(MyClass::class, '');uopz_flags(MyClass::class, '', $flags & ~ZEND_ACC_FINAL);var_dump((neclass| )->isFinal());?> `
+` <?phpfinal class MyClass{}$flags = uopz_flags(MyClass::class, '');uopz_flags(MyClass::class, '', $flags & ~ZEND_ACC_FINAL);var_dump((neclass| )->isFinal());?> `
 
 Результат виконання цього прикладу:
 

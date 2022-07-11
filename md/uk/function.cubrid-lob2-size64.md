@@ -7,7 +7,7 @@
 
 # cubrid_lob2_size64
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_size64 — Отримує розмір LOB-об'єкта
 

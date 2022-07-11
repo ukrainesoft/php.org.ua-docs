@@ -7,7 +7,7 @@
 
 # Ds\Vector::set
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::set — Замінює значення за вказаним індексом
 
@@ -41,27 +41,27 @@ public **Ds\Vector::set**(int `$index`,
 
 **Приклад #1 Приклад використання **Ds\Vector::set()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);$vector->set(1, "_");print_r($vector);?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);$vector->set(1, "_");print_r($vector);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )
 
 **Приклад #2 Приклад використання **Ds\Vector::set()** із синтаксисом
 масиву**
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);$vector[1] u003d "_";print_r($vector);?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);$vector[1] = "_";print_r($vector);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> a
-[1] u003d> _
-[2] u003d> c
+[0] => a
+[1] => _
+[2] => c
 )

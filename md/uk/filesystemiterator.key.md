@@ -7,7 +7,7 @@
 
 # FilesystemIterator::key
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::key — Визначення ключа поточного файлу
 
@@ -31,7 +31,7 @@ public **FilesystemIterator::key**(): string
 Цей приклад виведе список вмісту директорії, в якій розташований
 скрипт.
 
-` <?php$iterator u003d new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);foreach ($iterator as $fileinfo) {    echo $iterator->key() . "
+` <?php$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_FILENAME);foreach ($iterator as $fileinfo) {    echo $iterator->key() . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

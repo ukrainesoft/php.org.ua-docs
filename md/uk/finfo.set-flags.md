@@ -7,7 +7,7 @@
 
 # finfo::set_flags
 
-(PHP \>u003d 5.3.0, PHP 7, PHP 8, PECL fileinfo \>u003d 0.1.0)
+(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
 
 finfo::set_flags — Псевдонім
 [finfo_set_flags()](function.finfo-set-flags.md)

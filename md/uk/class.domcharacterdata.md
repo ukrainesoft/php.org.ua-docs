@@ -90,21 +90,21 @@ public
 `$node`): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 public [DOMNode::C14NFile](domnode.c14nfile.md)(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` u003d
+public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
 **`false`**): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::getLineNo](domnode.getlineno.md)(): int
@@ -117,7 +117,7 @@ public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
 
 public
 [DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 public
@@ -169,7 +169,7 @@ public
 
 | Версія | Опис                                                                                      |
 | ------ | ----------------------------------------------------------------------------------------- |
-| 8.0.0  | Додані властивості `nextElementSibling` та `previousElementSibling`.                      |
+| 8.0.0  | Додані властивості nextElementSibling та previousElementSibling.                          |
 | 8.0.0  | Клас **DOMCharacterData** тепер реалізує інтерфейс [DOMChildNode](class.domchildnode.md). |
 
 ## Дивіться також

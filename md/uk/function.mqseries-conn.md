@@ -7,7 +7,7 @@
 
 # mqseries_conn
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_conn — MQSeries MQCONN
 
@@ -50,7 +50,7 @@ resource `&$reason`
 
 **Приклад #1 Приклад використання **mqseries_conn()****
 
-`<?php   mqseries_conn('WMQ1', $conn, $comp_code, $reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("conn CompCode:%d Reason:%d Text:%s<br>
+`<?php   mqseries_conn('WMQ1', $conn, $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("conn CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
 
 ### Дивіться також

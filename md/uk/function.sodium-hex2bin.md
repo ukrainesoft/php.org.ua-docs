@@ -7,14 +7,14 @@
 
 # sodium_hex2bin
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_hex2bin — Декодує рядок у шістнадцятковому поданні в
 бінарне
 
 ### Опис
 
-**sodium_hex2bin**(string `$string`, string `$ignore` u003d ""): string
+**sodium_hex2bin**(string `$string`, string `$ignore` = ""): string
 
 Декодує рядок, закодований у шістнадцяткове подання в
 бінарне.

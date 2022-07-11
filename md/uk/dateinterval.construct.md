@@ -7,7 +7,7 @@
 
 # DateInterval::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateInterval::\_\_construct — Створює новий об'єкт DateInterval
 
@@ -28,15 +28,15 @@ public **DateInterval::\_\_construct**(string `$duration`)
 періоди, що позначають час, їх опису повинна передувати буква
 `T`.
 
-| Вказівник періоду | Опис                                                                             |
-| ----------------- | -------------------------------------------------------------------------------- |
-| 'Y'               | року                                                                             |
-| `M`               | Місяці                                                                           |
-| `D`               | дні                                                                              |
-| `W`               | тижня. Перетворюється на дні. До PHP 8.0.0 було використовуватися спільно з `D`. |
-| `H`               | годинник                                                                         |
-| `M`               | хвилини                                                                          |
-| `S`               | секунди                                                                          |
+| Вказівник періоду | Опис                                                                           |
+| ----------------- | ------------------------------------------------------------------------------ |
+| 'Y'               | року                                                                           |
+| M                 | Місяці                                                                         |                                                                                  
+| D                 | дні                                                                            |
+| W                 | тижня. Перетворюється на дні. До PHP 8.0.0 було використовуватися спільно з D. |
+| H                 | годинник                                                                       |
+| M                 | хвилини                                                                        |
+| S                 | секунди                                                                        |
 
 **Покажчики періодів `duration`**
 
@@ -64,114 +64,114 @@ public **DateInterval::\_\_construct**(string `$duration`)
 
 ### Список змін
 
-| Версія | Опис                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------- |
-| 8.2.0  | Будуть видно тільки `y` в `f`, `invert` та `days`, включаючи нову логічну властивість `from_string`. |
-| 8.0.0  | `W` тепер може використовуватися спільно з `D`.                                                      |
+| Версія | Опис                                                                                       |
+| ------ | ------------------------------------------------------------------------------------------ |
+| 8.2.0  | Будуть видно тільки y в f, invert та days, включаючи нову логічну властивість from_string. |
+| 8.0.0  | W тепер може використовуватися спільно з D.                                                |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 [DateInterval](class.dateinterval.md)**
 
-` <?php$interval u003d new DateInterval('P1W2D');var_dump($interval);?> `
+` <?php$interval = new DateInterval('P1W2D');var_dump($interval);?> `
 
 Результат виконання цього прикладу в PHP 8.2:
 
 object(DateInterval)#1 (10) {
-["y"]u003d>
+["y"]=>
 int(0)
-["m"]u003d>
+["m"]=>
 int(0)
-["d"]u003d>
+["d"]=>
 int(9)
-["h"]u003d>
+["h"]=>
 int(0)
-["i"]u003d>
+["i"]=>
 int(0)
-["s"]u003d>
+["s"]=>
 int(0)
-["f"]u003d>
+["f"]=>
 float(0)
-["invert"]u003d>
+["invert"]=>
 int(0)
-["days"]u003d>
+["days"]=>
 bool(false)
-["from_string"]u003d>
+["from_string"]=>
 bool(false)
 }
 
 Результат виконання цього прикладу в PHP 8:
 
 object(DateInterval)#1 (16) {
-["y"]u003d>
+["y"]=>
 int(0)
-["m"]u003d>
+["m"]=>
 int(0)
-["d"]u003d>
+["d"]=>
 int(9)
-["h"]u003d>
+["h"]=>
 int(0)
-["i"]u003d>
+["i"]=>
 int(0)
-["s"]u003d>
+["s"]=>
 int(0)
-["f"]u003d>
+["f"]=>
 float(0)
-["weekday"]u003d>
+["weekday"]=>
 int(0)
-["weekday_behavior"]u003d>
+["weekday_behavior"]=>
 int(0)
-["first_last_day_of"]u003d>
+["first_last_day_of"]=>
 int(0)
-["invert"]u003d>
+["invert"]=>
 int(0)
-["days"]u003d>
+["days"]=>
 bool(false)
-["special_type"]u003d>
+["special_type"]=>
 int(0)
-["special_amount"]u003d>
+["special_amount"]=>
 int(0)
-["have_weekday_relative"]u003d>
+["have_weekday_relative"]=>
 int(0)
-["have_special_relative"]u003d>
+["have_special_relative"]=>
 int(0)
 }
 
 Результат виконання цього прикладу в PHP 7:
 
 object(DateInterval)#1 (16) {
-["y"]u003d>
+["y"]=>
 int(0)
-["m"]u003d>
+["m"]=>
 int(0)
-["d"]u003d>
+["d"]=>
 int(2)
-["h"]u003d>
+["h"]=>
 int(0)
-["i"]u003d>
+["i"]=>
 int(0)
-["s"]u003d>
+["s"]=>
 int(0)
-["f"]u003d>
+["f"]=>
 float(0)
-["weekday"]u003d>
+["weekday"]=>
 int(0)
-["weekday_behavior"]u003d>
+["weekday_behavior"]=>
 int(0)
-["first_last_day_of"]u003d>
+["first_last_day_of"]=>
 int(0)
-["invert"]u003d>
+["invert"]=>
 int(0)
-["days"]u003d>
+["days"]=>
 bool(false)
-["special_type"]u003d>
+["special_type"]=>
 int(0)
-["special_amount"]u003d>
+["special_amount"]=>
 int(0)
-["have_weekday_relative"]u003d>
+["have_weekday_relative"]=>
 int(0)
-["have_special_relative"]u003d>
+["have_special_relative"]=>
 int(0)
 }
 

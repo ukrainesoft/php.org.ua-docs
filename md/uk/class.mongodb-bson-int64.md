@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Int64
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 ## Вступ
 

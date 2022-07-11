@@ -45,18 +45,18 @@ public **mysqli_result::fetch_fields**(): array
 
 Повертає масив об'єктів, що містять метадані полів.
 
-| Властивість Опис |
-| ---------------- |
-| name             | Ім'я шпальти
-| orgname          | Вихідне ім'я стовпця, якщо він є псевдонім
-| table            | Ім'я таблиці, якою належить стовпець (якщо не обчислено)
-| orgtable         | Початкове ім'я таблиці, якщо є псевдонім
-| max_length       | Максимальна ширина поля результуючого набору.
-| length           | Довжина поля в байтах, як вона задана щодо таблиці. Зверніть увагу, що дана величина (в байтах) може відрізнятися від величини символів, зазначеної у визначенні поля таблиці, так як в різних кодуваннях один символ може записуватися кількома байтами. Наприклад, набір символів utf8 має 3 байти на символ, таким чином поле VARCHAR(10) у кодуванні UTF-8 поверне довжину 30 байтів u003d 10 символів. один символ займає один байт.
-| charsetnr        | Числовий ідентифікатор кодування.
-| flags            | Ціле число, яке представляє бітові прапори для поля.
-| тип              | Тип поля даних
-| decimals         | Число знаків після коми (для цілих полів)
+| Властивість Опис |                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name             | Ім'я шпальти                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| orgname          | Вихідне ім'я стовпця, якщо він є псевдонім                                                                                                                                                                                                                                                                                                                                                                                            |
+| table            | Ім'я таблиці, якою належить стовпець (якщо не обчислено)                                                                                                                                                                                                                                                                                                                                                                              |
+| orgtable         | Початкове ім'я таблиці, якщо є псевдонім                                                                                                                                                                                                                                                                                                                                                                                              |
+| max_length       | Максимальна ширина поля результуючого набору.                                                                                                                                                                                                                                                                                                                                                                                         |
+| length           | Довжина поля в байтах, як вона задана щодо таблиці. Зверніть увагу, що дана величина (в байтах) може відрізнятися від величини символів, зазначеної у визначенні поля таблиці, так як в різних кодуваннях один символ може записуватися кількома байтами. Наприклад, набір символів utf8 має 3 байти на символ, таким чином поле VARCHAR(10) у кодуванні UTF-8 поверне довжину 30 байтів = 10 символів. один символ займає один байт. |
+| charsetnr        | Числовий ідентифікатор кодування.                                                                                                                                                                                                                                                                                                                                                                                                     |
+| flags            | Ціле число, яке представляє бітові прапори для поля.                                                                                                                                                                                                                                                                                                                                                                                  |
+| тип              | Тип поля даних                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| decimals         | Число знаків після коми (для цілих полів)                                                                                                                                                                                                                                                                                                                                                                                             |
 
 **Властивості об'єкта**
 
@@ -64,11 +64,11 @@ public **mysqli_result::fetch_fields**(): array
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("127.0.0.1", "root", "foofoo", "sakila");/* Перевіряємо з'єднання*/if ($mysqli->connect_errno) { %s
-", $mysqli->connect_error);   exit();}foreach (array('latin1', 'utf8') as $charset) {    // Встановлюємо котирування для| ;   $query u003d "SELECT actor_id, last_name from actor ORDER BY actor_id";   echo "u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+` <?php$mysqli = new mysqli("127.0.0.1", "root", "foofoo", "sakila");/* Перевіряємо з'єднання*/if ($mysqli->connect_errno) { %s
+", $mysqli->connect_error);   exit();}foreach (array('latin1', 'utf8') as $charset) {    // Встановлюємо котирування для| ;   $query = "SELECT actor_id, last_name from actor ORDER BY actor_id";   echo "=======================
 ";    echo "Character Set: $charset
-";   echo "u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
-";    if ($result u003d $mysqli->query($query)) {        /* Читаем информацию по всем столбцам */        $finfo u003d $result->fetch_fields();        foreach ($finfo as $val) {            printf(" Name:%%s
+";   echo "======================
+";    if ($result = $mysqli->query($query)) {        /* Читаем информацию по всем столбцам */        $finfo = $result->fetch_fields();        foreach ($finfo as $val) {            printf(" Name:%%s
 ",   $val->name);           |
 ",   $val->table);             printf("Max. Len:  %d
 ",   $val->max_length);             printf("Length:   %%d
@@ -80,11 +80,11 @@ public **mysqli_result::fetch_fields**(): array
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("127.0.0.1", "my_user", "my_password", "sakila");/* Перевіряємо з'єднання|*/if (mysqli_connect_errno()) { s
-", mysqli_connect_error());    exit();}foreach (array('latin1', 'utf8') as $charset) {    // Устанавливаем кодировку для демонстрации её влияния на некоторые    mysqli_set_charset($link, $charset);    $query u003d "SELECT actor_id, last_name from actor ORDER BY actor_id";   echo "u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+` <?php$link = mysqli_connect("127.0.0.1", "my_user", "my_password", "sakila");/* Перевіряємо з'єднання|*/if (mysqli_connect_errno()) { s
+", mysqli_connect_error());    exit();}foreach (array('latin1', 'utf8') as $charset) {    // Устанавливаем кодировку для демонстрации её влияния на некоторые    mysqli_set_charset($link, $charset);    $query = "SELECT actor_id, last_name from actor ORDER BY actor_id";   echo "=======================
 ";    echo "Character Set: $charset
-";   echo "u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
-";    if ($result u003d mysqli_query($link, $query)) {        /* Читаем информацию по всем столбцам */        $finfo u003d mysqli_fetch_fields($result);        foreach ($finfo as $val) {            printf("Name:      % s
+";   echo "======================
+";    if ($result = mysqli_query($link, $query)) {        /* Читаем информацию по всем столбцам */        $finfo = mysqli_fetch_fields($result);        foreach ($finfo as $val) {            printf("Name:      % s
 ",   $val->name);           |
 ",   $val->table);             printf("Max. Len:  %d
 ",   $val->max_length);             printf("Length:   %%d
@@ -96,9 +96,9 @@ public **mysqli_result::fetch_fields**(): array
 
 Результат виконання даних прикладів:
 
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+======================
 Character Set: latin1
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+======================
 Name: actor_id
 Table: actor
 Max. Len: 3
@@ -115,9 +115,9 @@ charsetnr: 8
 Flags: 20489
 Тип: 253
 
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+======================
 Character Set: utf8
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+======================
 Name: actor_id
 Table: actor
 Max. Len: 3

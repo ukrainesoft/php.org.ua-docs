@@ -7,14 +7,14 @@
 
 #ldap_delete_ext
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 ldap_delete_ext — Видалити запис із директорії
 
 ### Опис
 
 **ldap_delete_ext**([LDAP\Connection](class.ldap-connection.md)
-`$ldap`, string `$dn`, ?array `$controls` u003d **`null`**):
+`$ldap`, string `$dn`, ?array `$controls` = **`null`**):
 [LDAP\Result](class.ldap-result.md)\|false
 
 Робить те саме, що й [ldap_delete()](function.ldap-delete.md), але
@@ -32,11 +32,11 @@ ldap_delete_ext — Видалити запис із директорії
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                |
-| 8.0.0  | `controls` тепер припускає значення null; раніше значення за промовчанням було `[]`.                                                                      |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
+| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
 
 ### Дивіться також
 

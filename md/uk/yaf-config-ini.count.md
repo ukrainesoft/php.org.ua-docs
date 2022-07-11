@@ -7,7 +7,7 @@
 
 # Yaf_Config_Ini::count
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Ini::count — Підраховує всі елементи в Yaf_Config.ini
 

@@ -7,7 +7,7 @@
 
 # SeekableIterator::seek
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SeekableIterator::seek — Переміщується до позиції
 
@@ -40,7 +40,7 @@ public **SeekableIterator::seek**(int `$offset`): void
 ([ArrayIterator](class.arrayiterator.md) реалізує
 [SeekableIterator](class.seekableiterator.md)).
 
-` <?php$array u003d array("яблуко", "банан", "вишня", "чорнослив", "ягода бузини");$iterator u003d new ArrayIterator($array);$iterator->seek(3); echo $iterator->current();?> `
+` <?php$array = array("яблуко", "банан", "вишня", "чорнослив", "ягода бузини");$iterator = new ArrayIterator($array);$iterator->seek(3); echo $iterator->current();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

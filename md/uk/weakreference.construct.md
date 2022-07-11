@@ -7,7 +7,7 @@
 
 # WeakReference::\_\_construct
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 WeakReference::\_\_construct — Конструктор, який забороняє реалізацію
 

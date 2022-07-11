@@ -7,7 +7,7 @@
 
 # Клас TableSelect
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -37,10 +37,10 @@ public **having**(string `$sort_expr`):
 public **limit**(int `$rows`):
 [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
 
-public **lockExclusive**(int `$lock_waiting_option` u003d ?):
+public **lockExclusive**(int `$lock_waiting_option` = ?):
 [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
 
-public **lockShared**(int `$lock_waiting_option` u003d ?):
+public **lockShared**(int `$lock_waiting_option` = ?):
 [mysql_xdevapi\TableSelect](class.mysql-xdevapi-tableselect.md)
 
 public **offset**(int `$position`):

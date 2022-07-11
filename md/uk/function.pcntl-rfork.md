@@ -7,13 +7,13 @@
 
 #pcntl_rfork
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 pcntl_rfork — взаємодіє з ресурсами процесу
 
 ### Опис
 
-**pcntl_rfork**(int `$flags`, int `$signal` u003d 0): int
+**pcntl_rfork**(int `$flags`, int `$signal` = 0): int
 
 Взаємодіє з ресурсами процесу.
 
@@ -55,7 +55,7 @@ pcntl_rfork — взаємодіє з ресурсами процесу
 
 **Приклад #1 Приклад використання **pcntl_rfork()****
 
-` <?php$pid u003d pcntl_rfork(RFNOWAIT|RFTSIGZMB, SIGUSR1);if ($pid > 0) {  // Батьківський процес. var_dump($pid);} else {  // Дочірній процес. var_dump($pid); sleep(2); // оскільки дочірній процесс не чекає, ми бачимо його "pid".}?> `
+` <?php$pid = pcntl_rfork(RFNOWAIT|RFTSIGZMB, SIGUSR1);if ($pid > 0) {  // Батьківський процес. var_dump($pid);} else {  // Дочірній процес. var_dump($pid); sleep(2); // оскільки дочірній процесс не чекає, ми бачимо його "pid".}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

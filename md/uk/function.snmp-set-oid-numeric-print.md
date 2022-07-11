@@ -7,7 +7,7 @@
 
 #snmp_set_oid_numeric_print
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 snmp_set_oid_numeric_print — Встановлює вихідний формат OID
 

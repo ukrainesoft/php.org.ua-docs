@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\ServerDescription
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 ## Вступ
 
@@ -24,25 +24,25 @@ final class **MongoDB\Driver\ServerDescription** {
 
 /\* Константи \*/
 
-const string `TYPE_UNKNOWN` u003d "Unknown";
+const string `TYPE_UNKNOWN` = "Unknown";
 
-const string `TYPE_STANDALONE` u003d "Standalone";
+const string `TYPE_STANDALONE` = "Standalone";
 
-const string `TYPE_MONGOS` u003d "Mongos";
+const string `TYPE_MONGOS` = "Mongos";
 
-const string `TYPE_POSSIBLE_PRIMARY` u003d "PossiblePrimary";
+const string `TYPE_POSSIBLE_PRIMARY` = "PossiblePrimary";
 
-const string `TYPE_RS_PRIMARY` u003d "RSPrimary";
+const string `TYPE_RS_PRIMARY` = "RSPrimary";
 
-const string `TYPE_RS_SECONDARY` u003d "RSSecondary";
+const string `TYPE_RS_SECONDARY` = "RSSecondary";
 
-const string `TYPE_RS_ARBITER` u003d "RSArbiter";
+const string `TYPE_RS_ARBITER` = "RSArbiter";
 
-const string `TYPE_RS_OTHER` u003d "RSOther";
+const string `TYPE_RS_OTHER` = "RSOther";
 
-const string `TYPE_RS_GHOST` u003d "RSGhost";
+const string `TYPE_RS_GHOST` = "RSGhost";
 
-const string `TYPE_LOAD_BALANCER` u003d "LoadBalancer";
+const string `TYPE_LOAD_BALANCER` = "LoadBalancer";
 
 /\* Методи \*/
 

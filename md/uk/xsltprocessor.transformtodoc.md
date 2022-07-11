@@ -14,7 +14,7 @@ XSLTProcessor::transformToDoc — Перетворює на DOMDocument
 ### Опис
 
 public **XSLTProcessor::transformToDoc**(object `$document`, ?string
-`$returnClass` u003d **`null`**):
+`$returnClass` = **`null`**):
 [DOMDocument](class.domdocument.md)\|false
 
 Перетворює вихідний вузол на [DOMDocument](class.domdocument.md)
@@ -35,7 +35,7 @@ public **XSLTProcessor::transformToDoc**(object `$document`, ?string
 
 **Приклад #1 Перетворення на DOMDocument**
 
-` <?php// Завантаження вихідного XML$xml u003d new DOMDocument;$xml->load('collection.xml');$xsl u003d new DOMDocument;$xsl->load('collection.xsl');// На перетворення$procu003du003dnewXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslecho trim($proc->transformToDoc($xml)->firstChild->wholeText);?> `
+` <?php// Завантаження вихідного XML$xml = new DOMDocument;$xml->load('collection.xml');$xsl = new DOMDocument;$xsl->load('collection.xsl');// На перетворення$proc==newXSLTProcessor;$proc->importStyleSheet($xsl); // додавання стилів xslecho trim($proc->transformToDoc($xml)->firstChild->wholeText);?> `
 
 Результат виконання цього прикладу:
 

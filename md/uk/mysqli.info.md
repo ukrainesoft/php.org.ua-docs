@@ -60,13 +60,13 @@ mysqli::$info -- mysqli_info — Витягує інформацію про ос
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
 ", mysqli_connect_error());   exit();}$mysqli->query("CREATE TEMPORARY TABLE t1 LIKE City");/* INSERT INTO ... SELECT */$mysqli-> FROM City ORDER BYID LIMIT 150");printf("%s
 ", $mysqli->info);/* закриваємо з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
 "mysqli_connect_error()); mysqli_query($link,"CREATE TEMPORARY TABLE t1 LIKE City");/* INSERT INTO ...... SELECT */mysqli_ | ORDER BY ID LIMIT 150");printf("%s
 ", mysqli_info($link));/* закриваємо з'єднання**/mysqli_close($link);?> `
 

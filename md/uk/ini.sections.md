@@ -18,16 +18,16 @@
 бути використані директиви [extension](ini.core.md#ini.extension) та
 [zend_extension](ini.core.md#ini.zend-extension).
 
-| Назва                                       | Місце зміни    | Історія змін |
-| ------------------------------------------- | -------------- | ------------ |
-| [[HOSTu003d]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM |              |
-| [[PATHu003d]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM |              |
+| Назва                                   | Місце зміни    | Історія змін |
+| --------------------------------------- | -------------- | ------------ |
+| [[HOST=]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM |              |
+| [[PATH=]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM |              |
 
 **Розділи**
 
 Коротке пояснення конфігураційних директив.
 
-`[HOSTu003d<host>]`
+`[HOST=<host>]`
 Даний розділ дозволяє визначати набір `php.ini` директив, які
 будуть застосовуватись лише до зазначеного хосту.
 
@@ -35,18 +35,18 @@
 dev. домену**
 
 ``` php.inicode
-[HOSTu003ddev.site.com]
-error_reporting u003d E_ALL
-display_errors u003d On
+[HOST=dev.site.com]
+error_reporting = E_ALL
+display_errors = On
 ````
 
-`[PATHu003d<path>]`
+`[PATH=<path>]`
 Даний розділ дозволяє визначати набір `php.ini` директив, які
 будуть застосовуватись, якщо скрипт буде запущений із зазначеного шляху.
 
 **Приклад #2 Додавання скрипту безпеки для захищених зон**
 
 ``` php.inicode
-[PATHu003d/home/site/public/secure]
-auto_prepend_fileu003dsecurity.php
+[PATH=/home/site/public/secure]
+auto_prepend_file=security.php
 ````

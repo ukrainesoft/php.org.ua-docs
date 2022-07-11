@@ -28,7 +28,7 @@ public **DOMEntityReference::\_\_construct**(string `$name`)
 
 **Приклад #1 Створення нового об'єкту DOMEntityReference**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');$element u003d $dom->appendChild(new DOMElement('root'));$entity u003d $element->appendChild( new DOMEntityReference('nbsp'));echo $dom->saveXML(); /* <?xml versionu003d"1.0" encodingu003d"iso-8859-1"?><root></root> */?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');$element = $dom->appendChild(new DOMElement('root'));$entity = $element->appendChild( new DOMEntityReference('nbsp'));echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root></root> */?> `
 
 ### Дивіться також
 

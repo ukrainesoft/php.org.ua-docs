@@ -7,7 +7,7 @@
 
 # OAuthProvider::timestampNonceHandler
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::timestampNonceHandler — Встановити обробник
 timestampNonceHandler
@@ -41,7 +41,7 @@ public
 **Приклад #1 Приклад використання
 **OAuthProvider::timestampNonceHandler()****
 
-` <?phpfunction timestampNonceChecker($provider) {    if ($provider->nonce u003du003du003d 'bad') {        return OAUTH_BAD_NONCE; } elseif ($provider->timestamp u003du003d '0') {        return OAUTH_BAD_TIMESTAMP; }   return OAUTH_OK;}?> `
+` <?phpfunction timestampNonceChecker($provider) {    if ($provider->nonce === 'bad') {        return OAUTH_BAD_NONCE; } elseif ($provider->timestamp == '0') {        return OAUTH_BAD_TIMESTAMP; }   return OAUTH_OK;}?> `
 
 ### Дивіться також
 

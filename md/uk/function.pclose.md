@@ -38,7 +38,7 @@ pclose — Закриває файловий покажчик процесу
 
 **Приклад #1 Приклад використання **pclose()****
 
-` <?php$handle u003d popen('/bin/ls', 'r');pclose($handle);?> `
+` <?php$handle = popen('/bin/ls', 'r');pclose($handle);?> `
 
 ### Примітки
 

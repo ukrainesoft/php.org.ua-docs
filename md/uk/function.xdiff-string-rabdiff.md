@@ -8,7 +8,7 @@
 
 #xdiff_string_rabdiff
 
-(PECL xdiff \>u003d 1.5.0)
+(PECL xdiff \>= 1.5.0)
 
 xdiff_string_rabdiff — Порівняти два рядки та створити бінарний патч
 використовуючи поліномінальний алгоритм Rabin fingerprint

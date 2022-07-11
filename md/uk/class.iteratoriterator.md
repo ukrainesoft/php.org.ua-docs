@@ -7,7 +7,7 @@
 
 # Клас IteratorIterator
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -28,7 +28,7 @@ class **IteratorIterator** implements
 
 public
 [\_\_construct](iteratoriterator.construct.md)([Traversable](class.traversable.md)
-`$iterator`, ?string `$class` u003d **`null`**)
+`$iterator`, ?string `$class` = **`null`**)
 
 public [current](iteratoriterator.current.md)():
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

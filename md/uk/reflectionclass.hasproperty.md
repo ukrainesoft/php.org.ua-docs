@@ -7,7 +7,7 @@
 
 # ReflectionClass::hasProperty
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::hasProperty — Перевіряє, чи визначено властивість
 
@@ -30,7 +30,7 @@ public **ReflectionClass::hasProperty**(string `$name`): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::hasProperty()****
 
-` <?phpclass Foo {    public    $p1; protected $ p2; private   $p3;}$obj u003d new ReflectionObject(new Foo());var_dump($obj->hasProperty("p1"));var_dump($obj->hasProperty("p2"));var_dump($obj- >hasProperty("p3"));var_dump($obj->hasProperty("p4"));?> `
+` <?phpclass Foo {    public    $p1; protected $ p2; private   $p3;}$obj = new ReflectionObject(new Foo());var_dump($obj->hasProperty("p1"));var_dump($obj->hasProperty("p2"));var_dump($obj- >hasProperty("p3"));var_dump($obj->hasProperty("p4"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

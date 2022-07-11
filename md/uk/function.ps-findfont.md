@@ -7,7 +7,7 @@
 
 #ps_findfont
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_findfont — Завантажує шрифт
 
@@ -17,7 +17,7 @@ ps_findfont — Завантажує шрифт
 resource `$psdoc`,
 string `$fontname`,
 string `$encoding`,
-bool `$embed` u003d **`false`**
+bool `$embed` = **`false`**
 ): int
 
 Завантажує шрифт для подальшого використання. Перед виведенням тексту з

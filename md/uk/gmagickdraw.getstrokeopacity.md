@@ -7,7 +7,7 @@
 
 # GmagickDraw::getstrokeopacity
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::getstrokeopacity — Повертає прозорість обведених
 контурів об'єкта

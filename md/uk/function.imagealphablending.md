@@ -7,7 +7,7 @@
 
 # imagealphablending
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagealphablending — Встановлення режиму пару кольорів для зображення
 
@@ -48,12 +48,12 @@ truecolor-зображень, для всіх інших за замовчува
 
 ### Список змін
 
-| Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
+| Версія | Опис                                                                                         |
+| ------ | -------------------------------------------------------------------------------------------- |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagealphablending()****
 
-`<?php// Створення зображення$im u003d imagecreatetruecolor(100, 100);// Включення режимусполучення квітівimagealphablending($im, true);// Малюємо прямокутникimagefilled$0, im, 255, 0, 0));// Вивідheader('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
+`<?php// Створення зображення$im = imagecreatetruecolor(100, 100);// Включення режимусполучення квітівimagealphablending($im, true);// Малюємо прямокутникimagefilled$0, im, 255, 0, 0));// Вивідheader('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `

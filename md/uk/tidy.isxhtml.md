@@ -9,7 +9,7 @@
 
 # tidy_is_xhtml
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::isXhtml -- tidy_is_xhtml — Визначає, чи є документ
 XHTML-документом

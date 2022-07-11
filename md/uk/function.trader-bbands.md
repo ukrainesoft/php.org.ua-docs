@@ -7,7 +7,7 @@
 
 # trader_bbands
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_bbands — Смуги Боллінджера
 
@@ -15,10 +15,10 @@ trader_bbands — Смуги Боллінджера
 
 **trader_bbands**(
 array `$real`,
-int `$timePeriod` u003d ?,
-float `$nbDevUp` u003d ?,
-float `$nbDevDn` u003d ?,
-int `$mAType` u003d ?
+int `$timePeriod` = ?,
+float `$nbDevUp` = ?,
+float `$nbDevDn` = ?,
+int `$mAType` = ?
 ): array
 
 ### Список параметрів

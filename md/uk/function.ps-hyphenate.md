@@ -7,7 +7,7 @@
 
 #ps_hyphenate
 
-(PECL ps \>u003d 1.1.1)
+(PECL ps \>= 1.1.1)
 
 ps_hyphenate - Переносить слово
 
@@ -48,7 +48,7 @@ LC_CTYPE було встановлено коректно. Це робиться
 
 **Приклад #1 Перенесення тексту**
 
-` <?php$word u003d "Koordinatensystem";$psdoc u003d ps_new();ps_set_parameter($psdoc, "hyphendict", "hyph_de.dic");$hyphens u003d ps_hyphenate($psdoc, $word); u003d0; $i<strlen($word); $i++) {  echo $word[$i]; if(in_array($i, $hyphens))    echo "-";}ps_delete($psdoc);?> `
+` <?php$word = "Koordinatensystem";$psdoc = ps_new();ps_set_parameter($psdoc, "hyphendict", "hyph_de.dic");$hyphens = ps_hyphenate($psdoc, $word); =0; $i<strlen($word); $i++) {  echo $word[$i]; if(in_array($i, $hyphens))    echo "-";}ps_delete($psdoc);?> `
 
 Результат виконання цього прикладу:
 

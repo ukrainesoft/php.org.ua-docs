@@ -50,7 +50,7 @@ mysql_fetch_row — Обробляє ряд результатів запиту 
 
 **Приклад #1 Отримання одного ряду за допомогою **mysql_fetch_row()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Помилка запиту: ' . mysql_error(); exit;}$row u003d mysql_fetch_row($result);echo $row[0]; // 42echo $row[1]; // email?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Помилка запиту: ' . mysql_error(); exit;}$row = mysql_fetch_row($result);echo $row[0]; // 42echo $row[1]; // email?> `
 
 ### Примітки
 

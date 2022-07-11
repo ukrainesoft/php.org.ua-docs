@@ -7,7 +7,7 @@
 
 #timezone_identifiers_list
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 timezone_identifiers_list - Псевдонім
 [DateTimeZone::listIdentifiers()](datetimezone.listidentifiers.md)

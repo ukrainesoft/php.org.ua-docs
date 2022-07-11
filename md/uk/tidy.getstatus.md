@@ -9,7 +9,7 @@
 
 # tidy_get_status
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::getStatus -- tidy_get_status — Отримує статус вказаного
 документа
@@ -40,4 +40,4 @@ public **tidy::getStatus**(): int
 
 **Приклад #1 Приклад використання **tidy::getStatus()****
 
-` <?php$html u003d '<p>параграф</i>';$tidy u003d new tidy();$tidy->parseString($html);$tidy2 u003d new tidy();$html2 u003d '<bogus >тест</bogus>';$tidy2->parseString($html2);echo $tidy->getStatus(); //1echo $tidy2->getStatus(); //2?> `
+` <?php$html = '<p>параграф</i>';$tidy = new tidy();$tidy->parseString($html);$tidy2 = new tidy();$html2 = '<bogus >тест</bogus>';$tidy2->parseString($html2);echo $tidy->getStatus(); //1echo $tidy2->getStatus(); //2?> `

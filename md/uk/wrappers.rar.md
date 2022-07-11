@@ -75,7 +75,7 @@ URL-кодування. Сенс цього в тому, щоб дозволит
 
 **Приклад #1 Обхід RAR-архіву**
 
-`<?phpclass MyRecDirIt extends RecursiveDirectoryIterator {    function current() {        return rawurldecode($this->getSubPathName()) . (is_dir(parent::current())?"[DIR]":""); }}$f u003d "rar://" . rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'dirs_and_extra_headers.rar#';$it u003d new RecursiveTreeIterator(new MyRecDirIt($f));foreach ($it as $s) {    echo $s, "
+`<?phpclass MyRecDirIt extends RecursiveDirectoryIterator {    function current() {        return rawurldecode($this->getSubPathName()) . (is_dir(parent::current())?"[DIR]":""); }}$f = "rar://" . rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'dirs_and_extra_headers.rar#';$it = new RecursiveTreeIterator(new MyRecDirIt($f));foreach ($it as $s) {    echo $s, "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -96,37 +96,37 @@ URL-кодування. Сенс цього в тому, щоб дозволит
 
 **Приклад #2 Відкриття зашифрованого файлу (шифрування заголовка)**
 
-` <?php$stream u003d fopen("rar://" .    rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR .    'encrypted_headers.rar' . '#encfile1.txt', "r", false,    stream_context_create(        array(            ' rar' u003d>                array(                    'open_password' u003d> 'samplepassword'                )            )        )    );var_dump(stream_get_contents($stream));/* дата создания и дата последнего доступа включается опционально в WinRAR, поэтому у * большинства файлов их нет */ var_dump(fstat($stream));?> `
+` <?php$stream = fopen("rar://" .    rawurlencode(dirname(__FILE__)) . DIRECTORY_SEPARATOR .    'encrypted_headers.rar' . '#encfile1.txt', "r", false,    stream_context_create(        array(            ' rar' =>                array(                    'open_password' => 'samplepassword'                )            )        )    );var_dump(stream_get_contents($stream));/* дата создания и дата последнего доступа включается опционально в WinRAR, поэтому у * большинства файлов их нет */ var_dump(fstat($stream));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 string(26) "Encrypted file 1 contents."
 Array
 (
-[0] u003d> 0
-[1] u003d> 0
-[2] u003d> 33206
-[3] u003d> 1
-[4] u003d> 0
-[5] u003d> 0
-[6] u003d> 0
-[7] u003d> 26
-[8] u003d> 0
-[9] u003d> 1259550052
-[10] u003d> 0
-[11] u003d> -1
-[12] u003d> -1
-[dev] u003d> 0
-[ino] u003d> 0
-[mode] u003d> 33206
-[nlink] u003d> 1
-[uid] u003d> 0
-[gid] u003d> 0
-[rdev] u003d> 0
-[size] u003d> 26
-[atime] u003d> 0
-[mtime] u003d> 1259550052
-[ctime] u003d> 0
-[blksize] u003d> -1
-[blocks] u003d> -1
+[0] => 0
+[1] => 0
+[2] => 33206
+[3] => 1
+[4] => 0
+[5] => 0
+[6] => 0
+[7] => 26
+[8] => 0
+[9] => 1259550052
+[10] => 0
+[11] => -1
+[12] => -1
+[dev] => 0
+[ino] => 0
+[mode] => 33206
+[nlink] => 1
+[uid] => 0
+[gid] => 0
+[rdev] => 0
+[size] => 26
+[atime] => 0
+[mtime] => 1259550052
+[ctime] => 0
+[blksize] => -1
+[blocks] => -1
 )

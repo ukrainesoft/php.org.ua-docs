@@ -7,7 +7,7 @@
 
 # Thread::getCurrentThreadId
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::getCurrentThreadId — Ідентифікація
 
@@ -30,7 +30,7 @@ public static **Thread::getCurrentThreadId**(): int
 **Приклад #1 Повертає ідентифікатор поточного потоку**
 
 ` <?phpclass|
-", __CLASS__, Thread::getCurrentThreadId());   }}$my u003d new My();$my->start();?> `
+", __CLASS__, Thread::getCurrentThreadId());   }}$my = new My();$my->start();?> `
 
 Результат виконання цього прикладу:
 

@@ -7,14 +7,14 @@
 
 #apache_getenv
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 apache_getenv — Повертає змінну оточення підпроцесу сервера
 Apache
 
 ### Опис
 
-**apache_getenv**(string `$variable`, bool `$walk_to_top` u003d
+**apache_getenv**(string `$variable`, bool `$walk_to_top` =
 **`false`**): string\|false
 
 Повертає змінну оточення сервера Apache, вказану параметром
@@ -41,7 +41,7 @@ Apache чи ні.
 Нижче наведений приклад показує, як можна отримати значення
 змінної оточення сервера Apache `SERVER_ADDR`.
 
-` <?php$ret u003d apache_getenv("SERVER_ADDR");echo $ret;?> `
+` <?php$ret = apache_getenv("SERVER_ADDR");echo $ret;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

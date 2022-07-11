@@ -7,7 +7,7 @@
 
 # exif_tagname
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 exif_tagname — Отримання імені заголовка за його індексом
 

@@ -7,14 +7,14 @@
 
 # OAuthProvider::checkOAuthRequest
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::checkOAuthRequest — Перевірка запиту oauth
 
 ### Опис
 
-public **OAuthProvider::checkOAuthRequest**(string `$uri` u003d ?, string
-`$method` u003d ?): void
+public **OAuthProvider::checkOAuthRequest**(string `$uri` = ?, string
+`$method` = ?): void
 
 Перевіряє запит OAuth.
 

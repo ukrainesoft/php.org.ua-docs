@@ -20,7 +20,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 public static
 **ReflectionProperty::export**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` u003d ?): string
+`$class`, string `$name`, bool `$return` = ?): string
 
 Експортує відображення (reflection).
 

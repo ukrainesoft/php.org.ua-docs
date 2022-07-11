@@ -7,7 +7,7 @@
 
 # Ds\Map::remove
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::remove — Видаляє та повертає значення за ключом
 
@@ -17,7 +17,7 @@ public
 **Ds\Map::remove**([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default` u003d ?):
+`$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Видаляє та повертає значення по ключу, або повертає необов'язкове
@@ -68,7 +68,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::remove()****
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);var_dump($map->remove("a")) ; // 1var_dump($map->remove("e", 10)); // 10 (використовується за замовчанням)?> `
+` <?php$map = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);var_dump($map->remove("a")) ; // 1var_dump($map->remove("e", 10)); // 10 (використовується за замовчанням)?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

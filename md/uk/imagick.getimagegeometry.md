@@ -34,12 +34,12 @@ public **Imagick::getImageGeometry**(): array
 
 **Приклад #1 Приклад використання **Imagick::getImageGeometry()****
 
-` <?php$imagick u003d new Imagick();$imagick->newImage(100, 200, "black");print_r($imagick->getImageGeometry());?> `
+` <?php$imagick = new Imagick();$imagick->newImage(100, 200, "black");print_r($imagick->getImageGeometry());?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[width] u003d> 100
-[height] u003d> 200
+[width] => 100
+[height] => 200
 )

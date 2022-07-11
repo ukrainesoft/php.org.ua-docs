@@ -37,7 +37,7 @@
 
 **Приклад #3 Створення запиту за допомогою callback-функції**
 
-` <?php/* Функція викликається після виконання групи запитів */function my_grp_done($data, $result) { // ...}function my_symlink_done($filename, у result)     $requ003du003deio_rename($filename,"/path/to/new-name"); eio_grp_add($grp, $req); // Можливо, ви захочете додати більше запитів...}// Створення групи запитів$grp u003d eio_grp("my_grp_done", "my_grp_data");// Створення запрошення  функцію$req u003d eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_done", $filename);eio_grp_add($grp, $req);// Виконання запитівeio_e
+` <?php/* Функція викликається після виконання групи запитів */function my_grp_done($data, $result) { // ...}function my_symlink_done($filename, у result)     $req==eio_rename($filename,"/path/to/new-name"); eio_grp_add($grp, $req); // Можливо, ви захочете додати більше запитів...}// Створення групи запитів$grp = eio_grp("my_grp_done", "my_grp_data");// Створення запрошення  функцію$req = eio_symlink($filename, $link, EIO_PRI_DEFAULT, "my_symlink_done", $filename);eio_grp_add($grp, $req);// Виконання запитівeio_e
 
 Група - це спеціальний вид запиту, що дозволяє створити набір звичайних
 *eio*-запитів. Це може бути використано для створення складних
@@ -52,4 +52,4 @@
 
 **Приклад #4 Використання eio спільно з libevent**
 
-`<?phpfunction my_eio_poll($fd, $events, $arg) {    /* Деякі дії с libevent можуть бути тут */    if (eio_n   }    /* .. і тут */}function my_res_cb($d, $r) {   var_dump($r); var_dump($d);}$baseu003du003devent_base_new();$event u003d event_new();// Цей потік потрібно для прив'язки к libevent$fd u003d eio_get_event_stream(" ;eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");/* Інші eio_* запити ... f , EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));// Установка основи подіїevent_base_set($event, $base);// Включення за ($base);/* То ж най доступніше через інтерфейс буфера libevent */?> `
+`<?phpfunction my_eio_poll($fd, $events, $arg) {    /* Деякі дії с libevent можуть бути тут */    if (eio_n   }    /* .. і тут */}function my_res_cb($d, $r) {   var_dump($r); var_dump($d);}$base==event_base_new();$event = event_new();// Цей потік потрібно для прив'язки к libevent$fd = eio_get_event_stream(" ;eio_mkdir("/tmp/abc-eio-temp", 0750, EIO_PRI_DEFAULT, "my_res_cb", "mkdir data");/* Інші eio_* запити ... f , EV_READ /*| EV_PERSIST*/, "my_eio_poll", array($event, $base));// Установка основи подіїevent_base_set($event, $base);// Включення за ($base);/* То ж най доступніше через інтерфейс буфера libevent */?> `

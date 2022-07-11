@@ -7,7 +7,7 @@
 
 # Swoole\Http\Server::on
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Server::on — Прив'язує callback-функцію до HTTP-сервера за
 імені події

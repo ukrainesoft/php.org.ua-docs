@@ -7,13 +7,13 @@
 
 #class_alias
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 class_alias — Створює псевдонім для вказаного класу
 
 ### Опис
 
-**class_alias**(string `$class`, string `$alias`, bool `$autoload` u003d
+**class_alias**(string `$class`, string `$alias`, bool `$autoload` =
 **`true`**): bool
 
 Створює псевдонім `alias` для користувача класу `class`. новий
@@ -40,7 +40,7 @@ class_alias — Створює псевдонім для вказаного кл
 
 **Приклад #1 Приклад використання **class_alias()****
 
-` <?phpclass foo { }class_alias('foo', 'bar');$a u003d new foo;$b u003d new bar;// об'єкти однаковіvar_dump($a u003du003du003d $b, $a u003du003du003du003d ;var_dump($a instanceof $b);// класи однакові var_dump($a instanceof foo);var_dump($a instanceof bar);var_dump($b instanceof foo);var_dump($b 
+` <?phpclass foo { }class_alias('foo', 'bar');$a = new foo;$b = new bar;// об'єкти однаковіvar_dump($a === $b, $a ==== ;var_dump($a instanceof $b);// класи однакові var_dump($a instanceof foo);var_dump($a instanceof bar);var_dump($b instanceof foo);var_dump($b 
 
 Результат виконання цього прикладу:
 

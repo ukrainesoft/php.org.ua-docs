@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Symbol::\_\_toString
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\BSON\Symbol::\_\_toString — Повертає Symbol у вигляді рядка
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getType
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::getType - Повертає ціле число, що позначає
 тип цього сервера

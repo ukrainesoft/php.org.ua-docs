@@ -7,7 +7,7 @@
 
 # VarnishAdmin::setHost
 
-(PECL varnish \>u003d 0.8)
+(PECL varnish \>= 0.8)
 
 VarnishAdmin::setHost — Встановити параметр конфігурації host класу
 

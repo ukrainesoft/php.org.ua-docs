@@ -7,7 +7,7 @@
 
 # Інтерфейс Collectable
 
-(PECL pthreads \>u003d 2.0.8)
+(PECL pthreads \>= 2.0.8)
 
 ## Вступ
 

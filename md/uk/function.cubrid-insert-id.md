@@ -8,14 +8,14 @@
 
 #cubrid_insert_id
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_insert_id — Повертає ідентифікатор, згенерований для
 останнього оновленого стовпця **`AUTO_INCREMENT`**
 
 ### Опис
 
-**cubrid_insert_id**(resource `$conn_identifier` u003d ?): string
+**cubrid_insert_id**(resource `$conn_identifier` = ?): string
 
 Функція **cubrid_insert_id()** повертає ідентифікатор згенерований
 для стовпця AUTO_INCREMENT, що оновлюється попереднім запитом
@@ -54,7 +54,7 @@ AUTO_INCREMENT попередній запит у разі успішного в
 
 **Приклад #1 Приклад використання **cubrid_insert_id()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");@cubrid_execute($conn, "DROP TABLE cubrid_test");cubrid_execute($conn, "CREATE TABLE   ), t varchar)");for ($i u003d 0; $i < 10; $i++) {   cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cud) ();var_dump($id);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");@cubrid_execute($conn, "DROP TABLE cubrid_test");cubrid_execute($conn, "CREATE TABLE   ), t varchar)");for ($i = 0; $i < 10; $i++) {   cubrid_execute($conn, "INSERT INTO cubrid_test(t) VALUES('cud) ();var_dump($id);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 

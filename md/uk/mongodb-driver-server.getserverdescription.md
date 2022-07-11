@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getServerDescription
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Server::getServerDescription — Повертає
 ServerDescription сервера

@@ -22,7 +22,7 @@ int `$y`,
 int `$color`,
 string `$font_filename`,
 string `$text`,
-array `$options` u003d []
+array `$options` = []
 ): array\|false
 
 Наносить текст `text` поверх зображення, використовуючи шрифт TrueType.
@@ -84,7 +84,7 @@ y-координат. Це позиція базової лінії шрифту
 У багатьох випадках, коли шрифт знаходиться в тому ж каталозі, що і скрипт
 PHP допоможе наступний трюк.
 
-` <?php// Установка змінної оточення для GDputenv('GDFONTPATHu003d' . realpath('.'));// Ім'я шрифту для використання (зверніть указ, f| > `
+` <?php// Установка змінної оточення для GDputenv('GDFONTPATH=' . realpath('.'));// Ім'я шрифту для використання (зверніть указ, f| > `
 
 > **Примітка**:
 >
@@ -116,9 +116,9 @@ PHP допоможе наступний трюк.
 
 ### Список змін
 
-| Версія | Опис                        |
-| ------ | --------------------------- |
-| 8.0.0  | Доданий параметр `options`. |
+| Версія | Опис                      |
+| ------ | ------------------------- |
+| 8.0.0  | Доданий параметр options. |
 
 ### Приклади
 
@@ -128,7 +128,7 @@ PHP допоможе наступний трюк.
 400x30 пікселів та написом "Тест..." чорним кольором (з сірою тінню)
 шрифт Arial.
 
-`<?php//Тип вмістуheader('Content-Type: image/png');// Створення зображення$im u003d imagecreatetruecolor(400, 30);// Створення квітів$white u003d imagecoloralloca 255);$greyu003du003dimagecolorallocate($im, 128, 128, 128); // Текст написи$text u003d 'Тест...';// Заміна шляху до шрифту на пользовательский$font u003d 'arial.ttf';// Тіньimagettftext($im, 20, 0, 11,$2 font, $text);// Текстimagettftext($im, 20, 0, 10, 20, $black, $font, $text);imagepng($im);imagedestroy($im);?> `
+`<?php//Тип вмістуheader('Content-Type: image/png');// Створення зображення$im = imagecreatetruecolor(400, 30);// Створення квітів$white = imagecoloralloca 255);$grey==imagecolorallocate($im, 128, 128, 128); // Текст написи$text = 'Тест...';// Заміна шляху до шрифту на пользовательский$font = 'arial.ttf';// Тіньimagettftext($im, 20, 0, 11,$2 font, $text);// Текстimagettftext($im, 20, 0, 10, 20, $black, $font, $text);imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -138,7 +138,7 @@ imagettftext()](images/21009b70229598c6a80eef8b45bf282b-imagettftext.png)
 ### Примітки
 
 > **Примітка**: Ця функція доступна лише у випадку, якщо PHP був
-> скомпільований за допомогою freetype (**--with-freetype-diru003dDIR**)
+> скомпільований за допомогою freetype (**--with-freetype-dir=DIR**)
 
 ### Дивіться також
 

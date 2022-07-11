@@ -13,8 +13,8 @@ readfile — Виводить файл
 
 ### Опис
 
-**readfile**(string `$filename`, bool `$use_include_path` u003d **`false`**,
-?resource `$context` u003d **`null`**): int\|false
+**readfile**(string `$filename`, bool `$use_include_path` = **`false`**,
+?resource `$context` = **`null`**): int\|false
 
 Читає файл та записує його у буфер виводу.
 
@@ -45,7 +45,7 @@ readfile — Виводить файл
 
 **Приклад #1 Примусове завантаження за допомогою **readfile()****
 
-` <?php$file u003d 'monkey.gif';if (file_exists($file)) {    header('Content-Description: File Transfer'); header('Content-Type: application/octet-stream'); header('Content-Disposition: attachment; filenameu003d"'.basename($file).'"'); header('Expires: 0'); header('Cache-Control: must-revalidate'); header('Pragma: public'); header('Content-Length: ' . filesize($file)); readfile($file); exit;}?> `
+` <?php$file = 'monkey.gif';if (file_exists($file)) {    header('Content-Description: File Transfer'); header('Content-Type: application/octet-stream'); header('Content-Disposition: attachment; filename="'.basename($file).'"'); header('Expires: 0'); header('Cache-Control: must-revalidate'); header('Pragma: public'); header('Content-Length: ' . filesize($file)); readfile($file); exit;}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

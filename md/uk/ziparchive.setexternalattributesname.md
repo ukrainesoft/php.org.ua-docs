@@ -7,7 +7,7 @@
 
 # ZipArchive::setExternalAttributesName
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8, PECL zip \>u003d 1.12.4)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
 
 ZipArchive::setExternalAttributesName — Встановлення зовнішніх атрибутів
 запису, заданого на ім'я
@@ -18,7 +18,7 @@ public **ZipArchive::setExternalAttributesName**(
 string `$name`,
 int `$opsys`,
 int `$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 Встановлення зовнішніх атрибутів запису, заданого на ім'я.
@@ -50,6 +50,6 @@ ZipArchive::OPSYS\_.
 
 **Приклад #1 Стиснення файлу з його правами Unix**
 
-` <?php$zip u003d new ZipArchive();$stat u003d stat($filenameu003d'test.txt');if (is_array($stat) && $zip->open('test.zip', ZipArchive:: CREATE) u003du003du003d TRUE) {    $zip->addFile($filename); $zip->setExternalAttributesName($filename, ZipArchive::OPSYS_UNIX, $stat['mode'] << 16); $zip->close(); echo "готово
+` <?php$zip = new ZipArchive();$stat = stat($filename='test.txt');if (is_array($stat) && $zip->open('test.zip', ZipArchive:: CREATE) === TRUE) {    $zip->addFile($filename); $zip->setExternalAttributesName($filename, ZipArchive::OPSYS_UNIX, $stat['mode'] << 16); $zip->close(); echo "готово
 ";} else {    echo "помилка
 ";}?> `

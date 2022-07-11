@@ -7,7 +7,7 @@
 
 # svn_auth_set_parameter
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_auth_set_parameter — Встановлює параметр автентифікації
 

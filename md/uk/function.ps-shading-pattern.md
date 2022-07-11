@@ -7,7 +7,7 @@
 
 #ps_shading_pattern
 
-(PECL ps \>u003d 1.3.0)
+(PECL ps \>= 1.3.0)
 
 ps_shading_pattern — Створює візерунок на основі затінення
 

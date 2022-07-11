@@ -36,7 +36,7 @@ public **ArrayObject::count**(): int
 
 **Приклад #1 Приклад використання **ArrayObject::count()****
 
-'third'));var_dump($arrayobj->count());?> `` <?phpclass Example {    public $public u003d 'prop:public'; private $prv   u003d 'prop:private'; protected $prt u003d 'prop:protected';}$arrayobj u003d new ArrayObject(new Example());var_dump($arrayobj->count());$arrayobj u003d new ArrayObject(array('first','secon 
+'third'));var_dump($arrayobj->count());?> `` <?phpclass Example {    public $public = 'prop:public'; private $prv   = 'prop:private'; protected $prt = 'prop:protected';}$arrayobj = new ArrayObject(new Example());var_dump($arrayobj->count());$arrayobj = new ArrayObject(array('first','secon 
 
 Результат виконання цього прикладу:
 

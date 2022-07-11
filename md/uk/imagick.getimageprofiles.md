@@ -13,8 +13,8 @@ Imagick::getImageProfiles — Повертає профілі зображень
 
 ### Опис
 
-public **Imagick::getImageProfiles**(string `$pattern` u003d "\*", bool
-`$include_values` u003d **`true`**): array
+public **Imagick::getImageProfiles**(string `$pattern` = "\*", bool
+`$include_values` = **`true`**): array
 
 Повертає всі пов'язані профілі, які відповідають шаблону. Якщо в
 як другий параметр передається **`false`**, повертаються тільки

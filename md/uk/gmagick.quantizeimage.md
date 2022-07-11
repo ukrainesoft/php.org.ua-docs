@@ -7,7 +7,7 @@
 
 # Gmagick::quantizeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::quantizeimage — Аналізує кольори еталонного зображення
 

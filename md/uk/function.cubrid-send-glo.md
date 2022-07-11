@@ -7,7 +7,7 @@
 
 #cubrid_send_glo
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_send_glo — Читання даних з glo та виведення їх у стандартне
 пристрій виводу
@@ -37,7 +37,7 @@ Oid екземпляра glo з якого ви хочете прочитати 
 
 **Приклад #1 Приклад використання **cubrid_send_glo()****
 
-`<?php$req u003d cubrid_execute ($con, "select image from person where id u003d1");if ($req) { list|($oid) u003d cubrid_fetch($req); cubrid_close_request($req); Header("Content-type:image/jpeg"); cubrid_send_glo ($con, $oid);}?> `
+`<?php$req = cubrid_execute ($con, "select image from person where id =1");if ($req) { list|($oid) = cubrid_fetch($req); cubrid_close_request($req); Header("Content-type:image/jpeg"); cubrid_send_glo ($con, $oid);}?> `
 
 ### Примітки
 

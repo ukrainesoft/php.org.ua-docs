@@ -7,7 +7,7 @@
 
 # SolrQuery::setMltMaxNumTokens
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setMltMaxNumTokens — Задає максимальну кількість токенів
 для аналізу

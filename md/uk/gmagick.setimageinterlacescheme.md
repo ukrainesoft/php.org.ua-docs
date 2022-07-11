@@ -7,7 +7,7 @@
 
 # Gmagick::setimageinterlacescheme
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageinterlacescheme — Встановлює схему черезрядкової
 розгортки зображення

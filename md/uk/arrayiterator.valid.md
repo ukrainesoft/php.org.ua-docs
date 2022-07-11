@@ -30,4 +30,4 @@ public **ArrayIterator::valid**(): bool
 
 **Приклад #1 Приклад використання **ArrayIterator::valid()****
 
-` <?php$array u003d array('1' u003d> 'one');$arrayobject u003d new ArrayObject($array);$iterator u003d $arrayobject->getIterator();var_dump($iterator->valid()) ; //bool(true)$iterator->next(); // переміщуємо вказівник на наступний елемент//bool(false) потому що в масиві тільки один елементvar_dump($iterator->valid());?> `
+` <?php$array = array('1' => 'one');$arrayobject = new ArrayObject($array);$iterator = $arrayobject->getIterator();var_dump($iterator->valid()) ; //bool(true)$iterator->next(); // переміщуємо вказівник на наступний елемент//bool(false) потому що в масиві тільки один елементvar_dump($iterator->valid());?> `

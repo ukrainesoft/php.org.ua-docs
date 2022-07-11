@@ -8,7 +8,7 @@
 
 # GearmanClient::setWorkloadCallback
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setWorkloadCallback - Встановлення callback-функції,
 приймає проміжні результати від обробника завдань

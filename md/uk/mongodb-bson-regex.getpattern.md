@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Regex::getPattern
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Regex::getPattern — Повертає шаблон Regex
 
@@ -32,7 +32,7 @@ final public **MongoDB\BSON\Regex::getPattern**(): string
 
 **Приклад #1 Приклад використання **MongoDB\BSON\Regex::getPattern()****
 
-` <?php$regex u003d new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getPattern());?> `
+` <?php$regex = new MongoDB\BSON\Regex('regex', 'i');var_dump($regex->getPattern());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

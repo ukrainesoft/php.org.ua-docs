@@ -8,7 +8,7 @@
 
 #array_search
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 array_search — Здійснює пошук даного значення в масиві та
 повертає ключ першого знайденого елемента у разі успішного
@@ -17,7 +17,7 @@ array_search — Здійснює пошук даного значення в м
 ### Опис
 
 **array_search**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$needle`, array `$haystack`, bool `$strict` u003d **`false`**):
+`$needle`, array `$haystack`, bool `$strict` = **`false`**):
 int\|string\|false
 
 Шукає в `haystack` значення `needle`.
@@ -56,14 +56,14 @@ int\|string\|false
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **array_search()****
 
-` <?php$array u003d array(0 u003d> 'blue', 1 u003d> 'red', 2 u003d> 'green', 3 u003d> 'red');$key u003d array_search('green', $array) ; // $key u003d 2;$key u003d array_search('red', $array); // $key u003d 1;?> `
+` <?php$array = array(0 => 'blue', 1 => 'red', 2 => 'green', 3 => 'red');$key = array_search('green', $array) ; // $key = 2;$key = array_search('red', $array); // $key = 1;?> `
 
 ### Дивіться також
 

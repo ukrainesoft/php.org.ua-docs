@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\CursorId::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\CursorId::\_\_construct - Створює новий об'єкт CursorId
 (не використовується)

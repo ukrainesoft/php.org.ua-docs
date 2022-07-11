@@ -7,14 +7,14 @@
 
 # SolrQuery::setFacetSort
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetSort — Визначає порядок обмежень поля фасету
 
 ### Опис
 
 public **SolrQuery::setFacetSort**(int `$facetSort`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Визначає порядок обмежень поля фасету
 

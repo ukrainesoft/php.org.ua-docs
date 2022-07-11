@@ -7,7 +7,7 @@
 
 # yaz_element
 
-(PHP 4 u003d 4.0.1, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
 
 yaz_element — Вказує ім'я набору елементів для пошуку
 

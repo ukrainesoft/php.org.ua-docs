@@ -7,7 +7,7 @@
 
 #imagecolorclosestalpha
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecolorclosestalpha — Отримання індексу кольору найближчого до заданого
 з урахуванням прозорості
@@ -56,7 +56,7 @@ RGB значенню, а також `alpha` рівню.
 
 **Приклад #1 Пошук набору кольорів зображення**
 
-` <?php// Створення зображення і перетворення його в палітрове$im u003d imagecreatefrompng('figures/imagecolorclosest.png');imagetruecolortopalette($im, false, 255);//   | array(254, 145, 154, 50), 8; 5 цвету и поиск ближайшего к нему в палитре.// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствиеforeach($colors as $id u003d> $rgb){    $result u003d imagecolorclosestalpha($im, $rgb[0], $ rgb[1], $rgb[2], $rgb[3]); $resultu003du003dimagecolorsforindex($im,$result); $result u003d "({$result['red']}, {$result['green']}, {$result['blue']}, {$result['alpha']})"; echo "#$id: Пошук ($rgb[0], $rgb[1], $rgb[2], $rgb[3]); Найближча подібність: $result.
+` <?php// Створення зображення і перетворення його в палітрове$im = imagecreatefrompng('figures/imagecolorclosest.png');imagetruecolortopalette($im, false, 255);//   | array(254, 145, 154, 50), 8; 5 цвету и поиск ближайшего к нему в палитре.// Возврат номера по порядку, RGB искомого цвета и найденное RGB соответствиеforeach($colors as $id => $rgb){    $result = imagecolorclosestalpha($im, $rgb[0], $ rgb[1], $rgb[2], $rgb[3]); $result==imagecolorsforindex($im,$result); $result = "({$result['red']}, {$result['green']}, {$result['blue']}, {$result['alpha']})"; echo "#$id: Пошук ($rgb[0], $rgb[1], $rgb[2], $rgb[3]); Найближча подібність: $result.
 ";}imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

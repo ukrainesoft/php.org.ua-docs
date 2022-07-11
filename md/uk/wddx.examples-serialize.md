@@ -18,18 +18,18 @@
 
 Цей приклад створює:
 
-<wddxPacket versionu003d'1.0'><header commentu003d'PHP packet'/><data>
+<wddxPacket version='1.0'><header comment='PHP packet'/><data>
 <string>PHP to WDDX packet example</string></data></wddxPacket>
 
 **Приклад #2 Використання інкрементальних пакетів WDDX**
 
-` <?php$pi u003d 3.1415926;$packet_id u003d wddx_packet_start("PHP");wddx_add_vars($packet_id, "pi");/* Предпожим, за завжди| ", "Novato", "Seattle");wddx_add_vars($packet_id, "cities");$packet u003d wddx_packet_end($packet_id);echo $packet;?> `
+` <?php$pi = 3.1415926;$packet_id = wddx_packet_start("PHP");wddx_add_vars($packet_id, "pi");/* Предпожим, за завжди| ", "Novato", "Seattle");wddx_add_vars($packet_id, "cities");$packet = wddx_packet_end($packet_id);echo $packet;?> `
 
 Цей приклад створює:
 
-<wddxPacket versionu003d'1.0'><header commentu003d'PHP'/><data><struct>
-<var nameu003d'pi'><number>3.1415926</number></var><var nameu003d'cities'>
-<array lengthu003d'3'><string>Austin</string><string>Novato</string>
+<wddxPacket version='1.0'><header comment='PHP'/><data><struct>
+<var name='pi'><number>3.1415926</number></var><var name='cities'>
+<array length='3'><string>Austin</string><string>Novato</string>
 <string>Seattle</string></array></var></struct></data></wddxPacket>
 
 > **Примітка**:

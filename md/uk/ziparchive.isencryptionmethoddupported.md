@@ -7,7 +7,7 @@
 
 # ZipArchive::isEncryptionMethodSupported
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.19.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.19.0)
 
 ZipArchive::isEncryptionMethodSupported — Перевіряє, чи підтримується
 метод шифрування libzip
@@ -15,7 +15,7 @@ ZipArchive::isEncryptionMethodSupported — Перевіряє, чи підтр�
 ### Опис
 
 public static **ZipArchive::isEncryptionMethodSupported**(int `$method`,
-bool `$enc` u003d **`true`**): bool
+bool `$enc` = **`true`**): bool
 
 Перевіряє, чи підтримується метод шифрування libzip.
 

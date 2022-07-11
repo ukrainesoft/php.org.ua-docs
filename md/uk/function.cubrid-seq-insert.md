@@ -7,7 +7,7 @@
 
 #cubrid_seq_insert
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_seq_insert — Вставляє елемент у стовпець типу послідовності,
 використовуючи OID
@@ -52,30 +52,30 @@ OID екземпляра, з яким ви хочете працювати.
 
 **Приклад #1 Приклад використання **cubrid_seq_insert()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c sequence(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3) }, {11,22,33,333}, 'a')");$req u003d cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);cubrid_move_cursor($Rq; $req);$attr u003d cubrid_col_get($conn, $oid, "c");var_dump($attr);cubrid_seq_insert($conn, $oid, "c", 5, "44");$attr u003d cubrid $conn, $oid, "c");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c sequence(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3) }, {11,22,33,333}, 'a')");$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);cubrid_move_cursor($Rq; $req);$attr = cubrid_col_get($conn, $oid, "c");var_dump($attr);cubrid_seq_insert($conn, $oid, "c", 5, "44");$attr = cubrid $conn, $oid, "c");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 string(2) "11"
-[1]u003d>
+[1]=>
 string(2) "22"
-[2]u003d>
+[2]=>
 string(2) "33"
-[3]u003d>
+[3]=>
 string(3) "333"
 }
 array(5) {
-[0]u003d>
+[0]=>
 string(2) "11"
-[1]u003d>
+[1]=>
 string(2) "22"
-[2]u003d>
+[2]=>
 string(2) "33"
-[3]u003d>
+[3]=>
 string(3) "333"
-[4]u003d>
+[4]=>
 string(2) "44"
 }
 

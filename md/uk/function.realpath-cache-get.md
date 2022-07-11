@@ -7,7 +7,7 @@
 
 #realpath_cache_get
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8)
 
 realpath_cache_get — Отримує записи з кеша realpath
 
@@ -36,17 +36,17 @@ realpath, а значення є масивами даних, що містят�
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["/test"] u003d> array(4) {
-["key"] u003d> int(123456789)
-["is_dir"] u003d> bool(true)
-["realpath"] u003d> string(5) "/test"
-["expires"] u003d> int(1260318939)
+["/test"] => array(4) {
+["key"] => int(123456789)
+["is_dir"] => bool(true)
+["realpath"] => string(5) "/test"
+["expires"] => int(1260318939)
 }
-["/test/test.php"] u003d> array(4) {
-["key"] u003d> int(987654321)
-["is_dir"] u003d> bool(false)
-["realpath"] u003d> string(12) "/root/test.php"
-["expires"] u003d> int(1260318939)
+["/test/test.php"] => array(4) {
+["key"] => int(987654321)
+["is_dir"] => bool(false)
+["realpath"] => string(12) "/root/test.php"
+["expires"] => int(1260318939)
 }
 }
 

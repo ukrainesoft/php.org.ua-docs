@@ -7,7 +7,7 @@
 
 #eio_truncate
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_truncate — Зменшує розмір файлу
 
@@ -15,11 +15,11 @@ eio_truncate — Зменшує розмір файлу
 
 **eio_truncate**(
 string `$path`,
-int `$offset` u003d 0,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$offset` = 0,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_truncate()** урізує файл, дескриптор якого вказаний у параметрі

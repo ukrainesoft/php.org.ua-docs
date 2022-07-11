@@ -7,7 +7,7 @@
 
 # fann_get_bit_fail
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_bit_fail - Кількість бітів збою
 

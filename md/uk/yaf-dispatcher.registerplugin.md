@@ -7,7 +7,7 @@
 
 # Yaf_Dispatcher::registerPlugin
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::registerPlugin — Реєструє плагін
 
@@ -32,7 +32,7 @@ public
 
 **Приклад #1 Приклад використання **Yaf_Dispatcher::registerPlugin()****
 
-`<?phpclass Bootstrap extends Yaf_Bootstrap_Abstract { public function _initPlugin(Yaf_Dispatcher $dispatcher) {    /**    * Yaf             "/plugins" для цього випадку буде:  * [application.directory] . "/plugins/". "User" . [application.ext]   */    $user u003d new UserPlugin(); $dispatcher->registerPlugin($user); }}?> `
+`<?phpclass Bootstrap extends Yaf_Bootstrap_Abstract { public function _initPlugin(Yaf_Dispatcher $dispatcher) {    /**    * Yaf             "/plugins" для цього випадку буде:  * [application.directory] . "/plugins/". "User" . [application.ext]   */    $user = new UserPlugin(); $dispatcher->registerPlugin($user); }}?> `
 
 ### Дивіться також
 

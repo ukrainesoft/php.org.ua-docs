@@ -7,7 +7,7 @@
 
 #ssh2_methods_negotiated
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_methods_negotiated — Повертає список узгоджених методів
 
@@ -29,7 +29,7 @@ ssh2_methods_negotiated — Повертає список узгоджених �
 
 **Приклад #1 Визначимо, які методи узгоджені**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);$methods u003d ssh2_methods_negotiated($connection);echo "Ключі шифрування узгоджуються методом: {$methods['k
+` <?php$connection = ssh2_connect('shell.example.com', 22);$methods = ssh2_methods_negotiated($connection);echo "Ключі шифрування узгоджуються методом: {$methods['k
 ";echo "Сервер ідентифікований з використанням {$methods['hostkey']} і ";echo "відбитком: " . ssh2_fingerprint($connection) . ""
 ";echo "Пакети від клієнта до серверу:
 ";echo " Шифрування: {$methods['client_to_server']['crypt']}

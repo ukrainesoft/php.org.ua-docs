@@ -7,7 +7,7 @@
 
 # Exception::getPrevious
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 Exception::getPrevious — Повертає попередній об'єкт, що реалізує
 Throwable
@@ -37,7 +37,7 @@ final public **Exception::getPrevious**():
 Прохід та друк ланцюга винятків.
 
 ` <?phpclass MyCustomException extends Exception {}function doStuff() {    try {        throw new InvalidArgumentException("Ти не!"1| } catch(Exception $e) {        throw new MyCustomException("Щось відбулося", 911, $e); }}try {    doStuff();} catch(Exception $e) {    do {         printf("%s:%d %s (%d) [%s]
-", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));    } while($e u003d $e- >getPrevious());}?> `
+", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));    } while($e = $e- >getPrevious());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

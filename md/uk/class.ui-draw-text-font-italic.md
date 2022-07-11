@@ -17,10 +17,10 @@ final class **UI\Draw\Text\Font\Italic** {
 
 /\* Constants \*/
 
-const int `Normal` u003d 0;
+const int `Normal` = 0;
 
-const int `Oblique` u003d 1;
+const int `Oblique` = 1;
 
-const int `Italic` u003d 2;
+const int `Italic` = 2;
 
 }

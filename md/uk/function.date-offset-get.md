@@ -7,7 +7,7 @@
 
 # date_offset_get
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 date_offset_get - Псевдонім
 [DateTime::getOffset()](datetime.getoffset.md)

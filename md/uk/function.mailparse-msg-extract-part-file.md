@@ -7,7 +7,7 @@
 
 #mailparse_msg_extract_part_file
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_extract_part_file — Витягти/декодувати секцію з
 повідомленням з файлу
@@ -16,7 +16,7 @@ mailparse_msg_extract_part_file — Витягти/декодувати секц
 
 **mailparse_msg_extract_part_file**(resource `$mimemail`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$filename`, [callable](language.types.callable.md) `$callbackfunc` u003d
+`$filename`, [callable](language.types.callable.md) `$callbackfunc` =
 ?): string
 
 Вийняти/декодувати секцію з повідомленням із вказаного файлу.

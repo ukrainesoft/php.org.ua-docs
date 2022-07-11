@@ -7,7 +7,7 @@
 
 # GearmanWorker::addOptions
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::addOptions — Додавання налаштувань обробника
 

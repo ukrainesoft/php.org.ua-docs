@@ -39,11 +39,11 @@ public **mysqli_stmt::attr_set**(int `$attribute`, int `$value`): bool
 `attribute`
 Атрибут, що встановлюється. Він може приймати такі значення:
 
-| Символ                             | Опис                                                                                                                                                                                                                      |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH | Якщо дорівнює **`true`**, то [mysqli_stmt_store_result()](mysqli-stmt.store-result.md) оновлює метадані значенням `MYSQL_FIELD->max_length`.                                                                              |
-| MYSQLI_STMT_ATTR_CURSOR_TYPE       | Тип покажчика, який потрібно відкрити для запиту під час виклику [mysqli_stmt_execute()](mysqli-stmt.execute.md). `value` може бути `MYSQLI_CURSOR_TYPE_NO_CURSOR` (за замовчуванням) або `MYSQLI_CURSOR_TYPE_READ_ONLY`. |
-| MYSQLI_STMT_ATTR_PREFETCH_ROWS     | Число рядків, які потрібно вибрати з сервера під час використання покажчика. `value` може бути в діапазоні від 1 максимального значення типу unsigned long. За замовчуванням одно 1.                                      |
+| Символ                             | Опис                                                                                                                                                                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MYSQLI_STMT_ATTR_UPDATE_MAX_LENGTH | Якщо дорівнює **true**, то [mysqli_stmt_store_result()](mysqli-stmt.store-result.md) оновлює метадані значенням MYSQL_FIELD->max_length.                                                                            |
+| MYSQLI_STMT_ATTR_CURSOR_TYPE       | Тип покажчика, який потрібно відкрити для запиту під час виклику [mysqli_stmt_execute()](mysqli-stmt.execute.md). value може бути MYSQLI_CURSOR_TYPE_NO_CURSOR (за замовчуванням) або MYSQLI_CURSOR_TYPE_READ_ONLY. |
+| MYSQLI_STMT_ATTR_PREFETCH_ROWS     | Число рядків, які потрібно вибрати з сервера під час використання покажчика. value може бути в діапазоні від 1 максимального значення типу unsigned long. За замовчуванням одно 1.                                  |
 
 **Значення атрибуту**
 

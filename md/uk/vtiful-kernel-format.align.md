@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Format::align
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Format::align — Вирівнювання
 
@@ -33,4 +33,4 @@ public **Vtiful\Kernel\Format::align**(resource `$handle`, int `$style`)
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel  u003d new \Vtiful\Kernel\Excel($config);$fileObject u003d $excel->fileName('tutorial01.xlsx') ;$fileHandleu003du003d$fileObject->getHandle();$alignStyleu003du003d\Vtiful\Kernel\Format::align($fileHandle, \Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT);$fileObject->header(['name', 'age'])   ->data([['viest', 21]]))    ->setColumn('A:A', 200, $align)   ->output();?> `
+` <?php$config = [   'path' => './tests'];$excel  = new \Vtiful\Kernel\Excel($config);$fileObject = $excel->fileName('tutorial01.xlsx') ;$fileHandle==$fileObject->getHandle();$alignStyle==\Vtiful\Kernel\Format::align($fileHandle, \Vtiful\Kernel\Format::FORMAT_ALIGN_LEFT);$fileObject->header(['name', 'age'])   ->data([['viest', 21]]))    ->setColumn('A:A', 200, $align)   ->output();?> `

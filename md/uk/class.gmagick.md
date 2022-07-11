@@ -7,7 +7,7 @@
 
 # Клас Gmagick
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **Gmagick** {
 
 /\* Методи \*/
 
-public [\_\_construct](gmagick.construct.md)(string `$filename` u003d ?)
+public [\_\_construct](gmagick.construct.md)(string `$filename` = ?)
 
 public [addimage](gmagick.addimage.md)([Gmagick](class.gmagick.md)
 `$source`): [Gmagick](class.gmagick.md)
@@ -34,7 +34,7 @@ string `$text`
 ): [Gmagick](class.gmagick.md)
 
 public [blurimage](gmagick.blurimage.md)(float `$radius`, float
-`$sigma`, int `$channel` u003d ?): [Gmagick](class.gmagick.md)
+`$sigma`, int `$channel` = ?): [Gmagick](class.gmagick.md)
 
 public
 [borderimage](gmagick.borderimage.md)([GmagickPixel](class.gmagickpixel.md)
@@ -223,7 +223,7 @@ public [levelimage](gmagick.levelimage.md)(
 float `$blackPoint`,
 float `$gamma`,
 float `$whitePoint`,
-int `$channel` u003d Gmagick::CHANNEL_DEFAULT
+int `$channel` = Gmagick::CHANNEL_DEFAULT
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -249,12 +249,12 @@ public [newimage](gmagick.newimage.md)(
 int `$width`,
 int `$height`,
 string `$background`,
-string `$format` u003d ?
+string `$format` = ?
 ): [Gmagick](class.gmagick.md)
 
 public [nextimage](gmagick.nextimage.md)(): bool
 
-public [normalizeimage](gmagick.normalizeimage.md)(int `$channel` u003d
+public [normalizeimage](gmagick.normalizeimage.md)(int `$channel` =
 ?): [Gmagick](class.gmagick.md)
 
 public [oilpaintimage](gmagick.oilpaintimage.md)( float `$radius` ):
@@ -285,14 +285,14 @@ public
 [queryfontmetrics](gmagick.queryfontmetrics.md)([GmagickDraw](class.gmagickdraw.md)
 `$draw`, string `$text`): array
 
-public [queryfonts](gmagick.queryfonts.md)(string `$pattern` u003d "\*"):
+public [queryfonts](gmagick.queryfonts.md)(string `$pattern` = "\*"):
 array
 
-public [queryformats](gmagick.queryformats.md)(string `$pattern` u003d
+public [queryformats](gmagick.queryformats.md)(string `$pattern` =
 "\*"): array
 
 public [radialblurimage](gmagick.radialblurimage.md)(float `$angle`,
-int `$channel` u003d Gmagick::CHANNEL_DEFAULT):
+int `$channel` = Gmagick::CHANNEL_DEFAULT):
 [Gmagick](class.gmagick.md)
 
 public [raiseimage](gmagick.raiseimage.md)(
@@ -310,10 +310,10 @@ public [readimage](gmagick.readimage.md)(string `$filename`):
 [Gmagick](class.gmagick.md)
 
 public [readimageblob](gmagick.readimageblob.md)(string
-`$imageContents`, string `$filename` u003d ?): [Gmagick](class.gmagick.md)
+`$imageContents`, string `$filename` = ?): [Gmagick](class.gmagick.md)
 
 public [readimagefile](gmagick.readimagefile.md)(resource `$fp`,
-string `$filename` u003d ?): [Gmagick](class.gmagick.md)
+string `$filename` = ?): [Gmagick](class.gmagick.md)
 
 public [reducenoiseimage](gmagick.reducenoiseimage.md)(float
 `$radius`): [Gmagick](class.gmagick.md)
@@ -336,7 +336,7 @@ int `$width`,
 int `$height`,
 int `$filter`,
 float `$blur`,
-bool `$fit` u003d **`false`**
+bool `$fit` = **`false`**
 ): [Gmagick](class.gmagick.md)
 
 public [rollimage](gmagick.rollimage.md)(int `$x`, int `$y`):
@@ -347,13 +347,13 @@ public
 `$color`, float `$degrees`): [Gmagick](class.gmagick.md)
 
 public [scaleimage](gmagick.scaleimage.md)(int `$width`, int
-`$height`, bool `$fit` u003d **`false`**): [Gmagick](class.gmagick.md)
+`$height`, bool `$fit` = **`false`**): [Gmagick](class.gmagick.md)
 
 public [separateimagechannel](gmagick.separateimagechannel.md)(int
 `$channel`): [Gmagick](class.gmagick.md)
 
 [setCompressionQuality](gmagick.setcompressionquality.md)( int
-`$quality` u003d 75): [Gmagick](class.gmagick.md)
+`$quality` = 75): [Gmagick](class.gmagick.md)
 
 public [setfilename](gmagick.setfilename.md)(string `$filename`):
 [Gmagick](class.gmagick.md)
@@ -458,13 +458,13 @@ public [swirlimage](gmagick.swirlimage.md)(float `$degrees`):
 [Gmagick](class.gmagick.md)
 
 public [thumbnailimage](gmagick.thumbnailimage.md)(int `$width`, int
-`$height`, bool `$fit` u003d **`false`**): [Gmagick](class.gmagick.md)
+`$height`, bool `$fit` = **`false`**): [Gmagick](class.gmagick.md)
 
 public [trimimage](gmagick.trimimage.md)(float `$fuzz`):
 [Gmagick](class.gmagick.md)
 
 public [writeimage](gmagick.writeimage.md)(string `$filename`, bool
-`$all_frames` u003d **`false`**): [Gmagick](class.gmagick.md)
+`$all_frames` = **`false`**): [Gmagick](class.gmagick.md)
 
 }
 

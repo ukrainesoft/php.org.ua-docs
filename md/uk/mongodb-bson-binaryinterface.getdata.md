@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\BinaryInterface::getData
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\BSON\BinaryInterface::getData — Повертає дані
 BinaryInterface

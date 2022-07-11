@@ -7,14 +7,14 @@
 
 #cubrid_fetch_field
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_fetch_field — Отримання інформації про стовпчик результуючого
 набору у вигляді об'єкта
 
 ### Опис
 
-**cubrid_fetch_field**(resource `$result`, int `$field_offset` u003d 0):
+**cubrid_fetch_field**(resource `$result`, int `$field_offset` = 0):
 object
 
 Функція повертає об'єкт, у властивостях якого міститься інформація про
@@ -78,7 +78,7 @@ object
 
 **Приклад #1 Приклад використання **cubrid_fetch_field()****
 
-`<?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date| ;var_dump(cubrid_fetch_row($req));cubrid_field_seek($req, 1);$field u003d cubrid_fetch_field($req);printf("
+`<?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT event_code,athlete_code,nation_code,game_date| ;var_dump(cubrid_fetch_row($req));cubrid_field_seek($req, 1);$field = cubrid_fetch_field($req);printf("
 --- Field Properties ---
 ");printf("%-30s %s
 ", "ім'я стовпця:", $field->name);printf("%-30s %s
@@ -98,13 +98,13 @@ object
 Результат виконання цього прикладу:
 
 array(4) {
-[0]u003d>
+[0]=>
 string(5) "20001"
-[1]u003d>
+[1]=>
 string(5) "16681"
-[2]u003d>
+[2]=>
 string(3) "KOR"
-[3]u003d>
+[3]=>
 string(9) "1988-9-30"
 }
 

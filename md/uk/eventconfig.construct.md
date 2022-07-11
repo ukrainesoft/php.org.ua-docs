@@ -7,7 +7,7 @@
 
 # EventConfig::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventConfig::\_\_construct — Створити об'єкт EventConfig
 
@@ -30,8 +30,8 @@ public **EventConfig::\_\_construct**()
 
 **Приклад #1 Приклад використання **EventConfig::\_\_construct()****
 
-` <?php// Ігноруємо метод "select"$cfg u003d new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
-";}// Створюємо event_base, пов'язаний з цим конфігом $ base u003d u003d новий EventBase ($ cfg);
+` <?php// Ігноруємо метод "select"$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
+";}// Створюємо event_base, пов'язаний з цим конфігом $ base = = новий EventBase ($ cfg);
 
 ### Дивіться також
 

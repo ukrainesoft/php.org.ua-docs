@@ -7,7 +7,7 @@
 
 #imagecreatefromxpm
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromxpm — Створення нового зображення з файлу або URL
 

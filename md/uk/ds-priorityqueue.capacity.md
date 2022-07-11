@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ public **Ds\PriorityQueue::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\PriorityQueue::capacity()****
 
-` <?php$queue u003d new \Ds\PriorityQueue();var_dump($queue->capacity());?> `
+` <?php$queue = new \Ds\PriorityQueue();var_dump($queue->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

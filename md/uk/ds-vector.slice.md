@@ -7,13 +7,13 @@
 
 # Ds\Vector::slice
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::slice — Повертає підвектор із заданого діапазону
 
 ### Опис
 
-public **Ds\Vector::slice**(int `$index`, int `$length` u003d ?):
+public **Ds\Vector::slice**(int `$index`, int `$length` = ?):
 [Ds\Vector](class.ds-vector.md)
 
 Повертає підвектор з діапазону заданого початковим індексом `index` та
@@ -43,37 +43,37 @@ public **Ds\Vector::slice**(int `$index`, int `$length` u003d ?):
 
 **Приклад #1 Приклад використання **Ds\Vector::slice()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c", "d", "e"]);// Slice from 2 onwardsprint_r($vector->slice(2) ));// Slice from 1, for a length of 3print_r($vector->slice(1, 3));// Slice from 1 onwardsprint_r($vector->slice(1));// Slice the end onwardsprint_r($vector->slice(-2));// Slice from 1 to 1 from the endprint_r($vector->slice(1, -1));?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c", "d", "e"]);// Slice from 2 onwardsprint_r($vector->slice(2) ));// Slice from 1, for a length of 3print_r($vector->slice(1, 3));// Slice from 1 onwardsprint_r($vector->slice(1));// Slice the end onwardsprint_r($vector->slice(-2));// Slice from 1 to 1 from the endprint_r($vector->slice(1, -1));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> c
-[1] u003d> d
-[2] u003d> e
+[0] => c
+[1] => d
+[2] => e
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> e
+[0] => b
+[1] => c
+[2] => d
+[3] => e
 )
 Ds\Vector Object
 (
-[0] u003d> d
-[1] u003d> e
+[0] => d
+[1] => e
 )
 Ds\Vector Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )

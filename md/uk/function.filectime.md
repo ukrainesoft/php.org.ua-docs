@@ -36,7 +36,7 @@ filectime — Повертає час зміни індексного дескр
 
 **Приклад #1 Приклад використання функції **filectime()****
 
-` <?php// Приклад висновку: Файл somefile.txt в останній раз був змінений: December 29 2002 22:16:23.$filename u003d 'somefile.txt';  filename в останній раз був змінений: "". date("F d Y H:i:s.", filectime($filename));}?> `
+` <?php// Приклад висновку: Файл somefile.txt в останній раз був змінений: December 29 2002 22:16:23.$filename = 'somefile.txt';  filename в останній раз був змінений: "". date("F d Y H:i:s.", filectime($filename));}?> `
 
 ### Примітки
 

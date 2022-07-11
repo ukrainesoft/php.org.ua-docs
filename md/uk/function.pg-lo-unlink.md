@@ -7,7 +7,7 @@
 
 #pg_lo_unlink
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_lo_unlink — Видалення великого об'єкта
 
@@ -48,15 +48,15 @@ pg_lo_unlink — Видалення великого об'єкта
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                             |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `connection` тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                           |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_unlink()****
 
-`<?php   // OID віддаленого об'єкта   $doc_oid u003d 189762345; $databaseu003du003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); pg_lo_unlink($database, $doc_oid); pg_query($database, "commit");?> `
+`<?php   // OID віддаленого об'єкта   $doc_oid = 189762345; $database==pg_connect("dbname=jacarta"); pg_query($database, "begin"); pg_lo_unlink($database, $doc_oid); pg_query($database, "commit");?> `
 
 ### Дивіться також
 

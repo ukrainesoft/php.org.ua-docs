@@ -7,7 +7,7 @@
 
 #pg_result_error
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_result_error — Повертає повідомлення про помилку, пов'язане із запитом
 результату
@@ -48,15 +48,15 @@ string\|false
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `result` тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                               |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_result_error()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  $res1 u003d pg_get_result($dbconn); echo pg_result_error($res1);?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  $res1 = pg_get_result($dbconn); echo pg_result_error($res1);?> `
 
 ### Дивіться також
 

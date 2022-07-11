@@ -7,7 +7,7 @@
 
 # Gmagick::setimageresolution
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageresolution — Встановлює роздільну здатність зображення
 

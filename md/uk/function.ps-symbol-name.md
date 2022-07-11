@@ -7,13 +7,13 @@
 
 #ps_symbol_name
 
-(PECL ps \>u003d 1.2.0)
+(PECL ps \>= 1.2.0)
 
 ps_symbol_name — Отримує ім'я гліфа
 
 ### Опис
 
-**ps_symbol_name**(resource `$psdoc`, int `$ord`, int `$fontid` u003d 0):
+**ps_symbol_name**(resource `$psdoc`, int `$ord`, int `$fontid` = 0):
 string
 
 Для функції потрібен файл метрик шрифтів Adobe, щоб знати, які

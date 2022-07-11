@@ -43,7 +43,7 @@ public **tidy::head**(): ?[tidyNode](class.tidynode.md)
 
 **Приклад #1 Приклад використання **tidy::head()****
 
-` <?php$html u003d '<html>  <head>   <title>тест</title>  </head>  <body>    <p>параграф</p>  </body></html>';$tidy u003d tidy_parse_string($html);$head u003d $tidy->head();echo $head->value;?> `
+` <?php$html = '<html>  <head>   <title>тест</title>  </head>  <body>    <p>параграф</p>  </body></html>';$tidy = tidy_parse_string($html);$head = $tidy->head();echo $head->value;?> `
 
 Результат виконання цього прикладу:
 

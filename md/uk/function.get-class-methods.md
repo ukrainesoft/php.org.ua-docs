@@ -36,7 +36,7 @@ get_class_methods - Повертає масив імен методів клас
 
 **Приклад #1 Приклад використання **get_class_methods()****
 
-`<?phpclass myclass {    // конструктор   function __construct()   {        return(true); }    // метод 1    function myfunc1()    {        return(true); }    // метод 2    function myfunc2()    {        return(true); }}$class_methods u003d get_class_methods('myclass');// або$class_methods u003d get_class_methods(new myclass());foreach ($class_methods as $method_name) {             
+`<?phpclass myclass {    // конструктор   function __construct()   {        return(true); }    // метод 1    function myfunc1()    {        return(true); }    // метод 2    function myfunc2()    {        return(true); }}$class_methods = get_class_methods('myclass');// або$class_methods = get_class_methods(new myclass());foreach ($class_methods as $method_name) {             
 ";}?> `
 
 Результат виконання цього прикладу:

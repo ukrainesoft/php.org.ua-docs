@@ -34,15 +34,15 @@ final public **Exception::getTrace**(): array
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(4) {
-["file"]u003d>
+["file"]=>
 string(22) "/home/bjori/tmp/ex.php"
-["line"]u003d>
+["line"]=>
 int(7)
-["function"]u003d>
+["function"]=>
 string(4) "test"
-["args"]u003d>
+["args"]=>
 array(0) {
 }
 }

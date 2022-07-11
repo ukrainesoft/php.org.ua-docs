@@ -7,7 +7,7 @@
 
 #imageantialias
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 imageantialias — Чи потрібно застосовувати функції згладжування чи ні
 
@@ -46,7 +46,7 @@ imageantialias — Чи потрібно застосовувати функці
 
 | Версія | Опис                                                                                                                                                                |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `image` тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                                                      |
+| 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                                                        |
 | 7.2.0  | Функція **imageantialias()** доступна без обмежень. Раніше вона була доступна тільки якщо PHP був зібраний з використанням бібліотеки GD, що йде з ним в комплекті. |
 
 ### Приклади
@@ -54,7 +54,7 @@ imageantialias — Чи потрібно застосовувати функці
 **Приклад #1 Порівняння двох ліній, одна з яких малюється з увімкненим
 згладжуванням**
 
-` <?php// Створення двох зображень$aa u003d imagecreatetruecolor(400, 100);$normal u003d imagecreatetruecolor(200, 100);// Включення згладжування для одного  u003d imagecolorallocate($normal, 255, 0, 0);$red_aau003du003dimagecolorallocate($aa, 255, 0, 0); $aa, 0, 0, 200, 100, $red_aa);// Розміщення рядів для порівняння (АА: зліва, Звичайне: справа)imagecopymerge($aa, $0, 0 0,0 , 100);// Висновок результатуheader('Content-type: image/png');imagepng($aa);imagedestroy($aa);imagedestroy($normal);?> `
+` <?php// Створення двох зображень$aa = imagecreatetruecolor(400, 100);$normal = imagecreatetruecolor(200, 100);// Включення згладжування для одного  = imagecolorallocate($normal, 255, 0, 0);$red_aa==imagecolorallocate($aa, 255, 0, 0); $aa, 0, 0, 200, 100, $red_aa);// Розміщення рядів для порівняння (АА: зліва, Звичайне: справа)imagecopymerge($aa, $0, 0 0,0 , 100);// Висновок результатуheader('Content-type: image/png');imagepng($aa);imagedestroy($aa);imagedestroy($normal);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,13 +7,13 @@
 
 # Memcache::getServerStatus
 
-(PECL memcache \>u003d 2.1.0)
+(PECL memcache \>= 2.1.0)
 
 Memcache::getServerStatus — Повертає статус сервера
 
 ### Опис
 
-**Memcache::getServerStatus**(string `$host`, int `$port` u003d 11211): int
+**Memcache::getServerStatus**(string `$host`, int `$port` = 11211): int
 
 **Memcache::getServerStatus()** повертає статус онлайн/офлайн
 серверів. Ви також можете використати функцію
@@ -40,7 +40,7 @@ Memcache::getServerStatus — Повертає статус сервера
 
 **Приклад #1 Приклад використання **Memcache::getServerStatus()****
 
-`<?php/* об'єктно-орієнтоване API */$memcache u003d new Memcache;$memcache->addServer('memcache_host', 11211);echo $memcache->getServerStatus('m це /$memcache u003d memcache_connect('memcache_host', 11211);echo memcache_get_server_status($memcache, 'memcache_host', 11211);?> `
+`<?php/* об'єктно-орієнтоване API */$memcache = new Memcache;$memcache->addServer('memcache_host', 11211);echo $memcache->getServerStatus('m це /$memcache = memcache_connect('memcache_host', 11211);echo memcache_get_server_status($memcache, 'memcache_host', 11211);?> `
 
 ### Дивіться також
 

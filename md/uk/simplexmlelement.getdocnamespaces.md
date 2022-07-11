@@ -7,15 +7,15 @@
 
 # SimpleXMLElement::getDocNamespaces
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SimpleXMLElement::getDocNamespaces — Повертає простір імен,
 оголошені у документі
 
 ### Опис
 
-public **SimpleXMLElement::getDocNamespaces**(bool `$recursive` u003d
-**`false`**, bool `$fromRoot` u003d **`true`**): array\|false
+public **SimpleXMLElement::getDocNamespaces**(bool `$recursive` =
+**`false`**, bool `$fromRoot` = **`true`**): array\|false
 
 Повертає простір імен, оголошених у документі
 
@@ -39,27 +39,27 @@ public **SimpleXMLElement::getDocNamespaces**(bool `$recursive` u003d
 
 **Приклад #1 Отримання простору імен документа**
 
-` <?php$xml u003d <<<XML<?xml versionu003d"1.0" standaloneu003d"yes"?><people xmlns:pu003d"http://example.org/ns">    <p:person idu003d "1">John Doe</p:person>    <p:person idu003d"2">Susie Q. Public</p:person></people>XML;$sxe u003d new SimpleXMLElement($xml);$namespaces u003d $sxe->getDocNamespaces();var_dump($namespaces);?> `
+` <?php$xml = <<<XML<?xml version="1.0" standalone="yes"?><people xmlns:p="http://example.org/ns">    <p:person id= "1">John Doe</p:person>    <p:person id="2">Susie Q. Public</p:person></people>XML;$sxe = new SimpleXMLElement($xml);$namespaces = $sxe->getDocNamespaces();var_dump($namespaces);?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["p"]u003d>
+["p"]=>
 string(21) "http://example.org/ns"
 }
 
 **Приклад #2 Робота з кількома просторами імен**
 
-` <?php$xml u003d <<<XML<?xml versionu003d"1.0" standaloneu003d"yes"?><people xmlns:pu003d"http://example.org/ns" xmlns:tu003d"http: //example.org/test">    <p:person t:idu003d"1">John Doe</p:person>    <p:person t:idu003d"2" a:addru003d"123 Street" xmlns: au003d"http://example.org/addr">         Susie Q. Public    </p:person></people>XML;$sxe u003d new SimpleXMLElement($xml);$namespaces u003d $sName );var_dump($namespaces);?> `
+` <?php$xml = <<<XML<?xml version="1.0" standalone="yes"?><people xmlns:p="http://example.org/ns" xmlns:t="http: //example.org/test">    <p:person t:id="1">John Doe</p:person>    <p:person t:id="2" a:addr="123 Street" xmlns: a="http://example.org/addr">         Susie Q. Public    </p:person></people>XML;$sxe = new SimpleXMLElement($xml);$namespaces = $sName );var_dump($namespaces);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-["p"]u003d>
+["p"]=>
 string(21) "http://example.org/ns"
-["t"]u003d>
+["t"]=>
 string(23) "http://example.org/test"
-["a"]u003d>
+["a"]=>
 string(23) "http://example.org/addr"
 }
 

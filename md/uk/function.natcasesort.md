@@ -47,7 +47,7 @@ natcasesort — Сортує масив, використовуючи алгор
 
 **Приклад #1 Приклад використання **natcasesort()****
 
-` <?php$array1 u003d $array2 u003d array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');sort ($array1);echo "Звичайне сортування
+` <?php$array1 = $array2 = array('IMG0.png', 'img12.png', 'img10.png', 'img2.png', 'img1.png', 'IMG3.png');sort ($array1);echo "Звичайне сортування
 ";print_r($array1);natcasesort($array2);echo "
 Natural order сортування (без обліку реєстру)
 ";print_r($array2);?> `
@@ -57,23 +57,23 @@ Natural order сортування (без обліку реєстру)
 Звичайне сортування
 Array
 (
-[0] u003d> IMG0.png
-[1] u003d> IMG3.png
-[2] u003d> img1.png
-[3] u003d> img10.png
-[4] u003d> img12.png
-[5] u003d> img2.png
+[0] => IMG0.png
+[1] => IMG3.png
+[2] => img1.png
+[3] => img10.png
+[4] => img12.png
+[5] => img2.png
 )
 
 Natural order сортування (без урахування регістру)
 Array
 (
-[0] u003d> IMG0.png
-[4] u003d> img1.png
-[3] u003d> img2.png
-[5] u003d> IMG3.png
-[2] u003d> img10.png
-[1] u003d> img12.png
+[0] => IMG0.png
+[4] => img1.png
+[3] => img2.png
+[5] => IMG3.png
+[2] => img10.png
+[1] => img12.png
 )
 
 Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).

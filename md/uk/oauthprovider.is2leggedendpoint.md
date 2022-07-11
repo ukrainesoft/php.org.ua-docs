@@ -7,7 +7,7 @@
 
 # OAuthProvider::is2LeggedEndpoint
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::is2LeggedEndpoint — is2LeggedEndpoint
 
@@ -37,7 +37,7 @@ public
 **Приклад #1 Приклад використання
 **OAuthProvider::is2LeggedEndpoint()****
 
-` <?php$provider u003d new OAuthProvider();$provider->is2LeggedEndpoint(true);?> `
+` <?php$provider = new OAuthProvider();$provider->is2LeggedEndpoint(true);?> `
 
 ### Дивіться також
 

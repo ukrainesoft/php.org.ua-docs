@@ -40,4 +40,4 @@ int `$y`
 
 **Приклад #1 Приклад використання **Imagick::shadowImage()****
 
-`<?phpfunction shadowImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->shadowImage(0.4, 10, 50, 5); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction shadowImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->shadowImage(0.4, 10, 50, 5); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

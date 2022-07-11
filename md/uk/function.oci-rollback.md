@@ -7,7 +7,7 @@
 
 #oci_rollback
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_rollback - Відкочує транзакції, що очікують обробки
 
@@ -47,11 +47,11 @@ Oracle `connection` і завершує транзакцію. Вона тако�
 
 **Приклад #1 Приклад використання **oci_rollback()****
 
-`<?php// Вставка в кілька таблиць, відкат змін в випадку виникнення помилки$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d id, name) VALUES (1, 'Chris')");// Прапор OCI_NO_AUTO_COMMIT повідомляє Oracle не фіксувати запит INSERT при його надходженні// Для і_HP| stid, OCI_NO_AUTO_COMMIT);if (!$r) {    $e u003d oci_error($stid); trigger_error(htmlentities($e['message']), E_USER_ERROR);}$stid u003d oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)')_O; if (!$r) {    $e u003d oci_error($stid); oci_rollback($conn); // відкат змін із двох таблиць    trigger_error(htmlentities($e['message']), E_USER_ERROR);}// Фіксація змін в   ¦                      Ях ($ Conn); trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
+`<?php// Вставка в кілька таблиць, відкат змін в випадку виникнення помилки$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = id, name) VALUES (1, 'Chris')");// Прапор OCI_NO_AUTO_COMMIT повідомляє Oracle не фіксувати запит INSERT при його надходженні// Для і_HP| stid, OCI_NO_AUTO_COMMIT);if (!$r) {    $e = oci_error($stid); trigger_error(htmlentities($e['message']), E_USER_ERROR);}$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)')_O; if (!$r) {    $e = oci_error($stid); oci_rollback($conn); // відкат змін із двох таблиць    trigger_error(htmlentities($e['message']), E_USER_ERROR);}// Фіксація змін в   ¦                      Ях ($ Conn); trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
 
 **Приклад #2 Приклад використання відкату до `SAVEPOINT`**
 
-` <?php$stid u003d oci_parse($conn, 'UPDATE mytab SET id u003d 1111');oci_execute($stid, OCI_NO_AUTO_COMMIT);// Створюємо точку збереження$stid ' ($stid, OCI_NO_AUTO_COMMIT);$stid u003d oci_parse($conn, 'UPDATE mytab SET id u003d 2222');oci_execute($stid, OCI_NO_AUTO_COMMIT); $conn, 'ROLLBACK TO SAVEPOINT mysavepoint');oci_execute($stid, OCI_NO_AUTO_COMMIT);oci_commit($conn); // mytab тепер містить id рівні 1111?> `
+` <?php$stid = oci_parse($conn, 'UPDATE mytab SET id = 1111');oci_execute($stid, OCI_NO_AUTO_COMMIT);// Створюємо точку збереження$stid ' ($stid, OCI_NO_AUTO_COMMIT);$stid = oci_parse($conn, 'UPDATE mytab SET id = 2222');oci_execute($stid, OCI_NO_AUTO_COMMIT); $conn, 'ROLLBACK TO SAVEPOINT mysavepoint');oci_execute($stid, OCI_NO_AUTO_COMMIT);oci_commit($conn); // mytab тепер містить id рівні 1111?> `
 
 ### Примітки
 

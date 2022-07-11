@@ -22,8 +22,8 @@ string `$auth_passphrase`,
 string `$privacy_protocol`,
 string `$privacy_passphrase`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -71,7 +71,7 @@ int `$retries` u003d -1
 
 **Приклад #1 Приклад використання **snmp3_get()****
 
-` <?php$nameOfSecondInterface u003d snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.' > `
+` <?php$nameOfSecondInterface = snmp3_get('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName.' > `
 
 ### Дивіться також
 

@@ -8,7 +8,7 @@
 
 #eio_seek
 
-(PECL eio \>u003d 0.5.0b)
+(PECL eio \>= 0.5.0b)
 
 eio_seek - Переміщує файловий покажчик файлу `fd` на число байт
 `offset` відповідно до директиви `whence`
@@ -20,10 +20,10 @@ eio_seek - Переміщує файловий покажчик файлу `fd` 
 `$fd`,
 int `$offset`,
 int `$whence`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_seek()** змінює зсув файлового покажчика, пов'язаного з

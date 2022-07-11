@@ -20,7 +20,7 @@ float `$size`,
 float `$angle`,
 string `$font_filename`,
 string `$string`,
-array `$options` u003d []
+array `$options` = []
 ): array\|false
 
 Ця функція розраховує та повертає параметри рамки навколо TrueType
@@ -59,7 +59,7 @@ array `$options` u003d []
 У багатьох випадках, коли шрифт знаходиться в тому ж каталозі, що і скрипт
 PHP допоможе наступний трюк.
 
-` <?php// Установка змінної оточення для GDputenv('GDFONTPATHu003d' . realpath('.'));// Ім'я шрифту для використання (зверніть указ, f| > `
+` <?php// Установка змінної оточення для GDputenv('GDFONTPATH=' . realpath('.'));// Ім'я шрифту для використання (зверніть указ, f| > `
 
 > **Примітка**:
 >
@@ -92,20 +92,20 @@ PHP допоможе наступний трюк.
 
 ### Список змін
 
-| Версія | Опис                        |
-| ------ | --------------------------- |
-| 8.0.0  | Доданий параметр `options`. |
+| Версія | Опис                      |
+| ------ | ------------------------- |
+| 8.0.0  | Доданий параметр options. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagettfbbox()****
 
-`<?php// створення зображення 300x150$im u003d imagecreatetruecolor(300, 150);$black u003d imagecolorallocate($im, 0, 0, 0);$white u003d imagecolorallocate(5, 5,5 / Білий фонimagefilledrectangle($im, 0, 0, 299, 299, $white);// Шлях к файлу шрифту$font u003d './arial.ttf';// створюємо рамку для    , $font, 'Powered by PHP ' . phpversion());// наші координати X і Y$x u003d $bbox[0] + (imagesx($im) / 2) - ($b - 25;$y u003d $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;// Пишемо текстimagettftext($im, 10, 45, $ y, $black, $font, 'Powered by PHP ' . phpversion());// створюємо іншу рамку для іншого тексту$bbox u003d imagettfbbox(10, 45, $font, ' // задаємо координати так, щоб текст йшов відразу за першою написом$x u003d $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2 | $                                      | 1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;// Пишемо другу написimagettftext($im, 10, 45, $x, $y, $black, 'and Zend Engine ' . zend_versio n());// Висновок в браузерheader('Content-Type:image/png');imagepng($im);imagedestroy($im);?> `
+`<?php// створення зображення 300x150$im = imagecreatetruecolor(300, 150);$black = imagecolorallocate($im, 0, 0, 0);$white = imagecolorallocate(5, 5,5 / Білий фонimagefilledrectangle($im, 0, 0, 299, 299, $white);// Шлях к файлу шрифту$font = './arial.ttf';// створюємо рамку для    , $font, 'Powered by PHP ' . phpversion());// наші координати X і Y$x = $bbox[0] + (imagesx($im) / 2) - ($b - 25;$y = $bbox[1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;// Пишемо текстimagettftext($im, 10, 45, $ y, $black, $font, 'Powered by PHP ' . phpversion());// створюємо іншу рамку для іншого тексту$bbox = imagettfbbox(10, 45, $font, ' // задаємо координати так, щоб текст йшов відразу за першою написом$x = $bbox[0] + (imagesx($im) / 2) - ($bbox[4] / 2 | $                                      | 1] + (imagesy($im) / 2) - ($bbox[5] / 2) - 5;// Пишемо другу написimagettftext($im, 10, 45, $x, $y, $black, 'and Zend Engine ' . zend_versio n());// Висновок в браузерheader('Content-Type:image/png');imagepng($im);imagedestroy($im);?> `
 
 ### Примітки
 
 > **Примітка**: Ця функція доступна лише у випадку, якщо PHP був
-> скомпільований за допомогою freetype (**--with-freetype-diru003dDIR**)
+> скомпільований за допомогою freetype (**--with-freetype-dir=DIR**)
 
 ### Дивіться також
 

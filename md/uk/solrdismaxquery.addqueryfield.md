@@ -15,7 +15,7 @@ SolrDisMaxQuery::addQueryField — Додає поле запиту з необ�
 ### Опис
 
 public **SolrDisMaxQuery::addQueryField**(string `$field`, string
-`$boost` u003d ?): [SolrDisMaxQuery](class.solrdismaxquery.md)
+`$boost` = ?): [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 Додає поле запиту з необов'язковим підвищенням
 
@@ -35,11 +35,11 @@ public **SolrDisMaxQuery::addQueryField**(string `$field`, string
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::addQueryField()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery   ->addQueryField("location", 4)   ->addQueryField("price") d" ,3.4);echo $dismaxQuery;?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addQueryField("location", 4)   ->addQueryField("price") d" ,3.4);echo $dismaxQuery;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&qfu003dlocation^4 price sku title^3.4
+q=lucene&defType=edismax&qf=location^4 price sku title^3.4
 
 ### Дивіться також
 

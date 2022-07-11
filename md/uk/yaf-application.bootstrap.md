@@ -7,7 +7,7 @@
 
 # Yaf_Application::bootstrap
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::bootstrap — Викликати bootstrap
 
@@ -15,7 +15,7 @@ Yaf_Application::bootstrap — Викликати bootstrap
 
 public
 **Yaf_Application::bootstrap**([Yaf_Bootstrap_Abstract](class.yaf-bootstrap-abstract.md)
-$bootstrap u003d ?): void
+$bootstrap = ?): void
 
 Запускає Bootstrap, всі методи, визначені в Bootstrap і іменовані з
 префіксом \init будуть викликані в порядку їх визначення. Якщо параметр
@@ -42,7 +42,7 @@ application.directory.
 
 **Приклад #2 Приклад використання **Yaf_Application::bootstrap()****
 
-` <?phpdefined('APPLICATION_PATH') // Буде використаний APPLICATION_PATH    || define('APPLICATION_PATH', __DIR__);$application u003d new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap();?> `
+` <?phpdefined('APPLICATION_PATH') // Буде використаний APPLICATION_PATH    || define('APPLICATION_PATH', __DIR__);$application = new Yaf_Application(APPLICATION_PATH.'/conf/application.ini');$application->bootstrap();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

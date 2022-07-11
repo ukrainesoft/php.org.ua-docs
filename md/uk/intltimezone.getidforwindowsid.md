@@ -9,7 +9,7 @@
 
 # intltz_get_id_for_windows_id
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 IntlTimeZone::getIDForWindowsID -- intltz_get_id_for_windows_id
 Перетворити часовий пояс для Windows на системний часовий пояс
@@ -19,12 +19,12 @@ IntlTimeZone::getIDForWindowsID -- intltz_get_id_for_windows_id
 Об'єктно-орієнтований стиль (метод):
 
 public static **IntlTimeZone::getIDForWindowsID**(string `$timezoneId`,
-?string `$region` u003d **`null`**): string\|false
+?string `$region` = **`null`**): string\|false
 
 Процедурний стиль:
 
 **intltz_get_id_for_windows_id**(string `$timezoneId`, ?string `$region`
-u003d **`null`**): string\|false
+= **`null`**): string\|false
 
 Перекладає часовий пояс для Windows (наприклад, "Pacific Standard Time")
 системний часовий пояс (наприклад, "America/Los_Angeles").
@@ -49,9 +49,9 @@ u003d **`null`**): string\|false
 
 ### Список змін
 
-| Версія | Опис                                                  |
-| ------ | ----------------------------------------------------- |
-| 8.0.0  | Параметр `region` тепер допускає значення **`null`**. |
+| Версія | Опис                                              |
+| ------ | ------------------------------------------------- |
+| 8.0.0  | Параметр region тепер допускає значення **null**. |
 
 ### Дивіться також
 

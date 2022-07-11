@@ -7,14 +7,14 @@
 
 # ZipArchive::getCommentIndex
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.4.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.4.0)
 
 ZipArchive::getCommentIndex — Повертає коментар елемента, використовуючи
 його індекс
 
 ### Опис
 
-public **ZipArchive::getCommentIndex**(int `$index`, int `$flags` u003d 0):
+public **ZipArchive::getCommentIndex**(int `$index`, int `$flags` = 0):
 string\|false
 
 Повертає коментар елемента, використовуючи його індекс.
@@ -37,4 +37,4 @@ string\|false
 
 **Приклад #1 Вивести коментар елемента**
 
-` <?php$zip u003d new ZipArchive;$res u003d $zip->open('test1.zip');if ($res u003du003du003d TRUE) {   var_dump($zip->getCommentIndex(1));} else {    echo 'Помилка з кодом:' . $res;}?> `
+` <?php$zip = new ZipArchive;$res = $zip->open('test1.zip');if ($res === TRUE) {   var_dump($zip->getCommentIndex(1));} else {    echo 'Помилка з кодом:' . $res;}?> `

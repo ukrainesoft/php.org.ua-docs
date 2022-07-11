@@ -7,7 +7,7 @@
 
 # SplFileObject::fpassthru
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fpassthru — Виводить весь вміст файлу, що залишився в
 вихідний потік
@@ -36,7 +36,7 @@ public **SplFileObject::fpassthru**(): int
 
 **Приклад #1 Приклад використання **SplFileObject::fpassthru()****
 
-` <?php//Відкрити файл в режимі читання двійкових даних$file u003d new SplFileObject("./img/ok.png", "rb");// Відправити правильні заголовкиheader("Conte ;header("Content-Length: " . $file->getSize());// Вивести зображення і завершити роботу скрипта$file->fpassthru();exit;?> `
+` <?php//Відкрити файл в режимі читання двійкових даних$file = new SplFileObject("./img/ok.png", "rb");// Відправити правильні заголовкиheader("Conte ;header("Content-Length: " . $file->getSize());// Вивести зображення і завершити роботу скрипта$file->fpassthru();exit;?> `
 
 ### Дивіться також
 

@@ -26,7 +26,7 @@ addslashes — Екранує рядок за допомогою слішів
 Невеликий приклад використання функції **addslashes()** для
 екранування перелічених вище символів:
 
-` <?php$stru003du003d"O'Reilly?";eval("echo '" . addslashes($str) . "';");?> `
+` <?php$str=="O'Reilly?";eval("echo '" . addslashes($str) . "';");?> `
 
 Іноді функцію **addslashes()** некоректно намагаються використовувати для
 запобігання [SQL-ін'єкцій](security.database.sql-injection.md). Не
@@ -46,7 +46,7 @@ addslashes — Екранує рядок за допомогою слішів
 
 **Приклад #1 Приклад використання **addslashes()****
 
-`<?php$stru003du003d"Ваше ім'я O'Reilly?";// виводить: Ваше ім'яO'Reilly?echo addslashes($str);?> `
+`<?php$str=="Ваше ім'я O'Reilly?";// виводить: Ваше ім'яO'Reilly?echo addslashes($str);?> `
 
 ### Дивіться також
 

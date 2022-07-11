@@ -24,8 +24,8 @@
 
 | int Значення | string Псевдонім             |
 | ------------ | ---------------------------- |
-| `0`          | 'CRLF', 'crlf', 'DOS', 'dos' |
-| `1`          | `LF`, `lf`, `UNIX`, `unix`   |
-| `2`          | 'CR', 'cr', 'MAC', 'mac'     |
+| 0            | 'CRLF', 'crlf', 'DOS', 'dos' |                            
+| 1            | LF, lf, UNIX, unix           |
+| 2            | 'CR', 'cr', 'MAC', 'mac'     |
 
 `phpdbg.path` string

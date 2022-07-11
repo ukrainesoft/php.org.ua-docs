@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::getLogicalSessionId
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::getLogicalSessionId — Повертає логічний
 ідентифікатор сеансу для цього сеансу

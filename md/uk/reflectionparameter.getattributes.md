@@ -13,8 +13,8 @@ ReflectionParameter::getAttributes — Отримує атрибути
 
 ### Опис
 
-public **ReflectionParameter::getAttributes**(?string `$name` u003d
-**`null`**, int `$flags` u003d 0): array
+public **ReflectionParameter::getAttributes**(?string `$name` =
+**`null`**, int `$flags` = 0): array
 
 Повертає всі атрибути, оголошені в цьому параметрі у вигляді масиву
 [ReflectionAttribute](class.reflectionattribute.md).

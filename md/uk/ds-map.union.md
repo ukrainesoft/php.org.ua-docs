@@ -7,7 +7,7 @@
 
 # Ds\Map::union
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::union — Створює нову колекцію пар із елементів двох колекцій
 
@@ -19,7 +19,7 @@ public **Ds\Map::union**([Ds\Map](class.ds-map.md) `$map`):
 Створює нову колекцію пар, що містить пари поточної та переданої в
 `map` колекцій.
 
-`A ∪ B u003d {x: x ∈ A ∨ x ∈ B}`
+`A ∪ B = {x: x ∈ A ∨ x ∈ B}`
 
 > **Примітка**:
 >
@@ -45,34 +45,34 @@ public **Ds\Map::union**([Ds\Map](class.ds-map.md) `$map`):
 
 **Приклад #1 Приклад використання **Ds\Map::union()****
 
-` <?php$a u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);$b u003d new \Ds\Map(["b" u003d> 3, "c" u003d> 4, "d" u003d> 5]);print_r($a->union($b));?> `
+` <?php$a = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$b = new \Ds\Map(["b" => 3, "c" => 4, "d" => 5]);print_r($a->union($b));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 3
+[key] => b
+[value] => 3
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 4
+[key] => c
+[value] => 4
 )
 
-[3] u003d> Ds\Pair Object
+[3] => Ds\Pair Object
 (
-[key] u003d> d
-[value] u003d> 5
+[key] => d
+[value] => 5
 )
 
 )

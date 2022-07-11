@@ -8,7 +8,7 @@
 
 # escapeshellarg
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 escapeshellarg — Екранувати рядок для того, щоб він міг бути
 використана як аргумент командного рядка

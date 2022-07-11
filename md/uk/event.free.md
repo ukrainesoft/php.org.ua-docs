@@ -8,7 +8,7 @@
 
 # Event::free
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 Event::free — Перевести подію в пасивний стан та звільнити все
 виділені йому ресурси

@@ -8,7 +8,7 @@
 
 # SolrQuery::getMltMinDocFrequency
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getMltMinDocFrequency — Повертає граничну частоту, з
 якої будуть ігноруватися слова, яких немає, принаймні,

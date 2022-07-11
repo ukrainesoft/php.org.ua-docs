@@ -7,7 +7,7 @@
 
 # PDO::pgsqlLOBUnlink
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql u003d 1.0.2)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql = 1.0.2)
 
 PDO::pgsqlLOBUnlink — Видалити великий об'єкт
 
@@ -39,7 +39,7 @@ public **PDO::pgsqlLOBUnlink**(string `$oid`): bool
 [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md) та
 [PDO::pgsqlLOBOpen()](pdo.pgsqllobopen.md).
 
-` <?php$db u003d new PDO('pgsql:dbnameu003dtest hostu003dlocalhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$db->pgsqlLOBUnlink($oid);$stmt u003d$db->prepare("DELETE FROM BLOBS where ident u003d ?");$stmt->execute(array($some_id));$db-> commit();?> `
+` <?php$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$db->pgsqlLOBUnlink($oid);$stmt =$db->prepare("DELETE FROM BLOBS where ident = ?");$stmt->execute(array($some_id));$db-> commit();?> `
 
 ### Дивіться також
 

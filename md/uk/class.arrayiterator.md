@@ -30,19 +30,19 @@ class **ArrayIterator** implements
 
 /\* Константи \*/
 
-const int `STD_PROP_LIST` u003d 1;
+const int `STD_PROP_LIST` = 1;
 
-const int `ARRAY_AS_PROPS` u003d 2;
+const int `ARRAY_AS_PROPS` = 2;
 
 /\* Методи \*/
 
 public [\_\_construct](arrayiterator.construct.md)(array\|object
-`$array` u003d [], int `$flags` u003d 0)
+`$array` = [], int `$flags` = 0)
 
 public [append](arrayiterator.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): void
 
-public [asort](arrayiterator.asort.md)(int `$flags` u003d
+public [asort](arrayiterator.asort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [count](arrayiterator.count.md)(): int
@@ -56,7 +56,7 @@ public [getFlags](arrayiterator.getflags.md)(): int
 
 public [key](arrayiterator.key.md)(): string\|int\|null
 
-public [ksort](arrayiterator.ksort.md)(int `$flags` u003d
+public [ksort](arrayiterator.ksort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [natcasesort](arrayiterator.natcasesort.md)(): bool

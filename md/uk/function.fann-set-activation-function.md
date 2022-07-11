@@ -7,7 +7,7 @@
 
 # fann_set_activation_function
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_activation_function — Встановлює функцію активації для
 зазначеного нейрона та шару

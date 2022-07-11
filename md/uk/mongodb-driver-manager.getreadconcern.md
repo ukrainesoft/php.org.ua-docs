@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::getReadConcern
 
-(mongodb \>u003d1.1.0)
+(mongodb \>=1.1.0)
 
 MongoDB\Driver\Manager::getReadConcern — Повертає ReadConcern для
 Manager
@@ -41,14 +41,14 @@ Manager.
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Manager::getReadConcern()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getReadConcern());$manager u003d new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?readConcernLevelu003dlocal');var_dump($manager->getReadConcern());?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager->getReadConcern());$manager = new MongoDB\Driver\Manager('mongodb:/ /localhost:27017/?readConcernLevel=local');var_dump($manager->getReadConcern());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\ReadConcern)#2 (0) {
 }
 object(MongoDB\Driver\ReadConcern)#1 (1) {
-["level"]u003d>
+["level"]=>
 string(5) "local"
 }
 

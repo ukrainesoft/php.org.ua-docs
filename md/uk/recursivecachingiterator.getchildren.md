@@ -8,7 +8,7 @@ RecursiveCachingIterator
 
 # RecursiveCachingIterator::getChildren
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveCachingIterator::getChildren — Повертає дочірні елементи
 внутрішнього ітератора у вигляді об'єкта RecursiveCachingIterator

@@ -7,7 +7,7 @@
 
 #stream_set_write_buffer
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_set_write_buffer — Встановлює буферизацію файлу під час запису в
 вказаний потік
@@ -43,7 +43,7 @@ stream_set_write_buffer — Встановлює буферизацію файл
 Наступний приклад демонструє використання функції
 **stream_set_write_buffer()** для створення потоку, що не буферизується.
 
-`<?php$fp u003d fopen($file, "w");if ($fp) {   if (stream_set_write_buffer($fp, 0) !u003du003d 0) {    f f/   $ output); fclose($fp);}?> `
+`<?php$fp = fopen($file, "w");if ($fp) {   if (stream_set_write_buffer($fp, 0) !== 0) {    f f/   $ output); fclose($fp);}?> `
 
 ### Дивіться також
 

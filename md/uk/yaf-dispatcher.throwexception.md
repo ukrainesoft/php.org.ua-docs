@@ -7,14 +7,14 @@
 
 # Yaf_Dispatcher::throwException
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::throwException — Вмикає/вимикає викидання
 винятків
 
 ### Опис
 
-public **Yaf_Dispatcher::throwException**(bool `$flag` u003d ?):
+public **Yaf_Dispatcher::throwException**(bool `$flag` = ?):
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 Включає/вимикає викидання винятків у разі виникнення
@@ -36,7 +36,7 @@ bool
 
 **Приклад #1 Приклад використання **Yaf_Dispatcher::throwexception()****
 
-` <?php$config u003d array(    'application' u003d> array(       'directory' u003d> dirname(__FILE__),     ),);$app u003d new >> (true);try { {   $app->run();} catch (Yaf_Exception $e) {   var_dump($e->getMessage());}?> `
+` <?php$config = array(    'application' => array(       'directory' => dirname(__FILE__),     ),);$app = new >> (true);try { {   $app->run();} catch (Yaf_Exception $e) {   var_dump($e->getMessage());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -44,7 +44,7 @@ string(59) "Не можна контролювати script /tmp/controllers/Ind
 
 **Приклад #2 Приклад використання **Yaf_Dispatcher::throwexception()****
 
-` <?php$config u003d array(    'application' u003d> array(       'directory' u003d> dirname(__FILE__),     ),);$app u003d new >> (false);$app->run();?> `
+` <?php$config = array(    'application' => array(       'directory' => dirname(__FILE__),     ),);$app = new >> (false);$app->run();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

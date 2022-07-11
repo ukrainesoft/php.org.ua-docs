@@ -7,7 +7,7 @@
 
 # Клас SplDoublyLinkedList
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -23,13 +23,13 @@ class **SplDoublyLinkedList** implements
 
 /\* Константи \*/
 
-const int `IT_MODE_LIFO` u003d 2;
+const int `IT_MODE_LIFO` = 2;
 
-const int `IT_MODE_FIFO` u003d 0;
+const int `IT_MODE_FIFO` = 0;
 
-const int `IT_MODE_DELETE` u003d 1;
+const int `IT_MODE_DELETE` = 1;
 
-const int `IT_MODE_KEEP` u003d 0;
+const int `IT_MODE_KEEP` = 0;
 
 /\* Методи \*/
 

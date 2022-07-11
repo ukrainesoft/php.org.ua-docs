@@ -7,14 +7,14 @@
 
 # EventBase::\_\_construct
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::\_\_construct - Конструктор об'єкту EventBase
 
 ### Опис
 
 public **EventBase::\_\_construct**(
-[EventConfig](class.eventconfig.md) `$cfg` u003d ?)
+[EventConfig](class.eventconfig.md) `$cfg` = ?)
 
 Конструктор об'єкту EventBase
 

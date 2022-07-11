@@ -13,17 +13,17 @@
 **Приклад #1 book.xml**
 
 `` xmlcode
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
 ]>
-<book idu003d"listing">
+<book id="listing">
 <title>Мої списки</title>
-<chapter idu003d"books">
+<chapter id="books">
 <title>Мої книги</title>
 <para>
 <informaltable>
-<tgroup colsu003d"4">
+<tgroup cols="4">
 <thead>
 <row>
 <entry>Назва</entry>

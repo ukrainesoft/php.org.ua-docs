@@ -8,7 +8,7 @@
 
 # IntlCalendar::getMinimalDaysInFirstWeek
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getMinimalDaysInFirstWeek — Отримує мінімальне
 кількість днів, яка може бути в першому тижні на рік або місяць
@@ -48,7 +48,7 @@ public **IntlCalendar::getMinimalDaysInFirstWeek**(): int\|false
 **Приклад #1 Приклад використання
 **IntlCalendar::getMinimalDaysInFirstWeek()****
 
-` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'en_US');$cal u003d new IntlGregorianCalendar(2013, 0 /* Січень */, at); ::formatObject($cal, 'cccc')); //Средаvar_dump($cal->getMinimalDaysInFirstWeek(), // 1$cal->getFirstDayofWeek()); // 1 (Неділя)// Перший тиждень 2013 годаvar_dump(IntlDateFormatter::formatObject($cal, "'Week 'w'ofof'Y"));$cal->setMinimalDaysInFirstWeek не3 не3 року (в 1-му тижні 5 днів у новому році) року var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y")); `
+` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'en_US');$cal = new IntlGregorianCalendar(2013, 0 /* Січень */, at); ::formatObject($cal, 'cccc')); //Средаvar_dump($cal->getMinimalDaysInFirstWeek(), // 1$cal->getFirstDayofWeek()); // 1 (Неділя)// Перший тиждень 2013 годаvar_dump(IntlDateFormatter::formatObject($cal, "'Week 'w'ofof'Y"));$cal->setMinimalDaysInFirstWeek не3 не3 року (в 1-му тижні 5 днів у новому році) року var_dump(IntlDateFormatter::formatObject($cal, "'Week 'w' of 'Y")); `
 
 Результат виконання цього прикладу:
 

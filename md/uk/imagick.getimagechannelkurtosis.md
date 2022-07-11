@@ -7,14 +7,14 @@
 
 # Imagick::getImageChannelKurtosis
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::getImageChannelKurtosis — Повертає ексцес та асиметрію
 певного каналу
 
 ### Опис
 
-public **Imagick::getImageChannelKurtosis**(int `$channel` u003d
+public **Imagick::getImageChannelKurtosis**(int `$channel` =
 Imagick::CHANNEL_DEFAULT): array
 
 Повертає ексцес та асиметрію певного каналу. Цей метод

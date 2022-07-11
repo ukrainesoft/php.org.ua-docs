@@ -7,7 +7,7 @@
 
 #rrd_graph
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 rrd_graph — Створює зображення з даних
 

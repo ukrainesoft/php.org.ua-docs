@@ -7,7 +7,7 @@
 
 #ps_begin_pattern
 
-(PECL ps \>u003d 1.2.0)
+(PECL ps \>= 1.2.0)
 
 ps_begin_pattern — Починає новий візерунок
 
@@ -57,8 +57,8 @@ int `$painttype`
 
 **Приклад #1 Створення та використання візерунка**
 
-` <?php$ps u003d ps_new();if (!ps_open_file($ps, "pattern.ps")) {  print "Не вдається відкрити файл PostScript
-";  exit;}ps_set_parameter($ps, "warning", "true");ps_set_info($ps, "Creator", "pattern.php");ps_set_info($ps, "Author", "Уве Штайнманн"); ps_set_info($ps, "Title", "Приклад узору");$pspatternu003du003dps_begin_pattern($ps, 10.0, 10.0, 10.0, 10.0, 1);ps_setlinewidth($ps,$0,$0, , "rgb", 0.0, 0.0, 1.0, 0.0);ps_moveto($ps, 0, 0);ps_lineto($ps, 7, 7);ps_stroke($ps);ps_moveto($ps, 0, 7); ps_lineto($ps, 7, 0);ps_stroke($ps);ps_end_pattern($ps);ps_begin_page($ps, 596, 842);ps_setcolor($ps, "both", "pattern", $pspattern, 0.0, 0.0, 0.0);ps_rect($ps, 50, 400, 200, 200);ps_fill($ps);ps_end_page($ps);ps_close($ps);ps_delete($ps);?> `
+` <?php$ps = ps_new();if (!ps_open_file($ps, "pattern.ps")) {  print "Не вдається відкрити файл PostScript
+";  exit;}ps_set_parameter($ps, "warning", "true");ps_set_info($ps, "Creator", "pattern.php");ps_set_info($ps, "Author", "Уве Штайнманн"); ps_set_info($ps, "Title", "Приклад узору");$pspattern==ps_begin_pattern($ps, 10.0, 10.0, 10.0, 10.0, 1);ps_setlinewidth($ps,$0,$0, , "rgb", 0.0, 0.0, 1.0, 0.0);ps_moveto($ps, 0, 0);ps_lineto($ps, 7, 7);ps_stroke($ps);ps_moveto($ps, 0, 7); ps_lineto($ps, 7, 0);ps_stroke($ps);ps_end_pattern($ps);ps_begin_page($ps, 596, 842);ps_setcolor($ps, "both", "pattern", $pspattern, 0.0, 0.0, 0.0);ps_rect($ps, 50, 400, 200, 200);ps_fill($ps);ps_end_page($ps);ps_close($ps);ps_delete($ps);?> `
 
 ### Дивіться також
 

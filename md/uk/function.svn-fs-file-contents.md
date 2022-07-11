@@ -8,7 +8,7 @@
 
 # svn_fs_file_contents
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_file_contents — Повернення потоку для доступу до вмісту файлу
 з цієї файлової системи

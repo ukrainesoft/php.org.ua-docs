@@ -7,7 +7,7 @@
 
 # Ds\Pair::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Pair::\_\_construct — Створює екземпляр класу
 
@@ -15,9 +15,9 @@ Ds\Pair::\_\_construct — Створює екземпляр класу
 
 public
 **Ds\Pair::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key` u003d ?,
+`$key` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d ?)
+`$value` = ?)
 
 Створення екземпляр класу із заданими ключем `key` та значенням `value`.
 

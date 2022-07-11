@@ -19,7 +19,7 @@
 \" та \ в \\.](#faq.using.addslashes)
 4. [Коли я роблю таке, висновок друкується не в тому порядку:
 \<?php function myfunc($argument) { echo $argument + 10; } $variable
-u003d 10; echo "myfunc($variable) u003d ". myfunc($variable); ?\> Що
+= 10; echo "myfunc($variable) = ". myfunc($variable); ?\> Що
 відбувається?](#faq.using.wrong-order)
 5. [Гей, що сталося з моїми рядками? \<pre\> \<?php echo "Це повинно
 бути на першому рядку."; ?\> \<?php echo "А це має бути на наступному рядку."; ?\> \</pre\>](#faq.using.newlines)
@@ -55,7 +55,7 @@ PHP пропонує безліч [визначених змінних](language
 [foreach](control-structures.foreach.md), перевіримо на порожні
 ([empty()](function.empty.md)) значення та роздрукуємо.
 
-` <?php$empty u003d $post u003d array();foreach ($_POST as $varname u003d> $varvalue) {    if (empty($varvalue)) { {         } else {        $post[$varname] u003d $varvalue; }}print "<pre>";if (empty($empty)) {    print "В POST не було порожніх значень, ось що там було:
+` <?php$empty = $post = array();foreach ($_POST as $varname => $varvalue) {    if (empty($varvalue)) { {         } else {        $post[$varname] = $varvalue; }}print "<pre>";if (empty($empty)) {    print "В POST не було порожніх значень, ось що там було:
 ";   var_dump($post);} else {    print "Прийшло " . count($empty) . " пустих значень
 ";    print "Всього відправлено:
 "; var_dump($post);    print "Порожніх:
@@ -77,7 +77,7 @@ PostgreSQL. Є також загальніші функції
 
 **Коли я роблю таке, висновок друкується не в тому порядку:**
 
-`<?phpfunction myfunc($argument){    echo $argument + 10;}$variable u003d 10;echo "myfunc($variable) u003d " . myfunc($variable);?> `
+`<?phpfunction myfunc($argument){    echo $argument + 10;}$variable = 10;echo "myfunc($variable) = " . myfunc($variable);?> `
 
 Що відбувається?
 
@@ -118,7 +118,7 @@ HTML. Функція [headers_sent()](function.headers-sent.md) перевіри
 ви запускаєте PHP як модуль Apache. Так, наступний шматок коду покаже
 вам усі заголовки запиту:
 
-` <?php$headers u003d getallheaders();foreach ($headers as $name u003d> $content) {    echo "headers[$name] u003d $content<br />
+` <?php$headers = getallheaders();foreach ($headers as $name => $content) {    echo "headers[$name] = $content<br />
 ";}?> `
 
 Також дивіться [apache_lookup_uri()](function.apache-lookup-uri.md),
@@ -195,4 +195,4 @@ HTML файл (необроблюваний PHP) як вхідну сторін�
 > **Примітка**: **кілобайт та кібібайт**
 >
 > У нотації PHP один кілобайт дорівнює 1024 байтам, тоді як стандарт IEC
-> вважає це кібібайтом. Через війну: k і K u003d 1024 байта.
+> вважає це кібібайтом. Через війну: k і K = 1024 байта.

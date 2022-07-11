@@ -7,7 +7,7 @@
 
 #openal_buffer_destroy
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_buffer_destroy — Знищує буфер OpenAL
 

@@ -13,7 +13,7 @@ SoapClient::\_\_construct - Конструктор класу SoapClient
 
 ### Опис
 
-public **SoapClient::\_\_construct**(?string `$wsdl`, array `$options` u003d
+public **SoapClient::\_\_construct**(?string `$wsdl`, array `$options` =
 [])
  Створює об'єкт [SoapClient](class.soapclient.md) для підключення до
 служби SOAP.
@@ -306,7 +306,7 @@ HTTP-з'єднання замість узгодження за промовча
 
 **Приклад #1 Вказівка використання тільки TLS 1.3**
 
-` <?php$context u003d stream_context_create([    'ssl' u003d> [        'crypto_method' u003d> STREAM_CRYPTO_METHOD_TLSv1_3_CLIENT     ]];$client u003d new SoapClient("some.wsdl", ['context' u003d> $context]); `
+` <?php$context = stream_context_create([    'ssl' => [        'crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_3_CLIENT     ]];$client = new SoapClient("some.wsdl", ['context' => $context]); `
 
 ### Помилки
 
@@ -321,34 +321,34 @@ HTTP-з'єднання замість узгодження за промовча
 
 **Приклад #2 Приклад використання **SoapClient::\_\_construct()****
 
-` <?php$client u003d new SoapClient("some.wsdl");$client u003d new SoapClient("some.wsdl", array('soap_version'   u003d> SOAP_1_2));$Clent u003d ", array('login'          u003d> "some_name",                                            'password'       u003d> "some_password"));$client u003d new SoapClient("some.wsdl", array('proxy_host'     u003d> "localhost",                                            'proxy_port' u003d> 8080));$client u003d new SoapClient("some.wsdl", array('proxy_host'     u003d> "localhost",                                            'proxy_port'     u003d> 8080,                                            'proxy_login'    u003d> "some_name",                                            'proxy_password' u003d> "some_password"));$clientu003du003dnew SoapClient("some.wsdl", array('local_cert'     u003d> "cert_key.pem"));$client u003d new SoapClient(null, y ¦                                                                                   | cation' u003d> "http://localhost/soap.php",                                     'uri'      u003d> "http://test-uri/",                                     'style'    u003d> SOAP_DOCUMENT,                                     'use'      u003d> SOAP_LITERAL));$client u003d new SoapClient("some.wsdl", array('compression' u003d> SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP|| 9));$client u003d new SoapClient("some.wsdl", array('encoding'u003d>'ISO-8859-1'));class MyBook {    public $title; public $author;}$client u003d new SoapClient("books.wsdl", array('classmap' u003d> array('book' u003d> "MyBook")));$typemap u003d array(    array("type_ "http://schemas.example.com",         "type_name" u003d> "book",         "from_xml"  u003d> "unserialize_book",         "to_xml"    u003d> "serialize_book"));$client u003d new SoapClient("books. wsdl", array('typemap' u003d> $typemap));?> `
+` <?php$client = new SoapClient("some.wsdl");$client = new SoapClient("some.wsdl", array('soap_version'   => SOAP_1_2));$Clent = ", array('login'          => "some_name",                                            'password'       => "some_password"));$client = new SoapClient("some.wsdl", array('proxy_host'     => "localhost",                                            'proxy_port' => 8080));$client = new SoapClient("some.wsdl", array('proxy_host'     => "localhost",                                            'proxy_port'     => 8080,                                            'proxy_login'    => "some_name",                                            'proxy_password' => "some_password"));$client==new SoapClient("some.wsdl", array('local_cert'     => "cert_key.pem"));$client = new SoapClient(null, y ¦                                                                                   | cation' => "http://localhost/soap.php",                                     'uri'      => "http://test-uri/",                                     'style'    => SOAP_DOCUMENT,                                     'use'      => SOAP_LITERAL));$client = new SoapClient("some.wsdl", array('compression' => SOAP_COMPRESSION_ACCEPT | SOAP_COMPRESSION_GZIP|| 9));$client = new SoapClient("some.wsdl", array('encoding'=>'ISO-8859-1'));class MyBook {    public $title; public $author;}$client = new SoapClient("books.wsdl", array('classmap' => array('book' => "MyBook")));$typemap = array(    array("type_ "http://schemas.example.com",         "type_name" => "book",         "from_xml"  => "unserialize_book",         "to_xml"    => "serialize_book"));$client = new SoapClient("books. wsdl", array('typemap' => $typemap));?> `
 
 **Приклад #3 Приклад використання **`SOAP_SINGLE_ELEMENT_ARRAYS`****
 
-` /* Припускаючи, що відповідь, подібний цьому, і відповідний WSDL:<?xml versionu003d"1.0" encodingu003d"UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENVu003d"http://sche .xmlsoap.org/soap/envelope/" xmlnsu003d"urn:example">    <SOAP-ENV:Body>        <response>            <collection>                <item>Single</item>            </collection>            <collection>                <item>First </item>                         ¦¦¦¦                ¦         ¦       <br>
-";$client u003d new TestSoapClient(__DIR__ . '/temp.wsdl');$response u003d $client->exampleRequest();var_dump( $response->collection[0]->item );var_dump(>$ collection[1]->item );echo "
+` /* Припускаючи, що відповідь, подібний цьому, і відповідний WSDL:<?xml version="1.0" encoding="UTF-8"?><SOAP-ENV:Envelope xmlns:SOAP-ENV="http://sche .xmlsoap.org/soap/envelope/" xmlns="urn:example">    <SOAP-ENV:Body>        <response>            <collection>                <item>Single</item>            </collection>            <collection>                <item>First </item>                         ¦¦¦¦                ¦         ¦       <br>
+";$client = new TestSoapClient(__DIR__ . '/temp.wsdl');$response = $client->exampleRequest();var_dump( $response->collection[0]->item );var_dump(>$ collection[1]->item );echo "
 За допомогою SOAP_SINGLE_ELEMENT_ARRAYS:
-";$client u003d new TestSoapClient(__DIR__ . '/temp.wsdl', ['features' u003d> SOAP_SINGLE_ELEMENT_ARRAYS]);$response u003d $client->exampleRequest()>$_ item );var_dump( $response->collection[1]->item );`
+";$client = new TestSoapClient(__DIR__ . '/temp.wsdl', ['features' => SOAP_SINGLE_ELEMENT_ARRAYS]);$response = $client->exampleRequest()>$_ item );var_dump( $response->collection[1]->item );`
 
 Результат виконання цього прикладу:
 
 За замовчуванням:
 string(6) "Single"
 array(2) {
-[0] u003d>
+[0] =>
 string(5) "First"
-[1] u003d>
+[1] =>
 string(6) "Second"
 }
 
 За допомогою SOAP_SINGLE_ELEMENT_ARRAYS:
 array(1) {
-[0] u003d>
+[0] =>
 string(6) "Single"
 }
 array(2) {
-[0] u003d>
+[0] =>
 string(5) "First"
-[1] u003d>
+[1] =>
 string(6) "Second"
 }

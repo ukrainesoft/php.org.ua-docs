@@ -7,7 +7,7 @@
 
 # SVMModel::save
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 SVMModel::save — Зберегти готову модель у файл
 

@@ -27,9 +27,9 @@
 | [precision](ini.core.md#ini.precision)                                                     | "14"        | PHP_INI_ALL               |
 | [serialize_precision](ini.core.md#ini.serialize-precision)                                 | "-1"        | PHP_INI_ALL               | До версії PHP 7.1.0 значення за промовчанням дорівнювало 17.
 | [disable_functions](ini.core.md#ini.disable-functions)                                     | ""          | Тільки PHP_INI_SYSTEM     |
-| [disable_classes](ini.core.md#ini.disable-classes)                                         | ""          | Тільки `php.ini`          |
+| [disable_classes](ini.core.md#ini.disable-classes)                                         | ""          | Тільки php.ini            |
 | [exit_on_timeout](ini.core.md#ini.exit-on-timeout)                                         | ""          | PHP_INI_ALL               |
-| [expose_php](ini.core.md#ini.expose-php)                                                   | "1"         | Тільки `php.ini`          |
+| [expose_php](ini.core.md#ini.expose-php)                                                   | "1"         | Тільки php.ini            |
 | [hard_timeout](ini.core.md#ini.hard-timeout)                                               | "2"         | PHP_INI_SYSTEM            | Доступна з версії PHP 7.1.0.
 | [zend.exception_ignore_args](ini.core.md#ini.zend.exception-ignore-args)                   | "0"         | PHP_INI_ALL               | Доступна з версії PHP 7.4.0
 | [zend.multibyte](ini.core.md#ini.zend.multibyte)                                           | "0"         | PHP_INI_ALL               |
@@ -189,7 +189,7 @@ PHP. Перевищення часу очікування призводить �
 
 | Ім'я За замовчуванням                                      | Місце зміни | Список змін    |
 | ---------------------------------------------------------- | ----------- | -------------- |
-| [realpath_cache_size](ini.core.md#ini.realpath-cache-size) | "4M"        | PHP_INI_SYSTEM | До PHP 7.0.16 та 7.1.2, за замовчуванням було `"16K"`
+| [realpath_cache_size](ini.core.md#ini.realpath-cache-size) | "4M"        | PHP_INI_SYSTEM | До PHP 7.0.16 та 7.1.2, за замовчуванням було "16K"
 | [realpath_cache_ttl](ini.core.md#ini.realpath-cache-ttl)   | "120"       | PHP_INI_SYSTEM |
 
 **Налаштування продуктивності**
@@ -332,10 +332,10 @@ POST. Це також впливає на завантаження файлів.
 > використовуєте 32-бітну версію), так як це призведе до помилки вашого
 > Скрипт.
 
-| Версія        | Опис                                                                                                                                       |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| 5.3.4         | Установка `post_max_size` u003d 0 не знімає обмеження, якщо контент має тип application/x-www-form-urlencoded або не зареєстрований у PHP. |
-| 5.3.2, 5.2.12 | Стало можливим зняти обмеження розмір пост-запроса установкою `post_max_size` в 0.                                                         |
+| Версія        | Опис                                                                                                                                     |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 5.3.4         | Установка post_max_size u003d 0 не знімає обмеження, якщо контент має тип application/x-www-form-urlencoded або не зареєстрований у PHP. |
+| 5.3.2, 5.2.12 | Стало можливим зняти обмеження розмір пост-запроса установкою post_max_size в 0.                                                         |
 
 **Список змін `post_max_size`**
 
@@ -404,26 +404,26 @@ iconv. За промовчанням порожньо. У цьому випад�
 
 ## Шляхи та Директорії
 
-| Ім'я За замовчуванням                                              | Місце зміни           | Список змін      |
-| ------------------------------------------------------------------ | --------------------- | ---------------- |
-| [include_path](ini.core.md#ini.include-path)                       | ".;/path/to/php/pear" | PHP_INI_ALL      |
-| [open_basedir](ini.core.md#ini.open-basedir)                       | NULL                  | PHP_INI_ALL      |
-| [doc_root](ini.core.md#ini.doc-root) NULL                          | PHP_INI_SYSTEM        |                  |
-| [user_dir](ini.core.md#ini.user-dir)                               | NULL                  | PHP_INI_SYSTEM   |
-| [user_ini.cache_ttl](ini.core.md#ini.user-ini.cache-ttl)           | "300"                 | PHP_INI_SYSTEM   |
-| [user_ini.filename](ini.core.md#ini.user-ini.filename)             | ".user.ini"           | PHP_INI_SYSTEM   |
-| [extension_dir](ini.core.md#ini.extension-dir)                     | "/path/to/php"        | PHP_INI_SYSTEM   |
-| [extension](ini.core.md#ini.extension)                             | NULL                  | Тільки `php.ini` |
-| [zend_extension](ini.core.md#ini.zend-extension)                   | NULL                  | Тільки `php.ini` |
-| [cgi.check_shebang_line](ini.core.md#ini.cgi.check-shebang-line)   | "1"                   | PHP_INI_SYSTEM   |
-| [cgi.discard_path](ini.core.md#ini.cgi.discard-path)               | "0"                   | PHP_INI_SYSTEM   |
-| [cgi.fix_pathinfo](ini.core.md#ini.cgi.fix-pathinfo)               | "1"                   | PHP_INI_SYSTEM   |
-| [cgi.force_redirect](ini.core.md#ini.cgi.force-redirect)           | "1"                   | PHP_INI_SYSTEM   |
-| [cgi.nph](ini.core.md#ini.cgi.nph)                                 | "0"                   | PHP_INI_SYSTEM   |
-| [cgi.redirect_status_env](ini.core.md#ini.cgi.redirect-status-env) | NULL                  | PHP_INI_SYSTEM   |
-| [cgi.rfc2616_headers](ini.core.md#ini.cgi.rfc2616-headers)         | "0"                   | PHP_INI_ALL      |
-| [fastcgi.impersonate](ini.core.md#ini.fastcgi.impersonate)         | "0"                   | PHP_INI_SYSTEM   |
-| [fastcgi.logging](ini.core.md#ini.fastcgi.logging)                 | "1"                   | PHP_INI_SYSTEM   |
+| Ім'я За замовчуванням                                              | Місце зміни           | Список змін    |
+| ------------------------------------------------------------------ | --------------------- | -------------- |
+| [include_path](ini.core.md#ini.include-path)                       | ".;/path/to/php/pear" | PHP_INI_ALL    |
+| [open_basedir](ini.core.md#ini.open-basedir)                       | NULL                  | PHP_INI_ALL    |
+| [doc_root](ini.core.md#ini.doc-root) NULL                          | PHP_INI_SYSTEM        |                |
+| [user_dir](ini.core.md#ini.user-dir)                               | NULL                  | PHP_INI_SYSTEM |
+| [user_ini.cache_ttl](ini.core.md#ini.user-ini.cache-ttl)           | "300"                 | PHP_INI_SYSTEM |
+| [user_ini.filename](ini.core.md#ini.user-ini.filename)             | ".user.ini"           | PHP_INI_SYSTEM |
+| [extension_dir](ini.core.md#ini.extension-dir)                     | "/path/to/php"        | PHP_INI_SYSTEM |
+| [extension](ini.core.md#ini.extension)                             | NULL                  | Тільки php.ini |
+| [zend_extension](ini.core.md#ini.zend-extension)                   | NULL                  | Тільки php.ini |
+| [cgi.check_shebang_line](ini.core.md#ini.cgi.check-shebang-line)   | "1"                   | PHP_INI_SYSTEM |
+| [cgi.discard_path](ini.core.md#ini.cgi.discard-path)               | "0"                   | PHP_INI_SYSTEM |
+| [cgi.fix_pathinfo](ini.core.md#ini.cgi.fix-pathinfo)               | "1"                   | PHP_INI_SYSTEM |
+| [cgi.force_redirect](ini.core.md#ini.cgi.force-redirect)           | "1"                   | PHP_INI_SYSTEM |
+| [cgi.nph](ini.core.md#ini.cgi.nph)                                 | "0"                   | PHP_INI_SYSTEM |
+| [cgi.redirect_status_env](ini.core.md#ini.cgi.redirect-status-env) | NULL                  | PHP_INI_SYSTEM |
+| [cgi.rfc2616_headers](ini.core.md#ini.cgi.rfc2616-headers)         | "0"                   | PHP_INI_ALL    |
+| [fastcgi.impersonate](ini.core.md#ini.fastcgi.impersonate)         | "0"                   | PHP_INI_SYSTEM |
+| [fastcgi.logging](ini.core.md#ini.fastcgi.logging)                 | "1"                   | PHP_INI_SYSTEM |
 
 **Конфігураційні Опції Шляхів та Директорій**
 

@@ -7,14 +7,14 @@
 
 #ftp_ssl_connect
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 ftp_ssl_connect — Встановлює з'єднання з FTP-сервером через SSL
 
 ### Опис
 
-**ftp_ssl_connect**(string `$hostname`, int `$port` u003d 21, int `$timeout`
-u003d 90): [FTP\Connection](class.ftp-connection.md)\|false
+**ftp_ssl_connect**(string `$hostname`, int `$port` = 21, int `$timeout`
+= 90): [FTP\Connection](class.ftp-connection.md)\|false
 
 **ftp_ssl_connect()** встановлює *явне* SSL з'єднання з
 FTP-сервером, заданим аргументом `hostname`. Це означає, що
@@ -71,7 +71,7 @@ SSL-FTP або його сертифікат є недійсним. Тільки
 
 **Приклад #1 Приклад використання функції **ftp_ssl_connect()****
 
-` <?php// установка ssl-з'єднання$ftp u003d ftp_ssl_connect($ftp_server);// перевірка імені користувача і пароля$login_result u003d ftp_login($ftp, $ftp_user_  В цьому випадку PHP вже викинув повідомлення рівня E_WARNING (die can "t login"); // /// закриття ssl-з'єднанняftp_close($ftp);?> `
+` <?php// установка ssl-з'єднання$ftp = ftp_ssl_connect($ftp_server);// перевірка імені користувача і пароля$login_result = ftp_login($ftp, $ftp_user_  В цьому випадку PHP вже викинув повідомлення рівня E_WARNING (die can "t login"); // /// закриття ssl-з'єднанняftp_close($ftp);?> `
 
 ### Дивіться також
 

@@ -7,16 +7,16 @@
 
 #cubrid_execute
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_execute - Виконує підготовлений SQL-оператор
 
 ### Опис
 
 **cubrid_execute**(resource `$conn_identifier`, string `$sql`, int
-$option u003d 0): resource
+$option = 0): resource
 
-**cubrid_execute**(resource `$request_identifier`, int `$option` u003d 0):
+**cubrid_execute**(resource `$request_identifier`, int `$option` = 0):
 bool
 
 Функція **cubrid_execute()** використовується для виконання цього
@@ -78,16 +78,16 @@ SQL для виконання.
 
 ### Список змін
 
-| Версія | Опис                                               |
-| ------ | -------------------------------------------------- |
-| 8.4.0  | Додано новий параметр **`CUBRID_EXEC_QUERY_ALL`**. |
+| Версія | Опис                                             |
+| ------ | ------------------------------------------------ |
+| 8.4.0  | Додано новий параметр **CUBRID_EXEC_QUERY_ALL**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **cubrid_execute()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$result u003d cubrid_execute($conn, "SELECT code FROM event WHERE nameu003d'100m B> ;$row u003d cubrid_fetch_array($result, CUBRID_ASSOC);$event_code u003d $row["code"];cubrid_close_request($result);$history_req u003d cubrid_prepare($conn, "SELECT| " ($history_req, 1, $event_code, "number");cubrid_execute($history_req);printf("%-20s %-9s %-10s %-5s
-", "athlete", "host_year", "score", "unit");while ($row u003d cubrid_fetch_array($history_req, CUBRID_ASSOC)) {    printf("%-20s %-0%|
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT code FROM event WHERE name='100m B> ;$row = cubrid_fetch_array($result, CUBRID_ASSOC);$event_code = $row["code"];cubrid_close_request($result);$history_req = cubrid_prepare($conn, "SELECT| " ($history_req, 1, $event_code, "number");cubrid_execute($history_req);printf("%-20s %-9s %-10s %-5s
+", "athlete", "host_year", "score", "unit");while ($row = cubrid_fetch_array($history_req, CUBRID_ASSOC)) {    printf("%-20s %-0%|
 ",         $row["athlete"], $row["host_year"], $row["score"], $row["unit"]);}cubrid_close_request($history_req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

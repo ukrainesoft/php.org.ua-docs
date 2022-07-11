@@ -58,8 +58,8 @@ public [offsetUnset](weakmap.offsetunset.md)(object `$object`): void
 
 **Приклад #1 Приклад використання **Weakmap****
 
-` <?php$wm u003d new WeakMap();$o u003d new StdClass;class A {    public function __destruct() {         echo "Знищено!
-";    }}$wm[$o] u003d new A;var_dump(count($wm));echo "Скидання...
+` <?php$wm = new WeakMap();$o = new StdClass;class A {    public function __destruct() {         echo "Знищено!
+";    }}$wm[$o] = new A;var_dump(count($wm));echo "Скидання...
 ";unset($o);echo "Готово
 ";var_dump(count($wm)); ``
 

@@ -39,8 +39,8 @@ recip(rord(myfield),1,2,3)^1.5
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setBoostFunction()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$boostRecentDocsFunction u003d "recip(ms(NOW,mydatefield),3.16e-11,1,1)";$dismaxQuery->setBoostFunction($bo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$boostRecentDocsFunction = "recip(ms(NOW,mydatefield),3.16e-11,1,1)";$dismaxQuery->setBoostFunction($bo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&bfu003drecip(ms(NOW,mydatefield),3.16e-11,1,1)
+q=lucene&defType=edismax&bf=recip(ms(NOW,mydatefield),3.16e-11,1,1)

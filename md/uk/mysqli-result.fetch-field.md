@@ -44,21 +44,21 @@ public **mysqli_result::fetch_field**(): object\|false
 Повертає об'єкт, що містить визначення поля або **`false`**, якщо
 стовпці в результуючій таблиці закінчилися.
 
-| Властивість Опис |
-| ---------------- |
-| name             | Ім'я шпальти
-| orgname          | Вихідне ім'я стовпця, якщо він є псевдонім
-| table            | Ім'я таблиці, якою належить стовпець (якщо не обчислено)
-| orgtable         | Початкове ім'я таблиці, якщо є псевдонім
-| def              | Зарезервовано для стандартного значення, на даний момент завжди ""
-| db               | Ім'я бази
-| Каталог          | Ім'я каталогу завжди "def"
-| max_length       | Максимальна ширина поля результуючого набору.
-| length           | Ширина поля, як вона задана щодо таблиці.
-| charsetnr        | Кількість наборів символів для поля.
-| flags            | Ціле число, яке представляє бітові прапори для поля.
-| тип              | Тип даних поля
-| decimals         | Число знаків після коми (для цілих полів)
+| Властивість Опис |                                                                    |
+| ---------------- | ------------------------------------------------------------------ |
+| name             | Ім'я шпальти                                                       |
+| orgname          | Вихідне ім'я стовпця, якщо він є псевдонім                         |
+| table            | Ім'я таблиці, якою належить стовпець (якщо не обчислено)           |
+| orgtable         | Початкове ім'я таблиці, якщо є псевдонім                           |
+| def              | Зарезервовано для стандартного значення, на даний момент завжди "" |
+| db               | Ім'я бази                                                          |
+| Каталог          | Ім'я каталогу завжди "def"                                         |
+| max_length       | Максимальна ширина поля результуючого набору.                      |
+| length           | Ширина поля, як вона задана щодо таблиці.                          |
+| charsetnr        | Кількість наборів символів для поля.                               |
+| flags            | Ціле число, яке представляє бітові прапори для поля.               |
+| тип              | Тип даних поля                                                     |
+| decimals         | Число знаків після коми (для цілих полів)                          |
 
 **Властивості об'єкта**
 
@@ -66,8 +66,8 @@ public **mysqli_result::fetch_field**(): object\|false
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d $mysqli-  всіх стовпцях */    while ($finfo u003d $result->fetch_field()) {         printf("Ім'я:          %s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {   єд
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = $mysqli-  всіх стовпцях */    while ($finfo = $result->fetch_field()) {         printf("Ім'я:          %s
 ", $finfo->name);         printf("Таблиця:     %s
 ", $finfo->table);         printf("Макс. довжина: %d
 ", $finfo->max_length);         printf("Прапори:       %d
@@ -77,8 +77,8 @@ public **mysqli_result::fetch_field**(): object\|false
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result u003d mysqli_   стовпцях */    while ($finfo u003d mysqli_fetch_field($result)) {         printf("Ім'я:          %s
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка підключення */if (mysqli_connect_errno()) {    printf("Не 
+", mysqli_connect_error());   exit();}$query = "SELECT Name, SurfaceArea from Country ORDER BY Code LIMIT 5";if ($result = mysqli_   стовпцях */    while ($finfo = mysqli_fetch_field($result)) {         printf("Ім'я:          %s
 ", $finfo->name);         printf("Таблиця:     %s
 ", $finfo->table);         printf("Макс. довжина: %d
 ", $finfo->max_length);         printf("Прапори:       %d

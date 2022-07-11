@@ -49,27 +49,27 @@ $value,
 
 **Приклад #1 Приклад використання **var_dump()****
 
-` <?php$a u003d array(1, 2, array("a", "b", "c"));var_dump($a);?> `
+` <?php$a = array(1, 2, array("a", "b", "c"));var_dump($a);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 array(3) {
-[0]u003d>
+[0]=>
 string(1) "a"
-[1]u003d>
+[1]=>
 string(1) "b"
-[2]u003d>
+[2]=>
 string(1) "c"
 }
 }
 
-` <?php$b u003d 3.1;$c u003d true;var_dump($b, $c);?> `
+` <?php$b = 3.1;$c = true;var_dump($b, $c);?> `
 
 Результат виконання цього прикладу:
 

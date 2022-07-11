@@ -8,14 +8,14 @@
 
 #cubrid_fetch_row
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_fetch_row — Вийняти рядок із результуючого набору у вигляді
 індексованого масиву
 
 ### Опис
 
-**cubrid_fetch_row**(resource `$result`, int `$type` u003d ?): array
+**cubrid_fetch_row**(resource `$result`, int `$type` = ?): array
 
 Функція повертає асоціативний масив, що відповідає рядку в
 результуючому наборі, на яку вказує внутрішній покажчик. Після
@@ -42,8 +42,8 @@ cubrid_fetch_row — Вийняти рядок із результуючого �
 
 **Приклад #1 Приклад використання **cubrid_fetch_row()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE    );printf("%-40s %-10s %-6s %-20s
-", "найменування", "площа", "місць", "адреса");while ($row u003d cubrid_fetch_row($req)) {    printf("%-40s %-10s %-6s %-2
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_execute($conn, "SELECT name,area,seats,address FROM stadium WHERE    );printf("%-40s %-10s %-6s %-20s
+", "найменування", "площа", "місць", "адреса");while ($row = cubrid_fetch_row($req)) {    printf("%-40s %-10s %-6s %-2
 ", $row[0], $row[1], $row[2], $row[3]);}//У випадки роботи з LOB використовуйте cubrid_fetch_row($req, CUBRID_LOB)cubrid_close_request$ ($conn);?> `
 
 Результат виконання цього прикладу:

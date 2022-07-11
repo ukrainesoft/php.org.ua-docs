@@ -39,9 +39,9 @@ func_get_args - Повертає масив, що містить аргумен�
 
 **Приклад #1 Приклад використання **func_get_args()****
 
-` <?phpfunction foo(){    $numargs u003d func_num_args(); echo "Кількість аргументів: $numargs
-";    if ($numargs >u003d 2) {        echo "Другий аргумент: " . func_get_arg(1) . "
-";    }    $arg_list u003d func_get_args();    for ($i u003d 0; $i < $numargs; $i++) {        echo "Аргумент №$i: " . $arg_list[$i] . "
+` <?phpfunction foo(){    $numargs = func_num_args(); echo "Кількість аргументів: $numargs
+";    if ($numargs >= 2) {        echo "Другий аргумент: " . func_get_arg(1) . "
+";    }    $arg_list = func_get_args();    for ($i = 0; $i < $numargs; $i++) {        echo "Аргумент №$i: " . $arg_list[$i] . "
 ";    }}foo(1, 2, 3);?> `
 
 Результат виконання цього прикладу:
@@ -55,22 +55,22 @@ func_get_args - Повертає масив, що містить аргумен�
 **Приклад #2 Приклад передачі аргументів за посиланням та за значенням з
 **func_get_args()****
 
-` <?phpfunction byVal($arg) {    echo 'Передано           ::'', var_export(func_get_args()), PHP_EOL; $argu003du003d'baz'; echo 'Після зміни  : ', var_export(func_get_args()), PHP_EOL;}function byRef(&$arg) {   echo 'Передано  _| $argu003du003d'baz'; echo 'Після зміни  : ', var_export(func_get_args()), PHP_EOL;}$arg u003d 'bar';byVal($arg);byRef($arg);?> `
+` <?phpfunction byVal($arg) {    echo 'Передано           ::'', var_export(func_get_args()), PHP_EOL; $arg=='baz'; echo 'Після зміни  : ', var_export(func_get_args()), PHP_EOL;}function byRef(&$arg) {   echo 'Передано  _| $arg=='baz'; echo 'Після зміни  : ', var_export(func_get_args()), PHP_EOL;}$arg = 'bar';byVal($arg);byRef($arg);?> `
 
 Результат виконання цього прикладу:
 
 
 Передано : array (
-0 u003d\> 'bar',
+0 =\> 'bar',
 )
 Після зміни : array (
-0 u003d\> 'baz',
+0 =\> 'baz',
 )
 Передано : array (
-0 u003d\> 'bar',
+0 =\> 'bar',
 )
 Після зміни : array (
-0 u003d\> 'baz',
+0 =\> 'baz',
 )
 
 ### Примітки

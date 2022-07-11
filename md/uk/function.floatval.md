@@ -7,7 +7,7 @@
 
 # floatval
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 floatval — Повертає значення змінної у вигляді числа з плаваючою
 точкою
@@ -41,12 +41,12 @@ float](language.types.float.md#language.types.float.casting).
 
 **Приклад #1 Приклад використання **floatval()****
 
-` <?php$var u003d '122.34343The';$float_value_of_var u003d floatval($var);echo $float_value_of_var; // 122.34343?> `
+` <?php$var = '122.34343The';$float_value_of_var = floatval($var);echo $float_value_of_var; // 122.34343?> `
 
 **Приклад #2 Приклад використання **floatval()** з нечисловими крайніми
 лівими символами**
 
-` <?php$var u003d 'The122.34343';$float_value_of_var u003d floatval($var);echo $float_value_of_var; // 0?> `
+` <?php$var = 'The122.34343';$float_value_of_var = floatval($var);echo $float_value_of_var; // 0?> `
 
 ### Дивіться також
 

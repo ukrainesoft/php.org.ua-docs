@@ -28,7 +28,7 @@ SQL Server (починаючи з версії SQL Server 2005) та SQL Azure.
 
 Модуль PDO_SQLSRV може використовуватися з PHP лише у Windows. Для
 Linux використовуйте [ODBC](ref.pdo-odbc.md) та [» Microsoft's SQL Server
-ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?idu003d28160).
+ODBC Driver для Linux](http://www.microsoft.com/download/en/details.aspx?id=28160).
 
 ## Зумовлені константи
 

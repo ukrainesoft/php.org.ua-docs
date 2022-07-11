@@ -22,7 +22,7 @@ class **DOMAttr** extends [DOMNode](class.domnode.md) {
 
 public readonly string `$name`;
 
-public readonly bool `$specified` u003d true;
+public readonly bool `$specified` = true;
 
 public string `$value`;
 
@@ -30,7 +30,7 @@ public readonly ?[DOMElement](class.domelement.md) `$ownerElement`;
 
 public readonly
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$schemaTypeInfo` u003d null;
+`$schemaTypeInfo` = null;
 
 /\* Наслідувані властивості \*/
 
@@ -70,7 +70,7 @@ public string `$textContent`;
 /\* Методи \*/
 
 public [\_\_construct](domattr.construct.md)(string `$name`, string
-`$value` u003d "")
+`$value` = "")
 
 public [isId](domattr.isid.md)(): bool
 
@@ -81,21 +81,21 @@ public
 `$node`): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 public [DOMNode::C14NFile](domnode.c14nfile.md)(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` u003d
+public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
 **`false`**): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::getLineNo](domnode.getlineno.md)(): int
@@ -108,7 +108,7 @@ public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
 
 public
 [DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 public

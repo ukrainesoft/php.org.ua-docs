@@ -15,10 +15,10 @@ simplexml_load_file - Інтерпретує XML-файл в об'єкт
 
 **simplexml_load_file**(
 string `$filename`,
-?string `$class_name` u003d SimpleXMLElement::class,
-int `$options` u003d 0,
-string `$namespace_or_prefix` u003d "",
-bool `$is_prefix` u003d **`false`**
+?string `$class_name` = SimpleXMLElement::class,
+int `$options` = 0,
+string `$namespace_or_prefix` = "",
+bool `$is_prefix` = **`false`**
 ): [SimpleXMLElement](class.simplexmlelement.md)\|false
 
 Перетворює правильно сформований XML-документ у вказаному файлі
@@ -57,7 +57,7 @@ bool `$is_prefix` u003d **`false`**
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Помилки
@@ -83,7 +83,7 @@ bool `$is_prefix` u003d **`false`**
 
 SimpleXMLElement Object
 (
-[title] u003d> Приклад заголовка
+[title] => Приклад заголовка
 ...
 )
 

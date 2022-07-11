@@ -7,7 +7,7 @@
 
 # Клас Normalizer
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 ## Вступ
 
@@ -38,13 +38,13 @@ class **Normalizer** {
 
 public static
 [getRawDecomposition](normalizer.getrawdecomposition.md)(string
-`$string`, int `$form` u003d Normalizer::FORM_C): ?string
+`$string`, int `$form` = Normalizer::FORM_C): ?string
 
 public static [isNormalized](normalizer.isnormalized.md)(string
-`$string`, int `$form` u003d Normalizer::FORM_C): bool
+`$string`, int `$form` = Normalizer::FORM_C): bool
 
 public static [normalize](normalizer.normalize.md)(string `$string`,
-int `$form` u003d Normalizer::FORM_C): string\|false
+int `$form` = Normalizer::FORM_C): string\|false
 
 }
 

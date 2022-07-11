@@ -8,7 +8,7 @@
 
 #readline_callback_read_char
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 readline_callback_read_char — Читає символ та інформує
 callback-функцію readline, що отримано рядок

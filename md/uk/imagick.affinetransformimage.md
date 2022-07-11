@@ -32,4 +32,4 @@ public
 
 **Приклад #1 Приклад використання **Imagick::affineTransformImage()****
 
-` <?phpfunction affineTransformImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $draw u003d new \ImagickDraw(); $angleu003du003ddeg2rad(40); $affineRotateu003du003d array(        "sx" u003d> cos($angle), "sy" u003d> cos($angle),         "rx" u003d> sin($angle| "tx"u003du003d>0, "ty"u003du003d>0,    ); $draw->affine($affineRotate); $imagick->affineTransformImage($draw); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction affineTransformImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $draw = new \ImagickDraw(); $angle==deg2rad(40); $affineRotate== array(        "sx" => cos($angle), "sy" => cos($angle),         "rx" => sin($angle| "tx"==>0, "ty"==>0,    ); $draw->affine($affineRotate); $imagick->affineTransformImage($draw); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

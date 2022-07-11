@@ -7,7 +7,7 @@
 
 # Клас CommonMark\CQL
 
-(cmark \>u003d 1.1.0)
+(cmark \>= 1.1.0)
 
 ## Вступ
 

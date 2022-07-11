@@ -7,7 +7,7 @@
 
 # fann_read_train_from_file
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_read_train_from_file — Читає файл, у якому зберігаються дані
 навчання
@@ -45,7 +45,7 @@ num_train_data num_input num_output
 
 **Приклад #1 Приклад використання **fann_read_train_from_file()****
 
-` <?php$train_data u003d fann_read_train_from_file("xor.data");if ($train_data) {     // Зробіть що-небудь з $train_data для функції XOR}?
+` <?php$train_data = fann_read_train_from_file("xor.data");if ($train_data) {     // Зробіть що-небудь з $train_data для функції XOR}?
 
 Вміст xor.data
 

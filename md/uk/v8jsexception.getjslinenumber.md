@@ -7,7 +7,7 @@
 
 # V8JsException::getJsLineNumber
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 V8JsException::getJsLineNumber — Отримати номер рядка
 

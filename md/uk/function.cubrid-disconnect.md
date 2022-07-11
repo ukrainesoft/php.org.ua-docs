@@ -7,13 +7,13 @@
 
 #cubrid_disconnect
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_disconnect — Закриває з'єднання з базою даних
 
 ### Опис
 
-**cubrid_disconnect**(resource `$conn_identifier` u003d ?): bool
+**cubrid_disconnect**(resource `$conn_identifier` = ?): bool
 
 Функція **cubrid_disconnect()** використовується для закриття обробника
 з'єднання та від'єднання від сервера. Якщо якийсь обробник запиту
@@ -35,7 +35,7 @@ cubrid_disconnect — Закриває з'єднання з базою дани�
 
 **Приклад #1 Приклад використання **cubrid_disconnect()****
 
-` <?php$con u003d cubrid_connect ("localhost", 33000, "demodb");if ($con) {   echo "connected successfully"; $req u003d cubrid_execute( $con, "create table person(id int,name char(10))"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   $req u003d cubrid_execute( $con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   cubrid_disconnect($con);}?> `
+` <?php$con = cubrid_connect ("localhost", 33000, "demodb");if ($con) {   echo "connected successfully"; $req = cubrid_execute( $con, "create table person(id int,name char(10))"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   $req = cubrid_execute( $con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request($req); cubrid_commit($con); } else {      cubrid_rollback($con); }   cubrid_disconnect($con);}?> `
 
 ### Дивіться також
 

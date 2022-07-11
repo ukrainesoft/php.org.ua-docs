@@ -43,4 +43,4 @@ ImageMagick 6.2.9 або старше.
 
 **Приклад #1 Приклад використання **Imagick::sketchImage()****
 
-` <?phpfunction sketchImage($imagePath, $radius, $sigma, $angle) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->sketchimage($radius, $sigma, $angle); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction sketchImage($imagePath, $radius, $sigma, $angle) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->sketchimage($radius, $sigma, $angle); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

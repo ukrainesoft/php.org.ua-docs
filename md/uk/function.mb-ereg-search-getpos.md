@@ -8,7 +8,7 @@
 
 #mb_ereg_search_getpos
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 mb_ereg_search_getpos — Повертає початкову позицію наступного
 збіги з регулярним виразом

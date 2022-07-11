@@ -7,13 +7,13 @@
 
 #array_change_key_case
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 array_change_key_case — Змінює регістр усіх ключів у масиві
 
 ### Опис
 
-**array_change_key_case**(array `$array`, int `$case` u003d
+**array_change_key_case**(array `$array`, int `$case` =
 **`CASE_LOWER`**): array
 
 Повертає масив `array`, всі ключі якого перетворені на нижній або
@@ -41,14 +41,14 @@ array_change_key_case — Змінює регістр усіх ключів у �
 
 **Приклад #1 Приклад використання **array_change_key_case()****
 
-` <?php$input_array u003d array("FirSt" u003d> 1, "SecOnd" u003d> 4);print_r(array_change_key_case($input_array, CASE_UPPER));?> `
+` <?php$input_array = array("FirSt" => 1, "SecOnd" => 4);print_r(array_change_key_case($input_array, CASE_UPPER));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[FIRST] u003d> 1
-[SECOND] u003d> 4
+[FIRST] => 1
+[SECOND] => 4
 )
 
 ### Примітки

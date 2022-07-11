@@ -13,7 +13,7 @@ parse_url — Розбирає URL та повертає його компоне
 
 ### Опис
 
-**parse_url**(string `$url`, int `$component` u003d -1):
+**parse_url**(string `$url`, int `$component` = -1):
 int\|string\|array\|null\|false
 
 Ця функція розбирає URL та повертає асоціативний масив, що містить
@@ -64,10 +64,10 @@ URL для аналізу.
 буде повернено **`null`**. Починаючи з PHP 8.0.0, parse_url()**
 розрізняє відсутні та порожні запити та фрагменти:
 
-http://example.com/foo → query u003d null, fragment u003d null
-http://example.com/foo? → query u003d "", fragment u003d null
-http://example.com/foo# → query u003d null, fragment u003d ""
-http://example.com/foo?# → query u003d "", fragment u003d ""
+http://example.com/foo → query = null, fragment = null
+http://example.com/foo? → query = "", fragment = null
+http://example.com/foo# → query = null, fragment = ""
+http://example.com/foo?# → query = "", fragment = ""
 
 Раніше у всіх випадках запит та фрагмент були **`null`**.
 
@@ -85,26 +85,26 @@ http://example.com/foo?# → query u003d "", fragment u003d ""
 
 **Приклад #1 Приклад використання **parse_url()****
 
-` <?php$url u003d 'http://username:password@hostname:9090/path?argu003dvalue#anchor';var_dump(parse_url($url));var_dump(parse_url($url, PHP_URL_SCHEME));var_dump (parse_url($url,_PHP_URL_USER));var_dump(parse_url($url, PHP_URL_PASS));var_dump(parse_url($url, PHP_URL_HOST));var_dump(parse_url($url,_P PHP_URL_PATH));var_dump(parse_url($url, PHP_URL_QUERY));var_dump(parse_url($url, PHP_URL_FRAGMENT));?> `
+` <?php$url = 'http://username:password@hostname:9090/path?arg=value#anchor';var_dump(parse_url($url));var_dump(parse_url($url, PHP_URL_SCHEME));var_dump (parse_url($url,_PHP_URL_USER));var_dump(parse_url($url, PHP_URL_PASS));var_dump(parse_url($url, PHP_URL_HOST));var_dump(parse_url($url,_P PHP_URL_PATH));var_dump(parse_url($url, PHP_URL_QUERY));var_dump(parse_url($url, PHP_URL_FRAGMENT));?> `
 
 Результат виконання цього прикладу:
 
 array(8) {
-["scheme"]u003d>
+["scheme"]=>
 string(4) "http"
-["host"]u003d>
+["host"]=>
 string(8) "hostname"
-["port"]u003d>
+["port"]=>
 int(9090)
-["user"]u003d>
+["user"]=>
 string(8) "username"
-["pass"]u003d>
+["pass"]=>
 string(8) "password"
-["path"]u003d>
+["path"]=>
 string(5) "/path"
-["query"]u003d>
-string(9) "argu003dvalue"
-["fragment"]u003d>
+["query"]=>
+string(9) "arg=value"
+["fragment"]=>
 string(6) "anchor"
 }
 string(4) "http"
@@ -113,23 +113,23 @@ string(8) "password"
 string(8) "hostname"
 int(9090)
 string(5) "/path"
-string(9) "argu003dvalue"
+string(9) "arg=value"
 string(6) "anchor"
 
 **Приклад #2 Приклад використання **parse_url()** за відсутності
 протоколу**
 
-` <?php$url u003d '//www.example.com/path?googleguyu003dgoogley';// До 5.4.7 в path виводилося "//www.example.com/path"var_dump(parse_url($url) );?> `
+` <?php$url = '//www.example.com/path?googleguy=googley';// До 5.4.7 в path виводилося "//www.example.com/path"var_dump(parse_url($url) );?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "www.example.com"
-["path"]u003d>
+["path"]=>
 string(5) "/path"
-["query"]u003d>
-string(17) "googleguyu003dgoogley"
+["query"]=>
+string(17) "googleguy=googley"
 }
 
 ### Примітки

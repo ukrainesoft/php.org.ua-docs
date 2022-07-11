@@ -7,7 +7,7 @@
 
 # Клас SyncSharedMemory
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 ## Вступ
 
@@ -33,13 +33,13 @@ int `$size`)
 
 public [first](syncsharedmemory.first.md)(): bool
 
-public [read](syncsharedmemory.read.md)(int `$start` u003d 0, int
-`$length` u003d ?)
+public [read](syncsharedmemory.read.md)(int `$start` = 0, int
+`$length` = ?)
 
 public [size](syncsharedmemory.size.md)(): int
 
-public [write](syncsharedmemory.write.md)(string `$string` u003d ?, int
-`$start` u003d 0)
+public [write](syncsharedmemory.write.md)(string `$string` = ?, int
+`$start` = 0)
 
 }
 

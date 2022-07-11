@@ -8,7 +8,7 @@
 
 #db2_procedure_columns
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_procedure_columns — Повертає набір результатів зі списком
 параметрів процедури, що зберігається

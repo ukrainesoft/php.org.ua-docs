@@ -34,7 +34,7 @@ sqlsrv_num_fields — Витягує кількість полів (стовпц
 
 **Приклад #1 Приклад використання **sqlsrv_num_fields()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {   die( print_r( sqlsrv_errors(), true));}$sql u003d "SELECT * FROM Table_$"; sql);if( $stmt u003du003du003d false) {  die( print_r( sqlsrv_errors(), true)));}$numFields u003d sqlsrv_num_fields( $stmt х| рядки. for($i u003d 0; $i < $numFields; $i++) {      echo sqlsrv_get_field($stmt, $i)." "; }  echo "<br />";}?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {   die( print_r( sqlsrv_errors(), true));}$sql = "SELECT * FROM Table_$"; sql);if( $stmt === false) {  die( print_r( sqlsrv_errors(), true)));}$numFields = sqlsrv_num_fields( $stmt х| рядки. for($i = 0; $i < $numFields; $i++) {      echo sqlsrv_get_field($stmt, $i)." "; }  echo "<br />";}?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # Threaded::extend
 
-(PECL pthreads \>u003d 2.0.8)
+(PECL pthreads \>= 2.0.8)
 
 Threaded::extend — Обробка під час виконання
 
@@ -31,7 +31,7 @@ public **Threaded::extend**(string `$class`): bool
 
 **Приклад #1 Спадкування під час виконання**
 
-` <?phpclass My {}Threaded::extend(My::class);$my u003d new My();var_dump($my instanceof Threaded);?> `
+` <?phpclass My {}Threaded::extend(My::class);$my = new My();var_dump($my instanceof Threaded);?> `
 
 Результат виконання цього прикладу:
 

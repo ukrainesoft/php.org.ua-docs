@@ -32,13 +32,13 @@ public **SimpleXMLIterator::hasChildren**(): bool
 
 **Приклад #1 Перевіряє, чи поточний елемент має вкладені елементи**
 
-`<?php$xml u003d <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>>>> books>XML;$xmlIterator u003d new SimpleXMLIterator( $xml );for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) ) {    var_dump($xmlIterator->current()); }}?> `
+`<?php$xml = <<<<XML<books>    <book>        <title>Основи PHP</title>        <author>Джим Сміт</author> >>>>> books>XML;$xmlIterator = new SimpleXMLIterator( $xml );for( $xmlIterator->rewind(); $xmlIterator->valid(); $xmlIterator->next() ) ) {    var_dump($xmlIterator->current()); }}?> `
 
 Результат виконання цього прикладу:
 
 object(SimpleXMLIterator)#2 (2) {
-["title"]u003d>
+["title"]=>
 string(10) "Основи PHP"
-["author"]u003d>
+["author"]=>
 string(9) "Джим Сміт"
 }

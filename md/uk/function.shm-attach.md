@@ -13,8 +13,8 @@ shm_attach — Створює або відкриває сегмент пам'я
 
 ### Опис
 
-**shm_attach**(int `$key`, ?int `$size` u003d **`null`**, int `$permissions`
-u003d 0666): [SysvSharedMemory](class.sysvsharedmemory.md)\|false
+**shm_attach**(int `$key`, ?int `$size` = **`null`**, int `$permissions`
+= 0666): [SysvSharedMemory](class.sysvsharedmemory.md)\|false
 
 **shm_attach()** повертає ідентифікатор, який можна використовувати
 для доступу до пам'яті System V, що розділяється, за заданим ключем `key`.
@@ -49,7 +49,7 @@ u003d 0666): [SysvSharedMemory](class.sysvsharedmemory.md)\|false
 | Версія | Опис                                                                                                                                      |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | 8.0.0  | У разі успішного виконання функція повертає екземпляр [SysvSharedMemory](class.sysvsharedmemory.md); раніше повертався ресурс (resource). |
-| 8.0.0  | `size` тепер допускає значення null.                                                                                                      |
+| 8.0.0  | size тепер допускає значення null.                                                                                                        |
 
 ### Дивіться також
 

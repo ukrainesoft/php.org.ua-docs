@@ -7,7 +7,7 @@
 
 # ReflectionMethod::invokeArgs
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionMethod::invokeArgs — Виклик методу передачі аргументів
 масивом
@@ -47,7 +47,7 @@ object немає визначення цього методу.
 
 **Приклад #1 Приклад використання **ReflectionMethod::invokeArgs()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod u003d new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));?> `
+`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invokeArgs(new HelloWorld(), array('Майк'));?> `
 
 Результат виконання цього прикладу:
 

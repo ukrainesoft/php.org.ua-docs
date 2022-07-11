@@ -7,13 +7,13 @@
 
 # LuaSandbox::loadString
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::loadString — Завантажує код Lua у середу Lua
 
 ### Опис
 
-public **LuaSandbox::loadString**(string `$code`, string `$chunkName` u003d
+public **LuaSandbox::loadString**(string `$code`, string `$chunkName` =
 ''): [LuaSandboxFunction](class.luasandboxfunction.md)
 
 Завантажує код Lua у середу Lua.
@@ -37,12 +37,12 @@ public **LuaSandbox::loadString**(string `$code`, string `$chunkName` u003d
 
 **Приклад #1 Завантаження коду в Lua**
 
-` <?php// створення нового LuaSandbox$sandbox u003d new LuaSandbox();// Завантаження кода$function u003d $sandbox->loadString(<<<CODE     return "Звіт| || $function->call() );?> `
+` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// Завантаження кода$function = $sandbox->loadString(<<<CODE     return "Звіт| || $function->call() );?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 string(12) "Привіт, мир!"
 }
 

@@ -7,7 +7,7 @@
 
 # SVMModel::checkProbabilityModel
 
-(PECL svm u003d 0.1.5)
+(PECL svm = 0.1.5)
 
 SVMModel::checkProbabilityModel — Повертає true, якщо модель містить
 інформацію про ймовірності

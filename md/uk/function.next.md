@@ -37,7 +37,7 @@ next - Переміщує покажчик масиву вперед на оди
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін
@@ -50,7 +50,7 @@ next - Переміщує покажчик масиву вперед на оди
 
 **Приклад #1 Приклад використання **next()** та пов'язаних функцій**
 
-` <?php$transport u003d array('foot', 'bike', 'car', 'plane');$mode u003dcurrent($transport); // $mode u003d 'foot';$mode u003d next($transport); // $mode u003d 'bike';$mode u003d next($transport); // $mode u003d 'car';$mode u003d prev($transport); // $mode u003d 'bike';$mode u003d end($transport); // $mode u003d 'plane';?> `
+` <?php$transport = array('foot', 'bike', 'car', 'plane');$mode =current($transport); // $mode = 'foot';$mode = next($transport); // $mode = 'bike';$mode = next($transport); // $mode = 'car';$mode = prev($transport); // $mode = 'bike';$mode = end($transport); // $mode = 'plane';?> `
 
 ### Примітки
 

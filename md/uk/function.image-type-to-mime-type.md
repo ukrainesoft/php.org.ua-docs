@@ -8,7 +8,7 @@ getimagesize, exif_read_data, exif_thumbnail, exif_imagetype
 
 #image_type_to_mime_type
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 image_type_to_mime_type — Отримання типу Mime для типу зображення,
 повертається функціями getimagesize, exif_read_data, exif_thumbnail,
@@ -30,26 +30,26 @@ IMAGETYPE.
 
 Значення, що повертаються наведені нижче
 
-| `image_type`                                    | Значення, що повертається       |
-| ----------------------------------------------- | ------------------------------- |
-| **`IMAGETYPE_GIF`**                             | `image/gif`                     |
-| **`IMAGETYPE_JPEG`**                            | `image/jpeg`                    |
-| **`IMAGETYPE_PNG`**                             | `image/png`                     |
-| **`IMAGETYPE_SWF`**                             | `application/x-shockwave-flash` |
-| **`IMAGETYPE_PSD`**                             | `image/psd`                     |
-| **`IMAGETYPE_BMP`**                             | `image/bmp`                     |
-| **`IMAGETYPE_TIFF_II`** (порядок байт intel)    | `image/tiff`                    |
-| **`IMAGETYPE_TIFF_MM`** (порядок байт motorola) | `image/tiff`                    |
-| **`IMAGETYPE_JPC`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_JP2`**                             | `image/jp2`                     |
-| **`IMAGETYPE_JPX`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_JB2`**                             | `application/octet-stream`      |
-| **`IMAGETYPE_SWC`**                             | `application/x-shockwave-flash` |
-| **`IMAGETYPE_IFF`**                             | `image/iff`                     |
-| **`IMAGETYPE_WBMP`**                            | `image/vnd.wap.wbmp`            |
-| **`IMAGETYPE_XBM`**                             | `image/xbm`                     |
-| **`IMAGETYPE_ICO`**                             | `image/vnd.microsoft.icon`      |
-| **`IMAGETYPE_WEBP`**                            | `image/webp`                    |
+| image_type                                    | Значення, що повертається     |
+| --------------------------------------------- | ----------------------------- |
+| **IMAGETYPE_GIF**                             | image/gif                     |
+| **IMAGETYPE_JPEG**                            | image/jpeg                    |
+| **IMAGETYPE_PNG**                             | image/png                     |
+| **IMAGETYPE_SWF**                             | application/x-shockwave-flash |
+| **IMAGETYPE_PSD**                             | image/psd                     |
+| **IMAGETYPE_BMP**                             | image/bmp                     |
+| **IMAGETYPE_TIFF_II** (порядок байт intel)    | image/tiff                    |
+| **IMAGETYPE_TIFF_MM** (порядок байт motorola) | image/tiff                    |
+| **IMAGETYPE_JPC**                             | application/octet-stream      |
+| **IMAGETYPE_JP2**                             | image/jp2                     |
+| **IMAGETYPE_JPX**                             | application/octet-stream      |
+| **IMAGETYPE_JB2**                             | application/octet-stream      |
+| **IMAGETYPE_SWC**                             | application/x-shockwave-flash |
+| **IMAGETYPE_IFF**                             | image/iff                     |
+| **IMAGETYPE_WBMP**                            | image/vnd.wap.wbmp            |
+| **IMAGETYPE_XBM**                             | image/xbm                     |
+| **IMAGETYPE_ICO**                             | image/vnd.microsoft.icon      |
+| **IMAGETYPE_WEBP**                            | image/webp                    |
 
 **Повертані значення та Константи**
 

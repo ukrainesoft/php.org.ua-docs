@@ -7,7 +7,7 @@
 
 # Parle\Lexer::callout
 
-(PECL parle \>u003d 0.7.2)
+(PECL parle \>= 0.7.2)
 
 Parle\Lexer::callout — Визначає callback-функцію токена
 

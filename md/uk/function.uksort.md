@@ -60,7 +60,7 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **uksort()****
 
-` <?phpfunction cmp($a, $b){    $a u003d preg_replace('@^(a|an|the) @', '', $a); $b u003d preg_replace('@^(a|an|the) @', '', $b); return strcasecmp($a, $b);}$a u003d array("John" u003d> 1, "the Earth" u003d> 2, "an apple" u003d> 3, "a banana" u003d> 4);uk $a, "cmp");foreach ($a as $key u003d> $value) {    echo "$key: $value
+` <?phpfunction cmp($a, $b){    $a = preg_replace('@^(a|an|the) @', '', $a); $b = preg_replace('@^(a|an|the) @', '', $b); return strcasecmp($a, $b);}$a = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4);uk $a, "cmp");foreach ($a as $key => $value) {    echo "$key: $value
 ";}?> `
 
 Результат виконання цього прикладу:

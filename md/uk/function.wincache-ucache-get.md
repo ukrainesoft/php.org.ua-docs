@@ -7,7 +7,7 @@
 
 #wincache_ucache_get
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_get — Отримує змінну, що зберігається в користувальницькому
 кеші
@@ -15,7 +15,7 @@ wincache_ucache_get — Отримує змінну, що зберігаєтьс
 ### Опис
 
 **wincache_ucache_get**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$key`, bool `&$success` u003d ?):
+`$key`, bool `&$success` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує змінну, що зберігається в кеші користувача.
@@ -42,8 +42,8 @@ wincache_ucache_get — Отримує змінну, що зберігаєтьс
 **`false`** у разі виникнення помилки.
 
 Якщо параметр `key` - це масив, параметр `success` завжди матиме
-значення **`true`**. Повернутий масив (пари ім'я u003d\> значення) буде
-містити тільки ті пари ім'я u003d\> значення, для яких операція
+значення **`true`**. Повернутий масив (пари ім'я =\> значення) буде
+містити тільки ті пари ім'я =\> значення, для яких операція
 отримання в кеші користувача була успішною. Якщо жоден із ключів
 в масиві ключів не знаходить збігу в користувальницькому кеші, буде
 повернутий порожній масив.
@@ -61,14 +61,14 @@ bool(true)
 
 **Приклад #2 **wincache_ucache_get()** з `key` у вигляді масиву**
 
-` <?php$array1 u003d array('green' u003d> '5', 'Blue' u003d> '6', 'yellow' u003d> '7', 'cyan' u003d> '8');wincache_ucache_set($array1 );$array2 u003d array('green', 'Blue', 'yellow', 'cyan');var_dump(wincache_ucache_get($array2, $success));var_dump($success);?> `
+` <?php$array1 = array('green' => '5', 'Blue' => '6', 'yellow' => '7', 'cyan' => '8');wincache_ucache_set($array1 );$array2 = array('green', 'Blue', 'yellow', 'cyan');var_dump(wincache_ucache_get($array2, $success));var_dump($success);?> `
 
 Результат виконання цього прикладу:
 
-array(4) { ["green"]u003d> string(1) "5"
-["Blue"]u003d> string(1) "6"
-["yellow"]u003d> string(1) "7"
-["cyan"]u003d> string(1) "8" }
+array(4) { ["green"]=> string(1) "5"
+["Blue"]=> string(1) "6"
+["yellow"]=> string(1) "7"
+["cyan"]=> string(1) "8" }
 bool(true)
 
 ### Дивіться також

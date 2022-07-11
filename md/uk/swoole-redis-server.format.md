@@ -7,14 +7,14 @@
 
 # Swoole\Redis\Server::format
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Redis\Server::format — Опис
 
 ### Опис
 
 public static **Swoole\Redis\Server::format**(string `$type`, string
-`$value` u003d ?): ReturnType
+`$value` = ?): ReturnType
 
 **Увага**
 

@@ -34,8 +34,8 @@ public **SolrDisMaxQuery::setTieBreaker**(string `$tieBreaker`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setTieBreaker()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery();$dismaxQuery->setTieBreaker(0.1);echo $dismaxQuery;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->setTieBreaker(0.1);echo $dismaxQuery;?> `
 
 Результат виконання цього прикладу:
 
-defTypeu003dedismax&tieu003d0.1
+defType=edismax&tie=0.1

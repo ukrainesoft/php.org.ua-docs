@@ -16,7 +16,7 @@
 | [mysqlnd.debug](mysqlnd.config.md#ini.mysqlnd.debug)                                         | ""                             | PHP_INI_SYSTEM |
 | [mysqlnd.log_mask](mysqlnd.config.md#ini.mysqlnd.log-mask)                                   | 0                              | PHP_INI_ALL    |
 | [mysqlnd.mempool_default_size](mysqlnd.config.md#ini.mysqlnd.mempool-default-size)           | 16000                          | PHP_INI_ALL    |
-| [mysqlnd.net_read_timeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHP_INI_ALL    | До PHP 7.2.0 значенням "31536000", а місцем зміни було **`PHP_INI_SYSTEM`**
+| [mysqlnd.net_read_timeout](mysqlnd.config.md#ini.mysqlnd.net-read-timeout)                   | "86400"                        | PHP_INI_ALL    | До PHP 7.2.0 значенням "31536000", а місцем зміни було **PHP_INI_SYSTEM**
 | [mysqlnd.net_cmd_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-cmd-buffer-size)             | 5.3.0 – "2048", 5.3.1 – "4096" | PHP_INI_SYSTEM |
 | [mysqlnd.net_read_buffer_size](mysqlnd.config.md#ini.mysqlnd.net-read-buffer-size)           | "32768"                        | PHP_INI_SYSTEM |
 | [mysqlnd.sha256_server_public_key](mysqlnd.config.md#ini.mysqlnd.sha256-server-public-key)   | ""                             | PHP_INI_PERDIR |

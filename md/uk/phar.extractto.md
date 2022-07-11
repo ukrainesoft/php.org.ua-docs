@@ -7,14 +7,14 @@
 
 # Phar::extractTo
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::extractTo — Витягти вміст phar-архіву в директорію
 
 ### Опис
 
 public **Phar::extractTo**(string `$directory`, array\|string\|null
-`$files` u003d **`null`**, bool `$overwrite` u003d **`false`**): bool
+`$files` = **`null`**, bool `$overwrite` = **`false`**): bool
 
 Виймає всі файли phar-архіву на диск. Вилучені файли та директорії
 зберігають усі дозволи, які вони мали. Опціональні параметри
@@ -53,7 +53,7 @@ public **Phar::extractTo**(string `$directory`, array\|string\|null
 
 **Приклад #1 Приклад використання **Phar::extractTo()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); $phar->extractTo('/full/path'); // витягти все файли   $phar->extractTo('/another/path', 'file.txt'); // витягти тільки file.txt    $phar->extractTo('/this/path',        array('file1.txt', 'file2.txt')); // витягти два зазначених файлу $phar->extractTo('/third/path', null, true); // витягти всі файли, використовувати перезапис} catch (Exception $e) {    // handle errors}?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); $phar->extractTo('/full/path'); // витягти все файли   $phar->extractTo('/another/path', 'file.txt'); // витягти тільки file.txt    $phar->extractTo('/this/path',        array('file1.txt', 'file2.txt')); // витягти два зазначених файлу $phar->extractTo('/third/path', null, true); // витягти всі файли, використовувати перезапис} catch (Exception $e) {    // handle errors}?> `
 
 ### Примітки
 

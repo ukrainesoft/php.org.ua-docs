@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\BulkWrite::update
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\BulkWrite::update — Додати операцію оновлення до порції
 
 ### Опис
 
 public **MongoDB\Driver\BulkWrite::update**(array\|object `$filter`,
-array\|object `$newObj`, array `$updateOptions` u003d ?): void
+array\|object `$newObj`, array `$updateOptions` = ?): void
 
 Додає операцію поновлення в
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md).
@@ -53,20 +53,20 @@ array\|object `$newObj`, array `$updateOptions` u003d ?): void
 
 ### Список змін
 
-| Версія                                                                                                                                                                                                         | Опис                                                                                                                                  |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| PECL mongodb 1.7.0                                                                                                                                                                                             | Додана опція ``hint'`.                                                                                                                |
-| PECL mongodb 1.6.0                                                                                                                                                                                             | Параметр `newObj` тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старої версії сервера викине виняток під час виконання. |
-| PECL mongodb 1.5.0 Використання опції ``arrayFilters'` призведе до виключення під час виконання, якщо вона не підтримується сервером. Раніше не викидався виняток, і цей параметр, можливо, проігнорували. | | |                                                                                                                                       |
-| PECL mongodb 1.4.0                                                                                                                                                                                             | Додана опція ``arrayFilters'`.                                                                                                        |
-| PECL mongodb 1.2.0                                                                                                                                                                                             | Додана опція ``collation'`.                                                                                                           |
+| Версія                                                                                                                                                                                                  | Опис                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.7.0                                                                                                                                                                                      | Додана опція hint'.                                                                                                                 |
+| PECL mongodb 1.6.0                                                                                                                                                                                      | Параметр newObj тепер приймає конвеєр агрегації. Потрібно MongoDB 4.2+, для старої версії сервера викине виняток під час виконання. |
+| PECL mongodb 1.5.0 Використання опції arrayFilters' призведе до виключення під час виконання, якщо вона не підтримується сервером. Раніше не викидався виняток, і цей параметр, можливо, проігнорували. |                                                                                                                                     | | | | |                                                                                                                                       
+| PECL mongodb 1.4.0                                                                                                                                                                                      | Додана опція arrayFilters'.                                                                                                         |
+| PECL mongodb 1.2.0                                                                                                                                                                                      | Додана опція collation'.                                                                                                            |
 
 ### Приклади
 
 **Приклад #1 Приклад використання
 **MongoDB\Driver\BulkWrite::update()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->update(   ['x' u003d> 2],    ['$set' u003d> ['y' u003d> 3]], [ u003d> false, 'upsert' u003d> false]);$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$result u003d $manager->executeBulkWrite('db.collection', $ bulk);?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite;$bulk->update(   ['x' => 2],    ['$set' => ['y' => 3]], [ => false, 'upsert' => false]);$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$result = $manager->executeBulkWrite('db.collection', $ bulk);?> `
 
 ### Дивіться також
 

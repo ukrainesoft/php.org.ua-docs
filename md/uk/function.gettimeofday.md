@@ -13,7 +13,7 @@ gettimeofday — Повертає поточний час
 
 ### Опис
 
-**gettimeofday**(bool `$as_float` u003d **`false`**): array\|float
+**gettimeofday**(bool `$as_float` = **`false`**): array\|float
 
 Функція є інтерфейсом до системного виклику gettimeofday(2). Вона
 повертає асоціативний масив, що містить інформацію, отриману від
@@ -47,10 +47,10 @@ gettimeofday — Повертає поточний час
 
 Array
 (
-[sec] u003d> 1073504408
-[usec] u003d> 238215
-[minuteswest] u003d> 0
-[dsttime] u003d> 1
+[sec] => 1073504408
+[usec] => 238215
+[minuteswest] => 0
+[dsttime] => 1
 )
 
 1073504408.23910

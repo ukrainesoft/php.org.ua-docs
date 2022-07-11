@@ -27,7 +27,7 @@
 
 **Приклад #1 Створення нового контейнера zval**
 
-` <?php$a u003d "new string";?> `
+` <?php$a = "new string";?> `
 
 У цьому прикладі створюється новий символ `a` у поточній області видимості
 і новий контейнер змінної з типом string та значенням "new string".
@@ -42,21 +42,21 @@
 
 **Приклад #2 Виведення інформації про zval**
 
-` <?php$a u003d "new string";xdebug_debug_zval('a');?> `
+` <?php$a = "new string";xdebug_debug_zval('a');?> `
 
 Результат виконання цього прикладу:
 
-a: (refcountu003d1, is_refu003d0)u003d'new string'
+a: (refcount=1, is_ref=0)='new string'
 
 Присвоєння цієї змінної інший збільшує лічильник посилань.
 
 **Приклад #3 Збільшення лічильника посилань zval**
 
-` <?php$a u003d "new string";$b u003d $a;xdebug_debug_zval( 'a' );?> `
+` <?php$a = "new string";$b = $a;xdebug_debug_zval( 'a' );?> `
 
 Результат виконання цього прикладу:
 
-a: (refcountu003d2, is_refu003d0)u003d'new string'
+a: (refcount=2, is_ref=0)='new string'
 
 Лічильник посилань тут дорівнює `2`, т.к. `a` та `b` посилаються на один і той
 ж контейнер змінної. PHP досить розумний, щоб не копіювати
@@ -68,13 +68,13 @@ a: (refcountu003d2, is_refu003d0)u003d'new string'
 
 **Приклад #4 Зменшення лічильника посилань zval**
 
-` <?php$a u003d "new string";$c u003d $b u003d $a;xdebug_debug_zval( 'a' );$b u003d 42;xdebug_debug_zval( 'a' );unset( $c ' );?> `
+` <?php$a = "new string";$c = $b = $a;xdebug_debug_zval( 'a' );$b = 42;xdebug_debug_zval( 'a' );unset( $c ' );?> `
 
 Результат виконання цього прикладу:
 
-a: (refcountu003d3, is_refu003d0)u003d'new string'
-a: (refcountu003d2, is_refu003d0)u003d'new string'
-a: (refcountu003d1, is_refu003d0)u003d'new string'
+a: (refcount=3, is_ref=0)='new string'
+a: (refcount=2, is_ref=0)='new string'
+a: (refcount=1, is_ref=0)='new string'
 
 Якщо ми зараз викличемо `unset($a);`, то контейнер, включаючи тип і
 значення буде видалено з пам'яті.
@@ -88,13 +88,13 @@ a: (refcountu003d1, is_refu003d0)u003d'new string'
 
 **Приклад #5 Створення array zval**
 
-` <?php$a u003d array( 'meaning' u003d> 'life', 'number' u003d> 42 );xdebug_debug_zval( 'a' );?> `
+` <?php$a = array( 'meaning' => 'life', 'number' => 42 );xdebug_debug_zval( 'a' );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-a: (refcountu003d1, is_refu003d0)u003darray (
-'meaning' u003d> (refcountu003d1, is_refu003d0)u003d'life',
-'number' u003d> (refcountu003d1, is_refu003d0)u003d42
+a: (refcount=1, is_ref=0)=array (
+'meaning' => (refcount=1, is_ref=0)='life',
+'number' => (refcount=1, is_ref=0)=42
 )
 
 Графічно:
@@ -108,14 +108,14 @@ a: (refcountu003d1, is_refu003d0)u003darray (
 
 **Приклад #6 Додавання вже існуючого елемента до масиву**
 
-` <?php$a u003d array( 'meaning' u003d> 'life', 'number' u003d> 42 );$a['life'] u003d $a['meaning'];xdebug_debug_zval( 'a' );? > `
+` <?php$a = array( 'meaning' => 'life', 'number' => 42 );$a['life'] = $a['meaning'];xdebug_debug_zval( 'a' );? > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-a: (refcountu003d1, is_refu003d0)u003darray (
-'meaning' u003d> (refcountu003d2, is_refu003d0)u003d'life',
-'number' u003d> (refcountu003d1, is_refu003d0)u003d42,
-'life' u003d> (refcountu003d2, is_refu003d0)u003d'life'
+a: (refcount=1, is_ref=0)=array (
+'meaning' => (refcount=2, is_ref=0)='life',
+'number' => (refcount=1, is_ref=0)=42,
+'life' => (refcount=2, is_ref=0)='life'
 )
 
 Графічно:
@@ -135,12 +135,12 @@ a: (refcountu003d1, is_refu003d0)u003darray (
 
 **Приклад #7 Видалення елемента з масиву**
 
-` <?php$a u003d array( 'meaning' u003d> 'life', 'number' u003d> 42 );$a['life'] u003d $a['meaning'];unset( $a['meaning') ], $a['number'] );xdebug_debug_zval( 'a' );?> `
+` <?php$a = array( 'meaning' => 'life', 'number' => 42 );$a['life'] = $a['meaning'];unset( $a['meaning') ], $a['number'] );xdebug_debug_zval( 'a' );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-a: (refcountu003d1, is_refu003d0)u003darray (
-'life' u003d> (refcountu003d1, is_refu003d0)u003d'life'
+a: (refcount=1, is_ref=0)=array (
+'life' => (refcount=1, is_ref=0)='life'
 )
 
 Ситуація стане цікавіше, якщо додати масив новим елементом
@@ -149,13 +149,13 @@ a: (refcountu003d1, is_refu003d0)u003darray (
 
 **Приклад #8 Додавання масиву новим елементом до самого себе**
 
-` <?php$a u003d array( 'one' );$a[] u003d& $a;xdebug_debug_zval( 'a' );?> `
+` <?php$a = array( 'one' );$a[] =& $a;xdebug_debug_zval( 'a' );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-a: (refcountu003d2, is_refu003d1)u003darray (
-0 u003d> (refcountu003d1, is_refu003d0)u003d'one',
-1 u003d> (refcountu003d2, is_refu003d1)u003d...
+a: (refcount=2, is_ref=1)=array (
+0 => (refcount=1, is_ref=0)='one',
+1 => (refcount=2, is_ref=1)=...
 )
 
 Графічно:
@@ -174,9 +174,9 @@ a: (refcountu003d2, is_refu003d1)u003darray (
 
 **Приклад #9 Видалення `$a`**
 
-(refcountu003d1, is_refu003d1)u003darray (
-0 u003d> (refcountu003d1, is_refu003d0)u003d'one',
-1 u003d> (refcountu003d1, is_refu003d1)u003d...
+(refcount=1, is_ref=1)=array (
+0 => (refcount=1, is_ref=0)='one',
+1 => (refcount=1, is_ref=1)=...
 )
 
 Графічно:

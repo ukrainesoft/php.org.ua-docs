@@ -49,9 +49,9 @@ get_declared_classes — Повертає масив із іменами ого�
 
 Array
 (
-[0] u003d> stdClass
-[1] u003d> __PHP_Incomplete_Class
-[2] u003d> Directory
+[0] => stdClass
+[1] => __PHP_Incomplete_Class
+[2] => Directory
 )
 
 ### Дивіться також

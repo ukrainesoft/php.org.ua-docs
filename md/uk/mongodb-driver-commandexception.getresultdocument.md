@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Exception\CommandException::getResultDocument
 
-(mongodb \>u003d 1.5.0)
+(mongodb \>= 1.5.0)
 
 MongoDB\Driver\Exception\CommandException::getResultDocument -
 Повертає результат документа для невдалої команди

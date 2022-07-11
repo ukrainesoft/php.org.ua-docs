@@ -31,7 +31,7 @@ public [current](directoryiterator.current.md)():
 public [getATime](directoryiterator.getatime.md)(): int
 
 public [getBasename](directoryiterator.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [getCTime](directoryiterator.getctime.md)(): int
 
@@ -89,7 +89,7 @@ public [valid](directoryiterator.valid.md)(): bool
 public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
 
 public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
 
@@ -97,7 +97,7 @@ public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
 string
 
 public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` u003d **`null`**): [SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
 string
@@ -116,7 +116,7 @@ public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
 public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
 
 public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` u003d **`null`**): ?[SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
 string
@@ -144,14 +144,14 @@ public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
 public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
 
 public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-u003d "r", bool `$useIncludePath` u003d **`false`**, ?resource `$context` u003d
+= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
 **`null`**): [SplFileObject](class.splfileobject.md)
 
 public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` u003d SplFileObject::class): void
+`$class` = SplFileObject::class): void
 
 public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` u003d SplFileInfo::class): void
+`$class` = SplFileInfo::class): void
 
 public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
 

@@ -78,7 +78,7 @@ MySQL.
 apxs2.
 
 cd ../php-NN
-./configure --with-apxs2u003d/usr/local/apache2/bin/apxs --with-pdo-mysql
+./configure --with-apxs2=/usr/local/apache2/bin/apxs --with-pdo-mysql
 make
 make install
 
@@ -98,7 +98,7 @@ cp php.ini-development /usr/local/lib/php.ini
 
 Ймовірно, ви захочете змінити деякі налаштування у php.ini. Якщо
 ви волієте тримати файл php.ini в іншому місці, використовуйте
-параметр --with-config-file-pathu003d/some/path у кроці 5.
+параметр --with-config-file-path=/some/path у кроці 5.
 
 Якщо ж ви використовуєте php.ini-production, прочитайте його, щоб
 знати які зміни у поведінці PHP це спричинить.
@@ -159,7 +159,7 @@ SetHandler application/x-httpd-php-source
 
 `` apache-confcode
 RewriteEngine On
-RewriteRule (.*\.php)s$ $1 [Hu003dapplication/x-httpd-php-source]
+RewriteRule (.*\.php)s$ $1 [H=application/x-httpd-php-source]
 ````
 
 Цей фільтр, що відображає вихідний код, повинен бути вимкнений у
@@ -186,7 +186,7 @@ service httpd restart
 `prefork`. Щоб зробити це, потрібно додати наступний аргумент до
 ./configure на кроці 3:
 
---with-mpmu003dworker
+--with-mpm=worker
 
 Не слід бездумно використовувати це налаштування, використовуйте його тільки
 якщо ви знаєте всі наслідки цього рішення. Документація Apache з [» модулям MPM](http://httpd.apache.org/docs/current/mpm.md)

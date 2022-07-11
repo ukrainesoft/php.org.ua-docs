@@ -7,7 +7,7 @@
 
 # sodium_bin2base64
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_bin2base64 — Кодує необроблений двійковий рядок за допомогою
 base64
@@ -32,11 +32,11 @@ base64
 - **`SODIUM_BASE64_VARIANT_ORIGINAL`** для стандартного
 (`A-Za-z0-9/\+`) Кодування Base64.
 - **`SODIUM_BASE64_VARIANT_ORIGINAL_NO_PADDING`** for standard
-(`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів `u003d`.
+(`A-Za-z0-9/\+`) Кодування Base64 без додаткових символів `=`.
 - **`SODIUM_BASE64_VARIANT_URLSAFE`** для URL-безпечного
 (`A-Za-z0-9\-_`) Кодування Base64.
 - **`SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING`** для URL-безпечного
-(`A-Za-z0-9\-_`) Кодування Base64 без додаткових символів `u003d`.
+(`A-Za-z0-9\-_`) Кодування Base64 без додаткових символів `=`.
 
 ### Значення, що повертаються
 

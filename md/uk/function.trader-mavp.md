@@ -7,7 +7,7 @@
 
 #trader_mavp
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_mavp — Змінна середня зі змінним періодом
 
@@ -16,9 +16,9 @@ trader_mavp — Змінна середня зі змінним періодом
 **trader_mavp**(
 array `$real`,
 array `$periods`,
-int `$minPeriod` u003d ?,
-int `$maxPeriod` u003d ?,
-int `$mAType` u003d ?
+int `$minPeriod` = ?,
+int `$maxPeriod` = ?,
+int `$mAType` = ?
 ): array
 
 ### Список параметрів

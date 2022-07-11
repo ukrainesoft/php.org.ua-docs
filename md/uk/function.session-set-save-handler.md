@@ -21,15 +21,15 @@ session_set_save_handler — Встановлює користувальниць
 [callable](language.types.callable.md) `$write`,
 [callable](language.types.callable.md) `$destroy`,
 [callable](language.types.callable.md) `$gc`,
-[callable](language.types.callable.md) `$create_sid` u003d ?,
-[callable](language.types.callable.md) `$validate_sid` u003d ?,
-[callable](language.types.callable.md) `$update_timestamp` u003d ?
+[callable](language.types.callable.md) `$create_sid` = ?,
+[callable](language.types.callable.md) `$validate_sid` = ?,
+[callable](language.types.callable.md) `$update_timestamp` = ?
 ): bool
 
 Також можна зареєструвати наступний прототип:
 
 **session_set_save_handler**(object `$sessionhandler`, bool
-`$register_shutdown` u003d **`true`**): bool
+`$register_shutdown` = **`true`**): bool
 
 **session_set_save_handler()** встановлює користувацькі
 обробники зберігання сесії, які використовуються для збереження та
@@ -213,7 +213,7 @@ Callback-функція виконується під час сесії. `key` -
 функції. Це зазвичай рекомендується при реєстрації об'єктів як
 обробників зберігання сесії
 
-`<?phpclass MySessionHandler implements SessionHandlerInterface{    // тут реалізація інтерфейсу}$handler u003d new MySessionHandler();session_set_save_handler($handle; |
+`<?phpclass MySessionHandler implements SessionHandlerInterface{    // тут реалізація інтерфейсу}$handler = new MySessionHandler();session_set_save_handler($handle; |
 
 ### Примітки
 

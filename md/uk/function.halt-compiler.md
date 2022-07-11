@@ -7,7 +7,7 @@
 
 #\_\_halt_compiler
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 \_\_halt_compiler — Зупиняє роботу компілятора
 
@@ -34,7 +34,7 @@
 
 **Приклад #1 Приклад використання **\_\_halt_compiler()****
 
-` <?php// відкрити вказаний файл$fp u003dfopen(__FILE__, 'r');// шукати в покажчику файла даніfseek($fp, __COMPILER_HALT_OFFSET__);_/ і зупиняє роботу скрипта__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.) `
+` <?php// відкрити вказаний файл$fp =fopen(__FILE__, 'r');// шукати в покажчику файла даніfseek($fp, __COMPILER_HALT_OFFSET__);_/ і зупиняє роботу скрипта__halt_compiler(); the installation data (eg. tar, gz, PHP, etc.) `
 
 ### Примітки
 

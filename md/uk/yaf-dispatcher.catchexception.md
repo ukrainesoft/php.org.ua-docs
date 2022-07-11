@@ -7,13 +7,13 @@
 
 # Yaf_Dispatcher::catchException
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::catchException — Включає/вимикає перехоплення винятків
 
 ### Опис
 
-public **Yaf_Dispatcher::catchException**(bool `$flag` u003d ?):
+public **Yaf_Dispatcher::catchException**(bool `$flag` = ?):
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 Поки application.dispatcher.throwException увімкнено (ви також можете
@@ -38,7 +38,7 @@ public **Yaf_Dispatcher::catchException**(bool `$flag` u003d ?):
 
 **Приклад #1 Приклад використання **Yaf_Dispatcher::catchException()****
 
-` /* если вы определили ErrorController следующим образом */<?phpclass ErrorController extends Yaf_Controller_Abstract {     /**      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить      * неперехваченное исключение. */     public function errorAction($exception) {        /* error occurs */        switch ($exception->getCode()) {            case YAF_ERR_NOTFOUND_MODULE:            case YAF_ERR_NOTFOUND_CONTROLLER:            case YAF_ERR_NOTFOUND_ACTION:            case YAF_ERR_NOTFOUND_VIEW:                echo 404, ":", $exception-> getMessage(); break; default :                 $message u003d $exception->getMessage(); echo 0, ":", $exception->getMessage(); break; }     }}?> `
+` /* если вы определили ErrorController следующим образом */<?phpclass ErrorController extends Yaf_Controller_Abstract {     /**      * вы также можете вызвать Yaf_Request_Abstract::getException, чтобы получить      * неперехваченное исключение. */     public function errorAction($exception) {        /* error occurs */        switch ($exception->getCode()) {            case YAF_ERR_NOTFOUND_MODULE:            case YAF_ERR_NOTFOUND_CONTROLLER:            case YAF_ERR_NOTFOUND_ACTION:            case YAF_ERR_NOTFOUND_VIEW:                echo 404, ":", $exception-> getMessage(); break; default :                 $message = $exception->getMessage(); echo 0, ":", $exception->getMessage(); break; }     }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

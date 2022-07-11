@@ -7,13 +7,13 @@
 
 #apcu_sma_info
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_sma_info — Витягує інформацію про виділення пам'яті, що розділяється APCu
 
 ### Опис
 
-**apcu_sma_info**(bool `$limited` u003d **`false`**): array\|false
+**apcu_sma_info**(bool `$limited` = **`false`**): array\|false
 
 Виймає інформацію про виділення пам'яті APCu.
 
@@ -38,17 +38,17 @@ apcu_sma_info — Витягує інформацію про виділення 
 
 Array
 (
-[num_seg] u003d> 1
-[seg_size] u003d> 31457280
-[avail_mem] u003d> 31448408
-[block_lists] u003d> Array
+[num_seg] => 1
+[seg_size] => 31457280
+[avail_mem] => 31448408
+[block_lists] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[Size] u003d> 31448408
-[offset] u003d> 8864
+[Size] => 31448408
+[offset] => 8864
 )
 
 )

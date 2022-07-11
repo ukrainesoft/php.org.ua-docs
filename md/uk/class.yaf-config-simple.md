@@ -7,7 +7,7 @@
 
 # Клас Yaf_Config_Simple
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -25,13 +25,13 @@ protected `$_readonly`;
 /\* Методи \*/
 
 public [\_\_construct](yaf-config-simple.construct.md)(array
-`$configs`, bool `$readonly` u003d false)
+`$configs`, bool `$readonly` = false)
 
 public [count](yaf-config-simple.count.md)(): void
 
 public [current](yaf-config-simple.current.md)(): void
 
-public [\_\_get](yaf-config-simple.get.md)(string `$name` u003d ?): void
+public [\_\_get](yaf-config-simple.get.md)(string `$name` = ?): void
 
 public [\_\_isset](yaf-config-simple.isset.md)(string `$name`): void
 

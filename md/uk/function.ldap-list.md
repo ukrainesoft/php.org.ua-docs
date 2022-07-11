@@ -17,12 +17,12 @@ ldap_list - Однорівневий пошук
 [LDAP\Connection](class.ldap-connection.md)\|array `$ldap`,
 array\|string `$base`,
 array\|string `$filter`,
-array `$attributes` u003d [],
-int `$attributes_only` u003d 0,
-int `$sizelimit` u003d -1,
-int `$timelimit` u003d -1,
-int `$deref` u003d **`LDAP_DEREF_NEVER`**,
-?array `$controls` u003d **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
+array `$attributes` = [],
+int `$attributes_only` = 0,
+int `$sizelimit` = -1,
+int `$timelimit` = -1,
+int `$deref` = **`LDAP_DEREF_NEVER`**,
+?array `$controls` = **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
 
 Виконує пошук для зазначеного `filter` у директорії в рамках
 **`LDAP_SCOPE_ONELEVEL`**.
@@ -107,18 +107,18 @@ int `$deref` u003d **`LDAP_DEREF_NEVER`**,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                |
-| 8.0.0  | `controls` тепер припускає значення null; раніше значення за промовчанням було `[]`.                                                                      |
-| 7.3    | Додано підтримку параметра `controls`                                                                                                                     |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
+| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
+| 7.3    | Додано підтримку параметра controls                                                                                                                     |
 
 ### Приклади
 
 **Приклад #1 Виводить список усіх організаційних одиниць організації**
 
-` <?php//$$ds вірний ідентифікатор посилання на сервер директорії$basedn u003d "ou003dMy Company, cu003dUS";$justthese u003d array("ou");$sr u003d ldap_list($ ouu003d*", $justthese);$info u003d ldap_get_entries($ds, $sr);for ($iu003d0; $i < $info["count"]; $i++) {   echo $info[$i] ["ou"][0];}?> `
+` <?php//$$ds вірний ідентифікатор посилання на сервер директорії$basedn = "o=My Company, c=US";$justthese = array("ou");$sr = ldap_list($ ou=*", $justthese);$info = ldap_get_entries($ds, $sr);for ($i=0; $i < $info["count"]; $i++) {   echo $info[$i] ["ou"][0];}?> `
 
 ### Дивіться також
 

@@ -34,12 +34,12 @@ public **DOMDocument::validate**(): bool
 
 **Приклад #1 Приклад перевірки DTD**
 
-` <?php$dom u003d new DOMDocument;$dom->load('book.xml');if ($dom->validate()) {    echo "Документ є дійсним!
+` <?php$dom = new DOMDocument;$dom->load('book.xml');if ($dom->validate()) {    echo "Документ є дійсним!
 ";}?> `
 
 Також можна перевіряти XML-файл під час його завантаження:
 
-` <?php$dom u003d new DOMDocument;$dom->validateOnParse u003d true;$dom->load('book.xml');?> `
+` <?php$dom = new DOMDocument;$dom->validateOnParse = true;$dom->load('book.xml');?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::\_\_construct
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::\_\_construct - Створює новий сеанс (не
 використовується)

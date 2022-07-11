@@ -7,7 +7,7 @@
 
 #imagecreatetruecolor
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecreatetruecolor — Створення нового кольорового зображення
 
@@ -42,7 +42,7 @@ imagecreatetruecolor — Створення нового кольорового 
 
 **Приклад #1 Створення нового потоку GD зображення та виведення картинки.**
 
-`<?phpheader ('Content-Type: image/png');$im u003d @imagecreatetruecolor(120, 20)      or die('Неможливо ініціалізувати GD потік');$text_color   );imagestring($im, 1, 5, 5, 'Проста Текстова Рядок', $text_color);imagepng($im);imagedestroy($im);?> `
+`<?phpheader ('Content-Type: image/png');$im = @imagecreatetruecolor(120, 20)      or die('Неможливо ініціалізувати GD потік');$text_color   );imagestring($im, 1, 5, 5, 'Проста Текстова Рядок', $text_color);imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

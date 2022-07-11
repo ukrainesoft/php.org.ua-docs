@@ -18,9 +18,9 @@
 
 **Приклад #1 Приклад використання процедурного API**
 
-` <?php$coll  u003d collator_create('en_US');$result u003d collator_compare($coll, "string#1", "string#2");?> `
+` <?php$coll  = collator_create('en_US');$result = collator_compare($coll, "string#1", "string#2");?> `
 
 **Приклад #2 Приклад використання об'єктно-орієнтованого API**
 
-` <?php$coll u003d new Collator('en_US');$al  u003d $coll->getLocale(Locale::ACTUAL_LOCALE);echo "Поточна локаль: $al
-";$formatter u003d new NumberFormatter('en_US', NumberFormatter::DECIMAL);echo $formatter->format(1234567);?> `
+` <?php$coll = new Collator('en_US');$al  = $coll->getLocale(Locale::ACTUAL_LOCALE);echo "Поточна локаль: $al
+";$formatter = new NumberFormatter('en_US', NumberFormatter::DECIMAL);echo $formatter->format(1234567);?> `

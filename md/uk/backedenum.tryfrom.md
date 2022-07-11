@@ -7,7 +7,7 @@
 
 # BackedEnum::tryFrom
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 BackedEnum::tryFrom — Порівняє скаляр з екземпляром перерахунку або
 null
@@ -35,7 +35,7 @@ public static **BackedEnum::tryFrom**(int\|string `$value`): ?static
 
 У наведеному прикладі показано, як повертаються варіанти перерахування.
 
-`<?phpenum Suit: string{   case Hearts u003d 'H'; case Diamonds u003d 'D'; case Clubs u003d 'C'; case Spades u003d 'S';}$h u003d Suit::tryFrom('H');var_dump($h);$b u003d Suit::tryFrom('B') ?? Suit::Spades;var_dump($b);?> `
+`<?phpenum Suit: string{   case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}$h = Suit::tryFrom('H');var_dump($h);$b = Suit::tryFrom('B') ?? Suit::Spades;var_dump($b);?> `
 
 Результат виконання цього прикладу:
 

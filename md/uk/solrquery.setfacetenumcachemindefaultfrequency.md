@@ -8,7 +8,7 @@
 
 # SolrQuery::setFacetEnumCacheMinDefaultFrequency
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetEnumCacheMinDefaultFrequency — Встановлює
 мінімальну частоту документа, що використовується для визначення кількості
@@ -17,7 +17,7 @@ SolrQuery::setFacetEnumCacheMinDefaultFrequency — Встановлює
 ### Опис
 
 public **SolrQuery::setFacetEnumCacheMinDefaultFrequency**(int
-`$frequency`, string `$field_override` u003d ?):
+`$frequency`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 Встановлює мінімальну частоту документа, що використовується для

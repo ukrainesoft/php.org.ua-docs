@@ -7,7 +7,7 @@
 
 #xdiff_file_diff_binary
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_file_diff_binary — Псевдонім для xdiff_file_bdiff
 
@@ -47,7 +47,7 @@ string `$dest`): bool
 
 Наступний код створює бінарний патч, порівнюючи два архіви.
 
-` <?php$old_version u003d 'my_script_1.0.tgz';$new_version u003d 'my_script_1.1.tgz';xdiff_file_diff_binary($old_version, $new_version, 'my_script.bdiff');?> `
+` <?php$old_version = 'my_script_1.0.tgz';$new_version = 'my_script_1.1.tgz';xdiff_file_diff_binary($old_version, $new_version, 'my_script.bdiff');?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # sapi_windows_cp_set
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 sapi_windows_cp_set — Встановити кодову сторінку процесу
 

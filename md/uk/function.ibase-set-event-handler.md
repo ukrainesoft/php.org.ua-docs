@@ -56,7 +56,7 @@ Callback-функція повинна повертати **`false`**, якщо 
 
 **Приклад #1 Приклад використання **ibase_set_event_handler()****
 
-`<?phpfunction event_handler($event_name, $link){   if ($event_name u003du003d "NEW ORDER") {         | } else if ($event_name u003du003d "DB_SHUTDOWN") {        // скасовуємо обробник подій         return false; }}ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");?> `
+`<?phpfunction event_handler($event_name, $link){   if ($event_name == "NEW ORDER") {         | } else if ($event_name == "DB_SHUTDOWN") {        // скасовуємо обробник подій         return false; }}ibase_set_event_handler($link, "event_handler", "NEW_ORDER", "DB_SHUTDOWN");?> `
 
 ### Дивіться також
 

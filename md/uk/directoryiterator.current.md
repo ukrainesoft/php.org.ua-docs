@@ -35,17 +35,17 @@ public **DirectoryIterator::current**():
 Приклад виведе список вмісту директорії, що містить виконуваний
 скрипт.
 
-` <?php$iterator u003d new DirectoryIterator(__DIR__);while($iterator->valid()) {   $file u003d $iterator->current(); echo $iterator->key() . " u003d> " . $file->getFilename() . "
+` <?php$iterator = new DirectoryIterator(__DIR__);while($iterator->valid()) {   $file = $iterator->current(); echo $iterator->key() . " => " . $file->getFilename() . "
 ";   $iterator->next();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-0 u003d>.
-1 u003d> ..
-2 u003d> apple.jpg
-3 u003d> banana.jpg
-4 u003d> index.php
-5 u003d> pear.jpg
+0 =>.
+1 => ..
+2 => apple.jpg
+3 => banana.jpg
+4 => index.php
+5 => pear.jpg
 
 ### Дивіться також
 

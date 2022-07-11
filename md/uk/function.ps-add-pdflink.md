@@ -7,7 +7,7 @@
 
 #ps_add_pdflink
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_add_pdflink — Додає посилання на сторінку в іншому PDF-документі
 

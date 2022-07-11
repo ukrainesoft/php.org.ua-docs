@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandFailedEvent::getError
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\Driver\Monitoring\CommandFailedEvent::getError — Повертає
 виняток, пов'язаний із невдалою командою

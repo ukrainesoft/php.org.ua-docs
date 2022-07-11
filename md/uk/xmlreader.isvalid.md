@@ -7,7 +7,7 @@
 
 # XMLReader::isValid
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::isValid — Показати, чи є документ, що розбирається
 синтаксично правильним
@@ -32,7 +32,7 @@ public **XMLReader::isValid**(): bool
 
 **Приклад #1 Перевірка правильності XML**
 
-` <?php$xml u003d XMLReader::open('test.xml');// Для роботи метод обов'язково повинна бути включена// валідація парсера.$xml->setParserProperty(XMLReader::VALIDATE, xml->isValid());?> `
+` <?php$xml = XMLReader::open('test.xml');// Для роботи метод обов'язково повинна бути включена// валідація парсера.$xml->setParserProperty(XMLReader::VALIDATE, xml->isValid());?> `
 
 ### Примітки
 

@@ -18,7 +18,7 @@ odbc_result_all — Виводить результат як HTML-таблиці
 
 ### Опис
 
-**odbc_result_all**(resource `$statement`, string `$format` u003d ""):
+**odbc_result_all**(resource `$statement`, string `$format` = ""):
 int\|false
 
 Друкує всі рядки з ідентифікатора результату, створеного

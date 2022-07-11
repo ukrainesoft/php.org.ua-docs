@@ -7,7 +7,7 @@
 
 #apache_get_modules
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 apache_get_modules — Повертає список завантажених модулів сервера
 Apache
@@ -36,10 +36,10 @@ Apache
 
 Array
 (
-[0] u003d> core
-[1] u003d> http_core
-[2] u003d> mod_so
-[3] u003d> sapi_apache2
-[4] u003d> mod_mime
-[5] u003d> mod_rewrite
+[0] => core
+[1] => http_core
+[2] => mod_so
+[3] => sapi_apache2
+[4] => mod_mime
+[5] => mod_rewrite
 )

@@ -38,7 +38,7 @@ is_executable — Визначає, чи файл виконується
 
 **Приклад #1 Приклад використання функції **is_executable()****
 
-` <?php$file u003d '/home/vincent/somefile.sh';if (is_executable($file)) {    echo $file.' є виконаним';} else {    echo $file.' не є виконаним';}?> `
+` <?php$file = '/home/vincent/somefile.sh';if (is_executable($file)) {    echo $file.' є виконаним';} else {    echo $file.' не є виконаним';}?> `
 
 ### Примітки
 

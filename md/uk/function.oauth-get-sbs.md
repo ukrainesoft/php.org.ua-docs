@@ -7,14 +7,14 @@
 
 #oauth_get_sbs
 
-(PECL OAuth u003d0.99.7)
+(PECL OAuth =0.99.7)
 
 oauth_get_sbs — Створити базовий рядок підпису (Signature Base String)
 
 ### Опис
 
 **oauth_get_sbs**(string `$http_method`, string `$uri`, array
-`$request_parameters` u003d ?): string
+`$request_parameters` = ?): string
 
 Створити базовий рядок підпису (Signature Base String) відповідно до
 pecl/oauth.

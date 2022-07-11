@@ -8,7 +8,7 @@
 
 # EventBufferEvent::sslFilter
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::sslFilter — Створює нову подію буфера SSL для
 надсилання своїх даних через іншу подію буфера
@@ -20,7 +20,7 @@ public static **EventBufferEvent::sslFilter**(
 [EventBufferEvent](class.eventbufferevent.md) `$underlying`,
 [EventSslContext](class.eventsslcontext.md) `$ctx` ,
 int `$state` ,
-int `$options` u003d 0
+int `$options` = 0
 ): [EventBufferEvent](class.eventbufferevent.md)
 
 Створює нову подію буфера SSL для надсилання даних через інше

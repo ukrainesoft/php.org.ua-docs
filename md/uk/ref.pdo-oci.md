@@ -16,18 +16,18 @@
 Докладніше дивіться в [вимогах OCI8](oci8.requirements.md).
 
 Для встановлення модуля PDO Oracle OCI використовуйте опцію
-**--with-pdo-oci[u003dDIR]**, де `[u003dDIR]` - необов'язкове значення,
-що вказує на домашню директорію Oracle. Типово `[u003dDIR]`
+**--with-pdo-oci[=DIR]**, де `[=DIR]` - необов'язкове значення,
+що вказує на домашню директорію Oracle. Типово `[=DIR]`
 приймає значення змінної оточення `$ ORACLE_HOME`.
 
-Використовуйте опцію **--with-pdo-ociu003dinstantclient,prefix,version**
+Використовуйте опцію **--with-pdo-oci=instantclient,prefix,version**
 Oracle Instant Client SDK, із зазначеними префіксом та версією.
 
 // Використання $ORACLE_HOME
 $ ./configure --with-pdo-oci
 
 // Використання OIC для Linux з версією 10.2.0.3 та префіксом /usr
-$ ./configure --with-pdo-ociu003dinstantclient,/usr,10.2.0.3
+$ ./configure --with-pdo-oci=instantclient,/usr,10.2.0.3
 
 ## Зумовлені константи
 

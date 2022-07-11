@@ -9,7 +9,7 @@
 
 # tidy_get_release
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::getRelease -- tidy_get_release — Отримати дату релізу (версію) для
 бібліотеки Tidy

@@ -7,7 +7,7 @@
 
 # Gmagick::raiseimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::raiseimage — Створює імітацію ефекту тривимірної кнопки
 

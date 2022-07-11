@@ -7,7 +7,7 @@
 
 # Swoole\Connection\Iterator::offsetUnset
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Connection\Iterator::offsetUnset - Скидає зсув
 

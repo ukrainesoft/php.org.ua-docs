@@ -33,12 +33,12 @@ SolrDisMaxQuery::addPhraseField
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removePhraseField()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery   ->addPhraseField('first', 3, 1)    ->addPhraseField('se ' );echo $dismaxQuery . PHP_EOL;echo $dismaxQuery->removePhraseField('second');?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery   ->addPhraseField('first', 3, 1)    ->addPhraseField('se ' );echo $dismaxQuery . PHP_EOL;echo $dismaxQuery->removePhraseField('second');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&pfu003dfirst~1^3 second~1^4 cat^55
-qu003dlucene&defTypeu003dedismax&pfu003dfirst~1^3 cat^55
+q=lucene&defType=edismax&pf=first~1^3 second~1^4 cat^55
+q=lucene&defType=edismax&pf=first~1^3 cat^55
 
 ### Дивіться також
 

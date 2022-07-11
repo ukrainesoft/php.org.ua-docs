@@ -7,7 +7,7 @@
 
 # Gmagick::setimagegamma
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagegamma — Встановлює гаму зображення
 

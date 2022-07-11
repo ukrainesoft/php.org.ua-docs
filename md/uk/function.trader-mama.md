@@ -7,14 +7,14 @@
 
 # trader_mama
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_mama — MESA Адаптивна ковзна середня
 
 ### Опис
 
-**trader_mama**(array `$real`, float `$fastLimit` u003d ?, float
-`$slowLimit` u003d ?): array
+**trader_mama**(array `$real`, float `$fastLimit` = ?, float
+`$slowLimit` = ?): array
 
 ### Список параметрів
 

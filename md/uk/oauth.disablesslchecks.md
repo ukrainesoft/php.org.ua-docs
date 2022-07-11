@@ -7,7 +7,7 @@
 
 # OAuth::disableSSLChecks
 
-(PECL OAuth u003d 0.99.5)
+(PECL OAuth = 0.99.5)
 
 OAuth::disableSSLChecks — Вимкнути SSL перевірки
 
@@ -29,9 +29,9 @@ public **OAuth::disableSSLChecks**(): bool
 
 ### Список змін
 
-| Версія            | Опис                         |
-| ----------------- | ---------------------------- |
-| PECL oauth 0.99.8 | Було додано поле `sslChecks` |
+| Версія            | Опис                       |
+| ----------------- | -------------------------- |
+| PECL oauth 0.99.8 | Було додано поле sslChecks |
 
 ### Дивіться також
 

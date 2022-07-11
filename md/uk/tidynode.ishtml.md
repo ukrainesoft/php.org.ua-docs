@@ -37,7 +37,7 @@ public **tidyNode::isHtml**(): bool
 
 **Приклад #1 Вилучення HTML-коду із змішаного HTML-документу**
 
-` <?php$html u003d <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт мир!';?><% /* ASP */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy u003d tidy_parse_string($html);$num u003d ;get_nodes($tidy->html());function get_nodes($node) {    // проверяет текущий узел на соответствие требуемому типу    if($node->isHtml()) {        echo "
+` <?php$html = <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт мир!';?><% /* ASP */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy = tidy_parse_string($html);$num = ;get_nodes($tidy->html());function get_nodes($node) {    // проверяет текущий узел на соответствие требуемому типу    if($node->isHtml()) {        echo "
 
 # html нода #" . ++$GLOBALS['num'] . "
 ";        echo $node->value;    }    // проверяет существование потомков у текущего узла    if($node->hasChildren()) {        foreach($node->child as $child) {            get_nodes($child);        }    }} ?> `

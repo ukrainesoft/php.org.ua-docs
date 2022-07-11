@@ -7,7 +7,7 @@
 
 # Imagick::smushImages
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::smushImages — Опис
 
@@ -34,4 +34,4 @@ stack має значення true, інакше - зліва направо.
 
 **Приклад #1 Приклад використання **Imagick::smushImages()****
 
-`<?phpfunction smushImages($imagePath, $imagePath2) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick2 u003d new \Imagick(realpath($imagePath2)); $imagick->addimage($imagick2); $smushedu003du003d$imagick->smushImages(false, 50); $smushed->setImageFormat('jpg'); header("Content-Type: image/jpg"); echo $smushed->getImageBlob();}?> `
+`<?phpfunction smushImages($imagePath, $imagePath2) {    $imagick = new \Imagick(realpath($imagePath)); $imagick2 = new \Imagick(realpath($imagePath2)); $imagick->addimage($imagick2); $smushed==$imagick->smushImages(false, 50); $smushed->setImageFormat('jpg'); header("Content-Type: image/jpg"); echo $smushed->getImageBlob();}?> `

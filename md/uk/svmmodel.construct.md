@@ -7,13 +7,13 @@
 
 # SVMModel::\_\_construct
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 SVMModel::\_\_construct - Конструктор класу SVMModel
 
 ### Опис
 
-public **SVMModel::\_\_construct**(string `$filename` u003d ?)
+public **SVMModel::\_\_construct**(string `$filename` = ?)
 
 Створює об'єкт класу SVMModel. Зазвичай моделі створюються методом
 SVM::train, але збережені моделі можна відновити безпосередньо.

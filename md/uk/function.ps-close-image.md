@@ -7,7 +7,7 @@
 
 #ps_close_image
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_close_image — Закриває зображення та звільняє пам'ять
 

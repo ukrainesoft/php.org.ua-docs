@@ -33,4 +33,4 @@ public **Imagick::equalizeImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::equalizeImage()****
 
-`<?phpfunction equalizeImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->equalizeImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction equalizeImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->equalizeImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

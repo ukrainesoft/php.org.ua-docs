@@ -7,7 +7,7 @@
 
 # Gender\Gender::connect
 
-(PECL gender \>u003d 0.6.0)
+(PECL gender \>= 0.6.0)
 
 Gender\Gender::connect — З'єднання із зовнішньою базою імен
 

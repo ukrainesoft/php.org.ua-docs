@@ -7,7 +7,7 @@
 
 # Memcached::setSaslAuthData
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::setSaslAuthData — Встановлює облікові дані для
 автентифікації

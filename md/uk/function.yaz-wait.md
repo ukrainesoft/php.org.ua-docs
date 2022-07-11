@@ -7,13 +7,13 @@
 
 # yaz_wait
 
-(PHP 4 u003d 4.0.1, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.1, PECL yaz = 0.9.0)
 
 yaz_wait — Очікує на виконання запитів Z39.50 серверами
 
 ### Опис
 
-**yaz_wait**(array `&$options` u003d ?):
+**yaz_wait**(array `&$options` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Функція виконує мережну (блокуючу) дію до завершення запиту,

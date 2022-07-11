@@ -59,7 +59,7 @@ public static **IntlChar::getPropertyValueEnum**(int `$property`, string
 
 **Приклад #1 Тестування різних властивостей**
 
-` <?phpvar_dump(IntlChar::getPropertyValueEnum(IntlChar::PROPERTY_BLOCK, 'greek') u003du003du003d IntlChar::BLOCK_CODE_GREEK);var_dump(IntlChar::getPropertyValueEnum('TL: CHAR_DIRECTION_RIGHT_TO_LEFT);var_dump(IntlChar::getPropertyValueEnum(IntlChar::PROPERTY_BIDI_CLASS, 'some made-up string') u003du003du003d IntlChar::PROPERTY_INVALID_CODE);var_dump(IntlChar::getPropertyValueEnum(123456789, 'RIGHT_TO_LEFT') u003du003du003d IntlChar: :PROPERTY_INVALID_CODE);?> `
+` <?phpvar_dump(IntlChar::getPropertyValueEnum(IntlChar::PROPERTY_BLOCK, 'greek') === IntlChar::BLOCK_CODE_GREEK);var_dump(IntlChar::getPropertyValueEnum('TL: CHAR_DIRECTION_RIGHT_TO_LEFT);var_dump(IntlChar::getPropertyValueEnum(IntlChar::PROPERTY_BIDI_CLASS, 'some made-up string') === IntlChar::PROPERTY_INVALID_CODE);var_dump(IntlChar::getPropertyValueEnum(123456789, 'RIGHT_TO_LEFT') === IntlChar: :PROPERTY_INVALID_CODE);?> `
 
 Результат виконання цього прикладу:
 

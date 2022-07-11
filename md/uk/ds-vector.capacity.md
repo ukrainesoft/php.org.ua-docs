@@ -7,7 +7,7 @@
 
 # Ds\Vector::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ public **Ds\Vector::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\Vector::capacity()****
 
-` <?php$vector u003d new \Ds\Vector();var_dump($vector->capacity());$vector->push(...range(1, 50));var_dump($vector->capacity ());$vector[] u003d "a";var_dump($vector->capacity());?> `
+` <?php$vector = new \Ds\Vector();var_dump($vector->capacity());$vector->push(...range(1, 50));var_dump($vector->capacity ());$vector[] = "a";var_dump($vector->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

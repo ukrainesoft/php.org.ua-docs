@@ -7,7 +7,7 @@
 
 #fdf_save_string
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_save_string — Повертає документ FDF у вигляді рядка
 
@@ -34,7 +34,7 @@ fdf_save_string — Повертає документ FDF у вигляді ря
 
 **Приклад #1 Отримання FDF у вигляді рядка**
 
-` <?php$fdf u003d fdf_create();fdf_set_value($fdf, "foo", "bar");$str u003d fdf_save_string($fdf);fdf_close($fdf);echo $str;?> `
+` <?php$fdf = fdf_create();fdf_set_value($fdf, "foo", "bar");$str = fdf_save_string($fdf);fdf_close($fdf);echo $str;?> `
 
 Результат виконання цього прикладу:
 

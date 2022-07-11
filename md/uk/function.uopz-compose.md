@@ -20,9 +20,9 @@ uopz_compose — Скласти клас
 **uopz_compose**(
 string `$name`,
 array `$classes`,
-array `$methods` u003d ?,
-array `$properties` u003d ?,
-int `$flags` u003d ?
+array `$methods` = ?,
+array `$properties` = ?,
+int `$flags` = ?
 ): void
 
 Створює клас заданого імені, який реалізує, успадковує або
@@ -38,7 +38,7 @@ int `$flags` u003d ?
 
 `methods`
 Асоціативний масив методів, де значення або замикання, або
-представлені структурою [модифікатори u003d замикання]
+представлені структурою [модифікатори = замикання]
 
 `properties`
 Асоціативний масив властивостей, де ключі – імена, а значення –
@@ -53,19 +53,19 @@ int `$flags` u003d ?
 
 **Приклад #1 Приклад використання **uopz_compose()****
 
-` <?phpclass myClass {}trait myTrait {}interface myInterface {}uopz_compose(    Composed::class, [        myClass::class,        myTrait::class,        myInterface::class    ], [    "__construct" u003d> function() {        / * ... */    }]);var_dump( class_uses(Composed::class), class_parents(Composed::class), class_implements(Composed::class));?> `
+` <?phpclass myClass {}trait myTrait {}interface myInterface {}uopz_compose(    Composed::class, [        myClass::class,        myTrait::class,        myInterface::class    ], [    "__construct" => function() {        / * ... */    }]);var_dump( class_uses(Composed::class), class_parents(Composed::class), class_implements(Composed::class));?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["myTrait"]u003d>
+["myTrait"]=>
 string(7) "myTrait"
 }
 array(1) {
-["myClass"]u003d>
+["myClass"]=>
 string(7) "myClass"
 }
 array(1) {
-["myInterface"]u003d>
+["myInterface"]=>
 string(11) "myInterface"
 }

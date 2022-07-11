@@ -30,10 +30,10 @@ public static **Reflection::getModifierNames**(int `$modifiers`): array
 
 **Приклад #1 Приклад використання **Reflection::getModifierNames()****
 
-` <?phpclass Testing{    final public static function foo()    {        return; }    public function bar()    {        return; }}$foo u003d new ReflectionMethod('Testing', 'foo');echo "Модифікатори для методу foo():
+` <?phpclass Testing{    final public static function foo()    {        return; }    public function bar()    {        return; }}$foo = new ReflectionMethod('Testing', 'foo');echo "Модифікатори для методу foo():
 ";echo $foo->getModifiers() . "
 ";echo implode(' ', Reflection::getModifierNames($foo->getModifiers())) . "
-";$bar u003d new ReflectionMethod('Testing', 'bar');echo "Модифікатори для методу bar():
+";$bar = new ReflectionMethod('Testing', 'bar');echo "Модифікатори для методу bar():
 ";echo $bar->getModifiers() . "
 ";echo implode(' ', Reflection::getModifierNames($bar->getModifiers())); `
 

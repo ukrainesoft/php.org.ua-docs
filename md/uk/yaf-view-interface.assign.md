@@ -7,14 +7,14 @@
 
 # Yaf_View_Interface::assign
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Interface::assign — Призначає значення для движка відображення
 
 ### Опис
 
 abstract public **Yaf_View_Interface::assign**(string `$name`, string
-$value u003d ?): bool
+$value = ?): bool
 
 Надає значення движку відображення, після чого до значення можна
 звертатися безпосередньо на ім'я в шаблоні.

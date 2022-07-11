@@ -7,7 +7,7 @@
 
 # SolrQuery::addExpandSortField
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::addExpandSortField — Упорядковує документи у розширених
 групах (параметр expand.sort)
@@ -15,7 +15,7 @@ SolrQuery::addExpandSortField — Упорядковує документи у �
 ### Опис
 
 public **SolrQuery::addExpandSortField**(string `$field`, string
-`$order` u003d ?): [SolrQuery](class.solrquery.md)
+`$order` = ?): [SolrQuery](class.solrquery.md)
 
 Впорядковує документи у розширених групах (параметр expand.sort).
 

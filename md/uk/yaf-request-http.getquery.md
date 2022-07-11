@@ -7,14 +7,14 @@
 
 # Yaf_Request_Http::getQuery
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Http::getQuery — Отримує параметр запиту
 
 ### Опис
 
 public **Yaf_Request_Http::getQuery**(string `$name`, string `$default`
-u003d?):
+=?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує змінну GET

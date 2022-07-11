@@ -8,15 +8,15 @@
 
 # Phar::mapPhar
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::mapPhar — Прочитати поточний запущений phar-архів та
 зареєструвати його маніфест
 
 ### Опис
 
-final public static **Phar::mapPhar**(?string `$alias` u003d **`null`**, int
-$offset u003d 0): bool
+final public static **Phar::mapPhar**(?string `$alias` = **`null`**, int
+$offset = 0): bool
 
 Цей статичний метод можна використовувати лише у заглушці завантажувача
 Phar-архів з метою його ініціалізації, коли він запущений безпосередньо, або

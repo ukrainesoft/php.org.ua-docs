@@ -7,7 +7,7 @@
 
 # DirectoryIterator::seek
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DirectoryIterator::seek — Переміщує покажчик DirectoryIterator на
 певну позицію
@@ -35,7 +35,7 @@ public **DirectoryIterator::seek**(int `$offset`): void
 Перейти до четвертого елементу в директорії, що містить виконуваний
 скрипт. Перші два, як правило `.` та `..`.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));$iterator->seek(3);if ($iterator->valid()) {   echo $iterator->getFilename();} else {  Немає третього елемента в директорії';}?> `
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));$iterator->seek(3);if ($iterator->valid()) {   echo $iterator->getFilename();} else {  Немає третього елемента в директорії';}?> `
 
 ### Дивіться також
 

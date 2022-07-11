@@ -7,14 +7,14 @@
 
 #bzcompress
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzcompress — Стискає рядок за допомогою bzip2
 
 ### Опис
 
-**bzcompress**(string `$data`, int `$block_size` u003d 4, int `$work_factor`
-u003d 0): string\|int
+**bzcompress**(string `$data`, int `$block_size` = 4, int `$work_factor`
+= 0): string\|int
 
 **bzcompress()** стискає переданий рядок і повертає його у вигляді
 закодованих даних bzip2.
@@ -44,7 +44,7 @@ u003d 0): string\|int
 
 **Приклад #1 Стиснення даних**
 
-` <?php$str u003d "sample data";$bzstr u003d bzcompress($str, 9);echo $bzstr;?> `
+` <?php$str = "sample data";$bzstr = bzcompress($str, 9);echo $bzstr;?> `
 
 ### Дивіться також
 

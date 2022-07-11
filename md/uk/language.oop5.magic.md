@@ -105,7 +105,7 @@ public **\_\_wakeup**(): void
 
 **Приклад #1 Серіалізація та десеріалізація**
 
-`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn u003d $dsn; $this->username u003d $username; $this->password u003d $password; $this->connect(); }    private function connect()    {        $this->link u003d new PDO($this->dsn, $this->username, $this->password); }   publicfunction __sleep()   {        return array('dsn', 'username', 'password'); }    public function __wakeup()   {         $this->connect(); }}?> `
+`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn = $dsn; $this->username = $username; $this->password = $password; $this->connect(); }    private function connect()    {        $this->link = new PDO($this->dsn, $this->username, $this->password); }   publicfunction __sleep()   {        return array('dsn', 'username', 'password'); }    public function __wakeup()   {         $this->connect(); }}?> `
 
 ### [\_\_serialize()](language.oop5.magic.md#object.serialize) та [\_\_unserialize()](language.oop5.magic.md#object.unserialize)
 
@@ -164,7 +164,7 @@ public **\_\_unserialize**(array `$data`): void
 
 **Приклад #2 Серіалізація та десеріалізація**
 
-`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn u003d $dsn; $this->username u003d $username; $this->password u003d $password; $this->connect(); }    private function connect()    {        $this->link u003d new PDO($this->dsn, $this->username, $this->password); }    public function __serialize(): array    {        return [          'dsn' u003d> $this->dsn,          'user' u003d> $this->username,          'pass' u003d> $this->password,        ]; }    public function __unserialize(array $data): void    {        $this->dsn u003d $data['dsn']; $this->username u003d $data['user']; $this->password u003d $data['pass']; $this->connect(); }}?> `
+`<?phpclass Connection{    protected $link; private $dsn, $username, $password; public function __construct($dsn, $username, $password)   {        $this->dsn = $dsn; $this->username = $username; $this->password = $password; $this->connect(); }    private function connect()    {        $this->link = new PDO($this->dsn, $this->username, $this->password); }    public function __serialize(): array    {        return [          'dsn' => $this->dsn,          'user' => $this->username,          'pass' => $this->password,        ]; }    public function __unserialize(array $data): void    {        $this->dsn = $data['dsn']; $this->username = $data['user']; $this->password = $data['pass']; $this->connect(); }}?> `
 
 ### [\_\_toString()](language.oop5.magic.md#object.tostring)
 
@@ -202,7 +202,7 @@ emitted.
 
 **Приклад #3 Простий приклад**
 
-`<?php// Оголошення простого класуclass TestClass{    public $foo; public function __construct($foo)    {        $this->foo u003d $foo; }    public function __toString()    {        return $this->foo; }}$class u003d new TestClass('Привіт');echo $class;?> `
+`<?php// Оголошення простого класуclass TestClass{    public $foo; public function __construct($foo)    {        $this->foo = $foo; }    public function __toString()    {        return $this->foo; }}$class = new TestClass('Привіт');echo $class;?> `
 
 Результат виконання цього прикладу:
 
@@ -219,7 +219,7 @@ emitted.
 **Приклад #4 Використання
 [\_\_invoke()](language.oop5.magic.md#object.invoke)**
 
-`<?phpclass CallableClass{    public function __invoke($x)    {       var_dump($x); }}$obj u003d new CallableClass;$obj(5);var_dump(is_callable($obj));?> `
+`<?phpclass CallableClass{    public function __invoke($x)    {       var_dump($x); }}$obj = new CallableClass;$obj(5);var_dump(is_callable($obj));?> `
 
 Результат виконання цього прикладу:
 
@@ -235,23 +235,23 @@ static **\_\_set_state**(array `$properties`): object
 [var_export()](function.var-export.md).
 
 Єдиним параметром цього методу є масив, що містить
-експортовані властивості як `['property' u003d> value, ...]`.
+експортовані властивості як `['property' => value, ...]`.
 
 **Приклад #5 Використання
 [\_\_set_state()](language.oop5.magic.md#object.set-state)**
 
-`<?phpclass A{    public $var1; public $var2; public static function __set_state($an_array)    {        $obj u003d new A; $obj->var1 u003d $an_array['var1']; $obj->var2 u003d $an_array['var2']; return $obj; }}$a u003d new A;$a->var1 u003d 5;$a->var2 u003d 'foo';$b u003d var_export($a, true);var_dump($b);eval('$c u003d ' . $b . ';');var_dump($c);?> `
+`<?phpclass A{    public $var1; public $var2; public static function __set_state($an_array)    {        $obj = new A; $obj->var1 = $an_array['var1']; $obj->var2 = $an_array['var2']; return $obj; }}$a = new A;$a->var1 = 5;$a->var2 = 'foo';$b = var_export($a, true);var_dump($b);eval('$c = ' . $b . ';');var_dump($c);?> `
 
 Результат виконання цього прикладу:
 
 string(60) "A::__set_state(array(
-'var1' u003d> 5,
-'var2' u003d> 'foo',
+'var1' => 5,
+'var2' => 'foo',
 ))"
 object(A)#2 (2) {
-["var1"]u003d>
+["var1"]=>
 int(5)
-["var2"]u003d>
+["var2"]=>
 string(3) "foo"
 }
 
@@ -277,11 +277,11 @@ public, protected та private.
 **Приклад #6 Використання
 [\_\_debugInfo()](language.oop5.magic.md#object.debuginfo)**
 
-` <?phpclass C {    private $prop; public function __construct($val) {         $this->prop u003d $val; }   publicfunction __debugInfo() {        return [            'propSquared' u003d> $this->prop **   }}var_dump(new C(42));?> `
+` <?phpclass C {    private $prop; public function __construct($val) {         $this->prop = $val; }   publicfunction __debugInfo() {        return [            'propSquared' => $this->prop **   }}var_dump(new C(42));?> `
 
 Результат виконання цього прикладу:
 
 object(C)#1 (1) {
-["propSquared"]u003d>
+["propSquared"]=>
 int(1764)
 }

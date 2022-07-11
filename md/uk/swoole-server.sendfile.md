@@ -7,14 +7,14 @@
 
 # Swoole\Server::sendfile
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::sendfile — Надсилає файл на з'єднання
 
 ### Опис
 
 public **Swoole\Server::sendfile**(int `$fd`, string `$filename`, int
-`$offset` u003d ?): bool
+`$offset` = ?): bool
 
 **Увага**
 

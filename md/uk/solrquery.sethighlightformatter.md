@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightFormatter
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightFormatter — Задає засіб форматування для
 виведення виділення
@@ -15,7 +15,7 @@ SolrQuery::setHighlightFormatter — Задає засіб форматуван�
 ### Опис
 
 public **SolrQuery::setHighlightFormatter**(string `$formatter`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Задає засіб форматування для виведення виділення
 

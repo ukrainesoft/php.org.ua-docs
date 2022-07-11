@@ -7,7 +7,7 @@
 
 # mcrypt_get_key_size
 
-(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_get_key_size — Отримати розмір ключа заданого шифру
 

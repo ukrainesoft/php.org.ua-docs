@@ -13,8 +13,8 @@ ob_start — Увімкнення буферизації виводу
 
 ### Опис
 
-**ob_start**([callable](language.types.callable.md) `$callback` u003d
-**`null`**, int `$chunk_size` u003d 0, int `$flags` u003d
+**ob_start**([callable](language.types.callable.md) `$callback` =
+**`null`**, int `$chunk_size` = 0, int `$flags` =
 **`PHP_OUTPUT_HANDLER_STDFLAGS`**): bool
 
 Ця функція включає буферизацію виводу. Якщо буферизація виводу
@@ -59,7 +59,7 @@ PHP автоматично виводить вміст.
 надіслано браузеру. Якщо callback не є допустимою функцією, то
 ця функція поверне **`false`**. Опис функції для цього параметра:
 
-handler(string `$buffer`, int `$phase` u003d ?): string
+handler(string `$buffer`, int `$phase` = ?): string
 
 `buffer`
 Вміст буфера виводу.
@@ -108,11 +108,11 @@ handler(string `$buffer`, int `$phase` u003d ?): string
 
 Кожен прапор управляє доступом до набору функцій, як описано нижче:
 
-| Константа Функції                  |
-| ---------------------------------- |
-| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob_clean()](function.ob-clean.md), [ob_end_clean()](function.ob-end-clean.md) та [ob_get_clean()](function.ob-get-clean.md).
-| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob_end_flush()](function.ob-end-flush.md), [ob_flush()](function.ob-flush.md) та [ob_get_flush()](function.ob-get-flush.md).
-| **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [ob_end_clean()](function.ob-end-clean.md), [ob_end_flush()](function.ob-end-flush.md) та [ob_get_flush()](function.ob-get-flush.md) .
+| Константа Функції                |
+| -------------------------------- |
+| **PHP_OUTPUT_HANDLER_CLEANABLE** | [ob_clean()](function.ob-clean.md), [ob_end_clean()](function.ob-end-clean.md) та [ob_get_clean()](function.ob-get-clean.md). 
+| **PHP_OUTPUT_HANDLER_FLUSHABLE** | [ob_end_flush()](function.ob-end-flush.md), [ob_flush()](function.ob-flush.md) та [ob_get_flush()](function.ob-get-flush.md).
+| **PHP_OUTPUT_HANDLER_REMOVABLE** | [ob_end_clean()](function.ob-end-clean.md), [ob_end_flush()](function.ob-end-flush.md) та [ob_get_flush()](function.ob-get-flush.md) .
 
 ### Значення, що повертаються
 

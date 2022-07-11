@@ -29,11 +29,11 @@ include або бібліотеку для GD, gdbm або будь-якого �
 9. [Я слідував усім крокам по встановленню модульної версії для Apache на
 Unix, але мої PHP-скрипти виводяться в браузері або я отримую запит зберегти файл.](#faq.build.not-running)
 10. [У документації рекомендується використовувати:
---activate-moduleu003dsrc/modules/php4/libphp4.a, але такий файл не
+--activate-module=src/modules/php4/libphp4.a, але такий файл не
 існує, тому я замінив це на
---activate-moduleu003dsrc/modules/php4/libmodphp4.a і воно не працює!? Що відбувається?](#faq.build.activate-module)
+--activate-module=src/modules/php4/libmodphp4.a і воно не працює!? Що відбувається?](#faq.build.activate-module)
 11. [Коли я намагаюся зібрати Apache c PHP у вигляді статичного модуля,
-використовуючи --activate-moduleu003dsrc/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
+використовуючи --activate-module=src/modules/php4/libphp4.a він каже, що мій компілятор не ANSI-сумісний.](#faq.build.ansi)
 12. [Коли я намагаюся зібрати PHP за допомогою --with-apxs, я отримую дивне повідомлення про помилку.](#faq.build.apxs)
 13. [Під час виконання make я дуже швидко отримую помилки та безліч всяких RUSAGE\_.](#faq.build.microtime)
 14. [При компіляції PHP з MySQL, configure виконується нормально, але у
@@ -66,8 +66,8 @@ Git сервера просто запустіть **./buildconf** у дирек
 **У мене виникають проблеми при конфігуруванні PHP для роботи з Apache. Він каже, що не може знайти `httpd.h`, хоча файл знаходиться там, де я сказав!**
 Для configure/setup скрипта необхідно вказати директорію верхнього
 рівня, де знаходяться вихідні коди Apache. Це означає, що вам треба
-задати **--with-apacheu003d/path/to/apache**, а *не*
-**--with-apacheu003d/path/to/apache/src**.
+задати **--with-apache=/path/to/apache**, а *не*
+**--with-apache=/path/to/apache/src**.
 
 **Під час конфігурації PHP (`./configure`) ви натрапляєте на помилку,
 подібну до наступної:**
@@ -93,7 +93,7 @@ symbol ap_block_alarms: referenced symbol not found
 переконфігурувати Apache, використовуючи принаймні наступні прапори:
 
 
---enable-sharedu003dmax --enable-ruleu003dSHARED_CORE
+--enable-shared=max --enable-rule=SHARED_CORE
 
 Для більш детальної інформації читайте файл `INSTALL` у директорії
 верхнього рівня або [»  сторінку керівництва Apache по DSO](http://httpd.apache.org/docs/current/dso.md).
@@ -103,11 +103,11 @@ symbol ap_block_alarms: referenced symbol not found
 заголовків або бібліотеки у нестандартних місцях, задавши додаткові
 прапори для препроцесора і компонувальника, такі як:
 
-CPPFLAGSu003d-I/path/to/include LDFLAGSu003d-L/path/to/library ./configure
+CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 Якщо ви використовуєте csh-подібну оболонку (навіщо?), це буде:
 
-env CPPFLAGSu003d-I/path/to/include LDFLAGSu003d-L/path/to/library ./configure
+env CPPFLAGS=-I/path/to/include LDFLAGS=-L/path/to/library ./configure
 
 
 
@@ -161,13 +161,13 @@ env CPPFLAGSu003d-I/path/to/include LDFLAGSu003d-L/path/to/library ./configure
 
 
 
-**У документації рекомендується використовувати: `--activate-moduleu003dsrc/modules/php4/libphp4.a`, але такий файл не існує, тому я замінив це на `--activate-moduleu003dsrc/modules/php4/libmodphp4 .a` і воно не працює!? Що відбувається?**
+**У документації рекомендується використовувати: `--activate-module=src/modules/php4/libphp4.a`, але такий файл не існує, тому я замінив це на `--activate-module=src/modules/php4/libmodphp4 .a` і воно не працює!? Що відбувається?**
 Зауважте, що файл libphp4.a не повинен існувати. Він буде створений у
 процесі!
 
 
 
-**Коли я намагаюся зібрати Apache з PHP у вигляді статичного модуля, використовуючи `--activate-moduleu003dsrc/modules/php4/libphp4.a` він каже, що мій компілятор не ANSI-сумісний.**
+**Коли я намагаюся зібрати Apache з PHP у вигляді статичного модуля, використовуючи `--activate-module=src/modules/php4/libphp4.a` він каже, що мій компілятор не ANSI-сумісний.**
 Повідомлення про помилку вводить в оману; це виправлено у свіжіших
 версіях Apache.
 
@@ -180,26 +180,26 @@ Perl скрипт apxs, він виходить без правильного к
 **which apxs**), іноді він встановлений як `/usr/local/apache/bin/apxs`
 або `/usr/sbin/apxs`. Відкрийте його і знайдіть рядки, схожі на ці:
 
-my $CFG_CFLAGS_SHLIB u003d ''; # substituted via Makefile.tmpl
-my $CFG_LD_SHLIB u003d ''; # substituted via Makefile.tmpl
-my $CFG_LDFLAGS_SHLIB u003d ''; # substituted via Makefile.tmpl
+my $CFG_CFLAGS_SHLIB = ''; # substituted via Makefile.tmpl
+my $CFG_LD_SHLIB = ''; # substituted via Makefile.tmpl
+my $CFG_LDFLAGS_SHLIB = ''; # substituted via Makefile.tmpl
 
 Якщо вони так і виглядають, ви знайшли вашу проблему. Вони можуть утримувати
 тільки пробіли або інші неправильні значення, такі як q().
 Змініть ці рядки на:
 
-my $CFG_CFLAGS_SHLIB u003d '-fpic -DSHARED_MODULE'; # substituted via Makefile.tmpl
-my $CFG_LD_SHLIB u003d 'gcc'; # substituted via Makefile.tmpl
-my $CFG_LDFLAGS_SHLIB u003d q(-shared); # substituted via Makefile.tmpl
+my $CFG_CFLAGS_SHLIB = '-fpic -DSHARED_MODULE'; # substituted via Makefile.tmpl
+my $CFG_LD_SHLIB = 'gcc'; # substituted via Makefile.tmpl
+my $CFG_LDFLAGS_SHLIB = q(-shared); # substituted via Makefile.tmpl
 
 Друга можлива проблема виникає лише на Red Hat 6.1 та 6.2. Скрипт
 apxs, що поставляється з Red Hat, зламаний. Шукайте цей рядок:
 
-my $CFG_LIBEXECDIR u003d 'modules'; # substituted via APACI install
+my $CFG_LIBEXECDIR = 'modules'; # substituted via APACI install
 
 Якщо ви знайшли вищенаведений рядок, змініть його на наступне:
 
-my $CFG_LIBEXECDIR u003d '/usr/lib/apache'; # substituted via APACI install
+my $CFG_LIBEXECDIR = '/usr/lib/apache'; # substituted via APACI install
 
 І останнє, якщо ви переконфігуруєте/перевстановлюєте Apache,
 запустіть **make clean** після **./configure** та перед **make**.

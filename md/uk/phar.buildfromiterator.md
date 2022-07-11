@@ -7,14 +7,14 @@
 
 # Phar::buildFromIterator
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::buildFromIterator — Створює phar-архів з ітератора
 
 ### Опис
 
 public **Phar::buildFromIterator**([Traversable](class.traversable.md)
-`$iterator`, ?string `$baseDirectory` u003d **`null`**): array
+`$iterator`, ?string `$baseDirectory` = **`null`**): array
 
 > **Примітка**:
 >
@@ -60,10 +60,10 @@ phar-архів.
 
 ### Список змін
 
-| Версія | Опис                                                                   |
-| ------ | ---------------------------------------------------------------------- |
-| 8.1.0  | **Phar::buildFromIterator()** більше не повертає значення **`false`**. |
-| 8.0.0  | `baseDirectory` тепер допускає значення null.                          |
+| Версія | Опис                                                                 |
+| ------ | -------------------------------------------------------------------- |
+| 8.1.0  | **Phar::buildFromIterator()** більше не повертає значення **false**. |
+| 8.0.0  | baseDirectory тепер допускає значення null.                          |
 
 ### Приклади
 
@@ -94,7 +94,7 @@ index.php
 Додавання цих файлів в phar-архів "project.phar" може бути
 використаний наступний код:
 
-`<?php// створити з псевдонімом "project.phar"$phar u003d new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator( Itor(Retore /к/проекту')),   '/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+`<?php// створити з псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator( Itor(Retore /к/проекту')),   '/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
 
 Після цього файл project.phar можна використовувати негайно. Такі
 значення як стиснення та метадані не встановлюються методом
@@ -106,7 +106,7 @@ phar-архіву.
 копіювання вмісту існуючого phar-архіву, оскільки клас Phar
 є нащадком [DirectoryIterator](class.directoryiterator.md):
 
-`<?php// створити з псевдонімом "project.phar"$pharu003du003dNew Phar('project.phar', 0, 'project.phar'); /к/anotherphar.phar')),   'phar:///шлях/к/anotherphar.phar/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php ', 'www/index.php'));?> `
+`<?php// створити з псевдонімом "project.phar"$phar==New Phar('project.phar', 0, 'project.phar'); /к/anotherphar.phar')),   'phar:///шлях/к/anotherphar.phar/шлях/к/проекту');$phar->setStub($phar->createDefaultStub('cli/index.php ', 'www/index.php'));?> `
 
 **Приклад #2 Приклад використання **Phar::buildFromIterator()** з іншими
 типами ітераторів**
@@ -116,7 +116,7 @@ phar-архіву.
 до файлу на диску, як у випадку з
 [ArrayIterator](class.arrayiterator.md):
 
-`<?php// створити с псевдонімом "project.phar"$phar u003d new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator(                         /архіва/file.php' u003d> dirname(__FILE__) . '/somefile.php',       ''друг/шлях/всередині/архіву/file.jpg' u003d> fopen('/шлях/к/bigfile.jpg', ' rb'),     )));$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
+`<?php// створити с псевдонімом "project.phar"$phar = new Phar('project.phar', 0, 'project.phar');$phar->buildFromIterator(                         /архіва/file.php' => dirname(__FILE__) . '/somefile.php',       ''друг/шлях/всередині/архіву/file.jpg' => fopen('/шлях/к/bigfile.jpg', ' rb'),     )));$phar->setStub($phar->createDefaultStub('cli/index.php', 'www/index.php'));?> `
 
 ### Дивіться також
 

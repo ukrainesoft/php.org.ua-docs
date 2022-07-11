@@ -7,7 +7,7 @@
 
 # mysql_escape_string
 
-(PHP 4 u003d 4.0.3, PHP 5)
+(PHP 4 = 4.0.3, PHP 5)
 
 mysql_escape_string — Екранує рядок для використання у mysql_query
 
@@ -49,7 +49,7 @@ mysql_escape_string — Екранує рядок для використанн�
 
 **Приклад #1 Приклад використання **mysql_escape_string()****
 
-` <?php$item u003d "Zak's Laptop";$escaped_item u003d mysql_escape_string($item);printf("Escaped string: %s
+` <?php$item = "Zak's Laptop";$escaped_item = mysql_escape_string($item);printf("Escaped string: %s
 ", $escaped_item);?> `
 
 Результат виконання цього прикладу:

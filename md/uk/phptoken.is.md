@@ -31,11 +31,11 @@ public **PhpToken::is**(int\|string\|array `$kind`): bool
 
 **Приклад #1 Приклад використання **PhpToken::is()****
 
-`<?php$token u003d new PhpToken(T_ECHO, 'echo');var_dump($token->is(T_ECHO)); // -> bool(true)var_dump($token->is('echo')); // -> bool(true)var_dump($token->is(T_FOREACH)); // -> bool(false)var_dump($token->is('foreach')); // -> bool(false) `
+`<?php$token = new PhpToken(T_ECHO, 'echo');var_dump($token->is(T_ECHO)); // -> bool(true)var_dump($token->is('echo')); // -> bool(true)var_dump($token->is(T_FOREACH)); // -> bool(false)var_dump($token->is('foreach')); // -> bool(false) `
 
 **Приклад #2 Використання з масивом**
 
-`<?phpfunction isClassType(PhpToken $token): bool {    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]); ); // -> bool(true)$function u003d new PhpToken(T_FUNCTION, 'function');var_dump(isClassType($function)); // -> bool(false) `
+`<?phpfunction isClassType(PhpToken $token): bool {    return $token->is([T_CLASS, T_INTERFACE, T_TRAIT]); ); // -> bool(true)$function = new PhpToken(T_FUNCTION, 'function');var_dump(isClassType($function)); // -> bool(false) `
 
 ### Дивіться також
 

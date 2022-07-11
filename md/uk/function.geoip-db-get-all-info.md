@@ -7,7 +7,7 @@
 
 # geoip_db_get_all_info
 
-(PECL geoip \>u003d 1.0.1)
+(PECL geoip \>= 1.0.1)
 
 geoip_db_get_all_info — Повертає докладну інформацію про всі типи
 бази GeoIP
@@ -44,30 +44,30 @@ geoip_db_get_all_info — Повертає докладну інформацію
 
 Виводить масив, що містить всю інформацію про базу даних.
 
-` <?php$infos u003d geoip_db_get_all_info();if (is_array($infos)) {   var_dump($infos);}?> `
+` <?php$infos = geoip_db_get_all_info();if (is_array($infos)) {   var_dump($infos);}?> `
 
 Результат виконання цього прикладу:
 
 array(11) {
-[1]u003d>
+[1]=>
 array(3) {
-["available"]u003d>
+["available"]=>
 bool(true)
-["description"]u003d>
+["description"]=>
 string(21) "GeoIP Country Edition"
-["filename"]u003d>
+["filename"]=>
 string(32) "/usr/share/GeoIP/GeoIP.dat"
 }
 
 [ ... ]
 
-[11] u003d>
+[11] =>
 array(3) {
-["available"]u003d>
+["available"]=>
 bool(false)
-["description"]u003d>
+["description"]=>
 string(25) "GeoIP Domain Name Edition"
-["filename"]u003d>
+["filename"]=>
 string(38) "/usr/share/GeoIP/GeoIPDomain.dat"
 }
 }
@@ -77,7 +77,7 @@ string(38) "/usr/share/GeoIP/GeoIPDomain.dat"
 Ви можете використовувати різноманітні константи як ключі для отримання
 лише конкретної частини інформації.
 
-` <?php$infos u003d geoip_db_get_all_info();if ($infos[GEOIP_COUNTRY_EDITION]['available']) {    echo $infos[GEOIP_COUNTRY_EDITION]['description'];}?
+` <?php$infos = geoip_db_get_all_info();if ($infos[GEOIP_COUNTRY_EDITION]['available']) {    echo $infos[GEOIP_COUNTRY_EDITION]['description'];}?
 
 Результат виконання цього прикладу:
 

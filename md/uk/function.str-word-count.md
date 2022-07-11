@@ -7,14 +7,14 @@
 
 #str_word_count
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 str_word_count — Повертає інформацію про слова, що входять до рядка
 
 ### Опис
 
-**str_word_count**(string `$string`, int `$format` u003d 0, ?string
-`$characters` u003d **`null`**): array\|int
+**str_word_count**(string `$string`, int `$format` = 0, ?string
+`$characters` = **`null`**): array\|int
 
 Підраховує кількість слів, що входять до рядка `string`. Якщо
 необов'язковий аргумент `format` не передано, повертається ціле число,
@@ -54,48 +54,48 @@ str_word_count — Повертає інформацію про слова, що
 
 ### Список змін
 
-| Версія | Опис                                        |
-| ------ | ------------------------------------------- |
-| 8.0.0  | `characters` тепер припускає значення null. |
+| Версія | Опис                                      |
+| ------ | ----------------------------------------- |
+| 8.0.0  | characters тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **str_word_count()****
 
-`<?php$stru003du003d""Hello|fri3nd,|you're||||||||||| , 'àáãç3'));echo str_word_count($str);?> `
+`<?php$str==""Hello|fri3nd,|you're||||||||||| , 'àáãç3'));echo str_word_count($str);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Hello
-[1] u003d> fri
-[2] u003d> nd
-[3] u003d> you're
-[4] u003d> looking
-[5] u003d> good
-[6] u003d> today
+[0] => Hello
+[1] => fri
+[2] => nd
+[3] => you're
+[4] => looking
+[5] => good
+[6] => today
 )
 
 Array
 (
-[0] u003d> Hello
-[6] u003d> fri
-[10] u003d> nd
-[14] u003d> you're
-[29] u003d> looking
-[46] u003d> good
-[51] u003d> today
+[0] => Hello
+[6] => fri
+[10] => nd
+[14] => you're
+[29] => looking
+[46] => good
+[51] => today
 )
 
 Array
 (
-[0] u003d> Hello
-[1] u003d> fri3nd
-[2] u003d> you're
-[3] u003d> looking
-[4] u003d> good
-[5] u003d> today
+[0] => Hello
+[1] => fri3nd
+[2] => you're
+[3] => looking
+[4] => good
+[5] => today
 )
 
 7

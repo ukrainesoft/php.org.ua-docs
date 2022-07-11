@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::\_\_set_state
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::\_\_set_state - Обробник \_\_set_state
 

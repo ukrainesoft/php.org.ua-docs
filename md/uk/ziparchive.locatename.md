@@ -7,13 +7,13 @@
 
 # ZipArchive::locateName
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::locateName — Повертає індекс елемента до архіву
 
 ### Опис
 
-public **ZipArchive::locateName**(string `$name`, int `$flags` u003d 0):
+public **ZipArchive::locateName**(string `$name`, int `$flags` = 0):
 int\|false
 
 Знаходить елемент на його ім'я.
@@ -41,8 +41,8 @@ int\|false
 **Приклад #1 Створюється архів і потім використовується метод
 **ZipArchive::locateName()****
 
-` <?php$file u003d 'testlocate.zip';$zip u003d new ZipArchive;if ($zip->open($file, ZipArchive::CREATE) !u003du003d TRUE) {    exit('помилка');} zip->addFromString('entry1.txt', 'entry #1');$zip->addFromString('entry2.txt', 'entry #2');$zip->addFromString('dir/entry2d.txt' , 'entry #2');if ($zip->status !u003du003d ZipArchive::ER_OK) {    echo "Помилка запису в zip
-";}$zip->close();if($zip->open($file) !u003du003d TRUE) {    exit('помилка');}echo $zip->locateName('entry1.txt') . "
+` <?php$file = 'testlocate.zip';$zip = new ZipArchive;if ($zip->open($file, ZipArchive::CREATE) !== TRUE) {    exit('помилка');} zip->addFromString('entry1.txt', 'entry #1');$zip->addFromString('entry2.txt', 'entry #2');$zip->addFromString('dir/entry2d.txt' , 'entry #2');if ($zip->status !== ZipArchive::ER_OK) {    echo "Помилка запису в zip
+";}$zip->close();if($zip->open($file) !== TRUE) {    exit('помилка');}echo $zip->locateName('entry1.txt') . "
 ";echo $zip->locateName('eNtry2.txt') . "
 ";echo $zip->locateName('eNtry2.txt', ZipArchive::FL_NOCASE) . "
 ";echo $zip->locateName('enTRy2d.txt', ZipArchive::FL_NOCASE|ZipArchive::FL_NODIR) . "

@@ -14,7 +14,7 @@ COMPersistHelper::LoadFromFile — Завантажити об'єкт із фа�
 ### Опис
 
 public **COMPersistHelper::LoadFromFile**(string `$filename`, int
-$flags u003d 0): bool
+$flags = 0): bool
 
 Відкриває вказаний файл та ініціалізує об'єкт із вмісту.
 

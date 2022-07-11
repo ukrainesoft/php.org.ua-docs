@@ -7,15 +7,15 @@
 
 # Phar::convertToData
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::convertToData — Конвертує phar-архів у невиконаний tar- або
 zip-файл
 
 ### Опис
 
-public **Phar::convertToData**(?int `$format` u003d **`null`**, ?int
-`$compression` u003d **`null`**, ?string `$extension` u003d **`null`**):
+public **Phar::convertToData**(?int `$format` = **`null`**, ?int
+`$compression` = **`null`**, ?string `$extension` = **`null`**):
 ?[PharData](class.phardata.md)
 
 Цей метод використовується для конвертування phar-архів у tar- або
@@ -75,9 +75,9 @@ zlib, або `Phar::BZ2` для bzip-стиснення.
 
 ### Список змін
 
-| Версія | Опис                                                                   |
-| ------ | ---------------------------------------------------------------------- |
-| 8.0.0  | `format`, `compression` та `extension` тепер допускають значення null. |
+| Версія | Опис                                                             |
+| ------ | ---------------------------------------------------------------- |
+| 8.0.0  | format, compression та extension тепер допускають значення null. |
 
 ### Приклади
 
@@ -85,7 +85,7 @@ zlib, або `Phar::BZ2` для bzip-стиснення.
 
 Використання Phar::convertToData():
 
-`<?phptry {   $tarphar u003d new Phar('myphar.phar.tar'); // зверніть увагу, що myphar.phar.tar *не* буде віддалений    // конверувати архів в невиконуваний tar-формат     // буде створений myr  //  конверувати архів в невиконаний zip-формат файлу, буде створений myphar.zip    $zip u003d $tarphar->convertToData(Phar::ZIP); // буде створен myphar.tbz    $tgz u003d $tarphar->convertToData(Phar::TAR, Phar::BZ2, '.tbz'); // буде створен myphar.phar.tgz   $phar u003d $tarphar->convertToData(Phar::PHAR); // буде викинуто виняток} catch (Exception $e) {     // обробка помилок}?> `
+`<?phptry {   $tarphar = new Phar('myphar.phar.tar'); // зверніть увагу, що myphar.phar.tar *не* буде віддалений    // конверувати архів в невиконуваний tar-формат     // буде створений myr  //  конверувати архів в невиконаний zip-формат файлу, буде створений myphar.zip    $zip = $tarphar->convertToData(Phar::ZIP); // буде створен myphar.tbz    $tgz = $tarphar->convertToData(Phar::TAR, Phar::BZ2, '.tbz'); // буде створен myphar.phar.tgz   $phar = $tarphar->convertToData(Phar::PHAR); // буде викинуто виняток} catch (Exception $e) {     // обробка помилок}?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # VarnishLog::\_\_construct
 
-(PECL varnish \>u003d 0.6)
+(PECL varnish \>= 0.6)
 
 VarnishLog::\_\_construct — Конструктор Varnishlog
 
 ### Опис
 
-public **VarnishLog::\_\_construct**(array `$args` u003d ?)
+public **VarnishLog::\_\_construct**(array `$args` = ?)
 
 ### Список параметрів
 

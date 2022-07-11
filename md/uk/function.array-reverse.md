@@ -13,7 +13,7 @@ array_reverse — Повертає масив із елементами у зв�
 
 ### Опис
 
-**array_reverse**(array `$array`, bool `$preserve_keys` u003d **`false`**):
+**array_reverse**(array `$array`, bool `$preserve_keys` = **`false`**):
 array
 
 Приймає масив `array` та повертає новий масив, що містить елементи
@@ -36,42 +36,42 @@ array
 
 **Приклад #1 Приклад використання **array_reverse()****
 
-` <?php$input  u003d array("php", 4.0, array("green", "red"));$reversed u003d array_reverse($input);$preserved u003d array_reverse($input, true);print_r($ input);print_r($reversed);print_r($preserved);?> `
+` <?php$input  = array("php", 4.0, array("green", "red"));$reversed = array_reverse($input);$preserved = array_reverse($input, true);print_r($ input);print_r($reversed);print_r($preserved);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> php
-[1] u003d> 4
-[2] u003d> Array
+[0] => php
+[1] => 4
+[2] => Array
 (
-[0] u003d> green
-[1] u003d> red
+[0] => green
+[1] => red
 )
 
 )
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> green
-[1] u003d> red
+[0] => green
+[1] => red
 )
 
-[1] u003d> 4
-[2] u003d> php
+[1] => 4
+[2] => php
 )
 Array
 (
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> green
-[1] u003d> red
+[0] => green
+[1] => red
 )
 
-[1] u003d> 4
-[0] u003d> php
+[1] => 4
+[0] => php
 )
 
 ### Дивіться також

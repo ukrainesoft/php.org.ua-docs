@@ -7,7 +7,7 @@
 
 # Yaf_Action_Abstract::execute
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Action_Abstract::execute — Точка входу для Action-класів
 
@@ -37,11 +37,11 @@ public**Yaf_Action_Abstract::execute**([mixed](language.types.declarations.md#la
 
 **Приклад #1 Приклад використання **Yaf_Action_Abstract::execute()****
 
-`<?php/** * Приклад контролера */class ProductController extends Yaf_Controller_Abstract {       protected $actions u003d array(       ""  "
+`<?php/** * Приклад контролера */class ProductController extends Yaf_Controller_Abstract {       protected $actions = array(       ""  "
 
 **Приклад #2 Приклад використання **Yaf_Action_Abstract::execute()****
 
-`<?php/** * ListAction */class ListAction extends Yaf_Action_Abstract| assert($id  u003du003du003d$this->getRequest()->getParam("id")); }}?> `
+`<?php/** * ListAction */class ListAction extends Yaf_Action_Abstract| assert($id  ===$this->getRequest()->getParam("id")); }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

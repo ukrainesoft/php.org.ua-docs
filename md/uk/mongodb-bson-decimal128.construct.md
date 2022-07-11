@@ -7,14 +7,14 @@
 
 # MongoDB\BSON\Decimal128::\_\_construct
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Decimal128::\_\_construct - Створює новий Decimal128
 
 ### Опис
 
 final public **MongoDB\BSON\Decimal128::\_\_construct**(string `$value`
-u003d?)
+=?)
 
 > **Примітка**:
 > [MongoDB\BSON\Decimal128](class.mongodb-bson-decimal128.md)
@@ -44,15 +44,15 @@ u003d?)
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\BSON\Decimal128)#1 (1) {
-["dec"]u003d>
+["dec"]=>
 string(9) "1234.5678"
 }
 object(MongoDB\BSON\Decimal128)#1 (1) {
-["dec"]u003d>
+["dec"]=>
 string(3) "NaN"
 }
 object(MongoDB\BSON\Decimal128)#1 (1) {
-["dec"]u003d>
+["dec"]=>
 string(8) "Infinity"
 }
 

@@ -35,7 +35,7 @@ final public **Error::getPrevious**():
 Прохід та друк ланцюга винятків.
 
 ` <?phpclass MyCustomError extends Error {}function doStuff() {    try {         throw new InvalidArgumentError("Ви робите це| неправильно!" } catch(Error $e) {         throw new MyCustomError("Щось відбулося", 911, $e); }}try {    doStuff();} catch(Error $e) {    do {         printf("%s:%d %s (%d) [%s]
-", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));    } while($e u003d $e- >getPrevious());}?> `
+", $e->getFile(), $e->getLine(), $e->getMessage(), $e->getCode(), get_class($e));    } while($e = $e- >getPrevious());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -45,13 +45,13 @@ int `$mysqli->errno`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if ($mysqli->connect_errno) {  єднання| s
-", $mysqli->connect_error);   exit();}if (!$mysqli->query("SET au003d1")) {    printf("Код помилки: %d
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if ($mysqli->connect_errno) {  єднання| s
+", $mysqli->connect_error);   exit();}if (!$mysqli->query("SET a=1")) {    printf("Код помилки: %d
 ", $mysqli->errno);}/* Закрити з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d Mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("З'єднання|
+` <?php$link = Mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("З'єднання|
 ", mysqli_connect_error());
 ", mysqli_errno($link));}/* Закрити з'єднання*/mysqli_close($link);?> `
 

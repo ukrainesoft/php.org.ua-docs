@@ -7,7 +7,7 @@
 
 #eio_readdir
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_readdir - Читає вміст директорії
 
@@ -18,7 +18,7 @@ string `$path`,
 int `$flags`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
-string `$data` u003d NULL
+string `$data` = NULL
 ): resource
 
 Читає вміст директорії (за допомогою системних викликів `opendir`,
@@ -153,100 +153,100 @@ callback-функції передаватиметься масив з таки�
 Викликано функцію my_readdir_callback
 дані: NULL
 результат: array(2) {
-["names"]u003d>
+["names"]=>
 array(7) {
-[0]u003d>
+[0]=>
 string(7) "archive"
-[1]u003d>
+[1]=>
 string(8) "articles"
-[2]u003d>
+[2]=>
 string(8) "incoming"
-[3]u003d>
+[3]=>
 string(7) "innfeed"
-[4]u003d>
+[4]=>
 string(8) "outgoing"
-[5]u003d>
+[5]=>
 string(8) "overview"
-[6]u003d>
+[6]=>
 string(3) "tmp"
 }
-["dents"]u003d>
+["dents"]=>
 array(7) {
-[0]u003d>
+[0]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(7)
 "archive"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393265)
 }
-[1]u003d>
+[1]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(8)
 "articles"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393266)
 }
-[2]u003d>
+[2]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(8)
 "incoming"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393267)
 }
-[3]u003d>
+[3]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(7)
 "innfeed"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393269)
 }
-[4]u003d>
+[4]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(8)
 "outgoing"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393270)
 }
-[5]u003d>
+[5]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(8)
 "overview"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393271)
 }
-[6]u003d>
+[6]=>
 array(3)
 {
-["name"]u003d>
+["name"]=>
 string(3)
 "tmp"
-["type"]u003d>
+["type"]=>
 int(4)
-["inode"]u003d>
+["inode"]=>
 int(393272)
 }
 }

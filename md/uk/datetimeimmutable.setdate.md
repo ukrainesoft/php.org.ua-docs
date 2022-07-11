@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::setDate
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setDate — Встановлює дату
 
@@ -47,7 +47,7 @@ DateTimeImmutable, встановлена на задану дату.
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable();$newDate u003d $date->setDate(2001, 2, 3);echo $newDate->format('Y-m-d');?> `
+` <?php$date = new DateTimeImmutable();$newDate = $date->setDate(2001, 2, 3);echo $newDate->format('Y-m-d');?> `
 
 Результат виконання даних прикладів:
 
@@ -56,9 +56,9 @@ DateTimeImmutable, встановлена на задану дату.
 **Приклад #2 Значення, що виходять за межі діапазону, додаються до
 своїм батьківським значенням**
 
-` <?php$date u003d new DateTimeImmutable();$newDate u003d $date->setDate(2001, 2, 28);echo $newDate->format('Y-m-d') . "
-";$newDateu003du003d$date->setDate(2001, 2, 29);echo $newDate->format('Y-m-d') . ""
-";$newDateu003du003d$date->setDate(2001, 14, 3);echo $newDate->format('Y-m-d') . ""
+` <?php$date = new DateTimeImmutable();$newDate = $date->setDate(2001, 2, 28);echo $newDate->format('Y-m-d') . "
+";$newDate==$date->setDate(2001, 2, 29);echo $newDate->format('Y-m-d') . ""
+";$newDate==$date->setDate(2001, 14, 3);echo $newDate->format('Y-m-d') . ""
 ";?> `
 
 Результат виконання цього прикладу:

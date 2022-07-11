@@ -7,7 +7,7 @@
 
 #json_decode
 
-(PHP 5 u003d 5.2.0, PHP 7, PHP 8, PECL json u003d 1.2.0)
+(PHP 5 = 5.2.0, PHP 7, PHP 8, PECL json = 1.2.0)
 
 json_decode — Декодує рядок JSON
 
@@ -15,9 +15,9 @@ json_decode — Декодує рядок JSON
 
 **json_decode**(
 string `$json`,
-?bool `$associative` u003d **`null`**,
-int `$depth` u003d 512,
-int `$flags` u003d 0
+?bool `$associative` = **`null`**,
+int `$depth` = 512,
+int `$flags` = 0
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -63,35 +63,35 @@ PHP.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                 |
-| ------ | -------------------------------------------------------------------------------------------------------------------- |
-| 7.3.0  | Додано константу **`JSON_THROW_ON_ERROR`** для параметра `flags`.                                                    |
-| 7.2.0  | `associative` тепер nullable.                                                                                        |
-| 7.2.0  | Додані константи **`JSON_INVALID_UTF8_IGNORE`** та **`JSON_INVALID_UTF8_SUBSTITUTE`** для параметра `flags`.         |
-| 7.1.0  | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням `_empty_`. |
+| Версія | Опис                                                                                                               |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| 7.3.0  | Додано константу **JSON_THROW_ON_ERROR** для параметра flags.                                                      |
+| 7.2.0  | associative тепер nullable.                                                                                        |
+| 7.2.0  | Додані константи **JSON_INVALID_UTF8_IGNORE** та **JSON_INVALID_UTF8_SUBSTITUTE** для параметра flags.             |
+| 7.1.0  | Порожній ключ JSON ("") буде перетворено на порожню властивість об'єкта, а не на властивість зі значенням _empty_. |
 
 ### Приклади
 
 **Приклад #1 Приклади використання **json_decode()****
 
-` <?php$json u003d '{"a":1,"b":2,"c":3,"d":4,"e":5}';var_dump(json_decode($json)); var_dump(json_decode($json, true));?> `
+` <?php$json = '{"a":1,"b":2,"c":3,"d":4,"e":5}';var_dump(json_decode($json)); var_dump(json_decode($json, true));?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#1 (5) {
-["a"] u003d> int(1)
-["b"] u003d> int(2)
-["c"] u003d> int(3)
-["d"] u003d> int(4)
-["e"] u003d> int(5)
+["a"] => int(1)
+["b"] => int(2)
+["c"] => int(3)
+["d"] => int(4)
+["e"] => int(5)
 }
 
 array(5) {
-["a"] u003d> int(1)
-["b"] u003d> int(2)
-["c"] u003d> int(3)
-["d"] u003d> int(4)
-["e"] u003d> int(5)
+["a"] => int(1)
+["b"] => int(2)
+["c"] => int(3)
+["d"] => int(4)
+["e"] => int(5)
 }
 
 **Приклад #2 Доступ до властивостей об'єктів із неправильними іменами**
@@ -101,34 +101,34 @@ array(5) {
 виконаний шляхом обрамлення імені елемента фігурними дужками та
 апострофами.
 
-` <?php$json u003d '{"foo-bar": 12345}';$obj u003d json_decode($json);print $obj->{'foo-bar'}; // 12345?> `
+` <?php$json = '{"foo-bar": 12345}';$obj = json_decode($json);print $obj->{'foo-bar'}; // 12345?> `
 
 **Приклад #3 Поширена помилка під час використання
 **json_decode()****
 
-`<?php// Наступні рядки являються валідним кодом JavaScript, но не валідними JSON-даними// Ім'я і значення мають поміщатися в     | json_decode($bad_json); // null// Ім'я має обрамлятися в подвійні лапки$bad_json u003d '{ bar: "baz" }';json_decode($bad_json); // null// Не повинно бути завершальною комою(без наступного елемента)$bad_json u003d '{ bar: "baz", }';json_decode($bad_json); // null?> `
+`<?php// Наступні рядки являються валідним кодом JavaScript, но не валідними JSON-даними// Ім'я і значення мають поміщатися в     | json_decode($bad_json); // null// Ім'я має обрамлятися в подвійні лапки$bad_json = '{ bar: "baz" }';json_decode($bad_json); // null// Не повинно бути завершальною комою(без наступного елемента)$bad_json = '{ bar: "baz", }';json_decode($bad_json); // null?> `
 
 **Приклад #4 Помилки з глибиною вкладених об'єктів (`depth`)**
 
-` <?php// Закодируем данные с глубиной вложенности 4 (array -> array -> array -> string).$json u003d json_encode(    array(        1 u003d> array(            'English' u003d> array(                'One',                'January '            ),            'French' u003d> array(                'Une',                'Janvier'            )        )    ));// Напечатаем ошибки для разных глубин.var_dump(json_decode($json, true, 4));echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;var_dump(json_decode($json, true, 3));echo 'Остання помилка: ', json_last_error_msg(), PHP_E>
+` <?php// Закодируем данные с глубиной вложенности 4 (array -> array -> array -> string).$json = json_encode(    array(        1 => array(            'English' => array(                'One',                'January '            ),            'French' => array(                'Une',                'Janvier'            )        )    ));// Напечатаем ошибки для разных глубин.var_dump(json_decode($json, true, 4));echo 'Последняя ошибка: ', json_last_error_msg(), PHP_EOL, PHP_EOL;var_dump(json_decode($json, true, 3));echo 'Остання помилка: ', json_last_error_msg(), PHP_E>
 
 Результат виконання цього прикладу:
 
 array(1) {
-[1]u003d>
+[1]=>
 array(2) {
-["English"]u003d>
+["English"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "One"
-[1]u003d>
+[1]=>
 string(7) "January"
 }
-["French"]u003d>
+["French"]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "Une"
-[1]u003d>
+[1]=>
 string(7) "Janvier"
 }
 }
@@ -140,16 +140,16 @@ NULL
 
 **Приклад #5 **json_decode()** з великими цілими числами**
 
-` <?php$json u003d '{"number": 12345678901234567890}';var_dump(json_decode($json));var_dump(json_decode($json, false, 512, JSON_B>
+` <?php$json = '{"number": 12345678901234567890}';var_dump(json_decode($json));var_dump(json_decode($json, false, 512, JSON_B>
 
 Результат виконання цього прикладу:
 
 object(stdClass)#1 (1) {
-["number"]u003d>
+["number"]=>
 float(1.2345678901235E+19)
 }
 object(stdClass)#1 (1) {
-["number"]u003d>
+["number"]=>
 string(20) "12345678901234567890"
 }
 

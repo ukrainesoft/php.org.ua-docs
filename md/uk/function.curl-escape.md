@@ -7,7 +7,7 @@
 
 #curl_escape
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 curl_escape — кодує заданий рядок як URL
 
@@ -33,15 +33,15 @@ curl_escape — кодує заданий рядок як URL
 
 ### Список змін
 
-| Версія | Опис                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | `handle` тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
+| Версія | Опис                                                                                                  |
+| ------ | ----------------------------------------------------------------------------------------------------- |
+| 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **curl_escape()****
 
-` <?php// Створюємо обробник curl$ch u003d curl_init();// Екрануємо рядок, хочемо хотімо передати методом GET$location u003d curl_escape($ch, 'Hofbräu %20%2F%20M%C3%BCnchen// Збираємо URL по частям$url u003d "http://example.com/add_location.php?locationu003d{$location}";// Результат: http://example. com/add_location.php?locationu003dHofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen// Посилаємо запрос HTTP і закриваємо обробникcurl_setopt($ch, CURLOPT_URL, $R ;curl_exec($ch);curl_close($ch);?> `
+` <?php// Створюємо обробник curl$ch = curl_init();// Екрануємо рядок, хочемо хотімо передати методом GET$location = curl_escape($ch, 'Hofbräu %20%2F%20M%C3%BCnchen// Збираємо URL по частям$url = "http://example.com/add_location.php?location={$location}";// Результат: http://example. com/add_location.php?location=Hofbr%C3%A4uhaus%20%2F%20M%C3%BCnchen// Посилаємо запрос HTTP і закриваємо обробникcurl_setopt($ch, CURLOPT_URL, $R ;curl_exec($ch);curl_close($ch);?> `
 
 ### Дивіться також
 

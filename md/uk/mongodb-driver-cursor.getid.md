@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::getId
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Cursor::getId — Повертає ідентифікатор для курсору
 
@@ -39,12 +39,12 @@ final public **MongoDB\Driver\Cursor::getId**():
 
 **Приклад #1 Приклад використання **MongoDB\Driver\Cursor::getId()****
 
-`<?php/* У цьому прикладі ми додаємо кілька документів в колекцію і вказуємо * менший batchSize, щоб гарантувати, то| */$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$query u003d new MongoDB\Driver\Query([], ['batchSize' u003d> 2]);$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]);$bulk->insert(['x' u003d> 2]);$bulk->insert(['x' u003d> 3]);$manager->executeBulkWrite('db.collection', $bulk);$cursor u003d $manager->executeQuery('db.collection', $query);var_dump($cursor->getId()); ?> `
+`<?php/* У цьому прикладі ми додаємо кілька документів в колекцію і вказуємо * менший batchSize, щоб гарантувати, то| */$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$query = new MongoDB\Driver\Query([], ['batchSize' => 2]);$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$bulk->insert(['x' => 2]);$bulk->insert(['x' => 3]);$manager->executeBulkWrite('db.collection', $bulk);$cursor = $manager->executeQuery('db.collection', $query);var_dump($cursor->getId()); ?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\CursorId)#5 (1) {
-["id"]u003d>
+["id"]=>
 int(94810124093)
 }
 

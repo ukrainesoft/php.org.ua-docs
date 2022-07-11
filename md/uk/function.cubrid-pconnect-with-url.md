@@ -7,15 +7,15 @@
 
 #cubrid_pconnect_with_url
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_pconnect_with_url — Відкриває постійне з'єднання із сервером
 CUBRID
 
 ### Опис
 
-**cubrid_pconnect_with_url**(string `$conn_url`, string `$userid` u003d ?,
-string `$passwd` u003d ?): resource
+**cubrid_pconnect_with_url**(string `$conn_url`, string `$userid` = ?,
+string `$passwd` = ?): resource
 
 Встановлює постійне з'єднання із сервером CUBRID.
 
@@ -36,27 +36,27 @@ string `$passwd` u003d ?): resource
 
 Тому цей тип посилання називається "постійним".
 
-\<url\> ::u003d
+\<url\> ::=
 CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:[?\<properties\>]
 
-\<properties\> ::u003d \<property\> [&\<property\>]
+\<properties\> ::= \<property\> [&\<property\>]
 
-\<properties\> ::u003d alhostsu003d\<alternative_hosts\>[ &rctimeu003d\<time\>]
+\<properties\> ::= alhosts=\<alternative_hosts\>[ &rctime=\<time\>]
 
-\<properties\> ::u003d login_timeoutu003d\<milli_sec\>
+\<properties\> ::= login_timeout=\<milli_sec\>
 
-\<properties\> ::u003d query_timeoutu003d\<milli_sec\>
+\<properties\> ::= query_timeout=\<milli_sec\>
 
-\<properties\> ::u003d disconnect_on_query_timeoutu003dtrue\|false
+\<properties\> ::= disconnect_on_query_timeout=true\|false
 
-\<alternative_hosts\> ::u003d \<standby_broker1_host\>:\<port\>
+\<alternative_hosts\> ::= \<standby_broker1_host\>:\<port\>
 [,\<standby_broker2_host\>:\<port\>]
 
-\<host\> :u003d HOSTNAME \| IP_ADDR
+\<host\> := HOSTNAME \| IP_ADDR
 
-\<time\> :u003d SECOND
+\<time\> := SECOND
 
-\<milli_sec\> :u003d MILLI SECOND
+\<milli_sec\> := MILLI SECOND
 
 - host : Ім'я хоста або IP-адреса основної бази даних
 - db_name : Ім'я бази даних
@@ -92,18 +92,18 @@ CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:[?\<properties\>]
 > не можна використовувати в рядку з'єднання, тому що в ньому
 > використовуються символи "?:".
 >
-> $url u003d "CUBRID:localhost:33000:tdb:dba:12?:?login_timeoutu003d100";
+> $url = "CUBRID:localhost:33000:tdb:dba:12?:?login_timeout=100";
 >
 > Паролі, що містять `?` або `:` можуть бути надіслані окремо.
 >
-> $url u003d "CUBRID:localhost:33000:tbd:::?login_timeoutu003d100";
+> $url = "CUBRID:localhost:33000:tbd:::?login_timeout=100";
 >
-> $conn u003d cubrid_pconnect_with_url ($url, "dba", "12?");
+> $conn = cubrid_pconnect_with_url ($url, "dba", "12?");
 >
 > Якщо логін або пароль порожні, необхідно все одно зберігати символи
 > "`:`":
 >
-> $url u003d "CUBRID:localhost:33000:demodb:::";
+> $url = "CUBRID:localhost:33000:demodb:::";
 
 ### Список параметрів
 
@@ -126,11 +126,11 @@ CUBRID:\<host\>:\<db_name\>:\<db_user\>:\<db_password\>:[?\<properties\>]
 **Приклад #1 Приклад використання **cubrid_pconnect_with_url()** без
 завдання властивостей**
 
-` <?php$conn_urlu003du003d"CUBRID:127.0.0.1:33000:demodb:dba::";$con u003d cubrid_pconnect_with_url ($conn_url);if ($con) уповнено| cubrid_execute($con, "create table person(id int,name char(16))"); $req u003dcubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_disconnect ($con);}?> `
+` <?php$conn_url=="CUBRID:127.0.0.1:33000:demodb:dba::";$con = cubrid_pconnect_with_url ($conn_url);if ($con) уповнено| cubrid_execute($con, "create table person(id int,name char(16))"); $req =cubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_disconnect ($con);}?> `
 
 **Приклад #2 **cubrid_pconnect_with_url()** url with properties example**
 
-`<?php$conn_urlu003du003d"CUBRID:127.0.0.1:33000:demodb:dba::?althostu003d10.34.63.132:33088&rctimeu003d100";$con u003d cubrid_pconnect_with_url   з'єднання успішно виконано"; $req u003dcubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_disconnect ($con);}?> `
+`<?php$conn_url=="CUBRID:127.0.0.1:33000:demodb:dba::?althost=10.34.63.132:33088&rctime=100";$con = cubrid_pconnect_with_url   з'єднання успішно виконано"; $req =cubrid_execute($con, "insert into person values(1,'James')"); if ($req) {      cubrid_close_request ($req); cubrid_commit ($ con); } else {      cubrid_rollback ($con); }  cubrid_disconnect ($con);}?> `
 
 ### Дивіться також
 

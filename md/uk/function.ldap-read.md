@@ -17,12 +17,12 @@ ldap_read - Читає запис
 [LDAP\Connection](class.ldap-connection.md)\|array `$ldap`,
 array\|string `$base`,
 array\|string `$filter`,
-array `$attributes` u003d [],
-int `$attributes_only` u003d 0,
-int `$sizelimit` u003d -1,
-int `$timelimit` u003d -1,
-int `$deref` u003d **`LDAP_DEREF_NEVER`**,
-?array `$controls` u003d **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
+array `$attributes` = [],
+int `$attributes_only` = 0,
+int `$sizelimit` = -1,
+int `$timelimit` = -1,
+int `$deref` = **`LDAP_DEREF_NEVER`**,
+?array `$controls` = **`null`** ): [LDAP\Result](class.ldap-result.md)\|array\|false
 
 Виконує пошук для зазначеного `filter` у директорії в рамках
 **`LDAP_SCOPE_BASE`**. Еквівалентно читання запису з директорії.
@@ -38,10 +38,10 @@ int `$deref` u003d **`LDAP_DEREF_NEVER`**,
 
 `filter`
 Порожній фільтр не допустимо. Якщо потрібно отримати абсолютно всю
-інформацію для цього запису, використовуйте фільтр `objectClassu003d*`. Якщо
+інформацію для цього запису, використовуйте фільтр `objectClass=*`. Якщо
 відомо які типи запису використовуються на сервері каталогів, то можна
 використовувати відповідний фільтр, такий як
-`objectClassu003dinetOrgPerson`.
+`objectClass=inetOrgPerson`.
 
 `attributes`
 Масив необхідних атрибутів, наприклад, `array("mail", "sn", "cn")`.
@@ -105,10 +105,10 @@ int `$deref` u003d **`LDAP_DEREF_NEVER`**,
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                |
-| 8.0.0  | `controls` тепер припускає значення null; раніше значення за промовчанням було `[]`.                                                                      |
-| 4.0.5  | Було додано підтримку паралельного пошуку. Докладніше дивіться [ldap_search()](function.ldap-search.md).                                                  |
-| 7.3    | Додано підтримку параметра `controls`                                                                                                                     |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
+| 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
+| 4.0.5  | Було додано підтримку паралельного пошуку. Докладніше дивіться [ldap_search()](function.ldap-search.md).                                                |
+| 7.3    | Додано підтримку параметра controls                                                                                                                     |

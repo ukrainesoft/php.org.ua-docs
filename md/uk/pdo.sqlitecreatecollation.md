@@ -8,7 +8,7 @@ SQL-запитах
 
 # PDO::sqliteCreateCollation
 
-(PHP 5 \>u003d 5.3.11, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.11, PHP 7, PHP 8)
 
 PDO::sqliteCreateCollation — Реєстрація функції користувача
 сортування для використання у SQL-запитах
@@ -49,7 +49,7 @@ collation(string `$string1`, string `$string2`): int
 
 **Приклад #1 Приклад використання **PDO::sqliteCreateCollation()****
 
-` <?php$db u003d new PDO('sqlite::memory:');$db->exec("CREATE TABLE test (col1 string)");$db->exec("INSERT INTO test VALUES ('a1 ')"); $db->exec("INSERT INTO test VALUES ('a10')");$db->exec("INSERT INTO test VALUES ('a2')"); NATURAL_CMP', 'strnatcmp');foreach ($db->query("SELECT col1 FROM test ORDER BY col1") as $row) { echo $row['col1'] . "
+` <?php$db = new PDO('sqlite::memory:');$db->exec("CREATE TABLE test (col1 string)");$db->exec("INSERT INTO test VALUES ('a1 ')"); $db->exec("INSERT INTO test VALUES ('a10')");$db->exec("INSERT INTO test VALUES ('a2')"); NATURAL_CMP', 'strnatcmp');foreach ($db->query("SELECT col1 FROM test ORDER BY col1") as $row) { echo $row['col1'] . "
 ";}echo "
 ";foreach ($db->query("SELECT col1 FROM test ORDER BY col1 COLLATE NATURAL_CMP") as $row) { echo $row['col1'] . "
 ";}?> `

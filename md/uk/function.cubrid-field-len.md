@@ -7,7 +7,7 @@
 
 #cubrid_field_len
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_field_len — Отримати максимальну довжину вказаного стовпця
 
@@ -38,8 +38,8 @@ cubrid_field_len — Отримати максимальну довжину вк
 
 **Приклад #1 Приклад використання **cubrid_field_len()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$result u003d cubrid_execute($conn, "SELECT * FROM game WHERE host_yearu003d2004 AND' );$column_names u003d cubrid_column_names($result);$column_types u003d cubrid_column_types($result);printf("%-30s %-30s %-15s
-", "Найменування стовпця", "Тип стовпця", "Максимальна довжина стовпця");for($i u003d 0, $size u003d count($column_names); $i < $size;   $result, $i);    printf("%-30s %-30s %-15s
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND' );$column_names = cubrid_column_names($result);$column_types = cubrid_column_types($result);printf("%-30s %-30s %-15s
+", "Найменування стовпця", "Тип стовпця", "Максимальна довжина стовпця");for($i = 0, $size = count($column_names); $i < $size;   $result, $i);    printf("%-30s %-30s %-15s
 ", $column_names[$i], $column_types[$i], $column_len);}cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 #get_declared_traits
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 get_declared_traits — Повертає масив з усіма оголошеними трейтами
 

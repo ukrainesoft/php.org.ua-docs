@@ -17,22 +17,22 @@ final class **UI\Draw\Text\Font\Stretch** {
 
 /\* Constants \*/
 
-const int `UltraCondensed` u003d 0;
+const int `UltraCondensed` = 0;
 
-const int `ExtraCondensed` u003d 1;
+const int `ExtraCondensed` = 1;
 
-const int `Condensed` u003d 2;
+const int `Condensed` = 2;
 
-const int `SemiCondensed` u003d 3;
+const int `SemiCondensed` = 3;
 
-const int `Normal` u003d 4;
+const int `Normal` = 4;
 
-const int `SemiExpanded` u003d 5;
+const int `SemiExpanded` = 5;
 
-const int `Expanded` u003d 6;
+const int `Expanded` = 6;
 
-const int `ExtraExpanded` u003d 7;
+const int `ExtraExpanded` = 7;
 
-const int `UltraExpanded` u003d 8;
+const int `UltraExpanded` = 8;
 
 }

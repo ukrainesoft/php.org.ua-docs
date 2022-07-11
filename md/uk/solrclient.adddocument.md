@@ -7,7 +7,7 @@
 
 # SolrClient::addDocument
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::addDocument — Додає документ до індексу
 
@@ -15,7 +15,7 @@ SolrClient::addDocument — Додає документ до індексу
 
 public
 **SolrClient::addDocument**([SolrInputDocument](class.solrinputdocument.md)
-`$doc`, bool `$overwrite` u003d **`true`**, int `$commitWithin` u003d 0):
+`$doc`, bool `$overwrite` = **`true`**, int `$commitWithin` = 0):
 [SolrUpdateResponse](class.solrupdateresponse.md)
 
 Метод додає документ до індексу.
@@ -34,7 +34,7 @@ public
 У PECL Solr \< 2.0 $allowDups використовувався замість $overwrite, який
 виконує самі функції з повністю протилежним прапором bool.
 
-$allowDups u003d false так само, як і $overwrite u003d true
+$allowDups = false так само, як і $overwrite = true
 
 `commitWithin`
 Кількість мілісекунд для автоматичної фіксації документа. Доступно,
@@ -62,34 +62,34 @@ $allowDups u003d false так само, як і $overwrite u003d true
 
 **Приклад #1 Приклад використання **SolrClient::addDocument()****
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ doc u003d new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); $updateResponseu003du003d$client->addDocument($doc);// вам потрібно зафіксувати зміни, будуть записані, якщо ви не використовували $commitWithin$client-s> ?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ doc = new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); $updateResponse==$client->addDocument($doc);// вам потрібно зафіксувати зміни, будуть записані, якщо ви не використовували $commitWithin$client-s> ?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
 SolrObject Object
 (
-[responseHeader] u003d> SolrObject Object
+[responseHeader] => SolrObject Object
 (
-[status] u003d> 0
-[QTime] u003d> 1
+[status] => 0
+[QTime] => 1
 )
 
 )
 
 **Приклад #2 Приклад використання **SolrClient::addDocument()** #2**
 
-` <?php$options u003d array(    'hostname' u003d> SOLR_SERVER_HOSTNAME,    'login'    u003d> SOLR_SERVER_USERNAME,    'password' u003d> SOLR_SERVER_PASSWORD,    'port'     u003d> SOLR_SERVER_PORT,);$client u003d new SolrClient($options);$ doc u003d new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); // Нет необхідності викликати commit(), потому передається $commitWithin, тому Solr Server буде автоматично фіксувати в протягом 10 секунд$updateResponse <$>| ));?> `
+` <?php$options = array(    'hostname' => SOLR_SERVER_HOSTNAME,    'login'    => SOLR_SERVER_USERNAME,    'password' => SOLR_SERVER_PASSWORD,    'port'     => SOLR_SERVER_PORT,);$client = new SolrClient($options);$ doc = new SolrInputDocument();$doc->addField('id', 334455);$doc->addField('cat', 'Software');$doc->addField('cat', 'Lucene'); // Нет необхідності викликати commit(), потому передається $commitWithin, тому Solr Server буде автоматично фіксувати в протягом 10 секунд$updateResponse <$>| ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 
 SolrObject Object
 (
-[responseHeader] u003d> SolrObject Object
+[responseHeader] => SolrObject Object
 (
-[status] u003d> 0
-[QTime] u003d> 1
+[status] => 0
+[QTime] => 1
 )
 
 )

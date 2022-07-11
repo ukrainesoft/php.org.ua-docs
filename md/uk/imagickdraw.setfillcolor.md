@@ -40,4 +40,4 @@ public
 
 **Приклад #1 Приклад використання **ImagickDraw::setFillColor()****
 
-` <?phpfunction setFillColor($strokeColor, $fillColor, $backgroundColor) {   $draw u003d new \ImagickDraw(); $draw->setStrokeOpacity(1); $draw->setStrokeWidth(1.5); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->rectangle(50, 50, 150, 150); $draw->setFillColor("rgb(200, 32, 32)"); $draw->rectangle(200, 50, 300, 150); $image u003d new \Imagick(); $image->newImage(500, 500, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+` <?phpfunction setFillColor($strokeColor, $fillColor, $backgroundColor) {   $draw = new \ImagickDraw(); $draw->setStrokeOpacity(1); $draw->setStrokeWidth(1.5); $draw->setStrokeColor($strokeColor); $draw->setFillColor($fillColor); $draw->rectangle(50, 50, 150, 150); $draw->setFillColor("rgb(200, 32, 32)"); $draw->rectangle(200, 50, 300, 150); $image = new \Imagick(); $image->newImage(500, 500, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `

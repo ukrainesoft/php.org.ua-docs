@@ -7,7 +7,7 @@
 
 #inet_ntop
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 inet_ntop — Конвертує упаковану інтернет-адресу в формат, що читається
 
@@ -33,7 +33,7 @@ PHP був зібраний за допомогою IPv6) у відповідн�
 
 **Приклад #1 Приклад використання **inet_ntop()****
 
-`<?php$packed u003d chr(127) . chr(0) . chr(0) . chr(1);$expandedu003du003dinet_ntop($packed);/* Виведе: 127.0.0.1 */echo $expanded;$packed u003d str_repeat(chr(0), 15) . chr(1);$expandedu003du003dinet_ntop($packed);/* Виведе: ::1 */echo $expanded;?> `
+`<?php$packed = chr(127) . chr(0) . chr(0) . chr(1);$expanded==inet_ntop($packed);/* Виведе: 127.0.0.1 */echo $expanded;$packed = str_repeat(chr(0), 15) . chr(1);$expanded==inet_ntop($packed);/* Виведе: ::1 */echo $expanded;?> `
 
 ### Дивіться також
 

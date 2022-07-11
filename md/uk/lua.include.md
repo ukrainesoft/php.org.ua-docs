@@ -7,7 +7,7 @@
 
 # Lua::include
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::include — Розбирає файл, що містить скрипт Lua
 

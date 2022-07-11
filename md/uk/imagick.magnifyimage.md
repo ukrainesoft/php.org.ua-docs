@@ -35,4 +35,4 @@ public **Imagick::magnifyImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::magnifyImage()****
 
-`<?phpfunction magnifyImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->magnifyImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction magnifyImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->magnifyImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

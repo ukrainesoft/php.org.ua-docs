@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerDescription::getHost
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\ServerDescription::getHost — Повертає ім'я хоста сервера
 

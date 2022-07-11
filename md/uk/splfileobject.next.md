@@ -7,7 +7,7 @@
 
 # SplFileObject::next
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::next — Читати наступний рядок
 
@@ -29,7 +29,7 @@ public **SplFileObject::next**(): void
 
 **Приклад #1 Приклад використання **SplFileObject::next()****
 
-` <?php// Читаємо файл построчно$file u003d new SplFileObject("misc.txt");while (!$file->eof()) {   echo $file->current(); $file->next();}?> `
+` <?php// Читаємо файл построчно$file = new SplFileObject("misc.txt");while (!$file->eof()) {   echo $file->current(); $file->next();}?> `
 
 ### Дивіться також
 

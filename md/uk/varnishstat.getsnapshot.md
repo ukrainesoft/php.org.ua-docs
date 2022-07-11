@@ -7,7 +7,7 @@
 
 # VarnishStat::getSnapshot
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishStat::getSnapshot — Отримати фотографію статистики поточного
 екземпляра varnish

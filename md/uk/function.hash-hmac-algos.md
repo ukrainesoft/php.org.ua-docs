@@ -8,7 +8,7 @@
 
 #hash_hmac_algos
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 hash_hmac_algos — Повертає список зареєстрованих алгоритмів
 хешування, що застосовуються для hash_hmac
@@ -36,50 +36,50 @@ hash_hmac_algos — Повертає список зареєстрованих �
 
 Array
 (
-[0] u003d> md2
-[1] u003d> md4
-[2] u003d> md5
-[3] u003d> sha1
-[4] u003d> sha224
-[5] u003d> sha256
-[6] u003d> sha384
-[7] u003d> sha512/224
-[8] u003d> sha512/256
-[9] u003d> sha512
-[10] u003d> sha3-224
-[11] u003d> sha3-256
-[12] u003d> sha3-384
-[13] u003d> sha3-512
-[14] u003d> ripemd128
-[15] u003d> ripemd160
-[16] u003d> ripemd256
-[17] u003d> ripemd320
-[18] u003d> whirlpool
-[19] u003d> tiger128,3
-[20] u003d> tiger160,3
-[21] u003d> tiger192,3
-[22] u003d> tiger128,4
-[23] u003d> tiger160,4
-[24] u003d> tiger192,4
-[25] u003d> snefru
-[26] u003d> snefru256
-[27] u003d> gost
-[28] u003d> gost-crypto
-[29] u003d> haval128,3
-[30] u003d> haval160,3
-[31] u003d> haval192,3
-[32] u003d> haval224,3
-[33] u003d> haval256,3
-[34] u003d> haval128,4
-[35] u003d> haval160,4
-[36] u003d> haval192,4
-[37] u003d> haval224,4
-[38] u003d> haval256,4
-[39] u003d> haval128,5
-[40] u003d> haval160,5
-[41] u003d> haval192,5
-[42] u003d> haval224,5
-[43] u003d> haval256,5
+[0] => md2
+[1] => md4
+[2] => md5
+[3] => sha1
+[4] => sha224
+[5] => sha256
+[6] => sha384
+[7] => sha512/224
+[8] => sha512/256
+[9] => sha512
+[10] => sha3-224
+[11] => sha3-256
+[12] => sha3-384
+[13] => sha3-512
+[14] => ripemd128
+[15] => ripemd160
+[16] => ripemd256
+[17] => ripemd320
+[18] => whirlpool
+[19] => tiger128,3
+[20] => tiger160,3
+[21] => tiger192,3
+[22] => tiger128,4
+[23] => tiger160,4
+[24] => tiger192,4
+[25] => snefru
+[26] => snefru256
+[27] => gost
+[28] => gost-crypto
+[29] => haval128,3
+[30] => haval160,3
+[31] => haval192,3
+[32] => haval224,3
+[33] => haval256,3
+[34] => haval128,4
+[35] => haval160,4
+[36] => haval192,4
+[37] => haval224,4
+[38] => haval256,4
+[39] => haval128,5
+[40] => haval160,5
+[41] => haval192,5
+[42] => haval224,5
+[43] => haval256,5
 )
 
 ### Примітки

@@ -8,7 +8,7 @@
 
 #dio_tcsetattr
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.1.0)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.1.0)
 
 dio_tcsetattr — Встановлює атрибути терміналу та швидкість передачі
 даних для послідовного порту
@@ -46,7 +46,7 @@ dio_tcsetattr — Встановлює атрибути терміналу та 
 
 **Приклад #1 Встановлення швидкості передачі для послідовного порту**
 
-`<?php$fd u003d dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);dio_fcntl($fd, F_SETFL, O_SYNC);dio_tcsetattr(' f u003d> 8, 'stop' u003d>>1, 'parity' u003d> 0));while (1) {  $data u003d dio_read($fd, 256); if ($data) {      echo $data; }}?> `
+`<?php$fd = dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);dio_fcntl($fd, F_SETFL, O_SYNC);dio_tcsetattr(' f => 8, 'stop' =>>1, 'parity' => 0));while (1) {  $data = dio_read($fd, 256); if ($data) {      echo $data; }}?> `
 
 ### Примітки
 

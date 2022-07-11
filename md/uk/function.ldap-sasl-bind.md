@@ -15,13 +15,13 @@ ldap_sasl_bind — Прив'язати до LDAP директорії за до�
 
 **ldap_sasl_bind**(
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
-?string `$dn` u003d **`null`**,
-?string `$password` u003d **`null`**,
-?string `$mech` u003d **`null`**,
-?string `$realm` u003d **`null`**,
-?string `$authc_id` u003d **`null`**,
-?string `$authz_id` u003d **`null`**,
-?string `$props` u003d **`null`**
+?string `$dn` = **`null`**,
+?string `$password` = **`null`**,
+?string `$mech` = **`null`**,
+?string `$realm` = **`null`**,
+?string `$authc_id` = **`null`**,
+?string `$authz_id` = **`null`**,
+?string `$props` = **`null`**
 ): bool
 
 **Увага**
@@ -36,10 +36,10 @@ ldap_sasl_bind — Прив'язати до LDAP директорії за до�
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `ldap` тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
-| 8.0.0  | `dn`, `password`, `mech`, `realm`, `authc_id`, `authz_id` and `props` тепер допускають значення null.                                                     |
+| Версія | Опис                                                                                                                                                    |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| 8.0.0  | dn, password, mech, realm, authc_id, authz_id and props тепер допускають значення null.                                                                 |
 
 ### Примітки
 

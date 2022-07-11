@@ -9,7 +9,7 @@
 
 # datefmt_get_pattern
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::getPattern -- datefmt_get_pattern — Отримує шаблон,
 використовуваний IntlDateFormatter
@@ -41,11 +41,11 @@ public **IntlDateFormatter::getPattern**(): string\|false
 
 **Приклад #1 Приклад використання **datefmt_get_pattern()****
 
-` <?php$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Шаблон средства форматирования : ' . datefmt_get_pattern($fmt);echo 'Перший відформатований висновок з шаблоном ' . datefmt_format($fmt, 0);datefmt_set_pattern($fmt,'yyyymmdd hh:mm:ss z');echo 'Тепер шаблон засобиформатування : ' . datefmt_get_pattern($fmt);echo 'Другий відформатований висновок з шаблоном ' . datefmt_format($fmt, 0);?> `
+` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Шаблон средства форматирования : ' . datefmt_get_pattern($fmt);echo 'Перший відформатований висновок з шаблоном ' . datefmt_format($fmt, 0);datefmt_set_pattern($fmt,'yyyymmdd hh:mm:ss z');echo 'Тепер шаблон засобиформатування : ' . datefmt_get_pattern($fmt);echo 'Другий відформатований висновок з шаблоном ' . datefmt_format($fmt, 0);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Шаблон средства форматирования : ' . $fmt->getPattern();echo 'Перший відформатований висновок з шаблоном ' . $fmt->format(0);$fmt->setPattern('yyyymmdd hh:mm:ss z');echo 'Тепер шаблон засоби форматування : ' . $fmt->getPattern();echo 'Другий відформатований висновок з шаблоном ' . $fmt->format(0);?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN,    'MM/dd/yyyy');echo 'Шаблон средства форматирования : ' . $fmt->getPattern();echo 'Перший відформатований висновок з шаблоном ' . $fmt->format(0);$fmt->setPattern('yyyymmdd hh:mm:ss z');echo 'Тепер шаблон засоби форматування : ' . $fmt->getPattern();echo 'Другий відформатований висновок з шаблоном ' . $fmt->format(0);?> `
 
 Результат виконання цього прикладу:
 

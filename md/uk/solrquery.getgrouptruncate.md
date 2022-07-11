@@ -7,7 +7,7 @@
 
 # SolrQuery::getGroupTruncate
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::getGroupTruncate — Повертає значення group.truncate
 

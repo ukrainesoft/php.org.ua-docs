@@ -7,7 +7,7 @@
 
 # SolrQuery::getStatsFields
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getStatsFields — Повертає всі поля статистики
 

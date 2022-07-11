@@ -7,13 +7,13 @@
 
 #md5_file
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 md5_file — Повертає MD5-хеш файлу
 
 ### Опис
 
-**md5_file**(string `$filename`, bool `$binary` u003d **`false`**):
+**md5_file**(string `$filename`, bool `$binary` = **`false`**):
 string\|false
 
 Обчислює MD5-хеш файлу, ім'я якого задано аргументом `filename`,
@@ -37,7 +37,7 @@ string\|false
 
 **Приклад #1 Приклад використання **md5_file()****
 
-` <?php$file u003d 'php-5.3.0alpha2-Win32-VC9-x64.zip';echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);?> `
+` <?php$file = 'php-5.3.0alpha2-Win32-VC9-x64.zip';echo 'MD5-хеш файла ' . $file . ': ' . md5_file($file);?> `
 
 ### Дивіться також
 

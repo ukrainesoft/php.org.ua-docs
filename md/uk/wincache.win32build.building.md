@@ -38,7 +38,7 @@ configure.js [всі опції для складання PHP] --enable-wincache
 потрібно для правильного складання модуля WinCache. Ця опція збере
 WinCache і буде статично пов'язувати його з PHP DLL. Щоб створити
 модуль WinCache як автономна бібліотека DLL, використовуйте
-параметр `--enable-wincacheu003dshared`.
+параметр `--enable-wincache=shared`.
 
 6. Виконайте команду:
 

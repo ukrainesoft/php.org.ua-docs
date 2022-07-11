@@ -22,8 +22,8 @@ string `$auth_passphrase`,
 string `$privacy_protocol`,
 string `$privacy_passphrase`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ): array\|false
 
 Функція **snmp3_walk()** використовується для читання всіх значень агента
@@ -77,17 +77,17 @@ SNMP та всі об'єкти цього дерева повертаються 
 
 **Приклад #1 Приклад використання **snmp3_walk()****
 
-` <?php$ret u003d snmp3_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName');var_export($ ret);?> `
+` <?php$ret = snmp3_walk('localhost', 'james', 'authPriv', 'SHA', 'secret007', 'AES', 'secret007', 'IF-MIB::ifName');var_export($ ret);?> `
 
 Виклик функції поверне всі об'єкти SNMP із агента SNMP, запущеного на
 localhost:
 
 array (
-0 u003d> 'STRING: lo',
-1 u003d> 'STRING: eth0',
-2 u003d> 'STRING: eth2',
-3 u003d> 'STRING: sit0',
-4 u003d> 'STRING: sixxs',
+0 => 'STRING: lo',
+1 => 'STRING: eth0',
+2 => 'STRING: eth2',
+3 => 'STRING: sit0',
+4 => 'STRING: sixxs',
 )
 
 ### Дивіться також

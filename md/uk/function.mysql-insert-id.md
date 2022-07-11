@@ -24,7 +24,7 @@ mysql_insert_id — Повертає ідентифікатор, згенеро�
 
 ### Опис
 
-**mysql_insert_id**(resource `$link_identifier` u003d NULL): int
+**mysql_insert_id**(resource `$link_identifier` = NULL): int
 
 Повертає ідентифікатор, згенерований колонкою з AUTO_INCREMENT
 останнім запитом (зазвичай INSERT).
@@ -51,7 +51,7 @@ MySQL не було встановлено.
 
 **Приклад #1 Приклад використання **mysql_insert_id()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; mysql_query("INSERT INTO mytable (product) values ('kossu')");printf("Ідентифікатор останнього вставленого запису %d
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; mysql_query("INSERT INTO mytable (product) values ('kossu')");printf("Ідентифікатор останнього вставленого запису %d
 ", mysql_insert_id());?> `
 
 ### Примітки

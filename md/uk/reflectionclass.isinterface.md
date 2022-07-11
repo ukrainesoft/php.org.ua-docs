@@ -30,7 +30,7 @@ public **ReflectionClass::isInterface**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isInterface()****
 
-` <?phpinterface SomeInterface {    public function interfaceMethod();}$class u003d new ReflectionClass('SomeInterface');var_dump($class->isInterface());?> `
+` <?phpinterface SomeInterface {    public function interfaceMethod();}$class = new ReflectionClass('SomeInterface');var_dump($class->isInterface());?> `
 
 Результат виконання цього прикладу:
 

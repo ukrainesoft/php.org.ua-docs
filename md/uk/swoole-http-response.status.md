@@ -7,7 +7,7 @@
 
 # Swoole\Http\Response::status
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::status — Встановлює код стану HTTP-відповіді
 

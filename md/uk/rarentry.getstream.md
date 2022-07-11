@@ -7,13 +7,13 @@
 
 # RarEntry::getStream
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarEntry::getStream — Отримати обробник для запису
 
 ### Опис
 
-public **RarEntry::getStream**(string `$password` u003d ?): resource\|false
+public **RarEntry::getStream**(string `$password` = ?): resource\|false
 
 Повертає обробник, який підтримує операцію читання. Цей обробник
 вміє розпаковувати запис на лету.
@@ -55,7 +55,7 @@ public **RarEntry::getStream**(string `$password` u003d ?): resource\|false
 
 **Приклад #1 Приклад використання **RarEntry::getStream()****
 
-` <?php$rar_file u003d rar_open('example.rar');if ($rar_file u003du003du003du003dfalse)   die("Не удалося відкрити Rar архів");$entry u003du003drar_entry_get($rar_file, . ');if ($entry u003du003du003du003dfalse)   die("Не вдалося знайти таку запис");$stream u003d $entry->getStream();if ($stream u003du003du003du003dfalse)  | .");rar_close($rar_file); //потік не залежить від файлаwhile (!feof($stream)) {    $buff u003d fread($stream, 8192); if ($buff !u003du003d false)        echo $buff; else        break; //помилка fread}fclose($stream);?> `
+` <?php$rar_file = rar_open('example.rar');if ($rar_file ====false)   die("Не удалося відкрити Rar архів");$entry ==rar_entry_get($rar_file, . ');if ($entry ====false)   die("Не вдалося знайти таку запис");$stream = $entry->getStream();if ($stream ====false)  | .");rar_close($rar_file); //потік не залежить від файлаwhile (!feof($stream)) {    $buff = fread($stream, 8192); if ($buff !== false)        echo $buff; else        break; //помилка fread}fclose($stream);?> `
 
 ### Дивіться також
 

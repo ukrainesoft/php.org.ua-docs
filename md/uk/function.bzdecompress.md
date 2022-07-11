@@ -7,13 +7,13 @@
 
 #bzdecompress
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzdecompress — Розпаковує дані, стиснуті з використанням bzip2
 
 ### Опис
 
-**bzdecompress**(string `$data`, bool `$use_less_memory` u003d **`false`**):
+**bzdecompress**(string `$data`, bool `$use_less_memory` = **`false`**):
 string\|int\|false
 
 **bzdecompress()** розпаковує переданий рядок, що містить стислі
@@ -47,9 +47,9 @@ bzip2 дані.
 
 **Приклад #1 Розпакування рядка**
 
-` <?php$start_str u003d "This is not an honest face?";$bzstr u003d bzcompress($start_str);echo "Compressed String: ";echo $bzstr;echo "
+` <?php$start_str = "This is not an honest face?";$bzstr = bzcompress($start_str);echo "Compressed String: ";echo $bzstr;echo "
 <br>
-";$str u003dbzdecompress($bzstr);echo "Decompressed String: ";echo $str;echo "
+";$str =bzdecompress($bzstr);echo "Decompressed String: ";echo $str;echo "
 <br>
 ";?> `
 

@@ -7,7 +7,7 @@
 
 # Gmagick::destroy
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::destroy — Знищити об'єкт Gmagick
 

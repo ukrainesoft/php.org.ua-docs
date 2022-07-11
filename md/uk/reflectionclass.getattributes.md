@@ -13,8 +13,8 @@ ReflectionClass::getAttributes — Отримує атрибути
 
 ### Опис
 
-public **ReflectionClass::getAttributes**(?string `$name` u003d **`null`**,
-int `$flags` u003d 0): array
+public **ReflectionClass::getAttributes**(?string `$name` = **`null`**,
+int `$flags` = 0): array
 
 Повертає всі атрибути, оголошені у цьому класі у вигляді масиву
 [ReflectionAttribute](class.reflectionattribute.md).
@@ -46,36 +46,36 @@ int `$flags` u003d 0): array
 
 **Приклад #1 Простий приклад використання**
 
-` <?php#[Attribute]class Fruit {}#[Attribute]class Red {}#[Fruit]#[Red]class Apple {}$class u003d new ReflectionClass('Apple');$attributes u003d $class-> getAttributes();print_r(array_map(fn($attribute) u003d> $attribute->getName(), $attributes));?> `
+` <?php#[Attribute]class Fruit {}#[Attribute]class Red {}#[Fruit]#[Red]class Apple {}$class = new ReflectionClass('Apple');$attributes = $class-> getAttributes();print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Fruit
-[1] u003d> Red
+[0] => Fruit
+[1] => Red
 )
 
 **Приклад #2 Фільтрування результатів на ім'я класу**
 
-` <?php#[Attribute]class Fruit {}#[Attribute]class Red {}#[Fruit]#[Red]class Apple {}$class u003d new ReflectionClass('Apple');$attributes u003d $class-> getAttributes('Fruit');print_r(array_map(fn($attribute) u003d> $attribute->getName(), $attributes));?> `
+` <?php#[Attribute]class Fruit {}#[Attribute]class Red {}#[Fruit]#[Red]class Apple {}$class = new ReflectionClass('Apple');$attributes = $class-> getAttributes('Fruit');print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Fruit
+[0] => Fruit
 )
 
 **Приклад #3 Фільтрування результатів на ім'я класу з наслідуванням**
 
-` <?phpinterface Color {}#[Attribute]class Fruit {}#[Attribute]class Red implements Colour {}#[Fruit]#[Red]class Apple {}$class u003d new ReflectionClass('Apple' u003d $class->getAttributes('Colour', ReflectionAttribute::IS_INSTANCEOF);print_r(array_map(fn($attribute) u003d> $attribute->getName(), $attributes));?> `
+` <?phpinterface Color {}#[Attribute]class Fruit {}#[Attribute]class Red implements Colour {}#[Fruit]#[Red]class Apple {}$class = new ReflectionClass('Apple' = $class->getAttributes('Colour', ReflectionAttribute::IS_INSTANCEOF);print_r(array_map(fn($attribute) => $attribute->getName(), $attributes));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Red
+[0] => Red
 )
 
 ### Дивіться також

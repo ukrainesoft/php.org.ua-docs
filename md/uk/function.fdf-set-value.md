@@ -18,7 +18,7 @@ resource `$fdf_document`,
 string `$fieldname`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$isName` u003d ?
+int `$isName` = ?
 ): bool
 
 Встановлює `value` для заданого поля.
@@ -43,8 +43,8 @@ int `$isName` u003d ?
 > **Примітка**:
 >
 > У старіших версіях набору інструментів FDF останній параметр
-> визначав, чи має значення поля бути перетворено на PDF Name (u003d 1)
-> або встановлено PDF String (u003d 0).
+> визначав, чи має значення поля бути перетворено на PDF Name (= 1)
+> або встановлено PDF String (= 0).
 >
 > Це значення не використовується у поточній версії 5.0. Для
 > сумісності воно, як і раніше, підтримується як необов'язковий

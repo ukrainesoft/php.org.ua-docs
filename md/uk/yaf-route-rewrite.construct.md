@@ -7,14 +7,14 @@
 
 # Yaf_Route_Rewrite::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Rewrite::\_\_construct - Конструктор класу Yaf_Route_Rewrite
 
 ### Опис
 
 public **Yaf_Route_Rewrite::\_\_construct**(string `$match`, array
-`$route`, array `$verify` u003d ?)
+`$route`, array `$verify` = ?)
 
 ### Список параметрів
 
@@ -44,7 +44,7 @@ public **Yaf_Route_Rewrite::\_\_construct**(string `$match`, array
 
 **Приклад #1 Приклад використання **Yaf_Route_Rewrite()****
 
-` <?php   /**    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router    */    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",        new Yaf_Route_rewrite(           "/product/:name/:id/* ", //запрос на совпадение с ведущим "/product"           array(               'controller' u003d> "product",  //маршрут к контроллеру product,           ),        )    );?> `
+` <?php   /**    * Добавить маршрут перезаписи в стек маршрутов Yaf_Router    */    Yaf_Dispatcher::getInstance()->getRouter()->addRoute("name",        new Yaf_Route_rewrite(           "/product/:name/:id/* ", //запрос на совпадение с ведущим "/product"           array(               'controller' => "product",  //маршрут к контроллеру product,           ),        )    );?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -52,23 +52,23 @@ public **Yaf_Route_Rewrite::\_\_construct**(string `$match`, array
 * результатом маршруту будуть наступні значення:
 */
 array(
-"controller" u003d> "product",
-"module" u003d> "index", //(за замовчуванням)
-"action" u003d> "index", //(за замовчуванням)
+"controller" => "product",
+"module" => "index", //(за замовчуванням)
+"action" => "index", //(за замовчуванням)
 )
 
 /**
 * та параметри запиту:
 */
 array(
-"name" u003d> "foo",
-"id" u003d> 22,
-"foo" u003d> bar
+"name" => "foo",
+"id" => 22,
+"foo" => bar
 )
 
 **Приклад #2 Приклад використання **Yaf_Route_Rewrite()****
 
-` <?php   /**    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig    */    $config u003d array(        "name" u003d> array(           "type"  u003d> "rewrite",        //маршрут Yaf_Route_Rewrite           "match" u003d> "/user-list/:id", //совпадение только по /user/list/?/           "route" u003d> array(               'controller' u003d> "user",  //маршрут к контроллеру user,               'action'     u003d> "list",| Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
+` <?php   /**    * Добавьте маршрут перезаписи в стек маршрутов Yaf_Router, вызвав addconfig    */    $config = array(        "name" => array(           "type"  => "rewrite",        //маршрут Yaf_Route_Rewrite           "match" => "/user-list/:id", //совпадение только по /user/list/?/           "route" => array(               'controller' => "user",  //маршрут к контроллеру user,               'action'     => "list",| Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -76,21 +76,21 @@ array(
 * результатом маршруту будуть наступні значення:
 */
 array(
-"controller" u003d> "user",
-"action" u003d> "list",
-"module" u003d> "index", //(за замовчуванням)
+"controller" => "user",
+"action" => "list",
+"module" => "index", //(за замовчуванням)
 )
 
 /**
 * та параметри запиту:
 */
 array(
-"id" u003d> 22,
+"id" => 22,
 )
 
 **Приклад #3 Приклад використання **Yaf_Route_Rewrite(as of 2.3.0)()****
 
-` <?php   /**    * Добавить переписать маршрут использовать результат поиска как имя м/к/д    */    $config u003d array(        "name" u003d> array(           "type"  u003d> "rewrite",           "match" u003d> " /user-list/:a/:id", //совпадение только по /user-list/*           "route" u003d> array(               'controller' u003d> "user",   //маршрут к контроллеру user,               'action'     u003d > ":a",     //маршрут к дії :a            ),        ),    ); Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
+` <?php   /**    * Добавить переписать маршрут использовать результат поиска как имя м/к/д    */    $config = array(        "name" => array(           "type"  => "rewrite",           "match" => " /user-list/:a/:id", //совпадение только по /user-list/*           "route" => array(               'controller' => "user",   //маршрут к контроллеру user,               'action'     = > ":a",     //маршрут к дії :a            ),        ),    ); Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -98,16 +98,16 @@ array(
 * результатом маршруту будуть наступні значення:
 */
 array(
-"controller" u003d> "user",
-"action" u003d> "list",
-"module" u003d> "index", //(за замовчуванням)
+"controller" => "user",
+"action" => "list",
+"module" => "index", //(за замовчуванням)
 )
 
 /**
 * та параметри запиту:
 */
 array(
-"id" u003d> 22,
+"id" => 22,
 )
 
 ### Дивіться також

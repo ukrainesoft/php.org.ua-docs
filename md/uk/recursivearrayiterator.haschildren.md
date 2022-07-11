@@ -7,7 +7,7 @@
 
 # RecursiveArrayIterator::hasChildren
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveArrayIterator::hasChildren — Визначає, чи є поточний
 елемент масивом чи об'єктом
@@ -34,7 +34,7 @@ public **RecursiveArrayIterator::hasChildren**(): bool
 **Приклад #1 Приклад використання
 **RecursiveArrayIterator::hasChildren()****
 
-` <?php$fruits u003d array("a" u003d> "lemon", "b" u003d> "orange", array("a" u003d> "apple", "p" u003d> "pear"));$ iterator u003d new RecursiveArrayIterator($fruits);while ($iterator->valid()) {    // проверим, есть ли дочерние элементы    if ($iterator->hasChildren()) {        // выведем информацию о дочерних элементах        foreach ($iterator ->getChildren() as $key u003d> $value) {            echo $key . ' : ' . $value . "
+` <?php$fruits = array("a" => "lemon", "b" => "orange", array("a" => "apple", "p" => "pear"));$ iterator = new RecursiveArrayIterator($fruits);while ($iterator->valid()) {    // проверим, есть ли дочерние элементы    if ($iterator->hasChildren()) {        // выведем информацию о дочерних элементах        foreach ($iterator ->getChildren() as $key => $value) {            echo $key . ' : ' . $value . "
 ;;        }    }}else {        echo "Дочірніх елементів ні.
 ";    }    $iterator->next();}?> `
 

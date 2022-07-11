@@ -33,4 +33,4 @@ gzeof — Перевіряє, чи є поточна позиція в кінц�
 
 **Приклад #1 Приклад використання **gzeof()****
 
-` <?php$gz u003d gzopen('somefile.gz', 'r');while (!gzeof($gz)) { echo gzgetc($gz);}gzclose($gz);?> `
+` <?php$gz = gzopen('somefile.gz', 'r');while (!gzeof($gz)) { echo gzgetc($gz);}gzclose($gz);?> `

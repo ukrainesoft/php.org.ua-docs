@@ -15,7 +15,7 @@ Imagick::adaptiveSharpenImage — Адаптивна зміна різкості
 ### Опис
 
 public **Imagick::adaptiveSharpenImage**(float `$radius`, float
-`$sigma`, int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$sigma`, int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Адаптивна зміна різкості зображення з більшою інтенсивністю
 краях зображення і з меншою ближче до середини. Цей метод доступний,
@@ -46,7 +46,7 @@ public **Imagick::adaptiveSharpenImage**(float `$radius`, float
 
 Адаптивна зміна різкості зображення з радіусом 2 та сигмою 1.
 
-`<?phptry {   $image u003d new Imagick('image.png'); $image->adaptiveSharpenImage(2,1);} catch(ImagickException $e) {    echo 'Помилка: ' ,$e->getMessage(); die();}header('Content-type: image/png');echo $image;?> `
+`<?phptry {   $image = new Imagick('image.png'); $image->adaptiveSharpenImage(2,1);} catch(ImagickException $e) {    echo 'Помилка: ' ,$e->getMessage(); die();}header('Content-type: image/png');echo $image;?> `
 
 ### Дивіться також
 

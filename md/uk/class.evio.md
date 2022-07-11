@@ -7,7 +7,7 @@
 
 # Клас EvIo
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -70,8 +70,8 @@ int `$events` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?,
-int `$priority` u003d ?
+`$data` = ?,
+int `$priority` = ?
 )
 
 final public static [createStopped](evio.createstopped.md)(
@@ -82,8 +82,8 @@ int `$events` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvIo](class.evio.md)
 
 public [set](evio.set.md)(
@@ -102,7 +102,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

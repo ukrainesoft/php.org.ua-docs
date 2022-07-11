@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::getLastErrors
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::getLastErrors — Повертає попередження та помилки
 
@@ -34,22 +34,22 @@ public static **DateTimeImmutable::getLastErrors**(): array\|false
 
 Об'єктно-орієнтований стиль
 
-` <?phptry {    $date u003d new DateTimeImmutable('asdfasdf');} catch (Exception $e) {    // Тільки в метах демонстрації... | // в об'єктно-орієнтованому стилі краще робити так:    // echo $e->getMessage();}?> `
+` <?phptry {    $date = new DateTimeImmutable('asdfasdf');} catch (Exception $e) {    // Тільки в метах демонстрації... | // в об'єктно-орієнтованому стилі краще робити так:    // echo $e->getMessage();}?> `
 
 Результат виконання даних прикладів:
 
 Array
 (
-[warning_count] u003d> 1
-[warnings] u003d> Array
+[warning_count] => 1
+[warnings] => Array
 (
-[6] u003d> Double timezone specification
+[6] => Double timezone specification
 )
 
-[error_count] u003d> 1
-[errors] u003d> Array
+[error_count] => 1
+[errors] => Array
 (
-[0] u003d> The timezone не може бути зроблено в 데이터베이스
+[0] => The timezone не може бути зроблено в 데이터베이스
 )
 
 )

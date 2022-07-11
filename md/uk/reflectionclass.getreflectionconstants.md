@@ -7,13 +7,13 @@
 
 # ReflectionClass::getReflectionConstants
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 ReflectionClass::getReflectionConstants — Отримує константи класу
 
 ### Опис
 
-public **ReflectionClass::getReflectionConstants**(?int `$filter` u003d
+public **ReflectionClass::getReflectionConstants**(?int `$filter` =
 **`null`**): array
 
 Отримує reflected (відбиті) константи.
@@ -32,16 +32,16 @@ public **ReflectionClass::getReflectionConstants**(?int `$filter` u003d
 
 ### Список змін
 
-| Версія | Опис                       |
-| ------ | -------------------------- |
-| 8.0.0  | Доданий параметр `filter`. |
+| Версія | Опис                     |
+| ------ | ------------------------ |
+| 8.0.0  | Доданий параметр filter. |
 
 ### Приклади
 
 **Приклад #1 Простий приклад використання
 **ReflectionClass::getReflectionConstants()****
 
-`<?phpclass Foo {    public    const FOO u003d 1; protected const BAR  u003d 2; private   const BAZ  u003d 3;}$foo u003d new Foo();$reflect u003d new ReflectionClass($foo);$consts  u003d $reflect->getReflectionConstants();foreach  getName(). "
+`<?phpclass Foo {    public    const FOO = 1; protected const BAR  = 2; private   const BAZ  = 3;}$foo = new Foo();$reflect = new ReflectionClass($foo);$consts  = $reflect->getReflectionConstants();foreach  getName(). "
 ";}var_dump($consts);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -50,25 +50,25 @@ FOO
 BAR
 BAZ
 array(3) {
-[0]u003d>
+[0]=>
 object(ReflectionClassConstant)#3 (2) {
-["name"]u003d>
+["name"]=>
 string(3) "FOO"
-["class"]u003d>
+["class"]=>
 string(3) "Foo"
 }
-[1]u003d>
+[1]=>
 object(ReflectionClassConstant)#4 (2) {
-["name"]u003d>
+["name"]=>
 string(3) "BAR"
-["class"]u003d>
+["class"]=>
 string(3) "Foo"
 }
-[2]u003d>
+[2]=>
 object(ReflectionClassConstant)#5 (2) {
-["name"]u003d>
+["name"]=>
 string(3) "BAZ"
-["class"]u003d>
+["class"]=>
 string(3) "Foo"
 }
 }

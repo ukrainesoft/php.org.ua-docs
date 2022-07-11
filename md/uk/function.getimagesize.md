@@ -13,7 +13,7 @@ getimagesize — Отримання розміру зображення
 
 ### Опис
 
-**getimagesize**(string `$filename`, array `&$image_info` u003d **`null`**):
+**getimagesize**(string `$filename`, array `&$image_info` = **`null`**):
 array\|false
 
 Функція **getimagesize()** визначить розмір будь-якого заданого,
@@ -91,7 +91,7 @@ JPG APP маркери у вигляді асоціативного масиву
 [IMAGETYPE_XXX](image.constants.md).
 
 Індекс 3 містить рядок зі значеннями ширини та висоти зображення
-`heightu003d"yyy" widthu003d"xxx"`, яка може бути використана всередині IMG
+`height="yyy" width="xxx"`, яка може бути використана всередині IMG
 тега.
 
 `mime` - відповідний MIME-тип зображення. Ці відомості використовуються
@@ -100,7 +100,7 @@ JPG APP маркери у вигляді асоціативного масиву
 
 **Приклад #1 **getimagesize()** та MIME типи**
 
-` <?php$size u003d getimagesize($filename);$fp u003dfopen($filename, "rb");if ($size && $fp) {    header("Content-type: {$size['mime']] }"); fpassthru ($ fp); exit;} else {    // помилка}?> `
+` <?php$size = getimagesize($filename);$fp =fopen($filename, "rb");if ($size && $fp) {    header("Content-type: {$size['mime']] }"); fpassthru ($ fp); exit;} else {    // помилка}?> `
 
 `channels` приймає значення 3 для RGB картинок та 4 для CMYK.
 
@@ -129,15 +129,15 @@ JPG APP маркери у вигляді асоціативного масиву
 
 **Приклад #2 Приклад використання **getimagesize()****
 
-` <?phplist($width, $height, $type, $attr) u003d getimagesize("img/flag.jpg");echo "<img srcu003d\"img/flag.jpg\" $attr altu003d\" приклад getimagesize()\" />";?> `
+` <?phplist($width, $height, $type, $attr) = getimagesize("img/flag.jpg");echo "<img src=\"img/flag.jpg\" $attr alt=\" приклад getimagesize()\" />";?> `
 
 **Приклад #3 getimagesize (URL)**
 
-` <?php$size u003d getimagesize("http://www.example.com/gifs/logo.gif");// якщо в імені файла є пробіли, врахуйте це належним образом$size u003d getimagesi /www.example.com/gifs/lo%20go.gif");?> `
+` <?php$size = getimagesize("http://www.example.com/gifs/logo.gif");// якщо в імені файла є пробіли, врахуйте це належним образом$size = getimagesi /www.example.com/gifs/lo%20go.gif");?> `
 
 **Приклад #4 getimagesize() повертає IPTC**
 
-` <?php$size u003d getimagesize("testimg.jpg", $info);if (isset($info["APP13"])) {    $iptc u003d iptcparse($info["APP13"]); var_dump($iptc);}?> `
+` <?php$size = getimagesize("testimg.jpg", $info);if (isset($info["APP13"])) {    $iptc = iptcparse($info["APP13"]); var_dump($iptc);}?> `
 
 ### Примітки
 

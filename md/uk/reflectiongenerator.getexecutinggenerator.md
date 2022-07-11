@@ -32,7 +32,7 @@ public **ReflectionGenerator::getExecutingGenerator**():
 **Приклад #1 Приклад використання
 **ReflectionGenerator::getExecutingGenerator()****
 
-` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen u003d (new GenExample)->gen();$reflectionGenu003d new ReflectionGenerator($gen);$gen2 u003d $reflectionGen->getExecutingGenerator();var_dump($gen2 u003du003du003du003d$$ gen2->current()); `
+` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen = (new GenExample)->gen();$reflectionGen= new ReflectionGenerator($gen);$gen2 = $reflectionGen->getExecutingGenerator();var_dump($gen2 ====$$ gen2->current()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

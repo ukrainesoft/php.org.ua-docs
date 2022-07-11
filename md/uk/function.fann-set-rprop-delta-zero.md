@@ -7,7 +7,7 @@
 
 # fann_set_rprop_delta_zero
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_rprop_delta_zero — Встановлює початковий розмір кроку
 

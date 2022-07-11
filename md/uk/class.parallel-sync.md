@@ -40,7 +40,7 @@ public [set](parallel-sync.set.md)(scalar `$value`)
 
 public [wait](parallel-sync.wait.md)()
 
-public [notify](parallel-sync.notify.md)(bool `$all` u003d ?)
+public [notify](parallel-sync.notify.md)(bool `$all` = ?)
 
 public
 [\_\_invoke](parallel-sync.invoke.md)([callable](language.types.callable.md)

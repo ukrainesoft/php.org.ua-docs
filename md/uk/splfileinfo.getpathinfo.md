@@ -7,14 +7,14 @@
 
 # SplFileInfo::getPathInfo
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getPathInfo — Отримує об'єкт SplFileInfo для заданого
 шляхи
 
 ### Опис
 
-public **SplFileInfo::getPathInfo**(?string `$class` u003d **`null`**):
+public **SplFileInfo::getPathInfo**(?string `$class` = **`null`**):
 ?[SplFileInfo](class.splfileinfo.md)
 
 Отримує об'єкт класу [SplFileInfo](class.splfileinfo.md) для шляху
@@ -34,15 +34,15 @@ public **SplFileInfo::getPathInfo**(?string `$class` u003d **`null`**):
 
 ### Список змін
 
-| Версія | Опис                                   |
-| ------ | -------------------------------------- |
-| 8.0.0  | `class` тепер припускає значення null. |
+| Версія | Опис                                 |
+| ------ | ------------------------------------ |
+| 8.0.0  | class тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileInfo::getPathInfo()****
 
-` <?php$info u003d new SplFileInfo('/usr/bin/php');$parent_info u003d $info->getPathInfo();var_dump($parent_info->getRealPath());?> `
+` <?php$info = new SplFileInfo('/usr/bin/php');$parent_info = $info->getPathInfo();var_dump($parent_info->getRealPath());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

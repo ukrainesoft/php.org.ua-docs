@@ -7,7 +7,7 @@
 
 # Клас Swoole\Buffer
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -31,7 +31,7 @@ string
 public [recycle](swoole-buffer.recycle.md)(): void
 
 public [substr](swoole-buffer.substr.md)(int `$offset`, int `$length`
-u003d ?, bool `$ remove` u003d ?): string
+= ?, bool `$ remove` = ?): string
 
 public [\_\_toString](swoole-buffer.tostring.md)(): string
 

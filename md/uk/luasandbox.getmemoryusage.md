@@ -7,7 +7,7 @@
 
 # LuaSandbox::getMemoryUsage
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::getMemoryUsage — Повертає поточне використання пам'яті
 середовищі Lua

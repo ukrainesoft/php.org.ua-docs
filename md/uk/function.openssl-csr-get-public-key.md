@@ -7,14 +7,14 @@
 
 #openssl_csr_get_public_key
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 openssl_csr_get_public_key — Повертає відкритий ключ CSR
 
 ### Опис
 
 **openssl_csr_get_public_key**([OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)\|string
-`$csr`, bool `$short_names` u003d **`true`**):
+`$csr`, bool `$short_names` = **`true`**):
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|false
 
 **openssl_csr_get_public_key()** витягує відкритий ключ з `csr` і
@@ -37,16 +37,16 @@ openssl_csr_get_public_key — Повертає відкритий ключ CSR
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.0.0  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key.              |
-| 8.0.0  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
+| Версія | Опис                                                                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | У разі успішного виконання повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key.            |
+| 8.0.0  | csr тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання openssl_csr_get_public_key()**
 
-` <?php$subject u003d array(    "commonName" u003d> "example.com",);$private_key u003d openssl_pkey_new(array(    "private_key_bits" u003d> 2048,    "private_key_type" u003d> OPENSSL_KEYTYPE_RSA,));$csr u003d openssl_csr_new ($subject, $private_key, array('digest_alg' u003d> 'sha256') );$public_key u003d openssl_csr_get_public_key($csr);$info u003d openssl_pkey_get_details('$_key'
+` <?php$subject = array(    "commonName" => "example.com",);$private_key = openssl_pkey_new(array(    "private_key_bits" => 2048,    "private_key_type" => OPENSSL_KEYTYPE_RSA,));$csr = openssl_csr_new ($subject, $private_key, array('digest_alg' => 'sha256') );$public_key = openssl_csr_get_public_key($csr);$info = openssl_pkey_get_details('$_key'
 
 ### Дивіться також
 

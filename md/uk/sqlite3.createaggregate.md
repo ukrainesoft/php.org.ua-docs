@@ -7,7 +7,7 @@
 
 # SQLite3::createAggregate
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::createAggregate — Зареєструвати функцію PHP як
 агрегуючої функції SQL
@@ -18,7 +18,7 @@ public **SQLite3::createAggregate**(
 string `$name`,
 [callable](language.types.callable.md) `$stepCallback`,
 [callable](language.types.callable.md) `$finalCallback`,
-int `$argCount` u003d -1
+int `$argCount` = -1
 ): bool
 
 Реєструє функцію PHP або функцію користувача як
@@ -103,7 +103,7 @@ fini([mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Приклад #1 Приклад агрегуючої функції max_length**
 
-` <?php$data u003d array(  'one',  'two',  'three',  'four',  'five',  ''ix'' ' '              ;$db u003d new SQLite3(':memory:');$db->exec("CREATE TABLE strings(a)");$insert u003d $db->prepare('INSERT INTO strings VALUES (?)'); foreach ($data as $str) {    $insert->bindValue(1, $str); $insert->execute();}$insertu003du003dnull;function max_len_step($context, $rownumber, $string){    if (strlen($string) > $context) { {         | }   return $context;}function max_len_finalize($context, $rownumber){   return $context u003du003du003d null ? 0 : $context;}$db->createAggregate('max_len', 'max_len_step', 'max_len_finalize');var_dump($db->querySingle('SELECT max_len(a) from strings'));?> `
+` <?php$data = array(  'one',  'two',  'three',  'four',  'five',  ''ix'' ' '              ;$db = new SQLite3(':memory:');$db->exec("CREATE TABLE strings(a)");$insert = $db->prepare('INSERT INTO strings VALUES (?)'); foreach ($data as $str) {    $insert->bindValue(1, $str); $insert->execute();}$insert==null;function max_len_step($context, $rownumber, $string){    if (strlen($string) > $context) { {         | }   return $context;}function max_len_finalize($context, $rownumber){   return $context === null ? 0 : $context;}$db->createAggregate('max_len', 'max_len_step', 'max_len_finalize');var_dump($db->querySingle('SELECT max_len(a) from strings'));?> `
 
 Результат виконання цього прикладу:
 

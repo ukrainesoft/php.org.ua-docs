@@ -10,7 +10,7 @@
 
 #tidy_get_error_buffer
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::$errorBuffer -- tidy_get_error_buffer — Повертає попередження
 та помилки, що виникли при розборі зазначеного документа
@@ -43,7 +43,7 @@ string\|false
 
 **Приклад #1 Приклад використання **tidy_get_error_buffer()****
 
-` <?php$html u003d '<p>параграф</p>';$tidy u003d tidy_parse_string($html);echo tidy_get_error_buffer($tidy);/* або в ООП стилі: */echo $tidy->errorBuffer; ?> `
+` <?php$html = '<p>параграф</p>';$tidy = tidy_parse_string($html);echo tidy_get_error_buffer($tidy);/* або в ООП стилі: */echo $tidy->errorBuffer; ?> `
 
 Результат виконання цього прикладу:
 

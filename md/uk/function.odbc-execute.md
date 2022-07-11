@@ -13,7 +13,7 @@ odbc_execute — Виконує запит
 
 ### Опис
 
-**odbc_execute**(resource `$statement`, array `$params` u003d []): bool
+**odbc_execute**(resource `$statement`, array `$params` = []): bool
 
 Виконує запит, підготовлений
 [odbc_prepare()](function.odbc-prepare.md).
@@ -54,7 +54,7 @@ odbc_execute — Виконує запит
 У даному коді `$success` матиме значення **`true`**, тільки якщо
 всі три параметри myproc присутні в масиві параметрів:
 
-` <?php$a u003d 1;$b u003d 2;$c u003d 3;$stmt    u003d odbc_prepare($conn, 'CALL myproc(?,?,?)');$success u003d odbc_execute($stmt $a, $b, $c));?> `
+` <?php$a = 1;$b = 2;$c = 3;$stmt    = odbc_prepare($conn, 'CALL myproc(?,?,?)');$success = odbc_execute($stmt $a, $b, $c));?> `
 
 Якщо потрібно викликати збережену процедуру з використанням параметрів INOUT
 або OUT, рекомендується використовувати власний модуль для вашої бази

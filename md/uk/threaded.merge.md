@@ -7,7 +7,7 @@
 
 # Threaded::merge
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::merge — Обробка
 
@@ -15,7 +15,7 @@ Threaded::merge — Обробка
 
 public
 **Threaded::merge**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$from`, bool `$overwrite` u003d ?): bool
+`$from`, bool `$overwrite` = ?): bool
 
 Об'єднує дані у поточний об'єкт.
 
@@ -36,35 +36,35 @@ public
 
 **Приклад #1 Об'єднання з таблицею властивостей пов'язаного об'єкта**
 
-` <?php$array u003d [];while (count($array) < 10)    $array[] u003d count($array);$stdClass u003d new stdClass();$stdClass->foo u003d "$o" stdClass->bar u003d "bar";$stdClass->baz u003d "baz";$safe u003d new Threaded();$safe->merge($array);$safe->foo u003d "bar";$safe- >merge($stdClass, false);var_dump($safe);?> `
+` <?php$array = [];while (count($array) < 10)    $array[] = count($array);$stdClass = new stdClass();$stdClass->foo = "$o" stdClass->bar = "bar";$stdClass->baz = "baz";$safe = new Threaded();$safe->merge($array);$safe->foo = "bar";$safe- >merge($stdClass, false);var_dump($safe);?> `
 
 Результат виконання цього прикладу:
 
 object(Threaded)#2 (13) {
-["0"]u003d>
+["0"]=>
 int(0)
-["1"]u003d>
+["1"]=>
 int(1)
-["2"]u003d>
+["2"]=>
 int(2)
-["3"]u003d>
+["3"]=>
 int(3)
-["4"]u003d>
+["4"]=>
 int(4)
-["5"]u003d>
+["5"]=>
 int(5)
-["6"]u003d>
+["6"]=>
 int(6)
-["7"]u003d>
+["7"]=>
 int(7)
-["8"]u003d>
+["8"]=>
 int(8)
-["9"]u003d>
+["9"]=>
 int(9)
-["foo"]u003d>
+["foo"]=>
 string(3) "bar"
-["bar"]u003d>
+["bar"]=>
 string(3) "bar"
-["baz"]u003d>
+["baz"]=>
 string(3) "baz"
 }

@@ -16,8 +16,8 @@ imap_reopen — Відкриває потік IMAP до нової скринь�
 **imap_reopen**(
 [IMAP\Connection](class.imap-connection.md) `$imap`,
 string `$mailbox`,
-int `$flags` u003d 0,
-int `$retries` u003d 0
+int `$flags` = 0,
+int `$retries` = 0
 ): bool
 
 Перевідкриває вказаний потік до ящика `mailbox` на сервері IMAP або
@@ -62,12 +62,12 @@ NNTP.
 
 ### Список змін
 
-| Версія | Опис                                                                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 8.1.0  | Параметр `imap` тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
+| Версія | Опис                                                                                                                                                   |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_reopen()****
 
-` <?php$mbox u003d imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));// ... imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));// ..?> `
+` <?php$mbox = imap_open("{imap.example.org:143}INBOX", "username", "password") or die(implode(", ", imap_errors()));// ... imap_reopen($mbox, "{imap.example.org:143}INBOX.Sent") or die(implode(", ", imap_errors()));// ..?> `

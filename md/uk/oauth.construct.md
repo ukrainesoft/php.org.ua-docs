@@ -7,7 +7,7 @@
 
 # OAuth::\_\_construct
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::\_\_construct — Створює новий об'єкт OAuth
 
@@ -16,8 +16,8 @@ OAuth::\_\_construct — Створює новий об'єкт OAuth
 public **OAuth::\_\_construct**(
 string `$consumer_key`,
 string `$consumer_secret`,
-string `$signature_method` u003d **`OAUTH_SIG_METHOD_HMACSHA1`**,
-int `$auth_type` u003d 0
+string `$signature_method` = **`OAUTH_SIG_METHOD_HMACSHA1`**,
+int `$auth_type` = 0
 )
 
 Створює новий об'єкт OAuth

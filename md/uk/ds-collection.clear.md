@@ -7,7 +7,7 @@
 
 # Ds\Collection::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Collection::clear — Видаляє всі значення
 
@@ -29,15 +29,15 @@ abstract public **Ds\Collection::clear**(): void
 
 **Приклад #1 Приклад **Ds\Collection::clear()****
 
-` <?php$collection u003d new \Ds\Vector([1, 2, 3]);print_r($collection);$collection->clear();print_r($collection);?> `
+` <?php$collection = new \Ds\Vector([1, 2, 3]);print_r($collection);$collection->clear();print_r($collection);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Vector Object
 (

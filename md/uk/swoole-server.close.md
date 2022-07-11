@@ -7,13 +7,13 @@
 
 # Swoole\Server::close
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::close — Закриває з'єднання з клієнтом
 
 ### Опис
 
-public **Swoole\Server::close**(int `$fd`, bool `$reset` u003d ?): bool
+public **Swoole\Server::close**(int `$fd`, bool `$reset` = ?): bool
 
 ### Список параметрів
 

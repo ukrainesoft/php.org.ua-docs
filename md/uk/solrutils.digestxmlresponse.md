@@ -7,7 +7,7 @@
 
 # SolrUtils::digestXmlResponse
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrUtils::digestXmlResponse — Перетворює XML-рядок відповіді на
 SolrObject
@@ -15,7 +15,7 @@ SolrObject
 ### Опис
 
 public static **SolrUtils::digestXmlResponse**(string `$xmlresponse`,
-int `$parse_mode` u003d 0): [SolrObject](class.solrobject.md)
+int `$parse_mode` = 0): [SolrObject](class.solrobject.md)
 
 Метод перетворює XML-рядок відповіді з сервера Apache Solr SolrObject.
 У разі помилки викидає виняток SolrException.

@@ -33,12 +33,12 @@ public **ReflectionMethod::getDeclaringClass**():
 **Приклад #1 Приклад використання
 **ReflectionMethod::getDeclaringClass()****
 
-` <?phpclass HelloWorld {   protected function sayHelloTo($name) {        return 'Привіт, ' . $name; }}$reflectionMethod u003d new ReflectionMethod(new HelloWorld(), 'sayHelloTo');var_dump($reflectionMethod->getDeclaringClass());?> `
+` <?phpclass HelloWorld {   protected function sayHelloTo($name) {        return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod(new HelloWorld(), 'sayHelloTo');var_dump($reflectionMethod->getDeclaringClass());?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionClass)#2 (1) {
-["name"]u003d>
+["name"]=>
 string(10) "HelloWorld"
 }
 

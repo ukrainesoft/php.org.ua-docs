@@ -7,7 +7,7 @@
 
 # FANNConnection::\_\_construct
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 FANNConnection::\_\_construct - Конструктор зв'язку
 

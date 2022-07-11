@@ -7,7 +7,7 @@
 
 # LuaSandbox::setCPULimit
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::setCPULimit — Встановлює обмеження часу процесора
 для середовища Lua
@@ -49,7 +49,7 @@ Lua призводить до скидання таймера або його з
 
 **Приклад #1 Виклик функції Lua**
 
-` <?php// створення нового LuaSandbox$sandbox u003d new LuaSandbox();// установка ліміту$sandbox->setCPULimit( 2 );// запуск кода Lua$sandbox->load   call();?> `
+` <?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// установка ліміту$sandbox->setCPULimit( 2 );// запуск кода Lua$sandbox->load   call();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

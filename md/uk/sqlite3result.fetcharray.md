@@ -8,7 +8,7 @@
 
 # SQLite3Result::fetchArray
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Result::fetchArray — Вибирає один рядок з результуючого
 набору і поміщає її в асоціативний або нумерований масив, або в обох
@@ -16,7 +16,7 @@ SQLite3Result::fetchArray — Вибирає один рядок з резуль
 
 ### Опис
 
-public **SQLite3Result::fetchArray**(int `$mode` u003d **`SQLITE3_BOTH`**):
+public **SQLite3Result::fetchArray**(int `$mode` = **`SQLITE3_BOTH`**):
 array\|false
 
 Вибирає один рядок з результуючого набору та поміщає його в

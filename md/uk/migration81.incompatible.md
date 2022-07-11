@@ -24,7 +24,7 @@
 перевизначається), успадкований метод тепер використовуватиме
 статичні змінні разом із батьківським способом.
 
-` <?phpclass A {    public static function counter() {       static $counter u003d 0; $ counter++; return $counter; }}class B extends A {}var_dump(A::counter()); //int(1)var_dump(A::counter()); //int(2)var_dump(B::counter()); // int(3), раніше було int(1)var_dump(B::counter()); // int(4), раніше було int(2)?> `
+` <?phpclass A {    public static function counter() {       static $counter = 0; $ counter++; return $counter; }}class B extends A {}var_dump(A::counter()); //int(1)var_dump(A::counter()); //int(2)var_dump(B::counter()); // int(3), раніше було int(1)var_dump(B::counter()); // int(4), раніше було int(2)?> `
 
 Це означає, що статичні змінні в методах тепер поводяться так
 ж як статичні властивості.
@@ -40,7 +40,7 @@ PHP 8.1.0, видається помилка класу
 [ArgumentCountError](class.argumentcounterror.md), як це було б при
 виклик з позиційними аргументами.
 
-`<?phpfunction makeyogurt($container u003d "миску", $flavour){    return "Готуємо $container з $flavour йогуртом.
+`<?phpfunction makeyogurt($container = "миску", $flavour){    return "Готуємо $container з $flavour йогуртом.
 ";}try{    echo makeyogurt(flavour: "малиновим");}catch (Error$$e){   echo get_class($e), ' - ', $e->getMessage(), "
 ";}?> `
 

@@ -39,7 +39,7 @@ Imagick був скомпілюваний з версією ImageMagick 6.2.9 а
 **Приклад #1 WaveImage може бути досить повільним
 **Imagick::waveImage()****
 
-` <?phpfunction waveImage($imagePath, $amplitude, $length) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->waveImage($amplitude, $length); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction waveImage($imagePath, $amplitude, $length) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->waveImage($amplitude, $length); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

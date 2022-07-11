@@ -7,13 +7,13 @@
 
 # Gender\Gender::similarNames
 
-(PECL gender \>u003d 0.9.0)
+(PECL gender \>= 0.9.0)
 
 Gender\Gender::similarNames — Отримати схожі імена
 
 ### Опис
 
-public **Gender\Gender::similarNames**(string `$name`, int `$country` u003d
+public **Gender\Gender::similarNames**(string `$name`, int `$country` =
 ?): array
 
 Отримати схожі імена для заданих імені та країни.

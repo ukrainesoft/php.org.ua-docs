@@ -45,12 +45,12 @@ int `$mysqli_result->field_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$result u003d $mysqli Population FROM City ORDER BYID LIMIT 1");/* Отримання|кількості полів в набір результатів */$field_cnt u003d $result->field_count;printf("Отримано %d 
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysqli Population FROM City ORDER BYID LIMIT 1");/* Отримання|кількості полів в набір результатів */$field_cnt = $result->field_count;printf("Отримано %d 
 ", $field_cnt); `
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d Mysqli_connect("localhost", "my_user", "my_password", "world"); City ORDER BYIDID LIMIT 1");/* Отримання кількості полів в наборі результатів */$field_cnt u003d mysqli_num_fields($result);printf("Отримано %d полів.
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = Mysqli_connect("localhost", "my_user", "my_password", "world"); City ORDER BYIDID LIMIT 1");/* Отримання кількості полів в наборі результатів */$field_cnt = mysqli_num_fields($result);printf("Отримано %d полів.
 ", $field_cnt); `
 
 Результат виконання даних прикладів:

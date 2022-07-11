@@ -7,14 +7,14 @@
 
 # Yaf_View_Interface::display
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Interface::display — Відображає та виводить шаблон
 
 ### Опис
 
 abstract public **Yaf_View_Interface::display**(string `$tpl`, array
-`$tpl_vars` u003d ?): bool
+`$tpl_vars` = ?): bool
 
 Малює шаблон і негайно виводить результат.
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::isPassive
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::isPassive — Перевіряє, чи є сервер
 пасивним членом набору реплік

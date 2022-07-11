@@ -7,7 +7,7 @@
 
 # mysql_get_client_info
 
-(PHP 4 u003d 4.0.5, PHP 5)
+(PHP 4 = 4.0.5, PHP 5)
 
 mysql_get_client_info — Повертає дані про MySQL-клієнт
 

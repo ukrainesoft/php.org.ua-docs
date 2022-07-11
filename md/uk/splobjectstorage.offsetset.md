@@ -7,7 +7,7 @@
 
 # SplObjectStorage::offsetSet
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetSet — Асоціює дані з об'єктом у контейнері
 
@@ -15,7 +15,7 @@ SplObjectStorage::offsetSet — Асоціює дані з об'єктом у к
 
 public **SplObjectStorage::offsetSet**(object `$object`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` u003d **`null`**): void
+`$info` = **`null`**): void
 
 Асоціює дані з об'єктом object у контейнері.
 
@@ -40,7 +40,7 @@ public **SplObjectStorage::offsetSet**(object `$object`,
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetSet()****
 
-` <?php$s u003d new SplObjectStorage;$o1 u003d new StdClass;$s->offsetSet($o1, "hello"); // $s[$o1] u003d "hello";var_dump($s[$o1]);?> `
+` <?php$s = new SplObjectStorage;$o1 = new StdClass;$s->offsetSet($o1, "hello"); // $s[$o1] = "hello";var_dump($s[$o1]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

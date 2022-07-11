@@ -26,7 +26,7 @@
 > **Примітка**:
 >
 > Зауважте, що конструкція switch/case використовує [не суворе порівняння
-> (u003du003d)](types.comparisons.md#types.comparisions-loose).
+> (==)](types.comparisons.md#types.comparisions-loose).
 
 Наступні два приклади ілюструють два різні способи написати те ж саме
 саме. Один використовує ряд операторів `if` та `elseif`, а інший -
@@ -34,7 +34,7 @@
 
 **Приклад #1 Оператор `switch`**
 
-`<?phpif ($i u003du003d 0) {    echo "i рівно 0";} elseif ($i u003du003d 1) {   echo "i рівно 1";} elseif   2";}switch ($i) {    case 0:        echo "i рівно 0"; break; case 1:        echo "i рівно 1"; break; case 2:        echo "i рівно 2"; break;}?> `
+`<?phpif ($i == 0) {    echo "i рівно 0";} elseif ($i == 1) {   echo "i рівно 1";} elseif   2";}switch ($i) {    case 0:        echo "i рівно 0"; break; case 1:        echo "i рівно 1"; break; case 2:        echo "i рівно 2"; break;}?> `
 
 **Приклад #2 Оператор `switch` допускає порівняння з типом string**
 

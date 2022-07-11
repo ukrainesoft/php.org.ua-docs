@@ -7,7 +7,7 @@
 
 #gnupg_setarmor
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_setarmor — Перемикає вивод у текстовому або бінарному режимі
 
@@ -37,9 +37,9 @@ gnupg_setarmor — Перемикає вивод у текстовому або 
 **Приклад #1 Приклад використання **gnupg_setarmor()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();gnupg_setarmor($res,1); // текстовий режим висновку;gnupg_setarmor($res,0); // бінарний режим висновку;?> `
+` <?php$res = gnupg_init();gnupg_setarmor($res,1); // текстовий режим висновку;gnupg_setarmor($res,0); // бінарний режим висновку;?> `
 
 **Приклад #2 Приклад використання **gnupg_setarmor()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$gpg->setarmor(1); // текстовий режим висновку;$gpg->setarmor(0); // бінарний режим висновку;?> `
+` <?php$gpg = new gnupg();$gpg->setarmor(1); // текстовий режим висновку;$gpg->setarmor(0); // бінарний режим висновку;?> `

@@ -7,7 +7,7 @@
 
 # Gmagick::getimageunits
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageunits — Повертає одиниці роздільної здатності зображення
 

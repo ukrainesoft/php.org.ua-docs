@@ -7,7 +7,7 @@
 
 # Клас PDO
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 ## Вступ
 
@@ -21,9 +21,9 @@ class **PDO** {
 
 public [\_\_construct](pdo.construct.md)(
 string `$dsn`,
-?string `$username` u003d **`null`**,
-?string `$password` u003d **`null`**,
-?array `$options` u003d **`null`**
+?string `$username` = **`null`**,
+?string `$password` = **`null`**,
+?array `$options` = **`null`**
 )
 
 public [beginTransaction](pdo.begintransaction.md)(): bool
@@ -44,31 +44,31 @@ array
 
 public [inTransaction](pdo.intransaction.md)(): bool
 
-public [lastInsertId](pdo.lastinsertid.md)(?string `$name` u003d
+public [lastInsertId](pdo.lastinsertid.md)(?string `$name` =
 **`null`**): string\|false
 
-public [prepare](pdo.prepare.md)(string `$query`, array `$options` u003d
+public [prepare](pdo.prepare.md)(string `$query`, array `$options` =
 []): [PDOStatement](class.pdostatement.md)\|false
 
-public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` u003d
+public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` =
 **`null`**): [PDOStatement](class.pdostatement.md)\|false
 
-public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` u003d
+public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` =
 PDO::FETCH_COLUMN, int `$colno`):
 [PDOStatement](class.pdostatement.md)\|false
 
 public [query](pdo.query.md)(
 string `$query`,
-?int `$fetchMode` u003d PDO::FETCH_CLASS,
+?int `$fetchMode` = PDO::FETCH_CLASS,
 string `$classname`,
 array `$constructorArgs`
 ): [PDOStatement](class.pdostatement.md)\|false
 
-public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` u003d
+public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` =
 PDO::FETCH_INTO, object `$object`):
 [PDOStatement](class.pdostatement.md)\|false
 
-public [quote](pdo.quote.md)(string `$string`, int `$type` u003d
+public [quote](pdo.quote.md)(string `$string`, int `$type` =
 PDO::PARAM_STR): string\|false
 
 public [rollBack](pdo.rollback.md)(): bool

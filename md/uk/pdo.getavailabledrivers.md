@@ -9,7 +9,7 @@
 
 #pdo_drivers
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 1.0.3)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 1.0.3)
 
 PDO::getAvailableDrivers -- pdo_drivers — Повертає масив доступних
 драйверів PDO
@@ -43,6 +43,6 @@ PDO. Якщо немає драйверів, повертається порож
 
 Array
 (
-[0] u003d> mysql
-[1] u003d> sqlite
+[0] => mysql
+[1] => sqlite
 )

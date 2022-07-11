@@ -15,7 +15,7 @@ DOMDocument::createElementNS — Створити новий вузол елем
 ### Опис
 
 public **DOMDocument::createElementNS**(?string `$namespace`, string
-`$qualifiedName`, string `$value` u003d ""):
+`$qualifiedName`, string `$value` = ""):
 [DOMElement](class.domelement.md)\|false
 
 Ця функція створює новий вузол-елемент із відповідним простором
@@ -54,16 +54,16 @@ URI простір імен.
 **Приклад #1 Створення елемента та вставка в документ як
 кореневого**
 
-` <?php$dom u003d new DOMDocument('1.0', 'utf-8');$element u003d $dom->createElementNS('http://www.example.com/XFoo', 'xfoo:test', 'Це кореневий елемент!');// Вставляємо новий елемент як корінь (нащадок документа)$dom->appendChild($element);echo $dom->saveXML();?> `
+` <?php$dom = new DOMDocument('1.0', 'utf-8');$element = $dom->createElementNS('http://www.example.com/XFoo', 'xfoo:test', 'Це кореневий елемент!');// Вставляємо новий елемент як корінь (нащадок документа)$dom->appendChild($element);echo $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
-<xfoo:test xmlns:xfoou003d"http://www.example.com/XFoo">Це кореневий елемент!</xfoo:test>
+<?xml version="1.0" encoding="utf-8"?>
+<xfoo:test xmlns:xfoo="http://www.example.com/XFoo">Це кореневий елемент!</xfoo:test>
 
 **Приклад #2 Приклад префіксу простору імен**
 
-` <?php$doc u003d new DOMDocument('1.0', 'utf-8');$doc->formatOutput u003d true;$root u003d $doc->createElementNS('http://www.w3.org/2005 /Atom', 'element');$doc->appendChild($root);$root->setAttributeNS('http://www.w3.org/2000/xmlns/' ,'xmlns:g', 'http ://base.google.com/ns/1.0');$item u003d $doc->createElementNS('http://base.google.com/ns/1.0', 'g:item_type', 'house') ;$root->appendChild($item);echo $doc->saveXML(), "
+` <?php$doc = new DOMDocument('1.0', 'utf-8');$doc->formatOutput = true;$root = $doc->createElementNS('http://www.w3.org/2005 /Atom', 'element');$doc->appendChild($root);$root->setAttributeNS('http://www.w3.org/2000/xmlns/' ,'xmlns:g', 'http ://base.google.com/ns/1.0');$item = $doc->createElementNS('http://base.google.com/ns/1.0', 'g:item_type', 'house') ;$root->appendChild($item);echo $doc->saveXML(), "
 ";echo $item->namespaceURI, "
 "; // Виведе: http://base.google.com/ns/1.0echo $item->prefix, "
 ";       // Виведе: gecho $item->localName, "
@@ -71,8 +71,8 @@ URI простір імен.
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
-<element xmlnsu003d"http://www.w3.org/2005/Atom" xmlns:gu003d"http://base.google.com/ns/1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<element xmlns="http://www.w3.org/2005/Atom" xmlns:g="http://base.google.com/ns/1.0">
 <g:item_type>house</g:item_type>
 </element>
 

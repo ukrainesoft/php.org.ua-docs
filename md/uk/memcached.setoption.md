@@ -7,7 +7,7 @@
 
 # Memcached::setOption
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::setOption — Встановлює параметр для Memcached
 
@@ -48,7 +48,7 @@ public **Memcached::setOption**(int `$option`,
 
 **Приклад #1 Встановлює Memcached параметр**
 
-` <?php$m u003d new Memcached();var_dump($m->getOption(Memcached::OPT_HASH) u003du003d Memcached::HASH_DEFAULT);$m->setOption(Memcached::OPT_HASH, M; $m->setOption(Memcached::OPT_PREFIX_KEY, "widgets");echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "
+` <?php$m = new Memcached();var_dump($m->getOption(Memcached::OPT_HASH) == Memcached::HASH_DEFAULT);$m->setOption(Memcached::OPT_HASH, M; $m->setOption(Memcached::OPT_PREFIX_KEY, "widgets");echo "Prefix key is now: ", $m->getOption(Memcached::OPT_PREFIX_KEY), "
 ";?> `
 
 Результат виконання цього прикладу:

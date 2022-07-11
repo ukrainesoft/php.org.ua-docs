@@ -7,7 +7,7 @@
 
 # SplFileInfo::isWritable
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isWritable — Вказує, чи є файл доступним для
 запису

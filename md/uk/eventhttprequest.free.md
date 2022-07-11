@@ -7,7 +7,7 @@
 
 # EventHttpRequest::free
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::free — Звільняє об'єкт і видаляє пов'язані події
 

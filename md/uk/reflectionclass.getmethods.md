@@ -13,7 +13,7 @@ ReflectionClass::getMethods — Повертає список методів у 
 
 ### Опис
 
-public **ReflectionClass::getMethods**(?int `$filter` u003d **`null`**):
+public **ReflectionClass::getMethods**(?int `$filter` = **`null`**):
 array
 
 Повертає список методів як масиву.
@@ -43,38 +43,38 @@ array
 
 ### Список змін
 
-| Версія | Опис                                    |
-| ------ | --------------------------------------- |
-| 7.2.0  | `filter` тепер припускає значення null. |
+| Версія | Опис                                  |
+| ------ | ------------------------------------- |
+| 7.2.0  | filter тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ReflectionClass::getMethods()****
 
-` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class u003d new ReflectionClass('Apple');$methods u003d $class->getMethods( );var_dump($methods);?> `
+` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class = new ReflectionClass('Apple');$methods = $class->getMethods( );var_dump($methods);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 object(ReflectionMethod)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(11) "firstMethod"
-["class"]u003d>
+["class"]=>
 string(5) "Apple"
 }
-[1]u003d>
+[1]=>
 object(ReflectionMethod)#3 (2) {
-["name"]u003d>
+["name"]=>
 string(12) "secondMethod"
-["class"]u003d>
+["class"]=>
 string(5) "Apple"
 }
-[2]u003d>
+[2]=>
 object(ReflectionMethod)#4 (2) {
-["name"]u003d>
+["name"]=>
 string(11) "thirdMethod"
-["class"]u003d>
+["class"]=>
 string(5) "Apple"
 }
 }
@@ -82,23 +82,23 @@ string(5) "Apple"
 **Приклад #2 Приклад фільтрації результату виклику
 **ReflectionClass::getMethods()****
 
-` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class u003d new ReflectionClass('Apple');$methods u003d $class->getMethods( ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);var_dump($methods);?> `
+` <?phpclass Apple {    public function firstMethod() { }    final protected function secondMethod() { }    private static function thirdMethod() { }}$class = new ReflectionClass('Apple');$methods = $class->getMethods( ReflectionMethod::IS_STATIC | ReflectionMethod::IS_FINAL);var_dump($methods);?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 object(ReflectionMethod)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(12) "secondMethod"
-["class"]u003d>
+["class"]=>
 string(5) "Apple"
 }
-[1]u003d>
+[1]=>
 object(ReflectionMethod)#3 (2) {
-["name"]u003d>
+["name"]=>
 string(11) "thirdMethod"
-["class"]u003d>
+["class"]=>
 string(5) "Apple"
 }
 }

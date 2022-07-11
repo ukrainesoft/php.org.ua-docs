@@ -30,7 +30,7 @@ public **Ds\Pair::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Pair::isEmpty()****
 
-` <?php$a u003d new \Ds\Pair("a", 1);$b u003d new \Ds\Pair();var_dump($a->isEmpty());var_dump($b->isEmpty( ));?> `
+` <?php$a = new \Ds\Pair("a", 1);$b = new \Ds\Pair();var_dump($a->isEmpty());var_dump($b->isEmpty( ));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

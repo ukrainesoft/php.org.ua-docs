@@ -7,7 +7,7 @@
 
 # PDOStatement::columnCount
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDOStatement::columnCount — Повертає кількість стовпців у
 результуючому наборі
@@ -45,8 +45,8 @@ PDOStatement, навіть якщо він порожній. Якщо резул
 У цьому прикладі показано, як **PDOStatement::columnCount()** працює в
 у разі наявності та відсутності результуючого набору.
 
-` <?php$dbh u003d new PDO('odbc:sample', 'db2inst1', 'ibmdb2');$sth u003d $dbh->prepare("SELECT name, colour FROM fruit");/* Поліц (неіснуючому) результуючому наборі */$colcount u003d $sth->columnCount();print("Перед викликом execute(), в результуючому наборі $colcount стовпців (повинно бути  
-");$sth->execute();/* Підрахунок кількості стовпців в результуючому наборі */$colcount u003d $sth->columnCount();print("Після виклику execute(),ж| 2)
+` <?php$dbh = new PDO('odbc:sample', 'db2inst1', 'ibmdb2');$sth = $dbh->prepare("SELECT name, colour FROM fruit");/* Поліц (неіснуючому) результуючому наборі */$colcount = $sth->columnCount();print("Перед викликом execute(), в результуючому наборі $colcount стовпців (повинно бути  
+");$sth->execute();/* Підрахунок кількості стовпців в результуючому наборі */$colcount = $sth->columnCount();print("Після виклику execute(),ж| 2)
 ");?> `
 
 Результат виконання цього прикладу:

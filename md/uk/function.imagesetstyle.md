@@ -7,7 +7,7 @@
 
 #imagesetstyle
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagesetstyle — Встановлення стилю креслення ліній
 
@@ -45,7 +45,7 @@ imagesetstyle — Встановлення стилю креслення лін�
 
 **Приклад #1 Приклад використання **imagesetstyle()****
 
-`<?phpheader("Content-type: image/jpeg"); , 0, 0);/* Малування пунктирної лінії, 5 червоних точок, 5 білих */$style u003d array($red, $red, $red, $red, $red, $w, $w $w| w, $w);imagesetstyle($im, $style);imageline($im, 0, 0, 100,100, IMG_COLOR_STYLED);/* ($w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $red);imagesetstyle($im, $style); $brushu003d imagecreatefrompng("http://www.libpng.org/pub/png/images/smile.happy.png");$w2 u003d imagecolorallocate($brush, 255, 255, 255);imagecolortransparent($brush, $w2);imagesetbrush($im, $brush);imageline($im, 100, 0, 0, 100, IMG_COLOR_STYLEDBRUSHED);imagejpeg($im);imagedestroy($im);?> `
+`<?phpheader("Content-type: image/jpeg"); , 0, 0);/* Малування пунктирної лінії, 5 червоних точок, 5 білих */$style = array($red, $red, $red, $red, $red, $w, $w $w| w, $w);imagesetstyle($im, $style);imageline($im, 0, 0, 100,100, IMG_COLOR_STYLED);/* ($w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $w, $red);imagesetstyle($im, $style); $brush= imagecreatefrompng("http://www.libpng.org/pub/png/images/smile.happy.png");$w2 = imagecolorallocate($brush, 255, 255, 255);imagecolortransparent($brush, $w2);imagesetbrush($im, $brush);imageline($im, 100, 0, 0, 100, IMG_COLOR_STYLEDBRUSHED);imagejpeg($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

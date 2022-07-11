@@ -7,7 +7,7 @@
 
 # ReflectionEnumBackedCase::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnumBackedCase::\_\_construct — Створює об'єкт
 [ReflectionEnumBackedCase](class.reflectionenumbackedcase.md)

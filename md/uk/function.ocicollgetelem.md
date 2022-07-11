@@ -7,7 +7,7 @@
 
 # ocicollgetelem
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ocicollgetelem — Псевдонім
 [OCICollection::getElem()](ocicollection.getelem.md)

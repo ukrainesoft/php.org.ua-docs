@@ -51,19 +51,19 @@ mysql_fetch_lengths — Повертає довжину кожного поля 
 
 **Приклад #1 Приклад використання **mysql_fetch_lengths()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Помилка виконання запиту: mysql_error(); exit;}$row     u003d mysql_fetch_assoc($result);$lengths u003d mysql_fetch_lengths($result);print_r($row);print_r($lengths);?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Помилка виконання запиту: mysql_error(); exit;}$row     = mysql_fetch_assoc($result);$lengths = mysql_fetch_lengths($result);print_r($row);print_r($lengths);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[id] u003d> 42
-[email] u003d> user@example.com
+[id] => 42
+[email] => user@example.com
 )
 Array
 (
-[0] u003d> 2
-[1] u003d> 16
+[0] => 2
+[1] => 16
 )
 
 ### Дивіться також

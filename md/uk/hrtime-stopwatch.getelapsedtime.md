@@ -7,14 +7,14 @@
 
 # HRTime\StopWatch::getElapsedTime
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 HRTime\StopWatch::getElapsedTime — Отримати сумарний минулий час
 всіх інтервалів
 
 ### Опис
 
-public **HRTime\StopWatch::getElapsedTime**(int `$unit` u003d ?): float
+public **HRTime\StopWatch::getElapsedTime**(int `$unit` = ?): float
 
 Повертає сумарний час усіх інтервалів.
 

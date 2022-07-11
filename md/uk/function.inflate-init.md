@@ -13,7 +13,7 @@ inflate_init - Ініціалізація контексту інкремент�
 
 ### Опис
 
-**inflate_init**(int `$encoding`, array `$options` u003d []): [InflateContext](class.inflatecontext.md)\|false
+**inflate_init**(int `$encoding`, array `$options` = []): [InflateContext](class.inflatecontext.md)\|false
 
 Ініціалізує контекст інкрементального розпакування із зазначеною
 кодуванням `encoding`.

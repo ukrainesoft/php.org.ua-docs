@@ -16,7 +16,7 @@ SolrDisMaxQuery::addBoostQuery — Додає поле підвищення за
 ### Опис
 
 public **SolrDisMaxQuery::addBoostQuery**(string `$field`, string
-`$value`, string `$boost` u003d ?):
+`$value`, string `$boost` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 Додає поле підвищення запиту зі значенням [і підвищення](параметр
@@ -38,11 +38,11 @@ bq)
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::addBoostQuery()****
 
-`<?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBoostQuery('cat', 'clothing', 2)    ->addBoostQuery('cat', ; PHP_EOL;?> `
+`<?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery   ->addBoostQuery('cat', 'clothing', 2)    ->addBoostQuery('cat', ; PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&bqu003dcat:clothing^2 cat:electronics^5.1
+q=lucene&defType=edismax&bq=cat:clothing^2 cat:electronics^5.1
 
 ### Дивіться також
 

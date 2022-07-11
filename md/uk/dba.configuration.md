@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                               | Місце зміни | Список змін |
 | ------------------------------------------------------------------- | ----------- | ----------- |
-| [dba.default_handler](dba.configuration.md#ini.dba.default_handler) | DBA_DEFAULT | PHP_INI_ALL | 
+| [dba.default_handler](dba.configuration.md#ini.dba.default_handler) | DBA_DEFAULT | PHP_INI_ALL |
 
 **Опції налаштування DBA**
 

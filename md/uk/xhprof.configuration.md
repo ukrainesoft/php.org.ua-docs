@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                              | Місце зміни | Список змін       |
 | ------------------------------------------------------------------ | ----------- | ----------------- |
-| [xhprof.output_dir](xhprof.configuration.md#ini.xhprof.output-dir) | ""          | **`PHP_INI_ALL`** | 
+| [xhprof.output_dir](xhprof.configuration.md#ini.xhprof.output-dir) | ""          | **`PHP_INI_ALL`** |
 
 **Опції налаштування Xhprof**
 

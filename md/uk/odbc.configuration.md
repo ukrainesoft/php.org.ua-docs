@@ -11,16 +11,16 @@
 
 | Ім'я За замовчуванням                                                        | Місце зміни | Список змін    |
 | ---------------------------------------------------------------------------- | ----------- | -------------- |
-| [odbc.default_db](odbc.configuration.md#ini.uodbc.default-db) \*             | NULL        | PHP_INI_ALL    | 
-| [odbc.default_user](odbc.configuration.md#ini.uodbc.default-user) \*         | NULL        | PHP_INI_ALL    | 
-| [odbc.default_pw](odbc.configuration.md#ini.uodbc.default-pw) \*             | NULL        | PHP_INI_ALL    | 
-| [odbc.allow_persistent](odbc.configuration.md#ini.uodbc.allow-persistent)    | "1"         | PHP_INI_SYSTEM | 
-| [odbc.check_persistent](odbc.configuration.md#ini.uodbc.check-persistent)    | "1"         | PHP_INI_SYSTEM | 
-| [odbc.max_persistent](odbc.configuration.md#ini.uodbc.max-persistent)        | "-1"        | PHP_INI_SYSTEM | 
-| [odbc.max_links](odbc.configuration.md#ini.uodbc.max-links)                  | "-1"        | PHP_INI_SYSTEM | 
-| [odbc.defaultlrl](odbc.configuration.md#ini.uodbc.defaultlrl)                | "4096"      | PHP_INI_ALL    | 
-| [odbc.defaultbinmode](odbc.configuration.md#ini.uodbc.defaultbinmode)        | "1"         | PHP_INI_ALL    | 
-| [odbc.default_cursortype](odbc.configuration.md#ini.uodbc.defaultcursortype) | "3"         | PHP_INI_ALL    | 
+| [odbc.default_db](odbc.configuration.md#ini.uodbc.default-db) \*             | NULL        | PHP_INI_ALL    |
+| [odbc.default_user](odbc.configuration.md#ini.uodbc.default-user) \*         | NULL        | PHP_INI_ALL    |
+| [odbc.default_pw](odbc.configuration.md#ini.uodbc.default-pw) \*             | NULL        | PHP_INI_ALL    |
+| [odbc.allow_persistent](odbc.configuration.md#ini.uodbc.allow-persistent)    | "1"         | PHP_INI_SYSTEM |
+| [odbc.check_persistent](odbc.configuration.md#ini.uodbc.check-persistent)    | "1"         | PHP_INI_SYSTEM |
+| [odbc.max_persistent](odbc.configuration.md#ini.uodbc.max-persistent)        | "-1"        | PHP_INI_SYSTEM |
+| [odbc.max_links](odbc.configuration.md#ini.uodbc.max-links)                  | "-1"        | PHP_INI_SYSTEM |
+| [odbc.defaultlrl](odbc.configuration.md#ini.uodbc.defaultlrl)                | "4096"      | PHP_INI_ALL    |
+| [odbc.defaultbinmode](odbc.configuration.md#ini.uodbc.defaultbinmode)        | "1"         | PHP_INI_ALL    |
+| [odbc.default_cursortype](odbc.configuration.md#ini.uodbc.defaultcursortype) | "3"         | PHP_INI_ALL    |
 
 **Параметри конфігурації Unified ODBC**
 

@@ -181,28 +181,28 @@ null-байтом і використовується для ідентифік�
 | Ключ             | Значення                    | Тип ресурсу |          |
 | ---------------- | --------------------------- | ----------- | -------- |
 |                  |                             | Поєднання   | Оператор | Результуючий набір
-| autocommit       | `DB2_AUTOCOMMIT_ON`         | X           | \-       | \- 
-| autocommit       | `DB2_AUTOCOMMIT_OFF`        | X           | \-       | \- 
-| Cursor           | `DB2_SCROLLABLE`            | \-          | X        | \- 
-| Cursor           | `DB2_FORWARD_ONLY`          | \-          | X        | \- 
-| binmode          | `DB2_BINARY`                | X           | X        | \- 
-| binmode          | `DB2_CONVERT`               | X           | X        | \- 
-| binmode          | `DB2_PASSTHRU`              | X           | X        | \- 
-| db2_attr_case    | `DB2_CASE_LOWER`            | X           | X        | \- 
-| db2_attr_case    | `DB2_CASE_UPPER`            | X           | X        | \- 
-| db2_attr_case    | `DB2_CASE_NATURAL`          | X           | X        | \- 
-| deferred_prepare | `DB2_DEFERRED_PREPARE_ON`   | \-          | X        | \- 
-| deferred_prepare | `DB2_DEFERRED_PREPARE_OFF`  | \-          | X        | \- 
-| i5_fetch_only    | `DB2_I5_FETCH_ON`           | \-          | X        | \- 
-| i5_fetch_only    | `DB2_I5_FETCH_OFF`          | \-          | X        | \- 
-| rowcount         | `DB2_ROWCOUNT_PREFETCH_ON`  | \-          | X        | \- 
-| rowcount         | `DB2_ROWCOUNT_PREFETCH_OFF` | \-          | X        | \- 
-| trusted_user     | `<USER NAME> (String)`      | X           | \-       | \- 
-| trusted_password | `<PASSWORD> (String)`       | X           | \-       | \- 
-| userid           | `SQL_ATTR_INFO_USERID`      | X           | X        | \- 
-| acctstr          | `SQL_ATTR_INFO_ACCTSTR`     | X           | X        | \- 
-| applname         | `SQL_ATTR_INFO_APPLNAME`    | X           | X        | \- 
-| wrkstnname       | `SQL_ATTR_INFO_WRKSTNNAME`  | X           | X        | \- 
+| autocommit       | `DB2_AUTOCOMMIT_ON`         | X           | \-       | \-
+| autocommit       | `DB2_AUTOCOMMIT_OFF`        | X           | \-       | \-
+| Cursor           | `DB2_SCROLLABLE`            | \-          | X        | \-
+| Cursor           | `DB2_FORWARD_ONLY`          | \-          | X        | \-
+| binmode          | `DB2_BINARY`                | X           | X        | \-
+| binmode          | `DB2_CONVERT`               | X           | X        | \-
+| binmode          | `DB2_PASSTHRU`              | X           | X        | \-
+| db2_attr_case    | `DB2_CASE_LOWER`            | X           | X        | \-
+| db2_attr_case    | `DB2_CASE_UPPER`            | X           | X        | \-
+| db2_attr_case    | `DB2_CASE_NATURAL`          | X           | X        | \-
+| deferred_prepare | `DB2_DEFERRED_PREPARE_ON`   | \-          | X        | \-
+| deferred_prepare | `DB2_DEFERRED_PREPARE_OFF`  | \-          | X        | \-
+| i5_fetch_only    | `DB2_I5_FETCH_ON`           | \-          | X        | \-
+| i5_fetch_only    | `DB2_I5_FETCH_OFF`          | \-          | X        | \-
+| rowcount         | `DB2_ROWCOUNT_PREFETCH_ON`  | \-          | X        | \-
+| rowcount         | `DB2_ROWCOUNT_PREFETCH_OFF` | \-          | X        | \-
+| trusted_user     | `<USER NAME> (String)`      | X           | \-       | \-
+| trusted_password | `<PASSWORD> (String)`       | X           | \-       | \-
+| userid           | `SQL_ATTR_INFO_USERID`      | X           | X        | \-
+| acctstr          | `SQL_ATTR_INFO_ACCTSTR`     | X           | X        | \-
+| applname         | `SQL_ATTR_INFO_APPLNAME`    | X           | X        | \-
+| wrkstnname       | `SQL_ATTR_INFO_WRKSTNNAME`  | X           | X        | \-
 
 **Матриця ресурс/параметр**
 

@@ -9,15 +9,15 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------------------------|------------ --|-----------------|------------------|
-| [igbinary.compact_strings](igbinary.configuration.md#ini.igbinary.compact-strings) | 1 | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                              | Місце зміни | Список змін |
+| ---------------------------------------------------------------------------------- | ----------- | ----------- |
+| [igbinary.compact_strings](igbinary.configuration.md#ini.igbinary.compact-strings) | 1           | PHP_INI_ALL |
 
 **Опції налаштування Igbinary**
 
 | Ім'я За замовчуванням                                                       | Місце зміни | Список змін |
 | --------------------------------------------------------------------------- | ----------- | ----------- |
-| [session.save_handler](igbinary.configuration.md#ini.igbinary.save-handler) | "files"     | PHP_INI_ALL | 
+| [session.save_handler](igbinary.configuration.md#ini.igbinary.save-handler) | "files"     | PHP_INI_ALL |
 
 **Параметри конфігурації сесії, що впливають на поведінку Igbinary**
 

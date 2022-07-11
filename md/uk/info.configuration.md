@@ -11,20 +11,20 @@
 
 | Ім'я За замовчуванням                                                        | Місце зміни | Список змін    |
 | ---------------------------------------------------------------------------- | ----------- | -------------- |
-| [assert.active](info.configuration.md#ini.assert.active)                     | "1"         | PHP_INI_ALL    | 
-| [assert.bail](info.configuration.md#ini.assert.bail)                         | "0"         | PHP_INI_ALL    | 
-| [assert.warning](info.configuration.md#ini.assert.warning)                   | "1"         | PHP_INI_ALL    | 
-| [assert.callback](info.configuration.md#ini.assert.callback)                 | NULL        | PHP_INI_ALL    | 
-| [assert.quiet_eval](info.configuration.md#ini.assert.quiet-eval)             | "0"         | PHP_INI_ALL    | 
-| [assert.exception](info.configuration.md#ini.assert.exception)               | "0"         | PHP_INI_ALL    | Доступна із версії PHP 7.0.0. 
-| [enable_dl](info.configuration.md#ini.enable-dl)                             | "1"         | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому. 
-| [max_execution_time](info.configuration.md#ini.max-execution-time)           | "30"        | PHP_INI_ALL    | 
-| [max_input_time](info.configuration.md#ini.max-input-time)                   | "-1"        | PHP_INI_PERDIR | 
-| [max_input_nesting_level](info.configuration.md#ini.max-input-nesting-level) | "64"        | PHP_INI_PERDIR | Доступна з PHP 5.2.3. 
-| [max_input_vars](info.configuration.md#ini.max-input-vars)                   | 1000        | PHP_INI_PERDIR | Доступна з PHP 5.3.9. 
-| [magic_quotes_gpc](info.configuration.md#ini.magic-quotes-gpc)               | "1"         | PHP_INI_PERDIR | Видалено в PHP 5.4.0. 
-| [magic_quotes_runtime](info.configuration.md#ini.magic-quotes-runtime)       | "0"         | PHP_INI_ALL    | Видалено в PHP 5.4.0. 
-| [zend.enable_gc](info.configuration.md#ini.zend.enable-gc)                   | "1"         | PHP_INI_ALL    | Доступна з PHP 5.3.0. 
+| [assert.active](info.configuration.md#ini.assert.active)                     | "1"         | PHP_INI_ALL    |
+| [assert.bail](info.configuration.md#ini.assert.bail)                         | "0"         | PHP_INI_ALL    |
+| [assert.warning](info.configuration.md#ini.assert.warning)                   | "1"         | PHP_INI_ALL    |
+| [assert.callback](info.configuration.md#ini.assert.callback)                 | NULL        | PHP_INI_ALL    |
+| [assert.quiet_eval](info.configuration.md#ini.assert.quiet-eval)             | "0"         | PHP_INI_ALL    |
+| [assert.exception](info.configuration.md#ini.assert.exception)               | "0"         | PHP_INI_ALL    | Доступна із версії PHP 7.0.0.
+| [enable_dl](info.configuration.md#ini.enable-dl)                             | "1"         | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому.
+| [max_execution_time](info.configuration.md#ini.max-execution-time)           | "30"        | PHP_INI_ALL    |
+| [max_input_time](info.configuration.md#ini.max-input-time)                   | "-1"        | PHP_INI_PERDIR |
+| [max_input_nesting_level](info.configuration.md#ini.max-input-nesting-level) | "64"        | PHP_INI_PERDIR | Доступна з PHP 5.2.3.
+| [max_input_vars](info.configuration.md#ini.max-input-vars)                   | 1000        | PHP_INI_PERDIR | Доступна з PHP 5.3.9.
+| [magic_quotes_gpc](info.configuration.md#ini.magic-quotes-gpc)               | "1"         | PHP_INI_PERDIR | Видалено в PHP 5.4.0.
+| [magic_quotes_runtime](info.configuration.md#ini.magic-quotes-runtime)       | "0"         | PHP_INI_ALL    | Видалено в PHP 5.4.0.
+| [zend.enable_gc](info.configuration.md#ini.zend.enable-gc)                   | "1"         | PHP_INI_ALL    | Доступна з PHP 5.3.0.
 
 **Налаштування PHP/Параметри конфігурації інформації**
 

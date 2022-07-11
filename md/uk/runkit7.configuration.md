@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                                              | Місце зміни | Список змін    |
 | ---------------------------------------------------------------------------------- | ----------- | -------------- |
-| [runkit.superglobal](runkit7.configuration.md#ini.runkit7.superglobal)             | ""          | PHP_INI_PERDIR | 
-| [runkit.internal_override](runkit7.configuration.md#ini.runkit7.internal-override) | "0"         | PHP_INI_SYSTEM | 
+| [runkit.superglobal](runkit7.configuration.md#ini.runkit7.superglobal)             | ""          | PHP_INI_PERDIR |
+| [runkit.internal_override](runkit7.configuration.md#ini.runkit7.internal-override) | "0"         | PHP_INI_SYSTEM |
 
 **Параметри конфігурації Runkit**
 

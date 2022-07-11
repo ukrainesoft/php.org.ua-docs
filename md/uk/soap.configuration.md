@@ -11,11 +11,11 @@
 
 | Ім'я За замовчуванням                                                        | Місце зміни | Список змін |
 | ---------------------------------------------------------------------------- | ----------- | ----------- |
-| [soap.wsdl_cache_enabled](soap.configuration.md#ini.soap.wsdl-cache-enabled) | 1           | PHP_INI_ALL | 
-| [soap.wsdl_cache_dir](soap.configuration.md#ini.soap.wsdl-cache-dir)         | /tmp        | PHP_INI_ALL | 
-| [soap.wsdl_cache_ttl](soap.configuration.md#ini.soap.wsdl-cache-ttl)         | 86400       | PHP_INI_ALL | 
-| [soap.wsdl_cache](soap.configuration.md#ini.soap.wsdl-cache)                 | 1           | PHP_INI_ALL | 
-| [soap.wsdl_cache_limit](soap.configuration.md#ini.soap.wsdl-cache-limit)     | 5           | PHP_INI_ALL | 
+| [soap.wsdl_cache_enabled](soap.configuration.md#ini.soap.wsdl-cache-enabled) | 1           | PHP_INI_ALL |
+| [soap.wsdl_cache_dir](soap.configuration.md#ini.soap.wsdl-cache-dir)         | /tmp        | PHP_INI_ALL |
+| [soap.wsdl_cache_ttl](soap.configuration.md#ini.soap.wsdl-cache-ttl)         | 86400       | PHP_INI_ALL |
+| [soap.wsdl_cache](soap.configuration.md#ini.soap.wsdl-cache)                 | 1           | PHP_INI_ALL |
+| [soap.wsdl_cache_limit](soap.configuration.md#ini.soap.wsdl-cache-limit)     | 5           | PHP_INI_ALL |
 
 **Опції налаштування SOAP**
 

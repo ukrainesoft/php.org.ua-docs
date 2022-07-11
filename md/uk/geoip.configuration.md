@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                                       | Місце зміни | Список змін |
 | --------------------------------------------------------------------------- | ----------- | ----------- |
-| [geoip.custom_directory](geoip.configuration.md#ini.geoip.custom-directory) | ""          | PHP_INI_ALL | 
+| [geoip.custom_directory](geoip.configuration.md#ini.geoip.custom-directory) | ""          | PHP_INI_ALL |
 
 **Опції налаштування GeoIP**
 

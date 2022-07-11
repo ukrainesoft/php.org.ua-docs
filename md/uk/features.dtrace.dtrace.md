@@ -33,17 +33,17 @@ DTrace у вашій операційній системі. Наприклад, 
 
 | Ім'я зонда Опис зонда Аргументи |
 | ------------------------------- |
-| `request-startup`               | Спрацьовує на початку запиту. | char \*`file`, char \*`request_uri`, char \*`request_method` 
-| `request-shutdown`              | Спрацьовує після закінчення запиту. | char \*`file`, char \*`request_uri`, char \*`request_method` 
-| `compile-file-entry`            | Спрацьовує коли починається компіляція скрипта. | char \*`compile_file`, char \*`compile_file_translated` 
-| `compile-file-return`           | Спрацьовує, коли закінчується компіляція скрипту. | char \*`compile_file`, char \*`compile_file_translated` 
-| `execute-entry`                 | Спрацьовує, коли запускається масив байт-коду. Наприклад, коли викликаються функції, відновлюється робота генератора чи відбувається include. | char \*`request_file`, int `lineno` 
-| `execute-return`                | Спрацьовує після відпрацювання масиву байт-коду. | char \*`request_file`, int `lineno` 
-| `function-entry`                | Спрацьовує, коли двигун PHP починає запуск функції або методу. | char \*`function_name`, char \*`request_file`, int `lineno`, char \*`classname`, char \*`scope` 
-| `function-return`               | Спрацьовує, коли двигун PHP повертається з функції або методу. | char \*`function_name`, char \*`request_file`, int `lineno`, char \*`classname`, char \*`scope` 
-| `exception-thrown`              | Спрацьовує, коли викинутий виняток. | char \*`classname` 
-| `exception-caught`              | Спрацьовує, коли виняток спіймано. | char \*`classname` 
-| `error`                         | Спрацьовує, якщо сталася помилка, незалежно від рівня [error_reporting](errorfunc.configuration.md#ini.error-reporting). | char \*`errormsg`, char \*`request_file`, int `lineno` 
+| `request-startup`               | Спрацьовує на початку запиту. | char \*`file`, char \*`request_uri`, char \*`request_method`
+| `request-shutdown`              | Спрацьовує після закінчення запиту. | char \*`file`, char \*`request_uri`, char \*`request_method`
+| `compile-file-entry`            | Спрацьовує коли починається компіляція скрипта. | char \*`compile_file`, char \*`compile_file_translated`
+| `compile-file-return`           | Спрацьовує, коли закінчується компіляція скрипту. | char \*`compile_file`, char \*`compile_file_translated`
+| `execute-entry`                 | Спрацьовує, коли запускається масив байт-коду. Наприклад, коли викликаються функції, відновлюється робота генератора чи відбувається include. | char \*`request_file`, int `lineno`
+| `execute-return`                | Спрацьовує після відпрацювання масиву байт-коду. | char \*`request_file`, int `lineno`
+| `function-entry`                | Спрацьовує, коли двигун PHP починає запуск функції або методу. | char \*`function_name`, char \*`request_file`, int `lineno`, char \*`classname`, char \*`scope`
+| `function-return`               | Спрацьовує, коли двигун PHP повертається з функції або методу. | char \*`function_name`, char \*`request_file`, int `lineno`, char \*`classname`, char \*`scope`
+| `exception-thrown`              | Спрацьовує, коли викинутий виняток. | char \*`classname`
+| `exception-caught`              | Спрацьовує, коли виняток спіймано. | char \*`classname`
+| `error`                         | Спрацьовує, якщо сталася помилка, незалежно від рівня [error_reporting](errorfunc.configuration.md#ini.error-reporting). | char \*`errormsg`, char \*`request_file`, int `lineno`
 
 **Наступні статичні зонди доступні в PHP**
 

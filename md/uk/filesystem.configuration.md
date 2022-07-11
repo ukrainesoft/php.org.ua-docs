@@ -11,13 +11,13 @@
 
 | Ім'я За замовчуванням                                                                | Місце зміни | Список змін    |
 | ------------------------------------------------------------------------------------ | ----------- | -------------- |
-| [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)                   | "1"         | PHP_INI_SYSTEM | 
-| [allow_url_include](filesystem.configuration.md#ini.allow-url-include)               | "0"         | PHP_INI_SYSTEM | Оголошена застаріла з версії PHP 7.4.0. 
-| [user_agent](filesystem.configuration.md#ini.user-agent)                             | NULL        | PHP_INI_ALL    | 
-| [default_socket_timeout](filesystem.configuration.md#ini.default-socket-timeout)     | "60"        | PHP_INI_ALL    | 
-| [from](filesystem.configuration.md#ini.from)                                         | ""          | PHP_INI_ALL    | 
-| [auto_detect_line_endings](filesystem.configuration.md#ini.auto-detect-line-endings) | "0"         | PHP_INI_ALL    | Оголошена застаріла з версії PHP 8.1.0. 
-| [sys_temp_dir](filesystem.configuration.md#ini.sys-temp-dir)                         | ""          | PHP_INI_SYSTEM | 
+| [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)                   | "1"         | PHP_INI_SYSTEM |
+| [allow_url_include](filesystem.configuration.md#ini.allow-url-include)               | "0"         | PHP_INI_SYSTEM | Оголошена застаріла з версії PHP 7.4.0.
+| [user_agent](filesystem.configuration.md#ini.user-agent)                             | NULL        | PHP_INI_ALL    |
+| [default_socket_timeout](filesystem.configuration.md#ini.default-socket-timeout)     | "60"        | PHP_INI_ALL    |
+| [from](filesystem.configuration.md#ini.from)                                         | ""          | PHP_INI_ALL    |
+| [auto_detect_line_endings](filesystem.configuration.md#ini.auto-detect-line-endings) | "0"         | PHP_INI_ALL    | Оголошена застаріла з версії PHP 8.1.0.
+| [sys_temp_dir](filesystem.configuration.md#ini.sys-temp-dir)                         | ""          | PHP_INI_SYSTEM |
 
 **Директиви конфігурації файлової системи та потоків**
 

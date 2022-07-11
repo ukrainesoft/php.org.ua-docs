@@ -51,17 +51,17 @@ array `$distinguished_names`,
 ключа `config` значенням шляху до нього. Відповідність ключів, зазначених у
 `options` ключам з `openssl.conf` представлено нижче.
 
-| Ключ `options` | Тип | Відповідність у `openssl.conf` | Опис |
-|--------------------|--------|-------------------- ------------|------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------------|
-| digest_alg | string | default_md | Один з методів [openssl_get_md_methods()](function.openssl-get-md-methods.md) |
-| x509_extensions | string | x509_extensions | Визначає, яке розширення має використовуватись для створення сертифіката x509 |
-| req_extensions | string | req_extensions | Визначає, яке розширення має використовуватися створення CSR |
-| private_key_bits | int | default_bits | Задає, скільки біт має використовуватись для генерації закритого ключа |
-| private_key_type | int | none | Задає тип закритого ключа, що створюється. Одна з констант: **`OPENSSL_KEYTYPE_DSA`**, **`OPENSSL_KEYTYPE_DH`**, **`OPENSSL_KEYTYPE_RSA`** або **`OPENSSL_KEYTYPE_EC`**. За промовчанням **`OPENSSL_KEYTYPE_RSA`**. |
-| encrypt_key | bool | encrypt_key | Чи повинен шифруватися (паролем) ключ, що експортується? |
-| encrypt_key_cipher | int | none | Один з [констант шифрів](openssl.ciphers.md). |
-| curve_name | string | none | Один з [openssl_get_curve_names()](function.openssl-get-curve-names.md). |
-| config | string | N/A | Шлях до альтернативного конфігураційного файлу openssl.conf. |
+| Ключ `options`     | Тип    | Відповідність у `openssl.conf` | Опис                                                                                                                                                                                                                |
+| ------------------ | ------ | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| digest_alg         | string | default_md                     | Один з методів [openssl_get_md_methods()](function.openssl-get-md-methods.md)                                                                                                                                       |
+| x509_extensions    | string | x509_extensions                | Визначає, яке розширення має використовуватись для створення сертифіката x509                                                                                                                                       |
+| req_extensions     | string | req_extensions                 | Визначає, яке розширення має використовуватися створення CSR                                                                                                                                                        |
+| private_key_bits   | int    | default_bits                   | Задає, скільки біт має використовуватись для генерації закритого ключа                                                                                                                                              |
+| private_key_type   | int    | none                           | Задає тип закритого ключа, що створюється. Одна з констант: **`OPENSSL_KEYTYPE_DSA`**, **`OPENSSL_KEYTYPE_DH`**, **`OPENSSL_KEYTYPE_RSA`** або **`OPENSSL_KEYTYPE_EC`**. За промовчанням **`OPENSSL_KEYTYPE_RSA`**. |
+| encrypt_key        | bool   | encrypt_key                    | Чи повинен шифруватися (паролем) ключ, що експортується?                                                                                                                                                            |
+| encrypt_key_cipher | int    | none                           | Один з [констант шифрів](openssl.ciphers.md).                                                                                                                                                                       |
+| curve_name         | string | none                           | Один з [openssl_get_curve_names()](function.openssl-get-curve-names.md).                                                                                                                                            |
+| config             | string | N/A                            | Шлях до альтернативного конфігураційного файлу openssl.conf.                                                                                                                                                        |
 
 **Перевизначення конфігурації**
 

@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                               | Місце зміни | Список змін    |
 | --------------------------------------------------- | ----------- | -------------- |
-| [ffi.enable](ffi.configuration.md#ini.ffi.enable)   | "Preload"   | PHP_INI_SYSTEM | 
-| [ffi.preload](ffi.configuration.md#ini.ffi.preload) | ""          | PHP_INI_SYSTEM | 
+| [ffi.enable](ffi.configuration.md#ini.ffi.enable)   | "Preload"   | PHP_INI_SYSTEM |
+| [ffi.preload](ffi.configuration.md#ini.ffi.preload) | ""          | PHP_INI_SYSTEM |
 
 **Опції налаштування FFI**
 

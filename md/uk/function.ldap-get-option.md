@@ -27,40 +27,40 @@ ldap_get_option — Отримати поточне значення цієї о
 `option`
 Опція `option` може бути однією з:
 
-| Опція | Тип | Починаючи з версії
-|-------------------------------------|--------|-- ----------------|
-| **`LDAP_OPT_DEREF`** | int | |
-| **`LDAP_OPT_SIZELIMIT`** | int | |
-| **`LDAP_OPT_TIMELIMIT`** | int | |
-| **`LDAP_OPT_NETWORK_TIMEOUT`** | int | |
-| **`LDAP_OPT_PROTOCOL_VERSION`** | int | |
-| **`LDAP_OPT_ERROR_NUMBER`** | int | |
-| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`** | int | |
-| **`LDAP_OPT_REFERRALS`** | int | |
-| **`LDAP_OPT_RESTART`** | int | |
-| **`LDAP_OPT_HOST_NAME`** | string | |
-| **`LDAP_OPT_ERROR_STRING`** | string | |
-| **`LDAP_OPT_MATCHED_DN`** | string | |
-| **`LDAP_OPT_SERVER_CONTROLS`** | array | |
-| **`LDAP_OPT_CLIENT_CONTROLS`** | array | |
-| **`LDAP_OPT_X_KEEPALIVE_IDLE`** | int | 7.1 |
-| **`LDAP_OPT_X_KEEPALIVE_PROBES`** | int | 7.1 |
-| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_CACERTDIR`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_CACERTFILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_CERTFILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_CIPHER_SUITE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_CRLCHECK`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_CRL_NONE`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_CRL_PEER`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_CRL_ALL`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_CRLFILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_DHFILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_KEYFILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_PACKAGE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`** | int | 7.1 |
-| **`LDAP_OPT_X_TLS_RANDOM_FILE`** | string | 7.1 |
-| **`LDAP_OPT_X_TLS_REQUIRE_CERT`** | int | |
+| Опція                               | Тип    | Починаючи з версії |
+| ----------------------------------- | ------ | ------------------ |
+| **`LDAP_OPT_DEREF`**                | int    |                    |
+| **`LDAP_OPT_SIZELIMIT`**            | int    |                    |
+| **`LDAP_OPT_TIMELIMIT`**            | int    |                    |
+| **`LDAP_OPT_NETWORK_TIMEOUT`**      | int    |                    |
+| **`LDAP_OPT_PROTOCOL_VERSION`**     | int    |                    |
+| **`LDAP_OPT_ERROR_NUMBER`**         | int    |                    |
+| **`LDAP_OPT_DIAGNOSTIC_MESSAGE`**   | int    |                    |
+| **`LDAP_OPT_REFERRALS`**            | int    |                    |
+| **`LDAP_OPT_RESTART`**              | int    |                    |
+| **`LDAP_OPT_HOST_NAME`**            | string |                    |
+| **`LDAP_OPT_ERROR_STRING`**         | string |                    |
+| **`LDAP_OPT_MATCHED_DN`**           | string |                    |
+| **`LDAP_OPT_SERVER_CONTROLS`**      | array  |                    |
+| **`LDAP_OPT_CLIENT_CONTROLS`**      | array  |                    |
+| **`LDAP_OPT_X_KEEPALIVE_IDLE`**     | int    | 7.1                |
+| **`LDAP_OPT_X_KEEPALIVE_PROBES`**   | int    | 7.1                |
+| **`LDAP_OPT_X_KEEPALIVE_INTERVAL`** | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_CACERTDIR`**      | string | 7.1                |
+| **`LDAP_OPT_X_TLS_CACERTFILE`**     | string | 7.1                |
+| **`LDAP_OPT_X_TLS_CERTFILE`**       | string | 7.1                |
+| **`LDAP_OPT_X_TLS_CIPHER_SUITE`**   | string | 7.1                |
+| **`LDAP_OPT_X_TLS_CRLCHECK`**       | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_CRL_NONE`**       | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_CRL_PEER`**       | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_CRL_ALL`**        | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_CRLFILE`**        | string | 7.1                |
+| **`LDAP_OPT_X_TLS_DHFILE`**         | string | 7.1                |
+| **`LDAP_OPT_X_TLS_KEYFILE`**        | string | 7.1                |
+| **`LDAP_OPT_X_TLS_PACKAGE`**        | string | 7.1                |
+| **`LDAP_OPT_X_TLS_PROTOCOL_MIN`**   | int    | 7.1                |
+| **`LDAP_OPT_X_TLS_RANDOM_FILE`**    | string | 7.1                |
+| **`LDAP_OPT_X_TLS_REQUIRE_CERT`**   | int    |                    |
 
 `value`
 Буде встановлено значення опції.

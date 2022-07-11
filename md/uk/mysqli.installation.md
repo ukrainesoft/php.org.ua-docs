@@ -38,8 +38,8 @@ ext/mysqli, та pdo_mysql. У CentOS пакет `php-mysql` також вста
 
 | Версія PHP За замовчуванням | Опції налаштування: [mysqlnd](mysqlnd.overview.md) | Опції налаштування: `libmysqlclient` | Список змін                                 |
 | --------------------------- | -------------------------------------------------- | ------------------------------------ | ------------------------------------------- |
-| 5.4.x та вище               | mysqlnd                                            | **--with-mysqli**                    | **--with-mysqliu003d/path/to/mysql_config** | за промовчанням mysqlnd 
-| 5.3.x                       | libmysqlclient                                     | **--with-mysqliu003dmysqlnd**        | **--with-mysqliu003d/path/to/mysql_config** | mysqlnd підтримується 
+| 5.4.x та вище               | mysqlnd                                            | **--with-mysqli**                    | **--with-mysqliu003d/path/to/mysql_config** | за промовчанням mysqlnd
+| 5.3.x                       | libmysqlclient                                     | **--with-mysqliu003dmysqlnd**        | **--with-mysqliu003d/path/to/mysql_config** | mysqlnd підтримується
 | 5.0.x, 5.1.x, 5.2.x         | libmysqlclient                                     | Недоступний                          | **--with-mysqliu003d/path/to/mysql_config** | mysqlnd не підтримується
 
 **Допоміжна таблиця часу компіляції mysqli**

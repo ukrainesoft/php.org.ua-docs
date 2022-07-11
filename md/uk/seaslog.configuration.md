@@ -11,30 +11,30 @@
 
 | Ім'я За замовчуванням                                                                           | Місце зміни                      | Список змін    |
 | ----------------------------------------------------------------------------------------------- | -------------------------------- | -------------- |
-| [seaslog.appender](seaslog.configuration.md#ini.seaslog.appender)                               | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.appender_retry](seaslog.configuration.md#ini.seaslog.appender-retry)                   | 0                                | PHP_INI_ALL    | 
-| [seaslog.level](seaslog.configuration.md#ini.seaslog.level)                                     | 8                                | PHP_INI_ALL    | 
-| [seaslog.remote_host](seaslog.configuration.md#ini.seaslog.remote-host)                         | 127.0.0.1                        | PHP_INI_ALL    | 
-| [seaslog.remote_port](seaslog.configuration.md#ini.seaslog.remote-port)                         | 514                              | PHP_INI_ALL    | 
-| [seaslog.remote_timeout](seaslog.configuration.md#ini.seaslog.remote-timeout)                   | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.default_basepath](seaslog.configuration.md#ini.seaslog.default-basepath)               | /var/log/www                     | PHP_INI_SYSTEM | 
-| [seaslog.default_logger](seaslog.configuration.md#ini.seaslog.default-logger)                   | default                          | PHP_INI_SYSTEM | 
-| [seaslog.default_template](seaslog.configuration.md#ini.seaslog.default-template)               | %T \| %L \| %P \| %Q \| %t \| %M | PHP_INI_SYSTEM | 
-| [seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format) | Y-m-d H: i: s                    | PHP_INI_SYSTEM | 
-| [seaslog.trace_error](seaslog.configuration.md#ini.seaslog.trace-error)                         | 1                                | PHP_INI_ALL    | 
-| [seaslog.trace_exception](seaslog.configuration.md#ini.seaslog.trace-exception)                 | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.trace_notice](seaslog.configuration.md#ini.seaslog.trace-notice)                       | 0                                | PHP_INI_ALL    | 
-| [seaslog.trace_warning](seaslog.configuration.md#ini.seaslog.trace-warning)                     | 0                                | PHP_INI_ALL    | 
-| [seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)                           | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.buffer_size](seaslog.configuration.md#ini.seaslog.buffer-size)                         | 0                                | PHP_INI_ALL    | 
-| [seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)   | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_type](seaslog.configuration.md#ini.seaslog.disting-type)                       | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_folder](seaslog.configuration.md#ini.seaslog.disting-folder)                   | 1                                | PHP_INI_SYSTEM | 
-| [seaslog.disting_by_hour](seaslog.configuration.md#ini.seaslog.disting-by-hour)                 | 0                                | PHP_INI_SYSTEM | 
-| [seaslog.recall_depth](seaslog.configuration.md#ini.seaslog.recall-depth)                       | 0                                | PHP_INI_ALL    | 
-| [seaslog.trim_wrap](seaslog.configuration.md#ini.seaslog.trim-wrap)                             | 0                                | PHP_INI_ALL    | 
-| [seaslog.ignore_warning](seaslog.configuration.md#ini.seaslog.ignore-warning)                   | 1                                | PHP_INI_ALL    | 
-| [seaslog.throw_exception](seaslog.configuration.md#ini.seaslog.throw-exception)                 | 1                                | PHP_INI_ALL    | 
+| [seaslog.appender](seaslog.configuration.md#ini.seaslog.appender)                               | 1                                | PHP_INI_SYSTEM |
+| [seaslog.appender_retry](seaslog.configuration.md#ini.seaslog.appender-retry)                   | 0                                | PHP_INI_ALL    |
+| [seaslog.level](seaslog.configuration.md#ini.seaslog.level)                                     | 8                                | PHP_INI_ALL    |
+| [seaslog.remote_host](seaslog.configuration.md#ini.seaslog.remote-host)                         | 127.0.0.1                        | PHP_INI_ALL    |
+| [seaslog.remote_port](seaslog.configuration.md#ini.seaslog.remote-port)                         | 514                              | PHP_INI_ALL    |
+| [seaslog.remote_timeout](seaslog.configuration.md#ini.seaslog.remote-timeout)                   | 1                                | PHP_INI_SYSTEM |
+| [seaslog.default_basepath](seaslog.configuration.md#ini.seaslog.default-basepath)               | /var/log/www                     | PHP_INI_SYSTEM |
+| [seaslog.default_logger](seaslog.configuration.md#ini.seaslog.default-logger)                   | default                          | PHP_INI_SYSTEM |
+| [seaslog.default_template](seaslog.configuration.md#ini.seaslog.default-template)               | %T \| %L \| %P \| %Q \| %t \| %M | PHP_INI_SYSTEM |
+| [seaslog.default_datetime_format](seaslog.configuration.md#ini.seaslog.default-datetime-format) | Y-m-d H: i: s                    | PHP_INI_SYSTEM |
+| [seaslog.trace_error](seaslog.configuration.md#ini.seaslog.trace-error)                         | 1                                | PHP_INI_ALL    |
+| [seaslog.trace_exception](seaslog.configuration.md#ini.seaslog.trace-exception)                 | 0                                | PHP_INI_SYSTEM |
+| [seaslog.trace_notice](seaslog.configuration.md#ini.seaslog.trace-notice)                       | 0                                | PHP_INI_ALL    |
+| [seaslog.trace_warning](seaslog.configuration.md#ini.seaslog.trace-warning)                     | 0                                | PHP_INI_ALL    |
+| [seaslog.use_buffer](seaslog.configuration.md#ini.seaslog.use-buffer)                           | 0                                | PHP_INI_SYSTEM |
+| [seaslog.buffer_size](seaslog.configuration.md#ini.seaslog.buffer-size)                         | 0                                | PHP_INI_ALL    |
+| [seaslog.buffer_disabled_in_cli](seaslog.configuration.md#ini.seaslog.buffer-disabled-in-cli)   | 0                                | PHP_INI_SYSTEM |
+| [seaslog.disting_type](seaslog.configuration.md#ini.seaslog.disting-type)                       | 0                                | PHP_INI_SYSTEM |
+| [seaslog.disting_folder](seaslog.configuration.md#ini.seaslog.disting-folder)                   | 1                                | PHP_INI_SYSTEM |
+| [seaslog.disting_by_hour](seaslog.configuration.md#ini.seaslog.disting-by-hour)                 | 0                                | PHP_INI_SYSTEM |
+| [seaslog.recall_depth](seaslog.configuration.md#ini.seaslog.recall-depth)                       | 0                                | PHP_INI_ALL    |
+| [seaslog.trim_wrap](seaslog.configuration.md#ini.seaslog.trim-wrap)                             | 0                                | PHP_INI_ALL    |
+| [seaslog.ignore_warning](seaslog.configuration.md#ini.seaslog.ignore-warning)                   | 1                                | PHP_INI_ALL    |
+| [seaslog.throw_exception](seaslog.configuration.md#ini.seaslog.throw-exception)                 | 1                                | PHP_INI_ALL    |
 
 **Опції налаштування Seaslog**
 

@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                | Місце зміни | Список змін    |
 | ---------------------------------------------------- | ----------- | -------------- |
-| [curl.cainfo](curl.configuration.md#ini.curl.cainfo) | NULL        | PHP_INI_SYSTEM | 
+| [curl.cainfo](curl.configuration.md#ini.curl.cainfo) | NULL        | PHP_INI_SYSTEM |
 
 **Налаштування конфігурації cURL**
 

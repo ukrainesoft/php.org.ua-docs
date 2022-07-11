@@ -11,11 +11,11 @@
 
 | Ім'я За замовчуванням                                                                                     | Місце зміни           | Список змін |
 | --------------------------------------------------------------------------------------------------------- | --------------------- | ----------- |
-| [stomp.default_broker](stomp.configuration.md#ini.stomp.default-broker)                                   | tcp://localhost:61613 | PHP_INI_ALL | 
-| [stomp.default_connection_timeout_sec](stomp.configuration.md#ini.stomp.default-connection-timeout-sec)   | 2                     | PHP_INI_ALL | 
-| [stomp.default_connection_timeout_usec](stomp.configuration.md#ini.stomp.default-connection-timeout-usec) | 0                     | PHP_INI_ALL | 
-| [stomp.default_read_timeout_sec](stomp.configuration.md#ini.stomp.default-read-timeout-sec)               | 2                     | PHP_INI_ALL | 
-| [stomp.default_read_timeout_usec](stomp.configuration.md#ini.stomp.default-read-timeout-usec)             | 0                     | PHP_INI_ALL | 
+| [stomp.default_broker](stomp.configuration.md#ini.stomp.default-broker)                                   | tcp://localhost:61613 | PHP_INI_ALL |
+| [stomp.default_connection_timeout_sec](stomp.configuration.md#ini.stomp.default-connection-timeout-sec)   | 2                     | PHP_INI_ALL |
+| [stomp.default_connection_timeout_usec](stomp.configuration.md#ini.stomp.default-connection-timeout-usec) | 0                     | PHP_INI_ALL |
+| [stomp.default_read_timeout_sec](stomp.configuration.md#ini.stomp.default-read-timeout-sec)               | 2                     | PHP_INI_ALL |
+| [stomp.default_read_timeout_usec](stomp.configuration.md#ini.stomp.default-read-timeout-usec)             | 0                     | PHP_INI_ALL |
 
 **Опції налаштування**
 

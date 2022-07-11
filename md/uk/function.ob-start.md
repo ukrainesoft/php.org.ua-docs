@@ -110,9 +110,9 @@ handler(string `$buffer`, int `$phase` u003d ?): string
 
 | Константа Функції                  |
 | ---------------------------------- |
-| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob_clean()](function.ob-clean.md), [ob_end_clean()](function.ob-end-clean.md) та [ob_get_clean()](function.ob-get-clean.md). 
-| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob_end_flush()](function.ob-end-flush.md), [ob_flush()](function.ob-flush.md) та [ob_get_flush()](function.ob-get-flush.md). 
-| **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [ob_end_clean()](function.ob-end-clean.md), [ob_end_flush()](function.ob-end-flush.md) та [ob_get_flush()](function.ob-get-flush.md) . 
+| **`PHP_OUTPUT_HANDLER_CLEANABLE`** | [ob_clean()](function.ob-clean.md), [ob_end_clean()](function.ob-end-clean.md) та [ob_get_clean()](function.ob-get-clean.md).
+| **`PHP_OUTPUT_HANDLER_FLUSHABLE`** | [ob_end_flush()](function.ob-end-flush.md), [ob_flush()](function.ob-flush.md) та [ob_get_flush()](function.ob-get-flush.md).
+| **`PHP_OUTPUT_HANDLER_REMOVABLE`** | [ob_end_clean()](function.ob-end-clean.md), [ob_end_flush()](function.ob-end-flush.md) та [ob_get_flush()](function.ob-get-flush.md) .
 
 ### Значення, що повертаються
 

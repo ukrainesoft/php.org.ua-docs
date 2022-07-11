@@ -11,8 +11,8 @@
 
 | Ім'я За замовчуванням                                                       | Місце зміни | Список змін    |
 | --------------------------------------------------------------------------- | ----------- | -------------- |
-| [sqlite3.extension_dir](sqlite3.configuration.md#ini.sqlite3.extension-dir) | ""          | PHP_INI_SYSTEM | 
-| [sqlite3.defensive](sqlite3.configuration.md#ini.sqlite3.defensive)         | 1           | PHP_INI_SYSTEM | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0. 
+| [sqlite3.extension_dir](sqlite3.configuration.md#ini.sqlite3.extension-dir) | ""          | PHP_INI_SYSTEM |
+| [sqlite3.defensive](sqlite3.configuration.md#ini.sqlite3.defensive)         | 1           | PHP_INI_SYSTEM | Доступно з PHP 7.2.17 та 7.3.4 для libsqlite ≥ 3.26.0.
 
 **Опції налаштування SQLite3**
 

@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                                         | Місце зміни | Список змін    |
 | ----------------------------------------------------------------------------- | ----------- | -------------- |
-| [mailparse.def_charset](mailparse.configuration.md#ini.mailparse.def_charset) | "us-ascii"  | PHP_INI_SYSTEM | 
+| [mailparse.def_charset](mailparse.configuration.md#ini.mailparse.def_charset) | "us-ascii"  | PHP_INI_SYSTEM |
 
 **Опції налаштування Mailparse**
 

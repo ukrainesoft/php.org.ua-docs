@@ -11,26 +11,26 @@
 
 | Ім'я За замовчуванням                                                           | Місце зміни | Список змін    |
 | ------------------------------------------------------------------------------- | ----------- | -------------- |
-| [error_reporting](errorfunc.configuration.md#ini.error-reporting)               | NULL        | PHP_INI_ALL    | 
-| [display_errors](errorfunc.configuration.md#ini.display-errors)                 | "1"         | PHP_INI_ALL    | 
-| [display_startup_errors](errorfunc.configuration.md#ini.display-startup-errors) | "1"         | PHP_INI_ALL    | До PHP 8.0.0 значення за промовчанням було "0". 
-| [log_errors](errorfunc.configuration.md#ini.log-errors)                         | "0"         | PHP_INI_ALL    | 
-| [log_errors_max_len](errorfunc.configuration.md#ini.log-errors-max-len)         | "1024"      | PHP_INI_ALL    | 
-| [ignore_repeated_errors](errorfunc.configuration.md#ini.ignore-repeated-errors) | "0"         | PHP_INI_ALL    | 
-| [ignore_repeated_source](errorfunc.configuration.md#ini.ignore-repeated-source) | "0"         | PHP_INI_ALL    | 
-| [report_memleaks](errorfunc.configuration.md#ini.report-memleaks)               | "1"         | PHP_INI_ALL    | 
-| [track_errors](errorfunc.configuration.md#ini.track-errors)                     | "0"         | PHP_INI_ALL    | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0. 
-| [html_errors](errorfunc.configuration.md#ini.md-errors)                         | "1"         | PHP_INI_ALL    | 
-| [xmlrpc_errors](errorfunc.configuration.md#ini.xmlrpc-errors)                   | "0"         | PHP_INI_SYSTEM | 
-| [xmlrpc_error_number](errorfunc.configuration.md#ini.xmlrpc-error-number)       | "0"         | PHP_INI_ALL    | 
-| [docref_root](errorfunc.configuration.md#ini.docref-root)                       | ""          | PHP_INI_ALL    | 
-| [docref_ext](errorfunc.configuration.md#ini.docref-ext)                         | ""          | PHP_INI_ALL    | 
-| [error_prepend_string](errorfunc.configuration.md#ini.error-prepend-string)     | NULL        | PHP_INI_ALL    | 
-| [error_append_string](errorfunc.configuration.md#ini.error-append-string)       | NULL        | PHP_INI_ALL    | 
-| [error_log](errorfunc.configuration.md#ini.error-log)                           | NULL        | PHP_INI_ALL    | 
-| [syslog.facility](errorfunc.configuration.md#ini.syslog.facility)               | "LOG_USER"  | PHP_INI_SYSTEM | Доступно з PHP 7.3.0. 
-| [syslog.filter](errorfunc.configuration.md#ini.syslog.filter)                   | "no-ctrl"   | PHP_INI_ALL    | Доступно з PHP 7.3.0. 
-| [syslog.ident](errorfunc.configuration.md#ini.syslog.ident)                     | "php"       | PHP_INI_SYSTEM | Доступно з PHP 7.3.0. 
+| [error_reporting](errorfunc.configuration.md#ini.error-reporting)               | NULL        | PHP_INI_ALL    |
+| [display_errors](errorfunc.configuration.md#ini.display-errors)                 | "1"         | PHP_INI_ALL    |
+| [display_startup_errors](errorfunc.configuration.md#ini.display-startup-errors) | "1"         | PHP_INI_ALL    | До PHP 8.0.0 значення за промовчанням було "0".
+| [log_errors](errorfunc.configuration.md#ini.log-errors)                         | "0"         | PHP_INI_ALL    |
+| [log_errors_max_len](errorfunc.configuration.md#ini.log-errors-max-len)         | "1024"      | PHP_INI_ALL    |
+| [ignore_repeated_errors](errorfunc.configuration.md#ini.ignore-repeated-errors) | "0"         | PHP_INI_ALL    |
+| [ignore_repeated_source](errorfunc.configuration.md#ini.ignore-repeated-source) | "0"         | PHP_INI_ALL    |
+| [report_memleaks](errorfunc.configuration.md#ini.report-memleaks)               | "1"         | PHP_INI_ALL    |
+| [track_errors](errorfunc.configuration.md#ini.track-errors)                     | "0"         | PHP_INI_ALL    | Оголошено застарілим у PHP 7.2.0, видалено у PHP 8.0.0.
+| [html_errors](errorfunc.configuration.md#ini.md-errors)                         | "1"         | PHP_INI_ALL    |
+| [xmlrpc_errors](errorfunc.configuration.md#ini.xmlrpc-errors)                   | "0"         | PHP_INI_SYSTEM |
+| [xmlrpc_error_number](errorfunc.configuration.md#ini.xmlrpc-error-number)       | "0"         | PHP_INI_ALL    |
+| [docref_root](errorfunc.configuration.md#ini.docref-root)                       | ""          | PHP_INI_ALL    |
+| [docref_ext](errorfunc.configuration.md#ini.docref-ext)                         | ""          | PHP_INI_ALL    |
+| [error_prepend_string](errorfunc.configuration.md#ini.error-prepend-string)     | NULL        | PHP_INI_ALL    |
+| [error_append_string](errorfunc.configuration.md#ini.error-append-string)       | NULL        | PHP_INI_ALL    |
+| [error_log](errorfunc.configuration.md#ini.error-log)                           | NULL        | PHP_INI_ALL    |
+| [syslog.facility](errorfunc.configuration.md#ini.syslog.facility)               | "LOG_USER"  | PHP_INI_SYSTEM | Доступно з PHP 7.3.0.
+| [syslog.filter](errorfunc.configuration.md#ini.syslog.filter)                   | "no-ctrl"   | PHP_INI_ALL    | Доступно з PHP 7.3.0.
+| [syslog.ident](errorfunc.configuration.md#ini.syslog.ident)                     | "php"       | PHP_INI_SYSTEM | Доступно з PHP 7.3.0.
 
 **Налаштування конфігурації протоколювання подій та помилок**
 

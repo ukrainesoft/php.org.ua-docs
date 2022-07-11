@@ -11,16 +11,16 @@
 
 | Ім'я За замовчуванням                                                                                    | Місце зміни                        | Список змін    |
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------- | -------------- |
-| [mbstring.language](mbstring.configuration.md#ini.mbstring.language)                                     | "neutral"                          | PHP_INI_ALL    | 
-| [mbstring.detect_order](mbstring.configuration.md#ini.mbstring.detect-order)                             | NULL                               | PHP_INI_ALL    | 
-| [mbstring.http_input](mbstring.configuration.md#ini.mbstring.http-input)                                 | "pass"                             | PHP_INI_ALL    | Застаріла 
-| [mbstring.http_output](mbstring.configuration.md#ini.mbstring.http-output)                               | "pass"                             | PHP_INI_ALL    | Застаріла 
-| [mbstring.internal_encoding](mbstring.configuration.md#ini.mbstring.internal-encoding)                   | NULL                               | PHP_INI_ALL    | Застаріла 
-| [mbstring.substitute_character](mbstring.configuration.md#ini.mbstring.substitute-character)             | NULL                               | PHP_INI_ALL    | 
-| [mbstring.func_overload](mbstring.configuration.md#ini.mbstring.func-overload)                           | "0"                                | PHP_INI_SYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0. 
-| [mbstring.encoding_translation](mbstring.configuration.md#ini.mbstring.encoding-translation)             | "0"                                | PHP_INI_PERDIR | 
-| [mbstring.http_output_conv_mimetypes](mbstring.configuration.md#ini.mbstring.http-output-conv-mimetypes) | "^(text/\|application/xhtml\+xml)" | PHP_INI_ALL    | 
-| [mbstring.strict_detection](mbstring.configuration.md#ini.mbstring.strict-detection)                     | "0"                                | PHP_INI_ALL    | 
+| [mbstring.language](mbstring.configuration.md#ini.mbstring.language)                                     | "neutral"                          | PHP_INI_ALL    |
+| [mbstring.detect_order](mbstring.configuration.md#ini.mbstring.detect-order)                             | NULL                               | PHP_INI_ALL    |
+| [mbstring.http_input](mbstring.configuration.md#ini.mbstring.http-input)                                 | "pass"                             | PHP_INI_ALL    | Застаріла
+| [mbstring.http_output](mbstring.configuration.md#ini.mbstring.http-output)                               | "pass"                             | PHP_INI_ALL    | Застаріла
+| [mbstring.internal_encoding](mbstring.configuration.md#ini.mbstring.internal-encoding)                   | NULL                               | PHP_INI_ALL    | Застаріла
+| [mbstring.substitute_character](mbstring.configuration.md#ini.mbstring.substitute-character)             | NULL                               | PHP_INI_ALL    |
+| [mbstring.func_overload](mbstring.configuration.md#ini.mbstring.func-overload)                           | "0"                                | PHP_INI_SYSTEM | Оголошено застарілим у PHP 7.2.0; видалено з PHP 8.0.0.
+| [mbstring.encoding_translation](mbstring.configuration.md#ini.mbstring.encoding-translation)             | "0"                                | PHP_INI_PERDIR |
+| [mbstring.http_output_conv_mimetypes](mbstring.configuration.md#ini.mbstring.http-output-conv-mimetypes) | "^(text/\|application/xhtml\+xml)" | PHP_INI_ALL    |
+| [mbstring.strict_detection](mbstring.configuration.md#ini.mbstring.strict-detection)                     | "0"                                | PHP_INI_ALL    |
 
 **Опції конфігурації mbstring**
 

@@ -33,21 +33,21 @@
 >
 > ` <?php// До PHP 7.4.0 значення T_FN не визначено.defined('T_FN') || define('T_FN', 10001); `
 
-| Мітка | Синтаксис Посилання |
-|------------------------------------------------- |------------------------------|------------------ -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------|
-| **`T_ABSTRACT`** | abstract | [Абстрактні класи](language.oop5.abstract.md) |
-| **`T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG`** | & | [Оголошення типів](language.types.declarations.md) (доступно, починаючи з PHP 8.1.0) |
-| **`T_AMPERSAND_NOT_FOLLOWED_BY_VAR_OR_VARARG`** | & | [Оголошення типів](language.types.declarations.md) (доступно, починаючи з PHP 8.1.0) |
-| **`T_AND_EQUAL`** | &u003d | [оператори привласнення](language.operators.assignment.md) |
-| **`T_ARRAY`** | array() | [array()](function.array.md), [синтаксис масиву](language.types.array.md#language.types.array.syntax) |
-| **`T_ARRAY_CAST`** | (Array) | [Приведення типу](language.types.type-juggling.md#language.types.typecasting) |
-| **`T_AS`** | як | [foreach](control-structures.foreach.md) |
-| **`T_ATTRIBUTE`** | #[ | [attributes](language.attributes.md) (доступно з PHP 8.0.0) |
-| **`T_BAD_CHARACTER`** | | все, що нижче за ASCII 32 виключаючи (0x09),
+| Мітка                                           | Синтаксис Посилання |
+| ----------------------------------------------- | ------------------- |
+| **`T_ABSTRACT`**                                | abstract            | [Абстрактні класи](language.oop5.abstract.md)
+| **`T_AMPERSAND_FOLLOWED_BY_VAR_OR_VARARG`**     | &                   | [Оголошення типів](language.types.declarations.md) (доступно, починаючи з PHP 8.1.0)
+| **`T_AMPERSAND_NOT_FOLLOWED_BY_VAR_OR_VARARG`** | &                   | [Оголошення типів](language.types.declarations.md) (доступно, починаючи з PHP 8.1.0)
+| **`T_AND_EQUAL`**                               | &u003d              | [оператори привласнення](language.operators.assignment.md)
+| **`T_ARRAY`**                                   | array()             | [array()](function.array.md), [синтаксис масиву](language.types.array.md#language.types.array.syntax)
+| **`T_ARRAY_CAST`**                              | (Array)             | [Приведення типу](language.types.type-juggling.md#language.types.typecasting)
+| **`T_AS`**                                      | як                  | [foreach](control-structures.foreach.md)
+| **`T_ATTRIBUTE`**                               | #[                  | [attributes](language.attributes.md) (доступно з PHP 8.0.0)
+| **`T_BAD_CHARACTER`**                           |                     | все, що нижче за ASCII 32 виключаючи (0x09),
  (0x0a) та
  (0x0d) (доступно з PHP 7.4.0) |
 | **`T_BOOLEAN_AND`**              | &&                                                                                                                                                                                                 | [логічні оператори](language.operators.logical.md)                                                             |
-| *------------------------------* | \------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| | [------------------------------------------------------------------------------------------------------------) |
+| *------------------------------* | \------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | u------------------------------------------------------------------------------------------------------------- |
 | **`T_BOOL_CAST`**                | (bool) або (boolean)                                                                                                                                                                               | [Приведення типу](language.types.type-juggling.md#language.types.typecasting)                                  |
 | **`T_BREAK`**                    | break                                                                                                                                                                                              | [break](control-structures.break.md)                                                                           |
 | **`T_CALLABLE`**                 | callable                                                                                                                                                                                           | [callable](language.types.callable.md)                                                                         |

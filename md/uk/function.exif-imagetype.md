@@ -39,26 +39,26 @@ exif_imagetype — Визначте type of an image
 Наступні певні константи представляють можливі повертання
 значення функції **exif_imagetype()**:
 
-| Значення | Константа
-|----------|-------------------------------------- -----------|
-| 1 | **`IMAGETYPE_GIF`** |
-| 2 | **`IMAGETYPE_JPEG`** |
-| 3 | **`IMAGETYPE_PNG`** |
-| 4 | **`IMAGETYPE_SWF`** |
-| 5 | **`IMAGETYPE_PSD`** |
-| 6 | **`IMAGETYPE_BMP`** |
-| 7 | **`IMAGETYPE_TIFF_II`** (порядок байт intel) |
-| 8 | **`IMAGETYPE_TIFF_MM`** (порядок байт motorola) |
-| 9 | **`IMAGETYPE_JPC`** |
-| 10 | **`IMAGETYPE_JP2`** |
-| 11 | **`IMAGETYPE_JPX`** |
-| 12 | **`IMAGETYPE_JB2`** |
-| 13 | **`IMAGETYPE_SWC`** |
-| 14 | **`IMAGETYPE_IFF`** |
-| 15 | **`IMAGETYPE_WBMP`** |
-| 16 | **`IMAGETYPE_XBM`** |
-| 17 | **`IMAGETYPE_ICO`** |
-| 18 | **`IMAGETYPE_WEBP`** |
+| Значення | Константа                                       |
+| -------- | ----------------------------------------------- |
+| 1        | **`IMAGETYPE_GIF`**                             |
+| 2        | **`IMAGETYPE_JPEG`**                            |
+| 3        | **`IMAGETYPE_PNG`**                             |
+| 4        | **`IMAGETYPE_SWF`**                             |
+| 5        | **`IMAGETYPE_PSD`**                             |
+| 6        | **`IMAGETYPE_BMP`**                             |
+| 7        | **`IMAGETYPE_TIFF_II`** (порядок байт intel)    |
+| 8        | **`IMAGETYPE_TIFF_MM`** (порядок байт motorola) |
+| 9        | **`IMAGETYPE_JPC`**                             |
+| 10       | **`IMAGETYPE_JP2`**                             |
+| 11       | **`IMAGETYPE_JPX`**                             |
+| 12       | **`IMAGETYPE_JB2`**                             |
+| 13       | **`IMAGETYPE_SWC`**                             |
+| 14       | **`IMAGETYPE_IFF`**                             |
+| 15       | **`IMAGETYPE_WBMP`**                            |
+| 16       | **`IMAGETYPE_XBM`**                             |
+| 17       | **`IMAGETYPE_ICO`**                             |
+| 18       | **`IMAGETYPE_WEBP`**                            |
 
 **Константи Imagetype**
 

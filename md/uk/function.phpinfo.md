@@ -42,13 +42,13 @@ phpinfo — Виводить інформацію про поточну конф
 | Ім'я (константа) Значення | Опис |
 | ------------------------- | ---- |
 | INFO_GENERAL              | 1    | Рядок конфігурації, розташування `php.ini`, дата складання, сервер, система та ін.
-| INFO_CREDITS              | 2    | Розробники PHP. Також дивіться [phpcredits()](function.phpcredits.md). 
-| INFO_CONFIGURATION        | 4    | Поточні значення основних та локальних PHP директив. Також дивіться [ini_get()](function.ini-get.md). 
-| INFO_MODULES              | 8    | Завантажені модулі та їх налаштування. Дивіться також [get_loaded_extensions()](function.get-loaded-extensions.md). 
-| INFO_ENVIRONMENT          | 16   | Інформація про змінні оточення, яка також доступна в `$_ENV`. 
-| INFO_VARIABLES            | 32   | Виводить всі [передбачені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server). 
-| INFO_LICENSE              | 64   | Інформація про ліцензію PHP. Дивіться також [»license FAQ](https://www.php.net/license/). 
-| INFO_ALL                  | -1   | Виводить все наведене вище. 
+| INFO_CREDITS              | 2    | Розробники PHP. Також дивіться [phpcredits()](function.phpcredits.md).
+| INFO_CONFIGURATION        | 4    | Поточні значення основних та локальних PHP директив. Також дивіться [ini_get()](function.ini-get.md).
+| INFO_MODULES              | 8    | Завантажені модулі та їх налаштування. Дивіться також [get_loaded_extensions()](function.get-loaded-extensions.md).
+| INFO_ENVIRONMENT          | 16   | Інформація про змінні оточення, яка також доступна в `$_ENV`.
+| INFO_VARIABLES            | 32   | Виводить всі [передбачені змінні](language.variables.predefined.md) з EGPCS (Environment, GET, POST, Cookie, Server).
+| INFO_LICENSE              | 64   | Інформація про ліцензію PHP. Дивіться також [»license FAQ](https://www.php.net/license/).
+| INFO_ALL                  | -1   | Виводить все наведене вище.
 
 **Налаштування **phpinfo()****
 

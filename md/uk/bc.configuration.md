@@ -11,7 +11,7 @@
 
 | Ім'я За замовчуванням                                | Місце зміни | Список змін |
 | ---------------------------------------------------- | ----------- | ----------- |
-| [bcmath.scale](bc.configuration.md#ini.bcmath.scale) | "0"         | PHP_INI_ALL | 
+| [bcmath.scale](bc.configuration.md#ini.bcmath.scale) | "0"         | PHP_INI_ALL |
 
 **Налаштування конфігурації BC-обчислень**
 

@@ -91,11 +91,11 @@ DB2 Connect.
 
 | Ключ       | Значення                   | Тип ресурсу |           |
 | ---------- | -------------------------- | ----------- | --------- |
-|            |                            | Connection  | Statement | Result Set 
-| userid     | `SQL_ATTR_INFO_USERID`     | X           | X         | \- 
-| acctstr    | `SQL_ATTR_INFO_ACCTSTR`    | X           | X         | \- 
-| applname   | `SQL_ATTR_INFO_APPLNAME`   | X           | X         | \- 
-| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | X           | X         | \- 
+|            |                            | Connection  | Statement | Result Set
+| userid     | `SQL_ATTR_INFO_USERID`     | X           | X         | \-
+| acctstr    | `SQL_ATTR_INFO_ACCTSTR`    | X           | X         | \-
+| applname   | `SQL_ATTR_INFO_APPLNAME`   | X           | X         | \-
+| wrkstnname | `SQL_ATTR_INFO_WRKSTNNAME` | X           | X         | \-
 
 **Матриця параметрів ресурсів**
 

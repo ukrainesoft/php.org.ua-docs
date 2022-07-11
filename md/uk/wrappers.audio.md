@@ -38,18 +38,18 @@ ogg:// — Аудіопотоки
 
 ### Опції
 
-| Атрибут Підтримка
-|------------------------------------------------- ------------------------------------|-----------|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
-| Читання | Так |
-| Запис | Так |
-| Додавання | Так |
-| Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.md) | Ні |
-| Підтримка [unlink()](function.unlink.md) | Ні |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
+| Атрибут Підтримка                                                               |
+| ------------------------------------------------------------------------------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні
+| Читання                                                                         | Так
+| Запис                                                                           | Так
+| Додавання                                                                       | Так
+| Одночасне читання та запис                                                      | Ні
+| Підтримка [stat()](function.stat.md)                                            | Ні
+| Підтримка [unlink()](function.unlink.md)                                        | Ні
+| Підтримка [rename()](function.rename.md)                                        | Ні
+| Підтримка [mkdir()](function.mkdir.md)                                          | Ні
+| Підтримка [rmdir()](function.rmdir.md)                                          | Ні
 
 **Основна інформація**
 

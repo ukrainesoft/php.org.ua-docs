@@ -51,11 +51,11 @@ final public **MongoDB\Driver\Manager::startSession**(array `$options` u003d
 
 ### Список змін
 
-| Версія                                                                                    | Опис                        |
-| ----------------------------------------------------------------------------------------- | --------------------------- |
-| PECL mongodb 1.11.0                                                                       | Додано параметр `snapshot`. |
-| PECL mongodb 1.6.0 Параметр ``maxCommitTimeMS'` доданий до ``defaultTransactionOptions''. |                             |
-| PECL mongodb 1.5.0 Додана опція ``defaultTransactionOptions'`.                            |                             |
+| Версія                                                                                        | Опис                        |
+| --------------------------------------------------------------------------------------------- | --------------------------- |
+| PECL mongodb 1.11.0                                                                           | Додано параметр `snapshot`. |
+| PECL mongodb 1.6.0 Параметр ``maxCommitTimeMS'` доданий до ``defaultTransactionOptions''. | | |                             |
+| PECL mongodb 1.5.0 Додана опція ``defaultTransactionOptions'`.                            | | |                             |
 
 ### Дивіться також
 

@@ -47,18 +47,18 @@ string\|int `$value`): bool
 
 | Ім'я Опис                               |
 | --------------------------------------- |
-| **`MYSQLI_OPT_CONNECT_TIMEOUT`**        | Час очікування з'єднання за секунди 
-| **`MYSQLI_OPT_READ_TIMEOUT`**           | Час очікування результату виконання команди за секунди. Доступно з PHP 7.2.0. 
-| **`MYSQLI_OPT_LOCAL_INFILE`**           | Включення/вимкнення `LOAD LOCAL INFILE` 
-| **`MYSQLI_INIT_COMMAND`**               | Команда, яку потрібно виконати одразу після підключення до сервера MySQL 
-| **`MYSQLI_SET_CHARSET_NAME`**           | Кодування, яке буде встановлено за замовчуванням. 
-| **`MYSQLI_READ_DEFAULT_FILE`**          | Читати налаштування з іменованого файлу замість `my.cnf` Не підтримується mysqlnd. 
-| **`MYSQLI_READ_DEFAULT_GROUP`**         | Читати налаштування з іменованої групи у файлі `my.cnf` або іншому файлі, заданим налаштуванням **`MYSQL_READ_DEFAULT_FILE`**. Не підтримується mysqlnd. 
-| **`MYSQLI_SERVER_PUBLIC_KEY`**          | Файл громадського ключа RSA для авторизації на основі SHA-256. 
-| **`MYSQLI_OPT_NET_CMD_BUFFER_SIZE`**    | Розмір внутрішнього командного/мережевого буфера. Працює лише з mysqlnd. 
-| **`MYSQLI_OPT_NET_READ_BUFFER_SIZE`**   | Максимальний розмір блоку читання в байтах під час читання командного пакета MySQL. Працює лише з mysqlnd. 
-| **`MYSQLI_OPT_INT_AND_FLOAT_NATIVE`**   | Перетворює стовпці типів integer та float до числа PHP, а не рядків. Працює лише з mysqlnd. 
-| **`MYSQLI_OPT_SSL_VERIFY_SERVER_CERT`** | Перевірити сертифікат сервера чи ні. 
+| **`MYSQLI_OPT_CONNECT_TIMEOUT`**        | Час очікування з'єднання за секунди
+| **`MYSQLI_OPT_READ_TIMEOUT`**           | Час очікування результату виконання команди за секунди. Доступно з PHP 7.2.0.
+| **`MYSQLI_OPT_LOCAL_INFILE`**           | Включення/вимкнення `LOAD LOCAL INFILE`
+| **`MYSQLI_INIT_COMMAND`**               | Команда, яку потрібно виконати одразу після підключення до сервера MySQL
+| **`MYSQLI_SET_CHARSET_NAME`**           | Кодування, яке буде встановлено за замовчуванням.
+| **`MYSQLI_READ_DEFAULT_FILE`**          | Читати налаштування з іменованого файлу замість `my.cnf` Не підтримується mysqlnd.
+| **`MYSQLI_READ_DEFAULT_GROUP`**         | Читати налаштування з іменованої групи у файлі `my.cnf` або іншому файлі, заданим налаштуванням **`MYSQL_READ_DEFAULT_FILE`**. Не підтримується mysqlnd.
+| **`MYSQLI_SERVER_PUBLIC_KEY`**          | Файл громадського ключа RSA для авторизації на основі SHA-256.
+| **`MYSQLI_OPT_NET_CMD_BUFFER_SIZE`**    | Розмір внутрішнього командного/мережевого буфера. Працює лише з mysqlnd.
+| **`MYSQLI_OPT_NET_READ_BUFFER_SIZE`**   | Максимальний розмір блоку читання в байтах під час читання командного пакета MySQL. Працює лише з mysqlnd.
+| **`MYSQLI_OPT_INT_AND_FLOAT_NATIVE`**   | Перетворює стовпці типів integer та float до числа PHP, а не рядків. Працює лише з mysqlnd.
+| **`MYSQLI_OPT_SSL_VERIFY_SERVER_CERT`** | Перевірити сертифікат сервера чи ні.
 
 **Допустимі налаштування**
 

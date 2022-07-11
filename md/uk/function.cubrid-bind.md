@@ -42,24 +42,24 @@ string `$bind_value_type` u003d ?
 У наступній таблиці наведено типи замінних значень.
 
 | Рівень підтримки Тип прив'язки Відповідний SQL тип |
-|-------------------|-------------------|--------- ----------------|
-| |підтримується | STRING | CHAR, VARCHAR |
-| | NCHAR | NCHAR, NVARCHAR |
-| | BIT | BIT, VARBIT |
-| | NUMERIC або NUMBER | SHORT, INT, NUMERIC |
-| | FLOAT | FLOAT |
-| | DOUBLE | DOUBLE |
-| | TIME | TIME |
-| | DATE | DATE |
-| | TIMESTAMP | TIMESTAMP |
-| | OBJECT | OBJECT |
-| | ENUM | ENUM |
-| | BLOB | BLOB |
-| | CLOB | CLOB |
-| | NULL | NULL |
-| Чи не підтримується | SET | SET |
-| | MULTISET | MULTISET |
-| | SEQUENCE | SEQUENCE |
+| -------------------------------------------------- |
+|                                                    |підтримується | STRING | CHAR, VARCHAR
+|                                                    | NCHAR | NCHAR, NVARCHAR
+|                                                    | BIT | BIT, VARBIT
+|                                                    | NUMERIC або NUMBER | SHORT, INT, NUMERIC
+|                                                    | FLOAT | FLOAT
+|                                                    | DOUBLE | DOUBLE
+|                                                    | TIME | TIME
+|                                                    | DATE | DATE
+|                                                    | TIMESTAMP | TIMESTAMP
+|                                                    | OBJECT | OBJECT
+|                                                    | ENUM | ENUM
+|                                                    | BLOB | BLOB
+|                                                    | CLOB | CLOB
+|                                                    | NULL | NULL
+| Чи не підтримується                                | SET | SET
+|                                                    | MULTISET | MULTISET
+|                                                    | SEQUENCE | SEQUENCE
 
 **Прив'язка типів у CUBRID**
 

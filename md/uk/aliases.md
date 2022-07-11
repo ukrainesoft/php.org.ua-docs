@@ -21,10 +21,10 @@
 
 | Псевдонім Основна функція Модуль |
 | -------------------------------- |
-| \_                               | [gettext()](function.gettext.md) | [Gettext](ref.gettext.md) 
+| \_                               | [gettext()](function.gettext.md) | [Gettext](ref.gettext.md)
 | chop                             | [rtrim()](function.rtrim.md) | Базовий синтаксис
 | close                            | [closedir()](function.closedir.md) | Базовий синтаксис
-| com_get                          | **com_propget()** | [COM](ref.com.md) 
+| com_get                          | **com_propget()** | [COM](ref.com.md)
 [COM](ref.com.md) || com_propset | **com_propput()** | 
 | com_set       | **com_propput()**                                        | [COM](ref.com.md)                      |
 | d-----------e | [------------------------------------------------------) | [------------------------------------) |

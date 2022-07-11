@@ -21,17 +21,17 @@ glob:// — Знаходження шляхів, що відповідають �
 
 | Атрибут Підтримка                                                                   |
 | ----------------------------------------------------------------------------------- |
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)     | Ні 
-| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | Ні 
-| Читання                                                                             | Ні 
-| Запис                                                                               | Ні 
-| Додавання                                                                           | Ні 
-| Одночасне читання та запис                                                          | Ні 
-| Підтримка [stat()](function.stat.md)                                                | Ні 
-| Підтримка [unlink()](function.unlink.md)                                            | Ні 
-| Підтримка [rename()](function.rename.md)                                            | Ні 
-| Підтримка [mkdir()](function.mkdir.md)                                              | Ні 
-| Підтримка [rmdir()](function.rmdir.md)                                              | Ні 
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)     | Ні
+| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | Ні
+| Читання                                                                             | Ні
+| Запис                                                                               | Ні
+| Додавання                                                                           | Ні
+| Одночасне читання та запис                                                          | Ні
+| Підтримка [stat()](function.stat.md)                                                | Ні
+| Підтримка [unlink()](function.unlink.md)                                            | Ні
+| Підтримка [rename()](function.rename.md)                                            | Ні
+| Підтримка [mkdir()](function.mkdir.md)                                              | Ні
+| Підтримка [rmdir()](function.rmdir.md)                                              | Ні
 
 **Основна інформація**
 

@@ -47,11 +47,11 @@ int `$pregFlags` u003d 0
 
 | режим роботи прапори         |
 | ---------------------------- |
-| `RegexIterator::ALL_MATCHES` | Дивіться [preg_match_all()](function.preg-match-all.md). 
-| `RegexIterator::GET_MATCH`   | Дивіться [preg_match()](function.preg-match.md). 
-| `RegexIterator::MATCH`       | Дивіться [preg_match()](function.preg-match.md). 
-| `RegexIterator::REPLACE`     | ні 
-| `RegexIterator::SPLIT`       | Дивіться [preg_split()](function.preg-split.md). 
+| `RegexIterator::ALL_MATCHES` | Дивіться [preg_match_all()](function.preg-match-all.md).
+| `RegexIterator::GET_MATCH`   | Дивіться [preg_match()](function.preg-match.md).
+| `RegexIterator::MATCH`       | Дивіться [preg_match()](function.preg-match.md).
+| `RegexIterator::REPLACE`     | ні
+| `RegexIterator::SPLIT`       | Дивіться [preg_split()](function.preg-split.md).
 
 **[RegexIterator](class.regexiterator.md) preg_flags**
 

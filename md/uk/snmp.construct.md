@@ -54,7 +54,7 @@ php-snmp, а чи не механізмом Net-SNMP. Використання I
 Призначення `community` залежить від версії SNMP:
 
 |                  |                     |
-|------------------|---------------------|
+| ---------------- | ------------------- |
 | SNMP::VERSION_1  | SNMP community      |
 | SNMP::VERSION_2C | SNMP community      |
 | SNMP::VERSION_3  | SNMPv3 securityName |

@@ -69,12 +69,12 @@ CSR. Також може бути шляхом кодованого в PEM CSR, 
 
 ### Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ------------------|
-| 8.0.0 | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.md) instance now; previously, a [resource](language.types.resource.md) of type `OpenSSL X.509` був відновлений. |
-| 8.0.0 | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
-| 8.0.0 | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
-| 8.0.0 | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
+| Версія | Опис                                                                                                                                                                                                  |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.md) instance now; previously, a [resource](language.types.resource.md) of type `OpenSSL X.509` був відновлений.    |
+| 8.0.0  | `csr` тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
+| 8.0.0  | `ca_certificate` тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR.                  |
+| 8.0.0  | `private_key` тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR.                 |
 
 ### Приклади
 

@@ -13,11 +13,11 @@
 т.ч. динамічні) на льоту, якщо браузер це підтримує. За стиск
 відповідають три параметри в [конфігураційному файлі](configuration.file.md) `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------------------------------|------ --------|-----------------|------------------|
-| [zlib.output_compression](zlib.configuration.md#ini.zlib.output-compression) | "0" | PHP_INI_ALL | |
-| [zlib.output_compression_level](zlib.configuration.md#ini.zlib.output-compression-level) | "-1" | PHP_INI_ALL | |
-| [zlib.output_handler](zlib.configuration.md#ini.zlib.output-handler) | "" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                                    | Місце зміни | Список змін |
+| ---------------------------------------------------------------------------------------- | ----------- | ----------- |
+| [zlib.output_compression](zlib.configuration.md#ini.zlib.output-compression)             | "0"         | PHP_INI_ALL | 
+| [zlib.output_compression_level](zlib.configuration.md#ini.zlib.output-compression-level) | "-1"        | PHP_INI_ALL | 
+| [zlib.output_handler](zlib.configuration.md#ini.zlib.output-handler)                     | ""          | PHP_INI_ALL | 
 
 **Конфігураційні параметри Zlib**
 

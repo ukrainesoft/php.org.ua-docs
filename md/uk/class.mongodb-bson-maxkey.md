@@ -41,9 +41,9 @@ final public [unserialize](mongodb-bson-maxkey.unserialize.md)(string
 
 ## Список змін
 
-| Версія | Опис |
-|--------------------|---------------------------- -------------------------------------------------- -----------------------------------|
-| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\BSON\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.md). |
+| Версія             | Опис                                                                                                        |
+| ------------------ | ----------------------------------------------------------------------------------------------------------- |
+| PECL mongodb 1.3.0 | Реалізує інтерфейс [MongoDB\BSON\MaxKeyInterface](class.mongodb-bson-maxkeyinterface.md).                   |
 | PECL mongodb 1.2.0 | Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |
 
 ## Зміст

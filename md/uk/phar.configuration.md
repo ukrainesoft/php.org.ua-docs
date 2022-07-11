@@ -9,11 +9,11 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------|--------------|--------------- --|------------------|
-| [phar.readonly](phar.configuration.md#ini.phar.readonly) | "1" | PHP_INI_ALL | |
-| [phar.require_hash](phar.configuration.md#ini.phar.require-hash) | "1" | PHP_INI_ALL | |
-| [phar.cache_list](phar.configuration.md#ini.phar.cache-list) | "" | PHP_INI_SYSTEM | |
+| Ім'я За замовчуванням                                            | Місце зміни | Список змін    |
+| ---------------------------------------------------------------- | ----------- | -------------- |
+| [phar.readonly](phar.configuration.md#ini.phar.readonly)         | "1"         | PHP_INI_ALL    | 
+| [phar.require_hash](phar.configuration.md#ini.phar.require-hash) | "1"         | PHP_INI_ALL    | 
+| [phar.cache_list](phar.configuration.md#ini.phar.cache-list)     | ""          | PHP_INI_SYSTEM | 
 
 **Параметри конфігурації файлової системи та потоків**
 

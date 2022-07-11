@@ -9,10 +9,10 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------------|--------------|----------- ------|------------------|
-| [tidy.default_config](tidy.configuration.md#ini.tidy.default-config) | "" | PHP_INI_SYSTEM | |
-| [tidy.clean_output](tidy.configuration.md#ini.tidy.clean-output) | "0" | PHP_INI_USER | |
+| Ім'я За замовчуванням                                                | Місце зміни | Список змін    |
+| -------------------------------------------------------------------- | ----------- | -------------- |
+| [tidy.default_config](tidy.configuration.md#ini.tidy.default-config) | ""          | PHP_INI_SYSTEM | 
+| [tidy.clean_output](tidy.configuration.md#ini.tidy.clean-output)     | "0"         | PHP_INI_USER   | 
 
 **Параметри конфігурації Tidy**
 

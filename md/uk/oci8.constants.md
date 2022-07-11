@@ -79,13 +79,13 @@
 
 **OCI8 прив'язка змінних та визначення типів**
 
-| Константа Опис |
-|-----------------------|------------------------- -------------------------------------------------- -------------------------------------------|
-| **`OCI_DTYPE_FILE`** | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу FILE. |
-| **`OCI_DTYPE_LOB`** | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу LOB. |
-| **`OCI_DTYPE_ROWID`** | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу ROWID. |
-| **`OCI_D_FILE`** | Те саме, що і **`OCI_DTYPE_FILE`**. |
-| **`OCI_D_LOB`** | Те саме, що і **`OCI_DTYPE_LOB`**. |
-| **`OCI_D_ROWID`** | Те саме, що і **`OCI_DTYPE_ROWID`**. |
+| Константа Опис        |
+| --------------------- |
+| **`OCI_DTYPE_FILE`**  | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу FILE. 
+| **`OCI_DTYPE_LOB`**   | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу LOB. 
+| **`OCI_DTYPE_ROWID`** | Прапор використовується [oci_new_descriptor()](function.oci-new-descriptor.md) для ініціалізації дескриптора типу ROWID. 
+| **`OCI_D_FILE`**      | Те саме, що і **`OCI_DTYPE_FILE`**. 
+| **`OCI_D_LOB`**       | Те саме, що і **`OCI_DTYPE_LOB`**. 
+| **`OCI_D_ROWID`**     | Те саме, що і **`OCI_DTYPE_ROWID`**. 
 
 **Типи дескрипторів OCI8**

@@ -22,7 +22,7 @@ php_flag engine off
 | --------------------- | ----------- | ----------- |
 PHP_INI_ALL | || [engine](apache.configuration.md#ini.engine) | "1" | 
 | [child_terminate](apache.configuration.md#ini.child-terminate) | "0" | PHP_INI_ALL |     |
-| [------------------------------------------------------------) | "-" | P---------L | undefined- |
+| [------------------------------------------------------------) | "-" | P---------L | u-- |
 PHP_INI_ALL | || [xbithack](apache.configuration.md#ini.xbithack) | "0" | 
 
 **Налаштування конфігурації Apache**

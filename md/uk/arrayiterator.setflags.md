@@ -28,10 +28,10 @@ public **ArrayIterator::setFlags**(int `$flags`): void
 Доступні прапори поведінки наведені нижче. Фактичний сенс цих
 прапорів описаний в [визначених константах](class.arrayiterator.md#arrayiterator.constants).
 
-| значення | константа
-|----------|-------------------------------------- -------------------------------------------------- ----------|
-| 1 | [ArrayIterator::STD_PROP_LIST](class.arrayiterator.md#arrayiterator.constants.std-prop-list) |
-| 2 | [ArrayIterator::ARRAY_AS_PROPS](class.arrayiterator.md#arrayiterator.constants.array-as-props) |
+| значення | константа                                                                                      |
+| -------- | ---------------------------------------------------------------------------------------------- |
+| 1        | [ArrayIterator::STD_PROP_LIST](class.arrayiterator.md#arrayiterator.constants.std-prop-list)   |
+| 2        | [ArrayIterator::ARRAY_AS_PROPS](class.arrayiterator.md#arrayiterator.constants.array-as-props) |
 
 **Прапори поведінки ArrayIterator**
 

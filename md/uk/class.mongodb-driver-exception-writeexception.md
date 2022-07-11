@@ -90,9 +90,9 @@ private [Exception::\_\_clone](exception.clone.md)(): void
 
 ## Список змін
 
-| Версія | Опис |
-|--------------------|---------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ---|
-| PECL mongodb 1.5.0 Тепер клас успадковується від [MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md). |
+| Версія                                                                                                                                                                                                                                                  | Опис |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| PECL mongodb 1.5.0 Тепер клас успадковується від [MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md). |      |
 
 ## Зміст
 

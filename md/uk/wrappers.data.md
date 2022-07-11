@@ -20,19 +20,19 @@ data:// - Схема Data (RFC 2397)
 
 ### Опції
 
-| Атрибут Підтримка
-|------------------------------------------------- ----------------------------------------|--------- --|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
-| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | Так |
-| Читання | Так |
-| Запис | Ні |
-| Додавання | Ні |
-| Читання та запис одночасно | Ні |
-| Підтримка [stat()](function.stat.md) | Ні |
-| Підтримка [unlink()](function.unlink.md) | Ні |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
+| Атрибут Підтримка                                                                   |
+| ----------------------------------------------------------------------------------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)     | Так 
+| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | Так 
+| Читання                                                                             | Так 
+| Запис                                                                               | Ні 
+| Додавання                                                                           | Ні 
+| Читання та запис одночасно                                                          | Ні 
+| Підтримка [stat()](function.stat.md)                                                | Ні 
+| Підтримка [unlink()](function.unlink.md)                                            | Ні 
+| Підтримка [rename()](function.rename.md)                                            | Ні 
+| Підтримка [mkdir()](function.mkdir.md)                                              | Ні 
+| Підтримка [rmdir()](function.rmdir.md)                                              | Ні 
 
 **Основна інформація**
 

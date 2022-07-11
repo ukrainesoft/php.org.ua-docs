@@ -71,10 +71,10 @@ public [\_\_wakeup](splfixedarray.wakeup.md)(): void
 
 ## Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -------------------------------------------------- ---------------------------|
-| 8.1.0 | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md). |
-| 8.0.0 | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md). |
+| Версія | Опис                                                                                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.1.0  | Клас **SplFixedArray** тепер реалізує інтерфейс [JsonSerializable](class.jsonserializable.md).                                                                    |
+| 8.0.0  | Клас **SplFixedArray** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше було реалізовано інтерфейс [Iterator](class.iterator.md). |
 
 ## Приклади
 

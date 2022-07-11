@@ -39,19 +39,19 @@ public **mysqli::debug**(string `$options`): bool
 необов'язковий символ `,` і список модифікаторів, розділений комами:
 `flag[,modifier,modifier,...,modifier]`
 
-| Символ `option` | Опис |
-|-----------------|------------------------------- ---------|
-| O | **`MYSQLND_DEBUG_FLUSH`** |
-| A/a | **`MYSQLND_DEBUG_APPEND`** |
-| F | **`MYSQLND_DEBUG_DUMP_FILE`** |
-| i | **`MYSQLND_DEBUG_DUMP_PID`** |
-| L | **`MYSQLND_DEBUG_DUMP_LINE`** |
-| м | **`MYSQLND_DEBUG_TRACE_MEMORY_CALLS`** |
-| n | **`MYSQLND_DEBUG_DUMP_LEVEL`** |
-| o | виведення у файл |
-| T | **`MYSQLND_DEBUG_DUMP_TIME`** |
-| t | **`MYSQLND_DEBUG_DUMP_TRACE`** |
-| x | **`MYSQLND_DEBUG_PROFILE_CALLS`** |
+| Символ `option` | Опис                                   |
+| --------------- | -------------------------------------- |
+| O               | **`MYSQLND_DEBUG_FLUSH`**              |
+| A/a             | **`MYSQLND_DEBUG_APPEND`**             |
+| F               | **`MYSQLND_DEBUG_DUMP_FILE`**          |
+| i               | **`MYSQLND_DEBUG_DUMP_PID`**           |
+| L               | **`MYSQLND_DEBUG_DUMP_LINE`**          |
+| м               | **`MYSQLND_DEBUG_TRACE_MEMORY_CALLS`** |
+| n               | **`MYSQLND_DEBUG_DUMP_LEVEL`**         |
+| o               | виведення у файл                       |
+| T               | **`MYSQLND_DEBUG_DUMP_TIME`**          |
+| t               | **`MYSQLND_DEBUG_DUMP_TRACE`**         |
+| x               | **`MYSQLND_DEBUG_PROFILE_CALLS`**      |
 
 **Допустимі символи прапорів**
 

@@ -28,12 +28,12 @@ sqlsrv_client_info — Повертає інформацію про клієнт
 Повертає асоціативний масив із ключами, описаними в таблиці нижче. В
 в іншому випадку повертає **`false`**.
 
-| Ключ | Опис |
-|---------------|--------------------------------- ---------------|
-| DriverDllName | SQLNCLI10.DLL |
-| DriverODBCVer | Версія ODBC (xx.yy)
-| DriverVer | Версія SQL Server Native Client DLL (10.5.xxx) |
-| ExtensionVer | Версія php_sqlsrv.dll (2.0.xxx.x) |
+| Ключ          | Опис                                           |
+| ------------- | ---------------------------------------------- |
+| DriverDllName | SQLNCLI10.DLL                                  |
+| DriverODBCVer | Версія ODBC (xx.yy)                            |
+| DriverVer     | Версія SQL Server Native Client DLL (10.5.xxx) |
+| ExtensionVer  | Версія php_sqlsrv.dll (2.0.xxx.x)              |
 
 **Масив, що повертається sqlsrv_client_info**
 

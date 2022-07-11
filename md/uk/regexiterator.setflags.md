@@ -25,9 +25,9 @@ public **RegexIterator::setFlags**(int `$flags`): void
 Нижче наведені доступні прапори. Сенс та значення прапорів описані в
 розділі [передбачених констант](class.regexiterator.md#regexiterator.constants).
 
-| значення | константа
-|----------|-------------------------------------- ----------------------------------------------|
-| 1 | [RegexIterator::USE_KEY](class.regexiterator.md#regexiterator.constants.use-key) |
+| значення | константа                                                                        |
+| -------- | -------------------------------------------------------------------------------- |
+| 1        | [RegexIterator::USE_KEY](class.regexiterator.md#regexiterator.constants.use-key) |
 
 **Прапори [RegexIterator](class.regexiterator.md)**
 

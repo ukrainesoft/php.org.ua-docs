@@ -25,13 +25,13 @@ public **RegexIterator::setMode**(int `$mode`): void
 Нижче наведено можливі режими. Сенс і значення режимів описані в
 розділі [передбачених констант](class.regexiterator.md#regexiterator.constants).
 
-| значення | константа
-|----------|-------------------------------------- -------------------------------------------------- ----|
-| 0 | [RegexIterator::MATCH](class.regexiterator.md#regexiterator.constants.match) |
-| 1 | [RegexIterator::GET_MATCH](class.regexiterator.md#regexiterator.constants.get-match) |
-| 2 | [RegexIterator::ALL_MATCHES](class.regexiterator.md#regexiterator.constants.all-matches) |
-| 3 | [RegexIterator::SPLIT](class.regexiterator.md#regexiterator.constants.split) |
-| 4 | [RegexIterator::REPLACE](class.regexiterator.md#regexiterator.constants.replace) |
+| значення | константа                                                                                |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 0        | [RegexIterator::MATCH](class.regexiterator.md#regexiterator.constants.match)             |
+| 1        | [RegexIterator::GET_MATCH](class.regexiterator.md#regexiterator.constants.get-match)     |
+| 2        | [RegexIterator::ALL_MATCHES](class.regexiterator.md#regexiterator.constants.all-matches) |
+| 3        | [RegexIterator::SPLIT](class.regexiterator.md#regexiterator.constants.split)             |
+| 4        | [RegexIterator::REPLACE](class.regexiterator.md#regexiterator.constants.replace)         |
 
 **Режими роботи [RegexIterator](class.regexiterator.md)**
 

@@ -27,13 +27,13 @@ mysqli::$info -- mysqli_info — Витягує інформацію про ос
 Функція **mysqli_info()** повертає рядок з інформацією про останній
 виконаний запит до бази даних. Опис рядка наведено нижче:
 
-| Тип запиту | Приклад результуючого рядка |
-|----------------------------------------|-------- --------------------------------------|
-| INSERT INTO...SELECT... | Records: 100 Duplicates: 0 Warnings: 0 |
-| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0 |
-| LOAD DATA INFILE ... | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
-| ALTER TABLE ... | Records: 3 Duplicates: 0 Warnings: 0 |
-| UPDATE... | Rows matched: 40 Changed: 40 Warnings: 0 |
+| Тип запиту                             | Приклад результуючого рядка                  |
+| -------------------------------------- | -------------------------------------------- |
+| INSERT INTO...SELECT...                | Records: 100 Duplicates: 0 Warnings: 0       |
+| INSERT INTO...VALUES (...),(...),(...) | Records: 3 Duplicates: 0 Warnings: 0         |
+| LOAD DATA INFILE ...                   | Records: 1 Deleted: 0 Skipped: 0 Warnings: 0 |
+| ALTER TABLE ...                        | Records: 3 Duplicates: 0 Warnings: 0         |
+| UPDATE...                              | Rows matched: 40 Changed: 40 Warnings: 0     |
 
 **Можливі значення, що повертаються mysqli_info**
 

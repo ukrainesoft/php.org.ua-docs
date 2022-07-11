@@ -94,29 +94,29 @@ Perl також можна вказати заперечення додаван�
 Також ті символи, які не є частиною конкретного сценарію
 об'єднані разом у сценарій `Common`. Поточний список сценаріїв:
 
-| | | | | | |
-|--------------------------|--------------|------- ----------------|----------------|---------------- ---------|-----|
-| 'Arabic' | `Armenian` | 'Avestan' | `Balinese` | `Bamum` | |
-| `Batak` | 'Bengali' | `Bopomofo` | 'Brahmi' | 'Braille' | |
-| `Buginese` | `Buhid` | `Canadian_Aboriginal` | `Carian` | `Chakma` | |
-| `Cham` | `Cherokee` | `Common` | `Coptic` | `Cuneiform` | |
-| Cypriot | Cyrillic | `Deseret` | `Devanagari` | `Egyptian_Hieroglyphs` | |
-| 'Ethiopic' | `Georgian` | `Glagolitic` | `Gothic` | `Greek` | |
-| `Gujarati` | `Gurmukhi` | `Han` | `Hangul` | `Hanunoo` | |
-| `Hebrew` | `Hiragana` | `Imperial_Aramaic` | `Inherited` | `Inscriptional_Pahlavi` | |
-| `Inscriptional_Parthian` | `Javanese` | `Kaithi` | `Kannada` | `Katakana` | |
-| `Kayah_Li` | `Kharoshthi` | `Khmer` | `Lao` | `Latin` | |
-| `Lepcha` | `Limbu` | `Linear_B` | `Lisu` | `Lycian` | |
-| `Lydian` | `Malayalam` | `Mandaic` | `Meetei_Mayek` | `Meroitic_Cursive` | |
-| `Meroitic_Hieroglyphs` | `Miao` | `Mongolian` | `Myanmar` | `New_Tai_Lue` | |
-| `Nko` | `Ogham` | `Old_Italic` | `Old_Persian` | `Old_South_Arabian` | |
-| `Old_Turkic` | `Ol_Chiki` | 'Oriya' | `Osmanya` | `Phags_Pa` | |
-| `Phoenician` | `Rejang` | `Runic` | `Samaritan` | `Saurashtra` | |
-| `Sharada` | `Shavian` | `Sinhala` | `Sora_Sompeng` | `Sundanese` | |
-| `Syloti_Nagri` | `Syriac` | `Tagalog` | `Tagbanwa` | `Tai_Le` | |
-| `Tai_Tham` | `Tai_Viet` | `Takri` | `Tamil` | `Telugu` | |
-| `Thaana` | `Thai` | `Tibetan` | `Tifinagh` | `Ugaritic` | |
-| `Vai` | 'Yi' | | | | |
+|                          |              |                       |                |                         |     |
+| ------------------------ | ------------ | --------------------- | -------------- | ----------------------- | --- |
+| 'Arabic'                 | `Armenian`   | 'Avestan'             | `Balinese`     | `Bamum`                 |     |
+| `Batak`                  | 'Bengali'    | `Bopomofo`            | 'Brahmi'       | 'Braille'               |     |
+| `Buginese`               | `Buhid`      | `Canadian_Aboriginal` | `Carian`       | `Chakma`                |     |
+| `Cham`                   | `Cherokee`   | `Common`              | `Coptic`       | `Cuneiform`             |     |
+| Cypriot                  | Cyrillic     | `Deseret`             | `Devanagari`   | `Egyptian_Hieroglyphs`  |     |
+| 'Ethiopic'               | `Georgian`   | `Glagolitic`          | `Gothic`       | `Greek`                 |     |
+| `Gujarati`               | `Gurmukhi`   | `Han`                 | `Hangul`       | `Hanunoo`               |     |
+| `Hebrew`                 | `Hiragana`   | `Imperial_Aramaic`    | `Inherited`    | `Inscriptional_Pahlavi` |     |
+| `Inscriptional_Parthian` | `Javanese`   | `Kaithi`              | `Kannada`      | `Katakana`              |     |
+| `Kayah_Li`               | `Kharoshthi` | `Khmer`               | `Lao`          | `Latin`                 |     |
+| `Lepcha`                 | `Limbu`      | `Linear_B`            | `Lisu`         | `Lycian`                |     |
+| `Lydian`                 | `Malayalam`  | `Mandaic`             | `Meetei_Mayek` | `Meroitic_Cursive`      |     |
+| `Meroitic_Hieroglyphs`   | `Miao`       | `Mongolian`           | `Myanmar`      | `New_Tai_Lue`           |     |
+| `Nko`                    | `Ogham`      | `Old_Italic`          | `Old_Persian`  | `Old_South_Arabian`     |     |
+| `Old_Turkic`             | `Ol_Chiki`   | 'Oriya'               | `Osmanya`      | `Phags_Pa`              |     |
+| `Phoenician`             | `Rejang`     | `Runic`               | `Samaritan`    | `Saurashtra`            |     |
+| `Sharada`                | `Shavian`    | `Sinhala`             | `Sora_Sompeng` | `Sundanese`             |     |
+| `Syloti_Nagri`           | `Syriac`     | `Tagalog`             | `Tagbanwa`     | `Tai_Le`                |     |
+| `Tai_Tham`               | `Tai_Viet`   | `Takri`               | `Tamil`        | `Telugu`                |     |
+| `Thaana`                 | `Thai`       | `Tibetan`             | `Tifinagh`     | `Ugaritic`              |     |
+| `Vai`                    | 'Yi'         |                       |                |                         |     |
 
 **Підтримувані сценарії**
 

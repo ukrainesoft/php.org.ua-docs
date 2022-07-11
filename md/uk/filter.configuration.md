@@ -9,10 +9,10 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------------------------|--------------|------- ----------|--------------------------------------- -|
-| [filter.default](filter.configuration.md#ini.filter.default) | "unsafe_raw" | PHP_INI_PERDIR | Параметр застарів, починаючи з PHP 8.1.0. |
-| [filter.default_flags](filter.configuration.md#ini.filter.default-flags) | NULL | PHP_INI_PERDIR | |
+| Ім'я За замовчуванням                                                    | Місце зміни  | Список змін    |
+| ------------------------------------------------------------------------ | ------------ | -------------- |
+| [filter.default](filter.configuration.md#ini.filter.default)             | "unsafe_raw" | PHP_INI_PERDIR | Параметр застарів, починаючи з PHP 8.1.0. 
+| [filter.default_flags](filter.configuration.md#ini.filter.default-flags) | NULL         | PHP_INI_PERDIR | 
 
 **Параметри конфігурації Filter**
 

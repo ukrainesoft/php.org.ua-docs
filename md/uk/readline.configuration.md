@@ -9,10 +9,10 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------|----------------|-----------------|----- -------------|
-| [cli.pager](readline.configuration.md#ini.cli.pager) | "" | PHP_INI_ALL | |
-| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "\\\>" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                  | Місце зміни | Список змін |
+| ------------------------------------------------------ | ----------- | ----------- |
+| [cli.pager](readline.configuration.md#ini.cli.pager)   | ""          | PHP_INI_ALL | 
+| [cli.prompt](readline.configuration.md#ini.cli.prompt) | "\\\>"      | PHP_INI_ALL | 
 
 **Опції налаштування Readline**
 

@@ -9,14 +9,14 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------------------------|--------------|------- ----------|--------------------------------------- --------------------------|
-| [yaml.decode_binary](yaml.configuration.md#ini.yaml.decode-binary) | 0 | PHP_INI_ALL | |
-| [yaml.decode_php](yaml.configuration.md#ini.yaml.decode-php) | 0 | PHP_INI_ALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 |
-| [yaml.decode_timestamp](yaml.configuration.md#ini.yaml.decode-timestamp) | 0 | PHP_INI_ALL | |
-| [yaml.output_canonical](yaml.configuration.md#ini.yaml.output-canonical) | 0 | PHP_INI_ALL | |
-| [yaml.output_indent](yaml.configuration.md#ini.yaml.output-indent) | 2 | PHP_INI_ALL | |
-| [yaml.output_width](yaml.configuration.md#ini.yaml.output-width) | 80 | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                    | Місце зміни | Список змін |
+| ------------------------------------------------------------------------ | ----------- | ----------- |
+| [yaml.decode_binary](yaml.configuration.md#ini.yaml.decode-binary)       | 0           | PHP_INI_ALL | 
+| [yaml.decode_php](yaml.configuration.md#ini.yaml.decode-php)             | 0           | PHP_INI_ALL | Додано до 1.2.0, до версії 2.0.0 значення за промовчанням було 1 
+| [yaml.decode_timestamp](yaml.configuration.md#ini.yaml.decode-timestamp) | 0           | PHP_INI_ALL | 
+| [yaml.output_canonical](yaml.configuration.md#ini.yaml.output-canonical) | 0           | PHP_INI_ALL | 
+| [yaml.output_indent](yaml.configuration.md#ini.yaml.output-indent)       | 2           | PHP_INI_ALL | 
+| [yaml.output_width](yaml.configuration.md#ini.yaml.output-width)         | 80          | PHP_INI_ALL | 
 
 **Опції налаштування Yaml**
 

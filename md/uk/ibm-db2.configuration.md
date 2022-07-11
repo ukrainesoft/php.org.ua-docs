@@ -9,14 +9,14 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Лог змін |
-|------------------------------------------------- ------------------------------------|------------- -|-----------------|---------------------------|
-| [ibm_db2.binmode](ibm-db2.configuration.md#ini.ibm-db2.binmode) | "1" | PHP_INI_ALL | |
-| [ibm_db2.i5_all_pconnect](ibm-db2.configuration.md#ini.ibm-db2.i5-all-pconnect) | "0" | PHP_INI_SYSTEM | Доступно з ibm_db2 1.6.5. |
-| [ibm_db2.i5_allow_commit](ibm-db2.configuration.md#ini.ibm-db2.i5-allow-commit) | "0" | PHP_INI_SYSTEM | Доступно з ibm_db2 1.4.9. |
-| [ibm_db2.i5_dbcs_alloc](ibm-db2.configuration.md#ini.ibm-db2.i5-dbcs-alloc) | "0" | PHP_INI_SYSTEM | Доступно з ibm_db2 1.5.0. |
-| [ibm_db2.instance_name](ibm-db2.configuration.md#ini.ibm-db2.instance-name) | NULL | PHP_INI_SYSTEM | Доступно з ibm_db2 1.0.2. |
-| [ibm_db2.i5_ignore_userid](ibm-db2.configuration.md#ini.ibm-db2.i5-ignore-userid) | "0" | PHP_INI_SYSTEM | Доступно з ibm_db2 1.8.0. |
+| Ім'я За замовчуванням                                                             | Місце зміни | Лог змін       |
+| --------------------------------------------------------------------------------- | ----------- | -------------- |
+| [ibm_db2.binmode](ibm-db2.configuration.md#ini.ibm-db2.binmode)                   | "1"         | PHP_INI_ALL    | 
+| [ibm_db2.i5_all_pconnect](ibm-db2.configuration.md#ini.ibm-db2.i5-all-pconnect)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.6.5. 
+| [ibm_db2.i5_allow_commit](ibm-db2.configuration.md#ini.ibm-db2.i5-allow-commit)   | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.4.9. 
+| [ibm_db2.i5_dbcs_alloc](ibm-db2.configuration.md#ini.ibm-db2.i5-dbcs-alloc)       | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.5.0. 
+| [ibm_db2.instance_name](ibm-db2.configuration.md#ini.ibm-db2.instance-name)       | NULL        | PHP_INI_SYSTEM | Доступно з ibm_db2 1.0.2. 
+| [ibm_db2.i5_ignore_userid](ibm-db2.configuration.md#ini.ibm-db2.i5-ignore-userid) | "0"         | PHP_INI_SYSTEM | Доступно з ibm_db2 1.8.0. 
 
 **ibm_db2 Опції настроювання**
 

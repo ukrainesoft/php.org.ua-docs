@@ -234,10 +234,10 @@ public
 
 ## Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- --------------------------------------------|
-| 8.0.0 | Додані властивості `firstElementChild`, `lastElementChild`, `childElementCount`, `previousElementSibling` та `nextElementSibling`. |
-| 8.0.0 | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) та [DOMChildNode](class.domchildnode.md). |
+| Версія | Опис                                                                                                                               |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Додані властивості `firstElementChild`, `lastElementChild`, `childElementCount`, `previousElementSibling` та `nextElementSibling`. |
+| 8.0.0  | Клас **DOMElement** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md) та [DOMChildNode](class.domchildnode.md).     |
 
 ## Примітки
 

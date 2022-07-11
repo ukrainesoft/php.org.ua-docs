@@ -25,10 +25,10 @@
 
 **Конфігураційні параметри Memcache**
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- --------------------|--------------|-------------- ---|------------------------------------------|
-| [session.save_handler](memcache.ini.md#ini.memcache.save-handler) | "files" | PHP_INI_ALL | Підтримується з memcache 2.1.2 |
-| [session.save_path](memcache.ini.md#ini.memcache.save-path) | "" | PHP_INI_ALL | Підтримується з memcache 2.1.2 |
+| Ім'я За замовчуванням                                             | Місце зміни | Список змін |
+| ----------------------------------------------------------------- | ----------- | ----------- |
+| [session.save_handler](memcache.ini.md#ini.memcache.save-handler) | "files"     | PHP_INI_ALL | Підтримується з memcache 2.1.2 
+| [session.save_path](memcache.ini.md#ini.memcache.save-path)       | ""          | PHP_INI_ALL | Підтримується з memcache 2.1.2 
 
 **Параметри конфігурації сесії, що впливають на поведінку Memcache**
 

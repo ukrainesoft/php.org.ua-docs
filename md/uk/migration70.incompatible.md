@@ -498,7 +498,7 @@ Deprecated: Assigning the return value of new by reference is deprecated in /tmp
 PHP.
 
 | Відкриваючи тег               | Закриває тег |
-|-------------------------------|--------------|
+| ----------------------------- | ------------ |
 | '<%'                          | `%>`         |
 | `<%u003d`                     | `%>`         |
 | `<script languageu003d"php">` | `</script>`  |

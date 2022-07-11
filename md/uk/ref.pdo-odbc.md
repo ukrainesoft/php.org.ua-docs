@@ -98,10 +98,10 @@ generic
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------------------------------|--------------|- ----------------|--------------------------------- ------------------------------------|
-| [pdo_odbc.connection_pooling](ref.pdo-odbc.md#ini.pdo-odbc.connection-pooling) | "Strict" | PHP_INI_ALL | |
-| [pdo_odbc.db2_instance_name](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name) | NULL | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому. |
+| Ім'я За замовчуванням                                                          | Місце зміни | Список змін    |
+| ------------------------------------------------------------------------------ | ----------- | -------------- |
+| [pdo_odbc.connection_pooling](ref.pdo-odbc.md#ini.pdo-odbc.connection-pooling) | "Strict"    | PHP_INI_ALL    | 
+| [pdo_odbc.db2_instance_name](ref.pdo-odbc.md#ini.pdo-odbc.db2-instance-name)   | NULL        | PHP_INI_SYSTEM | Ця можливість застаріла і буде обов'язково віддалена в майбутньому. 
 
 **Конфігураційні опції PDO_ODBC**
 

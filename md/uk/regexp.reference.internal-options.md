@@ -17,15 +17,15 @@
 спеціальних Perl-послідовностей, укладених між символами "(?")
 ")". Нижче наведено список цих опцій:
 
-| | |
-|-----|----------------------------------------------- -------------------------------------------------- -|
-| `i` | для [PCRE_CASELESS](reference.pcre.pattern.modifiers.md) |
-| `m` | для [PCRE_MULTILINE](reference.pcre.pattern.modifiers.md) |
-| `s` | для [PCRE_DOTALL](reference.pcre.pattern.modifiers.md) |
-| `x` | для [PCRE_EXTENDED](reference.pcre.pattern.modifiers.md) |
-| `U` | для [PCRE_UNGREEDY](reference.pcre.pattern.modifiers.md) |
+|     |                                                                                           |
+| --- | ----------------------------------------------------------------------------------------- |
+| `i` | для [PCRE_CASELESS](reference.pcre.pattern.modifiers.md)                                  |
+| `m` | для [PCRE_MULTILINE](reference.pcre.pattern.modifiers.md)                                 |
+| `s` | для [PCRE_DOTALL](reference.pcre.pattern.modifiers.md)                                    |
+| `x` | для [PCRE_EXTENDED](reference.pcre.pattern.modifiers.md)                                  |
+| `U` | для [PCRE_UNGREEDY](reference.pcre.pattern.modifiers.md)                                  |
 | `X` | для [PCRE_EXTRA](reference.pcre.pattern.modifiers.md) (більше не підтримується з PHP 7.3) |
-| `J` | для [PCRE_INFO_JCHANGED](reference.pcre.pattern.modifiers.md) |
+| `J` | для [PCRE_INFO_JCHANGED](reference.pcre.pattern.modifiers.md)                             |
 
 **Символи внутрішніх опцій**
 

@@ -41,7 +41,6 @@
 перезавантаження веб-сервера, що позначається на швидкості запуску сервера.
 
 | Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- --------------------------|--------------|-------- ---------|---------------------------------------- --------------|
 | [apc.enabled](apcu.configuration.md#ini.apcu.enabled) | "1" | PHP_INI_SYSTEM | |
 | [apc.shm_segments](apcu.configuration.md#ini.apcu.shm-segments) | "1" | PHP_INI_SYSTEM | |
 | [apc.shm_size](apcu.configuration.md#ini.apcu.shm-size) | "32M" | PHP_INI_SYSTEM | |

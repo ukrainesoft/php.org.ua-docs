@@ -27,10 +27,10 @@ public **ArrayObject::setFlags**(int `$flags`): void
 Доступні прапори поведінки наведені нижче. Фактичні значення цих
 прапорів описані в розділі [передбачені константи](class.arrayobject.md#arrayobject.constants).
 
-| Значення | Константа
-|----------|-------------------------------------- -------------------------------------------------- ----|
-| 1 | [ArrayObject::STD_PROP_LIST](class.arrayobject.md#arrayobject.constants.std-prop-list) |
-| 2 | [ArrayObject::ARRAY_AS_PROPS](class.arrayobject.md#arrayobject.constants.array-as-props) |
+| Значення | Константа                                                                                |
+| -------- | ---------------------------------------------------------------------------------------- |
+| 1        | [ArrayObject::STD_PROP_LIST](class.arrayobject.md#arrayobject.constants.std-prop-list)   |
+| 2        | [ArrayObject::ARRAY_AS_PROPS](class.arrayobject.md#arrayobject.constants.array-as-props) |
 
 **Прапори поведінки ArrayObject**
 

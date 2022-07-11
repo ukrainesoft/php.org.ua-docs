@@ -40,8 +40,8 @@ htmlspecialchars**
 
 ### Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -|
-| 8.0.0 | Видалено **`FILTER_SANITIZE_MAGIC_QUOTES`**. |
-| 7.3.0 | Додано **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
-| 7.3.0 | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошена застарілою. |
+| Версія | Опис                                                                                   |
+| ------ | -------------------------------------------------------------------------------------- |
+| 8.0.0  | Видалено **`FILTER_SANITIZE_MAGIC_QUOTES`**.                                           |
+| 7.3.0  | Додано **`FILTER_SANITIZE_ADD_SLASHES`** для заміни **`FILTER_SANITIZE_MAGIC_QUOTES`** |
+| 7.3.0  | **`FILTER_SANITIZE_MAGIC_QUOTES`** оголошена застарілою.                               |

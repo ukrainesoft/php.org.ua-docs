@@ -12,12 +12,12 @@
 Для налаштування модуля використовуйте наведені нижче опції
 [Файл конфігурації](configuration.file.md) `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------|--------------|--------------- --|------------------|
-| [expect.timeout](expect.configuration.md#ini.expect.timeout) | "10" | PHP_INI_ALL | |
-| [expect.loguser](expect.configuration.md#ini.expect.loguser) | "1" | PHP_INI_ALL | |
-| [expect.logfile](expect.configuration.md#ini.expect.logfile) | "" | PHP_INI_ALL | |
-| [expect.match_max](expect.configuration.md#ini.expect.match-max) | "" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                            | Місце зміни | Список змін |
+| ---------------------------------------------------------------- | ----------- | ----------- |
+| [expect.timeout](expect.configuration.md#ini.expect.timeout)     | "10"        | PHP_INI_ALL | 
+| [expect.loguser](expect.configuration.md#ini.expect.loguser)     | "1"         | PHP_INI_ALL | 
+| [expect.logfile](expect.configuration.md#ini.expect.logfile)     | ""          | PHP_INI_ALL | 
+| [expect.match_max](expect.configuration.md#ini.expect.match-max) | ""          | PHP_INI_ALL | 
 
 **Опції налаштування Expect**
 

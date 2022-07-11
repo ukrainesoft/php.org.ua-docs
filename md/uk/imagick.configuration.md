@@ -9,11 +9,11 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ----------------------------------------|--------- -----|-----------------|-------------------------- --------|
-| [imagick.locale_fix](imagick.configuration.md#ini.imagick.locale-fix) | **`false`** | PHP_INI_ALL | Доступно з Imagick 2.1.0 |
-| [imagick.progress_monitor](imagick.configuration.md#ini.imagick.progress-monitor) | **`false`** | PHP_INI_SYSTEM | Доступно з Imagick 2.2.2 |
-| [imagick.skip_version_check](imagick.configuration.md#ini.imagick.skip-version-check) | **`false`** | PHP_INI_SYSTEM | Доступно з Imagick 3.3.0 |
+| Ім'я За замовчуванням                                                                 | Місце зміни | Список змін    |
+| ------------------------------------------------------------------------------------- | ----------- | -------------- |
+| [imagick.locale_fix](imagick.configuration.md#ini.imagick.locale-fix)                 | **`false`** | PHP_INI_ALL    | Доступно з Imagick 2.1.0 
+| [imagick.progress_monitor](imagick.configuration.md#ini.imagick.progress-monitor)     | **`false`** | PHP_INI_SYSTEM | Доступно з Imagick 2.2.2 
+| [imagick.skip_version_check](imagick.configuration.md#ini.imagick.skip-version-check) | **`false`** | PHP_INI_SYSTEM | Доступно з Imagick 3.3.0 
 
 **Конфігураційні опції Imagick**
 

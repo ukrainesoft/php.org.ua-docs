@@ -147,10 +147,10 @@ public
 
 ## Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -----------|
-| 8.0.0 | Додані властивості `firstElementChild`, `lastElementChild` та `childElementCount`. |
-| 8.0.0 | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md). |
+| Версія | Опис                                                                                           |
+| ------ | ---------------------------------------------------------------------------------------------- |
+| 8.0.0  | Додані властивості `firstElementChild`, `lastElementChild` та `childElementCount`.             |
+| 8.0.0  | Клас **DOMDocumentFragment** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md). |
 
 ## Зміст
 

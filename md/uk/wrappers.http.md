@@ -43,18 +43,18 @@ INI-директива [from](filesystem.configuration.md#ini.from) буде
 
 ### Опції
 
-| Атрибут Підтримка
-|------------------------------------------------- ------------------------------------|------------|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
-| Читання | Так |
-| Запис | Ні |
-| Додавання | Ні |
-| Одночасне читання та запис | Недоступний |
-| Підтримка [stat()](function.stat.md) | Ні |
-| Підтримка [unlink()](function.unlink.md) | Ні |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
+| Атрибут Підтримка                                                               |
+| ------------------------------------------------------------------------------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так 
+| Читання                                                                         | Так 
+| Запис                                                                           | Ні 
+| Додавання                                                                       | Ні 
+| Одночасне читання та запис                                                      | Недоступний 
+| Підтримка [stat()](function.stat.md)                                            | Ні 
+| Підтримка [unlink()](function.unlink.md)                                        | Ні 
+| Підтримка [rename()](function.rename.md)                                        | Ні 
+| Підтримка [mkdir()](function.mkdir.md)                                          | Ні 
+| Підтримка [rmdir()](function.rmdir.md)                                          | Ні 
 
 **Основна інформація**
 

@@ -44,13 +44,13 @@ int `$pregFlags` u003d 0
 `pregFlags`
 Прапори регулярного вираження. Список прапорів залежить від режиму роботи:
 
-| режим роботи прапори |
-|---------------------------------------|--------- -------------------------------------------------- -|
-| `RecursiveRegexIterator::ALL_MATCHES` | Дивіться [preg_match_all()](function.preg-match-all.md). |
-| `RecursiveRegexIterator::GET_MATCH` | Дивіться [preg_match()](function.preg-match.md). |
-| `RecursiveRegexIterator::MATCH` | Дивіться [preg_match()](function.preg-match.md). |
-| `RecursiveRegexIterator::REPLACE` | ні |
-| `RecursiveRegexIterator::SPLIT` | Дивіться [preg_split()](function.preg-split.md). |
+| режим роботи прапори                  |
+| ------------------------------------- |
+| `RecursiveRegexIterator::ALL_MATCHES` | Дивіться [preg_match_all()](function.preg-match-all.md). 
+| `RecursiveRegexIterator::GET_MATCH`   | Дивіться [preg_match()](function.preg-match.md). 
+| `RecursiveRegexIterator::MATCH`       | Дивіться [preg_match()](function.preg-match.md). 
+| `RecursiveRegexIterator::REPLACE`     | ні 
+| `RecursiveRegexIterator::SPLIT`       | Дивіться [preg_split()](function.preg-split.md). 
 
 **[RegexIterator](class.regexiterator.md) preg_flags**
 

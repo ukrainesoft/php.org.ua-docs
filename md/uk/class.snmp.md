@@ -142,14 +142,14 @@ OID). Додатково, якщо quick_print не дозволено, бібл
 `oid_output_format`
 Контролює формат виводу OID
 
-| | |
-|-------------------------------|----------------- -------------------------------------------------- --|
-| **`SNMP_OID_OUTPUT_FULL`** | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_NUMERIC`** | .1.3.6.1.2.1.1.3.0 |
-| **`SNMP_OID_OUTPUT_MODULE`** | DISMAN-EVENT-MIB::sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_SUFFIX`** | sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_UCD`** | system.sysUpTime.sysUpTimeInstance |
-| **`SNMP_OID_OUTPUT_NONE`** | Undefined |
+|                               |                                                                     |
+| ----------------------------- | ------------------------------------------------------------------- |
+| **`SNMP_OID_OUTPUT_FULL`**    | .iso.org.dod.internet.mgmt.mib-2.system.sysUpTime.sysUpTimeInstance |
+| **`SNMP_OID_OUTPUT_NUMERIC`** | .1.3.6.1.2.1.1.3.0                                                  |
+| **`SNMP_OID_OUTPUT_MODULE`**  | DISMAN-EVENT-MIB::sysUpTimeInstance                                 |
+| **`SNMP_OID_OUTPUT_SUFFIX`**  | sysUpTimeInstance                                                   |
+| **`SNMP_OID_OUTPUT_UCD`**     | system.sysUpTime.sysUpTimeInstance                                  |
+| **`SNMP_OID_OUTPUT_NONE`**    | Undefined                                                           |
 
 **OID-представлення .1.3.6.1.2.1.1.3.0 для різних значень
 `oid_output_format`**

@@ -127,7 +127,7 @@
 [cubrid_error_code_facility()](function.cubrid-error-code-facility.md).
 
 | Константа Опис         |                                       |
-|------------------------|---------------------------------------|
+| ---------------------- | ------------------------------------- |
 | CUBRID_FACILITY_DBMS   | Виникла помилка в CUBRID dbms.        |
 | CUBRID_FACILITY_CAS    | Виникла помилка в cas брокера CUBRID. |
 | CUBRID_FACILITY_CCI    | Виникла помилка в CUBRID cci.         |

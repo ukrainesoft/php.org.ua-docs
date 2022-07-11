@@ -9,14 +9,14 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------------------------------------- ------------|--------------|-----------------|---- --------------|
-| [xmysqlnd.collect_memory_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-memory-statistics) | 0 | PHP_INI_SYSTEM | |
-| [xmysqlnd.collect_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-statistics) | 1 | PHP_INI_ALL | |
-| [xmysqlnd.debug](mysql-xdevapi.configuration.md#ini.xmysqlnd.debug) | | PHP_INI_SYSTEM | |
-| [xmysqlnd.mempool_default_size](mysql-xdevapi.configuration.md#ini.xmysqlnd.mempool-default-size) | 16000 | PHP_INI_ALL | |
-| [xmysqlnd.net_read_timeout](mysql-xdevapi.configuration.md#ini.xmysqlnd.net-read-timeout) | 31536000 | PHP_INI_SYSTEM | |
-| [xmysqlnd.trace_alloc](mysql-xdevapi.configuration.md#ini.xmysqlnd.trace-alloc) | | PHP_INI_SYSTEM | |
+| Ім'я За замовчуванням                                                                                       | Місце зміни | Список змін    |
+| ----------------------------------------------------------------------------------------------------------- | ----------- | -------------- |
+| [xmysqlnd.collect_memory_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-memory-statistics) | 0           | PHP_INI_SYSTEM | 
+| [xmysqlnd.collect_statistics](mysql-xdevapi.configuration.md#ini.xmysqlnd.collect-statistics)               | 1           | PHP_INI_ALL    | 
+| [xmysqlnd.debug](mysql-xdevapi.configuration.md#ini.xmysqlnd.debug)                                         |             | PHP_INI_SYSTEM | 
+| [xmysqlnd.mempool_default_size](mysql-xdevapi.configuration.md#ini.xmysqlnd.mempool-default-size)           | 16000       | PHP_INI_ALL    | 
+| [xmysqlnd.net_read_timeout](mysql-xdevapi.configuration.md#ini.xmysqlnd.net-read-timeout)                   | 31536000    | PHP_INI_SYSTEM | 
+| [xmysqlnd.trace_alloc](mysql-xdevapi.configuration.md#ini.xmysqlnd.trace-alloc)                             |             | PHP_INI_SYSTEM | 
 
 **Опції налаштування Mysql_xdevapi**
 

@@ -9,10 +9,10 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------------|--------------|----------- ------|------------------|
-| [yaconf.check_delay](yaconf.configuration.md#ini.yaconf.check-delay) | 300 | PHP_INI_SYSTEM | |
-| [yaconf.directory](yaconf.configuration.md#ini.yaconf.directory) | /tmp/conf/ | PHP_INI_SYSTEM | |
+| Ім'я За замовчуванням                                                | Місце зміни | Список змін    |
+| -------------------------------------------------------------------- | ----------- | -------------- |
+| [yaconf.check_delay](yaconf.configuration.md#ini.yaconf.check-delay) | 300         | PHP_INI_SYSTEM | 
+| [yaconf.directory](yaconf.configuration.md#ini.yaconf.directory)     | /tmp/conf/  | PHP_INI_SYSTEM | 
 
 **Опції налаштування Yaconf**
 

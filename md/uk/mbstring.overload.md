@@ -37,21 +37,21 @@ mbstring підтримує механізм 'перевантаження фу�
 то поштові, рядкові та функції регулярних виразів будуть
 перевантажуватись. Список перевантажуваних функцій наведено нижче.
 
-| значення налаштування mbstring.func_overload | Вихідна функція | перевантажена функція
-|-------------------------------------------|----- -----------------------------------------|-------- --------------------------------------------|
-| 1 | [mail()](function.mail.md) | [mb_send_mail()](function.mb-send-mail.md) |
-| 2 | [strlen()](function.strlen.md) | [mb_strlen()](function.mb-strlen.md) |
-| 2 | [strpos()](function.strpos.md) | [mb_strpos()](function.mb-strpos.md) |
-| 2 | [strrpos()](function.strrpos.md) | [mb_strrpos()](function.mb-strrpos.md) |
-| 2 | [substr()](function.substr.md) | [mb_substr()](function.mb-substr.md) |
-| 2 | [strtolower()](function.strtolower.md) | [mb_strtolower()](function.mb-strtolower.md) |
-| 2 | [strtoupper()](function.strtoupper.md) | [mb_strtoupper()](function.mb-strtoupper.md) |
-| 2 | [stripos()](function.stripos.md) | [mb_stripos()](function.mb-stripos.md) |
-| 2 | [strripos()](function.strripos.md) | [mb_strripos()](function.mb-strripos.md) |
-| 2 | [strstr()](function.strstr.md) | [mb_strstr()](function.mb-strstr.md) |
-| 2 | [stristr()](function.stristr.md) | [mb_stristr()](function.mb-stristr.md) |
-| 2 | [strrchr()](function.strrchr.md) | [mb_strrchr()](function.mb-strrchr.md) |
-| 2 | [substr_count()](function.substr-count.md) | [mb_substr_count()](function.mb-substr-count.md) |
+| значення налаштування mbstring.func_overload | Вихідна функція                            | перевантажена функція                            |
+| -------------------------------------------- | ------------------------------------------ | ------------------------------------------------ |
+| 1                                            | [mail()](function.mail.md)                 | [mb_send_mail()](function.mb-send-mail.md)       |
+| 2                                            | [strlen()](function.strlen.md)             | [mb_strlen()](function.mb-strlen.md)             |
+| 2                                            | [strpos()](function.strpos.md)             | [mb_strpos()](function.mb-strpos.md)             |
+| 2                                            | [strrpos()](function.strrpos.md)           | [mb_strrpos()](function.mb-strrpos.md)           |
+| 2                                            | [substr()](function.substr.md)             | [mb_substr()](function.mb-substr.md)             |
+| 2                                            | [strtolower()](function.strtolower.md)     | [mb_strtolower()](function.mb-strtolower.md)     |
+| 2                                            | [strtoupper()](function.strtoupper.md)     | [mb_strtoupper()](function.mb-strtoupper.md)     |
+| 2                                            | [stripos()](function.stripos.md)           | [mb_stripos()](function.mb-stripos.md)           |
+| 2                                            | [strripos()](function.strripos.md)         | [mb_strripos()](function.mb-strripos.md)         |
+| 2                                            | [strstr()](function.strstr.md)             | [mb_strstr()](function.mb-strstr.md)             |
+| 2                                            | [stristr()](function.stristr.md)           | [mb_stristr()](function.mb-stristr.md)           |
+| 2                                            | [strrchr()](function.strrchr.md)           | [mb_strrchr()](function.mb-strrchr.md)           |
+| 2                                            | [substr_count()](function.substr-count.md) | [mb_substr_count()](function.mb-substr-count.md) |
 
 **Функції, які будуть перевантажені**
 

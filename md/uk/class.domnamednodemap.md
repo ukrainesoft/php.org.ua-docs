@@ -42,10 +42,10 @@ public [item](domnamednodemap.item.md)(int `$index`):
 
 ## Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----|
-| 8.0.0 | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()**, **DOMNamedNodeMap::removeNamedItem()**, **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були видалені. |
-| 8.0.0 | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md). |
+| Версія | Опис                                                                                                                                                                                            |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 8.0.0  | Нереалізовані методи **DOMNamedNodeMap::setNamedItem()**, **DOMNamedNodeMap::removeNamedItem()**, **DOMNamedNodeMap::setNamedItemNS()** і **DOMNamedNodeMap::removeNamedItem()** були видалені. |
+| 8.0.0  | Клас **DOMNamedNodeMap** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше натомість було реалізовано інтерфейс [Traversable](class.traversable.md).             |
 
 ## Зміст
 

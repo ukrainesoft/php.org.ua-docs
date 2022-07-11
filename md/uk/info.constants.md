@@ -79,20 +79,20 @@
 
 Таблиця значень бітової маски **`PHP_WINDOWS_VERSION_SUITEMASK`**.
 
-| Біти | Опис |
-|--------------|---------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------------------------------------|
-| `0x00000004` | Встановлено компоненти Microsoft BackOffice. |
-| `0x00000400` | Встановлено Windows Server 2003 Web Edition. |
-| `0x00004000` | Встановлено Windows Server 2003 Compute Cluster Edition. |
-| `0x00000080` | Встановлено Windows Server 2008 Datacenter, Windows Server 2003, Datacenter Edition або Windows 2000 Datacenter Server. |
-| `0x00000002` | Встановлено Windows Server 2008 Enterprise, Windows Server 2003, Enterprise Edition, Windows 2000 Advanced Server або Windows NT Server 4.0 Enterprise Edition. |
-| `0x00000040` | Встановлено Windows XP Embedded. |
-| `0x00000200` | Встановлено Windows Vista Home Premium, Windows Vista Home Basic або Windows XP Home Edition. |
-| `0x00000100` | Підтримується віддалений робочий стіл, але лише в інтерактивному режимі. Це значення встановлюється, доки система не буде запущена в режимі сервера програм. |
-| `0x00000001` | Microsoft Small Business Server було встановлено спочатку, проте міг бути проведений апгрейд системи до іншої версії Windows. |
-| `0x00000020` | Microsoft Small Business Server встановлено з обмеженою ліцензією. |
-| `0x00002000` | Встановлено Windows Storage Server 2003 R2 або Windows Storage Server 2003. |
+| Біти         | Опис                                                                                                                                                                          |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `0x00000004` | Встановлено компоненти Microsoft BackOffice.                                                                                                                                  |
+| `0x00000400` | Встановлено Windows Server 2003 Web Edition.                                                                                                                                  |
+| `0x00004000` | Встановлено Windows Server 2003 Compute Cluster Edition.                                                                                                                      |
+| `0x00000080` | Встановлено Windows Server 2008 Datacenter, Windows Server 2003, Datacenter Edition або Windows 2000 Datacenter Server.                                                       |
+| `0x00000002` | Встановлено Windows Server 2008 Enterprise, Windows Server 2003, Enterprise Edition, Windows 2000 Advanced Server або Windows NT Server 4.0 Enterprise Edition.               |
+| `0x00000040` | Встановлено Windows XP Embedded.                                                                                                                                              |
+| `0x00000200` | Встановлено Windows Vista Home Premium, Windows Vista Home Basic або Windows XP Home Edition.                                                                                 |
+| `0x00000100` | Підтримується віддалений робочий стіл, але лише в інтерактивному режимі. Це значення встановлюється, доки система не буде запущена в режимі сервера програм.                  |
+| `0x00000001` | Microsoft Small Business Server було встановлено спочатку, проте міг бути проведений апгрейд системи до іншої версії Windows.                                                 |
+| `0x00000020` | Microsoft Small Business Server встановлено з обмеженою ліцензією.                                                                                                            |
+| `0x00002000` | Встановлено Windows Storage Server 2003 R2 або Windows Storage Server 2003.                                                                                                   |
 | `0x00000010` | Встановлено термінальні служби. Це значення завжди встановлено. Якщо це значення встановлено, значення `0x00000100` не встановлено, система працює в режимі сервера додатків. |
-| `0x00008000` | Встановлено Windows Home Server. |
+| `0x00008000` | Встановлено Windows Home Server.                                                                                                                                              |
 
 **Бітове поле функціональних можливостей Windows**

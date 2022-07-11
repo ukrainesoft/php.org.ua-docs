@@ -31,14 +31,14 @@ SQL: `BINARY`, `VARBINARY` та `LONGVARBINARY`. Режим за замовчу�
 binmode, обробка стовпців `LONGVARBINARY` також залежить від
 longreadlen:
 
-| binmode | longreadlen | result |
-|-----------------------------|-------------|----- ----------------|
-| **`ODBC_BINMODE_PASSTHRU`** | 0 | passthru |
-| **`ODBC_BINMODE_RETURN`** | 0 | passthru |
-| **`ODBC_BINMODE_CONVERT`** | 0 | passthru |
-| **`ODBC_BINMODE_PASSTHRU`** | \>0 | passthru |
-| **`ODBC_BINMODE_RETURN`** | \>0 | повернути як є |
-| **`ODBC_BINMODE_CONVERT`** | \>0 | повернути як char |
+| binmode                     | longreadlen | result            |
+| --------------------------- | ----------- | ----------------- |
+| **`ODBC_BINMODE_PASSTHRU`** | 0           | passthru          |
+| **`ODBC_BINMODE_RETURN`**   | 0           | passthru          |
+| **`ODBC_BINMODE_CONVERT`**  | 0           | passthru          |
+| **`ODBC_BINMODE_PASSTHRU`** | \>0         | passthru          |
+| **`ODBC_BINMODE_RETURN`**   | \>0         | повернути як є    |
+| **`ODBC_BINMODE_CONVERT`**  | \>0         | повернути як char |
 
 **Обробка LONGVARBINARY**
 

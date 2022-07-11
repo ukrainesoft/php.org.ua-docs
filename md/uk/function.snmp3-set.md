@@ -64,19 +64,19 @@ SNMP, вказаного в `object_id`.
 MIB визначає тип ідентифікатора кожного об'єкта. Він має бути вказаний
 як один символ з наступного списку.
 
-| | |
-|-----|----------------------|
+|       |                         |
+|-------|-------------------------|
 | u003d | Тип, що приймається MIB |
-| i | INTEGER |
-| u | INTEGER |
-| s | STRING |
-| x | HEX STRING |
-| d | DECIMAL STRING |
-| n | NULLOBJ |
-| o | OBJID |
-| t | TIMETICKS |
-| a | IPADDRESS |
-| b | BITS |
+| i     | INTEGER                 |
+| u     | INTEGER                 |
+| s     | STRING                  |
+| x     | HEX STRING              |
+| d     | DECIMAL STRING          |
+| n     | NULLOBJ                 |
+| o     | OBJID                   |
+| t     | TIMETICKS               |
+| a     | IPADDRESS               |
+| b     | BITS                    |
 
 **types**
 
@@ -84,12 +84,12 @@ MIB визначає тип ідентифікатора кожного об'є�
 **`OPAQUE_SPECIAL_TYPES`**, то також можуть бути використані такі
 типи:
 
-| | |
-|-----|----------------|
-| U | unsigned int64 |
-| I | signed int64 |
-| F | float |
-| D | double |
+|     |                |
+| --- | -------------- |
+| U   | unsigned int64 |
+| I   | signed int64   |
+| F   | float          |
+| D   | double         |
 
 **types**
 

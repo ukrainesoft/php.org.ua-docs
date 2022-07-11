@@ -196,12 +196,12 @@ PHP.
 
 ### Список змін
 
-| Версія | Опис |
-|-------------------------|----------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------------------------|
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **`false`**. |
-| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |
-| PECL win32service 1.0.0 Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed). |
-| PECL win32service 0.4.0 | Додані параметри `dependencies`, `recovery_delay`, `recovery_action_1`, `recovery_action_2`, `recovery_action_3`, `recovery_reset_period`, `recovery_enabled`, `recovery_reboot_msg` та `recovery_command`. |
+| Версія                                                                                                                                                                                      | Опис                                                                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **`false`**.                                                    |                                                                                                                                                                                                             |
+| PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |                                                                                                                                                                                                             |
+| PECL win32service 1.0.0 Тип повернення тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                    |                                                                                                                                                                                                             |
+| PECL win32service 0.4.0                                                                                                                                                                     | Додані параметри `dependencies`, `recovery_delay`, `recovery_action_1`, `recovery_action_2`, `recovery_action_3`, `recovery_reset_period`, `recovery_enabled`, `recovery_reboot_msg` та `recovery_command`. |
 
 ### Приклади
 

@@ -68,9 +68,9 @@ final public
 
 ## Список змін
 
-| Версія | Опис |
-|--------------------|---------------------------- -------------------------------------------------- |
-| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md). |
+| Версія             | Опис                                                                      |
+| ------------------ | ------------------------------------------------------------------------- |
+| PECL mongodb 1.7.0 | Реалізує [Serializable](class.serializable.md).                           |
 | PECL mongodb 1.2.0 | Реалізує [MongoDB\BSON\Serializable](class.mongodb-bson-serializable.md). |
 
 ## Зміст

@@ -31,24 +31,24 @@ yaf.dispatcher.catchException u003d 0
 ; user configuration list here
 ````
 
-| Ім'я За замовчуванням | Список змін |
-|------------------------------------------|------ -------------------------------------------------- |------------------|
-| application.directory | | |
-| application.ext | "PHP" | |
-| application.view.ext | "phtml" | |
-| application.modules | "index" | |
-| application.library | application.directory. "/library" | |
-| application.library.directory | application.directory. "/library" | |
-| application.library.namespace | "" | |
-| application.bootstrap | application.directory. "/Bootstrap" . application.ext | |
-| application.baseUri | "" | |
-| application.dispatcher.defaultRoute | | |
-| application.dispatcher.throwException | 1 | |
-| application.dispatcher.catchException | 0 | |
-| application.dispatcher.defaultModule | "index" | |
-| application.dispatcher.defaultController | "index" | |
-| application.dispatcher.defaultAction | "index" | |
-| application.system | | |
+| Ім'я За замовчуванням                    | Список змін                                           |
+| ---------------------------------------- | ----------------------------------------------------- |
+| application.directory                    |                                                       | 
+| application.ext                          | "PHP"                                                 | 
+| application.view.ext                     | "phtml"                                               | 
+| application.modules                      | "index"                                               | 
+| application.library                      | application.directory. "/library"                     | 
+| application.library.directory            | application.directory. "/library"                     | 
+| application.library.namespace            | ""                                                    | 
+| application.bootstrap                    | application.directory. "/Bootstrap" . application.ext | 
+| application.baseUri                      | ""                                                    | 
+| application.dispatcher.defaultRoute      |                                                       | 
+| application.dispatcher.throwException    | 1                                                     | 
+| application.dispatcher.catchException    | 0                                                     | 
+| application.dispatcher.defaultModule     | "index"                                               | 
+| application.dispatcher.defaultController | "index"                                               | 
+| application.dispatcher.defaultAction     | "index"                                               | 
+| application.system                       |                                                       | 
 
 **Конфігурація Yaf програми**
 

@@ -59,16 +59,16 @@ extensionu003doci8.so
 Ядро PHP містить статичні зонди. Дивіться розділ [Статичні
 зонди DTrace у ядрі PHP](features.dtrace.dtrace.md#features.dtrace.static-probes).
 
-| Ім'я зонда
-|-------------------------------|
-| `oci8-connect-expiry` |
-| `oci8-connect-lookup` |
-| `oci8-connect-p-dtor-close` |
+| Ім'я зонда                    |
+| ----------------------------- |
+| `oci8-connect-expiry`         |
+| `oci8-connect-lookup`         |
+| `oci8-connect-p-dtor-close`   |
 | `oci8-connect-p-dtor-release` |
-| `oci8-connect-type` |
-| `oci8-sesspool-create` |
-| `oci8-sesspool-stats` |
-| `oci8-sesspool-type` |
+| `oci8-connect-type`           |
+| `oci8-sesspool-create`        |
+| `oci8-sesspool-stats`         |
+| `oci8-sesspool-type`          |
 
 **Внутрішні налагоджувальні зонди DTrace в OCI8**
 

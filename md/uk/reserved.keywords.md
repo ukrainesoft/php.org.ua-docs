@@ -37,9 +37,9 @@
 
 \* Ключове слово `readonly` можна використовувати як ім'я функції.
 
-| | | | | | |
-|------------------------------------------------- ----------|--------------------------------------- --------------|----------------------------------- -----------------|-------------------------------- ------------------------|------------------------- ---------------------------|---------------------- --------------------------------|
-| [\_\_CLASS\_\_](language.constants.predefined.md) | [\_\_DIR\_\_](language.constants.predefined.md) | [\_\_FILE\_\_](language.constants.predefined.md) | [\_\_FUNCTION\_\_](language.constants.predefined.md) | [\_\_LINE\_\_](language.constants.predefined.md) | [\_\_METHOD\_\_](language.constants.predefined.md) |
-| [\_\_NAMESPACE\_\_](language.namespaces.nsconstants.md) | [\_\_TRAIT\_\_](language.constants.predefined.md) | | | | |
+|                                                         |                                                   |                                                  |                                                      |                                                  |                                                    |
+| ------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- | ------------------------------------------------ | -------------------------------------------------- |
+| [\_\_CLASS\_\_](language.constants.predefined.md)       | [\_\_DIR\_\_](language.constants.predefined.md)   | [\_\_FILE\_\_](language.constants.predefined.md) | [\_\_FUNCTION\_\_](language.constants.predefined.md) | [\_\_LINE\_\_](language.constants.predefined.md) | [\_\_METHOD\_\_](language.constants.predefined.md) |
+| [\_\_NAMESPACE\_\_](language.namespaces.nsconstants.md) | [\_\_TRAIT\_\_](language.constants.predefined.md) |                                                  |                                                      |                                                  |                                                    |
 
 **Константи етапу компіляції**

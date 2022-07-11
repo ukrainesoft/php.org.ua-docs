@@ -24,15 +24,15 @@
 Наступні драйвери в даний час реалізовані в PDO:
 
 | Найменування драйвера бази даних, що підтримуються |
-|---------------------------------------|--------- ---------------------------------|
-| [PDO_CUBRID](ref.pdo-cubrid.md) | Cubrid |
-| [PDO_DBLIB](ref.pdo-dblib.md) | FreeTDS / Microsoft SQL Server / Sybase |
-| [PDO_FIREBIRD](ref.pdo-firebird.md) | Firebird |
-| [PDO_IBM](ref.pdo-ibm.md) | IBM DB2
-| [PDO_INFORMIX](ref.pdo-informix.md) | IBM Informix Dynamic Server
-| [PDO_MYSQL](ref.pdo-mysql.md) | MySQL 3.x/4.x/5.x
-| [PDO_OCI](ref.pdo-oci.md) | Oracle Call Interface
-| [PDO_ODBC](ref.pdo-odbc.md) | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) |
-| [PDO_PGSQL](ref.pdo-pgsql.md) | PostgreSQL |
-| [PDO_SQLITE](ref.pdo-sqlite.md) | SQLite 3 та SQLite 2 |
-| [PDO_SQLSRV](ref.pdo-sqlsrv.md) | Microsoft SQL Server / SQL Azure |
+| -------------------------------------------------- |
+| [PDO_CUBRID](ref.pdo-cubrid.md)                    | Cubrid 
+| [PDO_DBLIB](ref.pdo-dblib.md)                      | FreeTDS / Microsoft SQL Server / Sybase 
+| [PDO_FIREBIRD](ref.pdo-firebird.md)                | Firebird 
+| [PDO_IBM](ref.pdo-ibm.md)                          | IBM DB2
+| [PDO_INFORMIX](ref.pdo-informix.md)                | IBM Informix Dynamic Server
+| [PDO_MYSQL](ref.pdo-mysql.md)                      | MySQL 3.x/4.x/5.x
+| [PDO_OCI](ref.pdo-oci.md)                          | Oracle Call Interface
+| [PDO_ODBC](ref.pdo-odbc.md)                        | ODBC v3 (IBM DB2, unixODBC та win32 ODBC) 
+| [PDO_PGSQL](ref.pdo-pgsql.md)                      | PostgreSQL 
+| [PDO_SQLITE](ref.pdo-sqlite.md)                    | SQLite 3 та SQLite 2 
+| [PDO_SQLSRV](ref.pdo-sqlsrv.md)                    | Microsoft SQL Server / SQL Azure 

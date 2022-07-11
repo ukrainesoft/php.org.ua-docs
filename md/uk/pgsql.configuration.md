@@ -9,14 +9,14 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ----------------------------------------|--------- -----|-----------------|------------------|
-| [pgsql.allow_persistent](pgsql.configuration.md#ini.pgsql.allow-persistent) | "1" | PHP_INI_SYSTEM | |
-| [pgsql.max_persistent](pgsql.configuration.md#ini.pgsql.max-persistent) | "-1" | PHP_INI_SYSTEM | |
-| [pgsql.max_links](pgsql.configuration.md#ini.pgsql.max-links) | "-1" | PHP_INI_SYSTEM | |
-| [pgsql.auto_reset_persistent](pgsql.configuration.md#ini.pgsql.auto-reset-persistent) | "0" | PHP_INI_SYSTEM | |
-| [pgsql.ignore_notice](pgsql.configuration.md#ini.pgsql.ignore-notice) | "0" | PHP_INI_ALL | |
-| [pgsql.log_notice](pgsql.configuration.md#ini.pgsql.log-notice) | "0" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                                 | Місце зміни | Список змін    |
+| ------------------------------------------------------------------------------------- | ----------- | -------------- |
+| [pgsql.allow_persistent](pgsql.configuration.md#ini.pgsql.allow-persistent)           | "1"         | PHP_INI_SYSTEM | 
+| [pgsql.max_persistent](pgsql.configuration.md#ini.pgsql.max-persistent)               | "-1"        | PHP_INI_SYSTEM | 
+| [pgsql.max_links](pgsql.configuration.md#ini.pgsql.max-links)                         | "-1"        | PHP_INI_SYSTEM | 
+| [pgsql.auto_reset_persistent](pgsql.configuration.md#ini.pgsql.auto-reset-persistent) | "0"         | PHP_INI_SYSTEM | 
+| [pgsql.ignore_notice](pgsql.configuration.md#ini.pgsql.ignore-notice)                 | "0"         | PHP_INI_ALL    | 
+| [pgsql.log_notice](pgsql.configuration.md#ini.pgsql.log-notice)                       | "0"         | PHP_INI_ALL    | 
 
 **Параметри конфігурації PostgreSQL**
 

@@ -128,14 +128,14 @@
 **Основна інформація про методи
 [mysqli_result](class.mysqli-result.md)**
 
-| MySQL_Driver | | | |
-|------------------------------------------------- -----------------------------------|-------------- -------------------------------------------------- ------------|---------------------------|--------- -------------------------------------|
-| ООП-інтерфейс Процедурний інтерфейс Синонім (не використовуйте!) Опис |
-| *Властивості* | | | |
-| [$mysqli_driver::mysqli_report](mysqli-driver.report-mode.md) | [mysqli_report()](function.mysqli-report.md) | Чи не документовано | Встановлює режим звіту про помилки mysqli
-| *Методи* | | | |
-| [mysqli_driver::embedded_server_end()](mysqli-driver.embedded-server-end.md) | [mysqli_embedded_server_end()](mysqli-driver.embedded-server-end.md) | \- | Чи не документовано |
-| [mysqli_driver::embedded_server_start()](mysqli-driver.embedded-server-start.md) | [mysqli_embedded_server_start()](mysqli-driver.embedded-server-start.md) | \- | Чи не документовано |
+| MySQL_Driver                                                                     |                                                                          |                     |                                           |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------- | ----------------------------------------- |
+| ООП-інтерфейс Процедурний інтерфейс Синонім (не використовуйте!) Опис            |                                                                          |                     |                                           |
+| *Властивості*                                                                    |                                                                          |                     |                                           |
+| [$mysqli_driver::mysqli_report](mysqli-driver.report-mode.md)                    | [mysqli_report()](function.mysqli-report.md)                             | Чи не документовано | Встановлює режим звіту про помилки mysqli |
+| *Методи*                                                                         |                                                                          |                     |                                           |
+| [mysqli_driver::embedded_server_end()](mysqli-driver.embedded-server-end.md)     | [mysqli_embedded_server_end()](mysqli-driver.embedded-server-end.md)     | \-                  | Чи не документовано                       |
+| [mysqli_driver::embedded_server_start()](mysqli-driver.embedded-server-start.md) | [mysqli_embedded_server_start()](mysqli-driver.embedded-server-start.md) | \-                  | Чи не документовано                       |
 
 **Основна інформація про методи
 [mysqli_driver](class.mysqli-driver.md)**

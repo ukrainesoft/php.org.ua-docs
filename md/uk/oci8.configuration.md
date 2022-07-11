@@ -9,18 +9,18 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------------------------------|-------- ------|-----------------|------------------------- -------------------------------------------------- ----------|
-| [oci8.connection_class](oci8.configuration.md#ini.oci8.connection-class) | "" | PHP_INI_ALL | Доступна з версії PECL OCI8 1.3. |
-| [oci8.default_prefetch](oci8.configuration.md#ini.oci8.default-prefetch) | "100" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.events](oci8.configuration.md#ini.oci8.events) | Off | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.3. |
-| [oci8.max_persistent](oci8.configuration.md#ini.oci8.max-persistent) | "-1" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. |
-| [oci8.old_oci_close_semantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) | Off | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.persistent_timeout](oci8.configuration.md#ini.oci8.persistent-timeout) | "-1" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.ping_interval](oci8.configuration.md#ini.oci8.ping-interval) | "60" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.prefetch_lob_size](oci8.configuration.md#ini.oci8.prefetch-lob-size) | "0" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 3.2. |
-| [oci8.privileged_connect](oci8.configuration.md#ini.oci8.privileged-connect) | Off | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
-| [oci8.statement_cache_size](oci8.configuration.md#ini.oci8.statement-cache-size) | "20" | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. |
+| Ім'я За замовчуванням                                                                  | Місце зміни | Список змін    |
+| -------------------------------------------------------------------------------------- | ----------- | -------------- |
+| [oci8.connection_class](oci8.configuration.md#ini.oci8.connection-class)               | ""          | PHP_INI_ALL    | Доступна з версії PECL OCI8 1.3. 
+| [oci8.default_prefetch](oci8.configuration.md#ini.oci8.default-prefetch)               | "100"       | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
+| [oci8.events](oci8.configuration.md#ini.oci8.events)                                   | Off         | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.3. 
+| [oci8.max_persistent](oci8.configuration.md#ini.oci8.max-persistent)                   | "-1"        | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. Оголошена застарілою починаючи з PHP 8.1.0. 
+| [oci8.old_oci_close_semantics](oci8.configuration.md#ini.oci8.old-oci-close-semantics) | Off         | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
+| [oci8.persistent_timeout](oci8.configuration.md#ini.oci8.persistent-timeout)           | "-1"        | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
+| [oci8.ping_interval](oci8.configuration.md#ini.oci8.ping-interval)                     | "60"        | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
+| [oci8.prefetch_lob_size](oci8.configuration.md#ini.oci8.prefetch-lob-size)             | "0"         | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 3.2. 
+| [oci8.privileged_connect](oci8.configuration.md#ini.oci8.privileged-connect)           | Off         | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
+| [oci8.statement_cache_size](oci8.configuration.md#ini.oci8.statement-cache-size)       | "20"        | PHP_INI_SYSTEM | Доступна з версії PECL OCI8 1.1. 
 
 **Параметри конфігурації OCI8**
 

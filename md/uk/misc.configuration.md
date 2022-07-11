@@ -9,15 +9,15 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ---------------------|--------------|------------- ----|------------------|
-| [ignore_user_abort](misc.configuration.md#ini.ignore-user-abort) | "0" | PHP_INI_ALL | |
-| [highlight.string](misc.configuration.md#ini.syntax-highlighting) | "#DD0000" | PHP_INI_ALL | |
-| [highlight.comment](misc.configuration.md#ini.syntax-highlighting) | "#FF8000" | PHP_INI_ALL | |
-| [highlight.keyword](misc.configuration.md#ini.syntax-highlighting) | "#007700" | PHP_INI_ALL | |
-| [highlight.default](misc.configuration.md#ini.syntax-highlighting) | "#0000BB" | PHP_INI_ALL | |
-| [highlight.md](misc.configuration.md#ini.syntax-highlighting) | "#000000" | PHP_INI_ALL | |
-| [browscap](misc.configuration.md#ini.browscap) | NULL | PHP_INI_SYSTEM | |
+| Ім'я За замовчуванням                                              | Місце зміни | Список змін    |
+| ------------------------------------------------------------------ | ----------- | -------------- |
+| [ignore_user_abort](misc.configuration.md#ini.ignore-user-abort)   | "0"         | PHP_INI_ALL    | 
+| [highlight.string](misc.configuration.md#ini.syntax-highlighting)  | "#DD0000"   | PHP_INI_ALL    | 
+| [highlight.comment](misc.configuration.md#ini.syntax-highlighting) | "#FF8000"   | PHP_INI_ALL    | 
+| [highlight.keyword](misc.configuration.md#ini.syntax-highlighting) | "#007700"   | PHP_INI_ALL    | 
+| [highlight.default](misc.configuration.md#ini.syntax-highlighting) | "#0000BB"   | PHP_INI_ALL    | 
+| [highlight.md](misc.configuration.md#ini.syntax-highlighting)      | "#000000"   | PHP_INI_ALL    | 
+| [browscap](misc.configuration.md#ini.browscap)                     | NULL        | PHP_INI_SYSTEM | 
 
 **Опції налаштувань різних функцій**
 

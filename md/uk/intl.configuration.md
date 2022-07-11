@@ -9,11 +9,11 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------------|--------------|----------- ------|-------------------------|
-| [intl.default_locale](intl.configuration.md#ini.intl.default-locale) | | PHP_INI_ALL | |
-| [intl.error_level](intl.configuration.md#ini.intl.error-level) | 0 | PHP_INI_ALL | |
-| [intl.use_exceptions](intl.configuration.md#ini.intl.use-exceptions) | 0 | PHP_INI_ALL | Доступно з PECL 3.0.0a1 |
+| Ім'я За замовчуванням                                                | Місце зміни | Список змін |
+| -------------------------------------------------------------------- | ----------- | ----------- |
+| [intl.default_locale](intl.configuration.md#ini.intl.default-locale) |             | PHP_INI_ALL | 
+| [intl.error_level](intl.configuration.md#ini.intl.error-level)       | 0           | PHP_INI_ALL | 
+| [intl.use_exceptions](intl.configuration.md#ini.intl.use-exceptions) | 0           | PHP_INI_ALL | Доступно з PECL 3.0.0a1 
 
 **Опції налаштування Intl**
 

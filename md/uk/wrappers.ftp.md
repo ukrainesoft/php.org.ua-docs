@@ -38,18 +38,18 @@ ftp:// -- ftps:// — Доступ до URL-адрес за протоколом
 
 ### Опції
 
-| Атрибут |підтримується |
-|------------------------------------------------- ------------------------------------|------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так |
-| Читання | Так |
-| Запис | Так (нові файли / існуючі файли з опцією `overwrite`) |
-| Додавання | Так |
-| Одночасне читання та запис | Ні |
-| Підтримка [stat()](function.stat.md) | [filesize()](function.filesize.md), [filemtime()](function.filemtime.md), [filetype()](function.filetype.md), [file_exists()](function.file-exists .md), [is_file()](function.is-file.md) та [is_dir()](function.is-dir.md). |
-| Підтримка [unlink()](function.unlink.md) | Так |
-| Підтримка [rename()](function.rename.md) | Так |
-| Підтримка [mkdir()](function.mkdir.md) | Так |
-| Підтримка [rmdir()](function.rmdir.md) | Так |
+| Атрибут                                                                         | підтримується                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Так                                                                                                                                                                                                                          |
+| Читання                                                                         | Так                                                                                                                                                                                                                          |
+| Запис                                                                           | Так (нові файли / існуючі файли з опцією `overwrite`)                                                                                                                                                                        |
+| Додавання                                                                       | Так                                                                                                                                                                                                                          |
+| Одночасне читання та запис                                                      | Ні                                                                                                                                                                                                                           |
+| Підтримка [stat()](function.stat.md)                                            | [filesize()](function.filesize.md), [filemtime()](function.filemtime.md), [filetype()](function.filetype.md), [file_exists()](function.file-exists .md), [is_file()](function.is-file.md) та [is_dir()](function.is-dir.md). |
+| Підтримка [unlink()](function.unlink.md)                                        | Так                                                                                                                                                                                                                          |
+| Підтримка [rename()](function.rename.md)                                        | Так                                                                                                                                                                                                                          |
+| Підтримка [mkdir()](function.mkdir.md)                                          | Так                                                                                                                                                                                                                          |
+| Підтримка [rmdir()](function.rmdir.md)                                          | Так                                                                                                                                                                                                                          |
 
 **Основна інформація**
 

@@ -9,19 +9,19 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- ----------------------------------|--------------| -----------------|------------------|
-| [mysql.allow_local_infile](mysql.configuration.md#ini.mysql.allow-local-infile) | "1" | PHP_INI_SYSTEM | |
-| [mysql.allow_persistent](mysql.configuration.md#ini.mysql.allow-persistent) | "1" | PHP_INI_SYSTEM | |
-| [mysql.max_persistent](mysql.configuration.md#ini.mysql.max-persistent) | "-1" | PHP_INI_SYSTEM | |
-| [mysql.max_links](mysql.configuration.md#ini.mysql.max-links) | "-1" | PHP_INI_SYSTEM | |
-| [mysql.trace_mode](mysql.configuration.md#ini.mysql.trace-mode) | "0" | PHP_INI_ALL | |
-| [mysql.default_port](mysql.configuration.md#ini.mysql.default-port) | NULL | PHP_INI_ALL | |
-| [mysql.default_socket](mysql.configuration.md#ini.mysql.default-socket) | NULL | PHP_INI_ALL | |
-| [mysql.default_host](mysql.configuration.md#ini.mysql.default-host) | NULL | PHP_INI_ALL | |
-| [mysql.default_user](mysql.configuration.md#ini.mysql.default-user) | NULL | PHP_INI_ALL | |
-| [mysql.default_password](mysql.configuration.md#ini.mysql.default-password) | NULL | PHP_INI_ALL | |
-| [mysql.connect_timeout](mysql.configuration.md#ini.mysql.connect-timeout) | "60" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                           | Місце зміни | Список змін    |
+| ------------------------------------------------------------------------------- | ----------- | -------------- |
+| [mysql.allow_local_infile](mysql.configuration.md#ini.mysql.allow-local-infile) | "1"         | PHP_INI_SYSTEM | 
+| [mysql.allow_persistent](mysql.configuration.md#ini.mysql.allow-persistent)     | "1"         | PHP_INI_SYSTEM | 
+| [mysql.max_persistent](mysql.configuration.md#ini.mysql.max-persistent)         | "-1"        | PHP_INI_SYSTEM | 
+| [mysql.max_links](mysql.configuration.md#ini.mysql.max-links)                   | "-1"        | PHP_INI_SYSTEM | 
+| [mysql.trace_mode](mysql.configuration.md#ini.mysql.trace-mode)                 | "0"         | PHP_INI_ALL    | 
+| [mysql.default_port](mysql.configuration.md#ini.mysql.default-port)             | NULL        | PHP_INI_ALL    | 
+| [mysql.default_socket](mysql.configuration.md#ini.mysql.default-socket)         | NULL        | PHP_INI_ALL    | 
+| [mysql.default_host](mysql.configuration.md#ini.mysql.default-host)             | NULL        | PHP_INI_ALL    | 
+| [mysql.default_user](mysql.configuration.md#ini.mysql.default-user)             | NULL        | PHP_INI_ALL    | 
+| [mysql.default_password](mysql.configuration.md#ini.mysql.default-password)     | NULL        | PHP_INI_ALL    | 
+| [mysql.connect_timeout](mysql.configuration.md#ini.mysql.connect-timeout)       | "60"        | PHP_INI_ALL    | 
 
 **Директиви конфігурації MySQL**
 

@@ -90,20 +90,20 @@ PHP надає кілька різноманітних потоків введе
 
 ### Опції
 
-| Атрибут Підтримка
-|------------------------------------------------- ----------------------------------------|--------- -------------------------------------------------- -------------------------------------------------- ------------|
-| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen) | Ні |
-| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | тільки `php://input`, `php://stdin`, `php://memory` та `php://temp`. |
-| Читання | тільки `php://stdin`, `php://input`, `php://fd`, `php://memory` та `php://temp`. |
-| Запис | тільки `php://stdout`, `php://stderr`, `php://output`, `php://fd`, `php://memory` та `php://temp`. |
-| Додавання | тільки `php://stdout`, `php://stderr`, `php://output`, `php://fd`, `php://memory` та `php://temp`. (еквівалентно запису) |
-| Одночасне читання та запис | тільки `php://fd`, `php://memory` та `php://temp`. |
-| Підтримка [stat()](function.stat.md) | ні. Тим не менш, `php://memory` та `php://temp` підтримують [fstat()](function.fstat.md). |
-| Підтримка [unlink()](function.unlink.md) | Ні |
-| Підтримка [rename()](function.rename.md) | Ні |
-| Підтримка [mkdir()](function.mkdir.md) | Ні |
-| Підтримка [rmdir()](function.rmdir.md) | Ні |
-| Підтримка [stream_select()](function.stream-select.md) | тільки `php://stdin`, `php://stdout`, `php://stderr`, `php://fd` та `php://temp`. |
+| Атрибут Підтримка                                                                   |
+| ----------------------------------------------------------------------------------- |
+| Обмеження на [allow_url_fopen](filesystem.configuration.md#ini.allow-url-fopen)     | Ні 
+| Обмеження на [allow_url_include](filesystem.configuration.md#ini.allow-url-include) | тільки `php://input`, `php://stdin`, `php://memory` та `php://temp`. 
+| Читання                                                                             | тільки `php://stdin`, `php://input`, `php://fd`, `php://memory` та `php://temp`. 
+| Запис                                                                               | тільки `php://stdout`, `php://stderr`, `php://output`, `php://fd`, `php://memory` та `php://temp`. 
+| Додавання                                                                           | тільки `php://stdout`, `php://stderr`, `php://output`, `php://fd`, `php://memory` та `php://temp`. (еквівалентно запису) 
+| Одночасне читання та запис                                                          | тільки `php://fd`, `php://memory` та `php://temp`. 
+| Підтримка [stat()](function.stat.md)                                                | ні. Тим не менш, `php://memory` та `php://temp` підтримують [fstat()](function.fstat.md). 
+| Підтримка [unlink()](function.unlink.md)                                            | Ні 
+| Підтримка [rename()](function.rename.md)                                            | Ні 
+| Підтримка [mkdir()](function.mkdir.md)                                              | Ні 
+| Підтримка [rmdir()](function.rmdir.md)                                              | Ні 
+| Підтримка [stream_select()](function.stream-select.md)                              | тільки `php://stdin`, `php://stdout`, `php://stderr`, `php://fd` та `php://temp`. 
 
 **Основна інформація (для `php://filter` дивіться інформацію щодо
 обгортці, яка піддається фільтрації)**

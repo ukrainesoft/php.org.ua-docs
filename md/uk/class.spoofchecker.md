@@ -99,9 +99,9 @@ public [setChecks](spoofchecker.setchecks.md)(int `$checks`): void
 
 ## Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------------------------------------|
-| 7.3.0 | Додані константи класу, що використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`**, **`Spoofchecker::HIGHLY_RESTRICTIVE`**, **`Spoofchecker::MODERATELY_RESTRICTIVE`* *, **`Spoofchecker::MINIMALLY_RESTRICTIVE`**, **`Spoofchecker::UNRESTRICTIVE`**, **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`**. |
+| Версія | Опис                                                                                                                                                                                                                                                                                                                                       |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 7.3.0  | Додані константи класу, що використовуються **Spoofchecker::setRestrictionLevel()**, такі як: **`Spoofchecker::ASCII`**, **`Spoofchecker::HIGHLY_RESTRICTIVE`**, **`Spoofchecker::MODERATELY_RESTRICTIVE`* *, **`Spoofchecker::MINIMALLY_RESTRICTIVE`**, **`Spoofchecker::UNRESTRICTIVE`**, **`Spoofchecker::SINGLE_SCRIPT_RESTRICTIVE`**. |
 
 ## Зміст
 

@@ -9,43 +9,43 @@
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -------------------------------------------------- --|------------------------------------|---------- -------|------------------------------------------ -----|
-| [session.save_path](session.configuration.md#ini.session.save-path) | "" | PHP_INI_ALL | |
-| [session.name](session.configuration.md#ini.session.name) | "PHPSESSID" | PHP_INI_ALL | |
-| [session.save_handler](session.configuration.md#ini.session.save-handler) | "files" | PHP_INI_ALL | |
-| [session.auto_start](session.configuration.md#ini.session.auto-start) | "0" | PHP_INI_PERDIR | |
-| [session.gc_probability](session.configuration.md#ini.session.gc-probability) | "1" | PHP_INI_ALL | |
-| [session.gc_divisor](session.configuration.md#ini.session.gc-divisor) | "100" | PHP_INI_ALL | |
-| [session.gc_maxlifetime](session.configuration.md#ini.session.gc-maxlifetime) | "1440" | PHP_INI_ALL | |
-| [session.serialize_handler](session.configuration.md#ini.session.serialize-handler) | "php" | PHP_INI_ALL | |
-| [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime) | "0" | PHP_INI_ALL | |
-| [session.cookie_path](session.configuration.md#ini.session.cookie-path) | "/" | PHP_INI_ALL | |
-| [session.cookie_domain](session.configuration.md#ini.session.cookie-domain) | "" | PHP_INI_ALL | |
-| [session.cookie_secure](session.configuration.md#ini.session.cookie-secure) | "0" | PHP_INI_ALL | До PHP 7.2.0 значення за промовчанням було """. |
-| [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly) | "0" | PHP_INI_ALL | До PHP 7.2.0 значення за промовчанням було """. |
-| [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite) | "" | PHP_INI_ALL | Доступна з PHP 7.3.0. |
-| [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode) | "0" | PHP_INI_ALL | |
-| [session.use_cookies](session.configuration.md#ini.session.use-cookies) | "1" | PHP_INI_ALL | |
-| [session.use_only_cookies](session.configuration.md#ini.session.use-only-cookies) | "1" | PHP_INI_ALL | |
-| [session.referer_check](session.configuration.md#ini.session.referer-check) | "" | PHP_INI_ALL | |
-| [session.cache_limiter](session.configuration.md#ini.session.cache-limiter) | "nocache" | PHP_INI_ALL | |
-| [session.cache_expire](session.configuration.md#ini.session.cache-expire) | "180" | PHP_INI_ALL | |
-| [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid) | "0" | PHP_INI_ALL | |
-| [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags) | "au003dhref,areau003dhref,frameu003dsrc,formu003d" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts) | `$_SERVER['HTTP_HOST']` | PHP_INI_ALL | Доступна з PHP 7.1.0. | | [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character) | "4" | PHP_INI_ALL | Доступна з PHP 7.1.0. |
-| [session.upload_progress.enabled](session.configuration.md#ini.session.upload-progress.enabled) | "1" | PHP_INI_PERDIR | |
-| [session.upload_progress.cleanup](session.configuration.md#ini.session.upload-progress.cleanup) | "1" | PHP_INI_PERDIR | |
-| [session.upload_progress.prefix](session.configuration.md#ini.session.upload-progress.prefix) | "upload_progress\_" | PHP_INI_PERDIR | |
-| [session.upload_progress.name](session.configuration.md#ini.session.upload-progress.name) | "PHP_SESSION_UPLOAD_PROGRESS" | PHP_INI_PERDIR | |
-| [session.upload_progress.freq](session.configuration.md#ini.session.upload-progress.freq) | "1%" | PHP_INI_PERDIR | |
-| [session.upload_progress.min_freq](session.configuration.md#ini.session.upload-progress.min-freq) | "1" | PHP_INI_PERDIR | |
-| [session.lazy_write](session.configuration.md#ini.session.lazy-write) | "1" | PHP_INI_ALL | |
-| [session.hash_function](session.configuration.md#ini.session.hash-function) | "0" | PHP_INI_ALL | Видалено в PHP 7.1.0. |
-| [session.hash_bits_per_character](session.configuration.md#ini.session.hash-bits-per-character) | "4" | PHP_INI_ALL | Видалено в PHP 7.1.0. |
-| [session.entropy_file](session.configuration.md#ini.session.entropy-file) | "" | PHP_INI_ALL | Видалено в PHP 7.1.0. |
-| [session.entropy_length](session.configuration.md#ini.session.entropy-length) | "0" | PHP_INI_ALL | Видалено в PHP 7.1.0 |
+| Ім'я За замовчуванням                                                                             | Місце зміни                                        | Список змін    |
+| ------------------------------------------------------------------------------------------------- | -------------------------------------------------- | -------------- |
+| [session.save_path](session.configuration.md#ini.session.save-path)                               | ""                                                 | PHP_INI_ALL    | 
+| [session.name](session.configuration.md#ini.session.name)                                         | "PHPSESSID"                                        | PHP_INI_ALL    | 
+| [session.save_handler](session.configuration.md#ini.session.save-handler)                         | "files"                                            | PHP_INI_ALL    | 
+| [session.auto_start](session.configuration.md#ini.session.auto-start)                             | "0"                                                | PHP_INI_PERDIR | 
+| [session.gc_probability](session.configuration.md#ini.session.gc-probability)                     | "1"                                                | PHP_INI_ALL    | 
+| [session.gc_divisor](session.configuration.md#ini.session.gc-divisor)                             | "100"                                              | PHP_INI_ALL    | 
+| [session.gc_maxlifetime](session.configuration.md#ini.session.gc-maxlifetime)                     | "1440"                                             | PHP_INI_ALL    | 
+| [session.serialize_handler](session.configuration.md#ini.session.serialize-handler)               | "php"                                              | PHP_INI_ALL    | 
+| [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime)                   | "0"                                                | PHP_INI_ALL    | 
+| [session.cookie_path](session.configuration.md#ini.session.cookie-path)                           | "/"                                                | PHP_INI_ALL    | 
+| [session.cookie_domain](session.configuration.md#ini.session.cookie-domain)                       | ""                                                 | PHP_INI_ALL    | 
+| [session.cookie_secure](session.configuration.md#ini.session.cookie-secure)                       | "0"                                                | PHP_INI_ALL    | До PHP 7.2.0 значення за промовчанням було """. 
+| [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly)                   | "0"                                                | PHP_INI_ALL    | До PHP 7.2.0 значення за промовчанням було """. 
+| [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)                   | ""                                                 | PHP_INI_ALL    | Доступна з PHP 7.3.0. 
+| [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)                   | "0"                                                | PHP_INI_ALL    | 
+| [session.use_cookies](session.configuration.md#ini.session.use-cookies)                           | "1"                                                | PHP_INI_ALL    | 
+| [session.use_only_cookies](session.configuration.md#ini.session.use-only-cookies)                 | "1"                                                | PHP_INI_ALL    | 
+| [session.referer_check](session.configuration.md#ini.session.referer-check)                       | ""                                                 | PHP_INI_ALL    | 
+| [session.cache_limiter](session.configuration.md#ini.session.cache-limiter)                       | "nocache"                                          | PHP_INI_ALL    | 
+| [session.cache_expire](session.configuration.md#ini.session.cache-expire)                         | "180"                                              | PHP_INI_ALL    | 
+| [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid)                       | "0"                                                | PHP_INI_ALL    | 
+| [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags)                     | "au003dhref,areau003dhref,frameu003dsrc,formu003d" | PHP_INI_ALL    | Доступна з PHP 7.1.0. 
+| [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts)                   | `$_SERVER['HTTP_HOST']`                            | PHP_INI_ALL    | Доступна з PHP 7.1.0. | | [session.sid_length](session.configuration.md#ini.session.sid-length) | "32" | PHP_INI_ALL | Доступна з PHP 7.1.0. 
+| [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character)     | "4"                                                | PHP_INI_ALL    | Доступна з PHP 7.1.0. 
+| [session.upload_progress.enabled](session.configuration.md#ini.session.upload-progress.enabled)   | "1"                                                | PHP_INI_PERDIR | 
+| [session.upload_progress.cleanup](session.configuration.md#ini.session.upload-progress.cleanup)   | "1"                                                | PHP_INI_PERDIR | 
+| [session.upload_progress.prefix](session.configuration.md#ini.session.upload-progress.prefix)     | "upload_progress\_"                                | PHP_INI_PERDIR | 
+| [session.upload_progress.name](session.configuration.md#ini.session.upload-progress.name)         | "PHP_SESSION_UPLOAD_PROGRESS"                      | PHP_INI_PERDIR | 
+| [session.upload_progress.freq](session.configuration.md#ini.session.upload-progress.freq)         | "1%"                                               | PHP_INI_PERDIR | 
+| [session.upload_progress.min_freq](session.configuration.md#ini.session.upload-progress.min-freq) | "1"                                                | PHP_INI_PERDIR | 
+| [session.lazy_write](session.configuration.md#ini.session.lazy-write)                             | "1"                                                | PHP_INI_ALL    | 
+| [session.hash_function](session.configuration.md#ini.session.hash-function)                       | "0"                                                | PHP_INI_ALL    | Видалено в PHP 7.1.0. 
+| [session.hash_bits_per_character](session.configuration.md#ini.session.hash-bits-per-character)   | "4"                                                | PHP_INI_ALL    | Видалено в PHP 7.1.0. 
+| [session.entropy_file](session.configuration.md#ini.session.entropy-file)                         | ""                                                 | PHP_INI_ALL    | Видалено в PHP 7.1.0. 
+| [session.entropy_length](session.configuration.md#ini.session.entropy-length)                     | "0"                                                | PHP_INI_ALL    | Видалено в PHP 7.1.0 
 
 **Опції налаштування механізму сесій**
 

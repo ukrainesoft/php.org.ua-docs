@@ -193,10 +193,10 @@ SSL-шифрування у форматі, який розуміє OpenSSL. Н�
 
 Поведінка цих функцій залежить від установок `php.ini`.
 
-| Ім'я За замовчуванням | Місце зміни |
-|------------------------------------------------- ----------------------------|-------------------|- ----------------|
-| [pdo_mysql.default_socket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket) | "/tmp/mysql.sock" | PHP_INI_SYSTEM |
-| [pdo_mysql.debug](ref.pdo-mysql.md#ini.pdo-mysql.debug) | NULL | PHP_INI_SYSTEM |
+| Ім'я За замовчуванням                                                     | Місце зміни       |
+| ------------------------------------------------------------------------- | ----------------- |
+| [pdo_mysql.default_socket](ref.pdo-mysql.md#ini.pdo-mysql.default-socket) | "/tmp/mysql.sock" | PHP_INI_SYSTEM 
+| [pdo_mysql.debug](ref.pdo-mysql.md#ini.pdo-mysql.debug)                   | NULL              | PHP_INI_SYSTEM 
 
 **Опції конфігурації PDO_MYSQL**
 

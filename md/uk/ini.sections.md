@@ -18,10 +18,10 @@
 бути використані директиви [extension](ini.core.md#ini.extension) та
 [zend_extension](ini.core.md#ini.zend-extension).
 
-| Назва | Місце зміни | Історія змін
-|---------------------------------------------|--- --------------|-------------------|
-| [[HOSTu003d]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM | |
-| [[PATHu003d]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM | |
+| Назва                                       | Місце зміни    | Історія змін |
+| ------------------------------------------- | -------------- | ------------ |
+| [[HOSTu003d]](ini.sections.md#ini.per-host) | PHP_INI_SYSTEM |              |
+| [[PATHu003d]](ini.sections.md#ini.per-path) | PHP_INI_SYSTEM |              |
 
 **Розділи**
 

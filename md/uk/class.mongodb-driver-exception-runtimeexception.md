@@ -84,9 +84,9 @@ private [Exception::\_\_clone](exception.clone.md)(): void
 
 ## Список змін
 
-| Версія | Опис |
-|--------------------|---------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -------------------------------------------------- -----------------------------------|
-| PECL mongodb 1.6.0 Доданий метод [MongoDB\Driver\Exception\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) та властивість [MongoDB\Driver\Exception\RuntimeException::errorLabels](class.mongodb-driver-except runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels). |
+| Версія                                                                                                                                                                                                                                                                                                                                | Опис |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| PECL mongodb 1.6.0 Доданий метод [MongoDB\Driver\Exception\RuntimeException::hasErrorLabel()](mongodb-driver-runtimeexception.haserrorlabel.md) та властивість [MongoDB\Driver\Exception\RuntimeException::errorLabels](class.mongodb-driver-except runtimeexception.md#mongodb-driver-exception-runtimeexception.props.errorlabels). |      |
 
 ## Зміст
 

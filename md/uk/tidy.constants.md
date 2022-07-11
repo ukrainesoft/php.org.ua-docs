@@ -168,21 +168,21 @@
 
 **Константи Tidy, що відповідають тегам**
 
-| Константа Опис |
-|------------------------------|------------------ -----------------------|
-| **`TIDY_NODETYPE_ROOT`** | Кореневий вузол
-| **`TIDY_NODETYPE_DOCTYPE`** | Тип документа
-| **`TIDY_NODETYPE_COMMENT`** | HTML-коментар |
-| **`TIDY_NODETYPE_PROCINS`** | Інструкції з обробки у потоці виведення
-| **`TIDY_NODETYPE_TEXT`** | Текст
-| **`TIDY_NODETYPE_START`** | Відкриваючи тег |
-| **`TIDY_NODETYPE_END`** | Закриває тег |
-| **`TIDY_NODETYPE_STARTEND`** | Порожній тег |
-| **`TIDY_NODETYPE_CDATA`** | Символьні дані
-| **`TIDY_NODETYPE_SECTION`** | Розділ XML
-| **`TIDY_NODETYPE_ASP`** | ASP-код
-| **`TIDY_NODETYPE_JSTE`** | JSTE-код
-| **`TIDY_NODETYPE_PHP`** | PHP-код
-| **`TIDY_NODETYPE_XMLDECL`** | Оголошення XML |
+| Константа Опис               |
+| ---------------------------- |
+| **`TIDY_NODETYPE_ROOT`**     | Кореневий вузол
+| **`TIDY_NODETYPE_DOCTYPE`**  | Тип документа
+| **`TIDY_NODETYPE_COMMENT`**  | HTML-коментар 
+| **`TIDY_NODETYPE_PROCINS`**  | Інструкції з обробки у потоці виведення
+| **`TIDY_NODETYPE_TEXT`**     | Текст
+| **`TIDY_NODETYPE_START`**    | Відкриваючи тег 
+| **`TIDY_NODETYPE_END`**      | Закриває тег 
+| **`TIDY_NODETYPE_STARTEND`** | Порожній тег 
+| **`TIDY_NODETYPE_CDATA`**    | Символьні дані
+| **`TIDY_NODETYPE_SECTION`**  | Розділ XML
+| **`TIDY_NODETYPE_ASP`**      | ASP-код
+| **`TIDY_NODETYPE_JSTE`**     | JSTE-код
+| **`TIDY_NODETYPE_PHP`**      | PHP-код
+| **`TIDY_NODETYPE_XMLDECL`**  | Оголошення XML 
 
 **Константи Tidy, що відповідають типу вузлів**

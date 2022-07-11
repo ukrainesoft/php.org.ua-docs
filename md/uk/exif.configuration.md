@@ -16,14 +16,14 @@ Unicode і JIS користувальницьких коментарів, кол
 результат кодується в іншому наборі символів, який має співпадати
 з вашим `HTTP`-висновком.
 
-| Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------------------------------|-------- -------|---------------------|------------------|
-| [exif.encode_unicode](exif.configuration.md#ini.exif.encode-unicode) | "ISO-8859-15" | PHP_INI_ALL | |
-| [exif.decode_unicode_motorola](exif.configuration.md#ini.exif.decode-unicode-motorola) | "UCS-2BE" | PHP_INI_ALL | |
-| [exif.decode_unicode_intel](exif.configuration.md#ini.exif.decode-unicode-intel) | "UCS-2LE" | PHP_INI_ALL | |
-| [exif.encode_jis](exif.configuration.md#ini.exif.encode-jis) | "" | PHP_INI_ALL | |
-| [exif.decode_jis_motorola](exif.configuration.md#ini.exif.decode-jis-motorola) | "JIS" | PHP_INI_ALL | |
-| [exif.decode_jis_intel](exif.configuration.md#ini.exif.decode-jis-intel) | "JIS" | PHP_INI_ALL | |
+| Ім'я За замовчуванням                                                                  | Місце зміни   | Список змін |
+| -------------------------------------------------------------------------------------- | ------------- | ----------- |
+| [exif.encode_unicode](exif.configuration.md#ini.exif.encode-unicode)                   | "ISO-8859-15" | PHP_INI_ALL | 
+| [exif.decode_unicode_motorola](exif.configuration.md#ini.exif.decode-unicode-motorola) | "UCS-2BE"     | PHP_INI_ALL | 
+| [exif.decode_unicode_intel](exif.configuration.md#ini.exif.decode-unicode-intel)       | "UCS-2LE"     | PHP_INI_ALL | 
+| [exif.encode_jis](exif.configuration.md#ini.exif.encode-jis)                           | ""            | PHP_INI_ALL | 
+| [exif.decode_jis_motorola](exif.configuration.md#ini.exif.decode-jis-motorola)         | "JIS"         | PHP_INI_ALL | 
+| [exif.decode_jis_intel](exif.configuration.md#ini.exif.decode-jis-intel)               | "JIS"         | PHP_INI_ALL | 
 
 **Опції конфігурації Exif**
 

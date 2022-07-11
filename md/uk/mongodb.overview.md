@@ -78,10 +78,10 @@ mongo та його користувачів у найближчому майб�
 нових проектів у майбутньому. Ви можете знайти всі необхідні компоненти в
 GitHub та JIRA:
 
-| Проект | GitHub | JIRA |
-|--------------------------------|---------------- -------------------------------------------------- -----------|-------------------------------------- --------------|
-| PHP бібліотека [»mongodb/mongo-php-library](https://github.com/mongodb/mongo-php-library) | [»PHPLIB](https://jira.mongodb.org/browse/PHPLIB) |
-| PHP 5 та PHP 7 драйвер (phongo) | [»mongodb/mongo-php-driver](https://github.com/mongodb/mongo-php-driver) | [» PHPC](https://jira.mongodb.org/browse/PHPC) |
+| Проект                                                                                    | GitHub                                                                   | JIRA                                           |
+| ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------- |
+| PHP бібліотека [»mongodb/mongo-php-library](https://github.com/mongodb/mongo-php-library) | [»PHPLIB](https://jira.mongodb.org/browse/PHPLIB)                        |                                                |
+| PHP 5 та PHP 7 драйвер (phongo)                                                           | [»mongodb/mongo-php-driver](https://github.com/mongodb/mongo-php-driver) | [» PHPC](https://jira.mongodb.org/browse/PHPC) |
 
 **Вихідний код драйвера та розташування JIRA**
 

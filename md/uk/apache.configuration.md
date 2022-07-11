@@ -19,10 +19,10 @@
 php_flag engine off
 
 | Ім'я За замовчуванням | Місце зміни | Список змін |
-|------------------------------------------------- -----------------|--------------|----------------- |------------------|
+| --------------------- | ----------- | ----------- |
 PHP_INI_ALL | || [engine](apache.configuration.md#ini.engine) | "1" | 
-| [child_terminate](apache.configuration.md#ini.child-terminate) | "0" | PHP_INI_ALL | |
-| [last_modified](apache.configuration.md#ini.last-modified) | "0" | PHP_INI_ALL | |
+| [child_terminate](apache.configuration.md#ini.child-terminate) | "0" | PHP_INI_ALL |     |
+| [------------------------------------------------------------) | "-" | P---------L | u-- |
 PHP_INI_ALL | || [xbithack](apache.configuration.md#ini.xbithack) | "0" | 
 
 **Налаштування конфігурації Apache**

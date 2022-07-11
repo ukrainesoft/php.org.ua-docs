@@ -22,7 +22,7 @@ public static **IntlChar::isWhitespace**(int\|string `$codepoint`):
 Символ є символом ICU, якщо він відповідає
 одному з наступних критеріїв:
 
-- Це символ роздільника Unicode (категорії "Z" u003d "Zs" або "Zl" або
+- Це символ роздільника Unicode (категорії "Z" = "Zs" або "Zl" або
 "Zp"), але не є нерозривним пробілом (U+00A0 NBSP або U+2007
 "Figure Space" або U+202F "Narrow NBSP").
 - Це U+0009 HORIZONTAL TABULATION.

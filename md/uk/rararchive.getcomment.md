@@ -9,7 +9,7 @@
 
 #rar_comment_get
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::getComment -- rar_comment_get — Отримати текст коментаря
 з архіву RAR
@@ -51,7 +51,7 @@ string
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$rar_arch u003d RarArchive::open('commented.rar');echo $rar_arch->getComment();?> `
+` <?php$rar_arch = RarArchive::open('commented.rar');echo $rar_arch->getComment();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -59,4 +59,4 @@ string
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$rar_arch u003d rar_open('commented.rar');echo rar_comment_get($rar_arch);?> `
+` <?php$rar_arch = rar_open('commented.rar');echo rar_comment_get($rar_arch);?> `

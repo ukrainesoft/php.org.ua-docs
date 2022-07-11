@@ -14,7 +14,7 @@ hebrev — Перетворює текст на іврит з логічного
 
 ### Опис
 
-**hebrev**(string `$string`, int `$max_chars_per_line` u003d 0): string
+**hebrev**(string `$string`, int `$max_chars_per_line` = 0): string
 
 Перетворює текст на івриті з логічного кодування на візуальне.
 

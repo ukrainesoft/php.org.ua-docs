@@ -7,7 +7,7 @@
 
 # SolrResponse::getResponse
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrResponse::getResponse — Повертає SolrObject, що представляє відповідь
 XML від сервера

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Timestamp::jsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Timestamp::jsonSerialize — Повертає виставу,
 яке можна перетворити на JSON

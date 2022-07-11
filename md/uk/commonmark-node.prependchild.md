@@ -7,7 +7,7 @@
 
 # CommonMark\Node::prependChild
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Node::prependChild - Маніпуляції з AST (Абстрактне
 синтаксичне дерево)

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\ServerHeartbeatFailedEvent::isAwaited —
 Повертає, чи використовувався в heartbeat потоковий протокол

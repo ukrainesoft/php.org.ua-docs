@@ -34,7 +34,7 @@ public **SoapClient::\_\_getLastRequest**(): ?string
 
 **Приклад #1 Приклад використання SoapClient::\_\_getLastRequest()**
 
-` <?php$client u003d new SoapClient("some.wsdl", array('trace' u003d> 1));$result u003d $client->SomeFunction();echo "ЗАПИТАННЯ:
+` <?php$client = new SoapClient("some.wsdl", array('trace' => 1));$result = $client->SomeFunction();echo "ЗАПИТАННЯ:
 " . $client->__getLastRequest() . "
 ";?> `
 

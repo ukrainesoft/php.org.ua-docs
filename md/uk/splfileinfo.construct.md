@@ -7,7 +7,7 @@
 
 # SplFileInfo::\_\_construct
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::\_\_construct — Створити новий об'єкт SplFileInfo
 
@@ -27,4 +27,4 @@ public **SplFileInfo::\_\_construct**(string `$filename`)
 
 **Приклад #1 Приклад використання **SplFileInfo::\_\_construct()****
 
-` <?php$info u003d new SplFileInfo('example.php');if ($info->isFile()) {   echo $info->getRealPath();}?> `
+` <?php$info = new SplFileInfo('example.php');if ($info->isFile()) {   echo $info->getRealPath();}?> `

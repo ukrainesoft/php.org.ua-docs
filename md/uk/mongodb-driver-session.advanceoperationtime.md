@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::advanceOperationTime
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::advanceOperationTime — Збільшує час
 операції для сеансу

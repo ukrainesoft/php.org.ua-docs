@@ -7,7 +7,7 @@
 
 # SolrQuery::setShowDebugInfo
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setShowDebugInfo — Прапор для відображення налагоджувальної інформації
 

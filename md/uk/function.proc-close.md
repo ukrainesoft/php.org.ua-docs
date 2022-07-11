@@ -8,7 +8,7 @@
 
 # proc_close
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 proc_close — Завершити процес, відкритий
 [proc_open()](function.proc-open.md) і повернути код повернення цього

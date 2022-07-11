@@ -13,7 +13,7 @@ gzfile — Зчитує весь gz-файл у масив
 
 ### Опис
 
-**gzfile**(string `$filename`, int `$use_include_path` u003d 0):
+**gzfile**(string `$filename`, int `$use_include_path` = 0):
 array\|false
 
 Аналогічна [readgzfile()](function.readgzfile.md), за винятком
@@ -39,7 +39,7 @@ array\|false
 
 **Приклад #1 Приклад використання **gzfile()****
 
-` <?php$lines u003d gzfile('somefile.gz');foreach ($lines as $line) {    echo $line;}?> `
+` <?php$lines = gzfile('somefile.gz');foreach ($lines as $line) {    echo $line;}?> `
 
 ### Дивіться також
 

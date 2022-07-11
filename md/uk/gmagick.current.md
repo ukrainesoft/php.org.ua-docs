@@ -7,7 +7,7 @@
 
 # Gmagick::current
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::current — Повернути себе
 

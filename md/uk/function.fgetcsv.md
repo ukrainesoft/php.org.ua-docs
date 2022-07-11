@@ -15,10 +15,10 @@ fgetcsv — Читає рядок з файлу та проводить розб
 
 **fgetcsv**(
 resource `$stream`,
-?int `$length` u003d **`null`**,
-string `$separator` u003d ",",
-string `$enclosure` u003d "\"",
-string `$escape` u003d "\\"
+?int `$length` = **`null`**,
+string `$separator` = ",",
+string `$enclosure` = "\"",
+string `$escape` = "\\"
 ): array\|false
 
 Ця функція схожа на функцію [fgets()](function.fgets.md), з тією
@@ -88,7 +88,7 @@ CSV-файлі (включаючи завершальний символ кін�
 ### Список змін
 
 | Версія | Опис                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Параметр length тепер допускає значення **null**.                                                        |
 | 7.4.0  | Тепер параметр escape може приймати порожній рядок для відключення пропрієтарного механізму екранування. |
 
@@ -96,8 +96,8 @@ CSV-файлі (включаючи завершальний символ кін�
 
 **Приклад #1 Читання та відображення вмісту CSV-файлу**
 
-` <?php$row u003d 1;if (($handle u003d fopen("test.csv", "r"))!u003du003d FALSE) {    while (($data u003d fgetcsv($handle, 1000, ) )) !u003du003d FALSE) {         $num u003d count($data); echo "<p> $num полів у рядку $row: <br /></p>
-";|        $row++;        for ($cu003d0; $c < $num; $c++) {             echo$|
+` <?php$row = 1;if (($handle = fopen("test.csv", "r"))!== FALSE) {    while (($data = fgetcsv($handle, 1000, ) )) !== FALSE) {         $num = count($data); echo "<p> $num полів у рядку $row: <br /></p>
+";|        $row++;        for ($c=0; $c < $num; $c++) {             echo$|
 ";         }    }   fclose($handle);}?> `
 
 ### Дивіться також

@@ -20,7 +20,7 @@ class **ReflectionFunction** extends
 
 /\* Константи \*/
 
-const int `IS_DEPRECATED` u003d 262144;
+const int `IS_DEPRECATED` = 262144;
 
 /\* Наслідувані властивості \*/
 
@@ -33,7 +33,7 @@ public
 `$function`)
 
 public static [export](reflectionfunction.export.md)(string `$name`,
-string `$return` u003d ?): string
+string `$return` = ?): string
 
 public [getClosure](reflectionfunction.getclosure.md)():
 [Closure](class.closure.md)
@@ -58,7 +58,7 @@ void
 
 public
 [ReflectionFunctionAbstract::getAttributes](reflectionfunctionabstract.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [ReflectionFunctionAbstract::getClosureScopeClass](reflectionfunctionabstract.getclosurescopeclass.md)():

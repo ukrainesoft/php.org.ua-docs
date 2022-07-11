@@ -7,7 +7,7 @@
 
 #filter_list
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 filter_list — Повертає список усіх підтримуваних фільтрів
 
@@ -36,22 +36,22 @@ filter_list — Повертає список усіх підтримувани�
 
 Array
 (
-[0] u003d> int
-[1] u003d> boolean
-[2] u003d> float
-[3] u003d> validate_regexp
-[4] u003d> validate_url
-[5] u003d> validate_email
-[6] u003d> validate_ip
-[7] u003d> string
-[8] u003d> stripped
-[9] u003d> encoded
-[10] u003d> special_chars
-[11] u003d> unsafe_raw
-[12] u003d> email
-[13] u003d> url
-[14] u003d> number_int
-[15] u003d> number_float
-[16] u003d> magic_quotes
-[17] u003d> callback
+[0] => int
+[1] => boolean
+[2] => float
+[3] => validate_regexp
+[4] => validate_url
+[5] => validate_email
+[6] => validate_ip
+[7] => string
+[8] => stripped
+[9] => encoded
+[10] => special_chars
+[11] => unsafe_raw
+[12] => email
+[13] => url
+[14] => number_int
+[15] => number_float
+[16] => magic_quotes
+[17] => callback
 )

@@ -7,7 +7,7 @@
 
 # trader_floor
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_floor — Вектор найменшої кількості
 

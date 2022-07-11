@@ -28,16 +28,16 @@ static `$_error_callback`;
 public static [call](yar-concurrent-client.call.md)(
 string `$uri`,
 string `$method`,
-array `$parameters` u003d ?,
-[callable](language.types.callable.md) `$callback` u003d ?,
-[callable](language.types.callable.md) `$error_callback` u003d ?,
-array `$options` u003d ?
+array `$parameters` = ?,
+[callable](language.types.callable.md) `$callback` = ?,
+[callable](language.types.callable.md) `$error_callback` = ?,
+array `$options` = ?
 ): int
 
 public static
 [loop](yar-concurrent-client.loop.md)([callable](language.types.callable.md)
-`$callback` u003d ?, [callable](language.types.callable.md)
-`$error_callback` u003d ?): bool
+`$callback` = ?, [callable](language.types.callable.md)
+`$error_callback` = ?): bool
 
 public static [reset](yar-concurrent-client.reset.md)(): bool
 

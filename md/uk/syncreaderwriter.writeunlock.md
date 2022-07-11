@@ -7,7 +7,7 @@
 
 # SyncReaderWriter::writeunlock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncReaderWriter::writeunlock — Знімає блокування запису
 
@@ -31,7 +31,7 @@ public **SyncReaderWriter::writeunlock**(): bool
 
 **Приклад #1 Приклад використання **SyncReaderWriter::writeunlock()****
 
-` <?php$readwrite u003d new SyncReaderWriter("FileCacheLock");$readwrite->writelock();/* ... */$readwrite->writeunlock();?> `
+` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->writelock();/* ... */$readwrite->writeunlock();?> `
 
 ### Дивіться також
 

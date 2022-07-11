@@ -8,14 +8,14 @@
 
 # PDO::prepare
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8, PHP 8,PECL pdo \>u003d 0.1.0)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8, PHP 8,PECL pdo \>= 0.1.0)
 
 PDO::prepare — Готує запит до виконання та повертає пов'язаний
 із цим запитом об'єкт
 
 ### Опис
 
-public **PDO::prepare**(string `$query`, array `$options` u003d []): [PDOStatement](class.pdostatement.md)\|false
+public **PDO::prepare**(string `$query`, array `$options` = []): [PDOStatement](class.pdostatement.md)\|false
 
 Підготовка SQL-запиту до бази даних до запуску за допомогою методу
 [PDOStatement::execute()](pdostatement.execute.md). Запит може
@@ -75,7 +75,7 @@ public **PDO::prepare**(string `$query`, array `$options` u003d []): [PDOStateme
 Це має бути коректний SQL-запит із погляду цільової СУБД.
 
 `options`
-Цей масив містить одну або більше пар ключ u003d значення для установки
+Цей масив містить одну або більше пар ключ = значення для установки
 значень атрибутів об'єкта PDOStatement, який буде повернено з
 цього методу. В основному, ви будете використовувати цей масив для
 присвоєння значення `PDO::ATTR_CURSOR` атрибуту `PDO::CURSOR_SCROLL`,
@@ -101,17 +101,17 @@ public **PDO::prepare**(string `$query`, array `$options` u003d []): [PDOStateme
 
 **Приклад #1 Підготовка SQL-запиту з іменованими параметрами**
 
-`<?php/* Виконання запиту з передачею йому масива параметрів */$sql u003d 'SELECT name, colour, calories   FROM fruit     WHERE calo         ¦¦ , array(PDO::ATTR_CURSOR u003d> PDO::CURSOR_FWDONLY));$sth->execute(array('calories' u003d> 150, 'colour' u003d> 'red'));$red u003d $sth->fetchAl ();/* Ключі масиву також можуть починатися з двоточки ":" (необов'язково) */$sth->execute(array(':calories' u003d> 175, ':colour' u003d> ) u003d $sth->fetchAll();?> `
+`<?php/* Виконання запиту з передачею йому масива параметрів */$sql = 'SELECT name, colour, calories   FROM fruit     WHERE calo         ¦¦ , array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));$sth->execute(array('calories' => 150, 'colour' => 'red'));$red = $sth->fetchAl ();/* Ключі масиву також можуть починатися з двоточки ":" (необов'язково) */$sth->execute(array(':calories' => 175, ':colour' => ) = $sth->fetchAll();?> `
 
 **Приклад #2 Підготовка SQL-запиту з неназваними параметрами (символ
 '?')**
 
-`<?php/* Виконання запиту з передачею йому масиву параметрів */$sth u003d $dbh->prepare('SELECT name, colour, calories    FROM fruit                                                        array(150, 'red'));$red u003d $sth->fetchAll();$sth->execute(array(175, 'yellow'));$yellow u003d $sth->fetchAll();?> `
+`<?php/* Виконання запиту з передачею йому масиву параметрів */$sth = $dbh->prepare('SELECT name, colour, calories    FROM fruit                                                        array(150, 'red'));$red = $sth->fetchAll();$sth->execute(array(175, 'yellow'));$yellow = $sth->fetchAll();?> `
 
 **Приклад #3 Підготовка SQL-запиту з екранованим питанням
 знаком**
 
-` <?php/* зауваження: працює тільки з базами даних PostgreSQL */$sth u003d $dbh->prepare('SELECT * FROM issues WHERE tag::jsonb ?? ?'' ']);$featureIssues u003d $sth->fetchAll();$sth->execute(['performance']);$performanceIssues u003d $sth->fetchAll();?> `
+` <?php/* зауваження: працює тільки з базами даних PostgreSQL */$sth = $dbh->prepare('SELECT * FROM issues WHERE tag::jsonb ?? ?'' ']);$featureIssues = $sth->fetchAll();$sth->execute(['performance']);$performanceIssues = $sth->fetchAll();?> `
 
 ### Дивіться також
 

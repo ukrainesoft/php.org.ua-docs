@@ -7,13 +7,13 @@
 
 #cubrid_error
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_error — Повертає текст останньої помилки, що відбулася.
 
 ### Опис
 
-**cubrid_error**(resource `$connection` u003d ?): string
+**cubrid_error**(resource `$connection` = ?): string
 
 Функція **cubrid_error()** використовується для отримання тексту
 помилки, що відбулася. Зазвичай ви можете отримати текст помилки, якщо
@@ -32,7 +32,7 @@ cubrid_error — Повертає текст останньої помилки, 
 
 **Приклад #1 Приклад використання **cubrid_error()****
 
-` <?php$con u003d cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$req u003d cubrid_execute($con, "select id, name from person");if {   while (list ($id, $name) u003d cubrid_fetch($req))   echo $id, $name;} else {    echo "Код помилки: ","; echo "Текст помилки: ", cubrid_error($con);}?> `
+` <?php$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$req = cubrid_execute($con, "select id, name from person");if {   while (list ($id, $name) = cubrid_fetch($req))   echo $id, $name;} else {    echo "Код помилки: ","; echo "Текст помилки: ", cubrid_error($con);}?> `
 
 Результат виконання цього прикладу:
 

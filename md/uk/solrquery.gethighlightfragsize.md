@@ -7,14 +7,14 @@
 
 # SolrQuery::getHighlightFragsize
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightFragsize — Повертає кількість символів
 фрагментів для виділення
 
 ### Опис
 
-public **SolrQuery::getHighlightFragsize**(string `$field_override` u003d
+public **SolrQuery::getHighlightFragsize**(string `$field_override` =
 ?): int
 
 Повертає кількість фрагментів символів для виділення. Нуль

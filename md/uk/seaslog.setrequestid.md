@@ -7,7 +7,7 @@
 
 # SeasLog::setRequestID
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::setRequestID — Встановлює диференційовані запити SeasLog
 request_id

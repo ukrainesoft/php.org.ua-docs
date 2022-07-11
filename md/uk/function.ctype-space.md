@@ -7,7 +7,7 @@
 
 #ctype_space
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_space — Перевірка пробілів.
 
@@ -52,10 +52,12 @@ ctype_space — Перевірка пробілів.
 
 **Приклад #1 Приклад використання **ctype_space()****
 
-` <?php$strings u003d array(    'string1' u003d> "
-",    'string2' u003d> "
-arf12",   'string3' u003d> '
- // Зверніть увага, що лапки одинарні);foreach ($strings as $name u003d> $testcase) {    if (ctype_space($testcase)) про?
+` <?php$strings = array(    'string1' => "
+=
+",    'string2' u003=
+arf12",   'string3' => '=
+
+ // Зверніть увага, що лапки одинарні);foreach ($strings as $name => $testcase) {    if (ctype_space($testcase)) про?
 ";    }}else {         echo "Рядок'$name' складається не тільки із пробельних символів.
 ";    }}?> `
 

@@ -8,7 +8,7 @@
 
 # SQLite3::createCollation
 
-(PHP 5 \>u003d 5.3.11, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.11, PHP 7, PHP 8)
 
 SQLite3::createCollation — Реєструє функцію PHP для використання в
 як функція сортування SQL
@@ -52,11 +52,11 @@ collation([mixed](language.types.declarations.md#language.types.declarations.mix
 Реєструє PHP-функцію [strnatcmp()](function.strnatcmp.md) як
 послідовність сортування у базі даних SQLite3.
 
-` <?php$db u003d new SQLite3(":memory:");$db->exec("CREATE TABLE test (col1 string)");$db->exec("INSERT INTO test VALUES ('a1') ");$db->exec("INSERT INTO test VALUES ('a10')");$db->exec("INSERT INTO test VALUES ('a2')");$db->createCollation('NATURAL_CMP') , 'strnatcmp');$defaultSort u003d $db->query("SELECT col1 FROM test ORDER BY col1");$naturalSortu003d $db->query("SELECT col1 FROM test OR| сортування за промовчанням:
-";while ($row u003d $defaultSort->fetchArray()){   echo $row['col1'], "
+` <?php$db = new SQLite3(":memory:");$db->exec("CREATE TABLE test (col1 string)");$db->exec("INSERT INTO test VALUES ('a1') ");$db->exec("INSERT INTO test VALUES ('a10')");$db->exec("INSERT INTO test VALUES ('a2')");$db->createCollation('NATURAL_CMP') , 'strnatcmp');$defaultSort = $db->query("SELECT col1 FROM test ORDER BY col1");$naturalSort= $db->query("SELECT col1 FROM test OR| сортування за промовчанням:
+";while ($row = $defaultSort->fetchArray()){   echo $row['col1'], "
 ";}echo "
 сортування natural order:
-";while ($row u003d $naturalSort->fetchArray()){   echo $row['col1'], "
+";while ($row = $naturalSort->fetchArray()){   echo $row['col1'], "
 ";}$db->close();?> `
 
 Результат виконання цього прикладу:

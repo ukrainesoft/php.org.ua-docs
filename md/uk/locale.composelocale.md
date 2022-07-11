@@ -10,7 +10,7 @@
 
 #local_compose
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::composeLocale -- locale_compose — Повертає коректно
 відсортовані та розділені ідентифікатори локалі
@@ -61,11 +61,11 @@ public static **Locale::composeLocale**(array `$subtags`): string\|false
 
 **Приклад #1 Приклад використання **locale_compose()****
 
-` <?php$arr u003d array(   'language'u003d>'en',   'script'  u003d>'Hans',   'region'  u003d>'CN',    'variant2'u003d>' > 'nedis',   'private1'u003d>'prv1',   'private2'u003d>'prv2',);echo locale_compose($arr);?> `
+` <?php$arr = array(   'language'=>'en',   'script'  =>'Hans',   'region'  =>'CN',    'variant2'=>' > 'nedis',   'private1'=>'prv1',   'private2'=>'prv2',);echo locale_compose($arr);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$arr u003d array(   'language'u003d>'en' ,   'script'  u003d>'Hans',   'region'  u003d>'CN',    'variant2'u003d''> 'nedis',   'private1'u003d>'prv1',   'private2'u003d>'prv2',);echo Locale::composeLocale($arr);?> `
+` <?php$arr = array(   'language'=>'en' ,   'script'  =>'Hans',   'region'  =>'CN',    'variant2'=''> 'nedis',   'private1'=>'prv1',   'private2'=>'prv2',);echo Locale::composeLocale($arr);?> `
 
 Результат виконання цього прикладу:
 
@@ -79,7 +79,7 @@ Locale: en_Hans_CN_nedis_rozaj_x_prv1_prv2
 обмежень, якщо вкладені теги задано як масив (array); упорядковані
 як зазначено.
 
-`<?php$arr u003d array(   'language' u003d> 'en',   'script'   u003d> 'Hans',   'region'   u003d> 'CN',   'c',   'extlang1' u003d> 'b',   'extlang0' u003d> 'a',);echo locale_compose($arr), PHP_EOL;$arr u003d array(      u003d> 'Hans',   'region'   u003d> 'CN',   'extlang' u003d> ['a', 'b', 'c', 'd'],);echo locale_compose($arr); > `
+`<?php$arr = array(   'language' => 'en',   'script'   => 'Hans',   'region'   => 'CN',   'c',   'extlang1' => 'b',   'extlang0' => 'a',);echo locale_compose($arr), PHP_EOL;$arr = array(      => 'Hans',   'region'   => 'CN',   'extlang' => ['a', 'b', 'c', 'd'],);echo locale_compose($arr); > `
 
 Результат виконання цього прикладу:
 

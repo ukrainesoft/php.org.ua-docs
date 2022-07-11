@@ -7,14 +7,14 @@
 
 # SolrQuery::addSortField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addSortField — Використовується для керування сортуванням
 результатів
 
 ### Опис
 
-public **SolrQuery::addSortField**(string `$field`, int `$order` u003d
+public **SolrQuery::addSortField**(string `$field`, int `$order` =
 SolrQuery::ORDER_DESC): [SolrQuery](class.solrquery.md)
 
 Використовується для керування сортуванням результатів.

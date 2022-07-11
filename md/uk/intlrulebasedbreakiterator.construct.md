@@ -7,7 +7,7 @@
 
 # IntlRuleBasedBreakIterator::\_\_construct
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlRuleBasedBreakIterator::\_\_construct — Створює ітератор на основі
 набору правил
@@ -15,7 +15,7 @@ IntlRuleBasedBreakIterator::\_\_construct — Створює ітератор н
 ### Опис
 
 public **IntlRuleBasedBreakIterator::\_\_construct**(string `$rules`,
-bool `$compiled` u003d **`false`**)
+bool `$compiled` = **`false`**)
 
 **Увага**
 

@@ -13,8 +13,8 @@ Exception::\_\_construct — Створити виняток
 
 ### Опис
 
-public **Exception::\_\_construct**(string `$message` u003d "", int `$code`
-u003d 0, ?[Throwable](class.throwable.md) `$previous` u003d **`null`**)
+public **Exception::\_\_construct**(string `$message` = "", int `$code`
+= 0, ?[Throwable](class.throwable.md) `$previous` = **`null`**)
 
 Створює виняток.
 

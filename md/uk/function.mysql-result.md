@@ -26,7 +26,7 @@ mysql_result — Повертає дані результату запиту
 
 **mysql_result**(resource `$result`, int `$row`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$field` u003d 0): string
+`$field` = 0): string
 
 Повертає вміст одного поля з набору MySQL.
 
@@ -64,7 +64,7 @@ as bar from...'), використовуйте його замість імен�
 
 **Приклад #1 Приклад використання **mysql_result()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}if (!my ')) {    die('Помилка вибору бази даних: ' . mysql_error());}$result u003d mysql_query('SELECT name FROM work.employee');if (!$result)  | . mysql_error());}echo mysql_result($result, 2); // виведе ім'я третього співробітника mysql_close($link);?> `
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}if (!my ')) {    die('Помилка вибору бази даних: ' . mysql_error());}$result = mysql_query('SELECT name FROM work.employee');if (!$result)  | . mysql_error());}echo mysql_result($result, 2); // виведе ім'я третього співробітника mysql_close($link);?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # yaml_emit_file
 
-(PECL yaml \>u003d 0.5.0)
+(PECL yaml \>= 0.5.0)
 
 yaml_emit_file — Відправляє YAML-подання значення файлу
 
@@ -17,9 +17,9 @@ yaml_emit_file — Відправляє YAML-подання значення ф�
 string `$filename`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$data`,
-int `$encoding` u003d YAML_ANY_ENCODING,
-int `$linebreak` u003d YAML_ANY_BREAK,
-array `$callbacks` u003d **`null`**
+int `$encoding` = YAML_ANY_ENCODING,
+int `$linebreak` = YAML_ANY_BREAK,
+array `$callbacks` = **`null`**
 ): bool
 
 Генерує YAML-подання з даних `data` і відправляє в
@@ -57,7 +57,7 @@ callbacks
 ### Список змін
 
 | Версія          | Опис                        |
-| --------------- | --------------------------- |
+|-----------------|-----------------------------|
 | PECL yaml 1.1.0 | Доданий аргумент callbacks. |
 
 ### Дивіться також

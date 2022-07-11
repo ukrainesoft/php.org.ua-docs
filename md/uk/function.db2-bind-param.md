@@ -7,7 +7,7 @@
 
 #db2_bind_param
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_bind_param — Зв'язує змінну PHP із параметром SQL-виразу
 
@@ -17,10 +17,10 @@ db2_bind_param — Зв'язує змінну PHP із параметром SQL-
 resource `$stmt`,
 int `$parameter_number`,
 string `$variable_name`,
-int `$parameter_type` u003d ?,
-int `$data_type` u003d 0,
-int `$precision` u003d -1,
-int `$scale` u003d 0
+int `$parameter_type` = ?,
+int `$data_type` = 0,
+int `$precision` = -1,
+int `$scale` = 0
 ): bool
 
 Зв'язує змінну PHP з параметром SQL-вираження в ресурсі виразу,
@@ -88,7 +88,7 @@ SQL-вираз у цьому прикладі використовує два в
 пов'язані, а параметрам, що приймають введення, має бути присвоєно будь-яке
 значення. [db2_execute()](function.db2-execute.md).
 
-` <?php$sql u003d 'SELECT name, breed, weight FROM animals    WHERE weight > ? AND weight < ?';$conn u003d db2_connect($database, $user, $password);$stmt u003d db2_prepare($conn, $sql);// Можно оголосити змінну перед| $stmt, 1, "lower_limit", DB2_PARAM_IN);db2_bind_param($stmt, 2, "upper_limit", DB2_PARAM_IN); {   while ($row u003d db2_fetch_array($stmt)) {       print "{$row[0]}, {$row[1]}, {$row[2]}
+` <?php$sql = 'SELECT name, breed, weight FROM animals    WHERE weight > ? AND weight < ?';$conn = db2_connect($database, $user, $password);$stmt = db2_prepare($conn, $sql);// Можно оголосити змінну перед| $stmt, 1, "lower_limit", DB2_PARAM_IN);db2_bind_param($stmt, 2, "upper_limit", DB2_PARAM_IN); {   while ($row = db2_fetch_array($stmt)) {       print "{$row[0]}, {$row[1]}, {$row[2]}
 ";    }}?> `
 
 Результат виконання цього прикладу:
@@ -117,14 +117,14 @@ Peaches, dog, 12.3
 відповідного вхідного значення першого параметра, і закінчуючи
 тваринам, що відповідає вхідному значенню другого параметра.
 
-` <?php$sql u003d 'CALL match_animal(?, ?, ?)';$conn u003d db2_connect($database, $user, $password);$stmt u003d db2_prepare($conn, $sql);$name u003d Peaches";$second_name u003d "Rickety Ride";$weight u003d 0;db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);db2_bind_param($stmt, 2, second_name" , "weight", DB2_PARAM_OUT);print "Values of bound parameters _before_ CALL:
+` <?php$sql = 'CALL match_animal(?, ?, ?)';$conn = db2_connect($database, $user, $password);$stmt = db2_prepare($conn, $sql);$name = Peaches";$second_name = "Rickety Ride";$weight = 0;db2_bind_param($stmt, 1, "name", DB2_PARAM_IN);db2_bind_param($stmt, 2, second_name" , "weight", DB2_PARAM_OUT);print "Values of bound parameters _before_ CALL:
 ";print " 1: {$name} 2: {$second_name} 3: {$weight}
 
 ";if (db2_execute($stmt)) {    print "Values of bound parameters _after_ CALL:
 ";    print " 1: {$name} 2: {$second_name} 3: {$weight}
 
 ";    print "Results:
-";   while ($row u003d db2_fetch_array($stmt)) {       print|" {$row[0]}, {$row[1]}, {$row[2]}
+";   while ($row = db2_fetch_array($stmt)) {       print|" {$row[0]}, {$row[1]}, {$row[2]}
 ";    }}?> `
 
 Результат виконання цього прикладу:
@@ -150,7 +150,7 @@ Rickety Ride, goat, 9.7
 безпосередньо до вхідного параметра SQL-виразу. У цьому прикладі показано,
 як прив'язати файл безпосередньо до стовпця BLOB.
 
-` <?php$stmt u003d db2_prepare($conn, "INSERT INTO animal_pictures(picture) VALUES (?)");$picture u003d "/opt/albums/spook/grooming.jpg";$rc u003d db2_bind 1, "picture", DB2_PARAM_FILE);$rc u003d db2_execute($stmt);?> `
+` <?php$stmt = db2_prepare($conn, "INSERT INTO animal_pictures(picture) VALUES (?)");$picture = "/opt/albums/spook/grooming.jpg";$rc = db2_bind 1, "picture", DB2_PARAM_FILE);$rc = db2_execute($stmt);?> `
 
 ### Дивіться також
 

@@ -52,4 +52,4 @@ int `$rows`
 
 Пробігає пікселями вгорі зліва зображення і замінює їх на чорні.
 
-` <?php$im u003d new Imagick(realpath("./testImage.png"));$areaIterator u003d $im->getPixelRegionIterator(0, 0, 10, 10);foreach ($areaIterator as   ($rowIterator as $pixel) {         // Красить кожний піксель чорним        $pixel->setColor("rgba(0, 0, 0, 0) }   $areaIterator->syncIterator();}$im->writeImage("./output.png");?> `
+` <?php$im = new Imagick(realpath("./testImage.png"));$areaIterator = $im->getPixelRegionIterator(0, 0, 10, 10);foreach ($areaIterator as   ($rowIterator as $pixel) {         // Красить кожний піксель чорним        $pixel->setColor("rgba(0, 0, 0, 0) }   $areaIterator->syncIterator();}$im->writeImage("./output.png");?> `

@@ -7,7 +7,7 @@
 
 # AppendIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::\_\_construct — Створює AppendIterator
 
@@ -25,33 +25,33 @@ public **AppendIterator::\_\_construct**()
 
 **Приклад #1 Ітерація AppendIterator за допомогою foreach**
 
-` <?php$pizzas   u003d new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));$toppings u003d new ArrayIterator(array('Cheese', 'Anchovies', 'Oliv 'Ham'));$appendIterator u003d new AppendIterator;$appendIterator->append($pizzas);$appendIterator->append($toppings);foreach ($appendIterator as $key u003d> $item) {          ' u003d> ' . $item . PHP_EOL;}?> `
+` <?php$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Oliv 'Ham'));$appendIterator = new AppendIterator;$appendIterator->append($pizzas);$appendIterator->append($toppings);foreach ($appendIterator as $key => $item) {          ' => ' . $item . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 
-0 u003d> Margarita
-1 u003d> Siciliana
-2 u003d> Hawaii
-0 u003d> Cheese
-1 u003d> Anchovies
-2 u003d> Olives
-3 u003d> Pineapple
-4 u003d> Ham
+0 => Margarita
+1 => Siciliana
+2 => Hawaii
+0 => Cheese
+1 => Anchovies
+2 => Olives
+3 => Pineapple
+4 => Ham
 
 **Приклад #2 Ітерація AppendIterator за допомогою AppendIterator API**
 
-` <?php$pizzas   u003d new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));$toppings u003d new ArrayIterator(array('Cheese', 'Anchovies', 'Oliv 'Ham'));$appendIterator u003d new AppendIterator;$appendIterator->append($pizzas);$appendIterator->append($toppings);while ($appendIterator->valid()|                                             | %s u003d> %s%s',   $appendIterator->getIteratorIndex(),        $appendIterator->key(),        $appendItera     $appendIterator->next();}?> `
+` <?php$pizzas   = new ArrayIterator(array('Margarita', 'Siciliana', 'Hawaii'));$toppings = new ArrayIterator(array('Cheese', 'Anchovies', 'Oliv 'Ham'));$appendIterator = new AppendIterator;$appendIterator->append($pizzas);$appendIterator->append($toppings);while ($appendIterator->valid()|                                             | %s => %s%s',   $appendIterator->getIteratorIndex(),        $appendIterator->key(),        $appendItera     $appendIterator->next();}?> `
 
 Результат виконання цього прикладу:
 
-0 u003d> 0 u003d> Margarita
-0 u003d> 1 u003d> Siciliana
-0 u003d> 2 u003d> Hawaii
-1 u003d> 0 u003d> Cheese
-1 u003d> 1 u003d> Anchovies
-1 u003d> 2 u003d> Olives
-1 u003d> 3 u003d> Pineapple
-1 u003d> 4 u003d> Ham
+0 => 0 => Margarita
+0 => 1 => Siciliana
+0 => 2 => Hawaii
+1 => 0 => Cheese
+1 => 1 => Anchovies
+1 => 2 => Olives
+1 => 3 => Pineapple
+1 => 4 => Ham
 
 ### Примітки
 

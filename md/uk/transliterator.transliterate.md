@@ -9,7 +9,7 @@
 
 #transliterator_transliterate
 
-(PHP 5 u003d 5.4.0, PHP 7, PHP 8, PECL intl u003d 2.0.0)
+(PHP 5 = 5.4.0, PHP 7, PHP 8, PECL intl = 2.0.0)
 
 Transliterator::transliterate -- transliterator_transliterate --
 Транслітерувати рядок
@@ -19,7 +19,7 @@ Transliterator::transliterate -- transliterator_transliterate --
 Об'єктно-орієнтований стиль
 
 public **Transliterator::transliterate**(string `$string`, int `$start`
-u003d 0, int `$end` u003d -1): string\|false
+= 0, int `$end` = -1): string\|false
 
 Процедурний стиль
 
@@ -27,8 +27,8 @@ u003d 0, int `$end` u003d -1): string\|false
 [Transliterator](class.transliterator.md)\|string
 `$transliterator`,
 string `$string`,
-int `$start` u003d 0,
-int `$end` u003d -1
+int `$start` = 0,
+int `$end` = -1
 ): string\|false
 
 Перетворює рядок або його частину за допомогою транслітератора ICU.
@@ -62,9 +62,9 @@ int `$end` u003d -1
 
 **Приклад #1 Конвертація екранованого UTF-16 рядка**
 
-` <?php$s u003d "\u304A\u65E9\u3046\u3054\u3044\u307E\u3059";echo transliterator_transliterate("Hex-Any/Java", $s), "
-";//тепер зворотня операція з додатковим символом$supplChar u003d html_entity_decode('&#x1D11E;');echo mb_strlen($supplChar, "UTF-8"), "
-";$encSupplChar u003d transliterator_transliterate("Any-Hex/Java", $supplChar);//висновок двох кодованих UTF-16 символівecho $encSupplChar, "
+` <?php$s = "\u304A\u65E9\u3046\u3054\u3044\u307E\u3059";echo transliterator_transliterate("Hex-Any/Java", $s), "
+";//тепер зворотня операція з додатковим символом$supplChar = html_entity_decode('&#x1D11E;');echo mb_strlen($supplChar, "UTF-8"), "
+";$encSupplChar = transliterator_transliterate("Any-Hex/Java", $supplChar);//висновок двох кодованих UTF-16 символівecho $encSupplChar, "
 ";//і назадecho transliterator_transliterate("Hex-Any/Java", $encSupplChar), "
 ";?> `
 

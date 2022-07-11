@@ -13,7 +13,7 @@ passthru — Виконати зовнішню програму та відоб�
 
 ### Опис
 
-**passthru**(string `$command`, int `&$result_code` u003d **`null`**): ?bool
+**passthru**(string `$command`, int `&$result_code` = **`null`**): ?bool
 
 Функція **passthru()** схожа на функцію [exec()](function.exec.md)
 те, що вона виконує команду `command`. Ця функція має бути

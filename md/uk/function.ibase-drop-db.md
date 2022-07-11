@@ -13,7 +13,7 @@ ibase_drop_db — Видаляє базу даних
 
 ### Опис
 
-**ibase_drop_db**(resource `$connection` u003d **`null`**): bool
+**ibase_drop_db**(resource `$connection` = **`null`**): bool
 
 Функція видаляє базу даних, яка була відкрита або за допомогою
 [ibase_connect()](function.ibase-connect.md), або

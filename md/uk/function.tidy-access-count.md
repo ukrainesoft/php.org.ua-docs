@@ -8,7 +8,7 @@
 
 #tidy_access_count
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy_access_count — Повертає кількість доступних попереджень Tidy,
 зустрілися у розглянутому документі
@@ -33,7 +33,7 @@ tidy_access_count — Повертає кількість доступних п�
 
 **Приклад #1 Приклад використання **tidy_access_count()****
 
-` <?php$html u003d'<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head><title>Title</title></head><body>< p><img srcu003d"img.png"></p></body></html>';// вибирається рівень перевірки доступності: 1, 2 або 3$config u003d array('accessibility-check' u003d> 3);$tidy u003d new tidy();$tidy->parseString($html, $config);$tidy->cleanRepair();/* Неможна забувати про цей дзвінок! */$tidy->diagnose();echo tidy_access_count($tidy); //5?> `
+` <?php$html ='<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head><title>Title</title></head><body>< p><img src="img.png"></p></body></html>';// вибирається рівень перевірки доступності: 1, 2 або 3$config = array('accessibility-check' => 3);$tidy = new tidy();$tidy->parseString($html, $config);$tidy->cleanRepair();/* Неможна забувати про цей дзвінок! */$tidy->diagnose();echo tidy_access_count($tidy); //5?> `
 
 ### Примітки
 

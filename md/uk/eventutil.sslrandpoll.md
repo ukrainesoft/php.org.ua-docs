@@ -7,7 +7,7 @@
 
 # EventUtil::sslRandPoll
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventUtil::sslRandPoll — Згенерувати ентропію за допомогою RAND_poll() з
 OpenSSL

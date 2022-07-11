@@ -7,7 +7,7 @@
 
 # SQLite3::exec
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::exec — Виконує запит без результату до поточної бази даних
 
@@ -35,4 +35,4 @@ public **SQLite3::exec**(string `$query`): bool
 
 **Приклад #1 Приклад використання **SQLite3::exec()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE bar (bar TEXT)');?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE bar (bar TEXT)');?> `

@@ -14,8 +14,8 @@ readline
 
 ### Опис
 
-**readline_info**(?string `$var_name` u003d **`null`**,
-int\|string\|bool\|null `$value` u003d **`null`**):
+**readline_info**(?string `$var_name` = **`null`**,
+int\|string\|bool\|null `$value` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Встановлює/читає різні внутрішні змінні readline.
@@ -42,5 +42,5 @@ terminal_name.
 ### Список змін
 
 | Версія | Опис                                              |
-| ------ | ------------------------------------------------- |
+|--------|---------------------------------------------------|
 | 8.0.0  | var_name та value тепер допускають значення null. |

@@ -7,7 +7,7 @@
 
 # Swoole\Timer::tick
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Timer::tick - Повторює цю функцію в кожен заданий інтервал
 часу
@@ -15,7 +15,7 @@ Swoole\Timer::tick - Повторює цю функцію в кожен зада
 ### Опис
 
 public static **Swoole\Timer::tick**(int `$interval_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` u003d
+[callable](language.types.callable.md) `$callback`, string `$param` =
 ?): void
 
 ### Список параметрів

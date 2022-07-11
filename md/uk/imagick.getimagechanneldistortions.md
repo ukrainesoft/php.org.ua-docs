@@ -7,7 +7,7 @@
 
 # Imagick::getImageChannelDistortions
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::getImageChannelDistortions — Повертає спотворення каналу
 
@@ -15,7 +15,7 @@ Imagick::getImageChannelDistortions — Повертає спотворення 
 
 public
 **Imagick::getImageChannelDistortions**([Imagick](class.imagick.md)
-`$reference`, int `$metric`, int `$channel` u003d Imagick::CHANNEL_DEFAULT):
+`$reference`, int `$metric`, int `$channel` = Imagick::CHANNEL_DEFAULT):
 float
 
 Порівнює один або кілька каналів зображення з відновленим

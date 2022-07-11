@@ -7,7 +7,7 @@
 
 # Yaf_Response_Abstract::response
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::response — Надсилає відповідь
 
@@ -27,7 +27,7 @@ public **Yaf_Response_Abstract::response**(): void
 
 **Приклад #1 Приклад використання **Yaf_Response_Abstract::response()****
 
-` <?php$response u003d new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");$response->response();?> `
+` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");$response->response();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

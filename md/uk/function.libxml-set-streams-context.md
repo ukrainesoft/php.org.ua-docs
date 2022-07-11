@@ -34,7 +34,7 @@ libxml_set_streams_context — Встановлення контексту по�
 
 **Приклад #1 Приклад використання **libxml_set_streams_context()****
 
-`<?php$opts u003d array(   'http' u003d> array(       'user_agent' u003d> 'PHP libxml agent',     ));$context|context| HTTP$doc u003d DOMDocument::load('http://www.example.com/file.xml');?> `
+`<?php$opts = array(   'http' => array(       'user_agent' => 'PHP libxml agent',     ));$context|context| HTTP$doc = DOMDocument::load('http://www.example.com/file.xml');?> `
 
 ### Дивіться також
 

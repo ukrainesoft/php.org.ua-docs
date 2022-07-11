@@ -8,7 +8,7 @@
 
 # SplQueue::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7)
+(PHP 5 = 5.3.0, PHP 7)
 
 SplQueue::\_\_construct — Створює нову чергу, реалізовану з
 використанням двозв'язкового списку
@@ -32,7 +32,7 @@ public **SplQueue::\_\_construct**()
 
 **Приклад #1 Приклад використання **SplQueue::\_\_construct()****
 
-` <?php$q u003d new SplQueue();$q[] u003d 1;$q[] u003d 2;$q[] u003d 3;foreach ($q as $elem)  { echo $elem."
+` <?php$q = new SplQueue();$q[] = 1;$q[] = 2;$q[] = 3;foreach ($q as $elem)  { echo $elem."
 ";}?> `
 
 Результат виконання цього прикладу:
@@ -44,4 +44,4 @@ public **SplQueue::\_\_construct**()
 **Приклад #2 Ефективне оброблення завдань за допомогою
 [SplQueue](class.splqueue.md)**
 
-` <?php$q u003d new SplQueue();$q->setIteratorMode(SplQueue::IT_MODE_DELETE);// ... поставити кілька задач в чергу ...// обробити ихforeach ($   / ... обробити $task ...     // додати нові завдання в чергу    $q[] u003d $newTask; // ...}?> `
+` <?php$q = new SplQueue();$q->setIteratorMode(SplQueue::IT_MODE_DELETE);// ... поставити кілька задач в чергу ...// обробити ихforeach ($   / ... обробити $task ...     // додати нові завдання в чергу    $q[] = $newTask; // ...}?> `

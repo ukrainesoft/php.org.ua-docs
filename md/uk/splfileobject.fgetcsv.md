@@ -7,15 +7,15 @@
 
 # SplFileObject::fgetcsv
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgetcsv — Отримати рядок із файлу та його розбір як поля
 CSV
 
 ### Опис
 
-public **SplFileObject::fgetcsv**(string `$separator` u003d ",", string
-`$enclosure` u003d "\"", string `$escape` u003d "\\"): array\|false
+public **SplFileObject::fgetcsv**(string `$separator` = ",", string
+`$enclosure` = "\"", string `$escape` = "\\"): array\|false
 
 Отримує рядок із файлу та розбирає його відповідно до формату CSV.
 Результати аналізу повертає у вигляді масиву.
@@ -66,18 +66,18 @@ public **SplFileObject::fgetcsv**(string `$separator` u003d ",", string
 ### Список змін
 
 | Версія | Опис                                                                                                     |
-| ------ | -------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------|
 | 7.4.0  | Тепер параметр escape може приймати порожній рядок для відключення пропрієтарного механізму екранування. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fgetcsv()****
 
-` <?php$file u003d new SplFileObject("data.csv");while (!$file->eof()){{   var_dump($file->fgetcsv());}?> `
+` <?php$file = new SplFileObject("data.csv");while (!$file->eof()){{   var_dump($file->fgetcsv());}?> `
 
 **Приклад #2 Приклад використання **`SplFileObject::READ_CSV`****
 
-` <?php$file u003d new SplFileObject("animals.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $row) {    list($animal, $class, $legs) $row; printf("A%s|is|a|%s|with%dlegs
+` <?php$file = new SplFileObject("animals.csv");$file->setFlags(SplFileObject::READ_CSV);foreach ($file as $row) {    list($animal, $class, $legs) $row; printf("A%s|is|a|%s|with%dlegs
 ", $animal, $class, $legs);}?> `
 
 Contents of animals.csv

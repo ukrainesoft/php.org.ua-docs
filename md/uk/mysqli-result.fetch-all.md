@@ -10,7 +10,7 @@
 
 # mysqli_fetch_all
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 mysqli_result::fetch_all -- mysqli_fetch_all — Вибирає всі рядки з
 результуючого набору та поміщає їх в асоціативний масив, звичайний
@@ -20,13 +20,13 @@ mysqli_result::fetch_all -- mysqli_fetch_all — Вибирає всі рядк�
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_all**(int `$mode` u003d **`MYSQLI_NUM`**):
+public **mysqli_result::fetch_all**(int `$mode` = **`MYSQLI_NUM`**):
 array
 
 Процедурний стиль
 
 **mysqli_fetch_all**([mysqli_result](class.mysqli-result.md)
-`$result`, int `$mode` u003d **`MYSQLI_NUM`**): array
+`$result`, int `$mode` = **`MYSQLI_NUM`**): array
 
 Повертає двовимірний масив всіх рядків результатів у вигляді асоціативного
 масиву, числового масиву або обох.
@@ -59,7 +59,7 @@ array
 ### Список змін
 
 | Версія | Опис                                                |
-| ------ | --------------------------------------------------- |
+|--------|-----------------------------------------------------|
 | 8.1.0  | Тепер також доступно при збиранні з libmysqlclient. |
 
 ### Приклади
@@ -68,12 +68,12 @@ array
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$result u003d $mysql BY ID LIMIT 3");$rows u003d $result->fetch_all(MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$result = $mysql BY ID LIMIT 3");$rows = $result->fetch_all(MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
 ", $row["Name"], $row["CountryCode"]);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$result u003d mysqli_query  LIMIT 3");$rows u003d mysqli_fetch_all($result, MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$result = mysqli_query  LIMIT 3");$rows = mysqli_fetch_all($result, MYSQLI_ASSOC);foreach ($rows as $row) {    printf("%s (%s)
 ", $row["Name"], $row["CountryCode"]);} `
 
 Результат виконання даних прикладів:

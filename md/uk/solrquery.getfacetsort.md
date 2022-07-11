@@ -7,13 +7,13 @@
 
 # SolrQuery::getFacetSort
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetSort — Повертає тип сортування фасету
 
 ### Опис
 
-public **SolrQuery::getFacetSort**(string `$field_override` u003d ?): int
+public **SolrQuery::getFacetSort**(string `$field_override` = ?): int
 
 Повертає ціле число (SolrQuery::FACET_SORT_INDEX або
 SolrQuery::FACET_SORT_COUNT)

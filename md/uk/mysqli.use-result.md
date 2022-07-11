@@ -63,15 +63,15 @@ public **mysqli::use_result**():
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
-", mysqli_connect_error());   exit();}$query  u003d "SELECT CURRENT_USER();";$query .u003d "SELECT Name FROM City ORDER BY ID LIMIT | mysqli->multi_query($query)) {    do {        /* получаем первый результирующий набор */        if ($result u003d $mysqli->use_result()) {            while ($row u003d $result->fetch_row()) {                printf( "%s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
+", mysqli_connect_error());   exit();}$query  = "SELECT CURRENT_USER();";$query .= "SELECT Name FROM City ORDER BY ID LIMIT | mysqli->multi_query($query)) {    do {        /* получаем первый результирующий набор */        if ($result = $mysqli->use_result()) {            while ($row = $result->fetch_row()) {                printf( "%s
 ", $row[0]);            }            $result->close();        }        /* печатаем разделитель */        if ($mysqli->more_results()) {            printf("----------- ------
 ");        }}    } while ($mysqli->next_result());}/* закриваємо з'єднання**/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-", mysqli_connect_error());   exit();}$query u003du003d""SELECT CURRENT_USER();";$query .u003d "SELECT Name FROM City ORDER BY ID LIMIT і| ($link, $query)) {    do {        /* получаем первый результирующий набор */        if ($result u003d mysqli_use_result($link)) {            while ($row u003d mysqli_fetch_row($result)) {                printf("%s
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+", mysqli_connect_error());   exit();}$query ==""SELECT CURRENT_USER();";$query .= "SELECT Name FROM City ORDER BY ID LIMIT і| ($link, $query)) {    do {        /* получаем первый результирующий набор */        if ($result = mysqli_use_result($link)) {            while ($row = mysqli_fetch_row($result)) {                printf("%s
 ", $row[0]);            }            mysqli_free_result($result);        }        /* печатаем разделитель */        if (mysqli_more_results($link)) {            printf("--------------- -
 ");        }    } while (mysqli_next_result($link));}/* закриваємо з'єднання */mysqli_close($link);?> `
 

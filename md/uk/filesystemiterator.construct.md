@@ -7,7 +7,7 @@
 
 # FilesystemIterator::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::\_\_construct — Створює новий файловий ітератор
 системи
@@ -15,7 +15,7 @@ FilesystemIterator::\_\_construct — Створює новий файловий
 ### Опис
 
 public **FilesystemIterator::\_\_construct**(string `$directory`, int
-`$flags` u003d FilesystemIterator::KEY_AS_PATHNAME \|
+`$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
 FilesystemIterator::CURRENT_AS_FILEINFO \|
 FilesystemIterator::SKIP_DOTS)
 
@@ -50,7 +50,7 @@ FilesystemIterator::SKIP_DOTS)
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр directory містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
 
 ### Приклади
@@ -58,7 +58,7 @@ FilesystemIterator::SKIP_DOTS)
 **Приклад #1 Приклад використання
 **FilesystemIterator::\_\_construct()****
 
-` <?php$it u003d new FilesystemIterator(dirname(__FILE__));foreach ($it as $fileinfo) {    echo $fileinfo->getFilename() . "
+` <?php$it = new FilesystemIterator(dirname(__FILE__));foreach ($it as $fileinfo) {    echo $fileinfo->getFilename() . "
 ";}?> `
 
 Результат виконання цього прикладу:

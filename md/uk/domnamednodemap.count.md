@@ -7,7 +7,7 @@
 
 # DOMNamedNodeMap::count
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 DOMNamedNodeMap::count — Кількість вузлів відображається
 

@@ -7,7 +7,7 @@
 
 # Ds\Queue::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::jsonSerialize — Повертає колекцію в JSON-представництві
 

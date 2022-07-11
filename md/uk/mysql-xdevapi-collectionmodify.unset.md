@@ -38,4 +38,4 @@ public **mysql_xdevapi\CollectionModify::unset**(array `$fields`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionModify::unset()****
 
-` <?php$res u003d $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' u003d> 'Plumber'])- >execute();?> `
+` <?php$res = $coll->modify('job like :job_name')->unset(["age", "name"])->bind(['job_name' => 'Plumber'])- >execute();?> `

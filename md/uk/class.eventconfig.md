@@ -7,7 +7,7 @@
 
 # Клас EventConfig
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -20,11 +20,11 @@ final class **EventConfig** {
 
 /\* Константи \*/
 
-const int `FEATURE_ET` u003d 1;
+const int `FEATURE_ET` = 1;
 
-const int `FEATURE_O1` u003d 2;
+const int `FEATURE_O1` = 2;
 
-const int `FEATURE_FDS` u003d 4;
+const int `FEATURE_FDS` = 4;
 
 /\* Методи \*/
 

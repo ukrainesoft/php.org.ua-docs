@@ -8,7 +8,7 @@
 
 # Phar::isBuffering
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::isBuffering — Перевірити, чи будуть операції з Phar-архівом
 буферизовані або записані безпосередньо на диск
@@ -36,16 +36,16 @@ public **Phar::isBuffering**(): bool
 
 **Приклад #1 Приклад використання **Phar::isBuffering()****
 
-` <?php$p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');$p2 u003d new Phar('existingphar.phar');$p['file1. txt'] u003d 'hi';var_dump($p->isBuffering());var_dump($p2->isBuffering());?>u003d2u003d<?php$p->startBuffering();var_dump($p ->isBuffering());var_dump($p2->isBuffering());$p->stopBuffering();?>u003d3u003d<?phpvar_dump($p->isBuffering());var_dump($p2-> isBuffering());?> `
+` <?php$p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, 'brandnewphar.phar');$p2 = new Phar('existingphar.phar');$p['file1. txt'] = 'hi';var_dump($p->isBuffering());var_dump($p2->isBuffering());?>=2=<?php$p->startBuffering();var_dump($p ->isBuffering());var_dump($p2->isBuffering());$p->stopBuffering();?>=3=<?phpvar_dump($p->isBuffering());var_dump($p2-> isBuffering());?> `
 
 Результат виконання цього прикладу:
 
 bool(false)
 bool(false)
-u003d2u003d
+=2=
 bool(true)
 bool(false)
-u003d3u003d
+=3=
 bool(false)
 bool(false)
 

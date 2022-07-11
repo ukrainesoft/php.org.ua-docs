@@ -7,7 +7,7 @@
 
 # Swoole\Table::get
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::get — Отримує значення у таблиці Swoole за $row_key та
 $column_key

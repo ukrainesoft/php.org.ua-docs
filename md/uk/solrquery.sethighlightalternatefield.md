@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightAlternateField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightAlternateField — Задає поле резервного
 копіювання для використання
@@ -15,7 +15,7 @@ SolrQuery::setHighlightAlternateField — Задає поле резервног
 ### Опис
 
 public **SolrQuery::setHighlightAlternateField**(string `$field`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Якщо фрагмент не може бути створений через відсутність відповідних
 виразів, можна вказати поле для використання в якості резервної

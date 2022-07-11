@@ -7,7 +7,7 @@
 
 # PharData::delete
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::delete — Видалити файл із tar/zip-архіву
 
@@ -38,7 +38,7 @@ public **PharData::delete**(string `$localName`): bool
 
 **Приклад #1 Приклад використання **PharData::delete()****
 
-`<?phptry {   $phar u003d new PharData('myphar.zip'); $phar->delete('unlink/me.php'); // аналог наступного коду:   unlink('phar://myphar.phar/unlink/me.php');} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new PharData('myphar.zip'); $phar->delete('unlink/me.php'); // аналог наступного коду:   unlink('phar://myphar.phar/unlink/me.php');} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Дивіться також
 

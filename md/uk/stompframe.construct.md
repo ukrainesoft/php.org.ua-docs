@@ -7,14 +7,14 @@
 
 # StompFrame::\_\_construct
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 StompFrame::\_\_construct - Конструктор
 
 ### Опис
 
-**StompFrame::\_\_construct**(string `$command` u003d ?, array `$headers` u003d
-?, string `$body` u003d ?)
+**StompFrame::\_\_construct**(string `$command` = ?, array `$headers` =
+?, string `$body` = ?)
 
 Конструктор.
 

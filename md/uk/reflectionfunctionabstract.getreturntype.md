@@ -33,7 +33,7 @@ public **ReflectionFunctionAbstract::getReturnType**():
 
 **Приклад #1 Приклад **ReflectionFunctionAbstract::getReturnType()****
 
-`<?phpfunction to_int($param) : int {   return (int) $param;}$reflection1 u003d new ReflectionFunction('to_int');echo $reflection1->getReturnType(); `
+`<?phpfunction to_int($param) : int {   return (int) $param;}$reflection1 = new ReflectionFunction('to_int');echo $reflection1->getReturnType(); `
 
 Результат виконання цього прикладу:
 
@@ -41,7 +41,7 @@ int
 
 **Приклад #2 Застосування до вбудованих функцій**
 
-` <?php$reflection2 u003d new ReflectionFunction('array_merge');var_dump($reflection2->getReturnType()); `
+` <?php$reflection2 = new ReflectionFunction('array_merge');var_dump($reflection2->getReturnType()); `
 
 Результат виконання цього прикладу:
 

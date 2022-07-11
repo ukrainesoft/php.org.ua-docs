@@ -7,7 +7,7 @@
 
 # Imagick::orderedPosterizeImage
 
-(PECL imagick 2 \>u003d 2.2.2, PECL imagick 3)
+(PECL imagick 2 \>= 2.2.2, PECL imagick 3)
 
 Imagick::orderedPosterizeImage — Виконує впорядкований дизеринг
 
@@ -19,7 +19,7 @@ Imagick::orderedPosterizeImage — Виконує впорядкований д�
 ### Опис
 
 public **Imagick::orderedPosterizeImage**(string `$threshold_map`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Виконує впорядкований дизеринг на основі ряду визначених карток
 порогових значень дизерингу, але з кількома рівнями інтенсивності,
@@ -50,4 +50,4 @@ public **Imagick::orderedPosterizeImage**(string `$threshold_map`, int
 
 **Приклад #1 Приклад використання **Imagick::orderedPosterizeImage()****
 
-` <?phpfunction orderedPosterizeImage($imagePath, $orderedPosterizeType) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->orderedPosterizeImage($orderedPosterizeType); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}//orderedPosterizeImage($imagePath, 'o4x4,3,3');//orderedPosterizeImage($imagePath, 'o8x8,6,6');orderedPosterizeImage($imagePath, ' );?> `
+` <?phpfunction orderedPosterizeImage($imagePath, $orderedPosterizeType) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->orderedPosterizeImage($orderedPosterizeType); $imagick->setImageFormat('png'); header("Content-Type: image/png"); echo $imagick->getImageBlob();}//orderedPosterizeImage($imagePath, 'o4x4,3,3');//orderedPosterizeImage($imagePath, 'o8x8,6,6');orderedPosterizeImage($imagePath, ' );?> `

@@ -44,13 +44,13 @@ string `$mysqli->host_info`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {     printf("не
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {     printf("не
 ", mysqli_connect_error());  exit();}/* виведення інформації про хосте */printf("Інформація про хосте: %s
 ", $mysqli->host_info);/* закриття з'єднання */$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Подключення|
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Подключення|
 ", mysqli_connect_error());  exit();}/* виведення інформації про хосте */printf("Інформація про хосте: %s
 ", mysqli_get_host_info($link));/* закриття з'єднання*/mysqli_close($link);?> `
 

@@ -7,7 +7,7 @@
 
 #set_include_path
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 set_include_path — Встановлює налаштування конфігурації
 include_path
@@ -45,7 +45,7 @@ include_path
 У цьому прикладі ми додамо `/usr/lib/pear` до кінця існуючого шляху
 `include_path`.
 
-` <?php$path u003d '/usr/lib/pear';set_include_path(get_include_path() . PATH_SEPARATOR . $path);?> `
+` <?php$path = '/usr/lib/pear';set_include_path(get_include_path() . PATH_SEPARATOR . $path);?> `
 
 ### Дивіться також
 

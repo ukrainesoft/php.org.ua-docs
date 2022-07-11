@@ -7,7 +7,7 @@
 
 # GmagickDraw::settextencoding
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::settextencoding — Задає кодовий набір тексту
 

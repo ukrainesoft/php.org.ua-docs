@@ -7,7 +7,7 @@
 
 # Parle\RLexer::pushState
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\RLexer::pushState — Просуває новий початковий стан
 

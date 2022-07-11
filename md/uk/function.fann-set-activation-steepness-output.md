@@ -7,7 +7,7 @@
 
 # fann_set_activation_steepness_output
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_activation_steepness_output — Встановлює крутість активації
 у вихідному шарі

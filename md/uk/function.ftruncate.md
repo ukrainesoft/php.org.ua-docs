@@ -47,7 +47,7 @@ ftruncate — Урізує файл до вказаної довжини
 
 **Приклад #1 Приклад обрізання файлу**
 
-` <?php$filename u003d 'lorem_ipsum.txt';$handle u003dfopen($filename, 'r+');ftruncate($handle, rand(1, filesize($filename)));rewind($handle);echo fread($handle, filesize($filename));fclose($handle);?> `
+` <?php$filename = 'lorem_ipsum.txt';$handle =fopen($filename, 'r+');ftruncate($handle, rand(1, filesize($filename)));rewind($handle);echo fread($handle, filesize($filename));fclose($handle);?> `
 
 ### Примітки
 

@@ -57,15 +57,15 @@ int\|string
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Додаток|$u * from CountryLanguage");printf("Зачеплені рядки (INSERT): %d
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Додаток|$u * from CountryLanguage");printf("Зачеплені рядки (INSERT): %d
 ", $mysqli->affected_rows);$mysqli->query("ALTER TABLE Language ADD Status int default 0");/* Оновлення рядків */$mysqli->query("UPDATE Language  ");printf("Порушені рядки (UPDATE): %d
 ", $mysqli->affected_rows);/* Видалення рядків */$mysqli->query("DELETE FROM Language WHERE Percentage < 50");printf("Зачеплені рядки (DELETE): 
-", $mysqli->affected_rows);/* Вибірка всіх рядків */$result u003d $mysqli->query("SELECT CountryCode FROM Language");printf("Порушені рядки|(SELECT):
+", $mysqli->affected_rows);/* Вибірка всіх рядків */$result = $mysqli->query("SELECT CountryCode FROM Language");printf("Порушені рядки|(SELECT):
 ", $mysqli->affected_rows);/* Видалення таблиці Language */$mysqli->query("DROP TABLE Language");?> `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Додати рядок | CountryLanguage");printf("Зачеплені рядки (INSERT): %d
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Додати рядок | CountryLanguage");printf("Зачеплені рядки (INSERT): %d
 ", mysqli_affected_rows($link));mysqli_query($link, "ALTER TABLE Language ADD Status int default 0");/* Оновлення рядків */mysqli_query($link, u ;printf("Порушені рядки|(UPDATE): %d
 ", Mysqli_affected_rows ($ link));
 ", Mysqli_affected_rows($link));

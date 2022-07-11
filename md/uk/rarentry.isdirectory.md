@@ -7,7 +7,7 @@
 
 # RarEntry::isDirectory
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarEntry::isDirectory — Перевіряє, чи є запис директорією
 
@@ -31,4 +31,4 @@ public **RarEntry::isDirectory**(): bool
 перевіряти атрибути запису (Працює тільки для файлів, стиснутих у RAR для
 Windows або Unix):
 
-` <?php//...//Відкриємо файл, отримаємо запис і збережемо в змінною $e...//...$isDirectory u003d (bool) ((($e->getHostOs() u003du003du003dRAR_HOST_WIN32) && ($e->getAttr() & 0x10)) ||    (($e->getHostOs() u003du003d RAR_HOST_UNIX) && (($e->getAttr()u003d 0xf000)); `
+` <?php//...//Відкриємо файл, отримаємо запис і збережемо в змінною $e...//...$isDirectory = (bool) ((($e->getHostOs() ===RAR_HOST_WIN32) && ($e->getAttr() & 0x10)) ||    (($e->getHostOs() == RAR_HOST_UNIX) && (($e->getAttr()= 0xf000)); `

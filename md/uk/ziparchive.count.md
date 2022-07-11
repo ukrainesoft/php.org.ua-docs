@@ -7,7 +7,7 @@
 
 # ZipArchive::count
 
-(PHP 7 \>u003d 7.2.0, PHP 8, PECL zip \>u003d 1.15.0)
+(PHP 7 \>= 7.2.0, PHP 8, PECL zip \>= 1.15.0)
 
 ZipArchive::count — Підраховує кількість файлів в архіві
 

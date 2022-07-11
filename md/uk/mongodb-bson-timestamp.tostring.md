@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Timestamp::\_\_toString
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Timestamp::\_\_toString - Повертає рядкове
 уявлення Timestamp
@@ -29,7 +29,7 @@ final public **MongoDB\BSON\Timestamp::\_\_toString**(): string
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Timestamp::\_\_toString()****
 
-` <?php$timestamp u003d new MongoDB\BSON\Timestamp(1234, 5678);var_dump((string) $timestamp);?> `
+` <?php$timestamp = new MongoDB\BSON\Timestamp(1234, 5678);var_dump((string) $timestamp);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

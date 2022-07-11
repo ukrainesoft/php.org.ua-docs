@@ -7,7 +7,7 @@
 
 # RarEntry::getFileTime
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 RarEntry::getFileTime — Повертає останнім часом зміни елемента
 

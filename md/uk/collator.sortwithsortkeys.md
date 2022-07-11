@@ -10,7 +10,7 @@
 
 #collator_sort_with_sort_keys
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::sortWithSortKeys -- collator_sort_with_sort_keys — Сортування
 масив з використанням зазначеного Collator та ключів сортування
@@ -47,14 +47,14 @@ public **Collator::sortWithSortKeys**(array `&$array`): bool
 
 **Приклад #1 Приклад використання **collator_sort_with_sort_keys()****
 
-`<?php$arr  u003d array( 'Köpfe', 'Kypper', 'Kopfe' );$coll u003d collator_create( 'sv' );collator_sort_with_sort_keys( $coll, $arr );
+`<?php$arr  = array( 'Köpfe', 'Kypper', 'Kopfe' );$coll = collator_create( 'sv' );collator_sort_with_sort_keys( $coll, $arr );
 
 Результат виконання цього прикладу:
 
 array (
-0 u003d> 'Kopfe',
-1 u003d> 'Kypper',
-2 u003d> 'Köpfe',
+0 => 'Kopfe',
+1 => 'Kypper',
+2 => 'Köpfe',
 )
 
 ### Дивіться також

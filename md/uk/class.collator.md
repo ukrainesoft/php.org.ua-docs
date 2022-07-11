@@ -7,7 +7,7 @@
 
 # Клас Collator
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 ## Вступ
 
@@ -22,7 +22,7 @@ class **Collator** {
 
 public [\_\_construct](collator.construct.md)(string `$locale`)
 
-public [asort](collator.asort.md)(array `&$array`, int `$flags` u003d
+public [asort](collator.asort.md)(array `&$array`, int `$flags` =
 Collator::SORT_REGULAR): bool
 
 public [compare](collator.compare.md)(string `$string1`, string
@@ -53,7 +53,7 @@ public [setStrength](collator.setstrength.md)(int `$strength`): bool
 public [sortWithSortKeys](collator.sortwithsortkeys.md)(array
 `&$array`): bool
 
-public [sort](collator.sort.md)(array `&$array`, int `$flags` u003d
+public [sort](collator.sort.md)(array `&$array`, int `$flags` =
 Collator::SORT_REGULAR): bool
 
 }
@@ -73,8 +73,8 @@ Collator::SORT_REGULAR): bool
 
 **Приклад #1 Правила FRENCH_COLLATION**
 
-- Fu003dOFF cote \< coté \< côte \< côté
-- Fu003dON cote \< côte \< coté \< côté
+- F=OFF cote \< coté \< côte \< côté
+- F=ON cote \< côte \< coté \< côté
 
 **`Collator::ALTERNATE_HANDLING`** (int)
 Аттрибут "Alternate" використовується для контролю обробки так званих
@@ -107,9 +107,9 @@ Collator::SORT_REGULAR): bool
 
 **Приклад #2 ALTERNATE_HANDLING rules**
 
-- S u003d 3, A u003d N di Silva < Di Silva < diSilva < U.S.A. \< USA
-- S u003d 3, A u003d S di Silva u003d diSilva < Di Silva < U.S.A. u003d USA
-- S u003d 4, A u003d S di Silva < diSilva < Di Silva < U.S.A. \< USA
+- S = 3, A = N di Silva < Di Silva < diSilva < U.S.A. \< USA
+- S = 3, A = S di Silva = diSilva < Di Silva < U.S.A. = USA
+- S = 4, A = S di Silva < diSilva < Di Silva < U.S.A. \< USA
 
 **`Collator::CASE_FIRST`** (int)
 Аттрибут "Case_First" використовується для визначення порядку сортування в
@@ -131,8 +131,8 @@ Collator::SORT_REGULAR): bool
 
 **Приклад #3 Правила CASE_FIRST**
 
-- Cu003dX or Cu003dL "china" \< "China" \< "denmark" \< "Denmark"
-- Cu003dU "China" \< "china" \< "Denmark" \< "denmark"
+- C=X or C=L "china" \< "China" \< "denmark" \< "Denmark"
+- C=U "China" \< "china" \< "Denmark" \< "denmark"
 
 **`Collator::CASE_LEVEL`** (int)
 Аттрибут "Case_Level" використовується, коли акценти не важливі, а реєстр
@@ -149,8 +149,8 @@ Collator::SORT_REGULAR): bool
 
 **Приклад #4 CASE_LEVEL rules**
 
-- S u003d 1, E u003d X role u003d Role u003d rôle
-- Su003d1, Eu003dO role u003d rôle \< Role
+- S = 1, E = X role = Role = rôle
+- S=1, E=O role = rôle \< Role
 
 **`Collator::NORMALIZATION_MODE`** (int)
 Налаштування "Normalization" визначає, чи буде текст ретельно

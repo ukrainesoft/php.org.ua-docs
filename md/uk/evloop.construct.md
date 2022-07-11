@@ -7,19 +7,19 @@
 
 # EvLoop::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::\_\_construct - Конструктор об'єкта циклу подій
 
 ### Опис
 
 public **EvLoop::\_\_construct**(
-int `$flags` u003d ?,
+int `$flags` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d NULL ,
-float `$io_interval` u003d 0.0 ,
-float `$timeout_interval` u003d 0.0
+`$data` = NULL ,
+float `$io_interval` = 0.0 ,
+float `$timeout_interval` = 0.0
 )
 
 Конструктор об'єкта циклу подій.

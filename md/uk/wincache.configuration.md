@@ -133,7 +133,7 @@ WinCache:
 **Приклад #1 Приклад використання `wincache.ignorelist`**
 
 `` inicode
-wincache.ignorelist u003d "index.php|misc.php|admin.php"
+wincache.ignorelist = "index.php|misc.php|admin.php"
 ````
 
 `wincache.namesalt` string

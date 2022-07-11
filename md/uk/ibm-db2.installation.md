@@ -24,7 +24,7 @@ ibm_db2 є модулем [»PECL](https://pecl.php.net/), так що
 **configure** для завдання розташування бібліотек та заголовних файлів
 DB2, таким чином:
 
-bash$ ./configure --with-IBM_DB2u003d/path/to/DB2
+bash$ ./configure --with-IBM_DB2=/path/to/DB2
 
 За промовчанням **configure** використовує шлях `/opt/IBM/db2/V8.1`.
 
@@ -37,5 +37,5 @@ bash$ ./configure --with-IBM_DB2u003d/path/to/DB2
 > - Додайте шлях до файлу PHP, що виконується, в системну змінну
 > оточення `PATH` (за замовчуванням C:\php\).
 > - Створіть ще одну системну змінну оточення, що містить шлях
-> PHP.INI (наприклад: PHPRC u003d C:\php\).
+> PHP.INI (наприклад: PHPRC = C:\php\).
 > - Додайте IUSR_COMPUTERNAME до групи DB2USERS.

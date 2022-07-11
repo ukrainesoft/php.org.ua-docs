@@ -25,7 +25,7 @@
 визначення функцій із неявною прив'язкою батьківської області видимості
 за значенням.
 
-` <?php$factor u003d 10;$nums u003d array_map(fn($n) u003d> $n * $factor, [1, 2, 3, 4]);// $nums u003d array(10, 20, 30 , 40);?> `
+` <?php$factor = 10;$nums = array_map(fn($n) => $n * $factor, [1, 2, 3, 4]);// $nums = array(10, 20, 30 , 40);?> `
 
 #### Обмежена коваріація типу, що повертається, і контраваріантність типу аргументу
 
@@ -40,11 +40,11 @@
 
 #### Присвоює оператор об'єднання з null
 
-` <?php$array['key'] ??u003d computeDefault();// приблизно то ж самеif (!isset($array['key'])) {   $array['key'] u003d computeDefault(); }?> `
+` <?php$array['key'] ??= computeDefault();// приблизно то ж самеif (!isset($array['key'])) {   $array['key'] = computeDefault(); }?> `
 
 #### Розпакування всередині масивів
 
-` <?php$parts u003d ['apple', 'pear'];$fruits u003d ['banana', 'orange', ...$parts, 'watermelon'];// ['banana', 'orange' , 'apple', 'pear', 'watermelon'];?> `
+` <?php$parts = ['apple', 'pear'];$fruits = ['banana', 'orange', ...$parts, 'watermelon'];// ['banana', 'orange' , 'apple', 'pear', 'watermelon'];?> `
 
 #### Розділювач у числових літералах
 
@@ -70,7 +70,7 @@
 
 Крім звичайних імен файлів, клас [CURLFile](class.curlfile.md) тепер
 підтримує потокові обгортки, якщо модуль зібрано з версією libcurl
-\>u003d 7.56.0.
+\>= 7.56.0.
 
 ### Фільтрування
 
@@ -147,7 +147,7 @@ Btrfs та ext4.
 Доданий метод **SQLite3::lastExtendedErrorCode()** для отримання
 останнього розширеного коду результату.
 
-Доданий метод `SQLite3::enableExtendedResultCodes($enable u003d true)`,
+Доданий метод `SQLite3::enableExtendedResultCodes($enable = true)`,
 який змусить метод
 [SQLite3::lastErrorCode()](sqlite3.lasterrorcode.md) повертати
 розширені коди результатів.
@@ -193,7 +193,7 @@ Btrfs та ext4.
 Функція [proc_open()](function.proc-open.md) тепер підтримує
 дескриптори `redirect` та `null`.
 
-` <?php// То ж саме, що і 2>&1 в командній оболонціproc_open($cmd, [1 u003d> ['pipe', 'w'], 2 u003d> ['redirect', 1 );// То що, що і 2>/dev/null або 2>nul в командній оболонціproc_open($cmd, [1 u003d> ['pipe', 'w'], 2 u003d>' , $pipes);?> `
+` <?php// То ж саме, що і 2>&1 в командній оболонціproc_open($cmd, [1 => ['pipe', 'w'], 2 => ['redirect', 1 );// То що, що і 2>/dev/null або 2>nul в командній оболонціproc_open($cmd, [1 => ['pipe', 'w'], 2 =>' , $pipes);?> `
 
 #### argon2i(d) без libargon
 

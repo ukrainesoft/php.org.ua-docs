@@ -14,7 +14,7 @@ pg_options — Отримання параметрів підключення д
 ### Опис
 
 **pg_options**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d **`null`**): string
+`$connection` = **`null`**): string
 
 **pg_options()** повертає рядок, що містить параметри з'єднання
 PostgreSQL `connection`.
@@ -39,7 +39,7 @@ PostgreSQL `connection`.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -47,7 +47,7 @@ PostgreSQL `connection`.
 
 **Приклад #1 Приклад використання **pg_options()****
 
-`<?php  $pgsql_connu003du003dpg_connect("dbnameu003dmark hostu003dlocalhost"); echo pg_options($pgsql_conn);?> `
+`<?php  $pgsql_conn==pg_connect("dbname=mark host=localhost"); echo pg_options($pgsql_conn);?> `
 
 ### Дивіться також
 

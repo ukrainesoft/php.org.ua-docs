@@ -7,7 +7,7 @@
 
 # Memcached::setMultiByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::setMultiByKey — Зберігає кілька записів на вказаному
 сервері
@@ -15,7 +15,7 @@ Memcached::setMultiByKey — Зберігає кілька записів на �
 ### Опис
 
 public **Memcached::setMultiByKey**(string `$server_key`, array
-`$items`, int `$expiration` u003d ?): bool
+`$items`, int `$expiration` = ?): bool
 
 **Memcached::setMultiByKey()** працює аналогічно
 [Memcached::setMulti()](memcached.setmulti.md), за винятком того,

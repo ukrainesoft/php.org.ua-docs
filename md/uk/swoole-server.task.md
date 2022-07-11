@@ -7,14 +7,14 @@
 
 # Swoole\Server::task
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::task — Надсилає дані в робочі процеси задачі
 
 ### Опис
 
-public **Swoole\Server::task**(string `$data`, int `$dst_worker_id` u003d ?,
-[callable](language.types.callable.md) `$callback` u003d ?):
+public **Swoole\Server::task**(string `$data`, int `$dst_worker_id` = ?,
+[callable](language.types.callable.md) `$callback` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Увага**

@@ -18,13 +18,13 @@ uopz_function — Створює функцію під час виконання
 ### Опис
 
 **uopz_function**(string `$function`, [Closure](class.closure.md)
-`$handler`, int `$modifiers` u003d ?): void
+`$handler`, int `$modifiers` = ?): void
 
 **uopz_function**(
 string `$class`,
 string `$function`,
 [Closure](class.closure.md) `$handler`,
-int `$modifiers` u003d ?
+int `$modifiers` = ?
 ): void
 
 Створює функцію під час виконання

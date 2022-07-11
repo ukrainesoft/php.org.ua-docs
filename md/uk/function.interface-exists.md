@@ -7,13 +7,13 @@
 
 # interface_exists
 
-(PHP 5 \>u003d 5.0.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.2, PHP 7, PHP 8)
 
 interface_exists — Перевіряє, чи визначено інтерфейс
 
 ### Опис
 
-**interface_exists**(string `$interface`, bool `$autoload` u003d
+**interface_exists**(string `$interface`, bool `$autoload` =
 **`true`**): bool
 
 Перевіряє, чи вказаний інтерфейс.

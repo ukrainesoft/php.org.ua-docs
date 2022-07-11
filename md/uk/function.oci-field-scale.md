@@ -7,7 +7,7 @@
 
 #oci_field_scale
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_field_scale — Повертає масштаб поля
 
@@ -41,7 +41,7 @@ scale).
 
 **Приклад #1 **oci_field_scale()** Example**
 
-` <?php// Створіть таблицю://   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));$conn u003d oci_connect| localhost/XE");if(!$conn) {   $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stidu003du003doci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols u003d oci_num_fields($stid);for ($i u003d 1; $i <u003d $ncols; $i++) {   " "         . oci_field_precision($stid, $i) . " "         . oci_field_scale($stid, $i) . "<br>
+` <?php// Створіть таблицю://   CREATE TABLE mytab (c1 NUMBER, c2 FLOAT, c3 NUMBER(4), c4 NUMBER(5,3));$conn = oci_connect| localhost/XE");if(!$conn) {   $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {   " "         . oci_field_precision($stid, $i) . " "         . oci_field_scale($stid, $i) . "<br>
 ";}// Виведе:// C1                                                      не»||
 
 ### Примітки

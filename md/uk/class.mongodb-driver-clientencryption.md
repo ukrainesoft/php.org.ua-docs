@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\ClientEncryption
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 ## Вступ
 
@@ -21,17 +21,17 @@ final class **MongoDB\Driver\ClientEncryption** {
 
 /\* Constants \*/
 
-const string `AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC` u003d
+const string `AEAD_AES_256_CBC_HMAC_SHA_512_DETERMINISTIC` =
 AEAD_AES_256_CBC_HMAC_SHA_512-Deterministic;
 
-const string `AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM` u003d
+const string `AEAD_AES_256_CBC_HMAC_SHA_512_RANDOM` =
 AEAD_AES_256_CBC_HMAC_SHA_512-Random;
 
-const string `ALGORITHM_INDEXED` u003d Indexed;
+const string `ALGORITHM_INDEXED` = Indexed;
 
-const string `ALGORITHM_UNINDEXED` u003d Unindexed;
+const string `ALGORITHM_UNINDEXED` = Unindexed;
 
-const int `QUERY_TYPE_EQUALITY` u003d 0;
+const int `QUERY_TYPE_EQUALITY` = 0;
 
 /\* Методи \*/
 
@@ -41,7 +41,7 @@ final public
 
 final public
 [createDataKey](mongodb-driver-clientencryption.createdatakey.md)(string
-`$kmsProvider`, array `$options` u003d ?):
+`$kmsProvider`, array `$options` = ?):
 [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
 
 final public
@@ -51,7 +51,7 @@ final public
 
 final public
 [encrypt](mongodb-driver-clientencryption.encrypt.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, array `$options` u003d ?):
+`$value`, array `$options` = ?):
 [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
 
 }

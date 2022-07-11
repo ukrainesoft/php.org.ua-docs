@@ -7,7 +7,7 @@
 
 #array_is_list
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 array_is_list — Перевіряє, чи є цей `array` списком
 
@@ -33,7 +33,7 @@ array_is_list — Перевіряє, чи є цей `array` списком
 
 **Приклад #1 Приклад використання **array_is_list()****
 
-`<?phparray_is_list([]); // truearray_is_list (['apple', 2, 3]); // truearray_is_list([0 u003d> 'apple', 'orange']); // true// Масив починається не с 0array_is_list([1 u003d> 'apple', 'orange']); // false// Ключі масиву не по порядкуarray_is_list([1 u003d> 'apple', 0 u003d> 'orange']); // false// Ключі масиву не є цілими числамиarray_is_list([0 u003d> 'apple', 'foo' u003d> 'bar']); // false// Непослідовні ключіarray_is_list([0 u003d> 'apple', 2 u003d> 'bar']); // false?> `
+`<?phparray_is_list([]); // truearray_is_list (['apple', 2, 3]); // truearray_is_list([0 => 'apple', 'orange']); // true// Масив починається не с 0array_is_list([1 => 'apple', 'orange']); // false// Ключі масиву не по порядкуarray_is_list([1 => 'apple', 0 => 'orange']); // false// Ключі масиву не є цілими числамиarray_is_list([0 => 'apple', 'foo' => 'bar']); // false// Непослідовні ключіarray_is_list([0 => 'apple', 2 => 'bar']); // false?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # SQLite3Stmt::bindValue
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3Stmt::bindValue — Зв'язує значення параметра зі змінною
 підготовленого запиту
@@ -16,7 +16,7 @@ SQLite3Stmt::bindValue — Зв'язує значення параметра з�
 
 public **SQLite3Stmt::bindValue**(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` u003d **`SQLITE3_TEXT`**): bool
+`$value`, int `$type` = **`SQLITE3_TEXT`**): bool
 
 Зв'язує значення параметра зі змінною підготовленого запиту.
 
@@ -76,19 +76,19 @@ float як **`SQLITE3_FLOAT`**, null як **`SQLITE3_NULL`** і всіх
 ### Список змін
 
 | Версія | Опис                                           |
-| ------ | ---------------------------------------------- |
+|--------|------------------------------------------------|
 | 7.4.0  | Параметр param тепер підтримує нотацію @param. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SQLite3Stmt::bindValue()****
 
-` <?php$db u003d new SQLite3(':memory:');$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");$stmt u003d $db->prepare('SELECT bar FROM foo WHERE idu003d:id');$stmt->bindValue(':id', , SQLITE3_INTEGER);$result u003d $stmt->execute();var_dump($result->fetchArray(SQLITE3_ASSOC));?> `
+` <?php$db = new SQLite3(':memory:');$db->exec('CREATE TABLE foo (id INTEGER, bar STRING)');$db->exec("INSERT INTO foo (id, bar) VALUES (1, 'This is a test')");$stmt = $db->prepare('SELECT bar FROM foo WHERE id=:id');$stmt->bindValue(':id', , SQLITE3_INTEGER);$result = $stmt->execute();var_dump($result->fetchArray(SQLITE3_ASSOC));?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["bar"]u003d>
+["bar"]=>
 string(14) "This is a test"
 }
 

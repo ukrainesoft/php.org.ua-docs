@@ -7,7 +7,7 @@
 
 # SplFileObject::fgetc
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fgetc — Отримує символ із файлу
 
@@ -30,14 +30,14 @@ public **SplFileObject::fgetc**(): string\|false
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SplFileObject::fgetc()****
 
-` <?php$file u003d new SplFileObject('file.txt');while (false !u003du003d ($char u003d $file->fgetc())) {   echo "$char
+` <?php$file = new SplFileObject('file.txt');while (false !== ($char = $file->fgetc())) {   echo "$char
 ";}?> `
 
 ### Дивіться також

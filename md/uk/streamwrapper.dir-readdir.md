@@ -7,7 +7,7 @@
 
 # streamWrapper::dir_readdir
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 streamWrapper::dir_readdir — Читання запису з дескриптора директорії
 
@@ -40,7 +40,7 @@ public **streamWrapper::dir_readdir**(): string
 
 **Приклад #1 Отримання списку файлів із tar-архівів**
 
-` <?phpclass streamWrapper {    protected $fp; public function dir_opendir($path, $options) {        $url u003dparse_url($path); $pathu003du003d$url["host"] . $url["path"]; if (!is_readable($path)) {             trigger_error("Не можу прочитати $path ", E_USER_NOTICE); return false; }        if (!is_file($path)) {             trigger_error("$path не є файлом", E_USER_NOTICE); return false; }        $this->fp u003dfopen($path, "rb"); return true; }    public function dir_readdir() {         // Вилучення заголовка        $header      u003d fread($this-> $datau003du003dunpack("a100filename/a8mode/a8uid/a8gid/a12size/a12mtime/a8checksum/a1filetype/a100link/a100linkedfile", $header); // Прибираємо зайві пробіли в імені файла і його розмірі        $filename    u003d trim($data["filename"]); // Немає ? файлу? Значить ми дійшли до кінця архіву (! $ filename) {{            return false; }        $octal_bytes u003d trim($data["size"]); // Розмір файлу визначений в восьмеричній системі        $bytes       u003du003doctdec($octal_bytes); // tar? if ($rest > 0) {             $bytes      +u003d 512 - $rest; }         // Переміщуємося всередині файла        fseek($this->fp, $bytes, SEEK_CUR); return $filename; }    public function dir_closedir() {        return fclose($this->fp); }    public function dir_rewinddir() {        return fseek($this->fp, 0, SEEK_SET); }}stream_wrapper_register("tar", "streamWrapper");$handle u003d opendir("tar://example.tar");while (false !u003du003d ($file u003d readdir($handle))) {    var_dump file);}echo "Перемотання в початок..
+` <?phpclass streamWrapper {    protected $fp; public function dir_opendir($path, $options) {        $url =parse_url($path); $path==$url["host"] . $url["path"]; if (!is_readable($path)) {             trigger_error("Не можу прочитати $path ", E_USER_NOTICE); return false; }        if (!is_file($path)) {             trigger_error("$path не є файлом", E_USER_NOTICE); return false; }        $this->fp =fopen($path, "rb"); return true; }    public function dir_readdir() {         // Вилучення заголовка        $header      = fread($this-> $data==unpack("a100filename/a8mode/a8uid/a8gid/a12size/a12mtime/a8checksum/a1filetype/a100link/a100linkedfile", $header); // Прибираємо зайві пробіли в імені файла і його розмірі        $filename    = trim($data["filename"]); // Немає ? файлу? Значить ми дійшли до кінця архіву (! $ filename) {{            return false; }        $octal_bytes = trim($data["size"]); // Розмір файлу визначений в восьмеричній системі        $bytes       ==octdec($octal_bytes); // tar? if ($rest > 0) {             $bytes      += 512 - $rest; }         // Переміщуємося всередині файла        fseek($this->fp, $bytes, SEEK_CUR); return $filename; }    public function dir_closedir() {        return fclose($this->fp); }    public function dir_rewinddir() {        return fseek($this->fp, 0, SEEK_SET); }}stream_wrapper_register("tar", "streamWrapper");$handle = opendir("tar://example.tar");while (false !== ($file = readdir($handle))) {    var_dump file);}echo "Перемотання в початок..
 ";rewind($handle);var_dump(readdir($handle));closedir($handle);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

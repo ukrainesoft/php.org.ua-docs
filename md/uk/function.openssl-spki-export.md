@@ -8,7 +8,7 @@
 
 # openssl_spki_export
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 openssl_spki_export — Експорт відкритого ключа у форматі PEM з
 підписаного відкритого ключа із викликом
@@ -42,7 +42,7 @@ openssl_spki_export — Експорт відкритого ключа у фор
 Повертає відкритий ключ у форматі PEM або **`null`** у випадку
 виникнення помилки.
 
-` <?php$pkey u003d openssl_pkey_new('secret password');$spkac u003d openssl_spki_new($pkey, 'challenge string');$pubKey u003d openssl_spki_export(preg_replace(') ;if ($pubKey) {   echo $pubKey;}?> `
+` <?php$pkey = openssl_pkey_new('secret password');$spkac = openssl_spki_new($pkey, 'challenge string');$pubKey = openssl_spki_export(preg_replace(') ;if ($pubKey) {   echo $pubKey;}?> `
 
 **Приклад #2 Приклад використання **openssl_spki_export()** з
 \<keygen\>**
@@ -50,7 +50,7 @@ openssl_spki_export — Експорт відкритого ключа у фор
 Повертає відкритий ключ у форматі PEM, отриманий із елемента
 \<keygen\>
 
-` <?php$spkac u003d openssl_spki_export(preg_replace('/SPKACu003d/', '', $_POST['spkac']));if ($spkac !u003d NULL) {    echo $spkac| вдалося витягти відкритий ключ";}?><keygen nameu003d"spkac" challengeu003d"challenge string" keytypeu003d"RSA">`
+` <?php$spkac = openssl_spki_export(preg_replace('/SPKAC=/', '', $_POST['spkac']));if ($spkac != NULL) {    echo $spkac| вдалося витягти відкритий ключ";}?><keygen name="spkac" challenge="challenge string" keytype="RSA">`
 
 ### Дивіться також
 

@@ -9,7 +9,7 @@
 
 # mysqli_savepoint
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 mysqli::savepoint -- mysqli_savepoint — Встановіть іменовану точку
 збереження транзакції

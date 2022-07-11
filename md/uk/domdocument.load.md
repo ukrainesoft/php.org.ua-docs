@@ -13,7 +13,7 @@ DOMDocument::load — Завантаження XML із файлу
 
 ### Опис
 
-public **DOMDocument::load**(string `$filename`, int `$options` u003d 0):
+public **DOMDocument::load**(string `$filename`, int `$options` = 0):
 [DOMDocument](class.domdocument.md)\|bool
 
 Завантажує XML-документ із файлу.
@@ -55,7 +55,7 @@ public **DOMDocument::load**(string `$filename`, int `$options` u003d 0):
 
 **Приклад #1 Створення документа**
 
-` <?php$doc u003d new DOMDocument();$doc->load('book.xml');echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument();$doc->load('book.xml');echo $doc->saveXML();?> `
 
 ### Дивіться також
 

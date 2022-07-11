@@ -9,7 +9,7 @@
 
 # intltz_get_unknown
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlTimeZone::getUnknown -- intltz_get_unknown — Отримати невідомий
 часовий пояс ("unknown")

@@ -7,7 +7,7 @@
 
 # yaz_present
 
-(PHP 4 u003d 4.0.5, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.5, PECL yaz = 0.9.0)
 
 yaz_present — Готується до пошуку (Z39.50 є)
 

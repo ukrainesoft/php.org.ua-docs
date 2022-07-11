@@ -7,7 +7,7 @@
 
 #oci_set_action
 
-(PHP 5 u003d 5.3.2, PHP 7, PHP 8, PECL OCI8 u003d 1.4.0)
+(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
 
 oci_set_action — Вказує ім'я для дії
 
@@ -47,7 +47,7 @@ oci_set_action — Вказує ім'я для дії
 
 **Приклад #1 Встановлення дії**
 
-` <?php$c u003d oci_connect('hr', 'welcome', 'localhost/XE');// Запис діїoci_set_action($c, 'Friend Lookup');// Код, здійснює запрос к $s u003d oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
+` <?php$c = oci_connect('hr', 'welcome', 'localhost/XE');// Запис діїoci_set_action($c, 'Friend Lookup');// Код, здійснює запрос к $s = oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
 
 // Поки скрипт виконується, адміністратор може спостерігати виконання дій:
 

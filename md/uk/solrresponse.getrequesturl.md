@@ -7,7 +7,7 @@
 
 # SolrResponse::getRequestUrl
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrResponse::getRequestUrl — Повертає повну URL-адресу, на яку
 був надісланий запит

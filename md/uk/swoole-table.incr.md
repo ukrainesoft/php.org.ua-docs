@@ -7,14 +7,14 @@
 
 # Swoole\Table::incr
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::incr — Збільшує значення $row_key і $column_key
 
 ### Опис
 
 public **Swoole\Table::incr**(string `$key`, string `$column`, int
-`$incrby` u003d ?): void
+`$incrby` = ?): void
 
 ### Список параметрів
 

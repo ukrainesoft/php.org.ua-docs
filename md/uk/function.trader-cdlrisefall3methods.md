@@ -7,7 +7,7 @@
 
 # trader_cdlrisefall3methods
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlrisefall3methods — Бичача/ведмежа модель "Три методи"
 

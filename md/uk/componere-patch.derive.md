@@ -7,7 +7,7 @@
 
 # Componere\Patch::derive
 
-(Componere 2 \>u003d 2.1.1)
+(Componere 2 \>= 2.1.1)
 
 Componere\Patch::derive — Отримання патча
 

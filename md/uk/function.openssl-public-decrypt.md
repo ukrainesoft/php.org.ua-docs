@@ -7,7 +7,7 @@
 
 #openssl_public_decrypt
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_public_decrypt — Розшифровування даних за допомогою відкритого ключа
 
@@ -18,7 +18,7 @@ string `$data`,
 string `&$decrypted_data`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$public_key`,
-int `$padding` u003d **`OPENSSL_PKCS1_PADDING`**
+int `$padding` = **`OPENSSL_PKCS1_PADDING`**
 ): bool
 
 **openssl_public_decrypt()** розшифровує дані `data`, які раніше
@@ -50,7 +50,7 @@ int `$padding` u003d **`OPENSSL_PKCS1_PADDING`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | public_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509. |
 
 ### Дивіться також

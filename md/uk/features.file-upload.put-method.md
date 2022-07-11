@@ -44,4 +44,4 @@ PUT-запити, контекст яких збігається з контек
 
 **Приклад #1 Збереження файлів, надісланих через HTTP PUT**
 
-` <?php/* PUT дані приходять в потоці введення stdin */$putdata u003d fopen("php://input", "r");/* Відкриваємо файл на запис */$fp u003d| ", "w");/* Читаємо 1 KB даних за один раз   і і пишем в файл */while ($data u003d fread($putdata, 1024)) fwrite( fclose($fp);fclose($putdata);?> `
+` <?php/* PUT дані приходять в потоці введення stdin */$putdata = fopen("php://input", "r");/* Відкриваємо файл на запис */$fp =| ", "w");/* Читаємо 1 KB даних за один раз   і і пишем в файл */while ($data = fread($putdata, 1024)) fwrite( fclose($fp);fclose($putdata);?> `

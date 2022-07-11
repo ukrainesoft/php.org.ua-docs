@@ -7,7 +7,7 @@
 
 # SolrInputDocument::getChildDocuments
 
-(PECL solr \>u003d 2.3.0)
+(PECL solr \>= 2.3.0)
 
 SolrInputDocument::getChildDocuments — Повертає масив дочірніх
 документів (SolrInputDocument)

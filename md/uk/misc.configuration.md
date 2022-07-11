@@ -10,7 +10,7 @@
 Поведінка цих функцій залежить від установок `php.ini`.
 
 | Ім'я За замовчуванням                                              | Місце зміни | Список змін    |
-| ------------------------------------------------------------------ | ----------- | -------------- |
+|--------------------------------------------------------------------|-------------|----------------|
 | [ignore_user_abort](misc.configuration.md#ini.ignore-user-abort)   | "0"         | PHP_INI_ALL    |
 | [highlight.string](misc.configuration.md#ini.syntax-highlighting)  | "#DD0000"   | PHP_INI_ALL    |
 | [highlight.comment](misc.configuration.md#ini.syntax-highlighting) | "#FF8000"   | PHP_INI_ALL    |
@@ -39,7 +39,7 @@
 `highlight.keyword` string
 `highlight.string` string
 Кольори для режиму підсвічування (Syntax Highlighting). Все, що прийнятно
-у \<font coloru003d"??????"\>, буде працювати.
+у \<font color="??????"\>, буде працювати.
 
 'browscap' string
 Ім'я (наприклад, `browscap.ini`) та розташування файлу можливостей

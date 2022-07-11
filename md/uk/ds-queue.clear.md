@@ -7,7 +7,7 @@
 
 # Ds\Queue::clear
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::clear — Видаляє всі значення
 
@@ -29,15 +29,15 @@ public **Ds\Queue::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\Queue::clear()****
 
-` <?php$queue u003d new \Ds\Queue([1, 2, 3]);print_r($queue);$queue->clear();print_r($queue);?> `
+` <?php$queue = new \Ds\Queue([1, 2, 3]);print_r($queue);$queue->clear();print_r($queue);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Queue Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Queue Object
 (

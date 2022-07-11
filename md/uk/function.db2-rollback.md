@@ -7,7 +7,7 @@
 
 #db2_rollback
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_rollback - Відкочує транзакцію
 
@@ -42,9 +42,9 @@ db2_rollback - Відкочує транзакцію
 перевіримо, що число рядків у таблиці стало таким самим, як і до видалення -
 це підтвердить, що транзакція успішно відкотилася.
 
-` <?php$conn u003d db2_connect($database, $user, $password);if ($conn) {   $stmt u003d db2_exec($conn, "SELECT count(*) FROM animals"); $res u003d db2_fetch_array( $stmt ); echo $res[0] . "
-";    // Отключаем автоподтверждение    db2_autocommit($conn, DB2_AUTOCOMMIT_OFF);    // Удаляем все строки из ANIMALS    db2_exec($conn, "DELETE FROM animals");    $stmt u003d db2_exec($conn, "SELECT count(*) FROM animals" );    $res u003d db2_fetch_array( $stmt );   echo $res[0] . "
-";    // Откатываем операцию DELETE    db2_rollback( $conn );    $stmt u003d db2_exec( $conn, "SELECT count(*) FROM animals" );    $res u003d db2_fetch_array( $stmt );    echo $res[0] . "
+` <?php$conn = db2_connect($database, $user, $password);if ($conn) {   $stmt = db2_exec($conn, "SELECT count(*) FROM animals"); $res = db2_fetch_array( $stmt ); echo $res[0] . "
+";    // Отключаем автоподтверждение    db2_autocommit($conn, DB2_AUTOCOMMIT_OFF);    // Удаляем все строки из ANIMALS    db2_exec($conn, "DELETE FROM animals");    $stmt = db2_exec($conn, "SELECT count(*) FROM animals" );    $res = db2_fetch_array( $stmt );   echo $res[0] . "
+";    // Откатываем операцию DELETE    db2_rollback( $conn );    $stmt = db2_exec( $conn, "SELECT count(*) FROM animals" );    $res = db2_fetch_array( $stmt );    echo $res[0] . "
 ";   db2_close($conn);}?> `
 
 Результат виконання цього прикладу:

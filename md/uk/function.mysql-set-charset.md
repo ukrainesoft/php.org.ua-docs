@@ -7,7 +7,7 @@
 
 # mysql_set_charset
 
-(PHP 5 \>u003d 5.2.3)
+(PHP 5 \>= 5.2.3)
 
 mysql_set_charset — Встановлює кодування клієнта
 
@@ -19,11 +19,11 @@ mysql_set_charset — Встановлює кодування клієнта
 
 - [mysqli_set_charset()](mysqli.set-charset.md)
 - PDO: Додаванням `charset` у рядок з'єднання, наприклад
-`charsetu003dutf8`
+`charset=utf8`
 
 ### Опис
 
-**mysql_set_charset**(string `$charset`, resource `$link_identifier` u003d
+**mysql_set_charset**(string `$charset`, resource `$link_identifier` =
 NULL): bool
 
 Встановлює стандартне кодування для поточного з'єднання.

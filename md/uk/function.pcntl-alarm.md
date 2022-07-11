@@ -7,7 +7,7 @@
 
 #pcntl_alarm
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pcntl_alarm — Встановити таймер доставки сигналу SIGALRM
 

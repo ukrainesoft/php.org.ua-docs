@@ -7,7 +7,7 @@
 
 # SplQueue::setIteratorMode
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplQueue::setIteratorMode — Встановлює режим ітератора
 

@@ -7,7 +7,7 @@
 
 # EventBufferEvent::write
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::write — Додає дані до буфера виводу буферного
 події

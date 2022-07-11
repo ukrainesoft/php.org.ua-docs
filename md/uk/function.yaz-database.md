@@ -7,7 +7,7 @@
 
 # yaz_database
 
-(PHP 4 u003d 4.0.6, PECL yaz u003d 0.9.0)
+(PHP 4 = 4.0.6, PECL yaz = 0.9.0)
 
 yaz_database — Визначає бази даних у сеансі
 

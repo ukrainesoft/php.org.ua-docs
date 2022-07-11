@@ -7,7 +7,7 @@
 
 # Gmagick::newimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::newimage — Створює нове зображення
 
@@ -17,7 +17,7 @@ public **Gmagick::newimage**(
 int `$width`,
 int `$height`,
 string `$background`,
-string `$format` u003d ?
+string `$format` = ?
 ): [Gmagick](class.gmagick.md)
 
 Створює нове зображення із зазначеним фоновим кольором.

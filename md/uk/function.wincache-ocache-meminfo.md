@@ -7,7 +7,7 @@
 
 #wincache_ocache_meminfo
 
-(PECL wincache \>u003d 1.0.0)
+(PECL wincache \>= 1.0.0)
 
 wincache_ocache_meminfo — Отримує інформацію про використання
 кеш-пам'яті опкодів
@@ -54,11 +54,11 @@ wincache_ocache_meminfo — Отримує інформацію про вико�
 
 Array
 (
-[memory_total] u003d> 134217728
-[memory_free] u003d> 112106972
-[num_used_blks] u003d> 15469
-[num_free_blks] u003d> 4
-[memory_overhead] u003d> 247600
+[memory_total] => 134217728
+[memory_free] => 112106972
+[num_used_blks] => 15469
+[num_free_blks] => 4
+[memory_overhead] => 247600
 )
 
 ### Дивіться також

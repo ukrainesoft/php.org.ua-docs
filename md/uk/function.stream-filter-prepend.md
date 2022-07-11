@@ -7,7 +7,7 @@
 
 #stream_filter_prepend
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_filter_prepend — Прикріплює фільтр до потоку
 
@@ -16,9 +16,9 @@ stream_filter_prepend — Прикріплює фільтр до потоку
 **stream_filter_prepend**(
 resource `$stream`,
 string `$filtername`,
-int `$read_write` u003d ?,
+int `$read_write` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$params` u003d ?
+`$params` = ?
 ): resource
 
 Додає `filtername` до списку фільтрів, прикріплених до потоку

@@ -7,7 +7,7 @@
 
 # SVM::getOptions
 
-(PECL svm \>u003d 0.1.0)
+(PECL svm \>= 0.1.0)
 
 SVM::getOptions — Отримати поточні параметри навчання
 

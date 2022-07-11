@@ -15,7 +15,7 @@ GearmanClient::doNormal — Виконує одиночне завдання т�
 ### Опис
 
 public **GearmanClient::doNormal**(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 Виконує одиночне завдання та повертає рядкову виставу
 результату. Формат результату, що повертається, визначають об'єкти
@@ -44,13 +44,13 @@ public **GearmanClient::doNormal**(string `$function_name`, string
 `<?php?>`
 
 `<?php# Код клієнтаecho "Запуск
-";# Створення клієнта.$gmclientu003d new GearmanClient();# Додавання сервера за мовчанням (localhost).$gmclient->addServer();echo "Відправлення завдання
-";$result u003d $gmclient->doNormal("reverse", "Hello!");echo "Завдання виконано: $result
+";# Створення клієнта.$gmclient= new GearmanClient();# Додавання сервера за мовчанням (localhost).$gmclient->addServer();echo "Відправлення завдання
+";$result = $gmclient->doNormal("reverse", "Hello!");echo "Завдання виконано: $result
 ";?> `
 
 `<?phpecho "Запуск
 "Створення об'єкта обробника завдань. для швидкої обробки без висновку$gmworker->addFunction("reverse", "reverse_fn");print "Чекання завдання...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {   echo "Код повернення: " . $gmworker->return|
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {   echo "Код повернення: " . $gmworker->return|
 ";   break; }}function reverse_fn($job){ return strrev($job->workload());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -68,22 +68,22 @@ public **GearmanClient::doNormal**(string `$function_name`, string
 даних. Послідовні виклики **GearmanClient::doNormal()**
 запитують поточний стан завдання, що виконується.
 
-`<?php# Код клієнта# Створення клієнта.$gmclientu003d new GearmanClient();# Додавання сервера за мовчанням (localhost).
-";# Отправка задания перевернуть строкуdo{  $result u003d $gmclient->doNormal("reverse", "Hello!");  # Проверка состояния на ошибки или возвращаемые данные.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA: echo "Дані: $result
-";      break;   case GEARMAN_WORK_STATUS:     list($numerator, $denominator)u003d $gmclient->doStatus();
+`<?php# Код клієнта# Створення клієнта.$gmclient= new GearmanClient();# Додавання сервера за мовчанням (localhost).
+";# Отправка задания перевернуть строкуdo{  $result = $gmclient->doNormal("reverse", "Hello!");  # Проверка состояния на ошибки или возвращаемые данные.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA: echo "Дані: $result
+";      break;   case GEARMAN_WORK_STATUS:     list($numerator, $denominator)= $gmclient->doStatus();
 ";      break;    case GEARMAN_WORK_FAIL:      echo "Помилка
 ";     exit;   case GEARMAN_SUCCESS:      break;    default:      echo "Код повернення: " . |
 ";      echo "Помилка: " . $gmclient->error() . "
 ";      echo "Номер помилки: " . $gmclient->getErrno() . "
-";      exit;  }}while($gmclient->returnCode() !u003d GEARMAN_SUCCESS);echo "Обробка завершена: $result
+";      exit;  }}while($gmclient->returnCode() != GEARMAN_SUCCESS);echo "Обробка завершена: $result
 ";?> `
 
 `<?php# Код обробникаecho "Запуск
-";# Створюємо свій об'єкт обробника.$gmworkeru003d new GearmanWorker();# Додавання сервера за мовчанням (localhost). ", "reverse_fn");print "Чекання завдання...
-";while($gmworker->work()){ if ($gmworker->returnCode() !u003d GEARMAN_SUCCESS)  {   echo "Код повернення: " . $gmworker->return|
+";# Створюємо свій об'єкт обробника.$gmworker= new GearmanWorker();# Додавання сервера за мовчанням (localhost). ", "reverse_fn");print "Чекання завдання...
+";while($gmworker->work()){ if ($gmworker->returnCode() != GEARMAN_SUCCESS)  {   echo "Код повернення: " . $gmworker->return|
 ";    break;  }}function reverse_fn($job){  echo "Отримане завдання: " . $job->handle() . "
-";  $workload u003d $job->workload();  $workload_size u003d $job->workloadSize(); echo "Завантажені дані: $workload ($workload_size)
-";  # Цей цикл не є необхідним, просто показує, як все працює  for ($xu003d 0; $x < $workload_size; $x++) оправа"| |
+";  $workload = $job->workload();  $workload_size = $job->workloadSize(); echo "Завантажені дані: $workload ($workload_size)
+";  # Цей цикл не є необхідним, просто показує, як все працює  for ($x= 0; $x < $workload_size; $x++) оправа"| |
 ";   $job->sendStatus($x+1, $workload_size);   $job->sendData(substr($workload, $x, 1));    sleep(1);  }  $$ echo "Результат: $result
 ";  # Повертаємо то, що хочемо надіслати клієнту  return $result;}?> `
 

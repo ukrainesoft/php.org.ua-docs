@@ -7,15 +7,15 @@
 
 #filter_var_array
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 filter_var_array — Приймає кілька змінних і, за необхідності,
 фільтрує їх
 
 ### Опис
 
-**filter_var_array**(array `$array`, array\|int `$options` u003d
-**`FILTER_DEFAULT`**, bool `$add_empty` u003d **`true`**):
+**filter_var_array**(array `$array`, array\|int `$options` =
+**`FILTER_DEFAULT`**, bool `$add_empty` = **`true`**):
 array\|false\|null
 
 Ця функція корисна для отримання множини змінних без багаторазового
@@ -52,28 +52,28 @@ array\|false\|null
 
 **Приклад #1 Приклад використання **filter_var_array()****
 
-` <?php$data u003d array(    'product_id'    u003d> 'libgd<script>',    'component'     u003d> '10',    'versions'      u003d> '2.0.33',    'testscalar'    u003d> array('2 ', '23', '10', '12'),   'testarray'    u003d> '2',);$args u003d array(    'product_id'             ¦ FILTER_VALIDATE_INT,                            'flags'     u003d> FILTER_FORCE_ARRAY,                            'options'   u003d> array('min_range' u003d> 1, 'max_range' u003d> 10)                           ),    'versions'     u003d> FILTER_SANITIZE_ENCODED,    'doesnotexist' u003d> FILTER_VALIDATE_INT,    'testscalar'   u003d > array(                            'filter' u003d> FILTER_VALIDATE_INT,                            'flags'  u003d> FILTER_REQUIRE_SCALAR,                           ),    'testarray'    u003d> array(                            'filter' u003d> FILTER_VALIDATE_INT,                            'flags'  u003d> FILTER_FORCE_ARRAY,                           ));$myinputs u003d filter_var_array($data , $args);var_dump($myi nputs);echo "
+` <?php$data = array(    'product_id'    => 'libgd<script>',    'component'     => '10',    'versions'      => '2.0.33',    'testscalar'    => array('2 ', '23', '10', '12'),   'testarray'    => '2',);$args = array(    'product_id'             ¦ FILTER_VALIDATE_INT,                            'flags'     => FILTER_FORCE_ARRAY,                            'options'   => array('min_range' => 1, 'max_range' => 10)                           ),    'versions'     => FILTER_SANITIZE_ENCODED,    'doesnotexist' => FILTER_VALIDATE_INT,    'testscalar'   = > array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_REQUIRE_SCALAR,                           ),    'testarray'    => array(                            'filter' => FILTER_VALIDATE_INT,                            'flags'  => FILTER_FORCE_ARRAY,                           ));$myinputs = filter_var_array($data , $args);var_dump($myi nputs);echo "
 ";?> `
 
 Результат виконання цього прикладу:
 
 array(6) {
-["product_id"]u003d>
+["product_id"]=>
 string(17) "libgd%3Cscript%3E"
-["component"]u003d>
+["component"]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(10)
 }
-["versions"]u003d>
+["versions"]=>
 string(6) "2.0.33"
-["doesnotexist"]u003d>
+["doesnotexist"]=>
 NULL
-["testscalar"]u003d>
+["testscalar"]=>
 bool(false)
-["testarray"]u003d>
+["testarray"]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(2)
 }
 }

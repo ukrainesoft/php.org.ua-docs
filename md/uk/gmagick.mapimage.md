@@ -8,7 +8,7 @@
 
 # Gmagick::mapimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::mapimage — Замінює кольори зображення на найближчий колір
 еталонного зображення

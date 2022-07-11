@@ -7,13 +7,13 @@
 
 # IntlBreakIterator::next
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::next — Переміщує ітератор до наступного кордону
 
 ### Опис
 
-public **IntlBreakIterator::next**(?int `$offset` u003d **`null`**): int
+public **IntlBreakIterator::next**(?int `$offset` = **`null`**): int
 
 **Увага**
 

@@ -7,7 +7,7 @@
 
 # Imagick::statisticImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::statisticImage — Опис
 
@@ -17,7 +17,7 @@ public **Imagick::statisticImage**(
 int `$type`,
 int `$width`,
 int `$height`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Замінює кожен піксель відповідною статистикою з околиці
@@ -41,4 +41,4 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::statisticImage()****
 
-` <?phpfunction statisticImage($imagePath, $statisticType, $width, $height, $channel) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->statisticImage(       |$statisticType,        $width,        $height,        $channel   ; header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}statisticImage($imagePath, \Imagick::STATISTIC_MEDIAN, 5, 5, \Imagick::CHANNEL_DEFAULT);?> `
+` <?phpfunction statisticImage($imagePath, $statisticType, $width, $height, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->statisticImage(       |$statisticType,        $width,        $height,        $channel   ; header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}statisticImage($imagePath, \Imagick::STATISTIC_MEDIAN, 5, 5, \Imagick::CHANNEL_DEFAULT);?> `

@@ -7,13 +7,13 @@
 
 # SolrDocument::sort
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::sort — Сортує поля в документі
 
 ### Опис
 
-public **SolrDocument::sort**(int `$sortOrderBy`, int `$sortDirection` u003d
+public **SolrDocument::sort**(int `$sortOrderBy`, int `$sortDirection` =
 SolrDocument::SORT_ASC): bool
 
 `` descriptioncode

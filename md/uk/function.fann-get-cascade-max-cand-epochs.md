@@ -7,7 +7,7 @@
 
 # fann_get_cascade_max_cand_epochs
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_cascade_max_cand_epochs — Отримує найбільший період кандидата
 

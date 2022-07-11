@@ -7,7 +7,7 @@
 
 # EventConfig::requireFeatures
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventConfig::requireFeatures — Ввести потрібні додатком властивості
 методу події
@@ -32,8 +32,8 @@ public **EventConfig::requireFeatures**( int `$feature` ): bool
 
 **Приклад #1 Приклад використання **EventConfig::requireFeatures()****
 
-` <?php$cfg u003d new EventConfig();// Створюємо event_base, пов'язаний з конфігом $cfg$base u003d neu EventBase($cfg);// Запрошуємо Fs {    echo "Властивість FDS запрошено
-";   $base u003d new EventBase($cfg);    ($base->getFeatures() & EventConfig::FEATURE_FDS)         and print("FDS и
+` <?php$cfg = new EventConfig();// Створюємо event_base, пов'язаний з конфігом $cfg$base = neu EventBase($cfg);// Запрошуємо Fs {    echo "Властивість FDS запрошено
+";   $base = new EventBase($cfg);    ($base->getFeatures() & EventConfig::FEATURE_FDS)         and print("FDS и
 ");}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

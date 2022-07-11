@@ -8,7 +8,7 @@ RPROP
 
 # fann_get_rprop_increase_factor
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_rprop_increase_factor — Повертає коефіцієнт збільшення,
 використовується під час навчання RPROP

@@ -7,14 +7,14 @@
 
 # Memcached::getDelayed
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getDelayed — Запитує кілька записів
 
 ### Опис
 
-public **Memcached::getDelayed**(array `$keys`, bool `$with_cas` u003d ?,
-[callable](language.types.callable.md) $value_cb u003d ?): bool
+public **Memcached::getDelayed**(array `$keys`, bool `$with_cas` = ?,
+[callable](language.types.callable.md) $value_cb = ?): bool
 
 **Memcached::getDelayed()** запитує у memcache кілька записів,
 ключі яких передані в масиві `keys`. Цей метод не чекає
@@ -48,32 +48,32 @@ Callback-Функція, що повертає результат, або **`nul
 
 **Приклад #1 Приклад використання **Memcached::getDelayed()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string');$m->set('array', array(11, 12));$m->getDelayed(array('int', 'array'), true);var_dump($m->fetchAll ());?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string');$m->set('array', array(11, 12));$m->getDelayed(array('int', 'array'), true);var_dump($m->fetchAll ());?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 array(3) {
-["key"]u003d>
+["key"]=>
 string(3) "int"
-["value"]u003d>
+["value"]=>
 int(99)
-["cas"]u003d>
+["cas"]=>
 float(2363)
 }
-[1]u003d>
+[1]=>
 array(3) {
-["key"]u003d>
+["key"]=>
 string(5) "array"
-["value"]u003d>
+["value"]=>
 array(2) {
-[0]u003d>
+[0]=>
 int(11)
-[1]u003d>
+[1]=>
 int(12)
 }
-["cas"]u003d>
+["cas"]=>
 float(2365)
 }
 }

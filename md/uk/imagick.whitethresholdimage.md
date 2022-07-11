@@ -32,11 +32,11 @@ public
 ### Список змін
 
 | Версія                                                                                                                                            | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | PECL imagick 2.1.0 Тепер дозволяється передавати рядок, який представляє колір як параметр. Попередні версії допускають лише об'єкт ImagickPixel. |      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::whiteThresholdImage()****
 
-` <?phpfunction whiteThresholdImage($imagePath, $color) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->whiteThresholdImage($color); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction whiteThresholdImage($imagePath, $color) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->whiteThresholdImage($color); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

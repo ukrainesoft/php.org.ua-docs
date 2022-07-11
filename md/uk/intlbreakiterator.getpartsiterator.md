@@ -7,14 +7,14 @@
 
 # IntlBreakIterator::getPartsIterator
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::getPartsIterator — Створює ітератор для переміщення
 фрагментів між кордонами
 
 ### Опис
 
-public **IntlBreakIterator::getPartsIterator**(string `$type` u003d
+public **IntlBreakIterator::getPartsIterator**(string `$type` =
 IntlPartsIterator::KEY_SEQUENTIAL):
 [IntlPartsIterator](class.intlpartsiterator.md)
 

@@ -7,14 +7,14 @@
 
 #wincache_fcache_fileinfo
 
-(PECL wincache \>u003d 1.0.0)
+(PECL wincache \>= 1.0.0)
 
 wincache_fcache_fileinfo — Отримує інформацію про файли, закешовані
 у файловому кеші
 
 ### Опис
 
-**wincache_fcache_fileinfo**(bool `$summaryonly` u003d **`false`**):
+**wincache_fcache_fileinfo**(bool `$summaryonly` = **`false`**):
 array\|false
 
 Отримує інформацію про вміст файлового кеша та його використання.
@@ -65,22 +65,22 @@ array\|false
 Результат виконання цього прикладу:
 
 Array
-([total_cache_uptime] u003d> 3234
-[total_file_count] u003d> 5
-[total_hit_count] u003d> 0
-[total_miss_count] u003d> 1
-[file_entries] u003d> Array
+([total_cache_uptime] => 3234
+[total_file_count] => 5
+[total_hit_count] => 0
+[total_miss_count] => 1
+[file_entries] => Array
 (
-[1] u003d> Array
+[1] => Array
 (
-[file_name] u003d> c:\inetpub\wwwroo
-[add_time] u003d> 1
-[use_time] u003d> 0
-[last_check] u003d> 1
-[hit_count] u003d> 1
-[file_size] u003d> 2435
+[file_name] => c:\inetpub\wwwroo
+[add_time] => 1
+[use_time] => 0
+[last_check] => 1
+[hit_count] => 1
+[file_size] => 2435
 )
-[2] u003d> Array (...iterates for each cached file)
+[2] => Array (...iterates for each cached file)
 )
 )
 

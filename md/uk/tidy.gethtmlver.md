@@ -9,7 +9,7 @@
 
 #tidy_get_html_ver
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::getHtmlVer -- tidy_get_html_ver — Отримує виявлену HTML
 версію для зазначеного документа

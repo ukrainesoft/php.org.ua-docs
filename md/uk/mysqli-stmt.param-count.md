@@ -42,13 +42,13 @@ int `$mysqli_stmt->param_count`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання|
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання|
 "|, mysqli_connect_error()); ("У запиті | %d" позначок.
 ", $marker);   /* закриваємо запит */    $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {     printf("Не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno()) {     printf("Не 
 "|, mysqli_connect_error()); "У запиті %d меток.
 ", $marker);   /* закриваємо запит */    mysqli_stmt_close($stmt);}/* закриваємо з'єднання*/mysqli_close($link);?> `
 

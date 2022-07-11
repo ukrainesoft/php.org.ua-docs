@@ -7,7 +7,7 @@
 
 # gmp_nextprime
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 gmp_nextprime — Пошук наступного простого числа
 
@@ -32,7 +32,7 @@ gmp_nextprime — Пошук наступного простого числа
 
 **Приклад #1 Приклад використання **gmp_nextprime()****
 
-`<?php$prime1 u003d gmp_nextprime(10); // найближче просте число, наступне за 10$prime2 u003d gmp_nextprime(-1000); // найближче просте число, наступне за -1000echo gmp_strval($prime1) . "
+`<?php$prime1 = gmp_nextprime(10); // найближче просте число, наступне за 10$prime2 = gmp_nextprime(-1000); // найближче просте число, наступне за -1000echo gmp_strval($prime1) . "
 ";echo gmp_strval($prime2) . "
 ";?> `
 

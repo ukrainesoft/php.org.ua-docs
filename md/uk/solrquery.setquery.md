@@ -7,7 +7,7 @@
 
 # SolrQuery::setQuery
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setQuery — Встановлює пошуковий запит
 

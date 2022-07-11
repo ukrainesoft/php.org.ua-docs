@@ -7,7 +7,7 @@
 
 # SplObjectStorage::offsetExists
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::offsetExists — Перевіряє, чи існує об'єкт в
 контейнері
@@ -37,7 +37,7 @@ public **SplObjectStorage::offsetExists**(object `$object`): bool
 
 **Приклад #1 Приклад використання **SplObjectStorage::offsetExists()****
 
-` <?php$s u003d new SplObjectStorage;$o1 u003d new StdClass;$o2 u003d new StdClass;$s->attach($o1);var_dump($s->offsetExists($o1)); // аналогічно isset($s[$o1])var_dump($s->offsetExists($o2)); // аналогічно isset($s[$o2])?> `
+` <?php$s = new SplObjectStorage;$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1);var_dump($s->offsetExists($o1)); // аналогічно isset($s[$o1])var_dump($s->offsetExists($o2)); // аналогічно isset($s[$o2])?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

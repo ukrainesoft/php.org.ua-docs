@@ -7,7 +7,7 @@
 
 #fdf_get_attachment
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_get_attachment — Витягує завантажений файл, вбудований у FDF
 
@@ -52,4 +52,4 @@ string `$savepath`): array
 
 **Приклад #1 Збереження завантаженого файлу**
 
-`<?php $fdf u003d fdf_open_string($HTTP_FDF_DATA); $datau003du003dfdf_get_attachment($fdf,"filename","/tmpdir"); echo "Завантажений файл зберігається в $data[path]";?> `
+`<?php $fdf = fdf_open_string($HTTP_FDF_DATA); $data==fdf_get_attachment($fdf,"filename","/tmpdir"); echo "Завантажений файл зберігається в $data[path]";?> `

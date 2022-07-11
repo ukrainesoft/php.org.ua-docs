@@ -7,7 +7,7 @@
 
 # Клас Yaf_Action_Abstract
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -46,11 +46,11 @@ string
 
 protected
 [Yaf_Controller_Abstract::display](yaf-controller-abstract.display.md)(string
-`$tpl`, array `$parameters` u003d ?): bool
+`$tpl`, array `$parameters` = ?): bool
 
 public
 [Yaf_Controller_Abstract::forward](yaf-controller-abstract.forward.md)(string
-`$action`, array `$paramters` u003d ?): bool
+`$action`, array `$paramters` = ?): bool
 
 public
 [Yaf_Controller_Abstract::getInvokeArg](yaf-controller-abstract.getinvokearg.md)(string
@@ -90,7 +90,7 @@ void
 
 public
 [Yaf_Controller_Abstract::initView](yaf-controller-abstract.initview.md)(array
-`$options` u003d ?): void
+`$options` = ?): void
 
 public
 [Yaf_Controller_Abstract::redirect](yaf-controller-abstract.redirect.md)(string
@@ -98,7 +98,7 @@ public
 
 protected
 [Yaf_Controller_Abstract::render](yaf-controller-abstract.render.md)(string
-`$tpl`, array `$parameters` u003d ?): string
+`$tpl`, array `$parameters` = ?): string
 
 public
 [Yaf_Controller_Abstract::setViewpath](yaf-controller-abstract.setviewpath.md)(string

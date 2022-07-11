@@ -7,13 +7,13 @@
 
 # opcache_get_status
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8, PECL ZendOpcache \> 7.0.2)
 
 opcache_get_status — Отримати інформацію про стан кешу
 
 ### Опис
 
-**opcache_get_status**(bool `$include_scripts` u003d **`true`**):
+**opcache_get_status**(bool `$include_scripts` = **`true`**):
 array\|false
 
 Функція повертає інформацію про стан екземпляра кеша у пам'яті. Вона

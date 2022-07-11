@@ -42,7 +42,7 @@ BLOB-об'єкт, відкритий за допомогою
 
 **Приклад #1 Приклад використання **ibase_blob_get()****
 
-` <?php$result    u003d ibase_query("SELECT blob_value FROM table");$data       u003d ibase_fetch_object($result);$blob_datau003du003dibase_blob_da> echo      ibase_blob_get($blob_hndl, $blob_data[0]);?> `
+` <?php$result    = ibase_query("SELECT blob_value FROM table");$data       = ibase_fetch_object($result);$blob_data==ibase_blob_da> echo      ibase_blob_get($blob_hndl, $blob_data[0]);?> `
 
 Хоча цей приклад робить не більше, ніж
 'ibase_blob_echo($data-\>BLOB_VALUE)', він показує, як отримати

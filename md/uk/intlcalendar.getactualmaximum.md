@@ -7,7 +7,7 @@
 
 # IntlCalendar::getActualMaximum
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getActualMaximum — Максимальне значення для поля з урахуванням
 поточного часу об'єкту
@@ -56,7 +56,7 @@ public **IntlCalendar::getActualMaximum**(int `$field`): int\|false
 
 **Приклад #1 Приклад використання **IntlCalendar::getActualMaximum()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');$cal u003d IntlCalendar::fromDateTime('2013-02-15');var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MON) //28$cal->add(IntlCalendar::FIELD_EXTENDED_YEAR, -1);var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //29 `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');$cal = IntlCalendar::fromDateTime('2013-02-15');var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MON) //28$cal->add(IntlCalendar::FIELD_EXTENDED_YEAR, -1);var_dump($cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH)); //29 `
 
 Результат виконання цього прикладу:
 

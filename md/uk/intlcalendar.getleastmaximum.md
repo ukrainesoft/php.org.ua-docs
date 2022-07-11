@@ -7,7 +7,7 @@
 
 # IntlCalendar::getLeastMaximum
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getLeastMaximum — Отримує найменший локальний максимум
 для поля
@@ -48,7 +48,7 @@ public **IntlCalendar::getLeastMaximum**(int `$field`): int\|false
 
 **Приклад #1 Приклад максимального значення**
 
-` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'it_IT');$cal u003d new IntlGregorianCalendar(2013, 3 /* April */, 6); cal->getLeastMaximum(IntlCalendar::FIELD_DAY_OF_MONTH), // 28 |$cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH),| `
+` <?phpini_set('date.timezone', 'UTC');ini_set('intl.default_locale', 'it_IT');$cal = new IntlGregorianCalendar(2013, 3 /* April */, 6); cal->getLeastMaximum(IntlCalendar::FIELD_DAY_OF_MONTH), // 28 |$cal->getActualMaximum(IntlCalendar::FIELD_DAY_OF_MONTH),| `
 
 Результат виконання цього прикладу:
 

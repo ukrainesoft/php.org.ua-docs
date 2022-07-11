@@ -7,7 +7,7 @@
 
 # Yaf_Request_Simple::isXmlHttpRequest
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Simple::isXmlHttpRequest — Визначає запитання.
 AJAX-запитом

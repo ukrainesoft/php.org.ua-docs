@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::getServer
 
-(mongodb \>u003d1.6.0)
+(mongodb \>=1.6.0)
 
 MongoDB\Driver\Session::getServer - Повертає сервер до якого
 прив'язана поточна сесія

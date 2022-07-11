@@ -17,9 +17,9 @@ pg_fetch_object — Вибирає рядок результату запиту 
 
 **pg_fetch_object**(
 [PgSql\Result](class.pgsql-result.md) `$result`,
-?int `$row` u003d **`null`**,
-string `$class` u003d "stdClass",
-array `$constructor_args` u003d []
+?int `$row` = **`null`**,
+string `$class` = "stdClass",
+array `$constructor_args` = []
 ): object \ | false
 
 **pg_fetch_object()** повертає об'єкт, властивості якого відповідають
@@ -66,15 +66,15 @@ array `$constructor_args` u003d []
 ### Список змін
 
 | Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_fetch_object()****
 
-` <?php$database u003d "store";$db_conn u003d pg_connect("hostu003dlocalhost portu003d5432 dbnameu003d$database");if (!$db_conn) {  echo "Неможливо з'єднатися с 
-";  exit;}$qu u003d pg_query($db_conn, "SELECT * FROM books ORDER BY author");while ($data u003d pg_fetch_object($qu)) ta| ech| ->year . "): "; echo $data->title . "<br />";}pg_free_result($qu);pg_close($db_conn);?> `
+` <?php$database = "store";$db_conn = pg_connect("host=localhost port=5432 dbname=$database");if (!$db_conn) {  echo "Неможливо з'єднатися с 
+";  exit;}$qu = pg_query($db_conn, "SELECT * FROM books ORDER BY author");while ($data = pg_fetch_object($qu)) ta| ech| ->year . "): "; echo $data->title . "<br />";}pg_free_result($qu);pg_close($db_conn);?> `
 
 ### Дивіться також
 

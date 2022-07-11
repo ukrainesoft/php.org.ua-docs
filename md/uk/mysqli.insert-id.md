@@ -68,12 +68,12 @@ int\|string `$mysqli->insert_id`;
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$mysqli->query("C| u003d "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";$mysqli->query($query);printf("ID нового запису: %d.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$mysqli->query("C| = "INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";$mysqli->query($query);printf("ID нового запису: %d.
 ", $mysqli->insert_id);/* видалення таблиці */$mysqli->query("DROP TABLE myCity"); `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");mysqli_query($link, C INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";mysqli_query($link, $query);printf("ID нового запису: %d.
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");mysqli_query($link, C INSERT INTO myCity VALUES (NULL, 'Stuttgart', 'DEU', 'Stuttgart', 617000)";mysqli_query($link, $query);printf("ID нового запису: %d.
 ", mysqli_insert_id($link));/* видалення таблиці */mysqli_query($link, "DROP TABLE myCity");
 
 Результат виконання даних прикладів:

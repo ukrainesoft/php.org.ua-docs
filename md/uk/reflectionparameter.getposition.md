@@ -7,7 +7,7 @@
 
 # ReflectionParameter::getPosition
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 ReflectionParameter::getPosition — Отримання позиції параметра
 

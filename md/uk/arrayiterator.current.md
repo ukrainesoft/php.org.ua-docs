@@ -30,11 +30,11 @@ public **ArrayIterator::current**():
 
 **Приклад #1 Приклад використання **ArrayIterator::current()****
 
-`<?phu003d$array u003d array('1' u003d> 'one',   y| iteratoru003d $arrayobject->getIterator();   $iterator->valid();   $iterator->next()) {    echo $iterator->key() . ' u003d> ' . $iterator->current() . "
+`<?ph=$array = array('1' => 'one',   y| iterator= $arrayobject->getIterator();   $iterator->valid();   $iterator->next()) {    echo $iterator->key() . ' => ' . $iterator->current() . "
 ";}?> `
 
 Результат виконання цього прикладу:
 
-1 u003d> один
-2 u003d> two
-3 u003d> three
+1 => один
+2 => two
+3 => three

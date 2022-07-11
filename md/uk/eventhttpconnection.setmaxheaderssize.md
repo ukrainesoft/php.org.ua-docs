@@ -7,7 +7,7 @@
 
 # EventHttpConnection::setMaxHeadersSize
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::setMaxHeadersSize — Встановлює максимальний
 розмір заголовка

@@ -7,7 +7,7 @@
 
 # Gmagick::hasnextimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::hasnextimage — Перевіряє, чи є ще зображення в об'єкті
 

@@ -13,7 +13,7 @@ DOMComment::\_\_construct — Створює новий екземпляр кл�
 
 ### Опис
 
-public **DOMComment::\_\_construct**(string `$data` u003d "")
+public **DOMComment::\_\_construct**(string `$data` = "")
 
 Створює новий об'єкт класу [DOMComment](class.domcomment.md). Об'єкт
 буде доступний лише читання. Його можна додати до документа, але
@@ -30,7 +30,7 @@ public **DOMComment::\_\_construct**(string `$data` u003d "")
 
 **Приклад #1 Створення об'єкту DOMComment**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');$element u003d $dom->appendChild(new DOMElement('root'));$comment u003d $element->appendChild( new DOMComment('root comment'));echo $dom->saveXML(); /* <?xml versionu003d"1.0" encodingu003d"iso-8859-1"?><root><!--root comment--></root> */?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');$element = $dom->appendChild(new DOMElement('root'));$comment = $element->appendChild( new DOMComment('root comment'));echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?><root><!--root comment--></root> */?> `
 
 ### Дивіться також
 

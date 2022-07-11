@@ -31,7 +31,7 @@ public **Imagick::transverseImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::transverseImage()****
 
-` <?phpfunction transverseImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->transverseImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction transverseImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->transverseImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
 
 ### Дивіться також
 

@@ -7,14 +7,14 @@
 
 # SolrQuery::setFacetMinCount
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetMinCount — Відповідає facet.mincount
 
 ### Опис
 
 public **SolrQuery::setFacetMinCount**(int `$mincount`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює мінімальну кількість полів фасетів, які мають бути
 включені у відповідь

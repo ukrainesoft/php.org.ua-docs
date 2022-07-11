@@ -7,7 +7,7 @@
 
 # ImagickPixel::isPixelSimilar
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 ImagickPixel::isPixelSimilar — Перевіряє відстань між цим кольором та
 іншим

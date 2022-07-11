@@ -7,7 +7,7 @@
 
 # ZipArchive::unchangeAll
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::unchangeAll — Скасує всі зміни, зроблені в архіві
 

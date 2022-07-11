@@ -7,7 +7,7 @@
 
 # swoole_error_log
 
-(PECL swoole \>u003d 4.5.8)
+(PECL swoole \>= 4.5.8)
 
 swoole_error_log — Виводить повідомлення про помилки до журналу
 

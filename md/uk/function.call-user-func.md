@@ -36,9 +36,9 @@ call_user_func — Викликає callback-функцію, задану у п�
 >
 > **Приклад #1 Приклад використання **call_user_func()** та посилання**
 >
-> ` <?phperror_reporting(E_ALL);function increment(&$var){   $var++;}$a u003d 0;call_user_func('increment', $a);echo $a."
+> ` <?phperror_reporting(E_ALL);function increment(&$var){   $var++;}$a = 0;call_user_func('increment', $a);echo $a."
 ";// Замість цього можна використовувати цей спосібcall_user_func_array('increment', array(&$a));echo $a."
-";// Також можна використовувати функцію в якості змінної$increment u003d 'increment';$increment($a);echo $a."
+";// Також можна використовувати функцію в якості змінної$increment = 'increment';$increment($a);echo $a."
 ";?> `
 >
 > Результат виконання цього прикладу:
@@ -78,7 +78,7 @@ call_user_func — Викликає callback-функцію, задану у п�
 **Приклад #4 Виклик методу класу за допомогою **call_user_func()****
 
 `<?phpclass myclass {   static function say_hello()    {       echo "Привіт!
-";    }}$classname u003d "myclass";call_user_func(array($classname, 'say_hello'));call_user_func($classname .'::say_hello');$myobject u003d new myclass();call_user , 'say_hello'));?> `
+";    }}$classname = "myclass";call_user_func(array($classname, 'say_hello'));call_user_func($classname .'::say_hello');$myobject = new myclass();call_user , 'say_hello'));?> `
 
 Результат виконання цього прикладу:
 

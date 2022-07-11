@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerApi::serialize
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\ServerApi::serialize — Серіалізує ServerApi
 

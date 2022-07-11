@@ -37,4 +37,4 @@ public **mysql_xdevapi\CollectionRemove::execute**():
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionRemove::execute()****
 
-` <?php$res u003d $coll->remove('true')->sort('age desc')->limit(2)->execute();?> `
+` <?php$res = $coll->remove('true')->sort('age desc')->limit(2)->execute();?> `

@@ -7,13 +7,13 @@
 
 #ps_open_file
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_open_file — Відкриває файл для виводу
 
 ### Опис
 
-**ps_open_file**(resource `$psdoc`, string `$filename` u003d ?): bool
+**ps_open_file**(resource `$psdoc`, string `$filename` = ?): bool
 
 Створює новий файл на диску і записує документ PostScript.
 Файл буде закрито під час виклику [ps_close()](function.ps-close.md).

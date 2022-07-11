@@ -7,7 +7,7 @@
 
 # hash_copy
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 hash_copy — Копіює контекст хешування
 
@@ -29,14 +29,14 @@ hash_copy — Копіює контекст хешування
 ### Список змін
 
 | Версія | Опис                                                                  |
-| ------ | --------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------|
 | 7.2.0  | Приймає та повертає [HashContext](class.hashcontext.md), а не ресурс. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **hash_copy()****
 
-` <?php$context u003d hash_init("md5");hash_update($context, "data");/* копія контексту для подальшого використання */$copy_context u003d hash_copy($context);
+` <?php$context = hash_init("md5");hash_update($context, "data");/* копія контексту для подальшого використання */$copy_context = hash_copy($context);
 ";hash_update($copy_context, "data");echo hash_final($copy_context), "
 ";?> `
 

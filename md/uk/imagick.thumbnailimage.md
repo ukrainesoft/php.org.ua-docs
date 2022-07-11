@@ -16,9 +16,9 @@ Imagick::thumbnailImage — Змінює розмір зображення
 public **Imagick::thumbnailImage**(
 int `$columns`,
 int `$rows`,
-bool `$bestfit` u003d **`false`**,
-bool `$fill` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$fill` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 Змінює розмір зображення до заданих розмірів та видаляє всі пов'язані
@@ -61,4 +61,4 @@ bool `$legacy` u003d **`false`**
 
 **Приклад #1 Приклад використання **Imagick::thumbnailImage()****
 
-` phpfunction thumbnailImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->setbackgroundcolor('rgb(64, 64, 64)'); $imagick->thumbnailImage(100, 100, true, true); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` phpfunction thumbnailImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->setbackgroundcolor('rgb(64, 64, 64)'); $imagick->thumbnailImage(100, 100, true, true); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

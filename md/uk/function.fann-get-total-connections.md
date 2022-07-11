@@ -7,7 +7,7 @@
 
 # fann_get_total_connections
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_total_connections — Отримує загальну кількість з'єднань у
 всієї мережі

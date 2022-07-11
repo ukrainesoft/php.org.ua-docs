@@ -13,4 +13,4 @@
 
 Константа перерахування може належати до варіанта перерахування:
 
-`<?phpenum Size{    case Small; case Medium; case Large; public const Huge u003d self::Large;}?> `
+`<?phpenum Size{    case Small; case Medium; case Large; public const Huge = self::Large;}?> `

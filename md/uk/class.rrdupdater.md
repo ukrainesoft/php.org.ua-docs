@@ -7,7 +7,7 @@
 
 # Клас RRDUpdater
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 ## Вступ
 
@@ -22,7 +22,7 @@ class **RRDUpdater** {
 public [\_\_construct](rrdupdater.construct.md)(string `$path`)
 
 public [update](rrdupdater.update.md)(array `$values`, string `$time`
-u003d time() : bool
+= time() : bool
 
 }
 

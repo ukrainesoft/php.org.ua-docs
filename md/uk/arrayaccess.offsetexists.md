@@ -54,7 +54,7 @@ public
 }    public function offsetUnset($var): void {        var_dump(__METHOD__); Виконується obj::offsetExists() і obj::offsetGet()
 `<?phpclass obj implements ArrayAccess {    public function offsetSet($offset, $value): void {       var_dump(__METHOD__); ";var_dump(empty($obj["foobar"]));echo "
 }   #[\ReturnTypeWillChange]    public function offsetGet($var) {       var_dump(__METHOD__); }    public function offsetExists($var): bool {        var_dump(__METHOD__); Виконується obj::offsetExists(), але *не* obj:offsetGet(), оскільки не повертати
-return "value"; if ($var u003du003d "foobar") {            return true; ";var_dump(empty($obj["foobaz"]));?> `}}$obj u003d new obj;echo "Виконується obj::offsetExists()
+return "value"; if ($var == "foobar") {            return true; ";var_dump(empty($obj["foobaz"]));?> `}}$obj = new obj;echo "Виконується obj::offsetExists()
 }    return false; 
 
 Результатом виконання цього прикладу буде щось подібне:

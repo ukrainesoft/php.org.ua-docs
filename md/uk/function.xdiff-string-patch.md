@@ -7,7 +7,7 @@
 
 #xdiff_string_patch
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_string_patch — Застосувати звичайний патч до рядка
 
@@ -16,8 +16,8 @@ xdiff_string_patch — Застосувати звичайний патч до �
 **xdiff_string_patch**(
 string `$str`,
 string `$patch`,
-int `$flags` u003d ?,
-string `&$error` u003d ?
+int `$flags` = ?,
+string `&$error` = ?
 ): string
 
 Застосовує до рядка `str` звичайний патч `patch` та повертає результат.
@@ -59,7 +59,7 @@ string `&$error` u003d ?
 
 Наступний код застосовує патч до статті.
 
-` <?php$old_article u003d file_get_contents('./old_article.txt');$diff u003d $_SERVER['patch']; /* Допустимо хтось відправив патч через html-форму */$errors u003d '';$new_article u003d xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $                  :
+` <?php$old_article = file_get_contents('./old_article.txt');$diff = $_SERVER['patch']; /* Допустимо хтось відправив патч через html-форму */$errors = '';$new_article = xdiff_string_patch($old_article, $diff, XDIFF_PATCH_NORMAL, $                  :
 ";   echo $new_article;}if (strlen($errors)) {   echo "Відхилено:
 ";   echo $errors;}?> `
 

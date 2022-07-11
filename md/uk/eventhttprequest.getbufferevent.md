@@ -7,7 +7,7 @@
 
 # EventHttpRequest::getBufferEvent
 
-(PECL event \>u003d 1.8.0)
+(PECL event \>= 1.8.0)
 
 EventHttpRequest::getBufferEvent — Повертає об'єкт EventBufferEvent
 

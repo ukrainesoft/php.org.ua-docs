@@ -7,7 +7,7 @@
 
 # Swoole\Buffer::\_\_toString
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::\_\_toString — Отримує строкове значення буфера пам'яті
 

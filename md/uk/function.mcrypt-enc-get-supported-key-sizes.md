@@ -8,7 +8,7 @@
 
 # mcrypt_enc_get_supported_key_sizes
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_enc_get_supported_key_sizes — Повертає масив із допустимими
 розмірами ключа для алгоритму
@@ -42,15 +42,15 @@ mcrypt_enc_get_supported_key_sizes — Повертає масив із допу
 **Приклад #1 Приклад використання
 **mcrypt_enc_get_supported_key_sizes()****
 
-`<?php   $td u003d mcrypt_module_open('rijndael-256', '', 'ecb', ''); var_dump(mcrypt_enc_get_supported_key_sizes($td));?> `
+`<?php   $td = mcrypt_module_open('rijndael-256', '', 'ecb', ''); var_dump(mcrypt_enc_get_supported_key_sizes($td));?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(16)
-[1]u003d>
+[1]=>
 int(24)
-[2]u003d>
+[2]=>
 int(32)
 }

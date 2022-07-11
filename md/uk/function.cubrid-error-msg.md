@@ -7,7 +7,7 @@
 
 #cubrid_error_msg
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_error_msg — Повертає текст останньої помилки, що сталася
 
@@ -31,7 +31,7 @@ cubrid_error_msg — Повертає текст останньої помилк
 
 **Приклад #1 Приклад використання **cubrid_error_msg()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");if (!@cubrid_schema($conn, 100000)) {    printf("Error facility: %d
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");if (!@cubrid_schema($conn, 100000)) {    printf("Error facility: %d
 Error code: %d
 Error msg: %s
 ",   cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());   cubrid_disconnect($conn);    exit;}?> `

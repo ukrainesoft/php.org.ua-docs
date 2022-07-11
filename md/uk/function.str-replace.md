@@ -17,7 +17,7 @@ str_replace — Замінює всі входження рядка пошуку
 array\|string `$search`,
 array\|string `$replace`,
 string\|array `$subject`,
-int `&$count` u003d **`null`**
+int `&$count` = **`null`**
 ): string\|array
 
 Ця функція повертає рядок або масив, в якому всі входження
@@ -67,17 +67,19 @@ int `&$count` u003d **`null`**
 
 **Приклад #1 Приклади використання **str_replace()****
 
-` <?php// привласнює <body textu003d'black'>$bodytag u003d str_replace("%body%", "black", "<body textu003d'%body%'>");// присвоює: Hll Wrld f PHP$vowels u003d array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");$onlyconsonants u003d str_replace($vowels, "", "Hello World of PHP");// привласнює: You should eat pizza, beer, and cream every day$phrase   u003d  ;$healthy u003d array("fruits", "vegetables", "fiber");$yummy   u003d array("pizza", "beer", "ice cream");$newphrase u003d str_replace($healthy, phrase);// привласнює: 2$str u003d str_replace("ll", "", "good golly miss molly!", $count);echo $count;?> `
+` <?php// привласнює <body text='black'>$bodytag = str_replace("%body%", "black", "<body text='%body%'>");// присвоює: Hll Wrld f PHP$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");$onlyconsonants = str_replace($vowels, "", "Hello World of PHP");// привласнює: You should eat pizza, beer, and cream every day$phrase   =  ;$healthy = array("fruits", "vegetables", "fiber");$yummy   = array("pizza", "beer", "ice cream");$newphrase = str_replace($healthy, phrase);// привласнює: 2$str = str_replace("ll", "", "good golly miss molly!", $count);echo $count;?> `
 
 **Приклад #2 Приклади потенційних трюків з **str_replace()****
 
-` <?php// Порядок заміни$str     u003d "Рядок 1
-Рядок 2Рядок 3
-Рядок 4
-";$order   u003d array("
-", "
-", "");$replace u003d '<br />';// Обробляє спочатку
-для уникнення їх повторної заміни. echo $ newstr u003d str_replace ($ order, $ replace, $ str); / / Виводить F, т.к. A замінюється на B, потім B на C, і так далі...// В результаті E буде замінено F, так як заміна відбувається зліва ,направо.$search  '''' ' D', 'E');$replaceu003du003darray('B', C', D', E', F');$subjectu003du003d'A';echo str_replace($search, $replace, $subject);// Виводить: яблорехкоріх горіх(за вищевказаною причиною)$letters u003d array('я', 'о');$fruit   u003d array('яблуко', 'горіх' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '; ;$output u003d str_replace($letters, $fruit, $text);echo $output;?> `
+` <?php// Порядок заміни$str     = "Рядок 1
+Рядок 2
+Рядок 3
+Рядок 4=
+";$order   = array("
+", "=
+", "========
+");$replace = '<br />';// Обробляє спочатку
+для уникнення їх повторної заміни. echo $ newstr = str_replace ($ order, $ replace, $ str); / / Виводить F, т.к. A замінюється на B, потім B на C, і так далі...// В результаті E буде замінено F, так як заміна відбувається зліва ,направо.$search  '''' ' D', 'E');$replace==array('B', C', D', E', F');$subject=='A';echo str_replace($search, $replace, $subject);// Виводить: яблорехкоріх горіх(за вищевказаною причиною)$letters = array('я', 'о');$fruit   = array('яблуко', 'горіх' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '; ;$output = str_replace($letters, $fruit, $text);echo $output;?> `
 
 ### Примітки
 

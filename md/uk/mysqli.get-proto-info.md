@@ -44,13 +44,13 @@ int `$mysqli->protocol_version`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password");/* Перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Подключення |
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password");/* Перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Подключення |
 ", mysqli_connect_error());  exit();}/* Вивести версію протоколу */printf("Версія протоколу: %d
 ", $mysqli->protocol_version);/* Закрити з'єднання*/$mysqli->close();?> `
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password");/* Перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Підключення не 
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password");/* Перевірити з'єднання */if (mysqli_connect_errno()) {    printf("Підключення не 
 ", mysqli_connect_error());  exit();}/* Вивести версію протоколу */printf("Версія протоколу: %d
 ", mysqli_get_proto_info($link));/* Закрити з'єднання*/mysqli_close($link);?> `
 

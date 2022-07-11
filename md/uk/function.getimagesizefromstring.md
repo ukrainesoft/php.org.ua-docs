@@ -7,13 +7,13 @@
 
 #getimagesizefromstring
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 getimagesizefromstring — Отримання розміру зображення з рядка даних
 
 ### Опис
 
-**getimagesizefromstring**(string `$string`, array `&$image_info` u003d
+**getimagesizefromstring**(string `$string`, array `&$image_info` =
 **`null`**): array\|false
 
 Функція працює ідентично функції
@@ -40,7 +40,7 @@ getimagesizefromstring — Отримання розміру зображенн�
 
 **Приклад #1 Приклад використання **getimagesizefromstring()****
 
-`<?php$img u003d '/path/to/test.png';// Відкрити як файл$size_info1 u003d getimagesize($img);// Відкрити як рядок$data         u003d ($data);?> `
+`<?php$img = '/path/to/test.png';// Відкрити як файл$size_info1 = getimagesize($img);// Відкрити як рядок$data         = ($data);?> `
 
 ### Дивіться також
 

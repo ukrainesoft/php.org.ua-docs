@@ -7,14 +7,14 @@
 
 # Yaf_Route_Interface::assemble
 
-(Yaf \> u003d 2.3.0)
+(Yaf \> = 2.3.0)
 
 Yaf_Route_Interface::assemble — Збирає запит
 
 ### Опис
 
 abstract public **Yaf_Route_Interface::assemble**(array `$info`, array
-`$query` u003d ?): string
+`$query` = ?): string
 
 Метод повертає URL відповідно до інформації аргументу та додає
 рядки запиту до URL у відповідності до запиту аргументу.

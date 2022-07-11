@@ -7,7 +7,7 @@
 
 #oci_num_fields
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_num_fields — Повертає кількість полів через запит
 
@@ -30,7 +30,7 @@ oci_num_fields — Повертає кількість полів через з�
 
 **Приклад #1 Приклад використання **oci_num_fields()****
 
-`<?php// Створіть таблицю://   CREATE TABLE mytab (id NUMBER, quantity NUMBER);$conn u003d oci_connect("hr", "hrpwd", "localhost/XE")     m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stidu003du003doci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols u003d oci_num_fields($stid);for ($i u003d 1; $i <u003d $ncols; $i++) {   " " . oci_field_type($stid, $i) . "<br>
+`<?php// Створіть таблицю://   CREATE TABLE mytab (id NUMBER, quantity NUMBER);$conn = oci_connect("hr", "hrpwd", "localhost/XE")     m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid==oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid, OCI_DESCRIBE_ONLY); // використовуйте OCI_DESCRIBE_ONLY, якщо не отримуєте даних$ncols = oci_num_fields($stid);for ($i = 1; $i <= $ncols; $i++) {   " " . oci_field_type($stid, $i) . "<br>
 ";}// Виведе: //   ID NUMBER//    QUANTITY NUMBERoci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки

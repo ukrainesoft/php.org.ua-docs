@@ -7,7 +7,7 @@
 
 # Imagick::setFont
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::setFont — Встановлює шрифт
 
@@ -39,7 +39,7 @@ public **Imagick::setFont**(string `$font`): bool
 
 Приклад використання Imagick::setFont
 
-` <?php/* Створення нового об'єкту Imagick */$im u003d new Imagick();/* Установка шрифту для об'єкту */$im->setFont("example.ttf");/* Створення ->newPseudoImage(100, 100, "caption:Hello");/* Робота з зображенням */?> `
+` <?php/* Створення нового об'єкту Imagick */$im = new Imagick();/* Установка шрифту для об'єкту */$im->setFont("example.ttf");/* Створення ->newPseudoImage(100, 100, "caption:Hello");/* Робота з зображенням */?> `
 
 ### Дивіться також
 

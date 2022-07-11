@@ -37,13 +37,13 @@ mysqli на виняток, попередження чи відсутність
 ### Список параметрів
 
 `flags`
-| Ім'я Опис                |
-| ------------------------ |
-| **MYSQLI_REPORT_OFF**    | Вимкнути протоколювання 
-| **MYSQLI_REPORT_ERROR**  | Заносити до протоколу помилки викликів функцій mysqli
-| **MYSQLI_REPORT_STRICT** | Замість повідомлень про помилки викидати виняток [mysqli_sql_exception](class.mysqli-sql-exception.md)
-| **MYSQLI_REPORT_INDEX**  | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі)
-| **MYSQLI_REPORT_ALL**    | Увімкнути всі налаштування (заносити до протоколу всі події)
+| Ім'я Опис                |                                                                                                                    |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **MYSQLI_REPORT_OFF**    | Вимкнути протоколювання                                                                                            |
+| **MYSQLI_REPORT_ERROR**  | Заносити до протоколу помилки викликів функцій mysqli                                                              |
+| **MYSQLI_REPORT_STRICT** | Замість повідомлень про помилки викидати виняток [mysqli_sql_exception](class.mysqli-sql-exception.md)             |
+| **MYSQLI_REPORT_INDEX**  | Заносити до протоколу факти використання у запитах невірного індексу (або коли індекс не використовується взагалі) |
+| **MYSQLI_REPORT_ALL**    | Увімкнути всі налаштування (заносити до протоколу всі події)                                                       |
 
 **Підтримувані прапори**
 
@@ -53,23 +53,23 @@ mysqli на виняток, попередження чи відсутність
 
 ### Список змін
 
-| Версія | Опис                                                            |
-| ------ | --------------------------------------------------------------- |
-| 8.1.0  | Тепер за замовчуванням встановлено значення MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT. Раніше воно було **MYSQLI_REPORT_OFF**.
+| Версія | Опис                                                            |                                                               |
+|--------|-----------------------------------------------------------------|---------------------------------------------------------------|
+| 8.1.0  | Тепер за замовчуванням встановлено значення MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT. Раніше воно було **MYSQLI_REPORT_OFF**. |
 
 ### Приклади
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* включение протоколирования */$driver u003d new mysqli_driver();$driver->report_mode u003d MYSQLI_REPORT_ALL;try {    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */    $mysqli u003d new mysqli("localhost", "my_user", "my_password", "my_db"); /* цей запрос повинен повідомити про помилка */    $result u003d $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */    $result u003d $mysqli->query("SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($ e->__toString());} `
+` <?php/* включение протоколирования */$driver = new mysqli_driver();$driver->report_mode = MYSQLI_REPORT_ALL;try {    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */    $mysqli = new mysqli("localhost", "my_user", "my_password", "my_db"); /* цей запрос повинен повідомити про помилка */    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($ e->__toString());} `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* включение протоколирования */mysqli_report(MYSQLI_REPORT_ALL);try {    /* Если соединение завершилось с ошибкой, будет выброшено исключение mysqli_sql_exception */    $link u003d mysqli_connect("localhost", "my_user", "my_password", "my_db "); /* цей запрос повинен повідомити про помилка */    $result u003d mysqli_query($link, "SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */    $result u003d mysqli_query($link, "SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($e ->__toString());} `
+` <?php/* включение протоколирования */mysqli_report(MYSQLI_REPORT_ALL);try {    /* Если соединение завершилось с ошибкой, будет выброшено исключение mysqli_sql_exception */    $link = mysqli_connect("localhost", "my_user", "my_password", "my_db "); /* цей запрос повинен повідомити про помилка */    $result = mysqli_query($link, "SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* этот запрос должен сообщить о неверном индексе, если у столбца population нет индекса */    $result = mysqli_query($link, "SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($e ->__toString());} `
 
 **Приклад #3 Звіт про помилки, крім помилок неправильного індексу**
 
-` <?php/* включение протоколирования */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);try {    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */    $mysqli u003d new mysqli("localhost", "my_user", "my_password", " my_db"); /* цей запрос повинен повідомити про помилка */    $result u003d $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* это НЕ БУДЕТ сообщать об ошибках, даже если индекс недоступен */    $result u003d $mysqli->query("SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($e-> __toString());} `
+` <?php/* включение протоколирования */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);try {    /* если получится подключится, будет выброшено исключение mysqli_sql_exception */    $mysqli = new mysqli("localhost", "my_user", "my_password", " my_db"); /* цей запрос повинен повідомити про помилка */    $result = $mysqli->query("SELECT Name FROM Nonexistingtable WHERE population > 50000"); /* это НЕ БУДЕТ сообщать об ошибках, даже если индекс недоступен */    $result = $mysqli->query("SELECT Name FROM City WHERE population > 50000");} catch (mysqli_sql_exception $e) {    error_log($e-> __toString());} `
 
 ### Дивіться також
 

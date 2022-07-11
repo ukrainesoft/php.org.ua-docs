@@ -7,7 +7,7 @@
 
 # SplFileInfo::isReadable
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isReadable — Вказує, чи є файл доступним для
 читання
@@ -31,7 +31,7 @@ public **SplFileInfo::isReadable**(): bool
 
 **Приклад #1 Приклад використання **SplFileInfo::isReadable()****
 
-` <?php$info u003d new SplFileInfo(__FILE__);var_dump($info->isReadable());$info u003d new SplFileInfo('foo');var_dump($info->isReadable());?> `
+` <?php$info = new SplFileInfo(__FILE__);var_dump($info->isReadable());$info = new SplFileInfo('foo');var_dump($info->isReadable());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

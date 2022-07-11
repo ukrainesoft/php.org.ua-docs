@@ -7,7 +7,7 @@
 
 # trader_sarext
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_sarext - Параболічний SAR - розширений
 
@@ -16,14 +16,14 @@ trader_sarext - Параболічний SAR - розширений
 **trader_sarext**(
 array `$high`,
 array `$low`,
-float `$startValue` u003d ?,
-float `$offsetOnReverse` u003d ?,
-float `$accelerationInitLong` u003d ?,
-float `$accelerationLong` u003d ?,
-float `$accelerationMaxLong` u003d ?,
-float `$accelerationInitShort` u003d ?,
-float `$accelerationShort` u003d ?,
-float `$accelerationMaxShort` u003d ?
+float `$startValue` = ?,
+float `$offsetOnReverse` = ?,
+float `$accelerationInitLong` = ?,
+float `$accelerationLong` = ?,
+float `$accelerationMaxLong` = ?,
+float `$accelerationInitShort` = ?,
+float `$accelerationShort` = ?,
+float `$accelerationMaxShort` = ?
 ): array
 
 ### Список параметрів

@@ -30,7 +30,7 @@ public **mysql_xdevapi\Session::getServerVersion**(): int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::getServerVersion()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$version u003d $session->getServerVersion();var_dump($version); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$version = $session->getServerVersion();var_dump($version); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

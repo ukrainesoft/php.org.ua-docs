@@ -7,7 +7,7 @@
 
 #array_diff
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 array_diff - Обчислити розбіжність масивів
 
@@ -36,24 +36,24 @@ array_diff - Обчислити розбіжність масивів
 
 **Приклад #1 Приклад використання **array_diff()****
 
-` <?php$array1 u003d array("a" u003d> "green", "red", "blue", "red");$array2 u003d array("b" u003d> "green", "yellow", " red");$result u003d array_diff($array1, $array2);print_r($result);?> `
+` <?php$array1 = array("a" => "green", "red", "blue", "red");$array2 = array("b" => "green", "yellow", " red");$result = array_diff($array1, $array2);print_r($result);?> `
 
 Множинні збіги в $ array1 обробляються як одне. Результат
 буде наступним:
 
 Array
 (
-[1] u003d> blue
+[1] => blue
 )
 
 **Приклад #2 Приклад використання **array_diff()** з несхожими
 типами**
 
 Два елементи вважаються рівними тоді і лише тоді, коли
-`(string) $elem1 u003du003du003d (string) $elem2`. Тобто, коли [рядкове представлення](language.types.string.md#language.types.string.casting)
+`(string) $elem1 === (string) $elem2`. Тобто, коли [рядкове представлення](language.types.string.md#language.types.string.casting)
 однаково.
 
-` <?php// Це згенерує повідомлення про том, що масив не може перетворити в рядок.$source u003d [1, 2, 3, 4];$filter u003d [3, result u003d array_diff($source, $filter);// В то же час це нормально, оскільки об'єкти можуть бути перетворені в рядок.class S { private public function __construct(string$$) {   $this->v u003d $v; }  public function __toString() {    return $this->v; }}$source u003d [new S('a'), new S('b'), new S('c')];$filter u003d [new S('b'), new S('c') , new S('d')];$result u003d array_diff($source, $filter);// $result тепер містить один примірник S('a');?> `
+` <?php// Це згенерує повідомлення про том, що масив не може перетворити в рядок.$source = [1, 2, 3, 4];$filter = [3, result = array_diff($source, $filter);// В то же час це нормально, оскільки об'єкти можуть бути перетворені в рядок.class S { private public function __construct(string$$) {   $this->v = $v; }  public function __toString() {    return $this->v; }}$source = [new S('a'), new S('b'), new S('c')];$filter = [new S('b'), new S('c') , new S('d')];$result = array_diff($source, $filter);// $result тепер містить один примірник S('a');?> `
 
 Щоб використати альтернативну функцію порівняння, дивіться
 [array_udiff()](function.array-udiff.md).

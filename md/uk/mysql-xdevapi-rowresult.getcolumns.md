@@ -36,42 +36,42 @@ public **mysql_xdevapi\RowResult::getColumns**(): array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\RowResult::getColumns()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE addressbook")->execute();$session->sql("CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$session->sql("INSERT INTO addressbook.names values ('John ', 42), ('Sam', 33)")->execute();$sql u003d $session->sql("SELECT * from addressbook.names")->execute();$cols u003d $sql- >getColumns();print_r($cols); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE addressbook")->execute();$session->sql("CREATE DATABASE foo")->execute();$session->sql("CREATE TABLE foo.test_table(x int)")->execute();$session->sql("INSERT INTO addressbook.names values ('John ', 42), ('Sam', 33)")->execute();$sql = $session->sql("SELECT * from addressbook.names")->execute();$cols = $sql- >getColumns();print_r($cols); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> mysql_xdevapi\FieldMetadata Object
+[0] => mysql_xdevapi\FieldMetadata Object
 (
-[type] u003d> 7
-[type_name] u003d> BYTES
-[name] u003d> name
-[original_name] u003d> name
-[table] u003d> names
-[original_table] u003d> names
-[schema] u003d> addressbook
-[catalog] u003d> def
-[collation] u003d> 255
-[fractional_digits] u003d> 0
-[length] u003d> 65535
-[flags] u003d> 0
-[content_type] u003d> 0
+[type] => 7
+[type_name] => BYTES
+[name] => name
+[original_name] => name
+[table] => names
+[original_table] => names
+[schema] => addressbook
+[catalog] => def
+[collation] => 255
+[fractional_digits] => 0
+[length] => 65535
+[flags] => 0
+[content_type] => 0
 )
-[1] u003d> mysql_xdevapi\FieldMetadata Object
+[1] => mysql_xdevapi\FieldMetadata Object
 (
-[type] u003d> 1
-[type_name] u003d> SINT
-[name] u003d> age
-[original_name] u003d> age
-[table] u003d> names
-[original_table] u003d> names
-[schema] u003d> addressbook
-[catalog] u003d> def
-[collation] u003d> 0
-[fractional_digits] u003d> 0
-[length] u003d> 11
-[flags] u003d> 0
-[content_type] u003d> 0
+[type] => 1
+[type_name] => SINT
+[name] => age
+[original_name] => age
+[table] => names
+[original_table] => names
+[schema] => addressbook
+[catalog] => def
+[collation] => 0
+[fractional_digits] => 0
+[length] => 11
+[flags] => 0
+[content_type] => 0
 )
 )

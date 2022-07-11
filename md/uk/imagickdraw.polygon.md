@@ -26,8 +26,8 @@ public **ImagickDraw::polygon**(array `$coordinates`): bool
 ### Список параметрів
 
 `coordinates`
-Багатовимірний масив на кшталт array( array( 'x' u003d\> 3, 'y' u003d\> 4 ),
-array( 'x' u003d 2, 'y' u003d 6 ) );
+Багатовимірний масив на кшталт array( array( 'x' =\> 3, 'y' =\> 4 ),
+array( 'x' = 2, 'y' = 6 ) );
 
 ### Значення, що повертаються
 
@@ -37,4 +37,4 @@ array( 'x' u003d 2, 'y' u003d 6 ) );
 
 **Приклад #1 Приклад використання **ImagickDraw::polygon()****
 
-`<?phpfunction polygon($strokeColor, $fillColor, $backgroundColor) {    $draw u003d new \ImagickDraw(); $draw->setStrokeOpacity(1); $draw->setStrokeColor($strokeColor); $draw->setStrokeWidth(4); $draw->setFillColor($fillColor); $points u003d [        ['x' u003d> 40 * 5, 'y' u003d> 10 * 5],                         70 * 5, 'y' u003d> 50 * 5],        ['x' u003d> 60 * 5, 'y' u003d> 15 * 5],    ]; $draw->polygon($points); $image u003d new \Imagick(); $image->newImage(500, 300, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+`<?phpfunction polygon($strokeColor, $fillColor, $backgroundColor) {    $draw = new \ImagickDraw(); $draw->setStrokeOpacity(1); $draw->setStrokeColor($strokeColor); $draw->setStrokeWidth(4); $draw->setFillColor($fillColor); $points = [        ['x' => 40 * 5, 'y' => 10 * 5],                         70 * 5, 'y' => 50 * 5],        ['x' => 60 * 5, 'y' => 15 * 5],    ]; $draw->polygon($points); $image = new \Imagick(); $image->newImage(500, 300, $backgroundColor); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `

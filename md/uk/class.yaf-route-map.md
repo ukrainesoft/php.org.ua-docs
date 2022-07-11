@@ -7,7 +7,7 @@
 
 # Клас Yaf_Route_Map
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -17,8 +17,8 @@
 [Yaf_Request_Abstract::setBaseUri()](yaf-request-abstract.setbaseuri.md))
 в ім'я контролера або ім'я дії (залежить від параметра, переданого в
 [Yaf_Route_Map::\_\_construct()](yaf-route-map.construct.md))
-наступне правило: A u003d\> controller A. A/B/C u003d\> controller A_B\_C.
-A/B/C/D/E u003d controller A_B\_C_D\_E.
+наступне правило: A =\> controller A. A/B/C =\> controller A_B\_C.
+A/B/C/D/E = controller A_B\_C_D\_E.
 
 If the second parameter of
 [Yaf_Route_Map::\_\_construct()](yaf-route-map.construct.md) is
@@ -41,10 +41,10 @@ protected `$_delimiter`;
 /\* Методи \*/
 
 public [\_\_construct](yaf-route-map.construct.md)(string
-`$controller_prefer` u003d **`false`**, string `$delimiter` u003d "")
+`$controller_prefer` = **`false`**, string `$delimiter` = "")
 
 public [assemble](yaf-route-map.assemble.md)(array `$info`, array
-`$query` u003d ?): string
+`$query` = ?): string
 
 public
 [route](yaf-route-map.route.md)([Yaf_Request_Abstract](class.yaf-request-abstract.md)

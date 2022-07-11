@@ -7,13 +7,13 @@
 
 #ob_get_status
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 ob_get_status — Отримати статус буфера виводу
 
 ### Опис
 
-**ob_get_status**(bool `$full_status` u003d **`false`**): array
+**ob_get_status**(bool `$full_status` = **`false`**): array
 
 **ob_get_status()** повертає інформацію про стан буфера верхнього
 рівня або всіх рівнях активних буферів, якщо `full_status`
@@ -27,58 +27,58 @@ ob_get_status — Отримати статус буфера виводу
 
 ### Значення, що повертаються
 
-Якщо функція викликана без параметра `full_status` або `full_status` u003d
+Якщо функція викликана без параметра `full_status` або `full_status` =
 **`false`**, то повертається простий масив з наступних елементів:
 
 ``` returnvaluescode
 Array
 (
-[level] u003d> 2
-[type] u003d> 0
-[status] u003d> 0
-[name] u003d> URL-Rewriter
-[del] u003d> 1
+[level] => 2
+[type] => 0
+[status] => 0
+[name] => URL-Rewriter
+[del] => 1
 )
 ````
 
-| Ключ   | Значення                                                                    |
-| ------ | --------------------------------------------------------------------------- |
-| рівень |                                                                             | Рівень вкладеності висновку
-| тип    | PHP_OUTPUT_HANDLER_INTERNAL (0) або PHP_OUTPUT_HANDLER_USER (1)             |
-| тип    | 0 (внутрішній обробник) або 1 (наданий користувачем обробник)               |
-| name   | Назва діючого обробника виводу або 'default output handler', якщо не задано |
-| del    | Прапор очищення, встановлений [ob_start()](function.ob-start.md)            |
+| Ключ   | Значення                                                                    |                             |
+|--------|-----------------------------------------------------------------------------|-----------------------------|
+| рівень |                                                                             | Рівень вкладеності висновку |
+| тип    | PHP_OUTPUT_HANDLER_INTERNAL (0) або PHP_OUTPUT_HANDLER_USER (1)             |                             |
+| тип    | 0 (внутрішній обробник) або 1 (наданий користувачем обробник)               |                             |
+| name   | Назва діючого обробника виводу або 'default output handler', якщо не задано |                             |
+| del    | Прапор очищення, встановлений [ob_start()](function.ob-start.md)            |                             |
 
 **Результати простого виклику **ob_get_status()****
 
-Якщо функція викликана з `full_status` u003d **`true`**, то повертається
+Якщо функція викликана з `full_status` = **`true`**, то повертається
 масив із елементів рівнів активних буферів. Як ключ
 використовується рівень виведення, і кожен елемент масиву містить у собі
 масив інформації про статус однієї з активних елементів вывода.
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[chunk_size] u003d> 0
-[size] u003d> 40960
-[block_size] u003d> 10240
-[type] u003d> 1
-[status] u003d> 0
-[name] u003d> default output handler
-[del] u003d> 1
+[chunk_size] => 0
+[size] => 40960
+[block_size] => 10240
+[type] => 1
+[status] => 0
+[name] => default output handler
+[del] => 1
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[chunk_size] u003d> 0
-[size] u003d> 40960
-[block_size] u003d> 10240
-[type] u003d> 0
-[buffer_size] u003d> 0
-[status] u003d> 0
-[name] u003d> URL-Rewriter
-[del] u003d> 1
+[chunk_size] => 0
+[size] => 40960
+[block_size] => 10240
+[type] => 0
+[buffer_size] => 0
+[status] => 0
+[name] => URL-Rewriter
+[del] => 1
 )
 
 )
@@ -86,7 +86,7 @@ Array
 Повний висновок містить такі додаткові елементи:
 
 | Ключ       | Значення                                         |
-| ---------- | ------------------------------------------------ |
+|------------|--------------------------------------------------|
 | chunk_size | Розмір порції [ob_start()](function.ob-start.md) |
 | size       | ...                                              |
 | blocksize  | ...                                              |

@@ -7,7 +7,7 @@
 
 # RarEntry::isEncrypted
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarEntry::isEncrypted — Перевіряє, чи зашифрований запис
 

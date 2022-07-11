@@ -31,7 +31,7 @@ urldecode — Декодування URL-кодованого рядка
 
 **Приклад #1 Приклад використання **urldecode()****
 
-` <?php$query u003d "myu003dapples&areu003dgreen+and+red";foreach (explode('&', $query) as $chunk) {    $param u003d explode("u003d", $chunk); if ($param) {         printf("Значення параметра \"%s\" - \"%s\"<br/>
+` <?php$query = "my=apples&are=green+and+red";foreach (explode('&', $query) as $chunk) {    $param = explode("=", $chunk); if ($param) {         printf("Значення параметра \"%s\" - \"%s\"<br/>
 ", urldecode($param[0]), urldecode($param[1]));    }}?> `
 
 ### Примітки

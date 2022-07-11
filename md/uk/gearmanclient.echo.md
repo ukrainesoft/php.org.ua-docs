@@ -8,7 +8,7 @@
 
 # GearmanClient::echo
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::echo — Надсилає дані всім серверам завдань, щоб
 перевірити відгук [Застарілий метод]

@@ -7,7 +7,7 @@
 
 # Ds\Sequence::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::allocate — Виділення пам'яті під зазначену місткість
 
@@ -36,7 +36,7 @@ abstract public **Ds\Sequence::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Sequence::allocate()****
 
-` <?php$sequence u003d new \Ds\Vector();var_dump($sequence->capacity());$vector->allocate(100);var_dump($sequence->capacity());?> `
+` <?php$sequence = new \Ds\Vector();var_dump($sequence->capacity());$vector->allocate(100);var_dump($sequence->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

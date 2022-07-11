@@ -16,7 +16,7 @@ class_implements — Повертає список інтерфейсів, ре�
 ### Опис
 
 **class_implements**(object\|string `$object_or_class`, bool `$autoload`
-u003d **`true`**): array\|false
+= **`true`**): array\|false
 
 Функція повертає масив імен інтерфейсів, реалізованих у заданому
 класі `object_or_class` та його батьківських класах.
@@ -44,15 +44,15 @@ u003d **`true`**): array\|false
 
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[interface_of_not_loaded] u003d> interface_of_not_loaded
+[interface_of_not_loaded] => interface_of_not_loaded
 )
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 #mailparse_msg_parse
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_parse - Інкрементальне розбирає дані в буфер
 

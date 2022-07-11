@@ -7,7 +7,7 @@
 
 # SolrQuery::removeFacetDateOther
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::removeFacetDateOther — Видалення одного з параметрів
 facet.date.other
@@ -15,7 +15,7 @@ facet.date.other
 ### Опис
 
 public **SolrQuery::removeFacetDateOther**(string `$value`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Видаляє один із параметрів facet.date.other
 

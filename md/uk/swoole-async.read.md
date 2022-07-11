@@ -7,7 +7,7 @@
 
 # Swoole\Async::read
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Async::read — Асинхронне читання файлового потоку
 
@@ -16,8 +16,8 @@ Swoole\Async::read — Асинхронне читання файлового п
 public static **Swoole\Async::read**(
 string `$filename`,
 [callable](language.types.callable.md) `$callback`,
-int `$chunk_size` u003d ?,
-int `$offset` u003d ?
+int `$chunk_size` = ?,
+int `$offset` = ?
 ): bool
 
 ### Список параметрів

@@ -7,7 +7,7 @@
 
 #xmlrpc_encode
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_encode — Генерує XML для PHP значення
 

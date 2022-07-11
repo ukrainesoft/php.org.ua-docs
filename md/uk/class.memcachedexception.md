@@ -7,7 +7,7 @@
 
 # Клас MemcachedException
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 ## Вступ
 
@@ -18,18 +18,18 @@ class **MemcachedException** extends
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Наслідувані методи \*/
 

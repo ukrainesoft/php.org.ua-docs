@@ -7,7 +7,7 @@
 
 # SeasLog::closeLoggerStream
 
-(PECL seaslog \>u003d1.8.6)
+(PECL seaslog \>=1.8.6)
 
 SeasLog::closeLoggerStream - Вручну звільняє потік від реєстратора
 

@@ -7,7 +7,7 @@
 
 # Клас RecursiveCachingIterator
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -21,23 +21,23 @@ class **RecursiveCachingIterator** extends
 
 /\* Успадковані константи \*/
 
-const int `CachingIterator::CALL_TOSTRING` u003d 1;
+const int `CachingIterator::CALL_TOSTRING` = 1;
 
-const int `CachingIterator::CATCH_GET_CHILD` u003d 16;
+const int `CachingIterator::CATCH_GET_CHILD` = 16;
 
-const int `CachingIterator::TOSTRING_USE_KEY` u003d 2;
+const int `CachingIterator::TOSTRING_USE_KEY` = 2;
 
-const int `CachingIterator::TOSTRING_USE_CURRENT` u003d 4;
+const int `CachingIterator::TOSTRING_USE_CURRENT` = 4;
 
-const int `CachingIterator::TOSTRING_USE_INNER` u003d 8;
+const int `CachingIterator::TOSTRING_USE_INNER` = 8;
 
-const int `CachingIterator::FULL_CACHE` u003d 256;
+const int `CachingIterator::FULL_CACHE` = 256;
 
 /\* Методи \*/
 
 public
 [\_\_construct](recursivecachingiterator.construct.md)([Iterator](class.iterator.md)
-`$iterator`, int `$flags` u003d RecursiveCachingIterator::CALL_TOSTRING)
+`$iterator`, int `$flags` = RecursiveCachingIterator::CALL_TOSTRING)
 
 public [getChildren](recursivecachingiterator.getchildren.md)():
 ?[RecursiveCachingIterator](class.recursivecachingiterator.md)

@@ -7,7 +7,7 @@
 
 #uopz_copy
 
-(PECL uopz 1 \>u003d 1.0.4, PECL uopz 2)
+(PECL uopz 1 \>= 1.0.4, PECL uopz 2)
 
 uopz_copy — Скопіювати функцію
 
@@ -40,7 +40,7 @@ uopz_copy — Скопіювати функцію
 
 **Приклад #1 Приклад використання **uopz_copy()****
 
-` <?php$strtotime u003d uopz_copy('strtotime');uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {     /* зесь можна  викликати         ¦ });var_dump(strtotime('dummy'));?> `
+` <?php$strtotime = uopz_copy('strtotime');uopz_function("strtotime", function($arg1, $arg2) use($strtotime) {     /* зесь можна  викликати         ¦ });var_dump(strtotime('dummy'));?> `
 
 Результат виконання цього прикладу:
 

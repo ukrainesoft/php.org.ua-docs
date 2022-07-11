@@ -8,7 +8,7 @@ in_addr
 
 #inet_pton
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 inet_pton — Конвертує читану IP-адресу в її упаковане
 уявлення in_addr
@@ -36,7 +36,7 @@ IPv4-адреса без точок або IPv6-адреса без двокра
 
 **Приклад #1 Приклад використання **inet_pton()****
 
-` <?php$in_addr u003d inet_pton('127.0.0.1');$in6_addr u003d inet_pton('::1');?> `
+` <?php$in_addr = inet_pton('127.0.0.1');$in6_addr = inet_pton('::1');?> `
 
 ### Дивіться також
 

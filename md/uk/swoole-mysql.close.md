@@ -7,7 +7,7 @@
 
 # Swoole\MySQL::close
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\MySQL::close — Закриває асинхронне з'єднання MySQL
 

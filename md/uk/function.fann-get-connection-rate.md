@@ -7,7 +7,7 @@
 
 # fann_get_connection_rate
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_connection_rate — Отримує швидкість з'єднання, що використовується
 при створенні мережі

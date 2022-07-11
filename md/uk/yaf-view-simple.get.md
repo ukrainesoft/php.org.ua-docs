@@ -7,13 +7,13 @@
 
 # Yaf_View_Simple::\_\_get
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::\_\_get — Отримує призначену змінну
 
 ### Опис
 
-public **Yaf_View_Simple::\_\_get**(string `$name` u003d ?): void
+public **Yaf_View_Simple::\_\_get**(string `$name` = ?): void
 
 Отримує призначену змінну
 

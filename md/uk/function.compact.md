@@ -49,22 +49,22 @@ array
 ### Список змін
 
 | Версія | Опис                                                                                                                                                            |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 7.3.0  | **compact()** тепер видає помилку рівня E_NOTICE, якщо заданий рядок пов'язаний із віддаленою змінною. Раніше такі рядки пропускалися без жодного повідомлення. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **compact()****
 
-` <?php$city  u003d "San Francisco";$state u003d "CA";$event u003d "SIGGRAPH";$location_vars u003d array("city", "state");$result u003d compact("event", $ location_vars);print_r($result);?> `
+` <?php$city  = "San Francisco";$state = "CA";$event = "SIGGRAPH";$location_vars = array("city", "state");$result = compact("event", $ location_vars);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[event] u003d> SIGGRAPH
-[City] u003d> San Francisco
-[state] u003d> CA
+[event] => SIGGRAPH
+[City] => San Francisco
+[state] => CA
 )
 
 ### Примітки

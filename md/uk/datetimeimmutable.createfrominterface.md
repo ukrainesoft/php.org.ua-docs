@@ -39,4 +39,4 @@ public static
 
 **Приклад #1 Створення іммутабельного об'єкта дати та часу**
 
-` <?php$date u003d new DateTime("2014-06-20 11:45 Europe/London");$immutable u003d DateTimeImmutable::createFromInterface($date);$date u003d new DateTimeI 0 :45 Europe/London");$also_immutable u003d DateTimeImmutable::createFromInterface($date);?> `
+` <?php$date = new DateTime("2014-06-20 11:45 Europe/London");$immutable = DateTimeImmutable::createFromInterface($date);$date = new DateTimeI 0 :45 Europe/London");$also_immutable = DateTimeImmutable::createFromInterface($date);?> `

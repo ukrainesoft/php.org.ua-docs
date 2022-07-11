@@ -7,13 +7,13 @@
 
 # gmp_init
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_init — Створення GMP числа
 
 ### Опис
 
-**gmp_init**(int\|string `$num`, int `$base` u003d 0): [GMP](class.gmp.md)
+**gmp_init**(int\|string `$num`, int `$base` = 0): [GMP](class.gmp.md)
 
 Створює GMP число з цілого чи рядка.
 
@@ -44,7 +44,7 @@ gmp_init — Створення GMP числа
 
 **Приклад #1 Створення GMP числа**
 
-` <?php$a u003d gmp_init(123456);$b u003d gmp_init("0xFFFFDEBACDFEDF7200");?> `
+` <?php$a = gmp_init(123456);$b = gmp_init("0xFFFFDEBACDFEDF7200");?> `
 
 ### Примітки
 

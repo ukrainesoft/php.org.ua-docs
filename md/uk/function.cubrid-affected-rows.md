@@ -7,16 +7,16 @@
 
 #cubrid_affected_rows
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_affected_rows — Кількість рядків, зачеплених останнім
 SQL-запитом
 
 ### Опис
 
-**cubrid_affected_rows**(resource `$conn_identifier` u003d ?): int
+**cubrid_affected_rows**(resource `$conn_identifier` = ?): int
 
-**cubrid_affected_rows**(resource `$req_identifier` u003d ?): int
+**cubrid_affected_rows**(resource `$req_identifier` = ?): int
 
 Функція **cubrid_affected_rows()** використовується для отримання кількості
 рядків, порушених останнім SQL-запитом типу INSERT, DELETE чи UPDATE.
@@ -50,7 +50,7 @@ SQL-запитом
 
 **Приклад #1 Приклад використання **cubrid_affected_rows()****
 
-` <?php$conn u003d cubrid_connect('localhost', 33000, 'demodb', 'dba', '');cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");cubrid (d varchar)");$sql_stmtu003du003d"INSERT INTO cubrid_test(d) VALUES('php-test')";$req u003d cubrid_prepare($conn, $sql_stmt);for ($i u003d 0; ; $i++) {    cubrid_execute($req);}cubrid_commit($conn);$req u003d cubrid_execute($conn, "DELETE FROM cubrid_test WHERE du003d'php-tes; var_dump(cubrid_affected_rows($conn));var_dump(cubrid_affected_rows($req));cubrid_disconnect($conn);print "done!";?> `
+` <?php$conn = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');cubrid_execute($conn, "DROP TABLE IF EXISTS cubrid_test");cubrid (d varchar)");$sql_stmt=="INSERT INTO cubrid_test(d) VALUES('php-test')";$req = cubrid_prepare($conn, $sql_stmt);for ($i = 0; ; $i++) {    cubrid_execute($req);}cubrid_commit($conn);$req = cubrid_execute($conn, "DELETE FROM cubrid_test WHERE d='php-tes; var_dump(cubrid_affected_rows($conn));var_dump(cubrid_affected_rows($req));cubrid_disconnect($conn);print "done!";?> `
 
 Результат виконання цього прикладу:
 

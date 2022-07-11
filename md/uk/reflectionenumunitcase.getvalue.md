@@ -7,7 +7,7 @@
 
 # ReflectionEnumUnitCase::getValue
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnumUnitCase::getValue — Отримує об'єкт варіанта
 перерахування, описаний Reflection-об'єктом
@@ -31,7 +31,7 @@ public **ReflectionEnumUnitCase::getValue**():
 
 **Приклад #1 Приклад використання **ReflectionEnum::getValue()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum u003d new ReflectionEnum(Suit::class);$rCase u003d $rEnum->getCase('Diamonds');var_dump($rCase->getValue());?> `
+`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum = new ReflectionEnum(Suit::class);$rCase = $rEnum->getCase('Diamonds');var_dump($rCase->getValue());?> `
 
 Результат виконання цього прикладу:
 

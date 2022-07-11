@@ -7,7 +7,7 @@
 
 # SplFileObject::ftell
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::ftell — Повернути поточну позицію файлового покажчика
 
@@ -31,7 +31,7 @@ public **SplFileObject::ftell**(): int\|false
 
 **Приклад #1 Приклад використання **SplFileObject::ftell()****
 
-` <?php$file u003d new SplFileObject("/etc/passwd");// Читаємо перший рядок$data u003d $file->fgets();// Визначаємо, де ми?echo $file->ftell(); ?> `
+` <?php$file = new SplFileObject("/etc/passwd");// Читаємо перший рядок$data = $file->fgets();// Визначаємо, де ми?echo $file->ftell(); ?> `
 
 ### Дивіться також
 

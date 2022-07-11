@@ -7,7 +7,7 @@
 
 #oci_commit
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_commit — Підтверджує транзакцію бази даних
 
@@ -47,7 +47,7 @@ oci_commit — Підтверджує транзакцію бази даних
 
 **Приклад #1 Приклад використання **oci_commit()****
 
-`<?php// Вставка в кілька таблиць, відкат змін в випадку виникнення помилки$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');$stid u003d id, name) VALUES (1, 'Chris')");// Прапор OCI_NO_AUTO_COMMIT повідомляє Oracle не фіксувати запит INSERT при його надходженні// Для і_HP| stid, OCI_NO_AUTO_COMMIT);if (!$r) {    $e u003d oci_error($stid); trigger_error(htmlentities($e['message']), E_USER_ERROR);}$stid u003d oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)')_O; if (!$r) {    $e u003d oci_error($stid); oci_rollback($conn); // відкат змін із двох таблиць    trigger_error(htmlentities($e['message']), E_USER_ERROR);}// Фіксація змін в  обох таблицях$r $        oci_error($conn); trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
+`<?php// Вставка в кілька таблиць, відкат змін в випадку виникнення помилки$conn = oci_connect('hr', 'welcome', 'localhost/XE');$stid = id, name) VALUES (1, 'Chris')");// Прапор OCI_NO_AUTO_COMMIT повідомляє Oracle не фіксувати запит INSERT при його надходженні// Для і_HP| stid, OCI_NO_AUTO_COMMIT);if (!$r) {    $e = oci_error($stid); trigger_error(htmlentities($e['message']), E_USER_ERROR);}$stid = oci_parse($conn, 'INSERT INTO myschedule (startday) VALUES (12)')_O; if (!$r) {    $e = oci_error($stid); oci_rollback($conn); // відкат змін із двох таблиць    trigger_error(htmlentities($e['message']), E_USER_ERROR);}// Фіксація змін в  обох таблицях$r $        oci_error($conn); trigger_error(htmlentities($e['message']), E_USER_ERROR);}?> `
 
 ### Примітки
 

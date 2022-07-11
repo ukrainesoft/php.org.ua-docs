@@ -7,7 +7,7 @@
 
 #pg_connection_status
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_connection_status — Визначає стан підключення
 
@@ -31,14 +31,14 @@ pg_connection_status — Визначає стан підключення
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_connection_status()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося з'єднатися"); $statu003du003dpg_connection_status($dbconn); if ($stat u003du003du003d PGSQL_CONNECTION_OK) {     echo 'Статус з'єднання: доступно'; } else {      echo 'Статус з'єднання: розірвано'; }?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося з'єднатися"); $stat==pg_connection_status($dbconn); if ($stat === PGSQL_CONNECTION_OK) {     echo 'Статус з'єднання: доступно'; } else {      echo 'Статус з'єднання: розірвано'; }?> `
 
 ### Дивіться також
 

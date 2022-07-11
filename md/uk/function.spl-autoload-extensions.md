@@ -7,14 +7,14 @@
 
 # spl_autoload_extensions
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 spl_autoload_extensions — Реєстрація та виведення розширень файлів для
 spl_autoload
 
 ### Опис
 
-**spl_autoload_extensions**(?string `$file_extensions` u003d **`null`**):
+**spl_autoload_extensions**(?string `$file_extensions` = **`null`**):
 string
 
 Ця функція може задавати розширення файлів, у яких callback-функція
@@ -42,7 +42,7 @@ string
 ### Список змін
 
 | Версія | Опис                                           |
-| ------ | ---------------------------------------------- |
+|--------|------------------------------------------------|
 | 8.0.0  | file_extensions тепер припускає значення null. |
 
 ### Приклади

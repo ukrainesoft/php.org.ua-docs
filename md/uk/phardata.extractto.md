@@ -7,14 +7,14 @@
 
 # PharData::extractTo
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::extractTo — Витягти вміст tar/zip-архіву в каталог
 
 ### Опис
 
 public **PharData::extractTo**(string `$directory`, array\|string\|null
-`$files` u003d **`null`**, bool `$overwrite` u003d **`false`**): bool
+`$files` = **`null`**, bool `$overwrite` = **`false`**): bool
 
 Виймає всі файли tar/zip-архіву на диск. Вилучені файли та
 директорії зберігають усі дозволи, які вони мали. Опціональні
@@ -53,7 +53,7 @@ public **PharData::extractTo**(string `$directory`, array\|string\|null
 
 **Приклад #1 Приклад використання **PharData::extractTo()****
 
-`<?phptry {   $phar u003d new PharData('myphar.tar'); $phar->extractTo('/full/path'); // витягти все файли   $phar->extractTo('/another/path', 'file.txt'); // витягти тільки file.txt    $phar->extractTo('/this/path',        array('file1.txt', 'file2.txt')); // витягти два зазначених файлу $phar->extractTo('/third/path', null, true); // витягти всі файли, використовувати перезапис} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new PharData('myphar.tar'); $phar->extractTo('/full/path'); // витягти все файли   $phar->extractTo('/another/path', 'file.txt'); // витягти тільки file.txt    $phar->extractTo('/this/path',        array('file1.txt', 'file2.txt')); // витягти два зазначених файлу $phar->extractTo('/third/path', null, true); // витягти всі файли, використовувати перезапис} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Примітки
 

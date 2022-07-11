@@ -20,13 +20,13 @@ mysqli_result::fetch_array -- mysqli_fetch_array -- Вибирає наступ�
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_array**(int `$mode` u003d **`MYSQLI_BOTH`**):
+public **mysqli_result::fetch_array**(int `$mode` = **`MYSQLI_BOTH`**):
 array\|null\|false
 
 Процедурний стиль
 
 **mysqli_fetch_array**([mysqli_result](class.mysqli-result.md)
-`$result`, int `$mode` u003d **`MYSQLI_BOTH`**): array\|null\|false
+`$result`, int `$mode` = **`MYSQLI_BOTH`**): array\|null\|false
 
 Вибирає один рядок даних із набору результатів та повертає її у вигляді
 масиву. Кожен наступний виклик цієї функції повертатиметься
@@ -84,16 +84,16 @@ array\|null\|false
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d| | $result u003d $mysqli->query($query);/* числовий масив */$row u003d $result->fetch_array(MYSQLI_NUM);printf("%s (%s)
-", $row[0], $row[1]);/* асоціативний масив */$row u003d $result->fetch_array(MYSQLI_ASSOC);printf("%s (%s)
-", $row["Name"], $row["CountryCode"]);/* асоціативний і числової масиви */$row u003d $result->fetch_array(MYSQLI_BOTH);printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query =| | $result = $mysqli->query($query);/* числовий масив */$row = $result->fetch_array(MYSQLI_NUM);printf("%s (%s)
+", $row[0], $row[1]);/* асоціативний масив */$row = $result->fetch_array(MYSQLI_ASSOC);printf("%s (%s)
+", $row["Name"], $row["CountryCode"]);/* асоціативний і числової масиви */$row = $result->fetch_array(MYSQLI_BOTH);printf("%s (%s)
 ", $row[0], $row["CountryCode"]);
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT result u003d mysqli_query($mysqli, $query);/* числовий масив */$row u003d mysqli_fetch_array($result, MYSQLI_NUM);printf("%s (%s)
-", $row[0], $row[1]);/* асоціативний масив */$row u003d mysqli_fetch_array($result, MYSQLI_ASSOC);printf("%s (%s)
-", $row["Name"], $row["CountryCode"]);/* асоціативний і числової масиви */$row u003d mysqli_fetch_array($result, MYSQLI_BOTH);printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT result = mysqli_query($mysqli, $query);/* числовий масив */$row = mysqli_fetch_array($result, MYSQLI_NUM);printf("%s (%s)
+", $row[0], $row[1]);/* асоціативний масив */$row = mysqli_fetch_array($result, MYSQLI_ASSOC);printf("%s (%s)
+", $row["Name"], $row["CountryCode"]);/* асоціативний і числової масиви */$row = mysqli_fetch_array($result, MYSQLI_BOTH);printf("%s (%s)
 ", $row[0], $row["CountryCode"]);
 
 Результат виконання даних прикладів:

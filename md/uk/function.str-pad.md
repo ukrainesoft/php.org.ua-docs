@@ -7,7 +7,7 @@
 
 #str_pad
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 str_pad — Доповнює рядок іншим рядком до заданої довжини
 
@@ -16,8 +16,8 @@ str_pad — Доповнює рядок іншим рядком до задан�
 **str_pad**(
 string `$string`,
 int `$length`,
-string `$pad_string` u003d " ",
-int `$pad_type` u003d **`STR_PAD_RIGHT`**
+string `$pad_string` = " ",
+int `$pad_type` = **`STR_PAD_RIGHT`**
 ): string
 
 Ця функція повертає рядок `string`, доповнений ліворуч, праворуч або з
@@ -54,4 +54,4 @@ int `$pad_type` u003d **`STR_PAD_RIGHT`**
 
 **Приклад #1 Приклад використання **str_pad()****
 
-`<?php$input u003d "Alien";echo str_pad($input, 10); // виводить "Alien     "echo str_pad($input, 10, "-u003d", STR_PAD_LEFT); // виводить "-u003d-u003d-Alien"echo str_pad($input, 10, "_", STR_PAD_BOTH); // виводить "__Alien___"echo str_pad($input,  6, "___"); // виводить "Alien_"echo str_pad($input, 3, "*"); // виводить "Alien"?> `
+`<?php$input = "Alien";echo str_pad($input, 10); // виводить "Alien     "echo str_pad($input, 10, "-=", STR_PAD_LEFT); // виводить "-=-=-Alien"echo str_pad($input, 10, "_", STR_PAD_BOTH); // виводить "__Alien___"echo str_pad($input,  6, "___"); // виводить "Alien_"echo str_pad($input, 3, "*"); // виводить "Alien"?> `

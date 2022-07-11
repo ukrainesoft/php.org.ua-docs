@@ -7,7 +7,7 @@
 
 # SolrQuery::getFields
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFields — Повертає список полів, які будуть повернуті
 у відповіді

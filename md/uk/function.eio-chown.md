@@ -7,7 +7,7 @@
 
 #eio_chown
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_chown — Зміна прав доступу до файлу/директорії
 
@@ -16,11 +16,11 @@ eio_chown — Зміна прав доступу до файлу/директо�
 **eio_chown**(
 string `$path`,
 int `$uid`,
-int `$gid` u003d -1,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$gid` = -1,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 Змінює права доступу до файлу/директорії.

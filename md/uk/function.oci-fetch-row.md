@@ -8,7 +8,7 @@
 
 #oci_fetch_row
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_fetch_row — Повертає наступний рядок із результату запиту у вигляді
 нумерованого масиву
@@ -43,7 +43,7 @@ oci_fetch_row — Повертає наступний рядок із резул
 
 **Приклад #1 Приклад використання **oci_fetch_row()****
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT department_id, department_name FROM departments');oci_execu ($stid)) !u003d false) {    echo $row[0] . " " . $row[1] . "<br>
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT department_id, department_name FROM departments');oci_execu ($stid)) != false) {    echo $row[0] . " " . $row[1] . "<br>
 ";}oci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки

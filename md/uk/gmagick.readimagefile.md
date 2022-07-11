@@ -8,14 +8,14 @@
 
 # Gmagick::readimagefile
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::readimagefile — Читає зображення або послідовність
 зображень із файлового дескриптора
 
 ### Опис
 
-public **Gmagick::readimagefile**(resource `$fp`, string `$filename` u003d
+public **Gmagick::readimagefile**(resource `$fp`, string `$filename` =
 ?): [Gmagick](class.gmagick.md)
 
 Читає зображення або послідовність зображень із файлового

@@ -7,7 +7,7 @@
 
 # Ds\Sequence::first
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::first — Повертає перший елемент колекції
 
@@ -36,7 +36,7 @@ abstract public **Ds\Sequence::first**():
 
 **Приклад #1 Приклад використання **Ds\Sequence::first()****
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->first());?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->first());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # DatePeriod::getEndDate
 
-(PHP 5 \>u003d 5.6.5, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getEndDate — Повертає кінцеву дату періоду
 
@@ -42,7 +42,7 @@ public **DatePeriod::getEndDate**():
 
 **Приклад #1 Приклад використання **DatePeriod::getEndDate()****
 
-` <?php$period u003d new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),    new 0:0 ;$start u003d $period->getEndDate();echo $start->format(DateTime::ISO8601);?> `
+` <?php$period = new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),    new 0:0 ;$start = $period->getEndDate();echo $start->format(DateTime::ISO8601);?> `
 
 Результат виконання даних прикладів:
 
@@ -51,7 +51,7 @@ public **DatePeriod::getEndDate**():
 **Приклад #2 Приклад використання **DatePeriod::getEndDate()** без дати
 закінчення**
 
-`<?php$period u003d new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),     7);_var> `
+`<?php$period = new DatePeriod(    new DateTime('2016-05-16T00:00:00Z'),    new DateInterval('P1D'),     7);_var> `
 
 Результат виконання цього прикладу:
 

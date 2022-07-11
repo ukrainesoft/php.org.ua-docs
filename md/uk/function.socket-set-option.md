@@ -7,7 +7,7 @@
 
 # socket_set_option
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 socket_set_option — Встановлює опції для сокету
 
@@ -54,14 +54,14 @@ array\|string\|int `$value`
 ### Список змін
 
 | Версія | Опис                                                                                    |
-| ------ | --------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------|
 | 8.0.0  | socket тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **socket_set_option()****
 
-` <?php$socket u003d socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if (!is_resource($socket)) {    echo 'Не можу створити сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;}if(!socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1)) {    echo 'Не можу встановити опцію на сокеті: '. socket_strerror(socket_last_error()) . PHP_EOL;}if (!socket_bind($socket, '127.0.0.1', 1223)) {   echo 'Не можу прив'язати сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;}$rval u003d socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR);if ($rval u003du003du003d false) {    echo 'Не можу отримати опцію сокет. socket_strerror(socket_last_error()) . PHP_EOL;} else if ($rval !u003du003d 0) {    echo 'Опція SO_REUSEADDR встановлена на сокеті!' . PHP_EOL;}?> `
+` <?php$socket = socket_create(AF_INET, SOCK_STREAM, SOL_TCP);if (!is_resource($socket)) {    echo 'Не можу створити сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;}if(!socket_set_option($socket, SOL_SOCKET, SO_REUSEADDR, 1)) {    echo 'Не можу встановити опцію на сокеті: '. socket_strerror(socket_last_error()) . PHP_EOL;}if (!socket_bind($socket, '127.0.0.1', 1223)) {   echo 'Не можу прив'язати сокет: '. socket_strerror(socket_last_error()) . PHP_EOL;}$rval = socket_get_option($socket, SOL_SOCKET, SO_REUSEADDR);if ($rval === false) {    echo 'Не можу отримати опцію сокет. socket_strerror(socket_last_error()) . PHP_EOL;} else if ($rval !== 0) {    echo 'Опція SO_REUSEADDR встановлена на сокеті!' . PHP_EOL;}?> `
 
 ### Дивіться також
 

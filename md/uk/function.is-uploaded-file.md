@@ -7,7 +7,7 @@
 
 #is_uploaded_file
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 is_uploaded_file — Визначає, чи завантажено файл за допомогою HTTP POST
 

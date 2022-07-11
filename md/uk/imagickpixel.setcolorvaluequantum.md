@@ -7,7 +7,7 @@
 
 # ImagickPixel::setColorValueQuantum
 
-(PECL imagick 2 \>u003d2.3.0, PECL imagick 3)
+(PECL imagick 2 \>=2.3.0, PECL imagick 3)
 
 ImagickPixel::setColorValueQuantum — Опис
 
@@ -42,4 +42,4 @@ public **ImagickPixel::setColorValueQuantum**(int `$color`, int\|float
 **Приклад #1 Приклад використання
 **ImagickPixel::setColorValueQuantum()****
 
-` <?phpfunction setColorValueQuantum() {   $image u003d new \Imagick(); $quantumRangeu003du003d$image->getQuantumRange(); $draw u003d new \ImagickDraw(); $color u003d new \ImagickPixel('blue'); $color->setcolorValueQuantum(\Imagick::COLOR_RED, 128 * $quantumRange['quantumRangeLong'] / 256); $draw->setstrokewidth(1.0); $draw->setStrokeColor($color); $draw->setFillColor($color); $draw->rectangle(200, 200, 300, 300); $image->newImage(500, 500, "SteelBlue2"); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `
+` <?phpfunction setColorValueQuantum() {   $image = new \Imagick(); $quantumRange==$image->getQuantumRange(); $draw = new \ImagickDraw(); $color = new \ImagickPixel('blue'); $color->setcolorValueQuantum(\Imagick::COLOR_RED, 128 * $quantumRange['quantumRangeLong'] / 256); $draw->setstrokewidth(1.0); $draw->setStrokeColor($color); $draw->setFillColor($color); $draw->rectangle(200, 200, 300, 300); $image->newImage(500, 500, "SteelBlue2"); $image->setImageFormat("png"); $image->drawImage($draw); header("Content-Type: image/png"); echo $image->getImageBlob();}?> `

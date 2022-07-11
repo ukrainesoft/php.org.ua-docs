@@ -7,14 +7,14 @@
 
 # SolrQuery::getFacetDateEnd
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetDateEnd — Повертає значення параметра
 facet.date.end
 
 ### Опис
 
-public **SolrQuery::getFacetDateEnd**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetDateEnd**(string `$field_override` = ?):
 string
 
 Повертає значення facet.date.end. Метод приймає

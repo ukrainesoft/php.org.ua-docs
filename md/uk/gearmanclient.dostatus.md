@@ -7,7 +7,7 @@
 
 # GearmanClient::doStatus
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doStatus — Отримання статусу завдання, що виконується
 
@@ -39,11 +39,11 @@ public **GearmanClient::doStatus**(): array
 результат якого підхоплюється клієнтом.
 
 `<?phpecho "Запуск
-";# Створюємо об'єкт клієнта.$gmclientu003d new GearmanClient();# Додаємо сервер за замовчуванням (localhost).$gmclient->addServer();echo "Відправка завдання
-";# Отправляем задание перевернуть строкуdo{  $result u003d $gmclient->doNormal("reverse", "Hello!");  # Проверяем, есть ли ошибки или готовые данные.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA :      break;    case GEARMAN_WORK_STATUS:      # получить статус выполнения задания      list($numerator, $denominator)u003d $gmclient->doStatus();      echo "Статус: $numerator/$denominator завершено
+";# Створюємо об'єкт клієнта.$gmclient= new GearmanClient();# Додаємо сервер за замовчуванням (localhost).$gmclient->addServer();echo "Відправка завдання
+";# Отправляем задание перевернуть строкуdo{  $result = $gmclient->doNormal("reverse", "Hello!");  # Проверяем, есть ли ошибки или готовые данные.  switch($gmclient->returnCode())  {    case GEARMAN_WORK_DATA :      break;    case GEARMAN_WORK_STATUS:      # получить статус выполнения задания      list($numerator, $denominator)= $gmclient->doStatus();      echo "Статус: $numerator/$denominator завершено
 ";      break;    case GEARMAN_WORK_FAIL:      echo "Помилка
 ";     exit;   case GEARMAN_SUCCESS:      break;    default:      echo "Код повернення: " . |
-";      exit;  }}while($gmclient->returnCode() !u003d GEARMAN_SUCCESS);echo "Успішно: $result
+";      exit;  }}while($gmclient->returnCode() != GEARMAN_SUCCESS);echo "Успішно: $result
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

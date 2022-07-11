@@ -7,14 +7,14 @@
 
 # MongoDB\BSON\Javascript::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Javascript::\_\_construct - Конструктор Javascript
 
 ### Опис
 
 final public **MongoDB\BSON\Javascript::\_\_construct**(string `$code`,
-array\|object `$scope` u003d ?)
+array\|object `$scope` = ?)
 
 ### Список параметрів
 
@@ -35,7 +35,7 @@ array\|object `$scope` u003d ?)
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                                                              |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.2.0 | Породжує виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) якщо code містить null-байти. Раніше, в такому випадку, аргумент обрізався для першого null-байту, що зустрівся. |
 
 ### Приклади
@@ -43,23 +43,23 @@ array\|object `$scope` u003d ?)
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Javascript::\_\_construct()****
 
-` <?php$code u003d new MongoDB\BSON\Javascript('function() { return 1; }');var_dump($code);$codews u003d new MongoDB\BSON\Javascript('function()n| }', ['foo' u003d> 'bar']);var_dump($codews);?> `
+` <?php$code = new MongoDB\BSON\Javascript('function() { return 1; }');var_dump($code);$codews = new MongoDB\BSON\Javascript('function()n| }', ['foo' => 'bar']);var_dump($codews);?> `
 
 Результат виконання цього прикладу:
 
 object(MongoDB\BSON\Javascript)#1 (2) {
-["javascript"]u003d>
+["javascript"]=>
 string(24) "function() { return 1; }"
-["scope"]u003d>
+["scope"]=>
 object(stdClass)#2 (0) {
 }
 }
 object(MongoDB\BSON\Javascript)#2 (2) {
-["javascript"]u003d>
+["javascript"]=>
 string(26) "function() { return foo; }"
-["scope"]u003d>
+["scope"]=>
 object(stdClass)#1 (1) {
-["foo"]u003d>
+["foo"]=>
 string(3) "bar"
 }
 }

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Int64::\_\_toString
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\BSON\Int64::\_\_toString — Повертає рядкову виставу
 Int64
@@ -29,7 +29,7 @@ final public **MongoDB\BSON\Int64::\_\_toString**(): string
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Int64::\_\_toString()****
 
-` <?php$int64 u003d unserialize('C:18:"MongoDB\BSON\Int64":47:{a:1:{s:7:"integer";s:19:"9223372036854775807";}}') ;var_dump((string) $int64);?> `
+` <?php$int64 = unserialize('C:18:"MongoDB\BSON\Int64":47:{a:1:{s:7:"integer";s:19:"9223372036854775807";}}') ;var_dump((string) $int64);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

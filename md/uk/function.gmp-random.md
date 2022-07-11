@@ -7,7 +7,7 @@
 
 #gmp_random
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7)
 
 gmp_random — Випадкове число
 
@@ -18,7 +18,7 @@ gmp_random — Випадкове число
 
 ### Опис
 
-**gmp_random**(int `$limiter` u003d 20): [GMP](class.gmp.md)
+**gmp_random**(int `$limiter` = 20): [GMP](class.gmp.md)
 
 Генерує випадкове число. Число буде лежати в межах від нуля до (2
 \*\* n) - 1, де n - це число, що представляє собою твір
@@ -46,7 +46,7 @@ gmp_random — Випадкове число
 
 **Приклад #1 Приклад використання **gmp_random()****
 
-`<?php$rand1 u003d gmp_random(1); // випадкове число від 0 до 1 * біт на лімб$rand2 u003d gmp_random(2); // випадкове число від 0 до 2 * біт на лімбecho gmp_strval($rand1) . "
+`<?php$rand1 = gmp_random(1); // випадкове число від 0 до 1 * біт на лімб$rand2 = gmp_random(2); // випадкове число від 0 до 2 * біт на лімбecho gmp_strval($rand1) . "
 ";echo gmp_strval($rand2) . "
 ";?> `
 

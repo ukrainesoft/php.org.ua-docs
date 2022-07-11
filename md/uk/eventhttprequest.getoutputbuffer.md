@@ -7,7 +7,7 @@
 
 # EventHttpRequest::getOutputBuffer
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::getOutputBuffer — Повертає вихідний буфер запиту
 

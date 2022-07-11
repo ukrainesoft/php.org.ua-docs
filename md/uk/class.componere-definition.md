@@ -7,7 +7,7 @@
 
 # Клас Componere\Definition
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 ## Вступ
 

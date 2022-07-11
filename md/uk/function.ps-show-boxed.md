@@ -7,7 +7,7 @@
 
 #ps_show_boxed
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_show_boxed — Виводить текст у поле
 
@@ -21,7 +21,7 @@ float `$bottom`,
 float `$width`,
 float `$height`,
 string `$hmode`,
-string `$feature` u003d ?
+string `$feature` = ?
 ): int
 
 Виводить текст у заданому полі. Нижній лівий кут поля знаходиться в

@@ -43,7 +43,7 @@ public int `$id`;
 
 public
 [\_\_construct](mysqli-stmt.construct.md)([mysqli](class.mysqli.md)
-`$mysql`, ?string `$query` u003d **`null`**)
+`$mysql`, ?string `$query` = **`null`**)
 
 public [attr_get](mysqli-stmt.attr-get.md)(int `$attribute`): int
 
@@ -66,7 +66,7 @@ public [close](mysqli-stmt.close.md)(): bool
 
 public [data_seek](mysqli-stmt.data-seek.md)(int `$offset`): void
 
-public [execute](mysqli-stmt.execute.md)(?array `$params` u003d
+public [execute](mysqli-stmt.execute.md)(?array `$params` =
 **`null`**): bool
 
 public [fetch](mysqli-stmt.fetch.md)(): ?bool

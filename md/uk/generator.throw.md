@@ -7,7 +7,7 @@
 
 # Generator::throw
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 Generator::throw — Кинути виняток у генератор
 
@@ -41,7 +41,7 @@ public **Generator::throw**([Throwable](class.throwable.md)
 ` <?phpfunction gen() {    echo "Foo
 ";   try {        yield;    } catch (Exception $e) {       echo "Exception: {$e->getMessage
 ";    }    echo "Bar
-";}$gen u003d gen();$gen->rewind();$gen->throw(new Exception('Test'));?> `
+";}$gen = gen();$gen->rewind();$gen->throw(new Exception('Test'));?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # ssh2_scp_recv
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_scp_recv — Запит файлу через SCP
 
@@ -39,7 +39,7 @@ ssh2_scp_recv — Запит файлу через SCP
 
 **Приклад #1 Завантаження файлу через SCP**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');ssh2_scp_recv($connection, '/remote/filename', '/local filename');?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');ssh2_scp_recv($connection, '/remote/filename', '/local filename');?> `
 
 ### Дивіться також
 

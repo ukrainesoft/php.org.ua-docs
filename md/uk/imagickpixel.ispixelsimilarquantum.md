@@ -7,14 +7,14 @@
 
 # ImagickPixel::isPixelSimilarQuantum
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 ImagickPixel::isPixelSimilarQuantum — Опис
 
 ### Опис
 
 public **ImagickPixel::isPixelSimilarQuantum**(string `$color`, string
-`$fuzz` u003d ?): bool
+`$fuzz` = ?): bool
 
 Повертає true, якщо відстань між двома кольорами менша від зазначеного
 відстані. Значення fuzz має бути в діапазоні від 0 до QuantumRange.

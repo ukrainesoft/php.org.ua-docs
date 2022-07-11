@@ -7,14 +7,14 @@
 
 # Yaf_View_Interface::render
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Interface::render — Малює шаблон
 
 ### Опис
 
 abstract public **Yaf_View_Interface::render**(string `$tpl`, array
-`$tpl_vars` u003d ?): string
+`$tpl_vars` = ?): string
 
 Малює шаблон і повертає результат.
 

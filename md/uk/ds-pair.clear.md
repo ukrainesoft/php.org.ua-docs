@@ -29,15 +29,15 @@ public **Ds\Pair::clear**(): void
 
 **Приклад #1 Приклад використання **Ds\Pair::clear()****
 
-` <?php$pair u003d new \Ds\Pair("a", 1);print_r($pair);$pair->clear();print_r($pair);?> `
+` <?php$pair = new \Ds\Pair("a", 1);print_r($pair);$pair->clear();print_r($pair);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Pair Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
+[0] => 1
+[1] => 2
+[2] => 3
 )
 Ds\Pair Object
 (

@@ -8,7 +8,7 @@ SplFileInfo::getFileInfo та SplFileInfo::getPathInfo
 
 # SplFileInfo::setInfoClass
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::setInfoClass — Задає ім'я класу, об'єкти якого будуть
 створюватися методами
@@ -17,7 +17,7 @@ SplFileInfo::setInfoClass — Задає ім'я класу, об'єкти як�
 
 ### Опис
 
-public **SplFileInfo::setInfoClass**(string `$class` u003d
+public **SplFileInfo::setInfoClass**(string `$class` =
 SplFileInfo::class): void
 
 Задає ім'я класу, об'єкти якого будуть створюватися під час виклику методів
@@ -42,7 +42,7 @@ SplFileInfo::class): void
 **Приклад #1 Приклад використання
 [SplFileInfo::setFileClass()](splfileinfo.setfileclass.md)**
 
-` <?php// Визначити клас, що розширює SplFileInfoclass MyFoo extends SplFileInfo {}$info u003d new SplFileInfo('foo');// Встановити ім'я класу| ->getFileInfo());?> `
+` <?php// Визначити клас, що розширює SplFileInfoclass MyFoo extends SplFileInfo {}$info = new SplFileInfo('foo');// Встановити ім'я класу| ->getFileInfo());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

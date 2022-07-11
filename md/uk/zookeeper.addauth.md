@@ -7,14 +7,14 @@
 
 # Zookeeper::addAuth
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::addAuth — Вказує облікові дані програми
 
 ### Опис
 
 public **Zookeeper::addAuth**(string `$scheme`, string `$cert`,
-[callable](language.types.callable.md) `$completion_cb` u003d **`null`**):
+[callable](language.types.callable.md) `$completion_cb` = **`null`**):
 bool
 
 Додаток викликає цю функцію, щоб вказати свої облікові дані для
@@ -59,7 +59,7 @@ bool
 
 Додавання аутентифікації перед запитом на значення вузла.
 
-` <?php$zookeeper u003d new Zookeeper('locahost:2181');$path u003d '/path/to/node';$value u003d 'nodevalue';$zookeeper->set($path, $value);$ zookeeper->addAuth('digest', 'user0:passwd0');$r u003d $zookeeper->get($path);if ($r) echo $r;else  echo 'Помилка';?> `
+` <?php$zookeeper = new Zookeeper('locahost:2181');$path = '/path/to/node';$value = 'nodevalue';$zookeeper->set($path, $value);$ zookeeper->addAuth('digest', 'user0:passwd0');$r = $zookeeper->get($path);if ($r) echo $r;else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 

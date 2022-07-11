@@ -7,13 +7,13 @@
 
 # Imagick::writeImage
 
-(PECL imagick 2 \>u003d 2.3.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.3.0, PECL imagick 3)
 
 Imagick::writeImage — Записує зображення за вказаним ім'ям файлу
 
 ### Опис
 
-public **Imagick::writeImage**(string `$filename` u003d NULL): bool
+public **Imagick::writeImage**(string `$filename` = NULL): bool
 
 Записує зображення у вказане ім'я файлу. Якщо параметр імені файлу
 дорівнює NULL, зображення записується в ім'я файлу, встановлене з

@@ -7,13 +7,13 @@
 
 #openssl_pkey_new
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_pkey_new — Генерує новий закритий ключ
 
 ### Опис
 
-**openssl_pkey_new**(?array `$options` u003d **`null`**):
+**openssl_pkey_new**(?array `$options` = **`null`**):
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|false
 
 **openssl_pkey_new()** створює новий закритий ключ. Як отримати
@@ -40,7 +40,7 @@ openssl_pkey_new — Генерує новий закритий ключ
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                             |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У разі успішного виконання функція повертає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md); раніше повертався ресурс ([resource](language.types.resource.md)) типу OpenSSL key. |
 | 7.1.0  | Доданий ключ curve_name до option для забезпечення можливості створення EC ключів.                                                                                                               |
 
@@ -48,7 +48,7 @@ openssl_pkey_new — Генерує новий закритий ключ
 
 **Приклад #1 Отримати відкриту частину ключа із закритого ключа**
 
-` <?php$private_key u003d openssl_pkey_new();$public_key_pem u003d openssl_pkey_get_details($private_key)['key'];echo$public_key_pem;$public_keyu003du003dopenssl_p$
+` <?php$private_key = openssl_pkey_new();$public_key_pem = openssl_pkey_get_details($private_key)['key'];echo$public_key_pem;$public_key==openssl_p$
 
 Результатом виконання цього прикладу буде щось подібне:
 

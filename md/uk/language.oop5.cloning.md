@@ -24,7 +24,7 @@
 [\_\_clone()](language.oop5.cloning.md#object.clone) об'єкта, якщо це
 можливо).
 
-$copy_of_object u003d clone $object;
+$copy_of_object = clone $object;
 
 При клонуванні об'єкта PHP виконує поверхневу копію всіх властивостей
 об'єкт. Будь-які властивості, які є посиланнями на інші змінні,
@@ -40,7 +40,7 @@ $copy_of_object u003d clone $object;
 
 **Приклад #1 Клонування об'єкта**
 
-`<?phpclass SubObject{    static $instances u003d 0; public $instance; public function __construct() {         $this->instance u003d ++self::$instances; }    public function __clone() {        $this->instance u003d ++self::$instances; }}class MyCloneable{    public $object1; public $object2; function __clone()    {         // Примусово клонуємо this->object1, інакше        // он буде вказувати на о $this->object1 u003d clone $this->object1; }}$obj u003d new MyCloneable();$obj->object1 u003d new SubObject();$obj->object2 u003d new SubObject();$obj2 u003d clone $obj;print("Оригінальний об'єкт:
+`<?phpclass SubObject{    static $instances = 0; public $instance; public function __construct() {         $this->instance = ++self::$instances; }    public function __clone() {        $this->instance = ++self::$instances; }}class MyCloneable{    public $object1; public $object2; function __clone()    {         // Примусово клонуємо this->object1, інакше        // он буде вказувати на о $this->object1 = clone $this->object1; }}$obj = new MyCloneable();$obj->object1 = new SubObject();$obj->object2 = new SubObject();$obj2 = clone $obj;print("Оригінальний об'єкт:
 ");print_r($obj);print("Клонований об'єкт:
 ");print_r($obj2);?> `
 
@@ -49,28 +49,28 @@ $copy_of_object u003d clone $object;
 Оригінальний об'єкт:
 MyCloneable Object
 (
-[object1] u003d> SubObject Object
+[object1] => SubObject Object
 (
-[instance] u003d> 1
+[instance] => 1
 )
 
-[object2] u003d> SubObject Object
+[object2] => SubObject Object
 (
-[instance] u003d> 2
+[instance] => 2
 )
 
 )
 Клонований об'єкт:
 MyCloneable Object
 (
-[object1] u003d> SubObject Object
+[object1] => SubObject Object
 (
-[instance] u003d> 3
+[instance] => 3
 )
 
-[object2] u003d> SubObject Object
+[object2] => SubObject Object
 (
-[instance] u003d> 2
+[instance] => 2
 )
 
 )
@@ -80,7 +80,7 @@ MyCloneable Object
 
 **Приклад #2 Доступ до об'єкта**
 
-` <?php$dateTime u003d new DateTime();echo (clone $dateTime)->format('Y');?> `
+` <?php$dateTime = new DateTime();echo (clone $dateTime)->format('Y');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

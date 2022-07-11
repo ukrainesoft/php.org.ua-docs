@@ -7,13 +7,13 @@
 
 # SplFileObject::fseek
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fseek — Переведення вказівника на задану позицію
 
 ### Опис
 
-public **SplFileObject::fseek**(int `$offset`, int `$whence` u003d
+public **SplFileObject::fseek**(int `$offset`, int `$whence` =
 **`SEEK_SET`**): int
 
 Переміщує файловий покажчик на вказаний у параметрі `offset`
@@ -50,7 +50,7 @@ public **SplFileObject::fseek**(int `$offset`, int `$whence` u003d
 
 **Приклад #1 Приклад використання **SplFileObject::fseek()****
 
-` <?php$file u003d new SplFileObject("somefile.txt");// Читання першого рядки$data u003d $file->fgets();// Переміщуємося знов в початок файла// Ті  >rewind();$file->fseek(0);?> `
+` <?php$file = new SplFileObject("somefile.txt");// Читання першого рядки$data = $file->fgets();// Переміщуємося знов в початок файла// Ті  >rewind();$file->fseek(0);?> `
 
 ### Дивіться також
 

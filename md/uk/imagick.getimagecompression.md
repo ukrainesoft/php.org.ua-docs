@@ -7,7 +7,7 @@
 
 # Imagick::getImageCompression
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::getImageCompression — Повертає поточний тип компресії
 зображення

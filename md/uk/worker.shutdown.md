@@ -7,7 +7,7 @@
 
 # Worker::shutdown
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Worker::shutdown — Зупинити Worker
 
@@ -30,7 +30,7 @@ public **Worker::shutdown**(): bool
 
 **Приклад #1 Зупинка Worker**
 
-` <?php$my u003d new Worker();$my->start();/* stack/execute tasks */var_dump($my->shutdown()); `
+` <?php$my = new Worker();$my->start();/* stack/execute tasks */var_dump($my->shutdown()); `
 
 Результат виконання цього прикладу:
 

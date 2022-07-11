@@ -7,7 +7,7 @@
 
 # svn_repos_fs_commit_txn
 
-(PECL svn \>u003d 0.2.0)
+(PECL svn \>= 0.2.0)
 
 svn_repos_fs_commit_txn — Надсилання транзакції та повернення номера
 ревізії

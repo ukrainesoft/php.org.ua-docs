@@ -7,7 +7,7 @@
 
 # OAuth::disableRedirects
 
-(PECL OAuth u003d 0.99.9)
+(PECL OAuth = 0.99.9)
 
 OAuth::disableRedirects — Вимкнути переадресацію
 

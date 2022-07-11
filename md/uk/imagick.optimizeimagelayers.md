@@ -40,7 +40,7 @@ public **Imagick::optimizeImageLayers**(): bool
 
 Читання, оптимізація та запис зображення у форматі GIF
 
-` <?php/* створення нового об'єкта imagick */$im u003d new Imagick("test.gif");/* оптимізація шарів зображення */$im->optimizeImageLayers();/* запис >writeImages("test_optimized.gif", true);?> `
+` <?php/* створення нового об'єкта imagick */$im = new Imagick("test.gif");/* оптимізація шарів зображення */$im->optimizeImageLayers();/* запис >writeImages("test_optimized.gif", true);?> `
 
 ### Дивіться також
 

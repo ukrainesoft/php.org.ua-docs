@@ -14,7 +14,7 @@ Imagick::evaluateImage — Застосовує вираз до зображен
 ### Опис
 
 public **Imagick::evaluateImage**(int `$op`, float `$constant`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Застосовує до зображення арифметичне, реляційне чи логічне
 вираз. Використовуйте ці оператори для освітлення або затемнення
@@ -49,4 +49,4 @@ public **Imagick::evaluateImage**(int `$op`, float `$constant`, int
 
 Використання evaluateImage для зменшення непрозорості зображення.
 
-` <?php// Створення нового об'єкта з зображенням$im u003d new Imagick('example-alpha.png');// Зменшення значення альфа-каналу на 50%$im->evaluateImage(Imagick: ::CHANNEL_ALPHA);// Виведення зображенняheader("Content-Type: image/png");echo $im;?> `
+` <?php// Створення нового об'єкта з зображенням$im = new Imagick('example-alpha.png');// Зменшення значення альфа-каналу на 50%$im->evaluateImage(Imagick: ::CHANNEL_ALPHA);// Виведення зображенняheader("Content-Type: image/png");echo $im;?> `

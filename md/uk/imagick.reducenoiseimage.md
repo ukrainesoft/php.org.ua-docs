@@ -41,4 +41,4 @@ Imagick::reduceNoiseImage() вибере відповідний радіус а�
 
 **Приклад #1 Приклад використання **Imagick::reduceNoiseImage()****
 
-`<?phpfunction reduceNoiseImage($imagePath, $reduceNoise) {    $imagick u003d new \Imagick(realpath($imagePath)); @$imagick->reduceNoiseImage($reduceNoise); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction reduceNoiseImage($imagePath, $reduceNoise) {    $imagick = new \Imagick(realpath($imagePath)); @$imagick->reduceNoiseImage($reduceNoise); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

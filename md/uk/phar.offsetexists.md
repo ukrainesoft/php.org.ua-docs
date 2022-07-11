@@ -7,7 +7,7 @@
 
 # Phar::offsetExists
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::offsetExists — Визначити, чи є файл в архіві
 
@@ -36,7 +36,7 @@ offsetExists() запускається щоразу, коли викликає�
 
 **Приклад #1 Приклад використання **Phar::offsetExists()****
 
-` <?php$p u003d new Phar(dirname(__FILE__) . '/my.phar', 0, 'my.phar');$p['firstfile.txt'] u003d 'перший файл';$p[' secondfile.txt? );?> `
+` <?php$p = new Phar(dirname(__FILE__) . '/my.phar', 0, 'my.phar');$p['firstfile.txt'] = 'перший файл';$p[' secondfile.txt? );?> `
 
 Результат виконання цього прикладу:
 

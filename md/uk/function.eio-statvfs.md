@@ -7,7 +7,7 @@
 
 #eio_statvfs
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_statvfs — Повертає статистику файлової системи
 
@@ -18,7 +18,7 @@ string `$path`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$ data` u003d ?
+`$ data` = ?
 ): resource
 
 **eio_statvfs()** повертає статистику файлової системи до параметра
@@ -66,32 +66,32 @@ callback є масивом.
 
 **Приклад #1 Приклад використання **eio_statvfs()****
 
-` <?php$tmp_filename u003d '/tmp/eio-file.tmp';touch($tmp_filename);function my_statvfs_callback($data, $result) {    var_dump($data); var_dump($result); @unlink($data);}eio_statvfs($tmp_filename, EIO_PRI_DEFAULT, "my_statvfs_callback", $tmp_filename);eio_event_loop();?> `
+` <?php$tmp_filename = '/tmp/eio-file.tmp';touch($tmp_filename);function my_statvfs_callback($data, $result) {    var_dump($data); var_dump($result); @unlink($data);}eio_statvfs($tmp_filename, EIO_PRI_DEFAULT, "my_statvfs_callback", $tmp_filename);eio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 string(17) "/tmp/eio-file.tmp"
 array(11) {
-["f_bsize"]u003d>
+["f_bsize"]=>
 int(4096)
-["f_frsize"]u003d>
+["f_frsize"]=>
 int(4096)
-["f_blocks"]u003d>
+["f_blocks"]=>
 int(262144)
-["f_bfree"]u003d>
+["f_bfree"]=>
 int(262111)
-["f_bavail"]u003d>
+["f_bavail"]=>
 int(262111)
-["f_files"]u003d>
+["f_files"]=>
 int(1540815)
-["f_ffree"]u003d>
+["f_ffree"]=>
 int(1540743)
-["f_favail"]u003d>
+["f_favail"]=>
 int(1540743)
-["f_fsid"]u003d>
+["f_fsid"]=>
 int(0)
-["f_flag"]u003d>
+["f_flag"]=>
 int(4102)
-["f_namemax"]u003d>
+["f_namemax"]=>
 int(255)
 }

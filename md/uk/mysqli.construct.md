@@ -21,32 +21,32 @@ mysqli::\_\_construct -- mysqli::connect -- mysqli_connect --
 Об'єктно-орієнтований стиль
 
 public **mysqli::\_\_construct**(
-string `$hostname` u003d ini_get("mysqli.default_host"),
-string `$username` u003d ini_get("mysqli.default_user"),
-string `$password` u003d ini_get("mysqli.default_pw"),
-string `$database` u003d "",
-int `$port` u003d ini_get("mysqli.default_port"),
-string `$socket` u003d ini_get("mysqli.default_socket")
+string `$hostname` = ini_get("mysqli.default_host"),
+string `$username` = ini_get("mysqli.default_user"),
+string `$password` = ini_get("mysqli.default_pw"),
+string `$database` = "",
+int `$port` = ini_get("mysqli.default_port"),
+string `$socket` = ini_get("mysqli.default_socket")
 )
 
 public [mysqli::connect](function.mysqli-connect.md)(
-string `$hostname` u003d ini_get("mysqli.default_host"),
-string `$username` u003d ini_get("mysqli.default_user"),
-string `$password` u003d ini_get("mysqli.default_pw"),
-string `$database` u003d "",
-int `$port` u003d ini_get("mysqli.default_port"),
-string `$socket` u003d ini_get("mysqli.default_socket")
+string `$hostname` = ini_get("mysqli.default_host"),
+string `$username` = ini_get("mysqli.default_user"),
+string `$password` = ini_get("mysqli.default_pw"),
+string `$database` = "",
+int `$port` = ini_get("mysqli.default_port"),
+string `$socket` = ini_get("mysqli.default_socket")
 ): void
 
 Процедурний стиль
 
 [mysqli_connect](function.mysqli-connect.md)(
-string `$hostname` u003d ini_get("mysqli.default_host"),
-string `$username` u003d ini_get("mysqli.default_user"),
-string `$password` u003d ini_get("mysqli.default_pw"),
-string `$database` u003d "",
-int `$port` u003d ini_get("mysqli.default_port"),
-string `$socket` u003d ini_get("mysqli.default_socket")
+string `$hostname` = ini_get("mysqli.default_host"),
+string `$username` = ini_get("mysqli.default_user"),
+string `$password` = ini_get("mysqli.default_pw"),
+string `$database` = "",
+int `$port` = ini_get("mysqli.default_port"),
+string `$socket` = ini_get("mysqli.default_socket")
 ): [mysqli](class.mysqli.md)\|false
 
 Встановлює з'єднання з сервером MySQL.
@@ -117,12 +117,12 @@ string `$socket` u003d ini_get("mysqli.default_socket")
 
 Об'єктно-орієнтований стиль
 
-` <?php/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli('localhost', 'my_user', 'my_password', 'my_db' );/* Встановіть бажане кодування після встановлення з'єднання*/$mysqli->set_charset('utf8mb4');printf("Успішно... %s
+` <?php/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db' );/* Встановіть бажане кодування після встановлення з'єднання*/$mysqli->set_charset('utf8mb4');printf("Успішно... %s
 ", $mysqli->host_info);?> `
 
 Процедурний стиль
 
-` <?php/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect('localhost', 'my_user', 'my_password', 'my_db') ;/* Встановіть бажане кодування після встановлення з'єднання*/mysqli_set_charset($mysqli, 'utf8mb4');printf("Успішно... %s
+` <?php/* Вы должны включить отчёт об ошибках для mysqli, прежде чем пытаться установить соединение */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db') ;/* Встановіть бажане кодування після встановлення з'єднання*/mysqli_set_charset($mysqli, 'utf8mb4');printf("Успішно... %s
 ", mysqli_get_host_info($mysqli)); `
 
 Результатом виконання даних прикладів буде щось подібне:
@@ -131,7 +131,7 @@ string `$socket` u003d ini_get("mysqli.default_socket")
 
 **Приклад #2 Розширення класу mysqli**
 
-`<?phpclass FooMysqli extends mysqli {    public function __construct($host, $user, $pass, $db, $port, $socket, $charset) { RE| parent::__construct($host, $user, $pass, $db, $port, $socket); $this->set_charset($charset); }}$db u003d new FooMysqli('localhost', 'my_user', 'my_password', 'my_db', 3306, null, 'utf8mb4'); `
+`<?phpclass FooMysqli extends mysqli {    public function __construct($host, $user, $pass, $db, $port, $socket, $charset) { RE| parent::__construct($host, $user, $pass, $db, $port, $socket); $this->set_charset($charset); }}$db = new FooMysqli('localhost', 'my_user', 'my_password', 'my_db', 3306, null, 'utf8mb4'); `
 
 **Приклад #3 Ручне оброблення помилок**
 
@@ -140,11 +140,11 @@ string `$socket` u003d ini_get("mysqli.default_socket")
 
 Об'єктно-орієнтований стиль
 
-` <?phperror_reporting(0);mysqli_report(MYSQLI_REPORT_OFF);$mysqli u003d new mysqli('localhost', 'my_user', 'my_password', 'my_db');if ($mysqli->connect_errno)   помилка з'єднання mysqli: ' . $mysqli->connect_error);}/* Встановіть бажане кодування після встановлення з'єднання */$mysqli->set_charset('utf8mb4');if про$mysqli- mysqli: ' . $mysqli->error);} `
+` <?phperror_reporting(0);mysqli_report(MYSQLI_REPORT_OFF);$mysqli = new mysqli('localhost', 'my_user', 'my_password', 'my_db');if ($mysqli->connect_errno)   помилка з'єднання mysqli: ' . $mysqli->connect_error);}/* Встановіть бажане кодування після встановлення з'єднання */$mysqli->set_charset('utf8mb4');if про$mysqli- mysqli: ' . $mysqli->error);} `
 
 Процедурний стиль
 
-`<?phperror_reporting(0);mysqli_report(MYSQLI_REPORT_OFF);$mysqli u003d mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');if (mysqli_connect_errno() : ' . mysqli_connect_error());}/* Установите желаемую кодировку после установления соединения */mysqli_set_charset($mysqli, 'utf8mb4');if (mysqli_errno($mysqli)) {    throw new RuntimeException('ошибка mysqli: ' . mysqli_error( $ mysqli));} `
+`<?phperror_reporting(0);mysqli_report(MYSQLI_REPORT_OFF);$mysqli = mysqli_connect('localhost', 'my_user', 'my_password', 'my_db');if (mysqli_connect_errno() : ' . mysqli_connect_error());}/* Установите желаемую кодировку после установления соединения */mysqli_set_charset($mysqli, 'utf8mb4');if (mysqli_errno($mysqli)) {    throw new RuntimeException('ошибка mysqli: ' . mysqli_error( $ mysqli));} `
 
 ### Примітки
 

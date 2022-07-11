@@ -7,7 +7,7 @@
 
 #cubrid_set_db_parameter
 
-(PECL CUBRID u003d 8.4.0)
+(PECL CUBRID = 8.4.0)
 
 cubrid_set_db_parameter — Встановлює параметри бази даних CUBRID
 
@@ -52,28 +52,28 @@ CUBRID з'єднання. Якщо ідентифікатор з'єднання 
 **Приклад #1 Приклад використання
 [cubrid_get_db_parameter()](function.cubrid-get-db-parameter.md)**
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");$params u003d cubrid_get_db_parameter($conn);var_dump($params);cubrid_set_autocommit($conn, CU conn, CUBRID_PARAM_ISOLATION_LEVEL, 2);$params_new u003d cubrid_get_db_parameter($conn);var_dump($params_new);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");$params = cubrid_get_db_parameter($conn);var_dump($params);cubrid_set_autocommit($conn, CU conn, CUBRID_PARAM_ISOLATION_LEVEL, 2);$params_new = cubrid_get_db_parameter($conn);var_dump($params_new);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(4) {
-["PARAM_ISOLATION_LEVEL"]u003d>
+["PARAM_ISOLATION_LEVEL"]=>
 int(3)
-["PARAM_LOCK_TIMEOUT"]u003d>
+["PARAM_LOCK_TIMEOUT"]=>
 int(-1)
-["PARAM_MAX_STRING_LENGTH"]u003d>
+["PARAM_MAX_STRING_LENGTH"]=>
 int(1073741823)
-["PARAM_AUTO_COMMIT"]u003d>
+["PARAM_AUTO_COMMIT"]=>
 int(0)
 }
 array(4) {
-["PARAM_ISOLATION_LEVEL"]u003d>
+["PARAM_ISOLATION_LEVEL"]=>
 int(2)
-["PARAM_LOCK_TIMEOUT"]u003d>
+["PARAM_LOCK_TIMEOUT"]=>
 int(-1)
-["PARAM_MAX_STRING_LENGTH"]u003d>
+["PARAM_MAX_STRING_LENGTH"]=>
 int(1073741823)
-["PARAM_AUTO_COMMIT"]u003d>
+["PARAM_AUTO_COMMIT"]=>
 int(1)
 }
 

@@ -7,7 +7,7 @@
 
 # EventHttpRequest::getOutputHeaders
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::getOutputHeaders — Повертає асоціативний масив
 вихідних заголовків

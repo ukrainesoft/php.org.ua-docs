@@ -7,7 +7,7 @@
 
 #ps_lineto
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_lineto — Малює лінію
 
@@ -40,7 +40,7 @@ ps_lineto — Малює лінію
 
 **Приклад #1 Малювання прямокутника**
 
-` <?php$ps u003d ps_new();if (!ps_open_file($ps, "rectangle.ps")) {  print "Не вдається відкрити файл PostScript
+` <?php$ps = ps_new();if (!ps_open_file($ps, "rectangle.ps")) {  print "Не вдається відкрити файл PostScript
 ";  exit;}ps_set_info($ps, "Creator", "rectangle.php");ps_set_info($ps, "Author", "Уве Штайнманн");ps_set_info($ps, "Title", "Приклад Лі ;ps_begin_page($ps, 596, 842);ps_moveto($ps, 100, 100);ps_lineto($ps, 100, 200);ps_lineto($ps, 200, 200);ps_lineto($0, ;ps_lineto($ps, 100, 100);ps_stroke($ps);ps_end_page($ps);ps_delete($ps);?> `
 
 ### Дивіться також

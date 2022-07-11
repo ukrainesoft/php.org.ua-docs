@@ -7,7 +7,7 @@
 
 # SNMP::close
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::close — Закриває сесію SNMP
 
@@ -30,7 +30,7 @@ public **SNMP::close**(): bool
 
 **Приклад #1 Приклад використання **SNMP::close()****
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); # ...  # отримати, щось зробити і т.д. # ... $session->close();?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); # ...  # отримати, щось зробити і т.д. # ... $session->close();?> `
 
 ### Дивіться також
 

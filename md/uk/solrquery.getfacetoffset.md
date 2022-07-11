@@ -8,14 +8,14 @@
 
 # SolrQuery::getFacetOffset
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetOffset — Повертає зсув у списку обмежень,
 які будуть використовуватися для посторінкової навігації
 
 ### Опис
 
-public **SolrQuery::getFacetOffset**(string `$field_override` u003d ?): int
+public **SolrQuery::getFacetOffset**(string `$field_override` = ?): int
 
 Повертає зсув у списку обмежень, які будуть використовуватись
 для посторінкової навігації. Приймає необов'язкове перевизначення

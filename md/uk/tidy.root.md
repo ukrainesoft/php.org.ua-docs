@@ -43,7 +43,7 @@ public **tidy::root**(): ?[tidyNode](class.tidynode.md)
 
 **Приклад #1 Приклад використання **tidy::root()****
 
-` <?php$html u003d <<<< HTML<html><body><p>параграф</p><br/></body></html>HTML;$tidy u003d tidy_parse_string($html);dump_nodes( $tidy->root(), 1);function dump_nodes($node, $indent) {   if($node->hasChildren()) {          , $indent*2) . ($child->name ?$child->name : '"'.$child->value.'"'). "
+` <?php$html = <<<< HTML<html><body><p>параграф</p><br/></body></html>HTML;$tidy = tidy_parse_string($html);dump_nodes( $tidy->root(), 1);function dump_nodes($node, $indent) {   if($node->hasChildren()) {          , $indent*2) . ($child->name ?$child->name : '"'.$child->value.'"'). "
 ";             dump_nodes($child, $indent+1);        }    }}?> `
 
 Результат виконання цього прикладу:

@@ -30,7 +30,7 @@ public **tidyNode::hasSiblings**(): bool
 
 **Приклад #1 Приклад використання функції **tidyNode::hasSiblings()****
 
-` <?php$html u003d <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт світ!';?><% /** ASP */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy u003d tidy_parse_string($html);$num u003d ;// тег htmlvar_dump($tidy->html()->hasSiblings());// тег headvar_dump($tidy->html()->child[0]->hasSiblings());?> `
+` <?php$html = <<<< HTML<html><head><?php echo '<title>заголовок</title>'; ?><#  /* JSTE код */ alert('Привіт Світ');#></head><body><?php  // PHP-код echo 'привіт світ!';?><% /** ASP */ response.write("Привіт Світ!")%><!-- Коментарі -->Привіт Світ</body></html>За межами HTML кодаHTML;$tidy = tidy_parse_string($html);$num = ;// тег htmlvar_dump($tidy->html()->hasSiblings());// тег headvar_dump($tidy->html()->child[0]->hasSiblings());?> `
 
 Результат виконання цього прикладу:
 

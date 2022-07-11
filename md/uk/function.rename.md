@@ -13,7 +13,7 @@ rename — Перейменує файл або директорію
 
 ### Опис
 
-**rename**(string `$from`, string `$to`, ?resource `$context` u003d
+**rename**(string `$from`, string `$to`, ?resource `$context` =
 **`null`**): bool
 
 Намагається перейменувати `from` на `to`, переносячи файл між директоріями,

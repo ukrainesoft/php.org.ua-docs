@@ -7,7 +7,7 @@
 
 # SplFileInfo::getLinkTarget
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 SplFileInfo::getLinkTarget — Отримує шлях посилання
 
@@ -41,7 +41,7 @@ public **SplFileInfo::getLinkTarget**(): string\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getLinkTarget()****
 
-` <?php$info u003d new SplFileInfo('/Users/bbieber/workspace');if ($info->isLink()) {    var_dump($info->getLinkTarget()); var_dump($info->getRealPath());}?> `
+` <?php$info = new SplFileInfo('/Users/bbieber/workspace');if ($info->isLink()) {    var_dump($info->getLinkTarget()); var_dump($info->getRealPath());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

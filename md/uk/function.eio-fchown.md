@@ -7,7 +7,7 @@
 
 #eio_fchown
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_fchown — Змінює власника файлу
 
@@ -17,11 +17,11 @@ eio_fchown — Змінює власника файлу
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$fd`,
 int `$uid`,
-int `$gid` u003d -1,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$gid` = -1,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_fchown()** змінює власника файлу, дескриптор якого вказаний у

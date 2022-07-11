@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Session
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 ## Вступ
 
@@ -22,15 +22,15 @@ final class **MongoDB\Driver\Session** {
 
 /\* Константи \*/
 
-const string `TRANSACTION_NONE` u003d none;
+const string `TRANSACTION_NONE` = none;
 
-const string `TRANSACTION_STARTING` u003d starting;
+const string `TRANSACTION_STARTING` = starting;
 
-const string `TRANSACTION_IN_PROGRESS` u003d in_progress;
+const string `TRANSACTION_IN_PROGRESS` = in_progress;
 
-const string `TRANSACTION_COMMITTED` u003d committed;
+const string `TRANSACTION_COMMITTED` = committed;
 
-const string `TRANSACTION_ABORTED` u003d aborted;
+const string `TRANSACTION_ABORTED` = aborted;
 
 /\* Методи \*/
 
@@ -84,7 +84,7 @@ boolean
 
 final public
 [startTransaction](mongodb-driver-session.starttransaction.md)(array
-`$options` u003d ?): void
+`$options` = ?): void
 
 }
 

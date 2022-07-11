@@ -7,13 +7,13 @@
 
 # Swoole\Process::exit
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::exit - Зупиняє дочірні процеси
 
 ### Опис
 
-public **Swoole\Process::exit**(string `$exit_code` u003d ?): void
+public **Swoole\Process::exit**(string `$exit_code` = ?): void
 
 ### Список параметрів
 

@@ -7,7 +7,7 @@
 
 # fann_set_learning_rate
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_learning_rate - Встановлює швидкість навчання
 

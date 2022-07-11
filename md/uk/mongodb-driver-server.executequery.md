@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::executeQuery
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::executeQuery — Виконує запит до бази даних на
 сервері
@@ -16,7 +16,7 @@ MongoDB\Driver\Server::executeQuery — Виконує запит до бази 
 
 final public **MongoDB\Driver\Server::executeQuery**(string
 `$namespace`, [MongoDB\Driver\Query](class.mongodb-driver-query.md)
-`$query`, array `$options` u003d array()):
+`$query`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Виконує запит на сервері.
@@ -39,7 +39,7 @@ final public **MongoDB\Driver\Server::executeQuery**(string
 
 `options`
 | Опція          | Тип                                                                     | Опис                                                                             |
-| -------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+|----------------|-------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | readPreference | [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md) | Перевага читання, що використовується для вибору сервера для виконання операції. |
 | session        | [MongoDB\Driver\Session](class.mongodb-driver-session.md)               | Сесія зв'язування з операцією.                                                   |
 
@@ -66,7 +66,7 @@ final public **MongoDB\Driver\Server::executeQuery**(string
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                    |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом options. Для зворотної сумісності цей параметр, як і раніше, прийматиме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md). |
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # Gmagick::borderimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::borderimage — Додати рамку до зображення
 

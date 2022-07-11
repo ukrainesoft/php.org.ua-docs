@@ -7,7 +7,7 @@
 
 # Zookeeper::setWatcher
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::setWatcher — Встановлює функцію спостерігача
 

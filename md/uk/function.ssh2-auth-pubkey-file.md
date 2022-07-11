@@ -7,7 +7,7 @@
 
 # ssh2_auth_pubkey_file
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_auth_pubkey_file — Аутентифікація з відкритим ключем
 
@@ -18,7 +18,7 @@ resource `$session`,
 string `$username`,
 string `$pubkeyfile`,
 string `$privkeyfile`,
-string `$passphrase` u003d ?
+string `$passphrase` = ?
 ): bool
 
 Аутентифікація з відкритим ключем, збереженим у файлі.
@@ -34,7 +34,7 @@ string `$passphrase` u003d ?
 `pubkeyfile`
 Відкритий ключ у форматі OpenSSH. Має виглядати приблизно так:
 
-ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8u003d rsa-key-20121110
+ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8= rsa-key-20121110
 
 `privkeyfile`
 
@@ -51,7 +51,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAA....NX6sqSnHA8u003d rsa-key-20121110
 
 **Приклад #1 Аутентифікація з відкритим ключем**
 
-`<?php$connection u003d ssh2_connect('shell.example.com', 22, array('hostkey'u003d>'ssh-rsa'));if (ssh2_auth_pubkey_file($connection, 'username',                /.ssh/id_rsa.pub',                            '/home/username/.ssh/id_rsa', 'secret')укомплектація|
+`<?php$connection = ssh2_connect('shell.example.com', 22, array('hostkey'=>'ssh-rsa'));if (ssh2_auth_pubkey_file($connection, 'username',                /.ssh/id_rsa.pub',                            '/home/username/.ssh/id_rsa', 'secret')укомплектація|
 ";} else {  die('Невдала аутентифікація з відкритим ключом');}?> `
 
 ### Примітки

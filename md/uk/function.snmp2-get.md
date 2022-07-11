@@ -7,7 +7,7 @@
 
 # snmp2_get
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 snmp2_get — Отримує об'єкт SNMP
 
@@ -17,8 +17,8 @@ snmp2_get — Отримує об'єкт SNMP
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -51,7 +51,7 @@ Read-спільнота.
 
 **Приклад #1 Приклад використання **snmp2_get()****
 
-` <?php$syscontact u003d snmp2_get("127.0.0.1", "public", "system.SysContact.0");?> `
+` <?php$syscontact = snmp2_get("127.0.0.1", "public", "system.SysContact.0");?> `
 
 ### Дивіться також
 

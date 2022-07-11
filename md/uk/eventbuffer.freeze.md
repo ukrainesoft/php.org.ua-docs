@@ -8,7 +8,7 @@
 
 # EventBuffer::freeze
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBuffer::freeze — Запобігає викликам, які змінюють буфер
 подій у разі успішного виконання

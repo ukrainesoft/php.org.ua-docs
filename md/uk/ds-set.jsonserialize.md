@@ -7,7 +7,7 @@
 
 # Ds\Set::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::jsonSerialize — Повертає колекцію в JSON-представництві
 

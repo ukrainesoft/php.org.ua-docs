@@ -8,15 +8,15 @@
 
 # EvLoop::check
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::check — Створює об'єкт EvCheck, пов'язаний із поточним екземпляром
 циклу подій
 
 ### Опис
 
-final public **EvLoop::check**( string `$callback` , string `$data` u003d ?,
-string `$priority` u003d ?): [EvCheck](class.evcheck.md)
+final public **EvLoop::check**( string `$callback` , string `$data` = ?,
+string `$priority` = ?): [EvCheck](class.evcheck.md)
 
 Створює об'єкт EvCheck, пов'язаний із поточним екземпляром циклу подій.
 

@@ -7,7 +7,7 @@
 
 #oauth_urlencode
 
-(PECL OAuth \>u003d0.99.2)
+(PECL OAuth \>=0.99.2)
 
 oauth_urlencode — Кодує URI відповідно до RFC 3986
 

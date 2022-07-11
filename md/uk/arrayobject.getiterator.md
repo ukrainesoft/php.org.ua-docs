@@ -31,11 +31,11 @@ public **ArrayObject::getIterator**(): [Iterator](class.iterator.md)
 
 **Приклад #1 Приклад використання **ArrayObject::getIterator()****
 
-`<?phu003d$              | $arrayobject->getIterator();while($iterator->valid()) {    echo $iterator->key() . ' u003d> ' . $iterator->current() . "
+`<?ph=$              | $arrayobject->getIterator();while($iterator->valid()) {    echo $iterator->key() . ' => ' . $iterator->current() . "
 ";   $iterator->next();}?> `
 
 Результат виконання цього прикладу:
 
-1 u003d> один
-2 u003d> two
-3 u003d> three
+1 => один
+2 => two
+3 => three

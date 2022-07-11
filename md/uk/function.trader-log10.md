@@ -7,7 +7,7 @@
 
 # trader_log10
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_log10 — Вектор логарифму з основи-10
 

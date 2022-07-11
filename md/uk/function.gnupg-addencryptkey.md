@@ -7,7 +7,7 @@
 
 #gnupg_addencryptkey
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_addencryptkey — Додає ключ для шифрування
 
@@ -34,9 +34,9 @@ bool
 
 **Приклад #1 Процедурний приклад використання **gnupg_addencryptkey()****
 
-` <?php$res u003d gnupg_init();gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");?> `
+` <?php$res = gnupg_init();gnupg_addencryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC");?> `
 
 **Приклад #2 Об'єктно-орієнтований приклад використання
 **gnupg_addencryptkey()****
 
-` <?php$gpg u003d new gnupg();$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");?> `
+` <?php$gpg = new gnupg();$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");?> `

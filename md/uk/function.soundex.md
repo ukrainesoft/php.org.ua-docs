@@ -41,14 +41,14 @@ Searching", Addison-Wesley (1973), стор 391-392.
 ### Список змін
 
 | Версія | Опис                                                                                              |
-| ------ | ------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------|
 | 8.0.0  | До цієї версії при виклику функції з порожнім рядком поверталося **false** без особливої причини. |
 
 ### Приклади
 
 **Приклад #1 Приклади використання soundex**
 
-`<?phpsoundex("Euler")       u003du003du003dsoundex("Ellery"); //E460soundex("Gauss")       u003du003du003dsoundex("Ghosh"); //G200soundex("Hilbert")     u003du003du003dsoundex("Heilbronn"); //H416soundex("Knuth")      u003du003du003dsoundex("Kant"); //K530soundex("Lloyd")       u003du003du003dsoundex("Ladd"); //L300soundex("Lukasiewicz")u003du003du003dsoundex("Lissajous"); // L222?
+`<?phpsoundex("Euler")       ===soundex("Ellery"); //E460soundex("Gauss")       ===soundex("Ghosh"); //G200soundex("Hilbert")     ===soundex("Heilbronn"); //H416soundex("Knuth")      ===soundex("Kant"); //K530soundex("Lloyd")       ===soundex("Ladd"); //L300soundex("Lukasiewicz")===soundex("Lissajous"); // L222?
 
 ### Дивіться також
 

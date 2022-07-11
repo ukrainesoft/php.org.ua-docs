@@ -7,7 +7,7 @@
 
 # runkit7_method_copy
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_method_copy — Копіює метод з одного класу до іншого
 
@@ -17,7 +17,7 @@ runkit7_method_copy — Копіює метод з одного класу до 
 string `$destination_class`,
 string `$destination_method_name`,
 string `$source_class`,
-string `$source_method_name` u003d ?
+string `$source_method_name` = ?
 ): bool
 
 ### Список параметрів

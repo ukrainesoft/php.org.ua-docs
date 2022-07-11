@@ -31,7 +31,7 @@ public **ReflectionClass::getEndLine**(): int\|false
 
 **Приклад #1 Приклад використання **ReflectionClass::getEndLine()****
 
-` <?php// Тестовий класclass TestClass { }$rc u003d new ReflectionClass('TestClass');echo $rc->getEndLine();?> `
+` <?php// Тестовий класclass TestClass { }$rc = new ReflectionClass('TestClass');echo $rc->getEndLine();?> `
 
 Результат виконання цього прикладу:
 

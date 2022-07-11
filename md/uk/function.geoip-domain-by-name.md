@@ -7,7 +7,7 @@
 
 # geoip_domain_by_name
 
-(PECL geoip \>u003d 1.1.0)
+(PECL geoip \>= 1.1.0)
 
 geoip_domain_by_name — Отримати ім'я домену другого рівня
 
@@ -38,7 +38,7 @@ GeoIP Domain Edition. Якщо коректна база даних не
 
 Знайдемо домен, пов'язаний із IP 61.106.139.1.
 
-` <?php$domain u003d geoip_domain_by_name('61.106.139.1');if ($domain) {   echo 'Домен: '. $domain;}?> `
+` <?php$domain = geoip_domain_by_name('61.106.139.1');if ($domain) {   echo 'Домен: '. $domain;}?> `
 
 Результат виконання цього прикладу:
 

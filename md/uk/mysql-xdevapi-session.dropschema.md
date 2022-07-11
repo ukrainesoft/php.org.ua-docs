@@ -35,4 +35,4 @@ bool
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::dropSchema()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->dropSchema("addressbook");$session->close();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->dropSchema("addressbook");$session->close();?> `

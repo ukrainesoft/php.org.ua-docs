@@ -7,7 +7,7 @@
 
 # SolrClient::query
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::query — Надсилає запит на сервер
 
@@ -42,53 +42,53 @@ public **SolrClient::query**([SolrParams](class.solrparams.md)
 
 **Приклад #1 Приклад використання **SolrClient::query()****
 
-`<?php$options u003d array(   'hostname' u003d> 'localhost',   'login'    u003d> 'username',    'password' u003d>                 new SolrClient($options);$query u003d new SolrQuery();$query->setQuery('lucene');$query->setStart(0);$query->setRows(50);$query->addField( 'cat')->addField('features')->addField('id')->addField('timestamp');$query_response u003d $client->query($query);$response u003d $query_response->getResponse ();print_r($response);?> `
+`<?php$options = array(   'hostname' => 'localhost',   'login'    => 'username',    'password' =>                 new SolrClient($options);$query = new SolrQuery();$query->setQuery('lucene');$query->setStart(0);$query->setRows(50);$query->addField( 'cat')->addField('features')->addField('id')->addField('timestamp');$query_response = $client->query($query);$response = $query_response->getResponse ();print_r($response);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 SolrObject Object
 (
-[responseHeader] u003d> SolrObject Object
+[responseHeader] => SolrObject Object
 (
-[status] u003d> 0
-[QTime] u003d> 3
-[params] u003d> SolrObject Object
+[status] => 0
+[QTime] => 3
+[params] => SolrObject Object
 (
-[fl] u003d> cat,features,id,timestamp
-[indent] u003d> on
-[start] u003d> 0
-[q] u003d> lucene
-[wt] u003d> xml
-[version] u003d> 2.2
-[rows] u003d> 50
+[fl] => cat,features,id,timestamp
+[indent] => on
+[start] => 0
+[q] => lucene
+[wt] => xml
+[version] => 2.2
+[rows] => 50
 )
 
 )
 
-[response] u003d> SolrObject Object
+[response] => SolrObject Object
 (
-[numFound] u003d> 1
-[start] u003d> 0
-[docs] u003d> Array
+[numFound] => 1
+[start] => 0
+[docs] => Array
 (
-[0] u003d> SolrObject Object
+[0] => SolrObject Object
 (
-[id] u003d> SOLR1000
-[cat] u003d> Array
+[id] => SOLR1000
+[cat] => Array
 (
-[0] u003d> software
-[1] u003d> search
+[0] => software
+[1] => search
 )
 
-[features] u003d> Array
+[features] => Array
 (
-[0] u003d> Advanced Full-Text Search Capabilities using Lucene
-[1] u003d> Optimized for High Volume Web Traffic
-[2] u003d> Standards Based Open Interfaces - XML and HTTP
-[3] u003d> Comprehensive HTML Administration Interfaces
-[4] u003d> Scalability - Efficient Replication to other Solr Search Servers
-[5] u003d> Flexible and Adaptable with XML configuration and Schema
-[6] u003d> Good unicode support: héllo (hello with an accent over the e)
+[0] => Advanced Full-Text Search Capabilities using Lucene
+[1] => Optimized for High Volume Web Traffic
+[2] => Standards Based Open Interfaces - XML and HTTP
+[3] => Comprehensive HTML Administration Interfaces
+[4] => Scalability - Efficient Replication to other Solr Search Servers
+[5] => Flexible and Adaptable with XML configuration and Schema
+[6] => Good unicode support: héllo (hello with an accent over the e)
 )
 
 )

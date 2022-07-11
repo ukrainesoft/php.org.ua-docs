@@ -9,7 +9,7 @@
 
 # intltz_create_default
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlTimeZone::createDefault -- intltz_create_default — Створити нову
 копію часового поясу за промовчанням для поточного хоста

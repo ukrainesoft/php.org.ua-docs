@@ -7,7 +7,7 @@
 
 # SoapServer::addSoapHeader
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 SoapServer::addSoapHeader — Додати заголовок SOAP у відповідь
 

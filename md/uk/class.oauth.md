@@ -7,7 +7,7 @@
 
 # Клас OAuth
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 ## Вступ
 
@@ -32,8 +32,8 @@ public `$debugInfo`;
 public [\_\_construct](oauth.construct.md)(
 string `$consumer_key`,
 string `$consumer_secret`,
-string `$signature_method` u003d **`OAUTH_SIG_METHOD_HMACSHA1`**,
-int `$auth_type` u003d 0
+string `$signature_method` = **`OAUTH_SIG_METHOD_HMACSHA1`**,
+int `$auth_type` = 0
 )
 
 public [\_\_destruct](oauth.destruct.md)(): void
@@ -52,22 +52,22 @@ public [enableSSLChecks](oauth.enablesslchecks.md)(): bool
 
 public [fetch](oauth.fetch.md)(
 string `$protected_resource_url`,
-array `$extra_parameters` u003d ?,
-string `$http_method` u003d ?,
-array `$http_headers` u003d ?
+array `$extra_parameters` = ?,
+string `$http_method` = ?,
+array `$http_headers` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [generateSignature](oauth.generatesignature.md)(string
 `$http_method`, string `$url`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$extra_parameters` u003d ?): string\|false
+`$extra_parameters` = ?): string\|false
 
 public [getAccessToken](oauth.getaccesstoken.md)(
 string `$access_token_url`,
-string `$auth_session_handle` u003d ?,
-string `$verifier_token` u003d ?,
-string `$http_method` u003d ?
+string `$auth_session_handle` = ?,
+string `$verifier_token` = ?,
+string `$http_method` = ?
 ): array
 
 public [getCAPath](oauth.getcapath.md)(): array
@@ -82,16 +82,16 @@ public [getLastResponseInfo](oauth.getlastresponseinfo.md)(): array
 public [getRequestHeader](oauth.getrequestheader.md)(string
 `$http_method`, string `$url`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$extra_parameters` u003d ?): string\|false
+`$extra_parameters` = ?): string\|false
 
 public [getRequestToken](oauth.getrequesttoken.md)(string
-`$request_token_url`, string `$callback_url` u003d ?, string `$http_method`
-u003d ?): array
+`$request_token_url`, string `$callback_url` = ?, string `$http_method`
+= ?): array
 
 public [setAuthType](oauth.setauthtype.md)(int `$auth_type`): bool
 
-public [setCAPath](oauth.setcapath.md)(string `$ca_path` u003d ?, string
-`$ca_info` u003d ?):
+public [setCAPath](oauth.setcapath.md)(string `$ca_path` = ?, string
+`$ca_info` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [setNonce](oauth.setnonce.md)(string `$nonce`):

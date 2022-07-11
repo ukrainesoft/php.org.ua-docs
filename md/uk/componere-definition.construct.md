@@ -7,7 +7,7 @@
 
 # Componere\Definition::\_\_construct
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Definition::\_\_construct - Визначення конструктора
 

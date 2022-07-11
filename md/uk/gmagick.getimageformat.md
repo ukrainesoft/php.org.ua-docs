@@ -7,7 +7,7 @@
 
 # Gmagick::getimageformat
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageformat — Повертає формат зображення в
 послідовності

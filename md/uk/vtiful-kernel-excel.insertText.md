@@ -7,7 +7,7 @@
 
 # Vtiful\Kernel\Excel::insertText
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 Vtiful\Kernel\Excel::insertText — Вставити текст
 
@@ -17,7 +17,7 @@ public **Vtiful\Kernel\Excel::insertText**(
 int `$row`,
 int `$column`,
 stringintdouble `$data`,
-string `$format` u003d ?
+string `$format` = ?
 )
 
 Вставити текст у комірку.
@@ -44,4 +44,4 @@ string `$format` u003d ?
 
 **Приклад #1 Приклад використання**
 
-` <?php$config u003d [   'path' u003d> './tests'];$excel u003d new \Vtiful\Kernel\Excel($config);$file u003d $excel->fileName("free.xlsx") ->header(['name', 'money']);for ($index u003d 0; $index < 10; $index++) {   $file->insertText($index+1, 0, 'viest'); $file->insertText($index+1, 1, 10000, '#,##0');}$textFile->output(); `
+` <?php$config = [   'path' => './tests'];$excel = new \Vtiful\Kernel\Excel($config);$file = $excel->fileName("free.xlsx") ->header(['name', 'money']);for ($index = 0; $index < 10; $index++) {   $file->insertText($index+1, 0, 'viest'); $file->insertText($index+1, 1, 10000, '#,##0');}$textFile->output(); `

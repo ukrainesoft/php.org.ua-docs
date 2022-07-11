@@ -35,7 +35,7 @@ public **Imagick::pingImageBlob**(string `$image`): bool
 
 Отримання зображення з рядка
 
-` <?php/* читання вмісту зображення */$image u003d file_get_contents("test.jpg");/* створення нового об'єкту imagick */$im u003d new іmagick();/*  >pingImageBlob($image);/* виведення ширини і висоти зображення */echo $im->getImageWidth() . 'x' . $im->getImageHeight();?> `
+` <?php/* читання вмісту зображення */$image = file_get_contents("test.jpg");/* створення нового об'єкту imagick */$im = new іmagick();/*  >pingImageBlob($image);/* виведення ширини і висоти зображення */echo $im->getImageWidth() . 'x' . $im->getImageHeight();?> `
 
 ### Дивіться також
 

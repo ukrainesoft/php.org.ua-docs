@@ -29,7 +29,7 @@ public **ReflectionExtension::getVersion**(): ?string
 
 **Приклад #1 Приклад використання **ReflectionExtension::getVersion()****
 
-` <?php$ext u003d new ReflectionExtension('mysqli');var_dump($ext->getVersion());?> `
+` <?php$ext = new ReflectionExtension('mysqli');var_dump($ext->getVersion());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

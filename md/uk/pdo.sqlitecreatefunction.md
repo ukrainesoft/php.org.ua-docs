@@ -8,7 +8,7 @@ SQL-запитах
 
 # PDO::sqliteCreateFunction
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8, PECL pdo_sqlite \>u003d 1.0.0)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8, PECL pdo_sqlite \>= 1.0.0)
 
 PDO::sqliteCreateFunction — Реєстрація функції користувача для
 використання у SQL-запитах
@@ -18,8 +18,8 @@ PDO::sqliteCreateFunction — Реєстрація функції користу
 public **PDO::sqliteCreateFunction**(
 string `$function_name`,
 [callable](language.types.callable.md) `$callback`,
-int `$num_args` u003d -1,
-int `$flags` u003d 0
+int `$num_args` = -1,
+int `$flags` = 0
 ): bool
 
 **Увага**
@@ -78,14 +78,14 @@ $value,
 ### Список змін
 
 | Версія | Опис                    |
-| ------ | ----------------------- |
+|--------|-------------------------|
 | 7.1.4  | Доданий параметр flags. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PDO::sqliteCreateFunction()****
 
-` <?phpfunction md5_and_reverse($string){    return strrev(md5($string));}$db u003d new PDO('sqlite:sqlitedb');$db->sqliteCreateFunction('md5rev', 'md ;$rows u003d $db->query('SELECT md5rev(filename) FROM files')->fetchAll();?> `
+` <?phpfunction md5_and_reverse($string){    return strrev(md5($string));}$db = new PDO('sqlite:sqlitedb');$db->sqliteCreateFunction('md5rev', 'md ;$rows = $db->query('SELECT md5rev(filename) FROM files')->fetchAll();?> `
 
 У цьому прикладі ми визначили функцію, що обчислює md5 суму рядка та
 перевертає її. Коли SQL-запит буде запущено, отримані значення

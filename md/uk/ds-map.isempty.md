@@ -7,7 +7,7 @@
 
 # Ds\Map::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::isEmpty — Перевіряє, чи порожня колекція
 
@@ -30,7 +30,7 @@ public **Ds\Map::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Map::isEmpty()****
 
-` <?php$a u003d new \Ds\Map(["a" u003d> 1, "b" u003d> 2, c" u003d> 3]);$b u003d new \Ds\Map();var_dump( $a->isEmpty());var_dump($b->isEmpty());?> `
+` <?php$a = new \Ds\Map(["a" => 1, "b" => 2, c" => 3]);$b = new \Ds\Map();var_dump( $a->isEmpty());var_dump($b->isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # ArrayObject::exchangeArray
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ArrayObject::exchangeArray — Замінити масив на інший
 
@@ -31,20 +31,20 @@ public **ArrayObject::exchangeArray**(array\|object `$array`): array
 
 **Приклад #1 Приклад використання **ArrayObject::exchangeArray()****
 
-` <?php// Масив з кількістю фруктів$fruits u003d array("lemons" u003d> 1, "oranges" u003d> 4, "bananas" u003d> 5, "apples" u003d> 10); $locations u003d array('Amsterdam', 'Paris', 'London');$fruitsArrayObject u003d new ArrayObject($fruits);// Зараз замінимо фрукти на місця$old u003d $fruitsArrayObject $old);print_r($fruitsArrayObject);?> `
+` <?php// Масив з кількістю фруктів$fruits = array("lemons" => 1, "oranges" => 4, "bananas" => 5, "apples" => 10); $locations = array('Amsterdam', 'Paris', 'London');$fruitsArrayObject = new ArrayObject($fruits);// Зараз замінимо фрукти на місця$old = $fruitsArrayObject $old);print_r($fruitsArrayObject);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[lemons] u003d> 1
-[oranges] u003d> 4
-[bananas] u003d> 5
-[apples] u003d> 10
+[lemons] => 1
+[oranges] => 4
+[bananas] => 5
+[apples] => 10
 )
 ArrayObject Object
 (
-[0] u003d> Amsterdam
-[1] u003d> Paris
-[2] u003d> London
+[0] => Amsterdam
+[1] => Paris
+[2] => London
 )

@@ -7,7 +7,7 @@
 
 # Swoole\Table::valid
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::valid — Перевіряє, чи поточний рядок є коректним
 

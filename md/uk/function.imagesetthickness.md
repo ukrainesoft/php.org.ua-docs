@@ -7,7 +7,7 @@
 
 # imagesetthickness
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagesetthickness — Встановлення товщини ліній
 
@@ -38,14 +38,14 @@ imagesetthickness — Встановлення товщини ліній
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagesetthickness()****
 
-` <?php// Створення зображення 200x100$im u003d imagecreatetruecolor(200, 100);$white u003d imagecolorallocate($im, 0xFF, 0xFF, 0xFF);$black, 0 0 0 / Установка білого фонуimagefilledrectangle($im, 0, 0, 299, 99, $white);// Установка товщини ліній 5 пікселівimagesetthickness($im, 5);// 5, $black);//Виведення зображення в броузерheader('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
+` <?php// Створення зображення 200x100$im = imagecreatetruecolor(200, 100);$white = imagecolorallocate($im, 0xFF, 0xFF, 0xFF);$black, 0 0 0 / Установка білого фонуimagefilledrectangle($im, 0, 0, 299, 99, $white);// Установка товщини ліній 5 пікселівimagesetthickness($im, 5);// 5, $black);//Виведення зображення в броузерheader('Content-Type: image/png');imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

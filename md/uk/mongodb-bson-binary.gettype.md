@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Binary::getType
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Binary::getType — Повертає тип Binary
 
@@ -32,7 +32,7 @@ final public **MongoDB\BSON\Binary::getType**(): int
 
 **Приклад #1 Приклад використання **MongoDB\BSON\Binary::getType()****
 
-` <?php$binary u003d new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getType());?> `
+` <?php$binary = new MongoDB\BSON\Binary('foo', MongoDB\BSON\Binary::TYPE_GENERIC);var_dump($binary->getType());?> `
 
 Результат виконання цього прикладу:
 

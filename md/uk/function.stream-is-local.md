@@ -7,7 +7,7 @@
 
 #stream_is_local
 
-(PHP 5 \>u003d 5.2.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.4, PHP 7, PHP 8)
 
 stream_is_local — Перевіряє, чи потік є локальним потоком
 

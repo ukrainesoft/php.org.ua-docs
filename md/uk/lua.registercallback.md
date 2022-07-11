@@ -35,15 +35,15 @@ public **Lua::registerCallback**(string `$name`,
 
 **Приклад #1 Приклад використання **Lua::registerCallback()****
 
-` <?php$lua u003d new Lua();$lua->registerCallback("echo", "var_dump");$lua->eval(<<<CODE   echo({1, 2, 3});CODE) ;?> `
+` <?php$lua = new Lua();$lua->registerCallback("echo", "var_dump");$lua->eval(<<<CODE   echo({1, 2, 3});CODE) ;?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[1]u003d>
+[1]=>
 float(1)
-[2]u003d>
+[2]=>
 float(2)
-[3]u003d>
+[3]=>
 float(3)
 }

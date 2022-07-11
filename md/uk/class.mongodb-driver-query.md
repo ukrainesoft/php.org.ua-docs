@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Query
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -22,7 +22,7 @@ final class **MongoDB\Driver\Query** {
 
 final public
 [\_\_construct](mongodb-driver-query.construct.md)(array\|object
-`$filter`, array `$queryOptions` u003d ?)
+`$filter`, array `$queryOptions` = ?)
 
 }
 

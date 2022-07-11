@@ -13,7 +13,7 @@ copy — Копіює файл
 
 ### Опис
 
-**copy**(string `$from`, string `$to`, ?resource `$context` u003d
+**copy**(string `$from`, string `$to`, ?resource `$context` =
 **`null`**): bool
 
 Копіює файл `from` у файл з ім'ям `to`.
@@ -47,7 +47,7 @@ copy — Копіює файл
 
 **Приклад #1 Приклад використання функції **copy()****
 
-` <?php$file u003d 'example.txt';$newfile u003d 'example.txt.bak';if (!copy($file, $newfile)) {   echo "не удалося скопіювати $file...
+` <?php$file = 'example.txt';$newfile = 'example.txt.bak';if (!copy($file, $newfile)) {   echo "не удалося скопіювати $file...
 ";}?> `
 
 ### Дивіться також

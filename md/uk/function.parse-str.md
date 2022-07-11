@@ -40,7 +40,7 @@ URL і надає значення змінним у поточному конт
 ### Список змін
 
 | Версія | Опис                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------|
 | 8.0.0  | result більше не є необов'язковим.                                                             |
 | 7.2.0  | Використання **parse_str()** без другого параметра викликатиме помилку рівня **E_DEPRECATED**. |
 
@@ -48,7 +48,7 @@ URL і надає значення змінним у поточному конт
 
 **Приклад #1 Використання **parse_str()****
 
-` <?php$str u003d "firstu003dvalue&arr[]u003dfoo+bar&arr[]u003dbaz";// Рекомендований підхідparse_str($str, $output);echo $output['first']; //valueecho$output['arr'][0]; //foo barecho $output['arr'][1]; // baz// НЕ РЕКОМЕНДУЄТЬСЯparse_str($str);echo $first; //valueecho$arr[0]; //foo barecho $arr[1]; //?baz?> `
+` <?php$str = "first=value&arr[]=foo+bar&arr[]=baz";// Рекомендований підхідparse_str($str, $output);echo $output['first']; //valueecho$output['arr'][0]; //foo barecho $output['arr'][1]; // baz// НЕ РЕКОМЕНДУЄТЬСЯparse_str($str);echo $first; //valueecho$arr[0]; //foo barecho $arr[1]; //?baz?> `
 
 Так як імена змінних PHP не можуть містити пробіли та точки, ці
 символи буде замінено на символ підкреслення. Такі ж правила
@@ -56,7 +56,7 @@ URL і надає значення змінним у поточному конт
 
 **Приклад #2 Співвідношення імен **parse_str()****
 
-` <?phpparse_str("My Valueu003dSomething");echo $My_Value; // Somethingparse_str("My Valueu003dSomething", $output);echo $output['My_Value']; // Something?> `
+` <?phpparse_str("My Value=Something");echo $My_Value; // Somethingparse_str("My Value=Something", $output);echo $output['My_Value']; // Something?> `
 
 ### Примітки
 

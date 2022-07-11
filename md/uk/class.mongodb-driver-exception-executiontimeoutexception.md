@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Exception\ExecutionTimeoutException
 
-(mongodb \>u003d 1.0.0)
+(mongodb \>= 1.0.0)
 
 ## Вступ
 
@@ -28,18 +28,18 @@ implements
 
 protected ?array `$errorLabels`;
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Наслідувані методи \*/
 
@@ -73,5 +73,5 @@ private [Exception::\_\_clone](exception.clone.md)(): void
 ## Список змін
 
 | Версія                                                                                                                                                                                                                                            | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | PECL mongodb 1.5.0 Тепер цей клас розширює [MongoDB\Driver\Exception\ServerException](class.mongodb-driver-exception-serverexception.md) замість [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md). |      |

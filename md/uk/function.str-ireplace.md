@@ -18,7 +18,7 @@ str_ireplace — Реєстронезалежний варіант функці�
 array\|string `$search`,
 array\|string `$replace`,
 string\|array `$subject`,
-int `&$count` u003d **`null`**
+int `&$count` = **`null`**
 ): string\|array
 
 Ця функція повертає рядок або масив, в якому всі входження
@@ -67,7 +67,7 @@ int `&$count` u003d **`null`**
 
 **Приклад #1 Приклад використання **str_ireplace()****
 
-` <?php$bodytag u003d str_ireplace("%body%", "black", "<body textu003d%BODY%>");echo $bodytag; // <body textu003dblack>?> `
+` <?php$bodytag = str_ireplace("%body%", "black", "<body text=%BODY%>");echo $bodytag; // <body text=black>?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # fann_train_on_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_train_on_data - Навчання на всьому обсязі даних на тимчасовому
 інтервалі

@@ -7,7 +7,7 @@
 
 # SQLite3::query
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::query — Виконує SQL-запит
 
@@ -36,4 +36,4 @@ SQL-запит для виконання.
 
 **Приклад #1 Приклад використання **SQLite3::query()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$results u003d $db->query('SELECT bar FROM foo');while ($row u003d $results->fetchArray()) {    $row);}?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$results = $db->query('SELECT bar FROM foo');while ($row = $results->fetchArray()) {    $row);}?> `

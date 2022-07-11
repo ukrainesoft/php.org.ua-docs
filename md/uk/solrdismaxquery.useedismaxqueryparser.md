@@ -35,8 +35,8 @@ public **SolrDisMaxQuery::useEDisMaxQueryParser**():
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::useEDisMaxQueryParser()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery();$dismaxQuery->useEDisMaxQueryParser();echo $dismaxQuery;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery();$dismaxQuery->useEDisMaxQueryParser();echo $dismaxQuery;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-defTypeu003dedismax
+defType=edismax

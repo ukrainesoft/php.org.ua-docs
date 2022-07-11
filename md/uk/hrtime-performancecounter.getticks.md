@@ -7,7 +7,7 @@
 
 # HRTime\PerformanceCounter::getTicks
 
-(PECL hrtime \>u003d 0.6.0)
+(PECL hrtime \>= 0.6.0)
 
 HRTime\PerformanceCounter::getTicks — Поточне значення тиків системи
 

@@ -7,13 +7,13 @@
 
 # Memcache::decrement
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::decrement — Декрементувати значення елемента
 
 ### Опис
 
-**Memcache::decrement**(string `$key`, int `$value` u003d 1): int\|false
+**Memcache::decrement**(string `$key`, int `$value` = 1): int\|false
 
 **Memcache::decrement()** зменшує значення елемента на величину
 `value`. Аналогічно [Memcache::increment()](memcache.increment.md),
@@ -51,7 +51,7 @@ Memcache::decrement — Декрементувати значення елеме
 
 **Приклад #1 Приклад використання **Memcache::decrement()****
 
-` <?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);/* декрементувати на 2 */$new_value u003d memcache_decret| */$memcache_obj u003d new Memcache;$memcache_obj->connect('memcache_host', 11211);/* декрементувати на 3 */$new_value u003d $memcache_obj->_deem'?
+` <?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/* декрементувати на 2 */$new_value = memcache_decret| */$memcache_obj = new Memcache;$memcache_obj->connect('memcache_host', 11211);/* декрементувати на 3 */$new_value = $memcache_obj->_deem'?
 
 ### Дивіться також
 

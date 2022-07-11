@@ -24,13 +24,13 @@ class **php_user_filter** {
 
 /\* Властивості \*/
 
-public string `$filtername` u003d "";
+public string `$filtername` = "";
 
 public
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$params` u003d "";
+`$params` = "";
 
-public ?resource `$stream` u003d null;
+public ?resource `$stream` = null;
 
 /\* Методи \*/
 

@@ -40,5 +40,5 @@ macOS: установка за замовчуванням, Homebrew та
 І, нарешті, додайте наступний рядок в `php.ini`:
 
 `` inicode
-extensionu003dmongodb.so
+extension=mongodb.so
 ````

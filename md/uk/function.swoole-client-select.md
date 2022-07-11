@@ -7,7 +7,7 @@
 
 # swoole_client_select
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_client_select — Отримати опис, готовий до читання/запису
 чи помилці
@@ -18,7 +18,7 @@ swoole_client_select — Отримати опис, готовий до чита
 array `&$read_array`,
 array `&$write_array`,
 array `&$error_array`,
-float `$timeout` u003d 0.5
+float `$timeout` = 0.5
 ): int
 
 ### Список параметрів

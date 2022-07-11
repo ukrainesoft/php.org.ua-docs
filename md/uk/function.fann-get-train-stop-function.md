@@ -7,7 +7,7 @@
 
 # fann_get_train_stop_function
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_train_stop_function — Повертає функцію зупинки,
 використовується під час навчання

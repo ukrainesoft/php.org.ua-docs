@@ -7,7 +7,7 @@
 
 # Session::commit
 
-(PHP 4 \>u003d 4.4.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.4.0, PHP 5, PHP 7, PHP 8)
 
 Session::commit — Фіксує транзакцію
 
@@ -29,4 +29,4 @@ public **mysql_xdevapi\Session::commit**(): Object
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Session::commit()****
 
-` <?php$session    u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection u003d $session->getSchema("addressbook")->getCollection("friends");$session-> startTransaction();$collection->add('{"John":42, "Sam":33}')->execute();$savepoint u003d $session->setSavepoint();$session->commit() ;$session->close(); `
+` <?php$session    = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$collection = $session->getSchema("addressbook")->getCollection("friends");$session-> startTransaction();$collection->add('{"John":42, "Sam":33}')->execute();$savepoint = $session->setSavepoint();$session->commit() ;$session->close(); `

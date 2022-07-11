@@ -8,7 +8,7 @@
 
 # SolrQuery::getTermsIncludeLowerBound
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getTermsIncludeLowerBound — Повертає, чи потрібно вмикати
 вираз нижньої межі в набір результатів

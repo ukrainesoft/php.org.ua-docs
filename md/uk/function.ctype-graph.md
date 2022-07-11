@@ -7,7 +7,7 @@
 
 #ctype_graph
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_graph — Перевірка будь-яких друкованих символів, крім пропуску
 
@@ -51,8 +51,9 @@ ctype_graph — Перевірка будь-яких друкованих сим
 
 **Приклад #1 Приклад використання **ctype_graph()****
 
-` <?php$strings u003d array('string1' u003d> "asdf
-", 'string2' u003d> 'arf12', 'string3' u003d> 'LKA#@%.54');foreach ($strings as $name u003d> $testcase) {    if (ctype_graph($test   Рядок '$name' складається тільки із (видимих) друкованих символів.
+` <?php$strings = array('string1' => "asdf
+===
+", 'string2' => 'arf12', 'string3' => 'LKA#@%.54');foreach ($strings as $name => $testcase) {    if (ctype_graph($test   Рядок '$name' складається тільки із (видимих) друкованих символів.
 ";    }}else {         echo "Рядок'$name' не складається тільки із (видимих) друкованих символів.
 ";    }}?> `
 

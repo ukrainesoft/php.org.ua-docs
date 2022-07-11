@@ -7,7 +7,7 @@
 
 # move_uploaded_file
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 move_uploaded_file — Переміщує завантажений файл у нове місце
 
@@ -48,7 +48,7 @@ move_uploaded_file — Переміщує завантажений файл у �
 
 **Приклад #1 Завантаження декількох файлів**
 
-` <?php$uploads_dir u003d '/uploads';foreach ($_FILES["pictures"]["error"] as $key u003d> $error) {   if ($error u003du003d UPLOAD_ERR_OK) {  "pictures"]["tmp_name"][$key]; // basename() може запобігти атаку на файлову систему; // може бути доцільним додатково перевірити ім'я файла         $name u003d basename($_FILES["pictures"]["name"][$key]); move_uploaded_file($tmp_name, "$uploads_dir/$name"); }}?> `
+` <?php$uploads_dir = '/uploads';foreach ($_FILES["pictures"]["error"] as $key => $error) {   if ($error == UPLOAD_ERR_OK) {  "pictures"]["tmp_name"][$key]; // basename() може запобігти атаку на файлову систему; // може бути доцільним додатково перевірити ім'я файла         $name = basename($_FILES["pictures"]["name"][$key]); move_uploaded_file($tmp_name, "$uploads_dir/$name"); }}?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # LuaSandboxFunction::\_\_construct
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandboxFunction::\_\_construct — Не використовується
 

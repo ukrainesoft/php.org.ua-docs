@@ -7,7 +7,7 @@
 
 # IntlCalendar::inDaylightTime
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::inDaylightTime — Визначає, чи час об'єкта переходить на
 літній час
@@ -46,4 +46,4 @@ public **IntlCalendar::inDaylightTime**(): bool
 
 **Приклад #1 Приклад використання **IntlCalendar::inDaylightTime()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'pt_PT');$cal u003d new IntlGregorianCalendar(2013, 6 /* Липень */, 56, 31);var_dump($cal->inDaylightTime()); // true$cal->set(IntlCalendar::FIELD_MONTH, 11 /* Грудень */);var_dump($cal->inDaylightTime()); // false//DST end transition on 2013-10-27 at 0200 (час процесора назад на 1 година)$cal u003d new IntlGregorianCalendar(2013, 9 ;  ; $cal->inDaylightTime()); // false (за замовчуванням WALLTIME_LAST)$cal->setRepeatedWallTimeOption(IntlCalendar::WALLTIME_FIRST);$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1); // примусовий перерахунок часуvar_dump($cal->inDaylightTime()); // true `
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'pt_PT');$cal = new IntlGregorianCalendar(2013, 6 /* Липень */, 56, 31);var_dump($cal->inDaylightTime()); // true$cal->set(IntlCalendar::FIELD_MONTH, 11 /* Грудень */);var_dump($cal->inDaylightTime()); // false//DST end transition on 2013-10-27 at 0200 (час процесора назад на 1 година)$cal = new IntlGregorianCalendar(2013, 9 ;  ; $cal->inDaylightTime()); // false (за замовчуванням WALLTIME_LAST)$cal->setRepeatedWallTimeOption(IntlCalendar::WALLTIME_FIRST);$cal->set(IntlCalendar::FIELD_HOUR_OF_DAY, 1); // примусовий перерахунок часуvar_dump($cal->inDaylightTime()); // true `

@@ -7,7 +7,7 @@
 
 # ZMQPoll::getLastErrors
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQPoll::getLastErrors — Повертає помилки останнього опитування
 

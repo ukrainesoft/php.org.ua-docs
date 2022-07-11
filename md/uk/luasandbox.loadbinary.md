@@ -8,14 +8,14 @@ Lua
 
 # LuaSandbox::loadBinary
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::loadBinary — Завантажує попередньо скомпільований
 двійковий фрагмент у середу Lua
 
 ### Опис
 
-public **LuaSandbox::loadBinary**(string `$code`, string `$chunkName` u003d
+public **LuaSandbox::loadBinary**(string `$code`, string `$chunkName` =
 ''): [LuaSandboxFunction](class.luasandboxfunction.md)
 
 Завантажує дані, створені

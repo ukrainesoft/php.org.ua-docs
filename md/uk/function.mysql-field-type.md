@@ -51,9 +51,9 @@ mysql_field_type — Повертає тип вказаного поля з ре
 
 **Приклад #1 Приклад використання **mysql_field_type()****
 
-` <?phpmysql_connect("localhost", "mysql_username", "mysql_password");mysql_select_db("mysql");$result u003d mysql_query("SELECT * FROM func");$fields u003d mysql_num_fields mysql_num_rows($result);$table u003d mysql_field_table($result, 0);echo "Ваша таблиця '" . $table . "'містить"". $fields . " поля і " . $rows . "запис
+` <?phpmysql_connect("localhost", "mysql_username", "mysql_password");mysql_select_db("mysql");$result = mysql_query("SELECT * FROM func");$fields = mysql_num_fields mysql_num_rows($result);$table = mysql_field_table($result, 0);echo "Ваша таблиця '" . $table . "'містить"". $fields . " поля і " . $rows . "запис
 ";echo "У таблиці є наступні поля:
-";for ($iu003d0; $i < $fields; $i++) {    $type  u003d mysql_field_type($result, $i);   $name  u003d mysql_field_name($result, $  | , $i);   $flags u003d mysql_field_flags($result, $i);   echo $type . " " . $name . " " . $len . " | 
+";for ($i=0; $i < $fields; $i++) {    $type  = mysql_field_type($result, $i);   $name  = mysql_field_name($result, $  | , $i);   $flags = mysql_field_flags($result, $i);   echo $type . " " . $name . " " . $len . " | 
 ";}mysql_free_result($result);mysql_close();?> `
 
 Результатом виконання цього прикладу буде щось подібне:

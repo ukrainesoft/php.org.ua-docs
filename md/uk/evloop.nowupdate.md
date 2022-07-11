@@ -8,7 +8,7 @@
 
 # EvLoop::nowUpdate
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::nowUpdate — Встановлює поточний час, запитуючи ядро,
 оновлюючи час, що повертається EvLoop::now у процесі

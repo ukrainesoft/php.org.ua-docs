@@ -40,14 +40,14 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Надсилання команди SITE FTP-серверу**
 
-` <?php// З'єднання з FTP-сервером$ftp u003d ftp_connect('ftp.example.com');if (!$conn) die('Не удалося підключитися до ftp.example.com');// Вхід під іменем "user" з паролем "pass"if (!ftp_login($ftp, 'user', 'pass')) die('Не удалося увійти на ftp.example.com');// Відправка "SITE CHMOD /user/privatefile" FTP-серверуif (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {  echo "Команда виконана.
+` <?php// З'єднання з FTP-сервером$ftp = ftp_connect('ftp.example.com');if (!$conn) die('Не удалося підключитися до ftp.example.com');// Вхід під іменем "user" з паролем "pass"if (!ftp_login($ftp, 'user', 'pass')) die('Не удалося увійти на ftp.example.com');// Відправка "SITE CHMOD /user/privatefile" FTP-серверуif (ftp_site($ftp, 'CHMOD 0600 /home/user/privatefile')) {  echo "Команда виконана.
 ";} else {  die('Команда не виконана.');}?> `
 
 ### Дивіться також

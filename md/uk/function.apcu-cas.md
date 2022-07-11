@@ -7,7 +7,7 @@
 
 #apcu_cas
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_cas — Замінює старе значення на нове
 
@@ -38,17 +38,17 @@ apcu_cas — Замінює старе значення на нове
 
 **Приклад #1 Приклад використання **apcu_cas()****
 
-` <?phpapcu_store('foobar', 2);echo '$foobar u003d 2', PHP_EOL;echo '$foobar u003du003d 1 ? 2 : 1 u003d ', (apcu_cas('foobar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;echo '$foobar u003du003d 2 ? 1 : 2 u003d ', (apcu_cas('foobar', 2, 1) ? 'ok' : 'fail'), PHP_EOL;echo '$foobar u003d ', apcu_fetch('foobar')' $; u003d 1 ? 2 : 1 u003d ', (apcu_cas('f__bar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;apcu_store('perfection', 'xyz');echo '$perfection u003du003d? 1 : 2 u003d ', (apcu_cas('perfection', 2, 1) ? 'ok' : 'epic fail'), PHP_EOL;echo '$foobar u003d ', apcu_fetch(';foo'
+` <?phpapcu_store('foobar', 2);echo '$foobar = 2', PHP_EOL;echo '$foobar == 1 ? 2 : 1 = ', (apcu_cas('foobar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;echo '$foobar == 2 ? 1 : 2 = ', (apcu_cas('foobar', 2, 1) ? 'ok' : 'fail'), PHP_EOL;echo '$foobar = ', apcu_fetch('foobar')' $; = 1 ? 2 : 1 = ', (apcu_cas('f__bar', 1, 2) ? 'ok' : 'fail'), PHP_EOL;apcu_store('perfection', 'xyz');echo '$perfection ==? 1 : 2 = ', (apcu_cas('perfection', 2, 1) ? 'ok' : 'epic fail'), PHP_EOL;echo '$foobar = ', apcu_fetch(';foo'
 
 Результатом виконання цього прикладу буде щось подібне:
 
-$foobar u003d 2
-$foobar u003du003d 1? 2: 1 u003d fail
-$foobar u003du003d 2? 1: 2 u003d ok
-$foobar u003d 1
-$f__bar u003du003d 1? 2: 1 u003d fail
-$perfection u003du003d 2? 1: 2 u003d epic fail
-$foobar u003d 1
+$foobar = 2
+$foobar == 1? 2: 1 = fail
+$foobar == 2? 1: 2 = ok
+$foobar = 1
+$f__bar == 1? 2: 1 = fail
+$perfection == 2? 1: 2 = epic fail
+$foobar = 1
 
 ### Дивіться також
 

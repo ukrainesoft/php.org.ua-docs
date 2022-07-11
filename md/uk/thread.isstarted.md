@@ -7,7 +7,7 @@
 
 # Thread::isStarted
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::isStarted — Визначення стану
 
@@ -30,7 +30,7 @@ public **Thread::isStarted**(): bool
 
 **Приклад #1 Повідомляє, чи було запущено зазначений потік**
 
-` <?php$worker u003d new Worker();$worker->start();var_dump($worker->isStarted());?> `
+` <?php$worker = new Worker();$worker->start();var_dump($worker->isStarted());?> `
 
 Результат виконання цього прикладу:
 

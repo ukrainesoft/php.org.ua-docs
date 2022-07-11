@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\UTCDateTimeInterface::toDateTime
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\BSON\UTCDateTimeInterface::toDateTime — Повертає виставу
 DateTime цього UTCDateTimeInterface

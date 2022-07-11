@@ -7,14 +7,14 @@
 
 # getopt
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 getopt — Отримує параметри зі списку аргументів командного рядка
 
 ### Опис
 
-**getopt**(string `$short_options`, array `$long_options` u003d [], int
-`&$rest_index` u003d **`null`**): array\|false
+**getopt**(string `$short_options`, array `$long_options` = [], int
+`&$rest_index` = **`null`**): array\|false
 
 Аналізує параметри, передані в скрипт.
 
@@ -76,14 +76,14 @@ longopts ``opt`` буде розшифровуватися як `--opt`.
 ### Список змін
 
 | Версія | Опис                         |
-| ------ | ---------------------------- |
+|--------|------------------------------|
 | 7.1.0  | Доданий параметр rest_index. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **getopt()**: основи**
 
-` <?php// Скрипт example.php$options u003d getopt("f:hp:");var_dump($options);?> `
+` <?php// Скрипт example.php$options = getopt("f:hp:");var_dump($options);?> `
 
 `` shellcode
 shell> php example.php -fvalue -h
@@ -92,42 +92,42 @@ shell> php example.php -fvalue -h
 Результат виконання цього прикладу:
 
 array(2) {
-["f"]u003d>
+["f"]=>
 string(5) "value"
-["h"]u003d>
+["h"]=>
 bool(false)
 }
 
 **Приклад #2 Приклад використання **getopt()**: додавання довгих
 опцій**
 
-` <?php// Скрипт example.php$shortopts u003du003d"";$shortopts .u003d "f:"; // Обов'язкове значення$shortopts .u003d "v::"; // Необов'язкове значення$shortopts .u003d "abc"; // Эти параметры не принимают никаких значений$longopts  u003d array(    "required:",     // Обязательное значение    "optional::",    // Необязательное значение    "option",        // Нет значения    "opt",           // Нет значения); $optionsu003du003dgetopt($shortopts,$longopts);var_dump($options);?> `
+` <?php// Скрипт example.php$shortopts =="";$shortopts .= "f:"; // Обов'язкове значення$shortopts .= "v::"; // Необов'язкове значення$shortopts .= "abc"; // Эти параметры не принимают никаких значений$longopts  = array(    "required:",     // Обязательное значение    "optional::",    // Необязательное значение    "option",        // Нет значения    "opt",           // Нет значения); $options==getopt($shortopts,$longopts);var_dump($options);?> `
 
 `` shellcode
-shell> php example.php -f "value for f" -v -a --required value --optionalu003d"optional value" --option
+shell> php example.php -f "value for f" -v -a --required value --optional="optional value" --option
 ````
 
 Результат виконання цього прикладу:
 
 array(6) {
-["f"]u003d>
+["f"]=>
 string(11) "value for f"
-["v"]u003d>
+["v"]=>
 bool(false)
-["a"]u003d>
+["a"]=>
 bool(false)
-["required"]u003d>
+["required"]=>
 string(5) "value"
-["optional"]u003d>
+["optional"]=>
 string(14) "optional value"
-["option"]u003d>
+["option"]=>
 bool(false)
 }
 
 **Приклад #3 Приклад використання **getopt()**: Передача кількох
 параметрів як одного**
 
-` <?php// Скрипт example.php$options u003d getopt("abc");var_dump($options);?> `
+` <?php// Скрипт example.php$options = getopt("abc");var_dump($options);?> `
 
 `` shellcode
 shell> php example.php -aaac
@@ -136,22 +136,22 @@ shell> php example.php -aaac
 Результат виконання цього прикладу:
 
 array(2) {
-["a"]u003d>
+["a"]=>
 array(3) {
-[0]u003d>
+[0]=>
 bool(false)
-[1]u003d>
+[1]=>
 bool(false)
-[2]u003d>
+[2]=>
 bool(false)
 }
-["c"]u003d>
+["c"]=>
 bool(false)
 }
 
 **Приклад #4 Приклад **getopt()** з параметром `rest_index`**
 
-` <?php// Скрипт example.php$rest_index u003d null;$opts u003d getopt('a:b:', [], $rest_index);$pos_args u003d array_slice($argv, $rest_index); ); `
+` <?php// Скрипт example.php$rest_index = null;$opts = getopt('a:b:', [], $rest_index);$pos_args = array_slice($argv, $rest_index); ); `
 
 `` shellcode
 shell> php example.php -a 1 -b 2 - test
@@ -160,7 +160,7 @@ shell> php example.php -a 1 -b 2 - test
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 string(4) "test"
 }
 

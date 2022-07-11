@@ -14,10 +14,10 @@ UI\Draw\Stroke::\_\_construct — Створити новий об'єкт Stroke
 ### Опис
 
 public **UI\Draw\Stroke::\_\_construct**(
-int `$cap` u003d UI\Draw\Line\Cap::Flat,
-int `$join` u003d UI\Draw\Line\Join::Miter,
-float `$thickness` u003d 1,
-float `$miterLimit` u003d 10
+int `$cap` = UI\Draw\Line\Cap::Flat,
+int `$join` = UI\Draw\Line\Join::Miter,
+float `$thickness` = 1,
+float `$miterLimit` = 10
 )
 
 Створює новий об'єкт Stroke

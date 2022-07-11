@@ -7,7 +7,7 @@
 
 # sodium_crypto_secretstream_xchacha20poly1305_init_push
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_secretstream_xchacha20poly1305_init_push — Ініціалізує
 контекст secretstream для шифрування
@@ -38,7 +38,7 @@ sodium_crypto_secretstream_xchacha20poly1305_init_push — Ініціалізу�
 **Приклад #1 Приклад використання
 **sodium_crypto_secretstream_xchacha20poly1305_init_push()****
 
-` <?phpfunction encrypt_file(string $inputFilePath, string $outputFilePath, string $key): void{    [$state, $header] u003d sodium_crypto_secretstream_xchacha_0poly13pusy $inputFile u003dfopen($inputFilePath, rb'); $outputFile u003dfopen($outputFilePath, wb'); // Запис заголовка:   fwrite($outputFile, $header); $inputFileSizeu003du003dfstat($inputFile)['size']; // Зашифровка файла і запис його вмісту в вихідний файл:    for ($i u003d 0; $i < $inputFileSize; $i +u003d 8175)    $ctxt_chunku003du003dsodium_crypto_secretstream_xchacha20poly1305_push($state, $ptxt_chunk); fwrite($outputFile, $ctxt_chunk); } Sodium_memzero($state); fclose($inputFile); fclose($outputFile);}// sodium_crypto_secretstream_xchacha20poly1305_keygen()$key u003d sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8u003d', SODIUM_BASE64_VARIANT_ORIGINAL);file_put_contents('hello.txt', 'Hello world!');encrypt_file('hello .txt', 'hello.txt.encrypted', $key);var_dump(sodium_bin2hex(file_get_contents('hello.txt.encrypted')));?> `
+` <?phpfunction encrypt_file(string $inputFilePath, string $outputFilePath, string $key): void{    [$state, $header] = sodium_crypto_secretstream_xchacha_0poly13pusy $inputFile =fopen($inputFilePath, rb'); $outputFile =fopen($outputFilePath, wb'); // Запис заголовка:   fwrite($outputFile, $header); $inputFileSize==fstat($inputFile)['size']; // Зашифровка файла і запис його вмісту в вихідний файл:    for ($i = 0; $i < $inputFileSize; $i += 8175)    $ctxt_chunk==sodium_crypto_secretstream_xchacha20poly1305_push($state, $ptxt_chunk); fwrite($outputFile, $ctxt_chunk); } Sodium_memzero($state); fclose($inputFile); fclose($outputFile);}// sodium_crypto_secretstream_xchacha20poly1305_keygen()$key = sodium_base642bin('MS0lzb7HC+thY6jY01pkTE/cwsQxnRq0/2L1eL4Hxn8=', SODIUM_BASE64_VARIANT_ORIGINAL);file_put_contents('hello.txt', 'Hello world!');encrypt_file('hello .txt', 'hello.txt.encrypted', $key);var_dump(sodium_bin2hex(file_get_contents('hello.txt.encrypted')));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

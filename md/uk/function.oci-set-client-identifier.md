@@ -7,7 +7,7 @@
 
 #oci_set_client_identifier
 
-(PHP 5 u003d 5.3.2, PHP 7, PHP 8, PECL OCI8 u003d 1.4.0)
+(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
 
 oci_set_client_identifier — Визначає ідентифікатор клієнта
 
@@ -53,7 +53,7 @@ oci_set_client_identifier — Визначає ідентифікатор клі
 
 **Приклад #1 Встановлення ідентифікатора клієнта для користувача**
 
-` <?php// Знайдемо логін користувачаsession_start();$un u003d my_validate_session($_SESSION['username']);$c u003d oci_connect('myschema', 'welcome', 'localhost/XE'); базі данихoci_set_client_identifier($c, $un);// Наступний запит к БД заодно встановить ідентифікатор$s u003d oci_parse($c, 'select mydata from mytable')>;
+` <?php// Знайдемо логін користувачаsession_start();$un = my_validate_session($_SESSION['username']);$c = oci_connect('myschema', 'welcome', 'localhost/XE'); базі данихoci_set_client_identifier($c, $un);// Наступний запит к БД заодно встановить ідентифікатор$s = oci_parse($c, 'select mydata from mytable')>;
 
 ### Примітки
 

@@ -7,14 +7,14 @@
 
 # SolrQuery::setFacetLimit
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetLimit — Відповідає facet.limit
 
 ### Опис
 
 public **SolrQuery::setFacetLimit**(int `$limit`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Відповідає facet.limit. Встановлює максимальну кількість
 обмежень, які мають бути повернуті для полів фасета.

@@ -34,7 +34,7 @@ public static **IntlChar::getBlockCode**(int\|string `$codepoint`): ?int
 
 **Приклад #1 Тестування різних способів завдання**
 
-` <?phpvar_dump(IntlChar::getBlockCode("A") u003du003du003d IntlChar::BLOCK_CODE_BASIC_LATIN);var_dump(IntlChar::getBlockCode("Φ") u003du003du003d IntlChar::BLOCK_CODE_G: "\u{2603}") u003du003du003d IntlChar::BLOCK_CODE_MISCELLANEOUS_SYMBOLS);?> `
+` <?phpvar_dump(IntlChar::getBlockCode("A") === IntlChar::BLOCK_CODE_BASIC_LATIN);var_dump(IntlChar::getBlockCode("Φ") === IntlChar::BLOCK_CODE_G: "\u{2603}") === IntlChar::BLOCK_CODE_MISCELLANEOUS_SYMBOLS);?> `
 
 Результат виконання цього прикладу:
 

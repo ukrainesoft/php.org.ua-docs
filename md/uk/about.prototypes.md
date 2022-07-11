@@ -35,7 +35,7 @@ strlen (string $string): int
 Повертає довжину переданого рядка.
 
 | Частина Опис                                                         |                                                                                                                      |
-| -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | strlen                                                               | Назва функції.                                                                                                       |
 | (PHP 4, PHP 5, PHP 7) strlen() була у всіх версіях PHP 4, 5 та PHP 7 |                                                                                                                      |
 | (string $string)                                                     | Перший (і у разі єдиний) параметр/аргумент цієї функції називається string, яке типом є рядок (string).              |
@@ -50,7 +50,7 @@ strlen (string $string): int
 Багато функцій приймають кілька параметрів, наприклад,
 [in_array()](function.in-array.md). Її прототип виглядає так:
 
-in_array ( mixed $needle, array $haystack , bool $strict u003d false ) : bool
+in_array ( mixed $needle, array $haystack , bool $strict = false ) : bool
 
 Що це означає? in_array() повертає
 [boolean](language.types.boolean.md), **`true`** у разі успішного
@@ -74,8 +74,8 @@ in_array ( mixed $needle, array $haystack , bool $strict u003d false ) : bool
 передавати значення цього параметра по
 [Посилання](language.references.pass.md):
 
-preg_match ( string $ pattern , string $ subject , array & $ matches u003d null,
-int $ flags u003d 0 , int $ offset u003d 0 ) : int | false
+preg_match ( string $ pattern , string $ subject , array & $ matches = null,
+int $ flags = 0 , int $ offset = 0 ) : int | false
 
 У цьому прикладі ми можемо використовувати третій опціональний параметр
 `&$matches`, який буде передано за посиланням.
@@ -83,7 +83,7 @@ int $ flags u003d 0 , int $ offset u003d 0 ) : int | false
 Існують також функції з більш складною інформацією про версії PHP. Візьмемо
 наприклад [html_entity_decode()](function.md-entity-decode.md):
 
-(PHP 4> u003d 4.3.0, PHP 5, PHP 7)
+(PHP 4> = 4.3.0, PHP 5, PHP 7)
 
 Це означає, що функція з'явилася в офіційних версіях мови лише з
 виходу PHP 4.3.0.

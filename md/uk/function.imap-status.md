@@ -61,14 +61,14 @@ uid, який буде використаний у ящику
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_status()****
 
-` <?php$mbox u003d|imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)       or die("не удалося підключитися: " . imap_last mbox, "{imap.example.org}INBOX", SA_ALL);if ($status) {  echo "Повідомлення:   " . $status->messages     . "<br />
+` <?php$mbox =|imap_open("{imap.example.com}", "username", "password", OP_HALFOPEN)       or die("не удалося підключитися: " . imap_last mbox, "{imap.example.org}INBOX", SA_ALL);if ($status) {  echo "Повідомлення:   " . $status->messages     . "<br />
 ";  echo "Останні:     " . $status->recent      . "<br />
 ";  echo "Непроглянуті:     " . $status->unseen      . "<br />
 ";  echo "UIDnext:    " . $status->uidnext     . "<br />

@@ -37,4 +37,4 @@ public static
 
 **Приклад #1 Приклад використання**
 
-` <?php$date u003d new DateTimeImmutable("2014-06-20 11:45 Europe/London");$mutable u003d DateTime::createFromInterface($date);$date u003d new DateTime("2 :45 Europe/London");$also_mutable u003d DateTime::createFromInterface($date);?> `
+` <?php$date = new DateTimeImmutable("2014-06-20 11:45 Europe/London");$mutable = DateTime::createFromInterface($date);$date = new DateTime("2 :45 Europe/London");$also_mutable = DateTime::createFromInterface($date);?> `

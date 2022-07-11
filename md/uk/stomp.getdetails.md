@@ -7,7 +7,7 @@
 
 # StompException::getDetails
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 StompException::getDetails — Повертає інформацію про виключення
 

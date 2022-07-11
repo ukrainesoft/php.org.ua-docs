@@ -61,7 +61,7 @@ imap_mail_compose — Створити MIME-повідомлення на осн
 
 **Приклад #1 Приклад використання **imap_mail_compose()****
 
-` <?php$envelope["from"]u003d "joe@example.com";$envelope["to"] u003d "foo@example.com";$envelope["cc"]  u003d "bar@example.com ";$part1["type"] u003d TYPEMULTIPART;$part1["subtype"] u003d "mixed";$filename u003d "/tmp/imap.c.gz";$fp u003d fopen($filename, "r") ;$contents u003d fread($fp, filesize($filename));fclose($fp);$part2["type"] u003d TYPEAPPLICATION;$part2["encoding"] u003d ENCBINARY;$part2["subtype"] u003d "octet-stream";$part2["description"] u003d basename($filename);$part2["contents.data"] u003d $contents;$part3["type"] u003d TYPETEXT;$part3["subtype"] u003d "plain";$part3["description"] u003d "description3";$part3["contents.data"] u003d "contents.data3
+` <?php$envelope["from"]= "joe@example.com";$envelope["to"] = "foo@example.com";$envelope["cc"]  = "bar@example.com ";$part1["type"] = TYPEMULTIPART;$part1["subtype"] = "mixed";$filename = "/tmp/imap.c.gz";$fp = fopen($filename, "r") ;$contents = fread($fp, filesize($filename));fclose($fp);$part2["type"] = TYPEAPPLICATION;$part2["encoding"] = ENCBINARY;$part2["subtype"] = "octet-stream";$part2["description"] = basename($filename);$part2["contents.data"] = $contents;$part3["type"] = TYPETEXT;$part3["subtype"] = "plain";$part3["description"] = "description3";$part3["contents.data"] = "contents.data3
 
 
-";$body[1] u003d $part1;$body[2] u003d $part2;$body[3] u003d $part3;echo nl2br(imap_mail_compose($envelope, $body));?> `
+";$body[1] = $part1;$body[2] = $part2;$body[3] = $part3;echo nl2br(imap_mail_compose($envelope, $body));?> `

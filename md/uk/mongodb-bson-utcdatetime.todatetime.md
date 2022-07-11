@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\UTCDateTime::toDateTime
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\UTCDateTime::toDateTime — Повертає уявлення DateTime
 цього UTCDateTime
@@ -37,16 +37,16 @@ UTCDateTime. Повернутий [DateTime](class.datetime.md) буде
 **Приклад #1 Приклад використання
 **MongoDB\BSON\UTCDatetime::toDateTime()****
 
-` <?php$utcdatetime u003d new MongoDB\BSON\UTCDateTime(1416445411987);$datetime u003d $utcdatetime->toDateTime();var_dump($datetime->format('r'));var_dump($ 'U.u'));var_dump($datetime->getTimezone());?> `
+` <?php$utcdatetime = new MongoDB\BSON\UTCDateTime(1416445411987);$datetime = $utcdatetime->toDateTime();var_dump($datetime->format('r'));var_dump($ 'U.u'));var_dump($datetime->getTimezone());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 string(31) "Thu, 20 Nov 2014 01:03:31 +0000"
 string(17) "1416445411.987000"
 object(DateTimeZone)#3 (2) {
-["timezone_type"]u003d>
+["timezone_type"]=>
 int(1)
-["timezone"]u003d>
+["timezone"]=>
 string(6) "+00:00"
 }
 

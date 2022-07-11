@@ -9,7 +9,7 @@
 
 #xmlwriter_write_dtd_entity
 
-(PHP 5 \>u003d 5.2.1, PHP 7, PHP 8, PECL xmlwriter \>u003d 0.1.0)
+(PHP 5 \>= 5.2.1, PHP 7, PHP 8, PECL xmlwriter \>= 0.1.0)
 
 XMLWriter::writeDtdEntity -- xmlwriter_write_dtd_entity — Записати
 повний тег DTD запису
@@ -21,10 +21,10 @@ XMLWriter::writeDtdEntity -- xmlwriter_write_dtd_entity — Записати
 public **XMLWriter::writeDtdEntity**(
 string `$name`,
 string `$content`,
-bool `$isParam` u003d **`false`**,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$notationData` u003d **`null`**
+bool `$isParam` = **`false`**,
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$notationData` = **`null`**
 ): bool
 
 Процедурний стиль
@@ -33,10 +33,10 @@ bool `$isParam` u003d **`false`**,
 [XMLWriter](class.xmlwriter.md) `$writer`,
 string `$name`,
 string `$content`,
-bool `$isParam` u003d **`false`**,
-?string `$publicId` u003d **`null`**,
-?string `$systemId` u003d **`null`**,
-?string `$notationData` u003d **`null`**
+bool `$isParam` = **`false`**,
+?string `$publicId` = **`null`**,
+?string `$systemId` = **`null`**,
+?string `$notationData` = **`null`**
 ): bool
 
 Записує повний запис DTD.
@@ -63,7 +63,7 @@ bool `$isParam` u003d **`false`**,
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 | 8.0.0  | publicId, systemId та notationData тепер допускають значення null.                                                 |
 

@@ -13,7 +13,7 @@ odbc_fetch_into — Повертає один рядок результату д
 
 ### Опис
 
-**odbc_fetch_into**(resource `$statement`, array `&$array`, int `$row` u003d
+**odbc_fetch_into**(resource `$statement`, array `&$array`, int `$row` =
 0): int\|false
 
 Повертає один рядок результату масив (array).
@@ -40,8 +40,8 @@ odbc_fetch_into — Повертає один рядок результату д
 
 **Приклад #1 Приклади використання **odbc_fetch_into()****
 
-` <?php$rc u003d odbc_fetch_into($res_id, $my_array);?> `
+` <?php$rc = odbc_fetch_into($res_id, $my_array);?> `
 
 або
 
-` <?php$rc u003d odbc_fetch_into($res_id, $my_array, 2);?> `
+` <?php$rc = odbc_fetch_into($res_id, $my_array, 2);?> `

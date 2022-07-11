@@ -60,7 +60,7 @@ SQLSTATE. Якщо потрібна специфічна інформація п
 
 **Приклад #1 Створення PDO об'єкта та встановлення режиму обробки помилок**
 
-` <?php$dsn u003d 'mysql:dbnameu003dtestdb;hostu003d127.0.0.1';$user u003d 'dbuser';$password u003d 'dbpass';try {   $dbh u003d new PDO($dsn, $user password); $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);} catch (PDOException $e) {    echo 'Підключення не удалося: ' . $e->getMessage();}?> `
+` <?php$dsn = 'mysql:dbname=testdb;host=127.0.0.1';$user = 'dbuser';$password = 'dbpass';try {   $dbh = new PDO($dsn, $user password); $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);} catch (PDOException $e) {    echo 'Підключення не удалося: ' . $e->getMessage();}?> `
 
 > **Примітка**:
 >
@@ -72,7 +72,7 @@ SQLSTATE. Якщо потрібна специфічна інформація п
 **Приклад #2 Створення екземпляра класу PDO та встановлення режиму обробки
 помилок у конструкторі**
 
-` <?php$dsn u003d 'mysql:dbnameu003dtest;hostu003d127.0.0.1';$user u003d 'googleguy';$password u003d 'googleguy';/*    Як раніше оберніть конструктор в блок , даже при установке ERRMODE в WARNING,    PDO::__construct всегда будет бросать исключение PDOException, если соединение оборвалось.*/try {    $dbh u003d new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE u003d> PDO ::ERRMODE_WARNING));} catch (PDOException $e) {    echo 'Сполука оборвалось: ' . $e->getMessage(); exit.
+` <?php$dsn = 'mysql:dbname=test;host=127.0.0.1';$user = 'googleguy';$password = 'googleguy';/*    Як раніше оберніть конструктор в блок , даже при установке ERRMODE в WARNING,    PDO::__construct всегда будет бросать исключение PDOException, если соединение оборвалось.*/try {    $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO ::ERRMODE_WARNING));} catch (PDOException $e) {    echo 'Сполука оборвалось: ' . $e->getMessage(); exit.
 
 Результат виконання цього прикладу:
 

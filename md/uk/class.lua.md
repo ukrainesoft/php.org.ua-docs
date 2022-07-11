@@ -7,7 +7,7 @@
 
 # Клас Lua
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **Lua** {
 
 /\* Константи \*/
 
-const string `LUA_VERSION` u003d Lua 5.1.4;
+const string `LUA_VERSION` = Lua 5.1.4;
 
 /\* Методи \*/
 
@@ -25,15 +25,15 @@ public [assign](lua.assign.md)(string `$name`, string `$value`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [call](lua.call.md)([callable](language.types.callable.md)
-`$lua_func`, array `$args` u003d ?, int `$use_self` u003d 0):
+`$lua_func`, array `$args` = ?, int `$use_self` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
 [\_\_call](lua.call.md)([callable](language.types.callable.md)
-`$lua_func`, array `$args` u003d ?, int `$use_self` u003d 0):
+`$lua_func`, array `$args` = ?, int `$use_self` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [\_\_construct](lua.construct.md)(string `$lua_script_file` u003d
+public [\_\_construct](lua.construct.md)(string `$lua_script_file` =
 NULL)
 
 public [eval](lua.eval.md)(string `$statements`):

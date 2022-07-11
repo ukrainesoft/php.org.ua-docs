@@ -7,7 +7,7 @@
 
 #oci_parse
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_parse — Підготовка запиту до виконання
 
@@ -47,16 +47,16 @@ PL/SQL-запити *мають* закінчуватися точкою з ко
 
 **Приклад #1 Приклад використання **oci_parse()** із SQL-запитами**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');// Парсинг запиту. Зверніть увагу на відсутність точки комою в SQL-запиті $stid u003d oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid);echo ''<table>
-";while ($row u003d oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
-";   foreach ($row as $item) {        echo "    <td>" . ($item !u003du003d null ? htmlentities($item, >| >)
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');// Парсинг запиту. Зверніть увагу на відсутність точки комою в SQL-запиті $stid = oci_parse($conn, 'SELECT * FROM employees');oci_execute($stid);echo ''<table>
+";while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {   echo ""<tr>
+";   foreach ($row as $item) {        echo "    <td>" . ($item !== null ? htmlentities($item, >| >)
 ";    }    echo "</tr>
 ";}echo "</table>
 ";?> `
 
 **Приклад #2 Приклад використання **oci_parse()** з PL/SQL-запитами**
 
-` <?php/*  Перед запуском PHP-скрипта, создайте хранимую процедуру в  SQL*Plus или SQL Developer:  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS  BEGIN      p2 :u003d p1 * 2; END;*/$connu003du003doci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$p1 u003d 8; myproc(:p1, :p2); end;');oci_bind_by_name($stid, ':p1', $p1);oci_bind_by_name($stid, ':p2', $p2, 40);oci_execute($stid); print "$p2
+` <?php/*  Перед запуском PHP-скрипта, создайте хранимую процедуру в  SQL*Plus или SQL Developer:  CREATE OR REPLACE PROCEDURE myproc(p1 IN NUMBER, p2 OUT NUMBER) AS  BEGIN      p2 := p1 * 2; END;*/$conn==oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$p1 = 8; myproc(:p1, :p2); end;');oci_bind_by_name($stid, ':p1', $p1);oci_bind_by_name($stid, ':p2', $p2, 40);oci_execute($stid); print "$p2
 ";   // prints 16oci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки

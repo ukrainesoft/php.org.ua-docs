@@ -19,8 +19,8 @@
 Якщо Microsoft SQL Server 2008 R2 ще не встановлений, ви можете завантажити
 потрібний дистрибутив за посиланнями нижче:
 
-- [» Завантажити версію x86](http://go.microsoft.com/fwlink/?LinkIDu003d239647)
-- [» Завантажити версію x64](http://go.microsoft.com/fwlink/?LinkIDu003d239648)
+- [» Завантажити версію x86](http://go.microsoft.com/fwlink/?LinkID=239647)
+- [» Завантажити версію x64](http://go.microsoft.com/fwlink/?LinkID=239648)
 
 Завантажувана копія модуля PDO_SQLSRV включає вісім файлів
 драйвери, чотири з них для підтримки PDO.

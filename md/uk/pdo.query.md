@@ -7,27 +7,27 @@
 
 # PDO::query
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDO::query — Підготовка та виконання виразу SQL без заповнювачів
 
 ### Опис
 
-public **PDO::query**(string `$query`, ?int `$fetchMode` u003d **`null`**):
+public **PDO::query**(string `$query`, ?int `$fetchMode` = **`null`**):
 [PDOStatement](class.pdostatement.md)\|false
 
-public **PDO::query**(string `$query`, ?int `$fetchMode` u003d
+public **PDO::query**(string `$query`, ?int `$fetchMode` =
 PDO::FETCH_COLUMN, int `$colno`):
 [PDOStatement](class.pdostatement.md)\|false
 
 public **PDO::query**(
 string `$query`,
-?int `$fetchMode` u003d PDO::FETCH_CLASS,
+?int `$fetchMode` = PDO::FETCH_CLASS,
 string `$classname`,
 array `$constructorArgs`
 ): [PDOStatement](class.pdostatement.md)\|false
 
-public **PDO::query**(string `$query`, ?int `$fetchMode` u003d
+public **PDO::query**(string `$query`, ?int `$fetchMode` =
 PDO::FETCH_INTO, object `$object`):
 [PDOStatement](class.pdostatement.md)\|false
 
@@ -91,7 +91,7 @@ SQL-запит для підготовки та виконання.
 **Приклад #1 SQL без наповнювачів може бути виконаний з використанням
 **PDO::query()****
 
-` <?php$sql u003d 'SELECT name, color, calories FROM fruit ORDER BY name';foreach ($conn->query($sql) as $row) {    print $row['name'] " "; print $row['color'] . " "; print $row['calories'] . "
+` <?php$sql = 'SELECT name, color, calories FROM fruit ORDER BY name';foreach ($conn->query($sql) as $row) {    print $row['name'] " "; print $row['color'] . " "; print $row['calories'] . "
 ";}?> `
 
 Результат виконання цього прикладу:

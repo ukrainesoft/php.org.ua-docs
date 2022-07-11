@@ -7,13 +7,13 @@
 
 # Gmagick::\_\_construct
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::\_\_construct — Конструктор об'єкту Gmagick
 
 ### Опис
 
-public **Gmagick::\_\_construct**(string `$filename` u003d ?)
+public **Gmagick::\_\_construct**(string `$filename` = ?)
 
 Конструктор об'єкта [Gmagick](class.gmagick.md).
 

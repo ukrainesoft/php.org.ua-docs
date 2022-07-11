@@ -18,8 +18,8 @@ int `$columns`,
 int `$rows`,
 int `$filter`,
 float `$blur`,
-bool `$bestfit` u003d **`false`**,
-bool `$legacy` u003d **`false`**
+bool `$bestfit` = **`false`**,
+bool `$legacy` = **`false`**
 ): bool
 
 Масштабує зображення до бажаних розмірів за допомогою
@@ -58,11 +58,11 @@ bool `$legacy` u003d **`false`**
 ### Список змін
 
 | Версія                                                                                                                                                                                      | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | PECL imagick 2.1.0 Додано необов'язковий параметр підгонки. Тепер метод підтримує пропорційне масштабування. Для пропорційного масштабування необхідно передати нуль як будь-який параметр. |      |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Imagick::resizeImage()****
 
-` <?phpfunction resizeImage($imagePath, $width, $height, $filterType, $blur, $bestFit, $cropZoom) {    //Коефіцієнт розмиття, де значення               $imagick u003d new \Imagick(realpath($imagePath)); $imagick->resizeImage($width, $height, $filterType, $blur, $bestFit); $cropWidthu003du003d$imagick->getImageWidth(); $cropHeightu003du003d$imagick->getImageHeight(); if ($cropZoom) {        $newWidth u003d $cropWidth / 2; $newHeight u003d $cropHeight / 2; $imagick->cropimage(            $newWidth,            $newHeight,            ($cropWidth - $newWidth) / 2,            ($cropHeight - $newHeight) / 2        ); $imagick->scaleimage(            $imagick->getImageWidth() * 4,           $imagick->getImageHeight() *  }   header("Content-Type:image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction resizeImage($imagePath, $width, $height, $filterType, $blur, $bestFit, $cropZoom) {    //Коефіцієнт розмиття, де значення               $imagick = new \Imagick(realpath($imagePath)); $imagick->resizeImage($width, $height, $filterType, $blur, $bestFit); $cropWidth==$imagick->getImageWidth(); $cropHeight==$imagick->getImageHeight(); if ($cropZoom) {        $newWidth = $cropWidth / 2; $newHeight = $cropHeight / 2; $imagick->cropimage(            $newWidth,            $newHeight,            ($cropWidth - $newWidth) / 2,            ($cropHeight - $newHeight) / 2        ); $imagick->scaleimage(            $imagick->getImageWidth() * 4,           $imagick->getImageHeight() *  }   header("Content-Type:image/jpg"); echo $imagick->getImageBlob();}?> `

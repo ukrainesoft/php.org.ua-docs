@@ -8,7 +8,7 @@
 
 # EventHttpRequest::sendReplyEnd
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::sendReplyEnd — Заповнює фрагментарну відповідь,
 звільняючи запит відповідним чином

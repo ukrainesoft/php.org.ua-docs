@@ -7,7 +7,7 @@
 
 #gnupg_clearsignkeys
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_clearsignkeys — Видаляє всі ключі, встановлені для
 підписання раніше
@@ -31,9 +31,9 @@ gnupg_clearsignkeys — Видаляє всі ключі, встановлені
 
 **Приклад #1 Процедурний приклад використання **gnupg_clearsignkeys()****
 
-` <?php$res u003d gnupg_init();gnupg_clearsignkeys($res);?> `
+` <?php$res = gnupg_init();gnupg_clearsignkeys($res);?> `
 
 **Приклад #2 Об'єктно-орієнтований приклад використання
 **gnupg_clearsignkeys()****
 
-` <?php$gpg u003d new gnupg();$gpg->clearsignkeys();?> `
+` <?php$gpg = new gnupg();$gpg->clearsignkeys();?> `

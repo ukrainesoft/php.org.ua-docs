@@ -7,14 +7,14 @@
 
 # ReflectionMethod::getClosure
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ReflectionMethod::getClosure — Повертає динамічно створене
 замикання для методу
 
 ### Опис
 
-public **ReflectionMethod::getClosure**(?object `$object` u003d **`null`**):
+public **ReflectionMethod::getClosure**(?object `$object` = **`null`**):
 [Closure](class.closure.md)
 
 **Увага**
@@ -35,5 +35,5 @@ public **ReflectionMethod::getClosure**(?object `$object` u003d **`null`**):
 ### Список змін
 
 | Версія | Опис                                 |
-| ------ | ------------------------------------ |
+|--------|--------------------------------------|
 | 8.0.0  | object тепер допускає значення null. |

@@ -7,7 +7,7 @@
 
 # fann_get_learning_momentum
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_learning_momentum - Повертає імпульс навчання
 

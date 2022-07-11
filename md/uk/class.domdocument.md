@@ -49,7 +49,7 @@ public ?string `$documentURI`;
 
 public readonly
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$config` u003d null;
+`$config` = null;
 
 public bool `$formatOutput`;
 
@@ -108,8 +108,8 @@ public string `$textContent`;
 
 /\* Методи \*/
 
-public [\_\_construct](domdocument.construct.md)(string `$version` u003d
-"1.0", string `$encoding` u003d "")
+public [\_\_construct](domdocument.construct.md)(string `$version` =
+"1.0", string `$encoding` = "")
 
 public [createAttribute](domdocument.createattribute.md)(string
 `$localName`): [DOMAttr](class.domattr.md)\|false
@@ -129,11 +129,11 @@ public
 [DOMDocumentFragment](class.domdocumentfragment.md)
 
 public [createElement](domdocument.createelement.md)(string
-`$localName`, string `$value` u003d ""):
+`$localName`, string `$value` = ""):
 [DOMElement](class.domelement.md)\|false
 
 public [createElementNS](domdocument.createelementns.md)(?string
-`$namespace`, string `$qualifiedName`, string `$value` u003d ""):
+`$namespace`, string `$qualifiedName`, string `$value` = ""):
 [DOMElement](class.domelement.md)\|false
 
 public
@@ -142,7 +142,7 @@ public
 
 public
 [createProcessingInstruction](domdocument.createprocessinginstruction.md)(string
-`$target`, string `$data` u003d ""):
+`$target`, string `$data` = ""):
 [DOMProcessingInstruction](class.domprocessinginstruction.md)\|false
 
 public [createTextNode](domdocument.createtextnode.md)(string
@@ -162,20 +162,20 @@ public
 
 public
 [importNode](domdocument.importnode.md)([DOMNode](class.domnode.md)
-`$node`, bool `$deep` u003d **`false`**):
+`$node`, bool `$deep` = **`false`**):
 [DOMNode](class.domnode.md)\|false
 
 public [load](domdocument.load.md)(string `$filename`, int `$options`
-u003d 0): [DOMDocument](class.domdocument.md)\|bool
+= 0): [DOMDocument](class.domdocument.md)\|bool
 
 public [loadHTML](domdocument.loadhtml.md)(string `$source`, int
-`$options` u003d 0): [DOMDocument](class.domdocument.md)\|bool
+`$options` = 0): [DOMDocument](class.domdocument.md)\|bool
 
 public [loadHTMLFile](domdocument.loadhtmlfile.md)(string `$filename`,
-int `$options` u003d 0): [DOMDocument](class.domdocument.md)\|bool
+int `$options` = 0): [DOMDocument](class.domdocument.md)\|bool
 
 public [loadXML](domdocument.loadxml.md)(string `$source`, int
-`$options` u003d 0): [DOMDocument](class.domdocument.md)\|bool
+`$options` = 0): [DOMDocument](class.domdocument.md)\|bool
 
 public [normalizeDocument](domdocument.normalizedocument.md)(): void
 
@@ -190,29 +190,29 @@ public
 `$source`): bool
 
 public [save](domdocument.save.md)(string `$filename`, int `$options`
-u003d 0): int \ | false
+= 0): int \ | false
 
 public
 [saveHTML](domdocument.savehtml.md)(?[DOMNode](class.domnode.md)
-`$node` u003d **`null`**): string\|false
+`$node` = **`null`**): string\|false
 
 public [saveHTMLFile](domdocument.savehtmlfile.md)(string
 `$filename`): int\|false
 
 public
 [saveXML](domdocument.savexml.md)(?[DOMNode](class.domnode.md)
-`$node` u003d **`null`**, int `$options` u003d 0): string\|false
+`$node` = **`null`**, int `$options` = 0): string\|false
 
 public [schemaValidate](domdocument.schemavalidate.md)(string
-`$filename`, int `$flags` u003d 0): bool
+`$filename`, int `$flags` = 0): bool
 
 public
 [schemaValidateSource](domdocument.schemavalidatesource.md)(string
-`$source`, int `$flags` u003d 0): bool
+`$source`, int `$flags` = 0): bool
 
 public [validate](domdocument.validate.md)(): bool
 
-public [xinclude](domdocument.xinclude.md)(int `$options` u003d 0):
+public [xinclude](domdocument.xinclude.md)(int `$options` = 0):
 int\|false
 
 /\* Наслідувані методи \*/
@@ -222,21 +222,21 @@ public
 `$node`): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::C14N](domnode.c14n.md)(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 public [DOMNode::C14NFile](domnode.c14nfile.md)(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
-public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` u003d
+public [DOMNode::cloneNode](domnode.clonenode.md)(bool `$deep` =
 **`false`**): [DOMNode](class.domnode.md)\|false
 
 public [DOMNode::getLineNo](domnode.getlineno.md)(): int
@@ -249,7 +249,7 @@ public [DOMNode::hasChildNodes](domnode.haschildnodes.md)(): bool
 
 public
 [DOMNode::insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 public
@@ -388,7 +388,7 @@ libxml.
 ## Список змін
 
 | Версія | Опис                                                                                   |
-| ------ | -------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------|
 | 8.0.0  | Клас **DOMDocument** тепер реалізує інтерфейс [DOMParentNode](class.domparentnode.md). |
 | 8.0.0  | Нереалізований метод **DOMDocument::renameNode()** був вилучений.                      |
 

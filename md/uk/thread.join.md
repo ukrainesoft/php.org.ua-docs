@@ -7,7 +7,7 @@
 
 # Thread::join
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::join — Синхронізація
 
@@ -31,7 +31,7 @@ public **Thread::join**(): bool
 
 **Приклад #1 Приєднання до зазначеного процесу**
 
-` <?phpclass My extends Thread {    public function run() {         /* ... */    }}$my u003d new My()|my; ->join());/* ... */?> `
+` <?phpclass My extends Thread {    public function run() {         /* ... */    }}$my = new My()|my; ->join());/* ... */?> `
 
 Результат виконання цього прикладу:
 

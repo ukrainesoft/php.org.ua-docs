@@ -31,9 +31,9 @@
 
 ``` php.inicode
 ;;; Вимкнення конвертації
-mbstring.http_inputu003dpass
+mbstring.http_input=pass
 ;;; Вимкнення конвертації
-mbstring.encoding_translation u003d Off
+mbstring.encoding_translation = Off
 ````
 
 Якщо PHP використовується як модуль Apache, можна перевизначити ці
@@ -55,10 +55,10 @@ callback-функції для `ob_start`.
 ;;; Увімкнення перетворення кодувань вихідних символів для всіх сторінок PHP
 
 ;;; Увімкнення буферизації вихідних даних
-output_buffering u003d On
+output_buffering = On
 
 ;;; Визначення mb_output_handler для увімкнення конвертації виводу
-output_handler u003d mb_output_handler
+output_handler = mb_output_handler
 
 **Приклад #3 Приклад скрипту**
 

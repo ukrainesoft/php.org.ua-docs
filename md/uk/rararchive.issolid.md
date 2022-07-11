@@ -9,7 +9,7 @@
 
 #rar_solid_is
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 RarArchive::isSolid -- rar_solid_is — Перевірити, чи є архів
 суцільним
@@ -41,7 +41,7 @@ public **RarArchive::isSolid**(): bool
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$arch1 u003d RarArchive::open("store_method.rar");$arch2 u003d RarArchive::open("solid.rar");echo "$arch1: " . ($arch1->isSolid()?'yes':'no') ."
+` <?php$arch1 = RarArchive::open("store_method.rar");$arch2 = RarArchive::open("solid.rar");echo "$arch1: " . ($arch1->isSolid()?'yes':'no') ."
 ";echo "$arch2: " . ($arch2->isSolid()?'yes':'no') . "
 ";?> `
 
@@ -52,6 +52,6 @@ RAR Archive "C:\php_rar runk ests\solid.rar": yes
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$arch1 u003d rar_open("store_method.rar");$arch2 u003d rar_open("solid.rar");echo "$arch1: " . (rar_solid_is($arch1)?'yes':'no') ."
+` <?php$arch1 = rar_open("store_method.rar");$arch2 = rar_open("solid.rar");echo "$arch1: " . (rar_solid_is($arch1)?'yes':'no') ."
 ";echo "$arch2: " . (rar_solid_is($arch2)?'yes':'no') . "
 ";?> `

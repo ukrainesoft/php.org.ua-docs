@@ -40,13 +40,13 @@ public **Imagick::getSize**(): array
 **Приклад #1 Отримання розміру вихідного зображення RGB, встановлені в
 200x400, після масштабування до 400x800**
 
-` <?php//Встановлюємо розмір і завантажуємо зображення$img u003d new Imagick();$img->setSize(200, 400);$img->readImage("image.rgb");$img->scaleImage(400 , 800);$size u003d $img->getSize();print_r($size);echo $img->getImageWidth()."x".$img->getImageHeight();?> `
+` <?php//Встановлюємо розмір і завантажуємо зображення$img = new Imagick();$img->setSize(200, 400);$img->readImage("image.rgb");$img->scaleImage(400 , 800);$size = $img->getSize();print_r($size);echo $img->getImageWidth()."x".$img->getImageHeight();?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[columns] u003d> 200
-[rows] u003d> 400
+[columns] => 200
+[rows] => 400
 )
 400x800

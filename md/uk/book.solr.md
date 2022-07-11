@@ -623,7 +623,7 @@ group.format)
 - [SolrQuery::setGroupMain](solrquery.setgroupmain.md) — Якщо
 true, результат першої команди угруповання полів використовується в
 як основний список результатів у відповіді з використанням
-group.formatu003dsimple
+group.format=simple
 - [SolrQuery::setGroupNGroups](solrquery.setgroupngroups.md) -
 Якщо true, Solr включає в результати кількість груп, які
 відповідають запиту

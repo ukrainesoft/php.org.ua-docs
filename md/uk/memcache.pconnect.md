@@ -7,14 +7,14 @@
 
 # Memcache::pconnect
 
-(PECL memcache \>u003d 0.4.0)
+(PECL memcache \>= 0.4.0)
 
 Memcache::pconnect — Відкриває постійне з'єднання із сервером
 memcached
 
 ### Опис
 
-**Memcache::pconnect**(string `$host`, int `$port` u003d ?, int `$timeout` u003d
+**Memcache::pconnect**(string `$host`, int `$port` = ?, int `$timeout` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -52,7 +52,7 @@ memcached
 
 **Приклад #1 Приклад використання **Memcache::pconnect()****
 
-`<?php/* процедурне API */$memcache_obj u003d memcache_pconnect('memcache_host', 11211);/* об'єктно-орієнтоване API */$memcache_obj u003d new| > `
+`<?php/* процедурне API */$memcache_obj = memcache_pconnect('memcache_host', 11211);/* об'єктно-орієнтоване API */$memcache_obj = new| > `
 
 ### Дивіться також
 

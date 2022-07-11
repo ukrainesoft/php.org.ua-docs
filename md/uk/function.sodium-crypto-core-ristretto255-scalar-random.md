@@ -7,7 +7,7 @@
 
 # sodium_crypto_core_ristretto255_scalar_random
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_core_ristretto255_scalar_random — Генерує випадковий
 ключ
@@ -36,7 +36,7 @@ sodium_crypto_core_ristretto255_scalar_random — Генерує випадко�
 **Приклад #1 Приклад використання
 **sodium_crypto_core_ristretto255_scalar_random()****
 
-` <?php$foo u003d sodium_crypto_core_ristretto255_scalar_random();$bar u003d sodium_crypto_core_ristretto255_scalar_random();$value u003d sodium_crypto_core_ristretto255_scalar_add($foo, $bar);$value u003d sodium_crypto_core_ristretto255_scalar_sub($value, $bar);var_dump(hash_equals($foo, $ value));?> `
+` <?php$foo = sodium_crypto_core_ristretto255_scalar_random();$bar = sodium_crypto_core_ristretto255_scalar_random();$value = sodium_crypto_core_ristretto255_scalar_add($foo, $bar);$value = sodium_crypto_core_ristretto255_scalar_sub($value, $bar);var_dump(hash_equals($foo, $ value));?> `
 
 Результат виконання цього прикладу:
 

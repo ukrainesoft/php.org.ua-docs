@@ -50,8 +50,8 @@ public **mysqli_stmt::fetch**(): ?bool
 ### Значення, що повертаються
 
 | Значення  | Опис                                          |
-| --------- | --------------------------------------------- |
-| **true**  | Успіх. Дані вибрали                           |                                               
+|-----------|-----------------------------------------------|
+| **true**  | Успіх. Дані вибрали                           |
 | **false** | Помилка                                       |
 | **null**  | Більше немає рядків/даних або зникнення даних |
 
@@ -61,14 +61,14 @@ public **mysqli_stmt::fetch**(): ?bool
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) { випробування|
-", mysqli_connect_error());  exit();}$query u003d "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| Запустити вираз */   $stmt->execute();    /                      printf ("%s (%s)
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання*/if (mysqli_connect_errno()) { випробування|
+", mysqli_connect_error());  exit();}$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| Запустити вираз */   $stmt->execute();    /                      printf ("%s (%s)
 ", $name, $code);    }    /* Завершити запрос */    $stmt->close();}/* Закрити з'єднання */$mysqli->close();?> `
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Спроба |
-", mysqli_connect_error());   exit();}$query u003d "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| запрос */    mysqli_stmt_execute($stmt);    /* Определить переменные для результата */    mysqli_stmt_bind_result($stmt, $name, $code);    /* Выбрать значения */    while (mysqli_stmt_fetch($stmt)) {        printf ("%s ( %s)
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* Перевірити з'єднання */if (mysqli_connect_errno()) {     printf("Спроба |
+", mysqli_connect_error());   exit();}$query = "SELECT Name, CountryCode FROM City ORDER by ID DESC LIMIT 150,5 par| запрос */    mysqli_stmt_execute($stmt);    /* Определить переменные для результата */    mysqli_stmt_bind_result($stmt, $name, $code);    /* Выбрать значения */    while (mysqli_stmt_fetch($stmt)) {        printf ("%s ( %s)
 ", $name, $code);    }    /* Завершити запит */   mysqli_stmt_close($stmt);}/* Закрити з'єднання**/mysqli_close($link);
 
 Результат виконання даних прикладів:

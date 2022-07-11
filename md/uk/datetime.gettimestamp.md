@@ -13,7 +13,7 @@
 
 # date_timestamp_get
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateTime::getTimestamp -- DateTimeImmutable::getTimestamp --
 DateTimeInterface::getTimestamp -- date_timestamp_get -- Повертає
@@ -55,7 +55,7 @@ public **DateTimeInterface::getTimestamp**(): int
 ### Список змін
 
 | Версія | Опис                                                              |
-| ------ | ----------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------|
 | 8.0.0  | Функції більше не повертають **false** у разі виникнення помилки. |
 
 ### Приклади
@@ -64,11 +64,11 @@ public **DateTimeInterface::getTimestamp**(): int
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTime();echo $date->getTimestamp();?> `
+` <?php$date = new DateTime();echo $date->getTimestamp();?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create();echo date_timestamp_get($date);?> `
+` <?php$date = date_create();echo date_timestamp_get($date);?> `
 
 Результатом виконання даних прикладів буде щось подібне:
 

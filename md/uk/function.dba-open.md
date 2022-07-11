@@ -16,7 +16,7 @@ dba_open — Відкриває базу даних
 **dba_open**(
 string `$path`,
 string `$mode`,
-string `$handler` u003d ?,
+string `$handler` = ?,
 string `...$args`
 ): resource \ | false
 
@@ -55,13 +55,13 @@ string `...$args`
 > dba використовує блокування для запобігання небажаній поведінці.
 > Вивчіть наступну таблицю:
 >
-> | вже відкрито | `mode` u003d "rl" | `mode` u003d "rlt" | `mode` u003d "wl" | `mode` u003d "wlt" | `mode` u003d "rd" | `mode` u003d "rdt" | `mode` u003d "wd" | `mode` u003d "wdt" |
+> | вже відкрито | `mode` = "rl" | `mode` = "rlt" | `mode` = "wl" | `mode` = "wlt" | `mode` = "rd" | `mode` = "rdt" | `mode` = "wd" | `mode` = "wdt" |
 > |---------------|---------------|---------------- |---------------|----------------|---------------| ----------------|---------------|----------------|
 > | не відкрито | Добре | Добре | Добре | Добре | Добре | Добре | Добре | Добре |
-> | `mode` u003d "rl" | Добре | Добре | wait | false | illegal | illegal | illegal | illegal |
-> | `mode` u003d "wl" | wait | false | wait | false | illegal | illegal | illegal | illegal |
-> | `mode` u003d "rd" | illegal | illegal | illegal | illegal | Добре | Добре | wait | false |
-> | `mode` u003d "wd" | illegal | illegal | illegal | illegal | wait | false | wait | false |
+> | `mode` = "rl" | Добре | Добре | wait | false | illegal | illegal | illegal | illegal |
+> | `mode` = "wl" | wait | false | wait | false | illegal | illegal | illegal | illegal |
+> | `mode` = "rd" | illegal | illegal | illegal | illegal | Добре | Добре | wait | false |
+> | `mode` = "wd" | illegal | illegal | illegal | illegal | wait | false | wait | false |
 >
 > **Блокування DBA**
 >
@@ -102,7 +102,7 @@ string `...$args`
 ### Список змін
 
 | Версія        | Опис                                                       |
-| ------------- | ---------------------------------------------------------- |
+|---------------|------------------------------------------------------------|
 | 7.3.14, 7.4.2 | Драйвер lmdb тепер підтримує додатковий параметр $mapsize. |
 
 ### Дивіться також

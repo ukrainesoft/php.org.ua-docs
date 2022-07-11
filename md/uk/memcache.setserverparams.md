@@ -7,7 +7,7 @@
 
 # Memcache::setServerParams
 
-(PECL memcache \>u003d 2.1.0)
+(PECL memcache \>= 2.1.0)
 
 Memcache::setServerParams — Змінює параметри сервера та статус під час
 виконання
@@ -16,11 +16,11 @@ Memcache::setServerParams — Змінює параметри сервера т�
 
 **Memcache::setServerParams**(
 string `$host`,
-int `$port` u003d 11211,
-int `$timeout` u003d ?,
-int `$retry_interval` u003d **`false`**,
-bool `$status` u003d ?,
-[callable](language.types.callable.md) `$failure_callback` u003d ?
+int `$port` = 11211,
+int `$timeout` = ?,
+int `$retry_interval` = **`false`**,
+bool `$status` = ?,
+[callable](language.types.callable.md) `$failure_callback` = ?
 ): bool
 
 **Memcache::setServerParams()** змінює параметри сервера під час
@@ -76,7 +76,7 @@ bool `$status` u003d ?,
 
 **Приклад #1 Приклад використання **Memcache::setServerParams()****
 
-`<?phpfunction _callback_memcache_failure($host, $port) {    print "невдале підключення memcache - '$host:$port'";}/* об'єктно-орієнтоване API */  режим$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false); '_callback_memcache_failure');/* процедурное API */$memcache_obj u003d memcache_connect('memcache_host', 11211);memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');?> `
+`<?phpfunction _callback_memcache_failure($host, $port) {    print "невдале підключення memcache - '$host:$port'";}/* об'єктно-орієнтоване API */  режим$memcache->addServer('memcache_host', 11211, false, 1, 1, -1, false); '_callback_memcache_failure');/* процедурное API */$memcache_obj = memcache_connect('memcache_host', 11211);memcache_set_server_params($memcache_obj, 'memcache_host', 11211, 1, 15, true, '_callback_memcache_failure');?> `
 
 ### Дивіться також
 

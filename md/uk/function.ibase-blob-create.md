@@ -13,7 +13,7 @@ ibase_blob_create — Створює новий BLOB-об'єкт для запо
 
 ### Опис
 
-**ibase_blob_create**(resource `$link_identifier` u003d **`null`**):
+**ibase_blob_create**(resource `$link_identifier` = **`null`**):
 resource\|false
 
 **ibase_blob_create()** створює новий BLOB-об'єкт для заповнення

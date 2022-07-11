@@ -200,7 +200,7 @@ finally
 
 **Приклад #7 Вкладені винятки**
 
-` <?phpclass MyException extends Exception { }class Test {    public function testing() {        try {            try {                throw new MyException('foo!'); } catch (MyException $e) {                 // повторний викид виключення                  | }        } catch (Exception $e) {           var_dump($e->getMessage()); }    }}$foo u003d new Test;$foo->testing();?> `
+` <?phpclass MyException extends Exception { }class Test {    public function testing() {        try {            try {                throw new MyException('foo!'); } catch (MyException $e) {                 // повторний викид виключення                  | }        } catch (Exception $e) {           var_dump($e->getMessage()); }    }}$foo = new Test;$foo->testing();?> `
 
 Результат виконання цього прикладу:
 
@@ -208,7 +208,7 @@ string(4) "foo!"
 
 **Приклад #8 Обробка кількох винятків в одному блоці catch**
 
-`<?phpclass MyException extends Exception { }class MyOtherException extends Exception { }class Test {    public function testing()                               } catch (MyException | MyOtherException $e) {           var_dump(get_class($e)); }    }}$foo u003d new Test;$foo->testing();?> `
+`<?phpclass MyException extends Exception { }class MyOtherException extends Exception { }class Test {    public function testing()                               } catch (MyException | MyOtherException $e) {           var_dump(get_class($e)); }    }}$foo = new Test;$foo->testing();?> `
 
 Результат виконання цього прикладу:
 

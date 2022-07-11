@@ -21,7 +21,7 @@
 
 Додано підтримку [розпакування масивів з рядковими ключами](language.types.array.md#language.types.array.unpacking).
 
-` <?php$arr1 u003d [1, 'a' u003d> 'b'];$arr2 u003d [...$arr1, 'c' u003d> 'd']; //[1, 'a' u003d> 'b', 'c' u003d> 'd']?> `
+` <?php$arr1 = [1, 'a' => 'b'];$arr2 = [...$arr1, 'c' => 'd']; //[1, 'a' => 'b', 'c' => 'd']?> `
 
 #### Іменований аргумент після розпакування аргументу
 
@@ -89,7 +89,7 @@
 Додано опцію **`CURLOPT_DOH_URL`**.
 
 Додані параметри для сертифіката BLOB-об'єкта, доступні з libcurl
-\>u003d 7.71.0:
+\>= 7.71.0:
 
 - **`CURLOPT_ISSUERCERT_BLOB`**
 - **`CURLOPT_PROXY_ISSUERCERT`**
@@ -102,7 +102,7 @@
 Додано клас [CURLStringFile](class.curlstringfile.md), який
 можна використовувати для надсилання файлу з рядка (string), а не з файлу:
 
-` <?php$file u003d new CURLStringFile($data, 'filename.txt', 'text/plain');curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' u003d> $file]);?> `
+` <?php$file = new CURLStringFile($data, 'filename.txt', 'text/plain');curl_setopt($curl, CURLOPT_POSTFIELDS, ['file' => $file]);?> `
 
 ### FPM
 
@@ -141,7 +141,7 @@
 Початковий стан хешування можна передати за допомогою ключа `seed`
 масиві `options`, наприклад:
 
-` <?php$h u003d hash("murmur3f", $data, options: ["seed" u003d> 42]);echo $h, "
+` <?php$h = hash("murmur3f", $data, options: ["seed" => 42]);echo $h, "
 ";?> `
 
 Допустиме початкове значення знаходиться в діапазоні від `0` до
@@ -159,13 +159,13 @@
 Початковий стан хешування можна передати за допомогою ключа `seed`
 масиві `options`, наприклад:
 
-` <?php$h u003d hash("xxh3", $data, options: ["seed" u003d> 42]);echo $h, "
+` <?php$h = hash("xxh3", $data, options: ["seed" => 42]);echo $h, "
 ";?> `
 
 Використання секрету також підтримується шляхом передачі ключа `secret`
 в масиві `options`:
 
-` <?php$h u003d hash("xxh3", $data, options: ["secret" u003d> "як мінімум 136 байт секрету"]);echo $h, "
+` <?php$h = hash("xxh3", $data, options: ["secret" => "як мінімум 136 байт секрету"]);echo $h, "
 ";?> `
 
 Якість секрету користувача має вирішальне значення для якості
@@ -189,7 +189,7 @@
 прив'язані як рядки. Дозволено лише спискові масиви. Ця нова
 функція недоступна, якщо MySQLi скомпільовано з libmysqlclient.
 
-` <?php$stmt u003d $mysqli->prepare('INSERT INTO users(id, name) VALUES(?,?)');$stmt->execute([1, $username]);?> `
+` <?php$stmt = $mysqli->prepare('INSERT INTO users(id, name) VALUES(?,?)');$stmt->execute([1, $username]);?> `
 
 #### Новий метод [mysqli_result::fetch_column()](mysqli-result.fetch-column.md)
 
@@ -200,7 +200,7 @@
 вигляді цілого числа (int), що вказує з якого стовпця виробляти
 вибірку.
 
-` <?php$result u003d $mysqli->query('SELECT username FROM users WHERE id u003d 123');echo $result->fetch_column();?> `
+` <?php$result = $mysqli->query('SELECT username FROM users WHERE id = 123');echo $result->fetch_column();?> `
 
 ### PDO
 
@@ -216,7 +216,7 @@
 дозволяє вказувати додаткові прапори. Він не буде працювати, якщо
 включено опцію open_basedir.
 
-` <?phpnew PDO('sqlite:file:path/to/sqlite.db?modeu003dro')?> `
+` <?phpnew PDO('sqlite:file:path/to/sqlite.db?mode=ro')?> `
 
 ### POSIX
 

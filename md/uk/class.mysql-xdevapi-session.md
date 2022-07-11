@@ -7,7 +7,7 @@
 
 # Клас Session
 
-(PECL mysql-xdevapi \>u003d 8.0.11)
+(PECL mysql-xdevapi \>= 8.0.11)
 
 ## Вступ
 
@@ -47,7 +47,7 @@ public **rollback**(): void
 
 public **rollbackTo**(string `$name`): void
 
-public **setSavepoint**(string `$name` u003d ?): string
+public **setSavepoint**(string `$name` = ?): string
 
 public **sql**(string `$query`):
 [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)

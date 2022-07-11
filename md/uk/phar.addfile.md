@@ -7,13 +7,13 @@
 
 # Phar::addFile
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::addFile — Додає в phar-архів файл із файлової системи
 
 ### Опис
 
-public **Phar::addFile**(string `$filename`, ?string `$localName` u003d
+public **Phar::addFile**(string `$filename`, ?string `$localName` =
 **`null`**): void
 
 > **Примітка**:
@@ -48,14 +48,14 @@ public **Phar::addFile**(string `$filename`, ?string `$localName` u003d
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | localName тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::addFile()****
 
-`<?phptry {    $a u003d new Phar('/шлях/к/phar.phar'); $a->addFile('/повний/шлях/до/файлу'); // показує, як зберігається цей файл    $b u003d $a['повний/шлях/к/файлу']->getContent(); $a->addFile('/повний/шлях/до/файлу', 'моя_папка/file.txt'); $c u003d $a['моя_папка/file.txt']->getContent(); // показує використання URL    $a->addFile('http://www.example.com', 'example.md');} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {    $a = new Phar('/шлях/к/phar.phar'); $a->addFile('/повний/шлях/до/файлу'); // показує, як зберігається цей файл    $b = $a['повний/шлях/к/файлу']->getContent(); $a->addFile('/повний/шлях/до/файлу', 'моя_папка/file.txt'); $c = $a['моя_папка/file.txt']->getContent(); // показує використання URL    $a->addFile('http://www.example.com', 'example.md');} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Примітки
 

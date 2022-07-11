@@ -7,7 +7,7 @@
 
 #ctype_digit
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_digit — Перевірка наявності цифрових символів у рядку
 
@@ -49,7 +49,7 @@ ctype_digit — Перевірка наявності цифрових симв�
 
 **Приклад #1 Приклад використання **ctype_digit()****
 
-`<?php$strings u003d array('1820.20', '10002', 'wsl!12');foreach ($strings as $testcase) {    if (ctype_digit($testcase)               ??? цифр.
+`<?php$strings = array('1820.20', '10002', 'wsl!12');foreach ($strings as $testcase) {    if (ctype_digit($testcase)               ??? цифр.
 ";    }}else {         echo "Рядок$testcase не складається тільки з цифр.
 ";    }}?> `
 
@@ -62,7 +62,7 @@ ctype_digit — Перевірка наявності цифрових симв�
 **Приклад #2 Приклад використання **ctype_digit()** з порівнянням рядків та
 цілих чисел**
 
-` <?php$numeric_string u003d '42';$integer        u003d 42;ctype_digit($numeric_string); // Truectype_digit ($ integer); // false (ASCII 42- -це символ *)is_numeric($numeric_string); // Trueis_numeric ($ integer); // true?> `
+` <?php$numeric_string = '42';$integer        = 42;ctype_digit($numeric_string); // Truectype_digit ($ integer); // false (ASCII 42- -це символ *)is_numeric($numeric_string); // Trueis_numeric ($ integer); // true?> `
 
 ### Дивіться також
 

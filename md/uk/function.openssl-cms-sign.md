@@ -21,9 +21,9 @@ string `$output_filename`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
 ?array `$headers`,
-int `$flags` u003d 0,
-int `$encoding` u003d **`OPENSSL_ENCODING_SMIME`**,
-?string `$untrusted_certificates_filename` u003d **`null`**
+int `$flags` = 0,
+int `$encoding` = **`OPENSSL_ENCODING_SMIME`**,
+?string `$untrusted_certificates_filename` = **`null`**
 ): bool
 
 Підписує файл сертифікатом X.509 та ключем.

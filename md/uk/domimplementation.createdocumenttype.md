@@ -15,7 +15,7 @@ DOMDocumentType
 ### Опис
 
 public **DOMImplementation::createDocumentType**(string
-`$qualifiedName`, string `$publicId` u003d "", string `$systemId` u003d ""):
+`$qualifiedName`, string `$publicId` = "", string `$systemId` = ""):
 [DOMDocumentType](class.domdocumenttype.md)\|false
 
 Створює порожній об'єкт класу
@@ -52,11 +52,11 @@ public **DOMImplementation::createDocumentType**(string
 
 **Приклад #1 Створення документа з прикріпленим DTD**
 
-`<?php//Створює екземпляр класу DOMImplementation$imp u003d new DOMImplementation;// Створює примірник класу DOMDocumentType$dtd u003d $imp->createDocumentType('graph', | $dom u003d $imp->createDocument("", "", $dtd);// Установка інших параметрів$dom->encoding u003d 'UTF-8';$dom->standalone u003d false;// Створення порожнього element u003d $dom->createElement('graph');// Додавання елемента$dom->appendChild($element);// Отримання і друк  документаecho $dom->saveXML();?> `
+`<?php//Створює екземпляр класу DOMImplementation$imp = new DOMImplementation;// Створює примірник класу DOMDocumentType$dtd = $imp->createDocumentType('graph', | $dom = $imp->createDocument("", "", $dtd);// Установка інших параметрів$dom->encoding = 'UTF-8';$dom->standalone = false;// Створення порожнього element = $dom->createElement('graph');// Додавання елемента$dom->appendChild($element);// Отримання і друк  документаecho $dom->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"UTF-8" standaloneu003d"no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE graph SYSTEM "graph.dtd">
 <graph/>
 

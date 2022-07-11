@@ -7,7 +7,7 @@
 
 #ps_add_locallink
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_add_locallink — Додає посилання на сторінку того самого документа
 

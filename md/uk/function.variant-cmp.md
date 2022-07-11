@@ -18,8 +18,8 @@ variant_cmp — Порівняти два варіанти
 `$left`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $right,
-int `$locale_id` u003d **`LOCALE_SYSTEM_DEFAULT`**,
-int `$flags` u003d 0
+int `$locale_id` = **`LOCALE_SYSTEM_DEFAULT`**,
+int `$flags` = 0
 ): int
 
 Порівнює `left` з `right`.
@@ -43,8 +43,8 @@ int `$flags` u003d 0
 `flags` - побітове АБО наступних значень (або просто одне з них):
 
 | значення                | опис                                         |
-| ----------------------- | -------------------------------------------- |
-| **NORM_IGNORECASE**     | Порівнювати реєстронезалежно                 |                                              
+|-------------------------|----------------------------------------------|
+| **NORM_IGNORECASE**     | Порівнювати реєстронезалежно                 |
 | **NORM_IGNORENONSPACE** | Ігнорувати символи, що не займають місця     |
 | **NORM_IGNORESYMBOLS**  | ігнорувати символи                           |
 | **NORM_IGNOREWIDTH**    | Ігнорувати довжину рядка                     |
@@ -75,8 +75,8 @@ int `$flags` u003d 0
 Повертає одне з:
 
 | значення        | опис                                         |
-| --------------- | -------------------------------------------- |
-| **VARCMP_LT**   | left менше, ніж right                        |                                                    
+|-----------------|----------------------------------------------|
+| **VARCMP_LT**   | left менше, ніж right                        |
 | **VARCMP_EQ**   | left ідентичний right                        |
 | **VARCMP_GT**   | left більше ніж right                        |
 | **VARCMP_NULL** | Обидва значення left та right рівні **null** |

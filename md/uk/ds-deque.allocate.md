@@ -7,7 +7,7 @@
 
 # Ds\Deque::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::allocate — Виділяє пам'ять під зазначену місткість
 
@@ -41,7 +41,7 @@ public **Ds\Deque::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Deque::allocate()****
 
-` <?php$deque u003d new \Ds\Deque();var_dump($deque->capacity());$deque->allocate(100);var_dump($deque->capacity());?> `
+` <?php$deque = new \Ds\Deque();var_dump($deque->capacity());$deque->allocate(100);var_dump($deque->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

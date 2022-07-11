@@ -7,14 +7,14 @@
 
 # Yar_Client::\_\_construct
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Client::\_\_construct - Конструктор Yar_Client
 
 ### Опис
 
 final public **Yar_Client::\_\_construct**(string `$url`, array
-`$options` u003d ?)
+`$options` = ?)
 
 Створює [Yar_Client](class.yar-client.md) для
 [Yar_Server](class.yar-server.md).
@@ -32,7 +32,7 @@ URL сервера Yar.
 
 **Приклад #1 Приклад використання **Yar_Client::\_\_construct()****
 
-` <?php$client u003d new Yar_Client("http://host/api/");?> `
+` <?php$client = new Yar_Client("http://host/api/");?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

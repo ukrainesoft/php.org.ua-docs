@@ -8,14 +8,14 @@
 
 # PDO::lastInsertId
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDO::lastInsertId — Повертає ID останнього вставленого рядка або
 значення послідовності
 
 ### Опис
 
-public **PDO::lastInsertId**(?string `$name` u003d **`null`**):
+public **PDO::lastInsertId**(?string `$name` = **`null`**):
 string\|false
 
 Повертає ID останнього вставленого рядка або останнє значення від

@@ -8,7 +8,7 @@
 
 #db2_last_insert_id
 
-(PECL ibm_db2 \>u003d 1.7.1)
+(PECL ibm_db2 \>= 1.7.1)
 
 db2_last_insert_id — Повертає автоматично згенерований
 ідентифікатор останнього запиту на додавання, успішно виконаного в
@@ -53,7 +53,7 @@ db2_last_insert_id — Повертає автоматично згенеров�
 ідентифікатор останнього запиту на додавання, успішно виконаного в
 це з'єднання.
 
-` <?php$database u003d "SAMPLE";$user u003d "db2inst1";$password u003d "ibmdb2";$conn u003d db2_connect($database, $user, $password);if($conn) {      CREATE TABLE lastInsertID        (id integer GENERATED BY DEFAULT AS IDENTITY, name varchar(20))"; $insertTable u003d "INSERT INTO lastInsertID (name) VALUES ('Temp Name')"; $stmtu003du003d@db2_exec($conn,$createTable); /* Перевірка на вставку одного рядки. */   $stmtu003du003ddb2_exec($conn, $insertTable); $ret u003d  db2_last_insert_id($conn); if($ret) {        echo "Останній ідентифікатор : " . $ret . "
+` <?php$database = "SAMPLE";$user = "db2inst1";$password = "ibmdb2";$conn = db2_connect($database, $user, $password);if($conn) {      CREATE TABLE lastInsertID        (id integer GENERATED BY DEFAULT AS IDENTITY, name varchar(20))"; $insertTable = "INSERT INTO lastInsertID (name) VALUES ('Temp Name')"; $stmt==@db2_exec($conn,$createTable); /* Перевірка на вставку одного рядки. */   $stmt==db2_exec($conn, $insertTable); $ret =  db2_last_insert_id($conn); if($ret) {        echo "Останній ідентифікатор : " . $ret . "
 ";    } else {         echo "Останній ідентифікатор відсутня.
 ";    }    db2_close($conn);}else {   echo "Помилка з'єднання.";}?> `
 

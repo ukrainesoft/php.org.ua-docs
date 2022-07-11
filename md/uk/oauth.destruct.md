@@ -7,7 +7,7 @@
 
 # OAuth::\_\_destruct
 
-(PECL OAuth u003d 0.99.9)
+(PECL OAuth = 0.99.9)
 
 OAuth::\_\_destruct - Деструктор
 

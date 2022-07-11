@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\Session::startTransaction
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\Driver\Session::startTransaction - Запускає транзакцію
 
 ### Опис
 
 final public **MongoDB\Driver\Session::startTransaction**(array
-`$options` u003d ?): void
+`$options` = ?): void
 
 Запускає багатодокументну транзакцію, пов'язану із сеансом. В будь-який
 момент часу ви можете мати не більше однієї відкритої транзакції для
@@ -63,7 +63,7 @@ final public **MongoDB\Driver\Session::startTransaction**(array
 ### Список змін
 
 | Версія             | Опис                             |
-| ------------------ | -------------------------------- |
+|--------------------|----------------------------------|
 | PECL mongodb 1.6.0 | Додано параметр maxCommitTimeMS. |
 
 ### Дивіться також

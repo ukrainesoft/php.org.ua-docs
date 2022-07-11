@@ -7,7 +7,7 @@
 
 # EventHttpConnection::setLocalAddress
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::setLocalAddress — Встановлює IP-адресу, з
 якого відбуваються HTTP-з'єднання

@@ -7,7 +7,7 @@
 
 # RarEntry::getHostOs
 
-(PECL rar \>u003d 0.1)
+(PECL rar \>= 0.1)
 
 RarEntry::getHostOs — Повертає оригінальну ОС елемента
 
@@ -28,10 +28,10 @@ public **RarEntry::getHostOs**(): int
 
 ### Приклади
 
-**Приклад #1 Приклад використання **RarEntry::getHostOs()**(версії \>u003d
+**Приклад #1 Приклад використання **RarEntry::getHostOs()**(версії \>=
 2.0.0)**
 
-` <?php$rar_file u003d rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry u003d rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RarEntry::HOST_MSDOS:        echo "MS-DOS
+` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RarEntry::HOST_MSDOS:        echo "MS-DOS
 ";        break;    case RarEntry::HOST_OS2:        echo "OS2
 ";       break;    case RarEntry::HOST_WIN32:        echo "Win32
 ";        break;    case RarEntry::HOST_MACOS:        echo "MacOS
@@ -39,10 +39,10 @@ public **RarEntry::getHostOs**(): int
 ";         break;    case RarEntry::HOST_BEOS:        echo "BeOS
 ";        break;}?> `
 
-**Приклад #2 **Приклад використання RarEntry::getHostOs()**(версії \<u003d
+**Приклад #2 **Приклад використання RarEntry::getHostOs()**(версії \<=
 1.0.0)**
 
-` <?php$rar_file u003d rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry u003d rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RAR_HOST_MSDOS:        echo "MS-DOS
+` <?php$rar_file = rar_open('example.rar') or die("Не удалося відкрити Rar архів");$entry = rar_entry_get($rar_file, 'Dir/file.txt') or die("Не | такий запис");switch ($entry->getHostOs()) {    case RAR_HOST_MSDOS:        echo "MS-DOS
 ";        break;    case RAR_HOST_OS2:       echo "OS2
 ";        break;    case RAR_HOST_WIN32:        echo "Win32
 ";        break;    case RAR_HOST_MACOS:       echo "MacOS

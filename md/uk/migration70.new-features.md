@@ -48,9 +48,9 @@ int(9)
 
 Array
 (
-[0] u003d> 6
-[1] u003d> 15
-[2] u003d> 24
+[0] => 6
+[1] => 15
+[2] => 24
 )
 
 Повну документацію та приклади використання читайте у розділі про [Оголошення типу, що повертається](language.types.declarations.md).
@@ -64,7 +64,7 @@ Array
 заданий і не дорівнює **`null`**, а у протилежному випадку повертає другий
 операнд.
 
-` <?php// Вилучаємо значення $_GET['user'], а якщо воно не задано,// то повертаємо 'nobody'$username u003d $_GET['user'] ?? 'nobody';// Це ідентичному наступному коду:$username u003d isset($_GET['user']) ? $_GET['user'] : 'nobody';// Даний оператор можна використовувати в ланцюжку. 'user'], і якщо він також не заданий, то привласнюємо 'nobody'.$username u003d $_GET['user'] ?? $_POST['user'] ?? 'nobody';?> `
+` <?php// Вилучаємо значення $_GET['user'], а якщо воно не задано,// то повертаємо 'nobody'$username = $_GET['user'] ?? 'nobody';// Це ідентичному наступному коду:$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';// Даний оператор можна використовувати в ланцюжку. 'user'], і якщо він також не заданий, то привласнюємо 'nobody'.$username = $_GET['user'] ?? $_POST['user'] ?? 'nobody';?> `
 
 ### Оператор spaceship (космічний корабель)
 
@@ -72,7 +72,7 @@ Array
 -1, 0 або 1 якщо `$a`, відповідно, менше, одно або більше ніж
 `$b`. Порівняння проводиться відповідно до [правил порівняння типів](types.comparisons.md) PHP.
 
-`<?php// Цілі числаecho 1 <u003d> 1; // 0echo 1 <u003d> 2; // -1echo 2 <u003d> 1; // 1// Числа з плаваючою точкоюecho 1.5 <u003d> 1.5; // 0echo 1.5 <u003d> 2.5; // -1echo 2.5 <u003d> 1.5; // 1//Рядокecho "a" <u003d> "a"; // 0echo "a" <u003d> "b"; // -1echo "b" <u003d> "a"; // 1?> `
+`<?php// Цілі числаecho 1 <=> 1; // 0echo 1 <=> 2; // -1echo 2 <=> 1; // 1// Числа з плаваючою точкоюecho 1.5 <=> 1.5; // 0echo 1.5 <=> 2.5; // -1echo 2.5 <=> 1.5; // 1//Рядокecho "a" <=> "a"; // 0echo "a" <=> "b"; // -1echo "b" <=> "a"; // 1?> `
 
 ### Визначення констант масивів за допомогою [define()](function.define.md)
 
@@ -88,7 +88,7 @@ Array
 можна використовувати тоді, коли потрібен одноразовий клас та створювати
 повноцінний клас, а потім його об'єкт не має сенсу:
 
-`<?phpinterface Logger {    public function log(string $msg);}class Application {    private $logger; public function getLogger(): Logger {         return $this->logger; }    public function setLogger(Logger $logger) {         $this->logger u003d $logger; }}$app u003d new Application;$app->setLogger(new class implements Logger {    public function log(string $msg) {          echo $msg; |);
+`<?phpinterface Logger {    public function log(string $msg);}class Application {    private $logger; public function getLogger(): Logger {         return $this->logger; }    public function setLogger(Logger $logger) {         $this->logger = $logger; }}$app = new Application;$app->setLogger(new class implements Logger {    public function log(string $msg) {          echo $msg; |);
 
 Результат виконання цього прикладу:
 
@@ -118,7 +118,7 @@ UTF-8 у подвійних лапках або форматі heredoc. Будь
 коротким способом тимчасового зв'язування області дії об'єкта з
 замиканням та його викликом.
 
-` <?phpclass A {private $x u003d 1;}// До PHP 7$getX u003d function() {return $this->x;};$getXCB u003d $getX->bindTo(new A, '' ; // проміжне замиканняecho $getXCB();// PHP 7+$getX u003d function() {return $this->x;};echo $getX->call(new A); `
+` <?phpclass A {private $x = 1;}// До PHP 7$getX = function() {return $this->x;};$getXCB = $getX->bindTo(new A, '' ; // проміжне замиканняecho $getXCB();// PHP 7+$getX = function() {return $this->x;};echo $getX->call(new A); `
 
 Результат виконання цього прикладу:
 
@@ -132,7 +132,7 @@ UTF-8 у подвійних лапках або форматі heredoc. Будь
 запобігти можливій ін'єкції коду, дозволяючи розробнику
 використовувати білий список класів для десеріалізації.
 
-` <?php// Преобразование всех объектов в __PHP_Incomplete_Class$data u003d unserialize($foo, ["allowed_classes" u003d> false]);// Преобразование всех объектов, кроме MyClass и MyClass2 в __PHP_Incomplete_Class$data u003d unserialize($foo, [ "allowed_classes" u003d> ["MyClass", "MyClass2"]]);// Поведінка за замовчуванням приймає всі класи (можна просто не задавати другий аргумент)$data u003d unseria ; `
+` <?php// Преобразование всех объектов в __PHP_Incomplete_Class$data = unserialize($foo, ["allowed_classes" => false]);// Преобразование всех объектов, кроме MyClass и MyClass2 в __PHP_Incomplete_Class$data = unserialize($foo, [ "allowed_classes" => ["MyClass", "MyClass2"]]);// Поведінка за замовчуванням приймає всі класи (можна просто не задавати другий аргумент)$data = unseria ; `
 
 ### [IntlChar](class.intlchar.md)
 
@@ -205,7 +205,7 @@ amespace\{ConstA, ConstB, ConstC};?> `
 `Generator::getReturn()`, який можна використовувати тільки після того,
 як генератор повернув усі згенеровані значення.
 
-`<?php$gen u003d (function() {    yield 1;    yield 2;   return 3;})();foreach ($gen as $val) { P|$| , PHP_EOL; `
+`<?php$gen = (function() {    yield 1;    yield 2;   return 3;})();foreach ($gen as $val) { P|$| , PHP_EOL; `
 
 Результат виконання цього прикладу:
 
@@ -265,7 +265,7 @@ int(3)
 [session.cache_limiter](session.configuration.md#ini.session.cache-limiter)
 рівним `private` та негайному закриття сесії після читання її даних:
 
-` <?phpsession_start([   'cache_limiter' u003d> 'private',   'read_and_close' u003d> true,]);?> `
+` <?phpsession_start([   'cache_limiter' => 'private',   'read_and_close' => true,]);?> `
 
 ### [preg_replace_callback_array()](function.preg-replace-callback-array.md)
 

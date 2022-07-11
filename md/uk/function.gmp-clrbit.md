@@ -7,7 +7,7 @@
 
 #gmp_clrbit
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_clrbit - Скидання біта
 
@@ -35,7 +35,7 @@ gmp_clrbit - Скидання біта
 
 **Приклад #1 Приклад використання **gmp_clrbit()****
 
-`<?php   $a u003d gmp_init("0xff"); gmp_clrbit($a, 0); // індексація з 0, молодший значний біт    echo gmp_strval($a) . "
+`<?php   $a = gmp_init("0xff"); gmp_clrbit($a, 0); // індексація з 0, молодший значний біт    echo gmp_strval($a) . "
 ";    ?> `
 
 Результат виконання цього прикладу:

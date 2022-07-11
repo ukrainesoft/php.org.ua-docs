@@ -7,7 +7,7 @@
 
 #ps_open_image_file
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_open_image_file — Відкриває зображення з файлу
 
@@ -17,8 +17,8 @@ ps_open_image_file — Відкриває зображення з файлу
 resource `$psdoc`,
 string `$type`,
 string `$filename`,
-string `$stringparam` u003d ?,
-int `$intparam` u003d 0
+string `$stringparam` = ?,
+int `$intparam` = 0
 ): int
 
 Завантажує зображення для подальшого використання.

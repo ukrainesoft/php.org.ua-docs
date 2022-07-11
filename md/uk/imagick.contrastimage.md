@@ -37,4 +37,4 @@ public **Imagick::contrastImage**(bool `$sharpen`): bool
 
 **Приклад #1 Приклад використання **Imagick::contrastImage()****
 
-`<?phpfunction contrastImage($imagePath, $contrastType) {   $imagick u003d new \Imagick(realpath($imagePath)); if ($contrastType !u003d 2) {        $imagick->contrastImage($contrastType); }   header("Content-Type:image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction contrastImage($imagePath, $contrastType) {   $imagick = new \Imagick(realpath($imagePath)); if ($contrastType != 2) {        $imagick->contrastImage($contrastType); }   header("Content-Type:image/jpg"); echo $imagick->getImageBlob();}?> `

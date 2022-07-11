@@ -7,7 +7,7 @@
 
 # Gmagick::flopimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::flopimage — Створює дзеркальне горизонтальне відображення
 

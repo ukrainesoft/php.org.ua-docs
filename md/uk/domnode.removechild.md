@@ -41,14 +41,14 @@ public **DOMNode::removeChild**([DOMNode](class.domnode.md) `$child`):
 
 **Приклад #1 Видалення дочірнього вузла**
 
-` <?php$doc u003d new DOMDocument;$doc->load('book.xml');$book u003d $doc->documentElement;// находимо главу (chapter) і удалям із книги (book)$chapter book->getElementsByTagName('chapter')->item(0);$oldchapter u003d $book->removeChild($chapter);echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument;$doc->load('book.xml');$book = $doc->documentElement;// находимо главу (chapter) і удалям із книги (book)$chapter book->getElementsByTagName('chapter')->item(0);$oldchapter = $book->removeChild($chapter);echo $doc->saveXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" encodingu003d"utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
-<book idu003d"listing">
+<book id="listing">
 <title>My lists</title>
 
 </book>

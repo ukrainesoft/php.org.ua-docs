@@ -21,7 +21,7 @@ class **Reflection** {
 
 public static
 [export](reflection.export.md)([Reflector](class.reflector.md)
-`$reflector`, bool `$return` u003d **`false`**): string
+`$reflector`, bool `$return` = **`false`**): string
 
 public static [getModifierNames](reflection.getmodifiernames.md)(int
 `$modifiers`): array

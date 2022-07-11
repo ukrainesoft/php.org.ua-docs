@@ -38,4 +38,4 @@ public **mysql_xdevapi\Collection::existsInDatabase**(): bool
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::existsInDatabase()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schemau003du003d$session->getSchema("addressbook");$create u003d $schema->createCollection("people");// ...$collection u003d $s ->getCollection("people");// ...if (!$collection->existsInDatabase()) {   echo "Колекція з іменем addressbook не існує в базі даних. ">
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema==$session->getSchema("addressbook");$create = $schema->createCollection("people");// ...$collection = $s ->getCollection("people");// ...if (!$collection->existsInDatabase()) {   echo "Колекція з іменем addressbook не існує в базі даних. ">

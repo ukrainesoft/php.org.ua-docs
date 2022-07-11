@@ -25,7 +25,7 @@
 наступні п'ять параметрів:
 
 | Параметр       | Обов'язковий? | За замовчуванням                 | Приклад значення                                               |
-| -------------- | ------------- | -------------------------------- | -------------------------------------------------------------- |
+|----------------|---------------|----------------------------------|----------------------------------------------------------------|
 | mode           | Ні            | cbc                              | cbc, cfb, ecb, nofb, ofb, stream                               |
 | algorithms_dir | Ні            | ini_get('mcrypt.algorithms_dir') | Шлях до модулів алгоритмів                                     |
 | modes_dir      | Ні            | ini_get('mcrypt.modes_dir')      | Шлях до модулів режимів                                        |
@@ -36,7 +36,7 @@
 
 **Приклад #1 Шифрування/розшифровка за допомогою Blowfish**
 
-`<?php// приймемо, що $key |уже сформований$iv_size u003d mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_CBC);$iv u003d mcrypt_create_iv($iv );fwrite($fp, $iv);$opts u003d array('mode'u003d>'cbc','iv'u003d>$iv, 'key'u003d>$key);stream_filter_append($fp, 'mcrypt. blowfish', STREAM_FILTER_WRITE, $opts);fwrite($fp, 'message to encrypt');fclose($fp);//розшифровка...$fp u003dfopen('encrypted-file.enc', 'rb ;$iv u003d fread($fp, $iv_size u003d mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_CBC));$opts u003d array('mode'u003d>'cbc','iv'u003d>$iv,> stream_filter_append($fp, 'mdecrypt.blowfish', STREAM_FILTER_READ, $opts);$data u003d rtrim(stream_get_contents($fp));//trims off null paddingfclose($f)
+`<?php// приймемо, що $key |уже сформований$iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_CBC);$iv = mcrypt_create_iv($iv );fwrite($fp, $iv);$opts = array('mode'=>'cbc','iv'=>$iv, 'key'=>$key);stream_filter_append($fp, 'mcrypt. blowfish', STREAM_FILTER_WRITE, $opts);fwrite($fp, 'message to encrypt');fclose($fp);//розшифровка...$fp =fopen('encrypted-file.enc', 'rb ;$iv = fread($fp, $iv_size = mcrypt_get_iv_size(MCRYPT_BLOWFISH, MCRYPT_MODE_CBC));$opts = array('mode'=>'cbc','iv'=>$iv,> stream_filter_append($fp, 'mdecrypt.blowfish', STREAM_FILTER_READ, $opts);$data = rtrim(stream_get_contents($fp));//trims off null paddingfclose($f)
 
 **Приклад #2 Шифрування файлу за допомогою AES-128 CBC з SHA256 HMAC**
 

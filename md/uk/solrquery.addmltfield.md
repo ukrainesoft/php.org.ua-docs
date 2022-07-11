@@ -7,7 +7,7 @@
 
 # SolrQuery::addMltField
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addMltField — Встановлює поле для використання для
 подоби

@@ -16,11 +16,11 @@ stream_socket_client — Відкрити з'єднання з інтернет-
 
 **stream_socket_client**(
 string `$address`,
-int `&$error_code` u003d **`null`**,
-string `&$error_message` u003d **`null`**,
-?float `$timeout` u003d **`null`**,
-int `$flags` u003d **`STREAM_CLIENT_CONNECT`**,
-?resource `$context` u003d **`null`**
+int `&$error_code` = **`null`**,
+string `&$error_message` = **`null`**,
+?float `$timeout` = **`null`**,
+int `$flags` = **`STREAM_CLIENT_CONNECT`**,
+?resource `$context` = **`null`**
 ): resource \ | false
 
 Починає з'єднання потоку або датаграми з віддаленим сокетом, вказаним
@@ -100,14 +100,14 @@ UDP, частина `target` параметра `address` має складат�
 ### Список змін
 
 | Версія | Опис                                               |
-| ------ | -------------------------------------------------- |
+|--------|----------------------------------------------------|
 | 8.0.0  | timeout та context тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **stream_socket_client()****
 
-` <?php$fp u003d stream_socket_client("tcp://www.example.com:80", $errno, $errstr, 30);if (!$fp) {    echo "$errstr ($errno)< >
+` <?php$fp = stream_socket_client("tcp://www.example.com:80", $errno, $errstr, 30);if (!$fp) {    echo "$errstr ($errno)< >
 ";} else {   fwrite($fp, "GET / HTTP/1.0
 Host: www.example.com
 Accept: */*
@@ -118,7 +118,7 @@ Accept: */*
 
 Отримання дня та часу від UDP-сервісу "daytime" (порт 13) на localhost.
 
-` <?php$fp u003d stream_socket_client("udp://127.0.0.1:13", $errno, $errstr);if (!$fp) {    echo "ПОМИЛКА: $errno - $
+` <?php$fp = stream_socket_client("udp://127.0.0.1:13", $errno, $errstr);if (!$fp) {    echo "ПОМИЛКА: $errno - $
 ";} else {   fwrite($fp, "
 ");   echofread($fp, 26);   fclose($fp);}?> `
 

@@ -7,7 +7,7 @@
 
 # Ds\Deque::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::isEmpty — Перевіряє, чи порожня двостороння черга
 
@@ -30,7 +30,7 @@ public **Ds\Deque::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Deque::isEmpty()****
 
-` <?php$a u003d new \Ds\Deque([1, 2, 3]);$b u003d new \Ds\Deque();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+` <?php$a = new \Ds\Deque([1, 2, 3]);$b = new \Ds\Deque();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

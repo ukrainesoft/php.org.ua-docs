@@ -7,7 +7,7 @@
 
 # ZMQPoll::clear
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQPoll::clear — Очистити пул опитування
 

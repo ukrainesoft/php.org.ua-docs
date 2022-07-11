@@ -8,7 +8,7 @@
 
 # mysql_unbuffered_query
 
-(PHP 4 \>u003d 4.0.6, PHP 5)
+(PHP 4 \>= 4.0.6, PHP 5)
 
 mysql_unbuffered_query — Надсилає запит MySQL без авто-обробки
 результату та його буферизації
@@ -24,7 +24,7 @@ mysql_unbuffered_query — Надсилає запит MySQL без авто-о�
 ### Опис
 
 **mysql_unbuffered_query**(string `$query`, resource `$link_identifier`
-u003d NULL): resource
+= NULL): resource
 
 **mysql_unbuffered_query()** посилає запит MySQL `query` без
 автоматичної обробки та буферизації її результату, на відміну від

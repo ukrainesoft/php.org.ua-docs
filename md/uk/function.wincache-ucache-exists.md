@@ -7,7 +7,7 @@
 
 #wincache_ucache_exists
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_exists — Перевіряє, чи існує змінна в
 користувальницькому кеші

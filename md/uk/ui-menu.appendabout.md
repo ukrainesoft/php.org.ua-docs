@@ -13,7 +13,7 @@ UI\Menu::appendAbout — Додати пункт меню About
 
 ### Опис
 
-public **UI\Menu::appendAbout**(string `$type` u003d UI\MenuItem::class):
+public **UI\Menu::appendAbout**(string `$type` = UI\MenuItem::class):
 [UI\MenuItem](class.ui-menuitem.md)
 
 Додати пункт меню About

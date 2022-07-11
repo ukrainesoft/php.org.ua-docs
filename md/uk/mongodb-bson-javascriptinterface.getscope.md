@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\JavascriptInterface::getScope
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\BSON\JavascriptInterface::getScope — Повертає області
 видимості документа JavascriptInterface

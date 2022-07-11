@@ -52,14 +52,14 @@ string `$reference`, string `$pattern`): array\|false
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_list()****
 
-` <?php$mbox u003d|imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)       or die("не удалося підключитися: " . imap_last mbox, "{imap.example.org}", "*");if(is_array($list)) {   foreach ($list as $val) {        echo imap_utf7_de de. "
+` <?php$mbox =|imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)       or die("не удалося підключитися: " . imap_last mbox, "{imap.example.org}", "*");if(is_array($list)) {   foreach ($list as $val) {        echo imap_utf7_de de. "
 ";    }} else {    echo "виклик imap_list завершився з помилкою: " . imap_last_error() . "
 ";}imap_close($mbox);?> `
 

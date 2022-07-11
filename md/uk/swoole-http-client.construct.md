@@ -7,14 +7,14 @@
 
 # Swoole\Http\Client::\_\_construct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::\_\_construct - Створює асинхронний HTTP-клієнт
 
 ### Опис
 
 public **Swoole\Http\Client::\_\_construct**(string `$host`, string
-`$port` u003d ?, bool `$ssl` u003d ?)
+`$port` = ?, bool `$ssl` = ?)
 
 ### Список параметрів
 

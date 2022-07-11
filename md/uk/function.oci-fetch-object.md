@@ -7,14 +7,14 @@
 
 #oci_fetch_object
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_fetch_object — Повертає наступний рядок з результату запиту
 вигляді об'єкта
 
 ### Опис
 
-**oci_fetch_object**(resource `$statement`, int `$mode` u003d OCI_ASSOC \|
+**oci_fetch_object**(resource `$statement`, int `$mode` = OCI_ASSOC \|
 OCI_RETURN_NULLS): stdClass\|false
 
 Повертає об'єкт, що містить наступний рядок із результату запиту.
@@ -58,20 +58,20 @@ OCI_RETURN_NULLS): stdClass\|false
 
 **Приклад #1 Приклад використання **oci_fetch_object()****
 
-`<?php/*  Перед запуском створіть таблицю:   CREATE TABLE mytab (id NUMBER, description VARCHAR2(30)); INSERT INTO mytab (id, description) values (1, 'Fish and Chips'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) !u003d false) {     // Використовуйте імена атрибутів у верхньому реєстрі для кожного стовпця Oracle    echo $row->ID . "<br>
+`<?php/*  Перед запуском створіть таблицю:   CREATE TABLE mytab (id NUMBER, description VARCHAR2(30)); INSERT INTO mytab (id, description) values (1, 'Fish and Chips'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) != false) {     // Використовуйте імена атрибутів у верхньому реєстрі для кожного стовпця Oracle    echo $row->ID . "<br>
 ";   echo $row->DESCRIPTION . "<br>
 ";}// Виведе: //    1//   Fish and Chipsoci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #2 Приклад використання **oci_fetch_object()** з назвами
 стовпців у різних регістрах**
 
-`<?php/*Перед запуском створіть таблицю з ім'ям стовпця в різних реєстрах:    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(3) INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');oci_execute($ u003d oci_fetch_object($stid)) !u003d false) {    // Використання імен атрибутів в верхньому реєстрі для кожного стовпця Oracle    echo $row-> "<br>
+`<?php/*Перед запуском створіть таблицю з ім'ям стовпця в різних реєстрах:    CREATE TABLE mytab (id NUMBER, "MyDescription" VARCHAR2(3) INSERT INTO mytab (id, "MyDescription") values (1, 'Iced Coffee'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, "MyDescription" FROM mytab');oci_execute($ = oci_fetch_object($stid)) != false) {    // Використання імен атрибутів в верхньому реєстрі для кожного стовпця Oracle    echo $row-> "<br>
 ";    // Використання точного напису для імені стовпця з різними реєстрами    echo $row->MyDescription . "<br>
 ";}// Виведе: //    1//   Iced Coffeeoci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #3 Приклад використання **oci_fetch_object()** з LOB**
 
-`<?php/*  Перед запуском створіть таблицю    CREATE TABLE mytab (id NUMBER, description CLOB); INSERT INTO mytab (id, description) values (1, 'A very long string'); COMMIT;*/$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) !u003d false) {    echo $row->ID . "<br>
+`<?php/*  Перед запуском створіть таблицю    CREATE TABLE mytab (id NUMBER, description CLOB); INSERT INTO mytab (id, description) values (1, 'A very long string'); COMMIT;*/$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {   $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT id, description FROM mytab');oci_execute($stid);wh ($stid)) != false) {    echo $row->ID . "<br>
 ";    // Таким образом буде виведено перші 11 байт із DESCRIPTION    echo $row->DESCRIPTION->read(11) . "<br>
 ";}// Виведе://    1//    A very longoci_free_statement($stid);oci_close($conn);?> `
 

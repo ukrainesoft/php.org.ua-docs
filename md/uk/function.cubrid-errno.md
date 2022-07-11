@@ -7,13 +7,13 @@
 
 #cubrid_errno
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_errno - Повертає код помилки попередньої операції CUBRID
 
 ### Опис
 
-**cubrid_errno**(resource `$conn_identifier` u003d ?): int
+**cubrid_errno**(resource `$conn_identifier` = ?): int
 
 Повертає код помилки попередньої операції CUBRID.
 
@@ -36,7 +36,7 @@ cubrid_errno - Повертає код помилки попередньої о�
 
 **Приклад #1 Приклад використання **cubrid_errno()****
 
-` <?php$con u003d cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$req u003d cubrid_execute($con, "select id, name from person");if {   while (list ($id, $name) u003d cubrid_fetch($req))   echo $id, $name;} else {    echo "Код помилки: ","; echo "Текст помилки: ", cubrid_error($con);}?> `
+` <?php$con = cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$req = cubrid_execute($con, "select id, name from person");if {   while (list ($id, $name) = cubrid_fetch($req))   echo $id, $name;} else {    echo "Код помилки: ","; echo "Текст помилки: ", cubrid_error($con);}?> `
 
 Результат виконання цього прикладу:
 

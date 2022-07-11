@@ -7,7 +7,7 @@
 
 # GearmanWorker::clone
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::clone — Створення копії обробника
 

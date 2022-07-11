@@ -7,13 +7,13 @@
 
 # PDO::pgsqlLOBOpen
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql u003d 1.0.2)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL pdo_pgsql = 1.0.2)
 
 PDO::pgsqlLOBOpen — Відкриває потік для наявного великого об'єкта
 
 ### Опис
 
-public **PDO::pgsqlLOBOpen**(string `$oid`, string `$mode` u003d "rb"):
+public **PDO::pgsqlLOBOpen**(string `$oid`, string `$mode` = "rb"):
 resource\|false
 
 Функція **PDO::pgsqlLOBOpen()** відкриває потік до великого об'єкта (LOB)
@@ -48,7 +48,7 @@ resource\|false
 [PDO::pgsqlLOBCreate()](pdo.pgsqllobcreate.md), цей код витягує LOB
 з БД та виводить його в браузер.
 
-` <?php$db u003d new PDO('pgsql:dbnameu003dtest hostu003dlocalhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$stmtu003du003d$db->prepare("select oid from BLOBS whereidentu003du003d??");$stmt->execute(array($some_id));$stmt->bindColumn('oid', $oid, PDO::PARAM_STR);$stmt->fetch(PDO::FETCH_BOUND);$stream u003d $db->pgsqlLOBOpen($oid, 'r');header("Content-type: application/octet-stream"); fpassthru($stream);?> `
+` <?php$db = new PDO('pgsql:dbname=test host=localhost', $user, $pass);$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);$db->beginTransaction ();$stmt==$db->prepare("select oid from BLOBS whereident==??");$stmt->execute(array($some_id));$stmt->bindColumn('oid', $oid, PDO::PARAM_STR);$stmt->fetch(PDO::FETCH_BOUND);$stream = $db->pgsqlLOBOpen($oid, 'r');header("Content-type: application/octet-stream"); fpassthru($stream);?> `
 
 ### Дивіться також
 

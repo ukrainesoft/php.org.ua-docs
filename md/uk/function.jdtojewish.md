@@ -15,8 +15,8 @@ jdtojewish — Переказує кількість днів з юліансь�
 
 ### Опис
 
-**jdtojewish**(int `$julian_day`, bool `$hebrew` u003d **`false`**, int
-$flags u003d 0): string
+**jdtojewish**(int `$julian_day`, bool `$hebrew` = **`false`**, int
+$flags = 0): string
 
 Переказує кількість днів з юліанського календаря в дату єврейського
 календарем.
@@ -44,7 +44,7 @@ $flags u003d 0): string
 
 **Приклад #1 Приклад використання **jdtojewish()****
 
-` <?php$jd u003d gregoriantojd(10, 8, 2002);echo jdtojewish($jd, true), PHP_EOL,     jdtojewish($jd, true, CAL_JEWISH_ADD_GERESHAYIM), PHP_EOL,     jdtojewish($jd, true, CAL_JEWISH_ADD_ALAFIM), PHP_EOL ,    jdtojewish($jd, true,CAL_JEWISH_ADD_ALAFIM_GERESH), PHP_EOL;?> `
+` <?php$jd = gregoriantojd(10, 8, 2002);echo jdtojewish($jd, true), PHP_EOL,     jdtojewish($jd, true, CAL_JEWISH_ADD_GERESHAYIM), PHP_EOL,     jdtojewish($jd, true, CAL_JEWISH_ADD_ALAFIM), PHP_EOL ,    jdtojewish($jd, true,CAL_JEWISH_ADD_ALAFIM_GERESH), PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 

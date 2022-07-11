@@ -7,7 +7,7 @@
 
 #tcpwrap_check
 
-(PECL tcpwrap \>u003d 0.1.0)
+(PECL tcpwrap \>= 0.1.0)
 
 tcpwrap_check — Перевіряє tcpwrap
 
@@ -16,8 +16,8 @@ tcpwrap_check — Перевіряє tcpwrap
 **tcpwrap_check**(
 string `$daemon`,
 string `$address`,
-string `$user` u003d ?,
-bool `$nodns` u003d **`false`**
+string `$user` = ?,
+bool `$nodns` = **`false`**
 ): bool
 
 Функція звіряється з файлами `/etc/hosts.allow` та `/etc/hosts.deny` для

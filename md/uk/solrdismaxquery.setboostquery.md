@@ -32,11 +32,11 @@ public **SolrDisMaxQuery::setBoostQuery**(string `$q`):
 
 **Приклад #1 Приклад використання **SolrDisMaxQuery::setBoostQuery()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery("lucene");$dismaxQuery->setBoostQuery('cat:electronics manu:local^2');echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery("lucene");$dismaxQuery->setBoostQuery('cat:electronics manu:local^2');echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003dedismax&bqu003dcat:electronics manu:local^2
+q=lucene&defType=edismax&bq=cat:electronics manu:local^2
 
 ### Дивіться також
 

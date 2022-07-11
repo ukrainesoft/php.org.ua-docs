@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionParameter::export**(string `$function`, string
-`$parameter`, bool `$return` u003d ?): string
+`$parameter`, bool `$return` = ?): string
 
 Експорт.
 

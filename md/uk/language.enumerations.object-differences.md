@@ -48,4 +48,4 @@
 [ReflectionClass::newInstanceWithoutConstructor()](reflectionclass.newinstancewithoutconstructor.md).
 Обидва способи призведуть до помилки.
 
-` <?php$clovers u003d new Suit();// Error: Cannot instantiate enum Suit$horseshoes u003d (new ReflectionClass(Suit::class))->newInstanceWithoutConstructor()// u
+` <?php$clovers = new Suit();// Error: Cannot instantiate enum Suit$horseshoes = (new ReflectionClass(Suit::class))->newInstanceWithoutConstructor()// u

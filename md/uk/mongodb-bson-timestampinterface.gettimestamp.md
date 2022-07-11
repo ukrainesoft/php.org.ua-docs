@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\TimestampInterface::getTimestamp
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\BSON\TimestampInterface::getTimestamp — Повертає компонент
 позначки часу TimestampInterface

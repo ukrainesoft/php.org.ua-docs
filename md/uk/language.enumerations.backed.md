@@ -17,7 +17,7 @@
 Щоб визначити скалярний еквівалент для перерахувань, використовуйте
 наступний синтаксис:
 
-`<?phpenum Suit: string{   case Hearts u003d 'H'; case Diamonds u003d 'D'; case Clubs u003d 'C'; case Spades u003d 'S';}?> `
+`<?phpenum Suit: string{   case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}?> `
 
 Варіант, що має скалярний еквівалент, називається типізованим,
 оскільки він "підтримується" простішим значенням. Перелік, у
@@ -52,7 +52,7 @@
 призначити змінну як посилання неї. Тобто наступний код
 видасть помилку:
 
-` <?php$suit u003d Suit::Clubs;$ref u003d &$suit->value;// Error: Cannot acquire reference to property Suit::$value?> `
+` <?php$suit = Suit::Clubs;$ref = &$suit->value;// Error: Cannot acquire reference to property Suit::$value?> `
 
 Типізовані перерахування реалізують внутрішній інтерфейс
 [BackedEnum](class.backedenum.md), який надає два
@@ -79,7 +79,7 @@
 числа з плаваючою точкою за будь-яких обставин. Всі інші типи
 параметрів викликають помилку TypeError в обох режимах.
 
-` <?php$record u003d get_stuff_from_database($id);print $record['suit'];$suit u003d  Suit::from($record['suit']);// Недопустимі дані видають помилка Value не є припустимим скалярним значенням для перерахування "Suit"print $suit->value;$suit u003d Suit::tryFrom('A') ?? Suit::Spades;// Неприпустимі дані повертають значення null, замого замість цього використовується Suit::Spades.print $suit->value;?> `
+` <?php$record = get_stuff_from_database($id);print $record['suit'];$suit =  Suit::from($record['suit']);// Недопустимі дані видають помилка Value не є припустимим скалярним значенням для перерахування "Suit"print $suit->value;$suit = Suit::tryFrom('A') ?? Suit::Spades;// Неприпустимі дані повертають значення null, замого замість цього використовується Suit::Spades.print $suit->value;?> `
 
 Ручне визначення методу `from()` або `tryFrom()` у типизованих
 переліки призведе до фатальної помилки.

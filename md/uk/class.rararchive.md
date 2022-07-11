@@ -7,7 +7,7 @@
 
 # Клас RarArchive
 
-(PECL rar \>u003d 2.0.0)
+(PECL rar \>= 2.0.0)
 
 ## Вступ
 
@@ -43,8 +43,8 @@ public [isBroken](rararchive.isbroken.md)(): bool
 public [isSolid](rararchive.issolid.md)(): bool
 
 public static [open](rararchive.open.md)(string `$filename`, string
-`$password` u003d NULL, [callable](language.types.callable.md)
-`$volume_callback` u003d NULL): [RarArchive](class.rararchive.md)\|false
+`$password` = NULL, [callable](language.types.callable.md)
+`$volume_callback` = NULL): [RarArchive](class.rararchive.md)\|false
 
 public [setAllowBroken](rararchive.setallowbroken.md)(bool
 `$allow_broken`): bool

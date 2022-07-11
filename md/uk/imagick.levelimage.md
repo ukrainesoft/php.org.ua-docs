@@ -17,7 +17,7 @@ public **Imagick::levelImage**(
 float `$blackPoint`,
 float `$gamma`,
 float `$whitePoint`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Регулює рівні зображення, масштабуючи кольори, що потрапляють між
@@ -58,4 +58,4 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 
 **Приклад #1 Приклад використання **Imagick::levelImage()****
 
-` <?phpfunction levelImage($blackPoint, $gamma, $whitePoint) {    $imagick u003d new \Imagick(); $imagick->newPseudoimage(500, 500, 'gradient:black-white'); $imagick->setFormat('png'); $quantumu003du003d$imagick->getQuantum(); $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction levelImage($blackPoint, $gamma, $whitePoint) {    $imagick = new \Imagick(); $imagick->newPseudoimage(500, 500, 'gradient:black-white'); $imagick->setFormat('png'); $quantum==$imagick->getQuantum(); $imagick->levelImage($blackPoint / 100 , $gamma, $quantum * $whitePoint / 100); header("Content-Type: image/png"); echo $imagick->getImageBlob();}?> `

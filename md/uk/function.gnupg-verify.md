@@ -7,7 +7,7 @@
 
 #gnupg_verify
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_verify — Перевірка підпису тексту
 
@@ -17,7 +17,7 @@ gnupg_verify — Перевірка підпису тексту
 resource `$identifier`,
 string `$signed_text`,
 string `$signature`,
-string `&$plaintext` u003d ?
+string `&$plaintext` = ?
 ): array
 
 Перевіряє підпис переданого у параметрі `signed_text` тексту та
@@ -50,9 +50,9 @@ string `&$plaintext` u003d ?
 **Приклад #1 Приклад використання **gnupg_verify()** у процедурному
 стилі**
 
-` <?php$plaintext u003d "";$res u003d gnupg_init();// прозорий підпис$info u003d gnupg_verify($res, $signed_text, false, $plaintext);print_r($info);// $ u003d gnupg_verify($res, $signed_text, $signature);print_r($info);?> `
+` <?php$plaintext = "";$res = gnupg_init();// прозорий підпис$info = gnupg_verify($res, $signed_text, false, $plaintext);print_r($info);// $ = gnupg_verify($res, $signed_text, $signature);print_r($info);?> `
 
 **Приклад #2 Приклад використання **gnupg_verify()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$plaintext u003d "";$gpg u003d new gnupg();// прозорий підпис$info u003d $gpg->verify($signed_text, false, $plaintext);print_r($info);// розділ $info u003d $gpg->verify($signed_text, $signature);print_r($info);?> `
+` <?php$plaintext = "";$gpg = new gnupg();// прозорий підпис$info = $gpg->verify($signed_text, false, $plaintext);print_r($info);// розділ $info = $gpg->verify($signed_text, $signature);print_r($info);?> `

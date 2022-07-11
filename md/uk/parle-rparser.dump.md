@@ -7,7 +7,7 @@
 
 # Parle\RParser::dump
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::dump - Виводить граматику
 

@@ -7,13 +7,13 @@
 
 # SplFileObject::flock
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::flock — Портоване блокування файлу
 
 ### Опис
 
-public **SplFileObject::flock**(int `$operation`, int `&$wouldBlock` u003d
+public **SplFileObject::flock**(int `$operation`, int `&$wouldBlock` =
 **`null`**): bool
 
 Блокує або розблокує файл тим же портованим способом, що і
@@ -45,7 +45,7 @@ public **SplFileObject::flock**(int `$operation`, int `&$wouldBlock` u003d
 
 **Приклад #1 Приклад використання **SplFileObject::flock()****
 
-` <?php$file u003d new SplFileObject("/tmp/lock.txt", "w");if ($file->flock(LOCK_EX)) { // виконуємо ексклюзивне блокування    $file->ftruncate(0 // очищаємо файл    $file->fwrite("Що-небудь пишем|сюди
+` <?php$file = new SplFileObject("/tmp/lock.txt", "w");if ($file->flock(LOCK_EX)) { // виконуємо ексклюзивне блокування    $file->ftruncate(0 // очищаємо файл    $file->fwrite("Що-небудь пишем|сюди
 ");   $file->flock(LOCK_UN);  // знімаємо блокування} else {    echo "Не удалося отримати блокування!";}?> `
 
 ### Дивіться також

@@ -8,7 +8,7 @@
 
 # mcrypt_create_iv
 
-(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_create_iv — Створити вектор, що ініціалізує (Initialization
 Vector або IV) із випадкового джерела
@@ -23,7 +23,7 @@ Vector або IV) із випадкового джерела
 
 ### Опис
 
-**mcrypt_create_iv**(int `$size`, int `$source` u003d MCRYPT_DEV_URANDOM):
+**mcrypt_create_iv**(int `$size`, int `$source` = MCRYPT_DEV_URANDOM):
 string
 
 Створює вектор, що ініціалізує, з випадкового джерела.
@@ -60,7 +60,7 @@ IV призначений тільки для завдання альтерна�
 
 **Приклад #1 Приклад використання **mcrypt_create_iv()****
 
-`<?php   $size u003d mcrypt_get_iv_size(MCRYPT_CAST_256, MCRYPT_MODE_CFB); $iv u003d mcrypt_create_iv($size, MCRYPT_DEV_RANDOM);?> `
+`<?php   $size = mcrypt_get_iv_size(MCRYPT_CAST_256, MCRYPT_MODE_CFB); $iv = mcrypt_create_iv($size, MCRYPT_DEV_RANDOM);?> `
 
 ### Дивіться також
 

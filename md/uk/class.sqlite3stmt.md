@@ -7,7 +7,7 @@
 
 # Клас SQLite3Stmt
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -26,11 +26,11 @@ private
 
 public [bindParam](sqlite3stmt.bindparam.md)(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$var`, int `$type` u003d **`SQLITE3_TEXT`**): bool
+`&$var`, int `$type` = **`SQLITE3_TEXT`**): bool
 
 public [bindValue](sqlite3stmt.bindvalue.md)(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` u003d **`SQLITE3_TEXT`**): bool
+`$value`, int `$type` = **`SQLITE3_TEXT`**): bool
 
 public [clear](sqlite3stmt.clear.md)(): bool
 
@@ -39,7 +39,7 @@ public [close](sqlite3stmt.close.md)(): bool
 public [execute](sqlite3stmt.execute.md)():
 [SQLite3Result](class.sqlite3result.md)\|false
 
-public [getSQL](sqlite3stmt.getsql.md)(bool `$expand` u003d **`false`**):
+public [getSQL](sqlite3stmt.getsql.md)(bool `$expand` = **`false`**):
 string\|false
 
 public [paramCount](sqlite3stmt.paramcount.md)(): int

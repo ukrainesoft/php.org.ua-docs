@@ -7,13 +7,13 @@
 
 # SyncSemaphore::unlock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncSemaphore::unlock — Збільшує рахунок семафору
 
 ### Опис
 
-public **SyncSemaphore::unlock**(int `&$prevcount` u003d ?): bool
+public **SyncSemaphore::unlock**(int `&$prevcount` = ?): bool
 
 Збільшує об'єкт [SyncSemaphore](class.syncsemaphore.md).
 
@@ -31,7 +31,7 @@ public **SyncSemaphore::unlock**(int `&$prevcount` u003d ?): bool
 
 **Приклад #1 Приклад використання **SyncSemaphore::unlock()****
 
-` <?php$semaphore u003d new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
+` <?php$semaphore = new SyncSemaphore("LimitedResource_2clients", 2);if (!$semaphore->lock(3000)){   echo "Неможливо заблокувати семафор."; exit();}/* ... */$semaphore->unlock();?> `
 
 ### Дивіться також
 

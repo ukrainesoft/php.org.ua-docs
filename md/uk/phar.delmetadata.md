@@ -7,7 +7,7 @@
 
 # Phar::delMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.2.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.0)
 
 Phar::delMetadata — Видалити глобальні метадані в архіві phar
 
@@ -40,7 +40,7 @@ public **Phar::delMetadata**(): bool
 
 **Приклад #1 Приклад використання **Phar::delMetaData()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); var_dump($phar->getMetadata()); $phar->setMetadata("hi there"); var_dump($phar->getMetadata()); $phar->delMetadata(); var_dump($phar->getMetadata());} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); var_dump($phar->getMetadata()); $phar->setMetadata("hi there"); var_dump($phar->getMetadata()); $phar->delMetadata(); var_dump($phar->getMetadata());} catch (Exception $e) {    // обробка помилок}?> `
 
 Результат виконання цього прикладу:
 

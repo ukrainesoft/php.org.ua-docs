@@ -7,7 +7,7 @@
 
 # PDO::pgsqlCopyFromFile
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 PDO::pgsqlCopyFromFile — Скопіювати дані з файлу до таблиці
 
@@ -16,9 +16,9 @@ PDO::pgsqlCopyFromFile — Скопіювати дані з файлу до та
 public **PDO::pgsqlCopyFromFile**(
 string `$table_name`,
 string `$filename`,
-string `$delimiter` u003d " ",
-string `$null_as` u003d "\\\N",
-string `$fields` u003d ?
+string `$delimiter` = " ",
+string `$null_as` = "\\\N",
+string `$fields` = ?
 ): bool
 
 Копіює рядки з файлу `filename` до таблиці `table_name` використовуючи

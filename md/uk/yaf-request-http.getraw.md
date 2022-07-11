@@ -7,7 +7,7 @@
 
 # Yaf_Request_Http::getRaw
 
-(Yaf \> u003d 3.0.7)
+(Yaf \> = 3.0.7)
 
 Yaf_Request_Http::getRaw — Отримує необроблене тіло запиту
 

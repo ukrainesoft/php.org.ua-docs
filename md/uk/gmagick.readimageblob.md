@@ -7,14 +7,14 @@
 
 # Gmagick::readimageblob
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::readimageblob — Читає зображення з бінарного рядка
 
 ### Опис
 
 public **Gmagick::readimageblob**(string `$imageContents`, string
-`$filename` u003d ?): [Gmagick](class.gmagick.md)
+`$filename` = ?): [Gmagick](class.gmagick.md)
 
 Читає зображення з бінарного рядка.
 

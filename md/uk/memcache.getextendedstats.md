@@ -7,14 +7,14 @@
 
 # Memcache::getExtendedStats
 
-(PECL memcache \>u003d 2.0.0)
+(PECL memcache \>= 2.0.0)
 
 Memcache::getExtendedStats — Отримати статистику з усіх серверів у пулі
 
 ### Опис
 
-**Memcache::getExtendedStats**(string `$type` u003d ?, int `$slabid` u003d ?,
-int `$limit` u003d 100): array
+**Memcache::getExtendedStats**(string `$type` = ?, int `$slabid` = ?,
+int `$limit` = 100): array
 
 **Memcache::getExtendedStats()** повертає двомірний асоціативний
 масив, який містить статистику сервера. Ключі масиву відповідають
@@ -58,36 +58,36 @@ cachedump, slabs, items, sizes. Відповідно до специфікаці
 
 **Приклад #1 Приклад використання **Memcache::getExtendedStats()****
 
-`<?php   $memcache_obj u003d new Memcache; $memcache_obj->addServer('memcache_host', 11211); $memcache_obj->addServer('failed_host', 11211); $statsu003du003d$memcache_obj->getExtendedStats(); print_r($stats);?> `
+`<?php   $memcache_obj = new Memcache; $memcache_obj->addServer('memcache_host', 11211); $memcache_obj->addServer('failed_host', 11211); $stats==$memcache_obj->getExtendedStats(); print_r($stats);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[memcache_host:11211] u003d> Array
+[memcache_host:11211] => Array
 (
-[pid] u003d> 3756
-[uptime] u003d> 603011
-[time] u003d> 1133810435
-[version] u003d> 1.1.12
-[rusage_user] u003d> 0.451931
-[rusage_system] u003d> 0.634903
-[curr_items] u003d> 2483
-[total_items] u003d> 3079
-[bytes] u003d> 2718136
-[curr_connections] u003d> 2
-[total_connections] u003d> 807
-[connection_structures] u003d> 13
-[cmd_get] u003d> 9748
-[cmd_set] u003d> 3096
-[get_hits] u003d> 5976
-[get_misses] u003d> 3772
-[bytes_read] u003d> 3448968
-[bytes_written] u003d> 2318883
-[limit_maxbytes] u003d> 33554432
+[pid] => 3756
+[uptime] => 603011
+[time] => 1133810435
+[version] => 1.1.12
+[rusage_user] => 0.451931
+[rusage_system] => 0.634903
+[curr_items] => 2483
+[total_items] => 3079
+[bytes] => 2718136
+[curr_connections] => 2
+[total_connections] => 807
+[connection_structures] => 13
+[cmd_get] => 9748
+[cmd_set] => 3096
+[get_hits] => 5976
+[get_misses] => 3772
+[bytes_read] => 3448968
+[bytes_written] => 2318883
+[limit_maxbytes] => 33554432
 )
 
-[failed_host:11211] u003d> false
+[failed_host:11211] => false
 )
 
 ### Дивіться також

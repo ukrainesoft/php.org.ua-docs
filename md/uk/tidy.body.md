@@ -44,7 +44,7 @@ public **tidy::body**(): ?[tidyNode](class.tidynode.md)
 
 **Приклад #1 Приклад використання **tidy::getBody()****
 
-` <?php$html u003d '<html>  <head>   <title>тест</title>  </head>  <body>    <p>параграф</p>  </body></html>';$tidy u003d tidy_parse_string($html);$body u003d $tidy->Body();echo $body->value;?> `
+` <?php$html = '<html>  <head>   <title>тест</title>  </head>  <body>    <p>параграф</p>  </body></html>';$tidy = tidy_parse_string($html);$body = $tidy->Body();echo $body->value;?> `
 
 Результат виконання цього прикладу:
 

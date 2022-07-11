@@ -16,7 +16,7 @@ C-функції, то в цьому випадку можлива вкрай н
 
 **Приклад #1 Скрипт, вразливий до нульового байта**
 
-`<?php$file u003d $_GET['file']; // "../../etc/passwd "if (file_exists('/home/wwwrun/'.$file.'.php')) {    // file_exists верне true, т.к. /home/wwwrun/../../etc/passwd існує    include '/home/wwwrun/'.$file.'.php'; // буде підключений файл /etc/passwd}?> `
+`<?php$file = $_GET['file']; // "../../etc/passwd "if (file_exists('/home/wwwrun/'.$file.'.php')) {    // file_exists верне true, т.к. /home/wwwrun/../../etc/passwd існує    include '/home/wwwrun/'.$file.'.php'; // буде підключений файл /etc/passwd}?> `
 
 Таким чином, будь-який зіпсований рядок, що використовується в операціях з
 файлова система повинна бути відповідним чином перевірена. Ось
@@ -24,4 +24,4 @@ C-функції, то в цьому випадку можлива вкрай н
 
 **Приклад #2 Коректна перевірка вхідних даних**
 
-`<?php$file u003d $_GET['file'];// Білий список можливих значеньswitch ($file) {    case 'main':   case 'foo':                          '.$file.'.php'; break; default:        include '/home/wwwrun/include/main.php';}?> `
+`<?php$file = $_GET['file'];// Білий список можливих значеньswitch ($file) {    case 'main':   case 'foo':                          '.$file.'.php'; break; default:        include '/home/wwwrun/include/main.php';}?> `

@@ -9,7 +9,7 @@
 
 # intlcal_get_error_code
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::getErrorCode -- intlcal_get_error_code — Отримує
 останній код помилки об'єкта
@@ -56,7 +56,7 @@ intl, включаючи помилки ранніх аргументів, мо�
 **Приклад #1 Приклад використання **IntlCalendar::getErrorCode()** та
 [IntlCalendar::getErrorMessage()](intlcalendar.geterrormessage.md)**
 
-` <?phpini_set("intl.error_level", E_WARNING);ini_set("intl.default_locale", "nl");$intlcal u003d new IntlGregorianCalendar(2012, 1, 29);var_dump( | $intlcal->getErrorMessage());$intlcal->fieldDifference(-1e100, IntlCalendar::FIELD_SECOND);var_dump(    $intlcal->getErrorCode(),    $intlcal->getErrorMessage `
+` <?phpini_set("intl.error_level", E_WARNING);ini_set("intl.default_locale", "nl");$intlcal = new IntlGregorianCalendar(2012, 1, 29);var_dump( | $intlcal->getErrorMessage());$intlcal->fieldDifference(-1e100, IntlCalendar::FIELD_SECOND);var_dump(    $intlcal->getErrorCode(),    $intlcal->getErrorMessage `
 
 Результат виконання цього прикладу:
 

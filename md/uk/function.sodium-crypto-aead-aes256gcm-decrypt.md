@@ -7,7 +7,7 @@
 
 # sodium_crypto_aead_aes256gcm_decrypt
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_aead_aes256gcm_decrypt — Перевіряє та розшифровує
 повідомлення за допомогою AES-256-GCM

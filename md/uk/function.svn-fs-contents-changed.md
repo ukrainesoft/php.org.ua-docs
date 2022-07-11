@@ -8,7 +8,7 @@
 
 # svn_fs_contents_changed
 
-(PECL svn \>u003d 0.2.0)
+(PECL svn \>= 0.2.0)
 
 svn_fs_contents_changed — Повертає **`true`**, якщо вміст
 відрізняється або **`false`** інакше

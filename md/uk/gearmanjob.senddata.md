@@ -7,7 +7,7 @@
 
 # GearmanJob::sendData
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanJob::sendData — Надсилання даних, що виконується.
 

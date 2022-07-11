@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::executeWriteCommand
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Server::executeWriteCommand — Виконує команду бази
 даних, що пише на сервері
@@ -16,7 +16,7 @@ MongoDB\Driver\Server::executeWriteCommand — Виконує команду б�
 
 final public **MongoDB\Driver\Server::executeWriteCommand**(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Виконує команду на цьому сервері.
@@ -46,7 +46,7 @@ final public **MongoDB\Driver\Server::executeWriteCommand**(string
 
 `options`
 | Опція        | Тип                                                                 | Опис                                          |
-| ------------ | ------------------------------------------------------------------- | --------------------------------------------- |
+|--------------|---------------------------------------------------------------------|-----------------------------------------------|
 | session      | [MongoDB\Driver\Session](class.mongodb-driver-session.md)           | Сесія зв'язування з операцією.                |
 | writeConcern | [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md) | Гарантія запису для застосування до операції. |
 
@@ -90,7 +90,7 @@ final public **MongoDB\Driver\Server::executeWriteCommand**(string
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                      |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | Буде викинуто [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо опція session використовується в поєднанні з непідтвердженим записом. |
 
 ### Примітки

@@ -7,13 +7,13 @@
 
 #rrd_first
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 rrd_first — Повертає позначку часу першого зразка з файлу rrd
 
 ### Опис
 
-**rrd_first**(string `$file`, int `$raaindex` u003d 0): int
+**rrd_first**(string `$file`, int `$raaindex` = 0): int
 
 Повертає перший зразок даних із зазначеного RRA файлу RRD.
 

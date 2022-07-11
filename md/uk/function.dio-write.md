@@ -7,14 +7,14 @@
 
 #dio_write
 
-(PHP 4 \>u003d 4.2.0, PHP 5 \< 5.1.0)
+(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
 
 dio_write - Записує байти у файл, опціонально обрізаючи до вказаної
 довжини
 
 ### Опис
 
-**dio_write**(resource `$fd`, string `$data`, int `$len` u003d 0): int
+**dio_write**(resource `$fd`, string `$data`, int `$len` = 0): int
 
 **dio_write()** записує максимум `len` байт із `data` у файл `fd`.
 

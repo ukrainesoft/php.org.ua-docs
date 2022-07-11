@@ -7,7 +7,7 @@
 
 # Ds\Vector::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::toArray — Перетворює колекцію на масив (array)
 
@@ -34,15 +34,15 @@ public **Ds\Vector::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Vector::toArray()****
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);var_dump($vector->toArray());?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

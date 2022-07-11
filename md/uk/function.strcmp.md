@@ -35,7 +35,7 @@ strcmp — Бінарно-безпечне порівняння рядків
 
 **Приклад #1 Приклад використання **strcmp()****
 
-` <?php$var1 u003d "Hello";$var2 u003d "hello";if (strcmp($var1, $var2) !u003du003d 0) {    echo '$var1 не рівно $var2 при реєстро> `
+` <?php$var1 = "Hello";$var2 = "hello";if (strcmp($var1, $var2) !== 0) {    echo '$var1 не рівно $var2 при реєстро> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # Memcached::delete
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::delete — Видаляє запис
 
 ### Опис
 
-public **Memcached::delete**(string `$key`, int `$time` u003d 0): bool
+public **Memcached::delete**(string `$key`, int `$time` = 0): bool
 
 **Memcached::delete()** видаляє запис із ключем `key` з сервера.
 Параметр `time` задає період часу в секундах протягом якого (або
@@ -46,7 +46,7 @@ public **Memcached::delete**(string `$key`, int `$time` u003d 0): bool
 
 **Приклад #1 Приклад використання **Memcached::delete()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->delete('key1');?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->delete('key1');?> `
 
 ### Дивіться також
 

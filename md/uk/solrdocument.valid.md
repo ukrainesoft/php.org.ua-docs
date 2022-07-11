@@ -7,7 +7,7 @@
 
 # SolrDocument::valid
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::valid — Перевіряє, чи є поточна позиція внутрішньо
 коректною

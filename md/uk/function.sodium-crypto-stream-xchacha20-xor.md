@@ -8,7 +8,7 @@
 
 # sodium_crypto_stream_xchacha20_xor
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_stream_xchacha20_xor — Шифрує повідомлення, використовуючи
 одноразовий номер та секретний ключ (без аутентифікації)

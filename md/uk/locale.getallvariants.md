@@ -9,7 +9,7 @@
 
 #local_get_all_variants
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::getAllVariants -- locale_get_all_variants — Отримання варіантів
 з переданої локалі
@@ -43,18 +43,18 @@ public static **Locale::getAllVariants**(string `$locale`): ?array
 
 **Приклад #1 Приклад використання **locale_get_all_variants()****
 
-` <?php$arr u003d locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');var_export( $arr );?> `
+` <?php$arr = locale_get_all_variants('sl_IT_NEDIS_ROJAZ_1901');var_export( $arr );?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php $arr u003d Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901'); var_export($arr);?> `
+` <?php $arr = Locale::getAllVariants('sl_IT_NEDIS_ROJAZ_1901'); var_export($arr);?> `
 
 Результат виконання цього прикладу:
 
 array (
-0 u003d> 'NEDIS',
-1 u003d> 'ROJAZ',
-2 u003d> '1901',
+0 => 'NEDIS',
+1 => 'ROJAZ',
+2 => '1901',
 )
 
 ### Дивіться також

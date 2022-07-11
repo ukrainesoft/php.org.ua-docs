@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::rewind
 
-(mongodb \>u003d1.9.0)
+(mongodb \>=1.9.0)
 
 MongoDB\Driver\Cursor::rewind — Переміщує курсор до першого результату
 

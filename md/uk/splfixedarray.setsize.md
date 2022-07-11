@@ -7,7 +7,7 @@
 
 # SplFixedArray::setSize
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::setSize — Змінює розмір масиву
 
@@ -44,7 +44,7 @@ public **SplFixedArray::setSize**(int `$size`): bool
 
 **Приклад #1 Приклад використання **SplFixedArray::setSize()****
 
-` <?php  $arrayu003du003dnew SplFixedArray(5); echo $array->getSize()."
+` <?php  $array==new SplFixedArray(5); echo $array->getSize()."
 ";   $array->setSize(10);  echo $array->getSize()."
 ";?> `
 

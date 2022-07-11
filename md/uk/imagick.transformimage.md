@@ -46,7 +46,7 @@ ImageMagick 6.2.9 або старше.
 
 У прикладі створюється чорне зображення розміром 100×100.
 
-` <?php$image u003d new Imagick();$image->newImage(300, 200, "black");$new_image u003d $image->transformImage("100x100", "100x100");$new_image->wriImage ('test_out.jpg');?> `
+` <?php$image = new Imagick();$image->newImage(300, 200, "black");$new_image = $image->transformImage("100x100", "100x100");$new_image->wriImage ('test_out.jpg');?> `
 
 ### Дивіться також
 

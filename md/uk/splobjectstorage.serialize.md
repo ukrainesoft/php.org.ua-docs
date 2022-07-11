@@ -7,7 +7,7 @@
 
 # SplObjectStorage::serialize
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 SplObjectStorage::serialize — Серіалізує контейнер
 
@@ -29,7 +29,7 @@ public **SplObjectStorage::serialize**(): string
 
 **Приклад #1 Приклад використання **SplObjectStorage::serialize()****
 
-` <?php$s u003d new SplObjectStorage;$o u003d new StdClass;$s[$o] u003d "data";echo $s->serialize()."
+` <?php$s = new SplObjectStorage;$o = new StdClass;$s[$o] = "data";echo $s->serialize()."
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

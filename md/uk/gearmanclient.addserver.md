@@ -7,14 +7,14 @@
 
 # GearmanClient::addServer
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::addServer — Додати сервер завдань для клієнта
 
 ### Опис
 
-public **GearmanClient::addServer**(string `$host` u003d 127.0.0.1, int
-`$port` u003d 4730): bool
+public **GearmanClient::addServer**(string `$host` = 127.0.0.1, int
+`$port` = 4730): bool
 
 Додає сервер завдань до списку серверів, які можна використовувати
 для виконання завдання. Жодних операцій введення-виводу з сокетом тут не
@@ -37,7 +37,7 @@ public **GearmanClient::addServer**(string `$host` u003d 127.0.0.1, int
 
 **Приклад #1 Додавання двох серверів задач**
 
-` <?php# Создаём клиентский объект$gmclientu003d new GearmanClient();# Добавляем два сервера задач, первый из них работает по умолчанию на порту 4730$gmclient->addServer("10.0.0.1");$gmclient->addServer( "10.0.0.2", 7003);?> `
+` <?php# Создаём клиентский объект$gmclient= new GearmanClient();# Добавляем два сервера задач, первый из них работает по умолчанию на порту 4730$gmclient->addServer("10.0.0.1");$gmclient->addServer( "10.0.0.2", 7003);?> `
 
 ### Дивіться також
 

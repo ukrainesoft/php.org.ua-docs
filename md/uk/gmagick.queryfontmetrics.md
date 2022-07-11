@@ -7,7 +7,7 @@
 
 # Gmagick::queryfontmetrics
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::queryfontmetrics — Повертає масив, що представляє метрики
 шрифту

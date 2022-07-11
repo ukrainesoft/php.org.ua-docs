@@ -30,7 +30,7 @@ public **ReflectionClass::isAnonymous**(): bool
 
 **Приклад #1 Приклад **ReflectionClass::isAnonymous()****
 
-` <?phpclass TestClass {}$anonClass u003d new class {};$normalClass u003d new ReflectionClass('TestClass');$anonClass u003d new ReflectionClass($anonClass);var_dump($normalClass->is anonClass->isAnonymous());?> `
+` <?phpclass TestClass {}$anonClass = new class {};$normalClass = new ReflectionClass('TestClass');$anonClass = new ReflectionClass($anonClass);var_dump($normalClass->is anonClass->isAnonymous());?> `
 
 Результат виконання цього прикладу:
 

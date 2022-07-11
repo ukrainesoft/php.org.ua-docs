@@ -7,7 +7,7 @@
 
 # Клас ReflectionFiber
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ## Вступ
 
@@ -32,7 +32,7 @@ public [getExecutingLine](reflectionfiber.getexecutingline.md)(): int
 public [getFiber](reflectionfiber.getfiber.md)():
 [Fiber](class.fiber.md)
 
-public [getTrace](reflectionfiber.gettrace.md)(int `$options` u003d
+public [getTrace](reflectionfiber.gettrace.md)(int `$options` =
 **`DEBUG_BACKTRACE_PROVIDE_OBJECT`**): array
 
 }

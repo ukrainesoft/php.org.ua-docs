@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::executeCommand
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::executeCommand — Виконує команду бази даних
 
@@ -15,7 +15,7 @@ MongoDB\Driver\Manager::executeCommand — Виконує команду баз�
 
 final public **MongoDB\Driver\Manager::executeCommand**(string `$db`,
 [MongoDB\Driver\Command](class.mongodb-driver-command.md) `$command`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує
@@ -80,7 +80,7 @@ array `$options` u003d array()):
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                                       |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md). |
 | PECL mongodb 1.4.0 | Третій параметр тепер є масивом options. Для зворотної сумісності цей параметр все одно прийме об'єкт [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md).                                             |
 
@@ -90,13 +90,13 @@ array `$options` u003d array()):
 **MongoDB\Driver\Manager::executeCommand()** з командою, що повертає
 одиночний документ**
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$command u003d new MongoDB\Driver\Command(['ping' u003d> 1]);try {     $cursor $manager->executeCommand('admin', $command);} catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
-";    exit;}/* Команда ping повертає одинаковий результат, тому ми маємо отримати доступ к * першому результату в курсор. */$response u003du003d;
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$command = new MongoDB\Driver\Command(['ping' => 1]);try {     $cursor $manager->executeCommand('admin', $command);} catch(MongoDB\Driver\Exception $e) {   echo $e->getMessage(), "
+";    exit;}/* Команда ping повертає одинаковий результат, тому ми маємо отримати доступ к * першому результату в курсор. */$response ==;
 
 Результат виконання цього прикладу:
 
 array(1) {
-["ok"]u003d>
+["ok"]=>
 float(1)
 }
 
@@ -104,20 +104,20 @@ float(1)
 **MongoDB\Driver\Manager::executeCommand()** з командою, що повертає
 курсор**
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1, ' y' u003d> 'foo']);$bulk->insert(['x' u003d> 2, 'y' u003d> 'bar']);$bulk->insert(['x' u003d> 3, ' y' u003d> 'bar']);$manager->executeBulkWrite('db.collection', $bulk);$command u003d new MongoDB\Driver\Command([   'aggregate' u003d> 'collection', | > [        ['$group' u003d> ['_id' u003d> '$y', 'sum' u003d> ['$sum' u003d> '$x']]],    ],      ]);$cursor u003d $manager->executeCommand('db', $command);/* Команда aggragete опціонально може повернути результати в курсорі замість * одинакового документу. У такому випадку ми можемо перебирати на курсорі для безпосереднього доступу до результатів. */foreach ($cursor as $document) {    var_dump($document);}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1, ' y' => 'foo']);$bulk->insert(['x' => 2, 'y' => 'bar']);$bulk->insert(['x' => 3, ' y' => 'bar']);$manager->executeBulkWrite('db.collection', $bulk);$command = new MongoDB\Driver\Command([   'aggregate' => 'collection', | > [        ['$group' => ['_id' => '$y', 'sum' => ['$sum' => '$x']]],    ],      ]);$cursor = $manager->executeCommand('db', $command);/* Команда aggragete опціонально може повернути результати в курсорі замість * одинакового документу. У такому випадку ми можемо перебирати на курсорі для безпосереднього доступу до результатів. */foreach ($cursor as $document) {    var_dump($document);}?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#6 (2) {
-["_id"]u003d>
+["_id"]=>
 string(3) "bar"
-["sum"]u003d>
+["sum"]=>
 int(10)
 }
 object(stdClass)#7 (2) {
-["_id"]u003d>
+["_id"]=>
 string(3) "foo"
-["sum"]u003d>
+["sum"]=>
 int(2)
 }
 
@@ -130,7 +130,7 @@ int(2)
 затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 у посібнику MongoDB для отримання додаткової інформації.
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$command u003d new MongoDB\Driver\Command([   'count' u003d> 'collection', > | ['x' u003d> ['$gt' u003d> 1]],   'maxTimeMS' u003d> 1000,]);$cursor u003d $manager->executeCommand('db', $command);var_dump($cursor-> toArray()[0]);?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$command = new MongoDB\Driver\Command([   'count' => 'collection', > | ['x' => ['$gt' => 1]],   'maxTimeMS' => 1000,]);$cursor = $manager->executeCommand('db', $command);var_dump($cursor-> toArray()[0]);?> `
 
 Якщо запит не завершиться через секунду після початку виконання на
 сервері, буде викинуто виняток [MongoDB\Driver\Exception\ExecutionTimeoutException](class.mongodb-driver-exception-executiontimeoutexception.md).

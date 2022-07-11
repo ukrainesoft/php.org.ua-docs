@@ -7,7 +7,7 @@
 
 # SolrQuery::getTermsPrefix
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getTermsPrefix — Повертає префікс виразу
 

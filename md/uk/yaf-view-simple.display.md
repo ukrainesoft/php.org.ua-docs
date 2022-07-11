@@ -7,13 +7,13 @@
 
 # Yaf_View_Simple::display
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::display — Відображає та відображає
 
 ### Опис
 
-public **Yaf_View_Simple::display**(string `$tpl`, array `$tpl_vars` u003d
+public **Yaf_View_Simple::display**(string `$tpl`, array `$tpl_vars` =
 ?): bool
 
 Малює шаблон і миттєво відображає результат.

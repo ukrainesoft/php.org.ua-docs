@@ -14,7 +14,7 @@ Gmagick::setCompressionQuality — Встановлює якість стисн�
 
 ### Опис
 
-**Gmagick::setCompressionQuality**( int `$quality` u003d 75 ):
+**Gmagick::setCompressionQuality**( int `$quality` = 75 ):
 [Gmagick](class.gmagick.md)
 
 Встановлює якість стандартного стиснення об'єкта.
@@ -35,4 +35,4 @@ Gmagick::setCompressionQuality — Встановлює якість стисн�
 
 **Приклад #1 Приклад використання **Gmagick::setCompressionQuality()****
 
-` <?php$gm u003d new Gmagick();$gm->read("magick:rose");$gm->setCompressionQuality(2);?> `
+` <?php$gm = new Gmagick();$gm->read("magick:rose");$gm->setCompressionQuality(2);?> `

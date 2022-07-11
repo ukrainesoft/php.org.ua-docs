@@ -13,7 +13,7 @@ class_exists — Перевіряє, чи був оголошений клас
 
 ### Опис
 
-**class_exists**(string `$class`, bool `$autoload` u003d **`true`**): bool
+**class_exists**(string `$class`, bool `$autoload` = **`true`**): bool
 
 Ця функція перевіряє, чи був оголошений зазначений клас чи ні.
 
@@ -33,11 +33,11 @@ class_exists — Перевіряє, чи був оголошений клас
 
 **Приклад #1 Приклад використання **class_exists()****
 
-` <?php// Перевіряємо існування класу перед його використаннямif (class_exists('MyClass')) {    $myclass u003d new MyClass();}?> `
+` <?php// Перевіряємо існування класу перед його використаннямif (class_exists('MyClass')) {    $myclass = new MyClass();}?> `
 
 **Приклад #2 Приклад використання з параметром `autoload`**
 
-` <?phpspl_autoload_register(function ($class_name) {    include $class_name . '.php';    // Проверяем необходимость подключения указанного класса    if (!class_exists($class_name, false)) {        throw new LogicException("Unable to load class: $ class_name");    }});if(class_exists(MyClass::class)) {   $myclass u003d new MyClass();}?> `
+` <?phpspl_autoload_register(function ($class_name) {    include $class_name . '.php';    // Проверяем необходимость подключения указанного класса    if (!class_exists($class_name, false)) {        throw new LogicException("Unable to load class: $ class_name");    }});if(class_exists(MyClass::class)) {   $myclass = new MyClass();}?> `
 
 ### Дивіться також
 

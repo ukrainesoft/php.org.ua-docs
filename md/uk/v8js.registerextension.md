@@ -7,7 +7,7 @@
 
 # V8Js::registerExtension
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 V8Js::registerExtension — Реєстрація модуля Javascript для V8Js
 
@@ -16,8 +16,8 @@ V8Js::registerExtension — Реєстрація модуля Javascript для 
 public static **V8Js::registerExtension**(
 string `$extension_name`,
 string `$script`,
-array `$dependencies` u003d array(),
-bool `$auto_enable` u003d **`false`**
+array `$dependencies` = array(),
+bool `$auto_enable` = **`false`**
 ): bool
 
 Реєстрація переданого в `script` Javascript як модуля для

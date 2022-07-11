@@ -7,7 +7,7 @@
 
 # Клас EvPeriodic
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -67,8 +67,8 @@ string `$interval` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 public [again](evperiodic.again.md)(): void
@@ -82,8 +82,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvPeriodic](class.evperiodic.md)
 
 public [set](evperiodic.set.md)( float `$offset` , float `$interval`
@@ -101,7 +101,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

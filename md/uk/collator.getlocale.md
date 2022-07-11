@@ -9,7 +9,7 @@
 
 #collator_get_locale
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::getLocale -- collator_get_locale — Отримує назву локалі
 для Collator
@@ -47,7 +47,7 @@ Collator був створений із правил або сталася по�
 
 **Приклад #1 **collator_get_locale()** example**
 
-` <?php$coll    u003d collator_create( 'en_US_California' );$res_val u003d collator_get_locale( $coll, Locale::VALID_LOCALE );$res_act u003d?collator_get_locale(  s
+` <?php$coll    = collator_create( 'en_US_California' );$res_val = collator_get_locale( $coll, Locale::VALID_LOCALE );$res_act =?collator_get_locale(  s
 Назва фактичної локалі: %s
 ",         $res_val, $res_act );?> `
 

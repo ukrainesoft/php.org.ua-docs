@@ -7,13 +7,13 @@
 
 # Swoole\Server::stop
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::stop — Зупиняє сервер Swoole
 
 ### Опис
 
-public **Swoole\Server::stop**(int `$worker_id` u003d ?): bool
+public **Swoole\Server::stop**(int `$worker_id` = ?): bool
 
 ### Список параметрів
 

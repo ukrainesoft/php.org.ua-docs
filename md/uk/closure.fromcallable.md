@@ -7,7 +7,7 @@
 
 # Closure::fromCallable
 
-(PHP 7 \>u003d 7.1.0)
+(PHP 7 \>= 7.1.0)
 
 Closure::fromCallable — Конвертує callable у замикання
 

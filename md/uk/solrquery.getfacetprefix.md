@@ -7,13 +7,13 @@
 
 # SolrQuery::getFacetPrefix
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetPrefix — Повертає префікс фасету
 
 ### Опис
 
-public **SolrQuery::getFacetPrefix**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetPrefix**(string `$field_override` = ?):
 string
 
 Повертає префікс фасету

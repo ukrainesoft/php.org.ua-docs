@@ -47,12 +47,12 @@ C:\php\php.exe -f "C:\PHP Scripts\script.php" -- -arg1 -arg2 -arg3
 - Зв'яжіть розширення `.PHP` з типом файлу. Це робиться за допомогою
 наступної команди:
 
-assoc .phpu003dphpfile
+assoc .php=phpfile
 
 - Зв'яжіть тип файлу `phpfile` з відповідним виконуваним файлом
 PHP. Це робиться за допомогою наступної команди:
 
-ftype phpfileu003d"C:\php\php.exe" -f "%1" -- %~2
+ftype phpfile="C:\php\php.exe" -f "%1" -- %~2
 
 Виконання цих кроків дозволить запускати скрипти PHP з будь-якого каталогу
 без необхідності вводити виконуваний файл PHP або розширення `.PHP`, та
@@ -66,26 +66,26 @@ ftype phpfileu003d"C:\php\php.exe" -f "%1" -- %~2
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\.php]
-@u003d"phpfile"
-"Content Type"u003d"application/php"
+@="phpfile"
+"Content Type"="application/php"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile]
-@u003d"PHP Script"
-"EditFlags"u003ddword:00000000
-"BrowserFlags"u003ddword:00000008
-"AlwaysShowExt"u003d""
+@="PHP Script"
+"EditFlags"=dword:00000000
+"BrowserFlags"=dword:00000008
+"AlwaysShowExt"=""
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\DefaultIcon]
-@u003d"C:\php\php-win.exe,0"
+@="C:\php\php-win.exe,0"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell]
-@u003d"Open"
+@="Open"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell\Open]
-@u003d"&Open"
+@="&Open"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Classes\phpfile\shell\Ope
-@u003d"\"C:\php\php.exe\" -f "%1" -- %~2"
+@="\"C:\php\php.exe\" -f "%1" -- %~2"
 
 З цими змінами цю ж команду можна записати як:
 
@@ -115,11 +115,11 @@ script -arg1 -arg2 -arg3
 > Windows Registry Editor Version 5.00
 >
 > [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer]
-> "InheritConsoleHandles"u003ddword:00000001
+> "InheritConsoleHandles"=dword:00000001
 >
 > Додаткову інформацію щодо цієї проблеми можна знайти в цій [»
-> статті бази знань Microsoft: > 321788](http://support.microsoft.com/default.aspx?scidu003dkb;en-us;321788).
+> статті бази знань Microsoft: > 321788](http://support.microsoft.com/default.aspx?scid=kb;en-us;321788).
 > У Windows 10 цей параметр змінено на протилежний і стандартний
 > інсталяція Windows 10 підтримує успадковані дескриптори консолі.
-> Це [»  повідомлення на форумі > Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console? forum u003d windowssdk)
+> Це [»  повідомлення на форумі > Microsoft](https://social.msdn.microsoft.com/Forums/en-US/f19d740d-21c8-4dc2-a9ab-d5c0527e932b/nasty-file-association-regression-bug-in-windows-10-console? forum = windowssdk)
 > надає пояснення.

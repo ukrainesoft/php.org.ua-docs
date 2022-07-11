@@ -29,7 +29,7 @@ public **PhpToken::\_\_toString**(): string
 
 **Приклад #1 Приклад використання **PhpToken::\_\_toString()****
 
-` <?php$token u003d new PhpToken(T_ECHO, 'echo');echo $token; `
+` <?php$token = new PhpToken(T_ECHO, 'echo');echo $token; `
 
 Результат виконання даних прикладів:
 

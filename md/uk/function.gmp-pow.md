@@ -7,7 +7,7 @@
 
 #gmp_pow
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_pow — Зводить число до ступеня
 
@@ -37,9 +37,9 @@ gmp_pow — Зводить число до ступеня
 
 **Приклад #1 Приклад використання **gmp_pow()****
 
-`<?php$pow1 u003d gmp_pow("2", 31);echo gmp_strval($pow1) . "
-";$pow2u003du003dgmp_pow("0", 0);echo gmp_strval($pow2) . "
-";$pow3 u003d gmp_pow("2", -1); // Негативний показник ступеня викличе попередженняecho gmp_strval($pow3) . ""
+`<?php$pow1 = gmp_pow("2", 31);echo gmp_strval($pow1) . "
+";$pow2==gmp_pow("0", 0);echo gmp_strval($pow2) . "
+";$pow3 = gmp_pow("2", -1); // Негативний показник ступеня викличе попередженняecho gmp_strval($pow3) . ""
 ";?> `
 
 Результат виконання цього прикладу:

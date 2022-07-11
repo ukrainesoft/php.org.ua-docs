@@ -33,7 +33,7 @@ public **mysql_xdevapi\Session::createSchema**(string `$schema_name`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::createSchema()****
 
-` <?php$uri u003d 'mysqlx://happyuser:password@127.0.0.1:33060/';$sess u003d mysql_xdevapi\getSession($uri);try {    if ($schema u003d s ')) {        echo "Інфо: Я створив схему з ім'ям 'fruit'
+` <?php$uri = 'mysqlx://happyuser:password@127.0.0.1:33060/';$sess = mysql_xdevapi\getSession($uri);try {    if ($schema = s ')) {        echo "Інфо: Я створив схему з ім'ям 'fruit'
 ";    }} catch (Exception $e) {  echo $e->getMessage();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

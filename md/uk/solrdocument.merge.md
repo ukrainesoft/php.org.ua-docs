@@ -7,14 +7,14 @@
 
 # SolrDocument::merge
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::merge — Зливає джерело у поточний SolrDocument
 
 ### Опис
 
 public **SolrDocument::merge**([SolrDocument](class.solrdocument.md)
-`$sourceDoc`, bool `$overwrite` u003d **`true`**): bool
+`$sourceDoc`, bool `$overwrite` = **`true`**): bool
 
 Зливає джерело у поточний SolrDocument.
 

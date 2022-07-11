@@ -32,16 +32,16 @@ public **mysql_xdevapi\Schema::getCollectionAsTable**(string `$name`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::getCollectionAsTable()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$collect u003d $schema->createCollection("people");$collect->add('{"name ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$table     u003d $schema->getCollectionAsTable("people");$collection u003d $schema->getCollection("people");var_dump($table); var_dump($collection); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$collect = $schema->createCollection("people");$collect->add('{"name ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collect->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$table     = $schema->getCollectionAsTable("people");$collection = $schema->getCollection("people");var_dump($table); var_dump($collection); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(mysql_xdevapi\Table)#4 (1) {
-["name"]u003d>
+["name"]=>
 string(6) "people"
 }
 
 object(mysql_xdevapi\Collection)#5 (1) {
-["name"]u003d>
+["name"]=>
 string(6) "people"
 }

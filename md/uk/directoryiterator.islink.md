@@ -35,7 +35,7 @@ public **DirectoryIterator::isLink**(): bool
 
 Приклад містить рекурсивну функцію видалення дерева каталогів.
 
-`<?php/** * Дана функція рекурсивно удаляє всі файли, символічні посилання і директорії * за вказаним шляхом. * * @param string $path Шлях до директорії для видалення. */function removeDir($path) {    $dir u003d new DirectoryIterator($path); foreach ($dir as $fileinfo) {        if ($fileinfo->isFile() || $fileinfo->isLink()) {              unlink($file }elseif(!$fileinfo->isDot() && $fileinfo->isDir()) {           removeDir($fileinfo->getPathName()); }    }   rmdir($path);}removeDir('foo');?> `
+`<?php/** * Дана функція рекурсивно удаляє всі файли, символічні посилання і директорії * за вказаним шляхом. * * @param string $path Шлях до директорії для видалення. */function removeDir($path) {    $dir = new DirectoryIterator($path); foreach ($dir as $fileinfo) {        if ($fileinfo->isFile() || $fileinfo->isLink()) {              unlink($file }elseif(!$fileinfo->isDot() && $fileinfo->isDir()) {           removeDir($fileinfo->getPathName()); }    }   rmdir($path);}removeDir('foo');?> `
 
 ### Дивіться також
 

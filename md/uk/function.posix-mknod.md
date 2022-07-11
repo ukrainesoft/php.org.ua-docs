@@ -7,7 +7,7 @@
 
 #posix_mknod
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 posix_mknod — Створює спеціальний або звичайний файл (POSIX.1)
 
@@ -16,8 +16,8 @@ posix_mknod — Створює спеціальний або звичайний 
 **posix_mknod**(
 string `$filename`,
 int `$flags`,
-int `$major` u003d 0,
-int `$minor` u003d 0
+int `$major` = 0,
+int `$minor` = 0
 ): bool
 
 Створює спеціальний чи звичайний файл.
@@ -49,7 +49,7 @@ int `$minor` u003d 0
 
 **Приклад #1 Приклад використання **posix_mknod()****
 
-`<?php$file u003d '/tmp/tmpfile'; // file name$type u003d POSIX_S_IFBLK; // file type$permissions u003d 0777; // octal$major u003d 1;$minor u003d 8; // /dev/randomif (!posix_mknod($file, $type | $permissions, $major, $minor)) {    die('Error ' . ?> `
+`<?php$file = '/tmp/tmpfile'; // file name$type = POSIX_S_IFBLK; // file type$permissions = 0777; // octal$major = 1;$minor = 8; // /dev/randomif (!posix_mknod($file, $type | $permissions, $major, $minor)) {    die('Error ' . ?> `
 
 ### Дивіться також
 

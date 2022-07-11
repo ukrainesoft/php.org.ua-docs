@@ -9,7 +9,7 @@
 
 # finfo::\_\_construct
 
-(PHP \>u003d 5.3.0, PHP 7, PHP 8, PECL fileinfo \>u003d 0.1.0)
+(PHP \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
 
 finfo_open -- finfo::\_\_construct — Створює екземпляр finfo
 
@@ -17,13 +17,13 @@ finfo_open -- finfo::\_\_construct — Створює екземпляр finfo
 
 Процедурний стиль
 
-**finfo_open**(int `$flags` u003d **`FILEINFO_NONE`**, ?string
-`$magic_database` u003d **`null`**): [finfo](class.finfo.md)\|false
+**finfo_open**(int `$flags` = **`FILEINFO_NONE`**, ?string
+`$magic_database` = **`null`**): [finfo](class.finfo.md)\|false
 
 Об'єктно-орієнтований стиль (конструктор):
 
-public [finfo::\_\_construct](finfo.construct.md)(int `$flags` u003d
-**`FILEINFO_NONE`**, ?string `$magic_database` u003d **`null`**)
+public [finfo::\_\_construct](finfo.construct.md)(int `$flags` =
+**`FILEINFO_NONE`**, ?string `$magic_database` = **`null`**)
 
 Ця функція відкриває магічну базу даних та повертає екземпляр.
 
@@ -50,7 +50,7 @@ public [finfo::\_\_construct](finfo.construct.md)(int `$flags` u003d
 ### Список змін
 
 | Версія | Опис                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [finfo](class.finfo.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
 | 8.0.3  | magic_database тепер допускає значення null.                                                                   |
 
@@ -58,15 +58,15 @@ public [finfo::\_\_construct](finfo.construct.md)(int `$flags` u003d
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?php$finfo u003d new finfo(FILEINFO_MIME, "/usr/share/misc/magic"); // повертає mime-тип а-ля mimetype розширення/* отримати mime-type для вказаного файла */$filename u003d "/usr/local/something.txt";echo $finfo->file($filename);
+`<?php$finfo = new finfo(FILEINFO_MIME, "/usr/share/misc/magic"); // повертає mime-тип а-ля mimetype розширення/* отримати mime-type для вказаного файла */$filename = "/usr/local/something.txt";echo $finfo->file($filename);
 
 **Приклад #2 Процедурний стиль**
 
-` <?php$finfo u003d finfo_open(FILEINFO_MIME, "/usr/share/misc/magic"); // повертає mime-тип а-ля mimetype розширенняif (!$finfo) {    echo "Відкриття бази даних fileinfo не удалося"; exit();}/* отримати mime-type для вказаного файла */$filename u003d "/usr/local/something.txt";echo finfo_file($finfo, $filename);/* закрити з'єднання */f_info );?> `
+` <?php$finfo = finfo_open(FILEINFO_MIME, "/usr/share/misc/magic"); // повертає mime-тип а-ля mimetype розширенняif (!$finfo) {    echo "Відкриття бази даних fileinfo не удалося"; exit();}/* отримати mime-type для вказаного файла */$filename = "/usr/local/something.txt";echo finfo_file($finfo, $filename);/* закрити з'єднання */f_info );?> `
 
 Результат виконання цього прикладу:
 
-text/plain; charsetu003dus-ascii
+text/plain; charset=us-ascii
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Cursor::next
 
-(mongodb \>u003d1.9.0)
+(mongodb \>=1.9.0)
 
 MongoDB\Driver\Cursor::next — Переміщує курсор на наступний результат
 

@@ -20,7 +20,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 public static
 **ReflectionClass::export**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$argument`, bool `$return` u003d **`false`**): string
+`$argument`, bool `$return` = **`false`**): string
 
 Експортує reflected (відбитий) клас.
 
@@ -43,7 +43,7 @@ public static
 
 **Приклад #1 Приклад використання **ReflectionClass::export()****
 
-`<?phpclass Apple {    public $var1; public $var2 u003d 'Orange'; public function type() {        return 'Apple'; }}ReflectionClass::export('Apple');?> `
+`<?phpclass Apple {    public $var1; public $var2 = 'Orange'; public function type() {        return 'Apple'; }}ReflectionClass::export('Apple');?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 #pg_field_type_oid
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_field_type_oid — Повертає ідентифікатор типу заданого поля
 
@@ -49,14 +49,14 @@ int `$field`): string\|int
 ### Список змін
 
 | Версія | Опис                                                                                                                                               |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр result тепер чекає на екземпляр [PgSql\Result](class.pgsql-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Отримання інформації про поля вибірки**
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Неможливо з'єднатися з базою"); // Припустимо, 'title' має тип varchar $res u003d pg_query($dbconn, "select title from authors where author u003d 'Orwell'"); echo "Title field type OID: ", pg_field_type_oid($res, 0);?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Неможливо з'єднатися з базою"); // Припустимо, 'title' має тип varchar $res = pg_query($dbconn, "select title from authors where author = 'Orwell'"); echo "Title field type OID: ", pg_field_type_oid($res, 0);?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # Gmagick::addnoiseimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::addnoiseimage — Додає випадковий шум до зображення
 

@@ -13,7 +13,7 @@ unpack — Розпакувати дані з бінарного рядка
 
 ### Опис
 
-**unpack**(string `$format`, string `$string`, int `$offset` u003d 0):
+**unpack**(string `$format`, string `$string`, int `$offset` = 0):
 array\|false
 
 Розпаковує дані з бінарного рядка в масив відповідно до
@@ -53,7 +53,7 @@ array\|false
 ### Список змін
 
 | Версія | Опис                                                                            |
-| ------ | ------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------|
 | 7.2.0  | Типи float і double підтримують як зворотний, і прямий порядок передачі байтів. |
 | 7.1.0  | Додано необов'язковий параметр offset.                                          |
 
@@ -61,27 +61,27 @@ array\|false
 
 **Приклад #1 Приклад використання **unpack()****
 
-` <?php$binarydata u003d "\x04\x00\xa0\x00";$arrayu003du003dunpack("cchars/nint", $binarydata);print_r($array);?> `
+` <?php$binarydata = "\x04\x00\xa0\x00";$array==unpack("cchars/nint", $binarydata);print_r($array);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[chars] u003d> 4
-[int] u003d> 160
+[chars] => 4
+[int] => 160
 )
 
 **Приклад #2 Приклад використання **unpack()** із заміщувальним аргументом**
 
-` <?php$binarydata u003d "\x04\x00\xa0\x00";$arrayu003du003dunpack("c2chars/nint", $binarydata);print_r($array);?> `
+` <?php$binarydata = "\x04\x00\xa0\x00";$array==unpack("c2chars/nint", $binarydata);print_r($array);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[chars1] u003d> 4
-[chars2] u003d> 0
-[int] u003d> 40960
+[chars1] => 4
+[chars2] => 0
+[int] => 40960
 )
 
 ### Примітки
@@ -103,14 +103,14 @@ Array
 
 **Приклад #3 Приклад використання **unpack()** з безіменними ключами**
 
-` <?php$binarydata u003d "\x32\x42\x00\xa0";$arrayu003du003dunpack("c2/n", $binarydata);var_dump($array);?> `
+` <?php$binarydata = "\x32\x42\x00\xa0";$array==unpack("c2/n", $binarydata);var_dump($array);?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[1]u003d>
+[1]=>
 int(160)
-[2]u003d>
+[2]=>
 int(66)
 }
 

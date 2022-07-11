@@ -19,8 +19,8 @@ ibase_restore — Запускає завдання відновлення в д
 resource `$service_handle`,
 string `$source_file`,
 string `$dest_db`,
-int `$options` u003d 0,
-bool `$verbose` u003d **`false`**
+int `$options` = 0,
+bool `$verbose` = **`false`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -68,11 +68,11 @@ bool `$verbose` u003d **`false`**
 
 **Приклад #1 Приклад використання **ibase_restore()****
 
-`<?php// Підключення до серверу бази даних за ip-адресою і порту$service u003d ibase_service_attach ('10.1.11.200/3050', 'свернення'     Відновлення резервної копії employee в нову базу даних emps.fdb// Не використовуйте ніяких спеціальних аргументівibase_restore($service, '/srv/backup/employees.fb''| $ service);?> `
+`<?php// Підключення до серверу бази даних за ip-адресою і порту$service = ibase_service_attach ('10.1.11.200/3050', 'свернення'     Відновлення резервної копії employee в нову базу даних emps.fdb// Не використовуйте ніяких спеціальних аргументівibase_restore($service, '/srv/backup/employees.fb''| $ service);?> `
 
 **Приклад #2 Приклад використання **ibase_restore()** з аргументами**
 
-`<?php// Приєднання к серверу бази даних за імені і порту за замовчуванням$service u003d ibase_service_attach ('fb-server.contoso.local', запуску| // Відновлення бази даних employee з використанням псевдоніма.// Відновлення без індексів. Заміна існуючої бази даних.ibase_restore($service, '/srv/backup/employees.fbk', 'employees.fdb', IBASE_RES_DEACTIVATE_IDX | IBASE_RES_REPLACE);| 
+`<?php// Приєднання к серверу бази даних за імені і порту за замовчуванням$service = ibase_service_attach ('fb-server.contoso.local', запуску| // Відновлення бази даних employee з використанням псевдоніма.// Відновлення без індексів. Заміна існуючої бази даних.ibase_restore($service, '/srv/backup/employees.fbk', 'employees.fdb', IBASE_RES_DEACTIVATE_IDX | IBASE_RES_REPLACE);| 
 
 ### Дивіться також
 

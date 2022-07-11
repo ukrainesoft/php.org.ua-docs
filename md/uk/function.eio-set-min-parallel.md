@@ -7,7 +7,7 @@
 
 #eio_set_min_parallel
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_set_min_parallel — Встановлює мінімальну кількість паралельних
 потоків

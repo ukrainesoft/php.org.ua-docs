@@ -8,7 +8,7 @@
 
 #ob_get_flush
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 ob_get_flush — Скинути буфер виводу, повернути його у вигляді рядка та
 відключити буферизацію виводу
@@ -41,13 +41,13 @@ ob_get_flush — Скинути буфер виводу, повернути йо
 
 **Приклад #1 Приклад використання функції **ob_get_flush()****
 
-` <?php//Використовується output_bufferingu003dOnprint_r(ob_list_handlers());//зберегти буфер в файл$bufferu003du003dob_get_flush();file_put_contents('buffer.txt',_$;buf `
+` <?php//Використовується output_buffering=Onprint_r(ob_list_handlers());//зберегти буфер в файл$buffer==ob_get_flush();file_put_contents('buffer.txt',_$;buf `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> default output handler
+[0] => default output handler
 )
 Array
 (

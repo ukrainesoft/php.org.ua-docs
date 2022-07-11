@@ -7,7 +7,7 @@
 
 #mb_convert_variables
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_convert_variables — Перетворює символи на змінну з однієї
 кодування в інше
@@ -61,4 +61,4 @@ array\|string `$from_encoding`,
 
 **Приклад #1 Приклад використання **mb_convert_variables()****
 
-` <?php/* Перетворення змінних $post1, $post2 во внутрішнє кодування скрипта */$interenc u003d mb_internal_encoding();$inputenc u003d mb_convert_variables($interenc, $$AS post2);?> `
+` <?php/* Перетворення змінних $post1, $post2 во внутрішнє кодування скрипта */$interenc = mb_internal_encoding();$inputenc = mb_convert_variables($interenc, $$AS post2);?> `

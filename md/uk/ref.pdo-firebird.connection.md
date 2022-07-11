@@ -7,7 +7,7 @@
 
 #PDO_FIREBIRD DSN
 
-(PECL PDO_FIREBIRD \>u003d 0.1.0)
+(PECL PDO_FIREBIRD \>= 0.1.0)
 
 PDO_FIREBIRD DSN — З'єднання з базою Firebird
 
@@ -39,14 +39,14 @@ PDO_FIREBIRD DSN — З'єднання з базою Firebird
 Наступний приклад демонструє PDO_FIREBIRD DSN для з'єднання з базою
 Firebird:
 
-firebird:dbnameu003d/path/to/DATABASE.FDB
+firebird:dbname=/path/to/DATABASE.FDB
 
 **Приклад #2 Приклад PDO_FIREBIRD DSN із шляхом та портом**
 
 Наступний приклад демонструє PDO_FIREBIRD DSN із зазначенням шляху та порту
 для з'єднання з базою Firebird:
 
-firebird:dbnameu003dhostname/port:/path/to/DATABASE.FDB
+firebird:dbname=hostname/port:/path/to/DATABASE.FDB
 
 **Приклад #3 Приклад PDO_FIREBIRD DSN для localhost та шляхи до employee.fdb
 у системі Debian**
@@ -54,7 +54,7 @@ firebird:dbnameu003dhostname/port:/path/to/DATABASE.FDB
 Наступний приклад демонструє PDO_FIREBIRD DSN для з'єднання з
 Firebird на локальному хості та базою даних employee.fdb:
 
-firebird:dbnameu003dlocalhost:/var/lib/firebird/2.5/data/employee.fdb
+firebird:dbname=localhost:/var/lib/firebird/2.5/data/employee.fdb
 
 **Приклад #4 PDO_FIREBIRD DSN для підключення до dialect 1 database**
 
@@ -62,4 +62,4 @@ firebird:dbnameu003dlocalhost:/var/lib/firebird/2.5/data/employee.fdb
 даних Firebird test.fdb, створеної з допомогою діалекту 1.
 Підтримується починаючи з PHP 7.4.0.
 
-firebird:dbnameu003dlocalhost:/var/lib/firebird/2.5/data/test.fdb;charsetu003dutf-8;dialectu003d1
+firebird:dbname=localhost:/var/lib/firebird/2.5/data/test.fdb;charset=utf-8;dialect=1

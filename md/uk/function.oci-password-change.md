@@ -7,7 +7,7 @@
 
 #oci_password_change
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_password_change — Змінює пароль користувача Oracle
 
@@ -65,14 +65,14 @@ string `$new_password`
 **Приклад #1 Приклад використання **oci_password_change()** зі зміною
 пароля вже підключеного користувача**
 
-`<?php$dbase     u003d 'localhost/orcl';$user       u003d 'cj';$current_pw u003d 'welcome';$new_pw      u003d '$$ ($c, $user, $current_pw, $new_pw);echo "Новий пароль : " . $new_pw . "
+`<?php$dbase     = 'localhost/orcl';$user       = 'cj';$current_pw = 'welcome';$new_pw      = '$$ ($c, $user, $current_pw, $new_pw);echo "Новий пароль : " . $new_pw . "
 ";?> `
 
 **Приклад #2 Приклад використання **oci_password_change()** з
 підключенням та зміною пароля одночасно**
 
-`<?php$dbase     u003d 'localhost/orcl';$user       u003d 'cj';$current_pw u003d 'welcome';$new_pw     u003du003d '$|| (!$c) {   $m u003d oci_error(); if ($m['code'] u003du003d 28001) { // "ORA-28001: the password has expired"        // Подключение и сброс пароля одновременно        $c u003d oci_password_change($dbase, $user, $current_pw, $new_pw) ; if ($c) {             echo "Новий пароль : " . $new_pw . "
-";        }    }}if (!$c) {  // Ошибка не совпадала с 28001, или не получилось изменить пароль    $m u003d oci_error();    trigger_error('Не удалось подключиться к базе данных: '. $m['message' ], E_USER_ERROR);}// Використання підключення $c// ...?> `
+`<?php$dbase     = 'localhost/orcl';$user       = 'cj';$current_pw = 'welcome';$new_pw     == '$|| (!$c) {   $m = oci_error(); if ($m['code'] == 28001) { // "ORA-28001: the password has expired"        // Подключение и сброс пароля одновременно        $c = oci_password_change($dbase, $user, $current_pw, $new_pw) ; if ($c) {             echo "Новий пароль : " . $new_pw . "
+";        }    }}if (!$c) {  // Ошибка не совпадала с 28001, или не получилось изменить пароль    $m = oci_error();    trigger_error('Не удалось подключиться к базе данных: '. $m['message' ], E_USER_ERROR);}// Використання підключення $c// ...?> `
 
 ### Примітки
 

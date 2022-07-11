@@ -7,7 +7,7 @@
 
 # Ds\Vector::remove
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::remove — Видаляє та повертає значення за індексом
 
@@ -37,7 +37,7 @@ public **Ds\Vector::remove**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Vector::remove()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);var_dump($vector->remove(1));var_dump($vector->remove(0) );var_dump($vector->remove(0));?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector->remove(1));var_dump($vector->remove(0) );var_dump($vector->remove(0));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 #eio_nthreads
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_nthreads — Повертає кількість використовуваних на даний момент
 потоків

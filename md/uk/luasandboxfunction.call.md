@@ -7,7 +7,7 @@
 
 # LuaSandboxFunction::call
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandboxFunction::call — Викликає Lua-функцію
 

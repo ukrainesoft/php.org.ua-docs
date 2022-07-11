@@ -9,7 +9,7 @@
 
 #msgfmt_set_pattern
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 MessageFormatter::setPattern -- msgfmt_set_pattern — Встановлює
 шаблон, який використовується засобом форматування
@@ -47,7 +47,7 @@ public **MessageFormatter::setPattern**(string `$pattern`): bool
 
 **Приклад #1 Приклад використання **msgfmt_set_pattern()****
 
-` <?php$fmt u003d msgfmt_create( "en_US", "{0, number} monkeys on {1, number} trees" );echo "Default pattern: '" . msgfmt_get_pattern($fmt). "'
+` <?php$fmt = msgfmt_create( "en_US", "{0, number} monkeys on {1, number} trees" );echo "Default pattern: '" . msgfmt_get_pattern($fmt). "'
 ";echo "Formatting result: " . msgfmt_format( $fmt, array(123, 456) ) . "
 ";msgfmt_set_pattern( $fmt, "{0, number} trees hosting {1, number} monkeys" );echo "New pattern: '" . msgfmt_get_pattern( $f.
 ";echo "Formatted number: " . msgfmt_format( $fmt, array(123, 456) ) . "
@@ -55,7 +55,7 @@ public **MessageFormatter::setPattern**(string `$pattern`): bool
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new MessageFormatter( "en_US", "{0, number} monkeys on {1, number} trees" );echo "Default pattern: '" . $fmt->getPattern() . "'
+` <?php$fmt = new MessageFormatter( "en_US", "{0, number} monkeys on {1, number} trees" );echo "Default pattern: '" . $fmt->getPattern() . "'
 ";echo "Formatting result: " . $fmt->format(array(123, 456)) . "
 $fmt->setPattern("{0, number} trees hosting {1, number} monkeys" );echo "New pattern: '" . $fmt->getPattern() . "''
 ";echo "Formatted number: " . $fmt->format(array(123, 456)) . "

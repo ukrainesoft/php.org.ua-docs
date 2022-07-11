@@ -7,7 +7,7 @@
 
 # Клас HRTime\PerformanceCounter
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 ## Вступ
 

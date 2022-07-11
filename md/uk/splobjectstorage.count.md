@@ -7,13 +7,13 @@
 
 # SplObjectStorage::count
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::count — Повертає кількість об'єктів у контейнері
 
 ### Опис
 
-public **SplObjectStorage::count**(int `$mode` u003d **`COUNT_NORMAL`**):
+public **SplObjectStorage::count**(int `$mode` = **`COUNT_NORMAL`**):
 int
 
 Здійснює підрахунок об'єктів у контейнері.
@@ -33,7 +33,7 @@ int
 
 **Приклад #1 Приклад використання **SplObjectStorage::count()****
 
-` <?php$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$s->attach($o1);$s->attach($o2);$s->attach( $o1);var_dump($s->count());var_dump(count($s));?> `
+` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1);$s->attach($o2);$s->attach( $o1);var_dump($s->count());var_dump(count($s));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

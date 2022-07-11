@@ -7,7 +7,7 @@
 
 # DateTime::\_\_set_state
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateTime::\_\_set_state - Обробник \_\_set_state
 

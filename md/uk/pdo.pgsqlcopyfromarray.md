@@ -7,7 +7,7 @@
 
 # PDO::pgsqlCopyFromArray
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 PDO::pgsqlCopyFromArray — Копіювати масив PHP до таблиці
 
@@ -16,9 +16,9 @@ PDO::pgsqlCopyFromArray — Копіювати масив PHP до таблиц�
 public **PDO::pgsqlCopyFromArray**(
 string `$table_name`,
 array `$rows`,
-string `$delimiter` u003d " ",
-string `$null_as` u003d "\\\N",
-string `$fields` u003d ?
+string `$delimiter` = " ",
+string `$null_as` = "\\\N",
+string `$fields` = ?
 ): bool
 
 Копіює дані з масиву `rows` до таблиці `table_name` з

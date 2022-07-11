@@ -47,4 +47,4 @@ gzpassthru — Виведення всіх даних, що залишилися
 
 **Приклад #1 Приклад використання **gzpassthru()****
 
-` <?php$fp u003d gzopen('file.gz', 'r');gzpassthru($fp);gzclose($fp);?> `
+` <?php$fp = gzopen('file.gz', 'r');gzpassthru($fp);gzclose($fp);?> `

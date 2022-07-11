@@ -6,7 +6,7 @@
 
 # Componer
 
-(Componere 2 \>u003d 2.1.2)
+(Componere 2 \>= 2.1.2)
 
 Componer
 

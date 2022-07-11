@@ -7,7 +7,7 @@
 
 # Клас Swoole\Client
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -17,13 +17,13 @@ class **Swoole\Client** {
 
 /\* Constants \*/
 
-const int `MSG_OOB` u003d 1;
+const int `MSG_OOB` = 1;
 
-const int `MSG_PEEK` u003d 2;
+const int `MSG_PEEK` = 2;
 
-const int `MSG_DONTWAIT` u003d 128;
+const int `MSG_DONTWAIT` = 128;
 
-const int `MSG_WAITALL` u003d 64;
+const int `MSG_WAITALL` = 64;
 
 /\* Властивості \*/
 
@@ -37,13 +37,13 @@ public `$reuseCount`;
 
 /\* Методи \*/
 
-public [close](swoole-client.close.md)(bool `$force` u003d ?): bool
+public [close](swoole-client.close.md)(bool `$force` = ?): bool
 
 public [connect](swoole-client.connect.md)(
 string `$host`,
-int `$port` u003d ?,
-int `$timeout` u003d ?,
-int `$flag` u003d ?
+int `$port` = ?,
+int `$timeout` = ?,
+int `$flag` = ?
 ): bool
 
 public [\_\_destruct](swoole-client.destruct.md)(): void
@@ -61,16 +61,16 @@ public [pause](swoole-client.pause.md)(): void
 
 public [pipe](swoole-client.pipe.md)(string `$socket`): void
 
-public [recv](swoole-client.recv.md)(string `$size` u003d ?, string
-`$flag` u003d ?): void
+public [recv](swoole-client.recv.md)(string `$size` = ?, string
+`$flag` = ?): void
 
 public [resume](swoole-client.resume.md)(): void
 
-public [send](swoole-client.send.md)(string `$data`, string `$flag` u003d
+public [send](swoole-client.send.md)(string `$data`, string `$flag` =
 ?): int
 
 public [sendfile](swoole-client.sendfile.md)(string `$filename`, int
-`$offset` u003d ?): bool
+`$offset` = ?): bool
 
 public [sendto](swoole-client.sendto.md)(string `$ip`, int `$port`,
 string `$data`): bool

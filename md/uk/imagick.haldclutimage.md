@@ -14,7 +14,7 @@ Imagick::haldClutImage — Замінює кольори зображення
 ### Опис
 
 public **Imagick::haldClutImage**([Imagick](class.imagick.md) `$clut`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Замінює кольори зображення за допомогою таблиці пошуку Hald.
 Hald-зображення можуть бути створені за допомогою колірного кодера
@@ -43,4 +43,4 @@ HALD.
 
 **Приклад #1 Приклад використання **Imagick::haldClutImage()****
 
-` <?phpfunction haldClutImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagickPalette u003d new \Imagick(realpath("images/hald/hald_8.png")); $imagickPalette->sepiatoneImage(55); $imagick->haldClutImage($imagickPalette); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction haldClutImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagickPalette = new \Imagick(realpath("images/hald/hald_8.png")); $imagickPalette->sepiatoneImage(55); $imagick->haldClutImage($imagickPalette); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

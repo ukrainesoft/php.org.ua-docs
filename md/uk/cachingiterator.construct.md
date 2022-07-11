@@ -16,7 +16,7 @@ CachingIterator::\_\_construct — Створює новий об'єкт Caching
 
 public
 **CachingIterator::\_\_construct**([Iterator](class.iterator.md)
-`$iterator`, int `$flags` u003d CachingIterator::CALL_TOSTRING)
+`$iterator`, int `$flags` = CachingIterator::CALL_TOSTRING)
 
 **Увага**
 

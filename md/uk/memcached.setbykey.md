@@ -7,7 +7,7 @@
 
 # Memcached::setByKey
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::setByKey — Зберігає запис на вказаному сервері
 
@@ -18,7 +18,7 @@ string `$server_key`,
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 $value,
-int `$expiration` u003d ?
+int `$expiration` = ?
 ): bool
 
 **Memcached::setByKey()** працює аналогічно
@@ -57,7 +57,7 @@ int `$expiration` u003d ?
 
 **Приклад #1 Приклад використання **Memcached::setByKey()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);/* Зберігання блоків IP адресів на певному сервері */$m->setByKey('api' -ip:169.254.253.252', 1);$m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);/* Зберігання блоків IP адресів на певному сервері */$m->setByKey('api' -ip:169.254.253.252', 1);$m->setByKey('api-cache', 'block-ip:169.127.127.202', 1);?> `
 
 ### Дивіться також
 

@@ -8,7 +8,7 @@
 
 # DOMXPath::evaluate
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 DOMXPath::evaluate — Обчислює переданий вираз XPath і повертає
 типізований результат, якщо можливо
@@ -16,8 +16,8 @@ DOMXPath::evaluate — Обчислює переданий вираз XPath і �
 ### Опис
 
 public **DOMXPath::evaluate**(string `$expression`,
-?[DOMNode](class.domnode.md) `$contextNode` u003d **`null`**, bool
-`$registerNodeNS` u003d **`true`**):
+?[DOMNode](class.domnode.md) `$contextNode` = **`null`**, bool
+`$registerNodeNS` = **`true`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Виконує переданий вираз XPath `expression` та повертає
@@ -50,7 +50,7 @@ public **DOMXPath::evaluate**(string `$expression`,
 
 **Приклад #1 Отримання кількості всіх англійських книг**
 
-` <?php$doc u003d new DOMDocument;$doc->load('book.xml');$xpath u003d new DOMXPath($doc);$tbody u003d $doc->getElementsByTagName('tbody')->item( 0);// запит щодо вузла tbody$query u003d 'count(row/entry[. u003d "en"])';$entries u003d $xpath->evaluate($query, $tbody);echo "Є $entries книги
+` <?php$doc = new DOMDocument;$doc->load('book.xml');$xpath = new DOMXPath($doc);$tbody = $doc->getElementsByTagName('tbody')->item( 0);// запит щодо вузла tbody$query = 'count(row/entry[. = "en"])';$entries = $xpath->evaluate($query, $tbody);echo "Є $entries книги
 ";?> `
 
 Результат виконання цього прикладу:

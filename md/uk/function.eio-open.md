@@ -7,7 +7,7 @@
 
 #eio_open
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_open — Відкриває файл
 
@@ -20,7 +20,7 @@ int `$mode`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_open()** відкриває файл по заданому шляху `path` у режимі доступу
@@ -85,7 +85,7 @@ callback-функції `callback`. У разі виникнення помил�
 
 **Приклад #1 Приклад використання **eio_open()****
 
-`<?php$temp_filename u003d "eio-temp-file.tmp";/* Буде викликатися після завершення роботи eio_close() */function my_close_cb($data, $result) у     u003du003d 0); @unlink($data);}/* Буде викликатися після завершення роботи eio_open() */function my_file_opened_callback($data, $result) { // $result повинен        if ($result > 0) {  // закриваємо файл         eio_close($result, EIO_PRI_DEFAULT, "my_close_cb", $data); eio_event_loop(); }}// создаём файл для чтения и записи// запрещаем группе и другим пользователям делать что-либо с файломeio_open($temp_filename, EIO_O_CREAT | EIO_O_RDWR, EIO_S_IRUSR | EIO_S_IWUSR,  EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);eio_event_loop();? > `
+`<?php$temp_filename = "eio-temp-file.tmp";/* Буде викликатися після завершення роботи eio_close() */function my_close_cb($data, $result) у     == 0); @unlink($data);}/* Буде викликатися після завершення роботи eio_open() */function my_file_opened_callback($data, $result) { // $result повинен        if ($result > 0) {  // закриваємо файл         eio_close($result, EIO_PRI_DEFAULT, "my_close_cb", $data); eio_event_loop(); }}// создаём файл для чтения и записи// запрещаем группе и другим пользователям делать что-либо с файломeio_open($temp_filename, EIO_O_CREAT | EIO_O_RDWR, EIO_S_IRUSR | EIO_S_IWUSR,  EIO_PRI_DEFAULT, "my_file_opened_callback", $temp_filename);eio_event_loop();? > `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -15,7 +15,7 @@
 
 **Приклад #1 Підключення до MySQL**
 
-` <?php$dbh u003d new PDO('mysql:hostu003dlocalhost;dbnameu003dtest', $user, $pass);?> `
+` <?php$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass);?> `
 
 У разі виникнення помилки при підключенні буде викинуто виняток
 `PDOException`. Його можна перехопити та обробити, або залишити на
@@ -24,7 +24,7 @@
 
 **Приклад #2 Обробка помилок підключення**
 
-`<?phptry {    $dbh u003d new PDO('mysql:hostu003dlocalhost;dbnameu003dtest', $user, $pass); foreach($dbh->query('SELECT * from FOO') as $row) {       print_r($row); }   $dbh u003d null;} catch (PDOException $e) {    print "Error!: " . $e->getMessage() . "<br/>"; die();}?> `
+`<?phptry {    $dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass); foreach($dbh->query('SELECT * from FOO') as $row) {       print_r($row); }   $dbh = null;} catch (PDOException $e) {    print "Error!: " . $e->getMessage() . "<br/>"; die();}?> `
 
 **Увага**
 
@@ -52,7 +52,7 @@
 
 **Приклад #3 Закриття з'єднання**
 
-` <?php$dbh u003d new PDO('mysql:hostu003dlocalhost;dbnameu003dtest', $user, $pass); * FROM foo');// з'єднання більше не потрібно, закриваємо$sth u003d null;$dbh u003d null;?> `
+` <?php$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass); * FROM foo');// з'єднання більше не потрібно, закриваємо$sth = null;$dbh = null;?> `
 
 У багатьох додатках може бути корисним використання постійних
 з'єднань до бази даних. Постійні з'єднання не закриваються при
@@ -64,7 +64,7 @@
 
 **Приклад #4 Постійні з'єднання**
 
-` <?php$dbh u003d new PDO('mysql:hostu003dlocalhost;dbnameu003dtest', $user, $pass, array(    PDO::ATTR_PERSISTENT u003d> true));?> `
+` <?php$dbh = new PDO('mysql:host=localhost;dbname=test', $user, $pass, array(    PDO::ATTR_PERSISTENT => true));?> `
 
 Значення параметра **`PDO::ATTR_PERSISTENT`** перетворюється на логічне
 значення (bool) (включити/вимкнути постійні підключення), якщо це не

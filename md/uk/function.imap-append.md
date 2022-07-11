@@ -17,8 +17,8 @@ imap_append — Додає рядкове повідомлення до вказ
 [IMAP\Connection](class.imap-connection.md) `$imap`,
 string `$folder`,
 string `$message`,
-?string `$options` u003d **`null`**,
-?string `$internal_date` u003d **`null`**
+?string `$options` = **`null`**,
+?string `$internal_date` = **`null`**
 ): bool
 
 Додає рядок `message` у вказаний `folder`.
@@ -62,7 +62,7 @@ string `$message`,
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | options та internal_date тепер допускають значення null.                                                                                               |
 
@@ -70,11 +70,11 @@ string `$message`,
 
 **Приклад #1 Приклад використання **imap_append()****
 
-` <?php$imap u003d imap_open("{imap.example.org}INBOX.Drafts", "username", "password");$check u003d imap_check($imap);echo "Кількість повідомлень до додавання: " . $check->Nmsgs . "
+` <?php$imap = imap_open("{imap.example.org}INBOX.Drafts", "username", "password");$check = imap_check($imap);echo "Кількість повідомлень до додавання: " . $check->Nmsgs . "
 ";imap_append($imap, "{imap.example.org}INBOX.Drafts"                    , "From: me@example.com
 "                     . "To: you@example.com
 "                     ..""Subject: test
 "                     . ."
                       . "це перевірочне повідомлення, будь ласка, ігноруйте його
-"                      );$check u003d imap_check($imap);echo "Кількість повідомлень після додавання :: ". $check>.
+"                      );$check = imap_check($imap);echo "Кількість повідомлень після додавання :: ". $check>.
 ";imap_close($imap);?> `

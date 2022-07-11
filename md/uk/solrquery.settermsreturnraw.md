@@ -7,7 +7,7 @@
 
 # SolrQuery::setTermsReturnRaw
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setTermsReturnRaw — Повернути необроблені символи
 проіндексованого виразу

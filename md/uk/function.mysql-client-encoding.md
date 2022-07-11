@@ -7,7 +7,7 @@
 
 # mysql_client_encoding
 
-(PHP 4 u003d 4.3.0, PHP 5)
+(PHP 4 = 4.3.0, PHP 5)
 
 mysql_client_encoding — Повертає кодування з'єднання
 
@@ -21,7 +21,7 @@ mysql_client_encoding — Повертає кодування з'єднання
 
 ### Опис
 
-**mysql_client_encoding**(resource `$link_identifier` u003d NULL): string
+**mysql_client_encoding**(resource `$link_identifier` = NULL): string
 
 Повертає значення змінної MySQL `character_set`.
 
@@ -44,7 +44,7 @@ mysql_client_encoding — Повертає кодування з'єднання
 
 **Приклад #1 Приклад використання **mysql_client_encoding()****
 
-` <?php$link    u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');$charset u003d mysql_client_encoding($link);echo "Поточне кодування: $charset
+` <?php$link    = mysql_connect('localhost', 'mysql_user', 'mysql_password');$charset = mysql_client_encoding($link);echo "Поточне кодування: $charset
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

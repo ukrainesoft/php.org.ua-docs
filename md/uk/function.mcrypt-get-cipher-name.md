@@ -7,7 +7,7 @@
 
 # mcrypt_get_cipher_name
 
-(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_get_cipher_name — Отримує ім'я вказаного шифру
 
@@ -43,7 +43,7 @@ mcrypt_get_cipher_name — Отримує ім'я вказаного шифру
 
 **Приклад #1 Приклад використання **mcrypt_get_cipher_name()****
 
-`<?php  $cipheru003du003dMCRYPT_TripleDES; echo mcrypt_get_cipher_name($cipher);?> `
+`<?php  $cipher==MCRYPT_TripleDES; echo mcrypt_get_cipher_name($cipher);?> `
 
 Результат виконання цього прикладу:
 

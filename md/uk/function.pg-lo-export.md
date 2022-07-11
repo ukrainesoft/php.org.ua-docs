@@ -7,14 +7,14 @@
 
 #pg_lo_export
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_lo_export — Виведення великого об'єкта у файл
 
 ### Опис
 
 **pg_lo_export**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, int `$oid`, string `$pathname`): bool
+`$connection` = ?, int `$oid`, string `$pathname`): bool
 
 **pg_lo_export()** вибирає великий об'єкт із бази даних та зберігає
 його дані локально у файловій системі.
@@ -54,14 +54,14 @@ pg_lo_export — Виведення великого об'єкта у файл
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_export()****
 
-`<?php  $database u003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); $oidu003du003dpg_lo_create($database); $handleu003du003dpg_lo_open($database,$oid,"w"); pg_lo_write($handle, "large object data"); pg_lo_close($handle); pg_lo_export($database, $oid, '/tmp/lob.dat'); pg_query($database, "commit");?> `
+`<?php  $database =pg_connect("dbname=jacarta"); pg_query($database, "begin"); $oid==pg_lo_create($database); $handle==pg_lo_open($database,$oid,"w"); pg_lo_write($handle, "large object data"); pg_lo_close($handle); pg_lo_export($database, $oid, '/tmp/lob.dat'); pg_query($database, "commit");?> `
 
 ### Дивіться також
 

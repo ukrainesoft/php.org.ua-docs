@@ -7,7 +7,7 @@
 
 # EventConfig::setMaxDispatchInterval
 
-(PECL event \>u003d 2.1.0-alpha)
+(PECL event \>= 2.1.0-alpha)
 
 EventConfig::setMaxDispatchInterval — Запобігти інверсії пріоритетів
 

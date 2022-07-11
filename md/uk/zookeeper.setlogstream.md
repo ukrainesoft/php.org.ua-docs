@@ -8,7 +8,7 @@
 
 # Zookeeper::setLogStream
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::setLogStream - Встановлює потік, який буде
 використовуватись бібліотекою для логування

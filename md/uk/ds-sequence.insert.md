@@ -7,7 +7,7 @@
 
 # Ds\Sequence::insert
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::insert — Вставляє значення за вказаним індексом
 
@@ -23,7 +23,7 @@ abstract public **Ds\Sequence::insert**(int `$index`,
 
 `index`
 Індекс, яким необхідно здійснити вставку.
-`0 <u003d index <u003d count`
+`0 <= index <= count`
 
 > **Примітка**:
 >
@@ -46,23 +46,23 @@ abstract public **Ds\Sequence::insert**(int `$index`,
 
 **Приклад #1 Приклад використання **Ds\Sequence::insert()****
 
-` <?php$sequence u003d new \Ds\Vector();$sequence->insert(0, "e"); // [e]$sequence->insert(1, "f"); // [e, f]$sequence->insert(2, "g"); // [e, f, g]$sequence->insert(0, "a", "b"); // [a, b, e, f, g]$sequence->insert(2, ...["c", "d"]); // [a, b, c, d, e, f, g]var_dump($sequence);?> `
+` <?php$sequence = new \Ds\Vector();$sequence->insert(0, "e"); // [e]$sequence->insert(1, "f"); // [e, f]$sequence->insert(2, "g"); // [e, f, g]$sequence->insert(0, "a", "b"); // [a, b, e, f, g]$sequence->insert(2, ...["c", "d"]); // [a, b, c, d, e, f, g]var_dump($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Vector)#1 (7) {
-[0]u003d>
+[0]=>
 string(1) "a"
-[1]u003d>
+[1]=>
 string(1) "b"
-[2]u003d>
+[2]=>
 string(1) "c"
-[3]u003d>
+[3]=>
 string(1) "d"
-[4]u003d>
+[4]=>
 string(1) "e"
-[5]u003d>
+[5]=>
 string(1) "f"
-[6]u003d>
+[6]=>
 string(1) "g"
 }

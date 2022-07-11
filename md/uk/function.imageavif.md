@@ -7,7 +7,7 @@
 
 #imageavif
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 imageavif — Виводить зображення до браузера або пише у файл
 
@@ -15,9 +15,9 @@ imageavif — Виводить зображення до браузера або
 
 **imageavif**(
 [GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**,
-int `$quality` u003d -1,
-int `$speed` u003d -1
+resource\|string\|null `$file` = **`null`**,
+int `$quality` = -1,
+int `$speed` = -1
 ): bool
 
 Виводить або зберігає растрове зображення AVIF із зазначеного параметра

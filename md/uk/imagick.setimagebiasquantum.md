@@ -7,7 +7,7 @@
 
 # Imagick::setImageBiasQuantum
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::setImageBiasQuantum — Опис
 

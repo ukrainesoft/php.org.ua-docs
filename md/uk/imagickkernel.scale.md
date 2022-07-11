@@ -7,13 +7,13 @@
 
 # ImagickKernel::scale
 
-(PECL imagick \>u003d 3.3.0)
+(PECL imagick \>= 3.3.0)
 
 ImagickKernel::scale — Опис
 
 ### Опис
 
-public **ImagickKernel::scale**(float `$scale`, int `$normalizeFlag` u003d
+public **ImagickKernel::scale**(float `$scale`, int `$normalizeFlag` =
 ?): void
 
 ScaleKernelInfo() масштабує заданий список ядер на задану
@@ -35,4 +35,4 @@ Imagick::NORMALIZE_KERNEL_CORRELATE, Imagick::NORMALIZE_KERNEL_PERCENT
 
 **Приклад #1 Приклад використання **ImagickKernel::scale()****
 
-` <?php    function renderKernelTable($matrix) {        $output u003d "<table classu003d'infoTable'>"; foreach ($matrix as $row) {            $output .u003d "<tr>"; foreach ($row as $cell) {                $output .u003d "<td styleu003d'text-align:left'>"; if ($cell u003du003du003du003dfalse) {                    $output .u003d "false"; }                 else {                     $output .u003d round($cell, }                  $output .u003d "</td>"; }             $output .u003d "</tr>"; }        $output .u003d "</table>"; return $output; }    $output u003d ""; $matrix u003d [        [-1, 0, -1],       [ 0, 4,  0],         [-1, , ; $kernelu003d \ImagickKernel::fromMatrix($matrix); $kernelClone u003d clone $kernel; $output .u003d "Старт ядра<br/>"; $output.u003du003drenderKernelTable($kernel->getMatrix()); $output .u003d "Масштабування з NORMALIZE_KERNEL_VALUE. The  <br/>"; $kernel->scale(2, \Imagick::NORMALIZE_KERNEL_VALUE); $output.u003du003drenderKernelTable($kernel->getMatrix()); $kernelu003d clone $kernelClone; $output .u003d "Масштабування в відсотках<br/>"; $kernel->scale(2, \Imagick::NORMALIZE_KERNEL_PERCENT); $output.u003du003drenderKernelTable($kernel->getMatrix()); $matrix2 u003d [        [-1, -1, 1],        [ -1, false,  1],        [1, ,| $kernelu003d \ImagickKernel::fromMatrix($matrix2); $output .u003d "Масштабування по кореляції<br/>"; $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_CORRELATE); $output.u003du003drenderKernelTable($kernel->getMatrix()); return $output;?> `
+` <?php    function renderKernelTable($matrix) {        $output = "<table class='infoTable'>"; foreach ($matrix as $row) {            $output .= "<tr>"; foreach ($row as $cell) {                $output .= "<td style='text-align:left'>"; if ($cell ====false) {                    $output .= "false"; }                 else {                     $output .= round($cell, }                  $output .= "</td>"; }             $output .= "</tr>"; }        $output .= "</table>"; return $output; }    $output = ""; $matrix = [        [-1, 0, -1],       [ 0, 4,  0],         [-1, , ; $kernel= \ImagickKernel::fromMatrix($matrix); $kernelClone = clone $kernel; $output .= "Старт ядра<br/>"; $output.==renderKernelTable($kernel->getMatrix()); $output .= "Масштабування з NORMALIZE_KERNEL_VALUE. The  <br/>"; $kernel->scale(2, \Imagick::NORMALIZE_KERNEL_VALUE); $output.==renderKernelTable($kernel->getMatrix()); $kernel= clone $kernelClone; $output .= "Масштабування в відсотках<br/>"; $kernel->scale(2, \Imagick::NORMALIZE_KERNEL_PERCENT); $output.==renderKernelTable($kernel->getMatrix()); $matrix2 = [        [-1, -1, 1],        [ -1, false,  1],        [1, ,| $kernel= \ImagickKernel::fromMatrix($matrix2); $output .= "Масштабування по кореляції<br/>"; $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_CORRELATE); $output.==renderKernelTable($kernel->getMatrix()); return $output;?> `

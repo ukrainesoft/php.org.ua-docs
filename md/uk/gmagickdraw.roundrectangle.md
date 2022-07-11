@@ -7,7 +7,7 @@
 
 # GmagickDraw::roundrectangle
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::roundrectangle — Малює прямокутник із закругленими
 кутами

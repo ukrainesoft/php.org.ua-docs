@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcernError::getInfo
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteConcernError::getInfo — Повертає документ
 метаданих для WriteConcernError
@@ -35,12 +35,12 @@ final public **MongoDB\Driver\WriteConcernError::getInfo**(): ?object
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcernError::getInfo()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSetu003dmyReplicaSet");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' u003d> 1]);$writeConcern u003d new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {   var_dump($e->getWriteResult()->getWriteConcernError()->getInfo());}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");$bulk = new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' => 1]);$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {   var_dump($e->getWriteResult()->getWriteConcernError()->getInfo());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(stdClass)#1 (1) {
-["wtimeout"]u003d>
+["wtimeout"]=>
 bool(true)
 }
 

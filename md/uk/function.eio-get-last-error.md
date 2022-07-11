@@ -7,7 +7,7 @@
 
 #eio_get_last_error
 
-(PECL eio \>u003d 1.0.0)
+(PECL eio \>= 1.0.0)
 
 eio_get_last_error — Повертає останню помилку, пов'язану з вказівником
 на ресурс

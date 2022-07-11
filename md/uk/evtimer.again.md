@@ -7,7 +7,7 @@
 
 # EvTimer::again
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvTimer::again - Перезапускає таймер спостерігача
 

@@ -7,7 +7,7 @@
 
 # Thread::getCreatorId
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::getCreatorId - Ідентифікація
 
@@ -31,7 +31,7 @@ public **Thread::getCreatorId**(): int
 потік**
 
 ` <?phpclass|
-", __CLASS__, $this->getCreatorId());    }}$my u003d new My();$my->start();?> `
+", __CLASS__, $this->getCreatorId());    }}$my = new My();$my->start();?> `
 
 Результат виконання цього прикладу:
 

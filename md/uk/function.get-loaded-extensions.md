@@ -14,7 +14,7 @@ get_loaded_extensions — Повертає масив імен усіх ском
 
 ### Опис
 
-**get_loaded_extensions**(bool `$zend_extensions` u003d **`false`**): array
+**get_loaded_extensions**(bool `$zend_extensions` = **`false`**): array
 
 Функція повертає масив імен всіх скомпілованих та завантажених у
 інтерпретатор PHP модулів.
@@ -39,18 +39,18 @@ get_loaded_extensions — Повертає масив імен усіх ском
 
 Array
 (
-[0] u003d> xml
-[1] u003d> wddx
-[2] u003d> standard
-[3] u003d> session
-[4] u003d> posix
-[5] u003d> pgsql
-[6] u003d> pcre
-[7] u003d> gd
-[8] u003d> ftp
-[9] u003d> db
-[10] u003d> calendar
-[11] u003d> bcmath
+[0] => xml
+[1] => wddx
+[2] => standard
+[3] => session
+[4] => posix
+[5] => pgsql
+[6] => pcre
+[7] => gd
+[8] => ftp
+[9] => db
+[10] => calendar
+[11] => bcmath
 )
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 #imagecopyresampled
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagecopyresampled — Копіювання та зміна розміру зображення з
 ресемплюванням
@@ -84,7 +84,7 @@ y-координата вихідного зображення.
 ### Список змін
 
 | Версія | Опис                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | dst_image і src_image тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
@@ -93,7 +93,7 @@ y-координата вихідного зображення.
 
 У цьому прикладі зображення буде стисло до половини вихідного розміру.
 
-` <?php// файл$filename u003d 'test.jpg';$percent u003d 0.5;// тип вмістуheader('Content-Type: image/jpeg');// отримання нових розмірівlist($width, $height getimagesize($filename);$new_width u003d $width * $percent;$new_height u003d $height * $percent;// ресемплювання$image_p u003d imagecreatetruecolor($rew $image_p, $image, 0, 0, 0, 0, $new_width, $new_height, $width, $height);// виведенняimagejpeg($image_p, null, 100);?> `
+` <?php// файл$filename = 'test.jpg';$percent = 0.5;// тип вмістуheader('Content-Type: image/jpeg');// отримання нових розмірівlist($width, $height getimagesize($filename);$new_width = $width * $percent;$new_height = $height * $percent;// ресемплювання$image_p = imagecreatetruecolor($rew $image_p, $image, 0, 0, 0, 0, $new_width, $new_height, $width, $height);// виведенняimagejpeg($image_p, null, 100);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -104,7 +104,7 @@ y-координата вихідного зображення.
 У цьому прикладі зображення буде стиснуто до 200 пікселів за шириною або
 висоті, дивлячись що більше.
 
-` <?php// файл$filename u003d 'test.jpg';// завдання максимальної ширини і висоти$width u003d 200;$height u003d 200;// тип вмістheader('Content-Type:' / отримання нових розмірівlist($width_orig, $height_orig) u003d getimagesize($filename);$ratio_orig u003d $width_orig/$height_orig;if ($width/$height > $ratio_or    {   $height u003d $width/$ratio_orig;}// ресемплювання$image_p u003d imagecreatetruecolor($width, $height);$image u003d imagecreatefromjpeg($filename);imagecopyresampled($image, 0 , $width, $height, $width_orig, $height_orig);// виведенняimagejpeg($image_p, null, 100);?> `
+` <?php// файл$filename = 'test.jpg';// завдання максимальної ширини і висоти$width = 200;$height = 200;// тип вмістheader('Content-Type:' / отримання нових розмірівlist($width_orig, $height_orig) = getimagesize($filename);$ratio_orig = $width_orig/$height_orig;if ($width/$height > $ratio_or    {   $height = $width/$ratio_orig;}// ресемплювання$image_p = imagecreatetruecolor($width, $height);$image = imagecreatefromjpeg($filename);imagecopyresampled($image, 0 , $width, $height, $width_orig, $height_orig);// виведенняimagejpeg($image_p, null, 100);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

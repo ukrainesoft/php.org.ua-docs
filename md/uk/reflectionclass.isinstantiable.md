@@ -31,7 +31,7 @@ public **ReflectionClass::isInstantiable**(): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::isInstantiable()****
 
-` <?phpclass C { }interface iface {    function f1();}class ifaceImpl implements iface {    function f1() {}}abstract class abstractClass {    function f1() { }    abstract function f2();}class D extends abstractClass { function f2() { }}trait T {    function f1() {}}class privateConstructor {    private function __construct() { }}$classes u003d array(    "C",    "iface",    "ifaceImpl",    "abstractClass",    " D",   "T",    "privateConstructor",);foreach($classes  as $class ) {    $reflectionClass u003d new ReflectionClass($class); echo "Можна ли створити примірник класу $class?  "; var_dump($reflectionClass->isInstantiable());}?> `
+` <?phpclass C { }interface iface {    function f1();}class ifaceImpl implements iface {    function f1() {}}abstract class abstractClass {    function f1() { }    abstract function f2();}class D extends abstractClass { function f2() { }}trait T {    function f1() {}}class privateConstructor {    private function __construct() { }}$classes = array(    "C",    "iface",    "ifaceImpl",    "abstractClass",    " D",   "T",    "privateConstructor",);foreach($classes  as $class ) {    $reflectionClass = new ReflectionClass($class); echo "Можна ли створити примірник класу $class?  "; var_dump($reflectionClass->isInstantiable());}?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::abortTransaction
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\Driver\Session::abortTransaction - Перериває транзакцію
 

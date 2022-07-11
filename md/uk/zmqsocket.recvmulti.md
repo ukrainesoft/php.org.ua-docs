@@ -7,14 +7,14 @@
 
 # ZMQSocket::recvMulti
 
-(PECL zmq \>u003d 0.8.0)
+(PECL zmq \>= 0.8.0)
 
 ZMQSocket::recvMulti — Отримати повідомлення, що складається з кількох
 частин
 
 ### Опис
 
-public **ZMQSocket::recvMulti**(int `$mode` u003d 0): array
+public **ZMQSocket::recvMulti**(int `$mode` = 0): array
 
 Отримує масив із повідомленням із сокету. За замовчуванням отримання буде
 блокуватися до тих пір, поки повідомлення не буде доступне, тільки якщо

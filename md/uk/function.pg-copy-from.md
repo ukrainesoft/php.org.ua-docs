@@ -7,7 +7,7 @@
 
 #pg_copy_from
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_copy_from — Вставляє записи з масиву до таблиці
 
@@ -17,8 +17,8 @@ pg_copy_from — Вставляє записи з масиву до таблиц
 [PgSql\Connection](class.pgsql-connection.md) `$connection`,
 string `$table_name`,
 array `$rows`,
-string `$separator` u003d " ",
-string `$null_as` u003d "\\\N"
+string `$separator` = " ",
+string `$null_as` = "\\\N"
 ): bool
 
 **pg_copy_from()** вставляє записи в таблицю з масиву `rows`. В ході
@@ -55,14 +55,14 @@ string `$null_as` u003d "\\\N"
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_copy_from()****
 
-` <?php  $db u003d pg_connect("dbnameu003dpublisher") or die("Не удалося підключитися"); $rowsu003du003dpg_copy_to($db,$table_name); pg_query($db, "DELETE FROM $table_name"); pg_copy_from($db, $table_name, $rows);?> `
+` <?php  $db = pg_connect("dbname=publisher") or die("Не удалося підключитися"); $rows==pg_copy_to($db,$table_name); pg_query($db, "DELETE FROM $table_name"); pg_copy_from($db, $table_name, $rows);?> `
 
 ### Дивіться також
 

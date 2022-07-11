@@ -7,14 +7,14 @@
 
 # MongoDB\Driver\ReadConcern::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\ReadConcern::\_\_construct — Створює новий ReadConcern
 
 ### Опис
 
 final public **MongoDB\Driver\ReadConcern::\_\_construct**(string
-`$level` u003d ?)
+`$level` = ?)
 
 Створює новий
 [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md),
@@ -36,7 +36,7 @@ final public **MongoDB\Driver\ReadConcern::\_\_construct**(string
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadConcern::\_\_construct()****
 
-`<?php/* Незазначений рівень ізоляції читання (використовує поведінка сервера за мовчанням) */$rc u003d new MongoDB\Driver\ReadConcern();/* Запрошуємо пропуск \ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);/* Запрошуємо ізоляцію читання від більшості вузлів набору реплік */$rc u003d new MongoDB\Driver\ReadConcern(MongoDB
+`<?php/* Незазначений рівень ізоляції читання (використовує поведінка сервера за мовчанням) */$rc = new MongoDB\Driver\ReadConcern();/* Запрошуємо пропуск \ReadConcern(MongoDB\Driver\ReadConcern::LOCAL);/* Запрошуємо ізоляцію читання від більшості вузлів набору реплік */$rc = new MongoDB\Driver\ReadConcern(MongoDB
 
 ### Дивіться також
 

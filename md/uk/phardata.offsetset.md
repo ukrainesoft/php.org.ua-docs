@@ -7,7 +7,7 @@
 
 # PharData::offsetSet
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::offsetSet — Зміна вмісту файлу
 
@@ -44,7 +44,7 @@ public **PharData::offsetSet**(string `$localName`, resource\|string
 
 offsetSet не потрібно викликати безпосередньо. Використовуйте синтаксис `[]`.
 
-` <?php$p u003d new PharData('/path/to/my.tar');try {    //  виклик offsetSet    $p['file.txt'] u003d 'Привіт';} catch (Exception echo 'Не удалося змінити file.txt:', $e;}?> `
+` <?php$p = new PharData('/path/to/my.tar');try {    //  виклик offsetSet    $p['file.txt'] = 'Привіт';} catch (Exception echo 'Не удалося змінити file.txt:', $e;}?> `
 
 ### Примітки
 

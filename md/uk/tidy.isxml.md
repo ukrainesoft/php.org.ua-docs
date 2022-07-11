@@ -10,7 +10,7 @@ HTML/XHTML)
 
 # tidy_is_xml
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy::isXml -- tidy_is_xml — Визначає, чи є документ спільним
 XML-документом (не HTML/XHTML)

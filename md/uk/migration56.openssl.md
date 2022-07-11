@@ -76,18 +76,18 @@ RC4.
 якщо опція контексту SSL `capture_session_meta` встановлена як
 **`true`**.
 
-` <?php$ctx u003d stream_context_create(['ssl' u003d> [    'capture_session_meta' u003d> TRUE]]);$html u003d file_get_contents('https://google.com/', FALSE,$ u003d stream_context_get_options($ctx)['ssl']['session_meta'];var_dump($meta);?> `
+` <?php$ctx = stream_context_create(['ssl' => [    'capture_session_meta' => TRUE]]);$html = file_get_contents('https://google.com/', FALSE,$ = stream_context_get_options($ctx)['ssl']['session_meta'];var_dump($meta);?> `
 
 Результат виконання цього прикладу:
 
 array(4) {
-["protocol"]u003d>
+["protocol"]=>
 string(5) "TLSv1"
-["cipher_name"]u003d>
+["cipher_name"]=>
 string(20) "ECDHE-RSA-AES128-SHA"
-["cipher_bits"]u003d>
+["cipher_bits"]=>
 int(128)
-["cipher_version"]u003d>
+["cipher_version"]=>
 string(11) "TLSv1/SSLv3"
 }
 
@@ -146,7 +146,7 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 
 **Вибрана версія протоколу та відповідні опції**
 
-` <?php// Требуется TLS 1.0 или выше для использования file_get_contents():$ctx u003d stream_context_create([    'ssl' u003d> [        'crypto_method' u003d> STREAM_CRYPTO_METHOD_TLS_CLIENT,    ],]);$html u003d file_get_contents('https:/ /google.com/', false, $ctx);// Требуется TLS 1.1 или 1.2:$ctx u003d stream_context_create([    'ssl' u003d> [        'crypto_method' u003d> STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT |                           STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT,    ],]);$html u003d file_get_contents('https://google.com/', false, $ctx);// Сполучаємось з використанням транспорту струмового сокету tlsv1.2://$sock u003d stream_socket_client('tlsv1.2://google. / ');?> `
+` <?php// Требуется TLS 1.0 или выше для использования file_get_contents():$ctx = stream_context_create([    'ssl' => [        'crypto_method' => STREAM_CRYPTO_METHOD_TLS_CLIENT,    ],]);$html = file_get_contents('https:/ /google.com/', false, $ctx);// Требуется TLS 1.1 или 1.2:$ctx = stream_context_create([    'ssl' => [        'crypto_method' => STREAM_CRYPTO_METHOD_TLSv1_1_CLIENT |                           STREAM_CRYPTO_METHOD_TLSv1_2_CLIENT,    ],]);$html = file_get_contents('https://google.com/', false, $ctx);// Сполучаємось з використанням транспорту струмового сокету tlsv1.2://$sock = stream_socket_client('tlsv1.2://google. / ');?> `
 
 ### Додана функція [openssl_get_cert_locations()](function.openssl-get-cert-locations.md)
 
@@ -160,21 +160,21 @@ openssl dhparam -out /path/to/my/certs/dh-2048.pem 2048
 Результат виконання цього прикладу:
 
 array(8) {
-["default_cert_file"]u003d>
+["default_cert_file"]=>
 string(21) "/etc/pki/tls/cert.pem"
-["default_cert_file_env"]u003d>
+["default_cert_file_env"]=>
 string(13) "SSL_CERT_FILE"
-["default_cert_dir"]u003d>
+["default_cert_dir"]=>
 string(18) "/etc/pki/tls/certs"
-["default_cert_dir_env"]u003d>
+["default_cert_dir_env"]=>
 string(12) "SSL_CERT_DIR"
-["default_private_dir"]u003d>
+["default_private_dir"]=>
 string(20) "/etc/pki/tls/private"
-["default_default_cert_area"]u003d>
+["default_default_cert_area"]=>
 string(12) "/etc/pki/tls"
-["ini_cafile"]u003d>
+["ini_cafile"]=>
 string(0) ""
-["ini_capath"]u003d>
+["ini_capath"]=>
 string(0) ""
 }
 
@@ -193,21 +193,21 @@ string(0) ""
 Генерація нового SPKAC з використанням приватного ключа
 розпізнавального рядка та алгоритму хешування.
 
-` <?php$pkey u003d openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac u003d openssl_spki_new($pkey, 'challenge string');?> `
+` <?php$pkey = openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac = openssl_spki_new($pkey, 'challenge string');?> `
 
 Результат виконання цього прикладу:
 
-SPKACu003dMIIBXjCByDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3L0IfUijj7+A8CPC8EmhcdNoe5fUAog7OrBdhn7EkxFButUp40P7+LiYiygYG1TmoI/a5EgsLU3s9twEz3hmgY9mYIqb/rb+SF8qlD/K6KVyUORC7Wlz1Df4L8O3DuRGzx6/+3jIW6cPBpfgH1sVuYS1vDBsP/gMMIxwTsKJ4P0CAwEAARYkYjViMzYxMTktNjY5YS00ZDljLWEyYzctMGZjNGFhMjVlMmE2MA0GCSqGSIb3DQEBAwUAA4GBAF7hu0ifzmjonhAak2FhhBRsKFDzXdKIkrWxVNe8e0bZzMrWOxFM/rqBgeH3/gtOUDRS5Fnzyq425UsTYbjfiKzxGeCYCQJb1KJ2V5Ij/mIJHZr53WYEXHQTNMGR8RPm7IxwVXVSHIgAfXsXZ9IXNbFbcaLRiSTr9/N4U+MXUWL7
+SPKAC=MIIBXjCByDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA3L0IfUijj7+A8CPC8EmhcdNoe5fUAog7OrBdhn7EkxFButUp40P7+LiYiygYG1TmoI/a5EgsLU3s9twEz3hmgY9mYIqb/rb+SF8qlD/K6KVyUORC7Wlz1Df4L8O3DuRGzx6/+3jIW6cPBpfgH1sVuYS1vDBsP/gMMIxwTsKJ4P0CAwEAARYkYjViMzYxMTktNjY5YS00ZDljLWEyYzctMGZjNGFhMjVlMmE2MA0GCSqGSIb3DQEBAwUAA4GBAF7hu0ifzmjonhAak2FhhBRsKFDzXdKIkrWxVNe8e0bZzMrWOxFM/rqBgeH3/gtOUDRS5Fnzyq425UsTYbjfiKzxGeCYCQJb1KJ2V5Ij/mIJHZr53WYEXHQTNMGR8RPm7IxwVXVSHIgAfXsXZ9IXNbFbcaLRiSTr9/N4U+MXUWL7
 
 `openssl_spki_verify`
 Перевірка наданого SPKAC.
 
-` <?php$pkey u003dopenssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac u003d openssl_spki_new($pkey, 'challenge string');var_dump(ka
+` <?php$pkey =openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac = openssl_spki_new($pkey, 'challenge string');var_dump(ka
 
 `openssl_spki_export_challenge`
 Експорт пов'язаного розпізнавального рядка із наданого SPKAC.
 
-`<?php$pkey u003d openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac u003d openssl_spki_new($pkey, 'challenge string')_$challenge > `
+`<?php$pkey = openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac = openssl_spki_new($pkey, 'challenge string')_$challenge > `
 
 Результат виконання цього прикладу:
 
@@ -216,7 +216,7 @@ challenge string
 `openssl_spki_export`
 Експорт публічного ключа RSA у форматі SPKAC.
 
-` <?php$pkey u003d openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac u003d openssl_spki_new($pkey, 'challenge string');echo$>
+` <?php$pkey = openssl_pkey_new();openssl_pkey_export($pkey, 'secret passphrase');$spkac = openssl_spki_new($pkey, 'challenge string');echo$>
 
 Результат виконання цього прикладу:
 

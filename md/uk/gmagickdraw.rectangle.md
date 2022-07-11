@@ -7,7 +7,7 @@
 
 # GmagickDraw::rectangle
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::rectangle — Малює прямокутник
 

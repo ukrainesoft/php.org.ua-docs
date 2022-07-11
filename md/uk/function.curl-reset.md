@@ -7,7 +7,7 @@
 
 #curl_reset
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 curl_reset — Скинути всі налаштування обробника сесії libcurl
 
@@ -30,14 +30,14 @@ curl_reset — Скинути всі налаштування обробника
 ### Список змін
 
 | Версія | Опис                                                                                                  |
-| ------ | ----------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------|
 | 8.0.0  | handle тепер чекає екземпляр [CurlHandle](class.curlhandle.md); раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **curl_reset()****
 
-`<?php//Створюємо обробник curl$ch u003d curl_init();// Встановлюємо опцію CURLOPT_USERAGENTcurl_setopt($ch, CURLOPT_USERAGENT, "My test user| запит HTTPcurl_setopt($ch, CURLOPT_URL, 'http://example.com/');curl_exec($ch); // встановлений раніше user-agent скинуто// Закриваємо обробникcurl_close($ch);?> `
+`<?php//Створюємо обробник curl$ch = curl_init();// Встановлюємо опцію CURLOPT_USERAGENTcurl_setopt($ch, CURLOPT_USERAGENT, "My test user| запит HTTPcurl_setopt($ch, CURLOPT_URL, 'http://example.com/');curl_exec($ch); // встановлений раніше user-agent скинуто// Закриваємо обробникcurl_close($ch);?> `
 
 ### Примітки
 

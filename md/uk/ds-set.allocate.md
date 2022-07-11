@@ -7,7 +7,7 @@
 
 # Ds\Set::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::allocate — Виділяє пам'ять під зазначену місткість
 
@@ -39,7 +39,7 @@ public **Ds\Set::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Set::allocate()****
 
-` <?php$set u003d new \Ds\Set();var_dump($set->capacity());$set->allocate(100);var_dump($set->capacity());?> `
+` <?php$set = new \Ds\Set();var_dump($set->capacity());$set->allocate(100);var_dump($set->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

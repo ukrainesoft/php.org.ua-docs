@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ClientEncryption::encrypt
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\ClientEncryption::encrypt — Шифрує дані
 
@@ -15,7 +15,7 @@ MongoDB\Driver\ClientEncryption::encrypt — Шифрує дані
 
 final public
 **MongoDB\Driver\ClientEncryption::encrypt**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, array `$options` u003d ?):
+`$value`, array `$options` = ?):
 [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)
 
 Шифрує дані.
@@ -46,7 +46,7 @@ final public
 ### Список змін
 
 | Версія              | Опис                                          |
-| ------------------- | --------------------------------------------- |
+|---------------------|-----------------------------------------------|
 | PECL mongodb 1.14.0 | Додані опції contentionFactor' та queryType'. |
 
 ### Дивіться також

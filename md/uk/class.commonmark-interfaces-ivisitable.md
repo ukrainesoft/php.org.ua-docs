@@ -7,7 +7,7 @@
 
 # Інтерфейс CommonMark \ Interfaces \ IVisitable
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 ## Вступ
 

@@ -7,7 +7,7 @@
 
 #xmlrpc_server_register_introspection_callback
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7)
 
 xmlrpc_server_register_introspection_callback — Реєструє функцію PHP
 для генерації документації

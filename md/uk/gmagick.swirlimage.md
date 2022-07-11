@@ -7,7 +7,7 @@
 
 # Gmagick::swirlimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::swirlimage — Закручує пікселі навколо центру зображення
 

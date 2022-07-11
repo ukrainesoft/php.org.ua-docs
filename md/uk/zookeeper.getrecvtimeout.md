@@ -10,7 +10,7 @@
 
 # Zookeeper::getRecvTimeout
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::getRecvTimeout — Повертає час очікування для сесії,
 дійсний тільки якщо підключення в даний час підключено

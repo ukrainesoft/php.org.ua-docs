@@ -33,7 +33,7 @@ public **DirectoryIterator::getType**(): string
 
 **Приклад #1 Приклад використання **DirectoryIterator::getType()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {   echo $fileinfo->getFilename() . " " . $fileinfo->getType() . "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {   echo $fileinfo->getFilename() . " " . $fileinfo->getType() . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

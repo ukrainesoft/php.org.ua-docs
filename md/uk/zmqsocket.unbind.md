@@ -7,7 +7,7 @@
 
 # ZMQSocket::unbind
 
-(PECL zmq \>u003d 1.0.4)
+(PECL zmq \>= 1.0.4)
 
 ZMQSocket::unbind — Відв'язати сокет
 

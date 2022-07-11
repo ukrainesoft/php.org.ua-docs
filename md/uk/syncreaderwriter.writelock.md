@@ -7,13 +7,13 @@
 
 # SyncReaderWriter::writelock
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncReaderWriter::writelock — Очікує ексклюзивного блокування запису
 
 ### Опис
 
-public **SyncReaderWriter::writelock**(int `$wait` u003d -1): bool
+public **SyncReaderWriter::writelock**(int `$wait` = -1): bool
 
 Отримує ексклюзивне блокування запису для об'єкту
 [SyncReaderWriter](class.syncreaderwriter.md).
@@ -32,7 +32,7 @@ public **SyncReaderWriter::writelock**(int `$wait` u003d -1): bool
 
 **Приклад #1 Приклад використання **SyncReaderWriter::writelock()****
 
-` <?php$readwrite u003d new SyncReaderWriter("FileCacheLock");$readwrite->writelock();/* ... */$readwrite->writeunlock();?> `
+` <?php$readwrite = new SyncReaderWriter("FileCacheLock");$readwrite->writelock();/* ... */$readwrite->writeunlock();?> `
 
 ### Дивіться також
 

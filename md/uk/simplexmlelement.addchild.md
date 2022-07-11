@@ -7,14 +7,14 @@
 
 # SimpleXMLElement::addChild
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 SimpleXMLElement::addChild — Додає дочірній елемент до сайту XML
 
 ### Опис
 
 public **SimpleXMLElement::addChild**(string `$qualifiedName`, ?string
-`$value` u003d **`null`**, ?string `$namespace` u003d **`null`**):
+`$value` = **`null`**, ?string `$namespace` = **`null`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 Додає дочірній елемент до вузла та повертає нащадка SimpleXMLElement.
@@ -48,12 +48,12 @@ public **SimpleXMLElement::addChild**(string `$qualifiedName`, ?string
 
 **Приклад #1 Додавання атрибутів та нащадків до елемента SimpleXML**
 
-` <?phpinclude 'example.php';$sxe u003d new SimpleXMLElement($xmlstr);$sxe->addAttribute('type', 'documentary');$movie u003d $sxe->addChild('movie');$ movie->addChild('title', 'PHP2: Історії парсера');$movie->addChild('plot', 'Всі про людей, створювали його.');$characters u003d $movie->addChild(' );$character u003d $characters->addChild('character');$character->addChild('name', 'Mr. Parser');$character->addChild('actor', 'John Doe');$ rating u003d$movie->addChild('rating', '5');$rating->addAttribute('type', 'stars');echo $sxe->asXML();?> `
+` <?phpinclude 'example.php';$sxe = new SimpleXMLElement($xmlstr);$sxe->addAttribute('type', 'documentary');$movie = $sxe->addChild('movie');$ movie->addChild('title', 'PHP2: Історії парсера');$movie->addChild('plot', 'Всі про людей, створювали його.');$characters = $movie->addChild(' );$character = $characters->addChild('character');$character->addChild('name', 'Mr. Parser');$character->addChild('actor', 'John Doe');$ rating =$movie->addChild('rating', '5');$rating->addAttribute('type', 'stars');echo $sxe->asXML();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-<?xml versionu003d"1.0" standaloneu003d"yes"?>
-<movies typeu003d"documentary">
+<?xml version="1.0" standalone="yes"?>
+<movies type="documentary">
 <movie>
 <title>PHP: Поява Парсера</title>
 <characters>
@@ -74,8 +74,8 @@ public **SimpleXMLElement::addChild**(string `$qualifiedName`, ?string
 <great-lines>
 <line>PHP вирішує всі мої завдання на web</line>
 </great-lines>
-<rating typeu003d"thumbs">7</rating>
-<rating typeu003d"stars">5</rating>
+<rating type="thumbs">7</rating>
+<rating type="stars">5</rating>
 </movie>
 <movie>
 <title>PHP2: Історії парсера</title>
@@ -86,7 +86,7 @@ public **SimpleXMLElement::addChild**(string `$qualifiedName`, ?string
 <actor>John Doe</actor>
 </character>
 </characters>
-<rating typeu003d"stars">5</rating>
+<rating type="stars">5</rating>
 </movie>
 </movies>
 

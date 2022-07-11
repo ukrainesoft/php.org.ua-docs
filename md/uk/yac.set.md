@@ -7,7 +7,7 @@
 
 # Yac::set
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 Yac::set — Зберігає у кеш
 
@@ -15,7 +15,7 @@ Yac::set — Зберігає у кеш
 
 public **Yac::set**(string `$keys`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$ttl` u003d 0): bool
+`$value`, int `$ttl` = 0): bool
 
 public [Yac::add](yac.add.md)(array `$key_vals`): bool
 

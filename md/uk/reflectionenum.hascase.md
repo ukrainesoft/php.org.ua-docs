@@ -7,7 +7,7 @@
 
 # ReflectionEnum::hasCase
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnum::hasCase — Перевіряє варіант перерахування
 
@@ -31,7 +31,7 @@ public **ReflectionEnum::hasCase**(string `$name`): bool
 
 **Приклад #1 Приклад використання **ReflectionEnum::hasCase()****
 
-`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum u003d new ReflectionEnum(Suit::class);var_dump($rEnum->hasCase('Hearts'));var_dump($rEnum->hasCase('Horseshoes'));?> `
+`<?phpenum Suit{    case Hearts; case Diamonds; case Clubs; case Spades;}$rEnum = new ReflectionEnum(Suit::class);var_dump($rEnum->hasCase('Hearts'));var_dump($rEnum->hasCase('Horseshoes'));?> `
 
 Результат виконання цього прикладу:
 

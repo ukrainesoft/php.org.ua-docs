@@ -18,25 +18,25 @@
 перезаписуватись, якщо явний ключ перетинався з послідовним неявним
 ключем. Наприклад:
 
-`<?phpclass C {    const ONE u003d 1; public $array u003d [        self::ONE u003d> 'foo',        'bar',        'quux',    |
+`<?phpclass C {    const ONE = 1; public $array = [        self::ONE => 'foo',        'bar',        'quux',    |
 
 Результат виконання цього прикладу в PHP 5.5:
 
 array(2) {
-[0]u003d>
+[0]=>
 string(3) "bar"
-[1]u003d>
+[1]=>
 string(4) "quux"
 }
 
 Результат виконання цього прикладу в PHP 5.6:
 
 array(3) {
-[1]u003d>
+[1]=>
 string(3) "foo"
-[2]u003d>
+[2]=>
 string(3) "bar"
-[3]u003d>
+[3]=>
 string(4) "quux"
 }
 

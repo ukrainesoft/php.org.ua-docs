@@ -7,7 +7,7 @@
 
 # Yaf_View_Simple::assign
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_View_Simple::assign — Призначити значення
 
@@ -15,7 +15,7 @@ Yaf_View_Simple::assign — Призначити значення
 
 public **Yaf_View_Simple::assign**(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value u003d ?): bool
+$value = ?): bool
 
 Призначає змінну для двигуна відображення
 
@@ -35,11 +35,11 @@ $value u003d ?): bool
 
 **Приклад #1 Приклад використання **Yaf_View_Simple::assign()****
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->assign("foo", "bar"); $this->_view->assign( array( "key" u003d> "value", "name" u003d> "value")); }}?> `
+` <?phpclass IndexController extends Yaf_Controller_Abstract {    public function indexAction() {        $this->getView()->assign("foo", "bar"); $this->_view->assign( array( "key" => "value", "name" => "value")); }}?> `
 
 **Приклад #2 Приклад використання **template()****
 
-`<html> <head>  <title><?php echo $foo; ?></title> </head><body>  <?php  foreach ($this->_tpl_vars as $name u003d> $value) {   echo $$name; // або echo $this->_tpl_vars[$name]; }  ?></body></html>`
+`<html> <head>  <title><?php echo $foo; ?></title> </head><body>  <?php  foreach ($this->_tpl_vars as $name => $value) {   echo $$name; // або echo $this->_tpl_vars[$name]; }  ?></body></html>`
 
 ### Дивіться також
 

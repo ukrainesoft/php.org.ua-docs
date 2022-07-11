@@ -7,7 +7,7 @@
 
 # EvTimer::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvTimer::createStopped — Створює зупинений спостерігач EvTimer
 
@@ -19,8 +19,8 @@ float `$repeat`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvTimer](class.evtimer.md)
 
 Створює зупинений спостерігач EvTimer. На відміну від
@@ -56,8 +56,8 @@ int `$priority` u003d 0
 **Приклад #1 Стежте за змінами /var/log/messages. Уникаємо
 пропущені оновлення із затримкою в одну секунду**
 
-`<?php$timer u003d EvTimer::createStopped(0., 1.02, function ($w) {    $w->stop();   $stat u003d $w->daта; з| з| "Поточний розмір: %ld
-", $stat->attr()['size']);});$stat u003d new EvStat("/var/log/messages", 0., function () use ($timer) {    // Скидання таймера спостерігача    $timer->again();});$timer->data u003d $stat;Ev::run();?> `
+`<?php$timer = EvTimer::createStopped(0., 1.02, function ($w) {    $w->stop();   $stat = $w->daта; з| з| "Поточний розмір: %ld
+", $stat->attr()['size']);});$stat = new EvStat("/var/log/messages", 0., function () use ($timer) {    // Скидання таймера спостерігача    $timer->again();});$timer->data = $stat;Ev::run();?> `
 
 ### Дивіться також
 

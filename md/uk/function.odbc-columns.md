@@ -15,10 +15,10 @@ odbc_columns — Перелік імен стовпців у вказаних т
 
 **odbc_columns**(
 resource `$odbc`,
-?string `$catalog` u003d **`null`**,
-?string `$schema` u003d **`null`**,
-?string `$table` u003d **`null`**,
-?string `$column` u003d **`null`**
+?string `$catalog` = **`null`**,
+?string `$schema` = **`null`**,
+?string `$table` = **`null`**,
+?string `$column` = **`null`**
 ): resource \ | false
 
 Перелічує усі стовпці у запитаному діапазоні.
@@ -81,37 +81,37 @@ resource `$odbc`,
 ### Список змін
 
 | Версія | Опис                                                    |
-| ------ | ------------------------------------------------------- |
+|--------|---------------------------------------------------------|
 | 8.0.0  | schema, table та column тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Перелік стовпців таблиці**
 
-` <?php$conn u003d odbc_connect($dsn, $user, $pass);$columns u003d odbc_columns($conn, 'TutorialDB', 'dbo', 'test', '%');while (($row u003d odbc_fetch_array($columns))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
+` <?php$conn = odbc_connect($dsn, $user, $pass);$columns = odbc_columns($conn, 'TutorialDB', 'dbo', 'test', '%');while (($row = odbc_fetch_array($columns))) {    print_r($row); break; // наступні рядки опущені для короткості}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[TABLE_CAT] u003d> TutorialDB
-[TABLE_SCHEM] u003d> dbo
-[TABLE_NAME] u003d> TEST
-[COLUMN_NAME] u003d> id
-[DATA_TYPE] u003d> 4
-[TYPE_NAME] u003d> int
-[COLUMN_SIZE] u003d> 10
-[BUFFER_LENGTH] u003d> 4
-[DECIMAL_DIGITS] u003d> 0
-[NUM_PREC_RADIX] u003d> 10
-[NULLABLE] u003d> 0
-[REMARKS] u003d>
-[COLUMN_DEF] u003d>
-[SQL_DATA_TYPE] u003d> 4
-[SQL_DATETIME_SUB] u003d>
-[CHAR_OCTET_LENGTH] u003d>
-[ORDINAL_POSITION] u003d> 1
-[IS_NULLABLE] u003d> NO
+[TABLE_CAT] => TutorialDB
+[TABLE_SCHEM] => dbo
+[TABLE_NAME] => TEST
+[COLUMN_NAME] => id
+[DATA_TYPE] => 4
+[TYPE_NAME] => int
+[COLUMN_SIZE] => 10
+[BUFFER_LENGTH] => 4
+[DECIMAL_DIGITS] => 0
+[NUM_PREC_RADIX] => 10
+[NULLABLE] => 0
+[REMARKS] =>
+[COLUMN_DEF] =>
+[SQL_DATA_TYPE] => 4
+[SQL_DATETIME_SUB] =>
+[CHAR_OCTET_LENGTH] =>
+[ORDINAL_POSITION] => 1
+[IS_NULLABLE] => NO
 )
 
 ### Дивіться також

@@ -14,7 +14,7 @@ CollectionFind::lockExclusive — Виконує операцію з EXCLUSIVE L
 ### Опис
 
 public **mysql_xdevapi\CollectionFind::lockExclusive**(int
-`$lock_waiting_option` u003d ?):
+`$lock_waiting_option` = ?):
 [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)
 
 Блокує виключно документ, інші транзакції блокуються з
@@ -51,4 +51,4 @@ public **mysql_xdevapi\CollectionFind::lockExclusive**(int
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionFind::lockExclusive()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema    u003d $session->getSchema("addressbook");$collection u003d $schema->createColle );$session->startTransaction();$result u003d $collection ->find("age > 50") ->lockExclusive() ->execute();// ... виконуємо операцію з об'єктом| розблокуємо документ$session->commit();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema    = $session->getSchema("addressbook");$collection = $schema->createColle );$session->startTransaction();$result = $collection ->find("age > 50") ->lockExclusive() ->execute();// ... виконуємо операцію з об'єктом| розблокуємо документ$session->commit();?> `

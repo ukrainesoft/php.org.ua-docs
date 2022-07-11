@@ -7,14 +7,14 @@
 
 # Phar::loadPhar
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::loadPhar — Завантажити phar-архів із псевдонімом
 
 ### Опис
 
 final public static **Phar::loadPhar**(string `$filename`, ?string
-`$alias` u003d **`null`**): bool
+`$alias` = **`null`**): bool
 
 Може використовуватись для завантаження зовнішнього Phar-архіву. Те, що для
 phar-архіва призначається псевдонім, що дозволяє надалі використовувати

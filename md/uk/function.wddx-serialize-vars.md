@@ -43,11 +43,11 @@ wddx_serialize_vars — Серіалізація змінних у пакет WD
 
 **Приклад #1 Приклад використання **wddx_serialize_vars()****
 
-` <?php$a u003d 1;$b u003d 5.5;$c u003d array("blue", "orange", "violet");$d u003d "colors";$clvars u003d array("c", "d ");echo wddx_serialize_vars("a", "b", $clvars);?> `
+` <?php$a = 1;$b = 5.5;$c = array("blue", "orange", "violet");$d = "colors";$clvars = array("c", "d ");echo wddx_serialize_vars("a", "b", $clvars);?> `
 
 Результат виконання цього прикладу:
 
-<wddxPacket versionu003d'1.0'><header/><data><struct><var nameu003d'a'><number>1</number></var>
-<var nameu003d'b'><number>5.5</number></var><var nameu003d'c'><array lengthu003d'3'>
+<wddxPacket version='1.0'><header/><data><struct><var name='a'><number>1</number></var>
+<var name='b'><number>5.5</number></var><var name='c'><array length='3'>
 <string>blue</string><string>orange</string><string>violet</string></array></var>
-<var nameu003d'd'><string>colors</string></var></struct></data></wddxPacket>
+<var name='d'><string>colors</string></var></struct></data></wddxPacket>

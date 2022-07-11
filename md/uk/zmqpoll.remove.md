@@ -7,7 +7,7 @@
 
 # ZMQPoll::remove
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQPoll::remove — Видалити елемент із пулу опитування
 

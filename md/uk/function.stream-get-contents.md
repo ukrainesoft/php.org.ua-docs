@@ -13,8 +13,8 @@ stream_get_contents — Читає частину потоку, що залиш�
 
 ### Опис
 
-**stream_get_contents**(resource `$stream`, ?int `$length` u003d **`null`**,
-int `$offset` u003d -1): string\|false
+**stream_get_contents**(resource `$stream`, ?int `$length` = **`null`**,
+int `$offset` = -1): string\|false
 
 Схожа на функцію
 [file_get_contents()](function.file-get-contents.md), за винятком
@@ -44,14 +44,14 @@ int `$offset` u003d -1): string\|false
 ### Список змін
 
 | Версія | Опис                                  |
-| ------ | ------------------------------------- |
+|--------|---------------------------------------|
 | 8.0.0  | length тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **stream_get_contents()****
 
-`<?phpif ($stream u003dfopen('http://www.example.com', 'r')) {    // вивести всю сторінку починаючи зі зміщення 10    echo stream_get  fclose($stream);}if ($stream u003d fopen('http://www.example.net', 'r')) {    // вивести перші 5 байт    echo stream_get_contents($stream, fclose($stream);}?> `
+`<?phpif ($stream =fopen('http://www.example.com', 'r')) {    // вивести всю сторінку починаючи зі зміщення 10    echo stream_get  fclose($stream);}if ($stream = fopen('http://www.example.net', 'r')) {    // вивести перші 5 байт    echo stream_get_contents($stream, fclose($stream);}?> `
 
 ### Примітки
 

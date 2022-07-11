@@ -25,7 +25,7 @@ const int `Alternate`;
 
 /\* Конструктор \*/
 
-public [\_\_construct](ui-draw-path.construct.md)(int `$mode` u003d
+public [\_\_construct](ui-draw-path.construct.md)(int `$mode` =
 UI\Draw\Path::Winding)
 
 /\* Методи \*/

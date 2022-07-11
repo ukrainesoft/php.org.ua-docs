@@ -7,7 +7,7 @@
 
 # Yaf_Application::execute
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::execute - Запустити callback-функцію
 
@@ -35,6 +35,6 @@ Callback-функція
 
 **Приклад #1 Приклад використання **Yaf_Application::execute()****
 
-`<?phpfunction main($argc, $argv) {}$config u003d array(   "application" u003d> array(        "directory" u003d>| ),  |  | * Yaf_Application */$application u003d new Yaf_Application($config);$application->execute("main", $argc, $argv);?> `
+`<?phpfunction main($argc, $argv) {}$config = array(   "application" => array(        "directory" =>| ),  |  | * Yaf_Application */$application = new Yaf_Application($config);$application->execute("main", $argc, $argv);?> `
 
 Результатом виконання цього прикладу буде щось подібне:

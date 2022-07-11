@@ -7,7 +7,7 @@
 
 # yaz_es
 
-(PECL yaz \>u003d 0.9.0)
+(PECL yaz \>= 0.9.0)
 
 yaz_es — Підготовка Extended Service Request
 
@@ -55,7 +55,7 @@ ZOOM [» Extended Services](http://www.indexdata.dk/yaz/doc/zoom.tkl).
 
 **Приклад #1 Приклад використання Record Update**
 
-` <?php$con u003d yaz_connect("myhost/database");$args u003d array (   "record" u003d> "<gils><title>some title</title></gils>",    "syntax" "xml",    "action" u003d> "specialUpdate");yaz_es($con, "update", $args);yaz_wait();$result u003d yaz_es_result($id);?> `
+` <?php$con = yaz_connect("myhost/database");$args = array (   "record" => "<gils><title>some title</title></gils>",    "syntax" "xml",    "action" => "specialUpdate");yaz_es($con, "update", $args);yaz_wait();$result = yaz_es_result($id);?> `
 
 ### Дивіться також
 

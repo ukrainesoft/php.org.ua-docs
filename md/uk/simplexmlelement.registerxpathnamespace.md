@@ -8,7 +8,7 @@ XPath
 
 # SimpleXMLElement::registerXPathNamespace
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SimpleXMLElement::registerXPathNamespace — Створює префікс/простір
 імен контексту для наступного запиту XPath
@@ -46,7 +46,7 @@ XPath. Зокрема це необхідно, якщо постачальник
 **Приклад #1 Встановлення префіксу простору імен для використання в
 запит XPath**
 
-`<?php$xml u003d <<<EOD<book xmlns:chapu003d"http://example.org/chapter-title">   <title>My Book</title>   <chapter idu003d"1">       :title>Chapter 1</chap:title>         <para>Donec velit. Nullam eget tellus vitae tortor gravida scelerisque. Inorci lorem, cursus imperdiet, ultricies non, hendrerit et, orci. Nulla facilisi. Nullam velit nisl, laoreet id, condimentum ut,            ultricies id, mauris.</para>    </chapter>    <chapter idu003d"2">        <chap:title>Chapter 2</chap:title>        <para>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin             gravida. Phasellus tincidunt massa vel urna. Proin adipiscing quam             vitae odio. Sed dictum. Ut tincidunt lorem ac lorem. Duis eros             tellus, pharetra id, faucibus eu, dapibus dictum, odio.</para>    </chapter></book>EOD;$sxe'u003d http://example.org/chapter-title');$result u003d $sxe->xpath('//c:title');foreach ($result as $title) { echo $title . "
+`<?php$xml = <<<EOD<book xmlns:chap="http://example.org/chapter-title">   <title>My Book</title>   <chapter id="1">       :title>Chapter 1</chap:title>         <para>Donec velit. Nullam eget tellus vitae tortor gravida scelerisque. Inorci lorem, cursus imperdiet, ultricies non, hendrerit et, orci. Nulla facilisi. Nullam velit nisl, laoreet id, condimentum ut,            ultricies id, mauris.</para>    </chapter>    <chapter id="2">        <chap:title>Chapter 2</chap:title>        <para>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin             gravida. Phasellus tincidunt massa vel urna. Proin adipiscing quam             vitae odio. Sed dictum. Ut tincidunt lorem ac lorem. Duis eros             tellus, pharetra id, faucibus eu, dapibus dictum, odio.</para>    </chapter></book>EOD;$sxe'= http://example.org/chapter-title');$result = $sxe->xpath('//c:title');foreach ($result as $title) { echo $title . "
 ";}?> `
 
 Результат виконання цього прикладу:

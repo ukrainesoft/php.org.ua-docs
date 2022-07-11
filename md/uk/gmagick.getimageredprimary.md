@@ -7,7 +7,7 @@
 
 # Gmagick::getimageredprimary
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageredprimary — Повертає первинну червону точку
 

@@ -7,7 +7,7 @@
 
 # SplFixedArray::getSize
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::getSize — Отримує розмір масиву
 
@@ -29,7 +29,7 @@ public **SplFixedArray::getSize**(): int
 
 **Приклад #1 Приклад використання **SplFixedArray::getSize()****
 
-` <?php$array u003d new SplFixedArray(5);echo $array->getSize()."
+` <?php$array = new SplFixedArray(5);echo $array->getSize()."
 ";$array->setSize(10);echo $array->getSize()."
 ";?> `
 

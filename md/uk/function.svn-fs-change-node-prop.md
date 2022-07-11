@@ -8,7 +8,7 @@
 
 # svn_fs_change_node_prop
 
-(PECL svn \>u003d 0.2.0)
+(PECL svn \>= 0.2.0)
 
 svn_fs_change_node_prop — Повертає **`true`**, якщо операція пройшла
 успішно або **`false`** інакше

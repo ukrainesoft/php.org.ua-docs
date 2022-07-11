@@ -39,7 +39,7 @@ public **DOMNodeList::item**(int `$index`):
 
 **Приклад #1 Виведення вмісту таблиці**
 
-` <?php$doc u003d new DOMDocument;$doc->load('book.xml');$items u003d $doc->getElementsByTagName('entry');for ($i u003d 0; $i < $items- >length; $i++) {   echo $items->item($i)->nodeValue . "
+` <?php$doc = new DOMDocument;$doc->load('book.xml');$items = $doc->getElementsByTagName('entry');for ($i = 0; $i < $items- >length; $i++) {   echo $items->item($i)->nodeValue . "
 ";}?> `
 
 Крім того, можна скористатися

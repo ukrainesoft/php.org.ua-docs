@@ -33,25 +33,25 @@ public **ReflectionExtension::getFunctions**(): array
 **Приклад #1 Приклад використання
 **ReflectionExtension::getFunctions()****
 
-` <?php$dom u003d new ReflectionExtension('SimpleXML');print_r($dom->getFunctions());?> `
+` <?php$dom = new ReflectionExtension('SimpleXML');print_r($dom->getFunctions());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[simplexml_load_file] u003d> ReflectionFunction Object
+[simplexml_load_file] => ReflectionFunction Object
 (
-[name] u003d> simplexml_load_file
+[name] => simplexml_load_file
 )
 
-[simplexml_load_string] u003d> ReflectionFunction Object
+[simplexml_load_string] => ReflectionFunction Object
 (
-[name] u003d> simplexml_load_string
+[name] => simplexml_load_string
 )
 
-[simplexml_import_dom] u003d> ReflectionFunction Object
+[simplexml_import_dom] => ReflectionFunction Object
 (
-[name] u003d> simplexml_import_dom
+[name] => simplexml_import_dom
 )
 
 )

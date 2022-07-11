@@ -7,7 +7,7 @@
 
 #apache_request_headers
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 apache_request_headers — Отримує список усіх заголовків HTTP-запиту
 
@@ -30,14 +30,14 @@ apache_request_headers — Отримує список усіх заголовк
 ### Список змін
 
 | Версія | Опис                                   |
-| ------ | -------------------------------------- |
+|--------|----------------------------------------|
 | 7.3.0  | Ця функція стала доступною у SAPI FPM. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **apache_request_headers()****
 
-` <?php$headers u003d apache_request_headers();foreach ($headers as $header u003d> $value) {    echo "$header: $value <br />
+` <?php$headers = apache_request_headers();foreach ($headers as $header => $value) {    echo "$header: $value <br />
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

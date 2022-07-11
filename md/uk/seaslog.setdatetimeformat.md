@@ -7,7 +7,7 @@
 
 # SeasLog::setDatetimeFormat
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::setDatetimeFormat — Встановлює стиль формату дати та часу
 SeasLog

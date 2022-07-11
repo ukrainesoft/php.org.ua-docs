@@ -7,7 +7,7 @@
 
 #imagecolorclosesthwb
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecolorclosesthwb — отримання індексу кольору, що має заданий тон,
 білизну та затемнення
@@ -48,14 +48,14 @@ int `$blue`
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecolorclosesthwb()****
 
-`<?php$im u003d imagecreatefromgif('php.gif');echo 'HWB: ' . imagecolorclosesthwb($im, 116, 115, 152);imagedestroy($im);?> `
+`<?php$im = imagecreatefromgif('php.gif');echo 'HWB: ' . imagecolorclosesthwb($im, 116, 115, 152);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

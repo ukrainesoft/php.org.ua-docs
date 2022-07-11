@@ -7,7 +7,7 @@
 
 # Gmagick::getimagedelay
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagedelay — Отримує затримку зображення
 

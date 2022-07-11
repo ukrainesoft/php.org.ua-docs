@@ -7,7 +7,7 @@
 
 # Threaded::pop
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::pop — Обробка
 
@@ -30,7 +30,7 @@ public **Threaded::pop**(): bool
 **Приклад #1 Вилучення останнього елемента з таблиці властивостей пов'язаного
 об'єкта**
 
-` <?php$safe u003d new Threaded();while (count($safe) < 10)   $safe[] u003d count($safe);var_dump($safe->pop());?> `
+` <?php$safe = new Threaded();while (count($safe) < 10)   $safe[] = count($safe);var_dump($safe->pop());?> `
 
 Результат виконання цього прикладу:
 

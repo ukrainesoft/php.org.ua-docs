@@ -9,7 +9,7 @@
 
 # resourcebundle_get_error_code
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8, PECL intl \>u003d 2.0.0)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
 
 ResourceBundle::getErrorCode -- resourcebundle_get_error_code — Отримати
 останній код помилки пакета
@@ -40,11 +40,11 @@ public **ResourceBundle::getErrorCode**(): int
 
 **Приклад #1 Приклад використання **resourcebundle_get_error_code()****
 
-` <?php$r u003d resourcebundle_create( 'es', "/usr/share/data/myapp");echo$r['somestring'];if(intl_is_failure(resourcebundle_get_error_code($r))) {     пакета");}?> `
+` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo$r['somestring'];if(intl_is_failure(resourcebundle_get_error_code($r))) {     пакета");}?> `
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$r u003d new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r['somestring'];if(intl_is_failure(ResourceBundle::getErrorCode($r)))) { report_error("Помилка пакета");}?> `
+` <?php$r = new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r['somestring'];if(intl_is_failure(ResourceBundle::getErrorCode($r)))) { report_error("Помилка пакета");}?> `
 
 ### Дивіться також
 

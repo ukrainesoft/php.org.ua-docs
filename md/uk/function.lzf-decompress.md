@@ -7,7 +7,7 @@
 
 #lzf_decompress
 
-(PECL lzf \>u003d 0.1.0)
+(PECL lzf \>= 0.1.0)
 
 lzf_decompress — Розархівація LZF
 

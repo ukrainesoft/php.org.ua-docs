@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\BulkWrite::insert
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\BulkWrite::insert - Додати операцію вставки в порцію
 
@@ -39,7 +39,7 @@ public **MongoDB\Driver\BulkWrite::insert**(array\|object `$document`):
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                              |
-| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.3.0 | Завжди повертається '_id' для доданого документа. Раніше метод повертав значення лише якщо [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md) був створений. |
 
 ### Приклади
@@ -47,12 +47,12 @@ public **MongoDB\Driver\BulkWrite::insert**(array\|object `$document`):
 **Приклад #1 Приклад використання
 **MongoDB\Driver\BulkWrite::insert()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite;$document1 u003d ['title' u003d> 'one'];$document2 u003d ['_id' u003d> 'custom ID', 'title' u003d> ];$document3 u003d ['_id' u003d> new MongoDB\BSON\ObjectId, 'title' u003d> 'three'];$_id1 u003d $bulk->insert($document1);$_id2 u003d $bulk->ins $document2); $_id3 u003d u003d $ bulk-> insert ($ document 3); $result u003d $manager->executeBulkWrite('db.collection', $bulk);?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite;$document1 = ['title' => 'one'];$document2 = ['_id' => 'custom ID', 'title' => ];$document3 = ['_id' => new MongoDB\BSON\ObjectId, 'title' => 'three'];$_id1 = $bulk->insert($document1);$_id2 = $bulk->ins $document2); $_id3 = = $ bulk-> insert ($ document 3); $result = $manager->executeBulkWrite('db.collection', $bulk);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\BSON\ObjectId)#3 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "54d51146bd21b91405401d92"
 }
 NULL

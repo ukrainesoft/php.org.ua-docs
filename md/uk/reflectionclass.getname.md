@@ -29,7 +29,7 @@ public **ReflectionClass::getName**(): string
 
 **Приклад #1 Приклад використання **ReflectionClass::getName()****
 
-` <?phpnamespace A\B;class Foo { }$function u003d new \ReflectionClass('stdClass');var_dump($function->inNamespace());var_dump($function->getName());var_dump($function ->getNamespaceName());var_dump($function->getShortName());$function u003d new \ReflectionClass('A\B\Foo');var_dump($function->inNamespace());var_dump($function- >getName());var_dump($function->getNamespaceName());var_dump($function->getShortName());?> `
+` <?phpnamespace A\B;class Foo { }$function = new \ReflectionClass('stdClass');var_dump($function->inNamespace());var_dump($function->getName());var_dump($function ->getNamespaceName());var_dump($function->getShortName());$function = new \ReflectionClass('A\B\Foo');var_dump($function->inNamespace());var_dump($function- >getName());var_dump($function->getNamespaceName());var_dump($function->getShortName());?> `
 
 Результат виконання цього прикладу:
 

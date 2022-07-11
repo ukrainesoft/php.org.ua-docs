@@ -7,7 +7,7 @@
 
 # ZipArchive::deleteIndex
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::deleteIndex — Видаляє елемент в архіві за допомогою його індексу.
 
@@ -31,4 +31,4 @@ public **ZipArchive::deleteIndex**(int `$index`): bool
 
 **Приклад #1 Видалити файл із архіву, використовуючи його індекс**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {   $zip->deleteIndex(2); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {   $zip->deleteIndex(2); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `

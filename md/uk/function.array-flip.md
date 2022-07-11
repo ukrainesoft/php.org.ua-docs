@@ -41,27 +41,27 @@ array_flip — Змінює місцями ключі зі своїми знач
 
 **Приклад #1 Приклад використання **array_flip()****
 
-` <?php$input u003d array("oranges", "apples", "pears");$flipped u003d array_flip($input);print_r($flipped);?> `
+` <?php$input = array("oranges", "apples", "pears");$flipped = array_flip($input);print_r($flipped);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[oranges] u003d> 0
-[apples] u003d> 1
-[pears] u003d> 2
+[oranges] => 0
+[apples] => 1
+[pears] => 2
 )
 
 **Приклад #2 Приклад використання **array_flip()** з колізіями**
 
-` <?php$input u003d array("a" u003d> 1, "b" u003d> 1, c" u003d> 2);$flipped u003d array_flip($input);print_r($flipped);?> `
+` <?php$input = array("a" => 1, "b" => 1, c" => 2);$flipped = array_flip($input);print_r($flipped);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[1] u003d> b
-[2] u003d> c
+[1] => b
+[2] => c
 )
 
 ### Дивіться також

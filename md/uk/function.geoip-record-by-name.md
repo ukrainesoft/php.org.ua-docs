@@ -7,7 +7,7 @@
 
 # geoip_record_by_name
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_record_by_name — Повертає докладну інформацію про адресу,
 знайденому у базі GeoIP
@@ -57,7 +57,7 @@ double).
 ### Список змін
 
 | Версія           | Опис                                                                           |
-| ---------------- | ------------------------------------------------------------------------------ |
+|------------------|--------------------------------------------------------------------------------|
 | PECL geoip 1.0.4 | Доданий код континенту (continent_code) із GeoIP Library 1.4.3 або новішими.   |
 | PECL geoip 1.0.3 | Доданий трилітерний код країни (country_code3) та назва країни (country_name). |
 
@@ -67,21 +67,21 @@ double).
 
 Виведе масив, який містить запис про хост example.com.
 
-` <?php$record u003d geoip_record_by_name('www.example.com');if ($record) {   print_r($record);}?> `
+` <?php$record = geoip_record_by_name('www.example.com');if ($record) {   print_r($record);}?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[continent_code] u003d> NA
-[country_code] u003d> US
-[country_code3] u003d> USA
-[country_name] u003d> United States
-[region] u003d> CA
-[City] u003d> Marina Del Rey
-[postal_code] u003d>
-[latitude] u003d> 33.9776992798
-[longitude] u003d> -118.435096741
-[dma_code] u003d> 803
-[area_code] u003d> 310
+[continent_code] => NA
+[country_code] => US
+[country_code3] => USA
+[country_name] => United States
+[region] => CA
+[City] => Marina Del Rey
+[postal_code] =>
+[latitude] => 33.9776992798
+[longitude] => -118.435096741
+[dma_code] => 803
+[area_code] => 310
 )

@@ -33,7 +33,7 @@ PDF.
 
 **Приклад #1 Заповнення PDF-документу**
 
-` <?php$outfdf u003dfdf_create();fdf_set_value($outfdf, "volume", $volume, 0);fdf_set_file($outfdf, "http:/testfdf/resultlabel.pdf");fdf_sa .fdf");fdf_close($outfdf);Header("Content-type: application/vnd.fdf");$fp u003d fopen("outtest.fdf", "r");fpassthru($fp);unlink( "outtest.fdf");?> `
+` <?php$outfdf =fdf_create();fdf_set_value($outfdf, "volume", $volume, 0);fdf_set_file($outfdf, "http:/testfdf/resultlabel.pdf");fdf_sa .fdf");fdf_close($outfdf);Header("Content-type: application/vnd.fdf");$fp = fopen("outtest.fdf", "r");fpassthru($fp);unlink( "outtest.fdf");?> `
 
 ### Дивіться також
 

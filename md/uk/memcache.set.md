@@ -7,7 +7,7 @@
 
 # Memcache::set
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::set — Зберегти дані на сервері
 
@@ -17,8 +17,8 @@ Memcache::set — Зберегти дані на сервері
 string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
-int `$flag` u003d ?,
-int `$expire` u003d ?
+int `$flag` = ?,
+int `$expire` = ?
 ): bool
 
 **Memcache::set()** записує елемент зі значенням `var` на сервері
@@ -66,11 +66,11 @@ memcached не гарантує що елемент буде постійно з
 
 **Приклад #1 Приклад використання **Memcache::set()****
 
-`<?php/* процедурне API *//* підключення к серверу memcached */$memcache_obj u003d memcache_connect('memcache_host', 11211),** життя 30 секунд*/memcache_set($memcache_obj, 'var_key', 'some variable', 0, 30);echo memcache_get($memcache_obj, 'var_key');?> `
+`<?php/* процедурне API *//* підключення к серверу memcached */$memcache_obj = memcache_connect('memcache_host', 11211),** життя 30 секунд*/memcache_set($memcache_obj, 'var_key', 'some variable', 0, 30);echo memcache_get($memcache_obj, 'var_key');?> `
 
 **Приклад #2 Приклад використання **Memcache::set()****
 
-`<?php/*об'єктно-орієнтоване API */$memcache_obj u003d new Memcache;/* підключення к серверу memcached */$memcache_obj->connect('memcache_host', 1; використовуючи стиснення "на лету" і часом життя 50 секунд. `
+`<?php/*об'єктно-орієнтоване API */$memcache_obj = new Memcache;/* підключення к серверу memcached */$memcache_obj->connect('memcache_host', 1; використовуючи стиснення "на лету" і часом життя 50 секунд. `
 
 ### Дивіться також
 

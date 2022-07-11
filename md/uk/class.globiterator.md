@@ -7,7 +7,7 @@
 
 # Клас GlobIterator
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,32 +22,32 @@ class **GlobIterator** extends
 
 /\* Успадковані константи \*/
 
-const int `FilesystemIterator::CURRENT_AS_PATHNAME` u003d 32;
+const int `FilesystemIterator::CURRENT_AS_PATHNAME` = 32;
 
-const int `FilesystemIterator::CURRENT_AS_FILEINFO` u003d 0;
+const int `FilesystemIterator::CURRENT_AS_FILEINFO` = 0;
 
-const int `FilesystemIterator::CURRENT_AS_SELF` u003d 16;
+const int `FilesystemIterator::CURRENT_AS_SELF` = 16;
 
-const int `FilesystemIterator::CURRENT_MODE_MASK` u003d 240;
+const int `FilesystemIterator::CURRENT_MODE_MASK` = 240;
 
-const int `FilesystemIterator::KEY_AS_PATHNAME` u003d 0;
+const int `FilesystemIterator::KEY_AS_PATHNAME` = 0;
 
-const int `FilesystemIterator::KEY_AS_FILENAME` u003d 256;
+const int `FilesystemIterator::KEY_AS_FILENAME` = 256;
 
-const int `FilesystemIterator::FOLLOW_SYMLINKS` u003d 512;
+const int `FilesystemIterator::FOLLOW_SYMLINKS` = 512;
 
-const int `FilesystemIterator::KEY_MODE_MASK` u003d 3840;
+const int `FilesystemIterator::KEY_MODE_MASK` = 3840;
 
-const int `FilesystemIterator::NEW_CURRENT_AND_KEY` u003d 256;
+const int `FilesystemIterator::NEW_CURRENT_AND_KEY` = 256;
 
-const int `FilesystemIterator::SKIP_DOTS` u003d 4096;
+const int `FilesystemIterator::SKIP_DOTS` = 4096;
 
-const int `FilesystemIterator::UNIX_PATHS` u003d 8192;
+const int `FilesystemIterator::UNIX_PATHS` = 8192;
 
 /\* Методи \*/
 
 public [\_\_construct](globiterator.construct.md)(string `$pattern`,
-int `$flags` u003d FilesystemIterator::KEY_AS_PATHNAME \|
+int `$flags` = FilesystemIterator::KEY_AS_PATHNAME \|
 FilesystemIterator::CURRENT_AS_FILEINFO)
 
 public [count](globiterator.count.md)(): int
@@ -79,7 +79,7 @@ int
 
 public
 [DirectoryIterator::getBasename](directoryiterator.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [DirectoryIterator::getCTime](directoryiterator.getctime.md)():
 int
@@ -162,7 +162,7 @@ public [DirectoryIterator::valid](directoryiterator.valid.md)(): bool
 public [SplFileInfo::getATime](splfileinfo.getatime.md)(): int\|false
 
 public [SplFileInfo::getBasename](splfileinfo.getbasename.md)(string
-`$suffix` u003d ""): string
+`$suffix` = ""): string
 
 public [SplFileInfo::getCTime](splfileinfo.getctime.md)(): int\|false
 
@@ -170,7 +170,7 @@ public [SplFileInfo::getExtension](splfileinfo.getextension.md)():
 string
 
 public [SplFileInfo::getFileInfo](splfileinfo.getfileinfo.md)(?string
-`$class` u003d **`null`**): [SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): [SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getFilename](splfileinfo.getfilename.md)():
 string
@@ -189,7 +189,7 @@ public [SplFileInfo::getOwner](splfileinfo.getowner.md)(): int\|false
 public [SplFileInfo::getPath](splfileinfo.getpath.md)(): string
 
 public [SplFileInfo::getPathInfo](splfileinfo.getpathinfo.md)(?string
-`$class` u003d **`null`**): ?[SplFileInfo](class.splfileinfo.md)
+`$class` = **`null`**): ?[SplFileInfo](class.splfileinfo.md)
 
 public [SplFileInfo::getPathname](splfileinfo.getpathname.md)():
 string
@@ -217,14 +217,14 @@ public [SplFileInfo::isReadable](splfileinfo.isreadable.md)(): bool
 public [SplFileInfo::isWritable](splfileinfo.iswritable.md)(): bool
 
 public [SplFileInfo::openFile](splfileinfo.openfile.md)(string `$mode`
-u003d "r", bool `$useIncludePath` u003d **`false`**, ?resource `$context` u003d
+= "r", bool `$useIncludePath` = **`false`**, ?resource `$context` =
 **`null`**): [SplFileObject](class.splfileobject.md)
 
 public [SplFileInfo::setFileClass](splfileinfo.setfileclass.md)(string
-`$class` u003d SplFileObject::class): void
+`$class` = SplFileObject::class): void
 
 public [SplFileInfo::setInfoClass](splfileinfo.setinfoclass.md)(string
-`$class` u003d SplFileInfo::class): void
+`$class` = SplFileInfo::class): void
 
 public [SplFileInfo::\_\_toString](splfileinfo.tostring.md)(): string
 

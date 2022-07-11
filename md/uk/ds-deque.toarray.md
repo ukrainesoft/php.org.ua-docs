@@ -7,7 +7,7 @@
 
 # Ds\Deque::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::toArray — Перетворює двосторонню чергу на масив (array)
 
@@ -34,15 +34,15 @@ public **Ds\Deque::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Deque::toArray()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque->toArray());?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

@@ -7,14 +7,14 @@
 
 # Swoole\Server::send
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::send — Надсилає дані клієнту
 
 ### Опис
 
 public **Swoole\Server::send**(int `$fd`, string `$data`, int
-`$reactor_id` u003d ?): bool
+`$reactor_id` = ?): bool
 
 **Увага**
 

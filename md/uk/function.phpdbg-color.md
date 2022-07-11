@@ -7,7 +7,7 @@
 
 #phpdbg_color
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 phpdbg_color — Задати колір елементу
 

@@ -16,10 +16,10 @@ sqlsrv_fetch_object — Отримує наступний рядок даних 
 
 **sqlsrv_fetch_object**(
 resource `$stmt`,
-string `$className` u003d ?,
-array `$ctorParams` u003d ?,
-int `$row` u003d ?,
-int `$offset` u003d ?
+string `$className` = ?,
+array `$ctorParams` = ?,
+int `$row` = ?,
+int `$offset` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -74,7 +74,7 @@ ctorParams.
 
 У цьому прикладі показано, як отримати рядок як об'єкт stdClass.
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$sql u003d "SELECT fName, lName , $sql);if( $stmt u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}//Отримання кожного будьякбудь як будь як| .// Імена властивостей відповідають іменам полів.while( $obj u003d sqlsrv_fetch_object( $stmt)) {     echo$obj->fName.", ".
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "SELECT fName, lName , $sql);if( $stmt === false ) {     die( print_r( sqlsrv_errors(), true));}//Отримання кожного будьякбудь як будь як| .// Імена властивостей відповідають іменам полів.while( $obj = sqlsrv_fetch_object( $stmt)) {     echo$obj->fName.", ".
 
 ### Примітки
 

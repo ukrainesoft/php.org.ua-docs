@@ -7,7 +7,7 @@
 
 # Клас VarnishStat
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **VarnishStat** {
 
 /\* Методи \*/
 
-public [\_\_construct](varnishstat.construct.md)(array `$args` u003d ?)
+public [\_\_construct](varnishstat.construct.md)(array `$args` = ?)
 
 public [getSnapshot](varnishstat.getsnapshot.md)(): array
 

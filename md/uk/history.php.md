@@ -77,7 +77,7 @@ Netcraft у травні 1998 року показали, що майже 60 ти
 Гей, у вас Нетскейп!
 <!--endif-->
 
-<!--sql database select * from table where useru003d'$username'-->
+<!--sql database select * from table where user='$username'-->
 <!--ifless $numentries 1-->
 Вибачте, такого запису немає<p>
 <!--endif exit-->

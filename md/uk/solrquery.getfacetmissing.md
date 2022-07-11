@@ -7,14 +7,14 @@
 
 # SolrQuery::getFacetMissing
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getFacetMissing — Повертає поточний стан параметра
 facet.missing
 
 ### Опис
 
-public **SolrQuery::getFacetMissing**(string `$field_override` u003d ?):
+public **SolrQuery::getFacetMissing**(string `$field_override` = ?):
 bool
 
 Повертає поточний стан facet.missing. Приймає

@@ -27,7 +27,7 @@ sqlsrv_server_info — Повертає інформацію про сервер
 Повертає масив, описаний у таблиці:
 
 | CurrentDatabase  | Підключена база даних. |
-| ---------------- | ---------------------- |
+|------------------|------------------------|
 | SQLServerVersion | Версія SQL Server.     |
 | SQLServerName    | Ім'я сервера.          |
 
@@ -37,7 +37,7 @@ sqlsrv_server_info — Повертає інформацію про сервер
 
 **Приклад #1 Приклад використання **sqlsrv_server_info()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connu003du003dsqlsrv_connect( $serverName);if( $conn u003du003du003du003dfalse ) {     die( print_r(sqlsrv_errors()) $conn);if( $server_info ){    foreach( $server_info as $key u003d> $value) {      echo $key.": ".$value."<br />"; }} else {     die( print_r( sqlsrv_errors(), true));}?> `
+` <?php$serverName = "serverName\sqlexpress";$conn==sqlsrv_connect( $serverName);if( $conn ====false ) {     die( print_r(sqlsrv_errors()) $conn);if( $server_info ){    foreach( $server_info as $key => $value) {      echo $key.": ".$value."<br />"; }} else {     die( print_r( sqlsrv_errors(), true));}?> `
 
 ### Дивіться також
 

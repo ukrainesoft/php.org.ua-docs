@@ -7,7 +7,7 @@
 
 #eio_rename
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_rename — Змінює ім'я або переміщує файл
 
@@ -16,10 +16,10 @@ eio_rename — Змінює ім'я або переміщує файл
 **eio_rename**(
 string `$path`,
 string `$new_path`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_rename()** здійснює переміщення або перейменування файлу.
@@ -67,7 +67,7 @@ $data u003d NULL
 
 **Приклад #1 Приклад використання **eio_rename()****
 
-` <?php$filename u003d dirname(__FILE__)."/eio-temp-file.dat";touch($filename);$new_filename u003d dirname(__FILE__)."/eio-temp-file-new.dat"; function my_rename_cb($data, $result) {    global $filename, $new_filename; if ($result u003du003d 0 && !file_exists($filename) && file_exists($new_filename)) {         @unlink($new_filename); echo "eio_rename_ok"; } else {        @unlink($filename); }}eio_rename($filename, $new_filename, EIO_PRI_DEFAULT, "my_rename_cb", $filename); eio_event_loop();?> `
+` <?php$filename = dirname(__FILE__)."/eio-temp-file.dat";touch($filename);$new_filename = dirname(__FILE__)."/eio-temp-file-new.dat"; function my_rename_cb($data, $result) {    global $filename, $new_filename; if ($result == 0 && !file_exists($filename) && file_exists($new_filename)) {         @unlink($new_filename); echo "eio_rename_ok"; } else {        @unlink($filename); }}eio_rename($filename, $new_filename, EIO_PRI_DEFAULT, "my_rename_cb", $filename); eio_event_loop();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

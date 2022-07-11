@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Regex::serialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Regex::serialize — Серіалізує Regex
 

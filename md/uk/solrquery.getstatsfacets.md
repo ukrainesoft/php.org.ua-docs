@@ -7,7 +7,7 @@
 
 # SolrQuery::getStatsFacets
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getStatsFacets — Повертає всі фасети статистики, які
 були встановлені

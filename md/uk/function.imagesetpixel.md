@@ -47,7 +47,7 @@ y-координат.
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
@@ -57,7 +57,7 @@ y-координат.
 Малювання "випадкових" точок, що дає в результаті фрактальне
 зображення.
 
-` <?php$x u003d 200;$y u003d 200;$gd u003d imagecreatetruecolor($x, $y);$corners[0] u003d array('x' u003d> 100, 'y' u003d>  10); corners[1] u003d array('x' u003d>   0, 'y' u003d> 190);$corners[2] u003d array('x' u003d> 200, 'y' u003d> 190);$red u003d image $gd, 255, 0, 0);for ($i u003d 0; $i < 100000; $i++) { imagesetpixel($gd, round($x),round($y), $red); $au003du003drand(0,2); $x u003d ($x + $corners[$a]['x']) / 2; $y u003d ($y + $corners[$a]['y']) / 2;}header('Content-Type: image/png');imagepng($gd);?> `
+` <?php$x = 200;$y = 200;$gd = imagecreatetruecolor($x, $y);$corners[0] = array('x' => 100, 'y' =>  10); corners[1] = array('x' =>   0, 'y' => 190);$corners[2] = array('x' => 200, 'y' => 190);$red = image $gd, 255, 0, 0);for ($i = 0; $i < 100000; $i++) { imagesetpixel($gd, round($x),round($y), $red); $a==rand(0,2); $x = ($x + $corners[$a]['x']) / 2; $y = ($y + $corners[$a]['y']) / 2;}header('Content-Type: image/png');imagepng($gd);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\Regex
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -31,7 +31,7 @@ final class **MongoDB\BSON\Regex** implements
 /\* Методи \*/
 
 final public [\_\_construct](mongodb-bson-regex.construct.md)(string
-`$pattern`, string `$flags` u003d "")
+`$pattern`, string `$flags` = "")
 
 final public [getFlags](mongodb-bson-regex.getflags.md)(): string
 
@@ -52,7 +52,7 @@ final public [unserialize](mongodb-bson-regex.unserialize.md)(string
 ## Список змін
 
 | Версія                                                                                                                         | Опис                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0                                                                                                            | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                      |
 | PECL mongodb 1.3.0                                                                                                             | Реалізує інтерфейс [MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md). |
 | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |                                                                                         |

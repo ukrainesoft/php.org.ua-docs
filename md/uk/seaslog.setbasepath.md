@@ -7,7 +7,7 @@
 
 # SeasLog::setBasePath
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::setBasePath — Встановлює базовий шлях SeasLog
 

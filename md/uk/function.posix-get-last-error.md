@@ -8,7 +8,7 @@
 
 #posix_get_last_error
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 posix_get_last_error — Повертає номер помилки, що сталася
 останньої posix функції, що завершилася невдачею

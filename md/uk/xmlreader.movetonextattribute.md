@@ -7,7 +7,7 @@
 
 # XMLReader::moveToNextAttribute
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 XMLReader::moveToNextAttribute — Перемістити позицію курсору на
 наступний атрибут

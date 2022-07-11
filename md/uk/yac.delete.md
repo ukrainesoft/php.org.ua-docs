@@ -7,13 +7,13 @@
 
 # Yac::delete
 
-(PECL yac \>u003d 1.0.0)
+(PECL yac \>= 1.0.0)
 
 Yac::delete — Видаляє елементи з кешу
 
 ### Опис
 
-public **Yac::delete**(string\|array `$keys`, int `$ttl` u003d ?): bool
+public **Yac::delete**(string\|array `$keys`, int `$ttl` = ?): bool
 
 Видаляє елементи з кешу
 

@@ -14,7 +14,7 @@ IntlChar::charFromName — Знайти символ Unicode на ім'я та �
 
 ### Опис
 
-public static **IntlChar::charFromName**(string `$name`, int `$type` u003d
+public static **IntlChar::charFromName**(string `$name`, int `$type` =
 IntlChar::UNICODE_CHAR_NAME): ?int
 
 Знаходить символ Unicode по його імені та повертає його код.

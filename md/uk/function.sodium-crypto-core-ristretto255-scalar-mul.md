@@ -7,7 +7,7 @@
 
 # sodium_crypto_core_ristretto255_scalar_mul
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_core_ristretto255_scalar_mul — Збільшує скалярне значення
 

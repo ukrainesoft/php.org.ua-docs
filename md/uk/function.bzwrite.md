@@ -7,13 +7,13 @@
 
 #bzwrite
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 bzwrite - Бінарно-безпечний запис bzip2 файлу
 
 ### Опис
 
-**bzwrite**(resource `$bz`, string `$data`, ?int `$length` u003d
+**bzwrite**(resource `$bz`, string `$data`, ?int `$length` =
 **`null`**): int\|false
 
 **bzwrite()** записує рядок у переданий bzip2 файловий потік.
@@ -40,14 +40,14 @@ bzwrite - Бінарно-безпечний запис bzip2 файлу
 ### Список змін
 
 | Версія | Опис                                  |
-| ------ | ------------------------------------- |
+|--------|---------------------------------------|
 | 8.0.0  | length тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **bzwrite()****
 
-` <?php$str u003d "uncompressed data";$bz u003d bzopen("/tmp/foo.bz2", "w");bzwrite($bz, $str, strlen($str));bzclose($bz );?> `
+` <?php$str = "uncompressed data";$bz = bzopen("/tmp/foo.bz2", "w");bzwrite($bz, $str, strlen($str));bzclose($bz );?> `
 
 ### Дивіться також
 

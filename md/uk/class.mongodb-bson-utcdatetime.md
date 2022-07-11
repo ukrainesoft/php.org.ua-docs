@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\UTCDateTime
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -29,7 +29,7 @@ final class **MongoDB\BSON\UTCDateTime** implements
 
 final public
 [\_\_construct](mongodb-bson-utcdatetime.construct.md)(int\|float\|string\|[DateTimeInterface](class.datetimeinterface.md)
-`$milliseconds` u003d **`null`**)
+`$milliseconds` = **`null`**)
 
 final public
 [jsonSerialize](mongodb-bson-utcdatetime.jsonserialize.md)():
@@ -53,7 +53,7 @@ final public
 ## Список змін
 
 | Версія                                                                                                                         | Опис                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.12.0                                                                                                            | Реалізує інтерфейс [Stringable](class.stringable.md) для PHP 8.0+.                                  |
 | PECL mongodb 1.3.0                                                                                                             | Реалізує інтерфейс [MongoDB\BSON\UTCDateTimeInterface](class.mongodb-bson-utcdatetimeinterface.md). |
 | PECL mongodb 1.2.0 Реалізує інтерфейси [Serializable](class.serializable.md) та [JsonSerializable](class.jsonserializable.md). |                                                                                                     |

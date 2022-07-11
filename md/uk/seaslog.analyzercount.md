@@ -7,7 +7,7 @@
 
 # SeasLog::analyzerCount
 
-(PECL seaslog \>u003d1.1.6)
+(PECL seaslog \>=1.1.6)
 
 SeasLog::analyzerCount — Отримує кількість журналів за рівнем,
 log_path та key_word
@@ -15,7 +15,7 @@ log_path та key_word
 ### Опис
 
 public static **SeasLog::analyzerCount**(string `$level`, string
-`$log_path` u003d ?, string `$key_word` u003d ?):
+`$log_path` = ?, string `$key_word` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 \`SeasLog\` набуває значення лічильника \`grep -ai '{level}' \| grep -aic
@@ -43,26 +43,26 @@ public static **SeasLog::analyzerCount**(string `$level`, string
 
 **Приклад #1 Приклад використання **SeasLog::analyzerCount()****
 
-`` <?php$countResult1 u003d SeasLog::analyzerCount();//с `level`$countResult2 u003d SeasLog::analyzerCount(SEASLOG_DEBUG);//с `level` і `log_path`$countResul SEASLOG_ERROR,date('Ymd',time())); countResult3,$countResult4);?> ``
+`` <?php$countResult1 = SeasLog::analyzerCount();//с `level`$countResult2 = SeasLog::analyzerCount(SEASLOG_DEBUG);//с `level` і `log_path`$countResul SEASLOG_ERROR,date('Ymd',time())); countResult3,$countResult4);?> ``
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(8) {
-["DEBUG"]u003d>
+["DEBUG"]=>
 int(180)
-["INFO"]u003d>
+["INFO"]=>
 int(214)
-["NOTICE"]u003d>
+["NOTICE"]=>
 int(0)
-["WARNING"]u003d>
+["WARNING"]=>
 int(0)
-["ERROR"]u003d>
+["ERROR"]=>
 int(228)
-["CRITICAL"]u003d>
+["CRITICAL"]=>
 int(244)
-["ALERT"]u003d>
+["ALERT"]=>
 int(1)
-["EMERGENCY"]u003d>
+["EMERGENCY"]=>
 int(0)
 }
 

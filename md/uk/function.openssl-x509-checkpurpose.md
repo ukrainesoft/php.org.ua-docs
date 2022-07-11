@@ -7,7 +7,7 @@
 
 # openssl_x509_checkpurpose
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_x509_checkpurpose — Перевіряє, чи можна використовувати сертифікат
 для конкретних завдань
@@ -18,8 +18,8 @@ openssl_x509_checkpurpose — Перевіряє, чи можна викорис
 [OpenSSLCertificate](class.opensslcertificate.md)\|string
 `$certificate`,
 int `$purpose`,
-array `$ca_info` u003d [],
-?string `$untrusted_certificates_file` u003d **`null`**
+array `$ca_info` = [],
+?string `$untrusted_certificates_file` = **`null`**
 ): bool\|int
 
 **openssl_x509_checkpurpose()** перевіряє сертифікат, щоб дізнатися,
@@ -31,15 +31,15 @@ array `$ca_info` u003d [],
 Сертифікат
 
 `purpose`
-| Константа Опис             |
-| -------------------------- |
-| X509_PURPOSE_SSL_CLIENT    | Чи можна використовувати сертифікат SSL на стороні клієнта?
-| X509_PURPOSE_SSL_SERVER    | Чи можна використовувати сертифікат SSL на стороні сервера?
-| X509_PURPOSE_NS_SSL_SERVER | Чи можна використовувати сервер Netscape SSL?
-| X509_PURPOSE_SMIME_SIGN    | Чи можна підписати S/MIME email?
-| X509_PURPOSE_SMIME_ENCRYPT | Чи можна шифрувати S/MIME email?
-| X509_PURPOSE_CRL_SIGN      | Чи можна підписувати список відгуків сертифікатів (CRL)?
-| X509_PURPOSE_ANY           | Чи можна використовувати будь-які завдання?
+| Константа Опис             |                                                             |
+|----------------------------|-------------------------------------------------------------|
+| X509_PURPOSE_SSL_CLIENT    | Чи можна використовувати сертифікат SSL на стороні клієнта? |
+| X509_PURPOSE_SSL_SERVER    | Чи можна використовувати сертифікат SSL на стороні сервера? |
+| X509_PURPOSE_NS_SSL_SERVER | Чи можна використовувати сервер Netscape SSL?               |
+| X509_PURPOSE_SMIME_SIGN    | Чи можна підписати S/MIME email?                            |
+| X509_PURPOSE_SMIME_ENCRYPT | Чи можна шифрувати S/MIME email?                            |
+| X509_PURPOSE_CRL_SIGN      | Чи можна підписувати список відгуків сертифікатів (CRL)?    |
+| X509_PURPOSE_ANY           | Чи можна використовувати будь-які завдання?                 |
 
 **Мета **openssl_x509_checkpurpose()****
 
@@ -64,6 +64,6 @@ array `$ca_info` u003d [],
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                        |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509. |
 | 8.0.0  | untrusted_certificates_file тепер допускає значення null.                                                                                                                   |

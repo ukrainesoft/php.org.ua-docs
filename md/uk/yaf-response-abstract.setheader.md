@@ -7,14 +7,14 @@
 
 # Yaf_Response_Abstract::setHeader
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::setHeader — Встановлює заголовок відповіді
 
 ### Опис
 
 public **Yaf_Response_Abstract::setHeader**(string `$name`, string
-`$value`, bool `$replace` u003d ?): bool
+`$value`, bool `$replace` = ?): bool
 
 Використовується для надсилання заголовка HTTP
 

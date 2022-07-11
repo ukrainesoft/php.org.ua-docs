@@ -7,7 +7,7 @@
 
 # AppendIterator::key
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 AppendIterator::key — Повертає поточний ключ
 
@@ -30,7 +30,7 @@ public **AppendIterator::key**(): scalar
 
 **Приклад #1 Приклад використання **AppendIterator::key()****
 
-` <?php$array_a u003d new ArrayIterator(array('a' u003d> 'aardwolf', 'b' u003d> 'bear', 'c' u003d> 'capybara'));$array_b u003d new Array' apple', 'orange', 'lemon'));$iteratoru003du003dnew AppendIterator;$iterator->append($array_a);$iterator->append($array_b);// Ручна ітерація$iterator->rewind() ;while($iterator->valid()) {    echo $iterator->key() . ' ' . $iterator->current() . PHP_EOL; $iterator->next();}echo PHP_EOL;// З конструкцією foreachforeach ($iterator as $key u003d> $current) {   echo $key . ' ' . $ current . PHP_EOL;}?> `
+` <?php$array_a = new ArrayIterator(array('a' => 'aardwolf', 'b' => 'bear', 'c' => 'capybara'));$array_b = new Array' apple', 'orange', 'lemon'));$iterator==new AppendIterator;$iterator->append($array_a);$iterator->append($array_b);// Ручна ітерація$iterator->rewind() ;while($iterator->valid()) {    echo $iterator->key() . ' ' . $iterator->current() . PHP_EOL; $iterator->next();}echo PHP_EOL;// З конструкцією foreachforeach ($iterator as $key => $current) {   echo $key . ' ' . $ current . PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 

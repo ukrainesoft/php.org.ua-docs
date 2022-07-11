@@ -7,7 +7,7 @@
 
 #pspell_config_mode
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_config_mode — Змінює режим кількості варіантів, що повертаються.
 виправлення
@@ -46,11 +46,11 @@ pspell_config_mode — Змінює режим кількості варіант
 ### Список змін
 
 | Версія | Опис                                                                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр config тепер чекає на екземпляр [PSpell\Config](class.pspell-config.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pspell_config_mode()****
 
-` <?php$pspell_config u003d pspell_config_create("en");pspell_config_mode($pspell_config, PSPELL_FAST);$pspell u003d pspell_new_config($pspell_config);pspell_check($pspell, >"
+` <?php$pspell_config = pspell_config_create("en");pspell_config_mode($pspell_config, PSPELL_FAST);$pspell = pspell_new_config($pspell_config);pspell_check($pspell, >"

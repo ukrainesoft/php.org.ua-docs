@@ -7,14 +7,14 @@
 
 #ldap_escape
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8)
 
 ldap_escape — Екранування рядка для використання у фільтрі LDAP або
 у DN
 
 ### Опис
 
-**ldap_escape**(string `$value`, string `$ignore` u003d "", int `$flags` u003d
+**ldap_escape**(string `$value`, string `$ignore` = "", int `$flags` =
 0): string
 
 Екранує `value` для використання в контексті, заданому в `flags`.
@@ -44,5 +44,5 @@ LDAP_ESCAPE_FILTER
 
 **Приклад #1 Пошук по email-адресі**
 
-` <?php// $ds - ідентифікатор сервера каталогів// $mail - email-адреса, наданий користувачем$base   u003d "ou003dMy Company, cu003dUS";$filter u003d $ , "", LDAP_ESCAPE_FILTER).")";$sr u003d ldap_search($ds, $base, $filter, array("sn", "givenname", "mail"));$info u003d ldap_get_entries($ds, sr);echo $info["count"]." записів повернено
+` <?php// $ds - ідентифікатор сервера каталогів// $mail - email-адреса, наданий користувачем$base   = "o=My Company, c=US";$filter = $ , "", LDAP_ESCAPE_FILTER).")";$sr = ldap_search($ds, $base, $filter, array("sn", "givenname", "mail"));$info = ldap_get_entries($ds, sr);echo $info["count"]." записів повернено
 ";?> `

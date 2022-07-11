@@ -7,13 +7,13 @@
 
 # Ds\Deque::slice
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::slice — Повертає почерг із заданого діапазону
 
 ### Опис
 
-public **Ds\Deque::slice**(int `$index`, int `$length` u003d ?):
+public **Ds\Deque::slice**(int `$index`, int `$length` = ?):
 [Ds\Deque](class.ds-deque.md)
 
 Повертає почергово з діапазону заданого початковим індексом `index`
@@ -43,37 +43,37 @@ public **Ds\Deque::slice**(int `$index`, int `$length` u003d ?):
 
 **Приклад #1 Приклад використання **Ds\Deque::slice()****
 
-` <?php$deque u003d new \Ds\Deque(["a", "b", "c", "d", "e"]);// Slice from 2 onwardsprint_r($deque->slice(2 ));// Slice from 1, for a length of 3print_r($deque->slice(1, 3));// Slice from 1 onwardsprint_r($deque->slice(1));// Slice the end onwardsprint_r($deque->slice(-2));// Slice from 1 to 1 from the endprint_r($deque->slice(1, -1));?> `
+` <?php$deque = new \Ds\Deque(["a", "b", "c", "d", "e"]);// Slice from 2 onwardsprint_r($deque->slice(2 ));// Slice from 1, for a length of 3print_r($deque->slice(1, 3));// Slice from 1 onwardsprint_r($deque->slice(1));// Slice the end onwardsprint_r($deque->slice(-2));// Slice from 1 to 1 from the endprint_r($deque->slice(1, -1));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> c
-[1] u003d> d
-[2] u003d> e
+[0] => c
+[1] => d
+[2] => e
 )
 Ds\Deque Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )
 Ds\Deque Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> e
+[0] => b
+[1] => c
+[2] => d
+[3] => e
 )
 Ds\Deque Object
 (
-[0] u003d> d
-[1] u003d> e
+[0] => d
+[1] => e
 )
 Ds\Deque Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
+[0] => b
+[1] => c
+[2] => d
 )

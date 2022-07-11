@@ -7,14 +7,14 @@
 
 #win32_query_service_status
 
-(PECL win32service \>u003d0.1.0)
+(PECL win32service \>=0.1.0)
 
 win32_query_service_status — Запитує статус сервісу
 
 ### Опис
 
 **win32_query_service_status**(string `$servicename`, string `$machine`
-u003d ?): array
+= ?): array
 
 Вимагає поточний статус служби, повертаючи масив інформації.
 
@@ -83,8 +83,8 @@ dwServiceFlags. Дивіться [Константи прапорів служб
 ### Список змін
 
 | Версія                                                                                                                                                                                      | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **false**.                                                      |      |      
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) у разі невірних даних у параметрах, що раніше поверталося **false**.                                                      |      |
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 | PECL win32service 1.0.0 Тип повернення тепер array, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                   |      |
 

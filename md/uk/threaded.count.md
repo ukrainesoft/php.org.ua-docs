@@ -7,7 +7,7 @@
 
 # Threaded::count
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::count — Обробка
 
@@ -27,7 +27,7 @@ public **Threaded::count**(): int
 
 **Приклад #1 Підрахунок властивостей об'єкта**
 
-` <?php$safe u003d new Threaded();while (count($safe) < 10) {    $safe[] u003d count($safe);}var_dump(count($safe));?> `
+` <?php$safe = new Threaded();while (count($safe) < 10) {    $safe[] = count($safe);}var_dump(count($safe));?> `
 
 Результат виконання цього прикладу:
 

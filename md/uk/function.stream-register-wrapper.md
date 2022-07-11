@@ -7,7 +7,7 @@
 
 #stream_register_wrapper
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_register_wrapper - Псевдонім
 [stream_wrapper_register()](function.stream-wrapper-register.md)

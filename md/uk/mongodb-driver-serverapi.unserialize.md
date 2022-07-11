@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ServerApi::unserialize
 
-(mongodb \>u003d1.10.0)
+(mongodb \>=1.10.0)
 
 MongoDB\Driver\ServerApi::unserialize - Десеріалізує ServerApi
 

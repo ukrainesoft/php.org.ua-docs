@@ -7,7 +7,7 @@
 
 # Клас GearmanClient
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 ## Вступ
 
@@ -25,34 +25,34 @@ class **GearmanClient** {
 
 public [addOptions](gearmanclient.addoptions.md)(int `$options`): bool
 
-public [addServer](gearmanclient.addserver.md)(string `$host` u003d
-127.0.0.1, int `$port` u003d 4730): bool
+public [addServer](gearmanclient.addserver.md)(string `$host` =
+127.0.0.1, int `$port` = 4730): bool
 
-public [addServers](gearmanclient.addservers.md)(string `$servers` u003d
+public [addServers](gearmanclient.addservers.md)(string `$servers` =
 127.0.0.1:4730): bool
 
 public [addTask](gearmanclient.addtask.md)(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public [addTaskBackground](gearmanclient.addtaskbackground.md)(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public [addTaskHigh](gearmanclient.addtaskhigh.md)(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public
@@ -60,16 +60,16 @@ public
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public [addTaskLow](gearmanclient.addtasklow.md)(
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public
@@ -77,12 +77,12 @@ public
 string `$function_name`,
 string `$workload`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$context` u003d ?,
-string `$unique` u003d ?
+`&$context` = ?,
+string `$unique` = ?
 ): [GearmanTask](class.gearmantask.md)
 
 public [addTaskStatus](gearmanclient.addtaskstatus.md)(string
-`$job_handle`, string `&$context` u003d ?):
+`$job_handle`, string `&$context` = ?):
 [GearmanTask](class.gearmantask.md)
 
 public [clearCallbacks](gearmanclient.clearcallbacks.md)(): bool
@@ -97,27 +97,27 @@ public [context](gearmanclient.context.md)(): string
 public [data](gearmanclient.data.md)(): string
 
 public [do](gearmanclient.do.md)(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 public [doBackground](gearmanclient.dobackground.md)(string
-`$function_name`, string `$workload`, string `$unique` u003d ?): string
+`$function_name`, string `$workload`, string `$unique` = ?): string
 
 public [doHigh](gearmanclient.dohigh.md)(string `$function_name`,
-string `$workload`, string `$unique` u003d ?): string
+string `$workload`, string `$unique` = ?): string
 
 public [doHighBackground](gearmanclient.dohighbackground.md)(string
-`$function_name`, string `$workload`, string `$unique` u003d ?): string
+`$function_name`, string `$workload`, string `$unique` = ?): string
 
 public [doJobHandle](gearmanclient.dojobhandle.md)(): string
 
 public [doLow](gearmanclient.dolow.md)(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 public [doLowBackground](gearmanclient.dolowbackground.md)(string
-`$function_name`, string `$workload`, string `$unique` u003d ?): string
+`$function_name`, string `$workload`, string `$unique` = ?): string
 
 public [doNormal](gearmanclient.donormal.md)(string `$function_name`,
-string `$workload`, string `$unique` u003d ?): string
+string `$workload`, string `$unique` = ?): string
 
 public [doStatus](gearmanclient.dostatus.md)(): array
 

@@ -7,7 +7,7 @@
 
 # Memcache::getVersion
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 Memcache::getVersion — Повернути версію сервера
 
@@ -31,7 +31,7 @@ Memcache::getVersion — Повернути версію сервера
 
 **Приклад #1 Приклад використання **Memcache::getVersion()****
 
-` <?php/* об'єктно-орієнтоване API */$memcache u003d new Memcache;$memcache->connect('memcache_host', 11211);echo $memcache->getVersion()/emu003du003d ('memcache_host', 11211);echo memcache_get_version($memcache);?> `
+` <?php/* об'єктно-орієнтоване API */$memcache = new Memcache;$memcache->connect('memcache_host', 11211);echo $memcache->getVersion()/em== ('memcache_host', 11211);echo memcache_get_version($memcache);?> `
 
 ### Дивіться також
 

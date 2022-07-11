@@ -36,7 +36,7 @@ public **DirectoryIterator::isDir**(): bool
 Приклад виведе список вкладених директорій у директорії, що містить
 виконуваний скрипт.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isDir()) {            "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isDir()) {            "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

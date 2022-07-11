@@ -43,7 +43,7 @@ settype — Задає тип змінної
 
 **Приклад #1 Приклад використання **settype()****
 
-`<?php$foo u003d "5bar"; // рядок$bar u003d true; // Бульове значення settype ($ foo, "integer"); // $foo тепер 5   (ціле)settype($bar, "string"); // $bar тепер "1" (рядок)?> `
+`<?php$foo = "5bar"; // рядок$bar = true; // Бульове значення settype ($ foo, "integer"); // $foo тепер 5   (ціле)settype($bar, "string"); // $bar тепер "1" (рядок)?> `
 
 ### Примітки
 

@@ -10,7 +10,7 @@
 
 # tidy_repair_string
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.7.0)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.7.0)
 
 tidy::repairString -- tidy_repair_string — Відновлює рядок,
 використовуючи наскільки можна конфігураційний файл
@@ -20,13 +20,13 @@ tidy::repairString -- tidy_repair_string — Відновлює рядок,
 Об'єктно-орієнтований стиль
 
 public static **tidy::repairString**(string `$string`,
-array\|string\|null `$config` u003d **`null`**, ?string `$encoding` u003d
+array\|string\|null `$config` = **`null`**, ?string `$encoding` =
 **`null`**): string\|false
 
 Процедурний стиль
 
-**tidy_repair_string**(string `$string`, array\|string\|null `$config` u003d
-**`null`**, ?string `$encoding` u003d **`null`**): string\|false
+**tidy_repair_string**(string `$string`, array\|string\|null `$config` =
+**`null`**, ?string `$encoding` = **`null`**): string\|false
 
 Відновлює отриманий рядок.
 
@@ -57,7 +57,7 @@ array\|string\|null `$config` u003d **`null`**, ?string `$encoding` u003d
 ### Список змін
 
 | Версія | Опис                                               |
-| ------ | -------------------------------------------------- |
+|--------|----------------------------------------------------|
 | 8.0.0  | **tidy::repairString()** тепер статичний метод.    |
 | 8.0.0  | config та encoding тепер допускають значення null. |
 | 8.0.0  | Функція більше не приймає параметр useIncludePath. |
@@ -66,7 +66,7 @@ array\|string\|null `$config` u003d **`null`**, ?string `$encoding` u003d
 
 **Приклад #1 Приклад використання **tidy::repairString()****
 
-` <?phpob_start();?><html> <head>   <title>тест</title>  </head>  <body>    <p>помилка</i>  </body></html><?php$ bufferu003du003dob_get_clean();$tidy u003d new tidy();$clean u003d $tidy->repairString($buffer);echo $clean;?> `
+` <?phpob_start();?><html> <head>   <title>тест</title>  </head>  <body>    <p>помилка</i>  </body></html><?php$ buffer==ob_get_clean();$tidy = new tidy();$clean = $tidy->repairString($buffer);echo $clean;?> `
 
 Результат виконання цього прикладу:
 

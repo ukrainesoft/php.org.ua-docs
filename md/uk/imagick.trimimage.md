@@ -42,7 +42,7 @@ public **Imagick::trimImage**(float `$fuzz`): bool
 
 Обріжте зображення, а потім відобразіть у браузері.
 
-` <?php/* Створіть об'єкт і прочитайте зображення в */$im u003d new Imagick("image.jpg");/* Обріжте зображення. */$im->trimImage(0);/* Виведіть зображення */header("Content-Type: image/" . $im->getImageFormat());echo $im;?> `
+` <?php/* Створіть об'єкт і прочитайте зображення в */$im = new Imagick("image.jpg");/* Обріжте зображення. */$im->trimImage(0);/* Виведіть зображення */header("Content-Type: image/" . $im->getImageFormat());echo $im;?> `
 
 ### Дивіться також
 

@@ -22,7 +22,7 @@ mysql_list_fields — Повертає список колонок таблиц�
 ### Опис
 
 **mysql_list_fields**(string `$database_name`, string `$table_name`,
-resource `$link_identifier` u003d NULL): resource
+resource `$link_identifier` = NULL): resource
 
 Повертає інформацію про таблицю із переданим ім'ям.
 
@@ -62,27 +62,27 @@ resource `$link_identifier` u003d NULL): resource
 
 **Приклад #1 Приклад використання **mysql_list_fields()****
 
-` <?php$result u003d mysql_query("SHOW COLUMNS FROM sometable");if (!$result) {    echo 'Помилка при виконанні запиту: ' . mysql_error(); exit;}if(mysql_num_rows($result) > 0) {    while ($row u003d mysql_fetch_assoc($result)) {        print_r($row); }}?> `
+` <?php$result = mysql_query("SHOW COLUMNS FROM sometable");if (!$result) {    echo 'Помилка при виконанні запиту: ' . mysql_error(); exit;}if(mysql_num_rows($result) > 0) {    while ($row = mysql_fetch_assoc($result)) {        print_r($row); }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[Field] u003d> id
-[Type] u003d> int(7)
-[Null] u003d>
-[Key] u003d> PRI
-[Default] u003d>
-[Extra] u003d> auto_increment
+[Field] => id
+[Type] => int(7)
+[Null] =>
+[Key] => PRI
+[Default] =>
+[Extra] => auto_increment
 )
 Array
 (
-[Field] u003d> email
-[Type] u003d> varchar(100)
-[Null] u003d>
-[Key] u003d>
-[Default] u003d>
-[Extra] u003d>
+[Field] => email
+[Type] => varchar(100)
+[Null] =>
+[Key] =>
+[Default] =>
+[Extra] =>
 )
 
 ### Примітки

@@ -15,7 +15,7 @@ sqlsrv_errors — Повертає інформацію про помилку т
 
 ### Опис
 
-**sqlsrv_errors**(int `$errorsOrWarnings` u003d ?):
+**sqlsrv_errors**(int `$errorsOrWarnings` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає інформацію про помилку та попередження останньої виконаної
@@ -39,7 +39,7 @@ SQLSRV_ERR_WARNINGS.
 масивів, що повертаються:
 
 | Ключ     | Опис                                                                                                                                                                                                                                                                                                                         |
-| -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SQLSTATE | Для помилок, які виникають через драйвер ODBC, повертається SQLSTATE, що повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, повертається SQLSTATE IMSSP. Для попереджень, які виникають через драйвери Microsoft для PHP для SQL Server, SQLSTATE повертає значення 01SSP.       |
 | code     | Для помилок, які виникають через SQL Server, повертає власний код SQL Server. Для помилок, що виникають через драйвер ODBC, повертається код помилки, який повертається ODBC. Для помилок, які виникають через драйвери Microsoft для PHP для SQL Server, повертається код помилки Microsoft Drivers для PHP для SQL Server. |
 | message  | Опис помилки.                                                                                                                                                                                                                                                                                                                |
@@ -50,7 +50,7 @@ SQLSRV_ERR_WARNINGS.
 
 **Приклад #1 Приклад використання **functionname()****
 
-` <?php$serverName u003d "serverName/sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true)));}/* Налаштування запиту для вибору| */$sql u003d "SELECT BadColumnName FROM Table_1";/* Виконання запиту завершиться помилкою через неправильного імені стовпця. */$stmt u003d sqlsrv_query( $conn, $sql );if( $stmt u003du003du003d false ) {    if( ($errors u003d sqlsrv_errors() ) !u003d null) {        foreach( $errors as $error ) {            echo " SQLSTATE: ".$error[ 'SQLSTATE']."<br />"; echo "Код: ".$error[ 'code']."<br />"; echo "Повідомлення: ".$error[ 'message']."<br />"; }    }}?> `
+` <?php$serverName = "serverName/sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true)));}/* Налаштування запиту для вибору| */$sql = "SELECT BadColumnName FROM Table_1";/* Виконання запиту завершиться помилкою через неправильного імені стовпця. */$stmt = sqlsrv_query( $conn, $sql );if( $stmt === false ) {    if( ($errors = sqlsrv_errors() ) != null) {        foreach( $errors as $error ) {            echo " SQLSTATE: ".$error[ 'SQLSTATE']."<br />"; echo "Код: ".$error[ 'code']."<br />"; echo "Повідомлення: ".$error[ 'message']."<br />"; }    }}?> `
 
 ### Примітки
 

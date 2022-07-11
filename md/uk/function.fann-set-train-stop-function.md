@@ -7,7 +7,7 @@
 
 # fann_set_train_stop_function
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_train_stop_function — Встановлює функцію зупинки,
 використовується під час тренування

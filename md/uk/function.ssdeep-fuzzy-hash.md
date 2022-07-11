@@ -7,7 +7,7 @@
 
 #ssdeep_fuzzy_hash
 
-(PECL ssdeep \>u003d 1.0.0)
+(PECL ssdeep \>= 1.0.0)
 
 ssdeep_fuzzy_hash — Створює нечіткий хеш із рядка
 

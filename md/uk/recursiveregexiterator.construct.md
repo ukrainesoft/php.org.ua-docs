@@ -7,7 +7,7 @@
 
 # RecursiveRegexIterator::\_\_construct
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RecursiveRegexIterator::\_\_construct — Конструктор класу
 RecursiveRegexIterator
@@ -17,9 +17,9 @@ RecursiveRegexIterator
 public **RecursiveRegexIterator::\_\_construct**(
 [RecursiveIterator](class.recursiveiterator.md) `$iterator`,
 string `$pattern`,
-int `$mode` u003d RecursiveRegexIterator::MATCH,
-int `$flags` u003d 0,
-int `$pregFlags` u003d 0
+int `$mode` = RecursiveRegexIterator::MATCH,
+int `$flags` = 0,
+int `$pregFlags` = 0
 )
 
 Створює новий об'єкт-ітератор регулярного вираження.
@@ -44,13 +44,13 @@ int `$pregFlags` u003d 0
 `pregFlags`
 Прапори регулярного вираження. Список прапорів залежить від режиму роботи:
 
-| режим роботи прапори                |
-| ----------------------------------- |
-| RecursiveRegexIterator::ALL_MATCHES | Дивіться [preg_match_all()](function.preg-match-all.md). 
-| RecursiveRegexIterator::GET_MATCH   | Дивіться [preg_match()](function.preg-match.md).
-| RecursiveRegexIterator::MATCH       | Дивіться [preg_match()](function.preg-match.md).
-| RecursiveRegexIterator::REPLACE     | ні
-| RecursiveRegexIterator::SPLIT       | Дивіться [preg_split()](function.preg-split.md).
+| режим роботи прапори                |                                                          |
+|-------------------------------------|----------------------------------------------------------|
+| RecursiveRegexIterator::ALL_MATCHES | Дивіться [preg_match_all()](function.preg-match-all.md). |
+| RecursiveRegexIterator::GET_MATCH   | Дивіться [preg_match()](function.preg-match.md).         |
+| RecursiveRegexIterator::MATCH       | Дивіться [preg_match()](function.preg-match.md).         |
+| RecursiveRegexIterator::REPLACE     | ні                                                       |
+| RecursiveRegexIterator::SPLIT       | Дивіться [preg_split()](function.preg-split.md).         |
 
 **[RegexIterator](class.regexiterator.md) preg_flags**
 
@@ -62,7 +62,7 @@ int `$pregFlags` u003d 0
 Створює новий об'єкт-ітератор RegexIterator, який вибирає все
 рядки, що починаються зі слова 'test'.
 
-` <?php$rArrayIterator u003d new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator u003d new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $key1 u003d> $value1) {    if ($rRegexIterator->hasChildren()) {        // выведем все дочерние элементы        echo "Дочерние элементы: "; foreach ($rRegexIterator->getChildren() as $key u003d> $value) {            echo $value . " "; }        echo "
+` <?php$rArrayIterator = new RecursiveArrayIterator(array('test1', array('tet3', 'test4', 'test5')));$rRegexIterator = new RecursiveRegexItera   ::ALL_MATCHES);foreach ($rRegexIterator as $key1 => $value1) {    if ($rRegexIterator->hasChildren()) {        // выведем все дочерние элементы        echo "Дочерние элементы: "; foreach ($rRegexIterator->getChildren() as $key => $value) {            echo $value . " "; }        echo "
 ";    }}else {        echo "Немає|дочірніх елементів
 ";    }}?> `
 

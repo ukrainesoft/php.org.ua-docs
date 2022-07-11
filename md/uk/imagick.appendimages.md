@@ -38,7 +38,7 @@ public **Imagick::appendImages**(bool `$stack`):
 
 **Приклад #1 Приклад використання **Imagick::appendImages()****
 
-` <?php/* Створюємо новий об'єкт imagick */$im u003d new Imagick();/* створюємо червоне, зелене і синє зображення */$im->newImage(100, 50; newImage(100, 50, "green");$im->newImage(100, 50, "blue");/* З'єднуємо всі зображення в одно */$im->resetIterator(); appendImages(true);/* Виводимо зображення */$combined->setImageFormat("png");header("Content-Type: image/png");echo $combined;?> `
+` <?php/* Створюємо новий об'єкт imagick */$im = new Imagick();/* створюємо червоне, зелене і синє зображення */$im->newImage(100, 50; newImage(100, 50, "green");$im->newImage(100, 50, "blue");/* З'єднуємо всі зображення в одно */$im->resetIterator(); appendImages(true);/* Виводимо зображення */$combined->setImageFormat("png");header("Content-Type: image/png");echo $combined;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

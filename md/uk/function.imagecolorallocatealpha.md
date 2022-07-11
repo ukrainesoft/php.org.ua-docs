@@ -7,7 +7,7 @@
 
 #imagecolorallocatealpha
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 imagecolorallocatealpha — Створення кольору зображення
 
@@ -58,20 +58,20 @@ int `$alpha`
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagecolorallocatealpha()****
 
-`<?php$size u003d 300;$imageu003dimagecreatetruecolor($size, $size);// створимо білий фон з чорною рамкою$back u003d imagecolorallocate($image, 255, 255, $5 image, 0, 0, 0);imagefilledrectangle($image, 0, 0, $size - 1, $size - 1, $back);imagerectangle($image, 0, 0, $size - 1, $si , $border);$yellow_x u003d 100;$yellow_y u003d 75;$red_x    u003d 120;$red_y    u003d 165;$blue_x   u003d 187;$blue_y   u003d 125;$radius   u003d 150;// создание цветов с альфа компонентом$yellow u003d imagecolorallocatealpha($image, 255, 255, 0, 75);$red    u003d imagecolorallocatealpha($image, 255, 0,0, 75); малювання 3-х перетинаються колівimagefilledellipse($image, $yellow_x, $yellow_y, $radius, $radius, $yellow);imagefilledellipse($image, $red_x, $red_y, $radius, $lip; image, $blue_x, $blue_y, $radius, $radius, $blue);// не забудьте вивести правильний заголовок!header('Content-Type: image/png');// і нарешті, виведенняimagepn g($image);imagedestroy($image);?> `
+`<?php$size = 300;$image=imagecreatetruecolor($size, $size);// створимо білий фон з чорною рамкою$back = imagecolorallocate($image, 255, 255, $5 image, 0, 0, 0);imagefilledrectangle($image, 0, 0, $size - 1, $size - 1, $back);imagerectangle($image, 0, 0, $size - 1, $si , $border);$yellow_x = 100;$yellow_y = 75;$red_x    = 120;$red_y    = 165;$blue_x   = 187;$blue_y   = 125;$radius   = 150;// создание цветов с альфа компонентом$yellow = imagecolorallocatealpha($image, 255, 255, 0, 75);$red    = imagecolorallocatealpha($image, 255, 0,0, 75); малювання 3-х перетинаються колівimagefilledellipse($image, $yellow_x, $yellow_y, $radius, $radius, $yellow);imagefilledellipse($image, $red_x, $red_y, $radius, $lip; image, $blue_x, $blue_y, $radius, $radius, $blue);// не забудьте вивести правильний заголовок!header('Content-Type: image/png');// і нарешті, виведенняimagepn g($image);imagedestroy($image);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -86,7 +86,7 @@ imagecolorallocatealpha()](images/21009b70229598c6a80eef8b45bf282b-imagecolorall
 сумісності з **imagecolorallocatealpha()**, досить небагато
 простий арифметики:
 
-`<?php$alpha8 u003d 0; // повністю прозорийvar_dump(127 - ($alpha8 >> 1));$alpha8 u003d 255; // повністю непрозорийvar_dump(127 - ($alpha8 >> 1));?> `
+`<?php$alpha8 = 0; // повністю прозорийvar_dump(127 - ($alpha8 >> 1));$alpha8 = 255; // повністю непрозорийvar_dump(127 - ($alpha8 >> 1));?> `
 
 Результат виконання цього прикладу:
 

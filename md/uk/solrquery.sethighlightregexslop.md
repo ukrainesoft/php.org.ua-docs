@@ -8,7 +8,7 @@
 
 # SolrQuery::setHighlightRegexSlop
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightRegexSlop — Встановлює коефіцієнт, на який
 фрагментатор регулярного вираження може відхилитися від ідеального

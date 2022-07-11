@@ -9,7 +9,7 @@
 
 #xmlwriter_flush
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter \>u003d 1.0.0)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8, PECL xmlwriter \>= 1.0.0)
 
 XMLWriter::flush -- xmlwriter_flush — Скинути поточний буфер
 
@@ -17,12 +17,12 @@ XMLWriter::flush -- xmlwriter_flush — Скинути поточний буфе
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::flush**(bool `$empty` u003d **`true`**): string\|int
+public **XMLWriter::flush**(bool `$empty` = **`true`**): string\|int
 
 Процедурний стиль
 
 **xmlwriter_flush**([XMLWriter](class.xmlwriter.md) `$writer`, bool
-`$empty` u003d **`true`**): string\|int
+`$empty` = **`true`**): string\|int
 
 Скидає поточний буфер.
 
@@ -46,6 +46,6 @@ XML, інакше, при використанні URI, ця функція за
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 | 8.0.0  | Функція більше не може повертати **false**.                                                                        |

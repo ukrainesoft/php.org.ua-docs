@@ -32,7 +32,7 @@ Uncaught Error: Too few arguments для функцій test(), 0 passed in...
 без параметра. **`null`** не є коректним значенням для повернення
 у таких функціях.
 
-` <?phpfunction swap(&$left, &$right): void{    if ($left u003du003du003d $right) {        return; }   $tmpu003du003d$left; $left u003d $right; $rightu003d $tmp;}$a u003d 1;$b u003d 2;var_dump(swap($a, $b), $a, $b); `
+` <?phpfunction swap(&$left, &$right): void{    if ($left === $right) {        return; }   $tmp==$left; $left = $right; $right= $tmp;}$a = 1;$b = 2;var_dump(swap($a, $b), $a, $b); `
 
 Результат виконання цього прикладу:
 
@@ -52,13 +52,13 @@ int(1)
 функції [list()](function.list.md), яка, втім, все ще
 підтримується.
 
-` <?php$data u003d [    [1, 'Tom'],    [2, 'Fred'],];// використовуючи list()list($id1, $name1) u003d $data[0];// використання [][$id1, $name1] u003d $data[0];// використовуючи list()foreach ($data as list($id, $name)) {    // код, містить $id і $name}// використовуючи []foreach ($data as [$id, $name]) {    // код, містить $id і $name} `
+` <?php$data = [    [1, 'Tom'],    [2, 'Fred'],];// використовуючи list()list($id1, $name1) = $data[0];// використання [][$id1, $name1] = $data[0];// використовуючи list()foreach ($data as list($id, $name)) {    // код, містить $id і $name}// використовуючи []foreach ($data as [$id, $name]) {    // код, містить $id і $name} `
 
 ### Видимість констант класу
 
 Додано підтримку визначення області видимості для констант класу.
 
-`<?phpclass ConstDemo{    const PUBLIC_CONST_A u003d 1; public const PUBLIC_CONST_B u003d 2; protected const PROTECTED_CONST u003d 3; private const PRIVATE_CONST u003d 4;} `
+`<?phpclass ConstDemo{    const PUBLIC_CONST_A = 1; public const PUBLIC_CONST_B = 2; protected const PROTECTED_CONST = 3; private const PRIVATE_CONST = 4;} `
  ### Псевдотип [iterable](language.types.iterable.md)
 
 Було додано новий псевдотип (схожий на
@@ -91,7 +91,7 @@ array або [Traversable](class.traversable.md) до
 Це дозволяє деструктурувати масиви з нечисловими або
 непослідовними ключами.
 
-` <?php$data u003du003d [    ["id" u003d> 1, "name" u003d> 'Tom'],    ["id" u003d> 2, "name" u003d> 'Fred'],];// стиль ()list("id" u003d> $id1, "name" u003d> $name1) u003d $data[0];// стиль []["id" u003d> $id1, "name" u003d> $name1] u003d $data[0];// стиль list()foreach ($data aslist("id" u003d> $id, "name" u003d> $name)) {    // logic here/with $id and $name} стиль []foreach ($data as ["id" u003d> $id, "name" u003d> $name]) {     // logic here with $id and$$name} `
+` <?php$data == [    ["id" => 1, "name" => 'Tom'],    ["id" => 2, "name" => 'Fred'],];// стиль ()list("id" => $id1, "name" => $name1) = $data[0];// стиль []["id" => $id1, "name" => $name1] = $data[0];// стиль list()foreach ($data aslist("id" => $id, "name" => $name)) {    // logic here/with $id and $name} стиль []foreach ($data as ["id" => $id, "name" => $name]) {     // logic here with $id and$$name} `
 
 ### Підтримка негативних зсувів для рядків
 
@@ -109,7 +109,7 @@ int(3)
 Тепер підтримуються негативні усунення в простому синтаксисі
 вказівки індексу у рядках та масивах.
 
-` <?php$string u003d 'bar';echo "Останній символ '$string' - '$string[-1]'.
+` <?php$string = 'bar';echo "Останній символ '$string' - '$string[-1]'.
 ";?> `
 
 Результат виконання цього прикладу:
@@ -130,7 +130,7 @@ int(3)
 [callable](language.types.callable.md) до об'єктів типу
 [Closure](class.closure.md).
 
-` <?phpclass Test{    public function exposeFunction()    {        return Closure::fromCallable([$this, 'privateFunction']); }   private function privateFunction($param)    {       var_dump($param); }}$privFuncu003du003d(new Test)->exposeFunction();$privFunc('значення'); `
+` <?phpclass Test{    public function exposeFunction()    {        return Closure::fromCallable([$this, 'privateFunction']); }   private function privateFunction($param)    {       var_dump($param); }}$privFunc==(new Test)->exposeFunction();$privFunc('значення'); `
 
 Результат виконання цього прикладу:
 

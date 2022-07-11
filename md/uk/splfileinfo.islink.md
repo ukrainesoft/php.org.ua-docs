@@ -7,7 +7,7 @@
 
 # SplFileInfo::isLink
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::isLink — Вказує, чи є файл посиланням
 
@@ -31,7 +31,7 @@ public **SplFileInfo::isLink**(): bool
 
 **Приклад #1 Приклад використання **SplFileInfo::isLink()****
 
-` <?php$info u003d new SplFileInfo('/path/to/symlink');if ($info->isLink()) {    echo 'Реальний шлях: '.$info->getRealPath();}?> `
+` <?php$info = new SplFileInfo('/path/to/symlink');if ($info->isLink()) {    echo 'Реальний шлях: '.$info->getRealPath();}?> `
 
 ### Дивіться також
 

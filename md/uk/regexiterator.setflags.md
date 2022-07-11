@@ -7,7 +7,7 @@
 
 # RegexIterator::setFlags
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::setFlags — Установка прапорів
 
@@ -26,7 +26,7 @@ public **RegexIterator::setFlags**(int `$flags`): void
 розділі [передбачених констант](class.regexiterator.md#regexiterator.constants).
 
 | значення | константа                                                                        |
-| -------- | -------------------------------------------------------------------------------- |
+|----------|----------------------------------------------------------------------------------|
 | 1        | [RegexIterator::USE_KEY](class.regexiterator.md#regexiterator.constants.use-key) |
 
 **Прапори [RegexIterator](class.regexiterator.md)**
@@ -42,12 +42,12 @@ public **RegexIterator::setFlags**(int `$flags`): void
 Створює новий об'єкт-ітератор, який відбирає елементи, ключі яких
 починаються зі слова ''test''.
 
-` <?php$test u003d array ('str1' u003d> 'test 1', 'teststr2' u003d> 'another test', 'str3' u003d> 'test 123');$arrayIterator u003d new Ar $regexIteratoru003du003dnewRegexIterator($arrayIterator, '/^test/');$regexIterator->setFlags(RegexIterator::USE_KEY);foreach ($regexIterator as $key u003d> $ ' u003d> ' . $value . "
+` <?php$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');$arrayIterator = new Ar $regexIterator==newRegexIterator($arrayIterator, '/^test/');$regexIterator->setFlags(RegexIterator::USE_KEY);foreach ($regexIterator as $key => $ ' => ' . $value . "
 ";}?> `
 
 Результат виконання цього прикладу:
 
-teststr2 u003d> інший test
+teststr2 => інший test
 
 ### Дивіться також
 

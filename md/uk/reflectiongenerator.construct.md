@@ -29,7 +29,7 @@ public
 **Приклад #1 Приклад використання
 **ReflectionGenerator::\_\_construct()****
 
-` <?phpfunction gen(){   yield 1;}$gen u003d gen();$reflectionGenu003d new ReflectionGenerator($gen);echo <<<<output{$reflectionGen->getFunction()->name} reflectionGen->getExecutingLine()}Файл: {$reflectionGen->getExecutingFile()}output; `
+` <?phpfunction gen(){   yield 1;}$gen = gen();$reflectionGen= new ReflectionGenerator($gen);echo <<<<output{$reflectionGen->getFunction()->name} reflectionGen->getExecutingLine()}Файл: {$reflectionGen->getExecutingFile()}output; `
 
 Результатом виконання цього прикладу буде щось подібне:
 

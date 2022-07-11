@@ -11,7 +11,7 @@
 
 # ResourceBundle::\_\_construct
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8, PECL intl \>u003d 2.0.0)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
 
 ResourceBundle::create -- resourcebundle_create --
 ResourceBundle::\_\_construct — Створити пакет ресурсів
@@ -21,18 +21,18 @@ ResourceBundle::\_\_construct — Створити пакет ресурсів
 Об'єктно-орієнтований стиль (метод)
 
 public static **ResourceBundle::create**(?string `$locale`, ?string
-`$bundle`, bool `$fallback` u003d **`true`**):
+`$bundle`, bool `$fallback` = **`true`**):
 ?[ResourceBundle](class.resourcebundle.md)
 
 Процедурний стиль
 
 **resourcebundle_create**(?string`$locale`, ?string`$bundle`, bool
-`$fallback` u003d **`true`**): ?[ResourceBundle](class.resourcebundle.md)
+`$fallback` = **`true`**): ?[ResourceBundle](class.resourcebundle.md)
 
 Об'єктно-орієнтований стиль (конструктор):
 
 public **ResourceBundle::\_\_construct**(?string `$locale`, ?string
-`$bundle`, bool `$fallback` u003d **`true`**)
+`$bundle`, bool `$fallback` = **`true`**)
 
 Створює пакет ресурсів.
 
@@ -58,11 +58,11 @@ ru_RU).
 
 **Приклад #1 Приклад використання **resourcebundle_create()****
 
-` <?php$r u003d resourcebundle_create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
+` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
 
 **Приклад #2 Приклад використання **ResourceBundle::create()****
 
-` <?php$r u003d ResourceBundle::create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
+` <?php$r = ResourceBundle::create( 'es', "/usr/share/data/myapp");echo $r['teststring'];?> `
 
 Результат виконання цього прикладу:
 

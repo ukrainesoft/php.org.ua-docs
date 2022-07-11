@@ -13,7 +13,7 @@ DOMNode::cloneNode — Клонує вузол
 
 ### Опис
 
-public **DOMNode::cloneNode**(bool `$deep` u003d **`false`**):
+public **DOMNode::cloneNode**(bool `$deep` = **`false`**):
 [DOMNode](class.domnode.md)\|false
 
 Створює копію вузла.

@@ -7,14 +7,14 @@
 
 # CommonMark\Render\HTML
 
-(cmark \>u003d 1.0.0)
+(cmark \>= 1.0.0)
 
 CommonMark\Render\HTML — Відображення
 
 ### Опис
 
 **CommonMark\Render\HTML**([CommonMark\Node](class.commonmark-node.md)
-`$node`, int `$options` u003d ?): string
+`$node`, int `$options` = ?): string
 
 **Увага**
 

@@ -29,7 +29,7 @@ public **ReflectionParameter::hasType**(): bool
 
 **Приклад #1 Приклад використання **ReflectionParameter::hasType()****
 
-` <?phpfunction someFunction(string$param,$param2 u003dnull) {}$reflectionFunc u003d new ReflectionFunction('someFunction');$reflectionParams u003d$$reflectionFunc->getParameter ));var_dump($reflectionParams[1]->hasType()); `
+` <?phpfunction someFunction(string$param,$param2 =null) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParams =$$reflectionFunc->getParameter ));var_dump($reflectionParams[1]->hasType()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

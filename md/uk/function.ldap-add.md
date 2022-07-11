@@ -17,7 +17,7 @@ ldap_add — Додати запис до LDAP директорії
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
 string `$dn`,
 array `$entry`,
-?array `$controls` u003d **`null`**
+?array `$controls` = **`null`**
 ): bool
 
 Додає запис до LDAP-директорії.
@@ -37,7 +37,7 @@ array `$entry`,
 значень для атрибуту, вони індексуються з використанням цілих чисел,
 починаючи із 0.
 
-` <?php$entry["attribute1"] u003d "value";$entry["attribute2"][0] u003d "value1";$entry["attribute2"][1] u003d "value2";?> `
+` <?php$entry["attribute1"] = "value";$entry["attribute2"][0] = "value1";$entry["attribute2"][1] = "value2";?> `
 
 `controls` Масив [керуючих констант LDAP](ldap.controls.md) для надсилання в
 запит.
@@ -50,7 +50,7 @@ array `$entry`,
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |
 | 7.3    | Додано підтримку параметра controls                                                                                                                     |
@@ -59,7 +59,7 @@ array `$entry`,
 
 **Приклад #1 Повний приклад з автентичністю прив'язки**
 
-`<?php$ds u003d ldap_connect("localhost"); // припустимо, що сервер LDAP знаходиться тутif ($ds) {    // прив'язка до відповідному dn для можливості оновлення su003d ; // підготувати дані    $info["cn"] u003d "John Jones"; $info["sn"] u003d "Jones"; $info["objectclass"] u003d "person"; // додати дані    $r u003d ldap_add($ds, "cnu003dJohn Jones, ou003dMy Company, cu003dUS", $info); ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
+`<?php$ds = ldap_connect("localhost"); // припустимо, що сервер LDAP знаходиться тутif ($ds) {    // прив'язка до відповідному dn для можливості оновлення s= ; // підготувати дані    $info["cn"] = "John Jones"; $info["sn"] = "Jones"; $info["objectclass"] = "person"; // додати дані    $r = ldap_add($ds, "cn=John Jones, o=My Company, c=US", $info); ldap_close($ds);} else {    echo "Неможливо з'єднатися з сервером LDAP";}?> `
 
 ### Примітки
 

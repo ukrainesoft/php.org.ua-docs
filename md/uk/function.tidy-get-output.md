@@ -7,7 +7,7 @@
 
 # tidy_get_output
 
-(PHP 5, PHP 7, PHP 8, PECL tidy u003d 0.5.2)
+(PHP 5, PHP 7, PHP 8, PECL tidy = 0.5.2)
 
 tidy_get_output - Повертає рядок, що представляє розібраний
 tidy-розмітку
@@ -31,7 +31,7 @@ tidy-розмітку
 
 **Приклад #1 Приклад використання **tidy_get_output()****
 
-` <?php$html u003d '<p>параграф</i>';$tidy u003d tidy_parse_string($html);$tidy->cleanRepair();echo tidy_get_output($tidy);?> `
+` <?php$html = '<p>параграф</i>';$tidy = tidy_parse_string($html);$tidy->cleanRepair();echo tidy_get_output($tidy);?> `
 
 Результат виконання цього прикладу:
 

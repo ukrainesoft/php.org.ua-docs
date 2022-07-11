@@ -7,7 +7,7 @@
 
 # ssh2_sftp_realpath
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_realpath — Визначає повний шлях по даному рядку з
 шляхом
@@ -34,7 +34,7 @@ ssh2_sftp_realpath — Визначає повний шлях по даному 
 
 **Приклад #1 Визначення повного шляху**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);$realpath u003d ssh , '/home/username/../../../..//./usr/../etc/passwd');/* $realpath тепер: '/etc/passwd' */?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);$realpath = ssh , '/home/username/../../../..//./usr/../etc/passwd');/* $realpath тепер: '/etc/passwd' */?> `
 
 ### Дивіться також
 

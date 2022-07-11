@@ -7,13 +7,13 @@
 
 #xattr_remove
 
-(PECL xattr \>u003d 0.9.0)
+(PECL xattr \>= 0.9.0)
 
 xattr_remove — Видалення розширених атрибутів файлу
 
 ### Опис
 
-**xattr_remove**(string `$filename`, string `$name`, int `$flags` u003d 0):
+**xattr_remove**(string `$filename`, string `$name`, int `$flags` = 0):
 bool
 
 Ця функція видаляє розширений атрибут файлу.
@@ -35,8 +35,8 @@ bool
 
 `flags`
 |                      |                                                                                 |
-| -------------------- | ------------------------------------------------------------------------------- |
-| **XATTR_DONTFOLLOW** | Чи не розіменовувати символічні посилання, працювати з самим посиланням.        |                                                                                 
+|----------------------|---------------------------------------------------------------------------------|
+| **XATTR_DONTFOLLOW** | Чи не розіменовувати символічні посилання, працювати з самим посиланням.        |
 | **XATTR_ROOT**       | Встановити атрибут у кореневому просторі назв. Потрібні права суперкористувача. |
 
 **Підтримувані xattr-прапори**
@@ -50,7 +50,7 @@ bool
 
 **Приклад #1 Видалити всі розширені атрибути файлу**
 
-` <?php$file u003d 'some_file';$attributes u003d xattr_list($file);foreach ($attributes as $attr_name) {    xattr_remove($file, $attr_name);}?> `
+` <?php$file = 'some_file';$attributes = xattr_list($file);foreach ($attributes as $attr_name) {    xattr_remove($file, $attr_name);}?> `
 
 ### Дивіться також
 

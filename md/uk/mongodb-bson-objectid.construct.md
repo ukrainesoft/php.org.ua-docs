@@ -7,13 +7,13 @@
 
 # MongoDB\BSON\ObjectId::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\ObjectId::\_\_construct — Створює новий ObjectId
 
 ### Опис
 
-final public **MongoDB\BSON\ObjectId::\_\_construct**(string `$id` u003d ?)
+final public **MongoDB\BSON\ObjectId::\_\_construct**(string `$id` = ?)
 
 ### Список параметрів
 
@@ -39,11 +39,11 @@ final public **MongoDB\BSON\ObjectId::\_\_construct**(string `$id` u003d ?)
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\BSON\ObjectId)#1 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "56732d3dda14d81214634921"
 }
 object(MongoDB\BSON\ObjectId)#1 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "0000000000000000000001"
 }
 

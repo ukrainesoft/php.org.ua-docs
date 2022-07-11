@@ -7,7 +7,7 @@
 
 # LuaSandbox::callFunction
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::callFunction — Викликає функцію у глобальній змінній Lua
 
@@ -46,4 +46,4 @@ public **LuaSandbox::callFunction**(string `$name`,
 
 **Приклад #1 Виклик функції Lua**
 
-`<?php// створення нового LuaSandbox$sandbox u003d new LuaSandbox();// Виклик Lua-функції string.match$captures u003d $sandbox->callFunction( 'string.match', $string, >string| `
+`<?php// створення нового LuaSandbox$sandbox = new LuaSandbox();// Виклик Lua-функції string.match$captures = $sandbox->callFunction( 'string.match', $string, >string| `

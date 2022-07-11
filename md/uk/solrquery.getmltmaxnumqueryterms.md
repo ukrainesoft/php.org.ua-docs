@@ -8,7 +8,7 @@
 
 # SolrQuery::getMltMaxNumQueryTerms
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getMltMaxNumQueryTerms — Повертає максимальну кількість
 умов запиту, які будуть включені до будь-якого згенерованого запиту

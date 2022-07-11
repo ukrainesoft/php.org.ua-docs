@@ -15,7 +15,7 @@ phar-архіву та застосування його
 ### Опис
 
 public **PharData::setSignatureAlgorithm**(int `$algo`, ?string
-`$privateKey` u003d **`null`**): void
+`$privateKey` = **`null`**): void
 
 > **Примітка**:
 >
@@ -51,7 +51,7 @@ public **PharData::setSignatureAlgorithm**(int `$algo`, ?string
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | privateKey тепер допускає значення null. |
 
 ### Дивіться також

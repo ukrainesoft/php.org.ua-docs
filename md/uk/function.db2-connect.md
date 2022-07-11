@@ -7,7 +7,7 @@
 
 #db2_connect
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_connect — Повертає з'єднання з базою даних
 
@@ -17,7 +17,7 @@ db2_connect — Повертає з'єднання з базою даних
 string `$database`,
 string `$username`,
 string `$password`,
-array `$options` u003d ?
+array `$options` = ?
 ): resource
 
 Створює нове з'єднання з базою даних IBM DB2 Universal Database, IBM
@@ -33,7 +33,7 @@ Cloudscape чи Apache Derby database.
 є повним рядком підключення в наступному форматі:
 
 ``` literallayout
-DATABASEu003ddatabase;HOSTNAMEu003dhostname;PORTu003dport;PROTOCOLu003dTCPIP;UIDu003dusername;PWDu003dpassword;
+DATABASE=database;HOSTNAME=hostname;PORT=port;PROTOCOL=TCPIP;UID=username;PWD=password;
 ````
 
 де параметри становлять такі значення:
@@ -113,7 +113,7 @@ Universal Database.
 db2 catalog tcpip node loopback remote <SERVERNAME> server <SERVICENAME>
 db2 catalog database <LOCALDBNAME> as <REMOTEDBNAME> at node loopback
 db2 "update dbm cfg using svcename <SERVICENAME>"
-db2set DB2COMMu003dTCPIP
+db2set DB2COMM=TCPIP
 ````
 
 Дані нові опції i5/OS доступні в ibm_db2 версії 1.5.1 та новіші.
@@ -144,7 +144,7 @@ UDB CLI, який є іменем SQL. Файли кваліфікуються �
 
 > **Примітка**:
 >
-> Параметр php.ini `ibm_db2.i5_allow_commit`u003du003d0 або
+> Параметр php.ini `ibm_db2.i5_allow_commit`==0 або
 > `DB2_I5_TXN_NO_COMMIT` використовується за замовчуванням, але може бути
 > змінено за допомогою параметра i5_commit.
 
@@ -184,7 +184,7 @@ OPTIMIZE FOR nnn ROWS, враховують мету, вказану у рече
 Значення DB2_I5_DBCS_ALLOC_OFF відключає схему розподілу DB2 6X
 збільшення розміру стовпця перетворення DBCS.
 
-Примітка: параметр php.ini `ibm_db2.i5_dbcs_alloc`u003du003d 0 або
+Примітка: параметр php.ini `ibm_db2.i5_dbcs_alloc`== 0 або
 DB2_I5_DBCS_ALLOC_OFF є значенням за замовчуванням, але його можна
 змінити за допомогою параметра i5_dbcs_alloc.
 
@@ -268,7 +268,7 @@ DB2_I5_DBCS_ALLOC_OFF є значенням за замовчуванням, а�
 Символьне значення, що вказує на список бібліотек, який буде
 використовуватись для дозволу некваліфікованих посилань на файли.
 Вкажіть елементи списку бібліотек, розділені пробілами
-'i5_libl'u003d\>"MYLIB YOURLIB ANYLIB".
+'i5_libl'=\>"MYLIB YOURLIB ANYLIB".
 
 > **Примітка**:
 >
@@ -289,7 +289,7 @@ DB2_I5_DBCS_ALLOC_OFF є значенням за замовчуванням, а�
 попередньо каталогізована за допомогою DB2 Command Line Processor
 (CLP) або DB2 Configuration Assistant.
 
-` <?php$database u003d 'SAMPLE';$user u003d 'db2inst1';$password u003d 'ibmdb2';$conn u003d db2_connect($database, $user, $password);if ($conn) {    ."; db2_close($conn);}else {    echo "Connection failed.";}?> `
+` <?php$database = 'SAMPLE';$user = 'db2inst1';$password = 'ibmdb2';$conn = db2_connect($database, $user, $password);if ($conn) {    ."; db2_close($conn);}else {    echo "Connection failed.";}?> `
 
 Результат виконання цього прикладу:
 
@@ -300,7 +300,7 @@ Connection succeeded.
 Некаталогізоване з'єднання дозволяє динамічно підключатися до
 базі даних.
 
-` <?php$database u003d 'SAMPLE';$user u003d 'db2inst1';$password u003d 'ibmdb2';$hostname u003d 'localhost';$port u003d 50000;$conn_string u003d "DRIVERu003d{IBM DB DATABASEu003d$database;" . "HOSTNAMEu003d$hostname;PORTu003d$port;PROTOCOLu003dTCPIP;UIDu003d$user;PWDu003d$password;";$conn u003d db2_connect($conn_string, '', '');if ($conn) {    echo " Connection succeeded."; db2_close($conn);}else {    echo "Connection failed.";}?> `
+` <?php$database = 'SAMPLE';$user = 'db2inst1';$password = 'ibmdb2';$hostname = 'localhost';$port = 50000;$conn_string = "DRIVER={IBM DB DATABASE=$database;" . "HOSTNAME=$hostname;PORT=$port;PROTOCOL=TCPIP;UID=$user;PWD=$password;";$conn = db2_connect($conn_string, '', '');if ($conn) {    echo " Connection succeeded."; db2_close($conn);}else {    echo "Connection failed.";}?> `
 
 Результат виконання цього прикладу:
 
@@ -312,7 +312,7 @@ Connection succeeded.
 Передача масиву параметрів **db2_connect()** дозволяє змінювати
 поведінка дескриптора з'єднання за умовчанням.
 
-` <?php$database u003d 'SAMPLE';$user u003d 'db2inst1';$password u003d 'ibmdb2';$options u003d array('autocommit' u003d> DB2_AUTOCOMMIT_OFF);$conn u003d db2_connect$ password, $options);if ($conn) {   echo "Connection succeeded.
+` <?php$database = 'SAMPLE';$user = 'db2inst1';$password = 'ibmdb2';$options = array('autocommit' => DB2_AUTOCOMMIT_OFF);$conn = db2_connect$ password, $options);if ($conn) {   echo "Connection succeeded.
 ";    if (db2_autocommit($conn)) {         echo "Autocommit is on.
 ";    }   else {         echo "Autocommit is off.
 ";    }    db2_close($conn);}else {   echo "Connection failed.";}?> `
@@ -328,7 +328,7 @@ Autocommit is off.
 i5/OS ibm_db2 1.5.1 використовуйте стандартний хост, ідентифікатор
 користувача та пароль для **db2_connect()**.
 
-` <?php $libraryu003du003d"ADC"; $i5 u003d db2_connect("", "", "", array("i5_lib"u003d>"qsys2")); $result u003d db2_exec($i5,        "select * from systables where table_schema u003d '$library'"); while($row u003d db2_fetch_both($result)) {    echo $row['TABLE_NAME']."</br>"; }  db2_close($i5);?> `
+` <?php $library=="ADC"; $i5 = db2_connect("", "", "", array("i5_lib"=>"qsys2")); $result = db2_exec($i5,        "select * from systables where table_schema = '$library'"); while($row = db2_fetch_both($result)) {    echo $row['TABLE_NAME']."</br>"; }  db2_close($i5);?> `
 
 Результат виконання цього прикладу:
 
@@ -341,8 +341,8 @@ PICTURES
 У цьому прикладі показано, як увімкнути довірений контекст, переключити
 користувачів та отримати поточний ідентифікатор користувача.
 
-` <?php$database u003d "SAMPLE";$hostname u003d "localhost";$port u003d 50000;$authID u003d "db2inst1";$auth_pass u003d "ibmdb2";$tc_user u003d "tcuser"; ;$dsnu003du003d"DATABASEu003d$database;HOSTNAMEu003d$hostname;PORTu003d$port; PROTOCOLu003dTCPIP;UIDu003d$authID;PWDu003d$auth_pass;";$options u003d array ("trustedcontext" u003dDDB2_TR tc_connu003du003ddb2_connect($dsn, "", "", $options);if($tc_conn) {    echo "Explicit trusted connection succeeded.
-";    if(db2_get_option($tc_conn, "trustedcontext")) {        $userBefore u003d db2_get_option($tc_conn, "trusted_user");        // Выполнение работы в качестве пользователя 1        // Переключение на доверенного пользователя        $parameters u003d array("trusted_user" u003d> $tc_user,          "trusted_password" u003d> $tcuser_pass);        $res u003d db2_set_option ($tc_conn, $parameters, 1);        $userAfter u003d db2_get_option($tc_conn, "trusted_user");        // Продолжение выполнения работы в качестве доверенного пользователя if($userBefore !u003d $userAfter) {            echo "User has been switched." . "
+` <?php$database = "SAMPLE";$hostname = "localhost";$port = 50000;$authID = "db2inst1";$auth_pass = "ibmdb2";$tc_user = "tcuser"; ;$dsn=="DATABASE=$database;HOSTNAME=$hostname;PORT=$port; PROTOCOL=TCPIP;UID=$authID;PWD=$auth_pass;";$options = array ("trustedcontext" =DDB2_TR tc_conn==db2_connect($dsn, "", "", $options);if($tc_conn) {    echo "Explicit trusted connection succeeded.
+";    if(db2_get_option($tc_conn, "trustedcontext")) {        $userBefore = db2_get_option($tc_conn, "trusted_user");        // Выполнение работы в качестве пользователя 1        // Переключение на доверенного пользователя        $parameters = array("trusted_user" => $tc_user,          "trusted_password" => $tcuser_pass);        $res = db2_set_option ($tc_conn, $parameters, 1);        $userAfter = db2_get_option($tc_conn, "trusted_user");        // Продолжение выполнения работы в качестве доверенного пользователя if($userBefore != $userAfter) {            echo "User has been switched." . "
 ";        }    }}   db2_close($tc_conn);}else {   echo "Explicit trusted connection failed.
 ";}?> `
 

@@ -8,7 +8,7 @@
 
 # EvLoop::prepare
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::prepare — Створює об'єкт спостерігача EvPrepare, пов'язаний із
 поточним екземпляром циклу подій
@@ -18,7 +18,7 @@ EvLoop::prepare — Створює об'єкт спостерігача EvPrepar
 final public **EvLoop::prepare**(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvPrepare](class.evprepare.md)
 
 Створює об'єкт спостерігача EvPrepare, пов'язаний із поточним екземпляром

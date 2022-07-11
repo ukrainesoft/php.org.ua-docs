@@ -61,14 +61,14 @@ example string" можна розбити на окремі слова, вико
 
 **Приклад #1 Приклад використання **strtok()****
 
-` <?php$string u003d "This is an example
-string";/* Як|розділювачів використовується пробіл, табуляція і переклад рядки */$tok u003d strtok($string, "
-");while ($tok !u003du003d false) {    echo "Wordu003d$tok<br />";    $tok u003d strtok("
+` <?php$string = "This is an example
+string";/* Як|розділювачів використовується пробіл, табуляція і переклад рядки */$tok = strtok($string, "
+");while ($tok !== false) {    echo "Word=$tok<br />";    $tok = strtok("
 ");}?> `
 
 **Приклад #2 Спосіб обробки порожніх підрядок функцією **strtok()****
 
-` <?php$first_token u003d strtok('/something', '/');$second_token u003d strtok('/');var_dump($first_token, $second_token);?> `
+` <?php$first_token = strtok('/something', '/');$second_token = strtok('/');var_dump($first_token, $second_token);?> `
 
 Результат виконання цього прикладу:
 
@@ -78,8 +78,8 @@ bool(false)
 **Приклад #3 Відмінність між **strtok()** та
 [explode()](function.explode.md)**
 
-` <?php$string u003d ";aaa;;bbb;";$parts u003d [];$tok u003d strtok($string, ";");while ($tok !u003du003d false) {    $parts[] u003d $ tok; $tok u003d strtok(";");}echo json_encode($parts),"
-";$parts u003dexplode(";", $string);echo json_encode($parts),"
+` <?php$string = ";aaa;;bbb;";$parts = [];$tok = strtok($string, ";");while ($tok !== false) {    $parts[] = $ tok; $tok = strtok(";");}echo json_encode($parts),"
+";$parts =explode(";", $string);echo json_encode($parts),"
 ";
 
 Результат виконання цього прикладу:
@@ -93,7 +93,7 @@ bool(false)
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальнішу інформацію зверніться до розділу [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Дивіться також

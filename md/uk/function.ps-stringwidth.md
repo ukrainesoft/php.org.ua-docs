@@ -7,7 +7,7 @@
 
 #ps_stringwidth
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_stringwidth — Отримує ширину рядка
 
@@ -16,8 +16,8 @@ ps_stringwidth — Отримує ширину рядка
 **ps_stringwidth**(
 resource `$psdoc`,
 string `$text`,
-int `$fontid` u003d 0,
-float `$size` u003d 0.0
+int `$fontid` = 0,
+float `$size` = 0.0
 ): float
 
 Обчислює ширину рядка в пунктах, якби вона виводилася із заданим

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::getLatency
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::getLatency — Повертає затримку сервера в
 мілісекундах
@@ -38,7 +38,7 @@ final public **MongoDB\Driver\Server::getLatency**(): ?integer
 ### Список змін
 
 | Версія              | Опис                                                                                                                                                        |
-| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.11.0 | Метод поверне **null**, якщо затримка не була виміряна. У ранніх версіях завжди поверталося ціле число, а невстановлене значення могло відображатися як -1. |
 
 ### Приклади
@@ -46,7 +46,7 @@ final public **MongoDB\Driver\Server::getLatency**(): ?integer
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Server::getLatency()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server u003d manager->selectServer($rp);var_dump($server->getLatency());?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://localhost:27017/");$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY);$server = manager->selectServer($rp);var_dump($server->getLatency());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

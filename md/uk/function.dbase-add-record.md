@@ -44,14 +44,14 @@ dbase_add_record — Додає запис до бази даних
 ### Список змін
 
 | Версія    | Опис                                                |
-| --------- | --------------------------------------------------- |
+|-----------|-----------------------------------------------------|
 | dbase 7.0 | Параметр database тепер має тип resource, а не int. |
 
 ### Приклади
 
 **Приклад #1 Вставлення запису в базу даних dBase**
 
-` <?php// відкрити БД в режимі читання і записи$db u003d dbase_open('/tmp/test.dbf', 2);if ($db) {  dbase_add_record($db, y  y 'Maxim Topolov',      '23',      'max@example.com',     'T')); dbase_close($db);}?> `
+` <?php// відкрити БД в режимі читання і записи$db = dbase_open('/tmp/test.dbf', 2);if ($db) {  dbase_add_record($db, y  y 'Maxim Topolov',      '23',      'max@example.com',     'T')); dbase_close($db);}?> `
 
 ### Дивіться також
 

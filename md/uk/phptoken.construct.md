@@ -16,8 +16,8 @@ PhpToken::\_\_construct — Створює об'єкт PhpToken
 final public **PhpToken::\_\_construct**(
 int `$id`,
 string `$text`,
-int `$line` u003d -1,
-int `$pos` u003d -1
+int `$line` = -1,
+int `$pos` = -1
 )
 
 Повертає новий об'єкт PhpToken.

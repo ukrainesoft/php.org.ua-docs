@@ -7,7 +7,7 @@
 
 # GearmanClient::wait
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanClient::wait — Очікує активності введення-виводу для всіх
 підключень на клієнта

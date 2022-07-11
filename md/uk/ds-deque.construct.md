@@ -7,7 +7,7 @@
 
 # Ds\Deque::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::\_\_construct — Створює новий екземпляр
 
@@ -15,7 +15,7 @@ Ds\Deque::\_\_construct — Створює новий екземпляр
 
 public
 **Ds\Deque::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?)
+$values = ?)
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує
 [traversable](class.traversable.md), або масив, передані в
@@ -30,17 +30,17 @@ $values u003d ?)
 
 **Приклад #1 Приклад використання **Ds\Deque::\_\_construct()****
 
-` <?php$deque u003d new \Ds\Deque();var_dump($deque);$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque);?> `
+` <?php$deque = new \Ds\Deque();var_dump($deque);$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Deque)#2 (0) {
 }
 object(Ds\Deque)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

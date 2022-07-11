@@ -7,7 +7,7 @@
 
 #password_algos
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 password_algos — Отримує доступні ідентифікатори алгоритму хешування
 пароля
@@ -37,7 +37,7 @@ password_algos — Отримує доступні ідентифікатори 
 
 Array
 (
-[0] u003d> 2y
-[1] u003d> argon2i
-[2] u003d> argon2id
+[0] => 2y
+[1] => argon2i
+[2] => argon2id
 )

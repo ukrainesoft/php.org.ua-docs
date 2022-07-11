@@ -7,13 +7,13 @@
 
 # Yaf_Route_Simple::assemble
 
-(Yaf \> u003d 2.3.0)
+(Yaf \> = 2.3.0)
 
 Yaf_Route_Simple::assemble — Збирає URL
 
 ### Опис
 
-public **Yaf_Route_Simple::assemble**(array `$info`, array `$query` u003d
+public **Yaf_Route_Simple::assemble**(array `$info`, array `$query` =
 ?): string
 
 Збирає URL-адресу.
@@ -38,8 +38,8 @@ public **Yaf_Route_Simple::assemble**(array `$info`, array `$query` u003d
 
 **Приклад #1 Приклад використання **Yaf_Route_Simple::assemble()****
 
-` <?php$router u003d new Yaf_Router();$route u003d neve Yaf_Route_Simple('m', 'c', 'a');$router->addRoute("simple", $route);var_dump$ >getRoute('simple')->assemble(            array(                ':a' u003d> 'yafaction',                'tkey' u003d> 'tval',                ':c' u003d> 'yafcontroller',                ':m' u003d> 'yafmodule '                ),            array(                'tkey1' u003d> 'tval1',                'tkey2' u003d> 'tval2'                )            )); `
+` <?php$router = new Yaf_Router();$route = neve Yaf_Route_Simple('m', 'c', 'a');$router->addRoute("simple", $route);var_dump$ >getRoute('simple')->assemble(            array(                ':a' => 'yafaction',                'tkey' => 'tval',                ':c' => 'yafcontroller',                ':m' => 'yafmodule '                ),            array(                'tkey1' => 'tval1',                'tkey2' => 'tval2'                )            )); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-string(64) "?mu003dyafmodule&cu003dyafcontroller&au003dyafaction&tkey1u003dtval1&tkey2u003dtval2"
+string(64) "?m=yafmodule&c=yafcontroller&a=yafaction&tkey1=tval1&tkey2=tval2"

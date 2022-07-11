@@ -7,7 +7,7 @@
 
 # Gmagick::setimagebordercolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagebordercolor — Встановлює колір рамки зображення
 

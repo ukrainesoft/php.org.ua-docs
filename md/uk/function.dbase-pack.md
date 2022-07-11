@@ -36,14 +36,14 @@ dbase_pack — Фіксує видалення з бази даних
 ### Список змін
 
 | Версія    | Опис                                                |
-| --------- | --------------------------------------------------- |
+|-----------|-----------------------------------------------------|
 | dbase 7.0 | Параметр database тепер має тип resource, а не int. |
 
 ### Приклади
 
 **Приклад #1 Очищення бази даних dBase**
 
-` <?php// відкриваємо в режимі читання і записи$db u003d dbase_open('/tmp/test.dbf', 2);if ($db) {  $record_numbers u003d dbase_numrecord; for ($i u003d 1; $i <u003d$$record_numbers;$i++) {     dbase_delete_record($db, $i); }  // стираємо базу  dbase_pack($db);}?> `
+` <?php// відкриваємо в режимі читання і записи$db = dbase_open('/tmp/test.dbf', 2);if ($db) {  $record_numbers = dbase_numrecord; for ($i = 1; $i <=$$record_numbers;$i++) {     dbase_delete_record($db, $i); }  // стираємо базу  dbase_pack($db);}?> `
 
 ### Дивіться також
 

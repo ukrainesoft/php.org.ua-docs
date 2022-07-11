@@ -49,7 +49,7 @@ public
 
 **Приклад #1 Приклад використання **ReflectionProperty::setValue()****
 
-`<?phpclass Foo {    public static $staticProperty; public $property; protected $privateProperty;}$reflectionClass u003d new ReflectionClass('Foo');$reflectionClass->getProperty('staticProperty')->setValue('foo');var_dump(Foo::$staticProperty);$foo $reflectionClass->getProperty('property')->setValue($foo, 'bar');var_dump($foo->property);$reflectionProperty u003d $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccess (true);$reflectionProperty->setValue($foo, 'foobar');var_dump($reflectionProperty->getValue($foo));?> `
+`<?phpclass Foo {    public static $staticProperty; public $property; protected $privateProperty;}$reflectionClass = new ReflectionClass('Foo');$reflectionClass->getProperty('staticProperty')->setValue('foo');var_dump(Foo::$staticProperty);$foo $reflectionClass->getProperty('property')->setValue($foo, 'bar');var_dump($foo->property);$reflectionProperty = $reflectionClass->getProperty('privateProperty');$reflectionProperty->setAccess (true);$reflectionProperty->setValue($foo, 'foobar');var_dump($reflectionProperty->getValue($foo));?> `
 
 Результат виконання цього прикладу:
 

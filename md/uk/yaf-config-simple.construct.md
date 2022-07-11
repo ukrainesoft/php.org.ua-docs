@@ -7,14 +7,14 @@
 
 # Yaf_Config_Simple::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Simple::\_\_construct - Призначення \_\_construct
 
 ### Опис
 
 public **Yaf_Config_Simple::\_\_construct**(array `$configs`, bool
-`$readonly` u003d false)
+`$readonly` = false)
 
 **Увага**
 

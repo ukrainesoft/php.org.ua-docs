@@ -17,8 +17,8 @@ strcspn — Повертає довжину ділянки на початку �
 **strcspn**(
 string `$string`,
 string `$characters`,
-int `$offset` u003d 0,
-?int `$length` u003d **`null`**
+int `$offset` = 0,
+?int `$length` = **`null`**
 ): int
 
 Повертає довжину ділянки на початку рядка `string`, який *не містить*
@@ -74,14 +74,14 @@ int `$offset` u003d 0,
 ### Список змін
 
 | Версія | Опис                                  |
-| ------ | ------------------------------------- |
+|--------|---------------------------------------|
 | 8.0.0  | length тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **strcspn()****
 
-` <?php$a u003d strcspn('abcd', 'apple');$b u003d strcspn('abcd',  'banana');$c u003d strcspn('hello', 'l');$d u003d strcspn ('hello', 'world');$e u003d strcspn('abcdhelloabcd', 'abcd', -9);$f u003d strcspn('abcdhelloabcd', 'abcd', -9, -5);var_dump$ a);var_dump($b);var_dump($c);var_dump($d);var_dump($e);var_dump($f);?> `
+` <?php$a = strcspn('abcd', 'apple');$b = strcspn('abcd',  'banana');$c = strcspn('hello', 'l');$d = strcspn ('hello', 'world');$e = strcspn('abcdhelloabcd', 'abcd', -9);$f = strcspn('abcdhelloabcd', 'abcd', -9, -5);var_dump$ a);var_dump($b);var_dump($c);var_dump($d);var_dump($e);var_dump($f);?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # Клас Vtiful\Kernel\Format
 
-(PECL xlswriter \>u003d 1.2.1)
+(PECL xlswriter \>= 1.2.1)
 
 ## Вступ
 
@@ -19,37 +19,37 @@ class **Vtiful\Kernel\Format** {
 
 /\* Константи \*/
 
-const int `FORMAT_ALIGN_LEFT` u003d 1;
+const int `FORMAT_ALIGN_LEFT` = 1;
 
-const int `FORMAT_ALIGN_CENTER` u003d 2;
+const int `FORMAT_ALIGN_CENTER` = 2;
 
-const int `FORMAT_ALIGN_RIGHT` u003d 3;
+const int `FORMAT_ALIGN_RIGHT` = 3;
 
-const int `FORMAT_ALIGN_FILL` u003d 4;
+const int `FORMAT_ALIGN_FILL` = 4;
 
-const int `FORMAT_ALIGN_JUSTIFY` u003d 5;
+const int `FORMAT_ALIGN_JUSTIFY` = 5;
 
-const int `FORMAT_ALIGN_CENTER_ACROSS` u003d 6;
+const int `FORMAT_ALIGN_CENTER_ACROSS` = 6;
 
-const int `FORMAT_ALIGN_DISTRIBUTED` u003d 7;
+const int `FORMAT_ALIGN_DISTRIBUTED` = 7;
 
-const int `FORMAT_ALIGN_VERTICAL_TOP` u003d 8;
+const int `FORMAT_ALIGN_VERTICAL_TOP` = 8;
 
-const int `FORMAT_ALIGN_VERTICAL_BOTTOM` u003d 9;
+const int `FORMAT_ALIGN_VERTICAL_BOTTOM` = 9;
 
-const int `FORMAT_ALIGN_VERTICAL_CENTER` u003d 10;
+const int `FORMAT_ALIGN_VERTICAL_CENTER` = 10;
 
-const int `FORMAT_ALIGN_VERTICAL_JUSTIFY` u003d 11;
+const int `FORMAT_ALIGN_VERTICAL_JUSTIFY` = 11;
 
-const int `FORMAT_ALIGN_VERTICAL_DISTRIBUTED` u003d 12;
+const int `FORMAT_ALIGN_VERTICAL_DISTRIBUTED` = 12;
 
-const int `UNDERLINE_SINGLE` u003d 1;
+const int `UNDERLINE_SINGLE` = 1;
 
-const int `UNDERLINE_DOUBLE` u003d 2;
+const int `UNDERLINE_DOUBLE` = 2;
 
-const int `UNDERLINE_SINGLE_ACCOUNTING` u003d 3;
+const int `UNDERLINE_SINGLE_ACCOUNTING` = 3;
 
-const int `UNDERLINE_DOUBLE_ACCOUNTING` u003d 4;
+const int `UNDERLINE_DOUBLE_ACCOUNTING` = 4;
 
 /\* Методи \*/
 

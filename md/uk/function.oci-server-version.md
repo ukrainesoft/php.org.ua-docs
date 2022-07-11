@@ -7,7 +7,7 @@
 
 #oci_server_version
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_server_version — Повертає версію сервера Oracle
 
@@ -31,7 +31,7 @@ oci_server_version — Повертає версію сервера Oracle
 
 **Приклад #1 Приклад використання **oci_server_version()****
 
-` <?php$conn u003d oci_connect("hr", "hrpwd", "localhost/XE");echo "Версія сервера: " . oci_server_version($conn);//Виведе //Версія сервера:OracleDatabase11gEnterpriseEditionRelease11.2.0.1.0-64bitProduction/In > `
+` <?php$conn = oci_connect("hr", "hrpwd", "localhost/XE");echo "Версія сервера: " . oci_server_version($conn);//Виведе //Версія сервера:OracleDatabase11gEnterpriseEditionRelease11.2.0.1.0-64bitProduction/In > `
 
 ### Примітки
 

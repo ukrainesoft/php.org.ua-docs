@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Javascript::getCode
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Javascript::getCode — Повертає код JavaScript
 
@@ -33,7 +33,7 @@ final public **MongoDB\BSON\Javascript::getCode**(): string
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Javascript::getCode()****
 
-` <?php$js u003d new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');var_dump($js->getCode());?> `
+` <?php$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');var_dump($js->getCode());?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # Ds\Vector::last
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::last — Повертає останнє значення вектора
 
@@ -35,7 +35,7 @@ public **Ds\Vector::last**():
 
 **Приклад #1 Приклад використання **Ds\Vector::last()****
 
-` <?php$vector u003d new \Ds\Vector([1, 2, 3]);var_dump($vector->last());?> `
+` <?php$vector = new \Ds\Vector([1, 2, 3]);var_dump($vector->last());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

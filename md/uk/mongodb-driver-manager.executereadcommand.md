@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::executeReadCommand
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Manager::executeReadCommand — Виконує команду бази
 даних, що читає
@@ -16,7 +16,7 @@ MongoDB\Driver\Manager::executeReadCommand — Виконує команду б�
 
 final public **MongoDB\Driver\Manager::executeReadCommand**(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує

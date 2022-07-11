@@ -8,7 +8,7 @@
 
 # SolrCollapseFunction::setMin
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrCollapseFunction::setMin — Встановлює початковий розмір
 структур даних, що згортаються, тільки при згортанні по числовому полю

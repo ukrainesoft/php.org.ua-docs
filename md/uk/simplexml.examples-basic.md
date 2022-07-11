@@ -15,14 +15,14 @@
 
 **Приклад #1 Файл example.php з рядком XML**
 
-`<?php$xmlstr u003d <<<<XML<?xml versionu003d'1.0' standaloneu003d'yes'?><movies> <movie>  <title>PHP: Поява Парсера</title>  <characters>  <character> name>Ms. Coder</name>    <actor>Onlivia Actora</actor>   </character>   <character>    <name>Mr. Coder</name>    <actor>El ActÓr</actor>   </character>  </characters>  <plot>   Таким образом, мова. Це все рівно мова програмування. Чи    це скриптова мова? Все розкривається в цьому документальному фільмі, схожому на фільм жахів. </plot>  <great-lines>   <line>PHP вирішує всі мої проблеми в вебе</line>  </great-lines>  <rating typeu003d"thumbs">7</rating>  <rating typeu003d 5</rating> </movie></movies>XML;?> `
+`<?php$xmlstr = <<<<XML<?xml version='1.0' standalone='yes'?><movies> <movie>  <title>PHP: Поява Парсера</title>  <characters>  <character> name>Ms. Coder</name>    <actor>Onlivia Actora</actor>   </character>   <character>    <name>Mr. Coder</name>    <actor>El ActÓr</actor>   </character>  </characters>  <plot>   Таким образом, мова. Це все рівно мова програмування. Чи    це скриптова мова? Все розкривається в цьому документальному фільмі, схожому на фільм жахів. </plot>  <great-lines>   <line>PHP вирішує всі мої проблеми в вебе</line>  </great-lines>  <rating type="thumbs">7</rating>  <rating type= 5</rating> </movie></movies>XML;?> `
 
 SimpleXML користуватися дуже просто! Спробуйте отримати якусь
 рядок або число базового XML-документа.
 
 **Приклад #2 Отримання частини документа `<plot>`**
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);echo $movies->movie[0]->plot;?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);echo $movies->movie[0]->plot;?> `
 
 Результат виконання цього прикладу:
 
@@ -37,7 +37,7 @@ SimpleXML користуватися дуже просто! Спробуйте �
 
 **Приклад #3 Отримання рядка `<line>`**
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);echo $movies->movie->{'great-lines'}->line;?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);echo $movies->movie->{'great-lines'}->line;?> `
 
 Результат виконання цього прикладу:
 
@@ -49,7 +49,7 @@ PHP вирішує всі мої проблеми в Інтернеті
 одному батьківському елементі, то потрібно застосовувати стандартні методи
 ітерації.
 
-`<?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);/* Для кожного вузла <character>, ми окремо виведемо ім'я<name>. */foreach ($movies->movie->characters->character as $character) {   echo $character->name, ' грає ', $character->actor, PHP_EOL;}?> `
+`<?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);/* Для кожного вузла <character>, ми окремо виведемо ім'я<name>. */foreach ($movies->movie->characters->character as $character) {   echo $character->name, ' грає ', $character->actor, PHP_EOL;}?> `
 
 Результат виконання цього прикладу:
 
@@ -67,7 +67,7 @@ Mr. Coder грає El ActÓr
 може також отримати доступ до атрибутів елемента. Отримати доступ до
 атрибут елемента можна так само, як до елементів масиву (array).
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);/* Доступ до вузла <rating> першого фільму. * Так же виведемо шкалу оцінок. */foreach ($movies->movie[0]->rating as $rating) {    switch((string) $rating['type']) { // Отримання атрибутів елементу по індексу                                      ' thumbs up'; break; case 'stars':        echo $rating, ' stars'; break; }}?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);/* Доступ до вузла <rating> першого фільму. * Так же виведемо шкалу оцінок. */foreach ($movies->movie[0]->rating as $rating) {    switch((string) $rating['type']) { // Отримання атрибутів елементу по індексу                                      ' thumbs up'; break; case 'stars':        echo $rating, ' stars'; break; }}?> `
 
 Результат виконання цього прикладу:
 
@@ -80,7 +80,7 @@ Mr. Coder грає El ActÓr
 `(string)`. В іншому випадку, PHP розглядатиме елемент як
 об'єкт.
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);if ((string) $movies->movie->title u003du003d 'PHP: Поява Парсера') { м           ;}echo htmlentities((string) $movies->movie->title);?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);if ((string) $movies->movie->title == 'PHP: Поява Парсера') { м           ;}echo htmlentities((string) $movies->movie->title);?> `
 
 Результат виконання цього прикладу:
 
@@ -91,7 +91,7 @@ Mr. Coder грає El ActÓr
 Два елементи SimpleXMLElements вважаються різними, навіть якщо вони
 вказують на той самий об'єкт.
 
-` <?phpinclude 'example.php';$movies1 u003d new SimpleXMLElement($xmlstr);$movies2 u003d new SimpleXMLElement($xmlstr);var_dump($movies1 u003du003du003d$movies2); // false?> `
+` <?phpinclude 'example.php';$movies1 = new SimpleXMLElement($xmlstr);$movies2 = new SimpleXMLElement($xmlstr);var_dump($movies1 ===$movies2); // false?> `
 
 Результат виконання цього прикладу:
 
@@ -102,7 +102,7 @@ bool(false)
 SimpleXML включає вбудовану підтримку XPath. Пошук усіх
 елементів `<character>`:
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);foreach ($movies->xpath('//character') as $character) {    echo $character->name| $character->actor, PHP_EOL;}?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);foreach ($movies->xpath('//character') as $character) {    echo $character->name| $character->actor, PHP_EOL;}?> `
 
 '`//`' служить як шаблон. Для вказівки абсолютного шляху,
 опустіть одну з косих рис.
@@ -117,11 +117,11 @@ Mr. Coder грає by El ActÓr
 Дані SimpleXML не обов'язково повинні бути незмінними. Об'єкт
 дозволяє маніпулювати усіма елементами.
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);$movies->movie[0]->characters->character[0]->name u003d 'Miss Coder';echo $movies- >asXML();?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);$movies->movie[0]->characters->character[0]->name = 'Miss Coder';echo $movies- >asXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" standaloneu003d"yes"?>
+<?xml version="1.0" standalone="yes"?>
 <movies>
 <movie>
 <title>PHP: Поява Парсера</title>
@@ -143,8 +143,8 @@ Mr. Coder грає by El ActÓr
 <great-lines>
 <line>PHP вирішує всі мої завдання на web</line>
 </great-lines>
-<rating typeu003d"thumbs">7</rating>
-<rating typeu003d"stars">5</rating>
+<rating type="thumbs">7</rating>
+<rating type="stars">5</rating>
 </movie>
 </movies>
 
@@ -153,11 +153,11 @@ Mr. Coder грає by El ActÓr
 SimpleXML має можливість легко додавати дочірні елементи та
 атрибути.
 
-` <?phpinclude 'example.php';$movies u003d new SimpleXMLElement($xmlstr);$character u003d $movies->movie[0]->characters->addChild('character');$character->addChild(' name', 'Mr. Parser');$character->addChild('actor', 'John Doe');$rating u003d $movies->movie[0]->addChild('rating', 'PG'); $rating->addAttribute('type', 'mpaa');echo $movies->asXML();?> `
+` <?phpinclude 'example.php';$movies = new SimpleXMLElement($xmlstr);$character = $movies->movie[0]->characters->addChild('character');$character->addChild(' name', 'Mr. Parser');$character->addChild('actor', 'John Doe');$rating = $movies->movie[0]->addChild('rating', 'PG'); $rating->addAttribute('type', 'mpaa');echo $movies->asXML();?> `
 
 Результат виконання цього прикладу:
 
-<?xml versionu003d"1.0" standaloneu003d"yes"?>
+<?xml version="1.0" standalone="yes"?>
 <movies>
 <movie>
 <title>PHP: Поява Парсера</title>
@@ -179,9 +179,9 @@ SimpleXML має можливість легко додавати дочірні
 <great-lines>
 <line>PHP вирішує всі мої завдання на web</line>
 </great-lines>
-<rating typeu003d"thumbs">7</rating>
-<rating typeu003d"stars">5</rating>
-<rating typeu003d"mpaa">PG</rating></movie>
+<rating type="thumbs">7</rating>
+<rating type="stars">5</rating>
+<rating type="mpaa">PG</rating></movie>
 </movies>
 
 **Приклад #11 Взаємодія з DOM**
@@ -189,7 +189,7 @@ SimpleXML має можливість легко додавати дочірні
 PHP може перетворювати XML-вузли з SimpleXML у формат DOM та навпаки.
 Цей приклад показує, як можна змінити DOM-елемент у SimpleXML.
 
-` <?php$dom u003d new DOMDocument;$dom->loadXML('<books><book><title>дурниця</title></book></books>');if (!$dom) {    echo 'Помилка при розборі документа'; exit;}$books u003d simplexml_import_dom($dom);echo $books->book[0]->title;?> `
+` <?php$dom = new DOMDocument;$dom->loadXML('<books><book><title>дурниця</title></book></books>');if (!$dom) {    echo 'Помилка при розборі документа'; exit;}$books = simplexml_import_dom($dom);echo $books->book[0]->title;?> `
 
 Результат виконання цього прикладу:
 

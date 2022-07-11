@@ -16,10 +16,10 @@ SimpleXMLElement
 
 public **SimpleXMLElement::\_\_construct**(
 string `$data`,
-int `$options` u003d 0,
-bool `$dataIsURL` u003d **`false`**,
-string `$namespaceOrPrefix` u003d "",
-bool `$isPrefix` u003d **`false`**
+int `$options` = 0,
+bool `$dataIsURL` = **`false`**,
+string `$namespaceOrPrefix` = "",
+bool `$isPrefix` = **`false`**
 )
 
 Створює новий об'єкт [SimpleXMLElement](class.simplexmlelement.md).
@@ -78,7 +78,7 @@ XML-даних, та додатково генерує виняток
 
 **Приклад #1 Створення об'єкта SimpleXMLElement**
 
-` <?phpinclude 'example.php';$sxe u003d new SimpleXMLElement($xmlstr);echo $sxe->movie[0]->title;?> `
+` <?phpinclude 'example.php';$sxe = new SimpleXMLElement($xmlstr);echo $sxe->movie[0]->title;?> `
 
 Результат виконання цього прикладу:
 
@@ -86,7 +86,7 @@ PHP: Поява Парсера
 
 **Приклад #2 Створення об'єкта SimpleXMLElement з URL**
 
-` <?php$sxe u003d new SimpleXMLElement('http://example.org/document.xml', NULL, TRUE);echo $sxe->asXML();?> `
+` <?php$sxe = new SimpleXMLElement('http://example.org/document.xml', NULL, TRUE);echo $sxe->asXML();?> `
 
 ### Дивіться також
 

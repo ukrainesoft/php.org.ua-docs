@@ -14,7 +14,7 @@ pg_tty — Повертає ім'я терміналу TTY, пов'язане з
 ### Опис
 
 **pg_tty**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d **`null`**): string
+`$connection` = **`null`**): string
 
 **pg_tty()** повертає ім'я терміналу, пов'язаного з екземпляром
 `connection`, на який виводиться налагоджувальна інформація.
@@ -43,7 +43,7 @@ pg_tty — Повертає ім'я терміналу TTY, пов'язане з
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -51,5 +51,5 @@ pg_tty — Повертає ім'я терміналу TTY, пов'язане з
 
 **Приклад #1 Приклад використання **pg_tty()****
 
-` <?php$pgsql_conn u003d pg_connect("dbnameu003dmark hostu003dlocalhost");if ($pgsql_conn) {   print "TTY налагодження сервера: " . pg_tty($pgsql_conn) . "<br/>
+` <?php$pgsql_conn = pg_connect("dbname=mark host=localhost");if ($pgsql_conn) {   print "TTY налагодження сервера: " . pg_tty($pgsql_conn) . "<br/>
 ";} else {   print pg_last_error($pgsql_conn);  exit;}?> `

@@ -7,7 +7,7 @@
 
 # SolrDocumentField::\_\_destruct
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocumentField::\_\_destruct — Деструктор
 

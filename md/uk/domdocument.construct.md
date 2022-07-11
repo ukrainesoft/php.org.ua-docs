@@ -13,8 +13,8 @@ DOMDocument::\_\_construct — Створює новий об'єкт DOMDocument
 
 ### Опис
 
-public **DOMDocument::\_\_construct**(string `$version` u003d "1.0", string
-`$encoding` u003d "")
+public **DOMDocument::\_\_construct**(string `$version` = "1.0", string
+`$encoding` = "")
 
 Створює новий об'єкт [DOMDocument](class.domdocument.md).
 
@@ -30,7 +30,7 @@ public **DOMDocument::\_\_construct**(string `$version` u003d "1.0", string
 
 **Приклад #1 Створення об'єкту DOMDocument**
 
-` <?php$dom u003d new DOMDocument('1.0', 'iso-8859-1');echo $dom->saveXML(); /* <?xml versionu003d"1.0" encodingu003d"iso-8859-1"?> */?> `
+` <?php$dom = new DOMDocument('1.0', 'iso-8859-1');echo $dom->saveXML(); /* <?xml version="1.0" encoding="iso-8859-1"?> */?> `
 
 ### Дивіться також
 

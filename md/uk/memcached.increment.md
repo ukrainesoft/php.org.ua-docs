@@ -7,7 +7,7 @@
 
 # Memcached::increment
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::increment — Збільшує числове значення запису
 
@@ -15,9 +15,9 @@ Memcached::increment — Збільшує числове значення зап
 
 public **Memcached::increment**(
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 **Memcached::increment()** збільшує числове значення запису на
@@ -50,7 +50,7 @@ int `$expiry` u003d 0
 
 **Приклад #1 Приклад використання **Memcached::increment()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->set('counter', 0);$m->increment('counter');$ nu003du003d$m->increment('counter', 10);var_dump($n);$m->set('counter', 'abc');$n u003d $m->increment('counter'); // Завершиться невдачею т.к. значення запису не є числовим var_dump($n);?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->set('counter', 0);$m->increment('counter');$ n==$m->increment('counter', 10);var_dump($n);$m->set('counter', 'abc');$n = $m->increment('counter'); // Завершиться невдачею т.к. значення запису не є числовим var_dump($n);?> `
 
 Результат виконання цього прикладу:
 

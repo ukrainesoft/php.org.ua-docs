@@ -52,7 +52,7 @@ shell_exec — Виконати команду через оболонку та 
 
 **Приклад #1 Приклад використання **shell_exec()****
 
-` <?php$output u003d shell_exec('ls -lart');echo "<pre>$output</pre>";?> `
+` <?php$output = shell_exec('ls -lart');echo "<pre>$output</pre>";?> `
 
 ### Дивіться також
 

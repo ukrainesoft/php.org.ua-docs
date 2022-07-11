@@ -7,7 +7,7 @@
 
 # Gmagick::getimageiterations
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageiterations — Отримує ітерацію зображення
 

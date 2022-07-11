@@ -7,7 +7,7 @@
 
 # Клас streamWrapper
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -87,7 +87,7 @@ public [stream_read](streamwrapper.stream-read.md)(int `$count`):
 string\|false
 
 public [stream_seek](streamwrapper.stream-seek.md)(int `$offset`, int
-`$whence` u003d SEEK_SET): bool
+`$whence` = SEEK_SET): bool
 
 public [stream_set_option](streamwrapper.stream-set-option.md)(int
 `$option`, int `$arg1`, int `$arg2`): bool

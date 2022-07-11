@@ -9,7 +9,7 @@
 
 #collator_sort
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::sort -- collator_sort — Сортує масив з використанням
 зазначеного засобу сортування
@@ -18,13 +18,13 @@ Collator::sort -- collator_sort — Сортує масив з використ�
 
 Об'єктно-орієнтований стиль
 
-public **Collator::sort**(array `&$array`, int `$flags` u003d
+public **Collator::sort**(array `&$array`, int `$flags` =
 Collator::SORT_REGULAR): bool
 
 Процедурний стиль
 
 **collator_sort**([Collator](class.collator.md) `$object`, array
-`&$array`, int `$flags` u003d Collator::SORT_REGULAR): bool
+`&$array`, int `$flags` = Collator::SORT_REGULAR): bool
 
 Функція сортує масив відповідно до поточних правил локалі.
 
@@ -60,18 +60,18 @@ Array of strings to sort.
 
 **Приклад #1 Приклад використання **collator_sort()****
 
-`<?php$coll u003d collator_create( 'en_US' );$arr  u003d array( 'at', 'às', 'as' );var_export( $arr );collator_sort( $coll, $arr ); arr );?> `
+`<?php$coll = collator_create( 'en_US' );$arr  = array( 'at', 'às', 'as' );var_export( $arr );collator_sort( $coll, $arr ); arr );?> `
 
 Результат виконання цього прикладу:
 
 array (
-0 u003d> 'at',
-1 u003d> 'às',
-2 u003d> 'as',
+0 => 'at',
+1 => 'às',
+2 => 'as',
 )array (
-0 u003d> 'as',
-1 u003d> 'às',
-2 u003d> 'at',
+0 => 'as',
+1 => 'às',
+2 => 'at',
 )
 
 ### Дивіться також

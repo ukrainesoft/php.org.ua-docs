@@ -7,13 +7,13 @@
 
 # Yaf_Dispatcher::flushInstantly
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::flushInstantly — Вмикає/вимикає миттєве очищення
 
 ### Опис
 
-public **Yaf_Dispatcher::flushInstantly**(bool `$flag` u003d ?):
+public **Yaf_Dispatcher::flushInstantly**(bool `$flag` = ?):
 [Yaf_Dispatcher](class.yaf-dispatcher.md)
 
 ### Список параметрів

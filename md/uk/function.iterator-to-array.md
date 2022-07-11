@@ -7,14 +7,14 @@
 
 #iterator_to_array
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 iterator_to_array - Копіює ітератор в масив
 
 ### Опис
 
 **iterator_to_array**([Traversable](class.traversable.md) `$iterator`,
-bool `$preserve_keys` u003d **`true`**): array
+bool `$preserve_keys` = **`true`**): array
 
 Копіює елементи ітератора масив.
 
@@ -48,27 +48,27 @@ bool `$preserve_keys` u003d **`true`**): array
 
 **Приклад #1 Приклад використання **iterator_to_array()****
 
-` <?php$iterator u003d new ArrayIterator(array('recipe'u003d>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_to_array($iterator, true));var_dump(itera $iterator, false));?> `
+` <?php$iterator = new ArrayIterator(array('recipe'=>'pancakes', 'egg', 'milk', 'flour'));var_dump(iterator_to_array($iterator, true));var_dump(itera $iterator, false));?> `
 
 Результат виконання цього прикладу:
 
 array(4) {
-["recipe"]u003d>
+["recipe"]=>
 string(8) "pancakes"
-[0]u003d>
+[0]=>
 string(3) "egg"
-[1]u003d>
+[1]=>
 string(4) "milk"
-[2]u003d>
+[2]=>
 string(5) "flour"
 }
 array(4) {
-[0]u003d>
+[0]=>
 string(8) "pancakes"
-[1]u003d>
+[1]=>
 string(3) "egg"
-[2]u003d>
+[2]=>
 string(4) "milk"
-[3]u003d>
+[3]=>
 string(5) "flour"
 }

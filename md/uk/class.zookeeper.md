@@ -7,7 +7,7 @@
 
 # Клас Zookeeper
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 ## Вступ
 
@@ -19,46 +19,46 @@ class **Zookeeper** {
 
 /\* Методи \*/
 
-public [\_\_construct](zookeeper.construct.md)(string `$host` u003d '',
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**, int
-`$recv_timeout` u003d 10000)
+public [\_\_construct](zookeeper.construct.md)(string `$host` = '',
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**, int
+`$recv_timeout` = 10000)
 
 public [addAuth](zookeeper.addauth.md)(string `$scheme`, string
-`$cert`, [callable](language.types.callable.md) `$completion_cb` u003d
+`$cert`, [callable](language.types.callable.md) `$completion_cb` =
 **`null`**): bool
 
 public [close](zookeeper.close.md)(): void
 
 public [connect](zookeeper.connect.md)(string `$host`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**, int
-`$recv_timeout` u003d 10000): void
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**, int
+`$recv_timeout` = 10000): void
 
 public [create](zookeeper.create.md)(
 string `$path`,
 string `$value`,
 array `$acls`,
-int `$flags` u003d **`null`**
+int `$flags` = **`null`**
 ): string
 
-public [delete](zookeeper.delete.md)(string `$path`, int `$version` u003d
+public [delete](zookeeper.delete.md)(string `$path`, int `$version` =
 -1): bool
 
 public [exists](zookeeper.exists.md)(string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**):
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**):
 array
 
 public [get](zookeeper.get.md)(
 string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d
+[callable](language.types.callable.md) `$watcher_cb` =
 **`null`**,
-array `&$stat` u003d **`null`**,
-int `$max_size` u003d 0
+array `&$stat` = **`null`**,
+int `$max_size` = 0
 ): string
 
 public [getAcl](zookeeper.getacl.md)(string `$path`): array
 
 public [getChildren](zookeeper.getchildren.md)(string `$path`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**):
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**):
 array
 
 public [getClientId](zookeeper.getclientid.md)(): int
@@ -75,8 +75,8 @@ public [isRecoverable](zookeeper.isrecoverable.md)(): bool
 public [set](zookeeper.set.md)(
 string `$path`,
 string `$value`,
-int `$version` u003d -1,
-array `&$stat` u003d **`null`**
+int `$version` = -1,
+array `&$stat` = **`null`**
 ): bool
 
 public [setAcl](zookeeper.setacl.md)(string `$path`, int `$version`,
@@ -98,115 +98,115 @@ public
 
 /\* Константи \*/
 
-const int `PERM_READ` u003d 1;
+const int `PERM_READ` = 1;
 
-const int `PERM_WRITE` u003d 2;
+const int `PERM_WRITE` = 2;
 
-const int `PERM_CREATE` u003d 4;
+const int `PERM_CREATE` = 4;
 
-const int `PERM_DELETE` u003d 8;
+const int `PERM_DELETE` = 8;
 
-const int `PERM_ADMIN` u003d 16;
+const int `PERM_ADMIN` = 16;
 
-const int `PERM_ALL` u003d 31;
+const int `PERM_ALL` = 31;
 
-const int `EPHEMERAL` u003d 1;
+const int `EPHEMERAL` = 1;
 
-const int `SEQUENCE` u003d 2;
+const int `SEQUENCE` = 2;
 
-const int `LOG_LEVEL_ERROR` u003d 1;
+const int `LOG_LEVEL_ERROR` = 1;
 
-const int `LOG_LEVEL_WARN` u003d 2;
+const int `LOG_LEVEL_WARN` = 2;
 
-const int `LOG_LEVEL_INFO` u003d 3;
+const int `LOG_LEVEL_INFO` = 3;
 
-const int `LOG_LEVEL_DEBUG` u003d 4;
+const int `LOG_LEVEL_DEBUG` = 4;
 
-const int `EXPIRED_SESSION_STATE` u003d -112;
+const int `EXPIRED_SESSION_STATE` = -112;
 
-const int `AUTH_FAILED_STATE` u003d -113;
+const int `AUTH_FAILED_STATE` = -113;
 
-const int `CONNECTING_STATE` u003d 1;
+const int `CONNECTING_STATE` = 1;
 
-const int `ASSOCIATING_STATE` u003d 2;
+const int `ASSOCIATING_STATE` = 2;
 
-const int `CONNECTED_STATE` u003d 3;
+const int `CONNECTED_STATE` = 3;
 
-const int `READONLY_STATE` u003d 5;
+const int `READONLY_STATE` = 5;
 
-const int `NOTCONNECTED_STATE` u003d 999;
+const int `NOTCONNECTED_STATE` = 999;
 
-const int `CREATED_EVENT` u003d 1;
+const int `CREATED_EVENT` = 1;
 
-const int `DELETED_EVENT` u003d 2;
+const int `DELETED_EVENT` = 2;
 
-const int `CHANGED_EVENT` u003d 3;
+const int `CHANGED_EVENT` = 3;
 
-const int `CHILD_EVENT` u003d 4;
+const int `CHILD_EVENT` = 4;
 
-const int `SESSION_EVENT` u003d -1;
+const int `SESSION_EVENT` = -1;
 
-const int `NOTWATCHING_EVENT` u003d -2;
+const int `NOTWATCHING_EVENT` = -2;
 
-const int `SYSTEMERROR` u003d -1;
+const int `SYSTEMERROR` = -1;
 
-const int `RUNTIMEINCONSISTENCY` u003d -2;
+const int `RUNTIMEINCONSISTENCY` = -2;
 
-const int `DATAINCONSISTENCY` u003d -3;
+const int `DATAINCONSISTENCY` = -3;
 
-const int `CONNECTIONLOSS` u003d -4;
+const int `CONNECTIONLOSS` = -4;
 
-const int `MARSHALLINGERROR` u003d -5;
+const int `MARSHALLINGERROR` = -5;
 
-const int `UNIMPLEMENTED` u003d -6;
+const int `UNIMPLEMENTED` = -6;
 
-const int `OPERATIONTIMEOUT` u003d -7;
+const int `OPERATIONTIMEOUT` = -7;
 
-const int `BADARGUMENTS` u003d -8;
+const int `BADARGUMENTS` = -8;
 
-const int `INVALIDSTATE` u003d -9;
+const int `INVALIDSTATE` = -9;
 
-const int `NEWCONFIGNOQUORUM` u003d -13;
+const int `NEWCONFIGNOQUORUM` = -13;
 
-const int `RECONFIGINPROGRESS` u003d -14;
+const int `RECONFIGINPROGRESS` = -14;
 
-const int `OK` u003d 0;
+const int `OK` = 0;
 
-const int `APIERROR` u003d -100;
+const int `APIERROR` = -100;
 
-const int `NONODE` u003d -101;
+const int `NONODE` = -101;
 
-const int `NOAUTH` u003d -102;
+const int `NOAUTH` = -102;
 
-const int `BADVERSION` u003d -103;
+const int `BADVERSION` = -103;
 
-const int `NOCHILDRENFOREPHEMERALS` u003d -108;
+const int `NOCHILDRENFOREPHEMERALS` = -108;
 
-const int `NODEEXISTS` u003d -110;
+const int `NODEEXISTS` = -110;
 
-const int `NOTEMPTY` u003d -111;
+const int `NOTEMPTY` = -111;
 
-const int `SESSIONEXPIRED` u003d -112;
+const int `SESSIONEXPIRED` = -112;
 
-const int `INVALIDCALLBACK` u003d -113;
+const int `INVALIDCALLBACK` = -113;
 
-const int `INVALIDACL` u003d -114;
+const int `INVALIDACL` = -114;
 
-const int `AUTHFAILED` u003d -115;
+const int `AUTHFAILED` = -115;
 
-const int `CLOSING` u003d -116;
+const int `CLOSING` = -116;
 
-const int `NOTHING` u003d -117;
+const int `NOTHING` = -117;
 
-const int `SESSIONMOVED` u003d -118;
+const int `SESSIONMOVED` = -118;
 
-const int `NOTREADONLY` u003d -119;
+const int `NOTREADONLY` = -119;
 
-const int `EPHEMERALONLOCALSESSION` u003d -120;
+const int `EPHEMERALONLOCALSESSION` = -120;
 
-const int `NOWATCHER` u003d -121;
+const int `NOWATCHER` = -121;
 
-const int `RECONFIGDISABLED` u003d -122;
+const int `RECONFIGDISABLED` = -122;
 
 }
 

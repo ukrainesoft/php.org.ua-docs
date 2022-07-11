@@ -7,14 +7,14 @@
 
 # Swoole\Http\Response::header
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::header — Встановлює заголовки HTTP-відповіді
 
 ### Опис
 
 public **Swoole\Http\Response::header**(string `$key`, string `$value`,
-string `$ucwords` u003d ?): void
+string `$ucwords` = ?): void
 
 ### Список параметрів
 

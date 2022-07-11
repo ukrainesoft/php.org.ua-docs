@@ -7,7 +7,7 @@
 
 #cubrid_get_server_info
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_get_server_info — Повертає версію сервера CUBRID
 
@@ -33,12 +33,12 @@ cubrid_get_server_info — Повертає версію сервера CUBRID
 
 ` <?phpprintf("%-30s %s
 ", "Версія CUBRID PHP:", cubrid_version());printf("
-");$conn u003d cubrid_connect("localhost", 33088, "demodb");if (!$conn) {    die('Помилка підключення ('. cubrid_error_code() .))_$; u003d cubrid_get_db_parameter($conn);while (list($param_name, $param_value) u003d each($db_params)) {    printf("%-30s %s
+");$conn = cubrid_connect("localhost", 33088, "demodb");if (!$conn) {    die('Помилка підключення ('. cubrid_error_code() .))_$; = cubrid_get_db_parameter($conn);while (list($param_name, $param_value) = each($db_params)) {    printf("%-30s %s
 ", $param_name, $param_value);}printf("
-");$server_info u003d cubrid_get_server_info($conn);$client_info u003d cubrid_get_client_info();printf("%-30s %s
+");$server_info = cubrid_get_server_info($conn);$client_info = cubrid_get_client_info();printf("%-30s %s
 ", "Інформація про сервері:", $server_info);printf("%-30s %s
 ", "Інформація про клієнт:", $client_info);printf("
-");$charset u003d cubrid_get_charset($conn);printf("%-30s %s
+");$charset = cubrid_get_charset($conn);printf("%-30s %s
 ", "Кодування CUBRID:", $charset);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

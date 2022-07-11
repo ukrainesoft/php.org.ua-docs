@@ -7,14 +7,14 @@
 
 #eio_grp
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_grp — Створює групу запитів
 
 ### Опис
 
 **eio_grp**([callable](language.types.callable.md) `$callback`, string
-$data u003d NULL): resource
+$data = NULL): resource
 
 **eio_grp()** створює групу запитів.
 
@@ -50,7 +50,7 @@ $data u003d NULL): resource
 
 **Приклад #1 Приклад використання **eio_grp()****
 
-` <?php$temp_filename u003d dirname(__FILE__) ."/eio-file.tmp";$fp u003d fopen($temp_filename, "w");fwrite($fp, "some data");fclose($fp) ;$my_file_fd u003d NULL;/* Викликається, коли група запитів буде виконана */function my_grp_done($data, $result) { // Якщо файл від'є  function my_grp_file_opened_callback($data, $result) { global $my_file_fd, $grp; $my_file_fdu003du003d$result; $req u003d eio_read($my_file_fd, 4, 0,  EIO_PRI_DEFAULT, "my_grp_file_read_callback"); eio_grp_add($grp, $req);}/* Викликається, коли файл прочитаний */function my_grp_file_read_callback($data, $result) { global $my_file_fd, $gr var_dump($result); // Створення запиту на закриття файлу $req u003d eio_close($my_file_fd); // Добавление запроса в группу eio_grp_add($grp, $req);}// Создание группы$grp u003d eio_grp("my_grp_done", $temp_filename);// Создание запроса$req u003d eio_open($temp_filename, EIO_O_RDWR | EIO_O_APPEND , NULL ,  EIO_PRI_DEFAULT, "my_grp_file_opened_callback", NULL);// Додавання запиту в групуeio_grp_add($grp, $req);// Виконання запитівeio_e;
+` <?php$temp_filename = dirname(__FILE__) ."/eio-file.tmp";$fp = fopen($temp_filename, "w");fwrite($fp, "some data");fclose($fp) ;$my_file_fd = NULL;/* Викликається, коли група запитів буде виконана */function my_grp_done($data, $result) { // Якщо файл від'є  function my_grp_file_opened_callback($data, $result) { global $my_file_fd, $grp; $my_file_fd==$result; $req = eio_read($my_file_fd, 4, 0,  EIO_PRI_DEFAULT, "my_grp_file_read_callback"); eio_grp_add($grp, $req);}/* Викликається, коли файл прочитаний */function my_grp_file_read_callback($data, $result) { global $my_file_fd, $gr var_dump($result); // Створення запиту на закриття файлу $req = eio_close($my_file_fd); // Добавление запроса в группу eio_grp_add($grp, $req);}// Создание группы$grp = eio_grp("my_grp_done", $temp_filename);// Создание запроса$req = eio_open($temp_filename, EIO_O_RDWR | EIO_O_APPEND , NULL ,  EIO_PRI_DEFAULT, "my_grp_file_opened_callback", NULL);// Додавання запиту в групуeio_grp_add($grp, $req);// Виконання запитівeio_e;
 
 Результатом виконання цього прикладу буде щось подібне:
 

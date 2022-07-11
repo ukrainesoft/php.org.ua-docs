@@ -17,9 +17,9 @@ ibase_modify_user — Змінює користувача у безпечній 
 resource `$service_handle`,
 string `$user_name`,
 string `$password`,
-string `$first_name` u003d ?,
-string `$middle_name` u003d ?,
-string `$last_name` u003d ?
+string `$first_name` = ?,
+string `$middle_name` = ?,
+string `$last_name` = ?
 ): bool
 
 ### Список параметрів

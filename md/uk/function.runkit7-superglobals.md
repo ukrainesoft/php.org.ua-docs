@@ -8,7 +8,7 @@
 
 # runkit7_superglobals
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_superglobals — Повертає числовий індексований масив
 зареєстрованих суперглобальних змінних

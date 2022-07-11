@@ -18,7 +18,7 @@ Imagick::radialBlurImage — Радіальне розмиття зображе�
 
 ### Опис
 
-public **Imagick::radialBlurImage**(float `$angle`, int `$channel` u003d
+public **Imagick::radialBlurImage**(float `$angle`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Радіальне розмиття зображення.
@@ -37,4 +37,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::radialBlurImage()****
 
-`<?phpfunction radialBlurImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); //Розмиття 3 рази з різними радіусами    $imagick->radialBlurImage(3); $imagick->radialBlurImage(5); $imagick->radialBlurImage(7); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction radialBlurImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); //Розмиття 3 рази з різними радіусами    $imagick->radialBlurImage(3); $imagick->radialBlurImage(5); $imagick->radialBlurImage(7); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

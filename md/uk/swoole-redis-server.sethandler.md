@@ -7,7 +7,7 @@
 
 # Swoole\Redis\Server::setHandler
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Redis\Server::setHandler — Опис
 
@@ -16,8 +16,8 @@ Swoole\Redis\Server::setHandler — Опис
 public **Swoole\Redis\Server::setHandler**(
 string `$command`,
 string `$callback`,
-string `$number_of_string_param` u003d ?,
-string `$type_of_array_param` u003d ?
+string `$number_of_string_param` = ?,
+string `$type_of_array_param` = ?
 ): ReturnType
 
 **Увага**

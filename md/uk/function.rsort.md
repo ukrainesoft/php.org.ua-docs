@@ -13,7 +13,7 @@ rsort — Сортує масив у порядку зменшення
 
 ### Опис
 
-**rsort**(array `&$array`, int `$flags` u003d **`SORT_REGULAR`**): bool
+**rsort**(array `&$array`, int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує `array` за значенням у порядку зменшення.
 
@@ -63,15 +63,15 @@ rsort — Сортує масив у порядку зменшення
 
 **Приклад #1 Приклад використання **rsort()****
 
-` <?php$fruits u003d array("lemon", "orange", "banana", "apple");rsort($fruits);foreach ($fruits as $key u003d> $val) {    echo $ $val
+` <?php$fruits = array("lemon", "orange", "banana", "apple");rsort($fruits);foreach ($fruits as $key => $val) {    echo $ $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-0 u003d orange
-1 u003d lemon
-2 u003d banana
-3 u003d apple
+0 = orange
+1 = lemon
+2 = banana
+3 = apple
 
 Назви фруктів були відсортовані за алфавітом у зворотному порядку.
 

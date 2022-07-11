@@ -42,7 +42,7 @@ public **DOMElement::setAttribute**(string `$qualifiedName`, string
 
 **Приклад #1 Встановлення атрибуту**
 
-` <?php$doc u003d new DOMDocument("1.0");$node u003d $doc->createElement("para");$newnode u003d $doc->appendChild($node);$newnode->setAttribute("align ", "left");?> `
+` <?php$doc = new DOMDocument("1.0");$node = $doc->createElement("para");$newnode = $doc->appendChild($node);$newnode->setAttribute("align ", "left");?> `
 
 ### Дивіться також
 

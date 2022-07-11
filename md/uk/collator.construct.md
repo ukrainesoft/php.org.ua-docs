@@ -7,7 +7,7 @@
 
 # Collator::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::\_\_construct — Створює новий екземпляр Collator
 
@@ -54,7 +54,7 @@ public **Collator::\_\_construct**(string `$locale`)
 
 **Приклад #1 Приклад використання **Collator::\_\_construct()****
 
-` <?php$coll u003d new Collator('en_CA');?> `
+` <?php$coll = new Collator('en_CA');?> `
 
 ### Дивіться також
 

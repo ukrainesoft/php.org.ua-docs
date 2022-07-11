@@ -7,7 +7,7 @@
 
 #ldap_rename_ext
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 ldap_rename_ext — Модифікувати назву запису
 
@@ -19,7 +19,7 @@ string `$dn`,
 string `$new_rdn`,
 string `$new_parent`,
 bool `$delete_old_rdn`,
-?array `$controls` u003d **`null`**
+?array `$controls` = **`null`**
 ): [LDAP\Result](class.ldap-result.md)\|false
 
 Робить те саме, що і [ldap_rename()](function.ldap-rename.md), але
@@ -38,7 +38,7 @@ bool `$delete_old_rdn`,
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |

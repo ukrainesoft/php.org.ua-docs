@@ -38,14 +38,14 @@ URI простір імен. Спеціальне значення `*` відп�
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.3  | namespace тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Отримання всіх елементів XInclude**
 
-` <?php$xml u003d <<<EOD<?xml versionu003d"1.0" ?><chapter xmlns:xiu003d"http://www.w3.org/2001/XInclude"><title>Books of the other guy..</title><para> <xi:include hrefu003d"book.xml">  <xi:fallback>   <error>xinclude: book.xml not found</error>  </xi:fallback> </xi :include> <include> This is another namespace </include></para></chapter>EOD;$dom u003d new DOMDocument;// завантажити XML-рядок, визначений вище$dom->loadXML$x ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*') as $element) {    echo 'локальне ім'я: ', $element->localName, ',' , $element->prefix, "
+` <?php$xml = <<<EOD<?xml version="1.0" ?><chapter xmlns:xi="http://www.w3.org/2001/XInclude"><title>Books of the other guy..</title><para> <xi:include href="book.xml">  <xi:fallback>   <error>xinclude: book.xml not found</error>  </xi:fallback> </xi :include> <include> This is another namespace </include></para></chapter>EOD;$dom = new DOMDocument;// завантажити XML-рядок, визначений вище$dom->loadXML$x ($dom->getElementsByTagNameNS('http://www.w3.org/2001/XInclude', '*') as $element) {    echo 'локальне ім'я: ', $element->localName, ',' , $element->prefix, "
 ";}?> `
 
 Результат виконання цього прикладу:

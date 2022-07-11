@@ -7,7 +7,7 @@
 
 # Клас EventBase
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 ## Вступ
 
@@ -34,26 +34,26 @@ final class **EventBase** {
 
 /\* Константи \*/
 
-const int `LOOP_ONCE` u003d 1;
+const int `LOOP_ONCE` = 1;
 
-const int `LOOP_NONBLOCK` u003d 2;
+const int `LOOP_NONBLOCK` = 2;
 
-const int `NOLOCK` u003d 1;
+const int `NOLOCK` = 1;
 
-const int `STARTUP_IOCP` u003d 4;
+const int `STARTUP_IOCP` = 4;
 
-const int `NO_CACHE_TIME` u003d 8;
+const int `NO_CACHE_TIME` = 8;
 
-const int `EPOLL_USE_CHANGELIST` u003d 16;
+const int `EPOLL_USE_CHANGELIST` = 16;
 
 /\* Методи \*/
 
 public [\_\_construct](eventbase.construct.md)(
-[EventConfig](class.eventconfig.md) `$cfg` u003d ?)
+[EventConfig](class.eventconfig.md) `$cfg` = ?)
 
 public [dispatch](eventbase.dispatch.md)(): void
 
-public [exit](eventbase.exit.md)( float `$timeout` u003d ?): bool
+public [exit](eventbase.exit.md)( float `$timeout` = ?): bool
 
 public [free](eventbase.free.md)(): void
 
@@ -67,7 +67,7 @@ public [gotExit](eventbase.gotexit.md)(): bool
 
 public [gotStop](eventbase.gotstop.md)(): bool
 
-public [loop](eventbase.loop.md)( int `$flags` u003d ?): bool
+public [loop](eventbase.loop.md)( int `$flags` = ?): bool
 
 public [priorityInit](eventbase.priorityinit.md)( int `$n_priorities`
 ): bool

@@ -7,7 +7,7 @@
 
 # DateInterval::format
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 DateInterval::format — Форматує інтервал
 
@@ -32,7 +32,7 @@ public **DateInterval::format**(string `$format`): string
 ### Список змін
 
 | Версія | Опис                              |
-| ------ | --------------------------------- |
+|--------|-----------------------------------|
 | 7.1.0  | Додані форматуючі символи F та f. |
 
 ### Приклади
@@ -40,7 +40,7 @@ public **DateInterval::format**(string `$format`): string
 **Приклад #1 Приклад використання
 [DateInterval](class.dateinterval.md)**
 
-` <?php$interval u003d new DateInterval('P2Y4DT6H8M');echo $interval->format('%d days');?> `
+` <?php$interval = new DateInterval('P2Y4DT6H8M');echo $interval->format('%d days');?> `
 
 Результат виконання цього прикладу:
 
@@ -48,7 +48,7 @@ public **DateInterval::format**(string `$format`): string
 
 **Приклад #2 [DateInterval](class.dateinterval.md) та перенесення одиниць**
 
-` <?php$interval u003d new DateInterval('P32D');echo $interval->format('%d days');?> `
+` <?php$interval = new DateInterval('P32D');echo $interval->format('%d days');?> `
 
 Результат виконання цього прикладу:
 
@@ -57,7 +57,7 @@ public **DateInterval::format**(string `$format`): string
 **Приклад #3 [DateInterval](class.dateinterval.md) та
 [DateTime::diff()](datetime.diff.md) з модифікаторами %a та %d**
 
-` <?php$january u003d new DateTime('2010-01-01');$february u003d new DateTime('2010-02-01');$interval u003d $february->diff($january);// % a виведе загальну кількість днів.echo $interval->format('%a total days')."
+` <?php$january = new DateTime('2010-01-01');$february = new DateTime('2010-02-01');$interval = $february->diff($january);// % a виведе загальну кількість днів.echo $interval->format('%a total days')."
 ";// У то час як %d виведе тільки число днів, не покритих місяцемecho $interval->format('%m month, %d days');?> `
 
 Результат виконання цього прикладу:

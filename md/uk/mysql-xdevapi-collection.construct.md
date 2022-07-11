@@ -26,7 +26,7 @@ private **mysql_xdevapi\Collection::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::getOne()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$result u003d $ {"name": "Alfred", "age": 42, "job": "Butler"}')->execute();// Унікальний _id (за замовчуванням і рекомендується) генерується MySQL Server// в цьому прикладі додано тільки одна запис, тому $ids[0]$ids        u003du003d$result->getGeneratedIds();$alfreds_id u003d $ids[0];/$| >getOne($alfreds_id));?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$result = $ {"name": "Alfred", "age": 42, "job": "Butler"}')->execute();// Унікальний _id (за замовчуванням і рекомендується) генерується MySQL Server// в цьому прикладі додано тільки одна запис, тому $ids[0]$ids        ==$result->getGeneratedIds();$alfreds_id = $ids[0];/$| >getOne($alfreds_id));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -34,8 +34,8 @@ private **mysql_xdevapi\Collection::\_\_construct**()
 
 Array
 (
-[_id] u003d> 00005b6b53610000000000000b1
-[age] u003d> 42
-[job] u003d> Butler
-[name] u003d> Alfred
+[_id] => 00005b6b53610000000000000b1
+[age] => 42
+[job] => Butler
+[name] => Alfred
 )

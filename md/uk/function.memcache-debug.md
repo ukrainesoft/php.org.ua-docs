@@ -7,7 +7,7 @@
 
 # memcache_debug
 
-(PECL memcache \>u003d 0.2.0)
+(PECL memcache \>= 0.2.0)
 
 memcache_debug — Увімкнути/вимкнути виведення налагоджувальної інформації
 

@@ -37,7 +37,7 @@ True у разі успішного виконання
 
 **Приклад #1 Приклад використання **uopz_unset_return()****
 
-` <?phpuopz_set_return("strlen", 42);$len u003d strlen("Banana");uopz_unset_return("strlen");echo $len + strlen("Banana");?> `
+` <?phpuopz_set_return("strlen", 42);$len = strlen("Banana");uopz_unset_return("strlen");echo $len + strlen("Banana");?> `
 
 Результат виконання цього прикладу:
 

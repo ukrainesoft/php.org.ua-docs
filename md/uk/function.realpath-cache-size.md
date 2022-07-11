@@ -7,7 +7,7 @@
 
 #realpath_cache_size
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8)
 
 realpath_cache_size — Отримує розмір кеша realpath
 

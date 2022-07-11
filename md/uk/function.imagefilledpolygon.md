@@ -61,7 +61,7 @@ int `$color`
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр num_points оголошено застарілим.                                                    |
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
@@ -69,7 +69,7 @@ int `$color`
 
 **Приклад #1 Приклад використання **imagefilledpolygon()****
 
-` <?php// задание массива точек для многоугольника$values u003d array(            40,  50,  // Point 1 (x, y)            20,  240, // Point 2 (x, y)            60,  60,  // Point 3 (x, y)            240, 20,  // Point 4 (x, y)            50,  40,  // Point 5 (x, y)            10,  10   // Point 6 (x, y)            );// создание изображения$ image u003d imagecreatetruecolor(250, 250);// визначення квітів$bg  u003du003d imagecolorallocate($image, 0, 0, 0);$blue u003d imagecolorallocate($image, 0, 0, , 0, 0, 249, 249, $bg);// малювання багатокутникаimagefilledpolygon($image, $values, 6, $blue);// виведення зображенняheader('Content-type: image/$'); );imagedestroy($image);?> `
+` <?php// задание массива точек для многоугольника$values = array(            40,  50,  // Point 1 (x, y)            20,  240, // Point 2 (x, y)            60,  60,  // Point 3 (x, y)            240, 20,  // Point 4 (x, y)            50,  40,  // Point 5 (x, y)            10,  10   // Point 6 (x, y)            );// создание изображения$ image = imagecreatetruecolor(250, 250);// визначення квітів$bg  == imagecolorallocate($image, 0, 0, 0);$blue = imagecolorallocate($image, 0, 0, , 0, 0, 249, 249, $bg);// малювання багатокутникаimagefilledpolygon($image, $values, 6, $blue);// виведення зображенняheader('Content-type: image/$'); );imagedestroy($image);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

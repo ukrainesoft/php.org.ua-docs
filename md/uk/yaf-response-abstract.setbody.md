@@ -7,14 +7,14 @@
 
 # Yaf_Response_Abstract::setBody
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Response_Abstract::setBody — Встановлює вміст відповіді
 
 ### Опис
 
 public **Yaf_Response_Abstract::setBody**(string `$content`, string
-`$key` u003d ?): bool
+`$key` = ?): bool
 
 Встановлює вміст відповіді
 
@@ -37,24 +37,24 @@ public **Yaf_Response_Abstract::setBody**(string `$content`, string
 
 **Приклад #1 Приклад використання **Yaf_Response_Abstract::setBody()****
 
-` <?php$response u003d new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");print_r($response);echo $response;?> `
+` <?php$response = new Yaf_Response_Http();$response->setBody("Привіт")->setBody(", Світ", "footer");print_r($response);echo $response;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Yaf_Response_Http Object
 (
-[_header:protected] u003d> Array
+[_header:protected] => Array
 (
 )
 
-[_body:protected] u003d> Array
+[_body:protected] => Array
 (
-[content] u003d> Привіт
-[footer] u003d> , Світ
+[content] => Привіт
+[footer] => , Світ
 )
 
-[_sendheader:protected] u003d> 1
-[_response_code:protected] u003d> 200
+[_sendheader:protected] => 1
+[_response_code:protected] => 200
 )
 Привіт світ
 

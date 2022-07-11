@@ -7,14 +7,14 @@
 
 # Swoole\Http\Response::end
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Response::end — Надсилає дані HTTP-запиту та завершує
 відповідь
 
 ### Опис
 
-public **Swoole\Http\Response::end**(string `$content` u003d ?): void
+public **Swoole\Http\Response::end**(string `$content` = ?): void
 
 ### Список параметрів
 

@@ -35,7 +35,7 @@ public **DirectoryIterator::isWritable**(): bool
 Приклад показує список файлів та каталогів, які можуть бути відкриті
 для запису, розташовані в директорії, що містить скрипт, що виконується.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isWritable()) {            "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isWritable()) {            "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

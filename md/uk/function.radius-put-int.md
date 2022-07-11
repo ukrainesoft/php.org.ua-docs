@@ -7,7 +7,7 @@
 
 # radius_put_int
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_put_int — Приєднує цілісний атрибут
 
@@ -17,8 +17,8 @@ radius_put_int — Приєднує цілісний атрибут
 resource `$radius_handle`,
 int `$type`,
 int `$value`,
-int `$options` u003d 0,
-int `$tag` u003d ?
+int `$options` = 0,
+int `$tag` = ?
 ): bool
 
 Приєднує цілий атрибут до поточного запиту RADIUS.
@@ -58,8 +58,8 @@ int `$tag` u003d ?
 ### Список змін
 
 | Версія                                             | Опис |
-| -------------------------------------------------- | ---- |
-| PECL radius 1.3.0 Додані параметри options та tag. |      |      
+|----------------------------------------------------|------|
+| PECL radius 1.3.0 Додані параметри options та tag. |      |
 
 ### Приклади
 

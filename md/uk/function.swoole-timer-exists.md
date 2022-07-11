@@ -7,7 +7,7 @@
 
 # swoole_timer_exists
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_timer_exists — Перевірити, чи callback-функція таймера
 

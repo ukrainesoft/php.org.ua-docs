@@ -7,7 +7,7 @@
 
 # DOMNode::C14NFile
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DOMNode::C14NFile — Канонізувати вузли у файл
 
@@ -15,10 +15,10 @@ DOMNode::C14NFile — Канонізувати вузли у файл
 
 public **DOMNode::C14NFile**(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
 Канонізувати вузли у файл.

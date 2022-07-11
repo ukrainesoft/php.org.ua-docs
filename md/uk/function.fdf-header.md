@@ -7,7 +7,7 @@
 
 #fdf_header
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVNf)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVNf)
 
 fdf_header — Встановлює специфічні для FDF вихідні заголовки
 

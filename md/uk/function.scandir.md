@@ -14,8 +14,8 @@ scandir — Отримує список файлів і каталогів, ро
 
 ### Опис
 
-**scandir**(string `$directory`, int `$sorting_order` u003d
-**`SCANDIR_SORT_ASCENDING`**, ?resource `$context` u003d **`null`**):
+**scandir**(string `$directory`, int `$sorting_order` =
+**`SCANDIR_SORT_ASCENDING`**, ?resource `$context` = **`null`**):
 array\|false
 
 Повертає масив (array), що містить імена файлів та каталогів,
@@ -47,32 +47,32 @@ array\|false
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | 'context' тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Простий приклад використання функції **scandir()****
 
-` <?php$dir    u003d '/tmp';$files1 u003d scandir($dir);$files2 u003d scandir($dir, 1);print_r($files1);print_r($files2);?> `
+` <?php$dir    = '/tmp';$files1 = scandir($dir);$files2 = scandir($dir, 1);print_r($files1);print_r($files2);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d>.
-[1] u003d>..
-[2] u003d> bar.php
-[3] u003d> foo.txt
-[4] u003d> somedir
+[0] =>.
+[1] =>..
+[2] => bar.php
+[3] => foo.txt
+[4] => somedir
 )
 Array
 (
-[0] u003d> somedir
-[1] u003d> foo.txt
-[2] u003d> bar.php
-[3] u003d>..
-[4] u003d>.
+[0] => somedir
+[1] => foo.txt
+[2] => bar.php
+[3] =>..
+[4] =>.
 )
 
 ### Примітки

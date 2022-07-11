@@ -38,4 +38,4 @@ bool
 
 Приклад використання Imagick::setImage()
 
-` <?php/* Створення об'єктів */$image u003d new Imagick('source.jpg');$replace u003d new Imagick('replace.jpg');/* source.jpg замінюється на replace.jpg */$image ->setImage($replace);/* Виведення зображення */header('Content-type: image/jpeg');echo $image;?> `
+` <?php/* Створення об'єктів */$image = new Imagick('source.jpg');$replace = new Imagick('replace.jpg');/* source.jpg замінюється на replace.jpg */$image ->setImage($replace);/* Виведення зображення */header('Content-type: image/jpeg');echo $image;?> `

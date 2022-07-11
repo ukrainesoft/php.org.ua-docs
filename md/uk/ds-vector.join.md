@@ -7,13 +7,13 @@
 
 # Ds\Vector::join
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::join — Склеює всі значення в рядок
 
 ### Опис
 
-public **Ds\Vector::join**(string `$glue` u003d ?): string
+public **Ds\Vector::join**(string `$glue` = ?): string
 
 Склеює всі значення в рядок, опціонально використовуючи заданий
 роздільник.
@@ -31,7 +31,7 @@ public **Ds\Vector::join**(string `$glue` u003d ?): string
 
 **Приклад #1 Приклад використання **Ds\Vector::join()** з роздільником**
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", c", 1, 2, 3]);var_dump($vector->join("|"));?> `
+` <?php$vector = new \Ds\Vector(["a", "b", c", 1, 2, 3]);var_dump($vector->join("|"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -39,7 +39,7 @@ string(11) "a|b|c|1|2|3"
 
 **Приклад #2 Приклад використання **Ds\Vector::join()** без роздільника**
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c", 1, 2, 3]);var_dump($vector->join());?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);var_dump($vector->join());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Swoole\WebSocket\Server::on
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\WebSocket\Server::on - Зареєструвати callback-функцію події
 

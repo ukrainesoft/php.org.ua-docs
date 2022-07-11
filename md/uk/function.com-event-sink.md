@@ -7,14 +7,14 @@
 
 # com_event_sink
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 com_event_sink — Зв'язати повідомлення COM з об'єктом PHP
 
 ### Опис
 
 **com_event_sink**([variant](class.variant.md) `$variant`, object
-`$sink_object`, array\|string\|null `$sink_interface` u003d **`null`**):
+`$sink_object`, array\|string\|null `$sink_interface` = **`null`**):
 bool
 
 Зобов'язує об'єкт COM прокидати повідомлення, створені `variant` в
@@ -48,17 +48,17 @@ PHP намагатиметься використовувати тип дисп�
 ### Список змін
 
 | Версія | Опис                                          |
-| ------ | --------------------------------------------- |
+|--------|-----------------------------------------------|
 | 8.0.0  | sink_interface тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад com_event_sink**
 
-` <?phpclass IEEventSinker {    var $terminated u003d false; function ProgressChange($progress, $progressmax) {      echo "Прогрес завантаження: $progress / $progressmax
+` <?phpclass IEEventSinker {    var $terminated = false; function ProgressChange($progress, $progressmax) {      echo "Прогрес завантаження: $progress / $progressmax
 ";    }    function DocumentComplete(&$dom, $url) {      echo "Завантаження $url завершено
 ";    }   function OnQuit() {      echo "Quit!
-";      $this->terminated u003d true;    }}$ie u003d new COM("InternetExplorer.Application");$sink u003d neu IEEventSinker();com_event_sink($ie, $ Visible u003d true;$ie->Navigate("http://www.example.org");while(!$sink->terminated) { com_message_pump(4000);}$ie u003d null;?> `
+";      $this->terminated = true;    }}$ie = new COM("InternetExplorer.Application");$sink = neu IEEventSinker();com_event_sink($ie, $ Visible = true;$ie->Navigate("http://www.example.org");while(!$sink->terminated) { com_message_pump(4000);}$ie = null;?> `
 
 ### Примітки
 

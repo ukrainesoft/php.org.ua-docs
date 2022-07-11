@@ -18,18 +18,18 @@ group, а також у будь-який інший час, коли ви мо�
 Наприклад, припустимо, що у нас є деякий JavaScript, щоб
 вітати користувача у журналах бази даних. Ми могли б зробити:
 
-` <?php$m u003d new MongoDB\Driver\Manager;// Не робіть так!!!$username u003d $_GET['field'];$cmd u003d new \MongoDB\Driver\Command( [    'eval'| "print('Привіт, $username!');"] );$r u003d $m->executeCommand( 'dramio', $cmd );?> `
+` <?php$m = new MongoDB\Driver\Manager;// Не робіть так!!!$username = $_GET['field'];$cmd = new \MongoDB\Driver\Command( [    'eval'| "print('Привіт, $username!');"] );$r = $m->executeCommand( 'dramio', $cmd );?> `
 
 Однак що, якщо зловмисник передасть JavaScript?
 
-` <?php$m u003d new MongoDB\Driver\Manager;// Не робіть так!!!$username u003d $_GET['field'];// $username is set to "'); db.users.drop( ); print('"$cmd u003d new \MongoDB\Driver\Command( [    'eval' u003d> "print('Привіт, $username!');"] );$r u003d $m->executeCommand( 'drami) ', $cmd );?> `
+` <?php$m = new MongoDB\Driver\Manager;// Не робіть так!!!$username = $_GET['field'];// $username is set to "'); db.users.drop( ); print('"$cmd = new \MongoDB\Driver\Command( [    'eval' => "print('Привіт, $username!');"] );$r = $m->executeCommand( 'drami) ', $cmd );?> `
 
 Тепер MongoDB виконає рядок JavaScript
 `"print('Привіт, '); db.users.drop(); print('!');"`. Цю атаку легко
 уникнути: використовуйте `args` для передачі змінних з PHP
 JavaScript:
 
-` <?php$m u003d new MongoDB\Driver\Manager;$_GET['field'] u003d 'derick';$args u003d [ $_GET['field'] ];$cmd u003d new \MongoDB\Driver\Command( [   'eval' u003d> "function greet(username) { print('Привіт, ' + username + '!'); }",   'args' u003d> $args,] );$ | 'dramio', $cmd );?> `
+` <?php$m = new MongoDB\Driver\Manager;$_GET['field'] = 'derick';$args = [ $_GET['field'] ];$cmd = new \MongoDB\Driver\Command( [   'eval' => "function greet(username) { print('Привіт, ' + username + '!'); }",   'args' => $args,] );$ | 'dramio', $cmd );?> `
 
 Це додає аргумент в область JavaScript, яка використовується в
 як аргумент для функції `greet`. Тепер, якщо хтось спробує

@@ -7,7 +7,7 @@
 
 # GearmanClient::doLow
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::doLow — Запускає на виконання завдання з низьким
 пріоритетом
@@ -15,7 +15,7 @@ GearmanClient::doLow — Запускає на виконання завданн
 ### Опис
 
 public **GearmanClient::doLow**(string `$function_name`, string
-`$workload`, string `$unique` u003d ?): string
+`$workload`, string `$unique` = ?): string
 
 Запускає виконання завдання з низьким пріоритетом і повертає рядок,
 що містить результат. Функція залежить від

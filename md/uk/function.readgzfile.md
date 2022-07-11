@@ -13,7 +13,7 @@ readgzfile — Виводить вміст gz-файлу
 
 ### Опис
 
-**readgzfile**(string `$filename`, int `$use_include_path` u003d 0):
+**readgzfile**(string `$filename`, int `$use_include_path` = 0):
 int\|false
 
 Читає файл, розпаковує його та записує у стандартний висновок.

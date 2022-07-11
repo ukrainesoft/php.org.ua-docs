@@ -31,7 +31,7 @@ public **mysql_xdevapi\Schema::getSession**():
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Schema::getSession()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");// ...$newsessionu003du003d$schema->getSession();var_dump($session);var_ump $newsession);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");// ...$newsession==$schema->getSession();var_dump($session);var_ump $newsession);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

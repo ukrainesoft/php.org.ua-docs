@@ -7,7 +7,7 @@
 
 # Gmagick::getimagebackgroundcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagebackgroundcolor — Повертає колір тла зображення
 

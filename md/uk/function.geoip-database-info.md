@@ -7,13 +7,13 @@
 
 # geoip_database_info
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_database_info — Повертає інформацію про базу GeoIP
 
 ### Опис
 
-**geoip_database_info**(int `$database` u003d GEOIP_COUNTRY_EDITION): string
+**geoip_database_info**(int `$database` = GEOIP_COUNTRY_EDITION): string
 
 Функція **geoip_database_info()** повертає версію бази GeoIP,
 відповідне визначення у бінарному файлі.

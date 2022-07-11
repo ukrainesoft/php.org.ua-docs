@@ -7,7 +7,7 @@
 
 # ReflectionParameter::getDeclaringClass
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 ReflectionParameter::getDeclaringClass — Отримання класу, що оголошує
 
@@ -31,12 +31,12 @@ public **ReflectionParameter::getDeclaringClass**():
 
 **Приклад #1 Отримання класу, в якому оголошено метод**
 
-`<?phpclass Foo{    public function bar(\DateTime $datetime)    {    }}class Baz extends Foo{}$param u003d new \ReflectionParameter(''| getDeclaringClass()); `
+`<?phpclass Foo{    public function bar(\DateTime $datetime)    {    }}class Baz extends Foo{}$param = new \ReflectionParameter(''| getDeclaringClass()); `
 
 Результат виконання цього прикладу:
 
 object(ReflectionClass)#2 (1) {
-["name"]u003d>
+["name"]=>
 string(3) "Foo"
 }
 

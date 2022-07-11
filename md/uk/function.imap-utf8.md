@@ -35,7 +35,7 @@ UTF-8.
 
 **Приклад #1 Базове використання **imap_utf8()****
 
-` <?phpecho imap_utf8("Johannes u003d?ISO-8859-1?Q?Schlu003dFCter?u003d");?> `
+` <?phpecho imap_utf8("Johannes =?ISO-8859-1?Q?Schl=FCter?=");?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

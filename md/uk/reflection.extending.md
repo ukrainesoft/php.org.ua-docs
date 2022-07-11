@@ -14,19 +14,19 @@
 
 **Приклад #1 Розширення вбудованих класів**
 
-` <?php/** * Мій клас Reflection_Method */class My_Reflection_Method extends ReflectionMethod{    public $visibility u003d array(); public function __construct($o, $m)    {        parent::__construct($o, $m); $this->visibility u003d Reflection::getModifierNames($this->getModifiers()); }}/** * Демо-класс #1 * */class T {    protected function x() {}}/** * Демо-класс #2 * */class U extends T { | / Виведемо інформацію про методеvar_dump(new My_Reflection_Method('U', 'x'));?> `
+` <?php/** * Мій клас Reflection_Method */class My_Reflection_Method extends ReflectionMethod{    public $visibility = array(); public function __construct($o, $m)    {        parent::__construct($o, $m); $this->visibility = Reflection::getModifierNames($this->getModifiers()); }}/** * Демо-класс #1 * */class T {    protected function x() {}}/** * Демо-класс #2 * */class U extends T { | / Виведемо інформацію про методеvar_dump(new My_Reflection_Method('U', 'x'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(My_Reflection_Method)#1 (3) {
-["visibility"]u003d>
+["visibility"]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(6) "public"
 }
-["name"]u003d>
+["name"]=>
 string(1) "x"
-["class"]u003d>
+["class"]=>
 string(1) "U"
 }
 

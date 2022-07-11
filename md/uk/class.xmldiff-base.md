@@ -7,7 +7,7 @@
 
 # Клас XMLDiff\Base
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 ## Вступ
 

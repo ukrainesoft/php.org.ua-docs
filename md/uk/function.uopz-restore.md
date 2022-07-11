@@ -7,7 +7,7 @@
 
 #uopz_restore
 
-(PECL uopz 1 \>u003d 1.0.3, PECL uopz 2)
+(PECL uopz 1 \>= 1.0.3, PECL uopz 2)
 
 uopz_restore — Відновити раніше зарезервовану функцію
 

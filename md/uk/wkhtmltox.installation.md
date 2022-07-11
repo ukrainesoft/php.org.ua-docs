@@ -15,7 +15,7 @@
 git clone https://github.com/krakjoe/wkhtmltox
 cd wkhtmltox
 phpize
-./configure --with-wkhtmltoxu003d/path/to/wkhtmltox/installation
+./configure --with-wkhtmltox=/path/to/wkhtmltox/installation
 make
 sudo make install
 
@@ -25,6 +25,6 @@ cd wkhtmltox
 phpize --clean
 git pull origin master
 phpize
-./configure --with-wkhtmltoxu003d/path/to/wkhtmltox/installation
+./configure --with-wkhtmltox=/path/to/wkhtmltox/installation
 make
 sudo make install

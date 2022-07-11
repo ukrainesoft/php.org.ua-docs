@@ -7,7 +7,7 @@
 
 # VarnishAdmin::getPanic
 
-(PECL varnish \>u003d 0.4)
+(PECL varnish \>= 0.4)
 
 VarnishAdmin::getPanic — Отримати останнє критичне повідомлення на
 екземплярі varnish

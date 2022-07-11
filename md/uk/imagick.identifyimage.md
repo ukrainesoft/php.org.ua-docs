@@ -13,7 +13,7 @@ Imagick::identifyImage — Визначає зображення та отрим
 
 ### Опис
 
-public **Imagick::identifyImage**(bool `$appendRawOutput` u003d
+public **Imagick::identifyImage**(bool `$appendRawOutput` =
 **`false`**): array
 
 Визначає зображення та повертає його атрибути у вигляді масиву.
@@ -38,25 +38,25 @@ public **Imagick::identifyImage**(bool `$appendRawOutput` u003d
 ``` examplescode
 Array
 (
-[imageName] u003d> /some/path/image.jpg
-[format] u003d> JPEG (Joint Photographic Experts Group JFIF format)
-[geometry] u003d> Array
+[imageName] => /some/path/image.jpg
+[format] => JPEG (Joint Photographic Experts Group JFIF format)
+[geometry] => Array
 (
-[width] u003d> 90
-[height] u003d> 90
+[width] => 90
+[height] => 90
 )
 
-[type] u003d> TrueColor
-[colorSpace] u003d> RGB
-[resolution] u003d> Array
+[type] => TrueColor
+[colorSpace] => RGB
+[resolution] => Array
 (
-[x] u003d> 300
-[y] u003d> 300
+[x] => 300
+[y] => 300
 )
 
-[units] u003d> PixelsPerInch
-[fileSize] u003d> 1.88672kb
-[compression] u003d> JPEG
-[signature] u003d> 9a6dc8f604f97d0d691c0286176ddf992e188f0bebba98494b2146ee2d7118da
+[units] => PixelsPerInch
+[fileSize] => 1.88672kb
+[compression] => JPEG
+[signature] => 9a6dc8f604f97d0d691c0286176ddf992e188f0bebba98494b2146ee2d7118da
 )
 ````

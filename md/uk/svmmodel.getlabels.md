@@ -7,7 +7,7 @@
 
 # SVMModel::getLabels
 
-(PECL svm u003d 0.1.5)
+(PECL svm = 0.1.5)
 
 SVMModel::getLabels — Повертає позначки, на яких навчалася модель
 

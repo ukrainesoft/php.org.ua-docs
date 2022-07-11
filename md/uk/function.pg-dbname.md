@@ -14,7 +14,7 @@ pg_dbname — Визначає ім'я бази даних
 ### Опис
 
 **pg_dbname**(?[PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d **`null`**): string
+`$connection` = **`null`**): string
 
 **pg_dbname()** повертає ім'я бази даних, що відповідає екземпляру
 PostgreSQL `connection`.
@@ -40,7 +40,7 @@ PostgreSQL `connection`.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -48,4 +48,4 @@ PostgreSQL `connection`.
 
 **Приклад #1 Приклад використання **pg_dbname()****
 
-`<?php  error_reporting(E_ALL); pg_connect("hostu003dlocalhost portu003d5432 dbnameu003dmary"); echo pg_dbname(); // mary?> `
+`<?php  error_reporting(E_ALL); pg_connect("host=localhost port=5432 dbname=mary"); echo pg_dbname(); // mary?> `

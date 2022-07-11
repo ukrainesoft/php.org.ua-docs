@@ -7,7 +7,7 @@
 
 # socket_wsaprotocol_info_release
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 socket_wsaprotocol_info_release — Вивільняє експортовану
 структуру WSAPROTOCOL_INFO

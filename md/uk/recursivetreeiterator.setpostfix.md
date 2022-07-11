@@ -7,7 +7,7 @@
 
 # RecursiveTreeIterator::setPostfix
 
-(PHP 5 \>u003d 5.5.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.3, PHP 7, PHP 8)
 
 RecursiveTreeIterator::setPostfix — Встановлення постфіксу
 

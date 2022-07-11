@@ -7,7 +7,7 @@
 
 # GearmanClient::setTimeout
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanClient::setTimeout — Встановлення часу очікування для операцій
 введення/виводу

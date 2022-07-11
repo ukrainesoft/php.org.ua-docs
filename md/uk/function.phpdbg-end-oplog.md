@@ -13,7 +13,7 @@ phpdbg_end_oplog
 
 ### Опис
 
-**phpdbg_end_oplog**(array `$options` u003d []): ?array
+**phpdbg_end_oplog**(array `$options` = []): ?array
 
 **Увага**
 

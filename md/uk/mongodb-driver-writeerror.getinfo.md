@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteError::getInfo
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteError::getInfo — Повертає документ метаданих для
 WriteError

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted — Метод
 повідомлення про запущений heartbeat сервер

@@ -7,7 +7,7 @@
 
 # Yaf_Dispatcher::getDefaultAction
 
-(Yaf \>u003d3.2.0)
+(Yaf \>=3.2.0)
 
 Yaf_Dispatcher::getDefaultAction — Отримує ім'я стандартної дії
 

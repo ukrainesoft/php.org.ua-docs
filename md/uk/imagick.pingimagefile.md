@@ -15,7 +15,7 @@ Imagick::pingImageFile — Отримує базові атрибути зобр
 ### Опис
 
 public **Imagick::pingImageFile**(resource `$filehandle`, string
-`$fileName` u003d ?): bool
+`$fileName` = ?): bool
 
 Метод можна використовувати для запиту ширини, висоти, розміру та формату
 зображення без зчитування всього зображення на згадку. Цей метод
@@ -40,7 +40,7 @@ public **Imagick::pingImageFile**(resource `$filehandle`, string
 
 Відкриття віддаленої локації
 
-` <?php/* Відкриття віддаленої локації з допомогою fopen */$fp u003d fopen("http://example.com/test.jpg");/* Створення нового об'єкту Imagick */$im u003d ick /* Передача дескриптора об'єкту Imagick */$im->pingImageFile($fp);?> `
+` <?php/* Відкриття віддаленої локації з допомогою fopen */$fp = fopen("http://example.com/test.jpg");/* Створення нового об'єкту Imagick */$im = ick /* Передача дескриптора об'єкту Imagick */$im->pingImageFile($fp);?> `
 
 ### Дивіться також
 

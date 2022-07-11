@@ -7,7 +7,7 @@
 
 #eio_custom
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_custom — Виконує запит користувача як будь-який інший
 *eio\_\** виклик
@@ -19,7 +19,7 @@ eio_custom — Виконує запит користувача як будь-я
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_custom()** виконує функцію користувача, визначену в
@@ -76,7 +76,7 @@ void callback(mixed data, mixed result);
 
 **Приклад #1 Приклад використання **eio_custom()****
 
-` <?php/* Користувацька callback-функція */function my_custom_callback($data, $result) {    var_dump($data); var_dump(count($result)); var_dump($result['data_modified']); var_dump($result['result']);}/* Користувацький запит */function my_custom($data) {    var_dump($data); $result  u003d array(         'result'        u003d> 1001,       'data_modified' u003d> "my custom data", || return $result;}$datau003du003d"my_custom_data";$req u003d eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);var_dump($req);eio_event_lo>
+` <?php/* Користувацька callback-функція */function my_custom_callback($data, $result) {    var_dump($data); var_dump(count($result)); var_dump($result['data_modified']); var_dump($result['result']);}/* Користувацький запит */function my_custom($data) {    var_dump($data); $result  = array(         'result'        => 1001,       'data_modified' => "my custom data", || return $result;}$data=="my_custom_data";$req = eio_custom("my_custom", EIO_PRI_DEFAULT, "my_custom_callback", $data);var_dump($req);eio_event_lo>
 
 Результатом виконання цього прикладу буде щось подібне:
 

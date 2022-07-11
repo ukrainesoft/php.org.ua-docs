@@ -8,7 +8,7 @@
 
 # SolrQuery::getExpandRows
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::getExpandRows — Повертає кількість рядків, які відображаються в
 кожній групі (expand.rows)

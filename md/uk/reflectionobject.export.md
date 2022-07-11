@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionObject::export**(string `$argument`, bool
-`$return` u003d ?): string
+`$return` = ?): string
 
 Експортує відображення (reflection).
 

@@ -7,7 +7,7 @@
 
 #rrd_info
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 rrd_info — Отримує інформацію про файл rrd
 

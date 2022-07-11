@@ -7,7 +7,7 @@
 
 #array_map
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 array_map — Застосовує функцію callback до всіх елементів зазначених
 масивів
@@ -56,82 +56,82 @@ array `$array`, array `...$arrays`): array
 ### Список змін
 
 | Версія | Опис                                                                                                                         |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Якщо параметр callback очікує, що буде передано значення за посиланням, функція тепер видасть помилку рівня ** E_WARNING **. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **array_map()****
 
-` <?phpfunction cube($n){   return ($n * $n * $n);}$a u003d [1, 2, 3, 4, 5];$b u003d array_map('cube', $a) ;print_r($b);?> `
+` <?phpfunction cube($n){   return ($n * $n * $n);}$a = [1, 2, 3, 4, 5];$b = array_map('cube', $a) ;print_r($b);?> `
 
 В результаті змінна `$b` міститиме:
 
 Array
 (
-[0] u003d> 1
-[1] u003d> 8
-[2] u003d> 27
-[3] u003d> 64
-[4] u003d> 125
+[0] => 1
+[1] => 8
+[2] => 27
+[3] => 64
+[4] => 125
 )
 
 **Приклад #2 Використання **array_map()** разом з лямбда-функцією**
 
-` <?php$func u003d function(int $value): int {   return $value * 2;};print_r(array_map($func, range(1, 5)));// Або с P0 (array_map(fn($value): int u003d> $value * 2, range(1, 5)));?> `
+` <?php$func = function(int $value): int {   return $value * 2;};print_r(array_map($func, range(1, 5)));// Або с P0 (array_map(fn($value): int => $value * 2, range(1, 5)));?> `
 
 Array
 (
-[0] u003d> 2
-[1] u003d> 4
-[2] u003d> 6
-[3] u003d> 8
-[4] u003d> 10
+[0] => 2
+[1] => 4
+[2] => 6
+[3] => 8
+[4] => 10
 )
 
 **Приклад #3 Приклад використання **array_map()**: обробка кількох
 масивів**
 
-` <?phpfunction show_Spanish(int $n, string $m): string{    return "Число {$n} по-іспанськи - {$m}";}function map_Spanish(int $n, string     [$n u003d> $m];}$a u003d [1, 2, 3, 4, 5];$b u003d ['uno', 'dos', 'tres', 'cuatro', 'cinco']; $c u003d array_map('show_Spanish', $a, $b);print_r($c);$d u003d array_map('map_Spanish', $a , $b);print_r($d);?> `
+` <?phpfunction show_Spanish(int $n, string $m): string{    return "Число {$n} по-іспанськи - {$m}";}function map_Spanish(int $n, string     [$n => $m];}$a = [1, 2, 3, 4, 5];$b = ['uno', 'dos', 'tres', 'cuatro', 'cinco']; $c = array_map('show_Spanish', $a, $b);print_r($c);$d = array_map('map_Spanish', $a , $b);print_r($d);?> `
 
 Результат виконання цього прикладу:
 
 // Висновок $c
 Array
 (
-[0] u003d> Число 1 іспанською - uno
-[1] u003d> Число 2 іспанською - dos
-[2] u003d> Число 3 іспанською - tres
-[3] u003d> Число 4 іспанською - cuatro
-[4] u003d> Число 5 іспанською - cinco
+[0] => Число 1 іспанською - uno
+[1] => Число 2 іспанською - dos
+[2] => Число 3 іспанською - tres
+[3] => Число 4 іспанською - cuatro
+[4] => Число 5 іспанською - cinco
 )
 
 // Висновок $d
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[1] u003d> uno
+[1] => uno
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[2] u003d> dos
+[2] => dos
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[3] u003d> tres
+[3] => tres
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[4] u003d> cuatro
+[4] => cuatro
 )
 
-[4] u003d> Array
+[4] => Array
 (
-[5] u003d> cinco
+[5] => cinco
 )
 
 )
@@ -148,96 +148,96 @@ Array
 
 **Приклад #4 Виконання zip операції з масивами**
 
-` <?php$a u003d [1, 2, 3, 4, 5];$b u003d ['one', 'two', 'three', 'four', 'five'];$c u003d ['uno ', 'dos', 'tres', 'cuatro', 'cinco'];$d u003d array_map(null, $a, $b, $c);print_r($d);?> `
+` <?php$a = [1, 2, 3, 4, 5];$b = ['one', 'two', 'three', 'four', 'five'];$c = ['uno ', 'dos', 'tres', 'cuatro', 'cinco'];$d = array_map(null, $a, $b, $c);print_r($d);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[0] u003d> 1
-[1] u003d> один
-[2] u003d> uno
+[0] => 1
+[1] => один
+[2] => uno
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[0] u003d> 2
-[1] u003d> two
-[2] u003d> dos
+[0] => 2
+[1] => two
+[2] => dos
 )
 
-[2] u003d> Array
+[2] => Array
 (
-[0] u003d> 3
-[1] u003d> three
-[2] u003d> tres
+[0] => 3
+[1] => three
+[2] => tres
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[0] u003d> 4
-[1] u003d> four
-[2] u003d> cuatro
+[0] => 4
+[1] => four
+[2] => cuatro
 )
 
-[4] u003d> Array
+[4] => Array
 (
-[0] u003d> 5
-[1] u003d> five
-[2] u003d> cinco
+[0] => 5
+[1] => five
+[2] => cinco
 )
 
 )
 
 **Приклад #5 **`null`** `callback` тільки з `array`**
 
-` <?php$array u003d [1, 2, 3];var_dump(array_map(null, $array));?> `
+` <?php$array = [1, 2, 3];var_dump(array_map(null, $array));?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }
 
 **Приклад #6 Використання **array_map()** з рядковими ключами**
 
-` <?php$arr u003d ['stringkey' u003d> 'value'];function cb1($a) {   return [$a];}function cb2($a, $b) {    return $ ;}var_dump(array_map('cb1', $arr));var_dump(array_map('cb2', $arr, $arr));var_dump(array_map(null, $arr));var_dump(array_map(null, $ar , $arr));?> `
+` <?php$arr = ['stringkey' => 'value'];function cb1($a) {   return [$a];}function cb2($a, $b) {    return $ ;}var_dump(array_map('cb1', $arr));var_dump(array_map('cb2', $arr, $arr));var_dump(array_map(null, $arr));var_dump(array_map(null, $ar , $arr));?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["stringkey"]u003d>
+["stringkey"]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(5) "value"
 }
 }
 array(1) {
-[0]u003d>
+[0]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(5) "value"
-[1]u003d>
+[1]=>
 string(5) "value"
 }
-}
-array(1) {
-["stringkey"]u003d>
-string(5) "value"
 }
 array(1) {
-[0]u003d>
+["stringkey"]=>
+string(5) "value"
+}
+array(1) {
+[0]=>
 array(2) {
-[0]u003d>
+[0]=>
 string(5) "value"
-[1]u003d>
+[1]=>
 string(5) "value"
 }
 }
@@ -248,16 +248,16 @@ string(5) "value"
 масиву як вхідні дані, це можна змоделювати за допомогою
 [array_keys()](function.array-keys.md).
 
-` <?php$arr u003d [   'v1' u003d> 'Перший випуск',   'v2' u003d> 'Другий випуск',   'v3' u003d> 'Третій випуск'   | цього використовуйте більш довший синтаксис для анонімних функцій.$callback u003d fn(string $k, string $v): string u003d> "$k - це $v";$result u003d array ($arr));var_dump($result);?> `
+` <?php$arr = [   'v1' => 'Перший випуск',   'v2' => 'Другий випуск',   'v3' => 'Третій випуск'   | цього використовуйте більш довший синтаксис для анонімних функцій.$callback = fn(string $k, string $v): string => "$k - це $v";$result = array ($arr));var_dump($result);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(24) "v1 - це Перший випуск"
-[1]u003d>
+[1]=>
 string(25) "v2 - це другий випуск"
-[2]u003d>
+[2]=>
 string(24) "v3 - це третій випуск"
 }
 

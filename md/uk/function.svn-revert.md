@@ -7,13 +7,13 @@
 
 # svn_revert
 
-(PECL svn \>u003d 0.3.0)
+(PECL svn \>= 0.3.0)
 
 svn_revert — Скасує локальні зміни робочої копії
 
 ### Опис
 
-**svn_revert**(string `$path`, bool `$recursive` u003d **`false`**): bool
+**svn_revert**(string `$path`, bool `$recursive` = **`false`**): bool
 
 Скасує всі локальні зміни файлів, розміщених у робочій копії.
 

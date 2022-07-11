@@ -13,7 +13,7 @@ phpversion — Отримує поточну версію PHP
 
 ### Опис
 
-**phpversion**(?string `$extension` u003d **`null`**): string\|false
+**phpversion**(?string `$extension` = **`null`**): string\|false
 
 Повертає рядок з номером версії поточного PHP-інтерпретатора або
 модуля.
@@ -33,7 +33,7 @@ phpversion — Отримує поточну версію PHP
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | extension  тепер допускає значення null. |
 
 ### Приклади
@@ -44,7 +44,7 @@ phpversion — Отримує поточну версію PHP
 
 **Приклад #2 Приклад використання **`PHP_VERSION_ID`****
 
-`<?php// PHP_VERSION_ID доступна в версіях PHP 5.2.7 і вище. Якщо// наша версія нижче, можна ее семулюватиif (!defined('PHP_VERSION_ID')) {    $version u003d explode('.', PHP_VERSION); define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));}//PHP_VERSION_ID визначена як число. Чим більша кількість, тим новіше / / PHP. Эта константа задаётся по той же схеме, что приведена выше://// $version_id u003d $major_version * 10000 + $minor_version * 100 + $release_version;//// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в// текущей версии PHP. Не обязательно пользоваться version_compare()// каждый раз, когда требуется проверить, поддерживает ли PHP нужную// нам функцию.//// Например, мы можем задать значения констант PHP_VERSION_*,// которые недоступны в версиях ранее 5.2.7if (PHP_VERSION_ID < 50207) {   define('PHP_MAJOR_VERSION',  $version[0]); define('PHP_MINOR_VERSION',  $version[1]); define('PHP_RELEASE_VERSION', $version[2]); // і так далі ...}?> `
+`<?php// PHP_VERSION_ID доступна в версіях PHP 5.2.7 і вище. Якщо// наша версія нижче, можна ее семулюватиif (!defined('PHP_VERSION_ID')) {    $version = explode('.', PHP_VERSION); define('PHP_VERSION_ID', ($version[0] * 10000 + $version[1] * 100 + $version[2]));}//PHP_VERSION_ID визначена як число. Чим більша кількість, тим новіше / / PHP. Эта константа задаётся по той же схеме, что приведена выше://// $version_id = $major_version * 10000 + $minor_version * 100 + $release_version;//// Теперь с PHP_VERSION_ID можно проверять, какая функциональность есть в// текущей версии PHP. Не обязательно пользоваться version_compare()// каждый раз, когда требуется проверить, поддерживает ли PHP нужную// нам функцию.//// Например, мы можем задать значения констант PHP_VERSION_*,// которые недоступны в версиях ранее 5.2.7if (PHP_VERSION_ID < 50207) {   define('PHP_MAJOR_VERSION',  $version[0]); define('PHP_MINOR_VERSION',  $version[1]); define('PHP_RELEASE_VERSION', $version[2]); // і так далі ...}?> `
 
 ### Примітки
 

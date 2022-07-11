@@ -7,7 +7,7 @@
 
 # Ds\Deque::insert
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::insert — Вставляє значення за вказаним індексом
 
@@ -23,7 +23,7 @@ public **Ds\Deque::insert**(int `$index`,
 
 `index`
 Індекс, яким необхідно здійснити вставку.
-`0 <u003d index <u003d count`
+`0 <= index <= count`
 
 > **Примітка**:
 >
@@ -47,23 +47,23 @@ public **Ds\Deque::insert**(int `$index`,
 
 **Приклад #1 Приклад використання **Ds\Deque::insert()****
 
-` <?php$deque u003d new \Ds\Deque();$deque->insert(0, "e"); // [e]$deque->insert(1, "f"); // [e, f]$deque->insert(2, "g"); // [e, f, g]$deque->insert(0, "a", "b"); // [a, b, e, f, g]$deque->insert(2, ...["c", "d"]); // [a, b, c, d, e, f, g]var_dump($deque);?> `
+` <?php$deque = new \Ds\Deque();$deque->insert(0, "e"); // [e]$deque->insert(1, "f"); // [e, f]$deque->insert(2, "g"); // [e, f, g]$deque->insert(0, "a", "b"); // [a, b, e, f, g]$deque->insert(2, ...["c", "d"]); // [a, b, c, d, e, f, g]var_dump($deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Deque)#1 (7) {
-[0]u003d>
+[0]=>
 string(1) "a"
-[1]u003d>
+[1]=>
 string(1) "b"
-[2]u003d>
+[2]=>
 string(1) "c"
-[3]u003d>
+[3]=>
 string(1) "d"
-[4]u003d>
+[4]=>
 string(1) "e"
-[5]u003d>
+[5]=>
 string(1) "f"
-[6]u003d>
+[6]=>
 string(1) "g"
 }

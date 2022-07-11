@@ -7,7 +7,7 @@
 
 # Ds\Set::get
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::get — Повертає значення за індексом
 
@@ -37,7 +37,7 @@ public **Ds\Set::get**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Set::get()****
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c"]);var_dump($set->get(0));var_dump($set->get(1) );var_dump($set->get(2));?> `
+` <?php$set = new \Ds\Set(["a", "b", "c"]);var_dump($set->get(0));var_dump($set->get(1) );var_dump($set->get(2));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -48,7 +48,7 @@ string(1) "c"
 **Приклад #2 Приклад використання **Ds\Set::get()** із синтаксисом
 масиву**
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c"]);var_dump($set[0]);var_dump($set[1]);var_dump($set [2]);?> `
+` <?php$set = new \Ds\Set(["a", "b", "c"]);var_dump($set[0]);var_dump($set[1]);var_dump($set [2]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

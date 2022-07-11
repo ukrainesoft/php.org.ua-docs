@@ -56,14 +56,14 @@ int `$color`
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagerectangle()****
 
-`<?php// Створення зображення 200 x 200$canvas u003d imagecreatetruecolor(200, 200);// Створення квітів$pink u003d imagecolorallocate($canvas, 255, 15 255, 255);$green u003dimagecolorallocate($canvas, 132, 135, 28); 120, 100, $white);imagerectangle($canvas, 100, 120, 75, 160, $green); ($canvas);?> `
+`<?php// Створення зображення 200 x 200$canvas = imagecreatetruecolor(200, 200);// Створення квітів$pink = imagecolorallocate($canvas, 255, 15 255, 255);$green =imagecolorallocate($canvas, 132, 135, 28); 120, 100, $white);imagerectangle($canvas, 100, 120, 75, 160, $green); ($canvas);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

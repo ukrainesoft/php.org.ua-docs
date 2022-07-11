@@ -7,7 +7,7 @@
 
 #xdiff_file_patch_binary
 
-(PECL xdiff \>u003d 0.2.0)
+(PECL xdiff \>= 0.2.0)
 
 xdiff_file_patch_binary — Псевдонім для xdiff_file_bpatch
 
@@ -47,7 +47,7 @@ xdiff_file_patch_binary — Псевдонім для xdiff_file_bpatch
 
 У цьому коді показано застосування бінарного патча до файлу.
 
-` <?php$old_version u003d 'archive-1.0.tgz';$patch u003d 'archive.bpatch';$result u003d xdiff_file_patch_binary($old_version, $patch, 'archive-1.1.tgz');if ($result) echo "Файл пропатчений";} else {   echo "Файл не може бути пропатчений";}?> `
+` <?php$old_version = 'archive-1.0.tgz';$patch = 'archive.bpatch';$result = xdiff_file_patch_binary($old_version, $patch, 'archive-1.1.tgz');if ($result) echo "Файл пропатчений";} else {   echo "Файл не може бути пропатчений";}?> `
 
 ### Примітки
 

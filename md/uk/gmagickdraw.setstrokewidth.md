@@ -8,7 +8,7 @@
 
 # GmagickDraw::setstrokewidth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setstrokewidth — Встановлює ширину обведення, що використовується
 для відображення контурів об'єкта

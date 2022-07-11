@@ -8,7 +8,7 @@
 
 # SolrQuery::setHighlightSnippets
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightSnippets — Встановлює максимальну кількість
 виділених фрагментів для створення для кожного поля
@@ -16,7 +16,7 @@ SolrQuery::setHighlightSnippets — Встановлює максимальну 
 ### Опис
 
 public **SolrQuery::setHighlightSnippets**(int `$value`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Встановлює максимальну кількість виділених фрагментів для створення
 для кожного поля

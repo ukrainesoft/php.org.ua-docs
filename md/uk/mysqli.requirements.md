@@ -21,6 +21,6 @@ to the client [caching_sha2_password]*, навіть коли
 Це пов'язано з тим, що MySQL 8 за замовчуванням використовує
 caching_sha2_password, і плагін не розпізнається старими версіями PHP
 (Mysqlnd). Натомість змініть це, встановивши
-`default_authentication_pluginu003dmysql_native_password` в `my.cnf`. Плагін
+`default_authentication_plugin=mysql_native_password` в `my.cnf`. Плагін
 *caching_sha2_password* буде підтримуватись у майбутній версії PHP. Бувай
 А модуль [mysql_xdevapi](book.mysql-xdevapi.md) підтримує його.

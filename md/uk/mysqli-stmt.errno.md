@@ -43,14 +43,14 @@ int `$mysqli_stmt->errno`;
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* відкриваємо з'єднання */$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM , Code FROM myCountry ORDER BY Name";if ($stmt u003d $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y| $stmt->execute();   printf("Помилка:%d.
+` <?php/* відкриваємо з'єднання */$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
+", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM , Code FROM myCountry ORDER BY Name";if ($stmt = $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y| $stmt->execute();   printf("Помилка:%d.
 ", $stmt->errno);    /* закриваємо запрос */   $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> `
 
 **Приклад #2 Процедурний стиль**
 
-`<?php/* відкриваємо з'єднання */$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
-mysqli_connect_error()u003d| FROM myCountry ORDER BY Name";if ($stmt u003d mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   printf("Помилка:%d.
+`<?php/* відкриваємо з'єднання */$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
+mysqli_connect_error()=| FROM myCountry ORDER BY Name";if ($stmt = mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   printf("Помилка:%d.
 ", mysqli_stmt_errno($stmt));   /* закриваємо запрос */   mysqli_stmt_close($stmt);}/* закриваємо з'єднання*/mysqli_close($link);
 
 Результат виконання даних прикладів:

@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Manager
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -36,9 +36,9 @@ final public
 `$subscriber`): void
 
 final public
-[\_\_construct](mongodb-driver-manager.construct.md)(string `$uri` u003d
-"mongodb://127.0.0.1/", array `$uriOptions` u003d array(), array
-`$driverOptions` u003d array())
+[\_\_construct](mongodb-driver-manager.construct.md)(string `$uri` =
+"mongodb://127.0.0.1/", array `$uriOptions` = array(), array
+`$driverOptions` = array())
 
 final public
 [createClientEncryption](mongodb-driver-manager.createclientencryption.md)(array
@@ -49,37 +49,37 @@ final public
 [executeBulkWrite](mongodb-driver-manager.executebulkwrite.md)(string
 `$namespace`,
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md) `$bulk`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
 
 final public
 [executeCommand](mongodb-driver-manager.executecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeQuery](mongodb-driver-manager.executequery.md)(string
 `$namespace`, [MongoDB\Driver\Query](class.mongodb-driver-query.md)
-`$query`, array `$options` u003d array()):
+`$query`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeReadCommand](mongodb-driver-manager.executereadcommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
 [executeWriteCommand](mongodb-driver-manager.executewritecommand.md)(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 final public
@@ -107,12 +107,12 @@ final public
 
 final public
 [selectServer](mongodb-driver-manager.selectserver.md)(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` u003d **`null`**):
+`$readPreference` = **`null`**):
 [MongoDB\Driver\Server](class.mongodb-driver-server.md)
 
 final public
 [startSession](mongodb-driver-manager.startsession.md)(array
-`$options` u003d ?):
+`$options` = ?):
 [MongoDB\Driver\Session](class.mongodb-driver-session.md)
 
 }
@@ -127,14 +127,14 @@ final public
 налагодження, щоб подивитися як драйвер бачить налаштування MongoDB і які
 опції використовуються.
 
-` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager);?> `
+` <?php$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');var_dump($manager);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(MongoDB\Driver\Manager)#1 (2) {
-["uri"]u003d>
+["uri"]=>
 string(26) "mongodb://127.0.0.1:27017/"
-["cluster"]u003d>
+["cluster"]=>
 array(0) {
 }
 }

@@ -7,15 +7,15 @@
 
 # Swoole\Server::taskwait
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::taskwait — Надсилає дані робочим процесам завдання
 блокуючим способом
 
 ### Опис
 
-public **Swoole\Server::taskwait**(string `$data`, float `$timeout` u003d ?,
-int `$worker_id` u003d ?): void
+public **Swoole\Server::taskwait**(string `$data`, float `$timeout` = ?,
+int `$worker_id` = ?): void
 
 **Увага**
 

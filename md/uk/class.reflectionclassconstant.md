@@ -7,7 +7,7 @@
 
 # Клас ReflectionClassConstant
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 ## Вступ
 
@@ -21,11 +21,11 @@ class **ReflectionClassConstant** implements
 
 /\* Константи \*/
 
-const int `IS_PUBLIC` u003d 1;
+const int `IS_PUBLIC` = 1;
 
-const int `IS_PROTECTED` u003d 2;
+const int `IS_PROTECTED` = 2;
 
-const int `IS_PRIVATE` u003d 4;
+const int `IS_PRIVATE` = 4;
 
 /\* Властивості \*/
 
@@ -41,11 +41,11 @@ public
 
 public static
 [export](reflectionclassconstant.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` u003d ?): string
+`$class`, string `$name`, bool `$return` = ?): string
 
 public
 [getAttributes](reflectionclassconstant.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [getDeclaringClass](reflectionclassconstant.getdeclaringclass.md)():

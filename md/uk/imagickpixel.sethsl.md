@@ -40,16 +40,16 @@ public **ImagickPixel::setHSL**(float `$hue`, float `$saturation`, float
 
 **Приклад #1 Приклад використання **ImagickPixel::setHSL()****
 
-` <?php//Створення майже чистого червоного кольору$color u003d new ImagickPixel('rgb(90%, 10%, 10%)');//Отримання значень HSL$colorInfo u003d $color-> Поворачиваем оттенок на 180 градусов$newHue u003d $colorInfo['hue'] + 0.5;if ($newHue > 1) {    $newHue u003d $newHue - 1;}//Устанавливаем ImagickPixel в новый цвет$colorInfo u003d $color->setHSL ($newHue, $colorInfo['saturation'], $colorInfo['luminosity']);//Перевіряємо, що новий колір є блакитним/зеленим$colorInfo u003d $color->getcolor();print_r($or > `
+` <?php//Створення майже чистого червоного кольору$color = new ImagickPixel('rgb(90%, 10%, 10%)');//Отримання значень HSL$colorInfo = $color-> Поворачиваем оттенок на 180 градусов$newHue = $colorInfo['hue'] + 0.5;if ($newHue > 1) {    $newHue = $newHue - 1;}//Устанавливаем ImagickPixel в новый цвет$colorInfo = $color->setHSL ($newHue, $colorInfo['saturation'], $colorInfo['luminosity']);//Перевіряємо, що новий колір є блакитним/зеленим$colorInfo = $color->getcolor();print_r($or > `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[r] u003d> 26
-[g] u003d> 230
-[b] u003d> 230
-[a] u003d> 255
+[r] => 26
+[g] => 230
+[b] => 230
+[a] => 255
 )
 
 ### Примітки

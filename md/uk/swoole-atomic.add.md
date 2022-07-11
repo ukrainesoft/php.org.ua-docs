@@ -7,13 +7,13 @@
 
 # Swoole\Atomic::add
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Atomic::add — Додає число значення атомарного об'єкта
 
 ### Опис
 
-public **Swoole\Atomic::add**(int `$add_value` u003d ?): int
+public **Swoole\Atomic::add**(int `$add_value` = ?): int
 
 Додає число значення атомарного об'єкта.
 

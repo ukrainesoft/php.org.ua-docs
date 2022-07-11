@@ -13,7 +13,7 @@ ibase_rollback - Відкочує транзакцію
 
 ### Опис
 
-**ibase_rollback**(resource `$link_or_trans_identifier` u003d **`null`**):
+**ibase_rollback**(resource `$link_or_trans_identifier` = **`null`**):
 bool
 
 Відкочує транзакцію.

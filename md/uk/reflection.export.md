@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **Reflection::export**([Reflector](class.reflector.md)
-`$reflector`, bool `$return` u003d **`false`**): string
+`$reflector`, bool `$return` = **`false`**): string
 
 Експортує reflection.
 

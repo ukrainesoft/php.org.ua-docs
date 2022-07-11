@@ -44,7 +44,7 @@ natsort - Сортує масив, використовуючи алгоритм
 
 **Приклад #1 Простий приклад використання **natsort()****
 
-` <?php$array1 u003d $array2 u003d array("img12.png", "img10.png", "img2.png", "img1.png");asort($array1);echo "Звичайне сортування
+` <?php$array1 = $array2 = array("img12.png", "img10.png", "img2.png", "img1.png");asort($array1);echo "Звичайне сортування
 ";print_r($array1);natsort($array2);echo "
 Сортування natural order
 ";print_r($array2);?> `
@@ -54,19 +54,19 @@ natsort - Сортує масив, використовуючи алгоритм
 Звичайне сортування
 Array
 (
-[3] u003d> img1.png
-[1] u003d> img10.png
-[0] u003d> img12.png
-[2] u003d> img2.png
+[3] => img1.png
+[1] => img10.png
+[0] => img12.png
+[2] => img2.png
 )
 
 Сортування ордер
 Array
 (
-[3] u003d> img1.png
-[2] u003d> img2.png
-[1] u003d> img10.png
-[0] u003d> img12.png
+[3] => img1.png
+[2] => img2.png
+[1] => img10.png
+[0] => img12.png
 )
 
 Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).
@@ -74,51 +74,51 @@ Array
 **Приклад #2 Приклади використання різних трюків з **natsort()****
 
 `<?phpecho "Негативні числа
-";$negative u003d array('-5','3','-2','0','-1000','9','1');print_r($negative);natsort($negative) ;print_r($negative);echo "Відбивка нулями
-$zerosu003du003darray('09', '8', '10', '009', '011', '0');print_r($zeros);natsort($zeros);print_r($zeros); ?> `
+";$negative = array('-5','3','-2','0','-1000','9','1');print_r($negative);natsort($negative) ;print_r($negative);echo "Відбивка нулями
+$zeros==array('09', '8', '10', '009', '011', '0');print_r($zeros);natsort($zeros);print_r($zeros); ?> `
 
 Результат виконання цього прикладу:
 
 Негативні числа
 Array
 (
-[0] u003d> -5
-[1] u003d> 3
-[2] u003d> -2
-[3] u003d> 0
-[4] u003d> -1000
-[5] u003d> 9
-[6] u003d> 1
+[0] => -5
+[1] => 3
+[2] => -2
+[3] => 0
+[4] => -1000
+[5] => 9
+[6] => 1
 )
 Array
 (
-[2] u003d> -2
-[0] u003d> -5
-[4] u003d> -1000
-[3] u003d> 0
-[6] u003d> 1
-[1] u003d> 3
-[5] u003d> 9
+[2] => -2
+[0] => -5
+[4] => -1000
+[3] => 0
+[6] => 1
+[1] => 3
+[5] => 9
 )
 
 Відбиття нулями
 Array
 (
-[0] u003d> 09
-[1] u003d> 8
-[2] u003d> 10
-[3] u003d> 009
-[4] u003d> 011
-[5] u003d> 0
+[0] => 09
+[1] => 8
+[2] => 10
+[3] => 009
+[4] => 011
+[5] => 0
 )
 Array
 (
-[5] u003d> 0
-[1] u003d> 8
-[3] u003d> 009
-[0] u003d> 09
-[2] u003d> 10
-[4] u003d> 011
+[5] => 0
+[1] => 8
+[3] => 009
+[0] => 09
+[2] => 10
+[4] => 011
 )
 
 ### Дивіться також

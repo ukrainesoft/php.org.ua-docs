@@ -7,7 +7,7 @@
 
 # Gmagick::trimimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::trimimage — Видаляє краї зображення
 

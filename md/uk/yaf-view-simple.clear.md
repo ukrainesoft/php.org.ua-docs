@@ -7,13 +7,13 @@
 
 # Yaf_View_Simple::clear
 
-(Yaf \> u003d 2.2.0)
+(Yaf \> = 2.2.0)
 
 Yaf_View_Simple::clear — Скидає призначені значення
 
 ### Опис
 
-public **Yaf_View_Simple::clear**(string `$name` u003d ?): bool
+public **Yaf_View_Simple::clear**(string `$name` = ?): bool
 
 Скидає призначені значення
 

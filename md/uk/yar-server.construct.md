@@ -7,7 +7,7 @@
 
 # Yar_Server::\_\_construct
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Server::\_\_construct - Конструктор Yar_Server
 
@@ -32,7 +32,7 @@ RPC-Сервіси.
 
 **Приклад #1 Приклад використання **Yar_Server::\_\_construct()****
 
-` <?phpclass API {    /**    * the doc info will be generated automatically into service info page. * @params     * @return     */    public function some_method($parameter, $option u003d "foo") {          me }   protected function client_can_not_see() {    }}$service u003d new Yar_Server(new API());$service->handle();?> `
+` <?phpclass API {    /**    * the doc info will be generated automatically into service info page. * @params     * @return     */    public function some_method($parameter, $option = "foo") {          me }   protected function client_can_not_see() {    }}$service = new Yar_Server(new API());$service->handle();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

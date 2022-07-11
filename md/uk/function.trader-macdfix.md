@@ -7,14 +7,14 @@
 
 #trader_macdfix
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_macdfix — Виправлення сходження/розбіжності ковзної середньої
 12/26
 
 ### Опис
 
-**trader_macdfix**(array `$real`, int `$signalPeriod` u003d ?): array
+**trader_macdfix**(array `$real`, int `$signalPeriod` = ?): array
 
 ### Список параметрів
 

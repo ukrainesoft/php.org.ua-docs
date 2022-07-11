@@ -7,7 +7,7 @@
 
 # swoole_last_error
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_last_error — Отримати останнє повідомлення про помилку
 

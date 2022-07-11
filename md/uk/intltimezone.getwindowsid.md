@@ -9,7 +9,7 @@
 
 # intltz_get_windows_id
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 IntlTimeZone::getWindowsID -- intltz_get_windows_id — Перетворити
 системний часовий пояс у часовий пояс для Windows

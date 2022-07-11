@@ -194,7 +194,7 @@ TRUE і надавати значення стовпців таблиці змі
 
 **Приклад #1 Приклад використання **`PDO::ATTR_DRIVER_NAME`****
 
-` <?phpif ($db->getAttribute(PDO::ATTR_DRIVER_NAME) u003du003du003d''mysql') { echo "Працюємо з mysql; робимо щось специфічне для mysql
+` <?phpif ($db->getAttribute(PDO::ATTR_DRIVER_NAME) ===''mysql') { echo "Працюємо з mysql; робимо щось специфічне для mysql
 ";}?> `
 
 **`PDO::ATTR_ORACLE_NULLS`** (int)

@@ -7,7 +7,7 @@
 
 #apcu_store
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_store - Кешує змінну
 
@@ -15,11 +15,11 @@ apcu_store - Кешує змінну
 
 **apcu_store**(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$var`, int `$ttl` u003d 0): bool
+`$var`, int `$ttl` = 0): bool
 
 **apcu_store**(array `$values`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$unused` u003d NULL, int `$ttl` u003d 0): array
+`$unused` = NULL, int `$ttl` = 0): array
 
 Кешує змінну.
 
@@ -57,7 +57,7 @@ apcu_store - Кешує змінну
 
 **Приклад #1 Приклад використання **apcu_store()****
 
-` <?php$bar u003d 'BAR';apcu_store('foo', $bar);var_dump(apcu_fetch('foo'));?> `
+` <?php$bar = 'BAR';apcu_store('foo', $bar);var_dump(apcu_fetch('foo'));?> `
 
 Результат виконання цього прикладу:
 

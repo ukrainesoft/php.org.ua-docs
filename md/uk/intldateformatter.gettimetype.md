@@ -9,7 +9,7 @@
 
 # datefmt_get_timetype
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::getTimeType -- datefmt_get_timetype — Отримує тип
 часу, що використовується IntlDateFormatter
@@ -41,11 +41,11 @@ public **IntlDateFormatter::getTimeType**(): int\|false
 
 **Приклад #1 Приклад використання **datefmt_get_timetype()****
 
-` <?php$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип времени средства форматирования : ' . datefmt_get_timetype($fmt);echo 'Перший відформатований висновок ' . datefmt_format($fmt, 0);$fmt u003d datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::SHORT,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Теперь тип времени средства форматирования : ' . datefmt_get_timetype($fmt);echo 'Другий відформатований висновок ' . datefmt_format($fmt, 0);?> `
+` <?php$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип времени средства форматирования : ' . datefmt_get_timetype($fmt);echo 'Перший відформатований висновок ' . datefmt_format($fmt, 0);$fmt = datefmt_create(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::SHORT,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Теперь тип времени средства форматирования : ' . datefmt_get_timetype($fmt);echo 'Другий відформатований висновок ' . datefmt_format($fmt, 0);?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип времени средства форматирования : ' . $fmt->getTimeType();echo 'Перший відформатований висновок ' . $fmt->format(0);$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::SHORT,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Теперь тип времени средства форматирования : ' . $fmt->getTimeType();echo 'Другий відформатований висновок ' . $fmt->format(0);?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Тип времени средства форматирования : ' . $fmt->getTimeType();echo 'Перший відформатований висновок ' . $fmt->format(0);$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::SHORT,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Теперь тип времени средства форматирования : ' . $fmt->getTimeType();echo 'Другий відформатований висновок ' . $fmt->format(0);?> `
 
 Результат виконання цього прикладу:
 

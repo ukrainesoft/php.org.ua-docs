@@ -7,14 +7,14 @@
 
 # Ds\Map::sorted
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::sorted — Повертає копію колекції, відсортовану за значенням.
 
 ### Опис
 
 public **Ds\Map::sorted**([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Map](class.ds-map.md)
+`$comparator` = ?): [Ds\Map](class.ds-map.md)
 
 Повертає відсортовану за значенням копію колекції, необов'язково
 використовуючи callback-функцію `comparator`.
@@ -45,28 +45,28 @@ float, буде приведено до цілої кількості (int). О�
 
 **Приклад #1 Приклад використання [Ds\Map::sort()](ds-map.sort.md)**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 2, "b" u003d> 3, "c" u003d> 1]);print_r($map->sorted());?> `
+` <?php$map = new \Ds\Map(["a" => 2, "b" => 3, "c" => 1]);print_r($map->sorted());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 1
+[key] => c
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 2
+[key] => a
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 3
+[key] => b
+[value] => 3
 )
 
 )
@@ -74,28 +74,28 @@ Ds\Map Object
 **Приклад #2 Приклад використання [Ds\Map::sort()](ds-map.sort.md) з
 callback-функцією порівняння**
 
-` <?php$map u003d new \Ds\Map(["a" u003d> 2, "b" u003d> 3, c" u003d> 1]);// Reverse$sorted u003d $map->sorted(function ($a, $b) {   return $b <u003d> $a;});print_r($sorted);?> `
+` <?php$map = new \Ds\Map(["a" => 2, "b" => 3, c" => 1]);// Reverse$sorted = $map->sorted(function ($a, $b) {   return $b <=> $a;});print_r($sorted);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 3
+[key] => b
+[value] => 3
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 2
+[key] => a
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 1
+[key] => c
+[value] => 1
 )
 
 )

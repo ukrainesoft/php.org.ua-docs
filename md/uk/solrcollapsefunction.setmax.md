@@ -8,7 +8,7 @@
 
 # SolrCollapseFunction::setMax
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrCollapseFunction::setMax — Вибирає заголовки групи за
 максимальному значенню числового поля або запиту функції
@@ -33,4 +33,4 @@ public **SolrCollapseFunction::setMax**(string `$max`):
 
 **Приклад #1 Приклад використання **SolrCollapseFunction::setMax()****
 
-` <?php$func u003d new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field(some_field))');$query u003d new SolrQuery('*:*');$ query->collapse($func);?> `
+` <?php$func = new SolrCollapseFunction('field_name');$func->setMax('sum(cscore(),field(some_field))');$query = new SolrQuery('*:*');$ query->collapse($func);?> `

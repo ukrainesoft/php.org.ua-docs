@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::isHidden
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::isHidden — Перевіряє, чи сервер прихований
 членом набору реплік

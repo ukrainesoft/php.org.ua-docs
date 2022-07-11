@@ -38,4 +38,4 @@ public **mysql_xdevapi\CollectionModify::patch**(string `$document`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionModify::patch()****
 
-` <?php$res u003d $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();?> `
+` <?php$res = $coll->modify('"Programmatore" IN job')->patch('{"Hobby" : "Programmare"}')->execute();?> `

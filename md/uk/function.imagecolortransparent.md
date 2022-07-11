@@ -14,7 +14,7 @@ imagecolortransparent — Визначає колір як прозорий
 ### Опис
 
 **imagecolortransparent**([GdImage](class.gdimage.md) `$image`, ?int
-`$color` u003d **`null`**): int
+`$color` = **`null`**): int
 
 Отримує або встановлює прозорість кольору у заданому зображенні
 `image`.
@@ -39,7 +39,7 @@ imagecolortransparent — Визначає колір як прозорий
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 | 8.0.0  | color тепер припускає значення null.                                                         |
 
@@ -47,7 +47,7 @@ imagecolortransparent — Визначає колір як прозорий
 
 **Приклад #1 Приклад використання **imagecolortransparent()****
 
-`<?php// Створимо зображення розміром 55x30$im u003d imagecreatetruecolor(55, 30);$red u003d imagecolorallocate($im, 255, 0, 0);$black u003d imagecolo // Зробимо фон прозоримimagecolortransparent($im, $black);// Намалюємо червоний прямокутникimagefilledrectangle($im, 4, 4, 50, 25, $red);// Збережемо зображенняimagepng('image ;imagedestroy($im);?> `
+`<?php// Створимо зображення розміром 55x30$im = imagecreatetruecolor(55, 30);$red = imagecolorallocate($im, 255, 0, 0);$black = imagecolo // Зробимо фон прозоримimagecolortransparent($im, $black);// Намалюємо червоний прямокутникimagefilledrectangle($im, 4, 4, 50, 25, $red);// Збережемо зображенняimagepng('image ;imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

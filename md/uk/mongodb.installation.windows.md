@@ -16,7 +16,7 @@
 Додайте наступний рядок до `php.ini`:
 
 `` inicode
-extensionu003dphp_mongo.dll
+extension=php_mongo.dll
 ````
 
 > **Примітка**: **Додаткові залежності DLL для користувачів

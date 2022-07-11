@@ -7,7 +7,7 @@
 
 #curl_share_strerror
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 curl_share_strerror — Повертає опис для заданого коду помилки
 

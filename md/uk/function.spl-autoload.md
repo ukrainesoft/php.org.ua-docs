@@ -7,13 +7,13 @@
 
 # spl_autoload
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 spl_autoload — Реалізація за замовчуванням методу \_\_autoload()
 
 ### Опис
 
-**spl_autoload**(string `$class`, ?string `$file_extensions` u003d
+**spl_autoload**(string `$class`, ?string `$file_extensions` =
 **`null`**): void
 
 Ця функція є базовою реалізацією методу
@@ -44,5 +44,5 @@ spl_autoload — Реалізація за замовчуванням метод
 ### Список змін
 
 | Версія | Опис                                           |
-| ------ | ---------------------------------------------- |
+|--------|------------------------------------------------|
 | 8.0.0  | file_extensions тепер припускає значення null. |

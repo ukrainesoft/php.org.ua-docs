@@ -7,13 +7,13 @@
 
 # trader_sum
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_sum — Підсумовування
 
 ### Опис
 
-**trader_sum**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_sum**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

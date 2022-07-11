@@ -46,7 +46,7 @@
 У цьому прикладі функція намагається завантажити класи `MyClass1` та `MyClass2`
 з файлів `MyClass1.php` та `MyClass2.php` відповідно.
 
-` <?phpspl_autoload_register(function ($class_name) {   include $class_name . '.php';});$obj  u003d new MyClass1();$obj2 u003d new MyClass2();
+` <?phpspl_autoload_register(function ($class_name) {   include $class_name . '.php';});$obj  = new MyClass1();$obj2 = new MyClass2();
 
 **Приклад #2 Ще один приклад автоматичного завантаження**
 

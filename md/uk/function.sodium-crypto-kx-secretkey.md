@@ -7,7 +7,7 @@
 
 # sodium_crypto_kx_secretkey
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_kx_secretkey — Витягує секретний ключ із пари ключів
 crypto_kx

@@ -7,7 +7,7 @@
 
 # Клас SplObjectStorage
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -30,12 +30,12 @@ public
 
 public [attach](splobjectstorage.attach.md)(object `$object`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` u003d **`null`**): void
+`$info` = **`null`**): void
 
 public [contains](splobjectstorage.contains.md)(object `$object`):
 bool
 
-public [count](splobjectstorage.count.md)(int `$mode` u003d
+public [count](splobjectstorage.count.md)(int `$mode` =
 **`COUNT_NORMAL`**): int
 
 public [current](splobjectstorage.current.md)(): object
@@ -60,7 +60,7 @@ public [offsetGet](splobjectstorage.offsetget.md)(object `$object`):
 
 public [offsetSet](splobjectstorage.offsetset.md)(object `$object`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` u003d **`null`**): void
+`$info` = **`null`**): void
 
 public [offsetUnset](splobjectstorage.offsetunset.md)(object
 `$object`): void
@@ -92,7 +92,7 @@ public [valid](splobjectstorage.valid.md)(): bool
 
 **Приклад #1 Клас **SplObjectStorage** як набір об'єктів**
 
-` <?php// Набір об'єктів$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$o3 u003d new StdClass;$s->attach($o> $o2);var_dump($s->contains($o1));var_dump($s->contains($o2));var_dump($s->contains($o3));$s->detach($ o2);var_dump($s->contains($o1));var_dump($s->contains($o2));var_dump($s->contains($o3));?> `
+` <?php// Набір об'єктів$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$o3 = new StdClass;$s->attach($o> $o2);var_dump($s->contains($o1));var_dump($s->contains($o2));var_dump($s->contains($o3));$s->detach($ o2);var_dump($s->contains($o1));var_dump($s->contains($o2));var_dump($s->contains($o3));?> `
 
 Результат виконання цього прикладу:
 
@@ -106,16 +106,16 @@ bool(false)
 **Приклад #2 Клас **SplObjectStorage** як відображення об'єктів у
 дані**
 
-`<?php// Як відображення об'єктів до даним$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$o3 u003d new St  | ;$s[$o2] u003d array(1,2,3);if (isset($s[$o2])) {   var_dump($s[$o2]);}?> `
+`<?php// Як відображення об'єктів до даним$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$o3 = new St  | ;$s[$o2] = array(1,2,3);if (isset($s[$o2])) {   var_dump($s[$o2]);}?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }
 

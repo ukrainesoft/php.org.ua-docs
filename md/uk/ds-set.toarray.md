@@ -7,7 +7,7 @@
 
 # Ds\Set::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::toArray — Перетворює колекцію на масив (array)
 
@@ -34,15 +34,15 @@ public **Ds\Set::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Set::toArray()****
 
-` <?php$set u003d new \Ds\Set([1, 2, 3]);var_dump($set->toArray());?> `
+` <?php$set = new \Ds\Set([1, 2, 3]);var_dump($set->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

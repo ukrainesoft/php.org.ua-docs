@@ -15,7 +15,7 @@ checkdnsrr — Перевірка записів DNS, які відповіда�
 
 ### Опис
 
-**checkdnsrr**(string `$hostname`, string `$type` u003d "MX"): bool
+**checkdnsrr**(string `$hostname`, string `$type` = "MX"): bool
 
 Шукає записи DNS типу `type`, що відповідають `hostname`.
 

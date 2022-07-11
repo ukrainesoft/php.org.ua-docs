@@ -7,7 +7,7 @@
 
 # GearmanWorker::wait
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanWorker::wait — Очікування запиту з одного із серверів завдань
 
@@ -34,8 +34,8 @@ public **GearmanWorker::wait**(): bool
 **Приклад #1 Запуск оброблювача в неблокуючому режимі**
 
 `<?phpecho "Запуск
-";# створення об'єкта обробника$workeru003d new GearmanWorker();# включення неблокуючого режиму$worker->addOptions(GEARMAN_WORKER_NON_BLOCKING);# додавання сервера у | функції$worker->addFunction('reverse', 'reverse_fn');# спробуємо отримати завданняwhile (@$worker->work() ||      $worker->returnCode()_re| u003du003d GEARMAN_NO_JOBS){ if ($worker->returnCode() u003du003d GEARMAN_SUCCESS)    continue; echo "Чекання наступного завдання...
-";  if (!@$worker->wait())  {    if ($worker->returnCode() u003du003d GEARMAN_NO_ACTIVE_FDS)    {      # мы не подключены ни к одному из серверов, подождём немного      # и попробуем переподключиться      sleep(5); continue;    }    break;  }}echo "Помилка в обробнику: " . $worker->error() . "
+";# створення об'єкта обробника$worker= new GearmanWorker();# включення неблокуючого режиму$worker->addOptions(GEARMAN_WORKER_NON_BLOCKING);# додавання сервера у | функції$worker->addFunction('reverse', 'reverse_fn');# спробуємо отримати завданняwhile (@$worker->work() ||      $worker->returnCode()_re| == GEARMAN_NO_JOBS){ if ($worker->returnCode() == GEARMAN_SUCCESS)    continue; echo "Чекання наступного завдання...
+";  if (!@$worker->wait())  {    if ($worker->returnCode() == GEARMAN_NO_ACTIVE_FDS)    {      # мы не подключены ни к одному из серверов, подождём немного      # и попробуем переподключиться      sleep(5); continue;    }    break;  }}echo "Помилка в обробнику: " . $worker->error() . "
 ";function reverse_fn($job){ return strrev($job->workload());}?> `
 
 ### Дивіться також

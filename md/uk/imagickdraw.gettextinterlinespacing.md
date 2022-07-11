@@ -7,7 +7,7 @@
 
 # ImagickDraw::getTextInterlineSpacing
 
-(PECL imagick 3 \>u003d 3.1.0)
+(PECL imagick 3 \>= 3.1.0)
 
 ImagickDraw::getTextInterlineSpacing — Повертає міжрядковий інтервал
 тексту

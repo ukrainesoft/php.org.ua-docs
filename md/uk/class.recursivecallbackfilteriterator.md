@@ -7,7 +7,7 @@
 
 # Клас RecursiveCallbackFilterIterator
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -89,7 +89,7 @@ Callback-функція може приймати до трьох аргумен
 
 **Приклад #2 Простий приклад рекурсивного зворотного виклику**
 
-` <?php$dir u003d new RecursiveDirectoryIterator(__DIR__);// Фильтр больших файлов ( > 100MB)$files u003d new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {    // Разрешить рекурсию    if ($ iterator->hasChildren()) {        return TRUE;    }    // Проверка больших файлов    if ($current->isFile() && $current->getSize() > 104857600) {        return TRUE;    }    return FALSE;});foreach ( new RecursiveIteratorIterator($files) as $file) {    echo $file->getPathname() . PHP_EOL;}?> `
+` <?php$dir = new RecursiveDirectoryIterator(__DIR__);// Фильтр больших файлов ( > 100MB)$files = new RecursiveCallbackFilterIterator($dir, function ($current, $key, $iterator) {    // Разрешить рекурсию    if ($ iterator->hasChildren()) {        return TRUE;    }    // Проверка больших файлов    if ($current->isFile() && $current->getSize() > 104857600) {        return TRUE;    }    return FALSE;});foreach ( new RecursiveIteratorIterator($files) as $file) {    echo $file->getPathname() . PHP_EOL;}?> `
 
 ## Зміст
 

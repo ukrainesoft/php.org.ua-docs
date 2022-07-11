@@ -8,7 +8,7 @@
 
 # fann_create_sparse
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_create_sparse — Створює стандартну нейронну мережу зворотного
 поширення, яка не повністю підключена

@@ -7,7 +7,7 @@
 
 # Клас EventListener
 
-(PECL event \>u003d 1.5.0)
+(PECL event \>= 1.5.0)
 
 ## Вступ
 
@@ -19,15 +19,15 @@ final class **EventListener** {
 
 /\* Константи \*/
 
-const int `OPT_LEAVE_SOCKETS_BLOCKING` u003d 1;
+const int `OPT_LEAVE_SOCKETS_BLOCKING` = 1;
 
-const int `OPT_CLOSE_ON_FREE` u003d 2;
+const int `OPT_CLOSE_ON_FREE` = 2;
 
-const int `OPT_CLOSE_ON_EXEC` u003d 4;
+const int `OPT_CLOSE_ON_EXEC` = 4;
 
-const int `OPT_REUSEABLE` u003d 8;
+const int `OPT_REUSEABLE` = 8;
 
-const int `OPT_THREADSAFE` u003d 16;
+const int `OPT_THREADSAFE` = 16;
 
 /\* Властивості \*/
 
@@ -57,12 +57,12 @@ public [getBase](eventlistener.getbase.md)(): void
 public static [getSocketName](eventlistener.getsocketname.md)( string
 `&$address` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$port` u003d ?): bool
+`&$port` = ?): bool
 
 public [setCallback](eventlistener.setcallback.md)(
 [callable](language.types.callable.md) `$cb` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$arg` u003d **`null`** ): void
+`$arg` = **`null`** ): void
 
 public [setErrorCallback](eventlistener.seterrorcallback.md)( string
 `$cb` ): void

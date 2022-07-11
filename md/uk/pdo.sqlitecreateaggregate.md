@@ -8,7 +8,7 @@
 
 # PDO::sqliteCreateAggregate
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8, PECL pdo_sqlite \>u003d 1.0.0)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8, PECL pdo_sqlite \>= 1.0.0)
 
 PDO::sqliteCreateAggregate — Реєстрація агрегуючої користувача
 функції для використання у SQL-запитах
@@ -19,7 +19,7 @@ public **PDO::sqliteCreateAggregate**(
 string `$function_name`,
 [callable](language.types.callable.md) `$step_func`,
 [callable](language.types.callable.md) `$finalize_func`,
-int `$num_args` u003d ?
+int `$num_args` = ?
 ): bool
 
 **Увага**
@@ -116,7 +116,7 @@ fini([mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **Приклад #1 Приклад агрегуючої функції max_length**
 
-` <?php$data u003d array(  'one',  'two',  'three',  'four',  'five',  ''ix'' ' '              ;$db u003d new PDO('sqlite::memory:');$db->exec("CREATE TABLE strings(a)");$insert u003d $db->prepare('INSERT INTO strings VALUES (?)') );foreach ($data as $str) {   $insert->execute(array($str));}$insert u003d null;function max_len_step($context, $rownumber, $string){     > $context) {        $context u003d strlen($string); }   return $context;}function max_len_finalize($context, $rowcount){   return $context u003du003du003d null ? 0 : $context;}$db->sqliteCreateAggregate('max_len', 'max_len_step', 'max_len_finalize');var_dump($db->query('SELECT max_len(a) from strings')->fetchAll ?> `
+` <?php$data = array(  'one',  'two',  'three',  'four',  'five',  ''ix'' ' '              ;$db = new PDO('sqlite::memory:');$db->exec("CREATE TABLE strings(a)");$insert = $db->prepare('INSERT INTO strings VALUES (?)') );foreach ($data as $str) {   $insert->execute(array($str));}$insert = null;function max_len_step($context, $rownumber, $string){     > $context) {        $context = strlen($string); }   return $context;}function max_len_finalize($context, $rowcount){   return $context === null ? 0 : $context;}$db->sqliteCreateAggregate('max_len', 'max_len_step', 'max_len_finalize');var_dump($db->query('SELECT max_len(a) from strings')->fetchAll ?> `
 
 У цьому прикладі ми створили функцію, що агрегує, яка обчислює довжину
 найбільшого рядка в одному зі стовпців таблиці. Для кожного рядка,

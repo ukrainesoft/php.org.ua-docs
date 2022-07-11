@@ -14,7 +14,7 @@ ucwords — Перетворює на верхній регістр перший
 
 ### Опис
 
-**ucwords**(string `$string`, string `$separators` u003d "
+**ucwords**(string `$string`, string `$separators` = "
 "):
 string
 
@@ -42,16 +42,16 @@ string
 
 **Приклад #1 Приклад використання **ucwords()****
 
-` <?php$foo u003d 'hello world!';$foo u003d ucwords($foo); // Hello World!$bar u003d 'HELLO WORLD!';$bar u003d ucwords($bar); // HELLO WORLD! $ bar u003d ucwords (strtolower ($ bar)); // Hello World!?> `
+` <?php$foo = 'hello world!';$foo = ucwords($foo); // Hello World!$bar = 'HELLO WORLD!';$bar = ucwords($bar); // HELLO WORLD! $ bar = ucwords (strtolower ($ bar)); // Hello World!?> `
 
 **Приклад #2 Приклад **ucwords()** із заданим роздільником**
 
-` <?php$foo u003d 'hello|world!';$bar u003d ucwords($foo); // Hello|world!$baz u003d ucwords($foo, "|"); // Hello|World!?> `
+` <?php$foo = 'hello|world!';$bar = ucwords($foo); // Hello|world!$baz = ucwords($foo, "|"); // Hello|World!?> `
 
 **Приклад #3 Приклад використання **ucwords()** з додатковими
 роздільниками**
 
-` <?php$foo u003d "mike o'hara";$bar u003d ucwords($foo); // Mike O'hara$baz u003d ucwords($foo, "
+` <?php$foo = "mike o'hara";$bar = ucwords($foo); // Mike O'hara$baz = ucwords($foo, "
 '"); //Mike O'Hara?> `
 
 ### Примітки

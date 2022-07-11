@@ -29,7 +29,7 @@ public **ReflectionExtension::getName**(): string
 
 **Приклад #1 Приклад використання **ReflectionExtension::getName()****
 
-` <?php$ext u003d new ReflectionExtension('mysqli');var_dump($ext->getName());?> `
+` <?php$ext = new ReflectionExtension('mysqli');var_dump($ext->getName());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

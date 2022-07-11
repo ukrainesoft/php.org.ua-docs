@@ -17,7 +17,7 @@ substr_replace — Замінює частину рядка
 array\|string `$string`,
 array\|string `$replace`,
 array\|int `$offset`,
-array\|int\|null `$length` u003d **`null`**
+array\|int\|null `$length` = **`null`**
 ): string\|array
 
 **substr_replace()** замінює частину рядка `string`, що починається з
@@ -63,14 +63,14 @@ strlen(`string`);, тобто заміна до кінця рядка `string`. 
 ### Список змін
 
 | Версія | Опис                                  |
-| ------ | ------------------------------------- |
+|--------|---------------------------------------|
 | 8.0.0  | length тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Простий приклад використання **substr_replace()****
 
-` <?php$var u003d 'ABCDEFGH:/MNRPQR/';echo "Оригінал: $var<hr />
+` <?php$var = 'ABCDEFGH:/MNRPQR/';echo "Оригінал: $var<hr />
 ";/* Обидві наступних рядки замінюють всю рядок $var на 'bob'. */echo substr_replace($var, 'bob', 0) . "<br />
 ";echo substr_replace($var, 'bob', 0, strlen($var)) . "<br />
 ";/* Вставляє 'bob' в початок $var. */echo substr_replace($var, 'bob', 0, 0) . "<br />
@@ -82,9 +82,9 @@ strlen(`string`);, тобто заміна до кінця рядка `string`. 
 **Приклад #2 Використання **substr_replace()** для одночасної
 множинної заміни рядків**
 
-` <?php$input u003d array('A: XXX', 'B: XXX', 'C: XXX');// Простий випадок: замінюємо XXX на YYY в кожній рядку.echo implode('; ; $input, 'YYY', 3, 3))."
-";// Більш складний випадок з унікальними замінами.$replace u003d array('AAA', BBB', 'CCC');echo implode('; ', substr_replace($input, $replace, ) "
-";// Зміни з різними кількістю символів.$length u003d array(1, 2, 3);echo implode('; ', substr_replace($input, $replace, 3, $length))."
+` <?php$input = array('A: XXX', 'B: XXX', 'C: XXX');// Простий випадок: замінюємо XXX на YYY в кожній рядку.echo implode('; ; $input, 'YYY', 3, 3))."
+";// Більш складний випадок з унікальними замінами.$replace = array('AAA', BBB', 'CCC');echo implode('; ', substr_replace($input, $replace, ) "
+";// Зміни з різними кількістю символів.$length = array(1, 2, 3);echo implode('; ', substr_replace($input, $replace, 3, $length))."
 ";?> `
 
 Результат виконання цього прикладу:

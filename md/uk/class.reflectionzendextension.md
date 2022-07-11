@@ -7,7 +7,7 @@
 
 # Клас ReflectionZendExtension
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -28,7 +28,7 @@ public [\_\_construct](reflectionzendextension.construct.md)(string
 private [\_\_clone](reflectionzendextension.clone.md)(): void
 
 public static [export](reflectionzendextension.export.md)(string
-`$name`, bool `$return` u003d ?): string
+`$name`, bool `$return` = ?): string
 
 public [getAuthor](reflectionzendextension.getauthor.md)(): string
 

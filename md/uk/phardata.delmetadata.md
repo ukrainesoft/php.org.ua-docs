@@ -7,7 +7,7 @@
 
 # PharData::delMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::delMetadata — Видалити глобальні метадані для zip-архіву
 
@@ -40,7 +40,7 @@ public **PharData::delMetadata**(): bool
 
 **Приклад #1 Приклад використання **PharData::delMetaData()****
 
-`<?phptry {   $phar u003d new PharData('myphar.zip'); var_dump($phar->getMetadata()); $phar->setMetadata("привіт"); var_dump($phar->getMetadata()); $phar->delMetadata(); var_dump($phar->getMetadata());} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $phar = new PharData('myphar.zip'); var_dump($phar->getMetadata()); $phar->setMetadata("привіт"); var_dump($phar->getMetadata()); $phar->delMetadata(); var_dump($phar->getMetadata());} catch (Exception $e) {    // обробка помилок}?> `
 
 Результат виконання цього прикладу:
 

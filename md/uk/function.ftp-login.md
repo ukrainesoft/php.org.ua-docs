@@ -38,13 +38,13 @@ An [FTP\Connection](class.ftp-connection.md) instance.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ftp тепер чекає на екземпляр [FTP\Connection](class.ftp-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **ftp_login()****
 
-` <?php$ftp_server u003d "ftp.example.com";$ftp_user u003d "foo";$ftp_pass u003d "bar";// установити з'єднання або вийти$ftp u003d ftp_connect($ftp_server) or з'єднання з $ftp_server");
+` <?php$ftp_server = "ftp.example.com";$ftp_user = "foo";$ftp_pass = "bar";// установити з'єднання або вийти$ftp = ftp_connect($ftp_server) or з'єднання з $ftp_server");
 ";} else {    echo "Не удалося увійти під іменем $ftp_user
 ";}// закрити з'єднанняftp_close($ftp);?> `

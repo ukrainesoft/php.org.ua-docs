@@ -7,7 +7,7 @@
 
 # Клас EvStat
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -72,8 +72,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 public [attr](evstat.attr.md)(): array
@@ -84,8 +84,8 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): void
 
 public [prev](evstat.prev.md)(): void
@@ -107,7 +107,7 @@ public [EvWatcher::getLoop](evwatcher.getloop.md)():
 public [EvWatcher::invoke](evwatcher.invoke.md)( int `$revents` ):
 void
 
-public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` u003d
+public [EvWatcher::keepalive](evwatcher.keepalive.md)( bool `$value` =
 ?): bool
 
 public [EvWatcher::setCallback](evwatcher.setcallback.md)(

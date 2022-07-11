@@ -48,15 +48,15 @@ libc.
 
 **Приклад #1 Приклад використання **posix_uname()****
 
-` <?php$unameu003dposix_uname();print_r($uname);?> `
+` <?php$uname=posix_uname();print_r($uname);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[sysname] u003d> Linux
-[nodename] u003d> funbox
-[release] u003d> 2.6.20-15-server
-[version] u003d> #2 SMP Sun Apr 15 07:41:34 UTC 2007
-[machine] u003d> i686
+[sysname] => Linux
+[nodename] => funbox
+[release] => 2.6.20-15-server
+[version] => #2 SMP Sun Apr 15 07:41:34 UTC 2007
+[machine] => i686
 )

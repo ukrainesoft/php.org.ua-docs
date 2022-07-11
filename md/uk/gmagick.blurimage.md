@@ -7,14 +7,14 @@
 
 # Gmagick::blurimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::blurimage — Додати розмиття зображення
 
 ### Опис
 
 public **Gmagick::blurimage**(float `$radius`, float `$sigma`, int
-`$channel` u003d ?): [Gmagick](class.gmagick.md)
+`$channel` = ?): [Gmagick](class.gmagick.md)
 
 Додати розмиття зображення.
 

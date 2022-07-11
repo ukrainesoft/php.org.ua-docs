@@ -8,7 +8,7 @@
 
 # RecursiveCallbackFilterIterator::\_\_construct
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 RecursiveCallbackFilterIterator::\_\_construct — Створює об'єкт класу
 RecursiveCallbackFilterIterator на основі об'єкта RecursiveIterator

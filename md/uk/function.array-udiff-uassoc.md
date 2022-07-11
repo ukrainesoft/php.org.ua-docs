@@ -64,29 +64,29 @@ callback-функції `key_compare_func`. Це відрізняється ві
 
 **Приклад #1 Приклад використання **array_udiff_uassoc()****
 
-` <?phpclass cr {    private $priv_member; function cr($val)    {        $this->priv_member u003d$val; }   static function comp_func_cr($a, $b)    {        if ($a->priv_member u003du003du003du003d$$b->priv_member) return return ($a->priv_member > $b->priv_member)? 1:-1; }   static function comp_func_key($a, $b)    {        if ($a u003du003du003d $b) return 0; return ($a > $b)? 1:-1; }}$a u003d array("0.1" u003d> new cr(9), "0.5" u003d> new cr(12), 0 u003d> new cr(23), 1u003d> new cr(4), 2 new cr(-15),); (4), 2 u003d> new cr(-15),);$result u003d array_udiff_uassoc($a, $b, array("cr", "comp_func_cr"), array("cr", "comp_func_key")) print_r($result);?> `
+` <?phpclass cr {    private $priv_member; function cr($val)    {        $this->priv_member =$val; }   static function comp_func_cr($a, $b)    {        if ($a->priv_member ====$$b->priv_member) return return ($a->priv_member > $b->priv_member)? 1:-1; }   static function comp_func_key($a, $b)    {        if ($a === $b) return 0; return ($a > $b)? 1:-1; }}$a = array("0.1" => new cr(9), "0.5" => new cr(12), 0 => new cr(23), 1=> new cr(4), 2 new cr(-15),); (4), 2 => new cr(-15),);$result = array_udiff_uassoc($a, $b, array("cr", "comp_func_cr"), array("cr", "comp_func_key")) print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0.1] u003d> cr Object
+[0.1] => cr Object
 (
-[priv_member:private] u003d> 9
+[priv_member:private] => 9
 )
 
-[0.5] u003d> cr Object
+[0.5] => cr Object
 (
-[priv_member:private] u003d> 12
+[priv_member:private] => 12
 )
 
-[0] u003d> cr Object
+[0] => cr Object
 (
-[priv_member:private] u003d> 23
+[priv_member:private] => 23
 )
 )
 
-У наведеному вище прикладі ви можете бачити, що пара `"1" u003d> new cr(4)`
+У наведеному вище прикладі ви можете бачити, що пара `"1" => new cr(4)`
 є в обох масивах і тому відсутня у виведенні функції.
 Пам'ятайте, що потрібно використовувати дві функції зворотного дзвінка.
 

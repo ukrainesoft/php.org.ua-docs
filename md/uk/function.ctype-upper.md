@@ -7,7 +7,7 @@
 
 #ctype_upper
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_upper — Перевіряє наявність символів у верхньому регістрі
 
@@ -51,7 +51,7 @@ ctype_upper — Перевіряє наявність символів у вер
 **Приклад #1 Приклад використання **ctype_upper()** (з використанням
 локалі за замовчуванням)**
 
-`<?php$strings u003d array('AKLWC139', 'LMNSDO', 'akwSKWsm');foreach ($strings as $testcase) {    if (ctype_upper($testcase))              ¦ верхньому регістрі.
+`<?php$strings = array('AKLWC139', 'LMNSDO', 'akwSKWsm');foreach ($strings as $testcase) {    if (ctype_upper($testcase))              ¦ верхньому регістрі.
 ";    }}else {         echo "Рядок$testcase не складається тільки із букв в верхньому реєстрі.
 ";    }}?> `
 

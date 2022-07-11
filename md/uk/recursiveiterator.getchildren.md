@@ -7,7 +7,7 @@
 
 # RecursiveIterator::getChildren
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveIterator::getChildren — Повертає ітератор для поточного
 елемента

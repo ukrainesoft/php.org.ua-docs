@@ -7,14 +7,14 @@
 
 #gmp_setbit
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_setbit — Встановлення біта
 
 ### Опис
 
 **gmp_setbit**([GMP](class.gmp.md) `$num`, int `$index`, bool `$value`
-u003d **`true`**): void
+= **`true`**): void
 
 Встановлює в 1 біт з індексом `index` у числі `num`.
 
@@ -41,7 +41,7 @@ True для установки біта (установки в 1/включен�
 
 **Приклад #1 Приклад використання **gmp_setbit()** - 0 індекс**
 
-` <?php$a u003d gmp_init("2"); //echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
+` <?php$a = gmp_init("2"); //echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
 ";gmp_setbit($a, 0); // 0b10 now becomes 0b11echo gmp_strval($a), ->>0b', gmp_strval($a, 2), "
 ";?> `
 
@@ -52,7 +52,7 @@ True для установки біта (установки в 1/включен�
 
 **Приклад #2 Приклад використання **gmp_setbit()** - 1 індекс**
 
-` <?php$a u003d gmp_init("0xfd");echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
+` <?php$a = gmp_init("0xfd");echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
 ";gmp_setbit($a, 1); // index starts at 0echo gmp_strval($a), ' -> 0b', gmp_strval($a, 2), "
 ";?> `
 
@@ -63,7 +63,7 @@ True для установки біта (установки в 1/включен�
 
 **Приклад #3 Приклад використання **gmp_setbit()** очищення біта**
 
-` <?php$a u003d gmp_init("0xff");echo gmp_strval($a), - -> 0b', gmp_strval($a, 2), "
+` <?php$a = gmp_init("0xff");echo gmp_strval($a), - -> 0b', gmp_strval($a, 2), "
 ";gmp_setbit($a, 0, false); // clear bit at index 0echo gmp_strval($a), ->>0b', gmp_strval($a, 2), "
 ";?> `
 

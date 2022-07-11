@@ -7,14 +7,14 @@
 
 # Gmagick::scaleimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::scaleimage — Масштабує розмір зображення
 
 ### Опис
 
 public **Gmagick::scaleimage**(int `$width`, int `$height`, bool `$fit`
-u003d **`false`**): [Gmagick](class.gmagick.md)
+= **`false`**): [Gmagick](class.gmagick.md)
 
 Масштабує розмір зображення до заданого розміру. Інший параметр
 буде розрахований, якщо як будь-який з параметрів буде переданий 0.

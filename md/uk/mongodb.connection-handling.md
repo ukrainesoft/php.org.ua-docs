@@ -38,7 +38,7 @@
 
 Розглянемо наступний приклад:
 
-`<?php$managers u003d [   new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    ('mongodb://127.0.0.1:27017'),   new MongoDB\Driver\Manager('mongodb://rs1.example.com,rs2.example.com/', ['replicaSet' u003d> 'myReplicaSet'] ),];foreach ($managers as $manager) {   $manager->executeCommand('test', new MongoDB\Driver\Command(['ping' u003d> 1]));}?> `
+`<?php$managers = [   new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    new MongoDB\Driver\Manager('mongodb://127.0.0.1'),    ('mongodb://127.0.0.1:27017'),   new MongoDB\Driver\Manager('mongodb://rs1.example.com,rs2.example.com/', ['replicaSet' => 'myReplicaSet'] ),];foreach ($managers as $manager) {   $manager->executeCommand('test', new MongoDB\Driver\Command(['ping' => 1]));}?> `
 
 Перші два об'єкти Manager будуть використовувати один і той самий клієнт [» libmongoc](https://github.com/mongodb/mongo-c-driver), оскільки їх
 аргументи конструктора ідентичні. Третій та четвертий об'єкти будуть
@@ -73,7 +73,7 @@ libmongoc створюється для кожного
 [MongoDB\Driver\Manager](class.mongodb-driver-manager.md). Параметри
 масив конструктора не включені в цей хеш.
 
-> **Примітка**: Версії драйвер \>u003d 1.1.8 and \< 1.2.0 не зберігають
+> **Примітка**: Версії драйвер \>= 1.1.8 and \< 1.2.0 не зберігають
 > сокети для з'єднань SSL. Дивіться
 > [» PHPC-720](https://jira.mongodb.org/browse/PHPC-720) для отримання
 > Додаткову інформацію.

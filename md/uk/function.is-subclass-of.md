@@ -16,7 +16,7 @@ is_subclass_of — Перевіряє, чи міститься об'єкт у с
 ### Опис
 
 **is_subclass_of**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_or_class`, string `$class`, bool `$allow_string` u003d **`true`**):
+`$object_or_class`, string `$class`, bool `$allow_string` = **`true`**):
 bool
 
 Перевіряє, чи об'єкт `object_or_class` містить у своєму дереві предків
@@ -46,7 +46,7 @@ bool
 
 **Приклад #1 Приклад використання **is_subclass_of()****
 
-`<?php// оголошуємо класclass WidgetFactory{ var $oink u003d 'moo';}// оголошуємо спадкоємцяclass WidgetFactory_Child extends WidgetFactory{ w| WFC u003d new WidgetFactory_Child();if (is_subclass_of($WFC, 'WidgetFactory')) {  echo "так, \$WFC успадковує WidgetFactory
+`<?php// оголошуємо класclass WidgetFactory{ var $oink = 'moo';}// оголошуємо спадкоємцяclass WidgetFactory_Child extends WidgetFactory{ w| WFC = new WidgetFactory_Child();if (is_subclass_of($WFC, 'WidgetFactory')) {  echo "так, \$WFC успадковує WidgetFactory
 ";} else {  echo "ні, \$WFC не успадковує WidgetFactory
 ";}if(is_subclass_of($WF, 'WidgetFactory')) {  echo "так, \$WF успадковує WidgetFactory
 ";} else {  echo "ні, \$WF не успадковує WidgetFactory
@@ -62,7 +62,7 @@ bool
 
 **Приклад #2 Приклад використання **is_subclass_of()** з інтерфейсами**
 
-`<?php// Визначаємо інтерфейсinterface MyInterface{  public function MyFunction();}// Визначаємо класс з реалізацією інтерфейсуclass MyClass implements MyInterface{ MyFunction }}// Створюємо об'єкт $ my_object u003d MyClass; MyInterface
+`<?php// Визначаємо інтерфейсinterface MyInterface{  public function MyFunction();}// Визначаємо класс з реалізацією інтерфейсуclass MyClass implements MyInterface{ MyFunction }}// Створюємо об'єкт $ my_object = MyClass; MyInterface
 ";} else {  echo "Ні, \$my_object не є підкласом MyInterface
 ";}// Перевірка з допомогою імені класу у виді рядкиif (is_subclass_of('MyClass', 'MyInterface')) { echo "Так, MyClass є підкласом 
 ";} else {  echo "Ні, MyClass не є підкласом MyInterface

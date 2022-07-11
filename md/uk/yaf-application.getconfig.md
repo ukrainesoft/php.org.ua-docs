@@ -7,7 +7,7 @@
 
 # Yaf_Application::getConfig
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Application::getConfig — Отримати екземпляр класу конфігурації
 
@@ -28,20 +28,20 @@ public **Yaf_Application::getConfig**():
 
 **Приклад #1 Приклад використання **Yaf_Application::getConfig()****
 
-`<?php$config u003d array(   ""application" u003d> array(       "directory" u003d>>realpath(dirname(__FILE__)) . "/application", Y $config);print_r($application->getConfig());?> `
+`<?php$config = array(   ""application" => array(       "directory" =>>realpath(dirname(__FILE__)) . "/application", Y $config);print_r($application->getConfig());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Yaf_Config_Simple Object
 (
-[_config:protected] u003d> Array
+[_config:protected] => Array
 (
-[application] u003d> Array
+[application] => Array
 (
-[directory] u003d> /home/laruence/local/www/htdocs/application
+[directory] => /home/laruence/local/www/htdocs/application
 )
 
 )
 
-[_readonly:protected] u003d> 1
+[_readonly:protected] => 1
 )

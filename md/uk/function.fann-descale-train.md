@@ -8,7 +8,7 @@
 
 # fann_descale_train
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_descale_train — Масштабування вхідних та вихідних даних на основі
 попередньо розрахованих параметрів

@@ -7,7 +7,7 @@
 
 #oci_field_is_null
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_field_is_null — Перевіряє, чи дорівнює поле в отриманому поточному
 ряду рівним **`null`**
@@ -38,7 +38,7 @@ bool
 **Приклад #1 Приклад використання
 [oci_field_name()](function.oci-field-name.md)**
 
-`<?php//Створіть таблицю://CREATE TABLE mytab (c1 NUMBER);//   INSERT INTO mytab VALUES (1);//   INSERT INTO mytab  ", "localhost/XE");if (!$conn) {    $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid u003d oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid);while (($row u003d y OCI_RETURN_NULLS)) !u003d false) {   $ncols u003d oci_num_fields($stid); for ($col u003d 1; $col <u003d $ncols; $col++) {        var_dump(oci_field_is_null($stid, $col)); }}// Виведе //bool(false)//   bool(true)oci_free_statement($stid);oci_close($conn);?> `
+`<?php//Створіть таблицю://CREATE TABLE mytab (c1 NUMBER);//   INSERT INTO mytab VALUES (1);//   INSERT INTO mytab  ", "localhost/XE");if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid = oci_parse($conn, "SELECT * FROM mytab");oci_execute($stid);while (($row = y OCI_RETURN_NULLS)) != false) {   $ncols = oci_num_fields($stid); for ($col = 1; $col <= $ncols; $col++) {        var_dump(oci_field_is_null($stid, $col)); }}// Виведе //bool(false)//   bool(true)oci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки
 

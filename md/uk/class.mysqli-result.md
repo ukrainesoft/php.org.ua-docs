@@ -34,20 +34,20 @@ public int `$type`;
 
 public
 [\_\_construct](mysqli-result.construct.md)([mysqli](class.mysqli.md)
-`$mysql`, int `$result_mode` u003d **`MYSQLI_STORE_RESULT`**)
+`$mysql`, int `$result_mode` = **`MYSQLI_STORE_RESULT`**)
 
 public [data_seek](mysqli-result.data-seek.md)(int `$offset`): bool
 
-public [fetch_all](mysqli-result.fetch-all.md)(int `$mode` u003d
+public [fetch_all](mysqli-result.fetch-all.md)(int `$mode` =
 **`MYSQLI_NUM`**): array
 
-public [fetch_array](mysqli-result.fetch-array.md)(int `$mode` u003d
+public [fetch_array](mysqli-result.fetch-array.md)(int `$mode` =
 **`MYSQLI_BOTH`**): array\|null\|false
 
 public [fetch_assoc](mysqli-result.fetch-assoc.md)():
 array\|null\|false
 
-public [fetch_column](mysqli-result.fetch-column.md)(int `$column` u003d
+public [fetch_column](mysqli-result.fetch-column.md)(int `$column` =
 0): null\|int\|float\|string\|false
 
 public [fetch_field_direct](mysqli-result.fetch-field-direct.md)(int
@@ -57,8 +57,8 @@ public [fetch_field](mysqli-result.fetch-field.md)(): object\|false
 
 public [fetch_fields](mysqli-result.fetch-fields.md)(): array
 
-public [fetch_object](mysqli-result.fetch-object.md)(string `$class` u003d
-"stdClass", array `$constructor_args` u003d []): object\|null\|false
+public [fetch_object](mysqli-result.fetch-object.md)(string `$class` =
+"stdClass", array `$constructor_args` = []): object\|null\|false
  public [fetch_row](mysqli-result.fetch-row.md)(): array\|null\|false
 
 public [field_seek](mysqli-result.field-seek.md)(int `$index`): bool
@@ -84,7 +84,7 @@ public [getIterator](mysqli-result.getiterator.md)():
 ## Список змін
 
 | Версія | Опис                                                                                                                                                                                  |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Клас **mysqli_result** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md). Раніше замість нього було реалізовано інтерфейс [Traversable](class.traversable.md). |
 
 ## Зміст

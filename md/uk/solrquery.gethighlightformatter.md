@@ -7,14 +7,14 @@
 
 # SolrQuery::getHighlightFormatter
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightFormatter — Повертає засіб форматування
 для виділеного висновку
 
 ### Опис
 
-public **SolrQuery::getHighlightFormatter**(string `$field_override` u003d
+public **SolrQuery::getHighlightFormatter**(string `$field_override` =
 ?): string
 
 Повертає засіб форматування для виділеного виводу

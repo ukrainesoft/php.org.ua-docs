@@ -67,12 +67,12 @@ public **mysqli_result::fetch_assoc**(): array\|null\|false
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d C| resultu003du003d $mysqli->query($query);/* витягання асоціативного масиву */while ($row u003d $result->fetch_assoc()) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = C| result== $mysqli->query($query);/* витягання асоціативного масиву */while ($row = $result->fetch_assoc()) {    printf("%s (%s)
 ", $row["Name"], $row["CountryCode"]);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d SELECT u003d mysqli_query ($ mysqli, $ $ query);
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$query = SELECT = mysqli_query ($ mysqli, $ $ query);
 ", $row["Name"], $row["CountryCode"]);} `
 
 Результатом виконання даних прикладів буде щось подібне:
@@ -91,10 +91,10 @@ Green Bay (USA)
 [foreach](control-structures.foreach.md). Результуючий набір завжди
 повторюватиметься з першого рядка, незалежно від поточної позиції.
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d| / Використовуємо ітератори$result u003d $mysqli->query($query);foreach ($result as $row) {    printf("%s (%s)
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query =| / Використовуємо ітератори$result = $mysqli->query($query);foreach ($result as $row) {    printf("%s (%s)
 ", $row["Name"], $row["CountryCode"]);}echo "
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
-";// Не не використовуємо ітератори$result u003d $mysqli->query($query);while ($row u003d $result->fetch_assoc()) {    printf("%s (%s)
+==================
+";// Не не використовуємо ітератори$result = $mysqli->query($query);while ($row = $result->fetch_assoc()) {    printf("%s (%s)
 ", $row["Name"], $row["CountryCode"]);} `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -105,7 +105,7 @@ Cape Coral (USA)
 Green Bay (USA)
 Санта-Клара (USA)
 
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+==================
 Pueblo (USA)
 Arvada (USA)
 Cape Coral (USA)

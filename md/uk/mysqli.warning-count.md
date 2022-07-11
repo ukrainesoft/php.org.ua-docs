@@ -48,14 +48,14 @@ int `$mysqli->warning_count`;
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCity LIKE City"); GBR',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";$mysqli->query($query);if ($mysqli->warning_count) {    if ($result u003d $mysqli->query("SHOW WARNINGS")) {        $row u003d $ result->fetch_row();        printf("%s (%d): %s
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {   ключ|
+", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCity LIKE City"); GBR',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";$mysqli->query($query);if ($mysqli->warning_count) {    if ($result = $mysqli->query("SHOW WARNINGS")) {        $row = $ result->fetch_row();        printf("%s (%d): %s
 ", $row[0], $row[1], $row[2]);        $result->close();    }}/* закриваємо з'єднання*/$mysqli->close();?> ``
 
 Процедурний стиль
 
-` <?php$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
-", Mysqli_connect_error()); MyCli_query($link,"CREATE TABLE myCity LIKE City"); ',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";mysqli_query($link, $query);if (mysqli_warning_count($link)) {    if ($result u003d mysqli_query($link, "SHOW WARNINGS")) {        $row u003d mysqli_fetch_row($result );         printf("%s (%d): %s
+` <?php$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевірка з'єднання */if (mysqli_connect_errno()) {    printf("Не 
+", Mysqli_connect_error()); MyCli_query($link,"CREATE TABLE myCity LIKE City"); ',        'Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch')";mysqli_query($link, $query);if (mysqli_warning_count($link)) {    if ($result = mysqli_query($link, "SHOW WARNINGS")) {        $row = mysqli_fetch_row($result );         printf("%s (%d): %s
 ", $row[0], $row[1], $row[2]);        mysqli_free_result($result);    }}/* закриваємо з'єднання */mysqli_close($link);?> `
 
 Результат виконання даних прикладів:

@@ -30,7 +30,7 @@ deg2rad — Перетворює значення градусів на раді
 
 **Приклад #1 Приклад використання **deg2rad()****
 
-`<?phpecho deg2rad(45); // 0.785398163397var_dump(deg2rad(45) u003du003du003d M_PI_4); //bool(true)?> `
+`<?phpecho deg2rad(45); // 0.785398163397var_dump(deg2rad(45) === M_PI_4); //bool(true)?> `
 
 ### Дивіться також
 

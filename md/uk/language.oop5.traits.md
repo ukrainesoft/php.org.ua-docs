@@ -46,7 +46,7 @@ PHP реалізує метод повторного використання к
 такий: методи з поточного класу перевизначають методи трейту, які в
 свою чергу, перевизначають методи з базового класу.
 
-`<?phpclass Base {   publicfunction sayHello() {        echo 'Hello '; }}trait SayWorld {    public function sayHello() {        parent::sayHello(); echo 'World!'; }}class MyHelloWorld extends Base {    use SayWorld;}$o u003d new MyHelloWorld();$o->sayHello();?> `
+`<?phpclass Base {   publicfunction sayHello() {        echo 'Hello '; }}trait SayWorld {    public function sayHello() {        parent::sayHello(); echo 'World!'; }}class MyHelloWorld extends Base {    use SayWorld;}$o = new MyHelloWorld();$o->sayHello();?> `
 
 Результат виконання цього прикладу:
 
@@ -54,7 +54,7 @@ Hello World!
 
 **Приклад #3 Приклад альтернативного порядку пріоритету**
 
-`<?phptrait HelloWorld {    public function sayHello() {       echo 'Hello World!'; }}class TheWorldIsNotEnough {    use| HelloWorld; public function sayHello() {         echo 'Hello Universe!'; }}$o u003d new TheWorldIsNotEnough();$o->sayHello();?> `
+`<?phptrait HelloWorld {    public function sayHello() {       echo 'Hello World!'; }}class TheWorldIsNotEnough {    use| HelloWorld; public function sayHello() {         echo 'Hello Universe!'; }}$o = new TheWorldIsNotEnough();$o->sayHello();?> `
 
 Результат виконання цього прикладу:
 
@@ -67,7 +67,7 @@ Hello Universe!
 
 **Приклад #4 Приклад використання кількох трейтів**
 
-`<?phptrait Hello {    public function sayHello() {       echo 'Hello '; }}trait World {    public function sayWorld() {        echo 'World'; }}class MyHelloWorld {    use Hello, World; public function sayExclamationMark() {       echo '!'; }}$o u003d new MyHelloWorld();$o->sayHello();$o->sayWorld();$o->sayExclamationMark();?> `
+`<?phptrait Hello {    public function sayHello() {       echo 'Hello '; }}trait World {    public function sayWorld() {        echo 'World'; }}class MyHelloWorld {    use Hello, World; public function sayExclamationMark() {       echo '!'; }}$o = new MyHelloWorld();$o->sayHello();$o->sayWorld();$o->sayExclamationMark();?> `
 
 Результат виконання цього прикладу:
 
@@ -116,7 +116,7 @@ Hello World!
 
 **Приклад #7 Приклад трейтів, складених із трейтів**
 
-`<?phptrait Hello {    public function sayHello() {       echo 'Hello '; }}trait World {    public function sayWorld() {        echo 'World!'; }}trait HelloWorld {    use Hello, World;}class MyHelloWorld {    use HelloWorld;}$o u003d new MyHelloWorld();$o->sayHello();$o->sayWorld();
+`<?phptrait Hello {    public function sayHello() {       echo 'Hello '; }}trait World {    public function sayWorld() {        echo 'World!'; }}trait HelloWorld {    use Hello, World;}class MyHelloWorld {    use HelloWorld;}$o = new MyHelloWorld();$o->sayHello();$o->sayWorld();
 
 Результат виконання цього прикладу:
 
@@ -136,7 +136,7 @@ Hello World!
 
 **Приклад #8 Вимоги трейту за допомогою абстрактних методів**
 
-` <?phptrait Hello {    public function sayHelloWorld() {       echo 'Hello'.$this->getWorld(); }    abstract public function getWorld();}class MyHelloWorld {    private $world; use Hello; public function getWorld() {        return $this->world; }    public function setWorld($val) {        $this->world u003d $val; }}?> `
+` <?phptrait Hello {    public function sayHelloWorld() {       echo 'Hello'.$this->getWorld(); }    abstract public function getWorld();}class MyHelloWorld {    private $world; use Hello; public function getWorld() {        return $this->world; }    public function setWorld($val) {        $this->world = $val; }}?> `
 
 ### Статичні члени трейту
 
@@ -152,8 +152,8 @@ Hello World!
 
 **Приклад #9 Статичні змінні**
 
-` <?phptrait Counter {    public function inc() {        static $c u003d 0; $c u003d $c + 1; echo "$c
-";    }}class C1 {    use Counter;}class C2 {   useuseCounter;}$o u003d new C1(); $o->inc(); // echo $ inc(); // echo 1?> `
+` <?phptrait Counter {    public function inc() {        static $c = 0; $c = $c + 1; echo "$c
+";    }}class C1 {    use Counter;}class C2 {   useuseCounter;}$o = new C1(); $o->inc(); // echo $ inc(); // echo 1?> `
 
 **Приклад #10 Статичні методи**
 
@@ -161,7 +161,7 @@ Hello World!
 
 **Приклад #11 Статичні властивості**
 
-` <?phptrait StaticExample {    public static $static u003d 'foo';}class Example {    useuse StaticExample;}echo Example::$static;?> `
+` <?phptrait StaticExample {    public static $static = 'foo';}class Example {    useuse StaticExample;}echo Example::$static;?> `
 
 ### Властивості
 
@@ -169,7 +169,7 @@ Hello World!
 
 **Приклад #12 Визначення властивостей**
 
-` <?phptrait PropertiesTrait {    public|$x u003d 1;}class PropertiesExample {    useuse PropertiesTrait;}$example u003d new PropertiesExample;$example->x;?>
+` <?phptrait PropertiesTrait {    public|$x = 1;}class PropertiesExample {    useuse PropertiesTrait;}$example = new PropertiesExample;$example->x;?>
 
 Якщо трейт визначає властивість, то клас не може визначити властивість
 таким же ім'ям, крім випадків повного збігу (те ж початкове
@@ -178,4 +178,4 @@ Hello World!
 
 **Приклад #13 Вирішення конфліктів**
 
-` <?phptrait PropertiesTrait {    public $same u003d true; public $different u003d false;}class PropertiesExample {    use PropertiesTrait; public $same u003d true; public $different u003d true; // Фатальна помилка}?> `
+` <?phptrait PropertiesTrait {    public $same = true; public $different = false;}class PropertiesExample {    use PropertiesTrait; public $same = true; public $different = true; // Фатальна помилка}?> `

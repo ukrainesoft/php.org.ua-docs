@@ -7,7 +7,7 @@
 
 #oci_set_edition
 
-(PHP 5 u003d 5.3.2, PHP 7, PHP 8, PECL OCI8 u003d 1.4.0)
+(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
 
 oci_set_edition - Задає випуск (edition) бази даних
 
@@ -51,11 +51,11 @@ oci_set_edition - Задає випуск (edition) бази даних
 myfunc() одночасно**
 
 `<?php// Файл 1echo "Версія програми 1
-";oci_set_edition('ORA$BASE');$c u003d oci_connect('hr', 'welcome', 'localhost/XE');$s u003d oci_parse($c, "begin :r :u003d myfunc(); end ;");oci_bind_by_name($s, ":r", $r, 20);oci_execute($s);echo "Результат: $r
+";oci_set_edition('ORA$BASE');$c = oci_connect('hr', 'welcome', 'localhost/XE');$s = oci_parse($c, "begin :r := myfunc(); end ;");oci_bind_by_name($s, ":r", $r, 20);oci_execute($s);echo "Результат: $r
 ";?> `
 
 `<?php// Файл 2echo "Версія програми 2
-";oci_set_edition('E1');$c u003d oci_connect('hr', 'welcome', 'localhost/XE');$s u003d oci_parse($c, "begin :r :u003d myfunc(); end;" );oci_bind_by_name($s, ":r", $r, 20);oci_execute($s);echo "Результат: $r
+";oci_set_edition('E1');$c = oci_connect('hr', 'welcome', 'localhost/XE');$s = oci_parse($c, "begin :r := myfunc(); end;" );oci_bind_by_name($s, ":r", $r, 20);oci_execute($s);echo "Результат: $r
 ";?> `
 
 ### Примітки

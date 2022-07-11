@@ -7,7 +7,7 @@
 
 #imap_mutf7_to_utf8
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 imap_mutf7_to_utf8 — Декодувати змінений рядок UTF-7 у UTF-8
 

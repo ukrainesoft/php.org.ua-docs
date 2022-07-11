@@ -13,8 +13,8 @@ ibase_query — Виконує запит до бази даних InterBase
 
 ### Опис
 
-**ibase_query**(resource `$link_identifier` u003d ?, string `$query`, int
-$bind_args u003d ?): resource
+**ibase_query**(resource `$link_identifier` = ?, string `$query`, int
+$bind_args = ?): resource
 
 Виконує запит до бази даних InterBase.
 
@@ -57,7 +57,7 @@ between character sets" (це відбувається, коли ви намаг
 
 **Приклад #1 Приклад використання **ibase_query()****
 
-` <?php$host u003d 'localhost:/path/to/your.gdb';$dbh u003d ibase_connect($host, $username, $password);$stmt u003d 'SELECT * FROM tblname';$sth u003d iba $dbh, $stmt) or die(ibase_errmsg());?> `
+` <?php$host = 'localhost:/path/to/your.gdb';$dbh = ibase_connect($host, $username, $password);$stmt = 'SELECT * FROM tblname';$sth = iba $dbh, $stmt) or die(ibase_errmsg());?> `
 
 ### Дивіться також
 

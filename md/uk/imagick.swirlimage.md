@@ -35,4 +35,4 @@ Imagick::swirlImage — Закручує пікселі навколо цент�
 
 **Приклад #1 Приклад використання **Imagick::swirlImage()****
 
-` <?phpfunction swirlImage($imagePath, $swirl) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->swirlImage($swirl); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction swirlImage($imagePath, $swirl) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->swirlImage($swirl); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -7,7 +7,7 @@
 
 # EvIdle::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvIdle::\_\_construct — Конструктор спостерігача EvIdle
 
@@ -16,7 +16,7 @@ EvIdle::\_\_construct — Конструктор спостерігача EvIdle
 public **EvIdle::\_\_construct**(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d ?, int `$priority` u003d ?)
+`$data` = ?, int `$priority` = ?)
 
 Створює об'єкт спостерігач EvIdle та автоматично його стартує.
 

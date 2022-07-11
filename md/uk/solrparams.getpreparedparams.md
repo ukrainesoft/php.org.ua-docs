@@ -7,7 +7,7 @@
 
 # SolrParams::getPreparedParams
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::getPreparedParams — Повертає масив параметрів у
 URL-закодованому вигляді

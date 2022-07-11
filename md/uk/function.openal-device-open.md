@@ -7,13 +7,13 @@
 
 #openal_device_open
 
-(PECL openal u003d 0.1.0)
+(PECL openal = 0.1.0)
 
 openal_device_open — Ініціалізувати звуковий рівень OpenAL
 
 ### Опис
 
-**openal_device_open**(string `$device_desc` u003d ?): resource
+**openal_device_open**(string `$device_desc` = ?): resource
 
 ### Список параметрів
 

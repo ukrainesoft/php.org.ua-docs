@@ -31,11 +31,11 @@ public **mysql_xdevapi\Collection::getSchema**(): Schema Object
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::getSchema()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");var_dump($ecollection ;?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");var_dump($ecollection ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(mysql_xdevapi\Schema)#9 (1) {
-["name"]u003d>
+["name"]=>
 string(11) "addressbook"
 }

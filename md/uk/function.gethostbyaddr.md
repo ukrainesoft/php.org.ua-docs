@@ -32,7 +32,7 @@ IP-адреса хоста
 
 **Приклад #1 Простий приклад використання **gethostbyaddr()****
 
-` <?php$hostname u003d gethostbyaddr($_SERVER['REMOTE_ADDR']);echo $hostname;?> `
+` <?php$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);echo $hostname;?> `
 
 ### Дивіться також
 

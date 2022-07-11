@@ -7,7 +7,7 @@
 
 #idn_to_utf8
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL intl \>u003d 1.0.2, PECL idn \>u003d 0.1)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL intl \>= 1.0.2, PECL idn \>= 0.1)
 
 idn_to_utf8 — Перетворення доменного імені з IDNA ASCII на Unicode
 
@@ -17,9 +17,9 @@ idn_to_utf8 — Перетворення доменного імені з IDNA A
 
 **idn_to_utf8**(
 string `$domain`,
-int `$flags` u003d IDNA_DEFAULT,
-int `$variant` u003d **`INTL_IDNA_VARIANT_UTS46`**,
-array `&$idna_info` u003d **`null`**
+int `$flags` = IDNA_DEFAULT,
+int `$variant` = **`INTL_IDNA_VARIANT_UTS46`**,
+array `&$idna_info` = **`null`**
 ): string\|false
 
 Ця функція перетворює доменні імена з формату IDNA ASCII в Unicode,
@@ -56,7 +56,7 @@ IDNA_ERROR\_\*).
 ### Список змін
 
 | Версія | Опис                                                                                                                                 |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 7.4.0  | Тепер значення за умовчанням variant змінено на **INTL_IDNA_VARIANT_UTS46** замість застарілої константи **INTL_IDNA_VARIANT_2003**. |
 | 7.2.0  | **INTL_IDNA_VARIANT_2003** оголошена застарілою, замість неї використовуйте **INTL_IDNA_VARIANT_UTS46**.                             |
 

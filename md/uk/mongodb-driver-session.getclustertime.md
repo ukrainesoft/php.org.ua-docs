@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::getClusterTime
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Session::getClusterTime — Повертає час кластера для
 цього сеансу

@@ -13,7 +13,7 @@
 установки змінної існуюче одноелементне значення. Це
 гарантує, що:
 
-` <?phpSuit::Hearts u003du003du003d unserialize(serialize(Suit::Hearts));print serialize(Suit::Hearts);// E:11:"Suit:Hearts";?> `
+` <?phpSuit::Hearts === unserialize(serialize(Suit::Hearts));print serialize(Suit::Hearts);// E:11:"Suit:Hearts";?> `
 
 При десеріалізації, якщо не вдається знайти перелік і порівняти з
 відповідним серіалізованим значенням, буде видано попередження та
@@ -28,4 +28,4 @@
 Для [print_r()](function.print-r.md) висновок варіанта перерахування
 трохи відрізняється від об'єктів, щоб звести до мінімуму плутанину.
 
-`<?phpenum Foo {   case Bar;}enum Baz: int {    case Beep u003d 5;}print_r(Foo::Bar);print_r(Baz::Beep);/*   | Enum:int {   [name] u003d> Beep    [value] u003d> 5}*/?> `
+`<?phpenum Foo {   case Bar;}enum Baz: int {    case Beep = 5;}print_r(Foo::Bar);print_r(Baz::Beep);/*   | Enum:int {   [name] => Beep    [value] => 5}*/?> `

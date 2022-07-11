@@ -7,7 +7,7 @@
 
 # Swoole\Server::defer
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::defer — Відкладає виконання callback-функції в кінці
 поточного EventLoop

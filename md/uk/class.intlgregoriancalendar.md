@@ -7,7 +7,7 @@
 
 # Клас IntlGregorianCalendar
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -18,89 +18,89 @@ class **IntlGregorianCalendar** extends
 
 /\* Успадковані константи \*/
 
-const int `IntlCalendar::FIELD_ERA` u003d 0;
+const int `IntlCalendar::FIELD_ERA` = 0;
 
-const int `IntlCalendar::FIELD_YEAR` u003d 1;
+const int `IntlCalendar::FIELD_YEAR` = 1;
 
-const int `IntlCalendar::FIELD_MONTH` u003d 2;
+const int `IntlCalendar::FIELD_MONTH` = 2;
 
-const int `IntlCalendar::FIELD_WEEK_OF_YEAR` u003d 3;
+const int `IntlCalendar::FIELD_WEEK_OF_YEAR` = 3;
 
-const int `IntlCalendar::FIELD_WEEK_OF_MONTH` u003d 4;
+const int `IntlCalendar::FIELD_WEEK_OF_MONTH` = 4;
 
-const int `IntlCalendar::FIELD_DATE` u003d 5;
+const int `IntlCalendar::FIELD_DATE` = 5;
 
-const int `IntlCalendar::FIELD_DAY_OF_YEAR` u003d 6;
+const int `IntlCalendar::FIELD_DAY_OF_YEAR` = 6;
 
-const int `IntlCalendar::FIELD_DAY_OF_WEEK` u003d 7;
+const int `IntlCalendar::FIELD_DAY_OF_WEEK` = 7;
 
-const int `IntlCalendar::FIELD_DAY_OF_WEEK_IN_MONTH` u003d 8;
+const int `IntlCalendar::FIELD_DAY_OF_WEEK_IN_MONTH` = 8;
 
-const int `IntlCalendar::FIELD_AM_PM` u003d 9;
+const int `IntlCalendar::FIELD_AM_PM` = 9;
 
-const int `IntlCalendar::FIELD_HOUR` u003d 10;
+const int `IntlCalendar::FIELD_HOUR` = 10;
 
-const int `IntlCalendar::FIELD_HOUR_OF_DAY` u003d 11;
+const int `IntlCalendar::FIELD_HOUR_OF_DAY` = 11;
 
-const int `IntlCalendar::FIELD_MINUTE` u003d 12;
+const int `IntlCalendar::FIELD_MINUTE` = 12;
 
-const int `IntlCalendar::FIELD_SECOND` u003d 13;
+const int `IntlCalendar::FIELD_SECOND` = 13;
 
-const int `IntlCalendar::FIELD_MILLISECOND` u003d 14;
+const int `IntlCalendar::FIELD_MILLISECOND` = 14;
 
-const int `IntlCalendar::FIELD_ZONE_OFFSET` u003d 15;
+const int `IntlCalendar::FIELD_ZONE_OFFSET` = 15;
 
-const int `IntlCalendar::FIELD_DST_OFFSET` u003d 16;
+const int `IntlCalendar::FIELD_DST_OFFSET` = 16;
 
-const int `IntlCalendar::FIELD_YEAR_WOY` u003d 17;
+const int `IntlCalendar::FIELD_YEAR_WOY` = 17;
 
-const int `IntlCalendar::FIELD_DOW_LOCAL` u003d 18;
+const int `IntlCalendar::FIELD_DOW_LOCAL` = 18;
 
-const int `IntlCalendar::FIELD_EXTENDED_YEAR` u003d 19;
+const int `IntlCalendar::FIELD_EXTENDED_YEAR` = 19;
 
-const int `IntlCalendar::FIELD_JULIAN_DAY` u003d 20;
+const int `IntlCalendar::FIELD_JULIAN_DAY` = 20;
 
-const int `IntlCalendar::FIELD_MILLISECONDS_IN_DAY` u003d 21;
+const int `IntlCalendar::FIELD_MILLISECONDS_IN_DAY` = 21;
 
-const int `IntlCalendar::FIELD_IS_LEAP_MONTH` u003d 22;
+const int `IntlCalendar::FIELD_IS_LEAP_MONTH` = 22;
 
-const int `IntlCalendar::FIELD_FIELD_COUNT` u003d 23;
+const int `IntlCalendar::FIELD_FIELD_COUNT` = 23;
 
-const int `IntlCalendar::FIELD_DAY_OF_MONTH` u003d 5;
+const int `IntlCalendar::FIELD_DAY_OF_MONTH` = 5;
 
-const int `IntlCalendar::DOW_SUNDAY` u003d 1;
+const int `IntlCalendar::DOW_SUNDAY` = 1;
 
-const int `IntlCalendar::DOW_MONDAY` u003d 2;
+const int `IntlCalendar::DOW_MONDAY` = 2;
 
-const int `IntlCalendar::DOW_TUESDAY` u003d 3;
+const int `IntlCalendar::DOW_TUESDAY` = 3;
 
-const int `IntlCalendar::DOW_WEDNESDAY` u003d 4;
+const int `IntlCalendar::DOW_WEDNESDAY` = 4;
 
-const int `IntlCalendar::DOW_THURSDAY` u003d 5;
+const int `IntlCalendar::DOW_THURSDAY` = 5;
 
-const int `IntlCalendar::DOW_FRIDAY` u003d 6;
+const int `IntlCalendar::DOW_FRIDAY` = 6;
 
-const int `IntlCalendar::DOW_SATURDAY` u003d 7;
+const int `IntlCalendar::DOW_SATURDAY` = 7;
 
-const int `IntlCalendar::DOW_TYPE_WEEKDAY` u003d 0;
+const int `IntlCalendar::DOW_TYPE_WEEKDAY` = 0;
 
-const int `IntlCalendar::DOW_TYPE_WEEKEND` u003d 1;
+const int `IntlCalendar::DOW_TYPE_WEEKEND` = 1;
 
-const int `IntlCalendar::DOW_TYPE_WEEKEND_OFFSET` u003d 2;
+const int `IntlCalendar::DOW_TYPE_WEEKEND_OFFSET` = 2;
 
-const int `IntlCalendar::DOW_TYPE_WEEKEND_CEASE` u003d 3;
+const int `IntlCalendar::DOW_TYPE_WEEKEND_CEASE` = 3;
 
-const int `IntlCalendar::WALLTIME_FIRST` u003d 1;
+const int `IntlCalendar::WALLTIME_FIRST` = 1;
 
-const int `IntlCalendar::WALLTIME_LAST` u003d 0;
+const int `IntlCalendar::WALLTIME_LAST` = 0;
 
-const int `IntlCalendar::WALLTIME_NEXT_VALID` u003d 2;
+const int `IntlCalendar::WALLTIME_NEXT_VALID` = 2;
 
 /\* Методи \*/
 
 public
 [\_\_construct](intlgregoriancalendar.construct.md)([IntlTimeZone](class.intltimezone.md)
-`$tz` u003d ?, string `$locale` u003d ?)
+`$tz` = ?, string `$locale` = ?)
 
 public [\_\_construct](intlgregoriancalendar.construct.md)(int
 `$timeZoneOrYear`, int `$localeOrMonth`, int `$dayOfMonth`)
@@ -111,7 +111,7 @@ int `$localeOrMonth`,
 int `$dayOfMonth`,
 int `$hour`,
 int `$minute`,
-int `$second` u003d ?
+int `$second` = ?
 )
 
 public
@@ -138,12 +138,12 @@ public
 [IntlCalendar::before](intlcalendar.before.md)([IntlCalendar](class.intlcalendar.md)
 `$other`): bool
 
-public [IntlCalendar::clear](intlcalendar.clear.md)(?int `$field` u003d
+public [IntlCalendar::clear](intlcalendar.clear.md)(?int `$field` =
 **`null`**): bool
 
 public static
 [IntlCalendar::createInstance](intlcalendar.createinstance.md)([IntlTimeZone](class.intltimezone.md)\|[DateTimeZone](class.datetimezone.md)\|string\|null
-`$timezone` u003d **`null`**, ?string `$locale` u003d **`null`**):
+`$timezone` = **`null`**, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 public
@@ -156,7 +156,7 @@ public
 
 public static
 [IntlCalendar::fromDateTime](intlcalendar.fromdatetime.md)([DateTime](class.datetime.md)\|string
-`$datetime`, ?string `$locale` u003d **`null`**):
+`$datetime`, ?string `$locale` = **`null`**):
 ?[IntlCalendar](class.intlcalendar.md)
 
 public [IntlCalendar::get](intlcalendar.get.md)(int `$field`):
@@ -250,7 +250,7 @@ public [IntlCalendar::isSet](intlcalendar.isset.md)(int `$field`):
 bool
 
 public [IntlCalendar::isWeekend](intlcalendar.isweekend.md)(?float
-`$timestamp` u003d **`null`**): bool
+`$timestamp` = **`null`**): bool
 
 public [IntlCalendar::roll](intlcalendar.roll.md)(int `$field`,
 int\|bool `$value`): bool
@@ -261,10 +261,10 @@ public [IntlCalendar::set](intlcalendar.set.md)(int `$field`, int
 public [IntlCalendar::set](intlcalendar.set.md)(
 int `$year`,
 int `$month`,
-int `$dayOfMonth` u003d NULL,
-int `$hour` u003d NULL,
-int `$minute` u003d NULL,
-int `$second` u003d NULL
+int `$dayOfMonth` = NULL,
+int `$hour` = NULL,
+int `$minute` = NULL,
+int `$second` = NULL
 ): bool
 
 public

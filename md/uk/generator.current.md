@@ -7,7 +7,7 @@
 
 # Generator::current
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 Generator::current — Отримати поточне значення генератора
 

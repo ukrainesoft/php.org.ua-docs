@@ -7,7 +7,7 @@
 
 # SVMModel::load
 
-(PECL svm \>u003d 0.1.00.1.0)
+(PECL svm \>= 0.1.00.1.0)
 
 SVMModel::load — Завантажує збережену модель SVM
 

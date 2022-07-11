@@ -7,7 +7,7 @@
 
 # Memcached::getServerList
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getServerList — Отримує список серверів у пулі
 
@@ -30,27 +30,27 @@ public **Memcached::getServerList**(): array
 
 **Приклад #1 Приклад використання **Memcached::getServerList()****
 
-` <?php$m u003d new Memcached();$m->addServers(array(    array('mem1.domain.com', 11211, 20),    array('mem2.domain.com', 1) ));var_dump($m->getServerList());?> `
+` <?php$m = new Memcached();$m->addServers(array(    array('mem1.domain.com', 11211, 20),    array('mem2.domain.com', 1) ));var_dump($m->getServerList());?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "mem1.domain.com"
-["port"]u003d>
+["port"]=>
 int(11211)
-["weight"]u003d>
+["weight"]=>
 int(20)
 }
-[1]u003d>
+[1]=>
 array(3) {
-["host"]u003d>
+["host"]=>
 string(15) "mem2.domain.com"
-["port"]u003d>
+["port"]=>
 int(11311)
-["weight"]u003d>
+["weight"]=>
 int(80)
 }
 }

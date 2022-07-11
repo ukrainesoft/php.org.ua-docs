@@ -8,7 +8,7 @@
 
 # EvLoop::fork
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::fork — Створює об'єкт спостерігача EvFork, пов'язаний із поточним
 екземпляром циклу подій
@@ -18,7 +18,7 @@ EvLoop::fork — Створює об'єкт спостерігача EvFork, п�
 final public **EvLoop::fork**( [callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvFork](class.evfork.md)
 
 Створює об'єкт спостерігача EvFork, пов'язаний із поточним екземпляром циклу

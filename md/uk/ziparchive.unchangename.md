@@ -7,7 +7,7 @@
 
 # ZipArchive::unchangeName
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.5.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.5.0)
 
 ZipArchive::unchangeName — Скасує всі зміни у позиції із заданим
 ім'ям

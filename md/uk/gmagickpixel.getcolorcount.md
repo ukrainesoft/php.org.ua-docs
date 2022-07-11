@@ -7,7 +7,7 @@
 
 # GmagickPixel::getcolorcount
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickPixel::getcolorcount — Отримати кількість пікселів зображення,
 мають заданий колір

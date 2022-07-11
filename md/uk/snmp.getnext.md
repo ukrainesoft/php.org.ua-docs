@@ -8,7 +8,7 @@
 
 # SNMP::getnext
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::getnext — Отримати об'єкт SNMP, який слідує за даними
 ідентифікатором об'єкта
@@ -52,27 +52,27 @@ public **SNMP::getnext**(array\|string `$objectId`):
 повертається рядкове значення або як одноелементний масив з
 асоціативним масивом як висновок.
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $nsysdescru003du003d$session->getnext("sysDescr.0"); echo "$nsysdescr
-";  $nsysdescr u003d $session->getnext(array("sysDescr.0"));  print_r($nsysdescr);?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $nsysdescr==$session->getnext("sysDescr.0"); echo "$nsysdescr
+";  $nsysdescr = $session->getnext(array("sysDescr.0"));  print_r($nsysdescr);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
 Array
 (
-[SNMPv2-MIB::sysObjectID.0] u003d> OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
+[SNMPv2-MIB::sysObjectID.0] => OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
 )
 
 **Приклад #2 Множинні об'єкти SNMP**
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $resultsu003du003d$session->getnext(array("sysDescr.0", "sysName.0")); print_r($results); $session->close();?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $results==$session->getnext(array("sysDescr.0", "sysName.0")); print_r($results); $session->close();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[SNMPv2-MIB::sysObjectID.0] u003d> OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
-[SNMPv2-MIB::sysLocation.0] u003d> STRING: Nowhere
+[SNMPv2-MIB::sysObjectID.0] => OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
+[SNMPv2-MIB::sysLocation.0] => STRING: Nowhere
 )
 
 ### Дивіться також

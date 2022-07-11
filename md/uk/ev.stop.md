@@ -7,13 +7,13 @@
 
 # Ev:: stop
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 Ev::stop — Зупинити цикл подій за замовчуванням
 
 ### Опис
 
-final public static **Ev::stop**( int `$how` u003d ?): void
+final public static **Ev::stop**( int `$how` = ?): void
 
 Зупинити цикл за замовчуванням.
 

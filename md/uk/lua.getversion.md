@@ -7,7 +7,7 @@
 
 # Lua::getVersion
 
-(PECL lua \>u003d0.9.0)
+(PECL lua \>=0.9.0)
 
 Lua::getVersion — Повертає версію
 

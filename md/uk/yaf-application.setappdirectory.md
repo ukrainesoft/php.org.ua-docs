@@ -7,7 +7,7 @@
 
 # Yaf_Application::setAppDirectory
 
-(Yaf \> u003d 2.1.4)
+(Yaf \> = 2.1.4)
 
 Yaf_Application::setAppDirectory — Змінити каталог програми
 

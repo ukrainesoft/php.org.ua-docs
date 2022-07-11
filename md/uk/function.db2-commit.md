@@ -7,7 +7,7 @@
 
 #db2_commit
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_commit — Підтверджує транзакцію
 

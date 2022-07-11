@@ -7,7 +7,7 @@
 
 #eio_fstat
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_fstat — Повертає статус файлу
 
@@ -19,7 +19,7 @@ eio_fstat — Повертає статус файлу
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$ data` u003d ?
+`$ data` = ?
 ): resource
 
 **eio_fstat()** повертає інформацію про стан файлу в `result`
@@ -67,34 +67,34 @@ int `$pri`,
 **Приклад #1 Приклад використання
 [eio_lstat()](function.eio-lstat.md)**
 
-` <?php// Створення тимчасового файлу$tmp_filename u003d dirname(__FILE__) ."/eio-file.tmp";touch($tmp_filename);/* Викликається після завершення eio_fstat() $/$ ) { // Виводить масив з інформацією про стан файла var_dump($result); if ($data['fd']) {  // Закриває тимчасовий файл eio_close($data['fd']); eio_event_loop(); } // Видаляє тимчасовий файл @unlink($data['file']);}/* Викликається після завершення eio_open() */function my_open_cb($data, $result) { / | 'fd' u003d>>$result, 'file'u003d> $data ); // Отримання інформації про файл eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d); // Виконання запитів eio_event_loop();}// Відкриття тимчасового файлуeio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,  "my_open_cb""_|
+` <?php// Створення тимчасового файлу$tmp_filename = dirname(__FILE__) ."/eio-file.tmp";touch($tmp_filename);/* Викликається після завершення eio_fstat() $/$ ) { // Виводить масив з інформацією про стан файла var_dump($result); if ($data['fd']) {  // Закриває тимчасовий файл eio_close($data['fd']); eio_event_loop(); } // Видаляє тимчасовий файл @unlink($data['file']);}/* Викликається після завершення eio_open() */function my_open_cb($data, $result) { / | 'fd' =>>$result, 'file'=> $data ); // Отримання інформації про файл eio_fstat($result, EIO_PRI_DEFAULT, "my_res_cb", $d); // Виконання запитів eio_event_loop();}// Відкриття тимчасового файлуeio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,  "my_open_cb""_|
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(12) {
-["st_dev"]u003d>
+["st_dev"]=>
 int(2050)
-["st_ino"]u003d>
+["st_ino"]=>
 int(2489159)
-["st_mode"]u003d>
+["st_mode"]=>
 int(33188)
-["st_nlink"]u003d>
+["st_nlink"]=>
 int(1)
-["st_uid"]u003d>
+["st_uid"]=>
 int(1000)
-["st_gid"]u003d>
+["st_gid"]=>
 int(100)
-["st_rdev"]u003d>
+["st_rdev"]=>
 int(0)
-["st_blksize"]u003d>
+["st_blksize"]=>
 int(4096)
-["st_blocks"]u003d>
+["st_blocks"]=>
 int(0)
-["st_atime"]u003d>
+["st_atime"]=>
 int(1318239506)
-["st_mtime"]u003d>
+["st_mtime"]=>
 int(1318239506)
-["st_ctime"]u003d>
+["st_ctime"]=>
 int(1318239506)
 }
 

@@ -7,7 +7,7 @@
 
 # svn_diff
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_diff — Рекурсивно показує різницю двох файлів
 
@@ -72,12 +72,12 @@ int `$rev2`
 Приклад нижче ілюструє просте використання цієї функції та
 отримання даних із потоку.
 
-` <?phplist($diff, $errors) u003d svn_diff(   'http://www.example.com/svnroot/trunk/foo', SVN_REVISION_HEAD,    'http://www.example.com/svnroot/branes /foo', SVN_REVISION_HEAD);if (!$diff) exit;$contents u003d '';while (!feof($diff)) {  $contents .u003d fread($diff, 8192);}fclose($diff); fclose($errors);var_dump($contents);?> `
+` <?phplist($diff, $errors) = svn_diff(   'http://www.example.com/svnroot/trunk/foo', SVN_REVISION_HEAD,    'http://www.example.com/svnroot/branes /foo', SVN_REVISION_HEAD);if (!$diff) exit;$contents = '';while (!feof($diff)) {  $contents .= fread($diff, 8192);}fclose($diff); fclose($errors);var_dump($contents);?> `
 
 Результат виконання цього прикладу:
 
 Index: http://www.example.com/svnroot/trunk/foo
-u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
+================================================== =================
 --- http://www.example.com/svnroot/trunk/foo (.../foo) (revision 23)
 +++ http://www.example.com/svnroot/branches/dev/foo (.../foo) (revision 27)
 // решта висновку diff
@@ -98,7 +98,7 @@ u003du003du003du003du003du003du003du003du003du003du003du003du003du003du003du003d
 позбавлена помилок під час роботи з функцією [realpath()](function.realpath.md)
 і зворотним слішем.
 
-` <?phpfunction svn_diff_local($path1, $rev1, $path2, $rev2) {   $path1 u003d str_replace('\', '/', realpath($path1)); $path2u003du003dstr_replace('\', '/',realpath($path2)); return svn_diff($path1, $rev1, $path2, $rev2);}?> `
+` <?phpfunction svn_diff_local($path1, $rev1, $path2, $rev2) {   $path1 = str_replace('\', '/', realpath($path1)); $path2==str_replace('\', '/',realpath($path2)); return svn_diff($path1, $rev1, $path2, $rev2);}?> `
 
 ### Примітки
 

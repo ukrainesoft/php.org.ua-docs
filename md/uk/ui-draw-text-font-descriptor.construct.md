@@ -17,9 +17,9 @@ Descriptor
 public **UI\Draw\Text\Font\Descriptor::\_\_construct**(
 string `$family`,
 float `$size`,
-int `$weight` u003d UI\Draw\Text\Font\Weight::Normal,
-int `$italic` u003d UI\Draw\Text\Font\Italic::Normal,
-int `$stretch` u003d UI\Draw\Text\Font\Stretch::Normal
+int `$weight` = UI\Draw\Text\Font\Weight::Normal,
+int `$italic` = UI\Draw\Text\Font\Italic::Normal,
+int `$stretch` = UI\Draw\Text\Font\Stretch::Normal
 )
 
 Створює новий Font Descriptor

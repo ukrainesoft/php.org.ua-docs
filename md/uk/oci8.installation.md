@@ -54,12 +54,12 @@ pecl install oci8
 - Помилка `oci8_dtrace_gen.h: No such file or directory`
 означає, що PHP було зібрано з підтримкою [DTrace Dynamic Tracing](features.dtrace.md). У такому разі встановлюйте так:
 
-$ export PHP_DTRACEu003dyes
+$ export PHP_DTRACE=yes
 $ pecl install oci8
 
 - Додайте в `php.ini` наступний рядок:
 
-extensionu003doci8.so
+extension=oci8.so
 
 Переконайтеся, що `oci8.so` встановлено в директорію, задану в
 директиві [extension_dir](ini.core.md#ini.extension-dir) файлу
@@ -82,11 +82,11 @@ phpize
 
 - Конфігуруйте використовуючи `$ORACLE_HOME` або Instant Client
 
-./configure -with-oci8u003dshared,$ORACLE_HOME
+./configure -with-oci8=shared,$ORACLE_HOME
 
 or
 
-./configure -with-oci8u003dshared,instantclient,/path/to/instant/client/lib
+./configure -with-oci8=shared,instantclient,/path/to/instant/client/lib
 
 - Проінсталюйте:
 
@@ -96,11 +96,11 @@ make install
 що PHP був зібраний за допомогою [DTrace Dynamic Tracing](features.dtrace.md). У такому разі перезапустіть
 `configure` та `make`, попередньо встановивши змінну оточення:
 
-$ export PHP_DTRACEu003dyes
+$ export PHP_DTRACE=yes
 
 - Додайте в `php.ini` наступний рядок:
 
-extensionu003doci8.so
+extension=oci8.so
 
 Переконайтеся, що `oci8.so` встановлено в директорію, задану в
 директиві [extension_dir](ini.core.md#ini.extension-dir) файлу
@@ -116,7 +116,7 @@ extensionu003doci8.so
 
 - При використанні безкоштовних бібліотек [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md):
 
-./configure --with-oci8u003dshared,instantclient,/шлях/до/instant/client/lib
+./configure --with-oci8=shared,instantclient,/шлях/до/instant/client/lib
 
 Якщо Instant Client 12.2 (або раніше) встановлено з
 ZIP-архіву, не забудьте насамперед створити символічну
@@ -126,10 +126,10 @@ ZIP-архіву, не забудьте насамперед створити с
 Якщо Oracle Instant Client було встановлено за допомогою RPM, команда
 конфігурації виглядатиме так:
 
-./configure --with-oci8u003dshared,instantclient,/usr/lib/oracle/<version>/client/lib
+./configure --with-oci8=shared,instantclient,/usr/lib/oracle/<version>/client/lib
 
 Наприклад,
-**--with-oci8u003dshared,instantclient,/usr/lib/oracle/19.9/client/lib**
+**--with-oci8=shared,instantclient,/usr/lib/oracle/19.9/client/lib**
 
 Врахуйте, що підтримка Oracle Instant Client з'явилася лише починаючи
 з версій PHP 4.3.11 та 5.0.4 і раніше використовувалася з опцією
@@ -138,7 +138,7 @@ ZIP-архіву, не забудьте насамперед створити с
 - При використанні бази даних Oracle database або повної установки
 Oracle Client:
 
-./configure --with-oci8u003dshared,$ORACLE_HOME
+./configure --with-oci8=shared,$ORACLE_HOME
 
 Переконайтеся, що користувач, під яким запущено веб-сервер,
 (`nobody`, `www`) має доступ до бібліотек, файлів ініціалізації та
@@ -155,7 +155,7 @@ install*, після чого буде створено бібліотеку `oc
 
 Для завершення установки OCI8 додайте наступний рядок у `php.ini`:
 
-extensionu003doci8.so
+extension=oci8.so
 
 ## Установка OCI8 у вигляді статично скомпілюваного модуля
 
@@ -164,12 +164,12 @@ extensionu003doci8.so
 
 - При використанні Oracle Instant Client:
 
-./configure --with-oci8u003dinstantclient,/шлях/до/instant/client/lib
+./configure --with-oci8=instantclient,/шлях/до/instant/client/lib
 
 - У разі використання бази даних Oracle або повної установки Oracle
 Client:
 
-./configure --with-oci8u003d$ORACLE_HOME
+./configure --with-oci8=$ORACLE_HOME
 
 Після налаштування дотримуйтесь звичайної процедури встановлення PHP, наприклад,
 *make install*. Після успішного складання немає необхідності додавати
@@ -183,8 +183,8 @@ Client:
 що міститься у вашій інсталяції PHP.
 
 Для бібліотек Oracle 12*c* (і вище), розкоментуйте відповідну
-рядок в `php.ini`: `extensionu003dphp_oci8_12c.dll`,
-`extensionu003dphp_oci8_11g.dll` або `extensionu003dphp_oci8.dll`. Одноразово
+рядок в `php.ini`: `extension=php_oci8_12c.dll`,
+`extension=php_oci8_11g.dll` або `extension=php_oci8.dll`. Одноразово
 можна використовувати лише одну з цих бібліотек. Нові бібліотеки
 можуть містити більш сучасний функціонал. Склад доступних бібліотек
 може змінюватись в залежності від версії PHP. Впевніться, що
@@ -229,7 +229,7 @@ Oracle правильно налаштовані для користувача, 
 документації Oracle.
 
 | Назва           | Ціль                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ORACLE_HOME     | Вказує на папку з повністю встановленою базою даних Oracle. Не встановлюйте цю змінну, використовуючи Oracle Instant Client, т.к. в цьому немає потреби і може викликати проблеми при встановленні.                                                                                                                                                                                                                                                                                                             |
 | ORACLE_SID      | Містить назву бази даних на локальній машині, до якої йде підключення. Немає необхідності встановлювати цю змінну під час використання Oracle Instant Client або завжди передавати у параметрах з'єднання у функцію [oci_connect()](function.oci-connect.md).                                                                                                                                                                                                                                                   |
 | LD_LIBRARY_PATH | Встановіть цю змінну (або її еквівалент на використовуваній платформі, наприклад, LIBPATH або SHLIB_PATH) у місцезнаходження бібліотек Oracle, наприклад, $ORACLE_HOME/lib або /usr/lib/oracle/18.5/client/lib. Зверніть увагу, що для ZIP архівів Instant Client в Linux надійніше використовувати ldconfig. Зверніться до інструкції з встановлення Instant Client. Для RPM пакетів Instant Client 19 (і старше), ldconfig, буде запущено автоматично. Хтось використовує LD_PRELOAD замість LD_LIBRARY_PATH. |
@@ -274,21 +274,21 @@ Oracle на кшталт змінних `NLS*` та `ORA_NLS_*`.
 > Перевірте, що Apache зібрано з бібліотекою pthread:
 >
 > # ldd /www/apache/bin/httpd
-> libpthread.so.0 u003d> /lib/libpthread.so.0 (0x4001c000)
-> libm.so.6 u003d> /lib/libm.so.6 (0x4002f000)
-> libcrypt.so.1 u003d> /lib/libcrypt.so.1 (0x4004c000)
-> libdl.so.2 u003d> /lib/libdl.so.2 (0x4007a000)
-> libc.so.6 u003d> /lib/libc.so.6 (0x4007e000)
-> /lib/ld-linux.so.2 u003d> /lib/ld-linux.so.2 (0x40000000)
+> libpthread.so.0 => /lib/libpthread.so.0 (0x4001c000)
+> libm.so.6 => /lib/libm.so.6 (0x4002f000)
+> libcrypt.so.1 => /lib/libcrypt.so.1 (0x4004c000)
+> libdl.so.2 => /lib/libdl.so.2 (0x4007a000)
+> libc.so.6 => /lib/libc.so.6 (0x4007e000)
+> /lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000)
 >
 > Якщо libpthread немає у списку, переустановіть Apache:
 >
 > # cd /usr/src/apache_1.3.xx
 > # make clean
-> # LIBSu003d-lpthread ./config.status
+> # LIBS=-lpthread ./config.status
 > # make
 > # make install
 >
 > Майте на увазі, що на деяких системах, як UnixWare,
 > libpthread називається libthread. Таким чином, PHP та Apache повинні
-> бути настроєні за допомогою EXTRA_LIBSu003d-lthread.
+> бути настроєні за допомогою EXTRA_LIBS=-lthread.

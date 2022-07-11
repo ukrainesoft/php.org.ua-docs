@@ -42,15 +42,15 @@ array_pop — Витягує останній елемент масиву
 
 **Приклад #1 Приклад використання **array_pop()****
 
-` <?php$stack u003d array("orange", "banana", "apple", "raspberry");$fruit u003d array_pop($stack);print_r($stack);?> `
+` <?php$stack = array("orange", "banana", "apple", "raspberry");$fruit = array_pop($stack);print_r($stack);?> `
 
 Після цього в $ stack буде тільки 3 елементи:
 
 Array
 (
-[0] u003d> orange
-[1] u003d> banana
-[2] u003d> apple
+[0] => orange
+[1] => banana
+[2] => apple
 )
 
 і `raspberry` буде присвоєно змінною `$fruit`.

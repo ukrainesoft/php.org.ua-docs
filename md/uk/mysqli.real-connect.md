@@ -19,26 +19,26 @@ mysqli::real_connect -- mysqli_real_connect -- Встановлює з'єдна�
 Об'єктно-орієнтований стиль
 
 public **mysqli::real_connect**(
-string `$host` u003d ?,
-string `$username` u003d ?,
-string `$passwd` u003d ?,
-string `$dbname` u003d ?,
-int `$port` u003d ?,
-string `$socket` u003d ?,
-int `$flags` u003d ?
+string `$host` = ?,
+string `$username` = ?,
+string `$passwd` = ?,
+string `$dbname` = ?,
+int `$port` = ?,
+string `$socket` = ?,
+int `$flags` = ?
 ): bool
 
 Процедурний стиль
 
 **mysqli_real_connect**(
 [mysqli](class.mysqli.md) `$link`,
-string `$host` u003d ?,
-string `$username` u003d ?,
-string `$passwd` u003d ?,
-string `$dbname` u003d ?,
-int `$port` u003d ?,
-string `$socket` u003d ?,
-int `$flags` u003d ?
+string `$host` = ?,
+string `$username` = ?,
+string `$passwd` = ?,
+string `$dbname` = ?,
+int `$port` = ?,
+string `$socket` = ?,
+int `$flags` = ?
 ): bool
 
 Встановлює з'єднання із СУБД MySQL.
@@ -96,14 +96,14 @@ int `$flags` u003d ?
 `flags`
 За допомогою параметра `flags` можна встановити деякі налаштування з'єднання:
 
-| Ім'я Опис                                     |
-| --------------------------------------------- |
-| **MYSQLI_CLIENT_COMPRESS**                    | Використання протоколу стиснення 
-| **MYSQLI_CLIENT_FOUND_ROWS**                  | Повертати кількість рядків, що підійшли умовам вибірки замість кількості порушених запитом рядків
-| **MYSQLI_CLIENT_IGNORE_SPACE**                | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами.
-| **MYSQLI_CLIENT_INTERACTIVE**                 | Допускати interactive_timeout секунд (замість wait_timeout) простою, перш ніж закрити з'єднання
-| **MYSQLI_CLIENT_SSL**                         | Використання SSL (шифрування)
-| **MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT** | Аналогічно **MYSQLI_CLIENT_SSL**, але забороняє перевірку SSL сертифікату. Працює тільки з MySQL Native Driver та MySQL 5.6 та вище.
+| Ім'я Опис                                     |                                                                                                                                      |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| **MYSQLI_CLIENT_COMPRESS**                    | Використання протоколу стиснення                                                                                                     |
+| **MYSQLI_CLIENT_FOUND_ROWS**                  | Повертати кількість рядків, що підійшли умовам вибірки замість кількості порушених запитом рядків                                    |
+| **MYSQLI_CLIENT_IGNORE_SPACE**                | Допускати пробіли після назв функцій. Робить усі імена функцій зарезервованими словами.                                              |
+| **MYSQLI_CLIENT_INTERACTIVE**                 | Допускати interactive_timeout секунд (замість wait_timeout) простою, перш ніж закрити з'єднання                                      |
+| **MYSQLI_CLIENT_SSL**                         | Використання SSL (шифрування)                                                                                                        |
+| **MYSQLI_CLIENT_SSL_DONT_VERIFY_SERVER_CERT** | Аналогічно **MYSQLI_CLIENT_SSL**, але забороняє перевірку SSL сертифікату. Працює тільки з MySQL Native Driver та MySQL 5.6 та вище. |
 
 **Підтримувані прапори**
 
@@ -124,17 +124,17 @@ int `$flags` u003d ?
 
 Об'єктно-орієнтований стиль
 
-` <?php$mysqli u003d mysqli_init();if (!$mysqli) {    die('mysqli_init завершилася провалом');}if (!$mysqli->options(MYSQLI_INIT_COMMAND, '   'Установка MYSQLI_INIT_COMMAND завершилася провалом');}if (!$mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {    die('Установка MYSQLI_OPT_CONNECT_TI| ', 'my_password', 'my_db')) {    die('Помилка підключення (' . mysqli_connect_errno() . ')                                                <br><br><br><br><br><br>                   <br><br><br><br>) $ mysqli->host_info. "
+` <?php$mysqli = mysqli_init();if (!$mysqli) {    die('mysqli_init завершилася провалом');}if (!$mysqli->options(MYSQLI_INIT_COMMAND, '   'Установка MYSQLI_INIT_COMMAND завершилася провалом');}if (!$mysqli->options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {    die('Установка MYSQLI_OPT_CONNECT_TI| ', 'my_password', 'my_db')) {    die('Помилка підключення (' . mysqli_connect_errno() . ')                                                <br><br><br><br><br><br>                   <br><br><br><br>) $ mysqli->host_info. "
 ";$mysqli->close();?> `
 
 Об'єктно-орієнтований стиль при розширенні класу mysqli
 
-` <?phpclass foo_mysqli extends mysqli {    public function __construct($host, $user, $pass, $db) {        parent::init(); if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT u003d 0')) {            die('Установка MYSQLI_INIT_COMMAND'завершилася; }        if (!parent::options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {            die('Установка MYSQLI_OPT_CONNECT_TI ') }        if (!parent::real_connect($host, $user, $pass, $db)) {            die('Ошибка подключения (' . mysqli_connect_errno() . ') '                    . mysqli_connect_error()); }    }}$db u003d new foo_mysqli('localhost', 'my_user', 'my_password', 'my_db');echo 'Виконано... ' . $db->host_info . "
+` <?phpclass foo_mysqli extends mysqli {    public function __construct($host, $user, $pass, $db) {        parent::init(); if (!parent::options(MYSQLI_INIT_COMMAND, 'SET AUTOCOMMIT = 0')) {            die('Установка MYSQLI_INIT_COMMAND'завершилася; }        if (!parent::options(MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {            die('Установка MYSQLI_OPT_CONNECT_TI ') }        if (!parent::real_connect($host, $user, $pass, $db)) {            die('Ошибка подключения (' . mysqli_connect_errno() . ') '                    . mysqli_connect_error()); }    }}$db = new foo_mysqli('localhost', 'my_user', 'my_password', 'my_db');echo 'Виконано... ' . $db->host_info . "
 ";$db->close();?> `
 
 Процедурний стиль
 
-`<?php$link u003d mysqli_init();if (!$link) {    die('mysqli_init завершилася провалом');}if (!mysqli_options($link, MYSQLI_INIT_COMMAND, '   | Установка MYSQLI_INIT_COMMAND завершилась провалом');}if (!mysqli_options($link, MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');}if (!mysqli_real_connect($link, 'localhost', 'my_user', ' my_password', 'my_db')) {   die('Помилка підключення (' . mysqli_connect_errno() . ') '              . mysqli'' ми| mysqli_get_host_info($link) . "
+`<?php$link = mysqli_init();if (!$link) {    die('mysqli_init завершилася провалом');}if (!mysqli_options($link, MYSQLI_INIT_COMMAND, '   | Установка MYSQLI_INIT_COMMAND завершилась провалом');}if (!mysqli_options($link, MYSQLI_OPT_CONNECT_TIMEOUT, 5)) {    die('Установка MYSQLI_OPT_CONNECT_TIMEOUT завершилась провалом');}if (!mysqli_real_connect($link, 'localhost', 'my_user', ' my_password', 'my_db')) {   die('Помилка підключення (' . mysqli_connect_errno() . ') '              . mysqli'' ми| mysqli_get_host_info($link) . "
 "; mysqli_close($link);?> `
 
 Результат виконання даних прикладів:

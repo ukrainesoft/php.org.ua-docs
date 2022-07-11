@@ -8,7 +8,7 @@
 
 # Swoole\Buffer::write
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Buffer::write — Записує дані до буфера пам'яті. Пам'ять,
 виділена для буфера, не буде змінена

@@ -7,7 +7,7 @@
 
 # Swoole\Server::listen
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::listen — Слухає по заданому IP та порту, тип сокету
 

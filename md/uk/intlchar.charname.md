@@ -14,7 +14,7 @@ IntlChar::charName — Отримати ім'я Unicode
 ### Опис
 
 public static **IntlChar::charName**(int\|string `$codepoint`, int
-`$type` u003d IntlChar::UNICODE_CHAR_NAME): ?string
+`$type` = IntlChar::UNICODE_CHAR_NAME): ?string
 
 Повертає ім'я Unicode.
 

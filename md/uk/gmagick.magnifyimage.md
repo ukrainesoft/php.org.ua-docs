@@ -7,7 +7,7 @@
 
 # Gmagick::magnifyimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::magnifyimage — Пропорційно масштабує зображення в 2
 рази

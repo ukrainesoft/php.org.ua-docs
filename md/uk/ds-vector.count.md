@@ -7,7 +7,7 @@
 
 # Ds\Vector::count
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::count — Повертає кількість елементів вектора
 

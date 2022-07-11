@@ -7,7 +7,7 @@
 
 # ZMQSocket::isPersistent
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::isPersistent — Визначити, чи є сокет постійним
 

@@ -7,7 +7,7 @@
 
 # SplFixedArray::fromArray
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplFixedArray::fromArray — Імпортує PHP-масив в об'єкт класу
 [SplFixedArray](class.splfixedarray.md)
@@ -15,7 +15,7 @@ SplFixedArray::fromArray — Імпортує PHP-масив в об'єкт кл
 ### Опис
 
 public static **SplFixedArray::fromArray**(array `$array`, bool
-`$preserveKeys` u003d **`true`**): [SplFixedArray](class.splfixedarray.md)
+`$preserveKeys` = **`true`**): [SplFixedArray](class.splfixedarray.md)
 
 Імпортує PHP-масив `array` у новий об'єкт класу
 [SplFixedArray](class.splfixedarray.md)
@@ -38,25 +38,25 @@ public static **SplFixedArray::fromArray**(array `$array`, bool
 
 **Приклад #1 Приклад використання **SplFixedArray::fromArray()****
 
-` <?php$fa u003d SplFixedArray::fromArray(array(1 u003d> 1, 0 u003d> 2, 3 u003d> 3));var_dump($fa);$fa u003d SplFixedArray::fromArray(array(1 1, 0 u003d> 2, 3 u003d> 3), false);var_dump($fa);?> `
+` <?php$fa = SplFixedArray::fromArray(array(1 => 1, 0 => 2, 3 => 3));var_dump($fa);$fa = SplFixedArray::fromArray(array(1 1, 0 => 2, 3 => 3), false);var_dump($fa);?> `
 
 Результат виконання цього прикладу:
 
 object(SplFixedArray)#1 (4) {
-[0]u003d>
+[0]=>
 int(2)
-[1]u003d>
+[1]=>
 int(1)
-[2]u003d>
+[2]=>
 NULL
-[3]u003d>
+[3]=>
 int(3)
 }
 object(SplFixedArray)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

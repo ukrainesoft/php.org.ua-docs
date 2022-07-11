@@ -37,4 +37,4 @@ Imagick::textureImage — Багаторазово розміщує зображ
 
 **Приклад #1 Приклад використання **Imagick::textureImage()****
 
-` <?phpfunction textureImage($imagePath) {   $image u003d new \Imagick(); $image->newImage(640, 480, new \ImagickPixel('pink')); $image->setImageFormat("jpg"); $texture u003d new \Imagick(realpath($imagePath)); $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4); $image u003d $image->textureImage($texture); header("Content-Type: image/jpg"); echo $image;}?> `
+` <?phpfunction textureImage($imagePath) {   $image = new \Imagick(); $image->newImage(640, 480, new \ImagickPixel('pink')); $image->setImageFormat("jpg"); $texture = new \Imagick(realpath($imagePath)); $texture->scaleimage($image->getimagewidth() / 4, $image->getimageheight() / 4); $image = $image->textureImage($texture); header("Content-Type: image/jpg"); echo $image;}?> `

@@ -35,20 +35,20 @@ current — Повертає поточний елемент масиву
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Виклик функції в об'єкті (object) оголошено застарілим. Або спочатку використовуйте для об'єкта (object) функцію [get_mangled_object_vars()](function.get-mangled-object-vars.md), або використовуйте [ArrayIterator](class.arrayiterator.md). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **current()** та дружніх функцій**
 
-` <?php$transport u003d array('foot', 'bike', 'car', 'plane');$mode u003dcurrent($transport); // $mode u003d 'foot';$mode u003d next($transport); // $mode u003d 'bike';$mode u003d current($transport); // $mode u003d 'bike';$mode u003d prev($transport); // $mode u003d 'foot';$mode u003d end($transport); // $mode u003d 'plane';$mode u003d current($transport); // $mode u003d 'plane';$arr u003d array();var_dump(current($arr)); //bool(false)$arru003du003darray(array());var_dump(current($arr)); // array(0) { }?> `
+` <?php$transport = array('foot', 'bike', 'car', 'plane');$mode =current($transport); // $mode = 'foot';$mode = next($transport); // $mode = 'bike';$mode = current($transport); // $mode = 'bike';$mode = prev($transport); // $mode = 'foot';$mode = end($transport); // $mode = 'plane';$mode = current($transport); // $mode = 'plane';$arr = array();var_dump(current($arr)); //bool(false)$arr==array(array());var_dump(current($arr)); // array(0) { }?> `
 
 ### Примітки
 

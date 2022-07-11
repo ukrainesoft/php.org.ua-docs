@@ -7,7 +7,7 @@
 
 # PharData::\_\_construct
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::\_\_construct — Конструктор об'єкта PharData
 
@@ -15,10 +15,10 @@ PharData::\_\_construct — Конструктор об'єкта PharData
 
 public **PharData::\_\_construct**(
 string `$filename`,
-int `$flags` u003d FilesystemIterator::SKIP_DOTS \|
+int `$flags` = FilesystemIterator::SKIP_DOTS \|
 FilesystemIterator::UNIX_PATHS,
-?string `$alias` u003d **`null`**,
-int `$format` u003d 0
+?string `$alias` = **`null`**,
+int `$format` = 0
 )
 
 ### Список параметрів
@@ -50,4 +50,4 @@ Phar-архів неможливо відкрити.
 
 **Приклад #1 Приклад використання **PharData::\_\_construct()****
 
-`<?phptry {   $p u003d new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);} catch (UnexpectedValue          ');} catch (BadMethodCallException $e) {    echo 'Технічно, ніколи не відбудеться';}echo file_get_contents('phar:///path/to/my.tar/'t'>?
+`<?phptry {   $p = new PharData('/path/to/my.tar', Phar::CURRENT_AS_FILEINFO | Phar::KEY_AS_FILENAME);} catch (UnexpectedValue          ');} catch (BadMethodCallException $e) {    echo 'Технічно, ніколи не відбудеться';}echo file_get_contents('phar:///path/to/my.tar/'t'>?

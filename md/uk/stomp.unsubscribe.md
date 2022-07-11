@@ -9,7 +9,7 @@
 
 #stomp_unsubscribe
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::unsubscribe -- stomp_unsubscribe — Видаляє існуючу передплату
 
@@ -17,13 +17,13 @@ Stomp::unsubscribe -- stomp_unsubscribe — Видаляє існуючу пер
 
 Об'єктно-орієнтований стиль (метод):
 
-public **Stomp::unsubscribe**(string `$destination`, array `$headers` u003d
+public **Stomp::unsubscribe**(string `$destination`, array `$headers` =
 ?): bool
 
 Процедурний стиль:
 
 **stomp_unsubscribe**(resource `$link`, string `$destination`, array
-`$headers` u003d ?): bool
+`$headers` = ?): bool
 
 Видаляє існуючу передплату.
 

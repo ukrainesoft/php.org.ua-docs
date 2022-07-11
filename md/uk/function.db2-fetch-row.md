@@ -8,14 +8,14 @@
 
 #db2_fetch_row
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_fetch_row — Встановлює покажчик набору результатів на наступний
 рядок або запитаний рядок
 
 ### Опис
 
-**db2_fetch_row**(resource `$stmt`, int `$row_number` u003d ?): bool
+**db2_fetch_row**(resource `$stmt`, int `$row_number` = ?): bool
 
 Використовуйте **db2_fetch_row()** для ітерації набір результатів або
 для вказівки на певний рядок у наборі результатів, якщо ви
@@ -55,7 +55,7 @@ db2_fetch_row — Встановлює покажчик набору резул�
 результатів за допомогою **db2_fetch_row()** та отримати стовпці з набору
 результатів за допомогою [db2_result()](function.db2-result.md).
 
-` <?php$sql u003d 'SELECT name, breed FROM animals WHERE weight < ?';$stmt u003d db2_prepare($conn, $sql);db2_execute($stmt, array(10)_t$2 ) {   $name u003d db2_result($stmt, 0); $breed u003d db2_result ($stmt, 1); print "$name $breed";}?> `
+` <?php$sql = 'SELECT name, breed FROM animals WHERE weight < ?';$stmt = db2_prepare($conn, $sql);db2_execute($stmt, array(10)_t$2 ) {   $name = db2_result($stmt, 0); $breed = db2_result ($stmt, 1); print "$name $breed";}?> `
 
 Результат виконання цього прикладу:
 
@@ -81,7 +81,7 @@ i5/OS**
 [db2_fetch_object()](function.db2-fetch-object.md) перевершує
 **db2_fetch_row()**/[db2_result()](function.db2-result.md).
 
-`<?php  $conn u003d db2_connect("","",""); $sql u003d 'SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_SCHEMA, ROUTINE_NAME, ROUTINE_TYPE, ROUTINE_CREATED, ROUTINE_BODY, IN_PARMS, OUT_PARMS, INOUT_PARMS, PARAMETER_STYLE, EXTERNAL_NAME, EXTERNAL_LANGUAGE FROM QSYS2.SYSROUTINES FETCH FIRST 2 ROWS ONLY'; $stmt u003d db2_exec($conn, $sql, array('cursor' u003d> DB2_SCROLLABLE)); while($row u003d db2_fetch_both($stmt)){   echo "<br>db2_fetch_both {$row['SPECIFIC_NAME']} {$row['ROUTINE_CREATED']} {$row[5] }  $stmt u003d db2_exec($conn, $sql, array('cursor' u003d> DB2_SCROLLABLE)); while($row u003d db2_fetch_array($stmt)){   echo "<br>db2_fetch_array {$row[1]}  {$row[5]}"; }  $stmt u003d db2_exec($conn, $sql, array('cursor' u003d> DB2_SCROLLABLE)); while($row u003d db2_fetch_object($stmt)){   echo "<br>db2_fetch_object {$row->SPECIFIC_NAME} {$row->ROUTINE_CREATED}"; }  db2_close($conn);?> `
+`<?php  $conn = db2_connect("","",""); $sql = 'SELECT SPECIFIC_SCHEMA, SPECIFIC_NAME, ROUTINE_SCHEMA, ROUTINE_NAME, ROUTINE_TYPE, ROUTINE_CREATED, ROUTINE_BODY, IN_PARMS, OUT_PARMS, INOUT_PARMS, PARAMETER_STYLE, EXTERNAL_NAME, EXTERNAL_LANGUAGE FROM QSYS2.SYSROUTINES FETCH FIRST 2 ROWS ONLY'; $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE)); while($row = db2_fetch_both($stmt)){   echo "<br>db2_fetch_both {$row['SPECIFIC_NAME']} {$row['ROUTINE_CREATED']} {$row[5] }  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE)); while($row = db2_fetch_array($stmt)){   echo "<br>db2_fetch_array {$row[1]}  {$row[5]}"; }  $stmt = db2_exec($conn, $sql, array('cursor' => DB2_SCROLLABLE)); while($row = db2_fetch_object($stmt)){   echo "<br>db2_fetch_object {$row->SPECIFIC_NAME} {$row->ROUTINE_CREATED}"; }  db2_close($conn);?> `
 
 Результат виконання цього прикладу:
 

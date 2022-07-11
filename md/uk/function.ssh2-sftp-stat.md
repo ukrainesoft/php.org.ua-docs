@@ -7,7 +7,7 @@
 
 # ssh2_sftp_stat
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp_stat — Інформація про файл
 
@@ -37,7 +37,7 @@ ssh2_sftp_stat — Інформація про файл
 
 **Приклад #1 Інформація про файл**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);$statinfo u003d ssh$ , '/path/to/file');$filesize u003d $statinfo['size'];$group u003d $statinfo['gid'];$owner u003d $statinfo['uid'];$atime u003d $statinfo[ 'atime'];$mtime u003d $statinfo['mtime'];$mode u003d $statinfo['mode'];?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);$statinfo = ssh$ , '/path/to/file');$filesize = $statinfo['size'];$group = $statinfo['gid'];$owner = $statinfo['uid'];$atime = $statinfo[ 'atime'];$mtime = $statinfo['mtime'];$mode = $statinfo['mode'];?> `
 
 ### Дивіться також
 

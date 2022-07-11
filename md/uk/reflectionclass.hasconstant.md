@@ -7,7 +7,7 @@
 
 # ReflectionClass::hasConstant
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::hasConstant — Перевіряє, чи визначена константа
 
@@ -30,7 +30,7 @@ public **ReflectionClass::hasConstant**(string `$name`): bool
 
 **Приклад #1 Приклад використання **ReflectionClass::hasConstant()****
 
-` <?phpclass Foo {   const c1 u003d 1;}$class u003d new ReflectionClass("Foo");var_dump($class->hasConstant("c1"));var_dump($class->hasConstant(" ;?> `
+` <?phpclass Foo {   const c1 = 1;}$class = new ReflectionClass("Foo");var_dump($class->hasConstant("c1"));var_dump($class->hasConstant(" ;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

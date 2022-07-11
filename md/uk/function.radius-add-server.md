@@ -7,7 +7,7 @@
 
 #radius_add_server
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_add_server — Додає сервер
 

@@ -8,7 +8,7 @@
 
 # SolrQuery::getHighlightRegexMaxAnalyzedChars
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getHighlightRegexMaxAnalyzedChars — Повертає максимальне
 кількість символів з поля при використанні фрагментатора регулярного

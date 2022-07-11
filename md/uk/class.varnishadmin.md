@@ -7,7 +7,7 @@
 
 # Клас VarnishAdmin
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 ## Вступ
 
@@ -27,7 +27,7 @@ public [clearPanic](varnishadmin.clearpanic.md)(): int
 
 public [connect](varnishadmin.connect.md)(): bool
 
-public [\_\_construct](varnishadmin.construct.md)(array `$args` u003d ?)
+public [\_\_construct](varnishadmin.construct.md)(array `$args` = ?)
 
 public [disconnect](varnishadmin.disconnect.md)(): bool
 

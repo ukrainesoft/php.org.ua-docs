@@ -7,7 +7,7 @@
 
 # Swoole\Channel::pop
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Channel::pop — Читає та витягує дані з каналу Swoole
 

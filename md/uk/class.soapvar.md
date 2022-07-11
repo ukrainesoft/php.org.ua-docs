@@ -24,15 +24,15 @@ public int `$enc_type`;
 
 public
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$enc_value` u003d null;
+`$enc_value` = null;
 
-public ?string `$enc_stype` u003d null;
+public ?string `$enc_stype` = null;
 
-public ?string `$enc_ns` u003d null;
+public ?string `$enc_ns` = null;
 
-public ?string `$enc_name` u003d null;
+public ?string `$enc_name` = null;
 
-public ?string `$enc_namens` u003d null;
+public ?string `$enc_namens` = null;
 
 /\* Методи \*/
 
@@ -40,10 +40,10 @@ public [\_\_construct](soapvar.construct.md)(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$data`,
 ?int `$encoding`,
-?string `$typeName` u003d **`null`**,
-?string `$typeNamespace` u003d **`null`**,
-?string `$nodeName` u003d **`null`**,
-?string `$nodeNamespace` u003d **`null`**
+?string `$typeName` = **`null`**,
+?string `$typeNamespace` = **`null`**,
+?string `$nodeName` = **`null`**,
+?string `$nodeNamespace` = **`null`**
 )
 
 }

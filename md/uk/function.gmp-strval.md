@@ -7,13 +7,13 @@
 
 #gmp_strval
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_strval — Перетворення GMP числа на рядок
 
 ### Опис
 
-**gmp_strval**([GMP](class.gmp.md)\|int\|string `$num`, int `$base` u003d
+**gmp_strval**([GMP](class.gmp.md)\|int\|string `$num`, int `$base` =
 10): string
 
 Перетворює GMP число в рядок у системі числення `base`. За замовчуванням
@@ -39,4 +39,4 @@ GMP число для конвертації.
 
 **Приклад #1 Перетворення GMP числа в рядок**
 
-` <?php$a u003d gmp_init("0x41682179fbf5");printf("Десятичне: %s, 36-річне: %s", gmp_strval($a), gmp_strval($a,36));?> `
+` <?php$a = gmp_init("0x41682179fbf5");printf("Десятичне: %s, 36-річне: %s", gmp_strval($a), gmp_strval($a,36));?> `

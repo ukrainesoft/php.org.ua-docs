@@ -31,7 +31,7 @@ index.php єдина точка входу в додаток, всі запит�
 направляти через нього (наприклад, за допомогою .htaccess в Apache +
 php_mod)
 
-` <?phpdefine("APPLICATION_PATH", dirname(__FILE__));$app u003du003d new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");$app->bootstrap() /Виконання| ->run();?> `
+` <?phpdefine("APPLICATION_PATH", dirname(__FILE__));$app == new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");$app->bootstrap() /Виконання| ->run();?> `
 
 **Приклад #3 Правила перенаправлення**
 
@@ -53,9 +53,9 @@ rewrite ^/(.*) /index.php$1 last;
 }
 
 #для lighttpd
-$HTTP["host"] u003d~ "(www.)?domain.com$" {
-url.rewrite u003d (
-"^/(.+)/?$" u003d> "/index.php/$1",
+$HTTP["host"] =~ "(www.)?domain.com$" {
+url.rewrite = (
+"^/(.+)/?$" => "/index.php/$1",
 )
 }
 
@@ -64,16 +64,16 @@ url.rewrite u003d (
 `` inicode
 [yaf]
 ;APPLICATION_PATH повинна бути визначена в index.php
-application.directoryu003dAPPLICATION_PATH "/application/"
+application.directory=APPLICATION_PATH "/application/"
 
 ;product секція повинна успадковувати yaf
 [product:yaf]
-foou003dbar
+foo=bar
 ````
 
 **Приклад #5 Контролер за замовчуванням**
 
-` <?phpclass IndexController extends Yaf_Controller_Abstract {   /* дія за мовчанням */   public function indexAction() {       $this-> //або       // $this->getView()->word u003d "hello world"; }}?> `
+` <?phpclass IndexController extends Yaf_Controller_Abstract {   /* дія за мовчанням */   public function indexAction() {       $this-> //або       // $this->getView()->word = "hello world"; }}?> `
 
 **Приклад #6 Шаблон виводу за замовчуванням**
 

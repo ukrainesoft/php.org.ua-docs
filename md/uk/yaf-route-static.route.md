@@ -7,7 +7,7 @@
 
 # Yaf_Route_Static::route
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Static::route — Надсилає запит
 
@@ -37,19 +37,19 @@ public
 `` shellcode
 // за умови, що визначено лише один модуль:Index
 Запит: http://yourdomain.com/a/b
-u003d> module u003d index, controlleru003da, actionu003db
+=> module = index, controller=a, action=b
 
-//за умови, що ap.action_prefer u003d On
+//за умови, що ap.action_prefer = On
 Запит: http://yourdomain.com/b
-u003d> module u003d default(index), controller u003d default(index), action u003d b
+=> module = default(index), controller = default(index), action = b
 
-//за умови, що ap.action_prefer u003d Off
+//за умови, що ap.action_prefer = Off
 Запит: http://yourdomain.com/b
-u003d> module u003d default(index), controller u003d b, action u003d default(index)
+=> module = default(index), controller = b, action = default(index)
 
 
 Запит: http://yourdomain.com/a/b/foo/bar/test/a/id/4
-u003d> module u003d default(index), controller u003d a, action u003d b, параметри запиту: foo u003d bar, test u003d a, id u003d 4
+=> module = default(index), controller = a, action = b, параметри запиту: foo = bar, test = a, id = 4
 ````
 
 ### Дивіться також

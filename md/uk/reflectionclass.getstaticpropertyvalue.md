@@ -7,7 +7,7 @@
 
 # ReflectionClass::getStaticPropertyValue
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ReflectionClass::getStaticPropertyValue — Повертає значення
 статичної властивості
@@ -16,7 +16,7 @@ ReflectionClass::getStaticPropertyValue — Повертає значення
 
 public **ReflectionClass::getStaticPropertyValue**(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`&$def_value` u003d ?):
+`&$def_value` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає значення статичної якості класу.
@@ -41,7 +41,7 @@ public **ReflectionClass::getStaticPropertyValue**(string `$name`,
 **Приклад #1 Приклад використання
 **ReflectionClass::getStaticPropertyValue()****
 
-` <?phpclass Apple {    public static $color u003d 'Red';}$class u003d new ReflectionClass('Apple');var_dump($class->getStaticPropertyValue('color'));?> `
+` <?phpclass Apple {    public static $color = 'Red';}$class = new ReflectionClass('Apple');var_dump($class->getStaticPropertyValue('color'));?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # fann_set_cascade_candidate_limit
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_candidate_limit - Встановлює ліміт кандидатів
 

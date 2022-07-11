@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::executeBulkWrite
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::executeBulkWrite — Виконує одну або кілька
 операцій запису
@@ -17,7 +17,7 @@ MongoDB\Driver\Manager::executeBulkWrite — Виконує одну або кі
 final public **MongoDB\Driver\Manager::executeBulkWrite**(string
 `$namespace`,
 [MongoDB\Driver\BulkWrite](class.mongodb-driver-bulkwrite.md) `$bulk`,
-array `$options` u003d array()):
+array `$options` = array()):
 [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)
 
 Виконує одну або кілька операцій запису на головному сервері.
@@ -39,7 +39,7 @@ array `$options` u003d array()):
 
 `опції`
 | Опція        | Тип                                                                 | Опис                                          |
-| ------------ | ------------------------------------------------------------------- | --------------------------------------------- |
+|--------------|---------------------------------------------------------------------|-----------------------------------------------|
 | session      | [MongoDB\Driver\Session](class.mongodb-driver-session.md)           | Сесія зв'язування з операцією.                |
 | writeConcern | [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md) | Гарантія запису для застосування до операції. |
 
@@ -86,7 +86,7 @@ array `$options` u003d array()):
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                                                                                                                    |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | Якщо опція "session" використовується в поєднанні з непідтвердженою гарантією запису, викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).                                                                              |
 | PECL mongodb 1.4.0 | Третій параметр options тепер є масивом. Для зворотної сумісності цей параметр також приймає об'єкт [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md).                                                                                                                                |
 | PECL mongodb 1.3.0 | Тепер викидається виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md), якщо bulk не містить операцій запису. Раніше викидалося [MongoDB\Driver\Exception\BulkWriteException](class.mongodb-driver-exception-bulkwriteexception.md). |
@@ -96,12 +96,12 @@ array `$options` u003d array()):
 **Приклад #1 Приклад використання
 **MongoDB\Driver\Manager::executeBulkWrite()****
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite();$bulk->insert(['_id' u003d> 1, 'x' u003d> 1]);$bulk->insert(['_id' u003d > 2, 'x' u003d> 2]);$bulk->update(['x' u003d> 2], ['$set' u003d> ['x' u003d> 1]], ['multi' u003d> false, 'upsert' u003d> false]);$bulk->update(['x' u003d> 3], ['$set' u003d> ['x' u003d> 3]], ['multi' u003d> false , 'upsert' u003d> true]);$bulk->update(['_id' u003d> 3], ['$set' u003d> ['x' u003d> 3]], ['multi' u003d> false, 'upsert' u003d> true]);$bulk->insert(['_id' u003d> 4, 'x' u003d> 2]);$bulk->delete(['x' u003d> 1], ['limit ' u003d> 1]);$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$writeConcern u003d new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::1: $result u003d $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);printf("Додано %d документ(ів)
+` <?php$bulk = new MongoDB\Driver\BulkWrite();$bulk->insert(['_id' => 1, 'x' => 1]);$bulk->insert(['_id' = > 2, 'x' => 2]);$bulk->update(['x' => 2], ['$set' => ['x' => 1]], ['multi' => false, 'upsert' => false]);$bulk->update(['x' => 3], ['$set' => ['x' => 3]], ['multi' => false , 'upsert' => true]);$bulk->update(['_id' => 3], ['$set' => ['x' => 3]], ['multi' => false, 'upsert' => true]);$bulk->insert(['_id' => 4, 'x' => 2]);$bulk->delete(['x' => 1], ['limit ' => 1]);$manager = new MongoDB\Driver\Manager('mongodb://localhost:27017');$writeConcern = new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::1: $result = $manager->executeBulkWrite('db.collection', $bulk, $writeConcern);printf("Додано %d документ(ів)
 ", $result->getInsertedCount());printf("Знайдено %d документ(ів)
 ", $result->getMatchedCount());printf("Оновлено %d документ(ів)
 ", $result->getModifiedCount());printf("Додано|і|додано|%d документ(ів)
 ", $result->getUpsertedCount());printf("Видалено %d документ(ів)
-", $result->getDeletedCount());foreach ($result->getUpsertedIds() as $index u003d> $id) {    printf('upsertedId[%d]: ', $index);    var_; }/* Якщо WriteConcern не може бути виконаний */if ($writeConcernError u003d $result->getWriteConcernError()) {    printf("%s (%d): %s
+", $result->getDeletedCount());foreach ($result->getUpsertedIds() as $index => $id) {    printf('upsertedId[%d]: ', $index);    var_; }/* Якщо WriteConcern не може бути виконаний */if ($writeConcernError = $result->getWriteConcernError()) {    printf("%s (%d): %s
 ", $writeConcernError->getMessage(), $writeConcernError->getCode(), var_export($writeConcernError->getInfo(), true));}/* Якщо запис не може відбутися во () as $writeError) {    printf("Операція#%d: %s (%d)
 ", $writeError->getIndex(), $writeError->getMessage(), $writeError->getCode());}?> `
 
@@ -113,7 +113,7 @@ array `$options` u003d array()):
 Додано та додано 2 документ(ів)
 Видалено 1 документ(ів)
 upsertedId[3]: object(MongoDB\BSON\ObjectId)#5 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "54d3adc3ce7a792f4d703756"
 }
 upsertedId[4]: int(3)

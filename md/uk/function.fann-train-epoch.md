@@ -7,7 +7,7 @@
 
 # fann_train_epoch
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_train_epoch - Навчання протягом однієї епохи
 

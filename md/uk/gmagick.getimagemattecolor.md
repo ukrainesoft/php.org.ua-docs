@@ -7,7 +7,7 @@
 
 # Gmagick::getimagemattecolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagemattecolor — Повертає зображення матового кольору
 

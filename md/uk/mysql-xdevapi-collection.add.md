@@ -24,7 +24,7 @@ public
 1. Додавання одного документа у вигляді рядка JSON.
 
 2. Додавання одного документа у вигляді масиву, наприклад:
-`['field' u003d> 'value', 'field2' u003d> 'value2' ... ]`
+`['field' => 'value', 'field2' => 'value2' ... ]`
 
 3. В ту саму операцію можна додати, як документ, так і
 кілька документів.
@@ -51,14 +51,14 @@ public
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Collection::add()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");$create u003d $schema->createCollection("people");$collection u003d $schema->get people");// Додавання двох документів$collection->add('{"name": "Fred", "age": 21, "job": "Construction"}')->execute();$collection- >add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();// Додавання двох документів використовуючи один об'єкт JSON$result u003d >add(  '{"name": "Bernie",   "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0} ],   "hobbies": ["Sports","Making cupcakes"]}', '{"name": "Jane",   "jobs": [{"title":"Scientist","Salary":18 {"title":"Mother","Salary":0}],    "hobbies": ["Walking","Making pies"]}')->execute();// Отримання списку згенерованих ідентифікаторів останньої операції )$ids u003d $ result->getGeneratedIds();print_r($ids);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");$create = $schema->createCollection("people");$collection = $schema->get people");// Додавання двох документів$collection->add('{"name": "Fred", "age": 21, "job": "Construction"}')->execute();$collection- >add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();// Додавання двох документів використовуючи один об'єкт JSON$result = >add(  '{"name": "Bernie",   "jobs": [{"title":"Cat Herder","Salary":42000}, {"title":"Father","Salary":0} ],   "hobbies": ["Sports","Making cupcakes"]}', '{"name": "Jane",   "jobs": [{"title":"Scientist","Salary":18 {"title":"Mother","Salary":0}],    "hobbies": ["Walking","Making pies"]}')->execute();// Отримання списку згенерованих ідентифікаторів останньої операції )$ids = $ result->getGeneratedIds();print_r($ids);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 00005b6b5361000000000000056
-[1] u003d> 00005b6b5361000000000000057
+[0] => 00005b6b5361000000000000056
+[1] => 00005b6b5361000000000000057
 )
 
 ### Примітки

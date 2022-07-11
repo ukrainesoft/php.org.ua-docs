@@ -23,21 +23,21 @@ MySQL-сервер підтримує наявність в одному мул�
 
 **Приклад #1 Множинні запити**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$sql u003d "SELECT COUNT(*) AS _num FROM test;                   ¦             ¦                Я    ¦          Я            Я‚ test; ";$mysqli->multi_query($sql);do {    if ($result u003d $mysqli->store_result()) {     | $result->free(); }} while ($mysqli->next_result()); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$sql = "SELECT COUNT(*) AS _num FROM test;                   ¦             ¦                Я    ¦          Я            Я‚ test; ";$mysqli->multi_query($sql);do {    if ($result = $mysqli->store_result()) {     | $result->free(); }} while ($mysqli->next_result()); `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(1) {
-["_num"]u003d>
+["_num"]=>
 string(1) "0"
 }
 }
 array(1) {
-[0]u003d>
+[0]=>
 array(1) {
-["_num"]u003d>
+["_num"]=>
 string(1) "1"
 }
 }
@@ -56,7 +56,7 @@ string(1) "1"
 
 **Приклад #2 SQL-ін'єкція**
 
-` <?php$mysqli u003d new mysqli("example.com", "user", "password", "database");$result u003d $mysqli->query("SELECT 1; DROP TABLE mysql.user"); if (!$result) {   echo "Помилка під час виконання запиту: (" . $mysqli->errno . ") " . $ mysqli->error;}?> `
+` <?php$mysqli = new mysqli("example.com", "user", "password", "database");$result = $mysqli->query("SELECT 1; DROP TABLE mysql.user"); if (!$result) {   echo "Помилка під час виконання запиту: (" . $mysqli->errno . ") " . $ mysqli->error;}?> `
 
 Результат виконання цього прикладу:
 

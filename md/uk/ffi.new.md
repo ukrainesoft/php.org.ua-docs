@@ -7,18 +7,18 @@
 
 # FFI::new
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::new — Створює структуру даних C
 
 ### Опис
 
 public static **FFI::new**([FFI\CType](class.ffi-ctype.md)\|string
-`$type`, bool `$owned` u003d **`true`**, bool `$persistent` u003d **`false`**):
+`$type`, bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
 ?[FFI\CData](class.ffi-cdata.md)
 
 public **FFI::new**([FFI\CType](class.ffi-ctype.md)\|string `$type`,
-bool `$owned` u003d **`true`**, bool `$persistent` u003d **`false`**):
+bool `$owned` = **`true`**, bool `$persistent` = **`false`**):
 ?[FFI\CData](class.ffi-cdata.md)
 
 Створює структуру даних заданого типу. При статичному виклику

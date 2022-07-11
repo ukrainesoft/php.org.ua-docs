@@ -8,7 +8,7 @@ SplFileInfo::openFile
 
 # SplFileInfo::setFileClass
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::setFileClass — Задає ім'я класу, який буде
 використовуватися методом
@@ -16,7 +16,7 @@ SplFileInfo::setFileClass — Задає ім'я класу, який буде
 
 ### Опис
 
-public **SplFileInfo::setFileClass**(string `$class` u003d
+public **SplFileInfo::setFileClass**(string `$class` =
 SplFileObject::class): void
 
 Задає ім'я класу, яке використовуватиме метод
@@ -38,7 +38,7 @@ SplFileObject::class): void
 
 **Приклад #1 Приклад використання **SplFileInfo::setFileClass()****
 
-` <?php// Створити клас, розширюючий SplFileObjectclass MyFoo extends SplFileObject {}$info u003d new SplFileInfo(__FILE__);// Встановити ім'я класу для <$> ());?> `
+` <?php// Створити клас, розширюючий SplFileObjectclass MyFoo extends SplFileObject {}$info = new SplFileInfo(__FILE__);// Встановити ім'я класу для <$> ());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

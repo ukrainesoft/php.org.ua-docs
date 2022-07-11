@@ -7,7 +7,7 @@
 
 # GearmanJob::sendException
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanJob::sendException — Надсилання виключення завдання, що виконується
 

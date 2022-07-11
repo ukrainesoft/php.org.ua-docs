@@ -7,13 +7,13 @@
 
 # VarnishAdmin::\_\_construct
 
-(PECL varnish \>u003d 0.3)
+(PECL varnish \>= 0.3)
 
 VarnishAdmin::\_\_construct — VarnishAdmin constructor
 
 ### Опис
 
-public **VarnishAdmin::\_\_construct**(array `$args` u003d ?)
+public **VarnishAdmin::\_\_construct**(array `$args` = ?)
 
 ### Список параметрів
 
@@ -35,4 +35,4 @@ VARNISH_CONFIG_COMPAT - сумісність зі старшими версія�
 
 **Приклад #1 Приклад використання **VarnishAdmin::\_\_construct()****
 
-` <?php    $args u003d array(        VARNISH_CONFIG_HOST u003d> "::1",        VARNISH_CONFIG_PORT u003d> 6082,        VARNISH_CONFIG_SECRET u003d> "5174826b-8595-4958-aa7a-0609632ad7ca",        VARNISH_CONFIG_TIMEOUT u003d> 300,    ); $va u003d new VarnishAdmin($args);?> `
+` <?php    $args = array(        VARNISH_CONFIG_HOST => "::1",        VARNISH_CONFIG_PORT => 6082,        VARNISH_CONFIG_SECRET => "5174826b-8595-4958-aa7a-0609632ad7ca",        VARNISH_CONFIG_TIMEOUT => 300,    ); $va = new VarnishAdmin($args);?> `

@@ -7,7 +7,7 @@
 
 # trader_dx
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_dx - Індекс спрямованого руху
 
@@ -17,7 +17,7 @@ trader_dx - Індекс спрямованого руху
 array `$high`,
 array `$low`,
 array `$close`,
-int `$timePeriod` u003d ?
+int `$timePeriod` = ?
 ): array
 
 ### Список параметрів

@@ -7,7 +7,7 @@
 
 # Gmagick::minifyimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::minifyimage — Масштабує зображення пропорційно половині
 його розміру

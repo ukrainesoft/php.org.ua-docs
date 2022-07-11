@@ -7,7 +7,7 @@
 
 # SplObjectStorage::addAll
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SplObjectStorage::addAll — Додає всі об'єкти з іншого контейнера
 
@@ -32,7 +32,7 @@ public
 
 **Приклад #1 Приклад використання **SplObjectStorage::addAll()****
 
-` <?php$o u003d new StdClass;$a u003d new SplObjectStorage();$a[$o] u003d "hello";$b u003d new SplObjectStorage();$b->addAll($a);echo $b [$o]."
+` <?php$o = new StdClass;$a = new SplObjectStorage();$a[$o] = "hello";$b = new SplObjectStorage();$b->addAll($a);echo $b [$o]."
 ";?> `
 
 Результатом виконання цього прикладу буде щось подібне:

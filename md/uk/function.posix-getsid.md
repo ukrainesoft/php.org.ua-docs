@@ -36,7 +36,7 @@ posix_getsid — Повертає поточний процес SID
 
 **Приклад #1 Приклад використання **posix_getsid()****
 
-` <?php$pid u003d posix_getpid();echo posix_getsid($pid); //8805?> `
+` <?php$pid = posix_getpid();echo posix_getsid($pid); //8805?> `
 
 ### Дивіться також
 

@@ -7,13 +7,13 @@
 
 # trader_aroonosc
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_aroonosc — Осцилятор індикатора Aroon
 
 ### Опис
 
-**trader_aroonosc**(array `$high`, array `$low`, int `$timePeriod` u003d ?):
+**trader_aroonosc**(array `$high`, array `$low`, int `$timePeriod` = ?):
 array
 
 ### Список параметрів

@@ -32,7 +32,7 @@ public **DirectoryIterator::isReadable**(): bool
 
 **Приклад #1 Приклад використання **DirectoryIterator::isReadable()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isReadable()) {            "
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));foreach ($iterator as $fileinfo) {    if ($fileinfo->isReadable()) {            "
 ";    }}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

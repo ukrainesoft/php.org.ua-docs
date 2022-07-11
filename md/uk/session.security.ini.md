@@ -12,7 +12,7 @@
 рекомендованих значень. Ви самі відповідальні за вибір необхідних
 значень.
 
-- [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime)u003d0
+- [session.cookie_lifetime](session.configuration.md#ini.session.cookie-lifetime)=0
 
 `0` має особливе значення. Він повідомляє браузеру не зберігати cookie
 у постійне сховище. Отже, коли браузер закривається,
@@ -24,9 +24,9 @@ cookie. Найчастіше найкраще використовувати "`0
 самостійно і ніколи не використовуйте для цього довгоживучі
 сесії. Докладніше викладено вище у відповідних розділах.
 
-- [session.use_cookies](session.configuration.md#ini.session.use-cookies)u003dOn
+- [session.use_cookies](session.configuration.md#ini.session.use-cookies)=On
 
-[session.use_only_cookies](session.configuration.md#ini.session.use-only-cookies)u003dOn
+[session.use_only_cookies](session.configuration.md#ini.session.use-only-cookies)=On
 
 Незважаючи на те, що HTTP-cookie мають деякі проблеми, все ж вони
 найкращі для зберігання ідентифікатора сесії. Коли
@@ -34,11 +34,11 @@ cookie. Найчастіше найкраще використовувати "`0
 використовувати "cookie". Більшість програм повинні використовувати
 cookie для сесії ідентифікатора.
 
-Якщо `session.use_only_cookies`u003dOff, модуль сесії буде
+Якщо `session.use_only_cookies`=Off, модуль сесії буде
 використовувати ідентифікатор, встановлений через GET/POST/URL, якщо
 "cookie" не було виставлено заздалегідь.
 
-- [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)u003dOn
+- [session.use_strict_mode](session.configuration.md#ini.session.use-strict-mode)=On
 
 Вкрай рекомендується включати `session.use_strict_mode`. за
 замовчуванням не увімкнено.
@@ -62,7 +62,7 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 > за цим сценарієм. Тому `session.use_strict_mode` служить як
 > запобігання цьому.
 
-- [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly)u003dOn
+- [session.cookie_httponly](session.configuration.md#ini.session.cookie-httponly)=On
 
 Забороняє доступ до сесійної cookie для JavaScript. Ця опція
 запобігає крадіжці cookie за допомогою JavaScript-ін'єкції.
@@ -78,7 +78,7 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 > Захисний ключ CSRF повинен періодично оновлюватися, як і
 > ідентифікатор сесії.
 
-- [session.cookie_secure](session.configuration.md#ini.session.cookie-secure)u003dOn
+- [session.cookie_secure](session.configuration.md#ini.session.cookie-secure)=On
 
 Дозволяє отримувати доступ до cookie ідентифікатора сесії тільки за
 використання протоколу HTTPS. Якщо ваш сайт використовує тільки
@@ -86,9 +86,9 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 
 Для таких сайтів слід також розглядати використання HSTS.
 
-- [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)u003d"Lax"
+- [session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)="Lax"
 або
-[session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)u003d"Strict"
+[session.cookie_samesite](session.configuration.md#ini.session.cookie-samesite)="Strict"
 
 Починаючи з PHP 7.3, ви можете встановити cookie-прапор ``SameSite'` для
 ідентифікатор cookie сесії. Цей прапор є способом пом'якшення
@@ -100,7 +100,7 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 доступні в GET-запиті, що виходить з іншого домену, що реєструється,
 тоді як cookie, які використовують Strict, не будуть.
 
-- [session.gc_maxlifetime](session.configuration.md#ini.session.gc-maxlifetime)u003d[вибрати
+- [session.gc_maxlifetime](session.configuration.md#ini.session.gc-maxlifetime)=[вибрати
 найменший із можливих]
 
 `session.gc_maxlifetime` налаштування для видалення застарілих
@@ -131,7 +131,7 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 > memcache. Читайте відповідну документацію для повнішої
 > інформації.
 
-- [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid)u003dOff
+- [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid)=Off
 
 Використання прозорого керування сесійним ID не рекомендується.
 Ви можете використовувати його, якщо потрібно. Однак, вимкнення
@@ -143,22 +143,22 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 > Ідентифікатор сесії може витекти через закладку в браузері, URL
 > надісланий поштою, збережений вихідний HTML.
 
-- [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags)u003d[ігноровані
+- [session.trans_sid_tags](session.configuration.md#ini.session.trans-sid-tags)=[ігноровані
 теги]
 
-(PHP 7.1.0 \>u003d) Ви не повинні перезаписувати непотрібні HTML-теги.
+(PHP 7.1.0 \>=) Ви не повинні перезаписувати непотрібні HTML-теги.
 Значення за замовчуванням має бути достатньою для більшості
 випадків. Старі версії PHP для цього використовують
 [url_rewriter.tags](outcontrol.configuration.md#ini.url-rewriter.tags).
 
-- [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts)u003d[список
+- [session.trans_sid_hosts](session.configuration.md#ini.session.trans-sid-hosts)=[список
 хостів]
 
-(PHP 7.1.0 \>u003d) Ця установка визначає білий список хостів, для
+(PHP 7.1.0 \>=) Ця установка визначає білий список хостів, для
 яких дозволено прозоре керування ідентифікаторами сесій.
 Ніколи не додавайте недовірені хости. Якщо це налаштування
 порожня, то буде дозволено тільки $\_SERVER['HTTP_HOST'].
- - [session.referer_check](session.configuration.md#ini.session.referer-check)u003d[ваш
+ - [session.referer_check](session.configuration.md#ini.session.referer-check)=[ваш
 вихідний URL]
 
 Якщо [session.use_trans_sid](session.configuration.md#ini.session.use-trans-sid)
@@ -170,7 +170,7 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 Таким чином, цей параметр не є достатньо надійним показником
 безпеки, але, все ж таки, рекомендується його використовувати.
 
-- [session.cache_limiter](session.configuration.md#ini.session.cache-limiter)u003dnocache
+- [session.cache_limiter](session.configuration.md#ini.session.cache-limiter)=nocache
 
 Переконайтеся, що вміст HTTP не кешується для автентифікації
 сесії. Допускається кешувати лише неконфіденційний контент.
@@ -181,20 +181,20 @@ cookie або JavaScript-ін'єкцією. `session.use_strict_mode` може �
 можна використовувати тільки якщо HTTP-контент взагалі не містить
 жодних конфіденційних даних.
 
-- [session.sid_length](session.configuration.md#ini.session.sid-length)u003d"48"
+- [session.sid_length](session.configuration.md#ini.session.sid-length)="48"
 
-(PHP 7.1.0 \>u003d) Чим довший ідентифікатор сесії, тим він надійніший.
+(PHP 7.1.0 \>=) Чим довший ідентифікатор сесії, тим він надійніший.
 Довжина, що рекомендується, - 32 символи і більше. У будь-якому випадку, не менше
 26 символів потрібно для
-[session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character)u003d"5".
+[session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character)="5".
 
-- [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character)u003d"6"
+- [session.sid_bits_per_character](session.configuration.md#ini.session.sid-bits-per-character)="6"
 
-(PHP 7.1.0 \>u003d) Чим більше біт використовується для символів
+(PHP 7.1.0 \>=) Чим більше біт використовується для символів
 ідентифікатор сесії, тим більше надійні ідентифікатори будуть
 створено для тієї ж довжини ідентифікатора сесії.
 
-- [session.hash_function](session.configuration.md#ini.session.hash-function)u003d"sha256"
+- [session.hash_function](session.configuration.md#ini.session.hash-function)="sha256"
 
 (PHP 7.1.0 \<) Більш складна хеш-функція буде створювати більше
 складний сесійний ID. Хоча колізії з хеш майже не відбуваються і з
@@ -205,7 +205,7 @@ SHA-2 або новіший. Розробники також можуть вик
 [ентропії](session.configuration.md#ini.session.entropy-length)
 для цих функцій.
 
-- [session.save_path](session.configuration.md#ini.session.save-path)u003d[загальнодоступний
+- [session.save_path](session.configuration.md#ini.session.save-path)=[загальнодоступний
 каталог для читання]
 
 Якщо встановлено у загальнодоступний каталог для читання всім, такий як

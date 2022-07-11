@@ -8,14 +8,14 @@
 
 # Phar::canCompress
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::canCompress — Перевіряє, чи модуль phar підтримує стиснення з
 використанням zlib або bzip2
 
 ### Опис
 
-final public static **Phar::canCompress**(int `$compression` u003d 0): bool
+final public static **Phar::canCompress**(int `$compression` = 0): bool
 
 Цей метод слід використовувати для перевірки підтримки стиснення до
 завантаження phar-архіву, що містить стислі файли.

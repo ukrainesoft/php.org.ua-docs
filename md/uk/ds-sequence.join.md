@@ -7,13 +7,13 @@
 
 # Ds\Sequence::join
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::join — Склеює всі значення в рядок
 
 ### Опис
 
-abstract public **Ds\Sequence::join**(string `$glue` u003d ?): string
+abstract public **Ds\Sequence::join**(string `$glue` = ?): string
 
 Склеює всі значення в рядок, опціонально використовуючи заданий
 роздільник.
@@ -32,7 +32,7 @@ abstract public **Ds\Sequence::join**(string `$glue` u003d ?): string
 **Приклад #1 Приклад використання **Ds\Sequence::join()** з
 роздільником**
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", c", 1, 2, 3]);var_dump($sequence->join("|"));?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", c", 1, 2, 3]);var_dump($sequence->join("|"));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -41,7 +41,7 @@ string(11) "a|b|c|1|2|3"
 **Приклад #2 Приклад використання **Ds\Sequence::join()** без
 роздільника**
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c", 1, 2, 3]);var_dump($sequence->join());?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c", 1, 2, 3]);var_dump($sequence->join());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

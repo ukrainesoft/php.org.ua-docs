@@ -7,7 +7,7 @@
 
 # DateTimeImmutable::setTime
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setTime — Встановлює час
 
@@ -16,8 +16,8 @@ DateTimeImmutable::setTime — Встановлює час
 public **DateTimeImmutable::setTime**(
 int `$hour`,
 int `$minute`,
-int `$second` u003d 0,
-int `$microsecond` u003d 0
+int `$second` = 0,
+int `$microsecond` = 0
 ): [DateTimeImmutable](class.datetimeimmutable.md)
 
 Повертає новий об'єкт DateTimeImmutable з часом, встановленим на
@@ -51,7 +51,7 @@ int `$microsecond` u003d 0
 ### Список змін
 
 | Версія | Опис                          |
-| ------ | ----------------------------- |
+|--------|-------------------------------|
 | 7.1.0  | Доданий параметр microsecond. |
 
 ### Приклади
@@ -60,8 +60,8 @@ int `$microsecond` u003d 0
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable('2001-01-01');$newDate u003d $date->setTime(14, 55);echo $date->format('Y-m-d H:i:s') . "
-";$newDate u003d $date->setTime(14, 55, 24);echo $date->format('Y-m-d H:i:s') . "
+` <?php$date = new DateTimeImmutable('2001-01-01');$newDate = $date->setTime(14, 55);echo $date->format('Y-m-d H:i:s') . "
+";$newDate = $date->setTime(14, 55, 24);echo $date->format('Y-m-d H:i:s') . "
 ";?> `
 
 Результатом виконання даних прикладів буде щось подібне:
@@ -72,10 +72,10 @@ int `$microsecond` u003d 0
 **Приклад #2 Значення, що виходять за межі діапазону, додаються до
 своїм батьківським значенням**
 
-` <?php$date u003d new DateTimeImmutable('2001-01-01');$newDate u003d $date->setTime(14, 55, 24);echo $newDate->format('Y-m-d H:i:s: ) . "
-";$newDate u003d $date->setTime(14, 55, 65);echo $newDate->format('Y-m-d H:i:s') . "
-";$newDate u003d $date->setTime(14, 65, 24);echo $newDate->format('Y-m-d H:i:s') . "
-";$newDate u003d $date->setTime(25, 55, 24);echo $newDate->format('Y-m-d H:i:s') . "
+` <?php$date = new DateTimeImmutable('2001-01-01');$newDate = $date->setTime(14, 55, 24);echo $newDate->format('Y-m-d H:i:s: ) . "
+";$newDate = $date->setTime(14, 55, 65);echo $newDate->format('Y-m-d H:i:s') . "
+";$newDate = $date->setTime(14, 65, 24);echo $newDate->format('Y-m-d H:i:s') . "
+";$newDate = $date->setTime(25, 55, 24);echo $newDate->format('Y-m-d H:i:s') . "
 ";?> `
 
 Результат виконання цього прикладу:

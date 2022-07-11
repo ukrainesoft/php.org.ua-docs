@@ -7,7 +7,7 @@
 
 #enchant_broker_list_dicts
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL enchant u003d 1.0.1)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL enchant = 1.0.1)
 
 enchant_broker_list_dicts — Повертає список доступних словників
 
@@ -31,7 +31,7 @@ enchant_broker_list_dicts — Повертає список доступних �
 ### Список змін
 
 | Версія | Опис                                                                                                                               |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | broker чекає екземпляр [EnchantBroker](class.enchantbroker.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | До цієї версії функція повертала **false** у разі виникнення помилки.                                                              |
 
@@ -39,58 +39,58 @@ enchant_broker_list_dicts — Повертає список доступних �
 
 **Приклад #1 Список усіх доступних на брокері словників**
 
-` <?php$r u003d enchant_broker_init();$dicts u003d enchant_broker_list_dicts($r);print_r($dicts);?> `
+` <?php$r = enchant_broker_init();$dicts = enchant_broker_list_dicts($r);print_r($dicts);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[lang_tag] u003d> de
-[provider_name] u003d> aspell
-[provider_desc] u003d> Aspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang_tag] => de
+[provider_name] => aspell
+[provider_desc] => Aspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[1] u003d> Array
+[1] => Array
 (
-[lang_tag] u003d> de_DE
-[provider_name] u003d> aspell
-[provider_desc] u003d> Aspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang_tag] => de_DE
+[provider_name] => aspell
+[provider_desc] => Aspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[3] u003d> Array
+[3] => Array
 (
-[lang_tag] u003d> en
-[provider_name] u003d> aspell
-[provider_desc] u003d> Aspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang_tag] => en
+[provider_name] => aspell
+[provider_desc] => Aspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[4] u003d> Array
+[4] => Array
 (
-[lang_tag] u003d> en_GB
-[provider_name] u003d> aspell
-[provider_desc] u003d> Aspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang_tag] => en_GB
+[provider_name] => aspell
+[provider_desc] => Aspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[5] u003d> Array
+[5] => Array
 (
-[lang_tag] u003d> en_US
-[provider_name] u003d> aspell
-[provider_desc] u003d> Aspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang_tag] => en_US
+[provider_name] => aspell
+[provider_desc] => Aspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_aspell.so
 )
 
-[6] u003d> Array
+[6] => Array
 (
-[lang_tag] u003d> hi_IN
-[provider_name] u003d> myspell
-[provider_desc] u003d> Myspell Provider
-[provider_file] u003d> /usr/lib/enchant/libenchant_myspell.so
+[lang_tag] => hi_IN
+[provider_name] => myspell
+[provider_desc] => Myspell Provider
+[provider_file] => /usr/lib/enchant/libenchant_myspell.so
 )
 
 )

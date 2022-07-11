@@ -7,7 +7,7 @@
 
 # Клас SimpleXMLIterator
 
-(PHP 5 \>u003d 5.1.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.3, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -42,39 +42,39 @@ public [valid](simplexmliterator.valid.md)(): bool
 
 public
 [SimpleXMLElement::addAttribute](simplexmlelement.addattribute.md)(string
-`$qualifiedName`, string `$value`, ?string `$namespace` u003d **`null`**):
+`$qualifiedName`, string `$value`, ?string `$namespace` = **`null`**):
 void
 
 public
 [SimpleXMLElement::addChild](simplexmlelement.addchild.md)(string
-`$qualifiedName`, ?string `$value` u003d **`null`**, ?string `$namespace` u003d
+`$qualifiedName`, ?string `$value` = **`null`**, ?string `$namespace` =
 **`null`**): ?[SimpleXMLElement](class.simplexmlelement.md)
 
 public [SimpleXMLElement::asXML](simplexmlelement.asxml.md)(?string
-`$filename` u003d **`null`**): string\|bool
+`$filename` = **`null`**): string\|bool
 
 public
 [SimpleXMLElement::attributes](simplexmlelement.attributes.md)(?string
-`$namespaceOrPrefix` u003d **`null`**, bool `$isPrefix` u003d **`false`**):
+`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 public
 [SimpleXMLElement::children](simplexmlelement.children.md)(?string
-`$namespaceOrPrefix` u003d **`null`**, bool `$isPrefix` u003d **`false`**):
+`$namespaceOrPrefix` = **`null`**, bool `$isPrefix` = **`false`**):
 ?[SimpleXMLElement](class.simplexmlelement.md)
 
 public [SimpleXMLElement::count](simplexmlelement.count.md)(): int
 
 public
 [SimpleXMLElement::getDocNamespaces](simplexmlelement.getdocnamespaces.md)(bool
-`$recursive` u003d **`false`**, bool `$fromRoot` u003d **`true`**): array\|false
+`$recursive` = **`false`**, bool `$fromRoot` = **`true`**): array\|false
 
 public [SimpleXMLElement::getName](simplexmlelement.getname.md)():
 string
 
 public
 [SimpleXMLElement::getNamespaces](simplexmlelement.getnamespaces.md)(bool
-`$recursive` u003d **`false`**): array
+`$recursive` = **`false`**): array
 
 public
 [SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)(string
@@ -92,7 +92,7 @@ public [SimpleXMLElement::xpath](simplexmlelement.xpath.md)(string
 ## Список змін
 
 | Версія | Опис                                                                                   |
-| ------ | -------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------|
 | 8.0.0  | Клас **SimpleXMLIterator** тепер реалізує інтерфейс [Stringable](class.stringable.md). |
 
 ## Зміст

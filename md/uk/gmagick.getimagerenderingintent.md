@@ -7,7 +7,7 @@
 
 # Gmagick::getimagerenderingintent
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagerenderingintent — Отримує мету візуалізації зображення
 

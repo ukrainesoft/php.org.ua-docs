@@ -7,7 +7,7 @@
 
 # Memcached::set
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::set — Зберігає запис
 
@@ -15,7 +15,7 @@ Memcached::set — Зберігає запис
 
 public **Memcached::set**(string `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$expiration` u003d ?): bool
+`$value`, int `$expiration` = ?): bool
 
 **Memcached::set()** зберігає значення `value` на memcache сервері під
 вказаним ключем `key`. Параметр `expiration` може бути використаний для
@@ -48,16 +48,16 @@ public **Memcached::set**(string `$key`,
 
 **Приклад #1 Приклад використання **Memcached::set()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string '); stdclass, time() + 300);var_dump($m->get('int'));var_dump($m->get('string'));var_dump($m->get('array')) ;var_dump($m->get('object'));?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->set('int', 99);$m->set('string', 'a simple string '); stdclass, time() + 300);var_dump($m->get('int'));var_dump($m->get('string'));var_dump($m->get('array')) ;var_dump($m->get('object'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 int(99)
 string(15) "a simple string"
 array(2) {
-[0]u003d>
+[0]=>
 int(11)
-[1]u003d>
+[1]=>
 int(12)
 }
 object(stdClass)#1 (0) {

@@ -7,7 +7,7 @@
 
 # sodium_crypto_stream_keygen
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_stream_keygen - Генерує випадковий ключ
 sodium_crypto_stream

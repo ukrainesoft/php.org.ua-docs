@@ -32,22 +32,22 @@ is_string — Перевіряє, чи є змінним рядком
 
 **Приклад #1 Приклад використання **is_string()****
 
-` <?php$values u003d array(false, true, null, 'abc', '23', 23, '23.5', 23.5, '', ' ', '0', 0);foreach ($u$ value) {    echo "is_string(";   var_export($value);   echo ") u003d "; echo var_dump(is_string($value));}?> `
+` <?php$values = array(false, true, null, 'abc', '23', 23, '23.5', 23.5, '', ' ', '0', 0);foreach ($u$ value) {    echo "is_string(";   var_export($value);   echo ") = "; echo var_dump(is_string($value));}?> `
 
 Результат виконання цього прикладу:
 
-is_string(false) u003d bool(false)
-is_string(true) u003d bool(false)
-is_string(NULL) u003d bool(false)
-is_string('abc') u003d bool(true)
-is_string('23') u003d bool(true)
-is_string(23) u003d bool(false)
-is_string('23.5') u003d bool(true)
-is_string(23.5) u003d bool(false)
-is_string('') u003d bool(true)
-is_string(' ') u003d bool(true)
-is_string('0') u003d bool(true)
-is_string(0) u003d bool(false)
+is_string(false) = bool(false)
+is_string(true) = bool(false)
+is_string(NULL) = bool(false)
+is_string('abc') = bool(true)
+is_string('23') = bool(true)
+is_string(23) = bool(false)
+is_string('23.5') = bool(true)
+is_string(23.5) = bool(false)
+is_string('') = bool(true)
+is_string(' ') = bool(true)
+is_string('0') = bool(true)
+is_string(0) = bool(false)
 
 ### Дивіться також
 

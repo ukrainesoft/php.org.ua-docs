@@ -7,7 +7,7 @@
 
 # Parle\Parser::sigil
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\Parser::sigil — Витягує частину збігу за правилом
 

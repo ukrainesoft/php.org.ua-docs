@@ -59,11 +59,11 @@ eflectcounter.php
 * @return int
 */'
 --->=ичні змінні: array (
-'c' u003d> 0,
+'c' => 0,
 )
 
 ===
-u003du003du003d> user-defined функція '{closure}'
+===> user-defined функція '{closure}'
 оголошено в Z:
 eflectcounter.php
 рядки з 18 по 23
@@ -74,7 +74,7 @@ eflectcounter.php
 * @return int
 */'=
 ---> Статичні змінні: array (
-'d' u003d> 0,
+'d' => 0,
 )
 
 ### Дивіться також

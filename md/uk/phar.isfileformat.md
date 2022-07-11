@@ -7,7 +7,7 @@
 
 # Phar::isFileFormat
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::isFileFormat — Перевірити, що phar-архів має заданий формат
 (tar/phar/zip)

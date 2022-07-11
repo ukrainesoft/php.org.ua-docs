@@ -7,7 +7,7 @@
 
 # Ds\Set::reversed
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::reversed — Повертає перегорнуту копію колекції
 
@@ -33,19 +33,19 @@ public **Ds\Set::reversed**(): [Ds\Set](class.ds-set.md)
 
 **Приклад #1 Приклад використання **Ds\Set::reversed()****
 
-` <?php$set u003d new \Ds\Set(["a", "b", "c"]);print_r($set->reversed());print_r($set);?> `
+` <?php$set = new \Ds\Set(["a", "b", "c"]);print_r($set->reversed());print_r($set);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Set Object
 (
-[0] u003d> c
-[1] u003d> b
-[2] u003d> a
+[0] => c
+[1] => b
+[2] => a
 )
 Ds\Set Object
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
+[0] => a
+[1] => b
+[2] => c
 )

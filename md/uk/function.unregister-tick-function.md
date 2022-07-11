@@ -8,7 +8,7 @@
 
 #unregister_tick_function
 
-(PHP 4 \>u003d 4.0.3, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.3, PHP 5, PHP 7, PHP 8)
 
 unregister_tick_function — Видалення функції зі списку зареєстрованих
 для виконання на кожному тику

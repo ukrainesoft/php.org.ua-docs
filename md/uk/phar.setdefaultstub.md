@@ -8,15 +8,15 @@
 
 # Phar::setDefaultStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::setDefaultStub — Встановити завантажувач PHP або початкову заглушку
 Phar-архів у завантажувач за замовчуванням
 
 ### Опис
 
-public **Phar::setDefaultStub**(?string `$index` u003d **`null`**, ?string
-`$webIndex` u003d **`null`**): bool
+public **Phar::setDefaultStub**(?string `$index` = **`null`**, ?string
+`$webIndex` = **`null`**): bool
 
 > **Примітка**:
 >
@@ -54,14 +54,14 @@ php.ini. У разі проблем із записом на диск буде �
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | webIndex тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **Phar::setDefaultStub()****
 
-`<?phptry {   $phar u003d new Phar('myphar.phar'); $phar->setDefaultStub('cli.php', 'web/index.php'); // це аналогічно такому коду:    /// $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));} catch (Exception $e) { | ?> `
+`<?phptry {   $phar = new Phar('myphar.phar'); $phar->setDefaultStub('cli.php', 'web/index.php'); // це аналогічно такому коду:    /// $phar->setStub($phar->createDefaultStub('cli.php', 'web/index.php'));} catch (Exception $e) { | ?> `
 
 ### Дивіться також
 

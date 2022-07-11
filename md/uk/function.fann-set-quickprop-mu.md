@@ -7,7 +7,7 @@
 
 # fann_set_quickprop_mu
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_quickprop_mu - Встановлює МЮ-фактор quickprop
 

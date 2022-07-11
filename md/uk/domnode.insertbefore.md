@@ -15,7 +15,7 @@ DOMNode::insertBefore — Додає новий дочірній вузол пе
 ### Опис
 
 public **DOMNode::insertBefore**([DOMNode](class.domnode.md) `$node`,
-?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 Ця функція вставляє новий вузол перед вказаним вузлом. Щоб вносити

@@ -7,7 +7,7 @@
 
 # svn_fs_node_prop
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_node_prop — Повертає значення властивості вузла
 

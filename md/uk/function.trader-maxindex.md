@@ -7,13 +7,13 @@
 
 # trader_maxindex
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_maxindex — Індекс найбільшого значення за вказаний період
 
 ### Опис
 
-**trader_maxindex**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_maxindex**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

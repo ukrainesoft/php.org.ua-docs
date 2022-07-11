@@ -7,7 +7,7 @@
 
 #apache_response_headers
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 apache_response_headers — Повертає список усіх заголовків HTTP відповіді
 Apache
@@ -38,8 +38,8 @@ Apache
 
 Array
 (
-[Accept-Ranges] u003d> bytes
-[X-Powered-By] u003d> PHP/4.3.8
+[Accept-Ranges] => bytes
+[X-Powered-By] => PHP/4.3.8
 )
 
 ### Дивіться також

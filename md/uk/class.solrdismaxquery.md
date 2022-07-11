@@ -18,42 +18,42 @@ implements [Serializable](class.serializable.md) {
 
 /\* Наслідувані властивості \*/
 
-const int `SolrQuery::ORDER_ASC` u003d 0;
+const int `SolrQuery::ORDER_ASC` = 0;
 
-const int `SolrQuery::ORDER_DESC` u003d 1;
+const int `SolrQuery::ORDER_DESC` = 1;
 
-const int `SolrQuery::FACET_SORT_INDEX` u003d 0;
+const int `SolrQuery::FACET_SORT_INDEX` = 0;
 
-const int `SolrQuery::FACET_SORT_COUNT` u003d 1;
+const int `SolrQuery::FACET_SORT_COUNT` = 1;
 
-const int `SolrQuery::TERMS_SORT_INDEX` u003d 0;
+const int `SolrQuery::TERMS_SORT_INDEX` = 0;
 
-const int `SolrQuery::TERMS_SORT_COUNT` u003d 1;
+const int `SolrQuery::TERMS_SORT_COUNT` = 1;
 
 /\* Методи \*/
 
-public [\_\_construct](solrdismaxquery.construct.md)(string `$q` u003d ?)
+public [\_\_construct](solrdismaxquery.construct.md)(string `$q` = ?)
 
 public
 [addBigramPhraseField](solrdismaxquery.addbigramphrasefield.md)(string
-`$field`, string `$boost`, string `$slop` u003d ?):
+`$field`, string `$boost`, string `$slop` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 public [addBoostQuery](solrdismaxquery.addboostquery.md)(string
-`$field`, string `$value`, string `$boost` u003d ?):
+`$field`, string `$value`, string `$boost` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 public [addPhraseField](solrdismaxquery.addphrasefield.md)(string
-`$field`, string `$boost`, string `$slop` u003d ?):
+`$field`, string `$boost`, string `$slop` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 public [addQueryField](solrdismaxquery.addqueryfield.md)(string
-`$field`, string `$boost` u003d ?):
+`$field`, string `$boost` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 public
 [addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md)(string
-`$field`, string `$boost`, string `$slop` u003d ?):
+`$field`, string `$boost`, string `$slop` = ?):
 [SolrDisMaxQuery](class.solrdismaxquery.md)
 
 public [addUserField](solrdismaxquery.adduserfield.md)(string
@@ -140,7 +140,7 @@ public
 
 public
 [SolrQuery::addExpandSortField](solrquery.addexpandsortfield.md)(string
-`$field`, string `$order` u003d ?): [SolrQuery](class.solrquery.md)
+`$field`, string `$order` = ?): [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::addFacetDateField](solrquery.addfacetdatefield.md)(string
@@ -148,7 +148,7 @@ public
 
 public
 [SolrQuery::addFacetDateOther](solrquery.addfacetdateother.md)(string
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::addFacetField](solrquery.addfacetfield.md)(string
@@ -175,7 +175,7 @@ public [SolrQuery::addGroupQuery](solrquery.addgroupquery.md)(string
 
 public
 [SolrQuery::addGroupSortField](solrquery.addgroupsortfield.md)(string
-`$field`, int `$order` u003d ?): [SolrQuery](class.solrquery.md)
+`$field`, int `$order` = ?): [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::addHighlightField](solrquery.addhighlightfield.md)(string
@@ -189,7 +189,7 @@ public
 `$field`, float `$boost`): [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::addSortField](solrquery.addsortfield.md)(string
-`$field`, int `$order` u003d SolrQuery::ORDER_DESC):
+`$field`, int `$order` = SolrQuery::ORDER_DESC):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::addStatsFacet](solrquery.addstatsfacet.md)(string
@@ -221,7 +221,7 @@ public [SolrQuery::getFacet](solrquery.getfacet.md)(): bool
 
 public
 [SolrQuery::getFacetDateEnd](solrquery.getfacetdateend.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getFacetDateFields](solrquery.getfacetdatefields.md)():
@@ -229,48 +229,48 @@ array
 
 public
 [SolrQuery::getFacetDateGap](solrquery.getfacetdategap.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getFacetDateHardEnd](solrquery.getfacetdatehardend.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getFacetDateOther](solrquery.getfacetdateother.md)(string
-`$field_override` u003d ?): array
+`$field_override` = ?): array
 
 public
 [SolrQuery::getFacetDateStart](solrquery.getfacetdatestart.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public [SolrQuery::getFacetFields](solrquery.getfacetfields.md)():
 array
 
 public [SolrQuery::getFacetLimit](solrquery.getfacetlimit.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public [SolrQuery::getFacetMethod](solrquery.getfacetmethod.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getFacetMinCount](solrquery.getfacetmincount.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public
 [SolrQuery::getFacetMissing](solrquery.getfacetmissing.md)(string
-`$field_override` u003d ?): bool
+`$field_override` = ?): bool
 
 public [SolrQuery::getFacetOffset](solrquery.getfacetoffset.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public [SolrQuery::getFacetPrefix](solrquery.getfacetprefix.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public [SolrQuery::getFacetQueries](solrquery.getfacetqueries.md)():
 array
 
 public [SolrQuery::getFacetSort](solrquery.getfacetsort.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public [SolrQuery::getFields](solrquery.getfields.md)(): array
 
@@ -318,7 +318,7 @@ public [SolrQuery::getHighlight](solrquery.gethighlight.md)(): bool
 
 public
 [SolrQuery::getHighlightAlternateField](solrquery.gethighlightalternatefield.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getHighlightFields](solrquery.gethighlightfields.md)():
@@ -326,15 +326,15 @@ array
 
 public
 [SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getHighlightFragmenter](solrquery.gethighlightfragmenter.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getHighlightFragsize](solrquery.gethighlightfragsize.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public
 [SolrQuery::getHighlightHighlightMultiTerm](solrquery.gethighlighthighlightmultiterm.md)():
@@ -342,7 +342,7 @@ bool
 
 public
 [SolrQuery::getHighlightMaxAlternateFieldLength](solrquery.gethighlightmaxalternatefieldlength.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public
 [SolrQuery::getHighlightMaxAnalyzedChars](solrquery.gethighlightmaxanalyzedchars.md)():
@@ -350,7 +350,7 @@ int
 
 public
 [SolrQuery::getHighlightMergeContiguous](solrquery.gethighlightmergecontiguous.md)(string
-`$field_override` u003d ?): bool
+`$field_override` = ?): bool
 
 public
 [SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md)():
@@ -370,15 +370,15 @@ bool
 
 public
 [SolrQuery::getHighlightSimplePost](solrquery.gethighlightsimplepost.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getHighlightSimplePre](solrquery.gethighlightsimplepre.md)(string
-`$field_override` u003d ?): string
+`$field_override` = ?): string
 
 public
 [SolrQuery::getHighlightSnippets](solrquery.gethighlightsnippets.md)(string
-`$field_override` u003d ?): int
+`$field_override` = ?): int
 
 public
 [SolrQuery::getHighlightUsePhraseHighlighter](solrquery.gethighlightusephrasehighlighter.md)():
@@ -489,7 +489,7 @@ public
 
 public
 [SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.md)(string
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
@@ -554,56 +554,56 @@ public [SolrQuery::setFacet](solrquery.setfacet.md)(bool `$flag`):
 
 public
 [SolrQuery::setFacetDateEnd](solrquery.setfacetdateend.md)(string
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setFacetDateGap](solrquery.setfacetdategap.md)(string
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md)(bool
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setFacetDateStart](solrquery.setfacetdatestart.md)(string
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.md)(int
-`$frequency`, string `$field_override` u003d ?):
+`$frequency`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetLimit](solrquery.setfacetlimit.md)(int
-`$limit`, string `$field_override` u003d ?):
+`$limit`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetMethod](solrquery.setfacetmethod.md)(string
-`$method`, string `$field_override` u003d ?):
+`$method`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setFacetMinCount](solrquery.setfacetmincount.md)(int
-`$mincount`, string `$field_override` u003d ?):
+`$mincount`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetMissing](solrquery.setfacetmissing.md)(bool
-`$flag`, string `$field_override` u003d ?):
+`$flag`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetOffset](solrquery.setfacetoffset.md)(int
-`$offset`, string `$field_override` u003d ?):
+`$offset`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetPrefix](solrquery.setfacetprefix.md)(string
-`$prefix`, string `$field_override` u003d ?):
+`$prefix`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setFacetSort](solrquery.setfacetsort.md)(int
-`$facetSort`, string `$field_override` u003d ?):
+`$facetSort`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public [SolrQuery::setGroup](solrquery.setgroup.md)(bool `$value`):
@@ -640,22 +640,22 @@ public [SolrQuery::setHighlight](solrquery.sethighlight.md)(bool
 
 public
 [SolrQuery::setHighlightAlternateField](solrquery.sethighlightalternatefield.md)(string
-`$field`, string `$field_override` u003d ?):
+`$field`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setHighlightFormatter](solrquery.sethighlightformatter.md)(string
-`$formatter`, string `$field_override` u003d ?):
+`$formatter`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)(string
-`$fragmenter`, string `$field_override` u003d ?):
+`$fragmenter`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setHighlightFragsize](solrquery.sethighlightfragsize.md)(int
-`$size`, string `$field_override` u003d ?):
+`$size`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
@@ -664,7 +664,7 @@ public
 
 public
 [SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.md)(int
-`$fieldLength`, string `$field_override` u003d ?):
+`$fieldLength`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
@@ -673,7 +673,7 @@ public
 
 public
 [SolrQuery::setHighlightMergeContiguous](solrquery.sethighlightmergecontiguous.md)(bool
-`$flag`, string `$field_override` u003d ?):
+`$flag`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
@@ -694,17 +694,17 @@ public
 
 public
 [SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)(string
-`$simplePost`, string `$field_override` u003d ?):
+`$simplePost`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setHighlightSimplePre](solrquery.sethighlightsimplepre.md)(string
-`$simplePre`, string `$field_override` u003d ?):
+`$simplePre`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public
 [SolrQuery::setHighlightSnippets](solrquery.sethighlightsnippets.md)(int
-`$value`, string `$field_override` u003d ?):
+`$value`, string `$field_override` = ?):
 [SolrQuery](class.solrquery.md)
 
 public

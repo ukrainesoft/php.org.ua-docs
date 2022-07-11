@@ -9,7 +9,7 @@
 
 # locale_get_display_name
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::getDisplayName -- locale_get_display_name — Повертає
 відповідним чином локалізоване ім'я локалі
@@ -19,11 +19,11 @@ Locale::getDisplayName -- locale_get_display_name — Повертає
 Об'єктно-орієнтований стиль
 
 public static **Locale::getDisplayName**(string `$locale`, ?string
-`$displayLocale` u003d **`null`**): string\|false
+`$displayLocale` = **`null`**): string\|false
 
 Процедурний стиль
 
-**locale_get_display_name**(string `$locale`, ?string `$displayLocale` u003d
+**locale_get_display_name**(string `$locale`, ?string `$displayLocale` =
 **`null`**): string\|false
 
 Повертає відповідним чином ім'я локалізоване локалі. Якщо
@@ -45,7 +45,7 @@ public static **Locale::getDisplayName**(string `$locale`, ?string
 ### Список змін
 
 | Версія | Опис                                        |
-| ------ | ------------------------------------------- |
+|--------|---------------------------------------------|
 | 8.0.0  | displayLocale тепер допускає значення null. |
 
 ### Приклади

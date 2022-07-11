@@ -7,7 +7,7 @@
 
 # PharData::compressFiles
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::compressFiles — Стиснути всі файли у поточному tar/zip-архіві
 
@@ -50,7 +50,7 @@ public **PharData::compressFiles**(int `$compression`): void
 
 **Приклад #1 Приклад використання **PharData::compressFiles()****
 
-` <?php$p u003d new Phar('/path/to/my.phar', 0, 'my.phar');$p['myfile.txt'] u003d 'hi';$p['myfile2. txt']u003du003d 'hi';foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
+` <?php$p = new Phar('/path/to/my.phar', 0, 'my.phar');$p['myfile.txt'] = 'hi';$p['myfile2. txt']== 'hi';foreach ($p as $file) {   var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}$p->compressFiles(Phar::GZ);foreach ($p as $file) {    var_dump($file->getFileName()); var_dump($file->isCompressed()); var_dump($file->isCompressed(Phar::BZ2)); var_dump($file->isCompressed(Phar::GZ));}?> `
 
 Результат виконання цього прикладу:
 

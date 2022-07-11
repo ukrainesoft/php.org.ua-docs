@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandFailedEvent::getReply
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\Driver\Monitoring\CommandFailedEvent::getReply — Повертає
 документ відповіді команди

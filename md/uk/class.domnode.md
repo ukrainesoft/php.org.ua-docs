@@ -55,21 +55,21 @@ public
 `$node`): [DOMNode](class.domnode.md)\|false
 
 public [C14N](domnode.c14n.md)(
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): string\|false
 
 public [C14NFile](domnode.c14nfile.md)(
 string `$uri`,
-bool `$exclusive` u003d **`false`**,
-bool `$withComments` u003d **`false`**,
-?array `$xpath` u003d **`null`**,
-?array `$nsPrefixes` u003d **`null`**
+bool `$exclusive` = **`false`**,
+bool `$withComments` = **`false`**,
+?array `$xpath` = **`null`**,
+?array `$nsPrefixes` = **`null`**
 ): int\|false
 
-public [cloneNode](domnode.clonenode.md)(bool `$deep` u003d **`false`**):
+public [cloneNode](domnode.clonenode.md)(bool `$deep` = **`false`**):
 [DOMNode](class.domnode.md)\|false
 
 public [getLineNo](domnode.getlineno.md)(): int
@@ -82,7 +82,7 @@ public [hasChildNodes](domnode.haschildnodes.md)(): bool
 
 public
 [insertBefore](domnode.insertbefore.md)([DOMNode](class.domnode.md)
-`$node`, ?[DOMNode](class.domnode.md) `$child` u003d **`null`**):
+`$node`, ?[DOMNode](class.domnode.md) `$child` = **`null`**):
 [DOMNode](class.domnode.md)\|false
 
 public [isDefaultNamespace](domnode.isdefaultnamespace.md)(string
@@ -183,7 +183,7 @@ URI - простір імен цього вузла або **`null`**, якщо 
 ## Список змін
 
 | Версія | Опис                                                                                                                                                                                        |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Нереалізовані методи **DOMNode::compareDocumentPosition()**, **DOMNode::isEqualNode()**, **DOMNode::getFeature()**, **DOMNode::setUserData()** і **DOMNode: :getUserData()** було видалено. |
 
 ## Примітки

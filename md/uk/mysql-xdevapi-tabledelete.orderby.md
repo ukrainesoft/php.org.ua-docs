@@ -32,4 +32,4 @@ public **mysql_xdevapi\TableDelete::orderby**(string `$orderby_expr`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\TableDelete::orderBy()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );$table->delete() ->where("age u003d :age")  ->bind(['age' u003d> 42])  ->orderby("name DESC")  ->limit(1)  -> execute();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );$table->delete() ->where("age = :age")  ->bind(['age' => 42])  ->orderby("name DESC")  ->limit(1)  -> execute();?> `

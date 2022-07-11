@@ -43,7 +43,7 @@ uopz_get_property — Отримує значення класу або влас
 
 **Приклад #1 Просте використання **uopz_get_property()****
 
-`<?phpclass Foo {    private static $staticBar u003d 10; private $bar u003d 100;}$foo u003d new Foo;var_dump(uopz_get_property('Foo', 'staticBar'));var_dump(uopz_get_property($foo, 'bar'));?> `
+`<?phpclass Foo {    private static $staticBar = 10; private $bar = 100;}$foo = new Foo;var_dump(uopz_get_property('Foo', 'staticBar'));var_dump(uopz_get_property($foo, 'bar'));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

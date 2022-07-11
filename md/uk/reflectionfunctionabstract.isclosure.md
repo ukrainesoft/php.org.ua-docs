@@ -7,7 +7,7 @@
 
 # ReflectionFunctionAbstract::isClosure
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ReflectionFunctionAbstract::isClosure — Перевіряє, чи є функція
 замиканням ([Closure](class.closure.md))
@@ -32,7 +32,7 @@ public **ReflectionFunctionAbstract::isClosure**(): bool
 **Приклад #1 Приклад використання методу
 **ReflectionFunctionAbstract::isClosure()****
 
-` <?php// Не замикання$function1 u003d 'str_replace';$reflection1 u003d new ReflectionFunction($function1);var_dump($reflection1->isClosure());// Замикання$function2 u003d $ u003d new ReflectionFunction($function2);var_dump($reflection2->isClosure());?> `
+` <?php// Не замикання$function1 = 'str_replace';$reflection1 = new ReflectionFunction($function1);var_dump($reflection1->isClosure());// Замикання$function2 = $ = new ReflectionFunction($function2);var_dump($reflection2->isClosure());?> `
 
 Результат виконання цього прикладу:
 

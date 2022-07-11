@@ -7,14 +7,14 @@
 
 #rrd_restore
 
-(PECL rrd \>u003d 0.9.0)
+(PECL rrd \>= 0.9.0)
 
 rrd_restore — Відновлює файл RRD із дампа XML
 
 ### Опис
 
 **rrd_restore**(string `$xml_file`, string `$rrd_file`, array `$options`
-u003d?): bool
+=?): bool
 
 Відновлює файл RRD із дампа XML.
 

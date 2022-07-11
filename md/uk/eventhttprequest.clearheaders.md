@@ -7,7 +7,7 @@
 
 # EventHttpRequest::clearHeaders
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::clearHeaders — Видаляє всі вихідні заголовки з
 списку заголовків запиту

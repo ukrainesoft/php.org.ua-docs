@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::\_\_construct
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::\_\_construct — Закритий конструктор, який забороняє
 створення екземплярів об'єкта

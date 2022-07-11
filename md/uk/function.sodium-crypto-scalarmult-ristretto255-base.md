@@ -7,7 +7,7 @@
 
 # sodium_crypto_scalarmult_ristretto255_base
 
-(PHP 8 \>u003d 8.1.1)
+(PHP 8 \>= 8.1.1)
 
 sodium_crypto_scalarmult_ristretto255_base — Обчислює відкритий ключ з
 закритого ключа

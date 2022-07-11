@@ -7,7 +7,7 @@
 
 #cubrid_field_flags
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_field_flags — Отримати рядок, який містить прапори стовпця за
 зазначеному індексу
@@ -45,8 +45,8 @@ cubrid_field_flags — Отримати рядок, який містить пр
 
 **Приклад #1 Приклад використання **cubrid_field_flags()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$result u003d cubrid_execute($conn, "SELECT * FROM game WHERE host_yearu003d2004 AND' );$col_num u003d cubrid_num_cols($result);printf("%-30s %s
-", "Ім'я поля", "Прапори поля");for($i u003d 0; $i < $col_num; $i++) {    printf("%-30s %s
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$result = cubrid_execute($conn, "SELECT * FROM game WHERE host_year=2004 AND' );$col_num = cubrid_num_cols($result);printf("%-30s %s
+", "Ім'я поля", "Прапори поля");for($i = 0; $i < $col_num; $i++) {    printf("%-30s %s
 ", cubrid_field_name($result, $i), cubrid_field_flags($result, $i));}cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 #gmp_testbit
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 gmp_testbit — Перевірте, чи встановлено біт в 1
 
@@ -40,7 +40,7 @@ gmp_testbit — Перевірте, чи встановлено біт в 1
 
 **Приклад #1 Приклад використання **gmp_testbit()****
 
-` <?php$n u003d gmp_init("1000000");var_dump(gmp_testbit($n, 1));gmp_setbit($n, 1);var_dump(gmp_testbit($n, 1));?> `
+` <?php$n = gmp_init("1000000");var_dump(gmp_testbit($n, 1));gmp_setbit($n, 1);var_dump(gmp_testbit($n, 1));?> `
 
 Результат виконання цього прикладу:
 

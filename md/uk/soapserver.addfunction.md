@@ -47,7 +47,7 @@ void
 
 **Приклад #1 Приклад використання **SoapServer::addFunction()****
 
-` <?phpfunction echoString($inputString){    return $inputString;}$server->addFunction("echoString");function echoTwoStrings($inputString1, $inputString2){    return array("outputString1" u003d> $inputString1,                 "outputString2" u003d> $inputString2);}$server->addFunction(array("echoString", "echoTwoStrings"));$server->addFunction(SOAP_FUNCTIONS_ALL);?> `
+` <?phpfunction echoString($inputString){    return $inputString;}$server->addFunction("echoString");function echoTwoStrings($inputString1, $inputString2){    return array("outputString1" => $inputString1,                 "outputString2" => $inputString2);}$server->addFunction(array("echoString", "echoTwoStrings"));$server->addFunction(SOAP_FUNCTIONS_ALL);?> `
 
 ### Дивіться також
 

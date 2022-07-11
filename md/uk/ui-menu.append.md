@@ -13,7 +13,7 @@ UI\Menu::append — Додати пункт меню
 
 ### Опис
 
-public **UI\Menu::append**(string `$name`, string `$type` u003d
+public **UI\Menu::append**(string `$name`, string `$type` =
 UI\MenuItem::class): [UI\MenuItem](class.ui-menuitem.md)
 
 Додасть пункт меню

@@ -7,7 +7,7 @@
 
 # ArrayObject::serialize
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ArrayObject::serialize — Серіалізувати ArrayObject
 
@@ -34,7 +34,7 @@ public **ArrayObject::serialize**(): string
 
 **Приклад #1 Приклад використання **ArrayObject::serialize()****
 
-` <?php$o u003d new ArrayObject();$s1 u003d serialize($o);$s2 u003d $o->serialize();var_dump($s1);var_dump($s2);?> `
+` <?php$o = new ArrayObject();$s1 = serialize($o);$s2 = $o->serialize();var_dump($s1);var_dump($s2);?> `
 
 Результат виконання цього прикладу:
 

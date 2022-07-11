@@ -152,13 +152,13 @@ Callback-авторизатор не повинен робити нічого, �
 з колонок таблиці `users` буде повернено. Інші колонки будуть
 замінені на **`null`**.
 
-` <?php$db u003d new SQLite3('data.sqlite');$db->exec('CREATE TABLE users (id, name, password);');$db->exec('INSERT INTO users VALUES ( 1, \'Pauline\', \'Snails4eva\');');$allowed_columns u003d ['id', 'name'];$db->setAuthorizer(function (int $action, ...$args) use ($allowed_columns) { {   if ($action u003du003du003d SQLite3::READ) {        list($table, $column) u003d $args;  return SQLite3::OK; Return SQLite3::IGNORE;   }   return SQLite3::DENY;});
+` <?php$db = new SQLite3('data.sqlite');$db->exec('CREATE TABLE users (id, name, password);');$db->exec('INSERT INTO users VALUES ( 1, \'Pauline\', \'Snails4eva\');');$allowed_columns = ['id', 'name'];$db->setAuthorizer(function (int $action, ...$args) use ($allowed_columns) { {   if ($action === SQLite3::READ) {        list($table, $column) = $args;  return SQLite3::OK; Return SQLite3::IGNORE;   }   return SQLite3::DENY;});
 
 Результат виконання цього прикладу:
 
 Array
 (
-[id] u003d> 1
-[name] u003d> Pauline
-[password] u003d>
+[id] => 1
+[name] => Pauline
+[password] =>
 )

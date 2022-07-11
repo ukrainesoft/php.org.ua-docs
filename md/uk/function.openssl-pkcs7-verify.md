@@ -7,7 +7,7 @@
 
 #openssl_pkcs7_verify
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_pkcs7_verify — Перевірити підпис повідомлення S/MIME
 
@@ -16,11 +16,11 @@ openssl_pkcs7_verify — Перевірити підпис повідомлен�
 **openssl_pkcs7_verify**(
 string `$input_filename`,
 int `$flags`,
-?string `$signers_certificates_filename` u003d **`null`**,
-array `$ca_info` u003d [],
-?string `$untrusted_certificates_filename` u003d **`null`**,
-?string `$content` u003d **`null`**,
-?string `$output_filename` u003d **`null`**
+?string `$signers_certificates_filename` = **`null`**,
+array `$ca_info` = [],
+?string `$untrusted_certificates_filename` = **`null`**,
+?string `$content` = **`null`**,
+?string `$output_filename` = **`null`**
 ): bool\|int
 
 **openssl_pkcs7_verify()** читає S/MIME повідомлення з файлу та перевіряє
@@ -63,7 +63,7 @@ flags можна використовувати для модифікації п
 ### Список змін
 
 | Версія | Опис                                                                                                                       |
-| ------ | -------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | signers_certificates_filename, untrusted_certificates_filename, content та output_filename тепер допускають значення null. |
 | 7.2.0  | Доданий параметр output_filename.                                                                                          |
 

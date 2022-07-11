@@ -7,7 +7,7 @@
 
 # SQLite3::loadExtension
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::loadExtension — Спробувати завантажити бібліотеку модуля SQLite
 
@@ -32,4 +32,4 @@ public **SQLite3::loadExtension**(string `$name`): bool
 
 **Приклад #1 Приклад використання **SQLite3::loadExtension()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$db->loadExtension('libagg.so');?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$db->loadExtension('libagg.so');?> `

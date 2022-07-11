@@ -9,7 +9,7 @@
 
 #stomp_get_session_id
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::getSessionId -- stomp_get_session_id — Повертає ідентифікатор
 поточної сесії Stomp
@@ -41,7 +41,7 @@ public **Stomp::getSessionId**(): string\|false
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?php/* підключення */try {    $stomp u003d new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->getSessionId());/* закриття підключення */unset($stomp);?> `
+`<?php/* підключення */try {    $stomp = new Stomp('tcp://localhost:61613');} catch(StompException $e) {    die('Помилка$>|| ));}var_dump($stomp->getSessionId());/* закриття підключення */unset($stomp);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -49,7 +49,7 @@ string(35) "ID:php.net-52873-1257291895530-4:14"
 
 **Приклад #2 Процедурний стиль**
 
-` <?php/* підключення */$link u003d stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_get_session_id($link));/* закриття підключення */stomp_close($link);?> `
+` <?php/* підключення */$link = stomp_connect('ssl://localhost:61612');/* перевірка з'єднання */if (!$link) {    die('Помилка з'єднання: ' . . . . ;}var_dump(stomp_get_session_id($link));/* закриття підключення */stomp_close($link);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

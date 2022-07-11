@@ -7,7 +7,7 @@
 
 # spl_object_id
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 spl_object_id — Отримати цілий ідентифікатор об'єкта
 
@@ -36,7 +36,7 @@ spl_object_id — Отримати цілий ідентифікатор об'є
 
 **Приклад #1 Приклад використання **spl_object_id()****
 
-` <?php$id u003d spl_object_id($object);$storage[$id] u003d $object;?> `
+` <?php$id = spl_object_id($object);$storage[$id] = $object;?> `
 
 ### Примітки
 

@@ -7,7 +7,7 @@
 
 #mb_convert_encoding
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_convert_encoding — Перетворює рядок з одного кодування символів на
 іншу
@@ -15,7 +15,7 @@ mb_convert_encoding — Перетворює рядок з одного коду
 ### Опис
 
 **mb_convert_encoding**(array\|string `$string`, string `$to_encoding`,
-array\|string\|null `$from_encoding` u003d **`null`**): array\|string\|false
+array\|string\|null `$from_encoding` = **`null`**): array\|string\|false
 
 Перетворює параметр `string` з кодування `to_encoding` або поточного
 внутрішнього кодування в `to_encoding`. Також можна вказати необов'язковий
@@ -59,7 +59,7 @@ array\|string\|null `$from_encoding` u003d **`null`**): array\|string\|false
 ### Список змін
 
 | 8.0.0  | **mb_convert_encoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в to_encoding.   |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | **mb_convert_encoding()** тепер викидає [ValueError](class.valueerror.md), якщо передано неприпустиме кодування в from_encoding. |
 | 8.0.0  | Тепер from_encoding може бути **null**.                                                                                          |
 | Версія | Опис                                                                                                                             |
@@ -69,7 +69,7 @@ array\|string\|null `$from_encoding` u003d **`null`**): array\|string\|false
 
 **Приклад #1 Приклад використання **mb_convert_encoding()****
 
-` <?php/* Перетворює рядок в кодування SJIS */$str u003d mb_convert_encoding($str, "SJIS");/* Перетворить з EUC-JP вUTF-7 */$str u003d 7", "EUC-JP");/* Автоматично визначається кодування серед JIS, eucjp-win, sjis-win, потім перетворюється в UCS-2LE */$str u003d mb_convert_ending , eucjp-win, sjis-win");/* Якщо mbstring.language рівний "Japanese", "auto" використовується для позначення "ASCII,JIS,UTF-8,EUC-JP,SJIS" *$ $str, "EUC-JP", "auto");?> `
+` <?php/* Перетворює рядок в кодування SJIS */$str = mb_convert_encoding($str, "SJIS");/* Перетворить з EUC-JP вUTF-7 */$str = 7", "EUC-JP");/* Автоматично визначається кодування серед JIS, eucjp-win, sjis-win, потім перетворюється в UCS-2LE */$str = mb_convert_ending , eucjp-win, sjis-win");/* Якщо mbstring.language рівний "Japanese", "auto" використовується для позначення "ASCII,JIS,UTF-8,EUC-JP,SJIS" *$ $str, "EUC-JP", "auto");?> `
 
 ### Дивіться також
 

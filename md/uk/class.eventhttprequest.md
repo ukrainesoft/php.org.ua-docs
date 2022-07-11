@@ -7,7 +7,7 @@
 
 # Клас EventHttpRequest
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 ## Вступ
 
@@ -19,27 +19,27 @@ class **EventHttpRequest** {
 
 /\* Константи \*/
 
-const int `CMD_GET` u003d 1;
+const int `CMD_GET` = 1;
 
-const int `CMD_POST` u003d 2;
+const int `CMD_POST` = 2;
 
-const int `CMD_HEAD` u003d 4;
+const int `CMD_HEAD` = 4;
 
-const int `CMD_PUT` u003d 8;
+const int `CMD_PUT` = 8;
 
-const int `CMD_DELETE` u003d 16;
+const int `CMD_DELETE` = 16;
 
-const int `CMD_OPTIONS` u003d 32;
+const int `CMD_OPTIONS` = 32;
 
-const int `CMD_TRACE` u003d 64;
+const int `CMD_TRACE` = 64;
 
-const int `CMD_CONNECT` u003d 128;
+const int `CMD_CONNECT` = 128;
 
-const int `CMD_PATCH` u003d 256;
+const int `CMD_PATCH` = 256;
 
-const int `INPUT_HEADER` u003d 1;
+const int `INPUT_HEADER` = 1;
 
-const int `OUTPUT_HEADER` u003d 2;
+const int `OUTPUT_HEADER` = 2;
 
 /\* Методи \*/
 
@@ -55,7 +55,7 @@ public [closeConnection](eventhttprequest.closeconnection.md)(): void
 public [\_\_construct](eventhttprequest.construct.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** )
+`$data` = **`null`** )
 
 public [findHeader](eventhttprequest.findheader.md)( string `$key` ,
 string `$type`): void
@@ -91,10 +91,10 @@ public [removeHeader](eventhttprequest.removeheader.md)( string `$key`
 , string `$type` ): void
 
 public [sendError](eventhttprequest.senderror.md)( int `$error` ,
-string `$reason` u003d **`null`** ): void
+string `$reason` = **`null`** ): void
 
 public [sendReply](eventhttprequest.sendreply.md)( int `$code` ,
-string `$reason` , [EventBuffer](class.eventbuffer.md) `$buf` u003d ?):
+string `$reason` , [EventBuffer](class.eventbuffer.md) `$buf` = ?):
 void
 
 public [sendReplyChunk](eventhttprequest.sendreplychunk.md)(

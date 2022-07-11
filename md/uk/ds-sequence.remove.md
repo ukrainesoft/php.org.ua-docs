@@ -7,7 +7,7 @@
 
 # Ds\Sequence::remove
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::remove — Видаляє та повертає значення за індексом
 
@@ -37,7 +37,7 @@ abstract public **Ds\Sequence::remove**(int `$index`):
 
 **Приклад #1 Приклад використання **Ds\Sequence::remove()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c"]);var_dump($sequence->remove(1));var_dump($sequence->remove(0) );var_dump($sequence->remove(0));?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c"]);var_dump($sequence->remove(1));var_dump($sequence->remove(0) );var_dump($sequence->remove(0));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -27,7 +27,7 @@
 першим. Якщо ви встановлюєте PDO та драйвери баз даних як
 статичні модулі, цей крок можна пропустити.
 
-extensionu003dpdo.so
+extension=pdo.so
 
 **Користувачі Windows**
 
@@ -35,16 +35,16 @@ extensionu003dpdo.so
 виконання функцією [dl()](function.dl.md), або включити їх у
 `php.ini` після `php_pdo.dll`. Наприклад:
 
-extensionu003dphp_pdo.dll
-extensionu003dphp_pdo_firebird.dll
-extensionu003dphp_pdo_informix.dll
-extensionu003dphp_pdo_mssql.dll
-extensionu003dphp_pdo_mysql.dll
-extensionu003dphp_pdo_oci.dll
-extensionu003dphp_pdo_oci8.dll
-extensionu003dphp_pdo_odbc.dll
-extensionu003dphp_pdo_pgsql.dll
-extensionu003dphp_pdo_sqlite.dll
+extension=php_pdo.dll
+extension=php_pdo_firebird.dll
+extension=php_pdo_informix.dll
+extension=php_pdo_mssql.dll
+extension=php_pdo_mysql.dll
+extension=php_pdo_oci.dll
+extension=php_pdo_oci8.dll
+extension=php_pdo_odbc.dll
+extension=php_pdo_pgsql.dll
+extension=php_pdo_sqlite.dll
 
 Ці DLL повинні бути в директорії
 [extension_dir](ini.core.md#ini.extension-dir).

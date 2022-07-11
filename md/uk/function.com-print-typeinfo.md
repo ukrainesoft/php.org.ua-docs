@@ -8,7 +8,7 @@ IDispatch
 
 #com_print_typeinfo
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 com_print_typeinfo — Друкує визначення класу PHP для інтерфейсу,
 наслідуючого IDispatch
@@ -16,7 +16,7 @@ com_print_typeinfo — Друкує визначення класу PHP для �
 ### Опис
 
 **com_print_typeinfo**([variant](class.variant.md)\|string `$variant`,
-?string `$dispatch_interface` u003d **`null`**, bool `$display_sink` u003d
+?string `$dispatch_interface` = **`null`**, bool `$display_sink` =
 **`false`**): bool
 
 Призначення функції полягає у створенні "риби" класу для використання в

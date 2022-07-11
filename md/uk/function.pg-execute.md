@@ -8,7 +8,7 @@
 
 #pg_execute
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_execute — Запускає виконання раніше підготовленого
 параметризованого запиту та чекає результат
@@ -16,7 +16,7 @@ pg_execute — Запускає виконання раніше підготов
 ### Опис
 
 **pg_execute**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, string `$stmtname`, array `$params`):
+`$connection` = ?, string `$stmtname`, array `$params`):
 [PgSql\Result](class.pgsql-result.md)\|false
 
 Запускає виконання раніше підготовленого параметризованого запиту та
@@ -71,7 +71,7 @@ SQL-команди `PREPARE`.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PgSql\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                   |
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
@@ -79,7 +79,7 @@ SQL-команди `PREPARE`.
 
 **Приклад #1 Приклад використання **pg_execute()****
 
-`<?php// Підключення до бази даних "mary"$dbconn u003d pg_connect("dbnameu003dmary");// Підготовка запиту$result u003d pg_prepare($dbconn, "my_query", '  ');// Запуск запиту на виконання. Варто відзначити, що немає необхідності екранувати // спецсимволи в рядку "Joe's Widgets" $ result u003d u003d pg_execute ($ dbconn, " my_query ", / array ( " Joe's " ); $result u003d pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));?> `
+`<?php// Підключення до бази даних "mary"$dbconn = pg_connect("dbname=mary");// Підготовка запиту$result = pg_prepare($dbconn, "my_query", '  ');// Запуск запиту на виконання. Варто відзначити, що немає необхідності екранувати // спецсимволи в рядку "Joe's Widgets" $ result = = pg_execute ($ dbconn, " my_query ", / array ( " Joe's " ); $result = pg_execute($dbconn, "my_query", array("Clothes Clothes Clothes"));?> `
 
 ### Дивіться також
 

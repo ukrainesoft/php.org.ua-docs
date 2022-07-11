@@ -7,7 +7,7 @@
 
 # Ds\Stack::push
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Stack::push — Додає значення до стек
 
@@ -32,16 +32,16 @@ public
 
 **Приклад #1 Приклад використання **Ds\Stack::push()****
 
-` <?php$stack u003d new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c", "d" );$stack->push(...["e", "f"]);print_r($stack);?> `
+` <?php$stack = new \Ds\Stack();$stack->push("a");$stack->push("b");$stack->push("c", "d" );$stack->push(...["e", "f"]);print_r($stack);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Stack Object
 (
-[0] u003d> a
-[1] u003d> b
-[2] u003d> c
-[3] u003d> d
-[4] u003d> e
-[5] u003d> f
+[0] => a
+[1] => b
+[2] => c
+[3] => d
+[4] => e
+[5] => f
 )

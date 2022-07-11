@@ -7,7 +7,7 @@
 
 #imagecreatefromstring
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromstring — Створення нового зображення з потоку
 представленого рядком
@@ -41,7 +41,7 @@ GIF, BMP, WBMP, GD2 та WEBP.
 ### Список змін
 
 | Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 | 7.3.0  | Додана підтримка WEBP (якщо підтримується використовуваною libgd).                                                             |
 
@@ -49,7 +49,7 @@ GIF, BMP, WBMP, GD2 та WEBP.
 
 **Приклад #1 Приклад використання **imagecreatefromstring()****
 
-` <?php$datau003du003d'iVBORw0KGgoAAAANSUhEUgAAABwAAAASCAMAAAB/2U7WAAAABl'       . 'BMVEUAAAD///+l2Z/dAAAASUlEQVR4XqWQUQoAIAxC2/0vXZDr'       . 'EX4IJTRkb7lobNUStXsB0jIXIAMSsQnWlsV+wULF4Avk9fLq2r'       . '8a5HSE35Q3eO2XP1A1wQkZSgETvDtKdQAAAABJRU5ErkJgggu003du003d';$data u003d base64_decode($data);$im u003d imagecreatefromstring($data);if ($im !u003d imagepng($im); imagedestroy($im);}else {    echo 'Відбулася помилка.';}?> `
+` <?php$data=='iVBORw0KGgoAAAANSUhEUgAAABwAAAASCAMAAAB/2U7WAAAABl'       . 'BMVEUAAAD///+l2Z/dAAAASUlEQVR4XqWQUQoAIAxC2/0vXZDr'       . 'EX4IJTRkb7lobNUStXsB0jIXIAMSsQnWlsV+wULF4Avk9fLq2r'       . '8a5HSE35Q3eO2XP1A1wQkZSgETvDtKdQAAAABJRU5ErkJggg==';$data = base64_decode($data);$im = imagecreatefromstring($data);if ($im != imagepng($im); imagedestroy($im);}else {    echo 'Відбулася помилка.';}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 #gmp_neg
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_neg — Зміна знака числа
 
@@ -32,8 +32,8 @@ gmp_neg — Зміна знака числа
 
 **Приклад #1 Приклад використання **gmp_neg()****
 
-` <?php$neg1 u003d gmp_neg("1");echo gmp_strval($neg1) . "
-";$neg2 u003d gmp_neg("-1");echo gmp_strval($neg2) . "
+` <?php$neg1 = gmp_neg("1");echo gmp_strval($neg1) . "
+";$neg2 = gmp_neg("-1");echo gmp_strval($neg2) . "
 ";?> `
 
 Результат виконання цього прикладу:

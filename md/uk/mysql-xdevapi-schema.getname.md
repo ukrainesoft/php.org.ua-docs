@@ -29,7 +29,7 @@ public **mysql_xdevapi\Schema::getName**(): string
 
 **Приклад #1 Приклад використання **mysql_xdevapi\Schema::getName()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema u003d $session->getSchema("addressbook");// ...var_dump($schema->getName());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema = $session->getSchema("addressbook");// ...var_dump($schema->getName());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -13,7 +13,7 @@ sort — Сортує масив за зростанням
 
 ### Опис
 
-**sort**(array `&$array`, int `$flags` u003d **`SORT_REGULAR`**): bool
+**sort**(array `&$array`, int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує `array` за значенням у порядку зростання.
 
@@ -63,30 +63,30 @@ sort — Сортує масив за зростанням
 
 **Приклад #1 Приклад використання **sort()****
 
-` <?php$fruits u003d array("lemon", "orange", "banana", "apple");sort($fruits);foreach ($fruits as $key u003d> $val) {     echo " . $key . "] u003d " . $val . "
+` <?php$fruits = array("lemon", "orange", "banana", "apple");sort($fruits);foreach ($fruits as $key => $val) {     echo " . $key . "] = " . $val . "
 ";}?> `
 
 Результат виконання цього прикладу:
 
-fruits[0] u003d apple
-fruits[1] u003d banana
-fruits[2] u003d lemon
-fruits[3] u003d orange
+fruits[0] = apple
+fruits[1] = banana
+fruits[2] = lemon
+fruits[3] = orange
 
 Фрукти відсортовані за абеткою.
 
 **Приклад #2 Приклад використання **sort()** з реєстронезалежним
 природним упорядкуванням**
 
-`<?php$fruits u003d array(    "Orange1", "orange2", "Orange3", "orange20");sort($fruits, SORT_NATURAL | SORT_FLAG_CASE)      "fruits[" . $key . "] u003d " . $val . "
+`<?php$fruits = array(    "Orange1", "orange2", "Orange3", "orange20");sort($fruits, SORT_NATURAL | SORT_FLAG_CASE)      "fruits[" . $key . "] = " . $val . "
 ";}?> `
 
 Результат виконання цього прикладу:
 
-fruits[0] u003d Orange1
-fruits[1] u003d orange2
-fruits[2] u003d Orange3
-fruits[3] u003d orange20
+fruits[0] = Orange1
+fruits[1] = orange2
+fruits[2] = Orange3
+fruits[3] = orange20
 
 Фрукти були відсортовані аналогічно до функцій
 [Natcasesort()](function.Natcasesort.md).

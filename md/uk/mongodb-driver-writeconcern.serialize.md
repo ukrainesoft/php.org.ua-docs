@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcern::serialize
 
-(mongodb \>u003d1.7.0)
+(mongodb \>=1.7.0)
 
 MongoDB\Driver\WriteConcern::serialize — Серіалізація WriteConcern
 

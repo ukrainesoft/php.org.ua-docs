@@ -27,12 +27,12 @@
 
 **Приклад #1 Виклик збереженої процедури**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("DROP PROCEDURE IF EXISTS p");$mysqli->query("CREATE PROCEDURE p(IN id_val INT) test(id) VALUES(id_val); END;");$mysqli->query("CALL p(1)");$result u003d $mysqli->query("SELECT id FROM test");var_dump($result ->fetch_assoc()); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("DROP PROCEDURE IF EXISTS p");$mysqli->query("CREATE PROCEDURE p(IN id_val INT) test(id) VALUES(id_val); END;");$mysqli->query("CALL p(1)");$result = $mysqli->query("SELECT id FROM test");var_dump($result ->fetch_assoc()); `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["id"]u003d>
+["id"]=>
 string(1) "1"
 }
 
@@ -42,7 +42,7 @@ string(1) "1"
 
 **Приклад #2 Використання змінних сесії**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DR| $mysqli->query('CREATE PROCEDURE p(OUT msg VARCHAR(50)) BEGIN SELECT "Hi!" INTO msg; END;');$mysqli->query("SET @msg u003d ''); ->query("CALL p(@msg)");$result u003d $mysqli->query("SELECT @msg as _p_out");$row u003d $result->fetch_assoc();echo $row['_p_out' ]; `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DR| $mysqli->query('CREATE PROCEDURE p(OUT msg VARCHAR(50)) BEGIN SELECT "Hi!" INTO msg; END;');$mysqli->query("SET @msg = ''); ->query("CALL p(@msg)");$result = $mysqli->query("SELECT @msg as _p_out");$row = $result->fetch_assoc();echo $row['_p_out' ]; `
 
 Результат виконання цього прикладу:
 
@@ -74,44 +74,44 @@ SQL-запитами, таких як `CALL`. Якщо в процесі роб�
 
 **Приклад #3 Вилучення результатів роботи процедури, що зберігається**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 y| CALL p()");do {    if ($result u003d $mysqli->store_result()) {        printf("---
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 y| CALL p()");do {    if ($result = $mysqli->store_result()) {        printf("---
 ");    var_dump($result->fetch_all());       $result->free();    }} while ($mysqli->next_result());
 
 Результат виконання цього прикладу:
 
 ---
 array(3) {
-[0]u003d>
+[0]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "1"
 }
-[1]u003d>
+[1]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "2"
 }
-[2]u003d>
+[2]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "3"
 }
 }
 ---
 array(3) {
-[0]u003d>
+[0]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "2"
 }
-[1]u003d>
+[1]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "3"
 }
-[2]u003d>
+[2]=>
 array(1) {
-[0]u003d>
+[0]=>
 string(1) "4"
 }
 }
@@ -125,44 +125,44 @@ MYSQL підтримують підготовку у запиті SQL-вираз
 
 **Приклад #4 Збережені процедури та запити, що готуються**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 m| prepare("CALL p()");$stmt->execute();do {    if ($result u003d $stmt->get_result()) {        printf("---
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 m| prepare("CALL p()");$stmt->execute();do {    if ($result = $stmt->get_result()) {        printf("---
 ");    var_dump($result->fetch_all());       $result->free();    }} while($stmt->next_result());
 
 Результат виконання цього прикладу:
 
 ---
 array(3) {
-[0]u003d>
+[0]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(1)
 }
-[1]u003d>
+[1]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(2)
 }
-[2]u003d>
+[2]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(3)
 }
 }
 ---
 array(3) {
-[0]u003d>
+[0]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(2)
 }
-[1]u003d>
+[1]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(3)
 }
-[2]u003d>
+[2]=>
 array(1) {
-[0]u003d>
+[0]=>
 int(4)
 }
 }
@@ -172,17 +172,17 @@ int(4)
 **Приклад #5 Збережені процедури та запити, що готуються
 використанням прив'язки результатів**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 m| prepare("CALL p()");$stmt->execute();do {    if ($stmt->store_result()) {       $stmt->bind_result($id_out); while($stmt->fetch()) {            echo "id u003d $id_out
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$mysqli->query("DROP| $mysqli->query("CREATE TABLE test(id INT)");$mysqli->query("INSERT INTO test(id) VALUES (1), (2), (3)");$mysqli->query ("DROP PROCEDURE IF EXISTS p");$mysqli->query('CREATE PROCEDURE p() READS SQL DATA BEGIN SELECT id FROM test; SELECT id + 1 m| prepare("CALL p()");$stmt->execute();do {    if ($stmt->store_result()) {       $stmt->bind_result($id_out); while($stmt->fetch()) {            echo "id = $id_out
 ";        }    }} while($stmt->next_result());
 
 Результат виконання цього прикладу:
 
-id u003d 1
-id u003d 2
-id u003d 3
-id u003d 2
-id u003d 3
-id u003d 4
+id = 1
+id = 2
+id = 3
+id = 2
+id = 3
+id = 4
 
 *Дивіться також*
 

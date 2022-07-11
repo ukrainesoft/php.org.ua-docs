@@ -16,8 +16,8 @@ sqlsrv_query — Підготовка та виконання запиту
 **sqlsrv_query**(
 resource `$conn`,
 string `$sql`,
-array `$params` u003d ?,
-array `$options` u003d ?
+array `$params` = ?,
+array `$options` = ?
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -44,12 +44,12 @@ $phpType [, $sqlType]]])
 
 У наступній таблиці описані елементи у структурі масиву вище:
 
-| Елемент Опис          |
-| --------------------- |
-| $value                | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням.
-| $direction (optional) | Одна з наступних констант SQLSRV, які використовуються для вказівки напряму параметра: SQLSRV_PARAM_IN, SQLSRV_PARAM_OUT, SQLSRV_PARAM_INOUT. Значення за промовчанням - SQLSRV_PARAM_IN.
-| $phpType (optional)   | Константа SQLSRV_PHPTYPE\_\*, що вказує тип даних PHP значення, що повертається.
-| $sqlType (optional)   | Константа SQLSRV_SQLTYPE\_\*, яка вказує тип даних SQL Server вхідного значення.
+| Елемент Опис          |                                                                                                                                                                                           |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $value                | Рядкове значення, змінна PHP або змінна PHP, передана за посиланням.                                                                                                                      |
+| $direction (optional) | Одна з наступних констант SQLSRV, які використовуються для вказівки напряму параметра: SQLSRV_PARAM_IN, SQLSRV_PARAM_OUT, SQLSRV_PARAM_INOUT. Значення за промовчанням - SQLSRV_PARAM_IN. |
+| $phpType (optional)   | Константа SQLSRV_PHPTYPE\_\*, що вказує тип даних PHP значення, що повертається.                                                                                                          |
+| $sqlType (optional)   | Константа SQLSRV_SQLTYPE\_\*, яка вказує тип даних SQL Server вхідного значення.                                                                                                          |
 
 **Структура масиву**
 
@@ -58,9 +58,9 @@ $phpType [, $sqlType]]])
 описані в наступній таблиці:
 
 | Ключ                   | Значення                                                                                     | Опис                                                                                                                                                                                                                                                                                                   |
-| ---------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|------------------------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | QueryTimeout           | Позитивне ціле значення.                                                                     | Встановлює час очікування на запит у секундах. За замовчуванням драйвер чекатиме на результати нескінченно.                                                                                                                                                                                            |
-| SendStreamParamsAtExec | **true** або **false** (за замовчуванням **true**)                                           | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**true**) або для надсилання даних потоку частинами (**false**). За замовчуванням встановлено значення **true**. Для отримання додаткової інформації дивіться [sqlsrv_send_stream_data()](function.sqlsrv-send-stream-data.md). |                                                                                                                                           
+| SendStreamParamsAtExec | **true** або **false** (за замовчуванням **true**)                                           | Налаштовує драйвер для надсилання всіх даних потоку під час виконання (**true**) або для надсилання даних потоку частинами (**false**). За замовчуванням встановлено значення **true**. Для отримання додаткової інформації дивіться [sqlsrv_send_stream_data()](function.sqlsrv-send-stream-data.md). |
 | Scrollable             | SQLSRV_CURSOR_FORWARD, SQLSRV_CURSOR_STATIC, SQLSRV_CURSOR_DYNAMIC, або SQLSRV_CURSOR_KEYSET | Дивіться [»Вказівка типу курсору та вибір рядків](http://msdn.microsoft.com/en-us/library/ee376927.aspx) у документації Microsoft SQLSRV.                                                                                                                                                              |
 
 **Властивості запиту**
@@ -74,7 +74,7 @@ $phpType [, $sqlType]]])
 
 **Приклад #1 Приклад використання **sqlsrv_query()****
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password" );$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$sql u003d "INSERT INTO Table_1  ;$params u003d array(1, "some data");$stmt u003d sqlsrv_query( $conn, $sql, $params);if( $stmt u003du003du003d false ) {         ;}?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "INSERT INTO Table_1  ;$params = array(1, "some data");$stmt = sqlsrv_query( $conn, $sql, $params);if( $stmt === false ) {         ;}?> `
 
 ### Примітки
 

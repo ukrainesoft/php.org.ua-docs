@@ -9,7 +9,7 @@
 
 #xmlwriter_write_attribute
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::writeAttribute -- xmlwriter_write_attribute — Записати повний
 атрибут
@@ -50,7 +50,7 @@ bool
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
@@ -60,12 +60,12 @@ bool
 Якщо запис поделементів та атрибутів змішаний, будь-яка спроба запису
 атрибутів після першого поделемента завершиться помилкою та поверне false.
 
-` <?php$xml u003d new XMLWriter();$xml->openMemory();$xml->startElement('element');$xml->writeAttribute('attr1', '0');$xml-> writeElement('subelem', '0');var_dump($xml->writeAttribute('attr2', '0'));$xml->endElement();echo $xml->flush();?> `
+` <?php$xml = new XMLWriter();$xml->openMemory();$xml->startElement('element');$xml->writeAttribute('attr1', '0');$xml-> writeElement('subelem', '0');var_dump($xml->writeAttribute('attr2', '0'));$xml->endElement();echo $xml->flush();?> `
 
 Результат виконання цього прикладу:
 
 bool(false)
-<element attr1u003d"0"><subelem>0</subelem></element>
+<element attr1="0"><subelem>0</subelem></element>
 
 ### Дивіться також
 

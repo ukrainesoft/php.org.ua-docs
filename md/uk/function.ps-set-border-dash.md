@@ -7,7 +7,7 @@
 
 #ps_set_border_dash
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_set_border_dash — Встановлює довжину тире для межі анотації
 

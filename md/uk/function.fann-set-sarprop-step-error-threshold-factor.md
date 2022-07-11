@@ -7,7 +7,7 @@
 
 # fann_set_sarprop_step_error_threshold_factor
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_sarprop_step_error_threshold_factor - Встановлює пороговий
 коефіцієнт помилки кроку sarprop
@@ -37,7 +37,7 @@ fann_set_sarprop_step_error_threshold_factor - Встановлює порого
 > **Примітка**:
 >
 > Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann u003d 2.2.
+> libfann = 2.2.
 
 ### Дивіться також
 

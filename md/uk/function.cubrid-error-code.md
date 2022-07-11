@@ -7,7 +7,7 @@
 
 #cubrid_error_code
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_error_code — Отримати код помилки
 
@@ -31,7 +31,7 @@ cubrid_error_code — Отримати код помилки
 
 **Приклад #1 Приклад використання **cubrid_error_code()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d cubrid_prepare($conn , "SELECT * FROM code WHERE s_nameu003d?");$; if (!$req) {    printf("Error facility: %d
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = cubrid_prepare($conn , "SELECT * FROM code WHERE s_name=?");$; if (!$req) {    printf("Error facility: %d
 Error code: %d
 Error msg: %s
 ",   cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());   cubrid_disconnect($conn);    exit;}?> `

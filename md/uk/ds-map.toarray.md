@@ -7,7 +7,7 @@
 
 # Ds\Map::toArray
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::toArray — Перетворює колекцію на array
 
@@ -45,15 +45,15 @@ public **Ds\Map::toArray**(): array
 
 **Приклад #1 Приклад використання **Ds\Map::toArray()****
 
-` <?php$map u003d new \Ds\Map([   "a" u003d> 1,   "b" u003d> 2,   "c" u003d> 3,]);var_dump($map->toArray() > `
+` <?php$map = new \Ds\Map([   "a" => 1,   "b" => 2,   "c" => 3,]);var_dump($map->toArray() > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["a"]u003d>
+["a"]=>
 int(1)
-["b"]u003d>
+["b"]=>
 int(2)
-["c"]u003d>
+["c"]=>
 int(3)
 }

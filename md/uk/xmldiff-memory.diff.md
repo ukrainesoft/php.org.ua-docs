@@ -7,7 +7,7 @@
 
 # XMLDiff\Memory::diff
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 XMLDiff\Memory::diff — Порівняння двох документів XML
 

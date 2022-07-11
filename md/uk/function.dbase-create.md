@@ -13,7 +13,7 @@ dbase_create — Створює базу даних
 
 ### Опис
 
-**dbase_create**(string `$path`, array `$fields`, int `$type` u003d
+**dbase_create**(string `$path`, array `$fields`, int `$type` =
 DBASE_TYPE_DBASE): resource
 
 **dbase_create()** створює базу даних dBase із заданими властивостями.
@@ -54,7 +54,7 @@ DBASE_TYPE_DBASE): resource
 ### Список змін
 
 | Версія    | Опис                                          |
-| --------- | --------------------------------------------- |
+|-----------|-----------------------------------------------|
 | dbase 7.0 | Доданий параметр type.                        |
 | dbase 7.0 | Повертається тепер має тип resource а не int. |
 
@@ -62,7 +62,7 @@ DBASE_TYPE_DBASE): resource
 
 **Приклад #1 Створення файлу бази даних dBase**
 
-` <?php// база даних "definition"$def u003d array( array("date",     "D"), array("name",     "C", 50),     3, 0), array("email",    "C", 128), array("ismember", "L"));// створюємоif (!dbase_create('/tmp/test.dbf', $def) {  echo "Помилка, не виходить створити базу даних
+` <?php// база даних "definition"$def = array( array("date",     "D"), array("name",     "C", 50),     3, 0), array("email",    "C", 128), array("ismember", "L"));// створюємоif (!dbase_create('/tmp/test.dbf', $def) {  echo "Помилка, не виходить створити базу даних
 ";}?> `
 
 ### Дивіться також

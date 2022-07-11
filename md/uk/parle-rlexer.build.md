@@ -7,7 +7,7 @@
 
 # Parle\RLexer::build
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 Parle\RLexer::build — Завершує набір правил лексера
 

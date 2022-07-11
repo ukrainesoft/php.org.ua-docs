@@ -7,7 +7,7 @@
 
 #ldap_bind_ext
 
-(PHP 7 \>u003d 7.3.0, PHP 8)
+(PHP 7 \>= 7.3.0, PHP 8)
 
 ldap_bind_ext — Прив'язати до директорії LDAP
 
@@ -15,9 +15,9 @@ ldap_bind_ext — Прив'язати до директорії LDAP
 
 **ldap_bind_ext**(
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
-?string `$dn` u003d **`null`**,
-?string `$password` u003d **`null`**,
-?array `$controls` u003d **`null`**
+?string `$dn` = **`null`**,
+?string `$password` = **`null`**,
+?array `$controls` = **`null`**
 ): [LDAP\Result](class.ldap-result.md)\|false
 
 Робить те саме, що і [ldap_bind()](function.ldap-bind.md), але
@@ -36,7 +36,7 @@ ldap_bind_ext — Прив'язати до директорії LDAP
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.1.0  | Повертає екземпляр [LDAP\Result](class.ldap-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                              |
 | 8.0.0  | controls тепер припускає значення null; раніше значення за промовчанням було [].                                                                        |

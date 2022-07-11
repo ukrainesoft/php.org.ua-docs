@@ -7,7 +7,7 @@
 
 # Swoole\Http\Server::start
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Server::start - Запускає http-сервер swoole
 

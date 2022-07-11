@@ -8,7 +8,7 @@
 
 # openssl_csr_sign
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_csr_sign — Підписати CSR за допомогою іншого сертифіката (або їм)
 ж) та створити сертифікат
@@ -23,8 +23,8 @@ openssl_csr_sign — Підписати CSR за допомогою іншого
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
 int `$days`,
-?array `$options` u003d **`null`**,
-int `$serial` u003d 0
+?array `$options` = **`null`**,
+int `$serial` = 0
 ): [OpenSSLCertificate](class.opensslcertificate.md)\|false
 
 **openssl_csr_sign()** створює сертифікат x509 із заданого CSR.
@@ -70,7 +70,7 @@ CSR. Також може бути шляхом кодованого в PEM CSR, 
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | On success, this function returns an [OpenSSLCertificate](class.opensslcertificate.md) instance now; previously, a [resource](language.types.resource.md) of type OpenSSL X.509 був відновлений.    |
 | 8.0.0  | csr тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
 | 8.0.0  | ca_certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR.                  |
@@ -81,5 +81,5 @@ CSR. Також може бути шляхом кодованого в PEM CSR, 
 **Приклад #1 Приклад **openssl_csr_sign()** - підпис CSR (як зробити
 свій власний CA)**
 
-`<?php//Припустимо, що CSR отриманий з поля textarea з веб-сторінки$csrdata u003d $_POST["CSR"];// Ми підпишемо запрос з допомогою сертифіка сертифікат, но цей процес безкорисний, якщо// сертифікат не є є довіреним для ПО або користувачів, будуть його// використовувати// Нам потрібний власний  crt";$privkey u003d array("file://path/to/ca.key", "your_ca_key_passphrase");$usercert u003d openssl_csr_sign($csrdata, $cacert, $privkey, 365, array('digest 'sha256') );// Теперь напечатаем сертификат, чтобы пользователь мог его скопировать// и внести в свою локальную конфигурацию (например в файл хранилища SSL сертификатов)openssl_x509_export($usercert, $certout);echo $certout;// Покажем возникшие помилки, якщо вони булиwhile (($e u003d openssl_error_string()) !u003du003d false) {    echo $e . "
+`<?php//Припустимо, що CSR отриманий з поля textarea з веб-сторінки$csrdata = $_POST["CSR"];// Ми підпишемо запрос з допомогою сертифіка сертифікат, но цей процес безкорисний, якщо// сертифікат не є є довіреним для ПО або користувачів, будуть його// використовувати// Нам потрібний власний  crt";$privkey = array("file://path/to/ca.key", "your_ca_key_passphrase");$usercert = openssl_csr_sign($csrdata, $cacert, $privkey, 365, array('digest 'sha256') );// Теперь напечатаем сертификат, чтобы пользователь мог его скопировать// и внести в свою локальную конфигурацию (например в файл хранилища SSL сертификатов)openssl_x509_export($usercert, $certout);echo $certout;// Покажем возникшие помилки, якщо вони булиwhile (($e = openssl_error_string()) !== false) {    echo $e . "
 ";}?> `

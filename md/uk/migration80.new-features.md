@@ -73,7 +73,7 @@
 - `throw` тепер можна використовувати як вираз. Це означає, що
 тепер можливе таке:
 
-` <?php$fn u003d fn() u003d> throw new Exception('Виключення в стрілочної функції');$user u003d $session->user ?? throw new Exception('Повинен бути користувач'); `
+` <?php$fn = fn() => throw new Exception('Виключення в стрілочної функції');$user = $session->user ?? throw new Exception('Повинен бути користувач'); `
 
 - У списках параметрів тепер дозволено необов'язкову завершальну
 кома.
@@ -243,13 +243,13 @@
 дескриптори псевдотерміналу (PTY) Наступний код приєднує
 `stdin`, `stdout` і `stderr` до одного і того ж PTY:
 
-` <?php$proc u003d proc_open($command, [['pty'], ['pty'], ['pty']], $pipes);?> `
+` <?php$proc = proc_open($command, [['pty'], ['pty'], ['pty']], $pipes);?> `
 
 - [proc_open()](function.proc-open.md) тепер підтримує
 дескриптори пари сокетів. Наступний код приєднує окрему пару
 сокетів до `stdin`, `stdout` та `stderr`:
 
-` <?php$proc u003d proc_open($command, [['socket'], ['socket'], ['socket']], $pipes);?> `
+` <?php$proc = proc_open($command, [['socket'], ['socket'], ['socket']], $pipes);?> `
 
 На відміну від каналів, у сокетів немає проблем із блокуванням
 введення-виводу у Windows. Проте чи всі програми можуть коректно

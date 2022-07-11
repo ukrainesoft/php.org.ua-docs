@@ -7,7 +7,7 @@
 
 # PDOStatement::debugDumpParams
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.9.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.9.0)
 
 PDOStatement::debugDumpParams — Виведення інформації про підготовлену
 SQL-команді з метою налагодження
@@ -46,7 +46,7 @@ public **PDOStatement::debugDumpParams**(): ?bool
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 7.2.0  | **PDOStatement::debugDumpParams()** тепер повертає SQL, відправлений до бази даних, у тому числі повний необроблений запит (включаючи замінені параметри з їх пов'язаними значеннями). Зверніть увагу, що це буде працювати тільки при включеній емуляції запитів, що готуються. |
 
 ### Приклади
@@ -54,46 +54,46 @@ public **PDOStatement::debugDumpParams**(): ?bool
 **Приклад #1 Приклад використання **PDOStatement::debugDumpParams()** з
 іменованими параметрами**
 
-`<?php/* Виконання запиту з прив'язкою PHP змінних */$calories u003d 150;$colour u003d 'red';$sth u003d $dbh->prepare('SELECT name, colour, ca   ca colour u003d :colour');$sth->bindParam(':calories', $calories, PDO::PARAM_INT);$sth->bindValue(':colour', $colour, PDO::PARAM_STR, 12);$ sth->execute();$sth->debugDumpParams();?> `
+`<?php/* Виконання запиту з прив'язкою PHP змінних */$calories = 150;$colour = 'red';$sth = $dbh->prepare('SELECT name, colour, ca   ca colour = :colour');$sth->bindParam(':calories', $calories, PDO::PARAM_INT);$sth->bindValue(':colour', $colour, PDO::PARAM_STR, 12);$ sth->execute();$sth->debugDumpParams();?> `
 
 Результат виконання цього прикладу:
 
 SQL: [96] SELECT name, colour, calories
 FROM fruit
-WHERE calories < :calories AND colour u003d :colour
+WHERE calories < :calories AND colour = :colour
 Params: 2
 Key: Name: [9] :calories
-paramnou003d-1
-nameu003d[9] ":calories"
-is_paramu003d1
-param_typeu003d1
+paramno=-1
+name=[9] ":calories"
+is_param=1
+param_type=1
 Key: Name: [7] :colour
-paramnou003d-1
-nameu003d[7] ":colour"
-is_paramu003d1
-param_typeu003d2
+paramno=-1
+name=[7] ":colour"
+is_param=1
+param_type=2
 
 **Приклад #2 Приклад використання **PDOStatement::debugDumpParams()** з
 неіменованими (?) параметрами**
 
-` <?php/* Виконання запиту з прив'язкою PHP змінних */$calories u003d 150;$colour u003d 'red';$name u003d 'apple';$sth u003d $dbh->prepare('SELECT    fruit    WHERE calories < ? AND colour u003d ?');$sth->bindParam(1, $calories, PDO::PARAM_INT);$sth->bindValue(2, $colour, PDO::PA execute();$sth->debugDumpParams();?> `
+` <?php/* Виконання запиту з прив'язкою PHP змінних */$calories = 150;$colour = 'red';$name = 'apple';$sth = $dbh->prepare('SELECT    fruit    WHERE calories < ? AND colour = ?');$sth->bindParam(1, $calories, PDO::PARAM_INT);$sth->bindValue(2, $colour, PDO::PA execute();$sth->debugDumpParams();?> `
 
 Результат виконання цього прикладу:
 
 SQL: [82] SELECT name, colour, calories
 FROM fruit
-WHERE calories < ? AND colour u003d?
+WHERE calories < ? AND colour =?
 Params: 2
 Key: Position #0:
-paramnou003d0
-nameu003d[0] ""
-is_paramu003d1
-param_typeu003d1
+paramno=0
+name=[0] ""
+is_param=1
+param_type=1
 Key: Position #1:
-paramnou003d1
-nameu003d[0] ""
-is_paramu003d1
-param_typeu003d2
+paramno=1
+name=[0] ""
+is_param=1
+param_type=2
 
 ### Дивіться також
 

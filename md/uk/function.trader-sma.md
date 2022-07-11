@@ -7,13 +7,13 @@
 
 # trader_sma
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_sma — Просте ковзне середнє
 
 ### Опис
 
-**trader_sma**(array `$real`, int `$timePeriod` u003d ?): array
+**trader_sma**(array `$real`, int `$timePeriod` = ?): array
 
 ### Список параметрів
 

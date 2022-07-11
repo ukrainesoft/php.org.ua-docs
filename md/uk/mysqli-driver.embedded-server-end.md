@@ -9,7 +9,7 @@
 
 # mysqli_embedded_server_end
 
-(PHP 5 \>u003d 5.1.0, PHP 7 \< 7.4.0)
+(PHP 5 \>= 5.1.0, PHP 7 \< 7.4.0)
 
 mysqli_driver::embedded_server_end -- mysqli_embedded_server_end --
 Зупиняє вбудований сервер

@@ -7,7 +7,7 @@
 
 # Memcached::getOption
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::getOption — Отримує значення Memcached параметра
 
@@ -36,7 +36,7 @@ libmemcached, а деякі є специфічними для модуля. З�
 
 **Приклад #1 Отримує значення Memcached параметра**
 
-` <?php$m u003d new Memcached();var_dump($m->getOption(Memcached::OPT_COMPRESSION));var_dump($m->getOption(Memcached::OPT_POLL_TIMEOUT));?> `
+` <?php$m = new Memcached();var_dump($m->getOption(Memcached::OPT_COMPRESSION));var_dump($m->getOption(Memcached::OPT_POLL_TIMEOUT));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

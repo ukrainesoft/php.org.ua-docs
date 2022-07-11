@@ -7,7 +7,7 @@
 
 # Ds\Map::allocate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::allocate — Виділяє потрібну кількість пам'яті під потрібну
 місткість
@@ -42,7 +42,7 @@ public **Ds\Map::allocate**(int `$capacity`): void
 
 **Приклад #1 Приклад використання **Ds\Map::allocate()****
 
-` <?php$map u003d new \Ds\Map();var_dump($map->capacity());$map->allocate(100);var_dump($map->capacity());?> `
+` <?php$map = new \Ds\Map();var_dump($map->capacity());$map->allocate(100);var_dump($map->capacity());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

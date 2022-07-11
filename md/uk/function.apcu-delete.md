@@ -7,7 +7,7 @@
 
 #apcu_delete
 
-(PECL apcu \>u003d 4.0.0)
+(PECL apcu \>= 4.0.0)
 
 apcu_delete — Видалення збереженого значення з кешу
 
@@ -37,7 +37,7 @@ apcu_delete — Видалення збереженого значення з к
 
 **Приклад #1 Приклад використання **apcu_delete()****
 
-` <?php$bar u003d 'BAR';apcu_store('foo', $bar);//Вилучаємо одну запис.apcu_delete('foo');// Видаляємо кілька записів.apcu_delete(['foo', 'bar' , 'baz']);// Використовуємо ітератор з регулярним виразом.apcu_delete(new APCUIterator('#^myprefix_#'));?> `
+` <?php$bar = 'BAR';apcu_store('foo', $bar);//Вилучаємо одну запис.apcu_delete('foo');// Видаляємо кілька записів.apcu_delete(['foo', 'bar' , 'baz']);// Використовуємо ітератор з регулярним виразом.apcu_delete(new APCUIterator('#^myprefix_#'));?> `
 
 ### Дивіться також
 

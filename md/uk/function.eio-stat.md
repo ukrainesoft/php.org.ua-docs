@@ -7,7 +7,7 @@
 
 #eio_stat
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_stat — Повертає статус файлу
 
@@ -18,7 +18,7 @@ string `$path`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_stat()** повертає інформацію про стан файлу в `result`
@@ -66,35 +66,35 @@ $data u003d NULL
 
 **Приклад #1 Приклад використання **eio_stat()****
 
-` <?php$tmp_filename u003d "eio-file.tmp";touch($tmp_filename);function my_res_cb($data, $result) {    var_dump($data); var_dump($result);}function my_open_cb($data, $result) {   eio_close($result); eio_event_loop(); @unlink($data);}eio_stat($tmp_filename, EIO_PRI_DEFAULT, "my_res_cb", "eio_stat");eio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,|
+` <?php$tmp_filename = "eio-file.tmp";touch($tmp_filename);function my_res_cb($data, $result) {    var_dump($data); var_dump($result);}function my_open_cb($data, $result) {   eio_close($result); eio_event_loop(); @unlink($data);}eio_stat($tmp_filename, EIO_PRI_DEFAULT, "my_res_cb", "eio_stat");eio_open($tmp_filename, EIO_O_RDONLY, NULL, EIO_PRI_DEFAULT,|
 
 Результатом виконання цього прикладу буде щось подібне:
 
 string(8) "eio_stat"
 array(12) {
-["st_dev"]u003d>
+["st_dev"]=>
 int(2050)
-["st_ino"]u003d>
+["st_ino"]=>
 int(2489173)
-["st_mode"]u003d>
+["st_mode"]=>
 int(33188)
-["st_nlink"]u003d>
+["st_nlink"]=>
 int(1)
-["st_uid"]u003d>
+["st_uid"]=>
 int(1000)
-["st_gid"]u003d>
+["st_gid"]=>
 int(100)
-["st_rdev"]u003d>
+["st_rdev"]=>
 int(0)
-["st_blksize"]u003d>
+["st_blksize"]=>
 int(4096)
-["st_blocks"]u003d>
+["st_blocks"]=>
 int(0)
-["st_atime"]u003d>
+["st_atime"]=>
 int(1318250380)
-["st_mtime"]u003d>
+["st_mtime"]=>
 int(1318250380)
-["st_ctime"]u003d>
+["st_ctime"]=>
 int(1318250380)
 }
 

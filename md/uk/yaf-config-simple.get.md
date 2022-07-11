@@ -7,13 +7,13 @@
 
 # Yaf_Config_Simple::\_\_get
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Config_Simple::\_\_get - Призначення \_\_get
 
 ### Опис
 
-public **Yaf_Config_Simple::\_\_get**(string `$name` u003d ?): void
+public **Yaf_Config_Simple::\_\_get**(string `$name` = ?): void
 
 **Увага**
 

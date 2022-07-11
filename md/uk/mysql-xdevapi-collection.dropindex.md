@@ -36,7 +36,7 @@ bool
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::dropIndex()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schemau003du003d$session->getSchema("addressbook");$create u003d $schema->createCollection("people");// ...$collection u003d $s ->getCollection("people");$collection->createIndex( 'myindex', '{"fields": [{"field": "$.name", "type": "TEXT(25)", "required ": true}], "unique": false}');// ...if ($collection->dropIndex('myindex')) {    echo "Індекс з назвою 'myindex' був найден і лён ?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema==$session->getSchema("addressbook");$create = $schema->createCollection("people");// ...$collection = $s ->getCollection("people");$collection->createIndex( 'myindex', '{"fields": [{"field": "$.name", "type": "TEXT(25)", "required ": true}], "unique": false}');// ...if ($collection->dropIndex('myindex')) {    echo "Індекс з назвою 'myindex' був найден і лён ?> `
 
 Результат виконання цього прикладу:
 

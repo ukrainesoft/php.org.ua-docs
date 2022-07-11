@@ -7,7 +7,7 @@
 
 # ZMQSocket::\_\_construct
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::\_\_construct - Конструктор класу ZMQSocket
 
@@ -16,8 +16,8 @@ ZMQSocket::\_\_construct - Конструктор класу ZMQSocket
 public **ZMQSocket::\_\_construct**(
 [ZMQContext](class.zmqcontext.md) `$context`,
 int `$type`,
-string `$persistent_id` u003d **`null`**,
-[callable](language.types.callable.md) `$on_new_socket` u003d
+string `$persistent_id` = **`null`**,
+[callable](language.types.callable.md) `$on_new_socket` =
 **`null`**
 )
 
@@ -47,7 +47,7 @@ Callback-функція, яка буде викликана під час ств
 з'єднання.
 
 callback([ZMQSocket](class.zmqsocket.md) `$socket`, string
-`$persistent_id` u003d **`null`**)
+`$persistent_id` = **`null`**)
 
 ### Помилки
 
@@ -60,5 +60,5 @@ callback([ZMQSocket](class.zmqsocket.md) `$socket`, string
 Використання функції зворотного дзвінка для зв'язку або підключення
 сокету
 
-` <?php/*  Здесь используется постоянный сокет, поэтому функция будет вызвана лишь  при первом обращении к скрипту.*/function on_new_socket_cb(ZMQSocket $socket, $persistent_id u003d null){    if ($persistent_id u003du003du003d 'server') {        $ socket->bind("tcp://localhost:12122"); } else {        $socket->connect("tcp://localhost:12122"); }}/* Створити новий контекст */$context u003d new ZMQContext();/* Створити сокет */$socket u003d $context->getSocket(ZMQ::SOCKET_REP, 'server','$' socket->recv();echo "Отримано повідомлення: {$message}
+` <?php/*  Здесь используется постоянный сокет, поэтому функция будет вызвана лишь  при первом обращении к скрипту.*/function on_new_socket_cb(ZMQSocket $socket, $persistent_id = null){    if ($persistent_id === 'server') {        $ socket->bind("tcp://localhost:12122"); } else {        $socket->connect("tcp://localhost:12122"); }}/* Створити новий контекст */$context = new ZMQContext();/* Створити сокет */$socket = $context->getSocket(ZMQ::SOCKET_REP, 'server','$' socket->recv();echo "Отримано повідомлення: {$message}
 ";?> `

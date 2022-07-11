@@ -7,7 +7,7 @@
 
 # Yaf_Action_Abstract::getController
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Action_Abstract::getController — Отримати об'єкт контролер
 

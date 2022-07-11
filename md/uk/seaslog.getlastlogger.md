@@ -7,7 +7,7 @@
 
 # SeasLog::getLastLogger
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 SeasLog::getLastLogger — Отримує останній шлях реєстратора SeasLog
 

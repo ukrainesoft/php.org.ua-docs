@@ -28,7 +28,7 @@
 
 **Приклад #1 Проблеми встановлення кодування символів за допомогою SQL**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world"); SET NAMES utf8mb4");// І этот не впливає на $mysqli->real_escape_string();$mysqli->query("SET CHARACTER SET utf8mb4");// но вот на );$mysqli->set_charset('utf8mb4');// а це НЕ вплине, потому не можна використовувати "-"$mysqli->set_charset('UTF-8'); // (utf8mb4, а не UTF-8)?> `
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world"); SET NAMES utf8mb4");// І этот не впливає на $mysqli->real_escape_string();$mysqli->query("SET CHARACTER SET utf8mb4");// но вот на );$mysqli->set_charset('utf8mb4');// а це НЕ вплине, потому не можна використовувати "-"$mysqli->set_charset('UTF-8'); // (utf8mb4, а не UTF-8)?> `
 
 Приклади нижче демонструють, як правильно змінювати кодування символів
 час виконання за допомогою кожного з API.
@@ -42,7 +42,7 @@
 
 **Приклад #2 Приклад установки кодування символів: mysqli**
 
-` <?php$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");echo 'Початкове кодування: ' . $mysqli->character_set_name() . "
+` <?php$mysqli = new mysqli("localhost", "my_user", "my_password", "world");echo 'Початкове кодування: ' . $mysqli->character_set_name() . "
 ";if (!$mysqli->set_charset('utf8mb4')) {    printf("Помилка завантаження кодування utf8mb4: %s
 ", $mysqli->error);   exit;}echo 'Ваше поточне кодування: ' . $mysqli->character_set_name() . "
 ";?> `
@@ -50,4 +50,4 @@
 **Приклад #3 Приклад установки кодування символів:
 [pdo_mysql](ref.pdo-mysql.connection.md)**
 
-` <?php$pdo u003d new PDO("mysql:hostu003dlocalhost;dbnameu003dworld;charsetu003dutf8mb4", 'my_user', 'my_pass');?> `
+` <?php$pdo = new PDO("mysql:host=localhost;dbname=world;charset=utf8mb4", 'my_user', 'my_pass');?> `

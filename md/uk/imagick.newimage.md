@@ -18,7 +18,7 @@ int `$cols`,
 int `$rows`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$background`,
-string `$format` u003d ?
+string `$format` = ?
 ): bool
 
 Створює нове зображення і пов'язує значення ImagickPixel як
@@ -49,7 +49,7 @@ string `$format` u003d ?
 ### Список змін
 
 | Версія                                                                                                                             | Опис |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
+|------------------------------------------------------------------------------------------------------------------------------------|------|
 | PECL imagick 2.1.0 Тепер допускається рядок, що представляє колір, як третій параметр. Раніше допускався лише об'єкт ImagickPixel. |      |
 
 ### Приклади
@@ -58,4 +58,4 @@ string `$format` u003d ?
 
 Створення нового зображення та його відображення.
 
-` <?php$image u003d new Imagick();$image->newImage(100, 100, new ImagickPixel('red'));$image->setImageFormat('png');header('Content-type: image /png');echo $image;?> `
+` <?php$image = new Imagick();$image->newImage(100, 100, new ImagickPixel('red'));$image->setImageFormat('png');header('Content-type: image /png');echo $image;?> `

@@ -7,7 +7,7 @@
 
 #cubrid_unbuffered_query
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_unbuffered_query — Виконання запиту без завантаження результату
 пам'ять
@@ -15,7 +15,7 @@ cubrid_unbuffered_query — Виконання запиту без завант�
 ### Опис
 
 **cubrid_unbuffered_query**(string `$query`, resource `$conn_identifier`
-u003d?): Resource
+=?): Resource
 
 Функція виконує запит без очікування на виконання. Вона повертає
 значення у процесі створення результуючого набору.
@@ -45,7 +45,7 @@ SQL-запит
 
 **Приклад #1 Приклад використання **cubrid_unbuffered_query()****
 
-`<?php   $link u003d cubrid_connect("localhost", 30000, "demodb", "dba", ""); if (!$link)    {         die('Не удалося з'єднатися.'); }   $queryu003du003d"select * from code"; $result u003d cubrid_unbuffered_query($query, $link); while($row u003d cubrid_fetch($result))    {        var_dump($row); }   cubrid_close_request($result); cubrid_disconnect($link);?> `
+`<?php   $link = cubrid_connect("localhost", 30000, "demodb", "dba", ""); if (!$link)    {         die('Не удалося з'єднатися.'); }   $query=="select * from code"; $result = cubrid_unbuffered_query($query, $link); while($row = cubrid_fetch($result))    {        var_dump($row); }   cubrid_close_request($result); cubrid_disconnect($link);?> `
 
 ### Примітки
 

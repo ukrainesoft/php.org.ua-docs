@@ -7,7 +7,7 @@
 
 # Yaf_Request_Abstract::getModuleName
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::getModuleName — Призначення getModuleName
 

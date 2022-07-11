@@ -7,14 +7,14 @@
 
 # Swoole\Table::column
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::column — Встановлює тип даних та розмір стовпців
 
 ### Опис
 
 public **Swoole\Table::column**(string `$name`, string `$type`, int
-`$size` u003d ?): ReturnType
+`$size` = ?): ReturnType
 
 ### Список параметрів
 

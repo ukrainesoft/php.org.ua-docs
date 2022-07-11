@@ -7,13 +7,13 @@
 
 # sapi_windows_cp_get
 
-(PHP 7 \>u003d 7.1.0, PHP 8)
+(PHP 7 \>= 7.1.0, PHP 8)
 
 sapi_windows_cp_get — Отримати поточну кодову сторінку
 
 ### Опис
 
-**sapi_windows_cp_get**(string `$kind` u003d ""): int
+**sapi_windows_cp_get**(string `$kind` = ""): int
 
 Отримати поточну сторінку.
 

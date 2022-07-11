@@ -7,7 +7,7 @@
 
 #cubrid_lob_size
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_lob_size — Отримує розмір даних BLOB/CLOB
 
@@ -31,14 +31,14 @@ BLOB/CLOB.
 ### Список змін
 
 | Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
+|--------|----------------------------------------------------------|
 | 8.4.0  | Тип значення, що повертається, змінений з int на string. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **cubrid_lob_size()****
 
-` <?php$lobs u003d cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_idu003d5");echo "Розмір документу:".cubrid_lob_size($lobs[0]);cubr , "doc_5.txt");cubrid_lob_close($lobs);?> `
+` <?php$lobs = cubrid_lob_get($con, "SELECT doc_content FROM doc WHERE doc_id=5");echo "Розмір документу:".cubrid_lob_size($lobs[0]);cubr , "doc_5.txt");cubrid_lob_close($lobs);?> `
 
 ### Дивіться також
 

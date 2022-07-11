@@ -7,7 +7,7 @@
 
 # SplObjectStorage::rewind
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::rewind - Перекладає ітератор на перший елемент
 контейнера
@@ -30,7 +30,7 @@ public **SplObjectStorage::rewind**(): void
 
 **Приклад #1 Приклад використання **SplObjectStorage::rewind()****
 
-` <?php$s u003d new SplObjectStorage();$o1 u003d new StdClass;$o2 u003d new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {    $index  u003d $s->key(); $object u003d $s->current(); // аналогічно current($s)   $data   u003d $s->getInfo(); var_dump($object); var_dump($data); $s->next();}?> `
+` <?php$s = new SplObjectStorage();$o1 = new StdClass;$o2 = new StdClass;$s->attach($o1, "d1");$s->attach($o2, "d2" );$s->rewind();while($s->valid()) {    $index  = $s->key(); $object = $s->current(); // аналогічно current($s)   $data   = $s->getInfo(); var_dump($object); var_dump($data); $s->next();}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

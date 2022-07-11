@@ -7,7 +7,7 @@
 
 # EvLoop::resume
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvLoop::resume — Відновлює зупинений раніше цикл подій
 

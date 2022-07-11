@@ -8,7 +8,7 @@ DOMDocument, отриманого за допомогою XMLDiff\DOM::diff
 
 # XMLDiff\DOM::merge
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 XMLDiff\DOM::merge — Об'єднує об'єкт DOMDocument, на основі іншого
 об'єкта DOMDocument, отриманого за допомогою XMLDiff\DOM::diff

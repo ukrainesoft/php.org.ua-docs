@@ -7,7 +7,7 @@
 
 # date_get_last_errors
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 date_get_last_errors - Псевдонім
 [DateTime::getLastErrors()](datetime.getlasterrors.md)

@@ -7,13 +7,13 @@
 
 #dio_read
 
-(PHP 4 \>u003d 4.2.0, PHP 5 \< 5.1.0)
+(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
 
 dio_read — Прочитай байти із файлового дескриптора
 
 ### Опис
 
-**dio_read**(resource `$fd`, int `$len` u003d 1024): string
+**dio_read**(resource `$fd`, int `$len` = 1024): string
 
 Функція **dio_read()** читає та повертає `len` байт із дескриптора
 `fd`.

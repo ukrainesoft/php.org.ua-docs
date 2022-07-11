@@ -7,7 +7,7 @@
 
 #ps_closepath
 
-(PECL ps \>u003d 1.1.0)
+(PECL ps \>= 1.1.0)
 
 ps_closepath — Замикає шлях
 

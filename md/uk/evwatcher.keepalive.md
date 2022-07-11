@@ -7,13 +7,13 @@
 
 # EvWatcher::keepalive
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvWatcher::keepalive — Налаштовує, чи повертатиметься цикл
 
 ### Опис
 
-public **EvWatcher::keepalive**( bool `$value` u003d ?): bool
+public **EvWatcher::keepalive**( bool `$value` = ?): bool
 
 Налаштовує, чи повертатиметься цикл. Якщо `value` підтримки
 встановлено **`false`**, спостерігач не перешкоджатиме поверненню
@@ -44,4 +44,4 @@ public **EvWatcher::keepalive**( bool `$value` u003d ?): bool
 UDP-сокету, але не перешкоджаємо запуску циклу подій лише через це
 спостерігача.
 
-` <?php$udp_socket u003d ...$udp_watcher u003d new EvIo($udp_socket, Ev::READ, function () { /* ... */ });$udp_watcher->keepalive(FAL
+` <?php$udp_socket = ...$udp_watcher = new EvIo($udp_socket, Ev::READ, function () { /* ... */ });$udp_watcher->keepalive(FAL

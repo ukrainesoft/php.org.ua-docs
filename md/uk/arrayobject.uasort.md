@@ -8,7 +8,7 @@
 
 # ArrayObject::uasort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::uasort — Сортувати записи за допомогою користувача
 функцію для порівняння елементів та зберігаючи при цьому зв'язок ключ/значення
@@ -50,31 +50,31 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **ArrayObject::uasort()****
 
-` <?php// Функція порівнянняfunction cmp($a, $b) {    if ($a u003du003d $b) {        return 0; }   return ($a < $b) ? -1 : 1;}// Масив для сортування$array u003d array('a' u003d> 4, 'b' u003d> 8, 'c' u003d> -1, 'd' u003d> -9, 'e' u003d > 2, 'f' u003d> 5, 'g' u003d> 3, 'h' u003d> -4);$arrayObject u003d new ArrayObject($array);print_r($arrayObject);// Сортування і виведення массива ->uasort('cmp');print_r($arrayObject);?> `
+` <?php// Функція порівнянняfunction cmp($a, $b) {    if ($a == $b) {        return 0; }   return ($a < $b) ? -1 : 1;}// Масив для сортування$array = array('a' => 4, 'b' => 8, 'c' => -1, 'd' => -9, 'e' = > 2, 'f' => 5, 'g' => 3, 'h' => -4);$arrayObject = new ArrayObject($array);print_r($arrayObject);// Сортування і виведення массива ->uasort('cmp');print_r($arrayObject);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[a] u003d> 4
-[b] u003d> 8
-[c] u003d> -1
-[d] u003d> -9
-[e] u003d> 2
-[f] u003d> 5
-[g] u003d> 3
-[h] u003d> -4
+[a] => 4
+[b] => 8
+[c] => -1
+[d] => -9
+[e] => 2
+[f] => 5
+[g] => 3
+[h] => -4
 )
 Array
 (
-[d] u003d> -9
-[h] u003d> -4
-[c] u003d> -1
-[e] u003d> 2
-[g] u003d> 3
-[a] u003d> 4
-[f] u003d> 5
-[b] u003d> 8
+[d] => -9
+[h] => -4
+[c] => -1
+[e] => 2
+[g] => 3
+[a] => 4
+[f] => 5
+[b] => 8
 )
 
 ### Дивіться також

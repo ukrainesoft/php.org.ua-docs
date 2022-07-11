@@ -7,7 +7,7 @@
 
 # Ds\Vector::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::isEmpty — Перевіряє, чи порожній вектор
 
@@ -29,7 +29,7 @@ public **Ds\Vector::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Vector::isEmpty()****
 
-` <?php$a u003d new \Ds\Vector([1, 2, 3]);$b u003d new \Ds\Vector();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+` <?php$a = new \Ds\Vector([1, 2, 3]);$b = new \Ds\Vector();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

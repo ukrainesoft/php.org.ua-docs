@@ -7,7 +7,7 @@
 
 # EvPeriodic::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvPeriodic::\_\_construct — Конструктор об'єкта спостерігача EvPeriodic
 
@@ -20,8 +20,8 @@ string `$interval` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 Створює об'єкт спостерігача EvPeriodic та запускає його автоматично.
@@ -59,11 +59,11 @@ callback-функції**
 **Приклад #2 Періодичний таймер. Відзначає кожні 10,5 секунд, починаючи з
 поточного моменту**
 
-` <?php// Відзначає кожні 10.5 секунд, починаючи з поточного моменту$w u003d new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, fun   , PHP_EOL;});Ev::run();?> `
+` <?php// Відзначає кожні 10.5 секунд, починаючи з поточного моменту$w = new EvPeriodic(fmod(Ev::now(), 10.5), 10.5, NULL, fun   , PHP_EOL;});Ev::run();?> `
 
 **Приклад #3 Часовий спостерігач**
 
-`<?php$hourly u003d EvPeriodic(0, 3600, NULL, function () { echo "раз в година
+`<?php$hourly = EvPeriodic(0, 3600, NULL, function () { echo "раз в година
 ";});?> `
 
 ### Дивіться також

@@ -7,14 +7,14 @@
 
 # Yaf_Route_Map::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Route_Map::\_\_construct - Призначення \_\_construct
 
 ### Опис
 
-public **Yaf_Route_Map::\_\_construct**(string `$controller_prefer` u003d
-**`false`**, string `$delimiter` u003d "")
+public **Yaf_Route_Map::\_\_construct**(string `$controller_prefer` =
+**`false`**, string `$delimiter` = "")
 
 ### Список параметрів
 
@@ -37,7 +37,7 @@ public **Yaf_Route_Map::\_\_construct**(string `$controller_prefer` u003d
 * результатом маршруту будуть наступні значення:
 */
 array(
-"controller" u003d> "product_foo_bar",
+"controller" => "product_foo_bar",
 )
 
 **Приклад #2 Приклад використання **Yaf_Route_Map()****
@@ -50,19 +50,19 @@ array(
 * результатом маршруту будуть наступні значення:
 */
 array(
-"action" u003d> "user_list",
+"action" => "user_list",
 )
 
 /**
 * та параметри запиту:
 */
 array(
-"foo" u003d> 22,
+"foo" => 22,
 )
 
 **Приклад #3 Приклад використання **Yaf_Route_Map()****
 
-` <?php   /**    * Добавьте карту маршрута в стек маршрутов Yaf_Router, вызвав addconfig    */    $config u003d array(        "name" u003d> array(           "type"  u003d> "map",         //маршрут Yaf_Route_Map           "controllerPrefer" u003d> FALSE,      "delimiter"        u003d> "#!",            ),    ); Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
+` <?php   /**    * Добавьте карту маршрута в стек маршрутов Yaf_Router, вызвав addconfig    */    $config = array(        "name" => array(           "type"  => "map",         //маршрут Yaf_Route_Map           "controllerPrefer" => FALSE,      "delimiter"        => "#!",            ),    ); Yaf_Dispatcher::getInstance()->getRouter()->addConfig(        new Yaf_Config_Simple($config));?> `
 
 ### Дивіться також
 

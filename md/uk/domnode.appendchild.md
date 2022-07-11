@@ -56,11 +56,11 @@ public **DOMNode::appendChild**([DOMNode](class.domnode.md) `$node`):
 
 **Приклад #1 Додавання дочірнього вузла**
 
-` <?php$doc u003d new DOMDocument;$node u003d $doc->createElement("para");$newnode u003d $doc->appendChild($node);echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument;$node = $doc->createElement("para");$newnode = $doc->appendChild($node);echo $doc->saveXML();?> `
 
 **Приклад #2 Вкладені дочірні вузли**
 
-` <?php$doc u003d new DOMDocument;$headNode u003d $doc->createElement("head");$doc->appendChild($headNode);$titleNode u003d $doc->createElement("title");$headNode ->appendChild($titleNode);echo $doc->saveXML();?> `
+` <?php$doc = new DOMDocument;$headNode = $doc->createElement("head");$doc->appendChild($headNode);$titleNode = $doc->createElement("title");$headNode ->appendChild($titleNode);echo $doc->saveXML();?> `
 
 ### Дивіться також
 

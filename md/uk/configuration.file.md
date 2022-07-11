@@ -62,7 +62,7 @@ PHP може бути визначений за допомогою функці�
 
 `` inicode
 ; PHP_MEMORY_LIMIT взято зі змінних оточення
-memory_limit u003d ${PHP_MEMORY_LIMIT}
+memory_limit = ${PHP_MEMORY_LIMIT}
 ````
 
 Директиви `php.ini`, що обробляються модулями, описані на відповідних
@@ -81,18 +81,18 @@ memory_limit u003d ${PHP_MEMORY_LIMIT}
 ; Можуть бути встановлені такі логічні значення:
 ; true, on, yes
 ; або false, off, no, none
-register_globalsu003doff
-track_errorsu003dyes
+register_globals=off
+track_errors=yes
 
 ; ви можете укладати рядки в подвійні лапки
-include_path u003d ".:/usr/local/lib/php"
+include_path = ".:/usr/local/lib/php"
 
 ; зворотний сліш обробляється так само, як будь-які інші символи
-include_path u003d ".;c:\php\lib"
+include_path = ".;c:\php\lib"
 ````
 
 Можливо звертатися до існуючих ini-змінних із ini-файлів. Приклад:
-`open_basedir u003d ${open_basedir} ":/new/dir"`.
+`open_basedir = ${open_basedir} ":/new/dir"`.
 
 ### Сканування директорій
 
@@ -115,19 +115,19 @@ OS; `:` на решті платформ; у PHP є константа
 [php_ini_scanned_files()](function.php-ini-scanned-files.md), або при
 запуск PHP з опцією **--ini**.
 
-Припустимо, що PHP налаштований на --with-config-file-scan-diru003d/etc/php.d,
+Припустимо, що PHP налаштований на --with-config-file-scan-dir=/etc/php.d,
 та роздільник шляхів:...
 
 $php
 PHP завантажить усі файли /etc/php.d/*.ini як конфігураційні.
 
-$ PHP_INI_SCAN_DIRu003d/usr/local/etc/php.d php
+$ PHP_INI_SCAN_DIR=/usr/local/etc/php.d php
 PHP завантажить усі файли /usr/local/etc/php.d/*.ini як конфігураційні.
 
-$ PHP_INI_SCAN_DIRu003d:/usr/local/etc/php.d php
+$ PHP_INI_SCAN_DIR=:/usr/local/etc/php.d php
 PHP завантажить усі файли /etc/php.d/*.ini, а потім
 /usr/local/etc/php.d/*.ini як конфігураційні.
 
-$ PHP_INI_SCAN_DIRu003d/usr/local/etc/php.d: php
+$ PHP_INI_SCAN_DIR=/usr/local/etc/php.d: php
 PHP завантажить усі файли /usr/local/etc/php.d/*.ini, а потім
 /etc/php.d/*.ini як конфігураційні.

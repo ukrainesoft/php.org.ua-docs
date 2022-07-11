@@ -19,7 +19,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 ### Опис
 
 public static **ReflectionFunction::export**(string `$name`, string
-`$return` u003d ?): string
+`$return` = ?): string
 
 Експортує відображену (reflected) функцію.
 

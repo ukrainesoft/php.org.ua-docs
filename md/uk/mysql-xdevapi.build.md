@@ -13,12 +13,12 @@
 `--enable-mysql-xdevapi`.
 
 - Boost: обов'язковий, за необхідності використовуйте параметр
-конфігурації --with-boostu003dDIR або задайте змінну оточення
+конфігурації --with-boost=DIR або задайте змінну оточення
 MYSQL_XDEVAPI_BOOST_ROOT. Потрібні лише файли заголовків boost;
 не двійкові файли.
 
 - Google Protocol Buffers (protobuf): обов'язковий, за необхідності
-використовуйте параметр конфігурації --with-protobufu003dDIR або задайте
+використовуйте параметр конфігурації --with-protobuf=DIR або задайте
 змінну оточення MYSQL_XDEVAPI_PROTOBUF_ROOT.
 
 За бажанням використовуйте `make protobufs` для створення файлів
@@ -28,8 +28,8 @@ protobuf (\*.pb.cc/.h) і `make clean-protobufs` для видалення
 Примітка до protobuf на Windows: залежно від оточення може
 потрібно статична бібліотека з багатопоточним часом
 виконання DLL. Для підготовки використовуйте такі параметри:
-*-Dprotobuf_MSVC_STATIC_RUNTIMEu003dOFF
--Dprotobuf_BUILD_SHARED_LIBSu003dOFF*
+*-Dprotobuf_MSVC_STATIC_RUNTIME=OFF
+-Dprotobuf_BUILD_SHARED_LIBS=OFF*
 
 - Google Protocol Buffers / protocol compiler (protoc): обов'язкові,
 переконайтеся, що під час складання в PATH доступний правильний 'protoc'.

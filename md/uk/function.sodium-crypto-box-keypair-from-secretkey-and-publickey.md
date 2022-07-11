@@ -8,7 +8,7 @@
 
 # sodium_crypto_box_keypair_from_secretkey_and_publickey
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_box_keypair_from_secretkey_and_publickey — Створює
 уніфікований рядок ключової пари із секретного та відкритого ключів

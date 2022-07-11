@@ -7,7 +7,7 @@
 
 # RegexIterator::\_\_construct
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::\_\_construct - Конструктор класу RegexIterator
 
@@ -16,9 +16,9 @@ RegexIterator::\_\_construct - Конструктор класу RegexIterator
 public **RegexIterator::\_\_construct**(
 [Iterator](class.iterator.md) `$iterator`,
 string `$pattern`,
-int `$mode` u003d RegexIterator::MATCH,
-int `$flags` u003d 0,
-int `$pregFlags` u003d 0
+int `$mode` = RegexIterator::MATCH,
+int `$flags` = 0,
+int `$pregFlags` = 0
 )
 
 Створює новий об'єкт класу [RegexIterator](class.regexiterator.md),
@@ -45,13 +45,13 @@ int `$pregFlags` u003d 0
 Прапори регулярного вираження. Список можливих прапорів залежить від режиму
 роботи:
 
-| режим роботи прапори       |
-| -------------------------- |
-| RegexIterator::ALL_MATCHES | Дивіться [preg_match_all()](function.preg-match-all.md). 
-| RegexIterator::GET_MATCH   | Дивіться [preg_match()](function.preg-match.md).
-| RegexIterator::MATCH       | Дивіться [preg_match()](function.preg-match.md).
-| RegexIterator::REPLACE     | ні
-| RegexIterator::SPLIT       | Дивіться [preg_split()](function.preg-split.md).
+| режим роботи прапори       |                                                          |
+|----------------------------|----------------------------------------------------------|
+| RegexIterator::ALL_MATCHES | Дивіться [preg_match_all()](function.preg-match-all.md). |
+| RegexIterator::GET_MATCH   | Дивіться [preg_match()](function.preg-match.md).         |
+| RegexIterator::MATCH       | Дивіться [preg_match()](function.preg-match.md).         |
+| RegexIterator::REPLACE     | ні                                                       |
+| RegexIterator::SPLIT       | Дивіться [preg_split()](function.preg-split.md).         |
 
 **[RegexIterator](class.regexiterator.md) preg_flags**
 
@@ -68,7 +68,7 @@ pattern заданий некоректно.
 Створює новий об'єкт RegexIterator, який відбирає рядки,
 що починаються зі слова 'test'.
 
-` <?php$arrayIterator u003d new ArrayIterator(array('test 1', 'another test', 'test 123'));$regexIteratoru003du003dnewRegexIterator($arrayIterator, '/$e as $value) {   echo $value . "
+` <?php$arrayIterator = new ArrayIterator(array('test 1', 'another test', 'test 123'));$regexIterator==newRegexIterator($arrayIterator, '/$e as $value) {   echo $value . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

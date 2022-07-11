@@ -63,7 +63,7 @@
 
 **Приклад #2 Визначення констант за допомогою ключового слова `const`**
 
-` <?php// Просте скалярне значення const Constant u003d u003d Здрастуйте, світ.'; echo Constant; Прощай, світ.';echo ANOTHER_CONST;const ANIMALS u003d array('dog', 'cat', 'bird');echo ANIMALS[1]; // виводить "cat"// Массиви в константіdefine('ANIMALS', array(   'dog',   'cat',   'bird'));echo ANIMALS[1]; // виводить "cat"?> `
+` <?php// Просте скалярне значення const Constant = = Здрастуйте, світ.'; echo Constant; Прощай, світ.';echo ANOTHER_CONST;const ANIMALS = array('dog', 'cat', 'bird');echo ANIMALS[1]; // виводить "cat"// Массиви в константіdefine('ANIMALS', array(   'dog',   'cat',   'bird'));echo ANIMALS[1]; // виводить "cat"?> `
 
 > **Примітка**:
 >

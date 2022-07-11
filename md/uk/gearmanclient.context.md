@@ -7,7 +7,7 @@
 
 # GearmanClient::context
 
-(PECL gearman \>u003d 0.6.0)
+(PECL gearman \>= 0.6.0)
 
 GearmanClient::context — Повертає контекст програми
 

@@ -7,7 +7,7 @@
 
 #gnupg_encrypt
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_encrypt — Шифрує заданий текст
 
@@ -38,9 +38,9 @@ gnupg_encrypt — Шифрує заданий текст
 **Приклад #1 Приклад використання **gnupg_encrypt()** у процедурному
 стилі**
 
-` <?php$res u003d gnupg_init();gnupg_addencryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC");$enc u003d gnupg_encrypt($res,$', 
+` <?php$res = gnupg_init();gnupg_addencryptkey($res,"8660281B6051D071D94B5B230549F9DC851566DC");$enc = gnupg_encrypt($res,$', 
 
 **Приклад #2 Приклад використання **gnupg_encrypt()** в
 об'єктно-орієнтованому стилі**
 
-` <?php$gpg u003d new gnupg();$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");$enc u003d $gpg->encrypt
+` <?php$gpg = new gnupg();$gpg->addencryptkey("8660281B6051D071D94B5B230549F9DC851566DC");$enc = $gpg->encrypt

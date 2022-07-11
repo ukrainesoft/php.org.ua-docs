@@ -7,7 +7,7 @@
 
 #gmp_invert
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_invert - Інверсія залишку від розподілу
 
@@ -38,7 +38,7 @@ GMP число у разі успішного виконання або **`false
 
 **Приклад #1 Приклад використання **gmp_invert()****
 
-`<?phpecho gmp_invert("5", "10"); // ні інверсії, не виводить нічого, результат FALSE$invert u003d gmp_invert("5", "11");echo gmp_strval($invert) . "
+`<?phpecho gmp_invert("5", "10"); // ні інверсії, не виводить нічого, результат FALSE$invert = gmp_invert("5", "11");echo gmp_strval($invert) . "
 ";?> `
 
 Результат виконання цього прикладу:

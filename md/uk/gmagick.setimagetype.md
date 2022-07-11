@@ -7,7 +7,7 @@
 
 # Gmagick::setimagetype
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimagetype — Встановлює тип зображення
 

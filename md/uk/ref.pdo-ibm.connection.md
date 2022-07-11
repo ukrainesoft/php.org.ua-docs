@@ -7,7 +7,7 @@
 
 # PDO_IBM DSN
 
-(PECL PDO_IBM \>u003d 0.9.0)
+(PECL PDO_IBM \>= 0.9.0)
 
 PDO_IBM DSN — З'єднання з базою даних IBM
 
@@ -28,7 +28,7 @@ b) Каталогізоване ім'я бази даних. Тобто. псе�
 каталогу клієнта DB2
 
 - c\) Повноцінний рядок з'єднання:
-`DRIVERu003d{IBM DB2 ODBC DRIVER};DATABASEu003ddatabase`;HOSTNAMEu003d`hostname`;PORTu003d`port`;PROTOCOLu003dTCPIP;UIDu003d`username`;PWDu003d`password`;,
+`DRIVER={IBM DB2 ODBC DRIVER};DATABASE=database`;HOSTNAME=`hostname`;PORT=`port`;PROTOCOL=TCPIP;UID=`username`;PWD=`password`;,
 де параметри означають таке:
 
 `database`
@@ -53,18 +53,18 @@ b) Каталогізоване ім'я бази даних. Тобто. псе�
 Наступний приклад демонструє PDO_IBM DSN для з'єднання з базою DB2
 вказаної як DB2_9 в `db2cli.ini`:
 
-$db u003d новий PDO("ibm:DSNu003dDB2_9", "", "");
+$db = новий PDO("ibm:DSN=DB2_9", "", "");
 
 [DB2_9]
-Databaseu003dtestdb
-Protocolu003dtcpip
-Hostnameu003d11.22.33.444
-Servicenameu003d56789
+Database=testdb
+Protocol=tcpip
+Hostname=11.22.33.444
+Servicename=56789
 
 **Приклад #2 Приклад PDO_IBM DSN за допомогою рядка з'єднання**
 
 Наступний приклад демонструє PDO_IBM DSN для з'єднання з базою DB2
 ім'ям **`testdb`** використовуючи синтаксис з'єднання DB2 CLI.
 
-$db u003d новий PDO("ibm:DRIVERu003d{IBM DB2 ODBC DRIVER};DATABASEu003dtestdb;" ).
-"HOSTNAMEu003d11.22.33.444;PORTu003d56789;PROTOCOLu003dTCPIP;", "testuser", "tespass");
+$db = новий PDO("ibm:DRIVER={IBM DB2 ODBC DRIVER};DATABASE=testdb;" ).
+"HOSTNAME=11.22.33.444;PORT=56789;PROTOCOL=TCPIP;", "testuser", "tespass");

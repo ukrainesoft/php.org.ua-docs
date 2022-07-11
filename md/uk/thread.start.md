@@ -7,13 +7,13 @@
 
 # Thread::start
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Thread::start — Виконання
 
 ### Опис
 
-public **Thread::start**(int `$options` u003d ?): bool
+public **Thread::start**(int `$options` = ?): bool
 
 Запуск нового потоку для виконання реалізованого методу запуску.
 
@@ -32,7 +32,7 @@ PTHREADS_INHERIT_ALL.
 
 **Приклад #1 Запуск потоку**
 
-` <?phpclass My extends Thread {    public function run() {        /** ... **/   }}$my u003d new My()>_my;
+` <?phpclass My extends Thread {    public function run() {        /** ... **/   }}$my = new My()>_my;
 
 Результат виконання цього прикладу:
 

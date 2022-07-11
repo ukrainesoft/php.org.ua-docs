@@ -7,7 +7,7 @@
 
 # Клас HRTime\StopWatch
 
-(PECL hrtime \>u003d 0.4.3)
+(PECL hrtime \>= 0.4.3)
 
 ## Вступ
 
@@ -21,14 +21,14 @@ class **HRTime\StopWatch** extends
 public [getElapsedTicks](hrtime-stopwatch.getelapsedticks.md)(): int
 
 public [getElapsedTime](hrtime-stopwatch.getelapsedtime.md)(int
-`$unit` u003d ?): float
+`$unit` = ?): float
 
 public
 [getLastElapsedTicks](hrtime-stopwatch.getlastelapsedticks.md)(): int
 
 public
 [getLastElapsedTime](hrtime-stopwatch.getlastelapsedtime.md)(int
-`$unit` u003d ?): float
+`$unit` = ?): float
 
 public [isRunning](hrtime-stopwatch.isrunning.md)(): bool
 

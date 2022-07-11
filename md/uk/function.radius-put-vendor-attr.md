@@ -7,7 +7,7 @@
 
 #radius_put_vendor_attr
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_put_vendor_attr — Приєднує бінарний атрибут, що залежить від
 постачальника
@@ -19,8 +19,8 @@ resource `$radius_handle`,
 int `$vendor`,
 int `$type`,
 string `$value`,
-int `$options` u003d 0,
-int `$tag` u003d ?
+int `$options` = 0,
+int `$tag` = ?
 ): bool
 
 Приєднує до поточного запиту RADIUS бінарний атрибут, що залежить від
@@ -65,8 +65,8 @@ ID виробника (Vendor).
 ### Список змін
 
 | Версія                                             | Опис |
-| -------------------------------------------------- | ---- |
-| PECL radius 1.3.0 Додані параметри options та tag. |      |      
+|----------------------------------------------------|------|
+| PECL radius 1.3.0 Додані параметри options та tag. |      |
 
 ### Приклади
 

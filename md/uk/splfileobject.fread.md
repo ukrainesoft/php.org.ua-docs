@@ -7,7 +7,7 @@
 
 # SplFileObject::fread
 
-(PHP 5 \>u003d 5.5.11, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.11, PHP 7, PHP 8)
 
 SplFileObject::fread — Читання з файлу
 
@@ -31,7 +31,7 @@ public **SplFileObject::fread**(int `$length`): string\|false
 
 **Приклад #1 Приклад **SplFileObject::fread()****
 
-` <?php// Читання контенту файла в рядок$filename u003d "/usr/local/something.txt";$file u003d new SplFileObject($filename, "r");$contents u003d $file->fread($ ->getSize());?> `
+` <?php// Читання контенту файла в рядок$filename = "/usr/local/something.txt";$file = new SplFileObject($filename, "r");$contents = $file->fread($ ->getSize());?> `
 
 ### Примітки
 

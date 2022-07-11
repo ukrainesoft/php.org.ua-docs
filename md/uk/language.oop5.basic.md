@@ -26,7 +26,7 @@
 
 **Приклад #1 Просте визначення класу**
 
-`<?phpclass SimpleClass{    // оголошення властивості    public $var u003d 'значення за замовчуванням'; // оголошення методу    public function displayVar() {        echo $this->var; }}?> `
+`<?phpclass SimpleClass{    // оголошення властивості    public $var = 'значення за замовчуванням'; // оголошення методу    public function displayVar() {        echo $this->var; }}?> `
 
 Псевдозмінна `$this` доступна в тому випадку, якщо метод був викликаний
 контекст об'єкта. `$this` - значення об'єкта, що викликає.
@@ -87,7 +87,7 @@ thrown in %s on line 27
 
 **Приклад #3 Створення екземпляра класу**
 
-` <?php$instance u003d new SimpleClass();// Це та можна зробити з допомогою змінною:$className u003d 'SimpleClass';$instance u003d new $className(); // new SimpleClass()?> `
+` <?php$instance = new SimpleClass();// Це та можна зробити з допомогою змінною:$className = 'SimpleClass';$instance = new $className(); // new SimpleClass()?> `
 
 Починаючи з PHP 8.0.0, підтримується використання оператора `new` з
 довільними висловлюваннями. Це дозволяє створювати складніші
@@ -125,14 +125,14 @@ object(ClassD)#1 (0) {
 
 **Приклад #5 Привласнення об'єкта**
 
-` <?php$instance u003d new SimpleClass();$assigned  u003d  $instance;$reference u003d& $instance;$instance->var u003d '$assigned буде мете це значення';$in // $instance і $reference стають nullvar_dump($instance);var_dump($reference);var_dump($assigned);?> `
+` <?php$instance = new SimpleClass();$assigned  =  $instance;$reference =& $instance;$instance->var = '$assigned буде мете це значення';$in // $instance і $reference стають nullvar_dump($instance);var_dump($reference);var_dump($assigned);?> `
 
 Результат виконання цього прикладу:
 
 NULL
 NULL
 object(SimpleClass)#1 (1) {
-["var"]u003d>
+["var"]=>
 string(30) "$assigned буде мати це значення"
 }
 
@@ -140,7 +140,7 @@ string(30) "$assigned буде мати це значення"
 
 **Приклад #6 Створення нових об'єктів**
 
-` <?phpclass Test{    static public function getNew()    {        return new static; }}class Child extends Test{}$obj1 u003d new Test();$obj2 u003d new $obj1;var_dump($obj1 !u003du003d $obj2);$obj3 u003d Test::getNew(); );$obj4 u003d Child::getNew();var_dump($obj4 instanceof Child);?> `
+` <?phpclass Test{    static public function getNew()    {        return new static; }}class Child extends Test{}$obj1 = new Test();$obj2 = new $obj1;var_dump($obj1 !== $obj2);$obj3 = Test::getNew(); );$obj4 = Child::getNew();var_dump($obj4 instanceof Child);?> `
 
 Результат виконання цього прикладу:
 
@@ -172,7 +172,7 @@ bool(true)
 
 **Приклад #8 Доступ до якості vs. виклик методу**
 
-` <?phpclass Foo{    public $bar u003d 'властивість'; public function bar() {        return 'метод'; }}$obj u003d new Foo();echo $obj->bar, PHP_EOL, $obj->bar(), PHP_EOL; `
+` <?phpclass Foo{    public $bar = 'властивість'; public function bar() {        return 'метод'; }}$obj = new Foo();echo $obj->bar, PHP_EOL, $obj->bar(), PHP_EOL; `
 
 Результат виконання цього прикладу:
 
@@ -186,7 +186,7 @@ bool(true)
 
 **Приклад #9 Виклик анонімної функції, що міститься у властивості**
 
-`<?phpclass Foo{    public $bar; public| }; }}$obj u003d new Foo();echo ($obj->bar)(), PHP_EOL; `
+`<?phpclass Foo{    public $bar; public| }; }}$obj = new Foo();echo ($obj->bar)(), PHP_EOL; `
 
 Результат виконання цього прикладу:
 
@@ -212,7 +212,7 @@ bool(true)
 **Приклад #10 Просте успадкування класів**
 
 `<?phpclass ExtendClass extends SimpleClass{    // Перевизначення методу батька    function displayVar()   {        echo "Расширення"
-";         parent::displayVar();    }}$extended u003d new ExtendClass();$extended->displayVar();?> `
+";         parent::displayVar();    }}$extended = new ExtendClass();$extended->displayVar();?> `
 
 Результат виконання цього прикладу:
 
@@ -236,7 +236,7 @@ bool(true)
 **Приклад #11 Сумісність дочірніх методів**
 
 `<?phpclass Base{    public function foo(int $a) {       echo "Допустимо
-";    }}class Extend1 extends Base{    function foo(int $a u003d 5)    {        parent::foo($a);    }}class Extend2 extends Base{    function foo(int $a, $b u003d 5)    {        parent: :foo($a);    }}$extended1 u003d new Extend1();$extended1->foo();$extended2 u003d new Extend2();$extended2->foo(1);
+";    }}class Extend1 extends Base{    function foo(int $a = 5)    {        parent::foo($a);    }}class Extend2 extends Base{    function foo(int $a, $b = 5)    {        parent: :foo($a);    }}$extended1 = new Extend1();$extended1->foo();$extended2 = new Extend2();$extended2->foo(1);
 
 Результат виконання цього прикладу:
 
@@ -249,22 +249,22 @@ bool(true)
 
 **Приклад #12 Фатальна помилка, коли дочірній метод видаляє параметр**
 
-`<?phpclass Base{    public function foo(int $a u003d 5) {       echo "Допустимо
+`<?phpclass Base{    public function foo(int $a = 5) {       echo "Допустимо
 ";    }}class Extend extends Base{   function foo()   {         parent::foo(1);    }} `
 
 Результат виконання цього прикладу в PHP 8 аналогічний:
 
-Fatal error: Declaration of Extend::foo() must be compatible with Base::foo(int $a u003d 5) у /in/evtlq on line 13
+Fatal error: Declaration of Extend::foo() must be compatible with Base::foo(int $a = 5) у /in/evtlq on line 13
 
 **Приклад #13 Фатальна помилка, коли дочірній метод робить
 необов'язковий параметр є обов'язковим.**
 
-`<?phpclass Base{    public function foo(int $a u003d 5) {       echo "Допустимо
+`<?phpclass Base{    public function foo(int $a = 5) {       echo "Допустимо
 ";    }}class Extend extends Base{   function foo(int $a)    {        parent::foo($a);    }} `
 
 Результат виконання цього прикладу в PHP 8 аналогічний:
 
-Поміркований error: Declaration of Extend::foo(int $a) має бути надійним з Base::foo(int $a u003d 5) in /in/qJXVC on line 13
+Поміркований error: Declaration of Extend::foo(int $a) має бути надійним з Base::foo(int $a = 5) in /in/qJXVC on line 13
 
 **Увага**
 
@@ -276,7 +276,7 @@ Fatal error: Declaration of Extend::foo() must be compatible with Base::foo(int 
 **Приклад #14 Помилка при використанні іменованих аргументів та
 параметрів, перейменованих у дочірньому класі**
 
-` <?phpclass A { {   public function test($foo, $bar) {}}class B extends A {    public function test($a, $b) {}}$obj u003d      ::test()$obj->test(foo: "foo", bar: "bar"); // ПОМИЛКА! `
+` <?phpclass A { {   public function test($foo, $bar) {}}class B extends A {    public function test($a, $b) {}}$obj =      ::test()$obj->test(foo: "foo", bar: "bar"); // ПОМИЛКА! `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -323,7 +323,7 @@ NS\ClassName
 
 **Приклад #17 Дозвіл імені об'єкта**
 
-` <?phpnamespace NS {   classClassClassName {    }}$c u003d new ClassName();print $c::class;?> `
+` <?phpnamespace NS {   classClassClassName {    }}$c = new ClassName();print $c::class;?> `
 
 Результат виконання цього прикладу:
 
@@ -343,7 +343,7 @@ NS\ClassName
 
 **Приклад #18 Оператор Nullsafe**
 
-` <?php// Починаючи з PHP 8.0.0, цей рядок: $result u003d u003d $ repository? -> getUser (5)? -> name; // Еквівалентна наступному блоку коду: result u003d null;} else {    $user u003d $repository->getUser(5); if (is_null($user)) {         $result u003d null; } else {        $result u003d $user->name; }}?> `
+` <?php// Починаючи з PHP 8.0.0, цей рядок: $result = = $ repository? -> getUser (5)? -> name; // Еквівалентна наступному блоку коду: result = null;} else {    $user = $repository->getUser(5); if (is_null($user)) {         $result = null; } else {        $result = $user->name; }}?> `
 
 > **Примітка**:
 >

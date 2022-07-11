@@ -7,7 +7,7 @@
 
 # SNMP::walk
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 SNMP::walk — Отримує піддерево об'єкта SNMP
 
@@ -15,9 +15,9 @@ SNMP::walk — Отримує піддерево об'єкта SNMP
 
 public **SNMP::walk**(
 array\|string `$objectId`,
-bool `$suffixAsKey` u003d **`false`**,
-int `$maxRepetitions` u003d -1,
-int `$nonRepeaters` u003d -1
+bool `$suffixAsKey` = **`false`**,
+int `$maxRepetitions` = -1,
+int `$nonRepeaters` = -1
 ): array\|false
 
 **SNMP::walk()** використовується для читання піддерева SNMP з коренем в
@@ -63,17 +63,17 @@ OID. Якщо встановлено значення **`true`**, префікс
 
 **Приклад #1 Приклад використання **SNMP::walk()****
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $fulltree u003d $session->walk("."); print_r($fulltree); $session->close();?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $fulltree = $session->walk("."); print_r($fulltree); $session->close();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[SNMPv2-MIB::sysDescr.0] u003d> STRING: Test server
-[SNMPv2-MIB::sysObjectID.0] u003d> OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
-[DISMAN-EVENT-MIB::sysUpTimeInstance] u003d> Timeticks: (1150681750) 133 days, 4:20:17.50
-[SNMPv2-MIB::sysContact.0] u003d> STRING: Nobody
-[SNMPv2-MIB::sysName.0] u003d> STRING: server.localdomain
+[SNMPv2-MIB::sysDescr.0] => STRING: Test server
+[SNMPv2-MIB::sysObjectID.0] => OID: NET-SNMP-MIB::netSnmpAgentOIDs.8
+[DISMAN-EVENT-MIB::sysUpTimeInstance] => Timeticks: (1150681750) 133 days, 4:20:17.50
+[SNMPv2-MIB::sysContact.0] => STRING: Nobody
+[SNMPv2-MIB::sysName.0] => STRING: server.localdomain
 ...
 )
 
@@ -83,33 +83,33 @@ Array
 піддерев SNMP в одне. У цьому прикладі імена інтерфейсів порівнюються
 з їх типом.
 
-`<?php $sessionu003du003dnew SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $session->valueretrieval u003d SNMP_VALUE_PLAIN; $ifDescru003du003d$session->walk(".1.3.6.1.2.1.2.2.1.2", TRUE); $session->valueretrieval u003d SNMP_VALUE_LIBRARY; $ifTypeu003du003d$session->walk(".1.3.6.1.2.1.2.2.1.3", TRUE); print_r($ifDescr); print_r($ifType); $resultu003du003d array(); foreach($ifDescr as $i u003d> $n) {    $result[$n] u003d $ifType[$i]; }  print_r($result);?> `
+`<?php $session==new SNMP(SNMP::VERSION_1, "127.0.0.1", "public"); $session->valueretrieval = SNMP_VALUE_PLAIN; $ifDescr==$session->walk(".1.3.6.1.2.1.2.2.1.2", TRUE); $session->valueretrieval = SNMP_VALUE_LIBRARY; $ifType==$session->walk(".1.3.6.1.2.1.2.2.1.3", TRUE); print_r($ifDescr); print_r($ifType); $result== array(); foreach($ifDescr as $i => $n) {    $result[$n] = $ifType[$i]; }  print_r($result);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[1] u003d> igb0
-[2] u003d> igb1
-[3] u003d> ipfw0
-[4] u003d> lo0
-[5] u003d> lagg0
+[1] => igb0
+[2] => igb1
+[3] => ipfw0
+[4] => lo0
+[5] => lagg0
 )
 Array
 (
-[1] u003d> INTEGER: ieee8023adLag(161)
-[2] u003d> INTEGER: ieee8023adLag(161)
-[3] u003d> INTEGER: ethernetCsmacd(6)
-[4] u003d> INTEGER: softwareLoopback(24)
-[5] u003d> INTEGER: ethernetCsmacd(6)
+[1] => INTEGER: ieee8023adLag(161)
+[2] => INTEGER: ieee8023adLag(161)
+[3] => INTEGER: ethernetCsmacd(6)
+[4] => INTEGER: softwareLoopback(24)
+[5] => INTEGER: ethernetCsmacd(6)
 )
 Array
 (
-[igb0] u003d> INTEGER: ieee8023adLag(161)
-[igb1] u003d> INTEGER: ieee8023adLag(161)
-[ipfw0] u003d> INTEGER: ethernetCsmacd(6)
-[lo0] u003d> INTEGER: softwareLoopback(24)
-[lagg0] u003d> INTEGER: ethernetCsmacd(6)
+[igb0] => INTEGER: ieee8023adLag(161)
+[igb1] => INTEGER: ieee8023adLag(161)
+[ipfw0] => INTEGER: ethernetCsmacd(6)
+[lo0] => INTEGER: softwareLoopback(24)
+[lagg0] => INTEGER: ethernetCsmacd(6)
 )
 
 ### Дивіться також

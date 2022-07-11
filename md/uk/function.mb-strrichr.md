@@ -8,7 +8,7 @@
 
 #mb_strrichr
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 mb_strrichr — Пошук останнього входження одного рядка до іншого,
 нечутливий до регістру
@@ -18,8 +18,8 @@ mb_strrichr — Пошук останнього входження одного 
 **mb_strrichr**(
 string `$haystack`,
 string `$needle`,
-bool `$before_needle` u003d **`false`**,
-?string `$encoding` u003d **`null`**
+bool `$before_needle` = **`false`**,
+?string `$encoding` = **`null`**
 ): string\|false
 
 **mb_strrichr()** шукає останнє входження рядка `needle` у рядку
@@ -55,7 +55,7 @@ bool `$before_needle` u003d **`false`**,
 ### Список змін
 
 | Версія | Опис                                                     |
-| ------ | -------------------------------------------------------- |
+|--------|----------------------------------------------------------|
 | 8.0.0  | needle тепер приймає порожній рядок.                     |
 | 8.0.0  | Тепер параметр encoding може набувати значення **null**. |
 

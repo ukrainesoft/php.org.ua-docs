@@ -26,7 +26,7 @@ $pecl install mysql_xdevapi
 7.2 в Ubuntu 18.04:
 
 // Створення власного файлу ini
-$ echo "extensionu003dmysql_xdevapi.so" > /etc/php/7.2/mods-available/mysql_xdevapi.ini
+$ echo "extension=mysql_xdevapi.so" > /etc/php/7.2/mods-available/mysql_xdevapi.ini
 
 // Використання команди 'phpenmod' (примітка: це стосується Debian/Ubuntu)
 $ phpenmod -v 7.2 -s ALL mysql_xdevapi

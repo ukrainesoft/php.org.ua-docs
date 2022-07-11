@@ -7,7 +7,7 @@
 
 # Клас Yaf_Exception_LoadFailed_View
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 

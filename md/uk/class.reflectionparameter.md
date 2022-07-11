@@ -45,10 +45,10 @@ bool
 private [\_\_clone](reflectionparameter.clone.md)(): void
 
 public static [export](reflectionparameter.export.md)(string
-`$function`, string `$parameter`, bool `$return` u003d ?): string
+`$function`, string `$parameter`, bool `$return` = ?): string
 
 public [getAttributes](reflectionparameter.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public [getClass](reflectionparameter.getclass.md)():
 ?[ReflectionClass](class.reflectionclass.md)

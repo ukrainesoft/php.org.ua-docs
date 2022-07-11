@@ -7,7 +7,7 @@
 
 # cubrid_fetch_object
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_fetch_object — Витягти наступний рядок як об'єкт
 
@@ -15,9 +15,9 @@ cubrid_fetch_object — Витягти наступний рядок як об'�
 
 **cubrid_fetch_object**(
 resource `$result`,
-string `$class_name` u003d ?,
-array `$params` u003d ?,
-int `$type` u003d ?
+string `$class_name` = ?,
+array `$params` = ?,
+int `$type` = ?
 ): object
 
 Функція повертає об'єкт із властивостями, імена яких дорівнюють іменам
@@ -53,32 +53,32 @@ int `$type` u003d ?
 
 **Приклад #1 Приклад використання **cubrid_fetch_object()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$res u003d cubrid_execute($conn, "SELECT * FROM code");var_dump(cubrid_fetch_object| з LOB використовуйте cubrid_fetch_object($res, CUBRID_LOB)class demodb_code {    public $s_name u003d null; public $f_name u003d u003d null; public function toString() {        var_dump($this); }}var_dump(cubrid_fetch_object($res, "demodb_code"));// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)class demodb_code_construct extends demodb_code {    public function __construct($s, $f) { $this->s_name u003d $s; $this->f_name u003d $f; }}var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'))); f_name'), CUBRID_LOB)var_dump(cubrid_fetch_object($res));cubrid_close_request($res);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$res = cubrid_execute($conn, "SELECT * FROM code");var_dump(cubrid_fetch_object| з LOB використовуйте cubrid_fetch_object($res, CUBRID_LOB)class demodb_code {    public $s_name = null; public $f_name = = null; public function toString() {        var_dump($this); }}var_dump(cubrid_fetch_object($res, "demodb_code"));// В случае работы с LOB используйте cubrid_fetch_object($res, "demodb_code", CUBRID_LOB)class demodb_code_construct extends demodb_code {    public function __construct($s, $f) { $this->s_name = $s; $this->f_name = $f; }}var_dump(cubrid_fetch_object($res, 'demodb_code_construct', array('s_name', 'f_name'))); f_name'), CUBRID_LOB)var_dump(cubrid_fetch_object($res));cubrid_close_request($res);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#1 (2) {
-["s_name"]u003d>
+["s_name"]=>
 string(1) "X"
-["f_name"]u003d>
+["f_name"]=>
 string(5) "Mixed"
 }
 object(demodb_code)#1 (2) {
-["s_name"]u003d>
+["s_name"]=>
 string(1) "W"
-["f_name"]u003d>
+["f_name"]=>
 string(5) "Woman"
 }
 object(demodb_code_construct)#1 (2) {
-["s_name"]u003d>
+["s_name"]=>
 string(6) "s_name"
-["f_name"]u003d>
+["f_name"]=>
 string(6) "f_name"
 }
 object(stdClass)#1 (2) {
-["s_name"]u003d>
+["s_name"]=>
 string(1) "B"
-["f_name"]u003d>
+["f_name"]=>
 string(6) "Bronze"
 }
 

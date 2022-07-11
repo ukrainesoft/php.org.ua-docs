@@ -7,7 +7,7 @@
 
 # Gender\Gender::isNick
 
-(PECL gender \>u003d 0.9.0)
+(PECL gender \>= 0.9.0)
 
 Gender\Gender::isNick — Перевіряє, чи є name0 псевдонімом для
 name1
@@ -15,7 +15,7 @@ name1
 ### Опис
 
 public **Gender\Gender::isNick**(string `$name0`, string `$name1`, int
-`$country` u003d ?): array
+`$country` = ?): array
 
 Перевіряє, чи name0 є псевдонімом для name1.
 

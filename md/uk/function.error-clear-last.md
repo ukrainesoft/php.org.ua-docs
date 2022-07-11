@@ -28,20 +28,20 @@ error_clear_last — Очистити останню помилку
 
 **Приклад #1 Приклад **error_clear_last()****
 
-` <?phpvar_dump(error_get_last());error_clear_last();var_dump(error_get_last());@$a u003d $b;var_dump(error_get_last());error_clear_last();var_dump(error_get_last());?>
+` <?phpvar_dump(error_get_last());error_clear_last();var_dump(error_get_last());@$a = $b;var_dump(error_get_last());error_clear_last();var_dump(error_get_last());?>
 
 Результатом виконання цього прикладу буде щось подібне:
 
 NULL
 NULL
 array(4) {
-["type"]u003d>
+["type"]=>
 int(8)
-["message"]u003d>
+["message"]=>
 string(21) "Undefined variable: b"
-["file"]u003d>
+["file"]=>
 string(9) "%s"
-["line"]u003d>
+["line"]=>
 int(6)
 }
 NULL

@@ -7,15 +7,15 @@
 
 #wincache_ucache_info
 
-(PECL wincache \>u003d 1.1.0)
+(PECL wincache \>= 1.1.0)
 
 wincache_ucache_info — Отримує інформацію про дані, що зберігаються в
 користувальницькому кеші
 
 ### Опис
 
-**wincache_ucache_info**(bool `$summaryonly` u003d **`false`**, string
-`$key` u003d NULL): array\|false
+**wincache_ucache_info**(bool `$summaryonly` = **`false`**, string
+`$key` = NULL): array\|false
 
 Отримує інформацію про дані, що зберігаються в кеші користувача.
 
@@ -81,20 +81,20 @@ wincache_ucache_info — Отримує інформацію про дані, щ
 Результат виконання цього прикладу:
 
 Array
-( ["total_cache_uptime"] u003d> int(0)
-["is_local_cache"] u003d> bool(false)
-["total_item_count"] u003d> int(1)
-["total_hit_count"] u003d> int(3)
-["total_miss_count"] u003d> int(1)
-["ucache_entries"] u003d> Array(1)
-( [1] u003d> Array(6)
+( ["total_cache_uptime"] => int(0)
+["is_local_cache"] => bool(false)
+["total_item_count"] => int(1)
+["total_hit_count"] => int(3)
+["total_miss_count"] => int(1)
+["ucache_entries"] => Array(1)
+( [1] => Array(6)
 (
-["key_name"] u003d> string(5) "green"
-["value_type"] u003d> string(4) "long"
-["is_session"] u003d> int(0)
-["ttl_seconds"] u003d> int(0)
-["age_seconds"] u003d> int(0)
-["hitcount"] u003d> int(3)
+["key_name"] => string(5) "green"
+["value_type"] => string(4) "long"
+["is_session"] => int(0)
+["ttl_seconds"] => int(0)
+["age_seconds"] => int(0)
+["hitcount"] => int(3)
 )
 )
 )

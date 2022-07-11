@@ -9,7 +9,7 @@ UTF-8
 
 #grapheme_extract
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 grapheme_extract — Функція для отримання послідовності кластерів
 графем за замовчуванням із текстового буфера, яка має бути
@@ -22,9 +22,9 @@ grapheme_extract — Функція для отримання послідовн
 **grapheme_extract**(
 string `$haystack`,
 int `$size`,
-int `$type` u003d **`GRAPHEME_EXTR_COUNT`**,
-int `$offset` u003d 0,
-int `&$next` u003d **`null`**
+int `$type` = **`GRAPHEME_EXTR_COUNT`**,
+int `$offset` = 0,
+int `&$next` = **`null`**
 ): string\|false
 
 Функція для отримання послідовності кластерів графем за замовчуванням
@@ -69,14 +69,14 @@ $extract_type або **`false`** у разі виникнення помилки
 ### Список змін
 
 | Версія | Опис                                        |
-| ------ | ------------------------------------------- |
+|--------|---------------------------------------------|
 | 7.1.0  | Додано підтримку негативних значень offset. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **grapheme_extract()****
 
-` <?php$char_a_ring_nfdu003du003d"a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd u003d"o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print urlencode(grapheme_extract( $char_a_ring_nfd . $char_o_diaeresis_n_)|
+` <?php$char_a_ring_nfd=="a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd ="o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print urlencode(grapheme_extract( $char_a_ring_nfd . $char_o_diaeresis_n_)|
 
 Результат виконання цього прикладу:
 

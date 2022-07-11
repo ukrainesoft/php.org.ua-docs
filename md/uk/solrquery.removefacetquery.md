@@ -7,7 +7,7 @@
 
 # SolrQuery::removeFacetQuery
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::removeFacetQuery — Видалення одного з параметрів facet.query
 

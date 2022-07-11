@@ -7,14 +7,14 @@
 
 # Swoole\Process::daemon
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::daemon - Змінює процес на процес-демон
 
 ### Опис
 
-public static **Swoole\Process::daemon**(bool `$nochdir` u003d ?, bool
-`$noclose` u003d ?): void
+public static **Swoole\Process::daemon**(bool `$nochdir` = ?, bool
+`$noclose` = ?): void
 
 **Увага**
 

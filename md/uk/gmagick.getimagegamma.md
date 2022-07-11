@@ -7,7 +7,7 @@
 
 # Gmagick::getimagegamma
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagegamma — Повертає гаму зображення
 

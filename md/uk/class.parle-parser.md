@@ -7,7 +7,7 @@
 
 # Клас Parle\Parser
 
-(PECL parle \>u003d 0.5.1)
+(PECL parle \>= 0.5.1)
 
 ## Вступ
 
@@ -21,27 +21,27 @@ class **Parle\Parser** {
 
 /\* Константи \*/
 
-const int `ACTION_ERROR` u003d 0;
+const int `ACTION_ERROR` = 0;
 
-const int `ACTION_SHIFT` u003d 1;
+const int `ACTION_SHIFT` = 1;
 
-const int `ACTION_REDUCE` u003d 2;
+const int `ACTION_REDUCE` = 2;
 
-const int `ACTION_GOTO` u003d 3;
+const int `ACTION_GOTO` = 3;
 
-const int `ACTION_ACCEPT` u003d 4;
+const int `ACTION_ACCEPT` = 4;
 
-const int `ERROR_SYNTAX` u003d 0;
+const int `ERROR_SYNTAX` = 0;
 
-const int `ERROR_NON_ASSOCIATIVE` u003d 1;
+const int `ERROR_NON_ASSOCIATIVE` = 1;
 
-const int `ERROR_UNKNOWN_TOKEN` u003d 2;
+const int `ERROR_UNKNOWN_TOKEN` = 2;
 
 /\* Властивості \*/
 
-public int `$action` u003d 0;
+public int `$action` = 0;
 
-public int `$reduceId` u003d 0;
+public int `$reduceId` = 0;
 
 /\* Методи \*/
 
@@ -66,7 +66,7 @@ public [precedence](parle-parser.precedence.md)(string `$tok`): void
 public [push](parle-parser.push.md)(string `$name`, string `$rule`):
 int
 
-public [reset](parle-parser.reset.md)(int `$tokenId` u003d ?): void
+public [reset](parle-parser.reset.md)(int `$tokenId` = ?): void
 
 public [right](parle-parser.right.md)(string `$tok`): void
 

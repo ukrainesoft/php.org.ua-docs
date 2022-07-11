@@ -7,7 +7,7 @@
 
 # Ds\Deque::find
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::find — Пошук індексу за значенням
 
@@ -38,7 +38,7 @@ public
 
 **Приклад #1 Приклад використання **Ds\Deque::find()****
 
-` <?php$deque u003d new \Ds\Deque(["a", 1, true]);var_dump($deque->find("a")); // 0var_dump($deque->find("b")); //falsevar_dump($deque->find("1")); //falsevar_dump($deque->find(1)); // 1?> `
+` <?php$deque = new \Ds\Deque(["a", 1, true]);var_dump($deque->find("a")); // 0var_dump($deque->find("b")); //falsevar_dump($deque->find("1")); //falsevar_dump($deque->find(1)); // 1?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

@@ -7,7 +7,7 @@
 
 # Memcache::setCompressThreshold
 
-(PECL memcache \>u003d 2.0.0)
+(PECL memcache \>= 2.0.0)
 
 Memcache::setCompressThreshold — Увімкнути автоматичне стиснення для
 великих значень
@@ -15,7 +15,7 @@ Memcache::setCompressThreshold — Увімкнути автоматичне с�
 ### Опис
 
 **Memcache::setCompressThreshold**(int `$threshold`, float
-`$min_savings` u003d ?): bool
+`$min_savings` = ?): bool
 
 **Memcache::setCompressThreshold()** включає автоматичне стиснення для
 великих значень. Ви також можете використати функцію
@@ -44,4 +44,4 @@ Memcache::setCompressThreshold — Увімкнути автоматичне с�
 
 **Приклад #1 Приклад використання **Memcache::setCompressThreshold()****
 
-`<?php/* об'єктно-орієнтоване API */$memcache_obj u003d new Memcache;$memcache_obj->addServer('memcache_host', 11211);$memcache_obj->setCompressThres$ u003d memcache_connect('memcache_host', 11211); memcache_set_compress_threshold($memcache_obj, 20000, 0.2);?> `
+`<?php/* об'єктно-орієнтоване API */$memcache_obj = new Memcache;$memcache_obj->addServer('memcache_host', 11211);$memcache_obj->setCompressThres$ = memcache_connect('memcache_host', 11211); memcache_set_compress_threshold($memcache_obj, 20000, 0.2);?> `

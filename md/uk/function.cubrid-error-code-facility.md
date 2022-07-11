@@ -7,7 +7,7 @@
 
 #cubrid_error_code_facility
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_error_code_facility — Отримати код рівня, на якому відбулася
 помилка
@@ -33,7 +33,7 @@ cubrid_error_code_facility — Отримати код рівня, на яком
 
 **Приклад #1 Приклад використання **cubrid_error_code_facility()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb");$req u003d @cubrid_execute($conn, "SELECT * FROM unknown");if (!$req)   %d
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb");$req = @cubrid_execute($conn, "SELECT * FROM unknown");if (!$req)   %d
 Error code: %d
 Error msg: %s
 ",   cubrid_error_code_facility(), cubrid_error_code(), cubrid_error_msg());   cubrid_disconnect($conn);    exit;}?> `

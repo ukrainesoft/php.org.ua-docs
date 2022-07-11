@@ -7,13 +7,13 @@
 
 # ssh2_fingerprint
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_fingerprint — отримання відбитка віддаленого сервера
 
 ### Опис
 
-**ssh2_fingerprint**(resource `$session`, int `$flags` u003d
+**ssh2_fingerprint**(resource `$session`, int `$flags` =
 SSH2_FINGERPRINT_MD5 \| SSH2_FINGERPRINT_HEX): string
 
 Повертає хеш ключа хоста з активної сесії.
@@ -37,5 +37,5 @@ SSH2_FINGERPRINT_MD5 \| SSH2_FINGERPRINT_HEX): string
 
 **Приклад #1 Перевірка відбитка з відомим значенням**
 
-` <?php$known_host u003d '6F89C2F0A719B30CC38ABDF90755F2E4';$connection u003d ssh2_connect('shell.example.com', 22);$fingerprint u003d ssh2_fingerprint($connection,               SSH2_FINGERPRINT_MD5 | SSH2_FINGERPRINT_HEX);if ($fingerprint !u003d $known_host) { die("Ключ хоста не збігається!"
+` <?php$known_host = '6F89C2F0A719B30CC38ABDF90755F2E4';$connection = ssh2_connect('shell.example.com', 22);$fingerprint = ssh2_fingerprint($connection,               SSH2_FINGERPRINT_MD5 | SSH2_FINGERPRINT_HEX);if ($fingerprint != $known_host) { die("Ключ хоста не збігається!"
 " .      "Можливо, атака посередника?");}?> `

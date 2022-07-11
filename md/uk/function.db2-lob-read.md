@@ -8,7 +8,7 @@
 
 #db2_lob_read
 
-(PECL ibm_db2 \>u003d 1.6.0)
+(PECL ibm_db2 \>= 1.6.0)
 
 db2_lob_read — Отримує певний користувачем розмір LOB-файлів при
 кожному виклику
@@ -40,9 +40,9 @@ db2_lob_read — Отримує певний користувачем розмі
 
 **Приклад #1 Ітерації з різних типів даних**
 
-` <?php/* Параметри підключення до базі даних */$db u003d 'SAMPLE';$username u003d 'db2inst1';$password u003d 'ibmdb2';/* Отримання ресурсу підключення */$$$ username,$password);if($conn) {    $drop u003d 'DROP TABLE clob_stream'; $result u003d @db2_exec( $conn, $drop ); $create u003d 'CREATE TABLE clob_stream (id INTEGER, my_clob CLOB)'; $result u003d db2_exec( $conn, $create ); $variable u003d ""; $stmtu003du003ddb2_prepare($conn, "INSERT INTO clob_stream (id,my_clob) VALUES (1, ?)"); $variable u003d "THIS IS A CLOB TEST. THIS IS A CLOB TEST."; db2_bind_param($stmt, 1, "variable", DB2_PARAM_IN); db2_execute($stmt); $sql u003d "SELECT id,my_clob FROM clob_stream"; $result u003d db2_prepare($conn, $sql); db2_execute($result); db2_fetch_row($result); $i u003d 0; /* Читання LOB-даних */    while ($data u003d db2_lob_read($result, 2, 6)) {       echo "Loop $i: $data
-";        $i u003d $i + 1;    }    $drop u003d 'DROP TABLE blob_stream';    $result u003d @db2_exec( $conn, $drop );    $create u003d 'CREATE TABLE blob_stream (id INTEGER, my_blob CLOB)';    $ resultu003du003ddb2_exec($conn, $create );   $variable u003d "";    $stmt u003d db2_prepare($conn, "INSERT INTO blob_stream (   BLOB TEST. THIS IS A BLOB TEST.";    db2_bind_param($stmt, 1, "variable", DB2_PARAM_IN);    db2_execute($stmt);    $sql u003d "SELECT id,my_blob FROM blob_stream";    $result u003d db2_prepare($conn, $sql );    db2_execute($result);    db2_fetch_row($result);    $i u003d 0;    /* Чтенеи LOB-данных */    while ($data u003d db2_lob_read($result, 2, 6)) {        echo "Loop $i: $ data
-";        $i u003d $i + 1;    }} else {    echo 'Нет сполуки: ' . db2_conn_errormsg();}?> `
+` <?php/* Параметри підключення до базі даних */$db = 'SAMPLE';$username = 'db2inst1';$password = 'ibmdb2';/* Отримання ресурсу підключення */$$$ username,$password);if($conn) {    $drop = 'DROP TABLE clob_stream'; $result = @db2_exec( $conn, $drop ); $create = 'CREATE TABLE clob_stream (id INTEGER, my_clob CLOB)'; $result = db2_exec( $conn, $create ); $variable = ""; $stmt==db2_prepare($conn, "INSERT INTO clob_stream (id,my_clob) VALUES (1, ?)"); $variable = "THIS IS A CLOB TEST. THIS IS A CLOB TEST."; db2_bind_param($stmt, 1, "variable", DB2_PARAM_IN); db2_execute($stmt); $sql = "SELECT id,my_clob FROM clob_stream"; $result = db2_prepare($conn, $sql); db2_execute($result); db2_fetch_row($result); $i = 0; /* Читання LOB-даних */    while ($data = db2_lob_read($result, 2, 6)) {       echo "Loop $i: $data
+";        $i = $i + 1;    }    $drop = 'DROP TABLE blob_stream';    $result = @db2_exec( $conn, $drop );    $create = 'CREATE TABLE blob_stream (id INTEGER, my_blob CLOB)';    $ result==db2_exec($conn, $create );   $variable = "";    $stmt = db2_prepare($conn, "INSERT INTO blob_stream (   BLOB TEST. THIS IS A BLOB TEST.";    db2_bind_param($stmt, 1, "variable", DB2_PARAM_IN);    db2_execute($stmt);    $sql = "SELECT id,my_blob FROM blob_stream";    $result = db2_prepare($conn, $sql );    db2_execute($result);    db2_fetch_row($result);    $i = 0;    /* Чтенеи LOB-данных */    while ($data = db2_lob_read($result, 2, 6)) {        echo "Loop $i: $ data
+";        $i = $i + 1;    }} else {    echo 'Нет сполуки: ' . db2_conn_errormsg();}?> `
 
 Результат виконання цього прикладу:
 

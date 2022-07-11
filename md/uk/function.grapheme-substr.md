@@ -7,7 +7,7 @@
 
 #grapheme_substr
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 grapheme_substr — Повертає частину рядка
 
@@ -15,7 +15,7 @@ grapheme_substr — Повертає частину рядка
 
 Процедурний стиль
 
-**grapheme_substr**(string `$string`, int `$offset`, ?int `$length` u003d
+**grapheme_substr**(string `$string`, int `$offset`, ?int `$length` =
 **`null`**): string\|false
 
 Повертає частину рядка.
@@ -50,7 +50,7 @@ $string, починаючи з нуля. Якщо значення $start нег
 
 **Приклад #1 Приклад використання **grapheme_substr()****
 
-` <?php$char_a_ring_nfdu003du003d"a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd u003d"o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print urlencode(grapheme_substr( "ao" . $char_a_ring_nfd . ; | ?> `
+` <?php$char_a_ring_nfd=="a\xCC\x8A"; //'LATIN SMALL LETTER A WITH RING ABOVE' (U+00E5) normalization form "D"$char_o_diaeresis_nfd ="o\xCC\x88"; // 'LATIN SMALL LETTER O WITH DIAERESIS' (U+00F6) normalization form "D"print urlencode(grapheme_substr( "ao" . $char_a_ring_nfd . ; | ?> `
 
 Результат виконання цього прикладу:
 

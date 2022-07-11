@@ -7,7 +7,7 @@
 
 #rrd_version
 
-(PECL rrd \>u003d 1.0.0)
+(PECL rrd \>= 1.0.0)
 
 rrd_version — Отримує інформацію про базову бібліотеку rrdtool
 

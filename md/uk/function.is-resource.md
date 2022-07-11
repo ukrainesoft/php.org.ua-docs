@@ -32,7 +32,7 @@ is_resource — Перевіряє, чи є змінна ресурсом
 
 **Приклад #1 Приклад використання **is_resource()****
 
-` <?php$handle u003dfopen("php://stdout", "w");if (is_resource($handle)) {    echo '$handle - цересурс';}?> `
+` <?php$handle =fopen("php://stdout", "w");if (is_resource($handle)) {    echo '$handle - цересурс';}?> `
 
 Результат виконання цього прикладу:
 

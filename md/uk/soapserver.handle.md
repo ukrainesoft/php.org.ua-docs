@@ -13,7 +13,7 @@ SoapServer::handle — Обробка SOAP-запиту
 
 ### Опис
 
-public **SoapServer::handle**(?string `$request` u003d **`null`**): void
+public **SoapServer::handle**(?string `$request` = **`null`**): void
 
 Обробляє SOAP-запит, викликає необхідні функції та відправляє
 відповідь клієнту.
@@ -31,14 +31,14 @@ SOAP-запит. Якщо аргумент не заданий, передбач
 ### Список змін
 
 | Версія | Опис                                  |
-| ------ | ------------------------------------- |
+|--------|---------------------------------------|
 | 8.0.0  | request тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SoapServer::handle()****
 
-` <?phpfunction test($x){   return $x;}$server u003d new SoapServer(null, array('uri' u003d> "http://test-uri/"));$server->addFunction(" test");$server->handle();?> `
+` <?phpfunction test($x){   return $x;}$server = new SoapServer(null, array('uri' => "http://test-uri/"));$server->addFunction(" test");$server->handle();?> `
 
 ### Дивіться також
 

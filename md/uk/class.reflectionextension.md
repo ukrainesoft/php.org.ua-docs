@@ -30,7 +30,7 @@ public [\_\_construct](reflectionextension.construct.md)(string
 private [\_\_clone](reflectionextension.clone.md)(): void
 
 public static [export](reflectionextension.export.md)(string `$name`,
-string `$return` u003d **`false`**): string
+string `$return` = **`false`**): string
 
 public [getClasses](reflectionextension.getclasses.md)(): array
 

@@ -7,7 +7,7 @@
 
 # Gmagick::getreleasedate
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getreleasedate — Повертає дату релізу GraphicsMagick у вигляді
 рядки

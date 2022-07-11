@@ -15,7 +15,7 @@ COMPersistHelper::\_\_construct — Конструктор класу COMPersist
 
 public
 **COMPersistHelper::\_\_construct**(?[variant](class.variant.md)
-`$variant` u003d **`null`**)
+`$variant` = **`null`**)
 
 Створює об'єкт класу COMPersistHelper, зазвичай пов'язаний з `variant`.
 

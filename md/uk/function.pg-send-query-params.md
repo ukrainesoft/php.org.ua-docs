@@ -8,7 +8,7 @@
 
 #pg_send_query_params
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_send_query_params — Надсилає параметризований запит на сервер, не
 чекає на результат, що повертається
@@ -55,14 +55,14 @@ SQL-команду у виразі.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_send_query_params()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Не удалося підключитися"); // Використання параметрів. Варто помітити, що немає потреби укласти в лапки і екранувати параметр. pg_send_query_params($dbconn, 'select count(*) from authors where city u003d $1', array('Perth')); // У порівнянні с pg_send_query $str u003d pg_escape_string('Perth'); pg_send_query($dbconn, "select count(*) from authors where city u003d '${str}'");?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Не удалося підключитися"); // Використання параметрів. Варто помітити, що немає потреби укласти в лапки і екранувати параметр. pg_send_query_params($dbconn, 'select count(*) from authors where city = $1', array('Perth')); // У порівнянні с pg_send_query $str = pg_escape_string('Perth'); pg_send_query($dbconn, "select count(*) from authors where city = '${str}'");?> `
 
 ### Дивіться також
 

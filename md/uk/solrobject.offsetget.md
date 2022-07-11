@@ -7,7 +7,7 @@
 
 # SolrObject::offsetGet
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrObject::offsetGet — Використовується для отримання якості
 

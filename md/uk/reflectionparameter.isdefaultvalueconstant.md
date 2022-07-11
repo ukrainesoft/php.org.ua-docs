@@ -7,7 +7,7 @@
 
 # ReflectionParameter::isDefaultValueConstant
 
-(PHP 5 \>u003d 5.4.6, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.6, PHP 7, PHP 8)
 
 ReflectionParameter::isDefaultValueConstant — Визначити, чи є
 значення параметра за промовчанням константою

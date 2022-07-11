@@ -32,7 +32,7 @@ getprotobyname — Отримує номер протоколу на ім'я
 
 **Приклад #1 Приклад використання **getprotobyname()****
 
-` <?php$protocol u003d 'tcp';$get_prot u003d getprotobyname($protocol);if ($get_prot u003du003du003d FALSE) {   echo 'Протокол не найдено';} else $get_prot;}?> `
+` <?php$protocol = 'tcp';$get_prot = getprotobyname($protocol);if ($get_prot === FALSE) {   echo 'Протокол не найдено';} else $get_prot;}?> `
 
 ### Дивіться також
 

@@ -7,7 +7,7 @@
 
 # Gmagick::getimagedepth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagedepth — Отримує глибину зображення
 

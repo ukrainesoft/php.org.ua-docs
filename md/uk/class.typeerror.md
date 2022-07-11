@@ -26,18 +26,18 @@ class **TypeError** extends [Error](class.error.md) {
 
 /\* Наслідувані властивості \*/
 
-protected string `$message` u003d "";
+protected string `$message` = "";
 
-private string `$string` u003d "";
+private string `$string` = "";
 
 protected int `$code`;
 
-protected string `$file` u003d "";
+protected string `$file` = "";
 
 protected int `$line`;
 
-private array `$trace` u003d [];
- private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` = [];
+ private ?[Throwable](class.throwable.md) `$previous` = null;
 
 /\* Наслідувані методи \*/
 
@@ -66,5 +66,5 @@ private [Error::\_\_clone](error.clone.md)(): void
 ## Список змін
 
 | Версія | Опис                                                                                                                                                                                                                   |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 7.1.0  | Виняток **TypeError** більше не викидається, коли у вбудовану PHP-функцію в режимі strict type передається неприпустима кількість аргументів. Натомість викидається [ArgumentCountError](class.argumentcounterror.md). |

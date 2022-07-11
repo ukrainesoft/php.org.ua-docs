@@ -7,7 +7,7 @@
 
 # Parle\RLexer::reset
 
-(PECL parle \>u003d 0.7.1)
+(PECL parle \>= 0.7.1)
 
 Parle\RLexer::reset — Скидає лексер
 

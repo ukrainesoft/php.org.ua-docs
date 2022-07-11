@@ -7,7 +7,7 @@
 
 # trader_cdl3inside
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdl3inside — Три дні зсередини вгору і три дні зсередини вниз
 

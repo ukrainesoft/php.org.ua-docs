@@ -9,7 +9,7 @@
 
 #collator_get_strength
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::getStrength -- collator_get_strength — Отримує поточну силу
 зіставлення
@@ -39,7 +39,7 @@ int
 
 **Приклад #1 Приклад використання **collator_get_strength()****
 
-` <?php$coll     u003d collator_create( 'en_US' );$strength u003d collator_get_strength( $coll );?> `
+` <?php$coll     = collator_create( 'en_US' );$strength = collator_get_strength( $coll );?> `
 
 ### Дивіться також
 

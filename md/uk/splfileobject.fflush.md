@@ -7,7 +7,7 @@
 
 # SplFileObject::fflush
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplFileObject::fflush — Скидає буфер виводу у файл
 
@@ -30,7 +30,7 @@ public **SplFileObject::fflush**(): bool
 
 **Приклад #1 Приклад використання **SplFileObject::fflush()****
 
-` <?php$file u003d new SplFileObject('misc.txt', 'r+');$file->rewind();$file->fwrite("Foo");$file->fflush();$file ->ftruncate($file->ftell());?> `
+` <?php$file = new SplFileObject('misc.txt', 'r+');$file->rewind();$file->fwrite("Foo");$file->fflush();$file ->ftruncate($file->ftell());?> `
 
 ### Дивіться також
 

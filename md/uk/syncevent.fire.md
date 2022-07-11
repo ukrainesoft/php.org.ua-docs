@@ -7,7 +7,7 @@
 
 # SyncEvent::fire
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 SyncEvent::fire — Запускає/встановлює подію
 
@@ -32,7 +32,7 @@ public **SyncEvent::fire**(): bool
 
 **Приклад #1 Приклад використання **SyncEvent::fire()****
 
-` <?php// У веб-додатку:$event u003d new SyncEvent("GetAppReport");$event->fire();// В завдання cron:$event u003d new SyncEvent("GetAppReport");$event- >wait();?> `
+` <?php// У веб-додатку:$event = new SyncEvent("GetAppReport");$event->fire();// В завдання cron:$event = new SyncEvent("GetAppReport");$event- >wait();?> `
 
 ### Дивіться також
 

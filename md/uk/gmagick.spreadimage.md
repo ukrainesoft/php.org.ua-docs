@@ -7,7 +7,7 @@
 
 # Gmagick::spreadimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::spreadimage — Випадково зміщує кожен піксель у блоці
 

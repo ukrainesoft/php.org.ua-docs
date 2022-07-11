@@ -13,7 +13,7 @@
 
 **Приклад #1 Використання `instanceof` з класами**
 
-` <?phpclass MyClass{}class NotMyClass{}$a u003d new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof NotMyClass);?> `
+` <?phpclass MyClass{}class NotMyClass{}$a = new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof NotMyClass);?> `
 
 Результат виконання цього прикладу:
 
@@ -25,7 +25,7 @@ bool(false)
 
 **Приклад #2 Використання `instanceof` з успадкованими класами**
 
-` <?phpclass ParentClass{}class MyClass extends ParentClass{}$a u003d new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof ParentClass);?> `
+` <?phpclass ParentClass{}class MyClass extends ParentClass{}$a = new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof ParentClass);?> `
 
 Результат виконання цього прикладу:
 
@@ -38,7 +38,7 @@ bool(true)
 **Приклад #3 Використання `instanceof` для перевірки того, що об'єкт
 *не* є екземпляром класу**
 
-` <?phpclass MyClass{}$a u003d new MyClass;var_dump(!($a instanceof stdClass));?> `
+` <?phpclass MyClass{}$a = new MyClass;var_dump(!($a instanceof stdClass));?> `
 
 Результат виконання цього прикладу:
 
@@ -50,7 +50,7 @@ bool(true)
 
 **Приклад #4 Використання `instanceof` з інтерфейсами**
 
-`<?phpinterface MyInterface{}class MyClass implements MyInterface{}$a u003d new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof MyInterface);?> `
+`<?phpinterface MyInterface{}class MyClass implements MyInterface{}$a = new MyClass;var_dump($a instanceof MyClass);var_dump($a instanceof MyInterface);?> `
 
 Результат виконання цього прикладу:
 
@@ -63,7 +63,7 @@ bool(true)
 
 **Приклад #5 Використання `instanceof` з іншими змінними**
 
-` <?phpinterface MyInterface{}class MyClass implements MyInterface{}$a u003d new MyClass;$b u003d new MyClass;$c u003d 'MyClass';$d u003d 'NotMyClass';var_dump($a // $b - об'єкт класу MyClassvar_dump($a instanceof $c); // $c - рядок 'MyClass'var_dump($a instanceof $d); // $d - рядок 'NotMyClass'?> `
+` <?phpinterface MyInterface{}class MyClass implements MyInterface{}$a = new MyClass;$b = new MyClass;$c = 'MyClass';$d = 'NotMyClass';var_dump($a // $b - об'єкт класу MyClassvar_dump($a instanceof $c); // $c - рядок 'MyClass'var_dump($a instanceof $d); // $d - рядок 'NotMyClass'?> `
 
 Результат виконання цього прикладу:
 
@@ -78,7 +78,7 @@ bool(false)
 **Приклад #6 Приклад використання оператора `instanceof` для перевірки
 інших змінних**
 
-` <?php$a u003d 1;$b u003d NULL;$c u003d imagecreate(5, 5);var_dump($a instanceof stdClass); // $a - ціле типу integervar_dump($b instanceof stdClass); // $b - NULLvar_dump($c instanceof stdClass); // $c - значення типу resourcevar_dump(FALSE instanceof stdClass);?> `
+` <?php$a = 1;$b = NULL;$c = imagecreate(5, 5);var_dump($a instanceof stdClass); // $a - ціле типу integervar_dump($b instanceof stdClass); // $b - NULLvar_dump($c instanceof stdClass); // $c - значення типу resourcevar_dump(FALSE instanceof stdClass);?> `
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # ocicloselob
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PECL OCI8 1.0)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PECL OCI8 1.0)
 
 ocicloselob - Псевдонім [OCILob::close()](ocilob.close.md)
 

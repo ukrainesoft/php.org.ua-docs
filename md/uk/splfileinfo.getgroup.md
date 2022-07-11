@@ -7,7 +7,7 @@
 
 # SplFileInfo::getGroup
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplFileInfo::getGroup — Отримує групу файлу
 
@@ -36,7 +36,7 @@ public **SplFileInfo::getGroup**(): int\|false
 
 **Приклад #1 Приклад використання **SplFileInfo::getGroup()****
 
-` <?php$info u003d new SplFileInfo(__FILE__);print_r(posix_getgrgid($info->getGroup()));?> `
+` <?php$info = new SplFileInfo(__FILE__);print_r(posix_getgrgid($info->getGroup()));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

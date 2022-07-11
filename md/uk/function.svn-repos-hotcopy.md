@@ -8,7 +8,7 @@ destpath
 
 # svn_repos_hotcopy
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_repos_hotcopy — Створює свіжу копію репозиторію на адресу repospath
 і копіює в destpath

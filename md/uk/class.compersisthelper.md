@@ -23,7 +23,7 @@ final class **COMPersistHelper** {
 
 public
 [\_\_construct](compersisthelper.construct.md)(?[variant](class.variant.md)
-`$variant` u003d **`null`**)
+`$variant` = **`null`**)
 
 public [GetCurFileName](compersisthelper.getcurfilename.md)():
 string\|false
@@ -33,13 +33,13 @@ public [GetMaxStreamSize](compersisthelper.getmaxstreamsize.md)(): int
 public [InitNew](compersisthelper.initnew.md)(): bool
 
 public [LoadFromFile](compersisthelper.loadfromfile.md)(string
-`$filename`, int `$flags` u003d 0): bool
+`$filename`, int `$flags` = 0): bool
 
 public [LoadFromStream](compersisthelper.loadfromstream.md)(resource
 `$stream`): bool
 
 public [SaveToFile](compersisthelper.savetofile.md)(?string
-`$filename`, bool `$remember` u003d **`true`**): bool
+`$filename`, bool `$remember` = **`true`**): bool
 
 public [SaveToStream](compersisthelper.savetostream.md)(resource
 `$stream`): bool

@@ -7,7 +7,7 @@
 
 # Gmagick::getimageprofile
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageprofile — Повертає іменований профайл зображення
 

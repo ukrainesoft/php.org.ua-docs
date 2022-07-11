@@ -7,14 +7,14 @@
 
 # SolrQuery::addGroupSortField
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::addGroupSortField — Додає поле сортування групи
 (Параметр group.sort)
 
 ### Опис
 
-public **SolrQuery::addGroupSortField**(string `$field`, int `$order` u003d
+public **SolrQuery::addGroupSortField**(string `$field`, int `$order` =
 ?): [SolrQuery](class.solrquery.md)
 
 Дозволяє сортувати групові документи, використовуючи поле сортування
@@ -35,11 +35,11 @@ SolrQuery::ORDER\_\*
 
 **Приклад #1 Приклад використання **SolrQuery::addGroupSortField()****
 
-` <?php$solrQuery u003d new SolrQuery('*:*');$solrQuery    ->setGroup(true)    ->addGroupSortField('price', SolrQuery::ORDER_ASC)'ech
+` <?php$solrQuery = new SolrQuery('*:*');$solrQuery    ->setGroup(true)    ->addGroupSortField('price', SolrQuery::ORDER_ASC)'ech
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003d*:*&groupu003dtrue&group.sortu003dprice asc
+q=*:*&group=true&group.sort=price asc
 
 ### Дивіться також
 
@@ -63,7 +63,7 @@ qu003d*:*&groupu003dtrue&group.sortu003dprice asc
 - [SolrQuery::setGroupMain()](solrquery.setgroupmain.md) - Якщо
 true, результат першої команди угруповання полів використовується в
 як основний список результатів у відповіді з використанням
-group.formatu003dsimple
+group.format=simple
 - [SolrQuery::setGroupNGroups()](solrquery.setgroupngroups.md) -
 Якщо true, Solr включає в результати кількість груп, які
 відповідають запиту

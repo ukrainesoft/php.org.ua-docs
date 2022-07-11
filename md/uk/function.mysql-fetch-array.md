@@ -24,7 +24,7 @@ mysql_fetch_array — Обробляє ряд результатів запит�
 
 ### Опис
 
-**mysql_fetch_array**(resource `$result`, int `$result_type` u003d
+**mysql_fetch_array**(resource `$result`, int `$result_type` =
 MYSQL_BOTH): array
 
 Повертає масив, що відповідає обробленому ряду результату запиту
@@ -71,15 +71,15 @@ SELECT table1.field AS foo, table2.field AS bar FROM table1, table2
 
 **Приклад #2 **mysql_fetch_array()** з **`MYSQL_NUM`****
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result u003d mysql  ");while ($row u003d mysql_fetch_array($result, MYSQL_NUM)) {    printf("ID: %s  Ім'я: %s", $row[0], $row[1]);}mysql_free_result ?> `
+`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while ($row = mysql_fetch_array($result, MYSQL_NUM)) {    printf("ID: %s  Ім'я: %s", $row[0], $row[1]);}mysql_free_result ?> `
 
 **Приклад #3 **mysql_fetch_array()** з **`MYSQL_ASSOC`****
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result u003d mysql  ");while ($row u003d mysql_fetch_array($result, MYSQL_ASSOC)) {    printf("ID: %s  Ім'я: %s", $row["id"], $row["name"]);}my__ $result);?> `
+`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {    printf("ID: %s  Ім'я: %s", $row["id"], $row["name"]);}my__ $result);?> `
 
 **Приклад #4 **mysql_fetch_array()** з **`MYSQL_BOTH`****
 
-`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result u003d mysql  ");while($row u003d mysql_fetch_array($result, MYSQL_BOTH)) {    printf ("ID: %s  Ім'я: %s", $row[0], $row["name"]);}my$_result );?> `
+`<?phpmysql_connect("localhost", "mysql_user", "mysql_password") or    die("Помилка з'єднання: " . mysql_error());mysql_select_db("mydb");$result = mysql  ");while($row = mysql_fetch_array($result, MYSQL_BOTH)) {    printf ("ID: %s  Ім'я: %s", $row[0], $row["name"]);}my$_result );?> `
 
 ### Примітки
 

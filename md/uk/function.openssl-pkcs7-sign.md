@@ -7,7 +7,7 @@
 
 # openssl_pkcs7_sign
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 openssl_pkcs7_sign — Підписати повідомлення S/MIME
 
@@ -21,8 +21,8 @@ string `$output_filename`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
 ?array `$headers`,
-int `$flags` u003d **`PKCS7_DETACHED`**,
-?string `$untrusted_certificates_filename` u003d **`null`**
+int `$flags` = **`PKCS7_DETACHED`**,
+?string `$untrusted_certificates_filename` = **`null`**
 ): bool
 
 **openssl_pkcs7_sign()** бере вміст файлу `input_filename` та
@@ -67,7 +67,7 @@ int `$flags` u003d **`PKCS7_DETACHED`**,
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                                                                      |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | certificate тепер приймає екземпляр [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR.                                                                           |
 | 8.0.0  | private_key тепер приймає екземпляр [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md) або [OpenSSLCertificate](class.opensslcertificate.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL key або OpenSSL X.509 CSR. |
 
@@ -75,4 +75,4 @@ int `$flags` u003d **`PKCS7_DETACHED`**,
 
 **Приклад #1 Приклад використання **openssl_pkcs7_sign()****
 
-`<?php// Повідомлення, яке ви хочете підписати для того, щоб одержувачі могли / / перевірити, що його послали саме ви $ data u003d 0 на 0.00. / зберігаємо повідомлення в фалй$fp u003dfopen("msg.txt", "w");fwrite($fp, $data);fclose($fp);// шифруємоif (openssl_pkcs7_sign("ed .txt", "file://mycert.pem",   array("file://mycert.pem", "mypassphrase"),    array("To" u003d> "joes@example.com", // асоціативний синтаксис "From: HQ <ceo@example.com>", // індексований синтаксис           "Subject" u003d> "Представницькі витрати")    )) {         exec(ini_get("sendmail_path") . " < signed.txt");}?> `
+`<?php// Повідомлення, яке ви хочете підписати для того, щоб одержувачі могли / / перевірити, що його послали саме ви $ data = 0 на 0.00. / зберігаємо повідомлення в фалй$fp =fopen("msg.txt", "w");fwrite($fp, $data);fclose($fp);// шифруємоif (openssl_pkcs7_sign("ed .txt", "file://mycert.pem",   array("file://mycert.pem", "mypassphrase"),    array("To" => "joes@example.com", // асоціативний синтаксис "From: HQ <ceo@example.com>", // індексований синтаксис           "Subject" => "Представницькі витрати")    )) {         exec(ini_get("sendmail_path") . " < signed.txt");}?> `

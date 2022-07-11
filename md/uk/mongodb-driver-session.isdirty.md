@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::isDirty
 
-(mongodb \>u003d1.13.0)
+(mongodb \>=1.13.0)
 
 MongoDB\Driver\Session::isDirty - Повертає, чи була сесія позначена
 як брудна

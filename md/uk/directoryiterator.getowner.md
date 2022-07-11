@@ -34,19 +34,19 @@ public **DirectoryIterator::getOwner**(): int
 
 Приклад показує власника директорії, що містить скрипт, що виконується.
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));print_r(posix_getpwuid($iterator->getOwner()));?> `
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));print_r(posix_getpwuid($iterator->getOwner()));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[name] u003d> tom
-[passwd] u003d> x
-[uid] u003d> 501
-[gid] u003d> 42
-[gecos] u003d> Tom Cat
-[dir] u003d> /home/tom
-[shell] u003d> /bin/bash
+[name] => tom
+[passwd] => x
+[uid] => 501
+[gid] => 42
+[gecos] => Tom Cat
+[dir] => /home/tom
+[shell] => /bin/bash
 )
 
 ### Дивіться також

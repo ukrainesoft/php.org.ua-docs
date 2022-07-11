@@ -7,7 +7,7 @@
 
 # Клас UConverter
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 ## Вступ
 
@@ -17,96 +17,96 @@ class **UConverter** {
 
 /\* Constants \*/
 
-const int `REASON_UNASSIGNED` u003d 0;
+const int `REASON_UNASSIGNED` = 0;
 
-const int `REASON_ILLEGAL` u003d 1;
+const int `REASON_ILLEGAL` = 1;
 
-const int `REASON_IRREGULAR` u003d 2;
+const int `REASON_IRREGULAR` = 2;
 
-const int `REASON_RESET` u003d 3;
+const int `REASON_RESET` = 3;
 
-const int `REASON_CLOSE` u003d 4;
+const int `REASON_CLOSE` = 4;
 
-const int `REASON_CLONE` u003d 5;
+const int `REASON_CLONE` = 5;
 
-const int `UNSUPPORTED_CONVERTER` u003d -1;
+const int `UNSUPPORTED_CONVERTER` = -1;
 
-const int `SBCS` u003d 0;
+const int `SBCS` = 0;
 
-const int `DBCS` u003d 1;
+const int `DBCS` = 1;
 
-const int `MBCS` u003d 2;
+const int `MBCS` = 2;
 
-const int `LATIN_1` u003d 3;
+const int `LATIN_1` = 3;
 
-const int `UTF8` u003d 4;
+const int `UTF8` = 4;
 
-const int `UTF16_BigEndian` u003d 5;
+const int `UTF16_BigEndian` = 5;
 
-const int `UTF16_LittleEndian` u003d 6;
+const int `UTF16_LittleEndian` = 6;
 
-const int `UTF32_BigEndian` u003d 7;
+const int `UTF32_BigEndian` = 7;
 
-const int `UTF32_LittleEndian` u003d 8;
+const int `UTF32_LittleEndian` = 8;
 
-const int `EBCDIC_STATEFUL` u003d 9;
+const int `EBCDIC_STATEFUL` = 9;
 
-const int `ISO_2022` u003d 10;
+const int `ISO_2022` = 10;
 
-const int `LMBCS_1` u003d 11;
+const int `LMBCS_1` = 11;
 
-const int `LMBCS_2` u003d 12;
+const int `LMBCS_2` = 12;
 
-const int `LMBCS_3` u003d 13;
+const int `LMBCS_3` = 13;
 
-const int `LMBCS_4` u003d 14;
+const int `LMBCS_4` = 14;
 
-const int `LMBCS_5` u003d 15;
+const int `LMBCS_5` = 15;
 
-const int `LMBCS_6` u003d 16;
+const int `LMBCS_6` = 16;
 
-const int `LMBCS_8` u003d 17;
+const int `LMBCS_8` = 17;
 
-const int `LMBCS_11` u003d 18;
+const int `LMBCS_11` = 18;
 
-const int `LMBCS_16` u003d 19;
+const int `LMBCS_16` = 19;
 
-const int `LMBCS_17` u003d 20;
+const int `LMBCS_17` = 20;
 
-const int `LMBCS_18` u003d 21;
+const int `LMBCS_18` = 21;
 
-const int `LMBCS_19` u003d 22;
+const int `LMBCS_19` = 22;
 
-const int `LMBCS_LAST` u003d 22;
+const int `LMBCS_LAST` = 22;
 
-const int `HZ` u003d 23;
+const int `HZ` = 23;
 
-const int `SCSU` u003d 24;
+const int `SCSU` = 24;
 
-const int `ISCII` u003d 25;
+const int `ISCII` = 25;
 
-const int `US_ASCII` u003d 26;
+const int `US_ASCII` = 26;
 
-const int `UTF7` u003d 27;
+const int `UTF7` = 27;
 
-const int `BOCU1` u003d 28;
+const int `BOCU1` = 28;
 
-const int `UTF16` u003d 29;
+const int `UTF16` = 29;
 
-const int `UTF32` u003d 30;
+const int `UTF32` = 30;
 
-const int `CESU8` u003d 31;
+const int `CESU8` = 31;
 
-const int `IMAP_MAILBOX` u003d 32;
+const int `IMAP_MAILBOX` = 32;
 
 /\* Методи \*/
 
 public [\_\_construct](uconverter.construct.md)(?string
-`$destination_encoding` u003d **`null`**, ?string `$source_encoding` u003d
+`$destination_encoding` = **`null`**, ?string `$source_encoding` =
 **`null`**)
 
 public [convert](uconverter.convert.md)(string `$str`, bool `$reverse`
-u003d **`false`**): string\|false
+= **`false`**): string\|false
 
 public [fromUCallback](uconverter.fromucallback.md)(
 int `$reason`,
@@ -166,7 +166,7 @@ public static [transcode](uconverter.transcode.md)(
 string `$str`,
 string `$toEncoding`,
 string `$fromEncoding`,
-?array `$options` u003d **`null`**
+?array `$options` = **`null`**
 ): string\|false
 
 }

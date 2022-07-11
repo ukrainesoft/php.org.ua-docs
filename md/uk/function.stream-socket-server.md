@@ -15,10 +15,10 @@ stream_socket_server — Створює інтернет-сокет або до�
 
 **stream_socket_server**(
 string `$address`,
-int `&$error_code` u003d **`null`**,
-string `&$error_message` u003d **`null`**,
-int `$flags` u003d STREAM_SERVER_BIND \| STREAM_SERVER_LISTEN,
-?resource `$context` u003d **`null`**
+int `&$error_code` = **`null`**,
+string `&$error_message` = **`null`**,
+int `$flags` = STREAM_SERVER_BIND \| STREAM_SERVER_LISTEN,
+?resource `$context` = **`null`**
 ): resource \ | false
 
 Створює сокет потоку або датаграми на вказаному address.
@@ -77,15 +77,15 @@ int `$flags` u003d STREAM_SERVER_BIND \| STREAM_SERVER_LISTEN,
 ### Список змін
 
 | Версія | Опис                                            |
-| ------ | ----------------------------------------------- |
+|--------|-------------------------------------------------|
 | 8.0.0  | Параметр context тепер припускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання серверних сокетів TCP**
 
-` <?php$socket u003d stream_socket_server("tcp://0.0.0.0:8000", $errno, $errstr);if (!$socket) { echo "$errstr ($errno)<br />
-";} else {  while ($conn u003d stream_socket_accept($socket)) {   fwrite($conn, 'Локальний час ' . date('n/j/Y g:i a' ')
+` <?php$socket = stream_socket_server("tcp://0.0.0.0:8000", $errno, $errstr);if (!$socket) { echo "$errstr ($errno)<br />
+";} else {  while ($conn = stream_socket_accept($socket)) {   fwrite($conn, 'Локальний час ' . date('n/j/Y g:i a' ')
 ");   fclose($conn);  } fclose($socket);}?> `
 
 Приклад нижче показує, як працювати як сервер часу, який
@@ -97,9 +97,9 @@ int `$flags` u003d STREAM_SERVER_BIND \| STREAM_SERVER_LISTEN,
 
 **Приклад #2 Приклад використання серверних сокетів UDP**
 
-` <?php$socket u003d stream_socket_server("udp://127.0.0.1:1113", $errno, $errstr, STREAM_SERVER_BIND);if (!$socket) {    die("$errstr do {   $$ktu003du003dstream_socket_recvfrom($socket, 1, 0, $peer); echo "$peer
+` <?php$socket = stream_socket_server("udp://127.0.0.1:1113", $errno, $errstr, STREAM_SERVER_BIND);if (!$socket) {    die("$errstr do {   $$kt==stream_socket_recvfrom($socket, 1, 0, $peer); echo "$peer
 ";    stream_socket_sendto($socket, date("D M j H:i:s Y
-"), 0, $peer);} while ($pkt !u003du003d false);?> `
+"), 0, $peer);} while ($pkt !== false);?> `
 
 ### Примітки
 

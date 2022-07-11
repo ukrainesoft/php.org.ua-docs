@@ -14,7 +14,7 @@ imap_rfc822_parse_headers — Розбір рядка заголовка лис�
 ### Опис
 
 **imap_rfc822_parse_headers**(string `$headers`, string
-`$default_hostname` u003d "UNKNOWN"): stdClass
+`$default_hostname` = "UNKNOWN"): stdClass
 
 Виймає об'єкт різних елементів заголовка, аналогічно
 [imap_header()](function.imap-header.md).

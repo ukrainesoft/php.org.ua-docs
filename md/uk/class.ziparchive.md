@@ -7,7 +7,7 @@
 
 # Клас [ZipArchive](class.ziparchive.md)
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ## Вступ
 
@@ -34,23 +34,23 @@ public readonly string `$comment`;
 /\* Методи \*/
 
 public [addEmptyDir](ziparchive.addemptydir.md)(string `$dirname`, int
-$flags u003d 0): bool
+$flags = 0): bool
 
 public [addFile](ziparchive.addfile.md)(
 string `$filepath`,
-string `$entryname` u003d "",
-int `$start` u003d 0,
-int `$length` u003d 0,
-int `$flags` u003d ZipArchive::FL_OVERWRITE
+string `$entryname` = "",
+int `$start` = 0,
+int `$length` = 0,
+int `$flags` = ZipArchive::FL_OVERWRITE
 ): bool
 
 public [addFromString](ziparchive.addfromstring.md)(string `$name`,
-string `$content`, int `$flags` u003d ZipArchive::FL_OVERWRITE): bool
+string `$content`, int `$flags` = ZipArchive::FL_OVERWRITE): bool
 
 public [addGlob](ziparchive.addglob.md)(string `$pattern`, int
-`$flags` u003d 0, array `$options` u003d []): array\|false
+`$flags` = 0, array `$options` = []): array\|false
  public [addPattern](ziparchive.addpattern.md)(string `$pattern`,
-string `$path` u003d ".", array `$options` u003d []): array\|false
+string `$path` = ".", array `$options` = []): array\|false
  public [clearError](ziparchive.clearerror.md)(): void
 
 public [close](ziparchive.close.md)(): bool
@@ -62,23 +62,23 @@ public [deleteIndex](ziparchive.deleteindex.md)(int `$index`): bool
 public [deleteName](ziparchive.deletename.md)(string `$name`): bool
 
 public [extractTo](ziparchive.extractto.md)(string `$pathto`,
-array\|string\|null `$files` u003d **`null`**): bool
+array\|string\|null `$files` = **`null`**): bool
 
 public [getArchiveComment](ziparchive.getarchivecomment.md)(int
-`$flags` u003d 0): string\|false
+`$flags` = 0): string\|false
 
 public [getCommentIndex](ziparchive.getcommentindex.md)(int `$index`,
-int `$flags` u003d 0): string\|false
+int `$flags` = 0): string\|false
 
 public [getCommentName](ziparchive.getcommentname.md)(string `$name`,
-int `$flags` u003d 0): string\|false
+int `$flags` = 0): string\|false
 
 public
 [getExternalAttributesIndex](ziparchive.getexternalattributesindex.md)(
 int `$index`,
 int `&$opsys`,
 int `&$attr`,
-int `$flags` u003d ?
+int `$flags` = ?
 ): bool
 
 public
@@ -86,17 +86,17 @@ public
 string `$name`,
 int `&$opsys`,
 int `&$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 public [getFromIndex](ziparchive.getfromindex.md)(int `$index`, int
-`$len` u003d 0, int `$flags` u003d 0): string\|false
+`$len` = 0, int `$flags` = 0): string\|false
 
 public [getFromName](ziparchive.getfromname.md)(string `$name`, int
-`$len` u003d 0, int `$flags` u003d 0): string\|false
+`$len` = 0, int `$flags` = 0): string\|false
 
 public [getNameIndex](ziparchive.getnameindex.md)(int `$index`, int
-`$flags` u003d 0): string\|false
+`$flags` = 0): string\|false
 
 public [getStatusString](ziparchive.getstatusstring.md)(): string
 
@@ -104,23 +104,23 @@ public [getStream](ziparchive.getstream.md)(string `$name`):
 resource\|false
 
 public [getStreamIndex](ziparchive.getstreamindex.md)(int `$index`,
-int `$flags` u003d 0): resource\|false
+int `$flags` = 0): resource\|false
 
 public [getStreamName](ziparchive.getstreamname.md)(string `$name`,
-int `$flags` u003d 0): resource\|false
+int `$flags` = 0): resource\|false
 
 public static
 [isCompressionMethodSupported](ziparchive.iscompressionmethoddupported.md)(int
-`$method`, bool `$enc` u003d **`true`**): bool
+`$method`, bool `$enc` = **`true`**): bool
 
 public static
 [isEncryptionMethodSupported](ziparchive.isencryptionmethoddupported.md)(int
-`$method`, bool `$enc` u003d **`true`**): bool
+`$method`, bool `$enc` = **`true`**): bool
 
 public [locateName](ziparchive.locatename.md)(string `$name`, int
-`$flags` u003d 0): int\|false
+`$flags` = 0): int\|false
 
-public [open](ziparchive.open.md)(string `$filename`, int `$flags` u003d
+public [open](ziparchive.open.md)(string `$filename`, int `$flags` =
 0): bool\|int
 
 public
@@ -140,9 +140,9 @@ public [renameName](ziparchive.renamename.md)(string `$name`, string
 public [replaceFile](ziparchive.replacefile.md)(
 string `$filepath`,
 int `$index`,
-int `$start` u003d 0,
-int `$length` u003d 0,
-int `$flags` u003d 0
+int `$start` = 0,
+int `$length` = 0,
+int `$flags` = 0
 ): bool
 
 public [setArchiveComment](ziparchive.setarchivecomment.md)(string
@@ -155,23 +155,23 @@ public [setCommentName](ziparchive.setcommentname.md)(string `$name`,
 string `$comment`): bool
 
 public [setCompressionIndex](ziparchive.setcompressionindex.md)(int
-`$index`, int `$method`, int `$compflags` u003d 0): bool
+`$index`, int `$method`, int `$compflags` = 0): bool
 
 public [setCompressionName](ziparchive.setcompressionname.md)(string
-`$name`, int `$method`, int `$compflags` u003d 0): bool
+`$name`, int `$method`, int `$compflags` = 0): bool
 
 public [setEncryptionIndex](ziparchive.setencryptionindex.md)(int
-`$index`, int `$method`, ?string `$password` u003d **`null`**): bool
+`$index`, int `$method`, ?string `$password` = **`null`**): bool
 
 public [setEncryptionName](ziparchive.setencryptionname.md)(string
-`$name`, int `$method`, ?string `$password` u003d **`null`**): bool
+`$name`, int `$method`, ?string `$password` = **`null`**): bool
 
 public
 [setExternalAttributesIndex](ziparchive.setexternalattributesindex.md)(
 int `$index`,
 int `$opsys`,
 int `$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 public
@@ -179,23 +179,23 @@ public
 string `$name`,
 int `$opsys`,
 int `$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 public [setMtimeIndex](ziparchive.setmtimeindex.md)(int `$index`, int
-`$timestamp`, int `$flags` u003d 0): bool
+`$timestamp`, int `$flags` = 0): bool
 
 public [setMtimeName](ziparchive.setmtimename.md)(string `$name`, int
-`$timestamp`, int `$flags` u003d 0): bool
+`$timestamp`, int `$flags` = 0): bool
 
 public [setPassword](ziparchive.setpassword.md)(string `$password`):
 bool
 
 public [statIndex](ziparchive.statindex.md)(int `$index`, int `$flags`
-u003d 0): array \ | false
+= 0): array \ | false
 
 public [statName](ziparchive.statname.md)(string `$name`, int `$flags`
-u003d 0): array \ | false
+= 0): array \ | false
 
 public [unchangeAll](ziparchive.unchangeall.md)(): bool
 

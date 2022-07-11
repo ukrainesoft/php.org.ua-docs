@@ -7,7 +7,7 @@
 
 # streamWrapper::\_\_construct
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 streamWrapper::\_\_construct — Створює новий об'єкт обертання потоку
 

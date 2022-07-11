@@ -7,7 +7,7 @@
 
 # DatePeriod::getStartDate
 
-(PHP 5 \>u003d 5.6.5, PHP 7, PHP 8)
+(PHP 5 \>= 5.6.5, PHP 7, PHP 8)
 
 DatePeriod::getStartDate — Повертає початкову дату періоду
 
@@ -37,7 +37,7 @@ public **DatePeriod::getStartDate**():
 
 **Приклад #1 Приклад використання **DatePeriod::getStartDate()****
 
-` <?php$period u003d new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');$start u003d $period->getStartDate();echo $start->format(DateTime::ISO8601) ;?> `
+` <?php$period = new DatePeriod('R7/2016-05-16T00:00:00Z/P1D');$start = $period->getStartDate();echo $start->format(DateTime::ISO8601) ;?> `
 
 Результат виконання цього прикладу:
 

@@ -34,4 +34,4 @@ public **Imagick::enhanceImage**(): bool
 
 **Приклад #1 Приклад використання **Imagick::enhanceImage()****
 
-`<?phpfunction enhanceImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->enhanceImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction enhanceImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->enhanceImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

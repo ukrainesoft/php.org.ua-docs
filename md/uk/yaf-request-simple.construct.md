@@ -7,7 +7,7 @@
 
 # Yaf_Request_Simple::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Simple::\_\_construct - Конструктор класу
 Yaf_Request_Simple
@@ -15,11 +15,11 @@ Yaf_Request_Simple
 ### Опис
 
 public **Yaf_Request_Simple::\_\_construct**(
-string `$method` u003d ?,
-string `$module` u003d ?,
-string `$controller` u003d ?,
-string `$action` u003d ?,
-array `$params` u003d ?
+string `$method` = ?,
+string `$module` = ?,
+string `$controller` = ?,
+string `$action` = ?,
+array `$params` = ?
 )
 
 **Увага**

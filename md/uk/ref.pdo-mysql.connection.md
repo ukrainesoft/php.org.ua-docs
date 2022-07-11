@@ -7,7 +7,7 @@
 
 #PDO_MYSQL DSN
 
-(PECL PDO_MYSQL \>u003d 0.1.0)
+(PECL PDO_MYSQL \>= 0.1.0)
 
 PDO_MYSQL DSN — З'єднання з базою даних MySQL
 
@@ -43,12 +43,12 @@ DSN-префікс – це **`mysql:`**.
 Наведені нижче приклади показують використання PDO_MYSQL DSN для з'єднання
 з базою даних MySQL:
 
-mysql:hostu003dlocalhost;dbnameu003dtestdb
+mysql:host=localhost;dbname=testdb
 
 Більш складний приклад:
 
-mysql:hostu003dlocalhost;portu003d3307;dbnameu003dtestdb
-mysql:unix_socketu003d/tmp/mysql.sock;dbnameu003dtestdb
+mysql:host=localhost;port=3307;dbname=testdb
+mysql:unix_socket=/tmp/mysql.sock;dbname=testdb
 
 ### Примітки
 

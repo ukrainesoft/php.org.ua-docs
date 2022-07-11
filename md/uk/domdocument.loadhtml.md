@@ -13,7 +13,7 @@ DOMDocument::loadHTML — Завантаження HTML із рядка
 
 ### Опис
 
-public **DOMDocument::loadHTML**(string `$source`, int `$options` u003d 0):
+public **DOMDocument::loadHTML**(string `$source`, int `$options` = 0):
 [DOMDocument](class.domdocument.md)\|bool
 
 Функція розбирає HTML, що міститься в рядку `source`. На відміну від
@@ -59,7 +59,7 @@ HTML-рядок.
 
 **Приклад #1 Створення документа**
 
-` <?php$doc u003d new DOMDocument();$doc->loadHTML("<html><body>Test<br></body></html>");echo $doc->saveHTML();? > `
+` <?php$doc = new DOMDocument();$doc->loadHTML("<html><body>Test<br></body></html>");echo $doc->saveHTML();? > `
 
 ### Дивіться також
 

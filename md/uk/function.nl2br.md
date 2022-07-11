@@ -60,7 +60,7 @@ bar
 
 **Приклад #3 Рі=оздільники рядків**
 
-` <?php$string u003d "This
+` <?php$string = "This
 is
 
 a

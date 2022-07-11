@@ -7,7 +7,7 @@
 
 # MultipleIterator::attachIterator
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 MultipleIterator::attachIterator — Приєднує ітератор
 
@@ -15,7 +15,7 @@ MultipleIterator::attachIterator — Приєднує ітератор
 
 public
 **MultipleIterator::attachIterator**([Iterator](class.iterator.md)
-`$iterator`, string\|int\|null `$info` u003d **`null`**): void
+`$iterator`, string\|int\|null `$info` = **`null`**): void
 
 Приєднує ітератор.
 

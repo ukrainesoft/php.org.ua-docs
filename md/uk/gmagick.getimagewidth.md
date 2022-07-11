@@ -7,7 +7,7 @@
 
 # Gmagick::getimagewidth
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimagewidth — Повертає ширину зображення
 

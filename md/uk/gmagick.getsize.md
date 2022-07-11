@@ -7,7 +7,7 @@
 
 # Gmagick::getsize
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getsize — Повертає розмір, пов'язаний із об'єктом Gmagick
 

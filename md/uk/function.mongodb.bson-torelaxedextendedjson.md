@@ -7,7 +7,7 @@
 
 # MongoDB\BSON oRelaxedExtendedJSON
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 MongoDB\BSON oRelaxedExtendedJSON — Повертає Relaxed Extended JSON
 представлення значення BSON
@@ -44,7 +44,7 @@ MongoDB\BSON oRelaxedExtendedJSON — Повертає Relaxed Extended JSON
 **Приклад #1 Приклад використання
 **MongoDB\BSON oRelaxedExtendedJSON()****
 
-`<?php$documents u003d [    [ 'null' u003d> null ],   [ 'boolean' u003d> true ],    [ 'string' u003d> 'foo'   u003d> 4294967295 ],    [ 'double' u003d> 1.0, ],    [ 'nan' u003d> NAN ],    [ 'pos_inf' u003d> INF ],    [ 'neg_inf' u003d> -INF ],    [ 'array' u003d> [ 'foo', 'bar' ]],    [ 'document' u003d> [ 'foo' u003d> 'bar' ]],   [ 'oid' u003d> new MongoDB\BSON\ObjectId('   c| ' u003d> new MongoDB\BSON\Decimal128('1234.5678') ],   [ 'binary' u003d> new MongoDB\BSON\Binary('foo', MongoDB\BSON\'   new MongoDB\BSON\UTCDateTime(1445990400000) ],   [ 'timestamp' u003d> new MongoDB\BSON\Timestamp(1234, 5678) ] '' ) ],    [ 'code' u003d> new MongoDB\BSON\Javascript('function() { return 1; }') ],    [ 'code_ws' u003d> new }', ['a' u003d> 1]) ],   [ 'minkey' u003d> new MongoDB\BSON\MinKey ],   [ 'maxkey' u003d> new MongoDB\BSON$$$ do cument) {   $bson u003d MongoDB\BSON romPHP($document); echo MongoDB\BSON oRelaxedExtendedJSON($bson), "
+`<?php$documents = [    [ 'null' => null ],   [ 'boolean' => true ],    [ 'string' => 'foo'   => 4294967295 ],    [ 'double' => 1.0, ],    [ 'nan' => NAN ],    [ 'pos_inf' => INF ],    [ 'neg_inf' => -INF ],    [ 'array' => [ 'foo', 'bar' ]],    [ 'document' => [ 'foo' => 'bar' ]],   [ 'oid' => new MongoDB\BSON\ObjectId('   c| ' => new MongoDB\BSON\Decimal128('1234.5678') ],   [ 'binary' => new MongoDB\BSON\Binary('foo', MongoDB\BSON\'   new MongoDB\BSON\UTCDateTime(1445990400000) ],   [ 'timestamp' => new MongoDB\BSON\Timestamp(1234, 5678) ] '' ) ],    [ 'code' => new MongoDB\BSON\Javascript('function() { return 1; }') ],    [ 'code_ws' => new }', ['a' => 1]) ],   [ 'minkey' => new MongoDB\BSON\MinKey ],   [ 'maxkey' => new MongoDB\BSON$$$ do cument) {   $bson = MongoDB\BSON romPHP($document); echo MongoDB\BSON oRelaxedExtendedJSON($bson), "
 ";}?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 #eio_read
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_read — Читає дані з файлу, починаючи із заданого усунення
 
@@ -21,7 +21,7 @@ int `$offset`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_read()** зчитує `length` байт із файлу з описувачем `fd`,
@@ -74,7 +74,7 @@ $data u003d NULL
 
 **Приклад #1 Приклад використання **eio_read()****
 
-` <?php// Відкриваємо тимчасовий файл і пишем в нього будь-які дані$temp_filename u003d "eio-temp-file.tmp";$fp u003dfopen($temp_filename, "w")8 ");fclose($fp);/* Викликається, коли eio_read() завершує роботу */function my_read_cb($data, $result) {    global $temp_filename; // Виводимо прочитані дані    var_dump($result); // закриваємо файл    eio_close($data); eio_event_loop(); // Удаляем временный файл    @unlink($temp_filename);}/* Вызывается, когда eio_open() завершает работу */function my_file_opened_callback($data, $result) { // $result должен содержать файловый описатель    if ($result > 0) {  // Прочитаємо 5 байт, починаючи з третього         eio_read($result, 5, 2, EIO_PRI_DEFAULT, "my_read_cb", $result); eio_event_loop(); } else {  // eio_open() завершила роботу відмовою       unlink($data); }}// відкриваємо файл для читання і записуeio_open($temp_filename, EIO_O_RDWR, NULL,    EIO_PRI_DEFAULT, "my_file_opened_callback",|$;
+` <?php// Відкриваємо тимчасовий файл і пишем в нього будь-які дані$temp_filename = "eio-temp-file.tmp";$fp =fopen($temp_filename, "w")8 ");fclose($fp);/* Викликається, коли eio_read() завершує роботу */function my_read_cb($data, $result) {    global $temp_filename; // Виводимо прочитані дані    var_dump($result); // закриваємо файл    eio_close($data); eio_event_loop(); // Удаляем временный файл    @unlink($temp_filename);}/* Вызывается, когда eio_open() завершает работу */function my_file_opened_callback($data, $result) { // $result должен содержать файловый описатель    if ($result > 0) {  // Прочитаємо 5 байт, починаючи з третього         eio_read($result, 5, 2, EIO_PRI_DEFAULT, "my_read_cb", $result); eio_event_loop(); } else {  // eio_open() завершила роботу відмовою       unlink($data); }}// відкриваємо файл для читання і записуeio_open($temp_filename, EIO_O_RDWR, NULL,    EIO_PRI_DEFAULT, "my_file_opened_callback",|$;
 
 Результатом виконання цього прикладу буде щось подібне:
 

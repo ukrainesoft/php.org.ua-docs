@@ -7,7 +7,7 @@
 
 # IntlCalendar::isEquivalentTo
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::isEquivalentTo — Визначає, чи дорівнює інший календар, але
 для іншого часу
@@ -53,7 +53,7 @@ public
 
 **Приклад #1 Приклад використання **IntlCalendar::isEquivalentTo()****
 
-` <?php$cal1 u003d IntlCalendar::createInstance('Europe/Lisbon', 'pt_PT');$cal2 u003d IntlCalendar::createInstance('Europe/Lisbon', 'es_ES');$cal2->clear(); var_dump($cal1->isEquivalentTo($cal2)); // true$cal3 u003d IntlCalendar::createInstance('Europe/Lisbon', 'en_US');var_dump($cal1->isEquivalentTo($cal3)); //falsevar_dump($cal1->getFirstDayOfWeek(),    // 2 (Понеділок)$cal3->getFirstDayOfWeek()); // 1 (Неділя) `
+` <?php$cal1 = IntlCalendar::createInstance('Europe/Lisbon', 'pt_PT');$cal2 = IntlCalendar::createInstance('Europe/Lisbon', 'es_ES');$cal2->clear(); var_dump($cal1->isEquivalentTo($cal2)); // true$cal3 = IntlCalendar::createInstance('Europe/Lisbon', 'en_US');var_dump($cal1->isEquivalentTo($cal3)); //falsevar_dump($cal1->getFirstDayOfWeek(),    // 2 (Понеділок)$cal3->getFirstDayOfWeek()); // 1 (Неділя) `
 
 Результат виконання цього прикладу:
 

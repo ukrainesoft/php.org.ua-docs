@@ -8,7 +8,7 @@ pg_last_error та pg_result_error
 
 #pg_set_error_verbosity
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 pg_set_error_verbosity — Визначає обсяг тексту повідомлень, що повертаються
 функціями [pg_last_error()](function.pg-last-error.md) та
@@ -17,7 +17,7 @@ pg_set_error_verbosity — Визначає обсяг тексту повідо
 ### Опис
 
 **pg_set_error_verbosity**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, int `$verbosity`): int
+`$connection` = ?, int `$verbosity`): int
 
 Визначає обсяг тексту повідомлень, що повертаються функціями
 [pg_last_error()](function.pg-last-error.md) та
@@ -59,14 +59,14 @@ pg_set_error_verbosity — Визначає обсяг тексту повідо
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_set_error_verbosity()****
 
-` <?php  $dbconn u003d pg_connect("dbnameu003dpublisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  pg_set_error_verbosity($dbconn, PGSQL_ERRORS_VERBOSE); $res1 u003d pg_get_result($dbconn); echo pg_result_error($res1);?> `
+` <?php  $dbconn = pg_connect("dbname=publisher") or die("Could not connect"); if (!pg_connection_busy($dbconn)) {     pg_send_query($dbconn, "select * from doesnotexist;"); }  pg_set_error_verbosity($dbconn, PGSQL_ERRORS_VERBOSE); $res1 = pg_get_result($dbconn); echo pg_result_error($res1);?> `
 
 ### Дивіться також
 

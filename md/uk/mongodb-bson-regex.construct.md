@@ -7,14 +7,14 @@
 
 # MongoDB\BSON\Regex::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON\Regex::\_\_construct — Створює новий Regex
 
 ### Опис
 
 final public **MongoDB\BSON\Regex::\_\_construct**(string `$pattern`,
-string `$flags` u003d "")
+string `$flags` = "")
 
 ### Список параметрів
 
@@ -44,14 +44,14 @@ string `$flags` u003d "")
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Regex::\_\_construct()****
 
-` <?php$regex u003d new MongoDB\BSON\Regex('^foo', 'i');var_dump($regex);?> `
+` <?php$regex = new MongoDB\BSON\Regex('^foo', 'i');var_dump($regex);?> `
 
 Результат виконання цього прикладу:
 
 object(MongoDB\BSON\Regex)#1 (2) {
-["pattern"]u003d>
+["pattern"]=>
 string(4) "^foo"
-["flags"]u003d>
+["flags"]=>
 string(1) "i"
 }
 

@@ -7,7 +7,7 @@
 
 # geoip_db_avail
 
-(PECL geoip \>u003d 1.0.1)
+(PECL geoip \>= 1.0.1)
 
 geoip_db_avail — Перевірка доступності бази GeoIP
 

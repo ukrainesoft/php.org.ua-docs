@@ -7,7 +7,7 @@
 
 # ssdeep_fuzzy_hash_filename
 
-(PECL ssdeep \>u003d 1.0.0)
+(PECL ssdeep \>= 1.0.0)
 
 ssdeep_fuzzy_hash_filename — Створення нечіткого хеша з файлу
 

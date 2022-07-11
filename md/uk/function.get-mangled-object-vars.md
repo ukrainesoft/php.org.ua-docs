@@ -7,7 +7,7 @@
 
 #get_mangled_object_vars
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 get_mangled_object_vars — Повертає масив спотворених властивостей об'єкту
 
@@ -38,28 +38,28 @@ get_mangled_object_vars — Повертає масив спотворених �
 
 **Приклад #1 Приклад використання **get_mangled_object_vars()****
 
-`<?phpclass A{    public $public u003d 1; protected $protected u003d 2; private $private u003d 3;}class B extends A{   private $private u003d 4;}$object u003d new B;$object->dynamic u003d 5;$object->{'6'}_u003d_6; object));class AO extends ArrayObject{    private $private u003d 1;}$arrayObject u003d new AO(['x' u003d> 'y']);$arrayObject->dynamic u003d _2;var_dump ; `
+`<?phpclass A{    public $public = 1; protected $protected = 2; private $private = 3;}class B extends A{   private $private = 4;}$object = new B;$object->dynamic = 5;$object->{'6'}_=_6; object));class AO extends ArrayObject{    private $private = 1;}$arrayObject = new AO(['x' => 'y']);$arrayObject->dynamic = _2;var_dump ; `
 
 Результат виконання цього прикладу:
 
 array(6) {
-["Bprivate"]u003d>
+["Bprivate"]=>
 int(4)
-["public"]u003d>
+["public"]=>
 int(1)
-["*protected"]u003d>
+["*protected"]=>
 int(2)
-["Aprivate"]u003d>
+["Aprivate"]=>
 int(3)
-["dynamic"]u003d>
+["dynamic"]=>
 int(5)
-[6]u003d>
+[6]=>
 int(6)
 }
 array(2) {
-["AOprivate"]u003d>
+["AOprivate"]=>
 int(1)
-["dynamic"]u003d>
+["dynamic"]=>
 int(2)
 }
 

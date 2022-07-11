@@ -23,20 +23,20 @@ class **ArrayObject** implements
 
 /\* Константи \*/
 
-const int `STD_PROP_LIST` u003d 1;
+const int `STD_PROP_LIST` = 1;
 
-const int `ARRAY_AS_PROPS` u003d 2;
+const int `ARRAY_AS_PROPS` = 2;
 
 /\* Методи \*/
 
 public [\_\_construct](arrayobject.construct.md)(array\|object
-`$array` u003d [], int `$flags` u003d 0, string `$iteratorClass` u003d
+`$array` = [], int `$flags` = 0, string `$iteratorClass` =
 ArrayIterator::class)
 
 public [append](arrayobject.append.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$value`): void
 
-public [asort](arrayobject.asort.md)(int `$flags` u003d
+public [asort](arrayobject.asort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [count](arrayobject.count.md)(): int
@@ -53,7 +53,7 @@ public [getIterator](arrayobject.getiterator.md)():
 
 public [getIteratorClass](arrayobject.getiteratorclass.md)(): string
 
-public [ksort](arrayobject.ksort.md)(int `$flags` u003d
+public [ksort](arrayobject.ksort.md)(int `$flags` =
 **`SORT_REGULAR`**): bool
 
 public [natcasesort](arrayobject.natcasesort.md)(): bool

@@ -33,31 +33,31 @@ public **mysql_xdevapi\CollectionModify::limit**(int `$rows`):
 **Приклад #1 Приклад використання
 **mysql_xdevapi\CollectionModify::limit()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     u003d $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");$collection->ad ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$collection->add('{"name": "Betty", "age": 24, "job": "Teacher"}')-> execute();$collection ->modify("job u003d :job") ->bind(['job' u003d> 'Teacher']) ->set('job', 'Principal') ->limit(1) ->execute();$result u003d $collection  ->find()  ->execute();print_r($result->fetchAll());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");$collection->ad ": "Fred",  "age": 21, "job": "Construction"}')->execute();$collection->add('{"name": "Wilma", "age": 23, "job": "Teacher"}')->execute();$collection->add('{"name": "Betty", "age": 24, "job": "Teacher"}')-> execute();$collection ->modify("job = :job") ->bind(['job' => 'Teacher']) ->set('job', 'Principal') ->limit(1) ->execute();$result = $collection  ->find()  ->execute();print_r($result->fetchAll());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[_id] u003d> 00005b6b5361000000000000118
-[age] u003d> 21
-[job] u003d> Construction
-[name] u003d> Fred
+[_id] => 00005b6b5361000000000000118
+[age] => 21
+[job] => Construction
+[name] => Fred
 )
-[1] u003d> Array
+[1] => Array
 (
-[_id] u003d> 00005b6b5361000000000000119
-[age] u003d> 23
-[job] u003d> Principal
-[name] u003d> Wilma
+[_id] => 00005b6b5361000000000000119
+[age] => 23
+[job] => Principal
+[name] => Wilma
 )
-[2] u003d> Array
+[2] => Array
 (
-[_id] u003d> 00005b6b536100000000000011a
-[age] u003d> 24
-[job] u003d> Teacher
-[name] u003d> Betty
+[_id] => 00005b6b536100000000000011a
+[age] => 24
+[job] => Teacher
+[name] => Betty
 )
 )

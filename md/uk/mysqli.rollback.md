@@ -17,13 +17,13 @@ mysqli::rollback -- mysqli_rollback - Відкат поточної транза
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::rollback**(int `$flags` u003d 0, ?string `$name` u003d
+public **mysqli::rollback**(int `$flags` = 0, ?string `$name` =
 **`null`**): bool
 
 Процедурний стиль
 
-**mysqli_rollback**([mysqli](class.mysqli.md) `$mysql`, int `$flags` u003d
-0, ?string `$name` u003d **`null`**): bool
+**mysqli_rollback**([mysqli](class.mysqli.md) `$mysql`, int `$flags` =
+0, ?string `$name` = **`null`**): bool
 
 Відкочує поточну транзакцію.
 
@@ -48,7 +48,7 @@ public **mysqli::rollback**(int `$flags` u003d 0, ?string `$name` u003d
 ### Список змін
 
 | Версія | Опис                                |
-| ------ | ----------------------------------- |
+|--------|-------------------------------------|
 | 8.0.0  | name тепер припускає значення null. |
 
 ### Приклади

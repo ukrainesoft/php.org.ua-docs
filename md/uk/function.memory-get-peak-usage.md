@@ -7,14 +7,14 @@
 
 # memory_get_peak_usage
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 memory_get_peak_usage — Повертає пікове значення обсягу пам'яті,
 виділене PHP
 
 ### Опис
 
-**memory_get_peak_usage**(bool `$real_usage` u003d **`false`**): int
+**memory_get_peak_usage**(bool `$real_usage` = **`false`**): int
 
 Повертає максимальний обсяг пам'яті в байтах, виділеному
 PHP-скрипт.

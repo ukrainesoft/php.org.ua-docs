@@ -47,7 +47,7 @@ public **DOMDocument::getElementById**(string `$elementId`):
 дані:
 
 `` xmlcode
-<?xml versionu003d"1.0" encodingu003d"UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE books [
 <!ELEMENT books (book+)>
 <!ELEMENT book (title, author+, xhtml:blurb?)>
@@ -59,24 +59,24 @@ public **DOMDocument::getElementById**(string `$elementId`):
 <!ATTLIST book id ID #IMPLIED>
 <!ATTLIST author email CDATA #IMPLIED>
 ]>
-<?xml-stylesheet typeu003d"text/xsl" hrefu003d"style.xsl"?>
-<books xmlnsu003d"http://books.php/" xmlns:xhtmlu003d"http://www.w3.org/1999/xhtml">
-<book idu003d"php-basics">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<books xmlns="http://books.php/" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<book id="php-basics">
 <title>PHP Basics</title>
-<author emailu003d"jim.smith@basics.php">Jim Smith</author>
-<author emailu003d"jane.smith@basics.php">Jane Smith</author>
+<author email="jim.smith@basics.php">Jim Smith</author>
+<author email="jane.smith@basics.php">Jane Smith</author>
 <xhtml:blurb><![CDATA[
 <p><em>PHP Basics</em> надає інформацію про PHP.</p>
 ]]></xhtml:blurb>
 </book>
-<book idu003d"php-advanced">
+<book id="php-advanced">
 <title>PHP Advanced Programming</title>
-<author emailu003d"jon.doe@advanced.php">Jon Doe</author>
+<author email="jon.doe@advanced.php">Jon Doe</author>
 </book>
 </books>
 ````
 
-`<?php$doc u003d new DomDocument;// Потрібно перевірити документ перед тем як посилатися по ідентифікатору$doc->validateOnParse u003d true;$doc->Load('book.xml' basics': " . $doc->getElementById('php-basics')->tagName . "
+`<?php$doc = new DomDocument;// Потрібно перевірити документ перед тем як посилатися по ідентифікатору$doc->validateOnParse = true;$doc->Load('book.xml' basics': " . $doc->getElementById('php-basics')->tagName . "
 ";?> `
 
 Результат виконання цього прикладу:

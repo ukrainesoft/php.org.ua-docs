@@ -8,7 +8,7 @@
 
 # Ds\Hashable::hash
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Hashable::hash — Повертає скалярне значення для використання в
 якості значення хешу
@@ -58,4 +58,4 @@ abstract public **Ds\Hashable::hash**():
 
 **Приклад #1 Приклад використання**Ds\Hashable::hash()****
 
-` <?phpclass HashableObject implements \Ds\Hashable{    private $name; private $email; public function __construct($name,$email)    {        $this->name  u003d $name; $this->email u003d $email; }    /**     * Повинно повертати однакове значення для всіх об'єктів,      * мають бути ідентичними. Це значення не повинно використовуватися в простому порівнянні для визначення ідентичності об'єктів. */    public function hash()    {        return $this->email; }    /**     * Функція визначення ідентичності об'єктів. Зазвичай перевіряють, що значення хешів обох об'єктів збігаються. Але можна додати     * додаткові перевірки. */    public function equals($obj): bool    {       return $this->name  u003du003du003d $obj->name  <u003d| }}?> `
+` <?phpclass HashableObject implements \Ds\Hashable{    private $name; private $email; public function __construct($name,$email)    {        $this->name  = $name; $this->email = $email; }    /**     * Повинно повертати однакове значення для всіх об'єктів,      * мають бути ідентичними. Це значення не повинно використовуватися в простому порівнянні для визначення ідентичності об'єктів. */    public function hash()    {        return $this->email; }    /**     * Функція визначення ідентичності об'єктів. Зазвичай перевіряють, що значення хешів обох об'єктів збігаються. Але можна додати     * додаткові перевірки. */    public function equals($obj): bool    {       return $this->name  === $obj->name  <=| }}?> `

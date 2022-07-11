@@ -7,7 +7,7 @@
 
 # OAuth::getLastResponse
 
-(PECL OAuth u003d 0.99.1)
+(PECL OAuth = 0.99.1)
 
 OAuth::getLastResponse — Отримати останню відповідь
 

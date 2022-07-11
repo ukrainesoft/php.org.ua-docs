@@ -7,7 +7,7 @@
 
 # ReflectionEnumUnitCase::getEnum
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnumUnitCase::getEnum — Отримує Reflection-об'єкт
 перерахування цього варіанта

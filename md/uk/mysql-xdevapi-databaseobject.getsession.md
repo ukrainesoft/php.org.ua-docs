@@ -36,4 +36,4 @@ abstract public **mysql_xdevapi\DatabaseObject::getSession**():
 **Приклад #1 Приклад використання
 **mysql_xdevapi\DatabaseObject::getSession()****
 
-` <?php$session u003d $dbObj->getSession();?> `
+` <?php$session = $dbObj->getSession();?> `

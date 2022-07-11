@@ -14,7 +14,7 @@ sqlsrv_get_field — Отримує дані поля з поточного ви
 ### Опис
 
 **sqlsrv_get_field**(resource `$stmt`, int `$fieldIndex`, int
-`$getAsType` u003d ?):
+`$getAsType` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Отримує дані поля з поточного вибраного рядка. Доступ до полів повинен
@@ -52,7 +52,7 @@ Microsoft SQLSRV документації.
 [sqlsrv_fetch()](function.sqlsrv-fetch.md) і отримати поля рядки з
 за допомогою **sqlsrv_get_field()**.
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);if( $conn u003du003du003d false ) {     die( print_r( sqlsrv_errors(), true));}$sql u003d "SELECT Name, Comment        FROM Table_1        WHERE ReviewIDu003d1";$stmt u003d sqlsrv_query( $conn, $sql);if( $stmt u003du003du003d false ) {    die( print_r( sqlsrv_errors(), true));}// Зробіть на на а  if( sqlsrv_fetch( $stmt ) u003du003du003du003dfalse) {     die( print_r( sqlsrv_errors(), true));}// Отримайте поля. Индексы полей начинаются с 0 и должны извлекаться по порядку.// Получение полей строки по имени не поддерживается sqlsrv_get_field.$name u003d sqlsrv_get_field( $stmt, 0);echo "$name: ";$comment u003d sqlsrv_get_field( $stmt, 1) ;echo $comment;?> `
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);if( $conn === false ) {     die( print_r( sqlsrv_errors(), true));}$sql = "SELECT Name, Comment        FROM Table_1        WHERE ReviewID=1";$stmt = sqlsrv_query( $conn, $sql);if( $stmt === false ) {    die( print_r( sqlsrv_errors(), true));}// Зробіть на на а  if( sqlsrv_fetch( $stmt ) ====false) {     die( print_r( sqlsrv_errors(), true));}// Отримайте поля. Индексы полей начинаются с 0 и должны извлекаться по порядку.// Получение полей строки по имени не поддерживается sqlsrv_get_field.$name = sqlsrv_get_field( $stmt, 0);echo "$name: ";$comment = sqlsrv_get_field( $stmt, 1) ;echo $comment;?> `
 
 ### Дивіться також
 

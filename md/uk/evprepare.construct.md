@@ -7,14 +7,14 @@
 
 # EvPrepare::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvPrepare::\_\_construct — Конструктор спостерігача EvPrepare
 
 ### Опис
 
 public **EvPrepare::\_\_construct**( string `$callback` , string `$data`
-u003d ?, string `$priority` u003d ?)
+= ?, string `$priority` = ?)
 
 Створює об'єкт спостерігач EvPrepare та автоматично його стартує.
 

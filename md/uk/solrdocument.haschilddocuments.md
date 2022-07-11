@@ -7,7 +7,7 @@
 
 # SolrDocument::hasChildDocuments
 
-(PECL solr \>u003d 2.3.0)
+(PECL solr \>= 2.3.0)
 
 SolrDocument::hasChildDocuments — Перевіряє, чи є документ.
 дочірні документи

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteResult::getServer
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteResult::getServer — Повертає сервер, пов'язаний з
 цим результатом запису
@@ -40,7 +40,7 @@ final public **MongoDB\Driver\WriteResult::getServer**():
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteResult::getServer()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$server u003d $manager->selectServer(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY));$bulk u003d new Mong ;$bulk->insert(['x' u003d> 1]);$result u003d $server->executeBulkWrite('db.collection', $bulk);var_dump($result->getServer() u003du003d $server) ;?> `
+` <?php$manager = new MongoDB\Driver\Manager;$server = $manager->selectServer(new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_PRIMARY));$bulk = new Mong ;$bulk->insert(['x' => 1]);$result = $server->executeBulkWrite('db.collection', $bulk);var_dump($result->getServer() == $server) ;?> `
 
 Результат виконання цього прикладу:
 

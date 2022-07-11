@@ -7,7 +7,7 @@
 
 # GearmanTask::isKnown
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanTask::isKnown — Визначення, чи відомо серверу про це завдання
 

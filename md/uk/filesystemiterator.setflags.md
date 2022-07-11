@@ -7,7 +7,7 @@
 
 # FilesystemIterator::setFlags
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 FilesystemIterator::setFlags — Завдання прапорів обробки
 
@@ -36,11 +36,11 @@ public **FilesystemIterator::setFlags**(int `$flags`): void
 і
 [FilesystemIterator::KEY_AS_FILENAME](class.filesystemiterator.md#filesystemiterator.constants.key-as-filename).
 
-` <?php$iterator u003d new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);echo "Ключом є шлях до файлу:
-";foreach ($iterator as $key u003d> $fileinfo) {    echo $key . "
+` <?php$iterator = new FilesystemIterator(dirname(__FILE__), FilesystemIterator::KEY_AS_PATHNAME);echo "Ключом є шлях до файлу:
+";foreach ($iterator as $key => $fileinfo) {    echo $key . "
 ";}$iterator->setFlags(FilesystemIterator::KEY_AS_FILENAME);echo "
 Ключем є ім'я файлу:
-";foreach ($iterator as $key u003d> $fileinfo) {    echo $key . "
+";foreach ($iterator as $key => $fileinfo) {    echo $key . "
 ";}?> `
 
 Результатом виконання цього прикладу буде щось подібне:

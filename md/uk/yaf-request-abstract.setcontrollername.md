@@ -7,14 +7,14 @@
 
 # Yaf_Request_Abstract::setControllerName
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Request_Abstract::setControllerName — Встановлює ім'я контролера
 
 ### Опис
 
 public **Yaf_Request_Abstract::setControllerName**(string `$controller`,
-bool `$format_name` u003d true): void
+bool `$format_name` = true): void
 
 Встановлює ім'я контролера для запиту, який зазвичай використовується
 маршрутизатором, що настроюється, для встановлення імені контролера результату

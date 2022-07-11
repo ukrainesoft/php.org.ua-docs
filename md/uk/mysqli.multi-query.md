@@ -97,13 +97,13 @@ public **mysqli::multi_query**(string `$query`): bool
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d "SEL Name FROM City ORDER BYID LIMIT 20, 5";/* виконання декільких запитів */$mysqli->multi_query($query);do {    /* зберегти набір  ()) {        while ($row u003d $result->fetch_row()) {             printf("%s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query = "SEL Name FROM City ORDER BYID LIMIT 20, 5";/* виконання декільких запитів */$mysqli->multi_query($query);do {    /* зберегти набір  ()) {        while ($row = $result->fetch_row()) {             printf("%s
 ", $row[0]);        }    }    /* вивести розділник */    if ($mysqli->more_results()) { f ------------
 ");    }} while ($mysqli->next_result()); `
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "SELECT FROM City ORDER BY IDID LIMIT 20, 5";/* виконання кільках запитів */mysqli_multi_query($link, $query);do {    /* зберегти набір     while($row u003d mysqli_fetch_row($result)) {             printf("%s
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$link = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "SELECT FROM City ORDER BY IDID LIMIT 20, 5";/* виконання кільках запитів */mysqli_multi_query($link, $query);do {    /* зберегти набір     while($row = mysqli_fetch_row($result)) {             printf("%s
 ", $row[0]);        }    }    /* вивести розділник */    if (mysqli_more_results($link)) { f ------------
 ");    }} while(mysqli_next_result($link)); `
 

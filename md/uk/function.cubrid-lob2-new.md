@@ -7,13 +7,13 @@
 
 #cubrid_lob2_new
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_new — Створює об'єкт LOB
 
 ### Опис
 
-**cubrid_lob2_new**(resource `$conn_identifier` u003d ?, string `$type` u003d
+**cubrid_lob2_new**(resource `$conn_identifier` = ?, string `$type` =
 "BLOB"): resource
 
 Функція **cubrid_lob2_new()** використовується для створення об'єкта LOB (як

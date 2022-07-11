@@ -14,7 +14,7 @@ RecursiveIteratorIterator::getSubIterator — Отримання активно�
 
 ### Опис
 
-public **RecursiveIteratorIterator::getSubIterator**(?int `$level` u003d
+public **RecursiveIteratorIterator::getSubIterator**(?int `$level` =
 **`null`**): ?[RecursiveIterator](class.recursiveiterator.md)
 
 **Увага**
@@ -34,5 +34,5 @@ public **RecursiveIteratorIterator::getSubIterator**(?int `$level` u003d
 ### Список змін
 
 | Версія | Опис                                 |
-| ------ | ------------------------------------ |
+|--------|--------------------------------------|
 | 8.0.0  | level тепер припускає значення null. |

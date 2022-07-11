@@ -7,7 +7,7 @@
 
 # fann_set_weight
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_weight — Створення зв'язку в мережі
 

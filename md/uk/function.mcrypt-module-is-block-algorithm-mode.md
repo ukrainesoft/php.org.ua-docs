@@ -7,7 +7,7 @@
 
 # mcrypt_module_is_block_algorithm_mode
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_module_is_block_algorithm_mode — Перевіряє, чи заданий
 модуль блоковим чи ні
@@ -20,7 +20,7 @@ mcrypt_module_is_block_algorithm_mode — Перевіряє, чи задани�
 ### Опис
 
 **mcrypt_module_is_block_algorithm_mode**(string `$mode`, string
-`$lib_dir` u003d ?): bool
+`$lib_dir` = ?): bool
 
 Функція повертає **`true`**, якщо режим використовується з блоковими
 алгоритмами, інакше повертає **`false`**. (тобто **`false`** для

@@ -13,7 +13,7 @@ ksort — Сортує масив за ключом у порядку зрост
 
 ### Опис
 
-**ksort**(array `&$array`, int `$flags` u003d **`SORT_REGULAR`**): bool
+**ksort**(array `&$array`, int `$flags` = **`SORT_REGULAR`**): bool
 
 Сортує `array` за ключом у порядку зростання.
 
@@ -60,36 +60,36 @@ ksort — Сортує масив за ключом у порядку зрост
 
 **Приклад #1 Приклад використання **ksort()****
 
-` <?php$fruits u003d array("d"u003d>"lemon", "a"u003d>"orange", "b"u003d>"banana", "c"u003d>"apple");ksort($fruits );foreach ($fruits as $key u003d> $val) {    echo "$key u003d $val
+` <?php$fruits = array("d"=>"lemon", "a"=>"orange", "b"=>"banana", "c"=>"apple");ksort($fruits );foreach ($fruits as $key => $val) {    echo "$key = $val
 ";}?> `
 
 Результат виконання цього прикладу:
 
-a u003d orange
-b u003d banana
-c u003d apple
-d u003d lemon
+a = orange
+b = banana
+c = apple
+d = lemon
 
 **Приклад #2 **ksort()** з числовими (int) ключами**
 
-` <?php$a u003d [0 u003d> 'First', 2 u003d> 'Last', 1 u003d> 'Middle'];var_dump($a);ksort($a);var_dump($a);?> `
+` <?php$a = [0 => 'First', 2 => 'Last', 1 => 'Middle'];var_dump($a);ksort($a);var_dump($a);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(5) "First"
-[2]u003d>
+[2]=>
 string(4) "Last"
-[1]u003d>
+[1]=>
 string(6) "Middle"
 }
 array(3) {
-[0]u003d>
+[0]=>
 string(5) "First"
-[1]u003d>
+[1]=>
 string(6) "Middle"
-[2]u003d>
+[2]=>
 string(4) "Last"
 }
 

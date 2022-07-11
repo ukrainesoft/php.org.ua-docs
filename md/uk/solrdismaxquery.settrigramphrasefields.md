@@ -33,11 +33,11 @@ public **SolrDisMaxQuery::setTrigramPhraseFields**(string `$fields`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::setTrigramPhraseFields()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->setTrigramPhraseFields('cat~5.1^2 feature^4.5');echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->setTrigramPhraseFields('cat~5.1^2 feature^4.5');echo $dismaxQuery.PHP_EOL;?> `
 
 Результат виконання цього прикладу:
 
-qu003dlucene&defTypeu003dedismax&pf3u003dcat~5.1^2 feature^4.5
+q=lucene&defType=edismax&pf3=cat~5.1^2 feature^4.5
 
 ### Дивіться також
 

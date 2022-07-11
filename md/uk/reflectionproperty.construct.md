@@ -35,27 +35,27 @@ string `$property`)
 **Приклад #1 Приклад використання
 **ReflectionProperty::\_\_construct()****
 
-`<?phpclass Str{    public $length u003du003d5 }; %s%s%s властивість '%s' (яка%s)
+`<?phpclass Str{    public $length ==5 }; %s%s%s властивість '%s' (яка%s)
 " .    ""     має модифікатори %s
-",        $prop->isPublic() ? ' общедоступное' : '',        $prop->isPrivate() ? ' закрытое' : '',        $prop->isProtected() ? ' защищённое' : '',        $prop- >isStatic() ? ' статическое' : '',        $prop->getName(),        $prop->isDefault() ? 'объявлено во время компиляции' : 'создано во время выполнения',        var_export(Reflection::getModifierNames($ prop->getModifiers()), 1));// створення примірника класу Str$obju003d new Str();// отримання поточного значенняprintf("---> Значення: ");var_dump($prop->getVal $obj));// Зміна значення$prop->setValue($obj, 10);printf("---> Установка значення 10, нове значення: ");var_dump($prop->getValue($obj)) ;// Скинути об'єктvar_dump($obj);?> `
+",        $prop->isPublic() ? ' общедоступное' : '',        $prop->isPrivate() ? ' закрытое' : '',        $prop->isProtected() ? ' защищённое' : '',        $prop- >isStatic() ? ' статическое' : '',        $prop->getName(),        $prop->isDefault() ? 'объявлено во время компиляции' : 'создано во время выполнения',        var_export(Reflection::getModifierNames($ prop->getModifiers()), 1));// створення примірника класу Str$obj= new Str();// отримання поточного значенняprintf("---> Значення: ");var_dump($prop->getVal $obj));// Зміна значення$prop->setValue($obj, 10);printf("---> Установка значення 10, нове значення: ");var_dump($prop->getValue($obj)) ;// Скинути об'єктvar_dump($obj);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-u003du003du003d> загальнодоступна властивість 'length' (яка оголошена під час компіляції)
+===> загальнодоступна властивість 'length' (яка оголошена під час компіляції)
 має модифікатори array (
-0 u003d> 'public',
+0 => 'public',
 )
 ---> Значення: int(5)
 ---> Встановлення значення 10, нове значення: int(10)
 object(Str)#2 (1) {
-["length"]u003d>
+["length"]=>
 int(10)
 }
 
 **Приклад #2 Отримання значень захищених та закритих властивостей, використовуючи
 клас [ReflectionProperty](class.reflectionproperty.md)**
 
-`<?phpclass Foo {    public $x u003d 1; protected $ $ u003d u003d 2; private $z u003d 3;}$obj u003d new Foo;$prop u003d new ReflectionProperty('Foo', 'y');$prop->setAccessible(true);var_dump($prop->getValue($obj)); // int(2)$prop u003d new ReflectionProperty('Foo', 'z');$prop->setAccessible(true);var_dump($prop->getValue($obj)); // int(2)?> `
+`<?phpclass Foo {    public $x = 1; protected $ $ = = 2; private $z = 3;}$obj = new Foo;$prop = new ReflectionProperty('Foo', 'y');$prop->setAccessible(true);var_dump($prop->getValue($obj)); // int(2)$prop = new ReflectionProperty('Foo', 'z');$prop->setAccessible(true);var_dump($prop->getValue($obj)); // int(2)?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

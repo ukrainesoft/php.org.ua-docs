@@ -69,13 +69,13 @@ API-функції [mysqli_set_charset()](mysqli.set-charset.md). В проти�
 
 Об'єктно-орієнтований стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$city х| city працювати */$query u003d sprintf("SELECT CountryCode FROM City WHERE nameu003d'%s'",    $mysqli->real_escape_string($city));$result u003d $mysqli-y "Повернені рядки: %d.
-", $result->num_rows);/* цей запрос завершиться помилкою, потому ми не екранували $city */$query u003d sprintf("SELECT CountryCode FROM City$ u003d $mysqli->query($query);
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$city х| city працювати */$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",    $mysqli->real_escape_string($city));$result = $mysqli-y "Повернені рядки: %d.
+", $result->num_rows);/* цей запрос завершиться помилкою, потому ми не екранували $city */$query = sprintf("SELECT CountryCode FROM City$ = $mysqli->query($query);
 
 Процедурний стиль
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$city u003d х' | буде працювати */$query u003d sprintf("SELECT CountryCode FROM City WHERE nameu003d'%s'",    mysqli_real_escape_string($mysqli, $city));$result u003dmysqli_y;y : %d.
-", mysqli_num_rows ($result)); u003d mysqli_query ($ mysqli, $ $ query);
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR || MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$city = х' | буде працювати */$query = sprintf("SELECT CountryCode FROM City WHERE name='%s'",    mysqli_real_escape_string($mysqli, $city));$result =mysqli_y;y : %d.
+", mysqli_num_rows ($result)); = mysqli_query ($ mysqli, $ $ query);
 
 Результатом виконання даних прикладів буде щось подібне:
 

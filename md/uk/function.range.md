@@ -14,7 +14,7 @@ range — Створює масив, що містить діапазон еле
 ### Опис
 
 **range**(string\|int\|float `$start`, string\|int\|float `$end`,
-int\|float `$step` u003d 1): array
+int\|float `$step` = 1): array
 
 Створює масив, що містить діапазон елементів.
 

@@ -7,7 +7,7 @@
 
 # SplObjectStorage::attach
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 SplObjectStorage::attach — Додає об'єкт у контейнер
 
@@ -15,7 +15,7 @@ SplObjectStorage::attach — Додає об'єкт у контейнер
 
 public **SplObjectStorage::attach**(object `$object`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$info` u003d **`null`**): void
+`$info` = **`null`**): void
 
 Додає об'єкт object у контейнер та додатково може асоціювати
 цей об'єкт із якимись даними.
@@ -36,7 +36,7 @@ public **SplObjectStorage::attach**(object `$object`,
 
 **Приклад #1 Приклад використання **SplObjectStorage::attach()****
 
-` <?php$o1 u003d new StdClass;$o2 u003d new StdClass;$s u003d new SplObjectStorage();$s->attach($o1); // то ж, що і $s[$o1] u003d NULL;$s->attach($o2, "hello"); // то ж, і і $s[$o2] u003d "hello";var_dump($s[$o1]);var_dump($s[$o2]);?> `
+` <?php$o1 = new StdClass;$o2 = new StdClass;$s = new SplObjectStorage();$s->attach($o1); // то ж, що і $s[$o1] = NULL;$s->attach($o2, "hello"); // то ж, і і $s[$o2] = "hello";var_dump($s[$o1]);var_dump($s[$o2]);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

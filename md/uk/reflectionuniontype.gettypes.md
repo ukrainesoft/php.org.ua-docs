@@ -29,15 +29,15 @@ public **ReflectionUnionType::getTypes**(): array
 
 **Приклад #1 Приклад використання **ReflectionUnionType::getTypes()****
 
-` <?phpfunction someFunction(int|float $number) {}$reflectionFunc u003d new ReflectionFunction('someFunction');$reflectionParam u003d$reflectionFunc->getParameters()[$] getTypes()); `
+` <?phpfunction someFunction(int|float $number) {}$reflectionFunc = new ReflectionFunction('someFunction');$reflectionParam =$reflectionFunc->getParameters()[$] getTypes()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-[0] u003d>
+[0] =>
 class ReflectionNamedType#4(0) {
 }
-[1] u003d>
+[1] =>
 class ReflectionNamedType#5(0) {
 }
 }

@@ -7,13 +7,13 @@
 
 # LuaSandbox::enableProfiler
 
-(PECL luasandbox \>u003d 1.1.0)
+(PECL luasandbox \>= 1.1.0)
 
 LuaSandbox::enableProfiler — Включає профільник
 
 ### Опис
 
-public **LuaSandbox::enableProfiler**(float `$period` u003d 0.02): bool
+public **LuaSandbox::enableProfiler**(float `$period` = 0.02): bool
 
 Вмикає профільувальник. Профілювання розпочнеться після введення коду Lua.
 

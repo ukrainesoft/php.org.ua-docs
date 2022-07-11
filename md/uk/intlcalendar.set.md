@@ -7,7 +7,7 @@
 
 # IntlCalendar::set
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::set — Встановлює поле часу або одразу кілька загальних
 полів
@@ -21,10 +21,10 @@ public **IntlCalendar::set**(int `$field`, int `$value`): bool
 public **IntlCalendar::set**(
 int `$year`,
 int `$month`,
-int `$dayOfMonth` u003d NULL,
-int `$hour` u003d NULL,
-int `$minute` u003d NULL,
-int `$second` u003d NULL
+int `$dayOfMonth` = NULL,
+int `$hour` = NULL,
+int `$minute` = NULL,
+int `$second` = NULL
 ): bool
 
 Процедурний стиль
@@ -36,10 +36,10 @@ int `$second` u003d NULL
 [IntlCalendar](class.intlcalendar.md) `$cal`,
 int `$year`,
 int `$month`,
-int `$dayOfMonth` u003d NULL,
-int `$hour` u003d NULL,
-int `$minute` u003d NULL,
-int `$second` u003d NULL
+int `$dayOfMonth` = NULL,
+int `$hour` = NULL,
+int `$minute` = NULL,
+int `$second` = NULL
 ): bool
 
 Встановлює або конкретне поле на задане значення, або

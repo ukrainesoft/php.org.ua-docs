@@ -7,7 +7,7 @@
 
 # Gmagick::setimageprofile
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setimageprofile — Додає іменований профіль в об'єкт
 Gmagick

@@ -7,13 +7,13 @@
 
 # SQLite3Stmt::getSQL
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 SQLite3Stmt::getSQL — Отримати SQL-запит у вигляді рядка із запиту
 
 ### Опис
 
-public **SQLite3Stmt::getSQL**(bool `$expand` u003d **`false`**):
+public **SQLite3Stmt::getSQL**(bool `$expand` = **`false`**):
 string\|false
 
 Повертає строкове представлення SQL-запиту для підготовленого
@@ -44,7 +44,7 @@ string\|false
 
 **Приклад #1 Отримання розширеного SQL-запиту**
 
-` <?php$db u003d new SQLite3(':memory:');$stmt u003d $db->prepare("SELECT :a, ?, :c");$stmt->bindValue(':a', ' foo');$answer u003d 42;$stmt->bindParam(2, $answer);var_dump($stmt->getSQL(true));?> `
+` <?php$db = new SQLite3(':memory:');$stmt = $db->prepare("SELECT :a, ?, :c");$stmt->bindValue(':a', ' foo');$answer = 42;$stmt->bindParam(2, $answer);var_dump($stmt->getSQL(true));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

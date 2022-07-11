@@ -7,7 +7,7 @@
 
 # EvCheck::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvCheck::createStopped — Створює зупинений екземпляр спостерігача
 EvCheck
@@ -15,7 +15,7 @@ EvCheck
 ### Опис
 
 final public static **EvCheck::createStopped**( string `$callback` ,
-string `$data` u003d ?, string `$priority` u003d ?): object
+string `$data` = ?, string `$priority` = ?): object
 
 Створює зупинений екземпляр спостерігача EvCheck.
 

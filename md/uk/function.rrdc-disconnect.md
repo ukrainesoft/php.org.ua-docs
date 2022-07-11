@@ -7,7 +7,7 @@
 
 #rrdc_disconnect
 
-(PECL rrd \>u003d 1.1.2)
+(PECL rrd \>= 1.1.2)
 
 rrdc_disconnect — Закрити будь-які незавершені підключення до демона
 кешування rrd

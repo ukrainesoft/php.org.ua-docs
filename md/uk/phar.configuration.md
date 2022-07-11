@@ -10,7 +10,7 @@
 Поведінка цих функцій залежить від установок `php.ini`.
 
 | Ім'я За замовчуванням                                            | Місце зміни | Список змін    |
-| ---------------------------------------------------------------- | ----------- | -------------- |
+|------------------------------------------------------------------|-------------|----------------|
 | [phar.readonly](phar.configuration.md#ini.phar.readonly)         | "1"         | PHP_INI_ALL    |
 | [phar.require_hash](phar.configuration.md#ini.phar.require-hash) | "1"         | PHP_INI_ALL    |
 | [phar.cache_list](phar.configuration.md#ini.phar.cache-list)     | ""          | PHP_INI_SYSTEM |
@@ -69,6 +69,6 @@ phar-архіву зі швидкістю, дуже близькою до тіє
 **Приклад #1 phar.cache_list usage example**
 
 у php.ini (windows):
-phar.cache_list u003dC:\шлях\к\phar1.phar;C:\шлях\к\phar2.phar
+phar.cache_list =C:\шлях\к\phar1.phar;C:\шлях\к\phar2.phar
 у php.ini (unix):
-phar.cache_list u003d/шлях/к/phar1.phar:/шлях/к/phar2.phar
+phar.cache_list =/шлях/к/phar1.phar:/шлях/к/phar2.phar

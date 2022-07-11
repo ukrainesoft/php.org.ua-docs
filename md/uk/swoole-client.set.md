@@ -7,7 +7,7 @@
 
 # Swoole\Client::set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Client::set — Встановлює параметри клієнта Swoole до
 встановлення з'єднання

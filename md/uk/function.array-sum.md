@@ -7,7 +7,7 @@
 
 #array_sum
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 array_sum — Обчислює суму значень масиву
 
@@ -31,11 +31,11 @@ array_sum — Обчислює суму значень масиву
 
 **Приклад #1 Приклад використання **array_sum()****
 
-` <?php$a u003d array(2, 4, 6, 8);echo "sum(a) u003d " . array_sum($a) . "
-";$b u003d array("a" u003d> 1.2, "b" u003d> 2.3, c" u003d> 3.4);echo "sum(b) u003d " . array_sum($b) . "
+` <?php$a = array(2, 4, 6, 8);echo "sum(a) = " . array_sum($a) . "
+";$b = array("a" => 1.2, "b" => 2.3, c" => 3.4);echo "sum(b) = " . array_sum($b) . "
 ";?> `
 
 Результат виконання цього прикладу:
 
-sum(a) u003d 20
-sum(b) u003d 6.9
+sum(a) = 20
+sum(b) = 6.9

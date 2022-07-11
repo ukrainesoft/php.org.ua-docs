@@ -8,7 +8,7 @@
 
 # Memcached::decrementByKey
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::decrementByKey — Зменшує числове значення запису,
 що зберігається на певному сервері
@@ -18,9 +18,9 @@ Memcached::decrementByKey — Зменшує числове значення з�
 public **Memcached::decrementByKey**(
 string `$server_key`,
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 **Memcached::decrementByKey()** зменшує числове значення запису на

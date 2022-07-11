@@ -7,7 +7,7 @@
 
 # RarArchive::setAllowBroken
 
-(PECL rar \>u003d 3.0.0)
+(PECL rar \>= 3.0.0)
 
 RarArchive::setAllowBroken — Чи відкривати пошкоджені архіви
 
@@ -47,7 +47,7 @@ bool `$allow_broken`): bool
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-`<?phpfunction retnull() { return null; }$file u003d dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a u003d RarArchive::open($file, null, 'retnull');$a->setAllowBroke ($a->getEntries() as $e) {   echo "$e
+`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a = RarArchive::open($file, null, 'retnull');$a->setAllowBroke ($a->getEntries() as $e) {   echo "$e
 ";}var_dump(count($a));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
@@ -57,7 +57,7 @@ int(1)
 
 **Приклад #2 Процедурний стиль**
 
-`<?phpfunction retnull() { return null; }$file u003d dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a u003d rar_open($file, null, 'retnull');rar_allow_broken_set($a, list a) as $e) {   echo "$e
+`<?phpfunction retnull() { return null; }$file = dirname(__FILE__) . "/multi_broken.part1.rar";/* третій аргумент пригнічує повідомлення "volume not found" */$a = rar_open($file, null, 'retnull');rar_allow_broken_set($a, list a) as $e) {   echo "$e
 ";}var_dump(count($a));?> `
 
 ### Дивіться також

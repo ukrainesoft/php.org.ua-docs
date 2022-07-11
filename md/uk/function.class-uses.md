@@ -7,13 +7,13 @@
 
 #class_uses
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 class_uses — Повертає список трейтів, що використовуються заданим класом
 
 ### Опис
 
-**class_uses**(object\|string `$object_or_class`, bool `$autoload` u003d
+**class_uses**(object\|string `$object_or_class`, bool `$autoload` =
 **`true`**): array\|false
 
 Ця функція повертає масив із іменами трейтів, які використовує
@@ -43,15 +43,15 @@ class_uses — Повертає список трейтів, що викорис
 
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[foo] u003d> foo
+[foo] => foo
 )
 Array
 (
-[trait_of_not_loaded] u003d> trait_of_not_loaded
+[trait_of_not_loaded] => trait_of_not_loaded
 )
 
 ### Дивіться також

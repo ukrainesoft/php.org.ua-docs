@@ -32,7 +32,7 @@ ibase_server_info — Запитує інформацію про сервер б
 **Приклад #1 Приклад використання
 [ibase_service_attach()](function.ibase-service-attach.md)**
 
-` <?php    // Присоединение к удаленному серверу Firebird    if (($service u003d ibase_service_attach('10.1.1.254/3050', 'sysdba', 'masterkey')) !u003d FALSE) {        // Присоединение прошло успешно. // Висновок інформації        echo "Версія сервера: " . ibase_server_info($service, IBASE_SVC_SERVER_VERSION) . "
+` <?php    // Присоединение к удаленному серверу Firebird    if (($service = ibase_service_attach('10.1.1.254/3050', 'sysdba', 'masterkey')) != FALSE) {        // Присоединение прошло успешно. // Висновок інформації        echo "Версія сервера: " . ibase_server_info($service, IBASE_SVC_SERVER_VERSION) . "
 ";        echo "Реалізація сервера: " . ibase_server_info($service, IBASE_SVC_IMPLEMENTATION) . "
 ";        echo "Користувачі сервера: " . print_r(ibase_server_info($service, IBASE_SVC_GET_USERS), true) . "
 ";        echo "Директорія сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV) . "
@@ -40,7 +40,7 @@ ibase_server_info — Запитує інформацію про сервер б
 ";        echo "Шлях до бібліотекам сервера: " . ibase_server_info($service, IBASE_SVC_GET_ENV_MSG) . "
 ";        echo "Шлях користувача бази даних: " . ibase_server_info($service, IBASE_SVC_USER_DBPATH) . "
 ";        echo "Встановлені з'єднання: " . print_r(ibase_server_info($service, IBASE_SVC_SVR_DB_INFO),true) . "
-";        // Отсоединение от сервера (отключение)        ibase_service_detach($service);    }    else {        // Вывод сообщения в случае возникновения ошибки        $conn_error u003d ibase_errmsg();        die($conn_error);    }?> `
+";        // Отсоединение от сервера (отключение)        ibase_service_detach($service);    }    else {        // Вывод сообщения в случае возникновения ошибки        $conn_error = ibase_errmsg();        die($conn_error);    }?> `
 
 Результат виконання цього прикладу:
 
@@ -48,14 +48,14 @@ ibase_server_info — Запитує інформацію про сервер б
 Реалізація сервера: Firebird/Linux/AMD/Intel/x64
 Користувачі сервера: Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[user_name] u003d> SYSDBA
-[first_name] u003d> Sql
-[middle_name] u003d> Server
-[last_name] u003d> Administrator
-[user_id] u003d> 0
-[group_id] u003d> 0
+[user_name] => SYSDBA
+[first_name] => Sql
+[middle_name] => Server
+[last_name] => Administrator
+[user_id] => 0
+[group_id] => 0
 )
 
 )
@@ -66,8 +66,8 @@ ibase_server_info — Запитує інформацію про сервер б
 Шлях користувача бази даних: /var/lib/firebird/secdb/security3.fdb
 Встановлені з'єднання: Array
 (
-[attachments] u003d> 3
-[databases] u003d> 2
-[0] u003d> /srv/firebird/poss.fdb
-[1] u003d> /srv/firebird/employees.fdb
+[attachments] => 3
+[databases] => 2
+[0] => /srv/firebird/poss.fdb
+[1] => /srv/firebird/employees.fdb
 )

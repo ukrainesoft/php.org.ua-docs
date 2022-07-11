@@ -7,7 +7,7 @@
 
 # FFI::arrayType
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::arrayType — Динамічно конструює новий тип масиву
 
@@ -20,7 +20,7 @@ public static **FFI::arrayType**([FFI\CType](class.ffi-ctype.md)
 розмірностями, заданими в `dimensions`. У наступному прикладі `$t1` і
 `$t2` визначають масиви однакового типу:
 
-` <?php$t1 u003d FFI::type("int[2][3]");$t2 u003d FFI::arrayType(FFI::type("int"), [2, 3]);?> `
+` <?php$t1 = FFI::type("int[2][3]");$t2 = FFI::arrayType(FFI::type("int"), [2, 3]);?> `
 
 ### Список параметрів
 

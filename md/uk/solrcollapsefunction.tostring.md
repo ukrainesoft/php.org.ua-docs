@@ -7,7 +7,7 @@
 
 # SolrCollapseFunction::\_\_toString
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrCollapseFunction::\_\_toString — Повертає рядок, що представляє
 побудовану функцію згортання

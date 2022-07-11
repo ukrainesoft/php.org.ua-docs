@@ -7,7 +7,7 @@
 
 # EventBuffer::write
 
-(PECL event \>u003d 1.6.0)
+(PECL event \>= 1.6.0)
 
 EventBuffer::write — Записує вміст буфера у файл або сокет
 
@@ -15,7 +15,7 @@ EventBuffer::write — Записує вміст буфера у файл або
 
 public **EventBuffer::write**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$fd` , int `$howmuch` u003d ?): int
+`$fd` , int `$howmuch` = ?): int
 
 Записує вміст буфера у дескриптор файлу. Буфер буде очищено
 після успішного запису байтів.

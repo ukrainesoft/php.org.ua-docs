@@ -7,14 +7,14 @@
 
 # Swoole\Server::getClientList
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::getClientList — Отримує всі встановлені з'єднання
 
 ### Опис
 
 public **Swoole\Server::getClientList**(int `$start_fd`, int `$pagesize`
-u003d ?): array
+= ?): array
 
 **Увага**
 

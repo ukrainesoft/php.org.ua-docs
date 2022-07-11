@@ -7,7 +7,7 @@
 
 # Ds\PriorityQueue::jsonSerialize
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\PriorityQueue::jsonSerialize — Повертає колекцію в
 JSON-вистава

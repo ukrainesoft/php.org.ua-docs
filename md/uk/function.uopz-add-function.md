@@ -14,14 +14,14 @@ uopz_add_function — Додає неіснуючу функцію або мет
 ### Опис
 
 **uopz_add_function**(string `$function`, [Closure](class.closure.md)
-`$handler`, int `&$flags` u003d ZEND_ACC_PUBLIC): bool
+`$handler`, int `&$flags` = ZEND_ACC_PUBLIC): bool
 
 **uopz_add_function**(
 string `$class`,
 string `$function`,
 [Closure](class.closure.md) `$handler`,
-int `&$flags` u003d ZEND_ACC_PUBLIC,
-int `&$all` u003d **`true`**
+int `&$flags` = ZEND_ACC_PUBLIC,
+int `&$all` = **`true`**
 ): bool
 
 Додає неіснуючу функцію чи метод.

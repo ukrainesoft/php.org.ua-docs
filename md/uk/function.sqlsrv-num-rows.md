@@ -45,7 +45,7 @@ Microsoft SQLSRV документації.
 
 **Приклад #1 Приклад використання **sqlsrv_num_rows()****
 
-` <?php$server u003d "serverName\sqlexpress";$connectionInfo u003d array( "Database"u003d>"dbName", "UID"u003d>"username", "PWD"u003d>"password" );$conn u003d sqlsrv_connect ( $server, $connectionInfo );$sql u003d "SELECT * FROM Table_1";$params u003d array();$options u003d  array( "Scrollable" u003d> SQLSRV_CURSOR_KEYSET );$stmt u003d sqlsrv_query( $conn, $sql , $ params, $options );
+` <?php$server = "serverName\sqlexpress";$connectionInfo = array( "Database"=>"dbName", "UID"=>"username", "PWD"=>"password" );$conn = sqlsrv_connect ( $server, $connectionInfo );$sql = "SELECT * FROM Table_1";$params = array();$options =  array( "Scrollable" => SQLSRV_CURSOR_KEYSET );$stmt = sqlsrv_query( $conn, $sql , $ params, $options );
 
 ### Дивіться також
 

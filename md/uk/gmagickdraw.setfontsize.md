@@ -7,7 +7,7 @@
 
 # GmagickDraw::setfontsize
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setfontsize — Встановлює розмір шрифту для використання
 при анотації тексту

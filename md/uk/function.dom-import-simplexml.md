@@ -35,7 +35,7 @@ dom_import_simplexml — Отримує об'єкт класу
 ### Список змін
 
 | Версія | Опис                                                           |
-| ------ | -------------------------------------------------------------- |
+|--------|----------------------------------------------------------------|
 | 8.0.0  | Функція більше не повертає **null** у разі виникнення помилки. |
 
 ### Приклади
@@ -43,7 +43,7 @@ dom_import_simplexml — Отримує об'єкт класу
 **Приклад #1 Імпорт SimpleXML у DOM за допомогою функції
 **dom_import_simplexml()****
 
-` <?php$sxe u003d simplexml_load_string('<books><book><title>дурниця</title></book></books>');if ($sxe u003du003du003du003dfalse) {    echo 'Помилка при розборі документа'; exit;}$dom_sxe u003d dom_import_simplexml($sxe);if (!$dom_sxe) {   echo 'Помилка при перетворенні XML'; exit;}$dom u003d new DOMDocument('1.0');$dom_sxe u003d $dom->importNode($dom_sxe, true);$dom_sxe u003d $dom->appendChild($dom_sxe)(echo>) ;?> `
+` <?php$sxe = simplexml_load_string('<books><book><title>дурниця</title></book></books>');if ($sxe ====false) {    echo 'Помилка при розборі документа'; exit;}$dom_sxe = dom_import_simplexml($sxe);if (!$dom_sxe) {   echo 'Помилка при перетворенні XML'; exit;}$dom = new DOMDocument('1.0');$dom_sxe = $dom->importNode($dom_sxe, true);$dom_sxe = $dom->appendChild($dom_sxe)(echo>) ;?> `
 
 ### Дивіться також
 

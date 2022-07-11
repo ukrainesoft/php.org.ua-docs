@@ -7,7 +7,7 @@
 
 # Memcached::decrement
 
-(PECL memcached \>u003d 0.1.0)
+(PECL memcached \>= 0.1.0)
 
 Memcached::decrement — Зменшує числове значення запису
 
@@ -15,9 +15,9 @@ Memcached::decrement — Зменшує числове значення запи
 
 public **Memcached::decrement**(
 string `$key`,
-int `$offset` u003d 1,
-int `$initial_value` u003d 0,
-int `$expiry` u003d 0
+int `$offset` = 1,
+int `$initial_value` = 0,
+int `$expiry` = 0
 ): int\|false
 
 **Memcached::decrement()** зменшує числове значення запису на
@@ -50,7 +50,7 @@ int `$expiry` u003d 0
 
 **Приклад #1 Приклад використання **Memcached::decrement()****
 
-` <?php$m u003d new Memcached();$m->addServer('localhost', 11211);$m->set('counter', 5);$n u003d $m->decrement('counter' );var_dump($n);$n u003d $m->decrement('counter', 10);var_dump($n);var_dump($m->get('counter'));$m->set( 'counter', 'abc');$n u003d $m->increment('counter');// Завершиться невдачею т.к. значення запису не є числовим var_dump($n);?> `
+` <?php$m = new Memcached();$m->addServer('localhost', 11211);$m->set('counter', 5);$n = $m->decrement('counter' );var_dump($n);$n = $m->decrement('counter', 10);var_dump($n);var_dump($m->get('counter'));$m->set( 'counter', 'abc');$n = $m->increment('counter');// Завершиться невдачею т.к. значення запису не є числовим var_dump($n);?> `
 
 Результат виконання цього прикладу:
 

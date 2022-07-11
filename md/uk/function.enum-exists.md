@@ -7,13 +7,13 @@
 
 #enum_exists
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 enum_exists — Перевіряє, чи визначено перерахування
 
 ### Опис
 
-**enum_exists**(string `$enum`, bool `$autoload` u003d **`true`**): bool
+**enum_exists**(string `$enum`, bool `$autoload` = **`true`**): bool
 
 Функція перевіряє, чи визначено цей перелік.
 
@@ -35,7 +35,7 @@ enum_exists — Перевіряє, чи визначено перерахува
 
 **Приклад #1 Приклад використання **enum_exists()****
 
-`<?php// Переконайтеся, що перерахування існує, перш чем намагатися його використовуватиif (enum_exists(Suit::class)) {    $myclass u003d Suit::Hearts;}>
+`<?php// Переконайтеся, що перерахування існує, перш чем намагатися його використовуватиif (enum_exists(Suit::class)) {    $myclass = Suit::Hearts;}>
 
 ### Дивіться також
 

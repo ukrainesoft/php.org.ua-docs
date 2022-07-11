@@ -7,7 +7,7 @@
 
 # PharData::buildFromDirectory
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::buildFromDirectory — Створює tar/zip-архів із файлів у
 директорії
@@ -15,7 +15,7 @@ PharData::buildFromDirectory — Створює tar/zip-архів із файл
 ### Опис
 
 public **PharData::buildFromDirectory**(string `$directory`, string
-`$pattern` u003d ""): array
+`$pattern` = ""): array
 
 Наповнює tar/zip-архів вмістом директорії. Другий опціональний
 Параметр є регулярним виразом (pcre). Файли, імена яких
@@ -51,14 +51,14 @@ public **PharData::buildFromDirectory**(string `$directory`, string
 ### Список змін
 
 | Версія | Опис                                                                      |
-| ------ | ------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------|
 | 8.1.0  | **PharData::buildFromDirectory()** більше не повертає значення **false**. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **PharData::buildFromDirectory()****
 
-` <?php$phar u003d new PharData('project.tar');// додамо всі файли в проект$phar->buildFromDirectory(dirname(__FILE__) . '/project');$phar2 u003d new PharData zip');// додамо в проект тільки .php файли$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');?> `
+` <?php$phar = new PharData('project.tar');// додамо всі файли в проект$phar->buildFromDirectory(dirname(__FILE__) . '/project');$phar2 = new PharData zip');// додамо в проект тільки .php файли$phar2->buildFromDirectory(dirname(__FILE__) . '/project', '/\.php$/');?> `
 
 ### Дивіться також
 

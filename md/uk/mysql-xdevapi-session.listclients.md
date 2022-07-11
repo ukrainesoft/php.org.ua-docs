@@ -31,20 +31,20 @@ public **mysql_xdevapi\Session::listClients**(): array
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::listClients()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$ids u003d $session->listClients();var_dump($ids);?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$ids = $session->listClients();var_dump($ids);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(4) {
-["client_id"]u003d>
+["client_id"]=>
 int(61)
-["user"]u003d>
+["user"]=>
 string(4) "root"
-["host"]u003d>
+["host"]=>
 string(9) "localhost"
-["sql_session"]u003d>
+["sql_session"]=>
 int(72)
 }
 }

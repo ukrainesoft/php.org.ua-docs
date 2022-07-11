@@ -13,8 +13,8 @@ iconv_mime_decode_headers - Декодує кілька полів заголо�
 
 ### Опис
 
-**iconv_mime_decode_headers**(string `$headers`, int `$mode` u003d 0,
-?string `$encoding` u003d **`null`**): array\|false
+**iconv_mime_decode_headers**(string `$headers`, int `$mode` = 0,
+?string `$encoding` = **`null`**): array\|false
 
 Декодує кілька полів заголовка `MIME` за один раз.
 
@@ -28,10 +28,10 @@ iconv_mime_decode_headers - Декодує кілька полів заголо�
 **iconv_mime_decode_headers()** виявить неправильне поле заголовка
 `MIME`. Можна вказати будь-яку комбінацію наступних бітових масок.
 
-| Значення | Константа Опис                      |
-| -------- | ----------------------------------- |
-| 1        | ICONV_MIME_DECODE_STRICT            | Суворо дотримуватися стандартів, визначених у [»RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки MIME.
-| 2        | ICONV_MIME_DECODE_CONTINUE_ON_ERROR | Якщо встановлено, **iconv_mime_decode_headers()** намагатиметься ігнорувати будь-які помилки та продовжувати обробку поточного заголовка.
+| Значення | Константа Опис                      |                                                                                                                                                                                                                                                             |
+|----------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1        | ICONV_MIME_DECODE_STRICT            | Суворо дотримуватися стандартів, визначених у [»RFC2047](http://www.faqs.org/rfcs/rfc2047). За замовчуванням ця опція відключена, оскільки багато пропрієтарних програм електронної пошти не дотримуються стандартів і створюють некоректні заголовки MIME. |
+| 2        | ICONV_MIME_DECODE_CONTINUE_ON_ERROR | Якщо встановлено, **iconv_mime_decode_headers()** намагатиметься ігнорувати будь-які помилки та продовжувати обробку поточного заголовка.                                                                                                                   |
 
 **Бітові маски **iconv_mime_decode_headers()****
 
@@ -56,27 +56,27 @@ iconv_mime_decode_headers - Декодує кілька полів заголо�
 ### Список змін
 
 | Версія | Опис                                   |
-| ------ | -------------------------------------- |
+|--------|----------------------------------------|
 | 8.0.0  | encoding тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **iconv_mime_decode_headers()****
 
-` <?php$headers_string u003d <<<<EOFSubject: u003d?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmcu003d?u003dTo: example@example.comDate: Thu, 1 Jan 1970 00:00:00:00 example.com>Received: from localhost (localhost [127.0.0.1]) by localhost   with SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC)    (envelope-from example-return-0000-exampleu003dexample.com@example.com)Received: (qmail 0 in5 1 Thu 2003 00:00:00 +0000EOF;$headers u003d  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");print_r($headers);?> `
+` <?php$headers_string = <<<<EOFSubject: =?UTF-8?B?UHLDvGZ1bmcgUHLDvGZ1bmc=?=To: example@example.comDate: Thu, 1 Jan 1970 00:00:00:00 example.com>Received: from localhost (localhost [127.0.0.1]) by localhost   with SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC)    (envelope-from example-return-0000-example=example.com@example.com)Received: (qmail 0 in5 1 Thu 2003 00:00:00 +0000EOF;$headers =  iconv_mime_decode_headers($headers_string, 0, "ISO-8859-1");print_r($headers);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[Subject] u003d> Prüfung Prüfung
-[To] u003d> example@example.com
-[Date] u003d> Thu, 1 Jan 1970 00:00:00 +0000
-[Message-Id] u003d> <example@example.com>
-[Received] u003d> Array
+[Subject] => Prüfung Prüfung
+[To] => example@example.com
+[Date] => Thu, 1 Jan 1970 00:00:00 +0000
+[Message-Id] => <example@example.com>
+[Received] => Array
 (
-[0] u003d> з localhost (localhost [127.0.0.1]) by localhost з SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC) (envelope-from example-return-0000-exampleu003dexample.com@example.com)
-[1] u003d> (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
+[0] => з localhost (localhost [127.0.0.1]) by localhost з SMTP id example for <example@example.com>; Thu, 1 Jan 1970 00:00:00 +0000 (UTC) (envelope-from example-return-0000-example=example.com@example.com)
+[1] => (qmail 0 invoked by uid 65534); 1 Thu 2003 00:00:00 +0000
 )
 
 )

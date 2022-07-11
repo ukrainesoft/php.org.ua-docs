@@ -7,7 +7,7 @@
 
 #call_user_func_array
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 call_user_func_array — Викликає callback-функцію з масивом параметрів
 
@@ -58,7 +58,7 @@ Hello Philip!
 
 **Приклад #3 Використання лямбда-функції**
 
-` <?php$func u003d function($arg1, $arg2) {    return $arg1 * $arg2;};var_dump(call_user_func_array($func, array(2, 4))));?> `
+` <?php$func = function($arg1, $arg2) {    return $arg1 * $arg2;};var_dump(call_user_func_array($func, array(2, 4))));?> `
 
 Результат виконання цього прикладу:
 
@@ -66,14 +66,14 @@ int(8)
 
 **Приклад #4 Передача значень за посиланням**
 
-` <?phpfunction mega(&$a){    $a u003d 55; echo "function mega \$au003d$a
-";}$bar u003d 77;call_user_func_array('mega',array(&$bar));echo "global \$baru003d$bar
+` <?phpfunction mega(&$a){    $a = 55; echo "function mega \$a=$a
+";}$bar = 77;call_user_func_array('mega',array(&$bar));echo "global \$bar=$bar
 ";?> `
 
 Результат виконання цього прикладу:
 
-function mega $au003d55
-global $baru003d55
+function mega $a=55
+global $bar=55
 
 ### Примітки
 

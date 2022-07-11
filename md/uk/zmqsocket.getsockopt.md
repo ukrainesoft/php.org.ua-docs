@@ -7,7 +7,7 @@
 
 # ZMQSocket::getSockOpt
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQSocket::getSockOpt — Отримати опцію сокету
 

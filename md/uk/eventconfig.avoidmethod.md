@@ -7,7 +7,7 @@
 
 # EventConfig::avoidMethod
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventConfig::avoidMethod — Попросити libevent не використовувати
 певний метод події
@@ -33,7 +33,7 @@ public **EventConfig::avoidMethod**( string `$method` ): bool
 
 **Приклад #1 **Приклад використання EventConfig::avoidMethod()****
 
-` <?php$cfg u003d new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
+` <?php$cfg = new EventConfig();if ($cfg->avoidMethod("select")) {    echo "Метод 'select' буде ігноруватися
 ";}?> `
 
 ### Дивіться також

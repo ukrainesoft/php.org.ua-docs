@@ -15,7 +15,7 @@ easter_date — Отримати мітку часу Unix, що відповід
 
 ### Опис
 
-**easter_date**(?int `$year` u003d **`null`**, int `$mode` u003d
+**easter_date**(?int `$year` = **`null`**, int `$mode` =
 **`CAL_EASTER_DEFAULT`**): int
 
 Повертає мітку часу Unix, що відповідає півночі на Великдень
@@ -58,7 +58,7 @@ easter_date — Отримати мітку часу Unix, що відповід
 ### Список змін
 
 | Версія | Опис                                |
-| ------ | ----------------------------------- |
+|--------|-------------------------------------|
 | 8.0.0  | year тепер припускає значення null. |
 
 ### Приклади
@@ -84,7 +84,7 @@ easter_date — Отримати мітку часу Unix, що відповід
 > [DateInterval](class.dateinterval.md) для підрахунку початку Великодня в
 > вашому часовому поясі, як у цьому прикладі:
 >
-> ` <?phpfunction get_easter_datetime($year) {    $base u003d new DateTime("$year-03-21"); $days u003d easter_days($year); return $base->add(new DateInterval("P{$days}D"));}foreach (range(2012, 2015) as $year) {    printf("Великдень в %d року |
+> ` <?phpfunction get_easter_datetime($year) {    $base = new DateTime("$year-03-21"); $days = easter_days($year); return $base->add(new DateInterval("P{$days}D"));}foreach (range(2012, 2015) as $year) {    printf("Великдень в %d року |
 ",            $year,            get_easter_datetime($year)->format('F j'));}?> `
 >
 > Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # Phar::unlinkArchive
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::unlinkArchive — Повністю видалити архів із пам'яті та з диска
 
@@ -38,7 +38,7 @@ final public static **Phar::unlinkArchive**(string `$filename`): bool
 
 **Приклад #1 Приклад використання **Phar::unlinkArchive()****
 
-` <?php//просте використанняPhar::unlinkArchive('/path/to/my.phar');// часті варіант використання:$p u003d new Phar('my.phar');$fp u003d fopen(' phar://my.phar/file.txt', 'r');// створюється 'my.phar.gz'$gp u003d $p->compress(Phar::GZ);// удаляються всі посилання на архівunset ($p);fclose($fp);// віддаляються всі сліди існуванняPhar::unlinkArchive('my.phar');?> `
+` <?php//просте використанняPhar::unlinkArchive('/path/to/my.phar');// часті варіант використання:$p = new Phar('my.phar');$fp = fopen(' phar://my.phar/file.txt', 'r');// створюється 'my.phar.gz'$gp = $p->compress(Phar::GZ);// удаляються всі посилання на архівunset ($p);fclose($fp);// віддаляються всі сліди існуванняPhar::unlinkArchive('my.phar');?> `
 
 ### Дивіться також
 

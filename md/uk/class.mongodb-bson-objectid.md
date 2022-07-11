@@ -7,7 +7,7 @@
 
 # Клас MongoDB\BSON\ObjectId
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -46,7 +46,7 @@ final class **MongoDB\BSON\ObjectId** implements
 /\* Методи \*/
 
 final public
-[\_\_construct](mongodb-bson-objectid.construct.md)(string `$id` u003d ?)
+[\_\_construct](mongodb-bson-objectid.construct.md)(string `$id` = ?)
 
 final public [getTimestamp](mongodb-bson-objectid.gettimestamp.md)():
 int

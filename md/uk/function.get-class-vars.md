@@ -26,14 +26,14 @@ get_class_vars — Повертає оголошені за умовчанням
 
 Повертає асоціативний масив оголошених властивостей класу, видимих з
 поточної області видимості, з їх значенням за промовчанням. Отримані
-елементи масиву мають форму `varnameu003d>value`. У разі виникнення
+елементи масиву мають форму `varname=>value`. У разі виникнення
 помилки повертається **`false`**.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **get_class_vars()****
 
-`<?phpclass myclass {    var $var1; // змінна не має початкового значення...    var $var2 u003d "xyz"; var$$var3u003d100; private$var4; // конструктор    function __construct() {         // змінимо значення деяких властивостей| $this->var2u003du003d"bar"; return true; }}$my_class u003d new myclass();$class_vars u003d get_class_vars(get_class($my_class));foreach ($class_vars as $name u003d> $value) {    echo "$$ 
+`<?phpclass myclass {    var $var1; // змінна не має початкового значення...    var $var2 = "xyz"; var$$var3=100; private$var4; // конструктор    function __construct() {         // змінимо значення деяких властивостей| $this->var2=="bar"; return true; }}$my_class = new myclass();$class_vars = get_class_vars(get_class($my_class));foreach ($class_vars as $name => $value) {    echo "$$ 
 ";}?> `
 
 Результат виконання цього прикладу:
@@ -45,7 +45,7 @@ var3 : 100
 **Приклад #2 **get_class_vars()** та поведінка області видимості**
 
 ` <?phpfunction format($array){ return implode('|', array_keys($array)) . "
-";}class TestCase{    public $a    u003d 1;    protected $b u003d 2;    private $c   u003d 3;    public static function expose()    {        echo format(get_class_vars(__CLASS__));    }}TestCase::expose();echo format(get_class_vars('TestCase'));?> `
+";}class TestCase{    public $a    = 1;    protected $b = 2;    private $c   = 3;    public static function expose()    {        echo format(get_class_vars(__CLASS__));    }}TestCase::expose();echo format(get_class_vars('TestCase'));?> `
 
 Результат виконання цього прикладу:
 

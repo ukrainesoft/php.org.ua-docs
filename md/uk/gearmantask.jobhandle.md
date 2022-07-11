@@ -9,7 +9,7 @@
 
 #gearman_job_handle
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanTask::jobHandle -- gearman_job_handle — Отримати дескриптор
 завдання

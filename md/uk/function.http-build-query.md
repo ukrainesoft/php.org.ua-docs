@@ -15,9 +15,9 @@ http_build_query — Генерує URL-кодований рядок запит
 
 **http_build_query**(
 array\|object `$data`,
-string `$numeric_prefix` u003d "",
-?string `$arg_separator` u003d **`null`**,
-int `$encoding_type` u003d **`PHP_QUERY_RFC1738`**
+string `$numeric_prefix` = "",
+?string `$arg_separator` = **`null`**,
+int `$encoding_type` = **`PHP_QUERY_RFC1738`**
 ): string
 
 Генерує URL-кодований рядок запиту з наданого
@@ -68,38 +68,38 @@ int `$encoding_type` u003d **`PHP_QUERY_RFC1738`**
 
 **Приклад #1 Простий приклад використання **http_build_query()****
 
-` <?php$data u003d array(   'foo' u003d> 'bar',   'baz' u003d> 'boom',   'cow' u003d> 'milk',    'null'  processor');echo http_build_query($data) . "
+` <?php$data = array(   'foo' => 'bar',   'baz' => 'boom',   'cow' => 'milk',    'null'  processor');echo http_build_query($data) . "
 ";echo http_build_query($data, '', '&');?> `
 
 Результат виконання цього прикладу:
 
-foou003dbar&bazu003dboom&cowu003dmilk&phpu003dhypertext+processor
-foou003dbar&bazu003dboom&cowu003dmilk&phpu003dhypertext+processor
+foo=bar&baz=boom&cow=milk&php=hypertext+processor
+foo=bar&baz=boom&cow=milk&php=hypertext+processor
 
 **Приклад #2 Приклад використання **http_build_query()** з числовими
 індексами елементів.
 
-` <?php$data u003d array('foo', 'bar', 'baz', null, 'boom', 'cow' u003d> 'milk', 'php' u003d> 'hypertext processor');echo http_build_quer $ data) . "
+` <?php$data = array('foo', 'bar', 'baz', null, 'boom', 'cow' => 'milk', 'php' => 'hypertext processor');echo http_build_quer $ data) . "
 ";echo http_build_query($data, 'myvar_');?> `
 
 Результат виконання цього прикладу:
 
-0u003dfoo&1u003dbar&2u003dbaz&4u003dboom&cowu003dmilk&phpu003dhypertext+processor
-myvar_0u003dfoo&myvar_1u003dbar&myvar_2u003dbaz&myvar_4u003dboom&cowu003dmilk&phpu003dhypertext+processor
+0=foo&1=bar&2=baz&4=boom&cow=milk&php=hypertext+processor
+myvar_0=foo&myvar_1=bar&myvar_2=baz&myvar_4=boom&cow=milk&php=hypertext+processor
 
 **Приклад #3 Приклад використання **http_build_query()** з багатовимірними
 масивами**
 
-` <?php$data u003d array(    'user' u003d> array(        'name' u003d> 'Bob Smith',        'age'  u003d> 47,        'sex'  u003d> 'M',        'dob'  u003d> '5/ 12/1956'    ),   'pastimes' u003d> array('golf', 'opera', 'poker', 'rap'),   'children' u003d> array( b>u003d' > , 'sex'u003d>'M'),        'sally' u003d> array('age'u003d>8, 'sex'u003d>'F')    ),    'CEO');echo http_$$'' );?> `
+` <?php$data = array(    'user' => array(        'name' => 'Bob Smith',        'age'  => 47,        'sex'  => 'M',        'dob'  => '5/ 12/1956'    ),   'pastimes' => array('golf', 'opera', 'poker', 'rap'),   'children' => array( b>=' > , 'sex'=>'M'),        'sally' => array('age'=>8, 'sex'=>'F')    ),    'CEO');echo http_$$'' );?> `
 
 Результат виконання даних прикладів: (символи перенесені для зручності
 читання)
 
-user%5Bname%5Du003dBob+Smith&user%5Bage%5Du003d47&user%5Bsex%5Du003dM&
-user%5Bdob%5Du003d5%2F12%2F1956&pastimes%5B0%5Du003dgolf&pastimes%5B1%5Du003dopera&
-pastimes%5B2%5Du003dpoker&pastimes%5B3%5Du003drap&children%5Bbobby%5D%5Bage%5Du003d12&
-children%5Bbobby%5D%5Bsex%5Du003dM&children%5Bsally%5D%5Bage%5Du003d8&
-children%5Bsally%5D%5Bsex%5Du003dF&flags_0u003dCEO
+user%5Bname%5D=Bob+Smith&user%5Bage%5D=47&user%5Bsex%5D=M&
+user%5Bdob%5D=5%2F12%2F1956&pastimes%5B0%5D=golf&pastimes%5B1%5D=opera&
+pastimes%5B2%5D=poker&pastimes%5B3%5D=rap&children%5Bbobby%5D%5Bage%5D=12&
+children%5Bbobby%5D%5Bsex%5D=M&children%5Bsally%5D%5Bage%5D=8&
+children%5Bsally%5D%5Bsex%5D=F&flags_0=CEO
 
 > **Примітка**:
 >
@@ -110,11 +110,11 @@ children%5Bsally%5D%5Bsex%5Du003dF&flags_0u003dCEO
 
 **Приклад #4 Приклад використання **http_build_query()** з об'єктом**
 
-` <?phpclass parentClass {    public    $pub      u003du003d''publicParent'; protected $prot     u003d 'protectedParent'; private   $priv     u003d 'privateParent'; public   $pub_bar u003d null; protected $prot_bar u003d u003d null; private   $priv_bar u003d null; public function __construct(){        $this->pub_bar u003du003d new childClass(); $this->prot_baru003du003dnew childClass(); $this->priv_baru003du003dnew childClass(); }}class childClass {    public   $$pub u003du003d'publicChild'; protected $prot u003d 'protectedChild'; private   $priv u003d 'privateChild';}$parent u003d new parentClass();echo http_build_query($parent);?> `
+` <?phpclass parentClass {    public    $pub      ==''publicParent'; protected $prot     = 'protectedParent'; private   $priv     = 'privateParent'; public   $pub_bar = null; protected $prot_bar = = null; private   $priv_bar = null; public function __construct(){        $this->pub_bar == new childClass(); $this->prot_bar==new childClass(); $this->priv_bar==new childClass(); }}class childClass {    public   $$pub =='publicChild'; protected $prot = 'protectedChild'; private   $priv = 'privateChild';}$parent = new parentClass();echo http_build_query($parent);?> `
 
 Результат виконання цього прикладу:
 
-pubu003dpublicParent&pub_bar%5Bpub%5Du003dpublicChild
+pub=publicParent&pub_bar%5Bpub%5D=publicChild
 
 ### Дивіться також
 

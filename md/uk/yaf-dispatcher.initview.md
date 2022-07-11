@@ -7,14 +7,14 @@
 
 # Yaf_Dispatcher::initView
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Dispatcher::initView — Ініціалізує виставу та повертає її
 
 ### Опис
 
 public **Yaf_Dispatcher::initView**(string `$templates_dir`, array
-`$options` u003d ?): [Yaf_View_Interface](class.yaf-view-interface.md)
+`$options` = ?): [Yaf_View_Interface](class.yaf-view-interface.md)
 
 ### Список параметрів
 

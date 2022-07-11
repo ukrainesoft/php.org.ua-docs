@@ -7,7 +7,7 @@
 
 # Gmagick::setfilename
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setfilename — Встановлює ім'я файлу перед читанням або записом
 зображення

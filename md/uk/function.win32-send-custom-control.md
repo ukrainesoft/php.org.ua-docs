@@ -7,7 +7,7 @@
 
 #win32_send_custom_control
 
-(PECL win32service \>u003d0.4.0)
+(PECL win32service \>=0.4.0)
 
 win32_send_custom_control — Відправляє налаштований елемент керування
 у службу
@@ -15,7 +15,7 @@ win32_send_custom_control — Відправляє налаштований ел
 ### Опис
 
 **win32_send_custom_control**(string `$servicename`, int `$control`,
-string `$machine` u003d ?): void
+string `$machine` = ?): void
 
 Дивіться [функцію Microsoft ControlService](https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-controlservice)
 для отримання додаткових відомостей.
@@ -58,8 +58,8 @@ string `$machine` u003d ?): void
 ### Список змін
 
 | Версія                                                                                                                                                                                      | Опис |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |      |      
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| PECL win32service 1.0.0 Викидає [ValueError](class.valueerror.md) при невірних даних у параметрах, що раніше поверталося **false**.                                                         |      |
 | PECL win32service 1.0.0 Викидає [Win32ServiceException](class.win32serviceexception.md) у разі виникнення помилки, раніше повертався [Код помилки Win32](win32service.constants.errors.md). |      |
 | PECL win32service 1.0.0 Тип повертається тепер void, раніше був [mixed](language.types.declarations.md#language.types.declarations.mixed).                                                  |      |
 

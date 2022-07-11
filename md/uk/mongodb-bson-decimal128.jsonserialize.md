@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Decimal128::jsonSerialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Decimal128::jsonSerialize — Повертає виставу,
 яке можна перетворити на JSON

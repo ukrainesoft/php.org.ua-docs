@@ -33,8 +33,8 @@ array\|null\|false
 
 **Приклад #1 Xpath**
 
-` <?php$string u003d <<<XML<a> <b>  <c>текст</c>  <c>реч</c> </b> <d>  <c>код</c> </ d></a>XML;$xml u003d new SimpleXMLElement($string);/* Пошук <a><b><c> */$result u003d $xml->xpath('/a/b/c') ;foreach ($result as $node) {   echo '/a/b/c: ',$node,"
-";}/* Відносні шляхи також працюють... */$result u003d $xml->xpath('b/c');foreach ($result as $node) {    echo 'b/c: ',$node, "
+` <?php$string = <<<XML<a> <b>  <c>текст</c>  <c>реч</c> </b> <d>  <c>код</c> </ d></a>XML;$xml = new SimpleXMLElement($string);/* Пошук <a><b><c> */$result = $xml->xpath('/a/b/c') ;foreach ($result as $node) {   echo '/a/b/c: ',$node,"
+";}/* Відносні шляхи також працюють... */$result = $xml->xpath('b/c');foreach ($result as $node) {    echo 'b/c: ',$node, "
 ";}?> `
 
 Результат виконання цього прикладу:

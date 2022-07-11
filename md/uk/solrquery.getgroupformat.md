@@ -7,7 +7,7 @@
 
 # SolrQuery::getGroupFormat
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::getGroupFormat — Повертає значення group.format
 

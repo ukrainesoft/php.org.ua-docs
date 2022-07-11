@@ -7,7 +7,7 @@
 
 # Phar::addFromString
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::addFromString — Додає в phar-архів файл з рядка
 
@@ -45,7 +45,7 @@ void
 
 **Приклад #1 Приклад використання **Phar::addFromString()****
 
-`<?phptry {    $a u003d new Phar('/шлях/к/phar.phar'); $a->addFromString('шлях/к/file.txt', 'мій простий файл'); $b u003d $a['шлях/к/file.txt']->getContent(); // для додавання вміст із дескриптора потоку для великих файлів використовуйтеoffsetSet()    $c u003d fopen('/шлях/к/hugefile.bin'); $a['largefile.bin'] u003d $c; fclose($c);} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {    $a = new Phar('/шлях/к/phar.phar'); $a->addFromString('шлях/к/file.txt', 'мій простий файл'); $b = $a['шлях/к/file.txt']->getContent(); // для додавання вміст із дескриптора потоку для великих файлів використовуйтеoffsetSet()    $c = fopen('/шлях/к/hugefile.bin'); $a['largefile.bin'] = $c; fclose($c);} catch (Exception $e) {    // обробка помилок}?> `
 
 ### Примітки
 

@@ -33,7 +33,7 @@ iptcparse — Розбір двійкових даних IPTC на окремі 
 **Приклад #1 iptcparse() використовується спільно з
 [getimagesize()](function.getimagesize.md)**
 
-` <?php$size u003d getimagesize('./test.jpg', $info);if(isset($info['APP13'])){   $iptc u003d iptcparse($info['APP13']); var_dump($iptc);}?> `
+` <?php$size = getimagesize('./test.jpg', $info);if(isset($info['APP13'])){   $iptc = iptcparse($info['APP13']); var_dump($iptc);}?> `
 
 ### Примітки
 

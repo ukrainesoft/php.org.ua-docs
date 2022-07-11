@@ -23,7 +23,7 @@ mysql_affected_rows — Повертає кількість порушених �
 
 ### Опис
 
-**mysql_affected_rows**(resource `$link_identifier` u003d NULL): int
+**mysql_affected_rows**(resource `$link_identifier` = NULL): int
 
 Повертає кількість рядів, порушених останнім INSERT, UPDATE,
 REPLACE або DELETE запитом, пов'язаним із дескриптором `link_identifier`.
@@ -65,7 +65,7 @@ UPDATE", що повертається значення дорівнюватим
 
 **Приклад #1 Приклад використання **mysql_affected_rows()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; /* тут функція верне коректне число віддалених записів */mysql_query('DELETE FROM mytable WHERE id < 10');printf("Видалено записів: %d
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; /* тут функція верне коректне число віддалених записів */mysql_query('DELETE FROM mytable WHERE id < 10');printf("Видалено записів: %d
 ", mysql_affected_rows());/* якщо WHERE завжди повертає false, то функція повертає 0 */mysql_query('DELETE FROM mytable WHERE 0');printf("Уда
 ", mysql_affected_rows());?> `
 
@@ -77,7 +77,7 @@ UPDATE", що повертається значення дорівнюватим
 **Приклад #2 Приклад використання **mysql_affected_rows()** з
 транзакціями**
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; /* Оновлюємо ряди */mysql_query("UPDATE mytable SET|usedu003d1 WHERE id < 10");printf ("Оновлено записів: %d
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . mysql_error());}mysql_select_db; /* Оновлюємо ряди */mysql_query("UPDATE mytable SET|used=1 WHERE id < 10");printf ("Оновлено записів: %d
 ", mysql_affected_rows()); mysql_query("COMMIT");?> `
 
 Результатом виконання цього прикладу буде щось подібне:

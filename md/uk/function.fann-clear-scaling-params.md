@@ -7,7 +7,7 @@
 
 # fann_clear_scaling_params
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_clear_scaling_params — Очистка параметрів масштабування
 

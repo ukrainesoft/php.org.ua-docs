@@ -13,7 +13,7 @@ pg_connect — Відкриває з'єднання з базою даних Pos
 
 ### Опис
 
-**pg_connect**(string `$connection_string`, int `$flags` u003d 0):
+**pg_connect**(string `$connection_string`, int `$flags` = 0):
 [PgSql\Connection](class.pgsql-connection.md)\|false
 
 **pg_connect()** відкриває з'єднання з базою даних PostgreSQL,
@@ -25,7 +25,7 @@ pg_connect — Відкриває з'єднання з базою даних Pos
 передати рядок підключення функції **`PGSQL_CONNECT_FORCE_NEW`**
 як параметр `flags`.
 
-Колишній синтаксис із безліччю параметрів **$conn u003d pg_connect("host",
+Колишній синтаксис із безліччю параметрів **$conn = pg_connect("host",
 "port", "options", "tty", "dbname")** вважається застарілим.
 
 ### Список параметрів
@@ -33,9 +33,9 @@ pg_connect — Відкриває з'єднання з базою даних Pos
 `connection_string`
 Рядок `connection_string` може бути порожнім рядком або містити
 кілька параметрів, розділених пробілами. Кожен параметр вказується
-як `keywordu003dvalue`. Прогалини навколо знака "рівно" необов'язкові.
+як `keyword=value`. Прогалини навколо знака "рівно" необов'язкові.
 Порожні рядки як значення або значення, що містять пробіли
-відокремлюються одинарними лапками, як, наприклад, `keyword u003d 'a value'`.
+відокремлюються одинарними лапками, як, наприклад, `keyword = 'a value'`.
 Для запису одинарних лапок і зворотних слішів як значення, їх
 необхідно екранувати зворотним слішем, тобто \' і \\.
 
@@ -68,14 +68,14 @@ PostgreSQL.
 ### Список змін
 
 | Версія | Опис                                                                                                                                 |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Використання функції **pg_connect()****
 
-`<?php$dbconn u003d pg_connect("dbnameu003dmary");//підключитися к базі "mary"$dbconn2 u003d pg_connect("hostu003dlocalhost portu003d5432 dbnameu003dmary");//підключитися к базе на хості "localhost", порт "5432"$dbconn3 u003d pg_connect("hostu003dsheep portu003d5432 dbnameu003dmary useru003dlamb passwordu003dfoo"); користувача і пароль$conn_string u003d "hostu003dsheep portu003d5432 dbnameu003dtest useru003dlamb passwordu003dbar";$dbconn4 u003d pg_connect($conn_string);//підключитися к базе я і пароль$dbconn5 u003d pg_connect("hostu003dlocalhost optionsu003d'--client_encodingu003dUTF8'");//підключитися к базі на хості "localhost" і передати параметр командного рядки, <8>
+`<?php$dbconn = pg_connect("dbname=mary");//підключитися к базі "mary"$dbconn2 = pg_connect("host=localhost port=5432 dbname=mary");//підключитися к базе на хості "localhost", порт "5432"$dbconn3 = pg_connect("host=sheep port=5432 dbname=mary user=lamb password=foo"); користувача і пароль$conn_string = "host=sheep port=5432 dbname=test user=lamb password=bar";$dbconn4 = pg_connect($conn_string);//підключитися к базе я і пароль$dbconn5 = pg_connect("host=localhost options='--client_encoding=UTF8'");//підключитися к базі на хості "localhost" і передати параметр командного рядки, <8>
 
 ### Дивіться також
 

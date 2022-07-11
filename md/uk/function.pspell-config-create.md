@@ -7,7 +7,7 @@
 
 #pspell_config_create
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_config_create — Створює конфігурацію, яка використовується для відкриття
 словника
@@ -16,9 +16,9 @@ pspell_config_create — Створює конфігурацію, яка вик�
 
 **pspell_config_create**(
 string `$language`,
-string `$spelling` u003d "",
-string `$jargon` u003d "",
-string `$encoding` u003d ""
+string `$spelling` = "",
+string `$jargon` = "",
+string `$encoding` = ""
 ): [PSpell\Config](class.pspell-config.md)
 
 Створює конфігурацію для відкриття словника.
@@ -67,11 +67,11 @@ spelling.
 ### Список змін
 
 | Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PSpell\Config](class.pspell-config.md); раніше повертався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pspell_config_create()****
 
-` <?php$pspell_config u003d pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. u003d pspell_new_personal($pspell_config, "en");?> `
+` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/var/dictionaries/custom.pws");pspell_config_repl($pspell_config, "/var/dictionaries/custom. = pspell_new_personal($pspell_config, "en");?> `

@@ -50,21 +50,21 @@ zlib - на даний момент одно 6). `window` - це логариф�
 
 **Приклад #1 `zlib.deflate` та `zlib.inflate`**
 
-` <?php$params u003d array('level' u003d> 6, 'window' u003d> 15, 'memory' u003d> 9);$original_text u003d "This is a test.
+` <?php$params = array('level' => 6, 'window' => 15, 'memory' => 9);$original_text = "This is a test.
 This is only a test.
 This is not an important string.
 ";echo "Оригінальний текст довжиною " . strlen($original_text) . " символів.
-";$fp u003d fopen('test.deflated', 'w');stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, $params);fwrite($fp, $original_text);fclose$ echo "Стиснутий файл розміром " . filesize('test.deflated') . " байт.
+";$fp = fopen('test.deflated', 'w');stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_WRITE, $params);fwrite($fp, $original_text);fclose$ echo "Стиснутий файл розміром " . filesize('test.deflated') . " байт.
 ";echo "Оригінальний текст:
-";/* Використання readfile і zlib.inflate для декомпресії на льоту */readfile('php://filter/zlib.inflate/resourceu003dtest.deflated');/* Генерує висновок:Оригінальний текст й| розміром 56 байт.Оригінальний текст:This is a test.This is only a test.This is not an important string. */?>
+";/* Використання readfile і zlib.inflate для декомпресії на льоту */readfile('php://filter/zlib.inflate/resource=test.deflated');/* Генерує висновок:Оригінальний текст й| розміром 56 байт.Оригінальний текст:This is a test.This is only a test.This is not an important string. */?>
 
 **Приклад #2 Спрощене використання `zlib.deflate`**
 
-` <?php$original_text u003d "This is a test.
+` <?php$original_text = "This is a test.
 This is only a test.
 This is not an important string.
 ";echo "Оригінальний текст довжиною " . strlen($original_text) . " символів.
-";$fp u003d fopen('test.deflated', 'w');/* Тут "6" вказує рівень компресії 6 */stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_$ , $original_text);fclose($fp);echo "Стиснутий файл розміром " . filesize('test.deflated') . " байт.
+";$fp = fopen('test.deflated', 'w');/* Тут "6" вказує рівень компресії 6 */stream_filter_append($fp, 'zlib.deflate', STREAM_FILTER_$ , $original_text);fclose($fp);echo "Стиснутий файл розміром " . filesize('test.deflated') . " байт.
 ";/* Генерує висновок:Оригінальний текст довжиною 70 символів.Стиснутий файл розміром 56 байт. */?> `
 
 ## bzip2.compress та bzip2.decompress
@@ -92,6 +92,6 @@ This is not an important string.
 
 **Приклад #3 `bzip2.compress` та `bzip2.decompress`**
 
-` <?php$param u003d array('blocks' u003d> 9, 'work' u003d> 0);echo "Оригінальний файл розміром " . filesize('LICENSE') . "Байт.
-";$fp u003dfopen('LICENSE.compressed', 'w');stream_filter_append($fp, 'bzip2.compress', STREAM_FILTER_WRITE, $param);fwrite($fp, file_get_contents('LICEN') $fp);echo "Стиснутий файл розміром " . filesize('LICENSE.compressed') . " байт.
+` <?php$param = array('blocks' => 9, 'work' => 0);echo "Оригінальний файл розміром " . filesize('LICENSE') . "Байт.
+";$fp =fopen('LICENSE.compressed', 'w');stream_filter_append($fp, 'bzip2.compress', STREAM_FILTER_WRITE, $param);fwrite($fp, file_get_contents('LICEN') $fp);echo "Стиснутий файл розміром " . filesize('LICENSE.compressed') . " байт.
 ";/* Генерує висновок:Оригінальний файл розміром 3288 байт.Стиснутий файл розміром 1488 байт. */?> `

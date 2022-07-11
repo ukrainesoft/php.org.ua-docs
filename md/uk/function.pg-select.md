@@ -7,7 +7,7 @@
 
 #pg_select
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_select — Вибір запису з бази даних
 
@@ -17,12 +17,12 @@ pg_select — Вибір запису з бази даних
 [PgSql\Connection](class.pgsql-connection.md) `$connection`,
 string `$table_name`,
 array `$conditions`,
-int `$flags` u003d **`PGSQL_DML_EXEC`**,
-int `$mode` u003d **`PGSQL_ASSOC`**
+int `$flags` = **`PGSQL_DML_EXEC`**,
+int `$mode` = **`PGSQL_ASSOC`**
 ): array\|string\|false
 
 **pg_select()** вибирає записи з бази даних, які відповідають умовам
-`fieldu003d>value`, заданим у масиві `conditions`.
+`field=>value`, заданим у масиві `conditions`.
 
 Якщо заданий аргумент `flags`, то масиву `conditions` буде застосована
 функція [pg_convert()](function.pg-convert.md) з параметрами,
@@ -70,7 +70,7 @@ PGSQL_DML_ESCAPE має бути вказано. PGSQL_DML_ESCAPE укладає
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 7.1.0  | Доданий параметр mode.                                                                                                                                         |
 
@@ -78,7 +78,7 @@ PGSQL_DML_ESCAPE має бути вказано. PGSQL_DML_ESCAPE укладає
 
 **Приклад #1 Приклад використання **pg_select()****
 
-`<?php $db u003d pg_connect('dbnameu003dfoo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $rec u003d pg_select($db, 'post_log', $_POST); if ($rec) {      echo "Records selected
+`<?php $db = pg_connect('dbname=foo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $rec = pg_select($db, 'post_log', $_POST); if ($rec) {      echo "Records selected
 ";      var_dump($rec);  } else {     echo "Має бути передані невірні дані
 ";  }?> `
 

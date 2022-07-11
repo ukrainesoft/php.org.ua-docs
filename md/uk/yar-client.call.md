@@ -7,7 +7,7 @@
 
 # Yar_Client::\_\_call
 
-(PECL yar \> u003d 1.0.0)
+(PECL yar \> = 1.0.0)
 
 Yar_Client::\_\_call — Виклик сервісу
 
@@ -32,7 +32,7 @@ void
 
 **Приклад #1 Приклад використання **Yar_Client::\_\_call()****
 
-` <?php$client u003d new Yar_Client("http://host/api/");/* виклик віддаленого сервісу */$result u003d $client->some_method("parameter");?> `
+` <?php$client = new Yar_Client("http://host/api/");/* виклик віддаленого сервісу */$result = $client->some_method("parameter");?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

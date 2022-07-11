@@ -7,7 +7,7 @@
 
 # Swoole\Server::resume
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::resume — Починає отримувати дані зі з'єднання
 

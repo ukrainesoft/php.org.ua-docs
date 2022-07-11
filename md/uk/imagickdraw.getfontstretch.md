@@ -7,7 +7,7 @@
 
 # ImagickDraw::getFontStretch
 
-(PECL imagick 2 \>u003d2.3.0, PECL imagick 3)
+(PECL imagick 2 \>=2.3.0, PECL imagick 3)
 
 ImagickDraw::getFontStretch — Опис
 

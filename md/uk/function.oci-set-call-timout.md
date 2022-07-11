@@ -7,7 +7,7 @@
 
 #oci_set_call_timeout
 
-(PHP 7.2 \>u003d 7.2.14, PHP 8, PHP 7 \>u003d 7.3.1, PHP 8, PECL OCI8 \>u003d 2.2.0)
+(PHP 7.2 \>= 7.2.14, PHP 8, PHP 7 \>= 7.3.1, PHP 8, PECL OCI8 \>= 2.2.0)
 
 oci_set_call_timeout — Встановлює час очікування в мілісекундах для
 викликів бази даних
@@ -62,4 +62,4 @@ OCI8 до або після завершення кожного циклічно
 
 **Приклад #1 Встановлення часу очікування**
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');oci_set_call_timeout($conn, 5000);?> `
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');oci_set_call_timeout($conn, 5000);?> `

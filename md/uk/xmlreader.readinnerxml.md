@@ -7,7 +7,7 @@
 
 # XMLReader::readInnerXml
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 XMLReader::readInnerXml — Вийняти XML із поточного вузла
 

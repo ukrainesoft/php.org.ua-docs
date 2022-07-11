@@ -7,7 +7,7 @@
 
 # Клас [V8Js](class.v8js.md)
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 ## Вступ
 
@@ -24,21 +24,21 @@ class **V8Js** {
 
 const string `V8_VERSION`;
 
-const int `FLAG_NONE` u003d 1;
+const int `FLAG_NONE` = 1;
 
-const int `FLAG_FORCE_ARRAY` u003d 2;
+const int `FLAG_FORCE_ARRAY` = 2;
 
 /\* Методи \*/
 
 public [\_\_construct](v8js.construct.md)(
-string `$object_name` u003d "PHP",
-array `$variables` u003d array(),
-array `$extensions` u003d array(),
-bool `$report_uncaught_exceptions` u003d **`true`**
+string `$object_name` = "PHP",
+array `$variables` = array(),
+array `$extensions` = array(),
+bool `$report_uncaught_exceptions` = **`true`**
 )
 
 public [executeString](v8js.executestring.md)(string `$script`, string
-`$identifier` u003d "V8Js::executeString()", int `$flags` u003d
+`$identifier` = "V8Js::executeString()", int `$flags` =
 **`V8Js::FLAG_NONE`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -50,8 +50,8 @@ public [getPendingException](v8js.getpendingexception.md)():
 public static [registerExtension](v8js.registerextension.md)(
 string `$extension_name`,
 string `$script`,
-array `$dependencies` u003d array(),
-bool `$auto_enable` u003d **`false`**
+array `$dependencies` = array(),
+bool `$auto_enable` = **`false`**
 ): bool
 
 }

@@ -7,7 +7,7 @@
 
 # Phar::getStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::getStub — Отримати завантажувач PHP або завантажувач заглушки
 Phar-архіву
@@ -44,13 +44,13 @@ php myphar.phar
 
 **Приклад #1 Приклад використання **Phar::getStub()****
 
-` <?php$p u003d new Phar('/path/to/my.phar', 0, 'my.phar');echo$$->getStub();echo "u003du003dNEXTu003du003d
+` <?php$p = new Phar('/path/to/my.phar', 0, 'my.phar');echo$$->getStub();echo "==NEXT==
 ";$p->setStub("<?phpfunction __autoload($class){   include 'phar://' . str_replace('_', '/', $class);}Phar::mapPhar('myphar.phar ');include 'phar://myphar.phar/startup.php';__HALT_COMPILER(); ?>");echo $p->getStub();?> `
 
 Результат виконання цього прикладу:
 
 <?php __HALT_COMPILER(); ?>
-u003du003dNEXTu003du003d
+==NEXT==
 <?php
 function __autoload($class)
 {

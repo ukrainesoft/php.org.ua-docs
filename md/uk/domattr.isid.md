@@ -38,4 +38,4 @@ public **DOMAttr::isId**(): bool
 
 **Приклад #1 Приклад використання DOMAttr::isId()**
 
-`<?php$doc u003d new DomDocument;// Необхідно перевірити документ на дійсність перед тем як посилатися за ідентифікатором$doc->validateOnParse ем> с>| іменем ідентифікатора chapter$attr u003d $doc->getElementsByTagName('chapter')->item(0)->getAttributeNode('id');var_dump($attr->isId()); //bool(true)?> `
+`<?php$doc = new DomDocument;// Необхідно перевірити документ на дійсність перед тем як посилатися за ідентифікатором$doc->validateOnParse ем> с>| іменем ідентифікатора chapter$attr = $doc->getElementsByTagName('chapter')->item(0)->getAttributeNode('id');var_dump($attr->isId()); //bool(true)?> `

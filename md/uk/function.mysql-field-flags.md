@@ -59,16 +59,16 @@ string\|false
 
 **Приклад #1 Приклад використання **mysql_field_flags()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Помилка в запиті:  | mysql_error(); exit;}$flags u003d mysql_field_flags($result, 0);echo $flags;print_r(explode(' ', $flags));?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Помилка в запиті:  | mysql_error(); exit;}$flags = mysql_field_flags($result, 0);echo $flags;print_r(explode(' ', $flags));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 not_null primary_key auto_increment
 Array
 (
-[0] u003d> not_null
-[1] u003d> primary_key
-[2] u003d> auto_increment
+[0] => not_null
+[1] => primary_key
+[2] => auto_increment
 )
 
 ### Примітки

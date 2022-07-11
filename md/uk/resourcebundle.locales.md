@@ -9,7 +9,7 @@
 
 # resourcebundle_locales
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8, PECL intl \>u003d 2.0.0)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
 
 ResourceBundle::getLocales -- resourcebundle_locales — Отримати
 підтримувані локалі
@@ -41,7 +41,7 @@ array\|false
 
 **Приклад #1 Приклад використання **resourcebundle_locales()****
 
-` <?php$bundle u003d "/user/share/data/myapp";echo join(PHP_EOL, resourcebundle_locales($bundle));?> `
+` <?php$bundle = "/user/share/data/myapp";echo join(PHP_EOL, resourcebundle_locales($bundle));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -50,7 +50,7 @@ root
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$bundle u003d "/usr/share/data/myapp";$r u003d new ResourceBundle( 'es', $bundle);echo join("
+` <?php$bundle = "/usr/share/data/myapp";$r = new ResourceBundle( 'es', $bundle);echo join("
 ", $r->getLocales($bundle));?> `
 
 Результатом виконання цього прикладу буде щось подібне:

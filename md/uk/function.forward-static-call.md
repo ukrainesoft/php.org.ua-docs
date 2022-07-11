@@ -7,7 +7,7 @@
 
 #forward_static_call
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 forward_static_call — виклик статичного методу
 
@@ -42,9 +42,9 @@ callback з наступними аргументами. Ця функція п�
 
 **Приклад #1 Приклад використання **forward_static_call()****
 
-`<?phpclass A{    const NAME u003d 'A'; public static function test() {         $args u003d func_get_args(); echo static::NAME, " ".join(',', $args)."
-";    }}class B extends A{    const NAME u003d 'B';   public static function test() {         echo self::NAME
-"; |:"; ||||||||||| ;function test() {        $args u003d func_get_args();        echo "C ".join(',', $args)."
+`<?phpclass A{    const NAME = 'A'; public static function test() {         $args = func_get_args(); echo static::NAME, " ".join(',', $args)."
+";    }}class B extends A{    const NAME = 'B';   public static function test() {         echo self::NAME
+"; |:"; ||||||||||| ;function test() {        $args = func_get_args();        echo "C ".join(',', $args)."
 ";    }?> `
 
 Результат виконання цього прикладу:

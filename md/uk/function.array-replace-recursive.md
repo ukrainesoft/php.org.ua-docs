@@ -8,7 +8,7 @@
 
 #array_replace_recursive
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 array_replace_recursive — Рекурсивно замінює елементи першого масиву
 елементами переданих масивів
@@ -53,58 +53,58 @@ array
 
 **Приклад #1 Приклад використання **array_replace_recursive()****
 
-` <?php$base u003d array('citrus' u003d> array( "orange") , 'berries' u003d> array("blackberry", "raspberry"), );$replacements u003d array('citrus' u003d>> ('pineapple'), 'berries' u003d> array('blueberry'));$basket u003d array_replace_recursive($base, $replacements);print_r($basket);$basket u003d array_replace($base, $replace ($ basket);?> `
+` <?php$base = array('citrus' => array( "orange") , 'berries' => array("blackberry", "raspberry"), );$replacements = array('citrus' =>> ('pineapple'), 'berries' => array('blueberry'));$basket = array_replace_recursive($base, $replacements);print_r($basket);$basket = array_replace($base, $replace ($ basket);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[citrus] u003d> Array
+[citrus] => Array
 (
-[0] u003d> pineapple
+[0] => pineapple
 )
 
-[berries] u003d> Array
+[berries] => Array
 (
-[0] u003d> blueberry
-[1] u003d> raspberry
+[0] => blueberry
+[1] => raspberry
 )
 
 )
 Array
 (
-[citrus] u003d> Array
+[citrus] => Array
 (
-[0] u003d> pineapple
+[0] => pineapple
 )
 
-[berries] u003d> Array
+[berries] => Array
 (
-[0] u003d> blueberry
+[0] => blueberry
 )
 
 )
 
 **Приклад #2 **array_replace_recursive()** та рекурсивна поведінка**
 
-` <?php$base u003d array('citrus' u003d> array("orange") , 'berries' u003d> array("blackberry", "raspberry"), 'others' u003d> 'banana' );$replacements array('citrus' u003d> 'pineapple', 'berries' u003d> array('blueberry'), 'others' u003d> array('litchis'));$replacements2 u003d array('citrus' u003d> array('e '), 'berries' u003d> array('blueberry'), 'others' u003d> 'litchis');$basket u003d array_replace_recursive($base, $replacements, $replacements2);print_r($basket);?>
+` <?php$base = array('citrus' => array("orange") , 'berries' => array("blackberry", "raspberry"), 'others' => 'banana' );$replacements array('citrus' => 'pineapple', 'berries' => array('blueberry'), 'others' => array('litchis'));$replacements2 = array('citrus' => array('e '), 'berries' => array('blueberry'), 'others' => 'litchis');$basket = array_replace_recursive($base, $replacements, $replacements2);print_r($basket);?>
 
 Результат виконання цього прикладу:
 
 Array
 (
-[citrus] u003d> Array
+[citrus] => Array
 (
-[0] u003d> pineapple
+[0] => pineapple
 )
 
-[berries] u003d> Array
+[berries] => Array
 (
-[0] u003d> blueberry
-[1] u003d> raspberry
+[0] => blueberry
+[1] => raspberry
 )
 
-[others] u003d> litchis
+[others] => litchis
 )
 
 ### Дивіться також

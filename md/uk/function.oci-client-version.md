@@ -7,7 +7,7 @@
 
 #oci_client_version
 
-(PHP 5 u003d 5.3.7, PHP 7, PHP 8, PECL OCI8 u003d 1.4.6)
+(PHP 5 = 5.3.7, PHP 7, PHP 8, PECL OCI8 = 1.4.6)
 
 oci_client_version — Повертає версію клієнтської бібліотеки
 

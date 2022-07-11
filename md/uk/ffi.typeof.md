@@ -7,7 +7,7 @@
 
 # FFI::typeof
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 FFI::typeof — Отримує FFI\CType для FFI\CData
 

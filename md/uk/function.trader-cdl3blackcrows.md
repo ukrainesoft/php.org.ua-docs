@@ -7,7 +7,7 @@
 
 #trader_cdl3blackcrows
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdl3blackcrows — Три чорні ворони
 

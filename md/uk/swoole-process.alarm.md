@@ -8,7 +8,7 @@
 
 # Swoole\Process::alarm
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::alarm - Таймер високої точності, який запускає
 сигнал із фіксованим інтервалом

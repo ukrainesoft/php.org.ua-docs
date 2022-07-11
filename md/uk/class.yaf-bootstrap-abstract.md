@@ -26,7 +26,7 @@ Bootstrap є механізмом, який використовується д�
 
 **Приклад #1 Приклад використання Bootstrap**
 
-` <?php   /* класс bootstrap должен быть задан в ./application/Bootstrap.php */   class Bootstrap extends Yaf_Bootstrap_Abstract {        public function _initConfig(Yaf_Dispatcher $dispatcher) {            var_dump(__METHOD__); }     |initPlugin(Yaf_Dispatcher $dispatcher) {            var_dump(__METHOD__); }  }}  $config u003d array(                                 $app u003d new Yaf_Application($config); $app->bootstrap();?> `
+` <?php   /* класс bootstrap должен быть задан в ./application/Bootstrap.php */   class Bootstrap extends Yaf_Bootstrap_Abstract {        public function _initConfig(Yaf_Dispatcher $dispatcher) {            var_dump(__METHOD__); }     |initPlugin(Yaf_Dispatcher $dispatcher) {            var_dump(__METHOD__); }  }}  $config = array(                                 $app = new Yaf_Application($config); $app->bootstrap();?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

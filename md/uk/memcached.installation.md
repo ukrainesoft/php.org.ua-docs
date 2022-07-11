@@ -14,13 +14,13 @@
 [»https://pecl.php.net/package/memcached](https://pecl.php.net/package/memcached).
 
 Якщо libmemcached встановлена в нестандартній директорії, використовуйте
-опцію **--with-libmemcached-diru003dDIR**, де DIR - це директорія, куди
+опцію **--with-libmemcached-dir=DIR**, де DIR - це директорія, куди
 встановлено libmemcached. Ця директорія має містити файл
 `include/libmemcached/memcached.h`.
 
 Бібліотека Zlib потрібна для підтримки стиснення. Для вказівки
 нестандартного розташування Zlib використовуйте ключ
-**--with-zlib-diru003dDIR**, де DIR - це директорія установки Zlib.
+**--with-zlib-dir=DIR**, де DIR - це директорія установки Zlib.
 
 Підтримка обробника сесій увімкнена за замовчуванням. Для її відключення
 використовуйте ключ **-disable-memcached-session**.

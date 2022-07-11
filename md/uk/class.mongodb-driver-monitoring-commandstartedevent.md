@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Monitoring\CommandStartedEvent
 
-(mongodb \>u003d1.3.0)
+(mongodb \>=1.3.0)
 
 ## Вступ
 

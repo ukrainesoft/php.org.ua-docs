@@ -7,14 +7,14 @@
 
 # ZMQPoll::poll
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQPoll::poll — Опитувати всі елементи пулу
 
 ### Опис
 
 public **ZMQPoll::poll**(array `&$readable`, array `&$writable`, int
-$timeout u003d -1): int
+$timeout = -1): int
 
 Опитує всі елементи пулу. Читані та записувані елементи
 поміщаються в параметри `readable` та `writable` відповідно. Для
@@ -51,8 +51,8 @@ ZMQSockets/потоки PHP. Перед початком роботи масив
 
 Створимо простий сервер опитування
 
-`<?php/* Створюємо сокет, патерн request-reply (відповідальний сокет) */$context u003d new ZMQContext();$server u003d $context->getSocket(ZMQ::SOCKET_ | 127.0.0.1 */$server->bind("tcp://127.0.0.1:5555");/* Створюємо новий пул опитування для вхідних/вихідних повідомлень */$poll u003d new слухаємо на предмет опитування вхідних/вихідних */$id u003d $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);echo "Added object with id " . $id . "
-";/* Инициализируем массив читаемых и записываемых элементов */$readable u003d array();$writable u003d array();while (true) {   /* Количество извлечённых событий */   $events u003d 0;   try {       /* Опрашиваем, пока есть что делать */       $events u003d $poll->poll($readable, $writable, -1);       $errors u003d $poll->getLastErrors();       if (count($errors) > 0) {           foreach ($errors as $error) {                echo "Помилка опитування об'єкта " . $error . "
+`<?php/* Створюємо сокет, патерн request-reply (відповідальний сокет) */$context = new ZMQContext();$server = $context->getSocket(ZMQ::SOCKET_ | 127.0.0.1 */$server->bind("tcp://127.0.0.1:5555");/* Створюємо новий пул опитування для вхідних/вихідних повідомлень */$poll = new слухаємо на предмет опитування вхідних/вихідних */$id = $poll->add($server, ZMQ::POLL_IN | ZMQ::POLL_OUT);echo "Added object with id " . $id . "
+";/* Инициализируем массив читаемых и записываемых элементов */$readable = array();$writable = array();while (true) {   /* Количество извлечённых событий */   $events = 0;   try {       /* Опрашиваем, пока есть что делать */       $events = $poll->poll($readable, $writable, -1);       $errors = $poll->getLastErrors();       if (count($errors) > 0) {           foreach ($errors as $error) {                echo "Помилка опитування об'єкта " . $error . "
 ";            }       }]  } catch (ZMQPollException $e) {        echo "Опрос"не |
 ";   }   if ($events > 0) {       /* Перебираем читаемые объекты и получаем сообщения */       foreach ($readable as $r) {           try {               echo "Получено сообщение: " . $r->recv() . "
 ";            } catch (ZMQException $e) {               echo "Помилка отримання: " > . .

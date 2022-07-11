@@ -7,7 +7,7 @@
 
 #db2_field_precision
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_field_precision — Повертає точність зазначеного стовпця у наборі
 результатів

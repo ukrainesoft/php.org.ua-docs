@@ -8,7 +8,7 @@ Manager
 
 # MongoDB\Driver\Manager::getEncryptedFieldsMap
 
-(mongodb \>u003d1.14.0)
+(mongodb \>=1.14.0)
 
 MongoDB\Driver\Manager::getEncryptedFieldsMap — Повертає опцію
 автоматичного шифрування encryptedFieldsMap для Manager

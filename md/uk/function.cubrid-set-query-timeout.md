@@ -7,7 +7,7 @@
 
 #cubrid_set_query_timeout
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_set_query_timeout — Встановлює час очікування виконання
 запиту

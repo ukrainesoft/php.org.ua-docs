@@ -8,14 +8,14 @@
 
 # Swoole\Process::useQueue
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Process::useQueue — Створює чергу повідомлень як метод
 зв'язки між батьківським процесом та дочірніми процесами
 
 ### Опис
 
-public **Swoole\Process::useQueue**(int `$key`, int `$mode` u003d ?): bool
+public **Swoole\Process::useQueue**(int `$key`, int `$mode` = ?): bool
 
 ### Список параметрів
 

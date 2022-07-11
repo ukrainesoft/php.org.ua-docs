@@ -9,7 +9,7 @@
 
 # mysqli_stmt_error_list
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 mysqli_stmt::$error_list -- mysqli_stmt_error_list -- Повертає список
 помилок виконання останнього запиту
@@ -45,25 +45,25 @@ sqlstate.
 
 **Приклад #1 Об'єктно-орієнтований стиль**
 
-` <?php/* відкриваємо з'єднання */$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
-", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM  , Code FROM myCountry ORDER BY Name";if ($stmt u003d $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y $stmt->execute();   echo "Помилка:
+` <?php/* відкриваємо з'єднання */$mysqli = new mysqli("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno(  вдалося підключитися: %s
+", mysqli_connect_error());   exit();}$mysqli->query("CREATE TABLE myCountry LIKE Country");$mysqli->query("INSERT INTO myCountry SELECT * FROM  , Code FROM myCountry ORDER BY Name";if ($stmt = $mysqli->prepare($query)) {    /* удаляємо таблицю */     $mysqli-> y $stmt->execute();   echo "Помилка:
 ";   print_r($stmt->error_list);   /* закриваємо запрос */    $stmt->close();}/* закриваємо з'єднання*/$mysqli->close();?> ``
 
 **Приклад #2 Процедурний стиль**
 
-`<?php/* відкриваємо з'єднання */$link u003d mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
-mysqli_connect_error()u003d| FROM myCountry ORDER BY Name";if ($stmt u003d mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   echo "Помилка:
+`<?php/* відкриваємо з'єднання */$link = mysqli_connect("localhost", "my_user", "my_password", "world");/* перевіряємо з'єднання */if (mysqli_connect_errno())          підключитися: %s
+mysqli_connect_error()=| FROM myCountry ORDER BY Name";if ($stmt = mysqli_prepare($link, $query)) {    /* удаляем таблицу */    mysqli_query($link, "DROP TABLE myCountry");    /* выполняем запрос */    mysqli_stmt_execute($stmt );   echo "Помилка:
 ";   print_r(mysql_stmt_error_list($stmt));    /* закриваємо запрос */    mysqli_stmt_close($stmt);}/* закриваємо з'єднання**/my
 
 Результат виконання даних прикладів:
 
 Array
 (
-[0] u003d> Array
+[0] => Array
 (
-[errno] u003d> 1146
-[sqlstate] u003d> 42S02
-[error] u003d> Table 'world.myCountry' doesn't exist
+[errno] => 1146
+[sqlstate] => 42S02
+[error] => Table 'world.myCountry' doesn't exist
 )
 
 )

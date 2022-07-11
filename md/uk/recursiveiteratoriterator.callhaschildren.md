@@ -7,7 +7,7 @@
 
 # RecursiveIteratorIterator::callHasChildren
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveIteratorIterator::callHasChildren — Перевірка, чи є у
 елемент дочірніх елементів

@@ -49,7 +49,7 @@ mysql_field_len — Повертає довжину вказаного поля
 
 **Приклад #1 Приклад використання **mysql_field_len()****
 
-` <?php$result u003d mysql_query("SELECT id,email FROM people WHERE id u003d '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}// Отримає довжину поля id так, вказано в структурі бази даних$length u003d mysql_field_len($result, 0);echo $length;?> `
+` <?php$result = mysql_query("SELECT id,email FROM people WHERE id = '42'");if (!$result) {    echo 'Не удалося виконати запрос: . mysql_error(); exit;}// Отримає довжину поля id так, вказано в структурі бази даних$length = mysql_field_len($result, 0);echo $length;?> `
 
 ### Примітки
 

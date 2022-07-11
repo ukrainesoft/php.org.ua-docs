@@ -8,14 +8,14 @@
 
 #db2_conn_error
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_conn_error — Повертає рядок, який містить значення SQLSTATE,
 повернене останньою спробою підключення
 
 ### Опис
 
-**db2_conn_error**(resource `$connection` u003d ?): string
+**db2_conn_error**(resource `$connection` = ?): string
 
 Повертає значення SQLSTATE, що є причиною, з якої
 остання спроба підключення до бази даних завершилася невдачею.
@@ -55,7 +55,7 @@ SQLSTATE.
 навмисної передачі неприпустимих параметрів
 [db2_connect()](function.db2-connect.md).
 
-` <?php$conn u003d db2_connect('badname', 'baduser', 'badpassword');if (!$conn) {    print "SQLSTATE value: " . db2_conn_error();}?> `
+` <?php$conn = db2_connect('badname', 'baduser', 'badpassword');if (!$conn) {    print "SQLSTATE value: " . db2_conn_error();}?> `
 
 Результат виконання цього прикладу:
 

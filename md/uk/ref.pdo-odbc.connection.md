@@ -7,7 +7,7 @@
 
 # PDO_ODBC DSN
 
-(PECL PDO_ODBC \>u003d 0.1.0)
+(PECL PDO_ODBC \>= 0.1.0)
 
 PDO_ODBC DSN — З'єднання з базами даних ODBC або DB2
 
@@ -53,7 +53,7 @@ odbc:testdb
 базою даних IBM DB2 на ім'я **`SAMPLE`**, використовуючи повний рядок ODBC
 DSN:
 
-odbc:DRIVERu003d{IBM DB2 ODBC DRIVER};HOSTNAMEu003dlocalhost;PORTu003d50000;DATABASEu003dSAMPLE;PROTOCOLu003dTCPIP;UIDu003ddb2inst1;PWDu003dibmdb2;
+odbc:DRIVER={IBM DB2 ODBC DRIVER};HOSTNAME=localhost;PORT=50000;DATABASE=SAMPLE;PROTOCOL=TCPIP;UID=db2inst1;PWD=ibmdb2;
 
 **Приклад #3 Приклад використання PDO_ODBC DSN (некаталогізоване)
 з'єднання Microsoft Access)**
@@ -62,4 +62,4 @@ odbc:DRIVERu003d{IBM DB2 ODBC DRIVER};HOSTNAMEu003dlocalhost;PORTu003d50000;DATA
 базою Microsoft Access, що зберігається в **`C:\db.mdb`**, використовуючи повну
 рядок ODBC DSN:
 
-odbc:Driveru003d{Microsoft Access Driver (*.mdb)};Dbqu003dC:\db.mdb;Uidu003dAdmin
+odbc:Driver={Microsoft Access Driver (*.mdb)};Dbq=C:\db.mdb;Uid=Admin

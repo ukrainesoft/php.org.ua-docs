@@ -7,7 +7,7 @@
 
 # fann_get_train_error_function
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_train_error_function — Повертає функцію обробки помилок,
 використовується під час навчання

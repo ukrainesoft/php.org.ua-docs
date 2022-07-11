@@ -7,7 +7,7 @@
 
 # runkit7_method_redefine
 
-(PECL runkit7 \>u003d Unknown)
+(PECL runkit7 \>= Unknown)
 
 runkit7_method_redefine - Динамічно змінює код заданого методу
 
@@ -18,20 +18,20 @@ string `$class_name`,
 string `$method_name`,
 string `$argument_list`,
 string `$code`,
-int `$flags` u003d RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+int `$flags` = RUNKIT7_ACC_PUBLIC,
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 **runkit7_method_redefine**(
 string `$class_name`,
 string `$method_name`,
 [Closure](class.closure.md) `$closure`,
-int `$flags` u003d RUNKIT7_ACC_PUBLIC,
-string `$doc_comment` u003d **`null`**,
-string `$return_type` u003d ?,
-bool `$is_strict` u003d ?
+int `$flags` = RUNKIT7_ACC_PUBLIC,
+string `$doc_comment` = **`null`**,
+string `$return_type` = ?,
+bool `$is_strict` = ?
 ): bool
 
 ### Список параметрів
@@ -65,7 +65,7 @@ bool `$is_strict` u003d ?
 
 `is_strict`
 Визначає, чи буде метод поводитися так, начебто він був оголошений в
-файл з `strict_typesu003d1`.
+файл з `strict_types=1`.
 
 ### Значення, що повертаються
 
@@ -77,7 +77,7 @@ bool `$is_strict` u003d ?
 **Приклад #1 Приклад використання **runkit7_method_redefine()****
 
 ` <?phpclass Example {   function foo() {        return "foo!
-";    }}// створення об'єкту Example$e u003d new Example();// висновок Example::foo() (до перевизначення)echo "До: " . $e->foo()о/ '| 'runkit7_method_redefine(   'Example',   'foo',    '',   'return "bar!"
+";    }}// створення об'єкту Example$e = new Example();// висновок Example::foo() (до перевизначення)echo "До: " . $e->foo()о/ '| 'runkit7_method_redefine(   'Example',   'foo',    '',   'return "bar!"
 ";',    RUNKIT7_ACC_PUBLIC);// виведення Example::foo() (після перевизначення)echo "Після: " . $e->foo();?> `
 
 Результат виконання цього прикладу:

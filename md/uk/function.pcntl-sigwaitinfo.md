@@ -7,13 +7,13 @@
 
 #pcntl_sigwaitinfo
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 pcntl_sigwaitinfo — Очікування сигналів
 
 ### Опис
 
-**pcntl_sigwaitinfo**(array `$signals`, array `&$info` u003d []):
+**pcntl_sigwaitinfo**(array `$signals`, array `&$info` = []):
 int\|false
 
 Функція **pcntl_sigwaitinfo()** припиняє виконання викликаючого
@@ -68,7 +68,7 @@ int\|false
 `<?phpecho "Блокування сигналу SIGHUP
 ";pcntl_sigprocmask(SIG_BLOCK, array(SIGHUP));echo "Відправка сигналу SIGHUP самому собі
 ";posix_kill(posix_getpid(), SIGHUP);echo "Чекання сигналів
-";$info u003d array();pcntl_sigwaitinfo(array(SIGHUP), $info);?> `
+";$info = array();pcntl_sigwaitinfo(array(SIGHUP), $info);?> `
 
 ### Дивіться також
 

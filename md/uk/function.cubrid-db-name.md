@@ -7,7 +7,7 @@
 
 # cubrid_db_name
 
-(PECL CUBRID u003d 8.3.1)
+(PECL CUBRID = 8.3.1)
 
 cubrid_db_name — Отримання імені бази даних із результату
 cubrid_list_dbs
@@ -39,7 +39,7 @@ cubrid_list_dbs
 
 **Приклад #1 Приклад використання **cubrid_db_name()****
 
-` <?phperror_reporting(E_ALL);$connu003du003dcubrid_connect('localhost', 33000, 'demodb', 'dba', '');$db_list u003d cubrid_list_dbs($conn);$i u003d 0; $db_list);while($i < $cnt) {    echo cubrid_db_name($db_list, $i) . "
+` <?phperror_reporting(E_ALL);$conn==cubrid_connect('localhost', 33000, 'demodb', 'dba', '');$db_list = cubrid_list_dbs($conn);$i = 0; $db_list);while($i < $cnt) {    echo cubrid_db_name($db_list, $i) . "
 ";   $i++;}?> `
 
 Результат виконання цього прикладу:

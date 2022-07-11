@@ -15,7 +15,7 @@ uopz_del_function — Видалення раніше доданої функц�
 
 **uopz_del_function**(string `$function`): bool
 
-**uopz_del_function**(string `$class`, string `$function`, int `&$all` u003d
+**uopz_del_function**(string `$class`, string `$function`, int `&$all` =
 **`true`**): bool
 
 Видаляє раніше додану функцію або метод.

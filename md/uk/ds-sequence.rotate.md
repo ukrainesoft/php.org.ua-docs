@@ -7,7 +7,7 @@
 
 # Ds\Sequence::rotate
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::rotate — Перемотує послідовність на задане число
 значень
@@ -35,20 +35,20 @@ abstract public **Ds\Sequence::rotate**(int `$rotations`): void
 
 **Приклад #1 Приклад використання **Ds\Sequence::rotate()****
 
-` <?php$sequence u003d new \Ds\Vector(["a", "b", "c", "d"]);$sequence->rotate(1); // Аналогічно $a u003d $sequence->shift(); $sequence->push($a);print_r($sequence);$sequence->rotate(2);print_r($sequence);?> `
+` <?php$sequence = new \Ds\Vector(["a", "b", "c", "d"]);$sequence->rotate(1); // Аналогічно $a = $sequence->shift(); $sequence->push($a);print_r($sequence);$sequence->rotate(2);print_r($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> d
-[3] u003d> a
+[0] => b
+[1] => c
+[2] => d
+[3] => a
 )
 Ds\Vector Object
 (
-[0] u003d> d
-[1] u003d> a
-[2] u003d> b
-[3] u003d> c
+[0] => d
+[1] => a
+[2] => b
+[3] => c
 )

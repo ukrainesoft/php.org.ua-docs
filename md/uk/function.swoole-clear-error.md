@@ -7,7 +7,7 @@
 
 # swoole_clear_error
 
-(PECL swoole \>u003d 4.6.0)
+(PECL swoole \>= 4.6.0)
 
 swoole_clear_error — Скидає помилки в сокеті або за останнім кодом
 помилки

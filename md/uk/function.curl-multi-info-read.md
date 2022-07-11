@@ -14,7 +14,7 @@ curl_multi_info_read — Повертає інформацію про поточ
 ### Опис
 
 **curl_multi_info_read**([CurlMultiHandle](class.curlmultihandle.md)
-`$multi_handle`, int `&$queued_messages` u003d **`null`**): array\|false
+`$multi_handle`, int `&$queued_messages` = **`null`**): array\|false
 
 Опитує набір дескрипторів про наявність повідомлень чи інформації від
 індивідуальні передачі. Повідомлення можуть включати таку інформацію як
@@ -45,8 +45,8 @@ curl_multi_info_read — Повертає інформацію про поточ
 або **`false`** у разі виникнення помилки.
 
 | Ключ:  | Значення:                                                                            |
-| ------ | ------------------------------------------------------------------------------------ |
-| msg    | Константа **CURLMSG_DONE**. Інші значення, що повертаються, поки недоступні.         |                                                                                          
+|--------|--------------------------------------------------------------------------------------|
+| msg    | Константа **CURLMSG_DONE**. Інші значення, що повертаються, поки недоступні.         |
 | result | Одна із констант **CURLE_***. Якщо все добре, результат буде константа **CURLE_OK**. |
 | handle | Ресурс типу curl, що вказує на дескриптор, якого він належить.                       |
 
@@ -55,39 +55,39 @@ curl_multi_info_read — Повертає інформацію про поточ
 ### Список змін
 
 | Версія | Опис                                                                      |
-| ------ | ------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------|
 | 8.0.0  | multi_handle тепер чекає екземпляр; раніше, очікувався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **curl_multi_info_read()****
 
-` <?php$urls u003d array(  "http://www.cnn.com/",  "http://www.bbc.co.uk/",  "http://www.yahoo.com/") ;$mh u003d curl_multi_init();foreach ($urls as $i u003d> $url) {    $conn[$i] u003d curl_init($url); curl_setopt($conn[$i], CURLOPT_RETURNTRANSFER, 1); curl_multi_add_handle($mh, $conn[$i]);}do {    $status u003d curl_multi_exec($mh, $active); if ($active) {        curl_multi_select($mh); }   while (false !u003du003d ($info u003d curl_multi_info_read($mh))) {        var_dump($info); }} while ($active && $status u003du003du003dCURLM_OK);foreach ($urls as $i u003d> $url) {    $res[$i] u003d curl_multi_getcontent($conn[$ curl_close($conn[$i]);}var_dump(curl_multi_info_read($mh));?> `
+` <?php$urls = array(  "http://www.cnn.com/",  "http://www.bbc.co.uk/",  "http://www.yahoo.com/") ;$mh = curl_multi_init();foreach ($urls as $i => $url) {    $conn[$i] = curl_init($url); curl_setopt($conn[$i], CURLOPT_RETURNTRANSFER, 1); curl_multi_add_handle($mh, $conn[$i]);}do {    $status = curl_multi_exec($mh, $active); if ($active) {        curl_multi_select($mh); }   while (false !== ($info = curl_multi_info_read($mh))) {        var_dump($info); }} while ($active && $status ===CURLM_OK);foreach ($urls as $i => $url) {    $res[$i] = curl_multi_getcontent($conn[$ curl_close($conn[$i]);}var_dump(curl_multi_info_read($mh));?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(3) {
-["msg"]u003d>
+["msg"]=>
 int(1)
-["result"]u003d>
+["result"]=>
 int(0)
-["handle"]u003d>
+["handle"]=>
 resource(5) of type (curl)
 }
 array(3) {
-["msg"]u003d>
+["msg"]=>
 int(1)
-["result"]u003d>
+["result"]=>
 int(0)
-["handle"]u003d>
+["handle"]=>
 resource(7) of type (curl)
 }
 array(3) {
-["msg"]u003d>
+["msg"]=>
 int(1)
-["result"]u003d>
+["result"]=>
 int(0)
-["handle"]u003d>
+["handle"]=>
 resource(6) of type (curl)
 }
 bool(false)

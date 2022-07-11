@@ -7,7 +7,7 @@
 
 # GearmanClient::clone
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::clone — Створити копію об'єкта
 [GearmanClient](class.gearmanclient.md)

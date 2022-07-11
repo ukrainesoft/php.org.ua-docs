@@ -7,7 +7,7 @@
 
 #mailparse_msg_get_part
 
-(PECL mailparse \>u003d 0.9.0)
+(PECL mailparse \>= 0.9.0)
 
 mailparse_msg_get_part — Повертає покажчик на задану секцію в
 mime-повідомленні

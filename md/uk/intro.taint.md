@@ -17,7 +17,7 @@ $\_GET, $\_POST або $\_COOKIE) деяким функціям, буде вид
 
 **Приклад #1 Приклад використання [Taint()](function.taint.md)**
 
-` <?php$a u003d trim($_GET['a']);$file_name u003d '/tmp' . $a;$output    u003d "Welcome, {$a} !!!";$var       u003d "output";$sql       u003d "Select *  from " . $a;$sql      .u003d "ooxx";echo $output;print $$var;include($file_name);mysql_query($sql);?> `
+` <?php$a = trim($_GET['a']);$file_name = '/tmp' . $a;$output    = "Welcome, {$a} !!!";$var       = "output";$sql       = "Select *  from " . $a;$sql      .= "ooxx";echo $output;print $$var;include($file_name);mysql_query($sql);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

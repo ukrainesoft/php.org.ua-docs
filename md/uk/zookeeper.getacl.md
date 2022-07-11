@@ -7,7 +7,7 @@
 
 # Zookeeper::getAcl
 
-(PECL zookeeper \>u003d 0.1.0)
+(PECL zookeeper \>= 0.1.0)
 
 Zookeeper::getAcl — Синхронно отримує ACL, пов'язаний із вузлом
 
@@ -42,18 +42,18 @@ public **Zookeeper::getAcl**(string `$path`): array
 
 Отримання ACL вузла.
 
-`u003d?                                       ',  ));$path u003d '/path/to/newnode';$zookeeper->setAcl($path, $aclArray);$r u003d $zookeeper->getAcl($path);if ($r) var_dump $r);else  echo 'Помилка';?> `
+`=?                                       ',  ));$path = '/path/to/newnode';$zookeeper->setAcl($path, $aclArray);$r = $zookeeper->getAcl($path);if ($r) var_dump $r);else  echo 'Помилка';?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-[0]u003d>
+[0]=>
 array(3) {
-["perms"]u003d>
+["perms"]=>
 int(31)
-["scheme"]u003d>
+["scheme"]=>
 string(5) "world"
-["id"]u003d>
+["id"]=>
 string(6) "anyone"
 }
 }

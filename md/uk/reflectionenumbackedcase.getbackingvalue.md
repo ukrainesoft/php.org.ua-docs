@@ -7,7 +7,7 @@
 
 # ReflectionEnumBackedCase::getBackingValue
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnumBackedCase::getBackingValue — Отримує скалярне значення
 варіанти перерахування
@@ -30,7 +30,7 @@ public **ReflectionEnumBackedCase::getBackingValue**(): int\|string
 
 **Приклад #1 Приклад використання **ReflectionEnum::getBackingValue()****
 
-`<?phpenum Suit: string{   case Hearts u003d 'H'; case Diamonds u003d 'D'; case Clubs u003d 'C'; case Spades u003d 'S';}$rEnum u003d new ReflectionEnum(Suit::class);$rCase u003d $rEnum->getCase('Spades');var_dump($rCase->getBackingValue());?> `
+`<?phpenum Suit: string{   case Hearts = 'H'; case Diamonds = 'D'; case Clubs = 'C'; case Spades = 'S';}$rEnum = new ReflectionEnum(Suit::class);$rCase = $rEnum->getCase('Spades');var_dump($rCase->getBackingValue());?> `
 
 Результат виконання цього прикладу:
 

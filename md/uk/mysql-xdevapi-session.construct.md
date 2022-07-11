@@ -26,4 +26,4 @@ private **mysql_xdevapi\Session::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::\_\_construct()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->close();?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->close();?> `

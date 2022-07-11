@@ -7,7 +7,7 @@
 
 # fann_get_cascade_max_out_epochs
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_get_cascade_max_out_epochs — Повертає максимальну кількість
 періодів

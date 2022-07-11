@@ -38,4 +38,4 @@ public **Imagick::modulateImage**(float `$brightness`, float
 
 **Приклад #1 Приклад використання **Imagick::modulateImage()****
 
-`<?phpfunction modulateImage($imagePath, $hue, $brightness, $saturation) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->modulateImage($brightness, $saturation, $hue); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction modulateImage($imagePath, $hue, $brightness, $saturation) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->modulateImage($brightness, $saturation, $hue); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -8,7 +8,7 @@
 
 # IntlCalendar::setMinimalDaysInFirstWeek
 
-(PHP 5 \>u003d 5.5.1, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.1, PHP 7, PHP 8)
 
 IntlCalendar::setMinimalDaysInFirstWeek — Встановлює мінімальне
 кількість днів, яка може бути в першому тижні на рік або місяць

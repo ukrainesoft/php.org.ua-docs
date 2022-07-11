@@ -7,7 +7,7 @@
 
 #pcntl_errno
 
-(PHP 5 \>u003d 5.3.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.4, PHP 7, PHP 8)
 
 pcntl_errno - Псевдонім
 [pcntl_get_last_error()](function.pcntl-get-last-error.md)

@@ -7,7 +7,7 @@
 
 # Swoole\Table::set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Table::set — Оновлює рядок таблиці за $row_key
 

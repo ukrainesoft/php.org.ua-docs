@@ -38,7 +38,7 @@ chgrp — Змінює групу файлів
 
 **Приклад #1 Зміна групи файлу**
 
-` <?php$filename u003d 'shared_file.txt';$format u003d "Ідентифікатор групи файлу %s @ %s: %d
+` <?php$filename = 'shared_file.txt';$format = "Ідентифікатор групи файлу %s @ %s: %d
 ";printf($format, $filename, date('r'), filegroup($filename));chgrp($filename, 8);clearstatcache(); // скидаємо кеш filegroup()printf($format, $filename) , date('r'), filegroup($filename));?> `
 
 ### Примітки

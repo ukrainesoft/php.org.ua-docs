@@ -7,7 +7,7 @@
 
 # EvFork::createStopped
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvFork::createStopped — Створити об'єкт класу EvFork, але не стартувати
 його
@@ -15,7 +15,7 @@ EvFork::createStopped — Створити об'єкт класу EvFork, але
 ### Опис
 
 final public static **EvFork::createStopped**( string `$callback` ,
-string `$data` u003d ?, string `$priority` u003d ?): object
+string `$data` = ?, string `$priority` = ?): object
 
 Те саме, що і [EvFork::\_\_construct()](evfork.construct.md) , але
 не здійснює автоматичного старту спостерігача.

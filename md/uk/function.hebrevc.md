@@ -20,7 +20,7 @@ PHP 8.0.0 Використовувати цю функцію не рекомен
 
 ### Опис
 
-**hebrevc**(string `$hebrew_text`, int `$max_chars_per_line` u003d 0):
+**hebrevc**(string `$hebrew_text`, int `$max_chars_per_line` = 0):
 string
 
 Ця функція схожа на [hebrev()](function.hebrev.md) з тією відмінністю,

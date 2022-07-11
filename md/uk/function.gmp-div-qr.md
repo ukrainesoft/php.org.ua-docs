@@ -7,14 +7,14 @@
 
 #gmp_div_qr
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gmp_div_qr — Поділ чисел та отримання приватного та залишку
 
 ### Опис
 
 **gmp_div_qr**([GMP](class.gmp.md)\|int\|string `$num1`,
-[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` u003d
+[GMP](class.gmp.md)\|int\|string `$num2`, int `$rounding_mode` =
 **`GMP_ROUND_ZERO`**): array
 
 Функція ділить `num1` на `num2`.
@@ -46,7 +46,7 @@ gmp_div_qr — Поділ чисел та отримання приватног�
 
 **Приклад #1 Поділ GMP чисел**
 
-`<?php    $a u003d gmp_init("0x41682179fbf5"); $res u003d gmp_div_qr($a, "0xDEFE75"); printf("Результат: q - %s, r - %s",     gmp_strval($res[0]), gmp_strval($res[1])); ?> `
+`<?php    $a = gmp_init("0x41682179fbf5"); $res = gmp_div_qr($a, "0xDEFE75"); printf("Результат: q - %s, r - %s",     gmp_strval($res[0]), gmp_strval($res[1])); ?> `
 
 ### Дивіться також
 

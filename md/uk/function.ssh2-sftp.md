@@ -7,7 +7,7 @@
 
 # ssh2_sftp
 
-(PECL ssh2 \>u003d 0.9.0)
+(PECL ssh2 \>= 0.9.0)
 
 ssh2_sftp — Ініціалізувати підсистему SFTP
 
@@ -33,7 +33,7 @@ ssh2_sftp — Ініціалізувати підсистему SFTP
 
 **Приклад #1 Відкриття файлу через SFTP**
 
-` <?php$connection u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp u003d ssh2_sftp($connection);$stream u003d fopen('fopen(' .sftp://' . intval($sftp) . '/path/to/file', 'r');?> `
+` <?php$connection = ssh2_connect('shell.example.com', 22);ssh2_auth_password($connection, 'username', 'password');$sftp = ssh2_sftp($connection);$stream = fopen('fopen(' .sftp://' . intval($sftp) . '/path/to/file', 'r');?> `
 
 ### Дивіться також
 

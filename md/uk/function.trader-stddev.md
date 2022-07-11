@@ -7,13 +7,13 @@
 
 #trader_stddev
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_stddev — Стандартне відхилення
 
 ### Опис
 
-**trader_stddev**(array `$real`, int `$timePeriod` u003d ?, float `$nbDev` u003d
+**trader_stddev**(array `$real`, int `$timePeriod` = ?, float `$nbDev` =
 ?): array
 
 ### Список параметрів

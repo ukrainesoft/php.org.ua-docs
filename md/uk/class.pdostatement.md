@@ -7,7 +7,7 @@
 
 # Клас PDOStatement
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 1.0.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 1.0.0)
 
 ## Вступ
 
@@ -29,25 +29,25 @@ public [bindColumn](pdostatement.bindcolumn.md)(
 string\|int `$column`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&$var`,
-int `$type` u003d PDO::PARAM_STR,
-int `$maxLength` u003d 0,
+int `$type` = PDO::PARAM_STR,
+int `$maxLength` = 0,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$driverOptions` u003d **`null`**
+`$driverOptions` = **`null`**
 ): bool
 
 public [bindParam](pdostatement.bindparam.md)(
 string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&$var`,
-int `$type` u003d PDO::PARAM_STR,
-int `$maxLength` u003d 0,
+int `$type` = PDO::PARAM_STR,
+int `$maxLength` = 0,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$driverOptions` u003d **`null`**
+`$driverOptions` = **`null`**
 ): bool
 
 public [bindValue](pdostatement.bindvalue.md)(string\|int `$param`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$type` u003d PDO::PARAM_STR): bool
+`$value`, int `$type` = PDO::PARAM_STR): bool
 
 public [closeCursor](pdostatement.closecursor.md)(): bool
 
@@ -59,32 +59,32 @@ public [errorCode](pdostatement.errorcode.md)(): ?string
 
 public [errorInfo](pdostatement.errorinfo.md)(): array
 
-public [execute](pdostatement.execute.md)(?array `$params` u003d
+public [execute](pdostatement.execute.md)(?array `$params` =
 **`null`**): bool
 
-public [fetch](pdostatement.fetch.md)(int `$mode` u003d
-PDO::FETCH_DEFAULT, int `$cursorOrientation` u003d PDO::FETCH_ORI_NEXT, int
-`$cursorOffset` u003d 0):
+public [fetch](pdostatement.fetch.md)(int `$mode` =
+PDO::FETCH_DEFAULT, int `$cursorOrientation` = PDO::FETCH_ORI_NEXT, int
+`$cursorOffset` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [fetchAll](pdostatement.fetchall.md)(int `$mode` u003d
+public [fetchAll](pdostatement.fetchall.md)(int `$mode` =
 PDO::FETCH_DEFAULT): array
 
-public [fetchAll](pdostatement.fetchall.md)(int `$mode` u003d
+public [fetchAll](pdostatement.fetchall.md)(int `$mode` =
 PDO::FETCH_COLUMN, int `$column`): array
 
-public [fetchAll](pdostatement.fetchall.md)(int `$mode` u003d
+public [fetchAll](pdostatement.fetchall.md)(int `$mode` =
 PDO::FETCH_CLASS, string `$class`, ?array `$constructorArgs`): array
 
-public [fetchAll](pdostatement.fetchall.md)(int `$mode` u003d
+public [fetchAll](pdostatement.fetchall.md)(int `$mode` =
 PDO::FETCH_FUNC, [callable](language.types.callable.md) `$callback`):
 array
 
-public [fetchColumn](pdostatement.fetchcolumn.md)(int `$column` u003d 0):
+public [fetchColumn](pdostatement.fetchcolumn.md)(int `$column` = 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-public [fetchObject](pdostatement.fetchobject.md)(?string `$class` u003d
-"stdClass", array `$constructorArgs` u003d []): object\|false
+public [fetchObject](pdostatement.fetchobject.md)(?string `$class` =
+"stdClass", array `$constructorArgs` = []): object\|false
  public [getAttribute](pdostatement.getattribute.md)(int `$name`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -104,14 +104,14 @@ public [setAttribute](pdostatement.setattribute.md)(int `$attribute`,
 
 public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode`): bool
 
-public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` u003d
+public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` =
 PDO::FETCH_COLUMN, int `$colno`): bool
 
-public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` u003d
-PDO::FETCH_CLASS, string `$class`, ?array `$constructorArgs` u003d
+public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` =
+PDO::FETCH_CLASS, string `$class`, ?array `$constructorArgs` =
 **`null`**): bool
 
-public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` u003d
+public [setFetchMode](pdostatement.setfetchmode.md)(int `$mode` =
 PDO::FETCH_INTO, object `$object`): bool
 
 }
@@ -124,7 +124,7 @@ PDO::FETCH_INTO, object `$object`): bool
 ## Список змін
 
 | Версія | Опис                                                                                                                                   |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | **PDOStatement** тепер реалізує інтерфейс [IteratorAggregate](class.iteratoraggregate.md) замість [Traversable](class.traversable.md). |
 
 ## Зміст

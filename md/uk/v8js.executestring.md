@@ -7,14 +7,14 @@
 
 # V8Js::executeString
 
-(PECL v8js \>u003d 0.1.0)
+(PECL v8js \>= 0.1.0)
 
 V8Js::executeString — Виконати рядок як код Javascript
 
 ### Опис
 
-public **V8Js::executeString**(string `$script`, string `$identifier` u003d
-"V8Js::executeString()", int `$flags` u003d **`V8Js::FLAG_NONE`**):
+public **V8Js::executeString**(string `$script`, string `$identifier` =
+"V8Js::executeString()", int `$flags` = **`V8Js::FLAG_NONE`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Компілює та виконує рядок, переданий у параметр `script`, як код

@@ -98,7 +98,7 @@ array\|int\|float\|bool `...$args`): bool
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 | 7.4.0  | Додано підтримку розсіювання (**IMG_FILTER_SCATTER**).                                       |
 
@@ -107,23 +107,23 @@ array\|int\|float\|bool `...$args`): bool
 **Приклад #1 Приклад використання **imagefilter()** з фільтром
 grayscale**
 
-` <?php$im u003d imagecreatefrompng('dave.png');if($im && imagefilter($im, IMG_FILTER_GRAYSCALE)){   echo 'Зображення перетворено к градаціям сірого.'; imagepng($im, 'dave.png');}else{    echo 'Перетворення не удалося.';}imagedestroy($im);?> `
+` <?php$im = imagecreatefrompng('dave.png');if($im && imagefilter($im, IMG_FILTER_GRAYSCALE)){   echo 'Зображення перетворено к градаціям сірого.'; imagepng($im, 'dave.png');}else{    echo 'Перетворення не удалося.';}imagedestroy($im);?> `
 
 **Приклад #2 Приклад використання **imagefilter()** з фільтром яскравості**
 
-` <?php$im u003d imagecreatefrompng('sean.png');if($im && imagefilter($im, IMG_FILTER_BRIGHTNESS, 20)){   echo 'Яскравість зображення змінена.'; imagepng($im, 'sean.png'); imagedestroy($im);}else{   echo 'Змінити яскравість не удалося.';}?> `
+` <?php$im = imagecreatefrompng('sean.png');if($im && imagefilter($im, IMG_FILTER_BRIGHTNESS, 20)){   echo 'Яскравість зображення змінена.'; imagepng($im, 'sean.png'); imagedestroy($im);}else{   echo 'Змінити яскравість не удалося.';}?> `
 
 **Приклад #3 Приклад використання **imagefilter()** з фільтром colorize**
 
-` <?php$im u003d imagecreatefrompng('philip.png');/* R, G, B, so 0, 255, 0 is green */if($im && imagefilter($im, IMG_FILTER_COLORI 0)){    echo 'Зображення перетворено до відтінків зеленого.'; imagepng($im, 'philip.png'); imagedestroy($im);}else{   echo 'Перетворення не вдалося.';}?> `
+` <?php$im = imagecreatefrompng('philip.png');/* R, G, B, so 0, 255, 0 is green */if($im && imagefilter($im, IMG_FILTER_COLORI 0)){    echo 'Зображення перетворено до відтінків зеленого.'; imagepng($im, 'philip.png'); imagedestroy($im);}else{   echo 'Перетворення не вдалося.';}?> `
 
 **Приклад #4 Приклад використання **imagefilter()** з фільтром negate**
 
-`<?php// Визначимо нашу функцію, можна використовувати в PHP// без imagefilter()function negate($im){   if(function_exists('imagefilter'))    }    for($x u003d 0; $x < imagesx($im); ++$x)    {        for($y u003d 0; $y < imagesy($im); ++$y)        {            $index u003d imagecolorat( $im, $x, $y); $rgbu003du003dimagecolorsforindex($index); $color u003d imagecolorallocate($im, 255 - $rgb['red'], 255 - $rgb['green'], 255 - $rgb['blue']); imagesetpixel($im, $x, $y, $color); }    }   return(true);}$im u003d imagecreatefromjpeg('kalle.jpg');if($im && negate($im)){    echo 'Зображення інвертовано успішно.'; imagejpeg($im, 'kalle.jpg', 100); imagedestroy($im);}else{   echo 'Інвертувати зображення не удалося.';}?> `
+`<?php// Визначимо нашу функцію, можна використовувати в PHP// без imagefilter()function negate($im){   if(function_exists('imagefilter'))    }    for($x = 0; $x < imagesx($im); ++$x)    {        for($y = 0; $y < imagesy($im); ++$y)        {            $index = imagecolorat( $im, $x, $y); $rgb==imagecolorsforindex($index); $color = imagecolorallocate($im, 255 - $rgb['red'], 255 - $rgb['green'], 255 - $rgb['blue']); imagesetpixel($im, $x, $y, $color); }    }   return(true);}$im = imagecreatefromjpeg('kalle.jpg');if($im && negate($im)){    echo 'Зображення інвертовано успішно.'; imagejpeg($im, 'kalle.jpg', 100); imagedestroy($im);}else{   echo 'Інвертувати зображення не удалося.';}?> `
 
 **Приклад #5 Приклад використання **imagefilter()** з фільтром pixelate**
 
-` <?php// завантаження PHP логотипу, нам потрібно 2 штуки// для порівняння$logo1 u003d imagecreatefrompng('./php.png');$logo2 u003d imagecreatefrompng('./phppng $outputu003du003dimagecreatetruecolor(imagesx($logo1) * 2, imagesy($logo1));// Застосування пікселування до кожному зображенню з розміром блоку <3IMEX| , true);// Суміщення відмінностей у вихідному зображенніimagecopy($output, $logo1, 0, 0, 0, 0, imagesx($logo1) - 1, imagesy($logo1) $ , imagesx($logo2), 0, 0, 0, imagesx($logo2) - 1, imagesy($logo2) - 1);imagedestroy($logo1);imagedestroy($logo2);// Висновок розбіжностей Type: image/png');imagepng($output);imagedestroy($output);?> `
+` <?php// завантаження PHP логотипу, нам потрібно 2 штуки// для порівняння$logo1 = imagecreatefrompng('./php.png');$logo2 = imagecreatefrompng('./phppng $output==imagecreatetruecolor(imagesx($logo1) * 2, imagesy($logo1));// Застосування пікселування до кожному зображенню з розміром блоку <3IMEX| , true);// Суміщення відмінностей у вихідному зображенніimagecopy($output, $logo1, 0, 0, 0, 0, imagesx($logo1) - 1, imagesy($logo1) $ , imagesx($logo2), 0, 0, 0, imagesx($logo2) - 1, imagesy($logo2) - 1);imagedestroy($logo1);imagedestroy($logo2);// Висновок розбіжностей Type: image/png');imagepng($output);imagedestroy($output);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -132,7 +132,7 @@ pixelate](images/21009b70229598c6a80eef8b45bf282b-imagefilterpixelate.png)
 
 **Приклад #6 Приклад використання **imagefilter()** з фільтром scatter**
 
-`<?php// Завантаження зображення$logo u003d imagecreatefrompng('./php.png');// Застосування дуже м'якого ефекту розсіювання к зображеннюimagefilter($logo, IMG_FILTER_SCATі   'Content-Type: image/png');imagepng($logo);imagedestroy($logo);?> `
+`<?php// Завантаження зображення$logo = imagecreatefrompng('./php.png');// Застосування дуже м'якого ефекту розсіювання к зображеннюimagefilter($logo, IMG_FILTER_SCATі   'Content-Type: image/png');imagepng($logo);imagedestroy($logo);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

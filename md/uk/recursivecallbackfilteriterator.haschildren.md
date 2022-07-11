@@ -8,7 +8,7 @@
 
 # RecursiveCallbackFilterIterator::hasChildren
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 RecursiveCallbackFilterIterator::hasChildren — Перевіряє, чи міститься
 поточний елемент внутрішнього ітератора дочірні елементи
@@ -34,7 +34,7 @@ public **RecursiveCallbackFilterIterator::hasChildren**(): bool
 **Приклад #1 Приклад використання
 **RecursiveCallbackFilterIterator::hasChildren()****
 
-`<?php$dir u003d new RecursiveDirectoryIterator(__DIR__);// Рекурсивний обхід XML файлів$files u003d new RecursiveCallbackFilterIterator($dir, function ($current, $                      | hasChildren()) {        return TRUE;    }    // отбор XML файлов    if (!strcasecmp($current->getExtension(), 'xml')) {        return TRUE;    }    return FALSE;});?> `
+`<?php$dir = new RecursiveDirectoryIterator(__DIR__);// Рекурсивний обхід XML файлів$files = new RecursiveCallbackFilterIterator($dir, function ($current, $                      | hasChildren()) {        return TRUE;    }    // отбор XML файлов    if (!strcasecmp($current->getExtension(), 'xml')) {        return TRUE;    }    return FALSE;});?> `
 
 ### Дивіться також
 

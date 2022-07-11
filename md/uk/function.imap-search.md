@@ -16,8 +16,8 @@ imap_search — Отримати повідомлення, які відпові
 **imap_search**(
 [IMAP\Connection](class.imap-connection.md) `$imap`,
 string `$criteria`,
-int `$flags` u003d **`SE_FREE`**,
-string `$charset` u003d ""
+int `$flags` = **`SE_FREE`**,
+string `$charset` = ""
 ): array\|false
 
 Ця функція здійснює пошук у поточній поштовій скриньці відкритій у потоці
@@ -88,40 +88,40 @@ UID.
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_search()****
 
-` <?php$imap   u003d imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);$some  u003d imap_search(' SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);$msgnos u003d imap_search($imap, 'ALL');$uids   u003d imap_search($imap| ;print_r($msgnos);print_r($uids);?> `
+` <?php$imap   = imap_open('{imap.example.com:993/imap/ssl}INBOX', 'foo@example.com', 'pass123', OP_READONLY);$some  = imap_search(' SUBJECT "HOWTO be Awesome" SINCE "8 August 2008"', SE_UID);$msgnos = imap_search($imap, 'ALL');$uids   = imap_search($imap| ;print_r($msgnos);print_r($uids);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[0] u003d> 4
-[1] u003d> 6
-[2] u003d> 11
+[0] => 4
+[1] => 6
+[2] => 11
 )
 Array
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
-[3] u003d> 4
-[4] u003d> 5
-[5] u003d> 6
+[0] => 1
+[1] => 2
+[2] => 3
+[3] => 4
+[4] => 5
+[5] => 6
 )
 Array
 (
-[0] u003d> 1
-[1] u003d> 4
-[2] u003d> 6
-[3] u003d> 8
-[4] u003d> 11
-[5] u003d> 12
+[0] => 1
+[1] => 4
+[2] => 6
+[3] => 8
+[4] => 11
+[5] => 12
 )
 
 ### Дивіться також

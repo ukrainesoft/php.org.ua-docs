@@ -7,7 +7,7 @@
 
 # ZMQContext::isPersistent
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQContext::isPersistent — Чи є контекст незмінним
 

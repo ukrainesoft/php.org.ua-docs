@@ -7,7 +7,7 @@
 
 # RegexIterator::getPregFlags
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 RegexIterator::getPregFlags — Повертає прапори регулярного виразу
 
@@ -31,7 +31,7 @@ public **RegexIterator::getPregFlags**(): int
 
 **Приклад #1 Приклад використання **RegexIterator::getPregFlags()****
 
-` <?php$test u003d array ('str1' u003d> 'test 1', 'teststr2' u003d> 'another test', 'str3' u003d> 'test 123');$arrayIterator u003d new Ar $regexIterator u003d new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {    echo 'Не принимать на увагу порожні ділянки';} else {   echo ''Розглядати пусті ділянки';}?> `
+` <?php$test = array ('str1' => 'test 1', 'teststr2' => 'another test', 'str3' => 'test 123');$arrayIterator = new Ar $regexIterator = new RegexIterator($arrayIterator, '/\s/', RegexIterator::SPLIT);$regexIterator->setPregFlags(PREG_SPLIT_NO_EMPTY | PREG_SPLIT_OFFSET_CAPTURE);if ($regexIterator->getPregFlags() & PREG_SPLIT_NO_EMPTY) {    echo 'Не принимать на увагу порожні ділянки';} else {   echo ''Розглядати пусті ділянки';}?> `
 
 Результат виконання цього прикладу:
 

@@ -28,7 +28,7 @@ const int `Vertical`;
 /\* Конструктор \*/
 
 public [\_\_construct](ui-controls-separator.construct.md)(int `$type`
-u003d UI\Controls\Separator::Horizontal)
+= UI\Controls\Separator::Horizontal)
 
 /\* Наслідувані методи \*/
 

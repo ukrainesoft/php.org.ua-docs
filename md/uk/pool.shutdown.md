@@ -7,7 +7,7 @@
 
 # Pool::shutdown
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Pool::shutdown - Вимикає всі воркери
 
@@ -30,4 +30,4 @@ public **Pool::shutdown**(): void
 
 **Приклад #1 Вимкнення пулу**
 
-` <?phpclass Task? }}$poolu003du003dnew Pool(4);for ($i u003d 0; $i < 10; ++$i) {   $$pool->submit(new Task());}$pool->shutdown(); // поки все відправлені завдання не завершать виконання
+` <?phpclass Task? }}$pool==new Pool(4);for ($i = 0; $i < 10; ++$i) {   $$pool->submit(new Task());}$pool->shutdown(); // поки все відправлені завдання не завершать виконання

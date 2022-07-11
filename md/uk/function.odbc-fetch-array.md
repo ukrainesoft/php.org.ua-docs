@@ -7,14 +7,14 @@
 
 #odbc_fetch_array
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 odbc_fetch_array — Повертає рядок результату у вигляді асоціативного
 масиву
 
 ### Опис
 
-**odbc_fetch_array**(resource `$statement`, int `$row` u003d -1):
+**odbc_fetch_array**(resource `$statement`, int `$row` = -1):
 array\|false
 
 Повертає асоціативний масив (array) із запиту ODBC.

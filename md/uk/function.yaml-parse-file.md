@@ -7,7 +7,7 @@
 
 # yaml_parse_file
 
-(PECL yaml \>u003d 0.4.0)
+(PECL yaml \>= 0.4.0)
 
 yaml_parse_file — Розбирає потоки YAML з файлу
 
@@ -15,9 +15,9 @@ yaml_parse_file — Розбирає потоки YAML з файлу
 
 **yaml_parse_file**(
 string `$filename`,
-int `$pos` u003d 0,
-int `&$ndocs` u003d ?,
-array `$callbacks` u003d **`null`**
+int `$pos` = 0,
+int `&$ndocs` = ?,
+array `$callbacks` = **`null`**
 ):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 

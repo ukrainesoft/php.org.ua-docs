@@ -18,7 +18,7 @@ wddx_serialize_value — Серіалізує одне значення всер
 ### Опис
 
 **wddx_serialize_value**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$var`, string `$comment` u003d ?): string
+`$var`, string `$comment` = ?): string
 
 Створює пакет WDDX з заданого значення.
 

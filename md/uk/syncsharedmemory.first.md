@@ -8,7 +8,7 @@
 
 # SyncSharedMemory::first
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 SyncSharedMemory::first — Перевіряє, чи є об'єкт першим
 загальносистемним екземпляром іменованої пам'яті, що розділяється
@@ -33,7 +33,7 @@ public **SyncSharedMemory::first**(): bool
 
 **Приклад #1 Приклад використання **SyncSharedMemory::first()****
 
-` <?php$mem u003d new SyncSharedMemory("AppReportName", 1024);if ($mem->first()){    // Do first time initialization work here.}var_dump($m mem2 u003d new SyncSharedMemory("AppReportName", 1024);var_dump($mem2->first());?> `
+` <?php$mem = new SyncSharedMemory("AppReportName", 1024);if ($mem->first()){    // Do first time initialization work here.}var_dump($m mem2 = new SyncSharedMemory("AppReportName", 1024);var_dump($mem2->first());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

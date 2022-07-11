@@ -9,7 +9,7 @@
 
 #numfmt_set_symbol
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 NumberFormatter::setSymbol -- numfmt_set_symbol — Встановлює значення
 символу
@@ -51,7 +51,7 @@ API не підтримується для форматування на осн�
 
 **Приклад #1 Приклад використання **numfmt_set_symbol()****
 
-` <?php$fmt u003d numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Розділювач: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPAR
+` <?php$fmt = numfmt_create( 'de_DE', NumberFormatter::DECIMAL );echo "Розділювач: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_SEPAR
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
 ";numfmt_set_symbol($fmt, NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");echo "Розділювач: ".numfmt_get_symbol($fmt, NumberFormatter::GROUPING_MB
 ";echo numfmt_format($fmt, 1234567.891234567890000)."
@@ -59,7 +59,7 @@ API не підтримується для форматування на осн�
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Розділювач: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL
+` <?php$fmt = new NumberFormatter( 'de_DE', NumberFormatter::DECIMAL );echo "Розділювач: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL
 ";echo $fmt->format(1234567.891234567890000)."
 ";$fmt->setSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL, "*");echo "Розділювач: ".$fmt->getSymbol(NumberFormatter::GROUPING_SEPARATOR_SYMBOL)."
 ";echo $fmt->format(1234567.891234567890000)."

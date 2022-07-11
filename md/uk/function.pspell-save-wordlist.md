@@ -7,7 +7,7 @@
 
 #pspell_save_wordlist
 
-(PHP 4 \>u003d 4.0.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.2, PHP 5, PHP 7, PHP 8)
 
 pspell_save_wordlist — Зберігає персональний список слів у файлі
 
@@ -35,7 +35,7 @@ pspell_save_wordlist — Зберігає персональний список 
 ### Список змін
 
 | Версія | Опис                                                                                                                                                              |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр dictionary тепер очікує на екземпляр [PSpell\Dictionary](class.pspell-dictionary.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
@@ -43,7 +43,7 @@ pspell_save_wordlist — Зберігає персональний список 
 **Приклад #1 Приклад використання
 [pspell_add_to_personal()](function.pspell-add-to-personal.md)**
 
-` <?php$pspell_config u003d pspell_config_create("en");pspell_config_personal($pspell_config, "/tmp/dicts/newdict");$pspell u003d pspell_new_config($pspell_config);pspell_add_$ $pspell);?> `
+` <?php$pspell_config = pspell_config_create("en");pspell_config_personal($pspell_config, "/tmp/dicts/newdict");$pspell = pspell_new_config($pspell_config);pspell_add_$ $pspell);?> `
 
 ### Примітки
 

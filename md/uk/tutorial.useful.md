@@ -49,7 +49,7 @@ Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 **Приклад #2 Приклад використання [керівників структур](language.control-structures.md) та
 [функцій](language.functions.md)**
 
-` <?phpif (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !u003du003d FALSE) {    echo 'Ви  використовуєте Internet Explorer.<br />';}?> `
+` <?phpif (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {    echo 'Ви  використовуєте Internet Explorer.<br />';}?> `
 
 Приклад виведення цієї програми:
 
@@ -87,7 +87,7 @@ Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
 
 **Приклад #3 Змішання режимів HTML та PHP**
 
-` <?phpif (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !u003du003d FALSE) {?><h3>strpos(), мусить бути, вернув неfalse</h3><p>Ви використовуєте Explorer</p><?php} else {?><h3>strpos() вернув false</h3><p>Ви не  використовуєте Internet Explorer</p><?php}?> `
+` <?phpif (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== FALSE) {?><h3>strpos(), мусить бути, вернув неfalse</h3><p>Ви використовуєте Explorer</p><?php} else {?><h3>strpos() вернув false</h3><p>Ви не  використовуєте Internet Explorer</p><?php}?> `
 
 Приклад виведення цієї програми:
 

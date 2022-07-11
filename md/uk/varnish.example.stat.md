@@ -12,4 +12,4 @@
 
 **Приклад #1 Отримати фотографію статистики**
 
-` <?php$vs u003d new VarnishStat;try {   $data u003d $vs->getSnapshot();} catch (VarnishException $e) {    echo $e->es; exit(3);}exit(0);?> `
+` <?php$vs = new VarnishStat;try {   $data = $vs->getSnapshot();} catch (VarnishException $e) {    echo $e->es; exit(3);}exit(0);?> `

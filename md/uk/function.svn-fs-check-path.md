@@ -7,7 +7,7 @@
 
 # svn_fs_check_path
 
-(PECL svn \>u003d 0.1.0)
+(PECL svn \>= 0.1.0)
 
 svn_fs_check_path - Визначає, яка сутність знаходиться в дорозі
 репозиторія fsroot

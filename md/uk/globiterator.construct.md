@@ -7,14 +7,14 @@
 
 # GlobIterator::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 GlobIterator::\_\_construct - Створює ітератор директорії, використовуючи
 glob-вираз
 
 ### Опис
 
-public **GlobIterator::\_\_construct**(string `$pattern`, int `$flags` u003d
+public **GlobIterator::\_\_construct**(string `$pattern`, int `$flags` =
 FilesystemIterator::KEY_AS_PATHNAME \|
 FilesystemIterator::CURRENT_AS_FILEINFO)
 
@@ -41,7 +41,7 @@ FilesystemIterator::CURRENT_AS_FILEINFO)
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр directory містить порожній рядок. Раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
 
 ### Приклади
@@ -49,7 +49,7 @@ FilesystemIterator::CURRENT_AS_FILEINFO)
 **Приклад #1 Приклад використання
 [GlobIterator](class.globiterator.md)**
 
-` <?php$iterator u003d new GlobIterator('*.dll', FilesystemIterator::KEY_AS_FILENAME);if (!$iterator->count()) {    echo 'Немає збігів';} else | printf("Знайдено елементів: %d
+` <?php$iterator = new GlobIterator('*.dll', FilesystemIterator::KEY_AS_FILENAME);if (!$iterator->count()) {    echo 'Немає збігів';} else | printf("Знайдено елементів: %d
 ", $iterator->count());   foreach ($iterator as $item) {        printf("[%d] %s
 ", ++$n, $iterator->key());    }}?> `
 

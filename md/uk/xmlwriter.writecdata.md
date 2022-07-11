@@ -9,7 +9,7 @@
 
 #xmlwriter_write_cdata
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::writeCdata -- xmlwriter_write_cdata — Записати повний тег
 CDATA
@@ -46,14 +46,14 @@ string `$content`): bool
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Базове використання **xmlwriter_write_cdata()****
 
-` <?php// налаштувати документ$xml u003d new XmlWriter();$xml->openMemory();$xml->setIndent(true);$xml->startDocument('1.0', 'UTF-8'); $xml->startElement('mydoc');$xml->startElement('myele');// виведення CData$xml->startElement('mycdataelement');$xml->writeCData("текст для включення як CData" );$xml->endElement();// завершити документ і вивести$xml->endElement();$xml->endElement();echo $xml->outputMemory(true);?> `
+` <?php// налаштувати документ$xml = new XmlWriter();$xml->openMemory();$xml->setIndent(true);$xml->startDocument('1.0', 'UTF-8'); $xml->startElement('mydoc');$xml->startElement('myele');// виведення CData$xml->startElement('mycdataelement');$xml->writeCData("текст для включення як CData" );$xml->endElement();// завершити документ і вивести$xml->endElement();$xml->endElement();echo $xml->outputMemory(true);?> `
 
 Результат виконання цього прикладу:
 

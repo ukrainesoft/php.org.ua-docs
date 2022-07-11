@@ -7,7 +7,7 @@
 
 # The NumberFormatter class
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 ## Вступ
 
@@ -48,17 +48,17 @@ class **NumberFormatter** {
 /\* Методи \*/
 
 public [\_\_construct](numberformatter.create.md)(string `$locale`,
-int `$style`, ?string `$pattern` u003d **`null`**)
+int `$style`, ?string `$pattern` = **`null`**)
 
 public static [create](numberformatter.create.md)(string `$locale`,
-int `$style`, ?string `$pattern` u003d **`null`**):
+int `$style`, ?string `$pattern` = **`null`**):
 ?[NumberFormatter](class.numberformatter.md)
 
 public [formatCurrency](numberformatter.formatcurrency.md)(float
 `$amount`, string `$currency`): string\|false
 
 public [format](numberformatter.format.md)(int\|float `$num`, int
-`$type` u003d NumberFormatter::TYPE_DEFAULT): string\|false
+`$type` = NumberFormatter::TYPE_DEFAULT): string\|false
 
 public [getAttribute](numberformatter.getattribute.md)(int
 `$attribute`): int\|float\|false
@@ -67,7 +67,7 @@ public [getErrorCode](numberformatter.geterrorcode.md)(): int
 
 public [getErrorMessage](numberformatter.geterrormessage.md)(): string
 
-public [getLocale](numberformatter.getlocale.md)(int `$type` u003d
+public [getLocale](numberformatter.getlocale.md)(int `$type` =
 **`ULOC_ACTUAL_LOCALE`**): string\|false
 
 public [getPattern](numberformatter.getpattern.md)(): string\|false
@@ -79,11 +79,11 @@ public [getTextAttribute](numberformatter.gettextattribute.md)(int
 `$attribute`): string\|false
 
 public [parseCurrency](numberformatter.parsecurrency.md)(string
-`$string`, string `&$currency`, int `&$offset` u003d **`null`**):
+`$string`, string `&$currency`, int `&$offset` = **`null`**):
 float\|false
 
 public [parse](numberformatter.parse.md)(string `$string`, int `$type`
-u003d NumberFormatter::TYPE_DOUBLE, int `&$offset` u003d **`null`**):
+= NumberFormatter::TYPE_DOUBLE, int `&$offset` = **`null`**):
 int\|float\|false
 
 public [setAttribute](numberformatter.setattribute.md)(int

@@ -9,7 +9,7 @@
 
 #datefmt_get_timezone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL intl u003d 3.0.0)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL intl = 3.0.0)
 
 IntlDateFormatter::getTimeZone -- datefmt_get_timezone — Отримує
 часовий пояс засобу форматування
@@ -48,7 +48,7 @@ public **IntlDateFormatter::getTimeZone**():
 
 **Приклад #1 Приклад використання **IntlDateFormatter::getTimeZone()****
 
-` <?php$madrid u003d IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');$lisbon u003d IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon'); ->getTimezone());echo$madrid->getTimezone()->getDisplayName(        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "
+` <?php$madrid = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Madrid');$lisbon = IntlDateFormatter::create(NULL, NULL, NULL, 'Europe/Lisbon'); ->getTimezone());echo$madrid->getTimezone()->getDisplayName(        false, IntlTimeZone::DISPLAY_GENERIC_LOCATION, "en_US"), "
 ";echo $lisbon->getTimeZone()->getId(), "
 ";//Ідентифікатор також можна отримати з допомогою ->getTimezoneId()echo $lisbon->getTimeZoneId(), "
 ";
@@ -56,13 +56,13 @@ public **IntlDateFormatter::getTimeZone**():
 Результат виконання цього прикладу:
 
 object(IntlTimeZone)#4 (4) {
-["valid"]u003d>
+["valid"]=>
 bool(true)
-["id"]u003d>
+["id"]=>
 string(13) "Europe/Madrid"
-["rawOffset"]u003d>
+["rawOffset"]=>
 int(3600000)
-["currentOffset"]u003d>
+["currentOffset"]=>
 int(7200000)
 }
 Spain Time

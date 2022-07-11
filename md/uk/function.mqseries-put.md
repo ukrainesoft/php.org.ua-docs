@@ -7,7 +7,7 @@
 
 # mqseries_put
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_put — MQSeries MQPUT
 
@@ -62,7 +62,7 @@ resource `&$reason`
 
 **Приклад #1 Приклад використання **mqseries_put()****
 
-` <?php// Открываем соединение с MQ    mqseries_conn('WMQ1', $conn, $comp_code, $reason);// Теперь $conn содержит ссылку на соединение// Открываем соединение с очередью testq    mqseries_open(                $conn,                array(' ObjectName' u003d> 'TESTQ'),                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason);// Теперь $obj содержит ссылку на объект (TESTQ)// Настраиваем массив дескриптора сообщения. Читайте Керівництво MQSeries. $md u003d array(                'Version' u003d> MQSERIES_MQMD_VERSION_1,                'Expiry' u003d> MQSERIES_MQEI_UNLIMITED,                'Report' u003d> MQSERIES_MQRO_NONE,                'MsgType' u003d> MQSERIES_MQMT_DATAGRAM,                'Format' u003d> MQSERIES_MQFMT_STRING,                'Priority' u003d> 1,                'Persistence' u003d> MQSERIES_MQPER_PERSISTENT);// Настроюємо опції додавання повідомлення. $pmo u003d array('Options' u003d> MQSERIES_MQPMO_NEW_MSG_ID|MQSERIES_MQPMO_SYNCPOINT);// кладемо повідомлення 'Ping' в чергу. mqseries_put($conn, $obj, $md, $pmo, 'Ping', $comp_code, $reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("put CompCode:%d Reason:%d Text:%s<br>
+` <?php// Открываем соединение с MQ    mqseries_conn('WMQ1', $conn, $comp_code, $reason);// Теперь $conn содержит ссылку на соединение// Открываем соединение с очередью testq    mqseries_open(                $conn,                array(' ObjectName' => 'TESTQ'),                MQSERIES_MQOO_INPUT_AS_Q_DEF | MQSERIES_MQOO_FAIL_IF_QUIESCING | MQSERIES_MQOO_OUTPUT,                $obj,                $comp_code,                $reason);// Теперь $obj содержит ссылку на объект (TESTQ)// Настраиваем массив дескриптора сообщения. Читайте Керівництво MQSeries. $md = array(                'Version' => MQSERIES_MQMD_VERSION_1,                'Expiry' => MQSERIES_MQEI_UNLIMITED,                'Report' => MQSERIES_MQRO_NONE,                'MsgType' => MQSERIES_MQMT_DATAGRAM,                'Format' => MQSERIES_MQFMT_STRING,                'Priority' => 1,                'Persistence' => MQSERIES_MQPER_PERSISTENT);// Настроюємо опції додавання повідомлення. $pmo = array('Options' => MQSERIES_MQPMO_NEW_MSG_ID|MQSERIES_MQPMO_SYNCPOINT);// кладемо повідомлення 'Ping' в чергу. mqseries_put($conn, $obj, $md, $pmo, 'Ping', $comp_code, $reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("put CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));    }// Закрываем обработчик объекта $obj    mqseries_close($conn, $obj, MQSERIES_MQCO_NONE, $comp_code, $reason);// Закрываем соединение с менеджером.    mqseries_disc($ conn, $comp_code, $reason);?> `
 
 ### Дивіться також

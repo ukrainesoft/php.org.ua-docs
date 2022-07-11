@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Session::commitTransaction
 
-(mongodb \>u003d1.5.0)
+(mongodb \>=1.5.0)
 
 MongoDB\Driver\Session::commitTransaction - Фіксує транзакцію
 

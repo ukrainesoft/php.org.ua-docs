@@ -7,7 +7,7 @@
 
 # ReflectionEnumUnitCase::\_\_construct
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionEnumUnitCase::\_\_construct — Створює екземпляр об'єкта
 [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)

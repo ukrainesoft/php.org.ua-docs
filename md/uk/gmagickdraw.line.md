@@ -7,7 +7,7 @@
 
 # GmagickDraw::line
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::line — Малює лінію
 

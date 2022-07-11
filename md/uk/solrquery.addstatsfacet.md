@@ -8,7 +8,7 @@
 
 # SolrQuery::addStatsFacet
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::addStatsFacet — Запитує повернення допоміжних
 результатів для значень у цьому фасеті

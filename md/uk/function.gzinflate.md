@@ -7,13 +7,13 @@
 
 # gzinflate
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 gzinflate — Розпакувати стислий рядок
 
 ### Опис
 
-**gzinflate**(string `$data`, int `$max_length` u003d 0): string\|false
+**gzinflate**(string `$data`, int `$max_length` = 0): string\|false
 
 Розпаковує стислий рядок.
 
@@ -37,7 +37,7 @@ gzinflate — Розпакувати стислий рядок
 
 **Приклад #1 Приклад використання **gzinflate()****
 
-` <?php$compressed   u003d gzdeflate('Сожми мені', 9);$uncompressedu003du003dgzinflate($compressed);echo $uncompressed;?> `
+` <?php$compressed   = gzdeflate('Сожми мені', 9);$uncompressed==gzinflate($compressed);echo $uncompressed;?> `
 
 ### Дивіться також
 

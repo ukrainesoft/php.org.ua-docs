@@ -37,7 +37,7 @@ class **Ds\Map** implements **Ds\Collection**,
 
 /\* Константи \*/
 
-const int `MIN_CAPACITY` u003d 16;
+const int `MIN_CAPACITY` = 16;
 
 /\* Методи \*/
 
@@ -58,7 +58,7 @@ public [diff](ds-map.diff.md)([Ds\Map](class.ds-map.md) `$map`):
 
 public
 [filter](ds-map.filter.md)([callable](language.types.callable.md)
-`$callback` u003d ?): [Ds\Map](class.ds-map.md)
+`$callback` = ?): [Ds\Map](class.ds-map.md)
 
 public [first](ds-map.first.md)(): [Ds\Pair](class.ds-pair.md)
 
@@ -66,7 +66,7 @@ public
 [get](ds-map.get.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default` u003d ?):
+`$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
@@ -86,11 +86,11 @@ public [keys](ds-map.keys.md)(): [Ds\Set](class.ds-set.md)
 
 public
 [ksort](ds-map.ksort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 public
 [ksorted](ds-map.ksorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Map](class.ds-map.md)
+`$comparator` = ?): [Ds\Map](class.ds-map.md)
 
 public [last](ds-map.last.md)(): [Ds\Pair](class.ds-pair.md)
 
@@ -118,14 +118,14 @@ public
 [reduce](ds-map.reduce.md)([callable](language.types.callable.md)
 `$callback`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$initial` u003d ?):
+`$initial` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public
 [remove](ds-map.remove.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$default` u003d ?):
+`$default` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [reverse](ds-map.reverse.md)(): void
@@ -135,15 +135,15 @@ public [reversed](ds-map.reversed.md)(): [Ds\Map](class.ds-map.md)
 public [skip](ds-map.skip.md)(int `$position`):
 [Ds\Pair](class.ds-pair.md)
 
-public [slice](ds-map.slice.md)(int `$index`, int `$length` u003d ?):
+public [slice](ds-map.slice.md)(int `$index`, int `$length` = ?):
 [Ds\Map](class.ds-map.md)
 
 public [sort](ds-map.sort.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): void
+`$comparator` = ?): void
 
 public
 [sorted](ds-map.sorted.md)([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Map](class.ds-map.md)
+`$comparator` = ?): [Ds\Map](class.ds-map.md)
 
 public [sum](ds-map.sum.md)(): int\|float
 
@@ -167,7 +167,7 @@ public [xor](ds-map.xor.md)([Ds\Map](class.ds-map.md) `$map`):
 ## Список змін
 
 | Версія        | Опис                                                   |
-| ------------- | ------------------------------------------------------ |
+|---------------|--------------------------------------------------------|
 | PECL DS 1.3.0 | Тепер клас продає [ArrayAccess](class.arrayaccess.md). |
 
 ## Зміст

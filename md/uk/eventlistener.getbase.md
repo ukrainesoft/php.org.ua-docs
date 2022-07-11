@@ -7,7 +7,7 @@
 
 # EventListener::getBase
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventListener::getBase — Повертає базу подій, пов'язану з
 слухачем подій

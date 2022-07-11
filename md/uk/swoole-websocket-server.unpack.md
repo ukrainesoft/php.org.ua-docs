@@ -7,7 +7,7 @@
 
 # Swoole\WebSocket\Server::unpack
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\WebSocket\Server::unpack — Розпакувати двійкові дані,
 отримані від клієнта

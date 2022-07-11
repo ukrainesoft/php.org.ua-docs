@@ -7,7 +7,7 @@
 
 # Клас RecursiveTreeIterator
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -22,40 +22,40 @@ class **RecursiveTreeIterator** extends
 
 /\* Успадковані константи \*/
 
-const int `RecursiveIteratorIterator::LEAVES_ONLY` u003d 0;
+const int `RecursiveIteratorIterator::LEAVES_ONLY` = 0;
 
-const int `RecursiveIteratorIterator::SELF_FIRST` u003d 1;
+const int `RecursiveIteratorIterator::SELF_FIRST` = 1;
 
-const int `RecursiveIteratorIterator::CHILD_FIRST` u003d 2;
+const int `RecursiveIteratorIterator::CHILD_FIRST` = 2;
 
-const int `RecursiveIteratorIterator::CATCH_GET_CHILD` u003d 16;
+const int `RecursiveIteratorIterator::CATCH_GET_CHILD` = 16;
 
 /\* Константи \*/
 
-const int `BYPASS_CURRENT` u003d 4;
+const int `BYPASS_CURRENT` = 4;
 
-const int `BYPASS_KEY` u003d 8;
+const int `BYPASS_KEY` = 8;
 
-const int `PREFIX_LEFT` u003d 0;
+const int `PREFIX_LEFT` = 0;
 
-const int `PREFIX_MID_HAS_NEXT` u003d 1;
+const int `PREFIX_MID_HAS_NEXT` = 1;
 
-const int `PREFIX_MID_LAST` u003d 2;
+const int `PREFIX_MID_LAST` = 2;
 
-const int `PREFIX_END_HAS_NEXT` u003d 3;
+const int `PREFIX_END_HAS_NEXT` = 3;
 
-const int `PREFIX_END_LAST` u003d 4;
+const int `PREFIX_END_LAST` = 4;
 
-const int `PREFIX_RIGHT` u003d 5;
+const int `PREFIX_RIGHT` = 5;
 
 /\* Методи \*/
 
 public [\_\_construct](recursivetreeiterator.construct.md)(
 [RecursiveIterator](class.recursiveiterator.md)\|[IteratorAggregate](class.iteratoraggregate.md)
 `$iterator`,
-int `$flags` u003d RecursiveTreeIterator::BYPASS_KEY,
-int `$cachingIteratorFlags` u003d CachingIterator::CATCH_GET_CHILD,
-int `$mode` u003d RecursiveTreeIterator::SELF_FIRST
+int `$flags` = RecursiveTreeIterator::BYPASS_KEY,
+int `$cachingIteratorFlags` = CachingIterator::CATCH_GET_CHILD,
+int `$mode` = RecursiveTreeIterator::SELF_FIRST
 )
 
 public [beginChildren](recursivetreeiterator.beginchildren.md)(): void
@@ -143,7 +143,7 @@ int\|false
 
 public
 [RecursiveIteratorIterator::getSubIterator](recursiveiteratoriterator.getsubiterator.md)(?int
-`$level` u003d **`null`**):
+`$level` = **`null`**):
 ?[RecursiveIterator](class.recursiveiterator.md)
 
 public
@@ -164,7 +164,7 @@ void
 
 public
 [RecursiveIteratorIterator::setMaxDepth](recursiveiteratoriterator.setmaxdepth.md)(int
-`$maxDepth` u003d -1): void
+`$maxDepth` = -1): void
 
 public
 [RecursiveIteratorIterator::valid](recursiveiteratoriterator.valid.md)():

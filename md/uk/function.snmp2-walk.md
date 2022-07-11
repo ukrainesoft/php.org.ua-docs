@@ -7,7 +7,7 @@
 
 # snmp2_walk
 
-(PHP \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP \>= 5.2.0, PHP 7, PHP 8)
 
 snmp2_walk — Отримує всі об'єкти SNMP із агента
 
@@ -17,8 +17,8 @@ snmp2_walk — Отримує всі об'єкти SNMP із агента
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ): array\|false
 
 Функція **snmp2_walk()** використовується для читання всіх значень агента
@@ -54,7 +54,7 @@ SNMP та всі об'єкти цього дерева повертаються 
 
 **Приклад #1 Приклад використання **snmp2_walk()****
 
-` <?php$a u003d snmp2_walk("127.0.0.1", "public", "");foreach ($a as $val) {   echo "$val
+` <?php$a = snmp2_walk("127.0.0.1", "public", "");foreach ($a as $val) {   echo "$val
 ";}?> `
 
 Виклик функції поверне всі об'єкти SNMP із агента SNMP, що працює на

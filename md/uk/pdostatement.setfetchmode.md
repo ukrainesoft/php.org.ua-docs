@@ -7,7 +7,7 @@
 
 # PDOStatement::setFetchMode
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.0)
 
 PDOStatement::setFetchMode — Встановлює режим вибірки за промовчанням
 для об'єкта запиту
@@ -16,13 +16,13 @@ PDOStatement::setFetchMode — Встановлює режим вибірки з
 
 public **PDOStatement::setFetchMode**(int `$mode`): bool
 
-public **PDOStatement::setFetchMode**(int `$mode` u003d PDO::FETCH_COLUMN,
+public **PDOStatement::setFetchMode**(int `$mode` = PDO::FETCH_COLUMN,
 int `$colno`): bool
 
-public **PDOStatement::setFetchMode**(int `$mode` u003d PDO::FETCH_CLASS,
-string `$class`, ?array `$constructorArgs` u003d **`null`**): bool
+public **PDOStatement::setFetchMode**(int `$mode` = PDO::FETCH_CLASS,
+string `$class`, ?array `$constructorArgs` = **`null`**): bool
 
-public **PDOStatement::setFetchMode**(int `$mode` u003d PDO::FETCH_INTO,
+public **PDOStatement::setFetchMode**(int `$mode` = PDO::FETCH_INTO,
 object `$object`): bool
 
 ### Список параметрів
@@ -54,7 +54,7 @@ object `$object`): bool
 У цьому прикладі показано, як метод **PDOStatement::setFetchMode()**
 змінює режим вибірки за замовчуванням для об'єкта PDOStatement.
 
-` <?php$stmt u003d $dbh->query('SELECT name, colour, calories FROM fruit');$stmt->setFetchMode(PDO::FETCH_NUM);foreach ($stmt as $row)   0] . " " . $row[1] . " " . $row[2] . "
+` <?php$stmt = $dbh->query('SELECT name, colour, calories FROM fruit');$stmt->setFetchMode(PDO::FETCH_NUM);foreach ($stmt as $row)   0] . " " . $row[1] . " " . $row[2] . "
 ";} `
 
 Результат виконання цього прикладу:

@@ -30,7 +30,7 @@ public **ReflectionGenerator::getThis**(): ?object
 
 **Приклад #1 Приклад використання **ReflectionGenerator::getThis()****
 
-` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen u003d (new GenExample)->gen();$reflectionGen u003d new ReflectionGenerator($gen);var_dump($reflectionGen->getThis()); `
+` <?phpclass GenExample{    public function gen()    {       yield 1; }}$gen = (new GenExample)->gen();$reflectionGen = new ReflectionGenerator($gen);var_dump($reflectionGen->getThis()); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

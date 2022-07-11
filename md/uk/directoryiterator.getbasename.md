@@ -8,14 +8,14 @@ DirectoryIterator
 
 # DirectoryIterator::getBasename
 
-(PHP 5 \>u003d 5.2.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.2, PHP 7, PHP 8)
 
 DirectoryIterator::getBasename — Повертає ім'я файлу (без розширення)
 поточний елемент DirectoryIterator
 
 ### Опис
 
-public **DirectoryIterator::getBasename**(string `$suffix` u003d ""): string
+public **DirectoryIterator::getBasename**(string `$suffix` = ""): string
 
 Повертає ім'я файлу (без розширення) поточного елемента
 [DirectoryIterator](class.directoryiterator.md).
@@ -38,7 +38,7 @@ public **DirectoryIterator::getBasename**(string `$suffix` u003d ""): string
 скрипт. Якщо ім'я файлу закінчується на `.jpg`, цей суфікс буде
 відкинуто.
 
-` <?php$dir u003d new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if ($fileinfo->isFile()) {         echo "
+` <?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if ($fileinfo->isFile()) {         echo "
 ";        echo $fileinfo->getBasename('.jpg') . "
 ";    }}?> `
 

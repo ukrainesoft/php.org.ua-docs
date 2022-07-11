@@ -7,7 +7,7 @@
 
 # EventBuffer::readFrom
 
-(PECL event \>u003d 1.7.0)
+(PECL event \>= 1.7.0)
 
 EventBuffer::readFrom — Читає дані з файлу до кінця буфера
 

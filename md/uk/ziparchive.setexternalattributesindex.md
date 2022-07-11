@@ -7,7 +7,7 @@
 
 # ZipArchive::setExternalAttributesIndex
 
-(PHP 5 \>u003d 5.6.0, PHP 7, PHP 8, PECL zip \>u003d 1.12.4)
+(PHP 5 \>= 5.6.0, PHP 7, PHP 8, PECL zip \>= 1.12.4)
 
 ZipArchive::setExternalAttributesIndex — Встановити зовнішні атрибути
 записи за її індексом
@@ -18,7 +18,7 @@ public **ZipArchive::setExternalAttributesIndex**(
 int `$index`,
 int `$opsys`,
 int `$attr`,
-int `$flags` u003d 0
+int `$flags` = 0
 ): bool
 
 Встановлює зовнішні атрибути запису, заданого його індексом.

@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::executeReadWriteCommand
 
-(mongodb \>u003d1.4.0)
+(mongodb \>=1.4.0)
 
 MongoDB\Driver\Manager::executeReadWriteCommand — Виконує команду бази
 даних, яка читає та пише
@@ -16,7 +16,7 @@ MongoDB\Driver\Manager::executeReadWriteCommand — Виконує команд�
 
 final public **MongoDB\Driver\Manager::executeReadWriteCommand**(string
 `$db`, [MongoDB\Driver\Command](class.mongodb-driver-command.md)
-`$command`, array `$options` u003d array()):
+`$command`, array `$options` = array()):
 [MongoDB\Driver\Cursor](class.mongodb-driver-cursor.md)
 
 Виконує команду на головному сервері.
@@ -78,7 +78,7 @@ final public **MongoDB\Driver\Manager::executeReadWriteCommand**(string
 ### Список змін
 
 | Версія             | Опис                                                                                                                                                                                                       |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.4.4 | [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md) буде викинуто, якщо опція session' використовується в поєднанні з непідтвердженим записом. |
 
 ### Дивіться також

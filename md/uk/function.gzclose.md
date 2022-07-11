@@ -32,7 +32,7 @@ gzclose — Закрити покажчик відкритого gz-файлу
 
 **Приклад #1 Приклад використання **gzclose()****
 
-` <?php$gz u003d gzopen('somefile.gz','w9');gzputs ($gz, 'Додано в файл somefile.gz');gzclose($gz);?> `
+` <?php$gz = gzopen('somefile.gz','w9');gzputs ($gz, 'Додано в файл somefile.gz');gzclose($gz);?> `
 
 ### Дивіться також
 

@@ -52,15 +52,15 @@ isset - Визначає, чи була встановлена змінна зн
 
 **Приклад #1 Приклад використання **isset()****
 
-` <?php$var u003d '';// Перевірка верне TRUE, тому текст буде надрукований.if (isset($var)) {    echo "Ця змінна визначена, нами| | використовуємо var_dump для висновку// значення, повертаного isset().$a u003d "test";$b u003d "anothertest";var_dump(isset($a)); // TRUEvar_dump(isset($a, $b)); // TRUEunset ($a);var_dump(isset($a)); //FALSEvar_dump(isset($a, $b)); // FALSE$foo u003d NULL;var_dump(isset($foo)); // FALSE?> `
+` <?php$var = '';// Перевірка верне TRUE, тому текст буде надрукований.if (isset($var)) {    echo "Ця змінна визначена, нами| | використовуємо var_dump для висновку// значення, повертаного isset().$a = "test";$b = "anothertest";var_dump(isset($a)); // TRUEvar_dump(isset($a, $b)); // TRUEunset ($a);var_dump(isset($a)); //FALSEvar_dump(isset($a, $b)); // FALSE$foo = NULL;var_dump(isset($foo)); // FALSE?> `
 
 Функція також працює з елементами масивів:
 
-` <?php$a u003d array ('test' u003d> 1, 'hello' u003d> NULL, 'pie' u003d> array('a' u003d> 'apple'));var_dump(isset($a['test '])); //TRUEvar_dump(isset($a['foo'])); //FALSEvar_dump(isset($a['hello'])); // FALSE// Элемент з ключом 'hello' рівний NULL, тому він вважається невизначеним// Якщо ви хотіте перевірити існування ключів з_exist // TRUE// Перевірка вкладених елементів масиваvar_dump(isset($a['pie']['a'])); // TRUEvar_dump(isset($a['pie']['b'])); // FALSEvar_dump(isset($a['cake']['a']['b'])); // FALSE?> `
+` <?php$a = array ('test' => 1, 'hello' => NULL, 'pie' => array('a' => 'apple'));var_dump(isset($a['test '])); //TRUEvar_dump(isset($a['foo'])); //FALSEvar_dump(isset($a['hello'])); // FALSE// Элемент з ключом 'hello' рівний NULL, тому він вважається невизначеним// Якщо ви хотіте перевірити існування ключів з_exist // TRUE// Перевірка вкладених елементів масиваvar_dump(isset($a['pie']['a'])); // TRUEvar_dump(isset($a['pie']['b'])); // FALSEvar_dump(isset($a['cake']['a']['b'])); // FALSE?> `
 
 **Приклад #2 **isset()** та рядкові індекси**
 
-` <?php$expected_array_got_string u003d 'somestring';var_dump(isset($expected_array_got_string['some_key']));var_dump(isset($expected_array_got_string[0]));var_dump(isset($expected_array) ;var_dump(isset($expected_array_got_string[0.5]));var_dump(isset($expected_array_got_string['0.5']));var_dump(isset($expected_array_got_string['0 Mostel'])));?> `
+` <?php$expected_array_got_string = 'somestring';var_dump(isset($expected_array_got_string['some_key']));var_dump(isset($expected_array_got_string[0]));var_dump(isset($expected_array) ;var_dump(isset($expected_array_got_string[0.5]));var_dump(isset($expected_array_got_string['0.5']));var_dump(isset($expected_array_got_string['0 Mostel'])));?> `
 
 Результат виконання цього прикладу:
 

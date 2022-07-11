@@ -7,7 +7,7 @@
 
 # mcrypt_generic_deinit
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>u003d 1.0.0)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7 \< 7.2.0, PECL mcrypt \>= 1.0.0)
 
 mcrypt_generic_deinit — Ця функція деініціалізує модуль шифрування
 

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON romJSON
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\BSON romJSON — Повертає уявлення BSON значення JSON
 
@@ -38,14 +38,14 @@ MongoDB\BSON romJSON — Повертає уявлення BSON значення
 
 **Приклад #1 Приклад використання **MongoDB\BSON romJSON()****
 
-` <?php$json u003d '{ "_id": { "$oid": "563143b280d2387c91807965" } }';$bson u003d MongoDB\BSON romJSON($json);$ue var_dump($value);?> `
+` <?php$json = '{ "_id": { "$oid": "563143b280d2387c91807965" } }';$bson = MongoDB\BSON romJSON($json);$ue var_dump($value);?> `
 
 Результат виконання цього прикладу:
 
 object(stdClass)#2 (1) {
-["_id"]u003d>
+["_id"]=>
 object(MongoDB\BSON\ObjectId)#1 (1) {
-["oid"]u003d>
+["oid"]=>
 string(24) "563143b280d2387c91807965"
 }
 }

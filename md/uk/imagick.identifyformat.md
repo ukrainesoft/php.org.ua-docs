@@ -7,7 +7,7 @@
 
 # Imagick::identifyFormat
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::identifyFormat — Опис
 
@@ -34,4 +34,4 @@ http://www.imagemagick.org/script/escape.php, щоб дізнатися про
 
 **Приклад #1 Приклад використання **Imagick::identifyFormat()****
 
-` <?php        $output u003d "Виведення 'Поле обрізки: %@ кількість унікальних квітів: %k': <br/>"; $imagick u003d new \Imagick(realpath("./images/artifact/mask.png")); $output .u003d $imagick->identifyFormat("Поле обрізки: %@ кількість унікальних квітів: %k");?> `
+` <?php        $output = "Виведення 'Поле обрізки: %@ кількість унікальних квітів: %k': <br/>"; $imagick = new \Imagick(realpath("./images/artifact/mask.png")); $output .= $imagick->identifyFormat("Поле обрізки: %@ кількість унікальних квітів: %k");?> `

@@ -7,7 +7,7 @@
 
 #mb_preferred_mime_name
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 mb_preferred_mime_name — Отримання набору символів MIME
 
@@ -32,4 +32,4 @@ MIME-набір символів `charset` у вигляді рядка (string)
 
 **Приклад #1 Приклад використання **mb_preferred_mime_name()****
 
-` <?php$outputenc u003d "sjis-win";mb_http_output($outputenc);ob_start("mb_output_handler");header("Content-Type: text/html; charsetu003d" . mb_preferred_mime_name($outputenc));?> `
+` <?php$outputenc = "sjis-win";mb_http_output($outputenc);ob_start("mb_output_handler");header("Content-Type: text/html; charset=" . mb_preferred_mime_name($outputenc));?> `

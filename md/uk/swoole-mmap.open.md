@@ -8,15 +8,15 @@
 
 # Swoole\Mmap::open
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Mmap::open — Відобразити файл у пам'ять та повернути ресурс потоку,
 який може використовуватись операціями потоку PHP
 
 ### Опис
 
-public static **Swoole\Mmap::open**(string `$filename`, string `$size` u003d
-?, string `$offset` u003d ?): ReturnType
+public static **Swoole\Mmap::open**(string `$filename`, string `$size` =
+?, string `$offset` = ?): ReturnType
 
 ### Список параметрів
 

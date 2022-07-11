@@ -7,14 +7,14 @@
 
 # cubrid_lob2_seek64
 
-(PECL CUBRID u003d 8.4.1)
+(PECL CUBRID = 8.4.1)
 
 cubrid_lob2_seek64 - Переміщує курсор LOB-об'єкта
 
 ### Опис
 
 **cubrid_lob2_seek64**(resource `$lob_identifier`, string `$offset`, int
-`$origin` u003d CUBRID_CURSOR_CURRENT): bool
+`$origin` = CUBRID_CURSOR_CURRENT): bool
 
 Функція **cubrid_lob2_seek64()** використовується для переміщення позиції
 курсора LOB-об'єкта на значення, задане в параметрі `offset`,
@@ -68,7 +68,7 @@ CUBRID_CURSOR_LAST: рухатись назад з кінця LOB-об'єкта.
 
 **Приклад #1 Приклад використання: **cubrid_lob2_seek64()****
 
-`<?php// test_lob (id INT, contents CLOB)// Довжина даних doc_1.txt повинна бути більше 20101029056306120215. ($conn,"DROP TABLE if exists test_lob");cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req u003d cubrid_prepare($conn, "); cubrid_bind ($ req, 1, 1); '); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);$req u003d cubrid_execute($conn, "select * from t$ CUBRID_LOB);$lobu003du003d$row[1];cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);$data u003d cubrid_lob2_read($2)
+`<?php// test_lob (id INT, contents CLOB)// Довжина даних doc_1.txt повинна бути більше 20101029056306120215. ($conn,"DROP TABLE if exists test_lob");cubrid_execute($conn,"CREATE TABLE test_lob (id INT, contents CLOB)");$req = cubrid_prepare($conn, "); cubrid_bind ($ req, 1, 1); '); // або cubrid_lob2_bind($req, 2, $lob);cubrid_execute($req);cubrid_lob2_close($lob);$req = cubrid_execute($conn, "select * from t$ CUBRID_LOB);$lob==$row[1];cubrid_lob2_seek64($lob, "20101029056306120215", CUBRID_CURSOR_FIRST);$data = cubrid_lob2_read($2)
 ";cubrid_disconnect($conn);?> `
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # Imagick::getPointSize
 
-(PECL imagick 2 \>u003d 2.1.0, PECL imagick 3)
+(PECL imagick 2 \>= 2.1.0, PECL imagick 3)
 
 Imagick::getPointSize — Повертає розмір точки
 

@@ -14,7 +14,7 @@ Imagick::sharpenImage — Підвищує різкість зображення
 ### Опис
 
 public **Imagick::sharpenImage**(float `$radius`, float `$sigma`, int
-`$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+`$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Підвищує різкість зображення. Згортання зображення за допомогою
 гаусівського оператора заданого радіусу та стандартного відхилення
@@ -38,4 +38,4 @@ public **Imagick::sharpenImage**(float `$radius`, float `$sigma`, int
 
 **Приклад #1 Приклад використання **Imagick::sharpenImage()****
 
-` <?phpfunction sharpenImage($imagePath, $radius, $sigma, $channel) {    $imagick u003d new \Imagick(realpath($imagePath)); $imagick->sharpenimage($radius, $sigma, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction sharpenImage($imagePath, $radius, $sigma, $channel) {    $imagick = new \Imagick(realpath($imagePath)); $imagick->sharpenimage($radius, $sigma, $channel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

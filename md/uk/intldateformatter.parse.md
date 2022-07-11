@@ -9,7 +9,7 @@
 
 # datefmt_parse
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 IntlDateFormatter::parse -- datefmt_parse — Перетворює рядок на
 значення позначки часу
@@ -18,13 +18,13 @@ IntlDateFormatter::parse -- datefmt_parse — Перетворює рядок н
 
 Об'єктно-орієнтований стиль
 
-public **IntlDateFormatter::parse**(string `$string`, int `&$offset` u003d
+public **IntlDateFormatter::parse**(string `$string`, int `&$offset` =
 **`null`**): int\|float\|false
 
 Процедурний стиль
 
 **datefmt_parse**([IntlDateFormatter](class.intldateformatter.md)
-`$formatter`, string `$string`, int `&$offset` u003d **`null`**):
+`$formatter`, string `$string`, int `&$offset` = **`null`**):
 int\|float\|false
 
 Перетворює `string` на інкрементне значення часу, починаючи з `offset`
@@ -56,11 +56,11 @@ int\|float\|false
 
 **Приклад #1 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Первый преобразованный вывод: ' . $fmt->parse('Wednesday, December 20, 1989 4:00:00 PM PT');$fmt u003d new IntlDateFormatter(  ::Form: ,   IntlDateFormatter::GREGORIAN);?> `
+` <?php$fmt = new IntlDateFormatter(    'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter::GREGORIAN);echo 'Первый преобразованный вывод: ' . $fmt->parse('Wednesday, December 20, 1989 4:00:00 PM PT');$fmt = new IntlDateFormatter(  ::Form: ,   IntlDateFormatter::GREGORIAN);?> `
 
 **Приклад #2 Приклад використання **datefmt_parse()****
 
-`<?php$fmt u003d datefmt_create(   'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles'; datefmt_parse($fmt, 'Wednesday, December 20, 1989 4:00:00 PM PT');$fmt u003d datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter ::GREGORIAN);echo 'Другий перетворений висновок: ' . datefmt_parse($fmt, 'Mittwoch, 20. Dezember 1989 16:00 Uhr GMT-08:00');? `
+`<?php$fmt = datefmt_create(   'en_US',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles'; datefmt_parse($fmt, 'Wednesday, December 20, 1989 4:00:00 PM PT');$fmt = datefmt_create(    'de-DE',    IntlDateFormatter::FULL,    IntlDateFormatter::FULL,    'America/Los_Angeles',    IntlDateFormatter ::GREGORIAN);echo 'Другий перетворений висновок: ' . datefmt_parse($fmt, 'Mittwoch, 20. Dezember 1989 16:00 Uhr GMT-08:00');? `
 
 Результат виконання цього прикладу:
 

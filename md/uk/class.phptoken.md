@@ -38,8 +38,8 @@ public int `$pos`;
 final public [\_\_construct](phptoken.construct.md)(
 int `$id`,
 string `$text`,
-int `$line` u003d -1,
-int `$pos` u003d -1
+int `$line` = -1,
+int `$pos` = -1
 )
 
 public [getTokenName](phptoken.gettokenname.md)(): ?string
@@ -51,7 +51,7 @@ public [isIgnorable](phptoken.isignorable.md)(): bool
 public [\_\_toString](phptoken.tostring.md)(): string
 
 public static [tokenize](phptoken.tokenize.md)(string `$code`, int
-`$flags` u003d 0): array
+`$flags` = 0): array
 
 }
 

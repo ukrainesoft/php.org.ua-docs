@@ -7,14 +7,14 @@
 
 # ZookeeperConfig::set
 
-(PECL zookeeper \>u003d 0.6.0, ZooKeeper \>u003d 3.5.0)
+(PECL zookeeper \>= 0.6.0, ZooKeeper \>= 3.5.0)
 
 ZookeeperConfig::set — Змінює склад ансамблю ZK та ролі його учасників
 
 ### Опис
 
-public **ZookeeperConfig::set**(string `$members`, int `$version` u003d -1,
-array `&$stat` u003d **`null`**): void
+public **ZookeeperConfig::set**(string `$members`, int `$version` = -1,
+array `&$stat` = **`null`**): void
 
 ### Список параметрів
 
@@ -47,7 +47,7 @@ array `&$stat` u003d **`null`**): void
 
 Реконфігурація.
 
-` <?php$client u003d new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig u003d $client->getConfig ();$zkConfig->set("server.1u003dlocalhost:2888:3888:participant;0.0.0.0:2181");?> `
+` <?php$client = new Zookeeper();$client->connect('localhost:2181');$client->addAuth('digest', 'timandes:timandes');$zkConfig = $client->getConfig ();$zkConfig->set("server.1=localhost:2888:3888:participant;0.0.0.0:2181");?> `
 
 ### Дивіться також
 

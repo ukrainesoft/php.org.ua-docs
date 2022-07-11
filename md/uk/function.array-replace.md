@@ -7,7 +7,7 @@
 
 #array_replace
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 array_replace — Замінює елементи масиву елементами інших переданих
 масивів
@@ -47,17 +47,17 @@ array_replace — Замінює елементи масиву елемента�
 
 **Приклад #1 Приклад використання **array_replace()****
 
-` <?php$base u003d array("orange", "banana", "apple", "raspberry");$replacements u003d array(0 u003d> "pineapple", 4 u003d> "cherry");$replacements2 u003d arra (0 u003d> "grape");$basket u003d array_replace($base, $replacements, $replacements2);print_r($basket);?> `
+` <?php$base = array("orange", "banana", "apple", "raspberry");$replacements = array(0 => "pineapple", 4 => "cherry");$replacements2 = arra (0 => "grape");$basket = array_replace($base, $replacements, $replacements2);print_r($basket);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> grape
-[1] u003d> banana
-[2] u003d> apple
-[3] u003d> raspberry
-[4] u003d> cherry
+[0] => grape
+[1] => banana
+[2] => apple
+[3] => raspberry
+[4] => cherry
 )
 
 ### Дивіться також

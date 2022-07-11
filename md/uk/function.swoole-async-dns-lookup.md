@@ -7,7 +7,7 @@
 
 # swoole_async_dns_lookup
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 swoole_async_dns_lookup — Асинхронний та неблокуючий пошук імені хоста
 або IP-адреси

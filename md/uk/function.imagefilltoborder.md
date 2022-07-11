@@ -54,14 +54,14 @@ y-координата початку.
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Зафарбовування еліпса**
 
-` <?php// создание изображения, установка белого фона$im u003d imagecreatetruecolor(100, 100);imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 255, 255, 255));// малювання еліпса зафарбованого чорним кольоромimageellipse($im, 50, 50, 50, 50, imagecolorallocate($im, 0, 0, 0)); ;$fillu003du003dimagecolorallocate($im, 255, 0, 0);// заливка областіimagefilltoborder($im, 50, 50, $border, $fill);// виведення і звільнення image ');imagepng($im);imagedestroy($im);?> `
+` <?php// создание изображения, установка белого фона$im = imagecreatetruecolor(100, 100);imagefilledrectangle($im, 0, 0, 100, 100, imagecolorallocate($im, 255, 255, 255));// малювання еліпса зафарбованого чорним кольоромimageellipse($im, 50, 50, 50, 50, imagecolorallocate($im, 0, 0, 0)); ;$fill==imagecolorallocate($im, 255, 0, 0);// заливка областіimagefilltoborder($im, 50, 50, $border, $fill);// виведення і звільнення image ');imagepng($im);imagedestroy($im);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

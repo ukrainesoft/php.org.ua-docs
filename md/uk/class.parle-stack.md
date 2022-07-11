@@ -7,7 +7,7 @@
 
 # Клас Parle\Stack
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 ## Вступ
 
@@ -20,9 +20,9 @@ class **Parle\Stack** {
 
 /\* Властивості \*/
 
-public bool `$empty` u003d **`true`**;
+public bool `$empty` = **`true`**;
 
-public int `$size` u003d 0;
+public int `$size` = 0;
 
 public
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

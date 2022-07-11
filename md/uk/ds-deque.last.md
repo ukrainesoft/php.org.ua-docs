@@ -7,7 +7,7 @@
 
 # Ds\Deque::last
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::last — Повертає останнє значення двосторонньої черги
 
@@ -36,7 +36,7 @@ public **Ds\Deque::last**():
 
 **Приклад #1 Приклад використання **Ds\Deque::last()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);var_dump($deque->last());?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);var_dump($deque->last());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

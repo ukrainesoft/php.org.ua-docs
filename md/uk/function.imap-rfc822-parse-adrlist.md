@@ -40,8 +40,8 @@ imap_rfc822_parse_adrlist — Розбір адресного рядка
 
 **Приклад #1 Приклад використання **imap_rfc822_parse_adrlist()****
 
-` <?php$address_string u003d "Joe Doe <doe@example.com>, postmaster@example.com, root";$address_array  u003d imap_rfc822_parse_adrlist($address_string, "exarra.com || count($address_array) < 1) {    die("something is wrong
-");}foreach ($address_array as $id u003d> $val) {   echo "# $id
+` <?php$address_string = "Joe Doe <doe@example.com>, postmaster@example.com, root";$address_array  = imap_rfc822_parse_adrlist($address_string, "exarra.com || count($address_array) < 1) {    die("something is wrong
+");}foreach ($address_array as $id => $val) {   echo "# $id
 ";    echo "  mailbox : " . $val->mailbox . "
 ";    echo "  host    ::"" . $val->host . "
 ";    echo "  personal: " . $val->personal . "

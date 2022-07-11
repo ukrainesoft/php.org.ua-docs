@@ -15,7 +15,7 @@ Imagick::readImageFile — Читає зображення із відкрито
 ### Опис
 
 public **Imagick::readImageFile**(resource `$filehandle`, string
-`$fileName` u003d **`null`**): bool
+`$fileName` = **`null`**): bool
 
 Читає зображення із відкритого дескриптора файлу.
 

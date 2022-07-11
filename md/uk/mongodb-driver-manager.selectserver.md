@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Manager::selectServer
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Manager::selectServer — Вибрати відповідний сервер
 уподобанням читання
@@ -16,7 +16,7 @@ MongoDB\Driver\Manager::selectServer — Вибрати відповідний �
 
 final public
 **MongoDB\Driver\Manager::selectServer**(?[MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
-`$readPreference` u003d **`null`**):
+`$readPreference` = **`null`**):
 [MongoDB\Driver\Server](class.mongodb-driver-server.md)
 
 Вибирає [MongoDB\Driver\Server](class.mongodb-driver-server.md),
@@ -58,7 +58,7 @@ final public
 ### Список змін
 
 | Версія              | Опис                                                                                                                                    |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | PECL mongodb 1.11.0 | Параметр readPreference тепер необов'язковий. Якщо вказано значення **null** або опущено, за промовчанням буде обрано первинний сервер. |
 
 ### Дивіться також

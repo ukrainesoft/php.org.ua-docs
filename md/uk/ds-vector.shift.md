@@ -7,7 +7,7 @@
 
 # Ds\Vector::shift
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Vector::shift — Видаляє та повертає перше значення
 
@@ -35,7 +35,7 @@ public **Ds\Vector::shift**():
 
 **Приклад #1 Приклад використання **Ds\Vector::shift()****
 
-` <?php$vector u003d new \Ds\Vector(["a", "b", "c"]);var_dump($vector->shift());var_dump($vector->shift()); var_dump($vector->shift());?> `
+` <?php$vector = new \Ds\Vector(["a", "b", "c"]);var_dump($vector->shift());var_dump($vector->shift()); var_dump($vector->shift());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

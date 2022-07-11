@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\BulkWrite
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -33,19 +33,19 @@ final class **MongoDB\Driver\BulkWrite** implements
 /\* Методи \*/
 
 public [\_\_construct](mongodb-driver-bulkwrite.construct.md)(array
-`$options` u003d ?)
+`$options` = ?)
 
 public [count](mongodb-driver-bulkwrite.count.md)(): int
 
 public [delete](mongodb-driver-bulkwrite.delete.md)(array\|object
-`$filter`, array `$deleteOptions` u003d ?): void
+`$filter`, array `$deleteOptions` = ?): void
 
 public [insert](mongodb-driver-bulkwrite.insert.md)(array\|object
 `$document`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [update](mongodb-driver-bulkwrite.update.md)(array\|object
-`$filter`, array\|object `$newObj`, array `$updateOptions` u003d ?): void
+`$filter`, array\|object `$newObj`, array `$updateOptions` = ?): void
 
 }
 
@@ -57,7 +57,7 @@ public [update](mongodb-driver-bulkwrite.update.md)(array\|object
 будуть зібрані в типізовані команди записи, які в
 послідовно будуть відправлені на сервер.
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite(['ordered' u003d> true]);$bulk->insert(['_id' u003d> 1, 'x' u003d> 1]);$bulk- >insert(['_id' u003d> 2, 'x' u003d> 2]);$bulk->update(['x' u003d> 2], ['$set' u003d> ['x' u003d> 1] ]);$bulk->insert(['_id' u003d> 3, 'x' u003d> 3]);$bulk->delete(['x' u003d> 1]);?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);$bulk->insert(['_id' => 1, 'x' => 1]);$bulk- >insert(['_id' => 2, 'x' => 2]);$bulk->update(['x' => 2], ['$set' => ['x' => 1] ]);$bulk->insert(['_id' => 3, 'x' => 3]);$bulk->delete(['x' => 1]);?> `
 
 В результаті буде виконано чотири команди запису (тобто звернень).
 Оскільки операції відсортовані, третя вставка не може бути
@@ -65,7 +65,7 @@ public [update](mongodb-driver-bulkwrite.update.md)(array\|object
 
 **Приклад #2 Відсортовані операції запису, що викликають помилку**
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite(['ordered' u003d> true]);$bulk->delete([]);$bulk->insert(['_id' u003d> 1]); $bulk->insert(['_id' u003d> 2]);$bulk->insert(['_id' u003d> 3, 'hello' u003d> 'world']);$bulk->update(['_id ' u003d> 3], ['$set' u003d> ['hello' u003d> 'earth']]);$bulk->insert(['_id' u003d> 4, 'hello' u003d> 'pluto'])) ;$bulk->update(['_id' u003d> 4], ['$set' u003d> ['hello' u003d> 'moon']]);$bulk->insert(['_id' u003d> 3] );$bulk->insert(['_id' u003d> 4]);$bulk->insert(['_id' u003d> 5]);$manager u003d new MongoDB\Driver\Manager('mongodb://localhost :27017');$writeConcernu003du003dnew MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 1000);try {    $result u003d $manager->execute$ ;} catch (MongoDB\Driver\Exception\BulkWriteException $e) {   $result u003d $e->getWriteResult(); // Перевіритися, що гарантія запису не може бути виконана    if ($writeConcernError u003d $result->getWriteConcernError()) {            
+` <?php$bulk = new MongoDB\Driver\BulkWrite(['ordered' => true]);$bulk->delete([]);$bulk->insert(['_id' => 1]); $bulk->insert(['_id' => 2]);$bulk->insert(['_id' => 3, 'hello' => 'world']);$bulk->update(['_id ' => 3], ['$set' => ['hello' => 'earth']]);$bulk->insert(['_id' => 4, 'hello' => 'pluto'])) ;$bulk->update(['_id' => 4], ['$set' => ['hello' => 'moon']]);$bulk->insert(['_id' => 3] );$bulk->insert(['_id' => 4]);$bulk->insert(['_id' => 5]);$manager = new MongoDB\Driver\Manager('mongodb://localhost :27017');$writeConcern==new MongoDB\Driver\WriteConcern(MongoDB\Driver\WriteConcern::MAJORITY, 1000);try {    $result = $manager->execute$ ;} catch (MongoDB\Driver\Exception\BulkWriteException $e) {   $result = $e->getWriteResult(); // Перевіритися, що гарантія запису не може бути виконана    if ($writeConcernError = $result->getWriteConcernError()) {            
 ",            $writeConcernError->getMessage(),            $writeConcernError->getCode(),            var_export($writeConcernError->getInfo(), true)        );    }    // Проверить, не выполнялись ли какие-либо операции записи    foreach ($result- >getWriteErrors() as $writeError) {        printf("Operation#%d: %s (%d)
 ",            $writeError->getIndex(),            $writeError->getMessage(),            $writeError->getCode()        );    }} catch (MongoDB\Driver\Exception\Exception $e) {    printf("Другая ошибка: %s
 ", $e->getMessage());   exit;}printf("Додано %d документ(ів)
@@ -82,7 +82,7 @@ Operation#7: E11000 duplicate key error index: db.collection.$_id_ dup key: { : 
 прикладу буде щось на кшталт цього:
 
 waiting for replication timed out (64): array (
-'wtimeout' u003d> true,
+'wtimeout' => true,
 )
 Operation#7: E11000 duplicate key error index: databaseName.collectionName.$_id_ dup key: { : 3 } (11000)
 Inserted 4 document(s)
@@ -90,7 +90,7 @@ Updated 2 document(s)
 
 Якщо ми виконаємо приклад вище, але розв'яжемо невідсортовані записи:
 
-` <?php$bulk u003d new MongoDB\Driver\BulkWrite(['ordered' u003d> false]);/* ... */?> `
+` <?php$bulk = new MongoDB\Driver\BulkWrite(['ordered' => false]);/* ... */?> `
 
 Результат виконання цього прикладу:
 

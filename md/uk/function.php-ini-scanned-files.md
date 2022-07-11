@@ -8,7 +8,7 @@ ini-директорії
 
 # php_ini_scanned_files
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 php_ini_scanned_files — Повертає список файлів .ini, знайдених у
 додаткової ini-директорії
@@ -44,7 +44,7 @@ php_ini_scanned_files — Повертає список файлів .ini, зн�
 
 **Приклад #1 Простий приклад виведення списку ini-файлів**
 
-` <?phpif ($filelist u003d php_ini_scanned_files()) {    if (strlen($filelist) > 0) {        $files u003d explode(',', ; foreach ($files as $file) {            echo "<li>" . trim($file) . "</li>
+` <?phpif ($filelist = php_ini_scanned_files()) {    if (strlen($filelist) > 0) {        $files = explode(',', ; foreach ($files as $file) {            echo "<li>" . trim($file) . "</li>
 ";         }    }}?> `
 
 ### Дивіться також

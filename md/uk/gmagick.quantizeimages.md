@@ -7,7 +7,7 @@
 
 # Gmagick::quantizeimages
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::quantizeimages — Аналізує кольори у послідовності
 зображень

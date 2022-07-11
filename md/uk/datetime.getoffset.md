@@ -13,7 +13,7 @@
 
 # date_offset_get
 
-(PHP 5 \>u003d 5.2.1, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.1, PHP 7, PHP 8)
 
 DateTime::getOffset -- DateTimeImmutable::getOffset --
 DateTimeInterface::getOffset -- date_offset_get — Повертає зсув
@@ -50,7 +50,7 @@ public **DateTimeInterface::getOffset**(): int
 ### Список змін
 
 | Версія | Опис                                                             |
-| ------ | ---------------------------------------------------------------- |
+|--------|------------------------------------------------------------------|
 | 8.0.0  | До цієї версії, у разі виникнення помилки поверталося **false**. |
 
 ### Приклади
@@ -59,13 +59,13 @@ public **DateTimeInterface::getOffset**(): int
 
 Об'єктно-орієнтований стиль
 
-` <?php$winter u003d new DateTime('2010-12-21', new DateTimeZone('America/New_York'));$summer u003d neu DateTime('2008-06-21', new '));echo $winter->getOffset() . "
+` <?php$winter = new DateTime('2010-12-21', new DateTimeZone('America/New_York'));$summer = neu DateTime('2008-06-21', new '));echo $winter->getOffset() . "
 ";echo $summer->getOffset() . "
 ";?> `
 
 Процедурний стиль
 
-` <?php$winteru003du003ddate_create('2010-12-21', timezone_open('America/New_York'));$summeru003du003ddate_create('2008-06-21', timezone_open('America/' echo date_offset_get($winter) . "
+` <?php$winter==date_create('2010-12-21', timezone_open('America/New_York'));$summer==date_create('2008-06-21', timezone_open('America/' echo date_offset_get($winter) . "
 ";echo date_offset_get($summer) . "
 ";?> `
 
@@ -74,4 +74,4 @@ public **DateTimeInterface::getOffset**(): int
 -18000
 -14400
 
-Зауваження: -18000u003d-5 годин, -14400u003d-4 години.
+Зауваження: -18000=-5 годин, -14400=-4 години.

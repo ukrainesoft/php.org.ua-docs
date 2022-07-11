@@ -22,13 +22,13 @@ mysqlnd. Для додаткової інформації дивіться [до
 
 `` shellcode
 //Рекомендована, компілює з mysqlnd
-$ ./configure --with-mysqliu003dmysqlnd --with-pdo-mysqlu003dmysqlnd
+$ ./configure --with-mysqli=mysqlnd --with-pdo-mysql=mysqlnd
 
 //Рекомендована, компілює з mysqlnd
 $ ./configure --with-mysqli --with-pdo-mysql
 
 //Не рекомендована, компілює з libmysqlclient
-$ ./configure --with-mysqliu003d/path/to/mysql_config --with-pdo-mysqlu003d/path/to/mysql_config
+$ ./configure --with-mysqli=/path/to/mysql_config --with-pdo-mysql=/path/to/mysql_config
 ````
 
 *Порівняння можливостей бібліотек*
@@ -38,7 +38,7 @@ MySQL Client Server library (libmysqlclient). Обидві бібліотеки 
 та підтримуються виробниками.
 
 |                                                                                  | MySQL native driver ([mysqlnd](book.mysqlnd.md)) | MySQL client server library (libmysqlclient) |
-| -------------------------------------------------------------------------------- | ------------------------------------------------ | -------------------------------------------- |
+|----------------------------------------------------------------------------------|--------------------------------------------------|----------------------------------------------|
 | Частина дистрибутива PHP Так                                                     | Ні                                               |                                              |
 | З'явилася у версії PHP 5.3.0                                                     | Немає даних                                      |                                              |
 | Ліцензія PHP Ліцензія 3.01                                                       | Подвійна ліцензія                                |                                              |

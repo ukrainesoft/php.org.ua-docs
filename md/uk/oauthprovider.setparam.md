@@ -7,7 +7,7 @@
 
 # OAuthProvider::setParam
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuthProvider::setParam — Встановити параметр
 
@@ -15,7 +15,7 @@ OAuthProvider::setParam — Встановити параметр
 
 final public **OAuthProvider::setParam**(string `$param_key`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$param_val` u003d ?): bool
+`$param_val` = ?): bool
 
 Встановлює параметр.
 

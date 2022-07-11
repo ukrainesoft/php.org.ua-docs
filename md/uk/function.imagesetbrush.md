@@ -8,7 +8,7 @@
 
 #imagesetbrush
 
-(PHP 4 \>u003d 4.0.6, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.6, PHP 5, PHP 7, PHP 8)
 
 imagesetbrush — Встановлення зображення (пензля), за допомогою якого
 малюватимуться лінії
@@ -49,14 +49,14 @@ imagesetbrush — Встановлення зображення (пензля), 
 ### Список змін
 
 | Версія | Опис                                                                                                          |
-| ------ | ------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | 'image' і 'brush' тепер чекають на екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imagesetbrush()****
 
-`<?php// Завантаження мінілоготипу php$php u003d imagecreatefrompng('./php.png');// Створення основного зображення 100x100$im u003d imagecreatetruecolor(100, 100 $im, 255, 255, 255);imagefilledrectangle($im, 0, 0, 299, 99, $white);// Установка кистіimagesetbrush($im, $php);// Малювання ліній 50, 50, 50, 60, IMG_COLOR_BRUSHED);//Висновок і очищення пам'ятіheader('Content-type: image/png');imagepng($im);imagedestroy($im);imagedestroy($php);
+`<?php// Завантаження мінілоготипу php$php = imagecreatefrompng('./php.png');// Створення основного зображення 100x100$im = imagecreatetruecolor(100, 100 $im, 255, 255, 255);imagefilledrectangle($im, 0, 0, 299, 99, $white);// Установка кистіimagesetbrush($im, $php);// Малювання ліній 50, 50, 50, 60, IMG_COLOR_BRUSHED);//Висновок і очищення пам'ятіheader('Content-type: image/png');imagepng($im);imagedestroy($im);imagedestroy($php);
 
 Результатом виконання цього прикладу буде щось подібне:
 

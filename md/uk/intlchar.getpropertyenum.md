@@ -44,7 +44,7 @@ PropertyAliases.txt.
 
 **Приклад #1 Тестування різних властивостей**
 
-` <?phpvar_dump(IntlChar::getPropertyEnum('Bidi_Class') u003du003du003d IntlChar::PROPERTY_BIDI_CLASS);var_dump(IntlChar::getPropertyEnum('script') u003du003du003d IntlChar::PROPERTY_SCRIPT) 'IDEOGRAPHIC') u003du003du003d IntlChar::PROPERTY_IDEOGRAPHIC);var_dump(IntlChar::getPropertyEnum('Some made-up string') u003du003du003d IntlChar::PROPERTY_INVALID_CODE);?> `
+` <?phpvar_dump(IntlChar::getPropertyEnum('Bidi_Class') === IntlChar::PROPERTY_BIDI_CLASS);var_dump(IntlChar::getPropertyEnum('script') === IntlChar::PROPERTY_SCRIPT) 'IDEOGRAPHIC') === IntlChar::PROPERTY_IDEOGRAPHIC);var_dump(IntlChar::getPropertyEnum('Some made-up string') === IntlChar::PROPERTY_INVALID_CODE);?> `
 
 Результат виконання цього прикладу:
 

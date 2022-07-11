@@ -37,7 +37,7 @@ public **Closure::call**(object `$newThis`,
 
 **Приклад #1 Приклад **Closure::call()****
 
-`<?phpclass Value {   protected$value; public function __construct($value) {        $this->value u003d $value; }    public function getValue() {        return $this->value; }}$threeu003du003d new Value(3);$four u003d new Value(4);$closure u003d function ($delta) { var_dump($this->getValue() + $delta); };$closure->call($three, 4);$closure->call($four, 4);?> `
+`<?phpclass Value {   protected$value; public function __construct($value) {        $this->value = $value; }    public function getValue() {        return $this->value; }}$three== new Value(3);$four = new Value(4);$closure = function ($delta) { var_dump($this->getValue() + $delta); };$closure->call($three, 4);$closure->call($four, 4);?> `
 
 Результат виконання цього прикладу:
 

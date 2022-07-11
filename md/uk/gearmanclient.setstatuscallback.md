@@ -8,7 +8,7 @@
 
 # GearmanClient::setStatusCallback
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanClient::setStatusCallback — Завдання callback-функції, що збирає
 інформацію про стан обробника завдань

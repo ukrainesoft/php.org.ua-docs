@@ -7,7 +7,7 @@
 
 # SolrQuery::getTermsUpperBound
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getTermsUpperBound — Повертає вираз для зупинки
 

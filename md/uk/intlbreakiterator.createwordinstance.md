@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::createWordInstance
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::createWordInstance — Створює ітератор переривання для
 розривів слів
@@ -15,7 +15,7 @@ IntlBreakIterator::createWordInstance — Створює ітератор пер
 ### Опис
 
 public static **IntlBreakIterator::createWordInstance**(?string
-`$locale` u003d **`null`**):
+`$locale` = **`null`**):
 ?[IntlBreakIterator](class.intlbreakiterator.md)
 
 **Увага**

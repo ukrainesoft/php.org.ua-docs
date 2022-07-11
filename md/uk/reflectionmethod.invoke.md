@@ -48,7 +48,7 @@ public **ReflectionMethod::invoke**(?object `$object`,
 
 **Приклад #1 Приклад використання **ReflectionMethod::invoke()****
 
-`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod u003d new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');?> `
+`<?phpclass HelloWorld {    public function sayHelloTo($name) {       return 'Привіт, ' . $name; }}$reflectionMethod = new ReflectionMethod('HelloWorld', 'sayHelloTo');echo $reflectionMethod->invoke(new HelloWorld(), 'Майк');?> `
 
 Результат виконання цього прикладу:
 

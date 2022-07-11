@@ -42,7 +42,7 @@ sqlsrv_next_result — Робить активним наступний резу
 SELECT, необхідно викликати **sqlsrv_next_result()**, щоб пройти повз
 першого результату.
 
-` <?php$serverName u003d "serverName\sqlexpress";$connectionInfo u003d array("Database"u003d>"dbName", "UID"u003d>"userName", "PWD"u003d>"password");$conn u003d sqlsrv_connect ( $serverName, $connectionInfo);$query u003d "INSERT INTO Table_1 (id, data) VALUES (?,?); SELECT * FROM TABLE_1;";$params u003d array(1, t" sqlsrv_query($conn, $query, $params);// Використовувати перший результат (рядки, торкані INSERT) без виклику sqlsrv_next_result.echo "Зачеплено рядок: к следующему результату и отображение результатов.$next_result u003d sqlsrv_next_result($stmt);if( $next_result ) {   while( $row u003d sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)){      echo $row['id'].": ".$ row['data']."<br />"; }} elseif( is_null($next_result)) {    echo "Більше рядків ні.<br />";} else {     die(print_r(sqlsrv_errors(),}true
+` <?php$serverName = "serverName\sqlexpress";$connectionInfo = array("Database"=>"dbName", "UID"=>"userName", "PWD"=>"password");$conn = sqlsrv_connect ( $serverName, $connectionInfo);$query = "INSERT INTO Table_1 (id, data) VALUES (?,?); SELECT * FROM TABLE_1;";$params = array(1, t" sqlsrv_query($conn, $query, $params);// Використовувати перший результат (рядки, торкані INSERT) без виклику sqlsrv_next_result.echo "Зачеплено рядок: к следующему результату и отображение результатов.$next_result = sqlsrv_next_result($stmt);if( $next_result ) {   while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC)){      echo $row['id'].": ".$ row['data']."<br />"; }} elseif( is_null($next_result)) {    echo "Більше рядків ні.<br />";} else {     die(print_r(sqlsrv_errors(),}true
 
 ### Дивіться також
 

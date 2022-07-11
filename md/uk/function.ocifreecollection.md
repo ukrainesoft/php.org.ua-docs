@@ -7,7 +7,7 @@
 
 # ocifreecollection
 
-(PHP 4 \>u003d 4.0.7, PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.0.0)
+(PHP 4 \>= 4.0.7, PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.0.0)
 
 ocifreecollection - Псевдонім
 [OCICollection::free()](ocicollection.free.md)

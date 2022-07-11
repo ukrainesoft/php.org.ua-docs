@@ -7,7 +7,7 @@
 
 # SQLite3::close
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::close — Закрити з'єднання з базою даних
 
@@ -30,4 +30,4 @@ public **SQLite3::close**(): bool
 
 **Приклад #1 Приклад використання **SQLite3::close()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$db->close();?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$db->close();?> `

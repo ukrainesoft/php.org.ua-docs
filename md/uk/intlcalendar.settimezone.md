@@ -7,7 +7,7 @@
 
 # IntlCalendar::setTimeZone
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::setTimeZone — Встановлює часовий пояс, який використовується
 календарем
@@ -68,7 +68,7 @@ public
 
 **Приклад #1 Приклад використання **IntlCalendar::setTimeZone()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'es_ES');$cal u003d new IntlGregorianCalendar(2013, 5 /* May */, 0, 0);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'es_ES');$cal = new IntlGregorianCalendar(2013, 5 /* May */, 0, 0);echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
 ";echo "(instant {$cal->getTime()})
 ";$cal->setTimeZone(IntlTimeZone::getGMT());echo IntlDateFormatter::formatObject($cal, IntlDateFormatter::FULL), "
 ";echo "(instant {$cal->getTime()})

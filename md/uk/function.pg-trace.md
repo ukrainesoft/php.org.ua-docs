@@ -7,14 +7,14 @@
 
 #pg_trace
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 pg_trace — Включає трасування підключення PostgreSQL
 
 ### Опис
 
-**pg_trace**(string `$filename`, string `$mode` u003d "w",
-?[PgSql\Connection](class.pgsql-connection.md) `$connection` u003d
+**pg_trace**(string `$filename`, string `$mode` = "w",
+?[PgSql\Connection](class.pgsql-connection.md) `$connection` =
 **`null`**): bool
 
 **pg_trace()** включає трасування з'єднання з PostgreSQL сервером у
@@ -56,7 +56,7 @@ pg_trace — Включає трасування підключення PostgreS
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | connection тепер допускає значення null.                                                                                                                       |
 
@@ -64,7 +64,7 @@ pg_trace — Включає трасування підключення PostgreS
 
 **Приклад #1 Приклад використання **pg_trace()****
 
-` <?php$pgsql_conn u003d pg_connect("dbnameu003dmark hostu003dlocalhost");if ($pgsql_conn) {   pg_trace('/tmp/trace.log', 'w', $pgsql_conn); pg_query("SELECT 1"); pg_untrace($pgsql_conn); // Тепер /tmp/trace.log зберігати інформацію про взаємодію з сервером} else {   print pg_last_error($pgsql_conn); exit;}?> `
+` <?php$pgsql_conn = pg_connect("dbname=mark host=localhost");if ($pgsql_conn) {   pg_trace('/tmp/trace.log', 'w', $pgsql_conn); pg_query("SELECT 1"); pg_untrace($pgsql_conn); // Тепер /tmp/trace.log зберігати інформацію про взаємодію з сервером} else {   print pg_last_error($pgsql_conn); exit;}?> `
 
 ### Дивіться також
 

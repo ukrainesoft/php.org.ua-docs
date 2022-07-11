@@ -7,7 +7,7 @@
 
 # SolrParams::addParam
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrParams::addParam — Додає параметр до об'єкта
 

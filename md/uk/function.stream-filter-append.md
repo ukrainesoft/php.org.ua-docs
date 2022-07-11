@@ -7,7 +7,7 @@
 
 #stream_filter_append
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_filter_append — Прикріпити фільтр до потоку
 
@@ -16,9 +16,9 @@ stream_filter_append — Прикріпити фільтр до потоку
 **stream_filter_append**(
 resource `$stream`,
 string `$filtername`,
-int `$read_write` u003d ?,
+int `$read_write` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$params` u003d ?
+`$params` = ?
 ): resource
 
 Додає `filtername` до списку фільтрів, прикріплених до `stream`.
@@ -60,7 +60,7 @@ int `$read_write` u003d ?,
 
 **Приклад #1 Контроль застосування фільтрів**
 
-` <?php/* Відкриваємо тестовий файл для читання і записи */$fp u003d fopen('test.txt', 'w+'); /stream_filter_append($fp, "string.rot13", STREAM_FILTER_WRITE);/* Запишемо простий рядок в файл * вона будеперетворена при допомоги ROT13 s t 
+` <?php/* Відкриваємо тестовий файл для читання і записи */$fp = fopen('test.txt', 'w+'); /stream_filter_append($fp, "string.rot13", STREAM_FILTER_WRITE);/* Запишемо простий рядок в файл * вона будеперетворена при допомоги ROT13 s t 
 ");/* Назад к началу файла */rewind($fp);/* Прочитаем содержимое файла. * Если фильтр также был бы прикреплён к * цепочке фильтров чтения, мы бы увидели * преобразованный при помощи ROT13 текст в исходном состоянии */ fpassthru($fp);fclose($fp);/* Очікуваний висновок  ---------------Guvf vf n grfg */?> `
 
 ### Примітки

@@ -7,7 +7,7 @@
 
 # fann_duplicate_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_duplicate_train_data — Повертає точну копію тренувальних даних
 

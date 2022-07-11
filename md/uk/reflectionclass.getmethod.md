@@ -38,14 +38,14 @@ public **ReflectionClass::getMethod**(string `$name`):
 
 **Приклад #1 Приклад використання **ReflectionClass::getMethod()****
 
-` <?php$class u003d new ReflectionClass('ReflectionClass');$method u003d $class->getMethod('getMethod');var_dump($method);?> `
+` <?php$class = new ReflectionClass('ReflectionClass');$method = $class->getMethod('getMethod');var_dump($method);?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionMethod)#2 (2) {
-["name"]u003d>
+["name"]=>
 string(9) "getMethod"
-["class"]u003d>
+["class"]=>
 string(15) "ReflectionClass"
 }
 

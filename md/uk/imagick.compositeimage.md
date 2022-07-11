@@ -18,7 +18,7 @@ public **Imagick::compositeImage**(
 int `$composite`,
 int `$x`,
 int `$y`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT
+int `$channel` = Imagick::CHANNEL_DEFAULT
 ): bool
 
 Накладає одне зображення на інше із зазначеним усуненням. Будь-які
@@ -56,7 +56,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 
 Накладання двох зображень за допомогою 'математичного' методу накладання
 
-` <?php// Еквівалентно запуску команди// convert src1.png src2.png -compose mathematics -define compose:argsu003d"1,0,-0.5,0.5" -composite ick| ./src1.png");$src2 u003d new \Imagick("./src2.png");$src1->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);$src1->setImageArtifact('compose:ar ,0,-0.5,0.5");$src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);$src1->writeImage("./output.png");?> `
+` <?php// Еквівалентно запуску команди// convert src1.png src2.png -compose mathematics -define compose:args="1,0,-0.5,0.5" -composite ick| ./src1.png");$src2 = new \Imagick("./src2.png");$src1->setImageVirtualPixelMethod(Imagick::VIRTUALPIXELMETHOD_TRANSPARENT);$src1->setImageArtifact('compose:ar ,0,-0.5,0.5");$src1->compositeImage($src2, Imagick::COMPOSITE_MATHEMATICS, 0, 0);$src1->writeImage("./output.png");?> `
 
 ### Дивіться також
 

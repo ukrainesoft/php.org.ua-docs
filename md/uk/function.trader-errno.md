@@ -7,7 +7,7 @@
 
 # trader_errno
 
-(PECL trader \>u003d 0.3.0)
+(PECL trader \>= 0.3.0)
 
 trader_errno — Отримати код помилки
 

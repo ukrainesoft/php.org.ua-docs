@@ -7,7 +7,7 @@
 
 # Gmagick::setsize
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::setsize — Встановлює розмір об'єкта Gmagick
 

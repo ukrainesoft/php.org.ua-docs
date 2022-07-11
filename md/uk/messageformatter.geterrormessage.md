@@ -9,7 +9,7 @@
 
 #msgfmt_get_error_message
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 MessageFormatter::getErrorMessage -- msgfmt_get_error_message --
 Повертає текст помилки останньої операції
@@ -40,12 +40,12 @@ public **MessageFormatter::getErrorMessage**(): string
 
 **Приклад #1 Приклад використання **msgfmt_get_error_message()****
 
-` <?php$fmt u003d msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");$str u003d msgfmt_format($fmt, array())| echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")
+` <?php$fmt = msgfmt_create("en_US", "{0, number} monkeys on {1, number} trees");$str = msgfmt_format($fmt, array())| echo "ERROR: ".msgfmt_get_error_message($fmt) . " (" . msgfmt_get_error_code($fmt) . ")
 ";}?> `
 
 **Приклад #2 Приклад використання в об'єктно-орієнтованому стилі**
 
-` <?php$fmt u003d new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");$str u003d $fmt->format(array());if(!$str ) {    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")
+` <?php$fmt = new MessageFormatter("en_US", "{0, number} monkeys on {1, number} trees");$str = $fmt->format(array());if(!$str ) {    echo "ERROR: ".$fmt->getErrorMessage() . " (" . $fmt->getErrorCode() . ")
 ";}?> `
 
 Результат виконання цього прикладу:

@@ -7,7 +7,7 @@
 
 # SolrQuery::getTermsSort
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::getTermsSort — Повертає ціле число, яке вказує, як
 сортуються вирази

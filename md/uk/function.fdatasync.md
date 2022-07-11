@@ -7,7 +7,7 @@
 
 #fdatasync
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 fdatasync — Синхронізує дані (але не метадані) з файлом
 
@@ -38,7 +38,7 @@ fdatasync — Синхронізує дані (але не метадані) з 
 
 **Приклад #1 Приклад використання **fdatasync()****
 
-` <?php$file u003d 'test.txt';$stream u003dfopen($file, 'w');fwrite($stream, 'тестові дані');fwrite($stream, "
+` <?php$file = 'test.txt';$stream =fopen($file, 'w');fwrite($stream, 'тестові дані');fwrite($stream, "
 ");fwrite($stream, 'додаткові дані');fdatasync($stream);fclose($stream);?> `
 
 ### Дивіться також

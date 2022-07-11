@@ -7,7 +7,7 @@
 
 #oci_close
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_close — Закриває з'єднання із сервером Oracle
 
@@ -45,7 +45,7 @@ oci_close — Закриває з'єднання із сервером Oracle
 коректного завершення з'єднання з базою даних та звільнення її
 ресурсів.
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT * FROM departments');$r u003d oci_execute($stid res);var_dump($res);// Звільняємо ідентифікатор вираження при закритті з'єднанняoci_free_statement($stid);oci_close($conn);?> `
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT * FROM departments');$r = oci_execute($stid res);var_dump($res);// Звільняємо ідентифікатор вираження при закритті з'єднанняoci_free_statement($stid);oci_close($conn);?> `
 
 **Приклад #2 З'єднання бази даних не закривається доти, доки
 будуть закриті всі посилання на нього **
@@ -54,7 +54,7 @@ oci_close — Закриває з'єднання із сервером Oracle
 дорівнювати нулю перед безпосереднім закриттям з'єднання до бази
 даних.
 
-` <?php$conn u003d oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid u003d oci_parse($conn, 'SELECT **FROM departments'); // це збільшує refcount на $connoci_execute($stid);oci_fetch_all($stid, $res);var_dump($res);oci_close($conn);// $conn більше не може скористатися з'єднання з базою даних буде відкрито, поки не буде звільнена $stid.var_dump($conn); // выводит NULL// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала// покажет, что пользователь базы данных всё ещё подключён.sleep(10);// Как только $stid освобождается, соединение к базе данных физически закривається oci_free_statement ($stid);
+` <?php$conn = oci_connect('hr', 'welcome', 'localhost/XE');if (!$conn) {    $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);}$stid = oci_parse($conn, 'SELECT **FROM departments'); // це збільшує refcount на $connoci_execute($stid);oci_fetch_all($stid, $res);var_dump($res);oci_close($conn);// $conn більше не може скористатися з'єднання з базою даних буде відкрито, поки не буде звільнена $stid.var_dump($conn); // выводит NULL// Пока PHP спит, запрос к виду Oracle V$SESSION в окне терминала// покажет, что пользователь базы данных всё ещё подключён.sleep(10);// Как только $stid освобождается, соединение к базе данных физически закривається oci_free_statement ($stid);
 
 **Приклад #3 Закриття з'єднання, відкритого кілька разів**
 
@@ -62,7 +62,7 @@ oci_close — Закриває з'єднання із сервером Oracle
 повинні бути закриті перед безпосереднім закриттям з'єднання до бази
 даних.
 
-` <?php$conn1 u003d oci_connect('hr', 'welcome', 'localhost/XE');// Використання тих ж облікових даних повторно використовує одне і то з| Будь-які незафіксовані зміни в// $conn1 будуть видні в $conn2$conn2 u003d oci_connect('hr', 'welcome', 'localhost/XE');// Поки PHP спит, за / покаже, що підключений тільки один користувач бази даних.sleep(10);oci_close($conn1); // не закриває реальне з'єднання з базою данихvar_dump($conn1); // виводить NULL, т.к. $conn1 тепер безкориснаvar_dump($conn2); // показує, що $conn2 все ще є коректним ресурсом з'єднання?> `
+` <?php$conn1 = oci_connect('hr', 'welcome', 'localhost/XE');// Використання тих ж облікових даних повторно використовує одне і то з| Будь-які незафіксовані зміни в// $conn1 будуть видні в $conn2$conn2 = oci_connect('hr', 'welcome', 'localhost/XE');// Поки PHP спит, за / покаже, що підключений тільки один користувач бази даних.sleep(10);oci_close($conn1); // не закриває реальне з'єднання з базою данихvar_dump($conn1); // виводить NULL, т.к. $conn1 тепер безкориснаvar_dump($conn2); // показує, що $conn2 все ще є коректним ресурсом з'єднання?> `
 
 **Приклад #4 З'єднання закривається при відході змінних з області
 видимості**
@@ -71,7 +71,7 @@ oci_close — Закриває з'єднання із сервером Oracle
 видимості та звільняються PHP, відбувається відкат транзакції (якщо
 необхідно) та з'єднання з базою закривається.
 
-` <?phpfunction myfunc() {    $conn u003d oci_connect('hr', 'hrpwd', 'localhost/XE'); if (!$conn) {        $e u003d oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR); }   $stid u003d oci_parse($conn, 'UPDATE mytab SET id u003d 100'); oci_execute($stid, OCI_NO_AUTO_COMMIT); return "Закінчили!";}$r u003d myfunc();// У цій точці відбувається відкат транзакції і закривається відповідне// з'єднання з базою данихprint $r; // відображає повернене функцією значення "Закінчили!"?> `
+` <?phpfunction myfunc() {    $conn = oci_connect('hr', 'hrpwd', 'localhost/XE'); if (!$conn) {        $e = oci_error(); trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR); }   $stid = oci_parse($conn, 'UPDATE mytab SET id = 100'); oci_execute($stid, OCI_NO_AUTO_COMMIT); return "Закінчили!";}$r = myfunc();// У цій точці відбувається відкат транзакції і закривається відповідне// з'єднання з базою данихprint $r; // відображає повернене функцією значення "Закінчили!"?> `
 
 ### Примітки
 

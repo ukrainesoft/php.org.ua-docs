@@ -7,7 +7,7 @@
 
 # Клас finfo
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL fileinfo \>u003d 0.1.0)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL fileinfo \>= 0.1.0)
 
 ## Вступ
 
@@ -20,14 +20,14 @@ class **finfo** {
 
 /\* Методи \*/
 
-public [\_\_construct](finfo.construct.md)(int `$flags` u003d
-**`FILEINFO_NONE`**, ?string `$magic_database` u003d **`null`**)
+public [\_\_construct](finfo.construct.md)(int `$flags` =
+**`FILEINFO_NONE`**, ?string `$magic_database` = **`null`**)
 
-public [buffer](finfo.buffer.md)(string `$string`, int `$flags` u003d
-**`FILEINFO_NONE`**, ?resource `$context` u003d **`null`**): string\|false
+public [buffer](finfo.buffer.md)(string `$string`, int `$flags` =
+**`FILEINFO_NONE`**, ?resource `$context` = **`null`**): string\|false
 
-public [file](finfo.file.md)(string `$filename`, int `$flags` u003d
-**`FILEINFO_NONE`**, ?resource `$context` u003d **`null`**): string\|false
+public [file](finfo.file.md)(string `$filename`, int `$flags` =
+**`FILEINFO_NONE`**, ?resource `$context` = **`null`**): string\|false
 
 public [set_flags](finfo.set-flags.md)(int `$flags`): bool
 

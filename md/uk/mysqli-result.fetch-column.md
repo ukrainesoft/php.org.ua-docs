@@ -9,7 +9,7 @@
 
 # mysqli_fetch_column
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 mysqli_result::fetch_column -- mysqli_fetch_column — Отримує один
 стовпець з наступного рядка набору результатів
@@ -18,13 +18,13 @@ mysqli_result::fetch_column -- mysqli_fetch_column — Отримує один
 
 Об'єктно-орієнтований стиль
 
-public **mysqli_result::fetch_column**(int `$column` u003d 0):
+public **mysqli_result::fetch_column**(int `$column` = 0):
 null\|int\|float\|string\|false
 
 Процедурний стиль
 
 **mysqli_fetch_column**([mysqli_result](class.mysqli-result.md)
-`$result`, int `$column` u003d 0): null\|int\|float\|string\|false
+`$result`, int `$column` = 0): null\|int\|float\|string\|false
 
 Вибирає один рядок даних із набору результатів та повертає стовпець з
 вказаним індексом, починаючи з 0. Кожен наступний виклик цієї функції
@@ -64,12 +64,12 @@ null\|int\|float\|string\|false
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d| ;$result u003d $mysqli->query($query);/* отримання значення з другого стовпця */while ($Name u003d $result->fetch_column(1)) {    printf("%s
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("localhost", "my_user", "my_password", "world");$query =| ;$result = $mysqli->query($query);/* отримання значення з другого стовпця */while ($Name = $result->fetch_column(1)) {    printf("%s
 ", $Name);} `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d mysqli_connect("localhost", "my_user", "my_password", "world");$query u003d "S C  $result u003d mysqli_query($mysqli, $query);/* отримання значення з другого стовпця */while ($Name u003d mysqli_fetch_column($result, 1)) {    printf("
+`<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = mysqli_connect("localhost", "my_user", "my_password", "world");$query = "S C  $result = mysqli_query($mysqli, $query);/* отримання значення з другого стовпця */while ($Name = mysqli_fetch_column($result, 1)) {    printf("
 ", $Name);} `
 
 Результатом виконання даних прикладів буде щось подібне:

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\MinKey::serialize
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\MinKey::serialize — Серіалізує MinKey
 

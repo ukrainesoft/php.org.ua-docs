@@ -7,7 +7,7 @@
 
 # mqseries_connx
 
-(PECL mqseries \>u003d 0.10.0)
+(PECL mqseries \>= 0.10.0)
 
 mqseries_connx — MQSeries MQCONNX
 
@@ -61,13 +61,13 @@ resource `&$reason`
 
 **Приклад #1 Приклад використання **mqseries_connx()****
 
-` <?php    $mqcno u003d array(        'Version' u003d> MQSERIES_MQCNO_VERSION_2,        'Options' u003d> MQSERIES_MQCNO_STANDARD_BINDING,        'MQCD' u003d> array('ChannelName' u003d> 'MQNX9420.CLIENT',        'ConnectionName' u003d> 'localhost', 'TransportType' u003du003d> MQSERIES_MQXPT_TCP)    ); mqseries_connx('MQNX9420', $mqcno, $conn, $comp_code,$reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("Connx CompCode:%d Reason:%d Text:%s<br>
+` <?php    $mqcno = array(        'Version' => MQSERIES_MQCNO_VERSION_2,        'Options' => MQSERIES_MQCNO_STANDARD_BINDING,        'MQCD' => array('ChannelName' => 'MQNX9420.CLIENT',        'ConnectionName' => 'localhost', 'TransportType' ==> MQSERIES_MQXPT_TCP)    ); mqseries_connx('MQNX9420', $mqcno, $conn, $comp_code,$reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("Connx CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
 
 **Приклад #2 Приклад використання **mqseries_connx()** з використанням
 SSL та URL відповідача OCSP**
 
-` <?php    $mqcno u003d array(        'Version' u003d> 4, //MQCNO_VERSION_4        'Options' u003d> MQSERIES_MQCNO_STANDARD_BINDING,        'MQCD' u003d> array(            'Version' u003d> 7, //MQCD_VERSION_7            'ConnectionName' u003d> 'localhost ',            'TransportType' u003d> MQSERIES_MQXPT_TCP,            'ChannelName' u003d> 'CONNECTIONCHANNEL',            'SSLCipherSpec' u003d> 'NULL_SHA'        ),        'MQSCO' u003d> array(            'KeyRepository' u003d> '/var/mqm/qmgrs/QUEUEMGR/ ssl/key', //Local path where the SSL key repository can be found            'MQAIR' u003d> array(                'Version' u003d> 2, //MQAIR_VERSION_2                'AuthInfoType' u003d> 2, //MQAIT_OCSP                'OCSPResponderURL' u003d> ' http://dummy.OCSP.responder'             )        )    )); mqseries_connx('QUEUEMGR', $mqcno, $conn, $comp_code,$reason); if ($comp_code !u003du003d MQSERIES_MQCC_OK) {         printf("Connx CompCode:%d Reason:%d Text:%s<br>
+` <?php    $mqcno = array(        'Version' => 4, //MQCNO_VERSION_4        'Options' => MQSERIES_MQCNO_STANDARD_BINDING,        'MQCD' => array(            'Version' => 7, //MQCD_VERSION_7            'ConnectionName' => 'localhost ',            'TransportType' => MQSERIES_MQXPT_TCP,            'ChannelName' => 'CONNECTIONCHANNEL',            'SSLCipherSpec' => 'NULL_SHA'        ),        'MQSCO' => array(            'KeyRepository' => '/var/mqm/qmgrs/QUEUEMGR/ ssl/key', //Local path where the SSL key repository can be found            'MQAIR' => array(                'Version' => 2, //MQAIR_VERSION_2                'AuthInfoType' => 2, //MQAIT_OCSP                'OCSPResponderURL' => ' http://dummy.OCSP.responder'             )        )    )); mqseries_connx('QUEUEMGR', $mqcno, $conn, $comp_code,$reason); if ($comp_code !== MQSERIES_MQCC_OK) {         printf("Connx CompCode:%d Reason:%d Text:%s<br>
 ", $comp_code, $reason, mqseries_strerror($reason));        exit;    }?> `
 
 ### Дивіться також

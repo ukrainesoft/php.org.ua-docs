@@ -7,7 +7,7 @@
 
 # fflush
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 fflush — Скидає буфер виводу у файл
 
@@ -35,7 +35,7 @@ fflush — Скидає буфер виводу у файл
 
 **Приклад #1 Приклад запису файлу за допомогою **fflush()****
 
-` <?php$filename u003d 'bar.txt';$file u003dfopen($filename, 'r+');rewind($file);fwrite($file, 'Foo');fflush($file);ftruncate( $file, ftell($file));fclose($file);?> `
+` <?php$filename = 'bar.txt';$file =fopen($filename, 'r+');rewind($file);fwrite($file, 'Foo');fflush($file);ftruncate( $file, ftell($file));fclose($file);?> `
 
 ### Дивіться також
 

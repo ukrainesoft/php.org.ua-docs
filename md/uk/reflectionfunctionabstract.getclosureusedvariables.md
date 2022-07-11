@@ -7,7 +7,7 @@
 
 # ReflectionFunctionAbstract::getClosureUsedVariables
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ReflectionFunctionAbstract::getClosureUsedVariables — Повертає масив
 використовуваних у замиканні змінних
@@ -33,14 +33,14 @@ public **ReflectionFunctionAbstract::getClosureUsedVariables**(): array
 **Приклад #1 Приклад використання
 **ReflectionFunctionAbstract::getClosureUsedVariables()****
 
-` <?php$one u003d 1;$two u003d 2;$function u003d function() use ($one, $two) {    static $three u003d 3;};$reflectoru003du003dnew ReflectionFun$ reflector->getClosureUsedVariables());?> `
+` <?php$one = 1;$two = 2;$function = function() use ($one, $two) {    static $three = 3;};$reflector==new ReflectionFun$ reflector->getClosureUsedVariables());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 array(2) {
-["one"]u003d>
+["one"]=>
 int(1)
-["two"]u003d>
+["two"]=>
 int(2)
 }
 

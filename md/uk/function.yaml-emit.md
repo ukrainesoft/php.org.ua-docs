@@ -7,7 +7,7 @@
 
 # yaml_emit
 
-(PECL yaml \>u003d 0.5.0)
+(PECL yaml \>= 0.5.0)
 
 yaml_emit — Повертає YAML-подання значення
 
@@ -16,9 +16,9 @@ yaml_emit — Повертає YAML-подання значення
 **yaml_emit**(
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$data`,
-int `$encoding` u003d YAML_ANY_ENCODING,
-int `$linebreak` u003d YAML_ANY_BREAK,
-array `$callbacks` u003d **`null`**
+int `$encoding` = YAML_ANY_ENCODING,
+int `$linebreak` = YAML_ANY_BREAK,
+array `$callbacks` = **`null`**
 ): string
 
 Повертає YAML-подання переданих у параметрі 'data' даних.
@@ -53,14 +53,14 @@ callbacks
 ### Список змін
 
 | Версія          | Опис                        |
-| --------------- | --------------------------- |
+|-----------------|-----------------------------|
 | PECL yaml 1.1.0 | Доданий параметр callbacks. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **yaml_emit()****
 
-` <?php$addr u003d array(    "given" u003d> "Chris",    "family"u003d> "Dumars",    "address"u003d> array(        "lines"u003d> "458 Walkman Dr.        Suite #292",        " city"u003d> "Royal Oak",        "state"u003d> "MI",        "postal"u003d> 48046,      ),  );$invoice u003d array (    "invoice"u003d> 34843,    "date"u003d> 980208000,    "bill -to"u003d> $addr,    "ship-to"u003d> $addr,    "product"u003d> array(        array(            "sku"u003d> "BL394D",            "quantity"u003d> 4,            "description"u003d> "Basketball ",            "price"u003d> 450,          ),        array(            "sku"u003d> "BL4438H",            "quantity"u003d> 1,            "description"u003d> "Super Hoop",            "price"u003d> 2392,          ),      ), "tax"u003d> 251.42,    "total"u003d> 4443.52,   "comments"u003d> "Late afternoon is best. Backup contact is Nancy Billsmer @ | `
+` <?php$addr = array(    "given" => "Chris",    "family"=> "Dumars",    "address"=> array(        "lines"=> "458 Walkman Dr.        Suite #292",        " city"=> "Royal Oak",        "state"=> "MI",        "postal"=> 48046,      ),  );$invoice = array (    "invoice"=> 34843,    "date"=> 980208000,    "bill -to"=> $addr,    "ship-to"=> $addr,    "product"=> array(        array(            "sku"=> "BL394D",            "quantity"=> 4,            "description"=> "Basketball ",            "price"=> 450,          ),        array(            "sku"=> "BL4438H",            "quantity"=> 1,            "description"=> "Super Hoop",            "price"=> 2392,          ),      ), "tax"=> 251.42,    "total"=> 4443.52,   "comments"=> "Late afternoon is best. Backup contact is Nancy Billsmer @ | `
 
 Результатом виконання цього прикладу буде щось подібне:
 

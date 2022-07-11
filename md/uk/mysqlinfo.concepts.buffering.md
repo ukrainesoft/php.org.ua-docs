@@ -48,8 +48,8 @@ result") також використовується для режиму буф�
 
 **Приклад #1 Приклад небуферизованого запиту: mysqli**
 
-` <?php$mysqli u003du003dnew mysqli("localhost", "my_user", "my_password", "world");$uresult u003d $mysqli->query("SELECT Name FROM City", MYSQLI_USE_result ) {  while ($row u003d $uresult->fetch_assoc()) {      echo $row['Name'] . PHP_EOL; }}?> `
+` <?php$mysqli ==new mysqli("localhost", "my_user", "my_password", "world");$uresult = $mysqli->query("SELECT Name FROM City", MYSQLI_USE_result ) {  while ($row = $uresult->fetch_assoc()) {      echo $row['Name'] . PHP_EOL; }}?> `
 
 **Приклад #2 Приклад небуферизованого запиту: pdo_mysql**
 
-` <?php$pdo u003d new PDO("mysql:hostu003dlocalhost;dbnameu003dworld", 'my_user', 'my_pass');$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);$uresult u003d| ->query("SELECT Name FROM City");if ($uresult) {   while ($row u003d $uresult->fetch(PDO::FETCH_ASSOC)) {       echo $row'[' PHP_EOL; }}?> `
+` <?php$pdo = new PDO("mysql:host=localhost;dbname=world", 'my_user', 'my_pass');$pdo->setAttribute(PDO::MYSQL_ATTR_USE_BUFFERED_QUERY, false);$uresult =| ->query("SELECT Name FROM City");if ($uresult) {   while ($row = $uresult->fetch(PDO::FETCH_ASSOC)) {       echo $row'[' PHP_EOL; }}?> `

@@ -33,15 +33,15 @@ ImagickPixelException.
 
 **Приклад #1 Приклад використання **Imagick::getHSL()****
 
-` <?php$color u003d new ImagickPixel('rgb(90%, 10%, 10%)');$colorInfou003du003d$$color->getHSL();print_r($colorInfo);?> `
+` <?php$color = new ImagickPixel('rgb(90%, 10%, 10%)');$colorInfo==$$color->getHSL();print_r($colorInfo);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[hue] u003d> 0
-[saturation] u003d> 0.80001220740379
-[luminosity] u003d> 0.50000762951095
+[hue] => 0
+[saturation] => 0.80001220740379
+[luminosity] => 0.50000762951095
 )
 
 ### Примітки

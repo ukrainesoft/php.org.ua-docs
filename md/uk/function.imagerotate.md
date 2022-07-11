@@ -7,7 +7,7 @@
 
 #imagerotate
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 imagerotate — Повертання зображення із заданим кутом
 
@@ -17,7 +17,7 @@ imagerotate — Повертання зображення із заданим к
 [GdImage](class.gdimage.md) `$image`,
 float `$angle`,
 int `$background_color`,
-bool `$ignore_transparent` u003d **`false`**
+bool `$ignore_transparent` = **`false`**
 ): [GdImage](class.gdimage.md)\|false
 
 Повертання зображення `image` на заданий кут `angle` у градусах.
@@ -49,7 +49,7 @@ bool `$ignore_transparent` u003d **`false`**
 ### Список змін
 
 | Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource).                                   |
 | 8.0.0  | Невикористовуваний v тепер очікує на логічне значення (bool); раніше очікувалося ціле число (int).                             |
@@ -60,7 +60,7 @@ bool `$ignore_transparent` u003d **`false`**
 
 Цей приклад повертає зображення на 180 градусів – верхи вниз.
 
-` <?php// Файл і кут<повороту$filename u003d 'test.jpg';$degrees u003d 180;// Тип вмістheader('Content-type: image/jpeg');// Завантаження image filename);// Поворот$rotate u003d imagerotate($source, $degrees, 0);// Виведенняimagejpeg($rotate);// Вивільнення пам'ятіimagedestroy($source);imagedestroy($rotate);?> `
+` <?php// Файл і кут<повороту$filename = 'test.jpg';$degrees = 180;// Тип вмістheader('Content-type: image/jpeg');// Завантаження image filename);// Поворот$rotate = imagerotate($source, $degrees, 0);// Виведенняimagejpeg($rotate);// Вивільнення пам'ятіimagedestroy($source);imagedestroy($rotate);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

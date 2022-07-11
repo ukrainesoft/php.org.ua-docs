@@ -7,7 +7,7 @@
 
 # fann_set_cascade_weight_multiplier
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_set_cascade_weight_multiplier - Встановлює множник ваги
 

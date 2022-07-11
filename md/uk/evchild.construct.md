@@ -7,7 +7,7 @@
 
 # EvChild::\_\_construct
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 EvChild::\_\_construct — Створює об'єкт спостерігача EvChild
 
@@ -19,8 +19,8 @@ bool `$trace`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 )
 
 Створює об'єкт спостерігача [EvChild](class.evchild.md).

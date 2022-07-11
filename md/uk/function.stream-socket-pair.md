@@ -7,7 +7,7 @@
 
 #stream_socket_pair
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 stream_socket_pair — Створює пару підключених, невиразних потоків
 сокетів
@@ -52,7 +52,7 @@ array\|false
 Цей приклад демонструє основи використання функції
 **stream_socket_pair()** у міжпроцесній взаємодії.
 
-`<?php$sockets u003d stream_socket_pair(STREAM_PF_UNIX, STREAM_SOCK_STREAM, STREAM_IPPROTO_IP);$pid    u003d pcntl_fork();if|    | {     /* батьківський процесс */    fclose($sockets[0]); fwrite($sockets[1], "дочірній PID: $pid
+`<?php$sockets = stream_socket_pair(STREAM_PF_UNIX, STREAM_SOCK_STREAM, STREAM_IPPROTO_IP);$pid    = pcntl_fork();if|    | {     /* батьківський процесс */    fclose($sockets[0]); fwrite($sockets[1], "дочірній PID: $pid
 ");   echo fgets($sockets[1]);   fclose($sockets[1]);} else {    /* дочірній процесс */    fclose($sockets[ s| від дочірнього процесу
 ");   echo fgets($sockets[0]);   fclose($sockets[0]);}?> `
 

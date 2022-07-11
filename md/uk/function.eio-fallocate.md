@@ -8,7 +8,7 @@
 
 #eio_fallocate
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_fallocate — Дозволяє безпосередньо керувати розміром використовуваного
 дискового простору для файлу
@@ -21,10 +21,10 @@ eio_fallocate — Дозволяє безпосередньо керувати �
 int `$mode`,
 int `$offset`,
 int `$length`,
-int `$pri` u003d EIO_PRI_DEFAULT,
-[callable](language.types.callable.md) `$callback` u003d NULL,
+int `$pri` = EIO_PRI_DEFAULT,
+[callable](language.types.callable.md) `$callback` = NULL,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$data u003d NULL
+$data = NULL
 ): resource
 
 **eio_fallocate()** дозволяє безпосередньо керувати розміром використовуваного

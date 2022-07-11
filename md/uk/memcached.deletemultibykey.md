@@ -7,7 +7,7 @@
 
 # Memcached::deleteMultiByKey
 
-(PECL memcached \>u003d 2.0.0)
+(PECL memcached \>= 2.0.0)
 
 Memcached::deleteMultiByKey — Видаляє кілька записів із зазначеного
 сервера
@@ -15,7 +15,7 @@ Memcached::deleteMultiByKey — Видаляє кілька записів із 
 ### Опис
 
 public **Memcached::deleteMultiByKey**(string `$server_key`, array
-`$keys`, int `$time` u003d 0): bool
+`$keys`, int `$time` = 0): bool
 
 **Memcached::deleteMultiByKey()** працює аналогічно
 [Memcached::deleteMulti()](memcached.deletemulti.md), крім

@@ -7,13 +7,13 @@
 
 # svn_mkdir
 
-(PECL svn \>u003d 0.4.0)
+(PECL svn \>= 0.4.0)
 
 svn_mkdir — Створює директорію в робочій копії або репозиторії
 
 ### Опис
 
-**svn_mkdir**(string `$path`, string `$log_message` u003d ?): bool
+**svn_mkdir**(string `$path`, string `$log_message` = ?): bool
 
 Створює директорію в робочій копії або репозиторії.
 

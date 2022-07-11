@@ -7,7 +7,7 @@
 
 # Swoole\Atomic::cmpset
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Atomic::cmpset — Порівнює та встановлює значення атомарного
 об'єкта

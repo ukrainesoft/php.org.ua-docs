@@ -7,7 +7,7 @@
 
 #pg_insert
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 pg_insert — Заносить дані з масиву до таблиці бази даних
 
@@ -17,7 +17,7 @@ pg_insert — Заносить дані з масиву до таблиці ба
 [PgSql\Connection](class.pgsql-connection.md) `$connection`,
 string `$table_name`,
 array `$values`,
-int `$flags` u003d **`PGSQL_DML_EXEC`**
+int `$flags` = **`PGSQL_DML_EXEC`**
 ): [PgSql\Result](class.pgsql-result.md)\|string\|bool
 
 **pg_insert()** вставляє записи з масиву `values` у таблицю
@@ -69,7 +69,7 @@ int `$flags` u003d **`PGSQL_DML_EXEC`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Повертає екземпляр [PgSql\Result](class.pgsql-result.md); раніше повертався ресурс ([resource](language.types.resource.md)).                                   |
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
@@ -77,7 +77,7 @@ int `$flags` u003d **`PGSQL_DML_EXEC`**
 
 **Приклад #1 Приклад використання **pg_insert()****
 
-` <?php $dbconnu003du003dpg_connect('dbnameu003dfoo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $res u003d pg_insert($dbconn, 'post_log', $_POST); if ($res) {      echo "Дані із POST успішно внесені в журнал
+` <?php $dbconn==pg_connect('dbname=foo'); // Це безпечно в деякому ступеня, оскільки всі значення екрануються. // Однак PostgreSQL підтримує JSON/масив. Для цих значень це не безпечно за допомогою екранування, ні за допомогою підготовленого запиту. $res = pg_insert($dbconn, 'post_log', $_POST); if ($res) {      echo "Дані із POST успішно внесені в журнал
 ";  } else {      echo "Користувач направив невірні дані
 ";  }?> `
 

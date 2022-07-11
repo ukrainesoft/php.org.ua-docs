@@ -7,7 +7,7 @@
 
 # Клас Yaf_View_Simple
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 ## Вступ
 
@@ -28,32 +28,32 @@ protected `$_tpl_dir`;
 /\* Методи \*/
 
 final public [\_\_construct](yaf-view-simple.construct.md)(string
-`$template_dir`, array `$options` u003d ?)
+`$template_dir`, array `$options` = ?)
 
 public [assign](yaf-view-simple.assign.md)(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-$value u003d ?): bool
+$value = ?): bool
 
 public [assignRef](yaf-view-simple.assignref.md)(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&$value`): bool
 
-public [clear](yaf-view-simple.clear.md)(string `$name` u003d ?): bool
+public [clear](yaf-view-simple.clear.md)(string `$name` = ?): bool
 
 public [display](yaf-view-simple.display.md)(string `$tpl`, array
-`$tpl_vars` u003d ?): bool
+`$tpl_vars` = ?): bool
 
 public [eval](yaf-view-simple.eval.md)(string `$tpl_content`, array
-`$tpl_vars` u003d ?): string
+`$tpl_vars` = ?): string
 
-public [\_\_get](yaf-view-simple.get.md)(string `$name` u003d ?): void
+public [\_\_get](yaf-view-simple.get.md)(string `$name` = ?): void
 
 public [getScriptPath](yaf-view-simple.getscriptpath.md)(): string
 
 public [\_\_isset](yaf-view-simple.isset.md)(string `$name`): void
 
 public [render](yaf-view-simple.render.md)(string `$tpl`, array
-`$tpl_vars` u003d ?): string
+`$tpl_vars` = ?): string
 
 public [\_\_set](yaf-view-simple.set.md)(string `$name`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)

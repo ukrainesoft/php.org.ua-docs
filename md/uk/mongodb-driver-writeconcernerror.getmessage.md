@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteConcernError::getMessage
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteConcernError::getMessage — Повертає повідомлення про
 помилка WriteConcernError
@@ -34,7 +34,7 @@ final public **MongoDB\Driver\WriteConcernError::getMessage**(): string
 **Приклад #1 Приклад використання
 **MongoDB\Driver\WriteConcernError::getMessage()****
 
-` <?php$manager u003d new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSetu003dmyReplicaSet");$bulk u003d new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' u003d> 1]);$writeConcern u003d new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {    var_dump($e->getWriteResult()->getWriteConcernError()->getMessage());}?> `
+` <?php$manager = new MongoDB\Driver\Manager("mongodb://rs1.example.com,rs2.example.com/?replicaSet=myReplicaSet");$bulk = new MongoDB\Driver\BulkWrite;$bulk ->insert(['x' => 1]);$writeConcern = new MongoDB\Driver\WriteConcern(2, 1);try {    $manager->executeBulkWrite('db.collection', $bulk, $; } catch(MongoDB\Driver\Exception\BulkWriteException $e) {    var_dump($e->getWriteResult()->getWriteConcernError()->getMessage());}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

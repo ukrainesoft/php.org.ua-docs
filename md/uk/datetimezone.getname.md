@@ -9,7 +9,7 @@
 
 #timezone_name_get
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTimeZone::getName -- timezone_name_get — Повертає ім'я вартового
 пояси

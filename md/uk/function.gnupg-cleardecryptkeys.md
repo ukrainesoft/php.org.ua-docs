@@ -7,7 +7,7 @@
 
 #gnupg_cleardecryptkeys
 
-(PECL gnupg \>u003d 0.5)
+(PECL gnupg \>= 0.5)
 
 gnupg_cleardecryptkeys — Видалення всіх ключів, які були встановлені для
 розшифровки раніше
@@ -32,9 +32,9 @@ gnupg_cleardecryptkeys — Видалення всіх ключів, які бу
 **Приклад #1 Процедурний приклад використання
 **gnupg_cleardecryptkeys()****
 
-` <?php$res u003d gnupg_init();gnupg_cleardecryptkeys($res);?> `
+` <?php$res = gnupg_init();gnupg_cleardecryptkeys($res);?> `
 
 **Приклад #2 Об'єктно-орієнтований приклад використання
 **gnupg_cleardecryptkeys()****
 
-` <?php$gpg u003d new gnupg();$gpg->cleardecryptkeys();?> `
+` <?php$gpg = new gnupg();$gpg->cleardecryptkeys();?> `

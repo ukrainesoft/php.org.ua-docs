@@ -8,7 +8,7 @@
 
 # Closure::bind
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 Closure::bind — Дублює замикання із зазначенням конкретного зв'язаного
 об'єкта та області видимості класу
@@ -16,7 +16,7 @@ Closure::bind — Дублює замикання із зазначенням к
 ### Опис
 
 public static **Closure::bind**([Closure](class.closure.md)
-`$closure`, ?object `$newThis`, object\|string\|null `$newScope` u003d
+`$closure`, ?object `$newThis`, object\|string\|null `$newScope` =
 "static"): ?[Closure](class.closure.md)
 
 Цей метод є статичним варіантом
@@ -49,7 +49,7 @@ protected (захищених) та private (закритих) методів п
 
 **Приклад #1 Приклад **Closure::bind()****
 
-`<?phpclass A {    private static $sfoo u003d 1; private $ifoo u003d 2;}$cl1 u003d static function() {    return A::$sfoo;};$cl2 u003d function() {    return $this->ifoo: c:| , null, 'A');$bcl2 u003d Closure::bind($cl2, new A(), 'A');echo $bcl1(), "
+`<?phpclass A {    private static $sfoo = 1; private $ifoo = 2;}$cl1 = static function() {    return A::$sfoo;};$cl2 = function() {    return $this->ifoo: c:| , null, 'A');$bcl2 = Closure::bind($cl2, new A(), 'A');echo $bcl1(), "
 ";echo $bcl2(), "
 ";?> `
 

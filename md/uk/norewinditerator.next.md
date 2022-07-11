@@ -7,7 +7,7 @@
 
 # NoRewindIterator::next
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 NoRewindIterator::next — Переміщення ітератора до наступного елемента
 

@@ -7,7 +7,7 @@
 
 #gnupg_decrypt
 
-(PECL gnupg \>u003d 0.1)
+(PECL gnupg \>= 0.1)
 
 gnupg_decrypt — Розшифровує переданий текст
 
@@ -37,9 +37,9 @@ gnupg_decrypt — Розшифровує переданий текст
 
 **Приклад #1 Процедурний приклад використання **gnupg_decrypt()****
 
-`<?php$res u003d|gnupg_init();gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$plain u003d 
+`<?php$res =|gnupg_init();gnupg_adddecryptkey($res, "8660281B6051D071D94B5B230549F9DC851566DC", "test");$plain = 
 
 **Приклад #2 Об'єктно-орієнтований приклад використання
 **gnupg_decrypt()****
 
-`<?php$gpg u003d new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$plain u003d $gp
+`<?php$gpg = new gnupg();$gpg->adddecryptkey("8660281B6051D071D94B5B230549F9DC851566DC","test");$plain = $gp

@@ -7,7 +7,7 @@
 
 # zlib_get_coding_type
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 zlib_get_coding_type — Повертає спосіб кодування, який використовується для
 стиснення виведення

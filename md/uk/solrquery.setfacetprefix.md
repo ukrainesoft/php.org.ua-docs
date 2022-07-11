@@ -8,7 +8,7 @@
 
 # SolrQuery::setFacetPrefix
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setFacetPrefix — Визначає рядковий префікс за допомогою
 якого обмежуються вирази, на яких виконується фасет
@@ -16,7 +16,7 @@ SolrQuery::setFacetPrefix — Визначає рядковий префікс �
 ### Опис
 
 public **SolrQuery::setFacetPrefix**(string `$prefix`, string
-`$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+`$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Визначає рядковий префікс, за допомогою якого обмежуються
 вирази, у яких виконується фасет.

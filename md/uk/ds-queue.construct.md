@@ -7,7 +7,7 @@
 
 # Ds\Queue::\_\_construct
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::\_\_construct — Створює новий екземпляр
 
@@ -15,7 +15,7 @@ Ds\Queue::\_\_construct — Створює новий екземпляр
 
 public
 **Ds\Queue::\_\_construct**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?)
+$values = ?)
 
 Створює новий екземпляр, використовуючи або об'єкт, що реалізує
 [traversable](class.traversable.md), або масив, передані в
@@ -30,17 +30,17 @@ $values u003d ?)
 
 **Приклад #1 Приклад використання **Ds\Queue::\_\_construct()****
 
-` <?php$queue u003d new \Ds\Queue();var_dump($queue);$queue u003d new \Ds\Queue([1, 2, 3]);var_dump($queue);?> `
+` <?php$queue = new \Ds\Queue();var_dump($queue);$queue = new \Ds\Queue([1, 2, 3]);var_dump($queue);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Queue)#2 (0) {
 }
 object(Ds\Queue)#2 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

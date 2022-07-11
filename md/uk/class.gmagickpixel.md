@@ -7,7 +7,7 @@
 
 # Клас GmagickPixel
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 ## Вступ
 
@@ -17,10 +17,10 @@ class **GmagickPixel** {
 
 /\* Методи \*/
 
-public [\_\_construct](gmagickpixel.construct.md)(string `$color` u003d ?)
+public [\_\_construct](gmagickpixel.construct.md)(string `$color` = ?)
 
-public [getcolor](gmagickpixel.getcolor.md)(bool `$as_array` u003d
-**`false`**, bool `$normalize_array` u003d **`false`**):
+public [getcolor](gmagickpixel.getcolor.md)(bool `$as_array` =
+**`false`**, bool `$normalize_array` = **`false`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getcolorcount](gmagickpixel.getcolorcount.md)(): int

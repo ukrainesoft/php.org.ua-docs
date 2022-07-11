@@ -7,7 +7,7 @@
 
 # Gmagick::getimageheight
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::getimageheight — Повертає висоту зображення
 

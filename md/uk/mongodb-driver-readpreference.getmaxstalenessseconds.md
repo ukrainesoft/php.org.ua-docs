@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\ReadPreference::getMaxStalenessSeconds
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\Driver\ReadPreference::getMaxStalenessSeconds - Повертає
 параметр "maxStalenessSeconds" ReadPreference
@@ -37,7 +37,7 @@ final public
 **Приклад #1 Приклад використання
 **MongoDB\Driver\ReadPreference::getMaxStalenessSeconds()****
 
-` <?php$rp u003d new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);var_dump($rp->getMaxStalenessSeconds());$rp u003d new MongoDB\Driver\ReadPreference ::RP_SECONDARY, null, [   'maxStalenessSeconds' u003d> MongoDB\Driver\ReadPreference::NO_MAX_STALENESS,]);var_dump($rp->getMaxStalenessSeconds());$rp M ::RP_SECONDARY, null, [   'maxStalenessSeconds' u003d> MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS,]);var_dump($rp->getMaxStalenessSeconds()\Read ::RP_SECONDARY, null, [    'maxStalenessSeconds' u003d> 1000,]);var_dump($rp->getMaxStalenessSeconds());?> `
+` <?php$rp = new MongoDB\Driver\ReadPreference(MongoDB\Driver\ReadPreference::RP_SECONDARY);var_dump($rp->getMaxStalenessSeconds());$rp = new MongoDB\Driver\ReadPreference ::RP_SECONDARY, null, [   'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::NO_MAX_STALENESS,]);var_dump($rp->getMaxStalenessSeconds());$rp M ::RP_SECONDARY, null, [   'maxStalenessSeconds' => MongoDB\Driver\ReadPreference::SMALLEST_MAX_STALENESS_SECONDS,]);var_dump($rp->getMaxStalenessSeconds()\Read ::RP_SECONDARY, null, [    'maxStalenessSeconds' => 1000,]);var_dump($rp->getMaxStalenessSeconds());?> `
 
 Результат виконання цього прикладу:
 

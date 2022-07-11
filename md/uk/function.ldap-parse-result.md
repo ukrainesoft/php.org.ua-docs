@@ -7,7 +7,7 @@
 
 #ldap_parse_result
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 ldap_parse_result — Отримати інформацію з результату
 
@@ -17,10 +17,10 @@ ldap_parse_result — Отримати інформацію з результа�
 [LDAP\Connection](class.ldap-connection.md) `$ldap`,
 [LDAP\Result](class.ldap-result.md) `$result`,
 int `&$error_code`,
-string `&$matched_dn` u003d **`null`**,
-string `&$error_message` u003d **`null`**,
-array `&$referrals` u003d **`null`**,
-array `&$controls` u003d **`null`**
+string `&$matched_dn` = **`null`**,
+string `&$error_message` = **`null`**,
+array `&$referrals` = **`null`**,
+array `&$controls` = **`null`**
 ): bool
 
 Обробляє результат пошуку LDAP.
@@ -64,7 +64,7 @@ array `&$controls` u003d **`null`**
 ### Список змін
 
 | Версія | Опис                                                                                                                                                    |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр ldap тепер очікує на екземпляр [LDAP\Connection](class.ldap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.1.0  | Параметр result тепер чекає на екземпляр [LDAP\Result](class.ldap-result.md); раніше очікувався ресурс ([resource](language.types.resource.md)).        |
 | 7.3    | Додано підтримку параметра controls                                                                                                                     |
@@ -73,4 +73,4 @@ array `&$controls` u003d **`null`**
 
 **Приклад #1 Приклад використання **ldap_parse_result()****
 
-` <?php$result u003d ldap_search($link, "cnu003duserref,dcu003dmy-domain,dcu003dcom", "(cnu003duser*)");$errcode u003d $dn u003d $errmsg u003d $refs u003du003d null;if (ldap_parse_result($link, $result, $errcode, $dn, $errmsg, $refs)) {     // різні операції с $errcode, $dn, $|
+` <?php$result = ldap_search($link, "cn=userref,dc=my-domain,dc=com", "(cn=user*)");$errcode = $dn = $errmsg = $refs == null;if (ldap_parse_result($link, $result, $errcode, $dn, $errmsg, $refs)) {     // різні операції с $errcode, $dn, $|

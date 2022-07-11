@@ -7,7 +7,7 @@
 
 #imageistruecolor
 
-(PHP 4 \>u003d 4.3.2, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.2, PHP 5, PHP 7, PHP 8)
 
 imageistruecolor — Визначає, чи є зображення повнокольоровим
 
@@ -33,7 +33,7 @@ imageistruecolor — Визначає, чи є зображення повнок
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
@@ -41,7 +41,7 @@ imageistruecolor — Визначає, чи є зображення повнок
 **Приклад #1 Просте визначення повнокольорових зображень за допомогою
 **imageistruecolor()****
 
-` <?php// $im - зображення// Перевірка, є або зображення повнокольоровимif(!imageistruecolor($im)){    // Створення truecolor-зображення    $tcimage ; //копіювання з точки    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im)); imagedestroy($im); $im u003d $tc; $tcu003du003dNULL; // або використовуйте imagepalettetotruecolor()}// Continue working with image instance?> `
+` <?php// $im - зображення// Перевірка, є або зображення повнокольоровимif(!imageistruecolor($im)){    // Створення truecolor-зображення    $tcimage ; //копіювання з точки    imagecopy($tc, $im, 0, 0, 0, 0, imagesx($im), imagesy($im)); imagedestroy($im); $im = $tc; $tc==NULL; // або використовуйте imagepalettetotruecolor()}// Continue working with image instance?> `
 
 ### Дивіться також
 

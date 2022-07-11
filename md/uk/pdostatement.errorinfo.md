@@ -8,7 +8,7 @@
 
 # PDOStatement::errorInfo
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDOStatement::errorInfo — Отримання розширеної інформації про помилку,
 що сталася в результаті роботи об'єкта PDOStatement
@@ -27,28 +27,28 @@ public **PDOStatement::errorInfo**(): array
 відповідної останньої операції об'єкта PDOStatement. Масив складається
 як мінімум з наступних полів:
 
-| Елемент Інформація |
-| ------------------ |
-| 0                  | Код помилки SQLSTATE (п'ятисимвольний код, що складається з букв та цифр, визначений у стандарті ANSI SQL).
-| 1                  | Код помилки, який повертається драйвером.
-| 2                  | Повідомлення про помилку, яке повертається драйвером.
+| Елемент Інформація |                                                                                                             |
+|--------------------|-------------------------------------------------------------------------------------------------------------|
+| 0                  | Код помилки SQLSTATE (п'ятисимвольний код, що складається з букв та цифр, визначений у стандарті ANSI SQL). |
+| 1                  | Код помилки, який повертається драйвером.                                                                   |
+| 2                  | Повідомлення про помилку, яке повертається драйвером.                                                       |
 
 ### Приклади
 
 **Приклад #1 Виведення полів errorInfo() при PDO_ODBC підключенні до DB2**
 
-` <?php/* Спровокуємо помилки -- таблиці BONES не існує */$sth u003d $dbh->prepare('SELECT skull FROM bones');$sth->execute();echo "
+` <?php/* Спровокуємо помилки -- таблиці BONES не існує */$sth = $dbh->prepare('SELECT skull FROM bones');$sth->execute();echo "
 PDOStatement::errorInfo():
-";$arr u003d $sth->errorInfo();print_r($arr);?> `
+";$arr = $sth->errorInfo();print_r($arr);?> `
 
 Результат виконання цього прикладу:
 
 PDOStatement::errorInfo():
 Array
 (
-[0] u003d> 42S02
-[1] u003d> -204
-[2] u003d> [IBM][CLI Driver][DB2/LINUX] SQL0204N "DANIELS.BONES" is an undefined name. SQLSTATEu003d42704
+[0] => 42S02
+[1] => -204
+[2] => [IBM][CLI Driver][DB2/LINUX] SQL0204N "DANIELS.BONES" is an undefined name. SQLSTATE=42704
 )
 
 ### Дивіться також

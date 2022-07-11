@@ -7,7 +7,7 @@
 
 # Клас ReflectionEnumBackedCase
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ## Вступ
 
@@ -21,11 +21,11 @@ class **ReflectionEnumBackedCase** extends
 
 /\* Успадковані константи \*/
 
-const int `ReflectionClassConstant::IS_PUBLIC` u003d 1;
+const int `ReflectionClassConstant::IS_PUBLIC` = 1;
 
-const int `ReflectionClassConstant::IS_PROTECTED` u003d 2;
+const int `ReflectionClassConstant::IS_PROTECTED` = 2;
 
-const int `ReflectionClassConstant::IS_PRIVATE` u003d 4;
+const int `ReflectionClassConstant::IS_PRIVATE` = 4;
 
 /\* Наслідувані властивості \*/
 
@@ -55,11 +55,11 @@ public
 
 public static
 [ReflectionClassConstant::export](reflectionclassconstant.export.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$class`, string `$name`, bool `$return` u003d ?): string
+`$class`, string `$name`, bool `$return` = ?): string
 
 public
 [ReflectionClassConstant::getAttributes](reflectionclassconstant.getattributes.md)(?string
-`$name` u003d **`null`**, int `$flags` u003d 0): array
+`$name` = **`null`**, int `$flags` = 0): array
 
 public
 [ReflectionClassConstant::getDeclaringClass](reflectionclassconstant.getdeclaringclass.md)():

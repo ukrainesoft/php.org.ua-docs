@@ -7,7 +7,7 @@
 
 #fdf_add_doc_javascript
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_add_doc_javascript — Додає код javascript до документа FDF
 
@@ -32,7 +32,8 @@ FDF.
 Ім'я сценарію.
 
 `script_code`
-Код скрипту. Рекомендовано використовувати `` для перенесення
+Код скрипту. Рекомендовано використовувати `
+` для перенесення
 рядків у коді скрипта.
 
 ### Значення, що повертаються
@@ -43,8 +44,12 @@ FDF.
 ### Приклади
 
 **Приклад #1 Додавання коду JavaScript до FDF**
-
-` <?php$fdf u003d fdf_create();fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x){return x +1;}");fdf_save($fdf);?> `
+=
+` <?php$fdf = fdf_create();fdf_add_doc_javascript($fdf, "PlusOne", "function PlusOne(x)
+{
+return x +1;
+}
+");fdf_save($fdf);?> `
 
 створить FDF наступним чином:
 
@@ -52,7 +57,11 @@ FDF.
 %âãÏÓ
 1 0 obj
 <<
-/FDF << /JavaScript << /Doc [ (PlusOne)(function PlusOne\(x\){  return x+1;})] >> >>
+/FDF << /JavaScript << /Doc [ (PlusOne)(function PlusOne\(x\)
+{
+  return x+1;
+}
+)] >> >>
 >>
 endobj
 trailer

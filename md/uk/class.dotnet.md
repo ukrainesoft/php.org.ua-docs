@@ -7,7 +7,7 @@
 
 # Клас dotnet
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -45,7 +45,7 @@ class **dotnet** extends [variant](class.variant.md) {
 /\* Методи \*/
 
 public [\_\_construct](dotnet.construct.md)(string `$assembly_name`,
-string `$datatype_name`, int `$codepage` u003d **`CP_ACP`**)
+string `$datatype_name`, int `$codepage` = **`CP_ACP`**)
 
 }
 
@@ -65,7 +65,7 @@ string `$datatype_name`, int `$codepage` u003d **`CP_ACP`**)
 
 **Приклад #1 Приклад використання dotnet**
 
-` <?php$stack u003d new dotnet("mscorlib", "System.Collections.Stack");$stack->Push(".Net");$stack->Push("Привіт ");echo $stack- >Pop() . $stack->Pop();?> `
+` <?php$stack = new dotnet("mscorlib", "System.Collections.Stack");$stack->Push(".Net");$stack->Push("Привіт ");echo $stack- >Pop() . $stack->Pop();?> `
 
 ## Зміст
 

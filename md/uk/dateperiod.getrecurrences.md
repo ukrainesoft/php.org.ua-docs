@@ -7,7 +7,7 @@
 
 # DatePeriod::getRecurrences
 
-(PHP 7 \>u003d 7.2.17/7.3.4, PHP 8)
+(PHP 7 \>= 7.2.17/7.3.4, PHP 8)
 
 DatePeriod::getRecurrences — Отримує кількість повторів
 

@@ -8,7 +8,7 @@
 
 #xdiff_file_rabdiff
 
-(PECL xdiff \>u003d 1.5.0)
+(PECL xdiff \>= 1.5.0)
 
 xdiff_file_rabdiff — Створити бінарний патч порівнюючи два файли за допомогою
 поліномінального алгоритму Rabin fingerprinting
@@ -52,7 +52,7 @@ xdiff_file_rabdiff — Створити бінарний патч порівню
 
 Наступний код порівнює два архіви та створює патч.
 
-` <?php$old_version u003d 'my_script_1.0.tgz';$new_version u003d 'my_script_1.1.tgz';xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');?> `
+` <?php$old_version = 'my_script_1.0.tgz';$new_version = 'my_script_1.1.tgz';xdiff_file_rabdiff($old_version, $new_version, 'my_script.bdiff');?> `
 
 ### Примітки
 

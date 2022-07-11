@@ -11,7 +11,7 @@
 
 **Приклад #1 Запуск Javascript**
 
-`<?php$v8 u003d new V8Js();/* basic.js */$JS u003d <<< EOTlen u003d print('Hello' + ' ' + 'World!' + "\n");len;EOT ;try { var_dump($v8->executeString($JS, 'basic.js'));} catch (V8JsException $e) { var_dump($e);}?> `
+`<?php$v8 = new V8Js();/* basic.js */$JS = <<< EOTlen = print('Hello' + ' ' + 'World!' + "\n");len;EOT ;try { var_dump($v8->executeString($JS, 'basic.js'));} catch (V8JsException $e) { var_dump($e);}?> `
 
 Результат виконання цього прикладу:
 

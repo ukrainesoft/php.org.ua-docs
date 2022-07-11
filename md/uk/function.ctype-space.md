@@ -55,9 +55,9 @@ ctype_space — Перевірка пробілів.
 ` <?php$strings = array(    'string1' => "
 =
 ",    'string2' u003=
-arf12",   'string3' u003d> '=
+arf12",   'string3' => '=
 
- // Зверніть увага, що лапки одинарні);foreach ($strings as $name u003d> $testcase) {    if (ctype_space($testcase)) про?
+ // Зверніть увага, що лапки одинарні);foreach ($strings as $name => $testcase) {    if (ctype_space($testcase)) про?
 ";    }}else {         echo "Рядок'$name' складається не тільки із пробельних символів.
 ";    }}?> `
 

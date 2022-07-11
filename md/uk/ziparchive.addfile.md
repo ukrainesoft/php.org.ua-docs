@@ -7,7 +7,7 @@
 
 # ZipArchive::addFile
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8, PECL zip \>u003d 1.1.0)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8, PECL zip \>= 1.1.0)
 
 ZipArchive::addFile — Додає до ZIP-архіву файл за вказаним шляхом
 
@@ -15,10 +15,10 @@ ZipArchive::addFile — Додає до ZIP-архіву файл за вказ�
 
 public **ZipArchive::addFile**(
 string `$filepath`,
-string `$entryname` u003d "",
-int `$start` u003d 0,
-int `$length` u003d 0,
-int `$flags` u003d ZipArchive::FL_OVERWRITE
+string `$entryname` = "",
+int `$start` = 0,
+int `$length` = 0,
+int `$flags` = ZipArchive::FL_OVERWRITE
 ): bool
 
 Додає до ZIP-архіву файл по зазначеному шляху.
@@ -56,7 +56,7 @@ int `$flags` u003d ZipArchive::FL_OVERWRITE
 ### Список змін
 
 | Версія       | Опис                    |
-| ------------ | ----------------------- |
+|--------------|-------------------------|
 | 8.0.0/1.18.0 | Доданий параметр flags. |
 
 ### Приклади
@@ -66,7 +66,7 @@ int `$flags` u003d ZipArchive::FL_OVERWRITE
 
 **Приклад #1 Відкрити та додати**
 
-` <?php$zip u003d new ZipArchive;if ($zip->open('test.zip') u003du003du003d TRUE) {   $zip->addFile('/path/to/index.txt', 'newname. txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
+` <?php$zip = new ZipArchive;if ($zip->open('test.zip') === TRUE) {   $zip->addFile('/path/to/index.txt', 'newname. txt'); $zip->close(); echo 'готово';} else {    echo 'помилка';}?> `
 
 ### Примітки
 

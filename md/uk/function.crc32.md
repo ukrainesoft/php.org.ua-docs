@@ -7,7 +7,7 @@
 
 # crc32
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 crc32 — Обчислює поліном CRC32 для рядка
 
@@ -67,7 +67,7 @@ crc32 — Обчислює поліном CRC32 для рядка
 Цей приклад ілюструє виведення обчисленої контрольної суми за допомогою
 функції [printf()](function.printf.md):
 
-` <?php$checksumu003du003dcrc32("The quick brown fox jumped over the lazy dog.");printf("%u
+` <?php$checksum==crc32("The quick brown fox jumped over the lazy dog.");printf("%u
 ", $checksum);?> `
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # Ds\Deque::unshift
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Deque::unshift — Додає значення на початок двосторонньої черги
 
@@ -15,7 +15,7 @@ Ds\Deque::unshift — Додає значення на початок двост
 
 public
 **Ds\Deque::unshift**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-$values u003d ?): void
+$values = ?): void
 
 Додає значення на початок двосторонньої черги, зсуваючи всі елементи
 наперед, щоб звільнити місце для нових.
@@ -37,16 +37,16 @@ $values u003d ?): void
 
 **Приклад #1 Приклад використання **Ds\Deque::unshift()****
 
-` <?php$deque u003d new \Ds\Deque([1, 2, 3]);$deque->unshift("a");$deque->unshift("b", "c");print_r( $ deque);?> `
+` <?php$deque = new \Ds\Deque([1, 2, 3]);$deque->unshift("a");$deque->unshift("b", "c");print_r( $ deque);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Deque Object
 (
-[0] u003d> b
-[1] u003d> c
-[2] u003d> a
-[3] u003d> 1
-[4] u003d> 2
-[5] u003d> 3
+[0] => b
+[1] => c
+[2] => a
+[3] => 1
+[4] => 2
+[5] => 3
 )

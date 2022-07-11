@@ -8,7 +8,7 @@
 
 # fann_scale_output_train_data
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_scale_output_train_data — Масштабує вихідні дані у навчальних
 даних до вказаного діапазону

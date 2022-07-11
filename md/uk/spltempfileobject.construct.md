@@ -7,13 +7,13 @@
 
 # SplTempFileObject::\_\_construct
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 SplTempFileObject::\_\_construct — Створює новий об'єкт тимчасового файлу
 
 ### Опис
 
-public **SplTempFileObject::\_\_construct**(int `$maxMemory` u003d 2 \* 1024
+public **SplTempFileObject::\_\_construct**(int `$maxMemory` = 2 \* 1024
 \* 1024)
 
 Створює новий об'єкт, який представляє часовий файл.
@@ -41,7 +41,7 @@ public **SplTempFileObject::\_\_construct**(int `$maxMemory` u003d 2 \* 1024
 Цей приклад створює в пам'яті тимчасовий файл, який можна записати
 дані та прочитати їх.
 
-` <?php$temp u003d new SplTempFileObject();$temp->fwrite("Перший рядок
+` <?php$temp = new SplTempFileObject();$temp->fwrite("Перший рядок
 "); $ temp-> fwrite ("А це друга.
 ");echo "Вчасний файл записано " . $temp->ftell() . " байт.
 

@@ -7,7 +7,7 @@
 
 # svn_fs_txn_root
 
-(PECL svn \>u003d 0.2.0)
+(PECL svn \>= 0.2.0)
 
 svn_fs_txn_root — Створює та повертає корінь транзакції
 

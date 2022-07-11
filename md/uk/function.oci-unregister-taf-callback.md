@@ -8,7 +8,7 @@ Database TAF
 
 #oci_unregister_taf_callback
 
-(PHP 7.0 \>u003d 7.0.23, PHP 8, PHP 7 \>u003d 7.1.9, PHP 8, PECL OCI8 \>u003d 2.1.7)
+(PHP 7.0 \>= 7.0.23, PHP 8, PHP 7 \>= 7.1.9, PHP 8, PECL OCI8 \>= 2.1.7)
 
 oci_unregister_taf_callback — Видалити реєстрацію користувача
 callback-функції для Oracle Database TAF

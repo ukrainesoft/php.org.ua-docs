@@ -15,7 +15,7 @@ DOMDocument::schemaValidateSource — Перевіряє дійсність
 ### Опис
 
 public **DOMDocument::schemaValidateSource**(string `$source`, int
-$flags u003d 0): bool
+$flags = 0): bool
 
 Перевіряє відповідність документа переданої через рядок схемою.
 

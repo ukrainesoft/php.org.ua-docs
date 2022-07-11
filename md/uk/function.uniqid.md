@@ -13,7 +13,7 @@ uniqid — Створити унікальний ID
 
 ### Опис
 
-**uniqid**(string `$prefix` u003d "", bool `$more_entropy` u003d **`false`**):
+**uniqid**(string `$prefix` = "", bool `$more_entropy` = **`false`**):
 string
 
 Отримує унікальний ідентифікатор з префіксом, що базується на поточному

@@ -9,7 +9,7 @@
 
 # mysqli_begin_transaction
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 mysqli::begin_transaction -- mysqli_begin_transaction -- Стартує
 транзакцію
@@ -18,13 +18,13 @@ mysqli::begin_transaction -- mysqli_begin_transaction -- Стартує
 
 Об'єктно-орієнтований стиль
 
-public **mysqli::begin_transaction**(int `$flags` u003d 0, ?string `$name` u003d
+public **mysqli::begin_transaction**(int `$flags` = 0, ?string `$name` =
 **`null`**): bool
 
 Процедурний стиль:
 
 **mysqli_begin_transaction**([mysqli](class.mysqli.md) `$mysql`, int
-`$flags` u003d 0, ?string `$name` u003d **`null`**): bool
+`$flags` = 0, ?string `$name` = **`null`**): bool
 
 Стартує транзакцію. Потрібно InnoDB (дозволено за замовчуванням). Для
 додаткову інформацію, як працюють транзакції в MySQL, читайте
@@ -60,7 +60,7 @@ TRANSACTION READ ONLY". Потрібен MySQL 5.6 або вище.
 ### Список змін
 
 | Версія | Опис                                |
-| ------ | ----------------------------------- |
+|--------|-------------------------------------|
 | 8.0.0  | name тепер припускає значення null. |
 
 ### Приклади
@@ -69,11 +69,11 @@ TRANSACTION READ ONLY". Потрібен MySQL 5.6 або вище.
 
 Об'єктно-орієнтований стиль
 
-` <?php/* Вказати mysqli викидати виняток в випадки виникнення помилки */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$my_ должен поддерживать транзакции */$mysqli->query("CREATE TABLE IF NOT EXISTS language (    Code text NOT NULL,    Speakers int(11) NOT NULL    ) ENGINEu003dInnoDB DEFAULT CHARSETu003dutf8mb4;");/* Начало транзакции */$ mysqli->begin_transaction();try {    /* Додавання будь-яких значень */    $mysqli->query("INSERT INTO language(Code, Speakers) VALUES 0''2 /* Спроба додати неприпустимі значення */    $language_code u003d 'FR'; $native_speakersu003du003d'Unknown'; $stmtu003du003d$mysqli->prepare('INSERT INTO language(Code, Speakers) VALUES (?,?)'); $stmt->bind_param('ss', $language_code, $native_speakers); $stmt->execute(); /* Якщо код досягає цієї точки без помилок, фіксуємо дані в базі даних. */   $mysqli->commit();} catch (mysqli_sql_exception $exception) {    $mysqli->rollback(); throw $exception;} `
+` <?php/* Вказати mysqli викидати виняток в випадки виникнення помилки */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$my_ должен поддерживать транзакции */$mysqli->query("CREATE TABLE IF NOT EXISTS language (    Code text NOT NULL,    Speakers int(11) NOT NULL    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");/* Начало транзакции */$ mysqli->begin_transaction();try {    /* Додавання будь-яких значень */    $mysqli->query("INSERT INTO language(Code, Speakers) VALUES 0''2 /* Спроба додати неприпустимі значення */    $language_code = 'FR'; $native_speakers=='Unknown'; $stmt==$mysqli->prepare('INSERT INTO language(Code, Speakers) VALUES (?,?)'); $stmt->bind_param('ss', $language_code, $native_speakers); $stmt->execute(); /* Якщо код досягає цієї точки без помилок, фіксуємо дані в базі даних. */   $mysqli->commit();} catch (mysqli_sql_exception $exception) {    $mysqli->rollback(); throw $exception;} `
 
 Процедурний стиль
 
-`<?php/* Вказати mysqli викидати виняток в випадку виникнення помилки */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysql| поддерживать транзакции */mysqli_query($mysqli, "CREATE TABLE IF NOT EXISTS language (    Code text NOT NULL,    Speakers int(11) NOT NULL    ) ENGINEu003dInnoDB DEFAULT CHARSETu003dutf8mb4;");/* Начало транзакции */mysqli_begin_transaction($ mysqli ); /* Спроба додати неприпустимі значення */    $language_code u003d 'FR'; $native_speakersu003du003d'Unknown'; $stmtu003du003dmysqli_prepare($mysqli, 'INSERT INTO language(Code, Speakers) VALUES (?,?)'); mysqli_stmt_bind_param($stmt, ss',$language_code,$native_speakers); mysqli_stmt_execute($stmt); /* Якщо код досягає цієї точки без помилок, фіксуємо дані в базі даних. */   mysqli_commit($mysqli);} catch (mysqli_sql_exception $exception) {    mysqli_rollback($mysqli); throw $exception;} `
+`<?php/* Вказати mysqli викидати виняток в випадку виникнення помилки */mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysql| поддерживать транзакции */mysqli_query($mysqli, "CREATE TABLE IF NOT EXISTS language (    Code text NOT NULL,    Speakers int(11) NOT NULL    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;");/* Начало транзакции */mysqli_begin_transaction($ mysqli ); /* Спроба додати неприпустимі значення */    $language_code = 'FR'; $native_speakers=='Unknown'; $stmt==mysqli_prepare($mysqli, 'INSERT INTO language(Code, Speakers) VALUES (?,?)'); mysqli_stmt_bind_param($stmt, ss',$language_code,$native_speakers); mysqli_stmt_execute($stmt); /* Якщо код досягає цієї точки без помилок, фіксуємо дані в базі даних. */   mysqli_commit($mysqli);} catch (mysqli_sql_exception $exception) {    mysqli_rollback($mysqli); throw $exception;} `
 
 ### Примітки
 

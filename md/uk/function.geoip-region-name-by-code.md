@@ -7,7 +7,7 @@
 
 # geoip_region_name_by_code
 
-(PECL geoip \>u003d 1.0.4)
+(PECL geoip \>= 1.0.4)
 
 geoip_region_name_by_code — Повертає назву регіону для вибраної
 країни та коду регіону
@@ -56,7 +56,7 @@ geoip_region_name_by_code — Повертає назву регіону для 
 Буде виведено назву регіону для країни CA (Канада), регіону QC
 (Квебек).
 
-` <?php$region u003d geoip_region_name_by_code('CA', 'QC');if ($region) {    echo 'Назва регіону для CA/QC: ' . $region;}?> `
+` <?php$region = geoip_region_name_by_code('CA', 'QC');if ($region) {    echo 'Назва регіону для CA/QC: ' . $region;}?> `
 
 Результат виконання цього прикладу:
 
@@ -68,7 +68,7 @@ geoip_region_name_by_code — Повертає назву регіону для 
 Буде виведено ім'я регіону для країни JP (Японія), регіону 01
 (Префектура Айті).
 
-` <?php$region u003d geoip_region_name_by_code('JP', '01');if ($region) {    echo 'Назва регіону для JP/01: ' . $region;}?> `
+` <?php$region = geoip_region_name_by_code('JP', '01');if ($region) {    echo 'Назва регіону для JP/01: ' . $region;}?> `
 
 Результат виконання цього прикладу:
 

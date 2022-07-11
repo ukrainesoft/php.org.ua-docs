@@ -7,15 +7,15 @@
 
 # Zookeeper::connect
 
-(PECL zookeeper \>u003d 0.2.0)
+(PECL zookeeper \>= 0.2.0)
 
 Zookeeper::connect — Створює дескриптор для спілкування з zookeeper
 
 ### Опис
 
 public **Zookeeper::connect**(string `$host`,
-[callable](language.types.callable.md) `$watcher_cb` u003d **`null`**, int
-`$recv_timeout` u003d 10000): void
+[callable](language.types.callable.md) `$watcher_cb` = **`null`**, int
+`$recv_timeout` = 10000): void
 
 Метод створює новий дескриптор та сеанс zookeeper, який відповідає
 цього дескриптора. Встановлення сеансу асинхронне, тому сеанс не

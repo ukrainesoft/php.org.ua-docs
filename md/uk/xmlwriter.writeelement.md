@@ -9,7 +9,7 @@
 
 #xmlwriter_write_element
 
-(PHP 5 u003d 5.1.2, PHP 7, PHP 8, PECL xmlwriter u003d 0.1.0)
+(PHP 5 = 5.1.2, PHP 7, PHP 8, PECL xmlwriter = 0.1.0)
 
 XMLWriter::writeElement -- xmlwriter_write_element -- Записати повний тег
 елемента
@@ -18,13 +18,13 @@ XMLWriter::writeElement -- xmlwriter_write_element -- Записати повн�
 
 Об'єктно-орієнтований стиль
 
-public **XMLWriter::writeElement**(string `$name`, ?string `$content` u003d
+public **XMLWriter::writeElement**(string `$name`, ?string `$content` =
 **`null`**): bool
 
 Процедурний стиль
 
 **xmlwriter_write_element**([XMLWriter](class.xmlwriter.md) `$writer`,
-string `$name`, ?string `$content` u003d **`null`**): bool
+string `$name`, ?string `$content` = **`null`**): bool
 
 Записує повний тег елемент.
 
@@ -50,7 +50,7 @@ string `$name`, ?string `$content` u003d **`null`**): bool
 ### Список змін
 
 | Версія | Опис                                                                                                               |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У параметрі writer тепер очікується екземпляр [XMLWriter](class.xmlwriter.md); раніше очікували ресурс (resource). |
 
 ### Дивіться також

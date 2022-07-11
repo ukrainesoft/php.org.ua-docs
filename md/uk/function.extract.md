@@ -13,8 +13,8 @@ extract — Імпортує змінні з масиву до поточної 
 
 ### Опис
 
-**extract**(array `&$array`, int `$flags` u003d **`EXTR_OVERWRITE`**, string
-`$prefix` u003d ""): int
+**extract**(array `&$array`, int `$flags` = **`EXTR_OVERWRITE`**, string
+`$prefix` = ""): int
 
 Імпортує змінні з масиву до поточної таблиці символів.
 
@@ -100,7 +100,7 @@ extract — Імпортує змінні з масиву до поточної 
 повертається функцією
 [wddx_deserialize()](function.wddx-deserialize.md).
 
-` <?php/* Предположим, что $var_array - это массив, полученный в результате   wddx_deserialize */$size u003d "large";$var_array u003d array("color" u003d> "blue",                   "size"  u003d> "medium" ,                       "shape" u003d> "sphere");
+` <?php/* Предположим, что $var_array - это массив, полученный в результате   wddx_deserialize */$size = "large";$var_array = array("color" => "blue",                   "size"  => "medium" ,                       "shape" => "sphere");
 ";?> `
 
 Результат виконання цього прикладу:

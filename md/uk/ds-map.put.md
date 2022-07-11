@@ -7,7 +7,7 @@
 
 # Ds\Map::put
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Map::put — Встановлення значення заданого ключа
 
@@ -59,28 +59,28 @@ public
 
 **Приклад #1 Приклад використання **Ds\Map::put()****
 
-` <?php$map u003d new \Ds\Map();$map->put("a", 1);$map->put("b", 2);$map->put("c" , 3);print_r($map);?> `
+` <?php$map = new \Ds\Map();$map->put("a", 1);$map->put("b", 2);$map->put("c" , 3);print_r($map);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Map Object
 (
-[0] u003d> Ds\Pair Object
+[0] => Ds\Pair Object
 (
-[key] u003d> a
-[value] u003d> 1
+[key] => a
+[value] => 1
 )
 
-[1] u003d> Ds\Pair Object
+[1] => Ds\Pair Object
 (
-[key] u003d> b
-[value] u003d> 2
+[key] => b
+[value] => 2
 )
 
-[2] u003d> Ds\Pair Object
+[2] => Ds\Pair Object
 (
-[key] u003d> c
-[value] u003d> 3
+[key] => c
+[value] => 3
 )
 
 )
@@ -88,56 +88,56 @@ Ds\Map Object
 **Приклад #2 Приклад використання **Ds\Map::put()** з об'єктами в
 якість ключів**
 
-` <?phpclass HashableObject implements \Ds\Hashable{    /**     * Значення, яке ми будемо використовувати в якості хеша. Не визначає ідентичність. */    private $value; public function __construct($value)    {        $this->value u003d $value; }    public function hash()    {        return $this->value; }    public function equals($obj): bool    {       return$$is->value u003du003du003d$obj->value; }}$map u003d new \Ds\Map();$obj u003d new \ArrayIterator([]);// Використання одного і того ж екземпляра об'єкту декілька роз буде $$ , 1);$map->put($obj, 2);// Використання різних примірників одного і того ж класу буде створювати нові// елементи$map->put(new \stdClass(), >put(new \stdClass(), 4);// Використання однакових hashable-примірників кілька раз переписуватиме// попередні значення$map->put(new \HashableObject(1), 5);$ \HashableObject(1), 6);$map->put(new \HashableObject(2), 7);$map->put(new \HashableObject(2), 8);var_dump($map);?> `
+` <?phpclass HashableObject implements \Ds\Hashable{    /**     * Значення, яке ми будемо використовувати в якості хеша. Не визначає ідентичність. */    private $value; public function __construct($value)    {        $this->value = $value; }    public function hash()    {        return $this->value; }    public function equals($obj): bool    {       return$$is->value ===$obj->value; }}$map = new \Ds\Map();$obj = new \ArrayIterator([]);// Використання одного і того ж екземпляра об'єкту декілька роз буде $$ , 1);$map->put($obj, 2);// Використання різних примірників одного і того ж класу буде створювати нові// елементи$map->put(new \stdClass(), >put(new \stdClass(), 4);// Використання однакових hashable-примірників кілька раз переписуватиме// попередні значення$map->put(new \HashableObject(1), 5);$ \HashableObject(1), 6);$map->put(new \HashableObject(2), 7);$map->put(new \HashableObject(2), 8);var_dump($map);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Map)#1 (5) {
-[0]u003d>
+[0]=>
 object(Ds\Pair)#7 (2) {
-["key"]u003d>
+["key"]=>
 object(ArrayIterator)#2 (1) {
-["storage":"ArrayIterator":private]u003d>
+["storage":"ArrayIterator":private]=>
 array(0) {
 }
 }
-["value"]u003d>
+["value"]=>
 int(2)
 }
-[1]u003d>
+[1]=>
 object(Ds\Pair)#8 (2) {
-["key"]u003d>
+["key"]=>
 object(stdClass)#3 (0) {
 }
-["value"]u003d>
+["value"]=>
 int(3)
 }
-[2]u003d>
+[2]=>
 object(Ds\Pair)#9 (2) {
-["key"]u003d>
+["key"]=>
 object(stdClass)#4 (0) {
 }
-["value"]u003d>
+["value"]=>
 int(4)
 }
-[3]u003d>
+[3]=>
 object(Ds\Pair)#10 (2) {
-["key"]u003d>
+["key"]=>
 object(HashableObject)#5 (1) {
-["value":"HashableObject":private]u003d>
+["value":"HashableObject":private]=>
 int(1)
 }
-["value"]u003d>
+["value"]=>
 int(6)
 }
-[4]u003d>
+[4]=>
 object(Ds\Pair)#11 (2) {
-["key"]u003d>
+["key"]=>
 object(HashableObject)#6 (1) {
-["value":"HashableObject":private]u003d>
+["value":"HashableObject":private]=>
 int(2)
 }
-["value"]u003d>
+["value"]=>
 int(8)
 }
 }

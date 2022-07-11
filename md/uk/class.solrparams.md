@@ -7,7 +7,7 @@
 
 # Клас SolrParams
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 ## Вступ
 
@@ -30,7 +30,7 @@ public [addParam](solrparams.addparam.md)(string `$name`, string
 final public [get](solrparams.get.md)(string `$param_name`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
-final public [getParam](solrparams.getparam.md)(string `$param_name` u003d
+final public [getParam](solrparams.getparam.md)(string `$param_name` =
 ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
@@ -47,7 +47,7 @@ final public [set](solrparams.set.md)(string $name, string
 public [setParam](solrparams.setparam.md)(string `$name`, string
 `$value`): [SolrParams](class.solrparams.md)
 
-final public [toString](solrparams.tostring.md)(bool `$url_encode` u003d
+final public [toString](solrparams.tostring.md)(bool `$url_encode` =
 **`false`**): string
 
 final public [unserialize](solrparams.unserialize.md)(string

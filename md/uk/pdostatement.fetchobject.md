@@ -7,15 +7,15 @@
 
 # PDOStatement::fetchObject
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.2.4)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.2.4)
 
 PDOStatement::fetchObject — Витягує наступний рядок і повертає його до
 вигляді об'єкта
 
 ### Опис
 
-public **PDOStatement::fetchObject**(?string `$class` u003d "stdClass",
-array `$constructorArgs` u003d []): object\|false
+public **PDOStatement::fetchObject**(?string `$class` = "stdClass",
+array `$constructorArgs` = []): object\|false
 
 Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод
 є альтернативою виклику

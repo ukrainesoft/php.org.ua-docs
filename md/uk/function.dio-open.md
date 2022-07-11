@@ -8,14 +8,14 @@
 
 #dio_open
 
-(PHP 4 \>u003d 4.2.0, PHP 5 \< 5.1.0)
+(PHP 4 \>= 4.2.0, PHP 5 \< 5.1.0)
 
 dio_open — Відкриває файл (за потребою створює) на нижчому
 рівні ніж потокові функції введення/виведення мови C
 
 ### Опис
 
-**dio_open**(string `$filename`, int `$flags`, int `$mode` u003d 0):
+**dio_open**(string `$filename`, int `$flags`, int `$mode` = 0):
 resource
 
 **dio_open()** відкриває файл та повертає його дескриптор.
@@ -69,7 +69,7 @@ TTY.
 
 **Приклад #1 Відкриття файлового дескриптора**
 
-` <?php$fd u003d dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);dio_close($fd);?> `
+` <?php$fd = dio_open('/dev/ttyS0', O_RDWR | O_NOCTTY | O_NONBLOCK);dio_close($fd);?> `
 
 ### Дивіться також
 

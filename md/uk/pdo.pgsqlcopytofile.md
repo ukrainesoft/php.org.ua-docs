@@ -7,7 +7,7 @@
 
 # PDO::pgsqlCopyToFile
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 PDO::pgsqlCopyToFile — Вивантаження таблиці у файл
 
@@ -16,9 +16,9 @@ PDO::pgsqlCopyToFile — Вивантаження таблиці у файл
 public **PDO::pgsqlCopyToFile**(
 string `$table_name`,
 string `$filename`,
-string `$delimiter` u003d " ",
-string `$null_as` u003d "\\\N",
-string `$fields` u003d ?
+string `$delimiter` = " ",
+string `$null_as` = "\\\N",
+string `$fields` = ?
 ): bool
 
 Вивантажує дані у файл `filename` використовуючи роздільник полів

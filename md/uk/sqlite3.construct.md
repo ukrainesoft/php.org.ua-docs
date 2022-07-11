@@ -7,15 +7,15 @@
 
 # SQLite3::\_\_construct
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 SQLite3::\_\_construct — Створює екземпляр об'єкта SQLite3 та відкриває
 з'єднання з базою
 
 ### Опис
 
-public **SQLite3::\_\_construct**(string `$filename`, int `$flags` u003d
-SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` u003d
+public **SQLite3::\_\_construct**(string `$filename`, int `$flags` =
+SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` =
 "")
 
 Створює екземпляр SQLite3 і відкриває з'єднання з базою. Якщо
@@ -52,11 +52,11 @@ SQLITE3_OPEN_READWRITE\| SQLITE3_OPEN_CREATE, string `$encryptionKey` u003d
 ### Список змін
 
 | Версія | Опис                                                                                          |
-| ------ | --------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------|
 | 7.0.10 | Параметр filename можна задавати порожнім рядком для створення на диску приватної бази даних. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **SQLite3::\_\_construct()****
 
-` <?php$db u003d new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE foo (bar TEXT)');$db->exec("INSERT INTO foo (bar) VALUES (' This is a test')");$result u003d $db->query('SELECT bar FROM foo');var_dump($result->fetchArray());?> `
+` <?php$db = new SQLite3('mysqlitedb.db');$db->exec('CREATE TABLE foo (bar TEXT)');$db->exec("INSERT INTO foo (bar) VALUES (' This is a test')");$result = $db->query('SELECT bar FROM foo');var_dump($result->fetchArray());?> `

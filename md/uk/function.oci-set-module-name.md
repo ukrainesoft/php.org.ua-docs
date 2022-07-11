@@ -7,7 +7,7 @@
 
 #oci_set_module_name
 
-(PHP 5 u003d 5.3.2, PHP 7, PHP 8, PECL OCI8 u003d 1.4.0)
+(PHP 5 = 5.3.2, PHP 7, PHP 8, PECL OCI8 = 1.4.0)
 
 oci_set_module_name — Вказує ім'я модуля
 
@@ -47,7 +47,7 @@ PHP, наприклад, коли запускається SQL вираз.
 
 **Приклад #1 Встановлення імені модуля**
 
-` <?php$c u003d oci_connect('hr', 'welcome', 'localhost/XE');// Запис модуляoci_set_module_name($c, 'Home Page');// Код, здійснює запрос к $s u003d oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
+` <?php$c = oci_connect('hr', 'welcome', 'localhost/XE');// Запис модуляoci_set_module_name($c, 'Home Page');// Код, здійснює запрос к $s = oci_parse($c, 'select * from dual');oci_execute($s);oci_fetch_all($s, $res);sleep(30);?> `
 
 // Поки скрипт виконується, адміністратор може побачити, які модулі
 // використовуються:

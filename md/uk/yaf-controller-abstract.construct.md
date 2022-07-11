@@ -7,7 +7,7 @@
 
 # Yaf_Controller_Abstract::\_\_construct
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Controller_Abstract::\_\_construct - Конструктор класу
 Yaf_Controller_Abstract

@@ -7,7 +7,7 @@
 
 # MongoDB\BSON\Javascript::getScope
 
-(mongodb \>u003d1.2.0)
+(mongodb \>=1.2.0)
 
 MongoDB\BSON\Javascript::getScope — Повертає область документа
 JavaScript
@@ -35,13 +35,13 @@ final public **MongoDB\BSON\Javascript::getScope**(): ?object
 **Приклад #1 Приклад використання
 **MongoDB\BSON\Javascript::getScope()****
 
-` <?php$js u003d new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');var_dump($js->getScope());$js u003d new MongoDB\BSON\Javascript function foo() { return foo; }', ['foo' u003d> 42]);var_dump($js->getScope());?> `
+` <?php$js = new MongoDB\BSON\Javascript('function foo(bar) { return bar; }');var_dump($js->getScope());$js = new MongoDB\BSON\Javascript function foo() { return foo; }', ['foo' => 42]);var_dump($js->getScope());?> `
 
 Результат виконання цього прикладу:
 
 NULL
 object(stdClass)#1 (1) {
-["foo"]u003d>
+["foo"]=>
 int(42)
 }
 

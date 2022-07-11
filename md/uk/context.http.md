@@ -89,12 +89,12 @@ URI, який вказує адресу проксі-сервера. (Напри
 
 **Приклад #1 Вийняти сторінку та надіслати дані методом POST**
 
-` <?php$postdata u003d http_build_query(    array(        'var1' u003d> 'некоторое содержимое',        'var2' u003d> 'doh'    ));$opts u003d array('http' u003d>    array(        'method'  u003d> ' POST',         ¦                                     ¦¦ ://example.com/submit.php', false, $context);?> `
+` <?php$postdata = http_build_query(    array(        'var1' => 'некоторое содержимое',        'var2' => 'doh'    ));$opts = array('http' =>    array(        'method'  => ' POST',         ¦                                     ¦¦ ://example.com/submit.php', false, $context);?> `
 
 **Приклад #2 Ігнорувати переадресації, але витягти заголовки та
 вміст**
 
-` <?php$url u003d "http://www.example.org/header.php";$opts u003d array('http' u003d>    array(       'method' u003d> 'GET',     0',        'ignore_errors' u003d> '1'     ));$context u003d stream_context_create($opts);$stream u003d fopen($url, 'r', false, | / метаданні про потоціvar_dump(stream_get_meta_data($stream));// актуальна інформація за посилання $urlvar_dump(stream_get_contents($stream));fclose($stream);?> `
+` <?php$url = "http://www.example.org/header.php";$opts = array('http' =>    array(       'method' => 'GET',     0',        'ignore_errors' => '1'     ));$context = stream_context_create($opts);$stream = fopen($url, 'r', false, | / метаданні про потоціvar_dump(stream_get_meta_data($stream));// актуальна інформація за посилання $urlvar_dump(stream_get_contents($stream));fclose($stream);?> `
 
 ### Примітки
 
@@ -112,18 +112,18 @@ URI, який вказує адресу проксі-сервера. (Напри
 > відноситься до змісту даних за індексом `0`.
 >
 > array (
-> 'wrapper_data' u003d>
+> 'wrapper_data' =>
 > array (
-> 0 u003d> 'HTTP/1.0 301 Moved Permanently',
-> 1 u003d> 'Cache-Control: no-cache',
-> 2 u003d> 'Connection: close',
-> 3 u003d> 'Location: http://example.com/foo.jpg',
-> 4 u003d> 'HTTP/1.1 200 OK',
+> 0 => 'HTTP/1.0 301 Moved Permanently',
+> 1 => 'Cache-Control: no-cache',
+> 2 => 'Connection: close',
+> 3 => 'Location: http://example.com/foo.jpg',
+> 4 => 'HTTP/1.1 200 OK',
 > ...
 >
 > Перший запит повернув код `301` (постійне перенаправлення), так що
 > обгортка потоку автоматично послідувала цьому перенаправленню, щоб
-> отримати відповідь `200` (індекс u003d `4`).
+> отримати відповідь `200` (індекс = `4`).
 
 ### Дивіться також
 

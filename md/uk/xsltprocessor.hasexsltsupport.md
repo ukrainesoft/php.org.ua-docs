@@ -7,7 +7,7 @@
 
 # XSLTProcessor::hasExsltSupport
 
-(PHP 5 \>u003d 5.0.4, PHP 7, PHP 8)
+(PHP 5 \>= 5.0.4, PHP 7, PHP 8)
 
 XSLTProcessor::hasExsltSupport — Визначає чи PHP підтримку EXSLT
 
@@ -30,4 +30,4 @@ public **XSLTProcessor::hasExsltSupport**(): bool
 
 **Приклад #1 Перевірка підтримки EXSLT**
 
-` <?php$proc u003d new XSLTProcessor;if (!$proc->hasExsltSupport()) {    die('EXSLT support not available');}// виконання деяких  S>.
+` <?php$proc = new XSLTProcessor;if (!$proc->hasExsltSupport()) {    die('EXSLT support not available');}// виконання деяких  S>.

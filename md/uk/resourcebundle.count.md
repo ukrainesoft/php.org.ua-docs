@@ -9,7 +9,7 @@
 
 #resourcebundle_count
 
-(PHP 5 \>u003d 5.3.2, PHP 7, PHP 8, PECL intl \>u003d 2.0.0)
+(PHP 5 \>= 5.3.2, PHP 7, PHP 8, PECL intl \>= 2.0.0)
 
 ResourceBundle::count -- resourcebundle_count — Отримати кількість
 елементів у пакеті
@@ -40,11 +40,11 @@ public **ResourceBundle::count**(): int
 
 **Приклад #1 Приклад використання **resourcebundle_count()****
 
-` <?php$r u003d resourcebundle_create( 'es', "/usr/share/data/myapp");echo resourcebundle_count($r);?> `
+` <?php$r = resourcebundle_create( 'es', "/usr/share/data/myapp");echo resourcebundle_count($r);?> `
 
 **Приклад #2 Приклад в об'єктно-орієнтованому стилі**
 
-` <?php$r u003d new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r->count();?> `
+` <?php$r = new ResourceBundle( 'es', "/usr/share/data/myapp");echo $r->count();?> `
 
 Результат виконання цього прикладу:
 

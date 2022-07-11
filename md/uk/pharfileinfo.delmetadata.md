@@ -7,7 +7,7 @@
 
 # PharFileInfo::delMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.2.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.2.0)
 
 PharFileInfo::delMetadata — Видалити метадані файлу
 
@@ -42,7 +42,7 @@ public **PharFileInfo::delMetadata**(): bool
 
 **Приклад #1 Приклад використання **PharFileInfo::delMetaData()****
 
-`<?phptry {   $a u003d new Phar('myphar.phar'); $a['hi'] u003d 'hi'; var_dump($a['hi']->delMetadata()); $a['hi']->setMetadata('there'); var_dump($a['hi']->delMetadata()); var_dump($a['hi']->delMetadata());} catch (Exception $e) {    // обробка помилок}?> `
+`<?phptry {   $a = new Phar('myphar.phar'); $a['hi'] = 'hi'; var_dump($a['hi']->delMetadata()); $a['hi']->setMetadata('there'); var_dump($a['hi']->delMetadata()); var_dump($a['hi']->delMetadata());} catch (Exception $e) {    // обробка помилок}?> `
 
 Результат виконання цього прикладу:
 

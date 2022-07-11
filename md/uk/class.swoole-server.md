@@ -7,7 +7,7 @@
 
 # Клас Swoole\Server
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -25,7 +25,7 @@ public
 `$process`): bool
 
 public [after](swoole-server.after.md)(int `$after_time_ms`,
-[callable](language.types.callable.md) `$callback`, string `$param` u003d
+[callable](language.types.callable.md) `$callback`, string `$param` =
 ?): ReturnType
 
 public [bind](swoole-server.bind.md)(int `$fd`, int `$uid`): bool
@@ -35,16 +35,16 @@ void
 
 **swoole_timer_clear**(int `$timer_id`): void
 
-public [close](swoole-server.close.md)(int `$fd`, bool `$reset` u003d ?):
+public [close](swoole-server.close.md)(int `$fd`, bool `$reset` = ?):
 bool
 
 public [confirm](swoole-server.confirm.md)(int `$fd`): bool
 
 public [connection_info](swoole-server.connection-info.md)(int `$fd`,
-int `$reactor_id` u003d ?): array
+int `$reactor_id` = ?): array
 
 public [connection_list](swoole-server.connection-list.md)(int
-`$start_fd`, int `$pagesize` u003d ?): array
+`$start_fd`, int `$pagesize` = ?): array
 
 public
 [defer](swoole-server.defer.md)([callable](language.types.callable.md)
@@ -66,10 +66,10 @@ public [exist](swoole-server.exist.md)(int `$fd`): bool
 public [finish](swoole-server.finish.md)(string `$data`): void
 
 public [getClientInfo](swoole-server.getclientinfo.md)(int `$fd`, int
-`$reactor_id` u003d ?, bool `$ignore_error` u003d ?): array
+`$reactor_id` = ?, bool `$ignore_error` = ?): array
 
 public [getClientList](swoole-server.getclientlist.md)(int
-`$start_fd`, int `$pagesize` u003d ?): array
+`$start_fd`, int `$pagesize` = ?): array
 
 public [getLastError](swoole-server.getlasterror.md)(): int
 
@@ -86,17 +86,17 @@ public [on](swoole-server.on.md)(string `$event_name`,
 public [pause](swoole-server.pause.md)(int `$fd`): void
 
 public [protect](swoole-server.protect.md)(int `$fd`, bool
-`$is_protected` u003d ?): void
+`$is_protected` = ?): void
 
 public [reload](swoole-server.reload.md)(): bool
 
 public [resume](swoole-server.resume.md)(int `$fd`): void
 
 public [send](swoole-server.send.md)(int `$fd`, string `$data`, int
-`$reactor_id` u003d ?): bool
+`$reactor_id` = ?): bool
 
 public [sendfile](swoole-server.sendfile.md)(int `$fd`, string
-`$filename`, int `$offset` u003d ?): bool
+`$filename`, int `$offset` = ?): bool
 
 public [sendMessage](swoole-server.sendmessage.md)(int `$worker_id`,
 string `$data`): bool
@@ -105,7 +105,7 @@ public [sendto](swoole-server.sendto.md)(
 string `$ip`,
 int `$port`,
 string `$data`,
-string `$server_socket` u003d ?
+string `$server_socket` = ?
 ): bool
 
 public [sendwait](swoole-server.sendwait.md)(int `$fd`, string
@@ -119,18 +119,18 @@ public [start](swoole-server.start.md)(): void
 
 public [stats](swoole-server.stats.md)(): array
 
-public [stop](swoole-server.stop.md)(int `$worker_id` u003d ?): bool
+public [stop](swoole-server.stop.md)(int `$worker_id` = ?): bool
 
 public [task](swoole-server.task.md)(string `$data`, int
-`$dst_worker_id` u003d ?, [callable](language.types.callable.md)
-`$callback` u003d ?):
+`$dst_worker_id` = ?, [callable](language.types.callable.md)
+`$callback` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [taskwait](swoole-server.taskwait.md)(string `$data`, float
-`$timeout` u003d ?, int `$worker_id` u003d ?): void
+`$timeout` = ?, int `$worker_id` = ?): void
 
 public [taskWaitMulti](swoole-server.taskwaitmulti.md)(array `$tasks`,
-double `$timeout_ms` u003d ?): void
+double `$timeout_ms` = ?): void
 
 public [tick](swoole-server.tick.md)(int `$interval_ms`,
 [callable](language.types.callable.md) `$callback`): void

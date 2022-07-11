@@ -24,16 +24,16 @@
 Серіалізація як масив BSON:
 
 ``` textcode
-[ 8, 5, 2, 3 ] u003d> [ 8, 5, 2, 3 ]
-[ 0 u003d> 4, 1 u003d> 9 ] u003d> [ 4, 9 ]
+[ 8, 5, 2, 3 ] => [ 8, 5, 2, 3 ]
+[ 0 => 4, 1 => 9 ] => [ 4, 9 ]
 ````
 
 Серіалізація як документ BSON:
 
 ``` textcode
-[ 0 u003d> 1, 2 u003d> 8, 3 u003d> 12 ] u003d> { "0" : 1, "2" : 8, "3" : 12 }
-[ "foo" u003d> 42 ] u003d> { "foo" : 42 }
-[ 1 u003d> 9, 0 u003d> 10 ] u003d> { "1" : 9, "0" : 10 }
+[ 0 => 1, 2 => 8, 3 => 12 ] => { "0" : 1, "2" : 8, "3" : 12 }
+[ "foo" => 42 ] => { "foo" : 42 }
+[ 1 => 9, 0 => 10 ] => { "1" : 9, "0" : 10 }
 ````
 
 Зверніть увагу, що п'ять прикладів є витримками з повного
@@ -110,4 +110,4 @@
 
 ## Приклади
 
-`<?phpclass stdClass {  public $foo u003d 42;} // u003d> { "foo" : 42 }class MyClass { public $foo u003d 42; protected $prot u003d "wine"; private $fpr u003d "cheese";} // u003d> { "foo" : 42 }class AnotherClass1 implements MongoDB\BSON\Serializable { public|$foo u003d 42; protected $prot u003d "wine"; private $fpr u003d "cheese"; function bsonSerialize() {       return [ 'foo' u003d>$this->foo, 'prot' u003d> $this->prot ]; }} // u003d> { "foo" : 42, "prot" : "wine" }class AnotherClass2 implements MongoDB\BSON\Serializable { public|$foo u003d 42; function bsonSerialize() {      return $this; }} // u003d> MongoDB\Driver\Exception\UnexpectedValueException("bsonSerialize() did not return an array or stdClass")class AnotherClass3 implements MongoDB\'' function bsonSerialize() {      return $this->elements; }} // u003d> { "0" : "foo", "1" : "bar" }class ContainerClass implements MongoDB\BSON\Serializable {  public $things u003d AnotherClass4         u003d> 'foo', 2 u003d> 'bar' ]; function bsonSerialize() {      return $this->elements; }  } function bsonSerialize() {      return [ 'things' u003d> $this->things ]; }} // u003d> { "things" : { "0" : "foo", "2" : "bar" } }class ContainerClass implements MongoDB\BSON\Serializable {  public private $elements u003d [ 0 u003d> 'foo', 2 u003d> 'bar' ]; function bsonSerialize() {       return array_values($this->elements); }  } function bsonSerialize() {      return [ 'things' u003d> $this->things ]; }} // u003d> { "things" : [ "foo", "bar" ] }class ContainerClass implements MongoDB\BSON\Serializable {  public $things u003d AnotherClass6          , 'bar' ]; function bsonSerialize() {       return (object) $this->elements; }  } function bsonSerialize() {      return [ 'things' u003d> $this->things ]; }} // u003d> { "things" : { "0" : "foo", "1" : "bar" } }class UpperClass implements MongoDB\BSON\Persistable { public $foo; protected $prot u003d "wine"; private $fpr u003d "cheese"; function bsonSerialize() {       return [ 'foo' u003d>$this->foo, 'prot' u003d> $this->prot ]; }} // u003d> { "foo" : 42, "prot" : "wine", "__pclass" : { "$type" : "80", "$binary" : "VXBwZXJDbG 
+`<?phpclass stdClass {  public $foo = 42;} // => { "foo" : 42 }class MyClass { public $foo = 42; protected $prot = "wine"; private $fpr = "cheese";} // => { "foo" : 42 }class AnotherClass1 implements MongoDB\BSON\Serializable { public|$foo = 42; protected $prot = "wine"; private $fpr = "cheese"; function bsonSerialize() {       return [ 'foo' =>$this->foo, 'prot' => $this->prot ]; }} // => { "foo" : 42, "prot" : "wine" }class AnotherClass2 implements MongoDB\BSON\Serializable { public|$foo = 42; function bsonSerialize() {      return $this; }} // => MongoDB\Driver\Exception\UnexpectedValueException("bsonSerialize() did not return an array or stdClass")class AnotherClass3 implements MongoDB\'' function bsonSerialize() {      return $this->elements; }} // => { "0" : "foo", "1" : "bar" }class ContainerClass implements MongoDB\BSON\Serializable {  public $things = AnotherClass4         => 'foo', 2 => 'bar' ]; function bsonSerialize() {      return $this->elements; }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : { "0" : "foo", "2" : "bar" } }class ContainerClass implements MongoDB\BSON\Serializable {  public private $elements = [ 0 => 'foo', 2 => 'bar' ]; function bsonSerialize() {       return array_values($this->elements); }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : [ "foo", "bar" ] }class ContainerClass implements MongoDB\BSON\Serializable {  public $things = AnotherClass6          , 'bar' ]; function bsonSerialize() {       return (object) $this->elements; }  } function bsonSerialize() {      return [ 'things' => $this->things ]; }} // => { "things" : { "0" : "foo", "1" : "bar" } }class UpperClass implements MongoDB\BSON\Persistable { public $foo; protected $prot = "wine"; private $fpr = "cheese"; function bsonSerialize() {       return [ 'foo' =>$this->foo, 'prot' => $this->prot ]; }} // => { "foo" : 42, "prot" : "wine", "__pclass" : { "$type" : "80", "$binary" : "VXBwZXJDbG 

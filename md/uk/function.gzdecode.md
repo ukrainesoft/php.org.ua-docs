@@ -7,13 +7,13 @@
 
 # gzdecode
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 gzdecode — Декодує рядок, стислий за допомогою gzip
 
 ### Опис
 
-**gzdecode**(string `$data`, int `$max_length` u003d 0): string\|false
+**gzdecode**(string `$data`, int `$max_length` = 0): string\|false
 
 Ця функція повертає декодовану версію вхідних даних. `data`.
 

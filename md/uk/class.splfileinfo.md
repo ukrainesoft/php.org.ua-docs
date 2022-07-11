@@ -7,7 +7,7 @@
 
 # Клас SplFileInfo
 
-(PHP 5 \>u003d 5.1.2, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.2, PHP 7, PHP 8)
 
 ## Вступ
 
@@ -24,14 +24,14 @@ public [\_\_construct](splfileinfo.construct.md)(string `$filename`)
 
 public [getATime](splfileinfo.getatime.md)(): int\|false
 
-public [getBasename](splfileinfo.getbasename.md)(string `$suffix` u003d
+public [getBasename](splfileinfo.getbasename.md)(string `$suffix` =
 ""): string
 
 public [getCTime](splfileinfo.getctime.md)(): int\|false
 
 public [getExtension](splfileinfo.getextension.md)(): string
 
-public [getFileInfo](splfileinfo.getfileinfo.md)(?string `$class` u003d
+public [getFileInfo](splfileinfo.getfileinfo.md)(?string `$class` =
 **`null`**): [SplFileInfo](class.splfileinfo.md)
 
 public [getFilename](splfileinfo.getfilename.md)(): string
@@ -48,7 +48,7 @@ public [getOwner](splfileinfo.getowner.md)(): int\|false
 
 public [getPath](splfileinfo.getpath.md)(): string
 
-public [getPathInfo](splfileinfo.getpathinfo.md)(?string `$class` u003d
+public [getPathInfo](splfileinfo.getpathinfo.md)(?string `$class` =
 **`null`**): ?[SplFileInfo](class.splfileinfo.md)
 
 public [getPathname](splfileinfo.getpathname.md)(): string
@@ -73,14 +73,14 @@ public [isReadable](splfileinfo.isreadable.md)(): bool
 
 public [isWritable](splfileinfo.iswritable.md)(): bool
 
-public [openFile](splfileinfo.openfile.md)(string `$mode` u003d "r", bool
-`$useIncludePath` u003d **`false`**, ?resource `$context` u003d **`null`**):
+public [openFile](splfileinfo.openfile.md)(string `$mode` = "r", bool
+`$useIncludePath` = **`false`**, ?resource `$context` = **`null`**):
 [SplFileObject](class.splfileobject.md)
 
-public [setFileClass](splfileinfo.setfileclass.md)(string `$class` u003d
+public [setFileClass](splfileinfo.setfileclass.md)(string `$class` =
 SplFileObject::class): void
 
-public [setInfoClass](splfileinfo.setinfoclass.md)(string `$class` u003d
+public [setInfoClass](splfileinfo.setinfoclass.md)(string `$class` =
 SplFileInfo::class): void
 
 public [\_\_toString](splfileinfo.tostring.md)(): string
@@ -90,7 +90,7 @@ public [\_\_toString](splfileinfo.tostring.md)(): string
 ## Список змін
 
 | Версія | Опис                                                                   |
-| ------ | ---------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------|
 | 8.0.0  | Клас **SplFileInfo** тепер реалізує [Stringable](class.stringable.md). |
 
 ## Зміст

@@ -43,22 +43,22 @@ imap_createmailbox — Створити нову поштову скриньку
 ### Список змін
 
 | Версія | Опис                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр imap тепер чекає на екземпляр [IMAP\Connection](class.imap-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **imap_createmailbox()****
 
-` <?php$mbox u003dimap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)     or die("не вийшло|підключитися: " . imap_last_error ;$name2 u003d imap_utf7_encode("phpnewböx"); // phpnewb&w7Y-x$newname u003d $name1;echo "Новим ім'ям буде '$name1'<br />
-";// тепер створимо новий ящик "phptestbox" в вашем вхідному каталозі,// перевіримо його статус і удалимо, щоб повернути|ваш каталог к| INBOX.$newname"))) {    $status u003d @imap_status($mbox, "{imap.example.org}INBOX.$newname", SA_ALL);    if ($status) на у  name1' і має наступний статус:<br />
+` <?php$mbox =imap_open("{imap.example.org}", "username", "password", OP_HALFOPEN)     or die("не вийшло|підключитися: " . imap_last_error ;$name2 = imap_utf7_encode("phpnewböx"); // phpnewb&w7Y-x$newname = $name1;echo "Новим ім'ям буде '$name1'<br />
+";// тепер створимо новий ящик "phptestbox" в вашем вхідному каталозі,// перевіримо його статус і удалимо, щоб повернути|ваш каталог к| INBOX.$newname"))) {    $status = @imap_status($mbox, "{imap.example.org}INBOX.$newname", SA_ALL);    if ($status) на у  name1' і має наступний статус:<br />
 ";         echo "Повідомлень:            " . $status->messages    . "<br />
 ";         echo "Нових:                   " . $status->recent      . . "<br />
 ";        echo "Непрочитаних:     " . $status->unseen      . "<br />
 ";        echo "Наступний UID:    " . $status->uidnext     . "<br />
 ";        echo "Коректність UID:" . $status->uidvalidity . "<br />
 ";        if (imap_renamemailbox($mbox, "{imap.example.org}INBOX.$newname", "{imap.example.org}INBOX.$name2")) {            echo "переименуем новый ящик из '$name1' в '$name2'<br />
-";            $newname u003d $name2;        } else {            echo "вызов imap_renamemailbox для нового ящика завершился ошибкой: " . imap_last_error() . "<br />
+";            $newname = $name2;        } else {            echo "вызов imap_renamemailbox для нового ящика завершился ошибкой: " . imap_last_error() . "<br />
 ";        }    }}else {        echo "виклик imap_status для нової скрині закінчився помилкою: " > | .
 ";    }   if (@imap_deletemailbox($mbox, "{imap.example.org}INBOX.$newname")) {       echo "новий поштовий ящик |
 ";    }}else {         echo "виклик imap_deletemailbox на новій поштовій скринці закінчився помилкою: "| . implode("<br   

@@ -7,7 +7,7 @@
 
 # Клас Swoole\Process
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -17,7 +17,7 @@ class **Swoole\Process** {
 
 /\* Константи \*/
 
-const int `IPC_NOWAIT` u003d 256;
+const int `IPC_NOWAIT` = 256;
 
 /\* Методи \*/
 
@@ -26,29 +26,29 @@ void
 
 public [close](swoole-process.close.md)(): void
 
-public static [daemon](swoole-process.daemon.md)(bool `$nochdir` u003d ?,
-bool `$noclose` u003d ?): void
+public static [daemon](swoole-process.daemon.md)(bool `$nochdir` = ?,
+bool `$noclose` = ?): void
 
 public [\_\_destruct](swoole-process.destruct.md)(): void
 
 public [exec](swoole-process.exec.md)(string `$exec_file`, string
 `$args`): ReturnType
 
-public [exit](swoole-process.exit.md)(string `$exit_code` u003d ?): void
+public [exit](swoole-process.exit.md)(string `$exit_code` = ?): void
 
 public [freeQueue](swoole-process.freequeue.md)(): void
 
 public static [kill](swoole-process.kill.md)(int `$pid`, int
-`$signal_no` u003d ?): bool
+`$signal_no` = ?): bool
 
 public [name](swoole-process.name.md)(string `$process_name`): bool
 
-public [pop](swoole-process.pop.md)(int `$maxsize` u003d ?):
+public [pop](swoole-process.pop.md)(int `$maxsize` = ?):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [push](swoole-process.push.md)(string `$data`): bool
 
-public [read](swoole-process.read.md)(int `$maxsize` u003d ?): string
+public [read](swoole-process.read.md)(int `$maxsize` = ?): string
 
 public static [signal](swoole-process.signal.md)(string `$signal_no`,
 [callable](language.types.callable.md) `$callback`): void
@@ -58,9 +58,9 @@ public [start](swoole-process.start.md)(): void
 public [statQueue](swoole-process.statqueue.md)(): array
 
 public [useQueue](swoole-process.usequeue.md)(int `$key`, int `$mode`
-u003d?): bool
+=?): bool
 
-public static [wait](swoole-process.wait.md)(bool `$blocking` u003d ?):
+public static [wait](swoole-process.wait.md)(bool `$blocking` = ?):
 array
 
 public [write](swoole-process.write.md)(string `$data`): int

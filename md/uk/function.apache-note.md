@@ -13,7 +13,7 @@ apache_note — Повертає та встановлює повідомлен�
 
 ### Опис
 
-**apache_note**(string `$note_name`, ?string `$note_value` u003d
+**apache_note**(string `$note_name`, ?string `$note_value` =
 **`null`**): string\|false
 
 Ця функція є обгорткою для `table_get` та `table_set`. З її
@@ -43,21 +43,21 @@ apache_note — Повертає та встановлює повідомлен�
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.0  | note_value тепер допускає значення null. |
 
 ### Приклади
 
 **Приклад #1 Приклад передачі інформації між PHP та Perl**
 
-` <?phpapache_note('name', 'Fredrik Ekengren');// Виклик perl-скриптаvirtual("/perl/some_script.pl");$result u003d apache_note("resultdata");?> `
+` <?phpapache_note('name', 'Fredrik Ekengren');// Виклик perl-скриптаvirtual("/perl/some_script.pl");$result = apache_note("resultdata");?> `
 
 `` perlcode
 # Отримуємо об'єкт запиту Apache
-my $r u003d Apache->request()->main();
+my $r = Apache->request()->main();
 
 # Отримуємо передані дані
-my $name u003d $r->notes('name');
+my $name = $r->notes('name');
 
 # Деякі дії з даними
 

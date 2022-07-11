@@ -7,7 +7,7 @@
 
 # VarnishAdmin::disconnect
 
-(PECL varnish u003d> 1.0.0)
+(PECL varnish => 1.0.0)
 
 VarnishAdmin::disconnect — Відключення від інтерфейсу адміністрування
 екземпляра varnish

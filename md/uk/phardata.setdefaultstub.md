@@ -8,15 +8,15 @@ PharData)
 
 # PharData::setDefaultStub
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 PharData::setDefaultStub — Функція заглушка (Phar::setDefaultStub не можна
 використовувати для PharData)
 
 ### Опис
 
-public **PharData::setDefaultStub**(?string `$index` u003d **`null`**,
-?string `$webIndex` u003d **`null`**): bool
+public **PharData::setDefaultStub**(?string `$index` = **`null`**,
+?string `$webIndex` = **`null`**): bool
 
 Незапускані tar/zip-архіви не можуть мати заглушку, тому цей метод
 просто викидає виняток.
@@ -42,7 +42,7 @@ public **PharData::setDefaultStub**(?string `$index` u003d **`null`**,
 ### Список змін
 
 | Версія | Опис                                    |
-| ------ | --------------------------------------- |
+|--------|-----------------------------------------|
 | 8.0.0  | webIndex тепер припускає значення null. |
 
 ### Дивіться також

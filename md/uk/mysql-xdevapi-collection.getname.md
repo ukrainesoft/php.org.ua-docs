@@ -30,7 +30,7 @@ public **mysql_xdevapi\Collection::getName**(): string
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Collection::getName()****
 
-` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection u003d $schema->createCollection("people");// ...var_d >getName());?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$session->sql("DROP DATABASE IF EXISTS addressbook")->execute();$session->sql( "CREATE DATABASE addressbook")->execute();$schema     = $session->getSchema("addressbook");$collection = $schema->createCollection("people");// ...var_d >getName());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

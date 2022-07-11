@@ -36,19 +36,19 @@ chown — Змінює власника файлу
 
 **Приклад #1 Приклад простого використання **chown()****
 
-` <?php// Використовуване ім'я файла і ім'япользователя$file_nameu003d "foo.php";$path u003d "/home/sites/php.net/public_html/sandbox/" . $file_name ;$user_name u003d "root";// Встановлюємо користувачаchown($path, $user_name);// Перевіряємо результат$stat u003d stat($path);print_r(posix_getpwuid($stat['uid'] > `
+` <?php// Використовуване ім'я файла і ім'япользователя$file_name= "foo.php";$path = "/home/sites/php.net/public_html/sandbox/" . $file_name ;$user_name = "root";// Встановлюємо користувачаchown($path, $user_name);// Перевіряємо результат$stat = stat($path);print_r(posix_getpwuid($stat['uid'] > `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[name] u003d> root
-[passwd] u003d> x
-[uid] u003d> 0
-[gid] u003d> 0
-[gecos] u003d> root
-[dir] u003d> /root
-[shell] u003d> /bin/bash
+[name] => root
+[passwd] => x
+[uid] => 0
+[gid] => 0
+[gecos] => root
+[dir] => /root
+[shell] => /bin/bash
 )
 
 ### Примітки

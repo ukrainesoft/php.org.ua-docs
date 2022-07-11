@@ -55,9 +55,9 @@
 розсилки не може визначити вашу правильну поштову адресу. Якщо ваш
 адреса була `joeblow@example.com`, і ви намагаєтеся підписатися на
 php-general, то ви можете надіслати запит на передплату за адресою
-`php-general-subscribe-joeblowu003dexample.com@lists.php.net`, або запит на
+`php-general-subscribe-joeblow=example.com@lists.php.net`, або запит на
 відписку за адресою
-`php-general-unsubscribe-joeblowu003dexample.com@lists.php.net`. Для інших
+`php-general-unsubscribe-joeblow=example.com@lists.php.net`. Для інших
 список розсилки використовуйте аналогічні адреси.
 
 Найчастіша причина, через яку люди не можуть відписатися від наших

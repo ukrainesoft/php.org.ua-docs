@@ -7,7 +7,7 @@
 
 # seaslog_get_author
 
-(PECL seaslog \>u003d1.0.0)
+(PECL seaslog \>=1.0.0)
 
 seaslog_get_author — Отримує автора SeasLog
 

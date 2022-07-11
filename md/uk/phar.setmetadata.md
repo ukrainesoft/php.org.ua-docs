@@ -7,7 +7,7 @@
 
 # Phar::setMetadata
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 1.0.0)
 
 Phar::setMetadata — Встановити метадані phar-архіву
 
@@ -49,12 +49,12 @@ phar-архіву.
 
 **Приклад #1 Приклад використання **Phar::setMetadata()****
 
-`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p u003d new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.php'] u003d '<?php echo "привіт"'; $p->setMetadata(array('bootstrap' u003d> 'file.php')); var_dump($p->getMetadata());} catch (Exception $e) {    echo 'Не можу створити/змінити phar:', $e;}?> `
+`<?php// удалимо, на всякий випадок@unlink('brandnewphar.phar');try {   $p = new Phar(dirname(__FILE__) . '/brandnewphar.phar', 0, ';'; $p['file.php'] = '<?php echo "привіт"'; $p->setMetadata(array('bootstrap' => 'file.php')); var_dump($p->getMetadata());} catch (Exception $e) {    echo 'Не можу створити/змінити phar:', $e;}?> `
 
 Результат виконання цього прикладу:
 
 array(1) {
-["bootstrap"]u003d>
+["bootstrap"]=>
 string(8) "file.php"
 }
 

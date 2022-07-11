@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\WriteResult::isAcknowledged
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\WriteResult::isAcknowledged — Повертає запис.
 підтверджено
@@ -39,7 +39,7 @@ final public **MongoDB\Driver\WriteResult::isAcknowledged**(): bool
 **MongoDB\Driver\WriteResult::isAcknowledged()** з підтвердженими
 гарантіями запису**
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]);$result u003d $manager->executeBulkWrite(' db.collection', $bulk);var_dump($result->isAcknowledged());?> `
+` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$result = $manager->executeBulkWrite(' db.collection', $bulk);var_dump($result->isAcknowledged());?> `
 
 Результат виконання цього прикладу:
 
@@ -49,7 +49,7 @@ bool(true)
 **MongoDB\Driver\WriteResult::isAcknowledged()** з непідтвердженими
 гарантіями запису**
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$bulk u003d new MongoDB\Driver\BulkWrite;$bulk->insert(['x' u003d> 1]);$result u003d $manager->executeBulkWrite(' db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));var_dump($result->isAcknowledged());?> `
+` <?php$manager = new MongoDB\Driver\Manager;$bulk = new MongoDB\Driver\BulkWrite;$bulk->insert(['x' => 1]);$result = $manager->executeBulkWrite(' db.collection', $bulk, new MongoDB\Driver\WriteConcern(0));var_dump($result->isAcknowledged());?> `
 
 Результат виконання цього прикладу:
 

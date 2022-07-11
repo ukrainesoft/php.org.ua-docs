@@ -7,7 +7,7 @@
 
 #ctype_cntrl
 
-(PHP 4 \>u003d 4.0.4, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.4, PHP 5, PHP 7, PHP 8)
 
 ctype_cntrl — Перевіряє наявність керуючих символів
 
@@ -51,8 +51,9 @@ ctype_cntrl — Перевіряє наявність керуючих симв�
 
 **Приклад #1 Приклад використання **ctype_cntrl()****
 
-` <?php$strings u003d array('string1' u003d> "
-", 'string2' u003d> 'arf12');foreach ($strings as $name u003d> $testcase) {    if (ctype_cntrl($testcase)) {        echo "Строка '$name' состоит только из управляющих символов.
+` <?php$strings = array('string1' => "
+==
+", 'string2' => 'arf12');foreach ($strings as $name => $testcase) {    if (ctype_cntrl($testcase)) {        echo "Строка '$name' состоит только из управляющих символов.
 ";    }}else {         echo "Рядок'$name' не складається тільки із керуючих символів.
 ";    }}?> `
 

@@ -8,7 +8,7 @@
 
 #db2_column_privileges
 
-(PECL ibm_db2 \>u003d 1.0.0)
+(PECL ibm_db2 \>= 1.0.0)
 
 db2_column_privileges — Повертає результуючий набір, що перераховує
 стовпці та пов'язані з ним привілеї для таблиці
@@ -17,10 +17,10 @@ db2_column_privileges — Повертає результуючий набір, 
 
 **db2_column_privileges**(
 resource `$connection`,
-string `$qualifier` u003d ?,
-string `$schema` u003d ?,
-string `$table-name` u003d ?,
-string `$column-name` u003d ?
+string `$qualifier` = ?,
+string `$schema` = ?,
+string `$table-name` = ?,
+string `$column-name` = ?
 ): resource
 
 Повертає результуючий набір, що перераховує стовпці та пов'язані з ним
@@ -54,7 +54,7 @@ string `$column-name` u003d ?
 наступні поля:
 
 | Ім'я шпальти | Опис                                                                 |
-| ------------ | -------------------------------------------------------------------- |
+|--------------|----------------------------------------------------------------------|
 | TABLE_CAT    | Ім'я каталогу. Якщо таблиця немає каталогів, це поле міститиме NULL. |
 | TABLE_SCHEM  | Назва схеми.                                                         |
 | TABLE_NAME   | Ім'я таблиці або уявлення.                                           |

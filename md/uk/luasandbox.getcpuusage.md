@@ -7,7 +7,7 @@
 
 # LuaSandbox::getCPUUsage
 
-(PECL luasandbox \>u003d 1.0.0)
+(PECL luasandbox \>= 1.0.0)
 
 LuaSandbox::getCPUUsage — Повертає поточний час використання
 процесора в середовищі Lua

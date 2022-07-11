@@ -8,7 +8,7 @@
 
 # fann_create_train_from_callback
 
-(PECL fann u003d 1.0.0)
+(PECL fann = 1.0.0)
 
 fann_create_train_from_callback — Створює структуру даних навчання з
 наданої користувачем функції
@@ -57,14 +57,14 @@ int `$num_output`,
 
 **Приклад #1 Приклад використання **fann_create_train_from_callback()****
 
-` <?phpfunction create_train_callback($num_data, $num_input, $num_output) {    return array(        "input" u003d> array_fill(0, $num_input, 1),        "output" u003d> array_fill(0, $num_output, 1),    ) ;}$num_data u003d 3;$num_input u003d 2;$num_output u003d 1;$train_data u003d fann_create_train_from_callback($num_data, $num_input, $num_output, "create_train_callback");if ($train_data) {    // Сделай что-нибудь с $ train_data}?> `
+` <?phpfunction create_train_callback($num_data, $num_input, $num_output) {    return array(        "input" => array_fill(0, $num_input, 1),        "output" => array_fill(0, $num_output, 1),    ) ;}$num_data = 3;$num_input = 2;$num_output = 1;$train_data = fann_create_train_from_callback($num_data, $num_input, $num_output, "create_train_callback");if ($train_data) {    // Сделай что-нибудь с $ train_data}?> `
 
 ### Примітки
 
 > **Примітка**:
 >
 > Функція доступна лише в тому випадку, якщо модуль fann був зібраний для
-> libfann u003d 2.2.
+> libfann = 2.2.
 
 ### Дивіться також
 

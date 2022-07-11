@@ -7,7 +7,7 @@
 
 # Swoole\Server\Port::\_\_destruct
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server\Port::\_\_destruct — Знищує порт сервера
 

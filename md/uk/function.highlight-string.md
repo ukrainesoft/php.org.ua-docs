@@ -13,7 +13,7 @@ highlight_string — Підсвічування синтаксису рядка
 
 ### Опис
 
-**highlight_string**(string `$string`, bool `$return` u003d **`false`**):
+**highlight_string**(string `$string`, bool `$return` = **`false`**):
 string\|bool
 
 Виводить або повертає код PHP з html-розміткою з підсвіченим
@@ -43,8 +43,8 @@ PHP-код, що підсвічується. Повинен включати т�
 
 Результат виконання цього прикладу:
 
-<code><span styleu003d"color: #000000">
-<span styleu003d"color: #0000BB"><?php phpinfo</span><span styleu003d"color: #007700">(); </span><span styleu003d"color: #0000BB">?></span>
+<code><span style="color: #000000">
+<span style="color: #0000BB"><?php phpinfo</span><span style="color: #007700">(); </span><span style="color: #0000BB">?></span>
 </span>
 </code>
 

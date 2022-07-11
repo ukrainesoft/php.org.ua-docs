@@ -7,7 +7,7 @@
 
 #eio_nreqs
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_nreqs — Повертає кількість запитів, які потрібно виконати
 

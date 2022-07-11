@@ -7,7 +7,7 @@
 
 # EventBase::priorityInit
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBase::priorityInit — Встановлює кількість пріоритетів на базу
 подій

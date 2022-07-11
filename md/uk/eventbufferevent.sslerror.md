@@ -7,7 +7,7 @@
 
 # EventBufferEvent::sslError
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventBufferEvent::sslError — Повертає останню помилку OpenSSL,
 повідомлену буферній події

@@ -7,7 +7,7 @@
 
 #stream_set_chunk_size
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 stream_set_chunk_size — встановити розмір фрагмента даних потоку
 

@@ -13,7 +13,7 @@ Imagick::queryFormats — Повертає формати, які підтрим
 
 ### Опис
 
-public static **Imagick::queryFormats**(string `$pattern` u003d "\*"): array
+public static **Imagick::queryFormats**(string `$pattern` = "\*"): array
 
 Повертає формати Imagick.
 
@@ -33,4 +33,4 @@ public static **Imagick::queryFormats**(string `$pattern` u003d "\*"): array
 
 **Приклад #1 Приклад використання **Imagick::queryFormats()****
 
-` <?php    function render() {        $output u003d ""; $inputu003du003dImagick::queryformats(); $ columns u003d u003d 6; $output.u003du003d"<table|borderu003d'2'>"; for ($iu003d0; $i < count($input); $i +u003d $columns) {            $output .u003d "<tr>"; for ($cu003d0;$c<$columns;$c++) {                $output .u003d "<td>"; if (($i + $c) <  count($input)) {                    $output .u003d $input[$i + $c]; }                  $output .u003d "</td>"; }             $output .u003d "</tr>"; }        $output .u003d "</table>"; return $output; }?> `
+` <?php    function render() {        $output = ""; $input==Imagick::queryformats(); $ columns = = 6; $output.=="<table|border='2'>"; for ($i=0; $i < count($input); $i += $columns) {            $output .= "<tr>"; for ($c=0;$c<$columns;$c++) {                $output .= "<td>"; if (($i + $c) <  count($input)) {                    $output .= $input[$i + $c]; }                  $output .= "</td>"; }             $output .= "</tr>"; }        $output .= "</table>"; return $output; }?> `

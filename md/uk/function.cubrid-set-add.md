@@ -7,7 +7,7 @@
 
 #cubrid_set_add
 
-(PECL CUBRID u003d 8.3.0)
+(PECL CUBRID = 8.3.0)
 
 cubrid_set_add — Вставляє один елемент для встановлення стовпця типу з
 допомогою OID
@@ -47,26 +47,26 @@ OID екземпляра, з яким ви хочете працювати.
 
 **Приклад #1 Приклад використання **cubrid_set_add()****
 
-` <?php$conn u003d cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");$req u003d cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);cubrid_move_cursor($Rq; $req);$attr u003d cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_set_add($conn, $oid, "b", "4");$attr u003d cubrid_col_get($ , $oid, "b");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
+` <?php$conn = cubrid_connect("localhost", 33000, "demodb", "dba");@cubrid_execute($conn, "DROP TABLE foo");cubrid_execute($conn, CREATE , b set(int), c list(int), d char(10))");cubrid_execute($conn, "INSERT INTO foo(a, b, c, d) VALUES(1, {1,2,3 }, {11,22,33,333}, 'a')");$req = cubrid_execute($conn, "SELECT * FROM foo", CUBRID_INCLUDE_OID);cubrid_move_cursor($Rq; $req);$attr = cubrid_col_get($conn, $oid, "b");var_dump($attr);cubrid_set_add($conn, $oid, "b", "4");$attr = cubrid_col_get($ , $oid, "b");var_dump($attr);cubrid_close_request($req);cubrid_disconnect($conn);?> `
 
 Результат виконання цього прикладу:
 
 array(3) {
-[0]u003d>
+[0]=>
 string(1) "1"
-[1]u003d>
+[1]=>
 string(1) "2"
-[2]u003d>
+[2]=>
 string(1) "3"
 }
 array(4) {
-[0]u003d>
+[0]=>
 string(1) "1"
-[1]u003d>
+[1]=>
 string(1) "2"
-[2]u003d>
+[2]=>
 string(1) "3"
-[3]u003d>
+[3]=>
 string(1) "4"
 }
 

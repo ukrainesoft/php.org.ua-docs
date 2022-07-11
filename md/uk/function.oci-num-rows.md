@@ -8,7 +8,7 @@
 
 #oci_num_rows
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 oci_num_rows — Повертає кількість рядків, змінених у процесі
 виконання запиту
@@ -33,9 +33,9 @@ oci_num_rows — Повертає кількість рядків, змінен�
 
 **Приклад #1 Приклад використання **oci_num_rows()****
 
-` <?php$conn u003d oci_connect("hr", "hrpwd", "localhost/XE");if (!$conn) {    $m u003d oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid u003d oci_parse($conn, "create table emp2 as select * from employees");oci_execute($stid); "Рядок" вставлено.
-";oci_free_statement($stid);$stid u003d oci_parse($conn, "delete from emp2");oci_execute($stid, OCI_DEFAULT);echo oci_num_rows($stid) . строк >
-";oci_commit($conn);oci_free_statement($stid);$stid u003d oci_parse($conn, "drop table emp2");oci_execute($stid);oci_free_statement($stid);oci_close($conn);?> `
+` <?php$conn = oci_connect("hr", "hrpwd", "localhost/XE");if (!$conn) {    $m = oci_error(); trigger_error(htmlentities($m['message']), E_USER_ERROR);}$stid = oci_parse($conn, "create table emp2 as select * from employees");oci_execute($stid); "Рядок" вставлено.
+";oci_free_statement($stid);$stid = oci_parse($conn, "delete from emp2");oci_execute($stid, OCI_DEFAULT);echo oci_num_rows($stid) . строк >
+";oci_commit($conn);oci_free_statement($stid);$stid = oci_parse($conn, "drop table emp2");oci_execute($stid);oci_free_statement($stid);oci_close($conn);?> `
 
 ### Примітки
 

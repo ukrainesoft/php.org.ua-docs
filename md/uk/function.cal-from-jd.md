@@ -8,7 +8,7 @@
 
 #cal_from_jd
 
-(PHP 4 \>u003d 4.1.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.1.0, PHP 5, PHP 7, PHP 8)
 
 cal_from_jd — Перетворює дату, задану в юліанському календарі, на дату
 зазначеного календаря
@@ -41,21 +41,21 @@ cal_from_jd — Перетворює дату, задану в юліанськ�
 
 **Приклад #1 Приклад використання **cal_from_jd()****
 
-` <?php$today u003d unixtojd(mktime(0, 0, 0, 8, 16, 2003));print_r(cal_from_jd($today, CAL_GREGORIAN));?> `
+` <?php$today = unixtojd(mktime(0, 0, 0, 8, 16, 2003));print_r(cal_from_jd($today, CAL_GREGORIAN));?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[date] u003d> 8/16/2003
-[month] u003d> 8
-[Day] u003d> 16
-[year] u003d> 2003
-[dow] u003d> 6
-[abbrevdayname] u003d> Sat
-[dayname] u003d> Saturday
-[abbrevmonth] u003d> Aug
-[monthname] u003d> August
+[date] => 8/16/2003
+[month] => 8
+[Day] => 16
+[year] => 2003
+[dow] => 6
+[abbrevdayname] => Sat
+[dayname] => Saturday
+[abbrevmonth] => Aug
+[monthname] => August
 )
 
 ### Дивіться також

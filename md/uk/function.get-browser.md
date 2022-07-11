@@ -13,8 +13,8 @@ get_browser — Повідомляє про можливості браузер�
 
 ### Опис
 
-**get_browser**(?string`$user_agent` u003d **`null`**, bool `$return_array`
-u003d **`false`**): object\|array\|false
+**get_browser**(?string`$user_agent` = **`null`**, bool `$return_array`
+= **`false`**): object\|array\|false
 
 Намагається визначити можливості браузера користувача, роблячи пошук
 інформації про браузер у файлі `browscap.ini`.
@@ -57,7 +57,7 @@ cookies чи ні. Єдиним способом перевірки можлив
 
 ` <?phpecho $_SERVER['HTTP_USER_AGENT'] . "
 
-";$browser u003d get_browser(null, true);print_r($browser);?> `
+";$browser = get_browser(null, true);print_r($browser);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
@@ -65,32 +65,32 @@ Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.7) Gecko/20040803 Firefox/0
 
 Array
 (
-[browser_name_regex] u003d> ^mozilla/5\.0 (windows; .; windows nt 5\.1; .*rv:.*) gecko/.* firefox/0\.9.*$
-[browser_name_pattern] u003d> Mozilla/5.0 (Windows; ?; Windows NT 5.1; *rv:*) Gecko/* Firefox/0.9*
-[parent] u003d> Firefox 0.9
-[platform] u003d> WinXP
-[browser] u003d> Firefox
-[version] u003d> 0.9
-[majorver] u003d> 0
-[minorver] u003d> 9
-[cssversion] u003d> 2
-[frames] u003d> 1
-[iframes] u003d> 1
-[tables] u003d> 1
-[cookies] u003d> 1
-[backgroundsounds] u003d>
-[vbscript] u003d>
-[javascript] u003d> 1
-[javaapplets] u003d> 1
-[activexcontrols] u003d>
-[cdf] u003d>
-[aol] u003d>
-[beta] u003d> 1
-[win16] u003d>
-[crawler] u003d>
-[stripper] u003d>
-[wap] u003d>
-[netclr] u003d>
+[browser_name_regex] => ^mozilla/5\.0 (windows; .; windows nt 5\.1; .*rv:.*) gecko/.* firefox/0\.9.*$
+[browser_name_pattern] => Mozilla/5.0 (Windows; ?; Windows NT 5.1; *rv:*) Gecko/* Firefox/0.9*
+[parent] => Firefox 0.9
+[platform] => WinXP
+[browser] => Firefox
+[version] => 0.9
+[majorver] => 0
+[minorver] => 9
+[cssversion] => 2
+[frames] => 1
+[iframes] => 1
+[tables] => 1
+[cookies] => 1
+[backgroundsounds] =>
+[vbscript] =>
+[javascript] => 1
+[javaapplets] => 1
+[activexcontrols] =>
+[cdf] =>
+[aol] =>
+[beta] => 1
+[win16] =>
+[crawler] =>
+[stripper] =>
+[wap] =>
+[netclr] =>
 )
 
 ### Примітки

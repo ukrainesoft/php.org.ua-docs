@@ -7,14 +7,14 @@
 
 # SolrClient::optimize
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrClient::optimize — Дефрагментує індекс
 
 ### Опис
 
-public **SolrClient::optimize**(int `$maxSegments` u003d 1, bool
-`$softCommit` u003d **`true`**, bool `$waitSearcher` u003d **`true`**):
+public **SolrClient::optimize**(int `$maxSegments` = 1, bool
+`$softCommit` = **`true`**, bool `$waitSearcher` = **`true`**):
 [SolrUpdateResponse](class.solrupdateresponse.md)
 
 Дефрагментує індекс для швидкого пошуку.
@@ -50,7 +50,7 @@ public **SolrClient::optimize**(int `$maxSegments` u003d 1, bool
 
 **Увага**
 
-PECL Solr \>u003d 2.0 підтримує тільки Solr Server \>u003d 4.0
+PECL Solr \>= 2.0 підтримує тільки Solr Server \>= 4.0
 
 До PECL Solr 2.0 метод використовувався прийому аргументів " int
 $maxSegments, bool $waitFlush, bool $waitSearcher".

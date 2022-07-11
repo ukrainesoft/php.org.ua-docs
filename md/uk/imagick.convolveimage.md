@@ -14,7 +14,7 @@ Imagick::convolveImage — Застосовує ядро згортки для �
 
 ### Опис
 
-public **Imagick::convolveImage**(array `$kernel`, int `$channel` u003d
+public **Imagick::convolveImage**(array `$kernel`, int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Застосовує ядро згортки до зображення.
@@ -42,4 +42,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::convolveImage()****
 
-`<?phpfunction convolveImage($imagePath, $bias, $kernelMatrix) {   $imagick u003d new \Imagick(realpath($imagePath)); //$edgeFindingKernelu003du003d[-1, -1, -1, -1, 8, -1, -1, -1, -1,]; $imagick->setImageBias($bias * \Imagick::getQuantum()); $imagick->convolveImage($kernelMatrix); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction convolveImage($imagePath, $bias, $kernelMatrix) {   $imagick = new \Imagick(realpath($imagePath)); //$edgeFindingKernel==[-1, -1, -1, -1, 8, -1, -1, -1, -1,]; $imagick->setImageBias($bias * \Imagick::getQuantum()); $imagick->convolveImage($kernelMatrix); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

@@ -40,7 +40,7 @@ strnatcmp — Порівняння рядків із використанням 
 порівняння (використані в [strcmp()](function.strcmp.md)), наведений
 нижче:
 
-` <?php$arr1 u003d $arr2 u003d array("img12.png", "img10.png", "img2.png", "img1.png");echo "Стандартний алгоритм порівняння
+` <?php$arr1 = $arr2 = array("img12.png", "img10.png", "img2.png", "img1.png");echo "Стандартний алгоритм порівняння
 ";usort($arr1, "strcmp");print_r($arr1);echo "
 Алгоритм \"natural order\"
 ";usort($arr2, "strnatcmp");print_r($arr2);?> `
@@ -50,19 +50,19 @@ strnatcmp — Порівняння рядків із використанням 
 Стандартний алгоритм порівняння
 Array
 (
-[0] u003d> img1.png
-[1] u003d> img10.png
-[2] u003d> img12.png
-[3] u003d> img2.png
+[0] => img1.png
+[1] => img10.png
+[2] => img12.png
+[3] => img2.png
 )
 
 Алгоритм "natural order"
 Array
 (
-[0] u003d> img1.png
-[1] u003d> img2.png
-[2] u003d> img10.png
-[3] u003d> img12.png
+[0] => img1.png
+[1] => img2.png
+[2] => img10.png
+[3] => img12.png
 )
 
 Для отримання додаткової інформації дивіться [Natural Order String Comparison](https://github.com/sourcefrog/natsort).

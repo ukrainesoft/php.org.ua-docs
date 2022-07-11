@@ -15,13 +15,13 @@
 
 **Приклад #1 Приклад перезапису виведення**
 
-` <?php// Цей код працює с PHP 7.1.0, 7.0.10, 5.6.25 і вище.// HTTP_HOST - цільовий хост за замовчуванням. Задамо самі, щоб код прикладу заробив.$_SERVER['HTTP_HOST'] u003d 'php.net';// Перезаписувач висновку перезаписує тільки "form". Додамо au003dhref.// Теги повинні вказуватися як tag_nameu003durl_attr, є є imgu003dsrc,iframeu003dsrc//Між настройками пробіли|неприпустимі.// Тег 'url_rewriter.tags','au003dhref,formu003d');var_dump(ini_get('url_rewriter.tags'));// Це додано в URL і "form"output_add_rewrite_var('test', 'u ><a hrefu003d"//php.net/index.php?bugu003d1234">bug1234</a><form actionu003d"https://php.net/?bugu003d1234&editu003d1" actionu003d"post "> <input typeu003d"text" nameu003d"title" /></form>`
+` <?php// Цей код працює с PHP 7.1.0, 7.0.10, 5.6.25 і вище.// HTTP_HOST - цільовий хост за замовчуванням. Задамо самі, щоб код прикладу заробив.$_SERVER['HTTP_HOST'] = 'php.net';// Перезаписувач висновку перезаписує тільки "form". Додамо a=href.// Теги повинні вказуватися як tag_name=url_attr, є є img=src,iframe=src//Між настройками пробіли|неприпустимі.// Тег 'url_rewriter.tags','a=href,form=');var_dump(ini_get('url_rewriter.tags'));// Це додано в URL і "form"output_add_rewrite_var('test', 'u ><a href="//php.net/index.php?bug=1234">bug1234</a><form action="https://php.net/?bug=1234&edit=1" action="post "> <input type="text" name="title" /></form>`
 
 Результат виконання цього прикладу:
 
-<a hrefu003d"//php.net/?bugu003d1234&testu003dvalue">bug1234</a>
-<form actionu003d"https://php.net/?bugu003d1234&editu003d1" methodu003d"post"><input typeu003d"hidden" nameu003d"test" valueu003d"value" />
-<input typeu003d"text" nameu003d"title" />
+<a href="//php.net/?bug=1234&test=value">bug1234</a>
+<form action="https://php.net/?bug=1234&edit=1" method="post"><input type="hidden" name="test" value="value" />
+<input type="text" name="title" />
 </form>
 
 З PHP 7.1.0 функції перезапису виводу мають свої власні

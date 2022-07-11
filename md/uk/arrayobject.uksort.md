@@ -8,7 +8,7 @@
 
 # ArrayObject::uksort
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 ArrayObject::uksort — Сортування масиву за ключами, використовуючи
 користувальницьку функцію для порівняння
@@ -47,7 +47,7 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **ArrayObject::uksort()****
 
-` <?phpfunction cmp($a, $b) {    $a u003d preg_replace('@^(a|an|the) @', '', $a); $b u003d preg_replace('@^(a|an|the) @', '', $b); return strcasecmp($a, $b);}$array u003d array("John" u003d> 1, "the Earth" u003d> 2, "an apple" u003d> 3, "a banana" u003d> 4); u003d new ArrayObject($array);$arrayObject->uksort('cmp');foreach ($arrayObject as $key u003d> $value) {    echo "$key: $value
+` <?phpfunction cmp($a, $b) {    $a = preg_replace('@^(a|an|the) @', '', $a); $b = preg_replace('@^(a|an|the) @', '', $b); return strcasecmp($a, $b);}$array = array("John" => 1, "the Earth" => 2, "an apple" => 3, "a banana" => 4); = new ArrayObject($array);$arrayObject->uksort('cmp');foreach ($arrayObject as $key => $value) {    echo "$key: $value
 ";}?> `
 
 Результат виконання цього прикладу:

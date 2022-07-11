@@ -7,7 +7,7 @@
 
 # ImagickKernel::addUnityKernel
 
-(PECL imagick \>u003d 3.3.0)
+(PECL imagick \>= 3.3.0)
 
 ImagickKernel::addUnityKernel — Опис
 
@@ -31,8 +31,8 @@ public **ImagickKernel::addUnityKernel**(float `$scale`): void
 
 **Приклад #1 Приклад використання **ImagickKernel::addUnityKernel()****
 
-` <?php    function renderKernelTable($matrix) {        $output u003d "<table classu003d'infoTable'>"; foreach ($matrix as $row) {            $output .u003d "<tr>"; foreach ($row as $cell) {                $output .u003d "<td styleu003d'text-align:left'>"; if ($cell u003du003du003du003dfalse) {                    $output .u003d "false"; }                 else {                     $output .u003d round($cell, }                  $output .u003d "</td>"; }             $output .u003d "</tr>"; }        $output .u003d "</table>"; return $output; }   $matrix u003d [        [-1, 0, -1],        [ 0, 4,  0], | $kernelu003d \ImagickKernel::fromMatrix($matrix); $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE); $output u003d "Перед додаваннямunity ядра: <br/>"; $output.u003du003drenderKernelTable($kernel->getMatrix()); $kernel->addUnityKernel(0.5); $output .u003d "Після додавання unity ядра: <br/>"; $output.u003du003drenderKernelTable($kernel->getMatrix()); $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE); $output .u003d "Після перенормування ядра: <br/>"; $output.u003du003drenderKernelTable($kernel->getMatrix()); echo $output;?> `
+` <?php    function renderKernelTable($matrix) {        $output = "<table class='infoTable'>"; foreach ($matrix as $row) {            $output .= "<tr>"; foreach ($row as $cell) {                $output .= "<td style='text-align:left'>"; if ($cell ====false) {                    $output .= "false"; }                 else {                     $output .= round($cell, }                  $output .= "</td>"; }             $output .= "</tr>"; }        $output .= "</table>"; return $output; }   $matrix = [        [-1, 0, -1],        [ 0, 4,  0], | $kernel= \ImagickKernel::fromMatrix($matrix); $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE); $output = "Перед додаваннямunity ядра: <br/>"; $output.==renderKernelTable($kernel->getMatrix()); $kernel->addUnityKernel(0.5); $output .= "Після додавання unity ядра: <br/>"; $output.==renderKernelTable($kernel->getMatrix()); $kernel->scale(1, \Imagick::NORMALIZE_KERNEL_VALUE); $output .= "Після перенормування ядра: <br/>"; $output.==renderKernelTable($kernel->getMatrix()); echo $output;?> `
 
 **Приклад #2 Приклад використання **ImagickKernel::addUnityKernel()****
 
-<-phpfunction AddUnityKernel($imagePath) {- ,  ,   ,                 $kernelu003d ImagickKernel::fromMatrix($matrix); $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE); $kernel->addUnityKernel(0.5); $imagick u003d new \Imagick(realpath($imagePath)); $imagick->filter($kernel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+<-phpfunction AddUnityKernel($imagePath) {- ,  ,   ,                 $kernel= ImagickKernel::fromMatrix($matrix); $kernel->scale(4, \Imagick::NORMALIZE_KERNEL_VALUE); $kernel->addUnityKernel(0.5); $imagick = new \Imagick(realpath($imagePath)); $imagick->filter($kernel); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

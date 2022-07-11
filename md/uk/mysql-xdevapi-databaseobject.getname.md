@@ -35,4 +35,4 @@ abstract public **mysql_xdevapi\DatabaseObject::getName**(): string
 **Приклад #1 Приклад використання
 **mysql_xdevapi\DatabaseObject::getName()****
 
-` <?php$dbObjName u003d $dbObj->getName();?> `
+` <?php$dbObjName = $dbObj->getName();?> `

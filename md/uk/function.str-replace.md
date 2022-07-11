@@ -75,11 +75,11 @@ int `&$count` = **`null`**
 Рядок 2
 Рядок 3
 Рядок 4=
-";$order   u003d array("
+";$order   = array("
 ", "=
 ", "========
-");$replace u003d '<br />';// Обробляє спочатку
-для уникнення їх повторної заміни. echo $ newstr u003d str_replace ($ order, $ replace, $ str); / / Виводить F, т.к. A замінюється на B, потім B на C, і так далі...// В результаті E буде замінено F, так як заміна відбувається зліва ,направо.$search  '''' ' D', 'E');$replaceu003du003darray('B', C', D', E', F');$subjectu003du003d'A';echo str_replace($search, $replace, $subject);// Виводить: яблорехкоріх горіх(за вищевказаною причиною)$letters u003d array('я', 'о');$fruit   u003d array('яблуко', 'горіх' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '; ;$output u003d str_replace($letters, $fruit, $text);echo $output;?> `
+");$replace = '<br />';// Обробляє спочатку
+для уникнення їх повторної заміни. echo $ newstr = str_replace ($ order, $ replace, $ str); / / Виводить F, т.к. A замінюється на B, потім B на C, і так далі...// В результаті E буде замінено F, так як заміна відбувається зліва ,направо.$search  '''' ' D', 'E');$replace==array('B', C', D', E', F');$subject=='A';echo str_replace($search, $replace, $subject);// Виводить: яблорехкоріх горіх(за вищевказаною причиною)$letters = array('я', 'о');$fruit   = array('яблуко', 'горіх' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' ' '; ;$output = str_replace($letters, $fruit, $text);echo $output;?> `
 
 ### Примітки
 

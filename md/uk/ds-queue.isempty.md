@@ -7,7 +7,7 @@
 
 # Ds\Queue::isEmpty
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Queue::isEmpty — Перевіряє, чи порожня колекція
 
@@ -30,7 +30,7 @@ public **Ds\Queue::isEmpty**(): bool
 
 **Приклад #1 Приклад використання **Ds\Queue::isEmpty()****
 
-` <?php$a u003d new \Ds\Queue([1, 2, 3]);$b u003d new \Ds\Queue();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
+` <?php$a = new \Ds\Queue([1, 2, 3]);$b = new \Ds\Queue();var_dump($a->isEmpty());var_dump($b-> isEmpty());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

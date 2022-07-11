@@ -7,7 +7,7 @@
 
 # Gmagick::read
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::read — Читає зображення з файлу
 

@@ -7,7 +7,7 @@
 
 # Swoole\Event::exit
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Event::exit — Виходить із циклу подій, доступне лише на
 стороні клієнта

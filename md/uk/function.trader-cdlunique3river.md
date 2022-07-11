@@ -7,7 +7,7 @@
 
 #trader_cdlunique3river
 
-(PECL trader \>u003d 0.2.0)
+(PECL trader \>= 0.2.0)
 
 trader_cdlunique3river — Свічкова модель "Особлива западина три річки"
 

@@ -7,7 +7,7 @@
 
 #fdf_get_flags
 
-(PHP 4 \>u003d 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
+(PHP 4 \>= 4.3.0, PHP 5 \< 5.3.0, PECL fdf SVN)
 
 fdf_get_flags — Отримує прапори поля
 

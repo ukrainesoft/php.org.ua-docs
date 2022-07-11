@@ -41,11 +41,11 @@ int `$mysqli->connect_errno`;
 
 Об'єктно-орієнтований стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для придушення попереджень */$mysqli u003d @new mysqli('localhost', 'fake_user', 'wrong_password', /* Використовуйте переважний вами метод реєстрації помилок */    error_log('Помилка з'єднання: ' . $mysqli->connect_errno);}?> `
+`<?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ використовується для придушення попереджень */$mysqli = @new mysqli('localhost', 'fake_user', 'wrong_password', /* Використовуйте переважний вами метод реєстрації помилок */    error_log('Помилка з'єднання: ' . $mysqli->connect_errno);}?> `
 
 Процедурний стиль
 
-`<?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ is used to suppress warnings */$link u003d @mysqli_connect('localhost', 'fake_user', 'wrong_password', ' ' | Використовуйте вважаний вами метод реєстрації помилок */    error_log('Помилка з'єднання: ' . mysqli_connect_errno());}?> `
+`<?phpmysqli_report(MYSQLI_REPORT_OFF);/* @ is used to suppress warnings */$link = @mysqli_connect('localhost', 'fake_user', 'wrong_password', ' ' | Використовуйте вважаний вами метод реєстрації помилок */    error_log('Помилка з'єднання: ' . mysqli_connect_errno());}?> `
 
 ### Дивіться також
 

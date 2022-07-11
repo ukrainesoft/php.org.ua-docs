@@ -36,4 +36,4 @@ public **Imagick::setImageIterations**(int `$iterations`): bool
 
 **Приклад #1 Приклад використання **Imagick::setImageIterations()****
 
-` <?php$imagick u003d new Imagick(realpath("Test.gif"));$imagick u003d $imagick->coalesceImages();$imagick->setImageIterations(1);$imagick u003d $imagick->deconstructImages() ;$imagick->writeImages('/path/to/save/OnceOnly.gif', true);?> `
+` <?php$imagick = new Imagick(realpath("Test.gif"));$imagick = $imagick->coalesceImages();$imagick->setImageIterations(1);$imagick = $imagick->deconstructImages() ;$imagick->writeImages('/path/to/save/OnceOnly.gif', true);?> `

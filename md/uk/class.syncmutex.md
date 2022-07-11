@@ -7,7 +7,7 @@
 
 # Клас SyncMutex
 
-(PECL sync \>u003d 1.0.0)
+(PECL sync \>= 1.0.0)
 
 ## Вступ
 
@@ -27,11 +27,11 @@ class **SyncMutex** {
 
 /\* Методи \*/
 
-public [\_\_construct](syncmutex.construct.md)(string `$name` u003d ?)
+public [\_\_construct](syncmutex.construct.md)(string `$name` = ?)
 
-public [lock](syncmutex.lock.md)(int `$wait` u003d -1): bool
+public [lock](syncmutex.lock.md)(int `$wait` = -1): bool
 
-public [unlock](syncmutex.unlock.md)(bool `$all` u003d **`false`**): bool
+public [unlock](syncmutex.unlock.md)(bool `$all` = **`false`**): bool
 
 }
 

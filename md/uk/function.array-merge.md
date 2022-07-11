@@ -40,72 +40,72 @@ array_merge — Зливає один або більше масивів
 ### Список змін
 
 | Версія | Опис                                                                                              |
-| ------ | ------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------|
 | 7.4.0  | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібен хоча б один параметр. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **array_merge()****
 
-` <?php$array1 u003d array("color" u003d> "red", 2, 4);$array2 u003d array("a", "b", "color" u003d> "green", "shape" u003d> "trapezoid", 4);$result u003d array_merge($array1, $array2);print_r($result);?> `
+` <?php$array1 = array("color" => "red", 2, 4);$array2 = array("a", "b", "color" => "green", "shape" => "trapezoid", 4);$result = array_merge($array1, $array2);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[color] u003d> green
-[0] u003d> 2
-[1] u003d> 4
-[2] u003d> a
-[3] u003d> b
-[shape] u003d> trapezoid
-[4] u003d> 4
+[color] => green
+[0] => 2
+[1] => 4
+[2] => a
+[3] => b
+[shape] => trapezoid
+[4] => 4
 )
 
 **Приклад #2 Простий приклад використання **array_merge()****
 
-` <?php$array1 u003d array();$array2 u003d array(1 u003d> "data");$result u003d array_merge($array1, $array2);?> `
+` <?php$array1 = array();$array2 = array(1 => "data");$result = array_merge($array1, $array2);?> `
 
 Пам'ятайте, що числові ключі будуть перенумеровані!
 
 Array
 (
-[0] u003d> data
+[0] => data
 )
 
 Якщо ви бажаєте доповнити перший масив елементами другого без перезапису
 елементів першого масиву та без переіндексації, використовуйте оператор
 об'єднання масивів `+`:
 
-` <?php$array1 u003d array(0 u003d> 'zero_a', 2 u003d> 'two_a', 3 u003d> 'three_a');$array2 u003d array(1 u003d> 'one_b', 3 u003d> 4 u003d> 'four_b');$result u003d $array1 + $array2;var_dump($result);?> `
+` <?php$array1 = array(0 => 'zero_a', 2 => 'two_a', 3 => 'three_a');$array2 = array(1 => 'one_b', 3 => 4 => 'four_b');$result = $array1 + $array2;var_dump($result);?> `
 
 Ключі з першого масиву буде збережено. Якщо ключ масиву існує в
 обох масивах, то буде використаний елемент першого масиву, а
 відповідний елемент другого масиву буде проігнорований.
 
 array(5) {
-[0]u003d>
+[0]=>
 string(6) "zero_a"
-[2]u003d>
+[2]=>
 string(5) "two_a"
-[3]u003d>
+[3]=>
 string(7) "three_a"
-[1]u003d>
+[1]=>
 string(5) "one_b"
-[4]u003d>
+[4]=>
 string(6) "four_b"
 }
 
 **Приклад #3 Приклад використання **array_merge()** з не масивами**
 
-` <?php$beginning u003d 'foo';$end u003d array(1 u003d> 'bar');$result u003d array_merge((array)$beginning, (array)$end);print_r($result);?> `
+` <?php$beginning = 'foo';$end = array(1 => 'bar');$result = array_merge((array)$beginning, (array)$end);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> foo
-[1] u003d> bar
+[0] => foo
+[1] => bar
 )
 
 ### Дивіться також

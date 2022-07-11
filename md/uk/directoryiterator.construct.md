@@ -35,7 +35,7 @@ public **DirectoryIterator::\_\_construct**(string `$directory`)
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                             |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | Тепер викидає виняток [ValueError](class.valueerror.md), якщо параметр directory містить порожній рядок; раніше викидався виняток [RuntimeException](class.runtimeexception.md). |
 
 ### Приклади
@@ -46,7 +46,7 @@ public **DirectoryIterator::\_\_construct**(string `$directory`)
 Приклад виведе список вмісту директорії, що містить виконуваний
 скрипт.
 
-`<?php$dir u003d new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if (!$fileinfo->isDot()) {          }}?> `
+`<?php$dir = new DirectoryIterator(dirname(__FILE__));foreach ($dir as $fileinfo) {    if (!$fileinfo->isDot()) {          }}?> `
 
 ### Дивіться також
 

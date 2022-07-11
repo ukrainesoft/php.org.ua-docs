@@ -13,7 +13,7 @@ ibase_close — Закриває з'єднання з базою даних Inte
 
 ### Опис
 
-**ibase_close**(resource `$connection_id` u003d **`null`**): bool
+**ibase_close**(resource `$connection_id` = **`null`**): bool
 
 Закриває посилання на базу даних InterBase, пов'язану з ідентифікатором
 з'єднання, отриманим за допомогою

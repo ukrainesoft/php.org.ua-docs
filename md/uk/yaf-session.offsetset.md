@@ -7,7 +7,7 @@
 
 # Yaf_Session::offsetSet
 
-(Yaf \>u003d1.0.0)
+(Yaf \>=1.0.0)
 
 Yaf_Session::offsetSet — Призначення offsetSet
 

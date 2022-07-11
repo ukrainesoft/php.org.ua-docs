@@ -7,7 +7,7 @@
 
 #eio_realpath
 
-(PECL eio \>u003d 0.0.1dev)
+(PECL eio \>= 0.0.1dev)
 
 eio_realpath - Отримує абсолютний приведений до канонічного виду шлях
 
@@ -17,7 +17,7 @@ eio_realpath - Отримує абсолютний приведений до к�
 string `$path`,
 int `$pri`,
 [callable](language.types.callable.md) `$callback`,
-string `$data` u003d NULL
+string `$data` = NULL
 ): resource
 
 **eio_realpath()** повертає абсолютний шлях через аргумент `result`

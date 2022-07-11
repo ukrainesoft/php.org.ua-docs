@@ -12,8 +12,8 @@
 
 **Приклад #1 Приклад роботи з модулем PostgreSQL**
 
-` <?php// З'єднання, вибір бази даних$dbconn u003d pg_connect("hostu003dlocalhost dbnameu003dpublishing useru003dwww passwordu003dfoo")    or die('Не удалося з'єднатися: | | -запиту$query u003d 'SELECT * FROM authors';$result u003d pg_query($query) or die('Помилка запиту: ' . pg_last_error());// Виведення результатів
-";while ($line u003d pg_fetch_array($result, null, PGSQL_ASSOC)) {    echo " <tr>
+` <?php// З'єднання, вибір бази даних$dbconn = pg_connect("host=localhost dbname=publishing user=www password=foo")    or die('Не удалося з'єднатися: | | -запиту$query = 'SELECT * FROM authors';$result = pg_query($query) or die('Помилка запиту: ' . pg_last_error());// Виведення результатів
+";while ($line = pg_fetch_array($result, null, PGSQL_ASSOC)) {    echo " <tr>
 ";    foreach ($line as $col_value) {        echo " <td>$col_value</td>
 ";    }    echo " </tr>
 ";}echo "</table>

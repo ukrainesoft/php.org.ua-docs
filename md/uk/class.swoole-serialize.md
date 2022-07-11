@@ -7,7 +7,7 @@
 
 # Клас Swoole\Serialize
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 ## Вступ
 
@@ -18,10 +18,10 @@ class **Swoole\Serialize** {
 /\* Методи \*/
 
 public static [pack](swoole-serialize.pack.md)(string `$data`, int
-`$is_fast` u003d ?): ReturnType
+`$is_fast` = ?): ReturnType
 
 public static [unpack](swoole-serialize.unpack.md)(string `$data`,
-string `$args` u003d ?): ReturnType
+string `$args` = ?): ReturnType
 
 }
 

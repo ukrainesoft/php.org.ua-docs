@@ -7,7 +7,7 @@
 
 # Ds\Hashable::equals
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Hashable::equals — Визначає, чи дорівнює поточний екземпляр переданому
 об'єкту

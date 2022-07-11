@@ -36,7 +36,7 @@ public **SoapClient::\_\_getLastResponseHeaders**(): ?string
 
 **Приклад #1 Приклад використання SoapClient::\_\_getLastResponse()**
 
-` <?php$client u003d SoapClient("some.wsdl", array('trace' u003d> 1));$result u003d $client->SomeFunction();echo "ЗАГАЛОВКИ ВІДПОВІДІ:
+` <?php$client = SoapClient("some.wsdl", array('trace' => 1));$result = $client->SomeFunction();echo "ЗАГАЛОВКИ ВІДПОВІДІ:
 " . $client->__getLastResponseHeaders() . "
 ";?> `
 

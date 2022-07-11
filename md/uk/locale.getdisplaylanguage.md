@@ -10,7 +10,7 @@
 
 #local_get_display_language
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Locale::getDisplayLanguage -- locale_get_display_language — Повертає
 відповідним чином локалізоване ім'я мови для заданої локалі
@@ -20,12 +20,12 @@ Locale::getDisplayLanguage -- locale_get_display_language — Повертає
 Об'єктно-орієнтований стиль
 
 public static **Locale::getDisplayLanguage**(string `$locale`, ?string
-`$displayLocale` u003d **`null`**): string\|false
+`$displayLocale` = **`null`**): string\|false
 
 Процедурний стиль
 
 **locale_get_display_language**(string `$locale`, ?string
-`$displayLocale` u003d **`null`**): string\|false
+`$displayLocale` = **`null`**): string\|false
 
 Повертає відповідним чином локалізоване ім'я мови для заданої
 локалі. Якщо **`null`**, то буде використано локаль за замовчуванням.
@@ -47,7 +47,7 @@ public static **Locale::getDisplayLanguage**(string `$locale`, ?string
 ### Список змін
 
 | Версія | Опис                                        |
-| ------ | ------------------------------------------- |
+|--------|---------------------------------------------|
 | 8.0.0  | displayLocale тепер допускає значення null. |
 
 ### Приклади

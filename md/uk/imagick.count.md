@@ -7,13 +7,13 @@
 
 # Imagick::count
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::count — Отримує кількість зображень
 
 ### Опис
 
-public **Imagick::count**(int `$mode` u003d 0): int
+public **Imagick::count**(int `$mode` = 0): int
 
 Повертає кількість зображень.
 

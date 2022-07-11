@@ -7,7 +7,7 @@
 
 # VarnishAdmin::setIdent
 
-(PECL varnish \>u003d 0.8)
+(PECL varnish \>= 0.8)
 
 VarnishAdmin::setIdent — Встановити параметр конфігурації ident класу
 

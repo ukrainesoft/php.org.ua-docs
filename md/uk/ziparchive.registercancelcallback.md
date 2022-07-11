@@ -8,7 +8,7 @@
 
 # ZipArchive::registerCancelCallback
 
-(PHP \>u003d 8.0.0, PECL zip \>u003d 1.17.0)
+(PHP \>= 8.0.0, PECL zip \>= 1.17.0)
 
 ZipArchive::registerCancelCallback — Реєструє callback-функцію для
 дозволу скасування під час закриття архіву
@@ -40,7 +40,7 @@ public
 
 **Приклад #1 Архівація файлу**
 
-` <?php$zip u003d new ZipArchive();if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {    $zip->addFile(PHP_BINA ; $zip->registerCancelCallback(function () {        return ($someruncondition ? -1 :1):    }); $zip->close();} `
+` <?php$zip = new ZipArchive();if ($zip->open('php.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE)) {    $zip->addFile(PHP_BINA ; $zip->registerCancelCallback(function () {        return ($someruncondition ? -1 :1):    }); $zip->close();} `
 
 ### Примітки
 

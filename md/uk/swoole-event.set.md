@@ -7,7 +7,7 @@
 
 # Swoole\Event::set
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Event::set - Оновлює callback-функції події сокету
 
@@ -15,9 +15,9 @@ Swoole\Event::set - Оновлює callback-функції події сокет
 
 public static **Swoole\Event::set**(
 int `$fd`,
-string `$read_callback` u003d ?,
-string `$write_callback` u003d ?,
-string `$events` u003d ?
+string `$read_callback` = ?,
+string `$write_callback` = ?,
+string `$events` = ?
 ): bool
 
 ### Список параметрів

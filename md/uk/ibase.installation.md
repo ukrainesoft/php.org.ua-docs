@@ -17,7 +17,7 @@
 [»https://pecl.php.net/package/ibase](https://pecl.php.net/package/ibase).
 
 Для включення підтримки Firebird/InterBase, налаштуйте PHP з опцією
-**--with-interbase[u003dDIR]**, де DIR вказує на директорію установки
+**--with-interbase[=DIR]**, де DIR вказує на директорію установки
 Firebird/InterBase (за замовчуванням `/usr`).
 
 > **Примітка**: **Примітки для користувачів Win32/Win64**

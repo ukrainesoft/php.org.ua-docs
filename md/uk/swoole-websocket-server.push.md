@@ -7,7 +7,7 @@
 
 # Swoole\WebSocket\Server::push
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\WebSocket\Server::push — Надіслати дані дистанційному клієнту
 
@@ -16,8 +16,8 @@ Swoole\WebSocket\Server::push — Надіслати дані дистанцій
 public **Swoole\WebSocket\Server::push**(
 string `$fd`,
 string `$data`,
-string `$opcode` u003d ?,
-string `$finish` u003d ?
+string `$opcode` = ?,
+string `$finish` = ?
 ): void
 
 ### Список параметрів

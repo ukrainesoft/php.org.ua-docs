@@ -7,7 +7,7 @@
 
 # sodium_crypto_core_ristretto255_scalar_negate
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 sodium_crypto_core_ristretto255_scalar_negate — Скасовує скалярне
 значення
@@ -37,7 +37,7 @@ sodium_crypto_core_ristretto255_scalar_negate — Скасовує скаляр�
 **Приклад #1 Приклад використання
 **sodium_crypto_core_ristretto255_scalar_negate()****
 
-`<?php$foo u003d sodium_crypto_core_ristretto255_scalar_random();$negate u003d sodium_crypto_core_ristretto255_scalar_negate($foo);$reNegate u003d sodium_crypto_core_rise$$;
+`<?php$foo = sodium_crypto_core_ristretto255_scalar_random();$negate = sodium_crypto_core_ristretto255_scalar_negate($foo);$reNegate = sodium_crypto_core_rise$$;
 
 Результат виконання цього прикладу:
 

@@ -7,7 +7,7 @@
 
 # openssl_pkcs7_read
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 openssl_pkcs7_read — Експортувати файл PKCS7 до масиву сертифікатів PEM
 
@@ -37,7 +37,7 @@ openssl_pkcs7_read — Експортувати файл PKCS7 до масиву
 
 **Приклад #1 Get a PEM array from a P7B file**
 
-` <?php$file u003d 'certs.p7b';$f u003d file_get_contents($file);$p7 u003d array();$r u003d openssl_pkcs7_read($f, $p7);if ($r u003du003du003d false) {    printf("ПОМИЛКА: %s не є коректним файлом p7b".PHP_EOL, $file); for($e u003d openssl_error_string(), $i u003d 0; $e; $e u003d openssl_error_string(), $i++)            printf("SSL l%d| exit(1);}print_r($p7);?> `
+` <?php$file = 'certs.p7b';$f = file_get_contents($file);$p7 = array();$r = openssl_pkcs7_read($f, $p7);if ($r === false) {    printf("ПОМИЛКА: %s не є коректним файлом p7b".PHP_EOL, $file); for($e = openssl_error_string(), $i = 0; $e; $e = openssl_error_string(), $i++)            printf("SSL l%d| exit(1);}print_r($p7);?> `
 
 ### Дивіться також
 

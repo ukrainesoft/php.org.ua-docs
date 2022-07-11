@@ -7,14 +7,14 @@
 
 # openssl_csr_export
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 openssl_csr_export — Експортує CSR як рядок
 
 ### Опис
 
 **openssl_csr_export**([OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md)\|string
-`$csr`, string `&$output`, bool `$no_text` u003d **`true`**): bool
+`$csr`, string `&$output`, bool `$no_text` = **`true`**): bool
 
 **openssl_csr_export()** записує запит на підпис сертифіката `csr`
 у форматі PEM у змінну `output`, яка передається за посиланням.
@@ -42,14 +42,14 @@ openssl_csr_export — Експортує CSR як рядок
 ### Список змін
 
 | Версія | Опис                                                                                                                                                                                                |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | csr тепер приймає екземпляр [OpenSSLCertificateSigningRequest](class.opensslcertificatesigningrequest.md); раніше приймався ресурс ([resource](language.types.resource.md)) типу OpenSSL X.509 CSR. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання openssl_csr_export()**
 
-` <?php$subject u003d array(    "commonName" u003d> "example.com",);$private_key u003d openssl_pkey_new(array(    "private_key_bits" u003d> 2048,    "private_key_type" u003d> OPENSSL_KEYTYPE_RSA,));$configargs u003d array (   'digest_alg' u003d> 'sha256WithRSAEncryption');$csr u003d openssl_csr_new($subject, $private_key, $configargs);openssl_csr_export($csr,$
+` <?php$subject = array(    "commonName" => "example.com",);$private_key = openssl_pkey_new(array(    "private_key_bits" => 2048,    "private_key_type" => OPENSSL_KEYTYPE_RSA,));$configargs = array (   'digest_alg' => 'sha256WithRSAEncryption');$csr = openssl_csr_new($subject, $private_key, $configargs);openssl_csr_export($csr,$
 
 ### Дивіться також
 

@@ -17,8 +17,8 @@ snmpwalk — Отримує всі об'єкти SNMP із агента
 string `$hostname`,
 string `$community`,
 array\|string `$object_id`,
-int `$timeout` u003d -1,
-int `$retries` u003d -1
+int `$timeout` = -1,
+int `$retries` = -1
 ): array\|false
 
 Функція **snmpwalk()** використовується для читання всіх значень агента
@@ -54,7 +54,7 @@ SNMP та всі об'єкти цього дерева повертаються 
 
 **Приклад #1 Приклад використання **snmpwalk()****
 
-` <?php$a u003d snmpwalk("127.0.0.1", "public", "");foreach ($a as $val) {    echo "$val
+` <?php$a = snmpwalk("127.0.0.1", "public", "");foreach ($a as $val) {    echo "$val
 ";}?> `
 
 Виклик функції поверне всі об'єкти SNMP із агента SNMP, що працює на

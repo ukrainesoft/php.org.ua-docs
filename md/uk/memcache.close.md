@@ -7,7 +7,7 @@
 
 # Memcache::close
 
-(PECL memcache \>u003d 0.4.0)
+(PECL memcache \>= 0.4.0)
 
 Memcache::close — Закрити з'єднання з сервером memcached
 
@@ -33,7 +33,7 @@ Memcache::close — Закрити з'єднання з сервером memcach
 
 **Приклад #1 Приклад використання **Memcache::close()****
 
-` <?php/* процедурне API */$memcache_obj u003d memcache_connect('memcache_host', 11211);/*зробити що-небудь тут...*/memcache_close($memcache_obj) u003d new Memcache;$memcache_obj->connect('memcache_host', 11211);/*зробити що-небудь тут...*/$memcache_obj->close();?> `
+` <?php/* процедурне API */$memcache_obj = memcache_connect('memcache_host', 11211);/*зробити що-небудь тут...*/memcache_close($memcache_obj) = new Memcache;$memcache_obj->connect('memcache_host', 11211);/*зробити що-небудь тут...*/$memcache_obj->close();?> `
 
 ### Дивіться також
 

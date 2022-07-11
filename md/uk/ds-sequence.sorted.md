@@ -7,7 +7,7 @@
 
 # Ds\Sequence::sorted
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::sorted — Повертає відсортовану за значенням копію
 колекції
@@ -16,7 +16,7 @@ Ds\Sequence::sorted — Повертає відсортовану за знач�
 
 abstract public
 **Ds\Sequence::sorted**([callable](language.types.callable.md)
-`$comparator` u003d ?): [Ds\Sequence](class.ds-sequence.md)
+`$comparator` = ?): [Ds\Sequence](class.ds-sequence.md)
 
 Повертає відсортовану копію колекції, опціонально використовуючи
 callback-функцію `comparator`.
@@ -46,31 +46,31 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **Ds\Sequence::sorted()****
 
-` <?php$sequence u003d new \Ds\Vector([4, 5, 1, 3, 2]);print_r($sequence->sorted());?> `
+` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);print_r($sequence->sorted());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 1
-[1] u003d> 2
-[2] u003d> 3
-[3] u003d> 4
-[4] u003d> 5
+[0] => 1
+[1] => 2
+[2] => 3
+[3] => 4
+[4] => 5
 )
 
 **Приклад #2 Приклад використання **Ds\Sequence::sorted()** з
 callback-функцією порівняння**
 
-` <?php$sequence u003d new \Ds\Vector([4, 5, 1, 3, 2]);$sorted u003d $sequence->sorted(function($a, $b) {    return $b <u003d> $a;});print_r($sorted);?> `
+` <?php$sequence = new \Ds\Vector([4, 5, 1, 3, 2]);$sorted = $sequence->sorted(function($a, $b) {    return $b <=> $a;});print_r($sorted);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Ds\Vector Object
 (
-[0] u003d> 5
-[1] u003d> 4
-[2] u003d> 3
-[3] u003d> 2
-[4] u003d> 1
+[0] => 5
+[1] => 4
+[2] => 3
+[3] => 2
+[4] => 1
 )

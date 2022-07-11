@@ -15,8 +15,8 @@
 [setrawcookie()](function.setrawcookie.md) тепер також підтримують
 наступне оголошення (сигнатуру):
 
-[setcookie](function.setcookie.md)(string `$name`, string `$value` u003d
-"", array `$options` u003d []): bool
+[setcookie](function.setcookie.md)(string `$name`, string `$value` =
+"", array `$options` = []): bool
 
 де `$options` - асоціативний масив, який може мати будь-який з
 ключів ``expires'`, ``path'', ``domain'', ``secure'', ``httponly'' і

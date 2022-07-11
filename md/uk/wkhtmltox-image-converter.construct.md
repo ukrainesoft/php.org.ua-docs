@@ -7,15 +7,15 @@
 
 # wkhtmltox\Image\Converter::\_\_construct
 
-(wkhtmltox \>u003d 0.1.0)
+(wkhtmltox \>= 0.1.0)
 
 wkhtmltox\Image\Converter::\_\_construct — Створити новий конвертер
 зображень
 
 ### Опис
 
-public **wkhtmltox\Image\Converter::\_\_construct**(string `$buffer` u003d
-?, array `$settings` u003d ?)
+public **wkhtmltox\Image\Converter::\_\_construct**(string `$buffer` =
+?, array `$settings` = ?)
 
 Створює конвертер зображень, додатково використовуючи вхідний буфер і
 налаштування конфігурації

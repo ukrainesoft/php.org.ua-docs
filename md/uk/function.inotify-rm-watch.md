@@ -7,7 +7,7 @@
 
 #inotify_rm_watch
 
-(PECL inotify \>u003d 0.1.2)
+(PECL inotify \>= 0.1.2)
 
 inotify_rm_watch — Видалити спостерігача
 

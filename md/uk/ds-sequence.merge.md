@@ -7,7 +7,7 @@
 
 # Ds\Sequence::merge
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Sequence::merge — Повертає результат додавання всіх даних
 значень у колекцію
@@ -38,29 +38,29 @@ abstract public
 
 **Приклад #1 Приклад використання **Ds\Sequence::merge()****
 
-` <?php$sequence u003d new \Ds\Vector([1, 2, 3]);var_dump($sequence->merge([4, 5, 6]));var_dump($sequence);?> `
+` <?php$sequence = new \Ds\Vector([1, 2, 3]);var_dump($sequence->merge([4, 5, 6]));var_dump($sequence);?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 object(Ds\Vector)#2 (6) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
-[3]u003d>
+[3]=>
 int(4)
-[4]u003d>
+[4]=>
 int(5)
-[5]u003d>
+[5]=>
 int(6)
 }
 object(Ds\Vector)#1 (3) {
-[0]u003d>
+[0]=>
 int(1)
-[1]u003d>
+[1]=>
 int(2)
-[2]u003d>
+[2]=>
 int(3)
 }

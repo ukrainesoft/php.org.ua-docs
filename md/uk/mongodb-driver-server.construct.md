@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Server::\_\_construct
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 MongoDB\Driver\Server::\_\_construct - Створює новий Server (не
 використовується)

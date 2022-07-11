@@ -74,7 +74,7 @@ int `$flags` = 0
 
 `<?php// розбиваємо рядок по|довільному числу кома і пробельних символів,// які включають в себе  "" ",
 ,  ,=
-і  $keywords u003d preg_split("/[\s,]+/", "hypertext language, programming");print_r($keywords);?> `
+і  $keywords = preg_split("/[\s,]+/", "hypertext language, programming");print_r($keywords);?> `
 
 Результат виконання цього прикладу:
 
@@ -82,12 +82,12 @@ Array
 (=
 [0] => hypertext
 [1] => language
-[2] u003d> programming
+[2] => programming
 )
 
 **Приклад #2 Розбиваємо рядок на складові символи**
 ==
-` <?php$str u003d 'string';$chars u003d preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);print_r($chars);?> `
+` <?php$str = 'string';$chars = preg_split('//', $str, -1, PREG_SPLIT_NO_EMPTY);print_r($chars);?> `
 
 Результат виконання цього прикладу:
 
@@ -98,34 +98,34 @@ Array
 [2] => r
 [3] => i
 [4] => n
-[5] u003d> g
+[5] => g
 )
 
 **Приклад #3 Розбиваємо рядок із зазначенням усунення для кожної з
 знайдених підрядів**
 ==
-` <?php$str u003d 'hypertext language programming';$chars u003d preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);print_r($chars);?> `
+` <?php$str = 'hypertext language programming';$chars = preg_split('/ /', $str, -1, PREG_SPLIT_OFFSET_CAPTURE);print_r($chars);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (=
-[0] u003d> Array
+[0] => Array
 (=
 [0] => hypertext
-[1] u003d> 0
+[1] => 0
 )
 =
-[1] u003d> Array
+[1] => Array
 (=
 [0] => language
-[1] u003d> 10
+[1] => 10
 )
 =
-[2] u003d> Array
+[2] => Array
 (=
 [0] => programming
-[1] u003d> 19
+[1] => 19
 )
 
 )

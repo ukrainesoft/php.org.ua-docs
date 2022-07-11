@@ -7,7 +7,7 @@
 
 # OAuth::setRequestEngine
 
-(PECL OAuth u003d> 1.0.0)
+(PECL OAuth => 1.0.0)
 
 OAuth::setRequestEngine — Використовується для setRequestEngine
 
@@ -43,7 +43,7 @@ HTTP запити.
 
 **Приклад #1 Приклад використання **OAuth::setRequestEngine()****
 
-` <?php$consumer u003d new OAuth();$consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);?> `
+` <?php$consumer = new OAuth();$consumer->setRequestEngine(OAUTH_REQENGINE_STREAMS);?> `
 
 ### Дивіться також
 

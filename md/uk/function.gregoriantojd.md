@@ -51,8 +51,8 @@ gregoriantojd — Перетворює дату за григоріанськи�
 
 **Приклад #1 Календарні функції**
 
-` <?php$jd u003d gregoriantojd(10, 11, 1970);echo "$jd
-";$gregorian u003d jdtogregorian($jd);echo "$gregorian
+` <?php$jd = gregoriantojd(10, 11, 1970);echo "$jd
+";$gregorian = jdtogregorian($jd);echo "$gregorian
 ";?> `
 
 Результат виконання цього прикладу:

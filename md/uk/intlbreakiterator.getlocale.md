@@ -7,7 +7,7 @@
 
 # IntlBreakIterator::getLocale
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 IntlBreakIterator::getLocale — Повертає локаль, пов'язану з об'єктом
 

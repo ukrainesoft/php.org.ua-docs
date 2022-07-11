@@ -15,9 +15,9 @@ DOMImplementation::createDocument — Створює об'єкт класу DOMD
 
 ### Опис
 
-public **DOMImplementation::createDocument**(?string `$namespace` u003d
-**`null`**, string `$qualifiedName` u003d "",
-?[DOMDocumentType](class.domdocumenttype.md) `$doctype` u003d **`null`**):
+public **DOMImplementation::createDocument**(?string `$namespace` =
+**`null`**, string `$qualifiedName` = "",
+?[DOMDocumentType](class.domdocumenttype.md) `$doctype` = **`null`**):
 [DOMDocument](class.domdocument.md)\|false
 
 Створює об'єкт класу [DOMDocument](class.domdocument.md) заданого
@@ -58,7 +58,7 @@ URI простору імен створюваного елемента document
 ### Список змін
 
 | Версія | Опис                                     |
-| ------ | ---------------------------------------- |
+|--------|------------------------------------------|
 | 8.0.3  | namespace тепер припускає значення null. |
 | 8.0.0  | doctype тепер припускає значення null.   |
 

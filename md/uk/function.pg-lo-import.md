@@ -7,16 +7,16 @@
 
 # pg_lo_import
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 pg_lo_import — імпорт великого об'єкта з файлу
 
 ### Опис
 
 **pg_lo_import**([PgSql\Connection](class.pgsql-connection.md)
-`$connection` u003d ?, string `$pathname`,
+`$connection` = ?, string `$pathname`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$object_id` u003d ?): int
+`$object_id` = ?): int
 
 **pg_lo_import()** створює великий об'єкт у базі даних, використовуючи
 локальний файл як джерело даних.
@@ -59,14 +59,14 @@ pg_lo_import — імпорт великого об'єкта з файлу
 ### Список змін
 
 | Версія | Опис                                                                                                                                                           |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.1.0  | Параметр connection тепер чекає на екземпляр [PgSql\Connection](class.pgsql-connection.md); раніше очікувався ресурс ([resource](language.types.resource.md)). |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **pg_lo_import()****
 
-`<?php  $database u003dpg_connect("dbnameu003djacarta"); pg_query($database, "begin"); $oidu003du003dpg_lo_import($database, '/tmp/lob.dat'); pg_query($database, "commit");?> `
+`<?php  $database =pg_connect("dbname=jacarta"); pg_query($database, "begin"); $oid==pg_lo_import($database, '/tmp/lob.dat'); pg_query($database, "commit");?> `
 
 ### Дивіться також
 

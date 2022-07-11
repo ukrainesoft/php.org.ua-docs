@@ -7,7 +7,7 @@
 
 # Phar::addEmptyDir
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL phar u003d 2.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL phar = 2.0.0)
 
 Phar::addEmptyDir — Додає в phar-архів порожню директорію
 
@@ -40,7 +40,7 @@ public **Phar::addEmptyDir**(string `$directory`): void
 
 **Приклад #1 Приклад використання **Phar::addEmptyDir()****
 
-`<?phptry {    $a u003d new Phar('/шлях/к/phar.phar'); $a->addEmptyDir('/повний/шлях/до/файлу'); // показує, як зберігається цей файл    $b u003d $a['повний/шлях/к/файлу']->isDir();} catch (Exception $e) {     // об
+`<?phptry {    $a = new Phar('/шлях/к/phar.phar'); $a->addEmptyDir('/повний/шлях/до/файлу'); // показує, як зберігається цей файл    $b = $a['повний/шлях/к/файлу']->isDir();} catch (Exception $e) {     // об
 
 ### Дивіться також
 

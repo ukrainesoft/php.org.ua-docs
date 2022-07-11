@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::on
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::on - Реєструє callback-функцію на ім'я події
 

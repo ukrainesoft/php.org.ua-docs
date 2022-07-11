@@ -7,7 +7,7 @@
 
 # geoip_country_name_by_name
 
-(PECL geoip \>u003d 0.2.0)
+(PECL geoip \>= 0.2.0)
 
 geoip_country_name_by_name — Отримати повну назву країни
 
@@ -34,7 +34,7 @@ geoip_country_name_by_name — Отримати повну назву країн
 
 Цей приклад виведе розташування хоста example.com.
 
-` <?php$country u003d geoip_country_name_by_name('www.example.com');if ($country) {    echo 'Хост розташований в ' . $country;}?> `
+` <?php$country = geoip_country_name_by_name('www.example.com');if ($country) {    echo 'Хост розташований в ' . $country;}?> `
 
 Результат виконання цього прикладу:
 

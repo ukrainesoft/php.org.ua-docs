@@ -7,7 +7,7 @@
 
 # Ds\Set::capacity
 
-(PECL ds \>u003d 1.0.0)
+(PECL ds \>= 1.0.0)
 
 Ds\Set::capacity — Повертає поточну місткість
 
@@ -29,7 +29,7 @@ public **Ds\Set::capacity**(): int
 
 **Приклад #1 Приклад використання **Ds\Set::capacity()****
 
-` <?php$set u003d new \Ds\Set();var_dump($set->capacity());$set->push(...range(1, 50));var_dump($set->capacity ());?> `
+` <?php$set = new \Ds\Set();var_dump($set->capacity());$set->push(...range(1, 50));var_dump($set->capacity ());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

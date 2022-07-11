@@ -7,7 +7,7 @@
 
 # EventHttpRequest::getCommand
 
-(PECL event \>u003d 1.4.0-beta)
+(PECL event \>= 1.4.0-beta)
 
 EventHttpRequest::getCommand — Повертає команду запиту (метод)
 

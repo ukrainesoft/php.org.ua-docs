@@ -9,7 +9,7 @@
 
 #collator_create
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::create -- collator_create — Створює новий екземпляр Collator
 
@@ -45,7 +45,7 @@ public static **Collator::create**(string `$locale`):
 
 **Приклад #1 Приклад використання **collator_create()****
 
-` <?php$coll u003d collator_create( 'en_US' );if( !isset( $coll ) ) {    printf( "Не удалося створити Collator: %s
+` <?php$coll = collator_create( 'en_US' );if( !isset( $coll ) ) {    printf( "Не удалося створити Collator: %s
 ", intl_get_error_message() );   exit( 1 );}?> `
 
 ### Дивіться також

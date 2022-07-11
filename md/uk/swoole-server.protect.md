@@ -7,13 +7,13 @@
 
 # Swoole\Server::protect
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::protect — Встановлює з'єднання у захищений режим
 
 ### Опис
 
-public **Swoole\Server::protect**(int `$fd`, bool `$is_protected` u003d ?):
+public **Swoole\Server::protect**(int `$fd`, bool `$is_protected` = ?):
 void
 
 ### Список параметрів

@@ -7,7 +7,7 @@
 
 # Клас Fiber
 
-(PHP 8 \>u003d 8.1.0)
+(PHP 8 \>= 8.1.0)
 
 ## Вступ
 
@@ -33,7 +33,7 @@ public
 
 public
 [resume](fiber.resume.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d **`null`**):
+`$value` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [throw](fiber.throw.md)([Throwable](class.throwable.md)
@@ -53,7 +53,7 @@ public [isTerminated](fiber.isterminated.md)(): bool
 
 public static
 [suspend](fiber.suspend.md)([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value` u003d **`null`**):
+`$value` = **`null`**):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public static [getCurrent](fiber.getcurrent.md)():

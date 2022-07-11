@@ -27,7 +27,7 @@ empty — Перевіряє, чи порожня змінна
 
 Якщо змінна немає, попередження не генерується. Це
 означає, що **empty()** фактично є точним еквівалентом
-конструкції **!isset($var) \|\| $var u003du003d false**
+конструкції **!isset($var) \|\| $var == false**
 
 ### Значення, що повертаються
 
@@ -40,11 +40,11 @@ empty — Перевіряє, чи порожня змінна
 **Приклад #1 Просте порівняння **empty()** та
 [isset()](function.isset.md).**
 
-` <?php$var u003d 0;// Приймає значення true, тому що $var пустоif (empty($var)) {    echo '$var або 0, або пусто, або є , потому що $var визначенаif (isset($var)) {    echo '$var визначена, навіть якщо вона порожня';}?> `
+` <?php$var = 0;// Приймає значення true, тому що $var пустоif (empty($var)) {    echo '$var або 0, або пусто, або є , потому що $var визначенаif (isset($var)) {    echo '$var визначена, навіть якщо вона порожня';}?> `
 
 **Приклад #2 **empty()** та рядкові індекси**
 
-` <?php$expected_array_got_string u003d 'somestring';var_dump(empty($expected_array_got_string['some_key']));var_dump(empty($expected_array_got_string[0])));var_dump(empty($expected_array) ;var_dump(empty($expected_array_got_string[0.5])));var_dump(empty($expected_array_got_string['0.5']));var_dump(empty($expected_array_got_string['0 Mostel'])));?> `
+` <?php$expected_array_got_string = 'somestring';var_dump(empty($expected_array_got_string['some_key']));var_dump(empty($expected_array_got_string[0])));var_dump(empty($expected_array) ;var_dump(empty($expected_array_got_string[0.5])));var_dump(empty($expected_array_got_string['0.5']));var_dump(empty($expected_array_got_string['0 Mostel'])));?> `
 
 Результат виконання цього прикладу:
 

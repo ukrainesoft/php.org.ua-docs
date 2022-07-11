@@ -33,7 +33,7 @@ public **DirectoryIterator::valid**(): bool
 
 **Приклад #1 Приклад використання **DirectoryIterator::valid()****
 
-` <?php$iterator u003d new DirectoryIterator(dirname(__FILE__));// Цикл до кінця ітератораwhile($iterator->valid()) {    $iterator->next();}$iterator->valid() // FALSE$iterator->rewind();$iterator->valid(); // TRUE?> `
+` <?php$iterator = new DirectoryIterator(dirname(__FILE__));// Цикл до кінця ітератораwhile($iterator->valid()) {    $iterator->next();}$iterator->valid() // FALSE$iterator->rewind();$iterator->valid(); // TRUE?> `
 
 ### Дивіться також
 

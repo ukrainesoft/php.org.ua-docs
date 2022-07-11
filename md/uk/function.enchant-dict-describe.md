@@ -7,7 +7,7 @@
 
 #enchant_dict_describe
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL enchant \>u003d 0.1.0 )
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL enchant \>= 0.1.0 )
 
 enchant_dict_describe — Повертає інформацію про словник
 
@@ -34,7 +34,7 @@ enchant_dict_describe — Повертає інформацію про слов�
 ### Список змін
 
 | Версія | Опис                                                                                                                                           |
-| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | dictionary чекає екземпляр [EnchantDictionary](class.enchantdictionary.md); Раніше очікувався ресурс ([resource](language.types.resource.md)). |
 | 8.0.0  | До цієї версії функція повертала **false** у разі виникнення помилки.                                                                          |
 
@@ -46,14 +46,14 @@ enchant_dict_describe — Повертає інформацію про слов�
 [enchant_broker_dict_exists()](function.enchant-broker-dict-exists.md)
 та отримаємо інформацію про нього.
 
-` <?php$tag u003d 'en_US';$broker u003d enchant_broker_init();if (enchant_broker_dict_exists($broker,$tag)) {   $dict u003d enchant_broker_request_dict$$,; $dict_details u003d enchant_dict_describe($dict); print_r($dict_details);}?> `
+` <?php$tag = 'en_US';$broker = enchant_broker_init();if (enchant_broker_dict_exists($broker,$tag)) {   $dict = enchant_broker_request_dict$$,; $dict_details = enchant_dict_describe($dict); print_r($dict_details);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[lang] u003d> en_US
-[name] u003d> aspell
-[desc] u003d> Aspell Provider
-[file] u003d> /usr/lib/enchant/libenchant_aspell.so
+[lang] => en_US
+[name] => aspell
+[desc] => Aspell Provider
+[file] => /usr/lib/enchant/libenchant_aspell.so
 )

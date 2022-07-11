@@ -7,7 +7,7 @@
 
 # Клас WeakReference
 
-(PHP 7 \>u003d 7.4.0, PHP 8)
+(PHP 7 \>= 7.4.0, PHP 8)
 
 ## Вступ
 
@@ -36,7 +36,7 @@ public [get](weakreference.get.md)(): ?object
 
 **Приклад #1 Приклад #1. Просте використання WeakReference**
 
-` <?php$obj u003d new stdClass;$weakref u003d WeakReference::create($obj);var_dump($weakref->get());unset($obj);var_dump($weakref->get()); ?> `
+` <?php$obj = new stdClass;$weakref = WeakReference::create($obj);var_dump($weakref->get());unset($obj);var_dump($weakref->get()); ?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 

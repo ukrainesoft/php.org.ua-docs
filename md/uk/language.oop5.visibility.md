@@ -24,7 +24,7 @@ private (закритий) обмежує область видимості та
 
 **Приклад #1 Оголошення якості класу**
 
-` <?php/** * Визначення MyClass */class MyClass{    public $public u003d 'Public'; protected $protected u003d 'Protected'; private $private u003d 'Private'; function printHello()   {        echo $this->public; echo $this->protected; echo $this->private; }}$obj u003d new MyClass();echo $obj->public; //Працюєecho$obj->protected; // Непоправна помилкаecho $obj->private; // Непоправна помилка$obj->printHello(); // Виводить Public, Protected і Private/** * Визначення MyClass2 */class MyClass2 extends MyClass{    // Ми можемо перевизначити за          protected $protected u003d 'Protected2'; function printHello()   {        echo $this->public; echo $this->protected; echo $this->private; }}$obj2 u003d new MyClass2();echo $obj2->public; //Працюєecho$obj2->private; // Невизначених $obj2->protected; // Непоправна помилка$obj2->printHello(); // Виводить Public2, Protected2, Undefined?> `
+` <?php/** * Визначення MyClass */class MyClass{    public $public = 'Public'; protected $protected = 'Protected'; private $private = 'Private'; function printHello()   {        echo $this->public; echo $this->protected; echo $this->private; }}$obj = new MyClass();echo $obj->public; //Працюєecho$obj->protected; // Непоправна помилкаecho $obj->private; // Непоправна помилка$obj->printHello(); // Виводить Public, Protected і Private/** * Визначення MyClass2 */class MyClass2 extends MyClass{    // Ми можемо перевизначити за          protected $protected = 'Protected2'; function printHello()   {        echo $this->public; echo $this->protected; echo $this->private; }}$obj2 = new MyClass2();echo $obj2->public; //Працюєecho$obj2->private; // Невизначених $obj2->protected; // Непоправна помилка$obj2->printHello(); // Виводить Public2, Protected2, Undefined?> `
 
 ### Область видимості методу
 
@@ -34,11 +34,11 @@ public.
 
 **Приклад #2 Оголошення методу**
 
-` <?php/** * Определение MyClass */class MyClass{    // Объявление общедоступного конструктора    public function __construct() { }    // Объявление общедоступного метода    public function MyPublic() { }    // Объявление защищённого метода    protected function MyProtected() { }    // Оголошення закритого методу    private function MyPrivate() { }    // Це загальнодоступний метод   function F    $this->MyProtected(); $this->MyPrivate(); }}$myclass u003d new MyClass;$myclass->MyPublic(); //Работает$myclass->MyProtected(); // Непоправна помилка$myclass->MyPrivate(); // Непоправна помилка$myclass->Foo(); // Працює загальнодоступний, захищений і закритий/** * Визначення MyClass2 */class MyClass2 extends MyClass{    // Це загальнодоступний метод                                     $this->MyProtected(); $this->MyPrivate(); // Непоправна помилка    }}$myclass2 u003d new MyClass2;$myclass2->MyPublic(); //Работает$myclass2->Foo2(); // Працює загальнодоступний і захищений, закритий не працюєclass Bar{    public function test() {        $this->testPrivate(); $this->testPublic(); }    public function testPublic() {       echo "Bar::testPublic
+` <?php/** * Определение MyClass */class MyClass{    // Объявление общедоступного конструктора    public function __construct() { }    // Объявление общедоступного метода    public function MyPublic() { }    // Объявление защищённого метода    protected function MyProtected() { }    // Оголошення закритого методу    private function MyPrivate() { }    // Це загальнодоступний метод   function F    $this->MyProtected(); $this->MyPrivate(); }}$myclass = new MyClass;$myclass->MyPublic(); //Работает$myclass->MyProtected(); // Непоправна помилка$myclass->MyPrivate(); // Непоправна помилка$myclass->Foo(); // Працює загальнодоступний, захищений і закритий/** * Визначення MyClass2 */class MyClass2 extends MyClass{    // Це загальнодоступний метод                                     $this->MyProtected(); $this->MyPrivate(); // Непоправна помилка    }}$myclass2 = new MyClass2;$myclass2->MyPublic(); //Работает$myclass2->Foo2(); // Працює загальнодоступний і захищений, закритий не працюєclass Bar{    public function test() {        $this->testPrivate(); $this->testPublic(); }    public function testPublic() {       echo "Bar::testPublic
 ";    }    private function testPrivate() {        echo "Bar::testPrivate
 ";    }}class Foo extends Bar{    public function testPublic() {        echo ""Foo::testPublic
 ";    }    private function testPrivate() {        echo "Foo::testPrivate
-";    }}$myFoo u003d new Foo();$myFoo->test(); // Bar::testPrivate                 // Fo>>
+";    }}$myFoo = new Foo();$myFoo->test(); // Bar::testPrivate                 // Fo>>
 
 ### Область видимості констант
 
@@ -48,7 +48,7 @@ private або protected. Константи, оголошені без зазн
 
 **Приклад #3 Оголошення констант, починаючи з PHP 7.1.0**
 
-`<?php/** * Оголошення класу MyClass */class MyClass{    // Оголошення загальнодоступної константи    public const MY_PUBLIC u003d 'public'; // Оголошення захищеної константи    protected const MY_PROTECTED u003d 'protected'; // Оголошення закритої константи     private const MY_PRIVATE u003d 'private'; public function foo()    {       echo self::MY_PUBLIC; echo self::MY_PROTECTED; echo self::MY_PRIVATE; }}$myclass u003d new MyClass();MyClass::MY_PUBLIC; //РаботаетMyClass::MY_PROTECTED; // Непоправна помилкаMyClass::MY_PRIVATE; // Непоправна помилка$myclass->foo(); // Виводяться константи public, protected і private/** * Оголошення класу MyClass2 */class MyClass2 extends MyClass{     // Публічне метод       echo self::MY_PROTECTED; echo self::MY_PRIVATE; // Непоправна помилка    }}$myclass2 u003d new MyClass2;echo MyClass2::MY_PUBLIC; //Работает$myclass2->foo2(); // Виводяться константи public і protected, але не private?> `
+`<?php/** * Оголошення класу MyClass */class MyClass{    // Оголошення загальнодоступної константи    public const MY_PUBLIC = 'public'; // Оголошення захищеної константи    protected const MY_PROTECTED = 'protected'; // Оголошення закритої константи     private const MY_PRIVATE = 'private'; public function foo()    {       echo self::MY_PUBLIC; echo self::MY_PROTECTED; echo self::MY_PRIVATE; }}$myclass = new MyClass();MyClass::MY_PUBLIC; //РаботаетMyClass::MY_PROTECTED; // Непоправна помилкаMyClass::MY_PRIVATE; // Непоправна помилка$myclass->foo(); // Виводяться константи public, protected і private/** * Оголошення класу MyClass2 */class MyClass2 extends MyClass{     // Публічне метод       echo self::MY_PROTECTED; echo self::MY_PRIVATE; // Непоправна помилка    }}$myclass2 = new MyClass2;echo MyClass2::MY_PUBLIC; //Работает$myclass2->foo2(); // Виводяться константи public і protected, але не private?> `
 
 ### Видимість з інших об'єктів
 
@@ -60,7 +60,7 @@ private або protected. Константи, оголошені без зазн
 **Приклад #4 Доступ до елементів з модифікатором private з об'єктів
 одного типу**
 
-` <?phpclass Test{    private $foo; public function __construct($foo)    {        $this->foo u003d $foo; }    private function bar()    {        echo 'Доступ к закритому методу.'; }    public function baz(Test $other)   {        // Ми можемо змінити закрите властивість:     | var_dump($other->foo); // Ми також можемо викликати закритий метод:        $other->bar(); }}$test u003d new Test('test');$test->baz(new Test('other'));?> `
+` <?phpclass Test{    private $foo; public function __construct($foo)    {        $this->foo = $foo; }    private function bar()    {        echo 'Доступ к закритому методу.'; }    public function baz(Test $other)   {        // Ми можемо змінити закрите властивість:     | var_dump($other->foo); // Ми також можемо викликати закритий метод:        $other->bar(); }}$test = new Test('test');$test->baz(new Test('other'));?> `
 
 Результат виконання цього прикладу:
 

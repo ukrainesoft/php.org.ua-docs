@@ -7,7 +7,7 @@
 
 #timezone_offset_get
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 timezone_offset_get - Псевдонім
 [DateTimeZone::getOffset()](datetimezone.getoffset.md)

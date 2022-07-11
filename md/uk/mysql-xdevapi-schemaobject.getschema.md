@@ -31,11 +31,11 @@ abstract **mysql_xdevapi\SchemaObject::getSchema**():
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::getSchema()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");print_r($schema); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");print_r($schema); `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 mysql_xdevapi\Schema Object
 (
-[name] u003d> addressbook
+[name] => addressbook
 )

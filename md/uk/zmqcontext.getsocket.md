@@ -7,14 +7,14 @@
 
 # ZMQContext::getSocket
 
-(PECL zmq \>u003d 0.5.0)
+(PECL zmq \>= 0.5.0)
 
 ZMQContext::getSocket — Створює новий сокет
 
 ### Опис
 
-public **ZMQContext::getSocket**(int `$type`, string `$persistent_id` u003d
-**`null`**, [callable](language.types.callable.md) `$on_new_socket` u003d
+public **ZMQContext::getSocket**(int `$type`, string `$persistent_id` =
+**`null`**, [callable](language.types.callable.md) `$on_new_socket` =
 **`null`**): [ZMQSocket](class.zmqsocket.md)
 
 Метод створення сокету з контексту. Якщо контекст не є
@@ -50,5 +50,5 @@ Callback-функція, яка буде викликана під час ств
 
 Основи
 
-` <?php/* Створюємо новий контекст */$context u003d new ZMQContext();/* Створюємо новий сокет */$socket u003d $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message u003d $ socket->recv();echo "Received message: {$message}
+` <?php/* Створюємо новий контекст */$context = new ZMQContext();/* Створюємо новий сокет */$socket = $context->getSocket(ZMQ::SOCKET_REQ, '' сокетом */$socket->connect("tcp://example.com:1234");/* Посилаємо запрос */$socket->send("Hello there");/* Отримуємо відповідь */$message = $ socket->recv();echo "Received message: {$message}
 ";?> `

@@ -7,14 +7,14 @@
 
 # rpminfo
 
-(PECL rpminfo u003d> 0.1.0)
+(PECL rpminfo => 0.1.0)
 
 rpminfo — Вийняти інформацію з RPM-файлу
 
 ### Опис
 
-**rpminfo**(string `$path`, bool `$full` u003d **`false`**, string `&$error`
-u003d ?): array
+**rpminfo**(string `$path`, bool `$full` = **`false`**, string `&$error`
+= ?): array
 
 Вийняти інформацію про локальний файл RPM.
 
@@ -39,18 +39,18 @@ u003d ?): array
 
 **Приклад #1 Приклад використання **rpminfo()****
 
-` <?phprpmaddtag(RPMTAG_BUILDTIME);$info u003d rpminfo("./php-pecl-rpminfo-0.4.2-1.el8.remi.7.4.x86_64.rpm");print_r($info);?> `
+` <?phprpmaddtag(RPMTAG_BUILDTIME);$info = rpminfo("./php-pecl-rpminfo-0.4.2-1.el8.remi.7.4.x86_64.rpm");print_r($info);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[Name] u003d> php-pecl-rpminfo
-[Version] u003d> 0.4.2
-[Release] u003d> 1.el8
-[Summary] u003d> RPM information
-[Buildtime] u003d> 1586244821
-[Arch] u003d> x86_64
+[Name] => php-pecl-rpminfo
+[Version] => 0.4.2
+[Release] => 1.el8
+[Summary] => RPM information
+[Buildtime] => 1586244821
+[Arch] => x86_64
 )
 
 ### Дивіться також

@@ -7,7 +7,7 @@
 
 # Componere\Method::setProtected
 
-(Componere 2 \>u003d 2.1.0)
+(Componere 2 \>= 2.1.0)
 
 Componere\Method::setProtected — Зміна доступності
 

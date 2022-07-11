@@ -7,7 +7,7 @@
 
 #ob_flush
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 ob_flush — Скинути (надіслати) буфер виводу
 

@@ -16,7 +16,7 @@ dba_popen — Встановити постійний екземпляр баз�
 **dba_popen**(
 string `$path`,
 string `$mode`,
-string `$handler` u003d ?,
+string `$handler` = ?,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `...$args`
 ): resource \ | false

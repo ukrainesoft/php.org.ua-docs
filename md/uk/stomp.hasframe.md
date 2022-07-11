@@ -9,7 +9,7 @@
 
 #stomp_has_frame
 
-(PECL stomp \>u003d 0.1.0)
+(PECL stomp \>= 0.1.0)
 
 Stomp::hasFrame -- stomp_has_frame — Перевіряє, чи можливо читати
 кадр

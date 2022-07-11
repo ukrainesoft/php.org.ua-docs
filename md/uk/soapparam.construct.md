@@ -33,7 +33,7 @@ public
 
 **Приклад #1 Приклад використання **SoapParam::SoapParam()****
 
-` <?php$client u003d new SoapClient(null,array('location' u003d> "http://localhost/soap.php",                                    'uri'      u003d> "http://test-uri/"));$ client->SomeFunction(new SoapParam($a, "a"),                      new SoapParam($b, "b"),                      new SoapParam($c, "c"));?> `
+` <?php$client = new SoapClient(null,array('location' => "http://localhost/soap.php",                                    'uri'      => "http://test-uri/"));$ client->SomeFunction(new SoapParam($a, "a"),                      new SoapParam($b, "b"),                      new SoapParam($c, "c"));?> `
 
 ### Дивіться також
 

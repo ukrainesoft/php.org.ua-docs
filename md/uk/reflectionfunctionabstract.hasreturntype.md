@@ -31,7 +31,7 @@ public **ReflectionFunctionAbstract::hasReturnType**(): bool
 
 **Приклад #1 Приклад **ReflectionFunctionAbstract::hasReturnType()****
 
-` <?phpfunction to_int($param) : int {    return (int) $param;}$reflection1 u003d new ReflectionFunction('to_int');var_dump($reflection1->hasReturnType() `
+` <?phpfunction to_int($param) : int {    return (int) $param;}$reflection1 = new ReflectionFunction('to_int');var_dump($reflection1->hasReturnType() `
 
 Результат виконання цього прикладу:
 
@@ -39,7 +39,7 @@ bool(true)
 
 **Приклад #2 Застосування до вбудованих функцій**
 
-` <?php$reflection2 u003d new ReflectionFunction('array_merge');var_dump($reflection2->hasReturnType()); `
+` <?php$reflection2 = new ReflectionFunction('array_merge');var_dump($reflection2->hasReturnType()); `
 
 Результат виконання цього прикладу:
 

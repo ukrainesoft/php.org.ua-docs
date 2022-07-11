@@ -7,7 +7,7 @@
 
 # IntlCalendar::fieldDifference
 
-(PHP 5 u003d 5.5.0, PHP 7, PHP 8, PECL u003d 3.0.0a1)
+(PHP 5 = 5.5.0, PHP 7, PHP 8, PECL = 3.0.0a1)
 
 IntlCalendar::fieldDifference — Обчислює різницю між заданим
 часом та часом об'єкту
@@ -58,7 +58,7 @@ public **IntlCalendar::fieldDifference**(float `$timestamp`, int
 
 **Приклад #1 Приклад використання **IntlCalendar::fieldDifference()****
 
-` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'fr_FR');$cal1 u003d IntlCalendar::fromDateTime('2012-02-29 09:00:1 ');$cal2 u003d IntlCalendar::fromDateTime('2013-03-01 09:19:29');$time u003d $cal2->getTime();echo "Час до: ", IntlDateFormatter::formatObject$ ), "
+` <?phpini_set('date.timezone', 'Europe/Lisbon');ini_set('intl.default_locale', 'fr_FR');$cal1 = IntlCalendar::fromDateTime('2012-02-29 09:00:1 ');$cal2 = IntlCalendar::fromDateTime('2013-03-01 09:19:29');$time = $cal2->getTime();echo "Час до: ", IntlDateFormatter::formatObject$ ), "
 ";printf(    "Різниця в часі: %d рік(років), %d місяць(ів), "  . "%d день(днів), %d годин(ів) і %d хвилин(хвилин)
 ",   $cal1->fieldDifference($time, IntlCalendar::FIELD_YEAR),   $cal1->fieldDifference($time, IntlCalendar::FIELD_MONTH),    $cal1->fieldDifference$| >fieldDifference($time, IntlCalendar::FIELD_HOUR_OF_DAY),    $cal1->fieldDifference($time, IntlCalendar::FIELD_MINUTE)); "Час після: ", IntlDateFormatter::formatObject($cal1), "
 ";

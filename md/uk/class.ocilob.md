@@ -7,7 +7,7 @@
 
 # Клас OCILob
 
-(PHP 5, PHP 7, PHP 8, PECL OCI8 \>u003d 1.1.0)
+(PHP 5, PHP 7, PHP 8, PECL OCI8 \>= 1.1.0)
 
 ## Вступ
 
@@ -32,13 +32,13 @@ public [close](ocilob.close.md)(): bool
 
 public [eof](ocilob.eof.md)(): bool
 
-public [erase](ocilob.erase.md)(?int `$offset` u003d **`null`**, ?int
-`$length` u003d **`null`**): int\|false
+public [erase](ocilob.erase.md)(?int `$offset` = **`null`**, ?int
+`$length` = **`null`**): int\|false
 
-public [export](ocilob.export.md)(string `$filename`, ?int `$offset` u003d
-**`null`**, ?int `$length` u003d **`null`**): bool
+public [export](ocilob.export.md)(string `$filename`, ?int `$offset` =
+**`null`**, ?int `$length` = **`null`**): bool
 
-public [flush](ocilob.flush.md)(int `$flag` u003d 0): bool
+public [flush](ocilob.flush.md)(int `$flag` = 0): bool
 
 public [free](ocilob.free.md)(): bool
 
@@ -52,9 +52,9 @@ public [read](ocilob.read.md)(int `$length`): string\|false
 
 public [rewind](ocilob.rewind.md)(): bool
 
-public [save](ocilob.save.md)(string `$data`, int `$offset` u003d 0): bool
+public [save](ocilob.save.md)(string `$data`, int `$offset` = 0): bool
 
-public [seek](ocilob.seek.md)(int `$offset`, int `$whence` u003d
+public [seek](ocilob.seek.md)(int `$offset`, int `$whence` =
 **`OCI_SEEK_SET`**): bool
 
 public [setBuffering](ocilob.setbuffering.md)(bool `$mode`): bool
@@ -63,13 +63,13 @@ public [size](ocilob.size.md)(): int\|false
 
 public [tell](ocilob.tell.md)(): int\|false
 
-public [truncate](ocilob.truncate.md)(int `$length` u003d 0): bool
+public [truncate](ocilob.truncate.md)(int `$length` = 0): bool
 
-public [write](ocilob.write.md)(string `$data`, ?int `$length` u003d
+public [write](ocilob.write.md)(string `$data`, ?int `$length` =
 **`null`**): int\|false
 
 public [writeTemporary](ocilob.writetemporary.md)(string `$data`, int
-`$type` u003d **`OCI_TEMP_CLOB`**): bool
+`$type` = **`OCI_TEMP_CLOB`**): bool
 
 }
 

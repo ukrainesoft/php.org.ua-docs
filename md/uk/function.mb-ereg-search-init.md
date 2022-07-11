@@ -8,15 +8,15 @@
 
 #mb_ereg_search_init
 
-(PHP 4 \>u003d 4.2.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.2.0, PHP 5, PHP 7, PHP 8)
 
 mb_ereg_search_init — Ініціалізація пошуку відповідностей регулярному
 виразу багатобайтовим рядком та текстом регулярного виразу
 
 ### Опис
 
-**mb_ereg_search_init**(string `$string`, ?string `$pattern` u003d
-**`null`**, ?string `$options` u003d **`null`**): bool
+**mb_ereg_search_init**(string `$string`, ?string `$pattern` =
+**`null`**, ?string `$options` = **`null`**): bool
 
 **mb_ereg_search_init()** задає значення параметрів `string` та
 `pattern` для функцій регулярних виразів. Ці значення будуть
@@ -45,7 +45,7 @@ mb_ereg_search_init — Ініціалізація пошуку відповід
 ### Список змін
 
 | Версія | Опис                                               |
-| ------ | -------------------------------------------------- |
+|--------|----------------------------------------------------|
 | 8.0.0  | pattern та options тепер допускають значення null. |
 
 ### Примітки

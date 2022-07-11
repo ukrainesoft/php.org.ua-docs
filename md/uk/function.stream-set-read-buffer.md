@@ -7,7 +7,7 @@
 
 #stream_set_read_buffer
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 stream_set_read_buffer — Встановити буферизацію читання файлу на
 вказаному потоці

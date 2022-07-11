@@ -7,7 +7,7 @@
 
 # Threaded::isRunning
 
-(PECL pthreads \>u003d 2.0.0)
+(PECL pthreads \>= 2.0.0)
 
 Threaded::isRunning — Визначення стану
 
@@ -33,7 +33,7 @@ public **Threaded::isRunning**(): bool
 
 **Приклад #1 Визначення стану вказаного об'єкта**
 
-` <?phpclass My extends Thread {    public function run() {        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait();        }, $this); }}$my u003d new My();$my->start();var_dump($my->isRunning());$my->synchronized(function($thread){   $thread->done u003d true;    $ thread->notify();}, $my);?> `
+` <?phpclass My extends Thread {    public function run() {        $this->synchronized(function($thread){            if (!$thread->done)                $thread->wait();        }, $this); }}$my = new My();$my->start();var_dump($my->isRunning());$my->synchronized(function($thread){   $thread->done = true;    $ thread->notify();}, $my);?> `
 
 Результат виконання цього прикладу:
 

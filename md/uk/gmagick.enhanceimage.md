@@ -7,7 +7,7 @@
 
 # Gmagick::enhanceimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::enhanceimage — Покращує якість зображення з шумом
 

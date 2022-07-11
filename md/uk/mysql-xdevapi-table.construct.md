@@ -26,4 +26,4 @@ private **mysql_xdevapi\Table::\_\_construct**()
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Table::\_\_construct()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema u003d $session->getSchema("addressbook");$table  u003d $schema->getTable("names" );?> `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$schema = $session->getSchema("addressbook");$table  = $schema->getTable("names" );?> `

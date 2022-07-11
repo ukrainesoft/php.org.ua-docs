@@ -9,7 +9,7 @@
 
 #collator_compare
 
-(PHP 5 u003d 5.3.0, PHP 7, PHP 8, PECL intl u003d 1.0.0)
+(PHP 5 = 5.3.0, PHP 7, PHP 8, PECL intl = 1.0.0)
 
 Collator::compare -- collator_compare — Порівнює два рядки Unicode
 
@@ -54,14 +54,14 @@ int\|false
 
 Ця функція може повертати як логічне значення **`false`**, так і
 значення не типу boolean, яке наводиться до **`false`**. Більше
-Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор u003du003du003d](language.operators.comparison.md) для перевірки значення,
+Детальну інформацію див. у розділі [Булев тип](language.types.boolean.md). Використовуйте [оператор ===](language.operators.comparison.md) для перевірки значення,
 повертається цією функцією.
 
 ### Приклади
 
 **Приклад #1 Приклад використання **collator_compare()****
 
-` <?php$s1 u003d 'Hello';$s2 u003d 'hello';$coll u003d collator_create( 'en_US' );$res  u003d collator_compare( $coll, $s1, $s2 );if ($ res false) {    echo collator_get_error_message( $coll );} else if( $res > 0 ) {    echo "s1 більше s2
+` <?php$s1 = 'Hello';$s2 = 'hello';$coll = collator_create( 'en_US' );$res  = collator_compare( $coll, $s1, $s2 );if ($ res false) {    echo collator_get_error_message( $coll );} else if( $res > 0 ) {    echo "s1 більше s2
 ";} else if( $res < 0 ) {    echo "s1 менше s2
 ";} else {    echo "s1 і s2 рівні
 ";}?> `
@@ -74,7 +74,7 @@ s1 більше s2
 **Приклад #2 Порівняння рядків без діакритичних знаків та без урахування
 регістру**
 
-` <?php$c u003d new Collator( 'en' );$c->setStrength( Collator::PRIMARY );if ( $c->compare( 'Séan', 'Sean' ) u003du003d 0 ){   | Значення рівні
+` <?php$c = new Collator( 'en' );$c->setStrength( Collator::PRIMARY );if ( $c->compare( 'Séan', 'Sean' ) == 0 ){   | Значення рівні
 ";} `
 
 Результат виконання цього прикладу:

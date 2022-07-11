@@ -105,11 +105,11 @@ string\|false
 
 **Приклад #1 Приклади використання **setlocale()****
 
-`<?php/* Установка голландської локалі */setlocale(LC_ALL, 'nl_NL');/* виводить: vrijdag 22 december 1978 */echo strftime("%A %e %B m % 0, 12, 22, 1978));/* спроба використовувати різні локали для німецької мови */$loc_de u003d setlocale(LC_ALL, 'de_DE@euro', 'de'DE'' цій системі німецька локаль має ім'я'$loc_de'";?> `
+`<?php/* Установка голландської локалі */setlocale(LC_ALL, 'nl_NL');/* виводить: vrijdag 22 december 1978 */echo strftime("%A %e %B m % 0, 12, 22, 1978));/* спроба використовувати різні локали для німецької мови */$loc_de = setlocale(LC_ALL, 'de_DE@euro', 'de'DE'' цій системі німецька локаль має ім'я'$loc_de'";?> `
 
 **Приклад #2 Приклади використання **setlocale()** у Windows**
 
-`<?php/* Установка голландської локалі */setlocale(LC_ALL, 'nld_nld');/* виводить: vrijdag 22 december 1978 */echo strftime("%A %d %B m 0, 12, 22, 1978));/* спроба використовувати різні локали для німецької мови */$loc_de u003d setlocale(LC_ALL, 'de_DE@euro','є' | системі: '$loc_de'";?> `
+`<?php/* Установка голландської локалі */setlocale(LC_ALL, 'nld_nld');/* виводить: vrijdag 22 december 1978 */echo strftime("%A %d %B m 0, 12, 22, 1978));/* спроба використовувати різні локали для німецької мови */$loc_de = setlocale(LC_ALL, 'de_DE@euro','є' | системі: '$loc_de'";?> `
 
 ### Примітки
 
@@ -117,5 +117,5 @@ string\|false
 
 Користувачі Windows знайдуть корисну інформацію про значення `locales` на
 веб-сайті Microsoft MSDN. мови, що підтримуються, перераховані в [» документації
-за мовними рядкам](http://msdn.microsoft.com/en-us/library/39cwe7zf%28vu003dvs.90%29.aspx),
-а значення країн/регіонів у [» документації за рядками країн/регіонів](http://msdn.microsoft.com/en-us/library/cdax410z%28vu003dvs.90%29.aspx).
+за мовними рядкам](http://msdn.microsoft.com/en-us/library/39cwe7zf%28v=vs.90%29.aspx),
+а значення країн/регіонів у [» документації за рядками країн/регіонів](http://msdn.microsoft.com/en-us/library/cdax410z%28v=vs.90%29.aspx).

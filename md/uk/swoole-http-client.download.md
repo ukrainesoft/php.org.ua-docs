@@ -7,7 +7,7 @@
 
 # Swoole\Http\Client::download
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Http\Client::download — Завантажує файл із віддаленого сервера
 
@@ -17,7 +17,7 @@ public **Swoole\Http\Client::download**(
 string `$path`,
 string `$file`,
 [callable](language.types.callable.md) `$callback`,
-int `$offset` u003d ?
+int `$offset` = ?
 ): void
 
 ### Список параметрів

@@ -7,7 +7,7 @@
 
 #fastcgi_finish_request
 
-(PHP 5 \>u003d 5.3.3, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.3, PHP 7, PHP 8)
 
 fastcgi_finish_request - Скидає всі запитані дані клієнту
 

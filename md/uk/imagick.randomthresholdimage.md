@@ -15,7 +15,7 @@ Imagick::randomThresholdImage — Створює висококонтрастн�
 ### Опис
 
 public **Imagick::randomThresholdImage**(float `$low`, float `$high`,
-int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
+int `$channel` = Imagick::CHANNEL_DEFAULT): bool
 
 Змінює значення окремих пікселів залежно від інтенсивності
 кожного пікселя проти пороговим значенням. В результаті
@@ -45,4 +45,4 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::randomThresholdImage()****
 
-` <?phpfunction randomThresholdimage($imagePath, $lowThreshold, $highThreshold, $channel) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->randomThresholdimage(        $lowThreshold * \Imagick::getQuantum(),      $highThreshold * \Imagick::getQu         header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+` <?phpfunction randomThresholdimage($imagePath, $lowThreshold, $highThreshold, $channel) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->randomThresholdimage(        $lowThreshold * \Imagick::getQuantum(),      $highThreshold * \Imagick::getQu         header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

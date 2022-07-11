@@ -8,7 +8,7 @@
 
 # XMLDiff\Base::merge
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 XMLDiff\Base::merge — Створює новий документ XML на основі
 інформації про його відмінність від іншого

@@ -7,7 +7,7 @@
 
 # SyncSharedMemory::\_\_construct
 
-(PECL sync \>u003d 1.1.0)
+(PECL sync \>= 1.1.0)
 
 SyncSharedMemory::\_\_construct — Створює новий об'єкт SyncSharedMemory
 
@@ -49,7 +49,7 @@ public **SyncSharedMemory::\_\_construct**(string `$name`, int `$size`)
 
 **Приклад #1 Приклад використання **SyncSharedMemory::\_\_construct()****
 
-` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem u003d new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Виконайте тут початкову ініціалізацію.}$result u003d $mem->write(json_encode(array("name" u003d> "my_report.txt"))));?> `
+` <?php// Возможно, вам потребуется защитить разделяемую память с другими объектами синхронизации.// Разделяемая память исчезает, когда исчезает последняя ссылка на неё.$mem = new SyncSharedMemory("AppReportName", 1024);if ($mem-> first()){    // Виконайте тут початкову ініціалізацію.}$result = $mem->write(json_encode(array("name" => "my_report.txt"))));?> `
 
 ### Дивіться також
 

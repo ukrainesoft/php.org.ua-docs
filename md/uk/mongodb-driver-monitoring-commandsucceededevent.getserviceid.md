@@ -7,7 +7,7 @@
 
 # MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId
 
-(mongodb \>u003d1.11.0)
+(mongodb \>=1.11.0)
 
 MongoDB\Driver\Monitoring\CommandSucceededEvent::getServiceId
 Повертає ідентифікатор служби балансувальника навантаження для команди

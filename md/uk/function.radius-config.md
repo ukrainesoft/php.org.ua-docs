@@ -7,7 +7,7 @@
 
 # radius_config
 
-(PECL radius \>u003d 1.1.0)
+(PECL radius \>= 1.1.0)
 
 radius_config — Примушує бібліотеку читати файл конфігурації
 
@@ -20,7 +20,7 @@ radius_config — Примушує бібліотеку читати файл к
 спосіб налаштувати бібліотеку – викликати **radius_config()**.
 **radius_config()** змушує бібліотеку читати файл конфігурації,
 формат якого описаний
-[»radius.conf](http://www.freebsd.org/cgi/man.cgi?queryu003dradius.conf).
+[»radius.conf](http://www.freebsd.org/cgi/man.cgi?query=radius.conf).
 
 ### Список параметрів
 

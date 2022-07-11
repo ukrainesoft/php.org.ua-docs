@@ -41,4 +41,4 @@ public **Imagick::newPseudoImage**(int `$columns`, int `$rows`, string
 
 **Приклад #1 Приклад використання **Imagick::newPseudoImage()****
 
-` <?phpfunction newPseudoImage($canvasType) {    $imagick u003d new \Imagick(); $imagick->newPseudoImage(300, 300, $canvasType); $imagick->setImageFormat("png"); header("Content-Type: image/png"); echo $imagick->getImageBlob();}//newPseudoImage('gradient:red-rgba(64, 255, 255, 0.5)');//newPseudoImage("radial-gradient:red-blue");newPseudoImage(" plasma:fractal");?> `
+` <?phpfunction newPseudoImage($canvasType) {    $imagick = new \Imagick(); $imagick->newPseudoImage(300, 300, $canvasType); $imagick->setImageFormat("png"); header("Content-Type: image/png"); echo $imagick->getImageBlob();}//newPseudoImage('gradient:red-rgba(64, 255, 255, 0.5)');//newPseudoImage("radial-gradient:red-blue");newPseudoImage(" plasma:fractal");?> `

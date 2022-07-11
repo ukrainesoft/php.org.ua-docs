@@ -13,7 +13,7 @@ fdf_next_field_name — Отримує ім'я наступного поля
 
 ### Опис
 
-**fdf_next_field_name**(resource `$fdf_document`, string `$fieldname` u003d
+**fdf_next_field_name**(resource `$fdf_document`, string `$fieldname` =
 ?): string
 
 Отримує назву поля після заданого поля. Це ім'я можна використати
@@ -39,7 +39,7 @@ fdf_next_field_name — Отримує ім'я наступного поля
 
 **Приклад #1 Виявлення всіх імен полів у FDF**
 
-`<?php$fdf u003d fdf_open($HTTP_FDF_DATA);for ($field u003d fdf_next_field_name($fdf);    $field !u003d "";    $field u003d fdf|$|
+`<?php$fdf = fdf_open($HTTP_FDF_DATA);for ($field = fdf_next_field_name($fdf);    $field != "";    $field = fdf|$|
 ";}?> `
 
 ### Дивіться також

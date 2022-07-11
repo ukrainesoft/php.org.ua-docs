@@ -7,7 +7,7 @@
 
 # SolrDocument::toArray
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrDocument::toArray — Повертає представлення масиву документа
 
@@ -29,48 +29,48 @@ public **SolrDocument::toArray**(): array
 
 **Приклад #1 Приклад використання **SolrDocument::toArray()****
 
-` <?php$doc u003d new SolrDocument();$doc->addField('id', 1123);$doc->features u003d "PHP Client Side";$doc->features u003d "Fast development cycles" doc['cat'] u003d 'Software';$doc['cat'] u003d 'Custom Search';$doc->cat   u003d 'Information Technology';print_r($doc->toArray());?> `
+` <?php$doc = new SolrDocument();$doc->addField('id', 1123);$doc->features = "PHP Client Side";$doc->features = "Fast development cycles" doc['cat'] = 'Software';$doc['cat'] = 'Custom Search';$doc->cat   = 'Information Technology';print_r($doc->toArray());?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 Array
 (
-[document_boost] u003d> 0
-[field_count] u003d> 3
-[fields] u003d> Array
+[document_boost] => 0
+[field_count] => 3
+[fields] => Array
 (
-[0] u003d> SolrDocumentField Object
+[0] => SolrDocumentField Object
 (
-[name] u003d> id
-[boost] u003d> 0
-[values] u003d> Array
+[name] => id
+[boost] => 0
+[values] => Array
 (
-[0] u003d> 1123
+[0] => 1123
 )
 
 )
 
-[1] u003d> SolrDocumentField Object
+[1] => SolrDocumentField Object
 (
-[name] u003d> features
-[boost] u003d> 0
-[values] u003d> Array
+[name] => features
+[boost] => 0
+[values] => Array
 (
-[0] u003d> PHP Client Side
-[1] u003d> Fast development cycles
+[0] => PHP Client Side
+[1] => Fast development cycles
 )
 
 )
 
-[2] u003d> SolrDocumentField Object
+[2] => SolrDocumentField Object
 (
-[name] u003d> cat
-[boost] u003d> 0
-[values] u003d> Array
+[name] => cat
+[boost] => 0
+[values] => Array
 (
-[0] u003d> Software
-[1] u003d> Custom Search
-[2] u003d> Information Technology
+[0] => Software
+[1] => Custom Search
+[2] => Information Technology
 )
 
 )

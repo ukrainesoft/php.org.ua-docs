@@ -36,4 +36,4 @@ stream_bucket_prepend — Додати відро на початок брига
 
 **Приклад #1 Приклади використання **stream_bucket_prepend()****
 
-`<?phpclass foo extends php_user_filter {  protected $calls u003d 0; public function filter($in, $out, &$consumed, $closing) {    while ($bucket u003d stream_bucket_make_writeable($in)) {      $consumed if ($this->calls++ u003du003d 2) {         // Це відро знову з'явиться перед любим іншим відром. stream_bucket_prepend($in, $bucket); }    }   return PSFS_FEED_ME; }}stream_filter_register('test', 'foo');print  file_get_contents('php://filter/readu003dtest/resourceu003dfoo');?> `
+`<?phpclass foo extends php_user_filter {  protected $calls = 0; public function filter($in, $out, &$consumed, $closing) {    while ($bucket = stream_bucket_make_writeable($in)) {      $consumed if ($this->calls++ == 2) {         // Це відро знову з'явиться перед любим іншим відром. stream_bucket_prepend($in, $bucket); }    }   return PSFS_FEED_ME; }}stream_filter_register('test', 'foo');print  file_get_contents('php://filter/read=test/resource=foo');?> `

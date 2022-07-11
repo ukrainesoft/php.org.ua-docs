@@ -8,7 +8,7 @@
 
 # GmagickDraw::setfillcolor
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 GmagickDraw::setfillcolor — Встановлює колір заливки, який буде
 використовуватися для малювання об'єктів із заливкою

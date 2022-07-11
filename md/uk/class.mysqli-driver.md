@@ -29,7 +29,7 @@ public readonly int `$driver_version`;
 
 public readonly bool `$embedded`;
 
-public bool `$reconnect` u003d false;
+public bool `$reconnect` = false;
 
 public int `$report_mode`;
 

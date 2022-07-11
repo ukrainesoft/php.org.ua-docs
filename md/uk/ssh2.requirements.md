@@ -17,11 +17,11 @@
 релізу).
 
 Функція [ssh2_auth_agent()](function.ssh2-auth-agent.md) доступна
-тільки з версією libssh u003d 1.2.3.
+тільки з версією libssh = 1.2.3.
 
 Підтримка канальних потоків у
 [stream_set_timeout()](function.stream-set-timeout.md) доступна лише
-з версією libssh u003d 1.2.9.
+з версією libssh = 1.2.9.
 
 Libssh2 поставляється у двох варіантах: gcrypt або openssl. Деякі
 дистрибутиви Linux збирають libssh2 з бібліотекою gcrypt, деякі з

@@ -7,14 +7,14 @@
 
 # ReflectionProperty::isInitialized
 
-(PHP 7 u003d 7.4.0, PHP 8)
+(PHP 7 = 7.4.0, PHP 8)
 
 ReflectionProperty::isInitialized — Перевірити, чи ініціалізовано
 властивість
 
 ### Опис
 
-public **ReflectionProperty::isInitialized**(?object `$object` u003d
+public **ReflectionProperty::isInitialized**(?object `$object` =
 **`null`**): bool
 
 Перевіряє, чи ініціалізована властивість.
@@ -42,7 +42,7 @@ public **ReflectionProperty::isInitialized**(?object `$object` u003d
 ### Список змін
 
 | Версія | Опис                                 |
-| ------ | ------------------------------------ |
+|--------|--------------------------------------|
 | 8.0.0  | object тепер допускає значення null. |
 
 ### Приклади
@@ -50,7 +50,7 @@ public **ReflectionProperty::isInitialized**(?object `$object` u003d
 **Приклад #1 Приклад використання
 **ReflectionProperty::isInitialized()****
 
-` <?phpclass User{    public string $name;}$rp u003d new ReflectionProperty('User', 'name');$user u003d new User;var_dump($rp->isInitialized($user));$user-> nameu003du003d'Nikita';var_dump($rp->isInitialized($user));?> `
+` <?phpclass User{    public string $name;}$rp = new ReflectionProperty('User', 'name');$user = new User;var_dump($rp->isInitialized($user));$user-> name=='Nikita';var_dump($rp->isInitialized($user));?> `
 
 Результат виконання цього прикладу:
 

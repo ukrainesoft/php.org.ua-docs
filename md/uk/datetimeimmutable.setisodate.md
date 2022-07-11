@@ -7,14 +7,14 @@
 
 # DateTimeImmutable::setISODate
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 DateTimeImmutable::setISODate — Встановлює дату у форматі ISO
 
 ### Опис
 
 public **DateTimeImmutable::setISODate**(int `$year`, int `$week`, int
-`$dayOfWeek` u003d 1): [DateTimeImmutable](class.datetimeimmutable.md)
+`$dayOfWeek` = 1): [DateTimeImmutable](class.datetimeimmutable.md)
 
 Повертає новий об'єкт DateTimeImmutable з датою, встановленою в
 відповідно до стандарту ISO 8601 - з використанням зміщення тижнів та
@@ -48,13 +48,13 @@ public **DateTimeImmutable::setISODate**(int `$year`, int `$week`, int
 
 Об'єктно-орієнтований стиль
 
-` <?php$date u003d new DateTimeImmutable();$date->setISODate(2008, 2);echo $date->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable();$date->setISODate(2008, 2);echo $date->format('Y-m-d') . "
 ";$date->setISODate(2008, 2, 7);echo $date->format('Y-m-d') . "
 ";?> `
 
 Процедурний стиль
 
-` <?php$date u003d date_create();date_isodate_set($date, 2008, 2);echo date_format($date, 'Y-m-d') . "
+` <?php$date = date_create();date_isodate_set($date, 2008, 2);echo date_format($date, 'Y-m-d') . "
 ";date_isodate_set($date, 2008, 2, 7);echo date_format($date, 'Y-m-d') . ""
 ";?> `
 
@@ -66,9 +66,9 @@ public **DateTimeImmutable::setISODate**(int `$year`, int `$week`, int
 **Приклад #2 Значення, що виходять за межі діапазону, додаються до
 своїм батьківським значенням**
 
-` <?php$date u003d new DateTimeImmutable();$newDate u003d $date->setISODate(2008, 2, 7);echo $newDate->format('Y-m-d') . "
-";$newDateu003du003d$date->setISODate(2008, 2, 8);echo $newDate->format('Y-m-d') . ""
-";$newDateu003du003d$date->setISODate(2008, 53, 7);echo $newDate->format('Y-m-d') . "
+` <?php$date = new DateTimeImmutable();$newDate = $date->setISODate(2008, 2, 7);echo $newDate->format('Y-m-d') . "
+";$newDate==$date->setISODate(2008, 2, 8);echo $newDate->format('Y-m-d') . ""
+";$newDate==$date->setISODate(2008, 53, 7);echo $newDate->format('Y-m-d') . "
 ";?> `
 
 Результат виконання цього прикладу:
@@ -79,7 +79,7 @@ public **DateTimeImmutable::setISODate**(int `$year`, int `$week`, int
 
 **Приклад #3 Пошук місяця, в якому знаходиться тиждень**
 
-` <?php$date u003d new DateTimeImmutable();$newDate u003d $date->setISODate(2008, 14);echo $newDate->format('n');?> `
+` <?php$date = new DateTimeImmutable();$newDate = $date->setISODate(2008, 14);echo $newDate->format('n');?> `
 
 Результат виконання даних прикладів:
 

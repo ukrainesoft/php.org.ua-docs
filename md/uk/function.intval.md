@@ -14,7 +14,7 @@ intval — Повертає ціле значення змінної
 ### Опис
 
 **intval**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$value`, int `$base` u003d 10): int
+`$value`, int `$base` = 10): int
 
 Повертає ціле (int) значення змінної `value`, використовуючи вказане
 основа системи числення `base` для перетворення (за замовчуванням

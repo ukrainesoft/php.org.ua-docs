@@ -7,7 +7,7 @@
 
 # RecursiveCachingIterator::\_\_construct
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 RecursiveCachingIterator::\_\_construct — Конструктор
 
@@ -15,7 +15,7 @@ RecursiveCachingIterator::\_\_construct — Конструктор
 
 public
 **RecursiveCachingIterator::\_\_construct**([Iterator](class.iterator.md)
-`$iterator`, int `$flags` u003d RecursiveCachingIterator::CALL_TOSTRING)
+`$iterator`, int `$flags` = RecursiveCachingIterator::CALL_TOSTRING)
 
 Створює новий
 [RecursiveCachingIterator](class.recursivecachingiterator.md), який

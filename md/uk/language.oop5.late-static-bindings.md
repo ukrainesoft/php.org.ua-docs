@@ -73,7 +73,7 @@ B
 **Приклад #3 Використання `static::` у нестатичному контексті**
 
 ` <?phpclass A {   private function foo() {        echo "success!"
-";    }    public function test() {        $this->foo();        static::foo();    }}class B extends A {   /* foo() будет скопирован в В, следовательно его область действия по прежнему А,      и вызов будет успешным */}class C extends A {    private function foo() {        /* исходный метод заменён; область действия нового метода - С */    }}$b u003d new B();$b->test();$ c u003d new C();$c->test();  // потерпить помилку?> `
+";    }    public function test() {        $this->foo();        static::foo();    }}class B extends A {   /* foo() будет скопирован в В, следовательно его область действия по прежнему А,      и вызов будет успешным */}class C extends A {    private function foo() {        /* исходный метод заменён; область действия нового метода - С */    }}$b = new B();$b->test();$ c = new C();$c->test();  // потерпить помилку?> `
 
 Результат виконання цього прикладу:
 

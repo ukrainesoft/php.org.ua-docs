@@ -7,7 +7,7 @@
 
 # SplFixedArray::next
 
-(PHP 5 u003d 5.3.0, PHP 7)
+(PHP 5 = 5.3.0, PHP 7)
 
 SplFixedArray::next — Переходить до наступного елементу масиву
 

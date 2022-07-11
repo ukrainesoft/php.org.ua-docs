@@ -7,13 +7,13 @@
 
 # Imagick::autoLevelImage
 
-(PECL imagick 3 \>u003d 3.3.0)
+(PECL imagick 3 \>= 3.3.0)
 
 Imagick::autoLevelImage — Опис
 
 ### Опис
 
-public **Imagick::autoLevelImage**(int `$channel` u003d
+public **Imagick::autoLevelImage**(int `$channel` =
 Imagick::CHANNEL_DEFAULT): bool
 
 Налаштовує рівні певного каналу зображення, масштабуючи
@@ -32,4 +32,4 @@ Imagick::CHANNEL_DEFAULT): bool
 
 **Приклад #1 Приклад використання **Imagick::autoLevelImage()****
 
-`<?phpfunction autoLevelImage($imagePath) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->autoLevelImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction autoLevelImage($imagePath) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->autoLevelImage(); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

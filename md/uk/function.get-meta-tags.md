@@ -14,7 +14,7 @@ get_meta_tags — Витягує вміст усіх метатегів з фа�
 
 ### Опис
 
-**get_meta_tags**(string `$filename`, bool `$use_include_path` u003d
+**get_meta_tags**(string `$filename`, bool `$use_include_path` =
 **`false`**): array\|false
 
 Відкриває `filename` і розбирає його рядками у пошуках тегів
@@ -29,10 +29,10 @@ URL.
 **Приклад #1 Що обробляє функція **get_meta_tags()****
 
 ```htmlcode
-<meta nameu003d"author" contentu003d"name">
-<meta nameu003d"keywords" contentu003d"php documentation">
-<meta nameu003d"DESCRIPTION" contentu003d"a php manual">
-<meta nameu003d"geo.position" contentu003d"49.33;-86.59">
+<meta name="author" content="name">
+<meta name="keywords" content="php documentation">
+<meta name="DESCRIPTION" content="a php manual">
+<meta name="geo.position" content="49.33;-86.59">
 </head> <!-- розбір файлу буде зупинено тут -->
 ````
 
@@ -59,7 +59,7 @@ content – значенням цього елемента. Ви можете в
 
 **Приклад #2 Що повертає функція **get_meta_tags()****
 
-`<?php// Припустимо, вказані вище метатеги розташовані на www.example.com$tags u003d get_meta_tags('http://www.example.com/');// Зверніть увага, у // а точки ('.') в ключах замінені на '_'echo $tags['author']; // nameecho $tags['keywords']; // php documentationecho $tags['description']; // a php manualecho $tags['geo_position']; // 49.33;-86.59?> `
+`<?php// Припустимо, вказані вище метатеги розташовані на www.example.com$tags = get_meta_tags('http://www.example.com/');// Зверніть увага, у // а точки ('.') в ключах замінені на '_'echo $tags['author']; // nameecho $tags['keywords']; // php documentationecho $tags['description']; // a php manualecho $tags['geo_position']; // 49.33;-86.59?> `
 
 ### Примітки
 

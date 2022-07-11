@@ -16,9 +16,9 @@ array_multisort — Сортує кілька масивів або багато
 **array_multisort**(
 array `&$array1`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$array1_sort_order` u003d SORT_ASC,
+`$array1_sort_order` = SORT_ASC,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$array1_sort_flags` u003d SORT_REGULAR,
+`$array1_sort_flags` = SORT_REGULAR,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `...$rest`
 ): bool
@@ -91,7 +91,7 @@ array `&$array1`,
 
 **Приклад #1 Сортування кількох масивів**
 
-` <?php$ar1 u003d array(10, 100, 100, 0);$ar2 u003d array(1, 3, 2, 4);array_multisort($ar1, $ar2);var_dump($ar1);var_dump($ ar2);?> `
+` <?php$ar1 = array(10, 100, 100, 0);$ar2 = array(1, 3, 2, 4);array_multisort($ar1, $ar2);var_dump($ar1);var_dump($ ar2);?> `
 
 У наведеному вище прикладі, після того, як буде здійснена
 сортування, перший масив міститиме 0, 10, 100, 100. Другий - 4,
@@ -99,21 +99,21 @@ array `&$array1`,
 першого (100 та 100), також будуть відсортовані.
 
 array(4) {
-[0]u003d> int(0)
-[1]u003d> int(10)
-[2]u003d> int(100)
-[3]u003d> int(100)
+[0]=> int(0)
+[1]=> int(10)
+[2]=> int(100)
+[3]=> int(100)
 }
 array(4) {
-[0]u003d> int(4)
-[1]u003d> int(1)
-[2]u003d> int(2)
-[3]u003d> int(3)
+[0]=> int(4)
+[1]=> int(1)
+[2]=> int(2)
+[3]=> int(3)
 }
 
 **Приклад #2 Сортування багатовимірного масиву**
 
-`<?php$ar u003d array(                                               SORT_ASC, SORT_STRING,                 $ar[1], SORT_NUMERIC, SORT_DESC);var_dump($ar);?> `
+`<?php$ar = array(                                               SORT_ASC, SORT_STRING,                 $ar[1], SORT_NUMERIC, SORT_DESC);var_dump($ar);?> `
 
 У наведеному вище прикладі, після сортування, перший масив буде
 містити "10", 100, 100, 11, "a" (його елементи були відсортовані в
@@ -121,19 +121,19 @@ array(4) {
 (Елементи відсортовані як числа, у порядку зменшення).
 
 array(2) {
-[0]u003d> array(5) {
-[0]u003d> string(2) "10"
-[1]u003d> int(100)
-[2]u003d> int(100)
-[3]u003d> int(11)
-[4]u003d> string(1) "a"
+[0]=> array(5) {
+[0]=> string(2) "10"
+[1]=> int(100)
+[2]=> int(100)
+[3]=> int(11)
+[4]=> string(1) "a"
 }
-[1]u003d> array(5) {
-[0]u003d> int(1)
-[1]u003d> int(3)
-[2]u003d> string(1) "2"
-[3]u003d> int(2)
-[4]u003d> int(1)
+[1]=> array(5) {
+[0]=> int(1)
+[1]=> int(3)
+[2]=> string(1) "2"
+[3]=> int(2)
+[4]=> int(1)
 }
 }
 
@@ -158,7 +158,7 @@ volume | edition
 отримати, наприклад, за допомогою циклу з функції
 [mysqli_fetch_assoc()](mysqli-result.fetch-assoc.md).
 
-` <?php$data[] u003d array('volume' u003d> 67, 'edition' u003d> 2);$data[] u003d array('volume' u003d> 86, 'edition' u003d> 1);$data [] u003d array('volume' u003d> 85, 'edition' u003d> 6);$data[] u003d array('volume' u003d> 98, 'edition' u003d> 2);$data[] u003d array(' volume' u003d> 86, 'edition' u003d> 6);$data[] u003d array('volume' u003d> 67, 'edition' u003d> 7);?> `
+` <?php$data[] = array('volume' => 67, 'edition' => 2);$data[] = array('volume' => 86, 'edition' => 1);$data [] = array('volume' => 85, 'edition' => 6);$data[] = array('volume' => 98, 'edition' => 2);$data[] = array(' volume' => 86, 'edition' => 6);$data[] = array('volume' => 67, 'edition' => 7);?> `
 
 У нашому прикладі ми будемо сортувати по `volume` у спадному порядку, а
 по `edition` - у зростаючому.
@@ -167,7 +167,7 @@ volume | edition
 стовпців, тому спочатку ми використовуємо наступний код для отримання
 стовпців, а потім виконаємо сортування.
 
-` <?php// Отримання списку стовпцівforeach ($data as $key u003d> $row) {    $volume[$key]  u003d $row['volume']; $edition[$key] u003d $row['edition'];}// Ви можете використовувати array_column() замість вказаного вище коду$volume u003d array_column($data, 'volume');$edition u003d'day ');// Сортуємо дані по volume по зменшенню і по edition по зростанню// Добавляємо $data в якості останнього параметра, для Сортування по C|
+` <?php// Отримання списку стовпцівforeach ($data as $key => $row) {    $volume[$key]  = $row['volume']; $edition[$key] = $row['edition'];}// Ви можете використовувати array_column() замість вказаного вище коду$volume = array_column($data, 'volume');$edition ='day ');// Сортуємо дані по volume по зменшенню і по edition по зростанню// Добавляємо $data в якості останнього параметра, для Сортування по C|
 
 Тепер дані відсортовані і виглядатимуть так:
 
@@ -189,16 +189,16 @@ volume | edition
 Для виконання реєстронезалежного сортування, необхідно використовувати
 копію вихідного масиву приведену до нижнього регістру.
 
-` <?php$array u003d array('Alpha', 'atomic', 'Beta', 'bank');$array_lowercase u003d array_map('strtolower', $array);array_multisort($array_lowercase, SORT_AS );print_r($array);?> `
+` <?php$array = array('Alpha', 'atomic', 'Beta', 'bank');$array_lowercase = array_map('strtolower', $array);array_multisort($array_lowercase, SORT_AS );print_r($array);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> Alpha
-[1] u003d> atomic
-[2] u003d> bank
-[3] u003d> Beta
+[0] => Alpha
+[1] => atomic
+[2] => bank
+[3] => Beta
 )
 
 ### Дивіться також

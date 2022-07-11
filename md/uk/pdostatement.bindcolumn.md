@@ -7,7 +7,7 @@
 
 # PDOStatement::bindColumn
 
-(PHP 5 u003d 5.1.0, PHP 7, PHP 8, PECL pdo u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PHP 8, PECL pdo = 0.1.0)
 
 PDOStatement::bindColumn — Зв'язує стовпець зі змінною PHP
 
@@ -17,10 +17,10 @@ public **PDOStatement::bindColumn**(
 string\|int `$column`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 `&$var`,
-int `$type` u003d PDO::PARAM_STR,
-int `$maxLength` u003d 0,
+int `$type` = PDO::PARAM_STR,
+int `$maxLength` = 0,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$driverOptions` u003d **`null`**
+`$driverOptions` = **`null`**
 ): bool
 
 **PDOStatement::bindColumn()** прив'язує змінну до заданого
@@ -76,7 +76,7 @@ int `$maxLength` u003d 0,
 прив'язувати змінні та отримувати дані стовпців, приймаючи різні
 налаштування та замовчування.
 
-` <?php$stmt u003d $dbh->prepare('SELECT name, colour, calories FROM fruit');$stmt->execute();/* Bind by column number */$stmt->bindColum name);$stmt->bindColumn(2, $colour);/* Bind by column name */$stmt->bindColumn('calories', $cals);while ($stmt->fetch(PDO::FETCH_BOUND) ) {    print $name . " " . $colour . " " . $cals . "
+` <?php$stmt = $dbh->prepare('SELECT name, colour, calories FROM fruit');$stmt->execute();/* Bind by column number */$stmt->bindColum name);$stmt->bindColumn(2, $colour);/* Bind by column name */$stmt->bindColumn('calories', $cals);while ($stmt->fetch(PDO::FETCH_BOUND) ) {    print $name . " " . $colour . " " . $cals . "
 ";} `
 
 Результат виконання цього прикладу:

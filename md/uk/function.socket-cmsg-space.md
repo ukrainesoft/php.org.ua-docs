@@ -7,13 +7,13 @@
 
 # socket_cmsg_space
 
-(PHP 5 \>u003d 5.5.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.5.0, PHP 7, PHP 8)
 
 socket_cmsg_space — Обчислити розмір буфера повідомлення
 
 ### Опис
 
-**socket_cmsg_space**(int `$level`, int `$type`, int `$num` u003d 0): ?int
+**socket_cmsg_space**(int `$level`, int `$type`, int `$num` = 0): ?int
 
 Обчислює розмір буфера, який має бути виділено для отримання
 допоміжні дані.

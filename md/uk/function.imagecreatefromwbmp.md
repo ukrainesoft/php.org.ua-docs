@@ -7,7 +7,7 @@
 
 #imagecreatefromwbmp
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 imagecreatefromwbmp — Створення нового зображення з файлу або URL
 
@@ -45,11 +45,11 @@ imagecreatefromwbmp — Створення нового зображення з 
 ### Список змін
 
 | Версія | Опис                                                                                                                           |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+|--------|--------------------------------------------------------------------------------------------------------------------------------|
 | 8.0.0  | У разі успішного виконання, функція тепер повертає екземпляр [GDImage](class.gdimage.md); раніше повертався ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Приклад обробки помилки під час завантаження WBMP**
 
-` <?phpfunction LoadWBMP($imgname){    /* Намагаємося відкрити */    $im u003d @imagecreatefromwbmp($imgname); /* Якщо не удалося */    if(!$im)    {        /* Створюємо пусте зображення */         $im              $bgc u003d imagecolorallocate($im, 255, 255, 255); $tc u003d imagecolorallocate($im, 0, 0, 0); imagefilledrectangle($im, 0, 0, 150, 30, $bgc); /* Виводимо повідомлення про помилки */        imagestring($im, 1, 5, 5, 'Помилка завантаження ' . $imgname, $tc); }   return $im;}header('Content-Type:image/vnd.wap.wbmp');$img u003d LoadWBMP('bogus.image');imagewbmp($img);imagedestroy($img);?> `
+` <?phpfunction LoadWBMP($imgname){    /* Намагаємося відкрити */    $im = @imagecreatefromwbmp($imgname); /* Якщо не удалося */    if(!$im)    {        /* Створюємо пусте зображення */         $im              $bgc = imagecolorallocate($im, 255, 255, 255); $tc = imagecolorallocate($im, 0, 0, 0); imagefilledrectangle($im, 0, 0, 150, 30, $bgc); /* Виводимо повідомлення про помилки */        imagestring($im, 1, 5, 5, 'Помилка завантаження ' . $imgname, $tc); }   return $im;}header('Content-Type:image/vnd.wap.wbmp');$img = LoadWBMP('bogus.image');imagewbmp($img);imagedestroy($img);?> `

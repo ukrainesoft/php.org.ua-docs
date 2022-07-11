@@ -7,7 +7,7 @@
 
 #array_merge_recursive
 
-(PHP 4 \>u003d 4.0.1, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.1, PHP 5, PHP 7, PHP 8)
 
 array_merge_recursive - Рекурсивне злиття одного або більше масивів
 
@@ -39,32 +39,32 @@ array_merge_recursive - Рекурсивне злиття одного або б
 ### Список змін
 
 | Версія | Опис                                                                                              |
-| ------ | ------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------|
 | 7.4.0  | Функцію тепер можна викликати без будь-яких параметрів. Раніше був потрібен хоча б один параметр. |
 
 ### Приклади
 
 **Приклад #1 Приклад використання **array_merge_recursive()****
 
-` <?php$ar1 u003d array("color" u003d> array("favorite" u003d> "red"), 5);$ar2 u003d array(10, "color" u003d> array("favorite" u003d> "green ", "blue"));$result u003d array_merge_recursive($ar1, $ar2);print_r($result);?> `
+` <?php$ar1 = array("color" => array("favorite" => "red"), 5);$ar2 = array(10, "color" => array("favorite" => "green ", "blue"));$result = array_merge_recursive($ar1, $ar2);print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[color] u003d> Array
+[color] => Array
 (
-[favorite] u003d> Array
+[favorite] => Array
 (
-[0] u003d> red
-[1] u003d> green
+[0] => red
+[1] => green
 )
 
-[0] u003d> blue
+[0] => blue
 )
 
-[0] u003d> 5
-[1] u003d> 10
+[0] => 5
+[1] => 10
 )
 
 ### Дивіться також

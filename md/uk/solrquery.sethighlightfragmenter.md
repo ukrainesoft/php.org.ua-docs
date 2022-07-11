@@ -7,7 +7,7 @@
 
 # SolrQuery::setHighlightFragmenter
 
-(PECL solr \> u003d 0.9.2)
+(PECL solr \> = 0.9.2)
 
 SolrQuery::setHighlightFragmenter — Встановлює генератор текстових
 фрагментів для виділеного тексту
@@ -15,7 +15,7 @@ SolrQuery::setHighlightFragmenter — Встановлює генератор т
 ### Опис
 
 public **SolrQuery::setHighlightFragmenter**(string `$fragmenter`,
-string `$field_override` u003d ?): [SolrQuery](class.solrquery.md)
+string `$field_override` = ?): [SolrQuery](class.solrquery.md)
 
 Задає генератор текстового фрагмента виділеного тексту.
 

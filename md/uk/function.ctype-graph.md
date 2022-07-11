@@ -53,7 +53,7 @@ ctype_graph — Перевірка будь-яких друкованих сим
 
 ` <?php$strings = array('string1' => "asdf
 ===
-", 'string2' u003d> 'arf12', 'string3' u003d> 'LKA#@%.54');foreach ($strings as $name u003d> $testcase) {    if (ctype_graph($test   Рядок '$name' складається тільки із (видимих) друкованих символів.
+", 'string2' => 'arf12', 'string3' => 'LKA#@%.54');foreach ($strings as $name => $testcase) {    if (ctype_graph($test   Рядок '$name' складається тільки із (видимих) друкованих символів.
 ";    }}else {         echo "Рядок'$name' не складається тільки із (видимих) друкованих символів.
 ";    }}?> `
 

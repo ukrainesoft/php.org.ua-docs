@@ -9,7 +9,7 @@ microseconds
 
 #stream_select
 
-(PHP 4 \>u003d 4.3.0, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.3.0, PHP 5, PHP 7, PHP 8)
 
 stream_select — Запускає еквівалент системного виклику select()
 заданих масивах потоків з часом очікування, вказаним параметрами
@@ -22,7 +22,7 @@ seconds та microseconds
 ?array `&$write`,
 ?array `&$except`,
 ?int `$seconds`,
-?int `$microseconds` u003d **`null`**
+?int `$microseconds` = **`null`**
 ): int\|false
 
 Функція **stream_select()** отримує масиви потоків і чекає зміни їх
@@ -99,7 +99,7 @@ seconds та microseconds
 ### Список змін
 
 | Версія | Опис                                                    |
-| ------ | ------------------------------------------------------- |
+|--------|---------------------------------------------------------|
 | 8.1.0  | Параметр microseconds тепер допускає значення **null**. |
 
 ### Приклади
@@ -110,7 +110,7 @@ seconds та microseconds
 `$stream1` або `$stream2`. Оскільки значення часу очікування дорівнює `0`,
 функція повернеться негайно:
 
-` <?php/* Підготувати масив для читання */$read   u003d array($stream1, $stream2);$write  u003d NULL;$except u003d NULL;if (false u003du003du003d $$ write, $except, 0))) {    /* Обробка помилок */} elseif ($num_changed_streams > 0) {    /* Як мінімум на       
+` <?php/* Підготувати масив для читання */$read   = array($stream1, $stream2);$write  = NULL;$except = NULL;if (false === $$ write, $except, 0))) {    /* Обробка помилок */} elseif ($num_changed_streams > 0) {    /* Як мінімум на       
 
 ### Примітки
 
@@ -122,15 +122,15 @@ seconds та microseconds
 > використовуйте тимчасову змінну або вираз, у якому крайній
 > лівий член буде тимчасовою змінною:
 >
-> ` <?php$e u003d NULL;stream_select($r, $w, $e, 0);?> `
+> ` <?php$e = NULL;stream_select($r, $w, $e, 0);?> `
 
 > **Примітка**:
 >
-> Перевірте, чи використовуєте оператор `u003du003du003d` під час перевірки помилки. Так
+> Перевірте, чи використовуєте оператор `===` під час перевірки помилки. Так
 > як функція **stream_select()** може повертати 0 порівняння з
-> використанням `u003du003d` може повертати **`true`**:
+> використанням `==` може повертати **`true`**:
 >
-> ` <?php$e u003d NULL;if (false u003du003du003d stream_select($r, $w, $e, 0)) {    echo "Сталася помилка при виклику stream_select()
+> ` <?php$e = NULL;if (false === stream_select($r, $w, $e, 0)) {    echo "Сталася помилка при виклику stream_select()
 ";}?> `
 
 > **Примітка**:

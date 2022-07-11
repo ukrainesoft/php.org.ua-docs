@@ -37,12 +37,12 @@ public **ReflectionClass::getExtension**():
 
 **Приклад #1 Приклад використання **ReflectionClass::getExtension()****
 
-` <?php$class u003d new ReflectionClass('ReflectionClass');$extension u003d $class->getExtension();var_dump($extension);?> `
+` <?php$class = new ReflectionClass('ReflectionClass');$extension = $class->getExtension();var_dump($extension);?> `
 
 Результат виконання цього прикладу:
 
 object(ReflectionExtension)#2 (1) {
-["name"]u003d>
+["name"]=>
 string(10) "Reflection"
 }
 

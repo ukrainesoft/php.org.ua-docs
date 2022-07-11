@@ -7,7 +7,7 @@
 
 # GearmanWorker::\_\_construct
 
-(PECL gearman u003d 0.5.0)
+(PECL gearman = 0.5.0)
 
 GearmanWorker::\_\_construct — Створення об'єкту GearmanWorker
 

@@ -7,7 +7,7 @@
 
 # PDO_PGSQL DSN
 
-(PHP 5 u003d 5.1.0, PHP 7, PECL PDO_PGSQL u003d 0.1.0)
+(PHP 5 = 5.1.0, PHP 7, PECL PDO_PGSQL = 0.1.0)
 
 PDO_PGSQL DSN — З'єднання з базою даних PostgreSQL
 
@@ -52,4 +52,4 @@ DSN, PDO проігнорує значення, передане як парам
 
 Наступний приклад демонструє рядок підключення до бази PostgreSQL:
 
-pgsql:hostu003dlocalhost;portu003d5432;dbnameu003dtestdb;useru003dbruce;passwordu003dmypass
+pgsql:host=localhost;port=5432;dbname=testdb;user=bruce;password=mypass

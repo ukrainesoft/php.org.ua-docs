@@ -37,7 +37,7 @@
 
 **Приклад #1 Приклад статичного методу**
 
-` <?phpclass Foo { {   public static function aStaticMethod() {         // ...   }}Foo::aStaticMethod();$classname u003d';
+` <?phpclass Foo { {   public static function aStaticMethod() {         // ...   }}Foo::aStaticMethod();$classname =';
 
 ### Статичні властивості
 
@@ -50,13 +50,13 @@
 
 **Приклад #2 Приклад статичної властивості**
 
-`<?phpclass Foo{    public static $my_static u003d 'foo'; public function staticValue() {        return self::$my_static; }}class Bar extends Foo{    public function fooStatic() {        return parent::$my_static; }}print Foo::$my_static . "
-";$foo u003d new Foo();print $foo->staticValue() . "
+`<?phpclass Foo{    public static $my_static = 'foo'; public function staticValue() {        return self::$my_static; }}class Bar extends Foo{    public function fooStatic() {        return parent::$my_static; }}print Foo::$my_static . "
+";$foo = new Foo();print $foo->staticValue() . "
 ";print $foo->my_static . "
 ";      // Не визначено властивість my_staticprint $foo::$my_static . "
-";$classname u003d 'Foo';print $classname::$my_static . "
+";$classname = 'Foo';print $classname::$my_static . "
 ";print Bar::$my_static . "
-";$bar u003d new Bar();print $bar->fooStatic() . "
+";$bar = new Bar();print $bar->fooStatic() . "
 ";?> `
 
 Результат виконання цього прикладу в PHP 8 аналогічний:

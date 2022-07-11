@@ -35,4 +35,4 @@ public **Imagick::edgeImage**(float `$radius`): bool
 
 **Приклад #1 Приклад використання **Imagick::edgeImage()****
 
-`<?phpfunction edgeImage($imagePath, $radius) {   $imagick u003d new \Imagick(realpath($imagePath)); $imagick->edgeImage($radius); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `
+`<?phpfunction edgeImage($imagePath, $radius) {   $imagick = new \Imagick(realpath($imagePath)); $imagick->edgeImage($radius); header("Content-Type: image/jpg"); echo $imagick->getImageBlob();}?> `

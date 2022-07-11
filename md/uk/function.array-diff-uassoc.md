@@ -52,19 +52,19 @@ callback([mixed](language.types.declarations.md#language.types.declarations.mixe
 
 **Приклад #1 Приклад використання **array_diff_uassoc()****
 
-Пара `"a" u003d> "green"` існує в обох масивах і тому відсутня
-у виведенні функції. Навпаки, пара `0 u003d> "red"` знаходиться у висновку
+Пара `"a" => "green"` існує в обох масивах і тому відсутня
+у виведенні функції. Навпаки, пара `0 => "red"` знаходиться у висновку
 функції, тому що другий аргумент ``red'` має ключ, рівний `1`.
 
-` <?phpfunction key_compare_func($a, $b){   if ($a u003du003du003d $b) {        return 0; }   return ($a > $b)? 1:-1;}$array1 u003d array("a" u003d> "green", "b" u003d> "brown", "c" u003d> "blue", "red");$array2 u003d array("a " u003d> "green", "yellow", "red");$result u003d array_diff_uassoc($array1, $array2, "key_compare_func");print_r($result);?> `
+` <?phpfunction key_compare_func($a, $b){   if ($a === $b) {        return 0; }   return ($a > $b)? 1:-1;}$array1 = array("a" => "green", "b" => "brown", "c" => "blue", "red");$array2 = array("a " => "green", "yellow", "red");$result = array_diff_uassoc($array1, $array2, "key_compare_func");print_r($result);?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[b] u003d> brown
-[c] u003d> blue
-[0] u003d> red
+[b] => brown
+[c] => blue
+[0] => red
 )
 
 Рівність 2 індексів перевіряється функцією, що надається

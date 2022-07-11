@@ -8,7 +8,7 @@ callback-функції
 
 # preg_replace_callback
 
-(PHP 4 \>u003d 4.0.5, PHP 5, PHP 7, PHP 8)
+(PHP 4 \>= 4.0.5, PHP 5, PHP 7, PHP 8)
 
 preg_replace_callback — Пошук за регулярним виразом і
 заміну з використанням callback-функції
@@ -19,9 +19,9 @@ preg_replace_callback — Пошук за регулярним виразом і
 string\|array `$pattern`,
 [callable](language.types.callable.md) `$callback`,
 string\|array `$subject`,
-int `$limit` u003d -1,
-int `&$count` u003d **`null`**,
-int `$flags` u003d 0
+int `$limit` = -1,
+int `&$count` = **`null`**,
+int `$flags` = 0
 ): string\|array\|null
 
 Поведінка цієї функції багато в чому нагадує
@@ -50,7 +50,7 @@ handler(array `$matches`): string
 
 **Приклад #1 **preg_replace_callback()** та анонімна функція**
 
-` <?php/* фільтр, подібний тому, що використовується в системах Unix * для перетворення великих букв в початку параграфу в рядкові|*"$fp u003d fopen вдалося прочитати stdin");while (!feof($fp)) {    $line u003d fgets($fp); $line u003d preg_replace_callback(        '|<p>\s*\w|',        function ($matches) {            return strtolower($matches[0]);        },        $line    ); echo $line;}fclose($fp);?> `
+` <?php/* фільтр, подібний тому, що використовується в системах Unix * для перетворення великих букв в початку параграфу в рядкові|*"$fp = fopen вдалося прочитати stdin");while (!feof($fp)) {    $line = fgets($fp); $line = preg_replace_callback(        '|<p>\s*\w|',        function ($matches) {            return strtolower($matches[0]);        },        $line    ); echo $line;}fclose($fp);?> `
 
 `subject`
 Рядок або масив рядків для пошуку та заміни.
@@ -86,15 +86,15 @@ handler(array `$matches`): string
 ### Список змін
 
 | Версія | Опис                    |
-| ------ | ----------------------- |
+|--------|-------------------------|
 | 7.4.0  | Доданий параметр flags. |
 
 ### Приклади
 
 **Приклад #2 Приклад використання **preg_replace_callback()****
 
-` <?php// Цей текст був використаний в 2002 року// ми хочемо оновити дати к 2003 року$text u003d "День сміху був 01/04/20
-";$text.u003d "Остання Різдво було 24/12/2001
+` <?php// Цей текст був використаний в 2002 року// ми хочемо оновити дати к 2003 року$text = "День сміху був 01/04/20
+";$text.= "Остання Різдво було 24/12/2001
 ";// callback-функціяfunction next_year($matches){ // як звичайно: $matches[0] -  повне входження шаблона   // $matches[1] в вки|  return $matches[1].($matches[2]+1);}echo preg_replace_callback(             "|(\d{2}/\d{2}/)(\d{4})|"   | ",             $text);?> `
 
 Результат виконання цього прикладу:
@@ -105,7 +105,7 @@ handler(array `$matches`): string
 **Приклад #3 Рекурсивна обробка BB-кодів за допомогою
 **preg_replace_callback()****
 
-` <?php$input u003d "верх [indent] глибше [indent] ще глибше [/indent] глибше [/indent] верх";function parseTagsRecursive($input){    $regex u003d | [^[]|[(?!/?indent])|(?R))+)[/indent]#'; if (is_array($input)) {         $input u003d '<div styleu003d"margin-left: 10px">'.$input[1].'</div>'; }   return preg_replace_callback($regex, 'parseTagsRecursive', $input);}$output u003d parseTagsRecursive($input);echo $output;?> `
+` <?php$input = "верх [indent] глибше [indent] ще глибше [/indent] глибше [/indent] верх";function parseTagsRecursive($input){    $regex = | [^[]|[(?!/?indent])|(?R))+)[/indent]#'; if (is_array($input)) {         $input = '<div style="margin-left: 10px">'.$input[1].'</div>'; }   return preg_replace_callback($regex, 'parseTagsRecursive', $input);}$output = parseTagsRecursive($input);echo $output;?> `
 
 ### Дивіться також
 

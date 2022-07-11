@@ -38,12 +38,12 @@ public **SolrDisMaxQuery::removeUserField**(string `$field`):
 **Приклад #1 Приклад використання
 **SolrDisMaxQuery::removeUserField()****
 
-` <?php$dismaxQuery u003d new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL / видалити поле 'text'$dismaxQuery->removeUserField('text');echo $dismaxQuery.PHP_EOL;?> `
+` <?php$dismaxQuery = new SolrDisMaxQuery('lucene');$dismaxQuery->addUserField('cat')->addUserField('text')->addUserField('*_dt');echo $dismaxQuery.PHP_EOL / видалити поле 'text'$dismaxQuery->removeUserField('text');echo $dismaxQuery.PHP_EOL;?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
-qu003dlucene&defTypeu003d%s&ufu003dcat text *_dt
-qu003dlucene&defTypeu003d%s&ufu003dcat *_dt
+q=lucene&defType=%s&uf=cat text *_dt
+q=lucene&defType=%s&uf=cat *_dt
 
 ### Дивіться також
 

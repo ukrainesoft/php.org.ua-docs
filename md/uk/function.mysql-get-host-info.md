@@ -7,7 +7,7 @@
 
 # mysql_get_host_info
 
-(PHP 4 u003d 4.0.5, PHP 5)
+(PHP 4 = 4.0.5, PHP 5)
 
 mysql_get_host_info — Повертає інформацію про з'єднання з MySQL
 
@@ -22,7 +22,7 @@ mysql_get_host_info — Повертає інформацію про з'єдна
 
 ### Опис
 
-**mysql_get_host_info**(resource `$link_identifier` u003d NULL):
+**mysql_get_host_info**(resource `$link_identifier` = NULL):
 string\|false
 
 Описує тип використовуваного з'єднання, вказаного переданим
@@ -49,7 +49,7 @@ string\|false
 
 **Приклад #1 Приклад використання **mysql_get_host_info()****
 
-` <?php$link u003d mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . Mysql_error());}printf("Т| : %s
+` <?php$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');if (!$link) {    die('Помилка з'єднання: ' . Mysql_error());}printf("Т| : %s
 ", mysql_get_host_info());?> `
 
 Результатом виконання цього прикладу буде щось подібне:

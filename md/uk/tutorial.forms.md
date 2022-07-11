@@ -15,10 +15,10 @@
 **Приклад #1 Найпростіша форма HTML**
 
 ```htmlcode
-<form actionu003d"action.php" methodu003d"post">
-<p>Ваше ім'я: <input typeu003d"text" nameu003d"name" /></p>
-<p>Ваш вік: <input typeu003d"text" nameu003d"age" /></p>
-<p><input typeu003d"submit" /></p>
+<form action="action.php" method="post">
+<p>Ваше ім'я: <input type="text" name="name" /></p>
+<p>Ваш вік: <input type="text" name="age" /></p>
+<p><input type="submit" /></p>
 </form>
 ````
 

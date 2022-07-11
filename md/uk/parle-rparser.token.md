@@ -7,7 +7,7 @@
 
 # Parle\RParser::token
 
-(PECL parle \>u003d 0.7.0)
+(PECL parle \>= 0.7.0)
 
 Parle\RParser::token — Оголошує токен
 

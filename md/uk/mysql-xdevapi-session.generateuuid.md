@@ -31,7 +31,7 @@ UUID; рядок завдовжки 32 символи.
 **Приклад #1 Приклад використання
 **mysql_xdevapi\Session::generateUuid()****
 
-` <?php$session u003d mysql_xdevapi\getSession("mysqlx://user:password@localhost");$uuid u003d $session->generateUuid();var_dump($uuid); `
+` <?php$session = mysql_xdevapi\getSession("mysqlx://user:password@localhost");$uuid = $session->generateUuid();var_dump($uuid); `
 
 Результатом виконання цього прикладу буде щось подібне:
 

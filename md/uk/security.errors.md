@@ -21,9 +21,9 @@
 **Приклад #1 Атака на змінні в HTML-сторінці**
 
 ```htmlcode
-<form methodu003d"post" actionu003d"attacktarget?usernameu003dbadfoo&passwordu003dbadfoo">
-<input typeu003d"hidden" nameu003d"username" valueu003d"badfoo" />
-<input typeu003d"hidden" nameu003d"password" valueu003d"badfoo" />
+<form method="post" action="attacktarget?username=badfoo&password=badfoo">
+<input type="hidden" name="username" value="badfoo" />
+<input type="hidden" name="password" value="badfoo" />
 </form>
 ````
 
@@ -44,10 +44,10 @@
 **Приклад #2 Використання стандартних змін налагодження**
 
 ```htmlcode
-<form methodu003d"post" actionu003d"attacktarget?errorsu003dY&showerrorsu003d1&debugu003d1">
-<input typeu003d"hidden" nameu003d"errors" valueu003d"Y" />
-<input typeu003d"hidden" nameu003d"showerrors" valueu003d"1" />
-<input typeu003d"hidden" nameu003d"debug" valueu003d"1" />
+<form method="post" action="attacktarget?errors=Y&showerrors=1&debug=1">
+<input type="hidden" name="errors" value="Y" />
+<input type="hidden" name="showerrors" value="1" />
+<input type="hidden" name="debug" value="1" />
 </form>
 ````
 
@@ -100,4 +100,4 @@
 
 **Приклад #3 Пошук потенційно небезпечних змінних за допомогою E_ALL**
 
-` <?phpif ($username) {  // Переменная не инициализируется или не проверяется перед использованием    $good_login u003d 1;}if ($good_login u003du003d 1) { // Если предыдущая проверка потерпела неудачу, переменная оказывается неинициализированной    readfile ("/highly /sensitive/data/index.md");}?> `
+` <?phpif ($username) {  // Переменная не инициализируется или не проверяется перед использованием    $good_login = 1;}if ($good_login == 1) { // Если предыдущая проверка потерпела неудачу, переменная оказывается неинициализированной    readfile ("/highly /sensitive/data/index.md");}?> `

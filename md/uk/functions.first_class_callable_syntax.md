@@ -22,7 +22,7 @@ Callback-функції як об'єкти першого класу предс�
 
 **Приклад #1 Простий приклад callback-функції як об'єкти першого класу**
 
-` <?phpclass Foo {   public function method() {}   public static function staticmethod() {}   public function __invoke() f|metu003du003d'$'; ;$staticmethodStr u003d 'staticmethod';$f1 u003d strlen(...);$f2 u003d $obj(...); // об'єкт, що викликається$f3 u003d $obj->method(...);$f4 u003d $obj->$methodStr(...);$f5 u003d Foo::staticmethod(...);$f6 u003d $ classStr::$staticmethodStr(...);// традиційна callback-функція з використанням рядки, масиву$f7 u003d 'strlen'(...);$f8 u003d [$obj, 'method'](...) ;$f9 u003d [Foo::class, 'staticmethod'](...);?> `
+` <?phpclass Foo {   public function method() {}   public static function staticmethod() {}   public function __invoke() f|met=='$'; ;$staticmethodStr = 'staticmethod';$f1 = strlen(...);$f2 = $obj(...); // об'єкт, що викликається$f3 = $obj->method(...);$f4 = $obj->$methodStr(...);$f5 = Foo::staticmethod(...);$f6 = $ classStr::$staticmethodStr(...);// традиційна callback-функція з використанням рядки, масиву$f7 = 'strlen'(...);$f8 = [$obj, 'method'](...) ;$f9 = [Foo::class, 'staticmethod'](...);?> `
 
 > **Примітка**:
 >
@@ -38,8 +38,8 @@ Callback-функції як об'єкти першого класу предс�
 традиційної callback-функції**
 
 ` <?phpclass Foo {    public function getPrivateMethod() {       return [$this, 'privateMethod']; }   private function privateMethod() {        echo __METHOD__, "
-";    }}$foo u003d new Foo;$privateMethod u003d $foo->getPrivateMethod();$privateMethod();// Fatal error: Call to private method Foo  вызов выполняется вне Foo, и с этого момента будет проверяться видимость.class Foo1 {    public function getPrivateMethod() {        // Использует область, в которой получена callback-функция.        return $this->privateMethod(...); // идентично Closure ::fromCallable([$this, 'privateMethod']);   }    private function privateMethod() {       echo __METHOD__, "
-";    }}$foo1 u003d new Foo1;$privateMethod u003d $foo1->getPrivateMethod();$privateMethod();  // Foo1::privateMethod?> `
+";    }}$foo = new Foo;$privateMethod = $foo->getPrivateMethod();$privateMethod();// Fatal error: Call to private method Foo  вызов выполняется вне Foo, и с этого момента будет проверяться видимость.class Foo1 {    public function getPrivateMethod() {        // Использует область, в которой получена callback-функция.        return $this->privateMethod(...); // идентично Closure ::fromCallable([$this, 'privateMethod']);   }    private function privateMethod() {       echo __METHOD__, "
+";    }}$foo1 = new Foo1;$privateMethod = $foo1->getPrivateMethod();$privateMethod();  // Foo1::privateMethod?> `
 
 > **Примітка**:
 >

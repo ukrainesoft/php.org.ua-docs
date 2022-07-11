@@ -7,7 +7,7 @@
 
 ## Використання простору імен: основи
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 До обговорення використання просторів імен важливо зрозуміти, як PHP
 дізнається, які елементи із простору імен запитуються у вашому коді.
@@ -27,7 +27,7 @@
 ім'я класу може бути вказано трьома способами:
 
 1. Неповні імена (імена класів без префіксу), такі як
-`$a u003d new foo();` або `foo::staticmethod();`. Якщо поточний
+`$a = new foo();` або `foo::staticmethod();`. Якщо поточний
 простір імен `currentnamespace`, то ці імена перетворюються на
 `currentnamespace oo`. Якщо код знаходиться у глобальному просторі
 імен, то імена залишаються такими ж: `foo`. Попередження: неповні
@@ -35,13 +35,13 @@
 просторі імен, якщо вони не визначені у поточному просторі
 імен. Докладніше в [Використання просторів імен: доступ до глобальних функцій та класів](language.namespaces.fallback.md).
 2. Повні імена (імена класів із префіксами), такі як
-`$a u003d new subnamespace oo();` або
+`$a = new subnamespace oo();` або
 `subnamespace oo::staticmethod();`. Якщо поточний простір імен
 `currentnamespace`, то ці імена перетворюються на
 `currentnamespace\subnamespace oo`. Якщо код знаходиться у глобальному
 просторі імен, то імена перетворюються на `subnamespace oo`.
 3. Абсолютні імена або імена із попереднім префіксом, що позначає
-глобальний простір. $a u003d new
+глобальний простір. $a = new
 
 так само, як і записані: `currentnamespace oo`.
 
@@ -49,11 +49,11 @@
 
 file1.php
 
-` <?phpnamespace Foo\Bar\subnamespace;const FOO u003d 1;function foo() {}class foo{    static function staticmethod() {}}?> `
+` <?phpnamespace Foo\Bar\subnamespace;const FOO = 1;function foo() {}class foo{    static function staticmethod() {}}?> `
 
 file2.php
 
-` <?phpnamespace Foo\Bar;include 'file1.php';const FOO u003d 2;function foo() {}class foo{    static function staticmethod() {}}/* Неповні імена| // визначається як функція Foo\Bar oofoo::staticmethod(); // визначається як клас Foo\Bar oo з методом?staticmethodecho FOO; // визначається як константа Foo\Bar\FOO/* Повні імена */subnamespace oo(); // визначається як функція Foo\Bar\subnamespace oosubnamespace oo::staticmethod(); // визначається як Класс Foo\Bar\subnamespace oo // визначається як константа Foo\Bar\subnamespace\FOO/* Абсолютні імена */\Foo\Bar oo(); // визначається як функція Foo\Bar oo\Foo\Bar oo::staticmethod(); // визначається як клас Foo\Bar oo з методом?staticmethodecho \Foo\Bar\FOO; // визначається як константа Foo\Bar\FOO?> `
+` <?phpnamespace Foo\Bar;include 'file1.php';const FOO = 2;function foo() {}class foo{    static function staticmethod() {}}/* Неповні імена| // визначається як функція Foo\Bar oofoo::staticmethod(); // визначається як клас Foo\Bar oo з методом?staticmethodecho FOO; // визначається як константа Foo\Bar\FOO/* Повні імена */subnamespace oo(); // визначається як функція Foo\Bar\subnamespace oosubnamespace oo::staticmethod(); // визначається як Класс Foo\Bar\subnamespace oo // визначається як константа Foo\Bar\subnamespace\FOO/* Абсолютні імена */\Foo\Bar oo(); // визначається як функція Foo\Bar oo\Foo\Bar oo::staticmethod(); // визначається як клас Foo\Bar oo з методом?staticmethodecho \Foo\Bar\FOO; // визначається як константа Foo\Bar\FOO?> `
 
 Зверніть увагу, що для доступу до будь-яких глобальних класів, функцій
 або константам, може використовуватися абсолютне ім'я, таке як
@@ -62,4 +62,4 @@ file2.php
 **Приклад #1 Доступ до глобальних класів, функцій та константів з
 простору імен**
 
-` <?phpnamespace Foo;function strlen() {}const INI_ALL u003d 3;class Exception {}$a u003d \strlen('hi'); // викликає глобальну функцію strlen$b u003d \INI_ALL; // отримує доступ до глобальної константі INI_ALL$c u003d new \Exception('error'); // Створює примірник глобального класу Exception?> `
+` <?phpnamespace Foo;function strlen() {}const INI_ALL = 3;class Exception {}$a = \strlen('hi'); // викликає глобальну функцію strlen$b = \INI_ALL; // отримує доступ до глобальної константі INI_ALL$c = new \Exception('error'); // Створює примірник глобального класу Exception?> `

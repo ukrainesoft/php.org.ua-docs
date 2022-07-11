@@ -5,15 +5,15 @@
 - [SolrQuery](class.solrquery.md)
 - Якщо true, результат першої команди групування полів використовується в
 як основний список результатів у відповіді з використанням
-group.formatu003dsimple
+group.format=simple
 
 # SolrQuery::setGroupMain
 
-(PECL solr \>u003d 2.2.0)
+(PECL solr \>= 2.2.0)
 
 SolrQuery::setGroupMain — Якщо true, результат першої команди
 групування полів використовується як основний список результатів в
-відповіді з використанням group.formatu003dsimple
+відповіді з використанням group.format=simple
 
 ### Опис
 
@@ -22,7 +22,7 @@ public **SolrQuery::setGroupMain**(string `$value`):
 
 Якщо **`true`**, результат першої команди групування полів використовується
 як основний список результатів у відповіді з використанням
-`group.formatu003dsimple`.
+`group.format=simple`.
 
 ### Список параметрів
 

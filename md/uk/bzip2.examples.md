@@ -12,5 +12,5 @@
 
 **Приклад #1 Приклад роботи з bzip2**
 
-;bzclose($bz);?> `` <?php$filename u003d "/tmp/testfile.bz2";$str u003d "This is a test string.
-";// відкриваємо файл для запису$bz u003d bzopen($filename, "w");// пишеморядок в файлbzwrite($bz, $str);// закриваємо файлbzclose(  $bz u003d bzopen($filename, "r");// читаємо 10 символівecho bzread($bz, 10);// виводимо все, до кінця| 
+;bzclose($bz);?> `` <?php$filename = "/tmp/testfile.bz2";$str = "This is a test string.
+";// відкриваємо файл для запису$bz = bzopen($filename, "w");// пишеморядок в файлbzwrite($bz, $str);// закриваємо файлbzclose(  $bz = bzopen($filename, "r");// читаємо 10 символівecho bzread($bz, 10);// виводимо все, до кінця| 

@@ -14,7 +14,7 @@ in_array — Перевіряє, чи є у масиві значення
 ### Опис
 
 **in_array**([mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$needle`, array `$haystack`, bool `$strict` u003d **`false`**): bool
+`$needle`, array `$haystack`, bool `$strict` = **`false`**): bool
 
 Шукає в `haystack` значення `needle`. Якщо `strict` не встановлений, то при
 пошуку буде використано не суворе порівняння.
@@ -45,7 +45,7 @@ in_array — Перевіряє, чи є у масиві значення
 
 **Приклад #1 Приклад використання **in_array()****
 
-` <?php$os u003d array("Mac", "NT", "Irix", "Linux");if (in_array("Irix", $os)) {   echo "Знайшов Irix";}if (in_array( "mac", $os)) {   echo "Знайшов mac";}?> `
+` <?php$os = array("Mac", "NT", "Irix", "Linux");if (in_array("Irix", $os)) {   echo "Знайшов Irix";}if (in_array( "mac", $os)) {   echo "Знайшов mac";}?> `
 
 Другого збігу не буде, тому що **in_array()** реєстрозалежна,
 таким чином, програма виведе:
@@ -54,7 +54,7 @@ in_array — Перевіряє, чи є у масиві значення
 
 **Приклад #2 Приклад використання **in_array()** з параметром strict**
 
-` <?php$a u003d array('1.10', 12.4, 1.13);if (in_array('12.4', $a, true)) {    echo "'12.4' знайдено|
+` <?php$a = array('1.10', 12.4, 1.13);if (in_array('12.4', $a, true)) {    echo "'12.4' знайдено|
 ";}if (in_array(1.13, $a, true)) {    echo "1.13 найдено зі строгою перевіркою
 ";}?> `
 
@@ -65,7 +65,7 @@ in_array — Перевіряє, чи є у масиві значення
 **Приклад #3 Приклад використання **in_array()** з масивом як
 параметра needle**
 
-` <?php$a u003d array(array('p', 'h'), array('p', 'r'), 'o');if (in_array(array('p', 'h')) , $a)) {   echo "'ph' найдено
+` <?php$a = array(array('p', 'h'), array('p', 'r'), 'o');if (in_array(array('p', 'h')) , $a)) {   echo "'ph' найдено
 ";}if(in_array(array('f', 'i'), $a)) {    echo "'fi' найдено
 ";}if (in_array('o', $a)) {   echo "'o' найдено
 ";}?> `

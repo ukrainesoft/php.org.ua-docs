@@ -7,7 +7,7 @@
 
 #ssh2_publickey_add
 
-(PECL ssh2 \>u003d 0.10)
+(PECL ssh2 \>= 0.10)
 
 ssh2_publickey_add — Додає авторизований відкритий ключ
 
@@ -17,8 +17,8 @@ ssh2_publickey_add — Додає авторизований відкритий 
 resource `$pkey`,
 string `$algoname`,
 string `$blob`,
-bool `$overwrite` u003d **`false`**,
-array `$attributes` u003d ?
+bool `$overwrite` = **`false`**,
+array `$attributes` = ?
 ): bool
 
 > **Примітка**: Підсистема відкритих ключів використовується для керування
@@ -59,7 +59,7 @@ array `$attributes` u003d ?
 
 **Приклад #1 Додаємо відкритий ключ за допомогою **ssh2_publickey_add()****
 
-` <?php$ssh2 u003d ssh2_connect('shell.example.com', 22);ssh2_auth_password($ssh2, 'jdoe', 'password');$pkey u003d ssh2_publickey_init($ssh2);$keyblob u003d base64_decode('AAAAB3NzaC1yc2EAAAABIwAAAIEA5HVt6VqSGd5PTrLRdjNONxXH1tVFGn0Bd26BF0aCP9qyJRlvdJ3j4WBeX4ZmrveGrjMgkseSYc4xZ26sDHwfL351xjzaLpipu \BGRrw17mWVBhuCExo476ri5tQFzbTc54VEHYckxQ16CjSTibI5X69GmnYC9PNqEYq/1TP+HF10u003d');ssh2_publickey_add($pkey, 'ssh-rsa', $keyblo''
+` <?php$ssh2 = ssh2_connect('shell.example.com', 22);ssh2_auth_password($ssh2, 'jdoe', 'password');$pkey = ssh2_publickey_init($ssh2);$keyblob = base64_decode('AAAAB3NzaC1yc2EAAAABIwAAAIEA5HVt6VqSGd5PTrLRdjNONxXH1tVFGn0Bd26BF0aCP9qyJRlvdJ3j4WBeX4ZmrveGrjMgkseSYc4xZ26sDHwfL351xjzaLpipu \BGRrw17mWVBhuCExo476ri5tQFzbTc54VEHYckxQ16CjSTibI5X69GmnYC9PNqEYq/1TP+HF10=');ssh2_publickey_add($pkey, 'ssh-rsa', $keyblo''
 
 ### Дивіться також
 

@@ -38,7 +38,7 @@ public [getFunction](reflectiongenerator.getfunction.md)():
 
 public [getThis](reflectiongenerator.getthis.md)(): ?object
 
-public [getTrace](reflectiongenerator.gettrace.md)(int `$options` u003d
+public [getTrace](reflectiongenerator.gettrace.md)(int `$options` =
 **`DEBUG_BACKTRACE_PROVIDE_OBJECT`**): array
 
 }
@@ -46,7 +46,7 @@ public [getTrace](reflectiongenerator.gettrace.md)(int `$options` u003d
 ## Список змін
 
 | Версія | Опис                             |
-| ------ | -------------------------------- |
+|--------|----------------------------------|
 | 8.0.0  | Клас тепер є остаточним (final). |
 
 ## Зміст

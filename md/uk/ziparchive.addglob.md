@@ -7,15 +7,15 @@
 
 # ZipArchive::addGlob
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8, PECL zip \>u003d 1.9.0)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8, PECL zip \>= 1.9.0)
 
 ZipArchive::addGlob — Додати файли з директорії відповідно до
 шаблоном
 
 ### Опис
 
-public **ZipArchive::addGlob**(string `$pattern`, int `$flags` u003d 0,
-array `$options` u003d []): array\|false
+public **ZipArchive::addGlob**(string `$pattern`, int `$flags` = 0,
+array `$options` = []): array\|false
 
 Додати файли з директорії відповідно до шаблону `pattern`.
 
@@ -84,7 +84,7 @@ array `$options` u003d []): array\|false
 ### Список змін
 
 | Версія       | Опис                                                                               |
-| ------------ | ---------------------------------------------------------------------------------- |
+|--------------|------------------------------------------------------------------------------------|
 | 8.0.0/1.18.0 | Доданий параметр flags' в options.                                                 |
 | 8.0.0/1.18.1 | Додані параметри 'comp_method', 'comp_flags', enc_method і enc_password в options. |
 
@@ -95,7 +95,7 @@ array `$options` u003d []): array\|false
 Додати до архіву всі текстові файли та файли скриптів PHP з поточної
 директорії
 
-` <?php$zip u003d new ZipArchive();$ret u003d $zip->open('application.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);if ($ret !u003du003d TRUE) { 'Помилка з кодом %d', $ret);} else {    $options u003d array('add_path' u003d> 'sources/', 'remove_all_path' u003d> TRUE); $zip->addGlob('*.{php,txt}', GLOB_BRACE, $options); $zip->close();}?> `
+` <?php$zip = new ZipArchive();$ret = $zip->open('application.zip', ZipArchive::CREATE | ZipArchive::OVERWRITE);if ($ret !== TRUE) { 'Помилка з кодом %d', $ret);} else {    $options = array('add_path' => 'sources/', 'remove_all_path' => TRUE); $zip->addGlob('*.{php,txt}', GLOB_BRACE, $options); $zip->close();}?> `
 
 ### Дивіться також
 

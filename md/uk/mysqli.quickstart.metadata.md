@@ -18,67 +18,67 @@
 
 **Приклад #1 Доступ до метаданих результуючої таблиці**
 
-` <?php$mysqli u003d new mysqli("example.com", "user", "password", "database");if ($mysqli->connect_errno) {    echo "Не удалося підключитися до| mysqli->connect_errno . ") " . $mysqli->connect_error;}$res u003d $mysqli->query("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");var_dump($res->fetch_fields());?> `
+` <?php$mysqli = new mysqli("example.com", "user", "password", "database");if ($mysqli->connect_errno) {    echo "Не удалося підключитися до| mysqli->connect_errno . ") " . $mysqli->connect_error;}$res = $mysqli->query("SELECT 1 AS _one, 'Hello' AS _two FROM DUAL");var_dump($res->fetch_fields());?> `
 
 Результат виконання цього прикладу:
 
 array(2) {
-[0]u003d>
+[0]=>
 object(stdClass)#3 (13) {
-["name"]u003d>
+["name"]=>
 string(4) "_one"
-["orgname"]u003d>
+["orgname"]=>
 string(0) ""
-["table"]u003d>
+["table"]=>
 string(0) ""
-["orgtable"]u003d>
+["orgtable"]=>
 string(0) ""
-["def"]u003d>
+["def"]=>
 string(0) ""
-["db"]u003d>
+["db"]=>
 string(0) ""
-["catalog"]u003d>
+["catalog"]=>
 string(3) "def"
-["max_length"]u003d>
+["max_length"]=>
 int(1)
-["length"]u003d>
+["length"]=>
 int(1)
-["charsetnr"]u003d>
+["charsetnr"]=>
 int(63)
-["flags"]u003d>
+["flags"]=>
 int(32897)
-["type"]u003d>
+["type"]=>
 int(8)
-["decimals"]u003d>
+["decimals"]=>
 int(0)
 }
-[1]u003d>
+[1]=>
 object(stdClass)#4 (13) {
-["name"]u003d>
+["name"]=>
 string(4) "_two"
-["orgname"]u003d>
+["orgname"]=>
 string(0) ""
-["table"]u003d>
+["table"]=>
 string(0) ""
-["orgtable"]u003d>
+["orgtable"]=>
 string(0) ""
-["def"]u003d>
+["def"]=>
 string(0) ""
-["db"]u003d>
+["db"]=>
 string(0) ""
-["catalog"]u003d>
+["catalog"]=>
 string(3) "def"
-["max_length"]u003d>
+["max_length"]=>
 int(5)
-["length"]u003d>
+["length"]=>
 int(5)
-["charsetnr"]u003d>
+["charsetnr"]=>
 int(8)
-["flags"]u003d>
+["flags"]=>
 int(1)
-["type"]u003d>
+["type"]=>
 int(253)
-["decimals"]u003d>
+["decimals"]=>
 int(31)
 }
 }
@@ -93,7 +93,7 @@ int(31)
 
 **Приклад #2 Метадані підготовлених запитів**
 
-` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("example.com", "user", "password", "database");$stmt u003d $mysql 'Hello' AS _two FROM DUAL");$stmt->execute();$result u003d $stmt->result_metadata();var_dump($result->fetch_fields()); `
+` <?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli = new mysqli("example.com", "user", "password", "database");$stmt = $mysql 'Hello' AS _two FROM DUAL");$stmt->execute();$result = $stmt->result_metadata();var_dump($result->fetch_fields()); `
 
 *Дивіться також*
 

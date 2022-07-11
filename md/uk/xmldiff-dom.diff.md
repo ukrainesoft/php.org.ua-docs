@@ -7,7 +7,7 @@
 
 # XMLDiff\DOM::diff
 
-(PECL xmldiff \>u003d 0.8.0)
+(PECL xmldiff \>= 0.8.0)
 
 XMLDiff\DOM::diff — Пошук відмінностей у двох об'єктах DOMDocument
 

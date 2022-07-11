@@ -7,14 +7,14 @@
 
 # DateTime::\_\_construct
 
-(PHP 5 \>u003d 5.2.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.2.0, PHP 7, PHP 8)
 
 DateTime::\_\_construct - Конструктор класу DateTime
 
 ### Опис
 
-public **DateTime::\_\_construct**(string `$datetime` u003d "now",
-?[DateTimeZone](class.datetimezone.md) `$timezone` u003d **`null`**)
+public **DateTime::\_\_construct**(string `$datetime` = "now",
+?[DateTimeZone](class.datetimezone.md) `$timezone` = **`null`**)
 
 Подібний конструктору
 [DateTimeImmutable::\_\_construct()](datetimeimmutable.construct.md),

@@ -23,4 +23,4 @@
 
 **Приклад #1 Синтаксис атрибутів**
 
-` <?php// a.phpnamespace MyExample;use Attribute;#[Attribute]class MyAttribute{   const VALUE u003d 'value'; private$value; public function __construct($value u003d null)    {        $this->value u003d $value; }}// b.phpnamespace Another;use MyExample\MyAttribute;#[MyAttribute]#[\MyExample\MyAttribute]#[MyAttribute(1234)]#[MyAttribute(value: 1234)]#[My ]#[MyAttribute(array("key" u003d> "value"))]#[MyAttribute(100 + 200)]class Thing{}#[MyAttribute(1234), MyAttribute(5678)]class Another
+` <?php// a.phpnamespace MyExample;use Attribute;#[Attribute]class MyAttribute{   const VALUE = 'value'; private$value; public function __construct($value = null)    {        $this->value = $value; }}// b.phpnamespace Another;use MyExample\MyAttribute;#[MyAttribute]#[\MyExample\MyAttribute]#[MyAttribute(1234)]#[MyAttribute(value: 1234)]#[My ]#[MyAttribute(array("key" => "value"))]#[MyAttribute(100 + 200)]class Thing{}#[MyAttribute(1234), MyAttribute(5678)]class Another

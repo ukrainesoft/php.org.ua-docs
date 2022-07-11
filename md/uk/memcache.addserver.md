@@ -7,7 +7,7 @@
 
 # Memcache::addServer
 
-(PECL memcache \>u003d 2.0.0)
+(PECL memcache \>= 2.0.0)
 
 Memcache::addServer — Додає сервер memcached у пул з'єднань
 
@@ -15,14 +15,14 @@ Memcache::addServer — Додає сервер memcached у пул з'єдна�
 
 **Memcache::addServer**(
 string `$host`,
-int `$port` u003d 11211,
-bool `$persistent` u003d ?,
-int `$weight` u003d ?,
-int `$timeout` u003d ?,
-int `$retry_interval` u003d ?,
-bool `$status` u003d ?,
-[callable](language.types.callable.md) `$failure_callback` u003d ?,
-int `$timeoutms` u003d ?
+int `$port` = 11211,
+bool `$persistent` = ?,
+int `$weight` = ?,
+int `$timeout` = ?,
+int `$retry_interval` = ?,
+bool `$status` = ?,
+[callable](language.types.callable.md) `$failure_callback` = ?,
+int `$timeoutms` = ?
 ): bool
 
 **Memcache::addServer()** додає сервер до пулу з'єднань. Ви також
@@ -119,7 +119,7 @@ Unix, але в такому випадку необхідно встанови�
 
 **Приклад #1 Приклад використання **Memcache::addServer()****
 
-`<?php/* об'єктно-орієнтоване API */$memcache u003d new Memcache;$memcache->addServer('memcache_host', 11211);$memcache->addServer('memcache_host2'  $memcache_obju003dmemcache_connect('memcache_host', 11211);memcache_add_server($memcache_obj, 'memcache_host2', 11211);?> `
+`<?php/* об'єктно-орієнтоване API */$memcache = new Memcache;$memcache->addServer('memcache_host', 11211);$memcache->addServer('memcache_host2'  $memcache_obj=memcache_connect('memcache_host', 11211);memcache_add_server($memcache_obj, 'memcache_host2', 11211);?> `
 
 ### Примітки
 

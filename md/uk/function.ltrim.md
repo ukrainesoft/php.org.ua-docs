@@ -49,8 +49,8 @@ string
 
 **Приклад #1 =ад використання **ltrim()****===
 =====
-` <?php$text u003d " These are a few words :) ...  ";$binary u003d "\x09Example string\x0A";$hello u003du003d""Hello World";var_dump($text, $ ;print "
-";$trimmedu003du003dltrim($text);var_dump($trimmed);$trimmed u003d ltrim($text, "  .");var_dump($trimmed);$trimmed u003d ltrim($hello, "Hdle");var_dump ($trimmed);// удаляємо керуючі ASCII-символи початку $binary// (від 0 до 31 включно)$clean u003d ltrim($binary, "\x00..\x1F"); > `
+` <?php$text = " These are a few words :) ...  ";$binary = "\x09Example string\x0A";$hello ==""Hello World";var_dump($text, $ ;print "
+";$trimmed==ltrim($text);var_dump($trimmed);$trimmed = ltrim($text, "  .");var_dump($trimmed);$trimmed = ltrim($hello, "Hdle");var_dump ($trimmed);// удаляємо керуючі ASCII-символи початку $binary// (від 0 до 31 включно)$clean = ltrim($binary, "\x00..\x1F"); > `
 
 Результат виконання цього прикладу:
 

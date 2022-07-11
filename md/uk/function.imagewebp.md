@@ -7,14 +7,14 @@
 
 #imagewebp
 
-(PHP 5 \>u003d 5.4.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.4.0, PHP 7, PHP 8)
 
 imagewebp — Виведення зображення WebP у браузер або файл
 
 ### Опис
 
 **imagewebp**([GdImage](class.gdimage.md) `$image`,
-resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
+resource\|string\|null `$file` = **`null`**, int `$quality` = -1): bool
 
 Виведе або збереже WebP-версію цього зображення (`image`).
 
@@ -48,11 +48,11 @@ resource\|string\|null `$file` u003d **`null`**, int `$quality` u003d -1): bool
 ### Список змін
 
 | Версія | Опис                                                                                         |
-| ------ | -------------------------------------------------------------------------------------------- |
+|--------|----------------------------------------------------------------------------------------------|
 | 8.0.0  | image тепер чекає екземпляр [GdImage](class.gdimage.md); раніше очікували ресурс (resource). |
 
 ### Приклади
 
 **Приклад #1 Збереження WebP-файлу**
 
-`<?php// Створити пусте зображення і додати текст$im u003d imagecreatetruecolor(120, 20);$text_color u003d imagecolorallocate($im, 233, 14, 91); string with PHP', $text_color);// Зберегти зображенняimagewebp($im, 'php.webp');// Звільнити пам'ятьimagedestroy($im);?> `
+`<?php// Створити пусте зображення і додати текст$im = imagecreatetruecolor(120, 20);$text_color = imagecolorallocate($im, 233, 14, 91); string with PHP', $text_color);// Зберегти зображенняimagewebp($im, 'php.webp');// Звільнити пам'ятьimagedestroy($im);?> `

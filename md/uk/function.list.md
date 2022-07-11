@@ -16,7 +16,7 @@ list — Надає змінним зі списку значення подіб
 **list**([mixed](language.types.declarations.md#language.types.declarations.mixed)
 `$var`,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`...$vars` u003d ?): array
+`...$vars` = ?): array
 
 Подібно до [array()](function.array.md), це не функція, а мовна
 конструкція. **list()** використовується для того, щоб присвоїти списку
@@ -45,7 +45,7 @@ list — Надає змінним зі списку значення подіб
 ### Список змін
 
 | Версія | Опис                                                                                                                      |
-| ------ | ------------------------------------------------------------------------------------------------------------------------- |
+|--------|---------------------------------------------------------------------------------------------------------------------------|
 | 7.3.0  | Додано підтримку присвоєння за посиланнями при деструктуруванні масиву.                                                   |
 | 7.1.0  | Тепер можна задавати ключі **list()**. Це дозволяє розіменовувати асоціативні масиви та масиви з індексами не по порядку. |
 
@@ -53,19 +53,19 @@ list — Надає змінним зі списку значення подіб
 
 **Приклад #1 Приклади використання **list()****
 
-` <?php$info u003d array('кава', 'коричневий', 'кофеїн');// Скласти список всіх зміннихlist($drink, $color, $power) u003d $info;echo "$drink - $or, а $power робить його особливим.
-";// Скласти список тільки деяких з ніхlist($drink, , $power) u003d $info;echo "У $drink є $power.
-";// Або пропустити все, крім третійlist( , , $power) u003d $info;echo "Мені потрібний $power!
-";// list() не працює з рядкамиlist($bar) u003d "abcde";var_dump($bar); // NULL?> `
+` <?php$info = array('кава', 'коричневий', 'кофеїн');// Скласти список всіх зміннихlist($drink, $color, $power) = $info;echo "$drink - $or, а $power робить його особливим.
+";// Скласти список тільки деяких з ніхlist($drink, , $power) = $info;echo "У $drink є $power.
+";// Або пропустити все, крім третійlist( , , $power) = $info;echo "Мені потрібний $power!
+";// list() не працює з рядкамиlist($bar) = "abcde";var_dump($bar); // NULL?> `
 
 **Приклад #2 Приклад використання **list()****
 
-` <?php$result u003d $pdo->query("SELECT id, name FROM employees");while (list($id, $name) u003d $result->fetch(PDO::FETCH_NUM)) {    ech : $id, name: $name
+` <?php$result = $pdo->query("SELECT id, name FROM employees");while (list($id, $name) = $result->fetch(PDO::FETCH_NUM)) {    ech : $id, name: $name
 ";}?> `
 
 **Приклад #3 Використання **list()** з індексами масивів**
 
-` <?phplist($a, list($b, $c)) u003d array(1, array(2, 3));var_dump($a, $b, $c);?> `
+` <?phplist($a, list($b, $c)) = array(1, array(2, 3));var_dump($a, $b, $c);?> `
 
 int(1)
 int(2)
@@ -76,19 +76,19 @@ int(3)
 Порядок, у якому індекси масиву використовуватимуться функцією
 **list()**, не має значення.
 
-` <?php$foo u003d array(2 u003d> 'a', 'foo' u003d> 'b', 0 u003d> 'c');$foo[1] u003d 'd';list($x, $y , $z) u003d $foo;var_dump($foo, $x, $y, $z); `
+` <?php$foo = array(2 => 'a', 'foo' => 'b', 0 => 'c');$foo[1] = 'd';list($x, $y , $z) = $foo;var_dump($foo, $x, $y, $z); `
 
 Здійснює такий висновок (зверніть увагу, на порядок, у якому
 елементи були перераховані в синтаксисі **list()** і порядок виведення):
 
 array(4) {
-[2]u003d>
+[2]=>
 string(1) "a"
-["foo"]u003d>
+["foo"]=>
 string(1) "b"
-[0]u003d>
+[0]=>
 string(1) "c"
-[1]u003d>
+[1]=>
 string(1) "d"
 }
 string(1) "c"
@@ -102,8 +102,8 @@ string(1) "a"
 рядкові та числові ключі. Однак елементи з ключами та без ключів не
 можуть бути використані одночасно.
 
-` <?php$data u003du003d [    ["id" u003d> 1, "name" u003d> 'Tom'],    ["id" u003d> 2, "name" u003d> 'Fred'],];foreach ($da as ["id" u003d> $id, "name" u003d> $name]) {    echo "id: $id, name: $name
-";}echo PHP_EOL;list(1 u003d> $second, 3 u003d> $fourth) u003d [1, 2, 3, 4];echo "$second, $fourth
+` <?php$data == [    ["id" => 1, "name" => 'Tom'],    ["id" => 2, "name" => 'Fred'],];foreach ($da as ["id" => $id, "name" => $name]) {    echo "id: $id, name: $name
+";}echo PHP_EOL;list(1 => $second, 3 => $fourth) = [1, 2, 3, 4];echo "$second, $fourth
 ";
 
 Результат виконання цього прикладу:

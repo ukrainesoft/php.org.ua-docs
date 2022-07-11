@@ -7,7 +7,7 @@
 
 #ssdeep_fuzzy_compare
 
-(PECL ssdeep \>u003d 1.0.0)
+(PECL ssdeep \>= 1.0.0)
 
 ssdeep_fuzzy_compare - Обчислює схожість двох сигнатур нечітких хешей
 

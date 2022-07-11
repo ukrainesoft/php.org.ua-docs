@@ -7,7 +7,7 @@
 
 # Клас MongoDB\Driver\Cursor
 
-(mongodb \>u003d1.0.0)
+(mongodb \>=1.0.0)
 
 ## Вступ
 
@@ -56,7 +56,7 @@ public [valid](mongodb-driver-cursor.valid.md)(): bool
 ## Список змін
 
 | Версія                                                                                                                                                      | Опис                                    |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | PECL mongodb 1.9.0                                                                                                                                          | Реалізує [Iterator](class.iterator.md). |
 | PECL mongodb 1.6.0 Реалізує [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md), який успадковує [Traversable](class.traversable.md). |                                         |
 
@@ -74,31 +74,31 @@ public [valid](mongodb-driver-cursor.valid.md)(): bool
 [Traversable](class.traversable.md), можна ітерувати за набором
 результату за допомогою [foreach](control-structures.foreach.md).
 
-` <?php$manager u003d new MongoDB\Driver\Manager();/* Вставити визначені документи, наш наше запит вернув результати */$bulkWrite u003d new MongoDB\Driver'Bul > 'Ceres', 'size' u003d> 946, 'distance' u003d> 2.766]);$bulkWrite->insert(['name' u003d> 'Vesta', 'size' u003d> 525, 'distance' > ]);$manager->executeBulkWrite("test.asteroids", $bulkWrite);/* Запрос на отримання всіх елементів в колекції */$query u003d new MongoDB\Driver\Query( [ " бази даних "test" */$cursor u003d $manager->executeQuery("test.asteroids", $query);/* Тепер $cursor містить об'єкт, обгорнутий навколо набору з . Використовуйте * foreach() для ітеації по всьому результату */foreach ($cursor as $document) {    print_r($document);}?> `
+` <?php$manager = new MongoDB\Driver\Manager();/* Вставити визначені документи, наш наше запит вернув результати */$bulkWrite = new MongoDB\Driver'Bul > 'Ceres', 'size' => 946, 'distance' => 2.766]);$bulkWrite->insert(['name' => 'Vesta', 'size' => 525, 'distance' > ]);$manager->executeBulkWrite("test.asteroids", $bulkWrite);/* Запрос на отримання всіх елементів в колекції */$query = new MongoDB\Driver\Query( [ " бази даних "test" */$cursor = $manager->executeQuery("test.asteroids", $query);/* Тепер $cursor містить об'єкт, обгорнутий навколо набору з . Використовуйте * foreach() для ітеації по всьому результату */foreach ($cursor as $document) {    print_r($document);}?> `
 
 Результатом виконання цього прикладу буде щось подібне:
 
 stdClass Object
 (
-[_id] u003d> MongoDB\BSON\ObjectId Object
+[_id] => MongoDB\BSON\ObjectId Object
 (
-[oid] u003d> 5a4cff2f122d3321565d8cc2
+[oid] => 5a4cff2f122d3321565d8cc2
 )
 
-[name] u003d> Ceres
-[size] u003d> 946
-[distance] u003d> 2.766
+[name] => Ceres
+[size] => 946
+[distance] => 2.766
 )
 stdClass Object
 (
-[_id] u003d> MongoDB\BSON\ObjectId Object
+[_id] => MongoDB\BSON\ObjectId Object
 (
-[oid] u003d> 5a4cff2f122d3321565d8cc3
+[oid] => 5a4cff2f122d3321565d8cc3
 )
 
-[name] u003d> Vesta
-[size] u003d> 525
-[distance] u003d> 2.362
+[name] => Vesta
+[size] => 525
+[distance] => 2.362
 }
 
 **Приклад #2 Читання набору результатів для хвостового курсору**
@@ -131,7 +131,7 @@ stdClass Object
 [» create](https://www.mongodb.com/docs/manual/reference/command/create)
 і почне вставляти новий документ у цю колекцію кожну секунду.
 
-`<?php$manager u003d new MongoDB\Driver\Manager;$manager->executeCommand('test', new MongoDB\Driver\Command([   'create' u003d> 'asteroids',   ' 'capped ' u003d> 1048576,]));while (true) {    $bulkWrite u003d new MongoDB\Driver\BulkWrite; $bulkWrite->insert(['createdAt' u003d> new MongoDB\BSON\UTCDateTime]); $manager->executeBulkWrite('test.asteroids', $bulkWrite); sleep(1);}?> `
+`<?php$manager = new MongoDB\Driver\Manager;$manager->executeCommand('test', new MongoDB\Driver\Command([   'create' => 'asteroids',   ' 'capped ' => 1048576,]));while (true) {    $bulkWrite = new MongoDB\Driver\BulkWrite; $bulkWrite->insert(['createdAt' => new MongoDB\BSON\UTCDateTime]); $manager->executeBulkWrite('test.asteroids', $bulkWrite); sleep(1);}?> `
 
 Коли скрипт продюсера (producer) все ще запущено, може бути виконано
 другий скрипт для читання вставлених документів з
@@ -139,7 +139,7 @@ stdClass Object
 `tailable` та `awaitData` для
 [MongoDB\Driver\Query::\_\_construct()](mongodb-driver-query.construct.md).
 
-` <?php$manager u003d new MongoDB\Driver\Manager;$query u003d new MongoDB\Driver\Query([], [    'tailable' u003d> true,    'awaitData' u003d> $$ | ->executeQuery('test.asteroids', $query); u003d $iterator->current(); printf("Користувачський документ створений: %s
+` <?php$manager = new MongoDB\Driver\Manager;$query = new MongoDB\Driver\Query([], [    'tailable' => true,    'awaitData' => $$ | ->executeQuery('test.asteroids', $query); = $iterator->current(); printf("Користувачський документ створений: %s
 ", $document->createdAt);    }}   $iterator->next();}?> `
 
 Скрипт користувача почне з швидкого друку всіх доступних

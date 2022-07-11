@@ -7,13 +7,13 @@
 
 # Gmagick::normalizeimage
 
-(PECL gmagick \>u003d Unknown)
+(PECL gmagick \>= Unknown)
 
 Gmagick::normalizeimage — Підвищує контрастність кольорового зображення
 
 ### Опис
 
-public **Gmagick::normalizeimage**(int `$channel` u003d ?):
+public **Gmagick::normalizeimage**(int `$channel` = ?):
 [Gmagick](class.gmagick.md)
 
 Підвищує контрастність кольорового зображення, регулюючи колір пікселів

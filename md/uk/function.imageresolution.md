@@ -7,14 +7,14 @@
 
 #imageresolution
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 imageresolution — Отримати або встановити роздільну здатність зображення
 
 ### Опис
 
 **imageresolution**([GdImage](class.gdimage.md) `$image`, ?int
-`$resolution_x` u003d **`null`**, ?int `$resolution_y` u003d **`null`**):
+`$resolution_x` = **`null`**, ?int `$resolution_y` = **`null`**):
 array\|bool
 
 **imageresolution()** дозволяє встановити та отримати дозвіл
@@ -56,24 +56,24 @@ array\|bool
 ### Список змін
 
 | Версія | Опис                                                         |
-| ------ | ------------------------------------------------------------ |
+|--------|--------------------------------------------------------------|
 | 8.0.0  | resolution_x та resolution_y тепер допускають значення null. |
 
 ### Приклади
 
 **Приклад #1 Встановлення та отримання роздільної здатності зображення**
 
-`<?php$im u003d imagecreatetruecolor(100, 100);imageresolution($im, 200);print_r(imageresolution($im));imageresolution($im, 300, 72);print_r(imageresolution($im)); ?> `
+`<?php$im = imagecreatetruecolor(100, 100);imageresolution($im, 200);print_r(imageresolution($im));imageresolution($im, 300, 72);print_r(imageresolution($im)); ?> `
 
 Результат виконання цього прикладу:
 
 Array
 (
-[0] u003d> 200
-[1] u003d> 200
+[0] => 200
+[1] => 200
 )
 Array
 (
-[0] u003d> 300
-[1] u003d> 72
+[0] => 300
+[1] => 72
 )

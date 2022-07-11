@@ -7,7 +7,7 @@
 
 #pcntl_sigtimedwait
 
-(PHP 5 \>u003d 5.3.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.3.0, PHP 7, PHP 8)
 
 pcntl_sigtimedwait — Очікує сигнали протягом заданого часу
 
@@ -15,9 +15,9 @@ pcntl_sigtimedwait — Очікує сигнали протягом задано
 
 **pcntl_sigtimedwait**(
 array `$signals`,
-array `&$info` u003d [],
-int `$seconds` u003d 0,
-int `$nanoseconds` u003d 0
+array `&$info` = [],
+int `$seconds` = 0,
+int `$nanoseconds` = 0
 ): int\|false
 
 Функція **pcntl_sigtimedwait()** поводиться так само як і функція

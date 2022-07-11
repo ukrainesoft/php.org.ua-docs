@@ -7,13 +7,13 @@
 
 #posix_access
 
-(PHP 5 \>u003d 5.1.0, PHP 7, PHP 8)
+(PHP 5 \>= 5.1.0, PHP 7, PHP 8)
 
 posix_access — Визначає доступність файлу
 
 ### Опис
 
-**posix_access**(string `$filename`, int `$flags` u003d 0): bool
+**posix_access**(string `$filename`, int `$flags` = 0): bool
 
 Функція **posix_access()** перевіряє права користувача доступу до
 файлу.
@@ -43,7 +43,7 @@ posix_access — Визначає доступність файлу
 У цьому прикладі перевіряється доступність файлу на читання та запис,
 в іншому випадку виводиться повідомлення про помилку.
 
-` <?php$file u003d 'some_file';if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {    echo 'Файл доступний на читання і запис!';  echo "Error $error: " . posix_strerror($error);}?> `
+` <?php$file = 'some_file';if (posix_access($file, POSIX_R_OK | POSIX_W_OK)) {    echo 'Файл доступний на читання і запис!';  echo "Error $error: " . posix_strerror($error);}?> `
 
 ### Примітки
 

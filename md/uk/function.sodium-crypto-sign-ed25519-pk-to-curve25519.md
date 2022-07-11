@@ -8,7 +8,7 @@ Curve25519
 
 # sodium_crypto_sign_ed25519_pk_to_curve25519
 
-(PHP 7 \>u003d 7.2.0, PHP 8)
+(PHP 7 \>= 7.2.0, PHP 8)
 
 sodium_crypto_sign_ed25519_pk_to_curve25519 — Перетворення відкритого
 ключа системи Ed25519 у відкритий ключ Curve25519

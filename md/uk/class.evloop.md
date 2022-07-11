@@ -7,7 +7,7 @@
 
 # Клас EvLoop
 
-(PECL ev \>u003d 0.2.0)
+(PECL ev \>= 0.2.0)
 
 ## Вступ
 
@@ -47,53 +47,53 @@ public `$ depth`;
 /\* Методи \*/
 
 public [\_\_construct](evloop.construct.md)(
-int `$flags` u003d ?,
+int `$flags` = ?,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d NULL ,
-float `$io_interval` u003d 0.0 ,
-float `$timeout_interval` u003d 0.0
+`$data` = NULL ,
+float `$io_interval` = 0.0 ,
+float `$timeout_interval` = 0.0
 )
 
 public [backend](evloop.backend.md)(): int
 
 final public [check](evloop.check.md)( string `$callback` , string
-`$data` u003d ?, string `$priority` u003d ?): [EvCheck](class.evcheck.md)
+`$data` = ?, string `$priority` = ?): [EvCheck](class.evcheck.md)
 
 final public [child](evloop.child.md)(
 string `$pid` ,
 string `$trace` ,
 string `$callback`,
-string `$data` u003d ?,
-string `$priority` u003d ?
+string `$data` = ?,
+string `$priority` = ?
 ): [EvChild](class.evchild.md)
 
 public static [defaultLoop](evloop.defaultloop.md)(
-int `$flags` u003d Ev::FLAG_AUTO ,
+int `$flags` = Ev::FLAG_AUTO ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d NULL ,
-float `$io_interval` u003d 0. ,
-float `$timeout_interval` u003d 0.
+`$data` = NULL ,
+float `$io_interval` = 0. ,
+float `$timeout_interval` = 0.
 ): [EvLoop](class.evloop.md)
 
 final public [embed](evloop.embed.md)(
 string `$other` ,
-string `$callback` u003d ?,
-string `$data` u003d ?,
-string `$priority` u003d ?
+string `$callback` = ?,
+string `$data` = ?,
+string `$priority` = ?
 ): [EvEmbed](class.evembed.md)
 
 final public [fork](evloop.fork.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvFork](class.evfork.md)
 
 final public [idle](evloop.idle.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvIdle](class.evidle.md)
 
 public [invokePending](evloop.invokepending.md)(): void
@@ -106,8 +106,8 @@ int `$events` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvIo](class.evio.md)
 
 public [loopFork](evloop.loopfork.md)(): void
@@ -122,27 +122,27 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvPeriodic](class.evperiodic.md)
 
 final public [prepare](evloop.prepare.md)(
 [callable](language.types.callable.md) `$callback` ,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** , int `$priority` u003d 0 ):
+`$data` = **`null`** , int `$priority` = 0 ):
 [EvPrepare](class.evprepare.md)
 
 public [resume](evloop.resume.md)(): void
 
-public [run](evloop.run.md)( int `$flags` u003d 0 ): void
+public [run](evloop.run.md)( int `$flags` = 0 ): void
 
 final public [signal](evloop.signal.md)(
 int `$signum` ,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvSignal](class.evsignal.md)
 
 final public [stat](evloop.stat.md)(
@@ -151,11 +151,11 @@ float `$interval`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvStat](class.evstat.md)
 
-public [stop](evloop.stop.md)( int `$how` u003d ?): void
+public [stop](evloop.stop.md)( int `$how` = ?): void
 
 public [suspend](evloop.suspend.md)(): void
 
@@ -165,8 +165,8 @@ float `$repeat`,
 [callable](language.types.callable.md) `$callback` ,
 
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$data` u003d **`null`** ,
-int `$priority` u003d 0
+`$data` = **`null`** ,
+int `$priority` = 0
 ): [EvTimer](class.evtimer.md)
 
 public [verify](evloop.verify.md)(): void

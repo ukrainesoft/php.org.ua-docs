@@ -7,7 +7,7 @@
 
 # EventHttpConnection::setMaxBodySize
 
-(PECL event \>u003d 1.2.6-beta)
+(PECL event \>= 1.2.6-beta)
 
 EventHttpConnection::setMaxBodySize — Встановлює максимальний розмір
 тіла для підключення

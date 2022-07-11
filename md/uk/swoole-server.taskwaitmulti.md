@@ -7,14 +7,14 @@
 
 # Swoole\Server::taskWaitMulti
 
-(PECL swoole \>u003d 1.9.0)
+(PECL swoole \>= 1.9.0)
 
 Swoole\Server::taskWaitMulti — Виконує кілька завдань одночасно
 
 ### Опис
 
 public **Swoole\Server::taskWaitMulti**(array `$tasks`, double
-`$timeout_ms` u003d ?): void
+`$timeout_ms` = ?): void
 
 ### Список параметрів
 

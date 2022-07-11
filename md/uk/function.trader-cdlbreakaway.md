@@ -1,6 +1,5 @@
 - [« trader_cdlbelthold](function.trader-cdlbelthold.md)
-- [trader_cdlclosingmarubozu
-»](function.trader-cdlclosingmarubozu.md)
+- [trader_cdlclosingmarubozu »](function.trader-cdlclosingmarubozu.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

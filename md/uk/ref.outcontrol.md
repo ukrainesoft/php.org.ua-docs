@@ -1,6 +1,5 @@
-- [« Використання перезапису
-виводу](outcontrol.examples.rewrite.md)
-- [flush »] (function.flush.md)
+- [« Використання перезапису виводу](outcontrol.examples.rewrite.md)
+- [flush »](function.flush.md)
 
 - [PHP Manual](index.md)
 - [Контроль виведення](book.outcontrol.md)

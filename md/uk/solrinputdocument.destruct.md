@@ -1,7 +1,5 @@
-- [«
-SolrInputDocument::deleteField](solrinputdocument.deletefield.md)
-- [SolrInputDocument::fieldExists
-»](solrinputdocument.fieldexists.md)
+- [« SolrInputDocument::deleteField](solrinputdocument.deletefield.md)
+- [SolrInputDocument::fieldExists »](solrinputdocument.fieldexists.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)
-- [MongoDB\BSON\MinKey::unserialize
-»](mongodb-bson-minkey.unserialize.md)
+- [« MongoDB\BSON\MinKey::jsonSerialize](mongodb-bson-minkey.jsonserialize.md)
+- [MongoDB\BSON\MinKey::unserialize »](mongodb-bson-minkey.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)

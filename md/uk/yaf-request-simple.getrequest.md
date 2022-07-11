@@ -1,6 +1,5 @@
 - [« Yaf_Request_Simple::getQuery](yaf-request-simple.getquery.md)
-- [Yaf_Request_Simple::isXmlHttpRequest
-»](yaf-request-simple.isxmlhttprequest.md)
+- [Yaf_Request_Simple::isXmlHttpRequest »](yaf-request-simple.isxmlhttprequest.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Simple](class.yaf-request-simple.md)

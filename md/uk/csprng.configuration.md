@@ -1,5 +1,5 @@
 - [« Установка](csprng.installation.md)
-- [Типи ресурсів»] (csprng.resources.md)
+- [Типи ресурсів»](csprng.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](csprng.setup.md)

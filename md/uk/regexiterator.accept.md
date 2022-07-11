@@ -47,7 +47,6 @@ David
 
 ### Дивіться також
 
-- [Константи
-RegexIterator](class.regexiterator.md#regexiterator.constants)
+- [Константи RegexIterator](class.regexiterator.md#regexiterator.constants)
 - [RegexIterator::setFlags()](regexiterator.setflags.md) - Установка
 прапорів

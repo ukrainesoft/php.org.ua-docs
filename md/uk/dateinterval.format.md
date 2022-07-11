@@ -1,5 +1,4 @@
-- [«
-DateInterval::createFromDateString](dateinterval.createfromdatestring.md)
+- [« DateInterval::createFromDateString](dateinterval.createfromdatestring.md)
 - [DatePeriod »](class.dateperiod.md)
 
 - [PHP Manual](index.md)

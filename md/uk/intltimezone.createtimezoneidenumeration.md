@@ -1,6 +1,5 @@
 - [« IntlTimeZone::createTimeZone](intltimezone.createtimezone.md)
-- [IntlTimeZone::fromDateTimeZone
-»](intltimezone.fromdatetimezone.md)
+- [IntlTimeZone::fromDateTimeZone »](intltimezone.fromdatetimezone.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

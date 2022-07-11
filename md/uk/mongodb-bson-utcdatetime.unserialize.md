@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\UTCDateTime::\_\_toString](mongodb-bson-utcdatetime.tostring.md)
+- [« MongoDB\BSON\UTCDateTime::\_\_toString](mongodb-bson-utcdatetime.tostring.md)
 - [MongoDB\BSON\Type »](class.mongodb-bson-type.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md)
+- [« ResourceBundle::getErrorMessage](resourcebundle.geterrormessage.md)
 - [ResourceBundle::getLocales »](resourcebundle.locales.md)
 
 - [PHP Manual](index.md)

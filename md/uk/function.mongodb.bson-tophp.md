@@ -1,6 +1,5 @@
 - [«MongoDB\BSON oJSON](function.mongodb.bson-tojson.md)
-- [MongoDB\BSON oRelaxedExtendedJSON
-»](function.mongodb.bson-torelaxedextendedjson.md)
+- [MongoDB\BSON oRelaxedExtendedJSON »](function.mongodb.bson-torelaxedextendedjson.md)
 
 - [PHP Manual](index.md)
 - [Функції](ref.bson.functions.md)
@@ -38,8 +37,7 @@ PHP. Параметр `typeMap` може використовуватись дл
 Значення BSON для десеріалізації.
 
 `typeMap` (array)
-[Конфігурація картки
-типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps).
+[Конфігурація картки типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps).
 
 ### Значення, що повертаються
 
@@ -83,6 +81,5 @@ int(1)
 
 - [MongoDB\BSON romPHP()](function.mongodb.bson-fromphp.md) -
 Повертає уявлення BSON значення PHP
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 - [Постійні дані](mongodb.persistence.md)

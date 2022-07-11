@@ -1,5 +1,4 @@
-- [«
-FFI\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.md)
+- [« FFI\CType::getStructFieldNames](ffi-ctype.getstructfieldnames.md)
 - [FFI\CType::getStructFieldType »](ffi-ctype.getstructfieldtype.md)
 
 - [PHP Manual](index.md)

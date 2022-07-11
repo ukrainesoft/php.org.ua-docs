@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)
-- [TableUpdate::\_\_construct
-»](mysql-xdevapi-tableupdate.construct.md)
+- [TableUpdate::\_\_construct »](mysql-xdevapi-tableupdate.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\TableUpdate](class.mysql-xdevapi-tableupdate.md)

@@ -1,7 +1,5 @@
-- [«
-win32_get_last_control_message](function.win32-get-last-control-message.md)
-- [win32_query_service_status
-»](function.win32-query-service-status.md)
+- [« win32_get_last_control_message](function.win32-get-last-control-message.md)
+- [win32_query_service_status »](function.win32-query-service-status.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)

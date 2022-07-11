@@ -1,6 +1,5 @@
 - [«Зумовлені константи](win32service.constants.md)
-- [Константи статусу служби Win32Service
-»](win32service.constants.servicestatus.md)
+- [Константи статусу служби Win32Service »](win32service.constants.servicestatus.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

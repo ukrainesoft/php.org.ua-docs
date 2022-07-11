@@ -66,5 +66,4 @@ grapheme_strrpos() поверне **`false`**.
 регістру
 - [grapheme_strstr()](function.grapheme-strstr.md) - Повертає
 частина рядка haystack від першої появи needle до кінця haystack
-- [»  Сегментація тексту в Unicode: межі кластера
-графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+- [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)

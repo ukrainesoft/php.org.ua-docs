@@ -18,10 +18,8 @@
 
 Оголошення типу вважається більш конкретним у наступному випадку:
 
-- Видалено [об'єднання
-типів](language.types.declarations.md#language.types.declarations.composite.union)
-- Додано [перетин
-типів](language.types.declarations.md#language.types.declarations.composite.intersection)
+- Видалено [об'єднання типів](language.types.declarations.md#language.types.declarations.composite.union)
+- Додано [перетин типів](language.types.declarations.md#language.types.declarations.composite.intersection)
 - Тип класу змінюється на тип дочірнього класу
 - [iterable](language.types.iterable.md) змінено на масив (array)
 або [Traversable](class.traversable.md)

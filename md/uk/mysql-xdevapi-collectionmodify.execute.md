@@ -1,7 +1,5 @@
-- [«
-CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.md)
-- [CollectionModify::limit
-»](mysql-xdevapi-collectionmodify.limit.md)
+- [« CollectionModify::\_\_construct](mysql-xdevapi-collectionmodify.construct.md)
+- [CollectionModify::limit »](mysql-xdevapi-collectionmodify.limit.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionModify](class.mysql-xdevapi-collectionmodify.md)

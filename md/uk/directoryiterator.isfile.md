@@ -1,5 +1,4 @@
-- [«
-DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)
+- [« DirectoryIterator::isExecutable](directoryiterator.isexecutable.md)
 - [DirectoryIterator::isLink »](directoryiterator.islink.md)
 
 - [PHP Manual](index.md)

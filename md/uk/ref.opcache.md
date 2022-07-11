@@ -1,5 +1,5 @@
 - [« Preloading](opcache.preloading.md)
-- [opcache_compile_file »] (function.opcache-compile-file.md)
+- [opcache_compile_file »](function.opcache-compile-file.md)
 
 - [PHP Manual](index.md)
 - [OPcache](book.opcache.md)

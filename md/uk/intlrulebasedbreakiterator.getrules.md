@@ -1,7 +1,5 @@
-- [«
-IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md)
-- [IntlRuleBasedBreakIterator::getRuleStatus
-»](intlrulebasedbreakiterator.getrulestatus.md)
+- [« IntlRuleBasedBreakIterator::getBinaryRules](intlrulebasedbreakiterator.getbinaryrules.md)
+- [IntlRuleBasedBreakIterator::getRuleStatus »](intlrulebasedbreakiterator.getrulestatus.md)
 
 - [PHP Manual](index.md)
 - [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)

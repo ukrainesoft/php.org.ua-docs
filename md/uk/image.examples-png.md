@@ -1,6 +1,5 @@
 - [« Приклади](image.examples.md)
-- [Додавання водяних знаків на зображення за допомогою альфа-каналів
-»](image.examples-watermark.md)
+- [Додавання водяних знаків на зображення за допомогою альфа-каналів »](image.examples-watermark.md)
 
 - [PHP Manual](index.md)
 - [Приклади](image.examples.md)

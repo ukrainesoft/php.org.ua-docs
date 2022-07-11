@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md)
-- [SolrQuery::getHighlightFragsize
-»](solrquery.gethighlightfragsize.md)
+- [« SolrQuery::getHighlightFormatter](solrquery.gethighlightformatter.md)
+- [SolrQuery::getHighlightFragsize »](solrquery.gethighlightfragsize.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

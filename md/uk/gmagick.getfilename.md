@@ -1,6 +1,5 @@
 - [« Gmagick::getcopyright](gmagick.getcopyright.md)
-- [Gmagick::getimagebackgroundcolor
-»](gmagick.getimagebackgroundcolor.md)
+- [Gmagick::getimagebackgroundcolor »](gmagick.getimagebackgroundcolor.md)
 
 - [PHP Manual](index.md)
 - [Gmagick](class.gmagick.md)

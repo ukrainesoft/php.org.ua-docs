@@ -1,7 +1,5 @@
-- [«
-GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md)
-- [GearmanClient::setCreatedCallback
-»](gearmanclient.setcreatedcallback.md)
+- [« GearmanClient::setCompleteCallback](gearmanclient.setcompletecallback.md)
+- [GearmanClient::setCreatedCallback »](gearmanclient.setcreatedcallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

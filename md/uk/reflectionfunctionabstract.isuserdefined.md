@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)
-- [ReflectionFunctionAbstract::isVariadic
-»](reflectionfunctionabstract.isvariadic.md)
+- [« ReflectionFunctionAbstract::isInternal](reflectionfunctionabstract.isinternal.md)
+- [ReflectionFunctionAbstract::isVariadic »](reflectionfunctionabstract.isvariadic.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

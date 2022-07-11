@@ -1,5 +1,5 @@
 - [«curl_close](function.curl-close.md)
-- [curl_errno»] (function.curl-errno.md)
+- [curl_errno»](function.curl-errno.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

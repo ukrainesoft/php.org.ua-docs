@@ -1,5 +1,5 @@
 - [«exp](function.exp.md)
-- [fdiv »] (function.fdiv.md)
+- [fdiv »](function.fdiv.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

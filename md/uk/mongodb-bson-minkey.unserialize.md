@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\MinKey::serialize](mongodb-bson-minkey.serialize.md)
+- [« MongoDB\BSON\MinKey::serialize](mongodb-bson-minkey.serialize.md)
 - [MongoDB\BSON\ObjectId »](class.mongodb-bson-objectid.md)
 
 - [PHP Manual](index.md)

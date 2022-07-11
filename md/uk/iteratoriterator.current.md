@@ -1,6 +1,5 @@
 - [« IteratorIterator::\_\_construct](iteratoriterator.construct.md)
-- [IteratorIterator::getInnerIterator
-»](iteratoriterator.getinneriterator.md)
+- [IteratorIterator::getInnerIterator »](iteratoriterator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [IteratorIterator](class.iteratoriterator.md)

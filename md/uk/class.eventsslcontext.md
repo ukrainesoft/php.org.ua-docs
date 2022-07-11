@@ -1,9 +1,8 @@
-- [«
-EventListener::setErrorCallback](eventlistener.seterrorcallback.md)
+- [« EventListener::setErrorCallback](eventlistener.seterrorcallback.md)
 - [EventSslContext::\_\_construct »](eventsslcontext.construct.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас EventSslContext
 
 # Клас EventSslContext

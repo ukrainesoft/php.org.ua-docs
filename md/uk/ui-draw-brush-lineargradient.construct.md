@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Brush\LinearGradient](class.ui-draw-brush-lineargradient.md)
-- [UI\Draw\Brush\RadialGradient
-»](class.ui-draw-brush-radialgradient.md)
+- [« UI\Draw\Brush\LinearGradient](class.ui-draw-brush-lineargradient.md)
+- [UI\Draw\Brush\RadialGradient »](class.ui-draw-brush-radialgradient.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Brush\LinearGradient](class.ui-draw-brush-lineargradient.md)

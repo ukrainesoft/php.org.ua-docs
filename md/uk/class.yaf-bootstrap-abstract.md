@@ -1,5 +1,4 @@
-- [«
-Yaf_Application::setAppDirectory](yaf-application.setappdirectory.md)
+- [« Yaf_Application::setAppDirectory](yaf-application.setappdirectory.md)
 - [Yaf_Dispatcher »](class.yaf-dispatcher.md)
 
 - [PHP Manual](index.md)

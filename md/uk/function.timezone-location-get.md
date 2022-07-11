@@ -1,5 +1,4 @@
-- [«
-timezone_identifiers_list](function.timezone-identifiers-list.md)
+- [« timezone_identifiers_list](function.timezone-identifiers-list.md)
 - [timezone_name_from_abbr »](function.timezone-name-from-abbr.md)
 
 - [PHP Manual](index.md)

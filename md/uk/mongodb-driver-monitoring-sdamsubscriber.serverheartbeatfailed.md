@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted
-»](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverClosed](mongodb-driver-monitoring-sdamsubscriber.serverclosed.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatStarted »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatstarted.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)
@@ -23,8 +21,7 @@ abstract public
 Якщо передплатник був зареєстрований, драйвер викличе цей метод у разі
 Поява помилки серцевогосерверу (тобто команди
 [» hello](https://www.mongodb.com/docs/manual/reference/command/hello/),
-викликаної через [» моніторинг
-сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)).
+викликаної через [» моніторинг сервера](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)).
 
 ### Список параметрів
 

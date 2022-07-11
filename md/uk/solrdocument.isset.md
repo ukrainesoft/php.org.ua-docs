@@ -1,5 +1,4 @@
-- [«
-SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)
+- [« SolrDocument::hasChildDocuments](solrdocument.haschilddocuments.md)
 - [SolrDocument::key »](solrdocument.key.md)
 
 - [PHP Manual](index.md)

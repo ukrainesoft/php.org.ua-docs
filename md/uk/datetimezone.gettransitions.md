@@ -1,6 +1,5 @@
 - [« DateTimeZone::getOffset](datetimezone.getoffset.md)
-- [DateTimeZone::listAbbreviations
-»](datetimezone.listabbreviations.md)
+- [DateTimeZone::listAbbreviations »](datetimezone.listabbreviations.md)
 
 - [PHP Manual](index.md)
 - [DateTimeZone](class.datetimezone.md)

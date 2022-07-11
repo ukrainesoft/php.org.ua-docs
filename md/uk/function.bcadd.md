@@ -1,5 +1,5 @@
 - [« Функції BC Math](ref.bc.md)
-- [bccomp »] (function.bccomp.md)
+- [bccomp »](function.bccomp.md)
 
 - [PHP Manual](index.md)
 - [Функції BC Math](ref.bc.md)

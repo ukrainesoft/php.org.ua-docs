@@ -1,5 +1,5 @@
 - [« Установка](filesystem.installation.md)
-- [Типи ресурсів»] (filesystem.resources.md)
+- [Типи ресурсів»](filesystem.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](filesystem.setup.md)
@@ -26,8 +26,7 @@
 `allow_url_fopen` bool
 Ця директива включає підтримку обгорток URL (URL wrappers), які
 дозволяють працювати з об'єктами URL як із звичайними файлами. Обгортки,
-доступні за замовчуванням, служать для роботи з [віддаленими
-файлами](features.remote-files.md) з використанням ftp або http
+доступні за замовчуванням, служать для роботи з [віддаленими файлами](features.remote-files.md) з використанням ftp або http
 протоколу. Деякі модулі, наприклад [zlib](ref.zlib.md), можуть
 реєструвати власні обгортки.
 

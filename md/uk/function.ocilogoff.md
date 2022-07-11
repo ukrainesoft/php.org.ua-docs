@@ -1,5 +1,5 @@
 - [« ociloadlob](function.ociloadlob.md)
-- [ocilogon »] (function.ocilogon.md)
+- [ocilogon »](function.ocilogon.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

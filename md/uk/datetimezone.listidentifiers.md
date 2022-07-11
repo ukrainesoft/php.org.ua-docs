@@ -1,5 +1,4 @@
-- [«
-DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md)
+- [« DateTimeZone::listAbbreviations](datetimezone.listabbreviations.md)
 - [DateInterval »](class.dateinterval.md)
 
 - [PHP Manual](index.md)

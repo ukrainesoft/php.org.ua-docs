@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\Client::isConnected](swoole-coroutine-client.isconnected.md)
+- [« Swoole\Coroutine\Client::isConnected](swoole-coroutine-client.isconnected.md)
 - [Swoole\Coroutine\Client::send »](swoole-coroutine-client.send.md)
 
 - [PHP Manual](index.md)

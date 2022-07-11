@@ -1,5 +1,4 @@
-- [«
-forward_static_call_array](function.forward-static-call-array.md)
+- [« forward_static_call_array](function.forward-static-call-array.md)
 - [func_get_arg »](function.func-get-arg.md)
 
 - [PHP Manual](index.md)
@@ -23,8 +22,7 @@ forward_static_call — виклик статичного методу
 Виклик функції або методу, задані в параметрі
 callback з наступними аргументами. Ця функція повинна викликатися в
 контексті методу і може бути викликана поза класом. Вона використовує
-[пізніше статичне
-зв'язування](language.oop5.late-static-bindings.md).
+[пізніше статичне зв'язування](language.oop5.late-static-bindings.md).
 
 ### Список параметрів
 

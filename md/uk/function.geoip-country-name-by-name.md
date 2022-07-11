@@ -1,5 +1,4 @@
-- [«
-geoip_country_code3_by_name](function.geoip-country-code3-by-name.md)
+- [« geoip_country_code3_by_name](function.geoip-country-code3-by-name.md)
 - [geoip_database_info »](function.geoip-database-info.md)
 
 - [PHP Manual](index.md)

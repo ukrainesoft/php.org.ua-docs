@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::advanceOperationTime](mongodb-driver-session.advanceoperationtime.md)
-- [MongoDB\Driver\Session::\_\_construct
-»](mongodb-driver-session.construct.md)
+- [« MongoDB\Driver\Session::advanceOperationTime](mongodb-driver-session.advanceoperationtime.md)
+- [MongoDB\Driver\Session::\_\_construct »](mongodb-driver-session.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

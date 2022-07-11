@@ -12,4 +12,4 @@
 - [Вимоги](mail.requirements.md)
 - [Установка](mail.installation.md)
 - [Налаштування під час виконання](mail.configuration.md)
-- [Типи ресурсів] (mail.resources.md)
+- [Типи ресурсів](mail.resources.md)

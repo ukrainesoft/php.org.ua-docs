@@ -2,7 +2,7 @@
 - [Приклади »](fann.examples.md)
 
 - [PHP Manual](index.md)
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 - Обумовлені константи
 
 # Зумовлені константи

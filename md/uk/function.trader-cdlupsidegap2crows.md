@@ -1,6 +1,5 @@
 - [« trader_cdlunique3river](function.trader-cdlunique3river.md)
-- [trader_cdlxsidegap3methods
-»](function.trader-cdlxsidegap3methods.md)
+- [trader_cdlxsidegap3methods »](function.trader-cdlxsidegap3methods.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

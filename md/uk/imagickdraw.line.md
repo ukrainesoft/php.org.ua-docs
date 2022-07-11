@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md)
+- [« ImagickDraw::getVectorGraphics](imagickdraw.getvectorgraphics.md)
 - [ImagickDraw::matte »](imagickdraw.matte.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-sapi_windows_vt100_support](function.sapi-windows-vt100-support.md)
+- [« sapi_windows_vt100_support](function.sapi-windows-vt100-support.md)
 - [sleep »](function.sleep.md)
 
 - [PHP Manual](index.md)

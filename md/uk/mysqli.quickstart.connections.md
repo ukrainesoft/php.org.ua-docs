@@ -1,5 +1,4 @@
-- [« Процедурний та об'єктно-орієнтований
-интерфейс](mysqli.quickstart.dual-interface.md)
+- [« Процедурний та об'єктно-орієнтований интерфейс](mysqli.quickstart.dual-interface.md)
 - [Виконання запитів »](mysqli.quickstart.statements.md)
 
 - [PHP Manual](index.md)
@@ -159,5 +158,4 @@ PHP-процес, обмежений значенням
 - [mysqli::change_user()](mysqli.change-user.md)
 - [$mysqli::host_info](mysqli.get-host-info.md)
 - [MySQLi Configuration Options](mysqli.configuration.md)
-- [Persistent Database
-Connections](features.persistent-connections.md)
+- [Persistent Database Connections](features.persistent-connections.md)

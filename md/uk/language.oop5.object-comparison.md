@@ -1,6 +1,5 @@
 - [«Клонування об'єктів](language.oop5.cloning.md)
-- [Пізнє статичне зв'язування
-»](language.oop5.late-static-bindings.md)
+- [Пізнє статичне зв'язування »](language.oop5.late-static-bindings.md)
 
 - [PHP Manual](index.md)
 - [Класи та об'єкти](language.oop5.md)

@@ -1,6 +1,5 @@
 - [« ImagickPixelIterator::destroy](imagickpixeliterator.destroy.md)
-- [ImagickPixelIterator::getIteratorRow
-»](imagickpixeliterator.getiteratorrow.md)
+- [ImagickPixelIterator::getIteratorRow »](imagickpixeliterator.getiteratorrow.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixelIterator](class.imagickpixeliterator.md)

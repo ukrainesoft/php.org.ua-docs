@@ -2,7 +2,7 @@
 - [tidy::parseFile »](tidy.parsefile.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Визначає, чи документ є спільним XML-документом (не
 HTML/XHTML)
 

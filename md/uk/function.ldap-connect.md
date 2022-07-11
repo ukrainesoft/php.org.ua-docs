@@ -1,6 +1,5 @@
 - [«ldap_compare](function.ldap-compare.md)
-- [ldap_control_paged_result_response
-»](function.ldap-control-paged-result-response.md)
+- [ldap_control_paged_result_response »](function.ldap-control-paged-result-response.md)
 
 - [PHP Manual](index.md)
 - [Функції LDAP](ref.ldap.md)

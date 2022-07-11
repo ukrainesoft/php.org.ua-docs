@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md)
-- [MongoDB\Driver\WriteConcern::serialize
-»](mongodb-driver-writeconcern.serialize.md)
+- [« MongoDB\Driver\WriteConcern::getWtimeout](mongodb-driver-writeconcern.getwtimeout.md)
+- [MongoDB\Driver\WriteConcern::serialize »](mongodb-driver-writeconcern.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -67,8 +65,6 @@ bool(true)
 
 - [MongoDB\Driver\Manager::getWriteConcern()](mongodb-driver-manager.getwriteconcern.md) -
 Повертає WriteConcern для Manager
-- [» Зміна гарантії запису за
-замовчуванням](https://www.mongodb.com/docs/manual/core/replica-set-write-concern/#modify-default-write-concern)
+- [» Зміна гарантії запису за замовчуванням](https://www.mongodb.com/docs/manual/core/replica-set-write-concern/#modify-default-write-concern)
 у посібнику MongoDB
-- [» Довідкова інформація щодо гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::isProtected](reflectionproperty.isprotected.md)
-- [ReflectionProperty::isReadOnly
-»](reflectionproperty.isreadonly.md)
+- [« ReflectionProperty::isProtected](reflectionproperty.isprotected.md)
+- [ReflectionProperty::isReadOnly »](reflectionproperty.isreadonly.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

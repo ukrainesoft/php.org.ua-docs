@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::valid](swoole-connection-iterator.valid.md)
-- [Swoole\Coroutine::call_user_func_array
-»](swoole-coroutine.call-user-func-array.md)
+- [« Swoole\Connection\Iterator::valid](swoole-connection-iterator.valid.md)
+- [Swoole\Coroutine::call_user_func_array »](swoole-coroutine.call-user-func-array.md)
 
 - [PHP Manual](index.md)
 - [Swoole](book.swoole.md)

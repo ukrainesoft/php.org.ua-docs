@@ -1,7 +1,5 @@
-- [«
-IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md)
-- [IntlDateFormatter::getCalendarObject
-»](intldateformatter.getcalendarobject.md)
+- [« IntlDateFormatter::getTimeType](intldateformatter.gettimetype.md)
+- [IntlDateFormatter::getCalendarObject »](intldateformatter.getcalendarobject.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

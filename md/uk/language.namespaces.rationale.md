@@ -1,6 +1,5 @@
 - [«Простори імен](language.namespaces.md)
-- [Визначення просторів імен
-»](language.namespaces.definition.md)
+- [Визначення просторів імен »](language.namespaces.definition.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)

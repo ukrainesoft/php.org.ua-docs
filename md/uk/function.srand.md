@@ -1,5 +1,5 @@
 - [«sqrt](function.sqrt.md)
-- [tan »] (function.tan.md)
+- [tan »](function.tan.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

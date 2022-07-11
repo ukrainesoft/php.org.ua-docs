@@ -12,12 +12,11 @@
 Якщо база даних Oracle знаходиться на тому ж комп'ютері, що і PHP,
 програмне забезпечення бази даних містить необхідні бібліотеки.
 Якщо PHP знаходиться на іншому комп'ютері, використовуйте безкоштовні
-бібліотеки [» Oracle Instant
-Client](https://www.oracle.com/database/technologies/instant-client.md).
+бібліотеки [» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md).
 Докладніше дивіться в [вимогах OCI8](oci8.requirements.md).
 
 Для встановлення модуля PDO Oracle OCI використовуйте опцію
-**--with-pdo-oci\[u003dDIR\]**, де `[u003dDIR]` - необов'язкове значення,
+**--with-pdo-oci[u003dDIR]**, де `[u003dDIR]` - необов'язкове значення,
 що вказує на домашню директорію Oracle. Типово `[u003dDIR]`
 приймає значення змінної оточення `$ ORACLE_HOME`.
 

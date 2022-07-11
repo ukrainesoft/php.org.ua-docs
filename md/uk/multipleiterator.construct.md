@@ -1,7 +1,5 @@
-- [«
-MultipleIterator::attachIterator](multipleiterator.attachiterator.md)
-- [MultipleIterator::containsIterator
-»](multipleiterator.containsiterator.md)
+- [« MultipleIterator::attachIterator](multipleiterator.attachiterator.md)
+- [MultipleIterator::containsIterator »](multipleiterator.containsiterator.md)
 
 - [PHP Manual](index.md)
 - [MultipleIterator](class.multipleiterator.md)
@@ -23,8 +21,7 @@ MultipleIterator::MIT_NEED_ALL \| MultipleIterator::MIT_KEYS_NUMERIC)
 ### Список параметрів
 
 `flags`
-Прапори для установки, відповідно до [Предвизначеним
-константам](class.multipleiterator.md#multipleiterator.constants).
+Прапори для установки, відповідно до [Предвизначеним константам](class.multipleiterator.md#multipleiterator.constants).
 
 - **`MultipleIterator::MIT_NEED_ALL`** або
 **`MultipleIterator::MIT_NEED_ANY`**
@@ -124,7 +121,6 @@ Array
 
 ### Дивіться також
 
-- [Предвизначені
-константи](class.multipleiterator.md#multipleiterator.constants)
+- [Предвизначені константи](class.multipleiterator.md#multipleiterator.constants)
 - [MultipleIterator::valid()](multipleiterator.valid.md) - Перевіряє
 коректність підитераторів

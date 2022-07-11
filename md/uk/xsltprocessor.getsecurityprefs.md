@@ -1,6 +1,5 @@
 - [« XSLTProcessor::getParameter](xsltprocessor.getparameter.md)
-- [XSLTProcessor::hasExsltSupport
-»](xsltprocessor.hasexsltsupport.md)
+- [XSLTProcessor::hasExsltSupport »](xsltprocessor.hasexsltsupport.md)
 
 - [PHP Manual](index.md)
 - [XSLTProcessor](class.xsltprocessor.md)

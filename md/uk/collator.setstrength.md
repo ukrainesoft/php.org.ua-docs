@@ -140,7 +140,6 @@ array (
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_get_strength()](collator.getstrength.md) - Отримує
 поточну силу зіставлення

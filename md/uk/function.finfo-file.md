@@ -41,12 +41,10 @@ public [finfo::file](finfo.file.md)(string `$filename`, int `$flags` u003d
 Назва файлу, що перевіряється.
 
 `flags`
-Одна або кілька об'єднаних через бінарне АБО [констант
-Fileinfo](fileinfo.constants.md).
+Одна або кілька об'єднаних через бінарне АБО [констант Fileinfo](fileinfo.constants.md).
 
 `context`
-Для опису `contexts`, дивіться [Функції для роботи з
-потоками] (ref.stream.md).
+Для опису `contexts`, дивіться [Функції для роботи з потоками](ref.stream.md).
 
 ### Значення, що повертаються
 

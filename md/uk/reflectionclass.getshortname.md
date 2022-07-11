@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)
+- [« ReflectionClass::getReflectionConstants](reflectionclass.getreflectionconstants.md)
 - [ReflectionClass::getStartLine »](reflectionclass.getstartline.md)
 
 - [PHP Manual](index.md)

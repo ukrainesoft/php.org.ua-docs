@@ -1,5 +1,5 @@
 - [«getallheaders](function.getallheaders.md)
-- [Менеджер процесів FastCGI»] (book.fpm.md)
+- [Менеджер процесів FastCGI»](book.fpm.md)
 
 - [PHP Manual](index.md)
 - [Функції Apache](ref.apache.md)

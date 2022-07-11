@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Javascript::getCode](mongodb-bson-javascript.getcode.md)
-- [MongoDB\BSON\Javascript::jsonSerialize
-»](mongodb-bson-javascript.jsonserialize.md)
+- [« MongoDB\BSON\Javascript::getCode](mongodb-bson-javascript.getcode.md)
+- [MongoDB\BSON\Javascript::jsonSerialize »](mongodb-bson-javascript.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
@@ -49,5 +47,4 @@ int(42)
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

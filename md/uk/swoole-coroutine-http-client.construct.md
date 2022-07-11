@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::close](swoole-coroutine-http-client.close.md)
-- [Swoole\Coroutine\Http\Client::\_\_destruct
-»](swoole-coroutine-http-client.destruct.md)
+- [« Swoole\Coroutine\Http\Client::close](swoole-coroutine-http-client.close.md)
+- [Swoole\Coroutine\Http\Client::\_\_destruct »](swoole-coroutine-http-client.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

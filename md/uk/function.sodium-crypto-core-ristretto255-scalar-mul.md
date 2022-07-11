@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_core_ristretto255_scalar_invert](function.sodium-crypto-core-ristretto255-scalar-invert.md)
-- [sodium_crypto_core_ristretto255_scalar_negate
-»](function.sodium-crypto-core-ristretto255-scalar-negate.md)
+- [« sodium_crypto_core_ristretto255_scalar_invert](function.sodium-crypto-core-ristretto255-scalar-invert.md)
+- [sodium_crypto_core_ristretto255_scalar_negate »](function.sodium-crypto-core-ristretto255-scalar-negate.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

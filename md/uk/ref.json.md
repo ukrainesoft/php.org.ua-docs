@@ -1,5 +1,4 @@
-- [«
-JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
+- [« JsonSerializable::jsonSerialize](jsonserializable.jsonserialize.md)
 - [json_decode »](function.json-decode.md)
 
 - [PHP Manual](index.md)

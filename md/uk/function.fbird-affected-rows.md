@@ -1,5 +1,5 @@
 - [«fbird_add_user](function.fbird-add-user.md)
-- [fbird_backup»] (function.fbird-backup.md)
+- [fbird_backup»](function.fbird-backup.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

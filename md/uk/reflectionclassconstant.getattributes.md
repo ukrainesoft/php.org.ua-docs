@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::export](reflectionclassconstant.export.md)
-- [ReflectionClassConstant::getDeclaringClass
-»](reflectionclassconstant.getdeclaringclass.md)
+- [« ReflectionClassConstant::export](reflectionclassconstant.export.md)
+- [ReflectionClassConstant::getDeclaringClass »](reflectionclassconstant.getdeclaringclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

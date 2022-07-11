@@ -1,5 +1,5 @@
 - [« Установка](network.installation.md)
-- [Типи ресурсів»] (network.resources.md)
+- [Типи ресурсів»](network.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](network.setup.md)

@@ -1,5 +1,4 @@
-- [«
-OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md)
+- [« OAuthProvider::isRequestTokenEndpoint](oauthprovider.isrequesttokenendpoint.md)
 - [OAuthProvider::reportProblem »](oauthprovider.reportproblem.md)
 
 - [PHP Manual](index.md)

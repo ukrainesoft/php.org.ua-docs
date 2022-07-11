@@ -13,8 +13,7 @@ Phar::getMetadata — Витягти метадані phar-архіву
 
 ### Опис
 
-public **Phar::getMetadata**(array `$unserializeOptions` u003d \[\]):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+public **Phar::getMetadata**(array `$unserializeOptions` u003d []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 Повертає метадані phar-архіву. Метаданими може бути будь-яка
 змінна PHP, яка може бути серіалізована.

@@ -1,6 +1,5 @@
 - [« DateTimeImmutable::add](datetimeimmutable.add.md)
-- [DateTimeImmutable::createFromFormat
-»](datetimeimmutable.createfromformat.md)
+- [DateTimeImmutable::createFromFormat »](datetimeimmutable.createfromformat.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

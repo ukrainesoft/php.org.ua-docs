@@ -1,6 +1,5 @@
-- [«MongoDB \ Driver] (book.mongodb.md)
-- [MongoDB\Driver\Manager::addSubscriber
-»](mongodb-driver-manager.addsubscriber.md)
+- [«MongoDB \ Driver](book.mongodb.md)
+- [MongoDB\Driver\Manager::addSubscriber »](mongodb-driver-manager.addsubscriber.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

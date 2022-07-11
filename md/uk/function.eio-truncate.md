@@ -1,5 +1,5 @@
 - [«eio_syncfs](function.eio-syncfs.md)
-- [eio_unlink »] (function.eio-unlink.md)
+- [eio_unlink »](function.eio-unlink.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

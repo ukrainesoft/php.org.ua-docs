@@ -1,5 +1,4 @@
-- [«
-libxml_disable_entity_loader](function.libxml-disable-entity-loader.md)
+- [« libxml_disable_entity_loader](function.libxml-disable-entity-loader.md)
 - [libxml_get_last_error »](function.libxml-get-last-error.md)
 
 - [PHP Manual](index.md)

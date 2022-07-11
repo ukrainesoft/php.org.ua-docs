@@ -15,7 +15,7 @@ ZipArchive::addGlob — Додати файли з директорії відп
 ### Опис
 
 public **ZipArchive::addGlob**(string `$pattern`, int `$flags` u003d 0,
-array `$options` u003d \[\]): array\|false
+array `$options` u003d []): array\|false
 
 Додати файли з директорії відповідно до шаблону `pattern`.
 

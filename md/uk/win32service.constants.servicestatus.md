@@ -1,7 +1,5 @@
-- [« Побутові маски типу служби
-Win32Service](win32service.constants.servicetype.md)
-- [Константи обробки повідомлень службою Win32Service
-»](win32service.constants.servicecontrol.md)
+- [« Побутові маски типу служби Win32Service](win32service.constants.servicetype.md)
+- [Константи обробки повідомлень службою Win32Service »](win32service.constants.servicecontrol.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

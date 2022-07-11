@@ -1,5 +1,5 @@
 - [« Установка](ctype.installation.md)
-- [Типи ресурсів»] (ctype.resources.md)
+- [Типи ресурсів»](ctype.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ctype.setup.md)

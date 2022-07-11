@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (radius.resources.md)
+- [« Типи ресурсів](radius.resources.md)
 - [Опції RADIUS »](radius.constants.options.md)
 
 - [PHP Manual](index.md)
@@ -12,8 +12,7 @@
 - [Опції RADIUS](radius.constants.options.md)
 - [типи пакетів RADIUS](radius.constants.packets.md)
 - [Типи атрибутів RADIUS](radius.constants.attributes.md)
-- [Атрибути RADIUS специфічні для різних
-виробників](radius.constants.vendor-specific.md)
+- [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
 
 Наведені нижче константи визначені даним модулем і можуть бути
 доступні лише в тому випадку, якщо PHP був зібраний за допомогою цього

@@ -19,8 +19,7 @@ string `$user`,
 string `$password`,
 int `$flags` u003d 0,
 int `$retries` u003d 0,
-array `$options` u003d \[\]
-): [IMAP\Connection](class.imap-connection.md)\|false
+array `$options` u003d [] ): [IMAP\Connection](class.imap-connection.md)\|false
 
 Відкриває потік IMAP до mailbox.
 

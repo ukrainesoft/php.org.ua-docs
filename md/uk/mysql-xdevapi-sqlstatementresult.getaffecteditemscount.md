@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.md)
-- [SqlStatementResult::getColumnsCount
-»](mysql-xdevapi-sqlstatementresult.getcolumncount.md)
+- [« SqlStatementResult::fetchOne](mysql-xdevapi-sqlstatementresult.fetchone.md)
+- [SqlStatementResult::getColumnsCount »](mysql-xdevapi-sqlstatementresult.getcolumncount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

@@ -12,4 +12,4 @@
 - [Вимоги](gettext.requirements.md)
 - [Установка](gettext.installation.md)
 - [Налаштування під час виконання](gettext.configuration.md)
-- [Типи ресурсів] (gettext.resources.md)
+- [Типи ресурсів](gettext.resources.md)

@@ -21,8 +21,7 @@ public **XMLReader::getParserProperty**(int `$property`): bool
 ### Список параметрів
 
 `property`
-Одна з [констант
-аналізатора](class.xmlreader.md#xmlreader.constants).
+Одна з [констант аналізатора](class.xmlreader.md#xmlreader.constants).
 
 ### Значення, що повертаються
 

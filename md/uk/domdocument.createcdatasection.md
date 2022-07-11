@@ -1,5 +1,4 @@
-- [«
-DOMDocument::createAttributeNS](domdocument.createattributens.md)
+- [« DOMDocument::createAttributeNS](domdocument.createattributens.md)
 - [DOMDocument::createComment »](domdocument.createcomment.md)
 
 - [PHP Manual](index.md)

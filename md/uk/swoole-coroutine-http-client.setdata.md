@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::setCookies](swoole-coroutine-http-client.setcookies.md)
-- [Swoole\Coroutine\Http\Client::setDefer
-»](swoole-coroutine-http-client.setdefer.md)
+- [« Swoole\Coroutine\Http\Client::setCookies](swoole-coroutine-http-client.setcookies.md)
+- [Swoole\Coroutine\Http\Client::setDefer »](swoole-coroutine-http-client.setdefer.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

@@ -1,5 +1,4 @@
-- [«
-RarException::setUsingExceptions](rarexception.setusingexceptions.md)
+- [« RarException::setUsingExceptions](rarexception.setusingexceptions.md)
 - [Вступ »](intro.zip.md)
 
 - [PHP Manual](index.md)

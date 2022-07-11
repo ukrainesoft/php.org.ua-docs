@@ -1,6 +1,5 @@
-- [« Використання SystemTap зі статичними зондами PHP
-DTrace](features.dtrace.systemtap.md)
-- [Зміна поведінки PHP »] (refs.basic.php.md)
+- [« Використання SystemTap зі статичними зондами PHP DTrace](features.dtrace.systemtap.md)
+- [Зміна поведінки PHP »](refs.basic.php.md)
 
 - [PHP Manual](index.md)
 - Довідник функцій
@@ -19,7 +18,7 @@ DTrace](features.dtrace.systemtap.md)
 - [FFI](book.ffi.md) - Інтерфейс зовнішньої функції (Foreign
 Function Interface)
 - [OPcache](book.opcache.md)
-- [Контроль виводу] (book.outcontrol.md) - Управління буфером
+- [Контроль виводу](book.outcontrol.md) - Управління буфером
 висновку
 - [Опції/інформація PHP](book.info.md) — Опції та інформація PHP
 - [phpdbg](book.phpdbg.md) - Інтерактивний налагоджувач PHP
@@ -37,7 +36,7 @@ Function Interface)
 - [Модулі для стиснення та архівації](refs.compression.md)
 - [Bzip2](book.bzip2.md)
 - [LZF](book.lzf.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - [Rar](book.rar.md) - Архівування Rar
 - [Zip](book.zip.md)
 - [Zlib](book.zlib.md)
@@ -51,8 +50,7 @@ Function Interface)
 - [Sodium](book.sodium.md)
 - [Модулі для роботи з базами даних](refs.database.md)
 - [Рівні абстракції](refs.database.abstract.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - [Модулі для роботи з датою та часом](refs.calendar.md)
 - [Календарь](book.calendar.md)
 - [Дата/час](book.datetime.md) — Дата та час
@@ -96,13 +94,12 @@ Enchant
 - [FDF](book.fdf.md) - Формат даних форм
 - [GnuPG](book.gnupg.md) - GNU Privacy Guard
 - [wkhtmltox](book.wkhtmltox.md)
-- [PS] (book.ps.md) - Створення документів PostScript
+- [PS](book.ps.md) - Створення документів PostScript
 - [RpmInfo](book.rpminfo.md)
 - [XLSWriter](book.xlswriter.md)
-- [Модулі для управління процесами
-програм](refs.fileprocess.process.md)
+- [Модулі для управління процесами програм](refs.fileprocess.process.md)
 - [Eio](book.eio.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - [Expect](book.expect.md)
 - [PCNTL](book.pcntl.md) — Керування процесами
 - [POSIX](book.posix.md)
@@ -114,7 +111,7 @@ Enchant
 - [Sync](book.sync.md)
 - [Інші базові модулі](refs.basic.other.md)
 - [GeoIP](book.geoip.md) - Geo IP Location
-- [FANN] (book.fann.md) - Швидка штучна нейронна мережа
+- [FANN](book.fann.md) - Швидка штучна нейронна мережа
 (Fast Artificial Neural Network або FANN)
 - [Igbinary](book.igbinary.md)
 - [JSON](book.json.md) — JavaScript Object Notation
@@ -126,18 +123,18 @@ Enchant
 - [Потоки](book.stream.md)
 - [Swoole](book.swoole.md)
 - [Tidy](book.tidy.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
-- [URL] (book.url.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
+- [URL](book.url.md)
 - [V8js](book.v8js.md) - Інтеграція V8 Javascript Engine
 - [Yaml](book.yaml.md) - Серіалізація даних YAML
 - [Yaf](book.yaf.md) - Yet Another Framework
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 - [Taint](book.taint.md)
 - [Структури даних](book.ds.md)
 - [var_representation](book.var_representation.md)
 - [Інші служби](refs.remote.other.md)
 - [cURL](book.curl.md) - Клієнтська бібліотека роботи з URL
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - [FTP](book.ftp.md)
 - [Gearman](book.gearman.md)
 - [LDAP](book.ldap.md) — Полегшений протокол доступу до
@@ -154,14 +151,14 @@ Enchant
 - [Stomp](book.stomp.md) - Stomp Client
 - [SVM](book.svm.md) - Support Vector Machine (Допоміжна)
 векторна машина)
-- [SVN] (book.svn.md) - Subversion
+- [SVN](book.svn.md) - Subversion
 - [TCP](book.tcpwrap.md) - Обгортки TCP
 - [Varnish](book.varnish.md)
 - [YAZ](book.yaz.md)
 - [Обмін повідомленнями 0MQ](book.zmq.md) - ZMQ
 - [ZooKeeper](book.zookeeper.md)
 - [Модулі для пошукових систем](refs.search.md)
-- [Solr] (book.solr.md) - Apache Solr
+- [Solr](book.solr.md) - Apache Solr
 - [Модулі для роботи із серверами](refs.utilspec.server.md)
 - [Apache](book.apache.md)
 - [Менеджер процесів FastCGI](book.fpm.md)
@@ -169,7 +166,7 @@ Enchant
 - [Сесії](book.session.md) - Управління сесіями
 - [Обробка тексту](refs.basic.text.md)
 - [CommonMark](book.cmark.md)
-- [Parle] (book.parle.md) - Розбір та лексування
+- [Parle](book.parle.md) - Розбір та лексування
 - [PCRE](book.pcre.md) — Функції для роботи з регулярними
 виразами (Perl-сумісні)
 - [ssdeep](book.ssdeep.md) - Нечітке хешування ssdeep
@@ -189,7 +186,7 @@ Enchant
 - [Yar](book.yar.md) - Ще один RPC-фреймворк
 - [XML-RPC](book.xmlrpc.md)
 - [Модулі лише для Windows](refs.utilspec.windows.md)
-- [COM] (book.com.md) - COM і .Net (Windows)
+- [COM](book.com.md) - COM і .Net (Windows)
 - [win32service](book.win32service.md)
 - [Обробка XML](refs.xml.md)
 - [DOM](book.dom.md) - Document Object Model

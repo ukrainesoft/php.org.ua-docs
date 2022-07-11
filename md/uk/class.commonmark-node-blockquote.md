@@ -1,6 +1,5 @@
 - [«CommonMark\Node\Paragraph](class.commonmark-node-paragraph.md)
-- [CommonMark\Node\BulletList
-»](class.commonmark-node-bulletlist.md)
+- [CommonMark\Node\BulletList »](class.commonmark-node-bulletlist.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

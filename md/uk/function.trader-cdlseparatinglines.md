@@ -1,5 +1,4 @@
-- [«
-trader_cdlrisefall3methods](function.trader-cdlrisefall3methods.md)
+- [« trader_cdlrisefall3methods](function.trader-cdlrisefall3methods.md)
 - [trader_cdlshootingstar »](function.trader-cdlshootingstar.md)
 
 - [PHP Manual](index.md)

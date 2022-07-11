@@ -1,5 +1,5 @@
 - [« Встановлення](wddx.installation.md)
-- [Типи ресурсів»] (wddx.resources.md)
+- [Типи ресурсів»](wddx.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](wddx.setup.md)

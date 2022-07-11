@@ -1,7 +1,5 @@
-- [«
-RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
-- [RecursiveCallbackFilterIterator::getChildren
-»](recursivecallbackfilteriterator.getchildren.md)
+- [« RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
+- [RecursiveCallbackFilterIterator::getChildren »](recursivecallbackfilteriterator.getchildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md)
@@ -41,8 +39,7 @@ Callback-функція, яка повинна повертати **`true`**, я
 
 ### Дивіться також
 
-- [Приклади використання
-RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
+- [Приклади використання RecursiveCallbackFilterIterator](class.recursivecallbackfilteriterator.md#recursivecallbackfilteriterator.examples)
 - [RecursiveCallbackFilterIterator::getChildren()](recursivecallbackfilteriterator.getchildren.md) -
 Повертає дочірні елементи ітератора, що зберігається всередині
 RecursiveCallbackFilterIterator

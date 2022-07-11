@@ -1,6 +1,5 @@
 - [« imap_renamemailbox](function.imap-renamemailbox.md)
-- [imap_rfc822_parse_adrlist
-»](function.imap-rfc822-parse-adrlist.md)
+- [imap_rfc822_parse_adrlist »](function.imap-rfc822-parse-adrlist.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

@@ -2,7 +2,7 @@
 - [PhpToken::\_\_construct »](phptoken.construct.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 - Клас PhpToken
 
 # Клас PhpToken

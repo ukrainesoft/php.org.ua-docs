@@ -1,5 +1,4 @@
-- [«
-Yaf_Response_Abstract::setRedirect](yaf-response-abstract.setredirect.md)
+- [« Yaf_Response_Abstract::setRedirect](yaf-response-abstract.setredirect.md)
 - [Yaf_Route_Interface »](class.yaf-route-interface.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«ocicommit](function.ocicommit.md)
-- [ocierror »] (function.ocierror.md)
+- [ocierror »](function.ocierror.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

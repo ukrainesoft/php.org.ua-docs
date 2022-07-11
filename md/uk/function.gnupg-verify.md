@@ -1,5 +1,5 @@
 - [«gnupg_sign](function.gnupg-sign.md)
-- [wkhtmltox »] (book.wkhtmltox.md)
+- [wkhtmltox »](book.wkhtmltox.md)
 
 - [PHP Manual](index.md)
 - [GnuPG Функції](ref.gnupg.md)

@@ -1,7 +1,5 @@
-- [«
-CollectionFind::execute](mysql-xdevapi-collectionfind.execute.md)
-- [CollectionFind::groupBy
-»](mysql-xdevapi-collectionfind.groupby.md)
+- [« CollectionFind::execute](mysql-xdevapi-collectionfind.execute.md)
+- [CollectionFind::groupBy »](mysql-xdevapi-collectionfind.groupby.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CollectionFind](class.mysql-xdevapi-collectionfind.md)

@@ -2,7 +2,7 @@
 - [Спостерігачі »](ev.watchers.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Приклади
 
 # Приклади

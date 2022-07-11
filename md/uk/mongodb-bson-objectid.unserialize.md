@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.md)
+- [« MongoDB\BSON\ObjectId::\_\_toString](mongodb-bson-objectid.tostring.md)
 - [MongoDB\BSON\Regex »](class.mongodb-bson-regex.md)
 
 - [PHP Manual](index.md)

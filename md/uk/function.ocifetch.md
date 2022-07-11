@@ -1,5 +1,5 @@
 - [« ociexecute](function.ociexecute.md)
-- [ocifetchinto»] (function.ocifetchinto.md)
+- [ocifetchinto»](function.ocifetchinto.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

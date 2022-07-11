@@ -1,5 +1,5 @@
 - [« Обробник сесій WinCache](wincache.sessionhandler.md)
-- [Типи ресурсів»] (wincache.resources.md)
+- [Типи ресурсів»](wincache.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](wincache.setup.md)
@@ -39,7 +39,8 @@ WinCache включає оптимізовані під Windows реалізац
 **Приклад #1 Увімкнення перенаправлення функцій у WinCache**
 
 ``` php.inicode
-wincache.rerouteini u003d C:\PHPeroute.ini
+wincache.rerouteini u003d C:\PHP
+eroute.ini
 ````
 
 > **Примітка**: Якщо перенаправлення функцій увімкнено, рекомендується

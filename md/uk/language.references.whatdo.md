@@ -7,12 +7,9 @@
 
 ## Що роблять посилання
 
-Є три основні операції з використанням посилань: [присвоєння по
-ссылке](language.references.whatdo.md#language.references.whatdo.assign),
-[передача по
-ссылке](language.references.whatdo.md#language.references.whatdo.pass)
-і [повернення
-ссылке](language.references.whatdo.md#language.references.whatdo.return).
+Є три основні операції з використанням посилань: [присвоєння по ссылке](language.references.whatdo.md#language.references.whatdo.assign),
+[передача по ссылке](language.references.whatdo.md#language.references.whatdo.pass)
+і [повернення ссылке](language.references.whatdo.md#language.references.whatdo.return).
 Цей розділ познайомить вас з цими операціями та надасть посилання на
 подальшого вивчення.
 
@@ -69,8 +66,7 @@
 
 > **Примітка**:
 >
-> При використанні змінної-посилання в
-> [foreach](control-structures.foreach.md), змінюється зміст, на
+> При використанні змінної-посилання в > [foreach](control-structures.foreach.md), змінюється зміст, на
 > яке вона посилається.
 >
 > **Приклад #3 Посилання та foreach**
@@ -109,5 +105,4 @@
 
 ### Повернення за посиланням
 
-Третє, що можуть робити посилання - це [повернення
-ссылке](language.references.return.md).
+Третє, що можуть робити посилання - це [повернення ссылке](language.references.return.md).

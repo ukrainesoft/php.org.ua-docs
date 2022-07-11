@@ -1,6 +1,5 @@
 - [« Swoole\Http\Response::gzip](swoole-http-response.gzip.md)
-- [Swoole\Http\Response::initHeader
-»](swoole-http-response.initheader.md)
+- [Swoole\Http\Response::initHeader »](swoole-http-response.initheader.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Response](class.swoole-http-response.md)

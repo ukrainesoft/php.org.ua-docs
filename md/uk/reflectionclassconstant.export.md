@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.md)
-- [ReflectionClassConstant::getAttributes
-»](reflectionclassconstant.getattributes.md)
+- [« ReflectionClassConstant::\_\_construct](reflectionclassconstant.construct.md)
+- [ReflectionClassConstant::getAttributes »](reflectionclassconstant.getattributes.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

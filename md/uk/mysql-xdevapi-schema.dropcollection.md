@@ -1,7 +1,5 @@
-- [«
-Schema::createCollection](mysql-xdevapi-schema.createcollection.md)
-- [Schema::existsInDatabase
-»](mysql-xdevapi-schema.existsindatabase.md)
+- [« Schema::createCollection](mysql-xdevapi-schema.createcollection.md)
+- [Schema::existsInDatabase »](mysql-xdevapi-schema.existsindatabase.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)

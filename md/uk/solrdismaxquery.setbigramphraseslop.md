@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.md)
-- [SolrDisMaxQuery::setBoostFunction
-»](solrdismaxquery.setboostfunction.md)
+- [« SolrDisMaxQuery::setBigramPhraseFields](solrdismaxquery.setbigramphrasefields.md)
+- [SolrDisMaxQuery::setBoostFunction »](solrdismaxquery.setboostfunction.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

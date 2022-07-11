@@ -1,5 +1,4 @@
-- [«
-mcrypt_module_is_block_algorithm](function.mcrypt-module-is-block-algorithm.md)
+- [« mcrypt_module_is_block_algorithm](function.mcrypt-module-is-block-algorithm.md)
 - [mcrypt_module_open »](function.mcrypt-module-open.md)
 
 - [PHP Manual](index.md)

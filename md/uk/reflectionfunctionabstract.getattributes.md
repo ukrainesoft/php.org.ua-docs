@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md)
-- [ReflectionFunctionAbstract::getClosureScopeClass
-»](reflectionfunctionabstract.getclosurescopeclass.md)
+- [« ReflectionFunctionAbstract::\_\_clone](reflectionfunctionabstract.clone.md)
+- [ReflectionFunctionAbstract::getClosureScopeClass »](reflectionfunctionabstract.getclosurescopeclass.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

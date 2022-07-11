@@ -1,4 +1,4 @@
-- [« mysql_xdevapi \ Client] (class.mysql-xdevapi-client.md)
+- [« mysql_xdevapi \ Client](class.mysql-xdevapi-client.md)
 - [Client::\_\_construct »](mysql-xdevapi-client.construct.md)
 
 - [PHP Manual](index.md)

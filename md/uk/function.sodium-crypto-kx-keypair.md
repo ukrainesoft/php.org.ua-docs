@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_kx_client_session_keys](function.sodium-crypto-kx-client-session-keys.md)
-- [sodium_crypto_kx_publickey
-»](function.sodium-crypto-kx-publickey.md)
+- [« sodium_crypto_kx_client_session_keys](function.sodium-crypto-kx-client-session-keys.md)
+- [sodium_crypto_kx_publickey »](function.sodium-crypto-kx-publickey.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

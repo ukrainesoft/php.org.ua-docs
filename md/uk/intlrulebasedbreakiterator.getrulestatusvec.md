@@ -1,7 +1,5 @@
-- [«
-IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md)
-- [IntlCodePointBreakIterator
-»](class.intlcodepointbreakiterator.md)
+- [« IntlRuleBasedBreakIterator::getRuleStatus](intlrulebasedbreakiterator.getrulestatus.md)
+- [IntlCodePointBreakIterator »](class.intlcodepointbreakiterator.md)
 
 - [PHP Manual](index.md)
 - [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)

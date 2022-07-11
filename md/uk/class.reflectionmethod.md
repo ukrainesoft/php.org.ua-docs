@@ -1,5 +1,4 @@
-- [«
-ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md)
+- [« ReflectionFunctionAbstract::\_\_toString](reflectionfunctionabstract.tostring.md)
 - [ReflectionMethod::\_\_construct »](reflectionmethod.construct.md)
 
 - [PHP Manual](index.md)

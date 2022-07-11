@@ -1,7 +1,5 @@
-- [«
-CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md)
-- [CrudOperationSortable::sort
-»](mysql-xdevapi-crudoperationsortable.sort.md)
+- [« CrudOperationSkippable::skip](mysql-xdevapi-crudoperationskippable.skip.md)
+- [CrudOperationSortable::sort »](mysql-xdevapi-crudoperationsortable.sort.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

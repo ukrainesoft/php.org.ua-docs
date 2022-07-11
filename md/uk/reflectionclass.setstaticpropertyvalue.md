@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)
+- [« ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)
 - [ReflectionClass::\_\_toString »](reflectionclass.tostring.md)
 
 - [PHP Manual](index.md)

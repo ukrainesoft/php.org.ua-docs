@@ -1,6 +1,5 @@
 - [« MongoDB\BSON\Regex::serialize](mongodb-bson-regex.serialize.md)
-- [MongoDB\BSON\Regex::unserialize
-»](mongodb-bson-regex.unserialize.md)
+- [MongoDB\BSON\Regex::unserialize »](mongodb-bson-regex.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
@@ -38,5 +37,4 @@ string(8) "/regex/i"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -22,8 +22,7 @@ ImageMagick 6.5.7 або старше.
 ### Список параметрів
 
 `COLORSPACE`
-Одна з [констант
-COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
+Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
 
 ### Значення, що повертаються
 

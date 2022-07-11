@@ -1,6 +1,5 @@
 - [« SolrParams::unserialize](solrparams.unserialize.md)
-- [SolrModifiableParams::\_\_construct
-»](solrmodifiableparams.construct.md)
+- [SolrModifiableParams::\_\_construct »](solrmodifiableparams.construct.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

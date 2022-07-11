@@ -1,5 +1,4 @@
-- [«
-Vtiful\Kernel\Excel::insertText](vtiful-kernel-excel.insertText.md)
+- [« Vtiful\Kernel\Excel::insertText](vtiful-kernel-excel.insertText.md)
 - [Vtiful\Kernel\Excel::output »](vtiful-kernel-excel.output.md)
 
 - [PHP Manual](index.md)

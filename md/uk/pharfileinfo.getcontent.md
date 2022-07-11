@@ -1,5 +1,4 @@
-- [«
-PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)
+- [« PharFileInfo::getCompressedSize](pharfileinfo.getcompressedsize.md)
 - [PharFileInfo::getMetadata »](pharfileinfo.getmetadata.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-Componere\Abstract\Definition::getReflector](componere-abstract-definition.getreflector.md)
-- [Componere\Definition::\_\_construct
-»](componere-definition.construct.md)
+- [« Componere\Abstract\Definition::getReflector](componere-abstract-definition.getreflector.md)
+- [Componere\Definition::\_\_construct »](componere-definition.construct.md)
 
 - [PHP Manual](index.md)
 - [Componere](book.componere.md)

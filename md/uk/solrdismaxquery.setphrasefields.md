@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.md)
-- [SolrDisMaxQuery::setPhraseSlop
-»](solrdismaxquery.setphraseslop.md)
+- [« SolrDisMaxQuery::setMinimumMatch](solrdismaxquery.setminimummatch.md)
+- [SolrDisMaxQuery::setPhraseSlop »](solrdismaxquery.setphraseslop.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

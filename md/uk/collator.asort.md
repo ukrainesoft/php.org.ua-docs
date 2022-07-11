@@ -80,8 +80,7 @@ array (
 
 ### Дивіться також
 
-- [Константи
-[Collator](class.collator.md)](class.collator.md#intl.collator-constants)
+- [Константи [Collator](class.collator.md)](class.collator.md#intl.collator-constants)
 - [collator_sort()](collator.sort.md) - Сортує масив з
 використанням зазначеного засобу сортування
 - [collator_sort_with_sort_keys()](collator.sortwithsortkeys.md) -

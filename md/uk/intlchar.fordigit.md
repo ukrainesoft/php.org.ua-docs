@@ -1,6 +1,5 @@
 - [« IntlChar::foldCase](intlchar.foldcase.md)
-- [IntlChar::getBidiPairedBracket
-»](intlchar.getbidipairedbracket.md)
+- [IntlChar::getBidiPairedBracket »](intlchar.getbidipairedbracket.md)
 
 - [PHP Manual](index.md)
 - [IntlChar](class.intlchar.md)

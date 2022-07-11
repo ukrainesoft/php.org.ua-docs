@@ -24,5 +24,4 @@
 - [UnitEnum](class.unitenum.md)
 - [BackedEnum](class.backedenum.md)
 
-Дивіться також [Інтерфейси SPL](spl.interfaces.md) та [Предвизначені
-класи](reserved.classes.md).
+Дивіться також [Інтерфейси SPL](spl.interfaces.md) та [Предвизначені класи](reserved.classes.md).

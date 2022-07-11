@@ -1,5 +1,4 @@
-- [«
-fann_scale_output_train_data](function.fann-scale-output-train-data.md)
+- [« fann_scale_output_train_data](function.fann-scale-output-train-data.md)
 - [fann_scale_train_data »](function.fann-scale-train-data.md)
 
 - [PHP Manual](index.md)

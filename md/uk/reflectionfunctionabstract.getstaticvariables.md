@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md)
-- [ReflectionFunctionAbstract::getTentativeReturnType
-»](reflectionfunctionabstract.gettentativereturntype.md)
+- [« ReflectionFunctionAbstract::getStartLine](reflectionfunctionabstract.getstartline.md)
+- [ReflectionFunctionAbstract::getTentativeReturnType »](reflectionfunctionabstract.gettentativereturntype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

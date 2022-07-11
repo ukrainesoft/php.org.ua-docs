@@ -1,5 +1,5 @@
 - [« Установка](yaz.installation.md)
-- [Типи ресурсів»] (yaz.resources.md)
+- [Типи ресурсів»](yaz.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](yaz.setup.md)

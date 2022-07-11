@@ -12,7 +12,7 @@
 - [Вимоги](fileinfo.requirements.md)
 - [Установка](fileinfo.installation.md)
 - [Налаштування під час виконання](fileinfo.configuration.md)
-- [Типи ресурсів] (fileinfo.resources.md)
+- [Типи ресурсів](fileinfo.resources.md)
 - [Предвизначені константи](fileinfo.constants.md)
 - [Функції модуля Fileinfo](ref.fileinfo.md)
 - [finfo_buffer](function.finfo-buffer.md) - Повертає

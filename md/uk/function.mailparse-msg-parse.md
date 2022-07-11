@@ -1,6 +1,5 @@
 - [«mailparse_msg_parse_file](function.mailparse-msg-parse-file.md)
-- [mailparse_rfc822_parse_addresses
-»](function.mailparse-rfc822-parse-addresses.md)
+- [mailparse_rfc822_parse_addresses »](function.mailparse-rfc822-parse-addresses.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

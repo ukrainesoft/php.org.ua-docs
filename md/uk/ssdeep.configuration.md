@@ -1,5 +1,5 @@
 - [« Установка](ssdeep.installation.md)
-- [Типи ресурсів»] (ssdeep.resources.md)
+- [Типи ресурсів»](ssdeep.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](ssdeep.setup.md)

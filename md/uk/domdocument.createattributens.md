@@ -1,6 +1,5 @@
 - [« DOMDocument::createAttribute](domdocument.createattribute.md)
-- [DOMDocument::createCDATASection
-»](domdocument.createcdatasection.md)
+- [DOMDocument::createCDATASection »](domdocument.createcdatasection.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

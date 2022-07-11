@@ -1,5 +1,4 @@
-- [«
-Swoole\WebSocket\Server::unpack](swoole-websocket-server.unpack.md)
+- [« Swoole\WebSocket\Server::unpack](swoole-websocket-server.unpack.md)
 - [Вступ »](intro.tidy.md)
 
 - [PHP Manual](index.md)

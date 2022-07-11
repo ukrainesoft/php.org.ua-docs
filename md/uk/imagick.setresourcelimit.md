@@ -22,12 +22,10 @@ bool
 ### Список параметрів
 
 `type`
-Зверніться до списку [констант
-RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes).
+Зверніться до списку [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes).
 
 `limit`
-Одна з [констант
-RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes).
+Одна з [констант RESOURCETYPE](imagick.constants.md#imagick.constants.resourcetypes).
 Одиниця виміру залежить від типу ресурсу, що обмежується.
 
 ### Значення, що повертаються

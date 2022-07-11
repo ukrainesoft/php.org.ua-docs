@@ -1,6 +1,5 @@
 - [«ldap_connect](function.ldap-connect.md)
-- [ldap_control_paged_result
-»](function.ldap-control-paged-result.md)
+- [ldap_control_paged_result »](function.ldap-control-paged-result.md)
 
 - [PHP Manual](index.md)
 - [Функції LDAP](ref.ldap.md)
@@ -17,8 +16,7 @@ ldap_control_paged_result_response — Отримати вказівник на 
 
 Функція була оголошена *УСТАРНІЙ* у PHP 7.4.0 та *Видалена* у PHP 8.0.0.
 Замість неї слід використовувати параметр `controls`
-[ldap_search()](function.ldap-search.md). Дивіться також [Управляючі
-об'єкти LDAP](ldap.controls.md) для отримання додаткової
+[ldap_search()](function.ldap-search.md). Дивіться також [Управляючі об'єкти LDAP](ldap.controls.md) для отримання додаткової
 інформації.
 
 ### Опис
@@ -53,10 +51,10 @@ int `&$estimated` u003d ?
 
 ### Список змін
 
-| Версія | Опис |
+| Версія | Опис                          |
 |--------|-------------------------------|
-| 8.0.0 | Функцію було видалено. |
-| 7.4.0 | Функція оголошена застарілою. |
+| 8.0.0  | Функцію було видалено.        |
+| 7.4.0  | Функція оголошена застарілою. |
 
 ### Дивіться також
 
@@ -64,5 +62,4 @@ int `&$estimated` u003d ?
 Надіслати серверу LDAP дані для використання посторінкового
 отримання результату
 - [» RFC2696 : Модуль управління LDAP для простих маніпуляцій
-постранично повертається
-результатом](http://www.faqs.org/rfcs/rfc2696)
+постранично повертається результатом](http://www.faqs.org/rfcs/rfc2696)

@@ -2,7 +2,7 @@
 - [EventConfig »](class.eventconfig.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Про callback-функції подійного буфера
 
 # Про callback-функції подійного буфера
@@ -44,8 +44,7 @@ Callback-функції подій повинні відповідати нас�
 Бітова маска подій: **`EventBufferEvent::READING`** ,
 **`EventBufferEvent::WRITING`** , **`EventBufferEvent::EOL`** ,
 **`EventBufferEvent::ERROR`** та **`EventBufferEvent::TIMEOUT`** .
-Дивіться [Константи
-EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
+Дивіться [Константи EventBufferEvent](class.eventbufferevent.md#eventbufferevent.constants)
 
 `arg`
 Дані користувача прив'язані до всіх callback-функцій через

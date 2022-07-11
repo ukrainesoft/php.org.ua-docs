@@ -1,6 +1,5 @@
 - [« Функції ssdeep](ref.ssdeep.md)
-- [ssdeep_fuzzy_hash_filename
-»](function.ssdeep-fuzzy-hash-filename.md)
+- [ssdeep_fuzzy_hash_filename »](function.ssdeep-fuzzy-hash-filename.md)
 
 - [PHP Manual](index.md)
 - [Функції ssdeep](ref.ssdeep.md)
@@ -18,8 +17,7 @@ ssdeep_fuzzy_compare - Обчислює схожість двох сигнату
 int
 
 Обчислює величину збігу між `signature1` та `signature2`,
-використовуючи [»  контекстно-переключається часткове
-хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
+використовуючи [»  контекстно-переключається часткове хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
 повертає її.
 
 ### Список параметрів

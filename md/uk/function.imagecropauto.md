@@ -1,5 +1,5 @@
 - [«imagecrop](function.imagecrop.md)
-- [imagedashedline »] (function.imagedashedline.md)
+- [imagedashedline »](function.imagedashedline.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

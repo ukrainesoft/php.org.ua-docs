@@ -1,5 +1,5 @@
 - [«imageaffinematrixget](function.imageaffinematrixget.md)
-- [imageantialias »] (function.imageantialias.md)
+- [imageantialias »](function.imageantialias.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

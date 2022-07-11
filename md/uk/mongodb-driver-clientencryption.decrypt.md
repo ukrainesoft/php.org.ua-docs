@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.md)
-- [MongoDB\Driver\ClientEncryption::encrypt
-»](mongodb-driver-clientencryption.encrypt.md)
+- [« MongoDB\Driver\ClientEncryption::createDataKey](mongodb-driver-clientencryption.createdatakey.md)
+- [MongoDB\Driver\ClientEncryption::encrypt »](mongodb-driver-clientencryption.encrypt.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)

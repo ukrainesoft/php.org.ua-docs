@@ -1,5 +1,5 @@
 - [«uniqid](function.uniqid.md)
-- [usleep »] (function.usleep.md)
+- [usleep »](function.usleep.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

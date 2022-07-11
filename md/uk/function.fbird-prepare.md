@@ -1,5 +1,5 @@
 - [«fbird_pconnect](function.fbird-pconnect.md)
-- [fbird_query»] (function.fbird-query.md)
+- [fbird_query»](function.fbird-query.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

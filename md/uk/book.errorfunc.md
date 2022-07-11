@@ -1,5 +1,4 @@
-- [« Componer
-- [Вступ »](intro.errorfunc.md)
+- [« Componer - [Вступ »](intro.errorfunc.md)
 
 - [PHP Manual](index.md)
 - [Зміна поведінки PHP](refs.basic.php.md)

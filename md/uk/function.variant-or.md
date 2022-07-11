@@ -1,5 +1,5 @@
 - [« variant_not](function.variant-not.md)
-- [variant_pow »] (function.variant-pow.md)
+- [variant_pow »](function.variant-pow.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)
@@ -49,16 +49,16 @@ variant_or — Побітове АБО над двома варіантами
 ### Значення, що повертаються
 
 | Якщо `left` | Якщо `right` | Тоді результат |
-|-------------|--------------|-----------------|
-| **`true`** | **`true`** | **`true`** |
-| **`true`** | **`false`** | **`true`** |
-| **`true`** | **`null`** | **`true`** |
-| **`false`** | **`true`** | **`true`** |
-| **`false`** | **`false`** | **`false`** |
-| **`false`** | **`null`** | **`null`** |
-| **`null`** | **`true`** | **`true`** |
-| **`null`** | **`false`** | **`null`** |
-| **`null`** | **`null`** | **`null`** |
+|-------------|--------------|----------------|
+| **`true`**  | **`true`**   | **`true`**     |
+| **`true`**  | **`false`**  | **`true`**     |
+| **`true`**  | **`null`**   | **`true`**     |
+| **`false`** | **`true`**   | **`true`**     |
+| **`false`** | **`false`**  | **`false`**    |
+| **`false`** | **`null`**   | **`null`**     |
+| **`null`**  | **`true`**   | **`true`**     |
+| **`null`**  | **`false`**  | **`null`**     |
+| **`null`**  | **`null`**   | **`null`**     |
 
 **Правила побитового АБО над варіантами**
 

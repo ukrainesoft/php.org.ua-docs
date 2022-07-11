@@ -24,8 +24,7 @@ public static **DateInterval::createFromDateString**(string
 
 `datetime`
 Дата, що складається з відносних часових фрагментів. Зокрема, для
-створення об'єкта DateInterval з частин, записаних у [відносному
-форматі](datetime.formats.relative.md), який підтримується
+створення об'єкта DateInterval з частин, записаних у [відносному форматі](datetime.formats.relative.md), який підтримується
 парсером у функціях [DateTimeImmutable](class.datetimeimmutable.md),
 [DateTime](class.datetime.md) та
 [strtotime()](function.strtotime.md).

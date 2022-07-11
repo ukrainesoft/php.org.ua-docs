@@ -1,6 +1,5 @@
 - [«fdf_set_opt](function.fdf-set-opt.md)
-- [fdf_set_submit_form_action
-»](function.fdf-set-submit-form-action.md)
+- [fdf_set_submit_form_action »](function.fdf-set-submit-form-action.md)
 
 - [PHP Manual](index.md)
 - [FDF](ref.fdf.md)

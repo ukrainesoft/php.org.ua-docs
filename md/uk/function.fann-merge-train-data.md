@@ -1,6 +1,5 @@
 - [« fann_length_train_data](function.fann-length-train-data.md)
-- [fann_num_input_train_data
-»](function.fann-num-input-train-data.md)
+- [fann_num_input_train_data »](function.fann-num-input-train-data.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

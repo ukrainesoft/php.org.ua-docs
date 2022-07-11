@@ -46,7 +46,7 @@ PHP вже надає деякі ітератори для багатьох по
 
 Цей приклад демонструє в якому порядку викликаються методи, коли
 використовується з ітератором оператор
-[foreach] (control-structures.foreach.md).
+[foreach](control-structures.foreach.md).
 
 `<?phpclass myIterator implements Iterator {    private $position u003d 0; private $array u003d array(        "firstelement",       "secondelement",        "lastelement",    ); public function __construct() {         $this->position u003d 0; }    public function rewind(): void {        var_dump(__METHOD__); $this->positionu003du003d0; }   #[\ReturnTypeWillChange]    public function current() {       var_dump(__METHOD__); return $this->array[$this->position]; }   #[\ReturnTypeWillChange]    public function key() {       var_dump(__METHOD__); return $this->position; }    public function next(): void {        var_dump(__METHOD__); ++$this->position; }    public function valid(): bool {       var_dump(__METHOD__); return isset($this->array[$this->position]); }}$it u003d new myIterator;foreach($it as $key u003d> $value) {    var_dump($key, $value); echo "
 ";}?> `
@@ -79,8 +79,7 @@ string(17) "myIterator::valid"
 
 ## Дивіться також
 
-Дивіться також розділ [Ітератори
-об'єктів] (language.oop5.iterations.md).
+Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.md).
 
 ## Зміст
 

@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::addFile](swoole-coroutine-http-client.addfile.md)
-- [Swoole\Coroutine\Http\Client::\_\_construct
-»](swoole-coroutine-http-client.construct.md)
+- [« Swoole\Coroutine\Http\Client::addFile](swoole-coroutine-http-client.addfile.md)
+- [Swoole\Coroutine\Http\Client::\_\_construct »](swoole-coroutine-http-client.construct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

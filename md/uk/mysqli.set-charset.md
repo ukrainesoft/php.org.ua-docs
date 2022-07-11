@@ -75,8 +75,7 @@ public **mysqli::set_charset**(string `$charset`): bool
 >
 > Це найкращий спосіб завдання набору символів. Використання для
 > цілей функції [mysqli_query()](mysqli.query.md) (наприклад
-> `SET NAMES utf8`) не рекомендується. Додатково дивіться [Набори
-> символи MySQL](mysqlinfo.concepts.charset.md).
+> `SET NAMES utf8`) не рекомендується. Додатково дивіться [Набори > символи MySQL](mysqlinfo.concepts.charset.md).
 
 ### Дивіться також
 
@@ -86,5 +85,4 @@ public **mysqli::set_charset**(string `$charset`): bool
 Екранує спеціальні символи в рядку для використання в
 SQL-вираз, використовуючи поточний набір символів з'єднання
 - [Концепції кодувань MySQL](mysqlinfo.concepts.charset.md)
-- [» Список підтримуваних MySQL наборів
-символів](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)
+- [» Список підтримуваних MySQL наборів символів](http://dev.mysql.com/doc/mysql/en/charset-charsets.md)

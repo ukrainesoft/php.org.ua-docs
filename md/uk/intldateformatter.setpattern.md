@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::setLenient](intldateformatter.setlenient.md)
-- [IntlDateFormatter::setTimeZone
-»](intldateformatter.settimezone.md)
+- [IntlDateFormatter::setTimeZone »](intldateformatter.settimezone.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

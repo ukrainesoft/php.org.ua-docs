@@ -1,5 +1,4 @@
-- [« Стандартні проблеми PHP під
-Windows](install.windows.troubleshooting.md)
+- [« Стандартні проблеми PHP під Windows](install.windows.troubleshooting.md)
 - [Azure App Services »](install.cloud.azure.md)
 
 - [PHP Manual](index.md)

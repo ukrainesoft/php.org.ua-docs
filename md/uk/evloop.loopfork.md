@@ -18,8 +18,7 @@ public **EvLoop::loopFork**(): void
 Повинен викликатися після розгалуження в дочірньому елементі, перед входом
 чи продовженням циклу подій. Альтернативою є використання
 **`Ev::FLAG_FORKCHECK`**, яка викликає цю функцію автоматично при
-деяку втрату продуктивності (дивіться [» документацію
-libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)).
+деяку втрату продуктивності (дивіться [» документацію libev](http://pod.tst.eu/http://cvs.schmorp.de/libev/ev.pod#FUNCTIONS_CONTROLLING_EVENT_LOOPS)).
 
 ### Список параметрів
 

@@ -1,5 +1,5 @@
 - [«eio_close](function.eio-close.md)
-- [eio_dup2 »] (function.eio-dup2.md)
+- [eio_dup2 »](function.eio-dup2.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

@@ -1,5 +1,5 @@
 - [«bcpowmod](function.bcpowmod.md)
-- [bcsqrt »] (function.bcsqrt.md)
+- [bcsqrt »](function.bcsqrt.md)
 
 - [PHP Manual](index.md)
 - [Функції BC Math](ref.bc.md)

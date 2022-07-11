@@ -1,5 +1,5 @@
 - [«Зумовлені константи](errorfunc.constants.md)
-- [Функції обробки помилок»] (ref.errorfunc.md)
+- [Функції обробки помилок»](ref.errorfunc.md)
 
 - [PHP Manual](index.md)
 - [Обробка помилок](book.errorfunc.md)

@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)
-- [ReflectionFunctionAbstract::getReturnType
-»](reflectionfunctionabstract.getreturntype.md)
+- [« ReflectionFunctionAbstract::getNumberOfRequiredParameters](reflectionfunctionabstract.getnumberofrequiredparameters.md)
+- [ReflectionFunctionAbstract::getReturnType »](reflectionfunctionabstract.getreturntype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

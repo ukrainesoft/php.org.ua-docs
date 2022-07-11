@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Javascript::\_\_toString](mongodb-bson-javascript.tostring.md)
+- [« MongoDB\BSON\Javascript::\_\_toString](mongodb-bson-javascript.tostring.md)
 - [MongoDB\BSON\MaxKey »](class.mongodb-bson-maxkey.md)
 
 - [PHP Manual](index.md)

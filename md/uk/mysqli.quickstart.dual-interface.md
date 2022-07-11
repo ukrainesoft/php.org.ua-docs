@@ -74,4 +74,4 @@ mysqli-функції приймають дескриптор з'єднання 
 - [$mysqli::connect_error](mysqli.connect-error.md)
 - [$mysqli::errno](mysqli.errno.md)
 - [$mysqli::error](mysqli.error.md)
-- [Загальний опис функцій модуля MySQLi] (mysqli.summary.md)
+- [Загальний опис функцій модуля MySQLi](mysqli.summary.md)

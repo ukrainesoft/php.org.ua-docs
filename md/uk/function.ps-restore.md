@@ -1,5 +1,5 @@
 - [«ps_rect](function.ps-rect.md)
-- [ps_rotate »] (function.ps-rotate.md)
+- [ps_rotate »](function.ps-rotate.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

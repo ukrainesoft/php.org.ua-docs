@@ -1,6 +1,5 @@
 - [« Yaf_Dispatcher::enableView](yaf-dispatcher.enableview.md)
-- [Yaf_Dispatcher::getApplication
-»](yaf-dispatcher.getapplication.md)
+- [Yaf_Dispatcher::getApplication »](yaf-dispatcher.getapplication.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

@@ -1,7 +1,5 @@
-- [« Використання просторів імен: імпорт / створення псевдоніма
-імені](language.namespaces.importing.md)
-- [Використання просторів імен: перехід до глобальної
-функції/константі »](language.namespaces.fallback.md)
+- [« Використання просторів імен: імпорт / створення псевдоніма імені](language.namespaces.importing.md)
+- [Використання просторів імен: перехід до глобальної функції/константі »](language.namespaces.fallback.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)

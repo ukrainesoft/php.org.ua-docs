@@ -1,6 +1,5 @@
 - [« Transliterator::\_\_construct](transliterator.construct.md)
-- [Transliterator::createFromRules
-»](transliterator.createfromrules.md)
+- [Transliterator::createFromRules »](transliterator.createfromrules.md)
 
 - [PHP Manual](index.md)
 - [Transliterator](class.transliterator.md)

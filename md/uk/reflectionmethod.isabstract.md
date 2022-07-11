@@ -1,6 +1,5 @@
 - [« ReflectionMethod::invokeArgs](reflectionmethod.invokeargs.md)
-- [ReflectionMethod::isConstructor
-»](reflectionmethod.isconstructor.md)
+- [ReflectionMethod::isConstructor »](reflectionmethod.isconstructor.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)

@@ -1,5 +1,4 @@
-- [«
-SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.md)
+- [« SqlStatementResult::hasData](mysql-xdevapi-sqlstatementresult.hasdata.md)
 - [mysql_xdevapi\Statement »](class.mysql-xdevapi-statement.md)
 
 - [PHP Manual](index.md)

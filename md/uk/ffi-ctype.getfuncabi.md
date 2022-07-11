@@ -1,6 +1,5 @@
 - [« FFI\CType::getEnumKind](ffi-ctype.getenumkind.md)
-- [FFI\CType::getFuncParameterCount
-»](ffi-ctype.getfuncparametercount.md)
+- [FFI\CType::getFuncParameterCount »](ffi-ctype.getfuncparametercount.md)
 
 - [PHP Manual](index.md)
 - [FFI\CType](class.ffi-ctype.md)

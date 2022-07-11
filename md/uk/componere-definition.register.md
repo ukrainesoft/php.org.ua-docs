@@ -1,7 +1,5 @@
-- [«
-Componere\Definition::addProperty](componere-definition.addproperty.md)
-- [Componere\Definition::isRegistered
-»](componere-definition.isregistered.md)
+- [« Componere\Definition::addProperty](componere-definition.addproperty.md)
+- [Componere\Definition::isRegistered »](componere-definition.isregistered.md)
 
 - [PHP Manual](index.md)
 - [Componere\Definition](class.componere-definition.md)

@@ -1,7 +1,5 @@
-- [«
-ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.md)
-- [ColumnResult::getCollationName
-»](mysql-xdevapi-columnresult.getcollationname.md)
+- [« ColumnResult::\_\_construct](mysql-xdevapi-columnresult.construct.md)
+- [ColumnResult::getCollationName »](mysql-xdevapi-columnresult.getcollationname.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

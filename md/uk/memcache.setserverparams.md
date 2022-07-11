@@ -1,5 +1,4 @@
-- [«
-Memcache::setCompressThreshold](memcache.setcompressthreshold.md)
+- [« Memcache::setCompressThreshold](memcache.setcompressthreshold.md)
 - [Функції Memcache »](ref.memcache.md)
 
 - [PHP Manual](index.md)

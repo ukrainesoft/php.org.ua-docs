@@ -1,6 +1,5 @@
 - [« UConverter::getAliases](uconverter.getaliases.md)
-- [UConverter::getDestinationEncoding
-»](uconverter.getdestinationencoding.md)
+- [UConverter::getDestinationEncoding »](uconverter.getdestinationencoding.md)
 
 - [PHP Manual](index.md)
 - [UConverter](class.uconverter.md)

@@ -1,5 +1,5 @@
 - [«Безпека](security.md)
-- [Загальні міркування»] (security.general.md)
+- [Загальні міркування»](security.general.md)
 
 - [PHP Manual](index.md)
 - [Безпека](security.md)

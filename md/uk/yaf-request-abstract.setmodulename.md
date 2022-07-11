@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::setDispatched](yaf-request-abstract.setdispatched.md)
-- [Yaf_Request_Abstract::setParam
-»](yaf-request-abstract.setparam.md)
+- [« Yaf_Request_Abstract::setDispatched](yaf-request-abstract.setdispatched.md)
+- [Yaf_Request_Abstract::setParam »](yaf-request-abstract.setparam.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

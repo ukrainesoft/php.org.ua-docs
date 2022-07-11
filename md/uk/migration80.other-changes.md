@@ -1,5 +1,4 @@
-- [« Функціональність, оголошена застарілою в PHP
-8.0.x](migration80.deprecated.md)
+- [« Функціональність, оголошена застарілою в PHP 8.0.x](migration80.deprecated.md)
 - [Міграція з PHP 7.3.x на PHP 7.4.x »](migration74.md)
 
 - [PHP Manual](index.md)
@@ -32,8 +31,7 @@
 
 Математичні функції [abs()](function.abs.md),
 [ceil()](function.ceil.md), [floor()](function.floor.md) та
-[round()](function.round.md) тепер правильно враховують [оголошення
-`strict_type`](language.types.declarations.md#language.types.declarations.strict).
+[round()](function.round.md) тепер правильно враховують [оголошення `strict_type`](language.types.declarations.md#language.types.declarations.strict).
 Раніше вони наводили перший аргумент до числового значення навіть у режимі
 Суворої типізації.
 
@@ -165,7 +163,7 @@
 
 - com.dotnet_version – це нова INI-директива для вибору версії
 платформи .NET, яка використовуватиметься для об'єктів
-[Dotnet] (class.dotnet.md).
+[Dotnet](class.dotnet.md).
 
 - zend.exception_string_param_max_len – це нова INI-директива для
 встановлення максимальної довжини рядка в аргументі рядковий

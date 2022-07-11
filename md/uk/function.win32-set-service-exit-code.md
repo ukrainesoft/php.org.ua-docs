@@ -1,7 +1,5 @@
-- [«
-win32_send_custom_control](function.win32-send-custom-control.md)
-- [win32_set_service_exit_mode
-»](function.win32-set-service-exit-mode.md)
+- [« win32_send_custom_control](function.win32-send-custom-control.md)
+- [win32_set_service_exit_mode »](function.win32-set-service-exit-mode.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)
@@ -21,8 +19,7 @@ win32_set_service_exit_code — Визначає або повертає код 
 Змінює чи повертає код виходу. Код виходу використовується лише в тому
 якщо режим виходу не витончений. Якщо значення не дорівнює нулю,
 Ви можете використовувати конфігурацію відновлення після збою обслуговування.
-Дивіться [» коди системних помилок
-Microsoft](https://docs.microsoft.com/en-us/windows/desktop/debug/system-error-codes)
+Дивіться [» коди системних помилок Microsoft](https://docs.microsoft.com/en-us/windows/desktop/debug/system-error-codes)
 для отримання додаткових відомостей.
 
 **Застереження**

@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)
-- [DatabaseObject::getName
-»](mysql-xdevapi-databaseobject.getname.md)
+- [« mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)
+- [DatabaseObject::getName »](mysql-xdevapi-databaseobject.getname.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\DatabaseObject](class.mysql-xdevapi-databaseobject.md)

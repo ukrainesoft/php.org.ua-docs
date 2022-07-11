@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\MySQL::\_\_construct](swoole-coroutine-mysql.construct.md)
-- [Swoole\Coroutine\MySQL::getDefer
-»](swoole-coroutine-mysql.getdefer.md)
+- [« Swoole\Coroutine\MySQL::\_\_construct](swoole-coroutine-mysql.construct.md)
+- [Swoole\Coroutine\MySQL::getDefer »](swoole-coroutine-mysql.getdefer.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

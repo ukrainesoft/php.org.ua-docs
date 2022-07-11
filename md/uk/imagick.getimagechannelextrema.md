@@ -1,7 +1,5 @@
-- [«
-Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.md)
-- [Imagick::getImageChannelKurtosis
-»](imagick.getimagechannelkurtosis.md)
+- [« Imagick::getImageChannelDistortions](imagick.getimagechanneldistortions.md)
+- [Imagick::getImageChannelKurtosis »](imagick.getimagechannelkurtosis.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

@@ -1,6 +1,5 @@
 - [« SolrQuery::setMltMaxNumTokens](solrquery.setmltmaxnumtokens.md)
-- [SolrQuery::setMltMinDocFrequency
-»](solrquery.setmltmindocfrequency.md)
+- [SolrQuery::setMltMinDocFrequency »](solrquery.setmltmindocfrequency.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

@@ -1,5 +1,5 @@
 - [«pow](function.pow.md)
-- [rand »] (function.rand.md)
+- [rand »](function.rand.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

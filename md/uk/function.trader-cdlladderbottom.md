@@ -1,5 +1,4 @@
-- [«
-trader_cdlkickingbylength](function.trader-cdlkickingbylength.md)
+- [« trader_cdlkickingbylength](function.trader-cdlkickingbylength.md)
 - [trader_cdllongleggeddoji »](function.trader-cdllongleggeddoji.md)
 
 - [PHP Manual](index.md)

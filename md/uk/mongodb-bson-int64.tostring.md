@@ -1,6 +1,5 @@
 - [« MongoDB\BSON\Int64::serialize](mongodb-bson-int64.serialize.md)
-- [MongoDB\BSON\Int64::unserialize
-»](mongodb-bson-int64.unserialize.md)
+- [MongoDB\BSON\Int64::unserialize »](mongodb-bson-int64.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Int64](class.mongodb-bson-int64.md)
@@ -38,5 +37,4 @@ string(19) "9223372036854775807"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

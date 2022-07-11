@@ -1,5 +1,5 @@
 - [«ftruncate](function.ftruncate.md)
-- [glob »] (function.glob.md)
+- [glob »](function.glob.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

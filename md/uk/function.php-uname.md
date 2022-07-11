@@ -53,8 +53,7 @@ php_uname — Повертає інформацію про операційну 
 
 `<?phpecho php_uname();echo PHP_OS;/* Різні варіанти:Linux localhost 2.4.21-0.13mdk #1 Fri Mar 14 15:08:06 EST 2003 i8          :02 GMT 2001FreeBSDWindows NT XN1 5.1 build 2600WINNT*/if (strtoupper(substr(PHP_OS, 0, 3)) u003du003du003d 'WIN') {    echo 'Сервер работает под управлением Windows!';} else {    echo 'Сервер работает под управлінням ОС, відмінної від Windows!';}?> `
 
-Нижче наведено декілька [Предвизначених
-PHP-констант](language.constants.predefined.md), які можуть бути
+Нижче наведено декілька [Предвизначених PHP-констант](language.constants.predefined.md), які можуть бути
 виявитися корисними:
 
 **Приклад #2 Деякі константи OS**

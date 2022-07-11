@@ -1,10 +1,8 @@
 - [«Символьні класи](regexp.reference.character-classes.md)
-- [Встановлення внутрішніх опцій
-»](regexp.reference.internal-options.md)
+- [Встановлення внутрішніх опцій »](regexp.reference.internal-options.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Альтернативний вибір
 
 ## Альтернативний вибір

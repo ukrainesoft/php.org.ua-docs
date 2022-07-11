@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md)
-- [MongoDB\Driver\WriteConcern::getWtimeout
-»](mongodb-driver-writeconcern.getwtimeout.md)
+- [« MongoDB\Driver\WriteConcern::getJournal](mongodb-driver-writeconcern.getjournal.md)
+- [MongoDB\Driver\WriteConcern::getWtimeout »](mongodb-driver-writeconcern.getwtimeout.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -44,5 +42,4 @@ string(8) "majority"
 
 ### Дивіться також
 
-- [»Керівництво по гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [»Керівництво по гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

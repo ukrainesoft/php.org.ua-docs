@@ -69,13 +69,11 @@ ini-налаштування
 
 `dateType`
 Тип дати (**`none`**, **`short`**, **`medium`**, **`long`**,
-**`full`**). Одна з [констант
-IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants).
+**`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants).
 
 `timeType`
 Тип часу (**`none`**, **`short`**, **`medium`**, **`long`**,
-**`full`**). Одна з [констант
-IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants).
+**`full`**). Одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants).
 
 `timezone`
 Ідентифікатор часового поясу. За замовчуванням (і той, що використовується,
@@ -92,8 +90,7 @@ IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants).
 `calendar`
 Календар для форматування та аналізу. Значення за замовчуванням -
 **`null`**, що відповідає **`IntlDateFormatter::GREGORIAN`**. Може
-бути одна з [констант
-IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes)
+бути одна з [констант IntlDateFormatter](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes)
 або об'єкт [IntlCalendar](class.intlcalendar.md). Будь-який переданий
 об'єкт [IntlCalendar](class.intlcalendar.md) буде клонований; він не
 буде змінено [IntlDateFormatter](class.intldateformatter.md). Це

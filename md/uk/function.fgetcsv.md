@@ -1,5 +1,5 @@
 - [«fgetc](function.fgetc.md)
-- [fgets »] (function.fgets.md)
+- [fgets »](function.fgets.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

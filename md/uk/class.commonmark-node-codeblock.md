@@ -1,6 +1,5 @@
 - [«CommonMark\Node\Code](class.commonmark-node-code.md)
-- [CommonMark\Node\CodeBlock::\_\_construct
-»](commonmark-node-codeblock.construct.md)
+- [CommonMark\Node\CodeBlock::\_\_construct »](commonmark-node-codeblock.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

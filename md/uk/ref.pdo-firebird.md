@@ -15,7 +15,7 @@ PDO_FIREBIRD - драйвер, що реалізує інтерфейс PHP Data
 ## Установка
 
 Для встановлення модуля PDO Firebird використовуйте опцію
-**--with-pdo-firebird\[u003dDIR\]**, де `[u003dDIR]` вказує на директорію
+**--with-pdo-firebird[u003dDIR]**, де `[u003dDIR]` вказує на директорію
 установки Firebird.
 
 $ ./configure --with-pdo-firebird

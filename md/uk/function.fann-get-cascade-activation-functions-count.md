@@ -1,6 +1,5 @@
 - [« fann_get_bit_fail](function.fann-get-bit-fail.md)
-- [fann_get_cascade_activation_functions
-»](function.fann-get-cascade-activation-functions.md)
+- [fann_get_cascade_activation_functions »](function.fann-get-cascade-activation-functions.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

@@ -1,5 +1,4 @@
-- [« Основні відмінності від інших реалізацій
-SAPI] (features.commandline.differences.md)
+- [« Основні відмінності від інших реалізацій SAPI](features.commandline.differences.md)
 - [Використання »](features.commandline.usage.md)
 
 - [PHP Manual](index.md)

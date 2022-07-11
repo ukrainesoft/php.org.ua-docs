@@ -1,6 +1,5 @@
 - [« Swoole\Http\Client::close](swoole-http-client.close.md)
-- [Swoole\Http\Client::\_\_destruct
-»](swoole-http-client.destruct.md)
+- [Swoole\Http\Client::\_\_destruct »](swoole-http-client.destruct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Client](class.swoole-http-client.md)

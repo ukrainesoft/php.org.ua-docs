@@ -10,11 +10,7 @@
 ## Зміст
 
 - [Можливі атаки](security.cgi-bin.attacks.md)
-- [Варіант 1: обслуговуються лише загальнодоступні
-файли](security.cgi-bin.default.md)
-- [Варіант 2: Використання
-cgi.force_redirect](security.cgi-bin.force-redirect.md)
-- [Варіант 3: використання опцій doc_root або
-user_dir](security.cgi-bin.doc-root.md)
-- [Варіант 4: PHP поза деревом
-веб-документів](security.cgi-bin.shell.md)
+- [Варіант 1: обслуговуються лише загальнодоступні файли](security.cgi-bin.default.md)
+- [Варіант 2: Використання cgi.force_redirect](security.cgi-bin.force-redirect.md)
+- [Варіант 3: використання опцій doc_root або user_dir](security.cgi-bin.doc-root.md)
+- [Варіант 4: PHP поза деревом веб-документів](security.cgi-bin.shell.md)

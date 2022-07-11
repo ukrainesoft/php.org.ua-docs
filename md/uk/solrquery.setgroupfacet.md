@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.md)
+- [« SolrQuery::setGroupCachePercent](solrquery.setgroupcachepercent.md)
 - [SolrQuery::setGroupFormat »](solrquery.setgroupformat.md)
 
 - [PHP Manual](index.md)

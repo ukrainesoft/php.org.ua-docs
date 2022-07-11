@@ -42,8 +42,7 @@ OpenSSL вже налаштований для використання хоро
 ### Оновлені шифри за замовчуванням
 
 Список стандартних шифрів, що використовуються PHP, був оновлений на більш
-безпечний відповідно до [»  рекомендацій щодо шифрів від
-Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite),
+безпечний відповідно до [»  рекомендацій щодо шифрів від Mozilla](https://wiki.mozilla.org/Security/Server_Side_TLS#Recommended_Ciphersuite),
 з двома додатковими винятками: анонімні шифри Діффі-Хеллмана та
 RC4.
 

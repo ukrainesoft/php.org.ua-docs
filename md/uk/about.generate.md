@@ -7,19 +7,16 @@
 
 ## Як створюються формати документації
 
-Цей посібник написано на XML з використанням [» DocBook XML
-DTD](http://www.oasis-open.org/docbook/xml/), за допомогою
-[»PhD](https://wiki.php.net/doc/phd/) (The [PH\]P based \[D\]ocBook
+Цей посібник написано на XML з використанням [» DocBook XML DTD](http://www.oasis-open.org/docbook/xml/), за допомогою
+[»PhD](https://wiki.php.net/doc/phd/) (The PHP based DocBook
 renderer, Генератор з формату Docbook на PHP) з метою підтримки та
 форматування.
 
 Використання XML як єдиного вихідного формату дозволяє
 нам створювати документацію у багатьох форматах, дозволяючи водночас
 редагувати лише один вихідний документ для всіх форматів. Утилітою
-для форматування керівництва є
-[»PhD](https://wiki.php.net/doc/phd/). Для створення керівництва в
-форматі Windows HTML Help ми використовуємо [» Microsoft HTML Help
-Workshop](http://msdn.microsoft.com/library/en-us/htmlhelp/html/vsconhh1start.asp)
+для форматування керівництва є [»PhD](https://wiki.php.net/doc/phd/). Для створення керівництва в
+форматі Windows HTML Help ми використовуємо [» Microsoft HTML Help Workshop](http://msdn.microsoft.com/library/en-us/htmlhelp/html/vsconhh1start.asp)
 і, зрозуміло, сам PHP для додаткових перетворень та
 форматування.
 

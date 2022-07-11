@@ -1,6 +1,5 @@
 - [« ImagickDraw::setTextKerning](imagickdraw.settextkerning.md)
-- [ImagickDraw::setVectorGraphics
-»](imagickdraw.setvectorgraphics.md)
+- [ImagickDraw::setVectorGraphics »](imagickdraw.setvectorgraphics.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

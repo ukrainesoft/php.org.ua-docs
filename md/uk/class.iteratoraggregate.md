@@ -1,6 +1,5 @@
 - [« Iterator::valid](iterator.valid.md)
-- [IteratorAggregate::getIterator
-»](iteratoraggregate.getiterator.md)
+- [IteratorAggregate::getIterator »](iteratoraggregate.getiterator.md)
 
 - [PHP Manual](index.md)
 - [Вбудовані інтерфейси та класи](reserved.interfaces.md)

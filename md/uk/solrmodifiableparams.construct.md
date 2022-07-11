@@ -1,6 +1,5 @@
 - [«SolrModifiableParams](class.solrmodifiableparams.md)
-- [SolrModifiableParams::\_\_destruct
-»](solrmodifiableparams.destruct.md)
+- [SolrModifiableParams::\_\_destruct »](solrmodifiableparams.destruct.md)
 
 - [PHP Manual](index.md)
 - [SolrModifiableParams](class.solrmodifiableparams.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::executeBulkWrite](mongodb-driver-server.executebulkwrite.md)
-- [MongoDB\Driver\Server::executeQuery
-»](mongodb-driver-server.executequery.md)
+- [« MongoDB\Driver\Server::executeBulkWrite](mongodb-driver-server.executebulkwrite.md)
+- [MongoDB\Driver\Server::executeQuery »](mongodb-driver-server.executequery.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -26,8 +24,7 @@ array `$options` u003d array()):
 Цей метод не застосовує особливої логіки до команди. Хоча цей метод
 приймає ``readConcern'' та ``writeConcern'', які будуть включені в
 документи коанди, ці опції не відповідатимуть значенням по
-замовчуванням з [MongoDB URI
-з'єднання](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
+замовчуванням з [MongoDB URI з'єднання](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri)
 , і не враховуватиметься версія сервера MongoDB. Тому користувачам
 рекомендується використовувати конкретні методи команди читання та/або запису
 якщо це можливо.
@@ -56,8 +53,7 @@ array `$options` u003d array()):
 **Увага**
 При використанні `session` та наявності незавершених транзакцій, ви не
 можете вказати ``readConcern'' або 'writeConcern' option. Це приведе
-до викидання виключення
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+до викидання виключення [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 Натомість ви повинні встановити ці дві опції при створенні транзакції
 за допомогою
 [MongoDB\Driver\Session::startTransaction()](mongodb-driver-session.starttransaction.md).

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md)
-- [MongoDB\BSON\Symbol::\_\_toString
-»](mongodb-bson-symbol.tostring.md)
+- [« MongoDB\BSON\Symbol::jsonSerialize](mongodb-bson-symbol.jsonserialize.md)
+- [MongoDB\BSON\Symbol::\_\_toString »](mongodb-bson-symbol.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)

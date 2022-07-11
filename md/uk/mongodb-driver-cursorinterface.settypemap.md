@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md)
-- [MongoDB\Driver\CursorInterface::toArray
-»](mongodb-driver-cursorinterface.toarray.md)
+- [« MongoDB\Driver\CursorInterface::isDead](mongodb-driver-cursorinterface.isdead.md)
+- [MongoDB\Driver\CursorInterface::toArray »](mongodb-driver-cursorinterface.toarray.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)
@@ -19,15 +17,13 @@ MongoDB\Driver\CursorInterface::setTypeMap — Задати порівняння
 abstract public **MongoDB\Driver\CursorInterface::setTypeMap**(array
 `$typemap`): void
 
-Задати [порівняння
-типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
+Задати [порівняння типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps)
 для використання при десеріалізації результатів BSON значення PHP.
 
 ### Список параметрів
 
 `typeMap` (array)
-[Конфігурація картки
-типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps).
+[Конфігурація картки типів](mongodb.persistence.deserialization.md#mongodb.persistence.typemaps).
 
 ### Значення, що повертаються
 

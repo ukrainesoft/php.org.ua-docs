@@ -117,7 +117,5 @@ string\|false
 
 Користувачі Windows знайдуть корисну інформацію про значення `locales` на
 веб-сайті Microsoft MSDN. мови, що підтримуються, перераховані в [» документації
-за мовними
-рядкам](http://msdn.microsoft.com/en-us/library/39cwe7zf%28vu003dvs.90%29.aspx),
-а значення країн/регіонів у [» документації за рядками
-країн/регіонів](http://msdn.microsoft.com/en-us/library/cdax410z%28vu003dvs.90%29.aspx).
+за мовними рядкам](http://msdn.microsoft.com/en-us/library/39cwe7zf%28vu003dvs.90%29.aspx),
+а значення країн/регіонів у [» документації за рядками країн/регіонів](http://msdn.microsoft.com/en-us/library/cdax410z%28vu003dvs.90%29.aspx).

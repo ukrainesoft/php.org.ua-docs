@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md)
-- [ReflectionClassConstant::isPrivate
-»](reflectionclassconstant.isprivate.md)
+- [« ReflectionClassConstant::getValue](reflectionclassconstant.getvalue.md)
+- [ReflectionClassConstant::isPrivate »](reflectionclassconstant.isprivate.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

@@ -1,6 +1,5 @@
 - [« OAuthProvider::generateToken](oauthprovider.generatetoken.md)
-- [OAuthProvider::isRequestTokenEndpoint
-»](oauthprovider.isrequesttokenendpoint.md)
+- [OAuthProvider::isRequestTokenEndpoint »](oauthprovider.isrequesttokenendpoint.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

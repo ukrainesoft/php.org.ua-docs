@@ -1,7 +1,5 @@
-- [«
-EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md)
-- [EventHttpConnection::setMaxHeadersSize
-»](eventhttpconnection.setmaxheaderssize.md)
+- [« EventHttpConnection::setLocalPort](eventhttpconnection.setlocalport.md)
+- [EventHttpConnection::setMaxHeadersSize »](eventhttpconnection.setmaxheaderssize.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

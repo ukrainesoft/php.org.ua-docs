@@ -1,7 +1,5 @@
-- [«
-ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
-- [ReflectionFunctionAbstract
-»](class.reflectionfunctionabstract.md)
+- [« ReflectionFunction::isDisabled](reflectionfunction.isdisabled.md)
+- [ReflectionFunctionAbstract »](class.reflectionfunctionabstract.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunction](class.reflectionfunction.md)

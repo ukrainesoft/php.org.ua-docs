@@ -1,5 +1,5 @@
 - [«posix_getuid](function.posix-getuid.md)
-- [posix_isatty »] (function.posix-isatty.md)
+- [posix_isatty »](function.posix-isatty.md)
 
 - [PHP Manual](index.md)
 - [POSIX Функції](ref.posix.md)

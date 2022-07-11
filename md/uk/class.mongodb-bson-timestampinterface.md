@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.md)
-- [MongoDB\BSON\TimestampInterface::getIncrement
-»](mongodb-bson-timestampinterface.getincrement.md)
+- [« MongoDB\BSON\RegexInterface::\_\_toString](mongodb-bson-regexinterface.tostring.md)
+- [MongoDB\BSON\TimestampInterface::getIncrement »](mongodb-bson-timestampinterface.getincrement.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

@@ -1,5 +1,4 @@
-- [«
-ssdeep_fuzzy_hash_filename](function.ssdeep-fuzzy-hash-filename.md)
+- [« ssdeep_fuzzy_hash_filename](function.ssdeep-fuzzy-hash-filename.md)
 - [Рядки »](book.strings.md)
 
 - [PHP Manual](index.md)
@@ -17,8 +16,7 @@ ssdeep_fuzzy_hash — Створює нечіткий хеш із рядка
 **ssdeep_fuzzy_hash**(string `$to_hash`): string
 
 **ssdeep_fuzzy_hash()** обчислює хеш рядки `to_hash`, використовуючи [»
-частково контекстно-переключення
-хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
+частково контекстно-переключення хешування](http://dfrws.org/2006/proceedings/12-Kornblum.pdf) та
 повертає його.
 
 ### Список параметрів

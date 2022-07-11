@@ -1,6 +1,5 @@
 - [« ReflectionParameter](class.reflectionparameter.md)
-- [ReflectionParameter::canBePassedByValue
-»](reflectionparameter.canbepassedbyvalue.md)
+- [ReflectionParameter::canBePassedByValue »](reflectionparameter.canbepassedbyvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

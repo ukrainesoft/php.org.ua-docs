@@ -2,7 +2,7 @@
 - [Вимоги »](ev.requirements.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

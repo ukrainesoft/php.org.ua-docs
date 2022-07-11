@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md)
+- [« SolrQuery::setTermsIncludeUpperBound](solrquery.settermsincludeupperbound.md)
 - [SolrQuery::setTermsLowerBound »](solrquery.settermslowerbound.md)
 
 - [PHP Manual](index.md)

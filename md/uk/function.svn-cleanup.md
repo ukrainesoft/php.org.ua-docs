@@ -59,5 +59,4 @@ PHP без попередження. Використовуйте цю функ�
 ### Дивіться також
 
 - **update()**
-- [»  SVN-документація з svn
-cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)
+- [»  SVN-документація з svn cleanup](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.cleanup.md)

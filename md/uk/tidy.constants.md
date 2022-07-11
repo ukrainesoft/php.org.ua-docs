@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (tidy.resources.md)
+- [« Типи ресурсів](tidy.resources.md)
 - [Приклади »](tidy.examples.md)
 
 - [PHP Manual](index.md)

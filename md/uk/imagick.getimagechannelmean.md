@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md)
+- [« Imagick::getImageChannelKurtosis](imagick.getimagechannelkurtosis.md)
 - [Imagick::getImageChannelRange »](imagick.getimagechannelrange.md)
 
 - [PHP Manual](index.md)

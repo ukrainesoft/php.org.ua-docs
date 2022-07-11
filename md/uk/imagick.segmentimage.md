@@ -27,8 +27,7 @@ bool `$verbose` u003d **`false`**
 ### Список параметрів
 
 `COLORSPACE`
-Одна з [констант
-COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
+Одна з [констант COLORSPACE](imagick.constants.md#imagick.constants.colorspace).
 
 `cluster_threshold`
 Відсоток, що описує мінімальну кількість пікселів, що містяться в

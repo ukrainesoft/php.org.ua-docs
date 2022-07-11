@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_secretstream_xchacha20poly1305_init_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md)
-- [sodium_crypto_secretstream_xchacha20poly1305_keygen
-»](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md)
+- [« sodium_crypto_secretstream_xchacha20poly1305_init_pull](function.sodium-crypto-secretstream-xchacha20poly1305-init-pull.md)
+- [sodium_crypto_secretstream_xchacha20poly1305_keygen »](function.sodium-crypto-secretstream-xchacha20poly1305-keygen.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

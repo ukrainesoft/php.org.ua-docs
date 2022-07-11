@@ -1,5 +1,4 @@
-- [«
-fann_get_learning_momentum](function.fann-get-learning-momentum.md)
+- [« fann_get_learning_momentum](function.fann-get-learning-momentum.md)
 - [fann_get_MSE »](function.fann-get-mse.md)
 
 - [PHP Manual](index.md)

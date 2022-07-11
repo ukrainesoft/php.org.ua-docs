@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)
-- [ReflectionClass::getTraitAliases
-»](reflectionclass.gettraitaliases.md)
+- [« ReflectionClass::getStaticProperties](reflectionclass.getstaticproperties.md)
+- [ReflectionClass::getTraitAliases »](reflectionclass.gettraitaliases.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

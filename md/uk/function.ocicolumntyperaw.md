@@ -1,5 +1,5 @@
 - [«ocicolumntype](function.ocicolumntype.md)
-- [ocicommit »] (function.ocicommit.md)
+- [ocicommit »](function.ocicommit.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

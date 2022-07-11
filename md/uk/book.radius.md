@@ -17,8 +17,7 @@
 - [Опції RADIUS](radius.constants.options.md)
 - [типи пакетів RADIUS](radius.constants.packets.md)
 - [Типи атрибутів RADIUS](radius.constants.attributes.md)
-- [Атрибути RADIUS специфічні для різних
-виробників](radius.constants.vendor-specific.md)
+- [Атрибути RADIUS специфічні для різних виробників](radius.constants.vendor-specific.md)
 - [Приклади](radius.examples.md)
 - [Функції Radius](ref.radius.md)
 - [radius_acct_open](function.radius-acct-open.md) — Створює

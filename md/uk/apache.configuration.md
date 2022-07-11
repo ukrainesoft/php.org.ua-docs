@@ -1,5 +1,5 @@
 - [« Установка](apache.installation.md)
-- [Типи ресурсів»] (apache.resources.md)
+- [Типи ресурсів»](apache.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](apache.setup.md)
@@ -28,8 +28,7 @@ PHP_INI_ALL | || [xbithack](apache.configuration.md#ini.xbithack) | "0" |
 **Налаштування конфігурації Apache**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

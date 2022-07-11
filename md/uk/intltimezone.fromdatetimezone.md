@@ -1,5 +1,4 @@
-- [«
-IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md)
+- [« IntlTimeZone::createTimeZoneIDEnumeration](intltimezone.createtimezoneidenumeration.md)
 - [IntlTimeZone::getCanonicalID »](intltimezone.getcanonicalid.md)
 
 - [PHP Manual](index.md)

@@ -1,8 +1,8 @@
-- [« Firebird (PDO)] (ref.pdo-firebird.md)
+- [« Firebird (PDO)](ref.pdo-firebird.md)
 - [IBM (PDO) »](ref.pdo-ibm.md)
 
 - [PHP Manual](index.md)
-- [Firebird (PDO)] (ref.pdo-firebird.md)
+- [Firebird (PDO)](ref.pdo-firebird.md)
 - З'єднання з базою Firebird
 
 #PDO_FIREBIRD DSN

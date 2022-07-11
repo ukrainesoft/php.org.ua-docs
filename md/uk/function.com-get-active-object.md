@@ -59,5 +59,4 @@ COM-функцією GetActiveObject().
 не найрозумніша ідея. Більшість програм COM/OLE спроектовані так,
 що не можуть працювати одночасно з декількома користувачами, навіть
 (або особливо) Microsoft Office. Більше корисної інформації читайте у
-[» Considerations for Server-Side Automation of
-Office](http://support.microsoft.com/kb/257757).
+[» Considerations for Server-Side Automation of Office](http://support.microsoft.com/kb/257757).

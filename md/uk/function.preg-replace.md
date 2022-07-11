@@ -1,5 +1,5 @@
 - [« preg_replace_callback](function.preg-replace-callback.md)
-- [preg_split »] (function.preg-split.md)
+- [preg_split »](function.preg-split.md)
 
 - [PHP Manual](index.md)
 - [Функції PCRE](ref.pcre.md)
@@ -29,8 +29,7 @@ int `&$count` u003d **`null`**
 `pattern`
 Шуканий шаблон. Можливо як рядком, і масивом рядків.
 
-Також доступні деякі [модифікатори
-PCRE] (reference.pcre.pattern.modifiers.md).
+Також доступні деякі [модифікатори PCRE](reference.pcre.pattern.modifiers.md).
 
 `replacement`
 Рядок або масив рядків для заміни. Якщо цей параметр є рядком,

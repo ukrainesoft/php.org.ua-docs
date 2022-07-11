@@ -2,7 +2,7 @@
 - [EvCheck::\_\_construct »](evcheck.construct.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvCheck
 
 # Клас EvCheck

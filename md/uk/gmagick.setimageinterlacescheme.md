@@ -22,8 +22,7 @@ public **Gmagick::setimageinterlacescheme**(int `$interlace`):
 ### Список параметрів
 
 `interlace`
-Одна із констант [схеми черезрядкового
-зображення](gmagick.constants.md#gmagick.constants.interlace)
+Одна із констант [схеми черезрядкового зображення](gmagick.constants.md#gmagick.constants.interlace)
 (`Gmagick::INTERLACE_*`).
 
 ### Значення, що повертаються

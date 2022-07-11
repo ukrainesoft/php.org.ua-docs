@@ -1,5 +1,5 @@
 - [«current](function.current.md)
-- [end »] (function.end.md)
+- [end »](function.end.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)

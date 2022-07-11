@@ -1,6 +1,5 @@
 - [« SplDoublyLinkedList::push](spldoublylinkedlist.push.md)
-- [SplDoublyLinkedList::serialize
-»](spldoublylinkedlist.serialize.md)
+- [SplDoublyLinkedList::serialize »](spldoublylinkedlist.serialize.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

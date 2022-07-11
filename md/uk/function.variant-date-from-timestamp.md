@@ -1,6 +1,5 @@
 - [« variant_cmp](function.variant-cmp.md)
-- [variant_date_to_timestamp
-»](function.variant-date-to-timestamp.md)
+- [variant_date_to_timestamp »](function.variant-date-to-timestamp.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

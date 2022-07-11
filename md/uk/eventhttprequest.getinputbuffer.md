@@ -1,6 +1,5 @@
 - [«EventHttpRequest::getHost](eventhttprequest.gethost.md)
-- [EventHttpRequest::getInputHeaders
-»](eventhttprequest.getinputheaders.md)
+- [EventHttpRequest::getInputHeaders »](eventhttprequest.getinputheaders.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

@@ -1,5 +1,5 @@
 - [« Приклади](expect.examples.md)
-- [Функції Expect»] (ref.expect.md)
+- [Функції Expect»](ref.expect.md)
 
 - [PHP Manual](index.md)
 - [Приклади](expect.examples.md)

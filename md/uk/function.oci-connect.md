@@ -51,8 +51,7 @@ int `$session_mode` u003d **`OCI_DEFAULT`**
 
 `connection_string`
 Містить `примірник Oracle` для підключення. Це може бути [» Easy
-Connect
-string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
+Connect string](https://www.oracle.com/pls/topic/lookup?ctxu003ddblatest&idu003dGUID-E5358DEA-D619-4B7B-A799-3D2F802500F1),
 або Connect Name з файлу `tnsnames.ora`, або ім'я локального екземпляра
 Oracle.
 
@@ -64,9 +63,9 @@ Windows) і **`ORACLE_SID`** для визначення `примірника O
 Для використання методу Easy Connect, PHP повинен бути злінкований з
 клієнтські бібліотеки версії Oracle 10*g* або старші. Easy Connect
 string для Oracle 10*g* набуває такої форми:
-*\[//\]host_name\[:port\]\[/service_name\]*. Починаючи з Oracle 11*g*
+*[//]host_name[:port][/service_name]*. Починаючи з Oracle 11*g*
 синтаксис такий:
-*\[//\]host_name\[:port\]\[/service_name\]\[:server_type\]\[/instance_name\]*.
+*[//]host_name[:port][/service_name][:server_type][/instance_name]*.
 У Oracle 19c було введено додаткові параметри, включаючи налаштування
 часу очікування та перевірки активності. Зверніться до документації
 Oracle. Назви служб можуть бути визначені за допомогою запуску Oracle

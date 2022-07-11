@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::getName](reflectionclassconstant.getname.md)
-- [ReflectionClassConstant::isFinal
-»](reflectionclassconstant.isfinal.md)
+- [« ReflectionClassConstant::getName](reflectionclassconstant.getname.md)
+- [ReflectionClassConstant::isFinal »](reflectionclassconstant.isfinal.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

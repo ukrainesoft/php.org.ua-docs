@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
-- [MongoDB\Driver\ClientEncryption::createDataKey
-»](mongodb-driver-clientencryption.createdatakey.md)
+- [« MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
+- [MongoDB\Driver\ClientEncryption::createDataKey »](mongodb-driver-clientencryption.createdatakey.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ClientEncryption](class.mongodb-driver-clientencryption.md)
@@ -32,8 +30,7 @@ final public **MongoDB\Driver\ClientEncryption::\_\_construct**(array
 
 ### Помилки
 
-- При помилці парсингу аргумент кидає виняток
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+- При помилці парсингу аргумент кидає виняток [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 - Викидає виняток
 [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md),
 якщо модуль був скомпілюваний без підтримки libmongocrypt.

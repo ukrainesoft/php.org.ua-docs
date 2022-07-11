@@ -1,6 +1,5 @@
 - [« Передача ідентифікатора сесії](session.idpassing.md)
-- [Відстеження прогресу завантаження файлів за допомогою сесій
-»](session.upload-progress.md)
+- [Відстеження прогресу завантаження файлів за допомогою сесій »](session.upload-progress.md)
 
 - [PHP Manual](index.md)
 - [Приклади](session.examples.md)

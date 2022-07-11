@@ -1,5 +1,5 @@
 - [«mysql_db_query](function.mysql-db-query.md)
-- [mysql_errno»] (function.mysql-errno.md)
+- [mysql_errno»](function.mysql-errno.md)
 
 - [PHP Manual](index.md)
 - [MySQL](ref.mysql.md)
@@ -13,11 +13,9 @@ mysql_drop_db — Знищує базу даних MySQL
 
 **Увага**
 
-Ця функція оголошена застарілою в PHP 4.3.0 і разом з [модулем
-MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
+Ця функція оголошена застарілою в PHP 4.3.0 і разом з [модулем MySQL](book.mysql.md), видалена PHP в 7.0.0. Замість неї використовуйте
 модулі, що активно розвиваються [MySQLi](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір
-API] (mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
+[PDO_MySQL](ref.pdo-mysql.md). Також дивіться розділ [MySQL: вибір API](mysqlinfo.api.choosing.md). Альтернативи для цієї функції:
 
 - Виконати запит `DROP DATABASE`
 

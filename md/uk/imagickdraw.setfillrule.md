@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md)
+- [« ImagickDraw::setFillPatternURL](imagickdraw.setfillpatternurl.md)
 - [ImagickDraw::setFont »](imagickdraw.setfont.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md)
+- [« ImagickPixelIterator::setIteratorRow](imagickpixeliterator.setiteratorrow.md)
 - [ImagickKernel »](class.imagickkernel.md)
 
 - [PHP Manual](index.md)

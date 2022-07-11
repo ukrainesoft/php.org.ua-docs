@@ -1,6 +1,5 @@
 - [« Приклади](gearman.examples.md)
-- [Базовий клієнт та обробник Gearman, фоновий режим
-»](gearman.examples-reverse-bg.md)
+- [Базовий клієнт та обробник Gearman, фоновий режим »](gearman.examples-reverse-bg.md)
 
 - [PHP Manual](index.md)
 - [Приклади](gearman.examples.md)

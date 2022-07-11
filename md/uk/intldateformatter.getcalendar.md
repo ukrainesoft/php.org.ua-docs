@@ -1,7 +1,5 @@
-- [«
-IntlDateFormatter::formatObject](intldateformatter.formatobject.md)
-- [IntlDateFormatter::getDateType
-»](intldateformatter.getdatetype.md)
+- [« IntlDateFormatter::formatObject](intldateformatter.formatobject.md)
+- [IntlDateFormatter::getDateType »](intldateformatter.getdatetype.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)
@@ -34,8 +32,7 @@ public **IntlDateFormatter::getCalendar**(): int\|false
 
 ### Значення, що повертаються
 
-[Тип
-календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes),
+[Тип календаря](class.intldateformatter.md#intl.intldateformatter-constants.calendartypes),
 використовуваний сервіс форматування. Або
 **`IntlDateFormatter::TRADITIONAL`**, або
 **`IntlDateFormatter::GREGORIAN`**. Повертає **`false`** у разі

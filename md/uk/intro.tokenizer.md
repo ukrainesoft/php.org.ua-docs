@@ -1,8 +1,8 @@
-- [« Лексер (Tokenizer)] (book.tokenizer.md)
+- [« Лексер (Tokenizer)](book.tokenizer.md)
 - [Встановлення та налаштування »](tokenizer.setup.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 -   Вступ
 
 # Вступ

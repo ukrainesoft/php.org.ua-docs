@@ -13,8 +13,7 @@ deflate_init - Ініціалізувати контекст інкремент�
 
 ### Опис
 
-**deflate_init**(int `$encoding`, array `$options` u003d \[\]):
-[DeflateContext](class.deflatecontext.md)\|false
+**deflate_init**(int `$encoding`, array `$options` u003d []): [DeflateContext](class.deflatecontext.md)\|false
 
 Ініціалізує контекст інкрементального стиску з використанням
 вказаного кодування `encoding`.

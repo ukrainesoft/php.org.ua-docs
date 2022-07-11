@@ -1,7 +1,5 @@
-- [«
-openssl_x509_check_private_key](function.openssl-x509-check-private-key.md)
-- [openssl_x509_export_to_file
-»](function.openssl-x509-export-to-file.md)
+- [« openssl_x509_check_private_key](function.openssl-x509-check-private-key.md)
+- [openssl_x509_export_to_file »](function.openssl-x509-export-to-file.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -20,7 +18,7 @@ openssl_x509_checkpurpose — Перевіряє, чи можна викорис
 [OpenSSLCertificate](class.opensslcertificate.md)\|string
 `$certificate`,
 int `$purpose`,
-array `$ca_info` u003d \[\],
+array `$ca_info` u003d [],
 ?string `$untrusted_certificates_file` u003d **`null`**
 ): bool\|int
 
@@ -50,8 +48,7 @@ array `$ca_info` u003d \[\],
 
 `ca_info`
 `ca_info` повинен містити масив довірених CA файлів/директорій, як
-описано на сторінці [перевірки
-сертифікатів](openssl.cert.verification.md).
+описано на сторінці [перевірки сертифікатів](openssl.cert.verification.md).
 
 `untrusted_certificates_file`
 Якщо задано, то має містити шлях до PEM-файлу, що містить

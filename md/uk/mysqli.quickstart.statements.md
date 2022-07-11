@@ -1,6 +1,5 @@
 - [«З'єднання](mysqli.quickstart.connections.md)
-- [Запити, що готуються
-»](mysqli.quickstart.prepared-statements.md)
+- [Запити, що готуються »](mysqli.quickstart.prepared-statements.md)
 
 - [PHP Manual](index.md)
 - [Короткий посібник](mysqli.quickstart.md)

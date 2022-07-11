@@ -1,6 +1,5 @@
 - [« Використання PHP у командному рядку](features.commandline.md)
-- [Основні відмінності від інших реалізацій SAPI
-»](features.commandline.differences.md)
+- [Основні відмінності від інших реалізацій SAPI »](features.commandline.differences.md)
 
 - [PHP Manual](index.md)
 - [Використання PHP у командному рядку](features.commandline.md)

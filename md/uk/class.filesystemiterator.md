@@ -1,6 +1,5 @@
 - [« EmptyIterator::valid](emptyiterator.valid.md)
-- [FilesystemIterator::\_\_construct
-»](filesystemiterator.construct.md)
+- [FilesystemIterator::\_\_construct »](filesystemiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

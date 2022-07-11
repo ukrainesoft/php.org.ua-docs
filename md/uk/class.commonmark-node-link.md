@@ -1,7 +1,5 @@
-- [«
-CommonMark\Node\Image::\_\_construct](commonmark-node-image.construct.md)
-- [CommonMark\Node\Link::\_\_construct
-»](commonmark-node-link.construct.md)
+- [« CommonMark\Node\Image::\_\_construct](commonmark-node-image.construct.md)
+- [CommonMark\Node\Link::\_\_construct »](commonmark-node-link.construct.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

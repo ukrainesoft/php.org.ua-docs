@@ -1,6 +1,5 @@
 - [«SolrInputDocument::getField](solrinputdocument.getfield.md)
-- [SolrInputDocument::getFieldCount
-»](solrinputdocument.getfieldcount.md)
+- [SolrInputDocument::getFieldCount »](solrinputdocument.getfieldcount.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

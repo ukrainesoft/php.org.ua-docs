@@ -1,6 +1,5 @@
 - [«oci_set_action](function.oci-set-action.md)
-- [oci_set_client_identifier
-»](function.oci-set-client-identifier.md)
+- [oci_set_client_identifier »](function.oci-set-client-identifier.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)

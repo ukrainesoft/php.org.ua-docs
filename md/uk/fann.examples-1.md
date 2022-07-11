@@ -1,5 +1,5 @@
 - [« Приклади](fann.examples.md)
-- [Функції Fann»] (ref.fann.md)
+- [Функції Fann»](ref.fann.md)
 
 - [PHP Manual](index.md)
 - [Приклади](fann.examples.md)

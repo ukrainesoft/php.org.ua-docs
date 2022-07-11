@@ -116,8 +116,7 @@ public [IteratorIterator::valid](iteratoriterator.valid.md)(): bool
 перетворення в рядок.
 
 **`CachingIterator::TOSTRING_USE_INNER`**
-Використати [внутрішній
-ітератор](cachingiterator.getinneriterator.md) при перетворенні на
+Використати [внутрішній ітератор](cachingiterator.getinneriterator.md) при перетворенні на
 рядок.
 
 **`CachingIterator::FULL_CACHE`**

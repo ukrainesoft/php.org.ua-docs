@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.md)
+- [« Yaf_Request_Abstract::getRequestUri](yaf-request-abstract.getrequesturi.md)
 - [Yaf_Request_Abstract::isCli »](yaf-request-abstract.iscli.md)
 
 - [PHP Manual](index.md)

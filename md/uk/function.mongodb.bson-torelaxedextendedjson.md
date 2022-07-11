@@ -16,8 +16,7 @@ MongoDB\BSON oRelaxedExtendedJSON — Повертає Relaxed Extended JSON
 
 **MongoDB\BSON oRelaxedExtendedJSON**(string `$bson`): string
 
-Перетворює рядок BSON на її уявлення [»Relaxed Extended
-JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example).
+Перетворює рядок BSON на її уявлення [»Relaxed Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst#relaxed-extended-json-example).
 Розслаблений формат віддає перевагу використанню примітивів типу JSON за
 рахунок точності типів і найбільше підходить для отримання вихідних даних,
 які можуть бути легко використані веб-API та людьми.
@@ -78,7 +77,5 @@ JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json
 Повертає уявлення BSON значення JSON
 - [MongoDB\BSON oCanonicalExtendedJSON()](function.mongodb.bson-tocanonicalextendedjson.md) -
 Повертає Canonical Extended JSON подання для значення BSON
-- [» Extended
-JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Extended JSON](https://github.com/mongodb/specifications/blob/master/source/extended-json.rst)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

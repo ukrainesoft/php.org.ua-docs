@@ -1,7 +1,5 @@
-- [«
-socket_wsaprotocol_info_export](function.socket-wsaprotocol-info-export.md)
-- [socket_wsaprotocol_info_release
-»](function.socket-wsaprotocol-info-release.md)
+- [« socket_wsaprotocol_info_export](function.socket-wsaprotocol-info-export.md)
+- [socket_wsaprotocol_info_release »](function.socket-wsaprotocol-info-release.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)

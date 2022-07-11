@@ -1,5 +1,4 @@
-- [«
-session_set_cookie_params](function.session-set-cookie-params.md)
+- [« session_set_cookie_params](function.session-set-cookie-params.md)
 - [session_start »](function.session-start.md)
 
 - [PHP Manual](index.md)

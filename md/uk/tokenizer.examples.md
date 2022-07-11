@@ -2,7 +2,7 @@
 - [PhpToken »](class.phptoken.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 - Приклади
 
 # Приклади

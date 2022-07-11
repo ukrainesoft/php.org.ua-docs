@@ -1,5 +1,5 @@
 - [«trader_stochrsi](function.trader-stochrsi.md)
-- [trader_sum»] (function.trader-sum.md)
+- [trader_sum»](function.trader-sum.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

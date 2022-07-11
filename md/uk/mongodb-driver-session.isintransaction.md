@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::isDirty](mongodb-driver-session.isdirty.md)
-- [MongoDB\Driver\Session::startTransaction
-»](mongodb-driver-session.starttransaction.md)
+- [« MongoDB\Driver\Session::isDirty](mongodb-driver-session.isdirty.md)
+- [MongoDB\Driver\Session::startTransaction »](mongodb-driver-session.starttransaction.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

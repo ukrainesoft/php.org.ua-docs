@@ -2,7 +2,7 @@
 - [Gmagick »](book.gmagick.md)
 
 - [PHP Manual](index.md)
-- [GD] (book.image.md)
+- [GD](book.image.md)
 - Клас GdFont
 
 # Клас GdFont

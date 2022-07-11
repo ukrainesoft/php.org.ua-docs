@@ -88,7 +88,7 @@ Green Bay (USA)
 [iterator](class.iterator.md) та **mysqli_result::fetch_assoc()****
 
 [mysqli_result](class.mysqli-result.md) можна повторити за допомогою
-[foreach] (control-structures.foreach.md). Результуючий набір завжди
+[foreach](control-structures.foreach.md). Результуючий набір завжди
 повторюватиметься з першого рядка, незалежно від поточної позиції.
 
 `<?phpmysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);$mysqli u003d new mysqli("localhost", "my_user", "my_password", "world");$query u003d| / Використовуємо ітератори$result u003d $mysqli->query($query);foreach ($result as $row) {    printf("%s (%s)

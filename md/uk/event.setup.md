@@ -2,7 +2,7 @@
 - [Вимоги »](event.requirements.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

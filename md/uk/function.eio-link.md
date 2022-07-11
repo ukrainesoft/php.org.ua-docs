@@ -1,5 +1,5 @@
 - [«eio_init](function.eio-init.md)
-- [eio_lstat »] (function.eio-lstat.md)
+- [eio_lstat »](function.eio-lstat.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

@@ -1,5 +1,4 @@
-- [«
-DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md)
+- [« DateTimeImmutable::setTimestamp](datetimeimmutable.settimestamp.md)
 - [DateTimeImmutable::sub »](datetimeimmutable.sub.md)
 
 - [PHP Manual](index.md)

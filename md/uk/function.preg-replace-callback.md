@@ -1,5 +1,4 @@
-- [«
-preg_replace_callback_array](function.preg-replace-callback-array.md)
+- [« preg_replace_callback_array](function.preg-replace-callback-array.md)
 - [preg_replace »](function.preg-replace.md)
 
 - [PHP Manual](index.md)
@@ -43,8 +42,7 @@ handler(array `$matches`): string
 
 Досить часто 'callback' функція, крім як у виклику
 **preg_replace_callback()**, ні в чому більше не бере участі. Виходячи з
-цих міркувань, можна використовувати [анонімні
-функції](functions.anonymous.md) для створення callback-функції
+цих міркувань, можна використовувати [анонімні функції](functions.anonymous.md) для створення callback-функції
 безпосередньо у дзвінку **preg_replace_callback()**. Якщо ви
 використовуєте такий підхід, вся інформація, пов'язана із заміною по
 регулярному виразу, буде зібрана в одному місці, і простір імен
@@ -87,9 +85,9 @@ handler(array `$matches`): string
 
 ### Список змін
 
-| Версія | Опис |
-|--------|----------------------------|
-| 7.4.0 | Доданий параметр `flags`. |
+| Версія | Опис                      |
+|--------|---------------------------|
+| 7.4.0  | Доданий параметр `flags`. |
 
 ### Приклади
 
@@ -107,7 +105,7 @@ handler(array `$matches`): string
 **Приклад #3 Рекурсивна обробка BB-кодів за допомогою
 **preg_replace_callback()****
 
-` <?php$input u003d "верх [indent] глибше [indent] ще глибше [/indent] глибше [/indent] верх";function parseTagsRecursive($input){    $regex u003d | [^[]|\[(?!/?indent])|(?R))+)\[/indent]#'; if (is_array($input)) {         $input u003d '<div styleu003d"margin-left: 10px">'.$input[1].'</div>'; }   return preg_replace_callback($regex, 'parseTagsRecursive', $input);}$output u003d parseTagsRecursive($input);echo $output;?> `
+` <?php$input u003d "верх [indent] глибше [indent] ще глибше [/indent] глибше [/indent] верх";function parseTagsRecursive($input){    $regex u003d | [^[]|[(?!/?indent])|(?R))+)[/indent]#'; if (is_array($input)) {         $input u003d '<div styleu003d"margin-left: 10px">'.$input[1].'</div>'; }   return preg_replace_callback($regex, 'parseTagsRecursive', $input);}$output u003d parseTagsRecursive($input);echo $output;?> `
 
 ### Дивіться також
 

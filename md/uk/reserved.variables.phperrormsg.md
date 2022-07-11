@@ -1,6 +1,5 @@
 - [«$\_COOKIE](reserved.variables.cookies.md)
-- [$http_response_header
-»](reserved.variables.httpresponseheader.md)
+- [$http_response_header »](reserved.variables.httpresponseheader.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені змінні](reserved.variables.md)

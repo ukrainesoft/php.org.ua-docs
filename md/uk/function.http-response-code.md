@@ -1,5 +1,5 @@
 - [«headers_sent](function.headers-sent.md)
-- [inet_ntop »] (function.inet-ntop.md)
+- [inet_ntop »](function.inet-ntop.md)
 
 - [PHP Manual](index.md)
 - [Мережні функції](ref.network.md)

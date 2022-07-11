@@ -1,5 +1,4 @@
-- [«
-SolrDocument::getInputDocument](solrdocument.getinputdocument.md)
+- [« SolrDocument::getInputDocument](solrdocument.getinputdocument.md)
 - [SolrDocument::\_\_isset »](solrdocument.isset.md)
 
 - [PHP Manual](index.md)

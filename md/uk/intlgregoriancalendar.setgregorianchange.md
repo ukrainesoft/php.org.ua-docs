@@ -1,5 +1,4 @@
-- [«
-IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md)
+- [« IntlGregorianCalendar::isLeapYear](intlgregoriancalendar.isleapyear.md)
 - [IntlTimeZone »](class.intltimezone.md)
 
 - [PHP Manual](index.md)

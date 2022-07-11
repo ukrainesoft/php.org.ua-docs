@@ -1,6 +1,5 @@
 - [« oci_free_descriptor](function.oci-free-descriptor.md)
-- [oci_get_implicit_resultset
-»](function.oci-get-implicit-resultset.md)
+- [oci_get_implicit_resultset »](function.oci-get-implicit-resultset.md)
 
 - [PHP Manual](index.md)
 - [OCI8 Функції](ref.oci8.md)

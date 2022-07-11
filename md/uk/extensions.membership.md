@@ -63,7 +63,7 @@
 
 - [Рядки](book.strings.md)
 
-- [URL] (book.url.md)
+- [URL](book.url.md)
 
 - [Обробка змінних](book.var.md)
 
@@ -77,7 +77,7 @@
 
 - [Календарь](book.calendar.md)
 
-- [COM] (book.com.md)
+- [COM](book.com.md)
 
 - [Ctype](book.ctype.md)
 
@@ -97,7 +97,7 @@
 
 - [iconv](book.iconv.md)
 
-- [GD] (book.image.md)
+- [GD](book.image.md)
 
 - [intl](book.intl.md)
 
@@ -109,7 +109,7 @@
 
 - [PDO](book.pdo.md)
 
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 
 - [phpdbg](book.phpdbg.md)
 
@@ -125,7 +125,7 @@
 
 - [SQLite3](book.sqlite3.md)
 
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 
 - [Zlib](book.zlib.md)
 
@@ -162,17 +162,17 @@
 
 - [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md)
 
-- [Firebird (PDO)] (ref.pdo-firebird.md)
+- [Firebird (PDO)](ref.pdo-firebird.md)
 
-- [MySQL (PDO)] (ref.pdo-mysql.md)
+- [MySQL (PDO)](ref.pdo-mysql.md)
 
-- [Oracle (PDO)] (ref.pdo-oci.md)
+- [Oracle (PDO)](ref.pdo-oci.md)
 
 - [ODBC та DB2 (PDO)](ref.pdo-odbc.md)
 
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 
-- [SQLite (PDO)] (ref.pdo-sqlite.md)
+- [SQLite (PDO)](ref.pdo-sqlite.md)
 
 - [PostgreSQL](book.pgsql.md)
 
@@ -224,13 +224,13 @@
 
 - [Eio](book.eio.md)
 
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 
-- [Event] (book.event.md)
+- [Event](book.event.md)
 
 - [Expect](book.expect.md)
 
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 
 - [FDF](book.fdf.md)
 
@@ -284,11 +284,11 @@
 
 - [CUBRID (PDO)](ref.pdo-cubrid.md)
 
-- [IBM (PDO)] (ref.pdo-ibm.md)
+- [IBM (PDO)](ref.pdo-ibm.md)
 
-- [Informix (PDO)] (ref.pdo-informix.md)
+- [Informix (PDO)](ref.pdo-informix.md)
 
-- [MS SQL Server (PDO)] (ref.pdo-sqlsrv.md)
+- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
 
 - [PS](book.ps.md)
 
@@ -322,7 +322,7 @@
 
 - [SVM](book.svm.md)
 
-- [SVN] (book.svn.md)
+- [SVN](book.svn.md)
 
 - [Swoole](book.swoole.md)
 
@@ -366,7 +366,7 @@
 
 - [Yac](book.yac.md)
 
-- [Yaconf] (book.yaconf.md)
+- [Yaconf](book.yaconf.md)
 
 - [Yaf](book.yaf.md)
 

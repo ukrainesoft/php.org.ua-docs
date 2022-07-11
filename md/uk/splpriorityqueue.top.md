@@ -1,5 +1,4 @@
-- [«
-SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.md)
+- [« SplPriorityQueue::setExtractFlags](splpriorityqueue.setextractflags.md)
 - [SplPriorityQueue::valid »](splpriorityqueue.valid.md)
 
 - [PHP Manual](index.md)

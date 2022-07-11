@@ -1,5 +1,5 @@
 - [«cubrid_data_seek](function.cubrid-data-seek.md)
-- [cubrid_errno»] (function.cubrid-errno.md)
+- [cubrid_errno»](function.cubrid-errno.md)
 
 - [PHP Manual](index.md)
 - [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)

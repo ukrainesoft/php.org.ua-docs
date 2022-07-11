@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine\Client::set](swoole-coroutine-client.set.md)
-- [Swoole\Coroutine\Http\Client::close
-»](swoole-coroutine-http-client.close.md)
+- [Swoole\Coroutine\Http\Client::close »](swoole-coroutine-http-client.close.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

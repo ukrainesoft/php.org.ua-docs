@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md)
-- [MongoDB\Driver\ReadPreference::unserialize
-»](mongodb-driver-readpreference.unserialize.md)
+- [« MongoDB\Driver\ReadPreference::getTagSets](mongodb-driver-readpreference.gettagsets.md)
+- [MongoDB\Driver\ReadPreference::unserialize »](mongodb-driver-readpreference.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)

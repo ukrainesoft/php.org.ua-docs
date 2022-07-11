@@ -1,5 +1,5 @@
 - [«Установка](dir.installation.md)
-- [Типи ресурсів»] (dir.resources.md)
+- [Типи ресурсів»](dir.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](dir.setup.md)

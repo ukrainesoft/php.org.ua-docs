@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md)
+- [« Imagick::getImageCompressionQuality](imagick.getimagecompressionquality.md)
 - [Imagick::getImageDepth »](imagick.getimagedepth.md)
 
 - [PHP Manual](index.md)

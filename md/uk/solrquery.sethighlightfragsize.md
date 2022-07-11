@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)
-- [SolrQuery::setHighlightHighlightMultiTerm
-»](solrquery.sethighlighthighlightmultiterm.md)
+- [« SolrQuery::setHighlightFragmenter](solrquery.sethighlightfragmenter.md)
+- [SolrQuery::setHighlightHighlightMultiTerm »](solrquery.sethighlighthighlightmultiterm.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

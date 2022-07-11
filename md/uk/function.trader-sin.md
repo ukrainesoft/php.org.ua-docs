@@ -1,5 +1,4 @@
-- [«
-trader_set_unstable_period](function.trader-set-unstable-period.md)
+- [« trader_set_unstable_period](function.trader-set-unstable-period.md)
 - [trader_sinh »](function.trader-sinh.md)
 
 - [PHP Manual](index.md)

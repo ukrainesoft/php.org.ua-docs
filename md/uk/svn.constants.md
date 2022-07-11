@@ -2,7 +2,7 @@
 - [Функції SVN »](ref.svn.md)
 
 - [PHP Manual](index.md)
-- [SVN] (book.svn.md)
+- [SVN](book.svn.md)
 - Обумовлені константи
 
 # Зумовлені константи

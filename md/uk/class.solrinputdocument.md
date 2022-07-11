@@ -1,6 +1,5 @@
 - [«SolrUtils::queryPhrase](solrutils.queryphrase.md)
-- [SolrInputDocument::addChildDocument
-»](solrinputdocument.addchilddocument.md)
+- [SolrInputDocument::addChildDocument »](solrinputdocument.addchilddocument.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

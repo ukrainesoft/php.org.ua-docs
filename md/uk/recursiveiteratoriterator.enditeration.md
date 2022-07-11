@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)
-- [RecursiveIteratorIterator::getDepth
-»](recursiveiteratoriterator.getdepth.md)
+- [« RecursiveIteratorIterator::endChildren](recursiveiteratoriterator.endchildren.md)
+- [RecursiveIteratorIterator::getDepth »](recursiveiteratoriterator.getdepth.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

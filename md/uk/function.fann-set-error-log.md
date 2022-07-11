@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_weight_multiplier](function.fann-set-cascade-weight-multiplier.md)
-- [fann_set_input_scaling_params
-»](function.fann-set-input-scaling-params.md)
+- [« fann_set_cascade_weight_multiplier](function.fann-set-cascade-weight-multiplier.md)
+- [fann_set_input_scaling_params »](function.fann-set-input-scaling-params.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

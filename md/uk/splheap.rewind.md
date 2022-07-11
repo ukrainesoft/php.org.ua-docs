@@ -1,5 +1,4 @@
-- [«
-SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md)
+- [« SplHeap::recoverFromCorruption](splheap.recoverfromcorruption.md)
 - [SplHeap::top »](splheap.top.md)
 
 - [PHP Manual](index.md)

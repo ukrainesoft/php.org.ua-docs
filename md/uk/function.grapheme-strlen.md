@@ -42,8 +42,7 @@ grapheme_strlen — Отримує довжину рядка в одиницях
 
 ### Дивіться також
 
-- [»  Сегментація тексту в Unicode: межі кластера
-графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
+- [»  Сегментація тексту в Unicode: межі кластера графеми](http://unicode.org/reports/tr29/#Grapheme_Cluster_Boundaries)
 - [iconv_strlen()](function.iconv-strlen.md) - Повертає кількість
 символів у рядку
 - [mb_strlen()](function.mb-strlen.md) - Отримує довжину рядка

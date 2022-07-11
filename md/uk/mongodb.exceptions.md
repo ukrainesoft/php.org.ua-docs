@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
-- [MongoDB\Driver\Exception\AuthenticationException
-»](class.mongodb-driver-exception-authenticationexception.md)
+- [« MongoDB\Driver\Monitoring\Subscriber](class.mongodb-driver-monitoring-subscriber.md)
+- [MongoDB\Driver\Exception\AuthenticationException »](class.mongodb-driver-exception-authenticationexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB](set.mongodb.md)

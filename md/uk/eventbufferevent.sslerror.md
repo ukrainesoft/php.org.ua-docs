@@ -1,5 +1,4 @@
-- [«
-EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md)
+- [« EventBufferEvent::setWatermark](eventbufferevent.setwatermark.md)
 - [EventBufferEvent::sslFilter »](eventbufferevent.sslfilter.md)
 
 - [PHP Manual](index.md)

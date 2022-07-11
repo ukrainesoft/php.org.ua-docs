@@ -1,5 +1,4 @@
-- [«
-Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md)
+- [« Imagick::setImageColormapColor](imagick.setimagecolormapcolor.md)
 - [Imagick::setImageCompose »](imagick.setimagecompose.md)
 
 - [PHP Manual](index.md)
@@ -25,8 +24,7 @@ public **Imagick::setImageColorspace**(int `$colorspace`): bool
 ### Список параметрів
 
 `colorspace`
-Одна з [COLORSPACE
-констант](imagick.constants.md#imagick.constants.colorspace)
+Одна з [COLORSPACE констант](imagick.constants.md#imagick.constants.colorspace)
 
 ### Значення, що повертаються
 

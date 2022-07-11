@@ -1,6 +1,5 @@
 - [«CommonMark\Node\Link](class.commonmark-node-link.md)
-- [CommonMark\Node\CustomBlock
-»](class.commonmark-node-customblock.md)
+- [CommonMark\Node\CustomBlock »](class.commonmark-node-customblock.md)
 
 - [PHP Manual](index.md)
 - [CommonMark\Node\Link](class.commonmark-node-link.md)

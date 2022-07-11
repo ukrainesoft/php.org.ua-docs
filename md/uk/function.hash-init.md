@@ -17,8 +17,7 @@ hash_init - Ініціалізація інкрементального конт
 string `$algo`,
 int `$flags` u003d 0,
 string `$key` u003d "",
-array `$options` u003d \[\]
-): [HashContext](class.hashcontext.md)
+array `$options` u003d [] ): [HashContext](class.hashcontext.md)
 
 ### Список параметрів
 

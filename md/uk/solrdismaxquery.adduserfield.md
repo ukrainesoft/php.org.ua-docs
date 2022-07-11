@@ -1,5 +1,4 @@
-- [«
-SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md)
+- [« SolrDisMaxQuery::addTrigramPhraseField](solrdismaxquery.addtrigramphrasefield.md)
 - [SolrDisMaxQuery::\_\_construct »](solrdismaxquery.construct.md)
 
 - [PHP Manual](index.md)

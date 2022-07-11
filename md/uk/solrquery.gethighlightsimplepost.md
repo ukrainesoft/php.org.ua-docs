@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.md)
-- [SolrQuery::getHighlightSimplePre
-»](solrquery.gethighlightsimplepre.md)
+- [« SolrQuery::getHighlightRequireFieldMatch](solrquery.gethighlightrequirefieldmatch.md)
+- [SolrQuery::getHighlightSimplePre »](solrquery.gethighlightsimplepre.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

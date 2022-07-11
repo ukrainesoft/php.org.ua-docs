@@ -15,8 +15,7 @@
 Якщо база даних Oracle знаходиться на тій же машині, що й PHP, то все
 необхідні бібліотеки та заголовні файли вже встановлені. Якщо PHP
 встановлений на іншу машину, то використовуйте безкоштовні бібліотеки з
-[» Oracle Instant
-Client](https://www.oracle.com/database/technologies/instant-client.md).
+[» Oracle Instant Client](https://www.oracle.com/database/technologies/instant-client.md).
 
 Для використання Oracle Instant Client, встановіть `Basic` або
 `Basic Lite` zip-архів Oracle Instant Client або RPM або DMG пакет. При

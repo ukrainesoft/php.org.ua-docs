@@ -1,6 +1,5 @@
 - [« SolrQuery::setHighlight](solrquery.sethighlight.md)
-- [SolrQuery::setHighlightFormatter
-»](solrquery.sethighlightformatter.md)
+- [SolrQuery::setHighlightFormatter »](solrquery.sethighlightformatter.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

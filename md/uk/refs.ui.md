@@ -1,5 +1,5 @@
 - [« XSLTProcessor::transformToXml](xsltprocessor.transformtoxml.md)
-- [UI »] (book.ui.md)
+- [UI »](book.ui.md)
 
 - [PHP Manual](index.md)
 - [Довідник функцій](funcref.md)

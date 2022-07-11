@@ -40,8 +40,7 @@ echo — Виводить один або більше рядків
 `expressions`
 Один або кілька рядкових виразів для виводу, розділених комами.
 Нестрокові значення будуть перетворені на рядки, навіть якщо [включена
-директива
-`strict_types`](language.types.declarations.md#language.types.declarations.strict).
+директива `strict_types`](language.types.declarations.md#language.types.declarations.strict).
 
 ### Значення, що повертаються
 
@@ -60,9 +59,7 @@ echo — Виводить один або більше рядків
 ### Примітки
 
 > **Примітка**: Оскільки це мовна конструкція, а не функція, вона
-> не може викликатися за допомогою [змінних
-> функцій](functions.variable-functions.md) або [іменованих
-> аргументів](functions.arguments.md#functions.named-arguments).
+> не може викликатися за допомогою [змінних > функцій](functions.variable-functions.md) або [іменованих > аргументів](functions.arguments.md#functions.named-arguments).
 
 > **Примітка**: **Використання з круглими дужками**
 >

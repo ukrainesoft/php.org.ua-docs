@@ -1,6 +1,5 @@
-- [« Значення перерахування у постійних
-виразах](language.enumerations.expressions.md)
-- [Список значень»] (language.enumerations.listing.md)
+- [« Значення перерахування у постійних виразах](language.enumerations.expressions.md)
+- [Список значень»](language.enumerations.listing.md)
 
 - [PHP Manual](index.md)
 - [Перерахування](language.enumerations.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited
-»](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::getHost](mongodb-driver-monitoring-serverheartbeatstartedevent.gethost.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatstartedevent.isawaited.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatStartedEvent](class.mongodb-driver-monitoring-serverheartbeatstartedevent.md)

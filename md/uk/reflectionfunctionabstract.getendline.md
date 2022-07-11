@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
-- [ReflectionFunctionAbstract::getExtension
-»](reflectionfunctionabstract.getextension.md)
+- [« ReflectionFunctionAbstract::getDocComment](reflectionfunctionabstract.getdoccomment.md)
+- [ReflectionFunctionAbstract::getExtension »](reflectionfunctionabstract.getextension.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

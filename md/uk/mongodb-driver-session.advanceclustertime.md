@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::abortTransaction](mongodb-driver-session.aborttransaction.md)
-- [MongoDB\Driver\Session::advanceOperationTime
-»](mongodb-driver-session.advanceoperationtime.md)
+- [« MongoDB\Driver\Session::abortTransaction](mongodb-driver-session.aborttransaction.md)
+- [MongoDB\Driver\Session::advanceOperationTime »](mongodb-driver-session.advanceoperationtime.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

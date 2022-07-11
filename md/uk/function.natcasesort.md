@@ -1,5 +1,5 @@
 - [«list](function.list.md)
-- [natsort »] (function.natsort.md)
+- [natsort »](function.natsort.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)
@@ -76,8 +76,7 @@ Array
 [1] u003d> img12.png
 )
 
-Детальніше дивіться статтю Martin Pool [» Natural Order String
-Comparison](https://github.com/sourcefrog/natsort).
+Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).
 
 ### Дивіться також
 

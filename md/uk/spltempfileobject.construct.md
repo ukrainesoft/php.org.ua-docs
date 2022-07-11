@@ -57,5 +57,5 @@ public **SplTempFileObject::\_\_construct**(int `$maxMemory` u003d 2 \* 1024
 ### Дивіться також
 
 - [SplFileObject](class.splfileobject.md)
-- [потоки введення-виводу PHP] (wrappers.php.md) (для `php://temp` і
+- [потоки введення-виводу PHP](wrappers.php.md) (для `php://temp` і
 `php://memory`)

@@ -1,5 +1,4 @@
-- [«
-cubrid_error_code_facility](function.cubrid-error-code-facility.md)
+- [« cubrid_error_code_facility](function.cubrid-error-code-facility.md)
 - [cubrid_error_msg »](function.cubrid-error-msg.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.md)
-- [MongoDB\BSON\MinKey::\_\_construct
-»](mongodb-bson-minkey.construct.md)
+- [« MongoDB\BSON\MaxKey::unserialize](mongodb-bson-maxkey.unserialize.md)
+- [MongoDB\BSON\MinKey::\_\_construct »](mongodb-bson-minkey.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

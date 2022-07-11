@@ -1,5 +1,4 @@
-- [«
-Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md)
+- [« Imagick::getPixelRegionIterator](imagick.getpixelregioniterator.md)
 - [Imagick::getQuantum »](imagick.getquantum.md)
 
 - [PHP Manual](index.md)

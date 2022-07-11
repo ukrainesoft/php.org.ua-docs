@@ -22,8 +22,7 @@ public **Memcached::setSaslAuthData**(string `$username`, string
 серверами memcache.
 
 *Цей метод доступний тільки у випадку, якщо модуль memcached зібраний з
-підтримкою SASL.* Зверніться до розділу [Установка
-Memcached](memcached.setup.md), щоб дізнатися, як це зробити.
+підтримкою SASL.* Зверніться до розділу [Установка Memcached](memcached.setup.md), щоб дізнатися, як це зробити.
 
 ### Список параметрів
 

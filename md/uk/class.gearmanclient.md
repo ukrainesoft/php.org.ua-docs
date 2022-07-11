@@ -1,5 +1,4 @@
-- [« Базові клієнт та обробник Gearman, відправка
-задач](gearman.examples-reverse-task.md)
+- [« Базові клієнт та обробник Gearman, відправка задач](gearman.examples-reverse-task.md)
 - [GearmanClient::addOptions »](gearmanclient.addoptions.md)
 
 - [PHP Manual](index.md)
@@ -226,8 +225,7 @@ public [wait](gearmanclient.wait.md)(): bool
 - [GearmanClient::data](gearmanclient.data.md) — Повертає дані
 програми (функція застаріла)
 - [GearmanClient::do](gearmanclient.do.md) — Виконує одне завдання
-повертає результат [Застарілий метод]
-- [GearmanClient::doBackground](gearmanclient.dobackground.md) -
+повертає результат [Застарілий метод] - [GearmanClient::doBackground](gearmanclient.dobackground.md) -
 Запускає виконання завдання у фоновому режимі
 - [GearmanClient::doHigh](gearmanclient.dohigh.md) - Запускає на
 виконання завдання з високим пріоритетом
@@ -246,8 +244,7 @@ public [wait](gearmanclient.wait.md)(): bool
 - [GearmanClient::doStatus](gearmanclient.dostatus.md) — Отримання
 статусу завдання, що виконується
 - [GearmanClient::echo](gearmanclient.echo.md) — Надсилає дані
-всім серверам завдань, щоб перевірити відгук \[Застарілий метод\]
-- [GearmanClient::error](gearmanclient.error.md) — Повернути рядок
+всім серверам завдань, щоб перевірити відгук [Застарілий метод] - [GearmanClient::error](gearmanclient.error.md) — Повернути рядок
 помилки для останньої виявленої помилки
 - [GearmanClient::getErrno](gearmanclient.geterrno.md) — Отримати
 значення errno

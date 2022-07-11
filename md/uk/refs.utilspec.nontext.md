@@ -28,7 +28,7 @@
 wkhtmltox\PDF\Object
 - [wkhtmltox\Image\Converter](class.wkhtmltox-image-converter.md)
 - Клас wkhtmltox\Image\Converter
-- [PS] (book.ps.md) - Створення документів PostScript
+- [PS](book.ps.md) - Створення документів PostScript
 - [Вступ](intro.ps.md)
 - [Встановлення та налаштування](ps.setup.md)
 - [Предвизначені константи](ps.constants.md)

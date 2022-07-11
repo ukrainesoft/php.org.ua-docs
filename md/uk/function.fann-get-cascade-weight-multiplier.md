@@ -1,7 +1,5 @@
-- [«
-fann_get_cascade_output_stagnation_epochs](function.fann-get-cascade-output-stagnation-epochs.md)
-- [fann_get_connection_array
-»](function.fann-get-connection-array.md)
+- [« fann_get_cascade_output_stagnation_epochs](function.fann-get-cascade-output-stagnation-epochs.md)
+- [fann_get_connection_array »](function.fann-get-connection-array.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

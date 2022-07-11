@@ -1,6 +1,5 @@
 - [« ImagickDraw::setStrokeLineCap](imagickdraw.setstrokelinecap.md)
-- [ImagickDraw::setStrokeMiterLimit
-»](imagickdraw.setstrokemiterlimit.md)
+- [ImagickDraw::setStrokeMiterLimit »](imagickdraw.setstrokemiterlimit.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

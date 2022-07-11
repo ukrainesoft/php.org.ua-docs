@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)
-- [SolrQuery::setHighlightSnippets
-»](solrquery.sethighlightsnippets.md)
+- [« SolrQuery::setHighlightSimplePost](solrquery.sethighlightsimplepost.md)
+- [SolrQuery::setHighlightSnippets »](solrquery.sethighlightsnippets.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

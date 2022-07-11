@@ -1,6 +1,5 @@
 - [« ReflectionFiber::\_\_construct](reflectionfiber.construct.md)
-- [ReflectionFiber::getExecutingFile
-»](reflectionfiber.getexecutingfile.md)
+- [ReflectionFiber::getExecutingFile »](reflectionfiber.getexecutingfile.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFiber](class.reflectionfiber.md)

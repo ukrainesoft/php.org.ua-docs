@@ -1,6 +1,5 @@
 - [« Встановлення Nginx 1.4.x на систему Unix](install.unix.nginx.md)
-- [Веб-сервер LiteSpeed/OpenLiteSpeed на системах Unix
-»](install.unix.litespeed.md)
+- [Веб-сервер LiteSpeed/OpenLiteSpeed на системах Unix »](install.unix.litespeed.md)
 
 - [PHP Manual](index.md)
 - [Установка для Unix-системи](install.unix.md)

@@ -1,7 +1,5 @@
-- [«
-Vtiful\Kernel\Excel::mergeCells](vtiful-kernel-excel.mergeCells.md)
-- [Vtiful\Kernel\Excel::setColumn
-»](vtiful-kernel-excel.setColumn.md)
+- [« Vtiful\Kernel\Excel::mergeCells](vtiful-kernel-excel.mergeCells.md)
+- [Vtiful\Kernel\Excel::setColumn »](vtiful-kernel-excel.setColumn.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

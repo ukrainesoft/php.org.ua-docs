@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.md)
-- [MongoDB\Driver\Server::getHost
-»](mongodb-driver-server.gethost.md)
+- [« MongoDB\Driver\Server::executeReadWriteCommand](mongodb-driver-server.executereadwritecommand.md)
+- [MongoDB\Driver\Server::getHost »](mongodb-driver-server.gethost.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -27,8 +25,7 @@ final public **MongoDB\Driver\Server::executeWriteCommand**(string
 (наприклад,
 [»drop](https://www.mongodb.com/docs/manual/reference/command/drop/)) та
 враховують версію сервера MongoDB. Опція ``writeConcern'' за замовчуванням
-буде відповідати відповідному значенню з [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+буде відповідати відповідному значенню з [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 > **Примітка**: Метод не призначений для виконання
 > [» insert](https://www.mongodb.com/docs/manual/reference/command/insert/),

@@ -1,6 +1,5 @@
 - [«EventHttpRequest::addHeader](eventhttprequest.addheader.md)
-- [EventHttpRequest::clearHeaders
-»](eventhttprequest.clearheaders.md)
+- [EventHttpRequest::clearHeaders »](eventhttprequest.clearheaders.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

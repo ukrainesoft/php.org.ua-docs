@@ -1,5 +1,5 @@
 - [«strval](function.strval.md)
-- [unset »] (function.unset.md)
+- [unset »](function.unset.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)
@@ -13,8 +13,7 @@ unserialize — Створює PHP-значення зі збереженого 
 
 ### Опис
 
-**unserialize**(string `$data`, array `$options` u003d \[\]):
-[mixed](language.types.declarations.md#language.types.declarations.mixed)
+**unserialize**(string `$data`, array `$options` u003d []): [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 **unserialize()** приймає одну серіалізовану змінну та
 конвертує її назад у значення PHP.

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged
-»](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
+- [« MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded](mongodb-driver-monitoring-commandsubscriber.commandsucceeded.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged »](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring](mongodb.monitoring.md)
@@ -16,10 +14,8 @@ MongoDB\Driver\Monitoring\CommandSubscriber::commandSucceeded](mongodb-driver-mo
 Класи можуть реалізувати цей інтерфейс для реєстрації передплатника
 подій, який отримує сповіщення про різні події SDAM.
 Додаткову інформацію дивіться у посібнику з [» Виявлення та
-моніторингу
-серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
-і [» Моніторингу
-SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst).
+моніторингу серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst)
+і [» Моніторингу SDAM](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring-monitoring.rst).
 
 ## Огляд інтерфейсів
 

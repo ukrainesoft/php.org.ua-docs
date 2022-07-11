@@ -1,6 +1,5 @@
 - [« Функції Fann](ref.fann.md)
-- [fann_cascadetrain_on_file
-»](function.fann-cascadetrain-on-file.md)
+- [fann_cascadetrain_on_file »](function.fann-cascadetrain-on-file.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

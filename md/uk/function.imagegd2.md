@@ -1,5 +1,5 @@
 - [«imagegammacorrect](function.imagegammacorrect.md)
-- [imagegd »] (function.imagegd.md)
+- [imagegd »](function.imagegd.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

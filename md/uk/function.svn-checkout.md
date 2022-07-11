@@ -1,4 +1,4 @@
-- [« svn_cat] (function.svn-cat.md)
+- [« svn_cat](function.svn-cat.md)
 - [svn_cleanup »](function.svn-cleanup.md)
 
 - [PHP Manual](index.md)
@@ -80,5 +80,4 @@ PHP без попередження. Використовуйте цю функ�
 - [svn_status()](function.svn-status.md) - Повертає SVN-статус
 файлів та директорій робочої копії
 - [svn_update()](function.svn-update.md) - Оновлює робочу копію
-- [» SVN-документація про команду svn
-checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)
+- [» SVN-документація про команду svn checkout](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.checkout.md)

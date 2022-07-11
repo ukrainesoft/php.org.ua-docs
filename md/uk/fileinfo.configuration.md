@@ -1,5 +1,5 @@
 - [« Установка](fileinfo.installation.md)
-- [Типи ресурсів»] (fileinfo.resources.md)
+- [Типи ресурсів»](fileinfo.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](fileinfo.setup.md)

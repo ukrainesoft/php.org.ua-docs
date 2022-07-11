@@ -56,8 +56,7 @@ URI до сервера MySQL, такий як `mysqlx://user:password@host`.
 
 - Атрибут `auth` (механізм аутентифікації), оскільки він відноситься
 до зашифрованих з'єднань. Для отримання додаткової
-інформації дивіться [» Параметри команди для зашифрованих
-соединений](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.md).
+інформації дивіться [» Параметри команди для зашифрованих соединений](https://dev.mysql.com/doc/refman/8.0/en/encrypted-connection-options.md).
 Підтримуються такі значення: `plain`, `mysql41`,
 `external`, та `sha256_mem`.
 
@@ -94,7 +93,7 @@ URI підключення до connect-timeout має пріоритет над
 zlib). За замовчуванням використовується порядок (залежно від
 доступності системи): lz4_message, zstd_stream, потім
 deflate_stream. Наприклад, під час передачі
-compression-algorithmsu003d\[lz4, zstd_stream\] використовується lz4,
+compression-algorithmsu003d[lz4, zstd_stream] використовується lz4,
 якщо він доступний, інакше використовується zstd_stream.
 Якщо обидва недоступні, поведінка залежить від значення стиснення,
 наприклад, якщо compression u003d required, то відбудеться збій з
@@ -107,8 +106,7 @@ compression-algorithmsu003d\[lz4, zstd_stream\] використовується
 ` mysqlx://foobarmysqlx://root@localhost?socketu003d%2Ftmp%2Fmysqld.sock%2Fmysqlx://foo:bar@localhost:33060mysqlx://foo:bar@localhost:33160?ssl-modeu003ddisabledmysqlx: //foo:bar@localhost:33260?ssl-modeu003drequiredmysqlx://foo:bar@localhost:33360?ssl-modeu003drequired&authu003dmysql41mysqlx://foo:bar@(/path/to/socket)mysqlx: //foo:bar@(/path/to/socket)?authu003dsha256_memmysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]mysqlx://foobar?ssl-cau003d(/path/ to/ca.pem)&ssl-crlu003d(/path/to/crl.pem)mysqlx://foo:bar@[localhost:33060, 127.0.0.1:33061]?ssl-modeu003ddisabledmysqlx://foo: bar@localhost:33160/?connect-timeoutu003d0mysqlx://foo:bar@localhost:33160/?connect-timeoutu003d10&compressionu003drequiredmysqlx://foo:bar@localhost:33160/?connect-timeoutu003d10&compressionu003drequired&compression -algorithmsu003d[lz4,zstd_stream]`
 
 Для отримання додаткової інформації дивіться MySQL Shell
-[» Підключення з використанням рядка
-URI](https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-connection-using-uri.md).
+[» Підключення з використанням рядка URI](https://dev.mysql.com/doc/refman/8.0/en/mysql-shell-connection-using-uri.md).
 
 ### Значення, що повертаються
 

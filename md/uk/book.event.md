@@ -17,8 +17,7 @@
 - [Прапори подій](event.flags.md)
 - [Про постійні(persistent) події](event.persistence.md)
 - [Callback-функції](event.callbacks.md)
-- [Створення подій для
-сигналів](event.constructing.signal.events.md)
+- [Створення подій для сигналів](event.constructing.signal.events.md)
 - [Event](class.event.md) - Клас Event
 - [Event::add](event.add.md) — Перевести подію у стан
 очікування
@@ -192,8 +191,7 @@ EventBufferEvent
 - [EventBufferEvent::writeBuffer](eventbufferevent.writebuffer.md)
 — Додає вміст буфера в буфер виводу буферного
 події
-- [Про callback-функції подійного
-буфера](eventbufferevent.about.callbacks.md)
+- [Про callback-функції подійного буфера](eventbufferevent.about.callbacks.md)
 - [EventConfig](class.eventconfig.md) - Клас EventConfig
 - [EventConfig::avoidMethod](eventconfig.avoidmethod.md) -
 Попросити libevent не використати певний метод події

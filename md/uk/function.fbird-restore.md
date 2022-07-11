@@ -1,5 +1,5 @@
 - [«fbird_query](function.fbird-query.md)
-- [fbird_rollback_ret »] (function.fbird-rollback-ret.md)
+- [fbird_rollback_ret »](function.fbird-rollback-ret.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

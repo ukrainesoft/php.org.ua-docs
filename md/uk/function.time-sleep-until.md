@@ -1,5 +1,5 @@
 - [«time_nanosleep](function.time-nanosleep.md)
-- [uniqid »] (function.uniqid.md)
+- [uniqid »](function.uniqid.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

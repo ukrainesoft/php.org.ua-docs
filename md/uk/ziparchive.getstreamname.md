@@ -1,6 +1,5 @@
 - [« ZipArchive::getStreamIndex](ziparchive.getstreamindex.md)
-- [ZipArchive::isCompressionMethodSupported
-»](ziparchive.iscompressionmethoddupported.md)
+- [ZipArchive::isCompressionMethodSupported »](ziparchive.iscompressionmethoddupported.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

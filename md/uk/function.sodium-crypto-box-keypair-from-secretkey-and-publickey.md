@@ -1,6 +1,5 @@
 - [« sodium_crypto_auth](function.sodium-crypto-auth.md)
-- [sodium_crypto_box_keypair
-»](function.sodium-crypto-box-keypair.md)
+- [sodium_crypto_box_keypair »](function.sodium-crypto-box-keypair.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine\Client::recv](swoole-coroutine-client.recv.md)
-- [Swoole\Coroutine\Client::sendfile
-»](swoole-coroutine-client.sendfile.md)
+- [Swoole\Coroutine\Client::sendfile »](swoole-coroutine-client.sendfile.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

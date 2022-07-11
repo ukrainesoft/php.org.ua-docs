@@ -1,5 +1,5 @@
 - [« openssl_decrypt](function.openssl-decrypt.md)
-- [openssl_digest »] (function.openssl-digest.md)
+- [openssl_digest »](function.openssl-digest.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

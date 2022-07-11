@@ -1,6 +1,5 @@
 - [« IntlCalendar::getMinimum](intlcalendar.getminimum.md)
-- [IntlCalendar::getRepeatedWallTimeOption
-»](intlcalendar.getrepeatedwalltimeoption.md)
+- [IntlCalendar::getRepeatedWallTimeOption »](intlcalendar.getrepeatedwalltimeoption.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

@@ -1,5 +1,4 @@
-- [«
-Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.md)
+- [« Gmagick::getimageinterlacescheme](gmagick.getimageinterlacescheme.md)
 - [Gmagick::getimagematte »](gmagick.getimagematte.md)
 
 - [PHP Manual](index.md)

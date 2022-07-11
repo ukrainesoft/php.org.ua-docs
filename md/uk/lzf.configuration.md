@@ -1,5 +1,5 @@
 - [« Установка](lzf.installation.md)
-- [Типи ресурсів»] (lzf.resources.md)
+- [Типи ресурсів»](lzf.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](lzf.setup.md)

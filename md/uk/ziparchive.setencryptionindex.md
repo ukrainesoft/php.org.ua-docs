@@ -1,5 +1,4 @@
-- [«
-ZipArchive::setCompressionName](ziparchive.setcompressionname.md)
+- [« ZipArchive::setCompressionName](ziparchive.setcompressionname.md)
 - [ZipArchive::setEncryptionName »](ziparchive.setencryptionname.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [«
-EventHttpConnection::\_\_construct](eventhttpconnection.construct.md)
+- [« EventHttpConnection::\_\_construct](eventhttpconnection.construct.md)
 - [EventHttpConnection::getPeer »](eventhttpconnection.getpeer.md)
 
 - [PHP Manual](index.md)

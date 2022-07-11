@@ -1,5 +1,5 @@
 - [«eio_realpath](function.eio-realpath.md)
-- [eio_rmdir »] (function.eio-rmdir.md)
+- [eio_rmdir »](function.eio-rmdir.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

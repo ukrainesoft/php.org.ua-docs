@@ -1,6 +1,5 @@
 - [« ReflectionClass::getShortName](reflectionclass.getshortname.md)
-- [ReflectionClass::getStaticProperties
-»](reflectionclass.getstaticproperties.md)
+- [ReflectionClass::getStaticProperties »](reflectionclass.getstaticproperties.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

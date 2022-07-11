@@ -1,5 +1,4 @@
-- [«
-parallel\Events\Event\Type](class.parallel-events-event-type.md)
+- [« parallel\Events\Event\Type](class.parallel-events-event-type.md)
 - [parallel\Sync::\_\_construct »](parallel-sync.construct.md)
 
 - [PHP Manual](index.md)

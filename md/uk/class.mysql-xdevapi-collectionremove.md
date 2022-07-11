@@ -1,5 +1,4 @@
-- [«
-CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.md)
+- [« CollectionModify::unset](mysql-xdevapi-collectionmodify.unset.md)
 - [CollectionRemove::bind »](mysql-xdevapi-collectionremove.bind.md)
 
 - [PHP Manual](index.md)

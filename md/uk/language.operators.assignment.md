@@ -99,5 +99,4 @@ Parse error: syntax error, unexpected 'new' (T_NEW) in …
 
 - [арифметичні оператори](language.operators.arithmetic.md)
 - [побітові оператори](language.operators.bitwise.md)
-- [оператори об'єднання з
-null](language.operators.comparison.md#language.operators.comparison.coalesce)
+- [оператори об'єднання з null](language.operators.comparison.md#language.operators.comparison.coalesce)

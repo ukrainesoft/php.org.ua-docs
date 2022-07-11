@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.md)
-- [MongoDB\BSON\RegexInterface
-»](class.mongodb-bson-regexinterface.md)
+- [« MongoDB\BSON\ObjectIdInterface::getTimestamp](mongodb-bson-objectidinterface.gettimestamp.md)
+- [MongoDB\BSON\RegexInterface »](class.mongodb-bson-regexinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectIdInterface](class.mongodb-bson-objectidinterface.md)

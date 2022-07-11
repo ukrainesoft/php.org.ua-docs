@@ -55,8 +55,7 @@ public [\_\_wakeup](generator.wakeup.md)(): void
 
 ## Дивіться також
 
-Дивіться також розділ [Ітератори
-об'єктів] (language.oop5.iterations.md).
+Дивіться також розділ [Ітератори об'єктів](language.oop5.iterations.md).
 
 ## Зміст
 

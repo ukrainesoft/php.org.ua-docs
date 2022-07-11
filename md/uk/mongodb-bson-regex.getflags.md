@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Regex::\_\_construct](mongodb-bson-regex.construct.md)
-- [MongoDB\BSON\Regex::getPattern
-»](mongodb-bson-regex.getpattern.md)
+- [« MongoDB\BSON\Regex::\_\_construct](mongodb-bson-regex.construct.md)
+- [MongoDB\BSON\Regex::getPattern »](mongodb-bson-regex.getpattern.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
@@ -42,7 +40,5 @@ string(1) "i"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
-- [» Підтримувані прапори регулярних
-виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Підтримувані прапори регулярних виразів](https://www.mongodb.com/docs/manual/reference/operator/query/regex/#op._S_options)

@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.md)
-- [SolrDisMaxQuery::setTrigramPhraseSlop
-»](solrdismaxquery.settrigramphraseslop.md)
+- [« SolrDisMaxQuery::setTieBreaker](solrdismaxquery.settiebreaker.md)
+- [SolrDisMaxQuery::setTrigramPhraseSlop »](solrdismaxquery.settrigramphraseslop.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

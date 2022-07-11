@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::executeQuery](mongodb-driver-manager.executequery.md)
-- [MongoDB\Driver\Manager::executeReadWriteCommand
-»](mongodb-driver-manager.executereadwritecommand.md)
+- [« MongoDB\Driver\Manager::executeQuery](mongodb-driver-manager.executequery.md)
+- [MongoDB\Driver\Manager::executeReadWriteCommand »](mongodb-driver-manager.executereadwritecommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -23,15 +21,13 @@ final public **MongoDB\Driver\Manager::executeReadCommand**(string
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує
 команду на сервері. За замовчуванням використовуватиметься перевага
-читання з [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+читання з [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 Цей метод буде застосовувати логіку, специфічну для команд, які
 читають (наприклад,
 [»count](https://www.mongodb.com/docs/manual/reference/command/count/))
 та враховують версію сервера MongoDB. Опція ``readConcern'` буде по
-замовчуванням відповідати відповідному значенню з [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+замовчуванням відповідати відповідному значенню з [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 ### Список параметрів
 
@@ -49,8 +45,7 @@ MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-ur
 **Увага**
 При використанні `session` та наявності незавершених транзакцій, ви не
 можете вказати ``readConcern'' або 'writeConcern' option. Це приведе
-до викидання виключення
-[MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
+до викидання виключення [MongoDB\Driver\Exception\InvalidArgumentException](class.mongodb-driver-exception-invalidargumentexception.md).
 Натомість ви повинні встановити ці дві опції при створенні транзакції
 за допомогою
 [MongoDB\Driver\Session::startTransaction()](mongodb-driver-session.starttransaction.md).

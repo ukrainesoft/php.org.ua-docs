@@ -1,6 +1,5 @@
 - [« SplPriorityQueue::key](splpriorityqueue.key.md)
-- [SplPriorityQueue::recoverFromCorruption
-»](splpriorityqueue.recoverfromcorruption.md)
+- [SplPriorityQueue::recoverFromCorruption »](splpriorityqueue.recoverfromcorruption.md)
 
 - [PHP Manual](index.md)
 - [SplPriorityQueue](class.splpriorityqueue.md)

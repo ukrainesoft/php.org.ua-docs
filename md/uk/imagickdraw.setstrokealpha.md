@@ -1,6 +1,5 @@
 - [« ImagickDraw::setResolution](imagickdraw.setresolution.md)
-- [ImagickDraw::setStrokeAntialias
-»](imagickdraw.setstrokeantialias.md)
+- [ImagickDraw::setStrokeAntialias »](imagickdraw.setstrokeantialias.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

@@ -1,5 +1,5 @@
 - [«imagecreatefrompng](function.imagecreatefrompng.md)
-- [imagecreatefromtga »] (function.imagecreatefromtga.md)
+- [imagecreatefromtga »](function.imagecreatefromtga.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

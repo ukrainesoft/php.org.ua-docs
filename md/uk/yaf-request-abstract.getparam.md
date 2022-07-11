@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::getModuleName](yaf-request-abstract.getmodulename.md)
-- [Yaf_Request_Abstract::getParams
-»](yaf-request-abstract.getparams.md)
+- [« Yaf_Request_Abstract::getModuleName](yaf-request-abstract.getmodulename.md)
+- [Yaf_Request_Abstract::getParams »](yaf-request-abstract.getparams.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

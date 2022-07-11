@@ -1,7 +1,5 @@
-- [«
-DOMDocument::registerNodeClass](domdocument.registernodeclass.md)
-- [DOMDocument::relaxNGValidateSource
-»](domdocument.relaxngvalidatesource.md)
+- [« DOMDocument::registerNodeClass](domdocument.registernodeclass.md)
+- [DOMDocument::relaxNGValidateSource »](domdocument.relaxngvalidatesource.md)
 
 - [PHP Manual](index.md)
 - [DOMDocument](class.domdocument.md)

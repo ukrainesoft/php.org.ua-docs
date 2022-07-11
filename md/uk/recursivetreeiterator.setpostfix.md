@@ -1,6 +1,5 @@
 - [« RecursiveTreeIterator::rewind](recursivetreeiterator.rewind.md)
-- [RecursiveTreeIterator::setPrefixPart
-»](recursivetreeiterator.setprefixpart.md)
+- [RecursiveTreeIterator::setPrefixPart »](recursivetreeiterator.setprefixpart.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)

@@ -30,8 +30,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 контрастності зображення, інакше контрастність зменшується.
 
 Дивіться також [» Приклади ImageMagick v6 - Перетворення зображень -
-Контраст сигмоїдальної
-нелінійності] (url.imagemagick.usage.color_mods.sigmoidal).
+Контраст сигмоїдальної нелінійності](url.imagemagick.usage.color_mods.sigmoidal).
 
 ### Список параметрів
 

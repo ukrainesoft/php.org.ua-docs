@@ -1,5 +1,5 @@
 - [« Установка](mysqli.installation.md)
-- [Типи ресурсів»] (mysqli.resources.md)
+- [Типи ресурсів»](mysqli.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](mysqli.setup.md)

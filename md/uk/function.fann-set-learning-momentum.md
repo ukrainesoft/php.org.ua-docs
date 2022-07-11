@@ -1,5 +1,4 @@
-- [«
-fann_set_input_scaling_params](function.fann-set-input-scaling-params.md)
+- [« fann_set_input_scaling_params](function.fann-set-input-scaling-params.md)
 - [fann_set_learning_rate »](function.fann-set-learning-rate.md)
 
 - [PHP Manual](index.md)

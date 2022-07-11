@@ -9,7 +9,7 @@
 
 ## Зміст
 
-- [CommonMark \ Parse] (function.commonmark-parse.md) - Розбір
+- [CommonMark \ Parse](function.commonmark-parse.md) - Розбір
 - [CommonMark\Render](function.commonmark-render.md) — Відображення
 - [CommonMark\Render\HTML](function.commonmark-render-html.md) -
 Відображення

@@ -1,5 +1,5 @@
 - [«realpath](function.realpath.md)
-- [rewind»] (function.rewind.md)
+- [rewind»](function.rewind.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

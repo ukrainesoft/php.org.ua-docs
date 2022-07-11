@@ -1,5 +1,5 @@
-- [« Пам'ять, що розділяється (shared)] (ref.shmop.md)
-- [shmop_delete »] (function.shmop-delete.md)
+- [« Пам'ять, що розділяється (shared)](ref.shmop.md)
+- [shmop_delete »](function.shmop-delete.md)
 
 - [PHP Manual](index.md)
 - [Поділ, що розділяється (shared) пам'ять](ref.shmop.md)

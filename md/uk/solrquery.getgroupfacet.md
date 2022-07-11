@@ -1,5 +1,4 @@
-- [«
-SolrQuery::getGroupCachePercent](solrquery.getgroupcachepercent.md)
+- [« SolrQuery::getGroupCachePercent](solrquery.getgroupcachepercent.md)
 - [SolrQuery::getGroupFields »](solrquery.getgroupfields.md)
 
 - [PHP Manual](index.md)

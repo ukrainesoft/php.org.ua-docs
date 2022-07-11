@@ -1,7 +1,5 @@
-- [«
-Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md)
-- [Imagick::getImageColormapColor
-»](imagick.getimagecolormapcolor.md)
+- [« Imagick::getImageChannelStatistics](imagick.getimagechannelstatistics.md)
+- [Imagick::getImageColormapColor »](imagick.getimagecolormapcolor.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

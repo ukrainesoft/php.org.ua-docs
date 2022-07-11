@@ -1,5 +1,4 @@
-- [«
-CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.md)
+- [« CollectionRemove::execute](mysql-xdevapi-collectionremove.execute.md)
 - [CollectionRemove::sort »](mysql-xdevapi-collectionremove.sort.md)
 
 - [PHP Manual](index.md)

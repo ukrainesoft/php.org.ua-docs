@@ -1,6 +1,5 @@
 - [« DirectoryIterator::getOwner](directoryiterator.getowner.md)
-- [DirectoryIterator::getPathname
-»](directoryiterator.getpathname.md)
+- [DirectoryIterator::getPathname »](directoryiterator.getpathname.md)
 
 - [PHP Manual](index.md)
 - [DirectoryIterator](class.directoryiterator.md)

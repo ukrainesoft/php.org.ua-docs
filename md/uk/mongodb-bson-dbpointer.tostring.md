@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\DBPointer::serialize](mongodb-bson-dbpointer.serialize.md)
-- [MongoDB\BSON\DBPointer::unserialize
-»](mongodb-bson-dbpointer.unserialize.md)
+- [« MongoDB\BSON\DBPointer::serialize](mongodb-bson-dbpointer.serialize.md)
+- [MongoDB\BSON\DBPointer::unserialize »](mongodb-bson-dbpointer.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\DBPointer](class.mongodb-bson-dbpointer.md)
@@ -27,5 +25,4 @@ final public **MongoDB\BSON\DBPointer::\_\_toString**(): string
 
 ### Дивіться також
 
-- [» BSON
-Types](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» BSON Types](https://www.mongodb.com/docs/manual/reference/bson-types/)

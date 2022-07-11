@@ -1,7 +1,5 @@
-- [«
-RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)
-- [RecursiveCallbackFilterIterator
-»](class.recursivecallbackfilteriterator.md)
+- [« RecursiveCachingIterator::getChildren](recursivecachingiterator.getchildren.md)
+- [RecursiveCallbackFilterIterator »](class.recursivecallbackfilteriterator.md)
 
 - [PHP Manual](index.md)
 - [RecursiveCachingIterator](class.recursivecachingiterator.md)

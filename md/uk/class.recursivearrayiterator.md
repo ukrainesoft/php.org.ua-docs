@@ -1,6 +1,5 @@
 - [« ParentIterator::rewind](parentiterator.rewind.md)
-- [RecursiveArrayIterator::getChildren
-»](recursivearrayiterator.getchildren.md)
+- [RecursiveArrayIterator::getChildren »](recursivearrayiterator.getchildren.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

@@ -2,7 +2,7 @@
 - [token_get_all »](function.token-get-all.md)
 
 - [PHP Manual](index.md)
-- [Лексер (Tokenizer)] (book.tokenizer.md)
+- [Лексер (Tokenizer)](book.tokenizer.md)
 - Функції PHP-лексера (tokenizer)
 
 # Функції PHP-лексера (tokenizer)

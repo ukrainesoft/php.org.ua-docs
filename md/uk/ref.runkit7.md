@@ -34,7 +34,7 @@
 метод з одного класу до іншого
 - [runkit7_method_redefine](function.runkit7-method-redefine.md) -
 Динамічно змінює код заданого методу
-- [runkit7_method_remove] (function.runkit7-method-remove.md) -
+- [runkit7_method_remove](function.runkit7-method-remove.md) -
 Динамічно видаляє заданий метод
 - [runkit7_method_rename](function.runkit7-method-rename.md) -
 Динамічно змінює ім'я заданого методу

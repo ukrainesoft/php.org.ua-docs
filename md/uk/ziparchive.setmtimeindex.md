@@ -1,5 +1,4 @@
-- [«
-ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md)
+- [« ZipArchive::setExternalAttributesName](ziparchive.setexternalattributesname.md)
 - [ZipArchive::setMtimeName »](ziparchive.setmtimename.md)
 
 - [PHP Manual](index.md)

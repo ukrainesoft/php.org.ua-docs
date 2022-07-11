@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::getLatency](mongodb-driver-server.getlatency.md)
-- [MongoDB\Driver\Server::getServerDescription
-»](mongodb-driver-server.getserverdescription.md)
+- [« MongoDB\Driver\Server::getLatency](mongodb-driver-server.getlatency.md)
+- [MongoDB\Driver\Server::getServerDescription »](mongodb-driver-server.getserverdescription.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)

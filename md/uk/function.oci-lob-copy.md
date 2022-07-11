@@ -1,5 +1,4 @@
-- [«
-oci_get_implicit_resultset](function.oci-get-implicit-resultset.md)
+- [« oci_get_implicit_resultset](function.oci-get-implicit-resultset.md)
 - [oci_lob_is_equal »](function.oci-lob-is-equal.md)
 
 - [PHP Manual](index.md)

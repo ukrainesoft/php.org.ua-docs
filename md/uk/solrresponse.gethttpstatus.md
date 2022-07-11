@@ -1,7 +1,5 @@
-- [«
-SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md)
-- [SolrResponse::getHttpStatusMessage
-»](solrresponse.gethttpstatusmessage.md)
+- [« SolrResponse::getDigestedResponse](solrresponse.getdigestedresponse.md)
+- [SolrResponse::getHttpStatusMessage »](solrresponse.gethttpstatusmessage.md)
 
 - [PHP Manual](index.md)
 - [SolrResponse](class.solrresponse.md)

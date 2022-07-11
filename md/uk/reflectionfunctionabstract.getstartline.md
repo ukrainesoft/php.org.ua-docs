@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
-- [ReflectionFunctionAbstract::getStaticVariables
-»](reflectionfunctionabstract.getstaticvariables.md)
+- [« ReflectionFunctionAbstract::getShortName](reflectionfunctionabstract.getshortname.md)
+- [ReflectionFunctionAbstract::getStaticVariables »](reflectionfunctionabstract.getstaticvariables.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

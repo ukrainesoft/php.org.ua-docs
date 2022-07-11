@@ -1,5 +1,4 @@
-- [«
-DOMDocument::normalizeDocument](domdocument.normalizedocument.md)
+- [« DOMDocument::normalizeDocument](domdocument.normalizedocument.md)
 - [DOMDocument::relaxNGValidate »](domdocument.relaxngvalidate.md)
 
 - [PHP Manual](index.md)

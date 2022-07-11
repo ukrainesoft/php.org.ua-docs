@@ -1,5 +1,5 @@
 - [« Підтримка прозорого для програм відновлення після відмови
-(Transparent Application Failover або TAF) для OCI8] (oci8.taf.md)
+(Transparent Application Failover або TAF) для OCI8](oci8.taf.md)
 - [Підтримувані типи даних »](oci8.datatypes.md)
 
 - [PHP Manual](index.md)
@@ -10,8 +10,7 @@
 
 OCI8 2.0 містить статичні зонди DTrace, які можна використовувати в
 операційні системи, що підтримують DTrace. Більш детально
-взаємовідносини PHP та DTrace описані в розділі [Динамічна трасування
-DTrace](features.dtrace.md).
+взаємовідносини PHP та DTrace описані в розділі [Динамічна трасування DTrace](features.dtrace.md).
 
 ## Установка OCI8 з підтримкою DTrace
 
@@ -32,8 +31,7 @@ extensionu003doci8.so
 `PHP_DTRACEu003dyes`. Це тому, що опція `--enable-dtrace` буде
 проігнорована обмеженим скриптом `configure` модуля PECL.
 
-Докладніше про встановлення PECL модулів читайте у розділі [Установка
-модулів PECL](install.pecl.md).
+Докладніше про встановлення PECL модулів читайте у розділі [Установка модулів PECL](install.pecl.md).
 
 ## Статичні зонди DTrace в PHP OCI8
 
@@ -59,8 +57,7 @@ extensionu003doci8.so
 [oci_set_client_identifier()](function.oci-set-client-identifier.md).
 
 Ядро PHP містить статичні зонди. Дивіться розділ [Статичні
-зонди DTrace у ядрі
-PHP](features.dtrace.dtrace.md#features.dtrace.static-probes).
+зонди DTrace у ядрі PHP](features.dtrace.dtrace.md#features.dtrace.static-probes).
 
 | Ім'я зонда
 |-------------------------------|

@@ -1,7 +1,5 @@
-- [«
-ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md)
-- [ImagickPixelIterator::newPixelRegionIterator
-»](imagickpixeliterator.newpixelregioniterator.md)
+- [« ImagickPixelIterator::getPreviousIteratorRow](imagickpixeliterator.getpreviousiteratorrow.md)
+- [ImagickPixelIterator::newPixelRegionIterator »](imagickpixeliterator.newpixelregioniterator.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixelIterator](class.imagickpixeliterator.md)

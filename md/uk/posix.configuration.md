@@ -1,5 +1,5 @@
 - [« Установка](posix.installation.md)
-- [Типи ресурсів»] (posix.resources.md)
+- [Типи ресурсів»](posix.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](posix.setup.md)

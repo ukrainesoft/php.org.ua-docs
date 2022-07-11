@@ -1,6 +1,5 @@
 - [«openssl_verify](function.openssl-verify.md)
-- [openssl_x509_checkpurpose
-»](function.openssl-x509-checkpurpose.md)
+- [openssl_x509_checkpurpose »](function.openssl-x509-checkpurpose.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)

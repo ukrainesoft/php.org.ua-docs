@@ -1,5 +1,5 @@
 - [«doubleval](function.doubleval.md)
-- [floatval »] (function.floatval.md)
+- [floatval »](function.floatval.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)
@@ -32,8 +32,7 @@ empty — Перевіряє, чи порожня змінна
 ### Значення, що повертаються
 
 Повертає **`true`**, якщо параметр `var` не існує, якщо значення
-і нулю, або не задано, дивіться [Перетворення на булев
-тип](language.types.boolean.md#language.types.boolean.casting). В
+і нулю, або не задано, дивіться [Перетворення на булев тип](language.types.boolean.md#language.types.boolean.casting). В
 в іншому випадку повертає **`false`**.
 
 ### Приклади
@@ -59,9 +58,7 @@ bool(true)
 ### Примітки
 
 > **Примітка**: Оскільки це мовна конструкція, а не функція, вона
-> не може викликатися за допомогою [змінних
-> функцій](functions.variable-functions.md) або [іменованих
-> аргументів](functions.arguments.md#functions.named-arguments).
+> не може викликатися за допомогою [змінних > функцій](functions.variable-functions.md) або [іменованих > аргументів](functions.arguments.md#functions.named-arguments).
 
 > **Примітка**:
 >

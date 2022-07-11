@@ -1,5 +1,4 @@
-- [«
-UI\Controls\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md)
+- [« UI\Controls\MultilineEntry::setReadOnly](ui-controls-multilineentry.setreadonly.md)
 - [UI\Controls\Spin »](class.ui-controls-spin.md)
 
 - [PHP Manual](index.md)

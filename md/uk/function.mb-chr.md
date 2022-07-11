@@ -1,5 +1,5 @@
 - [«mb_check_encoding](function.mb-check-encoding.md)
-- [mb_convert_case »] (function.mb-convert-case.md)
+- [mb_convert_case »](function.mb-convert-case.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

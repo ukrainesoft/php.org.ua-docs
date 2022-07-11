@@ -1,5 +1,4 @@
-- [«
-ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md)
+- [« ReflectionParameter::isVariadic](reflectionparameter.isvariadic.md)
 - [ReflectionProperty »](class.reflectionproperty.md)
 
 - [PHP Manual](index.md)

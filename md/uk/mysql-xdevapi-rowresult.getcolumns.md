@@ -1,5 +1,4 @@
-- [«
-RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md)
+- [« RowResult::getColumnNames](mysql-xdevapi-rowresult.getcolumnnames.md)
 - [RowResult::getWarnings »](mysql-xdevapi-rowresult.getwarnings.md)
 
 - [PHP Manual](index.md)

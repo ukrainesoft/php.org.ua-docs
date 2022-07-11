@@ -1,5 +1,5 @@
 - [«mb_strpos](function.mb-strpos.md)
-- [mb_strrichr »] (function.mb-strrichr.md)
+- [mb_strrichr »](function.mb-strrichr.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

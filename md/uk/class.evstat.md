@@ -2,7 +2,7 @@
 - [EvStat::attr »](evstat.attr.md)
 
 - [PHP Manual](index.md)
-- [Ev] (book.ev.md)
+- [Ev](book.ev.md)
 - Клас EvStat
 
 # Клас EvStat

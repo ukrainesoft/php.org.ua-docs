@@ -1,5 +1,5 @@
 - [« svn_client_version](function.svn-client-version.md)
-- [svn_delete »] (function.svn-delete.md)
+- [svn_delete »](function.svn-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції SVN](ref.svn.md)
@@ -92,5 +92,4 @@ PHP без попередження. Використовуйте цю функ�
 
 - [svn_auth_set_parameter()](function.svn-auth-set-parameter.md) -
 Встановлює параметр автентифікації
-- [» SVN-документація з svn
-commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.md)
+- [» SVN-документація з svn commit](http://svnbook.red-bean.com/en/1.2/svn.ref.svn.c.commit.md)

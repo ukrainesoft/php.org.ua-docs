@@ -1,5 +1,4 @@
-- [«
-ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
+- [« ReflectionGenerator::getFunction](reflectiongenerator.getfunction.md)
 - [ReflectionGenerator::getTrace »](reflectiongenerator.gettrace.md)
 
 - [PHP Manual](index.md)

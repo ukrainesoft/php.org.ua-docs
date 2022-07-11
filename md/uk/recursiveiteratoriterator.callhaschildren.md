@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md)
-- [RecursiveIteratorIterator::\_\_construct
-»](recursiveiteratoriterator.construct.md)
+- [« RecursiveIteratorIterator::callGetChildren](recursiveiteratoriterator.callgetchildren.md)
+- [RecursiveIteratorIterator::\_\_construct »](recursiveiteratoriterator.construct.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

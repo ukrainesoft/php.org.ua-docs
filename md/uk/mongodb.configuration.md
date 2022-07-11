@@ -1,5 +1,4 @@
-- [« Складання драйвера PHP MongoDB з вихідного
-коду](mongodb.installation.manual.md)
+- [« Складання драйвера PHP MongoDB з вихідного коду](mongodb.installation.manual.md)
 - [Предвизначені константи »](mongodb.constants.md)
 
 - [PHP Manual](index.md)

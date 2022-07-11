@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.md)
-- [SolrQuery::setHighlightMergeContiguous
-»](solrquery.sethighlightmergecontiguous.md)
+- [« SolrQuery::setHighlightMaxAlternateFieldLength](solrquery.sethighlightmaxalternatefieldlength.md)
+- [SolrQuery::setHighlightMergeContiguous »](solrquery.sethighlightmergecontiguous.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

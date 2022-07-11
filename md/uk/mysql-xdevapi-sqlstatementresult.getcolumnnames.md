@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getColumnsCount](mysql-xdevapi-sqlstatementresult.getcolumncount.md)
-- [SqlStatementResult::getColumns
-»](mysql-xdevapi-sqlstatementresult.getcolumns.md)
+- [« SqlStatementResult::getColumnsCount](mysql-xdevapi-sqlstatementresult.getcolumncount.md)
+- [SqlStatementResult::getColumns »](mysql-xdevapi-sqlstatementresult.getcolumns.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

@@ -1,5 +1,4 @@
-- [« Де можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md)
+- [« Де можуть бути встановлені параметри конфігурації](configuration.changes.modes.md)
 - [Довідник мови »](langref.md)
 
 - [PHP Manual](index.md)

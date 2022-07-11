@@ -1,5 +1,4 @@
-- [«
-fann_get_training_algorithm](function.fann-get-training-algorithm.md)
+- [« fann_get_training_algorithm](function.fann-get-training-algorithm.md)
 - [fann_length_train_data »](function.fann-length-train-data.md)
 
 - [PHP Manual](index.md)

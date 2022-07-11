@@ -1,5 +1,4 @@
-- [«
-ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
+- [« ReflectionFunctionAbstract::returnsReference](reflectionfunctionabstract.returnsreference.md)
 - [ReflectionMethod »](class.reflectionmethod.md)
 
 - [PHP Manual](index.md)

@@ -15,8 +15,7 @@ oauth_urlencode — Кодує URI відповідно до RFC 3986
 
 **oauth_urlencode**(string `$uri`): string
 
-Кодує URI відповідно до [» RFC
-3986](http://www.faqs.org/rfcs/rfc3986).
+Кодує URI відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986).
 
 ### Список параметрів
 
@@ -25,5 +24,4 @@ URI для кодування.
 
 ### Значення, що повертаються
 
-Повертає рядок закодований відповідно до [» RFC
-3986](http://www.faqs.org/rfcs/rfc3986).
+Повертає рядок закодований відповідно до [» RFC 3986](http://www.faqs.org/rfcs/rfc3986).

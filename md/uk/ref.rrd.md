@@ -1,5 +1,5 @@
 - [« Об'єктно-орієнтований приклад PECL/rrd](rrd.examples-oop.md)
-- [rrd_create »] (function.rrd-create.md)
+- [rrd_create »](function.rrd-create.md)
 
 - [PHP Manual](index.md)
 - [RRD](book.rrd.md)

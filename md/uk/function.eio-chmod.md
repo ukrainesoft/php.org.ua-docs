@@ -1,5 +1,5 @@
 - [«eio_cancel](function.eio-cancel.md)
-- [eio_chown »] (function.eio-chown.md)
+- [eio_chown »](function.eio-chown.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

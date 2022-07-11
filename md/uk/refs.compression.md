@@ -18,14 +18,13 @@
 - [Встановлення та налаштування](lzf.setup.md)
 - [Предвизначені константи](lzf.constants.md)
 - [Функції LZF](ref.lzf.md)
-- [Phar] (book.phar.md)
+- [Phar](book.phar.md)
 - [Вступ](intro.phar.md)
 - [Встановлення та налаштування](phar.setup.md)
 - [Предвизначені константи](phar.constants.md)
 - [Використання Phar-архівів](phar.using.md)
 - [Створення Phar-архівів](phar.creating.md)
-- [Чим відрізняється phar від tar- або
-zip-архіву?](phar.fileformat.md)
+- [Чим відрізняється phar від tar- або zip-архіву?](phar.fileformat.md)
 - [Phar](class.phar.md) - Клас Phar
 - [PharData](class.phardata.md) - Клас PharData
 - [PharFileInfo](class.pharfileinfo.md) - Клас PharFileInfo

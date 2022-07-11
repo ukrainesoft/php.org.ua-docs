@@ -12,4 +12,4 @@
 - [Вимоги](pcre.requirements.md)
 - [Установка](pcre.installation.md)
 - [Налаштування під час виконання](pcre.configuration.md)
-- [Типи ресурсів] (pcre.resources.md)
+- [Типи ресурсів](pcre.resources.md)

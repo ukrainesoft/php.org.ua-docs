@@ -1,5 +1,4 @@
-- [«
-DOMImplementation::createDocument](domimplementation.createdocument.md)
+- [« DOMImplementation::createDocument](domimplementation.createdocument.md)
 - [DOMImplementation::hasFeature »](domimplementation.hasfeature.md)
 
 - [PHP Manual](index.md)

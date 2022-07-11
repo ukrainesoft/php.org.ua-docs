@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.md)
-- [SqlStatementResult::nextResult
-»](mysql-xdevapi-sqlstatementresult.nextresult.md)
+- [« SqlStatementResult::getWarningsCount](mysql-xdevapi-sqlstatementresult.getwarningcount.md)
+- [SqlStatementResult::nextResult »](mysql-xdevapi-sqlstatementresult.nextresult.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

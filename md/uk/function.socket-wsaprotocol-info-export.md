@@ -1,6 +1,5 @@
 - [«socket_write](function.socket-write.md)
-- [socket_wsaprotocol_info_import
-»](function.socket-wsaprotocol-info-import.md)
+- [socket_wsaprotocol_info_import »](function.socket-wsaprotocol-info-import.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)
@@ -42,7 +41,7 @@ socket_wsaprotocol_info_export — Експорт структури WSAPROTOCOL
 
 | Версія | Опис |
 |--------|---------------------------------------- -------------------------------------------------- ----|
-| 8.0.0 | `socket` тепер екземпляр класу [Socket] (class.socket.md); раніше був ресурсом (resource). |
+| 8.0.0 | `socket` тепер екземпляр класу [Socket](class.socket.md); раніше був ресурсом (resource). |
 
 ### Дивіться також
 

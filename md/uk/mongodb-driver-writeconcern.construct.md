@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md)
-- [MongoDB\Driver\WriteConcern::getJournal
-»](mongodb-driver-writeconcern.getjournal.md)
+- [« MongoDB\Driver\WriteConcern::bsonSerialize](mongodb-driver-writeconcern.bsonserialize.md)
+- [MongoDB\Driver\WriteConcern::getJournal »](mongodb-driver-writeconcern.getjournal.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
@@ -76,5 +74,4 @@ final public **MongoDB\Driver\WriteConcern::\_\_construct**(string\|int
 
 ### Дивіться також
 
-- [» Довідкова інформація щодо гарантії
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідкова інформація щодо гарантії запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

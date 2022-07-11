@@ -1,5 +1,4 @@
-- [«
-MultipleIterator::detachIterator](multipleiterator.detachiterator.md)
+- [« MultipleIterator::detachIterator](multipleiterator.detachiterator.md)
 - [MultipleIterator::key »](multipleiterator.key.md)
 
 - [PHP Manual](index.md)
@@ -33,8 +32,7 @@ public **MultipleIterator::getFlags**(): int
 
 ### Дивіться також
 
-- [Предвизначені
-константи](class.multipleiterator.md#multipleiterator.constants)
+- [Предвизначені константи](class.multipleiterator.md#multipleiterator.constants)
 - [MultipleIterator::\_\_construct()](multipleiterator.construct.md) -
 Створює новий MultipleIterator
 - [MultipleIterator::setFlags()](multipleiterator.setflags.md) -

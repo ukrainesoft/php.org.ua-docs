@@ -1,7 +1,5 @@
-- [«
-ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md)
-- [ZipArchive::setExternalAttributesIndex
-»](ziparchive.setexternalattributesindex.md)
+- [« ZipArchive::setEncryptionIndex](ziparchive.setencryptionindex.md)
+- [ZipArchive::setExternalAttributesIndex »](ziparchive.setexternalattributesindex.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

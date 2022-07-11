@@ -1,5 +1,4 @@
-- [«
-Componere\Method::getReflector](componere-method.getreflector.md)
+- [« Componere\Method::getReflector](componere-method.getreflector.md)
 - [Componere\Value::\_\_construct »](componere-value.construct.md)
 
 - [PHP Manual](index.md)

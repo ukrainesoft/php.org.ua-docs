@@ -1,6 +1,5 @@
 - [«mcrypt_create_iv](function.mcrypt-create-iv.md)
-- [mcrypt_enc_get_algorithms_name
-»](function.mcrypt-enc-get-algorithms-name.md)
+- [mcrypt_enc_get_algorithms_name »](function.mcrypt-enc-get-algorithms-name.md)
 
 - [PHP Manual](index.md)
 - [Mcrypt](ref.mcrypt.md)

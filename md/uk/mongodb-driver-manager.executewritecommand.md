@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md)
-- [MongoDB\Driver\Manager::getEncryptedFieldsMap
-»](mongodb-driver-manager.getencryptedfieldsmap.md)
+- [« MongoDB\Driver\Manager::executeReadWriteCommand](mongodb-driver-manager.executereadwritecommand.md)
+- [MongoDB\Driver\Manager::getEncryptedFieldsMap »](mongodb-driver-manager.getencryptedfieldsmap.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -27,8 +25,7 @@ final public **MongoDB\Driver\Manager::executeWriteCommand**(string
 (наприклад,
 [»drop](https://www.mongodb.com/docs/manual/reference/command/drop/)) та
 враховують версію сервера MongoDB. Опція ``writeConcern'' за замовчуванням
-буде відповідати значенню з [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+буде відповідати значенню з [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 > **Примітка**: Метод не призначений для виконання
 > [» insert](https://www.mongodb.com/docs/manual/reference/command/insert/),

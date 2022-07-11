@@ -1,7 +1,5 @@
-- [«
-Yaf_Plugin_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md)
-- [Yaf_Plugin_Abstract::postDispatch
-»](yaf-plugin-abstract.postdispatch.md)
+- [« Yaf_Plugin_Abstract::dispatchLoopShutdown](yaf-plugin-abstract.dispatchloopshutdown.md)
+- [Yaf_Plugin_Abstract::postDispatch »](yaf-plugin-abstract.postdispatch.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)

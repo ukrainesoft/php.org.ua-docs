@@ -1,5 +1,5 @@
 - [«rrd_create](function.rrd-create.md)
-- [rrd_fetch »] (function.rrd-fetch.md)
+- [rrd_fetch »](function.rrd-fetch.md)
 
 - [PHP Manual](index.md)
 - [Функції RRD](ref.rrd.md)

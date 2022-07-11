@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::clearParams](yaf-request-abstract.clearparams.md)
-- [Yaf_Request_Abstract::getBaseUri
-»](yaf-request-abstract.getbaseuri.md)
+- [« Yaf_Request_Abstract::clearParams](yaf-request-abstract.clearparams.md)
+- [Yaf_Request_Abstract::getBaseUri »](yaf-request-abstract.getbaseuri.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

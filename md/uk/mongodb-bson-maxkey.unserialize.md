@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\MaxKey::serialize](mongodb-bson-maxkey.serialize.md)
+- [« MongoDB\BSON\MaxKey::serialize](mongodb-bson-maxkey.serialize.md)
 - [MongoDB\BSON\MinKey »](class.mongodb-bson-minkey.md)
 
 - [PHP Manual](index.md)

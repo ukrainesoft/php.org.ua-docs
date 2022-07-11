@@ -1,5 +1,4 @@
-- [«
-OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)
+- [« OAuthProvider::timestampNonceHandler](oauthprovider.timestampnoncehandler.md)
 - [OAuthException »](class.oauthexception.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« Функції Expect](ref.expect.md)
-- [expect_popen »] (function.expect-popen.md)
+- [expect_popen »](function.expect-popen.md)
 
 - [PHP Manual](index.md)
 - [Функції Expect](ref.expect.md)

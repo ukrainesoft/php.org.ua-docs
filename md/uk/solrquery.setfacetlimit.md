@@ -1,5 +1,4 @@
-- [«
-SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.md)
+- [« SolrQuery::setFacetEnumCacheMinDefaultFrequency](solrquery.setfacetenumcachemindefaultfrequency.md)
 - [SolrQuery::setFacetMethod »](solrquery.setfacetmethod.md)
 
 - [PHP Manual](index.md)

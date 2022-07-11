@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md)
-- [ReflectionFunctionAbstract::getDocComment
-»](reflectionfunctionabstract.getdoccomment.md)
+- [« ReflectionFunctionAbstract::getClosureThis](reflectionfunctionabstract.getclosurethis.md)
+- [ReflectionFunctionAbstract::getDocComment »](reflectionfunctionabstract.getdoccomment.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

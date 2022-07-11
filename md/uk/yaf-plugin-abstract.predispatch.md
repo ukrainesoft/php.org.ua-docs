@@ -1,7 +1,5 @@
-- [«
-Yaf_Plugin_Abstract::postDispatch](yaf-plugin-abstract.postdispatch.md)
-- [Yaf_Plugin_Abstract::preResponse
-»](yaf-plugin-abstract.preresponse.md)
+- [« Yaf_Plugin_Abstract::postDispatch](yaf-plugin-abstract.postdispatch.md)
+- [Yaf_Plugin_Abstract::preResponse »](yaf-plugin-abstract.preresponse.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Plugin_Abstract](class.yaf-plugin-abstract.md)

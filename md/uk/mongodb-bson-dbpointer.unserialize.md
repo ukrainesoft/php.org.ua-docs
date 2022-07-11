@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.md)
+- [« MongoDB\BSON\DBPointer::\_\_toString](mongodb-bson-dbpointer.tostring.md)
 - [MongoDB\BSON\Int64 »](class.mongodb-bson-int64.md)
 
 - [PHP Manual](index.md)

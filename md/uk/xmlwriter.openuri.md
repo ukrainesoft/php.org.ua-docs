@@ -52,8 +52,7 @@ URI ресурс для виведення.
 
 **Приклад #1 Прямий висновок XML**
 
-Можна безпосередньо виводити XML, використовуючи [обгортку потоку
-php://output](wrappers.php.md#wrappers.php.output).
+Можна безпосередньо виводити XML, використовуючи [обгортку потоку php://output](wrappers.php.md#wrappers.php.output).
 
 ` <?php$out u003dnew XMLWriter();$out->openURI('php://output');?> `
 

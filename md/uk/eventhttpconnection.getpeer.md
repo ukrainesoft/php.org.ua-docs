@@ -1,6 +1,5 @@
 - [«EventHttpConnection::getBase](eventhttpconnection.getbase.md)
-- [EventHttpConnection::makeRequest
-»](eventhttpconnection.makerequest.md)
+- [EventHttpConnection::makeRequest »](eventhttpconnection.makerequest.md)
 
 - [PHP Manual](index.md)
 - [EventHttpConnection](class.eventhttpconnection.md)

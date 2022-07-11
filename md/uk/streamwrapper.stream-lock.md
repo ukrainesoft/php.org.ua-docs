@@ -1,6 +1,5 @@
 - [« streamWrapper::stream_flush](streamwrapper.stream-flush.md)
-- [streamWrapper::stream_metadata
-»](streamwrapper.stream-metadata.md)
+- [streamWrapper::stream_metadata »](streamwrapper.stream-metadata.md)
 
 - [PHP Manual](index.md)
 - [streamWrapper](class.streamwrapper.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
-- [MongoDB\Driver\Monitoring\CommandSubscriber
-»](class.mongodb-driver-monitoring-commandsubscriber.md)
+- [« MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)
+- [MongoDB\Driver\Monitoring\CommandSubscriber »](class.mongodb-driver-monitoring-commandsubscriber.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\TopologyOpeningEvent](class.mongodb-driver-monitoring-topologyopeningevent.md)

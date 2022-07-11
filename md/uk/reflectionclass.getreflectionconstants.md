@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)
+- [« ReflectionClass::getReflectionConstant](reflectionclass.getreflectionconstant.md)
 - [ReflectionClass::getShortName »](reflectionclass.getshortname.md)
 
 - [PHP Manual](index.md)
@@ -23,8 +22,7 @@ public **ReflectionClass::getReflectionConstants**(?int `$filter` u003d
 
 `filter`
 Додатковий фільтр для фільтрації констант видимості. Він
-налаштовується за допомогою [ReflectionClassConstant
-constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
+налаштовується за допомогою [ReflectionClassConstant constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.modifiers)
 і за умовчанням використовується всім констант видимості.
 
 ### Значення, що повертаються
@@ -34,9 +32,9 @@ constants](class.reflectionclassconstant.md#reflectionclassconstant.constants.mo
 
 ### Список змін
 
-| Версія | Опис |
-|--------|-----------------------------|
-| 8.0.0 | Доданий параметр `filter`. |
+| Версія | Опис                       |
+|--------|----------------------------|
+| 8.0.0  | Доданий параметр `filter`. |
 
 ### Приклади
 

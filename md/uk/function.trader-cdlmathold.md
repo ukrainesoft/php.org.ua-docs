@@ -1,6 +1,5 @@
 - [« trader_cdlmatchinglow](function.trader-cdlmatchinglow.md)
-- [trader_cdlmorningdojistar
-»](function.trader-cdlmorningdojistar.md)
+- [trader_cdlmorningdojistar »](function.trader-cdlmorningdojistar.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

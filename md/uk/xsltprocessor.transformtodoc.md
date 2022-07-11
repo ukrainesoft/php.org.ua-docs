@@ -1,5 +1,4 @@
-- [«
-XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
+- [« XSLTProcessor::setSecurityPrefs](xsltprocessor.setsecurityprefs.md)
 - [XSLTProcessor::transformToUri »](xsltprocessor.transformtouri.md)
 
 - [PHP Manual](index.md)

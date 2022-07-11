@@ -1,5 +1,4 @@
-- [«
-openssl_get_cipher_methods](function.openssl-get-cipher-methods.md)
+- [« openssl_get_cipher_methods](function.openssl-get-cipher-methods.md)
 - [openssl_get_md_methods »](function.openssl-get-md-methods.md)
 
 - [PHP Manual](index.md)
@@ -31,8 +30,7 @@ openssl_get_curve_names — Список доступних імен криви�
 
 **Наближені еквівалентності розмірів ключів AES, RSA, DSA та ECC**
 
-[» NIST рекомендує використовувати криві ECC як мінімум 256
-біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4).
+[» NIST рекомендує використовувати криві ECC як мінімум 256 біт](http://dx.doi.org/10.6028/NIST.SP.800-57pt1r4).
 
 ### Список параметрів
 

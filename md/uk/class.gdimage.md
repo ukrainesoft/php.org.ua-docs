@@ -2,7 +2,7 @@
 - [GdFont »](class.gdfont.md)
 
 - [PHP Manual](index.md)
-- [GD] (book.image.md)
+- [GD](book.image.md)
 - Клас GdImage
 
 # Клас GdImage

@@ -1,5 +1,4 @@
-- [« Ключове слово namespace та константа
-\_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
+- [« Ключове слово namespace та константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
 - [Глобальний простір »](language.namespaces.global.md)
 
 - [PHP Manual](index.md)
@@ -76,7 +75,7 @@ PHP додатково підтримує зручне скорочення дл
 
 Класи, функції та константи, що імпортуються з одного і того ж
 [`namespace`](language.namespaces.definition.md), можуть групуватися
-в одному операторі [`use`] (language.namespaces.importing.md).
+в одному операторі [`use`](language.namespaces.importing.md).
 
 `<?phpuse some
 amespace\ClassA;use some

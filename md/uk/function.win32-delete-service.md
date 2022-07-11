@@ -1,6 +1,5 @@
 - [«win32_create_service](function.win32-create-service.md)
-- [win32_get_last_control_message
-»](function.win32-get-last-control-message.md)
+- [win32_get_last_control_message »](function.win32-get-last-control-message.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)

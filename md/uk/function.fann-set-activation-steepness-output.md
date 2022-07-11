@@ -1,7 +1,5 @@
-- [«
-fann_set_activation_steepness_layer](function.fann-set-activation-steepness-layer.md)
-- [fann_set_activation_steepness
-»](function.fann-set-activation-steepness.md)
+- [« fann_set_activation_steepness_layer](function.fann-set-activation-steepness-layer.md)
+- [fann_set_activation_steepness »](function.fann-set-activation-steepness.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

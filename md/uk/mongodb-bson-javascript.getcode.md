@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Javascript::\_\_construct](mongodb-bson-javascript.construct.md)
-- [MongoDB\BSON\Javascript::getScope
-»](mongodb-bson-javascript.getscope.md)
+- [« MongoDB\BSON\Javascript::\_\_construct](mongodb-bson-javascript.construct.md)
+- [MongoDB\BSON\Javascript::getScope »](mongodb-bson-javascript.getscope.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
@@ -43,5 +41,4 @@ string(33) "function foo(bar) { return bar; }"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

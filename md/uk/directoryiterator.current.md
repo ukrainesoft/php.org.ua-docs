@@ -1,5 +1,4 @@
-- [«
-DirectoryIterator::\_\_construct](directoryiterator.construct.md)
+- [« DirectoryIterator::\_\_construct](directoryiterator.construct.md)
 - [DirectoryIterator::getATime »](directoryiterator.getatime.md)
 
 - [PHP Manual](index.md)

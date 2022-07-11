@@ -48,7 +48,7 @@ public [lastInsertId](pdo.lastinsertid.md)(?string `$name` u003d
 **`null`**): string\|false
 
 public [prepare](pdo.prepare.md)(string `$query`, array `$options` u003d
-\[\]): [PDOStatement](class.pdostatement.md)\|false
+[]): [PDOStatement](class.pdostatement.md)\|false
 
 public [query](pdo.query.md)(string `$query`, ?int `$fetchMode` u003d
 **`null`**): [PDOStatement](class.pdostatement.md)\|false

@@ -1,5 +1,4 @@
-- [«
-Vtiful\Kernel\Excel::constMemory](vtiful-kernel-excel.constMemory.md)
+- [« Vtiful\Kernel\Excel::constMemory](vtiful-kernel-excel.constMemory.md)
 - [Vtiful\Kernel\Excel::data »](vtiful-kernel-excel.data.md)
 
 - [PHP Manual](index.md)

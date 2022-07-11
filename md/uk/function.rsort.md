@@ -1,5 +1,5 @@
 - [«reset](function.reset.md)
-- [shuffle »] (function.shuffle.md)
+- [shuffle »](function.shuffle.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)
@@ -42,8 +42,7 @@ rsort — Сортує масив у порядку зменшення
 Прапори типу сортування:
 
 - **`SORT_REGULAR`** - звичайне порівняння елементів; подробиці
-описані в розділі [оператори
-порівняння](language.operators.comparison.md)
+описані в розділі [оператори порівняння](language.operators.comparison.md)
 - **`SORT_NUMERIC`** - числове порівняння елементів
 - **`SORT_STRING`** - рядкове порівняння елементів
 - **`SORT_LOCALE_STRING`** - порівняння елементів як рядки на основі

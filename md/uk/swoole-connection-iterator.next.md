@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::key](swoole-connection-iterator.key.md)
-- [Swoole\Connection\Iterator::offsetExists
-»](swoole-connection-iterator.offsetexists.md)
+- [« Swoole\Connection\Iterator::key](swoole-connection-iterator.key.md)
+- [Swoole\Connection\Iterator::offsetExists »](swoole-connection-iterator.offsetexists.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)

@@ -1,5 +1,4 @@
-- [«
-SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
+- [« SimpleXMLIterator::getChildren](simplexmliterator.getchildren.md)
 - [SimpleXMLIterator::key »](simplexmliterator.key.md)
 
 - [PHP Manual](index.md)

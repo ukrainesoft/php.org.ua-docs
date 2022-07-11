@@ -18,8 +18,7 @@
 - [Контексти потоків](stream.contexts.md)
 - [Помилки потоку](stream.errors.md)
 - [Приклади](stream.examples.md)
-- [Приклад класу, зареєстрованого як обгортка
-потоку](stream.streamwrapper.example-1.md)
+- [Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 - [php_user_filter](class.php-user-filter.md) - Клас
 php_user_filter
 - [php_user_filter::filter](php-user-filter.filter.md) -
@@ -168,7 +167,7 @@ Unix
 чи ні
 - [stream_socket_server](function.stream-socket-server.md) -
 Створює інтернет-сокет або доменний сокет Unix
-- [stream_socket_shutdown] (function.stream-socket-shutdown.md) -
+- [stream_socket_shutdown](function.stream-socket-shutdown.md) -
 Закрити повнодуплексне з'єднання
 - [stream_supports_lock](function.stream-supports-lock.md) -
 Визначає, чи підтримує потік блокування

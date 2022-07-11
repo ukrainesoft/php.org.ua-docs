@@ -1,7 +1,5 @@
-- [«
-EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md)
-- [EventHttpRequest::sendReplyStart
-»](eventhttprequest.sendreplystart.md)
+- [« EventHttpRequest::sendReplyChunk](eventhttprequest.sendreplychunk.md)
+- [EventHttpRequest::sendReplyStart »](eventhttprequest.sendreplystart.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

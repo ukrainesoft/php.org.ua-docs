@@ -1,5 +1,5 @@
 - [«xattr_set](function.xattr-set.md)
-- [xdiff »] (book.xdiff.md)
+- [xdiff »](book.xdiff.md)
 
 - [PHP Manual](index.md)
 - [xattr Функції](ref.xattr.md)

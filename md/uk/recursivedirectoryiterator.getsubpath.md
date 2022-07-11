@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)
-- [RecursiveDirectoryIterator::getSubPathname
-»](recursivedirectoryiterator.getsubpathname.md)
+- [« RecursiveDirectoryIterator::getChildren](recursivedirectoryiterator.getchildren.md)
+- [RecursiveDirectoryIterator::getSubPathname »](recursivedirectoryiterator.getsubpathname.md)
 
 - [PHP Manual](index.md)
 - [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)

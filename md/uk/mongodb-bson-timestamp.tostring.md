@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Timestamp::serialize](mongodb-bson-timestamp.serialize.md)
-- [MongoDB\BSON\Timestamp::unserialize
-»](mongodb-bson-timestamp.unserialize.md)
+- [« MongoDB\BSON\Timestamp::serialize](mongodb-bson-timestamp.serialize.md)
+- [MongoDB\BSON\Timestamp::unserialize »](mongodb-bson-timestamp.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
@@ -39,5 +37,4 @@ string(11) "[1234:5678]"
 
 ### Дивіться також
 
-- [» Типи BSON:
-Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)
+- [» Типи BSON: Timestamps](https://www.mongodb.com/docs/manual/reference/bson-types/#timestamps)

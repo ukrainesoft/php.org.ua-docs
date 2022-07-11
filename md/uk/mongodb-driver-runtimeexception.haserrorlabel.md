@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)
-- [MongoDB\Driver\Exception\ServerException
-»](class.mongodb-driver-exception-serverexception.md)
+- [« MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)
+- [MongoDB\Driver\Exception\ServerException »](class.mongodb-driver-exception-serverexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Exception\RuntimeException](class.mongodb-driver-exception-runtimeexception.md)
@@ -43,5 +41,4 @@ final public
 
 - [MongoDB\Driver\Session::commitTransaction()](mongodb-driver-session.committransaction.md) -
 Фіксує транзакцію
-- [» Документація MongoDB по
-транзакцій](https://www.mongodb.com/docs/manual/core/transactions/)
+- [» Документація MongoDB по транзакцій](https://www.mongodb.com/docs/manual/core/transactions/)

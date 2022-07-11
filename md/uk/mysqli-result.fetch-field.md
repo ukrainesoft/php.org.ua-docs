@@ -1,5 +1,4 @@
-- [«
-mysqli_result::fetch_field_direct](mysqli-result.fetch-field-direct.md)
+- [« mysqli_result::fetch_field_direct](mysqli-result.fetch-field-direct.md)
 - [mysqli_result::fetch_fields »](mysqli-result.fetch-fields.md)
 
 - [PHP Manual](index.md)

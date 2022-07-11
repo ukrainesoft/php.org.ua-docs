@@ -1,5 +1,5 @@
 - [« streamWrapper::unlink](streamwrapper.unlink.md)
-- [Функції для роботи з потоками»] (ref.stream.md)
+- [Функції для роботи з потоками»](ref.stream.md)
 
 - [PHP Manual](index.md)
 - [streamWrapper](class.streamwrapper.md)

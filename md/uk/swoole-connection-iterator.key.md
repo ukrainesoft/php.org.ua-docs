@@ -1,7 +1,5 @@
-- [«
-Swoole\Connection\Iterator::current](swoole-connection-iterator.current.md)
-- [Swoole\Connection\Iterator::next
-»](swoole-connection-iterator.next.md)
+- [« Swoole\Connection\Iterator::current](swoole-connection-iterator.current.md)
+- [Swoole\Connection\Iterator::next »](swoole-connection-iterator.next.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Connection\Iterator](class.swoole-connection-iterator.md)

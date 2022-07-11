@@ -1,7 +1,5 @@
-- [«
-enchant_broker_request_dict](function.enchant-broker-request-dict.md)
-- [enchant_broker_set_dict_path
-»](function.enchant-broker-set-dict-path.md)
+- [« enchant_broker_request_dict](function.enchant-broker-request-dict.md)
+- [enchant_broker_set_dict_path »](function.enchant-broker-set-dict-path.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

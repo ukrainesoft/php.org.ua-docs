@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md)
-- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::isAwaited
-»](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md)
+- [« MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::getPort](mongodb-driver-monitoring-serverheartbeatsucceededevent.getport.md)
+- [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent::isAwaited »](mongodb-driver-monitoring-serverheartbeatsucceededevent.isawaited.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\ServerHeartbeatSucceededEvent](class.mongodb-driver-monitoring-serverheartbeatsucceededevent.md)

@@ -1,6 +1,5 @@
 - [« ReflectionClass::isInternal](reflectionclass.isinternal.md)
-- [ReflectionClass::isIterateable
-»](reflectionclass.isiterateable.md)
+- [ReflectionClass::isIterateable »](reflectionclass.isiterateable.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)
@@ -17,7 +16,7 @@ ReflectionClass::isIterable — Перевірити, чи клас ітерує
 public **ReflectionClass::isIterable**(): bool
 
 Перевіряє, чи реалізує клас інтерфейс Iterator (тобто чи можна
-використовувати його в [foreach] (control-structures.foreach.md)).
+використовувати його в [foreach](control-structures.foreach.md)).
 
 ### Список параметрів
 

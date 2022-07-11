@@ -1,5 +1,5 @@
 - [«round](function.round.md)
-- [sinh »] (function.sinh.md)
+- [sinh »](function.sinh.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

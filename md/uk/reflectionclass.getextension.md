@@ -1,6 +1,5 @@
 - [« ReflectionClass::getEndLine](reflectionclass.getendline.md)
-- [ReflectionClass::getExtensionName
-»](reflectionclass.getextensionname.md)
+- [ReflectionClass::getExtensionName »](reflectionclass.getextensionname.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

@@ -1,7 +1,5 @@
-- [«
-SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md)
-- [SolrInputDocument::getFieldNames
-»](solrinputdocument.getfieldnames.md)
+- [« SolrInputDocument::getFieldBoost](solrinputdocument.getfieldboost.md)
+- [SolrInputDocument::getFieldNames »](solrinputdocument.getfieldnames.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

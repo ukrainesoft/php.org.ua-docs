@@ -37,8 +37,7 @@ int `$optname` ,
 параметр `level` має бути виставлений як **`EventUtil::SOL_SOCKET`**.
 Інші рівні, такі як TCP, можна використовувати вказавши відповідну
 константи. Рівні протоколу можна переглянути за допомогою функції
-[getprotobyname()](function.getprotobyname.md). Дивіться [константи
-EventUtil](class.eventutil.md#eventutil.constants) .
+[getprotobyname()](function.getprotobyname.md). Дивіться [константи EventUtil](class.eventutil.md#eventutil.constants) .
 
 `optname`
 Ім'я опції (тип). Те саме, що й відповідний параметр функції

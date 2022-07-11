@@ -2,7 +2,7 @@
 - [FANNConnection::\_\_construct »](fannconnection.construct.md)
 
 - [PHP Manual](index.md)
-- [FANN] (book.fann.md)
+- [FANN](book.fann.md)
 - Клас FANNConnection
 
 # Клас FANNConnection

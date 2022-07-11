@@ -1,5 +1,4 @@
-- [«
-Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md)
+- [« Imagick::getImageBackgroundColor](imagick.getimagebackgroundcolor.md)
 - [Imagick::getImageBluePrimary »](imagick.getimageblueprimary.md)
 
 - [PHP Manual](index.md)

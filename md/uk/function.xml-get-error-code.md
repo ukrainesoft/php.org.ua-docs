@@ -1,5 +1,4 @@
-- [«
-xml_get_current_line_number](function.xml-get-current-line-number.md)
+- [« xml_get_current_line_number](function.xml-get-current-line-number.md)
 - [xml_parse_into_struct »](function.xml-parse-into-struct.md)
 
 - [PHP Manual](index.md)
@@ -27,8 +26,7 @@ xml_get_error_code — Отримує код помилки XML-аналізат
 
 Ця функція повертає **`false`**, якщо посилання параметра `parser` не
 веде до діючого аналізатора, або ж повертає один із кодів помилок
-зі списку, розташованого в [розділі кодів
-помилок](xml.error-codes.md).
+зі списку, розташованого в [розділі кодів помилок](xml.error-codes.md).
 
 ### Список змін
 

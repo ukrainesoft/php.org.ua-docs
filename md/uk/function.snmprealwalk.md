@@ -1,5 +1,5 @@
 - [« snmpgetnext](function.snmpgetnext.md)
-- [snmpset »] (function.snmpset.md)
+- [snmpset »](function.snmpset.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)

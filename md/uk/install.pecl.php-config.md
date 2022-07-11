@@ -1,7 +1,5 @@
-- [« Компіляція модулів, що розділяються, за допомогою
-phpize](install.pecl.phpize.md)
-- [Компіляція модулів PECL статично у PHP
-»](install.pecl.static.md)
+- [« Компіляція модулів, що розділяються, за допомогою phpize](install.pecl.phpize.md)
+- [Компіляція модулів PECL статично у PHP »](install.pecl.static.md)
 
 - [PHP Manual](index.md)
 - [Встановлення модулів PECL](install.pecl.md)

@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::post](swoole-coroutine-http-client.post.md)
-- [Swoole\Coroutine\Http\Client::set
-»](swoole-coroutine-http-client.set.md)
+- [« Swoole\Coroutine\Http\Client::post](swoole-coroutine-http-client.post.md)
+- [Swoole\Coroutine\Http\Client::set »](swoole-coroutine-http-client.set.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

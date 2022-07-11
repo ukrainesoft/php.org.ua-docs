@@ -34,8 +34,7 @@ int `$mysqli->warning_count`;
 
 ### Список параметрів
 
-`mysql`
-Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
+`mysql` Тільки для процедурного стилю: об'єкт [mysqli](class.mysqli.md),
 отриманий за допомогою [mysqli_connect()](function.mysqli-connect.md)
 або [mysqli_init()](mysqli.init.md).
 

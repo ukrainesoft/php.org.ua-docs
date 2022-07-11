@@ -1,5 +1,4 @@
-- [«
-svn_repos_fs_begin_txn_for_commit](function.svn-repos-fs-begin-txn-for-commit.md)
+- [« svn_repos_fs_begin_txn_for_commit](function.svn-repos-fs-begin-txn-for-commit.md)
 - [svn_repos_fs »](function.svn-repos-fs.md)
 
 - [PHP Manual](index.md)

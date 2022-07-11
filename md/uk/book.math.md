@@ -77,7 +77,7 @@
 випадкових чисел на базі Вихря Мерсенна
 - [octdec](function.octdec.md) — Перекладає число з восьмеричного
 системи числення до десяткової
-- [pi] (function.pi.md) - Повертає число Пі
+- [pi](function.pi.md) - Повертає число Пі
 - [pow](function.pow.md) - Зведення в ступінь
 - [rad2deg](function.rad2deg.md) — Перетворює значення з
 радіанів у градуси
@@ -88,5 +88,5 @@
 - [sqrt](function.sqrt.md) - Квадратний корінь
 - [srand](function.srand.md) — Змінює початкове число
 генератора псевдовипадкових чисел
-- [tan] (function.tan.md) - Тангенс
-- [tanh] (function.tanh.md) - Гіперболічний тангенс
+- [tan](function.tan.md) - Тангенс
+- [tanh](function.tanh.md) - Гіперболічний тангенс

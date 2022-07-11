@@ -1,6 +1,5 @@
 - [« fann_print_error](function.fann-print-error.md)
-- [fann_read_train_from_file
-»](function.fann-read-train-from-file.md)
+- [fann_read_train_from_file »](function.fann-read-train-from-file.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

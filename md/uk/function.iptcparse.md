@@ -1,5 +1,5 @@
 - [« iptcembed](function.iptcembed.md)
-- [jpeg2wbmp »] (function.jpeg2wbmp.md)
+- [jpeg2wbmp »](function.jpeg2wbmp.md)
 
 - [PHP Manual](index.md)
 - [Функції GD та функції для роботи із зображеннями](ref.image.md)

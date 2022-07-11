@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)
-- [MongoDB\Driver\ReadPreference::getMaxStalenessSeconds
-»](mongodb-driver-readpreference.getmaxstalenessseconds.md)
+- [« MongoDB\Driver\ReadPreference::\_\_construct](mongodb-driver-readpreference.construct.md)
+- [MongoDB\Driver\ReadPreference::getMaxStalenessSeconds »](mongodb-driver-readpreference.getmaxstalenessseconds.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)
@@ -33,5 +31,4 @@ final public **MongoDB\Driver\ReadPreference::getHedge**(): ?object
 
 ### Дивіться також
 
-- [» документація по Read
-Preference](https://www.mongodb.com/docs/manual/core/read-preference/)
+- [» документація по Read Preference](https://www.mongodb.com/docs/manual/core/read-preference/)

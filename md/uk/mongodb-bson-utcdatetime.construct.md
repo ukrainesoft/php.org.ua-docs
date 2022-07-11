@@ -1,6 +1,5 @@
 - [«MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
-- [MongoDB\BSON\UTCDateTime::jsonSerialize
-»](mongodb-bson-utcdatetime.jsonserialize.md)
+- [MongoDB\BSON\UTCDateTime::jsonSerialize »](mongodb-bson-utcdatetime.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
@@ -33,8 +32,7 @@ string.
 Зверніть увагу, що у версіях PHP до 7.1.0 об'єкти
 [DateTime](class.datetime.md) та
 [DateTimeImmutable](class.datetimeimmutable.md), побудовані за
-поточного часу, [не включають точність менше
-секунди](migration71.incompatible.md#migration71.incompatible.datetime-microseconds).
+поточного часу, [не включають точність менше секунди](migration71.incompatible.md#migration71.incompatible.datetime-microseconds).
 
 Якщо цей аргумент дорівнює **`null`**, буде використовуватись поточний час
 за замовчуванням.
@@ -74,5 +72,4 @@ string(13) "1416445411987"
 
 ### Дивіться також
 
-- [» Типи BSON:
-Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)
+- [» Типи BSON: Date](https://www.mongodb.com/docs/manual/reference/bson-types/#date)

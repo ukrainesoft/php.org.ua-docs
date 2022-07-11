@@ -1,6 +1,5 @@
 - [« mysqli_driver](class.mysqli-driver.md)
-- [mysqli_driver::embedded_server_start
-»](mysqli-driver.embedded-server-start.md)
+- [mysqli_driver::embedded_server_start »](mysqli-driver.embedded-server-start.md)
 
 - [PHP Manual](index.md)
 - [mysqli_driver](class.mysqli-driver.md)

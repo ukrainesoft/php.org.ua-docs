@@ -1,6 +1,5 @@
-- [« Використання Phar-архівів: обгортка потоку
-phar](phar.using.stream.md)
-- [Створення Phar-архівів»] (phar.creating.md)
+- [« Використання Phar-архівів: обгортка потоку phar](phar.using.stream.md)
+- [Створення Phar-архівів»](phar.creating.md)
 
 - [PHP Manual](index.md)
 - [Використання Phar-архівів](phar.using.md)
@@ -45,8 +44,7 @@ URL-адреси, подібно до того, як показано нижче
 З щойно створеним об'єктом `$p` класу [Phar](class.phar.md)
 можливе наступне:
 
-- `$a u003d $p['file.php']` створить об'єкт класу
-[PharFileInfo](class.pharfileinfo.md), який посилатиметься на
+- `$a u003d $p['file.php']` створить об'єкт класу [PharFileInfo](class.pharfileinfo.md), який посилатиметься на
 вміст `phar://myphar.phar/file.php`
 - `$p['file.php'] u003d $v` створить новий файл
 (`phar://myphar.phar/file.php`) або перезапише існуючий усередині
@@ -63,8 +61,7 @@ URL-адреси, подібно до того, як показано нижче
 `myphar.phar`.
 - `unset($p['file.php'])` видаляє файл `phar://myphar.phar/file.php`
 з `myphar.phar`.
-
-Крім того, використання об'єкта [Phar](class.phar.md) є
+ Крім того, використання об'єкта [Phar](class.phar.md) є
 єдиним способом отримати доступ до метаданих архіву (через
 [Phar::getMetadata()](phar.getmetadata.md)) і єдиним способом
 встановити або отримати заглушку Phar-архіву через

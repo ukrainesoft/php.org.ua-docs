@@ -1,5 +1,4 @@
-- [« Функціональність, оголошена застарілою в PHP
-7.0.x](migration70.deprecated.md)
+- [« Функціональність, оголошена застарілою в PHP 7.0.x](migration70.deprecated.md)
 - [Нові функції »](migration70.new-functions.md)
 
 - [PHP Manual](index.md)

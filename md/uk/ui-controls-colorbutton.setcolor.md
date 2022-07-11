@@ -1,5 +1,4 @@
-- [«
-UI\Controls\ColorButton::onChange](ui-controls-colorbutton.onchange.md)
+- [« UI\Controls\ColorButton::onChange](ui-controls-colorbutton.onchange.md)
 - [UI\Controls\Label »](class.ui-controls-label.md)
 
 - [PHP Manual](index.md)

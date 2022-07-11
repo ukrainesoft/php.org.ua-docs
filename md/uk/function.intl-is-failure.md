@@ -1,5 +1,5 @@
 - [« intl_get_error_message](function.intl-get-error-message.md)
-- [Багатобайтові рядки»] (book.mbstring.md)
+- [Багатобайтові рядки»](book.mbstring.md)
 
 - [PHP Manual](index.md)
 - [Функції intl](ref.intl.md)

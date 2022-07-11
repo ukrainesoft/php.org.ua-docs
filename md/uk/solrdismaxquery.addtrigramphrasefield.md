@@ -1,5 +1,4 @@
-- [«
-SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md)
+- [« SolrDisMaxQuery::addQueryField](solrdismaxquery.addqueryfield.md)
 - [SolrDisMaxQuery::addUserField »](solrdismaxquery.adduserfield.md)
 
 - [PHP Manual](index.md)

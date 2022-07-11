@@ -1,4 +1,4 @@
-- [« Ізолювання від HTML] (language.basic-syntax.phpmode.md)
+- [« Ізолювання від HTML](language.basic-syntax.phpmode.md)
 - [Коментарі »](language.basic-syntax.comments.md)
 
 - [PHP Manual](index.md)

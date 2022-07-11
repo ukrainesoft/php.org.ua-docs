@@ -1,6 +1,5 @@
 - [«strtotime](function.strtotime.md)
-- [timezone_abbreviations_list
-»](function.timezone-abbreviations-list.md)
+- [timezone_abbreviations_list »](function.timezone-abbreviations-list.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

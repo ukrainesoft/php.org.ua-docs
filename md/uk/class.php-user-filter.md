@@ -1,5 +1,4 @@
-- [« Приклад класу, зареєстрованого як обгортка
-потоку](stream.streamwrapper.example-1.md)
+- [« Приклад класу, зареєстрованого як обгортка потоку](stream.streamwrapper.example-1.md)
 - [php_user_filter::filter »](php-user-filter.filter.md)
 
 - [PHP Manual](index.md)

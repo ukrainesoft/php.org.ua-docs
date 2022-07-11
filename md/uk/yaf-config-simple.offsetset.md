@@ -1,6 +1,5 @@
 - [« Yaf_Config_Simple::offsetGet](yaf-config-simple.offsetget.md)
-- [Yaf_Config_Simple::offsetUnset
-»](yaf-config-simple.offsetunset.md)
+- [Yaf_Config_Simple::offsetUnset »](yaf-config-simple.offsetunset.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Config_Simple](class.yaf-config-simple.md)

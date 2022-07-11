@@ -1,6 +1,5 @@
 - [« IntlTimeZone::getRawOffset](intltimezone.getrawoffset.md)
-- [IntlTimeZone::getTZDataVersion
-»](intltimezone.gettzdataversion.md)
+- [IntlTimeZone::getTZDataVersion »](intltimezone.gettzdataversion.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

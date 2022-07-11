@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md)
-- [Yaf_Request_Abstract::setBaseUri
-»](yaf-request-abstract.setbaseuri.md)
+- [« Yaf_Request_Abstract::isXmlHttpRequest](yaf-request-abstract.isxmlhttprequest.md)
+- [Yaf_Request_Abstract::setBaseUri »](yaf-request-abstract.setbaseuri.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

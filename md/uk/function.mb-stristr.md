@@ -1,5 +1,5 @@
 - [«mb_stripos](function.mb-stripos.md)
-- [mb_strlen »] (function.mb-strlen.md)
+- [mb_strlen »](function.mb-strlen.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

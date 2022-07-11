@@ -1,5 +1,5 @@
 - [« Установка](v8js.installation.md)
-- [Типи ресурсів»] (v8js.resources.md)
+- [Типи ресурсів»](v8js.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](v8js.setup.md)

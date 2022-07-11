@@ -1,7 +1,5 @@
-- [«
-trader_cdleveningdojistar](function.trader-cdleveningdojistar.md)
-- [trader_cdlgapsidesidewhite
-»](function.trader-cdlgapsidesidewhite.md)
+- [« trader_cdleveningdojistar](function.trader-cdleveningdojistar.md)
+- [trader_cdlgapsidesidewhite »](function.trader-cdlgapsidesidewhite.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

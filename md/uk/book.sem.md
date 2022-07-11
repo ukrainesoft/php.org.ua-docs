@@ -1,9 +1,8 @@
-- [« Volatile] (class.volatile.md)
+- [« Volatile](class.volatile.md)
 - [Вступ »](intro.sem.md)
 
 - [PHP Manual](index.md)
-- [Модулі для управління процесами
-програм](refs.fileprocess.process.md)
+- [Модулі для управління процесами програм](refs.fileprocess.process.md)
 - Семафори, що розділяється пам'ять та IPC
 
 # Семафори, розділяється пам'ять та IPC

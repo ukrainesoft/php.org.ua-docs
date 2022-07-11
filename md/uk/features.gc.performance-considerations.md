@@ -33,8 +33,7 @@
 ` <?phpclass Foo{    public $var u003d '3.14159265359';}$baseMemory u003d memory_get_usage();for ( $i u003d 0; $i <u003d 10   $a->self u003d $a; if ( $i % 500 u003du003du003d 0 )   {        echo sprintf( '%8d: ', $i ), memory_get_usage() - $
 ";    }}?> `
 
-![Порівняння використання пам'яті в PHP 5.2 та PHP
-5.3](images/12f37b1c6963c1c5c18f30495416a197-gc-benchmark.png)
+![Порівняння використання пам'яті в PHP 5.2 та PHP 5.3](images/12f37b1c6963c1c5c18f30495416a197-gc-benchmark.png)
 
 У цьому дуже академічному прикладі ми створюємо об'єкт, властивість a
 якого задається посиланням сам об'єкт. Коли у скрипті у наступній

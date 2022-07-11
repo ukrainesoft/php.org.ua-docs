@@ -1,5 +1,4 @@
-- [«
-ldap_control_paged_result](function.ldap-control-paged-result.md)
+- [« ldap_control_paged_result](function.ldap-control-paged-result.md)
 - [ldap_count_references »](function.ldap-count-references.md)
 
 - [PHP Manual](index.md)

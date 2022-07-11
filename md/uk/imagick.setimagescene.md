@@ -1,6 +1,5 @@
 - [« Imagick::setImageResolution](imagick.setimageresolution.md)
-- [Imagick::setImageTicksPerSecond
-»](imagick.setimagetickspersecond.md)
+- [Imagick::setImageTicksPerSecond »](imagick.setimagetickspersecond.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

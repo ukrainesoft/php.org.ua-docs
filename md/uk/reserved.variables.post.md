@@ -39,6 +39,5 @@ $\_POST — Змінні HTTP POST
 > методу чи функції.
 
 ### Дивіться також
-
-- [Обробка зовнішніх змінних](language.variables.external.md)
+ - [Обробка зовнішніх змінних](language.variables.external.md)
 - [Фільтрування даних](book.filter.md)

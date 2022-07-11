@@ -21,8 +21,7 @@ public **Gmagick::setimagetype**(int `$imgType`):
 ### Список параметрів
 
 `imgType`
-Одна з констант [типу
-зображення](gmagick.constants.md#gmagick.constants.imagetype)
+Одна з констант [типу зображення](gmagick.constants.md#gmagick.constants.imagetype)
 (`Gmagick::IMGTYPE_*`).
 
 ### Значення, що повертаються

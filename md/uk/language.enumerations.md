@@ -14,12 +14,10 @@
 - [Основи перерахувань](language.enumerations.basics.md)
 - [Типізовані перерахування](language.enumerations.backed.md)
 - [Методи перерахувань](language.enumerations.methods.md)
-- [Статичні методи
-перерахувань](language.enumerations.static-methods.md)
+- [Статичні методи перерахувань](language.enumerations.static-methods.md)
 - [Константи перерахувань](language.enumerations.constants.md)
 - [Трейти](language.enumerations.traits.md)
-- [Значення перерахування у постійних
-виразах](language.enumerations.expressions.md)
+- [Значення перерахування у постійних виразах](language.enumerations.expressions.md)
 - [Відмінності від об'єктів](language.enumerations.object-differences.md)
 - [Список значень](language.enumerations.listing.md)
 - [Серіалізація](language.enumerations.serialization.md)

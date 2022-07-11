@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\DBPointer::unserialize](mongodb-bson-dbpointer.unserialize.md)
-- [MongoDB\BSON\Int64::\_\_construct
-»](mongodb-bson-int64.construct.md)
+- [« MongoDB\BSON\DBPointer::unserialize](mongodb-bson-dbpointer.unserialize.md)
+- [MongoDB\BSON\Int64::\_\_construct »](mongodb-bson-int64.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

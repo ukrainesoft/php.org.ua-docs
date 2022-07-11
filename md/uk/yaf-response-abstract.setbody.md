@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md)
-- [Yaf_Response_Abstract::setHeader
-»](yaf-response-abstract.setheader.md)
+- [« Yaf_Response_Abstract::setAllHeaders](yaf-response-abstract.setallheaders.md)
+- [Yaf_Response_Abstract::setHeader »](yaf-response-abstract.setheader.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

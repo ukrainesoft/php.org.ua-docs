@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_aead_aes256gcm_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.md)
-- [sodium_crypto_aead_aes256gcm_is_available
-»](function.sodium-crypto-aead-aes256gcm-is-available.md)
+- [« sodium_crypto_aead_aes256gcm_decrypt](function.sodium-crypto-aead-aes256gcm-decrypt.md)
+- [sodium_crypto_aead_aes256gcm_is_available »](function.sodium-crypto-aead-aes256gcm-is-available.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

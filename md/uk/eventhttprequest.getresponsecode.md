@@ -1,5 +1,4 @@
-- [«
-EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md)
+- [« EventHttpRequest::getOutputHeaders](eventhttprequest.getoutputheaders.md)
 - [EventHttpRequest::getUri »](eventhttprequest.geturi.md)
 
 - [PHP Manual](index.md)

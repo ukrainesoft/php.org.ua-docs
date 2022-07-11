@@ -13,7 +13,7 @@ pcntl_sigwaitinfo — Очікування сигналів
 
 ### Опис
 
-**pcntl_sigwaitinfo**(array `$signals`, array `&$info` u003d \[\]):
+**pcntl_sigwaitinfo**(array `$signals`, array `&$info` u003d []):
 int\|false
 
 Функція **pcntl_sigwaitinfo()** припиняє виконання викликаючого

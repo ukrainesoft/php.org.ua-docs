@@ -1,6 +1,5 @@
 - [« MongoDB\BSON\Regex::getFlags](mongodb-bson-regex.getflags.md)
-- [MongoDB\BSON\Regex::jsonSerialize
-»](mongodb-bson-regex.jsonserialize.md)
+- [MongoDB\BSON\Regex::jsonSerialize »](mongodb-bson-regex.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Regex](class.mongodb-bson-regex.md)
@@ -41,5 +40,4 @@ string(5) "regex"
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

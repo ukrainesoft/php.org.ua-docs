@@ -1,5 +1,4 @@
-- [«
-Yaf_Config_Simple::offsetExists](yaf-config-simple.offsetexists.md)
+- [« Yaf_Config_Simple::offsetExists](yaf-config-simple.offsetexists.md)
 - [Yaf_Config_Simple::offsetSet »](yaf-config-simple.offsetset.md)
 
 - [PHP Manual](index.md)

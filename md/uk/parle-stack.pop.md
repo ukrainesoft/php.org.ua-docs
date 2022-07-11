@@ -1,4 +1,4 @@
-- [« Parle \ Stack] (class.parle-stack.md)
+- [« Parle \ Stack](class.parle-stack.md)
 - [Parle\Stack::push »](parle-stack.push.md)
 
 - [PHP Manual](index.md)

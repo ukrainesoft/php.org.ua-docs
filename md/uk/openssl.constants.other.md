@@ -1,4 +1,4 @@
-- [« Константа SNI (Server Name Indication)] (openssl.constsni.md)
+- [« Константа SNI (Server Name Indication)](openssl.constsni.md)
 - [Параметри ключа/сертифіката »](openssl.certparams.md)
 
 - [PHP Manual](index.md)

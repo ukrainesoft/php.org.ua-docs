@@ -1,7 +1,5 @@
-- [«
-UI\Controls\EditableCombo::append](ui-controls-editablecombo.append.md)
-- [UI\Controls\EditableCombo::onChange
-»](ui-controls-editablecombo.onchange.md)
+- [« UI\Controls\EditableCombo::append](ui-controls-editablecombo.append.md)
+- [UI\Controls\EditableCombo::onChange »](ui-controls-editablecombo.onchange.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\EditableCombo](class.ui-controls-editablecombo.md)

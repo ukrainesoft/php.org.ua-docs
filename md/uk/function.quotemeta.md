@@ -1,5 +1,5 @@
 - [«quoted_printable_encode](function.quoted-printable-encode.md)
-- [rtrim »] (function.rtrim.md)
+- [rtrim »](function.rtrim.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -18,7 +18,7 @@ quotemeta - Екранує спеціальні символи
 Повертає модифікований рядок, в якому перед кожним символом
 наступного списку:
 
-. \+\*? \[^\] ($)
+. \+\*? [^]($)
 
 вставлений зворотний сліш (`\`).
 

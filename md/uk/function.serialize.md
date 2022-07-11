@@ -1,5 +1,5 @@
 - [«print_r](function.print-r.md)
-- [settype »] (function.settype.md)
+- [settype »](function.settype.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)

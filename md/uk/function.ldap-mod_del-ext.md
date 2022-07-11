@@ -1,5 +1,5 @@
 - [«ldap_mod_add](function.ldap-mod-add.md)
-- [ldap_mod_del »] (function.ldap-mod-del.md)
+- [ldap_mod_del »](function.ldap-mod-del.md)
 
 - [PHP Manual](index.md)
 - [Функції LDAP](ref.ldap.md)

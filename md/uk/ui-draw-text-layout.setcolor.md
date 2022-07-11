@@ -1,5 +1,4 @@
-- [«
-UI\Draw\Text\Layout::\_\_construct](ui-draw-text-layout.construct.md)
+- [« UI\Draw\Text\Layout::\_\_construct](ui-draw-text-layout.construct.md)
 - [UI\Draw\Text\Layout::setWidth »](ui-draw-text-layout.setwidth.md)
 
 - [PHP Manual](index.md)

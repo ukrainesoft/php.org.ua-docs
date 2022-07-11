@@ -1,7 +1,5 @@
-- [«
-ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.md)
-- [ColumnResult::getLength
-»](mysql-xdevapi-columnresult.getlength.md)
+- [« ColumnResult::getColumnName](mysql-xdevapi-columnresult.getcolumnname.md)
+- [ColumnResult::getLength »](mysql-xdevapi-columnresult.getlength.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\ColumnResult](class.mysql-xdevapi-columnresult.md)

@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md)
-- [ImagickDraw::setStrokePatternURL
-»](imagickdraw.setstrokepatternurl.md)
+- [« ImagickDraw::setStrokeMiterLimit](imagickdraw.setstrokemiterlimit.md)
+- [ImagickDraw::setStrokePatternURL »](imagickdraw.setstrokepatternurl.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

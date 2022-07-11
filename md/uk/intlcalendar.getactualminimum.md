@@ -1,7 +1,5 @@
-- [«
-IntlCalendar::getActualMaximum](intlcalendar.getactualmaximum.md)
-- [IntlCalendar::getAvailableLocales
-»](intlcalendar.getavailablelocales.md)
+- [« IntlCalendar::getActualMaximum](intlcalendar.getactualmaximum.md)
+- [IntlCalendar::getAvailableLocales »](intlcalendar.getavailablelocales.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)
@@ -28,10 +26,8 @@ public **IntlCalendar::getActualMinimum**(int `$field`): int\|false
 Повертає відносне мінімальне значення поля з урахуванням поточного
 часу. Точна семантика залежить від поля, але загалом це
 значення, яке можна було б отримати, якби встановити значення
-поля на [найбільший відносний
-мінімум](intlcalendar.getgreatestminimum.md) для поля та зменшувати його
-доти, доки не буде досягнуто [глобальний
-мінімум](intlcalendar.getminimum.md) або значення поля буде обернуто
+поля на [найбільший відносний мінімум](intlcalendar.getgreatestminimum.md) для поля та зменшувати його
+доти, доки не буде досягнуто [глобальний мінімум](intlcalendar.getminimum.md) або значення поля буде обернуто
 навколо, в якому значення, що повертається, буде глобальним мінімумом або
 значенням до перенесення відповідно.
 

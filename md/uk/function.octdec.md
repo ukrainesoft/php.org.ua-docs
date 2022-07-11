@@ -1,5 +1,5 @@
 - [«mt_srand](function.mt-srand.md)
-- [Pi]] (function.pi.md)
+- [Pi]](function.pi.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

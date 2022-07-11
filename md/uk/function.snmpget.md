@@ -1,5 +1,5 @@
 - [« snmp3_walk](function.snmp3-walk.md)
-- [snmpgetnext »] (function.snmpgetnext.md)
+- [snmpgetnext »](function.snmpgetnext.md)
 
 - [PHP Manual](index.md)
 - [Функції SNMP](ref.snmp.md)

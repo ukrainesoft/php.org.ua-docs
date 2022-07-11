@@ -1,5 +1,4 @@
-- [«
-Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md)
+- [« Normalizer::getRawDecomposition](normalizer.getrawdecomposition.md)
 - [Normalizer::normalize »](normalizer.normalize.md)
 
 - [PHP Manual](index.md)

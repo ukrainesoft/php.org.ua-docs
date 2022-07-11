@@ -48,12 +48,10 @@ public [addFromString](ziparchive.addfromstring.md)(string `$name`,
 string `$content`, int `$flags` u003d ZipArchive::FL_OVERWRITE): bool
 
 public [addGlob](ziparchive.addglob.md)(string `$pattern`, int
-`$flags` u003d 0, array `$options` u003d \[\]): array\|false
-
-public [addPattern](ziparchive.addpattern.md)(string `$pattern`,
-string `$path` u003d ".", array `$options` u003d \[\]): array\|false
-
-public [clearError](ziparchive.clearerror.md)(): void
+`$flags` u003d 0, array `$options` u003d []): array\|false
+ public [addPattern](ziparchive.addpattern.md)(string `$pattern`,
+string `$path` u003d ".", array `$options` u003d []): array\|false
+ public [clearError](ziparchive.clearerror.md)(): void
 
 public [close](ziparchive.close.md)(): bool
 

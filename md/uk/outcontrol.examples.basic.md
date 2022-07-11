@@ -1,6 +1,5 @@
 - [« Приклади](outcontrol.examples.md)
-- [Використання перезапису виводу
-»](outcontrol.examples.rewrite.md)
+- [Використання перезапису виводу »](outcontrol.examples.rewrite.md)
 
 - [PHP Manual](index.md)
 - [Приклади](outcontrol.examples.md)

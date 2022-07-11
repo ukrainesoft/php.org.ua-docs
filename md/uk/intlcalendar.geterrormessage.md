@@ -1,6 +1,5 @@
 - [« IntlCalendar::getErrorCode](intlcalendar.geterrorcode.md)
-- [IntlCalendar::getFirstDayOfWeek
-»](intlcalendar.getfirstdayofweek.md)
+- [IntlCalendar::getFirstDayOfWeek »](intlcalendar.getfirstdayofweek.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

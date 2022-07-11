@@ -1,5 +1,5 @@
 - [« Встановлення](outcontrol.installation.md)
-- [Типи ресурсів»] (outcontrol.resources.md)
+- [Типи ресурсів»](outcontrol.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](outcontrol.setup.md)
@@ -20,8 +20,7 @@
 **Конфігураційні опції керування висновком**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

@@ -1,6 +1,5 @@
 - [« ImagickPixel::getColorQuantum](imagickpixel.getcolorquantum.md)
-- [ImagickPixel::getColorValueQuantum
-»](imagickpixel.getcolorvaluequantum.md)
+- [ImagickPixel::getColorValueQuantum »](imagickpixel.getcolorvaluequantum.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixel](class.imagickpixel.md)

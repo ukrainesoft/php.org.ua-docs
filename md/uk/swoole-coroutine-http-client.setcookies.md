@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::set](swoole-coroutine-http-client.set.md)
-- [Swoole\Coroutine\Http\Client::setData
-»](swoole-coroutine-http-client.setdata.md)
+- [« Swoole\Coroutine\Http\Client::set](swoole-coroutine-http-client.set.md)
+- [Swoole\Coroutine\Http\Client::setData »](swoole-coroutine-http-client.setdata.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

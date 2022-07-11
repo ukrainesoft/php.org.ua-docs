@@ -1,7 +1,5 @@
-- [«
-GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md)
-- [GearmanClient::setWarningCallback
-»](gearmanclient.setwarningcallback.md)
+- [« GearmanClient::setStatusCallback](gearmanclient.setstatuscallback.md)
+- [GearmanClient::setWarningCallback »](gearmanclient.setwarningcallback.md)
 
 - [PHP Manual](index.md)
 - [GearmanClient](class.gearmanclient.md)

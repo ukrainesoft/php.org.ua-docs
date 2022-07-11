@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
-- [ReflectionFunctionAbstract::getNumberOfRequiredParameters
-»](reflectionfunctionabstract.getnumberofrequiredparameters.md)
+- [« ReflectionFunctionAbstract::getNamespaceName](reflectionfunctionabstract.getnamespacename.md)
+- [ReflectionFunctionAbstract::getNumberOfRequiredParameters »](reflectionfunctionabstract.getnumberofrequiredparameters.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

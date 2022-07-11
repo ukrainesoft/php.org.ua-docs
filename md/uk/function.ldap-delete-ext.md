@@ -1,5 +1,5 @@
 - [«ldap_count_references](function.ldap-count-references.md)
-- [ldap_delete »] (function.ldap-delete.md)
+- [ldap_delete »](function.ldap-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції LDAP](ref.ldap.md)

@@ -1,5 +1,4 @@
-- [«
-IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)
+- [« IntlBreakIterator::getPartsIterator](intlbreakiterator.getpartsiterator.md)
 - [IntlBreakIterator::isBoundary »](intlbreakiterator.isboundary.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«trader_willr](function.trader-willr.md)
-- [Генерація нетекстових MIME-форматів»] (refs.utilspec.nontext.md)
+- [Генерація нетекстових MIME-форматів»](refs.utilspec.nontext.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

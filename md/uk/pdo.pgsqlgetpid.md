@@ -2,7 +2,7 @@
 - [PDO::pgsqlLOBCreate »](pdo.pgsqllobcreate.md)
 
 - [PHP Manual](index.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
 - Отримує PID сервера
 
 # PDO::pgsqlGetPid

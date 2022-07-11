@@ -1,6 +1,5 @@
 - [« xmlrpc_is_fault](function.xmlrpc-is-fault.md)
-- [xmlrpc_server_add_introspection_data
-»](function.xmlrpc-server-add-introspection-data.md)
+- [xmlrpc_server_add_introspection_data »](function.xmlrpc-server-add-introspection-data.md)
 
 - [PHP Manual](index.md)
 - [Функції XML-RPC](ref.xmlrpc.md)

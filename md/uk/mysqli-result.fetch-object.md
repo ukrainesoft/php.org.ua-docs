@@ -19,13 +19,13 @@ mysqli_result::fetch_object -- mysqli_fetch_object -- Вибирає насту�
 Об'єктно-орієнтований стиль
 
 public **mysqli_result::fetch_object**(string `$class` u003d "stdClass",
-array `$constructor_args` u003d \[\]): object\|null\|false
+array `$constructor_args` u003d []): object\|null\|false
 
 Процедурний стиль
 
 **mysqli_fetch_object**([mysqli_result](class.mysqli-result.md)
 `$result`, string `$class` u003d "stdClass", array `$constructor_args` u003d
-\[\]): object\|null\|false
+[]): object\|null\|false
 
 Вибирає один рядок даних із набору результатів та повертає його як
 об'єкт, де кожна властивість є ім'ям стовпця набору результатів.

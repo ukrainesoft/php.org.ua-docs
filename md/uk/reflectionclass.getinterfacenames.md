@@ -1,6 +1,5 @@
 - [« ReflectionClass::getFileName](reflectionclass.getfilename.md)
-- [ReflectionClass::getInterfaces
-»](reflectionclass.getinterfaces.md)
+- [ReflectionClass::getInterfaces »](reflectionclass.getinterfaces.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

@@ -22,8 +22,7 @@ public **Imagick::setGravity**(int `$gravity`): bool
 ### Список параметрів
 
 `gravity`
-Властивість гравітації. Зверніться до списку [констант
-GRAVITY](imagick.constants.md#imagick.constants.gravity).
+Властивість гравітації. Зверніться до списку [констант GRAVITY](imagick.constants.md#imagick.constants.gravity).
 
 ### Значення, що повертаються
 

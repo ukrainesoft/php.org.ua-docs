@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md)
-- [SolrQuery::getMltMinWordLength
-»](solrquery.getmltminwordlength.md)
+- [« SolrQuery::getMltMinDocFrequency](solrquery.getmltmindocfrequency.md)
+- [SolrQuery::getMltMinWordLength »](solrquery.getmltminwordlength.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

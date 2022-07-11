@@ -1,6 +1,5 @@
 - [« DOMCharacterData::insertData](domcharacterdata.insertdata.md)
-- [DOMCharacterData::substringData
-»](domcharacterdata.substringdata.md)
+- [DOMCharacterData::substringData »](domcharacterdata.substringdata.md)
 
 - [PHP Manual](index.md)
 - [DOMCharacterData](class.domcharacterdata.md)

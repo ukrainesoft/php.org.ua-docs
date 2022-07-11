@@ -1,7 +1,5 @@
-- [«
-mailparse_msg_extract_part_file](function.mailparse-msg-extract-part-file.md)
-- [mailparse_msg_extract_whole_part_file
-»](function.mailparse-msg-extract-whole-part-file.md)
+- [« mailparse_msg_extract_part_file](function.mailparse-msg-extract-part-file.md)
+- [mailparse_msg_extract_whole_part_file »](function.mailparse-msg-extract-whole-part-file.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

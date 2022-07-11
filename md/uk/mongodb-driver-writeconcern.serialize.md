@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md)
-- [MongoDB\Driver\WriteConcern::unserialize
-»](mongodb-driver-writeconcern.unserialize.md)
+- [« MongoDB\Driver\WriteConcern::isDefault](mongodb-driver-writeconcern.isdefault.md)
+- [MongoDB\Driver\WriteConcern::unserialize »](mongodb-driver-writeconcern.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)

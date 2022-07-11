@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadPreference::serialize](mongodb-driver-readpreference.serialize.md)
-- [MongoDB\Driver\ReadConcern
-»](class.mongodb-driver-readconcern.md)
+- [« MongoDB\Driver\ReadPreference::serialize](mongodb-driver-readpreference.serialize.md)
+- [MongoDB\Driver\ReadConcern »](class.mongodb-driver-readconcern.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadPreference](class.mongodb-driver-readpreference.md)

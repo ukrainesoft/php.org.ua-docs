@@ -1,5 +1,4 @@
-- [«
-Yaf_Response_Abstract::\_\_toString](yaf-response-abstract.tostring.md)
+- [« Yaf_Response_Abstract::\_\_toString](yaf-response-abstract.tostring.md)
 - [Yaf_Route_Interface::assemble »](yaf-route-interface.assemble.md)
 
 - [PHP Manual](index.md)

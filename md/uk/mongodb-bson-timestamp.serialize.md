@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md)
-- [MongoDB\BSON\Timestamp::\_\_toString
-»](mongodb-bson-timestamp.tostring.md)
+- [« MongoDB\BSON\Timestamp::jsonSerialize](mongodb-bson-timestamp.jsonserialize.md)
+- [MongoDB\BSON\Timestamp::\_\_toString »](mongodb-bson-timestamp.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)

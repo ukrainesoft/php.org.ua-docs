@@ -1,6 +1,5 @@
 - [« Основи підрахунку посилань](features.gc.refcounting-basics.md)
-- [Питання продуктивності
-»](features.gc.performance-considerations.md)
+- [Питання продуктивності »](features.gc.performance-considerations.md)
 
 - [PHP Manual](index.md)
 - [Складання сміття](features.gc.md)
@@ -11,8 +10,7 @@
 Зазвичай механізми підрахунку посилань у пам'яті, наприклад, використовуваний PHP
 раніше, не вирішують проблему витоку пам'яті через циклічні посилання.
 Починаючи з версії 5.3.0, в PHP реалізований синхронний механізм
-дослідження "[» Concurrent Cycle Collection in Reference Counted
-Systems](http://researcher.watson.ibm.com/researcher/files/us-bacon/Bacon01Concurrent.pdf)",
+дослідження "[» Concurrent Cycle Collection in Reference Counted Systems](http://researcher.watson.ibm.com/researcher/files/us-bacon/Bacon01Concurrent.pdf)",
 у якому розглядається це питання.
 
 Повний опис роботи алгоритму виходить за межі даного розділу,
@@ -25,8 +23,7 @@ zval може бути вилучено. Виходячи з цих правил
 знайти сміття перевіривши можливість зменшення всіх лічильників посилань на
 одиницю та визначивши ті контейнери, у яких лічильник стане рівним нулю.
 
-![Алгоритм складання
-сміття](images/12f37b1c6963c1c5c18f30495416a197-gc-algorithm.png)
+![Алгоритм складання сміття](images/12f37b1c6963c1c5c18f30495416a197-gc-algorithm.png)
 
 Для уникнення постійної перевірки на сміття з циклічними посиланнями при
 кожному зменшенні лічильника посилань, алгоритм додає всі можливі

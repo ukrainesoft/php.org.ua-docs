@@ -1,6 +1,5 @@
 - [«CommonMark\Node\Text](class.commonmark-node-text.md)
-- [CommonMark\Node\Text\Strong
-»](class.commonmark-node-text-strong.md)
+- [CommonMark\Node\Text\Strong »](class.commonmark-node-text-strong.md)
 
 - [PHP Manual](index.md)
 - [CommonMark\Node\Text](class.commonmark-node-text.md)

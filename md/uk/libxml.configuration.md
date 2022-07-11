@@ -1,5 +1,5 @@
 - [« Встановлення](libxml.installation.md)
-- [Типи ресурсів»] (libxml.resources.md)
+- [Типи ресурсів»](libxml.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](libxml.setup.md)

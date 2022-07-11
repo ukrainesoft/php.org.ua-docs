@@ -1,4 +1,4 @@
-- [« Lua] (book.lua.md)
+- [« Lua](book.lua.md)
 - [Встановлення та налаштування »](lua.setup.md)
 
 - [PHP Manual](index.md)

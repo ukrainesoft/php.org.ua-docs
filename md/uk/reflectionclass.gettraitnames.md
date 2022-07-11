@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md)
+- [« ReflectionClass::getTraitAliases](reflectionclass.gettraitaliases.md)
 - [ReflectionClass::getTraits »](reflectionclass.gettraits.md)
 
 - [PHP Manual](index.md)

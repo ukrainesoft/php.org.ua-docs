@@ -1,6 +1,5 @@
 - [« Yaf_Dispatcher::getRouter](yaf-dispatcher.getrouter.md)
-- [Yaf_Dispatcher::registerPlugin
-»](yaf-dispatcher.registerplugin.md)
+- [Yaf_Dispatcher::registerPlugin »](yaf-dispatcher.registerplugin.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

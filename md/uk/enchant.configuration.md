@@ -1,5 +1,5 @@
 - [« Установка](enchant.installation.md)
-- [Типи ресурсів»] (enchant.resources.md)
+- [Типи ресурсів»](enchant.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](enchant.setup.md)

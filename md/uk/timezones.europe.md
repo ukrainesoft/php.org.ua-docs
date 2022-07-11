@@ -1,4 +1,4 @@
-- [« Австралія] (timezones.australia.md)
+- [« Австралія](timezones.australia.md)
 - [Індійська »](timezones.indian.md)
 
 - [PHP Manual](index.md)

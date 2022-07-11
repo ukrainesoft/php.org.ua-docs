@@ -1,5 +1,4 @@
-- [«
-IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md)
+- [« IntlChar::getIntPropertyMaxValue](intlchar.getintpropertymaxvalue.md)
 - [IntlChar::getIntPropertyValue »](intlchar.getintpropertyvalue.md)
 
 - [PHP Manual](index.md)

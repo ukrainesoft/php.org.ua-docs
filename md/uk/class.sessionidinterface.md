@@ -1,7 +1,5 @@
-- [«
-SessionHandlerInterface::write](sessionhandlerinterface.write.md)
-- [SessionIdInterface::create_sid
-»](sessionidinterface.create-sid.md)
+- [« SessionHandlerInterface::write](sessionhandlerinterface.write.md)
+- [SessionIdInterface::create_sid »](sessionidinterface.create-sid.md)
 
 - [PHP Manual](index.md)
 - [Сесії](book.session.md)

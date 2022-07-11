@@ -1,6 +1,5 @@
 - [« DocResult::fetchOne](mysql-xdevapi-docresult.fetchone.md)
-- [DocResult::getWarningsCount
-»](mysql-xdevapi-docresult.getwarningscount.md)
+- [DocResult::getWarningsCount »](mysql-xdevapi-docresult.getwarningscount.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\DocResult](class.mysql-xdevapi-docresult.md)

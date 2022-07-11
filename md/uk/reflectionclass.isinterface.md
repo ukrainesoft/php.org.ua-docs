@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
+- [« ReflectionClass::isInstantiable](reflectionclass.isinstantiable.md)
 - [ReflectionClass::isInternal »](reflectionclass.isinternal.md)
 
 - [PHP Manual](index.md)

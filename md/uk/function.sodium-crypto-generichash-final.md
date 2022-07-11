@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_core_ristretto255_sub](function.sodium-crypto-core-ristretto255-sub.md)
-- [sodium_crypto_generichash_init
-»](function.sodium-crypto-generichash-init.md)
+- [« sodium_crypto_core_ristretto255_sub](function.sodium-crypto-core-ristretto255-sub.md)
+- [sodium_crypto_generichash_init »](function.sodium-crypto-generichash-init.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

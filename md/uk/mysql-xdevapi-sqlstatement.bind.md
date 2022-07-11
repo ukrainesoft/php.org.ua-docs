@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
-- [SqlStatement::\_\_construct
-»](mysql-xdevapi-sqlstatement.construct.md)
+- [« mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)
+- [SqlStatement::\_\_construct »](mysql-xdevapi-sqlstatement.construct.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)

@@ -32,8 +32,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT
 Об'єкт Imagick, що містить зображення, що накладається.
 
 `compose`
-Оператор накладання. Дивіться [Константи оператора
-наложения](imagick.constants.md#imagick.constants.compositeop).
+Оператор накладання. Дивіться [Константи оператора наложения](imagick.constants.md#imagick.constants.compositeop).
 
 `x`
 Зміщення стовпця зображення, що накладається.

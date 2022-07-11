@@ -1,6 +1,5 @@
-- [« Swoole \ Http \ Request] (class.swoole-http-request.md)
-- [Swoole\Http\Request::rawcontent
-»](swoole-http-request.rawcontent.md)
+- [« Swoole \ Http \ Request](class.swoole-http-request.md)
+- [Swoole\Http\Request::rawcontent »](swoole-http-request.rawcontent.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Request](class.swoole-http-request.md)

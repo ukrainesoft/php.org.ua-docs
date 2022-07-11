@@ -1,5 +1,4 @@
-- [«
-ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md)
+- [« ReflectionProperty::isPromoted](reflectionproperty.ispromoted.md)
 - [ReflectionProperty::isPublic »](reflectionproperty.ispublic.md)
 
 - [PHP Manual](index.md)

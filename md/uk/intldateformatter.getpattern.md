@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::getLocale](intldateformatter.getlocale.md)
-- [IntlDateFormatter::getTimeType
-»](intldateformatter.gettimetype.md)
+- [IntlDateFormatter::getTimeType »](intldateformatter.gettimetype.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

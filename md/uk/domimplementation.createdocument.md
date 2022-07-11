@@ -1,7 +1,5 @@
-- [«
-DOMImplementation::\_\_construct](domimplementation.construct.md)
-- [DOMImplementation::createDocumentType
-»](domimplementation.createdocumenttype.md)
+- [« DOMImplementation::\_\_construct](domimplementation.construct.md)
+- [DOMImplementation::createDocumentType »](domimplementation.createdocumenttype.md)
 
 - [PHP Manual](index.md)
 - [DOMImplementation](class.domimplementation.md)

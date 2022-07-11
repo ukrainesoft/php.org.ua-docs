@@ -1,6 +1,5 @@
 - [«Повернення за посиланням](language.references.return.md)
-- [Неявне використання механізму посилань
-»](language.references.spot.md)
+- [Неявне використання механізму посилань »](language.references.spot.md)
 
 - [PHP Manual](index.md)
 - [Пояснення посилань](language.references.md)

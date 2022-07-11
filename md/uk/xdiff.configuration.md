@@ -1,5 +1,5 @@
 - [« Установка](xdiff.installation.md)
-- [Типи ресурсів»] (xdiff.resources.md)
+- [Типи ресурсів»](xdiff.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](xdiff.setup.md)

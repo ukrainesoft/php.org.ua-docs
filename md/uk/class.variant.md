@@ -2,7 +2,7 @@
 - [variant::\_\_construct »](variant.construct.md)
 
 - [PHP Manual](index.md)
-- [COM] (book.com.md)
+- [COM](book.com.md)
 - Клас variant
 
 # Клас variant

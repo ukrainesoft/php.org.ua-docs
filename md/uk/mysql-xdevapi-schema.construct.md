@@ -1,6 +1,5 @@
 - [«mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)
-- [Schema::createCollection
-»](mysql-xdevapi-schema.createcollection.md)
+- [Schema::createCollection »](mysql-xdevapi-schema.createcollection.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Schema](class.mysql-xdevapi-schema.md)

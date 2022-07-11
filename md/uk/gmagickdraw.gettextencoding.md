@@ -1,5 +1,4 @@
-- [«
-GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.md)
+- [« GmagickDraw::gettextdecoration](gmagickdraw.gettextdecoration.md)
 - [GmagickDraw::line »](gmagickdraw.line.md)
 
 - [PHP Manual](index.md)

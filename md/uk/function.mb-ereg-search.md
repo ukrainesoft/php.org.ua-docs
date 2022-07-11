@@ -1,5 +1,5 @@
 - [«mb_ereg_search_setpos](function.mb-ereg-search-setpos.md)
-- [mb_ereg »] (function.mb-ereg.md)
+- [mb_ereg »](function.mb-ereg.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

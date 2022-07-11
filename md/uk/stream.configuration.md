@@ -1,5 +1,5 @@
 - [« Установка](stream.installation.md)
-- [Класи для роботи з потоками»] (stream.resources.md)
+- [Класи для роботи з потоками»](stream.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](stream.setup.md)

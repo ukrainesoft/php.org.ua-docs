@@ -1,6 +1,5 @@
 - [« SessionHandlerInterface](class.sessionhandlerinterface.md)
-- [SessionHandlerInterface::destroy
-»](sessionhandlerinterface.destroy.md)
+- [SessionHandlerInterface::destroy »](sessionhandlerinterface.destroy.md)
 
 - [PHP Manual](index.md)
 - [SessionHandlerInterface](class.sessionhandlerinterface.md)

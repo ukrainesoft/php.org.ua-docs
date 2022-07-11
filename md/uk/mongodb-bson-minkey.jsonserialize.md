@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\MinKey::\_\_construct](mongodb-bson-minkey.construct.md)
-- [MongoDB\BSON\MinKey::serialize
-»](mongodb-bson-minkey.serialize.md)
+- [« MongoDB\BSON\MinKey::\_\_construct](mongodb-bson-minkey.construct.md)
+- [MongoDB\BSON\MinKey::serialize »](mongodb-bson-minkey.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MinKey](class.mongodb-bson-minkey.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

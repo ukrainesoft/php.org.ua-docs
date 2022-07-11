@@ -1,5 +1,5 @@
 - [« Установка](exec.installation.md)
-- [Типи ресурсів»] (exec.resources.md)
+- [Типи ресурсів»](exec.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](exec.setup.md)

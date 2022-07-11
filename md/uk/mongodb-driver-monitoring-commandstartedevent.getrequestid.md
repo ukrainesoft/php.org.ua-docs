@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.md)
-- [MongoDB\Driver\Monitoring\CommandStartedEvent::getServer
-»](mongodb-driver-monitoring-commandstartedevent.getserver.md)
+- [« MongoDB\Driver\Monitoring\CommandStartedEvent::getOperationId](mongodb-driver-monitoring-commandstartedevent.getoperationid.md)
+- [MongoDB\Driver\Monitoring\CommandStartedEvent::getServer »](mongodb-driver-monitoring-commandstartedevent.getserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)

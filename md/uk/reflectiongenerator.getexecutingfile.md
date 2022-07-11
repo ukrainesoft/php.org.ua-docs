@@ -1,7 +1,5 @@
-- [«
-ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md)
-- [ReflectionGenerator::getExecutingGenerator
-»](reflectiongenerator.getexecutinggenerator.md)
+- [« ReflectionGenerator::\_\_construct](reflectiongenerator.construct.md)
+- [ReflectionGenerator::getExecutingGenerator »](reflectiongenerator.getexecutinggenerator.md)
 
 - [PHP Manual](index.md)
 - [ReflectionGenerator](class.reflectiongenerator.md)

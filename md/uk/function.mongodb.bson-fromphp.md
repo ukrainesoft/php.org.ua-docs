@@ -1,6 +1,5 @@
 - [«MongoDB\BSON romJSON](function.mongodb.bson-fromjson.md)
-- [MongoDB\BSON oCanonicalExtendedJSON
-»](function.mongodb.bson-tocanonicalextendedjson.md)
+- [MongoDB\BSON oCanonicalExtendedJSON »](function.mongodb.bson-tocanonicalextendedjson.md)
 
 - [PHP Manual](index.md)
 - [Функції](ref.bson.functions.md)
@@ -55,6 +54,5 @@ MongoDB\BSON romPHP — Повертає подання BSON значення PH
 
 - [MongoDB\BSON oPHP()](function.mongodb.bson-tophp.md) -
 Повертає PHP подання значення BSON
-- [» MongoDB
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» MongoDB BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
 - [Постійні дані](mongodb.persistence.md)

@@ -1,6 +1,5 @@
 - [«date_add](function.date-add.md)
-- [date_create_immutable_from_format
-»](function.date-create-immutable-from-format.md)
+- [date_create_immutable_from_format »](function.date-create-immutable-from-format.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

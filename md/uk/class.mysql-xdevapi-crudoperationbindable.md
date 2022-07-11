@@ -1,6 +1,5 @@
 - [« ColumnResult::isPadded](mysql-xdevapi-columnresult.ispadded.md)
-- [CrudOperationBindable::bind
-»](mysql-xdevapi-crudoperationbindable.bind.md)
+- [CrudOperationBindable::bind »](mysql-xdevapi-crudoperationbindable.bind.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

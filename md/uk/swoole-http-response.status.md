@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Response::sendfile](swoole-http-response.sendfile.md)
+- [« Swoole\Http\Response::sendfile](swoole-http-response.sendfile.md)
 - [Swoole\Http\Response::write »](swoole-http-response.write.md)
 
 - [PHP Manual](index.md)

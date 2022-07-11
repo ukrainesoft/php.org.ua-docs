@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md)
-- [MongoDB\Driver\ReadConcern::serialize
-»](mongodb-driver-readconcern.serialize.md)
+- [« MongoDB\Driver\ReadConcern::getLevel](mongodb-driver-readconcern.getlevel.md)
+- [MongoDB\Driver\ReadConcern::serialize »](mongodb-driver-readconcern.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ReadConcern](class.mongodb-driver-readconcern.md)
@@ -66,5 +64,4 @@ bool(true)
 
 - [MongoDB\Driver\Manager::getReadConcern()](mongodb-driver-manager.getreadconcern.md) -
 Повертає ReadConcern для Manager
-- [» Довідка за гарантіями
-читання](https://www.mongodb.com/docs/manual/reference/read-concern/)
+- [» Довідка за гарантіями читання](https://www.mongodb.com/docs/manual/reference/read-concern/)

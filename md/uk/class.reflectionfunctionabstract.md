@@ -1,7 +1,5 @@
-- [«
-ReflectionFunction::\_\_toString](reflectionfunction.tostring.md)
-- [ReflectionFunctionAbstract::\_\_clone
-»](reflectionfunctionabstract.clone.md)
+- [« ReflectionFunction::\_\_toString](reflectionfunction.tostring.md)
+- [ReflectionFunctionAbstract::\_\_clone »](reflectionfunctionabstract.clone.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

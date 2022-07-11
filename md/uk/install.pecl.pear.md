@@ -1,6 +1,5 @@
 - [« Встановлення PHP-модуля у Windows](install.pecl.windows.md)
-- [Компіляція модулів, що розділяються, за допомогою phpize
-»](install.pecl.phpize.md)
+- [Компіляція модулів, що розділяються, за допомогою phpize »](install.pecl.phpize.md)
 
 - [PHP Manual](index.md)
 - [Встановлення модулів PECL](install.pecl.md)
@@ -9,8 +8,7 @@
 ## Компіляція модулів, що розділяються, за допомогою команди pecl
 
 PECL дозволяє легко створювати модулі PHP, що розділяються. Використовуючи
-[» команду
-pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php),
+[» команду pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php),
 виконайте таке:
 
 

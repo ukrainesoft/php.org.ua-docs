@@ -1,5 +1,5 @@
 - [«trader_errno](function.trader-errno.md)
-- [trader_floor »] (function.trader-floor.md)
+- [trader_floor »](function.trader-floor.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

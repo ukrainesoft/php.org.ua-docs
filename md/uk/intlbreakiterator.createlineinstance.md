@@ -1,7 +1,5 @@
-- [«
-IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md)
-- [IntlBreakIterator::createSentenceInstance
-»](intlbreakiterator.createsentenceinstance.md)
+- [« IntlBreakIterator::createCodePointInstance](intlbreakiterator.createcodepointinstance.md)
+- [IntlBreakIterator::createSentenceInstance »](intlbreakiterator.createsentenceinstance.md)
 
 - [PHP Manual](index.md)
 - [IntlBreakIterator](class.intlbreakiterator.md)

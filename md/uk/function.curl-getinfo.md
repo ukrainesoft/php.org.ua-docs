@@ -1,5 +1,5 @@
 - [«curl_file_create](function.curl-file-create.md)
-- [curl_init»] (function.curl-init.md)
+- [curl_init»](function.curl-init.md)
 
 - [PHP Manual](index.md)
 - [Функції cURL](ref.curl.md)

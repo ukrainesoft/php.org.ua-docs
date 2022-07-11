@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
-- [ReflectionFunctionAbstract::isUserDefined
-»](reflectionfunctionabstract.isuserdefined.md)
+- [« ReflectionFunctionAbstract::isGenerator](reflectionfunctionabstract.isgenerator.md)
+- [ReflectionFunctionAbstract::isUserDefined »](reflectionfunctionabstract.isuserdefined.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

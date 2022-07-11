@@ -1,5 +1,4 @@
-- [«
-fann_set_output_scaling_params](function.fann-set-output-scaling-params.md)
+- [« fann_set_output_scaling_params](function.fann-set-output-scaling-params.md)
 - [fann_set_quickprop_mu »](function.fann-set-quickprop-mu.md)
 
 - [PHP Manual](index.md)

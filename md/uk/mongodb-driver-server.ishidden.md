@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Server::isArbiter](mongodb-driver-server.isarbiter.md)
-- [MongoDB\Driver\Server::isPassive
-»](mongodb-driver-server.ispassive.md)
+- [« MongoDB\Driver\Server::isArbiter](mongodb-driver-server.isarbiter.md)
+- [MongoDB\Driver\Server::isPassive »](mongodb-driver-server.ispassive.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Server](class.mongodb-driver-server.md)
@@ -18,8 +16,7 @@ MongoDB\Driver\Server::isHidden — Перевіряє, чи сервер при
 
 final public **MongoDB\Driver\Server::isHidden**(): bool
 
-Повертає, чи є цей сервер [» прихованим
-членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member)
+Повертає, чи є цей сервер [» прихованим членом](https://www.mongodb.com/docs/manual/reference/glossary/#term-hidden-member)
 набір реплік.
 
 ### Список параметрів

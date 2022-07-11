@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md)
-- [MongoDB\Driver\TopologyDescription::hasReadableServer
-»](mongodb-driver-topologydescription.hasreadableserver.md)
+- [« MongoDB\Driver\TopologyDescription::getServers](mongodb-driver-topologydescription.getservers.md)
+- [MongoDB\Driver\TopologyDescription::hasReadableServer »](mongodb-driver-topologydescription.hasreadableserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)

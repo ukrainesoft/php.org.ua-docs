@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)
-- [ReflectionClass::getTraitNames
-»](reflectionclass.gettraitnames.md)
+- [« ReflectionClass::getStaticPropertyValue](reflectionclass.getstaticpropertyvalue.md)
+- [ReflectionClass::getTraitNames »](reflectionclass.gettraitnames.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

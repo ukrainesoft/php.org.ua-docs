@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Binary::\_\_toString](mongodb-bson-binary.tostring.md)
+- [« MongoDB\BSON\Binary::\_\_toString](mongodb-bson-binary.tostring.md)
 - [MongoDB\BSON\Decimal128 »](class.mongodb-bson-decimal128.md)
 
 - [PHP Manual](index.md)

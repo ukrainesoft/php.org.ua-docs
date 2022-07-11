@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.md)
-- [SolrCollapseFunction::\_\_construct
-»](solrcollapsefunction.construct.md)
+- [« SolrDisMaxQuery::useEDisMaxQueryParser](solrdismaxquery.useedismaxqueryparser.md)
+- [SolrCollapseFunction::\_\_construct »](solrcollapsefunction.construct.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

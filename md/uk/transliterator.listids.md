@@ -1,5 +1,4 @@
-- [«
-Transliterator::getErrorMessage](transliterator.geterrormessage.md)
+- [« Transliterator::getErrorMessage](transliterator.geterrormessage.md)
 - [Transliterator::transliterate »](transliterator.transliterate.md)
 
 - [PHP Manual](index.md)

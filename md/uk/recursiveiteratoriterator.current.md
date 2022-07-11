@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.md)
-- [RecursiveIteratorIterator::endChildren
-»](recursiveiteratoriterator.endchildren.md)
+- [« RecursiveIteratorIterator::\_\_construct](recursiveiteratoriterator.construct.md)
+- [RecursiveIteratorIterator::endChildren »](recursiveiteratoriterator.endchildren.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

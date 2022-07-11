@@ -1,5 +1,4 @@
-- [«
-IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)
+- [« IteratorIterator::getInnerIterator](iteratoriterator.getinneriterator.md)
 - [IteratorIterator::next »](iteratoriterator.next.md)
 
 - [PHP Manual](index.md)

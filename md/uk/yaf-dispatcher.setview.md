@@ -1,6 +1,5 @@
 - [« Yaf_Dispatcher::setRequest](yaf-dispatcher.setrequest.md)
-- [Yaf_Dispatcher::throwException
-»](yaf-dispatcher.throwexception.md)
+- [Yaf_Dispatcher::throwException »](yaf-dispatcher.throwexception.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

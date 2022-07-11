@@ -1,7 +1,5 @@
-- [«
-Yaf_Exception_RouterFailed](class.yaf-exception-routerfailed.md)
-- [Yaf_Exception_LoadFailed_Module
-»](class.yaf-exception-loadfailed-module.md)
+- [« Yaf_Exception_RouterFailed](class.yaf-exception-routerfailed.md)
+- [Yaf_Exception_LoadFailed_Module »](class.yaf-exception-loadfailed-module.md)
 
 - [PHP Manual](index.md)
 - [Yaf](book.yaf.md)

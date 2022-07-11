@@ -40,8 +40,8 @@ array `$options` u003d ?
 
 - Строкове значення
 - Змінна PHP
-- Масив із такою структурою: array($value \[, $direction \[, $phpType
-\[, $sqlType\]\]\])
+- Масив із такою структурою: array($value [, $direction [, $phpType
+[, $sqlType]]])
 
 У наступній таблиці описані елементи у структурі масиву вище:
 

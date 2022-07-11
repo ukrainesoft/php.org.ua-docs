@@ -1,5 +1,4 @@
-- [«
-ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)
+- [« ReflectionNamedType::isBuiltin](reflectionnamedtype.isbuiltin.md)
 - [ReflectionObject::\_\_construct »](reflectionobject.construct.md)
 
 - [PHP Manual](index.md)
@@ -225,10 +224,9 @@ public
 
 public
 [ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)(array
-`$args` u003d \[\]): ?object
+`$args` u003d []): ?object
 
-public
-[ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
+public [ReflectionClass::newInstanceWithoutConstructor](reflectionclass.newinstancewithoutconstructor.md)():
 object
 
 public

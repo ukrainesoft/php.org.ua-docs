@@ -1,7 +1,5 @@
-- [«
-xml_get_current_byte_index](function.xml-get-current-byte-index.md)
-- [xml_get_current_line_number
-»](function.xml-get-current-line-number.md)
+- [« xml_get_current_byte_index](function.xml-get-current-byte-index.md)
+- [xml_get_current_line_number »](function.xml-get-current-line-number.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

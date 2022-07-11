@@ -1,5 +1,5 @@
 - [«is_writable](function.is-writable.md)
-- [lchgrp»] (function.lchgrp.md)
+- [lchgrp»](function.lchgrp.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

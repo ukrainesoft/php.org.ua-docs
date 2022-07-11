@@ -1,7 +1,5 @@
-- [«
-ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
-- [ReflectionZendExtension::\_\_toString
-»](reflectionzendextension.tostring.md)
+- [« ReflectionZendExtension::getURL](reflectionzendextension.geturl.md)
+- [ReflectionZendExtension::\_\_toString »](reflectionzendextension.tostring.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

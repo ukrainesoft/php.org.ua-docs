@@ -15,8 +15,7 @@ PDO::prepare — Готує запит до виконання та поверт
 
 ### Опис
 
-public **PDO::prepare**(string `$query`, array `$options` u003d \[\]):
-[PDOStatement](class.pdostatement.md)\|false
+public **PDO::prepare**(string `$query`, array `$options` u003d []): [PDOStatement](class.pdostatement.md)\|false
 
 Підготовка SQL-запиту до бази даних до запуску за допомогою методу
 [PDOStatement::execute()](pdostatement.execute.md). Запит може

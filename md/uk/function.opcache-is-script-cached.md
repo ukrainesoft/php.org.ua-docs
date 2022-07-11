@@ -1,5 +1,5 @@
 - [«opcache_invalidate](function.opcache-invalidate.md)
-- [opcache_reset»] (function.opcache-reset.md)
+- [opcache_reset»](function.opcache-reset.md)
 
 - [PHP Manual](index.md)
 - [Функції OPcache](ref.opcache.md)

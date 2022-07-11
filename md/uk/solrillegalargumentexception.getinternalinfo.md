@@ -1,7 +1,5 @@
-- [«
-SolrIllegalArgumentException](class.solrillegalargumentexception.md)
-- [SolrIllegalOperationException
-»](class.solrillegaloperationexception.md)
+- [« SolrIllegalArgumentException](class.solrillegalargumentexception.md)
+- [SolrIllegalOperationException »](class.solrillegaloperationexception.md)
 
 - [PHP Manual](index.md)
 - [SolrIllegalArgumentException](class.solrillegalargumentexception.md)

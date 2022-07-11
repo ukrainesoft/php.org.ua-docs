@@ -1,7 +1,5 @@
-- [«
-ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
-- [ReflectionZendExtension::getURL
-»](reflectionzendextension.geturl.md)
+- [« ReflectionZendExtension::getCopyright](reflectionzendextension.getcopyright.md)
+- [ReflectionZendExtension::getURL »](reflectionzendextension.geturl.md)
 
 - [PHP Manual](index.md)
 - [ReflectionZendExtension](class.reflectionzendextension.md)

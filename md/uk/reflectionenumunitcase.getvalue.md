@@ -1,5 +1,4 @@
-- [«
-ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)
+- [« ReflectionEnumUnitCase::getEnum](reflectionenumunitcase.getenum.md)
 - [ReflectionEnumBackedCase »](class.reflectionenumbackedcase.md)
 
 - [PHP Manual](index.md)

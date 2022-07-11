@@ -1,6 +1,5 @@
 - [«Зумовлені класи](reserved.classes.md)
-- [Список інших зарезервованих слів
-»](reserved.other-reserved-words.md)
+- [Список інших зарезервованих слів »](reserved.other-reserved-words.md)
 
 - [PHP Manual](index.md)
 - [Список зарезервованих слів](reserved.md)
@@ -15,7 +14,7 @@ SAPI-модулі.
 
 **`PHP_VERSION`** (string)
 Поточна версія PHP у вигляді рядка у форматі
-"major.minor.release\[extra\]".
+"major.minor.release[extra]".
 
 **`PHP_MAJOR_VERSION`** (int)
 Поточна "основна" (major) версія PHP у вигляді цілого числа (наприклад,
@@ -137,8 +136,7 @@ int(-2147483648) в 32-бітних системах та int(-92233720368547758
 Доступно з PHP 7.1.0.
 
 **`E_ERROR`** (int)
-[Константа, яка вказує рівень повідомлень про
-помилках](errorfunc.constants.md)
+[Константа, яка вказує рівень повідомлень про помилках](errorfunc.constants.md)
 
 **`E_WARNING`** (int)
 [Константа повідомлення про помилку](errorfunc.constants.md)
@@ -206,6 +204,5 @@ Windows 'CTRL+BREAK'. Доступно з PHP 7.4.0 (лише для Windows).
 
 ### Стандартні визначені константи
 
-Усі константи [модулів, що входять до складу
-ядра](extensions.membership.md#extensions.membership.core), тепер
+Усі константи [модулів, що входять до складу ядра](extensions.membership.md#extensions.membership.core), тепер
 визначено в PHP за замовчуванням.

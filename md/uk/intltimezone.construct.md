@@ -1,6 +1,5 @@
 - [« IntlTimeZone](class.intltimezone.md)
-- [IntlTimeZone::countEquivalentIDs
-»](intltimezone.countequivalentids.md)
+- [IntlTimeZone::countEquivalentIDs »](intltimezone.countequivalentids.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

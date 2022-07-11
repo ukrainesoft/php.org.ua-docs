@@ -1,5 +1,5 @@
 - [«ftp_close](function.ftp-close.md)
-- [ftp_delete »] (function.ftp-delete.md)
+- [ftp_delete »](function.ftp-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції FTP](ref.ftp.md)

@@ -1,5 +1,4 @@
-- [«
-Yaf_Loader::registerLocalNamespace](yaf-loader.registerlocalNamespace.md)
+- [« Yaf_Loader::registerLocalNamespace](yaf-loader.registerlocalNamespace.md)
 - [Yaf_Loader::setLibraryPath »](yaf-loader.setlibrarypath.md)
 
 - [PHP Manual](index.md)

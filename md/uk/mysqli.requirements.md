@@ -15,7 +15,7 @@
 При запуску PHP до версії 7.1.16 або PHP 7.2 до 7.2.4 встановіть плагін
 за замовчуванням MySQL 8 Server в *mysql_native_password*, інакше ви побачите
 помилки, схожі на *The server requested authentication method unknown
-to the client \[caching_sha2_password\]*, навіть коли
+to the client [caching_sha2_password]*, навіть коли
 *caching_sha2_password* не використовується.
 
 Це пов'язано з тим, що MySQL 8 за замовчуванням використовує

@@ -1,5 +1,4 @@
-- [«
-UI\Draw\Text\Font::\_\_construct](ui-draw-text-font.construct.md)
+- [« UI\Draw\Text\Font::\_\_construct](ui-draw-text-font.construct.md)
 - [UI\Draw\Text\Font::getDescent »](ui-draw-text-font.getdescent.md)
 
 - [PHP Manual](index.md)

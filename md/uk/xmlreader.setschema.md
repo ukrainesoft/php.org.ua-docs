@@ -1,5 +1,4 @@
-- [«
-XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)
+- [« XMLReader::setRelaxNGSchemaSource](xmlreader.setrelaxngschemasource.md)
 - [XMLReader::XML »](xmlreader.xml.md)
 
 - [PHP Manual](index.md)

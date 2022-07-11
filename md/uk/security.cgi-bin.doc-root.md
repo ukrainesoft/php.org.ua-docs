@@ -1,7 +1,5 @@
-- [« Варіант 2: використання
-cgi.force_redirect](security.cgi-bin.force-redirect.md)
-- [Варіант 4: PHP поза деревом веб-документів
-»](security.cgi-bin.shell.md)
+- [« Варіант 2: використання cgi.force_redirect](security.cgi-bin.force-redirect.md)
+- [Варіант 4: PHP поза деревом веб-документів »](security.cgi-bin.shell.md)
 
 - [PHP Manual](index.md)
 - [Якщо PHP встановлено як CGI](security.cgi-bin.md)
@@ -26,8 +24,7 @@ CGI-інтерфейс.
 веб-документи.
 
 Ви можете встановити кореневу директорію для PHP-скриптів, настроївши
-параметр [doc_root](ini.core.md#ini.doc-root) у [конфігураційному
-файлі](configuration.file.md), або встановивши змінну оточення
+параметр [doc_root](ini.core.md#ini.doc-root) у [конфігураційному файлі](configuration.file.md), або встановивши змінну оточення
 `PHP_DOCUMENT_ROOT`. Якщо PHP використовується за допомогою CGI,
 повний шлях до файлу, що відкривається, буде побудований на підставі значення
 змінної `doc_root` та вказаної у запиті шляху. таким чином, ви

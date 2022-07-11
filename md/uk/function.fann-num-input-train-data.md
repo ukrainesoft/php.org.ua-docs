@@ -1,6 +1,5 @@
 - [« fann_merge_train_data](function.fann-merge-train-data.md)
-- [fann_num_output_train_data
-»](function.fann-num-output-train-data.md)
+- [fann_num_output_train_data »](function.fann-num-output-train-data.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

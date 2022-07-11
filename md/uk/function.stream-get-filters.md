@@ -1,5 +1,5 @@
 - [«stream_get_contents](function.stream-get-contents.md)
-- [stream_get_line »] (function.stream-get-line.md)
+- [stream_get_line »](function.stream-get-line.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

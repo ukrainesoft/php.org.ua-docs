@@ -1,5 +1,4 @@
-- [«
-IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md)
+- [« IntlChar::getPropertyValueName](intlchar.getpropertyvaluename.md)
 - [IntlChar::hasBinaryProperty »](intlchar.hasbinaryproperty.md)
 
 - [PHP Manual](index.md)

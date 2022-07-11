@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\Client::sendfile](swoole-coroutine-client.sendfile.md)
+- [« Swoole\Coroutine\Client::sendfile](swoole-coroutine-client.sendfile.md)
 - [Swoole\Coroutine\Client::set »](swoole-coroutine-client.set.md)
 
 - [PHP Manual](index.md)

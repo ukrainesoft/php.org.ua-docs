@@ -1,5 +1,4 @@
-- [«
-Yaf_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md)
+- [« Yaf_Dispatcher::getDefaultModule](yaf-dispatcher.getdefaultmodule.md)
 - [Yaf_Dispatcher::getRequest »](yaf-dispatcher.getrequest.md)
 
 - [PHP Manual](index.md)

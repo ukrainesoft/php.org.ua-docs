@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md)
-- [MongoDB\BSON\UTCDateTimeInterface
-»](class.mongodb-bson-utcdatetimeinterface.md)
+- [« MongoDB\BSON\TimestampInterface::getTimestamp](mongodb-bson-timestampinterface.gettimestamp.md)
+- [MongoDB\BSON\UTCDateTimeInterface »](class.mongodb-bson-utcdatetimeinterface.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\TimestampInterface](class.mongodb-bson-timestampinterface.md)

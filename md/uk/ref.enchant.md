@@ -1,5 +1,5 @@
 - [« Приклади](enchant.examples.md)
-- [enchant_broker_describe »] (function.enchant-broker-describe.md)
+- [enchant_broker_describe »](function.enchant-broker-describe.md)
 
 - [PHP Manual](index.md)
 - [Enchant](book.enchant.md)
@@ -14,7 +14,7 @@
 - [enchant_broker_dict_exists](function.enchant-broker-dict-exists.md)
 — Перевіряє, чи є словник чи ні. Використовується не порожній
 тег
-- [enchant_broker_free_dict] (function.enchant-broker-free-dict.md) -
+- [enchant_broker_free_dict](function.enchant-broker-free-dict.md) -
 Визволяє ресурс словника
 - [enchant_broker_free](function.enchant-broker-free.md) -
 Звільняє ресурс брокера та його словники

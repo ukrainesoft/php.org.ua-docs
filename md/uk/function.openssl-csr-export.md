@@ -1,7 +1,5 @@
-- [«
-openssl_csr_export_to_file](function.openssl-csr-export-to-file.md)
-- [openssl_csr_get_public_key
-»](function.openssl-csr-get-public-key.md)
+- [« openssl_csr_export_to_file](function.openssl-csr-export-to-file.md)
+- [openssl_csr_get_public_key »](function.openssl-csr-get-public-key.md)
 
 - [PHP Manual](index.md)
 - [Функції OpenSSL](ref.openssl.md)
@@ -24,8 +22,7 @@ openssl_csr_export — Експортує CSR як рядок
 ### Список параметрів
 
 `csr`
-Для отримання списку допустимих значень дивіться [Параметри
-CSR](openssl.certparams.md).
+Для отримання списку допустимих значень дивіться [Параметри CSR](openssl.certparams.md).
 
 `output`
 у разі успішного виконання, у цій змінній буде збережено CSR в

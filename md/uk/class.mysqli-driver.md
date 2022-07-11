@@ -1,6 +1,5 @@
 - [« mysqli_result::$num_rows](mysqli-result.num-rows.md)
-- [mysqli_driver::embedded_server_end
-»](mysqli-driver.embedded-server-end.md)
+- [mysqli_driver::embedded_server_end »](mysqli-driver.embedded-server-end.md)
 
 - [PHP Manual](index.md)
 - [MySQLi](book.mysqli.md)

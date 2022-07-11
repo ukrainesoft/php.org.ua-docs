@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
-- [ReflectionClass::setStaticPropertyValue
-»](reflectionclass.setstaticpropertyvalue.md)
+- [« ReflectionClass::newInstanceArgs](reflectionclass.newinstanceargs.md)
+- [ReflectionClass::setStaticPropertyValue »](reflectionclass.setstaticpropertyvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

@@ -76,6 +76,5 @@ int `$flags` u003d **`null`**
 вузол у zookeeper
 - [Zookeeper::getChildren()](zookeeper.getchildren.md) - Виводить
 список нащадків вузла синхронно
-- [Дозволи
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+- [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 - [ZookeeperException](class.zookeeperexception.md)

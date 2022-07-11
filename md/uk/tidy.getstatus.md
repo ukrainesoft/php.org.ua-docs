@@ -2,7 +2,7 @@
 - [tidy::head »](tidy.head.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - набуває статусу зазначеного документа
 
 # tidy::getStatus

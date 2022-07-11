@@ -1,6 +1,5 @@
 - [« ImagickPixel::getIndex](imagickpixel.getindex.md)
-- [ImagickPixel::isPixelSimilarQuantum
-»](imagickpixel.ispixelsimilarquantum.md)
+- [ImagickPixel::isPixelSimilarQuantum »](imagickpixel.ispixelsimilarquantum.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixel](class.imagickpixel.md)

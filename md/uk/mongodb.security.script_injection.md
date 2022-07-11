@@ -1,5 +1,4 @@
-- [« Атака за допомогою ін'єкцій у
-запиту](mongodb.security.request_injection.md)
+- [« Атака за допомогою ін'єкцій у запиту](mongodb.security.request_injection.md)
 - [MongoDB\Driver »](book.mongodb.md)
 
 - [PHP Manual](index.md)
@@ -42,18 +41,15 @@ JavaScript:
 перевернеться і все одно виконає введення! Найкраще уникати виконання
 *будь-якого* JavaScript на сервері.
 
-Настійно рекомендується уникати речення [» $where
-clause](https://www.mongodb.com/docs/manual/reference/operator/query/where/#considerations)
+Настійно рекомендується уникати речення [» $where clause](https://www.mongodb.com/docs/manual/reference/operator/query/where/#considerations)
 із запитами, оскільки це істотно впливає на продуктивність. за
 можливості використовуйте або звичайні оператори запитів, або
-[» Aggregation
-Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline).
+[» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline).
 
 Як альтернатива
 [» MapReduce](https://www.mongodb.com/docs/manual/core/map-reduce/),
 використовує JavaScript, розгляньте можливість використання
-[» Aggregation
-Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline).
+[» Aggregation Framework](https://www.mongodb.com/docs/manual/core/aggregation-pipeline).
 На відміну від Map/Reduce, він використовує ідіоматичний мову для
 побудови запитів, без необхідності писати та використовувати більше
 повільний підхід JavaScript, який потрібний для Map/Reduce.

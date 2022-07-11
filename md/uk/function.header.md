@@ -16,8 +16,7 @@ header — Надсилання HTTP-заголовка
 **header**(string `$header`, bool `$replace` u003d **`true`**, int
 `$response_code` u003d 0): void
 
-**header()** використовується для надсилання заголовка HTTP. У [» специфікації
-HTTP/1.1](http://www.faqs.org/rfcs/rfc2616) є докладний опис
+**header()** використовується для надсилання заголовка HTTP. У [» специфікації HTTP/1.1](http://www.faqs.org/rfcs/rfc2616) є докладний опис
 HTTP-заголовки.
 
 Пам'ятайте, що функцію **header()** можна викликати лише якщо клієнту ще

@@ -1,5 +1,4 @@
-- [«
-Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md)
+- [« Spoofchecker::setAllowedLocales](spoofchecker.setallowedlocales.md)
 - [Transliterator »](class.transliterator.md)
 
 - [PHP Manual](index.md)

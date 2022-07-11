@@ -1,5 +1,4 @@
-- [«
-LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md)
+- [« LuaSandbox::getProfilerFunctionReport](luasandbox.getprofilerfunctionreport.md)
 - [LuaSandbox::loadBinary »](luasandbox.loadbinary.md)
 
 - [PHP Manual](index.md)

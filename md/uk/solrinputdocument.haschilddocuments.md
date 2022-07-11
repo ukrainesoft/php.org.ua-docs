@@ -1,5 +1,4 @@
-- [«
-SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md)
+- [« SolrInputDocument::getFieldNames](solrinputdocument.getfieldnames.md)
 - [SolrInputDocument::merge »](solrinputdocument.merge.md)
 
 - [PHP Manual](index.md)

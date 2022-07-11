@@ -1,6 +1,5 @@
 - [« ReflectionFiber::getCallable](reflectionfiber.getcallable.md)
-- [ReflectionFiber::getExecutingLine
-»](reflectionfiber.getexecutingline.md)
+- [ReflectionFiber::getExecutingLine »](reflectionfiber.getexecutingline.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFiber](class.reflectionfiber.md)

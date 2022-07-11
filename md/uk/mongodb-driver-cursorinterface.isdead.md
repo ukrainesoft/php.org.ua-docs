@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md)
-- [MongoDB\Driver\CursorInterface::setTypeMap
-»](mongodb-driver-cursorinterface.settypemap.md)
+- [« MongoDB\Driver\CursorInterface::getServer](mongodb-driver-cursorinterface.getserver.md)
+- [MongoDB\Driver\CursorInterface::setTypeMap »](mongodb-driver-cursorinterface.settypemap.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\CursorInterface](class.mongodb-driver-cursorinterface.md)

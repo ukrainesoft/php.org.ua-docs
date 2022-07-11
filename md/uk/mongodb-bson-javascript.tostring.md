@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Javascript::serialize](mongodb-bson-javascript.serialize.md)
-- [MongoDB\BSON\Javascript::unserialize
-»](mongodb-bson-javascript.unserialize.md)
+- [« MongoDB\BSON\Javascript::serialize](mongodb-bson-javascript.serialize.md)
+- [MongoDB\BSON\Javascript::unserialize »](mongodb-bson-javascript.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)
@@ -43,5 +41,4 @@ string(33) "function foo(bar) { return bar; }"
 
 - [MongoDB\BSON\Javascript::getCode()](mongodb-bson-javascript.getcode.md) -
 Повертає код JavaScript
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

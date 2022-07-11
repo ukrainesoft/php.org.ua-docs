@@ -1,5 +1,5 @@
 - [« apcu_clear_cache](function.apcu-clear-cache.md)
-- [apcu_delete »] (function.apcu-delete.md)
+- [apcu_delete »](function.apcu-delete.md)
 
 - [PHP Manual](index.md)
 - [Функції APCu](ref.apcu.md)

@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)
+- [« ReflectionClass::getDocComment](reflectionclass.getdoccomment.md)
 - [ReflectionClass::getExtension »](reflectionclass.getextension.md)
 
 - [PHP Manual](index.md)

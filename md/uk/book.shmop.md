@@ -2,8 +2,7 @@
 - [Вступ »](intro.shmop.md)
 
 - [PHP Manual](index.md)
-- [Модулі для управління процесами
-програм](refs.fileprocess.process.md)
+- [Модулі для управління процесами програм](refs.fileprocess.process.md)
 - Управління пам'яттю, що розділяється
 
 # Управління пам'яттю, що розділяється
@@ -17,7 +16,7 @@
 - [Предвизначені константи](shmop.constants.md)
 - [Приклади](shmop.examples.md)
 - [Базове використання](shmop.examples-basic.md)
-- [Поділяється пам'ять] (ref.shmop.md)
+- [Поділяється пам'ять](ref.shmop.md)
 - [shmop_close](function.shmop-close.md) - Закриття блоку
 пам'яті
 - [shmop_delete](function.shmop-delete.md) — Видалення блоку

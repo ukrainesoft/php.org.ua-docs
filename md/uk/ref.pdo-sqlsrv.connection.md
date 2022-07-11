@@ -2,7 +2,7 @@
 - [Oracle (PDO) »](ref.pdo-oci.md)
 
 - [PHP Manual](index.md)
-- [MS SQL Server (PDO)] (ref.pdo-sqlsrv.md)
+- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
 - Підключення до баз даних MS SQL Server та SQL Azure
 
 #PDO_SQLSRV DSN

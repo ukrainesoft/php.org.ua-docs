@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_core_ristretto255_scalar_mul](function.sodium-crypto-core-ristretto255-scalar-mul.md)
-- [sodium_crypto_core_ristretto255_scalar_random
-»](function.sodium-crypto-core-ristretto255-scalar-random.md)
+- [« sodium_crypto_core_ristretto255_scalar_mul](function.sodium-crypto-core-ristretto255-scalar-mul.md)
+- [sodium_crypto_core_ristretto255_scalar_random »](function.sodium-crypto-core-ristretto255-scalar-random.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

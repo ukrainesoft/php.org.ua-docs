@@ -42,8 +42,7 @@ bool `$legacy` u003d **`false`**
 Висота зображення.
 
 `filter`
-Зверніться до списку [констант
-FILTER](imagick.constants.md#imagick.constants.filters).
+Зверніться до списку [констант FILTER](imagick.constants.md#imagick.constants.filters).
 
 `blur`
 Коефіцієнт розмиття, де значення \> 1 робить зображення більшим

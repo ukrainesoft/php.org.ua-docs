@@ -1,6 +1,5 @@
 - [« fann_set_callback](function.fann-set-callback.md)
-- [fann_set_cascade_activation_steepnesses
-»](function.fann-set-cascade-activation-steepnesses.md)
+- [fann_set_cascade_activation_steepnesses »](function.fann-set-cascade-activation-steepnesses.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

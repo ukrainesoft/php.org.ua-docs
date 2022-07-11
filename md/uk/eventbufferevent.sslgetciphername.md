@@ -1,7 +1,5 @@
-- [«
-EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md)
-- [EventBufferEvent::sslGetCipherVersion
-»](eventbufferevent.sslgetcipherversion.md)
+- [« EventBufferEvent::sslGetCipherInfo](eventbufferevent.sslgetcipherinfo.md)
+- [EventBufferEvent::sslGetCipherVersion »](eventbufferevent.sslgetcipherversion.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

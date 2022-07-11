@@ -1,6 +1,5 @@
 - [« ReflectionMethod::getClosure](reflectionmethod.getclosure.md)
-- [ReflectionMethod::getModifiers
-»](reflectionmethod.getmodifiers.md)
+- [ReflectionMethod::getModifiers »](reflectionmethod.getmodifiers.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)

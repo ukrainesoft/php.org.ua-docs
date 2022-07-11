@@ -16,8 +16,7 @@
 - [Предвизначені константи](outcontrol.constants.md)
 - [Приклади](outcontrol.examples.md)
 - [Базове використання](outcontrol.examples.basic.md)
-- [Використання перезапису
-виводу](outcontrol.examples.rewrite.md)
+- [Використання перезапису виводу](outcontrol.examples.rewrite.md)
 - [Функції контролю виведення](ref.outcontrol.md)
 - [flush](function.flush.md) - Скидання системного буфера виводу
 - [ob_clean](function.ob-clean.md) — Очистити (стерти) буфер

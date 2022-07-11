@@ -1,5 +1,4 @@
-- [«
-enchant_dict_store_replacement](function.enchant-dict-store-replacement.md)
+- [« enchant_dict_store_replacement](function.enchant-dict-store-replacement.md)
 - [EnchantBroker »](class.enchantbroker.md)
 
 - [PHP Manual](index.md)

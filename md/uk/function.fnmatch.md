@@ -1,5 +1,5 @@
 - [«flock](function.flock.md)
-- [fopen»] (function.fopen.md)
+- [fopen»](function.fopen.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

@@ -1,5 +1,5 @@
 - [« hex2bin](function.hex2bin.md)
-- [htmlentities »] (function.mdentities.md)
+- [htmlentities »](function.mdentities.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

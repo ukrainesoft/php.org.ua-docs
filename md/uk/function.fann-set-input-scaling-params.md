@@ -1,6 +1,5 @@
 - [« fann_set_error_log](function.fann-set-error-log.md)
-- [fann_set_learning_momentum
-»](function.fann-set-learning-momentum.md)
+- [fann_set_learning_momentum »](function.fann-set-learning-momentum.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

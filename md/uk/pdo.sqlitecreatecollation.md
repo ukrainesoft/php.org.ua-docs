@@ -2,7 +2,7 @@
 - [PDO::sqliteCreateFunction »](pdo.sqlitecreatefunction.md)
 
 - [PHP Manual](index.md)
-- [SQLite (PDO)] (ref.pdo-sqlite.md)
+- [SQLite (PDO)](ref.pdo-sqlite.md)
 - Реєстрація користувача функції сортування для використання в
 SQL-запитах
 

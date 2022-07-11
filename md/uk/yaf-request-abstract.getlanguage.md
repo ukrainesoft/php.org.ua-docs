@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::getException](yaf-request-abstract.getexception.md)
-- [Yaf_Request_Abstract::getMethod
-»](yaf-request-abstract.getmethod.md)
+- [« Yaf_Request_Abstract::getException](yaf-request-abstract.getexception.md)
+- [Yaf_Request_Abstract::getMethod »](yaf-request-abstract.getmethod.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

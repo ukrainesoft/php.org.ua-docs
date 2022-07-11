@@ -1,5 +1,4 @@
-- [«
-EventHttpRequest::removeHeader](eventhttprequest.removeheader.md)
+- [« EventHttpRequest::removeHeader](eventhttprequest.removeheader.md)
 - [EventHttpRequest::sendReply »](eventhttprequest.sendreply.md)
 
 - [PHP Manual](index.md)

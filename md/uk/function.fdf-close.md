@@ -1,5 +1,5 @@
 - [«fdf_add_template](function.fdf-add-template.md)
-- [fdf_create »] (function.fdf-create.md)
+- [fdf_create »](function.fdf-create.md)
 
 - [PHP Manual](index.md)
 - [FDF](ref.fdf.md)

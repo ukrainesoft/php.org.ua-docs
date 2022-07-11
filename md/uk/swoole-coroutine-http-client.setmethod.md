@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\Http\Client::setHeaders](swoole-coroutine-http-client.setheaders.md)
+- [« Swoole\Coroutine\Http\Client::setHeaders](swoole-coroutine-http-client.setheaders.md)
 - [Swoole\Coroutine\MySQL::close »](swoole-coroutine-mysql.close.md)
 
 - [PHP Manual](index.md)

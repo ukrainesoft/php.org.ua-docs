@@ -1,7 +1,5 @@
-- [«
-UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
-- [UI\Controls\MultilineEntry::\_\_construct
-»](ui-controls-multilineentry.construct.md)
+- [« UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)
+- [UI\Controls\MultilineEntry::\_\_construct »](ui-controls-multilineentry.construct.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)

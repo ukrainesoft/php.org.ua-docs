@@ -1,5 +1,5 @@
 - [«realpath_cache_get](function.realpath-cache-get.md)
-- [realpath »] (function.realpath.md)
+- [realpath »](function.realpath.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

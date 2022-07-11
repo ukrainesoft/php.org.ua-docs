@@ -21,7 +21,7 @@
 Вираз `else` виконується тільки, якщо вираз `if` обчислюється як
 **`false`**, і якщо немає інших будь-яких виразів `elseif`, або якщо вони
 всі рівні **`false`** також (дивіться
-[Elseif] (control-structures.elseif.md)).
+[Elseif](control-structures.elseif.md)).
 
 > **Примітка**: **Той, що бовтається else**
 >

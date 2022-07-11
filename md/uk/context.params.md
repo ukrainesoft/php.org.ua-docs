@@ -1,5 +1,5 @@
 - [« Контекстні опції Phar](context.phar.md)
-- [Опції контексту Zip »] (context.zip.md)
+- [Опції контексту Zip »](context.zip.md)
 
 - [PHP Manual](index.md)
 - [Контекстні опції та параметри](context.md)

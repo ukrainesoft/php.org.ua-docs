@@ -1,6 +1,5 @@
 - [« Swoole\WebSocket\Server::pack](swoole-websocket-server.pack.md)
-- [Swoole\WebSocket\Server::unpack
-»](swoole-websocket-server.unpack.md)
+- [Swoole\WebSocket\Server::unpack »](swoole-websocket-server.unpack.md)
 
 - [PHP Manual](index.md)
 - [Swoole\WebSocket\Server](class.swoole-websocket-server.md)

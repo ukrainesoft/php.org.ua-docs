@@ -1,5 +1,5 @@
 - [«is_scalar](function.is-scalar.md)
-- [isset »] (function.isset.md)
+- [isset »](function.isset.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи зі змінними](ref.var.md)

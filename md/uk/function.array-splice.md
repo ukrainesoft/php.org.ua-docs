@@ -18,7 +18,7 @@ array `&$array`,
 int `$offset`,
 ?int `$length` u003d **`null`**,
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
-`$replacement` u003d \[\]
+`$replacement` u003d []
 ): array
 
 Видаляє `length` елементів, розташованих на відстані `offset` з
@@ -31,8 +31,7 @@ int `$offset`,
 > зберігаються.
 
 > **Примітка**: Якщо параметр `replacement` не є масивом, він
-> буде
-> [перетворено](language.types.array.md#language.types.array.casting)
+> буде > [перетворено](language.types.array.md#language.types.array.casting)
 > до нього (тобто `(array) $parameter`). Це може призвести до
 > несподіваним результатам при використанні об'єкта або **`null`**
 > якість `replacement`.

@@ -35,8 +35,7 @@
 
 Детальний опис також доступний у книгах
 [» `Programming Internet Email`](http://www.oreilly.com/catalog/progintemail/noframes.md)
-Девіда Вуда (David Wood) і [» Managing
-IMAP](http://oreilly.com/catalog/9780596000127/) авторів Діани Маллет
+Девіда Вуда (David Wood) і [» Managing IMAP](http://oreilly.com/catalog/9780596000127/) авторів Діани Маллет
 (Dianna Mullet) та Кевіна Маллет (Kevin Mullet).
 
 ## Зміст

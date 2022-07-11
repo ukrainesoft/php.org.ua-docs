@@ -1,5 +1,5 @@
-- [« Перевірка (валідація)] (filter.examples.validation.md)
-- [Функції фільтрації даних»] (ref.filter.md)
+- [« Перевірка (валідація)](filter.examples.validation.md)
+- [Функції фільтрації даних»](ref.filter.md)
 
 - [PHP Manual](index.md)
 - [Приклади](filter.examples.md)

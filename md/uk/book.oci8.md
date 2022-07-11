@@ -1,10 +1,8 @@
-- [« Починаємо розробку плагіна
-mysqlnd](mysqlnd.plugin.developing.md)
+- [« Починаємо розробку плагіна mysqlnd](mysqlnd.plugin.developing.md)
 - [Вступ »](intro.oci8.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - Oracle OCI8
 
 # Oracle OCI8
@@ -17,11 +15,10 @@ mysqlnd](mysqlnd.plugin.developing.md)
 - [Налаштування під час виконання](oci8.configuration.md)
 - [Предвизначені константи](oci8.constants.md)
 - [Приклади](oci8.examples.md)
-- [Робота зі з'єднаннями OCI8 та Connection
-Pooling] (oci8.connection.md)
+- [Робота зі з'єднаннями OCI8 та Connection Pooling](oci8.connection.md)
 - [Підтримка OCI8 Fast Application Notification (FAN)](oci8.fan.md)
 - [Підтримка прозорого для програм відновлення після відмови
-(Transparent Application Failover або TAF) для OCI8] (oci8.taf.md)
+(Transparent Application Failover або TAF) для OCI8](oci8.taf.md)
 - [OCI8 та динамічне трасування DTrace](oci8.dtrace.md)
 - [Підтримувані типи даних](oci8.datatypes.md)
 - [OCI8 Функції](ref.oci8.md)

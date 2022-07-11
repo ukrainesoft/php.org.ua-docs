@@ -36,8 +36,7 @@ public **NumberFormatter::setAttribute**(int `$attribute`, int\|float
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `attribute`
-Специфікатор атрибута - одна з констант [числового
-атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute).
+Специфікатор атрибута - одна з констант [числового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformatattribute).
 
 `value`
 Значення атрибуту.

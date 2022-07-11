@@ -1,7 +1,5 @@
-- [«
-UI\Controls\MultilineEntry::getText](ui-controls-multilineentry.gettext.md)
-- [UI\Controls\MultilineEntry::onChange
-»](ui-controls-multilineentry.onchange.md)
+- [« UI\Controls\MultilineEntry::getText](ui-controls-multilineentry.gettext.md)
+- [UI\Controls\MultilineEntry::onChange »](ui-controls-multilineentry.onchange.md)
 
 - [PHP Manual](index.md)
 - [UI\Controls\MultilineEntry](class.ui-controls-multilineentry.md)

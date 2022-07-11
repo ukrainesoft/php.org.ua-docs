@@ -27,8 +27,7 @@ public **Imagick::remapImage**([Imagick](class.imagick.md)
 Об'єкт Imagick, що містить кольори, що замінюють.
 
 `DITHER`
-Зверніться до списку [констант
-DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod).
+Зверніться до списку [констант DITHERMETHOD](imagick.constants.md#imagick.constants.dithermethod).
 
 ### Значення, що повертаються
 

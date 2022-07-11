@@ -1,7 +1,5 @@
-- [«
-Yaf_Controller_Abstract::initView](yaf-controller-abstract.initview.md)
-- [Yaf_Controller_Abstract::render
-»](yaf-controller-abstract.render.md)
+- [« Yaf_Controller_Abstract::initView](yaf-controller-abstract.initview.md)
+- [Yaf_Controller_Abstract::render »](yaf-controller-abstract.render.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Controller_Abstract](class.yaf-controller-abstract.md)

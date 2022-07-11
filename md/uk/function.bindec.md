@@ -1,5 +1,5 @@
 - [«base_convert](function.base-convert.md)
-- [ceil »] (function.ceil.md)
+- [ceil »](function.ceil.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

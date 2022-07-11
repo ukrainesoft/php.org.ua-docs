@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\RegexInterface::getFlags](mongodb-bson-regexinterface.getflags.md)
-- [MongoDB\BSON\RegexInterface::\_\_toString
-»](mongodb-bson-regexinterface.tostring.md)
+- [« MongoDB\BSON\RegexInterface::getFlags](mongodb-bson-regexinterface.getflags.md)
+- [MongoDB\BSON\RegexInterface::\_\_toString »](mongodb-bson-regexinterface.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)

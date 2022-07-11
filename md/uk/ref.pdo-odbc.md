@@ -46,8 +46,7 @@ ibm_db2
 Заголовкові файли пакета розробника програм DB2 можна
 встановити як за допомогою інсталяційного пакета сервера DB2, так і
 складі окремого клієнта "DB2 Application Development Client",
-доступного для завантаження з [» сайту
-підтримки](https://www.ibm.com/developerworks/downloads/im/db2express/index.md)
+доступного для завантаження з [» сайту підтримки](https://www.ibm.com/developerworks/downloads/im/db2express/index.md)
 IBM developerWorks.
 
 Якщо ви не вкажете директорію установки бібліотек та заголовків
@@ -107,8 +106,7 @@ generic
 **Конфігураційні опції PDO_ODBC**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

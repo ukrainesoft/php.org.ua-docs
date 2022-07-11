@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::isIterateable](reflectionclass.isiterateable.md)
+- [« ReflectionClass::isIterateable](reflectionclass.isiterateable.md)
 - [ReflectionClass::isTrait »](reflectionclass.istrait.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [«Зумовлені константи](exec.constants.md)
-- [escapeshellarg»] (function.escapeshellarg.md)
+- [escapeshellarg»](function.escapeshellarg.md)
 
 - [PHP Manual](index.md)
 - [Запуск програми](book.exec.md)

@@ -1,6 +1,5 @@
 - [«Yaf_Dispatcher](class.yaf-dispatcher.md)
-- [Yaf_Dispatcher::catchException
-»](yaf-dispatcher.catchexception.md)
+- [Yaf_Dispatcher::catchException »](yaf-dispatcher.catchexception.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Dispatcher](class.yaf-dispatcher.md)

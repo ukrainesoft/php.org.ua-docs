@@ -1,5 +1,4 @@
-- [«
-ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md)
+- [« ReflectionFiber::getExecutingLine](reflectionfiber.getexecutingline.md)
 - [ReflectionFiber::getTrace »](reflectionfiber.gettrace.md)
 
 - [PHP Manual](index.md)

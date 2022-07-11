@@ -29,15 +29,13 @@ PHP не вимагає явного визначення типу при ого
 > саме значення *не* змінює тип.
 
 Щоб примусово встановити тип змінної, дивіться розділ
-[Приведення
-типу](language.types.type-juggling.md#language.types.typecasting).
+[Приведення типу](language.types.type-juggling.md#language.types.typecasting).
 Щоб змінити тип змінної, дивіться опис функції
 [settype()](function.settype.md).
 
 ### Числовий контекст
 
-Контекст під час використання [арифметичного
-оператора] (language.operators.arithmetic.md).
+Контекст під час використання [арифметичного оператора](language.operators.arithmetic.md).
 
 У даному контексті, якщо один з операндів є числом з плаваючою
 точкою (float) (або не інтерпретується як ціле число (int)), обидва
@@ -51,8 +49,7 @@ PHP не вимагає явного визначення типу при ого
 ### Рядковий контекст
 
 Контекст під час використання функцій [echo](function.echo.md),
-[print](function.print.md), [інтерполяції
-строк](language.types.string.md#language.types.string.parsing) або
+[print](function.print.md), [інтерполяції строк](language.types.string.md#language.types.string.parsing) або
 строкового [оператора конкатенації](language.operators.string.md).
 
 У даному контексті значення інтерпретуватиметься як рядок
@@ -60,8 +57,7 @@ PHP не вимагає явного визначення типу при ого
 
 ### Логічний контекст
 
-Контекст при використанні умовних операторів, [тернарного
-оператора](language.operators.comparison.md#language.operators.comparison.ternary)
+Контекст при використанні умовних операторів, [тернарного оператора](language.operators.comparison.md#language.operators.comparison.ternary)
 або [логічний оператор](language.operators.logical.md).
 
 У цьому контексті значення інтерпретуватиметься як логічне
@@ -69,8 +65,7 @@ PHP не вимагає явного визначення типу при ого
 
 ### Контекст цілих чисел та рядків
 
-Контекст при використанні [побітових
-операторів](language.operators.bitwise.md).
+Контекст при використанні [побітових операторів](language.operators.bitwise.md).
 
 У даному контексті, якщо у всіх операндів тип рядка (string), результат
 також буде рядком (string). Інакше операнди будуть
@@ -81,12 +76,10 @@ PHP не вимагає явного визначення типу при ого
 
 ### Порівняльний контекст
 
-Контекст під час використання [оператора
-порівняння] (language.operators.comparison.md).
+Контекст під час використання [оператора порівняння](language.operators.comparison.md).
 
 Перетворення типів, що відбуваються в цьому контексті, пояснюються в
-[таблиці порівняння різних
-типів](language.operators.comparison.md#language.operators.comparison.types)
+[таблиці порівняння різних типів](language.operators.comparison.md#language.operators.comparison.types)
 розділу Оператори порівняння.
 
 ### Контекст функцій
@@ -102,8 +95,7 @@ PHP не вимагає явного визначення типу при ого
 - Оголошення типу bool: значення інтерпретується як логічне
 значення (bool). Оголошення типу int: значення інтерпретується як
 ціле число (int), якщо перетворення добре визначене. Наприклад,
-рядок є [числовий
-рядком](language.types.numeric-strings.md). Оголошення типу
+рядок є [числовий рядком](language.types.numeric-strings.md). Оголошення типу
 float: значення інтерпретується як число з плаваючою точкою
 (float) якщо перетворення добре визначене. Наприклад, рядок
 є [числовим рядком](language.types.numeric-strings.md).
@@ -111,8 +103,7 @@ float: значення інтерпретується як число з пла
 (string).
 
 Якщо оголошення типу є об'єднаним, дивіться розділ [Приведення
-для об'єднаних
-типів](language.types.declarations.md#language.types.declarations.union.coercive).
+для об'єднаних типів](language.types.declarations.md#language.types.declarations.union.coercive).
 
 **Увага**
 
@@ -194,8 +185,7 @@ float: значення інтерпретується як число з пла
 (object)](language.types.object.md#language.types.object.casting)
 - [Перетворення типу ресурсу
 (resource)](language.types.resource.md#language.types.resource.casting)
-- [Перетворення типу до
-NULL](language.types.null.md#language.types.null.casting)
+- [Перетворення типу до NULL](language.types.null.md#language.types.null.casting)
 - [Таблиці порівняння типів](types.comparisons.md)
 
 > **Примітка**: Оскільки PHP підтримує індексацію у рядках
@@ -206,5 +196,4 @@ NULL](language.types.null.md#language.types.null.casting)
 > ` <?php$a    u003d 'car'; // $a є рядком$a[0] u003d 'b'; // $a  як і раніше є рядкомecho $a; // Bar?> `
 >
 > Додаткову інформацію див. у розділі [Доступ до символу в
-> рядку та його
-> редагування](language.types.string.md#language.types.string.substr).
+> рядку та його > редагування](language.types.string.md#language.types.string.substr).

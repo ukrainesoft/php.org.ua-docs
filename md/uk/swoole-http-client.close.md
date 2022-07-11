@@ -1,6 +1,5 @@
 - [« Swoole\Http\Client::addFile](swoole-http-client.addfile.md)
-- [Swoole\Http\Client::\_\_construct
-»](swoole-http-client.construct.md)
+- [Swoole\Http\Client::\_\_construct »](swoole-http-client.construct.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Client](class.swoole-http-client.md)

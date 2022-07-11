@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.md)
+- [« IntlCalendar::getMinimalDaysInFirstWeek](intlcalendar.getminimaldaysinfirstweek.md)
 - [IntlCalendar::getNow »](intlcalendar.getnow.md)
 
 - [PHP Manual](index.md)

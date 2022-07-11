@@ -1,8 +1,8 @@
-- [« Oracle (PDO)] (ref.pdo-oci.md)
+- [« Oracle (PDO)](ref.pdo-oci.md)
 - [ODBC та DB2 (PDO) »](ref.pdo-odbc.md)
 
 - [PHP Manual](index.md)
-- [Oracle (PDO)] (ref.pdo-oci.md)
+- [Oracle (PDO)](ref.pdo-oci.md)
 - З'єднання з базою даних Oracle
 
 # PDO_OCI DSN

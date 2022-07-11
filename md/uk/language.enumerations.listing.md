@@ -1,5 +1,4 @@
-- [« Відмінності від
-об'єктів](language.enumerations.object-differences.md)
+- [« Відмінності від об'єктів](language.enumerations.object-differences.md)
 - [Серіалізація »](language.enumerations.serialization.md)
 
 - [PHP Manual](index.md)

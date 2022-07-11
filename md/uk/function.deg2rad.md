@@ -1,5 +1,5 @@
 - [«decoct](function.decoct.md)
-- [exp »] (function.exp.md)
+- [exp »](function.exp.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

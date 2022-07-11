@@ -1,6 +1,5 @@
 - [« sapi_windows_cp_set](function.sapi-windows-cp-set.md)
-- [sapi_windows_set_ctrl_handler
-»](function.sapi-windows-set-ctrl-handler.md)
+- [sapi_windows_set_ctrl_handler »](function.sapi-windows-set-ctrl-handler.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

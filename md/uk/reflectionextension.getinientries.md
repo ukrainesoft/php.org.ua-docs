@@ -1,5 +1,4 @@
-- [«
-ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
+- [« ReflectionExtension::getFunctions](reflectionextension.getfunctions.md)
 - [ReflectionExtension::getName »](reflectionextension.getname.md)
 
 - [PHP Manual](index.md)

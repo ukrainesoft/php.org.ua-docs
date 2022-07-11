@@ -1,6 +1,5 @@
 - [« Функції Scoutapm](ref.scoutapm.md)
-- [scoutapm_list_instrumented_functions
-»](function.scoutapm-list-instrumented-functions.md)
+- [scoutapm_list_instrumented_functions »](function.scoutapm-list-instrumented-functions.md)
 
 - [PHP Manual](index.md)
 - [Функції Scoutapm](ref.scoutapm.md)

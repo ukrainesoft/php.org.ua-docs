@@ -1,7 +1,5 @@
-- [«
-fann_set_cascade_candidate_change_fraction](function.fann-set-cascade-candidate-change-fraction.md)
-- [fann_set_cascade_candidate_stagnation_epochs
-»](function.fann-set-cascade-candidate-stagnation-epochs.md)
+- [« fann_set_cascade_candidate_change_fraction](function.fann-set-cascade-candidate-change-fraction.md)
+- [fann_set_cascade_candidate_stagnation_epochs »](function.fann-set-cascade-candidate-stagnation-epochs.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

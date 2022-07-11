@@ -1,5 +1,4 @@
-- [«
-ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
+- [« ReflectionMethod::isConstructor](reflectionmethod.isconstructor.md)
 - [ReflectionMethod::isFinal »](reflectionmethod.isfinal.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« fann_set_quickprop_decay](function.fann-set-quickprop-decay.md)
-- [fann_set_rprop_decrease_factor
-»](function.fann-set-rprop-decrease-factor.md)
+- [fann_set_rprop_decrease_factor »](function.fann-set-rprop-decrease-factor.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

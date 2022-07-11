@@ -1,6 +1,5 @@
 - [«getSession](function.mysql-xdevapi-getsession.md)
-- [BaseResult::getWarnings
-»](mysql-xdevapi-baseresult.getwarnings.md)
+- [BaseResult::getWarnings »](mysql-xdevapi-baseresult.getwarnings.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

@@ -1,6 +1,5 @@
 - [« Swoole\Http\Response::header](swoole-http-response.header.md)
-- [Swoole\Http\Response::rawcookie
-»](swoole-http-response.rawcookie.md)
+- [Swoole\Http\Response::rawcookie »](swoole-http-response.rawcookie.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Http\Response](class.swoole-http-response.md)

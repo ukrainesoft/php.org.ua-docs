@@ -1,5 +1,4 @@
-- [«
-SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md)
+- [« SolrGenericResponse::\_\_destruct](solrgenericresponse.destruct.md)
 - [SolrParams::add »](solrparams.add.md)
 
 - [PHP Manual](index.md)

@@ -174,8 +174,7 @@ public
 
 ## Дивіться також
 
-- [» Специфікація W3C символьних
-даних](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-FF21A306)
+- [» Специфікація W3C символьних даних](http://www.w3.org/TR/2003/WD-DOM-Level-3-Core-20030226/DOM3-Core.md#core-ID-FF21A306)
 
 ## Зміст
 

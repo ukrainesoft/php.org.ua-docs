@@ -1,7 +1,5 @@
-- [«
-IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md)
-- [IntlTimeZone::createEnumeration
-»](intltimezone.createenumeration.md)
+- [« IntlTimeZone::countEquivalentIDs](intltimezone.countequivalentids.md)
+- [IntlTimeZone::createEnumeration »](intltimezone.createenumeration.md)
 
 - [PHP Manual](index.md)
 - [IntlTimeZone](class.intltimezone.md)

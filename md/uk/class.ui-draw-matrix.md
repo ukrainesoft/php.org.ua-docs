@@ -1,5 +1,4 @@
-- [«
-UI\Draw\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.md)
+- [« UI\Draw\Path::newFigureWithArc](ui-draw-path.newfigurewitharc.md)
 - [UI\Draw\Matrix::invert »](ui-draw-matrix.invert.md)
 
 - [PHP Manual](index.md)

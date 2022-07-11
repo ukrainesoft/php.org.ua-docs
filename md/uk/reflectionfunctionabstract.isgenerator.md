@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
-- [ReflectionFunctionAbstract::isInternal
-»](reflectionfunctionabstract.isinternal.md)
+- [« ReflectionFunctionAbstract::isDeprecated](reflectionfunctionabstract.isdeprecated.md)
+- [ReflectionFunctionAbstract::isInternal »](reflectionfunctionabstract.isinternal.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)

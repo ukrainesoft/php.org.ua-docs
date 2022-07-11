@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md)
-- [Yaf_Request_Abstract::setModuleName
-»](yaf-request-abstract.setmodulename.md)
+- [« Yaf_Request_Abstract::setControllerName](yaf-request-abstract.setcontrollername.md)
+- [Yaf_Request_Abstract::setModuleName »](yaf-request-abstract.setmodulename.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

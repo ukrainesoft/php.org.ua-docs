@@ -1,6 +1,5 @@
 - [« Приклади](xmlwriter.examples.md)
-- [Робота з просторами імен XML
-»](example.xmlwriter-namespace.md)
+- [Робота з просторами імен XML »](example.xmlwriter-namespace.md)
 
 - [PHP Manual](index.md)
 - [Приклади](xmlwriter.examples.md)

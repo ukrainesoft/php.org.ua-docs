@@ -1,5 +1,4 @@
-- [«
-RarException::isUsingExceptions](rarexception.isusingexceptions.md)
+- [« RarException::isUsingExceptions](rarexception.isusingexceptions.md)
 - [Zip »](book.zip.md)
 
 - [PHP Manual](index.md)

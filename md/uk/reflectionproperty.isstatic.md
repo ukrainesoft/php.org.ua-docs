@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md)
-- [ReflectionProperty::setAccessible
-»](reflectionproperty.setaccessible.md)
+- [« ReflectionProperty::isReadOnly](reflectionproperty.isreadonly.md)
+- [ReflectionProperty::setAccessible »](reflectionproperty.setaccessible.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

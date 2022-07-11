@@ -1,6 +1,5 @@
 - [«CommonMark\Node::accept](commonmark-node.accept.md)
-- [CommonMark\Interfaces\IVisitor::enter
-»](commonmark-interfaces-ivisitor.enter.md)
+- [CommonMark\Interfaces\IVisitor::enter »](commonmark-interfaces-ivisitor.enter.md)
 
 - [PHP Manual](index.md)
 - [CommonMark](book.cmark.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Undefined::serialize](mongodb-bson-undefined.serialize.md)
-- [MongoDB\BSON\Undefined::unserialize
-»](mongodb-bson-undefined.unserialize.md)
+- [« MongoDB\BSON\Undefined::serialize](mongodb-bson-undefined.serialize.md)
+- [MongoDB\BSON\Undefined::unserialize »](mongodb-bson-undefined.unserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Undefined](class.mongodb-bson-undefined.md)
@@ -27,5 +25,4 @@ final public **MongoDB\BSON\Undefined::\_\_toString**(): string
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

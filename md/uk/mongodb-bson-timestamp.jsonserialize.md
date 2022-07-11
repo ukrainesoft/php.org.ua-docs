@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Timestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.md)
-- [MongoDB\BSON\Timestamp::serialize
-»](mongodb-bson-timestamp.serialize.md)
+- [« MongoDB\BSON\Timestamp::getTimestamp](mongodb-bson-timestamp.gettimestamp.md)
+- [MongoDB\BSON\Timestamp::serialize »](mongodb-bson-timestamp.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Timestamp](class.mongodb-bson-timestamp.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

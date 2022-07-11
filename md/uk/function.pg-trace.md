@@ -25,8 +25,7 @@ pg_trace — Включає трасування підключення PostgreS
 виявитися корисною для пошуку помилок при надсиланні запитів на сервер.
 Наприклад, можна виконати команду **grep '^To backend' trace.log** та
 переглянути, які запити реально надіслані на сервер. Додаткову
-інформацію можна отримати з [» документації
-PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
+інформацію можна отримати з [» документації PostgreSQL](http://www.postgresql.org/docs/current/interactive/).
 
 ### Список параметрів
 

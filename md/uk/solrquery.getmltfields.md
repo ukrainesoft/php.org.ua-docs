@@ -1,6 +1,5 @@
 - [«SolrQuery::getMltCount](solrquery.getmltcount.md)
-- [SolrQuery::getMltMaxNumQueryTerms
-»](solrquery.getmltmaxnumqueryterms.md)
+- [SolrQuery::getMltMaxNumQueryTerms »](solrquery.getmltmaxnumqueryterms.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

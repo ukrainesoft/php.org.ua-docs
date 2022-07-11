@@ -1,5 +1,4 @@
-- [«
-DirectoryIterator::getExtension](directoryiterator.getextension.md)
+- [« DirectoryIterator::getExtension](directoryiterator.getextension.md)
 - [DirectoryIterator::getGroup »](directoryiterator.getgroup.md)
 
 - [PHP Manual](index.md)

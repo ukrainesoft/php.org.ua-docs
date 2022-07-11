@@ -1,5 +1,4 @@
-- [«
-Swoole\Coroutine\MySQL::getDefer](swoole-coroutine-mysql.getdefer.md)
+- [« Swoole\Coroutine\MySQL::getDefer](swoole-coroutine-mysql.getdefer.md)
 - [Swoole\Coroutine\MySQL::recv »](swoole-coroutine-mysql.recv.md)
 
 - [PHP Manual](index.md)

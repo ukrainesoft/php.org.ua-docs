@@ -12,8 +12,7 @@
 сервері баз даних MySQL ви можете отримати за адресою
 [»http://www.mysql.com/](http://www.mysql.com/).
 
-Інформація про використання MySQL з PHP знаходиться за адресою [Короткий
-огляд](mysqli.overview.md)
+Інформація про використання MySQL з PHP знаходиться за адресою [Короткий огляд](mysqli.overview.md)
 
 Документація MySQL знаходиться за адресою
 [»http://dev.mysql.com/doc/](http://dev.mysql.com/doc/).

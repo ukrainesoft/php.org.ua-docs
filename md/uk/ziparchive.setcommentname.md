@@ -1,6 +1,5 @@
 - [« ZipArchive::setCommentIndex](ziparchive.setcommentindex.md)
-- [ZipArchive::setCompressionIndex
-»](ziparchive.setcompressionindex.md)
+- [ZipArchive::setCompressionIndex »](ziparchive.setcompressionindex.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

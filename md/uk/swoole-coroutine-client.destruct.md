@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::\_\_construct](swoole-coroutine-client.construct.md)
-- [Swoole\Coroutine\Client::getpeername
-»](swoole-coroutine-client.getpeername.md)
+- [« Swoole\Coroutine\Client::\_\_construct](swoole-coroutine-client.construct.md)
+- [Swoole\Coroutine\Client::getpeername »](swoole-coroutine-client.getpeername.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

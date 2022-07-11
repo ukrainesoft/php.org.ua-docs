@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine\Client::send](swoole-coroutine-client.send.md)
-- [Swoole\Coroutine\Client::sendto
-»](swoole-coroutine-client.sendto.md)
+- [Swoole\Coroutine\Client::sendto »](swoole-coroutine-client.sendto.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

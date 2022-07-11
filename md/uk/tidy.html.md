@@ -2,7 +2,7 @@
 - [tidy::isXhtml »](tidy.isxhtml.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає об'єкт tidyNode, починаючи з тега \<html\> розібраного
 tidy-дерева
 

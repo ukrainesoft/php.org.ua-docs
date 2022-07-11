@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.md)
-- [MongoDB\BSON\Javascript::\_\_toString
-»](mongodb-bson-javascript.tostring.md)
+- [« MongoDB\BSON\Javascript::jsonSerialize](mongodb-bson-javascript.jsonserialize.md)
+- [MongoDB\BSON\Javascript::\_\_toString »](mongodb-bson-javascript.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Javascript](class.mongodb-bson-javascript.md)

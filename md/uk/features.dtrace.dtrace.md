@@ -1,6 +1,5 @@
 - [« Введення в PHP та DTrace](features.dtrace.introduction.md)
-- [Використання SystemTap із статичними зондами PHP DTrace
-»](features.dtrace.systemtap.md)
+- [Використання SystemTap із статичними зондами PHP DTrace »](features.dtrace.systemtap.md)
 
 - [PHP Manual](index.md)
 - [Динамічна трасування DTrace](features.dtrace.md)
@@ -249,5 +248,4 @@ printf("%lld: PHP function-entry", walltimestamp);
 }
 
 ### Також дивіться
-
-- [OCI8 та динамічне трасування DTrace](oci8.dtrace.md)
+ - [OCI8 та динамічне трасування DTrace](oci8.dtrace.md)

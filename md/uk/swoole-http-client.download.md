@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Client::\_\_destruct](swoole-http-client.destruct.md)
+- [« Swoole\Http\Client::\_\_destruct](swoole-http-client.destruct.md)
 - [Swoole\Http\Client::execute »](swoole-http-client.execute.md)
 
 - [PHP Manual](index.md)

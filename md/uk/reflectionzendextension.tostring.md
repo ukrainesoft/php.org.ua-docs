@@ -1,5 +1,4 @@
-- [«
-ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md)
+- [« ReflectionZendExtension::getVersion](reflectionzendextension.getversion.md)
 - [ReflectionExtension »](class.reflectionextension.md)
 
 - [PHP Manual](index.md)

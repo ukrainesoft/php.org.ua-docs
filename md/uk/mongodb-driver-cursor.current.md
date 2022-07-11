@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Cursor::\_\_construct](mongodb-driver-cursor.construct.md)
+- [« MongoDB\Driver\Cursor::\_\_construct](mongodb-driver-cursor.construct.md)
 - [MongoDB\Driver\Cursor::getId »](mongodb-driver-cursor.getid.md)
 
 - [PHP Manual](index.md)

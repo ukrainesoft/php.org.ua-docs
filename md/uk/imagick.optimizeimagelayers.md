@@ -1,6 +1,5 @@
 - [« Imagick::opaquePaintImage](imagick.opaquepaintimage.md)
-- [Imagick::orderedPosterizeImage
-»](imagick.orderedposterizeimage.md)
+- [Imagick::orderedPosterizeImage »](imagick.orderedposterizeimage.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

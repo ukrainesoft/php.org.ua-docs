@@ -1,6 +1,5 @@
 - [«cubrid_disconnect](function.cubrid-disconnect.md)
-- [cubrid_error_code_facility
-»](function.cubrid-error-code-facility.md)
+- [cubrid_error_code_facility »](function.cubrid-error-code-facility.md)
 
 - [PHP Manual](index.md)
 - [Функції CUBRID](ref.cubrid.md)

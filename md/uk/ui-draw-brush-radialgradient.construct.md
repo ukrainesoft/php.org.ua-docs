@@ -1,5 +1,4 @@
-- [«
-UI\Draw\Brush\RadialGradient](class.ui-draw-brush-radialgradient.md)
+- [« UI\Draw\Brush\RadialGradient](class.ui-draw-brush-radialgradient.md)
 - [UI\Draw\Text\Layout »](class.ui-draw-text-layout.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\ServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.md)
-- [MongoDB\Driver\TopologyDescription
-»](class.mongodb-driver-topologydescription.md)
+- [« MongoDB\Driver\ServerDescription::getRoundTripTime](mongodb-driver-serverdescription.getroundtriptime.md)
+- [MongoDB\Driver\TopologyDescription »](class.mongodb-driver-topologydescription.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\ServerDescription](class.mongodb-driver-serverdescription.md)

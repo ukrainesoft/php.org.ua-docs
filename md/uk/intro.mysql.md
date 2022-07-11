@@ -9,8 +9,7 @@
 
 Цей модуль застарів з версії PHP 5.5.0 та видалений у версії 7.0.0. Замість
 його використовуйте [mysqli](book.mysqli.md) або
-[PDO_MySQL](ref.pdo-mysql.md). Ознайомтеся також із [оглядом MySQL
-API](mysqlinfo.api.choosing.md) для більш детальної інформації
+[PDO_MySQL](ref.pdo-mysql.md). Ознайомтеся також із [оглядом MySQL API](mysqlinfo.api.choosing.md) для більш детальної інформації
 вибір MySQL API.
 
 Ці функції дозволяють працювати з MySQL. За інформацією про MySQL

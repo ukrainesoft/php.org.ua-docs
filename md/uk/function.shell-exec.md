@@ -1,5 +1,5 @@
 - [«proc_terminate](function.proc-terminate.md)
-- [system »] (function.system.md)
+- [system »](function.system.md)
 
 - [PHP Manual](index.md)
 - [Функції запуску програм](ref.exec.md)
@@ -16,8 +16,7 @@ shell_exec — Виконати команду через оболонку та 
 
 **shell_exec**(string `$command`): string\|false\|null
 
-Функція ідентична оператору з [назад
-апострофом] (language.operators.execution.md).
+Функція ідентична оператору з [назад апострофом](language.operators.execution.md).
 
 > **Примітка**:
 >

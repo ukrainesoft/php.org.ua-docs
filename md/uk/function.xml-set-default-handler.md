@@ -1,5 +1,4 @@
-- [«
-xml_set_character_data_handler](function.xml-set-character-data-handler.md)
+- [« xml_set_character_data_handler](function.xml-set-character-data-handler.md)
 - [xml_set_element_handler »](function.xml-set-element-handler.md)
 
 - [PHP Manual](index.md)

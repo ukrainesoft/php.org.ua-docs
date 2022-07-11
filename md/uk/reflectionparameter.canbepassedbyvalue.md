@@ -1,5 +1,4 @@
-- [«
-ReflectionParameter::allowsNull](reflectionparameter.allowsnull.md)
+- [« ReflectionParameter::allowsNull](reflectionparameter.allowsnull.md)
 - [ReflectionParameter::\_\_clone »](reflectionparameter.clone.md)
 
 - [PHP Manual](index.md)

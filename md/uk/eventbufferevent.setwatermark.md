@@ -24,8 +24,7 @@ public **EventBufferEvent::setWatermark**( int `$events` , int
 байтів, які мають бути прочитані або записані перед викликом
 callback-функції. За замовчуванням кожна подія читання/запису запускає
 виклик callback-функції. Зверніться до [» Fast portable non-blocking
-network programming with Libevent: Callbacks and
-watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_callbacks_and_watermarks).
+network programming with Libevent: Callbacks and watermarks](http://www.wangafu.net/~nickm/libevent-book/Ref6_bufferevent.md#_callbacks_and_watermarks).
 
 ### Список параметрів
 

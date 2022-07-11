@@ -1,5 +1,5 @@
 - [« yaml_parse_file](function.yaml-parse-file.md)
-- [yaml_parse »] (function.yaml-parse.md)
+- [yaml_parse »](function.yaml-parse.md)
 
 - [PHP Manual](index.md)
 - [Функції Yaml](ref.yaml.md)

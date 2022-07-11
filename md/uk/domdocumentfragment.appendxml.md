@@ -1,6 +1,5 @@
 - [« DOMDocumentFragment](class.domdocumentfragment.md)
-- [DOMDocumentFragment::\_\_construct
-»](domdocumentfragment.construct.md)
+- [DOMDocumentFragment::\_\_construct »](domdocumentfragment.construct.md)
 
 - [PHP Manual](index.md)
 - [DOMDocumentFragment](class.domdocumentfragment.md)

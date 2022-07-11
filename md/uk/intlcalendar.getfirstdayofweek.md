@@ -1,6 +1,5 @@
 - [« IntlCalendar::getErrorMessage](intlcalendar.geterrormessage.md)
-- [IntlCalendar::getGreatestMinimum
-»](intlcalendar.getgreatestminimum.md)
+- [IntlCalendar::getGreatestMinimum »](intlcalendar.getgreatestminimum.md)
 
 - [PHP Manual](index.md)
 - [IntlCalendar](class.intlcalendar.md)

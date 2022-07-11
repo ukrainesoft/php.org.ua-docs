@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md)
+- [« ReflectionClass::setStaticPropertyValue](reflectionclass.setstaticpropertyvalue.md)
 - [ReflectionClassConstant »](class.reflectionclassconstant.md)
 
 - [PHP Manual](index.md)

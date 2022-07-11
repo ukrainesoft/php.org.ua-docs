@@ -35,8 +35,7 @@ int `$priority` u003d ?
 файл або сокет.
 
 `events`
-**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [бітові
-маски](class.ev.md#ev.constants.watcher-revents).
+**`Ev::READ`** та/або **`Ev::WRITE`**. Дивіться [бітові маски](class.ev.md#ev.constants.watcher-revents).
 
 `callback`
 Дивіться [Callback-функції спостерігачів](ev.watcher-callbacks.md) .

@@ -1,6 +1,5 @@
 - [« Установка macOS](install.macosx.md)
-- [Використання вбудованого PHP до macOS Monterey
-»](install.macosx.bundled.md)
+- [Використання вбудованого PHP до macOS Monterey »](install.macosx.bundled.md)
 
 - [PHP Manual](index.md)
 - [Установка macOS](install.macosx.md)

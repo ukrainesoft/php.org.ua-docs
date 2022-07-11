@@ -1,7 +1,5 @@
-- [«
-IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.md)
-- [IntlRuleBasedBreakIterator::getRules
-»](intlrulebasedbreakiterator.getrules.md)
+- [« IntlRuleBasedBreakIterator::\_\_construct](intlrulebasedbreakiterator.construct.md)
+- [IntlRuleBasedBreakIterator::getRules »](intlrulebasedbreakiterator.getrules.md)
 
 - [PHP Manual](index.md)
 - [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)

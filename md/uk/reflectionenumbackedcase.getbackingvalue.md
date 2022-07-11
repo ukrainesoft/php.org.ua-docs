@@ -1,5 +1,4 @@
-- [«
-ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md)
+- [« ReflectionEnumBackedCase::\_\_construct](reflectionenumbackedcase.construct.md)
 - [ReflectionZendExtension »](class.reflectionzendextension.md)
 
 - [PHP Manual](index.md)

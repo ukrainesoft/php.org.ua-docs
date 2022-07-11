@@ -1,6 +1,5 @@
 - [«stream_context_create](function.stream-context-create.md)
-- [stream_context_get_options
-»](function.stream-context-get-options.md)
+- [stream_context_get_options »](function.stream-context-get-options.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)
@@ -54,5 +53,4 @@ stream_context_get_default — Отримує контекст потоку за
 Створює контекст потоку
 - [stream_context_set_default()](function.stream-context-set-default.md) -
 Встановити контекст потоку за промовчанням
-- Список оберток, що підтримуються, з опціями контексту ([Підтримувані
-протоколи та обгортки] (wrappers.md)).
+- Список оберток, що підтримуються, з опціями контексту ([Підтримувані протоколи та обгортки](wrappers.md)).

@@ -1,5 +1,5 @@
 - [« xmlrpc_set_type](function.xmlrpc-set-type.md)
-- [COM »] (book.com.md)
+- [COM »](book.com.md)
 
 - [PHP Manual](index.md)
 - [Довідник функцій](funcref.md)
@@ -7,7 +7,7 @@
 
 # Модулі лише для Windows
 
-- [COM] (book.com.md) - COM і .Net (Windows)
+- [COM](book.com.md) - COM і .Net (Windows)
 - [Вступ](intro.com.md)
 - [Встановлення та налаштування](com.setup.md)
 - [Предвизначені константи](com.constants.md)

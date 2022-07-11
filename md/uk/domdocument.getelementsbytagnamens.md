@@ -1,5 +1,4 @@
-- [«
-DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md)
+- [« DOMDocument::getElementsByTagName](domdocument.getelementsbytagname.md)
 - [DOMDocument::importNode »](domdocument.importnode.md)
 
 - [PHP Manual](index.md)

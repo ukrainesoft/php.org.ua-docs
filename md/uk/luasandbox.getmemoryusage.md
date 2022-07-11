@@ -1,6 +1,5 @@
 - [« LuaSandbox::getCPUUsage](luasandbox.getcpuusage.md)
-- [LuaSandbox::getPeakMemoryUsage
-»](luasandbox.getpeakmemoryusage.md)
+- [LuaSandbox::getPeakMemoryUsage »](luasandbox.getpeakmemoryusage.md)
 
 - [PHP Manual](index.md)
 - [LuaSandbox](class.luasandbox.md)

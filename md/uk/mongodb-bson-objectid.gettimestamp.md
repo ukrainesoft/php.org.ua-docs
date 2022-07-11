@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
-- [MongoDB\BSON\ObjectId::jsonSerialize
-»](mongodb-bson-objectid.jsonserialize.md)
+- [« MongoDB\BSON\ObjectId::\_\_construct](mongodb-bson-objectid.construct.md)
+- [MongoDB\BSON\ObjectId::jsonSerialize »](mongodb-bson-objectid.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
@@ -56,7 +54,5 @@ integer(42)
 
 ### Дивіться також
 
-- [» Довідка по
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
-- [» Типи BSON:
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

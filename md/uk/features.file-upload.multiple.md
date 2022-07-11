@@ -1,6 +1,5 @@
--   [" Найбільш поширені
-помилки](features.file-upload.common-pitfalls.md)
-- [Підтримка методу PUT »] (features.file-upload.put-method.md)
+-   [" Найбільш поширені помилки](features.file-upload.common-pitfalls.md)
+- [Підтримка методу PUT »](features.file-upload.put-method.md)
 
 - [PHP Manual](index.md)
 - [Завантаження файлів на сервер](features.file-upload.md)
@@ -44,8 +43,7 @@ select та checkbox:
 
 **Увага**
 
-Конфігураційна директива
-[max_file_uploads](ini.core.md#ini.max-file-uploads) регулює ліміт
+Конфігураційна директива [max_file_uploads](ini.core.md#ini.max-file-uploads) регулює ліміт
 одночасно завантажуваних файлів протягом одного запиту. Вам необхідно
 буде переконатися, що ваша форма не намагається завантажити файли більше
 цього ліміту за один запит.

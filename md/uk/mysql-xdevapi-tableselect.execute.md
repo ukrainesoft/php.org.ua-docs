@@ -1,5 +1,4 @@
-- [«
-TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.md)
+- [« TableSelect::\_\_construct](mysql-xdevapi-tableselect.construct.md)
 - [TableSelect::groupBy »](mysql-xdevapi-tableselect.groupby.md)
 
 - [PHP Manual](index.md)

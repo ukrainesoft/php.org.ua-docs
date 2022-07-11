@@ -1,4 +1,4 @@
-- [« Expect] (book.expect.md)
+- [« Expect](book.expect.md)
 - [Встановлення та налаштування »](expect.setup.md)
 
 - [PHP Manual](index.md)

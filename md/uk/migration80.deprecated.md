@@ -1,5 +1,4 @@
-- [« Зміни, що ламають зворотну
-сумісність](migration80.incompatible.md)
+- [« Зміни, що ламають зворотну сумісність](migration80.incompatible.md)
 - [Інші зміни »](migration80.other-changes.md)
 
 - [PHP Manual](index.md)

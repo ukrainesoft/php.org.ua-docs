@@ -1,7 +1,5 @@
-- [«
-CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.md)
-- [DirectoryIterator::\_\_construct
-»](directoryiterator.construct.md)
+- [« CallbackFilterIterator::\_\_construct](callbackfilteriterator.construct.md)
+- [DirectoryIterator::\_\_construct »](directoryiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [Ітератори](spl.iterators.md)

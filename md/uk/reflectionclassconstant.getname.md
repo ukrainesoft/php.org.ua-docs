@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md)
-- [ReflectionClassConstant::getValue
-»](reflectionclassconstant.getvalue.md)
+- [« ReflectionClassConstant::getModifiers](reflectionclassconstant.getmodifiers.md)
+- [ReflectionClassConstant::getValue »](reflectionclassconstant.getvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

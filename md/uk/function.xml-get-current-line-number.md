@@ -1,5 +1,4 @@
-- [«
-xml_get_current_column_number](function.xml-get-current-column-number.md)
+- [« xml_get_current_column_number](function.xml-get-current-column-number.md)
 - [xml_get_error_code »](function.xml-get-error-code.md)
 
 - [PHP Manual](index.md)

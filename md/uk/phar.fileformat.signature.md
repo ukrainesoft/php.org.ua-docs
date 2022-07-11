@@ -1,6 +1,5 @@
-- [« Опис запису файлу в маніфесті
-Phar](phar.fileformat.manifestfile.md)
-- [Phar »] (class.phar.md)
+- [« Опис запису файлу в маніфесті Phar](phar.fileformat.manifestfile.md)
+- [Phar »](class.phar.md)
 
 - [PHP Manual](index.md)
 - [Чим відрізняється phar від tar-або zip-архіву?](phar.fileformat.md)

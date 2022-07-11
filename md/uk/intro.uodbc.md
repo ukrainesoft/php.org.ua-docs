@@ -14,9 +14,7 @@ API. Замість підтримувати кілька драйверів б�
 які були практично ідентичні, ці драйвери були об'єднані в
 єдиний набір функцій ODBC.
 
-Наступні бази даних підтримуються функціями Unified ODBC: [» Adabas
-D](http://www.adabas.com/), [»IBM
-DB2](http://www-306.ibm.com/software/data/db2/),
+Наступні бази даних підтримуються функціями Unified ODBC: [» Adabas D](http://www.adabas.com/), [»IBM DB2](http://www-306.ibm.com/software/data/db2/),
 [» iODBC](http://www.iodbc.org/), [»Solid](http://www.solidtech.com/),
 та [» Sybase SQL Anywhere](http://www.sybase.com/).
 

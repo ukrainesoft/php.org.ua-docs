@@ -1,7 +1,5 @@
-- [«
-Yaf_Application::getAppDirectory](yaf-application.getappdirectory.md)
-- [Yaf_Application::getDispatcher
-»](yaf-application.getdispatcher.md)
+- [« Yaf_Application::getAppDirectory](yaf-application.getappdirectory.md)
+- [Yaf_Application::getDispatcher »](yaf-application.getdispatcher.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Application](class.yaf-application.md)

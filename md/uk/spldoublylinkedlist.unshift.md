@@ -1,5 +1,4 @@
-- [«
-SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)
+- [« SplDoublyLinkedList::unserialize](spldoublylinkedlist.unserialize.md)
 - [SplDoublyLinkedList::valid »](spldoublylinkedlist.valid.md)
 
 - [PHP Manual](index.md)

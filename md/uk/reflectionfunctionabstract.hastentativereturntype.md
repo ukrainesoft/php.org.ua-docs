@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
-- [ReflectionFunctionAbstract::inNamespace
-»](reflectionfunctionabstract.innamespace.md)
+- [« ReflectionFunctionAbstract::hasReturnType](reflectionfunctionabstract.hasreturntype.md)
+- [ReflectionFunctionAbstract::inNamespace »](reflectionfunctionabstract.innamespace.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
@@ -49,5 +47,4 @@ bool(true)
 функцією
 - [ReflectionFunctionAbstract::hasReturnType()](reflectionfunctionabstract.hasreturntype.md) -
 Перевіряє, чи має функція оголошений тип значення, що повертається
-- [Сумісність типів значень, що повертаються, з внутрішніми
-класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)
+- [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

@@ -1,7 +1,5 @@
-- [«
-win32_query_service_status](function.win32-query-service-status.md)
-- [win32_set_service_exit_code
-»](function.win32-set-service-exit-code.md)
+- [« win32_query_service_status](function.win32-query-service-status.md)
+- [win32_set_service_exit_code »](function.win32-set-service-exit-code.md)
 
 - [PHP Manual](index.md)
 - [win32service](ref.win32service.md)
@@ -19,8 +17,7 @@ win32_send_custom_control — Відправляє налаштований ел
 **win32_send_custom_control**(string `$servicename`, int `$control`,
 string `$machine` u003d ?): void
 
-Дивіться [функцію Microsoft
-ControlService](https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-controlservice)
+Дивіться [функцію Microsoft ControlService](https://docs.microsoft.com/en-us/windows/desktop/api/winsvc/nf-winsvc-controlservice)
 для отримання додаткових відомостей.
 
 ### Список параметрів

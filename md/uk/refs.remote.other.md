@@ -21,22 +21,20 @@ CurlShareHandle
 - [CURLFile](class.curlfile.md) - Клас CURLFile
 - [CURLStringFile](class.curlstringfile.md) - Клас
 CURLStringFile
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - [Вступ](intro.event.md)
 - [Встановлення та налаштування](event.setup.md)
 - [Приклади](event.examples.md)
 - [Прапори подій](event.flags.md)
 - [Про постійні(persistent) події](event.persistence.md)
 - [Callback-функції](event.callbacks.md)
-- [Створення подій для
-сигналів](event.constructing.signal.events.md)
+- [Створення подій для сигналів](event.constructing.signal.events.md)
 - [Event](class.event.md) - Клас Event
 - [EventBase](class.eventbase.md) - Клас EventBase
 - [EventBuffer](class.eventbuffer.md) - Клас EventBuffer
 - [EventBufferEvent](class.eventbufferevent.md) - Клас
 EventBufferEvent
-- [Про callback-функції подійного
-буфера](eventbufferevent.about.callbacks.md)
+- [Про callback-функції подійного буфера](eventbufferevent.about.callbacks.md)
 - [EventConfig](class.eventconfig.md) - Клас EventConfig
 - [EventDnsBase](class.eventdnsbase.md) - Клас EventDnsBase
 - [EventHttp](class.eventhttp.md) - Клас EventHttp
@@ -159,7 +157,7 @@ StompException
 - [Приклади](svm.examples.md)
 - [SVM](class.svm.md) - Клас SVM
 - [SVMModel](class.svmmodel.md) - Клас SVMModel
-- [SVN] (book.svn.md) - Subversion
+- [SVN](book.svn.md) - Subversion
 - [Вступ](intro.svn.md)
 - [Встановлення та налаштування](svn.setup.md)
 - [Предвизначені константи](svn.constants.md)

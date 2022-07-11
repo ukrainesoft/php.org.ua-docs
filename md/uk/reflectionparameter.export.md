@@ -1,7 +1,5 @@
-- [«
-ReflectionParameter::\_\_construct](reflectionparameter.construct.md)
-- [ReflectionParameter::getAttributes
-»](reflectionparameter.getattributes.md)
+- [« ReflectionParameter::\_\_construct](reflectionparameter.construct.md)
+- [ReflectionParameter::getAttributes »](reflectionparameter.getattributes.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

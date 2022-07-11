@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
-- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed
-»](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md)
+- [« MongoDB\Driver\Monitoring\SDAMSubscriber::serverChanged](mongodb-driver-monitoring-sdamsubscriber.serverchanged.md)
+- [MongoDB\Driver\Monitoring\SDAMSubscriber::serverHeartbeatFailed »](mongodb-driver-monitoring-sdamsubscriber.serverheartbeatfailed.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\SDAMSubscriber](class.mongodb-driver-monitoring-sdamsubscriber.md)

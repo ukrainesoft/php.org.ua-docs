@@ -2,7 +2,7 @@
 - [tidy::getOpt »](tidy.getopt.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Отримує виявлену HTML версію для зазначеного документа
 
 # tidy::getHtmlVer

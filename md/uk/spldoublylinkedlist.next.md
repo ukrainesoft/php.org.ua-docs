@@ -1,6 +1,5 @@
 - [« SplDoublyLinkedList::key](spldoublylinkedlist.key.md)
-- [SplDoublyLinkedList::offsetExists
-»](spldoublylinkedlist.offsetexists.md)
+- [SplDoublyLinkedList::offsetExists »](spldoublylinkedlist.offsetexists.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

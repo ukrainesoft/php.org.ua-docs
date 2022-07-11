@@ -1,5 +1,5 @@
 - [«getmypid](function.getmypid.md)
-- [getopt »] (function.getopt.md)
+- [getopt »](function.getopt.md)
 
 - [PHP Manual](index.md)
 - [Опції PHP/інформаційні функції](ref.info.md)

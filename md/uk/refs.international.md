@@ -77,17 +77,13 @@ IntlPartsIterator
 - [Вступ](intro.mbstring.md)
 - [Встановлення та налаштування](mbstring.setup.md)
 - [Предвизначені константи](mbstring.constants.md)
-- [Короткий огляд підтримуваних
-кодувань](mbstring.encodings.md)
+- [Короткий огляд підтримуваних кодувань](mbstring.encodings.md)
 - [Основи японських багатобайтних кодувань](mbstring.ja-basic.md)
 - [Введення та виведення HTTP](mbstring.http.md)
-- [Підтримувані кодування
-символів](mbstring.supported-encodings.md)
+- [Підтримувані кодування символів](mbstring.supported-encodings.md)
 - [Механізм навантаження функцій](mbstring.overload.md)
-- [Вимоги, що пред'являються до кодувань символів
-PHP](mbstring.php4.req.md)
-- [Функції для роботи з багатобайтовими
-рядками](ref.mbstring.md)
+- [Вимоги, що пред'являються до кодувань символів PHP](mbstring.php4.req.md)
+- [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)
 - [Pspell](book.pspell.md)
 - [Вступ](intro.pspell.md)
 - [Встановлення та налаштування](pspell.setup.md)

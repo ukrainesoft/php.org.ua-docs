@@ -1,6 +1,5 @@
 - [« SplDoublyLinkedList::count](spldoublylinkedlist.count.md)
-- [SplDoublyLinkedList::getIteratorMode
-»](spldoublylinkedlist.getiteratormode.md)
+- [SplDoublyLinkedList::getIteratorMode »](spldoublylinkedlist.getiteratormode.md)
 
 - [PHP Manual](index.md)
 - [SplDoublyLinkedList](class.spldoublylinkedlist.md)

@@ -1,6 +1,5 @@
 - [« Установка](mongodb.installation.md)
-- [Установка драйвера PHP MongoDB на macOS за допомогою Homebrew
-»](mongodb.installation.homebrew.md)
+- [Установка драйвера PHP MongoDB на macOS за допомогою Homebrew »](mongodb.installation.homebrew.md)
 
 - [PHP Manual](index.md)
 - [Установка](mongodb.installation.md)
@@ -36,8 +35,7 @@ macOS: установка за замовчуванням, Homebrew та
 > переконайтеся, що встановлені пакети розробок (такі як
 > `libssl-dev`) та пакет
 > [»pkg-config](https://en.wikipedia.org/wiki/Pkg-config). якщо це не
-> допоможе, то зробіть [ручну
-> інсталяцію](mongodb.installation.manual.md).
+> допоможе, то зробіть [ручну > інсталяцію](mongodb.installation.manual.md).
 
 І, нарешті, додайте наступний рядок в `php.ini`:
 

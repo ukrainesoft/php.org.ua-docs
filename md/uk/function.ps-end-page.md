@@ -1,5 +1,5 @@
 - [«ps_delete](function.ps-delete.md)
-- [ps_end_pattern »] (function.ps-end-pattern.md)
+- [ps_end_pattern »](function.ps-end-pattern.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

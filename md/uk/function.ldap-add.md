@@ -39,8 +39,7 @@ array `$entry`,
 
 ` <?php$entry["attribute1"] u003d "value";$entry["attribute2"][0] u003d "value1";$entry["attribute2"][1] u003d "value2";?> `
 
-`controls`
-Масив [керуючих констант LDAP](ldap.controls.md) для надсилання в
+`controls` Масив [керуючих констант LDAP](ldap.controls.md) для надсилання в
 запит.
 
 ### Значення, що повертаються

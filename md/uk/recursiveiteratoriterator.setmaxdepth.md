@@ -1,7 +1,5 @@
-- [«
-RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md)
-- [RecursiveIteratorIterator::valid
-»](recursiveiteratoriterator.valid.md)
+- [« RecursiveIteratorIterator::rewind](recursiveiteratoriterator.rewind.md)
+- [RecursiveIteratorIterator::valid »](recursiveiteratoriterator.valid.md)
 
 - [PHP Manual](index.md)
 - [RecursiveIteratorIterator](class.recursiveiteratoriterator.md)

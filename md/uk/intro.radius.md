@@ -1,4 +1,4 @@
-- [« Radius] (book.radius.md)
+- [« Radius](book.radius.md)
 - [Встановлення та налаштування »](radius.setup.md)
 
 - [PHP Manual](index.md)

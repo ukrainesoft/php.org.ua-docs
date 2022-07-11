@@ -1,5 +1,4 @@
-- [«
-UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md)
+- [« UConverter::getDestinationEncoding](uconverter.getdestinationencoding.md)
 - [UConverter::getErrorCode »](uconverter.geterrorcode.md)
 
 - [PHP Manual](index.md)

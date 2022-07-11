@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Http\Client::isConnected](swoole-coroutine-http-client.isconnected.md)
-- [Swoole\Coroutine\Http\Client::recv
-»](swoole-coroutine-http-client.recv.md)
+- [« Swoole\Coroutine\Http\Client::isConnected](swoole-coroutine-http-client.isconnected.md)
+- [Swoole\Coroutine\Http\Client::recv »](swoole-coroutine-http-client.recv.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

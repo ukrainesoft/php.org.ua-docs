@@ -1,5 +1,4 @@
-- [«
-DOMCharacterData::substringData](domcharacterdata.substringdata.md)
+- [« DOMCharacterData::substringData](domcharacterdata.substringdata.md)
 - [DOMChildNode::after »](domchildnode.after.md)
 
 - [PHP Manual](index.md)

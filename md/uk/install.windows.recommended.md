@@ -1,6 +1,5 @@
 - [« Інструмент встановлення PHP на Windows](install.windows.tools.md)
-- [Самостійна установка PHP у Windows
-»](install.windows.manual.md)
+- [Самостійна установка PHP у Windows »](install.windows.manual.md)
 
 - [PHP Manual](index.md)
 - [Установка Windows](install.windows.md)
@@ -22,8 +21,7 @@
 opcache.enableu003dOn
 opcache.enable_cliu003dOn
 
-І перезавантажте ваш веб-сервер. Докладніше читайте: [Конфігурація
-OpCache](opcache.configuration.md)
+І перезавантажте ваш веб-сервер. Докладніше читайте: [Конфігурація OpCache](opcache.configuration.md)
 
 ### WinCache
 
@@ -49,8 +47,7 @@ extensionu003dphp_wincache.dll
 wincache.fcenabledu003d1
 wincache.ocenabledu003d1; видалено у wincache 2.0.0.0
 
-Докладніше читайте: [Конфігурація
-WinCache](wincache.configuration.md)
+Докладніше читайте: [Конфігурація WinCache](wincache.configuration.md)
 
 ### Конфігурація IIS
 

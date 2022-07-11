@@ -1,5 +1,4 @@
-- [«
-OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md)
+- [« OAuthProvider::setRequestTokenPath](oauthprovider.setrequesttokenpath.md)
 - [OAuthProvider::tokenHandler »](oauthprovider.tokenhandler.md)
 
 - [PHP Manual](index.md)

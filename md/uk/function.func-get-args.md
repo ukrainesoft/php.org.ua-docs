@@ -97,8 +97,7 @@ func_get_args - Повертає масив, що містить аргумен�
 
 ### Дивіться також
 
-- [Синтаксис
-`...`](functions.arguments.md#functions.variable-arg-list)
+- [Синтаксис `...`](functions.arguments.md#functions.variable-arg-list)
 - [func_get_arg()](function.func-get-arg.md)
 - [func_num_args()](function.func-num-args.md)
 - [ReflectionFunctionAbstract::getParameters()](reflectionfunctionabstract.getparameters.md)

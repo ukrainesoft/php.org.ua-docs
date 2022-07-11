@@ -1,5 +1,5 @@
 - [«hrtime](function.hrtime.md)
-- [pack »] (function.pack.md)
+- [pack »](function.pack.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

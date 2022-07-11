@@ -1,5 +1,4 @@
-- [«
-XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.md)
+- [« XSLTProcessor::registerPHPFunctions](xsltprocessor.registerphpfunctions.md)
 - [XSLTProcessor::setParameter »](xsltprocessor.setparameter.md)
 
 - [PHP Manual](index.md)

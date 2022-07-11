@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md)
+- [« MongoDB\BSON\UTCDateTimeInterface::toDateTime](mongodb-bson-utcdatetimeinterface.todatetime.md)
 - [MongoDB\BSON\DBPointer »](class.mongodb-bson-dbpointer.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,5 @@
 - [« ssh2_forward_listen](function.ssh2-forward-listen.md)
-- [ssh2_poll »] (function.ssh2-poll.md)
+- [ssh2_poll »](function.ssh2-poll.md)
 
 - [PHP Manual](index.md)
 - [Функції SSH2](ref.ssh2.md)

@@ -1,4 +1,4 @@
-- [« Gettext] (book.gettext.md)
+- [« Gettext](book.gettext.md)
 - [Встановлення та налаштування »](gettext.setup.md)
 
 - [PHP Manual](index.md)

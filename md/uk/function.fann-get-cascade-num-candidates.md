@@ -1,7 +1,5 @@
-- [«
-fann_get_cascade_num_candidate_groups](function.fann-get-cascade-num-candidate-groups.md)
-- [fann_get_cascade_output_change_fraction
-»](function.fann-get-cascade-output-change-fraction.md)
+- [« fann_get_cascade_num_candidate_groups](function.fann-get-cascade-num-candidate-groups.md)
+- [fann_get_cascade_output_change_fraction »](function.fann-get-cascade-output-change-fraction.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

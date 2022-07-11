@@ -1,6 +1,5 @@
 - [«UI\Controls\Spin::setValue](ui-controls-spin.setvalue.md)
-- [UI\Controls\Slider::\_\_construct
-»](ui-controls-slider.construct.md)
+- [UI\Controls\Slider::\_\_construct »](ui-controls-slider.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

@@ -1,6 +1,5 @@
 - [« Imagick::setImageGreenPrimary](imagick.setimagegreenprimary.md)
-- [Imagick::setImageInterlaceScheme
-»](imagick.setimageinterlacescheme.md)
+- [Imagick::setImageInterlaceScheme »](imagick.setimageinterlacescheme.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

@@ -1,5 +1,4 @@
-- [« Інструкції з інсталяції для ОС
-Solaris](install.unix.solaris.md)
+- [« Інструкції з інсталяції для ОС Solaris](install.unix.solaris.md)
 - [Установка macOS »](install.macosx.md)
 
 - [PHP Manual](index.md)

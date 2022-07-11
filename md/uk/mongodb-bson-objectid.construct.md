@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ ObjectId] (class.mongodb-bson-objectid.md)
-- [MongoDB\BSON\ObjectId::getTimestamp
-»](mongodb-bson-objectid.gettimestamp.md)
+- [« MongoDB \ BSON \ ObjectId](class.mongodb-bson-objectid.md)
+- [MongoDB\BSON\ObjectId::getTimestamp »](mongodb-bson-objectid.gettimestamp.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\ObjectId](class.mongodb-bson-objectid.md)
@@ -50,7 +49,5 @@ string(24) "0000000000000000000001"
 
 ### Дивіться також
 
-- [» Довідка по
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
-- [» Типи BSON:
-ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Довідка по ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)
+- [» Типи BSON: ObjectId](https://www.mongodb.com/docs/manual/reference/bson-types/#objectid)

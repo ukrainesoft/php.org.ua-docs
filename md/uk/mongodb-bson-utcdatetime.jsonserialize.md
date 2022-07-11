@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\UTCDateTime::\_\_construct](mongodb-bson-utcdatetime.construct.md)
-- [MongoDB\BSON\UTCDateTime::serialize
-»](mongodb-bson-utcdatetime.serialize.md)
+- [« MongoDB\BSON\UTCDateTime::\_\_construct](mongodb-bson-utcdatetime.construct.md)
+- [MongoDB\BSON\UTCDateTime::serialize »](mongodb-bson-utcdatetime.serialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\UTCDateTime](class.mongodb-bson-utcdatetime.md)
@@ -58,5 +56,4 @@ JSON-подання даних
 Повертає Canonical Extended JSON подання для значення BSON
 - [MongoDB\BSON oRelaxedExtendedJSON()](function.mongodb.bson-torelaxedextendedjson.md) -
 Повертає Relaxed Extended JSON уявлення значення BSON
-- [» MongoDB Extended
-JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
+- [» MongoDB Extended JSON](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

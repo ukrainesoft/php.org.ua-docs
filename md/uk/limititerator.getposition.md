@@ -1,5 +1,4 @@
-- [«
-LimitIterator::getInnerIterator](limititerator.getinneriterator.md)
+- [« LimitIterator::getInnerIterator](limititerator.getinneriterator.md)
 - [LimitIterator::key »](limititerator.key.md)
 
 - [PHP Manual](index.md)

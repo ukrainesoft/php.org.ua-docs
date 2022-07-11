@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Separator::\_\_construct](ui-controls-separator.construct.md)
+- [« UI\Controls\Separator::\_\_construct](ui-controls-separator.construct.md)
 - [UI\Controls\Combo::append »](ui-controls-combo.append.md)
 
 - [PHP Manual](index.md)

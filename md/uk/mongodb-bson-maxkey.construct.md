@@ -1,6 +1,5 @@
-- [« MongoDB \ BSON \ MaxKey] (class.mongodb-bson-maxkey.md)
-- [MongoDB\BSON\MaxKey::jsonSerialize
-»](mongodb-bson-maxkey.jsonserialize.md)
+- [« MongoDB \ BSON \ MaxKey](class.mongodb-bson-maxkey.md)
+- [MongoDB\BSON\MaxKey::jsonSerialize »](mongodb-bson-maxkey.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\MaxKey](class.mongodb-bson-maxkey.md)
@@ -39,5 +38,4 @@ object(MongoDB\BSON\MaxKey)#1 (0) {
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

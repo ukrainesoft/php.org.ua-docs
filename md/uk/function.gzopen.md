@@ -1,5 +1,5 @@
 - [«gzinflate](function.gzinflate.md)
-- [gzpassthru »] (function.gzpassthru.md)
+- [gzpassthru »](function.gzpassthru.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

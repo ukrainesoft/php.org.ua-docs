@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Manager::executeCommand](mongodb-driver-manager.executecommand.md)
-- [MongoDB\Driver\Manager::executeReadCommand
-»](mongodb-driver-manager.executereadcommand.md)
+- [« MongoDB\Driver\Manager::executeCommand](mongodb-driver-manager.executecommand.md)
+- [MongoDB\Driver\Manager::executeReadCommand »](mongodb-driver-manager.executereadcommand.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md)
@@ -22,8 +20,7 @@ final public **MongoDB\Driver\Manager::executeQuery**(string
 
 Вибирає сервер відповідно до опції ``readPreference'` і виконує
 запит на цьому сервері. За замовчуванням використовуватиметься перевага
-читання з URI [URI підключення
-MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
+читання з URI [URI підключення MongoDB](mongodb-driver-manager.construct.md#mongodb-driver-manager.construct-uri).
 
 ### Список параметрів
 
@@ -89,8 +86,7 @@ int(2)
 [MongoDB\Driver\Query](class.mongodb-driver-query.md) може
 використовуватись для обмеження часу виконання запиту. Зверніть
 увагу, що цей термін застосовується на стороні сервера та не враховує
-затримки мережі. Дивіться [» Завершення виконання
-операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
+затримки мережі. Дивіться [» Завершення виконання операцій](https://www.mongodb.com/docs/manual/tutorial/terminate-running-operations/#maxtimems)
 у посібнику MongoDB для отримання додаткової інформації.
 
 ` <?php$manager u003d new MongoDB\Driver\Manager('mongodb://localhost:27017');$filter u003d ['x' u003d> ['$gt' u003d> 1]];$options u003d [    '' maxTimeMS' u003d> 1000,];$query u003d new MongoDB\Driver\Query($filter, $options);$cursor u003d $manager->executeQuery('db.collection', $query);foreach ($cursor document) {   var_dump($document);}?> `

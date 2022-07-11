@@ -1,6 +1,5 @@
 - [« sodium_crypto_box_seal](function.sodium-crypto-box-seal.md)
-- [sodium_crypto_box_seed_keypair
-»](function.sodium-crypto-box-seed-keypair.md)
+- [sodium_crypto_box_seed_keypair »](function.sodium-crypto-box-seed-keypair.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

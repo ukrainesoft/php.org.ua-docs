@@ -1,6 +1,5 @@
 - [« Executable::execute](mysql-xdevapi-executable.execute.md)
-- [ExecutionStatus::\_\_construct
-»](mysql-xdevapi-executionstatus.construct.md)
+- [ExecutionStatus::\_\_construct »](mysql-xdevapi-executionstatus.construct.md)
 
 - [PHP Manual](index.md)
 - [Mysql_xdevapi](book.mysql-xdevapi.md)

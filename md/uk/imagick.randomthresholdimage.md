@@ -35,8 +35,7 @@ int `$channel` u003d Imagick::CHANNEL_DEFAULT): bool
 Вкажіть будь-яку константу CHANNEL, яка підходить для заданого режиму
 каналу. Для застосування більш ніж одного каналу необхідно об'єднати
 константи типу CHANNEL за допомогою побітових операторів. Зверніться до
-цьому списку [констант
-CHANNEL](imagick.constants.md#imagick.constants.channel).
+цьому списку [констант CHANNEL](imagick.constants.md#imagick.constants.channel).
 
 ### Значення, що повертаються
 

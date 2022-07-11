@@ -1,6 +1,5 @@
 - [« UI\Draw\Text\Layout::setWidth](ui-draw-text-layout.setwidth.md)
-- [UI\Draw\Text\Font::\_\_construct
-»](ui-draw-text-font.construct.md)
+- [UI\Draw\Text\Font::\_\_construct »](ui-draw-text-font.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

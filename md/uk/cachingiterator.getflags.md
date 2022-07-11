@@ -1,6 +1,5 @@
 - [«CachingIterator::getCache](cachingiterator.getcache.md)
-- [CachingIterator::getInnerIterator
-»](cachingiterator.getinneriterator.md)
+- [CachingIterator::getInnerIterator »](cachingiterator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [CachingIterator](class.cachingiterator.md)

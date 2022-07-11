@@ -163,8 +163,7 @@ CLI-версія, тому не буде виведено жодного HTTP-з
 
 У Windows запуск PHP можна настроїти без необхідності вказувати
 `C:\php\php.exe` або розширення `.php`. Докладніше ця тема описана в
-розділ [Запуск PHP з командного рядка в Microsoft
-Windows](install.windows.commandline.md).
+розділ [Запуск PHP з командного рядка в Microsoft Windows](install.windows.commandline.md).
 
 > **Примітка**:
 >

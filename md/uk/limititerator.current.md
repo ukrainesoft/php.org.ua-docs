@@ -1,6 +1,5 @@
 - [«LimitIterator::\_\_construct](limititerator.construct.md)
-- [LimitIterator::getInnerIterator
-»](limititerator.getinneriterator.md)
+- [LimitIterator::getInnerIterator »](limititerator.getinneriterator.md)
 
 - [PHP Manual](index.md)
 - [LimitIterator](class.limititerator.md)

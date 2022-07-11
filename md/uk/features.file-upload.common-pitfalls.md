@@ -1,5 +1,4 @@
-- [« Пояснення повідомлень про
-помилках](features.file-upload.errors.md)
+- [« Пояснення повідомлень про помилках](features.file-upload.errors.md)
 - [Завантаження декількох файлів »](features.file-upload.multiple.md)
 
 - [PHP Manual](index.md)

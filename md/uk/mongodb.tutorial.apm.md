@@ -1,7 +1,6 @@
 - [« Використання бібліотеки PHP для MongoDB
 (PHPLIB)](mongodb.tutorial.library.md)
-- [Архітектура та внутрішній пристрій драйвера
-»](mongodb.architecture.md)
+- [Архітектура та внутрішній пристрій драйвера »](mongodb.architecture.md)
 
 - [PHP Manual](index.md)
 - [Навчальні матеріали](mongodb.tutorial.md)
@@ -12,8 +11,7 @@ Monitoring або APM)
 
 Драйвер MongoDB містить API передплатника подій, що дозволяє
 додатків відстежувати команди та внутрішню активність, що відноситься до
-[» Специфікації виявлення та моніторингу
-серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
+[» Специфікації виявлення та моніторингу серверів](https://github.com/mongodb/specifications/blob/master/source/server-discovery-and-monitoring/server-discovery-and-monitoring.rst).
 У цьому посібнику буде продемонстровано моніторинг команд за допомогою
 інтерфейсу
 [MongoDB\Driver\Monitoring\CommandSubscriber](class.mongodb-driver-monitoring-commandsubscriber.md).

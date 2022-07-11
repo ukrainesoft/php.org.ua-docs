@@ -1,6 +1,5 @@
 - [« Vtiful\Kernel\Excel::header](vtiful-kernel-excel.header.md)
-- [Vtiful\Kernel\Excel::insertImage
-»](vtiful-kernel-excel.insertImage.md)
+- [Vtiful\Kernel\Excel::insertImage »](vtiful-kernel-excel.insertImage.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

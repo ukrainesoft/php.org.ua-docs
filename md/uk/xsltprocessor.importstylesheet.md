@@ -1,7 +1,5 @@
-- [«
-XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
-- [XSLTProcessor::registerPHPFunctions
-»](xsltprocessor.registerphpfunctions.md)
+- [« XSLTProcessor::hasExsltSupport](xsltprocessor.hasexsltsupport.md)
+- [XSLTProcessor::registerPHPFunctions »](xsltprocessor.registerphpfunctions.md)
 
 - [PHP Manual](index.md)
 - [XSLTProcessor](class.xsltprocessor.md)

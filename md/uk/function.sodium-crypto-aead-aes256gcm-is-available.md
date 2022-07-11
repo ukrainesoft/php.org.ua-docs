@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_aead_aes256gcm_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.md)
-- [sodium_crypto_aead_aes256gcm_keygen
-»](function.sodium-crypto-aead-aes256gcm-keygen.md)
+- [« sodium_crypto_aead_aes256gcm_encrypt](function.sodium-crypto-aead-aes256gcm-encrypt.md)
+- [sodium_crypto_aead_aes256gcm_keygen »](function.sodium-crypto-aead-aes256gcm-keygen.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

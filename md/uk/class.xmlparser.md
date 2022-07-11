@@ -1,5 +1,4 @@
-- [«
-xml_set_unparsed_entity_decl_handler](function.xml-set-unparsed-entity-decl-handler.md)
+- [« xml_set_unparsed_entity_decl_handler](function.xml-set-unparsed-entity-decl-handler.md)
 - [XMLReader »](book.xmlreader.md)
 
 - [PHP Manual](index.md)

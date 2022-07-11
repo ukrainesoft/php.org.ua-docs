@@ -60,8 +60,7 @@ float `$offset`
 
 Результат виконання цього прикладу:
 
-![Висновок прикладу: Створення рельєфу на логотипі
-PHP.net](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_emboss.png)
+![Висновок прикладу: Створення рельєфу на логотипі PHP.net](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_emboss.png)
 
 **Приклад #2 Розмиття за Гаусом**
 
@@ -69,8 +68,7 @@ PHP.net](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_emboss.png)
 
 Результат виконання цього прикладу:
 
-![Висновок прикладу: Розмиття по
-Гауссу](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_gaussian.png)
+![Висновок прикладу: Розмиття по Гауссу](images/21009b70229598c6a80eef8b45bf282b-imageconvolution_gaussian.png)
 
 ### Дивіться також
 

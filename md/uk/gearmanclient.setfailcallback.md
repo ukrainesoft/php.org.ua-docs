@@ -1,5 +1,4 @@
-- [«
-GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md)
+- [« GearmanClient::setExceptionCallback](gearmanclient.setexceptioncallback.md)
 - [GearmanClient::setOptions »](gearmanclient.setoptions.md)
 
 - [PHP Manual](index.md)

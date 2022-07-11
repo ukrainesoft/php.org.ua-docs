@@ -1,7 +1,5 @@
-- [«
-ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md)
-- [ReflectionFunctionAbstract::hasReturnType
-»](reflectionfunctionabstract.hasreturntype.md)
+- [« ReflectionFunctionAbstract::getStaticVariables](reflectionfunctionabstract.getstaticvariables.md)
+- [ReflectionFunctionAbstract::hasReturnType »](reflectionfunctionabstract.hasreturntype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunctionAbstract](class.reflectionfunctionabstract.md)
@@ -52,5 +50,4 @@ object(ReflectionNamedType)#2 (0) {
 - [ReflectionFunctionAbstract::hasTentativeReturnType()](reflectionfunctionabstract.hastentativereturntype.md) -
 Визначає, чи має функція попередній тип повертається
 значення
-- [Сумісність типів значень, що повертаються, з внутрішніми
-класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)
+- [Сумісність типів значень, що повертаються, з внутрішніми класами](language.oop5.inheritance.md#language.oop5.inheritance.internal-classes)

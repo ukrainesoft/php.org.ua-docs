@@ -1,5 +1,5 @@
 - [« Установка](mailparse.installation.md)
-- [Типи ресурсів»] (mailparse.resources.md)
+- [Типи ресурсів»](mailparse.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](mailparse.setup.md)
@@ -16,8 +16,7 @@
 **Опції налаштування Mailparse**
 
 Для детального опису констант PHP_INI\_\*, зверніться до розділу [Де
-можуть бути встановлені параметри
-конфігурації] (configuration.changes.modes.md).
+можуть бути встановлені параметри конфігурації](configuration.changes.modes.md).
 
 Коротке пояснення конфігураційних директив.
 

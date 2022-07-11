@@ -7,8 +7,7 @@
 
 # Зумовлені константи
 
-[Константи
-`DATE_`](class.datetimeinterface.md#datetime.constants.types)
+[Константи `DATE_`](class.datetimeinterface.md#datetime.constants.types)
 пропонують стандартні уявлення дати, які можуть бути
 використані разом із функціями форматування дати (наприклад
 [date()](function.date.md)).

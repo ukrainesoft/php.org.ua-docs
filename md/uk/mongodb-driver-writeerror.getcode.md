@@ -1,6 +1,5 @@
 - [«MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)
-- [MongoDB\Driver\WriteError::getIndex
-»](mongodb-driver-writeerror.getindex.md)
+- [MongoDB\Driver\WriteError::getIndex »](mongodb-driver-writeerror.getindex.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteError](class.mongodb-driver-writeerror.md)

@@ -1,7 +1,5 @@
-- [«
-CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
-- [CommonMark\Interfaces\IVisitor::leave
-»](commonmark-interfaces-ivisitor.leave.md)
+- [« CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)
+- [CommonMark\Interfaces\IVisitor::leave »](commonmark-interfaces-ivisitor.leave.md)
 
 - [PHP Manual](index.md)
 - [CommonMark\Interfaces\IVisitor](class.commonmark-interfaces-ivisitor.md)

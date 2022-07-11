@@ -1,5 +1,5 @@
 - [«ps_makespotcolor](function.ps-makespotcolor.md)
-- [ps_new »] (function.ps-new.md)
+- [ps_new »](function.ps-new.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

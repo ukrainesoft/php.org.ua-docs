@@ -1,6 +1,5 @@
 - [«SolrInputDocument::clear](solrinputdocument.clear.md)
-- [SolrInputDocument::\_\_construct
-»](solrinputdocument.construct.md)
+- [SolrInputDocument::\_\_construct »](solrinputdocument.construct.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

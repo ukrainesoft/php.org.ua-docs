@@ -1,5 +1,5 @@
 - [«Mailparse](ref.mailparse.md)
-- [mailparse_msg_create »] (function.mailparse-msg-create.md)
+- [mailparse_msg_create »](function.mailparse-msg-create.md)
 
 - [PHP Manual](index.md)
 - [Mailparse](ref.mailparse.md)

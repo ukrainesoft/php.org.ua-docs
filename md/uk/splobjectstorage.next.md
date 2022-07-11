@@ -1,6 +1,5 @@
 - [« SplObjectStorage::key](splobjectstorage.key.md)
-- [SplObjectStorage::offsetExists
-»](splobjectstorage.offsetexists.md)
+- [SplObjectStorage::offsetExists »](splobjectstorage.offsetexists.md)
 
 - [PHP Manual](index.md)
 - [SplObjectStorage](class.splobjectstorage.md)

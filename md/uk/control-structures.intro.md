@@ -1,5 +1,5 @@
 - [« Керуючі конструкції](language.control-structures.md)
-- [if »] (control-structures.if.md)
+- [if »](control-structures.if.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)
@@ -22,6 +22,6 @@
 
 - [list()](function.list.md)
 - [array()](function.array.md)
-- [Echo] (function.echo.md)
+- [Echo](function.echo.md)
 - [eval()](function.eval.md)
 - [print](function.print.md)

@@ -1,5 +1,5 @@
 - [« imap_utf7_encode](function.imap-utf7-encode.md)
-- [imap_utf8 »] (function.imap-utf8.md)
+- [imap_utf8 »](function.imap-utf8.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

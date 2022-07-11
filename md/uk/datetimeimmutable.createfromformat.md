@@ -1,7 +1,5 @@
-- [«
-DateTimeImmutable::\_\_construct](datetimeimmutable.construct.md)
-- [DateTimeImmutable::createFromInterface
-»](datetimeimmutable.createfrominterface.md)
+- [« DateTimeImmutable::\_\_construct](datetimeimmutable.construct.md)
+- [DateTimeImmutable::createFromInterface »](datetimeimmutable.createfrominterface.md)
 
 - [PHP Manual](index.md)
 - [DateTimeImmutable](class.datetimeimmutable.md)

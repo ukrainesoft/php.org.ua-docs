@@ -1,5 +1,5 @@
 - [« yaz_database](function.yaz-database.md)
-- [yaz_errno»] (function.yaz-errno.md)
+- [yaz_errno»](function.yaz-errno.md)
 
 - [PHP Manual](index.md)
 - [Функції YAZ](ref.yaz.md)

@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\Cursor::toArray](mongodb-driver-cursor.toarray.md)
+- [« MongoDB\Driver\Cursor::toArray](mongodb-driver-cursor.toarray.md)
 - [MongoDB\Driver\CursorId »](class.mongodb-driver-cursorid.md)
 
 - [PHP Manual](index.md)

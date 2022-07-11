@@ -1,5 +1,4 @@
-- [«
-Expression::\_\_construct](mysql-xdevapi-expression.construct.md)
+- [« Expression::\_\_construct](mysql-xdevapi-expression.construct.md)
 - [Result::\_\_construct »](mysql-xdevapi-result.construct.md)
 
 - [PHP Manual](index.md)

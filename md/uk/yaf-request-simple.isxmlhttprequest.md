@@ -1,5 +1,4 @@
-- [«
-Yaf_Request_Simple::getRequest](yaf-request-simple.getrequest.md)
+- [« Yaf_Request_Simple::getRequest](yaf-request-simple.getrequest.md)
 - [Yaf_Response_Abstract »](class.yaf-response-abstract.md)
 
 - [PHP Manual](index.md)

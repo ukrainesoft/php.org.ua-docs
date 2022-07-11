@@ -2,7 +2,7 @@
 - [Вимоги »](svn.requirements.md)
 
 - [PHP Manual](index.md)
-- [SVN] (book.svn.md)
+- [SVN](book.svn.md)
 -   Встановлення та налаштування
 
 # Встановлення та налаштування

@@ -1,6 +1,5 @@
 - [«NumberFormatter::getAttribute](numberformatter.getattribute.md)
-- [NumberFormatter::getErrorMessage
-»](numberformatter.geterrormessage.md)
+- [NumberFormatter::getErrorMessage »](numberformatter.geterrormessage.md)
 
 - [PHP Manual](index.md)
 - [NumberFormatter](class.numberformatter.md)

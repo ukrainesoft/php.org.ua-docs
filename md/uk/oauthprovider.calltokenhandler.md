@@ -1,7 +1,5 @@
-- [«
-OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md)
-- [OAuthProvider::checkOAuthRequest
-»](oauthprovider.checkoauthrequest.md)
+- [« OAuthProvider::callTimestampNonceHandler](oauthprovider.calltimestampnoncehandler.md)
+- [OAuthProvider::checkOAuthRequest »](oauthprovider.checkoauthrequest.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

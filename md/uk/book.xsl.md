@@ -15,10 +15,8 @@
 - [Типи ресурсів](xsl.resources.md)
 - [Предвизначені константи](xsl.constants.md)
 - [Приклади](xsl.examples.md)
-- [Файли collection.xml та collection.xsl для
-прикладів](xsl.examples-collection.md)
-- [Обробка помилок за допомогою функцій обробки помилок
-libxml](xsl.examples-errors.md)
+- [Файли collection.xml та collection.xsl для прикладів](xsl.examples-collection.md)
+- [Обробка помилок за допомогою функцій обробки помилок libxml](xsl.examples-errors.md)
 - [XSLTProcessor](class.xsltprocessor.md) — Клас XSLTProcessor
 - [XSLTProcessor::\_\_construct](xsltprocessor.construct.md) -
 Створює новий екземпляр класу XSLTProcessor

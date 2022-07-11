@@ -1,6 +1,5 @@
 - [«EventHttpRequest::sendError](eventhttprequest.senderror.md)
-- [EventHttpRequest::sendReplyChunk
-»](eventhttprequest.sendreplychunk.md)
+- [EventHttpRequest::sendReplyChunk »](eventhttprequest.sendreplychunk.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

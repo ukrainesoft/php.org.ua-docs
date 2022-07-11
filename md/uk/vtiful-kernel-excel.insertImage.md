@@ -1,7 +1,5 @@
-- [«
-Vtiful\Kernel\Excel::insertFormula](vtiful-kernel-excel.insertFormula.md)
-- [Vtiful\Kernel\Excel::insertText
-»](vtiful-kernel-excel.insertText.md)
+- [« Vtiful\Kernel\Excel::insertFormula](vtiful-kernel-excel.insertFormula.md)
+- [Vtiful\Kernel\Excel::insertText »](vtiful-kernel-excel.insertText.md)
 
 - [PHP Manual](index.md)
 - [Vtiful\Kernel\Excel](class.vtiful-kernel-excel.md)

@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (rar.resources.md)
+- [« Типи ресурсів](rar.resources.md)
 - [Приклади »](rar.examples.md)
 
 - [PHP Manual](index.md)

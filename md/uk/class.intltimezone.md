@@ -1,5 +1,4 @@
-- [«
-IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md)
+- [« IntlGregorianCalendar::setGregorianChange](intlgregoriancalendar.setgregorianchange.md)
 - [IntlTimeZone::\_\_construct »](intltimezone.construct.md)
 
 - [PHP Manual](index.md)

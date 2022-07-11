@@ -68,8 +68,7 @@ int `$result_mode` u003d **`MYSQLI_STORE_RESULT`**):
 # Попередження безпеки: SQL-ін'єкція
 
 Якщо запит містить будь-які вхідні змінні, натомість слід
-використовувати [підготовлювані
-запросы](mysqli.quickstart.prepared-statements.md). В якості
+використовувати [підготовлювані запросы](mysqli.quickstart.prepared-statements.md). В якості
 альтернативи дані повинні бути правильно відформатовані та всі рядки
 повинні бути екрановані за допомогою функції
 [mysqli_real_escape_string()](mysqli.real-escape-string.md).

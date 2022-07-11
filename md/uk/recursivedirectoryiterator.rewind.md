@@ -1,5 +1,4 @@
-- [«
-RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md)
+- [« RecursiveDirectoryIterator::next](recursivedirectoryiterator.next.md)
 - [RecursiveFilterIterator »](class.recursivefilteriterator.md)
 
 - [PHP Manual](index.md)

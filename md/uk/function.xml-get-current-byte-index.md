@@ -1,6 +1,5 @@
 - [« xml_error_string](function.xml-error-string.md)
-- [xml_get_current_column_number
-»](function.xml-get-current-column-number.md)
+- [xml_get_current_column_number »](function.xml-get-current-column-number.md)
 
 - [PHP Manual](index.md)
 - [Функції парсера XML](ref.xml.md)

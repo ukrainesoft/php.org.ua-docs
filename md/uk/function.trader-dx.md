@@ -1,5 +1,5 @@
 - [ trader_div](function.trader-div.md)
-- [trader_ema»] (function.trader-ema.md)
+- [trader_ema»](function.trader-ema.md)
 
 - [PHP Manual](index.md)
 - [Функції Trader](ref.trader.md)

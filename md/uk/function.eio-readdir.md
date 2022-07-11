@@ -1,5 +1,5 @@
 - [«eio_readahead](function.eio-readahead.md)
-- [eio_readlink »] (function.eio-readlink.md)
+- [eio_readlink »](function.eio-readlink.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

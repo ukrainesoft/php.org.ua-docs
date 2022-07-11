@@ -1,5 +1,4 @@
-- [«
-MongoDB\Driver\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.md)
+- [« MongoDB\Driver\WriteResult::getWriteErrors](mongodb-driver-writeresult.getwriteerrors.md)
 - [MongoDB\BSON »](book.bson.md)
 
 - [PHP Manual](index.md)
@@ -59,5 +58,4 @@ bool(false)
 ### Дивіться також
 
 - [MongoDB\Driver\WriteConcern](class.mongodb-driver-writeconcern.md)
-- [» Довідка за гарантіями
-запису](https://www.mongodb.com/docs/manual/reference/write-concern/)
+- [» Довідка за гарантіями запису](https://www.mongodb.com/docs/manual/reference/write-concern/)

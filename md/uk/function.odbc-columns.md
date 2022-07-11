@@ -1,5 +1,5 @@
 - [«odbc_columnprivileges](function.odbc-columnprivileges.md)
-- [odbc_commit »] (function.odbc-commit.md)
+- [odbc_commit »](function.odbc-commit.md)
 
 - [PHP Manual](index.md)
 - [Функції ODBC](ref.uodbc.md)

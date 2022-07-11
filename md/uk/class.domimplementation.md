@@ -1,6 +1,5 @@
 - [«DOMException](class.domexception.md)
-- [DOMImplementation::\_\_construct
-»](domimplementation.construct.md)
+- [DOMImplementation::\_\_construct »](domimplementation.construct.md)
 
 - [PHP Manual](index.md)
 - [DOM](book.dom.md)

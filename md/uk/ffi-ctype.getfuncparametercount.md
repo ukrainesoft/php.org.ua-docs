@@ -1,6 +1,5 @@
 - [« FFI\CType::getFuncABI](ffi-ctype.getfuncabi.md)
-- [FFI\CType::getFuncParameterType
-»](ffi-ctype.getfuncparametertype.md)
+- [FFI\CType::getFuncParameterType »](ffi-ctype.getfuncparametertype.md)
 
 - [PHP Manual](index.md)
 - [FFI\CType](class.ffi-ctype.md)

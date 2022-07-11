@@ -1,6 +1,5 @@
 - [« Робота з помилками XML](simplexml.examples-errors.md)
-- [SimpleXMLElement::addAttribute
-»](simplexmlelement.addattribute.md)
+- [SimpleXMLElement::addAttribute »](simplexmlelement.addattribute.md)
 
 - [PHP Manual](index.md)
 - [SimpleXML](book.simplexml.md)

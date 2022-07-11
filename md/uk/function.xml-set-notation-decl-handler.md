@@ -1,5 +1,4 @@
-- [«
-xml_set_external_entity_ref_handler](function.xml-set-external-entity-ref-handler.md)
+- [« xml_set_external_entity_ref_handler](function.xml-set-external-entity-ref-handler.md)
 - [xml_set_object »](function.xml-set-object.md)
 
 - [PHP Manual](index.md)
@@ -28,8 +27,7 @@ xml_set_notation_decl_handler — Встановлення обробника о
 {<parameter>systemId</parameter> | <parameter>publicId</parameter>?>
 ````
 
-Дивіться [» розділ 4.7 специфікації XML
-1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш
+Дивіться [» розділ 4.7 специфікації XML 1.0](http://www.w3.org/TR/1998/REC-xml-19980210#Notations) для більш
 повного опису позначень (нотацій).
 
 ### Список параметрів

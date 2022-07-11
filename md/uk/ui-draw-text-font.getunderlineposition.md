@@ -1,6 +1,5 @@
 - [« UI\Draw\Text\Font::getLeading](ui-draw-text-font.getleading.md)
-- [UI\Draw\Text\Font::getUnderlineThickness
-»](ui-draw-text-font.getunderlinethickness.md)
+- [UI\Draw\Text\Font::getUnderlineThickness »](ui-draw-text-font.getunderlinethickness.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Text\Font](class.ui-draw-text-font.md)

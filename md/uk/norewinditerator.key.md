@@ -1,5 +1,4 @@
-- [«
-NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.md)
+- [« NoRewindIterator::getInnerIterator](norewinditerator.getinneriterator.md)
 - [NoRewindIterator::next »](norewinditerator.next.md)
 
 - [PHP Manual](index.md)

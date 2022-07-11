@@ -1,6 +1,5 @@
 - [«Зумовлені константи](pdo.constants.md)
-- [Транзакції та автоматична фіксація змін
-»](pdo.transactions.md)
+- [Транзакції та автоматична фіксація змін »](pdo.transactions.md)
 
 - [PHP Manual](index.md)
 - [PDO](book.pdo.md)

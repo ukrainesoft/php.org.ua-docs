@@ -1,5 +1,4 @@
-- [«
-ReflectionClass::getAttributes](reflectionclass.getattributes.md)
+- [« ReflectionClass::getAttributes](reflectionclass.getattributes.md)
 - [ReflectionClass::getConstants »](reflectionclass.getconstants.md)
 
 - [PHP Manual](index.md)

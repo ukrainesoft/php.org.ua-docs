@@ -1,5 +1,4 @@
-- [«
-IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.md)
+- [« IntlTimeZone::getTZDataVersion](intltimezone.gettzdataversion.md)
 - [IntlTimeZone::getWindowsID »](intltimezone.getwindowsid.md)
 
 - [PHP Manual](index.md)

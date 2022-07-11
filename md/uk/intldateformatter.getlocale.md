@@ -1,5 +1,4 @@
-- [«
-IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.md)
+- [« IntlDateFormatter::getErrorMessage](intldateformatter.geterrormessage.md)
 - [IntlDateFormatter::getPattern »](intldateformatter.getpattern.md)
 
 - [PHP Manual](index.md)

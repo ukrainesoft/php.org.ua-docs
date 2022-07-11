@@ -1,5 +1,5 @@
 - [« Установка](geoip.installation.md)
-- [Типи ресурсів»] (geoip.resources.md)
+- [Типи ресурсів»](geoip.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](geoip.setup.md)

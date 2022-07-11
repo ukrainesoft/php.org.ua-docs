@@ -1,6 +1,5 @@
 - [« Swoole\Coroutine](class.swoole-coroutine.md)
-- [Swoole\Coroutine::call_user_func
-»](swoole-coroutine.call-user-func.md)
+- [Swoole\Coroutine::call_user_func »](swoole-coroutine.call-user-func.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

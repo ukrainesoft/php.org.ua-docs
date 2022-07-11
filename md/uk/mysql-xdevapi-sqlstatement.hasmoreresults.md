@@ -1,7 +1,5 @@
-- [«
-SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md)
-- [mysql_xdevapi\SqlStatementResult
-»](class.mysql-xdevapi-sqlstatementresult.md)
+- [« SqlStatement::getResult](mysql-xdevapi-sqlstatement.getresult.md)
+- [mysql_xdevapi\SqlStatementResult »](class.mysql-xdevapi-sqlstatementresult.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatement](class.mysql-xdevapi-sqlstatement.md)

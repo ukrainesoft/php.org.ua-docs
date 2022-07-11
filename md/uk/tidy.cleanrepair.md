@@ -2,7 +2,7 @@
 - [tidy::\_\_construct »](tidy.construct.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Виконати налаштоване очищення та відновлення розібраної розмітки
 
 # tidy::cleanRepair

@@ -1,5 +1,5 @@
 - [«gzrewind](function.gzrewind.md)
-- [gztell »] (function.gztell.md)
+- [gztell »](function.gztell.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

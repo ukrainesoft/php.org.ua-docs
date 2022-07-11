@@ -18,8 +18,7 @@ final public static **Phar::webPhar**(
 ?string `$alias` u003d **`null`**,
 ?string `$index` u003d **`null`**,
 ?string `$fileNotFoundScript` u003d **`null`**,
-array `$mimeTypes` u003d \[\],
-?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
+array `$mimeTypes` u003d [], ?[callable](language.types.callable.md) `$rewrite` u003d **`null`**
 ): void
 
 **Phar::webPhar()** служить [Phar::mapPhar()](phar.mapphar.md) для
@@ -33,7 +32,7 @@ array `$mimeTypes` u003d \[\],
 
 **Phar::webPhar()** повинен викликатися тільки із заглушки (stub)
 phar-архіва (про те, що таке заглушка і як з ним працювати, читайте
-[Тут] (phar.fileformat.stub.md)).
+[Тут](phar.fileformat.stub.md)).
 
 ### Список параметрів
 

@@ -1,7 +1,5 @@
-- [«
-SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
-- [SessionUpdateTimestampHandlerInterface::validateId
-»](sessionupdatetimestamphandlerinterface.validateid.md)
+- [« SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)
+- [SessionUpdateTimestampHandlerInterface::validateId »](sessionupdatetimestamphandlerinterface.validateid.md)
 
 - [PHP Manual](index.md)
 - [SessionUpdateTimestampHandlerInterface](class.sessionupdatetimestamphandlerinterface.md)

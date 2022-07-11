@@ -1,5 +1,5 @@
 - [«Зумовлені константи](rar.constants.md)
-- [Rar »] (ref.rar.md)
+- [Rar »](ref.rar.md)
 
 - [PHP Manual](index.md)
 - [Rar](book.rar.md)

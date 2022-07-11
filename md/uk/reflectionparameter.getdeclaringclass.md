@@ -1,6 +1,5 @@
 - [« ReflectionParameter::getClass](reflectionparameter.getclass.md)
-- [ReflectionParameter::getDeclaringFunction
-»](reflectionparameter.getdeclaringfunction.md)
+- [ReflectionParameter::getDeclaringFunction »](reflectionparameter.getdeclaringfunction.md)
 
 - [PHP Manual](index.md)
 - [ReflectionParameter](class.reflectionparameter.md)

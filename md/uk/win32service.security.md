@@ -19,5 +19,4 @@
 
 Ви можете встановити ACL для сервісу після його додавання до SCM для
 делегування адміністративних завдань не адміністраторського облікового запису,
-або акаунту сервісу. Докладніше читайте в [» Microsoft Knowledge
-Base](https://support.microsoft.com/en-us/help/914392/best-practices-and-guidance-for-writers-of-service-discretionary-acces).
+або акаунту сервісу. Докладніше читайте в [» Microsoft Knowledge Base](https://support.microsoft.com/en-us/help/914392/best-practices-and-guidance-for-writers-of-service-discretionary-acces).

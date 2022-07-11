@@ -1,5 +1,4 @@
-- [«
-CommonMark\Node\Text\Emphasis](class.commonmark-node-text-emphasis.md)
+- [« CommonMark\Node\Text\Emphasis](class.commonmark-node-text-emphasis.md)
 - [CommonMark\Node\SoftBreak »](class.commonmark-node-softbreak.md)
 
 - [PHP Manual](index.md)

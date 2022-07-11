@@ -1,6 +1,5 @@
 - [«date_create](function.date-create.md)
-- [date_default_timezone_get
-»](function.date-default-timezone-get.md)
+- [date_default_timezone_get »](function.date-default-timezone-get.md)
 
 - [PHP Manual](index.md)
 - [Функції дати та часу](ref.datetime.md)

@@ -1,7 +1,5 @@
-- [«
-COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md)
-- [COMPersistHelper::SaveToStream
-»](compersisthelper.savetostream.md)
+- [« COMPersistHelper::LoadFromStream](compersisthelper.loadfromstream.md)
+- [COMPersistHelper::SaveToStream »](compersisthelper.savetostream.md)
 
 - [PHP Manual](index.md)
 - [COMPersistHelper](class.compersisthelper.md)

@@ -2,7 +2,7 @@
 - [tidy::getStatus »](tidy.getstatus.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Отримати дату релізу (версію) для бібліотеки Tidy
 
 # tidy::getRelease

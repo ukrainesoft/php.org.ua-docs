@@ -1,6 +1,5 @@
 - [« Yaf_View_Simple::render](yaf-view-simple.render.md)
-- [Yaf_View_Simple::setScriptPath
-»](yaf-view-simple.setscriptpath.md)
+- [Yaf_View_Simple::setScriptPath »](yaf-view-simple.setscriptpath.md)
 
 - [PHP Manual](index.md)
 - [Yaf_View_Simple](class.yaf-view-simple.md)

@@ -1,10 +1,8 @@
-- [« Установка внутрішніх
-опцій](regexp.reference.internal-options.md)
+- [« Установка внутрішніх опцій](regexp.reference.internal-options.md)
 - [Повторення »](regexp.reference.repetition.md)
 
 - [PHP Manual](index.md)
-- [Опис синтаксису Perl-сумісних регулярних
-виразів](reference.pcre.pattern.syntax.md)
+- [Опис синтаксису Perl-сумісних регулярних виразів](reference.pcre.pattern.syntax.md)
 - Підмаски
 
 ## Підмаски

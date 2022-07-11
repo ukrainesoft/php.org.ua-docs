@@ -1,7 +1,5 @@
-- [«
-AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md)
-- [AppendIterator::getIteratorIndex
-»](appenditerator.getiteratorindex.md)
+- [« AppendIterator::getArrayIterator](appenditerator.getarrayiterator.md)
+- [AppendIterator::getIteratorIndex »](appenditerator.getiteratorindex.md)
 
 - [PHP Manual](index.md)
 - [AppendIterator](class.appenditerator.md)

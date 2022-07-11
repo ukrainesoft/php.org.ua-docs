@@ -1,5 +1,5 @@
 - [« mb_encode_numericentity](function.mb-encode-numericentity.md)
-- [mb_ereg_match »] (function.mb-ereg-match.md)
+- [mb_ereg_match »](function.mb-ereg-match.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з багатобайтовими рядками](ref.mbstring.md)

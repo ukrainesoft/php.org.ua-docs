@@ -84,9 +84,8 @@ public [fetchColumn](pdostatement.fetchcolumn.md)(int `$column` u003d 0):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [fetchObject](pdostatement.fetchobject.md)(?string `$class` u003d
-"stdClass", array `$constructorArgs` u003d \[\]): object\|false
-
-public [getAttribute](pdostatement.getattribute.md)(int `$name`):
+"stdClass", array `$constructorArgs` u003d []): object\|false
+ public [getAttribute](pdostatement.getattribute.md)(int `$name`):
 [mixed](language.types.declarations.md#language.types.declarations.mixed)
 
 public [getColumnMeta](pdostatement.getcolumnmeta.md)(int `$column`):

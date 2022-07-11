@@ -1,5 +1,5 @@
-- [« natcasesort] (function.natcasesort.md)
-- [next »] (function.next.md)
+- [« natcasesort](function.natcasesort.md)
+- [next »](function.next.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з масивами](ref.array.md)
@@ -69,8 +69,7 @@ Array
 [0] u003d> img12.png
 )
 
-Детальніше дивіться статтю Martin Pool [» Natural Order String
-Comparison](https://github.com/sourcefrog/natsort).
+Детальніше дивіться статтю Martin Pool [» Natural Order String Comparison](https://github.com/sourcefrog/natsort).
 
 **Приклад #2 Приклади використання різних трюків з **natsort()****
 

@@ -1,5 +1,4 @@
-- [«
-UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md)
+- [« UConverter::setDestinationEncoding](uconverter.setdestinationencoding.md)
 - [UConverter::setSubstChars »](uconverter.setsubstchars.md)
 
 - [PHP Manual](index.md)

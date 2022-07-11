@@ -1,5 +1,5 @@
 - [«socket_shutdown](function.socket-shutdown.md)
-- [socket_write »] (function.socket-write.md)
+- [socket_write »](function.socket-write.md)
 
 - [PHP Manual](index.md)
 - [Функції сокету](ref.sockets.md)

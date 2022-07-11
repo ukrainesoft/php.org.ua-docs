@@ -1,5 +1,5 @@
 - [«Зумовлені константи](pcre.constants.md)
-- [Регулярні висловлювання PCRE»] (pcre.pattern.md)
+- [Регулярні висловлювання PCRE»](pcre.pattern.md)
 
 - [PHP Manual](index.md)
 - [PCRE](book.pcre.md)

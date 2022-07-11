@@ -1,5 +1,5 @@
 - [«linkinfo](function.linkinfo.md)
-- [mkdir »] (function.mkdir.md)
+- [mkdir »](function.mkdir.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)
@@ -71,8 +71,7 @@ Array
 
 Починаючи з PHP 5.0.0, ця функція також може бути використана з
 * Деякими * обгортками url. Список обгорток, що підтримуються сімейством
-функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані
-протоколи та обгортки](wrappers.md).
+функцій [stat()](function.stat.md), дивіться у розділі [Підтримувані протоколи та обгортки](wrappers.md).
 
 ### Дивіться також
 

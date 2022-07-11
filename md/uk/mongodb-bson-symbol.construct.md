@@ -1,6 +1,5 @@
 - [«MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
-- [MongoDB\BSON\Symbol::jsonSerialize
-»](mongodb-bson-symbol.jsonserialize.md)
+- [MongoDB\BSON\Symbol::jsonSerialize »](mongodb-bson-symbol.jsonserialize.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Symbol](class.mongodb-bson-symbol.md)
@@ -27,5 +26,4 @@ final private **MongoDB\BSON\Symbol::\_\_construct**()
 
 ### Дивіться також
 
-- [» Типи
-BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)
+- [» Типи BSON](https://www.mongodb.com/docs/manual/reference/bson-types/)

@@ -1,5 +1,4 @@
-- [«
-SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)
+- [« SoapClient::\_\_getLastResponseHeaders](soapclient.getlastresponseheaders.md)
 - [SoapClient::\_\_setCookie »](soapclient.setcookie.md)
 
 - [PHP Manual](index.md)

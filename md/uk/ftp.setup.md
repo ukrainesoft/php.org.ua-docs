@@ -12,4 +12,4 @@
 - [Вимоги](ftp.requirements.md)
 - [Установка](ftp.installation.md)
 - [Налаштування під час виконання](ftp.configuration.md)
-- [Типи ресурсів] (ftp.resources.md)
+- [Типи ресурсів](ftp.resources.md)

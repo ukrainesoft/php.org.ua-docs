@@ -1,5 +1,4 @@
-- [«
-DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md)
+- [« DOMText::isWhitespaceInElementContent](domtext.iswhitespaceinelementcontent.md)
 - [DOMXPath »](class.domxpath.md)
 
 - [PHP Manual](index.md)

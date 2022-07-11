@@ -1,7 +1,5 @@
-- [«
-SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md)
-- [SolrDisMaxQuery::setQueryPhraseSlop
-»](solrdismaxquery.setqueryphraseslop.md)
+- [« SolrDisMaxQuery::setPhraseSlop](solrdismaxquery.setphraseslop.md)
+- [SolrDisMaxQuery::setQueryPhraseSlop »](solrdismaxquery.setqueryphraseslop.md)
 
 - [PHP Manual](index.md)
 - [SolrDisMaxQuery](class.solrdismaxquery.md)

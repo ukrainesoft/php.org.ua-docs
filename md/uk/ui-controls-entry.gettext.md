@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Entry::\_\_construct](ui-controls-entry.construct.md)
+- [« UI\Controls\Entry::\_\_construct](ui-controls-entry.construct.md)
 - [UI\Controls\Entry::isReadOnly »](ui-controls-entry.isreadonly.md)
 
 - [PHP Manual](index.md)

@@ -1,4 +1,4 @@
-- [« Типи ресурсів] (rpminfo.resources.md)
+- [« Типи ресурсів](rpminfo.resources.md)
 - [Функції RpmInfo »](ref.rpminfo.md)
 
 - [PHP Manual](index.md)

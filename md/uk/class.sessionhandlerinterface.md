@@ -1,6 +1,5 @@
 - [« SessionHandler::write](sessionhandler.write.md)
-- [SessionHandlerInterface::close
-»](sessionhandlerinterface.close.md)
+- [SessionHandlerInterface::close »](sessionhandlerinterface.close.md)
 
 - [PHP Manual](index.md)
 - [Сесії](book.session.md)

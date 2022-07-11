@@ -1,5 +1,4 @@
-- [«
-mcrypt_enc_is_block_algorithm](function.mcrypt-enc-is-block-algorithm.md)
+- [« mcrypt_enc_is_block_algorithm](function.mcrypt-enc-is-block-algorithm.md)
 - [mcrypt_enc_self_test »](function.mcrypt-enc-self-test.md)
 
 - [PHP Manual](index.md)

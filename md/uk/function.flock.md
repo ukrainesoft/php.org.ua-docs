@@ -1,5 +1,5 @@
 - [«filetype](function.filetype.md)
-- [fnmatch »] (function.fnmatch.md)
+- [fnmatch »](function.fnmatch.md)
 
 - [PHP Manual](index.md)
 - [Функції файлової системи](ref.filesystem.md)

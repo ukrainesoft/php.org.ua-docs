@@ -2,8 +2,7 @@
 - [Встановлення та налаштування »](mongodb.setup.md)
 
 - [PHP Manual](index.md)
-- [Модулі для роботи з базами даних окремих
-виробників](refs.database.vendors.md)
+- [Модулі для роботи з базами даних окремих виробників](refs.database.vendors.md)
 - Драйвер MongoDB
 
 # Драйвер MongoDB
@@ -14,16 +13,13 @@
 Він надає мінімальне API для ключового функціоналу драйвера:
 [команди](class.mongodb-driver-command.md),
 [запити](class.mongodb-driver-query.md),
-[записи](class.mongodb-driver-bulkwrite.md), [управління
-з'єднанням](class.mongodb-driver-manager.md) та [серіалізація
-BSON] (book.bson.md).
+[записи](class.mongodb-driver-bulkwrite.md), [управління з'єднанням](class.mongodb-driver-manager.md) та [серіалізація BSON](book.bson.md).
 
 Саморобні бібліотеки PHP, які вимагають цей модуль, можуть надавати
 високорівневі API, такі як: збирачі запитів, методи-помічники для
 індивідуальних команд та GridFS. Розробники додатків повинні
 розглянути питання про використання цього модуля спільно з
-[» бібліотекою MongoDB
-PHP](https://github.com/mongodb/mongo-php-library), яка реалізує
+[» бібліотекою MongoDB PHP](https://github.com/mongodb/mongo-php-library), яка реалізує
 такі ж високорівневі драйвери API MongoDB, як і для інших мов.
 Подібний поділ завдань дозволяє цьому драйверу сконцентруватися на
 Основні завдання, що стоять перед ним - підвищення продуктивності.
@@ -38,8 +34,7 @@ PHP](https://github.com/mongodb/mongo-php-library), яка реалізує
 (PHPLIB)](mongodb.tutorial.library.md)
 - [Моніторинг продуктивності програми (Application
 Performance Monitoring або APM)](mongodb.tutorial.apm.md)
-- [Архітектура та внутрішній пристрій
-драйвера](mongodb.architecture.md) — Огляд архітектури драйвера та
+- [Архітектура та внутрішній пристрій драйвера](mongodb.architecture.md) — Огляд архітектури драйвера та
 її особливостей
 - [Архітектура](mongodb.overview.md) - Огляд архітектури
 - [З'єднання](mongodb.connection-handling.md) — Обробка
@@ -47,10 +42,8 @@ Performance Monitoring або APM)](mongodb.tutorial.apm.md)
 - [Постійні дані](mongodb.persistence.md) — Серіалізація та
 десеріалізація змінних PHP у MongoDB
 - [Безпека](mongodb.security.md)
-- [Атака за допомогою ін'єкцій у
-запиту](mongodb.security.request_injection.md)
-- [Атака за допомогою ін'єкцій у
-скриптах](mongodb.security.script_injection.md)
+- [Атака за допомогою ін'єкцій у запиту](mongodb.security.request_injection.md)
+- [Атака за допомогою ін'єкцій у скриптах](mongodb.security.script_injection.md)
 - [MongoDB\Driver](book.mongodb.md) - Класи драйвера MongoDB
 - [MongoDB\Driver\Manager](class.mongodb-driver-manager.md) -
 Клас MongoDB\Driver\Manager

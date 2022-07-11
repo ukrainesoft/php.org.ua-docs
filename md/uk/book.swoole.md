@@ -1,5 +1,4 @@
-- [«
-stream_wrapper_unregister](function.stream-wrapper-unregister.md)
+- [« stream_wrapper_unregister](function.stream-wrapper-unregister.md)
 - [Вступ »](intro.swoole.md)
 
 - [PHP Manual](index.md)

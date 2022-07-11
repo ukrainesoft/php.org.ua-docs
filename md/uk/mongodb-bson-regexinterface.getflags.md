@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)
-- [MongoDB\BSON\RegexInterface::getPattern
-»](mongodb-bson-regexinterface.getpattern.md)
+- [« MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)
+- [MongoDB\BSON\RegexInterface::getPattern »](mongodb-bson-regexinterface.getpattern.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\RegexInterface](class.mongodb-bson-regexinterface.md)

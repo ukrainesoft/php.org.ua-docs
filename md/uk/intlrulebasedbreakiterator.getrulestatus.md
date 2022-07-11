@@ -1,7 +1,5 @@
-- [«
-IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.md)
-- [IntlRuleBasedBreakIterator::getRuleStatusVec
-»](intlrulebasedbreakiterator.getrulestatusvec.md)
+- [« IntlRuleBasedBreakIterator::getRules](intlrulebasedbreakiterator.getrules.md)
+- [IntlRuleBasedBreakIterator::getRuleStatusVec »](intlrulebasedbreakiterator.getrulestatusvec.md)
 
 - [PHP Manual](index.md)
 - [IntlRuleBasedBreakIterator](class.intlrulebasedbreakiterator.md)

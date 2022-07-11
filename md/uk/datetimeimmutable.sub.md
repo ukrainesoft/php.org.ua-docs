@@ -1,5 +1,4 @@
-- [«
-DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md)
+- [« DateTimeImmutable::setTimezone](datetimeimmutable.settimezone.md)
 - [DateTimeInterface »](class.datetimeinterface.md)
 
 - [PHP Manual](index.md)

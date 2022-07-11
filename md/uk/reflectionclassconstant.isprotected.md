@@ -1,7 +1,5 @@
-- [«
-ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md)
-- [ReflectionClassConstant::isPublic
-»](reflectionclassconstant.ispublic.md)
+- [« ReflectionClassConstant::isPrivate](reflectionclassconstant.isprivate.md)
+- [ReflectionClassConstant::isPublic »](reflectionclassconstant.ispublic.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClassConstant](class.reflectionclassconstant.md)

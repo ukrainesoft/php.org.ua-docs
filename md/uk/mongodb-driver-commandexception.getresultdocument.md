@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Exception\CommandException](class.mongodb-driver-exception-commandexception.md)
-- [MongoDB\Driver\Exception\ConnectionException
-»](class.mongodb-driver-exception-connectionexception.md)
+- [« MongoDB\Driver\Exception\CommandException](class.mongodb-driver-exception-commandexception.md)
+- [MongoDB\Driver\Exception\ConnectionException »](class.mongodb-driver-exception-connectionexception.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Exception\CommandException](class.mongodb-driver-exception-commandexception.md)

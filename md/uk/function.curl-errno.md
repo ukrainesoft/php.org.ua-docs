@@ -42,5 +42,4 @@ curl_errno — Повертає код останньої помилки
 
 - [curl_error()](function.curl-error.md) - Повертає рядок з
 описом останньої помилки поточного сеансу
-- [» Коди помилок
-cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)
+- [» Коди помилок cURL](http://curl.haxx.se/libcurl/c/libcurl-errors.md)

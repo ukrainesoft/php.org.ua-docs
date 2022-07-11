@@ -1,6 +1,5 @@
 - [« Imagick::getImageSignature](imagick.getimagesignature.md)
-- [Imagick::getImageTicksPerSecond
-»](imagick.getimagetickspersecond.md)
+- [Imagick::getImageTicksPerSecond »](imagick.getimagetickspersecond.md)
 
 - [PHP Manual](index.md)
 - [Imagick](class.imagick.md)

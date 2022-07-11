@@ -1,5 +1,4 @@
-- [«
-Yaf_Config_Simple::offsetUnset](yaf-config-simple.offsetunset.md)
+- [« Yaf_Config_Simple::offsetUnset](yaf-config-simple.offsetunset.md)
 - [Yaf_Config_Simple::rewind »](yaf-config-simple.rewind.md)
 
 - [PHP Manual](index.md)

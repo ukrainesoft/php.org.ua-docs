@@ -1,6 +1,5 @@
 - [«SolrInputDocument::reset](solrinputdocument.reset.md)
-- [SolrInputDocument::setFieldBoost
-»](solrinputdocument.setfieldboost.md)
+- [SolrInputDocument::setFieldBoost »](solrinputdocument.setfieldboost.md)
 
 - [PHP Manual](index.md)
 - [SolrInputDocument](class.solrinputdocument.md)

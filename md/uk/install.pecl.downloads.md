@@ -18,8 +18,7 @@
 деталі.
 - `pecl download extname` Модулі PECL, що мають опубліковані релізи
 на сайті PECL, доступні для скачування та встановлення за допомогою
-[» команди
-pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php).
+[» команди pecl](https://pear.php.net/manual/en/guide.users.commandline.cli.php).
 Також можна вказати окремі ревізії для встановлення.
 - git Багато модулів PECL знаходяться на GitHub.
 - SVN Багато модулів PECL також знаходяться в SVN. Веб-інтерфейс для

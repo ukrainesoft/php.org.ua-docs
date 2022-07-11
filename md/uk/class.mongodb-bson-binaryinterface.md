@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.md)
-- [MongoDB\BSON\BinaryInterface::getData
-»](mongodb-bson-binaryinterface.getdata.md)
+- [« MongoDB\BSON\Unserializable::bsonUnserialize](mongodb-bson-unserializable.bsonunserialize.md)
+- [MongoDB\BSON\BinaryInterface::getData »](mongodb-bson-binaryinterface.getdata.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON](book.bson.md)

@@ -11,15 +11,15 @@
 
 - [CUBRID (PDO)](ref.pdo-cubrid.md)
 - [MS SQL Server (PDO_DBLIB)](ref.pdo-dblib.md)
-- [Firebird (PDO)] (ref.pdo-firebird.md)
-- [IBM (PDO)] (ref.pdo-ibm.md)
-- [Informix (PDO)] (ref.pdo-informix.md)
-- [MySQL (PDO)] (ref.pdo-mysql.md)
-- [MS SQL Server (PDO)] (ref.pdo-sqlsrv.md)
-- [Oracle (PDO)] (ref.pdo-oci.md)
+- [Firebird (PDO)](ref.pdo-firebird.md)
+- [IBM (PDO)](ref.pdo-ibm.md)
+- [Informix (PDO)](ref.pdo-informix.md)
+- [MySQL (PDO)](ref.pdo-mysql.md)
+- [MS SQL Server (PDO)](ref.pdo-sqlsrv.md)
+- [Oracle (PDO)](ref.pdo-oci.md)
 - [ODBC та DB2 (PDO)](ref.pdo-odbc.md)
-- [PostgreSQL (PDO)] (ref.pdo-pgsql.md)
-- [SQLite (PDO)] (ref.pdo-sqlite.md)
+- [PostgreSQL (PDO)](ref.pdo-pgsql.md)
+- [SQLite (PDO)](ref.pdo-sqlite.md)
 
 Наступні драйвери в даний час реалізовані в PDO:
 

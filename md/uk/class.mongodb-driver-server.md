@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\CursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md)
-- [MongoDB\Driver\Server::\_\_construct
-»](mongodb-driver-server.construct.md)
+- [« MongoDB\Driver\CursorInterface::toArray](mongodb-driver-cursorinterface.toarray.md)
+- [MongoDB\Driver\Server::\_\_construct »](mongodb-driver-server.construct.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver](book.mongodb.md)

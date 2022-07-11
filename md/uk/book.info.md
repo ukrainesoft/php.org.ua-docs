@@ -1,5 +1,4 @@
-- [«
-output_reset_rewrite_vars](function.output-reset-rewrite-vars.md)
+- [« output_reset_rewrite_vars](function.output-reset-rewrite-vars.md)
 - [Вступ »](intro.info.md)
 
 - [PHP Manual](index.md)

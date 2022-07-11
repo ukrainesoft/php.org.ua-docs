@@ -1,5 +1,4 @@
-- [«
-zip_entry_compressionmethod](function.zip-entry-compressionmethod.md)
+- [« zip_entry_compressionmethod](function.zip-entry-compressionmethod.md)
 - [zip_entry_name »](function.zip-entry-name.md)
 
 - [PHP Manual](index.md)

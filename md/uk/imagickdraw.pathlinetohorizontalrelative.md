@@ -1,7 +1,5 @@
-- [«
-ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.md)
-- [ImagickDraw::pathLineToRelative
-»](imagickdraw.pathlinetorelative.md)
+- [« ImagickDraw::pathLineToHorizontalAbsolute](imagickdraw.pathlinetohorizontalabsolute.md)
+- [ImagickDraw::pathLineToRelative »](imagickdraw.pathlinetorelative.md)
 
 - [PHP Manual](index.md)
 - [ImagickDraw](class.imagickdraw.md)

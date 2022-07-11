@@ -1,6 +1,5 @@
 - [«EventBufferEvent::read](eventbufferevent.read.md)
-- [EventBufferEvent::setCallbacks
-»](eventbufferevent.setcallbacks.md)
+- [EventBufferEvent::setCallbacks »](eventbufferevent.setcallbacks.md)
 
 - [PHP Manual](index.md)
 - [EventBufferEvent](class.eventbufferevent.md)

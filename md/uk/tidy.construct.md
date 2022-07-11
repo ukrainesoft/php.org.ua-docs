@@ -2,7 +2,7 @@
 - [tidy::diagnose »](tidy.diagnose.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - створює новий tidy-об'єкт
 
 # tidy::\_\_construct

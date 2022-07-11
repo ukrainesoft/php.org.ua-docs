@@ -1,5 +1,5 @@
 - [«Зумовлені константи](array.constants.md)
-- [Функції для роботи з масивами»] (ref.array.md)
+- [Функції для роботи з масивами»](ref.array.md)
 
 - [PHP Manual](index.md)
 - [Массиви](book.array.md)

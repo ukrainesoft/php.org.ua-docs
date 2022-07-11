@@ -1,7 +1,5 @@
-- [«
-ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)
-- [ReflectionEnumUnitCase::getValue
-»](reflectionenumunitcase.getvalue.md)
+- [« ReflectionEnumUnitCase::\_\_construct](reflectionenumunitcase.construct.md)
+- [ReflectionEnumUnitCase::getValue »](reflectionenumunitcase.getvalue.md)
 
 - [PHP Manual](index.md)
 - [ReflectionEnumUnitCase](class.reflectionenumunitcase.md)

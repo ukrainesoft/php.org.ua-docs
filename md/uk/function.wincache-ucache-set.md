@@ -1,5 +1,5 @@
 - [«wincache_ucache_meminfo](function.wincache-ucache-meminfo.md)
-- [wincache_unlock »] (function.wincache-unlock.md)
+- [wincache_unlock »](function.wincache-unlock.md)
 
 - [PHP Manual](index.md)
 - [Функції WinCache](ref.wincache.md)

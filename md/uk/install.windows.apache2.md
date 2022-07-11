@@ -1,7 +1,5 @@
-- [« Командний рядок PHP у Microsoft
-Windows](install.windows.commandline.md)
-- [Стандартні проблеми PHP під Windows
-»](install.windows.troubleshooting.md)
+- [« Командний рядок PHP у Microsoft Windows](install.windows.commandline.md)
+- [Стандартні проблеми PHP під Windows »](install.windows.troubleshooting.md)
 
 - [PHP Manual](index.md)
 - [Установка Windows](install.windows.md)
@@ -14,18 +12,14 @@ Apache 2.x на системах Microsoft Windows.
 
 > **Примітка**:
 >
-> Спочатку слід прочитати [кроки ручний
-> установки](install.windows.manual.md)!
+> Спочатку слід прочитати [кроки ручний > установки](install.windows.manual.md)!
 
-Вкрай рекомендується звернутися до [»  Документації
-Apache](http://httpd.apache.org/docs/current/), щоб отримати базове
+Вкрай рекомендується звернутися до [»  Документації Apache](http://httpd.apache.org/docs/current/), щоб отримати базове
 уявлення про сервер Apache 2.x. Також подумайте про читання [»
-Приміток для
-Windows](http://httpd.apache.org/docs/current/platform/windows.md) для
+Приміток для Windows](http://httpd.apache.org/docs/current/platform/windows.md) для
 Apache 2.x перед читанням цього посібника.
 
-Завантажте останню версію [» Apache
-2.x](https://www.apachelounge.com/download/) та відповідну версію PHP.
+Завантажте останню версію [» Apache 2.x](https://www.apachelounge.com/download/) та відповідну версію PHP.
 Виконайте кроки ручної установки (install.windows.manual.md) та
 повертайтеся, щоб продовжити інтеграцію PHP та Apache.
 
@@ -63,8 +57,7 @@ PHPIniDir "C:/php"
 
 ### Запуск PHP як CGI
 
-Рекомендуємо звернутися до [» Документації Apache
-CGI](http://httpd.apache.org/docs/current/howto/cgi.md) для більш
+Рекомендуємо звернутися до [» Документації Apache CGI](http://httpd.apache.org/docs/current/howto/cgi.md) для більш
 повне розуміння того, як запускати CGI в Apache.
 
 Щоб запустити PHP як CGI, файли php-cgi повинні бути поміщені в
@@ -84,8 +77,7 @@ phpinfo();
 **Увага**
 
 Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими
-вразливості. Будь ласка, ознайомтесь із розділом ["Безпека
-CGI"](security.cgi-bin.md) щоб дізнатися, як можна захистити себе від
+вразливості. Будь ласка, ознайомтесь із розділом ["Безпека CGI"](security.cgi-bin.md) щоб дізнатися, як можна захистити себе від
 таких атак.
 
 ### Запуск PHP під FastCGI

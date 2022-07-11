@@ -1,5 +1,5 @@
 - [«eio_nthreads](function.eio-nthreads.md)
-- [eio_poll »] (function.eio-poll.md)
+- [eio_poll »](function.eio-poll.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

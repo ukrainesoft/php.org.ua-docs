@@ -1,5 +1,4 @@
-- [«
-timezone_abbreviations_list](function.timezone-abbreviations-list.md)
+- [« timezone_abbreviations_list](function.timezone-abbreviations-list.md)
 - [timezone_location_get »](function.timezone-location-get.md)
 
 - [PHP Manual](index.md)

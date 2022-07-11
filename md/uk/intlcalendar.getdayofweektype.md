@@ -1,5 +1,4 @@
-- [«
-IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md)
+- [« IntlCalendar::getAvailableLocales](intlcalendar.getavailablelocales.md)
 - [IntlCalendar::getErrorCode »](intlcalendar.geterrorcode.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [«SolrQuery::getGroupTruncate](solrquery.getgrouptruncate.md)
-- [SolrQuery::getHighlightAlternateField
-»](solrquery.gethighlightalternatefield.md)
+- [SolrQuery::getHighlightAlternateField »](solrquery.gethighlightalternatefield.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

@@ -1,5 +1,5 @@
 - [« swoole_event_add](function.swoole-event-add.md)
-- [swoole_event_del »] (function.swoole-event-del.md)
+- [swoole_event_del »](function.swoole-event-del.md)
 
 - [PHP Manual](index.md)
 - [Функції Swoole](ref.swoole-funcs.md)

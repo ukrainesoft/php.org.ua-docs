@@ -1,5 +1,4 @@
-- [«
-mcrypt_enc_get_algorithms_name](function.mcrypt-enc-get-algorithms-name.md)
+- [« mcrypt_enc_get_algorithms_name](function.mcrypt-enc-get-algorithms-name.md)
 - [mcrypt_enc_get_iv_size »](function.mcrypt-enc-get-iv-size.md)
 
 - [PHP Manual](index.md)

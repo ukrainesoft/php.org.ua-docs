@@ -1,5 +1,4 @@
-- [«
-$http_response_header](reserved.variables.httpresponseheader.md)
+- [« $http_response_header](reserved.variables.httpresponseheader.md)
 - [$argv »](reserved.variables.argv.md)
 
 - [PHP Manual](index.md)

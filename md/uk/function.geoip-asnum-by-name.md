@@ -1,6 +1,5 @@
 - [« Функції GeoIP](ref.geoip.md)
-- [geoip_continent_code_by_name
-»](function.geoip-continent-code-by-name.md)
+- [geoip_continent_code_by_name »](function.geoip-continent-code-by-name.md)
 
 - [PHP Manual](index.md)
 - [Функції GeoIP](ref.geoip.md)

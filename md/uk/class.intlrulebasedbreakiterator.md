@@ -1,6 +1,5 @@
 - [« IntlBreakIterator::setText](intlbreakiterator.settext.md)
-- [IntlRuleBasedBreakIterator::\_\_construct
-»](intlrulebasedbreakiterator.construct.md)
+- [IntlRuleBasedBreakIterator::\_\_construct »](intlrulebasedbreakiterator.construct.md)
 
 - [PHP Manual](index.md)
 - [intl](book.intl.md)
@@ -16,8 +15,7 @@
 реалізує ітератор переривань ICU, чия поведінка задано набором правил.
 Це найчастіше використовуваний тип ітератора переривань.
 
-Правила описані в розділі [» Керівництво користувача з аналізу кордонів
-ICU](http://userguide.icu-project.org/boundaryanalysis#TOC-RBBI-Rules).
+Правила описані в розділі [» Керівництво користувача з аналізу кордонів ICU](http://userguide.icu-project.org/boundaryanalysis#TOC-RBBI-Rules).
 
 ## Огляд класів
 

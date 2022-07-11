@@ -1,7 +1,5 @@
-- [«
-ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
-- [ReflectionMethod::getPrototype
-»](reflectionmethod.getprototype.md)
+- [« ReflectionMethod::getDeclaringClass](reflectionmethod.getdeclaringclass.md)
+- [ReflectionMethod::getPrototype »](reflectionmethod.getprototype.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)
@@ -26,8 +24,7 @@ public **ReflectionMethod::getModifiers**(): int
 ### Значення, що повертаються
 
 Числове уявлення модифікаторів. Описи та значення цих
-модифікаторів наведено у списку [визначених
-констант](class.reflectionmethod.md#reflectionmethod.constants.modifiers).
+модифікаторів наведено у списку [визначених констант](class.reflectionmethod.md#reflectionmethod.constants.modifiers).
 
 ### Приклади
 

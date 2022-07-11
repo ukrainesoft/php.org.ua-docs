@@ -1,6 +1,5 @@
 - [« ReflectionMethod::isPublic](reflectionmethod.ispublic.md)
-- [ReflectionMethod::setAccessible
-»](reflectionmethod.setaccessible.md)
+- [ReflectionMethod::setAccessible »](reflectionmethod.setaccessible.md)
 
 - [PHP Manual](index.md)
 - [ReflectionMethod](class.reflectionmethod.md)

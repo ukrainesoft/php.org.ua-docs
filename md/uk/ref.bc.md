@@ -1,5 +1,5 @@
 - [«Зумовлені константи](bc.constants.md)
-- [bcadd »] (function.bcadd.md)
+- [bcadd »](function.bcadd.md)
 
 - [PHP Manual](index.md)
 - [BC Math](book.bc.md)

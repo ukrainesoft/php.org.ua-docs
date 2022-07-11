@@ -1,5 +1,4 @@
-- [«
-fann_get_activation_function](function.fann-get-activation-function.md)
+- [« fann_get_activation_function](function.fann-get-activation-function.md)
 - [fann_get_bias_array »](function.fann-get-bias-array.md)
 
 - [PHP Manual](index.md)

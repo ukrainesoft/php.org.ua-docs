@@ -95,8 +95,7 @@ DirectoryIndex index.md index.php
 `/usr/local/php/php.ini` та виклик [phpinfo()](function.phpinfo.md)
 виведе відповідну інформацію. Якщо `php.ini` не використовується,
 PHP використовуватиме значення за замовчуванням. Також зверніть
-увага на FAQ [пошук
-php.ini](faq.installation.md#faq.installation.phpini).
+увага на FAQ [пошук php.ini](faq.installation.md#faq.installation.phpini).
 
 6. Як знайти або встановити `DocumentRoot` DocumentRoot - це коренева
 директорія веб-сервера, де лежать скрипти сайту. Зазвичай, шлях

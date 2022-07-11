@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\TopologyDescription::getType](mongodb-driver-topologydescription.gettype.md)
-- [MongoDB\Driver\TopologyDescription::hasWritableServer
-»](mongodb-driver-topologydescription.haswritableserver.md)
+- [« MongoDB\Driver\TopologyDescription::getType](mongodb-driver-topologydescription.gettype.md)
+- [MongoDB\Driver\TopologyDescription::hasWritableServer »](mongodb-driver-topologydescription.haswritableserver.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\TopologyDescription](class.mongodb-driver-topologydescription.md)

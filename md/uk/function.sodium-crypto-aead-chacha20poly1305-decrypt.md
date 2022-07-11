@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_aead_aes256gcm_keygen](function.sodium-crypto-aead-aes256gcm-keygen.md)
-- [sodium_crypto_aead_chacha20poly1305_encrypt
-»](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
+- [« sodium_crypto_aead_aes256gcm_keygen](function.sodium-crypto-aead-aes256gcm-keygen.md)
+- [sodium_crypto_aead_chacha20poly1305_encrypt »](function.sodium-crypto-aead-chacha20poly1305-encrypt.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

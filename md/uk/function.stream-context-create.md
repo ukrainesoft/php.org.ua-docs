@@ -1,6 +1,5 @@
 - [«stream_bucket_prepend](function.stream-bucket-prepend.md)
-- [stream_context_get_default
-»](function.stream-context-get-default.md)
+- [stream_context_get_default »](function.stream-context-get-default.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)
@@ -24,15 +23,13 @@ stream_context_create — Створює контекст потоку
 
 `options`
 Має бути асоціативним масивом у форматі
-`$arr['wrapper']['option'] u003d $value` або **`null`**. Список доступних
-оберток та опцій дивіться у розділі [Опції контексту](context.md)
+`$arr['wrapper']['option'] u003d $value` або **`null`**. Список доступних оберток та опцій дивіться у розділі [Опції контексту](context.md)
 
 Значення за замовчуванням - ** `null`**.
 
 `params`
 Має бути асоціативним масивом у форматі
-`$arr['parameter'] u003d $value` або **`null`**. Зверніться до розділу [Опції
-контекста](context.params.md) за списком стандартних параметрів
+`$arr['parameter'] u003d $value` або **`null`**. Зверніться до розділу [Опції контекста](context.params.md) за списком стандартних параметрів
 потоку.
 
 ### Значення, що повертаються
@@ -57,6 +54,5 @@ Cookie:foou003dbar
 
 - [stream_context_set_option()](function.stream-context-set-option.md) -
 Встановлює опцію для потоку/обгортки/контексту
-- Список підтримуваних обгорток ([Підтримувані протоколи та
-обгортки](wrappers.md))
+- Список підтримуваних обгорток ([Підтримувані протоколи та обгортки](wrappers.md))
 - Опції контексту ([Контекстні опції та параметри](context.md))

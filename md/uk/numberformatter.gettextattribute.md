@@ -1,6 +1,5 @@
 - [«NumberFormatter::getSymbol](numberformatter.getsymbol.md)
-- [NumberFormatter::parseCurrency
-»](numberformatter.parsecurrency.md)
+- [NumberFormatter::parseCurrency »](numberformatter.parsecurrency.md)
 
 - [PHP Manual](index.md)
 - [NumberFormatter](class.numberformatter.md)
@@ -40,8 +39,7 @@ string\|false
 Об'єкт [NumberFormatter](class.numberformatter.md).
 
 `attribute`
-Специфікатор атрибута - одна із констант [текстового
-атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute).
+Специфікатор атрибута - одна із констант [текстового атрибута](class.numberformatter.md#intl.numberformatter-constants.unumberformattextattribute).
 
 ### Значення, що повертаються
 

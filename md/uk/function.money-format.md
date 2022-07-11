@@ -1,5 +1,5 @@
 - [«metaphone](function.metaphone.md)
-- [nl_langinfo »] (function.nl-langinfo.md)
+- [nl_langinfo »](function.nl-langinfo.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)

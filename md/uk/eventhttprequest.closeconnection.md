@@ -1,5 +1,4 @@
-- [«
-EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md)
+- [« EventHttpRequest::clearHeaders](eventhttprequest.clearheaders.md)
 - [EventHttpRequest::\_\_construct »](eventhttprequest.construct.md)
 
 - [PHP Manual](index.md)

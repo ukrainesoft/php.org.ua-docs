@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::getTransactionState](mongodb-driver-session.gettransactionstate.md)
-- [MongoDB\Driver\Session::isInTransaction
-»](mongodb-driver-session.isintransaction.md)
+- [« MongoDB\Driver\Session::getTransactionState](mongodb-driver-session.gettransactionstate.md)
+- [MongoDB\Driver\Session::isInTransaction »](mongodb-driver-session.isintransaction.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

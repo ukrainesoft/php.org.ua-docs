@@ -1,5 +1,5 @@
 - [«bcadd](function.bcadd.md)
-- [bcdiv »] (function.bcdiv.md)
+- [bcdiv »](function.bcdiv.md)
 
 - [PHP Manual](index.md)
 - [Функції BC Math](ref.bc.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md)
-- [MongoDB\BSON\Binary::\_\_toString
-»](mongodb-bson-binary.tostring.md)
+- [« MongoDB\BSON\Binary::jsonSerialize](mongodb-bson-binary.jsonserialize.md)
+- [MongoDB\BSON\Binary::\_\_toString »](mongodb-bson-binary.tostring.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\BSON\Binary](class.mongodb-bson-binary.md)

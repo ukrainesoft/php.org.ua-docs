@@ -1,7 +1,5 @@
-- [«
-RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.md)
-- [RecursiveTreeIterator::current
-»](recursivetreeiterator.current.md)
+- [« RecursiveTreeIterator::callHasChildren](recursivetreeiterator.callhaschildren.md)
+- [RecursiveTreeIterator::current »](recursivetreeiterator.current.md)
 
 - [PHP Manual](index.md)
 - [RecursiveTreeIterator](class.recursivetreeiterator.md)
@@ -41,8 +39,7 @@ int `$mode` u003d RecursiveTreeIterator::SELF_FIRST
 
 `flags`
 Прапори впливають поведінка деяких методів класу. Список можливих
-прапорів можна знайти на сторінці [Предвизначених констант
-RecursiveTreeIterator](class.recursivetreeiterator.md#recursivetreeiterator.constants).
+прапорів можна знайти на сторінці [Предвизначених констант RecursiveTreeIterator](class.recursivetreeiterator.md#recursivetreeiterator.constants).
 
 `caching_it_flags`
 Прапори для налаштування внутрішнього об'єкта

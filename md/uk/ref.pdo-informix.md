@@ -16,12 +16,10 @@ PDO_INFORMIX - це драйвер, що реалізує інтерфейс [PH
 
 Для складання модуля PDO_INFORMIX вам потрібно встановити на тому ж
 хості Informix Client SDK 2.81 UC1 або вище. Informix Client SDK можна
-завантажити з [» сайту підтримки IBM
-Informix](http://www-306.ibm.com/software/data/informix/tools/csdk/).
+завантажити з [» сайту підтримки IBM Informix](http://www-306.ibm.com/software/data/informix/tools/csdk/).
 
 PDO_INFORMIX є модулем [»PECL](https://pecl.php.net/), так що
-для його встановлення слідуйте наступним інструкціям [Установка модулів
-PECL](install.pecl.md). Виконайте команду **configure**, вказавши
+для його встановлення слідуйте наступним інструкціям [Установка модулів PECL](install.pecl.md). Виконайте команду **configure**, вказавши
 розташування заголовних файлів та бібліотек Informix Client SDK:
 
 bash$ ./configure --with-pdo-informixu003d/path/to/SDK[,shared]

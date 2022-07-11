@@ -1,6 +1,5 @@
 - [«UI\Draw\Path::lineTo](ui-draw-path.lineto.md)
-- [UI\Draw\Path::newFigureWithArc
-»](ui-draw-path.newfigurewitharc.md)
+- [UI\Draw\Path::newFigureWithArc »](ui-draw-path.newfigurewitharc.md)
 
 - [PHP Manual](index.md)
 - [UI\Draw\Path](class.ui-draw-path.md)

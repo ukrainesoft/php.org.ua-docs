@@ -1,5 +1,5 @@
 - [«gzread](function.gzread.md)
-- [gzseek »] (function.gzseek.md)
+- [gzseek »](function.gzseek.md)
 
 - [PHP Manual](index.md)
 - [Функції Zlib](ref.zlib.md)

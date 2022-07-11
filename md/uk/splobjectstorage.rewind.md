@@ -1,5 +1,4 @@
-- [«
-SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.md)
+- [« SplObjectStorage::removeAllExcept](splobjectstorage.removeallexcept.md)
 - [SplObjectStorage::serialize »](splobjectstorage.serialize.md)
 
 - [PHP Manual](index.md)

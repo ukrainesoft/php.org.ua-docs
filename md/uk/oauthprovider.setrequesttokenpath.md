@@ -1,6 +1,5 @@
 - [« OAuthProvider::setParam](oauthprovider.setparam.md)
-- [OAuthProvider::timestampNonceHandler
-»](oauthprovider.timestampnoncehandler.md)
+- [OAuthProvider::timestampNonceHandler »](oauthprovider.timestampnoncehandler.md)
 
 - [PHP Manual](index.md)
 - [OAuthProvider](class.oauthprovider.md)

@@ -24,19 +24,16 @@ Imagick був скомпілюваний з версією ImageMagick 6.4.5 а
 ### Список параметрів
 
 `SPARSE_METHOD`
-Зверніться до списку [sparse method
-constants](imagick.constants.md#imagick.constants.sparsecolormethod)
+Зверніться до списку [sparse method constants](imagick.constants.md#imagick.constants.sparsecolormethod)
 
 `arguments`
 Масив, що містить координати. Масив у форматі `array(1,1, 2,45)`
 
 `channel`
 Надайте будь-яку коректну для вашого режиму каналу константу. Для
-застосування до більш ніж одного каналу, комбінуйте [константи
-каналов](imagick.constants.md#imagick.constants.channel) за допомогою
+застосування до більш ніж одного каналу, комбінуйте [константи каналов](imagick.constants.md#imagick.constants.channel) за допомогою
 побітових операторів. За промовчанням одно **`Imagick::CHANNEL_DEFAULT`**.
-Зверніться до списку [констант
-каналов](imagick.constants.md#imagick.constants.channel)
+Зверніться до списку [констант каналов](imagick.constants.md#imagick.constants.channel)
 
 ### Значення, що повертаються
 

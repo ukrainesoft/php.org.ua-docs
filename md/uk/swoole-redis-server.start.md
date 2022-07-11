@@ -1,5 +1,4 @@
-- [«
-Swoole\Redis\Server::setHandler](swoole-redis-server.sethandler.md)
+- [« Swoole\Redis\Server::setHandler](swoole-redis-server.sethandler.md)
 - [Swoole\Serialize »](class.swoole-serialize.md)
 
 - [PHP Manual](index.md)

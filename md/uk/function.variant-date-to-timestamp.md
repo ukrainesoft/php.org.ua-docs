@@ -1,6 +1,5 @@
-- [«
-variant_date_from_timestamp](function.variant-date-from-timestamp.md)
-- [variant_div »] (function.variant-div.md)
+- [« variant_date_from_timestamp](function.variant-date-from-timestamp.md)
+- [variant_div »](function.variant-div.md)
 
 - [PHP Manual](index.md)
 - [Функції COM](ref.com.md)

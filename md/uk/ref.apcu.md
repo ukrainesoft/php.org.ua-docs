@@ -1,5 +1,5 @@
 - [«Зумовлені константи](apcu.constants.md)
-- [apcu_add »] (function.apcu-add.md)
+- [apcu_add »](function.apcu-add.md)
 
 - [PHP Manual](index.md)
 - [APCu](book.apcu.md)

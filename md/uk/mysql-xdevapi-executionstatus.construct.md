@@ -1,5 +1,4 @@
-- [«
-mysql_xdevapi\ExecutionStatus](class.mysql-xdevapi-executionstatus.md)
+- [« mysql_xdevapi\ExecutionStatus](class.mysql-xdevapi-executionstatus.md)
 - [mysql_xdevapi\Expression »](class.mysql-xdevapi-expression.md)
 
 - [PHP Manual](index.md)

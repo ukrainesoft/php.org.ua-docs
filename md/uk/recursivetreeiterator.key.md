@@ -1,5 +1,4 @@
-- [«
-RecursiveTreeIterator::getPrefix](recursivetreeiterator.getprefix.md)
+- [« RecursiveTreeIterator::getPrefix](recursivetreeiterator.getprefix.md)
 - [RecursiveTreeIterator::next »](recursivetreeiterator.next.md)
 
 - [PHP Manual](index.md)

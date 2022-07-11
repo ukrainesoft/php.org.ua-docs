@@ -64,6 +64,5 @@ string(6) "anyone"
 вузол
 - [Zookeeper::setAcl()](zookeeper.setacl.md) - Встановлює ACL,
 пов'язаний з вузлом синхронно
-- [Дозволи
-ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
+- [Дозволи ZooKeeper](class.zookeeper.md#zookeeper.class.constants.perms)
 - [ZookeeperException](class.zookeeperexception.md)

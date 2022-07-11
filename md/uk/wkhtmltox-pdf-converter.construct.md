@@ -1,6 +1,5 @@
 - [«wkhtmltox\PDF\Converter::add](wkhtmltox-pdf-converter.add.md)
-- [wkhtmltox\PDF\Converter::convert
-»](wkhtmltox-pdf-converter.convert.md)
+- [wkhtmltox\PDF\Converter::convert »](wkhtmltox-pdf-converter.convert.md)
 
 - [PHP Manual](index.md)
 - [wkhtmltox\PDF\Converter](class.wkhtmltox-pdf-converter.md)

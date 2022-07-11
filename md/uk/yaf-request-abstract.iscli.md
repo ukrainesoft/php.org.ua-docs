@@ -1,7 +1,5 @@
-- [«
-Yaf_Request_Abstract::getServer](yaf-request-abstract.getserver.md)
-- [Yaf_Request_Abstract::isDispatched
-»](yaf-request-abstract.isdispatched.md)
+- [« Yaf_Request_Abstract::getServer](yaf-request-abstract.getserver.md)
+- [Yaf_Request_Abstract::isDispatched »](yaf-request-abstract.isdispatched.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

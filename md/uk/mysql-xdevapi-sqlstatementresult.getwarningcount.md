@@ -1,7 +1,5 @@
-- [«
-SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.md)
-- [SqlStatementResult::hasData
-»](mysql-xdevapi-sqlstatementresult.hasdata.md)
+- [« SqlStatementResult::getWarnings](mysql-xdevapi-sqlstatementresult.getwarnings.md)
+- [SqlStatementResult::hasData »](mysql-xdevapi-sqlstatementresult.hasdata.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\SqlStatementResult](class.mysql-xdevapi-sqlstatementresult.md)

@@ -1,6 +1,5 @@
 - [« Базове використання](gearman.examples-reverse.md)
-- [Базові клієнт та обробник Gearman, відправка завдань
-»](gearman.examples-reverse-task.md)
+- [Базові клієнт та обробник Gearman, відправка завдань »](gearman.examples-reverse-task.md)
 
 - [PHP Manual](index.md)
 - [Приклади](gearman.examples.md)

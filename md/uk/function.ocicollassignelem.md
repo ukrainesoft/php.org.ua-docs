@@ -1,5 +1,5 @@
 - [« ocicollassign](function.ocicollassign.md)
-- [ocicollgetelem »] (function.ocicollgetelem.md)
+- [ocicollgetelem »](function.ocicollgetelem.md)
 
 - [PHP Manual](index.md)
 - [Застарілі найменування та функції OCI8](oldaliases.oci8.md)

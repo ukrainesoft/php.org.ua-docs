@@ -1,5 +1,5 @@
 - [«hash_update_stream](function.hash-update-stream.md)
-- [hash »] (function.hash.md)
+- [hash »](function.hash.md)
 
 - [PHP Manual](index.md)
 - [Функції Hash](ref.hash.md)

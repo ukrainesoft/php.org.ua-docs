@@ -1,6 +1,5 @@
 - [« Приклади](xsl.examples.md)
-- [Обробка помилок за допомогою функцій обробки помилок libxml
-»](xsl.examples-errors.md)
+- [Обробка помилок за допомогою функцій обробки помилок libxml »](xsl.examples-errors.md)
 
 - [PHP Manual](index.md)
 - [Приклади](xsl.examples.md)

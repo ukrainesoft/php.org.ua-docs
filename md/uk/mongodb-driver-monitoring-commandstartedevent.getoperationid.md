@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName](mongodb-driver-monitoring-commandstartedevent.getdatabasename.md)
-- [MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId
-»](mongodb-driver-monitoring-commandstartedevent.getrequestid.md)
+- [« MongoDB\Driver\Monitoring\CommandStartedEvent::getDatabaseName](mongodb-driver-monitoring-commandstartedevent.getdatabasename.md)
+- [MongoDB\Driver\Monitoring\CommandStartedEvent::getRequestId »](mongodb-driver-monitoring-commandstartedevent.getrequestid.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Monitoring\CommandStartedEvent](class.mongodb-driver-monitoring-commandstartedevent.md)

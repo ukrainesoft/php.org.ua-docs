@@ -1,5 +1,4 @@
-- [«
-ZookeeperOperationTimeoutException](class.zookeeperoperationtimeoutexception.md)
+- [« ZookeeperOperationTimeoutException](class.zookeeperoperationtimeoutexception.md)
 - [Модулі для роботи із пошуковими системами »](refs.search.md)
 
 - [PHP Manual](index.md)
@@ -31,9 +30,8 @@ protected string `$file` u003d "";
 
 protected int `$line`;
 
-private array `$trace` u003d \[\];
-
-private ?[Throwable](class.throwable.md) `$previous` u003d null;
+private array `$trace` u003d [];
+ private ?[Throwable](class.throwable.md) `$previous` u003d null;
 
 /\* Наслідувані методи \*/
 

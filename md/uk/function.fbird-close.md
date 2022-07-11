@@ -1,5 +1,5 @@
 - [«fbird_blob_open](function.fbird-blob-open.md)
-- [fbird_commit_ret »] (function.fbird-commit-ret.md)
+- [fbird_commit_ret »](function.fbird-commit-ret.md)
 
 - [PHP Manual](index.md)
 - [Функції Firebird/InterBase](ref.ibase.md)

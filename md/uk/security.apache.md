@@ -1,6 +1,5 @@
-- [« Варіант 4: PHP поза деревом
-веб-документів](security.cgi-bin.shell.md)
-- [Безпека сесій»] (security.sessions.md)
+- [« Варіант 4: PHP поза деревом веб-документів](security.cgi-bin.shell.md)
+- [Безпека сесій»](security.sessions.md)
 
 - [PHP Manual](index.md)
 - [Безпека](security.md)

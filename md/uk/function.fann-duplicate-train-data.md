@@ -1,6 +1,5 @@
 - [« fann_destroy](function.fann-destroy.md)
-- [fann_get_activation_function
-»](function.fann-get-activation-function.md)
+- [fann_get_activation_function »](function.fann-get-activation-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

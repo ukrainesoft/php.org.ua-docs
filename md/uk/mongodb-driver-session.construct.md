@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\Session::commitTransaction](mongodb-driver-session.committransaction.md)
-- [MongoDB\Driver\Session::endSession
-»](mongodb-driver-session.endsession.md)
+- [« MongoDB\Driver\Session::commitTransaction](mongodb-driver-session.committransaction.md)
+- [MongoDB\Driver\Session::endSession »](mongodb-driver-session.endsession.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\Session](class.mongodb-driver-session.md)

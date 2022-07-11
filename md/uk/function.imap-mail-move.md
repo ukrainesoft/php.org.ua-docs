@@ -1,5 +1,5 @@
 - [« imap_mail_copy](function.imap-mail-copy.md)
-- [imap_mail »] (function.imap-mail.md)
+- [imap_mail »](function.imap-mail.md)
 
 - [PHP Manual](index.md)
 - [Функції IMAP](ref.imap.md)

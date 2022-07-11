@@ -1,5 +1,4 @@
-- [«
-enchant_dict_add_to_personal](function.enchant-dict-add-to-personal.md)
+- [« enchant_dict_add_to_personal](function.enchant-dict-add-to-personal.md)
 - [enchant_dict_add »](function.enchant-dict-add.md)
 
 - [PHP Manual](index.md)

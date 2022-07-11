@@ -1,5 +1,5 @@
 - [«eio_event_loop](function.eio-event-loop.md)
-- [eio_fchmod »] (function.eio-fchmod.md)
+- [eio_fchmod »](function.eio-fchmod.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

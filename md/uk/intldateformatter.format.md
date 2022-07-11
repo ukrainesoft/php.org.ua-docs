@@ -1,6 +1,5 @@
 - [« IntlDateFormatter::create](intldateformatter.create.md)
-- [IntlDateFormatter::formatObject
-»](intldateformatter.formatobject.md)
+- [IntlDateFormatter::formatObject »](intldateformatter.formatobject.md)
 
 - [PHP Manual](index.md)
 - [IntlDateFormatter](class.intldateformatter.md)

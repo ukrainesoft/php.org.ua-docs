@@ -1,7 +1,5 @@
-- [«
-ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md)
-- [ReflectionZendExtension::\_\_clone
-»](reflectionzendextension.clone.md)
+- [« ReflectionEnumBackedCase::getBackingValue](reflectionenumbackedcase.getbackingvalue.md)
+- [ReflectionZendExtension::\_\_clone »](reflectionzendextension.clone.md)
 
 - [PHP Manual](index.md)
 - [Reflection](book.reflection.md)

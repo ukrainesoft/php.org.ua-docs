@@ -1,6 +1,5 @@
 - [« Swoole\WebSocket\Frame](class.swoole-websocket-frame.md)
-- [Swoole\WebSocket\Server::exist
-»](swoole-websocket-server.exist.md)
+- [Swoole\WebSocket\Server::exist »](swoole-websocket-server.exist.md)
 
 - [PHP Manual](index.md)
 - [Swoole](book.swoole.md)

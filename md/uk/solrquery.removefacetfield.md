@@ -1,5 +1,4 @@
-- [«
-SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.md)
+- [« SolrQuery::removeFacetDateOther](solrquery.removefacetdateother.md)
 - [SolrQuery::removeFacetQuery »](solrquery.removefacetquery.md)
 
 - [PHP Manual](index.md)

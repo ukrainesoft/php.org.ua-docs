@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Regex::\_\_toString](mongodb-bson-regex.tostring.md)
+- [« MongoDB\BSON\Regex::\_\_toString](mongodb-bson-regex.tostring.md)
 - [MongoDB\BSON\Timestamp »](class.mongodb-bson-timestamp.md)
 
 - [PHP Manual](index.md)

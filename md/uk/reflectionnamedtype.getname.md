@@ -1,6 +1,5 @@
 - [«ReflectionNamedType](class.reflectionnamedtype.md)
-- [ReflectionNamedType::isBuiltin
-»](reflectionnamedtype.isbuiltin.md)
+- [ReflectionNamedType::isBuiltin »](reflectionnamedtype.isbuiltin.md)
 
 - [PHP Manual](index.md)
 - [ReflectionNamedType](class.reflectionnamedtype.md)

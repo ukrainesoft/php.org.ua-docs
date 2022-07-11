@@ -1,9 +1,8 @@
-- [« Створення подій для
-сигналів](event.constructing.signal.events.md)
+- [« Створення подій для сигналів](event.constructing.signal.events.md)
 - [Event::add »](event.add.md)
 
 - [PHP Manual](index.md)
-- [Event] (book.event.md)
+- [Event](book.event.md)
 - Клас Event
 
 # Клас Event
@@ -118,8 +117,7 @@ public static [timer](event.timer.md)(
 ## Властивості
 
 `pending`
-Позначає, що подія може очікувати. Дивіться [Про постійні
-подіях](event.persistence.md) .
+Позначає, що подія може очікувати. Дивіться [Про постійні подіях](event.persistence.md) .
 
 ## Зумовлені константи
 
@@ -129,8 +127,7 @@ public static [timer](event.timer.md)(
 Це впливає на семантику **`Event::READ`** та **`Event::WRITE`** .
 
 **`Event::PERSIST`**
-Позначає, що подія стала. Дивіться [Про постійні
-подіях](event.persistence.md) .
+Позначає, що подія стала. Дивіться [Про постійні подіях](event.persistence.md) .
 
 **`Event::READ`**
 Цей прапор вказує подію, яка стає активною, коли

@@ -1,5 +1,4 @@
-- [« Компіляція модулів, що розділяються, за допомогою команди
-pecl](install.pecl.pear.md)
+- [« Компіляція модулів, що розділяються, за допомогою команди pecl](install.pecl.pear.md)
 - [php-config »](install.pecl.php-config.md)
 
 - [PHP Manual](index.md)

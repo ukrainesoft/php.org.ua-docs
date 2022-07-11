@@ -2,7 +2,7 @@
 - [svn_add »](function.svn-add.md)
 
 - [PHP Manual](index.md)
-- [SVN] (book.svn.md)
+- [SVN](book.svn.md)
 - Функції SVN
 
 # Функції SVN

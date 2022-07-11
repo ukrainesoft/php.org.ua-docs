@@ -1,5 +1,5 @@
 - [« bindec](function.bindec.md)
-- [cos »] (function.cos.md)
+- [cos »](function.cos.md)
 
 - [PHP Manual](index.md)
 - [Математичні функції](ref.math.md)

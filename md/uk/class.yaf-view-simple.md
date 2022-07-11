@@ -1,5 +1,4 @@
-- [«
-Yaf_View_Interface::setScriptPath](yaf-view-interface.setscriptpath.md)
+- [« Yaf_View_Interface::setScriptPath](yaf-view-interface.setscriptpath.md)
 - [Yaf_View_Simple::assign »](yaf-view-simple.assign.md)
 
 - [PHP Manual](index.md)

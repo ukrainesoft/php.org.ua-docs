@@ -1,6 +1,5 @@
 - [«SolrPingResponse::getResponse](solrpingresponse.getresponse.md)
-- [SolrGenericResponse::\_\_construct
-»](solrgenericresponse.construct.md)
+- [SolrGenericResponse::\_\_construct »](solrgenericresponse.construct.md)
 
 - [PHP Manual](index.md)
 - [Solr](book.solr.md)

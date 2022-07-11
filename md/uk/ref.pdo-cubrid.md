@@ -30,8 +30,7 @@ $ ./configure --with-pdo-cubridu003d/path/to/CUBRID[,shared]
 За промовчанням **configure** шукатиме відповідні бібліотеки,
 керуючись значенням змінної оточення `CUBRID`.
 
-DLL для цього модуля PECL зараз недоступна. Дивіться також
-розділ [складання на Windows](install.windows.building.md). Для більш
+DLL для цього модуля PECL зараз недоступна. Дивіться також розділ [складання на Windows](install.windows.building.md). Для більш
 детальної інформації про ручне встановлення модуля під Linux і Windows,
 читайте build-guide.md, який міститься в пакеті PECL.
 

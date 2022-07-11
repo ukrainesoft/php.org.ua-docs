@@ -1,7 +1,5 @@
-- [« Константи статусу служби
-Win32Service](win32service.constants.servicestatus.md)
-- [Бітові маски обробки повідомлень, що приймаються службою Win32Service
-»](win32service.constants.controlsaccepted.md)
+- [« Константи статусу служби Win32Service](win32service.constants.servicestatus.md)
+- [Бітові маски обробки повідомлень, що приймаються службою Win32Service »](win32service.constants.controlsaccepted.md)
 
 - [PHP Manual](index.md)
 - [Предвизначені константи](win32service.constants.md)

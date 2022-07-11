@@ -1,5 +1,5 @@
 - [«define](function.define.md)
-- [die»] (function.die.md)
+- [die»](function.die.md)
 
 - [PHP Manual](index.md)
 - [Різні функції](ref.misc.md)

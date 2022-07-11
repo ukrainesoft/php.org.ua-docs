@@ -1,7 +1,5 @@
-- [«
-SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md)
-- [SolrQuery::setFacetEnumCacheMinDefaultFrequency
-»](solrquery.setfacetenumcachemindefaultfrequency.md)
+- [« SolrQuery::setFacetDateHardEnd](solrquery.setfacetdatehardend.md)
+- [SolrQuery::setFacetEnumCacheMinDefaultFrequency »](solrquery.setfacetenumcachemindefaultfrequency.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

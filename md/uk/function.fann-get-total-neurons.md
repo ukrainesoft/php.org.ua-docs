@@ -1,7 +1,5 @@
-- [«
-fann_get_total_connections](function.fann-get-total-connections.md)
-- [fann_get_train_error_function
-»](function.fann-get-train-error-function.md)
+- [« fann_get_total_connections](function.fann-get-total-connections.md)
+- [fann_get_train_error_function »](function.fann-get-train-error-function.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

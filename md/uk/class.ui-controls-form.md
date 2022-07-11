@@ -1,5 +1,4 @@
-- [«
-UI\Controls\Picker::\_\_construct](ui-controls-picker.construct.md)
+- [« UI\Controls\Picker::\_\_construct](ui-controls-picker.construct.md)
 - [UI\Controls\Form::append »](ui-controls-form.append.md)
 
 - [PHP Manual](index.md)

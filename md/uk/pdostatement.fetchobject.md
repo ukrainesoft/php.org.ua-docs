@@ -15,7 +15,7 @@ PDOStatement::fetchObject — Витягує наступний рядок і п
 ### Опис
 
 public **PDOStatement::fetchObject**(?string `$class` u003d "stdClass",
-array `$constructorArgs` u003d \[\]): object\|false
+array `$constructorArgs` u003d []): object\|false
 
 Витягує наступний рядок і повертає його у вигляді об'єкта. Цей метод
 є альтернативою виклику

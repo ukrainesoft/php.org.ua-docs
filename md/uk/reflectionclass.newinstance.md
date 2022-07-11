@@ -1,7 +1,5 @@
-- [«
-ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)
-- [ReflectionClass::newInstanceArgs
-»](reflectionclass.newinstanceargs.md)
+- [« ReflectionClass::isUserDefined](reflectionclass.isuserdefined.md)
+- [ReflectionClass::newInstanceArgs »](reflectionclass.newinstanceargs.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

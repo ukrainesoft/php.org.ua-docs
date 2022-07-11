@@ -1,5 +1,5 @@
 - [«ps_setfont](function.ps-setfont.md)
-- [ps_setlinecap »] (function.ps-setlinecap.md)
+- [ps_setlinecap »](function.ps-setlinecap.md)
 
 - [PHP Manual](index.md)
 - [Функції PS](ref.ps.md)

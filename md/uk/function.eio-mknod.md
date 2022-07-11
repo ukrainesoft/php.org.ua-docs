@@ -1,5 +1,5 @@
 - [«eio_mkdir](function.eio-mkdir.md)
-- [eio_nop »] (function.eio-nop.md)
+- [eio_nop »](function.eio-nop.md)
 
 - [PHP Manual](index.md)
 - [Eio Функції](ref.eio.md)

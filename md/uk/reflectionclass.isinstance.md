@@ -1,6 +1,5 @@
 - [« ReflectionClass::isFinal](reflectionclass.isfinal.md)
-- [ReflectionClass::isInstantiable
-»](reflectionclass.isinstantiable.md)
+- [ReflectionClass::isInstantiable »](reflectionclass.isinstantiable.md)
 
 - [PHP Manual](index.md)
 - [ReflectionClass](class.reflectionclass.md)

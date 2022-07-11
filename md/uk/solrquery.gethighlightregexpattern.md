@@ -1,7 +1,5 @@
-- [«
-SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md)
-- [SolrQuery::getHighlightRegexSlop
-»](solrquery.gethighlightregexslop.md)
+- [« SolrQuery::getHighlightRegexMaxAnalyzedChars](solrquery.gethighlightregexmaxanalyzedchars.md)
+- [SolrQuery::getHighlightRegexSlop »](solrquery.gethighlightregexslop.md)
 
 - [PHP Manual](index.md)
 - [SolrQuery](class.solrquery.md)

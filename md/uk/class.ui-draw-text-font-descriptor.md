@@ -1,7 +1,5 @@
-- [«
-UI\Draw\Text\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md)
-- [UI\Draw\Text\Font\Descriptor::\_\_construct
-»](ui-draw-text-font-descriptor.construct.md)
+- [« UI\Draw\Text\Font::getUnderlineThickness](ui-draw-text-font.getunderlinethickness.md)
+- [UI\Draw\Text\Font\Descriptor::\_\_construct »](ui-draw-text-font-descriptor.construct.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

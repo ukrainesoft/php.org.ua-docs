@@ -1,5 +1,4 @@
-- [«
-Yaf_Controller_Abstract::getView](yaf-controller-abstract.getview.md)
+- [« Yaf_Controller_Abstract::getView](yaf-controller-abstract.getview.md)
 - [Yaf_Controller_Abstract::init »](yaf-controller-abstract.init.md)
 
 - [PHP Manual](index.md)

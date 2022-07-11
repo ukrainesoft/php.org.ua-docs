@@ -17,8 +17,7 @@ sha1_file — Повертає SHA1-хеш файлу
 string\|false
 
 Обчислює SHA1-хеш файлу, ім'я якого задано аргументом `filename`,
-використовуючи алгоритм [» US Secure Hash Algorithm
-1](http://www.faqs.org/rfcs/rfc3174) та повертає цей хеш. Хеш -
+використовуючи алгоритм [» US Secure Hash Algorithm 1](http://www.faqs.org/rfcs/rfc3174) та повертає цей хеш. Хеш -
 40-символьне шістнадцяткове число.
 
 ### Список параметрів

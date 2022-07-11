@@ -1,7 +1,5 @@
-- [«
-EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md)
-- [EventHttpRequest::getConnection
-»](eventhttprequest.getconnection.md)
+- [« EventHttpRequest::getBufferEvent](eventhttprequest.getbufferevent.md)
+- [EventHttpRequest::getConnection »](eventhttprequest.getconnection.md)
 
 - [PHP Manual](index.md)
 - [EventHttpRequest](class.eventhttprequest.md)

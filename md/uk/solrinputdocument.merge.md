@@ -1,5 +1,4 @@
-- [«
-SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md)
+- [« SolrInputDocument::hasChildDocuments](solrinputdocument.haschilddocuments.md)
 - [SolrInputDocument::reset »](solrinputdocument.reset.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md)
-- [ReflectionProperty::isPromoted
-»](reflectionproperty.ispromoted.md)
+- [« ReflectionProperty::isInitialized](reflectionproperty.isinitialized.md)
+- [ReflectionProperty::isPromoted »](reflectionproperty.ispromoted.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

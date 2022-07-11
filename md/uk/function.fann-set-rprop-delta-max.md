@@ -1,5 +1,4 @@
-- [«
-fann_set_rprop_decrease_factor](function.fann-set-rprop-decrease-factor.md)
+- [« fann_set_rprop_decrease_factor](function.fann-set-rprop-decrease-factor.md)
 - [fann_set_rprop_delta_min »](function.fann-set-rprop-delta-min.md)
 
 - [PHP Manual](index.md)

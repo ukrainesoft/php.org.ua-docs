@@ -1,7 +1,5 @@
-- [«
-sodium_crypto_pwhash_scryptsalsa208sha256_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md)
-- [sodium_crypto_pwhash_str_needs_rehash
-»](function.sodium-crypto-pwhash-str-needs-rehash.md)
+- [« sodium_crypto_pwhash_scryptsalsa208sha256_str](function.sodium-crypto-pwhash-scryptsalsa208sha256-str.md)
+- [sodium_crypto_pwhash_str_needs_rehash »](function.sodium-crypto-pwhash-str-needs-rehash.md)
 
 - [PHP Manual](index.md)
 - [Функції Sodium](ref.sodium.md)

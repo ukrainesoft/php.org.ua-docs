@@ -1,5 +1,4 @@
-- [«
-SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md)
+- [« SchemaObject::getSchema](mysql-xdevapi-schemaobject.getschema.md)
 - [Session::close »](mysql-xdevapi-session.close.md)
 
 - [PHP Manual](index.md)

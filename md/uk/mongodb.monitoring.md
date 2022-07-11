@@ -1,5 +1,4 @@
-- [«
-MongoDB\BSON\Undefined::unserialize](mongodb-bson-undefined.unserialize.md)
+- [« MongoDB\BSON\Undefined::unserialize](mongodb-bson-undefined.unserialize.md)
 - [Функції »](ref.monitoring.functions.md)
 
 - [PHP Manual](index.md)
@@ -11,7 +10,8 @@ MongoDB\BSON\Undefined::unserialize](mongodb-bson-undefined.unserialize.md)
 - [Функції](ref.monitoring.functions.md)
 - [MongoDB\Driver\Monitoring ddSubscriber](function.mongodb.driver.monitoring.addsubscriber.md)
 — Глобальна реєстрація передплатника на подію моніторингу
-- [MongoDB\Driver\MonitoringemoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md)
+- [MongoDB\Driver\Monitoring
+emoveSubscriber](function.mongodb.driver.monitoring.removesubscriber.md)
 — Скасує глобальну реєстрацію передплатника на подію
 моніторингу
 - [MongoDB\Driver\Monitoring\CommandFailedEvent](class.mongodb-driver-monitoring-commandfailedevent.md)

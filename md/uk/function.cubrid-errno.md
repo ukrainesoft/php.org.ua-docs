@@ -1,5 +1,5 @@
 - [«cubrid_db_name](function.cubrid-db-name.md)
-- [cubrid_error »] (function.cubrid-error.md)
+- [cubrid_error »](function.cubrid-error.md)
 
 - [PHP Manual](index.md)
 - [Функції сумісності CUBRID MySQL](cubridmysql.cubrid.md)

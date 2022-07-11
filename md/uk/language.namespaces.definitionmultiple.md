@@ -1,6 +1,5 @@
 - [« Визначення підпросторів імен](language.namespaces.nested.md)
-- [Використання простору імен: основи
-»](language.namespaces.basics.md)
+- [Використання простору імен: основи »](language.namespaces.basics.md)
 
 - [PHP Manual](index.md)
 - [Простори імен](language.namespaces.md)

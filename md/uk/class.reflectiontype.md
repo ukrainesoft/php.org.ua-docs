@@ -1,5 +1,4 @@
-- [«
-ReflectionProperty::\_\_toString](reflectionproperty.tostring.md)
+- [« ReflectionProperty::\_\_toString](reflectionproperty.tostring.md)
 - [ReflectionType::allowsNull »](reflectiontype.allowsnull.md)
 
 - [PHP Manual](index.md)

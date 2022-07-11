@@ -1,6 +1,5 @@
 - [« Створення Phar-архівів](phar.creating.md)
-- [Чим відрізняється phar від tar- або zip-архіву?
-»](phar.fileformat.md)
+- [Чим відрізняється phar від tar- або zip-архіву? »](phar.fileformat.md)
 
 - [PHP Manual](index.md)
 - [Створення Phar-архівів](phar.creating.md)
@@ -13,8 +12,7 @@
 
 Відмінним початком буде читання про
 [Phar::buildFromIterator()](phar.buildfromiterator.md) і про
-особливості вибору доступного для архівів [формату
-файла] (phar.fileformat.md). Хороше розуміння того, що із себе
+особливості вибору доступного для архівів [формату файла](phar.fileformat.md). Хороше розуміння того, що із себе
 представляє заглушка (stub) і що вона має вирішальне значення для
 створення phar-архіву, і тому [Phar::setStub()](phar.setstub.md) та
 [Phar::createDefaultStub()](phar.createdefaultstub.md) також будуть

@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.md)
-- [mysql_xdevapi\CrudOperationSkippable
-»](class.mysql-xdevapi-crudoperationskippable.md)
+- [« mysql_xdevapi\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.md)
+- [mysql_xdevapi\CrudOperationSkippable »](class.mysql-xdevapi-crudoperationskippable.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CrudOperationLimitable](class.mysql-xdevapi-crudoperationlimitable.md)

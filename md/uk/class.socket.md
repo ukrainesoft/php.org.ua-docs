@@ -1,5 +1,4 @@
-- [«
-socket_wsaprotocol_info_release](function.socket-wsaprotocol-info-release.md)
+- [« socket_wsaprotocol_info_release](function.socket-wsaprotocol-info-release.md)
 - [AddressInfo »](class.addressinfo.md)
 
 - [PHP Manual](index.md)

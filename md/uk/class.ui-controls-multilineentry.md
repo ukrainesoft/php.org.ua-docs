@@ -1,6 +1,5 @@
 - [«UI\Controls\Entry::setText](ui-controls-entry.settext.md)
-- [UI\Controls\MultilineEntry::append
-»](ui-controls-multilineentry.append.md)
+- [UI\Controls\MultilineEntry::append »](ui-controls-multilineentry.append.md)
 
 - [PHP Manual](index.md)
 - [UI](book.ui.md)

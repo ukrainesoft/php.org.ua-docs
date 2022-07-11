@@ -21,7 +21,7 @@ string `$output_filename`,
 [OpenSSLAsymmetricKey](class.opensslasymmetrickey.md)\|[OpenSSLCertificate](class.opensslcertificate.md)\|array\|string
 `$private_key`,
 string `$passphrase`,
-array `$options` u003d \[\]
+array `$options` u003d []
 ): bool
 
 **openssl_pkcs12_export_to_file()** зберігає `certificate` у файл
@@ -30,8 +30,7 @@ array `$options` u003d \[\]
 ### Список параметрів
 
 `x509`
-Для списку коректних значень дивіться [Параметри
-ключів/сертифікатів](openssl.certparams.md).
+Для списку коректних значень дивіться [Параметри ключів/сертифікатів](openssl.certparams.md).
 
 `output_filename`
 Шлях до файлу.

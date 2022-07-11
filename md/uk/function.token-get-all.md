@@ -1,8 +1,8 @@
-- [« Функції PHP-лексера (tokenizer)] (ref.tokenizer.md)
+- [« Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
 - [token_name »](function.token-name.md)
 
 - [PHP Manual](index.md)
-- [Функції PHP-лексера (tokenizer)] (ref.tokenizer.md)
+- [Функції PHP-лексера (tokenizer)](ref.tokenizer.md)
 - Розбиває переданий вихідний код на PHP-лексеми
 
 #token_get_all

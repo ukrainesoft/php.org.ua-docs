@@ -2,7 +2,7 @@
 - [tidy::cleanRepair »](tidy.cleanrepair.md)
 
 - [PHP Manual](index.md)
-- [Tidy] (class.tidy.md)
+- [Tidy](class.tidy.md)
 - Повертає об'єкт tidyNode, починаючи з тега \<body\> розібраного
 tidy-дерева
 

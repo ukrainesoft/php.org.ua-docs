@@ -1,5 +1,5 @@
 - [« Типи ресурсів](xdiff.resources.md)
-- [Функції xdiff»] (ref.xdiff.md)
+- [Функції xdiff»](ref.xdiff.md)
 
 - [PHP Manual](index.md)
 - [xdiff](book.xdiff.md)

@@ -1,6 +1,5 @@
 - [« Yaf_Request_Abstract::isPost](yaf-request-abstract.ispost.md)
-- [Yaf_Request_Abstract::isRouted
-»](yaf-request-abstract.isrouted.md)
+- [Yaf_Request_Abstract::isRouted »](yaf-request-abstract.isrouted.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Request_Abstract](class.yaf-request-abstract.md)

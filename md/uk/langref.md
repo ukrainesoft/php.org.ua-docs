@@ -9,8 +9,7 @@
 - [Основи синтаксису](language.basic-syntax.md)
 - [теги PHP](language.basic-syntax.phptags.md)
 - [Ізолювання від HTML](language.basic-syntax.phpmode.md)
-- [Поділ
-інструкцій](language.basic-syntax.instruction-separation.md)
+- [Поділ інструкцій](language.basic-syntax.instruction-separation.md)
 - [Коментарі](language.basic-syntax.comments.md)
 - [Типи](language.types.md)
 - [Вступ](language.types.intro.md)
@@ -26,13 +25,12 @@
 - [Ресурс](language.types.resource.md)
 - [NULL](language.types.null.md)
 - [Функції зворотного виклику
-(callback-функції)] (language.types.callable.md)
+(callback-функції)](language.types.callable.md)
 - [Оголошення типів](language.types.declarations.md)
 - [Маніпуляції з типами](language.types.type-juggling.md)
 - [Змінні](language.variables.md)
 - [Основи](language.variables.basics.md)
-- [Предвизначені
-змінні](language.variables.predefined.md)
+- [Предвизначені змінні](language.variables.predefined.md)
 - [Область видимості змінної](language.variables.scope.md)
 - [Змінні змінні](language.variables.variable.md)
 - [Змінні ззовні PHP](language.variables.external.md)
@@ -47,23 +45,19 @@
 - [Оператор присвоєння](language.operators.assignment.md)
 - [Побітові оператори](language.operators.bitwise.md)
 - [Оператори порівняння](language.operators.comparison.md)
-- [Оператор управління
-помилками](language.operators.errorcontrol.md)
+- [Оператор управління помилками](language.operators.errorcontrol.md)
 - [Оператори виконання](language.operators.execution.md)
-- [Оператори інкременту та
-декременту](language.operators.increment.md)
+- [Оператори інкременту та декременту](language.operators.increment.md)
 - [Логічні оператори](language.operators.logical.md)
 - [Рядкові оператори](language.operators.string.md)
-- [Оператори, що працюють з
-масивами](language.operators.array.md)
+- [Оператори, що працюють з масивами](language.operators.array.md)
 - [Оператор перевірки типу](language.operators.type.md)
 - [Керування конструкції](language.control-structures.md)
 - [Вступ](control-structures.intro.md)
-- [if] (control-structures.if.md)
+- [if](control-structures.if.md)
 - [else](control-structures.else.md)
 - [elseif/else if](control-structures.elseif.md)
-- [Альтернативний синтаксис керуючих
-структур](control-structures.alternative-syntax.md)
+- [Альтернативний синтаксис керуючих структур](control-structures.alternative-syntax.md)
 - [while](control-structures.while.md)
 - [do-while](control-structures.do.while.md)
 - [for](control-structures.for.md)
@@ -80,17 +74,14 @@
 - [include_once](function.include-once.md)
 - [goto](control-structures.goto.md)
 - [Функції](language.functions.md)
-- [Функції, що визначаються
-користувачем](functions.user-defined.md)
+- [Функції, що визначаються користувачем](functions.user-defined.md)
 - [Аргументи функції](functions.arguments.md)
 - [Повернення значень](functions.returning-values.md)
-- [Звернення до функцій через
-змінні](functions.variable-functions.md)
+- [Звернення до функцій через змінні](functions.variable-functions.md)
 - [Вбудовані функції](functions.internal.md)
 - [Анонімні функції](functions.anonymous.md)
 - [Стрілкові функції](functions.arrow.md)
-- [Callback-функції як об'єкти першого
-класу](functions.first_class_callable_syntax.md)
+- [Callback-функції як об'єкти першого класу](functions.first_class_callable_syntax.md)
 - [Класи та об'єкти](language.oop5.md)
 - [Вступ](oop5.intro.md)
 - [Основи](language.oop5.basic.md)
@@ -113,32 +104,22 @@
 - [Ключове слово final](language.oop5.final.md)
 - [Клонування об'єктів](language.oop5.cloning.md)
 - [Порівняння об'єктів](language.oop5.object-comparison.md)
-- [Пізніше статичне
-зв'язування](language.oop5.late-static-bindings.md)
+- [Пізніше статичне зв'язування](language.oop5.late-static-bindings.md)
 - [Об'єкти та посилання](language.oop5.references.md)
 - [Серіалізація об'єктів](language.oop5.serialization.md)
-- [Коваріантність та
-контраваріантність](language.oop5.variance.md)
+- [Коваріантність та контраваріантність](language.oop5.variance.md)
 - [Журнал змін ООП](language.oop5.changelog.md)
 - [Простори імен](language.namespaces.md)
 - [Огляд просторів імен](language.namespaces.rationale.md)
-- [Визначення просторів
-імен](language.namespaces.definition.md)
-- [Визначення підпросторів
-імен](language.namespaces.nested.md)
-- [Опис кількох просторів імен в одному
-файлі](language.namespaces.definitionmultiple.md)
-- [Використання простору імен:
-основи](language.namespaces.basics.md)
-- [Простори імен та динамічні особливості
-мови](language.namespaces.dynamic.md)
-- [Ключове слово namespace та константа
-\_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
-- [Використання просторів імен: імпорт/створення псевдоніму
-імені](language.namespaces.importing.md)
+- [Визначення просторів імен](language.namespaces.definition.md)
+- [Визначення підпросторів імен](language.namespaces.nested.md)
+- [Опис кількох просторів імен в одному файлі](language.namespaces.definitionmultiple.md)
+- [Використання простору імен: основи](language.namespaces.basics.md)
+- [Простори імен та динамічні особливості мови](language.namespaces.dynamic.md)
+- [Ключове слово namespace та константа \_\_NAMESPACE\_\_](language.namespaces.nsconstants.md)
+- [Використання просторів імен: імпорт/створення псевдоніму імені](language.namespaces.importing.md)
 - [Глобальний простір](language.namespaces.global.md)
-- [Використання просторів імен: перехід до глобальної
-функції/константі](language.namespaces.fallback.md)
+- [Використання просторів імен: перехід до глобальної функції/константі](language.namespaces.fallback.md)
 - [Правила дозволу імен](language.namespaces.rules.md)
 - [Часті питання (FAQ): речі, які вам необхідно
 знати про простори імен](language.namespaces.faq.md)
@@ -147,14 +128,11 @@
 - [Основи перерахувань](language.enumerations.basics.md)
 - [Типізовані перерахування](language.enumerations.backed.md)
 - [Методи перерахувань](language.enumerations.methods.md)
-- [Статичні методи
-перерахувань](language.enumerations.static-methods.md)
+- [Статичні методи перерахувань](language.enumerations.static-methods.md)
 - [Константи перерахувань](language.enumerations.constants.md)
 - [Трейти](language.enumerations.traits.md)
-- [Значення перерахування у постійних
-виразах](language.enumerations.expressions.md)
-- [Відмінності від
-об'єктів](language.enumerations.object-differences.md)
+- [Значення перерахування у постійних виразах](language.enumerations.expressions.md)
+- [Відмінності від об'єктів](language.enumerations.object-differences.md)
 - [Список значень](language.enumerations.listing.md)
 - [Серіалізація](language.enumerations.serialization.md)
 - [Приклади](language.enumerations.examples.md)
@@ -167,13 +145,11 @@
 - [Генератори](language.generators.md)
 - [Знайомство з генераторами](language.generators.overview.md)
 - [Синтаксис генераторів](language.generators.syntax.md)
-- [Порівняння генераторів з об'єктами класу
-Iterator](language.generators.comparison.md)
+- [Порівняння генераторів з об'єктами класу Iterator](language.generators.comparison.md)
 - [Атрибути](language.attributes.md)
 - [Вступ до атрибутів](language.attributes.overview.md)
 - [Синтаксис атрибутів](language.attributes.syntax.md)
-- [Читання атрибутів за допомогою Reflection
-API] (language.attributes.reflection.md)
+- [Читання атрибутів за допомогою Reflection API](language.attributes.reflection.md)
 - [Оголошення класів атрибутів](language.attributes.classes.md)
 - [Пояснення посилань](language.references.md)
 - [Що таке посилання](language.references.whatare.md)
@@ -182,11 +158,9 @@ API] (language.attributes.reflection.md)
 - [Передача за посиланням](language.references.pass.md)
 - [Повернення за посиланням](language.references.return.md)
 - [Скидання змінних-посилань](language.references.unset.md)
-- [Неявне використання механізму
-посилань](language.references.spot.md)
+- [Неявне використання механізму посилань](language.references.spot.md)
 - [Предвизначені змінні](reserved.variables.md)
-- [Суперглобальні
-змінні](language.variables.superglobals.md) — Вбудовані
+- [Суперглобальні змінні](language.variables.superglobals.md) — Вбудовані
 змінні, які завжди доступні у всіх областях
 - [$GLOBALS](reserved.variables.globals.md) — Посилання на все
 змінні глобальної області видимості
@@ -244,19 +218,19 @@ IteratorAggregate
 - [Контекстні опції та параметри](context.md)
 - [Контекстні опції сокету](context.socket.md) - Список
 контекстних опцій сокету
-- [Опції контексту HTTP] (context.http.md) - Список опцій
+- [Опції контексту HTTP](context.http.md) - Список опцій
 контексту HTTP
 - [Параметри контексту FTP](context.ftp.md) — Список параметрів
 контексту FTP
-- [Опції контексту SSL] (context.ssl.md) - Список опцій контексту
+- [Опції контексту SSL](context.ssl.md) - Список опцій контексту
 SSL
-- [Опції контексту CURL] (context.curl.md) - Список опцій
+- [Опції контексту CURL](context.curl.md) - Список опцій
 контексту CURL
 - [Контекстні опції Phar](context.phar.md) - Список контекстних
 опцій Phar
 - [Настройки контексту](context.params.md) — Список параметрів
 контексту
-- [Опції контексту Zip] (context.zip.md) - Список опцій контексту
+- [Опції контексту Zip](context.zip.md) - Список опцій контексту
 Zip
 - [Підтримувані протоколи та обгортки](wrappers.md)
 - [file://](wrappers.file.md) — Доступ до локальної файлової

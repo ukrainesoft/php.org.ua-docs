@@ -1,5 +1,5 @@
 - [«strnatcasecmp](function.strnatcasecmp.md)
-- [strncasecmp »] (function.strncasecmp.md)
+- [strncasecmp »](function.strncasecmp.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з рядками](ref.strings.md)
@@ -65,8 +65,7 @@ Array
 [3] u003d> img12.png
 )
 
-Для отримання додаткової інформації дивіться [Natural Order String
-Comparison](https://github.com/sourcefrog/natsort).
+Для отримання додаткової інформації дивіться [Natural Order String Comparison](https://github.com/sourcefrog/natsort).
 
 ### Дивіться також
 

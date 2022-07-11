@@ -1,7 +1,5 @@
-- [«
-ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md)
-- [ZipArchive::setEncryptionIndex
-»](ziparchive.setencryptionindex.md)
+- [« ZipArchive::setCompressionIndex](ziparchive.setcompressionindex.md)
+- [ZipArchive::setEncryptionIndex »](ziparchive.setencryptionindex.md)
 
 - [PHP Manual](index.md)
 - [ZipArchive](class.ziparchive.md)

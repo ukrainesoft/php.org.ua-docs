@@ -1,7 +1,5 @@
-- [«
-HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
-- [HRTime\PerformanceCounter::getTicksSince
-»](hrtime-performancecounter.gettickssince.md)
+- [« HRTime\PerformanceCounter::getFrequency](hrtime-performancecounter.getfrequency.md)
+- [HRTime\PerformanceCounter::getTicksSince »](hrtime-performancecounter.gettickssince.md)
 
 - [PHP Manual](index.md)
 - [HRTime\PerformanceCounter](class.hrtime-performancecounter.md)

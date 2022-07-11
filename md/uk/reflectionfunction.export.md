@@ -1,7 +1,5 @@
-- [«
-ReflectionFunction::\_\_construct](reflectionfunction.construct.md)
-- [ReflectionFunction::getClosure
-»](reflectionfunction.getclosure.md)
+- [« ReflectionFunction::\_\_construct](reflectionfunction.construct.md)
+- [ReflectionFunction::getClosure »](reflectionfunction.getclosure.md)
 
 - [PHP Manual](index.md)
 - [ReflectionFunction](class.reflectionfunction.md)

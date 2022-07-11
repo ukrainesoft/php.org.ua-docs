@@ -1,5 +1,4 @@
-- [«
-sodium_crypto_stream_xchacha20_xor](function.sodium-crypto-stream-xchacha20-xor.md)
+- [« sodium_crypto_stream_xchacha20_xor](function.sodium-crypto-stream-xchacha20-xor.md)
 - [sodium_crypto_stream_xor »](function.sodium-crypto-stream-xor.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-MongoDB\Driver\WriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.md)
-- [MongoDB\Driver\WriteResult::getWriteConcernError
-»](mongodb-driver-writeresult.getwriteconcernerror.md)
+- [« MongoDB\Driver\WriteResult::getUpsertedCount](mongodb-driver-writeresult.getupsertedcount.md)
+- [MongoDB\Driver\WriteResult::getWriteConcernError »](mongodb-driver-writeresult.getwriteconcernerror.md)
 
 - [PHP Manual](index.md)
 - [MongoDB\Driver\WriteResult](class.mongodb-driver-writeresult.md)

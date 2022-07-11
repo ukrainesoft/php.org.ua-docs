@@ -1,5 +1,4 @@
-- [«
-XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
+- [« XMLReader::moveToNextAttribute](xmlreader.movetonextattribute.md)
 - [XMLReader::open »](xmlreader.open.md)
 
 - [PHP Manual](index.md)
@@ -32,9 +31,9 @@ public **XMLReader::next**(?string `$name` u003d **`null`**): bool
 
 ### Список змін
 
-| Версія | Опис |
-|--------|---------------------------------------- |
-| 8.0.0 | `name` тепер допускає значення null. |
+| Версія | Опис                                 |
+|--------|--------------------------------------|
+| 8.0.0  | `name` тепер допускає значення null. |
 
 ### Дивіться також
 

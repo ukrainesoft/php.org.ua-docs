@@ -1,6 +1,5 @@
 - [« xmlrpc_server_destroy](function.xmlrpc-server-destroy.md)
-- [xmlrpc_server_register_method
-»](function.xmlrpc-server-register-method.md)
+- [xmlrpc_server_register_method »](function.xmlrpc-server-register-method.md)
 
 - [PHP Manual](index.md)
 - [Функції XML-RPC](ref.xmlrpc.md)

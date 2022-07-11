@@ -1,6 +1,5 @@
 - [« XSLTProcessor::setParameter](xsltprocessor.setparameter.md)
-- [XSLTProcessor::setSecurityPrefs
-»](xsltprocessor.setsecurityprefs.md)
+- [XSLTProcessor::setSecurityPrefs »](xsltprocessor.setsecurityprefs.md)
 
 - [PHP Manual](index.md)
 - [XSLTProcessor](class.xsltprocessor.md)

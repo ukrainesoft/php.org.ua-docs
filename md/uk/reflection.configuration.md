@@ -1,5 +1,5 @@
 - [« Встановлення](reflection.installation.md)
-- [Типи ресурсів»] (reflection.resources.md)
+- [Типи ресурсів»](reflection.resources.md)
 
 - [PHP Manual](index.md)
 - [Встановлення та налаштування](reflection.setup.md)

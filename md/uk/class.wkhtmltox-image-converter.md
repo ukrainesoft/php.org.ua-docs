@@ -1,7 +1,5 @@
-- [«
-wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)
-- [wkhtmltox\Image\Converter::\_\_construct
-»](wkhtmltox-image-converter.construct.md)
+- [« wkhtmltox\PDF\Object::\_\_construct](wkhtmltox-pdf-object.construct.md)
+- [wkhtmltox\Image\Converter::\_\_construct »](wkhtmltox-image-converter.construct.md)
 
 - [PHP Manual](index.md)
 - [wkhtmltox](book.wkhtmltox.md)

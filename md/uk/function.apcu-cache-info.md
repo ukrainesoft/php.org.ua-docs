@@ -1,5 +1,5 @@
 - [«apcu_add](function.apcu-add.md)
-- [apcu_cas »] (function.apcu-cas.md)
+- [apcu_cas »](function.apcu-cas.md)
 
 - [PHP Manual](index.md)
 - [Функції APCu](ref.apcu.md)

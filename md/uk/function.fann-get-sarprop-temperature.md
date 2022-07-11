@@ -1,7 +1,5 @@
-- [«
-fann_get_sarprop_step_error_threshold_factor](function.fann-get-sarprop-step-error-threshold-factor.md)
-- [fann_get_sarprop_weight_decay_shift
-»](function.fann-get-sarprop-weight-decay-shift.md)
+- [« fann_get_sarprop_step_error_threshold_factor](function.fann-get-sarprop-step-error-threshold-factor.md)
+- [fann_get_sarprop_weight_decay_shift »](function.fann-get-sarprop-weight-decay-shift.md)
 
 - [PHP Manual](index.md)
 - [Функції Fann](ref.fann.md)

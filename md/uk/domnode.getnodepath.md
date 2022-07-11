@@ -43,5 +43,4 @@ public **DOMNode::getNodePath**(): ?string
 /fruits/pears/pear
 
 ### Дивіться також
-
-- [DOMXPath](class.domxpath.md)
+ - [DOMXPath](class.domxpath.md)

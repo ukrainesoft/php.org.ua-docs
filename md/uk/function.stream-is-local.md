@@ -1,5 +1,5 @@
 - [«stream_get_wrappers](function.stream-get-wrappers.md)
-- [stream_isatty »] (function.stream-isatty.md)
+- [stream_isatty »](function.stream-isatty.md)
 
 - [PHP Manual](index.md)
 - [Функції для роботи з потоками](ref.stream.md)

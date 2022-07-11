@@ -1,5 +1,5 @@
 - [« Функції Taint](ref.taint.md)
-- [Taint »] (function.taint.md)
+- [Taint »](function.taint.md)
 
 - [PHP Manual](index.md)
 - [Функції Taint](ref.taint.md)

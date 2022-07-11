@@ -1,5 +1,4 @@
-- [«
-SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)
+- [« SimpleXMLElement::registerXPathNamespace](simplexmlelement.registerxpathnamespace.md)
 - [SimpleXMLElement::\_\_toString »](simplexmlelement.tostring.md)
 
 - [PHP Manual](index.md)

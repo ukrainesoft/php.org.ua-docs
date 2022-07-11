@@ -23,8 +23,7 @@
 > **Примітка**:
 >
 > Жоден з аргументів цих магічних методів може бути переданий
-> [за
-> посилання](functions.arguments.md#functions.arguments.by-reference).
+> [за > посилання](functions.arguments.md#functions.arguments.by-reference).
 
 > **Примітка**:
 >

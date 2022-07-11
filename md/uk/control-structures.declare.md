@@ -1,5 +1,5 @@
 - [«match](control-structures.match.md)
-- [return »] (function.return.md)
+- [return »](function.return.md)
 
 - [PHP Manual](index.md)
 - [Керування конструкції](language.control-structures.md)
@@ -24,8 +24,7 @@ statement
 директиві
 [encoding](control-structures.declare.md#control-structures.declare.encoding)
 доступна нижче) та директива `strict_types` (подробиці у розділі про
-[сувору
-типизацию](language.types.declarations.md#language.types.declarations.strict)
+[сувору типизацию](language.types.declarations.md#language.types.declarations.strict)
 на сторінці аргументів функції)
 
 Оскільки директиви обробляються при компіляції файлу, лише

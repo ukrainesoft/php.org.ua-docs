@@ -1,5 +1,4 @@
-- [«
-ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md)
+- [« ImagickDraw::pathEllipticArcAbsolute](imagickdraw.pathellipticarcabsolute.md)
 - [ImagickDraw::pathFinish »](imagickdraw.pathfinish.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [« DOMXPath::query](domxpath.query.md)
-- [DOMXPath::registerPhpFunctions
-»](domxpath.registerphpfunctions.md)
+- [DOMXPath::registerPhpFunctions »](domxpath.registerphpfunctions.md)
 
 - [PHP Manual](index.md)
 - [DOMXPath](class.domxpath.md)

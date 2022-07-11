@@ -27,7 +27,7 @@ bool `$httponly` u003d **`false`**
 підтримуються):
 
 **setrawcookie**(string `$name`, string `$value` u003d ?, array `$options` u003d
-\[\]): bool
+[]): bool
 
 Функція **setrawcookie()** є повним аналогом функції
 [setcookie()](function.setcookie.md), за винятком того, що

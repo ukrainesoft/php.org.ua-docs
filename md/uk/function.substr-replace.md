@@ -103,5 +103,4 @@ A: AAAXX; B: BBBX; C: CCC
 - [str_replace()](function.str-replace.md) - Замінює всі входження
 рядки пошуку на рядок заміни
 - [substr()](function.substr.md) - Повертає підрядок
-- [Доступ до символу в рядку та його
-зміна](language.types.string.md#language.types.string.substr)
+- [Доступ до символу в рядку та його зміна](language.types.string.md#language.types.string.substr)

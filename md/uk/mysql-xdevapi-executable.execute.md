@@ -1,6 +1,5 @@
-- [« mysql_xdevapi \ Executable] (class.mysql-xdevapi-executable.md)
-- [mysql_xdevapi\ExecutionStatus
-»](class.mysql-xdevapi-executionstatus.md)
+- [« mysql_xdevapi \ Executable](class.mysql-xdevapi-executable.md)
+- [mysql_xdevapi\ExecutionStatus »](class.mysql-xdevapi-executionstatus.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\Executable](class.mysql-xdevapi-executable.md)

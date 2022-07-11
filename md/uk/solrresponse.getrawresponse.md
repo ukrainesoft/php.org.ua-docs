@@ -1,7 +1,5 @@
-- [«
-SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md)
-- [SolrResponse::getRawResponseHeaders
-»](solrresponse.getrawresponseheaders.md)
+- [« SolrResponse::getRawRequestHeaders](solrresponse.getrawrequestheaders.md)
+- [SolrResponse::getRawResponseHeaders »](solrresponse.getrawresponseheaders.md)
 
 - [PHP Manual](index.md)
 - [SolrResponse](class.solrresponse.md)

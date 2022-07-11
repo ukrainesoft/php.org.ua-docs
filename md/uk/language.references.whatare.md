@@ -1,5 +1,5 @@
 - [« Пояснення посилань](language.references.md)
-- [Що роблять посилання»] (language.references.whatdo.md)
+- [Що роблять посилання»](language.references.whatdo.md)
 
 - [PHP Manual](index.md)
 - [Пояснення посилань](language.references.md)

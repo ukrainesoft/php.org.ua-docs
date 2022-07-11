@@ -1,5 +1,4 @@
-- [«
-SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md)
+- [« SolrQueryResponse::\_\_construct](solrqueryresponse.construct.md)
 - [SolrUpdateResponse »](class.solrupdateresponse.md)
 
 - [PHP Manual](index.md)

@@ -1,7 +1,5 @@
-- [«
-Yaf_Response_Abstract::response](yaf-response-abstract.response.md)
-- [Yaf_Response_Abstract::setBody
-»](yaf-response-abstract.setbody.md)
+- [« Yaf_Response_Abstract::response](yaf-response-abstract.response.md)
+- [Yaf_Response_Abstract::setBody »](yaf-response-abstract.setbody.md)
 
 - [PHP Manual](index.md)
 - [Yaf_Response_Abstract](class.yaf-response-abstract.md)

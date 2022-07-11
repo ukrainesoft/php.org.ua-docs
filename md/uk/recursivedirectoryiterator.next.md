@@ -1,7 +1,5 @@
-- [«
-RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)
-- [RecursiveDirectoryIterator::rewind
-»](recursivedirectoryiterator.rewind.md)
+- [« RecursiveDirectoryIterator::key](recursivedirectoryiterator.key.md)
+- [RecursiveDirectoryIterator::rewind »](recursivedirectoryiterator.rewind.md)
 
 - [PHP Manual](index.md)
 - [RecursiveDirectoryIterator](class.recursivedirectoryiterator.md)

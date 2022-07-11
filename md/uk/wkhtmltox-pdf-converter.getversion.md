@@ -1,5 +1,4 @@
-- [«
-wkhtmltox\PDF\Converter::convert](wkhtmltox-pdf-converter.convert.md)
+- [« wkhtmltox\PDF\Converter::convert](wkhtmltox-pdf-converter.convert.md)
 - [wkhtmltox\PDF\Object »](class.wkhtmltox-pdf-object.md)
 
 - [PHP Manual](index.md)

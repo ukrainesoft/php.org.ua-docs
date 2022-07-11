@@ -1,7 +1,5 @@
-- [«
-ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md)
-- [ReflectionProperty::getDocComment
-»](reflectionproperty.getdoccomment.md)
+- [« ReflectionProperty::getDeclaringClass](reflectionproperty.getdeclaringclass.md)
+- [ReflectionProperty::getDocComment »](reflectionproperty.getdoccomment.md)
 
 - [PHP Manual](index.md)
 - [ReflectionProperty](class.reflectionproperty.md)

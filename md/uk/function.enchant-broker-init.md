@@ -1,6 +1,5 @@
 - [«enchant_broker_get_error](function.enchant-broker-get-error.md)
-- [enchant_broker_list_dicts
-»](function.enchant-broker-list-dicts.md)
+- [enchant_broker_list_dicts »](function.enchant-broker-list-dicts.md)
 
 - [PHP Manual](index.md)
 - [Функції Enchant](ref.enchant.md)

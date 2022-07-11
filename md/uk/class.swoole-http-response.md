@@ -1,5 +1,4 @@
-- [«
-Swoole\Http\Request::rawcontent](swoole-http-request.rawcontent.md)
+- [« Swoole\Http\Request::rawcontent](swoole-http-request.rawcontent.md)
 - [Swoole\Http\Response::cookie »](swoole-http-response.cookie.md)
 
 - [PHP Manual](index.md)

@@ -1,6 +1,5 @@
 - [«radius_get_attr](function.radius-get-attr.md)
-- [radius_get_tagged_attr_tag
-»](function.radius-get-tagged-attr-tag.md)
+- [radius_get_tagged_attr_tag »](function.radius-get-tagged-attr-tag.md)
 
 - [PHP Manual](index.md)
 - [Функції Radius](ref.radius.md)

@@ -16,8 +16,7 @@ gmp_legendre - Символ Лежандра
 **gmp_legendre**([GMP](class.gmp.md)\|int\|string `$num1`,
 [GMP](class.gmp.md)\|int\|string `$num2`): int
 
-Обчислює [» символ
-Лежандра](http://primes.utm.edu/glossary/page.php?sortu003dLegendreSymbol)
+Обчислює [» символ Лежандра](http://primes.utm.edu/glossary/page.php?sortu003dLegendreSymbol)
 чисел `num1` та `num2`. `num2` має бути непарним та позитивним.
 
 ### Список параметрів

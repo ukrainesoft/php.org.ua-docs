@@ -1,7 +1,5 @@
-- [«
-mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
-- [mysql_xdevapi\DatabaseObject
-»](class.mysql-xdevapi-databaseobject.md)
+- [« mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)
+- [mysql_xdevapi\DatabaseObject »](class.mysql-xdevapi-databaseobject.md)
 
 - [PHP Manual](index.md)
 - [mysql_xdevapi\CrudOperationSortable](class.mysql-xdevapi-crudoperationsortable.md)

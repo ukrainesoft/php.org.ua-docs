@@ -1,5 +1,4 @@
-- [«
-mysql_xdevapi\SchemaObject](class.mysql-xdevapi-schemaobject.md)
+- [« mysql_xdevapi\SchemaObject](class.mysql-xdevapi-schemaobject.md)
 - [mysql_xdevapi\Session »](class.mysql-xdevapi-session.md)
 
 - [PHP Manual](index.md)

@@ -1,5 +1,4 @@
-- [« Веб-сервер LiteSpeed/OpenLiteSpeed на системах
-Unix](install.unix.litespeed.md)
+- [« Веб-сервер LiteSpeed/OpenLiteSpeed на системах Unix](install.unix.litespeed.md)
 - [OpenBSD, зауваження щодо встановлення »](install.unix.openbsd.md)
 
 - [PHP Manual](index.md)
@@ -17,8 +16,7 @@ Unix](install.unix.litespeed.md)
 **Увага**
 
 Використовуючи інсталяцію CGI, ваш сервер відкритий перед кількома можливими
-вразливості. Будь ласка, ознайомтесь із розділом ["Безпека
-CGI"](security.cgi-bin.md) щоб дізнатися, як можна захистити себе від
+вразливості. Будь ласка, ознайомтесь із розділом ["Безпека CGI"](security.cgi-bin.md) щоб дізнатися, як можна захистити себе від
 таких атак.
 
 ### Тестування
@@ -31,8 +29,7 @@ CGI"](security.cgi-bin.md) щоб дізнатися, як можна захис
 ### Використання змінних
 
 Деякі [змінні оточення сервера](reserved.variables.server.md)
-не визначено у поточній [» специфікації
-CGI/1.1](http://www.faqs.org/rfcs/rfc3875). Визначено лише наступні
+не визначено у поточній [» специфікації CGI/1.1](http://www.faqs.org/rfcs/rfc3875). Визначено лише наступні
 змінні: `AUTH_TYPE`, `CONTENT_LENGTH`, `CONTENT_TYPE`,
 `GATEWAY_INTERFACE`, `PATH_INFO`, `PATH_TRANSLATED`, `QUERY_STRING`,
 `REMOTE_ADDR`, `REMOTE_HOST`, `REMOTE_IDENT`, `REMOTE_USER`,

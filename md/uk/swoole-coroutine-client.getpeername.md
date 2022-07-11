@@ -1,7 +1,5 @@
-- [«
-Swoole\Coroutine\Client::\_\_destruct](swoole-coroutine-client.destruct.md)
-- [Swoole\Coroutine\Client::getsockname
-»](swoole-coroutine-client.getsockname.md)
+- [« Swoole\Coroutine\Client::\_\_destruct](swoole-coroutine-client.destruct.md)
+- [Swoole\Coroutine\Client::getsockname »](swoole-coroutine-client.getsockname.md)
 
 - [PHP Manual](index.md)
 - [Swoole\Coroutine](class.swoole-coroutine.md)

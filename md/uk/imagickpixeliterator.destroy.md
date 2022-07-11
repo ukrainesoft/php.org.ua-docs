@@ -1,7 +1,5 @@
-- [«
-ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.md)
-- [ImagickPixelIterator::getCurrentIteratorRow
-»](imagickpixeliterator.getcurrentiteratorrow.md)
+- [« ImagickPixelIterator::\_\_construct](imagickpixeliterator.construct.md)
+- [ImagickPixelIterator::getCurrentIteratorRow »](imagickpixeliterator.getcurrentiteratorrow.md)
 
 - [PHP Manual](index.md)
 - [ImagickPixelIterator](class.imagickpixeliterator.md)
